@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser l’activité parcours d’action
-description: Découvrez comment ajouter une activité Action générique pour configurer des actions uniques et des groupes d’actions entrants multiactions dans la zone de travail du parcours.
+title: Utiliser l’activité de parcours Action
+description: Découvrez comment ajouter une activité Action générique pour configurer des actions uniques et des groupes d’actions entrantes multi-actions dans la zone de travail du parcours.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 39%
+ht-degree: 77%
 
 ---
 
@@ -22,33 +22,33 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Activité Action"
->abstract="L’activité générique **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en optimisant toute action de canal intégrée."
+>abstract="L’activité **Action** générique vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en ajoutant une optimisation à toute action de canal intégrée."
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 [!DNL Journey Optimizer] est fourni avec une nouvelle activité **Action** générique qui permet de configurer une action de canal intégrée unique, ainsi que plusieurs activités entrantes.
 
-Il permet d’effectuer les opérations suivantes :
+Elle permet d’effectuer les opérations suivantes :
 
 * Configuration d’action native simplifiée dans la zone de travail de parcours
-* Capacité à créer des groupes d’actions entrants multiactions.
-* Possibilité d’ajouter une optimisation à toute action de canal intégrée
+* Création de groupes d’actions entrantes multi-actions
+* Ajout d’une optimisation à toute action de canal intégrée
 
 >[!NOTE]
 >
 >Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [En savoir plus](#recommendation)
 
-## Ajout d’une action à un parcours  {#add-action}
+## Ajouter une action à un parcours  {#add-action}
 
 Pour ajouter une action de canal intégrée à un parcours, procédez comme suit :
 
 1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture d’audience](read-audience.md).
 
-1. Dans la section **[!UICONTROL Actions]** de la palette, effectuez un glisser-déposer d’une activité **[!UICONTROL Action]** dans la zone de travail.
+1. Dans la section **[!UICONTROL Actions]** de la palette, placez une activité **[!UICONTROL Action]** dans la zone de travail.
 
-1. Sélectionnez l’activité de canal intégrée que vous souhaitez exploiter dans votre parcours.
+1. Sélectionnez l’activité de canal intégrée que vous souhaitez utiliser dans votre parcours.
 
    ![](assets/journey-action-type-cbe.png)
 
@@ -68,7 +68,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 1. Utilisez la section **[!UICONTROL Optimisation]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage.
 
-   Ces différentes options et les étapes à suivre sont présentées en détail dans [cette section](../campaigns/campaigns-message-optimization.md).
+   Ces différentes options et les étapes à suivre sont présentées dans [cette section](../campaigns/campaigns-message-optimization.md).
 
 1. Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre action de parcours. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez l’option **[!UICONTROL Paramètres de langue]** souhaitée.
 
@@ -139,21 +139,21 @@ Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier 
 >title="Ajouter plusieurs actions entrantes"
 >abstract="Vous pouvez sélectionner plusieurs actions entrantes au sein d’un même parcours. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique."
 
-Pour simplifier votre orchestration des parcours, vous pouvez définir plusieurs actions entrantes dans une seule action de parcours.
+Pour simplifier votre orchestration de parcours, vous pouvez définir plusieurs actions entrantes dans une seule action de parcours.
 
 >[!NOTE]
 >
 >Cette fonctionnalité est uniquement disponible pour les canaux entrants. Actuellement, les canaux sortants tels que les e-mails ne sont pas pris en charge.
 
-Cette capacité vous permet de diffuser simultanément différentes expériences basées sur le code, des messages in-app, des cartes de contenu ou des actions web à différents emplacements, sans avoir à créer plusieurs actions de parcours. Cela facilite le déploiement de votre parcours et permet des rapports plus fluides, avec toutes les données consolidées dans un seul parcours.
+Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, sans avoir besoin de créer plusieurs actions de parcours. Le déploiement de votre parcours en est facilité et les rapports sont plus fluides, toutes les données étant consolidées dans un seul parcours.
 
 Par exemple, vous pouvez envoyer une expérience basée sur du code à plusieurs points d’entrée avec des contenus légèrement différents. Pour ce faire, créez plusieurs actions basées sur du code dans la même action de parcours, chacune avec une configuration de point d’entrée différente.
 
-Pour définir plusieurs actions entrantes dans un seul nœud d’action de parcours, procédez comme suit.
+Pour définir plusieurs actions entrantes dans une action de parcours, procédez comme suit.
 
 1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture d’audience](read-audience.md).
 
-1. Dans la section **[!UICONTROL Actions]** de la palette, effectuez un glisser-déposer d’une activité **[!UICONTROL Action]** dans la zone de travail.
+1. Dans la section **[!UICONTROL Actions]** de la palette, placez une activité **[!UICONTROL Action]** dans la zone de travail.
 
 1. Sélectionnez **[!UICONTROL Action multiple]** comme type d’action.
 
@@ -175,7 +175,7 @@ Pour définir plusieurs actions entrantes dans un seul nœud d’action de parco
 
    ![](assets/journey-multi-action-add.png){width="80%"}
 
-1. Procédez de la même manière pour ajouter d’autres actions. Vous pouvez ajouter jusqu’à 10 actions entrantes dans un groupe d’actions de parcours.
+1. Procédez de la même manière pour ajouter d’autres actions. Vous pouvez ajouter jusqu’à 10 actions entrantes dans un groupe d’actions de parcours.
 
 Une fois le parcours [actif](publishing-the-journey.md), toutes les actions sont activées simultanément.
 <!--

@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -113,7 +113,7 @@ Observateur ou observatrice de campagnes orchestrées
 
 Si vous ne parvenez pas à accéder aux fonctionnalités des campagnes, contactez votre équipe d’administration pour demander les autorisations nécessaires.
 
-+++Découvrez comment attribuer un rôle lié à la campagne
++++Découvrir comment attribuer un rôle lié à la campagne
 
 1. Pour attribuer un rôle à un utilisateur ou une utilisatrice dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez l’un des **[!UICONTROL Rôles]** liés à la campagne intégrée précisés ci-dessous.
 

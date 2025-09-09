@@ -6,7 +6,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ En outre, Journey Optimizer vous permet d’utiliser les attributs de l’ident
    * Si le parcours ne prend pas en charge la rentrée, la même combinaison d’identifiant de profil + identifiant supplémentaire ne peut pas réintégrer le parcours.
    * Si le parcours prend en charge la rentrée avec une période, la même combinaison d’identifiant de profil + identifiant supplémentaire peut réintégrer après la période définie.
 
-* **Data Use Labeling and Enforcement (DULE)** - Aucune vérification de validation DULE n’est effectuée sur l’ID supplémentaire. Cela signifie que cet attribut ne sera pas pris en compte lorsque le parcours recherche des violations de la politique de gouvernance des données.
+* **DULE (Data Use Labeling and Enforcement)** - Aucune vérification de validation DULE n’est effectuée sur l’ID supplémentaire. Cela signifie que cet attribut n’est pas pris en compte lorsque le parcours recherche des violations de la politique de gouvernance des données.
 
 * **Configuration des événements en aval**
 
@@ -102,7 +102,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours déclenché par un
 
    1. Sélectionnez l’espace de noms à associer à l’identifiant supplémentaire. Il doit s’agir d’un espace de noms d’identifiant qui ne porte pas sur une personne.
 
-      Après avoir appliqué l’espace de noms d’identité non-personne à un schéma, vous devez créer un événement pour utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
+      Après avoir appliqué à un schéma l’espace de noms d’identité qui ne porte pas sur une personne, vous devez créer un événement pour utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
 
 1. **Ajoutez l’ID supplémentaire à l’événement.**
 
@@ -144,7 +144,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’aud
 
    1. Sélectionnez l’espace de noms à associer à l’identifiant supplémentaire. Il doit s’agir d’un espace de noms d’identifiant qui ne porte pas sur une personne.
 
-      Après avoir appliqué l’espace de noms d’identité non-personne à un schéma, vous devez créer un nouveau groupe de champs pour utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
+      Une fois que l’espace de noms d’identité qui ne porte pas sur une personne a été attribué à un schéma, vous devez créer un nouveau groupe de champs pour utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -251,4 +251,4 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

@@ -11,7 +11,7 @@ exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -121,11 +121,11 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Ouvrez le menu **[!UICONTROL Assistant IA]**.
 
-1. Ajustez le contenu en saisissant la demande souhaitée dans la zone **[!UICONTROL Invite]** en français, espagnol, allemand, italien, japonais, suédois, néerlandais ou norvégien.
+1. Ajustez le contenu en saisissant la demande souhaitée dans la zone **[!UICONTROL Prompt]** en français, espagnol, allemand, italien, japonais, suédois, néerlandais ou norvégien.
 
-1. Personnalisez votre invite à l’aide de l’option **[!UICONTROL Paramètres de texte]** et sélectionnez les **[!UICONTROL Langues]** de votre choix pour le contenu généré.
+1. Personnalisez votre prompt à l’aide de l’option **[!UICONTROL Paramètres de texte]** et sélectionnez les **[!UICONTROL langues]** de votre choix pour le contenu généré.
 
-1. Personnalisez davantage votre invite selon vos besoins, puis cliquez sur **[!UICONTROL Générer]**.
+1. Personnalisez davantage votre prompt selon vos besoins, puis cliquez sur **[!UICONTROL Générer]**.
 
 1. Examinez les **[!UICONTROL suggestions de variation]** dans la langue sélectionnée.
 

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '2733'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -267,7 +267,7 @@ Pour en savoir plus sur les politiques de fusion, consultez la [documentation d�
 >title="Critères de sortie"
 >abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles et un ou plusieurs filtres de critères de sortie pour votre parcours."
 
-### Critères de sortie du parcours {#exit-criteria-desc}
+### Critères de sortie de parcours {#exit-criteria-desc}
 
 En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela évite à l’utilisateur ou à l’utilisatrice de recevoir d’autres communications du parcours.
 
@@ -299,38 +299,38 @@ Vous pouvez ajouter plusieurs critères de sortie.
 ![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
-### Critères de sortie basés sur les attributs de profil {#profile-exit-criteria}
+### Critères de sortie basés sur des attributs de profil {#profile-exit-criteria}
 
-Les critères de sortie basés sur les attributs de profil vous donnent un meilleur contrôle sur les parcours en pause en vous permettant de définir des règles qui suppriment automatiquement des profils spécifiques avant la reprise du parcours. Vous pouvez définir des conditions de sortie en fonction des attributs de profil (tels que l’emplacement, le statut ou les préférences) afin de vous assurer que seuls les profils pertinents continuent dans le parcours après sa reprise.
+Les critères de sortie basés sur des attributs de profil vous donnent un meilleur contrôle sur les parcours en pause en vous permettant de définir des règles qui suppriment automatiquement des profils spécifiques avant la reprise du parcours. Vous pouvez définir des conditions de sortie en fonction des attributs de profil (tels que l’emplacement, le statut ou les préférences) afin de vous assurer que seuls les profils pertinents poursuivent le parcours après sa reprise.
 
 Par exemple, vous pouvez [mettre un parcours en pause](journey-pause.md), ajouter une condition de sortie pour supprimer tous les profils situés en France et reprendre le parcours en sachant que ces profils seront exclus à l’étape d’action suivante. Cette logique s’applique à la fois aux profils déjà présents dans le parcours et aux nouveaux profils qui remplissent les critères après la reprise du parcours.
 
-Cette fonctionnalité fonctionne avec la fonctionnalité Pause/Reprendre , ce qui vous permet de gérer les parcours de manière plus sécurisée et plus flexible. Il minimise les interventions manuelles, réduit le risque d’envoi de communications non pertinentes ou non conformes et maintient votre logique de parcours alignée sur les besoins actuels de l’entreprise.
+Cette fonction complète la fonctionnalité Mettre en pause/Reprendre, ce qui vous permet de gérer les parcours de manière plus sécurisée et plus flexible. Elle minimise les interventions manuelles, réduit le risque d’envoi de communications non pertinentes ou non conformes et maintient votre logique de parcours alignée sur les besoins actuels de l’entreprise.
 
-Reportez-vous à cette section pour savoir comment [utiliser les critères de sortie d’attribut de profil dans les parcours en pause](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+Reportez-vous à cette section pour savoir comment [utiliser les critères de sortie d’attribut de profil dans les parcours mis en pause](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
 
 ### Mécanismes de sécurisation et limitations {#exit-criteria-guardrails}
 
-Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [&#128279;](#exit-criteria-desc) :
+Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité de [critère de sortie de parcours](#exit-criteria-desc) :
 
 * Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement
 
-Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation de la fonctionnalité [Critères de sortie basés sur les attributs de profil](#profile-exit-criteria) :
+Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation de la fonctionnalité [Critères de sortie basés sur des attributs de profil](#profile-exit-criteria) :
 
-* **Les critères de sortie s’appliquent au niveau de l’action**\
-  Les critères de sortie « Attribut de profil » sont évalués uniquement aux étapes d’action. Contrairement aux autres types de critères de sortie, ils ne s’appliquent pas globalement au parcours.\
+* **Les critères de sortie s’appliquent au niveau de l’action**.\
+  Les critères de sortie « Attribut de profil » sont évalués uniquement aux étapes d’action. Contrairement aux autres types de critères de sortie, ils ne s’appliquent pas globalement au parcours.\
   Si vous reprenez un parcours et que certains profils remplissent la condition de sortie, ces profils seront exclus au nœud d’action suivant.\
   Les nouveaux profils qui rejoignent le parcours après la reprise seront également évalués et exclus au niveau de leur premier nœud d’action, s’ils remplissent la condition.
 
 * **Une règle de sortie basée sur un profil par parcours**\
-  Vous pouvez définir un seul critère de sortie « Attribut de profil » par parcours. Cette limitation permet de maintenir la clarté et d’éviter les conflits dans la logique de parcours.
+  Vous pouvez définir un seul critère de sortie « Attribut de profil » par parcours. Cette limitation permet de maintenir la clarté et d’éviter les conflits dans la logique de parcours.
 
-* **Disponible uniquement dans les parcours en pause**\
-  Vous pouvez ajouter ou modifier des critères de sortie « Attribut de profil » uniquement lorsque le parcours est en pause.
+* **Disponible uniquement dans les parcours mis en pause**\
+  Vous pouvez ajouter ou modifier des critères de sortie « Attribut de profil » uniquement lorsque le parcours est mis en pause.
 
    * Dans un **brouillon de parcours**, l’option *Attribut de profil* apparaît désactivée (lecture seule), tandis que les options *Événement* et *Audience* restent actives.
-   * Dans un **parcours en pause**, l’option *Attribut de profil* devient modifiable et les options *Événement* et *Audience* deviennent en lecture seule.
+   * Dans un **parcours mis en pause**, l’option *Attribut de profil* devient modifiable et les options *Événement* et *Audience* sont en lecture seule.
 
 ## Planning du parcours {#schedule}
 

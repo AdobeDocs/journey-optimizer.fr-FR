@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
 
    * Au moins une clé primaire
    * Un identifiant de version, tel qu’un champ `lastmodified` de type `datetime` ou `number`.
-   * Pour l’ingestion Change Data Capture (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel. Notez que le `_change_request_type` ne doit pas faire partie du schéma de la table, il doit uniquement être ajouté au fichier de données lors de l’ingestion.
+   * Pour l’ingestion Capture des données modifiées (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel. Notez que le `_change_request_type` ne doit pas faire partie du schéma de la table, il doit uniquement être ajouté au fichier de données lors de l’ingestion.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 

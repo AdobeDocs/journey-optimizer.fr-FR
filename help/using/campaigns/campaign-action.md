@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
 1. **Utiliser l’optimisation**
 
-   Utilisez la section **[!UICONTROL Optimisation]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage. Ces différentes options et les étapes à suivre sont présentées en détail dans [cette section](campaigns-message-optimization.md).
+   Utilisez la section **[!UICONTROL Optimisation]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage. Ces différentes options et les étapes à suivre sont présentées dans [cette section](campaigns-message-optimization.md).
 <!--
 1. **Create a content experiment**
 
@@ -78,7 +78,7 @@ Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimize
 
 +++**Attribuer des scores de priorité** (web, in-app, basé sur du code)
 
-L’attribution d’un score de priorité à la campagne vous permet de donner la priorité à une campagne entrante lorsqu’une contrainte telle qu’une limitation de fréquence est imposée. Saisissez une valeur numérique (comprise entre 0 et 100). Notez que plus le nombre est élevé, plus la priorité l’est aussi. [Découvrir comment attribuer des scores de priorité aux parcours et campagnes](../conflict-prioritization/priority-scores.md)
+L’attribution d’un score de priorité à la campagne vous permet de donner la priorité à une campagne entrante en cas de contrainte imposée, par exemple un capping de fréquence. Saisissez une valeur numérique (comprise entre 0 et 100). Notez que plus le nombre est élevé, plus la priorité est importante. [Découvrir comment attribuer des scores de priorité aux parcours et campagnes](../conflict-prioritization/priority-scores.md)
 
 +++
 

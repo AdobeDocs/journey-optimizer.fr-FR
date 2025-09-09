@@ -8,24 +8,24 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # Activités de campagne orchestrée {#orchestrate}
 
-Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md), vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera. Pour ce faire, une zone de travail visuelle est fournie, vous permettant de créer une zone de travail de campagne orchestrée. Dans cette zone de travail, vous pouvez ajouter différentes activités et les connecter dans un ordre séquentiel.
+Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md), vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera. Pour ce faire, une zone de travail visuelle dédiée vous permet de créer une zone de travail de campagne orchestrée. Dans cette zone de travail, vous pouvez ajouter différentes activités et les relier dans un ordre séquentiel.
 
 ## Ajouter des activités {#add}
 
-À ce stade de la configuration, la zone de travail de la campagne orchestrée s’affiche avec une icône de début, qui représente le début de votre campagne orchestrée. Pour ajouter votre première activité, cliquez sur le bouton **+** associé à l’icône de démarrage.
+À ce stade de la configuration, la zone de travail de la campagne orchestrée comporte une icône de démarrage, qui représente le début de votre campagne orchestrée. Pour ajouter votre première activité, cliquez sur le bouton **+** associé à l’icône de démarrage.
 
-La liste des activités pouvant être ajoutées à la zone de travail de campagne orchestrée s’affiche. Les activités disponibles dépendent de votre position dans la zone de travail de campagne orchestrée. Par exemple, lorsque vous ajoutez votre première activité pour démarrer votre campagne orchestrée en ciblant une audience, fractionner le chemin de campagne orchestrée ou définir une activité **Attente** pour retarder l’exécution de la campagne. D’autres choix s’offrent à vous après une activité **Créer une audience** : vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de la campagne orchestrée avec des activités de contrôle de flux.
+La liste des activités pouvant être ajoutées à la zone de travail de la campagne orchestrée s’affiche. Les activités disponibles dépendent de votre position dans la zone de travail de la campagne orchestrée. Par exemple, lorsque vous ajoutez votre première activité pour démarrer votre campagne orchestrée en ciblant une audience, fractionner le chemin de campagne orchestrée ou définir une activité **Attente** pour retarder l’exécution de la campagne. D’autres choix s’offrent à vous après une activité **Créer une audience** : vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de la campagne orchestrée avec des activités de contrôle de flux.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Une fois qu’une activité a été ajoutée à la zone de travail, un volet de droite s’affiche, vous permettant de la configurer avec des paramètres spécifiques. Des informations détaillées sur la configuration de chacune des activités sont disponibles dans [cette section](activities/about-activities.md).
+Une fois qu’une activité a été ajoutée à la zone de travail, un volet s’affiche à droite, permettant de définir des paramètres spécifiques. Des informations détaillées sur la configuration de chacune des activités sont disponibles dans [cette section](activities/about-activities.md).
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
@@ -107,4 +107,4 @@ Dans le cadre de ce workflow, les activités suivantes ont été ajoutées :
 
 ## Étapes suivantes {#next}
 
-Une fois la zone de travail de la campagne orchestrée créée, vous pouvez l’exécuter et suivre l’avancement de ses différentes tâches. [Découvrez comment démarrer une campagne orchestrée et surveiller son exécution](start-monitor-campaigns.md).
+Après la conception de la zone de travail de la campagne orchestrée, vous pouvez exécuter la campagne orchestrée et suivre la progression de ses différentes tâches. [Découvrez comment démarrer une campagne orchestrée et surveiller son exécution](start-monitor-campaigns.md).

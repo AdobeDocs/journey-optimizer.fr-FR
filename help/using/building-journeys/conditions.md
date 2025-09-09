@@ -15,7 +15,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1601'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -24,23 +24,23 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Conditions"
->abstract="Les conditions permettent de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide."
+>abstract="L’activité Condition permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide."
 
-Avec **conditions** vous pouvez définir la progression des individus dans votre parcours en créant plusieurs chemins d’accès en fonction de critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide.
+Les **conditions** vous permettent de définir la progression des individus dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide.
 
 >[!AVAILABILITY]
 >
 >Ces conditions sont disponibles par le biais de l’activité **Optimiser**, accessible à la demande en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 >
->Si vous n’avez pas accès à cette capacité, vous pouvez tout de même utiliser l’ancienne [activité de condition](condition-activity.md).
+>Si vous n’avez pas accès à cette fonctionnalité, vous pouvez tout de même utiliser l’ancienne [activité Condition](condition-activity.md).
 
 ## Ajouter une condition {#add-condition-activity}
 
-Pour ajouter une condition à votre parcours, procédez comme suit.
+Pour ajouter une condition à votre parcours, procédez comme suit :
 
 1. Déposez l’activité **[!UICONTROL Optimiser]** dans la zone de travail du parcours. [En savoir plus](optimize.md)
 
-1. Ajoutez un libellé facultatif pour identifier l’activité dans les journaux des modes de reporting et de test.
+1. Ajoutez un libellé facultatif pour identifier l’activité dans les journaux de mode de test et les rapports.
 
 1. Sélectionnez une condition dans la liste déroulante **[!UICONTROL Méthode]**.
 
@@ -74,16 +74,16 @@ Prenons l’exemple de la condition « La personne est un VIP » d’un premie
 
 ![](assets/journey48.png)
 
-Vous pouvez créer un autre chemin pour les audiences qui ne sont pas éligibles aux conditions définies en cochant **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**.
+Vous pouvez créer un autre chemin pour les audiences qui ne sont pas éligibles aux conditions définies en cochant la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**.
 
 >[!NOTE]
 >
->Cette option n’est pas disponible dans les conditions de division. [En savoir plus](#percentage_split)
+>Cette option n’est pas disponible dans les conditions de partage. [En savoir plus](#percentage_split)
 
 Le mode simple vous permet d’exécuter des requêtes simples en fonction d’une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Faites glisser des champs dans la zone principale. Pour combiner les différents éléments, imbriquez-les afin de créer différents groupes et/ou niveaux de groupes. Vous pouvez alors sélectionner un opérateur logique afin de combiner les éléments de même niveau :
 
-* **AND** - intersection de deux critères. Seuls les éléments répondant à tous les critères sont pris en compte.
-* **OR** - Une union de deux critères. Les éléments répondant à au moins l’un des deux critères sont pris en compte.
+* **ET** : intersection de deux critères. Seuls les éléments répondant à tous les critères sont pris en compte.
+* **OU** : union de deux critères. Les éléments répondant à au moins l’un des deux critères sont pris en compte.
 
 ![](assets/journey64.png){width=80%}
 
@@ -99,11 +99,11 @@ Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours,
 
 ## Condition de source de données {#data_source_condition}
 
-Utilisez une **[!UICONTROL condition de source de données]** pour définir une condition en fonction des champs des sources de données ou des événements positionnés précédemment dans le parcours. Ce type de condition est défini à l’aide de l’éditeur d’expression. [Découvrez comment utiliser l’éditeur d’expression](expression/expressionadvanced.md)
+Utilisez une **[!UICONTROL condition de source de données]** pour définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Ce type de condition est défini à l’aide de l’éditeur d’expression. [En savoir plus sur l’utilisation de l’éditeur d’expression](expression/expressionadvanced.md)
 
 Par exemple, si vous ciblez une audience avec des attributs d’enrichissement générés à l’aide d’un workflow de composition ou d’un chargement personnalisé (fichier CSV), vous pouvez utiliser ces attributs d’enrichissement pour créer votre condition.
 
-L’éditeur d’expression avancée vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. [En savoir plus](../datasource/external-data-sources.md)
+L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. [En savoir plus](../datasource/external-data-sources.md)
 
 ![](assets/journey50.png){width=80%}
 
@@ -137,15 +137,15 @@ Utilisez une **[!UICONTROL Condition de temps]** pour effectuer des actions diff
 >
 >* Le fuseau horaire n’est plus spécifique à une condition et est désormais défini au niveau du parcours dans les propriétés de celui-ci. [En savoir plus](../building-journeys/timezone-management.md)
 >
->* Par défaut, la **[!UICONTROL condition de temps]** est définie par heure, de 00:00 à 12:00.
+>* Par défaut, la **[!UICONTROL Condition de temps]** est définie par heure, de 00:00 à 12:00.
 
 ![](assets/journey51.png)
 
 Trois options de filtrage temporel sont disponibles :
 
-* **Heure** - Permet de configurer une condition en fonction de l’heure de la journée. Vous définissez ensuite les heures de début et de fin. Les personnes ne saisissent le chemin d’accès que pendant la plage d’heures définie.
-* **Jour de la semaine** - Permet de configurer une condition en fonction du jour de la semaine. Vous sélectionnez ensuite les jours où vous souhaitez que les individus rejoignent le chemin d’accès.
-* **Jour de la semaine et heure** - Cette option combine les deux premières options.
+* **Heure** : vous permet de configurer une condition en fonction de l’heure de la journée. Vous définissez ensuite les heures de début et de fin. Les personnes ne saisissent le chemin d’accès que pendant la plage d’heures définie.
+* **Jour de la semaine** : vous permet de configurer une condition en fonction du jour de la semaine. Vous sélectionnez ensuite les jours où vous souhaitez que les individus rejoignent le chemin.
+* **Jour de la semaine et heure** : cette option regroupe les deux premières options.
 
 ## Limite de profils {#profile_cap}
 
@@ -174,13 +174,13 @@ La limite de profils n’est pas prise en compte en mode test.
 
 ![](assets/profile-cap-condition.png)
 
-## Utilisation d’audiences dans des conditions {#using-a-segment}
+## Utiliser des audiences dans des conditions {#using-a-segment}
 
 Cette section explique comment utiliser une audience dans une condition de parcours. Pour plus d’informations sur les audiences et sur la manière de les créer, consultez [cette section](../audience/about-audiences.md).
 
 Pour utiliser une audience dans une condition de parcours, procédez comme suit :
 
-1. Ouvrez un parcours, déposez une activité **[!UICONTROL Optimiser]** et choisissez la **[!UICONTROL Condition de source de données]**.
+1. Ouvrez un parcours, déposez une activité **[!UICONTROL Optimiser]** et choisissez la **[!UICONTROL condition de source de données]**.
 
    ![](assets/segment3.png)
 

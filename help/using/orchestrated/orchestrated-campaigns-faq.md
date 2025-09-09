@@ -10,7 +10,7 @@ exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
 source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 7%
+ht-degree: 23%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 7%
 
 Vous trouverez ci-dessous les questions fréquentes sur les campagnes orchestrées Adobe Journey Optimizer.
 
-Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour soulever votre question.
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question.
 
 ## Qu’est-ce que l’orchestration des campagnes ? {#what-are-oc}
 
 L’orchestration des campagnes est une fonctionnalité de Journey Optimizer qui prend en charge les workflows en une ou plusieurs étapes qui utilisent le magasin de données relationnelles pour créer et segmenter les audiences dans le but d’un engagement par lots.
 
-Journey Optimizer intègre un nouveau type de campagnes : **Campagnes orchestrées**. Les campagnes orchestrées aident les marques à exécuter des campagnes marketing complexes de type « un à plusieurs » à grande échelle. Ils sont conçus pour l’engagement initié par la marque, tel que les promotions, les campagnes saisonnières ou les communications basées sur un compte.
+Journey Optimizer intègre un nouveau type de campagnes : **Campagnes orchestrées**. Les campagnes orchestrées aident les marques à exécuter des campagnes marketing complexes de type « un à plusieurs » à grande échelle. Elles sont conçues pour l’engagement initié par la marque, tel que les promotions, les campagnes saisonnières ou les communications basées sur un compte.
 
 Par rapport aux campagnes à envoi unique/action, elles apportent l’**orchestration et le séquencement** au marketing sortant : les audiences passent par un workflow à plusieurs étapes ensemble, plutôt que de recevoir une seule opération.
 
@@ -32,10 +32,10 @@ Par rapport aux campagnes à envoi unique/action, elles apportent l’**orchestr
 
 Les fonctionnalités principales sont les suivantes :
 
-* **Audiences à la demande** : créez et affinez instantanément des groupes cibles à l’aide de requêtes relationnelles.
-* **Segmentation d’entités multiples** : créez des audiences précises en connectant les données client à des entités associées (par exemple, comptes, achats, réservations).
-* **Visibilité de pré-envoi** : consultez un nombre précis d’audiences avant le lancement pour optimiser le ciblage.
-* **Workflows à plusieurs étapes** : exécutez des campagnes séquencées telles que des promotions saisonnières, des lancements de produits ou des offres de fidélité.
+* **Audiences à la demande** : créez et affinez instantanément des groupes cibles à l’aide de requêtes relationnelles.
+* **Segmentation d’entités multiples** : créez des audiences précises en connectant les données client à des entités associées (par exemple, comptes, achats, réservations).
+* **Visibilité avant l’envoi** : obtenez une évaluation précise de la taille des audiences avant le lancement pour optimiser le ciblage.
+* **Workflows à plusieurs étapes** : exécutez des campagnes séquencées telles que des promotions saisonnières, des lancements de produits ou des offres de fidélité.
 
 >[!BEGINSHADEBOX]
 
@@ -53,7 +53,7 @@ Les fonctionnalités principales sont les suivantes :
 Pour accéder à l’orchestration de campagne, votre licence doit inclure le package **Journey Optimizer - Campagnes et parcours** ou **Journey Optimizer - Campagnes**. Contactez votre représentant ou représentante Adobe pour confirmer votre licence et effectuer une mise à jour si nécessaire.
 
 
-## Quels canaux sont pris en charge ? {#channels}
+## Quels canaux sont pris en charge ? {#channels}
 
 Vous pouvez créer des campagnes orchestrées pour envoyer des **e-mails**, **SMS** et **notifications push**.
 
@@ -72,7 +72,7 @@ Vous pouvez créer des campagnes orchestrées pour envoyer des **e-mails**, **SM
 ## En quoi les campagnes orchestrées sont-elles différentes des Parcours ? {#oc-vs-journeys}
 
 * **Campagnes orchestrées** : idéal pour les campagnes **par lots, de type « un à plusieurs »**. Les audiences progressent en bloc, selon un planning.
-* **Parcours** : idéal pour l’engagement **en temps réel, individuel**. Chaque client ou cliente passe par le parcours à son propre rythme, déclenché par un comportement ou des événements.
+* **Parcours** : parfaits pour l’engagement **en temps réel, de type « un-à-plusieurs »**. Chaque client ou cliente suit le parcours à son propre rythme, déclenché par un comportement ou des événements.
 
 >[!BEGINSHADEBOX]
 
@@ -92,7 +92,7 @@ raffiné.
 >[!ENDSHADEBOX]
 
 
-## Comment fonctionne le modèle de données ? {#data-model}
+## Comment fonctionne le modèle de données ? {#data-model}
 
 Les campagnes utilisent une **base de données relationnelle**. Vous pouvez ainsi interroger différents jeux de données (par exemple, clients, produits, abonnements) et les connecter de manière flexible pour une segmentation avancée.
 
@@ -106,7 +106,7 @@ Les campagnes utilisent une **base de données relationnelle**. Vous pouvez ains
 
 >[!ENDSHADEBOX]
 
-## Puis-je personnaliser les messages avec ces données ? {#personalization}
+## Puis-je personnaliser les messages avec ces données ? {#personalization}
 
 Oui. Dans Campaign Orchestration, un profil de destinataire appelé « Entité de personnes » peut être mis à jour et ces données sont utilisées pour la personnalisation. En outre, les données enrichies des entités liées dans la base de données relationnelle peuvent également être utilisées pour la personnalisation. Vous pouvez utiliser les profils client ainsi que les données liées (comme les achats ou les abonnements) pour personnaliser le contenu sur tous les canaux pris en charge.
 
@@ -121,15 +121,15 @@ Oui. Dans Campaign Orchestration, un profil de destinataire appelé « Entité d
 >[!ENDSHADEBOX]
 
 
-## S’intègre-t-il à d’autres solutions Adobe ? {#integrations}
+## S’intègrent-elles à d’autres solutions Adobe ? {#integrations}
 
 Oui. L’orchestration des campagnes est intégrée nativement à :
 
-* **Customer Journey Analytics** : les rapports d&#39;orchestration de Campaign sont disponibles.
+* **Customer Journey Analytics** : les rapports d’orchestration de campagne sont disponibles.
 * **Real-Time CDP** : les audiences créées dans les campagnes peuvent être lues dans Real-Time CDP.
-* **Composition d’audience fédérée (FAC)** : disponible sous la forme d’un module complémentaire.
+* **Composition d’audiences fédérées** : disponible sous la forme de module complémentaire.
 
-## Qu’en est-il des autorisations et du consentement ? {#permissions}
+## Qu’en est-il des autorisations et du consentement ? {#permissions}
 
 Les autorisations et le consentement pour les campagnes et les parcours orchestrés sont gérés de manière centralisée dans Adobe Experience Platform. Ces paramètres sont appliqués aux deux solutions pour chaque destinataire avant l’envoi.
 
@@ -143,7 +143,7 @@ Les autorisations et le consentement pour les campagnes et les parcours orchestr
 
 >[!ENDSHADEBOX]
 
-## Puis-je effectuer une segmentation ad hoc ? {#ad-hoc}
+## Puis-je effectuer une segmentation ad hoc ? {#ad-hoc}
 
 Dans l’orchestration de Campaign, nous appelons la segmentation ad hoc « segmentation en direct », où vous pouvez accéder à toutes les données disponibles dans la boutique relationnelle en temps réel, créer une requête complexe par-dessus et obtenir le résultat pour une activation instantanée via les canaux sortants (par exemple : e-mail + SMS).
 
@@ -158,7 +158,7 @@ Dans l’orchestration de Campaign, nous appelons la segmentation ad hoc « segm
 >[!ENDSHADEBOX]
 
 
-## Cela permet-il de prendre des décisions ? {#decisioning}
+## La prise de décision est-elle prise en charge ? {#decisioning}
 
 Oui. Decisioning peut utiliser des données relationnelles provenant de campagnes orchestrées. Une fois le schéma relationnel connecté aux schémas XDM, les données XDM peuvent être utilisées dans la prise de décision.
 

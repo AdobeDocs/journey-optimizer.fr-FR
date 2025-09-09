@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Pour tester une campagne orchestrée, ouvrez la campagne et sélectionnez **[!UI
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin de la zone de travail soit atteinte. Lors du test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
+Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à la fin de la zone de travail. Lors du test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
 
 * **Arrêtez** l’exécution à tout moment.
 * **Démarrez** l’exécution à nouveau.
@@ -116,4 +116,4 @@ Sous les deux onglets, vous pouvez choisir les colonnes à afficher et leur ordr
 
 ## Étapes suivantes {#next}
 
-Après avoir démarré la zone de travail de campagne orchestrée, vous pouvez utiliser les fonctionnalités de création de rapports de Journey Optimizer pour obtenir des informations, telles que la compréhension du comportement de l’audience et la mesure des performances de chaque étape de votre parcours client. [En savoir plus sur la création de rapports des campagnes orchestrées](../orchestrated/reporting-campaigns.md)
+Après avoir démarré la zone de travail de la campagne orchestrée, vous pouvez utiliser les fonctionnalités de création de rapports de Journey Optimizer pour obtenir des informations, telles que le comportement de l’audience et la mesure des performances de chaque étape de votre parcours client. [En savoir plus sur la création de rapports sur les campagnes orchestrées](../orchestrated/reporting-campaigns.md)

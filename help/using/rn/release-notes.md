@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 67%
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 67%
 <td>
 <p>Utilisez le nouveau nœud Optimiser pour cibler des audiences spécifiques ou exécuter des tests A/B afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier.</p>
 <p>Cet outil vous permet de tester, varier et personnaliser les communications, le séquencement et les délais afin d’atteindre avec précision votre clientèle.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/optimize.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 4 septembre 2025</p>
@@ -56,7 +56,7 @@ ht-degree: 67%
 <tr>
 <td>
 <p>Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode de délégation personnalisée. Elle vous permet de contrôler et de gérer totalement l’ensemble des aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/delegate-custom-subdomain.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 4 septembre 2025</p>
 </td>
@@ -99,7 +99,7 @@ ht-degree: 67%
 
   **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où une erreur de configuration du canal e-mail se produirait à l’aide du type de délégation de sous-domaine personnalisé. [En savoir plus](../reports/alerts.md#alert-dns-record-missing)
 
-## Notes de mise à jour du 25 août {#25-8-rn}
+## Notes de mise à jour d’août 2025 {#25-8-rn}
 
 **Date de publication** : 19 août 2025
 
@@ -226,11 +226,11 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <p>Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des actions uniques et des groupes d’actions entrantes multiples, ce qui simplifie la configuration des actions dans la zone de travail de parcours. Cette nouvelle fonctionnalité permet notamment les opérations suivantes :</p>
 <ul>
 <li>Configuration d’action native simplifiée dans la zone de travail de parcours</li>
-<li>Capacité à créer des groupes d’actions entrants multiactions.</li>
-<li>Possibilité d’ajouter une optimisation à toute action de canal intégrée</li>
+<li>Création de groupes d’actions entrantes multi-actions</li>
+<li>Ajout d’une optimisation à toute action de canal intégrée</li>
 <li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-action.md">documentation détaillée</a>.</p>
 </td>
@@ -253,7 +253,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
 <li>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../email/pdf-attachments.md">documentation détaillée</a>.</p>
 </td>
@@ -291,18 +291,18 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer vous fournit désormais les outils nécessaires pour diffuser du contenu personnalisé et optimisé à votre audience. Vous pouvez ainsi exécuter des expériences de contenu, créer un ciblage basé sur des règles et utiliser des combinaisons avancées des deux, afin d’optimiser l’efficacité de vos campagnes et de vos parcours.</p>
+<p>Journey Optimizer vous fournit désormais les outils nécessaires pour diffuser du contenu personnalisé et optimisé à votre audience. Vous pouvez ainsi exécuter des expériences de contenu, créer un ciblage basé sur des règles et utiliser des combinaisons avancées des deux pour optimiser l’efficacité de vos campagnes et parcours.</p>
 <p>Avec l’optimisation, vous pouvez réaliser les actions suivantes :</p>
 <ul>
 <li>Tester plusieurs variations de contenu pour identifier le message le plus efficace.</li>
 <li>Diffuser du contenu personnalisé en fonction des attributs d’utilisation et des données contextuelles.</li>
-<li>Combinez le ciblage et l’expérimentation pour des stratégies avancées.</li>
+<li>Combinez le ciblage et l’expérimentation pour obtenir des stratégies avancées.</li>
 <li>Filtrer les utilisateurs et utilisatrices qui ne correspondent pas aux critères de variante.</li>
 <li>Garantir des mécanismes de secours pour maintenir l’interaction client.</li>
 </ul>
-<P>Une fois le parcours ou la campagne actif, les profils sont évalués en fonction des critères définis. S’ils correspondent aux critères, ils sont diffusés avec l’expérience ou le contenu approprié.</p>
+<P>Une fois la campagne ou le parcours actif, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>Précédemment publiée le 8 août dans les campagnes uniquement, cette capacité est désormais également disponible dans les parcours à partir du 22 août.</p>
+<p>Précédemment publiée le 8 août dans les campagnes uniquement, cette fonctionnalité est désormais également disponible dans les parcours à partir du 22 août.</p>
 <p>Pour plus d’informations, consultez la <a href="../campaigns/campaigns-message-optimization.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -315,18 +315,18 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Administration**
 
-   * **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où <!--a channel configuration failure happens or if -->un enregistrement DNS est manquant. [En savoir plus](../reports/alerts.md#alert-dns-record-missing)
+   * **Alertes de surveillance de la configuration des canaux** : vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où <!--a channel configuration failure happens or if -->un enregistrement DNS est manquant. [En savoir plus](../reports/alerts.md#alert-dns-record-missing)
 
 * **Assistant IA**
 
-   * **Génération de contenu dans plusieurs langues** - Le contenu peut désormais être généré en français, espagnol, allemand, italien, japonais, suédois, néerlandais et norvégien. [En savoir plus](../content-management/generative-uc.md#languages)
+   * **Génération de contenu dans plusieurs langues** : le contenu peut désormais être généré en français, espagnol, allemand, italien, japonais, suédois, néerlandais et norvégien. [En savoir plus](../content-management/generative-uc.md#languages)
 
-     Date de disponibilité : 25 août
+     Date de disponibilité : 25 août
 
 
 * **Campagnes**
 
-   * **Contrôle des taux dans les campagnes sortantes** - Vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. [En savoir plus](../campaigns/campaign-schedule.md#rate-control)
+   * **Contrôle des taux dans les campagnes sortantes** : vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. [En savoir plus](../campaigns/campaign-schedule.md#rate-control)
 
    * **Planification de campagnes d’action** : les planificateurs de campagnes quotidiens, hebdomadaires et mensuels ont été mis à jour afin d’assurer un contrôle plus détaillé des planifications récurrentes :
 
@@ -340,7 +340,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Canal - Cartes de contenu**
 
-   * **Modèles de disposition de carte de contenu** - Le canal de carte de contenu fournit désormais des dispositions de message prêtes à l’emploi qui rationaliseront votre expérience de création. Cette version comprend des modèles de disposition Petite image, Grande image et Image uniquement. [En savoir plus](../content-card/design-content-card.md)
+   * **Modèles de disposition de carte de contenu** : le canal de carte de contenu fournit désormais des dispositions de message prêtes à l’emploi qui rationaliseront votre expérience de création. Cette version comprend des modèles de disposition Petite image, Grande image et Image seule. [En savoir plus](../content-card/design-content-card.md)
 
 * **Canal - Push**
 
@@ -348,17 +348,17 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Canal - SMS**
 
-   * **Opt-out en logique floue** : lorsqu’elle est activée, l’option **Opt-out en logique floue** détecte les messages entrants qui ressemblent fortement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur ou l’utilisatrice. Si l’utilisateur confirme via l’invite définie, il est désabonné. [En savoir plus](../sms/sms-configuration-sinch.md)
+   * **Opt-out en logique floue** : lorsqu’elle est activée, l’option **Opt-out en logique floue** détecte les messages entrants qui ressemblent fortement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur ou l’utilisatrice. Si la personne confirme en utilisant l’invite définie, elle est désabonnée. [En savoir plus](../sms/sms-configuration-sinch.md)
 
      >[!NOTE]
      >
-     >**Opt-out flou** est disponible uniquement avec Sinch et Infobip.
+     >Notez que l’**Opt-out en logique floue** n’est disponible qu’avec Sinch et Infobip.
 
-   * **Vérifier la connexion SMS** - Vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné. [En savoir plus](../sms/sms-configuration-sinch.md)
+   * **Vérifier la connexion SMS** : vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné. [En savoir plus](../sms/sms-configuration-sinch.md)
 
 * **Configuration**
 
-  &lt;!—* **Prise en charge des domaines dynamiques** - Journey Optimizer prend désormais en charge la personnalisation complète/de base des URL pour les domaines prédéfinis acceptés par Adobe. Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes. [En savoir plus](../personalization/personalization-build-expressions.md#where)—Mise à jour le 21 août : En attente de l&#39;eng. pour confirmer le déploiement sur prod.—>
+  &lt;!--* **Prise en charge des domaines dynamiques** : Journey Optimizer prend désormais en charge la personnalisation complète/de base des URL pour les domaines prédéfinis acceptés par Adobe. Cette fonctionnalité est disponible pour un nombre restreint de clientes et clients. [En savoir plus](../personalization/personalization-build-expressions.md#where)—Mise à jour le 21 août : en attente du service ingénierie pour confirmer le déploiement en production.-->
 
    * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** : a-vec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
 
@@ -366,13 +366,13 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Jeux de données**
 
-   * **Référentiel d’objets Experience Decisioning - Éléments d’offre personnalisés** - Le jeu de données d’exportation intégré capture désormais tous les attributs de l’offre et le statut du cycle de vie, ce qui permet une personnalisation et un reporting complets. [En savoir plus](../data/export-datasets.md)
+   * **Référentiel d’objets de décisions pour les expériences - Éléments d’offres personnalisées** : le jeu de données d’export intégré capture désormais tous les attributs de l’offre et le statut du cycle de vie, ce qui permet une personnalisation et un reporting complets. [En savoir plus](../data/export-datasets.md)
 
-   * Ajout de la vérification des versions via le champ `etag` pour améliorer la cohérence et suivre les modifications afin d’offrir des articles plus facilement.
+   * Ajout de la vérification des versions via le champ `etag` pour améliorer la cohérence et suivre les modifications afin de proposer des éléments de manière plus fiable.
 
 * **Prise de décision**
 
-   * **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision. Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes. [En savoir plus](../experience-decisioning/create-decision.md#fragments)
+   * **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision. Cette fonctionnalité est disponible pour un nombre restreint de clientes et clients. [En savoir plus](../experience-decisioning/create-decision.md#fragments)
 
 * **Parcours**
 
@@ -380,7 +380,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
    * **Prise en charge de la redirection (302) dans les actions personnalisées** : les actions personnalisées peuvent désormais gérer les redirections HTTP 302 requête par requête. Cela permet aux parcours de s’intégrer aux API qui redirigent les requêtes vers des URL localisées ou spécifiques à une région. Les redirections sont suivies automatiquement, ce qui garantit que le contenu diffusé est correct, sans configuration supplémentaire.
 
-   * **Plusieurs actions entrantes dans les parcours** - Pour simplifier votre orchestration des parcours, vous pouvez désormais définir plusieurs actions entrantes dans un seul parcours. Précédemment disponible dans les campagnes, cette fonctionnalité vous permet de diffuser simultanément plusieurs expériences basées sur du code, des messages in-app, des cartes de contenu ou des actions web à différents emplacements, chaque action contenant un contenu spécifique. [En savoir plus](../building-journeys/journey-action.md#multi-action)
+   * **Plusieurs actions entrantes dans les campagnes** : pour simplifier l’orchestration de parcours, vous pouvez désormais définir plusieurs actions entrantes dans un seul parcours. Auparavant disponible dans les campagnes, cette fonctionnalité vous permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique. [En savoir plus](../building-journeys/journey-action.md#multi-action)
 
 ## Orchestration de campagne
 

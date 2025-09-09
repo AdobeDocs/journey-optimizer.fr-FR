@@ -11,22 +11,22 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
 workflow-type: tm+mt
 source-wordcount: '1216'
-ht-degree: 34%
+ht-degree: 80%
 
 ---
 
 # Accéder et s’abonner aux alertes système {#alerts}
 
-Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier :
+Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour les vérifier et résoudre les erreurs avant de les exécuter ou de les publier :
 
-* Découvrez comment résoudre les problèmes liés à vos parcours sur [cette page](../building-journeys/troubleshooting.md).
-* Découvrez comment examiner vos campagnes sur [cette page](../campaigns/review-activate-campaign.md).
+* Découvrez comment résoudre les problèmes de vos parcours sur [cette page](../building-journeys/troubleshooting.md).
+* Découvrez comment vérifier vos campagnes sur [cette page](../campaigns/review-activate-campaign.md).
 
-Dans le menu dédié **[!UICONTROL Alertes]**, vous pouvez également vous abonner à [!DNL Adobe Journey Optimizer] alertes système, comme indiqué sur cette page.
+Dans le menu dédié **[!UICONTROL Alertes]**, vous pouvez également vous abonner aux alertes système [!DNL Adobe Journey Optimizer], comme indiqué sur cette page.
 
 ## Accéder aux alertes {#access-alerts}
 
-En cas d’échec, vous pouvez recevoir des alertes système dans le centre de notifications Journey Optimizer (alertes in-app) et/ou recevoir un e-mail. Pour accéder à ces alertes, procédez comme suit.
+En cas d’échec, vous pouvez obtenir des alertes système dans le centre de notification de Journey Optimizer (alertes in-app) et/ou recevoir un e-mail. Pour accéder aux rapports, procédez comme suit.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
@@ -34,24 +34,24 @@ En cas d’échec, vous pouvez recevoir des alertes système dans le centre de n
 >
 >En savoir plus sur les alertes dans Adobe Experience Platform dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
-Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Alertes]**. Plusieurs alertes préconfigurées pour Journey Optimizer sont disponibles.
+Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Alertes]**. Plusieurs alertes préconfigurées pour Journey Optimizer sont disponibles.
 
 Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous.
 
-* Alertes spécifiques aux parcours :
+* Alertes spécifiques aux parcours :
 
-   * l’alerte [Échec de l’action personnalisée de Parcours ](#alert-custom-actions)
-   * l’alerte [ Échec du déclenchement de la lecture d’audience ](#alert-read-audiences)
+   * Alerte [Échec de l’action personnalisée de parcours](#alert-custom-actions)
+   * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
 
-* Alertes spécifiques à la configuration des canaux :
+* Alertes spécifiques à la configuration des canaux :
 
-   * l’enregistrement DNS du domaine AJO [&#128279;](#alert-dns-record-missing) est manquant
+   * Alerte [Enregistrement DNS du domaine AJO manquant](#alert-dns-record-missing)
   <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
    * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## S’abonner aux alertes {#subscribe-alerts}
 
-1. Vous pouvez vous abonner à chaque alerte individuellement à partir de l’interface utilisateur en sélectionnant l’option **[!UICONTROL S’abonner]**.
+1. Vous pouvez vous abonner individuellement à chaque alerte depuis l’interface d’utilisation en sélectionnant l’option **[!UICONTROL S’abonner]**.
 
    ![](assets/alert-subscribe.png){width=80%}
 
@@ -59,19 +59,19 @@ Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous
    >
    >L’abonnement s’applique uniquement à un sandbox spécifique. Vous devez vous abonner à des alertes pour chaque sandbox.
 
-1. Utilisez la même méthode pour **[!UICONTROL Unsubscribe]**.
+1. Utilisez la même méthode pour vous **[!UICONTROL désabonner]**.
 
-1. Vous pouvez également vous abonner aux alertes par le biais des [notifications d’événements d’entrée/sortie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont détaillés [ci-dessous](#journey-alerts).
+1. Vous pouvez également vous abonner aux alertes par le biais des [notifications d’événements d’entrée/sortie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés [ci-dessous](#journey-alerts).
 
-1. Si un comportement inattendu se produit et/ou qu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système dépasse un seuil), des notifications d’alerte sont envoyées à tous les utilisateurs de votre organisation qui se sont abonnés à ces notifications.
+1. Si un comportement inattendu se produit, et/ou qu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système dépasse un certain seuil), des notifications d’alerte sont envoyées à l’ensemble des personnes de votre organisation qui s’y sont abonnées.
 
-En fonction des préférences de l’abonné ou de l’abonnée, les alertes sont envoyées par e-mail et/ou directement dans le centre de notifications Journey Optimizer, dans le coin supérieur droit de l’interface utilisateur (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les [!DNL Adobe Experience Cloud] **[!UICONTROL Préférences]**. [En savoir plus](../start/user-interface.md#in-product-alerts)
+En fonction des préférences des personnes abonnées, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface d’utilisation (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les **[!UICONTROL Préférences]** [!DNL Adobe Experience Cloud]. [En savoir plus](../start/user-interface.md#in-product-alerts)
 
 >[!NOTE]
 >
 >Par défaut, seules les alertes in-app sont activées.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 Lorsqu’une alerte est résolue, les personnes abonnées reçoivent une notification « Résolue ».
 
@@ -81,17 +81,17 @@ Pour gérer les alertes, sélectionnez un élément et utilisez le bouton **[!UI
 
 ![](assets/alert-more-actions.png){width=80%}
 
-Par défaut, toutes les alertes sont activées. Pour désactiver une alerte, sélectionnez l’option **[!UICONTROL Désactiver l’alerte]** dans le menu **[!UICONTROL Plus d’actions]**. Tous les abonnés à cette alerte ne recevront plus les notifications associées.
+Par défaut, toutes les alertes sont activées. Pour désactiver une alerte, sélectionnez l’option **[!UICONTROL Désactiver l’alerte]** dans le menu **[!UICONTROL Plus d’actions]**. Toutes les personnes abonnées à cette alerte ne recevront plus les notifications associées.
 
-Sélectionnez **[!UICONTROL Gérer les abonnés aux alertes]** pour afficher la liste des utilisateurs et utilisatrices qui se sont abonnés à l’alerte. Utilisez le champ vide pour ajouter d’autres abonnés.
+Sélectionnez **[!UICONTROL Gérer les personnes abonnées aux alertes]** pour afficher la liste des personnes qui se sont abonnées à l’alerte. Utilisez le champ vide pour ajouter d’autres personnes abonnées.
 
 ![](assets/alert-subscribers.png){width=80%}
 
-Les statuts possibles des alertes sont répertoriés ci-dessous :
+Les statuts d’alerte possibles sont énumérés ci-dessous :
 
-* **[!UICONTROL Activé]** - L’alerte est activée et contrôle actuellement la condition de déclencheur.
-* **[!UICONTROL Désactivé]** - L’alerte est désactivée et ne contrôle pas la condition de déclencheur. Vous ne recevrez aucune notification pour cette alerte.
-* **[!UICONTROL Déclenché]** - La condition de déclencheur de l’alerte est en cours de réalisation.
+* **[!UICONTROL Activé]** : l’alerte est activée et contrôle la condition de déclenchement.
+* **[!UICONTROL Désactivé]** : l’alerte est désactivée et ne contrôle pas la condition de déclenchement. Vous ne recevrez aucune notification pour cette alerte.
+* **[!UICONTROL Déclenché]** : la condition de déclenchement de l’alerte est respectée.
 
 ## Alertes de parcours {#journey-alerts}
 
@@ -157,9 +157,9 @@ Cette alerte vous avertit lorsque des enregistrements DNS critiques (NS ou CNAME
 >
 >* Les enregistrements CNAME prennent en charge la configuration des sous-domaines CNAME. [En savoir plus](../configuration/about-subdomain-delegation.md#cname-subdomain-setup)
 
-L’alerte « **Enregistrement DNS du domaine AJO manquant** est déclenchée lorsque le système détecte que les enregistrements DNS ou CNAME requis sont absents ou ne correspondent pas aux normes de configuration.
+L’alerte **Enregistrement DNS du domaine AJO manquant** est déclenchée lorsque le système détecte que les enregistrements NS ou CNAME requis sont absents ou qu’ils ne correspondent pas aux normes de configuration.
 
-1. Cliquez sur l’alerte pour la diriger vers le [sous-domaine](../configuration/delegate-subdomain.md) concerné dans l’interface [!DNL Journey Optimizer].
+1. Cliquez sur l’alerte pour accéder au [sous-domaine](../configuration/delegate-subdomain.md) concerné dans l’interface [!DNL Journey Optimizer].
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -169,7 +169,7 @@ L’alerte « **Enregistrement DNS du domaine AJO manquant** est déclenchée lo
    >
    >Assurez-vous que tous les enregistrements sont correctement créés sur votre solution d’hébergement de domaine avant de continuer.
 
-1. Si vous n’êtes pas sûr des valeurs correctes, vous pouvez créer un nouveau sous-domaine dans [!DNL Journey Optimizer] avec le même nom que le sous-domaine concerné. [Découvrez comment configurer un nouveau sous-domaine](../configuration/delegate-subdomain.md#set-up-subdomain)
+1. Si vous ne connaissez pas les valeurs correctes, vous pouvez créer un nouveau sous-domaine dans [!DNL Journey Optimizer] avec le même nom que le sous-domaine concerné. [Découvrez comment configurer un nouveau sous-domaine](../configuration/delegate-subdomain.md#set-up-subdomain).
 
 Si les modifications ne permettent pas de résoudre le problème, la même alerte sera déclenchée à nouveau le lendemain.
 

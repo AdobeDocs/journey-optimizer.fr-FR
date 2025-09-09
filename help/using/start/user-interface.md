@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Gérez vos données à partir de cette section.
 
 * **[!UICONTROL Schémas]** - Utilisez Adobe Experience Platform pour créer et gérer des schémas de modèle de données d’expérience (XDM) dans une zone de travail visuelle interactive appelé Éditeur de schéma. [En savoir plus](../data/get-started-schemas.md)
 
-* **[!UICONTROL Jeux de données]** - Toutes les données correctement ingérées par Adobe Experience Platform sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour la collecte de données, généralement sous la forme d&#39;un tableau, qui contient un schéma (des colonnes) et des champs (des lignes). [En savoir plus](../data/get-started-datasets.md)
+* **[!UICONTROL Jeux de données]** - Toutes les données correctement ingérées par Adobe Experience Platform sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collection de données, généralement sous la forme d’une table, qui contient un schéma (des colonnes) et des champs (des lignes). [En savoir plus](../data/get-started-datasets.md)
 
 * **[!UICONTROL Requêtes]** - Utilisez le service de requête d&#39;Adobe Experience Platform pour écrire et exécuter des requêtes, afficher des requêtes précédemment exécutées et accéder à des requêtes enregistrées par des utilisateurs de votre organisation. [En savoir plus](../data/get-started-queries.md)
 
@@ -181,17 +181,17 @@ Les boutons d’aide contextuelle, disponibles sur chaque page, permettent d’e
 
 ## Notifications intégrées au produit {#in-product-notifications}
 
-Vous pouvez activer les **alertes par produit et par e-mail** pour recevoir des notifications sur plusieurs événements susceptibles de vous intéresser : les échecs détectés par le système, les demandes d’approbation et/ou les versions de produits [!DNL Journey Optimizer].
+Vous pouvez activer les **alertes intégrées au produit et par e-mail** pour recevoir des notifications sur plusieurs événements susceptibles de vous intéresser : les échecs détectés par le système, les demandes d’approbation et/ou les versions du produit [!DNL Journey Optimizer].
 
-Pour activer ces notifications, procédez comme suit.
+Pour activer ces notifications, procédez comme suit :
 
-1. Accédez à [!DNL Adobe Experience Cloud] **[!UICONTROL Préférences]**.
-1. Sous **[!UICONTROL Notifications]**, recherchez **[!UICONTROL Journey Optimizer]**.
-1. Activez les notifications in-app et/ou par e-mail selon vos besoins :
+1. Accédez aux **[!UICONTROL Préférences]** [!DNL Adobe Experience Cloud].
+1. Sous **[!UICONTROL Notifications]**, recherchez **[!UICONTROL Journey Optimizer]**.
+1. Activez les notifications in-app et/ou par e-mail selon vos besoins :
 
-   * **[!UICONTROL Alertes]** : en cas d’échec, vous pouvez obtenir des notifications système pour les alertes auxquelles vous êtes abonné. [En savoir plus](../reports/alerts.md)
-   * **[!UICONTROL Validations]** : vous recevez une notification lorsqu’une personne vous demande d’approuver un objet ou d’accéder à un objet.
-   * **[!UICONTROL Nouvelles versions]** : vous êtes informé(e) de toutes les nouvelles versions du produit [!DNL Journey Optimizer].
+   * **[!UICONTROL Alertes]** : en cas d’échec, vous pouvez obtenir des notifications système pour les alertes que vous avez choisies de recevoir. [En savoir plus](../reports/alerts.md)
+   * **[!UICONTROL Approbations]** : vous recevez une notification lorsqu’une personne vous demande d’approuver un objet ou d’accéder à un objet.
+   * **[!UICONTROL Nouvelles versions]** : vous recevez des informations sur toutes les nouvelles versions du produit [!DNL Journey Optimizer].
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -63,31 +63,31 @@ Représentation des parcours :
 * Si aucune heure de début n’est spécifiée, l’heure d’activation manuelle la plus proche est utilisée pour la positionner dans le calendrier.
 * Les parcours s’affichent sous la forme de périodes d’une heure, ce qui ne reflète pas l’heure d’envoi ou d’achèvement réelle.
 
-Pour naviguer dans votre calendrier Parcours :
+Pour naviguer dans le calendrier des parcours :
 
 1. Pour accéder à la vue de calendrier, ouvrez la liste des parcours et cliquez sur l’icône ![icône de calendrier](assets/do-not-localize/timeline-icon.svg).
 
-1. Utilisez les boutons fléchés ou le sélecteur de date au-dessus du calendrier pour vous déplacer entre les semaines.
+1. Utilisez les boutons fléchés ou le sélecteur de date au-dessus du calendrier pour passer d’une semaine à l’autre.
 
    Le calendrier affiche tous les parcours planifiés pour la semaine en cours.
 
    ![vue de calendrier affichant les parcours actifs](assets/timeline-journeys.png)
 
-1. Cliquez sur l’icône ![engrenage](assets/do-not-localize/Smock_Gears_18_N.png) pour activer ou désactiver l’affichage des éléments qui s’étendent sur plusieurs jours ou semaines.
+1. Cliquez sur l’icône d’![engrenage](assets/do-not-localize/Smock_Gears_18_N.png) pour activer ou désactiver l’affichage des éléments qui s’étendent sur plusieurs jours ou semaines.
 
    ![vue de calendrier affichant les campagnes actives](assets/journey-calendar-1.png)
 
-1. Cliquez sur l&#39;icône ![ajouter un calendrier](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pour gérer et ajouter jusqu&#39;à trois calendriers externes.
+1. Cliquez sur l’icône ![Ajouter un calendrier](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pour gérer et ajouter jusqu’à trois calendriers externes.
 
    ![vue calendrier affichant les calendriers externes](assets/journey-calendar-2.png)
 
-1. Effectuez un glisser-déposer de vos fichiers CSV contenant les noms des événements, les dates de début et les dates de fin.
+1. Effectuez un glisser-déposer de vos fichiers CSV contenant les noms des événements, les dates de début et les dates de fin.
 
-   Les événements chargés s’affichent pour tous les utilisateurs de votre organisation et sur les calendriers Parcours et Campaign.
+   Les événements chargés s’affichent pour l’ensemble des utilisateurs et utilisatrices de votre organisation et sur les calendriers des parcours et campagnes.
 
-   +++Le format CSV doit être le suivant :
+   +++Le format CSV doit être le suivant :
 
-   | Column1 | Column2 | Column3 |
+   | Colonne1 | Colonne2 | Colonne3 |
    |-|-|-|
    | Nom de l’événement | Date de début au format mm/jj/aa | Date de fin au format mm/jj/aa |
 
@@ -170,17 +170,17 @@ Pour ce faire, suivez les étapes ci-après :
 1. Le nouveau parcours est créé et disponible dans la liste des parcours.
 
 
-## Opérations en bloc {#bulk-operations}
+## Opérations en masse {#bulk-operations}
 
-Dans la liste de vos parcours, vous pouvez suspendre plusieurs parcours **en ligne**. Pour mettre en pause un groupe de parcours (_pause par lots_), sélectionnez-les dans la liste et cliquez sur le bouton **Mettre en pause** dans la barre bleue en bas de l’écran. Le bouton **Mettre en pause** n’est disponible que lorsque des parcours **actifs** sont sélectionnés.
+Dans la liste de vos parcours, vous pouvez mettre en pause un ou plusieurs parcours **actifs**. Pour mettre en pause un groupe de parcours (_pause par lots_), sélectionnez-les dans la liste et cliquez sur le bouton **Mettre en pause** dans la barre bleue en bas de l’écran. Le bouton **Mettre en pause** n’est disponible que lorsque des parcours **actifs** sont sélectionnés.
 
 ![Mettre en pause deux parcours actifs en même temps à partir de la barre inférieure](assets/bulk-pause-journeys.png)
 
 Vous pouvez également reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise par lots_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque des parcours **en pause** sont sélectionnés.
 
-[En savoir plus sur les parcours de pause/reprise](journey-pause.md).
+[En savoir plus sur la mise en pause et la reprise des parcours](journey-pause.md).
 
 >[!NOTE]
 >
->Vous pouvez suspendre/reprendre jusqu’à 10 parcours par opération.
+>Vous pouvez mettre en pause/reprendre jusqu’à 10 parcours par opération.
 

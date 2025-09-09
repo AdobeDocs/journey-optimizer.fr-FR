@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Ces activités sont spécifiques au ciblage. Elles permettent de construire une 
 
 ![Liste des activités de ciblage](../assets/targeting-activities.png){width="40%" align="left"}
 
-Les activités de ciblage disponibles sont les suivantes :
+Les activités de ciblage disponibles sont les suivantes :
 
 * [Créer une audience](build-audience.md) : définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le créateur de règles pour définir votre propre requête.
 * [Changement de dimension](change-dimension.md) : changez la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée.
@@ -61,7 +61,7 @@ Les activités ci-après sont spécifiques à l’organisation et à l’exécut
 
 ![Liste des activités de contrôle de flux](../assets/flow-control-activities.png){width="20%" align="left"}
 
-Les activités d’ordonnancement disponibles sont les suivantes :
+Les activités de contrôle de flux disponibles sont les suivantes :
 
 * [Rendez-vous](and-join.md) : synchronisez plusieurs branches d’exécution d’une campagne orchestrée.
 * [Branchement](fork.md) : créez des transitions sortantes afin de lancer plusieurs activités en parallèle.

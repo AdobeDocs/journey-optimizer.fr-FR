@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -74,9 +74,9 @@ La zone de travail d’une campagne orchestrée est une représentation de ce qu
 
 Chaque campagne orchestrée contient :
 
-* des **Activités** : une activité est une tâche à effectuer. Les différentes activités sont représentées sur la zone de travail par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
+* Des **Activités** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur la zone de travail par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
 
-  Dans une zone de travail de campagne orchestrée, une activité donnée peut générer plusieurs tâches, notamment en cas de boucle ou d’actions récurrentes.
+  Dans une zone de travail de campagne orchestrée, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d’actions récurrentes.
 
 * **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
 

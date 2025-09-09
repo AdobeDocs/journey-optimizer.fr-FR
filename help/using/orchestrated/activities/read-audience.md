@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ L’activité **[!UICONTROL Lecture d’audience]** permet de récupérer une au
 
 Une fois l’audience chargée, vous pouvez éventuellement l’affiner en sélectionnant un champ d’identité unique et en enrichissant l’audience avec des attributs de profil supplémentaires à des fins de ciblage, de personnalisation ou de création de rapports.
 
-## Cache d’audience de lecture {#cache}
+## Cache Lecture d’audience {#cache}
 
-Lors du test d’une campagne orchestrée, l’activité **[!UICONTROL Lecture d’audience]** prend généralement un certain temps pour récupérer les données, ce qui peut rendre les exécutions de test plus longues. Pour accélérer le processus, un cache **[!UICONTROL Lecture d’audience]** est disponible.
+Lors du test d’une campagne orchestrée, l’activité **[!UICONTROL Lecture d’audience]** est généralement assez longue à récupérer les données, ce qui peut allonger les exécutions de test. Pour accélérer le processus, un cache **[!UICONTROL Lecture d’audience]** est disponible.
 
-Le cache stocke l’audience avec les attributs sélectionnés pendant **deux heures maximum**. Pendant ce temps, toute exécution de test ultérieure peut utiliser les résultats mis en cache, évitant ainsi d’avoir à récupérer à nouveau les données. Une fois la **période de deux heures** passée, les données doivent être récupérées à nouveau.
+Le cache stocke l’audience avec les attributs sélectionnés pendant **deux heures maximum**. Pendant ce temps, toute exécution de test ultérieure peut utiliser les résultats mis en cache, ce qui évite d’avoir à récupérer à nouveau les données. Une fois la **période de deux heures** passée, les données doivent être récupérées à nouveau.
 
-Le cache est enregistré pour chaque campagne orchestrée, et non pour l’audience elle-même. Si la même audience est utilisée dans une activité **[!UICONTROL Lecture d’audience]** au sein d’une autre campagne orchestrée, le système devra toujours récupérer les données.
+Le cache est enregistré pour chaque campagne orchestrée, et non pour l’audience elle-même. Si la même audience est utilisée dans une activité **[!UICONTROL Lecture d’audience]** au sein d’une autre campagne orchestrée, le système devra toujours récupérer les données une nouvelle fois.
 
-Le cache n&#39;est pas conservé dans les cas suivants :
+Dans les cas suivants, le cache n’est pas conservé :
 
 * Lorsque l’activité **[!UICONTROL Lecture d’audience]** est mise à jour avec de nouveaux attributs, le cache est actualisé avec les nouvelles données d’attributs. Par conséquent, la première exécution de test après la mise à jour prendra plus de temps, car les données doivent être récupérées à nouveau.
 

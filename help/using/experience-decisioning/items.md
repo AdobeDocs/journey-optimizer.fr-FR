@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 80%
+ht-degree: 85%
 
 ---
 
@@ -56,9 +56,9 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 
    >[!AVAILABILITY]
    >
-   >Les fragments des éléments de décision ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+   >Les fragments dans les éléments de décision ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-   Dans la section **[!UICONTROL Fragments]**, sélectionnez les fragments publiés que vous souhaitez utiliser et attribuez-leur une clé de référence. Vous pouvez ensuite exploiter ces fragments dans vos politiques de décision. [Voici comment procéder](create-decision.md#fragments)
+   Dans la section **[!UICONTROL Fragments]**, sélectionnez les fragments publiés que vous souhaitez utiliser et attribuez-leur une clé de référence. Vous pouvez ensuite utiliser ces fragments dans vos politiques de décision. [Voici comment procéder](create-decision.md#fragments)
 
    ![](assets/item-fragments.png){width=70%}
 
@@ -66,7 +66,7 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 
    >[!WARNING]
    >
-   >Actuellement, seuls les [ fragments d’expression ](../personalization/use-expression-fragments.md) sont pris en charge.
+   >Actuellement, seuls les [fragments d’expression](../personalization/use-expression-fragments.md) sont pris en charge.
    >
    >Les fragments imbriqués (fragments référençant d’autres fragments) ne peuvent pas être utilisés. L’[approbation](#approve) de l’élément de décision échoue si vous ajoutez un tel fragment.
 
@@ -112,7 +112,7 @@ Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouve
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Expression"
->abstract="Au lieu d’utiliser une valeur statique pour le seuil de limitation, vous pouvez définir votre propre expression. Vous pouvez ainsi calculer le seuil de manière dynamique à l’aide d’attributs de décision et/ou d’attributs externes d’un jeu de données Adobe Experience Platform.<br/><br/>Les expressions de règle de limitation **&#x200B;**&#x200B;sont actuellement disponibles en tant que disponibilité limitée pour tous les utilisateurs. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**."
+>abstract="Au lieu d’utiliser une valeur statique pour le seuil de limitation, vous pouvez définir votre propre expression. Vous pouvez ainsi calculer le seuil de manière dynamique à l’aide d’attributs de décision et/ou d’attributs externes d’un jeu de données Adobe Experience Platform.<br/><br/>Les expressions de règle de limitation **** sont actuellement disponibles en tant que disponibilité limitée pour tous les utilisateurs. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où un élément d&#39;offre peut être présenté. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 limitations pour un élément de décision donné.
 
@@ -195,7 +195,7 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
 <!--* Identifying how many times a given customer has been shown a decision item. 
 If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
-## Examiner et approuver l’élément de décision {#approve}
+## Vérifier et approuver l’élément de décision {#approve}
 
 1. Une fois l’éligibilité et les règles de limitation définies pour l’élément de décision, cliquez sur **[!UICONTROL Suivant]** pour vérifier l’élément et l’enregistrer.
 

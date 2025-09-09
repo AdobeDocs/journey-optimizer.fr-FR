@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 10%
+ht-degree: 43%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="Activité Optimiser"
->abstract="L’activité **Optimiser** permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques, y compris l’expérimentation, le ciblage et les conditions spécifiques."
+>abstract="L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs chemins en fonction de critères spécifiques, y compris l’expérimentation, le ciblage et des conditions spécifiques."
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
-L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs **chemins d’accès** en fonction de critères spécifiques, notamment l’expérimentation, le ciblage et des conditions spécifiques, afin d’assurer un engagement et une réussite optimaux pour la création de parcours hautement personnalisés et efficaces.
+L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs **chemins** en fonction de critères spécifiques, notamment l’expérimentation, le ciblage et des conditions spécifiques, garantissant ainsi un engagement et un succès optimaux pour créer des parcours hautement personnalisés et efficaces.
 
 Un parcours **chemin** peut être constitué de l’un des éléments suivants : séquencement des communications, temps écoulé entre les deux, nombre de communications ou toute combinaison de ces trois variables.
 
@@ -39,13 +39,13 @@ Par exemple, un chemin peut contenir un e-mail, un autre peut contenir deux SMS 
 
 Grâce à l’activité **Optimiser**, vous pouvez effectuer les actions suivantes sur les chemins résultants :
 
-* Exécutez [expériences de chemin](#experimentation)
-* Utilisation des règles [de ciblage](#targeting) dans chaque chemin de parcours
-* Application de [ conditions ](#conditions) à vos chemins d’accès
+* exécuter des [expériences de chemin](#experimentation) ;
+* utiliser des règles de [ciblage](#targeting) dans chaque chemin de parcours ;
+* appliquer des [conditions](#conditions) à vos chemins.
 
 ![](assets/journey-optimize.png)
 
-Une fois le parcours actif, les profils sont évalués en fonction des critères définis. Ensuite, en fonction des critères correspondants, ils sont envoyés vers le chemin approprié à partir du parcours.
+Une fois le parcours actif, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont envoyés vers le chemin approprié du parcours.
 
 ## Utiliser l’expérimentation {#experimentation}
 
@@ -54,15 +54,15 @@ Une fois le parcours actif, les profils sont évalués en fonction des critères
 >title="Mesure de succès"
 >abstract="La mesure de succès est utilisée pour suivre et évaluer le traitement le plus performant dans une expérience."
 
-L’expérimentation vous permet de tester différents chemins en fonction d’une répartition aléatoire afin de déterminer celui qui fonctionne le mieux en fonction de mesures de succès prédéfinies.
+L’expérimentation permet de tester plusieurs chemins selon un partage aléatoire afin de déterminer celui qui offre les meilleures performances en fonction de mesures de succès prédéfinies.
 
 Pour configurer l’expérimentation de chemin dans un parcours, procédez comme suit.
 
-Supposons que vous souhaitiez comparer trois chemins :
+Supposons que vous souhaitiez comparer trois chemins :
 
-* un chemin avec un e-mail ;
+* Un chemin avec un e-mail
 * un deuxième chemin avec un nœud **[!UICONTROL Wait]** de deux jours et un e-mail ;
-* un troisième chemin avec un e-mail, puis un SMS.
+* Un troisième chemin avec un e-mail, puis un SMS
 
 1. Dans la section **[!UICONTROL Orchestration]**, faites glisser l’activité **[!UICONTROL Optimiser]** et déposez-la dans la zone de travail du parcours.
 
@@ -123,7 +123,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 1. [Publier](publishing-the-journey.md) votre parcours.
 
-Une fois le parcours actif, les utilisateurs sont affectés de manière aléatoire à suivre différents chemins. [!DNL Journey Optimizer] permet de déterminer le chemin le plus performant et fournit des informations exploitables.
+Une fois le parcours actif, les utilisateurs et utilisatrices sont affectés de manière aléatoire à différents chemins. [!DNL Journey Optimizer] permet de déterminer le chemin le plus performant et fournit des informations exploitables.
 
 <!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
@@ -133,7 +133,7 @@ Les exemples suivants montrent comment utiliser l’activité **[!UICONTROL Opti
 
 +++Efficacité des canaux
 
-Tester si l’envoi du premier message par e-mail ou SMS entraîne des conversions plus élevées.
+Testez si l’envoi du premier message par e-mail plutôt que par SMS génère un taux de conversion plus élevé.
 
 ➡️ Utilisez le taux de conversion comme mesure d’optimisation (par exemple : achats, inscriptions).
 
@@ -151,17 +151,17 @@ Utilisez les achats ou le taux de désabonnement comme mesure d’optimisation.
 
 +++Temps d’attente entre les communications
 
-Comparez une attente de 24 heures à une attente de 72 heures avant un suivi afin de déterminer quel délai maximise l&#39;engagement.
+Comparez une attente de 24 heures à une attente de 72 heures avant une relance afin de déterminer quel délai maximise l’engagement.
 
 ➡️ Utilisez le taux de clic publicitaire ou le chiffre d’affaires comme mesure d’optimisation.
 
 +++
 
-## Exploiter le ciblage {#targeting}
+## Tirer profit du ciblage {#targeting}
 
 Les règles de ciblage vous permettent de déterminer les règles ou qualifications spécifiques qui doivent être remplies pour qu’un client soit éligible pour accéder à l’un des chemins de parcours, en fonction de segments d’audience spécifiques<!-- depending on profile attributes or contextual attributes-->.
 
-Contrairement à l’expérimentation, qui est une affectation aléatoire d’un chemin donné, le ciblage est déterministe en termes de garantie que l’audience ou le profil approprié accède au chemin spécifié.
+Contrairement à l’expérimentation, qui est une affectation aléatoire d’un chemin donné, le ciblage est déterministe dans la mesure où il garantit que l’audience ou le profil approprié rejoint chemin spécifié.
 
 <!--With targeting, specific rules can be defined based on:
 
@@ -171,7 +171,7 @@ Contrairement à l’expérimentation, qui est une affectation aléatoire d’un
 
 * **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
 
-Pour configurer le ciblage dans un parcours, procédez comme suit.
+Pour configurer le ciblage dans un parcours, suivez les étapes ci-dessous.
 
 1. Dans la section **[!UICONTROL Orchestration]**, faites glisser l’activité **[!UICONTROL Optimiser]** et déposez-la dans la zone de travail du parcours.
 
@@ -187,7 +187,7 @@ Pour configurer le ciblage dans un parcours, procédez comme suit.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est qualifiée. Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage définie ci-dessus n’accédera pas à un chemin de secours.
+1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à l’audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est applicable. Si cette option n’est pas sélectionnée, toute audience qui ne correspond pas à une règle de ciblage définie ci-dessus ne rejoindra aucun chemin de secours.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer les paramètres de votre règle de ciblage.
 
@@ -215,7 +215,7 @@ Les exemples suivants montrent comment utiliser l&#39;activité **[!UICONTROL Op
 
 +++Canaux spécifiques au segment
 
-Les membres fidèles au statut Gold peuvent recevoir des offres personnalisées par e-mail, tandis que tous les autres membres sont redirigés vers des rappels par SMS.
+Les membres Gold peuvent recevoir des offres personnalisées par e-mail, tandis que les autres membres sont redirigés vers des rappels par SMS.
 
 ➡️ Utilisez le chiffre d’affaires par profil ou le taux de conversion comme mesure d’optimisation.
 
@@ -225,7 +225,7 @@ Les membres fidèles au statut Gold peuvent recevoir des offres personnalisées 
 
 +++Ciblage basé sur le comportement
 
-Les clients qui ont ouvert un e-mail mais n’ont pas cliqué peuvent recevoir une notification push, tandis que ceux qui ne l’ont pas ouvert du tout reçoivent un SMS.
+Les clientes et clients qui ont ouvert un e-mail mais qui n’ont pas cliqué peuvent recevoir une notification push, tandis que ceux et celles qui ne l’ont pas ouvert du tout reçoivent un SMS.
 
 ➡️ Utilisez le taux de clic publicitaire ou les conversions en aval comme mesure d’optimisation.
 
@@ -233,7 +233,7 @@ Les clients qui ont ouvert un e-mail mais n’ont pas cliqué peuvent recevoir u
 
 +++Ciblage de l’historique des achats
 
-Les clients qui ont récemment acheté des produits peuvent choisir un chemin court « Merci + vente croisée », tandis que ceux qui n’ont pas d’historique d’achat rejoignent un parcours de maturation plus long.
+Les clientes et clients qui ont récemment acheté des produits peuvent choisir un chemin court « Merci + vente croisée », tandis que ceux et celles qui n’ont pas d’historique d’achat rejoignent un parcours d’accompagnement plus long.
 
 ➡️ Utilisez le taux d’achat de répétition ou le taux d’engagement comme mesure d’optimisation.
 
@@ -241,7 +241,7 @@ Les clients qui ont récemment acheté des produits peuvent choisir un chemin co
 
 ## Ajouter une condition {#conditions}
 
-Vous pouvez ajouter une condition pour définir la progression des individus dans votre parcours en créant plusieurs chemins d’accès en fonction de critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide.
+Vous pouvez ajouter une condition pour définir la progression des individus dans votre parcours en créant plusieurs chemins en fonction de critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide.
 
 ![](assets/journey-condition.png)
 
