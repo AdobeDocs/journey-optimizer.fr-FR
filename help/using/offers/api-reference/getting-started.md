@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 96%
+source-wordcount: '382'
+ht-degree: 89%
 
 ---
 
@@ -55,6 +55,10 @@ Toutes les requêtes contenant une payload (POST, PUT, PATCH) requièrent un en-
 
 * `Content-Type: application/json`
 
+>[!NOTE]
+>
+>Les vérifications d’autorisations sont appliquées en fonction des profils de produit attribués. Seules les autorisations accordées dans le profil de produit associé déterminent quelles ressources peuvent être accessibles ou gérées via l’API.
+
 ## Étapes suivantes {#next-steps}
 
 Dans ce document, vous avez découvert les connaissances préalables requises pour effectuer des appels vers l’API [!DNL Offer Library]. Vous pouvez désormais procéder aux exemples d&#39;appel fournis dans ce guide de développement et suivre leurs instructions.
@@ -68,5 +72,5 @@ Dans ce document, vous avez découvert les connaissances préalables requises po
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342829?quality=12&captions=fre_fr) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 
