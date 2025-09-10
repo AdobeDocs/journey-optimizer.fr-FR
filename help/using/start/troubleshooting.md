@@ -287,7 +287,7 @@ Les profils peuvent quitter un parcours de manière inattendue lorsque la **limi
 
 Reportez-vous à [cet article de dépannage](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26018){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
-Consultez également la section Mécanismes de sécurisation de Parcours [](../start/guardrails.md#journey-guardrails).
+Consultez également la section Mécanismes de sécurisation de Parcours [&#128279;](../start/guardrails.md#journey-guardrails).
 
 +++
 
@@ -300,7 +300,7 @@ Reportez-vous à [cet article de dépannage](https://experienceleague.adobe.com/
 
 En savoir plus sur les événements [sur cette page](../event/about-events.md).
 
-Consultez également la section Mécanismes de sécurisation des événements de Parcours [](../start/guardrails.md#events).
+Consultez également la section Mécanismes de sécurisation des événements de Parcours [&#128279;](../start/guardrails.md#events).
 
 +++
 
@@ -317,7 +317,7 @@ Découvrez comment dupliquer un parcours [sur cette page](../building-journeys/j
 
 +++ Pourquoi une action personnalisée appelant un point d’entrée tiers externe expire-t-elle ?
 
-Des erreurs de délai d’expiration peuvent se produire lorsqu’une **action personnalisée** appelle un point d’entrée tiers externe. Pour résoudre ce problème, vérifiez que le point d’entrée **est accessible**, vérifiez **journaux du serveur**, assurez-vous qu’il n’y a **aucun blocage de la part d’Adobe**, mettez à jour les configurations de point d’entrée si nécessaire et **testez après les mises à jour**. Gardez également à l’esprit les spécifications de délai d’appel de l’API ****.
+Des erreurs de délai d’expiration peuvent se produire lorsqu’une **action personnalisée** appelle un point d’entrée tiers externe. Pour résoudre ce problème, vérifiez que le point d’entrée **est accessible**, vérifiez **journaux du serveur**, assurez-vous qu’il n’y a **aucun blocage de la part d’Adobe**, mettez à jour les configurations de point d’entrée si nécessaire et **testez après les mises à jour**. Gardez également à l’esprit les spécifications de délai d’appel de l’API **&#x200B;**.
 
 Reportez-vous à [cet article de dépannage](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
