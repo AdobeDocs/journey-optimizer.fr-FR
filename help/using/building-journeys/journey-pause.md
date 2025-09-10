@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 91%
@@ -197,7 +197,7 @@ Lorsque vous reprenez ce parcours :
 1. Les entrées du parcours débutent en l’espace d’une minute.
 1. Les profils qui étaient en attente dans le parcours sur les activités **Action** sont rétablis à un taux de 5 000 tps. Ils peuvent alors entrer dans l’activité **Action** pour laquelle ils attendaient et continuer le parcours.
 
-## Résolution des problèmes liés aux abandons de profil dans les parcours en pause  {#discards-troubleshoot}
+## Résolution des problèmes liés aux abandons de profil dans les parcours en pause {#discards-troubleshoot}
 
 Vous pouvez utiliser le [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour interroger les événements d’étape, ce qui peut fournir plus d’informations sur les abandons de profil, selon le moment où ils se sont produits.
 

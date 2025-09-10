@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 100%
+source-wordcount: '1127'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 
 Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux responsables des parcours de tester un parcours à l’aide de données de production réelles sans contacter de véritables clientes et clients ou sans mettre à jour les informations de profil.  Cette fonctionnalité permet aux responsables des parcours d’avoir confiance dans leur conception du parcours et leur ciblage d’audience avant de publier un parcours en ligne.
 
+➡️ [Pour en savoir plus sur la simulation de parcours, regardez cette vidéo](#dry-run-video)
 
 ## Avantages clés {#journey-dry-run-benefits}
 
@@ -144,3 +145,8 @@ Si vous exportez des données d’événement d’étape vers des **systèmes ex
 
 Lors de l’analyse des **mesures de rapports de parcours** à l’aide du service de requête Adobe Experience Platform, les événements d’étape générés par le test à blanc doivent être exclus. Pour ce faire, définissez l’indicateur `inDryRun` sur `false`.
 
+## Vidéo pratique {#dry-run-video}
+
+Découvrez comment exécuter l’essai de vos parcours dans cette vidéo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

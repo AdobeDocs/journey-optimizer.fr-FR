@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
@@ -19,8 +19,8 @@ Pour qu’Adobe Journey Optimizer affiche correctement les cartes de contenu, 
 
 * **Collecte de données dʼAdobe Experience Platform**
 
-  [Créez un train de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure) et [ajoutez le service Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure#aep). Activez les options **[!UICONTROL Segmentation Edge]** et **[!UICONTROL Adobe Journey Optimizer]**. Cela permet de s’assurer que les événements entrants Journey Optimizer sont gérés par Adobe Experience Platform Edge Network.
-Ajoutez le groupe de champs **Événement d’expérience - Interaction de proposition** à votre jeu de données pour inclure ces données dans vos rapports. [En savoir plus sur les trains de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure)
+  [Créez un train de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure){target="_blank"} et [ajoutez le service Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Activez les options **[!UICONTROL Segmentation Edge]** et **[!UICONTROL Adobe Journey Optimizer]**. Cela permet de s’assurer que les événements entrants Journey Optimizer sont gérés par Adobe Experience Platform Edge Network.
+Ajoutez le groupe de champs **Événement d’expérience - Interaction de proposition** à votre jeu de données pour inclure ces données dans vos rapports. [En savoir plus sur les trains de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
@@ -32,7 +32,7 @@ Ajoutez le groupe de champs **Événement d’expérience - Interaction de propo
 
 * **SDK web ou mobile Adobe Experience Platform**
 
-  Concernant les applications web et mobiles, pour ajouter des modifications à vos pages web ou à vos applications mobiles, vous devez mettre en œuvre le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-web-sdk/overview) sur votre site web ou le [SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/home/) sur vos applications mobiles.
+  Concernant les applications web et mobiles, pour ajouter des modifications à vos pages web ou à vos applications mobiles, vous devez mettre en œuvre le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-web-sdk/overview){target="_blank"} sur votre site web ou le [SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/home/){target="_blank"} sur vos applications mobiles.
 
 * **Journey Optimizer**
 
@@ -40,10 +40,10 @@ Ajoutez le groupe de champs **Événement d’expérience - Interaction de propo
 
 * **Dépannage**
 
-  Utilisez la vue **Edge Delivery** dans **Adobe Experience Platform Assurance** pour résoudre les problèmes liés aux expériences mobiles. Les requêtes et les données de profil peuvent être examinées, tout comme les appels Edge. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery)
+  Utilisez la vue **Edge Delivery** dans **Adobe Experience Platform Assurance** pour résoudre les problèmes liés aux expériences mobiles. Les requêtes et les données de profil peuvent être examinées, tout comme les appels Edge. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
 
 * **Expériences de contenu**
 
-  Assurez-vous que le jeu de données utilisé dans le [train de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview#_blank) de votre application est également inclus dans votre configuration des rapports d’expérience de contenu. Les données de l’application ne s’afficheront pas dans les rapports si les jeux de données ne correspondent pas.
+  Assurez-vous que le jeu de données utilisé dans le [train de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview#_blank){target="_blank"} de votre application est également inclus dans votre configuration des rapports d’expérience de contenu. Les données de l’application ne s’afficheront pas dans les rapports si les jeux de données ne correspondent pas.
 
   Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../reports/reporting-configuration.md).
