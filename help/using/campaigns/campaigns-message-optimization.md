@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: optimisation de campagne, expérimentation, ciblage, test A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+workflow-type: tm+mt
+source-wordcount: '1088'
+ht-degree: 95%
 
 ---
 
@@ -36,6 +36,11 @@ La différence entre les expériences et le ciblage peut être décrite comme su
 ➡️ [En savoir plus sur l’optimisation d’une campagne dans cette vidéo](#video)
 
 ## Tirer profit du ciblage {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_targeting_fallback"
+>title="Qu’est-ce que le contenu de secours ?"
+>abstract="Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est qualifiée.</br>Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage définie ci-dessus ne recevra pas de contenu."
 
 Le ciblage diffuse du contenu personnalisé vers des segments d’audience spécifiques en fonction d’attributs de profil utilisateur ou utilisatrice, ou d’attributs contextuels.
 
@@ -67,7 +72,7 @@ Pour configurer le ciblage, suivez les étapes ci-dessous.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est applicable.
+1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** selon vos besoins. Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est applicable.
 
    >[!NOTE]
    >
@@ -181,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Apprenez à tirer parti de l’optimisation des messages dans les campagnes déclenchées par des actions ou des API. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

@@ -11,10 +11,10 @@ keywords: activité, condition, zone de travail, parcours, optimisation
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 43%
+source-wordcount: '1297'
+ht-degree: 37%
 
 ---
 
@@ -50,7 +50,7 @@ Une fois le parcours actif, les profils sont évalués en fonction des critères
 ## Utiliser l’expérimentation {#experimentation}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_path_experiment_success_metric"
+>id="ajo_path_experiment_success_metric"
 >title="Mesure de succès"
 >abstract="La mesure de succès est utilisée pour suivre et évaluer le traitement le plus performant dans une expérience."
 
@@ -70,7 +70,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 1. Sélectionnez **[!UICONTROL Expérience]** dans la liste déroulante **[!UICONTROL Méthode]**.
 
-   ![](assets/journey-optimize-experiment.png){width=75%}
+   ![](assets/journey-optimize-experiment.png){width=65%}
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]**.
 
@@ -137,15 +137,17 @@ Testez si l’envoi du premier message par e-mail plutôt que par SMS génère u
 
 ➡️ Utilisez le taux de conversion comme mesure d’optimisation (par exemple : achats, inscriptions).
 
-![](assets/journey-optimize-experiment-uc.png)
+![](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
 +++Fréquence des messages
 
-➡️ Exécutez une expérience pour vérifier si l’envoi d’un e-mail plutôt que de trois e-mails sur une semaine entraîne plus d’achats.
+Exécutez une expérience pour vérifier si l’envoi d’un e-mail plutôt que de trois e-mails sur une semaine entraîne plus d’achats.
 
-Utilisez les achats ou le taux de désabonnement comme mesure d’optimisation.
+➡️ Utilisez les achats ou le taux de désabonnement comme mesure d’optimisation.
+
+![](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -155,9 +157,16 @@ Comparez une attente de 24 heures à une attente de 72 heures avant une relanc
 
 ➡️ Utilisez le taux de clic publicitaire ou le chiffre d’affaires comme mesure d’optimisation.
 
+![](assets/journey-optimize-experiment-uc-wait.png)
+
 +++
 
 ## Tirer profit du ciblage {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_path_targeting_fallback"
+>title="Qu’est-ce qu’un chemin de secours ?"
+>abstract="La fonctionnalité de secours crée un nouveau chemin pour l’audience qui ne répond à aucune des règles de ciblage définies ci-dessus.</br>Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage ne rejoint pas le chemin de secours."
 
 Les règles de ciblage vous permettent de déterminer les règles ou qualifications spécifiques qui doivent être remplies pour qu’un client soit éligible pour accéder à l’un des chemins de parcours, en fonction de segments d’audience spécifiques<!-- depending on profile attributes or contextual attributes-->.
 
@@ -179,7 +188,7 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-dessous.
 
 1. Sélectionnez **[!UICONTROL Règle de ciblage]** dans la liste déroulante **[!UICONTROL Méthode]**.
 
-   ![](assets/journey-optimize-targeting.png){width=70%}
+   ![](assets/journey-optimize-targeting.png){width=60%}
 
 1. Cliquez sur **[!UICONTROL Créer une règle de ciblage]**.
 
@@ -187,7 +196,11 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-dessous.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à l’audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est applicable. Si cette option n’est pas sélectionnée, toute audience qui ne correspond pas à une règle de ciblage définie ci-dessus ne rejoindra aucun chemin de secours.
+1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** selon vos besoins. Cette action crée un chemin de secours pour l’audience qui ne répond à aucune des règles de ciblage définies ci-dessus.
+
+   >[!NOTE]
+   >
+   >Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage ne rejoint pas le chemin de secours.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer les paramètres de votre règle de ciblage.
 
@@ -195,7 +208,11 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-dessous.
 
    ![](assets/journey-targeting-paths.png)
 
-1. Vous pouvez éventuellement utiliser l’**[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** pour définir une action de remplacement. [En savoir plus](using-the-journey-designer.md#paths)
+1. Si vous avez sélectionné l’option **[!UICONTROL Activer le contenu de secours]** lors de la définition des paramètres de la règle, définissez une ou plusieurs actions pour le chemin de secours qui a été automatiquement ajouté.
+
+   ![](assets/journey-targeting-fallback.png){width=70%}
+
+1. Vous pouvez éventuellement utiliser l’option **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** pour définir une autre action en cas de problème. [En savoir plus](using-the-journey-designer.md#paths)
 
 1. Concevez le contenu approprié pour chaque action correspondant à chaque groupe défini par les paramètres de vos règles de ciblage. Vous pouvez naviguer facilement entre les différents contenus de chaque action.
 
@@ -219,7 +236,7 @@ Les membres Gold peuvent recevoir des offres personnalisées par e-mail, tandis 
 
 ➡️ Utilisez le chiffre d’affaires par profil ou le taux de conversion comme mesure d’optimisation.
 
-![](assets/journey-optimize-targeting-uc.png)
+![](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -229,6 +246,8 @@ Les clientes et clients qui ont ouvert un e-mail mais qui n’ont pas cliqué pe
 
 ➡️ Utilisez le taux de clic publicitaire ou les conversions en aval comme mesure d’optimisation.
 
+![](assets/journey-optimize-targeting-uc-behavior.png)
+
 +++
 
 +++Ciblage de l’historique des achats
@@ -236,6 +255,8 @@ Les clientes et clients qui ont ouvert un e-mail mais qui n’ont pas cliqué pe
 Les clientes et clients qui ont récemment acheté des produits peuvent choisir un chemin court « Merci + vente croisée », tandis que ceux et celles qui n’ont pas d’historique d’achat rejoignent un parcours d’accompagnement plus long.
 
 ➡️ Utilisez le taux d’achat de répétition ou le taux d’engagement comme mesure d’optimisation.
+
+![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
