@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 90%
 
 ---
 
@@ -104,5 +104,23 @@ Le tableau **[!UICONTROL Libellé des liens de suivi]** offre des informations e
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans votre message.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu de votre message.
+
++++
+
+## Présentation du ciblage {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Si vous configurez des **[!UICONTROL règles de ciblage]** pour votre contenu, le tableau **[!UICONTROL Présentation du ciblage]** fournit une vue détaillée des mesures d’engagement clés, qui montre comment les profils ciblés de chaque règle ont interagi avec votre contenu.
+
+➡️ [En savoir plus sur les règles de ciblage](../campaigns/campaigns-message-optimization.md)
+
++++ En savoir plus sur les mesures de présentation du ciblage
+
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos événements.
+
+* **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
+
+* **[!UICONTROL Taux de clics uniques]** : pourcentage de profils ciblés ayant cliqué au moins une fois.
 
 +++

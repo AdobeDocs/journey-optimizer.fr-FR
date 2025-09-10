@@ -1,42 +1,41 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
+title: Rapport de campagne
+description: Découvrez comment utiliser les données d’expérience du rapport de Parcours
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 57%
+source-wordcount: '386'
+ht-degree: 37%
 
 ---
-@ -0,0 +1,71 @@
----
-solution : Journey Optimizer
-produit : parcours optimizer
-titre : rapport de campagne
-Description : découvrez comment utiliser les données d’expérimentation du rapport de campagne.
-fonctionnalité : reporting
-rubrique : Gestion de contenu
-role: User
-niveau : intermédiaire
-exl-id : 69742163-7378-49ab-929e-86213d6e65e3
----
-# Rapport de campagne d’expérimentation {#campaign-global-report-cja-experimentation}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Mesure de succès"
->abstract="Valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils."
+# Rapport parcours d’expérimentation {#campaign-global-report-cja-experimentation}
 
-## Expérimentation {#experimentation}
+Votre rapport de Parcours vous donne une vue complète des performances de votre expérience, ainsi que les mesures clés dont vous avez besoin pour comprendre son impact.
 
-L’onglet **[!UICONTROL Expérimentation]** fournit des informations clés sur les performances de chaque variante et identifie la variante la plus réussie.
+Dans Journey Optimizer, l’expérimentation de parcours est divisée en deux types :
 
-Notez que la définition de la meilleure performance peut prendre un certain temps. Si votre expérience échoue, elle est définie sur **Non concluant**.
+* [Expériences de contenu](../content-management/content-experiment.md)
+* [Expériences de chemin](../building-journeys/optimize.md)
 
-![](assets/cja-experimentation-1.png)
+## Expérience de chemin {#experimentation}
+
+>[!NOTE]
+>
+> Les tableaux et les KPI détaillés pour votre expérience de contenu sont les mêmes que ceux pour une expérience de chemin d’accès. Reportez-vous à la documentation ci-dessous si vous avez configuré une expérience de contenu.
 
 ### KPI d’expérimentation {#experimentation-kpis}
 
-![](assets/cja-experimentation-kpis.png)
+![](assets/journey-report-experiment-1.png)
 
-Les indicateurs clés de performance (KPI) d’**[!UICONTROL expérimentation]** fonctionnent comme un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre expérimentation.
+Le **résumé de l’expérience** fournit des informations clés sur les performances de votre expérience et identifie la plus réussie. Notez que la définition de la meilleure performance peut prendre un certain temps. Si votre expérience échoue, elle est définie sur **Non concluant**.
+
+Les **indicateurs clés de performance d’expérimentation (KPI)** fonctionnent comme un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre expérimentation.
 
 +++ En savoir plus sur les mesures des KPI d’expérimentation
 
@@ -46,7 +45,9 @@ Les indicateurs clés de performance (KPI) d’**[!UICONTROL expérimentation]*
 
 +++
 
-### Variante par mesure de succès {#variant-inbound}
+
+
+### Variante par mesures de succès {#variant-inbound}
 
 ![](assets/cja-experimentation-variants.png)
 
@@ -74,6 +75,5 @@ Pour un examen approfondi de ces résultats et de leur interprétation, reportez
 ### Taux de conversion de la mesure de succès {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
-
 
 Le graphique **[!UICONTROL Intervalle de confiance]** indique la plage d’améliorations possibles, en comparant la ligne de base avec le traitement le plus performant pour la mesure de succès choisie. [En savoir plus](../content-management/experiment-calculations.md#confidence-intervals).
