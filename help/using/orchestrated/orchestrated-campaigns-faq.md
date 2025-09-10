@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 23%
@@ -156,6 +156,7 @@ Dans l’orchestration de Campaign, nous appelons la segmentation ad hoc « segm
 * Validez le nombre d’audiences avant l’activation pour éviter un envoi insuffisant ou excessif.
 
 >[!ENDSHADEBOX]
+
 
 
 ## La prise de décision est-elle prise en charge ? {#decisioning}

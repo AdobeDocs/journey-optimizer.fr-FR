@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
@@ -32,7 +32,6 @@ ht-degree: 100%
 Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. L’interface d’utilisation du parcours est présentée sur [cette page](journey-ui.md).
 
 ![exemple de zone de travail de parcours](assets/journey38.png)
-
 
 Les étapes principales de la création d’un parcours sont détaillées sur cette page. Les voici :
 
