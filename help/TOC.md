@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2926'
 ht-degree: 99%
 
 ---
@@ -41,14 +41,14 @@ ht-degree: 99%
       + [Prise en main en tant qu’ingénieur de données](using/start/path/data-engineer.md)
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
       + [Prise en main en tant que développeur](using/start/path/developer.md)
-   + [Interface d’utilisation](using/start/user-interface.md)
-   + [Recherche, filtrage, catégorisation](using/start/search-filter-categorize.md)
-   + [Accessibilité](using/start/accessibility.md)
+   + Interface d’utilisation {#ui}
+      + [Prise en main de l’interface](using/start/user-interface.md)
+      + [Recherche, filtrage, catégorisation](using/start/search-filter-categorize.md)
+      + [Accessibilité](using/start/accessibility.md)
    + [Utiliser l’Assistant IA](using/start/ai-assistant.md)
-   + [Mécanismes de sécurisation](using/start/guardrails.md)
-   + [Bonnes pratiques](using/start/best-practices.md)
+   + [Playbooks de cas d’utilisation](using/start/playbooks.md)
+   + [Mécanismes de sécurisation et limitations](using/start/guardrails.md)
    + [Résolution des problèmes](using/start/troubleshooting.md)
-   + [Playbooks](using/start/playbooks.md)
 + Parcours {#orchestrate-journeys}
    + [Parcours](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Commencer les parcours](using/building-journeys/journey.md)
