@@ -12,10 +12,10 @@ keywords: mode sombre, e-mail, couleur, éditeur
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
+source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 73%
+source-wordcount: '1524'
+ht-degree: 70%
 
 ---
 
@@ -115,7 +115,9 @@ Dans ce cas, les paramètres spécifiques que vous définissez dans le Designer 
 >
 >Découvrez comment définir des paramètres de mode sombre personnalisés avec le Designer Email dans [cette section](#define-custom-dark-mode).
 
-Cependant, certaines restrictions peuvent s’appliquer. Par exemple, certains clients de messagerie, tels qu’Apple Mail 16 (macOs 13), ne généreront pas de mode sombre si des images sont présentes dans le contenu de l’e-mail.
+Cependant, certaines restrictions peuvent s’appliquer en fonction de chaque client de messagerie. Par exemple, certains clients tels qu’Apple Mail 16 (macOs 13) ne généreront pas de mode sombre si des images sont présentes dans le contenu de l’e-mail.
+
+Pour des résultats optimaux, testez votre contenu avec les clients de messagerie que vous ciblez. Pour voir une simulation qui se rapproche le plus possible du résultat final pour chaque client, utilisez l’option [Rendu des emails](../content-management/rendering.md) dans le Designer d’emails.
 
 ## Mode sombre dans le Concepteur d’e-mail {#dark-mode-email-designer}
 
