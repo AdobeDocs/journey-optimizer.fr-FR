@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 22bd3de66f027b1340285e1cb50140bdb78fe694
-workflow-type: ht
+source-git-commit: a542f3e757bffb437f0b6baebe70767c2e894d91
+workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -103,9 +103,9 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 | Jeu de données de profil Orchestration de lʼaudience | Généré par la composition d’audiences pour les audiences provenant de la composition d’audiences. Contient toutes les audiences de composition d’audiences, leurs attributs et leurs données d’enrichissement. |
 | Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur. Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier, dont les offres doivent être prises en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. |
 | Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre créé par un utilisateur ou une utilisatrice. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre. |
-| Référentiel d’objets de décision - Offres personnalisées | Référentiel pour un type d’offre créé par un utilisateur ou une utilisatrice. Ce jeu de données contient donc les attributs relatifs à ce type d’offre.</br> Après l’ajout de nouveaux champs d’attributs personnalisés au schéma d’élément d’offre, il peut s’écouler jusqu’à une heure avant que ces nouveaux attributs ne soient visibles dans le jeu de données. Pour éviter toute perte de données ou incohérence, il est recommandé d’attendre au moins une heure avant d’effectuer des modifications ou des mises à jour qui reposent sur les attributs nouvellement ajoutés. |
+| Référentiel d’objets de décision - Offres personnalisées | Référentiel pour un type d’offre créé par un utilisateur ou une utilisatrice. Ce jeu de données contient donc les attributs relatifs à ce type d’offre. |
 | Référentiel d’objets de décision - Emplacements | Référentiel d’objets qui définissent l’emplacement où doit s’afficher une offre. |
-| Référentiel d’objets de décisions pour les expériences - Éléments d’offres personnalisées | Stocke tous les éléments d’offre, y compris tous les attributs et le statut du cycle de vie pour prendre en charge la personnalisation et le reporting cross-canal. |
+| Référentiel d’objets de décisions pour les expériences - Éléments d’offres personnalisées | Stocke tous les éléments d’offre, y compris tous les attributs et le statut du cycle de vie pour prendre en charge la personnalisation et le reporting cross-canal. </br> Après l’ajout de nouveaux champs d’attributs personnalisés au schéma d’élément d’offre, il peut s’écouler jusqu’à une heure avant que ces nouveaux attributs ne soient visibles dans le jeu de données. Pour éviter toute perte de données ou incohérence, il est recommandé d’attendre au moins une heure avant d’effectuer des modifications ou des mises à jour qui reposent sur les attributs nouvellement ajoutés. |
 | Événements d’étape de parcours | Capturent tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. |
 | Parcours | Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours. |
 | ODE DecisionEvents - Décisions de production | Chaque fois que nous prenons une décision basée sur une demande, nous la comptabilisons comme un événement de décision. |
