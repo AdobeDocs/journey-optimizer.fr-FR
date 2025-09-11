@@ -112,7 +112,7 @@ Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouve
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Expression"
->abstract="Au lieu d’utiliser une valeur statique pour le seuil de limitation, vous pouvez définir votre propre expression. Vous pouvez ainsi calculer le seuil de manière dynamique à l’aide d’attributs de décision et/ou d’attributs externes d’un jeu de données Adobe Experience Platform.<br/><br/>Les expressions de règle de limitation **** sont actuellement disponibles en tant que disponibilité limitée pour tous les utilisateurs. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**."
+>abstract="Au lieu d’utiliser une valeur statique pour le seuil de limitation, vous pouvez définir votre propre expression. Vous pouvez ainsi calculer le seuil de manière dynamique à l’aide d’attributs de décision et/ou d’attributs externes d’un jeu de données Adobe Experience Platform.<br/><br/>Les expressions de règle de limitation **&#x200B;**&#x200B;sont actuellement disponibles en tant que disponibilité limitée pour tous les utilisateurs. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où un élément d&#39;offre peut être présenté. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 limitations pour un élément de décision donné.
 
