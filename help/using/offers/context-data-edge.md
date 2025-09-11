@@ -8,10 +8,10 @@ feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 

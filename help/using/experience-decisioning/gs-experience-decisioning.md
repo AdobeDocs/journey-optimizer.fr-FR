@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
 1. **Créez des éléments de décision** pour les afficher à l’audience ciblée.
 
-   ➡️ [Découvrez comment créer des éléments de prise de décisions](items.md) dans l’interface d’uttilisattion (et dans la [documentation de l’API](api-reference/decisions-items/create.md)).
+   ➡️ [Découvrez comment créer des éléments de décision](items.md) dans l’interface utilisateur (et dans la [documentation de l’API](api-reference/decisions-items/create.md))
 
 1. **Organisez des collections** : utilisez des collections pour classer les éléments de décision en fonction de règles basées sur des attributs. Incorporez des collections dans vos stratégies de sélection afin de déterminer la collection d’éléments de décision à prendre en compte.
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '2186'
 ht-degree: 85%
@@ -85,7 +85,7 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 
 Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement ; les deux solutions correspondant à différents usages. Pour plus d’informations, développez la section ci-dessous :
 
-+++Utiliser des audiences ou des règles de décision
++++Utiliser les audiences par rapport aux règles de décision
 
 Pour faire simple, la sortie d’une audience est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision.
 
@@ -112,7 +112,7 @@ Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouve
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Expression"
->abstract="Au lieu d’utiliser une valeur statique pour le seuil de limitation, vous pouvez définir votre propre expression. Vous pouvez ainsi calculer le seuil de manière dynamique à l’aide d’attributs de décision et/ou d’attributs externes d’un jeu de données Adobe Experience Platform.<br/><br/>Les expressions de règle de limitation **&#x200B;**&#x200B;sont actuellement disponibles en tant que disponibilité limitée pour tous les utilisateurs. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**."
+>abstract="Au lieu d’utiliser une valeur statique pour le seuil de limitation, vous pouvez définir votre propre expression. Vous pouvez ainsi calculer le seuil de manière dynamique à l’aide d’attributs de décision et/ou d’attributs externes d’un jeu de données Adobe Experience Platform.<br/><br/>Les expressions de règle de limitation **** sont actuellement disponibles en tant que disponibilité limitée pour tous les utilisateurs. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où un élément d&#39;offre peut être présenté. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 limitations pour un élément de décision donné.
 
