@@ -11,10 +11,10 @@ keywords: activité, condition, zone de travail, parcours, optimisation
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 37%
+source-wordcount: '1257'
+ht-degree: 35%
 
 ---
 
@@ -135,7 +135,7 @@ Les exemples suivants montrent comment utiliser l’activité **[!UICONTROL Opti
 
 Testez si l’envoi du premier message par e-mail plutôt que par SMS génère un taux de conversion plus élevé.
 
-➡️ Utilisez le taux de conversion comme mesure d’optimisation (par exemple : achats, inscriptions).
+➡️ Utilisez le taux de conversion comme mesure de succès (par exemple : achats, inscriptions).
 
 ![](assets/journey-optimize-experiment-uc-channel.png)
 
@@ -145,7 +145,7 @@ Testez si l’envoi du premier message par e-mail plutôt que par SMS génère u
 
 Exécutez une expérience pour vérifier si l’envoi d’un e-mail plutôt que de trois e-mails sur une semaine entraîne plus d’achats.
 
-➡️ Utilisez les achats ou le taux de désabonnement comme mesure d’optimisation.
+➡️ Utilisez les achats ou le taux de désabonnement comme mesure de succès.
 
 ![](assets/journey-optimize-experiment-uc-frequency.png)
 
@@ -155,7 +155,7 @@ Exécutez une expérience pour vérifier si l’envoi d’un e-mail plutôt que 
 
 Comparez une attente de 24 heures à une attente de 72 heures avant une relance afin de déterminer quel délai maximise l’engagement.
 
-➡️ Utilisez le taux de clic publicitaire ou le chiffre d’affaires comme mesure d’optimisation.
+➡️ Utilisez le taux de clic publicitaire ou le chiffre d’affaires comme mesure de succès.
 
 ![](assets/journey-optimize-experiment-uc-wait.png)
 
@@ -166,7 +166,7 @@ Comparez une attente de 24 heures à une attente de 72 heures avant une relanc
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Qu’est-ce qu’un chemin de secours ?"
->abstract="La fonctionnalité de secours crée un nouveau chemin pour l’audience qui ne répond à aucune des règles de ciblage définies ci-dessus.</br>Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage ne rejoint pas le chemin de secours."
+>abstract="Les chemins de secours permettent à votre audience de saisir un autre chemin lorsqu’aucune règle de ciblage n’est qualifiée. </br>Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage ne peut pas accéder au chemin de secours et quitter le parcours."
 
 Les règles de ciblage vous permettent de déterminer les règles ou qualifications spécifiques qui doivent être remplies pour qu’un client soit éligible pour accéder à l’un des chemins de parcours, en fonction de segments d’audience spécifiques<!-- depending on profile attributes or contextual attributes-->.
 
@@ -196,11 +196,11 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-dessous.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** selon vos besoins. Cette action crée un chemin de secours pour l’audience qui ne répond à aucune des règles de ciblage définies ci-dessus.
+1. Sélectionnez l’option **[!UICONTROL Activer le chemin de secours]** selon vos besoins. Cette action crée un chemin de secours pour l’audience qui ne répond à aucune des règles de ciblage définies ci-dessus.
 
    >[!NOTE]
    >
-   >Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage ne rejoint pas le chemin de secours.
+   >Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage ne rejoint pas le chemin de secours et quitte le parcours.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer les paramètres de votre règle de ciblage.
 
@@ -234,7 +234,7 @@ Les exemples suivants montrent comment utiliser l&#39;activité **[!UICONTROL Op
 
 Les membres Gold peuvent recevoir des offres personnalisées par e-mail, tandis que les autres membres sont redirigés vers des rappels par SMS.
 
-➡️ Utilisez le chiffre d’affaires par profil ou le taux de conversion comme mesure d’optimisation.
+<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-segment.png)
 
@@ -244,7 +244,7 @@ Les membres Gold peuvent recevoir des offres personnalisées par e-mail, tandis 
 
 Les clientes et clients qui ont ouvert un e-mail mais qui n’ont pas cliqué peuvent recevoir une notification push, tandis que ceux et celles qui ne l’ont pas ouvert du tout reçoivent un SMS.
 
-➡️ Utilisez le taux de clic publicitaire ou les conversions en aval comme mesure d’optimisation.
+<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-behavior.png)
 
@@ -254,15 +254,15 @@ Les clientes et clients qui ont ouvert un e-mail mais qui n’ont pas cliqué pe
 
 Les clientes et clients qui ont récemment acheté des produits peuvent choisir un chemin court « Merci + vente croisée », tandis que ceux et celles qui n’ont pas d’historique d’achat rejoignent un parcours d’accompagnement plus long.
 
-➡️ Utilisez le taux d’achat de répétition ou le taux d’engagement comme mesure d’optimisation.
+<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
-## Ajouter une condition {#conditions}
+### Ajouter une condition {#conditions}
 
-Vous pouvez ajouter une condition pour définir la progression des individus dans votre parcours en créant plusieurs chemins en fonction de critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide.
+Les conditions sont un type de règles [de ciblage](#targeting) qui permet de définir la progression d’un individu dans un parcours en créant plusieurs chemins d’accès selon des critères spécifiques.
 
 ![](assets/journey-condition.png)
 
