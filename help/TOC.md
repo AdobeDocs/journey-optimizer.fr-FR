@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '2926'
-ht-degree: 99%
+source-wordcount: '2940'
+ht-degree: 98%
 
 ---
 
@@ -547,7 +547,10 @@ ht-degree: 99%
       + [Créer une expérience de contenu](using/content-management/content-experiment.md)
       + Accélérateur d’expérience {#experiment}
          + [Prise en main de l’accélérateur d’expériences](using/content-management/experiment-accelerator.md)
+         + [Utilisation des données dans l’IA avec Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
+         + [Bonnes pratiques relatives à l’accélérateur d’expériences](using/content-management/experiment-accelerator-best-practices.md)
          + [Moniteur d’accélérateur d’expérience](using/content-management/experiment-accelerator-monitor.md)
+         + [Mesures de l’accélérateur d’expériences](using/content-management/experiment-accelerator-metrics.md)
       + Notes techniques {#technotes}
          + [Notes techniques](/help/rp_landing_pages/technotes-landing-page.md)
          + [Présentation des calculs statistiques](using/content-management/experiment-calculations.md)

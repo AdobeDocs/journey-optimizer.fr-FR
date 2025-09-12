@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: moniteur Experimentation Accelerator
 description: Améliorer votre capacité à mener des expériences efficacement et à générer des informations
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 6%
+source-wordcount: '1069'
+ht-degree: 5%
 
 ---
 
-# Onglet Expériences {#monitor}
+# Suivre vos expériences {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [Prise en main d’Experimentation Accelerator](experiment-accelerator.md)
-* **[Onglet Expériences](experiment-accelerator-monitor.md)**
+* [Utilisation des données dans l’IA avec Experimentation Accelerator](experiment-accelerator-security.md)
+* [Bonnes pratiques relatives à Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* **[Surveiller les expériences](experiment-accelerator-monitor.md)**
+* [Mesures d’expérimentation](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -94,7 +97,7 @@ Une fois la configuration de votre **[!UICONTROL hypothèse]** terminée, vous o
 
 Le widget **[!UICONTROL Effet d’expérience]** fournit une vue détaillée de la manière dont votre expérience a influencé les segments d’audience ciblés. Il présente des indicateurs clés de performance qui vous aident à évaluer l’engagement et le comportement, notamment :
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Visiteurs]** : nombre total de visiteurs et visiteuses uniques exposés à l’expérience.
 
@@ -104,11 +107,11 @@ Vous pouvez également afficher un instantané en temps réel des performances d
 
 * **[!UICONTROL Effet élévateur sur la ligne de base]** : mesure l’amélioration en pourcentage du traitement principal par rapport au contrôle ou à la ligne de base.
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 Au bas du widget, vous trouverez un résumé concis de la configuration de votre expérience, notamment :
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Nombre de traitements]** : nombre total de variations testées.
 
@@ -162,7 +165,7 @@ Le tableau **[!UICONTROL Résultats]** fournit une répartition détaillée des 
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Effet élévateur]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
@@ -180,6 +183,6 @@ Le tableau **[!UICONTROL Résultats]** fournit une répartition détaillée des 
 
 Les **[!UICONTROL informations sur l’expérience]** sont des enseignements générés par l’IA provenant de cette expérience. Ces informations sont disponibles une fois que l’expérience a atteint sa signification statistique et fournissent une compréhension contextuelle de ce qui a contribué à son succès. Ils mettent en évidence les attributs clés présents dans le traitement gagnant, distincts du contrôle, qui ont probablement influencé le résultat.
 
-Notez que pour que des informations d’expérience soient générées, vous devez d’abord [confirmer les détails de l’hypothèse et du traitement](#set-up).
+Notez que pour que des informations d’expérience soient générées, vous devez d’abord [confirmer les détails de l’hypothèse et du traitement](#set-up) et la signification statistique à atteindre.
 
 Cliquez sur **[!UICONTROL Afficher les détails]** pour en savoir plus sur chaque information.
