@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 36%
 
 ---
@@ -21,13 +21,12 @@ Votre rapport de Parcours vous donne une vue complète des performances de votre
 Dans Journey Optimizer, l’expérimentation de parcours est divisée en deux types :
 
 * [Expériences de contenu](../content-management/content-experiment.md)
+
+  Notez que les tableaux et les KPI détaillés pour votre expérience de contenu sont identiques à ceux d’une expérience de chemin d’accès. Reportez-vous à la [documentation ci-dessous](#experimentation) si vous avez configuré une expérience de contenu.
+
 * [Expériences de chemin](../building-journeys/optimize.md)
 
 ## Expérience de chemin {#experimentation}
-
->[!NOTE]
->
-> Les tableaux et les KPI détaillés pour votre expérience de contenu sont les mêmes que ceux pour une expérience de chemin d’accès. Reportez-vous à la documentation ci-dessous si vous avez configuré une expérience de contenu.
 
 ### KPI d’expérimentation {#experimentation-kpis}
 
