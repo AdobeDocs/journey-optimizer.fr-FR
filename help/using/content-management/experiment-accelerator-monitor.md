@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1108'
 ht-degree: 5%
 
 ---
@@ -71,11 +71,13 @@ Le **[!UICONTROL résultat de l’expérience]** vous donne un aperçu rapide de
 
 ### Configurer {#set-up}
 
-![](assets/experiment-monitor-hypothesis.png)
-
 L’**[!UICONTROL hypothèse]** capture les modifications planifiées à tester et documente l’impact attendu sur la mesure principale. La définition d’une **[!UICONTROL hypothèse]** claire garantit que chaque expérience a un objectif mesurable, ce qui facilite l’évaluation des résultats et la détermination si les changements conduisent à des améliorations significatives.
 
+Notez que pour que les [informations d’expérience](#insights) soient générées, vous devez confirmer les détails de l’hypothèse et du traitement, ainsi que la signification statistique à atteindre.
+
 1. Cliquez sur **[!UICONTROL Ajouter]** pour créer une **[!UICONTROL Hypothèse]** pour votre expérience.
+
+   ![](assets/experiment-monitor-setup-1.png)
 
 1. Saisissez votre **[!UICONTROL hypothèse]** en détaillant les modifications apportées et la manière dont elles affecteront la mesure principale.
 
@@ -83,7 +85,9 @@ L’**[!UICONTROL hypothèse]** capture les modifications planifiées à tester 
 
 1. Cliquez sur **[!UICONTROL Vérifier]** pour ajouter ou remplacer l’image pour chaque Traitement.
 
-1. Sélectionnez **[!UICONTROL Ajouter une image]** ou **[!UICONTROL Remplacer l’image]** pour choisir parmi vos fichiers locaux la meilleure capture d’écran pour vos **[!UICONTROL Traitements]**.
+   ![](assets/experiment-monitor-setup-2.png)
+
+1. Les images du traitement sont générées automatiquement, mais si nécessaire, vous pouvez sélectionner **[!UICONTROL Ajouter une image]** ou **[!UICONTROL Remplacer l’image]** pour charger une capture d’écran préférée de vos fichiers locaux pour vos **[!UICONTROL Traitements]**.
 
    Notez que la capture d’écran doit capturer la page entière.
 
@@ -97,7 +101,7 @@ Une fois la configuration de votre **[!UICONTROL hypothèse]** terminée, vous o
 
 Le widget **[!UICONTROL Effet d’expérience]** fournit une vue détaillée de la manière dont votre expérience a influencé les segments d’audience ciblés. Il présente des indicateurs clés de performance qui vous aident à évaluer l’engagement et le comportement, notamment :
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Visiteurs]** : nombre total de visiteurs et visiteuses uniques exposés à l’expérience.
 
@@ -107,11 +111,11 @@ Vous pouvez également afficher un instantané en temps réel des performances d
 
 * **[!UICONTROL Effet élévateur sur la ligne de base]** : mesure l’amélioration en pourcentage du traitement principal par rapport au contrôle ou à la ligne de base.
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
-Au bas du widget, vous trouverez un résumé concis de la configuration de votre expérience, notamment :
+Au bas du widget, vous pouvez trouver un résumé concis de la configuration de votre expérience, notamment :
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Nombre de traitements]** : nombre total de variations testées.
 
@@ -123,17 +127,17 @@ Au bas du widget, vous trouverez un résumé concis de la configuration de votre
 >
 >La fonctionnalité Opportunités est limitée aux expériences avec des modifications textuelles.
 
-![](assets/experiment-monitor-opportunities.png)
-
 Le panneau **[!UICONTROL Opportunités]** affiche des recommandations générées par l’IA conçues pour améliorer les performances de test et s’aligner sur les objectifs commerciaux et les KPI plus généraux.
 
-1. Sélectionnez l’opportunité souhaitée et cliquez sur **[!UICONTROL Afficher l’opportunité]**.
+Notez que pour que des opportunités d’expérience soient générées, vous devez d’abord [confirmer les détails de l’hypothèse et du traitement](#set-up).
+
+1. Parcourez l’opportunité suggérée et cliquez sur **[!UICONTROL Afficher l’opportunité]**.
+
+   ![](assets/experiment-monitor-opportunities.png)
 
 1. La sélection d’une opportunité ouvre la fenêtre **Détails de l’opportunité** qui décrit un traitement ou une variation spécifique suggéré par Experimentation Accelerator. Cette vue comprend :
 
    * **[!UICONTROL Hypothèse]** : hypothèse générée par l’IA qui explique le résultat attendu du traitement suggéré.
-
-   * **[!UICONTROL Nouvel exemple de traitement de texte]** : mots ou expressions qui montrent le style que l’IA recommande d’utiliser.
 
    * **[!UICONTROL Justification]** : explication de la raison pour laquelle l’Experimentation Accelerator a suggéré cette opportunité.
 
@@ -142,12 +146,19 @@ Le panneau **[!UICONTROL Opportunités]** affiche des recommandations générée
       * **[!UICONTROL Potentiel d’apprentissage]** : estimation de la quantité de nouvelles fonctionnalités d’insight que l’opportunité pourrait offrir, en fonction de leur différence par rapport à ce qui a été testé précédemment.
 
       * **[!UICONTROL Potentiel de conversion]** : estimation de la probabilité que l’opportunité surpasse les traitements actuels, en fonction des similitudes avec les stratégies qui ont historiquement bien fonctionné.
+   <!--
+   * **[!UICONTROL New text treatment example]**: Words or phrases that demonstrate the style the AI recommends using.
+   -->
 
-1. Vous pouvez ensuite choisir de **[!UICONTROL Partager]** votre opportunité ou de l’activer directement en sélectionnant **[!UICONTROL Ouvrir l’expérience]**.
+   ![](assets/experiment-monitor-opportunities-2.png)
+
+1. Vous pouvez ensuite l’ajouter directement à votre expérience en sélectionnant **[!UICONTROL Ouvrir l’expérience]**.
 
 1. Si l’expérience d’origine a été créée et gérée dans Adobe Journey Optimizer, cette action ouvre le **[!UICONTROL panneau d’expérimentation de contenu]** dans cette campagne.
 
    Pour les expériences provenant de **[!DNL Adobe Target]**, les modifications suggérées seront plutôt chargées dans le workflow d’expérimentation de **[!DNL Adobe Target]**.
+
+   ➡️ [En savoir plus dans la documentation Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Dans la vue d’expérience, les mêmes IA **[!UICONTROL Opportunités d’expérimentation]** que celles affichées par Experimentation Accelerator sont accessibles.
 
@@ -163,9 +174,9 @@ Le tableau **[!UICONTROL Résultats]** fournit une répartition détaillée des 
 
 * **[!UICONTROL Lieu]** : position de classement du traitement en fonction des performances indiquant sa comparaison avec d’autres traitements.
 
-* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 
 * **[!UICONTROL Effet élévateur]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
@@ -179,10 +190,12 @@ Le tableau **[!UICONTROL Résultats]** fournit une répartition détaillée des 
 >
 >La fonctionnalité Informations sur l’expérience est limitée aux expériences avec des modifications textuelles.
 
-![](assets/experiment-monitor-insights.png)
-
 Les **[!UICONTROL informations sur l’expérience]** sont des enseignements générés par l’IA provenant de cette expérience. Ces informations sont disponibles une fois que l’expérience a atteint sa signification statistique et fournissent une compréhension contextuelle de ce qui a contribué à son succès. Ils mettent en évidence les attributs clés présents dans le traitement gagnant, distincts du contrôle, qui ont probablement influencé le résultat.
 
 Notez que pour que des informations d’expérience soient générées, vous devez d’abord [confirmer les détails de l’hypothèse et du traitement](#set-up) et la signification statistique à atteindre.
 
 Cliquez sur **[!UICONTROL Afficher les détails]** pour en savoir plus sur chaque information.
+
+</br>
+
+![](assets/experiment-monitor-insights.png)
