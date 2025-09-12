@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
+source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '879'
 ht-degree: 70%
 
 ---
@@ -57,6 +57,31 @@ ht-degree: 70%
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
 >abstract="Sélectionnez le type de campagne. Les canaux disponibles varient en fonction du type sélectionné. <br>**Campagnes planifiées** (Campagnes d’action) - Idéal pour les communications par lots simples et ponctuelles que vous pouvez planifier pour qu’elles s’exécutent à une heure spécifique.<br>**Campagnes déclenchées par API** - Activées par le biais d’un appel API, ce qui permet d’envoyer une messagerie automatisée et basée sur un événement directement depuis des systèmes externes.<br>**Campagnes orchestrées** - Fournissez une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing complexes et à plusieurs étapes, de la segmentation de l’audience à la diffusion de messages personnalisés sur plusieurs canaux."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_orchestration"
+>title="Campagnes"
+>abstract="Créez votre flux de segmentation, concevez vos messages cross-canal et planifiez vos campagnes. Canaux pris en charge : e-mail, SMS, notification push."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_marketing"
+>title="Campagnes"
+>abstract="Diffusez des diffusions sortantes uniques ou récurrentes ou des actions entrantes en cours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_transactional"
+>title="Campagnes"
+>abstract="Envoyez des actions transactionnelles sortantes uniques ou récurrentes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_marketing"
+>title="Campagnes"
+>abstract="Diffusez des communications marketing personnalisées aux audiences ciblées. Canaux pris en charge : E-mail, SMS, Notifications push."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_transactional"
+>title="Campagnes"
+>abstract="Diffusez des communications transactionnelles à des profils individuels ou à des ensembles de profils. Canaux pris en charge : E-mail, SMS, Notifications push."
 
 Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
 
