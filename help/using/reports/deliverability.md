@@ -96,15 +96,15 @@ DMARC (Domain-based Message Authentication, Reporting, and Conformance, soit Aut
 
 [En savoir plus sur l’enregistrement DMARC](../configuration/dmarc-record.md)
 
-## Connaître les boucles de rétroaction {#feedback-loops}
+## Connaître les systèmes de feedback {#feedback-loops}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Certains sous-domaines peuvent ne pas être disponibles."
->abstract="Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison d’un enregistrement de boucle de rétroaction en attente. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois cette opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles."
+>abstract="Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison de l’enregistrement en attente du système de feedback. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois cette opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Commencer avec la délégation de sous-domaines"
 
-Une boucle de rétroaction (FBL) est un service proposé par certains FAI qui permet à l’expéditeur ou l’expéditrice de l’e-mail de recevoir automatiquement un avertissement lorsque l’utilisateur ou l’utilisatrice qui reçoit un e-mail choisit de le marquer comme spam (également appelé une « plainte »).
+Un système de feedback (FBL) est un service proposé par certains FAI qui permet à l’expéditeur ou l’expéditrice de l’e-mail de recevoir automatiquement un avertissement lorsque l’utilisateur ou l’utilisatrice qui reçoit un e-mail choisit de le marquer comme spam (également appelé une « plainte »).
 
 Lorsqu’un utilisateur final ou une utilisatrice finale génère une plainte qui est renvoyée à Adobe par le FAI, l’adresse e-mail est automatiquement ajoutée à la [liste de suppression](../reports/suppression-list.md) et exclue des diffusions suivantes. En effet, l’envoi d’e-mails aux utilisateurs ou utilisatrices qui les ont marqués comme spam affecte négativement la réputation de l’expéditeur ou l’expéditrice et peut entraîner des problèmes de délivrabilité. [En savoir plus sur les plaintes relatives aux spams](../reports/suppression-list.md#spam-complaints)
 
