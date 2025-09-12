@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: ht
-source-wordcount: '1107'
-ht-degree: 100%
+source-git-commit: 85ae4e99e804e50451b3f108e1fddc041f269620
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
    | Message d’opt-out | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out. |
    | Mots-clés d’aide | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
    | Message d’aide | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**. |
-   | Mots-clés de double opt-in | Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3440276/?learn=on&captions=fre_fr). |
+   | Mots-clés de double opt-in | Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Message de double opt-in | Saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in. |
    | Numéro entrant | Ajoutez votre numéro entrant unique ou votre code court. Cela permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant ou code court. |
    | Mots-clés entrants personnalisés | Définissez des mots-clés uniques pour des actions spécifiques, par exemple REMISE, OFFRES, INSCRIRE. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment en continu dans le parcours et de fournir une réponse ou une action personnalisée. |
@@ -76,7 +76,7 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
 
 1. Pour modifier les informations d’identification existantes, recherchez les informations d’identification d’API souhaitées et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
 
-1. Cliquez sur **[!UICONTROL Vérifier la connexion SMS]**, à partir de vos informations d’identification d’API existantes, pour tester et vérifier vos informations d’identification d’API SMS en envoyant un exemple de message à un appareil désigné.
+1. Cliquez sur **[!UICONTROL Vérifier la connexion SMS]**, à partir de vos informations d’identification d’API existantes, pour tester et vérifier vos informations d’identification d’API SMS en envoyant un exemple de message à un appareil désigné.
 
 1. Renseignez les champs **Numéro** et **Message**, puis cliquez sur **[!UICONTROL Vérifier la connexion]**.
 
@@ -117,6 +117,7 @@ Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
 
 Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une configuration des canaux pour les messages MMS. [En savoir plus](sms-configuration-surface.md)
 
+
 ## Configurer des informations d’identification d’API pour RCS
 
 <!--![](assets/do-not-localize/rcs-sms.png)-->
@@ -125,19 +126,32 @@ La messagerie RCS (Rich Communication Services) est prise en charge dans Journey
 
 Notez que les messages redeviennent automatiquement des SMS lorsque l’appareil du profil ne prend pas en charge RCS ou est temporairement inatteignable via RCS.
 
-➡️ [Découvrez dans la documentation Sinch comment Sinch prend en charge RCS](https://sinch.com/blog/rcs-api-guide/).
+### Messages RCS avancés
 
-Pour configurer RCS avec Sinch :
+>[!AVAILABILITY]
+>
+> Les messages RCS avancés ne sont disponibles qu’avec un compte direct géré par Sinch.
 
 1. **Configurer votre agent RCS de marque**
 
-   Pour configurer un agent RCS de marque, contactez votre représentant ou représentante Adobe. [En savoir plus sur l’agent RCS de marque](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844).
+   Créez un agent RCS de marque dans le tableau de bord Sinch. [En savoir plus sur l’agent RCS de marque](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844).
 
-1. **Configurer vos [informations d’identification d’API Sinch](#create-api)**
+1. **Configurer vos [informations d’identification d’API personnalisées](sms-configuration-custom.md)**
 
-   Une fois votre agent RCS approuvé, vous devez configurer vos informations d’identification d’API Sinch, qui incluent votre clé d’accès, votre secret et votre identifiant de plan de service. Ces informations d’identification seront utilisées par Journey Optimizer pour l’authentification et l’envoi de messages via la plateforme Sinch.
+   Une fois votre agent RCS approuvé, vous devez configurer vos informations d’identification d’API personnalisées, qui incluent votre AppId, votre Nom, votre URL et votre Type d’authentification.
+
+1. **Configuration du serveur de collecte de données régionales avec la payload du fournisseur.**
+
+   Dans vos [informations d’identification d’API personnalisées](sms-configuration-custom.md), ajoutez la payload de votre fournisseur pour valider et personnaliser vos messages RCS.
 
 1. **Créer une [configuration de canaux](sms-configuration-surface.md) pour vos messages RCS**
 
    Configurez une surface de canal dans Journey Optimizer en liant vos informations d’identification Sinch et en définissant les paramètres de messagerie. Cette configuration vous permet de composer et d’envoyer des messages RCS à partir de Journey Optimizer.
+
+1. **Créer et personnaliser votre [SMS](../sms/create-sms.md)**
+
+   Collez directement la payload dans le contenu du SMS pour incorporer et diffuser vos messages RCS (Rich Communication Services).
+
+   ➡️ [Découvrez dans la documentation Sinch comment Sinch prend en charge RCS](https://sinch.com/blog/rcs-api-guide/).
+
 
