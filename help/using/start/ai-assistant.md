@@ -41,7 +41,7 @@ Dans Adobe Journey Optimizer, vous avez accès aux cas d’utilisation suivant
 
 * **Informations opérationnelles** dans les parcours (version Beta)
 
-  Les questions relatives aux informations opérationnelles portent sur les objets de parcours du sandbox de votre entreprise. Voici quelques exemples de questions ou d’invites relatives aux informations opérationnelles :
+  Les questions relatives aux informations opérationnelles portent sur les objets de parcours du sandbox de votre entreprise. Voici quelques exemples de questions ou de prompts relatifs aux informations opérationnelles :
 
    * Combien de parcours actifs ai-je dans Adobe Journey Optimizer ?
    * Écris-moi une liste de tous les parcours planifiés.
