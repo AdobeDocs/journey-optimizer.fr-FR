@@ -7,16 +7,26 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
-workflow-type: ht
-source-wordcount: '1367'
-ht-degree: 100%
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+workflow-type: tm+mt
+source-wordcount: '1500'
+ht-degree: 91%
 
 ---
 
 # Modèles d’optimisation automatique {#auto-optimization-model}
 
 Un modèle d’optimisation automatique vise à proposer des offres qui optimisent le retour (KPI) défini par les clients commerciaux. Ces KPI peuvent prendre la forme de taux de conversion, de chiffres dʼaffaires, etc. À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme cible la conversion de lʼoffre. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances « globales » des offres.
+
+## Exigences relatives aux jeux de données
+
+Pour entraîner un modèle d’optimisation automatique, le jeu de données doit répondre aux exigences minimales suivantes :
+
+* Au moins 2 offres du jeu de données doivent avoir au moins 100 événements d’affichage et 5 événements de clic au cours des 14 derniers jours.
+* Les offres de moins de 100 affichages et/ou événements de 5 clics au cours des 14 derniers jours seront traitées par le modèle comme de nouvelles offres et ne peuvent être diffusées que par le bandit d’exploration.
+* Les offres comportant plus de 100 affichages et 5 événements de clic au cours des 14 derniers jours seront traitées par le modèle comme des offres existantes et peuvent être diffusées par les bandits d’exploration et d’exploitation.
+
+Jusqu’à la première fois qu’un modèle d’optimisation automatique est entraîné, les offres d’une stratégie de sélection utilisant un modèle d’optimisation automatique sont diffusées de manière aléatoire.
 
 ## Limites {#limitations}
 
