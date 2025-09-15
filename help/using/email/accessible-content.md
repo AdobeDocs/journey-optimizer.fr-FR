@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
-source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
+source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 2%
@@ -31,7 +31,7 @@ En conséquence, les bonnes pratiques pour concevoir un contenu accessible avec 
 >
 >D’un autre côté, l’accessibilité de l’interface [!DNL Journey Optimizer] elle-même est détaillée dans [cette section](../start/accessibility.md).
 > 
->## Garantir la lisibilité du texte {#text-readability}
+## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
 
@@ -102,7 +102,7 @@ Pour un texte secondaire efficace dans les produits numériques, suivez les dire
 
 Utilisez la structure et les [composants de contenu](content-components.md) pertinents pour Email Designer, ainsi que les options du volet **[!UICONTROL Styles]** pour organiser votre contenu d’une manière claire, logique et concise, accessible à tous.
 
-![](assets/accessible-components.png){width="1000%"}
+![](assets/accessible-components.png){width="100%"}
 
 * Utilisez des HTML sémantiques structurées avec des en-têtes, des paragraphes, des listes et des tableaux appropriés.
 * Assurez-vous que le contenu suit un flux logique de gauche à droite, de haut en bas.
