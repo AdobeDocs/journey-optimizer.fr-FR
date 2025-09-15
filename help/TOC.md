@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: 0e269babd228063d465e0790435d916e479701a7
 workflow-type: tm+mt
 source-wordcount: '2940'
 ht-degree: 98%
@@ -325,14 +325,14 @@ ht-degree: 98%
             + [Insérer des offres personnalisées](using/email/add-offers-email.md)
             + [Générer une version texte](using/email/text-version-email.md)
             + [Ajouter des métadonnées](using/email/email-metadata.md)
-            + [Ajouter un CSS personnalisé](using/email/custom-css.md)
          + Modifier le style {#edit-style}
             + [Modifier le style](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
             + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
             + [Ajouter des attributs de style intégrés](using/email/inline-styling.md)
-            + [Définir le contenu en mode sombre](using/email/dark-mode.md)
+            + [Ajouter un CSS personnalisé](using/email/custom-css.md)
+            + [Gérer le contenu en mode sombre](using/email/dark-mode.md)
          + [Créer du contenu accessible](using/email/accessible-content.md)
       + [Gérer les opt-out pour les e-mails](using/email/email-opt-out.md)
       + Configurer le canal e-mail {#configure-email}
