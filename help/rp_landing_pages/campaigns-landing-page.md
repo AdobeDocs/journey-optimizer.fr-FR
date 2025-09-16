@@ -8,15 +8,15 @@ exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 8%
+ht-degree: 73%
 
 ---
 
 # Campagnes{#section-overview}
 
-Les campagnes dans Adobe Journey Optimizer vous permettent de diffuser des messages personnalisés, opportuns et percutants sur l’ensemble des canaux, ce qui vous aide à interagir avec votre audience plus efficacement. Que vous planifiiez un e-mail promotionnel unique, automatisiez les messages transactionnels en temps réel ou orchestriez des parcours complexes à plusieurs étapes, il existe un type de campagne adapté à vos besoins. Cette section présente les trois principaux types de campagne : campagnes d’action, campagnes déclenchées par une API et campagnes orchestrées, en mettant en évidence leurs points forts et cas d’utilisation uniques. Vous découvrirez également les blocs de création essentiels tels que les autorisations, la configuration des audiences et les configurations de canal, afin de vous assurer que vous avez tout en place pour créer et gérer des campagnes qui trouvent un écho auprès de vos clients.
+Les campagnes dans Adobe Journey Optimizer vous permettent de diffuser des messages personnalisés, opportuns et percutants sur l’ensemble des canaux, afin d’engager votre audience plus efficacement. Que vous planifiiez un e-mail promotionnel unique, automatisiez les messages transactionnels en temps réel ou orchestriez des parcours complexes à plusieurs étapes, il existe un type de campagne adapté à vos besoins. Cette section présente les trois principaux types de campagne : campagnes d’action, campagnes déclenchées par API et campagnes orchestrées, en mettant en évidence leurs points forts spécifiques et leurs cas d’utilisation. Vous découvrirez également les blocs de création essentiels tels que les autorisations, la configuration des audiences et les configurations de canal, afin de vous assurer que vous avez tout en place pour créer et gérer des campagnes qui trouvent un écho auprès de vos clients.
 
-## Présentation des campagnes
+## Vue d’ensemble des campagnes
 
 :::: landing-cards-container
 :::
@@ -24,7 +24,7 @@ Les campagnes dans Adobe Journey Optimizer vous permettent de diffuser des messa
 
 Prise en main des campagnes
 
-Découvrez les principes de base des campagnes dans Adobe Journey Optimizer, notamment les types, les autorisations et les conditions préalables.
+Découvrez les principes de base des campagnes dans Adobe Journey Optimizer, notamment les types, les autorisations et les conditions préalables.
 
 [Commencer avec les campagnes](../using/campaigns/get-started-with-campaigns.md)
 :::
@@ -32,11 +32,11 @@ Découvrez les principes de base des campagnes dans Adobe Journey Optimizer, not
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Accès aux campagnes et gestion des campagnes
+Accéder aux campagnes et les gérer
 
 Découvrez comment accéder aux campagnes, les gérer, les modifier ou les archiver, et explorez la vue Calendrier des campagnes.
 
-[Découvrez comment gérer les campagnes](../using/campaigns/manage-campaigns.md)
+[Découvrir comment gérer des campagnes](../using/campaigns/manage-campaigns.md)
 :::
 
 :::
@@ -46,17 +46,17 @@ Campagnes d’action
 
 Conseils détaillés sur la création, la personnalisation et l’activation de campagnes d’action pour les communications par lots.
 
-[Explorer des campagnes d’action](action-campaigns-landing-page.md)
+[Explorer les campagnes d’action](action-campaigns-landing-page.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
-Campagnes déclenchées par API
+Campagnes déclenchées par API
 
-Conseils complets à l’intention des développeurs sur la création et la gestion de campagnes déclenchées par API en temps réel.
+Conseils complets à l’intention des développeurs et développeuses sur la création et la gestion de campagnes déclenchées par API en temps réel.
 
-[Découvrez les campagnes déclenchées par API](api-triggered-campaigns-landing-page.md)
+[Découvrir les campagnes déclenchées par API](api-triggered-campaigns-landing-page.md)
 :::
 
 :::
@@ -66,7 +66,7 @@ Campagnes orchestrées
 
 Instructions détaillées pour la conception, le lancement et la gestion de campagnes marketing sophistiquées à plusieurs étapes.
 
-[Découverte des campagnes orchestrées](orchestrated-campaigns-landing-page.md)
+[Découvrir en détail les campagnes orchestrées](orchestrated-campaigns-landing-page.md)
 :::
 
 ::::
