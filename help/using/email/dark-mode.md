@@ -3,18 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Basculer vers le mode sombre
 description: Découvrez comment utiliser le mode sombre dans le Concepteur d’e-mail.
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, éditeur
-hide: true
-hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1513'
 ht-degree: 64%
 
 ---
@@ -30,10 +27,6 @@ ht-degree: 64%
 >id="ac_edition_darkmode_preview"
 >title="Basculer vers le mode sombre"
 >abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie du destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. <!--To join the beta program, contact your Adobe representative.-->
 
 Lors de la conception de vos e-mails, le [!DNL Journey Optimizer] [Email Designer](get-started-email-design.md) vous permet de passer à la vue **[!UICONTROL Mode sombre]**.
 
