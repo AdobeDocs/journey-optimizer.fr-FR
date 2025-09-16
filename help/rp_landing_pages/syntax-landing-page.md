@@ -40,7 +40,7 @@ Maîtrisez l’utilisation d’instructions conditionnelles pour créer des expr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des types de données
 

@@ -40,7 +40,7 @@ Découvrez les définitions et les catégories des mesures utilisées dans les r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Rapport dynamique de parcours
 

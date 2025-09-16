@@ -40,7 +40,7 @@ Explorez la liste complète des champs d’événement d’étape, classés et d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Champs d’événement d’étape hérités
 
