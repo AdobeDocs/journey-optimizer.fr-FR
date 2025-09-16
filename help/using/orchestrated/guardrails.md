@@ -5,17 +5,17 @@ title: Mécanismes de sécurisation et limitations des campagnes orchestrées
 description: En savoir plus sur les mécanismes de sécurisation et les limitations des campagnes orchestrées
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: 359a2e5b60ba035e300f452e1211245f8f689609
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 78%
+source-wordcount: '459'
+ht-degree: 75%
 
 ---
 
 
 # Mécanismes de sécurisation et limitations {#guardrails}
 
-Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation de campagnes orchestrées.
+Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lors de l’utilisation de campagnes orchestrées.
 
 ## Limitations des flux de données
 
