@@ -4,45 +4,45 @@ product: Journey Optimizer
 title: Déléguer les sous-domaines d’e-mail
 description: Déléguer les sous-domaines d’e-mail
 redpen-status: CREATED_||_2025-08-11_21-07-51
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Déléguer les sous-domaines d’e-mail{#section-overview}
 
-La délégation de sous-domaines de messagerie dans Adobe Journey Optimizer permet aux administrateurs d&#39;améliorer la délivrabilité des e-mails, de protéger la réputation des domaines et de rationaliser la gestion des campagnes. En configurant des sous-domaines, vous pouvez isoler différents types de trafic d’e-mails, tels que les messages marketing et transactionnels, tout en garantissant la conformité aux normes du secteur. Cette section présente les principales méthodes de configuration, telles que les configurations de délégation complète et CNAME, et explique en quoi elles diffèrent en termes d’effort et de contrôle. Vous apprendrez également à gérer les enregistrements DNS essentiels tels que DMARC et PTR, à améliorer la délivrabilité de Gmail avec les enregistrements TXT Google et à regrouper les adresses IP à l’aide de groupes d’adresses IP. Que vous optimisiez la sécurité ou la réputation, ce guide rend le processus accessible et efficace.
+La délégation de sous-domaines d’e-mail dans Adobe Journey Optimizer permet aux administrateurs et aux administratrices d’améliorer la délivrabilité des e-mails, de protéger la réputation des domaines et de rationaliser la gestion des campagnes. En configurant des sous-domaines, vous pouvez isoler différents types de trafic d’e-mails, tels que les messages marketing et transactionnels, tout en garantissant la conformité aux normes du secteur. Cette section présente les principales méthodes de configuration, telles que les configurations de délégation complète et CNAME, et explique en quoi elles diffèrent en termes d’effort et de contrôle. Vous allez apprendre également à gérer les enregistrements DNS essentiels tels que DMARC et PTR, à améliorer la délivrabilité de Gmail avec les enregistrements TXT Google et à regrouper les adresses IP à l’aide de groupes d’adresses IP. Que vous optimisiez la sécurité ou la réputation, ce guide rend le processus accessible et efficace.
 
-## Délégation de sous-domaines d’e-mail
+## Déléguer les sous-domaines d’e-mail
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
-Prise en main de la délégation de sous-domaines
+Commencer avec la délégation de sous-domaines
 
-Découvrez les avantages, les méthodes de configuration et les points à prendre en compte pour la délégation de sous-domaines dans Adobe Journey Optimizer.
+Découvrez les avantages, les méthodes de configuration et les points à prendre en compte pour la délégation de sous-domaines dans Adobe Journey Optimizer.
 
-[Commencer À Déléguer Des Sous-Domaines](../using/configuration/about-subdomain-delegation.md)
+[Commencer à déléguer des sous-domaines](../using/configuration/about-subdomain-delegation.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
-Délégation d’un sous-domaine
+Déléguer un sous-domaine
 
-Conseils détaillés sur la délégation de sous-domaines à Adobe, y compris la délégation complète et la configuration CNAME.
+Cette section contient des conseils détaillés pour la délégation de sous-domaines à Adobe, y compris la délégation complète et la configuration CNAME.
 
-[Découvrez comment déléguer](../using/configuration/delegate-subdomain.md)
+[Découvrir comment déléguer](../using/configuration/delegate-subdomain.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
-Configurer Des Enregistrements DMARC
+Configurer les enregistrements DMARC
 
 Configurez les enregistrements DMARC pour améliorer la sécurité et la délivrabilité des e-mails pour les sous-domaines délégués.
 
@@ -52,11 +52,11 @@ Configurez les enregistrements DMARC pour améliorer la sécurité et la délivr
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
-Ajout d’un enregistrement TXT Google
+Ajouter un enregistrement TXT Google
 
-Vérifiez les sous-domaines pour la délivrabilité de Gmail en ajoutant des enregistrements TXT Google dans Adobe Journey Optimizer.
+Vérifiez les sous-domaines pour la délivrabilité de Gmail en ajoutant des enregistrements TXT Google dans Adobe Journey Optimizer.
 
-[Ajout d’enregistrements TXT Google](../using/configuration/google-txt.md)
+[Ajouter des enregistrements TXT Google](../using/configuration/google-txt.md)
 :::
 
 :::
@@ -72,11 +72,11 @@ Gérez les enregistrements PTR pour les sous-domaines délégués, y compris la 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Création de groupes d’adresses IP
+Créer des groupes d’adresses IP
 
 Regroupez les adresses IP pour améliorer la délivrabilité des e-mails et gérez efficacement la réputation des sous-domaines.
 
-[Création de groupes d’adresses IP](../using/configuration/ip-pools.md)
+[Créer des groupes d’adresses IP](../using/configuration/ip-pools.md)
 :::
 
 ::::

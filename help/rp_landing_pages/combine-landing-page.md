@@ -4,17 +4,17 @@ product: Journey Optimizer
 title: Cas d’utilisation inter-solutions
 description: Cas d’utilisation inter-solutions
 redpen-status: CREATED_||_2025-08-12_00-41-19
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Cas d’utilisation inter-solutions{#section-overview}
 
-Les cas d’utilisation inter-solutions de Adobe Journey Optimizer vous permettent d’intégrer facilement à d’autres outils Adobe pour créer, gérer et personnaliser du contenu comme jamais auparavant. Que vous utilisiez l’IA pour créer des campagnes dynamiques à l’aide de GenStudio, que vous utilisiez Adobe Stock Adobe Express pour extraire des visuels époustouflants ou modifier des ressources, ces intégrations sont conçues pour rationaliser vos workflows et amplifier vos efforts marketing. Découvrez comment chaque outil, comme Experience Manager pour les fragments de contenu ou Dynamic Media pour les visuels personnalisés, s’intègre dans votre stratégie, ce qui vous permet d’offrir des expériences client percutantes et cohérentes sur chaque canal. Ouvrons de nouvelles possibilités, une solution à la fois !
+Les cas d’utilisation inter-solutions d’Adobe Journey Optimizer vous permettent d’intégrer facilement d’autres outils Adobe pour créer, gérer et personnaliser du contenu comme jamais auparavant. Que vous recherchiez des visuels époustouflants sur Adobe Stock, modifiiez des ressources avec Adobe Express ou utilisiez l’IA pour créer des campagnes dynamiques avec GenStudio, ces intégrations sont conçues pour rationaliser vos workflows et amplifier vos efforts marketing. Découvrez comment chaque outil, comme Experience Manager pour les fragments de contenu ou Dynamic Media pour les visuels personnalisés, s’intègre dans votre stratégie, afin d’offrir des expériences client percutantes et cohérentes sur chaque canal. Ouvrons de nouvelles possibilités, une solution à la fois.
 
 ## Cas d’utilisation inter-solutions
 
@@ -22,9 +22,9 @@ Les cas d’utilisation inter-solutions de Adobe Journey Optimizer vous permette
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
-Combinaison de solutions Adobe pour gérer le contenu
+Combiner des solutions Adobe pour gérer le contenu
 
-Découvrez comment intégrer Adobe Journey Optimizer à d’autres solutions Adobe telles qu’Experience Manager, Stock, Express et GenStudio afin de rationaliser les workflows et d’améliorer les campagnes.
+Découvrez comment intégrer Adobe Journey Optimizer à d’autres solutions Adobe telles qu’Experience Manager, Stock, Express et GenStudio, afin de rationaliser les workflows et d’améliorer les campagnes.
 
 [Explorer les intégrations de contenu](../using/integrations/content-integrations.md)
 :::
@@ -32,31 +32,31 @@ Découvrez comment intégrer Adobe Journey Optimizer à d’autres solutions Ado
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=fr)
 
-Utilisation d’Adobe Experience Manager Assets
+Utiliser Adobe Experience Manager Assets
 
-Conseils détaillés sur l’intégration, le chargement et la gestion des ressources à partir d’Adobe Experience Manager Assets dans Adobe Journey Optimizer.
+Cette section contient des instructions détaillées pour l’intégration, le chargement et la gestion des ressources à partir d’Adobe Experience Manager Assets dans Adobe Journey Optimizer.
 
-[Découvrez comment utiliser AEM Assets](../using/integrations/assets.md)
+[Découvrir comment utiliser AEM Assets](../using/integrations/assets.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=fr)
 
-Utiliser des images Adobe Stock
+Utiliser des images Adobe Stock
 
-Découvrez comment sourcer, obtenir une licence et personnaliser des images Adobe Stock à utiliser dans des campagnes par e-mail et des workflows de contenu.
+Découvrez comment rechercher, acquérir et personnaliser des images Adobe Stock pour les utiliser dans des campagnes par e-mail et des workflows de contenu.
 
-[Prise en main d’Adobe Stock](../using/integrations/stock.md)
+[Commencer avec Adobe Stock](../using/integrations/stock.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=fr)
 
-Modification De Votre Assets À L’Aide D’Adobe Express
+Modifier vos ressources à l’aide d’Adobe Express
 
-Découvrez comment redimensionner, recadrer et supprimer l’arrière-plan des ressources avec Adobe Express intégré à Adobe Journey Optimizer.
+Découvrez comment redimensionner, recadrer et supprimer l’arrière-plan des ressources avec Adobe Express intégré à Adobe Journey Optimizer.
 
-[Commencer la modification avec Adobe Express](../using/integrations/express.md)
+[Commencer l’édition avec Adobe Express](../using/integrations/express.md)
 :::
 
 :::
@@ -64,9 +64,9 @@ Découvrez comment redimensionner, recadrer et supprimer l’arrière-plan des r
 
 Utiliser des fragments de contenu AEM
 
-Cette section contient des instructions détaillées pour intégrer des fragments de contenu AEM à Adobe Journey Optimizer afin d’améliorer la personnalisation des campagnes et des parcours.
+Cette section contient des instructions détaillées pour intégrer des fragments de contenu AEM à Adobe Journey Optimizer afin d’améliorer la personnalisation des campagnes et des parcours.
 
-[En savoir plus sur les fragments de contenu AEM](../using/integrations/aem-fragments.md)
+[Découvrir les fragments de contenu AEM](../using/integrations/aem-fragments.md)
 :::
 
 :::
@@ -74,9 +74,9 @@ Cette section contient des instructions détaillées pour intégrer des fragment
 
 Utiliser Dynamic Media
 
-Intégrez AEM Dynamic Media à Journey Optimizer pour permettre les mises à jour, la personnalisation et l’optimisation en temps réel du contenu dynamique.
+Intégrez AEM Dynamic Media à Journey Optimizer pour permettre les mises à jour, la personnalisation et l’optimisation en temps réel du contenu dynamique.
 
-[Utilisation de Dynamic Media dans vos campagnes](../using/integrations/aem-dynamic.md)
+[Utiliser Dynamic Media dans vos campagnes](../using/integrations/aem-dynamic.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Intégrez AEM Dynamic Media à Journey Optimizer pour permettre les mises à jou
 
 ## Ressources supplémentaires
 
-- **[Utiliser GenStudio for Performance Marketing](../using/integrations/genstudio.md)** - Découvrez comment intégrer GenStudio à Journey Optimizer pour créer des campagnes par e-mail personnalisées, compatibles avec les marques et optimisées par l’IA.
+- **[Utiliser GenStudio for Performance Marketing](../using/integrations/genstudio.md)** : découvrez comment intégrer GenStudio à Journey Optimizer pour créer des campagnes par e-mail personnalisées, alignées sur votre marque et optimisées par l’IA.

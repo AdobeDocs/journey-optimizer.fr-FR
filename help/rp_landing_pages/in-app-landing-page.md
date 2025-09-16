@@ -4,17 +4,17 @@ product: Journey Optimizer
 title: Canal in-app
 description: Canal in-app
 redpen-status: CREATED_||_2025-08-11_20-36-05
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Canal in-app{#section-overview}
 
-Le canal in-app de Adobe Journey Optimizer vous permet de vous connecter aux utilisateurs et utilisatrices de votre application en temps réel par le biais de notifications personnalisées affichées directement dans votre application mobile ou web. Que vous souhaitiez guider les utilisateurs lors de l’intégration, promouvoir une nouvelle fonctionnalité ou partager des offres exclusives, les messages in-app offrent un moyen attrayant de diffuser du contenu pertinent exactement quand cela compte le plus. Cette section fournit une feuille de route claire pour la gestion de la messagerie in-app. De la configuration nécessaire à la conception de messages attrayants visuellement, en passant par la création de campagnes ciblées et l’analyse de leur impact. Chaque sujet s’appuie sur le dernier, ce qui vous permet de créer des expériences significatives et conviviales en toute confiance.
+Le canal in-app d’Adobe Journey Optimizer vous permet de communiquer en temps réel avec les utilisateurs et utilisatrices de votre application par le biais de notifications personnalisées affichées directement dans votre application mobile ou web. Que vous souhaitiez guider les utilisateurs et utilisatrices lors de l’intégration, promouvoir une nouvelle fonctionnalité ou partager des offres exclusives, les messages in-app offrent un moyen attrayant de diffuser du contenu pertinent exactement quand cela compte le plus. Cette section fournit une feuille de route claire pour maîtriser les messages in-app. Depuis la configuration nécessaire jusqu’à la conception de messages attrayants visuellement, en passant par la création de campagnes ciblées et l’analyse de leur impact, chaque rubrique s’appuie sur la précédente, ce qui vous permet de créer des expériences significatives et conviviales en toute confiance.
 
 ## Fonctionnalités du canal in-app
 
@@ -25,9 +25,9 @@ Le canal in-app de Adobe Journey Optimizer vous permet de vous connecter aux uti
 
 Configuration du canal in-app
 
-Guide détaillé pour configurer les autorisations, les paramètres de diffusion et les conditions préalables à l’envoi de messages in-app.
+Cette section contient un guide détaillé pour configurer les autorisations, les paramètres de diffusion et les conditions préalables à l’envoi de messages in-app.
 
-[Configuration de votre environnement](../using/in-app/inapp-configuration.md)
+[Configurer votre environnement](../using/in-app/inapp-configuration.md)
 :::
 
 :::
@@ -53,9 +53,9 @@ Configurez et créez des campagnes de messagerie web in-app avec des déclencheu
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=fr)
 
-Conception et personnalisation de contenu in-app
+Concevoir et personnaliser du contenu in-app
 
-Explorez les options de disposition, personnalisez le contenu et utilisez une mise en forme avancée pour améliorer vos messages in-app.
+Explorez les options de disposition, personnalisez le contenu et utilisez le formatage avancé pour améliorer vos messages in-app.
 
 [Concevoir votre message](../using/in-app/design-in-app.md)
 :::
@@ -65,7 +65,7 @@ Explorez les options de disposition, personnalisez le contenu et utilisez une mi
 
 Vérifier et envoyer votre notification in-app
 
-Prévisualisez, testez, examinez et activez vos notifications in-app avec Adobe Journey Optimizer.
+Prévisualisez, testez, vérifiez et activez vos notifications in-app avec Adobe Journey Optimizer.
 
 [Envoyer votre notification](../using/in-app/send-in-app.md)
 :::

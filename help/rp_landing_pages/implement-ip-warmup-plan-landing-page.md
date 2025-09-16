@@ -4,19 +4,19 @@ product: Journey Optimizer
 title: Mettre en œuvre un plan de préchauffage d’adresses IP
 description: Mettre en œuvre un plan de préchauffage d’adresses IP
 redpen-status: CREATED_||_2025-08-11_21-08-31
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-
 # Mettre en œuvre un plan de préchauffage d’adresses IP{#section-overview}
 
-La mise en œuvre d’un plan de préchauffage des adresses IP dans Adobe Journey Optimizer garantit que vos e-mails atteignent les boîtes de réception plutôt que les dossiers de spam en établissant progressivement une relation de confiance avec les fournisseurs de messagerie. Ce processus implique l’envoi d’un volume constant et croissant d’e-mails à partir d’une nouvelle adresse IP afin d’établir une réputation positive de l’expéditeur. Vous découvrirez comment créer des campagnes de préchauffage personnalisées, configurer des canaux e-mail et structurer des plans détaillés avec des groupes de domaines prédéfinis ou personnalisés. De la définition des phases et des exécutions au suivi de la progression, chaque étape est conçue pour optimiser la délivrabilité des e-mails. Que vous soyez un expert en délivrabilité ou un administrateur, ce guide vous permet de gérer l’ensemble du processus en toute confiance.
+La mise en œuvre d’un plan de préchauffage d’adresses IP dans Adobe Journey Optimizer garantit que vos e-mails atteignent les boîtes de réception plutôt que les dossiers de spam en établissant progressivement une relation de confiance avec les fournisseurs de messagerie. Ce processus implique l’envoi d’un volume constant et croissant d’e-mails à partir d’une nouvelle adresse IP afin d’établir une réputation positive de l’expéditeur. Vous allez découvrir comment créer des campagnes de préchauffage personnalisées, configurer des canaux e-mail et structurer des plans détaillés avec des groupes de domaines prédéfinis ou personnalisés. De la définition des phases et des exécutions au suivi de la progression, chaque étape est conçue pour optimiser la délivrabilité des e-mails. Que vous soyez un expert ou une experte en délivrabilité, ou encore un administrateur ou une administratrice, ce guide vous permet de gérer l’ensemble du processus en toute confiance.
 
-## Mise en œuvre d’un plan de préchauffage d’adresses IP
+## Mettre en œuvre un plan de préchauffage d’adresses IP
 
 :::: landing-cards-container
 :::
@@ -24,7 +24,7 @@ La mise en œuvre d’un plan de préchauffage des adresses IP dans Adobe Journe
 
 Prise en main des plans de préchauffage d’adresses IP
 
-Découvrez l’objectif, les avantages et les étapes des plans de préchauffage d’adresses IP pour améliorer la délivrabilité des emails dans Adobe Journey Optimizer.
+Découvrez l’objectif, les avantages et les étapes des plans de préchauffage d’adresses IP pour améliorer la délivrabilité des e-mails dans Adobe Journey Optimizer.
 
 [Lire le guide](../using/configuration/ip-warmup-gs.md)
 :::
@@ -42,7 +42,7 @@ Suivez les instructions étape par étape pour concevoir et activer des campagne
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
-Création et gestion d’un plan de préchauffage d’adresses IP
+Créer et gérer un plan de préchauffage d’adresses IP
 
 Découvrez comment créer, configurer et gérer votre plan de préchauffage d’adresses IP, y compris comment définir des autorisations et préparer des groupes de domaines.
 
@@ -52,7 +52,7 @@ Découvrez comment créer, configurer et gérer votre plan de préchauffage d’
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Exécution et gestion de votre plan de préchauffage d’adresses IP
+Exécuter et gérer votre plan de préchauffage d’adresses IP
 
 Obtenez des conseils détaillés sur l’exécution, la surveillance et la gestion des exécutions et des phases dans votre plan de préchauffage d’adresses IP.
 

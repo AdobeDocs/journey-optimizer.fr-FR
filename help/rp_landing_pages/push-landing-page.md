@@ -4,17 +4,17 @@ product: Journey Optimizer
 title: Canal des notifications push
 description: Canal des notifications push
 redpen-status: CREATED_||_2025-08-11_20-37-12
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
-
 # Canal des notifications push{#section-overview}
 
-Les notifications push dans Adobe Journey Optimizer sont un moyen puissant d&#39;interagir avec les utilisateurs de votre application mobile en leur fournissant des messages personnalisés en temps opportun directement sur leurs appareils, même s&#39;ils n&#39;utilisent pas activement votre application. Que vous souhaitiez réengager des utilisateurs et utilisatrices inactifs, partager des mises à jour ou mener des actions spécifiques, ce canal vous permet de créer des campagnes percutantes et adaptées à votre audience. Dans cette section, vous allez tout découvrir, de la configuration des notifications push à la conception de contenu attrayant, en passant par la validation et l&#39;envoi de vos messages. Vous apprendrez ainsi à optimiser les différentes plateformes (iOS et Android), à gérer les opt-ins et à exploiter des fonctionnalités avancées telles que les notifications silencieuses et les modes de diffusion rapides pour une diffusion à grande échelle. Transformons votre application en un centre de communication dynamique !
+Les notifications push dans Adobe Journey Optimizer sont un moyen puissant d’interagir avec les personnes qui utilisent votre application mobile en leur fournissant des messages personnalisés en temps opportun directement sur leurs appareils, même si elles n’utilisent pas activement votre application. Que vous souhaitiez réengager des personnes inactives, partager des mises à jour ou mener des actions spécifiques, ce canal vous permet de créer des campagnes percutantes et adaptées à votre audience. Dans cette section, vous allez tout découvrir, de la configuration des notifications push à la conception de contenu attrayant, en passant par la validation et l’envoi de vos messages. Vous apprendrez ainsi à optimiser les différentes plateformes (iOS et Android), à gérer les opt-in et à exploiter des fonctionnalités avancées telles que les notifications silencieuses et les modes de diffusion rapide pour une diffusion à grande échelle. Transformons votre application en un centre de communication dynamique.
 
 >[!IMPORTANT]
 >
@@ -33,24 +33,24 @@ Les notifications push peuvent être créées :
 >Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les désinscriptions des e-mails et des SMS, les notifications push ne nécessitent aucune action de votre part, car les destinataires peuvent annuler leur abonnement depuis leurs appareils. Par exemple, lors du téléchargement ou de l’utilisation de votre application, ils peuvent choisir d’arrêter les notifications. De même, ils peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile.
 
 
-## Canal de notification push
+## Canal des notifications push
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Création et configuration des notifications push
+Créer et envoyer des notifications push
 
-Guide détaillé sur la création et la configuration des notifications push, y compris le mode de diffusion rapide pour les campagnes urgentes à grande échelle.
+Guide détaillé sur la création et la configuration des notifications push, notamment le mode de diffusion rapide pour les campagnes urgentes à grande échelle.
 
-[Commencer la création](../using/push/create-push.md)
+[Commencer à créer](../using/push/create-push.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
-Concevoir Votre Notification Push
+Concevoir votre notification push
 
 Découvrez comment concevoir et personnaliser des notifications push avec des médias, des boutons, des notifications silencieuses, des données personnalisées et des options avancées.
 
@@ -58,7 +58,7 @@ Découvrez comment concevoir et personnaliser des notifications push avec des m�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prévisualiser, valider et envoyer des notifications push
 
@@ -72,7 +72,7 @@ Découvrez comment prévisualiser, valider et envoyer des notifications push, en
 
 Configuration des notifications push
 
-Conseils détaillés sur la configuration des notifications push, y compris le flux de données, la configuration technique, l’intégration mobile et les procédures de test.
+Conseils détaillés sur la configuration des notifications push, notamment le flux de données, la configuration technique, l’intégration mobile et les procédures de test.
 
 [Configurer maintenant](../using/push/push-configuration.md)
 :::

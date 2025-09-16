@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Date
 description: Date
 redpen-status: CREATED_||_2025-08-11_20-14-40
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # Date{#section-overview}
 
-Les fonctions de date de Adobe Journey Optimizer vous permettent de travailler en toute transparence avec des données temporelles, ce qui vous permet de créer des expressions dynamiques basées sur l’heure actuelle, les intervalles passés ou les projections futures. Que vous deviez évaluer si un événement s’est produit dans des heures, jours ou années spécifiques, ou ajuster les fuseaux horaires et définir des composants de date personnalisés, ces outils offrent un contrôle précis sur les données temporelles. Chaque fonction, comme « currentTimeInMillis », « inLastDays » ou « updateTimeZone », a un objectif unique : vous pouvez créer des parcours personnalisés et automatiser les décisions en toute confiance. Explorez les sous-rubriques pour découvrir leurs rôles distincts et la manière dont ils s’intègrent pour rationaliser vos workflows.
+Les fonctions de date d’Adobe Journey Optimizer vous permettent de travailler en toute transparence avec des données temporelles, ce qui vous permet de créer des expressions dynamiques basées sur l’heure actuelle, les intervalles passés ou les projections futures. Qu’il s’agisse d’évaluer si un événement s’est produit au cours d’heures, de jours ou d’années spécifiques, ou d’ajuster les fuseaux horaires et de définir des composants de date personnalisés, ces outils assurent un contrôle précis sur les données temporelles. Chaque fonction, comme « currentTimeInMillis », « inLastDays » ou « updateTimeZone », a un objectif unique : vous permettre de créer des parcours personnalisés et d’automatiser les décisions en toute confiance. Explorez les sous-rubriques pour découvrir leurs rôles distincts et la manière dont elles s’associent pour rationaliser vos workflows.
 
-## Fonctions de date dans Adobe Journey Optimizer
+## Fonctions de date dans Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
-currentTimeInMillis, fonction Référence
+Référence de la fonction currentTimeInMillis
 
-Découvrez comment utiliser la fonction « currentTimeInMillis » pour récupérer l’heure actuelle en millisecondes Epoch.
+Découvrez comment utiliser la fonction « currentTimeInMillis » pour récupérer l’heure actuelle en millisecondes d’époque.
 
-[En savoir plus sur currentTimeInMillis](../using/building-journeys/functions/functioncurrenttimeinmillis.md)
+[Découvrir la fonction currentTimeInMillis](../using/building-journeys/functions/functioncurrenttimeinmillis.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
-inLastDays, fonction
+Fonction inLastDays
 
-Comprenez la fonction « inLastDays », qui vérifie si une date donnée se situe dans un nombre spécifié de jours avant aujourd&#39;hui.
+Découvrez la fonction « inLastDays », qui vérifie si une date donnée se situe au sein d’un nombre spécifié de jours avant le jour actuel.
 
-[En savoir plus sur inLastDays](../using/building-journeys/functions/functioninlastdays.md)
+[Découvrir la fonction inLastDays](../using/building-journeys/functions/functioninlastdays.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
-Utilisation de la fonction inLastHours
+Utiliser la fonction inLastHours
 
-Explorez la fonction &#39;inLastHours&#39; pour déterminer si une date-heure correspond au dernier nombre d&#39;heures spécifié.
+Découvrez la fonction « inLastHours » pour déterminer si une date et une heure correspondent au dernier nombre d’heures spécifié.
 
-[En savoir plus sur inLastHours](../using/building-journeys/functions/functioninlasthours.md)
+[Découvrir la fonction inLastHours](../using/building-journeys/functions/functioninlasthours.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
-Utilisation de la fonction inLastMonths
+Utiliser la fonction inLastMonths
 
-Vérifiez si une date se situe dans une plage de mois spécifiée à l’aide de inLastMonths dans Adobe Journey Optimizer.
+Vérifiez si une date se situe au sein d’une plage de mois spécifiée à l’aide de la fonction « inLastMonths » dans Adobe Journey Optimizer.
 
-[En savoir plus sur inLastMonths](../using/building-journeys/functions/functioninlastmonths.md)
+[Découvrir la fonction inLastMonths](../using/building-journeys/functions/functioninlastmonths.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
-Utilisation de la fonction inLastYears
+Utiliser la fonction inLastYears
 
-Découvrez comment utiliser la fonction « inLastYears » pour évaluer si une date se situe dans un nombre spécifié d&#39;années précédentes.
+Découvrez comment utiliser la fonction « inLastYears » pour évaluer si une date se situe dans un nombre spécifié d’années précédentes.
 
-[Explorer dans les dernières années](../using/building-journeys/functions/functioninlastyears.md)
+[Découvrir la fonction inLastYears](../using/building-journeys/functions/functioninlastyears.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
-inNextDays, fonction
+Fonction inNextDays
 
-Découvrez comment vérifier si une date se situe dans une plage de jours spécifiée à partir d’aujourd’hui à l’aide de la fonction « inNextDays ».
+Découvrez comment vérifier si une date se situe au sein d’une plage de jours spécifiée à partir du jour actuel à l’aide de la fonction « inNextDays ».
 
-[Découvrir dans NextDays](../using/building-journeys/functions/functioninnextdays.md)
+[Découvrir la fonction inNextDays](../using/building-journeys/functions/functioninnextdays.md)
 :::
 
 ::::
@@ -84,11 +84,11 @@ Découvrez comment vérifier si une date se situe dans une plage de jours spéci
 
 ## Ressources supplémentaires
 
-- **[fonction inNextHours](../using/building-journeys/functions/functioninnexthours.md)** - Découvrez comment utiliser la fonction &#39;inNextHours&#39; pour évaluer si une date-heure se situe dans les heures spécifiées suivantes.
-- **[Référence de la fonction inNextMonths](../using/building-journeys/functions/functioninnextmonths.md)** - Explorez la fonction &#39;inNextMonths&#39; pour vérifier si une date se situe dans la prochaine plage de mois spécifiée.
-- **[fonction inNextYears](../using/building-journeys/functions/functioninnextyears.md)** - Déterminez si une date se situe dans une plage d&#39;années spécifiée dans le futur à l&#39;aide de la fonction &#39;inNextYears&#39;.
-- **[Utilisation de la fonction « now »](../using/building-journeys/functions/functionnow.md)** - En savoir plus sur la fonction « now » pour récupérer la date et l’heure actuelles, avec la prise en charge facultative du fuseau horaire.
-- **[Utilisation de la fonction nowWithDelta](../using/building-journeys/functions/functionnowwithdelta.md)** - Explorez la fonction &#39;nowWithDelta&#39; pour calculer la date-heure actuelle avec un décalage.
-- **[fonction setHours](../using/building-journeys/functions/functionsethours.md)** - Modifiez le composant d’heure d’une valeur de date et d’heure à l’aide de la fonction « setHours ».
-- **[Fonction setDays](../using/building-journeys/functions/functionsetdays.md)** - Découvrez comment modifier le composant de jour d&#39;un objet de date et heure à l&#39;aide de la fonction « setDays ».
-- **[fonction updateTimeZone](../using/building-journeys/functions/functionupdatetimezone.md)** - Ajustez une valeur date-heure à un nouveau fuseau horaire avec la fonction « updateTimeZone ».
+- **[Fonction inNextHours](../using/building-journeys/functions/functioninnexthours.md)** : découvrez comment utiliser la fonction « inNextHours » pour évaluer si une date et une heure se situent au sein des heures spécifiées suivantes.
+- **[Référence de la fonction inNextMonths](../using/building-journeys/functions/functioninnextmonths.md)** : découvrez la fonction « inNextMonths » pour vérifier si une date se situe au sein de la prochaine plage de mois spécifiée.
+- **[Fonction inNextYears](../using/building-journeys/functions/functioninnextyears.md)** : déterminez si une date se situe au sein d’une plage d’années spécifiée dans le futur à l&#39;aide de la fonction « inNextYears ».
+- **[Utiliser la fonction « now »](../using/building-journeys/functions/functionnow.md)** : découvrez la fonction « now » pour récupérer la date et l’heure actuelles, avec une prise en charge facultative du fuseau horaire.
+- **[Utiliser la fonction nowWithDelta](../using/building-journeys/functions/functionnowwithdelta.md)** : découvrez la fonction « nowWithDelta » pour calculer la date et l’heure actuelles avec un décalage.
+- **[Fonction setHours](../using/building-journeys/functions/functionsethours.md)** : grâce à la fonction « setHours », modifiez le composant d’heure d’une valeur de date et d’heure.
+- **[Fonction setDays](../using/building-journeys/functions/functionsetdays.md)** : grâce à la fonction « setDays », découvrez comment modifier le composant de jour d’un objet de date et d’heure.
+- **[Fonction updateTimeZone](../using/building-journeys/functions/functionupdatetimezone.md)** : grâce à la fonction « updateTimeZone », réglez une valeur de date et d’heure sur un nouveau fuseau horaire.

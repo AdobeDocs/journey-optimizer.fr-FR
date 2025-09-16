@@ -4,17 +4,17 @@ product: Journey Optimizer
 title: Champs d’événement d’étape hérités
 description: Champs d’événement d’étape hérités
 redpen-status: CREATED_||_2025-08-11_20-53-35
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 046a5e06-a827-4194-be1c-e6546a8da747
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Champs d’événement d’étape hérités{#section-overview}
 
-Les champs d’événement d’étape hérités de Adobe Journey Optimizer sont essentiels au suivi et à l’analyse de la progression et des résultats des parcours client. Ces champs sont regroupés en catégories telles que l’identité, l’exécution d’action, la récupération de données et les propriétés d’événement communes, chacune ayant un objectif unique dans le compte rendu des performances de parcours et le traitement des étapes. Que vous traitiez des erreurs de récupération de données, compreniez les temps d’exécution des actions ou identifiiez des profils, ces champs débloquent des informations puissantes pour optimiser les expériences client. En explorant chaque catégorie, vous découvrirez comment elles interagissent et se complètent, offrant ainsi une vue d’ensemble des performances et du comportement du parcours.
+Les champs d’événement d’étape hérités d’Adobe Journey Optimizer sont essentiels au suivi et à l’analyse de la progression et des résultats des parcours clients. Ces champs sont regroupés en catégories telles que l’identité, l’exécution d’action, la récupération de données et les propriétés d’événement communes, chacune ayant un objectif unique dans les rapports de performances de parcours et le traitement des étapes. Que vous traitiez des erreurs de récupération de données, compreniez les temps d’exécution des actions ou identifiiez des profils, ces champs libèrent des informations puissantes pour optimiser les expériences client. En explorant chaque catégorie, vous allez découvrir comment elles interagissent et se complètent, offrant ainsi une vue d’ensemble des performances et du comportement des parcours.
 
 ## Champs d’événement d’étape hérités
 
@@ -22,9 +22,9 @@ Les champs d’événement d’étape hérités de Adobe Journey Optimizer sont 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
-Comprendre les champs hérités
+Présentation des champs hérités
 
-Découvrez les champs d’événement d’étape hérités dans Adobe Journey Optimizer, y compris leur catégorisation en groupes de champs.
+Découvrez les champs d’événement d’étape hérités dans Adobe Journey Optimizer, y compris leur catégorisation en groupes de champs.
 
 [Explorer les champs hérités](../using/reports/sharing-legacy-fields.md)
 :::
@@ -32,21 +32,21 @@ Découvrez les champs d’événement d’étape hérités dans Adobe Journey Op
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
-Aperçu des champs de parcours
+Vue d’ensemble des champs de parcours
 
-Découvrez les champs du schéma de Parcours, leurs types et la manière dont ils prennent en charge le reporting et la gestion des parcours.
+Découvrez les champs du schéma de parcours, leurs types et la manière dont ils prennent en charge la création de rapports et la gestion des parcours.
 
-[Afficher les champs de Parcours](../using/reports/sharing-journey-fields.md)
+[Afficher les champs de parcours](../using/reports/sharing-journey-fields.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Champs communs pour les événements d’étape de Parcours
+Champs communs pour les événements d’étape de parcours
 
 Recherchez les champs essentiels partagés entre journeyStepEvent et journeyStepProfileEvent pour offrir des rapports et un suivi cohérents.
 
-[Accès aux champs communs](../using/reports/sharing-common-fields.md)
+[Accéder aux champs communs](../using/reports/sharing-common-fields.md)
 :::
 
 :::

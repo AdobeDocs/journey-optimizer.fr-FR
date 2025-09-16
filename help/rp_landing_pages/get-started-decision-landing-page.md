@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Commencer la gestion des décisions
-description: Commencer la gestion des décisions
+title: Commencer avec la gestion des décisions
+description: Commencer avec la gestion des décisions
 redpen-status: CREATED_||_2025-08-11_20-58-31
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
+# Commencer avec la gestion des décisions{#section-overview}
 
-# Commencer la gestion des décisions{#section-overview}
+La gestion des décisions d’Adobe Journey Optimizer permet aux spécialistes marketing de proposer les offres personnalisées adéquates aux clientes et clients au bon moment, sur plusieurs canaux. En combinant une bibliothèque d’offres centralisée à un puissant moteur de décision, vous pouvez personnaliser les messages en fonction de profils uniques et de règles métier. Que vous définissiez des critères d’éligibilité, gériez des options de secours ou classiez des offres pour des emplacements prioritaires, le processus est rationalisé et intuitif. Cette section présente les composants clés, depuis la création d’offres et de collections jusqu’à l’intégration de décisions dans les campagnes, afin que vous puissiez créer des expériences significatives qui trouvent écho auprès de votre audience et stimuler l’engagement.
 
-La gestion des décisions de Adobe Journey Optimizer permet aux marketeurs de proposer les offres personnalisées adéquates aux clients au moment idéal, sur plusieurs canaux. En combinant une bibliothèque d’offres centralisée à un puissant moteur de décision, vous pouvez personnaliser les messages en fonction de profils uniques et de règles métier. Que vous définissiez des critères d’éligibilité, gériez des options de secours ou classiez des offres pour des emplacements prioritaires, le processus est rationalisé et intuitif. Cette section présente les composants clés, de la création d’offres et de collections à l’intégration de décisions dans les campagnes, afin que vous puissiez créer des expériences significatives qui résonnent avec votre audience et stimuler l’engagement.
-
-## Prise en main de la gestion des décisions
+## Commencer avec la gestion des décisions
 
 :::: landing-cards-container
 :::
@@ -24,9 +24,9 @@ La gestion des décisions de Adobe Journey Optimizer permet aux marketeurs de pr
 
 Présentation de la gestion des décisions
 
-Découvrez la gestion des décisions dans Adobe Journey Optimizer, y compris ses avantages, ses composants, ses cas d’utilisation et ses concepts clés.
+Découvrez la gestion des décisions dans Adobe Journey Optimizer, notamment ses avantages, ses composants, ses cas d’utilisation et ses concepts clés.
 
-[Lire l&#39;introduction](../using/offers/get-started/starting-offer-decisioning.md)
+[Lire la présentation](../using/offers/get-started/starting-offer-decisioning.md)
 :::
 
 :::
@@ -36,25 +36,25 @@ Mécanismes de sécurisation et limitations de la gestion des décisions
 
 Découvrez les contraintes opérationnelles et les seuils de performance de la gestion des décisions afin d’optimiser son utilisation.
 
-[En savoir plus sur les mécanismes de sécurisation](../using/offers/decision-management-guardrails.md)
+[Découvrir les mécanismes de sécurisation](../using/offers/decision-management-guardrails.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
-Guide De L’Interface Utilisateur De La Bibliothèque Des Offres
+Guide de l’interface d’utilisation de la bibliothèque des offres
 
-Explorez l&#39;interface et les fonctionnalités de la bibliothèque des offres pour créer, gérer et diffuser des offres et des décisions.
+Explorez l’interface et les fonctionnalités de la bibliothèque des offres pour créer, gérer et diffuser des offres et des décisions.
 
-[Explorer le guide de l’interface utilisateur](../using/offers/get-started/user-interface.md)
+[Explorer le guide de l’interface d’utilisation](../using/offers/get-started/user-interface.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Étapes clés de création et de gestion des offres
+Étapes clés de la création et de la gestion des offres
 
-Suivez un guide détaillé pour créer, gérer et configurer des offres et des décisions dans Adobe Journey Optimizer.
+Suivez un guide détaillé pour créer, gérer et configurer des offres et des décisions dans Adobe Journey Optimizer.
 
 [En savoir plus sur les étapes clés](../using/offers/offer-library/key-steps.md)
 :::
@@ -64,9 +64,9 @@ Suivez un guide détaillé pour créer, gérer et configurer des offres et des d
 
 Utilisation du chargement personnalisé d’audiences pour la prise de décision
 
-Découvrez comment affiner les critères d’éligibilité et personnaliser les offres à l’aide du téléchargement personnalisé d’audiences.
+Découvrez comment affiner les critères d’éligibilité et personnaliser les offres à l’aide du chargement personnalisé des audiences.
 
-[Utilisation d’audiences personnalisées](../using/offers/custom-upload-decisioning.md)
+[Utiliser des audiences personnalisées](../using/offers/custom-upload-decisioning.md)
 :::
 
 :::

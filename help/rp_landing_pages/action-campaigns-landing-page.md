@@ -4,17 +4,17 @@ product: Journey Optimizer
 title: Campagnes d’action
 description: Campagnes d’action
 redpen-status: CREATED_||_2025-08-11_20-22-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # Campagnes d’action{#section-overview}
 
-Les campagnes d’action dans Adobe Journey Optimizer vous permettent de diffuser des messages ciblés en temps voulu pour des communications par lots telles que des promotions, des mises à jour ou des informations juridiques. Conçues dans un souci de flexibilité, ces campagnes vous permettent de définir des propriétés, de choisir des canaux de communication, d’optimiser le contenu, de définir des audiences, de planifier la diffusion et d’activer facilement les campagnes. Que vous créiez du contenu multilingue, testiez des variantes ou donniez la priorité aux notifications urgentes, chaque étape permet de créer des activités de sensibilisation efficaces et personnalisées. Cette section décompose le processus en étapes gérables, vous guidant de la planification à l’exécution, afin que vous puissiez concevoir en toute confiance des campagnes qui résonnent avec votre audience et génèrent des résultats.
+Les campagnes d’action dans Adobe Journey Optimizer vous permettent de diffuser des messages ciblés en temps voulu pour des communications par lots telles que des promotions, des mises à jour ou des informations juridiques. Conçues dans un souci de flexibilité, ces campagnes vous permettent de définir des propriétés, de choisir des canaux de communication, d’optimiser le contenu, de définir des audiences, de planifier la diffusion et d’activer facilement les campagnes. Que vous créiez du contenu multilingue, testiez des variations ou donniez la priorité aux notifications urgentes, chaque étape permet de créer des communications efficaces et personnalisées. Cette section décompose le processus en étapes gérables, vous guidant de la planification à l’exécution, afin que vous puissiez concevoir en toute confiance des campagnes qui trouvent un écho auprès de votre audience et génèrent des résultats.
 
 ## Ressources des campagnes d’action
 
@@ -22,7 +22,7 @@ Les campagnes d’action dans Adobe Journey Optimizer vous permettent de diffuse
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
-Création d’une campagne d’action
+Créer une campagne d’action
 
 Découvrez comment créer et gérer des campagnes d’action, y compris les propriétés, les actions, l’audience, la planification et l’activation.
 
@@ -32,9 +32,9 @@ Découvrez comment créer et gérer des campagnes d’action, y compris les prop
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
-Définir les propriétés de la campagne d’action
+Définir les propriétés de campagne d’action
 
-Cette section contient des instructions détaillées sur la définition des propriétés de campagne, telles que le nom, les balises et les libellés d’accès.
+Cette section contient des instructions détaillées sur la définition des propriétés de campagne, telles que le nommage, les balises et les libellés d’accès.
 
 [En savoir plus](../using/campaigns/campaign-properties.md)
 :::
@@ -42,7 +42,7 @@ Cette section contient des instructions détaillées sur la définition des prop
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Configuration des actions de campagne
+Configurer les actions de la campagne
 
 Guide de configuration des actions de campagne, notamment la sélection de canaux, l’optimisation et le contenu multilingue.
 
@@ -62,9 +62,9 @@ Utilisez le ciblage et l’expérimentation pour optimiser l’engagement et cr�
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=fr)
 
-Modifier le contenu de la campagne
+Modifier le contenu d’une campagne
 
-Concevez, testez et configurez le contenu de vos campagnes Action sur plusieurs canaux.
+Concevez, testez et configurez le contenu de vos campagnes d’action sur plusieurs canaux.
 
 [Modifier le contenu](../using/campaigns/campaign-content.md)
 :::
@@ -72,9 +72,9 @@ Concevez, testez et configurez le contenu de vos campagnes Action sur plusieurs 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=fr)
 
-Définir l&#39;audience de la campagne
+Définir l’audience de la campagne
 
-Sélectionnez l’audience et le type d’identité de votre campagne, pour garantir un ciblage efficace.
+Sélectionnez l’audience et le type d’identité de votre campagne pour garantir un ciblage efficace.
 
 [Définir l’audience](../using/campaigns/campaign-audience.md)
 :::
@@ -84,5 +84,5 @@ Sélectionnez l’audience et le type d’identité de votre campagne, pour gara
 
 ## Ressources supplémentaires
 
-- **[Planifier la campagne d’action](../using/campaigns/campaign-schedule.md)** - Configurez les dates de début et de fin, la fréquence et la planification spécifique au canal pour votre campagne.
-- **[Vérifier et activer une campagne d’action](../using/campaigns/review-activate-campaign.md)** - Validez, vérifiez et activez votre campagne d’action avec des instructions détaillées.
+- **[Planifier la campagne d’action](../using/campaigns/campaign-schedule.md)** : configurez les dates de début et de fin, la fréquence et la planification spécifique au canal pour votre campagne.
+- **[Vérifier et activer une campagne d’action](../using/campaigns/review-activate-campaign.md)** : validez, vérifiez et activez votre campagne d’action avec des instructions détaillées.

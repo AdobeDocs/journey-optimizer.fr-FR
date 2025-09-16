@@ -4,25 +4,25 @@ product: Journey Optimizer
 title: Créer et gérer des offres
 description: Créer et gérer des offres
 redpen-status: CREATED_||_2025-08-11_21-00-55
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Créer et gérer des offres{#section-overview}
 
-La section « Créer et gérer des offres » de Adobe Journey Optimizer vous permet de créer des offres personnalisées et percutantes qui atteignent la bonne audience au bon moment. Que vous créiez des offres personnalisées, des options de secours pour un plus grand intérêt ou que vous organisiez vos offres en collections dynamiques ou statiques pour une gestion transparente, cette section fournit des conseils clairs et exploitables. Vous apprendrez à optimiser vos offres par le biais de configurations stratégiques telles que les emplacements, les contraintes et les priorités, en veillant à ce que chaque interaction soit significative. Découvrez comment ces composants fonctionnent ensemble pour vous aider à offrir des expériences plus intelligentes et plus attrayantes à vos clients.
+La section « Créer et gérer des offres » d’Adobe Journey Optimizer permet de créer des offres personnalisées et percutantes qui atteignent la bonne audience au bon moment. Qu’il s’agisse de créer des offres personnalisées ou des options de secours pour renforcer l’intérêt ou d’organiser vos offres en collections dynamiques ou statiques pour une gestion transparente, cette section propose des conseils clairs et exploitables. Vous apprendrez à optimiser vos offres par le biais de configurations stratégiques telles que les emplacements, les contraintes et les priorités, en veillant à ce que chaque interaction ait du sens. Découvrez comment ces composants s’associent pour vous aider à offrir des expériences plus intelligentes et plus attrayantes à vos clientes et clients.
 
-## Créer Et Gérer Des Offres
+## Créer et gérer des offres
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
-Configuration des offres dans Adobe Journey Optimizer
+Configurer les offres dans Adobe Journey Optimizer
 
 Découvrez comment créer des offres personnalisées, configurer des représentations et définir des contraintes pour optimiser la diffusion et le ciblage.
 
@@ -34,9 +34,9 @@ Découvrez comment créer des offres personnalisées, configurer des représenta
 
 Création d’offres de secours
 
-Tutoriel détaillé sur la création d’offres de secours pour les clients non éligibles aux offres personnalisées.
+Tutoriel détaillé sur la création d’offres de secours pour les clientes et clients non admissibles aux offres personnalisées.
 
-[Découvrez comment créer des offres de secours](../using/offers/offer-library/creating-fallback-offers.md)
+[Découvrir comment créer des offres de secours](../using/offers/offer-library/creating-fallback-offers.md)
 :::
 
 :::
@@ -44,9 +44,9 @@ Tutoriel détaillé sur la création d’offres de secours pour les clients non 
 
 Création et gestion de collections d’offres
 
-Organisez les offres dans Adobe Journey Optimizer à l’aide de collections dynamiques et statiques avec des instructions détaillées et détaillées.
+Organisez les offres dans Adobe Journey Optimizer à l’aide de collections dynamiques et statiques avec des instructions détaillées.
 
-[En Savoir Plus Sur Les Collections D’Offres](../using/offers/offer-library/creating-collections.md)
+[Découvrir les collections d’offres](../using/offers/offer-library/creating-collections.md)
 :::
 
 ::::

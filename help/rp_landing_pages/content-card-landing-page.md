@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Cartes de contenu
 description: Cartes de contenu
 redpen-status: CREATED_||_2025-08-11_20-43-30
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
-
 
 # Cartes de contenu{#section-overview}
 
@@ -25,17 +25,17 @@ Grâce à cette fonctionnalité, les spécialistes du marketing peuvent présent
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
-Configurer le canal des cartes de contenu
+Configurer le canal Cartes de contenu
 
 Configurez et intégrez le canal Cartes de contenu pour les plateformes web, mobiles et kiosques avec une personnalisation dynamique.
 
-[Configuration du canal](configure-landing-page.md)
+[Configurer le canal](configure-landing-page.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
-Création et configuration de cartes de contenu
+Créer et configurer des cartes de contenu
 
 Tutoriel détaillé sur la création, la personnalisation et l’implémentation de cartes de contenu pour les messages personnalisés dans les parcours ou les campagnes.
 
@@ -45,9 +45,9 @@ Tutoriel détaillé sur la création, la personnalisation et l’implémentation
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
-Conception de cartes de contenu
+Concevoir des cartes de contenu
 
-Concevez et personnalisez des cartes de contenu avec des messages, des médias, des boutons d’action et des données personnalisés.
+Concevez et personnalisez des cartes de contenu avec des messages, des médias, des données et des boutons d’action personnalisés.
 
 [En savoir plus sur la conception de cartes de contenu](../using/content-card/design-content-card.md)
 :::

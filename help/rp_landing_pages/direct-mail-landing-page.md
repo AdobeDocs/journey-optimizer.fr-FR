@@ -4,47 +4,47 @@ product: Journey Optimizer
 title: Courrier
 description: Courrier
 redpen-status: CREATED_||_2025-08-11_20-39-20
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Courrier{#section-overview}
 
-Le publipostage direct dans Adobe Journey Optimizer vous permet d’atteindre vos clients hors ligne en concevant des campagnes personnalisées basées sur les données qui se sentent tangibles et percutantes. Que vous génériez des fichiers d’audience pour des fournisseurs tiers de confiance ou que vous garantissiez la conformité aux politiques de consentement, cette fonctionnalité simplifie le processus d’intégration des canaux hors ligne à votre stratégie marketing plus large. Vous découvrirez de nombreux sujets, de la configuration du routage des fichiers à la création et la gestion de campagnes, en passant par la prévisualisation des fichiers d’extraction et l’activation des messages. En associant l’automatisation à la personnalisation, le publipostage direct vous permet de combler le fossé entre l’engagement numérique et physique, rendant ainsi chaque interaction client plus significative.
+Dans Adobe Journey Optimizer, le courrier permet de contacter vos clientes et clients hors ligne en concevant des campagnes personnalisées basées sur les données qui soient concrètes et percutantes. Que vous souhaitiez générer des fichiers d’audience pour des fournisseurs tiers de confiance ou garantir la conformité aux politiques de consentement, cette fonctionnalité simplifie le processus d’intégration des canaux hors ligne à votre stratégie marketing dans son ensemble. Vous découvrirez de nombreux sujets, de la configuration du routage des fichiers à la création et la gestion de campagnes, en passant par la prévisualisation des fichiers d’extraction et l’activation des messages. En associant l’automatisation à la personnalisation, le courrier vous permet de combler le fossé entre l’engagement numérique et physique. Chaque interaction clientèle prend alors plus de sens.
 
-## Documentation sur le publipostage direct
+## Documentation du courrier
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
-Présentation des campagnes par publipostage direct
+Présentation des campagnes par courrier
 
-Découvrez les campagnes de publipostage direct dans Adobe Journey Optimizer, notamment les fichiers d’extraction et les points à prendre en compte pour la conformité.
+Découvrez les campagnes par courrier dans Adobe Journey Optimizer, notamment les fichiers d’extraction et les points à prendre en compte pour la conformité.
 
-[Lire l&#39;introduction](../using/direct-mail/get-started-direct-mail.md)
+[Lire la présentation](../using/direct-mail/get-started-direct-mail.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
-Création d’une campagne par publipostage direct
+Comment créer une campagne par courrier
 
-Guide détaillé sur la création de campagnes par publipostage direct et la configuration des fichiers d’extraction pour les fournisseurs.
+Guide détaillé sur la création de campagnes par courrier et la configuration des fichiers d’extraction pour les fournisseurs.
 
-[Suivez le tutoriel](../using/direct-mail/create-direct-mail.md)
+[Suivre le tutoriel](../using/direct-mail/create-direct-mail.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Comment vérifier et envoyer une campagne par publipostage direct
+Comment vérifier et envoyer une campagne par courrier
 
-Prévisualisez, validez, activez et gérez efficacement le consentement pour les campagnes par publipostage direct.
+Prévisualisez, validez, activez et gérez efficacement le consentement dans les campagnes par courrier.
 
 [Découvrir le processus](../using/direct-mail/test-send-direct-mail.md)
 :::
@@ -54,9 +54,9 @@ Prévisualisez, validez, activez et gérez efficacement le consentement pour les
 
 Configurer le canal Courrier
 
-Paramétrez les configurations de routage des fichiers et de publipostage direct pour exporter les fichiers de données d’audience vers les serveurs .
+Paramétrez les configurations de routage des fichiers et de courrier pour exporter les fichiers de données d’audience vers les serveurs.
 
-[Configuration du canal](../using/direct-mail/direct-mail-configuration.md)
+[Configurer le canal](../using/direct-mail/direct-mail-configuration.md)
 :::
 
 ::::

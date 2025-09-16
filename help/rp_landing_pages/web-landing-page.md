@@ -4,17 +4,17 @@ product: Journey Optimizer
 title: Canal web
 description: Canal web
 redpen-status: CREATED_||_2025-08-11_20-40-58
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 3ff0809b-2d60-477b-9a4c-c6c2324c1a10
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Canal web{#section-overview}
 
-Le canal web dans Adobe Journey Optimizer vous permet de créer des expériences personnalisées directement sur votre site web, ce qui vous permet d’entrer en contact avec les clients de manière significative. Que vous souhaitiez améliorer l’engagement avec du contenu personnalisé ou intégrer facilement des campagnes web à d’autres canaux tels que les e-mails, les SMS et les notifications push, cette fonctionnalité propose une boîte à outils polyvalente pour atteindre vos objectifs marketing. Vous découvrirez comment configurer le canal web, définir et personnaliser des expériences web et surveiller leur impact à l’aide d’outils intuitifs tels que des éditeurs visuels et non visuels. Chaque sous-rubrique s’appuie sur la dernière, vous guidant pas à pas pour maîtriser en toute confiance la personnalisation et l’optimisation du web.
+Le canal web dans Adobe Journey Optimizer permet de créer des expériences personnalisées directement sur votre site web. Vous pouvez ainsi entrer en contact avec les clientes et clients de manière significative. Qu’il s’agisse d’améliorer l’engagement avec du contenu personnalisé ou d’intégrer facilement des campagnes web à d’autres canaux tels que l’e-mail, les SMS et les notifications push, cette fonctionnalité propose une boîte à outils polyvalente pour atteindre vos objectifs marketing. Vous allez découvrir comment configurer le canal web, définir et personnaliser des expériences web et surveiller leur impact à l’aide d’outils intuitifs tels que des éditeurs visuels et non visuels. Chaque sous-rubrique s’appuie sur la précédente, en vous apportant des informations détaillées pour maîtriser en toute confiance la personnalisation et l’optimisation du web.
 
 ## Documentation du canal web
 
@@ -24,7 +24,7 @@ Le canal web dans Adobe Journey Optimizer vous permet de créer des expériences
 
 Prise en main du canal web
 
-Découvrez comment créer et gérer des expériences web personnalisées dans Adobe Journey Optimizer. Obtenez un aperçu des fonctionnalités, des avantages et des conditions préalables.
+Découvrez comment créer et gérer des expériences web personnalisées dans Adobe Journey Optimizer. Obtenez une vue d’ensemble des fonctionnalités, des avantages et des conditions préalables.
 
 [Commencer ici](../using/web/get-started-web.md)
 :::
@@ -34,7 +34,7 @@ Découvrez comment créer et gérer des expériences web personnalisées dans Ad
 
 Configurer le canal web
 
-Configurez et gérez des canaux web, y compris les sous-domaines, les règles de correspondance d’URL et les actions marketing, pour diffuser efficacement du contenu personnalisé.
+Configurez et gérez les canaux web, y compris les sous-domaines, les règles de correspondance d’URL et les actions marketing, afin de diffuser efficacement du contenu personnalisé.
 
 [Configurer maintenant](configure-web-channel-landing-page.md)
 :::
@@ -54,9 +54,9 @@ Guide détaillé sur la création, la modification, le test et la publication d�
 
 Créer et gérer des pages web
 
-Découvrez les outils et les bonnes pratiques pour créer, modifier, surveiller et personnaliser des pages web, y compris les SPA et le suivi des clics.
+Découvrez les outils et les bonnes pratiques pour créer, modifier, surveiller et personnaliser des pages web, y compris les SPA et le suivi des clics.
 
-[Explorer les outils de création](author-web-pages-landing-page.md)
+[Découvrir les outils de création](author-web-pages-landing-page.md)
 :::
 
 ::::

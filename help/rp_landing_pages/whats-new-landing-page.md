@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Nouveautés
 description: Nouveautés
 redpen-status: CREATED_||_2025-08-11_20-03-09
-source-git-commit: cadb4a66c23010cb663eb1e840d0568021690edf
-workflow-type: tm+mt
+exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
-
 
 # Nouveautés{#section-overview}
 
@@ -35,7 +35,7 @@ L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB Fragment de contenu AEM]
 
@@ -52,9 +52,9 @@ En intégrant Adobe Experience Manager as a Cloud Service à Adobe Journe
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Dernières notes de mise à jour pour Adobe Journey Optimizer
+Dernières notes de mise à jour d’Adobe Journey Optimizer
 
-Découvrez les dernières fonctionnalités, améliorations et mises à jour de Adobe Journey Optimizer, notamment l’orchestration des campagnes, l’optimisation et la prise en charge améliorée des canaux.
+Découvrez les dernières fonctionnalités, améliorations et mises à jour d’Adobe Journey Optimizer, notamment l’orchestration des campagnes, l’optimisation et la prise en charge améliorée des canaux.
 
 [Afficher les dernières notes de mise à jour](../using/rn/release-notes.md)
 :::
@@ -62,9 +62,9 @@ Découvrez les dernières fonctionnalités, améliorations et mises à jour de A
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
-Notes de mise à jour précédentes pour Adobe Journey Optimizer
+Notes de mise à jour précédentes d’Adobe Journey Optimizer
 
-Explorez les notes de mise à jour complètes des années précédentes, avec des mises à jour détaillées sur les fonctionnalités, les intégrations et les améliorations dans Adobe Journey Optimizer.
+Découvrez les notes de mise à jour complètes des années précédentes, avec des mises à jour détaillées sur les fonctionnalités, les intégrations et les améliorations dans Adobe Journey Optimizer.
 
 [Parcourir les notes de mise à jour précédentes](previous-rn-new-landing-page.md)
 :::
@@ -72,9 +72,9 @@ Explorez les notes de mise à jour complètes des années précédentes, avec de
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
-Dernières mises à jour de la documentation de Adobe Journey Optimizer
+Dernières mises à jour de la documentation d’Adobe Journey Optimizer
 
-Tenez-vous informé des mises à jour et modifications récentes de la documentation de Adobe Journey Optimizer, organisées par mois et par année.
+Tenez-vous au courant des mises à jour et modifications récentes organisées par mois et par année de la documentation d’Adobe Journey Optimizer.
 
 [Lire les mises à jour de la documentation](../using/rn/documentation-updates.md)
 :::

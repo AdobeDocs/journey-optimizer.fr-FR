@@ -4,27 +4,27 @@ product: Journey Optimizer
 title: Configurer les offres
 description: Configurer les offres
 redpen-status: CREATED_||_2025-08-11_21-00-31
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Configurer les offres{#section-overview}
 
-La section « Configurer les offres » de Adobe Journey Optimizer vous permet de concevoir et de gérer des offres personnalisées qui s’alignent parfaitement sur les besoins et les préférences de votre audience. Que vous créiez des offres à partir de zéro, définissiez leur emplacement ou affiniez des contraintes telles que l’éligibilité et la fréquence, ces outils permettent de vous assurer que vos messages atteignent les bonnes personnes au bon moment. Vous découvrirez comment créer du contenu attrayant pour différents contextes, définir des règles pour le moment et l’endroit où les offres apparaissent et ajuster les priorités afin d’optimiser l’impact. À la fin, vous aurez les compétences nécessaires pour créer des offres dynamiques et ciblées qui stimulent l’engagement et fournissent des résultats mesurables.
+La section « Configurer les offres » d’Adobe Journey Optimizer vous permet de concevoir et de gérer des offres personnalisées qui correspondent parfaitement aux besoins et préférences de votre audience. Que vous créiez des offres à partir de zéro, définissiez leur emplacement ou affiniez des contraintes telles que l’éligibilité et la fréquence, ces outils permettent de vous assurer que vos messages atteignent les bonnes personnes, au bon moment. Vous allez découvrir comment créer du contenu attrayant selon différents contextes, définir des règles pour le moment et l’endroit où les offres apparaissent et ajuster les priorités afin d’en optimiser les effets. Au terme de votre parcours, vous disposerez des compétences nécessaires pour créer des offres dynamiques et ciblées qui boostent l’engagement et fournissent des résultats mesurables.
 
-## Configuration Des Offres
+## Configurer les offres
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
-Création D’Offres Personnalisées
+Créer des offres personnalisées
 
-Découvrez comment créer et gérer des offres personnalisées avec des conseils détaillés, notamment sur la définition de règles d’éligibilité, de contraintes et d’attributs d’offre.
+Découvrez comment créer et gérer des offres personnalisées grâce à des conseils à chaque étape de votre parcours, depuis la définition de règles d’éligibilité, jusqu’aux contraintes, en passant par les attributs d’offre.
 
 [Commencer à créer des offres](../using/offers/offer-library/creating-personalized-offers.md)
 :::
@@ -32,19 +32,19 @@ Découvrez comment créer et gérer des offres personnalisées avec des conseils
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
-Ajouter des représentations aux offres
+Ajouter des représentations à des offres
 
-Définissez et configurez l’emplacement où les offres sont affichées à l’aide des représentations, tout en les personnalisant en fonction du contexte utilisateur et des ressources.
+Définissez et configurez l’emplacement où les offres seront affichées à l’aide des représentations, tout en les personnalisant en fonction du contexte d’utilisation et des ressources.
 
-[Configuration des représentations](../using/offers/offer-library/add-representations.md)
+[Configurer les représentations](../using/offers/offer-library/add-representations.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
-Ajout de contraintes aux offres
+Ajouter des contraintes à des offres
 
-Définissez les règles d’éligibilité, de priorité et de limitation pour contrôler comment et quand les offres sont présentées à la bonne audience.
+Définissez les règles d’éligibilité, de priorité et de limitation afin de contrôler comment et quand les offres sont présentées à la bonne audience.
 
 [Définir les contraintes d’offre](../using/offers/offer-library/add-constraints.md)
 :::

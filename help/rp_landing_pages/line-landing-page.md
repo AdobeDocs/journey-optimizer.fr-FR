@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
-source-git-commit: 588b0f805e9fcf1087e0eb368ebf31bbddaa30d4
-workflow-type: tm+mt
+exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
-
 
 # LINE{#section-overview}
 
@@ -32,17 +32,17 @@ Avant de créer votre message LINE, configurez votre canal LINE avec Journey Op
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
-Configuration du canal LINE
+Configurer le canal LINE
 
-Suivez les instructions étape par étape pour configurer manuellement le canal LINE ou configurer les paramètres du canal à l’aide de l’API dans Adobe Journey Optimizer.
+Suivez les instructions détaillées pour configurer manuellement le canal LINE ou configurer les paramètres du canal à l’aide de l’API dans Adobe Journey Optimizer.
 
-[Découvrez comment configurer](../using/line/line-configuration.md)
+[Découvrir comment configurer](../using/line/line-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Création et configuration de messages LINE
+Créer et configurer les messages LINE
 
 Découvrez comment ajouter des messages LINE aux parcours et aux campagnes, personnaliser le contenu et effectuer des tests de contenu.
 
@@ -54,9 +54,9 @@ Découvrez comment ajouter des messages LINE aux parcours et aux campagnes, pers
 
 Vérifier et envoyer des messages LINE
 
-Prévisualiser, valider et envoyer des messages LINE dans Adobe Journey Optimizer, en assurant une diffusion réussie avec les bonnes pratiques.
+Prévisualisez, validez et envoyez des messages LINE dans Adobe Journey Optimizer, en assurant une diffusion réussie avec les bonnes pratiques.
 
-[Obtention de conseils pour l’envoi de messages](../using/line/send-line.md)
+[Obtenir des conseils pour l’envoi de messages](../using/line/send-line.md)
 :::
 
 ::::
