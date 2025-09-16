@@ -3,14 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
-hide: true
-hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 23%
+source-wordcount: '1124'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +16,7 @@ ht-degree: 23%
 
 Vous trouverez ci-dessous les questions fréquentes sur les campagnes orchestrées Adobe Journey Optimizer.
 
-Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question.
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la communauté [Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Qu’est-ce que l’orchestration des campagnes ? {#what-are-oc}
 
@@ -52,6 +50,7 @@ Les fonctionnalités principales sont les suivantes :
 
 Pour accéder à l’orchestration de campagne, votre licence doit inclure le package **Journey Optimizer - Campagnes et parcours** ou **Journey Optimizer - Campagnes**. Contactez votre représentant ou représentante Adobe pour confirmer votre licence et effectuer une mise à jour si nécessaire.
 
+En savoir plus sur le modèle de licence d&#39;orchestration de Campaign dans la description du produit [Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ## Quels canaux sont pris en charge ? {#channels}
 
