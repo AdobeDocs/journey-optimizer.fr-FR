@@ -5,10 +5,10 @@ title: Créer des expressions
 description: Créer des expressions
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 95%
 
 ---
 
@@ -48,5 +48,27 @@ Accédez à un guide complet des fonctions pour la manipulation des données, l�
 
 [Découvrir les fonctions disponibles](main-functions-journey-landing-page.md)
 :::
+
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+
+Exemples de requêtes sur les jeux de données Journey Optimizer et les cas d’utilisation associés
+
+Accédez à des exemples de requêtes SQL pratiques pour analyser et gérer les données dans les jeux de données Journey Optimizer pour divers cas d’utilisation.
+
+[Découvrir les cas d’utilisation](../using/data/datasets-query-examples.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+
+Exemples de requêtes SQL pour l’analyse de données
+
+Accédez à des exemples de requêtes SQL pour analyser les données Journey Optimizer dans un lac de données, depuis la résolution des problèmes jusqu’à la création de rapports et la segmentation des audiences.
+
+[Explorer la création de parcours](../using/reports/query-examples.md)
+:::
+
 
 ::::
