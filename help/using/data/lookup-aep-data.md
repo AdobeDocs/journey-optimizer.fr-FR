@@ -14,7 +14,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Activer pour la recherche"
->abstract="Activer un jeu de données pour la recherche permet d’exploiter ses données avec les fonctionnalités de personnalisation et de prise de décision de Journey Optimizer."
+>abstract="Activer un jeu de données pour la recherche vous permet d’utiliser ses données avec les fonctionnalités de personnalisation et de prise de décision de Journey Optimizer."
 
 >[!AVAILABILITY]
 >

@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -70,8 +70,8 @@ Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adre
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
->title="Définition d’une valeur personnalisée"
->abstract="Dans certains cas spécifiques, vous pouvez remplacer l’adresse d’exécution par défaut. Utilisez l’icône **Activer le remplacement de paramètre** à droite du champ pour définir une adresse principale personnalisée."
+>title="Définir une valeur personnalisée"
+>abstract="Dans certains cas particuliers, vous pouvez remplacer l’adresse d’exécution par défaut. Utilisez l’icône **Activer le remplacement de paramètre** à droite du champ pour définir une adresse principale personnalisée."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="À propos de l’adresse d’exécution"
 
 Pour des cas d’utilisation spécifiques, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau de la configuration du canal e-mail ou au niveau du parcours.
@@ -89,7 +89,7 @@ Lorsqu’une adresse d’exécution est définie dans la configuration du canal 
 
 ### Dans les paramètres du parcours {#journey-parameters}
 
-Lors de l’ajout d’une action **[!UICONTROL E-mail]** ou **[!UICONTROL SMS]** à un parcours [&#128279;](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
+Lors de l’ajout d’une action **[!UICONTROL E-mail]** ou **[!UICONTROL SMS]** à un parcours [](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
 
 Dans certains contextes spécifiques, vous pouvez remplacer cette valeur à l’aide de l’icône **[!UICONTROL Activer le remplacement du paramètre]** située à droite du champ.
 

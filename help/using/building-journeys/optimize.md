@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -52,7 +52,7 @@ Une fois le parcours actif, les profils sont évalués en fonction des critères
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
 >title="Mesure de succès"
->abstract="La mesure de succès est utilisée pour suivre et évaluer le traitement le plus performant dans une expérience."
+>abstract="La mesure de succès permet de suivre et d’évaluer le traitement le plus performant dans une expérience."
 
 L’expérimentation permet de tester plusieurs chemins selon un partage aléatoire afin de déterminer celui qui offre les meilleures performances en fonction de mesures de succès prédéfinies.
 

@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 35%
+ht-degree: 53%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="Recherche de jeu de données"
->abstract="Pour utiliser des attributs de Adobe Experience Platform pour la prise de décision, vous devez créer un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]."
+>abstract="Pour utiliser des attributs d’Adobe Experience Platform pour la prise de décision, vous devez créer un mappage pour définir la manière dont le jeu de données Adobe Experience Platform s’associe aux données dans [!DNL Journey Optimizer]."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Recherche de jeu de données"
->abstract="Sélectionnez le jeu de données avec les attributs dont vous avez besoin parmi tous les jeux de données Adobe Experience Platform qui ont été activés pour la recherche, puis sélectionnez une clé de mappage (par exemple, numéro de vol ou ID de client) qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données."
+>abstract="Sélectionnez le jeu de données avec les attributs dont vous avez besoin parmi tous les jeux de données Adobe Experience Platform qui ont été activés pour la recherche, puis sélectionnez une clé de mappage (par exemple, le numéro de vol ou l’ID de client ou cliente) qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -37,7 +37,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Recherche de jeu de données"
->abstract="Utilisez des attributs de jeux de données [!DNL Adobe Experience Platform] pour ajuster dynamiquement la logique de classement afin de refléter des conditions réelles. Cliquez sur **[!UICONTROL Ajouter un jeu de données]** pour sélectionner le jeu de données Adobe Experience Platform avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données."
+>abstract="En utilisant des attributs de jeu de données [!DNL Adobe Experience Platform], vous pouvez ajuster dynamiquement la logique de classement pour refléter des conditions réelles. Cliquez sur **[!UICONTROL Ajouter un jeu de données]** pour sélectionner le jeu de données Adobe Experience Platform avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"

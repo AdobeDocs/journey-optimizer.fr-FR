@@ -9,7 +9,7 @@ exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 7bb8f1dfa6a1538017ac9632bf96a2f7e7b01085
 workflow-type: tm+mt
 source-wordcount: '1216'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,14 +46,14 @@ Deux types d’implémentation sont pris en charge pour permettre la création e
 >
 >L’implémentation côté serveur uniquement n’est actuellement pas prise en charge avec le canal web. Si vous disposez d’une implémentation côté serveur uniquement pour vos pages web, vous pouvez utiliser le [canal d’expérience basée sur du code](../code-based/get-started-code-based.md) à la place.
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## Conditions préalables à la création visuelle {#visual-authoring-prerequisites}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_browser_extension"
 >title="Création d’une règle de correspondance de pages"
->abstract="Pour accéder au concepteur web de [!DNL Journey Optimizer], une extension de navigateur spécifique doit être installée : Visual Editing Helper de Adobe Experience Cloud, disponible uniquement sur Google Chrome ou Microsoft Edge."
+>abstract="Pour accéder au concepteur web de [!DNL Journey Optimizer], vous devez installer une extension de navigateur spécifique : Visual Editing Helper d’Adobe Experience Cloud, disponible uniquement sur Google Chrome ou Microsoft Edge."
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
