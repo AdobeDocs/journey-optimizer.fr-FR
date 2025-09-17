@@ -10,10 +10,10 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 15%
 
 ---
 
@@ -63,7 +63,36 @@ Les expériences disponibles dépendent de votre configuration :
 
 * **Pour les utilisateurs Adobe Target uniquement** : toutes les activités A/B de votre organisation Target sont incluses dans le sandbox de production de Journey Optimizer.
 
-Pour utiliser **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, vous devez accéder au sandbox et suivre les autorisations associées.
+Pour utiliser **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, vous devez accéder au sandbox et disposer des autorisations associées suivantes :
+
+* **[!UICONTROL Afficher les expériences]**
+* **[!UICONTROL Gérer les métadonnées d’expérience]**
+
++++ Découvrez comment attribuer des autorisations liées à l’expérience
+
+1. Dans le produit **[!DNL Permissions]**, accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez le **[!UICONTROL Rôle]** souhaité.
+
+1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les autorisations.
+
+1. Ajoutez la ressource **[!UICONTROL Accélérateur d’expériences]**, puis sélectionnez **[!UICONTROL Afficher les expériences]** et/ou **[!UICONTROL Gérer les métadonnées d’expérience]** dans le menu déroulant.
+
+   ![](assets/permissions-experiment.png)
+
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
+
+Les autorisations des personnes déjà affectées à ce rôle seront automatiquement mises à jour.
+
+Pour attribuer ce rôle à de nouvelles personnes, procédez comme suit :
+
+1. Accédez à l’onglet **[!UICONTROL Utilisateurs]** dans le tableau de bord Rôles et cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+
+1. Saisissez le nom de la personne, son adresse e-mail ou choisissez dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
+
+   Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez cette [documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users).
+
+La personne recevra un e-mail avec des instructions pour accéder à votre instance.
+
++++
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
