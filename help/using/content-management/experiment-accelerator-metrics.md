@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Mesures Experimentation Accelerator
+title: Mesures Journey Optimizer Experimentation Accelerator
 description: Améliorer votre capacité à mener des expériences efficacement et à générer des informations
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
-source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '266'
 ht-degree: 4%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-* [Prise en main d’Experimentation Accelerator](experiment-accelerator.md)
-* [Utilisation des données dans l’IA avec Experimentation Accelerator](experiment-accelerator-security.md)
-* [Bonnes pratiques relatives à Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* [Prise en main du Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* [Utilisation des données dans l’IA avec Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
+* [Bonnes pratiques relatives à Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
 * [Surveiller les expériences](experiment-accelerator-monitor.md)
 * **[Mesures d’expérimentation](experiment-accelerator-metrics.md)**
 

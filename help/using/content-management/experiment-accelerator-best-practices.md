@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Bonnes pratiques relatives à Experimentation Accelerator
+title: Bonnes pratiques relatives à Journey Optimizer Experimentation Accelerator
 description: Améliorer votre capacité à mener des expériences efficacement et à générer des informations
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 3%
 
 ---
 
-# Bonnes pratiques relatives à Experimentation Accelerator {#content-experiment-best-practices}
+# Bonnes pratiques relatives à Journey Optimizer Experimentation Accelerator {#content-experiment-best-practices}
 
 >[!BEGINSHADEBOX]
 
-* [Prise en main d’Experimentation Accelerator](experiment-accelerator.md)
-* **[Bonnes pratiques Experimentation Accelerator](experiment-accelerator-best-practices.md)**
-* [Confidentialité, sécurité et gouvernance dans Experimentation Accelerator](experiment-accelerator-security.md)
+* [Prise en main du Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* **[Bonnes pratiques Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)**
+* [Confidentialité, sécurité et gouvernance dans Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
 * [Surveiller les expériences](experiment-accelerator-monitor.md)
 * [Mesures d’expérimentation](experiment-accelerator-metrics.md)
 
@@ -98,11 +98,11 @@ Exemple : _Nous pensons que la modification de X augmentera Y en raison de Z._
 Une bonne expérience ne produit pas seulement une victoire, elle produit un apprentissage clair et exploitable.
 Voici ce qu’il faut rechercher :
 
-&check; **Confiance statistique** : il est peu probable que la différence entre les variantes soit due au hasard.
-&check; **Alignement avec les objectifs** : la mesure principale reflète une progression significative vers un objectif commercial.
-&check; **Impact Secondaire** : aucun effet secondaire négatif significatif sur les mesures associées.
-&check; **Évolutivité** : le résultat peut éclairer les décisions futures ou être généralisé à d’autres domaines.
-&check; **Clarté** : la cause du résultat est raisonnablement isolée et comprise.
+&amp;check; **Confiance statistique** : il est peu probable que la différence entre les variantes soit due au hasard.
+&amp;check; **Alignement avec les objectifs** : la mesure principale reflète une progression significative vers un objectif commercial.
+&amp;check; **Impact Secondaire** : aucun effet secondaire négatif significatif sur les mesures associées.
+&amp;check; **Évolutivité** : le résultat peut éclairer les décisions futures ou être généralisé à d’autres domaines.
+&amp;check; **Clarté** : la cause du résultat est raisonnablement isolée et comprise.
 
 L’expérimentation ne consiste pas seulement à trouver la « meilleure » version, mais également à acquérir des connaissances par le biais de tests et d’itérations. Lorsqu’elles sont bien menées, les expériences révèlent des informations qui permettent de prendre des décisions plus intelligentes, d’offrir de meilleures expériences utilisateur et de meilleurs résultats.
 
