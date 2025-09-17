@@ -10,7 +10,7 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
-source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
+source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 15%
