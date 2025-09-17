@@ -158,7 +158,7 @@ Notez que pour que des opportunités d’expérience soient générées, vous de
 
    Pour les expériences provenant de **[!DNL Adobe Target]**, les modifications suggérées seront plutôt chargées dans le workflow d’expérimentation de **[!DNL Adobe Target]**.
 
-   ➡️ [En savoir plus dans la documentation Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
+   ➡️ [En savoir plus dans la documentation Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/activities/abtest/test-ab)
 
 1. Dans la vue d’expérience, les mêmes IA **[!UICONTROL Opportunités d’expérimentation]** que celles affichées par le Journey Optimizer Experimentation Accelerator sont accessibles.
 
