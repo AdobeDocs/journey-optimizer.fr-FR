@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
+source-git-commit: c4aa1a6ecabb7b742bce084bb96865f965531d77
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 89%
+source-wordcount: '2180'
+ht-degree: 88%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 89%
 </ul>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../email/dark-mode.md">documentation détaillée</a>.</p>
+ <p>Date de disponibilité : 16 septembre 2025</p>
 </td>
 </tr>
 </tbody>
