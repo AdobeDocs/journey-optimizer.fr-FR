@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e269babd228063d465e0790435d916e479701a7
+source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2946'
 ht-degree: 98%
 
 ---
@@ -159,8 +159,8 @@ ht-degree: 98%
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
-         + Math {#math}
-            + [Math](/help/rp_landing_pages/math-landing-page.md)
+         + Mathématiques {#math}
+            + [Mathématiques](/help/rp_landing_pages/math-landing-page.md)
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + Chaîne {#string}
@@ -228,8 +228,8 @@ ht-degree: 98%
       + [Planifier la campagne](using/campaigns/api-triggered-campaign-schedule.md)
       + [Vérifier et activer la campagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
-   + Campagnes orchestrées {#orchestrated-campaigns}
-      + [Campagnes orchestrées](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
+   + Campagnes orchestrées {#orchestrated-campaigns}
+      + [Campagnes orchestrées](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Commencer avec les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Mécanismes de sécurisation et limitations](using/orchestrated/guardrails.md)
       + [Questions fréquentes](using/orchestrated/orchestrated-campaigns-faq.md)
@@ -482,6 +482,7 @@ ht-degree: 98%
          + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
          + [Création de modèles](using/landing-pages/lp-templates.md)
          + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
+      + [Utilisation des formulaires dans vos pages de destination](using/landing-pages/lp-forms.md)
       + [Créer une liste dʼabonnements](using/landing-pages/subscription-list.md)
       + [Apprendre avec des cas d’utilisation](using/landing-pages/lp-use-cases.md)
       + Configurer les pages de destination {#lp-configuration}
@@ -621,8 +622,8 @@ ht-degree: 98%
       + [Rapport d’aperçu](using/reports/channel-report-cja.md)
       + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
       + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
-   + Rapports sur les parcours personnalisés {#reports}
-      + [Rapports sur les parcours personnalisés](/help/rp_landing_pages/reports-landing-page.md)
+   + Rapports de parcours personnalisés {#reports}
+      + [Rapports de parcours personnalisés](/help/rp_landing_pages/reports-landing-page.md)
       + [Créer des rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
       + Champs d’événement d’étape hérités {#legacy-step-event-fields}
@@ -637,8 +638,8 @@ ht-degree: 98%
 + Fonctionnalités de décision {#decisioning}
    + [Fonctionnalités de décision](/help/rp_landing_pages/decisioning-landing-page.md)
    + [Commencer avec les fonctionnalités de décision](using/experience-decisioning/gs-decision.md)
-   + Décision {#experience-decisioning}
-      + [Décision](/help/rp_landing_pages/experience-decisioning-landing-page.md)
+   + Prise de décision {#experience-decisioning}
+      + [Prise de décision](/help/rp_landing_pages/experience-decisioning-landing-page.md)
       + [Commencer avec la prise de décisions](using/experience-decisioning/gs-experience-decisioning.md)
       + [Mécanismes de sécurisation et limitations de la prise de décisions](using/experience-decisioning/decisioning-guardrails.md)
       + Référence d’API {#experience-decisioning-api-reference}
@@ -706,8 +707,8 @@ ht-degree: 98%
          + [Configurer la capture d’événements](using/experience-decisioning/data-collection/schema-requirement.md)
    + Gestion des décisions {#offer-decisioning}
       + [Gestion des décisions](/help/rp_landing_pages/offer-decisioning-landing-page.md)
-      + Commencer la gestion des décisions {#get-started-decision}
-         + [Commencer la gestion des décisions](/help/rp_landing_pages/get-started-decision-landing-page.md)
+      + Commencer avec la gestion des décisions {#get-started-decision}
+         + [Commencer avec la gestion des décisions](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
          + [Mécanismes de sécurisation et limitations de la gestion des décisions](using/offers/decision-management-guardrails.md)
          + [Interface d’utilisation](using/offers/get-started/user-interface.md)
@@ -758,8 +759,8 @@ ht-degree: 98%
          + [Créer des rapports de gestion des décisions](/help/rp_landing_pages/create-reports-landing-page.md)
          + [Utiliser les événements de gestion des décisions](using/offers/reports/get-started-events.md)
          + [Accéder aux champs XDM des événements](using/offers/reports/xdm-fields.md)
-      + Exporter le catalogue d’offres {#export-catalog}
-         + [Exporter le catalogue d’offres](/help/rp_landing_pages/export-catalog-landing-page.md)
+      + Exporter votre catalogue d’offres {#export-catalog}
+         + [Exporter votre catalogue d’offres](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [Commencer à exporter des catalogues d’offres](using/offers/export-catalog/get-started-export.md)
          + [Accès au catalogue d’offres exporté](using/offers/export-catalog/access-dataset.md)
          + [Jeu de données d’offres personnalisées](using/offers/export-catalog/export-offers.md)
@@ -899,7 +900,7 @@ ht-degree: 98%
       + [Créer un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-plan.md)
       + [Exécuter le plan de préchauffage des adresses IP](using/configuration/ip-warmup-execution.md)
       + [Fichiers du plan de préchauffage des adresses IP](using/configuration/ip-warmup-plan-files.md)
-   + Surveiller des adresses e-mail {#monitor-reputation}
+   + Surveiller les adresses e-mail {#monitor-reputation}
       + [Surveiller des adresses e-mail](/help/rp_landing_pages/monitor-reputation-landing-page.md)
       + [Types d’erreur e-mail](using/configuration/email-error-types.md)
       + [Liste de suppression](using/configuration/manage-suppression-list.md)
