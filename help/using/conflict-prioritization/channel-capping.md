@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 97%
 
 ---
 
@@ -65,12 +65,7 @@ Pour créer un jeu de règles de canal, procédez comme suit :
 
    L’expiration du compteur pour chaque période est la suivante :
 
-   * **[!UICONTROL Horaire]** : le capping de la fréquence est valide pour le nombre d’heures sélectionné (minimum 3 heures). Le compteur est automatiquement réinitialisé au début de chaque période. Pour un capping de la fréquence de 3 heures, la réinitialisation se produit toutes les 3 heures, ce qui coïncide avec la fin d’une heure UTC.
-
-     >[!AVAILABILITY]
-     >
-     >Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Contactez l’assistance clientèle pour l’activer.
-
+   * **[!UICONTROL Par heure]** - La limite de fréquence est valide pour le nombre d’heures sélectionné. Le compteur est automatiquement réinitialisé au début de chaque période. Pour une limitation de fréquence d’une heure, elle se réinitialise toutes les heures, coïncidant avec la fin d’une heure UTC.
    * **[!UICONTROL Journalière]** : le capping de la fréquence journalière est valable pour la journée jusqu’à 23:59:59 UTC et est remise à 0 au début de la journée suivante.
    * **[!UICONTROL Hebdomadaire]** : le capping de la fréquence est valable jusqu’au samedi à 23:59:59 UTC de cette semaine, car la semaine calendaire commence le dimanche. La date d’expiration s’applique quelle que soit la date de création de la règle. Par exemple, si la règle est créée le jeudi, cette règle est valide jusqu’au samedi à 23:59:59.
    * **[!UICONTROL Mensuelle]** : le capping de la fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
@@ -83,7 +78,7 @@ Pour créer un jeu de règles de canal, procédez comme suit :
 
 1. Le champ **[!UICONTROL Chaque]** vous permet de répéter les règles de capping de la fréquence sur plusieurs heures, jours, semaines ou mois, selon la durée spécifiée. Exemple : appliquez la règle de capping de la fréquence pendant 2 semaines.
 
-   Veillez à entrer une valeur qui correspond au type de durée sélectionné : de 3 à 23 pour Horaire, de 1 à 30 pour Journalière, de 1 à 4 pour Hebdomadaire et de 1 à 3 pour Mensuelle.
+   Veillez à entrer une valeur qui correspond au type de durée sélectionné : de 1 à 23 pour Horaire, de 1 à 30 pour Journalière, de 1 à 4 pour Hebdomadaire et de 1 à 3 pour Mensuelle.
 
    Le compteur se remet automatiquement à 0 lorsqu’une nouvelle période commence. Pour un capping de la fréquence de 2 jours, cette réinitialisation se produit tous les deux jours à minuit UTC.
 
@@ -166,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

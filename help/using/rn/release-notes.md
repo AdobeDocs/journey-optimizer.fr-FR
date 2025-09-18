@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4aa1a6ecabb7b742bce084bb96865f965531d77
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 88%
+source-wordcount: '2226'
+ht-degree: 87%
 
 ---
 
@@ -111,6 +111,8 @@ ht-degree: 88%
 </table>
 
 ### Améliorations {#Sep-25-improv}
+
+* **Fréquence du capping redéfini à l’heure** : vous pouvez désormais appliquer un capping de la fréquence à l’heure pour les jeux de règles de canal. Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible pour tous les environnements et vous permet de choisir une heure (auparavant 3 heures). [En savoir plus](../conflict-prioritization/channel-capping.md). Date de disponibilité : 17 septembre
 
 * **Prise en charge des domaines dynamiques** - Journey Optimizer prend désormais en charge la personnalisation complète/de base des URL pour les domaines prédéfinis acceptés par Adobe. [En savoir plus](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
