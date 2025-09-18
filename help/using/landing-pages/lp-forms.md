@@ -11,9 +11,9 @@ keywords: destination, page de destination, création, page, formulaire
 badge: label="Disponibilité limitée" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
+source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1137'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ Pour capturer des données de profil avec vos pages de destination [!DNL Journey
 >id="ajo_lp_form_connection"
 >title="Sélectionner le point d’entrée à utiliser"
 >abstract="Définissez le point d’entrée de diffusion en continu où les données sont envoyées lors de l’envoi du formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion en continu d’API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion en continu d’API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +68,7 @@ Lors de la création d’un paramètre prédéfini :
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur la création d’une connexion source par flux, consultez la documentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Pour en savoir plus sur la création d’une connexion source par flux, consultez la documentation d’[Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Sélectionnez un **[!UICONTROL Jeu de données]** à lier au formulaire. C’est là que les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
 
@@ -85,6 +85,12 @@ Pour accéder à la liste des formulaires, sélectionnez **[!UICONTROL Gestion d
 Tous les formulaires existants s’affichent. Vous pouvez filtrer les formulaires en fonction de leur statut, de leur date de création ou de modification.
 
 ## Création et conception d’un formulaire {#create-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_form_preset"
+>title="Sélection d’un paramètre prédéfini"
+>abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Création d’un paramètre prédéfini de formulaire"
 
 Pour créer un formulaire, procédez comme suit.
 
@@ -129,7 +135,7 @@ Pour créer un formulaire, procédez comme suit.
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="Page de remerciement"
->abstract="Configurez ce qui se produit lorsqu’une personne remplit ou transfère un formulaire."
+>abstract="Configurez ce qui se produit lorsqu’une personne remplit ou transfère le formulaire."
 
 Dans la section **[!UICONTROL Page de remerciement]**, configurez ce qui se passe lorsqu’un utilisateur remplit le formulaire.
 
