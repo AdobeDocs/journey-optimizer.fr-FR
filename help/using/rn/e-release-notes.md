@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
+source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 30%
@@ -235,8 +235,8 @@ Ajout d’une option lors de la création ou de la définition de la stratégie 
 
   Pour personnaliser davantage l’adresse e-mail de désabonnement, vous pouvez maintenant définir des attributs personnalisés qui seront ajoutés à l’événement de consentement. Cette fonctionnalité est déjà disponible pour le lien de désabonnement en un clic personnalisé depuis la version du 25 août.
 
-- **Prise en charge de mTLS pour le BYOP SMS**\
-  Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification mutuelle TLS (mTLS), qui nécessite que le client et le serveur confirment l’identité de l’un et l’autre avant qu’une connexion sécurisée ne soit établie.
+- ***Prise en charge de mTLS pour le canal SMS**
+Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification mutuelle TLS (mTLS), qui nécessite que le client et le serveur confirment l’identité de l’un et l’autre avant qu’une connexion sécurisée ne soit établie.
 
 - **Schémas basés sur des modèles**\
   Pour une expérience plus claire et plus intuitive, les schémas relationnels sont désormais appelés schémas basés sur des modèles dans les campagnes orchestrées.
