@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 100%
+source-wordcount: '2708'
+ht-degree: 97%
 
 ---
 
@@ -196,29 +196,10 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse e-mail, etc.).
 
-### Mettre à jour le profil {#update-profile-g}
 
-Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Mise à jour de profil]**. Ils sont répertoriés sur [cette page](../building-journeys/update-profiles.md).
+### Identifiants supplémentaires {#supplemental}
 
-### Lecture d’audience {#read-segment-g}
-
-Les mécanismes de sécurisation suivants s’appliquent à l’activité de parcours [Lecture d’audience](../building-journeys/read-audience.md) :
-
-* Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
-* Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifiés ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
-* L’activité **Lecture d’audience** ne peut pas être utilisée avec les activités Adobe Campaign.
-* L’activité **Lecture d’audience** ne peut être utilisée que comme première activité dans un parcours ou après une activité d’événement métier.
-* Un parcours ne peut avoir qu’une seule activité **Lecture d’audience**.
-* Consultez également les recommandations sur l’utilisation de l’activité **Lecture d’audience** sur [cette page](../building-journeys/read-audience.md).
-* Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
-
-Consultez également [cette page](../building-journeys/read-audience.md#must-read).
-
-### Qualification de l’audience {#audience-qualif-g}
-
-Le mécanisme de sécurisation suivant s’applique à l’activité de parcours [Qualification d’audience](../building-journeys/audience-qualification-events.md) :
-
-* L’activité Qualification d’audience ne peut pas être utilisée avec les activités Adobe Campaign.
+Des mécanismes de sécurisation spécifiques s’appliquent à l’utilisation d’identifiants supplémentaires dans les parcours. Ils sont répertoriés dans [cette page](../building-journeys/supplemental-identifier.md#guardrails)
 
 ### Éditeur d’expression {#expression-editor}
 
@@ -227,8 +208,23 @@ Le mécanisme de sécurisation suivant s’applique à l’[éditeur d’express
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une audience et utiliser une condition `inaudience` dans le parcours.
 * Les attributs `timeSeriesEvents` ne peuvent pas être utilisés dans l’éditeur d’expression. Pour accéder aux événements d’expérience au niveau du profil, créez un groupe de champs basé sur un schéma `XDM ExperienceEvent`.
 
+### Activités de parcours {#activities}
 
-### Activité in-app {#in-app-activity-limitations}
+#### Activité Qualification de l’audience {#audience-qualif-g}
+
+Le mécanisme de sécurisation suivant s’applique à l’activité de parcours [Qualification d’audience](../building-journeys/audience-qualification-events.md) :
+
+* L’activité Qualification d’audience ne peut pas être utilisée avec les activités Adobe Campaign.
+* Les identifiants supplémentaires ne sont pas pris en charge pour les parcours de qualification d’audience.
+
+#### Activités de campagne {#ac-g}
+
+Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
+
+* Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
+* Les activités de campagne ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur du code, E-mail, Notification push, SMS, Messages in-app, Web.
+
+#### Activité in-app {#in-app-activity-limitations}
 
 Les mécanismes de sécurisation suivants s’appliquent à l’action **[!UICONTROL Message in-app]**. En savoir plus sur les messages in-app sur [cette page](../in-app/create-in-app.md).
 
@@ -248,16 +244,28 @@ Les mécanismes de sécurisation suivants s’appliquent à l’action **[!UICON
 
 * La taille du contenu du message in-app est limitée à 2 Mo. L’inclusion d’images de grande taille peut entraver le processus de publication.
 
-### Activité Saut {#jump-g}
+#### Activité Saut {#jump-g}
 
 Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Saut]**. Ils sont répertoriés sur [cette page](../building-journeys/jump.md#jump-limitations).
 
-### Activités de campagne {#ac-g}
+#### Activité Lecture d’audience {#read-segment-g}
 
-Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
+Les mécanismes de sécurisation suivants s’appliquent à l’activité de parcours [Lecture d’audience](../building-journeys/read-audience.md) :
 
-* Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
-* Les activités de campagne ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur du code, E-mail, Notification push, SMS, Messages in-app, Web.
+* Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
+* Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifiés ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
+* L’activité **Lecture d’audience** ne peut pas être utilisée avec les activités Adobe Campaign.
+* L’activité **Lecture d’audience** ne peut être utilisée que comme première activité dans un parcours ou après une activité d’événement métier.
+* Un parcours ne peut avoir qu’une seule activité **Lecture d’audience**.
+* Consultez également les recommandations sur l’utilisation de l’activité **Lecture d’audience** sur [cette page](../building-journeys/read-audience.md).
+* Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
+* Pour les parcours qui utilisent des identifiants supplémentaires, le taux de lecture de l’activité Lecture d’audience pour chaque instance de parcours est limité à un maximum de 500 profils par seconde.
+
+Consultez également [cette page](../building-journeys/read-audience.md#must-read).
+
+#### Mettre à jour l’activité du profil {#update-profile-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Mise à jour de profil]**. Ils sont répertoriés sur [cette page](../building-journeys/update-profiles.md).
 
 ## Mécanismes de sécurisation de l’orchestration de campagne {#orchestration-guardrails}
 
