@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc2a984a093ee1bf5a856658d6c6f43c7d617823
+source-git-commit: e7db0386b4616828ed5282cfd45e080455d1c22a
 workflow-type: tm+mt
-source-wordcount: '3148'
-ht-degree: 65%
+source-wordcount: '3120'
+ht-degree: 66%
 
 ---
 
@@ -248,9 +248,6 @@ Ajout d’une option lors de la création ou de la définition de la stratégie 
 * **Les paramètres de corps JSON imbriqués sont désormais pris en charge dans l’authentification personnalisée**\
   Lors de la configuration de l’authentification personnalisée pour une action personnalisée, les objets JSON imbriqués (par exemple, les sous-objets dans `bodyParams`) sont désormais pris en charge.
 
-* **Joindre des fragments aux éléments de décision**\
-  Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision.
-
 * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic**\
   Avec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration du courrier électronique. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
 
@@ -278,20 +275,15 @@ Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez dés
   Un nouveau mode à débit élevé est désormais disponible dans les campagnes déclenchées par l’API. Ce mode est conçu pour la messagerie en temps réel à grande échelle (jusqu’à 5 000 transactions par seconde) et offre une disponibilité supérieure avec une latence plus faible.\
   Cette fonctionnalité n’est disponible que pour le canal e-mail, pour les organisations qui ont acheté l’offre complémentaire de messagerie transactionnelle à haut débit Adobe . Contactez votre représentant Adobe pour plus d’informations.
 
-
 * **Fréquence du capping redéfini à l’heure** : vous pouvez désormais appliquer un capping de la fréquence à l’heure pour les jeux de règles de canal. Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible pour tous les environnements et vous permet de choisir une heure (auparavant 3 heures). [En savoir plus](../conflict-prioritization/channel-capping.md). Date de disponibilité : 17 septembre
 
 * **Prise en charge des domaines dynamiques** - Journey Optimizer prend désormais en charge la personnalisation complète/de base des URL pour les domaines prédéfinis acceptés par Adobe. [En savoir plus](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
-  >[!NOTE]
-  >
-  >Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes.
+  Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes.
 
 * **Expression pour les règles de limitation de prise de décision** - Vous pouvez désormais créer vos propres expressions pour définir le seuil d’une règle de limitation pour un élément de décision. [En savoir plus](../experience-decisioning/items.md#capping)
 
-  >[!NOTE]
-  >
-  >Cette fonctionnalité est actuellement disponible en disponibilité limitée pour tous les utilisateurs.
+  Cette fonctionnalité est actuellement disponible en disponibilité limitée pour tous les utilisateurs.
 
 * **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où une erreur de configuration du canal e-mail se produirait à l’aide du type de délégation de sous-domaine personnalisé. [En savoir plus](../reports/alerts.md#alert-dns-record-missing)
 
