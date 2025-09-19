@@ -487,72 +487,72 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 Les améliorations de cette version sont présentées ci-dessous.
 
-* **Administration**
+&#x200B;* **Administration**
 
-   * **Alertes de surveillance de la configuration des canaux** : vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où <!--a channel configuration failure happens or if -->un enregistrement DNS est manquant. [En savoir plus](../reports/alerts.md#alert-dns-record-missing)
+   &#x200B;* **Alertes de surveillance de la configuration des canaux** : vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où <!--a channel configuration failure happens or if -->un enregistrement DNS est manquant. [En savoir plus](../reports/alerts.md#alert-dns-record-missing)
 
-* **Assistant IA**
+&#x200B;* **Assistant IA**
 
-   * **Génération de contenu dans plusieurs langues** : le contenu peut désormais être généré en français, espagnol, allemand, italien, japonais, suédois, néerlandais et norvégien. [En savoir plus](../content-management/generative-uc.md#languages)
+   &#x200B;* **Génération de contenu dans plusieurs langues** : le contenu peut désormais être généré en français, espagnol, allemand, italien, japonais, suédois, néerlandais et norvégien. [En savoir plus](../content-management/generative-uc.md#languages)
 
      Date de disponibilité : 25 août
 
 
-* **Campagnes**
+&#x200B;* **Campagnes**
 
-   * **Contrôle des taux dans les campagnes sortantes** : vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. [En savoir plus](../campaigns/campaign-schedule.md#rate-control)
+   &#x200B;* **Contrôle des taux dans les campagnes sortantes** : vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. [En savoir plus](../campaigns/campaign-schedule.md#rate-control)
 
-   * **Planification de campagnes d’action** : les planificateurs de campagnes quotidiens, hebdomadaires et mensuels ont été mis à jour afin d’assurer un contrôle plus détaillé des planifications récurrentes :
+   &#x200B;* **Planification de campagnes d’action** : les planificateurs de campagnes quotidiens, hebdomadaires et mensuels ont été mis à jour afin d’assurer un contrôle plus détaillé des planifications récurrentes :
 
-      * **Périodicité hebdomadaire** : vous pouvez désormais choisir de répéter la campagne toutes les semaines ou toutes les deux semaines, et sélectionner le ou les jours de la semaine où elle doit s’exécuter.
+      &#x200B;* **Périodicité hebdomadaire** : vous pouvez désormais choisir de répéter la campagne toutes les semaines ou toutes les deux semaines, et sélectionner le ou les jours de la semaine où elle doit s’exécuter.
 
-      * **Récurrence mensuelle** : vous pouvez désormais choisir de répéter la campagne tous les mois ou tous les deux mois, et sélectionner le jour du mois où elle doit s’exécuter.
+      &#x200B;* **Récurrence mensuelle** : vous pouvez désormais choisir de répéter la campagne tous les mois ou tous les deux mois, et sélectionner le jour du mois où elle doit s’exécuter.
 
-      * **Plannings quotidiens, hebdomadaires ou mensuels** : vous pouvez indiquer si le planning récurrent doit s’arrêter à une date spécifique ou après un certain nombre d’occurrences.
+      &#x200B;* **Plannings quotidiens, hebdomadaires ou mensuels** : vous pouvez indiquer si le planning récurrent doit s’arrêter à une date spécifique ou après un certain nombre d’occurrences.
 
-   * **Campagnes d’action transactionnelles planifiées** : les campagnes d’action transactionnelles planifiées sont désormais disponibles pour l’envoi de communications transactionnelles par lots, basées sur l’audience, via des canaux e-mail, SMS et push.
+   &#x200B;* **Campagnes d’action transactionnelles planifiées** : les campagnes d’action transactionnelles planifiées sont désormais disponibles pour l’envoi de communications transactionnelles par lots, basées sur l’audience, via des canaux e-mail, SMS et push.
 
-* **Canal - Cartes de contenu**
+&#x200B;* **Canal - Cartes de contenu**
 
-   * **Modèles de disposition de carte de contenu** : le canal de carte de contenu fournit désormais des dispositions de message prêtes à l’emploi qui rationaliseront votre expérience de création. Cette version comprend des modèles de disposition Petite image, Grande image et Image seule. [En savoir plus](../content-card/design-content-card.md)
+   &#x200B;* **Modèles de disposition de carte de contenu** : le canal de carte de contenu fournit désormais des dispositions de message prêtes à l’emploi qui rationaliseront votre expérience de création. Cette version comprend des modèles de disposition Petite image, Grande image et Image seule. [En savoir plus](../content-card/design-content-card.md)
 
-* **Canal - Push**
+&#x200B;* **Canal - Push**
 
-   * **Date d’expiration des notifications push** : vous pouvez désormais spécifier une date d’expiration pour chaque notification push. Cela empêche l’envoi de messages urgents (comme les soldes du Black Friday) après une certaine date, évitant ainsi une mauvaise expérience pour vos clientes et clients.
+   &#x200B;* **Date d’expiration des notifications push** : vous pouvez désormais spécifier une date d’expiration pour chaque notification push. Cela empêche l’envoi de messages urgents (comme les soldes du Black Friday) après une certaine date, évitant ainsi une mauvaise expérience pour vos clientes et clients.
 
-* **Canal - SMS**
+&#x200B;* **Canal - SMS**
 
-   * **Opt-out en logique floue** : lorsqu’elle est activée, l’option **Opt-out en logique floue** détecte les messages entrants qui ressemblent fortement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur ou l’utilisatrice. Si la personne confirme en utilisant l’invite définie, elle est désabonnée. [En savoir plus](../sms/sms-configuration-sinch.md)
+   &#x200B;* **Opt-out en logique floue** : lorsqu’elle est activée, l’option **Opt-out en logique floue** détecte les messages entrants qui ressemblent fortement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur ou l’utilisatrice. Si la personne confirme en utilisant l’invite définie, elle est désabonnée. [En savoir plus](../sms/sms-configuration-sinch.md)
 
      >[!NOTE]
      >
      >Notez que l’**Opt-out en logique floue** n’est disponible qu’avec Sinch et Infobip.
 
-   * **Vérifier la connexion SMS** : vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné. [En savoir plus](../sms/sms-configuration-sinch.md)
+   &#x200B;* **Vérifier la connexion SMS** : vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné. [En savoir plus](../sms/sms-configuration-sinch.md)
 
-* **Configuration**
+&#x200B;* **Configuration**
 
-   * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** : a-vec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
+   &#x200B;* **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** : a-vec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
 
      Pour personnaliser davantage votre lien de désabonnement en un clic, vous pouvez maintenant définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement. [En savoir plus](../email/list-unsubscribe.md#custom-attributes)
 
-* **Jeux de données**
+&#x200B;* **Jeux de données**
 
-   * **Référentiel d’objets de décisions pour les expériences - Éléments d’offres personnalisées** : le jeu de données d’export intégré capture désormais tous les attributs de l’offre et le statut du cycle de vie, ce qui permet une personnalisation et un reporting complets. [En savoir plus](../data/export-datasets.md)
+   &#x200B;* **Référentiel d’objets de décisions pour les expériences - Éléments d’offres personnalisées** : le jeu de données d’export intégré capture désormais tous les attributs de l’offre et le statut du cycle de vie, ce qui permet une personnalisation et un reporting complets. [En savoir plus](../data/export-datasets.md)
 
-   * Ajout de la vérification des versions via le champ `etag` pour améliorer la cohérence et suivre les modifications afin de proposer des éléments de manière plus fiable.
+   &#x200B;* Ajout de la vérification des versions via le champ `etag` pour améliorer la cohérence et suivre les modifications afin de proposer des éléments de manière plus fiable.
 
-* **Prise de décision**
+&#x200B;* **Prise de décision**
 
-   * **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision. Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes. [En savoir plus](../experience-decisioning/create-decision.md#fragments)
+   &#x200B;* **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision. Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes. [En savoir plus](../experience-decisioning/create-decision.md#fragments)
 
-* **Parcours**
+&#x200B;* **Parcours**
 
-   * **Opérations de parcours en masse** : dans la liste de vos parcours, vous pouvez désormais sélectionner plusieurs éléments. Une fois la sélection réalisée, vous pouvez suspendre ou reprendre jusqu’à 10 parcours à la fois.
+   &#x200B;* **Opérations de parcours en masse** : dans la liste de vos parcours, vous pouvez désormais sélectionner plusieurs éléments. Une fois la sélection réalisée, vous pouvez suspendre ou reprendre jusqu’à 10 parcours à la fois.
 
-   * **Prise en charge de la redirection (302) dans les actions personnalisées** : les actions personnalisées peuvent désormais gérer les redirections HTTP 302 requête par requête. Cela permet aux parcours de s’intégrer aux API qui redirigent les requêtes vers des URL localisées ou spécifiques à une région. Les redirections sont suivies automatiquement, ce qui garantit que le contenu diffusé est correct, sans configuration supplémentaire.
+   &#x200B;* **Prise en charge de la redirection (302) dans les actions personnalisées** : les actions personnalisées peuvent désormais gérer les redirections HTTP 302 requête par requête. Cela permet aux parcours de s’intégrer aux API qui redirigent les requêtes vers des URL localisées ou spécifiques à une région. Les redirections sont suivies automatiquement, ce qui garantit que le contenu diffusé est correct, sans configuration supplémentaire.
 
-   * **Plusieurs actions entrantes dans les campagnes** : pour simplifier l’orchestration de parcours, vous pouvez désormais définir plusieurs actions entrantes dans un seul parcours. Auparavant disponible dans les campagnes, cette fonctionnalité vous permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique. [En savoir plus](../building-journeys/journey-action.md#multi-action)
+   &#x200B;* **Plusieurs actions entrantes dans les campagnes** : pour simplifier l’orchestration de parcours, vous pouvez désormais définir plusieurs actions entrantes dans un seul parcours. Auparavant disponible dans les campagnes, cette fonctionnalité vous permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique. [En savoir plus](../building-journeys/journey-action.md#multi-action)
 
 ## Orchestration de campagne
 
@@ -570,19 +570,19 @@ Elle comprend des [jeux de données et des schémas relationnels](#oc-relational
 
 ### Fonctionnalités principales {#oc-capabilities}
 
-* **Workflows à plusieurs étapes**
+&#x200B;* **Workflows à plusieurs étapes**
 
   Pilotez des campagnes par lots multicanaux sophistiquées avec la nouvelle zone de travail personnalisée pour l’orchestration de campagne.
 
-* **Audiences à la demande**
+&#x200B;* **Audiences à la demande**
 
   Segmentez les audiences à la demande pour une activation immédiate.
 
-* **Segmentation d’entités multiples**
+&#x200B;* **Segmentation d’entités multiples**
 
   Créez des audiences à l’aide du contexte commercial (dimensions autres que les personnes), par exemple les produits, les magasins, les renouvellements, les réservations, etc.
 
-* **Visibilité avant envoi**
+&#x200B;* **Visibilité avant envoi**
 
   Examinez, affiner et optimiser les audiences et les campagnes avant le lancement et pendant l’exécution des campagnes.
 
@@ -590,23 +590,23 @@ Elle comprend des [jeux de données et des schémas relationnels](#oc-relational
 
 Une toute nouvelle interface d’orchestration visuelle, conçue spécialement pour les campagnes par lots. Cette zone de travail permet d’effectuer les opérations suivantes :
 
-* Planification visuelle des flux de campagnes multicanaux et à plusieurs étapes
+&#x200B;* Planification visuelle des flux de campagnes multicanaux et à plusieurs étapes
 
-* Prise en charge des audiences à la demande créées à partir de requêtes relationnelles
+&#x200B;* Prise en charge des audiences à la demande créées à partir de requêtes relationnelles
 
-* Partage d’audience, attentes et logique conditionnelle avancés
+&#x200B;* Partage d’audience, attentes et logique conditionnelle avancés
 
-* Nombre précis de pré-envois après l’application de règles et de filtres métier
+&#x200B;* Nombre précis de pré-envois après l’application de règles et de filtres métier
 
 ### Jeux de données et schémas relationnels {#oc-relational}
 
 Adobe Journey Optimizer prend désormais en charge les entités relationnelles (produits, magasins, réservations, contrats, etc.) liées à des profils basés sur des personnes. Cela permet la segmentation et la personnalisation sur des structures de données multidimensionnelles, en activant des cas d’utilisation tels que :
 
-* Un message par réservation, abonnement ou contrat
+&#x200B;* Un message par réservation, abonnement ou contrat
 
-* Segmentation basée sur les attributs d’entité associés (par exemple, catégorie de produits ou emplacement de magasin)
+&#x200B;* Segmentation basée sur les attributs d’entité associés (par exemple, catégorie de produits ou emplacement de magasin)
 
-* Adressabilité améliorée (par exemple, envoi à tous les contacts connus liés à une entité)
+&#x200B;* Adressabilité améliorée (par exemple, envoi à tous les contacts connus liés à une entité)
 
 ### Importance de ces éléments
 
