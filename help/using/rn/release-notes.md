@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
+source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
 workflow-type: tm+mt
-source-wordcount: '3064'
+source-wordcount: '3093'
 ht-degree: 67%
 
 ---
@@ -103,7 +103,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>L’assistant AI comprend désormais des compétences Journey Agent fondamentales pour Journey Optimizer, ce qui permet aux utilisateurs et aux utilisatrices d’analyser les parcours par le biais d’une interface en langage naturel. Grâce à ces nouvelles compétences, les utilisateurs et utilisatrices peuvent analyser et créer (bientôt) des parcours pour détecter et résoudre les conflits potentiels de planning ou d’audience.</p>
+<p>Optimisé par Adobe Experience Platform Agent Orchestrator, Journey Agent est disponible dans Journey Optimizer. Il permet d’analyser les parcours par le biais d’une interface en langage naturel. L’agent détectera les conflits d’audience ou planifiera des conflits et des abandons de profils dans un parcours pour vous aider à prendre des mesures afin de les résoudre. Vous pourrez bientôt créer des parcours avec le soutien d’un agent.</p>
 </td>
 </tr>
 </tbody>
@@ -240,9 +240,12 @@ Ajout d’une option lors de la création ou de la définition de la stratégie 
 
 * **Nouvelles alertes de Parcours**\
   De nouvelles alertes préconfigurées sont disponibles pour les parcours :
+
    * Taux de rejet du profil dépassé : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil.
    * Taux d’erreurs d’action personnalisée dépassé : ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes qui a dépassé le seuil.
    * Taux d’erreurs de profil dépassé : ratio de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil.
+
+  Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours par rapport à la situation mondiale.
 
 * **Les paramètres de corps JSON imbriqués sont désormais pris en charge dans l’authentification personnalisée**\
   Lors de la configuration de l’authentification personnalisée pour une action personnalisée, les objets JSON imbriqués (par exemple, les sous-objets dans `bodyParams`) sont désormais pris en charge.
@@ -252,7 +255,7 @@ Ajout d’une option lors de la création ou de la définition de la stratégie 
 
   Pour personnaliser davantage l’adresse e-mail de désabonnement, vous pouvez maintenant définir des attributs personnalisés qui seront ajoutés à l’événement de consentement. Cette fonctionnalité est déjà disponible pour le lien de désabonnement en un clic personnalisé depuis la version du 25 août.
 
-* ***Prise en charge de mTLS pour le canal SMS**
+* **Prise en charge de mTLS pour le canal SMS**
 Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification mutuelle TLS (mTLS), qui nécessite que le client et le serveur confirment l’identité de l’un et l’autre avant qu’une connexion sécurisée ne soit établie.
 
 * **Schémas basés sur des modèles**\
