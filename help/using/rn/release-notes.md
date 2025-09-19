@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f601a79244a9f10bb9762656449729184b887ec
+source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
 workflow-type: tm+mt
-source-wordcount: '2975'
-ht-degree: 69%
+source-wordcount: '3045'
+ht-degree: 68%
 
 ---
 
@@ -270,9 +270,9 @@ Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez dés
 * **Prise en charge de la redirection dans les actions personnalisées de Parcours**\
   Les redirections (302) sont désormais prises en charge dans les actions personnalisées de Parcours.
 
-<!--* **High throughput mode for API triggered email campaigns**  
-  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
-  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
+* **Mode débit élevé pour les campagnes e-mail déclenchées par l’API**\
+  Un nouveau mode à débit élevé est désormais disponible dans les campagnes déclenchées par l’API. Ce mode est conçu pour la messagerie en temps réel à grande échelle (jusqu’à 5 000 transactions par seconde) et offre une disponibilité supérieure avec une latence plus faible.\
+  Cette fonctionnalité n’est disponible que pour le canal e-mail, pour les organisations qui ont acheté l’offre complémentaire de messagerie transactionnelle à haut débit Adobe . Contactez votre représentant Adobe pour plus d’informations.
 
 * **Fréquence du capping redéfini à l’heure** : vous pouvez désormais appliquer un capping de la fréquence à l’heure pour les jeux de règles de canal. Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible pour tous les environnements et vous permet de choisir une heure (auparavant 3 heures). [En savoir plus](../conflict-prioritization/channel-capping.md). Date de disponibilité : 17 septembre
 
