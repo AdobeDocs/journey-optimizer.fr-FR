@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
+source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
 workflow-type: tm+mt
-source-wordcount: '3045'
-ht-degree: 68%
+source-wordcount: '3064'
+ht-degree: 67%
 
 ---
 
@@ -260,6 +260,8 @@ Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez dés
 
 * **Prise en charge de la recherche de jeux de données dans parcours**\
   Une nouvelle activité dans les parcours, **Recherche de jeu de données**, vous permet de récupérer dynamiquement les données des jeux de données d’enregistrement Adobe Experience Platform au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas se trouver dans la payload de profil ou d’événement, en veillant à ce que vos interactions client soient à la fois pertinentes et opportunes.
+
+  Cette activité est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 * **Simulation des variations de contenu pour tous les canaux entrants**\
   Auparavant uniquement disponible pour les canaux E-mail, SMS et Notification push, la simulation de variations de contenu s’applique désormais également à tous les canaux entrants.
