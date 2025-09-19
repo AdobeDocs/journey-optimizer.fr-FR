@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 97%
+source-wordcount: '815'
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ Des paramètres supplémentaires sont disponibles en fonction du canal de commun
 
 +++**Appliquer des règles de limitation** (e-mail, courrier, notification push, SMS)
 
-Dans la liste déroulante **[!UICONTROL Règles métier]**, sélectionnez un jeu de règles pour appliquer des règles de limitation à votre campagne. L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients. [Découvrir comment utiliser les jeux de règles](../conflict-prioritization/rule-sets.md)
+Dans la liste déroulante **[!UICONTROL Règles métier]**, sélectionnez un jeu de règles pour appliquer des règles de limitation à votre campagne. L’utilisation des ensembles de règles de canal vous permet de définir le capping de la fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires. [Découvrir comment utiliser les jeux de règles](../conflict-prioritization/rule-sets.md)
 
 +++
 

@@ -5,10 +5,10 @@ title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 100%
+source-wordcount: '1107'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
 1. **Appliquer des règles de limitation**
 
-   Dans la liste déroulante **[!UICONTROL Jeu de règles]**, sélectionnez un jeu de règles de canal pour appliquer des règles de limitation à la campagne. L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients. [Découvrir comment utiliser les jeux de règles](../../conflict-prioritization/rule-sets.md)
+   Dans la liste déroulante **[!UICONTROL Jeu de règles]**, sélectionnez un jeu de règles de canal pour appliquer des règles de limitation à la campagne. L’utilisation des ensembles de règles de canal vous permet de définir le capping de la fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires. [Découvrir comment utiliser les jeux de règles](../../conflict-prioritization/rule-sets.md)
 
 1. **Suivre l’engagement** (pour les e-mails et les SMS).
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
+source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 97%
+source-wordcount: '1225'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Les jeux de règles de **Canal** appliquent des règles de limitation aux canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
 
-L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
+L’utilisation des ensembles de règles de canal vous permet de définir le capping de la fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
 
 >[!IMPORTANT]
 >
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
