@@ -11,10 +11,10 @@ keywords: activité, condition, zone de travail, parcours, optimisation
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 37%
+source-wordcount: '1298'
+ht-degree: 35%
 
 ---
 
@@ -74,7 +74,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]**.
 
-1. Sélectionnez les **[!UICONTROL mesures de succès]** que vous souhaitez définir pour votre expérience.
+1. Sélectionnez la **[!UICONTROL mesure de succès]** que vous souhaitez définir pour votre expérience. En savoir plus sur les mesures disponibles et sur la configuration de la liste dans [cette section](success-metrics.md).
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 Une fois le parcours actif, les utilisateurs et utilisatrices sont affectés de manière aléatoire à différents chemins. [!DNL Journey Optimizer] permet de déterminer le chemin le plus performant et fournit des informations exploitables.
 
-<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Suivez la réussite de votre parcours avec le rapport d’expérience de chemin de Parcours. [En savoir plus](../reports/journey-global-report-cja-experimentation.md)
 
 ### Cas d’utilisation d’expérience {#uc-experiment}
 
@@ -224,7 +224,7 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-dessous.
 
 Une fois le parcours actif, le chemin d’accès spécifié pour chaque segment est traité afin que les membres Gold rejoignent le chemin d’accès avec les offres par e-mail, tandis que les autres membres rejoignent le chemin d’accès avec le rappel SMS.
 
-<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Suivez la réussite de votre parcours avec le rapport de Parcours. [En savoir plus](../reports/journey-global-report-cja.md#targeting)
 
 ### Cas d’utilisation des règles de ciblage {#uc-targeting}
 
