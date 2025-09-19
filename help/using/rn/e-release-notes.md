@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
+source-git-commit: 8d732c417d23e47a16d58999e00a2019b9db34a8
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1529'
 ht-degree: 30%
 
 ---
@@ -117,9 +117,9 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <p>Journey Optimizer Experimentation Accelerator est un produit IA conçu pour faire passer votre expérimentation au niveau supérieur. Conçu pour les utilisateurs de Adobe Journey Optimizer et d’Adobe Target, il unifie la gestion des expériences, fournit des informations et des opportunités optimisées par l’IA et introduit un nouvel agent d’expérimentation.</p>
 <p>Vous pouvez vous attendre à :</p>
 <ul>
-<li><strong>Inventaire d’expériences unifié :</strong> permet d’afficher, de filtrer et de gérer rapidement toutes les expériences de Adobe Journey Optimizer et d’Adobe Target dans un espace de travail unique. Le nouveau sélecteur d’équipes permet aux utilisateurs d’adapter les vues par équipe et par rôle, en s’assurant que les bonnes personnes voient les expériences les plus pertinentes.</li>
+<li><strong>Inventaire d’expériences unifié :</strong> permet d’afficher, de filtrer et de gérer rapidement toutes les expériences de Adobe Journey Optimizer et d’Adobe Target dans un espace de travail unique.</li>
 <li><strong>Informations et opportunités de l’expérience AI :</strong> allez au-delà des lectures statistiques avec des informations et des recommandations pilotées par GenAI. Chaque expérience fait désormais apparaître des opportunités exploitables, accompagnées d’une justification, afin que les équipes puissent décider en toute confiance de la suite des tests.</li>
-<li><strong>Prise en charge du bandit manchot (MAB) :</strong> optimisez l’impact tout en réduisant le trafic gaspillé grâce aux expériences de bandit manchot. Au lieu de répartir les audiences de manière égale, MAB affecte automatiquement davantage de visiteurs aux variations les plus performantes en temps réel afin que vous puissiez offrir de meilleures expériences à davantage de clients tout en apprenant ce qui fonctionne.</li>
+<li><strong> Prise en charge du bandit manchot (MAB) dans Journey Optimizer :</strong> optimisez l’impact tout en réduisant le trafic gaspillé grâce aux expériences de bandit manchot. Au lieu de répartir les audiences de manière égale, MAB affecte automatiquement davantage de visiteurs aux variations les plus performantes en temps réel afin que vous puissiez offrir de meilleures expériences à davantage de clients tout en apprenant ce qui fonctionne.</li>
 </ul>
 </td>
 </tr>
