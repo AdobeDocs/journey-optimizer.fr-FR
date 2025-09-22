@@ -5,10 +5,10 @@ title: Cas d’utilisation
 description: Cas d’utilisation
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 87%
 
 ---
 
@@ -86,3 +86,4 @@ Découvrez comment configurer des actions personnalisées pour transmettre des c
 
 - **[Limiter le débit avec les sources de données externes et les actions personnalisées](../using/building-journeys/limit-throughput.md)** : optimisez le débit du parcours et gérez les limites des systèmes externes à l’aide de sources de données et d’actions personnalisées.
 - **[Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](../using/building-journeys/custom-action-aep.md)** : configurez les appels authentifiés et les points d’entrée d’API HTTP pour écrire des événements de parcours dans Adobe Experience Platform.
+- **[Supprimer des profils d’un parcours dynamique](../using/building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)** - Pour des raisons commerciales ou opérationnelles, vous devrez peut-être supprimer certains profils d’un parcours dynamique et exclure les profils correspondant à un critère spécifique actuellement dans le parcours. Vous pouvez le faire en mettant le parcours en pause.
