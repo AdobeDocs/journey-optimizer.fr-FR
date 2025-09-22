@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
+source-git-commit: 085afa8223330bf695167d6d203d3c44948910ac
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3072'
 ht-degree: 67%
 
 ---
@@ -258,8 +258,9 @@ Ajout d’une option lors de la création ou de la définition de la stratégie 
 * **Prise en charge de mTLS pour le canal SMS**
 Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification mutuelle TLS (mTLS), qui nécessite que le client et le serveur confirment l’identité de l’un et l’autre avant qu’une connexion sécurisée ne soit établie.
 
-* **Schémas basés sur des modèles**\
-  Pour une expérience plus claire et plus intuitive, les schémas relationnels sont désormais appelés schémas basés sur des modèles dans les campagnes orchestrées.
+<!--* **Model-based Schemas**  
+  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
+-->
 
 * **Prise en charge de la recherche de jeux de données dans parcours**\
   Une nouvelle activité dans les parcours, **Recherche de jeu de données**, vous permet de récupérer dynamiquement les données des jeux de données d’enregistrement Adobe Experience Platform au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas se trouver dans la payload de profil ou d’événement, en veillant à ce que vos interactions client soient à la fois pertinentes et opportunes.
