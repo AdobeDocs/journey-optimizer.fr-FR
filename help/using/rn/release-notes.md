@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
+source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
 workflow-type: tm+mt
 source-wordcount: '3097'
 ht-degree: 67%
@@ -292,6 +292,8 @@ Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez dés
 
 * **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où une erreur de configuration du canal e-mail se produirait à l’aide du type de délégation de sous-domaine personnalisé. [En savoir plus](../reports/alerts.md#alert-dns-record-missing)
 
+* **Demandes de désabonnement en un clic** - Nous avons introduit des améliorations qui renforcent encore la gestion des demandes de désabonnement en un clic configurées sous Gestion Adobe, en assurant un traitement fiable et cohérent.
+
 
 ## Notes de mise à jour d’août 2025 {#25-8-rn}
 
@@ -532,8 +534,6 @@ Les améliorations de cette version sont présentées ci-dessous.
    * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** : a-vec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
 
      Pour personnaliser davantage votre lien de désabonnement en un clic, vous pouvez maintenant définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement. [En savoir plus](../email/list-unsubscribe.md#custom-attributes)
-
-   * **Demandes de désabonnement en un clic** - Nous avons introduit des améliorations qui renforcent encore la gestion des demandes de désabonnement en un clic configurées sous Gestion Adobe, en assurant un traitement fiable et cohérent.
 
 * **Jeux de données**
 
