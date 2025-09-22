@@ -9,8 +9,8 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
-workflow-type: ht
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
+workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
 
@@ -51,4 +51,4 @@ Pour définir le contrôle du débit, activez l’option **[!UICONTROL Limiter l
 
 ## Étapes suivantes {#next}
 
-Une fois la configuration et le contenu de votre campagne prêts, vous pouvez les vérifier, puis les activer. [En savoir plus](review-activate-campaign.md)
+Une fois la configuration et le contenu de votre campagne prêts, vous pouvez les vérifier, puis les activer. [En savoir plus](../campaigns/review-activate-api-triggered-campaign.md)

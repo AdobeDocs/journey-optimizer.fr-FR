@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '287'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,6 @@ La prise de décision est actuellement prise en charge dans le canal d’expéri
 
 Notre fonctionnalité de gestion des décisions, présente dans Journey Optimizer, utilise une bibliothèque centrale d’offres marketing et un moteur de décision qui applique des règles et des contraintes aux profils clients en temps réel, en exploitant les données Adobe Experience Platform pour diffuser l’offre appropriée au bon moment.
 
-La gestion des décisions prend actuellement en charge quatre canaux : e-mail, messagerie in-app, notifications push et SMS.
+Decision Management prend en charge les canaux suivants : e-mail, messagerie In-App, notifications push, SMS et courrier.
 
 ➡️[Commencer la gestion des décisions](../offers/get-started/starting-offer-decisioning.md)
