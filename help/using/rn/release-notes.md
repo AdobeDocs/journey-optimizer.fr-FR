@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
+source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 66%
+source-wordcount: '3032'
+ht-degree: 68%
 
 ---
 
@@ -237,15 +237,15 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 * **Autorisations des politiques d’approbation**
 Ajout d’une option lors de la création ou de la définition de la stratégie d’approbation pour empêcher les créateurs de Parcours/Campaign de valider leurs propres objets.
-<!-->
-* **Nouvelles alertes de Parcours**\
-  De nouvelles alertes préconfigurées sont disponibles pour les parcours :
+<!--
+* **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:
 
-   * Taux de rejet du profil dépassé : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil.
-   * Taux d’erreurs d’action personnalisée dépassé : ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes qui a dépassé le seuil.
-   * Taux d’erreurs de profil dépassé : ratio de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil.
+  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-  Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours par rapport à la situation mondiale.
+  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
 -->
 
 * **Les paramètres de corps JSON imbriqués sont désormais pris en charge dans l’authentification personnalisée**\
