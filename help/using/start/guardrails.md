@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
 workflow-type: tm+mt
-source-wordcount: '2708'
-ht-degree: 97%
+source-wordcount: '2817'
+ht-degree: 91%
 
 ---
 
@@ -52,10 +52,9 @@ Cette modification sera déployée sur les **sandbox client existants** dans une
 
 ### Mécanismes de sécurisation des e-mails {#message-guardrails}
 
-Les mécanismes de sécurisation suivants s’appliquent au [canal e-mail](../../rp_landing_pages/email-landing-page.md) :
+<!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-* Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
-* Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
+Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des e-mails à partir de [!DNL Adobe Journey Optimizer] et d’un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage], par exemple.
 
 ### Mécanismes de sécurisation des SMS {#sms-guardrails}
 
@@ -65,15 +64,21 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/g
 * La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
 * La gestion du consentement fonctionne au niveau du canal SMS pour les MMS.
 
-### Mécanismes de sécurisation pour les canaux web {#web-guardrails}
+### Mécanismes de sécurisation du canal entrant {#inbound-guardrails}
 
-Les [!DNL Journey Optimizer] [campagnes web](../web/get-started-web.md) ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
+* Journey Optimizer prend en charge un volume maximal de 5 000 requêtes entrantes par seconde. Ce mécanisme de sécurisation s’applique à toutes les requêtes entrantes, qui peuvent provenir de l’un des canaux entrants pris en charge par Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md), [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)).
 
-Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  Les canaux entrants Journey Optimizer ciblent les nouveaux profils qui n’ont peut-être jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
 
-### Mécanismes de sécurisation des canaux basés sur du code {#code-based-guardrails}
+  Les mesures de licence de chaque package sont répertoriées à la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Pour utiliser des actions d’expérience basée sur du code dans [!DNL Journey Optimizer] et diffuser la payload du contenu du code qui peut être utilisée par vos applications, respectez les prérequis décrits sur [cette page](../code-based/code-based-prerequisites.md).
+* Journey Optimizer prend en charge un maximum de 500 actions entrantes actives à tout moment. Ces actions entrantes ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md) [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)) sont comptabilisées si elles font partie d’une campagne active ou si elles sont un nœud utilisé dans un parcours actif. Une fois ce nombre atteint, vous devez désactiver les anciennes campagnes ou les anciens parcours qui utilisent des actions entrantes avant de pouvoir en lancer de nouvelles.
+
+* Pour utiliser les actions [expérience basée sur le code](../code-based/get-started-code-based.md) dans [!DNL Journey Optimizer] et diffuser la payload du contenu de code qui peut être utilisée par vos applications, remplissez les conditions préalables détaillées sur [cette page](../code-based/code-based-prerequisites.md).
+
+### Mécanismes de sécurisation des messages transactionnels {#transactional-message-guardrails}
+
+Journey Optimizer prend en charge un volume maximal de 500 messages transactionnels par seconde dans les campagnes.
 
 ## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
@@ -199,7 +204,7 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 ### Identifiants supplémentaires {#supplemental}
 
-Des mécanismes de sécurisation spécifiques s’appliquent à l’utilisation d’identifiants supplémentaires dans les parcours. Ils sont répertoriés dans [cette page](../building-journeys/supplemental-identifier.md#guardrails)
+Des mécanismes de sécurisation spécifiques s’appliquent à l’utilisation d’identifiants supplémentaires dans les parcours. Ils sont répertoriés sur [cette page](../building-journeys/supplemental-identifier.md#guardrails).
 
 ### Éditeur d’expression {#expression-editor}
 
