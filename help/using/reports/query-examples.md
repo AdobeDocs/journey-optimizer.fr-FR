@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 86%
+source-wordcount: '1554'
+ht-degree: 83%
 
 ---
 
@@ -46,6 +46,8 @@ AND _experience.journeyOrchestration.stepEvents.nodeType='start'
 AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
+Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -473,6 +475,9 @@ ORDER BY DATE(timestamp) desc
 ```
 
 La requête renvoie, pour la période définie, le nombre de profils ayant rejoint le parcours chaque jour. Si un profil a rejoint le parcours via plusieurs identités, il sera comptabilisé deux fois. Si la rentrée est activée, le nombre de profils peut être dupliqué sur plusieurs jours si le profil a rejoint le parcours un autre jour.
+
+Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+
 
 +++
 
@@ -969,6 +974,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
+Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Vérifier si un événement externe d’un profil a été ignoré pour toute autre raison
@@ -997,6 +1004,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
+Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Vérifier le nombre de tous les événements ignorés par stateMachine par errorCode
@@ -1016,6 +1025,8 @@ SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, CO
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
+
+Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -1043,6 +1054,8 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
+Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 ## Requêtes courantes basées sur des parcours {#journey-based-queries}
@@ -1068,6 +1081,7 @@ ORDER BY DATE(timestamp) desc
 ```
 
 La requête renvoie, pour la période définie, le nombre de parcours uniques qui se déclenchent chaque jour. Un seul parcours qui se déclenche plusieurs jours sera comptabilisé une fois par jour.
+
 
 +++
 
