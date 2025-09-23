@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
 source-wordcount: '1298'
-ht-degree: 35%
+ht-degree: 38%
 
 ---
 
@@ -165,8 +165,8 @@ Comparez une attente de 24 heures à une attente de 72 heures avant une relanc
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
->title="Qu’est-ce qu’un chemin de secours ?"
->abstract="Les chemins de secours permettent à votre audience de saisir un autre chemin lorsqu’aucune règle de ciblage n’est qualifiée. </br>Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage ne peut pas accéder au chemin de secours et quitter le parcours."
+>title="Qu’est-ce qu’un chemin de secours ?"
+>abstract="Les chemins de secours permettent à l’audience d’entrer sur un autre chemin lorsqu’aucune règle de ciblage n’est applicable. </br>Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage ne peut pas accéder au chemin de secours et quitter le parcours."
 
 Les règles de ciblage vous permettent de déterminer les règles ou qualifications spécifiques qui doivent être remplies pour qu’un client soit éligible pour accéder à l’un des chemins de parcours, en fonction de segments d’audience spécifiques<!-- depending on profile attributes or contextual attributes-->.
 

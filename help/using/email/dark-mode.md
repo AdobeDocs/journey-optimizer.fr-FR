@@ -12,7 +12,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Basculer vers le mode sombre"
->abstract="Passez en mode sombre où vous pouvez prévisualiser la manière dont il peut s’afficher et définir des paramètres personnalisés spécifiques. <br>Le rendu final dépend du client de messagerie du destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>abstract="Basculez vers le mode sombre pour prévisualiser le rendu et définir des paramètres personnalisés spécifiques. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Basculer vers le mode sombre"
->abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie du destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
+>abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
 
 Lors de la conception de vos e-mails, le [!DNL Journey Optimizer] [Email Designer](get-started-email-design.md) vous permet de passer à la vue **[!UICONTROL Mode sombre]**.
 
@@ -168,7 +168,7 @@ Here you can see that we have applied a different background, defined another im
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Utiliser une image spécifique pour le mode sombre"
->abstract="Vous pouvez sélectionner une autre image qui s’affichera lorsque le mode sombre sera activé. <br>L’ajout d’une image spécifique pour le mode sombre ne garantit pas qu’elle s’affiche correctement dans tous les clients de messagerie. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>abstract="Vous pouvez sélectionner une autre image qui s’affichera lorsque le mode sombre sera activé. <br>L’ajout d’une image spécifique pour le mode sombre ne garantit pas qu’elle s’affichera correctement dans tous les clients de messagerie. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
 
 Après avoir activé le **[!UICONTROL mode sombre]**, vous pouvez choisir de modifier des éléments de style spécifiques dans votre contenu qui s’afficheront uniquement si le mode sombre est activé dans le client de messagerie de la personne destinataire, à condition que le client prenne en charge cette fonctionnalité.
 

@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -56,17 +56,17 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="Sélectionnez le type de campagne. Les canaux disponibles varient en fonction du type sélectionné. <br>**Campagnes planifiées** (Campagnes d’action) - Idéal pour les communications par lots simples et ponctuelles que vous pouvez planifier pour qu’elles s’exécutent à une heure spécifique.<br>**Campagnes déclenchées par API** - Activées par le biais d’un appel API, ce qui permet d’envoyer une messagerie automatisée et basée sur un événement directement depuis des systèmes externes.<br>**Campagnes orchestrées** - Fournissez une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing complexes et à plusieurs étapes, de la segmentation de l’audience à la diffusion de messages personnalisés sur plusieurs canaux."
+>abstract="Sélectionnez le type de la campagne. Les canaux disponibles varient en fonction du type sélectionné. <br>**Campagnes planifiées** (campagnes d’action) : idéales pour les communications par lots, simples et ponctuelles, que vous pouvez planifier pour qu’elles s’exécutent à une heure spécifique.<br>**Campagnes déclenchées par API** : activées par le biais d’un appel API, elles permettent d’envoyer des messages automatisés et basés sur un événement, directement depuis des systèmes externes.<br>**Campagnes orchestrées** : fournissent une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing complexes et à plusieurs étapes, depuis la segmentation d’audience jusqu’à la diffusion de messages personnalisés sur plusieurs canaux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campagnes"
->abstract="Créez votre flux de segmentation, concevez vos messages cross-canal et planifiez vos campagnes. Canaux pris en charge : e-mail, SMS, notification push."
+>abstract="Créez votre flux de segmentation, concevez vos messages cross-canal et planifiez vos campagnes. Canaux pris en charge : e-mail, SMS, notification push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
 >title="Campagnes"
->abstract="Diffusez des diffusions sortantes uniques ou récurrentes ou des actions entrantes en cours."
+>abstract="Effectuez des diffusions sortantes uniques ou récurrentes ou des actions entrantes continues."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
@@ -76,32 +76,32 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="Campagnes"
->abstract="Diffusez des communications marketing personnalisées aux audiences ciblées. Canaux pris en charge : E-mail, SMS, Notifications push."
+>abstract="Diffusez des communications marketing personnalisées aux audiences ciblées. Canaux pris en charge : e-mail, SMS, notifications push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="Campagnes"
->abstract="Diffusez des communications transactionnelles à des profils individuels ou à des ensembles de profils. Canaux pris en charge : E-mail, SMS, Notifications push."
+>abstract="Diffusez des communications transactionnelles à des profils individuels ou à des ensembles de profils. Canaux pris en charge : e-mail, SMS, notifications push."
 
 Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
 
 ![](assets/gs-campaigns.png)
 
-Vous pouvez créer différents types de campagnes dans Journey Optimizer. Les canaux pris en charge et les cas d’utilisation varient selon le type de campagne. Ces types sont répertoriés ci-dessous.
+Vous pouvez créer différents types de campagnes dans Journey Optimizer. Les canaux pris en charge et les cas d’utilisation varient en fonction du type de campagne. Ces types sont répertoriés ci-dessous.
 
 * **Campagnes d’action**
 
-  Les campagnes d’action (ou campagnes planifiées) permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des informations juridiques ou des mises à jour de politiques. En savoir plus sur les fonctionnalités des campagnes d’action, les cas d’utilisation et les canaux pris en charge [sur cette page](create-campaign.md).
+  Les campagnes d’action (ou campagnes planifiées) permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des mentions légales ou des mises à jour de politiques. Pour en savoir plus sur les fonctionnalités des campagnes d’action, les cas d’utilisation et les canaux pris en charge, consultez [cette page](create-campaign.md).
 
 * **Campagnes déclenchées par API**
 
-  Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au bon moment ou aux messages transactionnels/opérationnels d’être envoyés à une personne, comme la réinitialisation d’un mot de passe. La personnalisation de ces campagnes inclut l’attribut de profil, mais aussi les données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST. Pour en savoir plus sur les fonctionnalités des campagnes déclenchées par API, les cas d’utilisation et les canaux pris en charge [consultez cette page](api-triggered-campaigns.md).
+  Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au moment opportun ou aux messages transactionnels/opérationnels (comme la réinitialisation d’un mot de passe) d’être envoyés à un individu. Elles sont utilisées quand une personnalisation de ces campagnes est nécessaire en utilisant non seulement l’attribut de profil, mais aussi les données contextuelles en temps réel du déclencheur, qui est une payload d’API REST. Pour en savoir plus sur les fonctionnalités des campagnes déclenchées par API, les cas d’utilisation et les canaux pris en charge, consultez [cette page](api-triggered-campaigns.md).
 
 * **Campagnes orchestrées**
 
   L’orchestration de campagne dans Adobe Journey Optimizer alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui permet de renforcer l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
 
-  Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, depuis la segmentation jusqu’à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour la vitesse, le contrôle et l’efficacité. Pour en savoir plus sur les fonctionnalités des campagnes orchestrées, les cas d’utilisation et les canaux pris en charge [consultez cette page](../orchestrated/gs-orchestrated-campaigns.md).
+  Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, depuis la segmentation jusqu’à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour assurer vitesse, contrôle et efficacité. Pour en savoir plus sur les fonctionnalités des campagnes orchestrées, les cas d’utilisation et les canaux pris en charge, consultez [cette page](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Conditions préalables {#prerequisites}
 
