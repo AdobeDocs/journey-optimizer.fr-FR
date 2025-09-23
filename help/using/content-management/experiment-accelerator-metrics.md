@@ -10,10 +10,11 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
+source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 4%
+source-wordcount: '374'
+ht-degree: 11%
 
 ---
 
@@ -35,8 +36,6 @@ La page **[!UICONTROL Mesures]** affiche les mesures de succès des expériences
 
 Lors de l’accès à l’onglet **[!UICONTROL Mesures]**, toutes les mesures de succès disponibles de Journey Optimizer et d’Adobe Target sont répertoriées dans une vue consolidée afin de vous aider à effectuer le suivi des performances entre les initiatives, à comparer les résultats et à identifier rapidement les domaines qui nécessitent votre attention.
 
-La liste **[!UICONTROL Mesures]** comprend les éléments suivants :
-
 Accédez aux filtres en cliquant sur ![](assets/do-not-localize/Smock_Filter_18_N.svg), qui propose des options spécifiques au contexte, telles que le filtrage par **[!UICONTROL Source]** ou **[!UICONTROL Utilisé dans des expériences actives]**.
 
 Vous pouvez également rechercher rapidement une mesure en saisissant son nom dans la barre de recherche.
@@ -53,9 +52,9 @@ Le graphique **[!UICONTROL Incrémentiel au fil du temps]** fournit une réparti
 
 Les valeurs de synthèse suivantes sont disponibles pour référence rapide :
 
-* **[!UICONTROL Total]** :
+* **[!UICONTROL Total]** : valeur cumulée de la mesure sélectionnée au cours de la période de création de rapports.
 
-* **[!UICONTROL Moyenne]** :
+* **[!UICONTROL Moyenne]** : valeur type de la mesure calculée sur la période sélectionnée. En équilibrant les fluctuations quotidiennes ou hebdomadaires, il fournit une image plus claire des performances normales et peut être utilisé comme référence pour la comparaison.
 
 * **[!UICONTROL Taux de conversion]** : pourcentage de profils qui ont effectué l’action souhaitée (par exemple, achat, inscription) après avoir vu le traitement.
 
@@ -64,3 +63,11 @@ Chaque valeur comprend un pourcentage de modification par rapport à la période
 ### Effet d’expérience
 
 Cette section affiche toutes les expériences actives au cours de la période sélectionnée (90 derniers jours, 30 derniers jours ou 7 derniers jours) et met en évidence leur contribution à la mesure.
+
+Les mesures suivantes sont disponibles :
+
+* **[!UICONTROL Effet élévateur]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
+
+* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../content-management/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL Contribution]** : proportion de la modification globale de la mesure qui peut être attribuée à une expérience ou à un traitement spécifique, ce qui permet d’identifier les initiatives qui ont le plus d’impact relatif.
