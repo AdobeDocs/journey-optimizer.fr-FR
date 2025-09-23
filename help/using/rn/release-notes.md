@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
+source-git-commit: 40b0ad9ce1a4d9a4cbb120a600de2da78988aae8
 workflow-type: tm+mt
 source-wordcount: '3032'
 ht-degree: 68%
@@ -237,6 +237,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 * **Autorisations des politiques d’approbation**
 Ajout d’une option lors de la création ou de la définition de la stratégie d’approbation pour empêcher les créateurs de Parcours/Campaign de valider leurs propres objets.
+
 <!--
 * **New Journey Alerts**  
   New pre-configured alerts are available for journeys:
