@@ -119,4 +119,4 @@ En outre, vous pouvez utiliser le [service de requête Adobe Experience Platform
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
