@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
+source-git-commit: 4b0355c4e871e89c1b3eeea978959a2d97fa475d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 16%
 
 ---
-
 
 # Utilisation des données [!DNL Adobe Experience Platform] dans les parcours {#datalookup}
 
@@ -110,7 +110,7 @@ Les données récupérées par l’activité **[!UICONTROL Recherche de jeu de d
 
 **Scénario**:Send un coupon pour les utilisateurs qui dépensent plus de 40 $ en produits ménagers.
 
-Flux de Parcours **&#x200B;**&#x200B;:
+Flux de Parcours **** :
 
 1. **Événement d’achat** : capturez les SKU à partir du panier de l’utilisateur.
 
@@ -154,7 +154,7 @@ Flux de Parcours **&#x200B;**&#x200B;:
 
 **Scénario** : identifier le compte de messagerie pour un profil dont le statut de fidélité est Platine. Dans ce scénario, le compte de fidélité est associé à un ID d’e-mail et les données de fidélité ne sont pas disponibles dans la boutique de recherche de profil standard.
 
-Flux de Parcours **&#x200B;**&#x200B;:
+Flux de Parcours **** :
 
 1. **Déclencheur d’événement de profil** : capturez les identifiants d’e-mail du contexte de profil ou d’événement.
 
