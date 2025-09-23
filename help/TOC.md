@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2956'
 ht-degree: 99%
 
 ---
@@ -80,18 +80,19 @@ ht-degree: 99%
       + [Réaction](using/building-journeys/reaction-events.md)
       + [Qualification d’audience](using/building-journeys/audience-qualification-events.md)
       + [Optimiser](using/building-journeys/optimize.md)
-      + [Lecture d’audience](using/building-journeys/read-audience.md)
-      + [Attente](using/building-journeys/wait-activity.md)
       + [Conditions](using/building-journeys/conditions.md)
       + [Condition](using/building-journeys/condition-activity.md)
+      + [Lecture d’audience](using/building-journeys/read-audience.md)
+      + [Attente](using/building-journeys/wait-activity.md)
       + [Décision de contenu](using/building-journeys/content-decision.md)
+      + [Recherche de jeu de données](using/building-journeys/dataset-lookup.md)
       + [Action](using/building-journeys/journey-action.md)
       + [Actions de canal intégrées](using/building-journeys/journeys-message.md)
-      + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
-      + [Actions d&#39;Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
-      + [Actions d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [Saut](using/building-journeys/jump.md)
       + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
+      + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
+      + [Actions d&#39;Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
+      + [Actions d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
    + Créer des expressions {#building-advanced-conditions-journeys}
       + [Créer des expressions](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Utiliser l’éditeur d’expression avancé](using/building-journeys/expression/expressionadvanced.md)

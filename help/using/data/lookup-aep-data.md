@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 19%
+source-wordcount: '816'
+ht-degree: 16%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Activer pour la recherche"
->abstract="Activer un jeu de données pour la recherche vous permet d’utiliser ses données avec les fonctionnalités de personnalisation et de prise de décision de Journey Optimizer."
+>abstract="L’activation d’un jeu de données pour la recherche permet d’exploiter ses données dans les fonctionnalités de personnalisation, de prise de décision et d’orchestration de parcours de Journey Optimizer."
 
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est actuellement disponible pour tous les clients sous la forme d’une version à disponibilité limitée.
 
-Journey Optimizer vous permet d’exploiter les données de Adobe Experience Platform avec des fonctionnalités de personnalisation et de prise de décision. Pour ce faire, les jeux de données basés sur des enregistrements nécessaires à la personnalisation de la recherche doivent d’abord être activés pour le service de recherche, comme décrit ci-dessous.
+Journey Optimizer vous permet d’exploiter les données des données Adobe Experience Platform avec des fonctionnalités de personnalisation, de prise de décision et d’orchestration des parcours. Pour ce faire, les jeux de données basés sur des enregistrements nécessaires à la personnalisation de la recherche doivent d’abord être activés pour le service de recherche, comme décrit ci-dessous.
 
 ## À lire absolument
 
@@ -150,12 +150,10 @@ Cet indicateur de processus permet de comprendre à quel moment de nouveaux lots
 
 ![](assets/aep-data-monitoring.png)
 
-<!--Ivan Mironchuk
-Note - we have a bug here currently. Will need to update screenshot once the lookup service will accurately reflect the progress.-->
-
 ## Étapes suivantes
 
 Une fois qu’un jeu de données a été activé pour la recherche à l’aide d’un appel API, vous pouvez utiliser les données avec des fonctionnalités de personnalisation et de prise de décision [!DNL Journey Optimizer]. Pour plus d’informations, consultez les sections suivantes :
 
 * [Utiliser des données Adobe Experience Platform à des fins de personnalisation](../personalization/aep-data-perso.md)
 * [Utiliser des données Adobe Experience Platform à des fins de prise de décision](../experience-decisioning/aep-data-exd.md)
+* [Utilisation des données Adobe Experience Platform pour l’orchestration des parcours](../building-journeys/dataset-lookup.md)

@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 94%
 
 ---
@@ -47,6 +47,7 @@ Les activités d’orchestration ci-dessous sont disponibles dans la palette sit
 * [Lecture d’audience](read-audience.md)
 * [Attente](wait-activity.md)
 * [Décision de contenu](content-decision.md)
+* [Recherche de jeu de données](dataset-lookup.md)
 
 ![Palette des activités d’orchestration dans le concepteur de parcours](assets/journey-orchestration-activities.png)
 
