@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 98%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
       + [Prise en main en tant que développeur](using/start/path/developer.md)
    + Interface d’utilisation {#ui}
-      + [Prise en main de l’interface](using/start/user-interface.md)
+      + [Commencer avec l’interface](using/start/user-interface.md)
       + [Recherche, filtrage, catégorisation](using/start/search-filter-categorize.md)
       + [Accessibilité](using/start/accessibility.md)
    + [Utiliser l’Assistant IA](using/start/ai-assistant.md)
@@ -235,8 +235,8 @@ ht-degree: 98%
       + [Questions fréquentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuration des données {#data-configuration}
          + [Configuration des données](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Gérer des jeux de données et des schémas relationnels {#schemas-datasets}
-            + [Gérer des jeux de données et des schémas relationnels](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Gestion des schémas et des jeux de données basés sur des modèles {#schemas-datasets}
+            + [Gestion des schémas et des jeux de données basés sur des modèles](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Commencer à utiliser des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
             + [Schéma manuel](using/orchestrated/manual-schema.md)
             + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
@@ -351,7 +351,7 @@ ht-degree: 98%
          + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
    + Canal in-app {#in-app}
       + [Canal in-app](/help/rp_landing_pages/in-app-landing-page.md)
-      + [Prise en main d’In-app](using/in-app/get-started-in-app.md)
+      + [Commencer avec les notifications in-app](using/in-app/get-started-in-app.md)
       + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
       + [Créer un message mobile in-app](using/in-app/create-in-app.md)
       + [Créer un message web in-app](using/in-app/create-in-app-web.md)
@@ -548,13 +548,14 @@ ht-degree: 98%
       + [Prise en main de l’expérience de contenu](using/content-management/get-started-experiment.md)
       + [Créer une expérience de contenu](using/content-management/content-experiment.md)
       + Accélérateur d’expérience {#experiment}
-         + [Prise en main de l’accélérateur d’expériences](using/content-management/experiment-accelerator.md)
-         + [Utilisation des données dans l’IA avec Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
+         + [Commencer avec l’accélérateur d’expérience](using/content-management/experiment-accelerator.md)
+         + [Utilisation des données dans l’IA avec Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
          + [Bonnes pratiques relatives à l’accélérateur d’expériences](using/content-management/experiment-accelerator-best-practices.md)
          + [Moniteur d’accélérateur d’expérience](using/content-management/experiment-accelerator-monitor.md)
-         + [Mesures de l’accélérateur d’expériences](using/content-management/experiment-accelerator-metrics.md)
+         + [Mesures de l’accélérateur d’expérience](using/content-management/experiment-accelerator-metrics.md)
       + Notes techniques {#technotes}
          + [Notes techniques](/help/rp_landing_pages/technotes-landing-page.md)
+         + [Test A/B contre bandit manchot](using/content-management/mab-vs-ab.md)
          + [Présentation des calculs statistiques](using/content-management/experiment-calculations.md)
          + [Comprendre les calculs statistiques dans le rapport d’expérience](using/content-management/experiment-report-calculations.md)
 + Audiences, profils et identité {#audiences-profiles-identities}
@@ -615,7 +616,7 @@ ht-degree: 98%
          + [Rapport de parcours de carte de contenu](using/reports/journey-global-report-cja-content.md)
          + [Rapport de parcours de courrier](using/reports/journey-global-report-cja-direct.md)
          + [Rapport de parcours d’e-mail](using/reports/journey-global-report-cja-email.md)
-         + [Rapport parcours d’expérimentation](using/reports/journey-global-report-cja-experimentation.md)
+         + [Rapport de parcours d’expérimentation](using/reports/journey-global-report-cja-experimentation.md)
          + [Rapport de parcours in-app](using/reports/journey-global-report-cja-inapp.md)
          + [Rapport de parcours de notification push](using/reports/journey-global-report-cja-push.md)
          + [Rapport de parcours SMS](using/reports/journey-global-report-cja-sms.md)

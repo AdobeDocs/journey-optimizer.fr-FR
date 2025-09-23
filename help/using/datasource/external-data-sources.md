@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 100%
+source-wordcount: '1647'
+ht-degree: 98%
 
 ---
 
@@ -272,4 +272,4 @@ Voici un exemple de réponse de l’appel API de connexion :
 
 >[!CAUTION]
 >
->Lors de la configuration de l’authentification personnalisée pour une action personnalisée, notez que les objets JSON imbriqués (par exemple, les sous-objets dans `bodyParams`) ne sont actuellement **pas pris en charge**. Seules les paires clé-valeur plates seront incluses dans la payload de requête finale. Si votre point d’entrée d’authentification nécessite des objets imbriqués, cela peut entraîner des champs manquants et des échecs d’authentification.
+>Lors de la configuration de l’authentification personnalisée pour une action personnalisée, notez que les objets JSON imbriqués (par exemple, les sous-objets dans `bodyParams`) sont **pris en charge**.

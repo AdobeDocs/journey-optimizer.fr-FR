@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 36136c8fce1b6bd9113d95787afbcff5a7605ddf
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,8 @@ Pour créer une politique d’approbation, procédez comme suit :
 1. Saisissez un **[!UICONTROL nom]** et une **[!UICONTROL description]** pour la politique.
 
 1. Indiquez si la politique s’appliquera à des **[!UICONTROL parcours]** ou à des **[!UICONTROL campagnes]**.
+
+1. Activez l’option **[!UICONTROL Bloquer l’auto-approbation]** pour empêcher les créateurs et créatrices de Parcours/campagne de valider leurs propres objets.
 
    ![](assets/policy_create_2.png)
 

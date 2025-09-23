@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: b7c00cdc-430c-40a2-90c9-6dd891d2563b
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '439'
 ht-degree: 1%
 
 ---
 
 # Utilisation des données dans l’IA avec Journey Optimizer Experimentation Accelerator{#experiment-accelerator-security}
-
->[!BEGINSHADEBOX]
-
-* [Prise en main du Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [Utilisation des données dans l’IA avec Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Bonnes pratiques relatives à Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* [Surveiller les expériences](experiment-accelerator-monitor.md)
-* [Mesures d’expérimentation](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 **Adobe Journey Optimizer Journey Optimizer Experimentation Accelerator** vous permet de découvrir automatiquement des informations et de recommander des opportunités pour améliorer vos expériences et votre programme d’expérimentation. La solution tire parti de l’IA et du machine learning pour fournir ces recommandations. Cette instruction explique comment les données de vos clients sont utilisées dans **Journey Optimizer Experimentation Accelerator**.
 

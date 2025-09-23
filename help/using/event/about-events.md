@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 95%
+source-wordcount: '1538'
+ht-degree: 66%
 
 ---
 
@@ -72,6 +72,43 @@ Après avoir transité par les API d’ingestion en flux continu, les événemen
 
 Pour les événements générés par le système, le service Pipeline filtre les événements disposant d’une payload contenant des [!DNL Journey Optimizer] eventID (reportez-vous au processus de création d’événements ci-dessous) fournis par [!DNL Journey Optimizer] et contenus dans une payload d’événement. Pour les événements basés sur des règles, le système identifie l’événement à l’aide de la condition eventID. Ces événements sont écoutés par [!DNL Journey Optimizer] et le parcours correspondant est déclenché.
 
+
+## À propos du débit des événements de Parcours {#event-thoughput}
+
+Adobe Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours par seconde au niveau de l’organisation, sur tous les sandbox. Ce quota s’applique à tous les événements utilisés dans les parcours actifs, qui incluent les parcours **En ligne**, **Exécution d’essai**, **Fermé** et **En pause**. Lorsque ce quota est atteint, les nouveaux événements sont mis en file d’attente avec un taux de traitement de 5 000 par seconde. La durée maximale qu’un événement peut passer dans la file d’attente est de **24 heures**.
+
+Les types d’événements suivants sont comptabilisés dans le quota de 5 000 TPS :
+
+* **Événements unitaires externes** : inclut les événements basés sur des règles et ceux générés par le système. Si un même événement brut est admissible pour plusieurs définitions de règle, chaque règle qualifiée est comptabilisée comme un événement distinct. Plus de détails ci-dessous.
+
+* **Événements de qualification d’audience** : si la même audience de diffusion en continu est utilisée dans plusieurs parcours, chaque utilisation est comptabilisée séparément. Par exemple, l’utilisation de la même audience dans une activité de qualification d’audience dans deux parcours génère deux événements comptabilisés.
+
+* **Événements de réaction** : événements déclenchés par des réactions de profil (ouverture d’e-mail, clic sur l’e-mail, etc.) dans un parcours.
+
+* **Événements métier** : événements non liés à un profil spécifique, mais à un événement lié à l’entreprise.
+
+* **Événements Analytics** : si l’[intégration à Adobe Analytics pour déclencher des parcours ](about-analytics.md) a été activée, ces événements sont également inclus.
+
+* **Reprendre les événements** : événement technique déclenché lorsqu’un profil reprend à partir d’un parcours en pause. En savoir plus sur la [reprise des parcours en pause](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+
+* **Événements d’achèvement de nœud d’attente** : lorsqu’un profil quitte un nœud d’attente, un événement technique est généré pour reprendre le parcours.
+
+>[!NOTE]
+>
+>À l’exception des événements d’attente et de reprise, tous les autres types d’événements sont également comptabilisés dans le quota lorsqu’ils sont utilisés dans des parcours en fonction des audiences lues.
+
+### À propos des événements bruts admissibles pour plusieurs définitions de règle
+
+Un même événement brut peut être admissible pour plusieurs définitions de règle dans les parcours. Lorsqu’un événement est configuré dans la section **Administration**, pour le même schéma d’événement, plusieurs règles d’événement peuvent être définies. Supposons, par exemple, que nous ayons un événement d’achat qui comporte les champs city et purchaseValue. Examinons les scénarios suivants :
+
+1. Un événement **E1** nommé `newYorkPurchases` est créé avec une définition de règle indiquant cette `city=='New York'`. Cet événement peut être utilisé dans 10 parcours, mais il sera toujours comptabilisé comme 1 seul événement lorsqu’il sera disponible.
+
+1. Maintenant, supposons qu’un événement **E2** nommé `highValuePurchases` avec `purchaseValue > 1000` comme définition de règle soit également créé, sur le même schéma d’événement que **E1**. Dans ce cas, le même événement entrant est évalué par rapport à deux règles : `newYorkPurchases` et `highValuePurchases`. Maintenant, il se peut qu&#39;un achat à New York soit également un achat de grande valeur.
+
+   Dans ce cas, Journey Optimizer crée deux événements, **E1** et **E2**, à partir du même événement entrant, ce qui fait que cet événement entrant unique compte comme deux événements.
+
+   Notez que ces événements commencent à être comptabilisés lorsqu’ils sont utilisés dans un parcours actif, y compris les parcours **En ligne**, **Exécution d’essai**, **Fermé** et **En pause**.
+
 ## Mise à jour et suppression d’un événement {#update-event}
 
 
@@ -83,8 +120,8 @@ Les événements utilisés dans les parcours **En ligne**, **Brouillon** ou **Fe
 
 Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431514?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416325?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

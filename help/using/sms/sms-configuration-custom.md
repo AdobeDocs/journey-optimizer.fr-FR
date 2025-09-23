@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: ht
-source-wordcount: '1081'
-ht-degree: 100%
+source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+workflow-type: tm+mt
+source-wordcount: '1119'
+ht-degree: 96%
 
 ---
 
@@ -66,6 +66,10 @@ Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d�
 
      ![](assets/sms-byop.png)
 
+1. Activez l’option **[!UICONTROL prise en charge mTLS]**, qui garantit que le client et le serveur s’authentifient mutuellement avant d’établir une connexion sécurisée.
+
+   Pour utiliser mTLS uniquement, sélectionnez **[!UICONTROL Aucune authentification]** dans le menu déroulant **[!UICONTROL Type d’authentification]** puis activez la prise en charge **[!UICONTROL mTLS]**.
+
 1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un nouveau paramètre]** pour définir les en-têtes HTTP du message de requête à envoyer au service externe.
 
    Les champs d’en-tête **Content-Type** et **Charset** sont définis par défaut et ne peuvent pas être supprimés.
@@ -86,7 +90,7 @@ Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d�
 
    ![](assets/sms_byo_4.png)
 
-1. Cliquez sur **[!UICONTROL Vérifier la connexion SMS]**, à partir de vos informations d’identification d’API existantes, pour tester et vérifier vos informations d’identification d’API SMS en envoyant un exemple de message à un appareil désigné.
+1. Cliquez sur **[!UICONTROL Vérifier la connexion SMS]**, à partir de vos informations d’identification d’API existantes, pour tester et vérifier vos informations d’identification d’API SMS en envoyant un exemple de message à un appareil désigné.
 
 1. Renseignez les champs **Numéro** et **Message**, puis cliquez sur **[!UICONTROL Vérifier la connexion]**.
 

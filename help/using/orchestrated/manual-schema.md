@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Étapes de configuration
-description: Découvrez comment créer des schémas relationnels directement via l’interface utilisateur.
+description: Découvrez comment créer des schémas basés sur des modèles directement via l’interface utilisateur.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 98%
+source-wordcount: '899'
+ht-degree: 87%
 
 ---
 
+# Configurer un schéma manuel basé sur un modèle {#manual-schema}
 
-# Configurer un schéma relationnel manuel {#manual-schema}
-
-Les schémas relationnels peuvent être créés directement via l’interface utilisateur, ce qui permet une configuration détaillée des attributs, des clés primaires, des champs de contrôle de version et des relations.
+Les schémas basés sur des modèles peuvent être créés directement via l’interface utilisateur, ce qui permet une configuration détaillée des attributs, des clés primaires, des champs de contrôle de version et des relations.
 
 L’exemple suivant définit manuellement le schéma **Membres du programme de fidélité** pour illustrer la structure requise pour les campagnes orchestrées.
 
-1. [Création manuelle d’un schéma relationnel](#schema) à l’aide de l’interface Adobe Experience Platform.
+1. [Création manuelle d’un schéma basé sur un modèle](#schema) à l’aide de l’interface Adobe Experience Platform.
 
 1. [Ajoutez des attributs](#schema-attributes) tels que l’ID du client, le niveau d’abonnement et les champs de statut.
 
@@ -31,7 +30,7 @@ L’exemple suivant définit manuellement le schéma **Membres du programme de f
 
 ## Créer votre schéma {#schema}
 
-Commencez par créer manuellement un nouveau schéma relationnel dans Adobe Experience Platform. Ce processus vous permet de définir la structure du schéma à partir de zéro, y compris son nom et son comportement.
+Commencez par créer manuellement un schéma basé sur un modèle dans Adobe Experience Platform. Ce processus vous permet de définir la structure du schéma à partir de zéro, y compris son nom et son comportement.
 
 1. Connectez-vous à Adobe Experience Platform.
 
@@ -39,7 +38,7 @@ Commencez par créer manuellement un nouveau schéma relationnel dans Adobe Exp
 
 1. Cliquez sur **[!UICONTROL Créer un schéma]**.
 
-1. Sélectionnez **[!UICONTROL Relationnel]** pour votre **Type de schéma**.
+1. Sélectionnez **[!UICONTROL Basé sur le modèle]** comme **Type de schéma**.
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -59,7 +58,7 @@ Ajoutez ensuite des attributs pour définir la structure de votre schéma. Ces c
 
 Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identité de type `String` avec un espace de noms d’identité associé. Cela garantit la compatibilité avec les fonctionnalités de ciblage et de résolution des identités d’Adobe Journey Optimizer.
 
-+++Les fonctions suivantes sont prises en charge lors de la création de schémas relationnels dans Adobe Experience Platform.
++++Les fonctionnalités suivantes sont prises en charge lors de la création de schémas basés sur des modèles dans Adobe Experience Platform
 
 * **ENUM**\
   Les champs ENUM sont pris en charge pour la création de schémas manuelle ou basée sur un fichier DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
@@ -68,7 +67,7 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
   La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr-FR).
 
 * **Clé composite**\
-  Les clés primaires composites sont prises en charge dans les définitions de schéma relationnel, ce qui permet d’utiliser plusieurs champs ensemble pour identifier des enregistrements de manière unique.
+  Les clés primaires composites sont prises en charge dans les définitions de schéma basées sur un modèle, ce qui permet d’utiliser plusieurs champs ensemble pour identifier les enregistrements de manière unique.
 
 +++
 
@@ -148,6 +147,12 @@ Après avoir défini votre schéma, l’étape suivante consiste à créer un je
 Vous devez maintenant activer votre jeu de données pour orchestrer des campagnes.
 
 ## Activer le jeu de données pour les campagnes orchestrées {#enable}
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_enable_dataset_for_oc"
+>title="Campagnes orchestrées"
+>abstract="Après avoir créé votre jeu de données, vous devez l’activer explicitement pour les campagnes orchestrées. Cette étape permet de s’assurer que votre jeu de données est disponible pour l’orchestration et la personnalisation en temps réel dans Adobe Journey Optimizer."
+
 
 Après avoir créé votre jeu de données, vous devez l’activer explicitement pour les campagnes orchestrées. Cette étape permet de s’assurer que votre jeu de données est disponible pour l’orchestration et la personnalisation en temps réel dans Adobe Journey Optimizer.
 

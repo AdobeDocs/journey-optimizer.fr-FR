@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 100%
+source-wordcount: '1846'
+ht-degree: 81%
 
 ---
 
@@ -68,7 +68,21 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 >title="Mesure de succès"
 >abstract="La mesure de succès permet de suivre et d’évaluer le traitement le plus performant dans une expérience. Veillez à configurer votre jeu de données pour certaines mesures avant de l’utiliser."
 
-1. Lorsque votre message est personnalisé, dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
+Pour votre expérience de contenu, vous pouvez choisir entre trois types d’expérience :
+
+* **[!UICONTROL Expérience A/B]** : définissez la répartition du trafic entre les traitements au début du test. Les performances sont évaluées en fonction de la mesure principale de votre choix. Dans ce cas, Experimentation Accelerator signale l’effet élévateur observé entre les traitements.
+
+* **[!UICONTROL Bandit manchot]** : la répartition du trafic entre les traitements est gérée automatiquement. Tous les 7 jours, les performances de la mesure principale sont examinées et les poids sont ajustés en conséquence. Les rapports dans Experimentation Accelerator continuent d’afficher l’effet élévateur, sous la forme de tests A/B.
+
+* **[!UICONTROL Apportez votre propre bandit manchot]** : la répartition du trafic entre les traitements est gérée automatiquement. Vous pouvez déterminer quand et comment il doit changer à l’aide des API d’expérience afin d’ajuster les allocations en temps réel.
+
+➡️ [En savoir plus sur la différence entre les expériences A/B et le bandit manchot](mab-vs-ab.md)
+
+>[!BEGINTABS]
+
+>[!TAB  Expérience A/B ]
+
+1. Lorsque votre message est personnalisé, dans l’onglet **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
 
    ![](assets/content_experiment_3.png)
 
@@ -78,9 +92,11 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_11.png)
 
-1. Lors de la configuration d’une expérience utilisant le canal in-app ou web et du choix de **[!UICONTROL Clics entrants]**, **[!UICONTROL Clics entrants uniques]**, **[!UICONTROL Pages vues]** ou **[!UICONTROL Mesures des pages vues uniques]**, le menu déroulant **[!UICONTROL Action de clic]** vous permet de suivre et de surveiller précisément les clics et les vues sur des pages spécifiques.
+1. Lors de la configuration d’une expérience à l’aide du canal in-app ou web et du choix des **[!UICONTROL Clics entrants]**, **[!UICONTROL Clics entrants uniques]**, **[!UICONTROL Pages vues]** ou **[!UICONTROL Mesures Pages vues uniques]** , le champ **[!UICONTROL Dimensions]** vous permet d’effectuer le suivi et la surveillance précis des clics et des vues sur des pages spécifiques.
 
    ![](assets/content_experiment_20.png)
+
+1. Si vous avez créé une campagne déclenchée par API, sélectionnez **[!UICONTROL Expérience A/B]** dans le menu déroulant **[!UICONTROL Type d’expérience]**.
 
 1. Cliquez sur **[!UICONTROL Ajouter un traitement]** pour créer autant de nouveaux traitements que nécessaire.
 
@@ -104,7 +120,89 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 1. Activez l’expérience avec mise à l’échelle automatique pour déployer automatiquement la variation gagnante de votre expérience. [Découvrir comment mettre à l’échelle le gagnant](#scale-winner)
 
+   ![](assets/content_experiment_14.png)
+
 1. Cliquez sur **[!UICONTROL Créer]** lorsque la configuration est terminée.
+
+>[!TAB Bandit manchot]
+
+Notez que l’expérience de bandit manchot n’est disponible qu’avec les éléments suivants :
+
+* Canaux entrants
+* Parcours unitaires
+* Campagnes déclenchées par l’API (transactionnelles et opérationnelles)
+* Canaux sortants si le planning est récurrent
+
+1. Lorsque votre message est personnalisé, dans l’onglet **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
+
+   ![](assets/content_experiment_3.png)
+
+1. Sélectionnez les **[!UICONTROL mesures de succès]** que vous souhaitez définir pour votre expérience.
+
+   Pour cet exemple, sélectionnez **[!UICONTROL Ouverture d’e-mails]** pour tester si les profils ouvrent leurs e-mails lorsque le code de promotion se trouve dans la ligne d’objet.
+
+   ![](assets/content_experiment_11.png)
+
+1. Si vous avez créé une campagne déclenchée par API, sélectionnez **[!UICONTROL Bandit manchot]** dans le menu déroulant **[!UICONTROL Type d’expérience]**.
+
+   ![](assets/content-experiment-mab-1.png)
+
+1. Cliquez sur **[!UICONTROL Ajouter un traitement]** pour créer autant de nouveaux traitements que nécessaire.
+
+   ![](assets/content-experiment-mab-2.png)
+
+1. Modifiez le **[!UICONTROL Titre]** de votre traitement pour mieux les différencier.
+
+1. Choisissez d’ajouter un groupe d’**[!UICONTROL exclusion]** à votre diffusion. Ce groupe ne recevra aucun contenu de cette campagne.
+
+   Le fait d’activer la barre de bascule retirera automatiquement 10 % de votre population. Vous pouvez ajuster ce pourcentage si nécessaire.
+
+   >[!IMPORTANT]
+   >
+   >Lorsqu’un groupe d’exclusion est utilisé dans une action pour l’expérimentation de contenu, l’affectation d’exclusion ne s’applique qu’à cette action spécifique. Une fois l’action terminée, les profils du groupe d’exclusion continueront sur le chemin du parcours et pourront recevoir des messages d’autres actions. Par conséquent, assurez-vous que les messages suivants ne dépendent pas de la réception d’un message par un profil qui peut se trouver dans un groupe d’exclusion. Si c’est le cas, vous devrez peut-être supprimer l’affectation d’exclusion.
+
+   ![](assets/content-experiment-mab-3.png)
+
+>[!TAB Apportez votre propre bandit manchot]
+
+Notez que l’expérience Apporter votre propre bandit manchot n’est disponible qu’avec les éléments suivants :
+
+* Canaux entrants
+* Parcours unitaires
+* Campagnes déclenchées par l’API (transactionnelles et opérationnelles)
+* Canaux sortants si le planning est récurrent
+
+1. Lorsque votre message est personnalisé, dans l’onglet **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
+
+   ![](assets/content_experiment_3.png)
+
+1. Sélectionnez les **[!UICONTROL mesures de succès]** que vous souhaitez définir pour votre expérience.
+
+   Pour cet exemple, sélectionnez **[!UICONTROL Ouverture d’e-mails]** pour tester si les profils ouvrent leurs e-mails lorsque le code de promotion se trouve dans la ligne d’objet.
+
+   ![](assets/content_experiment_11.png)
+
+1. Si vous avez créé une campagne déclenchée par API, sélectionnez **[!UICONTROL Apporter votre propre bandit manchot]** dans le menu déroulant **[!UICONTROL Type d’expérience]**.
+
+   ![](assets/content-experiment-mab-4.png)
+
+1. Cliquez sur **[!UICONTROL Ajouter un traitement]** pour créer autant de nouveaux traitements que nécessaire.
+
+   ![](assets/content-experiment-mab-5.png)
+
+1. Modifiez le **[!UICONTROL Titre]** de votre traitement pour mieux les différencier.
+
+1. Choisissez d’ajouter un groupe d’**[!UICONTROL exclusion]** à votre diffusion. Ce groupe ne recevra aucun contenu de cette campagne.
+
+   Le fait d’activer la barre de bascule retirera automatiquement 10 % de votre population. Vous pouvez ajuster ce pourcentage si nécessaire.
+
+   >[!IMPORTANT]
+   >
+   >Lorsqu’un groupe d’exclusion est utilisé dans une action pour l’expérimentation de contenu, l’affectation d’exclusion ne s’applique qu’à cette action spécifique. Une fois l’action terminée, les profils du groupe d’exclusion continueront sur le chemin du parcours et pourront recevoir des messages d’autres actions. Par conséquent, assurez-vous que les messages suivants ne dépendent pas de la réception d’un message par un profil qui peut se trouver dans un groupe d’exclusion. Si c’est le cas, vous devrez peut-être supprimer l’affectation d’exclusion.
+
+   ![](assets/content-experiment-mab-6.png)
+
+>[!ENDTABS]
 
 ## Concevoir vos traitements {#treatment-experiment}
 
@@ -147,7 +245,6 @@ Vous pouvez choisir entre deux modes :
 
 * **Mise à l’échelle manuelle** : examinez manuellement les résultats de l’expérience et déclenchez le déploiement du traitement gagnant en gardant un contrôle total sur le moment et les décisions.
 
-
 ### Mise à l’échelle automatique {#autoscaling}
 
 La mise à l’échelle automatique vous permet de définir des règles prédéfinies pour déterminer quand déployer le traitement gagnant ou une solution de secours en fonction des résultats de l’expérience.
@@ -167,9 +264,9 @@ Pour activer la mise à l’échelle automatique dans vos expériences :
    * Dès qu’un gagnant est identifié.
    * Après que l’expérience est active depuis une durée donnée.
 
-     Le moment de la mise à l’échelle doit obligatoirement être planifié avant la date de fin de l’expérience. Si une date postérieure est définie, un message d’avertissement s’affichera et la campagne ou le parcours ne pourra pas être publié.
+Le moment de la mise à l’échelle doit obligatoirement être planifié avant la date de fin de l’expérience. Si une date postérieure est définie, un message d’avertissement s’affichera et la campagne ou le parcours ne pourra pas être publié.
 
-   ![](assets/scale-winner-2.png)
+    ![](assets/scale-winner-2.png)
 
 1. Définissez le comportement de secours si aucun gagnant n’est identifié au moment de la mise à l’échelle :
 

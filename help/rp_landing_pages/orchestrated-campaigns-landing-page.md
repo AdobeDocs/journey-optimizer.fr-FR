@@ -5,16 +5,16 @@ title: Campagnes orchestrées
 description: Campagnes orchestrées
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 77%
+ht-degree: 89%
 
 ---
 
 # Campagnes orchestrées{#section-overview}
 
-Les campagnes orchestrées dans Adobe Journey Optimizer vous permettent de concevoir et d’exécuter des campagnes marketing sophistiquées et à plusieurs étapes, qui diffusent le message approprié à la bonne audience et à grande échelle. Contrairement aux parcours en temps réel, ces campagnes par lots traitent les segments et les profils d’audience ensemble, ce qui les rend idéales pour les initiatives marketing planifiées et pilotées par les données. Vous découvrirez comment des activités telles que la segmentation d’audience, les transitions et les tables de travail fonctionnent ensemble pour créer des workflows transparents. Vous découvrirez ainsi en quoi les campagnes orchestrées diffèrent des parcours, comment configurer les données à des fins de personnalisation, créer et lancer des campagnes et optimiser les performances, le tout dans une zone de travail visuelle intuitive. Préparez-vous à faire passer votre automatisation du marketing au niveau supérieur.
+Les campagnes orchestrées dans Adobe Journey Optimizer vous permettent de concevoir et d’exécuter des campagnes marketing sophistiquées et à plusieurs étapes, qui diffusent le message approprié à la bonne audience et à grande échelle. Contrairement aux parcours en temps réel, ces campagnes par lots traitent les segments et les profils d’audience ensemble, ce qui les rend idéales pour les initiatives marketing planifiées et pilotées par les données. Vous découvrirez comment des activités telles que la segmentation d’audience, les transitions et les tables de travail fonctionnent ensemble pour créer des workflows rationalisés. Vous découvrirez ainsi en quoi les campagnes orchestrées diffèrent des parcours, comment configurer les données à des fins de personnalisation, créer et lancer des campagnes et optimiser les performances, le tout dans une zone de travail visuelle intuitive. Préparez-vous à faire passer votre automatisation du marketing au niveau supérieur.
 
 ## Vue d’ensemble des campagnes orchestrées
 
@@ -44,7 +44,7 @@ Découvrez les contraintes et les limites à prendre en compte lors de l’utili
 
 Configuration des données pour les campagnes orchestrées
 
-Configurez des schémas relationnels, des jeux de données et des canaux pour vous assurer que les données sont prêtes pour les campagnes orchestrées.
+Configurez des schémas, des jeux de données et des canaux basés sur des modèles pour garantir la préparation des données pour les campagnes orchestrées.
 
 [Explorer la configuration des données](data-configuration-landing-page.md)
 :::
@@ -84,4 +84,4 @@ Découvrez les activités de ciblage, de canal et de contrôle de flux disponibl
 ## Ressources supplémentaires
 
 - **[Questions fréquentes](../using/orchestrated/orchestrated-campaigns-faq.md)** - Explorez les questions fréquentes sur les campagnes orchestrées par Adobe Journey Optimizer.
-.
+

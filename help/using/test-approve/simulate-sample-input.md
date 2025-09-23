@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 03b22446ee06b5a6c20145c4b9abed95ac24e8bb
+source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,10 @@ Tous les attributs utilisés dans votre contenu pour la personnalisation sont au
 
 Avant de commencer à tester votre contenu à l’aide des exemples de données d’entrée, tenez compte des mécanismes de sécurisation et des conditions préalables suivants.
 
-* **Canaux** : la simulation des variations de contenu n’est disponible que pour les canaux E-mail, SMS et Notification push.
+* **Canaux** - La simulation de variations de contenu est disponible pour :
+
+   * les canaux E-mail, SMS et Notification push ;
+   * tous les canaux entrants (web, expérience basée sur le code, in-app, cartes de contenu).
 
 * **Fonctionnalités prises en charge** : les variations de contenu peuvent être utilisées avec le contenu multilingue [!DNL Journey Optimizer] et des fonctionnalités d’expérience de contenu. Vous pouvez ainsi tester les messages dans plusieurs langues et optimiser le contenu grâce à l’expérimentation.
 
@@ -42,7 +45,7 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 
   >[!NOTE]
   >
-  >Pour l’instant, le rendu de la boîte de réception et les rapports de spam ne sont pas disponibles dans l’expérience actuelle. Pour utiliser ces fonctionnalités, sélectionnez le bouton **[!UICONTROL Simuler le contenu]** de votre contenu pour accéder à l’interface d’utilisation précédente.
+  >Pour l’instant, l’inbox rendering et les rapports de spam ne sont pas disponibles dans l’expérience actuelle. Pour utiliser ces fonctionnalités, sélectionnez le bouton **[!UICONTROL Simuler le contenu]** de votre contenu pour accéder à l’interface d’utilisation précédente.
 
 * **Attributs** : les attributs de profil et contextuels sont pris en charge.
 

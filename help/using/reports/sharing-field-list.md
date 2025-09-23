@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 54%
+source-wordcount: '601'
+ht-degree: 53%
 
 ---
 
@@ -77,11 +77,11 @@ En savoir plus sur les eventTypes [dans cette section](#discarded-events).
 Cette catégorie contient les champs d’événement d’étape d’origine. Reportez-vous à cette [section](../reports/sharing-legacy-fields.md).
 
 
-## Résolution des problèmes liés aux types d’événements ignorés dans parcours_step_events  {#discarded-events}
+## Résolution des problèmes liés aux types d’événements ignorés dans les événements d’étape de Parcours  {#discarded-events}
 
-Lors de l’interrogation de parcours_step_events pour les enregistrements avec `eventCode = 'discard'`, vous pouvez rencontrer plusieurs eventTypes.
+Lors de l’interrogation d’événements d’étape de parcours pour des enregistrements avec `eventCode = 'discard'`, vous pouvez rencontrer plusieurs eventTypes.
 
-Vous trouverez ci-dessous des définitions, des causes courantes et des étapes de dépannage pour les types d’événements de rejet les plus fréquents :
+Vous trouverez ci-dessous des définitions, des causes courantes et des étapes de dépannage pour les `eventTypes` d’élimination les plus fréquentes :
 
 * EXTERNAL_KEY_COMPUTATION_ERROR : le système n’a pas pu calculer un identifiant unique (clé externe) pour le client à partir des données d’événement.
 Causes courantes : identifiants de client manquants ou incorrects (par exemple, e-mail, ID de client) dans la payload d’événement.

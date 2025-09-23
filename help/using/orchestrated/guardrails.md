@@ -5,7 +5,7 @@ title: Mécanismes de sécurisation et limitations des campagnes orchestrées
 description: En savoir plus sur les mécanismes de sécurisation et les limitations des campagnes orchestrées
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 1addd3386bfbfffaa63fb7a903738328f6f8082e
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 70%
@@ -33,7 +33,7 @@ Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lo
 
 * Le nombre moyen d’attributs par schéma **ne doit pas dépasser 50 colonnes** afin de maintenir la facilité de gestion et les performances.
 
-* Les schémas relationnels ne peuvent pas être activés pour Adobe Experience Platform **Profils**. Seuls les schémas XDM standard sont pris en charge pour les **profils** Adobe Experience Platform. Les schémas relationnels peuvent être activés pour les campagnes orchestrées ou les campagnes d’action. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Les schémas basés sur des modèles ne peuvent pas être activés pour les **profils** Adobe Experience Platform. Seuls les schémas XDM standard sont pris en charge pour les **profils** Adobe Experience Platform. Les schémas basés sur des modèles peuvent être activés pour les campagnes orchestrées ou les campagnes d’action. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingestion de données
 

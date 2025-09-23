@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1095'
 ht-degree: 5%
 
 ---
 
 # Suivre vos expériences {#monitor}
-
->[!BEGINSHADEBOX]
-
-* [Prise en main du Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [Utilisation des données dans l’IA avec Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Bonnes pratiques relatives à Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* **[Surveiller les expériences](experiment-accelerator-monitor.md)**
-* [Mesures d’expérimentation](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 L’onglet **[!UICONTROL Expériences]** centralise le suivi et l’analyse des tests de Adobe Journey Optimizer et d’Adobe Target. Vous pouvez afficher toutes les expériences, passer en revue les KPI et filtrer ou rechercher des tests spécifiques.
 
@@ -101,7 +90,7 @@ Une fois la configuration de votre **[!UICONTROL hypothèse]** terminée, vous o
 
 Le widget **[!UICONTROL Effet d’expérience]** fournit une vue détaillée de la manière dont votre expérience a influencé les segments d’audience ciblés. Il présente des indicateurs clés de performance qui vous aident à évaluer l’engagement et le comportement, notamment :
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Visiteurs]** : nombre total de visiteurs et visiteuses uniques exposés à l’expérience.
 
@@ -111,11 +100,11 @@ Vous pouvez également afficher un instantané en temps réel des performances d
 
 * **[!UICONTROL Effet élévateur sur la ligne de base]** : mesure l’amélioration en pourcentage du traitement principal par rapport au contrôle ou à la ligne de base.
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 Au bas du widget, vous pouvez trouver un résumé concis de la configuration de votre expérience, notamment :
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Nombre de traitements]** : nombre total de variations testées.
 
@@ -158,7 +147,7 @@ Notez que pour que des opportunités d’expérience soient générées, vous de
 
    Pour les expériences provenant de **[!DNL Adobe Target]**, les modifications suggérées seront plutôt chargées dans le workflow d’expérimentation de **[!DNL Adobe Target]**.
 
-   ➡️ [En savoir plus dans la documentation Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/activities/abtest/test-ab)
+   ➡️ [En savoir plus dans la documentation Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Dans la vue d’expérience, les mêmes IA **[!UICONTROL Opportunités d’expérimentation]** que celles affichées par le Journey Optimizer Experimentation Accelerator sont accessibles.
 
@@ -174,7 +163,7 @@ Le tableau **[!UICONTROL Résultats]** fournit une répartition détaillée des 
 
 * **[!UICONTROL Lieu]** : position de classement du traitement en fonction des performances indiquant sa comparaison avec d’autres traitements.
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 
