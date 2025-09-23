@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
+source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
 workflow-type: tm+mt
-source-wordcount: '3097'
-ht-degree: 67%
+source-wordcount: '3111'
+ht-degree: 66%
 
 ---
 
@@ -237,7 +237,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 * **Autorisations des politiques d’approbation**
 Ajout d’une option lors de la création ou de la définition de la stratégie d’approbation pour empêcher les créateurs de Parcours/Campaign de valider leurs propres objets.
-
+<!-->
 * **Nouvelles alertes de Parcours**\
   De nouvelles alertes préconfigurées sont disponibles pour les parcours :
 
@@ -246,6 +246,7 @@ Ajout d’une option lors de la création ou de la définition de la stratégie 
    * Taux d’erreurs de profil dépassé : ratio de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil.
 
   Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours par rapport à la situation mondiale.
+-->
 
 * **Les paramètres de corps JSON imbriqués sont désormais pris en charge dans l’authentification personnalisée**\
   Lors de la configuration de l’authentification personnalisée pour une action personnalisée, les objets JSON imbriqués (par exemple, les sous-objets dans `bodyParams`) sont désormais pris en charge.
@@ -258,9 +259,9 @@ Ajout d’une option lors de la création ou de la définition de la stratégie 
 * **Prise en charge de mTLS pour le canal SMS**
 Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification mutuelle TLS (mTLS), qui nécessite que le client et le serveur confirment l’identité de l’un et l’autre avant qu’une connexion sécurisée ne soit établie.
 
-<!--* **Model-based Schemas**  
-  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
--->
+
+* **Schémas basés sur des modèles**\
+  Les schémas relationnels sont désormais appelés schémas basés sur des modèles dans les campagnes orchestrées.
 
 * **Prise en charge de la recherche de jeux de données dans parcours**\
   Une nouvelle activité dans les parcours, **Recherche de jeu de données**, vous permet de récupérer dynamiquement les données des jeux de données d’enregistrement Adobe Experience Platform au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas se trouver dans la payload de profil ou d’événement, en veillant à ce que vos interactions client soient à la fois pertinentes et opportunes.
