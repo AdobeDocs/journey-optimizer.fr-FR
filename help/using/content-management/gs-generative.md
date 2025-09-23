@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
 
 L’Assistant IA dans Adobe Journey Optimizer, optimisé par Microsoft Azure OpenAI et Adobe Firefly, offre des suggestions de variations de contenu proactives pour le texte et les images. Cette nouvelle fonctionnalité permet la **génération de texte et d’images basée sur des prompts**. La génération d’images est gérée avec Adobe Firefly.
 
-L’assistant d’IA prend en charge la génération **dans plusieurs langues** ce qui vous permet d’atteindre et d’impliquer diverses audiences internationales. L’assistant AI est disponible dans les langues suivantes :
+L’Assistant IA prend en charge la génération **dans plusieurs langues**, ce qui vous permet d’atteindre diverses audiences internationales et d’interagir avec elles. L’Assistant IA est disponible dans les langues suivantes :
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>

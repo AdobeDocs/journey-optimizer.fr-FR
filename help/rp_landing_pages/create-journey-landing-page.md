@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_20-07-02
 version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 

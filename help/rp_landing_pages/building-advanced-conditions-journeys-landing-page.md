@@ -6,9 +6,9 @@ description: Créer des expressions
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Accédez à un guide complet des fonctions pour la manipulation des données, l�
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
-Exemples de requêtes sur les jeux de données Journey Optimizer et les cas d’utilisation associés
+Exemples de requêtes sur les jeux de données Journey Optimizer et les cas d’utilisation associés
 
 Accédez à des exemples de requêtes SQL pratiques pour analyser et gérer les données dans les jeux de données Journey Optimizer pour divers cas d’utilisation.
 

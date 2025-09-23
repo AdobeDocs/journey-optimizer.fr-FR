@@ -6,17 +6,17 @@ description: Canal e-mail
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Canal e-mail{#section-overview}
 
-Le canal e-mail d’Adobe Journey Optimizer vous permet de concevoir, de configurer et de diffuser des campagnes par e-mail percutantes avec précision et créativité. Que vous créiez des messages personnalisés avec le Designer intuitif d’e-mail, configuriez des parcours et des campagnes d’e-mail sophistiqués ou gériez des désinscriptions pour la conformité, ce canal rassemble tous les aspects du marketing par e-mail sous un même toit. Commencez par configurer le canal e-mail pour une délivrabilité et une personnalisation optimales, puis explorez les outils permettant de créer du contenu dynamique qui trouve un écho auprès de votre audience. Explorez en détail des sujets avancés tels que la gestion de la réputation des expéditeurs et la conformité de DMARC pour vous assurer que vos e-mails arrivent à destination. De la configuration transparente à la conception efficace et à la diffusion stratégique, le canal e-mail vous permet de transformer votre marketing par e-mail en un moteur fiable et axé sur les données pour l’engagement de la clientèle.
+Le canal e-mail d’Adobe Journey Optimizer vous permet de concevoir, de configurer et de diffuser des campagnes par e-mail percutantes avec précision et créativité. Que vous créiez des messages personnalisés avec le concepteur intuitif d’e-mail, configuriez des parcours et des campagnes d’e-mail sophistiqués ou gériez des opt-out pour la conformité, ce canal rassemble tous les aspects du marketing par e-mail. Commencez par configurer le canal e-mail pour une délivrabilité et une personnalisation optimales, puis explorez les outils permettant de créer du contenu dynamique qui trouve un écho auprès de votre audience. Explorez en détail des sujets avancés tels que la gestion de la réputation des expéditeurs et expéditrices ainsi que la conformité DMARC pour vous assurer que vos e-mails arrivent à destination. De la configuration transparente à la conception efficace et à la diffusion stratégique, le canal e-mail vous permet de transformer votre marketing par e-mail en un moteur fiable et axé sur les données pour l’engagement de la clientèle.
 
-Les diffusions d’e-mails peuvent être créées :
+Les diffusions d’e-mail peuvent être créées :
 
 * Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du message. [Découvrez comment créer un parcours.](../using/building-journeys/journey-gs.md)
 

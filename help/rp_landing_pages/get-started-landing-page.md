@@ -6,9 +6,9 @@ description: Commencer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -72,9 +72,9 @@ Utilisez les fonctionnalités de recherche, de filtrage et de balisage pour gér
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
-Mécanismes de sécurisation et limites dans Adobe Journey Optimizer
+Mécanismes de sécurisation et limitations dans Adobe Journey Optimizer
 
-Découvrez les contraintes et les pratiques recommandées pour une utilisation efficace des fonctionnalités de Adobe Journey Optimizer.
+Découvrez les contraintes et les pratiques recommandées pour une utilisation efficace des fonctionnalités d’Adobe Journey Optimizer.
 
 [Découvrir les concepts de base](../using/start/guardrails.md)
 :::
@@ -84,9 +84,9 @@ Découvrez les contraintes et les pratiques recommandées pour une utilisation e
 
 ## Ressources supplémentaires
 
-- **[Découvrez les concepts de base](../using/start/functional-areas-redpen.md)** - Découvrez les principaux domaines fonctionnels de Adobe Journey Optimizer et comment ils fonctionnent ensemble pour optimiser les parcours client.
+- **[Découvrir les concepts de base](../using/start/functional-areas-redpen.md)** : découvrez les principaux domaines fonctionnels d’Adobe Journey Optimizer et la façon dont ils fonctionnent ensemble pour optimiser les parcours clients.
 - **[Terminologie clé d’Adobe Journey Optimizer](../using/start/terminology-md-redpen.md)** : découvrez les termes et concepts essentiels pour utiliser Adobe Journey Optimizer en toute confiance et mettre en œuvre efficacement vos stratégies marketing.
 - **[Fonctionnalités d’accessibilité dans Adobe Journey Optimizer](../using/start/accessibility.md)** : découvrez les fonctionnalités d’accessibilité et la conformité aux normes WCAG pour garantir l’inclusivité de vos utilisateurs et utilisatrices.
 - **[Prise en main de l’Assistant IA dans Adobe Journey Optimizer](../using/start/ai-assistant.md)** : tirez parti de l’Assistant IA pour parcourir les concepts et obtenir des informations opérationnelles dans Adobe Journey Optimizer.
-- **[Dépannage](../using/start/troubleshooting.md)** - Chaque section de dépannage fournit des réponses aux questions les plus fréquemment posées ainsi que des solutions aux problèmes.
+- **[Dépannage](../using/start/troubleshooting.md)** : chaque section de dépannage fournit des réponses aux questions les plus fréquemment posées ainsi que des solutions aux problèmes.
 

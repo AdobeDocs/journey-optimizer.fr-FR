@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -50,14 +50,14 @@ Les fonctionnalités principales sont les suivantes :
 
 * **Informations sur le client et engagement en temps réel** : un profil intégré fusionne les données actives de toutes les sources entre les points de contact des clients, y compris les données comportementales, transactionnelles, financières et opérationnelles afin d&#39;optimiser les expériences personnelles et contextuelles des clients en temps réel.
 
-* **Exécution et orchestration omnicanal modernes** : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour 1:1 l’engagement client et la sensibilisation marketing, afin d’aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux.
+* **Exécution et orchestration omnicanales modernes** : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour l’engagement client 1:1 et la portée marketing, afin d&#39;aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie client. Les parcours clients conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements pour permettre aux marques de réagir aux signaux en temps réel et d’associer ces interactions à des campagnes planifiées. Cela permet de prendre les bonnes décisions concernant les communications à envoyer à un client ou une cliente, le moment et les canaux à utiliser.
 
 * **Prise de décision et personnalisation intelligentes** : les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et le machine learning pour rechercher des informations prédictives tout au long de l’expérience du client ou de la cliente, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. La prise de décisions alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer].
 
 
 >[!NOTE]
 >
->* Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable du succès client Adobe ou votre représentant ou représentante Adobe.
+>* Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licences](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable du succès client Adobe ou votre représentant ou représentante Adobe.
 >
 >* Les lignes directrices et procédures générales d&#39;Adobe Experience Cloud sur la protection des données personnelles s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html){target="_blank"}.
 
@@ -77,11 +77,11 @@ Les fonctionnalités et services principaux de Journey Optimizer fonctionnent �
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
 
-### Plans directeurs Adobe Journey Optimizer
+### Plans directeur d’Adobe Journey Optimizer
 
-Les plans directeurs d’expérience digitale fournissent des diagrammes d’architecture du système et des flux de données pour aider à mieux comprendre comment Adobe Experience Platform et les applications sont intégrées et mises en œuvre. Les plans directeurs fournissent une représentation visuelle des données et des flux de contenu entre les systèmes et les composants, de la séquence des opérations et des dépendances afin de contribuer à la conception des cas d’utilisation et à l’architecture de Adobe Experience Platform et des applications.
+Les plans directeurs d’expérience digitale fournissent des diagrammes d’architecture du système et des flux de données pour permettre de mieux comprendre la façon dont Adobe Experience Platform et les applications sont intégrées et mises en œuvre. Les plans directeurs fournissent une représentation visuelle des flux de contenu et de données entre les systèmes et les composants, de la séquence des opérations et des dépendances afin de contribuer à la conception et à l’architecture des cas d’utilisation d’Adobe Experience Platform et des applications.
 
-Voir [Plans directeurs Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Voir [Plans directeurs d’Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
 
 
 >[!MORELIKETHIS]
@@ -90,4 +90,4 @@ Voir [Plans directeurs Adobe Journey Optimizer](https://experienceleague.adobe.c
 >* [Concevoir des parcours et envoyer des messages](../building-journeys/journey-gs.md)
 >* [Rapports dynamiques](../reports/live-report.md)
 >* [Vue d’ensemble de la sécurité de Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
->* Description du produit [Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}
+>* [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

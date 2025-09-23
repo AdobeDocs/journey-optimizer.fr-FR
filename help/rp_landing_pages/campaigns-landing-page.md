@@ -6,15 +6,15 @@ description: Campagnes
 redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # Campagnes{#section-overview}
 
-Les campagnes dans Adobe Journey Optimizer vous permettent de diffuser des messages personnalisés, opportuns et percutants sur l’ensemble des canaux, afin d’engager votre audience plus efficacement. Que vous planifiiez un e-mail promotionnel unique, automatisiez les messages transactionnels en temps réel ou orchestriez des parcours complexes à plusieurs étapes, il existe un type de campagne adapté à vos besoins. Cette section présente les trois principaux types de campagne : campagnes d’action, campagnes déclenchées par API et campagnes orchestrées, en mettant en évidence leurs points forts spécifiques et leurs cas d’utilisation. Vous découvrirez également les blocs de création essentiels tels que les autorisations, la configuration des audiences et les configurations de canal, afin de vous assurer que vous avez tout en place pour créer et gérer des campagnes qui trouvent un écho auprès de vos clients.
+Les campagnes dans Adobe Journey Optimizer vous permettent de diffuser des messages personnalisés, opportuns et percutants sur l’ensemble des canaux, afin d’engager votre audience plus efficacement. Que vous planifiiez un e-mail promotionnel unique, automatisiez les messages transactionnels en temps réel ou orchestriez des parcours complexes à plusieurs étapes, il existe un type de campagne adapté à vos besoins. Cette section présente les trois principaux types de campagne : campagnes d’action, campagnes déclenchées par API et campagnes orchestrées, en mettant en évidence leurs points forts spécifiques et leurs cas d’utilisation. Vous découvrirez également les blocs de création essentiels tels que les autorisations, la configuration des audiences et les configurations de canal, afin de vous assurer que vous disposez de tous les éléments nécessaires pour créer et gérer des campagnes qui trouvent un écho auprès de vos clientes et clients.
 
 ## Vue d’ensemble des campagnes
 
