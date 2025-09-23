@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le 
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-➡️ [Découvrir les campagnes orchestrées en vidéo](#video-oc)
+➡️ [Découvrir les campagnes orchestrées dans une vidéo](#video-oc)
 
 ## Fonctionnalités principales
 
@@ -52,7 +52,7 @@ Prise en charge de l’envoi à plusieurs niveaux, qui permet d’envoyer un mes
 
 >[!NOTE]
 >
->Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifications push](../push/get-started-push.md).
+>Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifications push](../push/get-started-push.md).
 >
 >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
@@ -83,7 +83,7 @@ Chaque campagne orchestrée contient :
 * **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque campagne orchestrée utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la campagne orchestrée.
 
 
-## Vidéo d’introduction {#video-oc}
+## Vidéo de présentation {#video-oc}
 
 Découvrez les concepts et fonctionnalités clés disponibles dans les campagnes orchestrées.
 
