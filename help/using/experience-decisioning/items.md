@@ -79,7 +79,7 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="Ajouter des audiences ou des règles de décision"
->abstract="Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement.
+>abstract="Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement."
 
 <!--
 >"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
