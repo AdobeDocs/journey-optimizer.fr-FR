@@ -12,9 +12,9 @@ badge: label="Disponibilité limitée" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
+source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1575'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ Pour capturer des données de profil avec vos pages de destination [!DNL Journey
 >id="ajo_lp_form_connection"
 >title="Sélectionner le point d’entrée à utiliser"
 >abstract="Définissez le point d’entrée de diffusion en continu où les données sont envoyées lors de l’envoi du formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion en continu d’API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion en continu d’API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Lors de la création d’un paramètre prédéfini :
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur la création d’une connexion source par flux, consultez la documentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Pour en savoir plus sur la création d’une connexion source par flux, consultez la documentation d’[Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Sélectionnez un **[!UICONTROL Jeu de données]** à lier au formulaire. C’est là que les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
 
@@ -93,7 +93,7 @@ Tous les formulaires existants s’affichent. Vous pouvez filtrer les formulaire
 >id="ajo_lp_form_preset"
 >title="Sélection d’un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Création d’un paramètre prédéfini de formulaire"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Création d’un paramètre prédéfini de formulaire"
 
 Pour créer un formulaire, procédez comme suit.
 
@@ -107,39 +107,57 @@ Pour créer un formulaire, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Créer]**. Le concepteur de formulaire s’ouvre, ce qui vous permet d’ajouter des structures et du contenu [composants](../email/content-components.md#add-content-components) pour créer votre contenu. Vous pouvez utiliser les composants [Texte](../email/content-components.md#text) et **[!UICONTROL Champ]**.
 
-1. Pour ajouter des champs spécifiques à votre formulaire, faites glisser et déposez une structure dans la zone de travail, puis faites glisser un composant **[!UICONTROL Champ]** à l’intérieur.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
+1. Pour capturer les données et les attributs de profil, ajoutez des champs spécifiques à votre formulaire. [En savoir plus](#define-fields)
 
-   ![](assets/lp_create-form-field.png)
+1. Configurez et concevez ces champs. [En savoir plus](#configure-fields)
 
-   Sélectionnez ensuite l’une des options suivantes :
+1. Vous pouvez ajuster la disposition, le style et les dimensions du formulaire selon vos besoins à l’aide du volet **[!UICONTROL Styles]**. [En savoir plus sur le style](../email/get-started-email-style.md)
 
-   >[!BEGINTABS]
+1. Une fois tous les champs configurés, cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 
-   >[!TAB Sélectionner l’attribut de champ]
+1. Configurez la page de remerciement. [Voici comment procéder](#thank-you-page)
 
-   Utilisez cette option pour sélectionner un attribut en fonction du schéma du jeu de données lié à votre formulaire.
+1. **[!UICONTROL Publier]** le formulaire pour qu’il puisse être sélectionné dans les pages de destination.
 
-   >[!NOTE]
-   >
-   >Le jeu de données est défini dans le paramètre prédéfini sélectionné pour votre formulaire. [En savoir plus](#create-form-preset)
+### Définition de champs spécifiques {#define-fields}
 
-   ![](assets/lp_select-field-attribute.png){width=100%}
+Pour ajouter des champs spécifiques à votre formulaire, faites glisser et déposez une structure dans la zone de travail, puis faites glisser un composant **[!UICONTROL Champ]** à l’intérieur.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-   Par exemple, vous pouvez définir l’adresse e-mail et l’ID de personne. Lorsque les utilisateurs renseignent ces champs, les informations saisies sont enregistrées dans le jeu de données sélectionné.
+![](assets/lp_create-form-field.png)
 
-   ![](assets/lp_create-form-field-attributes.png){width=55%}
+Sélectionnez ensuite l’une des options suivantes :
 
-   Pour mapper les données collectées avec un profil, sélectionnez un champ d’identité de profil. Les champs d’identité sont marqués comme **[!UICONTROL Obligatoires]** dans la liste des attributs. Vous pouvez les filtrer.
+>[!BEGINTABS]
 
-   ![](assets/lp_create-form-required-attributes.png){width=65%}
+>[!TAB Sélectionner l’attribut de champ]
 
-   >[!TAB Ajouter un champ personnalisé]
+Utilisez cette option pour sélectionner un attribut en fonction du schéma du jeu de données lié à votre formulaire.
 
-   Avec cette option, vous pouvez simplement définir un champ libre sans le mapper à un champ du jeu de données lié.
+>[!NOTE]
+>
+>Le jeu de données est défini dans le paramètre prédéfini sélectionné pour votre formulaire. [En savoir plus](#create-form-preset)
 
-   ![](assets/lp_create-form-custom-field.png){width=85%}
+![](assets/lp_select-field-attribute.png){width=100%}
 
-   >[!ENDTABS]
+Par exemple, vous pouvez définir l’adresse e-mail et l’ID de personne. Lorsque les utilisateurs renseignent ces champs, les informations saisies sont enregistrées dans le jeu de données sélectionné.
+
+![](assets/lp_create-form-field-attributes.png){width=55%}
+
+Pour mapper les données collectées avec un profil, sélectionnez un champ d’identité de profil. Les champs d’identité sont marqués comme **[!UICONTROL Obligatoires]** dans la liste des attributs. Vous pouvez les filtrer.
+
+![](assets/lp_create-form-required-attributes.png){width=65%}
+
+>[!TAB Ajouter un champ personnalisé]
+
+Avec cette option, vous pouvez simplement définir un champ libre sans le mapper à un champ du jeu de données lié.
+
+![](assets/lp_create-form-custom-field.png){width=85%}
+
+>[!ENDTABS]
+
+### Configuration et conception d’un champ {#configure-fields}
+
+Une fois que vous avez sélectionné un attribut de champ ou ajouté un champ personnalisé, vous pouvez ajuster ses détails ainsi que son comportement lors de l’envoi du formulaire.
 
 1. Dans la section **[!UICONTROL Détails du champ]** de l’onglet **[!UICONTROL Contenu]** à droite, vous pouvez spécifier les éléments suivants selon vos besoins :
 
@@ -166,14 +184,6 @@ Pour créer un formulaire, procédez comme suit.
    * Sélectionnez **[!UICONTROL Activer le masque de saisie]** pour remplacer les entrées des utilisateurs par des caractères génériques. Vous pouvez utiliser *9* pour signifier n’importe quel nombre, *a* pour signifier n’importe quelle lettre ou * pour signifier n’importe quel nombre ou lettre.<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
-
-1. Vous pouvez ajuster la disposition, le style et les dimensions du formulaire selon vos besoins à l’aide du volet **[!UICONTROL Styles]**. [En savoir plus sur le style](../email/get-started-email-style.md)
-
-1. Une fois tous les champs configurés, cliquez sur **[!UICONTROL Enregistrer et fermer]**.
-
-1. Configurez la page de remerciement. [Voici comment procéder](#thank-you-page)
-
-1. **[!UICONTROL Publier]** le formulaire pour qu’il puisse être sélectionné dans les pages de destination.
 
 ### Configuration de la page de remerciement {#thank-you-page}
 
