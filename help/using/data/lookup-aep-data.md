@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 16%
+source-wordcount: '757'
+ht-degree: 17%
 
 ---
 
@@ -55,15 +55,6 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 >[!NOTE]
 >
 >Si des volumes supplémentaires sont nécessaires au-delà des mécanismes de sécurisation répertoriés ci-dessus, contactez votre représentant Adobe.
-
-### Considérations supplémentaires sur les performances
-
-Les recommandations ci-dessous sont des conseils pour éviter les retards dans la délivrabilité :
-
-| Considération | Limite recommandée | Description |
-| ------- | ------- | ------- |
-| Attributs par recherche | Jusqu’à 20 | Nombre de champs de données récupérés par enregistrement dans une seule activité de recherche. |
-| Activités de recherche | Jusqu&#39;à 5 par parcours | Chaque parcours peut contenir jusqu’à 5 activités de recherche distinctes. Chaque recherche peut cibler un jeu de données différent. |
 
 ## Activer un jeu de données pour la recherche de données {#enable}
 
