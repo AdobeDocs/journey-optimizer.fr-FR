@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 100%
+source-wordcount: '1444'
+ht-degree: 90%
 
 ---
 
@@ -138,18 +138,19 @@ En savoir plus sur les types de parcours et la gestion des entrées associées s
 
 Le statut du parcours dépend de son cycle de vie. Il peut s’agir des éléments suivants :
 
-* **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouvelles personnes. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
 * **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
-* **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**.
+* **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**. [En savoir plus](../building-journeys/testing-the-journey.md)
 * **Terminé** : le parcours passe automatiquement à ce statut après la [temporisation globale](journey-properties.md#global_timeout) de 91 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
-* **Actif** : le parcours a été publié à l’aide du bouton **Publier**.
-* **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours.
+* **En direct** : le parcours a été publié à l’aide du bouton **Publier**. [En savoir plus](../building-journeys/publishing-the-journey.md)
+* **En pause** : le parcours dynamique a été mis en pause, à l’aide du bouton **Pause**. [En savoir plus](../building-journeys/journey-pause.md)
+* **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Tous les individus quittent instantanément le parcours. [En savoir plus](../building-journeys/end-journey.md#stop-a-journey)
+* **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouvelles personnes. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 >[!NOTE]
 >
->* Le cycle de vie de création d’un parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
+>* Le cycle de vie de création d’un Parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : **Publication** (entre « Brouillon » et « Actif »), **Activation du mode test** ou **Désactivation du mode test** (entre **Brouillon** et **Brouillon (test)**), **Stopping** (entre **Live** et **Stopped**), **Reprise** (entre **Paused** et **Live**), **Pausing** (entre **Live** et **Paused**) lorsqu’un parcours est actif dans un état intermédiaire, il est en lecture seule.
 >
->* Si vous devez apporter des modifications à un parcours **publié**, vous devez en [créer une nouvelle version](#journey-versions).
+>* Si vous devez apporter des modifications à un parcours **en ligne**, [créez une nouvelle version](#journey-versions) de votre parcours. Vous pouvez également suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment. [En savoir plus sur la suspension des parcours ](../building-journeys/journey-pause.md)
 
 
 ## Dupliquer un parcours {#duplicate-a-journey}
