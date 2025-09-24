@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 56fa96e7da6352fb8e0c658ced8950c011f65c9e
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1794'
 ht-degree: 44%
 
 ---
@@ -197,9 +197,7 @@ Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez dés
 
 ### Bientôt disponible {#sept-25-9-soon}
 
-Les fonctionnalités et améliorations suivantes sont prévues pour les jours à venir.
-
-**Le contenu ci-dessous peut être modifié sans préavis**. Les liens, les écrans et la documentation mise à jour sont publiés lorsque ces fonctionnalités et améliorations sont publiées dans les environnements de production.
+La publication des fonctionnalités et améliorations suivantes est prévue dans les prochains jours. **Les informations peuvent faire l’objet de modifications**. Les liens, écrans et documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
 
 <table>
 <thead>
@@ -276,7 +274,7 @@ Les fonctionnalités et améliorations suivantes sont prévues pour les jours à
 <p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Pour plus d’informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +308,15 @@ Les fonctionnalités et améliorations suivantes sont prévues pour les jours à
 * **Nouvelles alertes de Parcours**\
   De nouvelles alertes préconfigurées sont disponibles pour les parcours :
 
-   * [Taux de rejet du profil dépassé](../reports/alerts.md#profile-discard-rate-exceeded) : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil.
-   * [Taux d’erreurs d’action personnalisée dépassé](../reports/alerts.md#custom-action-error-rate-exceeded) : ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes qui a dépassé le seuil.
-   * [Taux d’erreur de profil dépassé](../reports/alerts.md#profile-error-rate-exceeded) : ratio de profils en erreur par rapport aux profils saisis au cours des 5 dernières minutes qui a dépassé le seuil.
+   * Taux de rejet du profil dépassé : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil.
+   * Taux d’erreurs d’action personnalisée dépassé : ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes qui a dépassé le seuil.
+   * Taux d’erreurs de profil dépassé : ratio de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil.
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours par rapport à la situation mondiale.
+Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours par rapport à la situation mondiale.
 
 
 * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic**\
