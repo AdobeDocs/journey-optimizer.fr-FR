@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 10fb1975aa5dcab1ad7f39815fcc5dd5ef0c187d
+source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 55%
+source-wordcount: '1806'
+ht-degree: 44%
 
 ---
 
@@ -28,69 +28,6 @@ ht-degree: 55%
 **Date de publication** : 23-24 septembre 2025
 
 ### Nouvelles fonctionnalités {#sept-25-9-features}
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>Public API to retrieve journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>New Web Push notifications channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
-<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Custom action monitoring and reporting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Custom action monitoring and reporting is now available. This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>New source connectors for loyalty apps</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary, and Kobie loyalty apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-
 
 <table>
 <thead>
@@ -113,48 +50,6 @@ ht-degree: 55%
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Landing page custom forms</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
-<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>PDF attachments to emails</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now attach a static PDF file to an email message sent with Journey Optimizer.</p>
-<ul>
-<li>You can send up to 6 messages with a PDF attachement per profile per year.</li>
-<li>The maximum allowed file size for each attachment is 5 MB.</li>
-<li>For any additional size or volume, you can purchase the PDF Attachments add-on. For more details, contact your Adobe representative.</li>
-</ul>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
@@ -257,30 +152,15 @@ ht-degree: 55%
 </tbody>
 </table>
 
-### Améliorations
+
+### Améliorations {#sept-25-9-improvements}
 
 * **Autorisations des politiques d’approbation**
 Ajout d’une option lors de la création ou de la définition de la stratégie d’approbation pour empêcher les créateurs de Parcours/Campaign de valider leurs propres objets. [En savoir plus](../test-approve/approval-policies.md)
 
-<!--
-* **New Journey Alerts**  
-  New pre-configured alerts are available for journeys:
-
-  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
-  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
-  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
-
-  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
--->
-
 * **Les paramètres de corps JSON imbriqués sont désormais pris en charge dans l’authentification personnalisée**\
   Lors de la configuration de l’authentification personnalisée pour une action personnalisée, les objets JSON imbriqués (par exemple, les sous-objets dans `bodyParams`) sont désormais pris en charge. [En savoir plus](../datasource/external-data-sources.md#custom-authentication-mode)
 
-<!--
-* **Custom attributes support with One-click unsubscribe URL**  
-  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
-
-  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.-->
 
 * **Prise en charge de mTLS pour le canal SMS**
 Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification mutuelle TLS (mTLS), qui nécessite que le client et le serveur confirment l’identité de l’un et l’autre avant qu’une connexion sécurisée ne soit établie. [En savoir plus](../sms/sms-configuration-custom.md)
@@ -296,15 +176,8 @@ Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez dés
 * **Simulation des variations de contenu pour tous les canaux entrants**\
   Auparavant uniquement disponible pour les canaux E-mail, SMS et Notification push, la simulation de variations de contenu s’applique désormais également à tous les canaux entrants. [En savoir plus](../test-approve/simulate-sample-input.md)
 
-<!--* **Webhook support for API triggered campaigns**  
-  API triggered campaigns now support webhooks. Configure a webhook URL to receive real-time status updates for every message, improving observability and enabling seamless monitoring and automation.-->
-
 * **Prise en charge de la redirection dans les actions personnalisées de Parcours**\
   Les redirections (302) sont désormais prises en charge dans les actions personnalisées de Parcours.
-
-<!--* **High throughput mode for API triggered email campaigns**  
-  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
-  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
 
 * **Demandes de désabonnement en un clic** - Nous avons introduit des améliorations qui renforcent encore la gestion des demandes de désabonnement en un clic configurées sous Gestion Adobe, en assurant un traitement fiable et cohérent.
 
@@ -321,3 +194,137 @@ Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez dés
 * **Alertes de surveillance de la configuration des canaux** : vous pouvez désormais vous abonner pour recevoir des alertes système, soit par e-mail, soit dans le centre de notifications Journey Optimizer, en cas d’erreur de configuration du canal e-mail utilisant le type de délégation de sous-domaine personnalisé. [En savoir plus](../reports/alerts.md#alert-dns-record-missing)
 
 
+
+### Bientôt disponible {#sept-25-9-soon}
+
+Les fonctionnalités et améliorations suivantes sont prévues pour les jours à venir.
+
+**Le contenu ci-dessous peut être modifié sans préavis**. Les liens, les écrans et la documentation mise à jour sont publiés lorsque ces fonctionnalités et améliorations sont publiées dans les environnements de production.
+
+<table>
+<thead>
+<tr>
+<th><strong>API publique pour récupérer les parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Une nouvelle API Journey Optimizer est désormais disponible pour récupérer les parcours et leurs objets associés tels que les campagnes et les surfaces.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nouveau canal de notifications push web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer prend désormais en charge les notifications push web, étendant le canal push au-delà des applications mobiles. Vous pouvez diffuser facilement des notifications aux navigateurs mobiles et de bureau, ce qui vous permet d’atteindre les clients directement sur leurs appareils sans avoir besoin d’une application.</p>
+<p>Cette amélioration vous permet d’interagir avec les utilisateurs et utilisatrices à l’aide de messages personnalisés et opportuns en temps réel, en exploitant les mêmes workflows de création et les mêmes fonctionnalités de ciblage que ceux déjà disponibles pour les notifications push mobiles.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Surveillance et reporting des actions personnalisées</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La surveillance et la création de rapports d’action personnalisée sont désormais disponibles. Cette fonctionnalité offre une meilleure visibilité sur l’intégrité et l’exécution du parcours, y compris le statut du cycle de vie et les alertes de performances. Vous pouvez désormais rapidement comprendre quand, où et pourquoi une situation anormale se produit dans une action personnalisée.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nouveaux connecteurs source pour les applications de fidélité</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De nouveaux connecteurs source sont désormais disponibles dans Adobe Experience Platform pour les applications de fidélité Talon.One, Capillary et Kobie. Ces connecteurs vous permettent de diffuser facilement des données de fidélité dans Adobe Experience Platform et d’exploiter ces données dans Journey Optimizer.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Formulaires personnalisés de la page de destination</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Avec [!DNL Journey Optimizer], vous pouvez désormais capturer les attributs de profil via vos pages de destination.</p>
+<p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Pièces jointes PDF aux e-mails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais joindre un fichier PDF statique à un e-mail envoyé avec Journey Optimizer.</p>
+<ul>
+<li>Vous pouvez envoyer jusqu’à 6 messages avec une pièce jointe PDF par profil et par an.</li>
+<li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
+<li>Pour toute taille ou volume supplémentaire, vous pouvez acheter le module complémentaire Pièces jointes PDF . Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
+</ul>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+* **Nouvelles alertes de Parcours**\
+  De nouvelles alertes préconfigurées sont disponibles pour les parcours :
+
+   * [Taux de rejet du profil dépassé](../reports/alerts.md#profile-discard-rate-exceeded) : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil.
+   * [Taux d’erreurs d’action personnalisée dépassé](../reports/alerts.md#custom-action-error-rate-exceeded) : ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes qui a dépassé le seuil.
+   * [Taux d’erreur de profil dépassé](../reports/alerts.md#profile-error-rate-exceeded) : ratio de profils en erreur par rapport aux profils saisis au cours des 5 dernières minutes qui a dépassé le seuil.
+
+  Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours par rapport à la situation mondiale.
+
+
+* **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic**\
+  Avec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration du courrier électronique. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
+
+  Pour personnaliser davantage l’adresse e-mail de désabonnement, vous pouvez maintenant définir des attributs personnalisés qui seront ajoutés à l’événement de consentement. Cette fonctionnalité est déjà disponible pour le lien de désabonnement en un clic personnalisé depuis la version du 25 août.
+
+* **Mode débit élevé pour les campagnes e-mail déclenchées par l’API**\
+  Un nouveau mode à débit élevé est désormais disponible dans les campagnes déclenchées par l’API. Ce mode est conçu pour la messagerie en temps réel à grande échelle (jusqu’à 5 000 transactions par seconde) et offre une disponibilité supérieure avec une latence plus faible.\
+  Cette fonctionnalité n’est disponible que pour le canal e-mail, pour les organisations qui ont acheté l’offre complémentaire de messagerie transactionnelle à haut débit Adobe . Contactez votre représentant Adobe pour plus d’informations.
+
+* **Prise en charge du Webhook pour les campagnes déclenchées par l’API**\
+  Les campagnes déclenchées par API prennent désormais en charge les Webhooks. Configurez une URL webhook pour recevoir des mises à jour en temps réel de l’état de chaque message, ce qui améliore l’observabilité et permet une surveillance et une automatisation transparentes.
