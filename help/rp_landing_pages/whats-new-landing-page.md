@@ -4,9 +4,11 @@ product: Journey Optimizer
 title: Nouveautés
 description: Nouveautés
 redpen-status: CREATED_||_2025-08-11_20-03-09
+hide: true
+hidefromtoc: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -35,7 +37,7 @@ L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB Fragment de contenu AEM]
 
