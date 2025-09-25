@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 100%
+source-wordcount: '1303'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 ## Ressource de parcours {#journey-capability}
 
-* Lʼautorisation de haut niveau **[!DNL Manage journeys]** permet aux utilisateurs et utilisatrices de créer des parcours et de modifier/supprimer des parcours existants, ainsi que dʼaccéder aux objets utilisés dans la zone de travail de parcours pour concevoir le flux du parcours.
+* **[!DNL Manage journeys]** autorisation de haut niveau permet aux utilisateurs et utilisatrices de créer des Parcours et de les modifier/supprimer/arrêter/mettre en pause, ainsi que d’accéder aux objets utilisés dans la zone de travail du parcours pour créer le flux du parcours.
 
   +++ Elle comprend les autorisations de bas niveau suivantes :  
 

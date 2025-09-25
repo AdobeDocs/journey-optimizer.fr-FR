@@ -9,10 +9,10 @@ level: Intermediate
 keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,6 @@ Vous pouvez également réaliser les opérations suivantes :
 
 Si nécessaire, il est possible d’arrêter la progression de toutes les personnes dans le parcours. L’arrêt du parcours entraîne une temporisation pour toutes les personnes présentes dans le parcours. Cependant, l’arrêt d’un parcours entraîne l’arrêt de la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt. Si vous souhaitez mettre fin à un parcours, la bonne pratique consiste [à le fermer](#close-journey).
 
-
 Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
 
 ![](assets/journey-finish-quick-action.png)
@@ -102,3 +101,7 @@ Vous pouvez également réaliser les opérations suivantes :
 1. Cliquez sur **[!UICONTROL Arrêter]** et confirmez dans la boîte de dialogue.
 
 À l’arrêt, le statut du parcours est défini sur **[!UICONTROL Arrêté]**.
+
+>[!CAUTION]
+>
+>Autorisations d’arrêt d’un parcours limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).

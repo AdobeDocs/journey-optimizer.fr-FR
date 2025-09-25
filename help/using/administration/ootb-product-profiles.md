@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 100%
+source-wordcount: '1996'
+ht-degree: 99%
 
 ---
 
@@ -106,7 +106,7 @@ Ce rôle comprend les autorisations suivantes :
 | Configurations des canaux | <ul> <li>**[!DNL Manage alerts]** : activation/désactivation des alertes pour les parcours et les droits.</li> <li>**[!DNL Manage IP pools]** : lecture, création, modification et suppression des groupes dʼadresses IP.</li> <li>**[!DNL Manage Landing page settings]** : créer, modifier et supprimer des sous-domaines de page de destination et des paramètres prédéfinis de page de destination.</li> <li>**[!DNL Manage messages general settings]** : la lecture, la création, la modification et la suppression des paramètres généraux du message.</li> <li>**[!DNL Manage messages presets]** : la lecture, la création, la modification et la suppression du branding de contenu.</li> <li>**[!DNL Manage PTR records]** : lecture et modification des enregistrements PTR.</li> <li>**[!DNL Manage SMS settings]** : création, modification et suppression des informations d’identification d’API et des configurations de canal SMS requises pour activer le canal SMS.</li> <li>**[!DNL Manage subdomains delegation]** : lecture, création, modification et suppression de la délégation de sous-domaine.</li> <li>**[!DNL Manage suppression rules]** : accès, lecture, création, modification et suppression des règles de suppression.</li> <li>**[!DNL View PTR records]** : l’accès en lecture seule aux enregistrements PTR.</li> <li>**[!DNL View suppression list]** : la lecture et lʼexport de la liste de suppression locale.</li> </ul> |
 | Gouvernance des données | <ul> <li>**[!DNL Manage data usage policies]** : lecture, création, modification et suppression des politiques dʼutilisation des données.</li> <li>**[!DNL Manage usage label]** : lecture, création et suppression des libellés d’utilisation.</li> <li>**[!DNL View data usage policies]** : accès en lecture seule aux politiques d’utilisation des données.</li> <li>**[!DNL View user activity log]** : accès en lecture seule aux journaux d’audit enregistrés des activités d’Experience Platform.</li> </ul> |
 | Gestion des décisions | <ul> <li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des décisions.</li> <li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des stratégies de classement.</li> </ul> |
-| Parcours | <ul> <li>**[!DNL Manage journeys]** : lecture, création, modification et suppression des parcours.</li> <li>**[!DNL Manage journeys events, data sources and actions]** : lecture, création, modification et suppression des événements, des sources ou des actions.</li> <li>**[!DNL Publish journeys]** : publication des parcours.</li> <li>**[!DNL View journeys report]** : lecture et modification du rapport de parcours.</li> </ul> |
+| Parcours | <ul> <li>**[!DNL Manage journeys]** : la lecture, la création, la modification, la mise en pause, l’arrêt et la suppression des parcours.</li> <li>**[!DNL Manage journeys events, data sources and actions]** : lecture, création, modification et suppression des événements, des sources ou des actions.</li> <li>**[!DNL Publish journeys]** : publication des parcours.</li> <li>**[!DNL View journeys report]** : lecture et modification du rapport de parcours.</li> </ul> |
 | Bibliothèque Journey Optimizer | <ul> <li>**[!DNL Manage Library Items]** : ajoutez et supprimez des expressions enregistrées dans la bibliothèque [!DNL Journey Optimizer].</li> </ul> |
 
 ## [!DNL Journey Approver] {#journey-approver}
@@ -120,7 +120,7 @@ Ce rôle comprend les autorisations suivantes :
 | Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]** : lecture, création, modification et suppression des politiques de fusion.</li><li>**[!DNL Manage profiles]** : lecture, création, modification et suppression des profils.</li><li>**[!DNL Manage segments]** : lecture, création, modification et suppression des définitions de segments.</li><li>**[!DNL View datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL View schemas]** : accès en lecture seule aux schémas.</li></ul> |
 | Configurations des canaux | <ul><li>**[!DNL View channel configurations]** : accès en lecture seule aux configurations de canaux.</li></ul> |
 | Gestion des décisions | <ul><li>**[!DNL Manage decisions]** : lecture, création, modification et suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des rapports personnalisés et lʼutilisation des fonctionnalités dʼaction.</li></ul> |
-| Parcours | <ul><li>**[!DNL Manage journeys]** : lecture, création, modification et suppression des parcours.</li><li>**[!DNL Publish journey]** : la publication des parcours.</li><li>**[!DNL View journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**[!DNL View journeys report]** : la lecture et la modification des rapports de parcours.</li></ul> |
+| Parcours | <ul><li>**[!DNL Manage journeys]** : la lecture, la création, la modification, la mise en pause, l’arrêt et la suppression des parcours.</li><li>**[!DNL Publish journey]** : la publication des parcours.</li><li>**[!DNL View journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**[!DNL View journeys report]** : la lecture et la modification des rapports de parcours.</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 

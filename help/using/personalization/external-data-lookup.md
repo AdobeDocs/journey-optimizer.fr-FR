@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 100%
+source-wordcount: '1202'
+ht-degree: 96%
 
 ---
 
@@ -172,7 +172,7 @@ Ou bien, vous pouvez, par exemple, récupérer les éléments et utiliser une bo
 
 ### Délais d’expiration et gestion des erreurs
 
-[!DNL Journey Optimizer] utilise un délai d’expiration strict lors de l’appel du point d’entrée externe afin de conserver des caractéristiques de performances avec une faible latence et un débit élevé pour AEP Edge Network.
+[!DNL Journey Optimizer] utilise un délai d’expiration strict lors de l’appel du point d’entrée externe afin de conserver des caractéristiques de performances à faible latence et à débit élevé pour Adobe Experience Platform Edge Network.
 
 Si le point d’entrée expire ou que toute autre erreur atteint le point d’entrée, la variable de résultat sera vide. Dans ce cas, toutes les références aux attributs dans la variable de résultat seront également vides. Si vous affichez simplement l’attribut dans le contenu, il s’affichera comme étant vide. Si vous tentez d’utiliser une boucle pour parcourir un attribut de tableau dans le résultat, aucun élément ne sera renvoyé.
 
@@ -198,7 +198,7 @@ Ou vous pouvez effectuer le rendu conditionnel d’un bloc de contenu entier, co
 
 ### Débogage
 
-Pour faciliter le débogage, les détails des délais d’expiration et des erreurs des recherches de données externes sont inclus dans la vue Edge Delivery d’AEP Assurance. Si vous ne voyez pas les résultats attendus pour un assistant externalDataLookup dans une action entrante, vous pouvez démarrer une session Assurance, lancer un appel [!DNL Journey Optimizer] à partir d’une implémentation web ou mobile et utiliser la vue Edge Delivery pour vérifier les détails des délais d’expiration ou des erreurs.
+Pour faciliter le débogage, les détails de délai d’expiration et d’erreur pour les recherches de données externes sont inclus dans la vue Edge Delivery d’Adobe Experience Platform Assurance. Si vous ne voyez pas les résultats attendus pour un assistant externalDataLookup dans une action entrante, vous pouvez démarrer une session Assurance, lancer un appel [!DNL Journey Optimizer] à partir d’une implémentation web ou mobile et utiliser la vue Edge Delivery pour vérifier les détails des délais d’expiration ou des erreurs.
 
 Par exemple :
 
