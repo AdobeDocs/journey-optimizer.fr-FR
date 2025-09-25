@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
+source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 53%
+ht-degree: 51%
 
 ---
 
@@ -67,7 +67,7 @@ Ce mixin contient tous les champs correspondant à une tâche d’exportation de
 | exportCountRealized | Nombre entier | Nombre réel d’audiences exportées par le traitement |
 | exportCountFailed | Nombre entier | Nombre d’audiences ayant échoué lors de l’export par le traitement |
 | exportSegmentID | Chaîne | Identifiant de l’audience à exporter |
-| eventType | Chaîne | Type d’événement indiquant s’il s’agit d’un événement d’erreur ou d’un événement d’information : Info, Erreur |
+| eventType | Chaîne | Type d’événement indiquant s’il s’agit d’un événement d’erreur ou d’un événement d’information : Info, Erreur |
 | eventCode | Chaîne | Le code d’erreur indiquant la raison eventType correspondant |
 
 En savoir plus sur les eventTypes [dans cette section](#discarded-events).
@@ -83,24 +83,23 @@ Lors de l’interrogation d’événements d’étape de parcours pour des enreg
 
 Vous trouverez ci-dessous des définitions, des causes courantes et des étapes de dépannage pour les `eventTypes` d’élimination les plus fréquentes :
 
-* EXTERNAL_KEY_COMPUTATION_ERROR : le système n’a pas pu calculer un identifiant unique (clé externe) pour le client à partir des données d’événement.
-Causes courantes : identifiants de client manquants ou incorrects (par exemple, e-mail, ID de client) dans la payload d’événement.
-Dépannage : vérifiez la configuration de l’événement pour les identifiants requis et assurez-vous que les données d’événement sont complètes et correctement formatées.
-* NO_INTEREST_PARCOURS_FOR_SEGMENTMEMBERSHIP_EVENT : un événement de qualification du segment a été reçu, mais aucun parcours n’est configuré pour répondre à ce segment.
-Causes courantes : aucun parcours n’utilise le segment comme déclencheur, les parcours sont à l’état de brouillon/arrêté ou les identifiants de segment ne correspondent pas.
-Dépannage : vérifiez qu’au moins un parcours est actif et configuré pour le segment, puis vérifiez les identifiants de segment.
-* PARCOURS_INSTANCE_ID_NOT_CREATE : le système n’a pas réussi à créer d’instance de parcours pour le client.
-Causes courantes : événements en double, volume d’événements élevé, contraintes de ressources système.
-Dépannage : implémentez la déduplication, évitez les pics de trafic, optimisez la conception du parcours et contactez l’assistance en cas de persistance.
-* EVENT_WITH_NO_PARCOURS : un événement a été reçu, mais aucun parcours actif n’est configuré pour y répondre.
-Causes courantes : incohérence entre le nom et l’ID de l’événement, parcours non publié, sandbox/organisation incorrecte, incompatibilité entre le mode de test et le profil.
-Dépannage : vérifiez la configuration de l’événement et du parcours, vérifiez l’état du parcours et utilisez des outils de débogage.
+* **EXTERNAL_KEY_COMPUTATION_ERROR** : le système n’a pas pu calculer un identifiant unique (clé externe) pour le client à partir des données d’événement.
+   * Causes courantes : identifiants de client manquants ou incorrects (par exemple, e-mail, ID de client) dans la payload d’événement.
+   * Dépannage : vérifiez la configuration de l’événement pour les identifiants requis et assurez-vous que les données d’événement sont complètes et correctement formatées.
+* **NO_INTEREST_PARCOURS_FOR_SEGMENTMEMBERSHIP_EVENT** : un événement de qualification de segment a été reçu, mais aucun parcours n’est configuré pour répondre à ce segment.
+   * Causes courantes : aucun parcours n’utilise le segment comme déclencheur, les parcours sont à l’état de brouillon/arrêté ou les identifiants de segment ne correspondent pas.
+   * Dépannage : vérifiez qu’au moins un parcours est actif et configuré pour le segment, puis vérifiez les identifiants de segment.
+* **PARCOURS_INSTANCE_ID_NOT_CREATE** : le système n&#39;a pas réussi à créer d&#39;instance de parcours pour le client.
+   * Causes courantes : événements en double, volume d’événements élevé, contraintes de ressources système.
+   * Dépannage : implémentez la déduplication, évitez les pics de trafic, optimisez la conception du parcours et contactez l’assistance en cas de persistance.
+* **EVENT_WITH_NO_PARCOURS** : un événement a été reçu, mais aucun parcours actif n’est configuré pour y répondre.
+   * Causes courantes : incohérence entre le nom et l’ID de l’événement, parcours non publié, sandbox/organisation incorrecte, incompatibilité entre le mode de test et le profil.
+   * Dépannage : vérifiez la configuration de l’événement et du parcours, vérifiez l’état du parcours et utilisez des outils de débogage.
 
 Pour les abandons se produisant dans des parcours en pause :
 
-* PAUSED_PARCOURS_VERSION : abandons survenus au point d’entrée du parcours
-
-* PARCOURS_IN_PAUSED_STATE : ignore ce qui s’est produit lorsque les profils se trouvent dans un parcours.
+* **PAUSED_PARCOURS_VERSION** : abandons survenus au point d’entrée du parcours
+* **PARCOURS_IN_PAUSED_STATE** : ignore les événements qui se produisent lorsque des profils se trouvent dans un parcours
 
 Pour en savoir plus sur ces événements et sur la manière de les résoudre, consultez la section [ Mettre en pause un Parcours ](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
