@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser des données Adobe Experience Platform
 description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans les fonctionnalités de prise de décision et de personnalisation de  [!DNL Journey Optimizer] .
-badge: label="Disponibilité limitée" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
@@ -11,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '742'
 ht-degree: 17%
 
 ---
@@ -24,10 +23,6 @@ ht-degree: 17%
 >id="lookup-aep-data"
 >title="Activer pour la recherche"
 >abstract="L’activation d’un jeu de données pour la recherche permet d’exploiter ses données dans les fonctionnalités de personnalisation, de prise de décision et d’orchestration de parcours de Journey Optimizer."
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement disponible pour tous les clients sous la forme d’une version à disponibilité limitée.
 
 Journey Optimizer vous permet d’exploiter les données des données Adobe Experience Platform avec des fonctionnalités de personnalisation, de prise de décision et d’orchestration des parcours. Pour ce faire, les jeux de données basés sur des enregistrements nécessaires à la personnalisation de la recherche doivent d’abord être activés pour le service de recherche, comme décrit ci-dessous.
 

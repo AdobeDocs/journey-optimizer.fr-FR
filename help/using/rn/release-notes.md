@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e20ece04067d14970883643693c540c73c38a6bc
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 45%
+source-wordcount: '1766'
+ht-degree: 44%
 
 ---
 
@@ -76,8 +76,8 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>Optimisé par <a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent est disponible dans Journey Optimizer. Il permet d’analyser les parcours par le biais d’une interface en langage naturel. L’agent détectera les conflits d’audience ou planifiera des conflits et des abandons de profils dans un parcours pour vous aider à prendre des mesures afin de les résoudre. Vous pourrez bientôt créer des parcours avec le soutien d’un agent.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentation détaillée</a>.</p>
+<p>Optimisé par <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent est disponible dans Journey Optimizer. Il permet d’analyser les parcours par le biais d’une interface en langage naturel. L’agent détectera les conflits d’audience ou planifiera des conflits et des abandons de profils dans un parcours pour vous aider à prendre des mesures afin de les résoudre. Vous pourrez bientôt créer des parcours avec le soutien d’un agent.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -154,7 +154,7 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>Publiée précédemment en version Beta publique, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité limitée). Les améliorations suivantes ont été apportées à cette version :</p>
+<p>Publiée précédemment en version bêta publique, cette fonctionnalité est désormais disponible pour tous les environnements. Les améliorations suivantes ont été apportées à cette version :</p>
 <ul><li>Prise en charge de la personnalisation de la recherche de jeux de données dans les canaux entrants.</li>
 <li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression. Pour l’instant, cette fonctionnalité est disponible pour un nombre limité de clientes et clients. Pour en bénéficier, contactez votre représentant ou représentante Adobe.</li>
 <li>Une option de l’interface de gestion des jeux de données permet désormais d’activer les jeux de données basés sur des enregistrements pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
