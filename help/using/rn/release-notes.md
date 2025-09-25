@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 83ed772d25cbf3e54c5ab45cff3803cb062cdfd6
+source-git-commit: e20ece04067d14970883643693c540c73c38a6bc
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 44%
+source-wordcount: '1769'
+ht-degree: 45%
 
 ---
 
@@ -76,8 +76,8 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>Optimisé par <a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent est disponible dans Journey Optimizer. Il permet d’analyser les parcours par le biais d’une interface en langage naturel. L’agent détectera les conflits d’audience ou planifiera des conflits et des abandons de profils dans un parcours pour vous aider à prendre des mesures afin de les résoudre. Vous pourrez bientôt créer des parcours avec le soutien d’un agent.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentation détaillée</a>.</p>
+<p>Optimisé par <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent est disponible dans Journey Optimizer. Il permet d’analyser les parcours par le biais d’une interface en langage naturel. L’agent détectera les conflits d’audience ou planifiera des conflits et des abandons de profils dans un parcours pour vous aider à prendre des mesures afin de les résoudre. Vous pourrez bientôt créer des parcours avec le soutien d’un agent.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -246,20 +246,20 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Nouveaux connecteurs source pour les applications de fidélité</strong><br/></th>
+<th><strong>New source connectors for loyalty apps</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De nouveaux connecteurs source sont désormais disponibles dans Adobe Experience Platform pour les applications de fidélité Talon.One, Capillary et Kobie. Ces connecteurs vous permettent de diffuser facilement des données de fidélité dans Adobe Experience Platform et d’exploiter ces données dans Journey Optimizer.</p>
+<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary, and Kobie loyalty apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
