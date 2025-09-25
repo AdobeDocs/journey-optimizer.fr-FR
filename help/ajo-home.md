@@ -5,7 +5,7 @@ title: Documentation Adobe Journey Optimizer
 description: Documentation Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: 65b994873e2e8202de20876c2c83868f145e2d90
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 85%
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 Adobe Journey Optimizer permet aux équipes de concevoir et de diffuser des expériences clientèle personnalisées en toute transparence sur plusieurs canaux comme e-mail, SMS, etc. En associant des outils avancés d’orchestration des campagnes, de gestion des données et de prise de décision, il vous permet de créer des parcours qui s’adaptent aux besoins des clientes et clients en temps réel. Cette documentation offre une feuille de route pour maîtriser la plateforme, depuis l’exploration de ses dernières fonctionnalités et intégrations jusqu’à l’apprentissage de la gestion des audiences, de la configuration des parcours et de l’analyse des performances. Que vous soyez spécialiste du marketing, analyste de données ou responsable de campagne, vous trouverez des guides détaillés, des bonnes pratiques et des ressources adaptées pour vous aider à atteindre vos objectifs en toute confiance.
 
-## Nouveautés {#section-overview}
+## Nouveautés {#section-new}
 
 Découvrez les améliorations les plus récentes apportées au produit et à la documentation de Journey Optimizer. Pour obtenir la liste complète des fonctionnalités, des améliorations et des correctifs, consultez les [notes de mise à jour](../using/rn/release-notes.md).
 
@@ -45,11 +45,11 @@ L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d�
 >[!ENDTABS]
 
 
-## Commencer à explorer
+## Commencer à explorer {#section-explore}
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Dernières notes de mise à jour
 
@@ -79,7 +79,7 @@ Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Comprendre et gérer les campagnes
 
@@ -89,7 +89,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canaux de communication
 
@@ -99,7 +99,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestion et hiérarchisation des conflits
 
