@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 98%
 
 ---
 
@@ -187,11 +187,6 @@ Vous pouvez utiliser les **[!UICONTROL paramètres de tracking d’URL]** pour m
 
 ## Adresse d’exécution {#execution-address}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_execution_address"
->title="Remplacer l’adresse d’exécution par défaut à utiliser"
->abstract="Lorsque plusieurs adresses sont disponibles dans la base de données (personnelle, professionnelle, etc.), vous pouvez choisir l’adresse à prioriser pour l’envoi. L’adresse principale est définie au niveau du sandbox, mais vous pouvez remplacer ici le paramètre par défaut pour cette configuration du canal e-mail spécifique."
-
 Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail personnelle, professionnelle, etc.).
 
 Dans ce cas, [!DNL Journey Optimizer] utilise l’adresse spécifiée dans les **[!UICONTROL Champs d’exécution]** au niveau du sandbox pour déterminer l’adresse e-mail à utiliser en priorité à partir du service de profil. [En savoir plus](../configuration/primary-email-addresses.md)
@@ -202,8 +197,6 @@ Dans ce cas, [!DNL Journey Optimizer] utilise l’adresse spécifiée dans les *
 
 Cependant, vous pouvez modifier ce champ d’exécution par défaut au niveau de la configuration du canal e-mail. Vous pouvez ensuite appliquer ce paramètre à des campagnes ou des parcours spécifiques.
 
-Pour ce faire, modifiez le champ **[!UICONTROL Adresse de diffusion]** et sélectionnez un élément dans la liste des champs XDM de type e-mail disponibles.
+Pour ce faire, modifiez le champ **[!UICONTROL Adresse de diffusion]** et sélectionnez un élément dans la liste des champs XDM de type e-mail disponibles. [En savoir plus](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
-
-Le champ d’exécution est mis à jour et sera désormais utilisé comme adresse principale. Il remplace le paramètre général au niveau du sandbox.
