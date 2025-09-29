@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 83%
+source-wordcount: '710'
+ht-degree: 93%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 83%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible pour tous les clients sous la forme d’une version à disponibilité limitée.
+>Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clientes et clients.
 >
->Pour l’instant, la fonction d’assistance « datasetLookup » peut être utilisée dans les fragments d’expression pour un ensemble limité de clientes et clients. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>Pour l’instant, la fonction d’assistance « datasetLookup » peut être utilisée dans les fragments d’expression pour un ensemble limité de clientes et clients. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-Journey Optimizer vous permet d’exploiter les données des jeux de données d’enregistrement Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Avant de commencer, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés pour la recherche. Vous trouverez des informations détaillées dans cette section : [Utilisation des données Adobe Experience Platform](../data/lookup-aep-data.md).
+Journey Optimizer vous permet d’utiliser les données de jeux de données d’enregistrement Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Avant de commencer, les jeux de données nécessaires à la personnalisation de la recherche doivent être activés pour la recherche. Vous trouverez des informations détaillées dans cette section : [Utilisation des données Adobe Experience Platform](../data/lookup-aep-data.md).
 
-Une fois qu’un jeu de données a été activé pour la personnalisation de la recherche, vous pouvez utiliser ses données pour personnaliser votre contenu en [!DNL Journey Optimizer].
+Une fois qu’un jeu de données a été activé pour la personnalisation de la recherche, vous pouvez utiliser ses données pour personnaliser votre contenu dans [!DNL Journey Optimizer].
 
 1. Ouvrez l’éditeur de personnalisation, disponible dans tout contexte où vous pouvez définir une personnalisation, tel que les messages. [Découvrir comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
 
@@ -54,9 +54,9 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
    * **required=false** : si la valeur required est définie sur TRUE, le message n’est diffusé que si une clé correspondante est trouvée. Si la valeur required est définie sur FALSE, une clé correspondante n’est pas requise et le message peut toujours être diffusé. Notez que si la valeur required est définie sur FALSE, il est recommandé de tenir compte des valeurs de secours ou des valeurs par défaut dans le contenu de votre message.
 
-   +++Où récupérer un identifiant de jeu de données ?
+   +++Où récupérer l’ID d’un jeu de données ?
 
-   Les identifiants de jeu de données peuvent être récupérés dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment utiliser des jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Les ID de jeu de données peuvent être récupérés dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment utiliser des jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -81,13 +81,15 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
    >[!NOTE]
    >
    >Lors du référencement d’un champ de jeu de données, assurez-vous de bien respecter le chemin d’accès complet du champ tel qu’il est défini dans le schéma.
+   >
+   >Il n’existe aucune limite stricte quant au nombre de champs pouvant être extraits à l’aide de la fonction d’assistance. Toutefois, pour de meilleures performances, il est recommandé de conserver le nombre de champs inférieur à 50 afin d’éviter toute incidence sur le débit.
 
    * **result** est la valeur que vous avez attribuée au paramètre **result** dans la fonction d’assistance **MultiEntity**. Dans cet exemple, « vol ».
    * **fieldID** est l’identifiant du champ à récupérer. Cet identifiant est visible dans l’interface d’utilisation d’[!DNL Adobe Experience Platform] lors de la navigation dans le schéma d’enregistrement associé à votre jeu de données :
 
-     +++Où récupérer un identifiant de champ ?
+     +++Où récupérer l’ID d’un champ ?
 
-     Les ID de champs peuvent être récupérés lors de la prévisualisation d’un jeu de données dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment prévisualiser des jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Les ID de champ peuvent être récupérés lors de la prévisualisation d’un jeu de données dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment prévisualiser des jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
