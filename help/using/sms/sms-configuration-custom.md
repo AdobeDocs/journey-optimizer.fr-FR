@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 86%
 
 ---
@@ -199,17 +199,19 @@ Lors de la configuration d’un webhook, vous pouvez définir son objectif en fo
 
    * **[!UICONTROL Informations d’identification de l’API]** : sélectionnez dans la liste déroulante ce que vous [informations d’identification de l’API configurées précédemment](#api-credential).
 
+   * **[!UICONTROL Numéro de téléphone de l’expéditeur &#x200B;]** : saisissez le numéro de téléphone de l’expéditeur &#x200B;que vous souhaitez utiliser pour vos communications.
+
+     ![](assets/webhook-inbound.png)
+
 1. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter vos catégories de mots-clés, puis configurez-les comme suit :
 
    * **[!UICONTROL Catégorie de mots-clés entrants]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Aide]** ou **[!UICONTROL Par défaut]**.
 
-   * **[!UICONTROL Saisir un mot-clé]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+   * **[!UICONTROL Saisir un mot-clé]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter plusieurs mots-clés.
 
-   * **[!UICONTROL Message de réponse]** : saisissez la réponse personnalisée qui est automatiquement envoyée.
+   * **[!UICONTROL Message de réponse]** : sélectionnez dans la liste déroulante la réponse personnalisée qui est automatiquement envoyée.
 
    ![](assets/sms_byo_6.png)
-
-1. Activez l’option **[!UICONTROL Opt-out flou]** pour détecter les messages ressemblant à des mots-clés d’opt-out (par exemple, « CANCIL »).
 
 1. Cliquez sur **[!UICONTROL Afficher l’éditeur de payload]** pour valider et personnaliser les payloads de votre requête.
 
@@ -243,6 +245,8 @@ Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionn
 
    * **[!UICONTROL Type]** : Retour d’informations.
 
+   ![](assets/webhook-feedback.png)
+
 1. Cliquez sur **[!UICONTROL Afficher l’éditeur de payload]** pour valider et personnaliser les payloads de votre requête.
 
    Vous pouvez personnaliser votre payload de manière dynamique à l’aide d’attributs de profil, et veiller à ce que des données précises sont envoyées pour le traitement et la génération de réponse à l’aide de fonctions d’assistance intégrées.
@@ -255,7 +259,7 @@ Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionn
 
 1. Accédez à la nouvelle **[!UICONTROL URL du webhook]** et copiez-la à partir du **[!UICONTROL webhook]** précédemment envoyé.
 
-   ![](assets/sms_byo_7.png)
+   ![](assets/sms_byo_8.png)
 
 Après avoir créé et configuré les paramètres entrants pour le webhook, vous devez créer une [configuration des canaux](sms-configuration-surface.md) pour les messages SMS.
 
