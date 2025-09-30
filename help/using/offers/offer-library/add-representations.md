@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 96afe15b89b0a8291d5682bbfaa67404b5ebef93
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
@@ -102,10 +102,6 @@ Pour réutiliser votre contenu dans une représentation, accédez à la **Biblio
 Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
 Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
-
-
-Vous pouvez également insérer un fragment de contenu Adobe Experience Manager directement dans votre offre en cliquant sur **[!UICONTROL Fragment de contenu]**. Notez que, pour accéder aux fragments de contenu dans les offres, l’emplacement sélectionné doit être de type JSON.
-En savoir plus sur l’[intégration de fragments de contenu avec Journey Optimizer](../../integrations/aem-fragments.md).
 
 ![](../assets/offer-content-url.png)
 
