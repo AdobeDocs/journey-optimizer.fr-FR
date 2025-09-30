@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 96%
+source-wordcount: '1352'
+ht-degree: 86%
 
 ---
 
@@ -175,6 +175,16 @@ Si les mots-clés relatifs à l’opt-in ou à l’opt-out ne sont pas fournis, 
 
 Une fois vos informations d’identification d’API créées, l’étape suivante consiste à créer un webhook et à configurer vos paramètres entrants. Cette configuration garantit que votre système peut recevoir et traiter correctement les données ou messages entrants.
 
+Lors de la configuration d’un webhook, vous pouvez définir son objectif en fonction du type de données que vous souhaitez capturer :
+
+* **[!UICONTROL Entrant]** : utilisez cette option si vous souhaitez capturer les réponses de consentement, telles que les opt-ins ou les opt-outs, et collecter les préférences utilisateur.
+
+* **[!UICONTROL Commentaires]** : sélectionnez cette option pour effectuer le suivi des événements de diffusion et d’engagement, y compris les confirmations de lecture et les interactions utilisateur, afin de prendre en charge les rapports et analyses.
+
+>[!BEGINTABS]
+
+>[!TAB Entrant]
+
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks SMS]** sous **[!UICONTROL Paramètres SMS]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
 
    ![](assets/sms_byo_5.png)
@@ -185,17 +195,21 @@ Une fois vos informations d’identification d’API créées, l’étape suivan
 
    * **[!UICONTROL Sélectionner le fournisseur de SMS]** : personnalisé.
 
-   * **[!UICONTROL Sélectionner les informations d’identification d’API]** : choisissez dans la liste déroulante les [informations d’identification d’API configurées précédemment](#api-credential).
+   * **[!UICONTROL Type]** : Entrant.
 
-   * **[!UICONTROL Mots-clés d’opt-in]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’opt-in. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+   * **[!UICONTROL Informations d’identification de l’API]** : sélectionnez dans la liste déroulante ce que vous [informations d’identification de l’API configurées précédemment](#api-credential).
 
-   * **[!UICONTROL Message d’opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-in.
+1. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter vos catégories de mots-clés, puis configurez-les comme suit :
 
-   * **[!UICONTROL Mots-clés d’opt-out]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’opt-out. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+   * **[!UICONTROL Catégorie de mots-clés entrants]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Aide]** ou **[!UICONTROL Par défaut]**.
 
-   * **[!UICONTROL Message d’opt-out]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out.
+   * **[!UICONTROL Saisir un mot-clé]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+
+   * **[!UICONTROL Message de réponse]** : saisissez la réponse personnalisée qui est automatiquement envoyée.
 
    ![](assets/sms_byo_6.png)
+
+1. Activez l’option **[!UICONTROL Opt-out flou]** pour détecter les messages ressemblant à des mots-clés d’opt-out (par exemple, « CANCIL »).
 
 1. Cliquez sur **[!UICONTROL Afficher l’éditeur de payload]** pour valider et personnaliser les payloads de votre requête.
 
@@ -214,6 +228,41 @@ Une fois vos informations d’identification d’API créées, l’étape suivan
 Après avoir créé et configuré les paramètres entrants pour le webhook, vous devez créer une [configuration des canaux](sms-configuration-surface.md) pour les messages SMS.
 
 Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
+
+>[!TAB Commentaires]
+
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks SMS]** sous **[!UICONTROL Paramètres SMS]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
+
+   ![](assets/sms_byo_5.png)
+
+1. Configurez vos paramètres de webhook comme indiqué ci-dessous :
+
+   * **[!UICONTROL Nom]** : saisissez un nom pour votre webhook.
+
+   * **[!UICONTROL Sélectionner le fournisseur de SMS]** : personnalisé.
+
+   * **[!UICONTROL Type]** : Retour d’informations.
+
+1. Cliquez sur **[!UICONTROL Afficher l’éditeur de payload]** pour valider et personnaliser les payloads de votre requête.
+
+   Vous pouvez personnaliser votre payload de manière dynamique à l’aide d’attributs de profil, et veiller à ce que des données précises sont envoyées pour le traitement et la génération de réponse à l’aide de fonctions d’assistance intégrées.
+
+1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de votre webhook.
+
+1. Dans le menu **[!UICONTROL Webhooks]**, cliquez sur l’![icône de corbeille](assets/do-not-localize/Smock_Delete_18_N.svg) pour supprimer votre webhook.
+
+1. Pour modifier la configuration existante, recherchez le webhook souhaité et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
+
+1. Accédez à la nouvelle **[!UICONTROL URL du webhook]** et copiez-la à partir du **[!UICONTROL webhook]** précédemment envoyé.
+
+   ![](assets/sms_byo_7.png)
+
+Après avoir créé et configuré les paramètres entrants pour le webhook, vous devez créer une [configuration des canaux](sms-configuration-surface.md) pour les messages SMS.
+
+Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
+
+>[!ENDTABS]
+
 
 ## Vidéo pratique {#video}
 

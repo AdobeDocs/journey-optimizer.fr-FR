@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 42%
+source-wordcount: '1926'
+ht-degree: 39%
 
 ---
 
@@ -77,8 +77,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>Optimisé par <a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent est disponible dans Journey Optimizer. Il permet d’analyser les parcours par le biais d’une interface en langage naturel. L’agent détectera les conflits d’audience ou planifiera des conflits et des abandons de profils dans un parcours pour vous aider à prendre des mesures afin de les résoudre. Vous pourrez bientôt créer des parcours avec le soutien d’un agent.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentation détaillée</a>.</p>
+<p>Optimisé par <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent est disponible dans Journey Optimizer. Il permet d’analyser les parcours par le biais d’une interface en langage naturel. L’agent détectera les conflits d’audience ou planifiera des conflits et des abandons de profils dans un parcours pour vous aider à prendre des mesures afin de les résoudre. Vous pourrez bientôt créer des parcours avec le soutien d’un agent.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 24 septembre 2025</p>
 </td>
 </tr>
@@ -213,7 +213,19 @@ Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez dés
 
   Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes.
 
+* **Webhooks** - Cette version introduit les améliorations suivantes pour les Webhooks lors de la configuration d’un fournisseur de SMS personnalisé :
 
+   * Vous pouvez maintenant définir l’objectif de votre webhook, soit Entrant, soit Commentaires, en fonction du type de données que vous souhaitez capturer.
+
+   * L’interface de configuration des mots-clés a été améliorée afin de faciliter la configuration.
+
+* **SMS**
+
+   * Lors de la configuration d’un fournisseur de SMS personnalisé, vous pouvez désormais définir un mot-clé **Default** utilisé lorsqu’un SMS entrant contient un mot-clé non reconnu. Vous pouvez également créer des mots-clés **personnalisés** pour des actions spécifiques.
+
+   * Vous pouvez désormais accéder aux réponses par mots-clés entrants non définies qui sont envoyées par l’intermédiaire d’un SMS, y compris les fautes de frappe, les mots ou les phrases qui ne sont pas explicitement définis dans la configuration. Elles sont stockées pendant 13 mois dans le jeu de données **Événement d&#39;expérience de tracking d&#39;e-mail AJO**, sous **InboundMessage**.
+
+* **WhatsApp** - Vous pouvez maintenant choisir d&#39;utiliser l&#39;adresse d&#39;exécution par défaut pour WhatsApp ou configurer une adresse personnalisée.
 
 ### Bientôt disponible {#sept-25-9-soon}
 
