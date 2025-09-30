@@ -4,14 +4,14 @@ product: journey optimizer
 title: API Capping
 description: Découvrez comment utiliser l’API Capping
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 93%
+source-wordcount: '730'
+ht-degree: 89%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 93%
 
 L’API Capping vous permet de créer, configurer et surveiller vos configurations de limitation.
 
-Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## Description de l’API de limitation et collection Postman {#description}
 
-Le tableau ci-dessous répertorie les commandes disponibles pour l’API de limitation. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la [documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
+Le tableau ci-dessous répertorie les commandes disponibles pour l’API de limitation. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la [documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}.
 
 | Méthode | Chemin | Description |
 |---|---|---|
@@ -46,13 +46,13 @@ Elle a été créée pour partager la collection de variables Postman générée
 Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
 * `{JO_HOST}` : URL de passerelle [!DNL Journey Optimizer]
 * `{BASE_PATH}` : point d’entrée pour l’API.
-* `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
+* `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr){target="_blank"}.
 
 ## Configuration du point d’entrée
 
 Voici la structure de base d’une configuration de point d’entrée :
 
-```
+```json
 {
     "url": "<endpoint URL>",  //wildcards are allowed in the endpoint URL
     "methods": [ "<HTTP method such as GET, POST, >, ...],
@@ -75,12 +75,12 @@ Voici la structure de base d’une configuration de point d’entrée :
 >
 >La valeur maximale pouvant être définie est de 400. Si rien n’est spécifié, le système peut s’ouvrir à plusieurs milliers de connexions en fonction de l’échelle dynamique du système.
 >
->Lorsque la configuration de limitation est déployée, si aucune valeur « maxHttpConnection » n’a été fournie, une valeur par défaut « maxHttpConnection = -1 » est ajoutée dans la configuration déployée, ce qui signifie que Journey Optimizer utilisera la valeur système par défaut.
+>Lorsque la configuration de limitation est déployée, si aucune valeur de `maxHttpConnections` n’a été définie, une `maxHttpConnections = -1` par défaut est ajoutée à la configuration déployée et Journey Optimizer utilise la valeur système par défaut.
 
 Exemple :
 
-```
-`{
+```json
+{
   "url": "https://api.example.org/data/2.5/*",
   "methods": [
     "GET"
@@ -104,7 +104,7 @@ Exemple :
 
 Lorsqu’une méthode **canDeploy** est appelée, le processus valide la configuration et renvoie le statut de validation identifié par son identifiant unique, au choix :
 
-```
+```json
 "ok" or "error"
 ```
 
