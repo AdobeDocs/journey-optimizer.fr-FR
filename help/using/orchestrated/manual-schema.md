@@ -5,10 +5,10 @@ title: Étapes de configuration
 description: Découvrez comment créer des schémas basés sur des modèles directement via l’interface utilisateur.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 87%
+source-wordcount: '871'
+ht-degree: 76%
 
 ---
 
@@ -27,6 +27,8 @@ L’exemple suivant définit manuellement le schéma **Membres du programme de f
 1. [Créez un jeu de données](#dataset) basé sur votre schéma et activez-le pour l’utiliser dans des campagnes orchestrées.
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
+
+➡️ [En savoir plus sur les schémas manuels basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Créer votre schéma {#schema}
 
@@ -64,7 +66,7 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
   Les champs ENUM sont pris en charge pour la création de schémas manuelle ou basée sur un fichier DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
 
 * **Libellé de schéma pour la gouvernance des données**\
-  La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr-FR).
+  La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
 * **Clé composite**\
   Les clés primaires composites sont prises en charge dans les définitions de schéma basées sur un modèle, ce qui permet d’utiliser plusieurs champs ensemble pour identifier les enregistrements de manière unique.
@@ -106,11 +108,11 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Une fois les attributs créés, vous devez lier le schéma que vous venez de créer à un schéma intégré.
+Après avoir créé et enregistré des attributs, vous pouvez lier le schéma à d’autres schémas relationnels en définissant des relations.
 
 ## Lier les schémas {#link-schema}
 
-La création d’une relation entre deux schémas permet d’enrichir vos campagnes orchestrées avec des données stockées en dehors du schéma de profil primaire.
+La création d’une relation entre deux schémas permet d’améliorer les campagnes orchestrées avec des données au-delà du schéma de profil principal.
 
 1. Dans le schéma que vous venez de créer, sélectionnez l’attribut à utiliser comme lien et cliquez sur **[!UICONTROL Ajouter une relation]**.
 
@@ -126,11 +128,9 @@ La création d’une relation entre deux schémas permet d’enrichir vos campag
 
 1. Cliquez sur **[!UICONTROL Appliquer]** une fois la configuration terminée.
 
-Une fois la relation établie, vous devez créer un jeu de données basé sur votre schéma.
-
 ## Créer un jeu de données pour le schéma {#dataset}
 
-Après avoir défini votre schéma, l’étape suivante consiste à créer un jeu de données basé sur celui-ci. Ce jeu de données stocke vos données ingérées et doit être activé pour les campagnes orchestrées afin de le rendre accessible dans Adobe Journey Optimizer. L’activation de cette option garantit que le jeu de données est reconnu pour une utilisation dans les workflows d’orchestration et de personnalisation en temps réel.
+Après avoir défini votre schéma, vous pouvez maintenant créer un jeu de données basé dessus. Le jeu de données stocke les données ingérées et doit être activé pour que les campagnes orchestrées soient accessibles.
 
 1. Accédez au menu **[!UICONTROL Gestion des données]** > **[!UICONTROL Jeux de données]** et sélectionnez **[!UICONTROL Créer un jeu de données]**.
 
@@ -144,7 +144,7 @@ Après avoir défini votre schéma, l’étape suivante consiste à créer un je
 
 1. Saisissez le **[!UICONTROL Nom]** de votre **[!UICONTROL Jeu de données]**, puis cliquez sur **[!UICONTROL Terminer]**.
 
-Vous devez maintenant activer votre jeu de données pour orchestrer des campagnes.
+Vous devez maintenant activer votre jeu de données pour les campagnes orchestrées.
 
 ## Activer le jeu de données pour les campagnes orchestrées {#enable}
 
@@ -156,11 +156,11 @@ Vous devez maintenant activer votre jeu de données pour orchestrer des campagne
 
 Après avoir créé votre jeu de données, vous devez l’activer explicitement pour les campagnes orchestrées. Cette étape permet de s’assurer que votre jeu de données est disponible pour l’orchestration et la personnalisation en temps réel dans Adobe Journey Optimizer.
 
-Consultez la [documentation Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) pour valider ou activer l’extension Orchestrated Campaign sur le jeu de données.
+Consultez la [documentation Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) pour valider ou activer l’extension Campagne orchestrée sur le jeu de données.
 
 1. Recherchez votre jeu de données dans la liste **[!UICONTROL Jeux de données]**.
 
-1. Dans les paramètres **[!UICONTROL Jeux de données]**, activez l’option **Campagnes orchestrées** pour pouvoir utiliser le jeu de données dans vos campagnes orchestrées.
+1. Dans les paramètres **[!UICONTROL Jeux de données]**, activez l’option **Campagnes orchestrées** pour marquer le jeu de données disponible pour une utilisation dans vos campagnes orchestrées.
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

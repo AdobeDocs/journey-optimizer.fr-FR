@@ -5,10 +5,10 @@ title: Étapes de configuration
 description: Découvrez comment créer un schéma basé sur un modèle dans Adobe Experience Platform en chargeant un fichier DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 74%
+source-wordcount: '1080'
+ht-degree: 79%
 
 ---
 
@@ -29,6 +29,8 @@ Cette section fournit des instructions détaillées sur la création d’un sch�
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
+➡️ [En savoir plus sur les schémas basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
+
 ## Charger un fichier DDL{#ddl-upload}
 
 En chargeant un fichier DDL, vous pouvez définir à l’avance la structure de votre modèle de données, y compris les tables, les attributs, les clés et les relations.
@@ -38,7 +40,7 @@ Les chargements de fichiers de schéma basés sur le format Excel sont pris en c
 +++Les fonctionnalités suivantes sont prises en charge lors de la création de schémas basés sur des modèles dans Adobe Experience Platform
 
 * **ENUM**\
-  Les champs ENUM sont pris en charge lors de la création de schémas manuelle et basée sur DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
+  Les champs ENUM sont pris en charge pour la création de schémas manuelle ou basée sur un fichier DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
 Voici un exemple :
 
   ```
@@ -54,7 +56,7 @@ Voici un exemple :
   ```
 
 * **Libellé de schéma pour la gouvernance des données**\
-  La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr-FR).
+  La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
 * **Clé composite**\
   Les clés primaires composites sont prises en charge dans les définitions de schéma basées sur un modèle, ce qui permet d’utiliser plusieurs champs ensemble pour identifier les enregistrements de manière unique.
@@ -77,7 +79,7 @@ Voici un exemple :
    * Au moins une clé primaire.
    * Un identifiant de version, tel qu’un champ `lastmodified` de type `datetime` ou `number`.
    * Pour l’ingestion Capture des données modifiées (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel.
-   * Le fichier DDL ne doit pas définir plus de 200 tables.
+   * Le fichier DDL ne doit pas définir plus de 200 tables.
 
 
    >[!IMPORTANT]
@@ -91,9 +93,9 @@ Voici un exemple :
 
 1. Saisissez le **[!UICONTROL nom de votre schéma]**.
 
-1. Configurez chaque schéma et ses colonnes en veillant à spécifier une clé primaire.
+1. Configurez chaque schéma et ses colonnes en veillant à ce qu’une clé primaire et un descripteur de version soient spécifiés.
 
-   Un attribut, tel que `lastmodified`, doit être désigné comme descripteur de version (type `datetime`, `long` ou `int`) pour s’assurer que les jeux de données sont mis à jour avec les données les plus récentes. Les utilisateurs et utilisatrices peuvent modifier le descripteur de version, qui devient obligatoire une fois défini. Un attribut ne peut pas être à la fois une clé primaire (PK) et un descripteur de version.
+   Un attribut, tel que `lastmodified`, doit être désigné comme descripteur de version (type `datetime`, `long` ou `int`) afin de garantir que les jeux de données sont mis à jour avec les données les plus récentes. Les utilisateurs et utilisatrices peuvent modifier le descripteur de version, qui devient obligatoire une fois défini. Un attribut ne peut pas être à la fois une clé primaire (PK) et un descripteur de version.
 
    ![](assets/admin_schema_2.png)
 
@@ -107,7 +109,7 @@ Vous pouvez maintenant vérifier les définitions de table et de champ dans la z
 
 ## Définir des relations {#relationships}
 
-Pour définir des connexions logiques entre les tables de votre schéma, procédez comme suit.
+Vous pouvez spécifier des relations directement dans le fichier DDL lors de la création de votre schéma. Si vous préférez définir des relations en dehors du fichier , vous pouvez le faire dans l’interface en suivant les étapes ci-dessous.
 
 1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tables à lier.
 
