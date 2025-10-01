@@ -15,7 +15,7 @@ exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
 source-wordcount: '1575'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -27,18 +27,18 @@ ht-degree: 3%
 
 Pour capturer des données de profil avec vos pages de destination [!DNL Journey Optimizer] et enrichir vos jeux de données [!DNL Experience Platform], vous pouvez utiliser des formulaires dans vos pages de destination.
 
-## Création d’un paramètre prédéfini de formulaire {#create-form-preset}
+## Créer un paramètres prédéfini de formulaire {#create-form-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
 >title="Sélectionner le point d’entrée à utiliser"
 >abstract="Définissez le point d’entrée de diffusion en continu où les données sont envoyées lors de l’envoi du formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion en continu d’API HTTP"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="Sélectionner un jeu de données"
->abstract="Définissez un jeu de données dans lequel les réponses du formulaire seront stockées et reflétées. Vous pouvez saisir pour rechercher un jeu de données spécifique ou le sélectionner dans la liste."
+>abstract="Définissez un jeu de données dans lequel les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir le nom d’un jeu de données pour le rechercher ou le sélectionner directement dans la liste."
 
 Avant de pouvoir créer un formulaire, vous devez créer un préréglage dédié où vous sélectionnez le point d’entrée de connexion où les données d’envoi du formulaire sont envoyées et le jeu de données où les données capturées par le biais du formulaire seront stockées.
 
@@ -71,7 +71,7 @@ Lors de la création d’un paramètre prédéfini :
    >
    >Pour en savoir plus sur la création d’une connexion source par flux, consultez la documentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
-1. Sélectionnez un **[!UICONTROL Jeu de données]** à lier au formulaire. C’est là que les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
+1. Sélectionnez un **[!UICONTROL Jeu de données]** à lier au formulaire. C’est là que les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir le nom d’un jeu de données pour le rechercher ou le sélectionner directement dans la liste.
 
    >[!NOTE]
    >
@@ -87,13 +87,13 @@ Tous les formulaires existants s’affichent. Vous pouvez filtrer les formulaire
 
 ![](assets/lp_form-list.png)
 
-## Création et conception d’un formulaire {#create-form}
+## Créer et concevoir un formulaire {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
->title="Sélection d’un paramètre prédéfini"
+>title="Sélectionner un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Création d’un paramètre prédéfini de formulaire"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un paramètres prédéfini de formulaire"
 
 Pour créer un formulaire, procédez comme suit.
 
@@ -185,7 +185,7 @@ Une fois que vous avez sélectionné un attribut de champ ou ajouté un champ pe
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
-### Configuration de la page de remerciement {#thank-you-page}
+### Configurer la page de remerciement {#thank-you-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
