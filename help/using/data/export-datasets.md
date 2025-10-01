@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: a542f3e757bffb437f0b6baebe70767c2e894d91
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -99,7 +99,7 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 | Jeu de données de profil push AJO | Stocke les jetons de notifications push d’un profil. |
 | Jeu de données d’événement d’expérience de tracking de notifications push AJO | Logs d’interaction pour le canal Notification push utilisé à des fins de création de rapports et d’audiences.  |
 | Jeu de données de surfaces AJO | Jeu de données vide associé au schéma de surfaces entrantes Journey Optimizer. |
-| AOOutputForUPSDataset | Contient toutes les appartenances à l’audience AO à réécrire dans UPS. |
+| AOOutputForUPSDataset | Contient toutes les appartenances aux audiences AJO à réécrire dans le service de profil unifié |
 | Jeu de données de profil Orchestration de lʼaudience | Généré par la composition d’audiences pour les audiences provenant de la composition d’audiences. Contient toutes les audiences de composition d’audiences, leurs attributs et leurs données d’enrichissement. |
 | Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur. Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier, dont les offres doivent être prises en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. |
 | Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre créé par un utilisateur ou une utilisatrice. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre. |
