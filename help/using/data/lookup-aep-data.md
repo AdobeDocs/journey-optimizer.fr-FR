@@ -10,10 +10,10 @@ level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 90%
+source-wordcount: '833'
+ht-degree: 74%
 
 ---
 
@@ -32,10 +32,22 @@ Journey Optimizer vous permet d’exploiter les données des données Adobe Expe
 
 Avant de commencer, consultez les restrictions et les directives suivantes :
 
-* Les jeux de données activés pour la recherche ne doivent contenir aucune information d’identification personnelle (PII).
-* Les jeux de données activés pour la recherche et utilisés dans la personnalisation ne sont pas protégés contre la suppression. Il vous appartient de noter les jeux de données utilisés pour la personnalisation afin de vous assurer qu’ils ne seront pas supprimés ou retirés.
-* Les jeux de données doivent être associés à un schéma qui N’est PAS de type Profil ou Événement.
-* L’ingestion de données en flux continu est prise en charge pour les jeux de données activés pour la recherche. Gardez à l’esprit que le traitement de l’ingestion doit toujours être terminé avant que les données ne soient disponibles pour la personnalisation ou la prise de décision.
+* **Pas d’informations d’identification personnelle dans les jeux de données** - Les jeux de données activés pour la recherche ne doivent pas contenir d’informations d’identification personnelle (PII).
+
+* 
+   * **Risque de suppression** - Les jeux de données utilisés dans la personnalisation ne sont pas protégés contre la suppression. Vous devez suivre les jeux de données utilisés pour vous assurer qu’ils ne sont pas supprimés.
+
+* **Type de schéma** - Les jeux de données doivent être associés à un schéma **NOT** de type Profil ou Événement.
+
+* **Gardez le bouton de recherche activé** - Évitez d’activer et de désactiver à plusieurs reprises les jeux de données. Cela peut entraîner un comportement d’indexation inattendu. La bonne pratique consiste à laisser le jeu de données activé tant que vous prévoyez de l’utiliser pour les recherches.
+
+* **Sélection de lot de données** - La suppression d’un lot de données de votre jeu de données supprime complètement toutes les clés correspondantes du service de recherche. Par exemple :
+
+  **Lot 1** : Sku1, Sku2, Sku3\
+  **Lot 2** : Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\
+  **Lot 3** : Sku7, Sku8, Sku9, Sku10
+
+  Si vous supprimez **lot 1**, les Sku1, Sku2 et Sku3 sont supprimés de la boutique de recherche. Les données de recherche résultantes contiendront alors : Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
 
 ### Droit pour le service de recherche
 
