@@ -249,7 +249,7 @@ Vous pouvez désormais incorporer ce formulaire dans une page de destination afi
 
 1. Configurez la page principale. [Voici comment procéder](create-lp.md#configure-primary-page)
 
-1. Ouvrez le [ concepteur de page de destination ](design-lp.md).
+1. Ouvrez le [&#x200B; concepteur de page de destination &#x200B;](design-lp.md).
 
 1. Effectuez un glisser-déposer d’un **[!UICONTROL composant de structure]** dans votre contenu. Faites glisser et déposez un composant **[!UICONTROL Form]** dans cette structure.
 
