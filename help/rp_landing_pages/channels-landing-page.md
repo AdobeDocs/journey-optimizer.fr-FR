@@ -40,7 +40,7 @@ Découvrez comment créer, configurer et optimiser des campagnes par e-mail, y c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
 
 Messages in-app
 
@@ -50,7 +50,7 @@ Découvrez comment configurer, concevoir et personnaliser des notifications in-a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
 
 Canal des notifications push
 
@@ -60,7 +60,7 @@ Découvrez comment créer, configurer et envoyer des notifications push pour iO
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=fr)
 
 Messages SMS/MMS/RCS
 
@@ -70,7 +70,7 @@ Découvrez comment créer, gérer et configurer des messages SMS, MMS et RCS �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=fr)
 
 Campagnes par courrier
 

@@ -60,7 +60,7 @@ Utilisez l’assistant IA pour générer et affiner le contenu des SMS qui trou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=fr)
 
 Génération de contenu de page web et de ressources
 
