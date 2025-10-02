@@ -87,7 +87,7 @@ Les types d’événements suivants sont comptabilisés dans le quota de 5 000 T
 
 * **Événements métier** : événements non liés à un profil spécifique, mais à un événement lié à l’entreprise.
 
-* **Événements Analytics** : si l’[intégration à Adobe Analytics pour déclencher des parcours ](about-analytics.md) a été activée, ces événements sont également inclus.
+* **Événements Analytics** : si l’[intégration à Adobe Analytics pour déclencher des parcours &#x200B;](about-analytics.md) a été activée, ces événements sont également inclus.
 
 * **Reprendre les événements** : événement technique déclenché lorsqu’un profil reprend à partir d’un parcours en pause. En savoir plus sur la [reprise des parcours en pause](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
 

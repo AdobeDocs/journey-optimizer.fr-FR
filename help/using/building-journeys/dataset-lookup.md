@@ -71,7 +71,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
    >[!NOTE]
    >
-   >Si le jeu de données que vous recherchez ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche. Pour plus d’informations, consultez la section [ À lire absolument ](#must-read).
+   >Si le jeu de données que vous recherchez ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche. Pour plus d’informations, consultez la section [&#x200B; À lire absolument &#x200B;](#must-read).
 
 1. Sélectionnez les champs spécifiques à récupérer dans le jeu de données.
 
@@ -119,7 +119,7 @@ Les données récupérées par l’activité **[!UICONTROL Recherche de jeu de d
 
 **Scénario**:Send un coupon pour les utilisateurs qui dépensent plus de 40 $ en produits ménagers.
 
-Flux de Parcours **** :
+Flux de Parcours **&#x200B;**&#x200B;:
 
 1. **Événement d’achat** : capturez les SKU à partir du panier de l’utilisateur.
 
@@ -163,7 +163,7 @@ Flux de Parcours **** :
 
 **Scénario** : identifier le compte de messagerie pour un profil dont le statut de fidélité est Platine. Dans ce scénario, le compte de fidélité est associé à un ID d’e-mail et les données de fidélité ne sont pas disponibles dans la boutique de recherche de profil standard.
 
-Flux de Parcours **** :
+Flux de Parcours **&#x200B;**&#x200B;:
 
 1. **Déclencheur d’événement de profil** : capturez les identifiants d’e-mail du contexte de profil ou d’événement.
 

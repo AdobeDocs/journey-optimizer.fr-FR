@@ -88,6 +88,6 @@ Voici un exemple d’événement d’API d’ingestion en flux continu :
 }
 ```
 
-Pour identifier plus facilement l’endroit où coller la partie « données », vous pouvez utiliser un outil de visualisation JSON tel que le [ formateur JSON ](https://jsonformatter.curiousconcept.com){target="_blank"}.
+Pour identifier plus facilement l’endroit où coller la partie « données », vous pouvez utiliser un outil de visualisation JSON tel que le [&#x200B; formateur JSON &#x200B;](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
 Pour résoudre les problèmes liés aux API d&#39;ingestion en flux continu, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr){target="_blank"}.

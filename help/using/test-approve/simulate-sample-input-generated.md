@@ -48,4 +48,4 @@ Pour générer des variations pour votre contenu et les prévisualiser, procéde
 
 >[!NOTE]
 >
->Cette fonctionnalité fonctionne de la même manière que la fonctionnalité standard Simuler des variations de contenu . Pour plus d’informations sur les simulations de variations de contenu et sur les mécanismes de sécurisation et limitations associés, consultez cette section : [ Simuler des variations de contenu](../test-approve/simulate-sample-input.md)
+>Cette fonctionnalité fonctionne de la même manière que la fonctionnalité standard Simuler des variations de contenu . Pour plus d’informations sur les simulations de variations de contenu et sur les mécanismes de sécurisation et limitations associés, consultez cette section : [&#x200B; Simuler des variations de contenu](../test-approve/simulate-sample-input.md)

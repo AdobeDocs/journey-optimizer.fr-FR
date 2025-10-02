@@ -76,7 +76,7 @@ Pour vous abonner/désabonner à une alerte pour tous les parcours et campagnes,
 
 1. Utilisez la même méthode pour vous **[!UICONTROL désabonner]**.
 
-Vous pouvez également vous abonner par le biais des notifications d’événement [ I/O ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés [ci-dessous](#journey-alerts).
+Vous pouvez également vous abonner par le biais des notifications d’événement [&#x200B; I/O &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés [ci-dessous](#journey-alerts).
 
 <!--DOCAC-13465
 ### Unitary subscription {#unitary-subscription}

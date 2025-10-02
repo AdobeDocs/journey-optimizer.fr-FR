@@ -101,11 +101,11 @@ Pour les abandons se produisant dans des parcours en pause :
 * **PAUSED_PARCOURS_VERSION** : abandons survenus au point d’entrée du parcours
 * **PARCOURS_IN_PAUSED_STATE** : ignore les événements qui se produisent lorsque des profils se trouvent dans un parcours
 
-Pour en savoir plus sur ces événements et sur la manière de les résoudre, consultez la section [ Mettre en pause un Parcours ](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+Pour en savoir plus sur ces événements et sur la manière de les résoudre, consultez la section [&#x200B; Mettre en pause un Parcours &#x200B;](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
 ## Ressources supplémentaires
 
-* [Exemples de requête de jeu de données - Événement d’étape de Parcours ](../data/datasets-query-examples.md#journey-step-event).
+* [Exemples de requête de jeu de données - Événement d’étape de Parcours &#x200B;](../data/datasets-query-examples.md#journey-step-event).
 * [Exemples de requêtes - Requêtes basées sur un événement](query-examples.md#event-based-queries).
 * [Dictionnaire de schémas intégré](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
 

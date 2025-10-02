@@ -147,7 +147,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 +++ _experience > decisioning > criteria > profileConstraints > Eligibility Rule
 
 **Champ :** eligibilityRule
-**Titre :**règle d&#39;éligibilité
+**Titre :**&#x200B;règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 

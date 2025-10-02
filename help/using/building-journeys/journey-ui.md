@@ -150,7 +150,7 @@ Le statut du parcours dépend de son cycle de vie. Il peut s’agir des élémen
 >
 >* Le cycle de vie de création d’un Parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : **Publication** (entre « Brouillon » et « Actif »), **Activation du mode test** ou **Désactivation du mode test** (entre **Brouillon** et **Brouillon (test)**), **Stopping** (entre **Live** et **Stopped**), **Reprise** (entre **Paused** et **Live**), **Pausing** (entre **Live** et **Paused**) lorsqu’un parcours est actif dans un état intermédiaire, il est en lecture seule.
 >
->* Si vous devez apporter des modifications à un parcours **en ligne**, [créez une nouvelle version](#journey-versions) de votre parcours. Vous pouvez également suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment. [En savoir plus sur la suspension des parcours ](../building-journeys/journey-pause.md)
+>* Si vous devez apporter des modifications à un parcours **en ligne**, [créez une nouvelle version](#journey-versions) de votre parcours. Vous pouvez également suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment. [En savoir plus sur la suspension des parcours &#x200B;](../building-journeys/journey-pause.md)
 
 
 ## Dupliquer un parcours {#duplicate-a-journey}
