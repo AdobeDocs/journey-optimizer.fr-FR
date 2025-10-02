@@ -173,4 +173,4 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sé
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341347?quality=12&captions=fre_fr)

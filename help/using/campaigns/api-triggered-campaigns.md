@@ -59,4 +59,4 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452727?quality=12&captions=fre_fr)

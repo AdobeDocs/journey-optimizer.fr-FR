@@ -31,4 +31,4 @@ Vous trouverez des informations détaillées sur l’importation d’audiences d
 
 Découvrez comment charger des audiences au format CSV dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423356?quality=12&captions=fre_fr)
