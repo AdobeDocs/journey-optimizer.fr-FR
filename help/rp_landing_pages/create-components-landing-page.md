@@ -6,7 +6,7 @@ description: Créer des composants
 redpen-status: CREATED_||_2025-08-11_20-58-59
 exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Définissez des règles de décision pour personnaliser les offres en ciblant de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
 Création et gestion des qualificateurs de collection dans Adobe Journey Optimizer
 

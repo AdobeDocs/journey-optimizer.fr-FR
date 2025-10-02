@@ -33,7 +33,7 @@ Pour en savoir plus sur Customer Journey Analytics Workspace, sur le filtrage
 
 ![](assets/cja-highlights.png)
 
-Les indicateurs clés de performance **[!UICONTROL Faits saillants]** constituent un tableau de bord complet, qui propose une ventilation détaillée des mesures clés de toutes les campagnes et de tous les parcours de votre environnement, ce qui vous permet d’évaluer rapidement les performances et d’identifier les domaines à améliorer.
+Les indicateurs clés de performance **[!UICONTROL Faits saillants]** constituent un tableau de bord complet, qui propose une répartition détaillée des mesures clés de toutes les campagnes et de tous les parcours de votre environnement, ce qui vous permet d’évaluer rapidement les performances et d’identifier les domaines à améliorer.
 
 +++ En savoir plus sur les mesures de faits saillants
 
@@ -105,7 +105,7 @@ En cliquant sur le nom d’une campagne dans ce tableau, vous pouvez examiner ch
 
 ![](assets/cja-channels.png)
 
-Le tableau **[!UICONTROL Canaux]** fournit une ventilation détaillée de l’engagement de vos profils avec vos messages au niveau du canal. Cela vous permet d’obtenir des informations plus approfondies sur les performances de différents canaux.
+Le tableau **[!UICONTROL Canaux]** fournit une répartition détaillée de l’engagement de vos profils avec vos messages au niveau du canal. Cela vous permet d’obtenir des informations plus approfondies sur les performances de différents canaux.
 
 +++ En savoir plus sur les mesures de canaux
 

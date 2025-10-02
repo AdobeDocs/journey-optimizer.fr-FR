@@ -11,7 +11,7 @@ exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ En tirant parti des technologies de pointe en matière de machine learning et de
 
 ## Exigences relatives aux jeux de données
 
-Pour entraîner un modèle d’optimisation personnalisé, le jeu de données doit répondre aux exigences minimales suivantes :
+Pour entraîner un modèle d’optimisation personnalisé, le jeu de données doit répondre aux exigences minimales suivantes :
 
-* Au moins 2 offres du jeu de données doivent avoir au moins 250 événements d’affichage et 25 événements de succès (par exemple, des clics ou des conversions) au cours des 30 derniers jours.
-* Les offres comportant moins de 250 affichages et/ou 25 événements de succès au cours des 30 derniers jours peuvent être incluses dans le trafic personnalisé, mais sont traitées par le modèle de personnalisation comme performantes au niveau de l’offre ayant obtenu le pire score jusqu’à ce qu’elles dépassent ce seuil.
-* Les offres comportant moins de 250 affichages et/ou 25 événements de succès au cours des 30 derniers jours peuvent toujours être incluses dans le trafic d’exploration.
+* Au moins 2 offres du jeu de données doivent avoir au moins 250 événements d’affichage et 25 événements de succès (par exemple, des clics ou des conversions) au cours des 30 derniers jours.
+* Les offres comportant moins de 250 affichages et/ou 25 événements de succès au cours des 30 derniers jours peuvent être incluses dans le trafic personnalisé, mais sont traitées par le modèle de personnalisation comme performantes au niveau de l’offre ayant obtenu le pire score jusqu’à ce qu’elles dépassent ce seuil.
+* Les offres comportant moins de 250 affichages et/ou 25 événements de succès au cours des 30 derniers jours peuvent toujours être incluses dans le trafic d’exploration.
 
-Jusqu’à la première formation d’un modèle d’optimisation personnalisé, les offres d’une stratégie de sélection utilisant un modèle d’optimisation personnalisé sont diffusées de manière aléatoire.
+Jusqu’au premier entraînement d’un modèle d’optimisation personnalisé, les offres d’une stratégie de sélection utilisant un modèle d’optimisation personnalisé sont diffusées de manière aléatoire.
 
 ## Principales hypothèses et limites du modèle {#key}
 

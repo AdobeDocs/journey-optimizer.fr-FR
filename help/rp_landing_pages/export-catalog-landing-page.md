@@ -6,7 +6,7 @@ description: Exporter votre catalogue d’offres
 redpen-status: CREATED_||_2025-08-11_21-03-50
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ title: Adobe Experience Platform
 description: Adobe Experience Platform
 redpen-status: CREATED_||_2025-08-11_20-11-06
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 

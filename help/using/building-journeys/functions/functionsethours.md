@@ -11,7 +11,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ Renvoie 2023-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Retourne demain à 20h:XY, XY étant le procès-verbal au moment de l&#39;évaluation de l&#39;heure actuelle. Si l’évaluation a lieu à 2:45 h, l’heure renvoyée sera 20 :45.
+Renvoie demain à 20:XY h, XY représentant le nombre de minutes au moment de lʼévaluation de lʼheure en cours. Si lʼévaluation se produit à 2:45 h, lʼheure renvoyée sera 20:45 h.

@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
 1. **Attribuez les autorisations appropriées**. La prise de décision n’est disponible que pour les utilisateurs et les utilisatrices ayant accès à un **[!UICONTROL rôle]** associé à la prise de décision, comme les Gestionnaires de décisions. Si vous ne pouvez pas accéder à la prise de décision, vos autorisations doivent être étendues.
 
-   +++Découvrez comment attribuer le rôle de gestionnaires de décision
+   +++Découvrir comment attribuer le rôle de responsable de décision
 
    1. Pour attribuer un rôle à un utilisateur ou une utilisatrice dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez le rôle de personne gestionnaire de décision.
 
@@ -64,7 +64,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
 1. **Créez des éléments de décision** pour les afficher à l’audience ciblée.
 
-   ➡️ [Découvrez comment créer des éléments de décision](items.md) dans l’interface utilisateur (et dans la [documentation de l’API](api-reference/decisions-items/create.md))
+   ➡️[Découvrez comment créer des éléments de décision](items.md) dans l’interface d’utilisation (et dans la [documentation de l’API](api-reference/decisions-items/create.md)).
 
 1. **Organisez des collections** : utilisez des collections pour classer les éléments de décision en fonction de règles basées sur des attributs. Incorporez des collections dans vos stratégies de sélection afin de déterminer la collection d’éléments de décision à prendre en compte.
 

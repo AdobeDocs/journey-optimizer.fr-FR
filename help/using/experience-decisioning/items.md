@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 7926e90f3a2ca62b297a8db548f044086d3dab66
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -82,14 +82,14 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 >abstract="Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
 Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement ; les deux solutions correspondant à différents usages. Pour plus d’informations, développez la section ci-dessous :
 
-+++Utiliser les audiences par rapport aux règles de décision
++++Utiliser les audiences ou les règles de décision
 
 Pour faire simple, la sortie d’une audience est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision.
 
@@ -118,7 +118,7 @@ Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouve
 >title="Expression"
 >abstract="Au lieu d’utiliser une valeur statique pour le seuil de limitation, vous pouvez définir votre propre expression. Vous pouvez ainsi calculer le seuil de manière dynamique à l’aide d’attributs de décision et/ou d’attributs externes d’un jeu de données Adobe Experience Platform.<br/><br/>Les **expressions** de règle de limitation sont actuellement en disponibilité limitée pour l’ensemble des utilisateurs et utilisatrices. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**."
 
-La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où un élément d&#39;offre peut être présenté. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 limitations pour un élément de décision donné.
+La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où un élément d’offre peut être présenté. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 limitations pour un élément de décision donné.
 
 ![](assets/item-capping.png)
 
@@ -133,9 +133,9 @@ Lors de la configuration des règles de limitation, vous pouvez référencer des
 
 >[!NOTE]
 >
->Cette fonctionnalité est actuellement disponible en disponibilité limitée pour tous les utilisateurs. Vous trouverez des informations détaillées sur son utilisation dans cette section : [Utilisation des données Adobe Experience Platform pour la prise de décision](../experience-decisioning/aep-data-exd.md)
+>Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des utilisateurs et utilisatrices. Vous trouverez des informations détaillées sur son utilisation dans cette section : [Utiliser les données Adobe Experience Platform pour la prise de décision](../experience-decisioning/aep-data-exd.md).
 
-Pour définir des règles de limitation pour l’élément de décision, cliquez sur le bouton **[!UICONTROL Créer une limitation]** puis suivez les étapes détaillées ci-dessous.
+Pour définir des règles de limitation pour l’élément de décision, cliquez sur le bouton **[!UICONTROL Créer une limitation]**, puis procédez comme suit :
 
 ![](assets/item-capping-create.png)
 
@@ -144,7 +144,7 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
    * **[!UICONTROL Événement de décision]** (valeur par défaut) : nombre maximal de fois où une offre peut être présentée.
    * **[!UICONTROL Impression]** (canaux entrants uniquement) : nombre maximal de fois où l’offre peut être présentée à un utilisateur ou une utilisatrice.
    * **[!UICONTROL Clics]** : nombre maximal de fois où l’utilisateur ou l’utilisatrice peut cliquer sur un élément de décision.
-   * **[!UICONTROL Événement personnalisé]** : vous pouvez définir un événement personnalisé afin de limiter le nombre de fois où l’élément est envoyé. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr-FR){target="_blank"} pour créer une règle d’événement personnalisé.
+   * **[!UICONTROL Événement personnalisé]** : vous pouvez définir un événement personnalisé afin de limiter le nombre de fois où l’élément est envoyé. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} pour créer une règle d’événement personnalisé.
 
    >[!NOTE]
    >
@@ -172,11 +172,11 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
 
    Au lieu d’utiliser une valeur statique pour le seuil de limitation, vous pouvez définir votre propre expression. Vous pouvez ainsi calculer le seuil de manière dynamique à l’aide d’attributs de décision et/ou d’attributs externes d’un jeu de données Adobe Experience Platform.
 
-   Par exemple, un spécialiste marketing peut décider d’ajouter un multiplicateur pour ajuster l’exposition. Par exemple, ils peuvent multiplier l’inventaire disponible par deux, ce qui permet à l’offre d’être présentée à deux fois plus de clients que d’unités disponibles. Cette approche prévoit que tous les clients ne convertiront pas, assurant ainsi une meilleure portée sans vente excessive.
+   Par exemple, un ou une spécialiste marketing peut décider d’ajouter un multiplicateur pour ajuster l’exposition. Cette personne peut notamment multiplier l’inventaire disponible par deux, ce qui permet à l’offre d’être présentée à deux fois plus de clients et clientes que d’unités disponibles. Cette approche prévoit que tous les clients et toutes les clientes ne convertiront pas, assurant ainsi une meilleure portée sans surenchérir.
 
    >[!NOTE]
    >
-   >Les règles de limitation **expressions** sont actuellement disponibles en tant que disponibilité limitée pour tous les utilisateurs. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**.
+   >Les **expressions** de règle de limitation sont actuellement en disponibilité limitée pour l’ensemble des utilisateurs et utilisatrices. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**.
 
    Pour utiliser une expression, activez l’option **[!UICONTROL Expression]**, puis modifiez l’expression selon vos besoins.
 

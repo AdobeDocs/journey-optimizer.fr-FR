@@ -7,7 +7,7 @@ exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -64,7 +64,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
    1. Dans le champ **[!UICONTROL Limitation]**, définissez le nombre maximal de parcours qu’un profil peut rejoindre.
    1. Dans le champ **[!UICONTROL Durée]**, définissez la période à prendre en compte. Veuillez noter que la durée est basée sur le fuseau horaire UTC. Par exemple, la limite quotidienne est réinitialisée à minuit UTC.
 
-   Dans cet exemple, nous souhaitons empêcher les profils de saisir plus de « 5 » parcours par mois.
+   Dans cet exemple, nous voulons limiter à 5 le nombre de parcours par mois que les profils peuvent rejoindre.
 
    ![](assets/journey-capping-entry-example.png)
 
@@ -115,8 +115,8 @@ Une fois un parcours actif, vous pouvez vérifier dans le rapport de parcours si
 
 ![](assets/journey-report.png)
 
-En outre, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour créer des requêtes afin d&#39;identifier la règle qui a empêché un profil d&#39;entrer dans un parcours donné. Un exemple de requête est disponible dans [cette section](../reports/query-examples.md#common-queries).
+En outre, vous pouvez également utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour créer des requêtes permettant d’identifier quelle règle a empêché un profil de rejoindre un parcours donné. Un exemple de requête est disponible dans [cette section](../reports/query-examples.md#common-queries).
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

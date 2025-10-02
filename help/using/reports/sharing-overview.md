@@ -11,7 +11,7 @@ exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ La liste des champs XDM transmis est complète. Certains contiennent des codes g
 >
 >Les jeux de données ne peuvent pas être activés pour le service de profil en temps réel. Assurez-vous que le bouton **[!UICONTROL Profil]** est désactivé.
 
-[!DNL Journey Optimizer] envoie les données au fur et à mesure, en flux continu. Vous pouvez appliquer des requêtes à ces données à l’aide du service Requêtes. Vous pouvez vous connecter à Customer Journey Analytics ou à d’autres outils de BI pour visualiser les données concernant ces étapes.
+[!DNL Journey Optimizer] envoie les données au fur et à mesure, en streaming. Vous pouvez appliquer des requêtes à ces données à l’aide du service Requêtes. Vous pouvez vous connecter à Customer Journey Analytics ou à d’autres outils de BI pour visualiser les données concernant ces étapes.
 
 Les schémas suivants sont créés :
 
@@ -63,12 +63,12 @@ Les listes des champs XDM transmis à Adobe Experience Platform sont détaill�
 
 ## Intégration à Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] événements d’étape peuvent être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr){target="_blank"}.
+Les événements d’étape [!DNL Journey Optimizer] peuvent être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr){target="_blank"}.
 
 Le workflow général est le suivant :
 
 * [!DNL Customer Journey Analytics] ingère le jeu de données « Événement d&#39;étape du parcours ».
 * Le champ **profileID** dans le « schéma d&#39;événement d&#39;étape du parcours pour Journey Orchestration » associé est défini comme un champ d&#39;identité. Dans [!DNL Customer Journey Analytics], vous pouvez ensuite lier ce jeu de données à tout autre jeu de données ayant la même valeur que l&#39;identifiant basé sur la personne.
-* Pour utiliser ce jeu de données dans [!DNL Customer Journey Analytics], pour une analyse de parcours cross-canal, consultez la documentation de [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr){target="_blank"}.
+* Pour utiliser ce jeu de données dans [!DNL Customer Journey Analytics], pour l&#39;analyse des parcours cross-canal, reportez-vous à la [documentation Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr){target="_blank"}.
 
-➡️ [Utilisation de Customer Journey Analytics](cja-ajo.md){target="_blank"}
+➡️ [Utiliser Customer Journey Analytics](cja-ajo.md){target="_blank"}

@@ -6,7 +6,7 @@ description: Mathématiques
 redpen-status: CREATED_||_2025-08-11_20-16-12
 exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 

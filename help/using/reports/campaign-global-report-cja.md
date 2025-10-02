@@ -11,7 +11,7 @@ exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Notez que les mesures varient en fonction des canaux utilisés dans votre campag
 
 +++ En savoir plus sur les mesures de vue d’ensemble de campagne
 
-* **[!UICONTROL Personnes]** : nombre de profils qui sont qualifiés en tant que profils cibles pour vos messages.
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices identifiés comme cibles de vos messages.
 
 * **[!UICONTROL Taux de clics]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec le message.
 
@@ -107,20 +107,20 @@ Le tableau **[!UICONTROL Libellé des liens de suivi]** offre des informations e
 
 +++
 
-## Présentation du ciblage {#targeting}
+## Vue d’ensemble du ciblage {#targeting}
 
 ![](assets/cja-journey-targeting-overview.png)
 
-Si vous configurez des **[!UICONTROL règles de ciblage]** pour votre contenu, le tableau **[!UICONTROL Présentation du ciblage]** fournit une vue détaillée des mesures d’engagement clés, qui montre comment les profils ciblés de chaque règle ont interagi avec votre contenu.
+Si vous configurez des **[!UICONTROL règles de ciblage]** pour votre contenu, le tableau **[!UICONTROL Vue d’ensemble du ciblage]** fournit une vue détaillée des mesures d’engagement clés, montrant comment les profils ciblés de chaque règle ont interagi avec votre contenu.
 
 ➡️ [En savoir plus sur les règles de ciblage](../campaigns/campaigns-message-optimization.md)
 
-+++ En savoir plus sur les mesures de présentation du ciblage
++++ En savoir plus sur les mesures du tableau Vue d’ensemble du ciblage
 
-* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos événements.
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices identifiés comme cibles de vos événements.
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 
-* **[!UICONTROL Taux de clics uniques]** : pourcentage de profils ciblés ayant cliqué au moins une fois.
+* **[!UICONTROL Taux de clics uniques]** : pourcentage de profils ciblés ayant cliqué au moins une fois.
 
 +++

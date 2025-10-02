@@ -10,13 +10,13 @@ level: Intermediate
 badge: label="Private Beta" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 53d8fbb28e8516e4ee79f556a335b2d084af42e7
+exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
+source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
 
 ---
-
 
 # Génération automatique de variantes de contenu (Beta){#auto-generate-variants}
 

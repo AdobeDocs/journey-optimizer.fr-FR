@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -46,33 +46,33 @@ ht-degree: 53%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible pour tous les clients sous la forme d’une version à disponibilité limitée.
+>Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clientes et clients.
 
 [!DNL Journey Optimizer] vous permet d’exploiter les données d’[!DNL Adobe Experience Platform] pour la prise de décision. Vous pouvez ainsi étendre la définition des attributs de décision aux données supplémentaires des jeux de données pour les mises à jour en masse qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un. Par exemple, la disponibilité, les temps d’attente, etc.
 
 >[!IMPORTANT]
 >
->[!DNL Journey Optimizer] prend en charge jusqu’à 1 000 recherches pour une politique de décision unique.
+>[!DNL Journey Optimizer] prend en charge jusqu’à 1 000 recherches pour une seule politique de décision.
 
 ## Conditions préalables
 
-### Activer les jeux de données pour la recherche
+### Activer des jeux de données pour la recherche
 
-Avant de commencer, les jeux de données nécessaires à la prise de décision doivent d’abord être activés pour la recherche. Suivez les étapes présentées dans cette section : [Utiliser les données Adobe Experience Platform](../data/lookup-aep-data.md).
+Avant de commencer, les jeux de données nécessaires à la prise de décision doivent être activés pour la recherche. Suivez les étapes présentées dans cette section : [Utiliser les données d’Adobe Experience Platform](../data/lookup-aep-data.md).
 
 ### Créer des mappages
 
-Pour utiliser des attributs de Adobe Experience Platform pour la prise de décision, vous devez créer un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]. Pour ce faire, procédez comme suit :
+Pour utiliser des attributs Adobe Experience Platform pour la prise de décision, vous devez créer un mappage afin de définir la manière dont le jeu de données Adobe Experience Platform s’associe aux données dans [!DNL Journey Optimizer]. Pour ce faire, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Catalogues]** / **[!UICONTROL Recherche de jeu de données]** puis cliquez sur **[!UICONTROL Créer]**.
+1. Accédez à **[!UICONTROL Catalogues]** / **[!UICONTROL Recherche de jeu de données]**, puis cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/exd-lookup-mapping.png)
 
-1. Configurez le mappage :
+1. Configurez le mappage :
 
    1. Cliquez sur **[!UICONTROL Sélectionner un jeu de données]** pour afficher tous les jeux de données Adobe Experience Platform qui ont été activés pour la recherche. Sélectionnez le jeu de données avec les attributs dont vous avez besoin.
 
-   1. Cliquez sur **[!UICONTROL Sélectionner la clé]** pour choisir une clé de jointure (par exemple, numéro de vol ou ID client) qui existe à la fois dans les attributs d&#39;élément de décision et dans le jeu de données.
+   1. Cliquez sur **[!UICONTROL Sélectionner une clé]** afin de choisir une clé de jointure (par exemple, le numéro de vol ou l’ID client) qui existe à la fois dans les attributs de l’élément de décision et dans le jeu de données.
 
    ![](assets/exd-lookup-mapping-create.png)
 
@@ -80,15 +80,15 @@ Pour utiliser des attributs de Adobe Experience Platform pour la prise de décis
 
 ## Utiliser des données Adobe Experience Platform {#leverage-aep-data}
 
-Une fois qu’un jeu de données est activé pour la recherche et que les mappages ont été créés, vous pouvez utiliser les données pour enrichir votre logique de décision avec des données externes. Cela s’avère particulièrement utile pour les attributs qui changent fréquemment, tels que la disponibilité des produits ou la tarification en temps réel.
+Une fois que vous avez activé le jeu de données pour la recherche et que vous avez créé les mappages, vous pouvez utiliser ses attributs pour enrichir votre logique de décision avec des données externes. Cela s’avère particulièrement utile pour les attributs qui changent fréquemment, tels que la disponibilité des produits ou la tarification en temps réel.
 
 Les attributs des jeux de données Adobe Experience Platform peuvent être utilisés dans deux parties de la logique de décision :
 
 * **Règles de décision** : définissent si un élément de décision peut être affiché.
 * **Formules de classement** : définissent la priorité des éléments de décision en fonction de données externes.
-* **Règles de limitation** : utilisez des données externes pour calculer le seuil des règles de limitation.
+* **Règles de limitation** : utilisez des données externes pour calculer le seuil des règles de limitation.
 
-Les sections suivantes expliquent comment utiliser les données Adobe Experience Platform dans ces contextes.
+Les sections suivantes expliquent comment utiliser les données d’Adobe Experience Platform dans ces contextes.
 
 ### Règles de décision {#rules}
 
@@ -102,7 +102,7 @@ Pour utiliser les données Adobe Experience Platform dans des règles de décisi
 
    ![](assets/exd-lookup-rule.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter un jeu de données]** puis sélectionnez le jeu de données avec les attributs dont vous avez besoin.
+1. Cliquez sur **[!UICONTROL Ajouter un jeu de données]**, puis sélectionnez le jeu de données avec les attributs dont vous avez besoin.
 
    ![](assets/exd-lookup-select-dataset.png)
 
@@ -118,11 +118,11 @@ Supposons, par exemple, qu’une compagnie aérienne utilise une formule de clas
 
 Pour utiliser les données d’Adobe Experience Platform dans des formules de classement, procédez comme suit :
 
-1. Créer ou modifier une formule de classement.
+1. Créez ou modifiez une formule de classement.
 
-1. Dans la section **[!UICONTROL Recherche de jeu de données]**, cliquez sur **[!UICONTROL Ajouter un jeu de données]**.
+1. Dans la section **[!UICONTROL Recherche d’un jeu de données]**, cliquez sur **[!UICONTROL Ajouter un jeu de données]**.
 
-1. Sélectionnez le jeu de données approprié.
+1. Sélectionnez le jeux de données approprié.
 
    ![](assets/exd-lookup-formula-dataset.png)
 
@@ -136,17 +136,17 @@ Pour utiliser les données d’Adobe Experience Platform dans des formules de cl
 
 ### Règles de limitation {#capping-rules}
 
-Les règles de limitation sont utilisées comme contraintes pour définir le nombre maximal de fois où un élément de décision peut être présenté. L’utilisation des données Adobe Experience Platform dans les règles de limitation vous permet de définir des critères de limitation en fonction d’attributs externes dynamiques. Pour ce faire, utilisez une expression dans votre règle de limitation pour calculer le seuil de limitation souhaité.
+Les règles de limitation sont utilisées comme contraintes pour définir le nombre maximal de fois où un élément de décision peut être présenté. L’utilisation de données d’Adobe Experience Platform dans les règles de limitation vous permet de définir des critères de limitation en fonction d’attributs externes dynamiques. Pour ce faire, utilisez une expression dans votre règle de limitation pour calculer le seuil de limitation souhaité.
 
-Par exemple, un retailer peut limiter une offre en fonction de l’inventaire de produits en temps réel. Au lieu de définir un seuil fixe de 500, ils utilisent une expression référençant le champ `inventory_count` d’un jeu de données Adobe Experience Platform. Si le jeu de données indique que 275 articles restent en stock, l’offre ne sera diffusée que jusqu’à ce nombre.
+Par exemple, un détaillant peut limiter une offre en fonction du stock de produits en temps réel. Au lieu de définir un seuil fixe de 500, il utilise une expression qui référence le champ `inventory_count` d’un jeu de données Adobe Experience Platform. Si le jeu de données indique qu’il reste 275 articles en stock, l’offre sera limitée à ce nombre.
 
 >[!NOTE]
 >
->Les règles de limitation **expressions** sont actuellement disponibles en tant que fonctionnalité à disponibilité limitée pour tous les utilisateurs et ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**.
+>Les **expressions** des règles de limitation sont actuellement en disponibilité limitée pour l’ensemble des utilisateurs et utilisatrices et ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**.
 
-Pour utiliser les données Adobe Experience Platform dans les expressions de règles de limitation, procédez comme suit :
+Pour utiliser les données Adobe Experience Platform dans des expressions de règles de limitation, procédez comme suit :
 
-1. Créer ou modifier un élément de décision.
+1. Créez ou modifiez un élément de décision.
 
 1. Lors de la définition de l’éligibilité de l’élément, cliquez sur **[!UICONTROL Ajouter un jeu de données]** et sélectionnez le jeu de données approprié.
 
@@ -168,4 +168,4 @@ Pour utiliser les données Adobe Experience Platform dans les expressions de rè
 
    ![](assets/exd-lookup-capping-attribute.png)
 
-1. Effectuez la configuration de votre élément de décision de limitation et de règle comme d’habitude. [Découvrez comment définir des règles de limitation](../experience-decisioning/items.md#capping)
+1. Effectuez la configuration de votre élément de décision de limitation et de règle comme d’habitude. [Découvrir comment définir des règles de limitation](../experience-decisioning/items.md#capping)

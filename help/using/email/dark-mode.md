@@ -12,7 +12,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 70%
 >title="Basculer vers le mode sombre"
 >abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
 
-Lors de la conception de vos e-mails, le [!DNL Journey Optimizer] [Email Designer](get-started-email-design.md) vous permet de passer à la vue **[!UICONTROL Mode sombre]**.
+Lors de la conception de vos e-mails, le [!DNL Journey Optimizer] [Concepteur d’e-mail](get-started-email-design.md) vous permet de passer à la vue **[!UICONTROL Mode sombre]**.
 
-Dans cette vue en mode sombre <!--Email Designer -->, vous pouvez également définir des paramètres personnalisés spécifiques qui seront affichés par les clients de messagerie de support lorsque leur mode sombre est activé.
+Dans cette vue en mode sombre<!--Email Designer -->, vous pouvez également définir des paramètres personnalisés spécifiques qui seront affichés par les clients de messagerie en mode sombre.
 
 <!--When designing your emails, the Journey Optimizer Email Designer allows you to switch to Dark mode where you can define specific custom settings. When dark mode is on, the supporting email clients will display the settings that you defined for this mode.-->
 
@@ -38,19 +38,19 @@ Dans cette vue en mode sombre <!--Email Designer -->, vous pouvez également dé
 
 La manière dont le mode sombre est rendu dans les différents clients de messagerie est complexe. Définissons d’abord le mode sombre.
 
-Le mode sombre permet aux clients de messagerie et aux applications de prise en charge d’afficher les e-mails avec des arrière-plans plus sombres et des couleurs plus claires pour le texte, les boutons et d’autres éléments de l’interface utilisateur. Il permet de réduire la fatigue oculaire, d’économiser la batterie et d’améliorer la lisibilité dans les environnements peu éclairés pour une expérience visuelle plus confortable.
+Le mode sombre permet aux clients de messagerie et aux applications pris en charge d’afficher les e-mails avec des arrière-plans sombres et des couleurs plus claires pour le texte, les boutons et les autres éléments de l’interface d’utilisation. Il permet de réduire la fatigue oculaire, d’économiser la batterie et d’améliorer la lisibilité dans les environnements peu éclairés pour une expérience visuelle plus confortable.
 
 <!--Dark Mode uses a dark color palette with light text and UI elements to reduce eye strain, save battery life, and improve readability in low-light environments.-->
 
-En tant que tendance croissante sur les principaux systèmes d’exploitation et applications<!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)--> il est devenu une considération importante dans la conception d’e-mails modernes afin de s’assurer que le contenu reste lisible et visuellement attrayant pour tous les utilisateurs et utilisatrices.
+Étant donné qu’il s’agit d’une tendance croissante dans les principaux systèmes d’exploitation et applications <!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)-->, cette fonctionnalité est devenue un point important à prendre en compte dans la conception d’e-mails modernes pour veiller à ce que le contenu reste lisible et visuellement attrayant pour l’ensemble des utilisateurs et utilisatrices.
 
 ## Mécanismes de sécurisation {#guardrails}
 
-Les attentes en termes de rendu en mode sombre doivent être considérées avec précaution, car la façon dont elles sont appliquées par les différents clients de messagerie peut varier considérablement.
+Les attentes en termes de rendu en mode sombre doivent rester mesurées, car leur application peut varier considérablement selon le client de messagerie.
 
 <!--The dark mode final rendering depends on the recipient's email client. It is not possible to guarantee that your email will look the same in dark mode across all devices.-->
 
-Avant d’utiliser le mode sombre dans le Designer de messagerie [!DNL Journey Optimizer], il est essentiel de comprendre comment les principaux clients de messagerie le gèrent. Il existe trois cas à distinguer :
+Avant d’utiliser le mode sombre dans le Concepteur d’e-mail [!DNL Journey Optimizer], il est essentiel de comprendre comment les principaux clients de messagerie le gèrent. Il existe trois cas :
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
@@ -58,28 +58,28 @@ Avant d’utiliser le mode sombre dans le Designer de messagerie [!DNL Journey O
 * Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
 -->
 
-### Clients ne prenant pas en charge le mode sombre {#not-supporting}
+### Clients qui ne prennent pas en charge le mode sombre. {#not-supporting}
 
-Certains clients de messagerie ne prennent pas du tout en charge cette fonctionnalité, tels que :
+Certains clients de messagerie ne prennent pas du tout en charge cette fonctionnalité, tels que :
 
 * Yahoo!Mail
 * AOL
 
-Que vous définissiez des paramètres personnalisés en mode sombre ou non dans le Designer Email, ces clients de messagerie n’affichent jamais de rendu en mode sombre. <!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
+Que vous définissiez des paramètres personnalisés pour le mode sombre ou non dans le Concepteur d’e-mail, ces clients de messagerie n’affichent jamais de rendu en mode sombre. <!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
 
-### Clients appliquant leur propre mode sombre {#default-support}
+### Clients qui appliquent leur propre mode sombre. {#default-support}
 
-Certains clients de messagerie appliquent systématiquement leur propre mode sombre par défaut pour tous les e-mails reçus. Couleurs, fonds, images, etc. sont automatiquement ajustés avec les paramètres du mode sombre spécifiques au client de messagerie, ce qui signifie qu’aucune modification externe n’est possible.
+Certains clients de messagerie appliquent uniquement leur propre mode sombre par défaut pour tous les e-mails reçus. Les couleurs, arrière-plans, images, etc. sont automatiquement ajustés avec les paramètres du mode sombre spécifiques au client de messagerie, ce qui signifie qu’aucune modification externe n’est possible.
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
-Ces clients sont par exemple :
+Ces clients sont par exemple :
 
 * Gmail (client de messagerie web de bureau, iOS, Android, client de messagerie web mobile)
 * Outlook Windows
 * Outlook Windows Mail
 
-Dans ce cas, si vous définissez des paramètres de mode sombre personnalisés dans le Designer Email, ces paramètres sont remplacés par les paramètres du client de messagerie.
+Dans ce cas, si vous définissez des paramètres de mode sombre personnalisés dans le Concepteur d’e-mail, ces paramètres sont remplacés par les paramètres du client de messagerie.
 
 Il est important de comprendre que ces clients de messagerie gèrent le mode sombre, mais votre conception de mode sombre spécifique ne sera pas rendue.
 
@@ -87,11 +87,11 @@ Il est important de comprendre que ces clients de messagerie gèrent le mode som
 
 <!--Some visual changes may also be caused by the email app or device overriding the original design.-->
 
-### Clients prenant en charge le mode sombre personnalisé {#custom-support}
+### Clients qui prennent en charge le mode sombre personnalisé. {#custom-support}
 
-D’autres clients de messagerie offrent la possibilité de rendre le mode sombre personnalisé avec la requête `@media (prefers-color-scheme: dark)`, qui est la méthode utilisée par le Designer de messagerie [!DNL Journey Optimizer].
+D’autres clients de messagerie offrent la possibilité de rendre le mode sombre personnalisé avec la requête `@media (prefers-color-scheme: dark)`, qui est la méthode utilisée par le Concepteur d’e-mail [!DNL Journey Optimizer].
 
-Voici une liste des principaux clients gérant cette option :
+Voici une liste des principaux clients qui gèrent cette option :
 
 * Apple Mail macOS
 * Apple Mail iOS
@@ -100,15 +100,15 @@ Voici une liste des principaux clients gérant cette option :
 * Outlook iOS
 * Outlook Android
 
-Dans ce cas, les paramètres spécifiques que vous définissez dans le Designer Email doivent être affichés.
+Dans ce cas, les paramètres spécifiques que vous définissez dans le Concepteur d’e-mail doivent s’afficher.
 
 >[!NOTE]
 >
->Découvrez comment définir des paramètres de mode sombre personnalisés avec le Designer Email dans [cette section](#define-custom-dark-mode).
+>Découvrez dans [cette section](#define-custom-dark-mode) comment définir les paramètres personnalisés du mode sombre dans le Concepteur d’e-mail.
 
-Cependant, certaines restrictions peuvent s’appliquer en fonction de chaque client de messagerie. Par exemple, certains clients tels qu’Apple Mail 16 (macOs 13) ne généreront pas de mode sombre si des images sont présentes dans le contenu de l’e-mail.
+Cependant, certaines restrictions peuvent s’appliquer en fonction de chaque client de messagerie. Par exemple, certains clients tels qu’Apple Mail 16 (macOS 13) ne génèrent pas de mode sombre si des images sont présentes dans le contenu de l’e-mail.
 
-Pour des résultats optimaux, testez votre contenu avec les clients de messagerie que vous ciblez. Pour voir une simulation qui se rapproche le plus possible du résultat final pour chaque client, utilisez l’option [Rendu des emails](../content-management/rendering.md) dans le Designer d’emails.
+Pour des résultats optimaux, testez votre contenu avec les clients de messagerie que vous ciblez. Pour visualiser une simulation qui se rapproche le plus possible du résultat final pour chaque client, utilisez l’option [Rendu des e-mails](../content-management/rendering.md) dans le Concepteur d’e-mail.
 
 ## Mode sombre dans le Concepteur d’e-mail {#dark-mode-email-designer}
 
@@ -223,7 +223,7 @@ Le mode sombre peut modifier les couleurs, les arrière-plans et les images, par
 
 * Enregistrez les logos et les icônes au format PNG avec des arrière-plans transparents pour éviter la présence de zones blanches visibles en mode sombre.
 
-* Évitez les images avec des fonds blancs ou clairs codés en dur.
+* Évitez les images avec des arrière-plans blancs ou clairs codés en dur.
 
 * Si vous ne pouvez pas utiliser la transparence, placez les images sur un arrière-plan uni dans votre conception pour éviter des inversions de couleurs inappropriées.
 
@@ -259,7 +259,7 @@ The best practices for designing accesible content in dark mode are listed in [t
 
 * Utilisez la [prévisualisation du mode sombre](#preview-dark-mode) du Concepteur d’e-mail, qui utilise des modèles de couleurs inversées, pour repérer les problèmes en amont.
 
-* Utilisez l’option [Rendu d’e-mail](../content-management/rendering.md) qui tire parti de Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir comment les couleurs et les images se comportent en mode sombre.
+* Utilisez l’option [Rendu des e-mails](../content-management/rendering.md) qui tire parti de Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir comment les couleurs et les images se comportent en mode sombre.
 
 <!--
 

@@ -14,7 +14,7 @@ exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
 source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,15 +33,15 @@ Vous pouvez utiliser cette fonctionnalité pour accéder à des données externe
 
 ## Limites de la version Beta {#limitations}
 
-La version bêta présente les limites suivantes :
+La version Beta présente les limites suivantes :
 
-* Les canaux sortants ne sont pris en charge que.
+* Seuls les canaux sortants sont pris en charge.
 
 * Seul le format JSON est pris en charge pour les réponses d’appel API. Les sorties HTML et d’images binaires brutes ne sont pas disponibles.
 
 * Seules les API de récupération ciblant un contenu spécifique sont prises en charge. Les API de liste ne sont pas disponibles.
 
-* La fonctionnalité Intégrations est disponible pour les Parcours et les campagnes , mais n’est pas prise en charge dans les fragments.
+* La fonctionnalité Intégrations est disponible pour les parcours et les campagnes, mais n’est pas prise en charge dans les fragments.
 
 ## Configurer votre intégration {#configure}
 

@@ -119,7 +119,7 @@ Le tableau **[!UICONTROL E-mail – Statistiques de tracking]** offre un compte 
 
 ![](assets/cja-email-email-domains.png)
 
-Le tableau **[!UICONTROL Domaines des e-mails]** offre une ventilation très détaillée des e-mails classés par domaine, ce qui permet d’obtenir des informations précises sur les mesures de performance des parcours de vos e-mails. Cette analyse exhaustive vous permet de comprendre le comportement de différents domaines en réponse au contenu de vos e-mails.
+Le tableau **[!UICONTROL Domaines des e-mails]** offre une répartition très détaillée des e-mails classés par domaine, ce qui permet d’obtenir des informations précises sur les mesures de performance des parcours de vos e-mails. Cette analyse exhaustive vous permet de comprendre le comportement de différents domaines en réponse au contenu de vos e-mails.
 
 +++ En savoir plus sur les mesures des domaines d’e-mails
 

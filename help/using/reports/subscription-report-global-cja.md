@@ -35,7 +35,7 @@ L’indicateur clé de performance **[!UICONTROL Ajouts à la liste d’abonneme
 
 ![](assets/cja-sub-add-remove.png)
 
-L’indicateur clé de performance **[!UICONTROL Suppressions de la liste d’abonnements]** fournit une ventilation du nombre total de désabonnements survenus au cours de la période spécifiée. Cette mesure offre des informations précieuses sur le désengagement des personnes abonnées.
+L’indicateur clé de performance **[!UICONTROL Suppressions de la liste d’abonnements]** fournit une répartition du nombre total de désabonnements survenus au cours de la période spécifiée. Cette mesure offre des informations précieuses sur le désengagement des personnes abonnées.
 
 ## Croissance des abonnements dans le temps
 

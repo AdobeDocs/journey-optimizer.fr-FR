@@ -86,7 +86,7 @@ Vous pouvez désormais créer un événement basé sur les données du SDK web d
 
 Dans l’exemple ci-dessous, découvrez comment cibler les utilisateurs et utilisatrices qui ont ajouté un produit à leurs paniers :
 
-* Si la commande est terminée, les utilisateurs et utilisatrices recevront un e-mail de suivi deux jours plus tard pour leur demander leur avis.
+* Si la commande est terminée, les utilisateurs et utilisatrices recevront un e-mail de suivi deux jours plus tard les invitant à fournir des commentaires.
 * Si la commande n’est pas terminée, les utilisateurs et utilisatrices recevront un e-mail leur rappelant de terminer leur commande.
 
 1. À partir d’Adobe Journey Optimizer, accédez au menu **[!UICONTROL Configuration]**.

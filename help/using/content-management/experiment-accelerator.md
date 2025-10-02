@@ -12,7 +12,7 @@ exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
 source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 16%
+ht-degree: 51%
 
 ---
 
@@ -24,33 +24,33 @@ ht-degree: 16%
 
 Le **Journey Optimizer Experimentation Accelerator** est un outil puissant conçu pour rationaliser et améliorer le processus d’expérimentation. En s’intégrant à Adobe Target et Adobe Journey Optimizer, il fournit une plateforme centralisée pour gérer, analyser et optimiser les expériences. Exploitant les informations basées sur l’IA et les tests adaptatifs, le Journey Optimizer Experimentation Accelerator vous permet de prendre des décisions basées sur les données, d’améliorer les stratégies marketing et de générer des résultats mesurables.
 
-Les principaux avantages sont les suivants :
+Il offre les principaux avantages suivants :
 
-* **Expérimentation plus rapide** : exécutez des tests adaptatifs permanents avec des modèles qui s’ajustent au fil du temps.
+* **Expérimentation plus rapide** : exécutez des tests adaptatifs continus avec des modèles qui s’ajustent au fil du temps.
 
-* **Plateforme unifiée** : gérez toutes les expériences d’Adobe Target et de Journey Optimizer au même endroit.
+* **Plateforme unifiée** : gérez toutes les expérimentations concernant Adobe Target et Journey Optimizer au même endroit.
 
-* **Informations basées sur l’IA** : découvrez automatiquement les résultats clés, les facteurs de performance et les nouvelles opportunités.
+* **Informations basées sur l’IA** : mettez automatiquement en évidence les résultats clés, les facteurs de performances et les nouvelles opportunités.
 
-* **Ciblage plus intelligent** : utilisez des données comportementales et de contenu pour donner la priorité aux expériences à fort impact.
+* **Ciblage plus intelligent** : utilisez des données comportementales et de contenu pour donner la priorité aux expériences à fort impact.
 
-* **Surveillance des KPI** : suivez les mesures telles que l’effet élévateur et le degré de confiance dans toutes les expériences.
+* **Surveillance des KPI** : effectuez le suivi de mesures telles que l’impact sur les KPI et le degré de confiance dans toutes les expériences.
 
-* **Collaboration transparent** : partagez facilement les résultats et gérez les rôles d’équipe avec des alertes en temps réel.
+* **Collaboration fluide** : partagez facilement les résultats et gérez les rôles d’équipe avec des alertes en temps réel.
 
 ## Accéder à Journey Optimizer Experimentation Accelerator
 
 Après avoir [créé et configuré votre expérience](content-experiment.md) et envoyé vos campagnes ou parcours à vos profils, vous pouvez accéder au **[!UICONTROL Journey Optimizer Experimentation Accelerator]** pour mieux comprendre les performances de votre expérience.
 
-Vous pouvez accéder à **[!UICONTROL Journey Optimizer Experimentation Accelerator]** à partir du menu de gauche de la liste déroulante [!UICONTROL Expérimentation] ou via le sélecteur d’applications. Notez que les utilisateurs disposant uniquement d’une licence Target peuvent y accéder uniquement par le biais du sélecteur d’applications.
+Vous pouvez accéder à **[!UICONTROL Journey Optimizer Experimentation Accelerator]** à partir du menu de gauche de la liste déroulante [!UICONTROL Expérimentation] ou via le sélecteur d’applications. Notez que les utilisateurs et les utilisatrices qui ne disposent que d’une licence Target peuvent y accéder uniquement par le biais du sélecteur d’applications.
 
-Les expériences disponibles dépendent de votre configuration :
+Les expériences disponibles dépendent de votre configuration :
 
-* **Pour les utilisateurs de Adobe Journey Optimizer** : les expériences configurées dans le sandbox de votre organisation activée sont automatiquement incluses.
+* **Pour les utilisateurs et les utilisatrices d’Adobe Journey Optimizer** : les expériences configurées dans le sandbox activé de votre organisation sont automatiquement incluses.
 
 * **Pour les utilisateurs d’Adobe Target avec Journey Optimizer** : toutes les activités A/B de Target apparaissent dans **[!UICONTROL Journey Optimizer Experimentation Accelerator]** dans le sandbox de production de Journey Optimizer.
 
-* **Pour les utilisateurs Adobe Target uniquement** : toutes les activités A/B de votre organisation Target sont incluses dans le sandbox de production de Journey Optimizer.
+* **Pour les utilisateurs et les utilisatrices d’Adobe Target uniquement** : toutes les activités A/B de votre organisation Target sont incluses dans le sandbox de production de Journey Optimizer.
 
 Pour utiliser **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, vous devez accéder au sandbox et disposer des autorisations associées suivantes :
 

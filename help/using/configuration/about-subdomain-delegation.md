@@ -12,7 +12,7 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Découvrez comment créer un sous-domaine à l’aide de CNAME pour pointer vers
 
 ### Utiliser un sous-domaine personnalisé {#custom-subdomain-delegation}
 
-La méthode de délégation personnalisée vous permet de contrôler et de gérer entièrement tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.
+La méthode de délégation personnalisée vous permet de contrôler et de gérer tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.
 
 Dans ce cas, vous possédez et gérez entièrement vos propres sous-domaines et avez un contrôle total sur les certificats générés dans le cadre de ce processus.
 
@@ -108,7 +108,7 @@ Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le n
 |---|---|---|
 | **Délégation complète** | Créez l’enregistrement du sous-domaine et de l’espace de noms. Adobe configurera alors tous les enregistrements DNS nécessaires à Adobe Campaign.<br/><br/>Dans cette configuration, Adobe est entièrement responsable de la gestion du sous-domaine et de tous les enregistrements DNS. | Faible |
 | **Méthode CNAME** | Créez l’enregistrement du sous-domaine et de l’espace de noms. Adobe fournira alors les enregistrements à placer sur vos serveurs DNS et configurera les valeurs correspondantes sur les serveurs DNS Adobe Campaign.<br/><br/>Dans cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. | Élevé |
-| **Méthode de délégation personnalisée** | Création de l’enregistrement du sous-domaine et de l’espace de noms : Adobe fournira ensuite les enregistrements à placer dans vos serveurs DNS. Téléchargez le certificat SSL obtenu auprès de l’autorité de certification et effectuez les étapes de Feedback Loop en vérifiant la propriété du domaine et l’adresse e-mail de création de rapports.<br/><br/>Dans cette configuration, vous êtes entièrement responsable de la maintenance du DNS. | Très élevé |
+| **Méthode de délégation personnalisée** | Création de l’enregistrement du sous-domaine et de l’espace de noms : Adobe fournira ensuite les enregistrements à placer dans vos serveurs DNS. Chargez le certificat SSL obtenu auprès de l’autorité de certification et suivez les étapes du système de feedback en vérifiant la propriété du domaine et l’adresse e-mail de signalement.<br/><br/>Dans cette configuration, vous avez l’entière responsabilité de la gestion du DNS. | Très élevé |
 
 Des informations supplémentaires sur la configuration de domaine sont disponibles dans [cette documentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=fr){target="_blank"}.
 

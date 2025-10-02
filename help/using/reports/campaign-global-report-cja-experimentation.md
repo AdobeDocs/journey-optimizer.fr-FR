@@ -11,7 +11,7 @@ exl-id: 69742163-7378-49ab-929e-86213d6e65e3
 source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -49,24 +49,24 @@ Les indicateurs clés de performance (KPI) d’**[!UICONTROL expérimentation]*
 
 ![](assets/cja-experimentation-variants.png)
 
-Le tableau **Variante par mesures de succès** indique les performances de chaque variante en fonction de la mesure de succès sélectionnée lors de la configuration de l’expérience.
+Le tableau **Variante par mesure de succès** indique les performances de chaque variante en fonction de la mesure de succès sélectionnée lors de la configuration de l’expérience.
 Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../content-management/get-started-experiment.md#interpret-results).
 
-+++ En savoir plus sur la mesure Variante par succès .
++++ En savoir plus sur le tableau Variante par mesure de succès
 
-* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices identifiés comme cibles de vos messages.
 
-* **[!UICONTROL Clics entrants]** : valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences.
+* **[!UICONTROL Clics entrants]** : valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences.
 
 * **[!UICONTROL Taux de conversion]** : valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils.
 
 * **[!UICONTROL Effet élévateur]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
-* **[!UICONTROL Limite inférieure de confiance]** : valeur estimée la plus basse de la différence de taux de conversion entre le traitement et la ligne de base, dans l’intervalle de confiance choisi.
+* **[!UICONTROL Limite inférieure de confiance]** : valeur estimée la plus basse de la différence de taux de conversion entre le traitement et la référence, dans l’intervalle de confiance choisi.
 
 * **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../content-management/experiment-calculations.md#understand-confidence)
 
-* **[!UICONTROL Limite supérieure de confiance]** : valeur estimée la plus élevée de la différence de taux de conversion entre le traitement et la ligne de base, dans l’intervalle de confiance choisi.
+* **[!UICONTROL Limite supérieure de confiance]** : valeur estimée la plus élevée de la différence de taux de conversion entre le traitement et la référence, dans l’intervalle de confiance choisi.
 
 +++
 
@@ -75,4 +75,4 @@ Pour un examen approfondi de ces résultats et de leur interprétation, reportez
 ![](assets/cja-experimentation-conversion.png)
 
 
-Le graphique **[!UICONTROL Intervalle de confiance]** indique la plage d’améliorations possibles, en comparant la ligne de base avec le traitement le plus performant pour la mesure de succès choisie. [En savoir plus](../content-management/experiment-calculations.md#confidence-intervals).
+Le graphique **[!UICONTROL Intervalle de confiance]** indique la plage d’amélioration possible, en comparant la référence au traitement le plus performant pour la mesure de succès choisie. [En savoir plus](../content-management/experiment-calculations.md#confidence-intervals).

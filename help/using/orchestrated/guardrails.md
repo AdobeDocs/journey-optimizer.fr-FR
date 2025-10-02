@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 70%
+ht-degree: 95%
 
 ---
 
@@ -31,9 +31,9 @@ Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lo
 
 * Les schémas utilisés pour le ciblage doivent contenir au moins **un champ d’identité de type`String`**, mappé à un espace de noms d’identité défini.
 
-* Le nombre moyen d’attributs par schéma **ne doit pas dépasser 50 colonnes** afin de maintenir la facilité de gestion et les performances.
+* Le nombre moyen d’attributs par schéma **ne doit pas dépasser 50 colonnes** afin de maintenir la facilité de gestion et les performances.
 
-* Les schémas basés sur des modèles ne peuvent pas être activés pour les **profils** Adobe Experience Platform. Seuls les schémas XDM standard sont pris en charge pour les **profils** Adobe Experience Platform. Les schémas basés sur des modèles peuvent être activés pour les campagnes orchestrées ou les campagnes d’action. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Les schémas basés sur des modèles ne peuvent pas être activés pour les **profils** Adobe Experience Platform. Seuls les schémas XDM standard sont pris en charge pour les **profils** Adobe Experience Platform. Les schémas basés sur des modèles peuvent être activés pour les campagnes orchestrées ou les campagnes d’action. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingestion de données
 
@@ -41,15 +41,15 @@ Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lo
 
 * Toute ingestion doit se faire via des sources **Capture des données modifiées** :
 
-   * Pour **Basé sur des fichiers** : `_change_request_type` champ est obligatoire. Les valeurs prises en charge sont `U` (upsert) ou `D` (delete).
+   * Pour **Basé sur des fichiers** : le champ `_change_request_type` est requis. Les valeurs prises en charge sont `U` (upsert) ou `D` (delete).
 
    * Pour **basé sur le cloud**, la journalisation des tables doit être activée.
 
-* **Les mises à jour d’enregistrement partielles ne sont pas autorisées**, chaque ligne doit être fournie en tant qu’enregistrement complet.
+* **Les mises à jour partielles des enregistrements ne sont pas autorisées**, chaque ligne doit être fournie en tant qu’enregistrement complet.
 
 * L’ingestion par lots pour l’orchestration de campagne est limitée à **une fois toutes les 15 minutes**.
 
-* La latence d’ingestion, en magasin relationnel, varie généralement **de 15 minutes à 2 heures**, selon :
+* La latence d’ingestion, dans le stockage relationnel, varie généralement **de 15 minutes à 2 heures**, selon :
 
    * Le volume des données
 
@@ -57,7 +57,7 @@ Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lo
 
    * Le type d’opération, par ex. les insertions sont plus rapides que les mises à jour
 
-* **La relation entre le flux de données et le jeu de données est 1-1**. Cela signifie qu’une seule source peut alimenter un jeu de données à la fois. Pour changer de source, le flux de données existant doit être supprimé et un nouveau flux de données créé avec la nouvelle source.
+* **La relation entre le flux de données et le jeu de données est 1-1**. Cela signifie qu’une seule source peut alimenter un jeu de données à un moment donné. Pour changer de source, il faut supprimer le flux de données existant et en créer un autre avec la nouvelle source.
 
 ### Modélisation des données
 

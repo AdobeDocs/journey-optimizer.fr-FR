@@ -11,7 +11,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Renvoie 2023-06-03T06:30Z.
 
 `toString(now())`
 
-Renvoie « 2023-06-03T06 :30Z »
+Renvoie « 2023-06-03T06 :30Z ».
 
 `now("Europe/Paris")`
 

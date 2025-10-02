@@ -11,7 +11,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,6 +61,6 @@ Les principales étapes pour créer et utiliser des modèles d’IA sont les sui
 
 ## Vidéo pratique {#video}
 
-Découvrez comment créer un modèle d’IA pour Offer Decisioning et l’appliquer à une décision.
+Découvrez comment créer un modèle d’IA pour Offer Decisioning et comment l’appliquer à une décision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445646?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

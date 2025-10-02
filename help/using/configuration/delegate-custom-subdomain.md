@@ -13,7 +13,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 79%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 Au lieu des méthodes [Délégation complète](about-subdomain-delegation.md#full-subdomain-delegation) et [Configuration CNAME](about-subdomain-delegation.md#cname-subdomain-delegation), la méthode **Délégation personnalisée** vous permet d’obtenir la propriété de vos sous-domaines dans Journey Optimizer et de disposer d’un contrôle total sur les certificats générés.
 
@@ -90,22 +90,22 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Télécharger la CSR]** et enregistrez le formulaire sur votre ordinateur local.
 
-1. Envoyez-le à l’autorité de certification (CA) pour obtenir votre certificat SSL. Avant d’envoyer cette demande de signature de certificat à votre autorité de certification pour signature, prenez en compte quelques points importants :
+1. Envoyez-le à l’autorité de certification pour obtenir votre certificat SSL. Avant d’envoyer cette CSR à votre autorité de certification pour signature, prenez en compte les points suivants :
 
-   * La CSR téléchargée à l’étape 3 est réservée à data.subdomain.com.
+   * La CSR téléchargée à l’étape 3 est réservée à data.subdomain.com.
 
-   * Cependant, le certificat doit couvrir à la fois data.subdomain.com et cdn.subdomain.com en tant qu’entrées de noms alternatifs de l’objet (SAN) dans un seul certificat. Par exemple, si vous déléguez example.adobe.com, alors data.subdomain.com correspond à data.example.adobe.com et cdn.subdomain.com correspond à cdn.example.adobe.com.
+   * Toutefois, le certificat doit couvrir à la fois data.subdomain.com et cdn.subdomain.com en tant qu’entrées de noms alternatifs de l’objet (SAN) dans un seul certificat. Par exemple, si vous déléguez example.adobe.com, alors data.subdomain.com correspond à data.example.adobe.com et cdn.subdomain.com correspond à cdn.example.adobe.com.
 
-   * Les sous-domaines de données (data.example.adobe.com) et de réseau CDN (cdn.example.adobe.com) doivent être ajoutés en tant qu’entrées d’homologue dans le même certificat.
+   * Les sous-domaines de données (data.example.adobe.com) et de CDN (cdn.example.adobe.com) doivent être ajoutés en tant qu’entrées d’homologue dans le même certificat.
 
-   * La plupart des autorités de certification vous permettent d’ajouter des SAN supplémentaires (tels que le sous-domaine du réseau CDN) pendant le processus de signature
+   * La plupart des autorités de certification vous permettent d’ajouter des SAN supplémentaires (tels que le sous-domaine du CDN) pendant le processus de signature.
 
-      * Par le biais du portail CA (recommandé, le cas échéant), ou
-      * En le demandant manuellement à leur équipe d’assistance si l’option de portail n’est pas disponible.
+      * Par le biais du portail de l’autorité de certification (recommandé, le cas échéant), ou
+      * En faisant une demande manuelle à leur équipe d’assistance si l’option de portail n’est pas disponible.
 
-   * Une fois signée, l’autorité de certification émettra un certificat unique couvrant à la fois le domaine de données et le sous-domaine du réseau CDN.
+   * Après la signature, l’autorité de certification émettra un certificat unique couvrant à la fois le domaine de données et le sous-domaine du CDN.
 
-1. Une fois récupéré, cliquez sur **[!UICONTROL Télécharger le certificat SSL]** et téléchargez le certificat vers [!DNL Journey Optimizer] au format .pem avec la chaîne de certificats complète. Voici un exemple de format de fichier .pem :
+1. Une fois celui-ci récupéré, cliquez sur **[!UICONTROL Charger le certificat SSL]** et chargez le certificat dans [!DNL Journey Optimizer] au format .pem avec la chaîne complète de certificats. Voici un exemple de format de fichier .pem :
 
    ```
    -----BEGIN CERTIFICATE-----

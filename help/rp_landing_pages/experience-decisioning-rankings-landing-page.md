@@ -6,7 +6,7 @@ description: Créer des classements
 redpen-status: CREATED_||_2025-08-11_20-56-11
 exl-id: 11edd7b2-0319-4576-9fef-042c239b25be
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Découvrez comment utiliser le créateur de formules d’IA pour créer des form
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation et implémentation des modèles d’IA
 

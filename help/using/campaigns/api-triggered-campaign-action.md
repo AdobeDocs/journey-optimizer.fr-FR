@@ -12,7 +12,7 @@ exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    >[!NOTE]
    >
-   >Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifications push](../push/get-started-push.md).
+   >Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifications push](../push/get-started-push.md).
    >
    >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 

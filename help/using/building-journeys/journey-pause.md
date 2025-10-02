@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '2429'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des 
 | [Critères de sortie](journey-properties.md#exit-criteria) | Même comportement que dans un parcours actif. |
 
 
-Découvrez comment résoudre les problèmes liés aux abandons dans [cette section](#discards-troubleshoot).
+Découvrez comment résoudre les problèmes liés aux rejets dans [cette section](#discards-troubleshoot).
 
 ## Reprise d’un parcours en pause {#journey-resume-steps}
 
@@ -197,11 +197,11 @@ Lorsque vous reprenez ce parcours :
 1. Les entrées du parcours débutent en l’espace d’une minute.
 1. Les profils qui étaient en attente dans le parcours sur les activités **Action** sont rétablis à un taux de 5 000 tps. Ils peuvent alors entrer dans l’activité **Action** pour laquelle ils attendaient et continuer le parcours.
 
-## Résolution des problèmes liés aux abandons de profil dans les parcours en pause {#discards-troubleshoot}
+## Résoudre les problèmes liés aux rejets de profils dans les parcours en pause {#discards-troubleshoot}
 
-Vous pouvez utiliser le [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour interroger les événements d’étape, ce qui peut fournir plus d’informations sur les abandons de profil, selon le moment où ils se sont produits.
+Vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour interroger les événements d’étape, ce qui peut fournir plus d’informations sur les rejets de profils, selon le moment où ils se sont produits.
 
-* Pour les abandons qui se produisent avant que le profil n’entre dans le parcours, utilisez le code suivant :
+* Pour les rejets qui se produisent avant que le profil ne rejoigne le parcours, utilisez le code suivant :
 
   ```sql
   SELECT
@@ -215,13 +215,13 @@ Vous pouvez utiliser le [Adobe Experience Platform Query Service](https://experi
   AND _experience.journeyOrchestration.journey.versionID=<jvId>  
   ```
 
-  Cette opération répertorie les abandons qui se sont produits au point d&#39;entrée du parcours :
+  Il permet de répertorier les rejets qui se sont produits au niveau du point d’entrée du parcours :
 
-   1. Lorsqu’un parcours d’audience est en cours d’exécution et que le premier nœud est toujours en cours de traitement, si le parcours est suspendu, tous les profils non traités sont ignorés.
+   1. Lorsqu’un parcours d’audience est en cours d’exécution et que le premier nœud est toujours en cours de traitement, si le parcours est mis en pause, tous les profils non traités sont ignorés.
 
-   1. Lorsqu’un nouvel événement unitaire arrive pour le nœud de début (pour déclencher une entrée) alors que le parcours est en pause, l’événement est ignoré.
+   1. Lorsqu’un nouvel événement unitaire arrive vers le nœud de départ (pour déclencher une entrée) lorsque le parcours est en pause, l’événement est ignoré.
 
-* Pour les abandons qui se produisent lorsque le profil est déjà dans le parcours, utilisez le code suivant :
+* Pour les rejets qui se produisent lorsque le profil est déjà dans le parcours, utilisez le code suivant :
 
   ```sql
   SELECT
@@ -235,11 +235,11 @@ Vous pouvez utiliser le [Adobe Experience Platform Query Service](https://experi
   AND _experience.journeyOrchestration.journey.versionID=<jvId> 
   ```
 
-  Cette commande répertorie les abandons qui se produisent lorsque les profils se trouvent dans un parcours :
+  Cette commande liste les rejets qui se produisent lorsque les profils se trouvent dans un parcours :
 
-   1. Si le parcours est suspendu avec l’option Ignorer activée et qu’un profil a déjà été saisi avant la mise en pause, ce profil sera ignoré lorsqu’il atteindra le nœud d’action suivant.
+   1. Si le parcours est mis en pause avec l’option Ignorer activée et qu’un profil a rejoint le parcours avant la mise en pause, ce profil sera ignoré lorsqu’il atteindra le nœud d’action suivant.
 
-   1. Si le parcours a été suspendu avec l’option de conservation sélectionnée, mais que les profils ont été ignorés en raison d’un dépassement du quota de 10 millions, ces profils seront toujours ignorés lorsqu’ils atteignent le nœud d’action suivant.
+   1. Si le parcours a été mis en pause avec l’option Conserver sélectionnée, mais que des profils ont été ignorés en raison d’un dépassement du quota de 10 millions, ces profils seront toujours ignorés lorsqu’ils atteindront le nœud d’action suivant.
 
 
 

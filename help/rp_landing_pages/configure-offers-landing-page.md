@@ -6,7 +6,7 @@ description: Configurer les offres
 redpen-status: CREATED_||_2025-08-11_21-00-31
 exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 

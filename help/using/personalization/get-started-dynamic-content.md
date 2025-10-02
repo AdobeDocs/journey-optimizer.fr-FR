@@ -36,4 +36,4 @@ Les règles conditionnelles peuvent être utilisées dans le concepteur d’e-ma
 
 Découvrez comment créer du contenu dynamique à l’aide du créateur de règles de condition.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413671?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

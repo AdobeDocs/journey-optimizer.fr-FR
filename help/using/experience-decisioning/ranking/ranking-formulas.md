@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -156,13 +156,13 @@ Dans cet exemple, nous voulons augmenter la priorité de toutes les offres conte
 
 Pour utiliser des attributs liés à vos éléments de décision dans des formules, veillez à respecter la syntaxe correcte dans le code de votre formule de classement. Pour plus d’informations, développez chaque section :
 
-+++Utiliser les attributs standard des éléments de décision
++++Utiliser des attributs standard d’éléments de décision
 
 ![](../assets/formula-attribute.png)
 
 +++
 
-+++Utiliser les attributs personnalisés des éléments de décision
++++Utiliser des attributs personnalisés d’éléments de décision
 
 ![](../assets/formula-attribute-custom.png)
 

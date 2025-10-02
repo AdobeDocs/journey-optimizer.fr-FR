@@ -64,4 +64,4 @@ L’accès à ces fonctionnalités de création de rapports dépend du contexte 
 
 La vidéo ci-dessous montre comment utiliser le reporting Journey Optimizer amélioré avec Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443153?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
    Ces différentes options et les étapes à suivre sont présentées dans [cette section](../campaigns/campaigns-message-optimization.md).
 
-1. Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre action de parcours. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez l’option **[!UICONTROL Paramètres de langue]** souhaitée.
+1. Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre action de parcours. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez les **[!UICONTROL paramètres de langue]** souhaités.
 
    Vous trouverez des informations détaillées sur la configuration et l’utilisation des fonctionnalités multilingues dans [cette section](../content-management/multilingual-gs.md).
 
@@ -78,19 +78,19 @@ Des paramètres supplémentaires sont disponibles en fonction du canal de commun
 
 +++**Appliquer des règles de limitation** (e-mail, courrier, notification push, SMS)
 
-Dans la liste déroulante **[!UICONTROL Règles métier]**, sélectionnez un ensemble de règles pour appliquer des règles de limitation à votre action de parcours.
+Dans la liste déroulante **[!UICONTROL Règles métier]**, sélectionnez un jeu de règles pour appliquer des règles de limitation à votre action de parcours.
 
 L’utilisation des ensembles de règles de canal vous permet de définir le capping de la fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires.
 
-[Découvrez comment utiliser des ensembles de règles](../conflict-prioritization/rule-sets.md)
+[Découvrir comment utiliser les jeux de règles](../conflict-prioritization/rule-sets.md)
 
 +++
 
 +++**Suivre l’engagement** (e-mail, SMS).
 
-Utilisez la section **[!UICONTROL Tracking des actions]** pour suivre la réaction des destinataires à vos diffusions e-mail ou SMS.
+Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction des personnes destinataires à vos diffusions e-mail ou SMS.
 
-Les résultats du tracking sont accessibles dans le rapport de parcours, une fois le parcours exécuté.
+Les résultats du suivi sont accessibles dans le rapport du parcours, une fois celui-ci exécuté.
 
 [En savoir plus sur les rapports de parcours](../reports/journey-global-report-cja.md)
 
@@ -108,27 +108,27 @@ Pour plus d’informations sur les performances lors de l’utilisation du mode 
 
 +++**Attribuer des scores de priorité** (web, in-app, basé sur du code)
 
-Dans la section **[!UICONTROL Gestion des conflits]** , vous pouvez attribuer un score de priorité à l’action de parcours, ce qui vous permet de donner la priorité à une action entrante lorsqu’il existe plusieurs actions ou campagnes de parcours utilisant la même configuration de canal.
+Dans la section **[!UICONTROL Gestion des conflits]**, attribuez un score de priorité à l’action de parcours, ce qui vous permet de donner la priorité à une action entrante lorsque plusieurs actions de parcours ou campagnes utilisent la même configuration des canaux.
 
 Par défaut, le score de priorité de l’action est hérité du score de priorité global du parcours.
 
-[Découvrez comment attribuer des scores de priorité aux actions de canal](../conflict-prioritization/priority-scores.md#priority-action)
+[Découvrir comment attribuer des scores de priorité aux actions de canal](../conflict-prioritization/priority-scores.md#priority-action)
 
 +++
 
 +++**Définir des règles de diffusion supplémentaires** (cartes de contenu)
 
-Pour les parcours de carte de contenu, vous pouvez activer des règles de diffusion supplémentaires pour choisir le ou les événements et les critères qui déclenchent votre message.
+Pour les parcours de cartes de contenu, vous pouvez activer des règles de diffusion supplémentaires afin de choisir les événements et critères qui déclenchent votre message.
 
-[Découvrez comment créer des cartes de contenu](../content-card/create-content-card.md)
+[Découvrir comment créer des cartes de contenu](../content-card/create-content-card.md)
 
 +++
 
 +++**Définir des déclencheurs** (in-app)
 
-Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclenchent votre message.
+Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier les déclencheurs]** pour choisir les événements et les critères qui déclenchent votre message.
 
-[Découvrez comment créer un message in-app](../in-app/create-in-app.md)
+[Découvrir comment créer un message in-app](../in-app/create-in-app.md)
 
 +++
 

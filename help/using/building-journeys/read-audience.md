@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
 source-wordcount: '2400'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
 * Délai de traitement des tâches : les tâches de lecture d’audience qui ne peuvent pas être traitées dans les 12 heures en raison des limites du mécanisme de sécurisation seront automatiquement nettoyées et ne s’exécuteront jamais. Cela empêche l’accumulation des tâches et assure la stabilité du système.
 
-* Lors de l’utilisation de segments par lot, assurez-vous que l’ingestion et les mises à jour quotidiennes des instantanés se terminent bien avant le début du parcours. Envisagez une période d’attente supplémentaire si les segments doivent refléter les données ingérées le même jour. Si l’actualisation immédiate du profil est essentielle, envisagez d’utiliser un cas d’utilisation basé sur un événement ou sur la diffusion en continu au lieu d’une approche par lots quotidienne, ou insérez un mécanisme d’attente supplémentaire pour permettre aux données mises à jour de se propager avant l’évaluation du parcours.
+* Lorsque vous utilisez des segments par lots, assurez-vous que l’ingestion et les mises à jour quotidiennes des instantanés se terminent bien avant le début du parcours. Prévoyez une période d’attente supplémentaire si les segments doivent refléter les données ingérées le même jour. Si l’actualisation immédiate des profils est essentielle, envisagez d’utiliser un cas d’utilisation basé sur des événements ou en streaming au lieu d’une approche par lots quotidienne, ou ajoutez un mécanisme d’attente supplémentaire pour permettre aux données mises à jour de se propager avant l’évaluation du parcours.
 
 
 
@@ -303,4 +303,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

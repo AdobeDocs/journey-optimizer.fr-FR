@@ -82,4 +82,4 @@ Envoyer un e-mail à des destinataires ayant déposé une plainte contre le spam
 
 Votre adresse IP ou votre domaine d&#39;envoi peuvent ainsi être bloqués, ce qui pourrait être évité si ces adresses figuraient dans la liste de suppression.
 
-Certains FAI proposent une boucle de rétroaction (FBL) qui permet à l’expéditeur ou l’expéditrice de l’e-mail de recevoir un avertissement automatique lorsque l’utilisateur ou l’utilisatrice qui reçoit un e-mail choisit de le marquer comme spam. [En savoir plus](deliverability.md#feedback-loops)
+Certains FAI proposent un système de feedback (FBL) qui permet à l’expéditeur ou l’expéditrice de l’e-mail de recevoir un avertissement automatique lorsque l’utilisateur ou l’utilisatrice qui reçoit un e-mail choisit de le marquer comme spam. [En savoir plus](deliverability.md#feedback-loops)

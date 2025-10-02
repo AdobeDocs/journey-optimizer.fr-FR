@@ -9,7 +9,7 @@ exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
 source-wordcount: '1051'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 
 >[!NOTE]
 >
->La vérification des autorisations n’est pas appliquée pour les sandbox individuels. Tant que l’appelant présente un jeton valide, l’API de diffusion passe par.
+>La vérification des autorisations n’est pas appliquée pour les sandbox individuels. Tant que l’entité appelante présente un jeton valide, l’API de diffusion est autorisée.
 
 ## Requête API {#request}
 
@@ -222,7 +222,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342829/?quality=12&captions=fre_fr) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Étapes suivantes {#next-steps}
 

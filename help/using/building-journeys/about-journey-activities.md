@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -103,9 +103,9 @@ Dans certains contextes précis, vous pouvez remplacer les valeurs de ces param�
 
 >[!NOTE]
 >
->Si les paramètres avancés sont masqués, cliquez sur le bouton **[!UICONTROL Afficher les champs en lecture seule]**
+>Si les paramètres avancés sont masqués, cliquez sur le bouton **[!UICONTROL Afficher les champs en lecture seule]**.
 >
->![Afficher l’icône des champs en lecture seule dans les propriétés de l’activité de parcours ](assets/journey-show-read-only-fields.png){width=60%}
+>![Icône Masquer les champs en lecture seule dans les propriétés de l’activité de parcours](assets/journey-show-read-only-fields.png){width=60%}
 
 ### Ajouter un chemin d’accès alternatif
 

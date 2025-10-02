@@ -7,15 +7,15 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 # Attribuer des scores de priorité {#priority}
 
-Journey Optimizer permet d&#39;attribuer un score de priorité à un parcours, une campagne ou à une action de canal entrant dans le parcours **[!UICONTROL Action]** de l&#39;activité.
+Journey Optimizer permet d’attribuer un score de priorité à un parcours, une campagne ou à une action de canal entrant dans l’activité **[!UICONTROL Action]** du parcours.
 
-La priorité est essentielle pour donner la priorité à un parcours, une campagne ou une action en cas de contrainte imposée (telle qu’une limitation de fréquence).
+Il est essentiel d’attribuer une priorité à un parcours, une campagne ou une action lorsqu’une contrainte est imposée (par exemple, un capping de la fréquence).
 
 Dans les cas où une personne est admissible pour plusieurs parcours, campagnes ou communications et que vous souhaitez choisir ceux qu’elle doit rejoindre et recevoir, vous devez utiliser ce champ.
 
@@ -33,7 +33,7 @@ Dans les cas où une personne est admissible pour plusieurs parcours, campagnes 
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
-L’attribution d’un score de priorité est essentielle pour la communication entrante, par exemple web, mobile et in-app. Si plusieurs campagnes utilisent la même configuration de canal (par exemple, une bannière en haut de votre page web), cela peut s’avérer problématique, car il n’est possible d’afficher que le contenu d’une seule campagne. Le score de priorité est l’emplacement où vous insérerez vos préférences pour la campagne qui doit s’afficher lorsque les destinataires peuvent être admissibles pour plusieurs campagnes.
+L’attribution d’un score de priorité est essentielle pour la communication entrante, par exemple web, mobile et in-app. Si plusieurs campagnes utilisent la même configuration des canaux (une bannière dans la partie supérieure de votre page web, par exemple), cela peut s’avérer problématique, car seul le contenu d’une campagne peut être affiché. Le score de priorité est l’emplacement où vous insérerez vos préférences pour la campagne qui doit s’afficher lorsque les destinataires peuvent être admissibles pour plusieurs campagnes.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ L’attribution d’un score de priorité est essentielle pour la communication 
 
 Pour attribuer un score de priorité à un parcours ou à une campagne, saisissez une valeur numérique (de 0 à 100) dans le champ **[!UICONTROL Score de priorité]** situé dans les propriétés du parcours ou de la campagne. Plus le nombre est élevé, plus la priorité est élevée.
 
-Si vous créez cette campagne et souhaitez vous assurer que le contenu de cette campagne s’affiche, donnez-lui un score de 100.
+Si vous créez cette campagne et souhaitez vous assurer que son contenu s’affiche, donnez-lui un score de 100.
 
 ![](assets/priority-score.png)
 
@@ -58,18 +58,18 @@ Si vous créez cette campagne et souhaitez vous assurer que le contenu de cette 
 
 Journey Optimizer vous permet également d’attribuer un score de priorité aux actions de canal entrant dans l’activité **[!UICONTROL Action]**.
 
-Vous pouvez ainsi donner la priorité à une action entrante lorsqu’il existe plusieurs actions ou campagnes de parcours utilisant la même configuration de canal.
+Cela vous permet d’établir la priorité d’une action entrante lorsqu’il existe plusieurs actions de parcours ou campagnes utilisant la même configuration des canaux.
 
 >[!NOTE]
 >
 >Dans l’activité **[!UICONTROL Action]**, le score de priorité est disponible uniquement pour les canaux entrants web, in-app et basés sur du code.
 
-Dans la section **[!UICONTROL Gestion des conflits]** , l’option **[!UICONTROL Utiliser la priorité du parcours]** est sélectionnée par défaut, ce qui signifie que le score de priorité de l’action est hérité du score de priorité global du parcours.
+Dans la section **[!UICONTROL Gestion des conflits]**, l’option **[!UICONTROL Utiliser la priorité du parcours]** est sélectionnée par défaut, ce qui signifie que le score de priorité de l’action est hérité du score de priorité global du parcours.
 
-Pour attribuer un score de priorité aux actions entrantes définies dans l&#39;activité **[!UICONTROL Action]**, désélectionnez l&#39;option **[!UICONTROL Utiliser la priorité du parcours]** et saisissez une valeur numérique (comprise entre 0 et 100) dans le champ **[!UICONTROL Priorité]**. Plus le nombre est élevé, plus la priorité est élevée.
+Pour attribuer un score de priorité aux actions entrantes définies dans l’activité **[!UICONTROL Action]**, désélectionnez l’option **[!UICONTROL Utiliser la priorité du parcours]** et saisissez une valeur numérique (comprise entre 0 et 100) dans le champ **[!UICONTROL Priorité]**. Plus le nombre est élevé, plus la priorité est élevée.
 
 ![](assets/action-journey-priority-score.png){width=70%}
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445003?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

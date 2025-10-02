@@ -71,7 +71,7 @@ Le graphe **[!UICONTROL Performances des pages de destination dans le temps]** m
 
 ![](assets/cja-lp-performance.png)
 
-Le tableau **[!UICONTROL Performances des pages de destination]** constitue un tableau de bord complet, offrant une ventilation détaillée des mesures clés concernant votre page de destination.
+Le tableau **[!UICONTROL Performances des pages de destination]** constitue un tableau de bord complet, offrant une répartition détaillée des mesures clés concernant votre page de destination.
 
 * **[!UICONTROL Taux de conversion de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple le nombre de personnes inscrites à un formulaire par rapport au nombre total de visites.
 

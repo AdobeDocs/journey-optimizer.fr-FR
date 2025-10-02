@@ -12,7 +12,7 @@ exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -35,7 +35,7 @@ Avantages clés :
 >
 >Cette activité est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-## À lire absolument {#must-read}
+## À lire impérativement {#must-read}
 
 ### Activation du jeu de données
 
@@ -48,14 +48,14 @@ Le jeu de données doit être activé pour la recherche dans Adobe Experience Pl
 * Maximum de 500 clés dans le tableau des clés de recherche.
 * La taille des données enrichies est limitée à 10 Ko.
 
-### Considérations supplémentaires sur les performances
+### Considérations supplémentaires relatives aux performances
 
-Les recommandations ci-dessous sont des conseils pour éviter les retards dans la délivrabilité :
+Les recommandations ci-dessous visent à éviter les retards dans la délivrabilité :
 
 | Considération | Limite recommandée | Description |
 | ------- | ------- | ------- |
 | Attributs par recherche | Jusqu’à 20 | Nombre de champs de données récupérés par enregistrement dans une seule activité de recherche. |
-| Activités de recherche | Jusqu&#39;à 5 par parcours | Chaque parcours peut contenir jusqu’à 5 activités de recherche distinctes. Chaque recherche peut cibler un jeu de données différent. |
+| Activités de recherche | Jusqu’à 5 par parcours | Chaque parcours peut contenir jusqu’à 5 activités de recherche distinctes. Chaque recherche peut cibler un jeu de données différent. |
 
 ## Configurer l’activité de recherche de jeu de données {#configure}
 
@@ -119,7 +119,7 @@ Les données récupérées par l’activité **[!UICONTROL Recherche de jeu de d
 
 **Scénario**:Send un coupon pour les utilisateurs qui dépensent plus de 40 $ en produits ménagers.
 
-Flux de Parcours **&#x200B;**&#x200B;:
+Flux de Parcours **** :
 
 1. **Événement d’achat** : capturez les SKU à partir du panier de l’utilisateur.
 
@@ -163,7 +163,7 @@ Flux de Parcours **&#x200B;**&#x200B;:
 
 **Scénario** : identifier le compte de messagerie pour un profil dont le statut de fidélité est Platine. Dans ce scénario, le compte de fidélité est associé à un ID d’e-mail et les données de fidélité ne sont pas disponibles dans la boutique de recherche de profil standard.
 
-Flux de Parcours **&#x200B;**&#x200B;:
+Flux de Parcours **** :
 
 1. **Déclencheur d’événement de profil** : capturez les identifiants d’e-mail du contexte de profil ou d’événement.
 

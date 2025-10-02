@@ -6,7 +6,7 @@ description: Configuration des canaux
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Suivez un guide détaillé pour créer, modifier, désactiver et surveiller les 
 
 Configuration guidée des canaux
 
-Configurez efficacement les canaux web et mobiles à l’aide des instructions détaillées et des ressources fournies pendant le processus de configuration.
+Configurez efficacement les canaux mobiles et web à l’aide des instructions détaillées et des ressources fournies pendant le processus de configuration.
 
 [Explorer la configuration guidée des canaux](guided-setup-landing-page.md)
 :::

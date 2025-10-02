@@ -11,7 +11,7 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
 workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 65%
+ht-degree: 83%
 
 ---
 
@@ -94,7 +94,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 1. Click **[!UICONTROL Save]** to confirm.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -204,46 +204,46 @@ Si les modifications ne permettent pas de résoudre le problème, la même alert
 
 <!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### Échec de configuration du canal AJO {#alert-channel-config-failure}
+### Échec de configuration des canaux AJO {#alert-channel-config-failure}
 
 >[!IMPORTANT]
 >
->Cette alerte s’applique uniquement aux configurations de canal **e-mail** utilisant le type de délégation [sous-domaine personnalisé](../configuration/delegate-custom-subdomain.md). <!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
+>Cette alerte s’applique uniquement aux configurations du canal **E-mail** utilisant le type de délégation [sous-domaine personnalisé](../configuration/delegate-custom-subdomain.md). <!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
-Cette alerte est déclenchée au cas où l’audit du système détecterait des problèmes de configuration du canal e-mail. Ces problèmes peuvent inclure des paramètres de canal mal configurés, une configuration DNS non valide, un problème de liste de suppression, une incohérence d’adresse IP ou toute autre erreur pouvant avoir un impact sur la diffusion des e-mails.
+Cette alerte est déclenchée lorsque l’audit système détecte des problèmes de configuration du canal E-mail. Ces problèmes peuvent comprendre des paramètres de canal mal configurés, une configuration DNS non valide, un problème de liste de suppression, une incohérence d’adresses IP ou toute autre erreur pouvant avoir un impact sur la diffusion des e-mails.
 
-Si vous recevez une telle alerte, les étapes de résolution sont répertoriées ci-dessous :
+Si vous recevez une alerte de ce type, les étapes de résolution sont répertoriées ci-dessous :
 
-1. Cliquez sur l’alerte pour être redirigé vers la [configuration du canal e-mail](../email/get-started-email-config.md) affectée dans l’interface [!DNL Journey Optimizer].
+1. Cliquez sur l’alerte pour accéder à la [configuration du canal e-mail](../email/get-started-email-config.md) concernée dans l’interface [!DNL Journey Optimizer].
 
-   Pour obtenir des conseils sur la modification des configurations de canal, voir [cette section](../configuration/channel-surfaces.md#edit-channel-surface).
+   Pour obtenir des instructions afin de modifier des configurations de canal, voir [cette section](../configuration/channel-surfaces.md#edit-channel-surface).
 
-1. Vérifiez les détails de configuration et les messages d’erreur fournis. Les raisons courantes d’échec sont les suivantes :
+1. Vérifiez les détails de configuration et les messages d’erreur fournis. Les causes courantes d’échec sont les suivantes :
 
    * Échec de la validation SPF
-   * Échec de la validation de DKIM
-   * Échec de la validation de l’enregistrement MX
+   * Échec de la validation DKIM
+   * Échec de la validation des enregistrements MX
    * Enregistrements DNS non valides
 
    >[!NOTE]
    >
-   >Les raisons possibles d’échec de la configuration sont répertoriées dans [cette section](../configuration/channel-surfaces.md).
+   >Les raisons possibles de l’échec de configuration sont répertoriées dans [cette section](../configuration/channel-surfaces.md).
 
-1. Résolvez le problème :
+1. Résolvez le problème :
 
    * Mettez à jour la configuration du canal si nécessaire.
    * Vous devrez peut-être résoudre des problèmes DNS spécifiques mentionnés dans l’alerte.
 
    >[!NOTE]
    >
-   >Comme un seul domaine peut être associé à plusieurs configurations de canal, la résolution de problèmes DNS pour une configuration de canal peut résoudre automatiquement les problèmes liés à plusieurs configurations.
+   >Comme un seul domaine peut être associé à plusieurs configurations de canal, la résolution des problèmes DNS pour une configuration de canal peut permettre de corriger automatiquement les problèmes liés à plusieurs configurations.
 
-Si la modification ne résout pas le problème, la même alerte sera déclenchée à nouveau le lendemain.
+Si les modifications ne permettent pas de résoudre le problème, la même alerte sera déclenchée à nouveau le lendemain.
 
-Lors de la résolution des problèmes de configuration du canal e-mail, gardez à l&#39;esprit les bonnes pratiques répertoriées ci-dessous :
+Lors de la résolution des problèmes de configuration du canal e-mail, gardez à l’esprit les bonnes pratiques répertoriées ci-dessous :
 
-* Agissez rapidement - Corrigez les échecs de configuration dès qu’ils sont détectés afin d’éviter toute interruption de la diffusion des e-mails.
-* Vérifier toutes les configurations - Si l’alerte indique plusieurs configurations d’e-mail affectées, examinez et corrigez chacune d’elles.
+* Agissez rapidement : corrigez les erreurs de configuration dès qu’elles sont détectéss afin d’éviter toute interruption de la diffusion des e-mails.
+* Vérifiez toutes les configurations : si l’alerte indique plusieurs configurations d’e-mail affectées, examinez et corrigez chacune d’elles.
 
 <!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
 

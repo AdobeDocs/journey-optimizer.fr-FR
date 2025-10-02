@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -28,9 +28,9 @@ Toutes les activités sont présentées dans les sections ci-dessous :
 
 >[!NOTE]
 >
->* Selon votre modèle de licence, vos autorisations et votre implémentation, les activités disponibles peuvent différer.
+>* Selon votre modèle de licence, vos autorisations et votre implémentation, les activités disponibles peuvent varier.
 >
->* Le nombre d’activités d’une campagne orchestrée est limité à 500.
+>* Le nombre d’activités dans une campagne orchestrée est limité à 500.
 
 
 ## Activités de ciblage {#targeting}

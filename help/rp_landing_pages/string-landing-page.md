@@ -6,7 +6,7 @@ description: Chaîne
 redpen-status: CREATED_||_2025-08-11_20-18-34
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 

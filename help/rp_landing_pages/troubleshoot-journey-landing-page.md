@@ -6,7 +6,7 @@ description: Résolution des problèmes
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Validez et déboguez les actions personnalisées à l’aide de la fonctionnalit
 
 ### Ressources supplémentaires
 
-Consultez également [cet article de blog de la communauté Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr) pour en savoir plus sur les codes d’erreur courants et sur la manière de les résoudre efficacement.
+Consultez également [cet article de blog de la communauté Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884) pour en savoir plus sur les codes d’erreur courants et sur la manière de les résoudre efficacement.

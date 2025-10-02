@@ -12,7 +12,7 @@ exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
 source-git-commit: 1d3638499a9e8261a5f1b09744b82642198a5d5d
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 65%
 
 Une fois votre campagne activée, vous devez récupérer l’exemple de requête cURL généré et l’utiliser dans l’API pour créer votre payload et déclencher la campagne.
 
-## À lire absolument {#must-read}
+## À lire impérativement {#must-read}
 
-* **Dates de début/fin de la campagne** - Si vous avez configuré une date de début et/ou de fin spécifique lors de la création de la campagne, elle ne sera pas exécutée en dehors de ces dates et les appels API échoueront.
+* **Dates de début/de fin de la campagne** : si vous avez configuré une date de début et/ou de fin spécifique lors de la création de la campagne, elle ne sera pas exécutée en dehors de ces dates et les appels API échoueront.
 
-* **Délai d’appel** - Le délai d’appel de l’API REST d’exécution de message interactif est de 60 secondes. Cependant, des reprises internes sont en place en cas de délais inattendus pour garantir la diffusion.
+* **Délai d’expiration de l’appel** : le délai d’expiration de l’appel de l’API REST Interactive Message Execution est de 60 secondes. Cependant, de nouvelles tentatives internes d’appel sont implémentées en cas de délais dépassés inattendus pour garantir la diffusion.
 
 ## Déclencher la campagne {#trigger}
 

@@ -11,7 +11,7 @@ exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Une fois que vous avez trouvé le contenu approprié, cliquez sur **[!UICONTROL Sélectionner]**.
 
-## Générer du contenu dans les langues prises en charge{#languages}
+## Générer du contenu dans plusieurs langues prises en charge{#languages}
 
 ![](assets/do-not-localize/gen-ai-language.gif)
 

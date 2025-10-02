@@ -11,7 +11,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ Returns "2019-08-28T17:15:30.123+02:00".-->
 
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
-Si la valeur du champ d’horodatage est `2021-11-16T16:55:12.939318+01:00`, la fonction renvoie `2021-11-17T02:55:12.942115+11:00`.
+Si la valeur du champ de date et d’heure est `2021-11-16T16:55:12.939318+01:00`, la fonction renvoie `2021-11-17T02:55:12.942115+11:00`.

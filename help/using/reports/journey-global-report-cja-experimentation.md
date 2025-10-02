@@ -1,28 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: rapport d’expérience de parcours
-description: Découvrez comment utiliser les données d’expérience du rapport de Parcours
+title: Rapport d’expérience de parcours
+description: Découvrez comment utiliser les données d’expérimentation du rapport de parcours.
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 14758fa4db49aed686c1554718337983d3812595
+exl-id: a2b4ef74-96a9-4907-ba70-7aee69e45f20
+source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
-# Rapport parcours d’expérimentation {#campaign-global-report-cja-experimentation}
+# Rapport d’expérimentation de parcours {#campaign-global-report-cja-experimentation}
 
-Votre rapport de Parcours vous donne une vue complète des performances de votre expérience, ainsi que les mesures clés dont vous avez besoin pour comprendre son impact.
+Votre rapport de parcours vous offre une vue complète des performances de votre expérience, ainsi que les mesures clés dont vous avez besoin pour comprendre son impact.
 
-Dans Journey Optimizer, l’expérimentation de parcours est divisée en deux types :
+Dans Journey Optimizer, l’expérimentation de parcours est divisée en deux types :
 
 * [Expériences de contenu](../content-management/content-experiment.md)
 
-  Notez que les tableaux et les KPI détaillés pour votre expérience de contenu sont identiques à ceux d’une expérience de chemin d’accès. Reportez-vous à la [documentation ci-dessous](#experimentation) si vous avez configuré une expérience de contenu.
+  Notez que les tableaux et les KPI détaillés pour votre expérience de contenu sont identiques à ceux d’une expérience de chemin. Reportez-vous à la [documentation ci-dessous](#experimentation) si vous avez configuré une expérience de contenu.
 
 * [Expériences de chemin](../building-journeys/optimize.md)
 
@@ -32,9 +33,9 @@ Dans Journey Optimizer, l’expérimentation de parcours est divisée en deux ty
 
 ![](assets/journey-report-experiment-1.png)
 
-Le **résumé de l’expérience** fournit des informations clés sur les performances de votre expérience et identifie la plus réussie. Notez que la définition de la meilleure performance peut prendre un certain temps. Si votre expérience échoue, elle est définie sur **Non concluant**.
+Le **résumé d’expérimentation** fournit des informations clés sur les performances de votre expérience et identifie celle qui a obtenu les meilleurs résultats. Notez que la définition de la meilleure performance peut prendre un certain temps. Si votre expérience échoue, elle est définie sur **Non concluant**.
 
-Les **indicateurs clés de performance d’expérimentation (KPI)** fonctionnent comme un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre expérimentation.
+Les **indicateurs clés de performance (KPI) d’expérimentation** fonctionnent comme un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre expérimentation.
 
 +++ En savoir plus sur les mesures des KPI d’expérimentation
 
@@ -46,28 +47,28 @@ Les **indicateurs clés de performance d’expérimentation (KPI)** fonctionnent
 
 
 
-### Variante par mesures de succès {#variant-inbound}
+### Variante par mesure de succès {#variant-inbound}
 
 ![](assets/cja-experimentation-variants.png)
 
-Le tableau **Variante par mesures de succès** indique les performances de chaque variante en fonction de la mesure de succès sélectionnée lors de la configuration de l’expérience.
+Le tableau **Variante par mesure de succès** indique les performances de chaque variante en fonction de la mesure de succès sélectionnée lors de la configuration de l’expérience.
 Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../content-management/get-started-experiment.md#interpret-results).
 
-+++ En savoir plus sur la mesure Variante par succès .
++++ En savoir plus sur le tableau Variante par mesure de succès
 
-* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices identifiés comme cibles de vos messages.
 
-* **[!UICONTROL Clics entrants]** : valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences.
+* **[!UICONTROL Clics entrants]** : valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences.
 
 * **[!UICONTROL Taux de conversion]** : valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils.
 
 * **[!UICONTROL Effet élévateur]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
-* **[!UICONTROL Limite inférieure de confiance]** : valeur estimée la plus basse de la différence de taux de conversion entre le traitement et la ligne de base, dans l’intervalle de confiance choisi.
+* **[!UICONTROL Limite inférieure de confiance]** : valeur estimée la plus basse de la différence de taux de conversion entre le traitement et la référence, dans l’intervalle de confiance choisi.
 
 * **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../content-management/experiment-calculations.md#understand-confidence)
 
-* **[!UICONTROL Limite supérieure de confiance]** : valeur estimée la plus élevée de la différence de taux de conversion entre le traitement et la ligne de base, dans l’intervalle de confiance choisi.
+* **[!UICONTROL Limite supérieure de confiance]** : valeur estimée la plus élevée de la différence de taux de conversion entre le traitement et la référence, dans l’intervalle de confiance choisi.
 
 +++
 
@@ -75,4 +76,4 @@ Pour un examen approfondi de ces résultats et de leur interprétation, reportez
 
 ![](assets/cja-experimentation-conversion.png)
 
-Le graphique **[!UICONTROL Intervalle de confiance]** indique la plage d’améliorations possibles, en comparant la ligne de base avec le traitement le plus performant pour la mesure de succès choisie. [En savoir plus](../content-management/experiment-calculations.md#confidence-intervals).
+Le graphique **[!UICONTROL Intervalle de confiance]** indique la plage d’amélioration possible, en comparant la référence au traitement le plus performant pour la mesure de succès choisie. [En savoir plus](../content-management/experiment-calculations.md#confidence-intervals).

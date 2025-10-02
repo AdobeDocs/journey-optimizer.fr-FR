@@ -10,7 +10,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
 workflow-type: tm+mt
 source-wordcount: '2753'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -115,7 +115,7 @@ Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouve
 >
 >Les estimations de profil ne sont pas disponibles lorsque les paramètres de règle incluent des données qui ne figurent pas dans le profil, telles que des données contextuelles. Par exemple, une règle d’éligibilité qui exige que la météo actuelle soit de ≥80 degrés.
 
-### Utiliser les audiences par rapport aux règles de décision {#segments-vs-decision-rules}
+### Utiliser les audiences ou les règles de décision {#segments-vs-decision-rules}
 
 Pour appliquer une contrainte, vous pouvez restreindre la sélection des offres aux personnes membres d’une ou plusieurs **audiences Adobe Experience Platform**. Vous pouvez également utiliser une **règle de décision**, les deux solutions correspondant à des utilisations différentes.
 
@@ -273,7 +273,7 @@ Par exemple, la région de hub de votre organisation est *NLD2* et vous envoyez 
 
 >[!NOTE]
 >
->Lorsque les compteurs se propagent d’un bord à l’autre ou d’un moyeu à l’autre, un délai de 30 minutes peut s’appliquer.
+>Lorsque les compteurs sont propagés des zones périphériques vers le centre ou du centre vers les zones périphériques, un délai pouvant aller jusqu’à 30 minutes peut s’appliquer.
 
 Pour plus d’informations sur les régions hub et edge associées à votre organisation, contactez votre représentant ou représentante Adobe.
 

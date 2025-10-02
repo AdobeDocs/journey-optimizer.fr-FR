@@ -6,7 +6,7 @@ description: Gestion des décisions
 redpen-status: CREATED_||_2025-08-11_21-05-09
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 

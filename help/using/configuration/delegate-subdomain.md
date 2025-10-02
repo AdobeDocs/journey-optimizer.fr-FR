@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '1906'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
 
    * Délégation personnalisée - [En savoir plus](about-subdomain-delegation.md#custom-subdomain-delegation)
 
-     Découvrez comment configurer des sous-domaines personnalisés dans cette [section dédiée](delegate-custom-subdomain.md)
+     Découvrez comment configurer des sous-domaines personnalisés dans cette [section dédiée](delegate-custom-subdomain.md).
 
    <!--![](assets/subdomain-method-full.png)-->
 
@@ -276,4 +276,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
