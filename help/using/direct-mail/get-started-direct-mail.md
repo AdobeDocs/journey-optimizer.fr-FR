@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: courrier, message, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 73f5cfdedd5a472cf922a5dfd950f3361896ba8d
+source-git-commit: 6865131089122419a7d2f41bd7c6a36d144aa71c
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '237'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 >[!AVAILABILITY]
 >
->Les messages de publipostage direct ne peuvent être créés que dans le cadre de campagnes planifiées. Ils ne sont pas disponibles pour une utilisation dans des campagnes déclenchées par l’API ou dans des parcours.
+>Les messages de publipostage direct ne peuvent être créés que dans le cadre de campagnes planifiées. Ils ne sont pas disponibles pour une utilisation dans des campagnes orchestrées et déclenchées par l’API, ni dans des parcours.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
