@@ -235,8 +235,8 @@ ht-degree: 99%
       + [Questions fréquentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuration des données {#data-configuration}
          + [Configuration des données](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Gestion des schémas et des jeux de données basés sur des modèles {#schemas-datasets}
-            + [Gestion des schémas et des jeux de données basés sur des modèles](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Gérer les jeux de données et les schémas basés sur des modèles {#schemas-datasets}
+            + [Gérer les jeux de données et les schémas basés sur des modèles](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Commencer à utiliser des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
             + [Schéma manuel](using/orchestrated/manual-schema.md)
             + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
@@ -483,7 +483,7 @@ ht-degree: 99%
          + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
          + [Création de modèles](using/landing-pages/lp-templates.md)
          + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
-      + [Utilisation des formulaires dans vos pages de destination](using/landing-pages/lp-forms.md)
+      + [Utiliser les formulaires dans vos pages de destination](using/landing-pages/lp-forms.md)
       + [Créer une liste dʼabonnements](using/landing-pages/subscription-list.md)
       + [Apprendre avec des cas d’utilisation](using/landing-pages/lp-use-cases.md)
       + Configurer les pages de destination {#lp-configuration}
@@ -555,7 +555,7 @@ ht-degree: 99%
          + [Mesures de l’accélérateur d’expérience](using/content-management/experiment-accelerator-metrics.md)
       + Notes techniques {#technotes}
          + [Notes techniques](/help/rp_landing_pages/technotes-landing-page.md)
-         + [Test A/B contre bandit manchot](using/content-management/mab-vs-ab.md)
+         + [Test A/B et bandit manchot](using/content-management/mab-vs-ab.md)
          + [Présentation des calculs statistiques](using/content-management/experiment-calculations.md)
          + [Comprendre les calculs statistiques dans le rapport d’expérience](using/content-management/experiment-report-calculations.md)
 + Audiences, profils et identité {#audiences-profiles-identities}
@@ -966,7 +966,7 @@ ht-degree: 99%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
