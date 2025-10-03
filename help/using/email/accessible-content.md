@@ -31,7 +31,7 @@ Les bonnes pratiques relatives à la conception de contenu accessible avec [!DNL
 >Cette page a pour but de vous aider à rendre votre contenu accessible à l’ensemble de vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec les e-mails et les pages de destination que vous avez conçus avec [!DNL Journey Optimizer].
 >
 >D’un autre côté, l’accessibilité de l’interface [!DNL Journey Optimizer] elle-même est détaillée dans [cette section](../start/accessibility.md).
-> 
+
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleurs approprié et des polices simples. [En savoir plus](content-components.md#text)
