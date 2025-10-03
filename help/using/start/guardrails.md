@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2825'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Cette modification sera déployée sur les **sandbox client existants** dans une
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des e-mails à partir de [!DNL Adobe Journey Optimizer] et d’un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage], par exemple.
+Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des e-mails depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage], par exemple.
 
 ### Mécanismes de sécurisation des SMS {#sms-guardrails}
 
@@ -64,21 +64,21 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/g
 * La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
 * La gestion du consentement fonctionne au niveau du canal SMS pour les MMS.
 
-### Mécanismes de sécurisation du canal entrant {#inbound-guardrails}
+### Mécanismes de sécurisation pour le canal entrant {#inbound-guardrails}
 
-* Journey Optimizer prend en charge un volume maximal de 5 000 requêtes entrantes par seconde. Ce mécanisme de sécurisation s’applique à toutes les requêtes entrantes, qui peuvent provenir de l’un des canaux entrants pris en charge par Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md), [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)).
+* Journey Optimizer prend en charge un volume maximal de 5 000 requêtes entrantes par seconde. Ce mécanisme de sécurisation s’applique à toutes les requêtes entrantes, qui peuvent provenir de n’importe quel canal entrant pris en charge par Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md), [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)).
 
-  Les canaux entrants Journey Optimizer ciblent les nouveaux profils qui n’ont peut-être jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
+  Les canaux entrants de Journey Optimizer ciblent les nouveaux profils qui n’ont peut-être jamais été engagés avant sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
 
   Les mesures de licence de chaque package sont répertoriées à la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-* Journey Optimizer prend en charge un maximum de 500 actions entrantes actives à tout moment. Ces actions entrantes ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md) [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)) sont comptabilisées si elles font partie d’une campagne active ou si elles sont un nœud utilisé dans un parcours actif. Une fois ce nombre atteint, vous devez désactiver les anciennes campagnes ou les anciens parcours qui utilisent des actions entrantes avant de pouvoir en lancer de nouvelles.
+* Journey Optimizer prend en charge un maximum de 500 actions entrantes actives, quel que soit le moment. Ces actions entrantes ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md), [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)) sont comptabilisées si elles font partie d’une campagne active ou si elles sont un nœud utilisé dans un parcours actif. Une fois ce nombre atteint, vous devez désactiver les anciennes campagnes ou les anciens parcours qui utilisent des actions entrantes avant de pouvoir en lancer de nouvelles.
 
-* Pour utiliser les actions [expérience basée sur le code](../code-based/get-started-code-based.md) dans [!DNL Journey Optimizer] et diffuser la payload du contenu de code qui peut être utilisée par vos applications, remplissez les conditions préalables détaillées sur [cette page](../code-based/code-based-prerequisites.md).
+* Pour utiliser des actions d’[expérience basée sur du code](../code-based/get-started-code-based.md) dans [!DNL Journey Optimizer] et fournir la payload de contenu de code qui peut être utilisée par vos applications, respectez les conditions préalables requises présentées dans [cette page](../code-based/code-based-prerequisites.md).
 
 ### Mécanismes de sécurisation des messages transactionnels {#transactional-message-guardrails}
 
-Journey Optimizer prend en charge un volume maximal de 500 messages transactionnels par seconde dans les campagnes.
+Journey Optimizer prend en charge un volume maximal de 500 messages transactionnels par seconde dans les campagnes.
 
 ## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
@@ -137,7 +137,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -171,7 +171,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions personnali
 
 Les mécanismes de sécurisation suivants s’appliquent aux [événements](../event/about-events.md) dans vos parcours :
 
-* Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours entrants par seconde, sur tous les sandbox. En savoir plus sur cette limitation [sur cette page](../event/about-events.md#event-thoughput).
+* Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours entrants par seconde, sur tous les sandbox. Pour en savoir plus sur cette limitation, consultez [cette page](../event/about-events.md#event-thoughput).
 * Les parcours déclenchés par un événement peuvent prendre jusqu’à 5 minutes pour traiter la première action du parcours.
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
@@ -204,7 +204,7 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 ### Identifiants supplémentaires {#supplemental}
 
-Des mécanismes de sécurisation spécifiques s’appliquent à l’utilisation d’identifiants supplémentaires dans les parcours. Ils sont répertoriés sur [cette page](../building-journeys/supplemental-identifier.md#guardrails).
+Des mécanismes de sécurisation spécifiques s’appliquent à l’utilisation d’identifiants supplémentaires dans les parcours. Ils sont répertoriés dans [cette page](../building-journeys/supplemental-identifier.md#guardrails).
 
 ### Éditeur d’expression {#expression-editor}
 
@@ -219,7 +219,7 @@ Le mécanisme de sécurisation suivant s’applique à l’[éditeur d’express
 
 Le mécanisme de sécurisation suivant s’applique à l’activité de parcours [Qualification d’audience](../building-journeys/audience-qualification-events.md) :
 
-* L’activité Qualification d’audience ne peut pas être utilisée avec les activités Adobe Campaign.
+* L’activité Qualification de l’audience ne peut pas être utilisée avec les activités Adobe Campaign.
 * Les identifiants supplémentaires ne sont pas pris en charge pour les parcours de qualification d’audience.
 
 #### Activités de campagne {#ac-g}
@@ -264,13 +264,13 @@ Les mécanismes de sécurisation suivants s’appliquent à l’activité de par
 * Un parcours ne peut avoir qu’une seule activité **Lecture d’audience**.
 * Consultez également les recommandations sur l’utilisation de l’activité **Lecture d’audience** sur [cette page](../building-journeys/read-audience.md).
 * Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
-* Pour les parcours qui utilisent des identifiants supplémentaires, le taux de lecture de l’activité Lecture d’audience pour chaque instance de parcours est limité à un maximum de 500 profils par seconde.
+* Pour les parcours qui utilisent des ID supplémentaires, le taux de lecture de l’activité Lecture d’audience pour chaque instance de parcours est limité à un maximum de 500 profils par seconde.
 
 Consultez également [cette page](../building-journeys/read-audience.md#must-read).
 
-#### Mettre à jour l’activité du profil {#update-profile-g}
+#### Activité Mettre à jour un profil {#update-profile-g}
 
-Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Mise à jour de profil]**. Ils sont répertoriés sur [cette page](../building-journeys/update-profiles.md).
+Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Mettre à jour un profil]**. Ils sont répertoriés sur [cette page](../building-journeys/update-profiles.md).
 
 ## Mécanismes de sécurisation de l’orchestration de campagne {#orchestration-guardrails}
 

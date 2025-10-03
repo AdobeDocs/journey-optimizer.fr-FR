@@ -6,15 +6,15 @@ description: Parcours
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Parcours{#section-overview}
 
-Dans Adobe Journey Optimizer, les parcours vous permettent de créer des parcours clients personnalisés et à plusieurs étapes qui s’adaptent en temps réel au comportement et aux besoins de votre audience. Grâce à une zone de travail intuitive par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal. Que vous exploriez des déclencheurs en temps réel, gériez des propriétés de parcours ou utilisiez des outils avancés tels que des actions et des expressions personnalisées, cette section fournit une feuille de route claire. Découvrez des guides pratiques, des cas d’utilisation et des conseils de résolution des problèmes pour concevoir et affiner en toute confiance des parcours qui offrent aux clientes et clients des expériences significatives et opportunes.
+Dans Adobe Journey Optimizer, les parcours vous permettent de créer des parcours clients personnalisés et à plusieurs étapes qui s’adaptent en temps réel au comportement et aux besoins de votre audience. Grâce à une zone de travail intuitive par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal. Que vous exploriez des déclencheurs en temps réel, gériez des propriétés de parcours ou utilisiez des outils avancés tels que des actions et des expressions personnalisées, cette section fournit une feuille de route claire. Découvrez des guides pratiques, des cas d’utilisation et des conseils de résolution des problèmes pour concevoir et affiner en toute confiance des parcours qui offrent aux clientes et clients des expériences significatives et opportunes.
 
 ## Vue d’ensemble des parcours
 
@@ -86,6 +86,6 @@ Explorez les mises en œuvre réelles d’Adobe Journey Optimizer, y compris l
 
 - **[Résolution des problèmes liés aux parcours clients](troubleshoot-journey-landing-page.md)** : diagnostiquez et résolvez les problèmes d’exécution de parcours à l’aide d’outils, de codes d’erreur et des bonnes pratiques de débogage et d’optimisation.
 
-- **[S’abonner aux alertes de Parcours](../using/reports/alerts.md)** - Découvrez comment gérer les alertes système, vous abonner aux notifications et résoudre les problèmes liés aux parcours et aux campagnes.
+- **[S’abonner aux alertes de parcours](../using/reports/alerts.md)** : découvrez comment gérer les alertes système, vous abonner aux notifications et résoudre les problèmes liés aux parcours et aux campagnes.
 
 

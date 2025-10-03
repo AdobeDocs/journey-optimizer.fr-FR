@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6603'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -268,7 +268,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Prise de décision**
 
-   * **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision. Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes. [En savoir plus](../experience-decisioning/create-decision.md#fragments)
+   * **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision. Cette fonctionnalité est proposée en disponibilité limitée pour un certain nombre de clientes et clients. [En savoir plus](../experience-decisioning/create-decision.md#fragments)
 
 * **Parcours**
 

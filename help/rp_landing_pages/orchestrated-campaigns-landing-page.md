@@ -6,9 +6,9 @@ description: Campagnes orchestrées
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Découvrez les contraintes et les limites à prendre en compte lors de l’utili
 
 Configuration des données pour les campagnes orchestrées
 
-Configurez des schémas, des jeux de données et des canaux basés sur des modèles pour garantir la préparation des données pour les campagnes orchestrées.
+Configurez des jeux de données, des canaux et des schémas basés sur des modèles pour vous assurer que les données sont prêtes pour les campagnes orchestrées.
 
 [Explorer la configuration des données](data-configuration-landing-page.md)
 :::
@@ -83,5 +83,5 @@ Découvrez les activités de ciblage, de canal et de contrôle de flux disponibl
 
 ## Ressources supplémentaires
 
-- **[Questions fréquentes](../using/orchestrated/orchestrated-campaigns-faq.md)** - Explorez les questions fréquentes sur les campagnes orchestrées par Adobe Journey Optimizer.
+- **[Questions fréquentes](../using/orchestrated/orchestrated-campaigns-faq.md)** : parcourez les questions fréquentes sur les campagnes orchestrées Adobe Journey Optimizer.
 
