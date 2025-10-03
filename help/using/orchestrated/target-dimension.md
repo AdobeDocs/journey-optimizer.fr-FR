@@ -5,10 +5,10 @@ title: Créer une dimension de ciblage
 description: Découvrez comment mapper un schéma relationnel au profil client
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: aa075c1ca2feb3b6ef406089ab9fffd704fd95e2
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ Après avoir configuré la **[!UICONTROL Dimension cible]**, procédez à la cr�
 
 ## Configurer votre configuration de canal {#channel-configuration}
 
-Après avoir configuré la **[!UICONTROL dimension cible]**, vous devez configurer la **[!UICONTROL configuration de canal]** pour l’e-mail ou le SMS et définir les **[!UICONTROL détails d’exécution]** appropriés. Vous pouvez ainsi définir :
+Après avoir configuré votre **[!UICONTROL Dimension Target]**, vous devez configurer votre **[!UICONTROL Configuration du canal]** et définir les **[!UICONTROL Détails d’exécution]** appropriés. Vous pouvez ainsi définir :
 
 * **Le niveau de diffusion des messages** : par exemple, l’envoi d’un message par destinataire, comme un e-mail unique par personne.
 
