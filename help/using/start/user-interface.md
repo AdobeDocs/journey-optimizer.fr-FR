@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
-workflow-type: ht
-source-wordcount: '1903'
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+workflow-type: tm+mt
+source-wordcount: '1895'
 ht-degree: 100%
 
 ---
@@ -343,18 +343,6 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 >id="ajo_journey_simulation"
 >title="Simuler votre parcours"
 >abstract="La simulation de parcours vous permet de valider vos parcours et de voir leurs performances avant leur activation. Elle utilise les données d’un modèle formé pour fournir des chiffres sur tout le parcours, afin d’illustrer comment le parcours se comportera dans un scénario réel."
-
-<!-- QUIET HOURS -->
-
->[!CONTEXTUALHELP]
->id="ajo_rule_type"
->title="Type de règle"
->abstract="Type de règle"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_business_rules"
->title="Jeu de règles"
->abstract="Jeu de règles"
 
 <!-- WEBHOOKS -->
 

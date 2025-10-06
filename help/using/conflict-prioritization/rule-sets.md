@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 93%
 
 ---
 
@@ -74,6 +74,11 @@ En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez
 >abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="Type de règle"
+>abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’une communication par e-mail ou SMS par jour. Sélectionnez **Heures calmes** (disponible en disponibilité limitée) pour définir des exclusions temporelles afin de vous assurer qu’aucun message n’est envoyé pendant des périodes spécifiques. »
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="Sélectionner la catégorie de règle relative aux messages"
 >abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles de fréquence correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
@@ -82,6 +87,11 @@ En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez
 >id="ajo_rule_set_rule_capping"
 >title="Limitation des règles"
 >abstract="Définissez la limitation de votre règle. En fonction du domaine du jeu de règles et de la sélection dans le champ Type de règle, ce champ peut définir le nombre maximal de messages qui peuvent être envoyés à un profil, ou le nombre maximal de parcours auxquels le profil peut s’inscrire ou être inscrit simultanément."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_business_rules"
+>title="Jeu de règles"
+>abstract="Sélectionnez l’ensemble de règles à appliquer à votre action personnalisée."
 
 Pour créer un jeu de règles, procédez comme suit.
 
@@ -164,4 +174,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
