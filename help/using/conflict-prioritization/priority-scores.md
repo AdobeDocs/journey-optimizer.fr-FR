@@ -4,7 +4,7 @@ description: Découvrez comment attribuer des scores de priorité aux parcours e
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
+source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Si vous créez cette campagne et souhaitez vous assurer que son contenu s’affi
 >title="Priorité"
 >abstract="Attribuez un score de priorité à l’action de parcours. La priorité est essentielle pour donner la priorité à une action entrante lorsqu’il existe plusieurs actions de parcours ou campagnes utilisant la même configuration des canaux.</br>Saisissez une valeur numérique (comprise entre 0 et 100). Notez que plus le nombre est élevé, plus la priorité est importante. Par défaut, le score de priorité de l’action est hérité du score de priorité global du parcours."
 
-Journey Optimizer vous permet également d’attribuer un score de priorité aux actions de canal entrant dans l’activité **[!UICONTROL Action]**.
+Journey Optimizer vous permet également d’attribuer un score de priorité aux actions de canal entrant dans l’activité [Action](../building-journeys/journey-action.md).
 
 Cela vous permet d’établir la priorité d’une action entrante lorsqu’il existe plusieurs actions de parcours ou campagnes utilisant la même configuration des canaux.
 
@@ -72,4 +72,4 @@ Pour attribuer un score de priorité aux actions entrantes définies dans l’ac
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445003?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
