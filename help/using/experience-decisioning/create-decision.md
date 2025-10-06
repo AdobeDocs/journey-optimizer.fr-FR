@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 56a7f3be7777e1c9f73a1c473bd6babf952333f1
+source-git-commit: ed0c1b9f219b3b855aaac1a27b5ceb704d6f6d5e
 workflow-type: tm+mt
-source-wordcount: '2745'
-ht-degree: 100%
+source-wordcount: '2931'
+ht-degree: 93%
 
 ---
 
@@ -378,6 +378,39 @@ L’ID de fragment et la clé de référence sont sélectionnés dans la section
 >[!WARNING]
 >
 >Si la clé de fragment est incorrecte ou si le contenu du fragment n’est pas valide, le rendu échoue, ce qui entraîne une erreur dans l’appel Edge.
+
+#### Mécanismes de sécurisation lors de l’utilisation de fragments {#fragments-guardrails}
+
+**Attributs d’élément de décision et de contexte**
+
+Les attributs d’élément de décision et les attributs contextuels ne sont pas pris en charge par défaut dans les fragments de [!DNL Journey Optimizer]. Cependant, vous pouvez utiliser des variables globales à la place, comme décrit ci-dessous.
+
+Supposons que vous souhaitiez utiliser la variable *sport* dans votre fragment.
+
+1. Référencez cette variable dans le fragment, par exemple :
+
+   ```
+   Elevate your practice with new {{sport}} gear!
+   ```
+
+1. Définissez la variable avec la fonction **Let** dans le bloc de politique de décision. Dans l’exemple ci-dessous, *sport* est défini avec l’attribut d’élément de décision :
+
+   ```
+   {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
+   {% let sport = item._cjmstage.value %}
+   {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
+   {{/each}}
+   ```
+
+**Validation du contenu du fragment d’élément de décision**
+
+* En raison de la nature dynamique de ces fragments, lorsqu’ils sont utilisés dans une campagne, la validation du message pendant la création du contenu de la campagne est ignorée pour les fragments référencés dans les éléments de décision.
+
+* La validation du contenu du fragment se produit uniquement lors de la création et de la publication du fragment.
+
+* Dans le cas de fragments JSON, la validité de l’objet JSON n’est pas assurée. Assurez-vous que le contenu du fragment d’expression est un fichier JSON valide afin qu’il puisse être utilisé dans les éléments de décision.
+
+Au moment de l’exécution, le contenu de la campagne (y compris le contenu du fragment des éléments de décision) est validé. En cas d’échec de validation, la campagne ne sera pas rendue.
 
 ## Dernières étapes {#final-steps}
 
