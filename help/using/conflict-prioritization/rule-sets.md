@@ -76,7 +76,7 @@ En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Type de règle"
->abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’une communication par e-mail ou SMS par jour. Sélectionnez **Heures calmes** (disponible en disponibilité limitée) pour définir des exclusions temporelles afin de vous assurer qu’aucun message n’est envoyé pendant des périodes spécifiques. »
+>abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’une communication par e-mail ou SMS par jour. Sélectionnez **Heures calmes** (disponible en disponibilité limitée) pour définir des exclusions temporelles afin de vous assurer qu’aucun message n’est envoyé pendant des périodes spécifiques. »"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
