@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f534edb8d4709c74f42bf6b2456d83de128196eb
+source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1781'
 ht-degree: 88%
 
 ---
@@ -23,6 +23,30 @@ ht-degree: 88%
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
 ## Mises à jour d’octobre 2025 {#25-10-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Pièces jointes PDF aux e-mails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais joindre un fichier PDF statique à un e-mail envoyé avec Journey Optimizer.</p>
+<ul>
+<li>Vous pouvez envoyer jusqu’à 6 messages avec une pièce jointe PDF par profil et par an.</li>
+<li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
+<li>Pour augmenter la taille ou le volume, vous pouvez acheter le module complémentaire Pièces jointes PDF. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
+</ul>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../email/pdf-attachments.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 30 septembre 2025</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -304,31 +328,6 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Pièces jointes PDF aux e-mails</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais joindre un fichier PDF statique à un e-mail envoyé avec Journey Optimizer.</p>
-<ul>
-<li>Vous pouvez envoyer jusqu’à 6 messages avec une pièce jointe PDF par profil et par an.</li>
-<li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
-<li>Pour augmenter la taille ou le volume, vous pouvez acheter le module complémentaire Pièces jointes PDF. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
-</ul>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
-<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 
 * **Nouvelles alertes de parcours**\
