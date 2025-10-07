@@ -1,6 +1,6 @@
 ---
 title: Calculs statistiques utilisés dans le rapport d’expérience
-description: En savoir plus sur les tests AB par rapport au bandit manchot
+description: En savoir plus sur les tests A/B et le bandit manchot
 feature: A/B Testing, Experimentation
 role: User
 level: Experienced
@@ -8,11 +8,11 @@ exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
 source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 3%
+ht-degree: 83%
 
 ---
 
-# Expériences A/B contre le bandit manchot {#mab-vs-ab}
+# Expériences A/B et bandit manchot {#mab-vs-ab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
@@ -24,17 +24,17 @@ Cette page présente une comparaison détaillée des expériences **A/B** et **b
 
 ## A/B {#ab-test}
 
-L’expérience A/B traditionnelle implique le partage égal du trafic entre les traitements et le maintien de cette attribution jusqu’à la fin de l’expérience. Une fois la signification statistique atteinte, le traitement gagnant est identifié et mis à l’échelle.
+L’expérience A/B traditionnelle implique la répartition égale du trafic entre les traitements et le maintien de cette attribution jusqu’à la fin de l’expérience. Une fois la signification statistique atteinte, le traitement gagnant est identifié et mis à l’échelle.
 
 ### Avantages
 
-Les principaux points forts des expériences A/B traditionnelles sont les suivants :
+Les principaux points forts des expériences A/B traditionnelles sont les suivants :
 
 * **Rigueur statistique**
 
   La conception fixe fournit des taux d’erreur et des intervalles de confiance bien définis.
 
-  Les cadres de test des hypothèses, par exemple le degré de confiance de 95 %, sont plus faciles à appliquer et à interpréter.
+  Les cadres de test des hypothèses, par exemple le degré de confiance de 95 %, sont plus faciles à appliquer et à interpréter.
 
   Des expériences correctement optimisées réduisent la probabilité de faux positifs.
 
@@ -42,9 +42,9 @@ Les principaux points forts des expériences A/B traditionnelles sont les suivan
 
   La méthodologie est simple à concevoir et à exécuter.
 
-  Les résultats peuvent être communiqués clairement aux parties prenantes non techniques.
+  Les résultats peuvent être communiqués clairement aux parties prenantes ne possédant pas de compétences techniques.
 
-* **Collecte de données complète**
+* **Collecte exhaustive des données**
 
   Chaque traitement reçoit une exposition adéquate, ce qui permet d’analyser non seulement la variante gagnante, mais également les alternatives peu performantes.
 
@@ -52,17 +52,17 @@ Les principaux points forts des expériences A/B traditionnelles sont les suivan
 
 * **Contrôle de biais**
 
-  L&#39;allocation fixe réduit la vulnérabilité aux biais tels que la « malédiction du gagnant » ou la régression à la moyenne.
+  L’affectation fixe réduit la vulnérabilité aux biais tels que la « malédiction du gagnant » ou la régression vers la moyenne.
 
 ### Limites
 
-Les principales limites des expériences A/B traditionnelles sont les suivantes :
+Les principales limites des expériences A/B traditionnelles sont les suivantes :
 
-* **Coût d’opportunité**
+* **Coût de l’opportunité**
 
-  Une proportion importante du trafic est dirigée vers des traitements inférieurs, ce qui peut réduire les conversions ou les recettes pendant le test.
+  Une proportion importante du trafic est dirigée vers des traitements inférieurs, ce qui peut réduire les conversions ou le revenu pendant le test.
 
-  Le traitement gagnant ne peut pas être mis en œuvre avant la fin de l&#39;expérience.
+  Le traitement gagnant ne peut pas être mis en œuvre avant la fin de l’expérience.
 
 * **Exigence de durée fixe**
 
@@ -72,19 +72,19 @@ Les principales limites des expériences A/B traditionnelles sont les suivantes 
 
 ## Bandit manchot {#mab-experiment}
 
-Les algorithmes du bandit manchot utilisent l’allocation adaptative : à mesure que les preuves s’accumulent, un trafic plus important est dirigé vers des traitements plus performants. L’objectif est de maximiser la récompense cumulée au cours de l’expérience plutôt que de se concentrer uniquement sur le résultat final.
+Les algorithmes du bandit manchot utilisent l’affectation adaptative : à mesure que les preuves s’accumulent, un trafic plus important est dirigé vers des traitements plus performants. L’objectif est de maximiser la récompense cumulée au cours de l’expérience plutôt que de se concentrer uniquement sur le résultat final.
 
 ### Avantages
 
-Les principales forces des méthodes de bandit manchot sont les suivantes :
+Les principales forces des méthodes de bandit manchot sont les suivantes :
 
 * **Optimisation plus rapide**
 
   Les traitements prometteurs sont prioritaires plus tôt, ce qui améliore les performances globales pendant le test.
 
-* **Adaptivité**
+* **Adaptation**
 
-  Les allocations sont mises à jour en continu à mesure que les données sont collectées, ce qui rend le bandit manchot adapté aux environnements dynamiques.
+  Les affectations sont mises à jour en continu à mesure que les données sont collectées, faisant du bandit manchot une méthode adaptée aux environnements dynamiques.
 
 * **Coût d’opportunité réduit**
 
@@ -96,7 +96,7 @@ Les principales forces des méthodes de bandit manchot sont les suivantes :
 
 ### Limites
 
-Les principales limites des méthodes de bandit manchot sont les suivantes :
+Les principales limites des méthodes de bandit manchot sont les suivantes :
 
 * **Des garanties statistiques plus faibles**
 
@@ -104,11 +104,11 @@ Les principales limites des méthodes de bandit manchot sont les suivantes :
 
 * **Transparence Réduite**
 
-  L’allocation adaptative peut être difficile à expliquer aux parties prenantes.
+  L’affectation adaptative peut être difficile à expliquer aux parties prenantes.
 
-* **Informations limitées sur les traitements sous-performants**
+* **Informations limitées sur les traitements moins performants**
 
-  Les traitements faibles sont peu exposés, ce qui limite l&#39;insight diagnostique.
+  Les traitements faibles sont peu exposés, ce qui limite la richesse de l’information diagnostique.
 
 * **Complexité de l’implémentation**
 
@@ -118,11 +118,11 @@ Les principales limites des méthodes de bandit manchot sont les suivantes :
 
 | Scénario | Méthode recommandée |
 |-|-|
-| Vous exécutez des tests exploratoires ou axés sur la recherche | A/B |
-| Vous exécutez des campagnes permanentes, par exemple des annonces publicitaires, des recommandations | Bandit Manchot |
-| Vous souhaitez maximiser les conversions pendant le test. | Bandit Manchot |
-| Vous voulez des informations claires et fiables | A/B |
-| Il faut s&#39;adapter rapidement, par exemple, aux changements saisonniers | Bandit Manchot |
-| Le trafic est limité et vous souhaitez optimiser rapidement le retour sur investissement | Bandit Manchot |
-| Le trafic est élevé et vous pouvez vous permettre un apprentissage plus lent | A/B |
-| Les parties prenantes ont besoin de points de décision clairs | A/B |
+| Vous exécutez des tests exploratoires ou axés sur la recherche. | A/B |
+| Vous exécutez des campagnes permanentes, par exemple des annonces publicitaires, des recommandations. | Bandit manchot |
+| Vous souhaitez maximiser les conversions pendant le test. | Bandit manchot |
+| Vous voulez des informations claires et fiables. | A/B |
+| Vous devez vous adapter rapidement, par exemple, à cause de changements saisonniers. | Bandit manchot |
+| Le trafic est limité et vous souhaitez optimiser rapidement le retour sur investissement. | Bandit manchot |
+| Le trafic est élevé et vous pouvez vous permettre un apprentissage plus lent. | A/B |
+| Les parties prenantes ont besoin de points de décision clairs. | A/B |

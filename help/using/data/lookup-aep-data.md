@@ -13,7 +13,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 74%
+ht-degree: 79%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Activer pour la recherche"
->abstract="L’activation d’un jeu de données pour la recherche permet d’exploiter ses données dans les fonctionnalités de personnalisation, de prise de décision et d’orchestration de parcours de Journey Optimizer."
+>abstract="Activer un jeu de données pour la recherche vous permet d’utiliser ses données avec les fonctionnalités de personnalisation, de prise de décision et d’orchestration de parcours de Journey Optimizer."
 
-Journey Optimizer vous permet d’exploiter les données des données Adobe Experience Platform avec des fonctionnalités de personnalisation, de prise de décision et d’orchestration des parcours. Pour ce faire, les jeux de données basés sur des enregistrements nécessaires à la personnalisation de la recherche doivent d’abord être activés pour le service de recherche, comme décrit ci-dessous.
+Journey Optimizer vous permet d’utiliser les données d’Adobe Experience Platform avec les fonctionnalités de personnalisation, de prise de décision et d’orchestration de parcours. Pour ce faire, les jeux de données basés sur des enregistrements nécessaires à la personnalisation de la recherche doivent d’abord être activés pour le service de recherche, comme décrit ci-dessous.
 
 ## À lire impérativement
 
@@ -34,7 +34,7 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 
 * **Pas d’informations d’identification personnelle dans les jeux de données** - Les jeux de données activés pour la recherche ne doivent pas contenir d’informations d’identification personnelle (PII).
 
-* &#x200B;
+* 
    * **Risque de suppression** - Les jeux de données utilisés dans la personnalisation ne sont pas protégés contre la suppression. Vous devez suivre les jeux de données utilisés pour vous assurer qu’ils ne sont pas supprimés.
 
 * **Type de schéma** - Les jeux de données doivent être associés à un schéma **NOT** de type Profil ou Événement.
@@ -154,4 +154,4 @@ Une fois qu’un jeu de données a été activé pour la recherche à l’aide d
 
 * [Utiliser des données Adobe Experience Platform à des fins de personnalisation](../personalization/aep-data-perso.md)
 * [Utiliser des données Adobe Experience Platform à des fins de prise de décision](../experience-decisioning/aep-data-exd.md)
-* [Utilisation des données Adobe Experience Platform pour l’orchestration des parcours](../building-journeys/dataset-lookup.md)
+* [Utiliser des données Adobe Experience Platform à des fins d’orchestration de parcours](../building-journeys/dataset-lookup.md)
