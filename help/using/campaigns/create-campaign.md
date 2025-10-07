@@ -53,4 +53,4 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 
 Découvrez comment créer une campagne d’action.
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3412403?quality=12&captions=fre_fr)
