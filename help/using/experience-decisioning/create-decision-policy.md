@@ -5,10 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '1745'
-ht-degree: 68%
+source-wordcount: '1721'
+ht-degree: 70%
 
 ---
 
@@ -88,9 +88,9 @@ Une fois que vous avez ajouté une nouvelle politique de décision dans votre co
 
    ![](assets/decision-code-based-details.png)
 
-   Pour le canal E-mail, le champ **[!UICONTROL Nombre d’éléments]** est défini sur 1 par défaut et ne peut pas être modifié à moins que la politique de décision ne soit ajoutée à partir d’un composant **[!UICONTROL Grille de répétition]**. Pour renvoyer plusieurs éléments dans un e-mail, vous devez ajouter un composant de contenu **[!UICONTROL Grille de répétition]** afin de pouvoir sélectionner plusieurs éléments dans le champ **[!UICONTROL Nombre d’éléments]**. Pour plus d’informations, développez la section ci-dessous :
+   Pour le canal E-mail, le champ **[!UICONTROL Nombre d’éléments]** est défini sur 1 par défaut et ne peut pas être modifié à moins que la politique de décision ne soit ajoutée à partir d’un composant **[!UICONTROL Grille de répétition]**. Pour plus d’informations, développez la section ci-dessous :
 
-   +++Renvoyer plusieurs éléments de décision dans les e-mails
+   +++Renvoi de plusieurs éléments de décision dans des e-mails à l’aide d’un composant **[!UICONTROL Grille de répétition]**
 
    1. Faites glisser un composant **[!UICONTROL Grille de répétition]** dans votre e-mail et configurez-le selon vos besoins à l’aide du volet **[!UICONTROL Paramètres]**.
 
@@ -114,13 +114,9 @@ La section **[!UICONTROL Séquence de stratégie]** vous permet de sélectionner
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
-   * **[!UICONTROL Stratégie de sélection]** - Les stratégies de décision exploitent les collections associées aux contraintes d’éligibilité et aux méthodes de classement afin de déterminer les éléments à afficher.
+   * **[!UICONTROL Stratégie de sélection]** - Les stratégies de décision exploitent les collections associées aux contraintes d’éligibilité et aux méthodes de classement afin de déterminer les éléments à afficher. Vous pouvez sélectionner une ou plusieurs stratégies de sélection existantes ou en créer une à l&#39;aide du bouton **[!UICONTROL Créer une stratégie de sélection]**. [Découvrir comment créer des stratégies de sélection](selection-strategies.md)
 
-     Vous pouvez sélectionner une ou plusieurs stratégies de sélection existantes ou en créer une à l&#39;aide du bouton **[!UICONTROL Créer une stratégie de sélection]**. [Découvrir comment créer des stratégies de sélection](selection-strategies.md)
-
-   * **[!UICONTROL Élément de décision]** - Sélectionnez des éléments de décision uniques sans avoir à exécuter une stratégie de sélection.
-
-     Vous pouvez sélectionner un seul élément de décision à la fois. Toutes les contraintes d’éligibilité définies pour l’élément s’appliquent.
+   * **[!UICONTROL Élément de décision]** - Sélectionnez des éléments de décision uniques sans avoir à exécuter une stratégie de sélection. Vous pouvez sélectionner un seul élément de décision à la fois. Toutes les contraintes d’éligibilité définies pour l’élément s’appliquent.
 
    >[!NOTE]
    >
@@ -227,9 +223,7 @@ Vous pouvez modifier ou supprimer une politique de décision à tout moment à l
 
 ## Attribuer un emplacement (e-mail) {#placement}
 
-Pour les e-mails , vous devez définir un emplacement pour le composant associé à la politique de décision.
-
-Pour ce faire, cliquez sur le bouton **[!UICONTROL Prise de décision]** dans le volet des propriétés du composant et sélectionnez **[!UICONTROL Attribuer l&#39;emplacement]**. [En savoir plus sur l’utilisation des emplacements](../experience-decisioning/placements.md)
+Pour les e-mails, vous devez définir un emplacement pour le composant associé à la politique de décision. Pour ce faire, cliquez sur le bouton **[!UICONTROL Prise de décision]** dans le volet des propriétés du composant et sélectionnez **[!UICONTROL Attribuer l&#39;emplacement]**. [En savoir plus sur l’utilisation des emplacements](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 
