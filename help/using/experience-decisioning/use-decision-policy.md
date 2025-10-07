@@ -54,7 +54,7 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 >[!NOTE]
 >
 >Pour le suivi des éléments de politique de décision, l’attribut `trackingToken` doit être ajouté comme suit pour le contenu de la politique de décision :
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Pour ajouter un attribut, cliquez sur l’icône « + » en regard de celui-ci. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
