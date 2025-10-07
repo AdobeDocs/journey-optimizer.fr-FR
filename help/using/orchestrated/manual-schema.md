@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Étapes de configuration
-description: Découvrez comment créer des schémas basés sur des modèles directement via l’interface utilisateur.
+description: Découvrez comment créer des schémas basés sur des modèles directement via l’interface d’utilisation.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
+source-git-commit: d910abc164a713c7d8634cdd11cc4cd8b42be398
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 76%
+ht-degree: 87%
 
 ---
 
-# Configurer un schéma manuel basé sur un modèle {#manual-schema}
+# Configurer un schéma basé sur un modèle manuel {#manual-schema}
 
-Les schémas basés sur des modèles peuvent être créés directement via l’interface utilisateur, ce qui permet une configuration détaillée des attributs, des clés primaires, des champs de contrôle de version et des relations.
+Les schémas basés sur des modèles peuvent être créés directement via l’interface d’utilisation, ce qui permet une configuration détaillée des attributs, des clés primaires, des champs de contrôle de version et des relations.
 
 L’exemple suivant définit manuellement le schéma **Membres du programme de fidélité** pour illustrer la structure requise pour les campagnes orchestrées.
 
-1. [Création manuelle d’un schéma basé sur un modèle](#schema) à l’aide de l’interface Adobe Experience Platform.
+1. [Création manuelle d’un schéma basé sur un modèle](#schema) à l’aide de l’interface Adobe Experience Platform.
 
 1. [Ajoutez des attributs](#schema-attributes) tels que l’ID du client, le niveau d’abonnement et les champs de statut.
 
@@ -28,11 +28,11 @@ L’exemple suivant définit manuellement le schéma **Membres du programme de f
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [En savoir plus sur les schémas manuels basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [En savoir plus sur les schémas manuels basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Créer votre schéma {#schema}
 
-Commencez par créer manuellement un schéma basé sur un modèle dans Adobe Experience Platform. Ce processus vous permet de définir la structure du schéma à partir de zéro, y compris son nom et son comportement.
+Commencez par créer manuellement un nouveau schéma basé sur un modèle dans Adobe Experience Platform. Ce processus vous permet de définir la structure du schéma à partir de zéro, y compris son nom et son comportement.
 
 1. Connectez-vous à Adobe Experience Platform.
 
@@ -40,7 +40,7 @@ Commencez par créer manuellement un schéma basé sur un modèle dans Adobe Exp
 
 1. Cliquez sur **[!UICONTROL Créer un schéma]**.
 
-1. Sélectionnez **[!UICONTROL Basé sur le modèle]** comme **Type de schéma**.
+1. Sélectionnez **[!UICONTROL Basé sur un modèle]** pour votre **Type de schéma**.
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -60,7 +60,7 @@ Ajoutez ensuite des attributs pour définir la structure de votre schéma. Ces c
 
 Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identité de type `String` avec un espace de noms d’identité associé. Cela garantit la compatibilité avec les fonctionnalités de ciblage et de résolution des identités d’Adobe Journey Optimizer.
 
-+++Les fonctionnalités suivantes sont prises en charge lors de la création de schémas basés sur des modèles dans Adobe Experience Platform
++++Les fonctions suivantes sont prises en charge lors de la création de schémas basés sur des modèles dans Adobe Experience Platform.
 
 * **ENUM**\
   Les champs ENUM sont pris en charge pour la création de schémas manuelle ou basée sur un fichier DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
@@ -69,7 +69,7 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
   La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
 * **Clé composite**\
-  Les clés primaires composites sont prises en charge dans les définitions de schéma basées sur un modèle, ce qui permet d’utiliser plusieurs champs ensemble pour identifier les enregistrements de manière unique.
+  Les clés primaires composites sont prises en charge dans les définitions de schéma basé sur un modèle, ce qui permet d’utiliser plusieurs champs ensemble pour identifier des enregistrements de manière unique.
 
 +++
 
