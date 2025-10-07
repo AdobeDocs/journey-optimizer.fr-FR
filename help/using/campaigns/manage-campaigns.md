@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1709'
 ht-degree: 100%
 
 ---
 
 # Accéder aux campagnes et les gérer {#manage-campaigns}
-
-Avant de commencer une campagne, vérifiez les conditions préalables suivantes répertoriées [dans cette section](get-started-with-campaigns.md#permissions). Une fois ces conditions préalables remplies, vous pouvez commencer à créer votre campagne :
-
-* **Accéder aux campagnes** Vous pouvez accéder aux campagnes à partir de la [liste des campagnes](#access) ou du [calendrier des campagnes](#calendar).
-
-* **Créer la campagne** Les étapes de création dépendent du [type de campagne](get-started-with-campaigns.md#get-started-with-campaigns). Découvrez comment créer une [campagne d’action](../campaigns/create-campaign.md), une [campagne déclenchée par une API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md).
-
-* **Définir les propriétés de la campagne** Découvrez comment définir des propriétés d’une [campagne d’action](../campaigns/campaign-properties.md), d’une [campagne déclenchée par une API](../campaigns/api-triggered-campaign-properties.md) ou d’une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md).
-
-* **Définir les canaux et le contenu de la campagne** Découvrez comment définir le contenu d’une [campagne d’action](../campaigns/campaign-content.md), d’une [campagne déclenchée par une API](../campaigns/api-triggered-campaign-content.md) ou d’une [campagne orchestrée](../orchestrated/orchestrate-activities.md).
-
-* **Planifier votre campagne** : vous pouvez vérifier les campagnes planifiées [dans le calendrier des campagnes](#calendar).
-
-Ensuite, commencez à tester, à améliorer et à affiner votre campagne avant de l’exécuter. Une fois votre campagne active, vous pouvez la surveiller et accéder aux rapports.
-
-Vous pouvez consulter les statuts et alertes de la campagne [dans cette section](#statuses).
-
-
-## Accéder aux campagnes {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

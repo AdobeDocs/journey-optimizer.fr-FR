@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,8 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 
 ## Étapes clés de création de campagnes déclenchées par API {#steps}
 
+Avant de commencer une campagne, vérifiez les conditions préalables suivantes répertoriées [dans cette section](get-started-with-campaigns.md#permissions). Une fois ces conditions préalables remplies, vous pouvez commencer à créer votre campagne :
+
 1. [Définir les propriétés de la campagne](api-triggered-campaign-properties.md)
 1. [Configurer l’action de campagne](api-triggered-campaign-action.md)
 1. [Modifier le contenu de la campagne](api-triggered-campaign-content.md)
@@ -51,12 +53,8 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 1. [Vérifier et activer la campagne](review-activate-api-triggered-campaign.md)
 1. [Déclencher l’exécution de la campagne](trigger-campaigns.md)
 
->[!IMPORTANT]
->
->Avant de créer votre campagne, vérifiez que vous avez passé en revue les [conditions préalables de la campagne](../campaigns/get-started-with-campaigns.md#prerequisites).
-
 ## Vidéos pratiques {#video}
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452727?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

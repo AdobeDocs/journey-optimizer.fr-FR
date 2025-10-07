@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '189'
 ht-degree: 100%
 
 ---
@@ -40,6 +40,8 @@ Les campagnes d’action (ou campagnes planifiées) permettent des communication
 
 ## Étapes clés de création de campagnes d’action {#steps}
 
+Avant de commencer une campagne, vérifiez les conditions préalables suivantes répertoriées [dans cette section](get-started-with-campaigns.md#permissions). Une fois ces conditions préalables remplies, vous pouvez commencer à créer votre campagne :
+
 1. [Définir les propriétés de la campagne d’action](campaign-properties.md)
 1. [Configurer l’action de campagne](campaign-action.md)
 1. [Modifier le contenu d’une campagne d’action](campaign-content.md)
@@ -47,12 +49,8 @@ Les campagnes d’action (ou campagnes planifiées) permettent des communication
 1. [Planifier la campagne d’action](campaign-schedule.md)
 1. [Vérifier et activer la campagne d’action](review-activate-campaign.md)
 
->[!IMPORTANT]
->
->Avant de créer votre campagne, vérifiez que vous avez consulté les [conditions préalables de la campagne](../campaigns/get-started-with-campaigns.md#prerequisites).
-
 ## Vidéos pratiques {#video}
 
 Découvrez comment créer une campagne d’action.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412403?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

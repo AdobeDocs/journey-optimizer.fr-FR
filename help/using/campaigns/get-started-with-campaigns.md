@@ -7,12 +7,13 @@ feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
+mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 61%
 
 ---
 
@@ -83,82 +84,93 @@ ht-degree: 100%
 >title="Campagnes"
 >abstract="Diffusez des communications transactionnelles à des profils individuels ou à des ensembles de profils. Canaux pris en charge : e-mail, SMS, notifications push."
 
-Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
+Utilisez des campagnes [!DNL Journey Optimizer] pour diffuser du contenu unique à une audience spécifique sur plusieurs canaux. Contrairement aux parcours qui exécutent des actions étape par étape, les campagnes exécutent des actions simultanément, immédiatement ou selon un planning défini.
 
 ![](assets/gs-campaigns.png)
 
-Vous pouvez créer différents types de campagnes dans Journey Optimizer. Les canaux pris en charge et les cas d’utilisation varient en fonction du type de campagne. Ces types sont répertoriés ci-dessous.
+## Types de campagne
 
-* **Campagnes d’action**
+[!DNL Journey Optimizer] prend en charge trois types de campagnes. Chaque type correspond à différents cas d’utilisation et prend en charge différents canaux.
 
-  Les campagnes d’action (ou campagnes planifiées) permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des mentions légales ou des mises à jour de politiques. Pour en savoir plus sur les fonctionnalités des campagnes d’action, les cas d’utilisation et les canaux pris en charge, consultez [cette page](create-campaign.md).
-
-* **Campagnes déclenchées par API**
-
-  Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au moment opportun ou aux messages transactionnels/opérationnels (comme la réinitialisation d’un mot de passe) d’être envoyés à un individu. Elles sont utilisées quand une personnalisation de ces campagnes est nécessaire en utilisant non seulement l’attribut de profil, mais aussi les données contextuelles en temps réel du déclencheur, qui est une payload d’API REST. Pour en savoir plus sur les fonctionnalités des campagnes déclenchées par API, les cas d’utilisation et les canaux pris en charge, consultez [cette page](api-triggered-campaigns.md).
-
-* **Campagnes orchestrées**
-
-  L’orchestration de campagne dans Adobe Journey Optimizer alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui permet de renforcer l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
-
-  Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, depuis la segmentation jusqu’à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour assurer vitesse, contrôle et efficacité. Pour en savoir plus sur les fonctionnalités des campagnes orchestrées, les cas d’utilisation et les canaux pris en charge, consultez [cette page](../orchestrated/gs-orchestrated-campaigns.md).
-
-## Conditions préalables {#prerequisites}
-
-Avant de créer votre campagne, vérifiez que vous avez examiné les conditions préalables ci-après.
-
-### Autorisations
-
-Les campagnes ne sont disponibles que pour les utilisateurs et utilisatrices disposant des autorisations appropriées répertoriées ci-dessous. [En savoir plus sur les rôles intégrés de Journey Optimizer](../administration/ootb-product-profiles.md)
+![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
 
->[!TAB Campagnes d’action]
+>[!TAB Campagnes orchestrées]
 
-Administrateur ou administratrice de Campaign
-Approbateur ou approbatrice de Campagin
-Responsable de Campaign
-Observateur ou observatrice de Campaign
+**Campagnes orchestrées** alimentez des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui vous permet de stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
+
+Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, depuis la segmentation jusqu’à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour assurer vitesse, contrôle et efficacité.
+
+➡️ [Découvrez comment utiliser des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md).
+
+>[!TAB Campagnes d’action (ou campagnes planifiées)]
+
+Les **campagnes d’action** également appelées campagnes planifiées, permettent des communications par lots ad hoc simples.
+
+* **Planifié - Marketing** - Pour les cas d’utilisation marketing tels que les offres promotionnelles, les campagnes d’engagement, les annonces, les informations juridiques ou les mises à jour de politiques. Nécessite que les destinataires soient inscrits.
+* **Planifié - Transactionnel** - Contrairement aux campagnes marketing, les campagnes transactionnelles ne nécessitent pas que les destinataires soient inscrits. Utilisez cette catégorie pour les communications liées aux perturbations, aux urgences et aux annulations. Canaux pris en charge : email, SMS, notification push.
+
+➡️ [Découvrez comment utiliser les campagnes d’action](create-campaign.md)
 
 >[!TAB Campagnes déclenchées par API]
 
-Administrateur ou administratrice de Campaign
-Approbateur ou approbatrice de Campagin
-Responsable de Campaign
-Observateur ou observatrice de Campaign
+**Campagnes déclenchées par API** vous permettent de déclencher l’exécution de la campagne à l’aide d’un appel API. Ces communications peuvent être envoyées lorsque le besoin implique une personnalisation non seulement par un attribut de profil de réinitialisation de mot de passe, mais également par les données contextuelles en temps réel dans le déclencheur qui est une payload de l’API REST.
 
->[!TAB Campagnes orchestrées]
+* **Déclenché par API - Marketing** - Envoyez des communications marketing personnalisées aux audiences ciblées.
+* **Déclenché par API - Transactionnel** - Envoyez des messages à la suite d’une action effectuée par une personne, telle qu’une demande de réinitialisation de mot de passe, un achat au panier, etc.
 
-Administrateur ou administratrice de campagnes orchestrées
-Approbateur ou approbatrice de campagnes orchestrées
-Responsable de campagnes orchestrées
-Observateur ou observatrice de campagnes orchestrées
+➡️ [Découvrez comment utiliser des campagnes déclenchées par API](api-triggered-campaigns.md)
+
 
 >[!ENDTABS]
 
-Si vous ne parvenez pas à accéder aux fonctionnalités des campagnes, contactez votre équipe d’administration pour demander les autorisations nécessaires.
+## Canaux pris en charge par type de campagne {#channels}
 
-+++Découvrir comment attribuer un rôle lié à la campagne
+Le tableau ci-dessous indique la disponibilité de chaque canal pour différents types de campagne, en indiquant où ils sont pris en charge.
 
-1. Pour attribuer un rôle à un utilisateur ou une utilisatrice dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez l’un des **[!UICONTROL Rôles]** liés à la campagne intégrée précisés ci-dessous.
+| Canal | Action (Marketing) | Action (transactionnelle) | Déclenché par l’API (marketing) | Déclenché par l’API (transactionnel) | Orchestré |
+|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
+| E-mail | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Notification push | ✅ | ✅ | ✅ | ✅ | ✅ |
+| In-app | ✅ | — | — | — | — |
+| Courrier | ✅ | — | — | — | — |
+| Web | ✅ | — | — | — | — |
+| Exp. basée sur le code | ✅ | — | — | — | — |
+| Cartes de contenu | ✅ | — | — | — | — |
+| WhatsApp | ✅ | — | — | — | — |
+| Ligne | ✅ | — | — | — | — |
 
-1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+## Conditions préalables {#prerequisites}
 
-1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez l’utilisateur ou l’utilisatrice dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
+Avant d’utiliser des campagnes, vérifiez les conditions préalables ci-dessous.
 
-   Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users).
+* **Audiences** Les audiences doivent être disponibles avant de créer la campagne. [Commencer avec les audiences](../audience/about-audiences.md).
 
-La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
+* **Configurations de canal** - Pour pouvoir sélectionner un canal, vous devez avoir créé et disponible la configuration de canal correspondante (c’est-à-dire le préréglage). [Découvrez comment configurer des canaux](../configuration/channel-surfaces.md).
 
-+++
+* **Autorisations** - Les campagnes ne sont disponibles que pour les utilisateurs disposant des autorisations appropriées répertoriées ci-dessous. Si vous ne parvenez pas à accéder aux fonctionnalités de Campaign, contactez votre administrateur pour demander les autorisations nécessaires. [En savoir plus sur les rôles intégrés de Journey Optimizer](../administration/ootb-product-profiles.md)
 
-### Audience
+  | Type de campagne | Autorisations |
+  |----------------------------|----------------------------------------------------------------------------|
+  | **Campagnes d’action** | Administrateur de campagne<br>Approbateur de campagne<br>Responsable de campagne<br>Observateur de campagne |
+  | **Campagnes déclenchées par API** | Administrateur de campagne<br>Approbateur de campagne<br>Responsable de campagne<br>Observateur de campagne |
+  | **Campagnes orchestrées** | Administrateur De Campagne Orchestré<br>Approbateur De Campagne Orchestré<br>Gestionnaire De Campagne Orchestré<br>Observateur De Campagne Orchestré |
 
-Les audiences doivent être disponibles avant de créer la campagne. [Commencer avec les audiences](../audience/about-audiences.md).
+  +++Découvrir comment attribuer un rôle lié à la campagne
 
-### Configuration des canaux
+   1. Pour attribuer un rôle à un utilisateur ou une utilisatrice dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez l’un des **[!UICONTROL Rôles]** liés à la campagne intégrée précisés ci-dessous.
 
-Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le préréglage) doit être créée et disponible. [Découvrez comment configurer des canaux](../configuration/channel-surfaces.md).
+   1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+
+   1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez l’utilisateur ou l’utilisatrice dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
+
+      Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users).
+
+  La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
+
+  +++
 
 ## Explorons plus en détail.
 
