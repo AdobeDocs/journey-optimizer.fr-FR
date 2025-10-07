@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 79%
@@ -83,3 +83,4 @@ Les principales étapes pour tirer parti des politiques de décision dans les me
 Maintenant que vous comprenez comment fonctionnent les politiques de décision et comment elles permettent de diffuser des offres personnalisées, vous êtes prêt à créer votre première politique de décision.
 
 ➡️ [Découvrez comment créer une politique de décision](../experience-decisioning/create-decision-policy.md)
+

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 65%
@@ -54,7 +54,7 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 >[!NOTE]
 >
 >Pour le suivi des éléments de politique de décision, l’attribut `trackingToken` doit être ajouté comme suit pour le contenu de la politique de décision :
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Pour ajouter un attribut, cliquez sur l’icône « + » en regard de celui-ci. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
@@ -167,3 +167,4 @@ Pour les expériences basées sur du code, dès que votre développeur ou dével
 >Actuellement, vous ne pouvez pas simuler le contenu de l’interface d’utilisation dans une campagne ou un parcours d’[expérience basée sur du code](../code-based/create-code-based.md) à l’aide de décisions. Une solution de contournement est proposée dans [cette section](../code-based/code-based-decisioning-implementations.md).
 
 Pour évaluer les performances de vos décisions, vous pouvez créer des [tableaux de bord de rapports Customer Journey Analytics personnalisés](cja-reporting.md).
+

@@ -5,7 +5,7 @@ title: Étapes de configuration
 description: Découvrez comment créer des schémas basés sur des modèles directement via l’interface d’utilisation.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: d910abc164a713c7d8634cdd11cc4cd8b42be398
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 87%
@@ -28,7 +28,7 @@ L’exemple suivant définit manuellement le schéma **Membres du programme de f
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [En savoir plus sur les schémas manuels basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [En savoir plus sur les schémas manuels basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Créer votre schéma {#schema}
 
