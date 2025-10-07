@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -84,7 +84,7 @@ Après avoir créé et configuré vos informations d’identification d’API, v
 >
 >Sans des mots-clés d’opt-in ou d’opt-out spécifiés, les messages de consentement standard ne sont pas activés.
 
-Une fois vos informations d’identification d’API WhatsApp créées, l’étape suivante consiste à créer un webhook et à configurer vos paramètres entrants.
+Une fois vos informations d’identification d’API WhatsApp créées avec succès, vous pouvez configurer des Webhooks pour capturer les réponses entrantes afin de gérer le consentement d’opt-in et d’opt-out, et pour recevoir des rapports de diffusion tels que les accusés de réception de lecture, le cas échéant.
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks WhatsApp]** dans **[!UICONTROL Paramètres WhatsApp]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
 
@@ -180,6 +180,6 @@ La vidéo ci-dessous montre comment configurer le canal WhatsApp dans Adobe Jou
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470270/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

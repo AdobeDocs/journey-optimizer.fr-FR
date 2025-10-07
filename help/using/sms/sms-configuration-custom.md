@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1355'
 ht-degree: 86%
 
 ---
@@ -66,9 +66,9 @@ Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d�
 
      ![](assets/sms-byop.png)
 
-1. Activez l’option **[!UICONTROL prise en charge mTLS]**, qui garantit que le client et le serveur s’authentifient mutuellement avant d’établir une connexion sécurisée.
+1. Activez l’option **[!UICONTROL Prise en charge de mTLS]**, qui garantit que le client et le serveur s’authentifient mutuellement avant d’établir une connexion sécurisée.
 
-   Pour utiliser mTLS uniquement, sélectionnez **[!UICONTROL Aucune authentification]** dans le menu déroulant **[!UICONTROL Type d’authentification]** puis activez la prise en charge **[!UICONTROL mTLS]**.
+   Pour utiliser mTLS uniquement, sélectionnez **[!UICONTROL Aucune authentification]** dans le menu déroulant **[!UICONTROL Type d’authentification]**, puis activez la **[!UICONTROL prise en charge de mTLS]**.
 
 1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un nouveau paramètre]** pour définir les en-têtes HTTP du message de requête à envoyer au service externe.
 
@@ -173,7 +173,7 @@ Si les mots-clés relatifs à l’opt-in ou à l’opt-out ne sont pas fournis, 
 
 >[!ENDSHADEBOX]
 
-Une fois vos informations d’identification d’API créées, l’étape suivante consiste à créer un webhook et à configurer vos paramètres entrants. Cette configuration garantit que votre système peut recevoir et traiter correctement les données ou messages entrants.
+Une fois vos informations d’identification d’API créées, vous pouvez configurer des Webhooks pour capturer les réponses entrantes afin de gérer le consentement d’opt-in et d’opt-out, et pour recevoir des rapports de diffusion tels que des accusés de réception de lecture, le cas échéant.
 
 Lors de la configuration d’un webhook, vous pouvez définir son objectif en fonction du type de données que vous souhaitez capturer :
 
