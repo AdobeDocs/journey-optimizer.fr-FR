@@ -5,10 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 73%
+source-wordcount: '1745'
+ht-degree: 68%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 73%
 >abstract="La séquence de stratégies de sélection détermine la stratégie qui sera évaluée en premier. Au moins une stratégie est requise. Les éléments de décision des stratégies combinées seront évalués ensemble."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Créer des stratégies"
 
-Pour présenter la meilleure offre et expérience dynamique à vos clients, ajoutez une politique de décision à votre contenu dans une campagne ou un parcours, puis configurez les éléments à renvoyer et la stratégie de sélection à utiliser. Pour ce faire, procédez comme suit.
+Pour présenter la meilleure offre et expérience dynamique à vos clients, ajoutez une politique de décision à votre contenu dans une campagne ou un parcours, puis configurez les éléments à renvoyer et la stratégie de sélection à utiliser. Procédez comme suit :
+
+1. [Ajouter une politique de décision](#add) - À partir de l’éditeur Personalization ou du Designer d’e-mail.
+1. [Configurer la politique de décision](#configurre) - Ajoutez un nom et indiquez le nombre d’éléments à renvoyer.
+1. [Configurer une séquence de stratégie](#strategy) - Sélectionnez les éléments à renvoyer avec la politique de décision.
+1. [Sélectionner des offres de secours](#fallback) (facultatif) - Sélectionnez les éléments à afficher si aucun élément ou stratégie de sélection n’est qualifié.
+1. [Examiner et enregistrer](#review) la stratégie de sélection
 
 >[!AVAILABILITY]
 >
@@ -51,9 +57,7 @@ Pour présenter la meilleure offre et expérience dynamique à vos clients, ajou
    >
    >Notez qu’aucune politique de décision configurée dans l’e-mail ne sera enregistrée dans le modèle. Si vous appliquez le modèle à un autre e-mail, vous devez reconfigurer la politique.
 
-1. Ouvrez l’éditeur de personnalisation pour créer la politique de décision.
-
-   Pour les e-mails, vous pouvez également utiliser un menu dédié dans le Concepteur d’e-mail pour créer une politique de décision. Développez les sections ci-dessous pour explorer les deux méthodes.
+1. Ouvrez l’**éditeur de personnalisation** pour créer la politique de décision. Pour les e-mails, vous pouvez également utiliser un menu dédié dans le **Concepteur d’e-mail** pour créer une politique de décision. Développez les sections ci-dessous pour explorer les deux méthodes.
 
    +++Création d’une politique de décision à partir de l’éditeur Personalization
 
@@ -74,7 +78,7 @@ Pour présenter la meilleure offre et expérience dynamique à vos clients, ajou
 
    +++
 
-## Configurer les détails de la politique de décision {#configure}
+## Configurer la politique de décision {#configure}
 
 Une fois que vous avez ajouté une nouvelle politique de décision dans votre contenu, l’écran de configuration de la politique de décision s’ouvre.
 
@@ -84,9 +88,9 @@ Une fois que vous avez ajouté une nouvelle politique de décision dans votre co
 
    ![](assets/decision-code-based-details.png)
 
-   Si vous souhaitez renvoyer plusieurs éléments dans un e-mail, vous devez utiliser un composant de contenu **[!UICONTROL Répéter la grille]**. Pour plus d’informations, développez la section ci-dessous :
+   Pour le canal E-mail, le champ **[!UICONTROL Nombre d’éléments]** est défini sur 1 par défaut et ne peut pas être modifié à moins que la politique de décision ne soit ajoutée à partir d’un composant **[!UICONTROL Grille de répétition]**. Pour renvoyer plusieurs éléments dans un e-mail, vous devez ajouter un composant de contenu **[!UICONTROL Grille de répétition]** afin de pouvoir sélectionner plusieurs éléments dans le champ **[!UICONTROL Nombre d’éléments]**. Pour plus d’informations, développez la section ci-dessous :
 
-   +++ Renvoyer plusieurs éléments de décision dans les e-mails
+   +++Renvoyer plusieurs éléments de décision dans les e-mails
 
    1. Faites glisser un composant **[!UICONTROL Grille de répétition]** dans votre e-mail et configurez-le selon vos besoins à l’aide du volet **[!UICONTROL Paramètres]**.
 
@@ -102,7 +106,7 @@ Une fois que vous avez ajouté une nouvelle politique de décision dans votre co
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
-## Sélection d’éléments et configuration de stratégies de sélection {#select}
+## Configurer une séquence de stratégie {#strategy}
 
 La section **[!UICONTROL Séquence de stratégie]** vous permet de sélectionner les éléments de décision et de configurer des stratégies de sélection à présenter avec la politique de décision.
 
@@ -203,7 +207,7 @@ Vous pouvez sélectionner n’importe quel élément de la liste, qui affiche to
 >[!NOTE]
 > Les secours sont facultatifs. Vous pouvez sélectionner jusqu’au nombre d’éléments demandés. Si aucun n’est éligible et qu’aucune solution de secours n’est définie, rien ne s’affiche.
 
-## Vérifier et enregistrer la politique de décision {#save}
+## Vérifier et enregistrer la politique de décision {#review}
 
 Après avoir configuré une stratégie de sélection et ajouté des offres de secours, cliquez sur **[!UICONTROL Suivant]** pour vérifier et enregistrer votre politique de décision, puis cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la politique.
 

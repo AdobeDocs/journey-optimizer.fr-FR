@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 65%
+source-wordcount: '936'
+ht-degree: 64%
 
 ---
 
@@ -19,29 +19,39 @@ Une fois une politique de décision créée, la politique et les attributs liés
 
 ## Insérer le code de la politique de décision {#insert-code}
 
-1. Ouvrez l’éditeur de personnalisation et accédez au menu **[!UICONTROL Politique de décision]**.
+>[!BEGINTABS]
 
-1. Sélectionnez **[!UICONTROL Insérer une politique]** (expérience basée sur un code) ou **[!UICONTROL Insérer une syntaxe]** (e-mail) pour ajouter le code correspondant à la politique de décision.
+>[!TAB Expérience basée sur du code]
 
-   +++Insérer le code de la politique de décision dans les e-mails
+1. Ouvrez l’éditeur de personnalisation et accédez au menu **[!UICONTROL Politiques de décision]**.
 
-   ![](assets/decision-policy-add.png)
-
-   Pour les e-mails, si aucun emplacement n’a été associé au préalable au composant, sélectionnez-en un dans la liste et cliquez sur **[!UICONTROL Attribuer]**.
-
-   ![](assets/decision-policy-placement.png)
-
-   +++
-
-   +++Insérer le code de la politique de décision dans l’expérience basée sur du code
+1. Sélectionnez **[!UICONTROL Insérer une politique]** pour ajouter le code correspondant à la politique de décision.
 
    ![](assets/decision-code-based-add-decision.png)
-
-   +++
 
    >[!NOTE]
    >
    >Si le bouton d’insertion de code ne s’affiche pas, il se peut qu’une politique de décision ait déjà été configurée pour le composant parent.
+
+1. Le code de la politique de décision est ajouté. Cette séquence sera répétée selon le nombre de renvoi de la politique de décision que vous choisissez. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](#add-decision), la même séquence sera répétée deux fois.
+
+>[!TAB E-mail]
+
+1. Ouvrez l’éditeur de personnalisation et accédez au menu **[!UICONTROL Politique de décision]**.
+
+1. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code correspondant à la politique de décision.
+
+   ![](assets/decision-policy-add.png)
+
+   >[!NOTE]
+   >
+   >Si le bouton d’insertion de code ne s’affiche pas, il se peut qu’une politique de décision ait déjà été configurée pour le composant parent.
+
+1. Si aucun emplacement n’a été associé au préalable au composant, sélectionnez-en un dans la liste et cliquez sur **[!UICONTROL Attribuer]**.
+
+   ![](assets/decision-policy-placement.png)
+
+>[!ENDTABS]
 
 1. Le code de la politique de décision est ajouté. Cette séquence sera répétée selon le nombre de renvoi de la politique de décision que vous choisissez. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](#add-decision), la même séquence sera répétée deux fois.
 
@@ -54,7 +64,7 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 >[!NOTE]
 >
 >Pour le suivi des éléments de politique de décision, l’attribut `trackingToken` doit être ajouté comme suit pour le contenu de la politique de décision :
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Pour ajouter un attribut, cliquez sur l’icône « + » en regard de celui-ci. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
