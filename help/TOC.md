@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2969'
 ht-degree: 99%
 
 ---
@@ -700,7 +700,10 @@ ht-degree: 99%
          + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
          + [Utiliser Adobe Experience Platform pour la prise de décision](using/experience-decisioning/aep-data-exd.md)
       + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
-      + [Créer des politiques de décision](using/experience-decisioning/create-decision.md)
+      + Diffuser des offres à l’aide de politiques de décision {#decision-policies}
+         + [Prise en main des politiques de décision](using/experience-decisioning/create-decision.md)
+         + [Créer des politiques de décision](using/experience-decisioning/create-decision-policy.md)
+         + [Utilisation de politiques de décision dans les messages](using/experience-decisioning/use-decision-policy.md)
       + [Rapports sur la prise de décision](using/experience-decisioning/cja-reporting.md)
       + [Cas d’utilisation de prise de décision](using/experience-decisioning/experience-decisioning-uc.md)
       + Collecter les données d’événement {#experience-decisioning-collect-event-data}
@@ -966,7 +969,7 @@ ht-degree: 99%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
