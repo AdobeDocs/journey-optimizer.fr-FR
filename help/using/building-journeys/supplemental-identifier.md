@@ -6,7 +6,7 @@ version: Journey Orchestration
 source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 82%
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>Par défaut, les parcours sont exécutés dans le contexte d’un <b>identifiant de profil</b>. Cela signifie que, tant que le profil est actif dans un parcours donné, il ne pourra pas rejoindre à nouveau un autre parcours. Pour éviter cela, Journey Optimizer vous permet de capturer un <b>identifiant supplémentaire</b> tel qu’un identifiant de commande, d’abonnement ou de prescription, en plus de l’identifiant de profil.  
-      <p>Dans cet exemple, nous avons ajouté un <b>identifiant de réservation</b> comme identifiant supplémentaire.</p>
+      <p>Par défaut, les parcours sont exécutés dans le contexte d’un <b>identifiant de profil</b>. Cela signifie que, tant que le profil est actif dans un parcours donné, il ne pourra pas rejoindre à nouveau un autre parcours. Pour éviter cela, Journey Optimizer vous permet de capturer un <b>identifiant supplémentaire</b>, tel qu’un identifiant de commande, d’abonnement ou d’ordonnance, en plus de l’identifiant de profil.  
+      <p>Dans cet exemple, nous avons ajouté un <b>identifiant de réservation</b> en tant qu’identifiant supplémentaire.</p>
       <p>Ce faisant, les parcours sont exécutés dans le contexte de l’identifiant de profil associé à l’identifiant supplémentaire (ici, l’identifiant de réservation). Une instance du parcours est exécutée pour chaque itération de l’identifiant supplémentaire. Cela permet plusieurs entrées du même ID de profil dans les parcours s’ils ont effectué des réservations différentes.</p>
-      <p>En outre, Journey Optimizer vous permet d’utiliser les attributs de l’identifiant supplémentaire (par exemple, le numéro de réservation, la date de renouvellement de l’ordonnance, le type de produit) pour personnaliser les messages, ce qui garantit des communications hautement pertinentes.</p>
+      <p>En outre, Journey Optimizer vous permet d’utiliser les attributs de l’identifiant supplémentaire (par exemple, le numéro de réservation, la date de renouvellement de l’ordonnance, le type de produit) pour personnaliser les messages, ce qui garantit des communications hautement pertinentes.</p>
     </td>
     <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
       <img src="assets/event-supplemental-id.png" alt="Exemple d’identifiant supplémentaire" style="max-width:100%;" />
@@ -35,7 +35,7 @@ ht-degree: 82%
 
 ## Mécanismes de sécurisation et limitations {#guardrails}
 
-* **parcours pris en charge** : des identifiants supplémentaires sont pris en charge pour les parcours **déclenchés par un événement** et **Lecture d’audience**. Ils ne sont **pas pris en charge** pour les parcours de qualification d’audience (c’est-à-dire les parcours commençant par une activité de qualification d’audience).
+* **Parcours pris en charge** : des identifiants supplémentaires sont pris en charge pour les parcours **déclenchés par un événement** et de **lecture d’audience**. Ils ne sont **pas pris en charge** pour les parcours de qualification d’audience (c’est-à-dire les parcours commençant par une activité de qualification d’audience).
 
 * **Limites d’instances simultanées** : les profils ne peuvent pas avoir plus de 10 instances de parcours simultanées.
 
@@ -60,19 +60,19 @@ ht-degree: 82%
 
    * L’ID supplémentaire est désactivé si vous utilisez un événement métier.
    * L’ID supplémentaire doit être un champ du profil (c’est-à-dire, pas un champ d’événement/de contexte).
-   * Pour les parcours de lecture d’audience à l’aide d’identifiants supplémentaires, le taux de lecture de l’activité Lecture d’audience pour chaque instance de parcours est limité à un maximum de 500 profils par seconde.
+   * Pour les parcours de lecture d’audience qui utilisent des ID supplémentaires, le taux de lecture de l’activité Lecture d’audience pour chaque instance de parcours est limité à un maximum de 500 profils par seconde.
    * Seules les audiences du service de profil unifié sont prises en charge lors de l’utilisation de parcours Lecture d’audience avec des ID supplémentaires.
 
 ## Comportement des critères de sortie avec des ID supplémentaires {#exit-criteria}
 
-Condition préalable : Parcours activé pour l’ID supplémentaire (via l’événement unitaire ou les activités de lecture d’audience)
+Condition préalable : parcours activé pour l’ID supplémentaire (via l’événement unitaire ou les activités de lecture d’audience)
 
-Le tableau ci-dessous explique le comportement des profils dans un parcours supplémentaire activé pour un ID lorsque le critère de sortie est configuré :
+Le tableau ci-dessous explique le comportement des profils dans un parcours activé pour un ID supplémentaire lorsque le critère de sortie est configuré :
 
-| Quitter la configuration des critères | Comportement lorsque le critère de sortie est satisfait |
+| Configuration des critères de sortie | Comportement lorsque le critère de sortie est satisfait |
 | ---------------------------- | ---------------------------------- |
 | Basé sur un événement d’ID non supplémentaire | Toutes les instances du profil correspondant dans ce parcours sont fermées. |
-| En fonction d’un événement d’ID supplémentaire <br/>*Remarque : l’espace de noms d’ID supplémentaire doit correspondre à celui du nœud initial.* | Seule l’instance de profil + ID supplémentaire correspondante est fermée. |
+| En fonction d’un événement d’ID supplémentaire <br/>*Note : l’espace de noms d’ID supplémentaire doit correspondre à celui du nœud initial.* | Seule l’instance de profil + ID supplémentaire correspondante est fermée. |
 | En fonction d’une audience | Toutes les instances du profil correspondant dans ce parcours sont fermées. |
 
 ## Ajouter un identifiant supplémentaire et l’utiliser dans un parcours {#add}
@@ -246,4 +246,4 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

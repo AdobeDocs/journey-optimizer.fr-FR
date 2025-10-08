@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator de Journey Optimizer
+title: Journey Optimizer Experimentation Accelerator
 description: Améliorer votre capacité à mener des expériences efficacement et à générer des informations
 feature: Experimentation
 topic: Content Management
@@ -12,17 +12,17 @@ exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
 source-git-commit: 4c0d5be4d8783818453683190d1371b8516bc3a4
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 51%
+ht-degree: 95%
 
 ---
 
-# Prise en main du Journey Optimizer Experimentation Accelerator {#content-experiment}
+# Commencer avec Journey Optimizer Experimentation Accelerator {#content-experiment}
 
 >[!AVAILABILITY]
 >
 >**Journey Optimizer Experimentation Accelerator** nécessite une licence payante pour les clients et s’intègre de manière transparente à Adobe Target ou Adobe Journey Optimizer.
 
-Le **Journey Optimizer Experimentation Accelerator** est un outil puissant conçu pour rationaliser et améliorer le processus d’expérimentation. En s’intégrant à Adobe Target et Adobe Journey Optimizer, il fournit une plateforme centralisée pour gérer, analyser et optimiser les expériences. Exploitant les informations basées sur l’IA et les tests adaptatifs, le Journey Optimizer Experimentation Accelerator vous permet de prendre des décisions basées sur les données, d’améliorer les stratégies marketing et de générer des résultats mesurables.
+**Journey Optimizer Experimentation Accelerator** est un outil puissant conçu pour optimiser et améliorer le processus d’expérimentation. En s’intégrant à Adobe Target et Adobe Journey Optimizer, il fournit une plateforme centralisée pour gérer, analyser et optimiser les expériences. En utilisant les informations basées sur l’IA et les tests adaptatifs, Journey Optimizer Experimentation Accelerator vous permet de prendre des décisions axées sur les données, d’améliorer les stratégies marketing et de générer des résultats mesurables.
 
 Il offre les principaux avantages suivants :
 
@@ -38,28 +38,28 @@ Il offre les principaux avantages suivants :
 
 * **Collaboration fluide** : partagez facilement les résultats et gérez les rôles d’équipe avec des alertes en temps réel.
 
-## Accéder à Journey Optimizer Experimentation Accelerator
+## Accéder à Journey Optimizer Experimentation Accelerator
 
-Après avoir [créé et configuré votre expérience](content-experiment.md) et envoyé vos campagnes ou parcours à vos profils, vous pouvez accéder au **[!UICONTROL Journey Optimizer Experimentation Accelerator]** pour mieux comprendre les performances de votre expérience.
+Après avoir [créé et configuré votre expérience](content-experiment.md) et envoyé vos campagnes ou vos parcours à vos profils, vous pouvez accéder à **[!UICONTROL Journey Optimizer Experimentation Accelerator]** pour observer plus en détail les performances de votre expérience.
 
-Vous pouvez accéder à **[!UICONTROL Journey Optimizer Experimentation Accelerator]** à partir du menu de gauche de la liste déroulante [!UICONTROL Expérimentation] ou via le sélecteur d’applications. Notez que les utilisateurs et les utilisatrices qui ne disposent que d’une licence Target peuvent y accéder uniquement par le biais du sélecteur d’applications.
+Vous pouvez accéder à **[!UICONTROL Journey Optimizer Experimentation Accelerator]** à partir du menu de gauche de la liste déroulante [!UICONTROL Expérience] ou via le sélecteur d’applications. Notez que les utilisateurs et les utilisatrices qui ne disposent que d’une licence Target peuvent y accéder uniquement par le biais du sélecteur d’applications.
 
 Les expériences disponibles dépendent de votre configuration :
 
 * **Pour les utilisateurs et les utilisatrices d’Adobe Journey Optimizer** : les expériences configurées dans le sandbox activé de votre organisation sont automatiquement incluses.
 
-* **Pour les utilisateurs d’Adobe Target avec Journey Optimizer** : toutes les activités A/B de Target apparaissent dans **[!UICONTROL Journey Optimizer Experimentation Accelerator]** dans le sandbox de production de Journey Optimizer.
+* **Pour les utilisateurs et les utilisatrices d’Adobe Target avec Journey Optimizer** : toutes les activités A/B dans Target apparaissent dans **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, dans le sandbox de production de Journey Optimizer.
 
 * **Pour les utilisateurs et les utilisatrices d’Adobe Target uniquement** : toutes les activités A/B de votre organisation Target sont incluses dans le sandbox de production de Journey Optimizer.
 
-Pour utiliser **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, vous devez accéder au sandbox et disposer des autorisations associées suivantes :
+Pour utiliser **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, vous devez accéder au sandbox et suivre des autorisations correspondantes :
 
 * **[!UICONTROL Afficher les expériences]**
 * **[!UICONTROL Gérer les métadonnées d’expérience]**
 
-+++ Découvrez comment attribuer des autorisations liées à l’expérience
++++ Découvrir comment attribuer des autorisations liées aux expériences
 
-1. Dans le produit **[!DNL Permissions]**, accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez le **[!UICONTROL Rôle]** souhaité.
+1. Dans le produit **[!DNL Permissions]**, accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez le **[!UICONTROL Rôle]** de votre choix.
 
 1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les autorisations.
 
@@ -73,7 +73,7 @@ Les autorisations des personnes déjà affectées à ce rôle seront automatique
 
 Pour attribuer ce rôle à de nouvelles personnes, procédez comme suit :
 
-1. Accédez à l’onglet **[!UICONTROL Utilisateurs]** dans le tableau de bord Rôles et cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+1. Accédez à l’onglet **[!UICONTROL Utilisateurs et utilisatrices]** dans votre tableau de bord Rôles et cliquez sur **[!UICONTROL Ajouter des utilisateurs et des utilisatrices]**.
 
 1. Saisissez le nom de la personne, son adresse e-mail ou choisissez dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 

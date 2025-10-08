@@ -34,7 +34,7 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 
 * **Pas d’informations d’identification personnelle dans les jeux de données** - Les jeux de données activés pour la recherche ne doivent pas contenir d’informations d’identification personnelle (PII).
 
-* &#x200B;
+* 
    * **Risque de suppression** - Les jeux de données utilisés dans la personnalisation ne sont pas protégés contre la suppression. Vous devez suivre les jeux de données utilisés pour vous assurer qu’ils ne sont pas supprimés.
 
 * **Type de schéma** - Les jeux de données doivent être associés à un schéma **NOT** de type Profil ou Événement.

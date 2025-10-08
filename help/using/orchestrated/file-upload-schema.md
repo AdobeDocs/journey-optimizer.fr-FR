@@ -29,7 +29,7 @@ Cette section fournit des instructions détaillées sur la création d’un sch�
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [En savoir plus sur les schémas basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/model-based)
+➡️ [En savoir plus sur les schémas basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Charger un fichier DDL{#ddl-upload}
 
