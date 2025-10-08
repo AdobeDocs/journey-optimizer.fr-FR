@@ -52,7 +52,7 @@ Il précise :
 
 L’organisation des schémas ou des tables dans un modèle de données basé sur un modèle consiste à structurer vos données en plusieurs tables. Assurez-vous que chaque table stocke un type d’entité/de schéma.
 
-➡️ [En savoir plus sur les schémas dans la documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [En savoir plus sur les schémas dans la documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Étapes dʼimplémentation {#implementation}
 
