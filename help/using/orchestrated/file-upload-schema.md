@@ -5,10 +5,10 @@ title: Étapes de configuration
 description: Découvrez comment créer un schéma basé sur un modèle dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 93%
+source-wordcount: '1084'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ Cette section fournit des instructions détaillées sur la création d’un sch�
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [En savoir plus sur les schémas basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/model-based)
+➡️ [En savoir plus sur les schémas basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Charger un fichier DDL{#ddl-upload}
 
@@ -149,6 +149,10 @@ Vous pouvez spécifier des relations directement dans le fichier DDL lors de la 
    * **Forcer la disposition automatique** : organisez automatiquement les schémas pour une meilleure organisation.
 
    * **Afficher la carte** : activez une superposition de mini-carte pour parcourir plus facilement les dispositions de schémas volumineux ou complexes.
+
+   * **Tout développer/tout réduire** : développez ou réduisez rapidement tous les nœuds de schéma pour afficher ou masquer leurs attributs.
+
+   * **Télécharger** : téléchargez le diagramme ER sous la forme d’un fichier .png.
 
 1. Cliquez sur **Enregistrer** lorsque vous avez terminé. Cette action crée les schémas et les jeux de données associés et permet au jeu de données d’être utilisé dans des campagnes orchestrées.
 
