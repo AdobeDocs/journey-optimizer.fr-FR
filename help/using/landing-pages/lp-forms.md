@@ -33,7 +33,7 @@ Pour capturer des données de profil avec vos pages de destination [!DNL Journey
 >id="ajo_lp_form_connection"
 >title="Sélectionner le point d’entrée à utiliser"
 >abstract="Définissez le point d’entrée de streaming où les données sont envoyées lors de l’envoi du formulaire."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Lors de la création d’un paramètre prédéfini :
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Sélectionnez un **[!UICONTROL jeu de données]** à lier au formulaire. C’est là que les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir du texte pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
 
@@ -93,7 +93,7 @@ Tous les formulaires existants s’affichent. Vous pouvez les filtrer selon leur
 >id="ajo_lp_form_preset"
 >title="Sélectionner un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
 
 Pour créer un formulaire, suivez les étapes ci-dessous.
 
