@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
+source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 100%
+source-wordcount: '1200'
+ht-degree: 96%
 
 ---
 
@@ -44,15 +44,17 @@ ht-degree: 100%
 >title="Ajouter un jeu de données"
 >abstract="Utilisez des attributs de jeux de données [!DNL Adobe Experience Platform] pour définir des critères de limitation en fonction d’attributs dynamiques externes. Cliquez sur **[!UICONTROL Ajouter un jeu de données]** pour sélectionner le jeu de données Adobe Experience Platform avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données."
 
+[!DNL Journey Optimizer] vous permet d’exploiter les données d’[!DNL Adobe Experience Platform] pour la prise de décision. Vous pouvez ainsi étendre la définition des attributs de décision aux données supplémentaires des jeux de données pour les mises à jour en masse qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un. Par exemple, la disponibilité, les temps d’attente, etc.
+
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clientes et clients.
 
-[!DNL Journey Optimizer] vous permet d’exploiter les données d’[!DNL Adobe Experience Platform] pour la prise de décision. Vous pouvez ainsi étendre la définition des attributs de décision aux données supplémentaires des jeux de données pour les mises à jour en masse qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un. Par exemple, la disponibilité, les temps d’attente, etc.
+## Mécanismes de sécurisation et limitations {#guardrails}
 
->[!IMPORTANT]
->
->[!DNL Journey Optimizer] prend en charge jusqu’à 1 000 recherches pour une seule politique de décision.
+* **Canaux pris en charge** - La recherche de jeu de données avec prise de décision fonctionne actuellement pour les actions personnalisées de Parcours et d’e-mail. <!--Support for code-based experience channels is coming soon.-->
+* **Utilisation des attributs** - La fonctionnalité de recherche de jeu de données pour la prise de décisions étend les définitions d’élément de décision avec des attributs supplémentaires - elle n’étend pas les attributs aux profils
+* Limites de recherche : [!DNL Journey Optimizer] prend en charge jusqu’à 1 000 recherches par politique de décision unique.
 
 ## Conditions préalables
 
