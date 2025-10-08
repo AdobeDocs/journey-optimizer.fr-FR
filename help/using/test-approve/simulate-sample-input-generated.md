@@ -7,14 +7,14 @@ feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Private Beta" type="Informative"
+badge: label="Private Beta" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
 source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement en version bêta privée **private** et peut ne pas être disponible dans votre environnement. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 [!DNL Journey Optimizer] introduit une simulation basée sur l’IA qui peut générer automatiquement plusieurs variantes pour tester votre contenu. Cette fonctionnalité réduit la nécessité de créer manuellement des variantes, ce qui facilite la validation de la logique de personnalisation sur des modèles complexes.
 
-Lors du rendu du contenu à des fins de simulation ou de relecture, le système analyse votre contenu et identifie tous les jetons de personnalisation et toutes les règles d’embranchement. Il remplace les jetons de personnalisation par des valeurs significatives qui offrent un aperçu quasi réaliste du contenu final.
+Lors du rendu du contenu à des fins de simulation ou de relecture, le système analyse votre contenu et identifie tous les jetons de personnalisation et toutes les règles de branchement. Il remplace les jetons de personnalisation par des valeurs significatives qui offrent un aperçu quasi réaliste du contenu final.
 
-Prenons un modèle d’e-mail pour les services financiers avec une logique d’embranchement basée sur **type d’investisseur**, **groupe d’âge**, **état civil**, **vérification de l’identifiant fiscal** et **lieu**. Sans génération de variantes, vous devrez créer manuellement des dizaines de variantes pour valider tous les chemins d’accès. Avec des variantes générées automatiquement, le système génère des variantes représentatives qui couvrent automatiquement ces conditions.  Chaque variante générée est rendue dans le volet d’aperçu, affichant exactement les blocs et conditions appliqués.
+Prenons un modèle d’e-mail pour les services financiers avec une logique de branchement basée sur **type d’investisseur**, **groupe d’âge**, **état civil**, **vérification de l’identifiant fiscal** et **lieu**. Sans génération de variantes, vous devrez créer manuellement des dizaines de variantes pour valider tous les chemins d’accès. Avec des variantes générées automatiquement, le système génère des variantes représentatives qui couvrent automatiquement ces conditions.  Chaque variante générée est rendue dans le volet d’aperçu, affichant exactement les blocs et conditions appliqués.
 
 ## Générer des variantes de contenu
 
-Pour générer des variations pour votre contenu et les prévisualiser, procédez comme suit :
+Pour générer des variations pour votre contenu et les prévisualiser, procédez comme suit :
 
-1. Ouvrez votre contenu et sélectionnez **[!UICONTROL Simuler du contenu]** / **[!UICONTROL Simuler des variations de contenu]**.
+1. Ouvrez votre contenu et sélectionnez **[!UICONTROL Simuler du contenu]**/**[!UICONTROL Simuler des variations de contenu]**.
 
    ![](assets/simulate-sample.png)
 
@@ -48,4 +48,4 @@ Pour générer des variations pour votre contenu et les prévisualiser, procéde
 
 >[!NOTE]
 >
->Cette fonctionnalité fonctionne de la même manière que la fonctionnalité standard Simuler des variations de contenu . Pour plus d’informations sur les simulations de variations de contenu et sur les mécanismes de sécurisation et limitations associés, consultez cette section : [&#x200B; Simuler des variations de contenu](../test-approve/simulate-sample-input.md)
+>Cette fonctionnalité est similaire à la fonctionnalité standard Simuler des variations de contenu. Pour plus d’informations sur les simulations de variations de contenu et sur les mécanismes de sécurisation et limitations associés, consultez cette section : [Simuler des variations de contenu](../test-approve/simulate-sample-input.md)

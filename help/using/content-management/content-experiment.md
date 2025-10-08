@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1846'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -68,19 +68,19 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 >title="Mesure de succès"
 >abstract="La mesure de succès permet de suivre et d’évaluer le traitement le plus performant dans une expérience. Veillez à configurer votre jeu de données pour certaines mesures avant de l’utiliser."
 
-Pour votre expérience de contenu, vous pouvez choisir entre trois types d’expérience :
+Pour votre expérience de contenu, vous pouvez choisir entre trois types d’expérience :
 
-* **[!UICONTROL Expérience A/B]** : définissez la répartition du trafic entre les traitements au début du test. Les performances sont évaluées en fonction de la mesure principale de votre choix. Dans ce cas, Experimentation Accelerator signale l’effet élévateur observé entre les traitements.
+* **[!UICONTROL Expérience A/B]** : définissez la répartition du trafic entre les traitements au début du test. Les performances sont évaluées en fonction de la mesure principale de votre choix. Dans ce cas, Experimentation Accelerator signale l’effet élévateur observé entre les traitements.
 
-* **[!UICONTROL Bandit manchot]** : la répartition du trafic entre les traitements est gérée automatiquement. Tous les 7 jours, les performances de la mesure principale sont examinées et les poids sont ajustés en conséquence. Les rapports dans Experimentation Accelerator continuent d’afficher l’effet élévateur, sous la forme de tests A/B.
+* **[!UICONTROL Bandit manchot]** : la répartition du trafic entre les traitements est gérée automatiquement. Tous les 7 jours, les performances de la mesure principale sont examinées et les pondérations sont ajustées en conséquence. Les rapports dans Experimentation Accelerator continuent d’afficher l’effet élévateur sous la forme de tests A/B.
 
-* **[!UICONTROL Apportez votre propre bandit manchot]** : la répartition du trafic entre les traitements est gérée automatiquement. Vous pouvez déterminer quand et comment il doit changer à l’aide des API d’expérience afin d’ajuster les allocations en temps réel.
+* **[!UICONTROL Apporter votre propre bandit manchot]** : la répartition du trafic entre les traitements est gérée automatiquement. Vous pouvez déterminer quand et comment elle doit changer à l’aide des API d’expérience afin d’ajuster les affectations en temps réel.
 
 ➡️ [En savoir plus sur la différence entre les expériences A/B et le bandit manchot](mab-vs-ab.md)
 
 >[!BEGINTABS]
 
->[!TAB  Expérience A/B ]
+>[!TAB Expérience A/B]
 
 1. Lorsque votre message est personnalisé, dans l’onglet **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
 
@@ -92,7 +92,7 @@ Pour votre expérience de contenu, vous pouvez choisir entre trois types d’exp
 
    ![](assets/content_experiment_11.png)
 
-1. Lors de la configuration d’une expérience à l’aide du canal in-app ou web et du choix des **[!UICONTROL Clics entrants]**, **[!UICONTROL Clics entrants uniques]**, **[!UICONTROL Pages vues]** ou **[!UICONTROL Mesures Pages vues uniques]** , le champ **[!UICONTROL Dimensions]** vous permet d’effectuer le suivi et la surveillance précis des clics et des vues sur des pages spécifiques.
+1. Lors de la configuration d’une expérience utilisant le canal in-app ou web et du choix de **[!UICONTROL Clics entrants]**, **[!UICONTROL Clics entrants uniques]**, **[!UICONTROL Pages vues]** ou **[!UICONTROL Mesures des pages vues uniques]**, le champ **[!UICONTROL Dimensions]** vous permet de suivre et de surveiller précisément les clics et les vues sur des pages spécifiques.
 
    ![](assets/content_experiment_20.png)
 
@@ -126,11 +126,11 @@ Pour votre expérience de contenu, vous pouvez choisir entre trois types d’exp
 
 >[!TAB Bandit manchot]
 
-Notez que l’expérience de bandit manchot n’est disponible qu’avec les éléments suivants :
+Notez que l’expérience de bandit manchot n’est disponible qu’avec les éléments suivants :
 
 * Canaux entrants
 * Parcours unitaires
-* Campagnes déclenchées par l’API (transactionnelles et opérationnelles)
+* Campagnes déclenchées par API (transactionnelles et opérationnelles)
 * Canaux sortants si le planning est récurrent
 
 1. Lorsque votre message est personnalisé, dans l’onglet **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
@@ -163,13 +163,13 @@ Notez que l’expérience de bandit manchot n’est disponible qu’avec les él
 
    ![](assets/content-experiment-mab-3.png)
 
->[!TAB Apportez votre propre bandit manchot]
+>[!TAB Apporter votre propre bandit manchot]
 
-Notez que l’expérience Apporter votre propre bandit manchot n’est disponible qu’avec les éléments suivants :
+Notez que l’expérience Apporter votre propre bandit manchot n’est disponible qu’avec les éléments suivants :
 
 * Canaux entrants
 * Parcours unitaires
-* Campagnes déclenchées par l’API (transactionnelles et opérationnelles)
+* Campagnes déclenchées par API (transactionnelles et opérationnelles)
 * Canaux sortants si le planning est récurrent
 
 1. Lorsque votre message est personnalisé, dans l’onglet **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.

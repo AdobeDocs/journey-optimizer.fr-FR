@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: moniteur Journey Optimizer Experimentation Accelerator
+title: Moniteur Journey Optimizer Experimentation Accelerator
 description: Améliorer votre capacité à mener des expériences efficacement et à générer des informations
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
 source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -124,11 +124,11 @@ Notez que pour que des opportunités d’expérience soient générées, vous de
 
    ![](assets/experiment-monitor-opportunities.png)
 
-1. La sélection d’une opportunité ouvre la fenêtre **Détails de l’opportunité** qui décrit un traitement ou une variation spécifique suggéré par le Journey Optimizer Experimentation Accelerator. Cette vue comprend les éléments suivants :
+1. La sélection d’une opportunité ouvre la fenêtre **Détails de l’opportunité** qui décrit une variation ou un traitement spécifique suggéré par Journey Optimizer Experimentation Accelerator. Cette vue comprend les éléments suivants :
 
    * **[!UICONTROL Hypothèse]** : hypothèse générée par l’IA qui explique le résultat attendu du traitement suggéré.
 
-   * **[!UICONTROL Justification]** : explication de la raison pour laquelle le Journey Optimizer Experimentation Accelerator a suggéré cette opportunité.
+   * **[!UICONTROL Justification]** : raison pour laquelle Journey Optimizer Experimentation Accelerator a suggéré cette opportunité.
 
    * **[!UICONTROL Évaluation des opportunités]** : double évaluation de la recommandation basée sur :
 
@@ -149,7 +149,7 @@ Notez que pour que des opportunités d’expérience soient générées, vous de
 
    ➡️ [En savoir plus dans la documentation Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/activities/abtest/test-ab).
 
-1. Dans la vue d’expérience, les mêmes IA **[!UICONTROL Opportunités d’expérimentation]** que celles affichées par le Journey Optimizer Experimentation Accelerator sont accessibles.
+1. Dans la vue d’expérience, les mêmes **[!UICONTROL opportunités d’expérimentation]** de l’IA que celles affichées par Journey Optimizer Experimentation Accelerator sont accessibles.
 
    Sélectionnez **[!UICONTROL Afficher]** pour ouvrir les détails de l’opportunité.
 

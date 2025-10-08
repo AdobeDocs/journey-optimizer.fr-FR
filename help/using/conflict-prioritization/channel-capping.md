@@ -10,9 +10,9 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Les jeux de règles de **Canal** appliquent des règles de limitation aux canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
 
-L’utilisation des ensembles de règles de canal vous permet de définir le capping de la fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
+L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Pour créer un jeu de règles de canal, procédez comme suit :
 
    L’expiration du compteur pour chaque période est la suivante :
 
-   * **[!UICONTROL Par heure]** - La limite de fréquence est valide pour le nombre d’heures sélectionné. Le compteur est automatiquement réinitialisé au début de chaque période. Pour une limitation de fréquence d’une heure, elle se réinitialise toutes les heures, coïncidant avec la fin d’une heure UTC.
+   * **[!UICONTROL Horaire]** : le capping de la fréquence est valide pour le nombre d’heures sélectionné. Le compteur est automatiquement réinitialisé au début de chaque période. Pour un capping de la fréquence de 1 heure, la réinitialisation se produit toutes les heures, ce qui coïncide avec la fin d’une heure UTC.
    * **[!UICONTROL Journalière]** : le capping de la fréquence journalière est valable pour la journée jusqu’à 23:59:59 UTC et est remise à 0 au début de la journée suivante.
    * **[!UICONTROL Hebdomadaire]** : le capping de la fréquence est valable jusqu’au samedi à 23:59:59 UTC de cette semaine, car la semaine calendaire commence le dimanche. La date d’expiration s’applique quelle que soit la date de création de la règle. Par exemple, si la règle est créée le jeudi, cette règle est valide jusqu’au samedi à 23:59:59.
    * **[!UICONTROL Mensuelle]** : le capping de la fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

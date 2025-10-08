@@ -11,9 +11,9 @@ keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte 
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Des paramètres supplémentaires sont disponibles en fonction du canal de commun
 
 Dans la liste déroulante **[!UICONTROL Règles métier]**, sélectionnez un jeu de règles pour appliquer des règles de limitation à votre action de parcours.
 
-L’utilisation des ensembles de règles de canal vous permet de définir le capping de la fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires.
+L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients.
 
 [Découvrir comment utiliser les jeux de règles](../conflict-prioritization/rule-sets.md)
 

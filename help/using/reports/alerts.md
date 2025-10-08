@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Accéder et s’abonner aux alertes système {#alerts}
 
-Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier.
+Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou les publier.
 
 
 
@@ -48,14 +48,14 @@ Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous
 * Alertes spécifiques à la configuration des canaux :
 
    * Alerte [Enregistrement DNS du domaine AJO manquant](#alert-dns-record-missing)
-   * l’alerte [échec de la configuration du canal AJO](#alert-channel-config-failure)
+   * Alerte [Échec de configuration du canal AJO](#alert-channel-config-failure)
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## S’abonner aux alertes {#subscribe-alerts}
 
 Si un comportement inattendu se produit, et/ou qu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système dépasse un certain seuil), des notifications d’alerte sont envoyées à l’ensemble des personnes de votre organisation qui s’y sont abonnées.
 
-Vous pouvez vous abonner à chaque alerte individuellement à partir de l’interface utilisateur, soit globalement à partir du menu **[!UICONTROL Alertes]** (voir [Abonnement global](#global-subscription))<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
+Vous pouvez vous abonner à chaque alerte individuellement à partir de l’interface d’utilisation, ou globalement à partir du menu **[!UICONTROL Alertes]** (voir [Abonnement global](#global-subscription))<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
 
 En fonction des préférences des personnes abonnées, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface d’utilisation (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les **[!UICONTROL Préférences]** [!DNL Adobe Experience Cloud]. [En savoir plus](../start/user-interface.md#in-product-alerts)
 
@@ -64,9 +64,9 @@ Lorsqu’une alerte est résolue, les personnes abonnées reçoivent une notific
 
 ### Abonnement global {#global-subscription}
 
-Pour vous abonner/désabonner à une alerte pour tous les parcours et campagnes, procédez comme suit :
+Pour vous abonner ou vous désabonner d’une alerte pour tous les parcours et campagnes, procédez comme suit :
 
-1. Accédez au tableau de bord **[!UICONTROL Alertes]** dans le menu de gauche, sélectionnez l’option **[!UICONTROL S’abonner]** pour l’alerte à laquelle vous souhaitez vous abonner.
+1. Accédez au tableau de bord **[!UICONTROL Alertes]** dans le menu de gauche, puis sélectionnez l’option **[!UICONTROL S’abonner]** correspondant à l’alerte à laquelle vous souhaitez vous abonner.
 
    ![Abonnement à une alerte](assets/alert-subscribe.png){width=80%}
 
@@ -76,7 +76,7 @@ Pour vous abonner/désabonner à une alerte pour tous les parcours et campagnes,
 
 1. Utilisez la même méthode pour vous **[!UICONTROL désabonner]**.
 
-Vous pouvez également vous abonner par le biais des notifications d’événement [&#x200B; I/O &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés [ci-dessous](#journey-alerts).
+Vous pouvez également vous abonner par le biais des [notifications d’événements d’E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés [ci-dessous](#journey-alerts).
 
 <!--DOCAC-13465
 ### Unitary subscription {#unitary-subscription}
@@ -94,7 +94,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 1. Click **[!UICONTROL Save]** to confirm.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -110,7 +110,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
 Cette alerte vous avertit si une action personnalisée échoue. Nous considérons qu’il existe un échec quand plus de 1 % d’erreurs sont commises sur une action personnalisée spécifique au cours des 5 dernières minutes. Ces données sont évaluées toutes les 30 secondes.
 
-Cliquez sur le nom de l’alerte pour vérifier les détails et la configuration de l’alerte.
+Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
 ![](assets/alerts-custom-action.png)
 
@@ -251,7 +251,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 
 ## Gérer les alertes {#manage-alerts}
 
-### Modification d’une alerte
+### Modifier une alerte
 
 Vous pouvez vérifier les détails d’une alerte en cliquant sur sa ligne. Le nom, le statut et les canaux de notification s’affichent dans le panneau de gauche.
 <!--DOCAC-13465
@@ -278,12 +278,12 @@ To change the threshold:
 >The threshold levels are global across all journeys and cannot be individually modified per journey.
 -->
 
-### Désactivation d’une alerte
+### Désactiver une alerte
 
-Par défaut, toutes les alertes sont activées. Pour désactiver une alerte, sélectionnez l’option **[!UICONTROL Désactiver l’alerte]** : tous les abonnés à cette alerte ne recevront plus les notifications associées.
+Par défaut, toutes les alertes sont activées. Pour désactiver une alerte, sélectionnez l’option **[!UICONTROL Désactiver l’alerte]** : les personnes abonnées à cette alerte ne recevront plus les notifications associées.
 
 
-### Statuts des alertes
+### Statuts d’alerte
 
 Les statuts d’alerte possibles sont énumérés ci-dessous :
 
@@ -292,15 +292,15 @@ Les statuts d’alerte possibles sont énumérés ci-dessous :
 * **[!UICONTROL Déclenché]** : la condition de déclenchement de l’alerte est respectée.
 
 
-### Afficher et mettre à jour les abonnés {#manage-subscribers}
+### Afficher et mettre à jour les personnes abonnées {#manage-subscribers}
 
-Sélectionnez **[!UICONTROL Gérer les abonnés aux alertes]** pour afficher la liste des utilisateurs et utilisatrices qui se sont abonnés à l’alerte.
+Sélectionnez **[!UICONTROL Gérer les personnes abonnées aux alertes]** pour afficher la liste des personnes qui se sont abonnées à l’alerte.
 
 ![](assets/alert-subscribers.png){width=80%}
 
-Pour ajouter d’autres abonnés et abonnées, saisissez leur adresse e-mail séparée par une virgule, puis sélectionnez **[!UICONTROL Mettre à jour]**.
+Pour ajouter d’autres personnes abonnées, saisissez les adresses e-mails séparées par des virgules, puis sélectionnez **[!UICONTROL Mettre à jour]**.
 
-Pour supprimer des abonnés, supprimez leur adresse e-mail des abonnés actuels, puis sélectionnez **[!UICONTROL Mettre à jour]**.
+Pour supprimer des personnes abonnées, supprimez leurs adresses e-mail de la liste des personnes actuellement abonnées, puis sélectionnez **[!UICONTROL Mettre à jour]**.
 
 ## Ressources supplémentaires {#additional-resources-alerts}
 

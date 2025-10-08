@@ -10,9 +10,9 @@ level: Experienced
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '958'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ group by
 
 
 
-Cette requête récupère les nœuds (par nodeID et nodeName) du parcours qui sont associés à la diffusion d’un message à un profil, à l’aide de son identifiant de profil et du jeu de données Événement de retour de message :
+Cette requête récupère les nœuds (par nodeID et nodeName) du parcours qui sont associés à la diffusion d’un message à un profil, à l’aide de son identifiant de profil et du jeu de données Événement de retour de message :
 
 ```sql
 select
@@ -268,7 +268,7 @@ group by
 
 Consultez également plusieurs [exemples couramment utilisés pour interroger des événements d’étape de parcours](../reports/query-examples.md).
 
-Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+Découvrez comment [dépanner les types d’événements ignorés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
 ## Jeu de données d’événement Decisioning{#ode-decisionevents}
 

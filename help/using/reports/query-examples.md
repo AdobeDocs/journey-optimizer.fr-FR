@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1554'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Cette section répertorie plusieurs exemples couramment utilisés pour interroge
 
 Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associées dans le schéma correspondant.
 
-+++Quelle est la différence entre id, instanceid et profileid ?
++++Quelle est la différence entre id, instanceid et profileid ?
 
 * ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
 * instanceID : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
@@ -33,7 +33,7 @@ Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associ�
 
 ## Cas d’utilisation de base/requêtes courantes {#common-queries}
 
-+++Nombre de profils entrés dans un parcours au cours d’une période donnée
++++Nombre de profils ayant rejoint un parcours au cours d’une période donnée
 
 Cette requête donne le nombre de profils distincts étant entrés dans le parcours donné dans la période donnée.
 
@@ -47,11 +47,11 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+Découvrez comment [dépanner les types d’événements rejetés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
-+++Quelle règle a empêché un profil d’entrer dans un parcours donné
++++Règle ayant empêché un profil de rejoindre un parcours donné
 
 _Exemple_
 
@@ -98,7 +98,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++
 
-+++Nombre d’événements ignorés d’un parcours spécifique pendant une certaine période
++++Nombre d’événements rejetés d’un parcours spécifique pendant une certaine période
 
 _Requête du lac de données_
 
@@ -112,7 +112,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++Qu’advient-il d’un profil spécifique dans un parcours spécifique pendant une période spécifique ?
++++Qu’advient-il d’un profil spécifique dans un parcours spécifique pendant une période spécifique ?
 
 _Requête du lac de données_
 
@@ -270,7 +270,7 @@ WHERE
 
 +++
 
-+++Comment vérifier les détails d’un événement serviceEvent 
++++Vérification des détails d’un événement serviceEvent 
 
 Le jeu de données Événements de l’étape du parcours contient tous les événements stepEvents et serviceEvents. Les événements stepEvents sont utilisés dans les rapports, dans la mesure où ils se rapportent aux activités (événement, actions, etc.) des profils d’un parcours. Les événements serviceEvents sont stockés dans le même jeu de données et indiquent des informations supplémentaires à des fins de débogage, comme la raison de l’abandon d’un événement d’expérience.
 
@@ -476,14 +476,14 @@ ORDER BY DATE(timestamp) desc
 
 La requête renvoie, pour la période définie, le nombre de profils ayant rejoint le parcours chaque jour. Si un profil a rejoint le parcours via plusieurs identités, il sera comptabilisé deux fois. Si la rentrée est activée, le nombre de profils peut être dupliqué sur plusieurs jours si le profil a rejoint le parcours un autre jour.
 
-Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+Découvrez comment [dépanner les types d’événements rejetés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
 
 +++
 
 ## Requêtes relatives à la lecture d’audience {#read-segment-queries}
 
-+++Temps nécessaire pour terminer un traitement d&#39;export d&#39;audience
++++Temps nécessaire pour terminer un traitement d’export d’audiences
 
 _Requête du lac de données_
 
@@ -637,7 +637,7 @@ La requête renvoie tous les identifiants de profil qui ont été ignorés par l
 
 +++
 
-+++Présentation de la lecture d’audience pour une version de parcours donnée
++++Vue d’ensemble de la lecture d’audience pour une version de parcours donnée
 
 _Requête du lac de données_
 
@@ -678,7 +678,7 @@ IMPORTANT : si aucun événement n&#39;est renvoyé par cette requête, cela pe
 +++
 
 
-+++Obtention des erreurs Lecture d’audience pour une version de parcours donnée
++++Obtention des erreurs de lecture d’audience pour une version de parcours donnée
 
 _Requête du lac de données_
 
@@ -799,7 +799,7 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 
 +++
 
-+++Obtention de mesures agrégées (traitements d&#39;exportation d&#39;audience et abandons) sur tous les traitements d&#39;exportation
++++Obtention de mesures agrégées (traitements d’export d’audiences et abandons) sur tous les traitements d’export
 
 _Requête du lac de données_
 
@@ -866,7 +866,7 @@ Elle renvoie les mesures globales d&#39;une version de parcours donnée, quelles
 
 ## Requêtes relatives à la qualification de l’audience {#segment-qualification-queries}
 
-+++Profil ignoré en raison d&#39;une réalisation d&#39;audience différente de celle configurée
++++Profil rejeté en raison d’une réalisation d’audience différente de celle configurée
 
 _Requête du lac de données_
 
@@ -892,7 +892,7 @@ Cette requête renvoie tous les identifiants de profil qui ont été ignorés pa
 
 +++
 
-+++Événements de qualification d’audience ignorés par toute autre raison pour un profil spécifique
++++Événements de qualification d’audience rejetés pour toute autre raison pour un profil spécifique
 
 _Requête du lac de données_
 
@@ -950,7 +950,7 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++
 
-+++Vérifier si un événement externe d’un profil a été ignoré car aucun parcours associé n’a été trouvé
++++Vérifier si l’événement externe d’un profil a été rejeté, car aucun parcours associé n’a été trouvé
 
 _Requête du lac de données_
 
@@ -974,11 +974,11 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+Découvrez comment [dépanner les types d’événements rejetés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
-+++Vérifier si un événement externe d’un profil a été ignoré pour toute autre raison
++++Vérifier si un événement externe d’un profil a été rejeté pour toute autre raison
 
 _Requête du lac de données_
 
@@ -1004,11 +1004,11 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+Découvrez comment [dépanner les types d’événements rejetés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
-+++Vérifier le nombre de tous les événements ignorés par stateMachine par errorCode
++++Vérifier le nombre de tous les événements rejetés par stateMachine par errorCode
 
 _Requête du lac de données_
 
@@ -1026,11 +1026,11 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+Découvrez comment [dépanner les types d’événements rejetés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
-+++Vérifier tous les événements ignorés car une nouvelle entrée n’était pas autorisée
++++Vérifier tous les événements rejetés, car une nouvelle entrée n’était pas autorisée
 
 _Requête du lac de données_
 
@@ -1054,7 +1054,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-Découvrez comment [dépanner les types d’événements ignorés dans parcours_step_events](../reports/sharing-field-list.md#discarded-events).
+Découvrez comment [dépanner les types d’événements rejetés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1303'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 ## Ressource de parcours {#journey-capability}
 
-* **[!DNL Manage journeys]** autorisation de haut niveau permet aux utilisateurs et utilisatrices de créer des Parcours et de les modifier/supprimer/arrêter/mettre en pause, ainsi que d’accéder aux objets utilisés dans la zone de travail du parcours pour créer le flux du parcours.
+* Lʼautorisation de haut niveau **[!DNL Manage journeys]** permet aux utilisateurs et utilisatrices de créer des parcours et de modifier/supprimer/arrêter/mettre en pause des parcours existants, ainsi que dʼaccéder aux objets utilisés dans la zone de travail de parcours pour concevoir le flux du parcours.
 
   +++ Elle comprend les autorisations de bas niveau suivantes :  
 
@@ -216,7 +216,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
       * activities.read
       * activities.write
       * activities.delete
-      * offer.read
+      * offers.read
       * offers.write
       * offers.delete
       * placements.read
@@ -240,7 +240,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
    * Spécifiques à la gestion des décisions :
       * activities.read
-      * offer.read
+      * offers.read
       * placements.read
       * ranking_strategy.read
 
@@ -256,8 +256,8 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
   +++ Elle comprend les autorisations de bas niveau suivantes :  
 
    * Spécifiques à la gestion des décisions :
-      * offer_activity.read
-      * offer.read
+      * offers_activity.read
+      * offers.read
       * offers.Write
       * offers.Delete
       * placements.Read
@@ -282,7 +282,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
       * ranking_strategy.write
       * ranking_strategy.delete
       * activities.read
-      * offer.read
+      * offers.read
       * placements.read
 
   +++

@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1565'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Exemples d’adresses URL personnalisées :
 >
 >Les espaces ne sont pas pris en charge dans les jetons de personnalisation utilisés dans les URL.
 
-En disponibilité limitée pour un ensemble de clients et clientes, Journey Optimizer prend également en charge la personnalisation complète/de base de l’URL. Par exemple :
+En disponibilité limitée pour un ensemble de clientes et clients, Journey Optimizer prend également en charge la personnalisation complète/de base des URL. Par exemple :
 
 ```
 <a href="{{profile.social.link}}" />

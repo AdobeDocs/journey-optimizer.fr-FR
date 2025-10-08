@@ -10,9 +10,9 @@ keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -104,4 +104,4 @@ Vous pouvez également réaliser les opérations suivantes :
 
 >[!CAUTION]
 >
->Autorisations d’arrêt d’un parcours limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>Les autorisations d’arrêt de parcours sont limitées aux utilisateurs et aux utilisatrices disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).

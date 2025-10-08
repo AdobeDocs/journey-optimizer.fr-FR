@@ -12,9 +12,9 @@ badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
 source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]**.
 
-1. Sélectionnez la **[!UICONTROL mesure de succès]** que vous souhaitez définir pour votre expérience. En savoir plus sur les mesures disponibles et sur la configuration de la liste dans [cette section](success-metrics.md).
+1. Sélectionnez les **[!UICONTROL mesures de succès]** que vous souhaitez définir pour votre expérience. En savoir plus sur les mesures disponibles et sur la configuration de la liste dans [cette section](success-metrics.md).
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 Une fois le parcours actif, les utilisateurs et utilisatrices sont affectés de manière aléatoire à différents chemins. [!DNL Journey Optimizer] suit le chemin le plus performant et fournit des informations exploitables.
 
-Suivez la réussite de votre parcours avec le rapport d’expérience de chemin de Parcours. [En savoir plus](../reports/journey-global-report-cja-experimentation.md)
+Suivez le succès de votre parcours avec le rapport d’expérience de chemin de parcours. [En savoir plus](../reports/journey-global-report-cja-experimentation.md)
 
 ### Cas d’utilisation des expériences {#uc-experiment}
 
@@ -224,7 +224,7 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
 Une fois le parcours actif, le chemin spécifié pour chaque segment est traité afin que les membres Gold rejoignent le chemin avec les offres par e-mail, tandis que les autres membres rejoignent le chemin avec le SMS de rappel.
 
-Suivez la réussite de votre parcours avec le rapport de Parcours. [En savoir plus](../reports/journey-global-report-cja.md#targeting)
+Suivez le succès de votre parcours avec le rapport de parcours. [En savoir plus](../reports/journey-global-report-cja.md#targeting)
 
 ### Cas d’utilisation des règles de ciblage {#uc-targeting}
 

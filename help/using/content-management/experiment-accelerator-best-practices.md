@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Bonnes pratiques relatives à Journey Optimizer Experimentation Accelerator
+title: Bonnes pratiques relatives à Journey Optimizer Experimentation Accelerator
 description: Améliorer votre capacité à mener des expériences efficacement et à générer des informations
 feature: Experimentation
 topic: Content Management
@@ -10,13 +10,13 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: 001e05db-e343-4a95-9694-274a8c50d08c
 source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '742'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Bonnes pratiques relatives à Journey Optimizer Experimentation Accelerator {#content-experiment-best-practices}
+# Bonnes pratiques relatives à Journey Optimizer Experimentation Accelerator {#content-experiment-best-practices}
 
 ## Que sont les tests A/B ?
 
@@ -87,11 +87,11 @@ Exemple : _nous pensons que la modification de X augmentera Y en raison de Z._
 Une bonne expérience ne produit pas seulement un résultat positif, elle apporte aussi un enseignement clair et exploitable.
 Voici ce qu’il faut rechercher :
 
-&check; **Fiabilité statistique** : il est peu probable que la différence entre les variantes soit due au hasard.
-&check; **Alignement sur les objectifs** : la mesure principale reflète les progrès significatifs accomplis vers un objectif commercial.
-&check; **Impact secondaire** : aucun effet secondaire négatif significatif sur les mesures associées.
-&check; **Évolutivité** : le résultat peut éclairer les décisions futures ou être généralisé à d’autres domaines.
-&check; **Clarté** : la cause du résultat est raisonnablement identifiée et comprise.
+&amp;check; **Fiabilité statistique** : il est peu probable que la différence entre les variantes soit due au hasard.
+&amp;check; **Alignement sur les objectifs** : la mesure principale reflète les progrès significatifs accomplis vers un objectif commercial.
+&amp;check; **Impact secondaire** : aucun effet secondaire négatif significatif sur les mesures associées.
+&amp;check; **Évolutivité** : le résultat peut éclairer les décisions futures ou être généralisé à d’autres domaines.
+&amp;check; **Clarté** : la cause du résultat est raisonnablement identifiée et comprise.
 
 L’expérimentation ne consiste pas seulement à trouver la « meilleure » version, mais également à acquérir des connaissances par le biais de tests et d’itérations. Lorsqu’elles sont bien menées, les expériences révèlent des informations qui permettent de prendre des décisions plus intelligentes, d’offrir des expériences utilisateur optimisées et d’obtenir de meilleurs résultats.
 

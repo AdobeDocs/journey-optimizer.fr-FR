@@ -6,9 +6,9 @@ description: Questions fréquentes sur les campagnes orchestrées Journey Optimi
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -176,13 +176,13 @@ Dans l’orchestration de campagne, nous appelons la segmentation ad hoc « seg
 
 +++ L’orchestration de campagne accède-t-elle uniquement aux données chargées par lots ou interroge-t-elle aussi les tables mises à jour en temps réel (par exemple, les données Analytics) ?
 
-L’orchestration de Journey Optimizer Campaign peut d’abord créer des requêtes ad hoc sur des schémas basés sur des modèles. Les schémas basés sur des modèles ne prennent en charge que les sources de lots pour l’instant. De plus, ils prennent en charge la lecture de tout type d’audience d’Adobe Experience Platform.
+L’orchestration de campagne dans Journey Optimizer peut d’abord créer une requête ad hoc sur les schémas basés sur des modèles. Les schémas basés sur des modèles prennent actuellement en charge uniquement les sources par lots. De plus, ils prennent en charge la lecture de tout type d’audience d’Adobe Experience Platform.
 
 +++
 
 +++ Les campagnes orchestrées prennent-elles en charge la prise de décision ?
 
-Oui. La prise de décision peut utiliser les données relationnelles issues des campagnes orchestrées. Une fois le schéma basé sur un modèle connecté aux schémas XDM, les données XDM peuvent être utilisées dans la prise de décision.
+Oui. La prise de décision peut utiliser les données relationnelles issues des campagnes orchestrées. Une fois qu’un schéma basé sur un modèle est relié aux schémas XDM, les données XDM peuvent être utilisées dans la prise de décision.
 
 +++
 
@@ -254,9 +254,9 @@ Les campagnes orchestrées prennent en charge les filtres prédéfinis : il est
 
 ## Ressources supplémentaires
 
-Pour plus d’informations et de mises à jour, consultez les ressources suivantes :
+Pour des mises à jour et des formations supplémentaires, consultez les ressources suivantes :
 
 * [Mécanismes de sécurisation et limitations des campagnes orchestrées](../orchestrated/guardrails.md)
-* [Prise en main des schémas et des jeux de données dans les campagnes orchestrées](../orchestrated/gs-schemas.md)
+* [Commencer avec les schémas et les jeux de données dans les campagnes orchestrées](../orchestrated/gs-schemas.md)
 * [Créer votre première campagne orchestrée](../orchestrated/gs-campaign-creation.md)
 * [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

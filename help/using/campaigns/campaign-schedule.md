@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Utilisez l’onglet **[!UICONTROL Planifier]** pour définir le planning de la c
 
 ## Définir une date de début de campagne
 
-Par défaut, les campagnes d’action démarrent une fois qu’elles sont activées manuellement et se terminent dès que le message a été envoyé une fois.
+Par défaut, les campagnes d’action démarrent après avoir été activées manuellement et se terminent dès que le message a été envoyé une fois.
 
 Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier la date et l’heure auxquelles le message doit être envoyé dans la section **[!UICONTROL Début de campagne]**.
 
@@ -35,17 +35,17 @@ Si vous ne souhaitez pas exécuter votre campagne juste après son activation, v
 
 ## Définir une fréquence d’exécution
 
-Pour les actions **E-mail**, **SMS** et **Notification push**, vous pouvez définir la fréquence d’envoi du message de la campagne. Pour ce faire, utilisez l’option **[!UICONTROL Déclencheurs d’action]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
+Pour les actions **E-mail**, **SMS** et **notification push**, vous pouvez définir la fréquence d’envoi du message de la campagne. Pour ce faire, utilisez l’option **[!UICONTROL Déclencheurs d’action]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
 
 ![](assets/campaign-frequency.png)
 
 >[!NOTE]
 >
->Pour les actions **email**, vous pouvez créer des campagnes d’activation de plan de préchauffage d’adresses IP spécifiques. Le planning de la campagne sera piloté par le plan de préchauffage d’adresses IP auquel il sera associé, ce qui signifie que le planning ne sera plus défini dans la campagne elle-même. [Découvrez comment créer des campagnes de préchauffage d’adresses IP](../configuration/ip-warmup-campaign.md).
+>Pour les actions **E-mail**, vous pouvez créer des campagnes spécifiques d’activation de plans de préchauffage d’adresses IP. Le planning de la campagne sera piloté par le plan de préchauffage d’adresses IP auquel il sera associé, ce qui signifie que le planning ne sera plus défini dans la campagne elle-même. [Découvrez comment créer des campagnes de préchauffage d’adresses IP](../configuration/ip-warmup-campaign.md).
 
 ## Définir une date de fin
 
-La section **[!UICONTROL Fin de campagne]** vous permet de spécifier à quel moment une campagne doit cesser d’être exécutée. En dehors des dates spécifiées, la campagne ne sera pas exécutée.
+La section **[!UICONTROL Fin de la campagne]** vous permet de spécifier le moment où une campagne doit cesser d’être exécutée. En dehors des dates spécifiées, la campagne ne sera pas exécutée.
 
 ![](assets/campaign-end.png)
 
