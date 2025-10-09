@@ -92,7 +92,7 @@ Dans la version iOS, un identifiant de catégorie de notification est spécifié
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
 >title="À propos des notifications silencieuses"
->abstract="Envoyez des notifications sans déranger l’utilisateur. Les notifications ne sont pas affichées dans le centre de notifications ni dans la barre de notifications."
+>abstract="Envoyez des notifications sans déranger l&#39;utilisateur ou l&#39;utilisatrice. Les notifications ne sont pas affichées dans le centre de notifications ni dans la barre de notifications."
 
 Une notification push silencieuse (ou notification en arrière-plan) est une instruction masquée qui est transmise à l’application. Elle est par exemple utilisée pour informer votre application de la disponibilité d&#39;un nouveau contenu ou pour lancer un téléchargement en arrière-plan.
 
