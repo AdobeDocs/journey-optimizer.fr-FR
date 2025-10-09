@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
+source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 61%
+source-wordcount: '945'
+ht-degree: 59%
 
 ---
 
@@ -64,7 +64,7 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 >[!NOTE]
 >
 >Pour le suivi des éléments de politique de décision, l’attribut `trackingToken` doit être ajouté comme suit pour le contenu de la politique de décision :
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Pour ajouter un attribut, cliquez sur l’icône « + » en regard de celui-ci. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
@@ -78,13 +78,13 @@ Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur 
 
 ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Utiliser des fragments {#fragments}
+## Utilisation des fragments (expérience basée sur le code) {#fragments}
 
 Si votre politique de décision contient des éléments de décision, y compris des fragments, vous pouvez utiliser ces fragments dans le code de la politique de décision. [En savoir plus sur les fragments](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Actuellement, cette fonctionnalité n’est disponible que pour le canal d’expérience basé sur le code et pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 Supposons, par exemple, que vous souhaitiez afficher différents contenus pour plusieurs modèles d’appareils mobiles. Assurez-vous d’avoir ajouté les fragments correspondant à ces appareils à l’élément de décision que vous utilisez dans la politique de décision. [Découvrez comment procéder](items.md#attributes).
 
