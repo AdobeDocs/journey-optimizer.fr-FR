@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: ht
-source-wordcount: '2825'
-ht-degree: 100%
+source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+workflow-type: tm+mt
+source-wordcount: '2823'
+ht-degree: 99%
 
 ---
 
@@ -274,4 +274,4 @@ Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **
 
 ## Mécanismes de sécurisation de l’orchestration de campagne {#orchestration-guardrails}
 
-Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez l’orchestration de campagne sont décrits dans cette section : [Mécanismes de sécurisation et limitations de la gestion des décisions](../orchestrated/guardrails.md).
+Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez l’orchestration de Campaign sont détaillés dans cette section : [mécanismes de sécurisation et limitations](../orchestrated/guardrails.md).
