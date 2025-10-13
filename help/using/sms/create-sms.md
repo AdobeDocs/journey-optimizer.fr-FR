@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
+source-git-commit: 3d4b4fce529db70c53daea3d15d4af9a14b57424
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 100%
+source-wordcount: '1112'
+ht-degree: 96%
 
 ---
 
@@ -96,6 +96,10 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message texte 
 >id="ajo_message_sms_content"
 >title="Définir le contenu de votre SMS"
 >abstract="Personnalisez vos messages texte (SMS/MMS/RCS) à l’aide de l’éditeur de personnalisation pour définir le contenu et incorporer des éléments dynamiques."
+
+>[!AVAILABILITY]
+>
+>RCS Upscale n’est pas un service conforme à la loi HIPAA et ne doit pas être utilisé pour collecter, stocker ou traiter des données personnelles sensibles, y compris des données de santé autorisées, par exemple des informations personnelles sur la santé ou des informations d’identification personnelles, que votre organisation pourrait autrement être autorisée à traiter dans Journey Optimizer.
 
 Pour configurer le contenu de votre message, suivez les étapes ci-après. Les paramètres des MMS sont décrits dans [cette section](#mms-content).
 
