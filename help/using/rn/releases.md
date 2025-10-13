@@ -6,9 +6,9 @@ feature: Release Notes
 description: Présentation du cycle de publication de Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
+source-git-commit: 625dfbb66effb30172f6faf56db6fe512aef909a
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Dans le cadre de ce modèle :
 
 ## Calendrier et cadence des versions {#release-timing}
 
-[!DNL Adobe Journey Optimizer] suit généralement une cadence de publication mensuelle, les déploiements ayant généralement lieu au cours de la dernière semaine de chaque mois. Les notes de mise à jour mensuelles et la documentation associée sont publiées le mardi. Les notes de version préliminaire sont publiées le vendredi précédant la semaine de publication.
+[!DNL Adobe Journey Optimizer] suit généralement une cadence de publication mensuelle, les déploiements ayant généralement lieu au cours de la dernière semaine de chaque mois. Les notes de mise à jour mensuelles et la documentation associée sont publiées le mardi de la semaine de publication. Les notes de version préliminaire sont publiées le vendredi précédant la semaine de publication.
 
 >[!TIP]
 >
 > À la fin de chaque trimestre, les versions peuvent être anticipées et déployées jusqu’à deux semaines avant la fin du mois afin de s’aligner sur les calendriers trimestriels ou les versions de produits dépendantes.
 
-Bien que la version mensuelle introduise l’ensemble principal des nouvelles fonctionnalités et des correctifs, l’approche de diffusion continue permet de déployer des mises à jour supplémentaires entre les cycles lorsqu’elles sont prêtes. Les notes de mise à jour et la documentation associée sont ensuite mises à jour en conséquence et la date de disponibilité est mentionnée. Toutes les modifications publiées au cours du mois sont consolidées dans les notes de mise à jour mensuelles à la date de publication.
+Bien que la version mensuelle introduise l’ensemble principal des nouvelles fonctionnalités et des correctifs, l’approche de diffusion continue permet de déployer des mises à jour supplémentaires entre les cycles lorsqu’elles sont prêtes. Les notes de mise à jour sont ensuite mises à jour en conséquence dans la section _Dernières mises à jour_ et la date de disponibilité est mentionnée. Toutes les modifications publiées au cours du mois sont consolidées dans les notes de mise à jour mensuelles à la date de publication.
 
 
 ## Chemins de version {#release-paths}
@@ -48,10 +48,10 @@ Les fonctionnalités de Journey Optimizer suivent différents chemins de mise à
 
 Les chemins de publication courants sont les suivants :
 
-* **Direct vers GA** — Certaines améliorations plus petites ou incrémentielles vont directement vers la disponibilité générale (GA).
-* **LA → GA** — Les fonctionnalités sont d’abord disponibles pour une audience limitée (disponibilité limitée) avant le déploiement général.
+* **Direct to GA** — Certaines nouvelles fonctionnalités et améliorations vont directement vers la disponibilité générale (GA).
+* **LA → GA** — Certaines fonctionnalités sont d’abord disponibles pour une audience limitée (disponibilité limitée) avant le déploiement général.
 * **Beta → LA → GA** — Des fonctionnalités plus importantes ou expérimentales passent par toutes les phases de test et de validation.
-* **Beta → GA** — Certaines fonctionnalités Beta stables peuvent passer directement à GA sans phase de LA intermédiaire.
+* **Beta → GA** — Certaines fonctionnalités Beta stables peuvent passer directement à GA, sans phase LA intermédiaire.
 
 >[!TIP]
 >
@@ -62,14 +62,14 @@ Les chemins de publication courants sont les suivants :
 
 | **Libellé** | **Rôle** | **Disponibilité** | **Remarques clés** |
 |------------|-------------|------------------|----------------|
-| **Beta** | Des tests précoces et la collecte de commentaires. | Restrictions aux clients ou organisations sélectionnés participant au programme Adobe Beta. | * Non destiné à un usage de production.<br>* La fonctionnalité ou la conception peuvent changer avant la disponibilité générale.<br>- Les commentaires permettent d’affiner l’implémentation finale. |
-| **Disponibilité limitée (LA)** | Déploiement contrôlé pour la validation et la surveillance. | Activé uniquement pour les clients ou environnements sélectionnés (par exemple, les sandbox de développement). | * La fonctionnalité est presque finale et activement surveillée.<br>- Utilisé pour valider les performances et l’évolutivité avant la publication générale.<br>* Accès nécessite l&#39;approbation d&#39;Adobe. |
-| **Disponibilité générale (GA)** | Version étendue de fonctionnalités entièrement prises en charge. | Activé par défaut pour toutes les organisations éligibles. | * Prêt pour la production et entièrement pris en charge.<br>* Une licence ou des droits peuvent s&#39;appliquer.<br>* Déploiement progressif dans toutes les régions. |
+| **Beta** | Des tests précoces et la collecte de commentaires. | Restrictions aux clients ou organisations sélectionnés participant au programme Adobe Beta. | - Non destinés à la production.<br>- La fonctionnalité ou la conception peuvent changer avant la disponibilité générale.<br>- Les commentaires permettent d’affiner l’implémentation finale. |
+| **Disponibilité limitée (LA)** | Déploiement contrôlé pour la validation et la surveillance. | Activé uniquement pour les clients ou environnements sélectionnés (par exemple, les sandbox de développement). | - La fonctionnalité est presque finale et activement surveillée.<br>- Utilisé pour valider les performances et l’évolutivité avant la publication générale.<br>- L’accès nécessite l’approbation d’Adobe. |
+| **Disponibilité générale (GA)** | Version étendue de fonctionnalités entièrement prises en charge. | Activé par défaut pour toutes les organisations éligibles. | - Prêt pour la production et entièrement pris en charge.<br> - Une licence ou des droits peuvent s&#39;appliquer.<br> - Peut être déployé progressivement entre les régions. |
 
 
 ## Déploiement et disponibilité {#rollout}
 
-Même après une annonce de disponibilité générale, le déploiement peut se faire progressivement dans toutes les organisations ou régions. Si une nouvelle fonctionnalité n’apparaît pas immédiatement dans votre environnement, elle est généralement disponible dans les jours ou les semaines qui suivent sa publication.
+Même après une annonce de disponibilité générale, le déploiement peut se faire progressivement dans toutes les organisations ou régions. Si une nouvelle fonctionnalité n’apparaît pas immédiatement dans votre environnement, elle est généralement disponible dans les jours qui suivent sa publication.
 
 Ce déploiement progressif permet à Adobe de surveiller la stabilité, les performances et l’expérience utilisateur avant d’effectuer le déploiement.
 
