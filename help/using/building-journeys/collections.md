@@ -9,10 +9,10 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 3d0e2817ef2b544aced441d7bb8b1a94ac2acccf
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 73%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
 
 * collections d’objets : tableau d’objets JSON, par exemple :
 
-  ```
+  ```json
   {
   "products":[
      {
@@ -58,20 +58,52 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
 
 ## Limites {#limitations}
 
-* Les tableaux d’objets imbriqués dans un tableau d’objets ne sont pas pris en charge pour l’instant. Par exemple :
+* **Prise en charge des tableaux imbriqués dans les actions personnalisées**
 
-  ```
-  {
-  "products":[
-    {
-       "id":"productA",
-       "name":"A",
-       "price":20,
-       "locations": [{"name": "Paris"}, {"name": "London"}]
-    },
-   ]
-  }
-  ```
+  Adobe Journey Optimizer prend en charge les tableaux d’objets imbriqués dans les actions personnalisées **payloads de réponse**, mais cette prise en charge est limitée dans les **payloads de requête**.
+
+  Dans les payloads de requête, les tableaux imbriqués ne sont pris en charge que s’ils contiennent un nombre fixe d’éléments, comme défini dans la configuration d’action personnalisée. Par exemple, si un tableau imbriqué comprend toujours exactement trois éléments, il peut être configuré comme une constante. Lorsque le nombre d’éléments doit être dynamique, seuls les tableaux non imbriqués (tableaux au niveau inférieur) peuvent être définis comme variables.
+
+  Exemple :
+
+   1. L’exemple suivant illustre un **cas d’utilisation non pris en charge**.
+
+      Dans cet exemple, le tableau products comprend un tableau imbriqué (`locations`) avec un nombre dynamique d’éléments, qui n’est pas pris en charge dans les payloads de la requête.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "locations": [
+            { "name": "Paris" },
+            { "name": "London" }
+            ]
+         }
+      ]
+      }
+      ```
+
+   2. Exemple pris en charge, avec des éléments fixes définis comme des constantes.
+
+      Dans ce cas, les emplacements imbriqués sont remplacés par des champs fixes (`location1`, `location2`), ce qui permet à la payload de rester valide dans la configuration prise en charge.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "location1": { "name": "Paris" },
+            "location2": { "name": "London" }
+         }
+      ]
+      }
+      ```
+
 
 * Pour tester les collections à l’aide du mode test, vous devez utiliser le mode Affichage du code. Le mode Affichage du code n’est pas pris en charge pour les événements métier pour l’instant. Vous ne pouvez envoyer qu’une collection avec un seul élément.
 
@@ -79,7 +111,7 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
 
 Dans cette section, nous utiliserons l’exemple de payload JSON ci-après. Il s’agit d’un tableau d’objets avec un champ qui est une collection simple.
 
-```
+```json
 {
   "ctxt": {
     "products": [
@@ -149,7 +181,7 @@ Pour les types et les tableaux de tableaux hétérogènes, le tableau est défin
 
 Exemple de type hétérogène :
 
-```
+```json
 {
     "data_mixed-types": [
         "test",
@@ -162,7 +194,7 @@ Exemple de type hétérogène :
 
 Exemple de tableau de tableaux :
 
-```
+```json
 {
     "data_multiple-arrays": [
         [
