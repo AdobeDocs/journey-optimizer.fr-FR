@@ -6,7 +6,7 @@ feature: Release Notes
 description: Présentation du cycle de publication de Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer] fonctionne sur un modèle de diffusion continu, ce qui permet une approche évolutive et progressive du déploiement des fonctionnalités. Ce modèle permet à Adobe de proposer de l’innovation plus rapidement et d’assurer une stabilité et des performances continues lors du déploiement.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 > Étant donné que [!DNL Adobe Journey Optimizer] utilise la diffusion au fil de l’eau, de nouvelles fonctionnalités peuvent apparaître progressivement dans toutes les organisations ou régions.
 
@@ -35,7 +35,7 @@ Dans le cadre de ce modèle :
 
 [!DNL Adobe Journey Optimizer] suit généralement une cadence de publication mensuelle, les déploiements ayant généralement lieu au cours de la dernière semaine de chaque mois. Les notes de mise à jour mensuelles et la documentation associée sont publiées le mardi. Les notes de version préliminaire sont publiées le vendredi précédant la semaine de publication.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > À la fin de chaque trimestre, les versions peuvent être anticipées et déployées jusqu’à deux semaines avant la fin du mois afin de s’aligner sur les calendriers trimestriels ou les versions de produits dépendantes.
 
@@ -53,7 +53,7 @@ Les chemins de publication courants sont les suivants :
 * **Beta → LA → GA** — Des fonctionnalités plus importantes ou expérimentales passent par toutes les phases de test et de validation.
 * **Beta → GA** — Certaines fonctionnalités Beta stables peuvent passer directement à GA sans phase de LA intermédiaire.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > Si vous souhaitez bénéficier d’un accès anticipé aux fonctionnalités de Beta ou à disponibilité limitée, contactez votre représentant Adobe pour discuter des options de participation.
 
