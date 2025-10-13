@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 100%
+source-wordcount: '1829'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,34 @@ ht-degree: 100%
 Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels API à un système tiers, utilisez des actions personnalisées pour configurer la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
 
 Les actions personnalisées sont des actions supplémentaires définies par les utilisateurs techniques et mises à la disposition des spécialistes marketing. Une fois configurés, elles apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. En savoir plus sur [cette page](../building-journeys/about-journey-activities.md#action-activities).
+
+
+## Étapes de configuration {#configuration-steps}
+
+Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
+
+1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. Cliquez sur **[!UICONTROL Créer une action]** pour créer une nouvelle action. Le volet de configuration des actions s&#39;ouvre dans la droite de l&#39;écran.
+
+   ![](assets/custom2.png)
+
+1. Saisissez le nom de l&#39;action.
+
+   >[!NOTE]
+   >
+   >Seuls les caractères alphanumériques et les traits de soulignement sont autorisés. La longueur maximale est de 30 caractères.
+
+1. Ajoutez une description à l&#39;action. Cette étape est facultative.
+1. Le nombre de parcours qui font appel à cette action s’affiche dans le champ **[!UICONTROL Utilisé dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour afficher la liste des parcours utilisant cette action.
+1. Définissez les différents paramètres de **[!UICONTROL Configuration d&#39;URL]**. Voir [cette page](../action/about-custom-action-configuration.md#url-configuration).
+1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Consultez [cette section](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Définissez les **[!UICONTROL paramètres d&#39;action]**. Voir [cette page](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+   L&#39;action personnalisée est maintenant configurée et prête à être utilisée dans vos parcours. Voir [cette page](../building-journeys/about-journey-activities.md#action-activities).
+
+   >[!NOTE]
+   >
+   >Lorsqu&#39;une action personnalisée est utilisée dans un parcours, la plupart des paramètres sont en lecture seule. Vous pouvez uniquement modifier les champs **[!UICONTROL Nom]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** et la section **[!UICONTROL Authentification]**.
 
 ## Limites{#custom-actions-limitations}
 
@@ -66,33 +94,6 @@ Dans Journey Optimizer, vous pouvez appliquer des politiques de gouvernance des
 * [Gouvernance des données](../action/action-privacy.md).
 * [Consentement](../action/action-privacy.md).
 
-
-## Étapes de configuration {#configuration-steps}
-
-Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
-
-1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. Cliquez sur **[!UICONTROL Créer une action]** pour créer une nouvelle action. Le volet de configuration des actions s&#39;ouvre dans la droite de l&#39;écran.
-
-   ![](assets/custom2.png)
-
-1. Saisissez le nom de l&#39;action.
-
-   >[!NOTE]
-   >
-   >Seuls les caractères alphanumériques et les traits de soulignement sont autorisés. La longueur maximale est de 30 caractères.
-
-1. Ajoutez une description à l&#39;action. Cette étape est facultative.
-1. Le nombre de parcours qui font appel à cette action s’affiche dans le champ **[!UICONTROL Utilisé dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour afficher la liste des parcours utilisant cette action.
-1. Définissez les différents paramètres de **[!UICONTROL Configuration d&#39;URL]**. Voir [cette page](../action/about-custom-action-configuration.md#url-configuration).
-1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Consultez [cette section](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Définissez les **[!UICONTROL paramètres d&#39;action]**. Voir [cette page](../action/about-custom-action-configuration.md#define-the-message-parameters).
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
-
-   L&#39;action personnalisée est maintenant configurée et prête à être utilisée dans vos parcours. Voir [cette page](../building-journeys/about-journey-activities.md#action-activities).
-
-   >[!NOTE]
-   >
-   >Lorsqu&#39;une action personnalisée est utilisée dans un parcours, la plupart des paramètres sont en lecture seule. Vous pouvez uniquement modifier les champs **[!UICONTROL Nom]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** et la section **[!UICONTROL Authentification]**.
 
 ## Configuration du point d’entrée {#url-configuration}
 
@@ -195,6 +196,15 @@ Dans la configuration des champs, vous devez procédez comme suit :
 >
 
 
-## Résolution des problèmes
+* [Dépannage d’action personnalisée](../action/troubleshoot-custom-action.md) - Découvrez comment dépanner une action personnalisée
 
-Découvrez comment résoudre les problèmes liés à une action personnalisée [dans cette page dédiée](../action/troubleshoot-custom-action.md).
+
+## Ressources supplémentaires
+
+Parcourez les sections ci-dessous pour en savoir plus sur la configuration, l’utilisation et le dépannage de vos actions personnalisées :
+
+* [Prise en main des actions personnalisées](../action/action.md) - Découvrez en quoi consiste une action personnalisée et comment elle vous aide à vous connecter à vos systèmes tiers
+* [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) - Découvrez comment utiliser des actions personnalisées dans vos parcours.
+* [Dépannage d’action personnalisée](../action/troubleshoot-custom-action.md) - Découvrez comment dépanner une action personnalisée
+* [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md) - Découvrez comment transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution
+

@@ -1,27 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Transmission dynamique des collections à l’aide d’actions personnalisées
-description: Envoi d'un message à l'aide de Campaign v7/v8
+title: Transmettre des collections dans des paramètres d’action personnalisés
+description: Découvrez comment transmettre des collections de manière dynamique dans Journey Optimizer à l’aide d’actions personnalisées
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 8f25fd5110777c148246864b364d02e4c6bf00da
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 58%
+source-wordcount: '723'
+ht-degree: 35%
 
 ---
 
 
-# Transmission dynamique des collections à l’aide d’actions personnalisées{#passing-collection}
+# Transmettre des collections dans des paramètres d’action personnalisés {#passing-collection}
 
-Vous pouvez transmettre une collection dans des paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge :
+Vous pouvez transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution.
 
-* **collections simples** : tableaux de types de données simples, par exemple avec une listString :
+Deux types de collections sont pris en charge :
+
+* **Collections simples**
+
+  Utilisez des collections simples pour les listes de valeurs de base, telles que des chaînes, des nombres ou des booléens. Ils s’avèrent utiles lorsque vous n’avez besoin de transmettre qu’une liste d’éléments sans propriétés supplémentaires.
+
+  Par exemple, une liste de types d’appareils :
 
   ```json
   {
@@ -32,7 +38,11 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
   }
   ```
 
-* o **collections d’objets** : tableau d’objets JSON, par exemple :
+* **Collections d’objets**
+
+  Utilisez des collections d’objets lorsque chaque élément comprend plusieurs champs ou propriétés. Ils sont généralement utilisés pour transmettre des données structurées, telles que des détails de produit, des enregistrements d’événement ou des attributs d’élément.
+
+  Par exemple :
 
   ```json
   {
@@ -56,6 +66,9 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
   }
   ```
 
+>[!NOTE]
+>
+>Les tableaux imbriqués dans les collections ne sont que partiellement pris en charge dans les payloads de requête d’action personnalisée. Pour plus d’informations, voir [Limites](#limitations).
 
 ## Procédure générale {#general-procedure}
 
@@ -125,6 +138,8 @@ Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expre
 
 ## Limites {#limitations}
 
+Bien que les collections dans les actions personnalisées offrent la flexibilité nécessaire pour transmettre des données dynamiques, il existe certaines contraintes structurelles dont il faut tenir compte :
+
 * **Prise en charge des tableaux imbriqués dans les actions personnalisées**
 
   Adobe Journey Optimizer prend en charge les tableaux d’objets imbriqués dans les actions personnalisées **payloads de réponse**, mais cette prise en charge est limitée dans les **payloads de requête**.
@@ -172,7 +187,7 @@ Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expre
       ```
 
 
-* Pour tester les collections à l’aide du mode test, vous devez utiliser le mode Affichage du code. Le mode Affichage du code n’est pas pris en charge pour les événements métier pour l’instant. Vous ne pouvez envoyer qu’une collection avec un seul élément.
+* **Test des collections** : pour tester des collections à l’aide du mode test, vous devez utiliser le mode Affichage du code. Notez que le mode Affichage du code n’est pas pris en charge pour les événements métier. Dans ce cas, vous ne pouvez donc envoyer qu’une collection contenant un seul élément.
 
 
 ## Cas particuliers{#examples}
@@ -208,6 +223,12 @@ Exemple de tableau de tableaux :
 }
 ```
 
-**Rubrique connexe**
+## Ressources supplémentaires
 
-[Utilisation d’actions personnalisées](../building-journeys/using-custom-actions.md)
+Parcourez les sections ci-dessous pour en savoir plus sur la configuration, l’utilisation et le dépannage de vos actions personnalisées :
+
+* [Prise en main des actions personnalisées](../action/action.md) - Découvrez en quoi consiste une action personnalisée et comment elle vous aide à vous connecter à vos systèmes tiers
+* [Configurer vos actions personnalisées](../action/about-custom-action-configuration.md) - Découvrez comment créer et configurer une action personnalisée
+* [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) - Découvrez comment utiliser des actions personnalisées dans vos parcours.
+* [Dépannage d’action personnalisée](../action/troubleshoot-custom-action.md) - Découvrez comment dépanner une action personnalisée
+

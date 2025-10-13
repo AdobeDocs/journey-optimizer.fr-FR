@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
 source-wordcount: '2972'
 ht-degree: 99%
@@ -196,7 +196,7 @@ ht-degree: 99%
       + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
       + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Envoyer un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
-      + [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](using/building-journeys/collections.md)
+      + [Transmettre des collections dans des paramètres d’action personnalisés](using/building-journeys/collections.md)
       + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
       + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
@@ -970,7 +970,7 @@ ht-degree: 99%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

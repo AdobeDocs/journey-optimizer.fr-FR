@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 87%
 
 ---
 
@@ -88,3 +88,13 @@ Si la demande échoue, vous pouvez vérifier les éléments suivants :
 * La méthode de la demande (GET ou POST) et la payload correspondante.
 * Le point d’entrée de l’API et les en-têtes définis dans l’action personnalisée.
 * Utilisez les données de réponse pour identifier les erreurs de configuration potentielles.
+
+## Ressources supplémentaires
+
+Parcourez les sections ci-dessous pour en savoir plus sur la configuration et l’utilisation de vos actions personnalisées :
+
+* [Prise en main des actions personnalisées](../action/action.md) - Découvrez en quoi consiste une action personnalisée et comment elle vous aide à vous connecter à vos systèmes tiers
+* [Configurer vos actions personnalisées](../action/about-custom-action-configuration.md) - Découvrez comment créer et configurer une action personnalisée
+* [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) - Découvrez comment utiliser des actions personnalisées dans vos parcours.
+* [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md) - Découvrez comment transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution
+
