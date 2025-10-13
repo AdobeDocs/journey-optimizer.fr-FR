@@ -6,10 +6,10 @@ feature: Release Notes
 description: Présentation du cycle de publication de Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 625dfbb66effb30172f6faf56db6fe512aef909a
+source-git-commit: 920c9080768e1972b487b3a258281914a4b7d8de
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 0%
+source-wordcount: '882'
+ht-degree: 1%
 
 ---
 
@@ -63,7 +63,7 @@ Les chemins de publication courants sont les suivants :
 | **Libellé** | **Rôle** | **Disponibilité** | **Remarques clés** |
 |------------|-------------|------------------|----------------|
 | **Beta** | Des tests précoces et la collecte de commentaires. | Restrictions aux clients ou organisations sélectionnés participant au programme Adobe Beta. | - Non destinés à la production.<br>- La fonctionnalité ou la conception peuvent changer avant la disponibilité générale.<br>- Les commentaires permettent d’affiner l’implémentation finale. |
-| **Disponibilité limitée (LA)** | Déploiement contrôlé pour la validation et la surveillance. | Activé uniquement pour les clients ou environnements sélectionnés (par exemple, les sandbox de développement). | - La fonctionnalité est presque finale et activement surveillée.<br>- Utilisé pour valider les performances et l’évolutivité avant la publication générale.<br>- L’accès nécessite l’approbation d’Adobe. |
+| **Disponibilité limitée (LA)** | Déploiement contrôlé pour la validation et la surveillance. | Activé uniquement pour les clients ou environnements sélectionnés (par exemple, les sandbox de développement). | - Prêt pour la production et entièrement pris en charge.<br>- Utilisé pour valider les performances et l’évolutivité avant la publication générale.<br>- L’accès nécessite l’approbation d’Adobe. |
 | **Disponibilité générale (GA)** | Version étendue de fonctionnalités entièrement prises en charge. | Activé par défaut pour toutes les organisations éligibles. | - Prêt pour la production et entièrement pris en charge.<br> - Une licence ou des droits peuvent s&#39;appliquer.<br> - Peut être déployé progressivement entre les régions. |
 
 
@@ -83,6 +83,13 @@ Pour rester à jour :
 * Surveillez **les notes de mise à jour préliminaires** (le cas échéant) pour obtenir un aperçu des fonctionnalités à venir.
 * Contactez votre représentant Adobe pour obtenir des informations sur l’accès ou les droits de Beta ou de disponibilité limitée.
 
+Vous pouvez vous abonner à des **e-mails et alertes sur les produits** pour les mises à jour de produits Journey Optimizer. Pour vous abonner :
+
+1. Accédez aux **préférences d’Adobe Experience Cloud**.
+1. Sous **Notifications**, recherchez **Journey Optimizer**
+1. Activer les **nouvelles versions** notifications in-app et par e-mail
+
+![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## Questions fréquentes {#faq}
 
