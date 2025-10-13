@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -155,13 +155,13 @@ Vous pouvez créer des mesures calculées personnalisées directement dans vos r
 
 La mesure que vous venez de créer sera incluse lorsque vous exportez le rapport au format PDF ou CSV. Cependant, elle sera supprimée du rapport une fois que vous l’aurez quitté.
 
-## Explorer les données à l’aide de l’analyse exploratoire {#exploratory}
+## Explorer des données à l’aide du créateur Insight {#exploratory}
 
-Utilisez l’outil d’analyse exploratoire pour créer facilement des tableaux et des visualisations à partir des **[!UICONTROL dimensions]** et **[!UICONTROL mesures]** sélectionnées. Cet outil simplifie l’exploration des données, ce qui vous permet de personnaliser et d’analyser automatiquement et facilement les informations. Apprenez-en davantage en consultant [cette documentation](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Utilisez l’outil Insight Builder pour créer facilement des tableaux et des visualisations à partir des **[!UICONTROL dimensions]** et **[!UICONTROL mesures]** que vous avez sélectionnés. Cet outil simplifie l’exploration des données, ce qui vous permet de personnaliser et d’analyser automatiquement et facilement les informations. Apprenez-en davantage en consultant [cette documentation](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
-1. Commencez par accéder au rapport dans lequel vous souhaitez utiliser l’ analyse exploratoire.
+1. Commencez par accéder au rapport dans lequel vous souhaitez utiliser le créateur Insight.
 
-1. Sélectionnez le menu Analyse exploratoire dans le menu du rail de gauche.
+1. Sélectionnez le menu du créateur d’Insight dans le menu du rail de gauche.
 
    ![](assets/exploratory_analysis_1.png)
 
