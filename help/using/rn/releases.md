@@ -6,9 +6,9 @@ feature: Release Notes
 description: Présentation du cycle de publication de Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
+source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Dans le cadre de ce modèle :
 >
 > À la fin de chaque trimestre, les versions peuvent être anticipées et déployées jusqu’à deux semaines avant la fin du mois afin de s’aligner sur les calendriers trimestriels ou les versions de produits dépendantes.
 
-Bien que la version mensuelle introduise l’ensemble principal des nouvelles fonctionnalités et des correctifs, l’approche de diffusion continue permet de déployer des mises à jour supplémentaires entre les cycles lorsqu’elles sont prêtes. Les notes de mise à jour et la documentation associée sont ensuite mises à jour en conséquence.
+Bien que la version mensuelle introduise l’ensemble principal des nouvelles fonctionnalités et des correctifs, l’approche de diffusion continue permet de déployer des mises à jour supplémentaires entre les cycles lorsqu’elles sont prêtes. Les notes de mise à jour et la documentation associée sont ensuite mises à jour en conséquence et la date de disponibilité est mentionnée. Toutes les modifications publiées au cours du mois sont consolidées dans les notes de mise à jour mensuelles à la date de publication.
 
 
 ## Chemins de version {#release-paths}
