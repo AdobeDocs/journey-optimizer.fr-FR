@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 57%
 
 ---
 
@@ -106,12 +106,12 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
 
 >[!NOTE]
 >
->Pour en savoir plus sur les audiences et le service de segmentation, consultez cette [section](../../audience/about-audiences.md).
+>Pour en savoir plus sur les audiences et le service de segmentation, consultez [cette section](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}
 
-L&#39;helper `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l&#39;helper `if`, si l&#39;évaluation de l&#39;expression renvoie false, le bloc est rendu.
+L&#39;helper `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l&#39;assistant `if` , si l&#39;évaluation de l&#39;expression renvoie false, le bloc est rendu.
 
 **Syntaxe**
 
@@ -211,3 +211,78 @@ L&#39;exemple suivant permet de calculer la somme totale des prix des produits d
     {{/each}}
 {{sum}}
 ```
+
+## Métadonnées d’exécution {#execution-metadata}
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+
+L’assistant `executionMetadata` permet de capturer et de stocker dynamiquement des paires clé-valeur personnalisées dans le contexte d’exécution du message.
+
+**Syntaxe**
+
+```
+{{executionMetadata key="your_key" value="your_value"}}
+```
+
+Dans cette syntaxe, `key` fait référence au nom des métadonnées et `value` correspond aux métadonnées à conserver.
+
+**Cas d’utilisation**
+
+Cette fonction vous permet d’ajouter des informations contextuelles à toute action native de vos campagnes ou parcours. Vous pouvez ainsi exporter des données contextuelles de diffusion en temps réel vers des systèmes externes à diverses fins telles que le tracking, l’analyse, la personnalisation et le traitement en aval.
+
+>[!NOTE]
+>
+>La fonction Métadonnées d’exécution n’est pas prise en charge par les [actions personnalisées](../../action/action.md).
+
+Par exemple, vous pouvez utiliser l’assistant Métadonnées d’exécution pour ajouter un identifiant spécifique à chaque diffusion envoyée à chaque profil. Ces informations sont générées lors de l’exécution, puis les métadonnées d’exécution enrichies peuvent être exportées pour la réconciliation en aval avec une plateforme de création de rapports externe.
+
+**Fonctionnement**
+
+Sélectionnez n’importe quel élément du contenu de votre canal dans une campagne ou un parcours et, à l’aide de l’éditeur de personnalisation, ajoutez l’assistant `executionMetadata` à cet élément.
+
+>[!NOTE]
+>
+>La fonction Métadonnées d’exécution n’est pas visible lorsque le contenu lui-même est affiché.
+
+
+Lors de l’exécution, la valeur des métadonnées est ajoutée au **[!UICONTROL jeu de données d’événement de retour de message]** existant avec le schéma suivant :
+
+```
+"_experience": {
+  "customerJourneyManagement": {
+    "messageExecution": {
+      "metadata": {
+        "your_key": "your_value"
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>En savoir plus sur les jeux de données dans [cette section](../../data/get-started-datasets.md).
+
+**Limitation**
+
+La limite supérieure est de 2 Ko sur les paires clé-valeur par action.
+
+Si la limite de 2 Ko est dépassée, le message est toujours diffusé, mais toutes les paires clé-valeur peuvent être tronquées.
+
+**Exemple**
+
+```
+{{executionMetadata key="firstName" value=profile.person.name.firstName}}
+```
+
+Dans cet exemple, en supposant que `profile.person.name.firstName` = « Alex », l’entité résultante est :
+
+```
+{
+  "key": "firstName",
+  "value": "Alex"
+}
+```
+

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '2399'
-ht-degree: 100%
+source-wordcount: '2422'
+ht-degree: 99%
 
 ---
 
@@ -438,6 +438,9 @@ Les assistants sont détaillés sur [cette page](helpers.md).
         <td><a href="helpers.md#each">Each</a></td><td>Cette fonction est utilisée pour effectuer une itération sur un tableau</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#execution-metadata">Métadonnées d’exécution</a></td><td>Cet helper capture les métadonnées clé-valeur personnalisées pendant le rendu du message afin qu’elles puissent être stockées dans l’objet de métadonnées d’exécution</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#if-function">Si</a></td><td>Cette fonction est utilisée pour définir un bloc conditionnel. Si l'évaluation de l'expression renvoie 'true', le bloc est rendu.</td>
     </tr>
     <tr>
@@ -516,4 +519,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
