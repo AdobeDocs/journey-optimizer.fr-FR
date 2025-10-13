@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 3d4b4fce529db70c53daea3d15d4af9a14b57424
+source-git-commit: 89955157e37f3312ccc8d033a26f5a8664aebfe1
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 96%
@@ -22,12 +22,13 @@ ht-degree: 96%
 >title="Créer un message texte"
 >abstract="Pour créer un message texte (SMS/MMS/RCS), ajoutez une action SMS dans un parcours ou une campagne et commencez la personnalisation à l’aide de l’éditeur de personnalisation."
 
+>[!AVAILABILITY]
+>
+>RCS Upscale n’est pas un service conforme à la loi HIPAA et ne doit pas être utilisé pour collecter, stocker ou traiter des données personnelles sensibles, y compris des données de santé autorisées, par exemple des informations personnelles sur la santé ou des informations d’identification personnelles, que votre organisation pourrait autrement être autorisée à traiter dans Journey Optimizer.
+
 Vous pouvez concevoir et envoyer des messages texte (SMS), riches (RCS) et multimédia (MMS) avec Adobe Journey Optimizer. Vous devez d’abord ajouter une action SMS dans un parcours ou une campagne, puis définir le contenu du message texte, comme décrit ci-dessous. Adobe Journey Optimizer propose également des fonctionnalités permettant de tester vos messages texte avant l’envoi, afin que vous puissiez vérifier le rendu, les attributs de personnalisation et tous les autres paramètres.
 
->[!NOTE]
->
->Conformément aux normes et réglementations du secteur, tous les messages SMS/MMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. [Découvrir comment gérer un droit d’opposition](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
+Conformément aux normes et réglementations du secteur, tous les messages SMS/MMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. [Découvrir comment gérer un droit d’opposition](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 ## Ajouter un message texte {#create-sms-journey-campaign}
 
@@ -96,10 +97,6 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message texte 
 >id="ajo_message_sms_content"
 >title="Définir le contenu de votre SMS"
 >abstract="Personnalisez vos messages texte (SMS/MMS/RCS) à l’aide de l’éditeur de personnalisation pour définir le contenu et incorporer des éléments dynamiques."
-
->[!AVAILABILITY]
->
->RCS Upscale n’est pas un service conforme à la loi HIPAA et ne doit pas être utilisé pour collecter, stocker ou traiter des données personnelles sensibles, y compris des données de santé autorisées, par exemple des informations personnelles sur la santé ou des informations d’identification personnelles, que votre organisation pourrait autrement être autorisée à traiter dans Journey Optimizer.
 
 Pour configurer le contenu de votre message, suivez les étapes ci-après. Les paramètres des MMS sont décrits dans [cette section](#mms-content).
 
