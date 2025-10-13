@@ -3,18 +3,20 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Notes de mise à jour précédentes
 description: Notes de mise à jour précédentes
+hide: true
+hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 100%
+ht-degree: 64%
 
 ---
 
 # Notes de mise à jour précédentes{#section-overview}
 
-Les notes de mise à jour d’Adobe Journey Optimizer fournissent une synthèse mensuelle des dernières fonctionnalités, mises à jour et améliorations conçues pour ptimiser vos parcours clients. Que vous souhaitiez personnaliser les expériences à l’aide d’outils de prise de décision, rationaliser la création de messages avec des options multilingues ou tester les campagnes avec un test à blanc des parcours, ces mises à jour sont personnalisées pour vous permettre d’interagir avec la clientèle plus efficacement. Chaque section se concentre sur des avancées spécifiques, telles que les messages RCS, la gestion de contenu ou les outils pilotés par l’IA, afin que vous puissiez facilement identifier ce qui est le plus pertinent pour vos objectifs. Découvrez de nouvelles façons d’optimiser et d’innover vos stratégies marketing.
+Les notes de mise à jour d’Adobe Journey Optimizer fournissent une synthèse mensuelle des dernières fonctionnalités, mises à jour et améliorations conçues pour ptimiser vos parcours clients. Que vous souhaitiez personnaliser des expériences avec des outils de prise de décision, rationaliser la création de messages à l’aide d’options multilingues ou tester des campagnes avec une simulation parcours, ces mises à jour sont personnalisées pour vous aider à impliquer les clients plus efficacement. Chaque section se concentre sur des avancées spécifiques, telles que la messagerie RCS, la gestion de contenu ou les outils pilotés par l’IA, afin que vous puissiez facilement identifier ce qui est le plus pertinent pour vos objectifs. Découvrez de nouvelles façons d’optimiser et d’innover vos stratégies marketing.
 
 ## Notes de mise à jour précédentes
 
