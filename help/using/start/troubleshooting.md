@@ -7,10 +7,10 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: f46cc01dce5ab0a30c1f0907b2a4684802b216be
 workflow-type: tm+mt
-source-wordcount: '2674'
-ht-degree: 100%
+source-wordcount: '2746'
+ht-degree: 97%
 
 ---
 
@@ -201,7 +201,7 @@ Cette incohérence peut se produire lorsque le parcours utilise l’instantané 
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
-Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=fr){target="_blank"}.
+Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Consultez également la [documentation de l’API Schedules d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/api/schedules?lang=fr){target="_blank"} pour savoir quand votre tâche quotidienne est planifiée.
 
@@ -258,7 +258,6 @@ Pour les parcours, reportez-vous aux sections de résolution des problèmes suiv
 * [Résoudre les problèmes liés aux actions entrantes dans les parcours](../building-journeys/troubleshooting-inbound.md)
 * [Résoudre les problèmes d’exécution de votre parcours actif](../building-journeys/troubleshooting-execution.md)
 * [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md)
-
 
 
 +++ Pourquoi les expressions disparaissent-elles lors de la création d’une version de parcours ?  
@@ -325,6 +324,14 @@ Reportez-vous à [cet article de dépannage](https://experienceleague.adobe.com/
 Pour en savoir plus sur l’API Journey Throttling, consultez [cette page](../configuration/throttling.md).
 
 Consultez également la [documentation sur l’intégration à des systèmes externes](../configuration/external-systems.md).
+
++++
+
++++ Quelles mesures devez-vous prendre si vous rencontrez une erreur 403 avec le message **invalid_access** ou **No access to this dataId=XX granted** accordé lors de la publication d’une audience à partir d’une flèche ?
+
+Pour résoudre cette erreur, demandez à votre administrateur de vérifier que votre profil utilisateur a accès aux vues de données requises pour la publication d’audience, puis essayez de republier l’audience.
+
+Consultez la [documentation sur les autorisations](../administration/permissions.md){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
 +++
 
