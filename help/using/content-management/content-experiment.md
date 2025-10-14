@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
-workflow-type: ht
-source-wordcount: '1846'
+source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+workflow-type: tm+mt
+source-wordcount: '1843'
 ht-degree: 100%
 
 ---
@@ -264,9 +264,9 @@ Pour activer la mise à l’échelle automatique dans vos expériences :
    * Dès qu’un gagnant est identifié.
    * Après que l’expérience est active depuis une durée donnée.
 
-Le moment de la mise à l’échelle doit obligatoirement être planifié avant la date de fin de l’expérience. Si une date postérieure est définie, un message d’avertissement s’affichera et la campagne ou le parcours ne pourra pas être publié.
+   Le moment de la mise à l’échelle doit obligatoirement être planifié avant la date de fin de l’expérience. Si une date postérieure est définie, un message d’avertissement s’affichera et la campagne ou le parcours ne pourra pas être publié.
 
-    ![](assets/scale-winner-2.png)
+   ![](assets/scale-winner-2.png)
 
 1. Définissez le comportement de secours si aucun gagnant n’est identifié au moment de la mise à l’échelle :
 
