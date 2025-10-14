@@ -6,11 +6,12 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
-exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
+hidefromtoc: true
+hide: true
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 99%
+source-wordcount: '1890'
+ht-degree: 97%
 
 ---
 
@@ -132,8 +133,7 @@ Le SDK mobile Adobe Experience Platform fournit des API d&#39;intégration cô
 
 À la fin de cette lecture, vous aurez également créé et configuré une propriété mobile dans [!DNL Adobe Experience Platform Data Collection]. En règle générale, vous créez une propriété mobile pour chaque application mobile que vous souhaitez gérer. Découvrez comment créer et configurer une propriété mobile dans la [documentation du SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
-<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
--->
+Pour activer les **notifications push web**, assurez-vous que la propriété [pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) est correctement configurée dans le SDK web. Ensuite, utilisez [la commande sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) pour enregistrer les abonnements push avec Adobe Experience Platform.
 
 ## Étape 1 : ajout des informations d’identification push dans Journey Optimizer {#push-credentials-launch}
 
@@ -175,15 +175,13 @@ L&#39;enregistrement des informations d&#39;identification push de l&#39;applica
 
       1. Effectuez un glisser-déposer des informations d’identification push FCM. Pour plus d&#39;informations sur l&#39;obtention des informations d&#39;identification push, voir la [Documentation Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-<!--
-    * **For Web**
+   * **Pour le Web**
 
-        ![](assets/add-app-config-web.png)
+     ![](assets/add-app-config-web.png)
 
-        1. Provide the **[!UICONTROL App ID]**.
+      1. Fournissez l’identifiant de l’application **[!UICONTROL App ID]**.
 
-        1. Enter your **[!UICONTROL VAPID public key]** and **[!UICONTROL private key]**.
--->
+      1. Saisissez votre **[!UICONTROL clé publique valide]** et **[!UICONTROL clé privée]**.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** pour créer votre configuration d’application.
 
@@ -228,7 +226,7 @@ Une fois vos informations d’identification push créées, vous devez créer un
 
 1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurs pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
-1. Choisissez votre **[!UICONTROL Plateforme]** : Android et/ou iOS <!--and/or Web-->.
+1. Choisissez votre **[!UICONTROL Plateforme]** : Android, iOS et/ou Web.
 
 1. Sélectionnez le même **[!UICONTROL ID d’application]** que pour vos [informations d’identification push](#push-credentials-launch) configurées ci-dessus.
 
