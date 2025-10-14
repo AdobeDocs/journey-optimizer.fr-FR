@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 25b4c66ac907780a587b6e599cb8965e0bb1626f
+source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '626'
+ht-degree: 73%
 
 ---
 
@@ -37,9 +37,9 @@ Le graphique **[!UICONTROL Tendance des impressions et des clics]** présente un
 
 +++ En savoir plus sur les mesures de tendance des impressions et des clics
 
-* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos messages in-app.
+* **[!UICONTROL Clics]** : nombre de fois où l’utilisateur a interagi avec les messages in-app.
 
-* **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
+* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché pour l’utilisateur ou l’utilisatrice.
 
 +++
 
@@ -53,7 +53,7 @@ Le graphe **[!UICONTROL Clics]** affiche les mesures des clics in-app, qui illus
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 
-* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos messages in-app.
+* **[!UICONTROL Clics]** : nombre de fois où l’utilisateur a interagi avec les messages in-app.
 
 +++
 
@@ -65,7 +65,7 @@ Le graphique **[!UICONTROL Affichages]** vous permet de comprendre à la fois la
 
 +++ En savoir plus sur les mesures d’affichage
 
-* **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
+* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché pour l’utilisateur ou l’utilisatrice.
 
 * **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
 
@@ -85,17 +85,17 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 * **[!UICONTROL Taux d’ouverture des clics (CTOR)]** : nombre d’ouvertures des messages in-app.
 
-* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos messages in-app.
+* **[!UICONTROL Clics]** : nombre de fois où l’utilisateur a interagi avec les messages in-app.
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 
-* **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
+* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché pour l’utilisateur ou l’utilisatrice.
 
 * **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
 
-* **[!UICONTROL Envois]** : nombre total de messages in-app envoyés.
+* **[!UICONTROL Envois]** : nombre de fois où l’application a demandé la campagne in-app. Plusieurs requêtes par session utilisateur (par exemple, au lancement ou au rechargement) peuvent entraîner le dépassement du nombre d’utilisateurs uniques si les données de la campagne ne sont pas mises en cache.
 
-* **[!UICONTROL Entrants déclenchés]** : nombre de fois qu’un message in-app a été déclenché par une interaction d’un utilisateur ou d’une utilisatrice ou un événement prédéfini.
+* **[!UICONTROL Entrant déclenché]** : nombre de fois où l’application a considéré l’affichage du message in-app. Ce nombre peut être inférieur au nombre total d’envois si des règles côté application ont empêché l’affichage du message.
 
 * **[!UICONTROL Entrants ignorés]** : nombre de fois où les utilisateurs et utilisatrices ont ignoré le message in-app sans interagir avec celui-ci.
 
@@ -112,9 +112,9 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 
-* **[!UICONTROL Clics]** : nombre de fois qu’un contenu a fait l’objet d’un clic dans vos messages in-app.
+* **[!UICONTROL Clics]** : nombre de fois où l’utilisateur a interagi avec les messages in-app.
 
-* **[!UICONTROL Affichages]** : nombre dʼouvertures du message.
+* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché pour l’utilisateur ou l’utilisatrice.
 
 * **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
 
@@ -130,6 +130,6 @@ Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble 
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 
-* **[!UICONTROL Clics]** : nombre de fois qu’un contenu a fait l’objet d’un clic dans vos messages in-app.
+* **[!UICONTROL Clics]** : nombre de fois où l’utilisateur a interagi avec les messages in-app.
 
 +++
