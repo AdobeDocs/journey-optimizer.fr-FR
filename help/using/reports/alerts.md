@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
-workflow-type: ht
-source-wordcount: '1313'
-ht-degree: 100%
+source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+workflow-type: tm+mt
+source-wordcount: '1650'
+ht-degree: 80%
 
 ---
 
@@ -41,9 +41,9 @@ Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous
 
    * Alerte [Échec de l’action personnalisée de parcours](#alert-custom-actions)
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
-<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
-   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
-   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
+   * l’alerte [Taux de rejet du profil dépassé](#alert-discard-rate)
+   * l’alerte [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate)
+   * l’alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
 
 * Alertes spécifiques à la configuration des canaux :
 
@@ -55,7 +55,7 @@ Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous
 
 Si un comportement inattendu se produit, et/ou qu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système dépasse un certain seuil), des notifications d’alerte sont envoyées à l’ensemble des personnes de votre organisation qui s’y sont abonnées.
 
-Vous pouvez vous abonner à chaque alerte individuellement à partir de l’interface d’utilisation, ou globalement à partir du menu **[!UICONTROL Alertes]** (voir [Abonnement global](#global-subscription))<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
+Vous pouvez vous abonner à chaque alerte individuellement à partir de l’interface utilisateur, soit globalement à partir du menu **[!UICONTROL Alertes]** (voir [Abonnement global](#global-subscription)), soit unitairement pour un parcours spécifique (voir [Abonnement unitaire](#unitary-subscription)).
 
 En fonction des préférences des personnes abonnées, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface d’utilisation (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les **[!UICONTROL Préférences]** [!DNL Adobe Experience Cloud]. [En savoir plus](../start/user-interface.md#in-product-alerts)
 
@@ -78,23 +78,21 @@ Pour vous abonner ou vous désabonner d’une alerte pour tous les parcours et c
 
 Vous pouvez également vous abonner par le biais des [notifications d’événements d’E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés [ci-dessous](#journey-alerts).
 
-<!--DOCAC-13465
-### Unitary subscription {#unitary-subscription}
+### Abonnement unitaire {#unitary-subscription}
 
-To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
+Pour vous abonner/désabonner à une alerte pour un parcours spécifique, procédez comme suit :
 
-1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
+1. Accédez à l’inventaire des parcours et sélectionnez l’option **[!UICONTROL S’abonner aux alertes]** pour un parcours spécifique.
 
-      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
+   ![Abonnement à une alerte concernant un parcours spécifique](assets/subscribe-journey-alert.png){width=80%}
 
-1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
-   
-1. To unsubscribe to an alert, unselect it from the same screen.
+1. Choisissez la ou les alertes. Les alertes suivantes sont disponibles : [Taux de rejet du profil dépassé](#alert-discard-rate), [Taux d’erreur de l’action personnalisée dépassé](#alert-custom-action-error-rate) et [Taux d’erreur du profil dépassé](#alert-profile-error-rate).
 
-1. Click **[!UICONTROL Save]** to confirm.
--->
+1. Pour vous désabonner d’une alerte, désélectionnez-la dans le même écran.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -154,25 +152,22 @@ Pour résoudre les alertes **Lecture d’audience**, vérifiez la taille de l’
 
 ![](assets/alert-troubleshooting-1.png)
 
-<!--DOCAC-13465
+### Taux de rejet de profil dépassé {#alert-discard-rate}
 
-### Profile Discard Rate Exceeded {#alert-discard-rate}
+Cette alerte vous avertit si le ratio des abandons de profil par rapport aux profils entrés au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
-This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
-
-Click the name of the alert to check the alert details and configuration.
+Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
 
-### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+### Taux d’erreurs des actions personnalisées dépassé {#alert-custom-action-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+Cette alerte vous avertit si le taux d’erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
-### Profile Error Rate Exceeded {#alert-profile-error-rate}
+### Taux d’erreurs de profil dépassé {#alert-profile-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+Cette alerte vous avertit si le taux d’erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
-Click the name of the alert to check the alert details and configuration.
--->
+Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
 ## Alertes de configuration {#configuration-alerts}
 
@@ -254,29 +249,26 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### Modifier une alerte
 
 Vous pouvez vérifier les détails d’une alerte en cliquant sur sa ligne. Le nom, le statut et les canaux de notification s’affichent dans le panneau de gauche.
-<!--DOCAC-13465
-For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+Pour les alertes de Parcours, utilisez le bouton **[!UICONTROL Autres actions]** pour les modifier. Vous pouvez ensuite définir un [seuil personnalisé](#custom-threshold) pour ces alertes.
 
 ![](assets/alert-more-actions.png){width=60%}
 
-<!--DOCAC-13465
-#### Define a custom threshold {#custom-threshold}
+#### Définir un seuil personnalisé {#custom-threshold}
 
-You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+Vous pouvez définir des seuils pour les [alertes de Parcours ](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
 
-To change the threshold:
+Pour modifier le seuil :
 
-1. Browse to the **Alerts** screen
-1. Click the **[!UICONTROL More actions]** button of the alert to update
-1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
+1. Accédez à l’écran **Alertes**
+1. Cliquez sur le bouton **[!UICONTROL Autres actions]** de l’alerte à mettre à jour
+1. Saisissez le nouveau seuil et confirmez. Le nouveau seuil s’applique à **tous** parcours
 
 
 ![](assets/alert-threshold.png){width=60%}
 
 >[!CAUTION]
 >
->The threshold levels are global across all journeys and cannot be individually modified per journey.
--->
+>Les niveaux de seuil sont globaux pour tous les parcours et ne peuvent pas être modifiés individuellement par parcours.
 
 ### Désactiver une alerte
 
