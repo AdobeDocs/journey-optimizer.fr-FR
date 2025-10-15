@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
+source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
 workflow-type: tm+mt
-source-wordcount: '1865'
-ht-degree: 68%
+source-wordcount: '1893'
+ht-degree: 65%
 
 ---
 
@@ -38,7 +38,7 @@ Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UI
    * Alerte [Échec de l’action personnalisée de parcours](#alert-custom-actions)
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
    * l’alerte [Taux de rejet du profil dépassé](#alert-discard-rate)
-   * l’alerte [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate)
+   * l’alerte [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate)
    * l’alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
 
 * Alertes spécifiques à la configuration des canaux :
@@ -80,7 +80,7 @@ Pour vous abonner/désabonner à une alerte pour un parcours spécifique, procé
 
 1. Accédez à l’inventaire des parcours et sélectionnez l’option **[!UICONTROL S’abonner aux alertes]** pour un parcours spécifique.
 
-   ![Abonnement à une alerte concernant un parcours spécifique](assets/subscribe-journey-alert.png){width=80%}
+   ![Abonnement à une alerte concernant un parcours spécifique](assets/subscribe-journey-alert.png){width=75%}
 
 1. Choisissez la ou les alertes. Les alertes suivantes sont disponibles : [Taux de rejet du profil dépassé](#alert-discard-rate), [Taux d’erreur de l’action personnalisée dépassé](#alert-custom-action-error-rate) et [Taux d’erreur du profil dépassé](#alert-profile-error-rate).
 
@@ -88,13 +88,30 @@ Pour vous abonner/désabonner à une alerte pour un parcours spécifique, procé
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
+
+
+Toutes les notifications de parcours disponibles dans l’interface utilisateur sont répertoriées ci-dessous.
 
 >[!CAUTION]
 >
 >Les alertes spécifiques à Adobe Journey Optimizer s’appliquent uniquement aux parcours **dynamiques**. Les alertes ne seront pas déclenchées pour les parcours en mode test.
+
+### Échec du déclenchement de la lecture d’audience {#alert-read-audiences}
+
+Cette alerte vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide. Si cet échec est dû à des problèmes techniques, sachez que des reprises peuvent toujours se produire, selon le type de problème (par exemple : si la création du traitement d’export a échoué, nous allons réessayer toutes les 10 minutes pendant 1 h au maximum).
+
+![](assets/read-audience-alert.png)
+
+Les alertes sur l’activité **Lecture d’audience** ne s’appliquent qu’aux parcours récurrents. Les activités **Lecture d’audience** dans des parcours dynamiques dont l’exécution est planifiée **Une fois** ou **Dès que possible** sont ignorées.
+
+Les alertes sur **Lecture d’audience** sont résolues lorsqu’un profil entre dans le nœud **Lecture d’audience**.
+
+Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte **Échec du déclenchement de la lecture d’audience** est **Retards, échecs et erreurs dans la lecture d’audience du parcours**.
+
+Pour résoudre les alertes **Lecture d’audience**, vérifiez la taille de l’audience dans l’interface d’Experience Platform.
 
 
 ### Échec de l’action personnalisée du parcours {#alert-custom-actions}
@@ -103,7 +120,8 @@ Cette alerte vous avertit si une action personnalisée échoue. Nous considéron
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
-![](assets/alerts-custom-action.png)
+<!--
+![](assets/alerts-custom-action.png)-->
 
 Les alertes relatives aux actions personnalisées sont résolues lorsque, au cours des 5 dernières minutes :
 
@@ -115,41 +133,21 @@ Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte d�
 
 Pour résoudre les alertes **Action personnalisée** :
 
-* Vérifiez votre action personnalisée à l’aide du mode test sur un autre parcours :
+* Vérifiez votre action personnalisée à l’aide du [mode test](../building-journeys/testing-the-journey.md) sur un autre parcours.
 
-  ![](assets/alert-troubleshooting-2.png)
-
-* Consultez le rapport de votre parcours pour afficher les motifs d’erreur lors de l’action.
-
-  ![](assets/alert-troubleshooting-3.png)
+* Vérifiez votre rapport de parcours [](../reports/journey-live-report.md) pour voir les raisons de l&#39;erreur sur l&#39;action.
 
 * Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur « failureReason ».
 
-* Vérifiez votre configuration d’action personnalisée et que l’authentification est toujours correcte. Effectuez un contrôle manuel avec Postman, par exemple.
-
-### Échec du déclenchement de la lecture d’audience {#alert-read-audiences}
-
-Cette alerte vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide. Si cet échec est dû à des problèmes techniques, sachez que des reprises peuvent toujours se produire, selon le type de problème (par exemple : si la création du traitement d’export a échoué, nous allons réessayer toutes les 10 minutes pendant 1 h au maximum).
-
-![](assets/alerts1.png)
-
-Les alertes sur l’activité **Lecture d’audience** ne s’appliquent qu’aux parcours récurrents. Les activités **Lecture d’audience** dans des parcours dynamiques dont l’exécution est planifiée **Une fois** ou **Dès que possible** sont ignorées.
-
-Les alertes sur **Lecture d’audience** sont résolues lorsqu’un profil entre dans le nœud **Lecture d’audience**.
-
-Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte **Échec du déclenchement de la lecture d’audience** est **Retards, échecs et erreurs dans la lecture d’audience du parcours**.
-
-Pour résoudre les alertes **Lecture d’audience**, vérifiez la taille de l’audience dans l’interface d’Experience Platform.
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
+* Vérifiez la configuration de votre action personnalisée et que l’authentification est toujours valide. Effectuez un contrôle manuel avec Postman, par exemple.
 
 ### Taux de rejet de profil dépassé {#alert-discard-rate}
 
 Cette alerte vous avertit si le ratio des abandons de profil par rapport aux profils entrés au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
+
+![](assets/profile-discard-alert.png)
 
 Il existe plusieurs raisons pour lesquelles un profil peut être ignoré, ce qui éclairera la méthode de dépannage. Voici quelques raisons courantes :
 
@@ -162,7 +160,7 @@ Il existe plusieurs raisons pour lesquelles un profil peut être ignoré, ce qui
 
 Cette alerte vous avertit si le taux d’erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
-Les erreurs d’actions personnalisées peuvent se produire pour diverses raisons. Vous pouvez effectuer les actions suivantes :
+Les erreurs d’actions personnalisées peuvent se produire pour diverses raisons. Pour résoudre ces erreurs, vous pouvez :
 
 * Vérifiez que l’action personnalisée est correctement configurée.
 * Vérifiez que le point d’entrée est accessible et que l’action personnalisée peut y accéder via le vérificateur de connectivité de l’action personnalisée
@@ -174,9 +172,11 @@ Cette alerte vous avertit si le taux d’erreurs d’action personnalisée par r
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
-Pour éviter cela, vous pouvez interroger les données des événements d’étape pour comprendre où et pourquoi le profil a échoué dans le parcours.
+Pour résoudre les problèmes liés aux erreurs de profil, vous pouvez interroger les données des événements d’étape afin de déterminer où et pourquoi le profil a échoué dans le parcours.
 
 ## Alertes de configuration {#configuration-alerts}
+
+Les alertes de surveillance de la configuration des canaux disponibles dans l’interface utilisateur sont répertoriées ci-dessous.
 
 ### Enregistrement DNS du domaine AJO manquant {#alert-dns-record-missing}
 
@@ -262,7 +262,7 @@ Pour les alertes de Parcours, utilisez le bouton **[!UICONTROL Autres actions]**
 
 #### Définir un seuil personnalisé {#custom-threshold}
 
-Vous pouvez définir des seuils pour les [alertes de Parcours &#x200B;](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
+Vous pouvez définir des seuils pour les [alertes de Parcours ](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
 
 Pour modifier le seuil :
 
