@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
+source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
 workflow-type: tm+mt
-source-wordcount: '1836'
-ht-degree: 72%
+source-wordcount: '1865'
+ht-degree: 68%
 
 ---
 
@@ -19,28 +19,26 @@ ht-degree: 72%
 
 Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou les publier.
 
-Dans le menu dédié **[!UICONTROL Alertes]**, vous pouvez également vous abonner aux alertes système [!DNL Adobe Journey Optimizer], comme indiqué sur cette page.
+* Découvrez comment résoudre les problèmes liés à vos parcours sur [cette page](../building-journeys/troubleshooting.md)
 
-## Accéder aux alertes {#access-alerts}
+* Découvrez comment vérifier vos campagnes sur [cette page](../campaigns/review-activate-campaign.md)
 
-En cas d’échec, vous pouvez obtenir des alertes système dans le centre de notification de Journey Optimizer (alertes in-app) et/ou recevoir un e-mail. Pour accéder aux rapports, procédez comme suit.
 
-<!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
+En outre, lorsqu’un certain ensemble de conditions est atteint, des messages d’alerte peuvent être envoyés à tous les utilisateurs de votre organisation qui se sont abonnés à ces messages. Ces alertes sont disponibles à partir du menu dédié **[!UICONTROL Alertes]**. Adobe Experience Platform fournit plusieurs règles d’alerte prédéfinies que vous pouvez activer pour votre organisation. En outre, vous pouvez vous abonner à des alertes système spécifiques à [!DNL Adobe Journey Optimizer], comme indiqué sur cette page.
 
 >[!NOTE]
 >
 >En savoir plus sur les alertes dans Adobe Experience Platform dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
-Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Alertes]**. Plusieurs alertes préconfigurées pour Journey Optimizer sont disponibles.
+Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Alertes]**. Plusieurs alertes préconfigurées pour Journey Optimizer sont disponibles dans l’onglet **Parcourir**.
 
-Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous.
 
 * Alertes spécifiques aux parcours :
 
    * Alerte [Échec de l’action personnalisée de parcours](#alert-custom-actions)
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
    * l’alerte [Taux de rejet du profil dépassé](#alert-discard-rate)
-   * l’alerte [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate)
+   * l’alerte [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate)
    * l’alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
 
 * Alertes spécifiques à la configuration des canaux :
@@ -90,7 +88,7 @@ Pour vous abonner/désabonner à une alerte pour un parcours spécifique, procé
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
@@ -264,7 +262,7 @@ Pour les alertes de Parcours, utilisez le bouton **[!UICONTROL Autres actions]**
 
 #### Définir un seuil personnalisé {#custom-threshold}
 
-Vous pouvez définir des seuils pour les [alertes de Parcours &#x200B;](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
+Vous pouvez définir des seuils pour les [alertes de Parcours ](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
 
 Pour modifier le seuil :
 
