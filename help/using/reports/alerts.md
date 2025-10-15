@@ -40,7 +40,7 @@ Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous
    * Alerte [Échec de l’action personnalisée de parcours](#alert-custom-actions)
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
    * l’alerte [Taux de rejet du profil dépassé](#alert-discard-rate)
-   * l’alerte [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate)
+   * l’alerte [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate)
    * l’alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
 
 * Alertes spécifiques à la configuration des canaux :
@@ -264,7 +264,7 @@ Pour les alertes de Parcours, utilisez le bouton **[!UICONTROL Autres actions]**
 
 #### Définir un seuil personnalisé {#custom-threshold}
 
-Vous pouvez définir des seuils pour les [alertes de Parcours ](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
+Vous pouvez définir des seuils pour les [alertes de Parcours &#x200B;](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
 
 Pour modifier le seuil :
 
