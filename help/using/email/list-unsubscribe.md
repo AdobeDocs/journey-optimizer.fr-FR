@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
+source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1693'
 ht-degree: 85%
 
 ---
@@ -179,6 +179,12 @@ Réponse de consentement :
     "optOutLevel": "channel",
     "channelType": "email",
     "timestamp": "2024-11-26T14:25:09.316930Z"
+    "utm": [
+         {
+            "utm_source": "AJO",
+            "utm_medium": "Email"
+        }
+    ]
 }
 ```
 
@@ -253,7 +259,7 @@ Paramètres de requête :
 
    * Valeur analysée : *v1.xyz*
 
-Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
@@ -266,5 +272,26 @@ Exigences d’en-tête :
 * x-api-key
 * x-gw-ims-org-id
 * autorisation (jeton utilisateur de votre compte technique)
+
+Réponse de consentement :
+
+```
+{
+    "profileNameSpace": " CRMID ",
+    "profileId": "5142733041546020095851529937068211571",
+    "emailAddress": "john@google.com",
+    "emailNameSpace": "Email",
+    "sandboxId": "sandboxId",
+    "optOutLevel": "channel",
+    "channelType": "email",
+    "timestamp": "2024-11-26T14:25:09.316930Z"
+    "utm": [
+        {
+            "utm_source": "AJO",
+            "utm_medium": "Email"
+        }
+    ]
+}
+```
 
 +++
