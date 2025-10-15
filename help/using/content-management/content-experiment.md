@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 100%
+source-wordcount: '1855'
+ht-degree: 99%
 
 ---
 
@@ -67,6 +67,10 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="Mesure de succès"
 >abstract="La mesure de succès permet de suivre et d’évaluer le traitement le plus performant dans une expérience. Veillez à configurer votre jeu de données pour certaines mesures avant de l’utiliser."
+
+>[!AVAILABILITY]
+>
+>Le publipostage direct prend en charge la fonctionnalité d’exclusion, mais ne prend actuellement pas en charge les traitements.
 
 Pour votre expérience de contenu, vous pouvez choisir entre trois types d’expérience :
 
