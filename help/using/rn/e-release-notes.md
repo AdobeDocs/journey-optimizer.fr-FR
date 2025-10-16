@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
+source-git-commit: c2b990a413762dccc71e4152cbb145a51a5d073e
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 41%
+source-wordcount: '1142'
+ht-degree: 42%
 
 ---
 
@@ -89,23 +89,23 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Canal Courrier dans parcours</strong><br/></th>
+<th><strong>Direct Mail channel in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Auparavant limité aux campagnes, le canal Publipostage direct est désormais disponible sur la zone de travail du parcours, ce qui vous permet d’incorporer le publipostage direct dans vos parcours. Le publipostage direct peut désormais être utilisé dans les scénarios de lot et de parcours 1:1, avec la prise en charge de la configuration de l’extraction de fichiers et des paramètres de fréquence basés sur le temps.</p>
-<p> Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<p>Previously limited to Campaigns, Direct Mail channel is now available on the journey canvas, enabling you to incorporate Direct Mail into your journeys. Direct Mail can now be used in both batch and 1:1 journey scenarios, with support for file extraction configuration and time-based frequency settings.</p>
+<p> Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
+<!--/td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -224,7 +224,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <td>
 <p>Optimisé par <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’agent d’expérimentation est disponible dans Journey Optimizer. </p>
 <p>L’agent d’expérimentation est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences numériques sur des sites web, des e-mails, des messages push et des applications. Cela vous permet d’exécuter des expériences plus efficacement, d’organiser les objectifs commerciaux et de générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 10 octobre 2025</p>
 </td>
 </tr>
