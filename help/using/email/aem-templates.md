@@ -11,10 +11,10 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 95%
 
 ---
 
@@ -29,13 +29,13 @@ Adobe Journey Optimizer vous permet de créer des messages personnalisés via 
 
 ## Conditions préalables {#prerequisites}
 
-Avant de commencer à utiliser cette fonctionnalité, assurez-vous de répondre aux exigences suivantes :
+Avant d’utiliser cette fonctionnalité, veillez à respecter les exigences suivantes :
 
 * **Paramètres d’Experience Manager**
 
   Cette fonctionnalité est disponible dans [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=fr){target="_blank"}.
 
-  Dans le cadre du programme Beta, la configuration du service cloud est effectuée par Adobe dans Adobe Experience Manager pour se connecter à Adobe Journey Optimizer.
+  Dans le cadre du programme bêta, la configuration de Cloud Service est effectuée par Adobe dans Adobe Experience Manager pour se connecter à Adobe Journey Optimizer.
 
 * **Autorisations**
 

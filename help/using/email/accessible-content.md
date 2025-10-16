@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1610'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 L’[Acte législatif européen sur l’accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} est une directive visant à renforcer le marché intérieur des produits et services accessibles en éliminant les obstacles dus aux divergences entre les règles nationales des États membres.
 
-Cette directive stipule que toutes les communications numériques, y compris les e-mails, les bulletins d’information, les fichiers PDF et le contenu téléchargeable, doivent être accessibles. Lors de la création de contenu pour vos destinataires, vous devez donc respecter des consignes précises, telles que l’utilisation de polices accessibles, de formats lisibles et d’un texte secondaire pour les images.
+Cette directive stipule que toutes les communications numériques, y compris les e-mails, les bulletins d’information, les fichiers PDF et le contenu téléchargeable, doivent être accessibles. Lors de la création de contenu pour vos destinataires, vous devez donc suivre des instructions spécifiques, telles que l’utilisation de polices accessibles, de formats lisibles et de textes alternatifs pour les images.
 
 Le [!DNL Journey Optimizer] [Concepteur d’e-mail](content-from-scratch.md), qui permet aux spécialistes marketing de créer du contenu pour les **e-mails** et les **pages de destination**, vous permet de respecter facilement cette directive, en se basant sur les règles WCAG 2.1, niveau AA.
 
