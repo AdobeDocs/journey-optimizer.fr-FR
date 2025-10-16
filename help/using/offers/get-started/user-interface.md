@@ -7,16 +7,16 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Interface utilisateur de la bibliothèque des offres {#user-interface}
 
-La section **[!UICONTROL Gestion des décisions]** du rail de gauche propose deux menus permettant d’accéder aux fonctionnalités de gestion des décisions :
+La section **[!UICONTROL Gestion des décisions]** du rail de gauche propose deux menus permettant d’accéder aux fonctionnalités de gestion des décisions :
 
 Utilisez le menu **[!UICONTROL Offres]** pour gérer et diffuser vos offres :
 
@@ -41,7 +41,7 @@ Utilisez le menu **[!UICONTROL Composants]** pour créer et gérer des composant
 
 >[!NOTE]
 >
->Si vous rencontrez des problèmes pour accéder à la gestion des décisions ou à certaines de ses fonctionnalités, vérifiez auprès de l’administration que les droits nécessaires vous ont été accordés. Voir [Octroi de l’accès à la gestion des décisions](starting-offer-decisioning.md#granting-acess-to-decision-management).
+>Si vous rencontrez des problèmes pour accéder à la gestion des décisions ou à certaines de ses fonctionnalités, vérifiez auprès de l’administration que les droits nécessaires vous ont été accordés. Voir [Octroi de l’accès à la gestion des décisions](starting-offer-decisioning.md#granting-access-to-decision-management).
 
 ## Présentation {#overview}
 

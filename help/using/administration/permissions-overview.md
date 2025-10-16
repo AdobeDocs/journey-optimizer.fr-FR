@@ -9,18 +9,18 @@ role: Admin, Architect
 level: Intermediate
 keywords: autorisations, droits, restrictions, accès, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 93%
 
 ---
 
 # Commencer le contrôle d’accès {#permissions-overview}
 
-[!DNL Journey Optimizer] vous permet de définir et de gérer les autorisations attribuées à différents utilisateurs. Les autorisations sont un ensemble de droits et de restrictions qui autorisent ou refusent l&#39;accès aux fonctionnalités du produit.
+[!DNL Journey Optimizer] vous permet de définir et de gérer les autorisations attribuées à différents utilisateurs. Les autorisations sont un ensemble de droits et de restrictions qui autorisent ou refusent l’accès aux fonctionnalités du produit.
 
-Le contrôle d’accès pour [!DNL Journey Optimizer] est assuré via les **Autorisations** dans Adobe Experience Cloud. Cette fonctionnalité utilise les rôles et les politiques, liant les utilisateurs et utilisatrices à des autorisations et des sandbox.
+Le contrôle d’accès pour [!DNL Journey Optimizer] est fourni via **Autorisations** dans Adobe Experience Cloud. Cette fonctionnalité utilise les rôles et les politiques, liant les utilisateurs et utilisatrices à des autorisations et des sandbox.
 
 Pour configurer le contrôle d’accès pour Journey Optimizer, vous devez disposer des droits d’administration système ou produit pour votre organisation. Le rôle minimum qui permet d’accorder ou de retirer des autorisations est un administrateur ou une administratrice de produit. Les autres rôles d’administrateur ou d’administratrice qui peuvent gérer les autorisations sont les administrateurs ou administratrices système (aucune restriction). Pour plus d’informations, consultez l’[article du Centre d’aide Adobe](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html){target="_blank"} consacré aux rôles administratifs.
 

@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
 
-# Prise en main du canal web {#get-sarted-web}
+# Prise en main du canal web {#get-started-web}
 
 [!DNL Journey Optimizer] vous permet de créer et de diffuser visuellement des expériences web personnalisées à vos clients et clientes.
 

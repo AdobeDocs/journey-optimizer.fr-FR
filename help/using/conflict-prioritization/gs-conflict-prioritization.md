@@ -4,10 +4,10 @@ description: Découvrez comment tirer parti des outils de gestion des conflits e
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ En utilisant ces outils, vous pouvez garantir des efforts marketing plus réguli
 
 Grâce à l’**outil de détection des conflits**, vous pouvez identifier les chevauchements potentiels dans les parcours et les campagnes. Cela est essentiel, car trop de communications simultanées peuvent entraîner une fatigue des clientes et des clients. Journey Optimizer vous permet de surveiller les éléments tels que les chronologies, le chevauchement des audiences et les configurations de canaux. En identifiant les conflits de manière précoce, vous pouvez affiner vos campagnes pour éviter de bombarder les clientes et les clients avec de nombreux messages en même temps.
 
-➡️ [Découvrir comment détecter des conflits potentiels dans les parcours et les campagnes](conflicts.md)
+➡️ [Découvrez comment détecter des conflits potentiels dans les parcours et les campagnes](conflicts.md)
 
 ### Scores de priorité
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
       ![](assets/decision_permission_2.png)
 
-   1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez l’utilisateur ou l’utilisatrice dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
+   1. Saisissez le nom ou l’adresse e-mail de l’utilisateur ou sélectionnez-le dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
       Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users).
 

@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
-source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
 
    * Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
 
-   * Activez l’**option d’e-mail Cci** pour conserver une copie des messages envoyés aux individus. [En savoir plus](archiving-support.md#enable-bcc)
+   * Activez l&#39;option **E-mail Cci** pour conserver une copie des messages envoyés aux individus. [En savoir plus](archiving-support.md#enable-bcc)
 
    * Configurez les **règles métier** pour éviter de sur-solliciter vos destinataires. [En savoir plus](../conflict-prioritization/rule-sets.md)
 

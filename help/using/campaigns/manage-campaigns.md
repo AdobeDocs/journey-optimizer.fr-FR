@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 99%
+source-wordcount: '1707'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 >title="Action"
 >abstract="Cette section répertorie toutes les actions utilisées dans la campagne orchestrée."
 
-Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**. Utilisez les onglets pour parcourir les campagnes par type : campagnes **d’action**, campagnes **déclenchées par une API** et campagnes **orchestrées**. En savoir plus sur le [type de campagne](get-started-with-campaigns.md#get-started-with-campaigns). Les types disponibles dépendent de votre contrat de licence et de vos autorisations.
+Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**. Utilisez les onglets pour parcourir les campagnes par type : campagnes **Action**, campagnes **déclenchées par l’API** et campagnes **orchestrées**. En savoir plus sur les [types de campagnes](get-started-with-campaigns.md#get-started-with-campaigns). Les types disponibles dépendent de votre contrat de licence et de vos autorisations.
 
 >[!BEGINTABS]
 
@@ -69,7 +69,7 @@ Le bouton ![image showing the More actions button](assets/do-not-localize/rule-b
 * **[!UICONTROL Modifier les balises]** : modifiez les balises associées à la campagne. Découvrez comment [utiliser des balises dans vos campagnes](../start/search-filter-categorize.md#add-tags-to-an-object).
 * **[!UICONTROL Dupliquer]** : vous aurez éventuellement besoin de dupliquer une campagne, par exemple pour exécuter une campagne orchestrée qui a été arrêtée. [En savoir plus](#duplicate-a-campaign)
 * **[!UICONTROL Supprimer]** : utilisez cette option pour supprimer une campagne. [En savoir plus](#delete-a-campaign)
-* **[!UICONTROL Archiver]** - Archivez la campagne. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de leur dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des **[!UICONTROL brouillons]** de campagnes. En savoir plus sur les [archives de campagne](#archive-a-campaign).
+* **[!UICONTROL Archiver]** - Archivez la campagne. Toutes les campagnes archivées sont supprimées selon un calendrier progressif 30 jours après leur date de dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des **[!UICONTROL brouillons]** de campagnes. En savoir plus sur les [archives de campagne](#archive-a-campaign).
 
 Pour les campagnes déclenchées par une action et par une API, les actions supplémentaires ci-dessous sont disponibles :
 
@@ -214,7 +214,7 @@ Pour arrêter une campagne récurrente, ouvrez-la, puis cliquez sur le bouton **
 
 >[!IMPORTANT]
 >
->L’arrêt d’une campagne n’arrête pas un envoi continu, mais il arrête un envoi planifié ou les occurrences suivantes si l’envoi est déjà en cours.
+>L’arrêt d’une campagne n’arrête pas un envoi continu, mais elle arrête un envoi planifié ou les occurrences suivantes si l’envoi est déjà en cours.
 
 ## Archivage d’une campagne {#archive}
 

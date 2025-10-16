@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours. Grâce à cette fonctionnalité, vous pouvez passer d’une langue à une autre lors de la modification de votre campagne, ce qui optimise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement du contenu multilingue.
 
-Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilingue par le biais de deux méthodes distinctes :
+Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilingue par le biais de deux méthodes distinctes :
 
 * **Traduction manuelle** : traduisez votre contenu directement dans le Concepteur d’e-mail ou importez du contenu multilingue existant. [En savoir plus](multilingual-manual.md)
 
@@ -100,4 +100,4 @@ Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
 Découvrez comment créer du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452115?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

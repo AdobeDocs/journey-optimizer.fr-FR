@@ -7,10 +7,10 @@ feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
-source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -38,4 +38,4 @@ Avant d’exécuter des suppressions à grande échelle, validez et exportez tou
 Pour plus d’informations sur Privacy Service et sur la réalisation des opérations de cycle de vie des données, consultez la documentation d’Adobe Experience Platform :
 
 * [Vue d’ensemble de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr)
-* [Cycle de vie des données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=fr)
+* [ Cycle de vie des données dans Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=fr)

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Vous pouvez modifier le contenu in-app pour configurer les options d’expérience :
 
-* Dans une **[!UICONTROL campagne]**, à partir du menu **[!UICONTROL Action]**, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du message.
+* Dans une **[!UICONTROL Campagne]**, à partir du menu **[!UICONTROL Action]**, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du message.
 
   ![](assets/edit-in-app-content.png)
 
@@ -266,4 +266,4 @@ Pour plus d’informations, consultez la [documentation de développement](https
 
 La vidéo ci-dessous montre comment créer et tester vos messages in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422077?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

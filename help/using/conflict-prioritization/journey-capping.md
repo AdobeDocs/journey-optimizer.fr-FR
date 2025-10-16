@@ -4,10 +4,10 @@ description: Découvrez comment créer des règles de limitation pour vos parcou
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
-workflow-type: ht
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
    1. Dans le champ **[!UICONTROL Limitation]**, définissez le nombre maximal de parcours dans lesquels un profil peut être inscrit simultanément.
 
-   1. Utilisez le champ **[!UICONTROL Durée de la priorité]** pour arbitrer les entrées de parcours en fonction des scores de priorité sur une période donnée (par exemple, 1 jour, 7 jours, 30 jours).
+   1. Utilisez le champ **[!UICONTROL Hiérarchisation à venir]** pour arbitrer les entrées de parcours en fonction des scores de priorité sur une période choisie (par exemple, 1 jour, 7 jours, 30 jours).
 
       Cette option analyse les parcours de lecture d’audience à venir planifiés pour le reste de la semaine afin de déterminer si le profil doit être supprimé de l’entrée dans le parcours en raison d’un parcours de priorité plus élevée à venir. Cela permet de donner la priorité à l’entrée dans des parcours à plus forte valeur si un profil est éligible à plusieurs parcours.
 
@@ -119,4 +119,4 @@ En outre, vous pouvez également utiliser le [service de requête Adobe Experie
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

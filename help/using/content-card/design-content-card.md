@@ -6,16 +6,16 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 100%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
 # Concevoir le contenu des cartes de contenu {#design-content-card}
 
-Le concept de création de cartes offre une expérience de création basée sur des formulaires qui fournit aux spécialistes du marketing des entrées de base qui peuvent être utilisées pour le rendu par l’équipe de développement.
+La structure de création pour les cartes offre une expérience de création basée sur des formulaires qui fournit aux marketeurs des entrées de base qui peuvent être rendues par les développeurs.
 
 Une fois votre contenu défini et personnalisé, vous pouvez le consulter et l’activer. Votre campagne sera envoyée selon le planning défini. [En savoir plus dans cette page](../campaigns/review-activate-campaign.md).
 

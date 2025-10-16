@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
-workflow-type: ht
-source-wordcount: '1538'
-ht-degree: 100%
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+workflow-type: tm+mt
+source-wordcount: '1537'
+ht-degree: 99%
 
 ---
 
@@ -120,8 +120,8 @@ Les événements utilisés dans des parcours **actifs**, **brouillons** ou **fer
 
 Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431514?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416325?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

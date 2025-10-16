@@ -6,10 +6,10 @@ description: Découvrez comment utiliser les canaux de communication  [!DNL Adob
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Les canaux de diffusion des messages sortants impliquent l’envoi de messages a
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal e-mail
 
@@ -37,7 +37,7 @@ Découvrez comment créer, configurer et optimiser des campagnes par e-mail, y c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal des notifications push
 
@@ -47,7 +47,7 @@ Découvrez comment créer, configurer et envoyer des notifications push pour iO
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Messages SMS/MMS/RCS
 
@@ -57,7 +57,7 @@ Découvrez comment créer, gérer et configurer des messages SMS, MMS et RCS �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagnes par courrier
 
@@ -75,7 +75,7 @@ Avec les expériences entrantes sur les applications mobiles et le web, les clie
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Messages in-app
 
@@ -85,7 +85,7 @@ Découvrez comment configurer, concevoir et personnaliser des notifications in-a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Découvrez comment créer, configurer et personnaliser des expériences web et i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Expérience basée sur du code
 
@@ -105,11 +105,11 @@ Découvrez les expériences basées sur du code pour diffuser du contenu personn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Cartes de contenu
 
-Découvrez comment configurer, créer et concevoir des cartes de contenu pour proposer des messages attrayants et personnalisés dans les applications mobiles et les sites web.
+Découvrez comment configurer, créer et concevoir des cartes de contenu pour une messagerie attrayante et personnalisée dans les applications mobiles et les sites web.
 
 [En savoir plus sur l’expérience basée sur du code](../../rp_landing_pages/content-card-landing-page.md)
 :::

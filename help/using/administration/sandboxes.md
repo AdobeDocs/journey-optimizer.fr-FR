@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: sandbox, virtuels, environnements, organisation, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ Pour affecter des sandbox :
 
    ![](assets/sandbox_3.png)
 
-1. Si nécessaire, cliquez sur l’icône X en regard de Supprimer l’accès des sandbox à votre **[!UICONTROL Rôle]**.
+1. Si nécessaire, cliquez sur l’icône X en regard pour supprimer l’accès au sandbox de votre **[!UICONTROL Rôle]**.
 
    ![](assets/sandbox_4.png)
 
@@ -70,4 +70,4 @@ Remarque : pour que votre contenu soit synchronisé avec le sandbox approprié,
 
 Découvrez ce que sont les sandbox et comment faire la distinction entre les sandbox de développement et de production. Découvrez comment créer, réinitialiser et supprimer des sandbox.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416655?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

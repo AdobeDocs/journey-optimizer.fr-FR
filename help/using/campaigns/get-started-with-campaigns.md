@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '955'
 ht-degree: 59%
 
 ---
@@ -115,7 +115,7 @@ Les **campagnes d’action** également appelées campagnes planifiées, permett
 
 >[!TAB Campagnes déclenchées par API]
 
-**Campagnes déclenchées par API** vous permettent de déclencher l’exécution de la campagne à l’aide d’un appel API. Ces communications peuvent être envoyées lorsque le besoin implique une personnalisation non seulement par un attribut de profil de réinitialisation de mot de passe, mais également par les données contextuelles en temps réel dans le déclencheur qui est une payload de l’API REST.
+**Campagnes déclenchées par API** vous permettent de déclencher l’exécution de la campagne à l’aide d’un appel API. Ces communications peuvent être envoyées là où le besoin implique une personnalisation non seulement de l’utilisation d’attributs de profil tels que la réinitialisation du mot de passe, mais également des données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
 
 * **Déclenché par API - Marketing** - Envoyez des communications marketing personnalisées aux audiences ciblées.
 * **Déclenché par API - Transactionnel** - Envoyez des messages à la suite d’une action effectuée par une personne, telle qu’une demande de réinitialisation de mot de passe, un achat au panier, etc.

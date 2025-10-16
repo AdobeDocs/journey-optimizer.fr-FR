@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: intégré, source, données, platform, intégration
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -35,9 +35,9 @@ Vous pouvez modifier le groupe de champs préconfiguré nommé « ProfileFieldG
 >L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’utiliser d’autres méthodes. [En savoir plus](../building-journeys/exp-event-lookup.md)
 
 
-Voici les étapes principales pour ajouter des groupes de champs à la source de données intégrée :
+Les étapes principales pour ajouter des groupes de champs à la source de données intégrée sont détaillées ci-dessous :
 
-1. Dans la liste des sources de données, sélectionnez la source de données **Adobe Experience Platform** intégrée.
+1. Dans la liste des sources de données, sélectionnez la source de données intégrée **Adobe Experience Platform**.
 
    Le volet de configuration de la source de données s’ouvre alors dans la partie droite de l’écran.
 

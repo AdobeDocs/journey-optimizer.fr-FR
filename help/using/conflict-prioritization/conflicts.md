@@ -4,16 +4,16 @@ description: Découvrez comment identifier les conflits potentiels dans les parc
 role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Détecter les conflits potentiels dans les parcours et les campagnes {#conflict}
 
-À mesure que les personnes spécialisées dans le marketing augmentent le volume des campagnes et des parcours dans Journey Optimizer, il devient de plus en plus difficile pour elles de savoir si leurs clientes et clients sont submergés par un trop grand nombre d’interactions marketing. Il est donc essentiel d’identifier facilement les chevauchements des campagnes et des parcours pour s’assurer d’un bon équilibre dans les communications marketing tout en atténuant le risque de lassitude des clientes et clients.
+À mesure que les marketeurs augmentent le volume des campagnes et des Parcours dans Journey Optimizer, il devient de plus en plus difficile pour eux de savoir s&#39;ils bombardent leurs clients avec trop d&#39;interactions marketing. Il est donc essentiel d’identifier facilement les campagnes et les parcours qui se chevauchent afin de s’assurer qu’ils trouvent le bon équilibre entre les communications marketing tout en réduisant le risque de fatigue des clients.
 
 Les principaux domaines à surveiller pour détecter un chevauchement potentiel sont les suivants :
 

@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Commencer avec les profils et les audiences
-description: Découvrez comment utiliser les profils et les audiences dans  [!DNL Journey Optimzier].
+description: Découvrez comment utiliser les profils et les audiences dans  [!DNL Journey Optimizer].
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%

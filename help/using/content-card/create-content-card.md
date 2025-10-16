@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: ee2e07353762a81aadd3d63580c528f617599623
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1369'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 >[!TAB Ajouter des cartes de contenu à un parcours]
 
-Pour ajouter des cartes de contenu à un parcours, procédez comme suit :
+Pour ajouter une carte Contenu à un parcours, procédez comme suit :
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL Carte]** depuis la section **[!UICONTROL Actions]** de la palette.
 

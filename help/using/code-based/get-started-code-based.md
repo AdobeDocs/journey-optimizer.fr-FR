@@ -6,14 +6,14 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Commencer avec le canal basé sur le code {#get-sarted-code-based}
+# Commencer avec le canal basé sur le code {#get-started-code-based}
 
 [!DNL Journey Optimizer] vous permet de personnaliser et de tester les expériences que vous souhaitez diffuser à votre clientèle sur tous vos touchpoints : applications web, applications mobiles, applications de bureau, consoles vidéo, appareils connectés à la télévision, téléviseurs intelligents, kiosques, guichets automatiques, assistants vocaux, appareils IdO, etc.
 

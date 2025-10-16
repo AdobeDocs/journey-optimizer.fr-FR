@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ Ces étapes doivent être exécutées par un [Administrateur ou une Administratr
 
    ![](assets/whatsapp-api-2.png)
 
-1. Sélectionnez le **Nom de l’expéditeur ou de l’expéditrice** utilisé pour envoyer vos messages WhatsApp.
+1. Sélectionnez le **Nom de l&#39;expéditeur** utilisé pour envoyer vos messages WhatsApp.
 
 1. Les paramètres de votre numéro de téléphone sont automatiquement renseignés :
 
@@ -180,6 +180,6 @@ La vidéo ci-dessous montre comment configurer le canal WhatsApp dans Adobe Jou
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470270/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

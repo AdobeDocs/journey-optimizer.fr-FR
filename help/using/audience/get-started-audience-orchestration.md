@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -99,13 +99,13 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-Cette documentation fournit des informations détaillées sur l’utilisation de la composition d’audiences dans Adobe Journey Optimizer. Si vous êtes un client ou une cliente Profil client en temps réel uniquement et que vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous êtes un client ou une cliente Profil client en temps réel uniquement et que vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 La composition d’audiences vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être utilisées dans des campagnes Journey Optimizer pour cibler les clientes et les clients. Découvrir comment cibler des audiences dans Journey Optimizer
+Une fois cette opération terminée, les **audiences obtenues** sont réenregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisées dans les campagnes et parcours Journey Optimizer pour cibler les clients. Découvrir comment cibler des audiences dans Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

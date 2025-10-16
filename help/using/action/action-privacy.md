@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Pour que les politiques de gouvernance des données soient appliquées dans Jour
 
 ### Appliquer des actions marketing aux parcours et aux campagnes{#journeys-campaigns}
 
-Après avoir créé des politiques de gouvernance, vous devez appliquer les actions marketing appropriées dans vos **configurations de canal** Journey Optimizer. Pour ce faire, procédez comme suit :
+Après avoir créé des politiques de gouvernance, vous devez appliquer les actions marketing appropriées à vos **configurations de canal** Journey Optimizer. Pour ce faire, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canal]**.
 
