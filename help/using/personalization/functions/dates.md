@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1034'
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ La fonction `addHours` ajuste une date donnée d’un nombre d’heures spécifi
 
 ## Ajouter des minutes {#add-minutes}
 
-La fonction `addMinutes` ajuste une date donnée d’un nombre de minutes spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
+La fonction `addMinutes` ajuste une date donnée selon un nombre de minutes spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
 
 **Syntaxe**
 
@@ -87,7 +87,7 @@ La fonction `addMonths` ajuste une date donnée d’un nombre de mois spécifié
 
 ## Ajouter des secondes {#add-seconds}
 
-La fonction `addSeconds` ajuste une date donnée d’un nombre de secondes spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
+La fonction `addSeconds` ajuste une date donnée d’un nombre spécifié de secondes, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
 
 **Syntaxe**
 
@@ -104,7 +104,7 @@ La fonction `addSeconds` ajuste une date donnée d’un nombre de secondes spéc
 
 ## Ajouter des années {#add-years}
 
-La fonction `addYears` ajuste une date donnée d’un nombre d’années spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
+La fonction `addYears` ajuste une date donnée d’un nombre spécifié d’années, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
 
 **Syntaxe**
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Jour du mois {#day-month}
 
-La fonction `dayOfWeek` renvoie le nombre représentant le jour du mois.
+La fonction `dayOfMonth` renvoie le nombre représentant le jour du mois.
 
 **Syntaxe**
 
@@ -355,7 +355,7 @@ La fonction `extractMinutes` extrait le composant des minutes d’un horodatage 
 
 +++Exemple
 
-* Entrée : `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Entrée : `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Sortie : `19`
 
 +++
@@ -639,7 +639,7 @@ La fonction `truncateToStartOfWeek` modifie une date-heure donnée en la défini
 
 +++Exemple
 
-* Entrée : `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* Entrée : `{%= truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * Sortie : `2024-11-18T00:00Z // monday`
 
 +++

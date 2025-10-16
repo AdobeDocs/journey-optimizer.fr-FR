@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 93%
+source-wordcount: '244'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ Découvrez comment utiliser des fonctions mathématiques dans l’éditeur de pe
 
 ## Absolu {#absolute}
 
-La fonction `absolute` est utilisée pour convertir un nombre dont la valeur est absolue.
+La fonction `absolute` est utilisée pour convertir un nombre en valeur absolue.
 
 **Syntaxe**
 
@@ -71,7 +71,7 @@ La fonction `roundDown` sert à arrondir un nombre à l’unité inférieure.
 
 ## Arrondir à l’unité supérieure {#round-up}
 
-La fonction `Count only null` sert à arrondir un nombre à l’unité supérieure.
+La fonction `roundUp` sert à arrondir un nombre à l’unité supérieure.
 
 **Syntaxe**
 
@@ -109,7 +109,7 @@ La fonction `toInt` est utilisée pour convertir n’importe lequel de ces types
 
 **Exemple**
 
-Cette requête renvoie la valeur d’entier de 42,6, soit 42.
+Cette requête renvoie la valeur entière de 42,6, c’est-à-dire 42.
 
 ```sql
 {%= toInt(42.6) %}: integer
