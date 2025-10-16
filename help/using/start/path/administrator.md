@@ -16,7 +16,7 @@ ht-degree: 96%
 
 # Prise en main pour les administrateurs système {#get-started-sys-admins}
 
-Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], plusieurs étapes sont nécessaires pour préparer votre environnement.  Vous devez effectuer les étapes suivantes afin que l’[ingénieur de données](data-engineer.md) et le [praticien de Parcours ](marketer.md) puissent commencer à utiliser [!DNL Adobe Journey Optimizer].
+Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], plusieurs étapes sont nécessaires pour préparer votre environnement.  Vous devez effectuer les étapes suivantes afin que l’[ingénieur de données](data-engineer.md) et le [praticien de Parcours &#x200B;](marketer.md) puissent commencer à utiliser [!DNL Adobe Journey Optimizer].
 
 En tant qu’**administrateur ou administratrice système**, vous devez **comprendre les rôles et attribuer des autorisations** pour l’administration des sandbox et la configuration des canaux. Vous devez également configurer des sandbox et les gérer pour les rôles disponibles. Vous pourrez ensuite affecter des personnes membres de l’équipe à des rôles.
 
