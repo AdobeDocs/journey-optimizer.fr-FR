@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f9102c10aa58be0e1a7280aa53fd97b3f792b9e9
+source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
 
@@ -85,35 +85,34 @@ Vous trouverez ci-dessous des définitions, des causes courantes et des étapes 
 
 * EXTERNAL_KEY_COMPUTATION_ERROR : le système n’a pas pu calculer un identifiant unique (clé externe) pour le client à partir des données d’événement.
 
-|---|---|
-| **Causes fréquentes** | Identifiants de client manquants ou incorrects (par exemple, e-mail, ID de client) dans la payload d’événement. |
-| **Dépannage** | Vérifiez la configuration de l’événement pour les identifiants requis et assurez-vous que les données d’événement sont complètes et correctement formatées. |
+  **Causes courantes** : identifiants de client manquants ou incorrects (par exemple, e-mail, ID de client) dans la payload de l’événement.
+
+  **Dépannage** : vérifiez la configuration de l’événement pour les identifiants requis et assurez-vous que les données d’événement sont complètes et correctement formatées.
 
 * NO_INTEREST_PARCOURS_FOR_SEGMENTMEMBERSHIP_EVENT : un événement de qualification du segment a été reçu, mais aucun parcours n’est configuré pour répondre à ce segment.
 
+  **Causes courantes** : aucun parcours n’utilise le segment comme déclencheur, les parcours sont en état de brouillon ou d’arrêt ou les identifiants de segment ne correspondent pas.
 
-|---|---|
-| **Causes fréquentes** | Aucun parcours n’utilise le segment comme déclencheur, les parcours sont à l’état de brouillon/arrêté ou les identifiants de segment ne correspondent pas. |
-| **Dépannage** | Vérifiez qu’au moins un parcours est actif et configuré pour le segment, puis vérifiez les identifiants de segment. |
+  **Dépannage** : vérifiez qu’au moins un parcours est actif et configuré pour le segment, puis vérifiez les identifiants de segment.
 
-### PARCOURS_INSTANCE_ID_NOT_CREATE : le système n’a pas réussi à créer d’instance de parcours pour le client.
+* PARCOURS_INSTANCE_ID_NOT_CREATE : le système n’a pas réussi à créer d’instance de parcours pour le client.
 
-|---|---|
-| **Causes fréquentes** | Événements en double, volume d’événements élevé, contraintes de ressources système. |
-| **Dépannage** | Mettez en œuvre la déduplication, évitez les pics de trafic, optimisez la conception du parcours et contactez l’assistance si cela persiste. |
+  **Causes courantes** : événements en double, volume d’événements élevé, contraintes de ressources système.
 
-### EVENT_WITH_NO_PARCOURS : événement reçu, mais aucun parcours actif n’est configuré pour y répondre
+  **Dépannage** : implémentez la déduplication, évitez les pics de trafic, optimisez la conception du parcours et contactez l’assistance en cas de persistance.
 
-|---|---|
-| **Causes fréquentes** | Incompatibilité du nom/de l’ID de l’événement, parcours non publié, sandbox/organisation incorrecte, incompatibilité du mode de test/du profil. |
-| **Dépannage** | Vérifiez la configuration de l’événement et du parcours, vérifiez le statut du parcours et utilisez des outils de débogage. |
+* EVENT_WITH_NO_PARCOURS : événement reçu, mais aucun parcours actif n’est configuré pour y répondre
 
-Pour les rejets se produisant dans des parcours en pause :
+  **Causes courantes** : incohérence entre le nom et l’ID de l’événement, parcours non publié, sandbox/organisation incorrecte, incompatibilité entre le mode de test et le profil.
 
-* **PAUSED_JOURNEY_VERSION** : rejets survenus au point d’entrée du parcours.
-* **JOURNEY_IN_PAUSED_STATE** : rejets survenus lorsque les profils se trouvent dans un parcours.
+  **Dépannage** : vérifiez la configuration de l’événement et du parcours, vérifiez l’état du parcours et utilisez des outils de débogage.
 
-Pour en savoir plus sur ces événements et sur la manière de les résoudre, consultez la section [Mettre en pause un parcours](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+* Pour les rejets se produisant dans des parcours en pause :
+
+   * **PAUSED_JOURNEY_VERSION** : rejets survenus au point d’entrée du parcours.
+   * **JOURNEY_IN_PAUSED_STATE** : rejets survenus lorsque les profils se trouvent dans un parcours.
+
+  Pour en savoir plus sur ces événements et sur la manière de les résoudre, consultez la section [Mettre en pause un parcours](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
 ## Ressources supplémentaires
 
