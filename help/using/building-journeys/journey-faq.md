@@ -11,10 +11,10 @@ keywords: parcours, questions, réponses, dépannage, aide, guide
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
 workflow-type: tm+mt
-source-wordcount: '2363'
-ht-degree: 2%
+source-wordcount: '4094'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Journey Optimizer prend en charge trois types de parcours :
 * **Lire les parcours d’audience** : commencez avec une audience de Adobe Experience Platform et envoyez des messages par lots à tous les profils de cette audience.
 * **parcours d’événement métier** : ils sont déclenchés par des événements métier (par exemple, les mises à jour de stocks, les alertes météorologiques) qui affectent plusieurs profils simultanément.
 
-En savoir plus sur les [types de parcours &#x200B;](entry-management.md#types-of-journeys).
+En savoir plus sur les [types de parcours ](entry-management.md#types-of-journeys).
 
 +++
 
@@ -67,7 +67,23 @@ Un parcours comprend :
 * **Actions de canal intégrées** : fonctionnalités de messagerie natives pour les e-mails, SMS, notifications push et autres canaux
 * **Actions personnalisées** : intégration à des systèmes tiers
 
-En savoir plus sur les [activités de parcours &#x200B;](about-journey-activities.md).
+En savoir plus sur les [activités de parcours ](about-journey-activities.md).
+
++++
+
++++ Comment choisir entre un parcours unitaire et un parcours Lecture d’audience ?
+
+Utilisez **parcours unitaires** lorsque :
+
+* Vous devez réagir en temps réel aux actions de chaque client (par exemple, confirmation d’achat, abandon de panier)
+* Chaque client doit progresser à son propre rythme
+* Vous souhaitez déclencher en fonction d’événements spécifiques
+
+Utilisez **lire les parcours d’audience** lorsque :
+
+* Vous envoyez des communications par lots à un groupe (par exemple, newsletter mensuelle, campagnes promotionnelles).
+* Tous les clients doivent recevoir le message à peu près au même moment
+* Vous ciblez un segment ciblé prédéfini
 
 +++
 
@@ -97,7 +113,7 @@ Les prérequis dépendent de votre type de parcours :
 * **Enrichissement des données** : configurez les sources de données pour récupérer des informations supplémentaires
 * **Intégrations tierces** : configuration des actions personnalisées si vous utilisez des systèmes externes
 
-En savoir plus sur la configuration du parcours [&#128279;](../configuration/about-data-sources-events-actions.md).
+En savoir plus sur la configuration du parcours [](../configuration/about-data-sources-events-actions.md).
 
 +++
 
@@ -117,7 +133,7 @@ Vous pouvez ajouter des conditions à l’aide de l’activité **Condition** de
 * Divisez le parcours en plusieurs chemins d’accès en fonction des attributs de profil, de l’appartenance à l’audience, des événements ou des données contextuelles
 * Définir des chemins de temporisation pour les profils qui ne remplissent pas la condition dans un délai spécifié
 
-En savoir plus sur les [&#x200B; conditions &#x200B;](condition-activity.md).
+En savoir plus sur les [ conditions ](condition-activity.md).
 
 +++
 
@@ -138,7 +154,7 @@ Utilisez l’activité **Attente** pour suspendre le parcours pendant une durée
 * Création de campagnes goutte-à-goutte avec des intervalles temporels
 * Combinaison avec des conditions pour créer des scénarios de temporisation
 
-En savoir plus sur les [&#x200B; activités d’attente &#x200B;](wait-activity.md).
+En savoir plus sur les [ activités d’attente ](wait-activity.md).
 
 +++
 
@@ -147,6 +163,104 @@ En savoir plus sur les [&#x200B; activités d’attente &#x200B;](wait-activity.
 Oui. Utilisez l&#39;activité **Mettre à jour le profil** pour modifier les attributs de profil dans Adobe Experience Platform en fonction d&#39;événements ou de conditions de parcours. Cela s’avère utile pour mettre à jour les points de fidélité, enregistrer les jalons du parcours, modifier les paramètres de préférences ou suivre les scores d’engagement des clients.
 
 En savoir plus sur les [mises à jour de profil](update-profiles.md).
+
++++
+
++++ Comment envoyer un e-mail immédiatement après un achat ?
+
+Créez un **parcours déclenché par un événement unitaire** :
+
+1. Configurer un événement « Achat » avec les détails de la commande
+2. Ajoutez l’événement comme point d’entrée de parcours
+3. Suivez immédiatement avec une action E-mail .
+4. Concevez votre e-mail de confirmation de commande avec des détails de commande personnalisés
+5. Publier le parcours
+
+Le parcours se déclenche automatiquement à chaque réception d’un événement d’achat, envoyant l’e-mail de confirmation en temps réel.
+
+En savoir plus sur les [configuration d’événement](../event/about-events.md) et [actions d’e-mail](journeys-message.md).
+
++++
+
++++ Puis-je renvoyer un message si quelqu’un ne l’ouvre pas ou ne clique pas dessus ?
+
+Oui. Utilisez une **activité de condition** combinée avec des **activités d’attente** :
+
+1. Ajoutez une activité d’attente (par exemple, attente de 3 jours).
+2. Ajoutez une activité Condition pour vérifier si l’e-mail a été ouvert ou a fait l’objet d’un clic
+3. Créez deux chemins d’accès :
+   * **En cas d’ouverture/de clic** : terminez le parcours ou passez aux étapes suivantes
+   * **Si non ouvert/cliqué** : envoyez un e-mail de rappel avec un objet différent.
+
+**Bonne pratique** : limitez le nombre de renvois pour éviter d’apparaître comme indésirable (généralement 1 à 2 rappels au maximum).
+
+En savoir plus sur les [événements de réaction](reaction-events.md).
+
++++
+
++++ Comment créer un parcours d’abandon de panier ?
+
+Créez un parcours déclenché par un événement avec une logique d’attente et de condition :
+
+1. **Configurer un événement « Panier abandonné »** : déclenché lorsque des éléments sont ajoutés, mais que le passage en caisse n’est pas terminé dans un délai donné
+2. **Ajouter une activité Attente** : patientez 1 à 2 heures pour donner au client le temps de terminer naturellement
+3. **Ajouter une condition** : vérifier si l&#39;achat a été effectué pendant l&#39;attente
+4. **Si non acheté** : envoyez un e-mail de rappel d’abandon avec le contenu du panier.
+5. **Facultatif** : ajoutez une autre attente (24 heures) et envoyez un deuxième rappel avec un incentives (par exemple, 10 % de remise)
+
+En savoir plus sur les [cas d’utilisation de parcours ](jo-use-cases.md).
+
++++
+
++++ Comment diviser les clients en différents chemins d’accès en fonction de leur historique d’achats ?
+
+Utilisez une **activité de condition** avec des attributs d’appartenance ou de profil d’audience :
+
+1. Ajoutez une activité Condition à votre parcours
+2. Créez plusieurs chemins d’accès en fonction de critères :
+   * **Chemin 1** : clients à forte valeur ajoutée (total des achats > 1 000 $)
+   * **Chemin 2** : clients réguliers (total des achats de 100 à 1 000 $)
+   * **Chemin 3** : Nouveaux clients (total des achats &lt; 100 $)
+3. Ajouter des messages ou des offres différents pour chaque chemin
+
+En savoir plus sur les [conditions](condition-activity.md) et [qualification de l’audience](audience-qualification-events.md).
+
++++
+
++++ Comment gérer les différents fuseaux horaires dans mon parcours ?
+
+Journey Optimizer propose plusieurs options de gestion des fuseaux horaires :
+
+* **Fuseau horaire du profil** : les messages sont envoyés en fonction du fuseau horaire de chaque individu stocké dans son profil
+* **Fuseau horaire fixe** : tous les messages utilisent un fuseau horaire spécifique que vous définissez
+* **Attendre à une heure spécifique** : utilisez l’activité Attente pour envoyer des messages à une heure spécifique dans le fuseau horaire local du destinataire (par exemple, 10 h)
+
+**Exemple** : pour envoyer un e-mail « Bonjour » à 9 h dans le fuseau horaire de chaque client ou cliente, utilisez une activité Attente avec « Attendre à une date/heure fixe » et activez l’option de fuseau horaire.
+
+En savoir plus sur la [gestion des fuseaux horaires](timezone-management.md).
+
++++
+
++++ Combien de temps dois-je attendre entre les messages dans mon parcours ?
+
+**Bonnes pratiques relatives aux temps d’attente** :
+
+* **Messages transactionnels** (confirmations de commande) : envoyer immédiatement
+* **Série de bienvenue** : 1 à 3 jours entre les e-mails
+* **Contenu éducatif** : 3-7 jours entre les messages
+* **Campagnes promotionnelles** : au moins 7 jours entre les offres
+* **Réengagement** : 14 à 30 jours pour les utilisateurs inactifs
+
+**Facteurs à prendre en compte** :
+
+* Normes du secteur et attentes des clients
+* Urgence et importance du message
+* La fréquence globale des messages sur tous les canaux
+* Modèles d’engagement client
+
+**Conseil** : utilisez les règles de limitation du parcours pour limiter le nombre total de messages qu’un client ou une cliente reçoit sur tous les parcours.
+
+En savoir plus sur les [activités d’attente](wait-activity.md) et la limitation du parcours [](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -174,7 +288,7 @@ Lorsque vous publiez un parcours :
 * Les messages et les actions commencent à s’exécuter pour les profils qui se déplacent dans le parcours
 * Vous ne pouvez pas modifier directement un parcours publié (vous devez créer une version)
 
-En savoir plus sur la [publication de parcours &#x200B;](publishing-the-journey.md).
+En savoir plus sur la [publication de parcours ](publishing-the-journey.md).
 
 +++
 
@@ -189,7 +303,7 @@ Vous ne pouvez pas modifier directement un parcours dynamique. Pour apporter des
 
 Les profils déjà dans le parcours termineront la version originale, tandis que les nouveaux profils entreront la nouvelle version.
 
-En savoir plus sur les [versions de parcours &#x200B;](journey-ui.md#journey-versions).
+En savoir plus sur les [versions de parcours ](journey-ui.md#journey-versions).
 
 +++
 
@@ -205,6 +319,26 @@ En savoir plus sur les [parcours d’envoi](end-journey.md).
 
 +++
 
++++ Quelle est la différence entre « Fermer aux nouvelles entrées » et « Arrêter » ?
+
+**Fermer aux nouvelles entrées** :
+
+* Les nouveaux profils ne peuvent pas entrer dans le parcours
+* Les profils déjà dans le parcours continuent et terminent leur chemin d’accès
+* Utilisez cette option lorsque vous souhaitez réduire un parcours de manière élégante
+* Exemple : campagne saisonnière terminée, mais pour laquelle vous souhaitez que les clients existants terminent leur expérience
+
+**Arrêter** :
+
+* Termine immédiatement le parcours pour tous les profils
+* Tous les profils actuellement dans le parcours ont été fermés
+* Utilisez cette option pour les situations urgentes ou les erreurs critiques
+* Exemple : rappel de produit nécessitant l’arrêt immédiat des messages promotionnels
+
+En savoir plus sur les [options de pause de parcours ](journey-pause.md).
+
++++
+
 ## Exécution et surveillance des parcours
 
 +++ Comment puis-je suivre la progression du profil via un parcours ?
@@ -216,7 +350,7 @@ Vous pouvez surveiller l’exécution du parcours à l’aide des éléments sui
 * **Événements d’étape de Parcours** : accédez aux données d’exécution détaillées pour les rapports personnalisés
 * **Tableau de bord d’exécution d’essai de Parcours** : vérifiez les résultats de l’exécution de test avant la mise en ligne
 
-En savoir plus sur les rapports de parcours [&#128279;](report-journey.md).
+En savoir plus sur les rapports de parcours [](report-journey.md).
 
 +++
 
@@ -246,7 +380,7 @@ Les événements d’étape de parcours sont des jeux de données générés aut
 * Suivre le comportement détaillé du profil
 * Création de modèles d’analyse et d’attribution avancés
 
-En savoir plus sur les [événements d’étape de parcours &#x200B;](../reports/sharing-overview.md).
+En savoir plus sur les [événements d’étape de parcours ](../reports/sharing-overview.md).
 
 +++
 
@@ -266,7 +400,7 @@ Journey Optimizer fournit plusieurs ressources de dépannage :
 * Expressions non valides dans les conditions ou la personnalisation
 * Paramètres de temporisation trop courts
 
-En savoir plus sur [résolution des problèmes liés aux parcours &#x200B;](troubleshooting.md).
+En savoir plus sur [résolution des problèmes liés aux parcours ](troubleshooting.md).
 
 +++
 
@@ -276,7 +410,114 @@ Lorsqu’une action échoue (par exemple, délai d’appel de l’API, erreur de
 
 **Bonne pratique** : définissez des valeurs de délai d’expiration appropriées pour les actions externes et définissez des chemins alternatifs pour les scénarios d’échec critique.
 
-En savoir plus sur les [&#x200B; réponses d’action &#x200B;](../action/action-response.md).
+En savoir plus sur les [ réponses d’action ](../action/action-response.md).
+
++++
+
++++ Puis-je voir qui est actuellement dans mon parcours ?
+
+Oui. Utilisez le rapport dynamique sur les Parcours **** pour afficher :
+
+* Nombre de profils actuellement dans le parcours
+* Nombre de profils à chaque activité
+* Profils entrés au cours des dernières 24 heures
+* Mesures d’exécution en temps réel
+
+Pour afficher des profils individuels, utilisez **événements d’étape de parcours** dans Customer Journey Analytics ou interrogez directement les jeux de données d’événement d’étape.
+
+En savoir plus sur les rapports dynamiques de parcours [](report-journey.md).
+
++++
+
++++ Pourquoi mes messages ne sont-ils pas envoyés dans mon parcours ?
+
+**Raisons et solutions courantes** :
+
+* **Problèmes de consentement** : les destinataires n’ont pas choisi de recevoir des communications
+Solution : vérifiez les politiques de consentement et le statut d’opt-in
+
+* **Liste de suppression** : les adresses e-mail se trouvent dans la liste de suppression
+Solution : consultez la liste de suppression pour les bounces ou les plaintes
+
+* **Coordonnées non valides** : adresses e-mail/numéros de téléphone manquants ou incorrects
+Solution : valider la qualité des données de profil
+
+* **Parcours non publié** : le parcours est toujours en mode brouillon
+Solution : publiez le parcours pour l’activer
+
+* **Message non approuvé** : le contenu du message nécessite une approbation avant envoi
+Solution : Envoyer pour approbation ou vérifier le statut d’approbation
+
+* **Problème de configuration du canal** : la configuration des e-mails/SMS est incorrecte
+Solution : vérifiez les configurations et l’authentification des canaux
+
+En savoir plus sur les [dépannage](troubleshooting.md) et [gestion du consentement](../action/consent.md).
+
++++
+
++++ Comment personnaliser les messages dans mon parcours ?
+
+Vous pouvez personnaliser les messages à l’aide de l’**éditeur de personnalisation** :
+
+**Données de personnalisation disponibles** :
+
+* **Attributs de profil** : prénom, nom, e-mail, champs personnalisés
+* **Données d’événement** : détails d’achat, comportement de navigation, activité de l’application
+* **Données contextuelles** : variables de Parcours, données API externes
+* **Appartenance à une audience** : qualifications de segment
+* **Attributs calculés** : valeurs précalculées
+
+**Exemple de personnalisation** :
+
+* « Bonjour {{profile.firstName}}, merci pour votre achat de {{event.productName}} »
+* « En fonction de votre niveau de fidélité ({{profile.loyaltyTier}}), voici une offre spéciale »
+* Blocs de contenu dynamique qui changent en fonction des préférences du client
+
+En savoir plus sur la [personnalisation](../personalization/personalize.md).
+
++++
+
++++ Puis-je envoyer différents messages en fonction du canal préféré ?
+
+Oui. Utilisez une **activité de condition** pour vérifier le canal préféré :
+
+1. Ajouter un profil de vérification de condition.preferenceChannel
+2. Créez des chemins d’accès distincts pour chaque canal :
+   * **Chemin de l’e-mail** : envoyer un e-mail
+   * **Chemin SMS** : envoyer un SMS
+   * **Chemin push** : envoyez une notification push
+3. Ajouter un chemin par défaut pour les profils sans préférence
+
+**Approche alternative** : utilisez des **actions multicanales** où Journey Optimizer sélectionne automatiquement le meilleur canal en fonction des préférences et de la disponibilité du profil.
+
+En savoir plus sur les [actions de canal](journeys-message.md).
+
++++
+
++++ Puis-je exclure certains clients de mon parcours ?
+
+Oui, il existe plusieurs façons d’exclure les clients :
+
+**À l’entrée du parcours** :
+
+* Utilisation des définitions d’audience avec des règles d’exclusion
+* Ajouter des conditions d’entrée qui filtrent des profils spécifiques
+* Configuration des exigences en matière d’espace de noms
+
+**Dans le parcours** :
+
+* Ajoutez une activité Condition au début du parcours pour quitter les profils indésirables
+* Vérifier les attributs d’exclusion (par exemple, statut de VIP, comptes de test)
+* Utiliser la qualification d’audience pour identifier les profils à exclure
+
+**Exemples de scénarios d’exclusion** :
+
+* Exclure les clients qui ont récemment acheté
+* Exclure les clients VIP des promotions standard
+* Exclure les employés et les comptes de test
+* Exclure les clients de régions spécifiques
+
+En savoir plus sur la [gestion des entrées](entry-management.md) et les [conditions](condition-activity.md).
 
 +++
 
@@ -288,7 +529,7 @@ Un **espace de noms** est un type d’identité (par exemple e-mail, ECID, numé
 
 **Bonne pratique** : choisissez un espace de noms qui identifie vos clients de manière fiable à tous les points de contact.
 
-En savoir plus sur les [&#x200B; espaces de noms d’identité &#x200B;](../audience/get-started-identity.md).
+En savoir plus sur les [ espaces de noms d’identité ](../audience/get-started-identity.md).
 
 +++
 
@@ -322,9 +563,9 @@ En savoir plus sur l’[optimisation de l’heure d’envoi](send-time-optimizat
 
 +++ Que sont les règles de limitation du parcours ?
 
-La limitation des Parcours **&#x200B;**&#x200B;vous permet de limiter le nombre de fois qu’un profil peut entrer des parcours au cours d’une période spécifiée, ce qui évite la fatigue des messages et garantit une expérience client optimale. Vous pouvez définir le nombre maximal d’entrées par profil sur plusieurs parcours ou parcours spécifiques, définir des fenêtres temporelles (quotidiennes, hebdomadaires, mensuelles) et donner la priorité aux parcours lorsque plusieurs parcours se disputent le même profil.
+La limitation des Parcours **** vous permet de limiter le nombre de fois qu’un profil peut entrer des parcours au cours d’une période spécifiée, ce qui évite la fatigue des messages et garantit une expérience client optimale. Vous pouvez définir le nombre maximal d’entrées par profil sur plusieurs parcours ou parcours spécifiques, définir des fenêtres temporelles (quotidiennes, hebdomadaires, mensuelles) et donner la priorité aux parcours lorsque plusieurs parcours se disputent le même profil.
 
-En savoir plus sur la limitation du parcours [&#128279;](../conflict-prioritization/journey-capping.md).
+En savoir plus sur la limitation du parcours [](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -357,7 +598,125 @@ L’activité **Saut** vous permet de faire passer des profils d’un parcours �
 
 Lorsqu’un profil atteint une activité Saut , il quitte le parcours en cours et entre dans le parcours cible à son point de départ.
 
-En savoir plus sur [&#x200B; l’activité Saut &#x200B;](jump.md).
+En savoir plus sur [ l’activité Saut ](jump.md).
+
++++
+
++++ Comment créer un parcours de série de bienvenue ?
+
+Une série de bienvenue type comprend plusieurs points de contact sur plusieurs jours :
+
+**Exemple de structure** :
+
+1. **Entrée** : audience des nouveaux abonnés ou de l’événement lorsqu’une personne s’inscrit
+2. **E-mail 1 - Bienvenue immédiat** : Merci et présentation
+3. **Attente** : 2 jours
+4. **E-mail 2 - Prise en main** : tutoriel ou guide produit
+5. **Attente** : 3 jours
+6. **Condition** : le client a-t-il effectué un achat ?
+   * **Oui** : terminer ou déplacer vers le parcours client
+   * **Non** : continuer la série de bienvenue
+7. **E-mail 3 - Incentive** : réduction spéciale pour le premier acheteur
+8. **Attente** : 5 jours
+9. **E-mail 4 - Engagement** : contenu populaire ou best-sellers
+
+**Bonnes pratiques** :
+
+* Conserver 3 à 5 e-mails sur 2 à 3 semaines
+* Chaque e-mail doit avoir un objectif et un call-to-action clairs
+* Surveillez les taux d’ouverture et ajustez la durée/le contenu en conséquence
+* Quitter les clients plus tôt s’ils convertissent ou s’engagent profondément
+
+En savoir plus sur les [cas d’utilisation de parcours ](jo-use-cases.md).
+
++++
+
++++ Puis-je tester différents chemins d’accès dans mon parcours ?
+
+Oui. Utilisez l’activité **Optimiser** (disponible dans des packages Journey Optimizer spécifiques) ou créez manuellement des divisions de test :
+
+**Utilisation de l’activité d’optimisation** :
+
+* Répartit automatiquement le trafic entre les variantes
+* Teste différents messages, offres ou chemins de parcours entiers
+* Mesure les performances et déclare un gagnant
+
+**Test manuel avec condition** :
+
+* Créez une condition qui divise les profils de manière aléatoire (par exemple à l’aide d’une fonction de nombre aléatoire)
+* Envoyer des expériences différentes à chaque partage
+* Mesurer les résultats à l’aide de rapports de parcours
+
+**Ce que vous pouvez tester** :
+
+* Différentes lignes d’objet des e-mails
+* Contenu alternatif du message
+* Différents temps d’attente
+* Diverses offres ou incentives
+* Chemins de parcours entièrement différents
+
+En savoir plus sur les [optimisation de l’activité](optimize.md) et [expériences de contenu](../content-management/content-experiment.md).
+
++++
+
++++ Comment déclencher un parcours lorsque l’inventaire est faible ?
+
+Créez un **parcours d’événement métier** :
+
+1. **Configurer un événement métier** : configurez un événement déclenché par votre système d&#39;inventaire lorsque le stock tombe sous un seuil
+2. **Sélectionner l’audience cible** : sélectionnez les profils à avertir (par exemple, les clients qui ont consulté le produit, les abonnés aux alertes de réapprovisionnement).
+3. **Action Ajouter un message** : envoyez un e-mail ou une notification push.
+4. **Personnaliser le contenu** : inclure les détails du produit, le niveau d’inventaire actuel, la messagerie d’urgence
+
+**Exemples d’événements métier** :
+
+* Alerte de stock faible
+* Notification de chute de prix
+* Produit de nouveau en stock
+* Annonce de vente Flash
+* Promotions basées sur la météo
+
+En savoir plus sur les [événements métier](general-events.md).
+
++++
+
++++ Puis-je suspendre un parcours pour une personne spécifique sans arrêter l’ensemble du parcours ?
+
+Bien que vous ne puissiez pas suspendre directement un parcours pour des profils individuels, vous pouvez obtenir des résultats similaires :
+
+**Options** :
+
+* **Ajouter à l’audience d’exclusion** : créez une audience de profils à exclure et ajoutez une condition vérifiant cette audience à des points stratégiques du parcours
+* **Mettre à jour l’attribut de profil** : définissez un indicateur « pause » sur le profil et utilisez des conditions pour ignorer les actions pour les profils marqués
+* **Action personnalisée** : utilisez un système externe pour suivre les profils en pause et vérifier le statut via un appel API
+* **Sortie manuelle** : pour les cas urgents, vous pouvez supprimer manuellement les profils de test
+
+**Remarque** : les modifications apportées au Parcours n&#39;affectent que les nouveaux entrants. Les profils déjà présents dans le parcours suivent le chemin d’accès d’origine, sauf si le parcours est entièrement arrêté.
+
++++
+
++++ Quelle est la différence entre une condition et une activité d’attente ?
+
+**Activité de condition** :
+
+* **Objectif** : crée différents chemins en fonction de la logique (if/then)
+* **Fonction** : évalue les données et achemine les profils en conséquence
+* **Cas d’utilisation** : segmenter les clients, vérifier le statut, créer une branche en fonction du comportement
+* **Exemple** : si le client est VIP, envoyez une offre Premium ; sinon, envoyez une offre standard.
+
+**Activité d’attente** :
+
+* **Objectif** : met le parcours en pause pendant un certain temps
+* **Fonction** : maintient les profils à un point spécifique avant de continuer
+* **Cas pratiques** : minutage entre les messages, attente des heures de bureau, création de retards
+* **Exemple** : patientez 3 jours après l’e-mail de bienvenue avant d’envoyer le message suivant
+
+**Ils travaillent ensemble** :
+
+* Patientez pendant un certain temps, puis utilisez une condition pour vérifier si un événement s’est produit pendant l’attente
+* Exemple : attendez 7 jours, puis vérifiez si le client a effectué un achat
+
+En savoir plus sur les [conditions](condition-activity.md) et les [activités d’attente](wait-activity.md).
 
 +++
 
@@ -407,7 +766,7 @@ Affichage complet [mécanismes de sécurisation et limitations](../start/guardra
 * Logique de parcours de document et règles de gestion
 * Planifier le contrôle de version du parcours
 
-En savoir plus sur les [bonnes pratiques de conception de parcours &#x200B;](using-the-journey-designer.md).
+En savoir plus sur les [bonnes pratiques de conception de parcours ](using-the-journey-designer.md).
 
 +++
 
@@ -417,7 +776,7 @@ Bien qu’il n’y ait pas de limite stricte au nombre d’activités, des parco
 
 **Bonne pratique** : si votre parcours devient trop complexe, pensez à le diviser en plusieurs parcours à l’aide de l’activité Saut , à créer des sous-parcours réutilisables ou à simplifier la logique avec des conditions plus efficaces.
 
-En savoir plus sur la conception de parcours [&#128279;](using-the-journey-designer.md).
+En savoir plus sur la conception de parcours [](using-the-journey-designer.md).
 
 +++
 
@@ -444,7 +803,7 @@ En savoir plus sur la conception de parcours [&#128279;](using-the-journey-desig
 * Mettre en cache les données fréquemment consultées lorsque cela est possible
 * Examiner et optimiser les performances de diffusion des messages
 
-En savoir plus sur l’[optimisation des parcours &#x200B;](../start/guardrails.md).
+En savoir plus sur l’[optimisation des parcours ](../start/guardrails.md).
 
 +++
 
