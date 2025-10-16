@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Utilisez [!DNL Journey Optimizer] pour envoyer des SMS/MMS/RCS à vos clientes e
 
 Les messages texte peuvent être créés et envoyés dans un parcours ou dans une campagne. Pour les SMS, MMS et RCS, utilisez l’action SMS.
 
-* Dans un **parcours**. Créez un parcours, ajoutez une activité SMS et définissez les paramètres de base. Accédez ensuite au volet de droite Actions : SMS pour créer le contenu du message SMS, MMS ou RCS. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
+* Dans un **parcours**. Créez un parcours, ajoutez une activité SMS et définissez les paramètres de base. Accédez ensuite au volet Actions SMS à droite pour créer le contenu du message SMS, MMS ou RCS. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
 
 * Dans une **campagne**. Créez une campagne, sélectionnez SMS comme action et définissez les paramètres de base. Modifiez ensuite le contenu du message pour définir le SMS, MMS ou RCS à envoyer. [Découvrez comment créer une campagne.](../campaigns/create-campaign.md#configure)
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422694?learn=on&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430372?quality=12&learn=on&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++

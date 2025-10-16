@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,7 @@ Conformément aux normes et réglementations du secteur, tous les messages SMS d
 
 >[!IMPORTANT]
 >
->Les communications par SMS peuvent être soumises à diverses exigences légales qui dépendent de la nature de ces communications, de l’endroit d’où vous envoyez vos SMS et de celui de vos destinataires. Bien qu’Adobe Journey Optimizer traite les messages sur les numéros de code long, court et les numéros gratuits comme décrit ci-dessus, vous devez consulter votre service juridique pour vous assurer que vos communications par SMS sont conformes à toutes les exigences légales applicables.
+>Les communications par SMS peuvent être soumises à diverses exigences légales qui dépendent de leur nature, de l’endroit d’où vous envoyez vos SMS et de celui de vos destinataires. Bien que Adobe Journey Optimizer traite les messages sur des numéros courts, des numéros longs et des numéros gratuits comme décrit ci-dessous, consultez votre service juridique pour vous assurer que vos communications par SMS sont conformes à toutes les exigences légales applicables.
 >
 
 ## Mots-clés entrants natifs {#sms-native-keywords}
@@ -71,6 +71,6 @@ Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils 
 
   +++ Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440276/?learn=on&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++
