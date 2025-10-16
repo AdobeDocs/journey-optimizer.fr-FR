@@ -149,7 +149,7 @@ Comprenez la structure de données complète des événements d’étape de parc
 
 **Qualité des données**
 
-- Surveillez régulièrement les [ événements ignorés ](sharing-field-list.md#discarded-events) pour identifier les problèmes de données
+- Surveillez régulièrement les [&#x200B; événements ignorés &#x200B;](sharing-field-list.md#discarded-events) pour identifier les problèmes de données
 - Vérifiez que les schémas d’événement correspondent aux exigences de votre analyse.
 - Implémenter une gestion appropriée des erreurs dans les requêtes personnalisées
 
