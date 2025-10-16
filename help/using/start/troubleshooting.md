@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Résolution des problèmes dans Journey Optimizer
-description: Questions sur la résolution des problèmes dans Journey Optimizer
+description: Questions de dépannage relatives à Journey Optimizer
 feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: f46cc01dce5ab0a30c1f0907b2a4684802b216be
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '2746'
 ht-degree: 97%
@@ -201,7 +201,7 @@ Cette incohérence peut se produire lorsque le parcours utilise l’instantané 
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
-Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=fr){target="_blank"}.
+Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Consultez également la [documentation de l’API Schedules d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/api/schedules?lang=fr){target="_blank"} pour savoir quand votre tâche quotidienne est planifiée.
 

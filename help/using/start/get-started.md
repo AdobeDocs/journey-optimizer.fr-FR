@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -52,7 +52,7 @@ Les fonctionnalités principales sont les suivantes :
 
 * **Exécution et orchestration omnicanales modernes** : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour l’engagement client 1:1 et la portée marketing, afin d&#39;aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie client. Les parcours clients conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements pour permettre aux marques de réagir aux signaux en temps réel et d’associer ces interactions à des campagnes planifiées. Cela permet de prendre les bonnes décisions concernant les communications à envoyer à un client ou une cliente, le moment et les canaux à utiliser.
 
-* **Prise de décision et personnalisation intelligentes** : les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et le machine learning pour rechercher des informations prédictives tout au long de l’expérience du client ou de la cliente, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. La prise de décisions alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer].
+* **Prise de décision intelligente et Personalization** - Les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et le machine learning pour configurer des informations prédictives tout au long de l’expérience client, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. La prise de décisions alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer].
 
 
 >[!NOTE]

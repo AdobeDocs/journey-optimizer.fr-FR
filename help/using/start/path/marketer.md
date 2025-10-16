@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main de Journey Optimizer pour les spécialistes marketing
-description: En tant que praticien Parcours, découvrez comment utiliser Journey Optimizer.
+description: En tant que praticien de Parcours, découvrez comment utiliser Journey Optimizer
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Prise en main pour les spécialistes marketing {#get-started-marketers}
 
-En tant que **spécialiste du marketing** ou **praticien/praticienne Parcours**, vous êtes responsable de la création des offres et des parcours, ainsi que de la conception du contenu. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) et l’[ingénieur de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement.
+En tant que **spécialiste marketing** ou **spécialiste du Parcours**, vous êtes responsable de la création des offres et des parcours, ainsi que de la conception du contenu. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) et l’[ingénieur de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement.
 
 Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des offres et des ressources et envoyer des messages :
 

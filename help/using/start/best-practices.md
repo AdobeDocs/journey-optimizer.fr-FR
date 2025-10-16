@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 100%
+source-wordcount: '982'
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Journey Optimizer exploite le Service d’identités pour fusionner des 
 
 Lors de la création de cas d’utilisation, tenez compte des points suivants :
 
-1. La marque souhaite réengager un visiteur ou une visiteuse de site 30 minutes après l’abandon (par exemple, un e-mail de panier abandonné) :
+1. La marque souhaite réengager un visiteur du site 30 minutes après l’abandon (par exemple, un e-mail de panier abandonné) :
 
    Utilisez l’identité avec les données : ECID. Si vous souhaitez capturer 100 % des visiteurs et visiteuses ayant fourni leur adresse e-mail ou installation d’application au cours des 30 dernières minutes, vous devez utiliser l’identité basée sur les cookies pour lancer ce parcours (ECID). Cela suppose que votre adresse e-mail, votre jeton push ou toute autre adresse de l’expérience soient associés à l’ECID.
 
@@ -57,7 +57,7 @@ Cette section vous guide sur la mise à l’échelle avec les deux limites suiva
 
 Il existe un certain nombre de bonnes pratiques que vous pouvez adopter, qui vous aideront à respecter les mécanismes de sécurisation et à utiliser le système efficacement.
 
-* Si vous approchez de votre limite de parcours actifs, la première chose que vous pouvez faire est d’accéder à l’onglet **Vue d’ensemble** dans **Parcours** pour voir le nombre de parcours actifs au cours des dernières 24 heures qui comprennent des profils actifs. Vous pouvez vérifier le nombre de profils entrant et sortant du parcours dans cette section.
+* Si vous approchez de votre limite de parcours en direct, la première étape que vous pouvez effectuer consiste à accéder à l’onglet **Présentation** sous **Parcours** pour voir combien de parcours avaient un profil actif au cours des dernières 24 heures. Vous pouvez vérifier le nombre de profils entrant et sortant du parcours dans cette section.
 
   ![](assets/journey-guardrails2.png)
 
@@ -71,4 +71,4 @@ Il existe un certain nombre de bonnes pratiques que vous pouvez adopter, qui vou
 * Si votre parcours comporte plusieurs conditions pour diviser l’audience afin d’afficher les nombres à chaque étape, pensez à utiliser Customer Journey Analytics ou d’autres solutions de création de rapports mieux adaptées à l’analyse.
 * Si vous approchez de la limite des nœuds sur la zone de travail, envisagez de consolider les actions avec des paramètres ou du contenu dynamiques pour servir le contenu approprié plutôt que des nœuds explicites.
 
-* Si vous avez un parcours **Lecture d’audience** avec le segment par lots (A) et si vous utilisez dans le parcours le segment de streaming (B) dans l’audience pour exclure (c’est-à-dire exécuter A-B), envisagez de déplacer cette logique vers la logique de segmentation et d’utiliser l’exclusion dans le cadre de la logique de segmentation elle-même.
+* Si vous disposez d’un parcours **Lecture d’audience** avec un segment par lot (A) et que vous utilisez un segment de diffusion en continu inAudience (B) dans le parcours à exclure (c’est-à-dire que vous exécutez A-B), pensez à déplacer cette logique vers la logique de segmentation et à utiliser l’exclusion dans le cadre de la logique de segmentation elle-même.
