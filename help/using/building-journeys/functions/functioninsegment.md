@@ -8,7 +8,7 @@ level: Experienced
 keywords: inSegment, fonction, expression, parcours
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
@@ -34,9 +34,9 @@ Les audiences peuvent posséder deux statuts :
 
 Seules les personnes présentant le statut de participation d’audience **réalisé** sont considérées comme membres de l’audience. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` signifie que vous avez un mappage segmentMembership avec le statut « entered/existing ».
+`inSegment('segmentName') == true` signifie que vous avez un mappage segmentMembership avec le statut « entered/existing ».
 
-`ELSE inSegment('segmentName') == false` signifie que vous avez un mappage segmentMembership avec le statut « exited ».
+`inSegment('segmentName') == false` signifie que vous avez un mappage segmentMembership avec le statut « exited ».
 
 ## Catégorie
 

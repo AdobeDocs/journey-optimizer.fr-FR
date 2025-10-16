@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: expression, condition, cas d’utilisation, événements
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Tout d’abord, il s’agit de cibler les clients qui ont accédé à la boutiqu
 
 **Cette expression recherche tous les événements relatifs à cet utilisateur spécifiés au cours des 7 derniers jours :**
 
-Ensuite, il faut sélectionner tous les événements addtocart qui n’ont pas été transformés en completePurchase.
+Il sélectionne ensuite tous les événements d’ajout au panier qui ne se sont pas transformés en événement completePurchase.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ De là, vous pouvez ajouter un autre chemin dans votre parcours pour les cas où
 
 **Dans des conditions**
 
-Cette condition récupère uniquement les événements de géorepérage déclenchés dans &quot;Arlington&quot; :
+Cette condition récupère uniquement les événements de limite géographique déclenchés dans « Arlington » :
 
 ```json
         @event{GeofenceEntry
