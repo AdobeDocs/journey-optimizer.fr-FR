@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: df3abb7da17eb21e5e4120b55bdeb61fec3e202d
+source-git-commit: 3b736463615dac1bd5de7c7cee3ae46e9a2526da
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 98%
@@ -65,10 +65,10 @@ ht-degree: 98%
       + [Rapport dynamique dans votre parcours](using/building-journeys/report-journey.md)
    + Gérer vos parcours {#manage-journey}
       + [Gérer vos parcours](/help/rp_landing_pages/manage-journey-landing-page.md)
-      + [Utilisation d’événements d’étape de parcours](using/reports/journey-step-events-overview.md)
       + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
       + [Entrée de profil dans les parcours](using/building-journeys/entry-management.md)
       + [Utiliser des identifiants supplémentaires dans les parcours](using/building-journeys/supplemental-identifier.md)
+      + [Utilisation d’événements d’étape de parcours](using/reports/journey-step-events-overview.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Optimisation de l’heure d’envoi](using/building-journeys/send-time-optimization.md)
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
@@ -974,7 +974,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
