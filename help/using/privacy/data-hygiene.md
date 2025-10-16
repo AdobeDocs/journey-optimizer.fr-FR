@@ -38,4 +38,4 @@ Avant d’exécuter des suppressions à grande échelle, validez et exportez tou
 Pour plus d’informations sur Privacy Service et sur la réalisation des opérations de cycle de vie des données, consultez la documentation d’Adobe Experience Platform :
 
 * [Vue d’ensemble de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr)
-* [ Cycle de vie des données dans Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=fr)
+* [&#x200B; Cycle de vie des données dans Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=fr)
