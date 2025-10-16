@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 65%
@@ -38,7 +38,7 @@ Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UI
    * Alerte [Échec de l’action personnalisée de parcours](#alert-custom-actions)
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
    * l’alerte [Taux de rejet du profil dépassé](#alert-discard-rate)
-   * l’alerte [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate)
+   * l’alerte [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate)
    * l’alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
 
 * Alertes spécifiques à la configuration des canaux :
@@ -88,7 +88,7 @@ Pour vous abonner/désabonner à une alerte pour un parcours spécifique, procé
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
@@ -135,7 +135,7 @@ Pour résoudre les alertes **Action personnalisée** :
 
 * Vérifiez votre action personnalisée à l’aide du [mode test](../building-journeys/testing-the-journey.md) sur un autre parcours.
 
-* Vérifiez votre rapport de parcours [&#128279;](../reports/journey-live-report.md) pour voir les raisons de l&#39;erreur sur l&#39;action.
+* Vérifiez votre rapport de parcours [](../reports/journey-live-report.md) pour voir les raisons de l&#39;erreur sur l&#39;action.
 
 * Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur « failureReason ».
 
@@ -260,9 +260,9 @@ Pour les alertes de Parcours, utilisez le bouton **[!UICONTROL Autres actions]**
 
 ![](assets/alert-more-actions.png){width=60%}
 
-#### Définir un seuil personnalisé {#custom-threshold}
+### Définir un seuil personnalisé {#custom-threshold}
 
-Vous pouvez définir des seuils pour les [alertes de Parcours &#x200B;](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
+Vous pouvez définir des seuils pour les [alertes de Parcours ](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
 
 Pour modifier le seuil :
 

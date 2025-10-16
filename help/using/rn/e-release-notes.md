@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a5f6be689c9e91ee0dc0b5f024dbe8020424337
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 29%
+source-wordcount: '1209'
+ht-degree: 41%
 
 ---
 
@@ -29,40 +29,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 ### Nouvelles fonctionnalités {#oct-25-10-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>Canal Courrier dans parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Auparavant limité aux campagnes, le canal Publipostage direct est désormais disponible sur la zone de travail du parcours, ce qui vous permet d’incorporer le publipostage direct dans vos parcours. Le publipostage direct peut désormais être utilisé dans les scénarios de lot et de parcours 1:1, avec la prise en charge de la configuration de l’extraction de fichiers et des paramètres de fréquence basés sur le temps.</p>
-<p> Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Nouvelle API pour récupérer les campagnes d’action</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Une nouvelle API Journey Optimizer est désormais disponible, ce qui vous permet de récupérer et d’inspecter par programmation les données liées à la campagne, telles que les détails, les versions et les configurations.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -115,6 +82,41 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>Le canal Courrier est désormais disponible dans les campagnes orchestrées. L’activité Courrier facilite l’envoi de courrier depuis votre campagne orchestrée pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal Courrier dans parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Auparavant limité aux campagnes, le canal Publipostage direct est désormais disponible sur la zone de travail du parcours, ce qui vous permet d’incorporer le publipostage direct dans vos parcours. Le publipostage direct peut désormais être utilisé dans les scénarios de lot et de parcours 1:1, avec la prise en charge de la configuration de l’extraction de fichiers et des paramètres de fréquence basés sur le temps.</p>
+<p> Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nouvelle API pour récupérer les campagnes d’action</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Une nouvelle API Journey Optimizer est désormais disponible, ce qui vous permet de récupérer et d’inspecter par programmation les données liées à la campagne, telles que les détails, les versions et les configurations.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -193,20 +195,18 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
-<th><strong>Nouvelle fonction d’assistance de métadonnées d’exécution</strong><br/></th>
+<th><strong>Assistant Métadonnées d’exécution</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle fonction d’assistance executionMetadata est disponible dans l’éditeur de personnalisation. Il vous permet d’ajouter des informations contextuelles à toute action native et de les capturer dans un jeu de données pour les exporter vers des systèmes externes.</p>
-<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Une nouvelle fonction d’assistance « executionMetadata » est disponible dans l’éditeur de personnalisation. Il vous permet d’ajouter des informations contextuelles à toute action native et de les capturer dans un jeu de données pour les exporter vers des systèmes externes.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Pour plus d’informations, consultez la <a href="../personalization/functions/helpers.md#execution-metadata">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 13 octobre 2025</p>
 </td>
 </tr>
@@ -216,22 +216,40 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Agent d’expérience</strong><br/></th>
+<th><strong>L’agent d’expérimentation est ici !</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’agent d’expérimentation est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences numériques sur des sites web, des e-mails, des messages push et des applications. Basé sur la plateforme d’IA et les outils d’expérimentation de Adobe Experience Platform, l’agent d’expérimentation vous permet d’exécuter des expériences plus efficacement, d’organiser les objectifs commerciaux et de générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.</p>
-<p>Dans le cadre de la nouvelle fonctionnalité d’Experimentation Accelerator, l’agent fournit :</p>
+<p>Optimisé par <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’agent d’expérimentation est disponible dans Journey Optimizer. </p>
+<p>L’agent d’expérimentation est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences numériques sur des sites web, des e-mails, des messages push et des applications. Cela vous permet d’exécuter des expériences plus efficacement, d’organiser les objectifs commerciaux et de générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 10 octobre 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Pièces jointes PDF aux e-mails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais joindre un fichier PDF statique à un e-mail envoyé avec Journey Optimizer.</p>
 <ul>
-<li><strong>Performances :</strong> une vue claire de ce qui s’est passé dans l’expérience.</li>
-<li><strong>Insights :</strong> une explication de la raison pour laquelle les résultats se sont produits.</li>
-<li><strong>Opportunités :</strong> conseils sur les prochaines actions à entreprendre</li>
+<li>Vous pouvez envoyer jusqu’à 6 messages avec une pièce jointe PDF par profil et par an.</li>
+<li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
+<li>Pour augmenter la taille ou le volume, vous pouvez acheter le module complémentaire Pièces jointes PDF. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>Date de disponibilité : 9 octobre 2025</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../email/pdf-attachments.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 30 septembre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -247,43 +265,40 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>Une nouvelle API Journey Optimizer est désormais disponible pour récupérer les parcours et leurs objets associés tels que les campagnes et les surfaces.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Pour plus d’informations, consultez la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 25 septembre 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 ### Améliorations
 
-- **Campagnes, Experience Decisioning, Parcours**
-   - **Sélectionner des règles réutilisables dans le ciblage** - Vous pouvez désormais tirer parti du créateur de règles lors de l’utilisation des règles de ciblage avec la fonctionnalité d’optimisation des messages dans les parcours et les campagnes. <!-- [Read more](../FILE.md) -->
+**Sélection de règles réutilisables dans le ciblage**
 
-- **Canal - WhatsApp**
-   - **Champ d&#39;exécution pour le canal WhatsApp** - En plus des e-mails et des SMS, il est désormais possible de mettre à jour le champ d&#39;exécution par défaut de WhatsApp. Il est également possible de remplacer le champ d&#39;exécution défini globalement dans les paramètres avancés de l&#39;activité parcours WhatsApp ou dans la configuration du canal WhatsApp. <!-- [Read more](../FILE.md) -->
+Vous pouvez désormais utiliser le créateur de règles lors de l’utilisation des règles de ciblage avec la fonctionnalité d’optimisation des messages dans les parcours et les campagnes. <!-- [Read more](../FILE.md) -->
 
-- **Autorisations**
-   - **Le créateur du Parcours/de la campagne ne doit pas pouvoir approuver** - Ajout d’une option lors de la création ou de la définition de la stratégie d’approbation, pour empêcher les créateurs du Parcours/de la campagne d’approuver leurs propres objets. <!-- [Read more](../FILE.md) -->
+**Champ d’exécution pour le canal WhatsApp**
 
-- **Canal - Push**
-   - **Mobile Live Activities - Private Beta** - Les activités en direct fournissent des mises à jour en temps réel et des expériences interactives dans les applications mobiles, ce qui permet aux utilisateurs et aux utilisatrices de rester informés des événements ou tâches en cours directement sur l’écran de leur appareil. Cette fonctionnalité améliore l’engagement en fournissant des informations en direct, telles que le suivi de la progression, les mises à jour d’événement ou le contenu interactif, sans que les utilisateurs aient à ouvrir l’application. <!-- [Read more](../FILE.md) -->
+En plus des e-mails et SMS, il est désormais possible de mettre à jour le champ d&#39;exécution par défaut de WhatsApp. Il est également possible de remplacer le champ d&#39;exécution défini globalement dans les paramètres avancés de l&#39;activité parcours WhatsApp ou dans la configuration du canal WhatsApp. <!-- [Read more](../FILE.md) -->
 
-- **Parcours**
-   - **New Parcours Alerts** - Date de disponibilité : 14 octobre 2025
-De nouvelles alertes préconfigurées sont disponibles pour les parcours : Taux de rejet du profil dépassé (ratio des rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil), Taux d’erreur de l’action personnalisée dépassé (ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes ayant dépassé le seuil), Taux d’erreur du profil dépassé (ratio des profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil). <!-- [Read more](../FILE.md) -->
+**Autorisations**
 
-- **Configuration**
-   - **Prise en charge des attributs personnalisés avec une URL de désabonnement en un clic** - Date de disponibilité : 6 octobre 2025
-Avec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration du courrier électronique. Lorsque vos destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut spécifiques au profil à l’événement de mise à jour du consentement. Pour personnaliser davantage l’e-mail de désabonnement, vous pouvez maintenant définir des attributs personnalisés qui seront ajoutés à l’événement de consentement. Cette fonctionnalité est déjà disponible pour l’URL de désabonnement en un clic personnalisée depuis le 25 août. Elle est désormais disponible pour l’option Mailto (désabonnement) en disponibilité limitée. Contactez votre représentant Adobe pour obtenir l’accès. <!-- [Read more](../FILE.md) -->
+**Nouvelles alertes de parcours**
 
-- **Canal - E-mail**
-   - **Pièces jointes de PDF aux e-mails** - Date de disponibilité : 30 septembre 2025
-Vous pouvez désormais joindre un fichier PDF statique à un e-mail envoyé avec Journey Optimizer. Vous pouvez envoyer jusqu&#39;à 6 messages avec une pièce jointe PDF par profil et par an. La taille de fichier maximale autorisée pour chaque pièce jointe est de 5 Mo. Pour toute taille ou volume supplémentaire, vous pouvez acheter le module complémentaire de pièce jointe PDF . Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+De nouvelles alertes préconfigurées sont disponibles pour les parcours : [Taux de rejet de profil dépassé](../reports/alerts.md#alert-discard-rate) (ratio des rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil), [Taux d’erreur d’action personnalisée dépassé](../reports/alerts.md#alert-custom-action-error-rate) (ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes ayant dépassé le seuil) et [Taux d’erreur de profil dépassé](../reports/alerts.md#alert-profile-error-rate) (ratio des profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil). Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours et non globalement.
 
-  >[!AVAILABILITY]
-  >
-  >Publiée précédemment en disponibilité limitée, cette amélioration est désormais disponible dans tous les environnements (disponibilité générale).
+Date de disponibilité : 14 octobre 2025
 
-  <!-- [Read more](../FILE.md) -->
+**Prise en charge des attributs personnalisés pour l’adresse Mailto (unsubscribe)**
 
+Avec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir des points d’entrée personnalisés externes en définissant votre propre lien de désabonnement en un clic et une adresse e-mail de désabonnement personnalisée dans la configuration du canal e-mail. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
+
+Pour personnaliser davantage vos points d’entrée personnalisés, vous pouvez maintenant définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement. [En savoir plus](../email/list-unsubscribe.md#custom-attributes)
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est déjà disponible pour l’URL de désabonnement en un clic personnalisée **[!UICONTROL One-click Unsubscribe URL]** depuis le 25 août et est désormais disponible pour l’option **[!UICONTROL Mailto (unsubscribe)]** en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+
+Date de disponibilité : 6 octobre 2025
