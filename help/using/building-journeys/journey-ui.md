@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
-workflow-type: ht
-source-wordcount: '1444'
-ht-degree: 100%
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+workflow-type: tm+mt
+source-wordcount: '1443'
+ht-degree: 99%
 
 ---
 
@@ -81,7 +81,7 @@ Pour naviguer dans le calendrier des parcours :
 
    ![vue calendrier affichant les calendriers externes](assets/journey-calendar-2.png)
 
-1. Effectuez un glisser-déposer de vos fichiers CSV contenant les noms des événements, les dates de début et les dates de fin.
+1. Effectuez un glisser-déposer de vos fichiers CSV contenant les noms des événements, les dates de début et de fin.
 
    Les événements chargés s’affichent pour l’ensemble des utilisateurs et utilisatrices de votre organisation et sur les calendriers des parcours et campagnes.
 

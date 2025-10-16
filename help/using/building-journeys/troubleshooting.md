@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d&#39;effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d&#39;effectuer la publication. En savoir plus sur le mode test sur [cette page](../building-journeys/testing-the-journey.md).
 
-Découvrez [dans cette page](troubleshooting-execution.md) comment résoudre les problèmes liés aux événements de parcours. Apprenez également comment vérifier si des profils ont rejoint votre parcours et la façon dont ils progressent dans celui-ci, et si des messages sont envoyés.
+Découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si les profils ont rejoint votre parcours, comment ils le parcourent et si des messages sont envoyés [sur cette page](troubleshooting-execution.md).
 
 Si vous utilisez des actions entrantes, découvrez comment résoudre les problèmes liés à ces dernières [dans cette page](troubleshooting-inbound.md).
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '766'
+ht-degree: 97%
 
 ---
 
@@ -90,7 +90,7 @@ Le concepteur de parcours omnicanaux dispose d’une interface intuitive par gli
 
    ![](assets/read-segment.png)
 
-1. Commencez par effectuer un glisser-déposer d’un événement ou d’une activité **Lecture d’audience** de la palette vers la zone de travail. Pour plus d’informations sur la conception d’un parcours, consultez [cette section](using-the-journey-designer.md).
+1. Faites glisser et déposez un événement ou une activité **Lecture d’audience** de la palette vers la zone de travail. Pour plus d’informations sur la conception d’un parcours, consultez [cette section](using-the-journey-designer.md).
 
 ## Tester le parcours {#jo-test}
 

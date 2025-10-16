@@ -10,9 +10,9 @@ level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 100%
 
 ---
@@ -45,4 +45,4 @@ Journey Optimizer vous permet de copier un parcours complet d’un sandbox à u
 
 En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : audiences, schémas, événements et actions.
 
-Le processus de copie est réalisé via un **import et un export de package** entre les sandbox source et cible. Des informations détaillées sur l’export d’objets et leur import dans un sandbox cible sont disponibles dans cette section : [Copier des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md).
+Le processus de copie est réalisé via un **export et un import de package** entre les sandbox source et cible. Des informations détaillées sur l’export d’objets et leur import dans un sandbox cible sont disponibles dans cette section : [Copier des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md).
