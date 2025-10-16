@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, dynamique, contenu
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer vous permet d’utiliser des règles conditionnelles cr�
 
 Du contenu dynamique peut être créé dans n’importe quel champ que vous pouvez personnaliser à l’aide de l’éditeur de personnalisation. Cela inclut l’objet, les liens, le contenu des notifications push ou les représentations des offres de type texte. [En savoir plus sur la personnalisation](personalize.md)
 
-De plus, vous pouvez utiliser des règles conditionnelles dans le concepteur d’e-mails pour créer plusieurs variantes d’un composant de contenu.
+De plus, vous pouvez utiliser des règles conditionnelles dans le Designer d’e-mail pour créer plusieurs variantes d’un composant de contenu.
 
 ## Ajouter du contenu dynamique aux expressions {#perso-expressions}
 

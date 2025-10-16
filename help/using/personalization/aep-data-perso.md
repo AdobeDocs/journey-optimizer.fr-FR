@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '707'
+ht-degree: 86%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 >
 >Pour l’instant, la fonction d’assistance « datasetLookup » peut être utilisée dans les fragments d’expression pour un ensemble limité de clientes et clients. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-Journey Optimizer vous permet d’utiliser les données de jeux de données d’enregistrement Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Avant de commencer, les jeux de données nécessaires à la personnalisation de la recherche doivent être activés pour la recherche. Vous trouverez des informations détaillées dans cette section : [Utiliser les données d’Adobe Experience Platform](../data/lookup-aep-data.md).
+Journey Optimizer vous permet d’utiliser les données de jeux de données d’enregistrement Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Avant de commencer, les jeux de données nécessaires à la personnalisation de la recherche doivent être activés pour la recherche. Vous trouverez des informations détaillées dans cette section : [Utilisation des données Adobe Experience Platform](../data/lookup-aep-data.md).
 
 Une fois qu’un jeu de données a été activé pour la personnalisation de la recherche, vous pouvez utiliser ses données pour personnaliser votre contenu dans [!DNL Journey Optimizer].
 
@@ -46,7 +46,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
      >[!NOTE]
      >
-     >La valeur saisie pour ce champ peut être un identifiant de champ (*profile.packages.packageSKU*), un champ transmis dans un événement de parcours (*context.journey.events.event_ID.productSKU*) ou une valeur statique (*sku007653*). Dans tous les cas, le système utilisera la valeur et la recherche du jeu de données pour vérifier si celui-ci correspond à une clé.
+     >La valeur saisie pour ce champ peut être un identifiant de champ (`profile.packages.packageSKU`), un champ transmis dans un événement de parcours (`context.journey.events.event_ID.productSKU`) ou une valeur statique (`sku007653`). Dans tous les cas, le système utilisera la valeur et la recherche du jeu de données pour vérifier si celui-ci correspond à une clé.
      >
      >Si vous utilisez une valeur de chaîne littérale pour la clé, conservez le texte entre guillemets. Par exemple : `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`. Si vous utilisez une valeur d’attribut comme clé dynamique, supprimez les guillemets. Par exemple : `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
@@ -84,7 +84,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
    >
    >Il n’existe aucune limite stricte quant au nombre de champs pouvant être extraits à l’aide de la fonction d’assistance. Toutefois, pour de meilleures performances, il est recommandé de conserver le nombre de champs inférieur à 50 afin d’éviter toute incidence sur le débit.
 
-   * **result** est la valeur que vous avez attribuée au paramètre **result** dans la fonction d’assistance **MultiEntity**. Dans cet exemple, « vol ».
+   * **result** est la valeur que vous avez affectée au paramètre **result** dans la fonction d’assistance **datasetLookup**. Dans cet exemple, « flight ».
    * **fieldID** est l’identifiant du champ à récupérer. Cet identifiant est visible dans l’interface d’utilisation d’[!DNL Adobe Experience Platform] lors de la navigation dans le schéma d’enregistrement associé à votre jeu de données :
 
      +++Où récupérer l’ID d’un champ ?

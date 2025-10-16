@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
-workflow-type: ht
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+workflow-type: tm+mt
 source-wordcount: '1565'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ Exemples d’adresses URL personnalisées :
 
 >[!NOTE]
 >
->Lorsque vous modifiez une URL personnalisée dans l’éditeur de personnalisation, les fonctions d’assistance et l’appartenance aux audiences sont désactivées pour des raisons de sécurité.
+>Lors de la modification d’une URL personnalisée dans l’éditeur de personnalisation, les fonctions helper et l’appartenance aux audiences sont désactivées pour des raisons de sécurité.
 >
 >Les espaces ne sont pas pris en charge dans les jetons de personnalisation utilisés dans les URL.
 
@@ -105,7 +105,7 @@ Le volet de navigation vous permet de sélectionner la source pour la personnali
 * **[!UICONTROL Attributs cibles]** : ce dossier est spécifique aux campagnes orchestrées. Il contient des attributs calculés directement dans la zone de travail de la campagne. [Découvrez comment ajouter une personnalisation dans les campagnes orchestrées.](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL Audiences]** : répertorie toutes les audiences créées dans le service de segmentation d’Adobe Experience Platform. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} plus d’informations sur la segmentation.
 * **[!UICONTROL Décisions d’offre]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Attributs contextuels]** : lorsqu’une activité d’action de canal (e-mail, notification push, SMS) est utilisée dans un parcours ou une campagne, des attributs contextuels liés aux événements et aux propriétés sont disponibles pour la personnalisation. Un exemple de personnalisation utilisant les attributs contextuels est présenté dans [cette section](personalization-use-case.md).
+* **[!UICONTROL Attributs contextuels]** : lorsqu’une activité d’action de canal (e-mail, notification push, SMS) est utilisée dans un parcours ou une campagne, des attributs contextuels liés aux événements et aux propriétés sont disponibles pour la personnalisation. Vous trouverez un exemple de personnalisation utilisant des attributs contextuels dans [cette section](personalization-use-case.md).
 
 >[!NOTE]
 >

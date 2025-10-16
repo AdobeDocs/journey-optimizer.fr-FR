@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, aide, cas d’utilisation, personnalisation
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 97%
@@ -105,7 +105,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      En savoir plus sur le type de données de nom de personne dans la documentation d’[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target="_blank"}.
+      En savoir plus sur le type de données de nom de personne dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
@@ -344,4 +344,4 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 Découvrez comment utiliser les fonctions d’assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

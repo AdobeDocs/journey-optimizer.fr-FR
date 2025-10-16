@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: ht
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -210,7 +210,7 @@ Dans la section Edge Delivery de la trace Assurance, dans les détails d’exéc
 
 * Comment transmettre un attribut contextuel de la requête en tant que paramètre à une recherche de données externe ?
 
-  Utilisez le menu Attributs contextuels > Train de données > Événement pour parcourir le schéma d’événement d’expérience que vous utilisez et insérer l’attribut approprié en tant que valeur de paramètre, comme suit :
+  Utilisez le menu Attributs contextuels > Flux de données > Événement pour parcourir le schéma d’événement d’expérience que vous utilisez et insérer l’attribut approprié en tant que valeur de paramètre comme suit :
 
   ```
   {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 24baaa2438c6bbdddd582c71dbdd36188d12f905
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -73,7 +73,7 @@ Ils sont triés par date de création : les fragments d’expression récemment 
 
 >[!NOTE]
 >
->Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans un contenu [SMS](../sms/create-sms.md#sms-content) ou [notification push](../push/design-push.md), les sauts de ligne sont conservés. Veillez donc à tester votre [SMS](../sms/send-sms.md) ou [notification push](../push/send-push.md) avant de l’envoyer.
+>Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans un contenu [SMS](../sms/create-sms.md#sms-content) ou [notification push](../push/design-push.md), les sauts de ligne sont conservés. Veillez donc à tester votre message [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) avant de l’envoyer.
 
 ## Utiliser des variables implicites {#implicit-variables}
 
