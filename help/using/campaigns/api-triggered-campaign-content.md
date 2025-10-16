@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -49,7 +49,7 @@ Notez que, pour l’instant, aucun attribut contextuel n’est disponible dans l
 
 **À lire absolument**
 
-* Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 200 Ko et sont toujours considérés de type chaîne.
+* Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 200 Ko et sont toujours considérés de type chaîne.
 * La syntaxe `context.system` est réservée à l’utilisation interne d’Adobe et ne doit pas être utilisée pour transmettre des attributs contextuels.
 * Contrairement aux événements activés pour le profil, les données contextuelles transmises dans l’API REST sont utilisées pour une communication ponctuelle et ne sont pas stockées par rapport au profil. Au maximum, le profil est créé avec les détails de l’espace de noms, s’il a été détecté comme manquant.
 * L’utilisation d’un grand nombre de données contextuelles importantes dans votre contenu peut avoir un impact sur les performances.

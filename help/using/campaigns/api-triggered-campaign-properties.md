@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ Pour créer une campagne déclenchée par API, procédez comme suit :
 
    * **[!UICONTROL Déclenchée par API - Marketing]** : sélectionnez ce type de campagne déclenchée par API pour envoyer des communications marketing personnalisées aux audiences ciblées.
 
-   * **[!UICONTROL Déclenchée par API - Transactionnelle]** : les campagnes transactionnelles sont utilisées pour envoyer des messages transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : demande de réinitialisation du mot de passe, achat dans le panier, etc.
+   * **[!UICONTROL Déclenchées par API - Transactionnelles]** - Les campagnes transactionnelles sont destinées à envoyer des messages transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : demande de réinitialisation de mot de passe, achat de panier, etc.
 
    ![](assets/api-triggered-modal.png)
 

@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: optimisation de campagne, expérimentation, ciblage, test A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -90,7 +90,7 @@ Pour configurer le ciblage, suivez les étapes ci-dessous.
 
 1. [Activez](review-activate-campaign.md) votre parcours ou campagne.
 
-Une fois la campagne ou le parcours actif, le contenu adapté à chaque cible est envoyé : les personnes vivant aux États-Unis reçoivent un message spécifique, les personnes vivant en France un message différent, et ainsi de suite.
+Une fois le parcours/la campagne en ligne, le contenu adapté à chaque cible est envoyé afin que les résidents des États-Unis reçoivent un message spécifique, les résidents de la France un message différent, etc.
 
 <!--Default content:
 
@@ -144,7 +144,7 @@ Suivez le succès de votre campagne avec les rapports de [parcours](../reports/j
 
 Journey Optimizer permet également de combiner le ciblage et les expériences au sein d’un seul parcours ou d’une seule campagne afin de créer des stratégies plus sophistiquées.
 
-En effet, il est possible d’utiliser le ciblage pour créer plusieurs variantes et, pour chacune d’elles, de recourir à l’expérimentation afin d’optimiser davantage chaque contenu. Cela garantit que les expériences sont propres à chaque règle de ciblage et ne s’étendent pas aux variantes.
+En effet, vous pouvez utiliser le ciblage pour créer plusieurs variantes et, pour chaque variante, utiliser l’expérimentation pour optimiser davantage chaque contenu. Cela garantit que les expériences sont propres à chaque règle de ciblage et ne s’étendent pas aux variantes.
 
 Par exemple, il est possible de tester une « promotion -50 % » par rapport à une « carte-cadeau de 50 $ » pour la clientèle américaine, et d’exécuter un test différent pour la clientèle européenne, comme « livraison gratuite pour toute commande supérieure à 50 € » par rapport à « 20 % de réduction sur l’achat suivant ».
 
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Apprenez à tirer parti de l’optimisation des messages dans les campagnes déclenchées par des actions ou des API. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
