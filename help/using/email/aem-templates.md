@@ -23,7 +23,7 @@ ht-degree: 95%
 >[!AVAILABILITY]
 >
 >L’intégration à Adobe Experience Manager est actuellement disponible en version Beta pour certains utilisateurs et utilisatrices uniquement.
->> En tant qu’utilisateur ou utilisatrice de la version Beta, complétez [ce formulaire](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} pour nous faire part de vos commentaires.
+>&#x200B;> En tant qu’utilisateur ou utilisatrice de la version Beta, complétez [ce formulaire](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} pour nous faire part de vos commentaires.
 
 Adobe Journey Optimizer vous permet de créer des messages personnalisés via Adobe Experience Manager Sites. Commencez par concevoir vos modèles à l’aide de sources de contenu d’Adobe Experience Manager, puis envoyez-les à Adobe Journey Optimizer. Une fois partagés, ces modèles sont accessibles dans le concepteur d’e-mail d’Adobe Journey Optimizer, ce qui facilite la rédaction et l’envoi des messages à l’audience cible.
 
