@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
+source-git-commit: faf6e63e3951b67997836107ae518b294526206b
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 69%
+ht-degree: 77%
 
 ---
 
@@ -83,25 +83,25 @@ Lors de l’interrogation d’événements d’étape de parcours pour des enreg
 
 Vous trouverez ci-dessous des définitions, des causes courantes et des étapes de dépannage pour les `eventTypes` de rejet les plus fréquents :
 
-* EXTERNAL_KEY_COMPUTATION_ERROR : le système n’a pas pu calculer un identifiant unique (clé externe) pour le client à partir des données d’événement.
+* **EXTERNAL_KEY_COMPUTATION_ERROR** : le système n’a pas pu calculer un identifiant unique (clé externe) pour le client ou la cliente à partir des données d’événement.
 
   **Causes courantes** : identifiants de client manquants ou incorrects (par exemple, e-mail, ID de client) dans la payload de l’événement.
 
   **Dépannage** : vérifiez la configuration de l’événement pour les identifiants requis et assurez-vous que les données d’événement sont complètes et correctement formatées.
 
-* NO_INTEREST_PARCOURS_FOR_SEGMENTMEMBERSHIP_EVENT : un événement de qualification du segment a été reçu, mais aucun parcours n’est configuré pour répondre à ce segment.
+* **NO_INTERESTED_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT** : un événement de qualification de segment a été reçu, mais aucun parcours n’est configuré pour répondre à ce segment.
 
   **Causes courantes** : aucun parcours n’utilise le segment comme déclencheur, les parcours sont en état de brouillon ou d’arrêt ou les identifiants de segment ne correspondent pas.
 
   **Dépannage** : vérifiez qu’au moins un parcours est actif et configuré pour le segment, puis vérifiez les identifiants de segment.
 
-* PARCOURS_INSTANCE_ID_NOT_CREATE : le système n’a pas réussi à créer d’instance de parcours pour le client.
+* **JOURNEY_INSTANCE_ID_NOT_CREATE** : le système n’a pas réussi à créer d’instance de parcours pour le client ou la cliente.
 
   **Causes courantes** : événements en double, volume d’événements élevé, contraintes de ressources système.
 
   **Dépannage** : implémentez la déduplication, évitez les pics de trafic, optimisez la conception du parcours et contactez l’assistance en cas de persistance.
 
-* EVENT_WITH_NO_PARCOURS : événement reçu, mais aucun parcours actif n’est configuré pour y répondre
+* **EVENT_WITH_NO_PARCOURS** : événement reçu, mais aucun parcours actif n’est configuré pour y répondre
 
   **Causes courantes** : incohérence entre le nom et l’ID de l’événement, parcours non publié, sandbox/organisation incorrecte, incompatibilité entre le mode de test et le profil.
 
