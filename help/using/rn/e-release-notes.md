@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
+source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 44%
+source-wordcount: '1034'
+ht-degree: 41%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 44%
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées à la fin de chaque mois dans les [notes de mise à jour](release-notes.md).
 
 
-## Notes de mise à jour préliminaires du 25 octobre {#25-10-rn}
+## Notes de mise à jour préliminaires du 25 octobre {#oct-25-10-rn}
 
 **Les notes de version préliminaire ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les notes de mise à jour, à la date de publication.
 
@@ -196,6 +196,24 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Règles de ciblage réutilisables</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer vous permet désormais de créer des règles à partir d’un menu d’interface utilisateur dédié et de les exploiter lors de la création du ciblage, dans le cadre de l’optimisation du contenu d’une campagne ou d’un parcours, dans l’activité Optimiser le parcours .</p>
+<p>Les règles de ciblage sont actuellement disponibles pour les organisations qui ont acheté le module complémentaire Decisioning et elles sont disponibles à la demande pour les autres organisations (disponibilité limitée).</p>
+<p>Cette fonctionnalité sera progressivement déployée pour tous les clients. En attendant, contactez votre représentant Adobe pour obtenir l’accès.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -246,7 +264,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <td>
 <p>Optimisé par <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’agent d’expérimentation est disponible dans Journey Optimizer. </p>
 <p>L’agent d’expérimentation est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences numériques sur des sites web, des e-mails, des messages push et des applications. Cela vous permet d’exécuter des expériences plus efficacement, d’organiser les objectifs commerciaux et de générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 10 octobre 2025</p>
 </td>
 </tr>
@@ -297,13 +315,9 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 ### Améliorations
 
-**Sélection de règles réutilisables dans le ciblage**
-
-Vous pouvez désormais utiliser le créateur de règles lors de l’utilisation des règles de ciblage avec la fonctionnalité d’optimisation des messages dans les parcours et les campagnes. <!-- [Read more](../FILE.md) -->
-
 **Champ d’exécution pour le canal WhatsApp**
 
-En plus des e-mails et SMS, il est désormais possible de mettre à jour le champ d&#39;exécution par défaut de WhatsApp. Il est également possible de remplacer le champ d&#39;exécution défini globalement dans les paramètres avancés de l&#39;activité parcours WhatsApp ou dans la configuration du canal WhatsApp. <!-- [Read more](../FILE.md) -->
+Outre les e-mails et les SMS, vous pouvez savoir mettre à jour le champ d’exécution par défaut de vos diffusions WhatsApp au niveau du sandbox. Il est également possible de remplacer le champ d&#39;exécution défini globalement en le modifiant dans les paramètres avancés de l&#39;activité parcours WhatsApp ou dans la configuration du canal WhatsApp. <!-- [Read more](../FILE.md) -->
 
 **Prise en charge des attributs personnalisés pour l’adresse Mailto (unsubscribe)**
 
