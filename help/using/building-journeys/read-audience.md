@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 100%
+source-wordcount: '2450'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,10 @@ Utilisez l’activité **Lecture d’audience** pour que toutes les personnes d�
 Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’application Luma » créée dans le cas d’utilisation de [Création d’audiences](../audience/about-audiences.md). Avec l’activité Lecture d’audience, vous pouvez faire en sorte que toutes les personnes appartenant à cette audience rejoignent un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, retardateurs, événements, actions.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+
+>[!NOTE]
+>
+>Lorsqu’une activité Lecture d’audience s’exécute, le système génère des événements internes (appelés événements `segmentExportJob`) pour suivre le cycle de vie de l’opération d’exportation d’audience. Ces événements sont enregistrés au niveau de l’activité, et non par profil individuel, et peuvent être interrogés à des fins de surveillance et de dépannage. En savoir plus sur [requête d’événements Lecture d’audience](../reports/query-examples.md#read-segment-queries).
 
 >[!CAUTION]
 >
@@ -303,4 +307,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

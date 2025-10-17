@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +26,10 @@ Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de 
 Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Optimizer] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations de parcours sont combinées avec les données d’Adobe Experience Platform, à partir d’autres propriétés numériques ou de propriétés hors ligne, pour offrir une vue plus complète des performances.
 
 [!DNL Journey Optimizer] crée automatiquement les schémas et les flux nécessaires dans les jeux de données d’Adobe Experience Platform pour chaque étape d’un parcours individuel. Un événement d’étape correspond à un individu qui se déplace d’un nœud à un autre d’un parcours. Par exemple, dans le cadre d’un parcours comportant un événement, une condition et une action, trois événements d’étape sont envoyés à Adobe Experience Platform.
+
+>[!NOTE]
+>
+>Outre les événements d’étape au niveau du profil, le système génère également des événements internes pour les activités **Lecture d’audience**. Ces événements, appelés événements `segmentExportJob`, enregistrent le cycle de vie du nœud Lecture d’audience (comme la création d’une tâche d’exportation, la mise en file d’attente, la fin d’exécution et les erreurs) et sont générés par activité Lecture d’audience, et non par profil individuel. Par conséquent, ces événements peuvent ne pas être associés à un identifiant de profil (UPMID). Ces événements internes sont utiles pour surveiller et dépanner les performances de lecture d’audience. Vous pouvez les interroger à l’aide des champs documentés dans la section [serviceEvents](../reports/sharing-field-list.md#servicevents-field). Pour obtenir des exemples de requête sur l’utilisation des événements segmentExportJob, voir [Requêtes liées à la lecture d’audience](../reports/query-examples.md#read-segment-queries).
 
 Il existe des cas où plusieurs événements peuvent être créés pour le même nœud. Par exemple, dans le cas de l’activité d’attente :
 
