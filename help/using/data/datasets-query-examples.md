@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
-workflow-type: ht
-source-wordcount: '958'
-ht-degree: 100%
+source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
+workflow-type: tm+mt
+source-wordcount: '1066'
+ht-degree: 89%
 
 ---
 
@@ -175,6 +175,10 @@ ORDER BY timestamp DESC;
 dans laquelle le format des dates est le suivant : `YYYY-MM-DD HH:MM:SS`.
 
 Une fois identifiées, supprimez ces adresses de la liste de suppression de Journey Optimizer. [En savoir plus](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+>[!NOTE]
+>
+>Lors du référencement de l’identityMap dans le jeu de données d’événement de retour de message, notez qu’il reflète uniquement l’identité utilisée au moment de l’exécution. Pour les notifications push, un événement « envoyé » ne s’appuierait que sur l’ECID lié au jeton push utilisé pour envoyer cette notification, tandis qu’un événement « d’exclusion » pourrait s’appuyer sur une identité personnalisée. Par exemple, si un profil a été exclu car aucun jeton push n’a été trouvé, l’identité utilisée au niveau de la campagne de parcours ou d’action sera sélectionnée pour enregistrer cet événement. Si vous avez besoin d’espaces de noms supplémentaires (par exemple, d’identifiants personnalisés), joignez ces enregistrements de commentaires à un jeu de données lié au profil (par exemple, des jeux de données profile_snapshot) pour récupérer la liste complète des identités.
 
 
 
