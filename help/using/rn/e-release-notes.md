@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
+source-git-commit: 0328ffb49ca72d293c0e1a729441cde6c3a16b45
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 41%
+source-wordcount: '1102'
+ht-degree: 43%
 
 ---
 
@@ -170,7 +170,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin d’effectuer un rendu dynamique du meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
-<p> Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -218,6 +218,25 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
+<th><strong>Thèmes dans le concepteur d’e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais appliquer rapidement des thèmes préapprouvés pour garantir la cohérence de la marque dans tous les e-mails, accélérer le processus de création de vos campagnes et produire de manière autonome des e-mails de haute qualité tout en réduisant la dépendance à l’égard des équipes de conception.</p>
+<p>Publiée auparavant en version bêta, cette fonctionnalité est désormais disponible pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>Pour plus d’informations, consultez la <a href="../email/apply-email-themes.md">documentation détaillée</a>.</p>
+<!--p>Availability date: October 22, 2025</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nouvelles alertes de Parcours</strong><br/></th>
 </tr>
 </thead>
@@ -227,7 +246,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <p>De nouvelles alertes préconfigurées sont disponibles pour surveiller l’exécution de votre parcours :</p>
 <ul><li><a href="../reports/alerts.md#alert-discard-rate">Taux de rejet du profil dépassé </a> : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil</li>
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Taux d’erreur des actions personnalisées dépassé</a> : ratio des erreurs d’actions personnalisées par rapport aux appels HTTP réussis au cours des 5 dernières minutes ayant dépassé le seuil</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">Taux d’erreur de profil dépassé</a> : ratio de profils en erreur par rapport aux profils saisis au cours des 5 dernières minutes ayant dépassé le seuil</li>.</ul> <p>Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours et non globalement.</p>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Taux d’erreur de profil dépassé</a> : ratio de profils en erreur par rapport aux profils saisis au cours des 5 dernières minutes qui a dépassé le seuil.</li></ul> <p>Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours et non globalement.</p>
 <p>Pour plus d’informations, consultez la <a href="../reports/alerts.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 14 octobre 2025</p>
 </td>
@@ -264,7 +283,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <td>
 <p>Optimisé par <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’agent d’expérimentation est disponible dans Journey Optimizer. </p>
 <p>L’agent d’expérimentation est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences numériques sur des sites web, des e-mails, des messages push et des applications. Cela vous permet d’exécuter des expériences plus efficacement, d’organiser les objectifs commerciaux et de générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 10 octobre 2025</p>
 </td>
 </tr>
