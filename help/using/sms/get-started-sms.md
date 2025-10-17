@@ -201,7 +201,7 @@ Découvrez comment configurer, créer et inclure des messages SMS dans vos parco
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Découvrez les fonctionnalités complètes de messagerie mobile que Adobe Journe
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430372?captions=fre_fr&quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Découvrez comment configurer et envoyer des messages RCS interactifs d’une ma
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
 
 +++
 
