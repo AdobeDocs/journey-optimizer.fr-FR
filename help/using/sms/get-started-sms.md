@@ -49,7 +49,7 @@ Envoyez des messages interactifs de marque avec des fonctionnalités avancées t
 
 **Personalization et contenu dynamique**
 
-Créez des SMS personnalisés à l’aide de l’éditeur de personnalisation. Ajoutez des attributs de profil, du contenu conditionnel et des données dynamiques pour personnaliser les messages en fonction des destinataires individuels. [En savoir plus sur la personnalisation ](../personalization/personalize.md)
+Créez des SMS personnalisés à l’aide de l’éditeur de personnalisation. Ajoutez des attributs de profil, du contenu conditionnel et des données dynamiques pour personnaliser les messages en fonction des destinataires individuels. [En savoir plus sur la personnalisation &#x200B;](../personalization/personalize.md)
 
 **Prise en charge de plusieurs fournisseurs**
 
