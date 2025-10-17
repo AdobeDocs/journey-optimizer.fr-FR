@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: 9ec2255cd618035179b5dbc01b2e15374af65f3b
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '991'
 ht-degree: 100%
 
 ---
@@ -41,14 +41,16 @@ Améliorez et optimisez votre contenu pour n’importe quel écran ou navigateur
 
 L’intégration de Dynamic Media à Adobe Journey Optimizer est disponible à la fois pour Dynamic Media en [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} et Dynamic Media [avec OpenAPI](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
 
+<!--
 >[!AVAILABILITY]
 >
->Les anciennes versions d’Outlook (y compris la version de 2016) ne prennent pas en charge l’affichage de contenu avec Dynamic Media. Nous travaillons activement à une solution permanente pour améliorer la compatibilité. En attendant, appliquez les consignes suivantes :
+>Older versions of Outlook (including 2016) do not support rendering of content with Dynamic Media.  We are actively working on a permanent fix to enhance compatibility. In the meantime, apply the following guidelines:
 >
->* Pour les URL Dynamic Media Scene7 : ajoutez `?bfc=on` à l’URL de l’image. Cela permet la négociation automatique du format, ce qui garantit la fourniture du format d’image le plus compatible selon les capacités du client.
+>* For Dynamic Media Scene7 URLs: Append `?bfc=on` to the image URL. This enables automatic format negotiation, ensuring the most compatible image format is delivered based on the client's capabilities.
 >
->* Pour Dynamic Media avec OpenAPI : utilisez le format `.avif`. Ce format comprend des mécanismes de secours intégrés afin de fournir un format compatible lorsque cela est nécessaire.
+>* For Dynamic Media with Open API: Use the `.avif` format. This format includes built-in fallback mechanisms to deliver a compatible format when necessary.
 >
+-->
 
 Pour ajouter une ressource Adobe Experience Manager à votre contenu HTML, procédez comme suit :
 
@@ -256,5 +258,5 @@ Découvrez comment intégrer Adobe Experience Manager Dynamic Media à Adobe
 
 Ce tutoriel explique comment modifier des images directement dans AJO, ajouter des superpositions de texte à l’aide du mode HTML, créer des modèles Dynamic Media dans AEM à des fins d’hyper-personnalisation et personnaliser des campagnes en adaptant le contenu à différents segments d’audience. Cette intégration permet aux spécialistes du marketing de créer efficacement des campagnes attrayantes et personnalisées sans passer d’une application à l’autre.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463784/?learn=on&enablevpops=&autoplay=true&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 
