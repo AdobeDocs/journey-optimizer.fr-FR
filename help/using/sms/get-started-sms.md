@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0a9c36b75f7433eadbc8894fb7252a8f846c78b2
+source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 30%
+source-wordcount: '812'
+ht-degree: 27%
 
 ---
 
@@ -49,7 +49,7 @@ Envoyez des messages interactifs de marque avec des fonctionnalités avancées t
 
 **Personalization et contenu dynamique**
 
-Créez des SMS personnalisés à l’aide de l’éditeur de personnalisation. Ajoutez des attributs de profil, du contenu conditionnel et des données dynamiques pour personnaliser les messages en fonction des destinataires individuels. [En savoir plus sur la personnalisation &#x200B;](../personalization/personalize.md)
+Créez des SMS personnalisés à l’aide de l’éditeur de personnalisation. Ajoutez des attributs de profil, du contenu conditionnel et des données dynamiques pour personnaliser les messages en fonction des destinataires individuels. [En savoir plus sur la personnalisation ](../personalization/personalize.md)
 
 **Prise en charge de plusieurs fournisseurs**
 
@@ -132,40 +132,66 @@ Ces étapes de configuration sont généralement effectuées par un administrate
 
 ## Ressources supplémentaires {#additional-resources}
 
-**Guides de configuration**
+Parcourez les rubriques ci-dessous pour en savoir plus sur les SMS dans Journey Optimizer.
+
++++Guides de configuration
+
+Découvrez comment configurer votre environnement SMS :
 
 * [Présentation de la configuration du canal SMS](sms-configuration.md)
 * [Créer des configurations de canal SMS](sms-configuration-surface.md)
 * [Configurer des sous-domaines SMS pour le raccourcissement des URL](sms-subdomains.md)
 
-**Guides de configuration des fournisseurs**
++++
+
++++Guides de configuration du fournisseur
+
+Configuration détaillée de chaque fournisseur de services SMS :
 
 * [Configurer le fournisseur Sinch](sms-configuration-sinch.md)
 * [Configurer le fournisseur Twilio](sms-configuration-twilio.md)
 * [Configurer le fournisseur Infobip](sms-configuration-infobip.md)
 * [Configuration d’un fournisseur de SMS personnalisé](sms-configuration-custom.md)
 
-**Création et gestion de contenu**
++++
+
++++Création et gestion de contenu
+
+Créez, personnalisez et gérez le contenu de votre message texte :
 
 * [Créer des messages SMS/MMS](create-sms.md)
 * [Prévisualiser, tester et envoyer des messages](send-sms.md)
 * [Personalization dans les messages texte](../personalization/personalize.md)
 * [Contenu dynamique](../personalization/get-started-dynamic-content.md)
 
-**Conformité et confidentialité**
++++
+
++++Conformité et confidentialité
+
+Assurez-vous que vos SMS sont conformes aux réglementations et aux normes de confidentialité :
 
 * [Gestion du droit d&#39;opposition](sms-opt-out.md)
 * [Confidentialité et consentement](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-**Suivi des performances**
++++
+
++++Suivi des performances
+
+Surveillez et analysez vos campagnes SMS et les performances du parcours :
 
 * [Rapports de campagne par SMS](../reports/campaign-global-report-cja-sms.md)
 * [Rapports de parcours SMS](../reports/journey-global-report-cja-sms.md)
 
-**Intégration de Parcours et de Campaign**
++++
+
++++Intégration de Parcours et de Campaign
+
+Découvrez comment incorporer des SMS dans vos parcours et campagnes client :
 
 * [Ajouter des SMS aux parcours](../building-journeys/journeys-message.md)
 * [Créer des campagnes SMS](../campaigns/create-campaign.md)
+
++++
 
 ## Vidéos pratiques {#videos}
 
@@ -175,7 +201,7 @@ Découvrez comment configurer, créer et inclure des messages SMS dans vos parco
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -185,7 +211,7 @@ Découvrez les fonctionnalités complètes de messagerie mobile que Adobe Journe
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430372?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -195,7 +221,7 @@ Découvrez comment configurer et envoyer des messages RCS interactifs d’une ma
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
