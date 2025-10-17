@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
+source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 27%
@@ -49,7 +49,7 @@ Envoyez des messages interactifs de marque avec des fonctionnalités avancées t
 
 **Personalization et contenu dynamique**
 
-Créez des SMS personnalisés à l’aide de l’éditeur de personnalisation. Ajoutez des attributs de profil, du contenu conditionnel et des données dynamiques pour personnaliser les messages en fonction des destinataires individuels. [En savoir plus sur la personnalisation &#x200B;](../personalization/personalize.md)
+Créez des SMS personnalisés à l’aide de l’éditeur de personnalisation. Ajoutez des attributs de profil, du contenu conditionnel et des données dynamiques pour personnaliser les messages en fonction des destinataires individuels. [En savoir plus sur la personnalisation ](../personalization/personalize.md)
 
 **Prise en charge de plusieurs fournisseurs**
 
@@ -106,7 +106,7 @@ Ces étapes de configuration sont généralement effectuées par un administrate
 <a href="create-sms.md">
 <img alt="Lead" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Créer un message texte</strong>
+<div><a href="create-sms.md"><strong>Créer un message texte</strong></a>
 </div>
 <p>Concevoir et personnaliser votre contenu SMS, MMS ou RCS</p>
 </td>
@@ -201,7 +201,7 @@ Découvrez comment configurer, créer et inclure des messages SMS dans vos parco
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Découvrez les fonctionnalités complètes de messagerie mobile que Adobe Journe
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430372?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Découvrez comment configurer et envoyer des messages RCS interactifs d’une ma
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
