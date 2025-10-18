@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
+source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 94%
 
 ---
 
@@ -114,6 +114,8 @@ La période de conservation d’une page miroir est de **90 jours**. Une fois c
 >[!CAUTION]
 >
 >* Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées et chiffrées nécessaires pour générer l’e-mail original. Par conséquent, l’utilisation d’attributs personnalisés dotés de valeurs élevées peut générer des URL de pages miroir longues et empêcher le fonctionnement du lien dans les navigateurs web appliquant une longueur maximale d’URL.
+>
+>* Lors de la création d&#39;emails qui reposent fortement sur la personnalisation d&#39;exécution (par exemple, les boucles `#each`, les objets imbriqués, les données de payload volumineuses), les URL de page miroir peuvent devenir trop volumineuses, en particulier dans les campagnes déclenchées par l&#39;API qui utilisent des données contextuelles volumineuses provenant des payloads. Cela peut entraîner des erreurs HTTP (404, 422, 502) dans les navigateurs ou les clients de messagerie. Adobe recommande de limiter la largeur et la profondeur des champs dynamiques, de réduire la dépendance à l’égard de fragments complexes et d’aplatir les structures de personnalisation pour éviter les échecs de lien.
 >
 >* Dans le [BAT](../content-management/proofs.md) envoyé aux profils de test, le lien vers la page miroir n’est pas actif. Il n’est activé que dans les messages finaux.
 
