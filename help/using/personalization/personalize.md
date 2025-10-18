@@ -105,4 +105,4 @@ Découvrez comment ajouter une personnalisation basée sur un profil à un messa
 
 Découvrez comment tirer parti du terrain de jeu de l’éditeur de personnalisation pour écrire et tester du code de personnalisation à l’aide de données d’exemple.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475954?captions=fre_fr&quality=12)

@@ -31,4 +31,4 @@ Pour plus d’informations, veuillez lire le guide sur la [composition d’audie
 
 Découvrez la composition d’audiences fédérées dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3450882?captions=fre_fr&quality=12)
