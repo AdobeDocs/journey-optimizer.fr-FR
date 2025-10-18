@@ -35,7 +35,7 @@ Principal de la conception d’e-mails avec le Designer d’e-mail, création de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
 
 Concevoir des notifications push
 
