@@ -11,7 +11,7 @@ keywords: parcours, questions, réponses, dépannage, aide, guide
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
+source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Adobe Journey Optimizer prend en charge quatre types de parcours :
 * **parcours de qualification d’audience** : déclenché lorsque les profils sont qualifiés pour un segment d’audience spécifique (ou en sortent). Les profils rejoignent le parcours car ils répondent aux critères d’audience.
 * **parcours d’événement métier** : ils sont déclenchés par des événements métier (par exemple, les mises à jour de stocks, les alertes météorologiques) qui affectent plusieurs profils simultanément.
 
-En savoir plus sur les [types de parcours &#x200B;](entry-management.md#types-of-journeys).
+En savoir plus sur les [types de parcours ](entry-management.md#types-of-journeys).
 
 +++
 
@@ -56,9 +56,9 @@ Les **[campagnes](../campaigns/get-started-with-campaigns.md)** se divisent en t
 
 * **[Campagnes d’action](../campaigns/create-campaign.md)** : communications ponctuelles ou récurrentes envoyées à une audience spécifique, idéales pour les messages autonomes tels que les annonces promotionnelles ou les newsletters.
 * **[Campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)** : campagnes déclenchées par le biais d’appels d’API, ce qui permet l’intégration à des systèmes externes pour envoyer des messages en fonction des événements en temps réel ou de la logique commerciale.
-* **[Campagnes orchestrées](../orchestrated/get-started-orchestrated.md)** : campagnes à plusieurs étapes basées sur l’audience, créées sur une zone de travail qui peut inclure des conditions, des temps d’attente et plusieurs actions pour créer des expériences planifiées et coordonnées.
+* **[Campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)** : campagnes à plusieurs étapes basées sur l’audience, créées sur une zone de travail qui peut inclure des conditions, des temps d’attente et plusieurs actions pour créer des expériences planifiées et coordonnées.
 
-**Bonne pratique** : utilisez [parcours](journey.md) pour un engagement complexe déclenché par un événement avec une orchestration avancée ; [campagnes d’action](../campaigns/create-campaign.md) pour des communications planifiées basées sur une audience ; [campagnes déclenchées par une API](../campaigns/api-triggered-campaigns.md) pour un déclenchement programmatique à partir de systèmes externes ; et [campagnes orchestrées](../orchestrated/get-started-orchestrated.md) pour des communications à plusieurs étapes avec des exigences spécifiques à la campagne.
+**Bonne pratique** : utilisez [parcours](journey.md) pour un engagement complexe déclenché par un événement avec une orchestration avancée ; [campagnes d’action](../campaigns/create-campaign.md) pour des communications planifiées basées sur une audience ; [campagnes déclenchées par une API](../campaigns/api-triggered-campaigns.md) pour un déclenchement programmatique à partir de systèmes externes ; et [campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) pour des communications à plusieurs étapes avec des exigences spécifiques à la campagne.
 
 +++
 
@@ -72,7 +72,7 @@ Un parcours comprend :
 * **Actions de canal intégrées** : fonctionnalités de messagerie natives pour les e-mails, SMS, notifications push et autres canaux
 * **Actions personnalisées** : intégration à des systèmes tiers
 
-En savoir plus sur les [activités de parcours &#x200B;](about-journey-activities.md).
+En savoir plus sur les [activités de parcours ](about-journey-activities.md).
 
 +++
 
@@ -119,7 +119,7 @@ Les prérequis dépendent de votre type de parcours :
 * **Enrichissement des données** : configurez les sources de données pour récupérer des informations supplémentaires
 * **Intégrations tierces** : configuration des actions personnalisées si vous utilisez des systèmes externes
 
-En savoir plus sur la configuration du parcours [&#128279;](../configuration/about-data-sources-events-actions.md).
+En savoir plus sur la configuration du parcours [](../configuration/about-data-sources-events-actions.md).
 
 +++
 
@@ -147,7 +147,7 @@ Vous pouvez ajouter des conditions à l’aide de l’activité **Condition** de
 * Divisez le parcours en plusieurs chemins d’accès en fonction des attributs de profil, de l’appartenance à l’audience, des événements ou des données contextuelles
 * Définir des chemins de temporisation pour les profils qui ne remplissent pas la condition dans un délai spécifié
 
-En savoir plus sur les [&#x200B; conditions &#x200B;](condition-activity.md).
+En savoir plus sur les [ conditions ](condition-activity.md).
 
 +++
 
@@ -169,7 +169,7 @@ Utilisez l’activité **Attente** pour suspendre le parcours pendant une durée
 * Création de campagnes goutte-à-goutte avec des intervalles temporels
 * Combinaison avec des conditions pour créer des scénarios de temporisation
 
-En savoir plus sur les [&#x200B; activités d’attente &#x200B;](wait-activity.md).
+En savoir plus sur les [ activités d’attente ](wait-activity.md).
 
 +++
 
@@ -225,7 +225,7 @@ Créez un parcours déclenché par un événement à l’aide d’un événement
    * **Chemin de temporisation (pas d’achat)** : envoyez un e-mail de rappel d’abandon avec le contenu du panier
 5. **Facultatif** : ajoutez un autre événement de réaction avec une temporisation (24 heures) et envoyez un deuxième rappel avec un incentives (par exemple, une remise de 10 %)
 
-En savoir plus sur les [cas d’utilisation de parcours &#x200B;](jo-use-cases.md) et les [événements de réaction](reaction-events.md).
+En savoir plus sur les [cas d’utilisation de parcours ](jo-use-cases.md) et les [événements de réaction](reaction-events.md).
 
 +++
 
@@ -274,7 +274,7 @@ En savoir plus sur la [gestion des fuseaux horaires](timezone-management.md).
 
 **Conseil** : utilisez les règles de limitation du parcours pour limiter le nombre total de messages qu’un client ou une cliente reçoit sur tous les parcours.
 
-En savoir plus sur les [activités d’attente](wait-activity.md) et la limitation du parcours [&#128279;](../conflict-prioritization/journey-capping.md).
+En savoir plus sur les [activités d’attente](wait-activity.md) et la limitation du parcours [](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -302,7 +302,7 @@ Lorsque vous publiez un parcours :
 * Les messages et les actions commencent à s’exécuter pour les profils qui se déplacent dans le parcours
 * Vous ne pouvez modifier que des éléments limités sur un parcours publié (vous devez créer une nouvelle version si vous souhaitez en modifier davantage)
 
-En savoir plus sur la [publication de parcours &#x200B;](publishing-the-journey.md).
+En savoir plus sur la [publication de parcours ](publishing-the-journey.md).
 
 +++
 
@@ -331,7 +331,7 @@ Oui, mais avec des limitations. Vous pouvez modifier certains éléments d’un 
 
 Les profils déjà dans le parcours termineront la version originale, tandis que les nouveaux profils entreront la nouvelle version.
 
-En savoir plus sur les [versions de parcours &#x200B;](journey-ui.md#journey-versions).
+En savoir plus sur les [versions de parcours ](journey-ui.md#journey-versions).
 
 +++
 
@@ -363,7 +363,7 @@ En savoir plus sur les [parcours d’envoi](end-journey.md).
 * Utilisez cette option pour les situations urgentes ou les erreurs critiques
 * Exemple : rappel de produit nécessitant l’arrêt immédiat des messages promotionnels
 
-En savoir plus sur les [envoi de parcours &#x200B;](end-journey.md) et [publication de parcours &#x200B;](publishing-the-journey.md).
+En savoir plus sur les [envoi de parcours ](end-journey.md) et [publication de parcours ](publishing-the-journey.md).
 
 +++
 
@@ -377,7 +377,7 @@ Vous pouvez surveiller l’exécution du parcours à l’aide des éléments sui
 * **Rapport sur les Parcours à tout moment** : analysez les performances des parcours à l’aide de Customer Journey Analytics. Vous pouvez également consulter les résultats de l’exécution du test d’essai ici.
 * **Événements d’étape de Parcours** : accédez aux données d’exécution détaillées pour les rapports personnalisés
 
-En savoir plus sur les rapports de parcours [&#128279;](report-journey.md).
+En savoir plus sur les rapports de parcours [](report-journey.md).
 
 +++
 
@@ -407,7 +407,7 @@ Les événements d’étape de parcours sont des jeux de données générés aut
 * Suivre le comportement détaillé du profil
 * Création de modèles d’analyse et d’attribution avancés
 
-En savoir plus sur les [événements d’étape de parcours &#x200B;](../reports/sharing-overview.md).
+En savoir plus sur les [événements d’étape de parcours ](../reports/sharing-overview.md).
 
 +++
 
@@ -428,7 +428,7 @@ Journey Optimizer fournit plusieurs ressources de dépannage :
 * Expressions non valides dans les conditions ou la personnalisation
 * Paramètres de temporisation trop courts
 
-En savoir plus sur [résolution des problèmes liés aux parcours &#x200B;](troubleshooting.md).
+En savoir plus sur [résolution des problèmes liés aux parcours ](troubleshooting.md).
 
 +++
 
@@ -446,7 +446,7 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ Puis-je voir qui est actuellement dans mon parcours ?
 
-Oui. Utilisez le rapport dynamique sur les Parcours **&#x200B;**&#x200B;pour afficher :
+Oui. Utilisez le rapport dynamique sur les Parcours **** pour afficher :
 
 * Nombre de profils actuellement dans le parcours
 * Nombre de profils à chaque activité
@@ -455,7 +455,7 @@ Oui. Utilisez le rapport dynamique sur les Parcours **&#x200B;**&#x200B;pour aff
 
 Pour afficher des profils individuels, utilisez **événements d’étape de parcours** dans Customer Journey Analytics ou interrogez directement les jeux de données d’événement d’étape.
 
-En savoir plus sur les rapports dynamiques de parcours [&#128279;](report-journey.md).
+En savoir plus sur les rapports dynamiques de parcours [](report-journey.md).
 
 +++
 
@@ -565,7 +565,7 @@ Un **espace de noms** est un type d’identité (par exemple e-mail, ECID, numé
 
 **Bonne pratique** : choisissez un espace de noms qui identifie vos clients de manière fiable à tous les points de contact.
 
-En savoir plus sur les [&#x200B; espaces de noms d’identité &#x200B;](../audience/get-started-identity.md).
+En savoir plus sur les [ espaces de noms d’identité ](../audience/get-started-identity.md).
 
 +++
 
@@ -600,14 +600,14 @@ En savoir plus sur l’[optimisation de l’heure d’envoi](send-time-optimizat
 
 +++ Que sont les règles de limitation du parcours ?
 
-La limitation des Parcours **&#x200B;**&#x200B;vous permet de contrôler la manière dont les profils interagissent avec les parcours, d’éviter la fatigue des messages et d’assurer une expérience client optimale :
+La limitation des Parcours **** vous permet de contrôler la manière dont les profils interagissent avec les parcours, d’éviter la fatigue des messages et d’assurer une expérience client optimale :
 
 * **Limitation de l’entrée** : limitez le nombre de fois qu’un profil peut entrer des parcours au cours d’une période spécifiée
 * **Limitation de la simultanéité** : limitez le nombre de parcours dans lesquels un profil peut se trouver simultanément
 
 Vous pouvez définir le nombre maximal d’entrées ou la simultanéité par profil sur plusieurs parcours ou parcours spécifiques, définir des fenêtres temporelles (quotidiennes, hebdomadaires, mensuelles) et donner la priorité aux parcours lorsque plusieurs parcours se disputent le même profil.
 
-En savoir plus sur la limitation du parcours [&#128279;](../conflict-prioritization/journey-capping.md).
+En savoir plus sur la limitation du parcours [](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -640,7 +640,7 @@ L’activité **Saut** vous permet de faire passer des profils d’un parcours �
 
 Lorsqu’un profil atteint une activité Saut , il quitte le parcours en cours et entre dans le parcours cible à son point de départ.
 
-En savoir plus sur [&#x200B; l’activité Saut &#x200B;](jump.md).
+En savoir plus sur [ l’activité Saut ](jump.md).
 
 +++
 
@@ -669,7 +669,7 @@ Une série de bienvenue type comprend plusieurs points de contact sur plusieurs 
 * Surveillez les taux d’ouverture et ajustez la durée/le contenu en conséquence
 * Quitter les clients plus tôt s’ils convertissent ou s’engagent profondément
 
-En savoir plus sur les [cas d’utilisation de parcours &#x200B;](jo-use-cases.md).
+En savoir plus sur les [cas d’utilisation de parcours ](jo-use-cases.md).
 
 +++
 
@@ -738,7 +738,7 @@ En savoir plus sur les [événements métier](general-events.md).
 * Identifiez les jeux de données inclus dans votre politique de fusion pour connaître les données disponibles
 * Utilisez des politiques de fusion cohérentes entre les audiences et les parcours associés pour obtenir des résultats prévisibles
 
-En savoir plus sur les [&#x200B; politiques de fusion &#x200B;](../audience/get-started-profiles.md) et [&#x200B; gestion des identités &#x200B;](../audience/get-started-identity.md).
+En savoir plus sur les [ politiques de fusion ](../audience/get-started-profiles.md) et [ gestion des identités ](../audience/get-started-identity.md).
 
 +++
 
@@ -815,7 +815,7 @@ Affichage complet [mécanismes de sécurisation et limitations](../start/guardra
 * Logique de parcours de document et règles de gestion
 * Planifier le contrôle de version du parcours
 
-En savoir plus sur les [bonnes pratiques de conception de parcours &#x200B;](using-the-journey-designer.md).
+En savoir plus sur les [bonnes pratiques de conception de parcours ](using-the-journey-designer.md).
 
 +++
 
@@ -832,7 +832,7 @@ Lorsque les parcours approchent 50 activités, elles peuvent devenir très compl
 * Simplifier la logique avec des conditions plus efficaces
 * Vérifier si toutes les activités sont nécessaires
 
-En savoir plus sur la conception du parcours [&#128279;](using-the-journey-designer.md) et les [mécanismes de sécurisation et limitations](../start/guardrails.md).
+En savoir plus sur la conception du parcours [](using-the-journey-designer.md) et les [mécanismes de sécurisation et limitations](../start/guardrails.md).
 
 +++
 
@@ -842,15 +842,15 @@ En savoir plus sur la conception du parcours [&#128279;](using-the-journey-desig
 
 * Utilisez [entrée basée sur l’audience](read-audience.md) pour les communications par lots au lieu d’événements individuels
 * Implémentez des [temps d’attente](wait-activity.md) appropriés pour répartir le volume des messages
-* Utilisez les [&#x200B; règles de limitation &#x200B;](../conflict-prioritization/journey-capping.md) pour éviter la surcharge du système.
+* Utilisez les [ règles de limitation ](../conflict-prioritization/journey-capping.md) pour éviter la surcharge du système.
 * Optimisez la [logique de condition](condition-activity.md) pour réduire la complexité du traitement
 
 **Surveillance** :
 
-* Effectuez régulièrement le suivi de [mesures de parcours &#x200B;](report-journey.md)
+* Effectuez régulièrement le suivi de [mesures de parcours ](report-journey.md)
 * Surveillance des performances de l’API pour [actions personnalisées](using-custom-actions.md)
 * Consultez les taux d’erreur et les occurrences de délai d’expiration à l’aide [outils de dépannage](troubleshooting.md)
-* S’abonner à [des alertes de parcours &#x200B;](../reports/alerts.md) des échecs de parcours critiques
+* S’abonner à [des alertes de parcours ](../reports/alerts.md) des échecs de parcours critiques
 
 **Optimisation** :
 
