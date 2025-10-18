@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: contenu, conception, e-mail, notification push, sms, personnalisation, modèles
-source-git-commit: ef12790e3199457d94c2c7d56c60bb9571921f77
+source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 2%
@@ -25,7 +25,7 @@ La conception du contenu des messages dans Adobe Journey Optimizer vous permet d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/email.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Concevoir le contenu des e-mails
 
@@ -35,7 +35,7 @@ Principal de la conception d’e-mails avec le Designer d’e-mail, création de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=fr)
 
 Concevoir des notifications push
 
@@ -45,7 +45,7 @@ Créez des notifications push attrayantes pour iOS et Android, configurez le tit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chat.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=fr)
 
 Conception de messages SMS et MMS
 
@@ -55,7 +55,7 @@ Composez des messages texte personnalisés avec des SMS, améliorez les communic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/device-mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Concevoir Des Messages In-App
 
@@ -65,7 +65,7 @@ Créez des expériences in-app attrayantes avec plusieurs options de disposition
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/personalization.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=fr)
 
 Personnaliser votre contenu
 
@@ -75,7 +75,7 @@ Personnalisez les messages à l’aide d’attributs de profil, utilisez l’éd
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/duplicate.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Utilisation de modèles et de fragments
 
