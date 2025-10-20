@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Pour les audiences de chargement personnalisé et de composition d’audiences f
 
 * **Prise en charge de la prévisualisation et du BAT :** actuellement, la prévisualisation et le BAT ne sont pas pris en charge pour les audiences créées à l’aide du chargement CSV ou de la composition d’audiences fédérées. Gardez cela à l’esprit lors de la planification de vos campagnes.
 
-* **Ciblage de nouveaux profils :** lorsqu’aucune correspondance n’est trouvée entre un enregistrement et un profil de service de profil unifié, un nouveau profil vide est créé. Ce profil est lié aux attributs d’enrichissement stockés dans le lac de données. Ce nouveau profil étant vide, les champs de ciblage généralement utilisés dans Journey Optimizer (par exemple, personalEmail.address, mobilePhone.number) sont vides et ne peuvent donc pas être utilisés pour le ciblage.
+* **Ciblage de nouveaux profils :** lorsqu’une correspondance est introuvable entre un enregistrement et un profil du service de profil unifié, un profil vide est créé. Ce profil est lié aux attributs d’enrichissement stockés dans le lac de données. Ce nouveau profil étant vide, les champs de ciblage généralement utilisés dans Journey Optimizer (par exemple, personalEmail.address, mobilePhone.number) sont vides et ne peuvent donc pas être utilisés pour le ciblage.
 
   Pour résoudre ce problème, vous pouvez spécifier le « champ d’exécution » (ou « adresse d’exécution » selon le canal) dans la configuration des canaux en tant que « identityMap ». Ainsi, l’attribut choisi comme identité lors de la création de l’audience sera celui utilisé pour le ciblage dans Journey Optimizer.
 
-* **Enregistrements activés et combinaison d’identités :** chaque enregistrement de l’audience est activé, y compris les doublons. Lors de la prochaine exportation de profil du service de profil unifié, ces enregistrements passeront par la combinaison d’identités. En conséquence, le nombre d’enregistrements activés peut être différent du nombre de profils après l’assemblage d’identités.
+* **Enregistrements activés et rapprochement d’identités :** chaque enregistrement de l’audience est activé, y compris les doublons. Lors du prochain export de profils du service de profil unifié, ces enregistrements feront l’objet d’un rapprochement d’identités. En conséquence, le nombre d’enregistrements activés peut être différent du nombre de profils après le rapprochement d’identités.
 
 ## Cibler des audiences dans [!DNL Journey Optimizer]
 

@@ -9,9 +9,9 @@ level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Cette section fournit des informations générales sur l’utilisation de l’AP
 * **Une configuration par organisation :** une seule configuration est actuellement autorisée par organisation. Une configuration doit être définie sur un sandbox de production (indiqué par `x-sandbox-name` dans les en-têtes).
 * **Application au niveau de l’organisation :** une configuration s’applique au niveau de l’organisation.
 * **Gestion de la limite de l’API :** lorsque la limite définie dans l’API est atteinte, les événements suivants sont mis en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
-* Paramètre **`maxHttpConnections`:** paramètre `maxHttpConnections` est un paramètre facultatif disponible dans l’API de limitation uniquement pour vous permettre de limiter le nombre de connexions que Journey Optimizer ouvrira au système externe. [En savoir plus l’utilisation de l’API Capping](../configuration/capping.md)
+* Paramètre **`maxHttpConnections` :** le paramètre `maxHttpConnections` est un paramètre facultatif disponible dans l’API Capping uniquement pour vous permettre de limiter le nombre de connexions que Journey Optimizer ouvrira au système externe. [En savoir plus l’utilisation de l’API Capping](../configuration/capping.md)
 
   Si vous souhaitez limiter le nombre de connexions, mais également restreindre ces appels externes, vous pouvez configurer deux configurations, l’une de restriction et l’autre de limitation, sur le même point d’entrée. Les deux configurations peuvent coexister pour un point d’entrée. Pour définir « maxHttpConnections » pour un point d’entrée restreint, utilisez l’API Throttling pour définir le seuil de restriction et l’API Capping pour définir « maxHttpConnections ». Lors de l’appel de l’API Capping, vous pouvez définir le seuil de limitation sur un paramètre supérieur au seuil de limitation afin que la règle de limitation ne soit jamais appliquée.
 
@@ -311,7 +311,7 @@ Cette section aborde les principaux cas d’utilisation de la gestion des config
 
 Des détails sur chaque commande API sont disponibles dans la [description de l’API et collection Postman](#description).
 
-+++Création et déploiement d’une nouvelle configuration de limitation
++++Créer et déployer une configuration de limitation
 
 Appels API à utiliser :
 
@@ -322,7 +322,7 @@ Appels API à utiliser :
 
 +++
 
-+++Mise à jour et déploiement d’une configuration de limitation (pas encore déployée)
++++Mettre à jour et déployer une configuration de limitation (pas encore déployée)
 
 Appels API à utiliser :
 
@@ -334,7 +334,7 @@ Appels API à utiliser :
 
 +++
 
-+++Annulez le déploiement et supprimez une configuration de limitation déployée
++++Annuler le déploiement et supprimer une configuration de limitation déployée
 
 Appels API à utiliser :
 
@@ -355,7 +355,7 @@ Appels API à utiliser :
 
 +++
 
-+++Mettez à jour une configuration de limitation déjà déployée
++++Mettre à jour une configuration de limitation déployée
 
 >[!NOTE]
 >

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2349'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,17 +21,17 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Octobre 2025 {#october-2025}
 
-* Un nouvel attribut `render` a été introduit dans l’éditeur de personnalisation. Définissez-la sur `false` si vous souhaitez masquer le contenu d’un fragment d’expression. [En savoir plus](../personalization/use-expression-fragments.md#use-expression-fragment)
+* Un nouvel attribut `render` a été introduit dans l’éditeur de personnalisation. Définissez-le sur `false` si vous souhaitez masquer le contenu d’un fragment d’expression. [En savoir plus](../personalization/use-expression-fragments.md#use-expression-fragment)
 
 * Ajout à la section d’une liste de mécanismes de sécurisation, décrivant comment exploiter les fragments liés aux éléments de décision dans les politiques de décision. [En savoir plus](../experience-decisioning/create-decision.md#fragments-guardrails)
 
-* Ajout de bonnes pratiques pour les recherches de jeux de données : conservez les boutons (bascule) pour éviter les problèmes d’indexation et comprendre comment les suppressions par lots affectent les données de recherche. [En savoir plus](../data/lookup-aep-data.md#guardrails--guidelines-guidelines)
+* Ajout de bonnes pratiques pour les recherches de jeux de données : maintenir les boutons (bascule) activés pour éviter les problèmes d’indexation et comprendre l’impact des suppressions par lots sur les données de recherche. [En savoir plus](../data/lookup-aep-data.md#guardrails--guidelines-guidelines)
 
 * Ajout d’une limitation notant que seules les audiences du service de profil unifié sont prises en charge lors de l’utilisation de parcours Lecture d’audience avec des identifiants supplémentaires. [En savoir plus](../building-journeys/supplemental-identifier.md#guardrails--limitations-guardrails)
 
 ## Septembre 2025 {#september-2025}
 
-* Une nouvelle section Canal entrant a été ajoutée à la page Mécanismes de sécurisation et limitations pour rassembler toutes les limitations s’appliquant aux canaux web, in-app, basés sur le code et des cartes de contenu. Elle comprend la limite du volume maximal de 5 000 requêtes entrantes par seconde pour toutes les requêtes entrantes, et le maximum de 500 actions entrantes actives. [En savoir plus](../start/guardrails.md#inbound-guardrails)
+* Une nouvelle section Canal entrant a été ajoutée à la page Mécanismes de sécurisation et limitations pour rassembler toutes les limitations s’appliquant aux expériences web, in-app, basées sur le code et aux canaux de cartes de contenu. Elle comprend la limite du volume maximal de 5 000 demandes entrantes par seconde pour toutes les requêtes entrantes, et le maximum de 500 actions entrantes actives. [En savoir plus](../start/guardrails.md#inbound-guardrails)
 
 * Une page de questions fréquentes a été publiée pour les campagnes orchestrées. [En savoir plus](../orchestrated/orchestrated-campaigns-faq.md)
 
@@ -137,7 +137,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
@@ -304,7 +304,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -334,7 +334,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -409,7 +409,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -537,7 +537,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

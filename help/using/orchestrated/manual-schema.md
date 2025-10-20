@@ -6,9 +6,9 @@ description: Découvrez comment créer des schémas basés sur des modèles dire
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ L’exemple suivant définit manuellement le schéma **Membres du programme de f
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [En savoir plus sur les schémas manuels basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Pour en savoir plus sur les schémas manuels basés sur des modèles, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Créer votre schéma {#schema}
 
@@ -110,9 +110,9 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
 
 Après avoir créé et enregistré des attributs, vous pouvez lier le schéma à d’autres schémas relationnels en définissant des relations.
 
-## Lier les schémas {#link-schema}
+## Lier des schémas {#link-schema}
 
-La création d’une relation entre deux schémas permet d’améliorer les campagnes orchestrées avec des données au-delà du schéma de profil principal.
+La création d’une relation entre deux schémas permet d’enrichir vos campagnes orchestrées avec des données stockées en dehors du schéma de profil principal.
 
 1. Dans le schéma que vous venez de créer, sélectionnez l’attribut à utiliser comme lien et cliquez sur **[!UICONTROL Ajouter une relation]**.
 
@@ -130,7 +130,7 @@ La création d’une relation entre deux schémas permet d’améliorer les camp
 
 ## Créer un jeu de données pour le schéma {#dataset}
 
-Après avoir défini votre schéma, vous pouvez maintenant créer un jeu de données basé dessus. Le jeu de données stocke les données ingérées et doit être activé pour que les campagnes orchestrées soient accessibles.
+Après avoir défini votre schéma, vous devez créer un jeu de données basé sur celui-ci. Le jeu de données stocke les données ingérées et doit être activé pour que les campagnes orchestrées soient accessibles.
 
 1. Accédez au menu **[!UICONTROL Gestion des données]** > **[!UICONTROL Jeux de données]** et sélectionnez **[!UICONTROL Créer un jeu de données]**.
 
@@ -160,7 +160,7 @@ Consultez la [documentation Adobe Developer](https://developer.adobe.com/journey
 
 1. Recherchez votre jeu de données dans la liste **[!UICONTROL Jeux de données]**.
 
-1. Dans les paramètres **[!UICONTROL Jeux de données]**, activez l’option **Campagnes orchestrées** pour marquer le jeu de données disponible pour une utilisation dans vos campagnes orchestrées.
+1. Dans les paramètres **[!UICONTROL Jeux de données]**, activez l’option **Campagnes orchestrées** pour pouvoir utiliser le jeu de données dans vos campagnes orchestrées.
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

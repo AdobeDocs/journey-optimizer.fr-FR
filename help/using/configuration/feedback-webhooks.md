@@ -2,54 +2,54 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Créer des webhooks de commentaires pour les campagnes déclenchées par API dans Journey Optimizer
-description: Découvrez comment créer des webhooks de commentaires pour les campagnes déclenchées par l’API dans Journey Optimizer.
+description: Découvrez comment créer des webhooks de commentaires pour les campagnes déclenchées par API dans Journey Optimizer.
 feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Créer des webhooks de commentaires pour les campagnes déclenchées par API {#webhooks}
 
-Les webhooks de retour d’informations vous permettent de recevoir des mises à jour de statut en temps réel pour les messages envoyés via des campagnes déclenchées par API transactionnelle. En configurant un webhook, vous pouvez recevoir automatiquement les résultats des diffusions directement dans vos systèmes, ce qui permet la surveillance, la journalisation et le traitement automatisé.
+Les webhooks de commentaires vous permettent de recevoir des mises à jour de statut en temps réel pour les messages envoyés via des campagnes transactionnelles déclenchées par API. En configurant un webhook, vous recevez automatiquement les résultats des diffusions directement dans vos systèmes, ce qui facilite la surveillance, la journalisation et le traitement automatisé.
 
-Vous pouvez gérer les configurations webhook à partir du menu **[!UICONTROL Administration]** / **[!UICONTROL Canaux]** / **[!UICONTROL Paramètres webhook des commentaires]**.
+Vous pouvez gérer les configurations de webhook à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres du webhook des commentaires]**.
 
 ![](assets/webhook-list.png)
 
 >[!NOTE]
->Une seule configuration webhook par combinaison **Organisation + sandbox** est autorisée.
+>Une seule configuration de webhook par combinaison **organisation + sandbox** est autorisée.
 
 ## Créer un webhook de commentaires
 
-Pour créer un webhook, procédez comme suit :
+Pour créer un webhook, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Administration]** / **[!UICONTROL Canaux]** / **[!UICONTROL Paramètres du webhook Commentaires]**.
+1. Accédez à **[!UICONTROL Administration]** / **[!UICONTROL Canaux]** / **[!UICONTROL Paramètres du webhook de commentaires]**.
 
-1. Cliquez sur **Créer un Webhook pour les commentaires**.
+1. Cliquez sur **Créer un webhook de commentaires**.
 
-1. Dans la section **[!UICONTROL Configuration de base]**, fournissez les détails suivants :
+1. Dans la section **[!UICONTROL Configuration de base]**, fournissez les informations suivantes :
 
    ![](assets/webhook-config.png)
 
-   * **Nom du webhook** - Saisissez un nom explicite pour identifier le webhook.
-   * **Canaux** - Sélectionnez le ou les canaux pour lesquels ce webhook doit recevoir des commentaires (e-mail et/ou SMS).
-   * **URL Webhook** - Indiquez le point d’entrée HTTPS où les événements de commentaires doivent être diffusés.
+   * **Nom du webhook** : saisissez un nom explicite pour identifier le webhook.
+   * **Canaux** : sélectionnez le ou les canaux pour lesquels ce webhook doit recevoir des commentaires (e-mail et/ou SMS).
+   * **URL du webhook** : indiquez le point d’entrée HTTPS où les événements de commentaires doivent être diffusés.
 
-1. Dans la section **[!UICONTROL Authentification]**, sélectionnez la méthode d’authentification :
+1. Dans la section **[!UICONTROL Authentification]**, sélectionnez la méthode d’authentification :
 
    ![](assets/webhook-authentication.png)
 
-   * **Pas d’authentification** - Aucun en-tête d’authentification n’est ajouté.
-   * **Authentification JWT** - Fournissez les détails requis si votre point d’entrée nécessite une authentification JWT.
+   * **Pas d’authentification** : aucun en-tête d’authentification n’est ajouté.
+   * **Authentification JWT** : fournissez les informations requises si votre point d’entrée nécessite une authentification JWT.
 
-1. Dans la section **[!UICONTROL Paramètres d’en-tête]** , configurez des en-têtes personnalisés supplémentaires à envoyer avec chaque requête webhook.
+1. Dans la section **[!UICONTROL Paramètres d’en-tête]**, vous pouvez configurer des en-têtes personnalisés supplémentaires à envoyer avec chaque demande de webhook.
 
    ![](assets/webhook-header.png)
 
@@ -59,7 +59,7 @@ Pour créer un webhook, procédez comme suit :
 >
 >Vous pouvez modifier un webhook à tout moment. Pour ce faire, ouvrez-le dans l’inventaire, puis cliquez sur le bouton **[!UICONTROL Modifier]**.
 
-## Structure de la payload du Webhook
+## Structure de la payload du webhook
 
 Après l’exécution d’un message, **[!DNL Journey Optimizer]** envoie la payload suivante au point d’entrée configuré.
 
@@ -104,15 +104,15 @@ Après l’exécution d’un message, **[!DNL Journey Optimizer]** envoie la pay
 }
 ```
 
-Le webhook peut capturer les événements suivants :
+Le webhook peut capturer les événements suivants :
 
 * Envoyés
 * Diffusés
 * Rebond (voir l’exemple ci-dessus)
 * Erreurs
 
-Chaque requête entrante inclut également un requestId unique renvoyé au webhook.
+Chaque requête entrante inclut également un ID de demande unique renvoyé au webhook.
 
 ## Étapes suivantes {#next}
 
-Une fois qu’un webhook de commentaires a été créé, vous pouvez l’activer lors de la configuration d’une audience de campagne **déclenchée par l’API transactionnelle**. En savoir plus dans cette section : [Activer les Webhooks](../campaigns/api-triggered-campaign-audience.md#webhook)
+Une fois le webhook de commentaires créé, vous pouvez l’activer lors de la configuration d’une audience de **campagne transactionnelle déclenchée par API**. Pour en savoir plus, consultez la section [Activer des webhooks](../campaigns/api-triggered-campaign-audience.md#webhook).

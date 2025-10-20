@@ -10,9 +10,9 @@ level: Intermediate
 keywords: principal, exécution, e-mail, cible, profil, optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Pour vérifier les champs actuellement utilisés par défaut, accédez au menu *
 
 >[!NOTE]
 >
->Les champs d’exécution sont disponibles pour les canaux E-mail et SMS.
+>Les champs d’exécution sont disponibles pour les canaux e-mail et SMS.
 
 Les valeurs actuelles sont utilisées pour toutes les diffusions au niveau de la sandbox. Vous pouvez mettre à jour ces champs si nécessaire.
 
@@ -87,7 +87,7 @@ Par exemple, cette valeur peut être utile pour effectuer les actions suivantes�
 
 Lors de l’ajout d’une action **[!UICONTROL E-mail]** ou **[!UICONTROL SMS]** à un [parcours](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
 
-Remplacez cette valeur à l’aide de l’icône **[!UICONTROL Activer le remplacement du paramètre]** située à droite du champ.
+Pour remplacer une valeur, cliquez sur l’icône **[!UICONTROL Activer le remplacement de paramètre]** à droite du champ.
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -95,14 +95,14 @@ Remplacez cette valeur à l’aide de l’icône **[!UICONTROL Activer le rempla
 >
 >Le remplacement de l’adresse e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse e-mail, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d’exécution]** est celle qui doit être utilisée.
 
-## Remplacer le champ d’exécution par défaut dans la configuration du canal {#override-execution-address-channel-config}
+## Remplacer le champ d’exécution par défaut dans la configuration des canaux {#override-execution-address-channel-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="Remplacer l’adresse d’exécution par défaut à utiliser"
->abstract="Lorsque plusieurs adresses e-mail ou numéros de téléphone sont disponibles dans la base de données (personnel, professionnel, etc.), vous pouvez choisir l’adresse ou le numéro auquel donner la priorité pour l’envoi. L’adresse principale est définie au niveau du sandbox, mais vous pouvez remplacer ici le paramètre par défaut pour cette configuration de canal spécifique."
+>abstract="Lorsque plusieurs adresses e-mail ou numéros de téléphone sont disponibles dans la base de données (personnels, professionnels, etc.), vous pouvez choisir l’adresse ou le numéro à privilégier pour l’envoi. L’adresse principale est définie au niveau du sandbox, mais vous pouvez remplacer ici le paramètre par défaut pour cette configuration des canaux spécifique."
 
-Vous pouvez modifier l’adresse d’exécution par défaut pour un e-mail ou un SMS spécifique [configuration du canal](channel-surfaces.md).
+Vous pouvez modifier l’adresse d’exécution par défaut pour une [configuration de canal](channel-surfaces.md) e-mail ou SMS spécifique.
 
 Pour ce faire, accédez à la section **[!UICONTROL Dimension d’exécution]** et modifiez le champ sous **[!UICONTROL Adresse d’exécution]**.
 
@@ -112,6 +112,6 @@ Sélectionnez ensuite un élément dans la liste des champs XDM de type e-mail d
 
 ![](assets/sms-config-execution-field.png)
 
-Le champ d’exécution est mis à jour, puis utilisé comme adresse principale pour les campagnes ou les parcours utilisant cette configuration de canal. Il remplace le [paramètre général](#admin-settings) défini au niveau du sandbox.
+Le champ d’exécution est mis à jour, puis utilisé comme adresse principale pour les campagnes ou les parcours utilisant cette configuration des canaux. Il remplace le [paramètre général](#admin-settings) au niveau du sandbox.
 
 <!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->

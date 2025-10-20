@@ -6,9 +6,9 @@ description: Découvrez comment créer un schéma basé sur un modèle dans Adob
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
 source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1084'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Cette section fournit des instructions détaillées sur la création d’un sch�
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [En savoir plus sur les schémas basés sur des modèles dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/model-based)
+➡️ [Pour en savoir plus sur les schémas basés sur des modèles, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Charger un fichier DDL{#ddl-upload}
 
@@ -90,7 +90,7 @@ Voici un exemple :
 
 1. Saisissez le **[!UICONTROL nom de votre schéma]**.
 
-1. Configurez chaque schéma et ses colonnes en veillant à ce qu’une clé primaire et un descripteur de version soient spécifiés.
+1. Configurez chaque schéma et ses colonnes en veillant à spécifier une clé primaire et un descripteur de version.
 
    Un attribut, tel que `lastmodified`, doit être désigné comme descripteur de version (type `datetime`, `long` ou `int`) afin de garantir que les jeux de données sont mis à jour avec les données les plus récentes. Les utilisateurs et utilisatrices peuvent modifier le descripteur de version, qui devient obligatoire une fois défini. Un attribut ne peut pas être à la fois une clé primaire (PK) et un descripteur de version.
 
@@ -106,7 +106,7 @@ Vous pouvez maintenant vérifier les définitions de table et de champ dans la z
 
 ## Définir des relations {#relationships}
 
-Vous pouvez spécifier des relations directement dans le fichier DDL lors de la création de votre schéma. Si vous préférez définir des relations en dehors du fichier , vous pouvez le faire dans l’interface en suivant les étapes ci-dessous.
+Vous pouvez spécifier des relations directement dans le fichier DDL lors de la création d’un schéma. Si vous préférez définir des relations en dehors du fichier, vous pouvez le faire dans l’interface en suivant les étapes ci-dessous.
 
 1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tables à lier.
 
@@ -150,9 +150,9 @@ Vous pouvez spécifier des relations directement dans le fichier DDL lors de la 
 
    * **Afficher la carte** : activez une superposition de mini-carte pour parcourir plus facilement les dispositions de schémas volumineux ou complexes.
 
-   * **Tout développer/tout réduire** : développez ou réduisez rapidement tous les nœuds de schéma pour afficher ou masquer leurs attributs.
+   * **Tout développer/tout réduire** : développez ou réduisez rapidement tous les nœuds de schéma pour afficher ou masquer leurs attributs.
 
-   * **Télécharger** : téléchargez le diagramme ER sous la forme d’un fichier .png.
+   * **Télécharger** : téléchargez le diagramme ER sous la forme d’un fichier PNG.
 
 1. Cliquez sur **Enregistrer** lorsque vous avez terminé. Cette action crée les schémas et les jeux de données associés et permet au jeu de données d’être utilisé dans des campagnes orchestrées.
 
@@ -162,7 +162,7 @@ Vous pouvez spécifier des relations directement dans le fichier DDL lors de la 
 
    ![](assets/admin_schema_4.png)
 
-## Lier les schémas {#link-schema}
+## Lier des schémas {#link-schema}
 
 >[!IMPORTANT]
 >

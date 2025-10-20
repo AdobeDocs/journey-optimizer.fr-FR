@@ -1,5 +1,5 @@
 ---
-title: Prise en main des politiques de décision
+title: Commencer avec les politiques de décision
 description: Découvrez comment utiliser les politiques de décision pour diffuser des offres.
 feature: Decisioning
 topic: Integrations
@@ -7,13 +7,13 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Prise en main des politiques de décision {#create-decision}
+# Commencer avec les politiques de décision {#create-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
@@ -46,11 +46,11 @@ Les politiques de décision sont des conteneurs pour vos offres qui tirent profi
 
 >[!AVAILABILITY]
 >
->Pour l’instant, les politiques de décision sont disponibles pour tous les clients pour le canal d’expérience basé sur le code. Ils sont disponibles pour le canal e-mail en tant que Disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Pour l’instant, les politiques de décision sont disponibles pour tous les clients et clientes pour le canal d’expérience basée sur du code. Elles sont en disponibilité limitée pour le canal e-mail. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
 
 ## Principales étapes {#key}
 
-Les principales étapes pour tirer parti des politiques de décision dans les messages sont les suivantes :
+Les principales étapes pour utiliser les politiques de décision dans vos messages sont les suivantes :
 
 1. [Créer une politique de décision](../experience-decisioning/create-decision-policy.md)
 
@@ -66,7 +66,7 @@ Les principales étapes pour tirer parti des politiques de décision dans les me
 
 ## Mécanismes de sécurisation et limitations
 
-* **Pages miroir des e-mails** - Pour l’instant, les éléments de décision ne s’affichent pas dans les pages miroir des e-mails.
+* **Pages miroir des e-mails** : pour l’instant, les éléments de décision ne s’affichent pas dans les pages miroir des e-mails.
 * **Type de suivi et de liens** : pour suivre les liens générés par la prise de décision, définissez-les dans le schéma comme « Ressources de prise de décision ». Les liens basés sur les attributs ne pevent pas faire l’objet d’un suivi.
 * **Imbrication de politiques de décision dans des e-mails** : vous ne pouvez pas imbriquer plusieurs politiques de décision dans un composant d’e-mail parent auquel est déjà associée une politique de décision.
 * **Parcours ou campagnes dupliqués avec prise de décision** : si vous dupliquez un parcours ou une campagne qui inclut une politique de décision, la version dupliquée fait référence à l’e-mail ou à l’expérience basée sur du code d’origine, ce qui entraîne des erreurs. Reconfigurez toujours la politique de décision après la duplication.
@@ -82,5 +82,5 @@ Les principales étapes pour tirer parti des politiques de décision dans les me
 
 Maintenant que vous comprenez comment fonctionnent les politiques de décision et comment elles permettent de diffuser des offres personnalisées, vous êtes prêt à créer votre première politique de décision.
 
-➡️ [Découvrez comment créer une politique de décision](../experience-decisioning/create-decision-policy.md)
+➡️ [Découvrez comment créer une politique de décision.](../experience-decisioning/create-decision-policy.md)
 

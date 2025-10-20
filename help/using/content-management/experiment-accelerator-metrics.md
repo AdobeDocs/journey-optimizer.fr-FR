@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
 source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Chaque valeur inclut un pourcentage d’évolution par rapport à la période pr
 
 Cette section affiche toutes les expériences actives au cours de la période sélectionnée (90 derniers jours, 30 derniers jours ou 7 derniers jours) et met en évidence leur contribution à la mesure.
 
-Les mesures suivantes sont disponibles :
+Les mesures suivantes sont disponibles :
 
 * **[!UICONTROL Effet élévateur]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 

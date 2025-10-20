@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1355'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -173,13 +173,13 @@ Si les mots-clés relatifs à l’opt-in ou à l’opt-out ne sont pas fournis, 
 
 >[!ENDSHADEBOX]
 
-Une fois vos informations d’identification d’API créées, vous pouvez configurer des Webhooks pour capturer les réponses entrantes afin de gérer le consentement d’opt-in et d’opt-out, et pour recevoir des rapports de diffusion tels que des accusés de réception de lecture, le cas échéant.
+Une fois vos informations d’identification d’API créées, vous pouvez configurer des webhooks pour capturer les réponses entrantes afin de gérer le consentement d’opt-in et d’opt-out, et pour recevoir des rapports de diffusion tels que des confirmations de lecture (le cas échéant).
 
-Lors de la configuration d’un webhook, vous pouvez définir son objectif en fonction du type de données que vous souhaitez capturer :
+Lors de la configuration d’un webhook, vous pouvez définir son objectif en fonction du type de données que vous souhaitez capturer :
 
-* **[!UICONTROL Entrant]** : utilisez cette option si vous souhaitez capturer les réponses de consentement, telles que les opt-ins ou les opt-outs, et collecter les préférences utilisateur.
+* **[!UICONTROL Entrant]** : utilisez cette option si vous souhaitez capturer des réponses de consentement, telles que les opt-ins ou les opt-outs, et collecter les préférences utilisateur.
 
-* **[!UICONTROL Commentaires]** : sélectionnez cette option pour effectuer le suivi des événements de diffusion et d’engagement, y compris les confirmations de lecture et les interactions utilisateur, afin de prendre en charge les rapports et analyses.
+* **[!UICONTROL Commentaires]** : sélectionnez cette option pour effectuer le suivi des événements de diffusion et d’engagement, y compris les confirmations de lecture et les interactions utilisateur, afin de prendre en charge les rapports et analyses.
 
 >[!BEGINTABS]
 
@@ -195,21 +195,21 @@ Lors de la configuration d’un webhook, vous pouvez définir son objectif en fo
 
    * **[!UICONTROL Sélectionner le fournisseur de SMS]** : personnalisé.
 
-   * **[!UICONTROL Type]** : Entrant.
+   * **[!UICONTROL Type]** : entrant.
 
-   * **[!UICONTROL Informations d’identification de l’API]** : sélectionnez dans la liste déroulante ce que vous [informations d’identification de l’API configurées précédemment](#api-credential).
+   * **[!UICONTROL Informations d’identification d’API]** : choisissez dans la liste déroulante les [informations d’identification d’API configurées précédemment](#api-credential).
 
-   * **[!UICONTROL Numéro de téléphone de l’expéditeur &#x200B;]** : saisissez le numéro de téléphone de l’expéditeur &#x200B;que vous souhaitez utiliser pour vos communications.
+   * **[!UICONTROL Numéro de téléphone d’expéditeur ou d’expéditrice]** : saisissez le numéro de téléphone d’expéditeur ou d’expéditrice que vous souhaitez utiliser pour vos communications.
 
      ![](assets/webhook-inbound.png)
 
-1. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter vos catégories de mots-clés, puis configurez-les comme suit :
+1. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter vos catégories de mots-clés, puis configurez-les comme suit :
 
-   * **[!UICONTROL Catégorie de mots-clés entrants]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Aide]** ou **[!UICONTROL Par défaut]**.
+   * **[!UICONTROL Catégorie de mot-clé entrant]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Aide]** ou **[!UICONTROL Par défaut]**.
 
-   * **[!UICONTROL Saisir un mot-clé]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter plusieurs mots-clés.
+   * **[!UICONTROL Saisir un mot-clé]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter plusieurs mots-clés.
 
-   * **[!UICONTROL Message de réponse]** : sélectionnez dans la liste déroulante la réponse personnalisée qui est automatiquement envoyée.
+   * **[!UICONTROL Message de réponse]** : sélectionnez dans la liste déroulante la réponse personnalisée qui sera automatiquement envoyée.
 
    ![](assets/sms_byo_6.png)
 
@@ -229,7 +229,7 @@ Lors de la configuration d’un webhook, vous pouvez définir son objectif en fo
 
 Après avoir créé et configuré les paramètres entrants pour le webhook, vous devez créer une [configuration des canaux](sms-configuration-surface.md) pour les messages SMS.
 
-Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
+Une fois configurés, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
 
 >[!TAB Commentaires]
 
@@ -243,7 +243,7 @@ Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionn
 
    * **[!UICONTROL Sélectionner le fournisseur de SMS]** : personnalisé.
 
-   * **[!UICONTROL Type]** : Retour d’informations.
+   * **[!UICONTROL Type]** : commentaires.
 
    ![](assets/webhook-feedback.png)
 
@@ -263,7 +263,7 @@ Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionn
 
 Après avoir créé et configuré les paramètres entrants pour le webhook, vous devez créer une [configuration des canaux](sms-configuration-surface.md) pour les messages SMS.
 
-Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
+Une fois configurés, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
 
 >[!ENDTABS]
 

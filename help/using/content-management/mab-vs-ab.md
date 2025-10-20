@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
 source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
 >title="Type d’expérience"
->abstract="Le type d’expérience détermine la manière dont le trafic est réparti entre les traitements pendant votre test. Choisissez la méthode qui correspond le mieux à vos objectifs :</br><b>Expérience A/B</b> : divise le trafic au fur et à mesure que vous définissez entre les traitements et les mesures de performances jusqu’à ce que les résultats soient statistiquement significatifs. Idéal pour savoir quel traitement est le plus performant dans une comparaison contrôlée.</br><b>Bandit manchot</b> : déplace le trafic vers des traitements plus performants lors de la collecte de données, en équilibrant la vitesse et l’optimisation. Utile lorsque vous souhaitez maximiser les conversions pendant l’expérience.</br><b>Apportez votre propre bandit manchot</b> : utilisez votre propre algorithme pour décider de l’affectation du trafic, ce qui vous donne de la flexibilité si vous disposez d’un modèle ou d’une stratégie personnalisés."
+>abstract="Le type d’expérience détermine la manière dont le trafic est réparti entre les traitements pendant le test. Choisissez la méthode qui correspond le mieux à vos objectifs :</br><b>Expérience A/B</b> : partage le trafic au fur et à mesure que vous définissez entre les traitements et les mesures de performances jusqu’à ce que les résultats soient statistiquement significatifs. Idéal pour savoir quel traitement est le plus performant dans une comparaison contrôlée.</br><b>Bandit manchot</b> : déplace le trafic vers des traitements plus performants lors de la collecte de données, en équilibrant la vitesse et l’optimisation. Utile lorsque vous souhaitez maximiser les conversions pendant l’expérience.</br><b>Utilisez votre propre bandit manchot</b> : utilisez votre propre algorithme pour décider de l’affectation du trafic, ce qui vous offre plus de flexibilité si vous disposez d’un modèle ou d’une stratégie personnalisé."
 
 Cette page présente une comparaison détaillée des expériences **A/B** et **bandit manchot**, en expliquant leurs forces, leurs limites respectives et les scénarios dans lesquels chaque approche est la plus efficace.
 

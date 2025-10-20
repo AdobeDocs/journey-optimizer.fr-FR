@@ -6,9 +6,9 @@ description: Découvrez comment créer un schéma basé sur un modèle dans Adob
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Ce guide explique le processus de création d’un schéma basé sur un modèle,
 
 ## Principaux concepts
 
-Dans le contexte des campagnes orchestrées, un **jeu de données** est une structure de stockage et de gestion pour une collection de données, généralement sous la forme d’un tableau, qui contient un schéma (lignes) et des champs (colonnes). Les données correctement ingérées dans Experience Platform sont conservées sous forme de jeux de données dans le lac de données.
+Dans le contexte des campagnes orchestrées, un **jeu de données** est une structure de stockage et de gestion pour une collection de données, généralement une table, contenant un schéma (des lignes) et des champs (des colonnes). Les données correctement ingérées dans Experience Platform sont conservées sous forme de jeux de données dans le lac de données.
 
 Un **schéma** représente et valide la structure et le format des données. Il fournit une définition abstraite d’un objet du monde réel (comme une personne) et décrit les données à inclure dans chaque instance de cet objet (nom, anniversaire, etc.).
 
@@ -50,9 +50,9 @@ Il précise :
 * Les contraintes
 * Les relations entre les tables
 
-L’organisation des schémas ou des tables dans un modèle de données basé sur un modèle consiste à structurer vos données en plusieurs tables. Assurez-vous que chaque table stocke un type d’entité/de schéma.
+L’organisation des schémas ou des tables dans un modèle de données basé sur un modèle consiste à structurer vos données en plusieurs tables. Assurez-vous que chaque table stocke un type d’entité/des schémas.
 
-➡️ [En savoir plus sur les schémas dans la documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Étapes dʼimplémentation {#implementation}
 
@@ -64,7 +64,7 @@ Pour ingérer des données et créer un schéma basé sur un modèle, procédez 
 
    Lors de la création manuelle du schéma, le jeu de données doit également être créé et activé manuellement. Lors de l’utilisation d’un fichier DDL, la création et l’activation d’un jeu de données sont automatiques.
 
-1. [Lier les schémas](file-upload-schema.md)
+1. [Lier des schémas](file-upload-schema.md)
 
    Établissez des relations entre vos schémas pour garantir la cohérence des données et activer les requêtes entre entités. Par exemple, liez les transactions de fidélité aux destinataires ou les récompenses aux marques.
 
@@ -72,7 +72,7 @@ Pour ingérer des données et créer un schéma basé sur un modèle, procédez 
 
    Après avoir défini votre schéma, vous devez créer un jeu de données basé sur celui-ci. Ce jeu de données sert de stockage des données ingérées.
 
-1. [Activer les campagnes orchestrées](manual-schema.md#enable)
+1. [Activer des campagnes orchestrées](manual-schema.md#enable)
 
    Ce jeu de données stocke vos données ingérées et doit être activé pour les campagnes orchestrées afin de le rendre accessible dans Adobe Journey Optimizer.
 

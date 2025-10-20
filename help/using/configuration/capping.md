@@ -9,9 +9,9 @@ level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Voici la structure de base d’une configuration de point d’entrée :
 >
 >La valeur maximale pouvant être définie est de 400. Si rien n’est spécifié, le système peut s’ouvrir à plusieurs milliers de connexions en fonction de l’échelle dynamique du système.
 >
->Lorsque la configuration de limitation est déployée, si aucune valeur de `maxHttpConnections` n’a été définie, une `maxHttpConnections = -1` par défaut est ajoutée à la configuration déployée et Journey Optimizer utilise la valeur système par défaut.
+>Lorsque la configuration de limitation est déployée, si aucune valeur `maxHttpConnections` n’a été fournie, une valeur par défaut `maxHttpConnections = -1` est ajoutée dans la configuration déployée, et Journey Optimizer utilise la valeur système par défaut.
 
 Exemple :
 
@@ -112,7 +112,7 @@ Les erreurs potentielles sont les suivantes :
 
 * **ERR_ENDPOINTCONFIG_100**: capping config: missing or invalid url
 * **ERR_ENDPOINTCONFIG_101**: capping config: malformed url
-* **ERR_ENDPOINTCONFIG_102** : configuration de limitation : URL incorrecte : caractère générique dans l’URL non autorisé dans l’hôte:port
+* **ERR_ENDPOINTCONFIG_102**: capping config: malformed url: wildchar in url not allowed in host:port
 * **ERR_ENDPOINTCONFIG_103**: capping config: missing HTTP methods
 * **ERR_ENDPOINTCONFIG_104**: capping config: no call rating defined
 * **ERR_ENDPOINTCONFIG_107**: capping config: invalid max calls count (maxCallsCount)
@@ -131,7 +131,7 @@ Cette section répertorie les principaux cas d’utilisation de la gestion des c
 
 Des détails sur chaque commande API sont disponibles dans la [description de l’API et collection Postman](#description).
 
-+++Créer et déployer une nouvelle configuration de limitation
++++Créer et déployer une configuration de limitation
 
 Appels API à utiliser :
 
@@ -142,7 +142,7 @@ Appels API à utiliser :
 
 +++
 
-+++Mise à jour et déploiement d’une configuration de limitation (pas encore déployée)
++++Mettre à jour et déployer une configuration de limitation (pas encore déployée)
 
 Appels API à utiliser :
 
@@ -154,7 +154,7 @@ Appels API à utiliser :
 
 +++
 
-+++Annulation du déploiement et suppression d’une configuration de limitation déployée
++++Annuler le déploiement et supprimer une configuration de limitation déployée
 
 Appels API à utiliser :
 
@@ -175,7 +175,7 @@ Appels API à utiliser :
 
 +++
 
-+++Mettre à jour une configuration de limitation déjà déployée
++++Mettre à jour une configuration de limitation déployée
 
 >[!NOTE]
 >
