@@ -85,7 +85,7 @@ Vous pouvez effectuer les actions suivantes :
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.
 
->[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416649?captions=fre_fr&quality=12)
 
 ## Gouvernance des données
 
