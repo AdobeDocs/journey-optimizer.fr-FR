@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2999'
 ht-degree: 98%
 
 ---
@@ -708,9 +708,9 @@ ht-degree: 98%
          + [Utiliser Adobe Experience Platform pour la prise de décision](using/experience-decisioning/aep-data-exd.md)
       + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
       + Diffuser des offres à l’aide de politiques de décision {#decision-policies}
-         + [Prise en main des politiques de décision](using/experience-decisioning/create-decision.md)
+         + [Commencer avec les politiques de décision](using/experience-decisioning/create-decision.md)
          + [Créer des politiques de décision](using/experience-decisioning/create-decision-policy.md)
-         + [Utilisation de politiques de décision dans les messages](using/experience-decisioning/use-decision-policy.md)
+         + [Utiliser des politiques de décision dans les messages](using/experience-decisioning/use-decision-policy.md)
       + [Rapports sur la prise de décision](using/experience-decisioning/cja-reporting.md)
       + [Cas d’utilisation de prise de décision](using/experience-decisioning/experience-decisioning-uc.md)
       + Collecter les données d’événement {#experience-decisioning-collect-event-data}
@@ -976,11 +976,12 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
       + [Gérer le processus d’opt-out](using/privacy/opt-out.md)
       + [Utiliser les politiques de consentement](using/action/consent.md)
+      + [Gérer les préférences de vos clients](using/action/preference-center.md)
    + [Gouvernance des données](using/action/action-privacy.md)
    + [Configurer et gérer des clés gérées par la clientèle](using/privacy/cmk.md)
