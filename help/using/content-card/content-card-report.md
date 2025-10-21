@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -35,7 +35,9 @@ Vous pouvez accéder directement au rapport sur les cartes de contenu à partir 
 
 ## Tendance des affichages et des clics {#display-click}
 
+<!--
 ![](assets/content-card-report-1.png)
+-->
 
 Les graphiques **[!UICONTROL Tendance des affichages et des clics]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
 
@@ -51,7 +53,9 @@ Les graphiques **[!UICONTROL Tendance des affichages et des clics]** vous permet
 
 ## Données de suivi {#tracking-data}
 
+<!--
 ![](assets/content-card-report-2.png)
+-->
 
 Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos cartes de contenu, fournissant des informations essentielles sur l’engagement et l’efficacité des cartes de contenu.
 

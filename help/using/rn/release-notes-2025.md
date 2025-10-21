@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
-workflow-type: ht
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+workflow-type: tm+mt
 source-wordcount: '6603'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>Ajout d’une optimisation à toute action de canal intégrée</li>
 <li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-action.md">documentation détaillée</a>.</p>
 </td>
@@ -151,7 +151,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
 <li>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../email/pdf-attachments.md">documentation détaillée</a>.</p>
 </td>
@@ -379,7 +379,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin d’effectuer un rendu dynamique du meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -1393,6 +1393,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 **Éditeur de personnalisation** (date de disponibilité : 12 mars)
 
 L’éditeur de personnalisation Journey Optimizer a été mis à jour avec de nouvelles fonctionnalités :
+
 * **Mise à jour de la conception de l’éditeur de code** : une interface moderne plus épurée pour une expérience plus conviviale et intuitive.
 * **Rechercher et remplacer** : ajout d’une fonctionnalité pour rechercher et remplacer rapidement du contenu dans l’éditeur.
 * **Prise en charge de l’annulation et de la restauration** : vous permet d’annuler ou de rétablir facilement les modifications.

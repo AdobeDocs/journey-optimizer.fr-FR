@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 100%
@@ -238,6 +238,7 @@ Si vous modifiez une configuration qui était déjà active, ce qui suit s’app
 #### Réussite {#success}
 
 Une fois le processus de validation réussi, la nouvelle version de la configuration est automatiquement utilisée dans tous les messages utilisant cette configuration. Cependant, vous devrez peut-être attendre :
+
 * quelques minutes avant qu’il soit consommé par les messages unitaires,
 * jusqu’au lot suivant pour que la configuration soit effective dans les messages par lots.
 

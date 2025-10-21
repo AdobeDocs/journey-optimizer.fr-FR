@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, attribut, personnalisation
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 83%
@@ -20,14 +20,20 @@ ht-degree: 83%
 
 L’ajout d’attributs différents à votre menu des favoris permet d’accéder rapidement aux éléments que vous utilisez le plus fréquemment. Pour ajouter un attribut à vos favoris, cliquez sur le menu Ellipse et sélectionnez **[!UICONTROL Ajouter aux favoris]**.
 
+<!--
 ![](assets/favorite-option.png)
+-->
 
 Pour accéder aux éléments mis en favoris, utilisez le menu des **[!UICONTROL Favoris]** dans le volet de gauche.
 
 Dans cette liste, vous pouvez rapidement ajouter lʼobjet de personnalisation à votre expression actuelle.
 
+<!--
 ![](assets/favorite-list.png)
+-->
 
 Si vous ne souhaitez plus voir un élément dans votre liste de favoris, vous pouvez le supprimer de vos favoris.
 
+<!--
 ![](assets/favorite-remove.png)
+-->

@@ -10,7 +10,7 @@ level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
 
 Au lieu des méthodes [Délégation complète](about-subdomain-delegation.md#full-subdomain-delegation) et [Configuration CNAME](about-subdomain-delegation.md#cname-subdomain-delegation), la méthode **Délégation personnalisée** vous permet d’obtenir la propriété de vos sous-domaines dans Journey Optimizer et de disposer d’un contrôle total sur les certificats générés.
 
@@ -113,10 +113,11 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
    -----END CERTIFICATE-----
    ```
 
-   <!--
-    >[!CAUTION]
-    >
-    >Both Data and CDN subdomains must be included in the same certificate.-->
+<!--
+>[!CAUTION]
+>
+>Both Data and CDN subdomains must be included in the same certificate.
+-->
 
 ## Suivre les étapes de la boucle de commentaires {#feedback-loop-steps}
 

@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Version Beta" type="Informative"
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 92%
 
 ---
 
@@ -22,15 +22,17 @@ ht-degree: 97%
 
 Pour accéder directement au rapport global de campagne à partir de votre campagne, cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
 
-Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
+Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d’informations à ce sujet, consultez cette <!--[section](../reports/global-report.md#modify-dashboard)-->.
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](global-report.md#list-of-components-global.md).
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à <!--[this page](global-report.md#list-of-components-global.md)-->
 
 ## Onglet Campagne {#campaign-global-objectives}
 
 ### Diffusion {#delivery-global-objectives}
 
+<!--
 ![](assets/campaign_report_global_1.png)
+-->
 
 Le widget **[!UICONTROL Statistiques de la campagne]** présente les principales informations relatives à votre Campagne :
 
@@ -58,7 +60,9 @@ Avec le widget **[!UICONTROL Objectif de la campagne]**, vous pouvez également 
 
 ### Rapport d’expérience {#experimentation-global-objectives}
 
+<!--
 ![](assets/experimentation_report_3.png)
+-->
 
 L’onglet **[!UICONTROL Expérimentation]** fournit des informations clés sur les performances de chaque variante et identifie la variante la plus réussie.
 

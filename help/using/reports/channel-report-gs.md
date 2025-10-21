@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 99%
+source-wordcount: '637'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ Les rapports sur les canaux constituent un puissant outil qui propose un aperçu
 
 Les rapports sur les canaux sont entièrement personnalisables. Vous pouvez donc redimensionner ou supprimer des widgets pour créer un tableau de bord qui réponde à vos besoins spécifiques. Vous pouvez également exporter les données du rapport au format PDF ou CSV pour une analyse plus approfondie.
 
-En savoir plus sur les différents widgets et mesures disponibles pour les rapports sur les canaux sur cette [page](channel-report.md).
+En savoir plus sur les différents widgets et mesures disponibles pour les rapports Canal sur <!--[this page](channel-report.md)-->.
 
 ## Avant de commencer {#manage-reports-prereq}
 
