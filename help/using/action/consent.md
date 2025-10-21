@@ -5,11 +5,11 @@ title: Utiliser les politiques de consentement
 description: Découvrez comment utiliser les politiques de consentement d’Adobe Experience Platform.
 feature: Journeys, Actions, Custom Actions, Privacy, Consent Management
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: politiques, gouvernance, platform, healthcare shield, consentement
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 93%
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 # Utiliser les politiques de consentement {#consent-management}
 
-Vos données peuvent être soumises à des restrictions d’utilisation définies par votre organisation ou par des réglementations juridiques. Il est donc important de s’assurer que vos opérations de données dans Journey Optimizer sont conformes aux [&#x200B; politiques d’utilisation des données &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr){target="_blank"}. Ces politiques sont des règles Adobe Experience Platform qui définissent les actions marketing que vous avez l’autorisation d’effectuer sur les données.
+Vos données peuvent être soumises à des restrictions d’utilisation définies par votre organisation ou par des réglementations juridiques. Il est donc important de s’assurer que vos opérations de données dans Journey Optimizer sont conformes aux [ politiques d’utilisation des données ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr){target="_blank"}. Ces politiques sont des règles Adobe Experience Platform qui définissent les actions marketing que vous avez l’autorisation d’effectuer sur les données.
 
 Par défaut, si un profil s’est désabonné de la réception des communications de votre part, le profil correspondant est exclu des prochaines diffusions. Vous pouvez créer une **politique de consentement** qui remplace cette logique par défaut. Par exemple, vous pouvez créer des politiques de consentement dans Experience Platform pour exclure les clientes et clients qui n’ont pas consenti à recevoir des communications sur un canal donné. En l’absence de politique personnalisée, la politique par défaut s’applique.
 

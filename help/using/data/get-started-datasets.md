@@ -4,11 +4,11 @@ product: journey optimizer
 title: Commencer avec les jeux de données
 description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans Adobe Journey Optimizer.
 feature: Data Model, Datasets, Data Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 >[!NOTE]
 >
->À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=fr){target="_blank"}.
+>À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 >
 >En outre, depuis février 2025, un mécanisme de sécurisation sur la durée de vie (TTL) est déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
 
@@ -85,7 +85,7 @@ Vous pouvez effectuer les actions suivantes :
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416649?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Gouvernance des données
 

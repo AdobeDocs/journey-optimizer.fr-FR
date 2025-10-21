@@ -4,12 +4,12 @@ product: journey optimizer
 title: Opérateurs
 description: En savoir plus sur les opérateurs dans les expressions avancées
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: expression, syntaxe, opérateurs, éditeur, parcours
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 97%

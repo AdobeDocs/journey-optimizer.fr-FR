@@ -4,11 +4,11 @@ product: journey optimizer
 title: À propos des mécanismes de sécurisation de la durée de vie (TTL) des jeux de données
 description: Mécanismes de sécurisation de la durée de vie des jeux de données dans  [!DNL Adobe Journey Optimizer]
 feature: Data Model, Datasets, Data Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%

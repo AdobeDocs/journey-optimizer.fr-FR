@@ -6,11 +6,11 @@ description: En savoir plus sur les types de données dans les fonctions de gest
 feature: Journeys
 hide: true
 hidefromtoc: true
-role: Engineer
+role: Developer
 level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%

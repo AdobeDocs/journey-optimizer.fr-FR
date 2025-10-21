@@ -3,12 +3,12 @@ product: journey optimizer
 title: substr
 description: En savoir plus sur la fonction substr
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: substr, fonction, expression, parcours
 exl-id: 58a3107a-b4f3-43da-b454-5ce597515847
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 100%

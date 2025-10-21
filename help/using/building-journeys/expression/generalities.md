@@ -4,12 +4,12 @@ product: journey optimizer
 title: Syntaxe de l’éditeur d’expression avancé
 description: Découvrir la syntaxe utilisée dans l’éditeur d’expression avancé
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: syntaxe, éditeur, parcours
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 96%

@@ -3,12 +3,12 @@ product: journey optimizer
 title: setDays
 description: En savoir plus sur la fonction setDays
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: setDays, fonction, expression, parcours
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%

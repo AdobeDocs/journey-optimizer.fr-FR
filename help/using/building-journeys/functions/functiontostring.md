@@ -3,12 +3,12 @@ product: journey optimizer
 title: toString
 description: En savoir plus sur la fonction toString
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: toString, fonction, expression, parcours
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 100%

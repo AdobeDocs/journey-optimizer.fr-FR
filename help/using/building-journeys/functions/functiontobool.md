@@ -3,12 +3,12 @@ product: journey optimizer
 title: toBool
 description: En savoir plus sur la fonction toBool
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: tobool, fonction, expression, parcours
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 100%

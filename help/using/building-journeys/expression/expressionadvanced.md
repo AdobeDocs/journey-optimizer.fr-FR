@@ -4,12 +4,12 @@ product: journey optimizer
 title: Utiliser l’éditeur d’expression avancé
 description: Découvrir comment créer des expressions avancées
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: éditeur d’expression, données, parcours
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 100%

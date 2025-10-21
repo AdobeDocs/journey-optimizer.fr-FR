@@ -5,11 +5,11 @@ title: Intégration à Marketo Engage
 description: Découvrir comment utiliser l’action Marketo Engage
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate
 keywords: marketo, intégration marketo engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 92%

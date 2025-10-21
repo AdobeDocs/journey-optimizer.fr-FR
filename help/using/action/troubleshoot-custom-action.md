@@ -5,11 +5,11 @@ title: Résoudre les problèmes liés aux actions personnalisées
 description: Découvrez comment résoudre les problèmes liés aux actions personnalisées.
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 87%

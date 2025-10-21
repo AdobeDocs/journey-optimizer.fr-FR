@@ -3,12 +3,12 @@ product: journey optimizer
 title: split
 description: En savoir plus sur la fonction split
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: split, fonction, expression, parcours
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%

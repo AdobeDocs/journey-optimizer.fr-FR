@@ -3,12 +3,12 @@ product: journey optimizer
 title: toDuration
 description: En savoir plus sur la fonction toDuration
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: toDuration, fonction, expression, parcours
 exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%

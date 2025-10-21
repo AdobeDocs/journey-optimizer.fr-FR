@@ -5,11 +5,11 @@ title: Intégration d’Adobe Analytics
 description: Découvrez comment utiliser les données Adobe Analytics dans Journey Optimizer.
 feature: Journeys, Events, Reporting, Integrations
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: analytics, intégration, sdk web, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
