@@ -4,12 +4,12 @@ product: journey optimizer
 title: Commencer avec les schémas
 description: Découvrez comment utiliser les schémas Adobe Experience Platform dans Adobe Journey Optimizer.
 feature: Data Model, Datasets, Data Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: schémas, platform, données, structure
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Adobe Experience Platform comporte deux types de schémas :
 
 Découvrez comment créer un schéma standard, ajouter des groupes de champs, et créer et configurer des groupes de champs personnalisés.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416870?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

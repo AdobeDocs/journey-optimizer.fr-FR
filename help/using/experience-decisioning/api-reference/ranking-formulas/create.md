@@ -3,10 +3,10 @@ title: Créer une formule de classement
 description: Les formules de classement permettent de définir les fonctions de notation utilisées pour classer les éléments.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 2eb3ca65-f9f2-4483-ac6a-7bd896b0e516
-source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%

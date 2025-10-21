@@ -3,9 +3,9 @@ title: Rechercher un emplacement d’extension
 description: Les emplacements d’extension se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 100%

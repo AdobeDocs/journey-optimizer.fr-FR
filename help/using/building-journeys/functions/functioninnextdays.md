@@ -3,12 +3,12 @@ product: journey optimizer
 title: inNextDays
 description: En savoir plus sur la fonction inNextDays
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: inNextDays, fonction, expression, parcours
 exl-id: 0cb3e0db-dc5b-4d4e-a057-af030d9bdb21
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%

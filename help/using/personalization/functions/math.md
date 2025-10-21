@@ -3,10 +3,10 @@ title: Bibliothèque de fonctions mathématiques
 description: Bibliothèque de fonctions mathématiques
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 77%

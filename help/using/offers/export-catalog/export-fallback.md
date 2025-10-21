@@ -4,10 +4,10 @@ description: Cette section répertorie tous les champs utilisés dans le jeu de 
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 99%
@@ -157,7 +157,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
   **Champ :** linkURL
   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
   **Type :** chaîne
-  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
 

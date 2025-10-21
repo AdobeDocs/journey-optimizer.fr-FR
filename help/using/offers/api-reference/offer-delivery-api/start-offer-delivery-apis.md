@@ -3,10 +3,10 @@ title: Commencer avec les API de diffusion d’offres
 description: Découvrez les API disponibles pour diffuser des offres personnalisées.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
@@ -20,6 +20,7 @@ Vous pouvez diffuser des offres à l’aide de l’une des API suivantes : API 
 Cette page contient des informations sur les fonctionnalités spécifiques disponibles avec les API **Decisioning** et **Edge Decisioning**. Même si toutes deux vous permettent de diffuser des offres à vos clients, il est recommandé d’utiliser l’API **Edge Decisioning** chaque fois que possible pour les cas d’utilisation entrants. Cette dernière assure une latence plus faible et un débit plus élevé sur votre plateforme.
 
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
+
 * [API Decisioning](decisioning-api.md)
 * [API Edge Decisioning](edge-decisioning-api.md)
 * [API Batch Decisioning](batch-decisioning-api.md)

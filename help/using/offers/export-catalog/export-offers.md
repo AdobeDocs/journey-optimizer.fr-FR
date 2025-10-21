@@ -4,10 +4,10 @@ description: Cette section répertorie tous les champs utilisés dans le jeu de 
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 98%
@@ -179,7 +179,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
   **Champ :** linkURL
   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
   **Type :** chaîne
-  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
 
@@ -230,7 +230,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 +++_experience > prise de décisions > profileConstraints > Règle d&#39;éligibilité
 
 **Champ :** eligibilityRule
-**Titre :**&#x200B;règle d&#39;éligibilité
+**Titre :**règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 
@@ -243,6 +243,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à des audiences.
 **Type :** chaîne 
 **Valeurs possibles :**
+
 * &quot;none&quot; (par défaut)
 * &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d&#39;une règle unique qui doit être évaluée comme égale à true avant que l&#39;action contrainte ne soit autorisée. »
 * « anySegments » : « La contrainte de profil est exprimée sous la forme d’une ou de plusieurs audiences et le profil doit être membre d’au moins l’une d’entre elles avant que l’action contrainte ne soit autorisée. »

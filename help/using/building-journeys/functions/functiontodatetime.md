@@ -3,12 +3,12 @@ product: journey optimizer
 title: toDateTime
 description: En savoir plus sur la fonction toDateTime
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: toDateTime, fonction, expression, parcours
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%

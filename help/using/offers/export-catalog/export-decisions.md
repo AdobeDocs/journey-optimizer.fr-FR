@@ -4,10 +4,10 @@ description: Cette section répertorie tous les champs utilisés dans le jeu de 
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 97%
@@ -147,7 +147,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 +++ _experience > decisioning > criteria > profileConstraints > Eligibility Rule
 
 **Champ :** eligibilityRule
-**Titre :**&#x200B;règle d&#39;éligibilité
+**Titre :**règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 
@@ -160,6 +160,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à des audiences.
 **Type :** chaîne 
 **Valeurs possibles :**
+
 * &quot;none&quot; (par défaut)
 * &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d&#39;une règle unique qui doit être évaluée comme égale à true avant que l&#39;action contrainte ne soit autorisée. »
 * « anySegments » : « La contrainte de profil est exprimée sous la forme d’une ou de plusieurs audiences et le profil doit être membre d’au moins l’une d’entre elles avant que l’action contrainte ne soit autorisée. »

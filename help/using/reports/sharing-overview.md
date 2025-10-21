@@ -5,10 +5,10 @@ title: Présentation du partage des étapes du parcours
 description: Présentation du partage des étapes du parcours
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 83%

@@ -3,10 +3,10 @@ title: Rechercher un élément de décision
 description: Les éléments de décision sont des offres marketing que vous pouvez créer et organiser en collections et en catalogues.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8a4e09ec-57bc-48ad-b626-6a15ba987791
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%

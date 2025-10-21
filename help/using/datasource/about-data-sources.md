@@ -5,11 +5,11 @@ title: Commencer avec les sources de données
 description: Découvrez comment commencer avec les sources de données.
 feature: Journeys, Data Sources
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: données, source, parcours, platform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 98%
@@ -55,5 +55,5 @@ Pour plus d’informations sur la configuration d’une source de données Adobe
 
 Comprenez ce qu&#39;est une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416634?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

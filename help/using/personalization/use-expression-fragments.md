@@ -5,14 +5,14 @@ title: Utiliser des fragments d’expression
 description: Découvrez comment utiliser des fragments d’expression dans l’éditeur de personnalisation de  [!DNL Journey Optimizer] .
 feature: Personalization, Fragments
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Pour ajouter des fragments d’expression à votre contenu, procédez comme suit
 1. Ouvrez l’[éditeur de personnalisation](personalization-build-expressions.md) et sélectionnez le bouton **[!UICONTROL Fragments]** dans le volet de gauche.
 
    La liste affiche tous les fragments d’expression qui ont été créés ou enregistrés en tant que fragments sur le sandbox actuel. [Découvrez comment créer des fragments](../content-management/create-fragments.md)
-Ils sont triés par date de création : les fragments d’expression récemment ajoutés sont affichés en premier dans la liste.
+lls sont triés par date de création : les fragments d’expression récemment ajoutés s’affichent en premier dans la liste.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -83,21 +83,21 @@ Cette fonctionnalité peut par exemple être utilisée pour initialiser les para
 
 Les cas d’utilisation suivants sont possibles :
 
-1. **Utiliser des variables d’entrée dans un fragment.**
+1. **Utiliser une variable d’entrée dans un fragment**
 
-   Lorsqu’un fragment est utilisé dans un contenu d’action de campagne/de parcours, il peut exploiter les variables qui ont été déclarées en dehors du fragment. Voici un exemple :
+   Lorsqu’un fragment est utilisé dans un contenu d’action de campagne/parcours, il peut exploiter des variables qui ont été déclarées à l’extérieur du fragment. Voici un exemple :
 
    ![](../personalization/assets/variable-in-a-fragment.png)
 
    Nous pouvons voir ci-dessus que la variable `utm_content` est déclarée dans le contenu de la campagne. Lorsque le fragment **Bloc principal** est utilisé, il affiche un lien auquel la valeur du paramètre `utm_content` est ajoutée. Le résultat définitif est : `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
 
-1. **Utiliser des variables de sortie d’un fragment.**
+1. **Utiliser les variables de sortie d’un fragment**
 
    Les variables calculées ou définies dans un fragment peuvent être utilisées dans votre contenu. Dans l’exemple suivant, un fragment **F1** déclare un ensemble de variables :
 
    ![](../personalization/assets/personalize-with-variables.png)
 
-   Dans le contenu d’un e-mail, vous pouvez disposer de la personnalisation suivante :
+   Dans un contenu d’e-mail, vous pouvez avoir la personnalisation suivante :
 
    ![](../personalization/assets/use-fragment-variable.png)
 

@@ -3,10 +3,10 @@ title: Créer un qualificateur de collection
 description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 84f0efa5-28af-4569-994c-12d87828a277
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%

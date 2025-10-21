@@ -3,10 +3,10 @@ title: Supprimer une stratégie de sélection
 description: Les stratégies de sélection se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 774f3773-bc39-46c4-b32c-143abbd45696
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%

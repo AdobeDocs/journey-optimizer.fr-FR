@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 100%
@@ -96,6 +96,7 @@ Pour l’optimisation automatique, comme illustré dans l’exemple ci-dessus, n
 **Rubriques connexes** :
 
 Pour une étude plus approfondie de l’échantillonnage de Thompson, lisez les documents de recherche suivants :
+
 * [Évaluation empirique de l’échantillonnage de Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
 * [Analyse de l’échantillonnage de Thompson pour le problème du bandit manchot](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 

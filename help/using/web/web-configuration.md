@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
@@ -99,11 +99,11 @@ Lors de la création d’une [règle correspondant à plusieurs pages](#web-page
 
   | Opérateur | Description | Exemples |
   |---|---|---|
-  | Correspond à | Correspondance exacte du domaine.  |
+  | Correspond à | Correspondance exacte du domaine.  | |
   | Commence par | Correspond à tous les domaines (y compris les sous-domaines) commençant par la chaîne saisie.  | Exemple : « Commence par : dev » -> correspond à tous les domaines et sous-domaines commençant par « dev », comme : dev.exemple.com, dev.produits.exemple.com, developper.exemple.com. |
   | Se termine par | Correspond à tous les domaines (y compris les sous-domaines) qui se terminent par la chaîne saisie.  | Exemple : « Se termine par : exemple.com » -> correspond à tous les domaines et sous-domaines qui se terminent par « exemple.com », par exemple : stage.exemple.com, prod.exemple.com, monexemple.com. |
   | Correspondance des caractères génériques | L’opérateur « Correspondance des caractères génériques » permet de définir une correspondance de caractères génériques au milieu de la chaîne, comme « dev.*.exemple.com ». Les règles de validation sont telles que la valeur doit contenir un seul caractère générique (astérisque) lorsque l’opérateur est « correspondance des caractères génériques ».  | Exemple : « Correspondance des caractères génériques : dev.*.exemple.com » -> correspond à des domaines comme : dev.produits.exemple.com, dev.montest.produits.exemple.com, dev.blog.exemple.com. |
-  | N’importe lequel | Correspond à tous les domaines. Cela se révèle utile lors du test d’un chemin spécifique sur plusieurs domaines. |
+  | N’importe lequel | Correspond à tous les domaines. Cela se révèle utile lors du test d’un chemin spécifique sur plusieurs domaines. |  |
 
 
 * **Chemin**

@@ -5,12 +5,12 @@ title: Niveaux d’autorisation
 description: Découvrez les autorisations de haut niveau et de bas niveau qui permettent aux utilisateurs et aux utilisatrices d’accéder aux différentes fonctionnalités.
 topic: Administration
 feature: Access Management
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 100%
 

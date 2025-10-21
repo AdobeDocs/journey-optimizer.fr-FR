@@ -4,10 +4,10 @@ description: Découvrez comment accéder au catalogue d’offres sur Adobe Expe
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 100%

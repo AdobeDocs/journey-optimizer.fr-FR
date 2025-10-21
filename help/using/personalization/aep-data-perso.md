@@ -6,14 +6,14 @@ description: Découvrez comment utiliser des données Adobe Experience Platfor
 badge: label="Disponibilité limitée" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 86%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clientes et clients.
+>Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clients et clientes.
 >
 >Pour l’instant, la fonction d’assistance « datasetLookup » peut être utilisée dans les fragments d’expression pour un ensemble limité de clientes et clients. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
@@ -82,7 +82,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
    >
    >Lors du référencement d’un champ de jeu de données, assurez-vous de bien respecter le chemin d’accès complet du champ tel qu’il est défini dans le schéma.
    >
-   >Il n’existe aucune limite stricte quant au nombre de champs pouvant être extraits à l’aide de la fonction d’assistance. Toutefois, pour de meilleures performances, il est recommandé de conserver le nombre de champs inférieur à 50 afin d’éviter toute incidence sur le débit.
+   >Il n’existe aucune limite stricte du nombre de champs pouvant être extraits à l’aide de la fonction d’assistance. Toutefois, pour de meilleures performances, il est recommandé de limiter le nombre de champs à 50 afin d’éviter toute incidence sur le débit.
 
    * **result** est la valeur que vous avez affectée au paramètre **result** dans la fonction d’assistance **datasetLookup**. Dans cet exemple, « flight ».
    * **fieldID** est l’identifiant du champ à récupérer. Cet identifiant est visible dans l’interface d’utilisation d’[!DNL Adobe Experience Platform] lors de la navigation dans le schéma d’enregistrement associé à votre jeu de données :

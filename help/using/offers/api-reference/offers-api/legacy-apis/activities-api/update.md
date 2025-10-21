@@ -3,10 +3,10 @@ title: Mettre des décisions à jour
 description: Une décision contient la logique sous-tendant la sélection d’une offre.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 63a6b50b-9e42-43c0-87ee-19fcb6ecdd98
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%

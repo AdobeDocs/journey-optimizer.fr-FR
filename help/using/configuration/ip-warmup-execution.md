@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 100%
@@ -232,7 +232,7 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
 
 * Si vous activez la première exécution d’une phase :
 
-   * Une [audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créée pour les audiences de campagne exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
+   * Une [audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créée pour les audiences de campagne exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
 
    * Une audience est créée pour les groupes de domaines exclus (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 

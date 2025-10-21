@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 100%
 
@@ -44,6 +44,7 @@ En outre, une collection Postman est disponible [ici](https://github.com/AdobeDo
 Elle a été créée pour partager la collection de variables Postman générée dans __[Intégrations de la console Adobe I/O](https://console.adobe.io/integrations) > Essayer > Télécharger pour Postman__, qui génère un fichier d’environnement Postman contenant les valeurs d’intégration sélectionnées.
 
 Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
+
 * `{JO_HOST}` : URL de passerelle [!DNL Journey Optimizer]
 * `{BASE_PATH}` : point d’entrée pour l’API.
 * `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr){target="_blank"}.
@@ -182,6 +183,7 @@ Appels API à utiliser :
 >Un redéploiement est nécessaire après la mise à jour d’une configuration déployée.
 
 Appels API à utiliser :
+
 1. **`list`** : récupère les configurations existantes.
 1. **`get`** : récupère les détails d’une configuration spécifique.
 1. **`update`** : modifie la configuration.

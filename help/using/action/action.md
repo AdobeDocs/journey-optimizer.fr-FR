@@ -5,11 +5,11 @@ title: Commencer avec les actions
 description: Découvrez comment utiliser les actions.
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: actions, parcours, messages, envoi, connexions
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 80%
@@ -49,7 +49,7 @@ Découvrez comment résoudre les problèmes liés à une action personnalisée [
 
 Découvrez comment configurer des actions personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430274?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## Ressources supplémentaires
 

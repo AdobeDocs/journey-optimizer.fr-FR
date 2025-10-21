@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
@@ -60,6 +60,7 @@ Le modèle comporte deux phases :
 * Dans la phase d’**inférence en ligne**, les offres des candidats sont classées en fonction des scores en temps réel générés par le modèle. Contrairement aux techniques de filtrage collaboratif traditionnelles, difficiles à inclure pour les utilisateurs et utilisatrices et les offres, l’optimisation personnalisée est une méthode de recommandation basée sur le deep learning, qui permet d’inclure et d’apprendre des modèles d’interaction de fonctionnalités complexes et non linéaires.
 
 Voici un exemple simplifié illustrant l’idée de base derrière l’optimisation personnalisée. Supposons que nous ayons un jeu de données qui stocke les interactions historiques entre les utilisateurs et les offres, comme illustré dans la figure 1. Il existe :
+
 * Deux offres, offer_1 et offer_2,
 * Deux fonctionnalités, feature_1 et feature_2,
 * Une colonne de réponse.

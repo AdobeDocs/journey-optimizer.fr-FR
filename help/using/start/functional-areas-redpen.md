@@ -4,12 +4,12 @@ product: journey optimizer
 title: Zones fonctionnelles
 description: Zones fonctionnelles dans AJO
 feature: Get Started
-role: Admin, Data Engineer, Developer, User
+role: Admin, Developer, User
 level: Beginner
 redpen-status: PASS_||_2025-04-28_15-13-07
 exl-id: c9b02ae2-e07b-41f4-90cc-b2c0966f1ed1
 hide: true
-source-git-commit: 72ff06a7d87d6d9e5bfc0c6462ea4d60a98fc940
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 100%
@@ -41,6 +41,7 @@ Adobe Journey Optimizer (AJO) comprend plusieurs zones fonctionnelles clés qu
 Considérez la gestion des données comme le socle de l’engagement client. Une base de données bien structurée garantit que chaque décision, message et parcours s’appuie sur des informations exactes et organisées.
 
 **Composants clés** :
+
 - **Création et gestion des schémas** : définissez la structure des données client.
    - Exemple : créez un schéma décrivant des champs tels que « Prénom », « Adresse électronique » et « Historique des achats ».
 - **Configuration du jeu de données** : organisez les données en conteneurs logiques.
@@ -60,6 +61,7 @@ Considérez la gestion des données comme le socle de l’engagement client. Une
 Les outils de gestion de la clientèle relient des points de données disparates pour offrir une vue cohérente de chaque client ou cliente. Cette compréhension garantit la capacité de proposer des expériences pertinentes et personnalisées.
 
 **Composants clés** :
+
 - **Profil client en temps réel** : vue unifiée de chaque client ou cliente.
    - Exemple : combinez l’historique de navigation web, les interactions dans les applications et les achats hors ligne au sein d’un seul profil.
 - **Résolution d’identité** : liez les données des clients ou des clientes sur différents appareils et canaux.
@@ -80,6 +82,7 @@ Les outils de gestion de la clientèle relient des points de données disparates
 Les outils de gestion de contenu permettent aux équipes de créer et de diffuser efficacement des messages adaptés, en maintenant cohérence et pertinence sur chaque point de contact.
 
 **Composants clés** :
+
 - **Éditeurs de contenu** : créez et formatez des messages visuellement ou à l’aide de code.
    - Exemple : utilisez l’éditeur visuel pour concevoir une campagne par e-mail promouvant les ventes de fin d’année.
 - **Gestion des ressources numériques** : organisez et utilisez des images et d’autres médias.
@@ -101,6 +104,7 @@ Les outils de gestion de contenu permettent aux équipes de créer et de diffuse
 La gestion des décisions veille à ce que la personnalisation fonctionne à l’échelle en apportant une valeur maximale grâce à l’automatisation intelligente.
 
 **Composants clés** :
+
 - **Bibliothèque des offres** : référentiel central des offres marketing.
    - Exemple : stockez des offres telles que « coupon de 20 % de réduction » ou « Livraison gratuite » dans une bibliothèque partagée.
 - **Règles de décision** :logique permettant de sélectionner le contenu optimal.
@@ -122,6 +126,7 @@ La gestion des décisions veille à ce que la personnalisation fonctionne à l�
 La gestion des parcours permet de s’assurer que les expériences sont adaptatives et transparentes, en guidant les individus en fonction de leurs préférences et de leurs actions.
 
 **Composants clés** :
+
 - **Concepteur de parcours** : zone de travail visuelle pour la création de chemins d’accès client.
    - Exemple : concevez un parcours qui envoie un e-mail de bienvenue lorsqu’un client ou une cliente s’inscrit.
 - **Déclencheurs de parcours** : événements qui initient ou font progresser les parcours.
@@ -143,6 +148,7 @@ La gestion des parcours permet de s’assurer que les expériences sont adaptati
 Les connexions garantissent que les données intègrent AJO de manière efficace et atteignent les clients ou les clientes de façon fiable aux bons points de contact.
 
 **Composants clés** :
+
 - **Connecteurs Source** : importez les données dans la plateforme.
    - Exemple : utilisez un connecteur pour importer les données d’achat d’une plateforme d’e-commerce.
 - **Configuration des canaux** : configurez et gérez les mécanismes de diffusion.
@@ -162,6 +168,7 @@ Les connexions garantissent que les données intègrent AJO de manière efficace
 Les outils d’administration et de confidentialité garantissent la protection de l’intégrité des données et le respect de toutes les politiques juridiques et organisationnelles.
 
 **Composants clés** :
+
 - **Gestion des utilisateurs et des utilisatrices et des accès** : contrôlez l’accès et les autorisations.
    - Exemple : attribuez des autorisations spécifiques aux équipes marketing et informatiques.
 - **Configuration des sandbox** : séparez les environnements de développement et de test.

@@ -4,10 +4,10 @@ description: En savoir plus sur la collecte de données des commentaires sur la 
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer, Developer
+role: User, Developer
 level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
@@ -19,6 +19,7 @@ ht-degree: 100%
 ## Présentation de la collecte de données
 
 Vous pouvez collecter des commentaires concernant la prise de décisions sur les offres dans Adobe Experience Platform, notamment par rapport aux offres présentées et à la manière dont les utilisateurs et utilisatrices interagissent avec elles. Tirez ensuite parti de ces données dans les scénarios suivants :
+
 * élaborer des [rapports de gestion des décisions](../reports/get-started-events.md),
 * utiliser des règles de [limitation de la fréquence](../offer-library/add-constraints.md#capping),
 * créer des [modèles d’IA](../ranking/create-ranking-strategies.md) qui peuvent être utilisés comme méthode de classement.

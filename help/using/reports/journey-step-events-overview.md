@@ -5,12 +5,12 @@ title: Utilisation d’événements d’étape de parcours
 description: Découvrez comment utiliser les événements d’étape de parcours dans Adobe Journey Optimizer - comprenez ce qu’ils sont, pourquoi ils sont importants et comment les utiliser à des fins d’analyse et d’optimisation
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin, User
+role: Engineer, Admin, User
 level: Intermediate, Experienced
 keywords: parcours, événements d’étape, analyse, création de rapports, surveillance, XDM
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Utilisation d’événements d’étape de parcours {#work-with-journey-step-events}
 
-Les événements d’étape de parcours sont des événements générés automatiquement qui capturent des informations détaillées sur chaque étape qu’un [profil](../audience/get-started-profiles.md) suit pendant leur progression dans un [parcours &#x200B;](../building-journeys/journey.md) dans Adobe Journey Optimizer. Ces événements offrent une visibilité complète sur les performances du parcours [&#128279;](../building-journeys/report-journey.md) et activent de puissantes fonctionnalités d’analyse.
+Les événements d’étape de parcours sont des événements générés automatiquement qui capturent des informations détaillées sur chaque étape qu’un [profil](../audience/get-started-profiles.md) suit pendant leur progression dans un [parcours ](../building-journeys/journey.md) dans Adobe Journey Optimizer. Ces événements offrent une visibilité complète sur les performances du parcours [](../building-journeys/report-journey.md) et activent de puissantes fonctionnalités d’analyse.
 
 ## Que sont les événements d’étape de parcours ? {#what-are-step-events}
 
@@ -34,18 +34,18 @@ Il existe deux types principaux d’événements d’étape de parcours :
 
 Les événements d’étape de parcours sont générés automatiquement pour diverses activités de parcours :
 
-- **Événements d’entrée** : lorsqu’un profil [entre dans un parcours &#x200B;](../building-journeys/entry-management.md)
-- **Exécution d’action** : lorsque [&#x200B; messages sont envoyés](../building-journeys/journeys-message.md) ou [actions personnalisées](../building-journeys/using-custom-actions.md) sont effectuées
+- **Événements d’entrée** : lorsqu’un profil [entre dans un parcours ](../building-journeys/entry-management.md)
+- **Exécution d’action** : lorsque [ messages sont envoyés](../building-journeys/journeys-message.md) ou [actions personnalisées](../building-journeys/using-custom-actions.md) sont effectuées
 - **Évaluation des conditions** : lorsque les profils passent par des [conditions](../building-journeys/condition-activity.md) et des points de décision
 - **Activités d’attente** : lorsque les profils entrent et sortent [nœuds d’attente](../building-journeys/wait-activity.md)
-- **Événements de sortie** : lorsque les profils terminent ou [quittent un parcours &#x200B;](../building-journeys/end-journey.md)
+- **Événements de sortie** : lorsque les profils terminent ou [quittent un parcours ](../building-journeys/end-journey.md)
 - **Gestion des erreurs** : quand des erreurs se produisent lors de l’exécution du parcours
 
 >[!NOTE]
 >
 >Les événements d’étape de parcours sont activés par défaut sur toutes les instances. Vous ne pouvez pas modifier ni mettre à jour les [schémas et jeux de données](sharing-overview.md) créés lors de l’approvisionnement des événements d’étape. Ces schémas et jeux de données sont en mode lecture seule.
 
-En savoir plus sur les [schémas d’événement d’étape de parcours &#x200B;](sharing-field-list.md).
+En savoir plus sur les [schémas d’événement d’étape de parcours ](sharing-field-list.md).
 
 ## Importance des événements d’étape de parcours {#why-step-events-matter}
 
@@ -54,7 +54,7 @@ Les événements d’étape de parcours fournissent une valeur essentielle aux o
 ### Analyse et surveillance en temps réel {#real-time-analytics}
 
 - **Suivi des performances des Parcours** : surveillez le flux des profils dans vos parcours en temps réel à l’aide de [rapports dynamiques](live-report.md)
-- **Analyse des conversions** : comprendre les points de chute et les chemins de conversion réussis avec [l’analyse des parcours &#x200B;](journey-global-report-cja.md)
+- **Analyse des conversions** : comprendre les points de chute et les chemins de conversion réussis avec [l’analyse des parcours ](journey-global-report-cja.md)
 - **Détection des erreurs** : identifiez et résolvez les problèmes qui se produisent par le biais de [surveillance et alertes](alerts.md)
 
 ### Intégration des données et informations {#data-integration}
@@ -67,7 +67,7 @@ Les événements d’étape de parcours fournissent une valeur essentielle aux o
 
 - **Informations sur les tests A/B** : analysez les performances des différents chemins de parcours à l’aide de l’[expérimentation](campaign-global-report-cja-experimentation.md)
 - **Amélioration de Personalization** : utilisez les données de comportement du parcours pour améliorer les expériences futures avec le [contenu dynamique](../personalization/dynamic-content.md)
-- **Efficacité opérationnelle** : identifier les goulets d’étranglement et optimiser la conception des parcours [&#128279;](../building-journeys/using-the-journey-designer.md)
+- **Efficacité opérationnelle** : identifier les goulets d’étranglement et optimiser la conception des parcours [](../building-journeys/using-the-journey-designer.md)
 
 ## Utilisation des événements d’étape de parcours {#how-to-use-step-events}
 
@@ -76,7 +76,7 @@ Les événements d’étape de parcours fournissent une valeur essentielle aux o
 Les données d’événement d’étape de parcours sont automatiquement stockées dans Adobe Experience Platform et sont accessibles via :
 
 1. **Requêtes du lac de données** : utilisez SQL pour interroger le jeu de données `journey_step_events` avec [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}
-2. **Customer Journey Analytics** : analyse des données de parcours au moyen d’[&#x200B; outils d’analyse avancés](cja-ajo.md)
+2. **Customer Journey Analytics** : analyse des données de parcours au moyen d’[ outils d’analyse avancés](cja-ajo.md)
 3. **Rapports en temps réel** : accédez aux données par le biais de Journey Optimizer [fonctionnalités de rapports intégrées](gs-reports.md)
 4. **API** : accès par programmation aux données d’événement pour les applications personnalisées
 
@@ -150,13 +150,13 @@ Comprenez la structure de données complète des événements d’étape de parc
 
 **Optimisation des performances**
 
-- Utilisez `journeyVersionID` au lieu de `journeyVersionName` pour de meilleures performances des requêtes ([en savoir plus sur les propriétés de parcours &#x200B;](../building-journeys/expression/journey-properties.md)).
+- Utilisez `journeyVersionID` au lieu de `journeyVersionName` pour de meilleures performances des requêtes ([en savoir plus sur les propriétés de parcours ](../building-journeys/expression/journey-properties.md)).
 - Filtrer par périodes pour améliorer la vitesse de requête sur les jeux de données volumineux
-- Tirez parti des identités de profil qui correspondent à la configuration de votre espace de noms de parcours [&#128279;](../building-journeys/entry-management.md)
+- Tirez parti des identités de profil qui correspondent à la configuration de votre espace de noms de parcours [](../building-journeys/entry-management.md)
 
 **Qualité des données**
 
-- Surveillez régulièrement les [&#x200B; événements ignorés &#x200B;](sharing-field-list.md#discarded-events) pour identifier les problèmes de données
+- Surveillez régulièrement les [ événements ignorés ](sharing-field-list.md#discarded-events) pour identifier les problèmes de données
 - Vérifiez que les schémas d’événement correspondent aux exigences de votre analyse.
 - Implémenter une gestion appropriée des erreurs dans les requêtes personnalisées
 
@@ -193,6 +193,6 @@ Découvrez comment [configurer Customer Journey Analytics](report-gs-cja.md) pou
 
 **Étapes suivantes :**
 
-- Commencez par [créer vos premiers rapports de parcours &#x200B;](sharing-overview.md)
+- Commencez par [créer vos premiers rapports de parcours ](sharing-overview.md)
 - Explorez les [exemples de requête](query-examples.md) pour des cas d’utilisation spécifiques
-- Découvrez les [bonnes pratiques de gestion des parcours &#x200B;](../building-journeys/journey.md)
+- Découvrez les [bonnes pratiques de gestion des parcours ](../building-journeys/journey.md)

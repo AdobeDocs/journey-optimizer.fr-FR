@@ -3,10 +3,10 @@ title: Assistants
 description: Assistants
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 57%
@@ -134,8 +134,8 @@ Some edu specific content
 ## Each{#each}
 
 L&#39;helper `each` est utilisé pour effectuer une itération sur un tableau.
-La syntaxe de l’assistant est ```{{#each ArrayName}}``` YourContent {{/each}}
-Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l’intérieur du bloc. L’index de l’élément du tableau peut être rendu à l’aide de {{@index}}.
+La syntaxe de l’assistant est ```{{#each ArrayName}}``` YourContent `{{/each}}`
+Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l’intérieur du bloc. L’index de l’élément du tableau peut être rendu à l’aide de `{{@index}}`.
 
 **Syntaxe**
 
@@ -216,7 +216,7 @@ L&#39;exemple suivant permet de calculer la somme totale des prix des produits d
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
 
 L’assistant `executionMetadata` permet de capturer et de stocker dynamiquement des paires clé-valeur personnalisées dans le contexte d’exécution du message.
 

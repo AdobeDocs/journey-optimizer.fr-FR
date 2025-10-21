@@ -4,10 +4,10 @@ product: journey optimizer
 title: Prise en main de Journey Optimizer pour l’ingénieur de données
 description: En tant qu’ingénieur de données, découvrez comment utiliser Journey Optimizer
 feature: Get Started
-role: Data Engineer
+role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 100%

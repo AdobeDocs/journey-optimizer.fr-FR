@@ -5,11 +5,11 @@ title: Contrôle d’accès au niveau des objets
 description: Découvrez le contrôle d’accès au niveau de l’objet (OLAC) qui vous permet de définir des autorisations pour gérer l’accès aux données d’une sélection d’objets.
 feature: Access Management
 topic: Administration
-role: Admin, Developer, Architect
+role: Admin, Developer
 level: Experienced
 keywords: objet, niveau, accès, contrôle, libellés, olac, autorisation
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%

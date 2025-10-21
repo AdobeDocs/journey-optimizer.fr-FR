@@ -3,10 +3,10 @@ title: Accès aux champs XDM des événements
 description: En savoir plus sur le schéma XDM DecisioningEvents.
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 100%

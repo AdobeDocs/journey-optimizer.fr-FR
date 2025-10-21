@@ -3,12 +3,12 @@ title: Collecte de données
 description: En savoir plus sur la collecte de données des commentaires sur la gestion des décisions
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer, Developer
+role: User, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
@@ -52,7 +52,8 @@ Cependant, pour la **plupart des canaux**, les données relatives aux impression
 * Les applications mobiles utilisant le [SDK mobile Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"} pour afficher les offres - [En savoir plus](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * les kiosques,
 * les messages envoyés par le biais d’applications tierces.
-  <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
+
+<!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
 >[!NOTE]
 >

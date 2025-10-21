@@ -6,12 +6,12 @@ description: Découvrez comment utiliser les données Adobe Experience Platfor
 badge: label="Disponibilité limitée" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 100%
 

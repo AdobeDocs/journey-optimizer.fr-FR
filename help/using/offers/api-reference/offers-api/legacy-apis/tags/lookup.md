@@ -3,10 +3,10 @@ title: Rechercher un qualificateur de collection
 description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 100%

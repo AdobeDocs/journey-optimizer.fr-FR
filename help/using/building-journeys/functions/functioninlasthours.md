@@ -3,12 +3,12 @@ product: journey optimizer
 title: inLastHours
 description: En savoir plus sur la fonction inLastHours
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: inLastHours, fonction, expression, parcours
 exl-id: c648d711-c81b-403b-9adb-792c7e79e4e2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 100%

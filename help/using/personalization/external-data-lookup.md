@@ -3,13 +3,13 @@ title: Assistant de recherche de données externes
 description: Guide complet d’utilisation de l’assistant de recherche de données externes pour la personnalisation dynamique dans Adobe Journey Optimizer.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 97%

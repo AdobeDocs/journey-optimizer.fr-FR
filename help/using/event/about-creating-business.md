@@ -5,11 +5,11 @@ title: Configuration d'un événement métier
 description: Découvrez comment créer un événement métier.
 feature: Journeys, Events
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 100%

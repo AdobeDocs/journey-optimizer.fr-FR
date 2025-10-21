@@ -3,10 +3,10 @@ title: Mettre à jour un élément de décision
 description: Les éléments de décision sont des offres marketing que vous pouvez créer et organiser en collections et en catalogues.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b924b7d0-bbed-409e-8173-0685fc41d7de
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%

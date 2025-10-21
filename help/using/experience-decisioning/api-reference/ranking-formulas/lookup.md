@@ -3,10 +3,10 @@ title: Rechercher une formule de classement
 description: Les formules de classement permettent de définir les fonctions de notation utilisées pour classer les éléments.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f048b2d1-d26b-4987-8acb-3558df506ec2
-source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%

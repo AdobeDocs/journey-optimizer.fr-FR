@@ -5,11 +5,11 @@ title: Gouvernance des données
 description: Définir une politique de gouvernance associée à un libellé et à une action marketing
 feature: Journeys, Actions, Custom Actions, Privacy
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 98%

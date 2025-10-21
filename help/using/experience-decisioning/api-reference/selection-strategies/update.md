@@ -3,10 +3,10 @@ title: Mettre à jour des stratégies de sélection
 description: Les stratégies de sélection se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%

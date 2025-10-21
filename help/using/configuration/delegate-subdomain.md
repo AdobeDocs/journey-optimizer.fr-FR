@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 100%
@@ -116,14 +116,15 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
 1. Indiquez le nom du sous-domaine à déléguer.
 
    ![](assets/subdomain-name.png)
-<!--
-    >[!CAUTION]
+
+<!-- >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     >
     >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-    Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM
+-->
 
 1. Configurez l’**[!UICONTROL enregistrement DMARC]** dans la section dédiée. Si le sous-domaine comporte un [enregistrement DMARC](dmarc-record.md) existant et qu’il est récupéré par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs ou les modifier selon vos besoins. Si vous n’ajoutez pas de valeurs, les valeurs par défaut seront utilisées. [Découvrez comment gérer l’enregistrement DMARC](dmarc-record.md#set-up-dmarc).
 
@@ -276,4 +277,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

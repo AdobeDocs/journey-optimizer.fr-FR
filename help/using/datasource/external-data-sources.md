@@ -5,11 +5,11 @@ title: Sources de données externes
 description: Découvrir comment configurer des sources de données externes
 feature: Journeys, Data Sources, Integrations
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 97%

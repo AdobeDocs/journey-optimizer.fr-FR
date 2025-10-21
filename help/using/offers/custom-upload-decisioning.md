@@ -6,10 +6,10 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,13 +23,14 @@ Les données des audiences de chargement personnalisé peuvent être utilisées 
 2. Personnaliser le contenu dans les représentations des offres.
 
 Pour plus d’informations sur les audiences de chargement personnalisé, reportez-vous aux sections :
+
 * [Commencer avec les audiences et Journey Optimizer](../audience/about-audiences.md)
 * [Import d’une audience dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## À lire absolument {#must-read}
 
 * Cette fonctionnalité est prise en charge uniquement dans la **gestion des décisions** et non dans la prise de décision (anciennement appelée Décisions pour les expériences).
-* Elle est disponible exclusivement via les demandes **API Decisioning (Hub)** et n’est pas prise en charge par l’**API Edge Decisioning** ou la **prise de décision par lots**.
+* Il est disponible exclusivement par le biais de requêtes **API Decisioning (Hub)** et n’est pas pris en charge par l’API **Edge Decisioning** ou **la diffusion de décisions par lots**.
 
 ## Utilisation d’une audience de chargement personnalisé comme critères d’éligibilité {#eligibilty}
 

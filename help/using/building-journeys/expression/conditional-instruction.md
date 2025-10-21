@@ -4,12 +4,12 @@ product: journey optimizer
 title: Instruction conditionnelle (if, then, else / si, alors, sinon)
 description: En savoir plus sur l’instruction conditionnelle
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: avancé, condition, action, parcours
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%

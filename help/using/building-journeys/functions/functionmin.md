@@ -3,12 +3,12 @@ product: journey optimizer
 title: min
 description: En savoir plus sur la fonction min
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: min, fonction, expression, parcours
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%

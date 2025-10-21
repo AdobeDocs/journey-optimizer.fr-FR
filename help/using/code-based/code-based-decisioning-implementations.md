@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '371'
 ht-degree: 97%
 
 ---
@@ -25,17 +25,17 @@ Lors du test d’une [expérience basée sur du code](create-code-based.md) avec
 
 Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le bloc de `data` d’événement XDM de votre implémentation client :
 
-    ```
-    {
-    &quot;data&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
-    &quot;dryRun&quot;: true
+```
+{
+    "data": {
+        "__adobe": {
+            "ajo": {
+                "dryRun": true
+            }
+        }
     }
-    }
-    }
-    }
-    ```
+}
+```
 
 <!--
 >[!CAUTION]

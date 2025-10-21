@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
@@ -17,6 +17,7 @@ ht-degree: 100%
 # Configurer la sélection des offres dans les décisions {#offers-selection-in-decisions}
 
 Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d’une décision. Vous pouvez classer les offres par :
+
 * Priorité des offres
 * Formule de classement
 * [Classement par l&#39;IA](#use-ranking-strategy)
@@ -61,7 +62,7 @@ Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la
 
 ## Classement par l’IA {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 Vous pouvez également utiliser un système de modèles formés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant un modèle d’IA. Découvrez comment créer un modèle d’IA dans [cette section](../ranking/create-ranking-strategies.md).
 

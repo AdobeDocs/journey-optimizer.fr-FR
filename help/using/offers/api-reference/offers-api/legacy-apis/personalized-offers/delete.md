@@ -3,10 +3,10 @@ title: Suppression d’offres personnalisées
 description: Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6ae37843-2679-48a3-96ef-bb93a5d4a333
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%

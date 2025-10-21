@@ -3,10 +3,10 @@ title: Rechercher une offre personnalisée
 description: Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 93%

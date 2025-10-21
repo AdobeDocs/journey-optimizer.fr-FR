@@ -5,11 +5,11 @@ title: Envoyer des données à AEP
 description: Découvrez comment envoyer des données à AEP.
 feature: Journeys, Use Cases
 topic: Content Management
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate, Experienced
 keywords: parcours, cas d’utilisation
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%

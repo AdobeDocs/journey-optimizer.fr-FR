@@ -5,8 +5,8 @@ title: Étapes de configuration
 description: Découvrez comment créer un schéma basé sur un modèle dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Cette section fournit des instructions détaillées sur la création d’un sch�
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [Pour en savoir plus sur les schémas basés sur des modèles, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/model-based)
+➡️ [Pour en savoir plus sur les schémas basés sur des modèles, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Charger un fichier DDL{#ddl-upload}
 

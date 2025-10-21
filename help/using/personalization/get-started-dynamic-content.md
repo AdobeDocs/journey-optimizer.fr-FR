@@ -5,11 +5,11 @@ title: Commencer avec le contenu dynamique
 description: En savoir plus sur le contenu dynamique
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expression, éditeur, prise en main, conditions, commencer
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -36,4 +36,4 @@ Les règles conditionnelles peuvent être utilisées dans le concepteur d’e-ma
 
 Découvrez comment créer du contenu dynamique à l’aide du créateur de règles de condition.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413671?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

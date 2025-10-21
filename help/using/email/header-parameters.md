@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
@@ -35,6 +35,7 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 >[!NOTE]
 >
 >Les adresses **[!UICONTROL Préfixe d’e-mail d’expéditeur]** et **[!UICONTROL Préfixe d’e-mail d’erreur]** utilisent le [sous-domaine délégué](../configuration/about-subdomain-delegation.md) actuellement sélectionné pour envoyer l’e-mail. Par exemple, si le sous-domaine délégué est *marketing.luma.com* :
+>
 >* Saisissez *contact* comme **[!UICONTROL Préfixe d’e-mail d’expéditeur]** : l’e-mail de l’expéditeur est *contact@marketing.luma.com*.
 >* Saisissez *erreur* comme **[!UICONTROL préfixe d’e-mail d’erreur]** : l’adresse d’erreur est *error@marketing.luma.com*.
 

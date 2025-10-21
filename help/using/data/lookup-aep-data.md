@@ -5,15 +5,15 @@ title: Utiliser les données d’Adobe Experience Platform
 description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans les fonctionnalités de prise de décision et de personnalisation de  [!DNL Journey Optimizer] .
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -32,22 +32,22 @@ Journey Optimizer vous permet d’utiliser les données d’Adobe Experience 
 
 Avant de commencer, consultez les restrictions et les directives suivantes :
 
-* **Pas d’informations d’identification personnelle dans les jeux de données** - Les jeux de données activés pour la recherche ne doivent pas contenir d’informations d’identification personnelle (PII).
+* **Pas de DCP dans les jeux de données** : les jeux de données activés pour la recherche ne doivent contenir aucune donnée à caractère personnel (DCP).
 
-* &#x200B;
-   * **Risque de suppression** - Les jeux de données utilisés dans la personnalisation ne sont pas protégés contre la suppression. Vous devez suivre les jeux de données utilisés pour vous assurer qu’ils ne sont pas supprimés.
+* 
+   * **Risque de suppression** : les jeux de données utilisés dans la personnalisation ne sont pas protégés contre la suppression. Vous devez effectuer le suivi des jeux de données utilisés pour vous assurer qu’ils ne sont pas supprimés.
 
-* **Type de schéma** - Les jeux de données doivent être associés à un schéma **NOT** de type Profil ou Événement.
+* **Type de schéma** : les jeux de données doivent être associés à un schéma qui n’est **PAS** de type Profil ou Événement.
 
-* **Gardez le bouton de recherche activé** - Évitez d’activer et de désactiver à plusieurs reprises les jeux de données. Cela peut entraîner un comportement d’indexation inattendu. La bonne pratique consiste à laisser le jeu de données activé tant que vous prévoyez de l’utiliser pour les recherches.
+* **Maintenir le bouton (bascule) de recherche activé** : évitez d’activer et de désactiver les jeux de données de manière répétée. Cela peut entraîner un comportement d’indexation inattendu. La bonne pratique consiste à laisser le jeu de données activé tant que vous prévoyez de l’utiliser pour les recherches.
 
 * **Suppression d’un lot de données** - La suppression d’un lot de données de votre jeu de données supprime complètement toutes les clés correspondantes du service de recherche. Par exemple :
 
-  **Lot 1** : Sku1, Sku2, Sku3\
-  **Lot 2** : Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\
-  **Lot 3** : Sku7, Sku8, Sku9, Sku10
+  **Lot 1** : Sku1, Sku2, Sku3\
+  **Lot 2** : Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\
+  **Lot 3** : Sku7, Sku8, Sku9, Sku10
 
-  Si vous supprimez **lot 1**, les Sku1, Sku2 et Sku3 sont supprimés de la boutique de recherche. Les données de recherche résultantes contiendront alors : Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
+  Si vous supprimez le **lot 1**, les Sku1, Sku2 et Sku3 sont supprimés du stockage de la recherche. Les données de recherche résultantes contiendront alors : Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
 
 ### Droit pour le service de recherche
 

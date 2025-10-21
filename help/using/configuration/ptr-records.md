@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -153,6 +153,7 @@ Une fois le processus de validation réussi, le nouveau sous-domaine est automat
 Si le processus de validation échoue, l’ancien enregistrement PTR s’affiche. Le sous-domaine valide précédemment associé à l’adresse IP reste inchangé.
 
 Les types d’erreur de mise à jour possibles sont les suivants :
+
 * Échec de la création d’un nouveau DNS direct pour l’enregistrement PTR
 * Échec de la mise à jour de l’enregistrement
 * Échec de la réintégration des affinités

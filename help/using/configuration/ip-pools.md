@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: adresses IP, groupes, groupe, sous-domaines, délivrabilité
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
@@ -112,6 +112,7 @@ Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le
 >[!NOTE]
 >
 >Une fois qu’un pool d’adresses IP a été mis à jour, vous devrez peut-être attendre :
+>
 >* quelques minutes avant qu&#39;il soit consommé par les messages unitaires ;
 >* jusqu’au lot suivant pour que le pool d’adresses IP soit effectif dans les messages par lots ;
 
