@@ -111,7 +111,7 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
     
     * Si **[!UICONTROL Action marketing]** est égal à **[!UICONTROL E-mail]**
     
-    * Alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** Ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à ****
+    * Alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** Ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à **&#x200B;**
     
     ![](assets/consent-policy-email-newsletter.png){width=100%}
     
@@ -119,6 +119,6 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
     >
     >Le jeu de données activé pour le profil doit inclure l’attribut de profil **[!UICONTROL Newsletter_Email]** avec la valeur définie sur « true » (comme décrit à l’étape 1) 
 
-1. Une fois la politique de consentement créée, exploitez-la dans [!DNL Journey Optimizer] à l’aide de [configurations de canal](consent.md#surface-marketing-actions) ou d’actions personnalisées de parcours [](consent.md#journey-custom-actions).
+1. Une fois la politique de consentement créée, exploitez-la dans [!DNL Journey Optimizer] à l’aide de [configurations de canal](consent.md#surface-marketing-actions) ou d’actions personnalisées de parcours [&#128279;](consent.md#journey-custom-actions).
 
 1. Vous pouvez désormais utiliser ces configurations de canal ou actions personnalisées dans vos parcours et campagnes pour vous assurer que les préférences de vos clients <!--targeted--> sont respectées.
