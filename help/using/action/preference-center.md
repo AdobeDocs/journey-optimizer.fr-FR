@@ -10,9 +10,9 @@ level: Experienced
 keywords: politiques, gouvernance, platform, consentement, healthcare shield
 hide: true
 hidefromtoc: true
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: 95f101c3d8f875dbf7988f10b106fc58f705e926
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
 
 1. Définissez les attributs de préférence avec l’opérateur booléen au niveau du profil<!--how??-->. Par exemple, vous pouvez spécifier les éléments suivants :
 
-   * Newsletter_Email - Booléen (Vrai/Faux)
-   * Offres - Booléen (Vrai/Faux)
-   * Lancements De Nouveaux Produits - Booléen (Vrai/Faux)
+   * *Newsletter_Email* - Booléen (true/false)
+   * *Offers_Push* - Booléen (Vrai/Faux)
+   * *Lancements De Nouveaux Produits* - Booléen (Vrai/Faux)
 
    Ces attributs sont capturés dans le schéma d’un [jeu de données](../data/get-started-datasets.md) activé pour Profile et mappés au [profil client unifié](../audience/get-started-profiles.md).
 
@@ -59,9 +59,9 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
    >
    >Le consentement du client et les préférences de contact sont des sujets complexes. Pour découvrir comment les préférences de consentement et de contexte peuvent être collectées, traitées et filtrées dans [!DNL Experience Platform], nous vous recommandons de lire les documents suivants :
    >
-   >* Pour en savoir plus sur les groupes de champs de schéma requis pour collecter les données de consentement, consultez [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Il décrit comment traiter les données de consentement que vous avez collectées auprès de vos clients et les intégrer dans vos profils clients stockés.
-   >* Pour en savoir plus sur le groupe de champs Consentement et Préférence, consultez [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Pour ajouter des champs de préférence personnalisés au schéma, suivez les étapes de [cette section](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Pour en savoir plus sur les groupes de champs de schéma requis pour collecter les données de consentement, consultez [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Il décrit comment traiter les données de consentement que vous avez collectées auprès de vos clients et les intégrer dans vos profils clients stockés.
+   >* Pour en savoir plus sur le groupe de champs Consentement et Préférence, consultez [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Pour ajouter des champs de préférence personnalisés au schéma, suivez les étapes de [cette section](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Créez une page pour capturer les préférences de vos clients. Utilisez l’une des méthodes suivantes :
 
@@ -75,21 +75,23 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
 
 1. Sur cette page, les clients peuvent mettre à jour leurs préférences, telles que les abonnements par rubrique, en cochant ou décochant des cases.
 
-   Chaque action déclenche un événement de consentement enregistré par rapport aux attributs de profil correspondants (`True` pour l’opt-in, `False` pour l’opt-out) en ingérant les données dans le schéma de jeu de données activé pour le profil<!-- that contains the corresponding preference fields-->.
+   Chaque action déclenche un événement de consentement enregistré par rapport aux attributs de profil correspondants (`true` pour l’opt-in, `false` pour l’opt-out) en ingérant les données dans le schéma de jeu de données activé pour le profil<!-- that contains the corresponding preference fields-->.
 
    <!--Record your users' preferences through the web page or landing page that you created. The data is saved against the corresponding profile, meaning that the preference data is ingested into a Profile-enabled dataset whose schema contains consent/preference fields.-->
 
-   Par exemple, un utilisateur dont l’adresse e-mail est john.black@lumamail.com a accepté de recevoir des offres, mais ne souhaite pas recevoir de newsletters.
+   Par exemple, un utilisateur <!--whose email address is john.black@lumamail.com--> accepté de recevoir des offres push mais ne souhaite pas recevoir de newsletters par e-mail. Le profil correspondant est mis à jour comme suit :
 
-   Le jeu de données de profil correspondant est mis à jour comme suit :
+   ![](assets/profile-preference-attributes.png){width=80%}
 
-   | Attribut = ID d’e-mail | Attribut = Offres | Attribut = Newsletters |
-   |---------|----------|---------|
-   | john.black@lumamail.com | Y | N |
+<!--The corresponding profile dataset is updated as follows:
 
-   >[!NOTE]
-   >
-   >Les événements de consentement entrants se répercutent sur le profil client, assurant ainsi des mises à jour en temps réel. Chaque profil reflète ses choix les plus récents dans les préférences d’abonnement.
+|Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
+|---------|----------|---------|
+| john.black@lumamail.com | Y | N |-->
+
+    >[!REMARQUE]
+    >
+    >Les événements de consentement entrants sont intégrés au profil client, ce qui garantit des mises à jour en temps réel. Chaque profil reflète ses choix les plus récents dans les préférences d’abonnement.
 
 1. Dans Adobe Experience Platform, créez une politique personnalisée (à partir du menu **[!UICONTROL Confidentialité]** > **[!UICONTROL Politiques]**). [Voici comment procéder](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#create-policy){target="_blank"}
 
@@ -111,14 +113,14 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
     
     * Si **[!UICONTROL Action marketing]** est égal à **[!UICONTROL E-mail]**
     
-    * Alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** Ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à **&#x200B;**
+    * Alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** Ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à ****
     
-    ![](assets/consent-policy-email-newsletter.png){width=100%}
+    ![](assets/consent-policy-email-newsletter.png){width=80%}
     
     >[!TIP]
     >
     >Le jeu de données activé pour le profil doit inclure l’attribut de profil **[!UICONTROL Newsletter_Email]** avec la valeur définie sur « true » (comme décrit à l’étape 1) 
 
-1. Une fois la politique de consentement créée, exploitez-la dans [!DNL Journey Optimizer] à l’aide de [configurations de canal](consent.md#surface-marketing-actions) ou d’actions personnalisées de parcours [&#128279;](consent.md#journey-custom-actions).
+1. Une fois la politique de consentement créée, exploitez-la dans [!DNL Journey Optimizer] à l’aide de [configurations de canal](consent.md#surface-marketing-actions) ou d’actions personnalisées de parcours [](consent.md#journey-custom-actions).
 
 1. Vous pouvez désormais utiliser ces configurations de canal ou actions personnalisées dans vos parcours et campagnes pour vous assurer que les préférences de vos clients <!--targeted--> sont respectées.
