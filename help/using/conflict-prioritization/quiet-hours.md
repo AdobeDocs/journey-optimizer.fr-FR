@@ -187,4 +187,4 @@ Une fois que votre ou vos parcours ont été activés et exécutés, vous pouvez
 
 Découvrez comment utiliser la fonction Heures calmes dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475854?captions=fre_fr&quality=12)
