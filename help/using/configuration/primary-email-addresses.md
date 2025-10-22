@@ -83,7 +83,7 @@ Par exemple, cette valeur peut être utile pour effectuer les actions suivantes�
 * Testez votre diffusion. Vous pouvez ajouter votre adresse e-mail ou votre numéro de téléphone : une fois le parcours publié, l’e-mail, le SMS ou le message WhatsApp vous est envoyé.
 * Envoyer un message aux abonnés d’une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
 
-Lors de l’ajout d’une action **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** ou **[!UICONTROL WhatsApp]** à un parcours [](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail ou le numéro de téléphone principal s’affiche sous les paramètres avancés du parcours.
+Lors de l’ajout d’une action **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** ou **[!UICONTROL WhatsApp]** à un parcours [&#128279;](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail ou le numéro de téléphone principal s’affiche sous les paramètres avancés du parcours.
 
 Pour remplacer une valeur, cliquez sur l’icône **[!UICONTROL Activer le remplacement de paramètre]** à droite du champ.
 
