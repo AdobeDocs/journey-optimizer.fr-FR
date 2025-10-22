@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1082'
 ht-degree: 100%
 
 ---
@@ -120,42 +120,44 @@ Après avoir sélectionné l’espace de noms d’identité et fourni le fichier
 >
 >Les profils de test peuvent remplacer les profils existants. Avant d’exécuter le cas d’utilisation, assurez-vous que le fichier CSV contient uniquement des profils de test et qu’il est exécuté sur le bon sandbox.
 
-## Transformation d&#39;un profil en profil de test{#turning-profile-into-test}
+<!-- Removed as asked in DOCAC-13605 AJO Test Profiles Using a Journey should be removed
+## Turn a profile into a test profile{#turning-profile-into-test}
 
-Vous pouvez transformer un profil existant en profil de test : vous pouvez mettre à jour les attributs de profil de la même manière que lorsque vous créez un profil.
+You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 
 
-Pour ce faire, une méthode simple consiste à utiliser une activité d’action **[!UICONTROL Mettre à jour le profil]** dans un parcours et à redéfinir le champ booléen **testProfile** de false à true.
+A simple way to do this is by using an **[!UICONTROL Update Profile]** action activity in a journey and change the **testProfile** boolean field from false to true.
 
-Votre parcours sera composé d’une activité **[!UICONTROL Lecture d’audience]** et d’une activité **[!UICONTROL Mettre à jour le profil]**. Vous devez d’abord créer une audience ciblant les profils que vous souhaitez transformer en profils de test.
+Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UICONTROL Update Profile]** activity. You first need to create an audience targeting the profiles you want to turn into test profiles. 
 
 >[!NOTE]
 >
-> Puisque vous allez mettre à jour le champ **testProfile**, les profils sélectionnés doivent inclure ce champ. Le schéma associé doit avoir le groupe de champs **Détails du test de profil**. Consultez [cette section](../audience/creating-test-profiles.md#test-profiles-prerequisites).
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. Accédez à **Audiences**, puis à **Créer une audience**, en haut à droite.
-   ![](assets/test-profiles-22.png)
-1. Définissez un nom pour votre audience et créez l’audience : choisissez le ou les champs et la ou les valeurs pour cibler les profils de votre choix.
-   ![](assets/test-profiles-23.png)
-1. Cliquez sur **Enregistrer** et vérifiez que les profils sont correctement ciblés par l’audience.
-   ![](assets/test-profiles-24.png)
+1. Browse to **Audiences**, then **Create audience**, in the top right.
+    ![](assets/test-profiles-22.png) 
+1. Define a name for your audience and build the audience: choose the field(s) and value(s) to target the profiles you want.
+    ![](assets/test-profiles-23.png) 
+1. Click **Save** and check that the profiles are correctly targeted by the audience.
+    ![](assets/test-profiles-24.png) 
 
-   >[!NOTE]
-   >
-   > Le calcul de l’audience peut prendre un certain temps. En savoir plus sur les audiences dans [cette section](../audience/about-audiences.md).
+    >[!NOTE]
+    >
+    > Audience calculation can take some time. Learn more about audiences in [this section](../audience/about-audiences.md).
 
-1. Créez maintenant un parcours et commencez par une activité d’orchestration **[!UICONTROL Lecture d’audience]**.
-1. Sélectionnez l’audience que vous venez de créer et l’espace de noms utilisé par vos profils.
-   ![](assets/test-profiles-25.png)
-1. Ajoutez une activité d&#39;action **[!UICONTROL Mettre à jour le profil]**.
-1. Sélectionnez le schéma, le champ **testProfiles** et le jeu de données et définissez la valeur sur **true**. Pour ce faire, dans le champ **[!UICONTROL VALUE]**, cliquez sur l&#39;icône **Stylo** à droite, sélectionnez **[!UICONTROL Mode avancé]** et saisissez **true**.
-   ![](assets/test-profiles-26.png)
-1. Cliquez sur **[!UICONTROL Publier]**.
-1. Dans la section **[!UICONTROL Audiences]**, vérifiez que les profils ont été correctement mis à jour.
-   ![](assets/test-profiles-28.png)
+1. Now create a new journey and start with a **[!UICONTROL Read Audience]** orchestration activity.
+1. Choose the previously created audience and the namespace that your profiles use.
+    ![](assets/test-profiles-25.png)
+1. Add an **[!UICONTROL Update Profile]** action activity. 
+1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
+    ![](assets/test-profiles-26.png)
+1. Click **[!UICONTROL Publish]**.
+1. In the **[!UICONTROL Audiences]** section, check that the profiles have been correctly updated.
+    ![](assets/test-profiles-28.png)
 
-   >[!NOTE]
-   >
-   > Pour plus d&#39;informations sur l&#39;activité **[!UICONTROL Mettre à jour le profil]**, consultez [cette section](../building-journeys/update-profiles.md).
+    >[!NOTE]
+    >
+    > For more information on the **[!UICONTROL Update Profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
+-->
 
 ## Création d&#39;un profil de test à l&#39;aide d&#39;un fichier CSV{#create-test-profiles-csv}
 
@@ -248,4 +250,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416331?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

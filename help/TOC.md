@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '3003'
 ht-degree: 98%
 
 ---
@@ -284,8 +284,9 @@ ht-degree: 98%
    + Définir les règles de limitation des messages et des parcours {#capping-rules}
       + [Définir les règles de limitation des messages et des parcours](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Utiliser des jeux de règles](using/conflict-prioritization/rule-sets.md)
-      + [Limitation et arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
-      + [Capping de la fréquence par canal et type de communication](using/conflict-prioritization/channel-capping.md)
+      + [Gérer la limitation et l’arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
+      + [Définir le capping de la fréquence par canal et type](using/conflict-prioritization/channel-capping.md)
+      + [Définir des heures d’inactivité](using/conflict-prioritization/quiet-hours.md)
 + Tester et approuver {#test}
    + [Tester et approuver](/help/rp_landing_pages/test-landing-page.md)
    + Prévisualiser et tester le contenu {#preview-test}
@@ -976,7 +977,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

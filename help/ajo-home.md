@@ -5,10 +5,10 @@ title: Documentation Adobe Journey Optimizer
 description: Documentation Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4a575a0a403d566d81c47e6956d94fab1166f663
-workflow-type: ht
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,9 +22,9 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB Version de septembre 2025]
+>[!TAB Version d’oct. 25]
 
-La version de septembre de Journey Optimizer est active ! Découvrez les nouvelles fonctionnalités et améliorations publiées ce mois-ci dans les notes de mise à jour.
+La version d’octobre de Journey Optimizer est en ligne ! Découvrez les nouvelles fonctionnalités et améliorations publiées ce mois-ci dans les notes de mise à jour.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -49,7 +49,7 @@ L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Dernières notes de mise à jour
 
@@ -79,7 +79,7 @@ Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Comprendre et gérer les campagnes
 
@@ -89,7 +89,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canaux de communication
 
@@ -99,7 +99,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestion et hiérarchisation des conflits
 
