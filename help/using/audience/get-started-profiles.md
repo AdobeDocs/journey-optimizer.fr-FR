@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 92%
 
 ---
 
@@ -25,6 +25,10 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 **Profil client en temps réel** : intégrez les attributs et les événements clients provenant de sources en ligne, hors ligne et pseudonymes dans un profil unique et unifié.Utilisez le profil pour impliquer les clientes et clients avec des expériences personnalisées en temps réel sur plusieurs points de contact.
 
 **Ingestion de données** : connectez-vous à diverses sources de données pour ingérer des données comportementales, transactionnelles, financières et opérationnelles. Ingérez des données en temps réel ou par le biais de chargements par lots pour maintenir les profils à jour en permanence.
+
+>[!NOTE]
+>
+>Lors de l’ingestion de données, les e-mails sont sensibles à la casse, ce qui signifie que des profils en double peuvent être créés (par exemple, un profil pour John.Greene@luma.com, un autre pour john.green@luma.com) et utilisés lors du ciblage de ces profils dans vos parcours et campagnes [!DNL Journey Optimizer].
 
 **Graphique d’identité** : combinez des données provenant de différentes sources à l’aide d’identités de clientes et clients, telles que des identifiants de fidélité ou des identifiants de système CRM.Créez une vue d’ensemble exhaustive du client ou de la cliente en mappant les relations entre les différentes identités dans les jeux de données d’une marque.
 
@@ -54,4 +58,4 @@ Vous pouvez rassembler des données issues de plusieurs sources et les combiner 
 
 Découvrez comment Adobe Experience Platform assemble et met à jour des profils clients en temps réel et la façon dont vous pouvez y accéder et les utiliser.
 
->[!VIDEO](https://video.tv.adobe.com/v/31639?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

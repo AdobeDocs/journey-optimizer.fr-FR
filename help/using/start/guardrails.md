@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2860'
 ht-degree: 98%
 
 ---
@@ -106,11 +106,13 @@ Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../cont
 * Les fragments visuels ne sont pas compatibles entre les modes Utiliser des thèmes et Style manuel. Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Utiliser des thèmes. [En savoir plus sur les thèmes](../email/apply-email-themes.md)
 * Lorsque le suivi est activé dans un parcours ou une campagne, si vous ajoutez des liens à un fragment et que ce fragment est utilisé dans un message, ces liens font l’objet d’un suivi comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le suivi](../email/message-tracking.md)
 
-## Mécanismes de sécurisation des audiences {#audience}
+## Mécanismes de sécurisation des audiences et des profils {#audience}
 
-Vous pouvez publier jusqu’à 10 compositions d’audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
+* Vous pouvez publier jusqu’à 10 compositions d’audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
-En savoir plus sur les compositions d’audiences sur [cette page](../audience/get-started-audience-orchestration.md).
+  En savoir plus sur les compositions d’audiences sur [cette page](../audience/get-started-audience-orchestration.md).
+
+* Lors de l’ingestion de données, les e-mails respectent la casse. Cela signifie que des profils en double peuvent être créés (par exemple, un profil pour John.Greene@luma.com, un autre pour john.green@luma.com) et utilisés lors du ciblage de ces profils dans vos parcours et campagnes [!DNL Journey Optimizer].
 
 ## Mécanismes de sécurisation des décisions et de la gestion des décisions {#decisioning-guardrails}
 
@@ -137,7 +139,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -274,4 +276,4 @@ Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **
 
 ## Mécanismes de sécurisation de l’orchestration de campagne {#orchestration-guardrails}
 
-Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez l’orchestration de Campaign sont détaillés dans cette section : [mécanismes de sécurisation et limitations](../orchestrated/guardrails.md).
+Les mécanismes de sécurisation et les limitations à prendre en compte lorsque vous utilisez l’orchestration de campagne sont décrits dans cette section : [Mécanismes de sécurisation et limitations](../orchestrated/guardrails.md).
