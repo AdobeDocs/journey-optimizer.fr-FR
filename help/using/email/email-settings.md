@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1419'
 ht-degree: 96%
 
 ---
@@ -23,6 +23,8 @@ Pour commencer à créer un e-mail, vous devez paramétrer les configuration du 
 >[!NOTE]
 >
 >Pour préserver votre réputation et améliorer votre délivrabilité, configurez les sous-domaines que vous utiliserez pour envoyer des e-mails avant de créer une configuration du canal e-mail. [En savoir plus](../configuration/about-subdomain-delegation.md)
+>
+>Avant de créer une configuration de canal e-mail, vous devez avoir créé au moins un groupe d’adresses IP. [En savoir plus](../configuration/ip-pools.md)
 
 Définissez les paramètres d’e-mail dans la section dédiée de la configuration du canal, comme décrit ci-dessous.
 
@@ -197,6 +199,6 @@ Dans ce cas, [!DNL Journey Optimizer] utilise l’adresse spécifiée dans les *
 
 Cependant, vous pouvez modifier ce champ d’exécution par défaut au niveau de la configuration du canal e-mail. Vous pouvez ensuite appliquer ce paramètre à des campagnes ou des parcours spécifiques.
 
-Pour ce faire, modifiez le champ **[!UICONTROL Adresse de diffusion]** et sélectionnez un élément dans la liste des champs XDM de type e-mail disponibles. [En savoir plus](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+Pour ce faire, modifiez le champ **[!UICONTROL Adresse de diffusion]** et sélectionnez un élément dans la liste des champs XDM de type e-mail disponibles. [En savoir plus](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
