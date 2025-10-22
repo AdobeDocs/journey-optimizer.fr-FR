@@ -7,9 +7,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: d983d10124be2bad645ad3d8f14c38c26a453d5a
+source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '464'
 ht-degree: 92%
 
 ---
@@ -28,7 +28,7 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 
 >[!NOTE]
 >
->Lors de l’ingestion de données, les e-mails respectent la casse. Cela signifie que des profils en double peuvent être créés (par exemple, un profil pour John.Greene@luma.com, un autre pour john.greene@luma.com) et utilisés lors du ciblage de ces profils dans vos parcours et campagnes [!DNL Journey Optimizer].
+>Lors de l’ingestion de données, les e-mails respectent la casse. Cela signifie que des profils en double peuvent être créés (par exemple, un profil pour John.Greene@luma.com, un autre pour john.greene@luma.com) et utilisés lors du ciblage du destinataire correspondant dans vos parcours et campagnes [!DNL Journey Optimizer].
 
 **Graphique d’identité** : combinez des données provenant de différentes sources à l’aide d’identités de clientes et clients, telles que des identifiants de fidélité ou des identifiants de système CRM.Créez une vue d’ensemble exhaustive du client ou de la cliente en mappant les relations entre les différentes identités dans les jeux de données d’une marque.
 
@@ -58,4 +58,4 @@ Vous pouvez rassembler des données issues de plusieurs sources et les combiner 
 
 Découvrez comment Adobe Experience Platform assemble et met à jour des profils clients en temps réel et la façon dont vous pouvez y accéder et les utiliser.
 
->[!VIDEO](https://video.tv.adobe.com/v/31639?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
