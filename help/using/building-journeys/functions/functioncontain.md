@@ -9,7 +9,7 @@ keywords: contain, fonction, expression, parcours
 exl-id: 8855c382-a91a-4fe2-92db-91ce6dfab3b0
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '40'
 ht-degree: 100%
 

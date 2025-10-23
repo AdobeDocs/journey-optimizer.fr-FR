@@ -9,7 +9,7 @@ keywords: min, fonction, expression, parcours
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
 ht-degree: 100%
 

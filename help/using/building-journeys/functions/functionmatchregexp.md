@@ -9,7 +9,7 @@ keywords: matchRegExp, fonction, expression, parcours
 exl-id: 24cf362c-f390-4bb1-be82-a079bc27fa1f
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '56'
 ht-degree: 100%
 

@@ -9,7 +9,7 @@ level: Experienced
 keywords: schémas, platform, données, structure
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Adobe Experience Platform comporte deux types de schémas :
 
 Découvrez comment créer un schéma standard, ajouter des groupes de champs, et créer et configurer des groupes de champs personnalisés.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416870?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

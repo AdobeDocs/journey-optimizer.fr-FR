@@ -9,7 +9,7 @@ keywords: avg, fonction, expression, parcours
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
 ht-degree: 100%
 
