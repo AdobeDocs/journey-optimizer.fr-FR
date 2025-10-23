@@ -59,9 +59,9 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
    >
    >Le consentement du client et les préférences de contact sont des sujets complexes. Pour découvrir comment les préférences de consentement et de contexte peuvent être collectées, traitées et filtrées dans [!DNL Experience Platform], nous vous recommandons de lire les documents suivants :
    >
-   >* Pour en savoir plus sur les groupes de champs de schéma requis pour collecter les données de consentement, consultez [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Il décrit comment traiter les données de consentement que vous avez collectées auprès de vos clients et les intégrer dans vos profils clients stockés.
-   >* Pour en savoir plus sur le groupe de champs Consentement et Préférence, consultez [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Pour ajouter des champs de préférence personnalisés au schéma, suivez les étapes de [cette section](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Pour en savoir plus sur les groupes de champs de schéma requis pour collecter les données de consentement, consultez [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Il décrit comment traiter les données de consentement que vous avez collectées auprès de vos clients et les intégrer dans vos profils clients stockés.
+   >* Pour en savoir plus sur le groupe de champs Consentement et Préférence, consultez [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Pour ajouter des champs de préférence personnalisés au schéma, suivez les étapes de [cette section](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Créez une page pour capturer les préférences de vos clients. Utilisez l’une des méthodes suivantes :
 
@@ -89,7 +89,7 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
 |---------|----------|---------|
 | john.black@lumamail.com | Y | N |-->
 
-    >[ !REMARQUE]
+    >[!REMARQUE]
     >
     >Les événements de consentement entrants sont intégrés au profil client, ce qui garantit des mises à jour en temps réel. Chaque profil reflète ses choix les plus récents dans les préférences d’abonnement.
 
@@ -113,7 +113,7 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
     
     * Si **[!UICONTROL Action marketing]** est égal à **[!UICONTROL E-mail]**
     
-    * Alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** Ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à **&#x200B;**
+    * Alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** Ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à ****
     
     ![](assets/consent-policy-email-newsletter.png){width=80%}
     
@@ -121,6 +121,6 @@ Supposons que vous souhaitiez cibler vos clients par le biais de parcours et de 
     >
     >Le jeu de données activé pour le profil doit inclure l’attribut de profil **[!UICONTROL Newsletter_Email]** avec la valeur définie sur « true » (comme décrit à l’étape 1) 
 
-1. Une fois la politique de consentement créée, exploitez-la dans [!DNL Journey Optimizer] à l’aide de [configurations de canal](consent.md#surface-marketing-actions) ou d’actions personnalisées de parcours [&#128279;](consent.md#journey-custom-actions).
+1. Une fois la politique de consentement créée, exploitez-la dans [!DNL Journey Optimizer] à l’aide de [configurations de canal](consent.md#surface-marketing-actions) ou d’actions personnalisées de parcours [](consent.md#journey-custom-actions).
 
 1. Vous pouvez désormais utiliser ces configurations de canal ou actions personnalisées dans vos parcours et campagnes pour vous assurer que les préférences de vos clients <!--targeted--> sont respectées.

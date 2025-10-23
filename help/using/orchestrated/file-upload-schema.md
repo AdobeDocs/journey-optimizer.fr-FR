@@ -6,7 +6,7 @@ description: Découvrez comment créer un schéma basé sur un modèle dans Adob
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 100%
 

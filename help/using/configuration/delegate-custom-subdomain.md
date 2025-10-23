@@ -11,7 +11,7 @@ keywords: sous-domaine, délégation, domaine, DNS
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 100%
 

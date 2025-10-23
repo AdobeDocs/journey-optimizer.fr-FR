@@ -9,7 +9,7 @@ keywords: distinctWithNull, fonction, expression, parcours
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
 

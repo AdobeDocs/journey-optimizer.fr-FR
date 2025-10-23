@@ -77,7 +77,7 @@ Pour accéder aux rapports sur les canaux et les gérer, procédez comme suit :
 
 1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Selon le widget, vous pouvez choisir de basculer d’un tableau, d’un graphique à barres ou d’un anneau à l’autre.
+1. Selon le widget, vous pouvez choisir de basculer d’un tableau, d’un graphique en barres ou d’un anneau à l’autre.
 
 1. Cliquez sur l’icône de pourcentage pour afficher vos données sous forme de taux.
 

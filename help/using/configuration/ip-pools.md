@@ -10,7 +10,7 @@ level: Experienced
 keywords: adresses IP, groupes, groupe, sous-domaines, délivrabilité
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 

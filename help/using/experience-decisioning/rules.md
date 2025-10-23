@@ -52,7 +52,7 @@ Souvent, il s’agit d’une combinaison de plusieurs attributs, en plus des év
 Vous pouvez utiliser ces règles de l’une des manières suivantes :
 
 * Lors de la création du [ciblage d’optimisation de contenu](../campaigns/campaigns-message-optimization.md#targeting) dans des parcours ou des campagnes ;
-* Lors de la création de [l’optimisation du chemin de parcours &#x200B;](../building-journeys/optimize.md#targeting).
+* Lors de la création de [l’optimisation du chemin de parcours ](../building-journeys/optimize.md#targeting).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -89,7 +89,7 @@ Pour créer une règle, procédez comme suit :
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL Élément de décision]** - La règle peut être appliquée à un [élément de décision](#decision-rules) dans le contexte de la prise de décision.
-   * **[!UICONTROL Ciblage]** - La règle peut être utilisée lors de la création de règles [ciblage](#targeting-rules) dans le cadre de l’[optimisation de contenu](../campaigns/campaigns-message-optimization.md#targeting) dans une campagne ou un parcours, dans l’activité [Optimiser le parcours &#x200B;](../building-journeys/optimize.md#targeting).
+   * **[!UICONTROL Ciblage]** - La règle peut être utilisée lors de la création de règles [ciblage](#targeting-rules) dans le cadre de l’[optimisation de contenu](../campaigns/campaigns-message-optimization.md#targeting) dans une campagne ou un parcours, dans l’activité [Optimiser le parcours ](../building-journeys/optimize.md#targeting).
 
 1. Si vous créez une règle **[!UICONTROL Élément de décision]**, vous pouvez sélectionner **[!UICONTROL Activer la recherche de jeu de données]** pour utiliser les données de Adobe Experience Platform afin d’enrichir votre logique de décision avec des données externes. Cela s’avère particulièrement utile pour les attributs qui changent fréquemment, tels que la disponibilité des produits ou la tarification en temps réel.
 
@@ -136,4 +136,4 @@ Pour créer une règle, procédez comme suit :
 
 Découvrez comment créer, dupliquer et appliquer des **règles de ciblage** réutilisables dans Adobe Journey Optimizer afin de personnaliser efficacement les campagnes en fonction des attributs du client, tels que la région, la langue et le comportement, ce qui vous permet de gagner du temps tout en améliorant la précision de l’audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476129/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

@@ -268,7 +268,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator comprend désormais l’agent d’expérimentation, un outil de conversation optimisé par l’IA qui vous permet d’interagir avec vos expériences, informations et opportunités. Elle améliore l’expérience Journey Optimizer Experimentation Accelerator, ce qui vous permet d’exécuter plus efficacement des expériences, de découvrir ce qui fonctionne et de découvrir où optimiser la suite.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : samedi 10 octobre 2025</p>
 </td>
 </tr>

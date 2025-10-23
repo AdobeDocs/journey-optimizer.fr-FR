@@ -13,7 +13,7 @@ keywords: délivrabilité, parcours, cas d’utilisation, e-mail, réputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 
