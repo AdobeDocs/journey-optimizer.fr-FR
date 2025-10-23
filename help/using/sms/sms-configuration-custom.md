@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
-workflow-type: ht
-source-wordcount: '1355'
-ht-degree: 100%
+source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
+workflow-type: tm+mt
+source-wordcount: '1386'
+ht-degree: 97%
 
 ---
 
@@ -79,6 +79,11 @@ Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d�
 1. Ajoutez la **[!UICONTROL payload du fournisseur]** pour valider et personnaliser les payloads de votre requête.
 
    Pour les messages RCS, cette payload est ensuite utilisée lors de la [conception du contenu](create-sms.md#sms-content).
+
+   >[!NOTE]
+   >
+   >Lors de la configuration d’un fournisseur de SMS personnalisé avec l’authentification de base ou au porteur, vous devez inclure le paramètre `authOption` dans la payload JSON. En outre, le **payload du fournisseur** doit référencer les variables de modèle `{{fromNumber}}`, `{{toNumber}}` et `{{message}}`.
+
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 
