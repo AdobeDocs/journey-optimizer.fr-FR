@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 79%
+source-wordcount: '271'
+ht-degree: 73%
 
 ---
 
@@ -30,14 +30,11 @@ Les campagnes déclenchées par API permettent aux communications marketing d’
 
 Pour ce faire, vous devez d’abord créer une campagne déclenchée par API dans Journey Optimizer, puis lancer son exécution via un appel API à l’aide de l’[API REST Interactive Message Execution](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
-Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS et les messages push.
-
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
-
 
 >[!NOTE]
 >
->Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifications push](../push/get-started-push.md).
+>Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS](../sms/get-started-sms.md) et [Notifications push](../push/get-started-push.md). Les campagnes déclenchées par l’API à haut débit prennent actuellement en charge le canal e-mail uniquement.
 >
 >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
@@ -57,4 +54,4 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452727?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

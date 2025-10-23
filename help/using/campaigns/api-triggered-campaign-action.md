@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 96%
+source-wordcount: '438'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    >[!NOTE]
    >
-   >Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifications push](../push/get-started-push.md).
+   >Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS](../sms/get-started-sms.md) et [Notifications push](../push/get-started-push.md). Les campagnes déclenchées par l’API à haut débit prennent actuellement en charge le canal e-mail uniquement.
    >
    >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
@@ -36,7 +36,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    Celle-ci est définie par une [équipe d’administration système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [Découvrir comment configurer les canaux](../configuration/channel-surfaces.md)
 
-   ![](assets/create-campaign-action.png)
+   ![](assets/api-triggered-create-campaign-action.png)
 
 1. **Utiliser l’optimisation**
 

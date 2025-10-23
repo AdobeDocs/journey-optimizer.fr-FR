@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 59%
+source-wordcount: '956'
+ht-degree: 92%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="Sélectionnez le type de la campagne. Les canaux disponibles varient en fonction du type sélectionné. <br>**Campagnes planifiées** (campagnes d’action) : idéales pour les communications par lots, simples et ponctuelles, que vous pouvez planifier pour qu’elles s’exécutent à une heure spécifique.<br>**Campagnes déclenchées par API** : activées par le biais d’un appel API, elles permettent d’envoyer des messages automatisés et basés sur un événement, directement depuis des systèmes externes.<br>**Campagnes orchestrées** : fournissent une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing complexes et à plusieurs étapes, depuis la segmentation d’audience jusqu’à la diffusion de messages personnalisés sur plusieurs canaux."
+>abstract="Sélectionnez le type de la campagne. Les canaux disponibles varient en fonction du type sélectionné. <br>**Campagnes planifiées** (campagnes d’action) : idéales pour les communications par lots, simples et ponctuelles, que vous pouvez planifier pour qu’elles s’exécutent à une heure spécifique.<br>**Campagnes déclenchées par API** - Activées par le biais d’un appel API, ce qui permet une messagerie automatisée et basée sur un événement, directement à partir de systèmes externes.<br>**Campagnes orchestrées** : fournissent une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing complexes et à plusieurs étapes, depuis la segmentation d’audience jusqu’à la diffusion de messages personnalisés sur plusieurs canaux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -84,7 +84,7 @@ ht-degree: 59%
 >title="Campagnes"
 >abstract="Diffusez des communications transactionnelles à des profils individuels ou à des ensembles de profils. Canaux pris en charge : e-mail, SMS, notifications push."
 
-Utilisez des campagnes [!DNL Journey Optimizer] pour diffuser du contenu unique à une audience spécifique sur plusieurs canaux. Contrairement aux parcours qui exécutent des actions étape par étape, les campagnes exécutent des actions simultanément, immédiatement ou selon un planning défini.
+Utilisez les campagnes [!DNL Journey Optimizer] pour diffuser du contenu ponctuel à une audience spécifique à travers plusieurs canaux. Contrairement aux parcours qui exécutent des actions étape par étape, les campagnes exécutent des actions simultanément, immédiatement ou selon un planning défini.
 
 ![](assets/gs-campaigns.png)
 
@@ -98,38 +98,38 @@ Utilisez des campagnes [!DNL Journey Optimizer] pour diffuser du contenu unique 
 
 >[!TAB Campagnes orchestrées]
 
-**Campagnes orchestrées** alimentez des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui vous permet de stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
+**Les campagnes orchestrées** constituent le moteur des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux. Elles visent à à améliorer l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
 
 Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, depuis la segmentation jusqu’à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour assurer vitesse, contrôle et efficacité.
 
-➡️ [Découvrez comment utiliser des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md).
+➡️ [Découvrez comment utiliser les campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md).
 
 >[!TAB Campagnes d’action (ou campagnes planifiées)]
 
-Les **campagnes d’action** également appelées campagnes planifiées, permettent des communications par lots ad hoc simples.
+Les **campagnes d’action** également appelées campagnes planifiées, permettent d’envoyer facilement des communications ponctuelles par lots.
 
-* **Planifié - Marketing** - Pour les cas d’utilisation marketing tels que les offres promotionnelles, les campagnes d’engagement, les annonces, les informations juridiques ou les mises à jour de politiques. Nécessite que les destinataires soient inscrits.
-* **Planifié - Transactionnel** - Contrairement aux campagnes marketing, les campagnes transactionnelles ne nécessitent pas que les destinataires soient inscrits. Utilisez cette catégorie pour les communications liées aux perturbations, aux urgences et aux annulations. Canaux pris en charge : email, SMS, notification push.
+* **Planifiées - Marketing** - Pour les cas d’utilisation marketing tels que les offres promotionnelles, les campagnes d’engagement, les annonces, les notifications juridiques ou les mises à jour de politiques. Les destinataires doivent être inscrits.
+* **Planifiées - Transactionnelles** - Contrairement aux campagnes marketing, les campagnes transactionnelles ne nécessitent pas que les destinataires soient inscrits. Utilisez cette catégorie pour les communications liées aux interruptions, aux urgences et aux annulations. Canaux pris en charge : e-mail, SMS, notifications push.
 
-➡️ [Découvrez comment utiliser les campagnes d’action](create-campaign.md)
+➡️ [Découvrez comment utiliser les campagnesd’action.](create-campaign.md)
 
 >[!TAB Campagnes déclenchées par API]
 
-**Campagnes déclenchées par API** vous permettent de déclencher l’exécution de la campagne à l’aide d’un appel API. Ces communications peuvent être envoyées là où le besoin implique une personnalisation non seulement de l’utilisation d’attributs de profil tels que la réinitialisation du mot de passe, mais également des données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
+Les **campagnes déclenchées par API** vous permettent de déclencher l’exécution de la campagne à l’aide d’un appel API. Ces communications peuvent être envoyées là où le besoin implique une personnalisation non seulement de l’utilisation d’attributs de profil tels que la réinitialisation du mot de passe, mais également des données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
 
-* **Déclenché par API - Marketing** - Envoyez des communications marketing personnalisées aux audiences ciblées.
-* **Déclenché par API - Transactionnel** - Envoyez des messages à la suite d’une action effectuée par une personne, telle qu’une demande de réinitialisation de mot de passe, un achat au panier, etc.
+* **Déclenchées par API - Marketing** - Envoyez des communications marketing personnalisées aux audiences ciblées.
+* **Déclenchées par API - Transactionnelles** - Envoyez des messages à la suite d’une action effectuée par un individu, telle qu’une demande de réinitialisation de mot de passe, l’achat de produits dans le panier, etc.
 
-➡️ [Découvrez comment utiliser des campagnes déclenchées par API](api-triggered-campaigns.md)
+➡️ [Découvrez comment utiliser les campagnes déclenchées par API.](api-triggered-campaigns.md)
 
 
 >[!ENDTABS]
 
 ## Canaux pris en charge par type de campagne {#channels}
 
-Le tableau ci-dessous indique la disponibilité de chaque canal pour différents types de campagne, en indiquant où ils sont pris en charge.
+Le tableau ci-dessous indique la disponibilité de chaque canal pour différents types de campagne, en indiquant dans quels cas ils sont pris en charge.
 
-| Canal | Action (Marketing) | Action (transactionnelle) | Déclenché par l’API (marketing) | Déclenché par l’API (transactionnel) | Orchestré |
+| Canal | Action (marketing) | Action (transactionnelles) | Déclenché par l’API (marketing) | Déclenché par l’API (transactionnel) | Orchestrées |
 |----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
 | E-mail | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -144,19 +144,19 @@ Le tableau ci-dessous indique la disponibilité de chaque canal pour différents
 
 ## Conditions préalables {#prerequisites}
 
-Avant d’utiliser des campagnes, vérifiez les conditions préalables ci-dessous.
+Avant de créer votre campagne, lisez attentivement les conditions préalables ci-après.
 
-* **Audiences** Les audiences doivent être disponibles avant de créer la campagne. [Commencer avec les audiences](../audience/about-audiences.md).
+* **Audiences** : les audiences doivent être disponibles avant de créer la campagne. [Commencer avec les audiences](../audience/about-audiences.md)
 
-* **Configurations de canal** - Pour pouvoir sélectionner un canal, vous devez avoir créé et disponible la configuration de canal correspondante (c’est-à-dire le préréglage). [Découvrez comment configurer des canaux](../configuration/channel-surfaces.md).
+* **Configurations des canaux** : pour pouvoir sélectionner un canal, la configuration des canaux correspondante (c’est-à-dire le préréglage) doit avoir été créée et être disponible. [Découvrez comment configurer des canaux](../configuration/channel-surfaces.md).
 
-* **Autorisations** - Les campagnes ne sont disponibles que pour les utilisateurs disposant des autorisations appropriées répertoriées ci-dessous. Si vous ne parvenez pas à accéder aux fonctionnalités de Campaign, contactez votre administrateur pour demander les autorisations nécessaires. [En savoir plus sur les rôles intégrés de Journey Optimizer](../administration/ootb-product-profiles.md)
+* **Autorisations** : les campagnes ne sont disponibles que pour les utilisateurs et utilisatrices disposant des autorisations répertoriées ci-dessous. Si vous ne parvenez pas à accéder aux fonctionnalités des campagnes, contactez votre équipe d’administration pour demander les autorisations nécessaires. [En savoir plus sur les rôles intégrés de Journey Optimizer](../administration/ootb-product-profiles.md)
 
   | Type de campagne | Autorisations |
   |----------------------------|----------------------------------------------------------------------------|
-  | **Campagnes d’action** | Administrateur de campagne<br>Approbateur de campagne<br>Responsable de campagne<br>Observateur de campagne |
-  | **Campagnes déclenchées par API** | Administrateur de campagne<br>Approbateur de campagne<br>Responsable de campagne<br>Observateur de campagne |
-  | **Campagnes orchestrées** | Administrateur De Campagne Orchestré<br>Approbateur De Campagne Orchestré<br>Gestionnaire De Campagne Orchestré<br>Observateur De Campagne Orchestré |
+  | **Campagnes d’action** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
+  | **Campagnes déclenchées par API** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
+  | **Campagnes orchestrées** | Administrateur ou administratrice de campagne orchestrée<br>Approbateur ou approbatrice de campagne orchestrée<br>Responsable de campagne orchestrée<br>Observateur ou observatrice de campagne orchestrée |
 
   +++Découvrir comment attribuer un rôle lié à la campagne
 

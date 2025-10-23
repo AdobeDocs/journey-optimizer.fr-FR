@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '3003'
+source-wordcount: '3011'
 ht-degree: 98%
 
 ---
@@ -231,6 +231,7 @@ ht-degree: 98%
       + [Planifier la campagne](using/campaigns/api-triggered-campaign-schedule.md)
       + [Vérifier et activer la campagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
+      + [Activer le mode Débit élevé pour les campagnes déclenchées par l’API](using/campaigns/api-triggered-high-throughput.md)
    + Campagnes orchestrées {#orchestrated-campaigns}
       + [Campagnes orchestrées](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Commencer avec les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -977,7 +978,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

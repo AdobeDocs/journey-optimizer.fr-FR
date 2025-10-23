@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 95%
+source-wordcount: '424'
+ht-degree: 80%
 
 ---
 
@@ -35,11 +35,15 @@ Le processus de création du contenu dépend du canal que vous avez sélectionn�
 <div align="center"><a href="../push/create-push.md"><strong>Notification push</strong></a></div></td>
 </tr></table>
 
+>[!IMPORTANT]
+>
+>Les [campagnes à haut débit](../campaigns/api-triggered-high-throughput.md) ne dépendent pas des profils Adobe : toute personnalisation doit être incluse dans la payload de l’API en tant que données contextuelles, comme décrit ci-dessous. Ce mode est disponible uniquement pour le canal e-mail et aux États-Unis.
+
 ## Personnaliser du contenu à l’aide de données contextuelles {#contextual}
 
 Vous pouvez transmettre des données supplémentaires dans la payload de l’API que vous pouvez ensuite utiliser pour personnaliser votre message.
 
-Prenons un exemple où les clients souhaitent réinitialiser leur mot de passe et où vous souhaitez leur envoyer une URL de réinitialisation de mot de passe générée dans un outil tiers. Avec les campagnes déclenchées par API, vous pouvez transmettre cette URL générée dans la payload de l’API et l’utiliser dans la campagne pour l’ajouter au message.
+Prenons un exemple où les clients souhaitent réinitialiser leur mot de passe et où vous souhaitez leur envoyer une URL de réinitialisation de mot de passe générée dans un outil tiers. Avec les campagnes déclenchées par API, vous pouvez transmettre cette URL générée dans la payload de l’API et l’exploiter dans la campagne pour l’ajouter au message.
 
 Pour ce faire, vous devez les transmettre dans la payload de l’API et les ajouter dans votre message à l’aide de l’éditeur de personnalisation. Utilisez la syntaxe `{{context.<contextualAttribute>}}`, où `<contextualAttribute>` doit correspondre au nom de la variable dans votre payload d’API qui contient les données que vous souhaitez transmettre.
 

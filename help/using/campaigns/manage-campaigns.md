@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1709'
 ht-degree: 94%
 
 ---
@@ -78,7 +78,7 @@ Pour les campagnes déclenchées par une action et par une API, les actions supp
 
 ## Cycle de vie des campagnes {#statuses}
 
-Dans Adobe Journey Optimizer, chaque campagne passe par un cycle de vie reflété par son statut dans l’interface. Les statuts disponibles varient en fonction du type de campagne : Action, Déclenchée par une API ou Orchestrée. Utilisez les onglets ci-dessous pour explorer le cycle de vie et les statuts spécifiques à chaque type de campagne.
+Dans Adobe Journey Optimizer, chaque campagne passe par un cycle de vie reflété par son statut dans l’interface. Les statuts disponibles varient en fonction du type de campagne : Action, Déclenché par API ou Orchestré. Utilisez les onglets ci-dessous pour explorer le cycle de vie et les statuts spécifiques à chaque type de campagne.
 
 >[!BEGINTABS]
 
