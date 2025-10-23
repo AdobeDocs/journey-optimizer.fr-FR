@@ -33,7 +33,7 @@ Lors de la configuration du ciblage, vous devez définir deux aspects essentiels
 
   Le système doit comprendre comment le schéma cible est mappé au schéma `Profile`. Pour ce faire, un champ d’identité partagé, qui existe à la fois dans le schéma cible et dans le schéma `Profile`, est configuré comme un espace de noms d’identité.
 
-➡️ [En savoir plus sur les schémas relationnels dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [En savoir plus sur les schémas relationnels dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Créer une dimension de ciblage {#targeting-dimension}
 
