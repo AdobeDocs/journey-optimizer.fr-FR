@@ -97,12 +97,12 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 
 Découvrez comment utiliser les informations d’événement contextuelles d’un parcours pour personnaliser un message.
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448131?captions=fre_fr&quality=12)
 
 Découvrez comment ajouter une personnalisation basée sur un profil à un message et comment utiliser l’appartenance à une audience comme condition préalable à un bloc de personnalisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416270?captions=fre_fr&quality=12)
 
 Découvrez comment tirer parti du terrain de jeu de l’éditeur de personnalisation pour écrire et tester du code de personnalisation à l’aide de données d’exemple.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475954?captions=fre_fr&quality=12)
