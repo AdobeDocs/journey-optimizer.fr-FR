@@ -5,10 +5,10 @@ title: Étapes de configuration
 description: Découvrez comment créer des schémas basés sur des modèles directement via l’interface d’utilisation.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+workflow-type: tm+mt
+source-wordcount: '882'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ L’exemple suivant définit manuellement le schéma **Membres du programme de f
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [Pour en savoir plus sur les schémas manuels basés sur des modèles, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Pour en savoir plus sur les schémas manuels basés sur des modèles, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Créer votre schéma {#schema}
 
@@ -109,6 +109,8 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Après avoir créé et enregistré des attributs, vous pouvez lier le schéma à d’autres schémas relationnels en définissant des relations.
+
+➡️ [En savoir plus sur les schémas relationnels dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Lier des schémas {#link-schema}
 

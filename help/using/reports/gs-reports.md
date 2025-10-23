@@ -6,10 +6,10 @@ description: Découvrez comment accéder aux rapports  [!DNL Adobe Journey Optim
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 97%
 
 ---
 
@@ -133,3 +133,13 @@ Sélectionnez une expérience entrante pour découvrir les **rapports globaux su
 <td><img alt="Cartes de contenu" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Cartes de contenu</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Rapport de parcours</strong></a></p></div></td>
 </tr></table>
+
+### Vidéo pratique {#video}
+
+Découvrez comment utiliser efficacement le rapport à toute heure dans Adobe Journey Optimizer.
+
++++Regarder la vidéo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
