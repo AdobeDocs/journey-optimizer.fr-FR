@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 97%
+source-wordcount: '1638'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Les bonnes pratiques relatives à la conception de contenu accessible avec [!DNL
 >
 >Cette page a pour but de vous aider à rendre votre contenu accessible à l’ensemble de vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec les e-mails et les pages de destination que vous avez conçus avec [!DNL Journey Optimizer].
 >
->D’un autre côté, l’accessibilité de l’interface [!DNL Journey Optimizer] elle-même est détaillée dans [cette section](../start/accessibility.md).
+>D’un autre côté, l’accessibilité de l’interface [!DNL Journey Optimizer] elle-même est détaillée dans [cette section](../start/accessibility.md). 
 
 ## Garantir la lisibilité du texte {#text-readability}
 
@@ -142,9 +142,9 @@ Pour vérifier de manière plus fiable si votre contenu est accessible, recherch
 
 ## Utiliser le mode sombre {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
-
 Le mode sombre améliore l’accessibilité visuelle pour les personnes sensibles à la lumière ou ayant une déficience visuelle, ainsi que leur expérience de visionnage.
+
+Le Designer d’e-mail vous permet de passer à la vue **[!UICONTROL Mode sombre]** et de définir des paramètres personnalisés spécifiques qui seront affichés par les clients de messagerie de prise en charge. [En savoir plus](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
