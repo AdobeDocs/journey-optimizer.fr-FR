@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: aa5577ebbeabea59a2c9bf55f68edd05710d7a03
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 98%
+source-wordcount: '981'
+ht-degree: 93%
 
 ---
 
@@ -33,6 +33,11 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 * Dans la [collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous qu’un train de données est défini, de telle sorte que sous le service **[!UICONTROL Adobe Experience Platform]**, les options Adobe Experience Platform Edge et **[!UICONTROL Adobe Journey Optimizer]** soient activées.
 
   Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr){target="_blank"}
+
+
+  >[!NOTE]
+  >
+  >L’utilisation des attributs `context.datastream` est actuellement prise en charge uniquement pour les campagnes de canal web dans Journey Optimizer. Toute tentative d’utilisation de `context.datastream` dans les messages In-App entraînera des erreurs de validation telles que des `Invalid syntax Missing schema field: 'datastream`.
 
   ![](assets/inapp_config_6.png)
 
@@ -79,6 +84,7 @@ Pour créer une configuration in-app dans Journey Optimizer, procédez comme su
    >[!NOTE]
    >
    >Pour les plateformes iOS et Android, la diffusion se base uniquement sur l’ID d’application. Si les deux applications possèdent le même ID d’application, le contenu sera diffusé sur les deux, quelle que soit la plateforme sélectionnée dans la **[!UICONTROL configuration des canaux]**.
+   >Pour restreindre la diffusion des messages in-app à une plateforme spécifique, vous devez implémenter des règles spécifiques à l’appareil dans la logique de votre parcours ou de votre campagne.
 
    ![](assets/inapp_config_10.png)
 
