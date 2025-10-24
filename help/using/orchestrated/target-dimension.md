@@ -5,10 +5,10 @@ title: Créer une dimension de ciblage
 description: Découvrez comment mapper un schéma relationnel au profil client
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 9003668674302c576ed9738c803446c476877e47
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 97%
+source-wordcount: '399'
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ Lors de la configuration du ciblage, vous devez définir deux aspects essentiels
 
   Le système doit comprendre comment le schéma cible est mappé au schéma `Profile`. Pour ce faire, un champ d’identité partagé, qui existe à la fois dans le schéma cible et dans le schéma `Profile`, est configuré comme un espace de noms d’identité.
 
-➡️ [En savoir plus sur les schémas relationnels dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [En savoir plus sur les schémas relationnels dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Créer une dimension de ciblage {#targeting-dimension}
 
@@ -47,7 +47,7 @@ Commencez par configurer l’orchestration de campagne en mappant un schéma rel
 
 1. Sélectionnez le [schéma précédemment configuré](gs-schemas.md) dans la liste déroulante.
 
-   Bien que tous les schémas relationnels soient visibles, seuls les schémas ayant une relation d’identité directe avec le **Profil** sont éligibles à la sélection.
+   Bien que tous les schémas relationnels s’affichent, seuls ceux ayant une relation d’identité directe avec **Profile** peuvent être sélectionnés. Évitez de choisir des schémas non-personnes, par exemple des achats, et sélectionnez un schéma directement associé à un profil.
 
 1. Sélectionnez la **[!UICONTROL valeur d’identité]** qui représente l’entité à cibler.
 
