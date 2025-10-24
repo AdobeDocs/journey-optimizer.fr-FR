@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
+source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 97%
+source-wordcount: '1400'
+ht-degree: 95%
 
 ---
 
@@ -210,9 +210,11 @@ Lors de la configuration d’un webhook, vous pouvez définir son objectif en fo
 
 1. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter vos catégories de mots-clés, puis configurez-les comme suit :
 
-   * **[!UICONTROL Catégorie de mot-clé entrant]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Aide]** ou **[!UICONTROL Par défaut]**.
+   * **[!UICONTROL Catégorie de mots-clés entrants]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Double Opt-in]**, **[!UICONTROL Help]** ou **[!UICONTROL Custom]**.
 
    * **[!UICONTROL Saisir un mot-clé]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter plusieurs mots-clés.
+
+     Pour **[!UICONTROL Mot-clé personnalisé]**, utilisez des mots-clés non liés au consentement pour les actions par lots dans un parcours.
 
    * **[!UICONTROL Message de réponse]** : sélectionnez dans la liste déroulante la réponse personnalisée qui sera automatiquement envoyée.
 
