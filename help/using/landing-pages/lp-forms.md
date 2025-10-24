@@ -9,13 +9,11 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire
 badge: label="Disponibilité limitée" type="Informative"
-hidefromtoc: true
-hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
+source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 100%
+source-wordcount: '1572'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est actuellement en disponibilité limitée pour les clients situés aux États-Unis et en Australie. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
 
 Pour capturer des données de profil avec vos pages de destination [!DNL Journey Optimizer] et enrichir vos jeux de données [!DNL Experience Platform], vous pouvez utiliser des formulaires dans vos pages de destination.
 
@@ -33,7 +31,7 @@ Pour capturer des données de profil avec vos pages de destination [!DNL Journey
 >id="ajo_lp_form_connection"
 >title="Sélectionner le point d’entrée à utiliser"
 >abstract="Définissez le point d&#39;entrée de streaming où les données sont envoyées lors de l’envoi du formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -42,7 +40,7 @@ Pour capturer des données de profil avec vos pages de destination [!DNL Journey
 
 Avant de pouvoir créer un formulaire, vous devez définir un paramètre prédéfini dédié où vous sélectionnez le point d’entrée de connexion où les données d’envoi du formulaire sont envoyées et le jeu de données où les données capturées par le biais du formulaire seront stockées.
 
-Lorsque des données arrivent sur le point d’entrée de streaming, elles sont liées aux informations du jeu de données. À l’aide des connexions source/cible générées et du flux source, les données sont ensuite intégrées au jeu de données.
+Une fois que les données arrivent sur le point d’entrée de diffusion en continu, elles sont liées aux informations du jeu de données. À l’aide des connexions source/cible générées et du flux source, les données sont ensuite intégrées au jeu de données.
 
 Lors de la création d’un paramètre prédéfini :
 
@@ -53,9 +51,13 @@ Lors de la création d’un paramètre prédéfini :
    * **Connexion cible** - emplacement de stockage ou d’utilisation des données.
    * **Flux source** - pipeline qui déplace les données de la connexion source vers [!DNL Experience Platform], gérant le mappage, la transformation et la validation.
 
+<!--
 >[!NOTE]
 >
-> Pour accéder aux paramètres prédéfinis du formulaire et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des paramètres prédéfinis de formulaire]** dans le sandbox de production. Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
+> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
+-->
+
+Pour créer un paramètre prédéfini de formulaire, procédez comme suit.
 
 1. Pour accéder à l’inventaire **[!UICONTROL Paramètres prédéfinis de formulaire]**, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de formulaire]** dans le menu de gauche.
 
@@ -69,13 +71,13 @@ Lors de la création d’un paramètre prédéfini :
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Sélectionnez un **[!UICONTROL jeu de données]** à lier au formulaire. C’est là que les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir du texte pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
 
    >[!NOTE]
    >
-   >Actuellement, seuls les jeux de données [!DNL Adobe Experience Platform] peuvent être sélectionnés. Un seul jeu de données peut être sélectionné à la fois.
+   >Actuellement, seuls les jeux de données [!DNL Adobe Experience Platform] peuvent être sélectionnés. Un jeu de données peut être sélectionné à la fois. [En savoir plus sur les jeux de données](../../data/get-started-datasets.md)
 
 1. Cliquez sur **[!UICONTROL Publier]**. Votre paramètre prédéfini peut maintenant être utilisé dans un formulaire.
 
@@ -93,7 +95,7 @@ Tous les formulaires existants s’affichent. Vous pouvez les filtrer selon leur
 >id="ajo_lp_form_preset"
 >title="Sélectionner un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
 
 Pour créer un formulaire, suivez les étapes ci-dessous.
 
@@ -192,7 +194,7 @@ Une fois que vous avez sélectionné un attribut de champ ou ajouté un champ pe
 >title="Page de remerciements"
 >abstract="Configurez ce qui se produit lorsqu’une personne remplit ou transfère le formulaire."
 
-Dans la section **[!UICONTROL Page de remerciements]**, configurez ce qui se passe lorsqu’un utilisateur ou une utilisatrice remplit le formulaire.
+De retour dans les détails du formulaire, dans la section **[!UICONTROL Page de remerciement]**, configurez ce qui se passe lorsqu’un utilisateur remplit le formulaire.
 
 ![](assets/lp_create-form-thank-you.png){width=70%}
 
@@ -239,7 +241,7 @@ Une fois qu’un formulaire est publié, vous pouvez toujours le modifier. Suive
 
 ## Utiliser le formulaire dans une page de destination {#leverage-form-in-lp}
 
-Vous pouvez désormais intégrer ce formulaire à une page de destination afin de capturer les données correspondant aux attributs que vous avez définis dans le formulaire et de les enregistrer dans le jeu de données sélectionné. Suivez les étapes ci-après.
+Vous pouvez désormais incorporer ce formulaire dans une page de destination afin de capturer les données correspondant aux attributs que vous avez définis dans le formulaire et de les enregistrer dans le jeu de données sélectionné. Suivez les étapes ci-après.
 
 1. Créez une page de destination. [Voici comment procéder](create-lp.md#create-landing-page)
 
@@ -263,7 +265,7 @@ Vous pouvez désormais intégrer ce formulaire à une page de destination afin d
 
    >[!NOTE]
    >
-   >Vous pouvez mettre à jour le formulaire sélectionné à l’aide du bouton **[!UICONTROL Modifier le formulaire]**. Le formulaire s’ouvre dans un nouvel onglet. Les étapes de modification du contenu du formulaire sont identiques à celles décrites dans [cette section](#create-form).
+   >Vous pouvez mettre à jour le formulaire sélectionné à l’aide du bouton **[!UICONTROL Modifier le formulaire]**. Le formulaire s’ouvre dans un nouvel onglet. Les étapes de modification du contenu du formulaire sont détaillées dans [cette section](#create-form).
 
 1. Dans la section **[!UICONTROL Type de suivi]**, configurez ce qui se passe lorsqu’un utilisateur ou une utilisatrice remplit le formulaire :
 

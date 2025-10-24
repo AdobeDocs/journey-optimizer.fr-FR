@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 45%
+source-wordcount: '1209'
+ht-degree: 48%
 
 ---
 
@@ -31,6 +31,26 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 **Date de publication** : jeudi 22 octobre 2025
 
 ### Nouvelles fonctionnalités {#oct-25-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Formulaires personnalisés de la page de destination</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Avec [!DNL Journey Optimizer], vous pouvez désormais capturer les attributs de profil via vos pages de destination.</p>
+<p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
+<p>Cette fonctionnalité est actuellement en disponibilité limitée pour les clients situés aux États-Unis et en Australie. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : vendredi 23 octobre 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -268,7 +288,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator comprend désormais l’agent d’expérimentation, un outil de conversation optimisé par l’IA qui vous permet d’interagir avec vos expériences, informations et opportunités. Elle améliore l’expérience Journey Optimizer Experimentation Accelerator, ce qui vous permet d’exécuter plus efficacement des expériences, de découvrir ce qui fonctionne et de découvrir où optimiser la suite.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : samedi 10 octobre 2025</p>
 </td>
 </tr>
@@ -427,24 +447,4 @@ Vous pouvez désormais utiliser des modèles d’IA pour optimiser le meilleur c
 </tbody>
 </table>
 
-
-<table>
-<thead>
-<tr>
-<th><strong>Landing page custom forms</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
-<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
 -->
