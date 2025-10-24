@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '3011'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -555,13 +555,8 @@ ht-degree: 98%
    + Expérience de contenu {#content-experiment}
       + [Expérience de contenu](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Prise en main de l’expérience de contenu](using/content-management/get-started-experiment.md)
+      + [Commencer avec l’accélérateur d’expérience](using/content-management/experiment-accelerator-gs.md)
       + [Créer une expérience de contenu](using/content-management/content-experiment.md)
-      + Accélérateur d’expérience {#experiment}
-         + [Commencer avec l’accélérateur d’expérience](using/content-management/experiment-accelerator.md)
-         + [Utilisation des données dans l’IA avec Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
-         + [Bonnes pratiques relatives à l’accélérateur d’expériences](using/content-management/experiment-accelerator-best-practices.md)
-         + [Moniteur d’accélérateur d’expérience](using/content-management/experiment-accelerator-monitor.md)
-         + [Mesures de l’accélérateur d’expérience](using/content-management/experiment-accelerator-metrics.md)
       + Notes techniques {#technotes}
          + [Notes techniques](/help/rp_landing_pages/technotes-landing-page.md)
          + [Test A/B et bandit manchot](using/content-management/mab-vs-ab.md)
@@ -978,7 +973,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
