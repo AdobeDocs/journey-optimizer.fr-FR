@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: 23a6a0d0766959a2a073512e805b14edb1a323f0
 workflow-type: tm+mt
-source-wordcount: '6603'
+source-wordcount: '7883'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,189 @@ ht-degree: 100%
 
 Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2025.
 
+
+## Notes de mise à jour de septembre 2025 {#25-9-rn}
+
+**Date de publication** : 23 et 24 septembre 2025
+
+### Nouvelles fonctionnalités {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Experimentation Accelerator de Journey Optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Experimentation Accelerator de Journey Optimizer est un produit IA conçu pour faire passer votre expérimentation au niveau supérieur. Conçu pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer et d’Adobe Target, il unifie la gestion des expériences, fournit des informations et des opportunités optimisées par l’IA et introduit un nouvel agent d’expérimentation.</p>
+<p>Vous pouvez vous attendre aux points suivants :</p>
+<ul>
+<li><strong>Inventaire d’expériences unifié :</strong> permet d’afficher, de filtrer et de gérer rapidement toutes les expériences d’Adobe Journey Optimizer et d’Adobe Target dans un espace de travail central.</li>
+<li><strong>Informations et opportunités des expériences IA :</strong> allez au-delà des lectures statistiques avec des informations et des recommandations pilotées par GenAI. Chaque expérience fait désormais apparaître des opportunités exploitables, accompagnées d’une justification, afin que les équipes puissent décider en toute confiance de la suite des tests.</li>
+<li><strong>Prise en charge du bandit manchot (MAB) dans Journey Optimizer :</strong> optimisez l’impact tout en réduisant le trafic gâché grâce aux expériences de bandit manchot. Au lieu de répartir les audiences de manière égale, MAB affecte automatiquement davantage de visiteurs et visiteuses aux variations les plus performantes en temps réel, afin que vous puissiez offrir de meilleures expériences à davantage de clientes et clients, tout en découvrant ce qui fonctionne.</li></ul>
+<p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../content-management/experiment-accelerator.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 3 octobre_2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>L’agent Journey est là !</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Optimisé par <a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’agent Journey est disponible dans Journey Optimizer. Il permet d’analyser les parcours par le biais d’une interface en langage naturel. L’agent détecte les conflits d’audience ou de planning et les rejets de profils dans un parcours afin de vous permettre de prendre des mesures pour les résoudre. Vous pourrez bientôt créer des parcours avec l’aide d’un agent.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 24 septembre 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Mode sombre dans le Concepteur d’e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le Concepteur d’e-mail de Journey Optimizer permet désormais de passer en mode sombre, pour que vous puissiez notamment définir des paramètres personnalisés spécifiques qui s’afficheront uniquement pour les destinataires qui lisent leurs e-mails en mode sombre.</p>
+<p>Prenez note des points suivants :</p>
+<ul>
+<li>Le rendu final du mode sombre dépend du client de messagerie de la personne destinataire.</li>
+<li>Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé. De plus, certains clients de messagerie appliquent uniquement leur propre mode sombre par défaut pour tous les e-mails reçus. Dans les deux cas, le rendu des paramètres personnalisés que vous avez définis dans le Concepteur d’e-mail ne pourra pas être affiché.</li>
+</ul>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../email/dark-mode.md">documentation détaillée</a>.</p>
+ <p>Date de disponibilité : 16 septembre 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimisation des chemins de parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Utilisez le nouveau nœud Optimiser pour cibler des audiences spécifiques ou exécuter des tests A/B afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier.</p>
+<p>Cet outil vous permet de tester, varier et personnaliser les communications, le séquencement et les délais afin d’atteindre avec précision votre clientèle.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/optimize.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 4 septembre 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Méthode de délégation personnalisée pour les sous-domaines</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode de délégation personnalisée. Elle vous permet de contrôler et de gérer totalement l’ensemble des aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../configuration/delegate-custom-subdomain.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 4 septembre 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Utiliser les données Adobe Experience Platform pour la personnalisation et la prise de décision</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Publiée précédemment en version Beta publique, cette fonctionnalité est désormais disponible dans tous les environnements. Les améliorations suivantes ont été apportées à cette version :</p>
+<ul><li>Prise en charge de la personnalisation de la recherche de jeux de données dans les canaux entrants.</li>
+<li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression. Pour l’instant, cette fonctionnalité est disponible pour un nombre limité de clientes et clients. Pour en bénéficier, contactez votre représentant ou représentante Adobe.</li>
+<li>Une option de l’interface de gestion des jeux de données permet désormais d’activer les jeux de données basés sur des enregistrements pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
+<li>Surveillance améliorée pour suivre le statut d’ingestion des données et déterminer le moment auquel les jeux de données sont prêts pour la recherche.</li>
+<li>Mise à jour des instructions d’utilisation et des mécanismes de sécurisation pour garantir des performances et une fiabilité optimales.</li>
+<li>Les jeux de données Adobe Experience Platform peuvent désormais être utilisés dans les règles de limitation de prise de décision.</li></ul></p>
+<p>Pour plus d’informations, consultez la <a href="../data/lookup-aep-data.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 1er septembre 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Améliorations {#sept-25-9-improvements}
+
+* **Prise en charge des webhooks pour les campagnes déclenchées par API**\
+  Les campagnes déclenchées par API prennent désormais en charge les webhooks. Configurez une URL de webhook pour recevoir des mises à jour en temps réel du statut de chaque message, ce qui améliore l’observabilité et permet une surveillance et une automatisation efficaces. [En savoir plus](../configuration/feedback-webhooks.md)
+
+  Date de disponibilité : 29 septembre 2025
+
+* **Prise en charge de mTLS pour le canal SMS**
+Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification TLS mutuelle (mTLS), qui nécessite que le client et le serveur confirment mutuellement leur identité avant qu’une connexion sécurisée ne soit établie. [En savoir plus](../sms/sms-configuration-custom.md) - Date de disponibilité : 23 septembre 2025
+
+* **Schémas basés sur des modèles**\
+  Les schémas basés sur des modèles peuvent désormais être utilisés pour prendre en charge vos besoins de modélisation relationnelle dans les campagnes orchestrées. [En savoir plus](../orchestrated/gs-schemas.md) - Date de disponibilité : 23 septembre 2025
+
+* **Prise en charge de la recherche de jeux de données dans les parcours**\
+  Une nouvelle activité dans les parcours, intitulée **Recherche de jeu de données**, permet de récupérer dynamiquement des données à partir de jeux de données d’enregistrement Adobe Experience Platform au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun. [En savoir plus](../building-journeys/dataset-lookup.md) - Date de disponibilité : 23 septembre 2025
+
+  Cette activité est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+
+* **Prise en charge de la redirection dans les actions personnalisées de parcours**\
+  Les redirections (302) sont désormais prises en charge dans les actions personnalisées de parcours. - Date de disponibilité : 23 septembre 2025
+
+* **Alertes de surveillance de la configuration des canaux** : vous pouvez désormais vous abonner pour recevoir des alertes système, soit par e-mail, soit dans le centre de notifications Journey Optimizer, en cas d’erreur de configuration du canal e-mail utilisant le type de délégation de sous-domaine personnalisé. [En savoir plus](../reports/alerts.md#alert-channel-config-failure) - Date de disponibilité : 23 septembre 2025
+
+* **Demandes de désabonnement en un clic** : nous avons apporté des améliorations qui renforcent encore davantage le traitement des demandes de désabonnement en un clic configurées sous Adobe Managed, en garantissant un traitement fiable et cohérent. - Date de disponibilité : 23 septembre 2025
+
+* **Les paramètres de corps JSON imbriqués sont désormais pris en charge dans l’authentification personnalisée.**\
+  Lors de la configuration de l’authentification personnalisée pour une action personnalisée, les objets JSON imbriqués (par exemple, les sous-objets dans `bodyParams`) sont désormais pris en charge. [En savoir plus](../datasource/external-data-sources.md#custom-authentication-mode) - Date de disponibilité : 18 septembre 2025
+
+* **Fréquence du capping redéfini à l’heure** : vous pouvez désormais appliquer un capping de la fréquence à l’heure pour les jeux de règles de canal. Auparavant proposée en disponibilité limitée, cette fonctionnalité est désormais proposée pour tous les environnements et permet de choisir une heure (auparavant trois heures). [En savoir plus](../conflict-prioritization/channel-capping.md) - Date de disponibilité : 17 septembre 2025
+
+* **Simulation des variations de contenu pour tous les canaux entrants**\
+  Auparavant uniquement disponible pour les canaux E-mail, SMS et Notification push, la simulation de variations de contenu s’applique désormais également à tous les canaux entrants. [En savoir plus](../test-approve/simulate-sample-input.md) - Date de disponibilité : 17 septembre 2025
+
+* **Expression pour les règles de limitation de prise de décision** : vous pouvez désormais créer vos propres expressions pour définir le seuil d’une règle de limitation pour un élément de décision. [En savoir plus](../experience-decisioning/items.md#capping) - Date de disponibilité : 16 septembre 2025
+
+* **Prise en charge des domaines dynamiques** : Journey Optimizer prend désormais en charge la personnalisation complète/de base des URL pour les domaines prédéfinis acceptés par Adobe. [En savoir plus](../personalization/personalization-build-expressions.md#where) - Date de disponibilité : 12 septembre 2025
+
+  Cette fonctionnalité est proposée en disponibilité limitée pour un certain nombre de clientes et clients.
+
+* **Webhooks** : cette version introduit les améliorations suivantes pour les webhooks lors de la configuration d’un fournisseur de SMS personnalisé :
+
+   * Vous pouvez désormais définir l’objectif de votre webhook, soit Entrant, soit Commentaires, en fonction du type de données que vous souhaitez capturer. [En savoir plus](../sms/sms-configuration-custom.md#webhook) - Date de disponibilité : 23 septembre 2025
+
+   * L’interface de configuration des mots-clés a été améliorée afin de faciliter la configuration. [En savoir plus](../sms/sms-configuration-custom.md#webhook) - Date de disponibilité : 23 septembre 2025
+
+* **SMS**
+
+   * Lors de la configuration d’un fournisseur de SMS personnalisé, vous pouvez désormais définir un mot-clé **par défaut** utilisé lorsqu’un SMS entrant contient un mot-clé non reconnu. Vous pouvez également créer des mots-clés **personnalisés** pour des actions spécifiques. [En savoir plus](../sms/sms-configuration-custom.md) - Date de disponibilité : 23 septembre 2025
+
+   * Vous pouvez désormais accéder aux réponses envoyées par SMS pour des mots-clés entrants non définis, y compris les fautes de frappe, les mots ou les phrases qui ne sont pas explicitement définis dans la configuration. Elles sont stockées pendant 13 mois dans le jeu de données **Événement d’expérience de suivi d’e-mail AJO**, sous **Message entrant**. Disponible uniquement avec Sinch, Infobip et le fournisseur de SMS personnalisé. - Date de disponibilité : 23 septembre 2025
 
 ## Notes de mise à jour d’août 2025 {#25-8-rn}
 
