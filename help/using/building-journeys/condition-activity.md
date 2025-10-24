@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: dee9dc2c2229314940def5f0279699d877d50df6
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 100%
+source-wordcount: '1560'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,10 @@ Les types de condition disponibles sont les suivants :
 * [Limite de profils](#profile_cap)
 
 Vous pouvez également utiliser une audience dans une condition de parcours. [En savoir plus](#using-a-segment)
+
+>[!NOTE]
+>
+>L’évaluation de la condition échoue pour les profils qui incluent plus de deux identités inter-appareils dans le [magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"}.
 
 ## Ajouter et gérer des chemins de condition {#about_condition}
 
