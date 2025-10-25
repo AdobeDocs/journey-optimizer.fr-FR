@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,10 @@ Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide
 
 Les valeurs prédéfinies suivantes sont disponibles dans l’éditeur de personnalisation :
 
+* **Identifiant de profil du message** : attribut orienté message identifiant de manière unique chaque message envoyé à chaque profil ciblé dans une diffusion.
+
+* **ID de l’offre** : ID de l’offre utilisée dans l’e-mail.
+
 * **ID d’action source** : ID de l’action e-mail ajoutée au parcours ou à la campagne.
 
 * **Nom de l’action source** : nom de l’action e-mail ajoutée au parcours ou à la campagne.
@@ -53,8 +57,6 @@ Les valeurs prédéfinies suivantes sont disponibles dans l’éditeur de person
 * **Nom de la source** : nom du parcours ou de la campagne avec lequel l’e-mail a été envoyé.
 
 * **ID de la version source** : ID du parcours ou de la version de campagne avec lequel l’e-mail a été envoyé.
-
-* **ID de l’offre** : ID de l’offre utilisée dans l’e-mail.
 
 >[!NOTE]
 >
