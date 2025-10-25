@@ -21,7 +21,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Octobre 2025 {#october-2025}
 
-* Une nouvelle section a été ajoutée aux pages [ Mécanismes de sécurisation et limitations de la gestion des décisions ](../offers/decision-management-guardrails.md#configurations) et [ Mécanismes de sécurisation et limitations des décisions ](../experience-decisioning/decisioning-guardrails.md#configurations) pour spécifier le nombre maximal de configurations prises en charge (20 000), correspondant au nombre total de règles de limitation existant dans votre sandbox.
+* Une nouvelle section a été ajoutée aux pages [&#x200B; Mécanismes de sécurisation et limitations de la gestion des décisions &#x200B;](../offers/decision-management-guardrails.md#configurations) et [&#x200B; Mécanismes de sécurisation et limitations des décisions &#x200B;](../experience-decisioning/decisioning-guardrails.md#configurations) pour spécifier le nombre maximal de configurations prises en charge (20 000), correspondant au nombre total de règles de limitation existant dans votre sandbox.
 
 * Ajout d’une note à la section d’activité Condition du parcours pour documenter l’échec de l’évaluation de la condition pour les profils contenant plus de deux identités inter-appareils. [En savoir plus](../building-journeys/condition-activity.md)
 
@@ -147,7 +147,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
