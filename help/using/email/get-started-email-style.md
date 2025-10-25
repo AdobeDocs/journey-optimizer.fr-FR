@@ -30,7 +30,7 @@ Suivez les liens ci-dessous pour découvrir comment ajuster certains des paramè
 * Découvrez comment [gérer l’alignement vertical et la marge intérieure](alignment-and-padding.md).
 * Découvrez comment [personnaliser des attributs de style intégrés](inline-styling.md).
 * Découvrez comment [ajouter du code CSS personnalisé au contenu de votre e-mail](custom-css.md)
-* Découvrez comment [ gérer le contenu en mode sombre ](dark-mode.md)
+* Découvrez comment [&#x200B; gérer le contenu en mode sombre &#x200B;](dark-mode.md)
 
 >[!NOTE]
 >
