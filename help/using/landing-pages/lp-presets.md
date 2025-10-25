@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, configurer, environnement, sous-domaine, préréglages
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 84%
 
 ---
 
@@ -60,15 +60,23 @@ Pour créer un préréglage de page de destination, procédez comme suit :
 
    ![](assets/lp_preset-subdomain.png)
 
-   Avant de pouvoir sélectionner un sous-domaine, vous devez avoir configuré au moins un sous-domaine de page de destination. [Voici comment procéder](#lp-subdomains)
+   >[!NOTE]
+   >
+   >Avant de pouvoir sélectionner un sous-domaine, vous devez avoir configuré au moins un sous-domaine de page de destination. [Voici comment procéder](lp-subdomains.md)
 
    Les paramètres correspondant au sous-domaine sélectionné s’affichent.
 
-1. Si vous souhaitez sélectionner le sous-domaine de page de destination comme URL de suivi, cochez lʼoption **[!UICONTROL Identique au sous-domaine de page de destination]**. [En savoir plus sur le tracking](../email/message-tracking.md)
+1. Vous pouvez sélectionner le sous-domaine de la page de destination pour l’**[!UICONTROL URL de tracking]** en cochant l’option **[!UICONTROL Identique au sous-domaine de la page de destination]**. [En savoir plus sur le tracking](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    Par exemple, si l’URL de la page de destination est « pages.mail.luma.com » et que lʼURL de tracking est « data.mail.luma.com », vous pouvez choisir « pages.mail.luma.com » comme sous-domaine de tracking.
+
+   >[!CAUTION]
+   >
+   >Le sous-domaine de page de destination sélectionné est utilisé pour spécifier le **[!UICONTROL URL de suivi]** <!--and **[!UICONTROL Image Delivery URL]** -->si ce sous-domaine a été créé à l’aide d’un [sous-domaine existant](lp-subdomains.md#lp-use-existing-subdomain).
+   >
+   >Si le sous-domaine a été créé à l’aide de l’option [Ajouter votre propre domaine](lp-subdomains.md#lp-configure-new-subdomain), le sous-domaine principal (c’est-à-dire le premier sous-domaine délégué) est utilisé à la place.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** pour confirmer la création du paramètre prédéfini de la page de destination. <!--You can also save the preset as draft and resume its configuration later on.-->
 
