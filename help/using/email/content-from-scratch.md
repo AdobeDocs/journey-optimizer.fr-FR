@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: contenu, éditeur, e-mail, commencer
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 97%
+source-wordcount: '700'
+ht-degree: 91%
 
 ---
 
@@ -60,7 +60,11 @@ ht-degree: 97%
 >abstract="Le Concepteur vous permet de définir facilement la disposition de votre modèle en sélectionnant la structure des colonnes."
 
 
-Utilisez le Concepteur d’Adobe Journey Optimizer pour définir facilement la structure de vos contenus. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de vos contenus en quelques secondes.
+Utilisez le Designer d’e-mail [!DNL Adobe Journey Optimizer] pour définir facilement la structure de vos contenus. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de vos contenus en quelques secondes.
+
+>[!NOTE]
+>
+>La [loi européenne sur l&#39;accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].
 
 Pour commencer à créer votre contenu , procédez comme suit :
 

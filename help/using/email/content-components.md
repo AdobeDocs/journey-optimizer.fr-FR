@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1448'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 100%
 Lorsque vous créez le contenu de votre e-mail, la section **[!UICONTROL Composants de contenu]** vous permet de personnaliser davantage votre e-mail à l’aide des composants bruts que vous pouvez modifier une fois placés dans un e-mail.
 
 Vous pouvez ajouter autant de composants de contenu que nécessaire dans un ou plusieurs composants de structure, ce qui permet de définir la disposition de votre e-mail.
+
+>[!NOTE]
+>
+>La [loi européenne sur l&#39;accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](accessible-content.md) lorsque vous utilisez des composants de contenu pour concevoir des e-mails dans [!DNL Journey Optimizer], par exemple en utilisant des polices accessibles, des formats lisibles et en fournissant un texte secondaire pour les images.
 
 ## Ajouter des composants de contenu {#add-content-components}
 
@@ -180,7 +184,7 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 1. Cliquez sur le composant nouvellement ajouté et configurez les propriétés de l’image :
 
    * **[!UICONTROL Titre d’image]** vous permet de définir un titre pour votre image.
-   * **[!UICONTROL Text alt]** vous permet de définir la légende liée à votre image. Cela correspond à l’attribut alt en HTML.
+   * **[!UICONTROL Text alt]** vous permet de définir la légende liée à votre image. Cela correspond à l’attribut alt d’HTML. [En savoir plus](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 

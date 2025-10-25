@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire, composant
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 100%
+source-wordcount: '1336'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,10 @@ Pour concevoir un contenu spécifique qui permettra aux utilisateurs et utilisat
 >Vous pouvez également créer une page de destination de clics publicitaires sans composant **[!UICONTROL Formulaire]**. Dans ce cas, la page de destination s&#39;affichera aux utilisateurs, mais ils n&#39;auront pas à envoyer de formulaire. Cela peut s’avérer utile si vous souhaitez uniquement afficher une page de destination sans nécessiter d’action de la part de vos destinataires, comme l’opt-in ou l’opt-out, ou si vous souhaitez fournir des informations qui ne nécessitent pas d’entrée de la part de l’utilisateur.
 
 Grâce au concepteur de contenu de page de destination, vous pouvez également utiliser les données contextuelles provenant de la page principale dans une sous-page. [En savoir plus](#use-primary-page-context).
+
+>[!NOTE]
+>
+>La [loi européenne sur l&#39;accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](../email/accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].
 
 ## Utiliser le composant de formulaire {#use-form-component}
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 96%
@@ -73,7 +73,7 @@ Pour vous assurer que votre contenu est accessible visuellement, suivez les bonn
 * Optimisez votre conception pour les mises en page mobiles et réactives en vous assurant que les boutons sont grands et suffisamment espacés.
 * Effectuez des tests réguliers sur différents appareils et tailles d’écran pour garantir l’accessibilité.
 
-Dans [!DNL Journey Optimizer], la taille et l’espacement des différents éléments de votre contenu peuvent être affinés à l’aide des paramètres et attributs de style dans le volet **[!UICONTROL Styles]** du Concepteur d’e-mail. [En savoir plus](get-started-email-style.md)
+Dans [!DNL Journey Optimizer], la taille et l’espacement des différents éléments de votre contenu peuvent être affinés à l’aide des paramètres et attributs de style dans le volet **[!UICONTROL Styles]** du Concepteur d’e-mail. [Voici comment procéder](get-started-email-style.md)
 
 Par exemple, vous pouvez mettre à jour l’[arrière-plan](backgrounds.md) ou modifier les marges, les marges intérieures et l’alignement pour améliorer l’accessibilité visuelle de votre contenu. [En savoir plus](alignment-and-padding.md)
 
@@ -89,7 +89,7 @@ De plus, le Concepteur d’e-mail [!DNL Journey Optimizer] vous permet de prévi
 
 ## Utiliser un texte secondaire pour les images {#alt-text}
 
-Utilisez le composant **[!UICONTROL Image]** pour fournir un texte secondaire pour les images. [En savoir plus](content-components.md#image)
+Utilisez le composant **[!UICONTROL Image]** pour fournir un texte secondaire pour les images. [Voici comment procéder](content-components.md#image)
 
 ![](assets/accessible-alt-text.png){width="90%"}
 
@@ -144,7 +144,7 @@ Pour vérifier de manière plus fiable si votre contenu est accessible, recherch
 
 Le mode sombre améliore l’accessibilité visuelle pour les personnes sensibles à la lumière ou ayant une déficience visuelle, ainsi que leur expérience de visionnage.
 
-Le Designer d’e-mail vous permet de passer à la vue **[!UICONTROL Mode sombre]** et de définir des paramètres personnalisés spécifiques qui seront affichés par les clients de messagerie de prise en charge. [En savoir plus](dark-mode.md)
+Le Designer d’e-mail vous permet de passer à la vue **[!UICONTROL Mode sombre]** et de définir des paramètres personnalisés spécifiques qui seront affichés par les clients de messagerie de prise en charge. [Voici comment procéder](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 

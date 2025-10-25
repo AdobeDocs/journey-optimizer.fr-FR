@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
-workflow-type: ht
-source-wordcount: '609'
-ht-degree: 100%
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,10 @@ Consultez le tableau ci-dessous pour connaître les bonnes pratiques en matière
 | Recommandé | À utiliser avec précaution | Non recommandé |
 |-|-|-|
 | <ul><li><b>Mises en page statiques, basées sur des tableaux</b> pour la structure</li> <li><b>Tableaux HTML et tableaux imbriqués</b> pour la cohérence de la mise en page</li> <li><b>Largeurs des modèles</b> comprises entre 600 px et 800 px </li> <li><b>CSS simples et intégrées</b> pour le style </li> <li><b>Polices compatibles web</b> pour une conformité universelle</li> | <ul><li>Les <b>images d’arrière-plan</b> peuvent ne pas apparaître sur certaines plateformes de messagerie.</li><li>Les <b>polices web personnalisées</b> ne profitent pas d’une prise en charge universelle.</li><li>Les <b>mises en page larges</b> peuvent mal s’afficher sur de petits écrans.</li><li>Les <b>zones cliquables</b> offrent des fonctionnalités limitées.</li><li>Les <b>CSS incorporées</b> sont parfois supprimées lors de la diffusion des e-mails.</li> | <ul><li>Le code <b>JavaScript</b> n’est généralement pas pris en charge dans les environnements de messagerie.</li> <li> Les balises <b>`<iframe>`</b> sont bloquées sur la plupart des plateformes. </li> <li>Les éléments <b>Flash</b> sont obsolètes et ne sont plus pris en charge.</li> <li>Les <b>fichiers audio intégrés</b> provoquent souvent un blocage.</li> <li>Les <b>vidéos intégrées</b> sont incompatibles avec de nombreuses plateformes de messagerie.</li> <li> Les <b>formulaires</b> ne fonctionnent pas dans les e-mails.</li> <li> La superposition `<div>` peut entraîner des problèmes de rendu.</li> |
+
+>[!NOTE]
+>
+>La [loi européenne sur l&#39;accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Outre les bonnes pratiques en matière de conception d&#39;email répertoriées dans cette section, veillez également à suivre les directives répertoriées sur [cette page](accessible-content.md) spécifiques à la création de contenu accessible avec Email Designer.
 
 ## Étapes clés de création de contenu d’e-mail {#key-steps}
 
@@ -74,8 +78,8 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 Découvrez comment créer du contenu d’e-mail avec l’éditeur de messages.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416232?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Découvrez comment configurer des expériences de contenu pour un test AB et explorer le contenu d’e-mail qui répond le mieux aux objectifs de votre entreprise.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447333?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
