@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: erreur, codes, dépannage, parcours, campagne, messages
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 012efffe4b38ccfdc88545566bc49b519c796ad2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -62,12 +62,12 @@ Ces erreurs se produisent lors de l’exécution du parcours, du traitement des 
 
 | Code d’erreur | Description | Cause principale | Résolution |
 |------------|-------------|-----------|-----------|
-| **CJMRT-030012-422** | Entité non traitable : action en échec, événement non valide ou payload incorrecte | Données d’entrée non valides (par exemple, audience, événement ou attribut inexistant) | &#x200B;1. Vérifiez à nouveau la structure de la payload d’entrée/d’événement<br/>2. Vérifiez que les objets référencés (audiences, jeux de données) existent et sont actifs<br/>3. Vérifiez que tous les champs obligatoires sont présents<br/>4. Testez avec une payload, dont le fonctionnement a été vérifié&#x200B;<br/><br/>**Documentation connexe** : [Dépannage de Parcours &#x200B;](troubleshooting.md), [Configuration des événements](../event/about-events.md) |
-| **CJMRT-130004-400** | Requête incorrecte - entrée incorrecte dans la configuration du nœud ou du canal de parcours | Les références de configuration ou de payload du parcours sont supprimées ou ne sont pas valides | &#x200B;1. Vérifiez la configuration du nœud de parcours <br/>2. Vérifiez que toutes les ressources référencées (messages, audiences, actions) existent<br/>3. Correction ou mise à jour des références rompues<br/>4. Reconstruire la configuration du parcours si nécessaire <br/><br/>**Documentation connexe** : [création du Parcours &#x200B;](journey-gs.md), [Actions personnalisées](../action/about-custom-action-configuration.md) |
-| **CJMRT-000032-409** | Conflit - la ressource existe déjà | Tentative de création d’une ressource avec un ID ou un nom en double | &#x200B;1. Utilisez des identifiants et des noms uniques pour toutes les ressources<br/>2. Recherchez les ressources existantes avec le même identifiant<br/>3. Supprimer ou renommer des objets en conflit<br/>4. Consultez les conventions de nommage <br/><br/>**documentation connexe** : [versions de Parcours &#x200B;](journey-gs.md#journey-versions) |
-| **CJMRT-170016-400** | Requête incorrecte pendant la configuration/prévisualisation du parcours | Dépendance requise manquante ou lien de modèle rompu pour la payload | &#x200B;1. Vérifiez que toutes les ressources requises sont actives<br/>2. Vérifiez que les modèles et les blocs de contenu sont publiés<br/>3. Vérifiez que toutes les dépendances sont correctement liées<br/>4. Consultez les résultats du mode parcours test <br/><br/>**documentation connexe** : [Test des parcours &#x200B;](testing-the-journey.md), [dépendances de Parcours &#x200B;](journey-gs.md) |
+| **CJMRT-030012-422** | Entité non traitable : action en échec, événement non valide ou payload incorrecte | Données d’entrée non valides (par exemple, audience, événement ou attribut inexistant) | &#x200B;1. Vérifiez à nouveau la structure de la payload d’entrée/d’événement<br/>2. Vérifiez que les objets référencés (audiences, jeux de données) existent et sont actifs<br/>3. Vérifiez que tous les champs obligatoires sont présents<br/>4. Testez avec une payload, dont le fonctionnement a été vérifié&#x200B;<br/><br/>**Documentation connexe** : [Dépannage de Parcours ](troubleshooting.md), [Configuration des événements](../event/about-events.md) |
+| **CJMRT-130004-400** | Requête incorrecte - entrée incorrecte dans la configuration du nœud ou du canal de parcours | Les références de configuration ou de payload du parcours sont supprimées ou ne sont pas valides | &#x200B;1. Vérifiez la configuration du nœud de parcours <br/>2. Vérifiez que toutes les ressources référencées (messages, audiences, actions) existent<br/>3. Correction ou mise à jour des références rompues<br/>4. Reconstruire la configuration du parcours si nécessaire <br/><br/>**Documentation connexe** : [création du Parcours ](journey-gs.md), [Actions personnalisées](../action/about-custom-action-configuration.md) |
+| **CJMRT-000032-409** | Conflit - la ressource existe déjà | Tentative de création d’une ressource avec un ID ou un nom en double | &#x200B;1. Utilisez des identifiants et des noms uniques pour toutes les ressources<br/>2. Recherchez les ressources existantes avec le même identifiant<br/>3. Supprimer ou renommer des objets en conflit<br/>4. Consultez les conventions de nommage <br/><br/>**documentation connexe** : [versions de Parcours ](journey-gs.md#journey-versions) |
+| **CJMRT-170016-400** | Requête incorrecte pendant la configuration/prévisualisation du parcours | Dépendance requise manquante ou lien de modèle rompu pour la payload | &#x200B;1. Vérifiez que toutes les ressources requises sont actives<br/>2. Vérifiez que les modèles et les blocs de contenu sont publiés<br/>3. Vérifiez que toutes les dépendances sont correctement liées<br/>4. Consultez les résultats du mode parcours test <br/><br/>**documentation connexe** : [Test des parcours ](testing-the-journey.md), [dépendances de Parcours ](journey-gs.md) |
 | **CJMRT-080608-400** | Requête incorrecte dans le domaine/canal/délégation | Enregistrements DNS requis ou configuration d’e-mail/SMS manquante | &#x200B;1. Configuration DNS complète pour les domaines de messagerie<br/>2. Vérifiez que la délégation des sous-domaines est terminée<br/>3. Exécutez à nouveau les Assistants Configuration<br/>4. Accordez du temps pour la propagation du DNS (jusqu’à 72 heures)<br/><br/>**Documentation connexe** : [Surfaces de canal](../configuration/channel-surfaces.md), [Délégation de sous-domaine](../configuration/delegate-subdomain.md) |
-| **CJMRT-110100-500** | Erreur interne sur la payload | Bogue de données/configuration du serveur principal ou configuration non prise en charge | &#x200B;1. Réessayez l’opération<br/>2. Simplifiez la configuration si vous utilisez des fonctionnalités avancées<br/>3. Transmettez-le au support Adobe avec l’identifiant de requête et la payload exacte<br/>4. Recherchez les problèmes connus dans les notes de mise à jour <br/><br/>**documentation connexe** : [Dépannage du Parcours &#x200B;](troubleshooting.md) |
+| **CJMRT-110100-500** | Erreur interne sur la payload | Bogue de données/configuration du serveur principal ou configuration non prise en charge | &#x200B;1. Réessayez l’opération<br/>2. Simplifiez la configuration si vous utilisez des fonctionnalités avancées<br/>3. Transmettez-le au support Adobe avec l’identifiant de requête et la payload exacte<br/>4. Recherchez les problèmes connus dans les notes de mise à jour <br/><br/>**documentation connexe** : [Dépannage du Parcours ](troubleshooting.md) |
 
 ### CJMAS : erreurs du service de création de messages {#cjmmas-errors}
 
@@ -146,7 +146,7 @@ Lorsque vous rencontrez un code d’erreur, suivez cette approche systématique 
 * [Résolution des problèmes liés aux activités entrantes](troubleshooting-inbound.md)
 * [Dépannage des actions personnalisées](../action/troubleshoot-custom-action.md)
 * [FAQ sur le parcours](journey-faq.md)
-* [Mécanismes de sécurisation et limitations](limitations.md)
+* [Mécanismes de sécurisation et limitations](../start/guardrails.md)
 
 ## Obtention d’une assistance {#getting-support}
 
@@ -165,5 +165,5 @@ Si vous rencontrez des erreurs persistantes qui ne peuvent pas être résolues �
 **Rubriques connexes**
 
 * [Démystifier les codes d’erreur Adobe Journey Optimizer : partie 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
-* [Démystifier les codes d’erreur Adobe Journey Optimizer : partie 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=fr){target="_blank"}
+* [Démystifier les codes d’erreur Adobe Journey Optimizer : partie 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
