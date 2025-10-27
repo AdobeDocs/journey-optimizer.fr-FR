@@ -5,16 +5,16 @@ title: Tester et approuver
 description: Tester et approuver
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 27%
 
 ---
 
 # Tester et approuver{#section-overview}
 
-Les fonctionnalités « Tester et approuver » d’Adobe Journey Optimizer vous permettent de perfectionner vos campagnes et parcours avant leur lancement en toute confiance. Que vous prévisualisiez du contenu personnalisé avec des profils de test, que vous vous assuriez que les e-mails s’affichent parfaitement sur les différents appareils ou que vous validiez que vos parcours répondent aux normes de l’entreprise par le biais de workflows d’approbation structurés, cette section vous guide pas à pas. Découvrez comment simuler des scénarios réels, détecter précocement des erreurs potentielles et gérer les approbations efficacement, le tout pour vous assurer que vos campagnes sont précises, soignées et prêtes à offrir des expériences client exceptionnelles. Grâce à des instructions claires et des outils pratiques, vous vous sentirez en mesure de tester, d’affiner et d’activer vos campagnes en toute confiance.
+Avant de lancer vos campagnes et parcours, vérifiez qu’ils fonctionnent comme prévu. Prévisualisez votre contenu avec des [profils de test](../using/content-management/test-profiles.md), vérifiez le rendu des e-mails sur les appareils et validez la logique de parcours avec le [mode test](../using/building-journeys/testing-the-journey.md) ou [exécution à sec](../using/building-journeys/journey-dry-run.md). Configurez des [workflows d’approbation](../using/test-approve/gs-approval.md) pour assurer le contrôle qualité et utilisez des [alertes système](../using/reports/alerts.md) pour surveiller les problèmes. Les tests précoces vous permettent de détecter les erreurs et de diffuser des campagnes précises et efficaces.
 
 ## Tester et approuver du contenu
 
@@ -30,7 +30,7 @@ Découvrez comment prévisualiser, tester et valider du contenu personnalisé à
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Workflows d’approbation des parcours et des campagnes
 
@@ -40,13 +40,45 @@ Découvrez comment configurer, gérer et exécuter des processus d’approbation
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
-Accéder aux alertes système et s’y abonner
+Tester votre Parcours
 
-Découvrez comment gérer les alertes système, vous abonner aux notifications et résoudre les problèmes liés aux parcours et aux campagnes.
+Validez votre parcours avant de le publier en le testant avec des profils spécifiques pour vous assurer que les événements, conditions et actions fonctionnent comme prévu.
 
-[Consulter le guide des alertes système](../using/reports/alerts.md)
+[Tester votre parcours](../using/building-journeys/testing-the-journey.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+
+Test à blanc du parcours
+
+Effectuez une exécution d’essai pour simuler et valider le chemin d’exécution de votre parcours, en identifiant les problèmes potentiels avant la mise en ligne.
+
+[En savoir plus sur l’essai de Parcours](../using/building-journeys/journey-dry-run.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+
+Surveillance et dépannage
+
+Accédez à des ressources de dépannage complètes, à des alertes système et à des codes d’erreur pour résoudre les problèmes d’exécution et de performances des parcours.
+
+[Afficher la surveillance et le dépannage](troubleshoot-journey-landing-page.md)
 :::
 
 ::::
+
+## Ressources supplémentaires
+
+* [Rapport dynamique dans votre Parcours ](../using/building-journeys/report-journey.md) - Surveillez les mesures de parcours en temps réel pour suivre les performances et identifier les problèmes lors de l’exécution.
+
+* [Création de profils de test](../using/audience/creating-test-profiles.md) - Créez et gérez des profils de test pour simuler des scénarios client réels et valider la personnalisation.
+
+* [Gestion de contenu](content-management-landing-page.md) - Découvrez comment concevoir, prévisualiser et gérer du contenu à l’aide de modèles, de fragments et du Designer d’e-mail.
+
+* [FAQ sur les Parcours ](../using/building-journeys/journey-faq.md) - Trouvez des réponses aux questions courantes sur la création, le test, l&#39;exécution et le dépannage de parcours.
+
+* [Rapport sur les spams par e-mail](../using/content-management/spam-report.md) - Vérifiez le score de spam de vos e-mails avant envoi pour améliorer la délivrabilité et le placement des boîtes de réception.

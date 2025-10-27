@@ -5,10 +5,10 @@ title: Résolution des problèmes
 description: Résolution des problèmes
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 87%
+source-wordcount: '270'
+ht-degree: 68%
 
 ---
 
@@ -19,6 +19,26 @@ Lorsqu’un parcours client ne se comporte pas comme prévu, l’identification 
 ## Résolution des problèmes
 
 :::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
+
+Accéder aux alertes système et s’y abonner
+
+Découvrez comment accéder aux alertes système, vous abonner aux notifications et surveiller les événements critiques dans vos parcours et campagnes.
+
+[Accéder aux alertes système](../using/reports/alerts.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+
+Référence des codes d’erreur
+
+Comprenez les codes d’erreur courants dans Adobe Journey Optimizer et trouvez des solutions rapides aux problèmes liés aux parcours, aux campagnes et aux messages.
+
+[Afficher la référence des codes d’erreur](../using/building-journeys/error-codes-reference.md)
+:::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
@@ -60,14 +80,10 @@ Validez et déboguez les actions personnalisées à l’aide de la fonctionnalit
 [Valider les actions personnalisées](../using/action/troubleshoot-custom-action.md)
 :::
 
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
-
-Référence des codes d’erreur
-
-Comprenez les codes d’erreur courants dans Adobe Journey Optimizer et trouvez des solutions rapides aux problèmes liés aux parcours, aux campagnes et aux messages.
-
-[Afficher la référence des codes d’erreur](../using/building-journeys/error-codes-reference.md)
-:::
-
 ::::
+
+## Ressources supplémentaires
+
+* [FAQ sur les Parcours ](../using/building-journeys/journey-faq.md) - Réponses complètes aux questions courantes sur les parcours, couvrant les types de parcours, l’exécution, la configuration et les bonnes pratiques de dépannage.
+
+* [Mécanismes de sécurisation et limites](../using/start/guardrails.md) - Découvrez les mécanismes de sécurisation de Journey Optimizer, les limitations de produit, les considérations relatives aux performances et les navigateurs pris en charge pour une utilisation optimale.
