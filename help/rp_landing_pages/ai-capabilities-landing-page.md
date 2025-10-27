@@ -70,7 +70,7 @@ Générez plusieurs variations de contenu et exécutez des expériences pour ide
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=fr)
 
 Intégration de Customer AI
 
