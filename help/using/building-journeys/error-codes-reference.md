@@ -165,5 +165,5 @@ Si vous rencontrez des erreurs persistantes qui ne peuvent pas être résolues �
 **Rubriques connexes**
 
 * [Démystifier les codes d’erreur Adobe Journey Optimizer : partie 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
-* [Démystifier les codes d’erreur Adobe Journey Optimizer : partie 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+* [Démystifier les codes d’erreur Adobe Journey Optimizer : partie 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=fr){target="_blank"}
 
