@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
-source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
+source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 5%
+source-wordcount: '622'
+ht-degree: 4%
 
 ---
 
@@ -40,6 +40,15 @@ Cette page explique en quoi les campagnes à débit élevé diffèrent des campa
 * **Exclusivité de la campagne** - Les campagnes à débit élevé n’utilisent pas les profils Adobe. Les messages sont diffusés qu’il existe un profil ou non.
 
   De plus, une campagne ne peut pas être utilisée à la fois pour les cas d’utilisation activés et non activés pour le profil. Si vous avez besoin des deux, créez deux campagnes distinctes et assurez-vous que le système d’appel décide laquelle déclencher en fonction du contexte.
+
+* **Jeux de données pour les commentaires et le suivi** - Les données de commentaire et de suivi pour les campagnes à débit élevé sont stockées dans des jeux de données dédiés qui ne sont pas activés pour les profils. Par conséquent, ces événements ne sont pas associés à des profils, même s’il existe un profil correspondant.
+
+  Les jeux de données utilisés sont les suivants :
+
+   * **Jeu De Données D’Événement De Retour De Message AJO - Hors Profil**
+   * **Jeu De Données D’Événement D’Expérience De Suivi D’E-Mail AJO - Hors Profil**
+
+* **Affectation de débit** - Le débit fourni sous le module complémentaire Débit élevé est exclusivement réservé aux campagnes à débit élevé. Il n’existe aucun partage du débit entre les campagnes déclenchées par l’API standard et à débit élevé.
 
 ## Choix entre des campagnes standard ou à débit élevé
 
