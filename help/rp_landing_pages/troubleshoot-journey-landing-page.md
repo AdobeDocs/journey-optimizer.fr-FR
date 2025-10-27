@@ -16,7 +16,7 @@ ht-degree: 26%
 
 La gestion efficace de vos parcours client nécessite une surveillance proactive, des rapports pertinents et des fonctionnalités de dépannage efficaces. Adobe Journey Optimizer fournit des outils complets pour suivre les performances du parcours, identifier les problèmes potentiels et les résoudre rapidement lorsqu’ils surviennent.
 
-Utilisez les [alertes système](../using/reports/alerts.md) pour recevoir des notifications sur les événements critiques, exploiter les [rapports de parcours ](../using/reports/journey-global-report-cja.md) pour analyser les mesures de performances et passer en revue les [événements d’étape de parcours ](../using/reports/journey-step-events-overview.md) pour comprendre les flux d’exécution détaillés. En cas de problème, consultez les [codes d’erreur](../using/building-journeys/error-codes-reference.md) pour obtenir des solutions rapides et suivez les conseils de dépannage ciblés pour les zones spécifiques, que vous rencontriez des échecs de parcours, des incohérences d’exécution ou des problèmes au niveau de l’action.
+Utilisez les [alertes système](../using/reports/alerts.md) pour recevoir des notifications sur les événements critiques, exploiter les [rapports de parcours &#x200B;](../using/reports/journey-global-report-cja.md) pour analyser les mesures de performances et passer en revue les [événements d’étape de parcours &#x200B;](../using/reports/journey-step-events-overview.md) pour comprendre les flux d’exécution détaillés. En cas de problème, consultez les [codes d’erreur](../using/building-journeys/error-codes-reference.md) pour obtenir des solutions rapides et suivez les conseils de dépannage ciblés pour les zones spécifiques, que vous rencontriez des échecs de parcours, des incohérences d’exécution ou des problèmes au niveau de l’action.
 
 Cette page rassemble les ressources essentielles pour vous aider à surveiller l’intégrité du parcours, à accéder aux informations essentielles sur les rapports et à résoudre les problèmes efficacement à toutes les étapes de vos parcours clients.
 
@@ -90,18 +90,18 @@ Validez et déboguez les actions personnalisées à l’aide de la fonctionnalit
 
 Accédez aux rapports clés pour surveiller les performances du parcours, analyser les mesures et identifier les problèmes :
 
-* [Rapports globaux de Parcours ](../using/reports/journey-global-report-cja.md) - Affichez des mesures et des analyses complètes des performances du parcours sur tous les canaux.
+* [Rapports globaux de Parcours &#x200B;](../using/reports/journey-global-report-cja.md) - Affichez des mesures et des analyses complètes des performances du parcours sur tous les canaux.
 
-* [Rapports dynamiques sur les Parcours ](../using/reports/journey-live-report.md) - Surveillez les données d’exécution des parcours en temps réel et suivez les interactions actives des clients.
+* [Rapports dynamiques sur les Parcours &#x200B;](../using/reports/journey-live-report.md) - Surveillez les données d’exécution des parcours en temps réel et suivez les interactions actives des clients.
 
-* [Événements d’étape de Parcours ](../using/reports/journey-step-events-overview.md) - Analysez les événements d’exécution de parcours détaillés étape par étape à des fins de dépannage et d’optimisation.
+* [Événements d’étape de Parcours &#x200B;](../using/reports/journey-step-events-overview.md) - Analysez les événements d’exécution de parcours détaillés étape par étape à des fins de dépannage et d’optimisation.
 
-* [Prise en main des rapports ](../using/reports/report-gs-cja.md) - Découvrez les fonctionnalités de création de rapports, les mesures et comment accéder aux informations sur le parcours.
+* [Prise en main des rapports &#x200B;](../using/reports/report-gs-cja.md) - Découvrez les fonctionnalités de création de rapports, les mesures et comment accéder aux informations sur le parcours.
 
 * [Surveillance de la délivrabilité](../using/reports/deliverability.md) - Suivez les taux de diffusion des messages et identifiez les problèmes de diffusion potentiels sur l’ensemble des canaux.
 
 ## Ressources supplémentaires
 
-* [FAQ sur les Parcours ](../using/building-journeys/journey-faq.md) - Réponses complètes aux questions courantes sur les parcours, couvrant les types de parcours, l’exécution, la configuration et les bonnes pratiques de dépannage.
+* [FAQ sur les Parcours &#x200B;](../using/building-journeys/journey-faq.md) - Réponses complètes aux questions courantes sur les parcours, couvrant les types de parcours, l’exécution, la configuration et les bonnes pratiques de dépannage.
 
 * [Mécanismes de sécurisation et limites](../using/start/guardrails.md) - Découvrez les mécanismes de sécurisation de Journey Optimizer, les limitations de produit, les considérations relatives aux performances et les navigateurs pris en charge pour une utilisation optimale.
