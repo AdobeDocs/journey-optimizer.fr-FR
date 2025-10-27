@@ -5,10 +5,10 @@ title: Fonctionnalités d’IA dans Adobe Journey Optimizer
 description: Fonctionnalités d’IA dans Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 9d0460d303a3701ad7ff5b7f2487ac6ccdd6facd
+source-git-commit: 2b377fea2f54c15d04fd0fc16633951c58598580
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer exploite la puissance de l’intelligence artificielle e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/sparkles.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Assistant IA pour la génération de contenu
 
@@ -30,7 +30,7 @@ Utilisez l’IA générative pour créer et personnaliser du contenu dans les e-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Optimisation de l’heure d’envoi
 
@@ -40,7 +40,7 @@ Utilisez l’IA pour prévoir le moment optimal pour envoyer des messages et opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Modèles d’IA pour la prise de décision
 
@@ -50,7 +50,7 @@ Créez des modèles d’optimisation automatique et d’optimisation personnalis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Connaissance des produits de l’assistant d’IA
 
@@ -60,7 +60,7 @@ Obtenez des réponses instantanées et des informations opérationnelles sur Ado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/experiment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Expérimentation de contenu avec l’IA
 
@@ -70,7 +70,7 @@ Générez plusieurs variations de contenu et exécutez des expériences pour ide
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Intégration de Customer AI
 
