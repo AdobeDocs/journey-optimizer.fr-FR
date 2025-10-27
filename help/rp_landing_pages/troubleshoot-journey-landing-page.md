@@ -84,6 +84,6 @@ Validez et déboguez les actions personnalisées à l’aide de la fonctionnalit
 
 ## Ressources supplémentaires
 
-* [FAQ sur les Parcours ](../using/building-journeys/journey-faq.md) - Réponses complètes aux questions courantes sur les parcours, couvrant les types de parcours, l’exécution, la configuration et les bonnes pratiques de dépannage.
+* [FAQ sur les Parcours &#x200B;](../using/building-journeys/journey-faq.md) - Réponses complètes aux questions courantes sur les parcours, couvrant les types de parcours, l’exécution, la configuration et les bonnes pratiques de dépannage.
 
 * [Mécanismes de sécurisation et limites](../using/start/guardrails.md) - Découvrez les mécanismes de sécurisation de Journey Optimizer, les limitations de produit, les considérations relatives aux performances et les navigateurs pris en charge pour une utilisation optimale.
