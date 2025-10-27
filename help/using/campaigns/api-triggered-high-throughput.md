@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '532'
 ht-degree: 5%
 
 ---
@@ -33,9 +33,11 @@ Cette page explique en quoi les campagnes à débit élevé diffèrent des campa
    * Toutes les personnalisations doivent être incluses dans la payload de l’API en tant que **données contextuelles**. [Découvrez comment personnaliser du contenu à l’aide de données contextuelles](../campaigns/api-triggered-campaign-action.md#contextual)
    * La personnalisation basée sur un profil n’est pas prise en charge. Si des variables de profil sont utilisées, des erreurs de validation se produisent.
 
+* **Configurations de canal personnalisées** - Les configurations de canal qui utilisent [la personnalisation basée sur les profils](../email/surface-personalization.md) ne peuvent pas être utilisées avec des campagnes à débit élevé. Seules les surfaces sans personnalisation de profil peuvent être utilisées.
+
 * **Point d’entrée de l’API** - Les campagnes à haut débit utilisent un point d’entrée différent des campagnes déclenchées par l’API standard. Pour plus d’informations, voir [Exécution d’une campagne déclenchée par une API](../campaigns/trigger-campaigns.md#trigger).
 
-* **Exclusivité de la campagne** : les campagnes à débit élevé n’utilisent pas les profils Adobe. Les messages sont diffusés qu’il existe un profil ou non.
+* **Exclusivité de la campagne** - Les campagnes à débit élevé n’utilisent pas les profils Adobe. Les messages sont diffusés qu’il existe un profil ou non.
 
   De plus, une campagne ne peut pas être utilisée à la fois pour les cas d’utilisation activés et non activés pour le profil. Si vous avez besoin des deux, créez deux campagnes distinctes et assurez-vous que le système d’appel décide laquelle déclencher en fonction du contexte.
 
