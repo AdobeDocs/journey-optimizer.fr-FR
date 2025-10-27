@@ -4,9 +4,7 @@ product: journey optimizer
 title: Cycle de publication de Adobe Journey Optimizer
 feature: Release Notes
 description: Présentation du cycle de publication de Adobe Journey Optimizer
-hide: true
-hidefromtoc: true
-source-git-commit: 920c9080768e1972b487b3a258281914a4b7d8de
+source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 1%

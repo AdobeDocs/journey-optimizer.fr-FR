@@ -5,16 +5,18 @@ title: Commencer
 description: Commencer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
+source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 78%
+source-wordcount: '352'
+ht-degree: 54%
 
 ---
 
 # Commencer{#section-overview}
 
-Adobe Journey Optimizer permet aux entreprises de créer des expériences client personnalisées en temps réel sur plusieurs canaux. Vous pouvez ainsi aller à la rencontre de votre clientèle là où elle se trouve, avec le bon message au bon moment. Que vous orchestriez des parcours clients complexes, tiriez parti de la prise de décision basée sur l’IA ou gériez du contenu et des données de manière transparente, cette plateforme vous fournit les outils nécessaires pour optimiser chaque interaction. Dans cette section, vous allez découvrir comment ses fonctionnalités clés, telles que l’orchestration omnicanal, les informations en temps réel et la prise de décision intelligente, s’intègrent pour offrir des résultats efficaces. Chaque rubrique vous aide à approfondir vos connaissances étape par étape, vous permettant ainsi de comprendre facilement comment Adobe Journey Optimizer transforme l’engagement client en un processus dynamique et basé sur les données.
+Adobe Journey Optimizer vous permet de proposer des expériences client personnalisées en temps réel sur chaque canal. Rencontrez vos clients là où ils se trouvent avec le bon message au bon moment.
+
+Cette section présente les principales fonctionnalités de la plateforme, de l’orchestration omnicanal à la prise de décision basée sur l’IA en passant par la gestion transparente du contenu et des données. Vous découvrirez comment ces puissants outils fonctionnent ensemble pour optimiser chaque interaction client. Chaque sujet s’appuie sur le dernier et vous guide pas à pas vers une maîtrise dynamique de l’engagement client, basée sur les données.
 
 ## Commencer avec Adobe Journey Optimizer
 
