@@ -5,10 +5,10 @@ title: Résolution des problèmes
 description: Résolution des problèmes
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 87%
 
 ---
 
@@ -60,8 +60,14 @@ Validez et déboguez les actions personnalisées à l’aide de la fonctionnalit
 [Valider les actions personnalisées](../using/action/troubleshoot-custom-action.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+
+Référence des codes d’erreur
+
+Comprenez les codes d’erreur courants dans Adobe Journey Optimizer et trouvez des solutions rapides aux problèmes liés aux parcours, aux campagnes et aux messages.
+
+[Afficher la référence des codes d’erreur](../using/building-journeys/error-codes-reference.md)
+:::
+
 ::::
-
-### Ressources supplémentaires
-
-Consultez également [cet article de blog de la communauté Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr) pour en savoir plus sur les codes d’erreur courants et sur la manière de les résoudre efficacement.
