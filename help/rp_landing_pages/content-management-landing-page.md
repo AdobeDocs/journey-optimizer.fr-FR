@@ -5,10 +5,10 @@ title: Gestion de contenu
 description: Gestion de contenu
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Les fonctionnalités de gestion de contenu d’Adobe Journey Optimizer permett
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
-Personnalisation dans Adobe Journey Optimizer
+Ajouter Personalization
 
 Découvrez comment implémenter et optimiser les fonctionnalités de personnalisation afin de créer des expériences client personnalisées.
 
@@ -32,7 +32,7 @@ Découvrez comment implémenter et optimiser les fonctionnalités de personnalis
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
-Pages de destination dans Adobe Journey Optimizer
+Créer Des Pages De Destination
 
 Découvrez des outils et des tutoriels pour créer, gérer et optimiser les pages de destination des campagnes marketing.
 
@@ -42,7 +42,7 @@ Découvrez des outils et des tutoriels pour créer, gérer et optimiser les page
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Modèles de contenu dans Adobe Journey Optimizer
+Modèles de contenu
 
 Rationalisez la création de contenu à l’aide de modèles réutilisables pour une gestion efficace des campagnes et des parcours.
 
@@ -62,7 +62,7 @@ Découvrez comment créer et gérer des fragments de contenu réutilisables à d
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
-Contenu dynamique dans Adobe Journey Optimizer
+Créer du contenu dynamique
 
 Utilisez des règles conditionnelles pour créer du contenu dynamique et personnalisé pour les e-mails, les SMS et les notifications push.
 
