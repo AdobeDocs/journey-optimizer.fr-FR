@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
-workflow-type: ht
-source-wordcount: '718'
-ht-degree: 100%
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 99%
 
 ---
 
@@ -118,3 +118,5 @@ Lorsqu’une erreur se produit dans une action ou une condition, le parcours d�
 Avant de tester et de publier votre parcours, vérifiez que toutes les activités sont correctement configurées. Vous ne pouvez pas effectuer de tests ou de publications si des erreurs sont détectées par le système.
 
 Découvrez [dans cette page](troubleshooting.md) comment résoudre les erreurs dans les activités et dans le parcours.
+
+Voir aussi **[Surveillance et dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.

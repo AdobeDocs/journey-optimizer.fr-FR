@@ -5,10 +5,10 @@ title: Commencer
 description: Commencer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 91%
 
 ---
 
@@ -88,5 +88,7 @@ Découvrez les contraintes et les pratiques recommandées pour une utilisation e
 - **[Terminologie clé d’Adobe Journey Optimizer](../using/start/terminology-md-redpen.md)** : découvrez les termes et concepts essentiels pour utiliser Adobe Journey Optimizer en toute confiance et mettre en œuvre efficacement vos stratégies marketing.
 - **[Fonctionnalités d’accessibilité dans Adobe Journey Optimizer](../using/start/accessibility.md)** : découvrez les fonctionnalités d’accessibilité et la conformité aux normes WCAG pour garantir l’inclusivité de vos utilisateurs et utilisatrices.
 - **[Prise en main de l’Assistant IA dans Adobe Journey Optimizer](../using/start/ai-assistant.md)** : tirez parti de l’Assistant IA pour parcourir les concepts et obtenir des informations opérationnelles dans Adobe Journey Optimizer.
-- **[Dépannage](../using/start/troubleshooting.md)** : chaque section de dépannage fournit des réponses aux questions les plus fréquemment posées ainsi que des solutions aux problèmes.
+- **[Articles de dépannage](../using/start/troubleshooting.md)** - Chaque section de dépannage fournit des réponses aux questions les plus fréquemment posées ainsi que des solutions aux problèmes.
+- **[Surveillance et dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - Découvrez des outils complets pour suivre les performances du parcours, identifier les problèmes potentiels et les résoudre rapidement lorsqu’ils surviennent.
+
 

@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2999'
 ht-degree: 97%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 97%
    + [Utiliser l’Assistant IA](using/start/ai-assistant.md)
    + [Playbooks de cas d’utilisation](using/start/playbooks.md)
    + [Mécanismes de sécurisation et limitations](using/start/guardrails.md)
-   + [Résolution des problèmes](using/start/troubleshooting.md)
 + Parcours {#orchestrate-journeys}
    + [Parcours](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Commencer les parcours](using/building-journeys/journey.md)
@@ -304,6 +303,7 @@ ht-degree: 97%
    + [Surveillance et dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Alertes système](using/reports/alerts.md)
    + [Référence des codes d’erreur](using/building-journeys/error-codes-reference.md)
+   + [Articles de dépannage](using/start/troubleshooting.md)
    + Dépannage de Parcours {#troubleshoot-journey}
       + [Résoudre les erreurs de parcours](using/building-journeys/troubleshooting.md)
       + [Résoudre les problèmes d’exécution d’un parcours](using/building-journeys/troubleshooting-execution.md)
@@ -975,7 +975,7 @@ ht-degree: 97%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
