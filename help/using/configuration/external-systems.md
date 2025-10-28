@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 97%
+source-wordcount: '1654'
+ht-degree: 93%
 
 ---
 
@@ -106,21 +106,31 @@ Prenons un exemple pour une temporisation de 5 secondes.
    * Si l&#39;une des trois reprises réussit avant la fin des 5 secondes, l&#39;appel est effectué et aucune erreur ne se produit.
    * Si la fin du délai de temporisation est atteinte lors des nouvelles reprises, l&#39;appel est annulé et compté comme une erreur de temporisation dans les rapports.
 
-## Questions fréquentes{#faq}
+## Questions fréquentes {#faq}
 
-**Comment configurer une règle de plafonnement ou de limitation ? Existe-t-il une règle par défaut ?**
+Vous trouverez ci-dessous les questions fréquentes sur l’intégration de Journey Optimizer à des systèmes externes.
+
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+
++++ Comment configurer une règle de plafonnement ou de limitation ? Existe-t-il une règle par défaut ?
 
 Pour créer des règles de limitation ou de ralentissement, reportez-vous à [cette section](../configuration/external-systems.md#capping). Par défaut, il n’y a aucune règle de ralentissement mais une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement.
 
-**Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d&#39;attente minimale entre deux reprises ?**
++++
+
++++ Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d&#39;attente minimale entre deux reprises ?
 
 Pour un appel donné, trois reprises au maximum peuvent être effectuées jusqu&#39;à la fin du délai de temporisation. Le nombre de reprises et la durée entre chaque reprise ne peuvent pas être modifiés. Reportez-vous à [cette section](../configuration/external-systems.md#timeout).
 
-**Où puis-je configurer la temporisation ? Existe-t-il une valeur maximale ?**
++++
+
++++ Où puis-je configurer la temporisation ? Existe-t-il une valeur maximale ?
 
 Dans chaque parcours, vous pouvez définir un délai de temporisation. Le délai de temporisation est configuré dans les propriétés d&#39;un parcours. Le délai de temporisation doit être compris entre 1 et 30 secondes. Consultez [cette section](../configuration/external-systems.md#timeout) et [cette page](../building-journeys/journey-properties.md#timeout_and_error).
 
-**Quel est le nombre maximal de connexions ouvertes par Journey Optimizer lorsque des actions personnalisées sont utilisées ?**
++++
+
++++ Quel est le nombre maximal de connexions ouvertes par Journey Optimizer lorsque des actions personnalisées sont utilisées ?
 
 Lorsque le proxy IP est activé et qu’une configuration de limitation est définie sur le point d’entrée ciblé, le nombre de connexions est basé sur le taux (il s’agit d’estimations, et non de nombres garantis) :
 
@@ -130,3 +140,5 @@ Lorsque le proxy IP est activé et qu’une configuration de limitation est dé
 * entre 4 000 et 5 000 : 125 connexions
 
 Si aucune configuration de limitation n’est définie sur un point d’entrée, le moteur de Journey Optimizer est conçu pour être augmenté et peut atteindre un grand nombre de connexions (plus de 2 000). Pour obtenir un nombre limité de connexions, les clientes et clients doivent utiliser une configuration de limitation.
+
++++
