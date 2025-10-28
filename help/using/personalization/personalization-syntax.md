@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,8 @@ où :
 * Les mots **true**, **false**, **null** et **undefined** ne sont autorisés que dans la première partie d&#39;une expression de chemin.
 
 * Dans Handlebars, les valeurs renvoyées par {{expression}} se caractérisent par un **échappement HTML.** Si l’expression contient `&`, la sortie avec échappement HTML renvoyée est générée sous la forme `&amp;`. Si vous ne souhaitez pas que Handlebars effectue l’échappement d’une valeur, utilisez trois accolades au lieu de deux.
+
+  Supposons que la valeur du champ `profile.person.name` soit « Mark &amp; Mary ». La `{{profile.person.name}}` de syntaxe affiche `Mark &amp; Mary`, tandis que `{{{profile.person.name}}}` affiche `Mark & Mary`.
 
 * En ce qui concerne les arguments de fonctions littérales, l’analyseur de langage de création de modèles ne prend pas en charge la barre oblique inverse sans échappement (`\`). Ce caractère doit avoir fait l’objet d’une séquence d’échappement avec une barre oblique inverse supplémentaire (`\`). Exemple :
 
