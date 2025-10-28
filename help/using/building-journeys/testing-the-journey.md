@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 100%
+source-wordcount: '1800'
+ht-degree: 83%
 
 ---
 
@@ -31,6 +31,37 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 >[!NOTE]
 >
 >Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment rechercher des erreurs avant d’effectuer des tests dans [cette section](../building-journeys/troubleshooting.md).
+
+## Remarques importantes {#important_notes}
+
+### Limites générales
+
+* **Profils de test uniquement** - Seuls les individus indiqués comme « profils de test » dans le service de profil client en temps réel peuvent entrer un parcours en mode test. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md).
+* **Exigence d’espace de noms** - Le mode test n’est disponible que pour les brouillons de parcours qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
+* **Limite de profil** - Un maximum de 100 profils de test peuvent rejoindre un parcours au cours d’une seule session de test.
+* **Déclenchement d’événement** - Les événements ne peuvent être déclenchés qu’à partir de l’interface. Les événements ne peuvent pas être déclenchés à partir de systèmes externes à l’aide d’une API.
+* **Audiences de chargement personnalisées** - Le mode test de Parcours ne prend pas en charge l’enrichissement d’attributs [audience de chargement personnalisée](../audience/custom-upload.md).
+
+### Comportement pendant et après le test
+
+* **Désactivation du mode test** - Lorsque vous désactivez le mode test, tous les profils actuellement ou précédemment entrés dans le parcours sont supprimés et le compte rendu des performances est effacé.
+* **Flexibilité de réactivation** - Vous pouvez activer et désactiver le mode test autant de fois que nécessaire.
+* **Désactivation automatique** - Les Parcours qui restent inactifs en mode test pendant **plus d’une semaine** reviennent automatiquement au statut Brouillon pour optimiser les performances et empêcher l’utilisation des ressources obsolètes.
+* **Modification et publication** - Lorsque le mode test est actif, vous ne pouvez pas modifier le parcours. Vous pouvez toutefois publier directement le parcours. Il n’est pas nécessaire de désactiver le mode test auparavant.
+
+### Exécution
+
+* **Comportement de partage** - Lorsque le parcours atteint un partage, la branche supérieure est toujours sélectionnée. Réordonnez les branches si vous souhaitez tester un autre chemin.
+* **Planning des événements** - Si le parcours comprend * plusieurs événements, déclenchez chaque événement dans des séquences. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
+* **Fenêtre de date active** - Assurez-vous que la fenêtre de choix [dates/heure de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lors du lancement du mode test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement.
+* **Événements de réaction** - Pour les événements de réaction avec une temporisation, le temps d’attente minimum et par défaut est de 40 secondes.
+* **Jeux de données de test** - Les événements déclenchés en mode test sont stockés dans des jeux de données dédiés libellés comme suit : `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
+
+## Activation du mode test
 
 Pour utiliser le mode test, procédez comme suit :
 
@@ -58,26 +89,7 @@ Pour utiliser le mode test, procédez comme suit :
 
    ![](assets/journeyuctest2.png)
 
-1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Une fois les tests terminés, vous pouvez publier votre parcours. Voir [cette page](../building-journeys/publishing-the-journey.md).
-
-## Remarques importantes {#important_notes}
-
-* En mode test, vous pouvez uniquement déclencher des événements dans l’interface. Les événements ne peuvent pas être déclenchés à partir de systèmes externes à l’aide d’une API.
-* Seules les personnes identifiées comme « profils de test » dans le service de profil client en temps réel sont autorisées à rejoindre le parcours testé. Reportez-vous à cette [section](../audience/creating-test-profiles.md).
-* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
-* Le nombre maximal de profils de test pouvant entrer dans un parcours au cours d’une session de test est de 100.
-* Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y sont entrées dans le passé ou qui s’y trouvent actuellement. Les rapports son également effacés.
-* Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
-* Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver le mode test avant.
-* Lors qu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin.
-* Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut **Brouillon**.
-* Les événements déclenchés par le mode test sont stockés dans des jeux de données dédiés. Ces jeux de données sont libellés comme suit : `JOtestmode - <schema of your event>`
-* Lors du test de parcours comprenant plusieurs événements, vous devez déclencher chaque événement dans l’ordre. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
-* Assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement.
-
-<!--
-* Fields from related entities are hidden from the test mode.
--->
+1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Une fois les tests terminés, vous pouvez publier votre parcours. Consultez [cette page](../building-journeys/publishing-the-journey.md).
 
 ## Déclencher vos événements {#firing_events}
 
