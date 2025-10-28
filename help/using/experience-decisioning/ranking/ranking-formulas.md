@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
+source-git-commit: af4a5965c9268baf88c5306f1aa20d305ee7e501
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 100%
+source-wordcount: '1457'
+ht-degree: 92%
 
 ---
 
@@ -221,6 +221,22 @@ Ainsi, pour un profil tel que :
                     ]}
 }
 ```
+
++++
+
++++Booster les offres en fonction du code postal et du revenu annuel d’un profil
+
+Dans cet exemple, le système tente toujours d’afficher en premier une offre ZIP correspondante, puis retourne à une offre générale si aucune correspondance n’est trouvée, évitant d’afficher les offres destinées à d’autres codes postaux.
+
+```pql
+if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
+```
+
+Fonction de la formule :
+
+* Si l’offre a le même code postal que l’utilisateur ou l’utilisatrice, attribuez-lui un score très élevé afin qu’elle soit sélectionnée en premier.
+* Si l’offre ne comporte aucun code postal (il s’agit d’une offre générale), donnez-lui un score normal en fonction du revenu de l’utilisateur.
+* Si le code postal de l’offre est différent de celui de l’utilisateur, donnez-lui un score très faible afin qu’elle ne soit pas sélectionnée.
 
 +++
 
