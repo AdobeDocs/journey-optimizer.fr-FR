@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '711'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,9 @@ Le tableau ci-dessous répertorie tous les jeux de données affectés et leur du
 
 ## Questions fréquentes {#faq}
 
-Voici une liste de réponses aux questions fréquentes sur la durée de vie des jeux de données.
+Vous trouverez ci-dessous les questions fréquentes sur la durée de vie (TTL) des jeux de données.
+
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
 +++Cette modification s’appliquera-t-elle uniquement aux sandbox de production ou s’appliquera-t-elle également aux sandbox de développement ?
 

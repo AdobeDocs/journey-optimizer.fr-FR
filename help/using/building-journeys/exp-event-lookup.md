@@ -5,10 +5,10 @@ title: Recherche d’événements d’expérience dans les parcours
 description: Découvrez comment utiliser la recherche d’événements d’expérience dans les parcours.
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 98%
 
 ---
 
@@ -129,7 +129,9 @@ En savoir plus :
 
 ## Questions fréquentes {#faq-ee}
 
-L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est plus prise en charge. Les éléments affectés sont répertoriés dans les questions fréquentes ci-dessous :
+Vous trouverez ci-dessous les questions fréquentes sur la recherche d’événement d’expérience dans les parcours.
+
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
 +++Quelles fonctionnalités spécifiques sont affectées ? 
 

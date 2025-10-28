@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 97%
+source-wordcount: '1241'
+ht-degree: 96%
 
 ---
 
@@ -206,16 +206,24 @@ Dans la section Edge Delivery de la trace Assurance, dans les détails d’exéc
 
 ![](assets/external-data-troubleshoot.png "width=50%")
 
-## Questions fréquentes
+## Questions fréquentes {#faq-external-data}
 
-* Comment transmettre un attribut contextuel de la requête en tant que paramètre à une recherche de données externe ?
+Vous trouverez ci-dessous les questions fréquentes sur l’assistant de recherche de données externes.
 
-  Utilisez le menu Attributs contextuels > Flux de données > Événement pour parcourir le schéma d’événement d’expérience que vous utilisez et insérer l’attribut approprié en tant que valeur de paramètre comme suit :
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
-  ```
-  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
-  ```
++++ Comment transmettre un attribut contextuel de la requête en tant que paramètre à une recherche de données externe ?
 
-* Est-ce que [!DNL Journey Optimizer] met en cache les réponses des points d’entrée externes ?
+Utilisez le menu Attributs contextuels > Flux de données > Événement pour parcourir le schéma d’événement d’expérience que vous utilisez et insérer l’attribut approprié en tant que valeur de paramètre comme suit :
 
-  Actuellement, non. Cette fonctionnalité sera prise en charge à l’avenir.
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+```
+
++++
+
++++ Est-ce que [!DNL Journey Optimizer] met en cache les réponses des points d’entrée externes ?
+
+Actuellement, non. Cette fonctionnalité sera prise en charge à l’avenir.
+
++++

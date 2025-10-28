@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ressources, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,11 @@ Pour importer des fichiers dans **[!DNL Assets Essentials]** ou **[!DNL Assets a
     -->
 
 
-## Questions fréquentes sur [!DNL Adobe Experience Manager Assets] {#faq-assets}
+## Questions fréquentes {#faq-assets}
+
+Vous trouverez ci-dessous les questions fréquentes sur Adobe Experience Manager Assets.
+
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
 +++ Puis-je continuer à utiliser le référentiel regroupé Assets Essentials dans Journey Optimizer ?
 

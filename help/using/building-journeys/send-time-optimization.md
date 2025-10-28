@@ -10,10 +10,10 @@ level: Intermediate
 keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 100%
+source-wordcount: '1520'
+ht-degree: 99%
 
 ---
 
@@ -98,6 +98,10 @@ Les heures d’envoi d’exploration sont sélectionnées de manière aléatoire
 
 
 ## Questions fréquentes {#faq-send-time}
+
+Vous trouverez ci-dessous les questions fréquentes sur l’optimisation de l’heure d’envoi.
+
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
 +++Combien de temps dois-je patienter avant d’utiliser l’optimisation de l’heure d’envoi ?
 

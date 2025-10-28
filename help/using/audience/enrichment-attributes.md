@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 96%
+source-wordcount: '550'
+ht-degree: 95%
 
 ---
 
@@ -56,10 +56,11 @@ Voici les actions que vous pouvez effectuer à l’aide des attributs d’enrich
 >+++
 
 
+## Questions fréquentes {#faq-enrichment}
 
+Vous trouverez ci-dessous les questions fréquentes sur les attributs d’enrichissement.
 
-
-
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
 +++ Que sont les attributs d’enrichissement ?
 
