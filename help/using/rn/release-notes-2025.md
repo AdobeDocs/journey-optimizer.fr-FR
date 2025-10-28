@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
+source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7890'
 ht-degree: 99%
 
 ---
@@ -222,7 +222,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <td>
 <p>Vous pouvez maintenant suspendre et reprendre les parcours. Cette fonctionnalité offre aux concepteurs et conceptrices du parcours un meilleur contrôle et une plus grande flexibilité en leur permettant de suspendre temporairement les parcours actifs sans perturber l’expérience client. Lorsque le parcours est suspendu, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.</p>
 <p>Vous pouvez suspendre et reprendre un seul parcours ou un groupe de parcours par le biais d’opérations en bloc.</p>
-<p>En outre, vous pouvez appliquer des filtres globaux aux parcours suspendus afin d’exclure les profils en fonction de leurs attributs.</p>
+<p>En outre, vous pouvez appliquer des critères de sortie basés sur les attributs de profil (précédemment appelés « filtre global ») aux parcours en pause afin d’exclure les profils en fonction de leurs attributs.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-pause.md">documentation détaillée</a>.</p>
