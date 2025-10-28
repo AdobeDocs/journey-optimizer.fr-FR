@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 5b7847957cc0fa176a32c7e0b01d5f41fd424610
-workflow-type: ht
+source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
+workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Le jeu de données doit être activé pour la recherche dans Adobe Experience 
 
 * Maximum de 10 activités de recherche de jeu de données par parcours.
 * 20 champs sélectionnés maximum.
-* Maximum de 500 clés dans le tableau des clés de recherche.
+* Maximum de 50 clés dans le tableau des clés de recherche.
 * La taille des données enrichies est limitée à 10 Ko.
 
 ### Considérations supplémentaires relatives aux performances
