@@ -36,7 +36,7 @@ Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UI
 * Alertes spécifiques aux parcours :
 
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
-   * l’alerte [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate) (remplace l’alerte précédente Action personnalisée en cas d’échec du Parcours)
+   * l’alerte [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate) (remplace l’alerte précédente Action personnalisée en cas d’échec du Parcours)
    * l’alerte [Taux de rejet du profil dépassé](#alert-discard-rate)
    * l’alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
 
@@ -133,14 +133,14 @@ Cette alerte vous avertit si le taux d’erreurs d’action personnalisée par r
 
 >[!NOTE]
 >
->Cette alerte remplace l’alerte précédente Échec de l’action personnalisée de Parcours ****.
+>Cette alerte remplace l’alerte précédente Échec de l’action personnalisée de Parcours **&#x200B;**.
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
 Les erreurs d’actions personnalisées peuvent se produire pour diverses raisons. Pour résoudre ces erreurs, vous pouvez :
 
 * Vérifiez votre action personnalisée à l’aide du [mode test](../building-journeys/testing-the-journey.md) sur un autre parcours.
-* Vérifiez votre rapport de parcours [](../reports/journey-live-report.md) pour voir les raisons de l&#39;erreur sur l&#39;action.
+* Vérifiez votre rapport de parcours [&#128279;](../reports/journey-live-report.md) pour voir les raisons de l&#39;erreur sur l&#39;action.
 * Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur « failureReason ».
 * Vérifiez que l’action personnalisée est configurée correctement et que l’authentification est toujours valide. Effectuez un contrôle manuel avec Postman, par exemple.
 * Vérifiez que le point d’entrée est accessible et que l’action personnalisée peut y accéder via le vérificateur de connectivité de l’action personnalisée.
@@ -242,7 +242,7 @@ Pour les alertes de Parcours, utilisez le bouton **[!UICONTROL Autres actions]**
 
 ### Définir un seuil personnalisé {#custom-threshold}
 
-Vous pouvez définir des seuils pour les [alertes de Parcours ](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
+Vous pouvez définir des seuils pour les [alertes de Parcours &#x200B;](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
 
 Pour modifier le seuil :
 
