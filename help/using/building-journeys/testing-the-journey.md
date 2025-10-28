@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
+source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 83%
+source-wordcount: '1842'
+ht-degree: 81%
 
 ---
 
@@ -68,6 +68,10 @@ Pour utiliser le mode test, procédez comme suit :
 1. Pour activer le mode test, cliquez sur le bouton **[!UICONTROL Mode test]** dans le coin supérieur droit de l’écran.
 
    ![](assets/journeytest1.png)
+
+   >[!NOTE]
+   >
+   >Après l’activation du mode Test, attendez environ 1 à 2 minutes avant de déclencher une entrée de profil. Cela permet au package de décision de se propager entièrement à travers le système de prise de décision. Le déclenchement d’une entrée de profil immédiatement après l’activation du mode Test peut entraîner l’échec du parcours.
 
 1. Si le parcours comporte au moins une activité **Attente**, définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
 
