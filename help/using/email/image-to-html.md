@@ -1,23 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Convertir des images en modèles HTML avec l’accélérateur de modèles
-description: Découvrez comment utiliser l’accélérateur de modèles optimisé par l’IA pour convertir des conceptions d’image en modèles d’e-mail HTML modifiables
+title: Convertir des images en modèles HTML avec le convertisseur image en HTML
+description: Découvrez comment utiliser le convertisseur Image vers HTML optimisé par l’IA pour convertir des conceptions d’image en modèles d’e-mail HTML modifiables
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner
-keywords: e-mail, modèle, image, HTML, IA, conception, accélérateur
+badge: label="Disponibilité limitée" type="Informative"
+keywords: e-mail, modèle, image, HTML, IA, conception, convertisseur
 hide: true
 hidefromtoc: true
-source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1564'
 ht-degree: 4%
 
 ---
 
-# Convertir des images en modèles HTML avec l’accélérateur de modèles {#image-to-html}
+# Convertir des images en modèles HTML avec le convertisseur image en HTML {#image-to-html}
 
 >[!AVAILABILITY]
 >
@@ -25,9 +26,9 @@ ht-degree: 4%
 
 ## Vue d’ensemble {#overview}
 
-L’accélérateur de modèles est une fonctionnalité innovante optimisée par l’IA disponible dans le menu **Modèles de contenu** qui accélère considérablement la création d’e-mails en convertissant des conceptions d’image statique en modèles de contenu d’e-mail HTML entièrement personnalisables. Cet outil permet aux marketeurs de transformer les conceptions visuelles des concepteurs graphiques ou des outils de conception en modèles d’e-mail réactifs et modifiables qui peuvent être enregistrés dans la bibliothèque de modèles de contenu, puis réutilisés dans plusieurs parcours et campagnes.
+Le convertisseur image en HTML est une fonctionnalité innovante optimisée par l’IA disponible dans le menu **Modèles de contenu** qui accélère considérablement la création d’e-mails en convertissant des conceptions d’image statique en modèles de contenu d’e-mail HTML entièrement personnalisables. Cet outil permet aux marketeurs de transformer les conceptions visuelles des concepteurs graphiques ou des outils de conception en modèles d’e-mail réactifs et modifiables qui peuvent être enregistrés dans la bibliothèque de modèles de contenu, puis réutilisés dans plusieurs parcours et campagnes.
 
-Grâce à la technologie d’IA générative, le convertisseur d’images vers HTML de Template Accelerator analyse la disposition, la typographie, les couleurs et les éléments visuels de votre image et génère un code HTML propre et structuré qui conserve la fidélité de la conception tout en garantissant une modifiabilité et une compatibilité complètes avec le Designer Email.
+Grâce à la technologie d’IA générative, le convertisseur image en HTML analyse la disposition, la typographie, les couleurs et les éléments visuels de votre image et génère un code HTML propre et structuré qui conserve la fidélité de la conception tout en garantissant une modifiabilité et une compatibilité complètes avec le Designer Email.
 
 **Principaux avantages :**
 
@@ -39,7 +40,7 @@ Grâce à la technologie d’IA générative, le convertisseur d’images vers H
 
 ## Conditions préalables {#prerequisites}
 
-Avant d’utiliser le convertisseur Modèle - image vers HTML , vérifiez que vous disposez des éléments suivants :
+Avant d’utiliser le convertisseur image vers HTML, vérifiez que vous disposez des éléments suivants :
 
 * Accès à Adobe Journey Optimizer avec le Designer de messagerie
 * Fichier image au format JPEG ou PNG contenant votre conception d’e-mail
@@ -73,7 +74,7 @@ Pour convertir une conception d’image en modèle d’e-mail HTML entièrement 
 
    >[!NOTE]
    >
-   >Le processus de génération peut prendre jusqu’à 5 minutes selon la complexité et la taille de votre conception d’image. Soyez patient pendant que l&#39;IA analyse et convertit votre image.
+   >Le processus de génération peut prendre jusqu’à 5 minutes selon la complexité et la taille de votre conception d’image. Le traitement de l’IA se produit en arrière-plan. Vous pouvez donc quitter cet écran et travailler sur d’autres tâches pendant que la conversion est en cours. Vous n&#39;avez pas besoin de garder l&#39;écran ouvert.
 
 1. Une fois la conversion terminée, votre modèle de contenu est automatiquement enregistré en tant que brouillon. Vous pouvez ensuite vérifier et modifier le modèle HTML généré dans la zone de travail du Designer d’e-mail.
 
@@ -150,7 +151,7 @@ Gardez à l’esprit les restrictions suivantes lors de l’utilisation du conve
 
 * **Dispositions complexes** : les conceptions très complexes avec des superpositions complexes, des formes inhabituelles ou des éléments non standard peuvent ne pas se convertir parfaitement. Des conceptions plus simples donnent généralement de meilleurs résultats.
 
-* **Temps de traitement** : le processus de conversion peut prendre jusqu’à 5 minutes selon la complexité et la taille de votre image. Le modèle est automatiquement enregistré en tant que brouillon une fois la conversion terminée.
+* **Temps de traitement** : le processus de conversion peut prendre jusqu’à 5 minutes selon la complexité et la taille de votre image. Le traitement par l’IA se produit en arrière-plan, ce qui vous permet de travailler sur d’autres tâches sans garder l’écran ouvert. Le modèle est automatiquement enregistré en tant que brouillon une fois la conversion terminée.
 
 * **Disponibilité limitée** : en tant que fonctionnalité à disponibilité limitée, le convertisseur image vers HTML est continuellement amélioré. Les fonctionnalités et la précision peuvent varier, et vos commentaires permettent d’améliorer la fonctionnalité.
 
@@ -174,7 +175,7 @@ Le convertisseur image vers HTML prend en charge les formats d’image JPEG (.jp
 
 +++Combien de temps dure le processus de conversion ?
 
-La conversion peut prendre jusqu’à 5 minutes, selon la complexité et la taille de votre conception d’image. Une fois la conversion terminée, votre fichier est automatiquement enregistré en tant que brouillon pour que vous puissiez le réviser et le modifier.
+La conversion peut prendre jusqu’à 5 minutes, selon la complexité et la taille de votre conception d’image. Le traitement de l’IA s’effectue en arrière-plan, vous pouvez donc quitter l’application et travailler sur d’autres tâches ; il n’est pas nécessaire de garder l’écran ouvert. Une fois la conversion terminée, votre fichier est automatiquement enregistré en tant que brouillon pour que vous puissiez le réviser et le modifier.
 
 +++
 
