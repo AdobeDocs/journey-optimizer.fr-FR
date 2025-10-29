@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 93%
+source-wordcount: '658'
+ht-degree: 89%
 
 ---
 
@@ -65,10 +65,12 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
      >Dans une campagne, vous pouvez également sélectionner le bouton **[!UICONTROL Éditeur de code]** à partir de l’écran **[!UICONTROL Modifier le contenu]** écran. [En savoir plus](create-email.md#define-email-content)
 
    * **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer un contenu d’e-mail dans [cette section](existing-content.md).
+<!-- DOCAC-13676
+    * **Convert image designs to HTML templates** using the AI-powered Template Accelerator feature. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
-   * **Sélectionnez un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’e-mail dans [cette section](../email/use-email-templates.md).
-
-   ![](assets/email_designer_create_options.png)
+    * **Sélectionnez un contenu existant** dans une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser les modèles d’e-mail dans [cette section](../email/use-email-templates.md).
+    
+    ![](assets/email_designer_create_options.png)
 
 1. Une fois que le contenu de votre e-mail a été défini et personnalisé, vous pouvez exporter votre contenu pour le valider ou pour l’utiliser ultérieurement. Cliquez sur **[!UICONTROL Exporter le HTML]** pour enregistrer sur votre ordinateur un fichier zip qui contiendra votre HTML et vos ressources.
 
@@ -78,8 +80,8 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 Découvrez comment créer du contenu d’e-mail avec l’éditeur de messages.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416232?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Découvrez comment configurer des expériences de contenu pour un test AB et explorer le contenu d’e-mail qui répond le mieux aux objectifs de votre entreprise.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447333?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
