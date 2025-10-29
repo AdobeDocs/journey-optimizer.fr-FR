@@ -136,16 +136,16 @@ Le tableau ci-dessous indique la disponibilité de chaque canal sur différents 
 | Canal              | Parcours | Campagnes d’action (marketing) | Campagnes d’action (transactionnelles) | Campagnes déclenchées par API (marketing) | Campagnes déclenchées par API (transactionnelles) | Campagnes orchestrées |
 =======
 | Canal              | Parcours | Campagnes d’action (marketing) | Campagnes d’action (transactionnelles) | Campagnes déclenchées par API | Campagnes orchestrées |
->>>>>>>>>>Modifications cachées
->>>>>>>>>>|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
->>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| Notification push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| In-app               | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Courrier          | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Exp. basée sur le code      | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Cartes de contenu        | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Ligne                 | ✅ | ✅ | — | — | — | — |
+&#x200B;>>>>>>>>>>Modifications cachées
+>&#x200B;>>>>>>>>>|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+>&#x200B;>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| Notification push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| In-app               | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Courrier          | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Exp. basée sur le code      | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Cartes de contenu        | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Ligne                 | ✅ | ✅ | — | — | — | — |
 > 
