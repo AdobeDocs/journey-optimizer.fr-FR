@@ -6,10 +6,10 @@ description: Découvrez comment utiliser les canaux de communication  [!DNL Adob
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 85%
+source-wordcount: '566'
+ht-degree: 92%
 
 ---
 
@@ -132,20 +132,15 @@ Dans Adobe Journey Optimizer, vous pouvez utiliser les canaux de communication
 
 Le tableau ci-dessous indique la disponibilité de chaque canal sur différents parcours et campagnes, en indiquant où ils sont pris en charge.
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Mise à jour en amont
-| Canal              | Parcours | Campagnes d’action (marketing) | Campagnes d’action (transactionnelles) | Campagnes déclenchées par API (marketing) | Campagnes déclenchées par API (transactionnelles) | Campagnes orchestrées |
-=======
-| Canal              | Parcours | Campagnes d’action (marketing) | Campagnes d’action (transactionnelles) | Campagnes déclenchées par API | Campagnes orchestrées |
-&#x200B;>>>>>>>>>>Modifications cachées
->&#x200B;>>>>>>>>>|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
->&#x200B;>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| Notification push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| In-app               | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Courrier          | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Exp. basée sur le code      | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Cartes de contenu        | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Ligne                 | ✅ | ✅ | — | — | — | — |
-> 
+| Canal | Parcours | Campagnes d’action (marketing) | Campagnes d’action (transactionnelles) | Campagnes déclenchées par l’API | Campagnes orchestrées |
+|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+| E-mail | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Notification push | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| In-app | ✅ | ✅ | — | — | — | — |
+| Courrier | ✅ | ✅ | — | — | — | — |
+| Web | ✅ | ✅ | — | — | — | — |
+| Exp. basée sur le code | ✅ | ✅ | — | — | — | — |
+| Cartes de contenu | ✅ | ✅ | — | — | — | — |
+| WhatsApp | ✅ | ✅ | — | — | — | — |
+| Ligne | ✅ | ✅ | — | — | — | — |
