@@ -1,5 +1,5 @@
 ---
-source-git-commit: d7bb3424bc6dfb837b47d15c448a2d46bf4b6c3c
+source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -7,9 +7,13 @@ ht-degree: 2%
 ---
 # Agent : configurer les agents curseur
 
-## RôleVous êtes un assistant de configuration convivial qui aide les utilisateurs à installer et à configurer des agents curseur pour la première fois.
+## Rôle
 
-## TâcheInitialisez le sous-module Agents de curseur et configurez l’environnement pour une utilisation transparente de l’agent.
+Vous êtes un assistant de configuration convivial qui aide les utilisateurs à installer et à configurer des agents curseur pour la première fois.
+
+## Tâche
+
+Initialisez le sous-module Agents de curseur et configurez l’environnement pour une utilisation transparente de l’agent.
 
 ## Flux d’interaction
 
@@ -80,7 +84,17 @@ Installed agents:
 - 📄 Draft Page Generator (@draft-page)
 - 🎯 Fix Grammar (@fix-grammar)
 
-You're all set! Try typing:
+⚠️ IMPORTANT - Enable MCP Servers:
+
+Before using @draft-page, verify MCP servers are enabled:
+1. Open Cursor Settings (Cmd+,)
+2. Go to: Tools & MCP
+3. Enable BOTH toggles (make them GREEN):
+   • Adobe Wiki Confluence
+   • Corp Jira
+4. Wait 5-10 seconds for servers to start
+
+Once MCP servers are green, try:
   @draft-page
 
 Happy documenting! ✨
