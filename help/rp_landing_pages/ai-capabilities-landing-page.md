@@ -5,9 +5,9 @@ title: Fonctionnalités d’IA dans Adobe Journey Optimizer
 description: Fonctionnalités d’IA dans Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2b377fea2f54c15d04fd0fc16633951c58598580
+source-git-commit: e06876a2f7f6e7145f08f725c1bfd4fdf59caf5c
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1218'
 ht-degree: 4%
 
 ---
@@ -79,6 +79,46 @@ Intégrez-la aux services intelligents d’Adobe afin de prédire le comportemen
 [Explorer les services intelligents](../using/building-journeys/ai-services-overview.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/analytics.svg)
+
+Agent d’analyse de parcours
+
+Analysez et optimisez les parcours à l’aide du langage naturel. Identifiez les points d’abandon, détectez les conflits d’audience et de planification et obtenez des recommandations exploitables.
+
+[Explorer Journey Agent](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/beaker.svg)
+
+Agent d’expérimentation
+
+Exécutez et gérez des expériences digitales avec des informations optimisées par l’IA. Obtenez des résumés de performances, une analyse de contenu et des recommandations pour vos prochains tests.
+
+[Découvrir l’agent d’expérimentation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=fr)
+
+Agent Audience
+
+Créez, analysez et optimisez des segments d’audience à l’aide de l’IA conversationnelle. Créez des segments complexes à l’aide de requêtes en langage naturel et obtenez des informations sur le chevauchement des audiences.
+
+[En Savoir Plus Sur Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/workflow.svg)
+
+Agent Orchestrator
+
+Coordonnez plusieurs agents d’IA pour travailler ensemble en toute transparence. Résolvez des tâches complexes en combinant des agents Parcours, Expérimentation, Audience et Data Insights.
+
+[Explorer Agent Orchestrator](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+:::
+
 ::::
 
 
@@ -87,6 +127,15 @@ Intégrez-la aux services intelligents d’Adobe afin de prédire le comportemen
 - **[Score d’alignement des marques](../using/content-management/brands-score.md)** - Évaluez dans quelle mesure votre contenu généré par l’IA correspond aux directives de votre marque à l’aide du score optimisé par l’IA.
 - **[Accélérateur d’expériences](../using/content-management/experiment-accelerator-gs.md)** - Accélérez votre processus d’expérimentation de contenu avec des informations et des recommandations pilotées par l’IA.
 - **[API optimisées par l’IA](../using/configuration/ajo-apis.md)** - Accédez aux fonctionnalités d’IA et de machine learning de Journey Optimizer par programmation via les API.
+
+## Agents d’IA dans Adobe Experience Cloud
+
+Les agents d’IA de Adobe Experience Cloud étendent les fonctionnalités d’IA au-delà de Journey Optimizer, en activant les interactions en langage naturel pour des tâches marketing complexes :
+
+- **[Agent d’analyse des Parcours ](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - Effectuez une analyse des abandons de parcours, détectez les chevauchements d’audience et de planning et recevez des recommandations exploitables pour optimiser les performances des parcours.
+- **[Agent d’expérimentation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analysez les résultats des expériences, identifiez les modèles gagnants et découvrez de nouvelles opportunités de test sur plusieurs canaux.
+- **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - Créez et gérez des segments d’audience par le biais de l’IA conversationnelle, analysez la composition de l’audience et optimisez les stratégies de segmentation.
+- **[Agent Orchestrator](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - Coordonnez plusieurs agents spécialisés pour résoudre efficacement des défis marketing complexes et en plusieurs étapes.
 
 ## Questions fréquentes
 
