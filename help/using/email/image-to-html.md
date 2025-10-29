@@ -10,19 +10,14 @@ level: Beginner
 keywords: e-mail, modèle, image, HTML, IA, conception, accélérateur
 hide: true
 hidefromtoc: true
-source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
+source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1484'
 ht-degree: 4%
 
 ---
 
 # Convertir des images en modèles HTML avec l’accélérateur de modèles {#image-to-html}
-
->[!CONTEXTUALHELP]
->id="ajo_template_accelerator"
->title="Accélérateur de modèles"
->abstract="Utilisez l’accélérateur de modèles pour convertir des conceptions d’images statiques (JPEG ou PNG) en modèles d’e-mail HTML entièrement personnalisables. Cette fonctionnalité optimisée par l’IA vous permet de transformer rapidement les conceptions visuelles en contenu d’e-mail réactif et modifiable. Remarque : tout le contenu existant de votre e-mail sera supprimé lorsque vous chargerez une image à des fins de conversion."
 
 >[!AVAILABILITY]
 >
@@ -32,7 +27,7 @@ ht-degree: 4%
 
 L’accélérateur de modèles est une fonctionnalité innovante optimisée par l’IA disponible dans le menu **Modèles de contenu** qui accélère considérablement la création d’e-mails en convertissant des conceptions d’image statique en modèles de contenu d’e-mail HTML entièrement personnalisables. Cet outil permet aux marketeurs de transformer les conceptions visuelles des concepteurs graphiques ou des outils de conception en modèles d’e-mail réactifs et modifiables qui peuvent être enregistrés dans la bibliothèque de modèles de contenu, puis réutilisés dans plusieurs parcours et campagnes.
 
-En tirant parti de la technologie d’IA générative, l’accélérateur de modèles analyse la mise en page, la typographie, les couleurs et les éléments visuels de votre image et génère un code HTML propre et structuré qui conserve la fidélité de la conception tout en garantissant une modifiabilité et une compatibilité complètes avec le Designer de messagerie électronique.
+Grâce à la technologie d’IA générative, le convertisseur d’images vers HTML de Template Accelerator analyse la disposition, la typographie, les couleurs et les éléments visuels de votre image et génère un code HTML propre et structuré qui conserve la fidélité de la conception tout en garantissant une modifiabilité et une compatibilité complètes avec le Designer Email.
 
 **Principaux avantages :**
 
@@ -111,7 +106,7 @@ En savoir plus sur [l’utilisation de modèles d’e-mail](use-email-templates.
 
 ## Bonnes pratiques {#best-practices}
 
-Pour obtenir des résultats optimaux lors de l’utilisation de l’accélérateur de modèles, suivez ces recommandations :
+Pour obtenir des résultats optimaux lors de l’utilisation du convertisseur image vers HTML, suivez ces recommandations :
 
 **Avant de commencer**
 
@@ -161,7 +156,7 @@ Gardez à l’esprit les restrictions suivantes lors de l’utilisation du conve
 
 >[!NOTE]
 >
->L’accélérateur de modèles est conçu pour fournir un point de départ solide pour la création d’e-mails. L’HTML générée doit être examinée et affinée à l’aide du Designer d’e-mail afin de s’assurer qu’elle répond exactement à vos besoins.
+>Le convertisseur d’images en HTML est conçu pour fournir un point de départ solide pour la création d’e-mails. L’HTML générée doit être examinée et affinée à l’aide du Designer d’e-mail afin de s’assurer qu’elle répond exactement à vos besoins.
 
 ## Questions fréquentes {#faq}
 
