@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1693'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -123,13 +123,13 @@ L’**[!UICONTROL URL de désabonnement en un clic]** doit être une URL POST.
 
 Lorsque l’option **[!UICONTROL Géré par le client ou la cliente]** est sélectionnée, si vous saisissez des points d’entrée personnalisés et que vous les utilisez dans une campagne ou un parcours, [!DNL Journey Optimizer] ajoute des paramètres spécifiques au profil par défaut à l’événement de mise à jour du consentement <!--sent to the custom endpoint -->lorsque vos destinataires cliquent sur le lien de désabonnement.
 
-Pour personnaliser davantage vos points d’entrée<!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)--> vous pouvez définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement.
+Pour personnaliser davantage vos points d’entrée <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->, vous pouvez désormais définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement.
 
 >[!AVAILABILITY]
 >
->Pour l’option **[!UICONTROL Mailto (unsubscribe)]**, cette fonctionnalité est disponible en disponibilité limitée. Contactez votre représentant Adobe pour obtenir l’accès. Dans ce cas, vous devez utiliser les nouveaux paramètres de requête décrits dans la section **Mailto (unsubscribe) avec des attributs personnalisés (disponibilité limitée)** [ci-dessous](#configure-decrypt-api).
+>Pour l’option **[!UICONTROL Mailto (désabonnement)]**, cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès. Dans ce cas, vous devez utiliser les nouveaux paramètres de requête décrits dans la section **Mailto (désabonnement) avec des attributs personnalisés (disponibilité limitée)** [ci-dessous](#configure-decrypt-api).
 
-Pour définir des attributs personnalisés pour vos points d’entrée, utilisez la section **[!UICONTROL Paramètres de tracking des URL]**. Tous les paramètres de tracking d’URL que vous définissez dans la section correspondante seront ajoutés à la fin de vos points d’entrée personnalisés, en plus des paramètres par défaut. [Découvrez comment configurer le tracking personnalisé des URL](url-tracking.md).
+Pour définir des attributs personnalisés pour vos points d’entrée, utilisez la section **[!UICONTROL Paramètres de suivi des URL]**. Tous les paramètres de suivi des URL que vous définissez dans la section correspondante seront ajoutés à la fin de vos points d’entrée personnalisés, en plus des paramètres par défaut. [Découvrez comment configurer le tracking personnalisé des URL](url-tracking.md).
 
 ### Configurer l’API de déchiffrement {#configure-decrypt-api}
 
@@ -233,11 +233,11 @@ Réponse de consentement :
 
 +++
 
-+++ Mailto (unsubscribe) avec des attributs personnalisés (disponibilité limitée)
++++ Mailto (désabonnement) avec des attributs personnalisés (disponibilité limitée)
 
-Avec l’option **[!UICONTROL Mailto (se désabonner)]**, cliquer sur le lien de désabonnement envoie un e-mail prérempli à l’adresse de désabonnement spécifiée.
+Avec l’option **[!UICONTROL Mailto (désabonnement)]**, cliquer sur le lien de désabonnement envoie un e-mail prérempli à l’adresse de désabonnement spécifiée.
 
-À partir d’octobre 2025, si vous utilisez l’option **[!UICONTROL Gestion par le client]** pour le point d’entrée **[!UICONTROL Mailto (unsubscribe)]**, vous pouvez définir des attributs personnalisés qui seront ajoutés à l’événement de consentement. Dans ce cas, vous devez utiliser les paramètres de requête décrits ci-dessous.
+À partir d’octobre 2025, si vous utilisez l’option **[!UICONTROL Gestion par le client]** pour le point d’entrée **[!UICONTROL Mailto (désabonnement)]**, vous pouvez définir des attributs personnalisés qui seront ajoutés à l’événement de consentement. Dans ce cas, vous devez utiliser les paramètres de requête décrits ci-dessous.
 
 >[!AVAILABILITY]
 >
@@ -249,21 +249,21 @@ Point d’entrée : https://platform.adobe.io/journey/imp/consent/decrypt
 
 Paramètres de requête :
 
-* **emailParamsSub** : chaîne extraite de l&#39;objet de l&#39;email reçu à l&#39;adresse Mailto.
+* **emailParamsSub** : chaîne extraite de l’objet de l’e-mail reçu à l’adresse Mailto.
 
-   * Exemple : *unsubscribev1.abc*
+   * Exemple : *unsubscribev1.abc*
 
-   * Valeur analysée : *v1.abc*
+   * Valeur analysée : *v1.abc*
 
-* **emailParamsBody** : chaîne extraite du corps de l’e-mail (le cas échéant) au format *unsubscribev1.xyz*.
+* **emailParamsBody** : chaîne extraite du corps de l’e-mail (le cas échéant) au format *unsubscribev1.xyz*.
 
-   * Valeur analysée : *v1.xyz*
+   * Valeur analysée : *v1.xyz*
 
-Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
->Si vous utilisiez la mise en œuvre précédente (par exemple : https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>), vous devez utiliser les nouveaux paramètres **emailParamsSub** et **emailParamsBody** au lieu de **emailParams**. Pour plus d’informations, contactez votre représentant Adobe.
+>Si vous utilisiez la mise en œuvre précédente (par exemple : https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>), vous devez utiliser les nouveaux paramètres **emailParamsSub** et **emailParamsBody** au lieu de **emailParams**. Contactez votre représentant ou représentante Adobe pour plus d’informations.
 
 Les paramètres **emailParamsSub** et **emailParamsBody** seront inclus dans l’événement de mise à jour du consentement envoyé aux points d’entrée personnalisés.
 

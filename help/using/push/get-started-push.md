@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
-<img alt="Prospect" src="../assets/do-not-localize/push-create.jpg">
+<img alt="Lead" src="../assets/do-not-localize/push-create.jpg">
 </a>
 <div><a href="create-push.md"><strong>Créer une notification push</strong>
 </div>

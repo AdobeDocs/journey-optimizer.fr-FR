@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour intégrer WhatsApp à Journey Optimizer, vous avez besoin des éléments s
 * [Jeton d’autorisation utilisateur avec les autorisations appropriées](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Modèles Meta approuvés](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-Vous devez également tenir compte des points suivants avant de poursuivre l’intégration :
+Vous devez également prendre connaissance des points suivants avant de procéder à l’intégration :
 
 * [Règles de contenu WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
 * [Conformité aux politiques Meta](https://www.whatsapp.com/legal)
@@ -58,7 +58,7 @@ La vidéo ci-dessous montre comment intégrer WhatsApp en tant que canal natif d
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470246?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

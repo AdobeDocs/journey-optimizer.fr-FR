@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ Un cas d’utilisation complet montrant comment utiliser des expériences de contenu pour comparer des décisions avec le canal d’expérience basé sur du code est présenté dans [cette section](../experience-decisioning/experience-decisioning-uc.md).
+➡️ Un cas d’utilisation complet montrant comment utiliser des expériences de contenu pour comparer des décisions avec le canal d’expérience basée sur du code est présenté dans [cette section](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Quand utiliser un canal basé sur le code ou d’autres canaux {#code-based-vs-other-channels}
 
@@ -38,7 +38,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 Quand utiliser le canal basé sur le code plutôt que d’autres canaux [!DNL Journey Optimizer] ?
 
-* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de [&#128279;](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app [!DNL Journey Optimizer].
+* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de ](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app[ [!DNL Journey Optimizer].
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 

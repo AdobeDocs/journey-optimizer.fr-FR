@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1894'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Interface d’utilisation {#cjm-user-interface}
 
-Pour accéder à [!DNL Adobe Journey Optimizer], connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com) avec votre Adobe ID, puis sélectionnez [!DNL Journey Optimizer].
+Pour accéder à [!DNL Adobe Journey Optimizer], connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com) avec votre Adobe ID, puis sélectionnez [!DNL Journey Optimizer].
 
 Les concepts clés lors de la navigation dans l&#39;interface utilisateur sont les mêmes que ceux d&#39;Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target="_blank"}.
 
