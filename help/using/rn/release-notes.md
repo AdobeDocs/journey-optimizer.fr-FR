@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 47%
+source-wordcount: '1164'
+ht-degree: 46%
 
 ---
 
@@ -22,9 +22,35 @@ ht-degree: 47%
 
 [!DNL Adobe Journey Optimizer] suit un modèle de diffusion continue, ce qui permet à Adobe de diffuser régulièrement de nouvelles fonctionnalités, de nouvelles améliorations et de nouveaux correctifs. Cette approche permet un déploiement évolutif et échelonné des fonctionnalités afin d’assurer les performances et la stabilité dans tous les environnements.
 
-En raison de ce modèle, les notes de mise à jour sont mises à jour entre les versions mensuelles.  Une section dédiée [Dernières mises à jour](#updates-rn) met en évidence les nouvelles fonctionnalités et améliorations apportées lors de leur déploiement en production. Vous êtes ainsi toujours informé de tous les changements en temps réel. <!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
+En raison de ce modèle, les notes de mise à jour sont mises à jour entre les versions mensuelles.  Une section dédiée [Dernières mises à jour](#latest-updates) met en évidence les nouvelles fonctionnalités et améliorations apportées lors de leur déploiement en production. Vous êtes ainsi toujours informé de tous les changements en temps réel. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le cycle de publication de [Journey Optimizer](#releases.md).
 
 [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+<!-- DOCAC-13676
+## Latest updates {#latest-updates}
+
+New capabilities and improvements released recently are listed below, with their availability date.
+
+### New capabilities {#latest-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Image to HTML converter</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The image to HTML converter is an AI-powered feature that converts static image designs into fully customizable, modular HTML email content templates. This no-code tool enables marketers to transform visual designs into responsive, editable email templates without requiring technical expertise—perfect for platform migration, rapid template creation, and building reusable template libraries.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>For more information, refer to the <a href="../email/image-to-html.md">detailed documentation</a>.</p>
+<p>Availability date: November 3, 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
 
 ## Notes de mise à jour du 25 octobre {#oct-25-10-rn}
 
@@ -288,7 +314,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator comprend désormais l’agent d’expérimentation, un outil de conversation optimisé par l’IA qui vous permet d’interagir avec vos expériences, informations et opportunités. Elle améliore l’expérience Journey Optimizer Experimentation Accelerator, ce qui vous permet d’exécuter plus efficacement des expériences, de découvrir ce qui fonctionne et de découvrir où optimiser la suite.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : samedi 10 octobre 2025</p>
 </td>
 </tr>
@@ -364,36 +390,38 @@ Pour personnaliser davantage vos points d’entrée personnalisés, vous pouvez 
 
 Date de disponibilité : 6 octobre 2025
 
-### Bientôt disponible {#oct-25-10-soon}
+<!--
+### Coming soon {#oct-25-10-soon}
 
-La publication des fonctionnalités et améliorations suivantes est prévue dans les prochains jours. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
+In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
-#### Nouvelles fonctionnalités {#oct-25-10-soon-features}
+#### New capabilities {#oct-25-10-soon-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Thèmes dans le concepteur d’e-mail</strong><br/></th>
+<th><strong>Themes in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais appliquer rapidement des thèmes préapprouvés pour garantir la cohérence de la marque dans tous les e-mails, accélérer le processus de création de vos campagnes et produire de manière autonome des e-mails de haute qualité tout en réduisant la dépendance à l’égard des équipes de conception.</p>
-<p>Publiée auparavant en version bêta, cette fonctionnalité est désormais disponible pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<!--img src="assets/do-not-localize/themes.gif">
+<p>You can now quickly apply pre-approved themes to ensure brand consistency across all emails, speed up your campaign creation process, and independently produce high-quality emails while reducing dependency on design teams.</p>
+<p>Previously released in beta version, this capability is now available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<img src="assets/do-not-localize/themes.gif">
 <p>For more information, refer to the <a href="../email/apply-email-themes.md">detailed documentation</a>.</p>
-<p>Availability date: November 4, 2025</p-->
+<p>Availability date: November 4, 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-#### Améliorations {#oct-25-10-soon-improvements}
+#### Improvements {#oct-25-10-soon-improvements}
 
-**Prise de décision dans les e-mails via les modèles d’IA**
+**Decisioning in emails through AI models**
 
-Vous pouvez désormais utiliser des modèles d’IA pour optimiser le meilleur contenu de votre e-mail grâce à l’utilisation de Decisioning. Par exemple, cette fonctionnalité vous permet de proposer le meilleur contenu en fonction d’événements personnalisés tels que des achats, des clics sur des boutons, des ajouts au panier, etc.
+You can now use AI models to optimize the best content in your email through the use of Decisioning. For example, this capability allows you to offer the best content based on custom events such as Purchases, Button Clicks, Add to Cart, etc.
+-->
 
 <!--
 <table>
