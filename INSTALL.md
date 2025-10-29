@@ -21,6 +21,7 @@ Vous n’avez à effectuer cette opération qu’une **fois** par référentiel.
    ```
    @setup-agents
    ```
+
 3. Suivre les invites
 4. Terminé ! ✨
 
@@ -32,11 +33,13 @@ Vous n’avez à effectuer cette opération qu’une **fois** par référentiel.
    ```bash
    ./setup-agents.sh
    ```
+
    Ou manuellement :
 
    ```bash
    git submodule update --init --recursive
    ```
+
 3. Terminé ! ✨
 
 ## Vérification
@@ -136,7 +139,7 @@ Le sous-module pointe vers :
 
 Cela garantit que tout le monde utilise les mêmes agents, qui sont à jour.
 
----
+&#x200B;---
 
 **Besoin d’aide ?** Contactez le responsable de votre équipe de documentation ou vérifiez le wiki interne.
 
