@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 86%
 
 ---
 
@@ -107,10 +107,11 @@ L&#39;opération suivante renvoie la première des cinq principales commandes au
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## `n` premiers éléments d’un tableau {#first-n}
+## Trier et obtenir N premiers dans le tableau {#first-n}
 
-La fonction `topN` est utilisée pour renvoyer les premiers éléments `N` d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
+La fonction `topN` trie un tableau dans l’ordre décroissant en fonction de l’expression numérique donnée et renvoie les premiers éléments `N`. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
 
+Cette fonction
 **Syntaxe**
 
 ```sql
@@ -205,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## `n` derniers éléments d’un tableau{#last-n}
+## Trier et obtenir le dernier N dans le tableau {#last-n}
 
-La fonction `bottomN` est utilisée pour renvoyer les derniers éléments `N` d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
+La fonction `bottomN` trie un tableau dans l’ordre croissant en fonction de l’expression numérique donnée et renvoie les premiers éléments `N`. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
 
 **Syntaxe**
 
