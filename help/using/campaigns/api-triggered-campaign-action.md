@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 92%
+source-wordcount: '449'
+ht-degree: 90%
 
 ---
 
@@ -28,9 +28,9 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    >[!NOTE]
    >
-   >Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS](../sms/get-started-sms.md) et [Notifications push](../push/get-started-push.md). Les campagnes déclenchées par l’API à haut débit prennent actuellement en charge le canal e-mail uniquement.
+   >Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels). Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
    >
-   >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
+   >Les campagnes déclenchées par l’API à haut débit prennent actuellement en charge le canal e-mail uniquement.
 
 1. **Sélectionner une configuration de canal**
 

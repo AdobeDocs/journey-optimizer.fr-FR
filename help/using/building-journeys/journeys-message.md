@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Pour ajouter une action de canal intégrée à votre parcours, faites glisser et
 
 ## Ajout d’un message dans un parcours  {#add-msg-in-journey}
 
-Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Les canaux entrants pris en charge sont les e-mails, les SMS/MMS et les notifications push. Les canaux sortants pris en charge sont les suivants : in-app, web, expérience basée sur le code et carte de contenu.
+Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Pour plus d’informations sur les canaux disponibles dans les parcours, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
 
 Pour ajouter une action de canal intégrée à un parcours, procédez comme suit :
 

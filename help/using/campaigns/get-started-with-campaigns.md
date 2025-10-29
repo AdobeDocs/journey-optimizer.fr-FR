@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 92%
+source-wordcount: '931'
+ht-degree: 89%
 
 ---
 
@@ -90,7 +90,7 @@ Utilisez les campagnes [!DNL Journey Optimizer] pour diffuser du contenu ponctue
 
 ## Types de campagne
 
-[!DNL Journey Optimizer] prend en charge trois types de campagnes. Chaque type correspond à différents cas d’utilisation et prend en charge différents canaux.
+[!DNL Journey Optimizer] prend en charge trois types de campagnes. Chaque type correspond à différents cas d’utilisation et prend en charge différents canaux. Pour plus d’informations sur les canaux disponibles pour chaque type de campagne, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -124,23 +124,6 @@ Les **campagnes déclenchées par API** vous permettent de déclencher l’exéc
 
 
 >[!ENDTABS]
-
-## Canaux pris en charge par type de campagne {#channels}
-
-Le tableau ci-dessous indique la disponibilité de chaque canal pour différents types de campagne, en indiquant dans quels cas ils sont pris en charge.
-
-| Canal | Action (marketing) | Action (transactionnelles) | Déclenché par l’API (marketing) | Déclenché par l’API (transactionnel) | Orchestrées |
-|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
-| E-mail | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Notification push | ✅ | ✅ | ✅ | ✅ | ✅ |
-| In-app | ✅ | — | — | — | — |
-| Courrier | ✅ | — | — | — | — |
-| Web | ✅ | — | — | — | — |
-| Exp. basée sur le code | ✅ | — | — | — | — |
-| Cartes de contenu | ✅ | — | — | — | — |
-| WhatsApp | ✅ | — | — | — | — |
-| Ligne | ✅ | — | — | — | — |
 
 ## Conditions préalables {#prerequisites}
 
