@@ -9,9 +9,7 @@ role: User
 level: Beginner
 badge: label="Disponibilité limitée" type="Informative"
 keywords: e-mail, modèle, image, HTML, IA, conception, convertisseur
-hide: true
-hidefromtoc: true
-source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -28,7 +26,7 @@ Le convertisseur image en HTML est une fonctionnalité innovante optimisée par 
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 Grâce à la technologie d’IA générative, le convertisseur image en HTML analyse la disposition, la typographie, les couleurs et les éléments visuels de votre image et génère un code HTML propre et modulaire qui conserve la fidélité de la conception tout en garantissant une modifiabilité et une compatibilité complètes avec le Designer Email. Cela élimine le processus manuel et long de conversion des maquettes en HTML et réduit la dépendance aux ressources de développement.
 

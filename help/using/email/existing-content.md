@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: e-mail, importation, contenu, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 88%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 100%
   >
   >Il n’existe aucune contrainte sur la structure des fichiers .zip. Cependant, les références doivent être relatives et s’ajuster à l’arborescence du dossier .zip.
 
-<!--DOCAC-13676
+
 >[!TIP]
 >
->If you have image designs (JPEG or PNG) instead of HTML files, you can use the [image to HTML converter](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
+>Si vous disposez de conceptions d’image (JPEG ou PNG) au lieu de fichiers HTML, vous pouvez utiliser le convertisseur [image vers HTML](image-to-html.md) pour les convertir automatiquement en modèles d’e-mail HTML modifiables à l’aide de l’IA.
 
 Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
@@ -60,4 +60,4 @@ Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
 Découvrez comment importer du contenu HTML existant, améliorer la conception et ajouter une page miroir et des liens de désabonnement. Apprenez également comment coder le contenu.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421910?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

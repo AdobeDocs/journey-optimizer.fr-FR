@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 46%
+source-wordcount: '1243'
+ht-degree: 86%
 
 ---
 
@@ -26,37 +26,40 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-<!-- DOCAC-13676
+<!--
 ## Latest updates {#latest-updates}
 
-New capabilities and improvements released recently are listed below, with their availability date.
 
-### New capabilities {#latest-features}
+New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+
+-->
+
+
+
+## Notes de mise à jour d’octobre 2025 {#oct-25-10-rn}
+
+### Nouvelles fonctionnalités {#oct-25-10-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Image to HTML converter</strong><br/></th>
+<th><strong>Convertisseur d’image en HTML</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The image to HTML converter is an AI-powered feature that converts static image designs into fully customizable, modular HTML email content templates. This no-code tool enables marketers to transform visual designs into responsive, editable email templates without requiring technical expertise—perfect for platform migration, rapid template creation, and building reusable template libraries.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p>For more information, refer to the <a href="../email/image-to-html.md">detailed documentation</a>.</p>
-<p>Availability date: November 3, 2025</p>
+<p>Le convertisseur d’images vers HTML est une fonctionnalité optimisée par l’IA qui convertit des conceptions d’images statiques en modèles de contenu d’e-mail HTML entièrement personnalisables et modulaires. Cet outil sans code permet aux spécialistes marketing de transformer des conceptions visuelles en modèles d’e-mail réactifs et modifiables sans avoir besoin d’expertise technique. Il est idéal pour la migration de plateformes, la création rapide de modèles et la création de bibliothèques de modèles réutilisables.</p>
+<p><img src="../email/assets/email_designer_converted_img.png"/></p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Pour plus d’informations, consultez la <a href="../email/image-to-html.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 30 octobre_2025</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
-## Notes de mise à jour du 25 octobre {#oct-25-10-rn}
-
-**Date de publication** : jeudi 22 octobre 2025
-
-### Nouvelles fonctionnalités {#oct-25-10-features}
 
 <table>
 <thead>
@@ -87,7 +90,7 @@ New capabilities and improvements released recently are listed below, with their
 <td>
 <p>Avec [!DNL Journey Optimizer], vous pouvez désormais capturer les attributs de profil via vos pages de destination.</p>
 <p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
-<p>Cette fonctionnalité est actuellement en disponibilité limitée pour les clients situés aux États-Unis et en Australie. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est actuellement en disponibilité limitée pour les clients situés aux États-Unis et en Australie. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : vendredi 23 octobre 2025</p>
@@ -99,18 +102,18 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Heures calmes/exclusions temporelles</strong><br/></th>
+<th><strong>Heures creuses/exclusions basées sur l’heure</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les heures calmes vous permettent de définir des exclusions temporelles pour les canaux E-mail, SMS, Notification push et WhatsApp. Ils garantissent qu’aucun message n’est envoyé pendant des périodes spécifiques, ce qui vous aide à respecter les préférences des clients et les exigences de conformité.</p>
-<p>Vous pouvez appliquer des heures calmes par le biais d’ensembles de règles, qui peuvent être affectés à des actions individuelles dans des campagnes ou des parcours pour un contrôle précis.</p>
-<p>Actuellement, les règles relatives aux heures creuses ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour être ajouté à la liste d’attente, contactez votre représentant Adobe.</p>
+<p>Les heures creuses vous permettent de définir des exclusions basées sur l’heure pour les canaux E-mail, SMS, Notification push et WhatsApp. EIles garantissent qu’aucun message n’est envoyé pendant des périodes spécifiques, ce qui vous aide à respecter les préférences de la clientèle et les exigences de conformité.</p>
+<p>Vous pouvez appliquer des heures creuses par le biais de jeux de règles, qui peuvent être affectés à des actions individuelles dans des campagnes ou des parcours pour un contrôle précis.</p>
+<p>Les règles d’heures creuses ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour être ajouté à la liste d’attente, contactez votre représentant ou représentante Adobe.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>Pour plus d’informations, consultez la <a href="../conflict-prioritization/quiet-hours.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : jeudi 22 octobre 2025</p>
+<p>Date de disponibilité : 22 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -231,16 +234,16 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Messagerie à haut débit pour les campagnes par e-mail déclenchées par l’API</strong><br/></th>
+<th><strong>Messagerie à débit élevé pour les campagnes par e-mail déclenchées par API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Un nouveau mode de messagerie transactionnelle à débit élevé est disponible dans les campagnes déclenchées par l’API. Ce mode est conçu pour les messages transactionnels en temps réel à grande échelle et prend en charge jusqu’à 5 000 transactions par seconde avec une disponibilité supérieure. Ce mode prend également en charge les messages transactionnels sans référencer ni créer de profils client, tels que le passage en caisse des invités, la confirmation de commande, les réinitialisations de mot de passe, les notifications de sécurité et autres notifications de service/exploitation.</p>
-<p>Cette fonctionnalité n’est disponible que pour le canal e-mail, pour les organisations qui ont acheté l’offre complémentaire de messagerie transactionnelle à haut débit d’Adobe . Pour plus d’informations, contactez votre représentant ou représentante Adobe.</p>
+<p>Un nouveau mode de messagerie transactionnelle à débit élevé est disponible dans les campagnes déclenchées par API. Ce mode est conçu pour les messages transactionnels en temps réel à grande échelle et prend en charge jusqu’à 5 000 transactions par seconde avec une disponibilité supérieure. Ce mode prend également en charge les messages transactionnels sans référencer ni créer de profils client, tels que le passage en caisse de la clientèle, la confirmation de commande, les réinitialisations de mot de passe, les notifications de sécurité et autres notifications de service/exploitation.</p>
+<p>Cette fonctionnalité n’est disponible que pour le canal e-mail, pour les organisations qui ont acheté l’offre complémentaire de messagerie transactionnelle à haut débit d’Adobe. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../campaigns/api-triggered-high-throughput.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : jeudi 22 octobre 2025</p>
+<p>Date de disponibilité : 22 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -255,11 +258,11 @@ New capabilities and improvements released recently are listed below, with their
 <tbody>
 <tr>
 <td>
-<p>Pour vous faire gagner du temps et économiser des efforts, Journey Optimizer vous permet désormais de créer des règles réutilisables à partir d’un menu d’interface utilisateur dédié et de les exploiter lors de la création de ciblage, dans le cadre de l’optimisation de contenu dans une campagne ou un parcours, dans l’activité Optimiser le parcours .</p>
-<p>Les règles de ciblage sont actuellement en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès. Notez que cette fonctionnalité n’est disponible que pour les organisations qui ont acheté le module complémentaire Decisioning. Il sera progressivement déployé auprès de tous les clients.</p>
+<p>Pour vous faire gagner du temps et simplifier votre travail, Journey Optimizer vous permet désormais de créer des règles réutilisables à partir d’un menu d’interface d’utilisation dédié et de les utiliser lors de la création du ciblage, soit dans le cadre de l’optimisation du contenu d’une campagne ou d’un parcours, soit dans l’activité Optimiser le parcours.</p>
+<p>Les règles de ciblage sont actuellement en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès. Notez que cette fonctionnalité n’est disponible que pour les organisations qui ont acheté le module complémentaire de prise de décision. Elle sera progressivement disponible pour l’ensemble de la clientèle.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/rules.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : jeudi 22 octobre 2025</p>
+<p>Date de disponibilité : 22 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -268,18 +271,18 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Nouvelles alertes de Parcours</strong><br/></th>
+<th><strong>Nouvelles alertes de parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De nouvelles alertes préconfigurées sont disponibles pour surveiller l’exécution de votre parcours :</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">Taux de rejet du profil dépassé </a> : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Taux d’erreur des actions personnalisées dépassé</a> : ratio des erreurs d’actions personnalisées par rapport aux appels HTTP réussis au cours des 5 dernières minutes ayant dépassé le seuil</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">Taux d’erreur de profil dépassé</a> : ratio de profils en erreur par rapport aux profils saisis au cours des 5 dernières minutes qui a dépassé le seuil.</li></ul> <p>Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours et non globalement.</p>
+<p>De nouvelles alertes préconfigurées sont disponibles pour surveiller l’exécution de votre parcours :</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">Taux de rejet de profil dépassé</a> : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes et ayant dépassé le seuil.</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Taux d’erreur d’action personnalisée dépassé</a> : ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes et ayant dépassé le seuil.</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Taux d’erreur de profil dépassé</a> : ratio de profils erronés par rapport aux profils entrés au cours des 5 dernières minutes et ayant dépassé le seuil.</li></ul> <p>Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours et non globalement.</p>
 <p>Pour plus d’informations, consultez la <a href="../reports/alerts.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 14 octobre 2025</p>
+<p>Date de disponibilité : 14 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -288,17 +291,17 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Assistant Métadonnées d’exécution</strong><br/></th>
+<th><strong>Assistant des métadonnées d’exécution</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle fonction d’assistance « executionMetadata » est disponible dans l’éditeur de personnalisation. Il vous permet d’ajouter des informations contextuelles à toute action native et de les capturer dans un jeu de données pour les exporter vers des systèmes externes.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Une nouvelle fonction d’assistant « executionMetadata » est disponible dans l’éditeur de personnalisation. Il vous permet d’ajouter des informations contextuelles à toute action native et de les capturer dans un jeu de données pour les exporter vers des systèmes externes.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Pour plus d’informations, consultez la <a href="../personalization/functions/helpers.md#execution-metadata">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mardi 13 octobre 2025</p>
+<p>Date de disponibilité : 13 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -307,15 +310,15 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Experimentation Accelerator avec l’agent d’expérience</strong><br/></th>
+<th><strong>Experimentation Accelerator avec l’agent d’expérimentation</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator comprend désormais l’agent d’expérimentation, un outil de conversation optimisé par l’IA qui vous permet d’interagir avec vos expériences, informations et opportunités. Elle améliore l’expérience Journey Optimizer Experimentation Accelerator, ce qui vous permet d’exécuter plus efficacement des expériences, de découvrir ce qui fonctionne et de découvrir où optimiser la suite.</p>
+<p>Journey Optimizer Experimentation Accelerator comprend désormais l’agent d’expérimentation, un outil de conversation optimisé par l’IA qui vous permet d’interagir avec vos expériences, informations et opportunités. Il améliore l’expérience Journey Optimizer Experimentation Accelerator, ce qui vous permet d’exécuter plus efficacement des expériences, d’identifier ce qui fonctionne et de déterminer les prochaines optimisations à effectuer.</p>
 <p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
-<p>Date de disponibilité : samedi 10 octobre 2025</p>
+<p>Date de disponibilité : 10 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -362,21 +365,15 @@ New capabilities and improvements released recently are listed below, with their
 </tbody>
 </table>
 
-<!--
-## Latest updates {#updates-rn}
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
--->
 
 ### Améliorations {#updates-improvements}
 
-<!--Availability date: October 22, 2025-->
-
 **Champ d’exécution pour le canal WhatsApp**
 
-Outre les e-mails et les SMS, vous pouvez savoir mettre à jour le champ d’exécution par défaut de vos diffusions WhatsApp au niveau du sandbox. Il est également possible de remplacer le champ d&#39;exécution défini globalement en le modifiant dans les paramètres avancés de l&#39;activité parcours WhatsApp ou dans la configuration du canal WhatsApp. [En savoir plus](../configuration/primary-email-addresses.md)
+Outre les e-mails et les SMS, vous pouvez désormais mettre à jour le champ d’exécution par défaut de vos diffusions WhatsApp au niveau du sandbox. Il est également possible de remplacer le champ d’exécution défini globalement en le modifiant dans les paramètres avancés de l’activité de parcours WhatsApp ou dans la configuration du canal WhatsApp. [En savoir plus](../configuration/primary-email-addresses.md)
 
-Date de disponibilité : jeudi 22 octobre 2025
+Date de disponibilité : 22 octobre 2025
 
 **Prise en charge des attributs personnalisés avec l’adresse Mailto (désabonnement)**
 
@@ -386,7 +383,7 @@ Pour personnaliser davantage vos points d’entrée personnalisés, vous pouvez 
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est déjà disponible pour l’**[!UICONTROL URL de désabonnement en un clic]** personnalisée depuis août 2025 et est désormais disponible pour l’option **[!UICONTROL Mailto (désabonnement)]** en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Cette fonctionnalité est déjà disponible pour l’**[!UICONTROL URL de désabonnement en un clic]** personnalisée depuis août 2025 et est désormais disponible pour l’option **[!UICONTROL Mailto (désabonnement)]** en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 Date de disponibilité : 6 octobre 2025
 
