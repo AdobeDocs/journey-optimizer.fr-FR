@@ -21,6 +21,7 @@ Vous n’avez à effectuer cette opération qu’une **fois** par référentiel.
    ```
    @setup-agents
    ```
+
 3. L’agent va automatiquement :
    - Tester l’accès SSH et HTTPS
    - Utilisation de la méthode de travail
@@ -176,6 +177,6 @@ Les modifications apportées aux agents doivent l’être dans :
 
 Tous les référentiels recevront des mises à jour via `git submodule update --remote`.
 
----
+&#x200B;---
 
 **Besoin d’aide ?** Contactez le responsable de votre équipe de documentation ou vérifiez le wiki interne.
