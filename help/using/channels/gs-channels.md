@@ -9,7 +9,7 @@ exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -109,7 +109,7 @@ Découvrez les expériences basées sur du code pour diffuser du contenu personn
 
 Cartes de contenu
 
-Découvrez comment configurer, créer et concevoir des cartes de contenu pour une messagerie attrayante et personnalisée dans les applications mobiles et les sites web.
+Découvrez comment configurer, créer et concevoir des cartes de contenu pour proposer des messages attrayants et personnalisés dans les applications mobiles et les sites web.
 
 [En savoir plus sur l’expérience basée sur du code](../../rp_landing_pages/content-card-landing-page.md)
 :::
