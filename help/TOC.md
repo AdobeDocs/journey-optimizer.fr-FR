@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: f48f56209ea4aad4b254a21a48b3ec84b8b16a8a
 workflow-type: tm+mt
 source-wordcount: '3010'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 + Parcours {#orchestrate-journeys}
    + [Parcours](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Commencer les parcours](using/building-journeys/journey.md)
-   + [FAQ sur Parcours](using/building-journeys/journey-faq.md)
+   + [Questions fréquentes sur les parcours](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
       + [Créer un parcours](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
@@ -69,7 +69,7 @@ ht-degree: 97%
       + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
       + [Entrée de profil dans les parcours](using/building-journeys/entry-management.md)
       + [Utiliser des identifiants supplémentaires dans les parcours](using/building-journeys/supplemental-identifier.md)
-      + [Utilisation d’événements d’étape de parcours](using/reports/journey-step-events-overview.md)
+      + [Utiliser des événements d’étape de parcours](using/reports/journey-step-events-overview.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Optimisation de l’heure d’envoi](using/building-journeys/send-time-optimization.md)
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [Planifier la campagne](using/campaigns/api-triggered-campaign-schedule.md)
       + [Vérifier et activer la campagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
-      + [Activer le mode Débit élevé pour les campagnes déclenchées par l’API](using/campaigns/api-triggered-high-throughput.md)
+      + [Activer le mode de débit élevé pour les campagnes déclenchées par API](using/campaigns/api-triggered-high-throughput.md)
    + Campagnes orchestrées {#orchestrated-campaigns}
       + [Campagnes orchestrées](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Commencer avec les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -240,7 +240,7 @@ ht-degree: 97%
             + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
             + [Ingérer des données](using/orchestrated/ingest-data.md)
          + [Créer une dimension de ciblage](using/orchestrated/target-dimension.md)
-         + [Configuration d’une configuration de canal](using/orchestrated/channel-config.md)
+         + [Configurer une configuration des canaux](using/orchestrated/channel-config.md)
       + Lancer votre première campagne orchestrée {#launch}
          + [Lancer votre première campagne orchestrée](/help/rp_landing_pages/launch-landing-page.md)
          + [Étapes clés pour créer une campagne orchestrée](using/orchestrated/gs-campaign-creation.md)
@@ -281,7 +281,7 @@ ht-degree: 97%
       + [Utiliser des jeux de règles](using/conflict-prioritization/rule-sets.md)
       + [Gérer la limitation et l’arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
       + [Définir le capping de la fréquence par canal et type](using/conflict-prioritization/channel-capping.md)
-      + [Définir des heures d’inactivité](using/conflict-prioritization/quiet-hours.md)
+      + [Définir des heures creuses](using/conflict-prioritization/quiet-hours.md)
 + Tester et approuver {#test}
    + [Tester et approuver](/help/rp_landing_pages/test-landing-page.md)
    + Prévisualiser et tester le contenu {#preview-test}
@@ -318,15 +318,15 @@ ht-degree: 97%
       + [Créer un e-mail](using/email/create-email.md)
       + Concevoir le contenu de vos e-mails {#design-email}
          + [Concevoir le contenu de vos e-mails](/help/rp_landing_pages/design-email-landing-page.md)
-         + [Concevoir le contenu du message](using/start/message-content-design.md)
+         + [Concevoir le contenu d’un message](using/start/message-content-design.md)
          + [Commencer la conception d’e-mails](using/email/get-started-email-design.md)
          + Commencer à créer du contenu {#start-creating-content}
             + [Commencer à créer du contenu](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Concevoir du contenu en partant de zéro](using/email/content-from-scratch.md)
             + [Importer votre contenu](using/email/existing-content.md)
-            + [Convertir des images en modèles HTML](using/email/image-to-html.md)
             + [Coder votre propre contenu](using/email/code-content.md)
             + [Utiliser des modèles d’e-mail](using/email/use-email-templates.md)
+            + [Convertir des images en modèles HTML](using/email/image-to-html.md)
             + [Utiliser les thèmes d’e-mail](using/email/apply-email-themes.md)
             + [Joindre des fichiers PDF à vos e-mails](using/email/pdf-attachments.md)
          + Concevoir du contenu {#add-content}
@@ -373,7 +373,7 @@ ht-degree: 97%
       + [Commencer avec les notifications push](using/push/get-started-push.md)
       + [Créer une notification push](using/push/create-push.md)
       + [Concevoir votre notification push](using/push/design-push.md)
-      + [Concevoir une notification push web](using/push/design-push-web.md)
+      + [Concevoir votre notification push web](using/push/design-push-web.md)
       + [Vérifier et envoyer votre notification push](using/push/send-push.md)
       + Configurer les notifications push {#push-config}
          + [Configurer les notifications push](/help/rp_landing_pages/push-config-landing-page.md)
@@ -398,7 +398,7 @@ ht-degree: 97%
          + [Créer une configuration de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Courrier {#direct-mail}
       + [Courrier](/help/rp_landing_pages/direct-mail-landing-page.md)
-      + [Prise en main du courrier](using/direct-mail/get-started-direct-mail.md)
+      + [Commencer à utiliser le courrier](using/direct-mail/get-started-direct-mail.md)
       + [Créer un courrier](using/direct-mail/create-direct-mail.md)
       + [Vérifier et envoyer un message de publipostage direct](using/direct-mail/test-send-direct-mail.md)
       + [Configurer le courrier](using/direct-mail/direct-mail-configuration.md)
@@ -978,12 +978,12 @@ ht-degree: 97%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
       + [Gérer le processus d’opt-out](using/privacy/opt-out.md)
       + [Utiliser les politiques de consentement](using/action/consent.md)
-      + [Gérer les préférences de vos clients](using/action/preference-center.md)
+      + [Gérer les préférences de votre clientèle](using/action/preference-center.md)
    + [Gouvernance des données](using/action/action-privacy.md)
    + [Configurer et gérer des clés gérées par la clientèle](using/privacy/cmk.md)
