@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="Sélectionnez le type de la campagne. Les canaux disponibles varient en fonction du type sélectionné. <br>**Campagnes planifiées** (campagnes d’action) : idéales pour les communications par lots, simples et ponctuelles, que vous pouvez planifier pour qu’elles s’exécutent à une heure spécifique.<br>**Campagnes déclenchées par API** - Activées par le biais d’un appel API, ce qui permet une messagerie automatisée et basée sur un événement, directement à partir de systèmes externes.<br>**Campagnes orchestrées** : fournissent une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing complexes et à plusieurs étapes, depuis la segmentation d’audience jusqu’à la diffusion de messages personnalisés sur plusieurs canaux."
+>abstract="Sélectionnez le type de la campagne. Les canaux disponibles varient en fonction du type sélectionné. <br>**Campagnes planifiées** (campagnes d’action) : idéales pour les communications par lots, simples et ponctuelles, que vous pouvez planifier pour qu’elles s’exécutent à une heure spécifique.<br>**Campagnes déclenchées par API** : activées par le biais d’un appel API, elles permettent d’envoyer des messages automatisés et basés sur un événement, directement depuis des systèmes externes.<br>**Campagnes orchestrées** : fournissent une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing complexes et à plusieurs étapes, depuis la segmentation d’audience jusqu’à la diffusion de messages personnalisés sur plusieurs canaux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -115,7 +115,7 @@ Les **campagnes d’action** également appelées campagnes planifiées, permett
 
 >[!TAB Campagnes déclenchées par API]
 
-Les **campagnes déclenchées par API** vous permettent de déclencher l’exécution de la campagne à l’aide d’un appel API. Ces communications peuvent être envoyées là où le besoin implique une personnalisation non seulement de l’utilisation d’attributs de profil tels que la réinitialisation du mot de passe, mais également des données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
+Les **campagnes déclenchées par API** vous permettent de déclencher l’exécution de la campagne à l’aide d’un appel API. Ces communications peuvent être envoyées lorsque le besoin implique une personnalisation non seulement par des attributs de profil tels que la réinitialisation de mot de passe, mais également par les données contextuelles en temps réel dans le déclencheur qui est une payload de l’API REST.
 
 * **Déclenchées par API - Marketing** - Envoyez des communications marketing personnalisées aux audiences ciblées.
 * **Déclenchées par API - Transactionnelles** - Envoyez des messages à la suite d’une action effectuée par un individu, telle qu’une demande de réinitialisation de mot de passe, l’achat de produits dans le panier, etc.
@@ -145,9 +145,9 @@ Avant de créer votre campagne, lisez attentivement les conditions préalables c
 
    1. Pour attribuer un rôle à un utilisateur ou une utilisatrice dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez l’un des **[!UICONTROL Rôles]** liés à la campagne intégrée précisés ci-dessous.
 
-   1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+   1. Dans l’onglet **[!UICONTROL Utilisateurs et utilisatrices]**, cliquez sur **[!UICONTROL Ajouter un utilisateur ou une utilisatrice]**.
 
-   1. Saisissez le nom ou l’adresse e-mail de l’utilisateur ou sélectionnez-le dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
+   1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez cette personne dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
       Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users).
 
