@@ -1,5 +1,5 @@
 ---
-source-git-commit: 08eaa7ae974c134ea2e920a1fa854dcf6a971e18
+source-git-commit: 7e2ed972b85255ccd64cd04d306f7de602b41165
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
@@ -177,6 +177,6 @@ Les modifications apportées aux agents doivent l’être dans :
 
 Tous les référentiels recevront des mises à jour via `git submodule update --remote`.
 
-&#x200B;---
+---
 
 **Besoin d’aide ?** Contactez le responsable de votre équipe de documentation ou vérifiez le wiki interne.
