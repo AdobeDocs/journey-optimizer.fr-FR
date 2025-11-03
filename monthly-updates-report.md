@@ -22,13 +22,13 @@ ht-degree: 0%
 - Page de destination des fonctionnalités d’[AI](help/rp_landing_pages/ai-capabilities-landing-page.md) - 31 octobre
 - [Centre de préférences](help/using/action/preference-center.md) - 24 octobre
 - [Rapports d’action personnalisés](help/using/action/reporting.md) - 29 octobre
-- [Référence des codes d&#39;erreur de Parcours ](help/using/building-journeys/error-codes-reference.md) - 27 octobre
-- [FAQ Parcours ](help/using/building-journeys/journey-faq.md) - 28 octobre
+- [Référence des codes d&#39;erreur de Parcours &#x200B;](help/using/building-journeys/error-codes-reference.md) - 27 octobre
+- [FAQ Parcours &#x200B;](help/using/building-journeys/journey-faq.md) - 28 octobre
 - [Campagnes déclenchées par l’API à haut débit](help/using/campaigns/api-triggered-high-throughput.md) - Oct 27
 - [Heures calmes](help/using/conflict-prioritization/quiet-hours.md) - 22 octobre
 - [Prise en main de l’accélérateur d’expériences](help/using/content-management/experiment-accelerator-gs.md) - 24 octobre
 - [Conversion d’images en HTML](help/using/email/image-to-html.md) - 30 octobre
-- [Présentation des événements d’étape de Parcours ](help/using/reports/journey-step-events-overview.md) - 21 octobre
+- [Présentation des événements d’étape de Parcours &#x200B;](help/using/reports/journey-step-events-overview.md) - 21 octobre
 - [Cycle de publication](help/using/rn/releases.md) - 28 octobre
 - [Conception du contenu du message](help/using/start/message-content-design.md) - 18 octobre
 
@@ -37,20 +37,20 @@ ht-degree: 0%
 - [Page de destination de la gestion de contenu](help/rp_landing_pages/content-management-landing-page.md) - 27 octobre
 - [Commencer la page de destination](help/rp_landing_pages/get-started-landing-page.md) - 27 octobre
 - [Tester la page de destination](help/rp_landing_pages/test-landing-page.md) - 27 octobre
-- [Résolution des problèmes liés à la page de destination du parcours ](help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 27 octobre
+- [Résolution des problèmes liés à la page de destination du parcours &#x200B;](help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 27 octobre
 - [Gestion du consentement](help/using/action/consent.md) - 21 octobre
 - [Création de profils de test](help/using/audience/creating-test-profiles.md) - 22 octobre
 - [Attributs d’enrichissement](help/using/audience/enrichment-attributes.md) - 28 octobre
 - [Prise en main des profils](help/using/audience/get-started-profiles.md) - 22 octobre
-- [À propos des activités de parcours ](help/using/building-journeys/about-journey-activities.md) - 27 octobre
+- [À propos des activités de parcours &#x200B;](help/using/building-journeys/about-journey-activities.md) - 27 octobre
 - [Activité de condition](help/using/building-journeys/condition-activity.md) - 24 octobre
 - [Recherche de jeu de données](help/using/building-journeys/dataset-lookup.md) - 28 octobre
 - [Recherche d’événement d’expérience](help/using/building-journeys/exp-event-lookup.md) - 28 octobre
-- [Présentation du Parcours ](help/using/building-journeys/journey.md) - 27 octobre
+- [Présentation du Parcours &#x200B;](help/using/building-journeys/journey.md) - 27 octobre
 - [Parcours de messages](help/using/building-journeys/journeys-message.md) - 29 octobre
-- [Optimisation des parcours ](help/using/building-journeys/optimize.md) - 22 octobre
+- [Optimisation des parcours &#x200B;](help/using/building-journeys/optimize.md) - 22 octobre
 - [Optimisation de l’heure d’envoi](help/using/building-journeys/send-time-optimization.md) - 28 octobre
-- [Test des parcours ](help/using/building-journeys/testing-the-journey.md) - 28 octobre
+- [Test des parcours &#x200B;](help/using/building-journeys/testing-the-journey.md) - 28 octobre
 - [Action de campagne déclenchée par l’API](help/using/campaigns/api-triggered-campaign-action.md) - 29 octobre
 - [Audience de campagne déclenchée par l’API](help/using/campaigns/api-triggered-campaign-audience.md) - 23 octobre
 - [Contenu de campagne déclenché par l’API](help/using/campaigns/api-triggered-campaign-content.md) - 23 octobre
@@ -64,7 +64,7 @@ ht-degree: 0%
 - [Déclencher des campagnes](help/using/campaigns/trigger-campaigns.md) - 23 octobre
 - [Présentation des canaux](help/using/channels/gs-channels.md) - 3 novembre
 - [Systèmes externes](help/using/configuration/external-systems.md) - 28 octobre
-- [Adresses e-mail de Principal ](help/using/configuration/primary-email-addresses.md) - 22 octobre
+- [Adresses e-mail de Principal &#x200B;](help/using/configuration/primary-email-addresses.md) - 22 octobre
 - [Limitation des canaux](help/using/conflict-prioritization/channel-capping.md) - 28 octobre
 - [Ensembles de règles](help/using/conflict-prioritization/rule-sets.md) - 27 octobre
 - [TTL du jeu de données](help/using/data/datasets-ttl.md) - 28 octobre
@@ -95,7 +95,7 @@ ht-degree: 0%
 - [Fonctions de tableaux et de listes](help/using/personalization/functions/arrays-list.md) - 29 octobre
 - [Fonctions de date](help/using/personalization/functions/dates.md) - 29 octobre
 - [Créer des expressions de personnalisation](help/using/personalization/personalization-build-expressions.md) - 28 octobre
-- [Syntaxe de Personalization ](help/using/personalization/personalization-syntax.md) - 28 octobre
+- [Syntaxe de Personalization &#x200B;](help/using/personalization/personalization-syntax.md) - 28 octobre
 - [Configuration des notifications push](help/using/push/push-configuration.md) - 23 octobre
 - [Alertes](help/using/reports/alerts.md) - 28 octobre
 - [Prise en main des rapports](help/using/reports/gs-reports.md) - 23 octobre
