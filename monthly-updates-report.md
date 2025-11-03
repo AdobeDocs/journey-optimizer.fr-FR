@@ -3,12 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Rapport des mises à jour mensuelles de la documentation
 description: Liste des pages de documentation nouvelles et mises à jour
-topic: Documentation
-role: User
-level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 20213360b872c36649e81bbdb2d2c4307935d706
+source-git-commit: 5823be7a7717739b43cdc1e5877053d21ce4b5da
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
