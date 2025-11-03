@@ -5,7 +5,7 @@ title: Rapport des mises à jour mensuelles de la documentation
 description: Liste des pages de documentation nouvelles et mises à jour
 hide: true
 hidefromtoc: true
-source-git-commit: 2bbb733577d8aeb09a8cbd8e49f2665acaa2c794
+source-git-commit: 2d81708b4829c330732de62177fc781d892d416d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Mises À Jour De La Documentation - Nouveau Contenu Et Conseils
+# Mises à jour de la documentation - Contenu nouveau et mis à jour
 
 **Période :** 15 Octobre - 3 Novembre 2025
 
