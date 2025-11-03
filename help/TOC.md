@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 11bccd63afa1bf5aafcd1dff70c8193ea754d256
+source-git-commit: 013c5758a106cfd3c2eaeecc25cc6ca4a4b41375
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3015'
 ht-degree: 99%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 99%
       + [2022](using/rn/release-notes-2022.md)
       + [2021](using/rn/release-notes-2021.md)
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
+   + [Rapport des mises à jour mensuelles](../monthly-updates-report.md)
    + [Amélioration de la zone de travail de parcours](using/rn/new-canvas.md)
 + Commencer {#get-started}
    + [Commencer](/help/rp_landing_pages/get-started-landing-page.md)
@@ -979,7 +980,7 @@ ht-degree: 99%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
