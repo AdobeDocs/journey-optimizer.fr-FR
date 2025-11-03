@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
+source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
 workflow-type: tm+mt
-source-wordcount: '2861'
+source-wordcount: '2908'
 ht-degree: 98%
 
 ---
 
 # Mécanismes de sécurisation et limitations {#limitations}
 
-Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
+Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
 
-Les droits, les limitations de produit et la sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 >[!CAUTION]
@@ -54,7 +54,11 @@ Cette modification sera déployée sur les **sandbox client existants** dans une
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des e-mails depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage], par exemple.
+Les mécanismes de sécurisation suivants s’appliquent au [canal e-mail](../email/get-started-email.md) :
+
+* Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des e-mails depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage], par exemple.
+
+Lors de la conception des e-mails, le système vérifie les paramètres clés et affiche des alertes pour les avertissements (recommandations et bonnes pratiques) et les erreurs (blocage des problèmes qui empêchent le test ou l’activation). En savoir plus sur les alertes par e-mail et les exigences de validation dans [cette section](../email/create-email.md#check-email-alerts).
 
 ### Mécanismes de sécurisation des SMS {#sms-guardrails}
 
@@ -112,7 +116,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../cont
 
   En savoir plus sur les compositions d’audiences sur [cette page](../audience/get-started-audience-orchestration.md).
 
-* Lors de l’ingestion de données, les e-mails respectent la casse. Cela signifie que des profils en double peuvent être créés (par exemple, un profil pour John.Greene@luma.com, un autre pour john.greene@luma.com) et utilisés lors du ciblage du destinataire correspondant dans vos parcours et campagnes [!DNL Journey Optimizer].
+* Lors de l’ingestion de données, les e-mails sont sensibles à la casse. Cela signifie que des profils en double peuvent être créés (par exemple, un profil pour John.Greene@luma.com, un autre pour john.greene@luma.com) et utilisés lors du ciblage de la personne destinataire correspondante dans vos parcours et campagnes [!DNL Journey Optimizer].
 
 ## Mécanismes de sécurisation des décisions et de la gestion des décisions {#decisioning-guardrails}
 
@@ -139,7 +143,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
