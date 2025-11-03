@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
+source-git-commit: 7878e51e4ffb84ec84acee26872b5ab69900e806
 workflow-type: tm+mt
-source-wordcount: '2753'
-ht-degree: 100%
+source-wordcount: '2729'
+ht-degree: 99%
 
 ---
 
@@ -76,7 +76,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -148,11 +148,7 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les utilisateurs et utilisatrices reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clientes et clients et donc d’optimiser chaque point de contact avec la meilleure offre.
 
-Vous pouvez ajouter jusqu’à 10 règles de limitation pour une offre donnée. Pour définir une règle de limitation, cliquez sur le bouton **[!UICONTROL Créer une limitation]** puis procédez comme suit :
-
->[!CAUTION]
->
->Il n’est pas possible d’activer ou de désactiver le capping de la fréquence pour les offres créées précédemment. Pour cela, vous devez créer une offre.
+Vous pouvez ajouter jusqu’à 10 règles de limitation pour une offre donnée. Pour définir une règle de limitation, cliquez sur le bouton **[!UICONTROL Créer une limitation]**, puis suivez les étapes ci-dessous.
 
 1. Définissez l’**[!UICONTROL Événement de limitation]** à prendre en compte pour augmenter le compteur. [En savoir plus](#capping-event).
 
