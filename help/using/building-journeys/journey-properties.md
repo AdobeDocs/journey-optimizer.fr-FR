@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2733'
-ht-degree: 100%
+source-wordcount: '2748'
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ Pour plus d’informations sur les champs techniques liés à un parcours pour u
 
 Le mode d’entrée des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
 
-La gestion des entrées de profils dépend du type de parcours. Pour plus d’informations sur la gestion des entrées et des rentrées de profils, consultez [cette page](entry-management.md).
+La gestion des entrées de profils dépend du type de parcours. Pour en savoir plus sur la gestion des entrées et des reprises de profil, consultez [cette page](entry-management.md). En savoir plus sur les taux de traitement des parcours et le flux des profils dans les parcours dans [cette section](entry-management.md#journey-processing-rate).
 
 ### Autoriser une nouvelle rentrée  {#allow-reentrance}
 

@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 99%
+source-wordcount: '1555'
+ht-degree: 98%
 
 ---
 
@@ -77,6 +77,8 @@ Pour les événements générés par le système, le service Pipeline filtre les
 
 Adobe Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours par seconde au niveau d’une organisation, sur tous les sandbox. Ce quota s’applique à tous les événements utilisés dans les parcours en cours, qui incluent les parcours **Actifs**, de **Test à blanc**, **Fermés** et **Mis en pause**. Lorsque ce quota est atteint, les nouveaux événements sont mis en file d’attente avec un taux de traitement de 5 000 éléments par seconde. La durée maximale qu’un événement peut passer dans la file d’attente est de **24 heures**.
 
+Pour plus d’informations sur les taux de traitement des parcours et l’impact des différents types de parcours sur le débit, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
+
 Les types d’événements suivants sont comptabilisés dans le quota des 5 000 TPS :
 
 * **Événements unitaires externes** : inclut les événements basés sur des règles et ceux générés par le système. Si un même événement brut est admissible à plusieurs définitions de règle, chaque règle admise est comptabilisée comme un événement distinct. Vous trouverez plus de détails ci-dessous.
@@ -120,8 +122,8 @@ Les événements utilisés dans des parcours **actifs**, **brouillons** ou **fer
 
 Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431514?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416325?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

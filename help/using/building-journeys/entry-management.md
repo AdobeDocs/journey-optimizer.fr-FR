@@ -9,10 +9,10 @@ level: Intermediate
 keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 51%
 
 ---
 
@@ -34,6 +34,36 @@ Avec Adobe Journey Optimizer, vous pouvez créer les types de parcours suivant
 * Parcours **Qualification de l’audience** : ces parcours commencent par un événement Qualification de l’audience. Ces parcours écoutent les entrées et les sorties des profils dans les audiences. Lorsque cela se produit, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
 
 Dans tous les types de parcours, un profil ne peut pas être présent plusieurs fois dans un même parcours et au même moment. Cela s’applique à toutes les [versions actives du parcours](publishing-the-journey.md#journey-versions-journey-versions). Pour vérifier qu’une personne se trouve dans un parcours, l’identité du profil est utilisée comme clé. Le système n’autorise pas qu’une même clé (`CRMID=3224`, par exemple) se trouve à des endroits différents dans un même parcours.
+
+## taux de traitement du parcours {#journey-processing-rate}
+
+Le taux de traitement des parcours est affecté par plusieurs facteurs qui déterminent la façon dont les profils traversent un parcours :
+
+### Taux d’entrée de profil {#profile-entrance-rate}
+
+La façon dont les profils rejoignent les parcours et leur taux attendu dépendent de la première activité utilisée :
+
+* **Lecture d’audience** parcours (scénario par lots, où vous ciblez une audience de profils et déclenchez un parcours pour cette audience complète) : le maximum est de 20 000 TPS (transactions par seconde), qui est le quota disponible à un **niveau de sandbox**. Si vous avez plusieurs parcours s’exécutant en même temps sur ce sandbox, un objectif de 20 000 TPS peut ne pas être réalisable. Considérez ce maximum comme le meilleur scénario.
+
+* **Qualification de l’audience** parcours (scénario unitaire, où vous souhaitez déclencher un parcours lorsqu’un profil est qualifié ou non pour une audience de diffusion en continu) : le maximum est de 5 000 TPS. Notez qu’il s’agit d’une limite partagée avec les parcours commençant par les événements et qui est également partagée entre les parcours au **niveau de l’organisation**.
+
+* **Événement unitaire** parcours (scénario unitaire, dans lequel vous souhaitez déclencher un parcours lorsqu’un événement est émis à partir d’un profil) : comme ci-dessus, les deux partagent la même limite de 5 000 TPS. Pour plus d’informations sur le débit des événements de parcours, consultez [cette section](../event/about-events.md#event-thoughput).
+
+* **Événement métier** parcours (qui est essentiellement un scénario unitaire à batch, car un événement métier est toujours suivi d’une Lecture d’audience) : les événements métier sont également comptabilisés dans le quota de 5 000 TPS, mais l’activité Lecture d’audience juste après a la même limite que les parcours commençant par une Lecture d’audience (20 000 TPS).
+
+### Qualifications des événements et des audiences dans les parcours {#events-inside-journeys}
+
+Après l’entrée, vous pouvez utiliser les activités **Événement unitaire** ou **Qualification de l’audience** dans le parcours. Un profil peut entrer dans l’un des 4 types de parcours décrits ci-dessus et attendre qu’un événement soit émis ou que ce profil soit qualifié pour une audience. Ces événements unitaires et qualifications d’audience seront comptabilisés dans le quota décrit ci-dessus. Par exemple : si vous démarrez un parcours avec une audience Lecture (avec un maximum de 20 000 TPS) et que vous avez un événement juste après, ce dernier aura un maximum de 5 000 TPS.
+
+### Impact des activités d’attente {#wait-activities-impact}
+
+Les activités **d’attente** dans les parcours peuvent également avoir un impact sur le nombre de profils qui traversent un parcours à un moment donné. En règle générale, une activité Attente est basée sur un temps relatif (par exemple : quittez 2 heures après l’entrée dans l’attente, de sorte que tous les profils ne quittent pas en même temps). Cependant, si une heure fixe est définie pour cette activité Attente , plusieurs profils peuvent quitter ce parcours exactement au même moment. Cette pratique n’est pas recommandée. Des volumes massifs ont alors pu être vus et le TPS à partir de ce point peut dépasser 20 000 TPS.
+
+### Activités d’action {#action-activities-impact}
+
+Enfin, les activités **action** (canaux natifs tels que l’e-mail, les SMS, les notifications push, etc., sortantes ou entrantes, les actions personnalisées, les sauts qui envoient des profils à d’autres parcours, les mises à jour de profils qui envoient des données au service de profil unifié, etc.) peuvent être affectées par la charge de profil provenant des parcours, mais peuvent également avoir une incidence sur le taux de traitement. Par exemple, une action personnalisée ciblant un point d’entrée externe avec un temps de réponse élevé ralentira le taux de traitement du parcours.
+
+Pour les actions personnalisées, la limitation par défaut est de 300 000 appels par minute, ce qui peut être modifié par une politique de limitation personnalisée. En savoir plus sur la limitation des actions personnalisées dans [cette section](../configuration/external-systems.md#capping).
 
 ## Parcours Événement unitaire et Qualification de l’audience{#entry-unitary}
 

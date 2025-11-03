@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 97%
+source-wordcount: '781'
+ht-degree: 96%
 
 ---
 
@@ -39,6 +39,8 @@ Les étapes principales de la création d’un parcours sont détaillées sur ce
 
 
 Créez des parcours clients à plusieurs étapes pour démarrer une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clientes et clients interagissent aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents. Les audiences cibles sont définies en fonction du comportement, des données contextuelles et des événements métier. Les prérequis dépendent de votre cas d’utilisation et du [type de parcours](entry-management.md#types-of-journeys) que vous créez.
+
+En savoir plus sur le flux des profils dans les parcours et les taux de traitement des parcours dans [cette section](entry-management.md#journey-processing-rate).
 
 Avant de commencer à créer votre parcours, vérifiez que les étapes de configuration appropriées sont effectuées :
 

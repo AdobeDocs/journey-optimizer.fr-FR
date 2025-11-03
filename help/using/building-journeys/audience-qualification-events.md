@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 99%
+source-wordcount: '1226'
+ht-degree: 95%
 
 ---
 
@@ -96,7 +96,7 @@ Un nouveau parcours contenant un événement de **qualification d’audience** e
 
 L’activité **[!UICONTROL Qualification d’audience]** permet une entrée immédiate dans les parcours des personnes qualifiées ou disqualifiées d’une audience Adobe Experience Platform.
 
-La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, vous devez veiller à comprendre comment des pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours.
+La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, assurez-vous de comprendre comment les pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours. Pour en savoir plus sur les taux de traitement du parcours et les limites de débit, consultez [cette section](entry-management.md#journey-processing-rate).
 
 ### Audiences par lots {#batch-speed-segment-qualification}
 
@@ -125,6 +125,8 @@ Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les sy
 * Avant d’utiliser l’audience dans un parcours en production, évaluez quotidiennement le nombre de personnes qualifiées pour cette audience. Pour ce faire, accédez au menu **[!UICONTROL Audiences]**, ouvrez l’audience, puis consultez le graphique **[!UICONTROL Profils dans le temps]**.
 
   ![](assets/segment-overload.png)
+
+En savoir plus sur les limites de débit d’entrée dans [cette section](entry-management.md#profile-entrance-rate).
 
 ## Mécanismes de sécurisation et limitations {#audience-qualification-guardrails}
 
@@ -162,4 +164,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

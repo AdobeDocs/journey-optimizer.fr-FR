@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
+source-git-commit: e83b49e887e60d12f15252360062c749ed8bd641
 workflow-type: tm+mt
-source-wordcount: '2908'
-ht-degree: 98%
+source-wordcount: '2929'
+ht-degree: 96%
 
 ---
 
@@ -143,7 +143,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -228,6 +228,8 @@ Le mécanisme de sécurisation suivant s’applique à l’activité de parcours
 * L’activité Qualification de l’audience ne peut pas être utilisée avec les activités Adobe Campaign.
 * Les identifiants supplémentaires ne sont pas pris en charge pour les parcours de qualification d’audience.
 
+Pour en savoir plus sur les taux de traitement du parcours et les limites de débit, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
+
 #### Activités de campagne {#ac-g}
 
 Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
@@ -264,7 +266,7 @@ Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **
 Les mécanismes de sécurisation suivants s’appliquent à l’activité de parcours [Lecture d’audience](../building-journeys/read-audience.md) :
 
 * Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
-* Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifiés ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
+* Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifié ou commençant « dès que possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle. En savoir plus sur les taux de traitement des parcours dans [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 * L’activité **Lecture d’audience** ne peut pas être utilisée avec les activités Adobe Campaign.
 * L’activité **Lecture d’audience** ne peut être utilisée que comme première activité dans un parcours ou après une activité d’événement métier.
 * Un parcours ne peut avoir qu’une seule activité **Lecture d’audience**.
