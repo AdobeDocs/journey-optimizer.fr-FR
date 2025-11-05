@@ -5,7 +5,9 @@ title: Conversion
 description: Conversion
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+hide: true
+hidefromtoc: true
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
@@ -26,7 +28,7 @@ Fonction toBool
 
 Convertissez différents types de données en valeurs booléennes à l’aide de la fonction toBool.
 
-[Découvrir comment utiliser la fonction toBool](../using/building-journeys/functions/functiontobool.md)
+[Découvrir comment utiliser la fonction toBool](../using/building-journeys/functions/conversion-functions.md#toBool)
 :::
 
 :::
@@ -36,7 +38,7 @@ Fonction toDateOnly
 
 Convertissez les représentations de date en un type dateOnly avec la fonction toDateOnly.
 
-[Découvrir comment utiliser la fonction toDateOnly](../using/building-journeys/functions/functiontodateonly.md)
+[Découvrir comment utiliser la fonction toDateOnly](../using/building-journeys/functions/conversion-functions.md#toDateOnly)
 :::
 
 :::
@@ -46,7 +48,7 @@ Fonction toDateTime
 
 Convertissez différentes entrées en une valeur date-heure à l’aide de la fonction toDateTime.
 
-[Découvrir comment utiliser la fonction toDateTime](../using/building-journeys/functions/functiontodatetime.md)
+[Découvrir comment utiliser la fonction toDateTime](../using/building-journeys/functions/conversion-functions.md#toDateTime)
 :::
 
 :::
@@ -56,7 +58,7 @@ Fonction toDateTimeOnly
 
 Convertissez une valeur au format date-heure sans fuseau horaire à l’aide de la fonction toDateTimeOnly.
 
-[Découvrir comment utiliser la fonction toDateTimeOnly](../using/building-journeys/functions/functiontodatetimeonly.md)
+[Découvrir comment utiliser la fonction toDateTimeOnly](../using/building-journeys/functions/conversion-functions.md#toDateTimeOnly)
 :::
 
 :::
@@ -66,7 +68,7 @@ Fonction toDecimal
 
 Convertissez divers types de données en valeurs décimales à l’aide de la fonction toDecimal.
 
-[Découvrir comment utiliser la fonction toDecimal](../using/building-journeys/functions/functiontodecimal.md)
+[Découvrir comment utiliser la fonction toDecimal](../using/building-journeys/functions/conversion-functions.md#toDecimal)
 :::
 
 :::
@@ -76,7 +78,7 @@ Fonction toDuration
 
 Convertissez les arguments en valeurs de durée à l’aide de chaînes ou de millisecondes avec la fonction toDuration.
 
-[Découvrir comment utiliser la fonction toDuration](../using/building-journeys/functions/functiontoduration.md)
+[Découvrir comment utiliser la fonction toDuration](../using/building-journeys/functions/conversion-functions.md#toDuration)
 :::
 
 ::::
@@ -84,5 +86,5 @@ Convertissez les arguments en valeurs de durée à l’aide de chaînes ou de mi
 
 ## Ressources supplémentaires
 
-- **[Fonction toInteger](../using/building-journeys/functions/functiontointeger.md)** : convertissez différents types de données en nombres entiers à l’aide de la fonction toInteger.
-- **[Fonction toString](../using/building-journeys/functions/functiontostring.md)** : convertissez des types de données en leurs représentations sous forme de chaîne à l’aide de la fonction toString.
+- **[Fonction toInteger](../using/building-journeys/functions/conversion-functions.md#toInteger)** : convertissez différents types de données en nombres entiers à l’aide de la fonction toInteger.
+- **[Fonction toString](../using/building-journeys/functions/conversion-functions.md#toString)** : convertissez des types de données en leurs représentations sous forme de chaîne à l’aide de la fonction toString.

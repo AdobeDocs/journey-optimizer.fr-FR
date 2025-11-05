@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
-source-wordcount: '3007'
-ht-degree: 99%
+source-wordcount: '3000'
+ht-degree: 98%
 
 ---
 
@@ -117,15 +117,7 @@ ht-degree: 99%
          + Agrégation {#aggregation}
             + [Fonctions d’agrégation](using/building-journeys/functions/aggregation-functions.md)
          + Conversion {#conversion}
-            + [Conversion](/help/rp_landing_pages/conversion-landing-page.md)
-            + [toBool](using/building-journeys/functions/functiontobool.md)
-            + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
-            + [toDateTime](using/building-journeys/functions/functiontodatetime.md)
-            + [toDateTimeOnly](using/building-journeys/functions/functiontodatetimeonly.md)
-            + [toDecimal](using/building-journeys/functions/functiontodecimal.md)
-            + [toDuration](using/building-journeys/functions/functiontoduration.md)
-            + [toInteger](using/building-journeys/functions/functiontointeger.md)
-            + [toString](using/building-journeys/functions/functiontostring.md)
+            + [Fonctions de conversion](using/building-journeys/functions/conversion-functions.md)
          + Date {#date}
             + [Date](/help/rp_landing_pages/date-landing-page.md)
             + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
@@ -971,7 +963,7 @@ ht-degree: 99%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
