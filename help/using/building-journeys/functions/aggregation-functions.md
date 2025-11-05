@@ -7,16 +7,26 @@ role: Developer
 level: Experienced
 keywords: agrégation, fonctions, expression, parcours, moyenne, nombre, max, min, somme
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 88%
+source-wordcount: '712'
+ht-degree: 79%
 
 ---
 
 # Fonctions d’agrégation {#aggregation-functions}
 
-Les fonctions d&#39;agrégation sont utilisées pour effectuer des calculs sur un ensemble de valeurs et renvoyer une seule valeur. Ces fonctions sont particulièrement utiles lorsque vous utilisez des listes et des tableaux dans vos expressions de parcours.
+Les fonctions d&#39;agrégation effectuent des calculs sur un ensemble de valeurs et renvoient un seul résultat résumé. Ces fonctions vous permettent d’analyser les données dans vos expressions de parcours en calculant des moyennes, en recherchant des valeurs minimales et maximales, en comptant les éléments et en additionnant les valeurs numériques.
+
+Utilisez des fonctions d’agrégation lorsque vous devez :
+
+* Calculer des valeurs statistiques à partir de listes ou de tableaux (moyenne, somme, min, max)
+* Compter les éléments dans les collections, avec des options pour inclure ou exclure les valeurs nulles
+* Déterminer des valeurs uniques dans les jeux de données
+* Prendre des décisions axées sur les données en fonction de mesures calculées
+
+Les fonctions d’agrégation gèrent automatiquement les valeurs nulles en fonction de leur comportement spécifique, ce qui facilite l’utilisation des données du monde réel qui peuvent contenir des valeurs manquantes ou non définies.
+
 
 ## avg {#avg}
 
@@ -115,8 +125,6 @@ Renvoie le nombre d’objets dans le tableau d’objets donné (type listObject)
 
 Compte le nombre de valeurs « null » dans la liste.
 
-**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
-
 +++Syntaxe
 
 `countOnlyNull(<listAny>)`
@@ -147,11 +155,11 @@ Renvoie 1.
 
 +++
 
+**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
+
 ## countWithNull {#countWithNull}
 
 Compte tous les éléments de la liste, y compris les valeurs « null ».
-
-**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
 
 +++Syntaxe
 
@@ -182,6 +190,8 @@ Renvoie un entier.
 Renvoie 4.
 
 +++
+
+**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
 
 ## distinctCount {#distinctCount}
 
@@ -236,8 +246,6 @@ Renvoie le nombre d’objets ayant une valeur d’attribut {} « SKU » distin
 
 Compte le nombre de valeurs différentes, y compris les valeurs « null ».
 
-**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
-
 +++Syntaxe
 
 `distinctCountWithNull(<listAny>)`
@@ -267,6 +275,8 @@ Renvoie un entier.
 Renvoie 3.
 
 +++
+
+**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
 
 ## max {#max}
 
