@@ -9,7 +9,7 @@ level: Experienced
 keywords: fonction, expressions, éditeur, parcours
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -62,16 +62,16 @@ Voici la liste des fonctions prises en charge :
 | Date | [setHours](../functions/date-functions.md#setHours) |
 | Date | [setDays](../functions/date-functions.md#setDays) |
 | Date | [updateTimeZone](../functions/date-functions.md#updateTimeZone) |
-| Liste | [distinct](../functions/functiondistinct.md) |
-| Liste | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Liste | [filter](../functions/functionfilter.md) |
-| Liste | [getListItem](../functions/functiongetlistitem.md) |
-| Liste | [in](../functions/functionin.md) |
-| Liste | [intersect](../functions/functionintersect.md) |
-| Liste | [limit](../functions/functionlimit.md) |
-| Liste | [listSize](../functions/functionlistsize.md) |
-| Liste | [serializeList](../functions/functionserializelist.md) |
-| Liste | [sort](../functions/functionsort.md) |
+| Liste | [distinct](../functions/list-functions.md#distinct) |
+| Liste | [distinctWithNull](../functions/list-functions.md#distinctWithNull) |
+| Liste | [filter](../functions/list-functions.md#filter) |
+| Liste | [getListItem](../functions/list-functions.md#getListItem) |
+| Liste | [in](../functions/list-functions.md#in) |
+| Liste | [intersect](../functions/list-functions.md#intersect) |
+| Liste | [limit](../functions/list-functions.md#limit) |
+| Liste | [listSize](../functions/list-functions.md#listSize) |
+| Liste | [serializeList](../functions/list-functions.md#serializeList) |
+| Liste | [sort](../functions/list-functions.md#sort) |
 | Math | [random](../functions/functionrandom.md) |
 | Math | [round](../functions/functionround.md) |
 | Chaîne | [concat](../functions/functionconcat.md) |

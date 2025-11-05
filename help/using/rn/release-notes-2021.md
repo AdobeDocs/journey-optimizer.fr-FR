@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -152,7 +152,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 <p>Vous pouvez désormais transmettre des collections ou une liste de données dans vos paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge : collections simples et collections d’objets. Les actions personnalisées créées précédemment continueront à fonctionner. </p>
 <p>Pour plus d’informations sur les collections, consultez la <a href="../building-journeys/collections.md">documentation détaillée</a>. </p>
 <p>Les fonctions filter et intersect ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cela offre davantage de possibilités de filtrage et de comparaison des collections.</p>
-<p>Consultez la documentation sur les fonctions <a href="../building-journeys/functions/functionfilter.md">filter</a> et <a href="../building-journeys/functions/functionintersect.md">intersect</a>.</p>
+<p>Consultez la documentation sur les fonctions <a href="../building-journeys/functions/list-functions.md#filter">filter</a> et <a href="../building-journeys/functions/list-functions.md#intersect">intersect</a>.</p>
 </td>
 </tr>
 </tbody>

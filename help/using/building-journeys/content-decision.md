@@ -11,7 +11,7 @@ badge: label="Disponibilité limitée" type="Informative"
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
@@ -116,7 +116,7 @@ Pour tirer parti de la sortie d’une activité Décision de contenu, vous pouve
    >
    >Tout libellé restreint défini sur un attribut, soit dans un événement d’expérience de parcours utilisé dans une règle de décision (en tant que données contextuelles), soit dans le [schéma d’offres](../experience-decisioning/catalogs.md#access-catalog-schema), n’entraîne pas de violation de la politique DULE ou de la politique de consentement. Pour en savoir plus sur les politiques de gouvernance des données, consultez [cette section](../action/action-privacy.md).
 
-1. Pour vérifier si une offre a été renvoyée pour les profils qui rejoignent le parcours, utilisez la fonction [listSize](functions/functionlistsize.md) avec la syntaxe suivante : `listSize(@decision{ContentdecisionName.items})>0`
+1. Pour vérifier si une offre a été renvoyée pour les profils qui rejoignent le parcours, utilisez la fonction [listSize](functions/list-functions.md#listSize) avec la syntaxe suivante : `listSize(@decision{ContentdecisionName.items})>0`
 
    >[!NOTE]
    >

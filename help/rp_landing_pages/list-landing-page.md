@@ -5,7 +5,7 @@ title: Liste
 description: Liste
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Utiliser la fonction « distinct » dans Adobe Journey Optimizer
 
 Découvrez comment utiliser la fonction « distinct » pour dédupliquer des listes en renvoyant des valeurs ou des objets uniques, tout en ignorant les entrées nulles.
 
-[En savoir plus sur la fonction « distinct »](../using/building-journeys/functions/functiondistinct.md)
+[En savoir plus sur la fonction « distinct »](../using/building-journeys/functions/list-functions.md#distinct)
 :::
 
 :::
@@ -36,7 +36,7 @@ Fonction distinctWithNull - Adobe Journey Optimizer
 
 Découvrez comment utiliser « distinctWithNull » pour récupérer des valeurs ou des objets distincts d’une liste, tout en incluant des entrées nulles.
 
-[En savoir plus sur la fonction « distinctWithNull »](../using/building-journeys/functions/functiondistinctwithnull.md)
+[En savoir plus sur la fonction « distinctWithNull »](../using/building-journeys/functions/list-functions.md#distinctWithNull)
 :::
 
 :::
@@ -46,7 +46,7 @@ Utiliser la fonction « filter » dans Adobe Journey Optimizer
 
 Découvrez comment appliquer des filtres à des listes d’objets en fonction de valeurs de clé spécifiques à l’aide de la fonction « filter ».
 
-[Explorer les détails de la fonction « filter »](../using/building-journeys/functions/functionfilter.md)
+[Explorer les détails de la fonction « filter »](../using/building-journeys/functions/list-functions.md#filter)
 :::
 
 :::
@@ -56,7 +56,7 @@ Utiliser la fonction « getListItem » dans Adobe Journey Optimizer
 
 Découvrez comment récupérer un élément d’une liste à un index spécifique à l’aide de la fonction « getListItem ».
 
-[Comprendre « getListItem »](../using/building-journeys/functions/functiongetlistitem.md)
+[Comprendre « getListItem »](../using/building-journeys/functions/list-functions.md#getListItem)
 :::
 
 :::
@@ -66,7 +66,7 @@ Utiliser la fonction « in » dans Adobe Journey Optimizer
 
 Découvrez comment vérifier si une valeur existe dans une liste à l’aide de la fonction « in ».
 
-[En savoir plus sur la fonction « in »](../using/building-journeys/functions/functionin.md)
+[En savoir plus sur la fonction « in »](../using/building-journeys/functions/list-functions.md#in)
 :::
 
 :::
@@ -76,7 +76,7 @@ Fonction « intersect » dans Adobe Journey Optimizer
 
 Découvrez la façon dont la fonction « intersect » récupère des valeurs communes entre deux listes d’entrée.
 
-[Découvrir la fonction « intersect »](../using/building-journeys/functions/functionintersect.md)
+[Découvrir la fonction « intersect »](../using/building-journeys/functions/list-functions.md#intersect)
 :::
 
 ::::
@@ -84,7 +84,7 @@ Découvrez la façon dont la fonction « intersect » récupère des valeurs c
 
 ## Ressources supplémentaires
 
-- **[Utilisation de la fonction `limit` dans Adobe Journey Optimizer](../using/building-journeys/functions/functionlimit.md)** - Découvrez comment limiter une liste aux N premiers ou derniers éléments à l’aide de la fonction « limit ».
-- **[Référence de la fonction « listSize »](../using/building-journeys/functions/functionlistsize.md)** - Découvrez comment compter le nombre d’éléments dans une liste à l’aide de la fonction « listSize ».
-- **[Fonction « serializeList » dans Adobe Journey Optimizer](../using/building-journeys/functions/functionserializelist.md)** - Convertissez des listes en chaînes avec une mise en forme personnalisable à l’aide de la fonction « serializeList ».
-- **[Fonction « sort » dans Adobe Journey Optimizer](../using/building-journeys/functions/functionsort.md)** - Découvrez comment trier des listes de valeurs ou d’objets dans l’ordre naturel à l’aide de la fonction « sort ».
+- **[Utilisation de la fonction `limit` dans Adobe Journey Optimizer](../using/building-journeys/functions/list-functions.md#limit)** - Découvrez comment limiter une liste aux N premiers ou derniers éléments à l’aide de la fonction « limit ».
+- **[Référence de la fonction « listSize »](../using/building-journeys/functions/list-functions.md#listSize)** - Découvrez comment compter le nombre d’éléments dans une liste à l’aide de la fonction « listSize ».
+- **[Fonction « serializeList » dans Adobe Journey Optimizer](../using/building-journeys/functions/list-functions.md#serializeList)** - Convertissez des listes en chaînes avec une mise en forme personnalisable à l’aide de la fonction « serializeList ».
+- **[Fonction « sort » dans Adobe Journey Optimizer](../using/building-journeys/functions/list-functions.md#sort)** - Découvrez comment trier des listes de valeurs ou d’objets dans l’ordre naturel à l’aide de la fonction « sort ».

@@ -7,10 +7,10 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: eb3cd3f6fa096b6203e4ba54fbfc06f542d16c82
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2748'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -149,7 +149,7 @@ Les difficultés liées à la création de rapports sur le **canal in-app** dans
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} pour en savoir plus sur ce problème.
 
-Découvrez comment intégrer des données d’analyse Journey Optimizer dans Customer Journey Analytics [sur cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/integrations/ajo?lang=fr#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Découvrez comment intégrer des données d’analyse Journey Optimizer dans Customer Journey Analytics [sur cette page](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 Consultez également la [documentation sur les rapports complets de Journey Optimizer](../reports/report-gs-cja.md).
 
@@ -191,7 +191,7 @@ Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experi
 
 Pour en savoir plus sur l’activité **Mettre à jour le parcours**, consultez [cette page](../building-journeys/update-profiles.md).
 
-Consultez également la [documentation d’Adobe Experience Platform sur l’ingestion de données](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=fr#dataset-activity){target="_blank"}.
+Consultez également la [documentation d’Adobe Experience Platform sur l’ingestion de données](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
 
 +++
 
@@ -201,9 +201,9 @@ Cette incohérence peut se produire lorsque le parcours utilise l’instantané 
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
-Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=fr){target="_blank"}.
+Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
-Consultez également la [documentation de l’API Schedules d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/api/schedules?lang=fr){target="_blank"} pour savoir quand votre tâche quotidienne est planifiée.
+Consultez également la [documentation de l’API Schedules d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"} pour savoir quand votre tâche quotidienne est planifiée.
 
 +++
 
@@ -216,7 +216,7 @@ Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experi
 
 Pour en savoir plus sur l’activité **Mettre à jour le parcours**, consultez [cette page](../building-journeys/update-profiles.md).
 
-Consultez également la [documentation du profil Adobe Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide?lang=fr#profile-detail){target="_blank"}.
+Consultez également la [documentation du profil Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
 
 +++
 
@@ -228,7 +228,7 @@ Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experi
 
 Surveillez l’utilisation des licences et les profils engageables de votre organisation à l’aide du [tableau de bord d’utilisation des licences.](../audience/license-usage.md)
 
-Consultez également la [présentation du service de requête Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/query/home?lang=fr){target="_blank"}.
+Consultez également la [présentation du service de requête Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
 
 +++
 
@@ -238,7 +238,7 @@ Les e-mails peuvent être envoyés à des destinataires qui **ne répondent pas 
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"} pour apprendre comment résoudre ce problème.
 
-Pour en savoir plus sur les fonctions de date, consultez [cette page](../../rp_landing_pages/date-landing-page.md).
+Pour en savoir plus sur les fonctions de date, consultez [cette page](../building-journeys/functions/date-functions.md).
 
 +++
 
@@ -413,6 +413,6 @@ Les erreurs d’accès lors de l’utilisation de l’**API Query Service** via 
 
 Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} pour en savoir plus.
 
-Consultez également la [documentation sur la gestion des informations d’identification des API](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=fr#manage-api-credentials-for-role){target="_blank"}.
+Consultez également la [documentation sur la gestion des informations d’identification des API](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
 
 +++
