@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
+source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 33%
@@ -146,7 +146,7 @@ Pour appliquer des thèmes de style par défaut ou personnalisés à un modèle 
 
 1. Lorsqu’un thème est sélectionné dans un modèle de contenu, vous pouvez cliquer sur le bouton **[!UICONTROL Modifier le thème]** pour le mettre à jour. [En savoir plus](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ Vous pouvez baculer entre les thèmes à tout moment. Le contenu de l’e-mail r
 
 Lorsqu’un composant est sélectionné, vous pouvez déverrouiller son style à l’aide de l’icône dédiée dans l’onglet **[!UICONTROL Styles]**.
 
-![](assets/theme-unlock-style.png){width="90%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style.png){width="90%"}
 
 Le thème sélectionné est toujours appliqué à ce composant, mais vous pouvez remplacer ses éléments de mise en forme. Si vous modifiez les thèmes, le nouveau thème n’est appliqué qu’aux éléments de style qui n’ont pas été remplacés.<!--can you revert this action?-->
 
@@ -180,7 +180,7 @@ Par exemple, si vous déverrouillez un composant de texte, vous pouvez modifier 
 
 Si vous modifiez les thèmes, <!--the font size is still 14 and -->la couleur de la police est toujours rouge pour ce composant, mais la couleur d’arrière-plan de ce composant changera avec le nouveau thème :
 
-![](assets/theme-unlock-style-ex-colored.png){width="80%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
 ## Utiliser les thèmes dans un fragment {#leverage-themes-fragment}
 
@@ -192,7 +192,7 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Sélectionnez **[!UICONTROL Utiliser des thèmes]** pour commencer avec un thème de style prédéfini.
 
-   ![](assets/fragment-use-themes.png){width="100%" align="center" zoomable="yes"}
+   ![](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -206,11 +206,11 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Vous pouvez sélectionner d’autres thèmes pour prévisualiser le contenu de votre fragment. Pour ce faire, sélectionnez la flèche en regard du thème par défaut, puis cliquez sur **[!UICONTROL Sélectionner des thèmes]**.
 
-   ![](assets/fragment-select-themes.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/fragment-select-themes.png){width="40%"}
 
 1. Vous pouvez naviguer entre les onglets **[!UICONTROL Thèmes Adobe]** et **[!UICONTROL Mes thèmes]** et sélectionner jusqu’à cinq thèmes compatibles (dans les deux onglets) pour votre fragment.
 
-   ![](assets/fragment-select-compatible-themes.png){width=70% align="center" zoomable="yes"}
+   ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
@@ -220,7 +220,7 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Sélectionnez à nouveau la flèche en regard du **[!UICONTROL Thème par défaut]**. Vous pouvez désormais basculer entre les différents thèmes que vous venez de sélectionner pour prévisualiser chaque rendu de style.
 
-   ![](assets/fragment-selected-themes.png){width=90% align="center" zoomable="yes"}
+   ![](assets/fragment-selected-themes.png){width=90%}
 
 1. Cliquez de nouveau sur **[!UICONTROL Sélectionner des thèmes]** pour ajouter d’autres thèmes ou modifier votre sélection.
 
@@ -232,16 +232,16 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Sélectionnez l’icône **[!UICONTROL Thèmes]** sur le rail de droite et cliquez sur le bouton **[!UICONTROL Générer le thème à partir du contenu]**.
 
-   ![](assets/generate-theme.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme.png){width=100%}
 
 1. La fenêtre **[!UICONTROL Créer un thème]** s’ouvre. [!DNL Journey Optimizer] détecte automatiquement les éléments de style et les consolide dans un nouveau thème.
 
-   ![](assets/generate-theme-create-window.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-create-window.png){width=90%}
 
 1. Attribuez un nom à votre thème.
 
 1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro, comme l’ajout d’une variante de couleur, la modification des polices, etc. [Voici comment procéder](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-colors.png){width=90%}
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour stocker ce nouveau thème en vue de le réutiliser. Vous pouvez maintenant appliquer ce thème à vos contenus, comme n’importe quel autre thème. [Voici comment procéder](#leverage-themes-fragment)
