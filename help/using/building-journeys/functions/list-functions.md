@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: list, fonctions, expression, parcours, tableau, collection
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 86%
+source-wordcount: '1158'
+ht-degree: 85%
 
 ---
 
@@ -20,13 +20,13 @@ Les fonctions de liste vous permettent de manipuler et d’utiliser des collecti
 
 Utilisez des fonctions de liste lorsque vous devez :
 
-* Filtrer et extraire des éléments spécifiques des collections en fonction de critères
-* Trier et organiser les éléments de liste par ordre croissant ou décroissant
-* Supprimer les doublons et obtenir des valeurs uniques des listes
-* Vérifier si les valeurs existent dans les collections
-* Limiter le nombre d’éléments renvoyés par une liste
-* Transformer des listes en différents formats ou types de données
-* Effectuer des opérations de visionneuse, comme rechercher des éléments communs entre les listes
+* Filtrer et extraire des éléments spécifiques des collections en fonction de critères ([filter](#filter), [getListItem](#getListItem))
+* Trier et organiser les éléments de liste par ordre croissant ou décroissant ([sort](#sort))
+* Supprimer les doublons et obtenir des valeurs uniques des listes ([distinct](#distinct), [distinctWithNull](#distinctWithNull))
+* Vérifier si des valeurs existent dans les collections ([in](#in))
+* Limiter le nombre d’éléments renvoyés par une liste ([limit](#limit))
+* Obtenir la taille d’une liste ([listSize](#listSize)) ou transformer des listes en différents formats ([serializeList](#serializeList))
+* Effectuer des opérations définies telles que la recherche d’éléments communs entre les listes ([intersect](#intersect))
 
 Les fonctions de liste fournissent des outils puissants pour travailler avec des structures de données complexes, ce qui permet une manipulation de données sophistiquée et une logique conditionnelle basée sur les contenus de collection.
 

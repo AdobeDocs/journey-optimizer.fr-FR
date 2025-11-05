@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: agrégation, fonctions, expression, parcours, moyenne, nombre, max, min, somme
 version: Journey Orchestration
-source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 79%
+source-wordcount: '717'
+ht-degree: 78%
 
 ---
 
@@ -20,9 +20,9 @@ Les fonctions d&#39;agrégation effectuent des calculs sur un ensemble de valeur
 
 Utilisez des fonctions d’agrégation lorsque vous devez :
 
-* Calculer des valeurs statistiques à partir de listes ou de tableaux (moyenne, somme, min, max)
-* Compter les éléments dans les collections, avec des options pour inclure ou exclure les valeurs nulles
-* Déterminer des valeurs uniques dans les jeux de données
+* Calculer des valeurs statistiques à partir de listes ou de tableaux ([avg](#avg), [sum](#sum), [min](#min), [max](#max))
+* Compter les éléments dans les collections ([count](#count), [countOnlyNull](#countOnlyNull), [countWithNull](#countWithNull)), avec des options pour inclure ou exclure les valeurs nulles
+* Déterminer des valeurs uniques dans les jeux de données ([distinctCount](#distinctCount), [distinctCountWithNull](#distinctCountWithNull))
 * Prendre des décisions axées sur les données en fonction de mesures calculées
 
 Les fonctions d’agrégation gèrent automatiquement les valeurs nulles en fonction de leur comportement spécifique, ce qui facilite l’utilisation des données du monde réel qui peuvent contenir des valeurs manquantes ou non définies.

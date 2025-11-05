@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: date, fonctions, expression, parcours, heure
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 84%
+source-wordcount: '791'
+ht-degree: 83%
 
 ---
 
@@ -20,9 +20,9 @@ Les fonctions de date vous permettent de manipuler et d’utiliser des valeurs d
 
 Utilisez des fonctions de date lorsque vous devez :
 
-* Obtenir l’heure ou la date actuelle avec une gestion des fuseaux horaires spécifique
-* Vérifier si une date se situe dans une période spécifique (passée ou future)
-* Modifier les composants de date et d’heure (heures, jours, fuseaux horaires)
+* Obtenez l’heure ou la date actuelles avec une gestion spécifique des fuseaux horaires ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
+* Vérifiez si une date se situe dans une plage de temps spécifique ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
+* Modifier les composants de date et d’heure ([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone))
 * Effectuer des calculs et des comparaisons temporels
 * Conversion entre différents formats d&#39;heure et représentations
 

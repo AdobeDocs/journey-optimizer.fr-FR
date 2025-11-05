@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: chaîne, fonctions, expression, parcours, texte, manipulation
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 84%
+source-wordcount: '1127'
+ht-degree: 82%
 
 ---
 
@@ -20,15 +20,16 @@ Les fonctions de chaîne vous permettent de manipuler et d’utiliser des valeur
 
 Utilisez des fonctions de chaîne lorsque vous devez :
 
-* Concaténer et combiner plusieurs valeurs de texte
-* Rechercher des modèles de texte ou des sous-chaînes spécifiques
-* Comparer des chaînes avec une correspondance sensible à la casse ou insensible à la casse
-* Extraire des parties de texte à l’aide d’opérations de sous-chaîne
-* Transformer le texte en majuscules ou en minuscules
-* Vérifier si les chaînes sont vides ou contiennent des valeurs spécifiques
-* Remplacer les modèles de texte par de nouvelles valeurs
-* Diviser les chaînes en tableaux pour un traitement ultérieur
-* Validation du texte par rapport aux expressions régulières
+* Concaténer et combiner plusieurs valeurs de texte ([concat](#concat))
+* Recherchez des modèles de texte ou des sous-chaînes spécifiques ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
+* Comparer des chaînes avec une correspondance sensible à la casse ou insensible à la casse ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
+* Vérifiez que la chaîne commence et se termine ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase)).
+* Extraire des parties de texte à l’aide d’opérations de sous-chaîne ([substr](#substr))
+* Transformer le texte en majuscules ou en minuscules ([majuscule](#upper), [inférieure](#lower), [rognage](#trim))
+* Vérifiez si les chaînes sont vides ou contiennent des valeurs spécifiques ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty))
+* Remplacer des modèles de texte par de nouvelles valeurs ([replace](#replace), [replaceAll](#replaceAll))
+* Diviser les chaînes en tableaux pour un traitement ultérieur ([division](#split))
+* Obtenir la longueur de la chaîne ([length](#length)) ou générer les identifiants uniques ([uuid](#uuid))
 
 Les fonctions de chaîne fournissent des fonctionnalités complètes de manipulation de texte, permettant un traitement des données sophistiqué et une logique conditionnelle basée sur le contenu texte de vos expressions de parcours.
 
