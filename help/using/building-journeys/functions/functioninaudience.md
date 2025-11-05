@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, fonction, expression, parcours, audience, segmentation
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
+source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ La fonction `inAudience` est une fonction Adobe Experience Platform qui vous per
 
 Utilisez la fonction `inAudience` lorsque vous devez :
 
-* [Chemins d’accès aux parcours des branches en fonction de l’appartenance à l’audience](../condition-activity.md#using-a-segment)
+* Chemins de parcours des branches en fonction de l’appartenance à l’audience. [En savoir plus](../condition-activity.md#using-a-segment)
 * Appliquez une logique conditionnelle qui dépend du fait qu’un profil appartient ou non à un segment spécifique
 * Cibler des groupes spécifiques de clients et clientes avec des expériences personnalisées
 * Évaluation de la participation de l’audience en temps réel dans des conditions de parcours
@@ -109,7 +109,7 @@ Lors de l’utilisation de la fonction `inAudience` dans vos parcours, tenez com
 
 **Considérations relatives aux politiques de fusion :**
 * Lors de l’utilisation de plusieurs audiences avec la fonction `inAudience` , les incohérences avec les politiques de fusion peuvent entraîner des erreurs ou des alertes
-* Pour plus d’informations sur le comportement de la politique de fusion[&#x200B; voir &#x200B;](../journey-properties.md)Propriétés du Parcours
+* Pour plus d’informations sur le comportement de la politique de fusion[ voir ](../journey-properties.md)Propriétés du Parcours
 
 ## Rubriques connexes
 
