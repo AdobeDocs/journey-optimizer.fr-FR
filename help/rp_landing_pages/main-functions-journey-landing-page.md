@@ -5,7 +5,9 @@ title: Fonctions
 description: Fonctions
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+hide: true
+hidefromtoc: true
+source-git-commit: 5f63c10a79847a271e330f440fdfdb1ff64ffa88
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -40,7 +42,7 @@ Découvrez comment évaluer l’abonnement à une audience à l’aide de la fon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Référence des fonctions d’agrégation
 
@@ -84,5 +86,5 @@ Utilisez les fonctions de liste pour des opérations telles que la déduplicatio
 
 ## Ressources supplémentaires
 
-- **[Fonctions mathématiques](math-landing-page.md)** : explorez les fonctions mathématiques telles que les calculs aléatoires et les arrondis pour les calculs numériques dans les expressions de parcours.
-- **[Fonctions de chaîne dans Adobe Journey Optimizer](string-landing-page.md)** : manipulez les chaînes à l’aide de fonctions pour la concaténation, l’extraction de sous-chaînes, la mise en forme, et bien d’autres aspects dans les expressions de parcours.
+- **[Fonctions mathématiques](../using/building-journeys/functions/math-functions.md)** : explorez les fonctions mathématiques telles que les calculs aléatoires et les arrondis pour les calculs numériques dans les expressions de parcours.
+- **[Fonctions de chaîne dans Adobe Journey Optimizer](../using/building-journeys/functions/string-functions.md)** : manipulez les chaînes à l’aide de fonctions pour la concaténation, l’extraction de sous-chaînes, la mise en forme, et bien d’autres aspects dans les expressions de parcours.
