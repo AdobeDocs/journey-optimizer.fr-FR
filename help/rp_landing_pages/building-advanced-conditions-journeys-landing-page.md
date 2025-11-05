@@ -5,7 +5,7 @@ title: Créer des expressions
 description: Créer des expressions
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
+source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
@@ -46,7 +46,7 @@ Fonctions d’Adobe Journey Optimizer
 
 Accédez à un guide complet des fonctions pour la manipulation des données, l’évaluation des conditions et la création de workflows complexes dans les parcours.
 
-[Découvrir les fonctions disponibles](main-functions-journey-landing-page.md)
+[Découvrir les fonctions disponibles](../using/building-journeys/expression/functions.md)
 :::
 
 

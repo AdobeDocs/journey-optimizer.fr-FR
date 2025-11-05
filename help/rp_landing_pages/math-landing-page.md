@@ -4,8 +4,10 @@ product: Journey Optimizer
 title: Mathématiques
 description: Mathématiques
 redpen-status: CREATED_||_2025-08-11_20-16-12
+hide: true
+hidefromtoc: true
 exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
@@ -26,7 +28,7 @@ Fonction random
 
 Apprenez à utiliser la fonction « random » pour générer des nombres aléatoires compris entre 0 et 1 dans Adobe Journey Optimizer.
 
-[Explorer la fonction random](../using/building-journeys/functions/functionrandom.md)
+[Explorer la fonction random](../using/building-journeys/functions/math-functions.md#random)
 :::
 
 :::
@@ -36,7 +38,7 @@ Fonction round
 
 Découvrez la fonction « round », sa syntaxe et comment arrondir les nombres à l’entier le plus proche dans Adobe Journey Optimizer.
 
-[Découvrir la fonction round](../using/building-journeys/functions/functionround.md)
+[Découvrir la fonction round](../using/building-journeys/functions/math-functions.md#round)
 :::
 
 ::::
