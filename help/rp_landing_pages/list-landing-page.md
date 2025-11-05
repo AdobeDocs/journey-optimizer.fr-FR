@@ -5,7 +5,9 @@ title: Liste
 description: Liste
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+hide: true
+hidefromtoc: true
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%

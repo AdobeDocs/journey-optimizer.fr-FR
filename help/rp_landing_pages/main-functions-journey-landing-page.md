@@ -5,7 +5,7 @@ title: Fonctions
 description: Fonctions
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -40,7 +40,7 @@ Découvrez comment évaluer l’abonnement à une audience à l’aide de la fon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Référence des fonctions d’agrégation
 
@@ -76,7 +76,7 @@ Fonctions de liste dans Adobe Journey Optimizer
 
 Utilisez les fonctions de liste pour des opérations telles que la déduplication, le filtrage, le tri et les contrôles d’abonnement dans les expressions.
 
-[En savoir plus sur les fonctions de liste](list-landing-page.md)
+[En savoir plus sur les fonctions de liste](../using/building-journeys/functions/list-functions.md)
 :::
 
 ::::

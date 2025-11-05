@@ -9,7 +9,7 @@ level: Experienced
 keywords: fonction, expressions, éditeur, parcours
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -74,26 +74,26 @@ Voici la liste des fonctions prises en charge :
 | Liste | [sort](../functions/list-functions.md#sort) |
 | Math | [random](../functions/functionrandom.md) |
 | Math | [round](../functions/functionround.md) |
-| Chaîne | [concat](../functions/functionconcat.md) |
-| Chaîne | [contain](../functions/functioncontain.md) |
-| Chaîne | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| Chaîne | [endWith](../functions/functionendwith.md) |
-| Chaîne | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Chaîne | [equalIgnoreCase](../functions/functionequalignorecase.md) |
-| Chaîne | [indexOf](../functions/functionindexof.md) |
-| Chaîne | [isEmpty](../functions/functionisempty.md) |
-| Chaîne | [isNotEmpty](../functions/functionisnotempty.md) |
-| Chaîne | [lastIndexOf](../functions/functionlastindexof.md) |
-| Chaîne | [length](../functions/functionlength.md) |
-| Chaîne | [lower](../functions/functionlower.md) |
-| Chaîne | [matchRegExp](../functions/functionmatchregexp.md) |
-| Chaîne | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| Chaîne | [replace](../functions/functionreplace.md) |
-| Chaîne | [replaceAll](../functions/functionreplaceall.md) |
-| Chaîne | [split](../functions/functionsplit.md) |
-| Chaîne | [startWith](../functions/functionstartwith.md) |
-| Chaîne | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| Chaîne | [substr](../functions/functionsubstr.md) |
-| Chaîne | [trim](../functions/functiontrim.md) |
-| Chaîne | [upper](../functions/functionupper.md) |
-| Chaîne | [uuid](../functions/functionuuid.md) |
+| Chaîne | [concat](../functions/string-functions.md#concat) |
+| Chaîne | [contain](../functions/string-functions.md#contain) |
+| Chaîne | [containIgnoreCase](../functions/string-functions.md#containIgnoreCase) |
+| Chaîne | [endWith](../functions/string-functions.md#endWith) |
+| Chaîne | [endWithIgnoreCase](../functions/string-functions.md#endWithIgnoreCase) |
+| Chaîne | [equalIgnoreCase](../functions/string-functions.md#equalIgnoreCase) |
+| Chaîne | [indexOf](../functions/string-functions.md#indexOf) |
+| Chaîne | [isEmpty](../functions/string-functions.md#isEmpty) |
+| Chaîne | [isNotEmpty](../functions/string-functions.md#isNotEmpty) |
+| Chaîne | [lastIndexOf](../functions/string-functions.md#lastIndexOf) |
+| Chaîne | [length](../functions/string-functions.md#length) |
+| Chaîne | [lower](../functions/string-functions.md#lower) |
+| Chaîne | [matchRegExp](../functions/string-functions.md#matchRegExp) |
+| Chaîne | [notEqualIgnoreCase](../functions/string-functions.md#notEqualIgnoreCase) |
+| Chaîne | [replace](../functions/string-functions.md#replace) |
+| Chaîne | [replaceAll](../functions/string-functions.md#replaceAll) |
+| Chaîne | [split](../functions/string-functions.md#split) |
+| Chaîne | [startWith](../functions/string-functions.md#startWith) |
+| Chaîne | [startWithIgnoreCase](../functions/string-functions.md#startWithIgnoreCase) |
+| Chaîne | [substr](../functions/string-functions.md#substr) |
+| Chaîne | [trim](../functions/string-functions.md#trim) |
+| Chaîne | [upper](../functions/string-functions.md#upper) |
+| Chaîne | [uuid](../functions/string-functions.md#uuid) |
