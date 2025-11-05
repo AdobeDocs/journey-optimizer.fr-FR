@@ -6,10 +6,10 @@ description: Découvrez comment commencer avec les campagnes orchestrées
 short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 97%
+source-wordcount: '779'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Découvrez les concepts et fonctionnalités clés disponibles dans les campagnes
 
 ## Explorons plus en détail.
 
-Maintenant que vosu avez appris les principes de base des campagnes orchestrées, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser cette fonctionnalité.
+Maintenant que vous connaissez le b.a.-ba des campagnes orchestrées, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser la fonctionnalité.
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -121,3 +121,13 @@ Maintenant que vosu avez appris les principes de base des campagnes orchestrées
 </div>
 <p></td>
 </tr></table>
+
+## Ressources supplémentaires
+
+* **[Créer votre première règle](build-query.md)** - Effectuez un Principal du créateur de règles pour créer des requêtes ciblées et segmenter vos audiences avec précision à l’aide de données relationnelles.
+* **[Créer des schémas relationnels](gs-schemas.md)** - Découvrez comment configurer des schémas relationnels pour exploiter des données multi-entités dans vos campagnes.
+* **[Reporting pour les campagnes orchestrées](reporting-campaigns.md)** - Suivez et analysez les performances de votre campagne avec des mesures et des informations détaillées sur les rapports.
+* **[Démarrer et surveiller les campagnes](start-monitor-campaigns.md)** - Découvrez les bonnes pratiques pour lancer des campagnes et surveiller leur exécution en temps réel.
+* **[Mécanismes de sécurisation et limitations](guardrails.md)** - Passez en revue les mécanismes de sécurisation, limitations et bonnes pratiques importants pour garantir des performances optimales de la campagne.
+* **[Questions fréquentes](orchestrated-campaigns-faq.md)** - Trouvez des réponses aux questions courantes sur les fonctionnalités et cas d’utilisation des campagnes orchestrées.
+* **[Tutoriels orchestrés sur Campaign](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques.
