@@ -9,7 +9,7 @@ level: Experienced
 keywords: fonction, expressions, éditeur, parcours
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -31,15 +31,15 @@ Voici la liste des fonctions prises en charge :
 | Catégorie | Fonction |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
-| Agrégation | [avg](../functions/functionavg.md) |
-| Agrégation | [count](../functions/functioncount.md) |
-| Agrégation | [countOnlyNull](../functions/functioncountonlynull.md) |
-| Agrégation | [countWithNull](../functions/functioncountwithnull.md) |
-| Agrégation | [distinctCount](../functions/functiondistinctcount.md) |
-| Agrégation | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
-| Agrégation | [max](../functions/functionmax.md) |
-| Agrégation | [min](../functions/functionmin.md) |
-| Agrégation | [sum](../functions/functionsum.md) |
+| Agrégation | [avg](../functions/aggregation-functions.md#avg) |
+| Agrégation | [count](../functions/aggregation-functions.md#count) |
+| Agrégation | [countOnlyNull](../functions/aggregation-functions.md#countOnlyNull) |
+| Agrégation | [countWithNull](../functions/aggregation-functions.md#countWithNull) |
+| Agrégation | [distinctCount](../functions/aggregation-functions.md#distinctCount) |
+| Agrégation | [distinctCountWithNull](../functions/aggregation-functions.md#distinctCountWithNull) |
+| Agrégation | [max](../functions/aggregation-functions.md#max) |
+| Agrégation | [min](../functions/aggregation-functions.md#min) |
+| Agrégation | [sum](../functions/aggregation-functions.md#sum) |
 | Conversion | [toBool](../functions/functiontobool.md) |
 | Conversion | [toDateOnly](../functions/functiontodateonly.md) |
 | Conversion | [toDateTime](../functions/functiontodatetime.md) |
