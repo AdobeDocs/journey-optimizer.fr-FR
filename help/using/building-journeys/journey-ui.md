@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 99%
@@ -49,7 +49,7 @@ L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. V
 
 ![Tableau de bord de parcours mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
 
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail. En savoir plus sur la [gestion des versions des parcours](publishing-the-journey.md#journey-versions-journey-versions).
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail. En savoir plus sur la [gestion des versions des parcours](publish-journey.md#journey-versions-journey-versions).
 
 ### Calendrier des parcours {#calendar}
 
@@ -108,7 +108,7 @@ Dans la liste des parcours, utilisez différents filtres pour affiner la liste.
 
 ![Écran affichant un exemple de filtrage de parcours avec deux types de parcours sélectionnés](assets/filter-journeys.png)
 
-Filtrez les parcours en fonction de leur [statut](#journey-statuses), [type](#journey-types), [version](publishing-the-journey.md#journey-versions-journey-versions) et [balises](../start/search-filter-categorize.md#tags) attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
+Filtrez les parcours en fonction de leur [statut](#journey-statuses), [type](#journey-types), [version](publish-journey.md#journey-versions-journey-versions) et [balises](../start/search-filter-categorize.md#tags) attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
 
 Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
 
@@ -141,7 +141,7 @@ Le statut du parcours dépend de son cycle de vie. Il peut s’agir des élémen
 * **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
 * **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**. [En savoir plus](../building-journeys/testing-the-journey.md)
 * **Terminé** : le parcours passe automatiquement à ce statut après la [temporisation globale](journey-properties.md#global_timeout) de 91 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
-* **Actif** : le parcours a été publié à l’aide du bouton **Publier**. [En savoir plus](../building-journeys/publishing-the-journey.md)
+* **Actif** : le parcours a été publié à l’aide du bouton **Publier**. [En savoir plus](../building-journeys/publish-journey.md)
 * **Mis en pause** : le parcours actif a été mis en pause, à l’aide du bouton **Pause**. [En savoir plus](../building-journeys/journey-pause.md)
 * **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours. [En savoir plus](../building-journeys/end-journey.md#stop-a-journey)
 * **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouvelles personnes. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. [En savoir plus](../building-journeys/end-journey.md)

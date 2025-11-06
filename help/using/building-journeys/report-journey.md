@@ -10,7 +10,7 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -54,7 +54,7 @@ Pour chaque activité de chaque parcours actif ou en [mode Test à blanc](journe
 >[!MORELIKETHIS]
 >
 >* [Commencer la création de rapports](../reports/gs-reports.md)
->* [Publier votre parcours](publishing-the-journey.md)
+>* [Publier votre parcours](publish-journey.md)
 >* [Test à blanc d’un parcours](journey-dry-run.md)
 >* [Configurer et suivre les mesures de votre parcours](success-metrics.md)
 >* [Rapports sur les parcours personnalisés](../reports/sharing-overview.md)

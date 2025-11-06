@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: analytics, intégration, sdk web, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
@@ -135,6 +135,6 @@ Maintenant que l’événement est prêt, créez un parcours pour l’utiliser.
 
 1. Ajoutez ensuite une **[!UICONTROL action E-mail]**. Dans cet e-mail, les client(e)s seront invité(e)s à envoyer leurs commentaires sur la commande passée.
 
-Vous pouvez maintenant publier votre parcours. [En savoir plus](../building-journeys/publishing-the-journey.md).
+Vous pouvez maintenant publier votre parcours. [En savoir plus](../building-journeys/publish-journey.md).
 
 ![](assets/ajo-aa_7.png)

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 98%
@@ -179,7 +179,7 @@ Pour définir plusieurs actions entrantes dans une action de parcours, procédez
 
 1. Procédez de la même manière pour ajouter d’autres actions. Vous pouvez ajouter jusqu’à 10 actions entrantes dans un groupe d’actions de parcours.
 
-Une fois le parcours [actif](publishing-the-journey.md), toutes les actions sont activées simultanément.
+Une fois le parcours [actif](publish-journey.md), toutes les actions sont activées simultanément.
 <!--
 ## Next steps {#next}
 

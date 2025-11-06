@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Pour mettre en ligne votre expérience basée sur du code à partir d’un parco
 
    >[!NOTE]
    >
-   >En savoir plus sur la publication des parcours dans [cette section](../building-journeys/publishing-the-journey.md).
+   >En savoir plus sur la publication des parcours dans [cette section](../building-journeys/publish-journey.md).
 
 Le statut de votre parcours basé sur du code passe à **[!UICONTROL Actif]** et l’audience sélectionnée peut voir votre parcours. Chaque destinataire de votre campagne peut voir vos modifications.
 

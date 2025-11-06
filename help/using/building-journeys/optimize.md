@@ -11,7 +11,7 @@ keywords: activité, condition, zone de travail, parcours, optimisation
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 88%
@@ -53,7 +53,7 @@ Une fois le parcours actif, les profils sont évalués en fonction des critères
 >id="ajo_path_experiment_success_metric"
 >title="Mesure de succès"
 >abstract="La mesure de succès permet de suivre et d’évaluer le traitement le plus performant dans une expérience."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurer et suivre les mesures de votre parcours"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurer et suivre les mesures de votre parcours"
 
 L’expérimentation permet de tester plusieurs chemins selon un partage aléatoire afin de déterminer celui qui offre les meilleures performances en fonction de mesures de succès prédéfinies.
 
@@ -115,7 +115,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
-1. [Publiez](publishing-the-journey.md) votre parcours.
+1. [Publiez](publish-journey.md) votre parcours.
 
 Une fois le parcours actif, les utilisateurs et utilisatrices sont affectés de manière aléatoire à différents chemins. [!DNL Journey Optimizer] suit le chemin le plus performant et fournit des informations exploitables.
 
@@ -238,7 +238,7 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
    Dans cet exemple, créez un e-mail contenant des offres spéciales pour les membres Gold et un SMS de rappel pour les autres membres.
 
-1. [Publiez](publishing-the-journey.md) votre parcours.
+1. [Publiez](publish-journey.md) votre parcours.
 
 Une fois le parcours actif, le chemin spécifié pour chaque segment est traité afin que les membres Gold rejoignent le chemin avec les offres par e-mail, tandis que les autres membres rejoignent le chemin avec le SMS de rappel.
 

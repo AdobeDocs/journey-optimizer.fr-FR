@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 96%
+source-wordcount: '875'
+ht-degree: 86%
 
 ---
 
@@ -102,7 +102,7 @@ Vous pouvez également exécuter votre parcours en mode **test à blanc**. Le te
 
 ## Publier le parcours {#jo-pub}
 
-Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. Pour plus d’informations sur la publication d’un parcours, consultez cette [section](publishing-the-journey.md).
+Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. Pour plus d’informations sur la publication d’un parcours, consultez cette [section](publish-journey.md).
 
 ![](assets/jo-journeyuc2_32bis.png)
 
@@ -111,6 +111,16 @@ Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils d
 ![](assets/jo-dynamic_report_journey_12.png)
 
 En savoir plus sur les rapports de parcours dans [cette section](../reports/live-report.md).
+
+## Ressources supplémentaires
+
+* **[présentation du concepteur de Parcours](using-the-journey-designer.md)** - Effectuez un Principal de l’interface de zone de travail du parcours pour concevoir et orchestrer des parcours client.
+* **[Activités de Parcours](about-journey-activities.md)** - Découvrez toutes les activités disponibles, y compris les événements, les actions et les composants d’orchestration.
+* **[Test des parcours](testing-the-journey.md)** - Découvrez comment tester vos parcours à l’aide du mode test avant de les publier en production.
+* **[Publication de parcours](publish-journey.md)** - Découvrez le processus de publication des parcours et comment gérer les parcours en direct.
+* **[Rapports de Parcours](report-journey.md)** - Suivez et analysez les performances du parcours avec des mesures et des informations détaillées.
+* **[Dépannage des parcours](troubleshooting.md)** - Trouvez des solutions aux problèmes courants du parcours et des bonnes pratiques de débogage.
+* **[Tutoriels sur les Parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur la création de parcours et les bonnes pratiques.
 
 >[!NOTE]
 >

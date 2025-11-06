@@ -11,7 +11,7 @@ badge: label="Disponibilité limitée" type="Informative"
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
@@ -166,9 +166,9 @@ Vous trouverez ci-dessous l’exemple complet d’un parcours utilisant une acti
 
 ![Parcours complet](assets/journey-content-decision-full-journey.png)
 
-<!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
+<!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-Une fois le parcours [activé](publishing-the-journey.md) :
+Une fois le parcours [activé](publish-journey.md) :
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

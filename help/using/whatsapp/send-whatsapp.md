@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
@@ -39,4 +39,4 @@ Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Ce
 >
 > Si votre campagne est soumise à une politique de validation, vous devrez effectuer une demande d’approbation afin de pouvoir envoyer vos SMS. [En savoir plus](../test-approve/gs-approval.md)
 
-Une fois votre message WhatsApp prêt, effectuez la configuration de votre [parcours](../building-journeys/publishing-the-journey.md) ou [campagne](../campaigns/review-activate-campaign.md) pour l’envoyer.
+Une fois votre message WhatsApp prêt, effectuez la configuration de votre [parcours](../building-journeys/publish-journey.md) ou [campagne](../campaigns/review-activate-campaign.md) pour l’envoyer.

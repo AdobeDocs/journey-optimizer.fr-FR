@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
@@ -73,7 +73,7 @@ Utilisez le bouton **[!UICONTROL Supprimer]** pour supprimer définitivement une
 
 >[!CAUTION]
 >
->Il n’est pas possible de supprimer une liste de contrôle utilisée dans une [campagne](../campaigns/review-activate-campaign.md) active ou un [parcours](../building-journeys/publishing-the-journey.md) actif. Vous devez désactiver la campagne/le parcours ou le modifier pour utiliser une autre configuration dans laquelle la liste de contrôle n’est pas sélectionnée. [En savoir plus sur l’utilisation d’une liste de contrôle](#use-seed-list)
+>Il n’est pas possible de supprimer une liste de contrôle utilisée dans une [campagne](../campaigns/review-activate-campaign.md) active ou un [parcours](../building-journeys/publish-journey.md) actif. Vous devez désactiver la campagne/le parcours ou le modifier pour utiliser une autre configuration dans laquelle la liste de contrôle n’est pas sélectionnée. [En savoir plus sur l’utilisation d’une liste de contrôle](#use-seed-list)
 
 Vous pouvez cliquer sur le nom d’une liste de contrôle pour l’éditer. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -150,7 +150,7 @@ Maintenant que votre liste de contrôle est créée, vous pouvez l’utiliser da
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Activez votre [campagne](../campaigns/review-activate-campaign.md) ou publiez votre [parcours](../building-journeys/publishing-the-journey.md).
+1. Activez votre [campagne](../campaigns/review-activate-campaign.md) ou publiez votre [parcours](../building-journeys/publish-journey.md).
 
 Désormais, chaque fois qu’un e-mail est envoyé à vos clientes et clients par le biais de cette campagne ou de ce parcours, les adresses e-mail de la liste de contrôle sélectionnée le reçoivent également dans les mêmes conditions, en même temps et avec le même contenu que les personnes destinataires ciblées.
 
