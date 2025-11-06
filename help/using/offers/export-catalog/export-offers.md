@@ -7,10 +7,10 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5dab96aef4471b24527d1287a9d36d48521c4596
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 98%
+source-wordcount: '1983'
+ht-degree: 93%
 
 ---
 
@@ -78,9 +78,10 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++ _experience > decisioning > characteristics
 
-**Champ :** caractéristiques 
-**Titre :** Caractéristiques d&#39;option de décision
-**Description :** Propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent avoir différentes caractéristiques (clés dans le mappage). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option de décision des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l&#39;option de décision.
+**Champ :** caractéristiques
+**Titre :** Caractéristiques De L’Option De Décision
+**Description :** caractéristiques sont des attributs ou des propriétés supplémentaires des offres appartenant à une option de décision particulière. Ces attributs sont des paires clé-valeur, ce qui signifie qu’ils incluent un nom d’attribut (parfois appelé clé) auquel une valeur est associée, et sont utilisés pour distinguer une option de décision des autres offres. Par exemple, pour un nom d’attribut « color », la valeur peut être « green » pour une offre spécifique.
+Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d’une offre. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l&#39;option de décision.
 **Type :** objet
 
 +++
@@ -94,7 +95,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décisions > contenu > composants
++++_experience > decisioning > contents > components
 
 **Champ :** composants
 **Description :** composants du contenu représentant l’option de décision, y compris toutes leurs variantes linguistiques. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
@@ -179,7 +180,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
   **Champ :** linkURL
   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
   **Type :** chaîne
-  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
 
@@ -218,7 +219,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décisions > profileConstraints > Description
++++_experience > decisioning > profileConstraints > Description
 
 **Champ :** description
 **Titre :** description 
@@ -227,16 +228,16 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décisions > profileConstraints > Règle d&#39;éligibilité
++++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **Champ :** eligibilityRule
-**Titre :**&#x200B;règle d&#39;éligibilité
+**Titre :**règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 
 +++
 
-+++_experience > prise de décisions > profileConstraints > Type de contrainte de profil
++++_experience > decisioning > profileConstraints > Profile Constraint Type
 
 **Champ :** profileConstraintType
 **Titre :** type de contrainte de profil
@@ -252,7 +253,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décisions > profileConstraints > Identifiants de segments
++++_experience > decisioning > profileConstraints > Segment Identifiers
 
 **Champ :** segmentIdentities
 **Titre :** identifiants de segment
@@ -299,7 +300,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décisions > classement > Évaluation de l&#39;ordre
++++_experience > decisioning > ranking > Order Evaluation
 
 **Champ :** ordre
 **Titre :** évaluation de l&#39;ordre
@@ -330,7 +331,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décisions > classement > Priorité
++++_experience > decisioning > ranking > Priority
 
 **Champ :** priorité
 **Titre :** priorité
