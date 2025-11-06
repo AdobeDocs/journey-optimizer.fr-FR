@@ -7,12 +7,11 @@ ht-degree: 1%
 ---
 # Mise à jour du PRD pour l’agent de gestion de page (agent de structure)
 
-## URL de la page Wiki
-https://wiki.corp.adobe.com/display/~simonetn/%3CUC-12%3E+Structure+Agent
+## URL de la page Wikihttps://wiki.corp.adobe.com/display/~simonetn/%3CUC-12%3E+Structure+Agent
 
----
+&#x200B;---
 
-# &#x200B;1. Résumé
+&#x200B;# &#x200B;1. Résumé
 
 L’**Agent de gestion de page** (anciennement « Agent de structure ») aide les auteurs à réorganiser la documentation en toute sécurité en déplaçant, supprimant ou renommant les pages, tout en gérant automatiquement tous les impacts sur l’ensemble du référentiel.
 
@@ -22,9 +21,9 @@ L’**Agent de gestion de page** (anciennement « Agent de structure ») aide le
 
 JIRA > DOCAC-13695
 
----
+&#x200B;---
 
-# &#x200B;2. Énoncé du problème
+&#x200B;# &#x200B;2. Énoncé du problème
 
 Les référentiels de documentation nécessitent des modifications structurelles fréquentes. Ces opérations sont actuellement **manuelles et extrêmement sources d’erreurs**, ce qui entraîne :
 
@@ -40,9 +39,9 @@ Les référentiels de documentation nécessitent des modifications structurelles
 
 L’**Agent de gestion de page** automatise l’ensemble de ce processus, en moins d’une minute et avec une précision de 100 %.
 
----
+&#x200B;---
 
-# &#x200B;3. Objectifs et résultats clés (OKR)
+&#x200B;# &#x200B;3. Objectifs et résultats clés (OKR)
 
 | **Objectif** | **Résultats clés** | **Statut** |
 |---------------|-----------------|-----------|
@@ -52,9 +51,9 @@ L’**Agent de gestion de page** automatise l’ensemble de ce processus, en moi
 | Réduire le temps de création | Réduction de 95 % (3h → 1min) | ✅ **RÉALISÉ** |
 | Opérations transparentes | Pré-exécution de 100 % de visibilité | ✅ **RÉALISÉ** |
 
----
+&#x200B;---
 
-# &#x200B;4. Trois opérations principales
+&#x200B;# &#x200B;4. Trois opérations principales
 
 ## 📦 Déplacer une page
 
@@ -84,9 +83,9 @@ Modifiez le nom de fichier tout en conservant le même dossier :
 - Conserve tous les liens d’ancrage
 - Met à jour les références des pages associées
 
----
+&#x200B;---
 
-# &#x200B;5. Workflow (16 Étapes)
+&#x200B;# &#x200B;5. Workflow (16 Étapes)
 
 | **Étape** | **Action** | **Détails** |
 |----------|-----------|-------------|
@@ -107,9 +106,9 @@ Modifiez le nom de fichier tout en conservant le même dossier :
 | &#x200B;15. Préparation de l&#39;engagement | Générer un message de validation | Résumé détaillé avec statistiques |
 | &#x200B;16. Évaluation facultative | Ajout Git si demandé | Fonctionnalité pratique |
 
----
+&#x200B;---
 
-# &#x200B;6. Exigences fonctionnelles
+&#x200B;# &#x200B;6. Exigences fonctionnelles
 
 | **ID** | **Exigence** | **Priorité** | **Statut** |
 |--------|----------------|-------------|-----------|
@@ -126,9 +125,9 @@ Modifiez le nom de fichier tout en conservant le même dossier :
 | FR-11 | Afficher la progression transparente | P1 | ✅ implémenté |
 | FR-12 | Vérifier toutes les modifications | P1 | ✅ implémenté |
 
----
+&#x200B;---
 
-# &#x200B;7. Mise En Œuvre Technique
+&#x200B;# &#x200B;7. Mise En Œuvre Technique
 
 ## Algorithme de détection des liens
 
@@ -162,9 +161,9 @@ New image: ![](../campaigns/assets/image.png)
 Resolves:  help/using/campaigns/assets/image.png ✅
 ```
 
----
+&#x200B;---
 
-# &#x200B;8. Format du rapport d&#39;impact
+&#x200B;# &#x200B;8. Format du rapport d&#39;impact
 
 Rapport complet présentant :
 
@@ -188,9 +187,9 @@ Rapport complet présentant :
 - 2 références de front-issue mises à jour
 - **Total : 18 fichiers modifiés en ~30 secondes**
 
----
+&#x200B;---
 
-# &#x200B;9. Exigences Non Fonctionnelles
+&#x200B;# &#x200B;9. Exigences Non Fonctionnelles
 
 | **Catégorie** | **Exigence** | **Obtenu** |
 |--------------|----------------|-------------|
@@ -202,27 +201,17 @@ Rapport complet présentant :
 | **Vérification** | Valider les modifications | ✅ chèques automatisés |
 | **Vérifiabilité** | Journal des modifications complet | ✅ validations détaillées |
 
----
+&#x200B;---
 
-# &#x200B;10. Mesures De Succès
+&#x200B;# &#x200B;10. Mesures De Succès
 
-## Quantitatif
-- **Gain de temps :** réduction de 95 % (2-3 heures → &lt;1 minute)
-- **Exactitude :** 100 % des références détectées et mises à jour
-- **Fiabilité :** 0 lien rompu après la refactorisation
-- **Performances :** 30 à 45 secondes pour des opérations standard
-- **Couverture :** 7 types d’impacts analysés
+## Quantitatif- **Gain de temps :** réduction de 95 % (2-3 heures → &lt;1 minute)- **Exactitude :** 100 % des références détectées et mises à jour- **Fiabilité :** 0 lien rompu après la refactorisation- **Performances :** 30 à 45 secondes pour des opérations standard- **Couverture :** 7 types d’impacts analysés
 
-## Qualitatif
-- Les auteurs ✅ peuvent effectuer une refactorisation en toute confiance
-- ✅ Transparence complète
-- ✅ Contrôles de sûreté explicites
-- ✅ Aucun nettoyage manuel nécessaire
-- ✅ Vérifiabilité complète
+## Qualitatif- Les auteurs ✅ peuvent effectuer une refactorisation en toute confiance- ✅ Transparence complète- ✅ Contrôles de sûreté explicites- ✅ Aucun nettoyage manuel nécessaire- ✅ Vérifiabilité complète
 
----
+&#x200B;---
 
-# &#x200B;11. Risques et mesures d’atténuation
+&#x200B;# &#x200B;11. Risques et mesures d’atténuation
 
 | **Risque** | **Impact** | **Réduction** |
 |----------|-----------|---------------|
@@ -234,9 +223,9 @@ Rapport complet présentant :
 | Chemins relatifs complexes | Références d’image endommagées | ✅ Résolution du chemin testé |
 | Opérations à grande échelle | Mises à jour incomplètes | ✅ algorithmes efficaces |
 
----
+&#x200B;---
 
-# &#x200B;12. Instructions d’utilisation
+&#x200B;# &#x200B;12. Instructions d’utilisation
 
 ## Démarrage rapide
 
@@ -293,9 +282,9 @@ Agent: ✅ Complete! All changes verified.
        Ready to commit.
 ```
 
----
+&#x200B;---
 
-# &#x200B;13. Améliorations futures
+&#x200B;# &#x200B;13. Améliorations futures
 
 **Fonctionnalités prévues :**
 - Opérations par lots (déplacer/renommer plusieurs pages)
@@ -309,9 +298,9 @@ Agent: ✅ Complete! All changes verified.
 - Aperçu de la comparaison
 - Exporter les rapports d’impact
 
----
+&#x200B;---
 
-# &#x200B;14. Documentation et ressources
+&#x200B;# &#x200B;14. Documentation et ressources
 
 - **Fichier de l’agent :** `.cursor-agents/agents/page-management-agent.md`
 - **Référence rapide :** `.cursor-agents/AGENTS.md`
@@ -323,25 +312,15 @@ Agent: ✅ Complete! All changes verified.
 - Dépannage : `TROUBLESHOOTING.md`
 - Tous les agents : `AGENTS.md`
 
----
+&#x200B;---
 
-# &#x200B;15. Notes de mise à jour
+&#x200B;# &#x200B;15. Notes de mise à jour
 
-## v1.5.0 (novembre 2025) - Version initiale
-- ✅ Implémentation complète des opérations Déplacer/Supprimer/Renommer
-- ✅ Analyse d&#39;impact complète (7 types de références)
-- ✅ Exécution transparente avec suivi de la progression
-- ✅ Vérification et validation automatisées
-- ✅ génération d’un message de validation détaillé
-- ✅ la vérification de version silencieuse
-- ✅ la politique Nouveau démarrage (sans fond perdu)
+## v1.5.0 (novembre 2025) - Version initiale- ✅ Implémentation complète des opérations Déplacer/Supprimer/Renommer- ✅ Analyse d&#39;impact complète (7 types de références)- ✅ Exécution transparente avec suivi de la progression- ✅ Vérification et validation automatisées- ✅ génération d’un message de validation détaillé- ✅ la vérification de version silencieuse- ✅ la politique Nouveau démarrage (sans fond perdu)
 
-## Limites connues
-- Opérations sur une seule page uniquement (lot bientôt disponible)
-- Nécessite un arbre de travail propre pour la sécurité (avertissement fourni)
-- Validation manuelle requise (validation automatique bientôt disponible)
+## Limites connues- Opérations sur une seule page uniquement (lot bientôt disponible)- Nécessite un arbre de travail propre pour la sécurité (avertissement fourni)- Validation manuelle requise (validation automatique bientôt disponible)
 
----
+&#x200B;---
 
 *Dernière mise à jour : 6 novembre 2025*
 
