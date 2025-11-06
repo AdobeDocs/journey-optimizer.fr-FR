@@ -40,7 +40,7 @@ Découvrez comment utiliser le créateur de formules d’IA pour créer des form
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation et implémentation des modèles d’IA
 

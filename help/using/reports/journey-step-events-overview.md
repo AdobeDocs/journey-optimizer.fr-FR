@@ -178,7 +178,7 @@ Découvrez comment [configurer Customer Journey Analytics](report-gs-cja.md) pou
 ### Liens vers la documentation {#documentation-links}
 
 - **[Présentation du partage des étapes de parcours](sharing-overview.md)** : comprendre le flux des données de parcours vers Adobe Experience Platform.
-- **[Dictionnaire des schémas natifs](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}** : référence complète des schémas XDM.
+- **[Dictionnaire des schémas natifs](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}** : référence complète des schémas XDM.
 - **[Création de rapports Journey Optimizer](report-gs-cja.md)** : présentation des fonctionnalités de création de rapports dans Journey Optimizer.
 
 ### Guides d’intégration {#integration-guides}

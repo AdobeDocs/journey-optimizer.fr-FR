@@ -144,4 +144,4 @@ Découvrez comment utiliser efficacement le rapport à toute heure dans Adobe Jo
 
 +++
 
-Découvrez d’autres tutoriels vidéo sur le reporting et l’analyse dans [tutoriels sur le reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Découvrez d’autres tutoriels vidéo sur le reporting et l’analyse dans [tutoriels sur le reporting](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

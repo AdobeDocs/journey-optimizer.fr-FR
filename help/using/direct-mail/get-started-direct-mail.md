@@ -40,6 +40,6 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 * **[Configurer le canal courrier](direct-mail-configuration.md)** - Configurez les surfaces de publipostage direct et les configurations de routage des fichiers.
 * **[Publipostage direct dans les parcours](direct-mail-journeys.md)** - Découvrez comment utiliser les actions de publipostage direct dans les parcours des clients.
 * **[Tester et envoyer du publipostage direct](test-send-direct-mail.md)** - Découvrez comment tester, valider et publier vos diffusions de publipostage direct.
-* **[Tutoriels sur le publipostage direct](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives au publipostage direct.
+* **[Tutoriels sur le publipostage direct](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives au publipostage direct.
 
 

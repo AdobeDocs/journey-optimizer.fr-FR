@@ -28,7 +28,7 @@ Dans cette page, vous trouverez la liste des jeux de données Adobe Journey Opti
 * [Jeu de données d’événement de retour en Cci](#bcc-feedback-event-dataset)
 * [Jeu de données d’entité](#entity-dataset)
 
-Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
 
 Consultez également plusieurs [exemples couramment utilisés pour interroger des événements d’étape de parcours](../reports/query-examples.md).
 
