@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
 # Commencer avec l’assistant IA {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="Exemples d’invites"
+>abstract="Consultez la documentation Journey Optimizer ci-dessous pour savoir comment créer des invites efficaces qui génèrent du contenu marketing de marque à conversion élevée."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -161,3 +167,12 @@ Les restrictions suivantes s’appliquent à l’Assistant IA dans Adobe Journ
 <p>
 </td>
 </tr></table>
+
+## Ressources supplémentaires
+
+* **[Assistant AI pour les e-mails](generative-email.md)** - Découvrez comment utiliser l’assistant AI pour générer et optimiser des variations de contenu d’e-mail.
+* **[Assistant AI pour les notifications push](generative-push.md)** - Découvrez comment créer du contenu de notification push attrayant avec l&#39;aide de l&#39;IA.
+* **[Assistant AI pour SMS](generative-sms.md)** - Générez des variations efficaces de messages SMS à l’aide de la création de contenu optimisée par l’IA.
+* **[Assistant AI pour les expériences web](generative-web.md)** - Découvrez comment créer et optimiser du contenu web avec l’assistant AI.
+* **[Expérimentation générative](generative-experimentation.md)** - Découvrez comment combiner du contenu généré par l’IA avec l’expérimentation.
+* **[Tutoriels sur l’assistant AI](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques de l’assistant AI.
