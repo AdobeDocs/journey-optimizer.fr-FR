@@ -51,11 +51,11 @@ Découvrez comment créer des parcours [dans les cas d’utilisation complets su
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Ressources supplémentaires {#additional-resources}
 
-* [FAQ sur les Parcours &#x200B;](journey-faq.md) - Questions fréquentes sur les parcours
+* [FAQ sur les Parcours ](journey-faq.md) - Questions fréquentes sur les parcours
 * [Référence des codes d’erreur](error-codes-reference.md) - Codes d’erreur de Parcours et étapes de dépannage
 * [Alertes](../reports/alerts.md) - Configurer des alertes pour la surveillance des parcours
 * [Dépannage](troubleshooting.md) - Problèmes courants du parcours et solutions

@@ -12,7 +12,7 @@ exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -214,7 +214,7 @@ Vous avez besoin de plus d’informations ? Utilisez les options de commentaire
 
 +++ Comment transmettre un attribut contextuel de la requête en tant que paramètre à une recherche de données externe ?
 
-Utilisez le menu Attributs contextuels > Flux de données > Événement pour parcourir le schéma d’événement d’expérience que vous utilisez et insérer l’attribut approprié en tant que valeur de paramètre comme suit :
+Utilisez le menu Attributs contextuels > Train de données > Événement pour parcourir le schéma d’événement d’expérience que vous utilisez et insérer l’attribut approprié en tant que valeur de paramètre, comme suit :
 
 ```
 {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}

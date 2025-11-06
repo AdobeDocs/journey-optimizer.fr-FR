@@ -9,7 +9,7 @@ exl-id: ce39d77d-6d81-48d7-9e73-e1d537874018
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 | --------- | ----------- | ------- |
 | `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l&#39;empêcher d&#39;être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d&#39;une barre oblique inverse lorsqu&#39;ils apparaissent dans la chaîne de requête. | `demo collection` |
 | `qop` | Applique l&#39;opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
-| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions de chemin sont sous la forme de chemins séparés par des points tels que _instance.xdm:name) | `_instance.xdm:name` |
+| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm::name). | `_instance.xdm:name` |
 | `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
 | `limit` | Limitez le nombre de collections renvoyées. | `limit=5` |
 

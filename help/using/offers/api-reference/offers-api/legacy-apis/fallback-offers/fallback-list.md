@@ -9,13 +9,13 @@ exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Liste des offres de secours {#list-fallback-offers}
 
-Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
+Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres. Les étapes de création d’une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d’une offre.
 
 Vous pouvez afficher une liste de toutes les offres de secours au sein d’un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
 
@@ -56,7 +56,7 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 | --------- | ----------- | ------- |
 | `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l&#39;empêcher d&#39;être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d&#39;une barre oblique inverse lorsqu&#39;ils apparaissent dans la chaîne de requête. | `default` |
 | `qop` | Applique l&#39;opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
-| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions de chemin sont sous la forme de chemins séparés par des points tels que _instance.xdm:name) | `_instance.xdm:name` |
+| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm::name). | `_instance.xdm:name` |
 | `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
 | `limit` | Limitez le nombre d’offres de secours renvoyées. | `limit=5` |
 

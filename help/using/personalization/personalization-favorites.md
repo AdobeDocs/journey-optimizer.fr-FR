@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ajout des attributs aux favoris
+title: Ajouter des attributs aux favoris
 description: Découvrez comment ajouter des attributs aux favoris.
 feature: Personalization
 topic: Personalization
@@ -12,13 +12,13 @@ exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Ajout des attributs aux favoris {#fav}
+# Ajouter des attributs aux favoris {#fav}
 
-L’ajout d’attributs différents à votre menu des favoris permet d’accéder rapidement aux éléments que vous utilisez le plus fréquemment. Pour ajouter un attribut à vos favoris, cliquez sur le menu Ellipse et sélectionnez **[!UICONTROL Ajouter aux favoris]**.
+L’ajout de différents attributs à votre menu de favoris vous permet dʼaccéder rapidement aux éléments que vous utilisez le plus fréquemment. Pour ajouter un attribut à vos favoris, cliquez sur le menu à trois points et sélectionnez **[!UICONTROL Ajouter aux favoris]**.
 
 <!--
 ![](assets/favorite-option.png)

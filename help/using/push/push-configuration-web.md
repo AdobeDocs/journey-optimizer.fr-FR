@@ -9,7 +9,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ Les schémas et jeux de données suivants sont disponibles avec le canal de noti
 >
 >Lorsque des événements de suivi des notifications push sont ingérés dans le jeu de données d’événement d’expérience de suivi des notifications push CJM, certains échecs peuvent se produire, même si les données ont été partiellement ingérées. Cela peut se produire si certains champs de votre mappage n’existent pas dans les événements entrants : le système consigne les avertissements mais n’empêche pas l’ingestion de parties valides des données. Ces avertissements apparaissent dans le statut du lot comme « échec », mais reflètent un succès partiel de l’ingestion.
 >
->Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
+>Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 
@@ -200,7 +200,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=fr).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## Étape 2 : création d’une configuration de canal pour les notifications push{#message-preset}

@@ -12,7 +12,7 @@ exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -118,6 +118,6 @@ Pour l’utiliser, procédez comme suit :
 
 1. Saisissez le libellé et la description de cette action.
 
-1. Dans la section **Paramètres de requête**, cliquez sur l’icône **Modifier** pour chacun des paramètres et sélectionnez les valeurs dynamiques que vous avez configurées dans la payload.
+1. Dans la section **Paramètres de requête**, cliquez sur l’icône **Modifier** pour chaque paramètre et sélectionnez les valeurs dynamiques que vous avez configurées dans la payload.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

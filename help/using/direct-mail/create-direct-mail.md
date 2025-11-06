@@ -1,6 +1,6 @@
 ---
 title: Créer un message de publipostage direct
-description: Découvrez comment créer un message de publipostage direct dans Journey Optimizer.
+description: Découvrez comment créer un message de courrier dans Journey Optimizer.
 feature: Direct Mail
 topic: Content Management
 role: User
@@ -8,7 +8,7 @@ level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 100%
 

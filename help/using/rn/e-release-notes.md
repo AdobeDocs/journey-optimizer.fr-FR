@@ -10,22 +10,22 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
-# Notes de mise à jour préliminaires {#e-release-notes}
+# Notes de version préliminaire {#e-release-notes}
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées à la fin de chaque mois dans les [notes de mise à jour](release-notes.md).
 
 
-## Notes de mise à jour préliminaires du 25 octobre {#oct-25-10-rn}
+## Notes de version préliminaire d’octobre 2025 {#oct-25-10-rn}
 
 **Les notes de version préliminaire ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les notes de mise à jour, à la date de publication.
 
 Voir également les [Notes de mise à jour préliminaires d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Date de publication** : jeudi 22 octobre 2025
+**Date de publication** : 22 octobre 2025
 
 ### Nouvelles fonctionnalités {#oct-25-10-features}
 
@@ -34,14 +34,14 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Heures calmes/exclusions temporelles</strong><br/></th>
+<th><strong>Heures creuses/exclusions basées sur l’heure</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les heures calmes vous permettent de définir des exclusions temporelles pour les canaux E-mail, SMS, Notification push et WhatsApp. Ils garantissent qu’aucun message n’est envoyé pendant des périodes spécifiques, ce qui vous aide à respecter les préférences des clients et les exigences de conformité.</p>
-<p>Vous pouvez appliquer des heures calmes par le biais d’ensembles de règles, qui peuvent être affectés à des actions individuelles dans des campagnes ou des parcours pour un contrôle précis. En rationalisant ces processus.</p>
+<p>Les heures creuses vous permettent de définir des exclusions basées sur l’heure pour les canaux E-mail, SMS, Notification push et WhatsApp. EIles garantissent qu’aucun message n’est envoyé pendant des périodes spécifiques, ce qui vous aide à respecter les préférences de la clientèle et les exigences de conformité.</p>
+<p>Vous pouvez appliquer des heures creuses par le biais de jeux de règles, qui peuvent être affectés à des actions individuelles dans des campagnes ou des parcours pour un contrôle précis. En rationalisant ces processus.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
@@ -135,7 +135,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle API Journey Optimizer est désormais disponible, ce qui vous permet de récupérer et d’inspecter par programmation les données liées à la campagne, telles que les détails, les versions et les configurations.</p>
+<p>Une nouvelle API Journey Optimizer est désormais disponible. Celle-ci vous permet de récupérer et d’inspecter par programmation les données liées à la campagne, telles que les détails, les versions et les configurations.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -146,13 +146,13 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Nouveaux connecteurs source pour les applications de fidélité</strong><br/></th>
+<th><strong>Nouveaux connecteurs source pour les applications de programmes de fidélité</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De nouveaux connecteurs source sont désormais disponibles dans Adobe Experience Platform pour les applications de fidélité Talon.One, Capillary et Kobie. Ces connecteurs vous permettent de diffuser facilement des données de fidélité dans Adobe Experience Platform et d’exploiter ces données dans Journey Optimizer.</p>
+<p>De nouveaux connecteurs source sont désormais disponibles dans Adobe Experience Platform pour les applications de programmes de fidélité Talon.One, Capillary et Kobie. Ces connecteurs vous permettent de diffuser facilement des données de fidélité dans Adobe Experience Platform et d’exploiter ces données dans Journey Optimizer.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -181,7 +181,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Mode à débit élevé pour les campagnes par e-mail déclenchées par l’API</strong><br/></th>
+<th><strong>Mode de débit élevé pour les campagnes par e-mail déclenchées par API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -205,9 +205,9 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer vous permet désormais de créer des règles à partir d’un menu d’interface utilisateur dédié et de les exploiter lors de la création du ciblage, dans le cadre de l’optimisation du contenu d’une campagne ou d’un parcours, dans l’activité Optimiser le parcours .</p>
-<p>Les règles de ciblage sont actuellement en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
-<p>Notez que cette fonctionnalité n’est disponible que pour les organisations qui ont acheté le module complémentaire Decisioning. Il sera progressivement déployé auprès de tous les clients.</p>
+<p>Journey Optimizer vous permet désormais de créer des règles à partir d’un menu d’interface d’utilisation dédié et de les utiliser lors de la création du ciblage, soit dans le cadre de l’optimisation du contenu d’une campagne ou d’un parcours, soit dans l’activité Optimiser le parcours.</p>
+<p>Les règles de ciblage sont actuellement en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Notez que cette fonctionnalité n’est disponible que pour les organisations qui ont acheté le module complémentaire de prise de décision. Elle sera progressivement disponible pour l’ensemble de la clientèle.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -237,18 +237,18 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Nouvelles alertes de Parcours</strong><br/></th>
+<th><strong>Nouvelles alertes de parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De nouvelles alertes préconfigurées sont disponibles pour surveiller l’exécution de votre parcours :</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">Taux de rejet du profil dépassé </a> : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Taux d’erreur des actions personnalisées dépassé</a> : ratio des erreurs d’actions personnalisées par rapport aux appels HTTP réussis au cours des 5 dernières minutes ayant dépassé le seuil</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">Taux d’erreur de profil dépassé</a> : ratio de profils en erreur par rapport aux profils saisis au cours des 5 dernières minutes qui a dépassé le seuil.</li></ul> <p>Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours et non globalement.</p>
+<p>De nouvelles alertes préconfigurées sont disponibles pour surveiller l’exécution de votre parcours :</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">Taux de rejet de profil dépassé</a> : ratio de rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes et ayant dépassé le seuil.</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Taux d’erreur d’action personnalisée dépassé</a> : ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes et ayant dépassé le seuil.</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Taux d’erreur de profil dépassé</a> : ratio de profils erronés par rapport aux profils entrés au cours des 5 dernières minutes et ayant dépassé le seuil.</li></ul> <p>Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours et non globalement.</p>
 <p>Pour plus d’informations, consultez la <a href="../reports/alerts.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 14 octobre 2025</p>
+<p>Date de disponibilité : 14 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -257,16 +257,16 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Assistant Métadonnées d’exécution</strong><br/></th>
+<th><strong>Assistant des métadonnées d’exécution</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle fonction d’assistance « executionMetadata » est disponible dans l’éditeur de personnalisation. Il vous permet d’ajouter des informations contextuelles à toute action native et de les capturer dans un jeu de données pour les exporter vers des systèmes externes.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Une nouvelle fonction d’assistant « executionMetadata » est disponible dans l’éditeur de personnalisation. Il vous permet d’ajouter des informations contextuelles à toute action native et de les capturer dans un jeu de données pour les exporter vers des systèmes externes.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p>Pour plus d’informations, consultez la <a href="../personalization/functions/helpers.md#execution-metadata">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mardi 13 octobre 2025</p>
+<p>Date de disponibilité : 13 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -275,16 +275,16 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>L’agent d’expérimentation est ici !</strong><br/></th>
+<th><strong>L’agent d’expérimentation est désormais disponible.</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Optimisé par <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’agent d’expérimentation est disponible dans Journey Optimizer. </p>
-<p>L’agent d’expérimentation est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences numériques sur des sites web, des e-mails, des messages push et des applications. Cela vous permet d’exécuter des expériences plus efficacement, d’organiser les objectifs commerciaux et de générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.</p>
+<p>Optimisé par <a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’agent d’expérimentation est disponible dans Journey Optimizer. </p>
+<p>L’agent d’expérimentation est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences numériques sur des sites web, des e-mails, des messages push et des applications. Il vous permet d’exécuter des expériences plus efficacement, d’organiser les objectifs métier et de générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.</p>
 <p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
-<p>Date de disponibilité : samedi 10 octobre 2025</p>
+<p>Date de disponibilité : 10 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -336,11 +336,11 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 **Prise de décision dans les e-mails via les modèles d’IA**
 
-Vous pouvez désormais utiliser des modèles d’IA pour optimiser le meilleur contenu de votre e-mail grâce à l’utilisation de Decisioning. Cette fonctionnalité vous permet, par exemple, d’optimiser le meilleur contenu en fonction d’événements personnalisés tels que des achats, des clics sur des boutons, des ajouts au panier, etc.
+Vous pouvez désormais utiliser des modèles d’IA pour optimiser le meilleur contenu de votre e-mail grâce à l’utilisation de la prise de décision. Cette fonctionnalité vous permet, par exemple, d’optimiser le meilleur contenu en fonction d’événements personnalisés tels que des achats, des clics sur des boutons, des ajouts au panier, etc.
 
 **Champ d’exécution pour le canal WhatsApp**
 
-Outre les e-mails et les SMS, vous pouvez savoir mettre à jour le champ d’exécution par défaut de vos diffusions WhatsApp au niveau du sandbox. Il est également possible de remplacer le champ d&#39;exécution défini globalement en le modifiant dans les paramètres avancés de l&#39;activité parcours WhatsApp ou dans la configuration du canal WhatsApp. <!-- [Read more](../FILE.md) -->
+Outre les e-mails et les SMS, vous pouvez désormais mettre à jour le champ d’exécution par défaut de vos diffusions WhatsApp au niveau du sandbox. Il est également possible de remplacer le champ d’exécution défini globalement en le modifiant dans les paramètres avancés de l’activité de parcours WhatsApp ou dans la configuration du canal WhatsApp. <!-- [Read more](../FILE.md) -->
 
 **Prise en charge des attributs personnalisés avec l’adresse Mailto (désabonnement)**
 
@@ -350,6 +350,6 @@ Pour personnaliser davantage vos points d’entrée personnalisés, vous pouvez 
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est déjà disponible pour l’**[!UICONTROL URL de désabonnement en un clic]** personnalisée depuis août 2025 et est désormais disponible pour l’option **[!UICONTROL Mailto (désabonnement)]** en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Cette fonctionnalité est déjà disponible pour l’**[!UICONTROL URL de désabonnement en un clic]** personnalisée depuis août 2025 et est désormais disponible pour l’option **[!UICONTROL Mailto (désabonnement)]** en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 Date de disponibilité : 6 octobre 2025

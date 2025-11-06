@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1461'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -186,7 +186,7 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
 1. Cliquez sur **[!UICONTROL Créer une règle de ciblage]**.
 
-1. Cliquez sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Créer]** et utilisez le créateur de règles pour définir vos critères.
+1. Cliquez sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Créer]** et utilisez le créateur de règles pour définir vos critères.
 
    ![](assets/journey-targeting-create-rule.png){width=100%}
 
@@ -194,25 +194,25 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Vous pouvez également cliquer sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Sélectionner une règle]** pour sélectionner une règle de ciblage existante créée à partir du menu **[!UICONTROL Règles]**. [En savoir plus](../experience-decisioning/rules.md)
+1. Vous pouvez également cliquer sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Sélectionner une règle]** pour sélectionner une règle de ciblage existante créée à partir du menu **[!UICONTROL Règles]**. [En savoir plus](../experience-decisioning/rules.md)
 
    ![](assets/journey-targeting-select-rule.png){width=70%}
 
-   Dans ce cas, la formule qui constitue la règle est simplement copiée dans l’activité de parcours. Toute modification ultérieure apportée à cette règle à partir du menu **[!UICONTROL Règles]** n’affecte pas la copie du parcours.
+   Dans ce cas, la formule qui constitue la règle est simplement copiée dans l’activité de parcours. Toute modification ultérieure apportée à cette règle à partir du menu **[!UICONTROL Règles]** n’aura aucune incidence sur la copie du parcours.
 
    >[!AVAILABILITY]
    >
-   >[Création de règles de ciblage](../experience-decisioning/rules.md#create) à partir du menu [!DNL Journey Optimizer] dédié est actuellement disponible pour les organisations qui ont acheté le module complémentaire Decisioning et ils sont disponibles à la demande pour les autres organisations (disponibilité limitée).
+   >La fonction [Création de règles de ciblage](../experience-decisioning/rules.md#create) à partir du menu [!DNL Journey Optimizer] dédié est actuellement disponible pour les organisations qui ont acheté le module complémentaire Decisioning. Elle est disponible à la demande pour les autres organisations (disponibilité limitée).
    >
-   >Cette capacité sera progressivement déployée pour tous les clients. En attendant, contactez votre représentant Adobe pour obtenir l’accès.
+   >Cette fonctionnalité sera progressivement déployée pour l’ensemble de la clientèle. En attendant, contactez votre représentant ou votre représentante Adobe pour obtenir l’accès.
 
-1. Après avoir ajouté une règle, vous pouvez toujours la modifier. Choisissez **[!UICONTROL Modifier en ligne]** pour le mettre à jour en déplacement à l’aide du créateur de règles, ou **[!UICONTROL Sélectionner une règle]** pour sélectionner une autre règle existante.
+1. Après avoir ajouté une règle, vous pouvez toujours la modifier. Choisissez **[!UICONTROL Modifier directement]** pour effectuer la mise à jour directement à l’aide du créateur de règles, ou **[!UICONTROL Sélectionner une règle]** pour sélectionner une autre règle.
 
    ![](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
-   >La modification d’une règle sur la ligne n’affecte pas la règle existante d’où elle provient.
+   >La modification directe d’une règle n’a aucune incidence sur la règle d’où elle provient.
 
 1. Sélectionnez l’option **[!UICONTROL Activer le chemin de remplacement]** si nécessaire. Cette action crée un chemin de remplacement pour l’audience qui ne répond à aucune des règles de ciblage définies ci-dessus.
 

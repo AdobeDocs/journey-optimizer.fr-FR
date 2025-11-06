@@ -11,7 +11,7 @@ exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cett
 
 >[!NOTE]
 >
->Outre les événements d’étape au niveau du profil, le système génère également des événements internes pour les activités **Lecture d’audience**. Ces événements, appelés événements `segmentExportJob`, enregistrent le cycle de vie du nœud Lecture d’audience (comme la création d’une tâche d’exportation, la mise en file d’attente, la fin d’exécution et les erreurs) et sont générés par activité Lecture d’audience, et non par profil individuel. Par conséquent, ces événements peuvent ne pas être associés à un identifiant de profil (UPMID). Ces événements internes sont utiles pour surveiller et dépanner les performances de lecture d’audience. Vous pouvez les interroger à l’aide des champs documentés dans la section [serviceEvents](../reports/sharing-field-list.md#servicevents-field). Pour obtenir des exemples de requête sur l’utilisation des événements segmentExportJob, voir [Requêtes liées à la lecture d’audience](../reports/query-examples.md#read-segment-queries).
+>Outre les événements d’étape au niveau du profil, le système génère également des événements internes pour les activités **Lecture d’audience**. Ces événements, appelés événements `segmentExportJob`, enregistrent le cycle de vie du nœud Lecture d’audience (comme la création de traitement d’export, la mise en file d’attente, la fin d’exécution et les erreurs) et sont générés par activité Lecture d’audience, et non par profil individuel. Par conséquent, ces événements peuvent ne pas être associés à un identifiant de profil (UPMID). Ces événements internes sont utiles pour surveiller les performances de lecture d’audience et résoudre les problèmes liés à celles-ci. Vous pouvez les interroger à l’aide des champs documentés dans la [section serviceEvents](../reports/sharing-field-list.md#servicevents-field). Pour obtenir des exemples de requête sur l’utilisation des événements segmentExportJob, voir [Requêtes relatives à la lecture d’audience](../reports/query-examples.md#read-segment-queries).
 
 Il existe des cas où plusieurs événements peuvent être créés pour le même nœud. Par exemple, dans le cas de l’activité d’attente :
 

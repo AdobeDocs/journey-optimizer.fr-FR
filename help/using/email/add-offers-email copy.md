@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions qui utiliseront le moteur de gestion des décisions afin de sélectionner la meilleure offre à proposer à vos client(e)s.
 
-Par exemple, vous pouvez ajouter une décision qui affichera dans votre e-mail une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
+Par exemple, vous pouvez ajouter une décision qui affichera dans votre e-mail une offre de remise spéciale qui variera en fonction du niveau de fidélité de la personne destinataire.
 
 >[!IMPORTANT]
 >
@@ -103,4 +103,4 @@ En savoir plus sur les étapes détaillées permettant de vérifier l’aperçu 
 
 Découvrez comment ajouter un composant de gestion des décisions aux messages dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3415688?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

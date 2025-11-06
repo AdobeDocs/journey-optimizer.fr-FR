@@ -74,4 +74,4 @@ Pour créer cette règle de décision, procédez comme suit :
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341367?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

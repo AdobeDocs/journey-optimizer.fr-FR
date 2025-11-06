@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Tout d’abord, il s’agit de cibler les clients qui ont accédé à la boutiqu
 
 `In ("addToCart", #{field reference from experience event})`
 
-**Cette expression recherche tous les événements relatifs à cet utilisateur spécifiés au cours des 7 derniers jours :**
+**Cette expression recherche tous les événements relatifs à cette personne spécifiés au cours des 7 derniers jours :**
 
-Il sélectionne ensuite tous les événements d’ajout au panier qui ne se sont pas transformés en événement completePurchase.
+Ensuite, elle sélectionne tous les événements d’ajout au panier qui n’ont pas été transformés en completePurchase.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ De là, vous pouvez ajouter un autre chemin dans votre parcours pour les cas où
 
 **Dans des conditions**
 
-Cette condition récupère uniquement les événements de limite géographique déclenchés dans « Arlington » :
+Cette condition récupère uniquement les événements de limite géographique déclenchés dans Arlington :
 
 ```json
         @event{GeofenceEntry

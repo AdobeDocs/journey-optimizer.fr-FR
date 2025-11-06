@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 
@@ -71,6 +71,6 @@ Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils 
 
   +++ Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440276/?captions=fre_fr&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

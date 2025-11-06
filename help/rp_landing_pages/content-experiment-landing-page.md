@@ -40,7 +40,7 @@ Guide détaillé de la création, de la configuration et de la mise à l’éche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Techniques statistiques avancées pour l’expérimentation
 

@@ -12,7 +12,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Dans cette page, vous trouverez la liste des jeux de données Adobe Journey Opti
 * [Jeu de données d’événement de retour en Cci](#bcc-feedback-event-dataset)
 * [Jeu de données d’entité](#entity-dataset)
 
-Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
+Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 Consultez également plusieurs [exemples couramment utilisés pour interroger des événements d’étape de parcours](../reports/query-examples.md).
 
@@ -178,7 +178,7 @@ Une fois identifiées, supprimez ces adresses de la liste de suppression de Jour
 
 >[!NOTE]
 >
->Lors du référencement de l’identityMap dans le jeu de données d’événement de retour de message, notez qu’il reflète uniquement l’identité utilisée au moment de l’exécution. Pour les notifications push, un événement « envoyé » ne s’appuierait que sur l’ECID lié au jeton push utilisé pour envoyer cette notification, tandis qu’un événement « d’exclusion » pourrait s’appuyer sur une identité personnalisée. Par exemple, si un profil a été exclu car aucun jeton push n’a été trouvé, l’identité utilisée au niveau de la campagne de parcours ou d’action sera sélectionnée pour enregistrer cet événement. Si vous avez besoin d’espaces de noms supplémentaires (par exemple, d’identifiants personnalisés), joignez ces enregistrements de commentaires à un jeu de données lié au profil (par exemple, des jeux de données profile_snapshot) pour récupérer la liste complète des identités.
+>Lors du référencement de l’identityMap dans le jeu de données d’événement de retour de message, notez qu’il reflète uniquement l’identité utilisée au moment de l’exécution. Pour les notifications push, un événement « envoyé » ne s’appuierait que sur l’ECID lié au jeton push utilisé pour envoyer cette notification, tandis qu’un événement d’« exclusion » pourrait s’appuyer sur une identité personnalisée. Par exemple, si un profil a été exclu car aucun jeton push n’a été trouvé, l’identité utilisée au niveau de la campagne d’action ou du parcours sera sélectionnée pour enregistrer cet événement. Si vous avez besoin d’espaces de noms supplémentaires (par exemple, d’identifiants personnalisés), joignez ces enregistrements de retour à un jeu de données lié au profil (par exemple, profile_snapshot) pour récupérer la liste complète des identités.
 
 
 

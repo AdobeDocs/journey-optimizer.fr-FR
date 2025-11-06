@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 66%
 
 ---
 
@@ -109,3 +109,12 @@ Les diffusions d’e-mail peuvent être créées :
 <p>
 </td>
 </tr></table>
+
+## Ressources supplémentaires
+
+* **[Créer un e-mail](create-email.md)** - Découvrez comment créer des e-mails dans les campagnes et les parcours à l’aide d’instructions détaillées.
+* **[Concevoir du contenu d’e-mail](get-started-email-design.md)** - Découvrez les différentes manières de concevoir le contenu de votre e-mail, en partant de zéro ou en utilisant des modèles.
+* **[Configuration des e-mails](get-started-email-config.md)** - Découvrez comment configurer les paramètres d’e-mail, y compris les surfaces d’e-mail, les sous-domaines et les pools d’adresses IP.
+* **[Personnalisation et style des e-mails](get-started-email-style.md)** - Techniques de style de Principal, y compris la prise en charge personnalisée du CSS, de l’alignement, de la marge intérieure et du mode sombre.
+* **[Tracker et surveiller les e-mails](message-tracking.md)** - Découvrez comment effectuer le suivi des ouvertures de messages, des clics et gérer le suivi des URL pour l’analyse des performances.
+* **[Tutoriels sur le canal e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités de messagerie et les bonnes pratiques.

@@ -195,6 +195,6 @@ La vidéo ci-dessous montre comment créer un parcours WhatsApp à plusieurs ét
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470284/?learn=on&captions=fre_fr")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

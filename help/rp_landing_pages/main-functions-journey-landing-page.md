@@ -42,7 +42,7 @@ Découvrez comment évaluer l’abonnement à une audience à l’aide de la fon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Référence des fonctions d’agrégation
 

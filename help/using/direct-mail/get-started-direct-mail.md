@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '236'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 76%
 
 ---
 
@@ -33,5 +33,13 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 >Les messages de courrier ne peuvent être créés que dans le cadre de campagnes planifiées. Ils ne sont pas disponibles pour une utilisation dans des campagnes déclenchées par API ou dans des parcours.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
+
+## Ressources supplémentaires
+
+* **[Créer un publipostage direct](create-direct-mail.md)** - Découvrez comment créer des diffusions de publipostage direct et configurer des fichiers d’extraction pour les canaux hors ligne.
+* **[Configurer le canal courrier](direct-mail-configuration.md)** - Configurez les surfaces de publipostage direct et les configurations de routage des fichiers.
+* **[Publipostage direct dans les parcours](direct-mail-journeys.md)** - Découvrez comment utiliser les actions de publipostage direct dans les parcours des clients.
+* **[Tester et envoyer du publipostage direct](test-send-direct-mail.md)** - Découvrez comment tester, valider et publier vos diffusions de publipostage direct.
+* **[Tutoriels sur le publipostage direct](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives au publipostage direct.
 
 

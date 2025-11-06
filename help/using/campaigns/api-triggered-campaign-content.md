@@ -12,7 +12,7 @@ exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
 source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ Le processus de création du contenu dépend du canal que vous avez sélectionn�
 
 >[!IMPORTANT]
 >
->Les [campagnes à haut débit](../campaigns/api-triggered-high-throughput.md) ne dépendent pas des profils Adobe : toute personnalisation doit être incluse dans la payload de l’API en tant que données contextuelles, comme décrit ci-dessous. Ce mode est disponible uniquement pour le canal e-mail et aux États-Unis.
+>Les [campagnes à haut débit](../campaigns/api-triggered-high-throughput.md) ne reposent pas sur les profils Adobe : toute personnalisation doit être incluse dans la payload de l’API en tant que données contextuelles, comme décrit ci-dessous. Ce mode est disponible uniquement pour le canal E-mail et aux États-Unis.
 
 ## Personnaliser du contenu à l’aide de données contextuelles {#contextual}
 
 Vous pouvez transmettre des données supplémentaires dans la payload de l’API que vous pouvez ensuite utiliser pour personnaliser votre message.
 
-Prenons un exemple où les clients souhaitent réinitialiser leur mot de passe et où vous souhaitez leur envoyer une URL de réinitialisation de mot de passe générée dans un outil tiers. Avec les campagnes déclenchées par API, vous pouvez transmettre cette URL générée dans la payload de l’API et l’exploiter dans la campagne pour l’ajouter au message.
+Prenons un exemple où la clientèle souhaite réinitialiser son mot de passe et où vous souhaitez lui envoyer une URL de réinitialisation de mot de passe générée dans un outil tiers. Avec les campagnes déclenchées par API, vous pouvez transmettre cette URL générée dans la payload de l’API et l’utiliser dans la campagne pour l’ajouter au message.
 
 Pour ce faire, vous devez les transmettre dans la payload de l’API et les ajouter dans votre message à l’aide de l’éditeur de personnalisation. Utilisez la syntaxe `{{context.<contextualAttribute>}}`, où `<contextualAttribute>` doit correspondre au nom de la variable dans votre payload d’API qui contient les données que vous souhaitez transmettre.
 
@@ -53,7 +53,7 @@ Notez que, pour l’instant, aucun attribut contextuel n’est disponible dans l
 
 **À lire absolument**
 
-* Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 200 Ko et sont toujours considérés de type chaîne.
+* Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 200 Ko et sont toujours considérés comme étant de type chaîne.
 * La syntaxe `context.system` est réservée à l’utilisation interne d’Adobe et ne doit pas être utilisée pour transmettre des attributs contextuels.
 * Contrairement aux événements activés pour le profil, les données contextuelles transmises dans l’API REST sont utilisées pour une communication ponctuelle et ne sont pas stockées par rapport au profil. Au maximum, le profil est créé avec les détails de l’espace de noms, s’il a été détecté comme manquant.
 * L’utilisation d’un grand nombre de données contextuelles importantes dans votre contenu peut avoir un impact sur les performances.

@@ -75,6 +75,6 @@ Découvrez les étapes détaillées pour créer une campagne web dans [cette vid
 * **[Modifier le contenu web](create-web.md#edit-web-content)** - Faites un Principal au concepteur web pour modifier les pages en mode de modification visuel ou non.
 * **[Gérer les modifications web](manage-web-modifications.md)** - Découvrez comment organiser, appliquer et gérer les modifications dans vos expériences web.
 * **[Surveiller les expériences web](monitor-web-experiences.md)** - Suivez et analysez les performances de vos campagnes web avec des rapports détaillés.
-* **[Tutoriels sur les campagnes web](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques des canaux web.
+* **[Tutoriels sur les campagnes web](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques des canaux web.
 
 

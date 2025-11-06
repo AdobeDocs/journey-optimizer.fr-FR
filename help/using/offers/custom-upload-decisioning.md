@@ -9,7 +9,7 @@ exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur les audiences de chargement personnalisé, report
 ## À lire absolument {#must-read}
 
 * Cette fonctionnalité est prise en charge uniquement dans la **gestion des décisions** et non dans la prise de décision (anciennement appelée Décisions pour les expériences).
-* Il est disponible exclusivement par le biais de requêtes **API Decisioning (Hub)** et n’est pas pris en charge par l’API **Edge Decisioning** ou **la diffusion de décisions par lots**.
+* Elle est disponible exclusivement via les requêtes **API Decisioning (Hub)** et n’est pas prise en charge par l’**API Edge Decisioning** ou la **prise de décision par lots**.
 
 ## Utilisation d’une audience de chargement personnalisé comme critères d’éligibilité {#eligibilty}
 

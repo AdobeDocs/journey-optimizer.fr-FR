@@ -4,7 +4,7 @@ description: Découvrez comment utiliser des identifiants supplémentaires dans 
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 100%
 
@@ -246,4 +246,4 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

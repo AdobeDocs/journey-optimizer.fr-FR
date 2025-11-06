@@ -5,10 +5,10 @@ title: Parcours
 description: Parcours
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
-source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
@@ -87,5 +87,7 @@ Explorez les mises en œuvre réelles d’Adobe Journey Optimizer, y compris l
 - **[Résolution des problèmes liés aux parcours clients](troubleshoot-journey-landing-page.md)** : diagnostiquez et résolvez les problèmes d’exécution de parcours à l’aide d’outils, de codes d’erreur et des bonnes pratiques de débogage et d’optimisation.
 
 - **[S’abonner aux alertes de parcours](../using/reports/alerts.md)** : découvrez comment gérer les alertes système, vous abonner aux notifications et résoudre les problèmes liés aux parcours et aux campagnes.
+
+- **[Tutoriels sur les Parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Découvrez la création de parcours au moyen de tutoriels vidéo pratiques couvrant les fonctionnalités, les capacités et les bonnes pratiques.
 
 

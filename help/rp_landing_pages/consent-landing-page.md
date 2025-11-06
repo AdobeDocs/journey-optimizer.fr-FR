@@ -20,7 +20,7 @@ La gestion du consentement est essentielle pour établir la confiance avec votre
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gérer les opt-out et le consentement à la personnalisation
 

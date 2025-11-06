@@ -12,7 +12,7 @@ exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Exemple d&#39;expression simple :
 où :
 
 * `profile` est un espace de noms.
-* `person.name` est un jeton composé par des attributs. La structure des attributs est définie dans un schéma XDM Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
+* `person.name` est un jeton composé par des attributs. La structure des attributs est définie dans un schéma XDM Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Règles générales de syntaxe {#general-rules}
 
@@ -55,7 +55,7 @@ où :
 
 * **Profile**
 
-  Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation Modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
+  Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation Modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
 
   Les attributs doivent être définis dans le schéma avant d&#39;être référencés dans un bloc de personnalisation [!DNL Journey Optimizer].
 

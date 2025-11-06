@@ -10,7 +10,7 @@ exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décisions > contenu > composants
++++_experience > decisioning > contents > components
 
 **Champ :** composants
 **Description :** composants du contenu représentant l’option de décision, y compris toutes leurs variantes linguistiques. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
@@ -157,7 +157,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
   **Champ :** linkURL
   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
   **Type :** chaîne
-  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
 

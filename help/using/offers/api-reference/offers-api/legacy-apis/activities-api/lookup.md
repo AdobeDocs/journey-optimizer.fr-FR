@@ -9,7 +9,7 @@ exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Définit le schéma associé aux décisions. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres « id » et « name » ne peuvent pas être utilisés ensemble. | `LBAR` |
+| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres « id » et « name » ne peuvent pas être utilisés ensemble. | `LBAR` |
 
 **Requête**
 

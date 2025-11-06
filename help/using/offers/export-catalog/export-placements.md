@@ -10,7 +10,7 @@ exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décisions > contentTypes > Type de média MIME
++++_experience > decisioning > contentTypes > MIME Media Type
 
 **Titre :** type de média MIME
 **Description :** contrainte pour le type de média des composants attendue à cet emplacement. Un composant peut avoir plusieurs types de média, par exemple différents formats d&#39;image.

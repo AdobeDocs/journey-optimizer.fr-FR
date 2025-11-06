@@ -89,6 +89,6 @@ Pour créer une collection, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346687?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

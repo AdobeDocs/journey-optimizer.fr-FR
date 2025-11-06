@@ -40,7 +40,7 @@ Suivez les instructions détaillées pour configurer manuellement le canal LINE 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Créer et configurer les messages LINE
 

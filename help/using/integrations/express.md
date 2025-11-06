@@ -49,7 +49,7 @@ Avec une licence Entreprise, les utilisateurs et les utilisatrices disposent d�
 
 ![](assets/express-licence.png)
 
-Pour plus d’informations sur les cas d’utilisation disponibles pour les utilisateurs et les utilisatrices disposant d’une licence Enterprise pour Adobe Express, consultez la [documentation web d’Adobe Express](https://helpx.adobe.com/fr/express/web.html).
+Pour plus d’informations sur les cas d’utilisation disponibles pour les utilisateurs et les utilisatrices disposant d’une licence Enterprise pour Adobe Express, consultez la [documentation web d’Adobe Express](https://helpx.adobe.com/express/web.html).
 
 ## Utilisation d’Adobe Express sans licence Entreprise  {#edit}
 
@@ -148,7 +148,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Découvrez comment modifier vos ressources dans Adobe Journey Optimizer à l’aide des outils d’Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455525/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

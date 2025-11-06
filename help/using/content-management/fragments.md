@@ -60,8 +60,8 @@ Tous les fragments sont accessibles à partir du menu de gauche **[!UICONTROL Ge
 
 Découvrez comment gérer, créer et utiliser des **fragments visuels** dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3451184/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
 Découvrez comment gérer, créer et utiliser des **fragments d’expression** dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438919/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

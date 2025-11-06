@@ -9,7 +9,7 @@ exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{CONTAINER_ID}` | Conteneur où se trouvent les emplacements. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | Définit le schéma associé aux emplacements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:offer-placement:124541309805b7e8` |
-| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Sales and Promotions Placement` |
+| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \

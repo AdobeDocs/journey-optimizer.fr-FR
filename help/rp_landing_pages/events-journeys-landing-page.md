@@ -74,7 +74,7 @@ Cette section contient des instructions détaillées sur la configuration des é
 
 Envoyer des événements à l’aide d’API de streaming
 
-Découvrez les étapes supplémentaires pour envoyer des événements à l’aide des API Streaming Ingestion, notamment la préparation de la payload et les appels API.
+Découvrez les étapes supplémentaires pour envoyer des événements à l’aide des API d’ingestion en flux continu, notamment la préparation de la payload et les appels API.
 
 [Suivre le guide](../using/event/additional-steps-to-send-events-to-journey.md)
 :::

@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -358,7 +358,7 @@ Renvoie la date actuelle au format date et heure. Pour plus d’informations sur
 
 | Paramètre | Description |
 |--- |--- |
-| chaîne | Identifiant du fuseau horaire (optionnel) |
+| chaîne | Identifiant du fuseau horaire (facultatif) |
 
 +++
 

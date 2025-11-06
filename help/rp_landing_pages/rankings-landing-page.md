@@ -40,7 +40,7 @@ Suivez les instructions étape par étape pour créer des formules de classement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Modèles d’IA pour le classement des offres
 

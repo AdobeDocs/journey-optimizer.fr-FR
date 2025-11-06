@@ -12,7 +12,7 @@ exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Jou
 
    ![](../configuration/assets/subdomain-list.png)
 
-1. Créez des groupes d’adresses IP pour **regrouper les adresses IP** configurés avec votre instance. [En savoir plus](../configuration/ip-pools.md)
+1. Créez des groupes d’adresses IP pour **regrouper les adresses IP** approvisionnées avec votre instance. [En savoir plus](../configuration/ip-pools.md)
 
    ![](../configuration/assets/ip-pool-create.png)
 
@@ -43,7 +43,7 @@ Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Jou
 
    ![](assets/preset-header.png)
 
-1. Déterminez quels **champs d&#39;exécution** utiliser en priorité pour vos destinataires lorsque plusieurs adresses sont disponibles dans Adobe Experience Platform. [En savoir plus](../configuration/primary-email-addresses.md)
+1. Déterminez les **champs d’exécution** à utiliser en priorité pour vos personnes destinataires lorsque plusieurs adresses sont disponibles dans Adobe Experience Platform. [En savoir plus](../configuration/primary-email-addresses.md)
 
    ![](../configuration/assets/primary-address-execution-fields.png)
 

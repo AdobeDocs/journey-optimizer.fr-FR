@@ -12,7 +12,7 @@ exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
    >
    >Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels). Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
    >
-   >Les campagnes déclenchées par l’API à haut débit prennent actuellement en charge le canal e-mail uniquement.
+   >Les campagnes déclenchées par API à haut débit prennent actuellement en charge uniquement le canal E-mail.
 
 1. **Sélectionner une configuration de canal**
 
@@ -66,7 +66,7 @@ Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction 
 
 +++**Activer le mode de diffusion rapide** (notifications push).
 
-Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grandes quantités dans le cadre d’une campagne. Il est utilisé lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux personnes qui ont installé votre application de canal d’actualités. Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../push/create-push.md#rapid-delivery).
+Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grandes quantités dans le cadre d’une campagne. La diffusion rapide est utilisée lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple une nouvelle de dernière minute aux personnes qui ont installé votre application d&#39;actualités. Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../push/create-push.md#rapid-delivery).
 
 Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 

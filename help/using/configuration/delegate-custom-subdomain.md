@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 Au lieu des méthodes [Délégation complète](about-subdomain-delegation.md#full-subdomain-delegation) et [Configuration CNAME](about-subdomain-delegation.md#cname-subdomain-delegation), la méthode **Délégation personnalisée** vous permet d’obtenir la propriété de vos sous-domaines dans Journey Optimizer et de disposer d’un contrôle total sur les certificats générés.
 

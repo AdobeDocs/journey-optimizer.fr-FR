@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 99%
@@ -20,9 +20,9 @@ ht-degree: 99%
 
 Pour configurer votre canal web in-app, procédez comme suit :
 
-* Installez l’extension de balise SDK Web pour prendre en charge la messagerie web in-app. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=fr)
+* Installez l’extension de balise SDK Web pour prendre en charge la messagerie web in-app. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
-* Personnalisez vos déclencheurs. La messagerie web in-app prend en charge deux types de déclencheurs : Envoi de données à la plateforme et Déclencheurs manuels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=fr)
+* Personnalisez vos déclencheurs. La messagerie web in-app prend en charge deux types de déclencheurs : Envoi de données à la plateforme et Déclencheurs manuels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=fr){target="_blank"}
 
 * Créez votre configuration in-app web. [En savoir plus](inapp-configuration.md)
 
@@ -62,7 +62,7 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
       | Package | Déclencheur | Définition |
       |---|---|---|
-      | Platform | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) à partir de l’extension AEP Edge. |
+      | Platform | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent){target="_blank"} à partir de l’extension AEP Edge. |
       | Manuel | Déclencheur manuel | Deux éléments de données associés : une clé, qui est une constante qui définit le jeu de données (par exemple, le genre, la couleur, le prix), et une valeur, qui est une variable qui appartient au jeu (par exemple, masculin/féminin, vert, 100). |
 
       +++
@@ -75,7 +75,7 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
    1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter une **[!UICONTROL caractéristique]** personnalisée et mieux affiner votre règle.
 
-      +++Afficher les caractéristiques disponibles.
+      +++Consultez les caractéristiques disponibles.
 
       | Package | Caractéristique | Définition |
       |---|---|---|

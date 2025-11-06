@@ -5,7 +5,7 @@ title: Aide d’Adobe Journey Optimizer
 description: Aide d’Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Comprendre et gérer les campagnes
 
@@ -51,7 +51,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestion et hiérarchisation des conflits
 

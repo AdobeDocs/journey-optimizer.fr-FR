@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 keywords: contenu, conception, e-mail, notification push, sms, personnalisation, modèles
 source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Composez des SMS personnalisés, améliorez les communications avec du contenu m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Concevoir des messages in-app
 

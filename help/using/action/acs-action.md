@@ -12,7 +12,7 @@ exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Pour configurer une action Campaign Standard, procédez comme suit :
    >
    >* L’URL commence par https.
    >
-   >* L’organisation associée à cette instance Adobe Campaign Standard est identique à l’organisation Journey Optimizer
+   >* L’organisation associée à cette instance d’Adobe Campaign Standard est identique à l’organisation de Journey Optimizer.
 
 Une fois cette configuration terminée, trois actions sont disponibles dans la catégorie **[!UICONTROL Action]** lors de la conception d’un parcours : **[!UICONTROL E-mail]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]**. [Découvrez comment les utiliser](../building-journeys/using-adobe-campaign-standard.md).
 

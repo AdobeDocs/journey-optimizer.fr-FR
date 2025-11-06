@@ -4,10 +4,10 @@ description: Découvrez comment tirer parti des outils de gestion des conflits e
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 88%
 
 ---
 
@@ -68,3 +68,12 @@ Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de 
 * **Activations simultanées dans les parcours de qualification d’audience**
 
   Lorsque plusieurs parcours de qualification d’audience sont activés par le même événement de qualification d’audience, les décomptes pour la limitation des entrées ne seront pas précis. Si les décomptes sont inférieurs à la limite, le parcours poursuivra l’arbitrage, mais il ne pourra pas obtenir les décomptes les plus récents avec des activations simultanées.
+
+## Ressources supplémentaires
+
+* **[Gérer les conflits](conflicts.md)** - Découvrez comment identifier et résoudre les conflits entre les campagnes et les parcours qui se chevauchent.
+* **[Définir les scores de priorité](priority-scores.md)** - Découvrez comment attribuer et utiliser des scores de priorité pour contrôler la priorité de diffusion des messages.
+* **[Configurer le capping de la fréquence](channel-capping.md)** - Découvrez comment définir des limitations de fréquence au niveau du canal pour éviter la surmessagerie.
+* **[Créer des ensembles de règles](rule-sets.md)** - Découvrez comment créer des règles métier pour la gestion avancée des conflits et la gouvernance des messages.
+* **[Limitation spécifique au Parcours](journey-capping.md)** - Configurez des règles de limitation au niveau du parcours pour contrôler la fréquence des messages dans les parcours.
+* **[Tutoriels sur la gestion des conflits](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur la gestion des conflits et la hiérarchisation.

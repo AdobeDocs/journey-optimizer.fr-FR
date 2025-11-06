@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour vérifier les champs actuellement utilisés par défaut, accédez au menu *
 
 Les valeurs actuelles sont utilisées pour toutes les diffusions au niveau de la sandbox. Vous pouvez mettre à jour ces champs si nécessaire.
 
-Dans la plupart des cas, vous modifiez globalement un champ d’exécution et définissez une valeur qui doit être utilisée pour tous les e-mails, SMS ou messages WhatsApp.
+Dans la plupart des cas, vous modifiez globalement un champ d’exécution et définissez une valeur qui doit être utilisée pour tous les e-mails, SMS, messages WhatsApp.
 
 ## Mettre à jour les paramètres d’administration {#admin-settings}
 
@@ -80,18 +80,18 @@ Pour des cas d’utilisation spécifiques, vous pouvez remplacer le champ d’ex
 
 Par exemple, cette valeur peut être utile pour effectuer les actions suivantes :
 
-* Testez votre diffusion. Vous pouvez ajouter votre adresse e-mail ou votre numéro de téléphone : une fois le parcours publié, l’e-mail, le SMS ou le message WhatsApp vous est envoyé.
-* Envoyer un message aux abonnés d’une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
+* Tester votre diffusion. Vous pouvez ajouter votre adresse e-mail ou votre numéro de téléphone : une fois que vous avez publié le parcours, l’e-mail, le SMS ou le message WhatsApp vous est envoyé.
+* Envoyer un message aux personnes abonnées d’une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
 
-Lors de l’ajout d’une action **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** ou **[!UICONTROL WhatsApp]** à un parcours [&#128279;](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail ou le numéro de téléphone principal s’affiche sous les paramètres avancés du parcours.
+Lors de l’ajout d’une action **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** ou **[!UICONTROL WhatsApp]** à un [parcours](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail ou le numéro de téléphone principal s’affiche sous les paramètres avancés du parcours.
 
-Pour remplacer une valeur, cliquez sur l’icône **[!UICONTROL Activer le remplacement de paramètre]** à droite du champ.
+Pour remplacer cette valeur, cliquez sur l’icône **[!UICONTROL Activer le remplacement de paramètre]** à droite du champ.
 
 ![](assets/journey-enable-parameter-override.png){width=85%}
 
 >[!CAUTION]
 >
->Le remplacement de l’adresse e-mail ou du numéro de téléphone ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de la modifier, car la valeur définie comme adresse principale dans le **[!UICONTROL Champs d’exécution]** au niveau du sandbox est celle qui doit être utilisée.
+>Le remplacement de l’adresse e-mail ou du numéro de téléphone ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire d’apporter des modifications, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d’exécution]** au niveau du sandbox est celle qui doit être utilisée.
 
 ## Remplacer le champ d’exécution par défaut dans la configuration des canaux {#override-execution-address-channel-config}
 
@@ -100,13 +100,13 @@ Pour remplacer une valeur, cliquez sur l’icône **[!UICONTROL Activer le rempl
 >title="Remplacer l’adresse d’exécution par défaut à utiliser"
 >abstract="Lorsque plusieurs adresses e-mail ou numéros de téléphone sont disponibles dans la base de données (personnels, professionnels, etc.), vous pouvez choisir l’adresse ou le numéro à privilégier pour l’envoi. L’adresse principale est définie au niveau du sandbox, mais vous pouvez remplacer ici le paramètre par défaut pour cette configuration des canaux spécifique."
 
-Vous pouvez modifier l’adresse d’exécution par défaut d’un e-mail, d’un SMS ou d’une WhatsApp spécifique [configuration du canal](channel-surfaces.md).
+Vous pouvez modifier l’adresse d’exécution par défaut pour une [configuration de canal](channel-surfaces.md) E-mail, SMS ou WhatsApp spécifique.
 
 Pour ce faire, accédez à la section **[!UICONTROL Dimension d’exécution]** et modifiez le champ dédié sous **[!UICONTROL Adresse d’exécution]**.
 
 >[!NOTE]
 >
->Pour le [canal WhatsApp](../whatsapp/whatsapp-configuration.md#whatsapp-configuration), le **[!UICONTROL champ d&#39;exécution WhatsApp]** se trouve sous la section **[!UICONTROL Paramètres WhatsApp]**.
+>Pour le [canal WhatsApp](../whatsapp/whatsapp-configuration.md#whatsapp-configuration), le **[!UICONTROL champ d’exécution WhatsApp]** se trouve dans la section **[!UICONTROL Paramètres WhatsApp]**.
 
 ![](assets/sms-config-execution-address.png){width=85%}
 

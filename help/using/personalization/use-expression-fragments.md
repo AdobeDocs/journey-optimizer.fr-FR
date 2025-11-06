@@ -12,7 +12,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ lls sont triés par date de création : les fragments d’expression récemment
 
 >[!NOTE]
 >
->Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans un contenu [SMS](../sms/create-sms.md#sms-content) ou [notification push](../push/design-push.md), les sauts de ligne sont conservés. Veillez donc à tester votre message [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) avant de l’envoyer.
+>Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans un [SMS](../sms/create-sms.md#sms-content) ou une [notification push](../push/design-push.md), les sauts de ligne sont conservés. Veillez donc à tester votre message [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) avant de l’envoyer.
 
 ## Utiliser des variables implicites {#implicit-variables}
 

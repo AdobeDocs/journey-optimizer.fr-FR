@@ -39,4 +39,4 @@ Il offre les principaux avantages suivants :
 
 * **Collaboration fluide** : partagez facilement les résultats et gérez les rôles d’équipe avec des alertes en temps réel.
 
-➡️ [Accéder à la documentation de Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [Accéder à la documentation de Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/overview)

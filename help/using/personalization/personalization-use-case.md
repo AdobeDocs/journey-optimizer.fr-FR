@@ -12,7 +12,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 * Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l&#39;article. Reportez-vous à cette [section](../event/about-events.md).
 * Créer une décision, voir à ce sujet cette [section](../offers/offer-activities/create-offer-activities.md).
 
-➡️ [Découvrez un cas pratique similaire en vidéo](#video)
+➡️ [Découvrir un cas d’utilisation similaire en vidéo](#video)
 
 ## Étape 1 - Créer le parcours {#create-journey}
 
@@ -110,4 +110,4 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
 La vidéo ci-dessous présente un cas d’utilisation similaire en exploitant les données contextuelles d’un parcours pour personnaliser un e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428528?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

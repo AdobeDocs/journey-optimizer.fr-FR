@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 94%
 
 ---
@@ -51,7 +51,7 @@ Pour activer la création des profils lors de l’exécution de la campagne, act
 >
 >Les profils inconnus sont créés dans le jeu de données **Jeu de données de profil de messagerie interactive AJO**, dans trois espaces de noms par défaut (e-mail, téléphone et ECID), respectivement pour chaque canal sortant (e-mail, SMS et notification push). Cependant, si vous utilisez un espace de noms personnalisé, l’identité est créée avec le même espace de noms personnalisé.
 >
->La création de profil à l’exécution n’est pas disponible pour les campagnes [débit élevé](../campaigns/api-triggered-high-throughput.md), car ce mode ne dépend pas des profils Adobe : le système ne vérifie pas si les profils existent ou non.
+>La création de profil à l’exécution n’est pas disponible pour les campagnes [ Débit élevé ](../campaigns/api-triggered-high-throughput.md), car ce mode ne dépend pas des profils Adobe. Le système ne vérifie pas si les profils existent ou non.
 
 ## Activer les webhooks {#webhook}
 

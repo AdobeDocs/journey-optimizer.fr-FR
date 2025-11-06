@@ -13,7 +13,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,14 +34,14 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 
 * **Pas de DCP dans les jeux de données** : les jeux de données activés pour la recherche ne doivent contenir aucune donnée à caractère personnel (DCP).
 
-* &#x200B;
+* 
    * **Risque de suppression** : les jeux de données utilisés dans la personnalisation ne sont pas protégés contre la suppression. Vous devez effectuer le suivi des jeux de données utilisés pour vous assurer qu’ils ne sont pas supprimés.
 
 * **Type de schéma** : les jeux de données doivent être associés à un schéma qui n’est **PAS** de type Profil ou Événement.
 
 * **Maintenir le bouton (bascule) de recherche activé** : évitez d’activer et de désactiver les jeux de données de manière répétée. Cela peut entraîner un comportement d’indexation inattendu. La bonne pratique consiste à laisser le jeu de données activé tant que vous prévoyez de l’utiliser pour les recherches.
 
-* **Suppression d’un lot de données** - La suppression d’un lot de données de votre jeu de données supprime complètement toutes les clés correspondantes du service de recherche. Par exemple :
+* **Suppression d’un lot de données** : la suppression d’un lot de données de votre jeu de données supprime complètement toutes les clés correspondantes du service de recherche. Par exemple :
 
   **Lot 1** : Sku1, Sku2, Sku3\
   **Lot 2** : Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\

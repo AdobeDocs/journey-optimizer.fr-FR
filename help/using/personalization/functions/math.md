@@ -9,7 +9,7 @@ exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Découvrez comment utiliser des fonctions mathématiques dans l’éditeur de pe
 
 ## Absolu {#absolute}
 
-La fonction `absolute` est utilisée pour convertir un nombre en valeur absolue.
+La fonction `absolute` est utilisée pour convertir un nombre vers sa valeur absolue.
 
 **Syntaxe**
 
@@ -39,7 +39,7 @@ Elle accepte un nombre et une chaîne représentant les paramètres régionaux e
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme résumé dans la documentation [Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Vous pouvez utiliser la mise en forme et les paramètres régionaux valides comme spécifié dans la [Documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et les [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}.
 
 **Exemple**
 
@@ -109,7 +109,7 @@ La fonction `toInt` est utilisée pour convertir n’importe lequel de ces types
 
 **Exemple**
 
-Cette requête renvoie la valeur entière de 42,6, c’est-à-dire 42.
+Cette requête renvoie la valeur d’entier de 42,6, soit 42.
 
 ```sql
 {%= toInt(42.6) %}: integer

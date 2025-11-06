@@ -40,7 +40,7 @@ Découvrez comment créer des fragments réutilisables pour rationaliser la conc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Ajouter des liens et suivre les messages
 

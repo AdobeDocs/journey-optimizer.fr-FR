@@ -21,7 +21,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->Les règles d’heures creuses ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour être ajouté à la liste d’attente, contactez votre représentant ou représentante Adobe.
+>Les règles d’heures creuses ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour un ajout à la liste d’attente, contactez votre représentant ou représentante Adobe.
 
 Les heures creuses vous permettent de définir des exclusions basées sur l’heure pour les canaux E-mail, SMS, Notification push et WhatsApp. EIles garantissent qu’aucun message n’est envoyé pendant des périodes spécifiques, ce qui vous aide à respecter les préférences de la clientèle et les exigences de conformité.
 

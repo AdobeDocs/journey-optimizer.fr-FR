@@ -12,7 +12,7 @@ exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
 source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ Pour créer une campagne déclenchée par API, procédez comme suit :
 
    * **[!UICONTROL Déclenchée par API - Marketing]** : sélectionnez ce type de campagne déclenchée par API pour envoyer des communications marketing personnalisées aux audiences ciblées.
 
-   * **[!UICONTROL Déclenchées par API - Transactionnelles]** - Les campagnes transactionnelles sont destinées à envoyer des messages transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : demande de réinitialisation de mot de passe, achat de panier, etc.
+   * **[!UICONTROL Déclenchée par API - Transactionnelle]** : les campagnes transactionnelles sont utilisées pour envoyer des messages transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : demande de réinitialisation du mot de passe, achat dans le panier, etc.
 
-     +++Mode Débit élevé
+     +++Mode de débit élevé
 
-     Pour les campagnes déclenchées par l’API transactionnelle, vous pouvez activer le mode **[!UICONTROL Débit élevé]**. Ce mode est conçu pour la messagerie en temps réel à grande échelle (jusqu’à 5 000 transactions par seconde) et offre une disponibilité supérieure avec une latence plus faible. [Découvrez comment utiliser le mode à débit élevé](../campaigns/api-triggered-high-throughput.md)
+     Pour les campagnes transactionnelles déclenchées par API, vous pouvez activer le mode de **[!UICONTROL débit élevé]**. Ce mode est conçu pour la messagerie en temps réel à grande échelle (jusqu’à 5 000 transactions par seconde) et offre une disponibilité supérieure avec une latence plus faible. [En savoir plus l’utilisation du mode de débit élevé](../campaigns/api-triggered-high-throughput.md)
 
      >[!AVAILABILITY]
      >
-     >Actuellement, le mode Haut débit est disponible uniquement pour le canal e-mail et aux États-Unis.
+     >Actuellement, le mode de débit élevé est disponible uniquement pour le canal E-mail et aux États-Unis.
      >
-     >Cette fonctionnalité n’est disponible que pour les organisations qui ont acheté l’offre complémentaire Adobe **messagerie transactionnelle à haut débit**. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+     >Cette fonctionnalité n’est disponible que pour les organisations qui ont acheté le module complémentaire de **messagerie transactionnelle à débit élevé** d’Adobe. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
      +++
 

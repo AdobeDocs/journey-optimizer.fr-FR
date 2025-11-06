@@ -5,7 +5,7 @@ role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -72,4 +72,4 @@ Pour attribuer un score de priorité aux actions entrantes définies dans l’ac
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445003?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 98%
+source-wordcount: '2085'
+ht-degree: 94%
 
 ---
 
@@ -181,3 +181,12 @@ Après avoir exécuté votre expérience, plusieurs actions de suivi sont possib
   >[!CAUTION]
   >
   >Plus d’analyses signifie une plus grande probabilité de détecter un effet indésirable, ou un faux positif.
+
+## Ressources supplémentaires
+
+* **[Créer des expériences de contenu](content-experiment.md)** - Découvrez comment concevoir et configurer des tests A/B pour optimiser les performances de vos messages.
+* **[Calculs d’expérience](experiment-calculations.md)** - Comprenez les méthodes statistiques et les mesures utilisées dans l’analyse des expériences.
+* **[Test bandit manchot ou A/B](mab-vs-ab.md)** - Comparez différentes approches d’expérimentation et quand utiliser chaque méthode.
+* **[Accélérateur d’expérience](experiment-accelerator-gs.md)** - Découvrez comment accélérer l’expérimentation avec l’optimisation optimisée par l’IA.
+* **[Calculs du rapport d’expérience](experiment-report-calculations.md)** - Découvrez comment interpréter les résultats des expériences et la signification statistique.
+* **[Tutoriels d’expérimentation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur l’expérimentation de contenu et les bonnes pratiques.

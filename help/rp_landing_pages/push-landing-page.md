@@ -38,7 +38,7 @@ Les notifications push peuvent être créées :
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Créer et envoyer des notifications push
 
@@ -58,7 +58,7 @@ Découvrez comment concevoir et personnaliser des notifications push avec des m�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prévisualiser, valider et envoyer des notifications push
 

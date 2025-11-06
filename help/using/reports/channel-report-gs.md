@@ -11,7 +11,7 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les rapports sur les canaux constituent un puissant outil qui propose un aperçu
 
 Les rapports sur les canaux sont entièrement personnalisables. Vous pouvez donc redimensionner ou supprimer des widgets pour créer un tableau de bord qui réponde à vos besoins spécifiques. Vous pouvez également exporter les données du rapport au format PDF ou CSV pour une analyse plus approfondie.
 
-En savoir plus sur les différents widgets et mesures disponibles pour les rapports Canal sur <!--[this page](channel-report.md)-->.
+En savoir plus sur les différents widgets et les différentes mesures disponibles pour les rapports sur les canaux sur <!--[this page](channel-report.md)-->.
 
 ## Avant de commencer {#manage-reports-prereq}
 
@@ -33,7 +33,7 @@ Avant de commencer, vérifiez que vous avez accès au menu **[!UICONTROL Rapport
 
 Si vous ne voyez pas le menu **[!UICONTROL Rapports]**, vos droits d’accès doivent être étendus pour inclure l’autorisation **[!UICONTROL Afficher les rapports sur les canaux]**. Vous pouvez étendre vos propres autorisations si vous avez accès aux [autorisations](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr){target="_blank"} Adobe Experience Platform pour votre organisation. Si ce n’est pas le cas, contactez votre administrateur ou administratrice Adobe Journey Optimizer.
 
-+++Découvrez comment attribuer des autorisations de rapport
++++Découvrez comment attribuer une autorisation de rapport.
 
 Notez que cette autorisation est incluse dans les **[!UICONTROL Rôles]** intégrés suivants : gestionnaire de campagnes, approbateur et approbatrice de campagnes, observateur et observatrice de campagnes et administrateur et administratrice de campagnes.
 

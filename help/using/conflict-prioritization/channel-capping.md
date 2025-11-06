@@ -12,7 +12,7 @@ exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
 workflow-type: tm+mt
 source-wordcount: '1219'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -116,7 +116,7 @@ Pour appliquer un jeu de règles à un message, procédez comme suit :
 
 1. Avant d’activer votre parcours ou votre campagne, veillez à planifier son exécution au moins 10 minutes dans le futur.
 
-   Cela laisse suffisamment de temps pour renseigner les valeurs des compteurs sur le profil pour la règle métier que vous avez sélectionnée. Si vous activez immédiatement la campagne, les valeurs des compteurs des jeux de règles ne seront pas renseignées sur les profils des personnes destinataires et le message ne sera pas comptabilisé dans les règles de capping de la fréquence pour les jeux de règles personnalisés. En outre, la limitation peut ne pas fonctionner correctement pour les parcours et les campagnes activés immédiatement et les campagnes déclenchées par l’API.
+   Cela laisse suffisamment de temps pour renseigner les valeurs des compteurs sur le profil pour la règle métier que vous avez sélectionnée. Si vous activez immédiatement la campagne, les valeurs des compteurs des jeux de règles ne seront pas renseignées sur les profils des personnes destinataires et le message ne sera pas comptabilisé dans les règles de capping de la fréquence pour les jeux de règles personnalisés. En outre, le capping peut ne pas fonctionner correctement pour les parcours et les campagnes activés immédiatement et pour les campagnes déclenchées par API.
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

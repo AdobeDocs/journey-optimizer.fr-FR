@@ -60,7 +60,7 @@ Utilisez des fragments d’expression réutilisables pour une personnalisation e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Utiliser les données Adobe Experience Platform pour la personnalisation (Beta)
 

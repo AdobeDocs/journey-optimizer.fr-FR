@@ -13,7 +13,7 @@ exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 92%
 >
 >Pour l’instant, la fonction d’assistance « datasetLookup » peut être utilisée dans les fragments d’expression pour un ensemble limité de clientes et clients. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-Journey Optimizer vous permet d’utiliser les données de jeux de données d’enregistrement Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Avant de commencer, les jeux de données nécessaires à la personnalisation de la recherche doivent être activés pour la recherche. Vous trouverez des informations détaillées dans cette section : [Utilisation des données Adobe Experience Platform](../data/lookup-aep-data.md).
+Journey Optimizer vous permet d’utiliser les données de jeux de données d’enregistrement Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Avant de commencer, les jeux de données nécessaires à la personnalisation de la recherche doivent être activés pour la recherche. Vous trouverez des informations détaillées dans cette section : [Utiliser les données d’Adobe Experience Platform](../data/lookup-aep-data.md).
 
 Une fois qu’un jeu de données a été activé pour la personnalisation de la recherche, vous pouvez utiliser ses données pour personnaliser votre contenu dans [!DNL Journey Optimizer].
 
@@ -84,7 +84,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
    >
    >Il n’existe aucune limite stricte du nombre de champs pouvant être extraits à l’aide de la fonction d’assistance. Toutefois, pour de meilleures performances, il est recommandé de limiter le nombre de champs à 50 afin d’éviter toute incidence sur le débit.
 
-   * **result** est la valeur que vous avez affectée au paramètre **result** dans la fonction d’assistance **datasetLookup**. Dans cet exemple, « flight ».
+   * **result** est la valeur que vous avez attribuée au paramètre **result** dans la fonction d’assistance **datasetLookup**. Dans cet exemple, « vol ».
    * **fieldID** est l’identifiant du champ à récupérer. Cet identifiant est visible dans l’interface d’utilisation d’[!DNL Adobe Experience Platform] lors de la navigation dans le schéma d’enregistrement associé à votre jeu de données :
 
      +++Où récupérer l’ID d’un champ ?

@@ -6,7 +6,7 @@ description: Campagnes orchestrées
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 100%
 

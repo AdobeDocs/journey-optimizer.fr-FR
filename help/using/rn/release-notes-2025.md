@@ -42,7 +42,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <li><strong>Informations et opportunités des expériences IA :</strong> allez au-delà des lectures statistiques avec des informations et des recommandations pilotées par GenAI. Chaque expérience fait désormais apparaître des opportunités exploitables, accompagnées d’une justification, afin que les équipes puissent décider en toute confiance de la suite des tests.</li>
 <li><strong>Prise en charge du bandit manchot (MAB) dans Journey Optimizer :</strong> optimisez l’impact tout en réduisant le trafic gâché grâce aux expériences de bandit manchot. Au lieu de répartir les audiences de manière égale, MAB affecte automatiquement davantage de visiteurs et visiteuses aux variations les plus performantes en temps réel, afin que vous puissiez offrir de meilleures expériences à davantage de clientes et clients, tout en découvrant ce qui fonctionne.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/overview">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 3 octobre_2025</p>
 </td>
 </tr>
@@ -100,7 +100,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>Utilisez le nouveau nœud Optimiser pour cibler des audiences spécifiques ou exécuter des tests A/B afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier.</p>
 <p>Cet outil vous permet de tester, varier et personnaliser les communications, le séquencement et les délais afin d’atteindre avec précision votre clientèle.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/optimize.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 4 septembre 2025</p>
@@ -119,7 +119,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode de délégation personnalisée. Elle vous permet de contrôler et de gérer totalement l’ensemble des aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/delegate-custom-subdomain.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 4 septembre 2025</p>
@@ -311,7 +311,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>Ajout d’une optimisation à toute action de canal intégrée</li>
 <li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-action.md">documentation détaillée</a>.</p>
 </td>
@@ -334,7 +334,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
 <li>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../email/pdf-attachments.md">documentation détaillée</a>.</p>
 </td>
@@ -562,7 +562,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin d’effectuer un rendu dynamique du meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision.md">documentation détaillée</a>.</p>
 </td>
 </tr>

@@ -6,7 +6,7 @@ description: Découvrez comment créer un schéma basé sur un modèle dans Adob
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Il précise :
 
 L’organisation des schémas ou des tables dans un modèle de données basé sur un modèle consiste à structurer vos données en plusieurs tables. Assurez-vous que chaque table stocke un type d’entité/des schémas.
 
-➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Étapes dʼimplémentation {#implementation}
 

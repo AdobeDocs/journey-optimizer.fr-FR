@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
 source-wordcount: '1838'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -77,9 +77,9 @@ Lorsque vous choisissez un point d’entrée à cibler à l’aide d’une actio
 * Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point d’entrée ciblé doit prendre en charge au moins 200 TPS. En savoir plus sur les taux de traitement des parcours dans [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 * Ce point d’entrée doit avoir un temps de réponse aussi bas que possible. Selon le débit attendu, un temps de réponse élevé peut avoir un impact sur le débit réel.
 
-Un plafond de 300 000 appels sur une minute est défini pour toutes les actions personnalisées. En outre, la limitation par défaut est effectuée par hôte et par sandbox. Par exemple, sur un sandbox, si vous avez deux points d’entrée avec le même hôte (par exemple, `https://www.adobe.com/endpoint1` et `https://www.adobe.com/endpoint2`), la limitation s’appliquera à tous les points d’entrée sous l’hôte adobe.com. Le point d’entrée 1 et le point d’entrée 2 partagent la même configuration de limitation. En outre, le fait qu’un point d’entrée atteigne la limite a un impact sur l’autre point d’entrée.
+Un plafond de 300 000 appels sur une minute est défini pour toutes les actions personnalisées. En outre, la limitation par défaut est effectuée par hôte et par sandbox. Par exemple, sur un sandbox, s’il existe deux points d’entrée avec le même hôte (par exemple, `https://www.adobe.com/endpoint1` et `https://www.adobe.com/endpoint2`), la limitation s’applique à tous les points d’entrée sous l’hôte adobe.com. Le point d’entrée 1 et le point d’entrée 2 partagent la même configuration de limitation. En outre, le fait qu’un point d’entrée atteigne la limite a un impact sur l’autre point d’entrée.
 
-Cette limite a été définie en fonction de l’utilisation par le client pour protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
+Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 
 Vous ne devez pas cibler les points d’entrée publics avec des actions personnalisées pour diverses raisons :
 
@@ -196,15 +196,15 @@ Dans la configuration des champs, vous devez procédez comme suit :
 >
 
 
-* [Dépannage d’action personnalisée](../action/troubleshoot-custom-action.md) - Découvrez comment dépanner une action personnalisée
+* [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) : découvrez comment résoudre les problèmes liés à une action personnalisée.
 
 
 ## Ressources supplémentaires
 
-Parcourez les sections ci-dessous pour en savoir plus sur la configuration, l’utilisation et le dépannage de vos actions personnalisées :
+Parcourez les sections suivantes pour en savoir plus sur la configuration des actions personnalisées, l’utilisation de celles-ci et la résolution des problèmes liés à celles-ci :
 
-* [Prise en main des actions personnalisées](../action/action.md) - Découvrez en quoi consiste une action personnalisée et comment elle vous aide à vous connecter à vos systèmes tiers
-* [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) - Découvrez comment utiliser des actions personnalisées dans vos parcours.
-* [Dépannage d’action personnalisée](../action/troubleshoot-custom-action.md) - Découvrez comment dépanner une action personnalisée
-* [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md) - Découvrez comment transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution
+* [Prise en main des actions personnalisées](../action/action.md) : découvrez en quoi consiste une action personnalisée et comment elle permet de vous connecter à vos systèmes tiers.
+* [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) : découvrez comment utiliser des actions personnalisées dans vos parcours.
+* [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) : découvrez comment résoudre les problèmes liés à une action personnalisée.
+* [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md) : découvrez comment transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution.
 

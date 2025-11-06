@@ -10,7 +10,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1530'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décisions > critères > optionSelection
++++_experience > decisioning > criteria > optionSelection
 
 **Champ :** optionSelection
 **Titre :** sélection d&#39;options
@@ -111,11 +111,11 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décisions > critères > emplacements
++++_experience > decisioning > criteria > placements
 
 **Champ :** emplacements
 **Titre :** restrictions d&#39;emplacement 
-**Description :** la contrainte d&#39;emplacement indique que ce critère s&#39;applique uniquement aux emplacements répertoriés. Ce n&#39;est que lorsque les emplacements ciblés figurent dans la liste `xdm:placements` que la sélection d&#39;options est prise en compte. Sinon, l&#39;ensemble des critères de décision est ignoré. Lorsque la liste &#39;xdm:placements&#39; est omise ou vide, le critère est pris en compte pour tout emplacement ciblé. Les emplacements répertoriés ici imposent des critères implicites pour la sélection d&#39;options. Une option à prendre en compte doit comporter une représentation pour l&#39;emplacement ciblé.
+**Description :** la contrainte d&#39;emplacement indique que ce critère s&#39;applique uniquement aux emplacements répertoriés. Ce n&#39;est que lorsque les emplacements ciblés figurent dans la liste `xdm:placements` que la sélection d&#39;options est prise en compte. Sinon, l&#39;ensemble des critères de décision est ignoré. Lorsque la liste xdm:placements est omise ou vide, le critère est pris en compte pour tout emplacement ciblé. Les emplacements répertoriés ici imposent des critères implicites pour la sélection d&#39;options. Une option à prendre en compte doit comporter une représentation pour l&#39;emplacement ciblé.
 **Type :** tableau
 
 * Identifiant d’emplacement
@@ -126,7 +126,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décisions > critères > profileConstraints
++++_experience > decisioning > criteria > profileConstraints
 
 **Champ :** profileConstraints 
 **Titre :** contrainte de profil
@@ -135,7 +135,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décisions > critères > profileConstraints > Description
++++_experience > decisioning > criteria > profileConstraints > Description
 
 **Champ :** description
 **Titre :** description 
@@ -147,7 +147,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 +++ _experience > decisioning > criteria > profileConstraints > Eligibility Rule
 
 **Champ :** eligibilityRule
-**Titre :**&#x200B;règle d&#39;éligibilité
+**Titre :**règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 
@@ -207,7 +207,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décisions > critères > classement
++++_experience > decisioning > criteria > ranking
 
 **Champ :** classement
 **Titre :** Détails du classement
@@ -216,7 +216,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ 
 
-+++_experience > prise de décisions > critères > classement > ordre
++++_experience > decisioning > criteria > ranking > order
 
 **Champ :** ordre
 **Titre :** évaluation de l&#39;ordre

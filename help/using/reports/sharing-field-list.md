@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Pour journeyStepEvent, nous devons également ajouter des champs liés à l’id
 
 ## serviceEvents {#servicevents-field}
 
-Ce mixin contient tous les champs correspondant à une tâche d’exportation de profil. Ces événements sont générés par activité **Lecture d&#39;audience** pour effectuer le suivi du cycle de vie des opérations d&#39;export d&#39;audience (en file d&#39;attente, démarrées, terminées, erreurs). Contrairement aux événements d’étape standard, les serviceEvents ne sont pas liés à des profils individuels, mais au nœud Lecture d’audience lui-même, ce qui signifie qu’ils peuvent ne pas être associés à un identifiant de profil.
+Ce mixin contient tous les champs correspondant à un traitement d’export de profil. Ces événements sont générés par activité **Lecture d&#39;audience** pour effectuer le suivi du cycle de vie des opérations d’export d’audience (en file d’attente, démarrées, terminées, erreurs). Contrairement aux événements d’étape standard, les serviceEvents ne sont pas liés à des profils individuels, mais au nœud Lecture d’audience lui-même, ce qui signifie qu’ils peuvent ne pas être associés à un identifiant de profil.
 
 | Nom du champ | Type | Description |
 |---|---|------------|
@@ -85,27 +85,27 @@ Vous trouverez ci-dessous des définitions, des causes courantes et des étapes 
 
 * **EXTERNAL_KEY_COMPUTATION_ERROR** : le système n’a pas pu calculer un identifiant unique (clé externe) pour le client ou la cliente à partir des données d’événement.
 
-  **Causes courantes** : identifiants de client manquants ou incorrects (par exemple, e-mail, ID de client) dans la payload de l’événement.
+  **Causes courantes** : identifiants clients manquants ou incorrects (par exemple, e-mail, ID client) dans la payload d’événement.
 
-  **Dépannage** : vérifiez la configuration de l’événement pour les identifiants requis et assurez-vous que les données d’événement sont complètes et correctement formatées.
+  **Dépannage** : vérifiez la configuration de l’événement pour les identifiants requis et assurez-vous que les données d’événement sont complètes et au bon format.
 
 * **NO_INTERESTED_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT** : un événement de qualification de segment a été reçu, mais aucun parcours n’est configuré pour répondre à ce segment.
 
-  **Causes courantes** : aucun parcours n’utilise le segment comme déclencheur, les parcours sont en état de brouillon ou d’arrêt ou les identifiants de segment ne correspondent pas.
+  **Causes courantes** : aucun parcours n’utilise le segment comme déclencheur, les parcours sont à l’état de brouillon/arrêté ou les identifiants de segment ne correspondent pas.
 
-  **Dépannage** : vérifiez qu’au moins un parcours est actif et configuré pour le segment, puis vérifiez les identifiants de segment.
+  **Dépannage** : assurez-vous qu’au moins un parcours est actif et configuré pour le segment, puis vérifiez les identifiants de segment.
 
 * **JOURNEY_INSTANCE_ID_NOT_CREATE** : le système n’a pas réussi à créer d’instance de parcours pour le client ou la cliente.
 
-  **Causes courantes** : événements en double, volume d’événements élevé, contraintes de ressources système.
+  **Causes courantes** : événements en double, volume d’événements élevé, contraintes de ressources système.
 
-  **Dépannage** : implémentez la déduplication, évitez les pics de trafic, optimisez la conception du parcours et contactez l’assistance en cas de persistance.
+  **Dépannage** : implémentez la déduplication, évitez les pics de trafic, optimisez la conception du parcours et contactez l’assistance en cas de persistance.
 
-* **EVENT_WITH_NO_PARCOURS** : événement reçu, mais aucun parcours actif n’est configuré pour y répondre
+* **EVENT_WITH_NO_JOURNEY** : un événement a été reçu, mais aucun parcours actif n’est configuré pour y répondre.
 
-  **Causes courantes** : incohérence entre le nom et l’ID de l’événement, parcours non publié, sandbox/organisation incorrecte, incompatibilité entre le mode de test et le profil.
+  **Causes courantes** : incohérence entre le nom et l’ID de l’événement, parcours non publié, sandbox/organisation incorrects, incompatibilité entre le profil et le mode de test.
 
-  **Dépannage** : vérifiez la configuration de l’événement et du parcours, vérifiez l’état du parcours et utilisez des outils de débogage.
+  **Dépannage** : vérifiez la configuration de l’événement et du parcours, vérifiez le statut du parcours et utilisez des outils de débogage.
 
 * Pour les rejets se produisant dans des parcours en pause :
 
@@ -118,5 +118,5 @@ Vous trouverez ci-dessous des définitions, des causes courantes et des étapes 
 
 * [Exemples de requête de jeu de données - Événement d’étape de parcours](../data/datasets-query-examples.md#journey-step-event).
 * [Exemples de requêtes - Requêtes basées sur un événement](query-examples.md#event-based-queries).
-* [Dictionnaire de schémas intégré](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
+* [Dictionnaire de schémas intégré](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 

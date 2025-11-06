@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Jeux de règles"
->abstract="Utilisez des ensembles de règles pour appliquer le capping de la fréquence ou des règles d’heures creuses à différents types de communications marketing. Vous pouvez également créer des jeux de règles pour exclure des parcours d’une partie de votre audience en fonction de règles de capping de fréquence."
+>abstract="Utilisez des jeux de règles pour appliquer un capping de fréquence à différents types de communications marketing. Vous pouvez également créer des jeux de règles pour exclure des parcours d’une partie de votre audience en fonction de règles de capping de fréquence."
 
 ## Commencer avec les jeux de règles {#gs}
 
@@ -31,10 +31,10 @@ Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de 
 
 Vous pouvez créer deux types de jeux de règles :
 
-* Les ensembles de règles **Canal** appliquent des règles aux canaux de communication. Ils permettent de définir :
+* Les jeux de règles de **Canal** appliquent des règles aux canaux de communication. Ils vous permettent de définir les éléments suivants :
 
-   * **Règles de limitation de la fréquence** - *N’envoyez pas plus d’une communication par e-mail ou SMS par jour.*
-   * **Règles relatives aux heures calmes** (disponibilité limitée) - *N’envoyez pas d’e-mails en dehors de l’intervalle de 8 h à 21 h.*
+   * **Règles de capping de fréquence** : *ne pas envoyer plus d’un e-mail ou d’un SMS par jour.*
+   * **Règles d’heures creuses** (disponibilité limitée) : *ne pas envoyer d’e-mails en dehors de la période de 8 h à 21 h.*
 
 * Les jeux de règles de **Parcours** appliquent des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne pas entrer simultanément des profils dans plusieurs parcours.
 
@@ -111,7 +111,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
 1. Sélectionnez le domaine du jeu de règles et cliquez sur **[!UICONTROL Enregistrer]**.
 
-   * Domaine **Canal** : appliquez des règles de limitation ou des règles d’heures creuses aux canaux de communication.
+   * Domaine de **Canal** : appliquez des règles de limitation ou des règles d’heures creuses aux canaux de communication.
    * Domaine de **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours.
 
    ![](assets/rule-sets-create.png)
@@ -120,11 +120,11 @@ Pour créer un jeu de règles, procédez comme suit.
 
 1. Configurez les paramètres de la règle en fonction de vos besoins. Les paramètres disponibles pour la règle dépendent du domaine du jeu de règles sélectionné à sa création.
 
-   Vous trouverez des informations détaillées sur la configuration des règles de parcours et de canal dans les sections suivantes :
+   Vous trouverez des informations détaillées sur la configuration des règles de parcours et de canal dans les sections suivantes :
 
    * [Limitation d’un parcours](../conflict-prioritization/journey-capping.md)
    * [Capping de la fréquence par canal et type de communication](../conflict-prioritization/channel-capping.md)
-   * [Heures calmes](../conflict-prioritization/quiet-hours.md) (disponible en disponibilité limitée)
+   * [Heures creuses](../conflict-prioritization/quiet-hours.md) (fonctionnalité en disponibilité limitée)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer la création de la règle. Votre message est ajouté au jeu de règles, au statut **[!UICONTROL Brouillon]**.
 
@@ -151,8 +151,8 @@ Pour créer un jeu de règles, procédez comme suit.
    Vous trouverez des informations détaillées sur l’application d’un jeu de règles dans les sections suivantes :
 
    * [Appliquer un jeu de règles à un parcours](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Application de règles de limitation aux actions de parcours et de campagne](../conflict-prioritization/channel-capping.md#apply)
-   * [Application de règles relatives aux heures creuses au parcours et à la campagne](../conflict-prioritization/quiet-hours.md#apply)
+   * [Appliquer des règles de limitation aux actions de parcours et de campagnes](../conflict-prioritization/channel-capping.md#apply)
+   * [Appliquer des règles d’heures creuses à des parcours et des campagnes](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Accéder aux jeux de règles et les gérer {#access-rule-sets}
 
@@ -180,4 +180,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 87%
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ La fonction `addHours` ajuste une date donnée d’un nombre d’heures spécifi
 
 ## Ajouter des minutes {#add-minutes}
 
-La fonction `addMinutes` ajuste une date donnée selon un nombre de minutes spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
+La fonction `addMinutes` ajuste une date donnée d’un nombre de minutes spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
 
 **Syntaxe**
 
@@ -87,7 +87,7 @@ La fonction `addMonths` ajuste une date donnée d’un nombre de mois spécifié
 
 ## Ajouter des secondes {#add-seconds}
 
-La fonction `addSeconds` ajuste une date donnée d’un nombre spécifié de secondes, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
+La fonction `addSeconds` ajuste une date donnée d’un nombre de secondes spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
 
 **Syntaxe**
 
@@ -104,7 +104,7 @@ La fonction `addSeconds` ajuste une date donnée d’un nombre spécifié de sec
 
 ## Ajouter des années {#add-years}
 
-La fonction `addYears` ajuste une date donnée d’un nombre spécifié d’années, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
+La fonction `addYears` ajuste une date donnée d’un nombre d’années spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
 
 **Syntaxe**
 

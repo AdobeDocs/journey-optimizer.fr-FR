@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Transmettre des collections dans des paramètres d’action personnalisés
-description: Découvrez comment transmettre des collections de manière dynamique dans Journey Optimizer à l’aide d’actions personnalisées
+title: Transmettre des collections dans des paramètres d’actions personnalisées
+description: Découvrez comment transmettre des collections de manière dynamique dans Journey Optimizer à l’aide d’actions personnalisées.
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
 role: Developer
@@ -12,22 +12,22 @@ version: Journey Orchestration
 source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 
-# Transmettre des collections dans des paramètres d’action personnalisés {#passing-collection}
+# Transmettre des collections dans des paramètres d’actions personnalisées {#passing-collection}
 
-Vous pouvez transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution.
+Vous pouvez transmettre une collection dans des paramètres d’actions personnalisées qui seront renseignés dynamiquement au moment de l’exécution.
 
-Deux types de collections sont pris en charge :
+Deux types de collections sont pris en charge :
 
 * **Collections simples**
 
-  Utilisez des collections simples pour les listes de valeurs de base, telles que des chaînes, des nombres ou des booléens. Ils s’avèrent utiles lorsque vous n’avez besoin de transmettre qu’une liste d’éléments sans propriétés supplémentaires.
+  Vous pouvez utiliser des collections simples pour les listes de valeurs de base, telles que des chaînes, des nombres ou des booléens. Elles s’avèrent utiles lorsque vous n’avez besoin de transmettre qu’une liste d’éléments sans propriétés supplémentaires.
 
-  Par exemple, une liste de types d’appareils :
+  Par exemple, une liste de types d’appareils :
 
   ```json
   {
@@ -40,7 +40,7 @@ Deux types de collections sont pris en charge :
 
 * **Collections d’objets**
 
-  Utilisez des collections d’objets lorsque chaque élément comprend plusieurs champs ou propriétés. Ils sont généralement utilisés pour transmettre des données structurées, telles que des détails de produit, des enregistrements d’événement ou des attributs d’élément.
+  Vous pouvez utiliser des collections d’objets lorsque chaque élément comprend plusieurs champs ou propriétés. Elles servent habituellement à transmettre des données structurées, telles que des détails de produit, des enregistrements d’événement ou des attributs d’élément.
 
   Par exemple :
 
@@ -68,11 +68,11 @@ Deux types de collections sont pris en charge :
 
 >[!NOTE]
 >
->Les tableaux imbriqués dans les collections ne sont que partiellement pris en charge dans les payloads de requête d’action personnalisée. Pour plus d’informations, voir [Limites](#limitations).
+>Les tableaux imbriqués dans les collections ne sont que partiellement pris en charge dans les payloads de requête d’action personnalisée. Pour plus d’informations, consultez la section [Limites](#limitations).
 
 ## Procédure générale {#general-procedure}
 
-Dans cette section, nous utilisons l’exemple de payload JSON suivant. Il s’agit d’un tableau d’objets avec un champ qui est une collection simple.
+Dans cette section, nous utiliserons l’exemple de payload JSON ci-après. Il s’agit d’un tableau d’objets avec un champ qui est une collection simple.
 
 ```json
 {
@@ -98,7 +98,7 @@ Dans cette section, nous utilisons l’exemple de payload JSON suivant. Il s’a
 }
 ```
 
-Vous pouvez voir que `products` est un tableau de deux objets . Vous devez avoir au moins un objet.
+Vous pouvez voir que `products` est un tableau de deux objets. Vous devez avoir au moins un objet.
 
 1. Créez votre action personnalisée. En savoir plus sur [cette page](../action/about-custom-action-configuration.md).
 
@@ -128,7 +128,7 @@ Vous pouvez voir que `products` est un tableau de deux objets . Vous devez avoir
 
    ![](assets/uc-collection-3.png)
 
-1. Pour chacun des champs d’objet suivants, saisissez le nom de champ correspondant à partir du schéma XDM source. Si les noms sont identiques, cela n’est pas nécessaire. Dans notre exemple, il nous suffit de définir `product id` et « color ».
+1. Pour chacun des champs d’objet suivants, saisissez le nom de champ correspondant à partir du schéma XDM source. Si les noms sont identiques, cela n’est pas nécessaire. Dans notre exemple, il nous suffit de définir `product id` et « color ».
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
@@ -138,19 +138,19 @@ Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expre
 
 ## Limites {#limitations}
 
-Bien que les collections dans les actions personnalisées offrent la flexibilité nécessaire pour transmettre des données dynamiques, il existe certaines contraintes structurelles dont il faut tenir compte :
+Bien que les collections dans les actions personnalisées offrent la flexibilité nécessaire pour transmettre des données dynamiques, certaines contraintes structurelles doivent être prises en compte :
 
 * **Prise en charge des tableaux imbriqués dans les actions personnalisées**
 
-  Adobe Journey Optimizer prend en charge les tableaux d’objets imbriqués dans les actions personnalisées **payloads de réponse**, mais cette prise en charge est limitée dans les **payloads de requête**.
+  Adobe Journey Optimizer prend en charge les tableaux d’objets imbriqués dans les **payloads de réponse** des actions personnalisées, mais cette prise en charge est limitée dans les **payloads de requête**.
 
-  Dans les payloads de requête, les tableaux imbriqués ne sont pris en charge que s’ils contiennent un nombre fixe d’éléments, comme défini dans la configuration d’action personnalisée. Par exemple, si un tableau imbriqué comprend toujours exactement trois éléments, il peut être configuré comme une constante. Lorsque le nombre d’éléments doit être dynamique, seuls les tableaux non imbriqués (tableaux au niveau inférieur) peuvent être définis comme variables.
+  Dans les payloads de requête, les tableaux imbriqués ne sont pris en charge que s’ils contiennent un nombre fixe d’éléments, comme défini dans la configuration de l’action personnalisée. Par exemple, si un tableau imbriqué comprend toujours exactement trois éléments, il peut être configuré comme une constante. Lorsque le nombre d’éléments doit être dynamique, seuls les tableaux non imbriqués (tableaux au niveau inférieur) peuvent être définis comme variables.
 
   Exemple :
 
    1. L’exemple suivant illustre un **cas d’utilisation non pris en charge**.
 
-      Dans cet exemple, le tableau products comprend un tableau imbriqué (`locations`) avec un nombre dynamique d’éléments, qui n’est pas pris en charge dans les payloads de la requête.
+      Dans cet exemple, le tableau « products » comprend un tableau imbriqué (`locations`) avec un nombre dynamique d’éléments, qui n’est pas pris en charge dans les payloads de requête.
 
       ```json
       {
@@ -187,7 +187,7 @@ Bien que les collections dans les actions personnalisées offrent la flexibilit�
       ```
 
 
-* **Test des collections** : pour tester des collections à l’aide du mode test, vous devez utiliser le mode Affichage du code. Notez que le mode Affichage du code n’est pas pris en charge pour les événements métier. Dans ce cas, vous ne pouvez donc envoyer qu’une collection contenant un seul élément.
+* **Test des collections** : pour tester des collections à l’aide du mode test, vous devez utiliser le mode d’affichage du code. Notez que le mode d’affichage du code n’est pas pris en charge pour les événements métier. Dans ce cas, vous ne pouvez donc envoyer qu’une collection contenant un seul élément.
 
 
 ## Cas particuliers{#examples}
@@ -225,10 +225,10 @@ Exemple de tableau de tableaux :
 
 ## Ressources supplémentaires
 
-Parcourez les sections ci-dessous pour en savoir plus sur la configuration, l’utilisation et le dépannage de vos actions personnalisées :
+Parcourez les sections suivantes pour en savoir plus sur la configuration des actions personnalisées, l’utilisation de celles-ci et la résolution des problèmes liés à celles-ci :
 
-* [Prise en main des actions personnalisées](../action/action.md) - Découvrez en quoi consiste une action personnalisée et comment elle vous aide à vous connecter à vos systèmes tiers
-* [Configurer vos actions personnalisées](../action/about-custom-action-configuration.md) - Découvrez comment créer et configurer une action personnalisée
-* [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) - Découvrez comment utiliser des actions personnalisées dans vos parcours.
-* [Dépannage d’action personnalisée](../action/troubleshoot-custom-action.md) - Découvrez comment dépanner une action personnalisée
+* [Commencer avec les actions personnalisées](../action/action.md) : découvrez en quoi consiste une action personnalisée et comment elle vous permet de vous connecter à vos systèmes tiers.
+* [Configurer vos actions personnalisées](../action/about-custom-action-configuration.md) : découvrez comment créer et configurer une action personnalisée.
+* [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) : découvrez comment utiliser des actions personnalisées dans vos parcours.
+* [Dépanner une action personnalisée](../action/troubleshoot-custom-action.md) : découvrez comment dépanner une action personnalisée.
 

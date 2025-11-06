@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '818'
+ht-degree: 99%
 
 ---
 
@@ -201,7 +201,7 @@ Découvrez comment configurer, créer et inclure des SMS dans vos parcours clien
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Découvrez les fonctionnalités complètes de messagerie mobile qu’Adobe Jour
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430372?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Découvrez comment configurer et envoyer des messages RCS interactifs d’une ma
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
@@ -230,3 +230,4 @@ Découvrez comment configurer et envoyer des messages RCS interactifs d’une ma
 * [Ajouter des messages dans les parcours](../building-journeys/journeys-message.md)
 * [Créer des campagnes marketing](../campaigns/create-campaign.md)
 * [Mécanismes de sécurisation et limitations](../start/guardrails.md#sms-guardrails)
+* [tutoriels SMS et messagerie mobile](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}

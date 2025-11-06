@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 90%
 
 ---
 
@@ -83,3 +83,10 @@ Le processus d’approbation global se présente comme suit :
 Vous pouvez surveiller toutes les demandes d’approbation et de modification qui ont été soumises pour un parcours donné ou une campagne donnée. Pour ce faire, cliquez sur l’icône **[!UICONTROL Afficher le journal d’audit]** située dans la section supérieure droite de la zone de travail du parcours ou de l’écran de révision de la campagne.
 
 ![](assets/monitor-requests.png)
+
+## Ressources supplémentaires
+
+* **[Créer des politiques de validation](approval-policies.md)** - Découvrez comment configurer des politiques de validation pour appliquer les workflows de révision aux campagnes et aux parcours.
+* **[Demande d’approbation](request-approval.md)** - Découvrez comment envoyer du contenu pour approbation et suivre le statut d’approbation.
+* **[Révision et approbation des demandes](review-approve-request.md)** - Découvrez comment réviser, approuver ou rejeter des demandes d’approbation en tant qu’approbateur.
+* **[Simuler avec des exemples d’entrées](simulate-sample-input.md)** - Découvrez comment tester et valider du contenu à l’aide d’exemples de données de profil.

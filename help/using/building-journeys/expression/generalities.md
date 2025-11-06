@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Les expressions sont évaluées de gauche à droite. L’associativité des opé
 
 | Expression | Évaluation |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>&#39;*&#39; a la priorité sur &#39;+&#39; : 2 \* 10 est évalué → 20</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>« * » a la priorité sur « + » : 2*10 est évalué → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Les parenthèses modifient la priorité : (4 + 2) est évalué → 6</li><li> 6 * 10 → 60</li></ul> |
 
 ## Sensible à la casse {#case-sensitivity}

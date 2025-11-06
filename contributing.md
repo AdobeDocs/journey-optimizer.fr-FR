@@ -1,7 +1,7 @@
 ---
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -42,4 +42,4 @@ Nous apprécions les contributions de notre communauté ! Si vous souhaitez all
 
 ## Problèmes de sécurité
 
-Les problèmes de sécurité ne doivent pas être signalés dans cet analyseur d’anomalies. Soulevez plutôt [un problème auprès de nos experts en sécurité.](https://helpx.adobe.com/fr/security/alertus.html)
+Les problèmes de sécurité ne doivent pas être signalés dans cet analyseur d’anomalies. Veuillez plutôt [signaler un problème auprès de nos spécialistes de la sécurité](https://helpx.adobe.com/fr/security/alertus.html).

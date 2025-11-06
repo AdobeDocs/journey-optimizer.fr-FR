@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
 
 ## Unless{#unless}
 
-L&#39;helper `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l&#39;assistant `if` , si l&#39;évaluation de l&#39;expression renvoie false, le bloc est rendu.
+L&#39;helper `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l’assistant `if`, si l’évaluation de l’expression renvoie false, le bloc est rendu.
 
 **Syntaxe**
 
@@ -216,7 +216,7 @@ L&#39;exemple suivant permet de calculer la somme totale des prix des produits d
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 L’assistant `executionMetadata` permet de capturer et de stocker dynamiquement des paires clé-valeur personnalisées dans le contexte d’exécution du message.
 
@@ -230,13 +230,13 @@ Dans cette syntaxe, `key` fait référence au nom des métadonnées et `value` c
 
 **Cas d’utilisation**
 
-Cette fonction vous permet d’ajouter des informations contextuelles à toute action native de vos campagnes ou parcours. Vous pouvez ainsi exporter des données contextuelles de diffusion en temps réel vers des systèmes externes à diverses fins telles que le tracking, l’analyse, la personnalisation et le traitement en aval.
+Cette fonction vous permet d’ajouter des informations contextuelles à toute action native de vos campagnes ou parcours. Vous pouvez ainsi exporter des données contextuelles de diffusion en temps réel vers des systèmes externes à diverses fins telles que le suivi, l’analyse, la personnalisation et le traitement en aval.
 
 >[!NOTE]
 >
 >La fonction Métadonnées d’exécution n’est pas prise en charge par les [actions personnalisées](../../action/action.md).
 
-Par exemple, vous pouvez utiliser l’assistant Métadonnées d’exécution pour ajouter un identifiant spécifique à chaque diffusion envoyée à chaque profil. Ces informations sont générées lors de l’exécution, puis les métadonnées d’exécution enrichies peuvent être exportées pour la réconciliation en aval avec une plateforme de création de rapports externe.
+Par exemple, vous pouvez utiliser l’assistant Métadonnées d’exécution pour ajouter un ID spécifique à chaque diffusion envoyée à chaque profil. Ces informations sont générées lors de l’exécution, puis vous pouvez importer les métadonnées d’exécution enrichies pour la réconciliation en aval à l’aide d’une plateforme de création de rapports externe.
 
 **Fonctionnement**
 
@@ -244,10 +244,10 @@ Sélectionnez n’importe quel élément du contenu de votre canal dans une camp
 
 >[!NOTE]
 >
->La fonction Métadonnées d’exécution n’est pas visible lorsque le contenu lui-même est affiché.
+>La fonction Métadonnées d’exécution n’est pas visible lorsque le contenu est affiché.
 
 
-Lors de l’exécution, la valeur des métadonnées est ajoutée au **[!UICONTROL jeu de données d’événement de retour de message]** existant avec le schéma suivant :
+Lors de l’exécution, la valeur des métadonnées est ajoutée au **[!UICONTROL jeu de données d’événement de retour de message]** existant avec le schéma suivant :
 
 ```
 "_experience": {
@@ -263,13 +263,13 @@ Lors de l’exécution, la valeur des métadonnées est ajoutée au **[!UICONTRO
 
 >[!NOTE]
 >
->En savoir plus sur les jeux de données dans [cette section](../../data/get-started-datasets.md).
+>Pour en savoir plus sur les jeux de données, consultez [cette section](../../data/get-started-datasets.md).
 
-**Limitation**
+**Limite**
 
-La limite supérieure est de 2 Ko sur les paires clé-valeur par action.
+Il existe une limite supérieure de 2 Ko pour les paires clé-valeur par action.
 
-Si la limite de 2 Ko est dépassée, le message est toujours diffusé, mais toutes les paires clé-valeur peuvent être tronquées.
+Si vous dépassez la limite de 2 Ko, le message est toujours diffusé, mais toutes les paires clé-valeur peuvent être tronquées.
 
 **Exemple**
 
@@ -277,7 +277,7 @@ Si la limite de 2 Ko est dépassée, le message est toujours diffusé, mais tout
 {{executionMetadata key="firstName" value=profile.person.name.firstName}}
 ```
 
-Dans cet exemple, en supposant que `profile.person.name.firstName` = « Alex », l’entité résultante est :
+Dans cet exemple, en supposant que `profile.person.name.firstName` = « Alex », l’entité obtenue est :
 
 ```
 {

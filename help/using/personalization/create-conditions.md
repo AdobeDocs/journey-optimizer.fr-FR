@@ -12,7 +12,7 @@ exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Les principales étapes de création d’une règle conditionnelle sont les suiv
 
    * **[!UICONTROL Profile]** :
       * **[!UICONTROL Audiences]** répertorie tous les attributs d’audience (c’est-à-dire le statut, la version, etc.) pour le [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
-      * **[!UICONTROL Profils individuels XDM]** répertorie tous les attributs de profil associés au [Schéma du modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} défini dans Adobe Experience Platform.
+      * **[!UICONTROL Profils individuels XDM]** répertorie tous les attributs de profil associés au [Schéma du modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"} défini dans Adobe Experience Platform.
    * **[!UICONTROL Contextuel]** : lorsque le message est utilisé dans un parcours, les champs de parcours contextuels sont disponibles dans cet onglet.
    * **[!UICONTROL Audiences]** : répertorie toutes les audiences générées à partir des segments créés dans le [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 
@@ -74,7 +74,7 @@ Les principales étapes de création d’une règle conditionnelle sont les suiv
 
 ## Enregistrer une règle conditionnelle {#save}
 
-S’il existe des règles de condition que vous réutiliserez fréquemment, vous pouvez les enregistrer dans la bibliothèque de conditions. Toutes les règles enregistrées sont partagées et peuvent être consultées et utilisées par des personnes de votre entreprise.
+Si vous réutilisez fréquemment des règles de condition, vous pouvez les enregistrer dans la bibliothèque de conditions. Toutes les règles enregistrées sont partagées et peuvent être consultées et utilisées par des personnes de votre entreprise.
 
 >[!NOTE]
 >

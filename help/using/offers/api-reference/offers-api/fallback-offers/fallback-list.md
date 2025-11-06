@@ -9,13 +9,13 @@ exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Liste des offres de secours {#list-fallback-offers}
 
-Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
+Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres. Les étapes de création d’une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d’une offre.
 
 Vous pouvez afficher une liste de toutes les offres de secours en adressant une seule requête GET à l’API [!DNL Offer Library].
 
@@ -51,7 +51,7 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération AND.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Les expressions de propriété sont au format `[ !]field[op]value`, avec `op` dans `[==,!=,<=,>=,<,>,~]`, prenant en charge les expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération AND.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Les expressions de propriété sont au format `[!]field[op]value`, avec `op` dans `[==,!=,<=,>=,<,>,~]`, prenant en charge les expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limitez le nombre d’entitées renvoyées. | `limit=5` |
 

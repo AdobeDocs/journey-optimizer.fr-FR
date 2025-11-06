@@ -5,10 +5,10 @@ title: Commencer
 description: Commencer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -78,7 +78,7 @@ Mécanismes de sécurisation et limitations
 
 Découvrez les contraintes et les pratiques recommandées pour une utilisation efficace des fonctionnalités d’Adobe Journey Optimizer.
 
-[Découvrir les concepts de base](../using/start/guardrails.md)
+[Vérifier les mécanismes de sécurisation et les limites](../using/start/guardrails.md)
 :::
 
 ::::

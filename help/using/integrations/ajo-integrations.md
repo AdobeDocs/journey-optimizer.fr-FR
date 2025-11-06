@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ En savoir plus sur [Journey Optimizer + Campaign Standard](../building-journ
 
 Utilisez les modules Adobe Journey Optimizer dans Adobe Workfront pour créer, lire, mettre à jour ou supprimer des enregistrements, ou effectuez un appel d’API personnalisé vers l’API Adobe Journey Optimizer.
 
-Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=fr&lang=fr){target="_blank"}.
+Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?lang=fr){target="_blank"}.
 
 En savoir plus sur Journey Optimizer + Adobe Workfront [dans la documentation Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=fr){target="_blank"}.
 

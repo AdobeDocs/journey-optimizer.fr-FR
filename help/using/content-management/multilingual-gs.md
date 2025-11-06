@@ -10,7 +10,7 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 100%
 
@@ -100,4 +100,4 @@ Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
 Découvrez comment créer du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452115?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

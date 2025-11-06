@@ -10,7 +10,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 60a10e935a8eead64f6115dc94e5d8c155c8d4d5
 workflow-type: tm+mt
 source-wordcount: '1877'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -113,7 +113,7 @@ Les schémas et jeux de données suivants sont disponibles avec le canal de noti
 >
 >Lorsque des événements de suivi des notifications push sont ingérés dans le jeu de données d’événement d’expérience de suivi des notifications push CJM, certains échecs peuvent se produire, même si les données ont été partiellement ingérées. Cela peut se produire si certains champs de votre mappage n’existent pas dans les événements entrants : le système consigne les avertissements mais n’empêche pas l’ingestion de parties valides des données. Ces avertissements apparaissent dans le statut du lot comme « échec », mais reflètent un succès partiel de l’ingestion.
 >
->Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
+>Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 
@@ -132,7 +132,7 @@ Le SDK mobile Adobe Experience Platform fournit des API d&#39;intégration cô
 
 À la fin de cette lecture, vous aurez également créé et configuré une propriété mobile dans [!DNL Adobe Experience Platform Data Collection]. En règle générale, vous créez une propriété mobile pour chaque application mobile que vous souhaitez gérer. Découvrez comment créer et configurer une propriété mobile dans la [documentation du SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
-<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
+<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
 -->
 
 ## Étape 1 : ajout des informations d’identification push dans Journey Optimizer {#push-credentials-launch}
@@ -208,7 +208,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=fr).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## Étape 2 : création d’une configuration de canal pour les notifications push{#message-preset}
@@ -234,7 +234,7 @@ Une fois vos informations d’identification push créées, vous devez créer un
 
 1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurs pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
-1. Choisissez votre **[!UICONTROL Plateforme]** : Android et/ou iOS <!--and/or Web-->.
+1. Choisissez votre **[!UICONTROL plateforme]** : Android et/ou iOS <!--and/or Web-->.
 
 1. Sélectionnez le même **[!UICONTROL ID d’application]** que pour vos [informations d’identification push](#push-credentials-launch) configurées ci-dessus.
 

@@ -70,7 +70,7 @@ Obtenez des informations sur les performances des e-mails, l’engagement et les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Informations sur les messages in-app
 

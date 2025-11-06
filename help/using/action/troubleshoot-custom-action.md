@@ -12,7 +12,7 @@ exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -91,10 +91,10 @@ Si la demande échoue, vous pouvez vérifier les éléments suivants :
 
 ## Ressources supplémentaires
 
-Parcourez les sections ci-dessous pour en savoir plus sur la configuration et l’utilisation de vos actions personnalisées :
+Parcourez les sections ci-dessous pour en savoir plus sur la configuration et l’utilisation de vos actions personnalisées :
 
-* [Prise en main des actions personnalisées](../action/action.md) - Découvrez en quoi consiste une action personnalisée et comment elle vous aide à vous connecter à vos systèmes tiers
-* [Configurer vos actions personnalisées](../action/about-custom-action-configuration.md) - Découvrez comment créer et configurer une action personnalisée
-* [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) - Découvrez comment utiliser des actions personnalisées dans vos parcours.
-* [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md) - Découvrez comment transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution
+* [Commencer avec les actions personnalisées](../action/action.md) : découvrez en quoi consiste une action personnalisée et comment elle vous permet de vous connecter à vos systèmes tiers.
+* [Configurer vos actions personnalisées](../action/about-custom-action-configuration.md) : découvrez comment créer et configurer une action personnalisée.
+* [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) : découvrez comment utiliser des actions personnalisées dans vos parcours.
+* [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md) : découvrez comment transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution.
 

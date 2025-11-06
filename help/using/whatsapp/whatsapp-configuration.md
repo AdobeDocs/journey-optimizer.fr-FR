@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '902'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Ces étapes doivent être exécutées par un [Administrateur ou une Administratr
 
    ![](assets/whatsapp-api-2.png)
 
-1. Sélectionnez le **Nom de l&#39;expéditeur** utilisé pour envoyer vos messages WhatsApp.
+1. Sélectionnez le **nom de l’expéditeur ou de l’expéditrice** utilisé pour envoyer vos messages WhatsApp.
 
 1. Les paramètres de votre numéro de téléphone sont automatiquement renseignés :
 
@@ -157,9 +157,9 @@ Maintenant que votre Webhook est configuré, vous pouvez créer votre configurat
 
    ![](assets/whatsapp-config-3.png){width=80%}
 
-1. Saisissez le **[!UICONTROL Numéro de téléphone de l’expéditeur]** &#x200B;que vous souhaitez utiliser pour vos communications.
+1. Saisissez le **[!UICONTROL numéro de téléphone de l’expéditeur ou de l’expéditrice]** à utiliser lors de vos communications.
 
-1. Utilisez le **[!UICONTROL champ d&#39;exécution WhatsApp]** pour sélectionner parmi les attributs de profil le numéro de téléphone que vous souhaitez utiliser en priorité si plusieurs numéros sont disponibles dans la base de données. [En savoir plus](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+1. Utilisez le **[!UICONTROL Champ d’exécution WhatsApp]** pour sélectionner, parmi les attributs de profil, le numéro de téléphone à utiliser en priorité si plusieurs numéros sont disponibles dans la base de données. [En savoir plus](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
    >[!NOTE]
    >
@@ -186,6 +186,6 @@ La vidéo ci-dessous montre comment configurer le canal WhatsApp dans Adobe Jou
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470270/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

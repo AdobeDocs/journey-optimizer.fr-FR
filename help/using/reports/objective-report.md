@@ -14,7 +14,7 @@ badge: label="Version Beta" type="Informative"
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 92%
 
 Pour accéder directement au rapport global de campagne à partir de votre campagne, cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
 
-Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d’informations à ce sujet, consultez cette <!--[section](../reports/global-report.md#modify-dashboard)-->.
+Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d’informations à ce propos, consultez cette <!--[section](../reports/global-report.md#modify-dashboard)-->.
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à <!--[this page](global-report.md#list-of-components-global.md)-->
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, consultez <!--[this page](global-report.md#list-of-components-global.md)-->.
 
 ## Onglet Campagne {#campaign-global-objectives}
 
@@ -68,7 +68,7 @@ L’onglet **[!UICONTROL Expérimentation]** fournit des informations clés sur 
 
 Notez que la définition de meilleure performance peut prendre un certain temps, elle sera représentée par cette icône ![](assets/experimentation_report_1.png).
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’expérience.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’expérimentation.
 
 Le widget **[!UICONTROL Résultat de l’expérience]** décrit les performances de chaque variante. Vous pouvez modifier votre ligne de base en sélectionnant l’un des traitements du menu déroulant **[!UICONTROL Ligne de base]**. Le meilleur traitement sera signalé par une icône en forme d’étoile.
 

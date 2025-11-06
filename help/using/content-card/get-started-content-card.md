@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 70%
 
 ---
 
@@ -46,3 +46,9 @@ Grâce à cette fonctionnalité, les spécialistes du marketing peuvent présent
 <p>
 </td>
 </tr></table>
+
+## Ressources supplémentaires
+
+* **[Cartes de contenu dans les pages de destination](content-card-lp.md)** - Découvrez comment implémenter des cartes de contenu dans les pages de destination pour un engagement amélioré.
+* **[Compte rendu des performances des cartes de contenu](content-card-report.md)** - Suivez et analysez les performances des cartes de contenu avec des mesures et des informations détaillées.
+* **[Tutoriels sur la carte de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives aux cartes de contenu.

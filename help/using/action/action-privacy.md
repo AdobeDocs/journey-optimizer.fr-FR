@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Pour que les politiques de gouvernance des données soient appliquées dans Jour
 
 ### Appliquer des actions marketing aux parcours et aux campagnes{#journeys-campaigns}
 
-Après avoir créé des politiques de gouvernance, vous devez appliquer les actions marketing appropriées à vos **configurations de canal** Journey Optimizer. Pour ce faire, procédez comme suit :
+Après avoir créé des politiques de gouvernance, vous devez appliquer les actions marketing appropriées dans vos **configurations de canal** Journey Optimizer. Pour ce faire, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canal]**.
 

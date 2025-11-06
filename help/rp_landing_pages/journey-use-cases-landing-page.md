@@ -6,7 +6,7 @@ description: Cas d’utilisation
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 

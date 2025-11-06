@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Définissez les paramètres d’e-mail dans la section dédiée de la configurat
 
 La configuration du canal e-mail est récupérée pour envoyer des communications en suivant la logique ci-dessous :
 
-* Pour les parcours par lots, cela ne s’applique pas à l’exécution par lots qui avait déjà démarré avant que la configuration de surface d’e-mail ne soit effectuée. La modification est récupérée à la prochaine périodicité ou nouvelle exécution.
+* Pour les parcours par lots, cela ne s’applique pas à l’exécution par lots qui avait déjà démarré avant que la configuration de surface d’e-mail ne soit effectuée. La modification est récupérée lors de la prochaine périodicité ou de la nouvelle exécution.
 
 * Pour les messages transactionnels, la modification est immédiatement récupérée pour la communication suivante (délai de cinq minutes maximum).
 
 >[!NOTE]
 >
->Les paramètres de configuration d’e-mail mis à jour sont automatiquement récupérés dans le(s) parcours(s) ou campagne(s) où la configuration est utilisée.
+>Les paramètres mis à jour de la configuration du canal e-mail sont automatiquement récupérés dans le ou les parcours ou la ou les campagnes où la configuration est utilisée.
 
 ## Type d’e-mail {#email-type}
 

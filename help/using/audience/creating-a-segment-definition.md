@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 100%
 
@@ -136,4 +136,4 @@ Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences inéligi
 
 Découvrez comment Journey Optimizer utilise des règles pour générer une audience. Apprenez à utiliser des attributs, des événements et des audiences existantes pour créer une audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430324?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

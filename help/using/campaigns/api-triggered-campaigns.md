@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 73%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 73%
 
 ## À propos des campagnes déclenchées par API {#about}
 
-Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au bon moment ou aux messages transactionnels/opérationnels d’être envoyés à une personne, comme la réinitialisation d’un mot de passe. La personnalisation de ces campagnes inclut les attributs de profil, mais aussi les données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
+Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au moment opportun ou aux messages transactionnels/opérationnels (comme la réinitialisation d’un mot de passe) d’être envoyés à un individu. Elles sont utilisées quand une personnalisation est nécessaire en utilisant non seulement l’attribut de profil, mais aussi les données contextuelles en temps réel du déclencheur, qui est une payload d’API REST.
 
 Pour ce faire, vous devez d’abord créer une campagne déclenchée par API dans Journey Optimizer, puis lancer son exécution via un appel API à l’aide de l’[API REST Interactive Message Execution](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
@@ -54,4 +54,4 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452727?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

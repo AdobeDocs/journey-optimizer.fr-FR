@@ -73,12 +73,12 @@ Accédez à des ressources de dépannage complètes, à des alertes système et 
 
 ## Ressources supplémentaires
 
-* [Rapport dynamique dans votre Parcours &#x200B;](../using/building-journeys/report-journey.md) - Surveillez les mesures de parcours en temps réel pour suivre les performances et identifier les problèmes lors de l’exécution.
+* [Rapport dynamique dans votre Parcours ](../using/building-journeys/report-journey.md) - Surveillez les mesures de parcours en temps réel pour suivre les performances et identifier les problèmes lors de l’exécution.
 
 * [Création de profils de test](../using/audience/creating-test-profiles.md) - Créez et gérez des profils de test pour simuler des scénarios client réels et valider la personnalisation.
 
 * [Gestion de contenu](content-management-landing-page.md) - Découvrez comment concevoir, prévisualiser et gérer du contenu à l’aide de modèles, de fragments et du Designer d’e-mail.
 
-* [FAQ sur les Parcours &#x200B;](../using/building-journeys/journey-faq.md) - Trouvez des réponses aux questions courantes sur la création, le test, l&#39;exécution et le dépannage de parcours.
+* [FAQ sur les Parcours ](../using/building-journeys/journey-faq.md) - Trouvez des réponses aux questions courantes sur la création, le test, l&#39;exécution et le dépannage de parcours.
 
 * [Rapport sur les spams par e-mail](../using/content-management/spam-report.md) - Vérifiez le score de spam de vos e-mails avant envoi pour améliorer la délivrabilité et le placement des boîtes de réception.

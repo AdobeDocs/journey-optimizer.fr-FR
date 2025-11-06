@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
 source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 * **[!UICONTROL Clics]** : nombre de fois où l’utilisateur ou l’utilisatrice a interagi avec les messages in-app.
 
-* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché pour l’utilisateur ou l’utilisatrice.
+* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché à l’utilisateur ou l’utilisatrice.
 
 * **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
 

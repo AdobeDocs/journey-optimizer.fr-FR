@@ -10,7 +10,7 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Pour configurer le ciblage, suivez les étapes ci-dessous.
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. Cliquez sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Créer]** et utilisez le créateur de règles pour définir vos critères en déplacement.
+1. Cliquez sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Créer]** et utilisez le créateur de règles pour définir directement vos critères.
 
    ![](assets/msg-optimization-create-rule.png){width=100%}
 
@@ -76,27 +76,27 @@ Pour configurer le ciblage, suivez les étapes ci-dessous.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Vous pouvez également cliquer sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Sélectionner une règle]** pour sélectionner une règle de ciblage existante créée à partir du menu **[!UICONTROL Règles]**. [En savoir plus](../experience-decisioning/rules.md)
+1. Vous pouvez également cliquer sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Sélectionner une règle]** pour sélectionner une règle de ciblage existante créée à partir du menu **[!UICONTROL Règles]**. [En savoir plus](../experience-decisioning/rules.md)
 
    ![](assets/msg-optimization-select-rule.png){width=70%}
 
-   Dans ce cas, la formule qui constitue la règle est simplement copiée dans le parcours ou la campagne. Les modifications ultérieures apportées à cette règle à partir du menu **[!UICONTROL Règles]** n’affecteront pas la copie du parcours ou de la campagne.
+   Dans ce cas, la formule qui constitue la règle est simplement copiée dans le parcours ou la campagne. Les modifications ultérieures apportées à cette règle à partir du menu **[!UICONTROL Règles]** n’auront aucune incidence sur la copie du parcours ou de la campagne.
 
    >[!AVAILABILITY]
    >
-   >[Création de règles de ciblage](../experience-decisioning/rules.md#create) à partir du menu [!DNL Journey Optimizer] dédié est actuellement disponible pour les organisations qui ont acheté le module complémentaire Decisioning et ils sont disponibles à la demande pour les autres organisations (disponibilité limitée).
+   >La fonction [Création de règles de ciblage](../experience-decisioning/rules.md#create) à partir du menu [!DNL Journey Optimizer] dédié est actuellement disponible pour les organisations qui ont acheté le module complémentaire Decisioning. Elle est disponible à la demande pour les autres organisations (disponibilité limitée).
    >
-   >Cette capacité sera progressivement déployée pour tous les clients. En attendant, contactez votre représentant Adobe pour obtenir l’accès.
+   >Cette fonctionnalité sera progressivement déployée pour l’ensemble de la clientèle. En attendant, contactez votre représentant ou votre représentante Adobe pour obtenir l’accès.
 
-1. Après avoir ajouté une règle, vous pouvez toujours la modifier. Choisissez **[!UICONTROL Modifier en ligne]** pour le mettre à jour en déplacement à l’aide du créateur de règles, ou **[!UICONTROL Sélectionner une règle]** pour sélectionner une autre règle existante.
+1. Après avoir ajouté une règle, vous pouvez toujours la modifier. Choisissez **[!UICONTROL Modifier directement]** pour effectuer la mise à jour directement à l’aide du créateur de règles, ou **[!UICONTROL Sélectionner une règle]** pour sélectionner une autre règle.
 
    ![](assets/msg-optimization-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
-   >La modification d’une règle sur la ligne n’affecte pas la règle existante d’où elle provient.
+   >La modification directe d’une règle n’a aucune incidence sur la règle d’où elle provient.
 
-1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est qualifiée.
+1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à l’audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est applicable.
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ Pour configurer le ciblage, suivez les étapes ci-dessous.
 
 1. [Activez](review-activate-campaign.md) votre parcours ou campagne.
 
-Une fois le parcours/la campagne en ligne, le contenu adapté à chaque cible est envoyé afin que les résidents des États-Unis reçoivent un message spécifique, les résidents de la France un message différent, etc.
+Une fois la campagne ou le parcours actif, le contenu adapté à chaque cible est envoyé : les personnes vivant aux États-Unis reçoivent un message spécifique, les personnes vivant en France un message différent, et ainsi de suite.
 
 <!--Default content:
 
@@ -168,7 +168,7 @@ Suivez le succès de votre campagne avec les rapports de [parcours](../reports/j
 
 Journey Optimizer permet également de combiner le ciblage et les expériences au sein d’un seul parcours ou d’une seule campagne afin de créer des stratégies plus sophistiquées.
 
-En effet, vous pouvez utiliser le ciblage pour créer plusieurs variantes et, pour chaque variante, utiliser l’expérimentation pour optimiser davantage chaque contenu. Cela garantit que les expériences sont propres à chaque règle de ciblage et ne s’étendent pas aux variantes.
+En effet, il est possible d’utiliser le ciblage pour créer plusieurs variantes et, pour chacune d’elles, de recourir à l’expérimentation afin d’optimiser davantage chaque contenu. Cela garantit que les expériences sont propres à chaque règle de ciblage et ne s’étendent pas aux variantes.
 
 Par exemple, il est possible de tester une « promotion -50 % » par rapport à une « carte-cadeau de 50 $ » pour la clientèle américaine, et d’exécuter un test différent pour la clientèle européenne, comme « livraison gratuite pour toute commande supérieure à 50 € » par rapport à « 20 % de réduction sur l’achat suivant ».
 
@@ -210,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Apprenez à tirer parti de l’optimisation des messages dans les campagnes déclenchées par des actions ou des API. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

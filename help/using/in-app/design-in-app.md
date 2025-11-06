@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 100%
 
@@ -266,4 +266,4 @@ Pour plus d’informations, consultez la [documentation de développement](https
 
 La vidéo ci-dessous montre comment créer et tester vos messages in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422077?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
