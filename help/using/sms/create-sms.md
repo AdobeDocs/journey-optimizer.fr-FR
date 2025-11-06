@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1105'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->RCS n’est pas un service conforme à la loi HIPAA et ne doit pas être utilisé pour collecter, stocker ou traiter des données personnelles sensibles, y compris des données de santé autorisées, par exemple des informations de santé personnelles, que votre organisation pourrait autrement être autorisée à traiter dans Journey Optimizer.
+>RCS n’est pas un service conforme à la loi HIPAA et ne doit pas être utilisé pour collecter, stocker ou traiter des données personnelles sensibles, y compris des données de santé autorisées, par exemple des informations de santé personnelles, que votre organisation pourrait par ailleurs être autorisée à traiter dans Journey Optimizer.
 
 Vous pouvez concevoir et envoyer des messages texte (SMS), riches (RCS) et multimédia (MMS) avec Adobe Journey Optimizer. Vous devez d’abord ajouter une action SMS dans un parcours ou une campagne, puis définir le contenu du message texte, comme décrit ci-dessous. Adobe Journey Optimizer propose également des fonctionnalités permettant de tester vos messages texte avant l’envoi, afin que vous puissiez vérifier le rendu, les attributs de personnalisation et tous les autres paramètres.
 
@@ -60,7 +60,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message SMS en
 
    * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **Déclenchée par API - Marketing/Transactionnelle** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, achat au panier, etc.
+   * **Déclenchée par API - Marketing/Transactionnelle** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation du mot de passe, achat dans le panier, etc.
 
 1. Dans la section **[!UICONTROL Propriétés]**, modifiez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** de votre campagne.
 
@@ -112,7 +112,7 @@ Pour configurer le contenu de votre message, suivez les étapes ci-après. Les p
 
 1. Une fois le contenu défini, ajoutez les URL trackées à votre message. Pour ce faire, accédez au menu **[!UICONTROL Fonctions d’assistance]** et sélectionnez **[!UICONTROL Helpers]**.
 
-   Pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine qui sera ensuite lié à votre configuration. [En savoir plus](sms-subdomains.md)
+   Pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine, qui sera ensuite lié à votre configuration. [En savoir plus](sms-subdomains.md)
 
    >[!NOTE]
    >

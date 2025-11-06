@@ -9,15 +9,15 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Configuration manuelle de [!DNL Customer Journey Analytics] {#cja-ajo}
 
-[!DNL Journey Optimizer]’intégration à [!DNL Customer Journey Analytics] offre une vue d’ensemble de tous vos parcours avec une distribution de rapports automatisée et des visualisations personnalisées des données.
+L’intégration de [!DNL Journey Optimizer] à [!DNL Customer Journey Analytics] offre une vue holistique de tous vos parcours avec une distribution de rapports automatisée et des visualisations personnalisées des données.
 
 La section suivante explique comment utiliser manuellement les données générées par Journey Optimizer pour une analyse approfondie dans Customer Journey Analytics. Notez que cette intégration peut être configurée automatiquement. [En savoir plus](report-gs-cja.md)
 

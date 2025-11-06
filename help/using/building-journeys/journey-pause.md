@@ -10,9 +10,9 @@ keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2481'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Pour mettre en pause votre parcours, procédez comme suit :
    * **Mettre en pause les profils** - Les profils attendront le nœud **Action** suivant pour reprendre le parcours.
    * **Ignorer les profils** - Les profils seront exclus du parcours lors du nœud **Action** suivant.
 
-   Lorsque vous suspendez un parcours, on suppose que vous prévoyez de le reprendre à un moment donné. Cependant, un parcours ne peut pas rester en pause indéfiniment. Pour éviter cela, vous pouvez définir la durée pendant laquelle le parcours doit rester en pause (entre 1 et 14 jours). Le parcours reprend automatiquement après le nombre de jours sélectionné.
+   Lorsque vous suspendez un parcours, il est supposé que vous prévoyez de le reprendre à un moment donné. Cependant, un parcours ne peut pas rester en pause indéfiniment. Pour éviter cela, vous pouvez définir la durée pendant laquelle le parcours doit rester en pause (entre 1 et 14 jours). Le parcours reprend automatiquement après le nombre de jours sélectionné.
 
 1. Cliquez sur le bouton **Mettre en pause** pour confirmer l’opération.
 

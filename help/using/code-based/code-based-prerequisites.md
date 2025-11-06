@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL 
 
 L’expérience basée sur le code prend en charge n’importe quel type d’implémentation du client ou de la cliente, comme illustré dans les options ci-dessous. Vous pouvez utiliser une méthode d’implémentation côté client, côté serveur ou hybride pour vos propriétés :
 
-* Côté client uniquement : pour ajouter des modifications à vos pages web ou à vos applications mobiles, vous devez implémenter le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} sur votre site web ou le [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} sur vos applications mobiles.
+* Côté client uniquement : pour ajouter des modifications à vos pages web ou applications mobiles, vous devez implémenter le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} sur votre site web ou le [SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} sur vos applications mobiles.
 
 * Mode hybride : vous pouvez utiliser l’[API du serveur Edge Network AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} pour demander une personnalisation côté serveur ; la réponse est transmise au SDK Web Adobe Experience Platform afin d’appliquer les modifications côté client. Pour plus d’informations, consultez la [documentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"} Adobe Experience Platform. Vous pouvez en savoir plus sur le mode hybride et consulter quelques exemples de mise en œuvre dans cet [article de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 

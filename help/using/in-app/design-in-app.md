@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Les styles disponibles sont les suivants :
 * **[!UICONTROL Cercle]**
 * **[!UICONTROL Image personnalisée]** à partir d’une URL de média ou de vos ressources.
 
-+++Plus d’options avec le Formatage avancé
++++Plus d’options avec le formatage avancé
 
 Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez vérifier l’option **[!UICONTROL Couleur]** pour choisir la couleur et l’opacité de votre bouton.
 
@@ -107,7 +107,7 @@ Le champ **[!UICONTROL Média]** permet d’ajouter des médias à votre message
 Saisissez votre URL de média ou cliquez sur l’icône **[!UICONTROL Sélectionner les ressources]** pour ajouter directement des ressources stockées dans votre bibliothèque de ressources à votre message in-app. [En savoir plus sur la gestion des ressources](../integrations/assets.md).
 Vous pouvez également ajouter un **[!UICONTROL Texte secondaire]** pour les applications de lecture d’écran.
 
-+++Plus d’options avec le Formatage avancé
++++Plus d’options avec le formatage avancé
 
 Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez personnaliser la **[!UICONTROL Hauteur maximale]** et la **[!UICONTROL Largeur maximale]** de vos médias.
 
@@ -126,7 +126,7 @@ Pour composer votre message, saisissez le contenu dans les champs **[!UICONTROL 
 
 Utilisez l’icône **[!UICONTROL Personnalisation]** pour ajouter de la personnalisation. En savoir plus sur la personnalisation avec l’éditeur de personnalisation d’Adobe Journey Optimizer [dans cette section](../personalization/personalize.md).
 
-+++Plus d’options avec le Formatage avancé
++++Plus d’options avec le formatage avancé
 
 Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez choisir les éléments suivants pour votre **[!UICONTROL En-tête]** et votre **[!UICONTROL Corps]** :
 
@@ -157,7 +157,7 @@ Pour personnaliser votre bouton :
 
 1. Pour ajouter plusieurs boutons, cliquez sur **[!UICONTROL Ajouter un bouton]**.
 
-+++Plus d’options avec le Formatage avancé
++++Plus d’options avec le formatage avancé
 
 Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez choisir les éléments suivants pour vos **[!UICONTROL Boutons]** :
 
@@ -220,9 +220,9 @@ Le champ **[!UICONTROL Image d’arrière-plan]** vous permet d’ajouter un arr
 
 ![](assets/in_app_web_design_7.png)
 
-L’option de prise de contrôle de l’interface utilisateur, activée par défaut, vous permet d’assombrir l’arrière-plan derrière votre message in-app pour mettre l’accent sur votre contenu.
+L’option de prise de contrôle de l’interface d’utilisation, activée par défaut, vous permet d’assombrir l’arrière-plan derrière votre message in-app pour mettre l’accent sur votre contenu.
 
-+++Plus d’options avec le Formatage avancé
++++Plus d’options avec le formatage avancé
 
 Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez personnaliser davantage votre message à l’aide des options suivantes :
 
@@ -266,4 +266,4 @@ Pour plus d’informations, consultez la [documentation de développement](https
 
 La vidéo ci-dessous montre comment créer et tester vos messages in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422077?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

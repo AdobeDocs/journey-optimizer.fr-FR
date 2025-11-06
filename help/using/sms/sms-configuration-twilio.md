@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 ## Configurer les informations d’identification d’API pour les SMS/MMS
 
-Pour configurer Twilio avec Journey Optimizer, vous devez créer de nouvelles informations d’identification d’API pour Twilio :
+Pour configurer Twilio avec Journey Optimizer, vous devez créer des informations d’identification d’API pour Twilio :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** `>`**[!UICONTROL Paramètres des SMS]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 

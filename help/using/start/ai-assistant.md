@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Pour poser une question, saisissez-la dans le champ en bas de l’écran et appu
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
-Vérifiez la réponse et utilisez le bouton **Afficher les sources** pour obtenir des liens directs vers la documentation du produit et en savoir plus.
+Vérifiez la réponse et utilisez le bouton **Afficher les sources** pour obtenir des liens directs vers la documentation du produit et pour en savoir plus.
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 

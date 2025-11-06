@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Concevoir le contenu des cartes de contenu {#design-content-card}
 
-La structure de création pour les cartes offre une expérience de création basée sur des formulaires qui fournit aux marketeurs des entrées de base qui peuvent être rendues par les développeurs.
+Le concept de création de cartes offre une expérience de création basée sur des formulaires qui fournit aux responsables marketing des entrées de base qui peuvent être utilisées pour le rendu par l’équipe de développement.
 
 Une fois votre contenu défini et personnalisé, vous pouvez le consulter et l’activer. Votre campagne sera envoyée selon le planning défini. [En savoir plus dans cette page](../campaigns/review-activate-campaign.md).
 
@@ -57,7 +57,7 @@ Le champ **[!UICONTROL Média]** vous permet d’améliorer vos cartes de conten
 
 Pour inclure un média, saisissez l’URL du média à utiliser ou cliquez sur l’icône **[!UICONTROL Sélectionner des ressources]** pour choisir parmi les ressources stockées dans votre bibliothèque de ressources. [En savoir plus sur la gestion des ressources](../integrations/assets.md).
 
-+++Plus d’options avec le Formatage avancé
++++Plus d’options avec le formatage avancé
 
 Si le **[!UICONTROL mode Formatage avancé]** est activé, vous pouvez ajouter un **[!UICONTROL texte secondaire]** pour les applications de lecture d’écran et une autre ressource dans le champ **[!UICONTROL URL du média en mode sombre]**.
 

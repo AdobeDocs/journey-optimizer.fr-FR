@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 >[!TAB Ajouter des cartes de contenu à un parcours]
 
-Pour ajouter une carte Contenu à un parcours, procédez comme suit :
+Pour ajouter une carte de contenu à un parcours, procédez comme suit :
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL Carte]** depuis la section **[!UICONTROL Actions]** de la palette.
 
@@ -43,7 +43,7 @@ Pour ajouter une carte Contenu à un parcours, procédez comme suit :
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** pour sélectionner votre événement.
 
-      +++Voir Événement disponible.
+      +++Consultez l’événement disponible.
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -63,7 +63,7 @@ Pour ajouter une carte Contenu à un parcours, procédez comme suit :
 
    1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
 
-      +++Afficher les caractéristiques disponibles.
+      +++Consultez les caractéristiques disponibles.
 
       | Package | Caractéristiques | Définition |
       |---|---|---|
@@ -126,7 +126,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** pour sélectionner votre événement.
 
-      +++Voir Événement disponible.
+      +++Consultez l’événement disponible.
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -146,7 +146,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
 
    1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
 
-      +++Afficher les caractéristiques disponibles.
+      +++Consultez les caractéristiques disponibles.
 
       | Package | Caractéristiques | Définition |
       |---|---|---|

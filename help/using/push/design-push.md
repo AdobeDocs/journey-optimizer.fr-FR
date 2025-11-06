@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurer une notification push
+title: Concevoir une notification push
 description: Découvrez comment créer une notification push dans Journey Optimizer.
 feature: Push
 topic: Content Management
@@ -9,13 +9,13 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Configurer une notification push {#design-push-notification}
+# Concevoir une notification push {#design-push-notification}
 
 ## Titre et corps {#push-title-body}
 
@@ -75,7 +75,7 @@ Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
 
 Créez une notification exploitable en ajoutant des boutons à votre contenu push.
 
-Si l&#39;écran de l&#39;appareil est verrouillé, les boutons suivants ne s&#39;affichent pas : seuls les **Titre** et **Message** de la notification sont visibles. Si leur appareil est déverrouillé, les destinataires verront les boutons.
+Si l’écran de l’appareil est verrouillé, les boutons suivants ne s’affichent pas : seuls le **Titre** et le **Message** de la notification sont visibles. Si leur appareil est déverrouillé, les destinataires verront les boutons.
 
 Dans la version Android, vous pouvez ajouter jusquʼà trois boutons.
 

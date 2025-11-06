@@ -5,15 +5,15 @@ role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Attribuer des scores de priorité {#priority}
 
-Journey Optimizer permet d&#39;attribuer un score de priorité à un parcours, une campagne ou à une action de canal entrant dans le parcours **[!UICONTROL Action]** de l&#39;activité.
+Journey Optimizer permet d’attribuer un score de priorité à un parcours, une campagne ou à une action de canal entrant dans l’activité **[!UICONTROL Action]** du parcours.
 
 Il est essentiel d’attribuer une priorité à un parcours, une campagne ou une action lorsqu’une contrainte est imposée (par exemple, un capping de la fréquence).
 
@@ -72,4 +72,4 @@ Pour attribuer un score de priorité aux actions entrantes définies dans l’ac
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445003?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

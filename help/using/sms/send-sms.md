@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 ## Prévisualiser votre message texte {#preview-sms}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée (chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement) pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier la façon dont celui-ci s’affiche dans le message.
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée (chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement) pour le prévisualiser. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier la façon dont celui-ci s’affiche dans le message.
 
 Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis vérifiez votre message à l’aide des données de profil de test.
 

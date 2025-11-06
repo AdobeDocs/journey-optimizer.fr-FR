@@ -8,9 +8,9 @@ level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour créer des messages de courrier, créez une campagne planifiée et configur
 
 >[!AVAILABILITY]
 >
->Le publipostage direct prend en charge la fonctionnalité d’exclusion, mais ne prend actuellement pas en charge les traitements.
+>Le courrier prend en charge la fonctionnalité d’exclusion, mais ne prend actuellement pas en charge les traitements.
 
 Pour créer une campagne par courrier, procédez comme suit :
 

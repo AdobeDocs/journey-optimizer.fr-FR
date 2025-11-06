@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Dans cet exemple, vous allez créer une audience pour cibler la clientèle qui r
 
    >[!NOTE]
    >
-   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **profil individuel XDM** et **XDM ExperienceEvent** pour votre organisation.  Pour en savoir plus, consultez la [documentation Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
+   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **profil individuel XDM** et **XDM ExperienceEvent** pour votre organisation.  Pour en savoir plus, consultez la [documentation Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
@@ -76,7 +76,7 @@ Dans Adobe Journey Optimizer, les audiences sont générées à partir des dé
 
 La liste des profils de l’audience est actualisée en temps réel pendant que de nouvelles données affluent dans le système.
 
-La segmentation par flux est un processus continu de sélection des données qui met à jour vos audiences en réponse à l’activité des utilisateurs et utilisatrices. Une fois qu’une définition de segment a été créée et que l’audience obtenue a été enregistrée, la définition du segment s’applique aux données entrantes dans Journey Optimizer. Cela signifie que des personnes sont ajoutées ou supprimées de l’audience au fur et à mesure que leurs données de profil changent, permettant de toujours assurer la pertinence de votre audience cible. [En savoir plus dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"}.
+La segmentation par flux est un processus continu de sélection des données qui met à jour vos audiences en réponse à l’activité des utilisateurs et utilisatrices. Une fois qu’une définition de segment a été créée et que l’audience obtenue a été enregistrée, la définition du segment s’applique aux données entrantes dans Journey Optimizer. Cela signifie que des personnes sont ajoutées ou supprimées de l’audience au fur et à mesure que leurs données de profil changent, permettant de toujours assurer la pertinence de votre audience cible. [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -136,4 +136,4 @@ Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences inéligi
 
 Découvrez comment Journey Optimizer utilise des règles pour générer une audience. Apprenez à utiliser des attributs, des événements et des audiences existantes pour créer une audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430324?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

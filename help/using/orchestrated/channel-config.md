@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurer votre configuration de canal
-description: Découvrez comment configurer votre configuration de canal
+title: Configurer votre configuration des canaux
+description: Découvrez comment configurer votre configuration des canaux
 version: Campaign Orchestration
 source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Configurer votre configuration de canal {#channel-configuration}
+# Configurer votre configuration des canaux {#channel-configuration}
 
-Après avoir configuré votre [Dimension Target](target-dimension.md), vous devez configurer votre **[!UICONTROL Configuration du canal]** et définir les **[!UICONTROL Détails d’exécution]** appropriés. Vous pouvez ainsi définir :
+Après avoir configuré la [dimension cible](target-dimension.md), vous devez définir la **[!UICONTROL configuration des canaux]** ainsi que les **[!UICONTROL détails d’exécution]** correspondants. Vous pouvez ainsi définir :
 
 * **Le niveau de diffusion des messages** : par exemple, l’envoi d’un message par destinataire, comme un e-mail unique par personne.
 

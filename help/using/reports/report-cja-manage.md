@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -155,13 +155,13 @@ Vous pouvez créer des mesures calculées personnalisées directement dans vos r
 
 La mesure que vous venez de créer sera incluse lorsque vous exportez le rapport au format PDF ou CSV. Cependant, elle sera supprimée du rapport une fois que vous l’aurez quitté.
 
-## Explorer des données à l’aide du créateur Insight {#exploratory}
+## Explorer les données à l’aide du Générateur d’aperçu {#exploratory}
 
-Utilisez l’outil Insight Builder pour créer facilement des tableaux et des visualisations à partir des **[!UICONTROL dimensions]** et **[!UICONTROL mesures]** que vous avez sélectionnés. Cet outil simplifie l’exploration des données, ce qui vous permet de personnaliser et d’analyser automatiquement et facilement les informations. Apprenez-en davantage en consultant [cette documentation](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Utilisez l’outil Générateur d’aperçu pour créer facilement des tableaux et des visualisations à partir des **[!UICONTROL dimensions]** et des **[!UICONTROL mesures]** sélectionnées. Cet outil simplifie l’exploration des données, ce qui vous permet de personnaliser et d’analyser automatiquement et facilement les informations. Apprenez-en davantage en consultant [cette documentation](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
-1. Commencez par accéder au rapport dans lequel vous souhaitez utiliser le créateur Insight.
+1. Commencez par accéder au rapport dans lequel vous souhaitez utiliser le Générateur d’aperçu.
 
-1. Sélectionnez le menu du créateur d’Insight dans le menu du rail de gauche.
+1. Sélectionnez le menu Générateur d’aperçu dans le menu du rail de gauche.
 
    ![](assets/exploratory_analysis_1.png)
 
@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Chaque organisation est limitée à la publication de 25 audiences. En outre, les utilisateurs et utilisatrices peuvent publier un maximum de 5 audiences par heure et 20 par jour.
->&#x200B;> Les audiences ponctuelles ont une durée de vie de 48 heures. Par conséquent, si 25 audiences sont publiées au cours de ce délai, les audiences supplémentaires ne peuvent être publiées qu’une fois la période de 48 heures écoulée.
+> Les audiences ponctuelles ont une durée de vie de 48 heures. Par conséquent, si 25 audiences sont publiées au cours de ce délai, les audiences supplémentaires ne peuvent être publiées qu’une fois la période de 48 heures écoulée.
 
 Vous pouvez désormais sélectionner des données spécifiques dans le tableau et créer directement une audience à partir de ces sélections, en rationalisant et en simplifiant le processus de création d’audience.
 
