@@ -38,7 +38,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 Quand utiliser le canal basé sur le code plutôt que d’autres canaux [!DNL Journey Optimizer] ?
 
-* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de ](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app[ [!DNL Journey Optimizer].
+* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de [&#128279;](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app [!DNL Journey Optimizer].
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 

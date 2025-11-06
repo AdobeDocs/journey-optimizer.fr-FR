@@ -88,6 +88,6 @@ Explorez les mises en œuvre réelles d’Adobe Journey Optimizer, y compris l
 
 - **[S’abonner aux alertes de parcours](../using/reports/alerts.md)** : découvrez comment gérer les alertes système, vous abonner aux notifications et résoudre les problèmes liés aux parcours et aux campagnes.
 
-- **[Tutoriels sur les Parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Découvrez la création de parcours au moyen de tutoriels vidéo pratiques couvrant les fonctionnalités, les capacités et les bonnes pratiques.
+- **[Tutoriels sur les Parcours &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Découvrez la création de parcours au moyen de tutoriels vidéo pratiques couvrant les fonctionnalités, les capacités et les bonnes pratiques.
 
 

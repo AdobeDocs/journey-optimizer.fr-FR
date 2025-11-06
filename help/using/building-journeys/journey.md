@@ -55,7 +55,7 @@ Découvrez les composants d’un parcours et comprenez les principes de base de 
 
 ## Ressources supplémentaires {#additional-resources}
 
-* [FAQ sur les Parcours ](journey-faq.md) - Questions fréquentes sur les parcours
+* [FAQ sur les Parcours &#x200B;](journey-faq.md) - Questions fréquentes sur les parcours
 * [Référence des codes d’erreur](error-codes-reference.md) - Codes d’erreur de Parcours et étapes de dépannage
 * [Alertes](../reports/alerts.md) - Configurer des alertes pour la surveillance des parcours
 * [Dépannage](troubleshooting.md) - Problèmes courants du parcours et solutions

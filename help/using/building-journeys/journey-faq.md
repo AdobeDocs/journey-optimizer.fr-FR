@@ -295,7 +295,7 @@ Créez un parcours déclenché par un événement à l’aide d’un événement
 4. **Créez deux chemins** :
    * **Si l’événement d’achat se produit** : mettez fin au parcours ou continuez avec le flux après achat.
    * **Chemin de temporisation (pas d’achat)** : envoyez un e-mail de rappel d’abandon avec le contenu du panier.
-5.   **Facultatif** : ajoutez un autre événement de réaction avec une temporisation (24 heures) et envoyez un deuxième rappel avec un avantage incitatif (par exemple, une remise de 10 %).
+5. **Facultatif** : ajoutez un autre événement de réaction avec une temporisation (24 heures) et envoyez un deuxième rappel avec un avantage incitatif (par exemple, une remise de 10 %).
 
 En savoir plus sur les [cas d’utilisation de parcours](jo-use-cases.md) et les [événements de réaction](reaction-events.md).
 

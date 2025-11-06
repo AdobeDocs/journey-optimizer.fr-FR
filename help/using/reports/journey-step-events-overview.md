@@ -35,7 +35,7 @@ Les événements d’étape de parcours sont générés automatiquement pour div
 - **Exécution d’action** : lorsque des [messages sont envoyés](../building-journeys/journeys-message.md) ou que des [actions personnalisées](../building-journeys/using-custom-actions.md) sont effectuées.
 - **Évaluation des conditions** : lorsque les profils passent par des [conditions](../building-journeys/condition-activity.md) et des points de décision.
 - **Activités d’attente** : lorsque les profils rejoignent et quittent des [nœuds d’attente](../building-journeys/wait-activity.md).
-- **Événements de sortie** : lorsque les profils terminent ou [quittent un parcours ](../building-journeys/end-journey.md)
+- **Événements de sortie** : lorsque les profils terminent ou [quittent un parcours &#x200B;](../building-journeys/end-journey.md)
 - **Gestion des erreurs** : lorsque des erreurs se produisent lors de l’exécution d’un parcours.
 
 >[!NOTE]
