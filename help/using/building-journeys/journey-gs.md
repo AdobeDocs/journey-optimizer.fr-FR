@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -92,7 +92,7 @@ Le concepteur de parcours omnicanaux dispose d’une interface intuitive par gli
 
    ![](assets/read-segment.png)
 
-1. Faites glisser et déposez un événement ou une activité **Lecture d’audience** de la palette vers la zone de travail. Pour plus d’informations sur la conception d’un parcours, consultez [cette section](using-the-journey-designer.md).
+1. Effectuez un glisser-déposer d’un événement ou d’une activité **Lecture d’audience** de la palette vers la zone de travail. Pour plus d’informations sur la conception d’un parcours, consultez [cette section](using-the-journey-designer.md).
 
 ## Tester le parcours {#jo-test}
 
@@ -100,7 +100,7 @@ Une fois que vous avez créé votre parcours, testez-le avant de le publier. Jou
 
 Vous pouvez également exécuter votre parcours en mode **test à blanc**. Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni modifier les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices de parcours d’avoir confiance dans leur conception de parcours et leur ciblage d’audience avant de publier un parcours en ligne. Découvrez comment publier un parcours en mode Test à blanc dans [cette section](journey-dry-run.md).
 
-## Publier le parcours {#jo-pub}
+## Publiez le parcours. {#jo-pub}
 
 Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. Pour plus d’informations sur la publication d’un parcours, consultez cette [section](publish-journey.md).
 
@@ -120,7 +120,7 @@ En savoir plus sur les rapports de parcours dans [cette section](../reports/live
 * **[Publication de parcours](publish-journey.md)** - Découvrez le processus de publication des parcours et comment gérer les parcours en direct.
 * **[Rapports de Parcours](report-journey.md)** - Suivez et analysez les performances du parcours avec des mesures et des informations détaillées.
 * **[Dépannage des parcours](troubleshooting.md)** - Trouvez des solutions aux problèmes courants du parcours et des bonnes pratiques de débogage.
-* **[Tutoriels sur les Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur la création de parcours et les bonnes pratiques.
+* **[Tutoriels sur les Parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur la création de parcours et les bonnes pratiques.
 
 >[!NOTE]
 >

@@ -13,7 +13,7 @@ exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
 workflow-type: tm+mt
 source-wordcount: '1567'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -120,7 +120,7 @@ Pour appliquer des thèmes de style par défaut ou personnalisés à un modèle 
 
    * Sélectionnez un [modèle d’e-mail](use-email-templates.md) intégré pour ouvrir le Concepteur d’e-mail. Un thème par défaut spécifique à chaque modèle est automatiquement appliqué.
 
-   * Créez un [nouveau contenu à partir de zéro](content-from-scratch.md) et sélectionnez **[!UICONTROL Utiliser des thèmes]** pour commencer avec un thème de style prédéfini.
+   * Créez du [contenu à partir de zéro](content-from-scratch.md) et sélectionnez **[!UICONTROL Utiliser des thèmes]** pour commencer avec un thème de style prédéfini.
 
      ![](assets/theme-from-scratch.png)
 

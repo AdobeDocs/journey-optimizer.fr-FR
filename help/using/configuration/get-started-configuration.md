@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 95%
+source-wordcount: '397'
+ht-degree: 77%
 
 ---
 
@@ -68,8 +68,17 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
 
    * Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
 
-   * Activez l&#39;option **E-mail Cci** pour conserver une copie des messages envoyés aux individus. [En savoir plus](archiving-support.md#enable-bcc)
+   * Activez l’**option d’e-mail Cci** pour conserver une copie des messages envoyés aux personnes. [En savoir plus](archiving-support.md#enable-bcc)
 
    * Configurez les **règles métier** pour éviter de sur-solliciter vos destinataires. [En savoir plus](../conflict-prioritization/rule-sets.md)
 
    * Déterminez l’adresse e-mail et/ou le numéro de téléphone à utiliser en priorité pour vos destinataires lorsque plusieurs adresses/numéros sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
+
+## Ressources supplémentaires
+
+* **[Configurer des surfaces de canal](channel-surfaces.md)** - Découvrez comment configurer et gérer des surfaces de canal pour les e-mails, les notifications push, les SMS et d’autres canaux.
+* **[Délégation de sous-domaines](delegate-subdomain.md)** - Découvrez comment déléguer des sous-domaines à Adobe pour la délivrabilité des e-mails et le branding.
+* **[Préchauffage d’adresses IP](ip-warmup-gs.md)** - Découvrez les bonnes pratiques de préchauffage des adresses IP pour améliorer la délivrabilité des e-mails et la réputation des expéditeurs.
+* **[Gérer la liste de suppression](manage-suppression-list.md)** - Découvrez comment gérer les listes de suppression pour gérer les rebonds et maintenir l’hygiène des listes.
+* **[Configuration des applications mobiles](set-mobile-config.md)** - Configurez les configurations d’applications mobiles pour les notifications push et la messagerie in-app.
+* **[Tutoriels de configuration](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur la configuration des canaux et les bonnes pratiques.

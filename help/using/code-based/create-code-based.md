@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Pour ajouter une activité **expérience basée sur du code** à un parcours, pr
 
 1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
 
-1. Une fois votre expérience basée sur le code prête, finalisez la configuration et publiez votre parcours pour l’activer. [En savoir plus](../building-journeys/publish-journey.md)
+1. Une fois que votre expérience basée sur du code est prête, finalisez la configuration et publiez votre parcours pour l’activer. [En savoir plus](../building-journeys/publish-journey.md)
 
 Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
@@ -145,4 +145,4 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 
 La vidéo ci-dessous montre comment créer une campagne par expérience basée sur du code, configurer ses propriétés, la tester et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449455/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

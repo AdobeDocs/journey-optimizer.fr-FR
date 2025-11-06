@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '2461'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 
 >[!NOTE]
 >
->Lorsqu’une activité Lecture d’audience s’exécute, le système génère des événements internes (appelés événements `segmentExportJob`) pour suivre le cycle de vie de l’opération d’exportation d’audience. Ces événements sont enregistrés au niveau de l’activité, et non par profil individuel, et peuvent être interrogés à des fins de surveillance et de dépannage. En savoir plus sur [requête d’événements Lecture d’audience](../reports/query-examples.md#read-segment-queries).
+>Lorsqu’une activité Lecture d’audience s’exécute, le système génère des événements internes (appelés événements `segmentExportJob`) pour suivre le cycle de vie de l’opération d’export d’audience. Ces événements sont enregistrés au niveau de l’activité, et non par profil, et peuvent être interrogés à des fins de surveillance et de dépannage. Découvrez comment [interroger des événements Lecture d’audience](../reports/query-examples.md#read-segment-queries).
 
 >[!CAUTION]
 >
@@ -307,4 +307,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

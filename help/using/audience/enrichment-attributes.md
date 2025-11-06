@@ -11,7 +11,7 @@ exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Lors du ciblage d’une audience générée à l’aide de workflows de composit
 
 Voici les actions que vous pouvez effectuer à l’aide des attributs d’enrichissement des audiences :
 
-* **Créez plusieurs chemins d’accès dans un parcours** en fonction de règles qui exploitent les attributs d’enrichissement de l’audience ciblée. Pour ce faire, ciblez l’audience à l’aide d’une activité [Lecture d’audience](../building-journeys/read-audience.md), puis créez des règles dans une activité [Condition](../building-journeys/condition-activity.md) basée sur les attributs d’enrichissement de l’audience.
+* **Créez plusieurs chemins dans un parcours** en fonction de règles qui utilisent les attributs d’enrichissement de l’audience ciblée. Pour ce faire, ciblez l’audience à l’aide d’une activité [Lecture d’audience](../building-journeys/read-audience.md), puis créez des règles dans une activité [Condition](../building-journeys/condition-activity.md) basée sur les attributs d’enrichissement de l’audience.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 

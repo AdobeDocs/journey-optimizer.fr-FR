@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Les résultats du suivi sont accessibles dans le rapport du parcours, une fois c
 
 Le mode de diffusion rapide est un module complémentaire de [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grande quantité dans le cadre d’une campagne.
 
-Il est utilisé lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux personnes qui ont installé votre application de canal d’actualités.
+La diffusion rapide est utilisée lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple une nouvelle de dernière minute aux personnes qui ont installé votre application d&#39;actualités.
 
 Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../push/create-push.md#rapid-delivery).
 
@@ -145,7 +145,7 @@ Pour simplifier votre orchestration de parcours, vous pouvez définir plusieurs 
 
 >[!NOTE]
 >
->Cette fonctionnalité est uniquement disponible pour les canaux entrants. Actuellement, les canaux sortants tels que les e-mails ne sont pas pris en charge.
+>Cette fonctionnalité est uniquement disponible pour les canaux entrants. Actuellement, les canaux sortants comme l’E-mail ne sont pas pris en charge.
 
 Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, sans avoir besoin de créer plusieurs actions de parcours. Le déploiement de votre parcours en est facilité et les rapports sont plus fluides, toutes les données étant consolidées dans un seul parcours.
 

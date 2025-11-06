@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '619'
+ht-degree: 84%
 
 ---
 
@@ -48,7 +48,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
       ![](assets/decision_permission_2.png)
 
-   1. Saisissez le nom ou l’adresse e-mail de l’utilisateur ou sélectionnez-le dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
+   1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez cette personne dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
       Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users).
 
@@ -86,4 +86,14 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md).
 ➡️ Pour diffuser l’offre par l’intermédiaire du canal d’expérience basée sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
+
+## Ressources supplémentaires
+
+* **[Créer des éléments de décision](items.md)** - Découvrez comment créer et gérer des éléments de décision, y compris des offres, des variations de contenu et des expériences.
+* **[Configurer des catalogues de décisions](catalogs.md)** - Découvrez comment organiser les éléments de décision en catalogues pour une meilleure gestion.
+* **[Définir des stratégies de sélection](selection-strategies.md)** - Découvrez comment créer des stratégies de sélection avec des règles d’éligibilité et des méthodes de classement.
+* **[Créer des politiques de décision](create-decision-policy.md)** - Découvrez comment créer des politiques de décision combinant des stratégies et des contraintes.
+* **[Modèles de classement et d’IA](ranking/ranking.md)** - Formules de classement des Principal et modèles d’IA pour une prise de décision personnalisée.
+* **[Mécanismes de sécurisation de prise de décision](decisioning-guardrails.md)** - Examinez les limites importantes et les bonnes pratiques pour la mise en œuvre de la prise de décision.
+* **[Tutoriels sur la prise de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur les fonctionnalités de prise de décision et les bonnes pratiques.
 

@@ -11,7 +11,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
 source-wordcount: '1654'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -70,7 +70,7 @@ Pour les **sources de données externes**, le nombre maximal d’appels par seco
 >
 >Si une source de données utilise une authentification personnalisée avec un point d’entrée différent de celui utilisé pour la source de données, vous devez contacter Adobe pour inclure également ce point d’entrée dans la liste autorisée.
 
-Pour les **actions personnalisées**, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 200 appels par seconde, vous devez définir une configuration de plafonnement ou de limitation afin que votre système ne sature pas. [Découvrir comment configurer des actions](../action/action.md)
+Pour les **actions personnalisées**, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 200 appels par seconde, vous devez définir une configuration de plafonnement ou de limitation afin que votre système ne sature pas. [Découvrir comment configurer des actions](../action/action.md)
 
 >[!NOTE]
 >

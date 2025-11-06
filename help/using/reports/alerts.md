@@ -11,7 +11,7 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
 workflow-type: tm+mt
 source-wordcount: '1815'
-ht-degree: 60%
+ht-degree: 89%
 
 ---
 
@@ -19,26 +19,26 @@ ht-degree: 60%
 
 Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou les publier.
 
-* Découvrez comment résoudre les problèmes liés à vos parcours sur [cette page](../building-journeys/troubleshooting.md)
+* Découvrez comment résoudre les problèmes de vos parcours sur [cette page](../building-journeys/troubleshooting.md).
 
 * Découvrez comment vérifier et activer vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md)
 
 
-En outre, lorsqu’un certain ensemble de conditions est atteint, des messages d’alerte peuvent être envoyés à tous les utilisateurs de votre organisation qui se sont abonnés à ces messages. Ces alertes sont disponibles à partir du menu dédié **[!UICONTROL Alertes]**. Adobe Experience Platform fournit plusieurs règles d’alerte prédéfinies que vous pouvez activer pour votre organisation. En outre, vous pouvez vous abonner à des alertes système spécifiques à [!DNL Adobe Journey Optimizer], comme indiqué sur cette page.
+En outre, lorsqu’un certain ensemble de conditions est atteint, des messages d’alerte peuvent être envoyés à toutes les personnes de votre organisation qui se sont abonnées à ces messages. Ces alertes sont disponibles à partir du menu dédié **[!UICONTROL Alertes]**. Adobe Experience Platform fournit plusieurs règles d’alerte prédéfinies que vous pouvez activer pour votre organisation. En outre, vous pouvez vous abonner à des alertes système spécifiques à [!DNL Adobe Journey Optimizer], comme indiqué sur cette page.
 
 >[!NOTE]
 >
 >En savoir plus sur les alertes dans Adobe Experience Platform dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
-Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Alertes]**. Plusieurs alertes préconfigurées pour Journey Optimizer sont disponibles dans l’onglet **Parcourir**.
+Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Alertes]**. Plusieurs alertes préconfigurées pour Journey Optimizer sont disponibles dans l’onglet **Parcourir**.
 
 
 * Alertes spécifiques aux parcours :
 
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
-   * l’alerte [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate) (remplace l’alerte précédente Action personnalisée en cas d’échec du Parcours)
-   * l’alerte [Taux de rejet du profil dépassé](#alert-discard-rate)
-   * l’alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
+   * l’alerte [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate) (remplace l’alerte précédente Action personnalisée en cas d’échec du Parcours)
+   * Alerte [Taux de rejet de profil dépassé](#alert-discard-rate)
+   * Alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
 
 * Alertes spécifiques à la configuration des canaux :
 
@@ -50,7 +50,7 @@ Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UI
 
 Si un comportement inattendu se produit, et/ou qu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système dépasse un certain seuil), des notifications d’alerte sont envoyées à l’ensemble des personnes de votre organisation qui s’y sont abonnées.
 
-Vous pouvez vous abonner à chaque alerte individuellement à partir de l’interface utilisateur, soit globalement à partir du menu **[!UICONTROL Alertes]** (voir [Abonnement global](#global-subscription)), soit unitairement pour un parcours spécifique (voir [Abonnement unitaire](#unitary-subscription)).
+Vous pouvez vous abonner à chaque alerte à partir de l’interface d’utilisation, soit globalement à partir du menu **[!UICONTROL Alertes]** (voir [Abonnement global](#global-subscription)), soit unitairement pour un parcours spécifique (voir [Abonnement unitaire](#unitary-subscription)).
 
 En fonction des préférences des personnes abonnées, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface d’utilisation (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les **[!UICONTROL Préférences]** [!DNL Adobe Experience Cloud]. [En savoir plus](../start/user-interface.md#in-product-alerts)
 
@@ -75,24 +75,24 @@ Vous pouvez également vous abonner par le biais des [notifications d’événem
 
 ### Abonnement unitaire {#unitary-subscription}
 
-Pour vous abonner/désabonner à une alerte pour un parcours spécifique, procédez comme suit :
+Pour vous abonner ou vous désabonner d’une alerte pour un parcours spécifique, procédez comme suit :
 
 1. Accédez à l’inventaire des parcours et sélectionnez l’option **[!UICONTROL S’abonner aux alertes]** pour un parcours spécifique.
 
    ![Abonnement à une alerte concernant un parcours spécifique](assets/subscribe-journey-alert.png){width=75%}
 
-1. Choisissez la ou les alertes. Les alertes suivantes sont disponibles : [Taux de rejet du profil dépassé](#alert-discard-rate), [Taux d’erreur de l’action personnalisée dépassé](#alert-custom-action-error-rate) et [Taux d’erreur du profil dépassé](#alert-profile-error-rate).
+1. Choisissez la ou les alertes. Les alertes suivantes sont disponibles : [Taux de rejet de profil dépassé](#alert-discard-rate), [Taux d’erreur d’action personnalisée dépassé](#alert-custom-action-error-rate) et [Taux d’erreur de profil dépassé](#alert-profile-error-rate).
 
 1. Pour vous désabonner d’une alerte, désélectionnez-la dans le même écran.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
 
-Toutes les notifications de parcours disponibles dans l’interface utilisateur sont répertoriées ci-dessous.
+Toutes les notifications de parcours disponibles dans l’interface d’utilisation sont répertoriées ci-dessous.
 
 >[!CAUTION]
 >
@@ -114,49 +114,49 @@ Pour résoudre les alertes **Lecture d’audience**, vérifiez la taille de l’
 
 ### Taux de rejet de profil dépassé {#alert-discard-rate}
 
-Cette alerte vous avertit si le ratio des abandons de profil par rapport aux profils entrés au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
+Cette alerte vous avertit si le ratio des rejets de profil par rapport aux profils ayant rejoint le parcours au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
 ![](assets/profile-discard-alert.png)
 
-Il existe plusieurs raisons pour lesquelles un profil peut être ignoré, ce qui éclairera la méthode de dépannage. Voici quelques raisons courantes :
+Il existe plusieurs raisons pour lesquelles un profil peut être rejeté, ce qui orientera la méthode de dépannage. Voici quelques raisons courantes :
 
-* Profil ignoré à l’entrée car il est déjà en ligne dans ce parcours unitaire. Pour résoudre ce problème, assurez-vous que le profil a suffisamment de temps pour quitter le parcours avant l’arrivée de l’événement suivant pour ce profil.
+* Profil rejeté à l’entrée car il est déjà actif dans ce parcours unitaire. Pour résoudre ce problème, assurez-vous que le profil a suffisamment de temps pour quitter le parcours avant l’arrivée de l’événement suivant pour celui-ci.
 * L’identité n’est pas définie pour le profil ou l’espace de noms utilisé par le parcours Lecture d’audience n’est pas utilisé dans ce profil. Pour résoudre ce problème, assurez-vous que l’espace de noms du parcours correspond à l’espace de noms d’identité utilisé par les profils.
-* Le taux de débit de l’événement est dépassé. Pour résoudre ce problème, assurez-vous que les événements qui entrent dans le système ne dépassent pas ces limites.
+* Le taux de débit d’événement est dépassé. Pour résoudre ce problème, assurez-vous que les événements qui entrent dans le système ne dépassent pas ces limites.
 
 
-### Taux d’erreurs des actions personnalisées dépassé {#alert-custom-action-error-rate}
+### Taux d’erreur d’action personnalisée dépassé {#alert-custom-action-error-rate}
 
-Cette alerte vous avertit si le taux d’erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
+Cette alerte vous alerte si le ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes et ayant dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
 >[!NOTE]
 >
->Cette alerte remplace l’alerte précédente Échec de l’action personnalisée de Parcours **&#x200B;**.
+>Cette alerte remplace l’alerte précédente Échec de l’action personnalisée de Parcours ****.
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
-Les erreurs d’actions personnalisées peuvent se produire pour diverses raisons. Pour résoudre ces erreurs, vous pouvez :
+Les erreurs d’actions personnalisées peuvent se produire pour diverses raisons. Pour résoudre ces erreurs, vous pouvez :
 
 * Vérifiez votre action personnalisée à l’aide du [mode test](../building-journeys/testing-the-journey.md) sur un autre parcours.
-* Vérifiez votre rapport de parcours [&#128279;](../reports/journey-live-report.md) pour voir les raisons de l&#39;erreur sur l&#39;action.
+* Consultez le [rapport de votre parcours](../reports/journey-live-report.md) pour afficher les motifs d’erreur lors de l’action.
 * Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur « failureReason ».
 * Vérifiez que l’action personnalisée est configurée correctement et que l’authentification est toujours valide. Effectuez un contrôle manuel avec Postman, par exemple.
 * Vérifiez que le point d’entrée est accessible et que l’action personnalisée peut y accéder via le vérificateur de connectivité de l’action personnalisée.
-* Vérifiez les informations d’authentification, vérifiez la connectivité Internet, etc.
+* vérifier les informations d’authentification, la connectivité Internet, etc.
 
-### Taux d’erreurs de profil dépassé {#alert-profile-error-rate}
+### Taux d’erreur de profil dépassé {#alert-profile-error-rate}
 
 Cette alerte vous avertit si le taux de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
-Pour résoudre les problèmes liés aux erreurs de profil, vous pouvez interroger les données des événements d’étape afin de déterminer où et pourquoi le profil a échoué dans le parcours.
+Pour résoudre les erreurs de profil, vous pouvez interroger les données des événements d’étape afin de déterminer où et pourquoi le profil a échoué dans le parcours.
 
 ## Alertes de configuration {#configuration-alerts}
 
-Les alertes de surveillance de la configuration des canaux disponibles dans l’interface utilisateur sont répertoriées ci-dessous.
+Les alertes de surveillance de la configuration des canaux disponibles dans l’interface d’utilisation sont répertoriées ci-dessous.
 
 ### Enregistrement DNS du domaine AJO manquant {#alert-dns-record-missing}
 
@@ -236,19 +236,19 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### Modifier une alerte
 
 Vous pouvez vérifier les détails d’une alerte en cliquant sur sa ligne. Le nom, le statut et les canaux de notification s’affichent dans le panneau de gauche.
-Pour les alertes de Parcours, utilisez le bouton **[!UICONTROL Autres actions]** pour les modifier. Vous pouvez ensuite définir un [seuil personnalisé](#custom-threshold) pour ces alertes.
+Pour les alertes de parcours, utilisez le bouton **[!UICONTROL Autres actions]** pour les modifier. Vous pouvez ensuite définir un [seuil personnalisé](#custom-threshold) pour ces alertes.
 
 ![](assets/alert-more-actions.png){width=60%}
 
 ### Définir un seuil personnalisé {#custom-threshold}
 
-Vous pouvez définir des seuils pour les [alertes de Parcours &#x200B;](#journey-alerts). Le seuil d’alerte ci-dessus est défini par défaut sur 20 %.
+Vous pouvez définir des seuils pour les [alertes de parcours](#journey-alerts). Le seuil des alertes ci-dessus est défini par défaut sur 20 %.
 
-Pour modifier le seuil :
+Pour modifier le seuil :
 
-1. Accédez à l’écran **Alertes**
-1. Cliquez sur le bouton **[!UICONTROL Autres actions]** de l’alerte à mettre à jour
-1. Saisissez le nouveau seuil et confirmez. Le nouveau seuil s’applique à **tous** parcours
+1. Accédez à l’écran **Alertes**.
+1. Cliquez sur le bouton **[!UICONTROL Autres actions]** de l’alerte à mettre à jour.
+1. Saisissez le nouveau seuil et confirmez. Le nouveau seuil s’applique à **tous** les parcours.
 
 
 ![](assets/alert-threshold.png){width=60%}

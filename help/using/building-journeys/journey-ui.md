@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Pour naviguer dans le calendrier des parcours :
 
    ![vue calendrier affichant les calendriers externes](assets/journey-calendar-2.png)
 
-1. Effectuez un glisser-déposer de vos fichiers CSV contenant les noms des événements, les dates de début et de fin.
+1. Effectuez un glisser-déposer de vos fichiers CSV contenant les noms des événements, les dates de début et les dates de fin.
 
    Les événements chargés s’affichent pour l’ensemble des utilisateurs et utilisatrices de votre organisation et sur les calendriers des parcours et campagnes.
 

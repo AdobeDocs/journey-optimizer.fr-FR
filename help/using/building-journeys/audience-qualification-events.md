@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 >[!CAUTION]
 >
->Avant de commencer à configurer une qualification d’audience, [lisez la section Mécanismes de sécurisation et limites](#audience-qualification-guardrails).
+>Avant de commencer à configurer une qualification d’audience, [lisez la section relative aux mécanismes de sécurisation et aux limitations](#audience-qualification-guardrails).
 
 
 ## Configurer l’activité {#configure-segment-qualification}
@@ -164,4 +164,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
