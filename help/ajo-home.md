@@ -49,7 +49,7 @@ Les heures calmes vous permettent de définir des exclusions temporelles pour le
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Dernières notes de mise à jour
 
@@ -79,7 +79,7 @@ Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
 
 Comprendre et gérer les campagnes
 
@@ -89,7 +89,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Canaux de communication
 
@@ -99,7 +99,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
 
 Gestion et hiérarchisation des conflits
 
