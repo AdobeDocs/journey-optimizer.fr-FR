@@ -54,4 +54,4 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452727?captions=fre_fr&quality=12)

@@ -187,4 +187,4 @@ Une fois vos campagnes ou votre parcours activés et exécutés, vous pouvez vis
 
 Découvrez comment utiliser la fonctionnalité des heures creuses dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475854?captions=fre_fr&quality=12)

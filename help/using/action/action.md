@@ -49,7 +49,7 @@ Découvrez comment résoudre les problèmes liés à une action personnalisée [
 
 Découvrez comment configurer des actions personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430274?captions=fre_fr&quality=12)
 
 ## Ressources supplémentaires
 

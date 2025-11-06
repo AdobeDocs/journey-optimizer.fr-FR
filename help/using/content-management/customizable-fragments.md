@@ -194,4 +194,4 @@ Lorsqu’ils ajoutent le fragment au contenu de leur e-mail, les utilisateurs et
 
 Cette vidéo montre comment rendre les composants HTML d’un fragment modifiables, permettant ainsi des mises à jour dynamiques du contenu et du style.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464370/?captions=fre_fr&learn=on&#x26;enablevpops)

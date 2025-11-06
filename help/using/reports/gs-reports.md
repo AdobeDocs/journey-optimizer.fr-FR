@@ -140,7 +140,7 @@ Découvrez comment utiliser efficacement le rapport à toute heure dans Adobe Jo
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
 
 +++
 
