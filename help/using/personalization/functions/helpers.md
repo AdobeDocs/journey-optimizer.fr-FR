@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 94%
 
 ---
 
@@ -162,6 +162,10 @@ Générer une liste de produits que cet utilisateur a dans son panier :
     <li>{{product.productName}} {{product.productRating}}</li>
 {{/each}}
 ```
+
+>[!NOTE]
+>
+>Vous pouvez également utiliser l’assistant `each` pour effectuer une itération sur les tableaux renvoyés par les réponses d’action personnalisée. Pour un exemple d’itération sur des tableaux imbriqués à partir d’une réponse d’action personnalisée, consultez [Utilisation de réponses d’action personnalisée dans des canaux natifs](../../action/action-response.md#response-in-channels).
 
 ## Avec{#with}
 

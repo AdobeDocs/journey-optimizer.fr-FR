@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '713'
+ht-degree: 86%
 
 ---
 
@@ -211,6 +211,37 @@ currentActionField.description == "abc"
 )}
 )
 ```
+
+### Utilisation de réponses d’action personnalisées dans les canaux natifs {#response-in-channels}
+
+Vous pouvez effectuer une itération sur des tableaux imbriqués à partir d’une réponse d’action personnalisée dans des canaux natifs (tels que les e-mails, les notifications push ou les SMS) à l’aide de la syntaxe Handlebars. Cela s’avère utile lorsque vous devez personnaliser le contenu du message avec des données dynamiques provenant de systèmes externes.
+
+Par exemple, si votre action personnalisée renvoie la réponse suivante d’un système externe :
+
+```json
+{    
+    "id": "84632848268632",    
+    "responses": [
+        { "productIDs": [1111,2222,3333] },
+        { "productIDs": [4444,5555,6666] },
+        { "productIDs": [7777,8888,9999] }
+    ]
+}
+```
+
+Vous pouvez effectuer une itération sur le tableau `responses` et les tableaux `productIDs` imbriqués dans un canal natif (par exemple dans un e-mail) comme suit :
+
+```handlebars
+{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
+
+  {{#each res.productIDs as |productID|}}
+    <li>{{productID}}</li>
+  {{/each}}
+
+{{/each}}
+```
+
+Remplacez `<yourcustomaction>` par le nom réel de votre action personnalisée, tel qu’il est configuré dans le parcours.
 
 ## Ressources supplémentaires
 

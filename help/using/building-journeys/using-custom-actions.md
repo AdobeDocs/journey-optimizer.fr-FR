@@ -10,10 +10,10 @@ level: Intermediate
 keywords: action, personnalisé, API, parcours, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,8 @@ Utilisez des actions personnalisées pour permettre la connexion à un système 
 En savoir plus sur les actions personnalisées dans [cette section](../action/action.md).
 
 Découvrez comment créer et configurer une action personnalisée sur [cette page](../action/about-custom-action-configuration.md).
+
+Découvrez comment utiliser les réponses d’appel API des actions personnalisées pour la personnalisation sur [cette page](../action/action-response.md).
 
 ## Consentement et gouvernance des données {#privacy}
 
