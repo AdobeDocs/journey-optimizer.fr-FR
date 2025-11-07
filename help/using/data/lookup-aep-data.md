@@ -10,10 +10,10 @@ level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 96%
 
 ---
 
@@ -48,6 +48,8 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
   **Lot 3** : Sku7, Sku8, Sku9, Sku10
 
   Si vous supprimez le **lot 1**, les Sku1, Sku2 et Sku3 sont supprimés du stockage de la recherche. Les données de recherche résultantes contiendront alors : Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
+
+* **Aucune recherche chaînée** - Les recherches de jeux de données ne peuvent pas être chaînées ensemble. En d’autres termes, vous ne pouvez pas utiliser le résultat d’une recherche comme variable pour devenir la clé permettant d’effectuer une seconde recherche.
 
 ### Droit pour le service de recherche
 
