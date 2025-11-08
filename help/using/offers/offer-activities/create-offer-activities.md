@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 100%
@@ -397,7 +397,7 @@ Une fois une décision créée, vous pouvez cliquer sur son nom dans la liste.
 
 ![](../assets/decision_click-name.png)
 
-Vous pouvez ainsi accéder à des informations détaillées sur cette décision. Sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]** pour [surveiller toutes les modifications](../get-started/user-interface.md#changes-log) qui ont été apportées à la décision.
+Vous pouvez ainsi accéder à des informations détaillées sur cette décision. Sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]** pour [surveiller toutes les modifications](../get-started/user-interface.md#changes-logs) qui ont été apportées à la décision.
 
 ![](../assets/decision_information.png)
 
@@ -405,6 +405,6 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette décision.
 
 Découvrez comment créer des activités d’offre dans la gestion de décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/346693?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

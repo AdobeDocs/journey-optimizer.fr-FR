@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
@@ -75,7 +75,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
      >[!NOTE]
      >
-     >Vous pouvez ajouter des politiques de décision aux modèles de contenu d’expérience basée sur du code. [En savoir plus](../experience-decisioning/create-decision.md#add-decision)
+     >Vous pouvez ajouter des politiques de décision aux modèles de contenu d’expérience basée sur du code. [En savoir plus](../experience-decisioning/create-decision.md#create-decision)
 
 1. Vous pouvez tester votre contenu. [Voici comment procéder.](#test-template)
 

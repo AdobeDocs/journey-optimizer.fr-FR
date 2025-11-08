@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 100%
@@ -41,7 +41,7 @@ La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les
 
 Le **[!UICONTROL rapport dyamique]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/live-report.md#modify-dashboard).
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](live-report.md#list-of-components-live).
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](live-report.md#live-report).
 
 ## Onglet Campagne {#campaign-live}
 

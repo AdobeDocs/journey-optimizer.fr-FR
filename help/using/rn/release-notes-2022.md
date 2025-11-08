@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -262,7 +262,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/3412403?captions=fre_fr">vidéo sur les fonctionnalités</a>.
+<p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/346680">vidéo sur les fonctionnalités</a>.
 </td>
 </tr>
 </tbody>
@@ -518,7 +518,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **E-mail**
 
-* **Enregistrer en tant que modèle** - Vous pouvez désormais enregistrer un contenu d’e-mail en tant que modèle et le réutiliser lors de la création d’autres messages. [En savoir plus](../content-management/content-templates.md#save-as-template)
+* **Enregistrer en tant que modèle** - Vous pouvez désormais enregistrer un contenu d’e-mail en tant que modèle et le réutiliser lors de la création d’autres messages. [En savoir plus](../content-management/content-templates.md#video-templates)
 
 
 **Administration**
@@ -630,7 +630,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Pages de destination**
 
-* **Nouvelle option pour les cases à cocher de type opt-in/opt-out** : vous pouvez désormais insérer une seule case à cocher de type opt-in/opt-out dans les pages de destination des abonnements. Les utilisateurs doivent cocher la case pour donner leur consentement (opt-in), et la décocher pour supprimer leur consentement (opt-out). [En savoir plus](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nouvelle option pour les cases à cocher de type opt-in/opt-out** : vous pouvez désormais insérer une seule case à cocher de type opt-in/opt-out dans les pages de destination des abonnements. Les utilisateurs doivent cocher la case pour donner leur consentement (opt-in), et la décocher pour supprimer leur consentement (opt-out). [En savoir plus](../landing-pages/design-lp.md#design-lp)
 
 * **Préremplir les champs des pages de destination** : il est désormais possible de donner aux utilisateurs la possibilité de préremplir les champs des pages de destination avec des informations de profil. [En savoir plus](../landing-pages/create-lp.md#configure-primary-page)
 

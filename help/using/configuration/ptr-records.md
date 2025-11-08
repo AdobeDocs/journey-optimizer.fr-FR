@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -64,13 +64,13 @@ Lorsque vous créez des sous-domaines supplémentaires, vous devez modifier un o
 
 ### Sous-domaines entièrement délégués {#fully-delegated-subdomains}
 
-Pour modifier un enregistrement PTR avec un sous-domaine qui est [entièrement délégué](delegate-subdomain.md#full-subdomain-delegation) à Adobe, procédez comme suit.
+Pour modifier un enregistrement PTR avec un sous-domaine qui est [entièrement délégué](delegate-subdomain.md#set-up-subdomain) à Adobe, procédez comme suit.
 
 1. Dans la liste, cliquez sur un nom d’enregistrement PTR pour l’ouvrir.
 
    ![](assets/ptr-record-select.png)
 
-1. Sélectionnez un sous-domaine [entièrement délégué](delegate-subdomain.md#full-subdomain-delegation) à Adobe dans la liste.
+1. Sélectionnez un sous-domaine [entièrement délégué](delegate-subdomain.md#set-up-subdomain) à Adobe dans la liste.
 
    ![](assets/ptr-record-subdomain.png)
 

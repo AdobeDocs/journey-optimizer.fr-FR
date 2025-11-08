@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 90%
@@ -38,7 +38,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 Quand utiliser le canal basé sur le code plutôt que d’autres canaux [!DNL Journey Optimizer] ?
 
-* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de [&#128279;](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app [!DNL Journey Optimizer].
+* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de ](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app[ [!DNL Journey Optimizer].
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
@@ -88,7 +88,7 @@ Les étapes clés pour créer et diffuser une expérience basée sur du code son
 
 1. Créez une configuration de canal basée sur du code qui référence cet emplacement. [Voici comment procéder](code-based-configuration.md#create-code-based-configuration)
 
-1. Créez un parcours ou une campagne dans [!DNL Journey Optimizer] à l’aide de cette configuration. [Voici comment procéder](create-code-based.md#create-code-based-campaign)
+1. Créez un parcours ou une campagne dans [!DNL Journey Optimizer] à l’aide de cette configuration. [Voici comment procéder](create-code-based.md#create-code-based-experience)
 
 1. Composez une expérience en spécifiant du contenu pour la configuration sélectionnée à l’aide de l’éditeur de personnalisation [!DNL Journey Optimizer]. [Voici comment procéder](create-code-based.md#edit-code)
 

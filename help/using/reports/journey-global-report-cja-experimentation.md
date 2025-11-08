@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a2b4ef74-96a9-4907-ba70-7aee69e45f20
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Les **indicateurs clés de performance (KPI) d’expérimentation** fonctionnen
 
 * **[!UICONTROL Effet élévateur]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
-* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 +++
 
@@ -66,7 +66,7 @@ Pour un examen approfondi de ces résultats et de leur interprétation, reportez
 
 * **[!UICONTROL Limite inférieure de confiance]** : valeur estimée la plus basse de la différence de taux de conversion entre le traitement et la référence, dans l’intervalle de confiance choisi.
 
-* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 * **[!UICONTROL Limite supérieure de confiance]** : valeur estimée la plus élevée de la différence de taux de conversion entre le traitement et la référence, dans l’intervalle de confiance choisi.
 
@@ -76,4 +76,4 @@ Pour un examen approfondi de ces résultats et de leur interprétation, reportez
 
 ![](assets/cja-experimentation-conversion.png)
 
-Le graphique **[!UICONTROL Intervalle de confiance]** indique la plage d’amélioration possible, en comparant la référence au traitement le plus performant pour la mesure de succès choisie. [En savoir plus](../content-management/experiment-calculations.md#confidence-intervals).
+Le graphique **[!UICONTROL Intervalle de confiance]** indique la plage d’amélioration possible, en comparant la référence au traitement le plus performant pour la mesure de succès choisie. [En savoir plus](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences).

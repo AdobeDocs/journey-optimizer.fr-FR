@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, configurer, environnement, sous-domaine, préréglages
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 84%
@@ -24,7 +24,7 @@ ht-degree: 84%
 
 ## Commencez avec les préréglages de page de destination {#gs-lp-presets}
 
-Lors de la [conception dʼune page de destination](../landing-pages/create-lp.md#create-a-lp), vous devez sélectionner un préréglage de page de destination pour la créer et lʼutiliser dans **[!DNL Journey Optimizer]**. Le préréglage comprend le sous-domaine à utiliser pour les pages de destination en fonction de ce préréglage.
+Lors de la [conception dʼune page de destination](../landing-pages/create-lp.md#create-lp), vous devez sélectionner un préréglage de page de destination pour la créer et lʼutiliser dans **[!DNL Journey Optimizer]**. Le préréglage comprend le sous-domaine à utiliser pour les pages de destination en fonction de ce préréglage.
 
 Avant de créer un préréglage, vérifiez que vous avez configuré au moins un sous-domaine de page de destination. [Découvrez comment créer un sous-domaine de page de destination](lp-subdomains.md).
 
@@ -93,4 +93,4 @@ Vous êtes maintenant prêt à [créer des pages de destination](../landing-page
 **Rubriques connexes** :
 
 * [Prise en main des pages de destination](../landing-pages/get-started-lp.md)
-* [Créer une page de destination](../landing-pages/create-lp.md#create-a-lp)
+* [Créer une page de destination](../landing-pages/create-lp.md#create-lp)

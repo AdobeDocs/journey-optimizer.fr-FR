@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Pour en apprendre davantage sur la délivrabilité et en savoir plus sur les ter
 
 ## Réduire les taux de plainte {#reduce-complaint-rate}
 
-Les FAI disposent généralement d&#39;un moyen important pour signaler un message reçu comme étant du spam. Cela permet d&#39;identifier les sources non fiables. En répondant rapidement aux demandes d&#39;opt-out et en montrant ainsi que vous êtes un expéditeur fiable, vous pouvez réduire les taux de plaintes. [En savoir plus sur la gestion des désinscriptions](../privacy/opt-out.md#opt-out-management)
+Les FAI disposent généralement d&#39;un moyen important pour signaler un message reçu comme étant du spam. Cela permet d&#39;identifier les sources non fiables. En répondant rapidement aux demandes d&#39;opt-out et en montrant ainsi que vous êtes un expéditeur fiable, vous pouvez réduire les taux de plaintes. [En savoir plus sur la gestion des désinscriptions](../privacy/opt-out.md#opt-out-decision-management)
 
 Il est recommandé de ne pas empêcher les destinataires qui souhaitent se désabonner de le faire en les obligeant à remplir des champs tels que leur adresse e-mail ou leur nom. La page de destination du formulaire d&#39;opt-out ne doit comporter qu&#39;un seul bouton de validation.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
@@ -123,9 +123,9 @@ Pour modifier le contenu de l’expérience basée sur du code, suivez les étap
 
 1. Si nécessaire, vous pouvez ajouter des fragments d’expression HTML ou JSON. [Voici comment procéder](../personalization/use-expression-fragments.md)
 
-   Vous pouvez également enregistrer une partie de votre contenu de code en tant que fragment. [Voici comment procéder](../content-management/fragments.md#save-as-expression-fragment)
+   Vous pouvez également enregistrer une partie de votre contenu de code en tant que fragment. [Voici comment procéder](../content-management/fragments.md#visual-expression)
 
-1. Dans les expériences basées sur du code, vous pouvez utiliser la fonctionnalité de prise de décision. Sélectionnez l’icône **[!UICONTROL Politique de décision]** dans la barre de gauche, puis cliquez sur **[!UICONTROL Ajouter une politique de décision]**. [En savoir plus](../experience-decisioning/create-decision.md#add-decision)
+1. Dans les expériences basées sur du code, vous pouvez utiliser la fonctionnalité de prise de décision. Sélectionnez l’icône **[!UICONTROL Politique de décision]** dans la barre de gauche, puis cliquez sur **[!UICONTROL Ajouter une politique de décision]**. [En savoir plus](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -135,7 +135,7 @@ Pour modifier le contenu de l’expérience basée sur du code, suivez les étap
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 
-   Les étapes détaillées pour créer une politique de décision sont présentées dans [cette section](../experience-decisioning/create-decision.md#add-decision).
+   Les étapes détaillées pour créer une politique de décision sont présentées dans [cette section](../experience-decisioning/create-decision.md#create-decision).
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour confirmer vos modifications.
 
@@ -145,4 +145,4 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 
 La vidéo ci-dessous montre comment créer une campagne par expérience basée sur du code, configurer ses propriétés, la tester et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449455/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

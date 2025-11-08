@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configuration, surface, sous-domaines
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Jou
 
 1. Dans chaque configuration de canal e-mail, configurez tous les **paramètres techniques** requis pour diffuser les e-mails. [En savoir plus](email-settings.md)
 
-   * C’est là que vous sélectionnez le sous-domaine à utiliser pour envoyer les e-mails et les groupes d’adresses IP à associer à la configuration. [En savoir plus](email-settings.md#subdomains-and-ip-pools)
+   * C’est là que vous sélectionnez le sous-domaine à utiliser pour envoyer les e-mails et les groupes d’adresses IP à associer à la configuration. [En savoir plus](email-settings.md#ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

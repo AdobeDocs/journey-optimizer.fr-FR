@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 87%
@@ -295,7 +295,7 @@ Créez un parcours déclenché par un événement à l’aide d’un événement
 4. **Créez deux chemins** :
    * **Si l’événement d’achat se produit** : mettez fin au parcours ou continuez avec le flux après achat.
    * **Chemin de temporisation (pas d’achat)** : envoyez un e-mail de rappel d’abandon avec le contenu du panier.
-5. **Facultatif** : ajoutez un autre événement de réaction avec une temporisation (24 heures) et envoyez un deuxième rappel avec un avantage incitatif (par exemple, une remise de 10 %).
+5.   **Facultatif** : ajoutez un autre événement de réaction avec une temporisation (24 heures) et envoyez un deuxième rappel avec un avantage incitatif (par exemple, une remise de 10 %).
 
 En savoir plus sur les [cas d’utilisation de parcours](jo-use-cases.md) et les [événements de réaction](reaction-events.md).
 
@@ -403,7 +403,7 @@ Oui, mais avec certaines limites. Vous pouvez modifier certains éléments d’u
 
 Les profils déjà dans le parcours termineront la version originale, tandis que les nouveaux profils rejoindront la nouvelle version.
 
-En savoir plus sur les [versions de parcours](journey-ui.md#journey-versions).
+En savoir plus sur les [versions de parcours](journey-ui.md#journey-filter).
 
 +++
 

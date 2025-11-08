@@ -10,7 +10,7 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 99%
@@ -183,7 +183,7 @@ Cette option vous permet de cibler, après la première occurrence, seulement le
 
 >[!NOTE]
 >
->Si vous ciblez une [audience de chargement personnalisé](../audience/about-audiences.md#segments-in-journey-optimizer) dans votre parcours, les profils ne sont récupérés que lors de la première récurrence si cette option est activée dans un parcours récurrent, car ces audiences sont fixes.
+>Si vous ciblez une [audience de chargement personnalisé](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première récurrence si cette option est activée dans un parcours récurrent, car ces audiences sont fixes.
 
 +++
 
@@ -307,4 +307,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

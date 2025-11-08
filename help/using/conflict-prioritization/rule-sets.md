@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 97%
@@ -151,7 +151,7 @@ Pour créer un jeu de règles, procédez comme suit.
    Vous trouverez des informations détaillées sur l’application d’un jeu de règles dans les sections suivantes :
 
    * [Appliquer un jeu de règles à un parcours](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Appliquer des règles de limitation aux actions de parcours et de campagnes](../conflict-prioritization/channel-capping.md#apply)
+   * [Appliquer des règles de limitation aux actions de parcours et de campagnes](../conflict-prioritization/channel-capping.md#apply-frequency-rule)
    * [Appliquer des règles d’heures creuses à des parcours et des campagnes](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Accéder aux jeux de règles et les gérer {#access-rule-sets}
@@ -180,4 +180,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

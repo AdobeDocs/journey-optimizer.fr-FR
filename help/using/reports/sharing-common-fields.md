@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Certains de ces champs ne sont disponibles que dans des modèles de traitement s
 
 >[!NOTE]
 >
->Pour plus d’informations sur les attributs des propriétés de parcours, consultez [cette section](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Pour plus d’informations sur les attributs des propriétés de parcours, consultez [cette section](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 
 ## entrance {#entrance-field}

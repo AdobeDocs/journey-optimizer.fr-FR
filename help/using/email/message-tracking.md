@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 100%
@@ -73,7 +73,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * Sélectionnez **[!UICONTROL Abonnement/opt-in externe]** pour insérer un lien permettant d’accepter de recevoir des communications de votre marque.
 
-   * Sélectionnez **[!UICONTROL Désabonnement/opt-out externe]** pour insérer un lien permettant de se désabonner des communications de votre marque. En savoir plus sur la gestion des opt-outs dans [cette section](email-opt-out.md#opt-out-management).
+   * Sélectionnez **[!UICONTROL Désabonnement/opt-out externe]** pour insérer un lien permettant de se désabonner des communications de votre marque. En savoir plus sur la gestion des opt-outs dans [cette section](email-opt-out.md#email-opt-out).
 
    * Sélectionnez **[!UICONTROL Page miroir]** pour ajouter un lien vers la page miroir de l’e-mail. [En savoir plus](#mirror-page).
 
@@ -93,7 +93,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un [lien d’exclusion](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [configuration des canaux](../configuration/channel-surfaces.md#email-type), lors de la création du message.
+>Les e-mails de type marketing doivent inclure un [lien d’exclusion](../privacy/opt-out.md#opt-out-decision-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [configuration des canaux](email-settings.md#email-type), lors de la création du message.
 
 Une fois le message envoyé, la période de conservation d’un lien est de **25 mois**. Après ce délai, le lien n’est plus disponible.
 

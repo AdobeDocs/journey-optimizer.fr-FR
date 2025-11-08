@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destination, page de destination
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
@@ -87,6 +87,6 @@ Pour naviguer facilement dans vos pages de destination, vous pouvez utiliser des
 
 1. Le bouton **[!UICONTROL Plus d’actions]** vous permet également de déplacer les pages de destination vers un autre dossier existant.
 
-1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouvelle page de destination que vous [créez](create-lp.md#create-landing-page.md) ici est enregistré dans le dossier actif.
+1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouvelle page de destination que vous [créez](create-lp.md#create-landing-page) ici est enregistré dans le dossier actif.
 
    ![](assets/lp-folder-create.png)

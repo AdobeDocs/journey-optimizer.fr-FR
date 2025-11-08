@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -29,13 +29,13 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
 1. Créez une [configuration](channel-surfaces.md) du canal e-mail pour le domaine et les adresses IP que vous avez identifiés pour votre plan de préchauffage.
 
-   Contactez votre conseiller ou conseillère en délivrabilité pour identifier le domaine et les adresses IP à utiliser. Découvrez comment les sélectionner dans une configuration du canal e-mail dans [cette section](../email/email-settings.md#subdomains-and-ip-pools).
+   Contactez votre conseiller ou conseillère en délivrabilité pour identifier le domaine et les adresses IP à utiliser. Découvrez comment les sélectionner dans une configuration du canal e-mail dans [cette section](../email/email-settings.md#ip-pools).
 
    >[!CAUTION]
    >
    >Ne modifiez pas la configuration du canal e-mail une fois le plan de préchauffage d’adresses IP [démarré](ip-warmup-execution.md).
 
-1. Créez une [campagne](../campaigns/create-campaign.md) marketing programmée et sélectionnez l’action [E-mail](../email/create-email.md#create-email-journey-campaign).
+1. Créez une [campagne](../campaigns/create-campaign.md) marketing programmée et sélectionnez l’action [E-mail](../email/create-email.md#create-email).
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -65,7 +65,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!NOTE]
    >
-   >Les [règles métier](../conflict-prioritization/rule-sets.md#apply-frequency-rule) ne doivent pas être utilisées dans le cadre d’un plan de préchauffage des adresses IP. L’application de ces règles peut empêcher d’atteindre le nombre souhaité de profils ciblés pour les campagnes.
+   >Les [règles métier](../conflict-prioritization/rule-sets.md#rule-sets) ne doivent pas être utilisées dans le cadre d’un plan de préchauffage des adresses IP. L’application de ces règles peut empêcher d’atteindre le nombre souhaité de profils ciblés pour les campagnes.
 
    Pour une campagne active avec un plan de préchauffage d’adresses IP activé, le bouton **[!UICONTROL Supprimer]** est disponible jusqu’à ce qu’il soit associé à un plan de préchauffage d’adresses IP. Une fois utilisée dans un plan, la campagne ne peut plus être supprimée.
 

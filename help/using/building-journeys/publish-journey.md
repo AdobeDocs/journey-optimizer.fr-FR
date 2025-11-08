@@ -10,7 +10,7 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Les étapes de publication d’un parcours sont présentées en détail ci-desso
 1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs.
 
    * Découvrez comment tester votre parcours sur [cette page](testing-the-journey.md).
-   * Découvrez comment résoudre les erreurs présentes dans votre parcours dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+   * Découvrez comment résoudre les erreurs présentes dans votre parcours dans [cette section](../building-journeys/troubleshooting.md#activity-errors).
 
 1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** dans le menu déroulant situé en haut à droite.
 
@@ -40,7 +40,7 @@ Les étapes de publication d’un parcours sont présentées en détail ci-desso
 
    ![](assets/journeyuc1_18.png)
 
-Une fois le parcours publié, il est en **lecture seule**. En lecture seule, vous ne pouvez modifier que les libellés et les descriptions des activités, ainsi que le nom et la description du parcours. Si vous devez apporter des modifications à un parcours publié, créez [une nouvelle version](journey-ui.md#journey-versions) de votre parcours.
+Une fois le parcours publié, il est en **lecture seule**. En lecture seule, vous ne pouvez modifier que les libellés et les descriptions des activités, ainsi que le nom et la description du parcours. Si vous devez apporter des modifications à un parcours publié, créez [une nouvelle version](journey-ui.md#journey-filter) de votre parcours.
 
 Si vous arrêtez un parcours, l’arrêt est définitif. Toutes les personnes progressant dans le parcours s’arrêteront définitivement et le parcours n’autorisera plus aucune entrée. Si vous devez exécuter le parcours à nouveau, vous devez le dupliquer et publier le nouveau parcours.
 
@@ -81,11 +81,11 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 >[!NOTE]
 >
->Des mécanismes de sécurisation et des limitations spécifiques s’appliquent au contrôle de version des parcours. En savoir plus sur [cette page](../start/guardrails.md#journey-versions-journey-versions-g).
+>Des mécanismes de sécurisation et des limitations spécifiques s’appliquent au contrôle de version des parcours. En savoir plus sur [cette page](../start/guardrails.md#journey-versions-g).
 
 
 ## Vidéo pratique {#video}
 
 Découvrez comment publier un parcours dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3427934?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

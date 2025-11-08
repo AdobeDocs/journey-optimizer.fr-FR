@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 
 1. Créez une campagne planifiée ou déclenchée par une API, puis sélectionnez **[!UICONTROL E-mail]** comme votre action.
 
-1. Suivez les étapes de création d’une campagne par e-mail, telles que les propriétés de la campagne, l’[audience](../audience/about-audiences.md) et le [planning](../campaigns/create-campaign.md#schedule).
+1. Suivez les étapes de création d’une campagne par e-mail, telles que les propriétés de la campagne, l’[audience](../audience/about-audiences.md) et le [planning](../campaigns/campaign-schedule.md#action-campaign-schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -86,7 +86,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
 1. Activez le bouton **[!UICONTROL Activer la prise de décision]** si vous souhaitez ajouter des politiques de décision dans votre e-mail.
 
-   Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de renvoyer dynamiquement le meilleur contenu à diffuser pour chaque membre de l’audience. [Découvrez comment ajouter une politique de décision dans un e-mail](../experience-decisioning/create-decision.md#add).
+   Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de renvoyer dynamiquement le meilleur contenu à diffuser pour chaque membre de l’audience. [Découvrez comment ajouter une politique de décision dans un e-mail](../experience-decisioning/create-decision.md#create-decision).
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -132,7 +132,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques telles que :
 
-   * **[!UICONTROL Le lien d’opt-out ne figure pas dans le corps de l’e-mail]** : il est recommandé d’ajouter un lien d’exclusion dans le corps de votre e-mail. Découvrez comment configurer ce lien dans [cette section](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL Le lien d’opt-out ne figure pas dans le corps de l’e-mail]** : il est recommandé d’ajouter un lien d’exclusion dans le corps de votre e-mail. Découvrez comment configurer ce lien dans [cette section](../privacy/opt-out.md#opt-out-decision-management).
 
      >[!NOTE]
      >

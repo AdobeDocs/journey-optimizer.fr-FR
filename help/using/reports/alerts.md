@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 76%
@@ -37,7 +37,7 @@ Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UI
 * Alertes spécifiques aux parcours :
 
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
-   * l’alerte [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate) (remplace l’alerte précédente Action personnalisée en cas d’échec du Parcours)
+   * l’alerte [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate) (remplace l’alerte précédente Action personnalisée en cas d’échec du Parcours)
    * Alerte [Taux de rejet de profil dépassé](#alert-discard-rate)
    * Alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
    * l’alerte [Parcours publié](#alert-journey-published)
@@ -56,7 +56,7 @@ Si un comportement inattendu se produit, et/ou qu’un certain ensemble de condi
 
 Vous pouvez vous abonner à chaque alerte à partir de l’interface d’utilisation, soit globalement à partir du menu **[!UICONTROL Alertes]** (voir [Abonnement global](#global-subscription)), soit unitairement pour un parcours spécifique (voir [Abonnement unitaire](#unitary-subscription)).
 
-En fonction des préférences des personnes abonnées, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface d’utilisation (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les **[!UICONTROL Préférences]** [!DNL Adobe Experience Cloud]. [En savoir plus](../start/user-interface.md#in-product-alerts)
+En fonction des préférences des personnes abonnées, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface d’utilisation (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les **[!UICONTROL Préférences]** [!DNL Adobe Experience Cloud]. [En savoir plus](../start/user-interface.md#in-product-uc)
 
 Lorsqu’une alerte est résolue, les abonnés reçoivent une notification « Résolu ». Les alertes sont résolues au bout d’une heure pour vous protéger contre le basculement des valeurs.
 
@@ -91,7 +91,7 @@ Pour vous abonner ou vous désabonner d’une alerte pour un parcours spécifiqu
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
@@ -135,7 +135,7 @@ Cette alerte vous alerte si le ratio des erreurs d’action personnalisée par r
 
 >[!NOTE]
 >
->Cette alerte remplace l’alerte précédente Échec de l’action personnalisée de Parcours **&#x200B;**.
+>Cette alerte remplace l’alerte précédente Échec de l’action personnalisée de Parcours ****.
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 

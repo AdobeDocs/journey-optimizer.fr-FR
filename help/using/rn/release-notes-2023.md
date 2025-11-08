@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -67,7 +67,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Audiences**
 
-* Vous pouvez désormais cibler les audiences chargées à partir d’un fichier CSV dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Vous pouvez désormais cibler les audiences chargées à partir d’un fichier CSV dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#about-segments)
 * Vous pouvez désormais cibler les audiences créées par le biais de la composition d’audiences et utiliser les attributs d’enrichissement dans les parcours. [En savoir plus](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
@@ -945,7 +945,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Liste autorisée** : vous pouvez désormais télécharger la liste autorisée sous la forme d’un fichier .csv. [En savoir plus](../configuration/allow-list.md#download-allowed-list).
 
-* **Surface d’e-mail** : une vérification supplémentaire a été ajoutée aux paramètres de surface d’e-mail. Si l’enregistrement MX pour le sous-domaine utilisé dans l’**adresse (e-mail) de réponse** ou dans l’**adresse e-mail en Cci** n’est pas correctement configuré, la surface d’e-mail ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#reply-to-email).
+* **Surface d’e-mail** : une vérification supplémentaire a été ajoutée aux paramètres de surface d’e-mail. Si l’enregistrement MX pour le sous-domaine utilisé dans l’**adresse (e-mail) de réponse** ou dans l’**adresse e-mail en Cci** n’est pas correctement configuré, la surface d’e-mail ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#send-to-suppressed-email-addresses).
 
 * **Surface d’e-mail** : dans la section **Paramètres de suivi des URL** des paramètres de surface d’e-mail, la limite de chaque champ **Valeur** a été mise à jour de 255 caractères à 5 Ko pour des raisons de compatibilité avec le suivi Adobe Analytics. [En savoir plus](../email/email-settings.md#url-tracking)
 
@@ -1009,11 +1009,11 @@ Note that each widget can be resized and deleted as needed.
 
 **Administration**
 
-* Une nouvelle sous-section fournit des recommandations sur la création de l’adresse **Répondre à (e-mail)** et sur la garantie d’une gestion adéquate des réponses. [En savoir plus](../email/email-settings.md#reply-to-email)
+* Une nouvelle sous-section fournit des recommandations sur la création de l’adresse **Répondre à (e-mail)** et sur la garantie d’une gestion adéquate des réponses. [En savoir plus](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 * Lors de la création ou de la modification des **Groupes d’adresses IP**, les enregistrements PTR associés sont désormais affichés dans la liste des adresses IP et lorsque vous passez la souris sur les adresses IP sélectionnées. [En savoir plus](../configuration/ip-pools.md#create-ip-pool)
 
-* Une fois qu’un groupe d’adresses IP a été sélectionné dans une configuration de canal, les informations d’enregistrement PTR sont désormais visibles lorsque vous passez la souris sur les adresses IP. [En savoir plus](../email/email-settings.md#subdomains-and-ip-pools)
+* Une fois qu’un groupe d’adresses IP a été sélectionné dans une configuration de canal, les informations d’enregistrement PTR sont désormais visibles lorsque vous passez la souris sur les adresses IP. [En savoir plus](../email/email-settings.md#ip-pools)
 
 * L’interface utilisateur pour la modification des [enregistrements PTR](../configuration/ptr-records.md#edit-ptr-record) et des [champs d’exécution](../configuration/primary-email-addresses.md) a été mise à jour.
 

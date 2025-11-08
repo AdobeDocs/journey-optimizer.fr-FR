@@ -5,7 +5,7 @@ title: Recherche d’événements d’expérience dans les parcours
 description: Découvrez comment utiliser la recherche d’événements d’expérience dans les parcours.
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 98%
@@ -56,7 +56,7 @@ En savoir plus :
 
 * [Créateur de segments - Contraintes temporelles](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"} Adobe Experience Platform
 
-* [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment)
 
 * [Fonction inAudience()](../building-journeys/functions/functioninaudience.md)
 
@@ -75,7 +75,7 @@ En savoir plus sur l’utilisation des audiences :
 
 * [Créateur de segments - Contraintes temporelles](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"} Adobe Experience Platform
 
-* [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment)
 
 * [Fonction inAudience()](../building-journeys/functions/functioninaudience.md)
 
@@ -97,7 +97,7 @@ En savoir plus :
 
 * [Créateur de segments - Contraintes temporelles](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"} Adobe Experience Platform
 
-* [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment)
 
 * [Fonction inAudience()](../building-journeys/functions/functioninaudience.md)
 

@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -86,7 +86,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 * **Éditeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec les mappings. Cette fonctionnalité peut être exploitée avec les listes d’abonnements. Par exemple, à partir d’une audience, vous pouvez désormais obtenir une adresse e-mail à partir d’une liste d’abonnements. [En savoir plus dans cet exemple](../building-journeys/message-to-subscribers-uc.md)
 
-* **Surveillance** - Les événements d’étape pour les parcours actifs et le mode test ont été améliorés. De [nouveaux champs](../reports/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les tâches d’exportation de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](../reports/sharing-legacy-fields.md).
+* **Surveillance** - Les événements d’étape pour les parcours actifs et le mode test ont été améliorés. De [nouveaux champs](../reports/sharing-field-list.md#servicevents-field) ont été ajoutés en rapport avec les tâches d’exportation de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](../reports/sharing-legacy-fields.md).
 * **Accessibilité** - Des améliorations d’accessibilité ont été apportées aux parcours. 
 * **Collections** - Les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](../building-journeys/collections.md)
 * **Listes** - Les écrans de liste ont été améliorés pour les parcours, les événements, les actions et les sources de données. 
@@ -277,7 +277,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 **Concevoir du contenu**
 
 * **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **Personnalisation**
 
@@ -351,7 +351,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 **Prévisualiser et tester**
 
-* L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../content-management/preview-test.md#preview-your-messages)
+* L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../content-management/preview-test.md#preview-test)
 * Le nombre d&#39;e-mails de test pour les BAT est maintenant limité à 10.
 * Les caractères autorisés pour le **préfixe de ligne d&#39;objet** dans les BAT sont maintenant limités. [En savoir plus](../content-management/preview-test.md#send-proofs)
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <!--Do not modify - Legal Review Done -->
 
-Lorsque vous définissez une nouvelle configuration des canaux dans [!DNL Adobe Journey Optimizer], au moment de la [sélection d’un sous-domaine](email-settings.md#subdomains-and-ip-pools) dans la liste, l’option **[!UICONTROL Activer le désabonnement de la liste]** s’affiche. Elle est activée par défaut.
+Lorsque vous définissez une nouvelle configuration des canaux dans [!DNL Adobe Journey Optimizer], au moment de la [sélection d’un sous-domaine](email-settings.md#ip-pools) dans la liste, l’option **[!UICONTROL Activer le désabonnement de la liste]** s’affiche. Elle est activée par défaut.
 
 ![](assets/preset-list-unsubscribe.png)
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -308,7 +308,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
    * 90 jours pour les données dans la banque de profils
    * 13 mois pour les données du lac de données
 
-  Cette modification sera déployée sur les sandbox des clientes et clients existants au cours d’une phase ultérieure. [En savoir plus](../data/datasets-ttl.md#ttl)
+  Cette modification sera déployée sur les sandbox des clientes et clients existants au cours d’une phase ultérieure. [En savoir plus](../data/datasets-ttl.md#ttl-guardrail)
 
 * **Paramètres dans les actions personnalisées** - Date de disponibilité : 3 octobre 2024 - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters).
 
@@ -631,7 +631,7 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 **Parcours**
 
 * Dans l’activité **Condition**, par défaut, la **[!UICONTROL Condition de temps]** est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
-* Lors de la création de vos parcours, les alertes s’affichent désormais à partir du bouton **Alertes**, afin de s’aligner sur d’autres alertes et d’offrir une expérience d’utilisation cohérente. [En savoir plus](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Lors de la création de vos parcours, les alertes s’affichent désormais à partir du bouton **Alertes**, afin de s’aligner sur d’autres alertes et d’offrir une expérience d’utilisation cohérente. [En savoir plus](../building-journeys/troubleshooting.md#activity-errors)
 * Les options de zoom de la barre d’outils des parcours ont été améliorées : le pourcentage de zoom est désormais visible et vous pouvez facilement réinitialiser sa valeur.
 
 **Canal push**
@@ -1129,7 +1129,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Gestion de contenu**
 
-* Vous pouvez désormais simuler des modèles de contenu pour tous les canaux. [En savoir plus](../content-management/content-templates.md#test-templates).
+* Vous pouvez désormais simuler des modèles de contenu pour tous les canaux. [En savoir plus](../content-management/content-templates.md#video-templates).
 
 **Personnalisation**
 
@@ -1242,7 +1242,7 @@ Auparavant disponibles en version Beta, les améliorations suivantes sont désor
 
 * Vous pouvez désormais cibler les **audiences créées par le biais de la composition d’audiences** et utiliser les attributs d’enrichissement dans les parcours. [En savoir plus](../building-journeys/read-audience.md)
 
-* Vous pouvez désormais cibler les **audiences chargées à partir d’un fichier CSV** dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Vous pouvez désormais cibler les **audiences chargées à partir d’un fichier CSV** dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#about-segments)
 
   >[!AVAILABILITY]
   >

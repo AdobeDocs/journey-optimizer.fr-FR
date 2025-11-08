@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: principal, exécution, e-mail, cible, profil, optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
@@ -83,7 +83,7 @@ Par exemple, cette valeur peut être utile pour effectuer les actions suivantes�
 * Tester votre diffusion. Vous pouvez ajouter votre adresse e-mail ou votre numéro de téléphone : une fois que vous avez publié le parcours, l’e-mail, le SMS ou le message WhatsApp vous est envoyé.
 * Envoyer un message aux personnes abonnées d’une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
 
-Lors de l’ajout d’une action **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** ou **[!UICONTROL WhatsApp]** à un [parcours](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail ou le numéro de téléphone principal s’affiche sous les paramètres avancés du parcours.
+Lors de l’ajout d’une action **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** ou **[!UICONTROL WhatsApp]** à un [parcours](../email/create-email.md#create-email), l’adresse e-mail ou le numéro de téléphone principal s’affiche sous les paramètres avancés du parcours.
 
 Pour remplacer cette valeur, cliquez sur l’icône **[!UICONTROL Activer le remplacement de paramètre]** à droite du champ.
 

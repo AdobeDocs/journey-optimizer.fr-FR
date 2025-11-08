@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
@@ -48,7 +48,7 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publier](create-lp.md#publish) la page de destination.
+1. [Publier](create-lp.md#publish-landing-page) la page de destination.
 
 1. Dans un [parcours](../building-journeys/journey.md), ajoutez une activité **E-mail** pour diriger le trafic vers la page de destination d’inscription.
 
@@ -127,7 +127,7 @@ Pour permettre aux personnes destinataires dʼun e-mail dʼannuler leur abonneme
    >
    >Veillez à référencer la sous-page dans la section **[!UICONTROL Appel à l’action]** de la page principale du composant **[!UICONTROL Formulaire]**. [En savoir plus](design-lp.md)
 
-1. Une fois que vous avez configuré et défini le contenu de vos pages, [publiez](create-lp.md#publish) la page de destination.
+1. Une fois que vous avez configuré et défini le contenu de vos pages, [publiez](create-lp.md#publish-landing-page) la page de destination.
 
 1. [Créez un e-mail](../email/get-started-email-design.md) dans un parcours.
 
@@ -171,7 +171,7 @@ Les informations concernant les désinscriptions sont stockées dans le **Jeu de
 
 **Voir également :**
 
-* [Opt-out en un clic](../email/email-opt-out.md#one-click-opt-out-link)
+* [Opt-out en un clic](../email/email-opt-out.md#one-click-opt-out)
 * [Lien d’exclusion dans l’en-tête de l’e-mail](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
@@ -182,7 +182,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)
 
 * **Unsubscribe link in header**
 

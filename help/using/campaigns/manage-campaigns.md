@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 >title="Action"
 >abstract="Cette section répertorie toutes les actions utilisées dans la campagne orchestrée."
 
-Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**. Utilisez les onglets pour parcourir les campagnes par type : campagnes d’**action**, campagnes **déclenchées par API** et campagnes **orchestrées**. En savoir plus sur les [types de campagne](get-started-with-campaigns.md#get-started-with-campaigns). Les types disponibles dépendent de votre contrat de licence et de vos autorisations.
+Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**. Utilisez les onglets pour parcourir les campagnes par type : campagnes d’**action**, campagnes **déclenchées par API** et campagnes **orchestrées**. En savoir plus sur les [types de campagne](get-started-with-campaigns.md#get-started-campaigns). Les types disponibles dépendent de votre contrat de licence et de vos autorisations.
 
 >[!BEGINTABS]
 
@@ -66,7 +66,7 @@ Le bouton ![image showing the More actions button](assets/do-not-localize/rule-b
 ![image montrant l’inventaire des campagnes](assets/inventory-actions.png)
 
 * **[!UICONTROL Afficher le rapport complet]**/**[!UICONTROL Afficher le rapport des dernières 24 heures]** : accédez aux rapports pour mesurer et visualiser l’impact et les performances de vos campagnes. En savoir plus sur les [rapports de campagne](../reports/campaign-global-report-cja.md).
-* **[!UICONTROL Modifier les balises]** : modifiez les balises associées à la campagne. Découvrez comment [utiliser des balises dans vos campagnes](../start/search-filter-categorize.md#add-tags-to-an-object).
+* **[!UICONTROL Modifier les balises]** : modifiez les balises associées à la campagne. Découvrez comment [utiliser des balises dans vos campagnes](../start/search-filter-categorize.md#add-tags).
 * **[!UICONTROL Dupliquer]** : vous aurez éventuellement besoin de dupliquer une campagne, par exemple pour exécuter une campagne orchestrée qui a été arrêtée. [En savoir plus](#duplicate-a-campaign)
 * **[!UICONTROL Supprimer]** : utilisez cette option pour supprimer une campagne. [En savoir plus](#delete-a-campaign)
 * **[!UICONTROL Archiver]** : archivez la campagne. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de leur dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des **[!UICONTROL brouillons]** de campagnes. En savoir plus sur les [archives de campagne](#archive-a-campaign).

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -407,7 +407,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Campagnes**
 
-   * **Contrôle des taux dans les campagnes sortantes** : vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. [En savoir plus](../campaigns/campaign-schedule.md#rate-control)
+   * **Contrôle des taux dans les campagnes sortantes** : vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. [En savoir plus](../campaigns/campaign-schedule.md#set-rate-control)
 
    * **Planification de campagnes d’action** : les planificateurs de campagnes quotidiens, hebdomadaires et mensuels ont été mis à jour afin d’assurer un contrôle plus détaillé des planifications récurrentes :
 

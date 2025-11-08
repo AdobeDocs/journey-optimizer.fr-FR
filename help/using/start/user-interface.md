@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 100%
@@ -141,7 +141,7 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
 * **[!UICONTROL Canaux]** - Utilisez cette section pour configurer vos canaux, notamment les sous-domaines, les configurations et les paramètres de délivrabilité. [En savoir plus](../configuration/get-started-configuration.md).
 
-* **[!UICONTROL Balises]** - Avec les balises unifiées, vous pouvez facilement classer vos parcours et campagnes pour améliorer la recherche dans les listes. [En savoir plus](../start/search-filter-categorize.md#work-with-unified-tags)
+* **[!UICONTROL Balises]** - Avec les balises unifiées, vous pouvez facilement classer vos parcours et campagnes pour améliorer la recherche dans les listes. [En savoir plus](../start/search-filter-categorize.md#manage-tags)
 
 ## Cas d’utilisation internes au produit {#in-product-uc}
 

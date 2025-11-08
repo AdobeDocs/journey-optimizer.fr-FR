@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 87%
@@ -120,8 +120,8 @@ En savoir plus sur les rapports de parcours dans [cette section](../reports/live
 * **[Publication de parcours](publish-journey.md)** - Découvrez le processus de publication des parcours et comment gérer les parcours en direct.
 * **[Rapports de Parcours](report-journey.md)** - Suivez et analysez les performances du parcours avec des mesures et des informations détaillées.
 * **[Dépannage des parcours](troubleshooting.md)** - Trouvez des solutions aux problèmes courants du parcours et des bonnes pratiques de débogage.
-* **[Tutoriels sur les Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur la création de parcours et les bonnes pratiques.
+* **[Tutoriels sur les Parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur la création de parcours et les bonnes pratiques.
 
 >[!NOTE]
 >
->Si vous devez apporter des modifications à un parcours **actif**, [créez une nouvelle version](journey-ui.md#journey-versions) de votre parcours.
+>Si vous devez apporter des modifications à un parcours **actif**, [créez une nouvelle version](journey-ui.md#journey-filter) de votre parcours.

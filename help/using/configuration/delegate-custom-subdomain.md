@@ -10,7 +10,7 @@ level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
-Au lieu des méthodes [Délégation complète](about-subdomain-delegation.md#full-subdomain-delegation) et [Configuration CNAME](about-subdomain-delegation.md#cname-subdomain-delegation), la méthode **Délégation personnalisée** vous permet d’obtenir la propriété de vos sous-domaines dans Journey Optimizer et de disposer d’un contrôle total sur les certificats générés.
+Au lieu des méthodes [Délégation complète](about-subdomain-delegation.md#full-subdomain-delegation) et [Configuration CNAME](about-subdomain-delegation.md#subdomain-delegation-methods), la méthode **Délégation personnalisée** vous permet d’obtenir la propriété de vos sous-domaines dans Journey Optimizer et de disposer d’un contrôle total sur les certificats générés.
 
 Dans le cadre de ce processus, Adobe doit s’assurer que votre DNS est configuré de manière appropriée pour la diffusion, le rendu et le suivi des messages. C’est pourquoi il vous sera demandé de [charger le certificat SSL](#upload-ssl-certificate) obtenu auprès de l’autorité de certification et de suivre les étapes de la [feedback loop](#feedback-loop-steps) en vérifiant la propriété du domaine et l’adresse e-mail de signalement.
 

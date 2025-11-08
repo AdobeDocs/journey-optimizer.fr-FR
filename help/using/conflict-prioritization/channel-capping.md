@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 98%
@@ -94,7 +94,7 @@ Pour créer un jeu de règles de canal, procédez comme suit :
 
 1. Répétez les étapes ci-dessus pour ajouter autant de règles que nécessaire au jeu de règles.
 
-1. Une fois la règle de limitation prête à être appliquée aux messages, activez le jeu de règles ainsi que la règle qui y a été ajoutée. [Découvrir comment activer les jeux de règles](../conflict-prioritization/rule-sets.md#create)
+1. Une fois la règle de limitation prête à être appliquée aux messages, activez le jeu de règles ainsi que la règle qui y a été ajoutée. [Découvrir comment activer les jeux de règles](../conflict-prioritization/rule-sets.md#Create)
 
 ## Appliquer des jeux de règles à un message {#apply-frequency-rule}
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

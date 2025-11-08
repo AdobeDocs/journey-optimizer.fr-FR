@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 99%
@@ -97,7 +97,7 @@ Pour une meilleure lisibilité, masquez ces paramètres à l’aide du bouton **
 
 ![Icône Masquer les champs en lecture seule dans les propriétés de l’activité de parcours](assets/journey-hide-read-only-fields.png)
 
-Dans certains contextes précis, vous pouvez remplacer les valeurs de ces paramètres pour une utilisation spécifique. Pour forcer une valeur, cliquez sur l’icône **[!UICONTROL Activer le remplacement du paramètre]** à droite du champ. [En savoir plus](../configuration/primary-email-addresses.md#journey-parameters).
+Dans certains contextes précis, vous pouvez remplacer les valeurs de ces paramètres pour une utilisation spécifique. Pour forcer une valeur, cliquez sur l’icône **[!UICONTROL Activer le remplacement du paramètre]** à droite du champ. [En savoir plus](../configuration/primary-email-addresses.md#override-execution-address-journey).
 
 ![Option Activer la substitution de paramètre dans les propriétés de l’activité E-mail](assets/journey-enable-parameter-override.png)
 

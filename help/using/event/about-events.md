@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 98%
@@ -91,7 +91,7 @@ Les types d’événements suivants sont comptabilisés dans le quota des 5 000
 
 * **Événements Analytics** : si l’[intégration à Adobe Analytics a été activée en vue de déclencher des parcours](about-analytics.md), ces événements sont également inclus.
 
-* **Événements de reprise** : événement technique déclenché lorsqu’un profil reprend à partir d’un parcours en pause. En savoir plus sur la [reprise des parcours mis en pause](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+* **Événements de reprise** : événement technique déclenché lorsqu’un profil reprend à partir d’un parcours en pause. En savoir plus sur la [reprise des parcours mis en pause](../building-journeys/journey-pause.md#journey-resume-steps).
 
 * **Événements d’achèvement de nœud d’attente** : lorsqu’un profil quitte un nœud d’attente, un événement technique est généré pour reprendre le parcours.
 
@@ -122,8 +122,8 @@ Les événements utilisés dans des parcours **actifs**, **brouillons** ou **fer
 
 Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431514?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416325?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

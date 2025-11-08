@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Cette fonctionnalité est accessible à partir de la page d’accueil d’**[!DN
 
 ## Prise en main{#gs-mobile-wf}
 
-Ce nouveau workflow automatise la configuration de la collecte de données en réduisant le nombre total de clics et en accélérant la configuration mobile pour Journey Optimizer. Ce workflow de démarrage rapide vous permet de suivre quatre étapes simples pour [configurer](##setup-mobile-wf), [implémenter](#implement-mobile-wf), [valider](#valid-mobile-wf) et [réviser](#review-mobile-wf) votre configuration mobile.
+Ce nouveau workflow automatise la configuration de la collecte de données en réduisant le nombre total de clics et en accélérant la configuration mobile pour Journey Optimizer. Ce workflow de démarrage rapide vous permet de suivre quatre étapes simples pour [configurer](#gs-mobile-wf), [implémenter](#implement-mobile-wf), [valider](#valid-mobile-wf) et [réviser](#review-mobile-wf) votre configuration mobile.
 
 Pour accéder au nouveau workflow de démarrage rapide de l’intégration mobile, accédez à **[!DNL Data Collection]** à partir du sélecteur de solution. Sélectionnez ensuite la vignette **[!DNL Start Collecting Mobile Data]** sur la page d’accueil.
 
@@ -75,5 +75,5 @@ La configuration automatisée est terminée. Vous pouvez désormais accéder à 
 * [Prise en main des notifications push](../../rp_landing_pages/push-landing-page.md)
 * [Flux de données et composants des notifications push](push-gs.md)
 * [Configuration du canal push](push-configuration.md)
-* [Rapport des notifications push](../reports/journey-global-report-cja-push.md#push-global)
+* [Rapport des notifications push](../reports/journey-global-report-cja-push.md#track-link-url-push)
 * [Créer une notification push](create-push.md)

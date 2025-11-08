@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 95%
@@ -22,7 +22,7 @@ Lors de l’envoi de messages à partir des parcours ou des campagnes, vous deve
 
 >[!NOTE]
 >
->Tous vos messages marketing doivent inclure un lien d’exclusion. Cela n’est pas nécessaire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [configuration des canaux](../configuration/channel-surfaces.md#email-type) et lors de la création du message.
+>Tous vos messages marketing doivent inclure un lien d’exclusion. Cela n’est pas nécessaire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [configuration des canaux](email-settings.md#email-type) et lors de la création du message.
 
 Pour insérer un lien de désinscription dans le contenu de votre e-mail, vous pouvez procéder comme suit :
 

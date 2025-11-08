@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yaho
 
 Par conséquent, Adobe vous recommande vivement de vous assurer que les enregistrements DMARC sont configurés pour tous les sous-domaines que vous avez délégués à Adobe dans [!DNL Journey Optimizer]. Suivez les étapes ci-dessous qui s’appliquent à votre cas :
 
-* Si vous avez [entièrement délégué](delegate-subdomain.md#full-subdomain-delegation) vos sous-domaines d’envoi à Adobe, suivez l’une des deux options ci-dessous :
+* Si vous avez [entièrement délégué](delegate-subdomain.md#set-up-subdomain) vos sous-domaines d’envoi à Adobe, suivez l’une des deux options ci-dessous :
 
    * Configurez DMARC sur le domaine parent de vos sous-domaines délégués **dans votre solution d’hébergement**.
 ou

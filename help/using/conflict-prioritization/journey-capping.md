@@ -4,7 +4,7 @@ description: Découvrez comment créer des règles de limitation pour vos parcou
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
@@ -92,7 +92,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
 1. Répétez les étapes ci-dessus pour ajouter autant de règles que nécessaire au jeu de règles.
 
-1. Lorsque la règle de limitation est prête à être appliquée aux parcours, activez la règle et le jeu de règles auquel elle a été ajoutée. [Découvrir comment activer des jeux de règles](../conflict-prioritization/rule-sets.md#create)
+1. Lorsque la règle de limitation est prête à être appliquée aux parcours, activez la règle et le jeu de règles auquel elle a été ajoutée. [Découvrir comment activer des jeux de règles](../conflict-prioritization/rule-sets.md#Create)
 
 ## Application de règles de limitation aux parcours {#apply-capping}
 
@@ -119,4 +119,4 @@ En outre, vous pouvez également utiliser le [service de requête Adobe Experie
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

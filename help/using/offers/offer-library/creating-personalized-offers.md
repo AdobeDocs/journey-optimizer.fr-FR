@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 100%
@@ -131,7 +131,7 @@ Dans la liste des offres, vous pouvez sélectionner l&#39;offre pour afficher se
 
 ![](../assets/offer_created.png)
 
-Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d&#39;édition de l&#39;offre, où vous pouvez modifier ses [détails](#create-offer), ses [représentations](#representations), ainsi que les [règles d&#39;éligibilité et les contraintes](#eligibility).
+Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d&#39;édition de l&#39;offre, où vous pouvez modifier ses [détails](#create-offer), ses [représentations](add-representations.md#representations), ainsi que les [règles d&#39;éligibilité et les contraintes](add-constraints.md#eligibility).
 
 Sélectionnez une offre validée et cliquez sur **[!UICONTROL Annuler l&#39;approbation]** pour redéfinir le statut de l&#39;offre sur **[!UICONTROL Brouillon]**.
 
@@ -167,10 +167,10 @@ Une fois une offre créée, vous pouvez cliquer sur son nom dans la liste.
 
 ![](../assets/offer_click-name.png)
 
-Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]** pour [surveiller toutes les modifications](../get-started/user-interface.md#monitoring-changes) qui ont été apportées à l&#39;offre.
+Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]** pour [surveiller toutes les modifications](../get-started/user-interface.md#changes-logs) qui ont été apportées à l&#39;offre.
 
 ![](../assets/offer_information.png)
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341347?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

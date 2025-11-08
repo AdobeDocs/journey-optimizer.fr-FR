@@ -9,7 +9,7 @@ level: Intermediate
 keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Vous pouvez également [arrêter un parcours](#stop-journey), uniquement en cas 
 
 >[!IMPORTANT]
 >
->* Vous ne pouvez pas redémarrer ou supprimer un parcours [fermé](#close-journey) ou [arrêté](#stop-journey). Vous pouvez [le dupliquer](journey-ui.md#duplicate-a-journey-duplicate-a-journey) ou en [créer une nouvelle version](publish-journey.md#journey-versions-journey-versions).
+>* Vous ne pouvez pas redémarrer ou supprimer un parcours [fermé](#close-journey) ou [arrêté](#stop-journey). Vous pouvez [le dupliquer](journey-ui.md#duplicate-a-journey) ou en [créer une nouvelle version](publish-journey.md#journey-versions).
 >
 >* Seuls les parcours terminés peuvent être supprimés.
 

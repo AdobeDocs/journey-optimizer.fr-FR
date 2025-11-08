@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
@@ -64,8 +64,8 @@ Pour utiliser un fragment dans un email, procédez comme suit :
 1. À partir de l’onglet **[!UICONTROL Paramètres]**, vous pouvez :
 
    * Sélectionner les appareils sur lesquels afficher le fragment.
-   * Ouvrir le fragment dans un nouvel onglet pour le modifier, si nécessaire. [En savoir plus](../content-management/fragments.md#edit-fragments).
-   * Explorer les références. [En savoir plus](../content-management/fragments.md#explore-references).
+   * Ouvrir le fragment dans un nouvel onglet pour le modifier, si nécessaire. [En savoir plus](../content-management/fragments.md#fragments).
+   * Explorer les références. [En savoir plus](../content-management/fragments.md#visual-expression).
 
 1. Vous pouvez personnaliser davantage votre fragment à l’aide de l’onglet **[!UICONTROL Styles]**.
 

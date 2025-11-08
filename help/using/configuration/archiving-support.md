@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 96%
@@ -123,7 +123,7 @@ Pour accéder à ce jeu de données par le biais de l’interface d’utilisatio
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Pour exécuter des requêtes sur ce jeu de données, vous pouvez utiliser l’éditeur de requêtes fourni par le service de requête de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}. Pour y accéder, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Requêtes]** et cliquez sur **[!UICONTROL Créer une requête]**. [En savoir plus](../data/get-started-queries.md)
+Pour exécuter des requêtes sur ce jeu de données, vous pouvez utiliser l’éditeur de requêtes fourni par le service de requête de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}. Pour y accéder, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Requêtes]** et cliquez sur **[!UICONTROL Créer une requête]**. [En savoir plus](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ Selon les informations que vous recherchez, vous pouvez exécuter les requêtes 
 
    >[!NOTE]
    >
-   >Pour obtenir le paramètre `<journey version id>`, sélectionnez la [version de parcours](../building-journeys/journey.md#journey-versions) correspondante à partir du menu **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Parcours]**. L’ID de version du parcours s’affiche à la fin de l’URL affichée dans votre navigateur web.
+   >Pour obtenir le paramètre `<journey version id>`, sélectionnez la [version de parcours](../building-journeys/journey.md#uc-journey) correspondante à partir du menu **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Parcours]**. L’ID de version du parcours s’affiche à la fin de l’URL affichée dans votre navigateur web.
    >
    >![](assets/preset-bcc-action-id.png)
 
@@ -234,7 +234,7 @@ L’en-tête `x-message-profile-id` est également stocké dans les jeux de donn
 
 * Pour accéder à ces jeux de données par le biais de l’interface d’utilisation, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Jeux de données]** > **[!UICONTROL Parcourir]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
 
-* Utilisez le Query Editor fourni par le service de requête Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}. Pour y accéder, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Requêtes]** et cliquez sur **[!UICONTROL Créer une requête]**. [En savoir plus](../data/get-started-queries.md)
+* Utilisez le Query Editor fourni par le service de requête Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}. Pour y accéder, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Requêtes]** et cliquez sur **[!UICONTROL Créer une requête]**. [En savoir plus](../data/get-started-queries.md)
 
 Vous trouverez ci-dessous quelques exemples de requêtes que vous pouvez exécuter pour récupérer des informations correspondant à vos copies en Cci.
 

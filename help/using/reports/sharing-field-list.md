@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -112,11 +112,11 @@ Vous trouverez ci-dessous des définitions, des causes courantes et des étapes 
    * **PAUSED_JOURNEY_VERSION** : rejets survenus au point d’entrée du parcours.
    * **JOURNEY_IN_PAUSED_STATE** : rejets survenus lorsque les profils se trouvent dans un parcours.
 
-  Pour en savoir plus sur ces événements et sur la manière de les résoudre, consultez la section [Mettre en pause un parcours](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+  Pour en savoir plus sur ces événements et sur la manière de les résoudre, consultez la section [Mettre en pause un parcours](../building-journeys/journey-pause.md#discards-troubleshoot).
 
 ## Ressources supplémentaires
 
 * [Exemples de requête de jeu de données - Événement d’étape de parcours](../data/datasets-query-examples.md#journey-step-event).
 * [Exemples de requêtes - Requêtes basées sur un événement](query-examples.md#event-based-queries).
-* [Dictionnaire de schémas intégré](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
+* [Dictionnaire de schémas intégré](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 
