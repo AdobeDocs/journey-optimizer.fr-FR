@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
-source-git-commit: 4521990a02092365f996a81299ada55433639fb7
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 80%
+ht-degree: 78%
 
 ---
 
@@ -30,7 +30,7 @@ Cette page explique en quoi les campagnes à débit élevé diffèrent des campa
 
 * **Personnalisation** :
 
-   * Toutes les personnalisations doivent être incluses dans la payload de l’API en tant que **données contextuelles**. [Découvrez comment personnaliser du contenu à l’aide de données contextuelles](../campaigns/api-triggered-campaign-action.md#contextual).
+   * Toutes les personnalisations doivent être incluses dans la payload de l’API en tant que **données contextuelles**. [Découvrez comment personnaliser du contenu à l’aide de données contextuelles](../campaigns/api-triggered-campaign-content.md#contextual).
    * La personnalisation basée sur un profil n’est pas prise en charge. Si des variables de profil sont utilisées, des erreurs de validation se produisent.
 
 * **Configurations de canal personnalisées** - Les configurations de canal qui utilisent [la personnalisation basée sur les profils](../email/surface-personalization.md) ne peuvent pas être utilisées avec des campagnes à débit élevé. Seules les surfaces sans personnalisation de profil peuvent être utilisées.
@@ -69,7 +69,7 @@ Utilisez ce tableau pour décider quel type de campagne déclenché par API corr
 En d’autres termes :
 
 * Choisissez les campagnes **standard déclenchées par API** si :
-   * Vous n’avez pas de contrat de débit élevé.
+   * Vous n&#39;avez pas de contrat de débit élevé.
    * Le débit dont vous avez besoin est &lt; 500 TPS.
    * Vous avez besoin d’une personnalisation basée sur les profils Adobe.
    * Vous souhaitez que les données de campagne soient rattachées aux profils pour un ciblage futur.
@@ -77,7 +77,7 @@ En d’autres termes :
 
 * Choisissez les campagnes à **débit élevé** si :
    * Vous avez besoin d’un débit > 500 TPS.
-   * Vous n’avez pas besoin de rattacher les données aux profils.
+   * Vous n’avez pas besoin d’assembler les profils.
    * Vous pouvez transmettre toute la personnalisation dans la payload de l’API.
    * Vous souhaitez utiliser le canal E-mail.
 

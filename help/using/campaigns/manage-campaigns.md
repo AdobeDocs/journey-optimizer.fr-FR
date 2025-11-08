@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 100%
@@ -200,7 +200,7 @@ Pour modifier et créer une nouvelle version d’une campagne d’action récurr
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Une fois vos modifications prêtes, vous pouvez activer la nouvelle version de la campagne (voir [Vérification et activation d’une campagne](create-campaign.md#review-activate)).
+1. Une fois vos modifications prêtes, vous pouvez activer la nouvelle version de la campagne (voir [Vérification et activation d’une campagne](review-activate-campaign.md)).
 
    >[!IMPORTANT]
    >

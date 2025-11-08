@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 93%
@@ -40,7 +40,7 @@ Pour ce faire, vous devez d’abord créer une campagne déclenchée par API dan
 
 ## Étapes clés de création de campagnes déclenchées par API {#steps}
 
-Avant de commencer une campagne, vérifiez les conditions préalables suivantes répertoriées [dans cette section](get-started-with-campaigns.md#permissions). Une fois ces conditions préalables remplies, vous pouvez commencer à créer votre campagne :
+Avant de commencer une campagne, vérifiez les conditions préalables suivantes répertoriées [dans cette section](get-started-with-campaigns.md#prerequisites). Une fois ces conditions préalables remplies, vous pouvez commencer à créer votre campagne :
 
 1. [Définir les propriétés de la campagne](api-triggered-campaign-properties.md)
 1. [Configurer l’action de campagne](api-triggered-campaign-action.md)
@@ -54,4 +54,4 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452727?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

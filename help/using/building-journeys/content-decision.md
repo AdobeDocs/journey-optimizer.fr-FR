@@ -11,7 +11,7 @@ badge: label="Disponibilité limitée" type="Informative"
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
@@ -60,13 +60,13 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
 1. Sélectionnez le nombre d’éléments que vous souhaitez renvoyer. Par exemple, si vous sélectionnez 2, les 2 meilleures offres éligibles seront présentées. Cliquez sur **[!UICONTROL Suivant]**.
 
-1. Dans la section **[!UICONTROL Séquence de stratégies]**, sélectionnez les éléments de décision et/ou les stratégies de sélection à inclure avec la politique de décision. [En savoir plus](../experience-decisioning/create-decision.md#select)
+1. Dans la section **[!UICONTROL Séquence de stratégies]**, sélectionnez les éléments de décision et/ou les stratégies de sélection à inclure avec la politique de décision. [En savoir plus](../experience-decisioning/create-decision.md#create-decision)
 
 1. Organisez l’ordre d’évaluation selon vos besoins.
 
-   Lors de l’ajout de plusieurs éléments de décision et/ou stratégies, ceux-ci sont évalués dans un ordre séquentiel, indiqué par des nombres à gauche de chaque objet ou groupe d’objets. Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les objets et/ou les groupes afin de les réorganiser selon vos besoins. [En savoir plus](../experience-decisioning/create-decision.md#evaluation-order)
+   Lors de l’ajout de plusieurs éléments de décision et/ou stratégies, ceux-ci sont évalués dans un ordre séquentiel, indiqué par des nombres à gauche de chaque objet ou groupe d’objets. Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les objets et/ou les groupes afin de les réorganiser selon vos besoins. [En savoir plus](../experience-decisioning/create-decision.md#create-decision)
 
-1. (Facultatif) Ajoutez une offre de secours. [En savoir plus](../experience-decisioning/create-decision.md#fallback)
+1. (Facultatif) Ajoutez une offre de secours. [En savoir plus](../experience-decisioning/create-decision.md#create-decision)
 
 1. Vérifiez et enregistrez votre politique de décision.
 

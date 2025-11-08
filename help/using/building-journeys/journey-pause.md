@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 100%
@@ -158,7 +158,7 @@ Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouve
 
   Si vous reprenez les parcours pour ramener le nombre de profils conservés en dessous de la limite, le parcours reprend immédiatement, mais la mise à jour du nombre de profils peut prendre jusqu’à 30 minutes. Pendant ce temps, le système peut toujours considérer ces profils comme étant en pause.
 
-* Pour les parcours qui incluent des [activités entrantes](../channels/gs-channels.md#mobile-app-and-web-experiences) (par exemple, in-app, web, etc.), la suspension du parcours n’interrompt pas les communications qui ont déjà été déclenchées. Si un profil s’est qualifié pour une activité entrante avant la suspension, le message correspondant sera toujours diffusé. Pour arrêter complètement toutes les communications entrantes, vous devez arrêter le parcours.
+* Pour les parcours qui incluent des [activités entrantes](../channels/gs-channels.md#inbound-channels) (par exemple, in-app, web, etc.), la suspension du parcours n’interrompt pas les communications qui ont déjà été déclenchées. Si un profil s’est qualifié pour une activité entrante avant la suspension, le message correspondant sera toujours diffusé. Pour arrêter complètement toutes les communications entrantes, vous devez arrêter le parcours.
 * Les parcours en pause sont comptabilisés dans le quota des parcours actifs.
 * Les profils qui sont entrés dans le parcours mais ignorés pendant la pause sont toujours comptabilisés comme des profils engageables.
 * Les parcours en pause sont pris en compte dans toutes les règles métier, de la même manière que s’ils étaient actifs.
