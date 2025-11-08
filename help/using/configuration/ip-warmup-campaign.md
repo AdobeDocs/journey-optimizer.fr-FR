@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   Le [planning](../campaigns/create-campaign.md#schedule) de la campagne sera piloté par le plan de préchauffage d’adresses IP auquel il sera associé, ce qui signifie que le planning n’est plus défini dans la campagne elle-même.
+   Le [planning](../campaigns/campaign-schedule.md) de la campagne sera piloté par le plan de préchauffage d’adresses IP auquel il sera associé, ce qui signifie que le planning n’est plus défini dans la campagne elle-même.
 
 1. Suivez les étapes de création d’une campagne par e-mail, telles que définir les propriétés, l’[audience](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> et le [contenu](../email/get-started-email-design.md#key-steps) de la campagne.
 
@@ -75,7 +75,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
 Une fois active, la campagne est prête à être utilisée dans un plan de préchauffage d’adresses IP. [En savoir plus](ip-warmup-plan.md)
 
-Une campagne de préchauffage d’adresses IP ne peut être utilisée que dans un seul plan de préchauffage d’adresses IP. Cependant, la même campagne peut être utilisée dans une ou plusieurs phases du même plan de préchauffage d’adresses IP. [En savoir plus](ip-warmup-plan.md#define-phases)
+Une campagne de préchauffage d’adresses IP ne peut être utilisée que dans un seul plan de préchauffage d’adresses IP. Cependant, la même campagne peut être utilisée dans une ou plusieurs phases du même plan de préchauffage d’adresses IP. [En savoir plus](ip-warmup-plan.md#ip-warmup-plan-tab)
 
 >[!NOTE]
 >

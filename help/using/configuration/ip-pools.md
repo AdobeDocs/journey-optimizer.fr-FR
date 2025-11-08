@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: adresses IP, groupes, groupe, sous-domaines, délivrabilité
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
@@ -103,7 +103,7 @@ La mise à jour est effective immédiatement ou de manière asynchrone, selon qu
 
 >[!NOTE]
 >
->Lors de la [création d’une configuration de canal](channel-surfaces.md#create-channel-surface), si vous sélectionnez un groupe d’adresses IP en cours d’édition (statut **[!UICONTROL En cours de traitement]**) et qui n’a jamais été associé au sous-domaine sélectionné pour cette configuration, vous ne pouvez pas poursuivre la création de la configuration. [En savoir plus](channel-surfaces.md#subdomains-and-ip-pools)
+>Lors de la [création d’une configuration de canal](channel-surfaces.md#create-channel-surface), si vous sélectionnez un groupe d’adresses IP en cours d’édition (statut **[!UICONTROL En cours de traitement]**) et qui n’a jamais été associé au sous-domaine sélectionné pour cette configuration, vous ne pouvez pas poursuivre la création de la configuration. [En savoir plus](channel-surfaces.md#create-channel-surface)
 
 Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Mises à jour récentes]**.
 
