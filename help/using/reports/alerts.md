@@ -37,7 +37,7 @@ Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UI
 * Alertes spécifiques aux parcours :
 
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
-   * l’alerte [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate) (remplace l’alerte précédente Action personnalisée en cas d’échec du Parcours)
+   * l’alerte [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate) (remplace l’alerte précédente Action personnalisée en cas d’échec du Parcours)
    * Alerte [Taux de rejet de profil dépassé](#alert-discard-rate)
    * Alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
    * l’alerte [Parcours publié](#alert-journey-published)
@@ -135,7 +135,7 @@ Cette alerte vous alerte si le ratio des erreurs d’action personnalisée par r
 
 >[!NOTE]
 >
->Cette alerte remplace l’alerte précédente Échec de l’action personnalisée de Parcours ****.
+>Cette alerte remplace l’alerte précédente Échec de l’action personnalisée de Parcours **&#x200B;**.
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
