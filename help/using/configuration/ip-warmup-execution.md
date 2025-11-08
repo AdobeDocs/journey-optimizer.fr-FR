@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '2678'
-ht-degree: 98%
+source-wordcount: '2723'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +45,8 @@ Chaque phase est composée de plusieurs exécutions auxquelles vous affectez une
 At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan-->
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
+
+Pour définir les phases de votre plan de préchauffage d’adresses IP, vous devez sélectionner une campagne pour chaque phase, configurer des exclusions pour les domaines et les audiences, et gérer le ciblage des profils. Chaque phase peut contenir plusieurs exécutions qui seront configurées dans la section suivante. Procédez comme suit :
 
 1. Sélectionnez la campagne que vous souhaitez associer à la première phase du plan de préchauffage d’adresses IP.
 
