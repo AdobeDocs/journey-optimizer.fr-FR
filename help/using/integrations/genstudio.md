@@ -9,7 +9,7 @@ badge: label="Disponibilité limitée" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Pour renforcer l’efficacité marketing et préserver la cohérence de la marqu
 
 General guidelines for using the GenStudio integration in [!DNL Adobe Journey Optimizer] for email generation are listed below:
 
-See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for AI Assistant can apply.
+See if guidelines/limitations such as the ones listed [here](../content-management/gs-generative.md#generative-guardrails) for AI Assistant can apply.
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 
@@ -140,4 +140,4 @@ Après avoir exécuté l’expérience, suivez les performances de vos traitemen
 
 Découvrez le processus d’export d’un modèle d’e-mail de Journey Optimizer vers GenStudio for Performance Marketing, de création d’e-mails conformes à la marque à l’aide du modèle dans GenStudio et de réimport transparent dans Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456051/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

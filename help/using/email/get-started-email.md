@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 66%
+source-wordcount: '295'
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ Les diffusions d’e-mail peuvent être créées :
 
 * Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du message. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
 
-* Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base. [Découvrir comment créer une campagne](../campaigns/campaign-action.md#action-campaign-action)
+* Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base. Découvrez comment créer [une campagne d’action](../campaigns/campaign-action.md#action-campaign-action) | [une campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) | [une campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]

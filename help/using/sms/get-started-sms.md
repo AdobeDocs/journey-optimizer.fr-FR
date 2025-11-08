@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 99%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Les messages texte peuvent être créés et envoyés dans un parcours ou dans un
 
 * Dans un **parcours**. Créez un parcours, ajoutez une activité SMS et définissez les paramètres de base. Accédez ensuite au volet de droite Actions : SMS pour créer le contenu du message SMS, MMS ou RCS. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
 
-* Dans une **campagne**. Créez une campagne, sélectionnez SMS comme action et définissez les paramètres de base. Modifiez ensuite le contenu du message pour définir le SMS, MMS ou RCS à envoyer. [Découvrez comment créer une campagne.](../campaigns/campaign-action.md#action-campaign-action)
+* Dans une **campagne**. Créez une campagne, sélectionnez SMS comme action et définissez les paramètres de base. Modifiez ensuite le contenu du message pour définir le SMS, MMS ou RCS à envoyer. Découvrez comment créer [une campagne d’action](../campaigns/campaign-action.md#action-campaign-action) | [une campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) | [une campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create)
 
 >[!IMPORTANT]
 >
@@ -201,7 +201,7 @@ Découvrez comment configurer, créer et inclure des SMS dans vos parcours clien
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Découvrez les fonctionnalités complètes de messagerie mobile qu’Adobe Jour
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430372?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Découvrez comment configurer et envoyer des messages RCS interactifs d’une ma
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
