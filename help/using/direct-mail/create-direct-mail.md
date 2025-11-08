@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: e823be2257d49158492af508e23f40e749bc33be
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Pour créer des messages de courrier, créez une campagne planifiée et configur
 >
 >Le courrier prend en charge la fonctionnalité d’exclusion, mais ne prend actuellement pas en charge les traitements.
 
-Pour créer une campagne par courrier, procédez comme suit :
+Pour créer une campagne de publipostage direct, vous devez configurer une campagne planifiée, sélectionner votre audience cible et configurer les paramètres de publipostage direct, y compris la configuration du message. Procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 

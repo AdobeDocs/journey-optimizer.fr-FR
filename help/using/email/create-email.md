@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1059'
+ht-degree: 97%
 
 ---
 
@@ -79,6 +79,8 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >id="test_id"
 >title="Configurer le contenu des e-mails"
 >abstract="Créez le contenu de votre e-mail. Définissez son objet, puis utilisez le concepteur d’e-mails pour créer et personnaliser le corps de l’e-mail."
+
+Après avoir ajouté l’action E-mail à votre parcours ou campagne, vous devez définir le contenu de l’e-mail, y compris l’objet, les informations de l’expéditeur et le corps de l’e-mail à l’aide du Designer d’e-mail. Procédez comme suit :
 
 1. Dans l’écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu de l’e-mail. [En savoir plus](get-started-email-design.md)
 

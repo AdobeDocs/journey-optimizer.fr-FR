@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 100%
+source-wordcount: '2678'
+ht-degree: 98%
 
 ---
 
@@ -157,6 +157,8 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >id="ajo_admin_ip_warmup_qualified"
 >title="Afficher les profils qualifiés"
 >abstract="Cette colonne affiche le nombre de profils qualifiés. Une fois que l’audience a été évaluée pour une exécution, s’il existe plus de profils ciblés que de profils qualifiés, l’exécution se poursuit, sauf si l’option **Annuler les exécutions activées en cas d’erreurs** est activée. Dans ce cas, l’exécution est annulée."
+
+Après avoir défini les phases de votre plan de préchauffage d’adresses IP, vous devez configurer les exécutions individuelles au sein de chaque phase. Chaque exécution nécessite un planning. Vous pouvez éventuellement configurer les filtres d’engagement, la gestion des erreurs et les fenêtres de reprise pour garantir une exécution optimale. Procédez comme suit :
 
 1. Sélectionnez un planning pour chaque exécution afin de vous assurer qu’il est exécuté à l’heure indiquée.
 
