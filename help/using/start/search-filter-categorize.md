@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
@@ -62,7 +62,7 @@ Ajouter des balises explicites aux audiences dans Journey Optimizer vous permet
 
 Le champ **[!UICONTROL Balises]** vous permet de définir des balises pour votre objet. Les balises sont disponibles pour les objets suivants :
 
-* [Campagnes](../campaigns/create-campaign.md#create)
+* [Campagnes](../campaigns/create-campaign.md)
 * [Éléments de décision](../experience-decisioning/items.md)
 * [Fragments](../content-management/fragments.md)
 * [Parcours](../building-journeys/journey-properties.md)
