@@ -137,4 +137,4 @@ Pour créer une règle, procédez comme suit :
 
 Découvrez comment créer, dupliquer et appliquer des **règles de ciblage** réutilisables dans Adobe Journey Optimizer afin de personnaliser efficacement les campagnes en fonction des attributs du client, tels que la région, la langue et le comportement, ce qui vous permet de gagner du temps tout en améliorant la précision de l’audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476129/?captions=fre_fr&quality=12)
