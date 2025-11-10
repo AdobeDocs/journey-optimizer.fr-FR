@@ -5,10 +5,10 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a166534edc3e9b52cc3f1f905ec310378a18a67a
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 100%
+source-wordcount: '1415'
+ht-degree: 99%
 
 ---
 
@@ -182,7 +182,7 @@ L’orchestration de campagne dans Journey Optimizer peut d’abord créer une 
 
 +++ Les campagnes orchestrées prennent-elles en charge la prise de décision ?
 
-Oui. La prise de décision peut utiliser les données relationnelles issues des campagnes orchestrées. Une fois qu’un schéma basé sur un modèle est relié aux schémas XDM, les données XDM peuvent être utilisées dans la prise de décision.
+Non, les campagnes orchestrées ne prennent pas en charge les fonctionnalités de prise de décision.
 
 +++
 
