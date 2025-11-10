@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 100%
@@ -405,6 +406,6 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette décision.
 
 Découvrez comment créer des activités d’offre dans la gestion de décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/346693?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

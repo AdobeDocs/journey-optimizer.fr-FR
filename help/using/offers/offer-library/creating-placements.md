@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 100%
@@ -86,5 +87,5 @@ Pour créer une emplacement, procédez comme suit :
 
 Découvrez comment créer des emplacements pour la gestion des décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/341382?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

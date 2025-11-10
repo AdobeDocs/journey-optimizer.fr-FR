@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d3766e14edc5dcbde4d984f24a16800cfb84e76c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
@@ -120,13 +121,13 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 La vidéo ci-dessous présente les principales fonctionnalités, l’architecture et les cas d’utilisation de la gestion des décisions :
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340412?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Définition et gestion des offres {#use-offer-decisioning}
 
 La vidéo ci-dessous montre comment utiliser la gestion des décisions pour définir et gérer vos offres, et exploiter les données client en temps réel.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340346?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 
