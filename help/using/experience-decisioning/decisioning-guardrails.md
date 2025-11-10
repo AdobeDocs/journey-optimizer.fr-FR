@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 19%
+ht-degree: 85%
 
 ---
 
@@ -21,54 +21,54 @@ La liste complète des mécanismes de sécurisation et limitations de [!DNL Jour
 
 ## Requêtes de décision {#decision-requests}
 
-|| Mécanisme De Sécurisation | Limite |
-|| ------- | ------- |
-|| Requête d’API d’expérience basée sur le code avec politique de décision utilisant la segmentation Edge | 1500 |
-|| Requête d’API d’expérience basée sur du code avec politique de décision n’utilisant pas la segmentation Edge | 5000 |
-|| Nombre maximal d’URI de surface par requête de prise de décision Edge | 30 |
+| Mécanisme de sécurisation | Limite |
+| ------- | ------- |
+| Requête API d’expérience basée sur du code avec politique de décision utilisant la segmentation Edge | 1 500 |
+| Requête API d’expérience basée sur du code avec politique de décision n’utilisant pas la segmentation Edge | 5 000 |
+| Nombre maximal d’URI de surface par requête de prise de décision Edge | 30 |
 
 ## Collections d’éléments {#item-collections}
 
-|| Mécanisme De Sécurisation | Limite |
-|| ------- | ------- |
-|| Collections d’éléments | 10K |
-|| Nombre total d’éléments d’offre par collection d’éléments | 50 |
+| Mécanisme de sécurisation | Limite |
+| ------- | ------- |
+| Collections d’éléments | 10 000 |
+| Nombre total d’éléments d’offre par collection d’éléments | 500 |
 
 ## Politique de décision {#decision-policy}
 
-|| Mécanisme De Sécurisation | Limite |
-|| ------- | ------- |
-|| Nombre de stratégies de sélection et d&#39;éléments manuels par politique de décision | 10 |
-|| Nombre maximal d’éléments d’offre renvoyés par politique de décision | 30 |
+| Mécanisme de sécurisation | Limite |
+| ------- | ------- |
+| Nombre de stratégies de sélection et d’éléments manuels par politique de décision | 10 |
+| Nombre maximal d’éléments d’offre renvoyés par politique de décision | 30 |
 
 ## Règles d’éligibilité {#eligibility-rules}
 
-|| Mécanisme De Sécurisation | Limite |
-|| ------- | ------- |
-|| Total des règles de décision et des formules de classement | 10K combinés |
-|| Nombre maximal d’attributs de profil par règle | 25 |
-|| Nombre maximal d’attributs de données contextuelles par règle | 30 |
-|| Taille max de la règle pql | 15K (UTF-8) |
-|| Nbre max. de niveaux d’imbrication | 30 |
+| Mécanisme de sécurisation | Limite |
+| ------- | ------- |
+| Nombre total de règles de décision et de formules de classement | 10 000 au total |
+| Nombre maximal d’attributs de profil par règle | 25 |
+| Nombre maximal d’attributs de données contextuelles par règle | 30 |
+| Taille maximale de la règle pql | 15 000 (UTF-8) |
+| Nombre maximal de niveaux d’imbrication | 30 |
 
 ## Formules de classement {#ranking-formulas}
 
-|| Mécanisme De Sécurisation | Limite |
-|| ------- | ------- |
-|| Taille max. du PQL de formule de classement | 8K (UTF-8) |
-|| Nombre maximal d’attributs de profil |25 |
-|| Nombre maximal d’attributs de données contextuelles | 30 |
-|| Nbre max. de niveaux d’imbrication | 30 |
+| Mécanisme de sécurisation | Limite |
+| ------- | ------- |
+| Taille maximale du PQL de formule de classement | 8 000 (UTF-8) |
+| Nombre maximal d’attributs de profil | 25 |
+| Nombre maximal d’attributs de données contextuelles | 30 |
+| Nombre maximal de niveaux d’imbrication | 30 |
 
 ## Autres {#others}
 
-|| Mécanisme De Sécurisation | Limite |
-|| ------- | ------- |
-|| Nombre d&#39;attributs personnalisés par schéma de catalogue d&#39;offres | 100 |
-|| Total des éléments d’offre | 10K |
-|| Total des placements | 1K |
-|| Modèle de classement AI | 5 |
-|| Règles de fréquence - Nombre maximal de règles de limitation par offre | 10 |
+| Mécanisme de sécurisation | Limite |
+| ------- | ------- |
+| Nombre d&#39;attributs personnalisés par schéma de catalogue d&#39;offres | 100 |
+| Nombre total d’éléments d’offre | 10 000 |
+| Nombre total d’emplacements | 1 000 |
+| Modèle de classement AI | 5 |
+| Règles de fréquence : nombre maximal de règles de limitation par offre | 10 |
 
 ## Configurations  {#configurations}
 
