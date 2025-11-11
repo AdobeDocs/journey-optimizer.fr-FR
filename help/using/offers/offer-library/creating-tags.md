@@ -48,4 +48,4 @@ Pour créer un qualificateur de collection, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341366?captions=fre_fr&quality=12)

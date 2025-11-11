@@ -408,6 +408,6 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette décision.
 
 Découvrez comment créer des activités d’offre dans la gestion de décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346693?captions=fre_fr&quality=12)
 
 
