@@ -1,5 +1,5 @@
 ---
-solution: Journey Optimizer
+solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Prise en main des modèles d’IA
 description: En savoir plus sur les modèles d’IA qui permettent de classer les offres
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
@@ -64,4 +64,4 @@ Les principales étapes pour créer et utiliser des modèles d’IA sont les sui
 
 Découvrez comment créer un modèle d’IA pour Offer Decisioning et comment l’appliquer à une décision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445646?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

@@ -1,5 +1,5 @@
 ---
-solution: Journey Optimizer
+solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Créer des modèles d’IA
 description: Découvrez comment créer des modèles d’IA pour classer les offres.
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -96,4 +96,4 @@ Pour envoyer des types d’événement (offre affichée ou offre ayant fait l�
 
 Découvrez comment créer un modèle d’optimisation personnalisé et comment l’appliquer à une décision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445953?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

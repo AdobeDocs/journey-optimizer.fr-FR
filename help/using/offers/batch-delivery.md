@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: Prise de décision par lots
 description: Découvrez comment diffuser les décisions d’offres à tous les profils d’une audience Adobe Experience Platform donnée.
 badge: label="Hérité" type="Informative"
@@ -7,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
