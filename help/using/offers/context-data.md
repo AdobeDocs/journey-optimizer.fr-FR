@@ -1,5 +1,5 @@
 ---
-solution: Journey Optimizer
+solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Commencer avec les données contextuelles
 description: Découvrez comment utiliser les données contextuelles dans la gestion des décisions.
@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: d0b3a4e90b8eca6f5929f92f203c4bc296da7615
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
