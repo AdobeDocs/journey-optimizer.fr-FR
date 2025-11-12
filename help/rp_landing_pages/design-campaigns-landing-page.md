@@ -5,9 +5,9 @@ title: Activités de campagnes orchestrées
 description: Activités de campagnes orchestrées
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
+source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -91,5 +91,5 @@ Segmentez les populations entrantes en combinant, excluant ou croisant des donn�
 - **[Activité Réconciliation](../using/orchestrated/activities/reconciliation.md)** : associez des données externes ou non identifiées à des ressources existantes pour un ciblage précis.
 - **[Activité Enregistrer l’audience](../using/orchestrated/activities/save-audience.md)** : créez ou mettez à jour des audiences réutilisables pour un prochain ciblage.
 - **[Activité Partage](../using/orchestrated/activities/split.md)** : segmentez les populations en sous-ensembles à l’aide de filtres ou de la taille de la population.
-- **[Activité Test](../using/orchestrated/activities/test.md)** : activez les transitions conditionnelles en fonction de critères spécifiés.
+  <!--- **[Test Activity](../using/orchestrated/activities/test.md)** - Enable conditional transitions based on specified criteria.-->
 - **[Activité Attente](../using/orchestrated/activities/wait.md)** : introduisez des retards entre les activités pour un meilleur timing et plus de pertinence.
