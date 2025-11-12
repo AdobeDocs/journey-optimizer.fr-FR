@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## Utiliser le contenu existant
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Démonstration animée montrant l’assistant AI réutilisant le contenu de campagne existant pour générer de nouvelles variations](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Après avoir configuré votre campagne, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
@@ -41,7 +41,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 ## Affiner la variation
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![Démonstration animée du perfectionnement des variations de contenu générées par l’IA à l’aide des options Reformuler et Résumer](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Une fois votre campagne définie et configurée, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -71,7 +71,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 ## Générer une image similaire
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![Démonstration animée de la génération de variations d’image similaires en fonction d’une image générée par l’IA sélectionnée](assets/do-not-localize/uc-image-similar.gif)
 
 1. Après avoir configuré votre campagne, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
@@ -91,7 +91,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 ## Charger une référence stylistique
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![Démonstration animée du chargement d’une image de référence pour guider le style de génération d’image de l’assistant AI](assets/do-not-localize/uc-image-reference.gif)
 
 1. Après avoir défini et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -115,7 +115,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 ## Générer du contenu dans plusieurs langues prises en charge{#languages}
 
-![](assets/do-not-localize/gen-ai-language.gif)
+![Démonstration animée d’AI Assistant générant du contenu dans plusieurs langues, notamment le français, l’espagnol et l’allemand](assets/do-not-localize/gen-ai-language.gif)
 
 1. Une fois votre campagne définie et configurée, cliquez sur **[!UICONTROL Modifier le contenu]**.
 

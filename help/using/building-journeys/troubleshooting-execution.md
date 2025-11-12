@@ -10,16 +10,16 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '1102'
+ht-degree: 61%
 
 ---
 
 # Résoudre les problèmes d’exécution de votre parcours actif {#troubleshooting-execution}
 
-Dans cette section, découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si des profils ont rejoint votre parcours et la façon dont ils progressent dans celui-ci, et si des messages sont envoyés.
+Dans cette section, découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si les profils ont accédé à votre parcours, comment ils le parcourent et si des messages sont envoyés.
 
 Vous pouvez également résoudre les erreurs avant de tester ou de publier un parcours. Découvrez comment procéder [sur cette page](troubleshooting.md).
 
@@ -74,3 +74,79 @@ Si les personnes progressent correctement dans le parcours sans recevoir les mes
 * [!DNL Journey Optimizer] a envoyé le message avec succès. Vérifiez les rapports sur les parcours pour vous assurer qu’il n’y a aucune erreur.
 
 Dans le cas d’un message envoyé par le biais d’une action personnalisée, le seul élément vérifiable pendant le test du parcours est l’apparition ou non d’une erreur suite à l’appel du système à l’aide d’une action personnalisée. Si l’appel au système externe associé à l’action personnalisée n’entraîne pas d’erreur, mais ne déclenche pas l’envoi d’un message, certaines vérifications doivent être effectuées du côté du système externe.
+
+## Comprendre les entrées en double dans les événements d’étape de Parcours {#duplicate-step-events}
+
+### Pourquoi est-ce que je vois plusieurs entrées avec les mêmes ID d’instance de parcours, de profil, de nœud et de requête ?
+
+Lors de l’interrogation des données d’événements d’étape de Parcours, vous pouvez occasionnellement observer ce qui semble être des entrées de journal en double pour la même exécution de parcours. Ces entrées partagent des valeurs identiques pour :
+
+* `profileID` - Identité du profil
+* `instanceID` - Identifiant de l’instance de parcours
+* `nodeID` - Nœud de parcours spécifique
+* `requestID` - Identifiant de la requête
+
+Cependant, ces entrées ont des **valeurs de `_id` différentes**, qui est l’indicateur clé qui distingue ce scénario de la duplication réelle des données.
+
+### Qu’est-ce qui provoque ce comportement ?
+
+Cela se produit en raison des opérations de mise à l’échelle automatique du serveur principal (également appelées « rééquilibrage ») dans l’architecture des microservices de Adobe Journey Optimizer. Pendant les périodes de forte charge ou d’optimisation du système :
+
+1. Un événement d’étape de parcours commence le traitement et est consigné dans le jeu de données Événements d’étape de Parcours .
+2. Une opération de mise à l’échelle automatique redistribue la charge de travail entre les instances de service
+3. Le même événement peut être retraité par une autre instance de service, créant ainsi une seconde entrée de journal avec une `_id` différente
+
+Il s’agit d’un comportement système attendu qui **fonctionne comme prévu**.
+
+### Y a-t-il un impact sur l&#39;exécution du parcours ou la diffusion des messages ?
+
+**Non.** L’impact se limite à la journalisation uniquement. Adobe Journey Optimizer dispose de mécanismes de déduplication intégrés au niveau de la couche d’exécution des messages qui garantissent :
+
+* Un seul message (email, SMS, notification push, etc.) est envoyé à chaque profil
+* Les actions sont exécutées une seule fois
+* L’exécution du parcours se déroule correctement
+
+Vous pouvez le vérifier en interrogeant les `ajo_message_feedback_event_dataset` ou en vérifiant les journaux d’exécution d’action. Vous verrez qu’un seul message a été réellement envoyé, malgré les entrées d’événement d’étape de parcours en double.
+
+### Comment puis-je identifier ces cas dans mes requêtes ?
+
+Lors de l’analyse des données d’événements d’étape de Parcours :
+
+1. **Vérifiez le champ `_id`** : les vrais doublons au niveau du système auraient le même `_id`. Des valeurs de `_id` différentes indiquent des entrées de journal distinctes du scénario de rééquilibrage décrit ci-dessus.
+
+2. **Vérifier la diffusion du message** : effectuez une référence croisée avec les données des commentaires du message pour confirmer qu’un seul message a été envoyé :
+
+   ```sql
+   SELECT
+     timestamp,
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+   FROM ajo_message_feedback_event_dataset
+   WHERE
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journeyVersionID>'
+     AND TO_JSON(identityMap) like '%<profileID>%'
+   ORDER BY timestamp DESC;
+   ```
+
+3. **Regrouper par identifiants uniques** : lors du comptage des exécutions, utilisez `_id` pour obtenir des décomptes précis :
+
+   ```sql
+   SELECT
+     COUNT(DISTINCT _id) as unique_executions
+   FROM journey_step_events
+   WHERE
+     _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+     AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
+   ```
+
+### Que dois-je faire si j&#39;observe ceci ?
+
+Il s’agit d’un comportement normal du système et **aucune action n’est requise**. La journalisation en double n’indique aucun problème au niveau de la configuration du parcours ou de la diffusion des messages.
+
+Si vous créez des rapports ou des analyses en fonction d’événements d’étape de Parcours :
+
+* Utiliser `_id` comme clé primaire pour compter les événements uniques
+* Référencement croisé avec les jeux de données de commentaires des messages lors de l’analyse de la diffusion des messages
+* Gardez à l’esprit que l’analyse de minutage peut afficher des entrées en cluster à quelques secondes d’intervalle
+
+Pour plus d’informations sur l’interrogation des événements d’étape de Parcours, voir [Exemples de requêtes](../reports/query-examples.md).

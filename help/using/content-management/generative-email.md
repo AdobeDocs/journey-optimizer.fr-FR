@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 100%
+source-wordcount: '1978'
+ht-degree: 88%
 
 ---
 
@@ -42,7 +42,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA pour affiner un mod
 
 1. Personnalisez votre disposition selon vos besoins et accédez au menu **[!UICONTROL Assistant IA]**.
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   ![Panneau Assistant IA dans Email Designer affichant la sélection de la marque et le champ d’invite](assets/full-email-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
@@ -52,7 +52,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA pour affiner un mod
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![](assets/full-email-2.png){zoomable="yes"}
+   ![Champ d’invite avec bouton Bibliothèque d’invite affichant les suggestions d’invite préécrites](assets/full-email-2.png){zoomable="yes"}
 
 1. Vous pouvez activer les options **[!UICONTROL Objet]** et **[!UICONTROL Pré-en-tête]** pour les inclure à la génération des variantes.
 
@@ -62,7 +62,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA pour affiner un mod
    * **[!UICONTROL Langues]** : sélectionnez la langue du contenu généré.
    * **[!UICONTROL Ton]** : le ton de votre page web doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’Assistant IA peut adapter le message en conséquence.
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![Panneau Paramètres de texte présentant la stratégie de communication, les langues et les options de ton](assets/full-email-4.png){zoomable="yes"}
 
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
@@ -72,13 +72,13 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA pour affiner un mod
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![Panneau Paramètres d’image affichant les options Type de contenu, Intensité visuelle, Couleur et ton, Éclairage et Composition](assets/full-email-6.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![Section Ressources de marque avec le bouton Charger la ressource de marque et la liste des ressources précédemment chargées](assets/full-email-3.png){zoomable="yes"}
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
@@ -88,7 +88,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA pour affiner un mod
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![](assets/full-email-7.png){zoomable="yes"}
+   ![Panneau Score d’alignement de la marque présentant le score en pourcentage avec des mesures d’alignement détaillées](assets/full-email-7.png){zoomable="yes"}
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -98,7 +98,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA pour affiner un mod
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![Affiner le menu affichant Reformuler et Utiliser des options linguistiques plus simples avec les listes déroulantes Tonalité et Stratégie de communication](assets/full-email-5.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
@@ -120,7 +120,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA afin d’améliorer
 
 1. Sélectionnez un **[!UICONTROL composant de texte]** pour cibler uniquement un contenu spécifique. Accédez au menu **[!UICONTROL Assistant IA]**.
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![Email Designer avec composant Texte sélectionné et menu Assistant IA ouvert dans le panneau de droite](assets/text-genai-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
@@ -130,7 +130,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA afin d’améliorer
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![Panneau de génération de texte de l’assistant AI avec champ d’invite, sélecteur de marque et accès à la bibliothèque d’invites](assets/text-genai-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
@@ -139,13 +139,13 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA afin d’améliorer
    * **[!UICONTROL Ton]** : le ton de votre page web doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’Assistant IA peut adapter le message en conséquence.
    * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![Les paramètres de texte ont été développés, affichant les contrôles Stratégie de communication, Langues, Ton et Curseur de longueur du texte](assets/text-genai-4.png){zoomable="yes"}
 
 1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![Menu déroulant Ressources de marque affichant les bascules pour les ressources de marque précédemment chargées](assets/text-genai-3.png){zoomable="yes"}
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
@@ -157,7 +157,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA afin d’améliorer
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![](assets/text-genai-6.png){zoomable="yes"}
+   ![Variations de texte générées avec l’indicateur de pourcentage de score d’alignement des marques et les options de prévisualisation](assets/text-genai-6.png){zoomable="yes"}
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -173,7 +173,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA afin d’améliorer
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![Menu Affiner les options affichant les boutons Développer, Résumer, Reformuler et Utiliser une langue plus simple avec le menu déroulant Ton](assets/text-genai-5.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
@@ -197,7 +197,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![Email Designer avec ressource image sélectionnée et panneau Assistant IA ouvert pour la génération d’images](assets/image-genai-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Style de référence]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
@@ -207,7 +207,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![Panneau de génération d’images de l’assistant AI avec bouton bascule Style de référence, sélecteur de marque et champ d’invite](assets/image-genai-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres des images]** :
 
@@ -218,9 +218,9 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![Panneau Paramètres d’image avec les commandes Format, Type de contenu, Intensité visuelle, Couleur et ton, Éclairage et Composition](assets/image-genai-4.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
@@ -247,7 +247,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
    * **[!UICONTROL Enregistrer]** : permet de stocker les ressources en vue d’un accès ultérieur.
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
+   ![Affiner les options pour les images générées en affichant les boutons Générer de manière similaire, Modifier dans Adobe Express et Enregistrer](assets/image-genai-5.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 

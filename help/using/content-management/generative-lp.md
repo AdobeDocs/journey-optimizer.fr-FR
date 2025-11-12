@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 100%
+source-wordcount: '1887'
+ht-degree: 87%
 
 ---
 
@@ -42,7 +42,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un 
 
 1. Personnalisez votre disposition selon vos besoins et accédez au menu **[!UICONTROL Assistant IA]**.
 
-   ![](assets/lp-full-gen-1.png){zoomable="yes"}
+   ![Ouverture du concepteur de page de destination avec panneau Assistant IA pour la génération de contenu de page entière](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
@@ -50,7 +50,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un 
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui propose un large éventail d’idées de prompts pour améliorer votre page de destination.
 
-   ![](assets/lp-full-gen-2.png){zoomable="yes"}
+   ![Assistant AI pour la page de destination avec champ d’invite et accès à la bibliothèque d’invite pour la génération de pages complètes](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
@@ -58,7 +58,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un 
    * **[!UICONTROL Langues]** : sélectionnez la langue du contenu généré.
    * **[!UICONTROL Ton]** : le ton de votre page de destination doit correspondre à votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’Assistant IA peut adapter le message en conséquence.
 
-   ![](assets/lp-full-gen-3.png){zoomable="yes"}
+   ![Panneau Paramètres de texte de la page de destination affichant la stratégie de communication, les langues et les options de ton](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
@@ -68,9 +68,9 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un 
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![](assets/lp-full-gen-4.png){zoomable="yes"}
+   ![Panneau Paramètres d’image pour la page de destination avec le type de contenu, l’intensité visuelle, la couleur et le ton, l’éclairage et la composition](assets/lp-full-gen-4.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
@@ -84,7 +84,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un 
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
+   ![Variations de page de destination générées avec l’indicateur de pourcentage de score d’alignement des marques et les contrôles de prévisualisation](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -94,7 +94,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un 
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![](assets/lp-full-gen-6.png){zoomable="yes"}
+   ![Affiner le menu de la page de destination en affichant la reformulation, Utiliser un langage plus simple avec les listes déroulantes Stratégie de ton et de communication](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
@@ -114,7 +114,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour améliorer 
 
 1. Sélectionnez un **[!UICONTROL composant de texte]** pour cibler uniquement un contenu spécifique. Accédez au menu **[!UICONTROL Assistant IA]**.
 
-   ![](assets/lp-text-gen-1.png){zoomable="yes"}
+   ![Concepteur de page de destination avec composant Texte sélectionné et panneau Assistant IA pour la génération de texte](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
@@ -122,7 +122,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour améliorer 
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui propose un large éventail d’idées de prompts pour améliorer vos pages de destination.
 
-   ![](assets/lp-text-gen-2.png){zoomable="yes"}
+   ![Génération de texte de l’assistant AI pour la page de destination avec le champ Invite et le bouton Bibliothèque d’invites](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
@@ -131,7 +131,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour améliorer 
    * **[!UICONTROL Ton]** : le ton de votre page de destination doit correspondre à votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’Assistant IA peut adapter le message en conséquence.
    * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
-   ![](assets/lp-text-gen-3.png){zoomable="yes"}
+   ![Paramètres de texte pour la page de destination avec le curseur Stratégie de communication, Langues, Ton et Longueur du texte](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
@@ -148,7 +148,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour améliorer 
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
+   ![Variations de texte de page de destination générées avec le pourcentage de score d’alignement des marques et les options de sélection](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -164,7 +164,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour améliorer 
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![](assets/lp-text-gen-5.png){zoomable="yes"}
+   ![Affiner le menu pour le texte de la page de destination en affichant : développer, résumer, reformuler, utiliser un langage plus simple avec la liste déroulante Ton](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
@@ -186,7 +186,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
-   ![](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![Concepteur de page de destination avec ressource d’image sélectionnée et panneau Assistant IA ouvert pour la génération d’images](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Style de référence]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
@@ -194,7 +194,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui propose un large éventail d’idées de prompts pour améliorer vos pages de destination.
 
-   ![](assets/lp-image-gen-2.png){zoomable="yes"}
+   ![Génération d’images de l’assistant AI pour la page de destination avec le bouton bascule Style de référence, le champ Invite et la bibliothèque d’invites](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres des images]** :
 
@@ -205,9 +205,9 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![Paramètres d’image pour la page de destination avec le format, le type de contenu, l’intensité visuelle, la couleur et le ton, l’éclairage et la composition](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
@@ -221,7 +221,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![Variantes d’image de page de destination générées avec pourcentage de score d’alignement des marques et contrôles de prévisualisation](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -232,7 +232,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
    * **[!UICONTROL Enregistrer]** : permet de stocker les ressources en vue d’un accès ultérieur.
 
-   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+   ![Affiner les options des images de page de destination en affichant les boutons Générer un similaire, Modifier dans Adobe Express et Enregistrer](assets/lp-image-gen-5.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
