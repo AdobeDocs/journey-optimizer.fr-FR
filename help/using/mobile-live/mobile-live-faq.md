@@ -67,7 +67,7 @@ Non. Les activités en direct peuvent être démarrées, mises à jour et termin
 
 +++Pendant combien de temps une activité en direct peut-elle rester active ?
 
-Apple limite les activités en direct à **8 heures de mises à jour actives**. Ensuite, le système met automatiquement fin à l’activité, bien qu’elle puisse rester visible dans un état statique pendant 12 heures supplémentaires au maximum **** avant d’être supprimée. Vous pouvez également terminer une activité active plus tôt en définissant un `dismissalDate` ou en appelant explicitement `activity.end()` dans votre application.
+Apple limite les activités en direct à **8 heures de mises à jour actives**. Ensuite, le système met automatiquement fin à l’activité, bien qu’elle puisse rester visible dans un état statique pendant 12 heures supplémentaires au maximum **&#x200B;**&#x200B;avant d’être supprimée. Vous pouvez également terminer une activité active plus tôt en définissant un `dismissalDate` ou en appelant explicitement `activity.end()` dans votre application.
 
 +++
 

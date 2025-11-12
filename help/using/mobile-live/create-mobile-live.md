@@ -65,7 +65,7 @@ Après avoir configuré votre configuration mobile et implémenté votre SDK mob
 
    Veillez également à copier les identifiants **[!UICONTROL Identifiant de campagne]** à inclure dans votre payload.
 
-   ➡️ les exigences d’authentification, y compris les jetons OAuth et les clés d’API[ dans la documentation sur les campagnes déclenchées par ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/)API .
+   ➡️ les exigences d’authentification, y compris les jetons OAuth et les clés d’API[&#x200B; dans la documentation sur les campagnes déclenchées par &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/)API .
 
    ![](assets/create-live-3.png)
 
@@ -74,46 +74,46 @@ Après avoir configuré votre configuration mobile et implémenté votre SDK mob
    Notez que la plupart des champs de l’exemple de payload suivant sont obligatoires, seuls `requestId`, `dismissal-date` et `alert` sont facultatifs.
 
         « json 
-       {
+       &lbrace;
        « requestId »: « your-request-id »,
        « campaignId »: « your-campaign-id »,
-        « destinataires » : [
-       {
+        « destinataires » : &lbrack;
+       &lbrace;
        « type » : « aep »,
        « userId »: « testemail@gmail.com »,
        « namespace »: « email »,
-       « context » : {
-       « requestPayload » : {
-        « aps » : {
+       « context » : &lbrace;
+       « requestPayload » : &lbrace;
+        « aps » : &lbrace;
        « content-available » : 1 
        « timestamp » : 1756984054,              // époque actuelle
        « date-de-licenciement » : 1756984084,         // facultatif - suppression automatique lorsque event=« end »
        « event »: « update »,                    // start | mettre à jour | fin 
        
        // Champs de FoodDeliveryLiveActivityAttributes
-       « content-state » : {
+       « content-state » : &lbrace;
        « orderStatus » : « Delivered »
-       } 
+       &rbrace; 
        
        « attributes-type »: « FoodDeliveryLiveActivityAttributes »,
-       « attributes » : {
+       « attributes » : &lbrace;
        « restaurantName » : « Pizza »,
-       « liveActivityData » : {
+       « liveActivityData » : &lbrace;
        « liveActivityID » : « orderId1 »       // ID de référence client
-       }
-       } 
+       &rbrace;
+       &rbrace; 
        
-       « alert » : {
+       « alert » : &lbrace;
        « title » : « Commande remise ! »,
        « body » : « Votre pizza est arrivée. »
-       }
-       }
-       }
-       }
-       }
-       ]
-       }
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrack;
+       &rbrace;
        « 
    +++
 
-Après avoir conçu votre activité dynamique, vous pouvez suivre la mesure de l’impact de votre activité dynamique à l’aide de [ rapports intégrés ](../reports/campaign-global-report-cja-activity.md).
+Après avoir conçu votre activité dynamique, vous pouvez suivre la mesure de l’impact de votre activité dynamique à l’aide de [&#x200B; rapports intégrés &#x200B;](../reports/campaign-global-report-cja-activity.md).
