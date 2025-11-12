@@ -1,0 +1,99 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Configuration du canal d’activité en direct
+description: Découvrez comment configurer votre environnement pour envoyer des activités en direct avec Journey Optimizer
+feature: Channel Configuration
+role: Admin
+level: Intermediate
+hide: true
+hidefromtoc: true
+source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 62%
+
+---
+
+# Prise en main de la configuration des activités en direct {#mobile-live-config}
+
+>[!BEGINSHADEBOX]
+
+* [Prise en main de l’activité Live](get-started-mobile-live.md)
+* **[Configuration de l’activité en direct](mobile-live-configuration.md)**
+* [Intégration d’une activité en direct à Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
+* [Créer une activité Live](create-mobile-live.md)
+* [Questions fréquentes](mobile-live-faq.md)
+* [Rapport de campagne d’activité dynamique](../reports/campaign-global-report-cja-activity.md)
+
+>[!ENDSHADEBOX]
+
+Avant d’envoyer votre activité Live , vous devez configurer votre environnement Adobe Journey Optimizer. Pour ce faire, procédez comme suit :
+
+## Étape 1 : ajouter les informations d’identification push de votre application dans Journey Optimizer (facultatif){#push-credentials-launch}
+
+L’enregistrement des informations d’identification des notifications push de l’application mobile est nécessaire pour autoriser Adobe à envoyer des notifications push en votre nom.
+
+L’étape 1 est facultative si vos informations d’identification push ont déjà été configurées, car elles peuvent être réutilisées pour la configuration du canal d’activité en direct. Si aucune information d’identification n’est définie, vous devez créer des informations d’identification push pour votre application. Reportez-vous aux étapes détaillées ci-dessous :
+
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres push]** > **[!UICONTROL Informations d’identification push]**.
+
+1. Cliquez sur **[!UICONTROL Créer des informations d’identification push]**.
+
+   ![](assets/credential-1.png)
+
+1. Dans la liste déroulante **[!UICONTROL Plateforme]**, sélectionnez Système opérationnel :
+
+1. Saisissez l’**[!UICONTROL ID d’application]** de l’application mobile.
+
+   ![](assets/credential-2.png)
+
+1. Activez l’option **[!UICONTROL Appliquer à tous les sandbox]** pour mettre ces informations d’identification push à disposition dans tous les sandbox. Si un sandbox spécifique possède ses propres informations d’identification pour la même paire d’identifiants de plateforme et d’application, ces informations d’identification spécifiques au sandbox sont prioritaires.
+
+1. Activez le bouton **[!UICONTROL Saisir manuellement les informations d’identification push]** pour ajouter vos informations d’identification.
+
+1. Effectuez un glisser-déposer de votre fichier de clé d’authentification de notification push Apple .p8. Cette clé peut être obtenue à partir de la page **Certificats**, **Identifiants** et **Profils**.
+
+1. Indiquez l&#39;**identifiant de clé**. Il s&#39;agit d&#39;une chaîne de 10 caractères attribuée lors de la création de la clé d&#39;authentification p8. Elle se trouve sous l&#39;onglet **Clés** de la page **Certificats**, **Identifiants** et **Profils**.
+
+1. Indiquez l&#39;**identifiant d&#39;équipe**. Il s&#39;agit d&#39;une valeur de chaîne qui se trouve sous l&#39;onglet Abonnement.
+
+1. Cliquez sur **[!UICONTROL Envoyer]** pour créer votre configuration d’application.
+
+## Étape 2 : créer la configuration de votre activité Live {#config-live-activity}
+
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canal]**. Cliquez sur le bouton **[!UICONTROL Créer une configuration de canal]**.
+
+   ![](assets/config-1.png)
+
+1. Saisissez un nom et une description (facultatif) pour la configuration, puis sélectionnez le canal WhatsApp.
+
+   >[!NOTE]
+   >
+   > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
+
+1. Sélectionnez **[!DNL Live activity]** en tant que canal.
+
+   ![](assets/config-2.png)
+
+1. Sélectionnez une ou plusieurs **[!UICONTROL actions marketing]** pour associer des politiques de consentement aux messages qui utilisent cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. En savoir plus
+
+1. Choisissez iOS comme **[!UICONTROL Platform]**.
+
+1. Dans la liste déroulante, sélectionnez le même **[!UICONTROL ID d’application]** que pour vos [informations d’identification push](#push-credentials-launch) configurées ci-dessus ou choisissez-en un existant.
+
+   ![](assets/config-3.png)
+
+1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer la configuration de canal en tant que brouillon et reprendre son paramétrage ultérieurement.
+
+1. Une fois la configuration de canal créée, elle s’affiche dans la liste avec le statut **[!UICONTROL En cours de traitement]**.
+
+   >[!NOTE]
+   >
+   >Si les vérifications ne réussissent pas, découvrez les raisons possibles de l’échec dans [cette section](../configuration/channel-surfaces.md).
+
+1. Une fois les contrôles réussis, la configuration de canal obtient le statut **[!UICONTROL Actif]**. Elle est prête à être utilisée pour diffuser des messages.
+
+Vous pouvez maintenant commencer l’intégration avec Adobe Experience Platform Mobile SDK pour activer les mises à jour dynamiques en temps réel sur l’écran de verrouillage et l’île dynamique.
+
+➡️ [En savoir plus sur l&#39;intégration de Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)

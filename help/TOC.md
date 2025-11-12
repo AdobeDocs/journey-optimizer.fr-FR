@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 98%
+source-wordcount: '2977'
+ht-degree: 97%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 98%
             + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
             + [Ingérer des données](using/orchestrated/ingest-data.md)
          + [Créer une dimension de ciblage](using/orchestrated/target-dimension.md)
-         + [Configurer une configuration des canaux](using/orchestrated/channel-config.md)
+         + [Configuration d’une configuration de canal](using/orchestrated/channel-config.md)
       + Lancer votre première campagne orchestrée {#launch}
          + [Lancer votre première campagne orchestrée](/help/rp_landing_pages/launch-landing-page.md)
          + [Étapes clés pour créer une campagne orchestrée](using/orchestrated/gs-campaign-creation.md)
@@ -385,6 +385,13 @@ ht-degree: 98%
       + [Configurer le canal LINE dans Journey Optimizer](using/line/line-configuration.md)
       + [Créer un message LINE](using/line/create-line.md)
       + [Vérifier et envoyer des messages LINE](using/line/send-line.md)
+   + Activité en direct {#live-activity}
+      + [Prise en main de l’activité Live](using/mobile-live/get-started-mobile-live.md)
+      + [Créer une activité Live](using/mobile-live/create-mobile-live.md)
+      + [Questions fréquentes](using/mobile-live/mobile-live-faq.md)
+      + Configurer le canal des cartes de contenu {#configure}
+         + [Configuration de l’activité dynamique dans Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
+         + [Configuration de l’intégration de Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gestion de contenu {#content-management}
    + [Gestion de contenu](/help/rp_landing_pages/content-management-landing-page.md)
    + Personnalisation {#personalization}
@@ -542,6 +549,7 @@ ht-degree: 98%
          + [Rapport de campagne par e-mail](using/reports/campaign-global-report-cja-email.md)
          + [Rapport de campagne d’expérimentation](using/reports/campaign-global-report-cja-experimentation.md)
          + [Rapport de campagne in-app](using/reports/campaign-global-report-cja-inapp.md)
+         + [Rapport de campagne d’activité dynamique](using/reports/campaign-global-report-cja-activity.md)
          + [Rapport de campagne de notifications push](using/reports/campaign-global-report-cja-push.md)
          + [Rapport de campagne par SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Rapport de campagne web](using/reports/campaign-global-report-cja-web.md)
@@ -906,7 +914,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
