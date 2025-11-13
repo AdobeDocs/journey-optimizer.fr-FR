@@ -8,10 +8,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 20%
+source-wordcount: '317'
+ht-degree: 23%
 
 ---
 
@@ -42,7 +42,6 @@ Après avoir configuré votre configuration mobile et implémenté votre SDK mob
    >
    > Notez que pour **Transactionnel déclenché par l’API**, l’option **[!UICONTROL Débit élevé]** ne doit pas être activée.
 
-
    ![](assets/create-live-1.png)
 
 1. Dans la section **[!UICONTROL Propriétés]**, modifiez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** de votre campagne.
@@ -65,7 +64,7 @@ Après avoir configuré votre configuration mobile et implémenté votre SDK mob
 
    Veillez également à copier les identifiants **[!UICONTROL Identifiant de campagne]** à inclure dans votre payload.
 
-   ➡️ les exigences d’authentification, y compris les jetons OAuth et les clés d’API[&#x200B; dans la documentation sur les campagnes déclenchées par &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/)API .
+   ➡️ les exigences d’authentification, y compris les jetons OAuth et les clés d’API[ dans la documentation sur les campagnes déclenchées par ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/)API .
 
    ![](assets/create-live-3.png)
 
@@ -73,47 +72,48 @@ Après avoir configuré votre configuration mobile et implémenté votre SDK mob
 
    Notez que la plupart des champs de l’exemple de payload suivant sont obligatoires, seuls `requestId`, `dismissal-date` et `alert` sont facultatifs.
 
-        « json 
-       &lbrace;
-       « requestId »: « your-request-id »,
-       « campaignId »: « your-campaign-id »,
-        « destinataires » : &lbrack;
-       &lbrace;
-       « type » : « aep »,
-       « userId »: « testemail@gmail.com »,
-       « namespace »: « email »,
-       « context » : &lbrace;
-       « requestPayload » : &lbrace;
-        « aps » : &lbrace;
-       « content-available » : 1 
-       « timestamp » : 1756984054,              // époque actuelle
-       « date-de-licenciement » : 1756984084,         // facultatif - suppression automatique lorsque event=« end »
-       « event »: « update »,                    // start | mettre à jour | fin 
-       
-       // Champs de FoodDeliveryLiveActivityAttributes
-       « content-state » : &lbrace;
-       « orderStatus » : « Delivered »
-       &rbrace; 
-       
-       « attributes-type »: « FoodDeliveryLiveActivityAttributes »,
-       « attributes » : &lbrace;
-       « restaurantName » : « Pizza »,
-       « liveActivityData » : &lbrace;
-       « liveActivityID » : « orderId1 »       // ID de référence client
-       &rbrace;
-       &rbrace; 
-       
-       « alert » : &lbrace;
-       « title » : « Commande remise ! »,
-       « body » : « Votre pizza est arrivée. »
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       « 
+   ```json
+   {
+       "requestId": "your-request-id",
+       "campaignId": "your-campaign-id",
+       "recipients": [
+   {
+       "type": "aep",
+       "userId": "testemail@gmail.com",
+       "namespace": "email",
+       "context": {
+        "requestPayload": {
+       "aps": {
+       "content-available": 1,
+       "timestamp": 1756984054,              // current epoch time
+       "dismissal-date": 1756984084,         // optional – auto remove when event="end"
+       "event": "update",                    // start | update | end
+   
+       // Fields from FoodDeliveryLiveActivityAttributes
+       "content-state": {
+         "orderStatus": "Delivered"
+       },
+   
+       "attributes-type": "FoodDeliveryLiveActivityAttributes",
+       "attributes": {
+         "restaurantName": "Pizza",
+         "liveActivityData": {
+           "liveActivityID": "orderId1"       // customer reference ID
+         }
+       },
+   
+       "alert": {
+         "title": "Order Delivered!",
+         "body": "Your pizza has arrived."
+       }
+     }
+   }
+   }
+   }
+   ]
+   }
+   ```
+
    +++
 
-Après avoir conçu votre activité dynamique, vous pouvez suivre la mesure de l’impact de votre activité dynamique à l’aide de [&#x200B; rapports intégrés &#x200B;](../reports/campaign-global-report-cja-activity.md).
+Après avoir conçu votre activité dynamique, vous pouvez suivre la mesure de l’impact de votre activité dynamique à l’aide de [ rapports intégrés ](../reports/campaign-global-report-cja-activity.md).
