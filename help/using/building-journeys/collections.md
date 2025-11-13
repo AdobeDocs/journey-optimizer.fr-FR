@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '767'
+ht-degree: 94%
 
 ---
 
@@ -104,7 +104,7 @@ Vous pouvez voir que `products` est un tableau de deux objets. Vous devez avoir 
 
 1. Dans la section **[!UICONTROL Paramètres d’action]**, collez l’exemple JSON. La structure affichée est statique : lorsque vous collez la payload, tous les champs sont définis comme des constantes.
 
-   ![](assets/uc-collection-1.png)
+   ![Éditeur d’expression présentant les fonctions et opérations de collection](assets/uc-collection-1.png)
 
 1. Si nécessaire, ajustez les types de champs. Les types de champs suivants sont pris en charge pour les collections : listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -120,21 +120,21 @@ Vous pouvez voir que `products` est un tableau de deux objets. Vous devez avoir 
 
 1. Pour chaque champ, définissez le libellé qui sera affiché dans la zone de travail du parcours.
 
-   ![](assets/uc-collection-2.png){width="70%" align="left"}
+   ![Fonction de collecte de filtres avec l’interface du créateur de conditions](assets/uc-collection-2.png){width="70%" align="left"}
 
 1. Créez votre parcours et ajoutez l’action personnalisée que vous avez créée. En savoir plus sur [cette page](../building-journeys/using-custom-actions.md).
 
 1. Dans la section **[!UICONTROL Paramètres d’action]**, définissez le paramètre de tableau (`products` dans notre exemple) à l’aide de l’éditeur d’expression avancé.
 
-   ![](assets/uc-collection-3.png)
+   ![Expression de filtrage des collections avec sélection de champ](assets/uc-collection-3.png)
 
 1. Pour chacun des champs d’objet suivants, saisissez le nom de champ correspondant à partir du schéma XDM source. Si les noms sont identiques, cela n’est pas nécessaire. Dans notre exemple, il nous suffit de définir `product id` et « color ».
 
-   ![](assets/uc-collection-4.png){width="50%" align="left"}
+   ![Fonction de tri des collections avec configuration de tri](assets/uc-collection-4.png){width="50%" align="left"}
 
 Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](functions/list-functions.md#filter) et [intersect](functions/list-functions.md#intersect) :
 
-![](assets/uc-collection-5.png)
+![Complétez l’expression de collection avec les opérations de filtre, de tri et de limite](assets/uc-collection-5.png)
 
 ## Limites {#limitations}
 
@@ -194,7 +194,7 @@ Bien que les collections dans les actions personnalisées offrent la flexibilit�
 
 Pour les types et les tableaux de tableaux hétérogènes, le tableau est défini avec le type listAny. Vous pouvez uniquement mapper des éléments individuels, mais ne pouvez pas modifier le tableau en variable.
 
-![](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![Collecte hétérogène avec types de données mixtes et sélection de champs](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 Exemple de type hétérogène :
 

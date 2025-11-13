@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 96%
+source-wordcount: '569'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 1. Dans la section **Actions** de la palette, faites glisser et déposez une activité de canal dans la zone de travail.
 
-   ![](assets/journey-web-activity.png)
+   ![Activité d’action de canal web dans la zone de travail du parcours ](assets/journey-web-activity.png)
 
 1. Vous pouvez également sélectionner l’activité **[!UICONTROL Action]**, qui permet de sélectionner plusieurs actions entrantes. [En savoir plus](journey-action.md)
 
@@ -139,7 +139,7 @@ Vous pouvez mettre à jour le contenu d’une action de canal intégrée dans un
 
 Pour ce faire, ouvrez votre parcours dynamique, sélectionnez l’activité de canal et cliquez sur **Modifier le contenu**.
 
-![](assets/add-a-message2.png)
+![Liste déroulante Ajouter une activité d’action affichant les options de canal disponibles](assets/add-a-message2.png)
 
 Cependant, vous ne pouvez pas modifier les attributs utilisés dans la personnalisation, qu’il s’agisse d’attributs de profil ou de données contextuelles (à partir des propriétés d’événement ou de parcours).
 

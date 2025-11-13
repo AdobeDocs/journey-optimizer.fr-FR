@@ -10,10 +10,10 @@ level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 100%
+source-wordcount: '1739'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ La **palette** se situe sur la partie gauche de l&#39;écran. Toutes les activit
 
 Lors du démarrage d&#39;un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont masqués. Cela concerne toutes les actions, l&#39;activité de la condition, l&#39;attente et la réaction.
 
-![](assets/journey38.png)
+![interface du concepteur de Parcours avec palette, zone de travail et volet de propriétés](assets/journey38.png)
 
 L&#39;icône **[!UICONTROL Filtrer les éléments]** dans le coin supérieur gauche vous permet d&#39;afficher les filtres suivants :
 
@@ -46,23 +46,23 @@ Vous pouvez également utiliser le champ **[!UICONTROL Rechercher]**. Seuls les 
 
 La **zone de travail** est la zone centrale du concepteur de parcours. C&#39;est là que vous pouvez déposer vos activités et les configurer. Cliquez sur une activité de la zone de travail pour la configurer. Le volet de configuration de l&#39;activité s&#39;ouvre alors sur le côté droit.
 
-![](assets/journey39.png)
+![Zone de travail de Parcours avec le volet de configuration de l&#39;activité ouvert à droite](assets/journey39.png)
 
 La **barre d’outils**, située dans le coin supérieur droit de la zone de travail, vous permet d’afficher ou de masquer la grille, d’effectuer un zoom avant ou arrière et de télécharger une capture d’écran de la zone de travail. Consultez cette [section](../building-journeys/journey-properties.md#timeout_and_error).
 
 <!--and show/hide timeout and error paths-->
 
-![](assets/toolbar.png){width="70%" align="left"}
+Barre d&#39;outils de Parcours ![avec commandes de zoom, grille et capture d&#39;écran](assets/toolbar.png){width="70%" align="left"}
 
 Le **volet de configuration des activités** s&#39;affiche lorsque vous cliquez sur une activité dans la palette. Renseignez les champs obligatoires. Cliquez sur l&#39;icône **[!UICONTROL Supprimer]** pour supprimer l&#39;activité. Cliquez sur **[!UICONTROL Annuler]** pour annuler les modifications ou sur **[!UICONTROL OK]** pour les confirmer. Vous pouvez également supprimer des activités en les sélectionnant, puis en appuyant sur la touche Retour arrière. Appuyez sur la touche d&#39;échappement pour fermer le volet de configuration des activités.
 
 Par défaut, les champs en lecture seule sont masqués. Pour afficher les champs en lecture seule, cliquez sur l&#39;icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration de l&#39;activité. Ce paramètre s&#39;applique à toutes les activités de tous les parcours.
 
-![](assets/journey59bis.png)
+![Volet de configuration des activités avec l&#39;option Afficher les champs en lecture seule](assets/journey59bis.png)
 
 Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, **[!UICONTROL Mode test]**, **[!UICONTROL Gérer l’accès]**, **[!UICONTROL Alertes]**. Ces boutons s&#39;affichent lorsqu&#39;aucune activité n&#39;est sélectionnée. Certains boutons s&#39;affichent en fonction du contexte. Le bouton de journal du mode test s&#39;affiche lorsque le mode test est activé.
 
-![](assets/journey41.png)
+![Boutons d&#39;action de Parcours : Publier, Dupliquer, Supprimer, Mode Test, Gérer l&#39;accès, Alertes](assets/journey41.png)
 
 ## Démarrage de votre parcours {#start-your-journey}
 
@@ -112,7 +112,7 @@ Vous pouvez définir une action de remplacement en cas d’erreur ou de dépasse
 
 Pour ajouter une action de remplacement pour une activité, sélectionnez l’option **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les propriétés de l’activité : un autre chemin est ajouté après l’activité. Le délai d’expiration est défini par les utilisateurs administrateurs dans la variable [Propriétés du parcours](../building-journeys/journey-properties.md). Par exemple, si l&#39;envoi d&#39;un e-mail prend trop de temps ou génère une erreur, vous pouvez décider d&#39;envoyer une notification push.
 
-![](assets/journey42.png)
+![Ajouter un itinéraire alternatif en cas d&#39;option de temporisation ou d&#39;erreur](assets/journey42.png)
 
 Différentes activités (événement, action, attente) peuvent être suivies de plusieurs chemins. Pour ce faire, placez votre curseur sur l&#39;activité en question et cliquez ensuite sur le symbole « + ». Seules les activités d&#39;événement et d&#39;attente peuvent être définies en parallèle. Si plusieurs événements sont définis en parallèle, le chemin choisi est celui du premier événement qui se produit.
 
@@ -120,11 +120,11 @@ Lorsque vous écoutez un événement, nous vous recommandons de ne pas attendre 
 
 Pour supprimer le chemin d&#39;accès, placez votre curseur sur celui-ci et cliquez sur l&#39;icône **[!UICONTROL Supprimer le chemin]**.
 
-![](assets/journey42ter.png)
+![Icône Supprimer le chemin pour supprimer un autre chemin](assets/journey42ter.png)
 
 Dans la zone de travail, un avertissement s&#39;affiche lorsque deux activités sont déconnectées. Placez le curseur sur l&#39;icône d&#39;avertissement pour afficher le message d&#39;erreur. Pour résoudre le problème, il suffit de déplacer l&#39;activité déconnectée et de la relier à l&#39;activité précédente.
 
-![](assets/canvas-disconnected.png)
+![Icône d’avertissement affichant les activités déconnectées dans la zone de travail](assets/canvas-disconnected.png)
 
 ## Copie et collage d’activités {#copy-paste}
 
@@ -143,9 +143,9 @@ Pour copier/coller des activités, procédez comme suit :
 
 1. Ouvrez un parcours.
 1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
-   ![](assets/copy-paste1.png)
+   ![Sélection de plusieurs activités dans le parcours à copier](assets/copy-paste1.png)
 1. Appuyez sur **Ctrl/Commande + C**.
 Si vous ne souhaitez copier qu&#39;une seule activité, vous pouvez cliquer dessus et utiliser l&#39;icône **Copier** en haut à gauche du volet de configuration de l&#39;activité.
-   ![](assets/copy-paste2.png)
+   ![Icône Copier dans le volet de configuration de l&#39;activité](assets/copy-paste2.png)
 1. Dans un parcours quelconque, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
-   ![](assets/copy-paste3.png)
+   ![Activités collées dans la zone de travail du parcours prêtes à être connectées](assets/copy-paste3.png)

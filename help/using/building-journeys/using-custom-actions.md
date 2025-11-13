@@ -10,10 +10,10 @@ level: Intermediate
 keywords: action, personnalisé, API, parcours, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '442'
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ L’URL concaténée se présente comme suit :
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![Configuration d’URL d’action personnalisée avec mappage dynamique des paramètres](assets/journey-custom-action-url.png)
 
 ### En-têtes et paramètres de requête {#headers}
 
@@ -68,7 +68,7 @@ La section **[!UICONTROL Configuration de l’URL]** affiche les champs d’en-t
 
 Pour spécifier la valeur des champs d’en-tête dynamique et de paramètres de requête, cliquez dans le champ ou sur l’icône représentant un crayon et sélectionnez le champ de votre choix.
 
-![](assets/journey-dynamicheaderfield.png)
+![Configuration du champ d’en-tête dynamique dans une action personnalisée](assets/journey-dynamicheaderfield.png)
 
 ## Paramètres d’action
 

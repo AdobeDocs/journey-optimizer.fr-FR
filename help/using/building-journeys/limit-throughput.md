@@ -9,10 +9,10 @@ level: Experienced
 keywords: parcours, sources de données, limite, débit, personnalisé, actions
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 93%
+source-wordcount: '781'
+ht-degree: 91%
 
 ---
 
@@ -49,11 +49,11 @@ Pour les **parcours déclenchés par une audience**, vous pouvez définir le tau
 > Il s’agit du nombre maximum de profils pouvant entrer dans le parcours par seconde. Ce taux s’applique uniquement à cette activité et non aux autres activités du parcours. [En savoir plus](../building-journeys/read-audience.md)
 
 
-![](assets/limit-throughput-1.png)
+![Panneau de configuration de débit limité avec paramètres de limitation de débit](assets/limit-throughput-1.png)
 
 Vous pouvez modifier cette valeur de 500 à 20 000 instances par seconde. Si vous devez descendre en dessous de 500/s, vous pouvez également ajouter des conditions de « partage en pourcentage » avec des activités d’attente pour fractionner votre parcours en plusieurs branches et les faire s’exécuter à un moment spécifique.
 
-![](assets/limit-throughput-2.png)
+![Parcours avec activité de débit limitée contrôlant le taux de diffusion des messages](assets/limit-throughput-2.png)
 
 Prenons l’exemple d’un **parcours déclenché par une audience** s’exécutant avec une population de **10 000 profils** et envoyant des données à un système externe prenant en charge **100 requêtes/seconde**.
 

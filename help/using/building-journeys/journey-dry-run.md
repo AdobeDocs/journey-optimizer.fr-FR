@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ Lors du test à blanc, le parcours s’exécute en mode simulation, en appliquan
 
 * Les **sources de données**, y compris les sources de données externes, et les activités **Attente** sont désactivées par défaut pendant le test à blanc. Vous pouvez toutefois modifier ce comportement [lors de l’activation du mode Test à blanc](#journey-dry-run-start).
 
-* Les nœuds **Réaction** ne sont pas exécutés : tous les profils qui y accèdent les quittent. Toutefois, les règles de priorité suivantes s’appliquent :
+* Les nœuds **Réaction** ne sont pas exécutés : tous les profils qui y accèdent les quittent. Toutefois, les règles de priorité suivantes s’appliquent :
    * Si un nœud **Réaction** est utilisé avec un ou plusieurs nœuds d’**événement unitaire** en parallèle, les profils passeront toujours par l’événement de réaction.
    * Si un nœud **Réaction** est utilisé avec un ou plusieurs nœuds d’**événement de réaction** en parallèle, les profils passeront toujours par le premier dans la zone de travail (celui en haut).
 
@@ -77,7 +77,7 @@ Vous pouvez utiliser la fonctionnalité Test à blanc dans n’importe quel brou
 Pour activer le test à blanc, procédez comme suit :
 
 1. Ouvrez le parcours que vous souhaitez tester.
-1. Cliquez sur le bouton **Test à blanc**.
+1. Cliquez sur le bouton **[!UICONTROL Test à blanc]**.
 
    ![Démarrer le test à blanc du parcours](assets/dry-run-button.png)
 
@@ -85,9 +85,9 @@ Pour activer le test à blanc, procédez comme suit :
 
    ![Confirmer la publication du test à blanc du parcours](assets/dry-run-publish.png){width="50%" align="left"}
 
-   Un message de statut, **Activation du test à blanc**, s’affiche pendant que la transition est en cours.
+   Un message de statut, **[!UICONTROL Activation du test à blanc]**, s’affiche pendant que la transition est en cours.
 
-1. Une fois activé, le parcours passe en mode **Test à blanc**.
+1. Une fois activé, le parcours passe en mode **[!UICONTROL Test à blanc]**.
 
 
 ## Surveiller un test à blanc {#journey-dry-monitor}
@@ -109,17 +109,17 @@ Vous pouvez également accéder aux **Rapports sur les dernières 24 heures** e
 
 ## Arrêter un test à blanc {#journey-dry-run-stop}
 
-Après 14 jours, les parcours de test à blanc passent automatiquement au statut **Brouillon**.
+Après 14 jours, les parcours de test à blanc passent automatiquement au statut **[!UICONTROL Brouillon]**.
 
 Les parcours de test à blanc peuvent également être arrêtés manuellement. Pour désactiver le mode Test à blanc, procédez comme suit :
 
 1. Ouvrez le parcours de test à blanc à arrêter.
-1. Sélectionnez le bouton **Fermer** pour terminer le test.
+1. Sélectionnez le bouton **[!UICONTROL Fermer]** pour terminer le test.
 Les liens vers les rapports des 24 dernières heures ou de la durée entière sont disponibles dans l’écran de confirmation.
 
    ![Arrêter l’exécution du test à blanc du parcours](assets/dry-run-stop.png){width="50%" align="left"}
 
-1. Cliquez sur **Retour au brouillon** pour confirmer.
+1. Cliquez sur **[!UICONTROL Retour au brouillon]** pour confirmer.
 
 
 ## Mécanismes de sécurisation et limitations {#journey-dry-run-limitations}
@@ -143,10 +143,10 @@ Le test à blanc de parcours génère des **événements d’étape**. Ces évé
 
 Si vous exportez des données d’événement d’étape vers des **systèmes externes**, vous pouvez filtrer les exécutions de test à blanc à l’aide de l’indicateur `inDryRun`.
 
-Lors de l’analyse des **mesures de rapports de parcours** à l’aide du service de requête Adobe Experience Platform, les événements d’étape générés par le test à blanc doivent être exclus. Pour ce faire, définissez l’indicateur `inDryRun` sur `false`.
+Lors de l’analyse de **mesures de rapports de parcours** à l’aide de Adobe Experience Platform Query Service, les événements d’étape générés par l’exécution d’essai doivent être exclus. Pour ce faire, définissez l’indicateur `inDryRun` sur `false`.
 
 ## Vidéo pratique {#dry-run-video}
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464684/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

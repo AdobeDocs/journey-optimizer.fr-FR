@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 96%
 
 ---
 
@@ -63,7 +63,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Recherche de jeu de données]** dans votre zone de travail.
 
-   ![](assets/aep-data-activity.png)
+   ![Activité de recherche de jeu de données Adobe Experience Platform dans le parcours ](assets/aep-data-activity.png)
 
 1. Ajoutez un libellé et une description.
 
@@ -81,7 +81,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
    +++Exemple
 
-   ![](assets/aep-data-leaf-primitive.png)
+   ![Sélection de champ de jeu de données présentant les types de données et la structure primitifs](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -93,7 +93,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
    +++Exemple
 
-   ![](assets/aep-data-strings.png)
+   ![Éditeur d’expression avec fonctions de recherche de champ de jeu de données et de chaîne](assets/aep-data-strings.png)
 
    +++
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 94%
 
 ---
 
@@ -48,13 +48,13 @@ En outre, la configuration d’activité **Mettre à jour le profil** ne nécess
 
 1. Dans la section **Action** de la palette, déposez l&#39;activité **Mettre à jour le profil** sur la zone de travail.
 
-   ![](assets/profileupdate0.png)
+   ![Activité Mettre à jour le profil dans la palette du parcours sous Actions](assets/profileupdate0.png)
 
 1. Sélectionnez un schéma dans la liste.
 
 1. Cliquez sur **Champ** pour sélectionner le champ à mettre à jour. Vous ne pouvez sélectionner qu&#39;un seul champ.
 
-   ![](assets/profileupdate2.png)
+   ![Panneau de configuration de la mise à jour du profil avec le menu déroulant de sélection de champ](assets/profileupdate2.png)
 
 1. Sélectionnez un jeu de données dans la liste.
 
@@ -66,15 +66,15 @@ En outre, la configuration d’activité **Mettre à jour le profil** ne nécess
 
    * L&#39;éditeur d&#39;expression simple vous permet de sélectionner un champ à partir d&#39;une source de données ou de l&#39;événement entrant.
 
-     ![](assets/profileupdate4.png)
+     ![ Sélecteur de champ de mode simple pour les mises à jour d’attributs de profil](assets/profileupdate4.png)
 
    * Si vous souhaitez définir une valeur spécifique ou utiliser des fonctions avancées, cliquez sur **Mode avancé**.
 
-     ![](assets/profileupdate3.png)
+     ![Éditeur d’expression de mode avancé pour les mises à jour de profil complexes](assets/profileupdate3.png)
 
 L’action **Mettre à jour un profil** est maintenant configurée.
 
-![](assets/profileupdate1.png)
+![Activité de mise à jour du profil dans le parcours avec la configuration des champs](assets/profileupdate1.png)
 
 
 ## Utilisation du mode test {#using-the-test-mode}

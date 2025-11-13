@@ -11,10 +11,10 @@ keywords: activité, condition, zone de travail, parcours, optimisation
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 100%
+source-wordcount: '1636'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ Avec l’activité **Optimiser**, vous pouvez effectuer les actions suivantes su
 * utiliser des règles de [ciblage](#targeting) dans chaque chemin de parcours ;
 * appliquer des [conditions](#conditions) à vos chemins.
 
-![](assets/journey-optimize.png)
+![Bouton Optimiser dans la palette d’activités du parcours ](assets/journey-optimize.png)
 
 Une fois le parcours actif, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont envoyés vers le chemin approprié du parcours.
 
@@ -71,13 +71,13 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 1. Sélectionnez **[!UICONTROL Expérience]** dans la liste déroulante **[!UICONTROL Méthode]**.
 
-   ![](assets/journey-optimize-experiment.png){width=65%}
+   ![ Panneau de configuration de l’expérience de contenu ](assets/journey-optimize-experiment.png){width=65%}
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]**.
 
 1. Sélectionnez les **[!UICONTROL mesures de succès]** que vous souhaitez définir pour votre expérience. En savoir plus sur les mesures disponibles et sur la configuration de la liste dans [cette section](success-metrics.md).
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![Sélection de Principal et de mesures supplémentaires pour l’expérience](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. Vous pouvez ajouter un groupe d’**[!UICONTROL exclusion]** à votre diffusion. Ce groupe ne rejoindra aucun chemin de cette expérience.
 
@@ -91,7 +91,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 1. Vous pouvez ensuite choisir d’attribuer un pourcentage précis à chaque **[!UICONTROL Traitement]** ou simplement ou simplement activer le bouton (bascule) **[!UICONTROL Répartir proportionnellement]**.
 
-   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![Curseur d’affectation de traitement avec distribution en pourcentage](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -103,17 +103,17 @@ Supposons que vous souhaitiez comparer trois chemins :
 
    * Effectuez un glisser-déposer d’une activité [E-mail](../email/create-email.md) sur la troisième branche, suivie d’une activité [SMS](../sms/create-sms.md) (**Traitement C**).
 
-   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![Exemple d’expérience de contenu avec trois chemins de traitement](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. Vous pouvez éventuellement utiliser l’option **[!UICONTROL Ajouter un chemin alternatif en cas de temporisation ou d’erreur]** pour définir une action de remplacement. [En savoir plus](using-the-journey-designer.md#paths)
 
 1. Sélectionnez une action de canal et utilisez le bouton **[!UICONTROL Modifier le contenu]** pour accéder aux outils de conception.
 
-   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![Bouton Modifier le contenu dans l’activité d’action de canal](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. À partir de là, dans le volet de gauche, vous pouvez naviguer entre les différents contenus de chaque action de votre expérience. Sélectionnez chaque contenu et personnalisez-le selon vos besoins.
 
-   ![](assets/journey-optimize-experiment-content.png){width=100%}
+   ![Panneau de sélection de contenu affichant les traitements pour l’expérience](assets/journey-optimize-experiment-content.png){width=100%}
 
 1. [Publiez](publish-journey.md) votre parcours.
 
@@ -131,7 +131,7 @@ Testez si l’envoi du premier message par e-mail plutôt que par SMS génère u
 
 ➡️ Utilisez le taux de conversion comme mesure de succès (par exemple : achats, inscriptions).
 
-![](assets/journey-optimize-experiment-uc-channel.png)
+![Expérience sur l’efficacité des canaux comparant les e-mails aux SMS](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +141,7 @@ Exécutez une expérience pour vérifier si l’envoi d’un e-mail plutôt que 
 
 ➡️ Utilisez les achats ou le taux de désabonnement comme mesure de succès.
 
-![](assets/journey-optimize-experiment-uc-frequency.png)
+![Expérience de fréquence des messages testant un e-mail par rapport à trois e-mails](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +151,7 @@ Comparez une attente de 24 heures à une attente de 72 heures avant une relanc
 
 ➡️ Utilisez le taux de clics ou le chiffre d’affaires comme mesure de succès.
 
-![](assets/journey-optimize-experiment-uc-wait.png)
+![Expérience sur le temps d’attente comparant des retards de 24 heures à des retards de 72 heures](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,21 +182,21 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
 1. Sélectionnez **[!UICONTROL Règle de ciblage]** dans la liste déroulante **[!UICONTROL Méthode]**.
 
-   ![](assets/journey-optimize-targeting.png){width=60%}
+   ![Sélection de règle de ciblage dans l’activité d’optimisation](assets/journey-optimize-targeting.png){width=60%}
 
 1. Cliquez sur **[!UICONTROL Créer une règle de ciblage]**.
 
 1. Cliquez sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Créer]** et utilisez le créateur de règles pour définir vos critères.
 
-   ![](assets/journey-targeting-create-rule.png){width=100%}
+   ![Interface du créateur de règles pour la création de critères de ciblage](assets/journey-targeting-create-rule.png){width=100%}
 
    Par exemple, définissez une règle pour les membres Gold du programme de fidélité (`loyalty.status.equals("Gold", false)`) et une règle pour les autres membres (`loyalty.status.notEqualTo("Gold", false)`).
 
-   ![](assets/journey-targeting-rule.png)
+   ![Règle de ciblage du statut de fidélité pour les membres Gold et non Gold](assets/journey-targeting-rule.png)
 
 1. Vous pouvez également cliquer sur **[!UICONTROL Créer une règle]** > **[!UICONTROL Sélectionner une règle]** pour sélectionner une règle de ciblage existante créée à partir du menu **[!UICONTROL Règles]**. [En savoir plus](../experience-decisioning/rules.md)
 
-   ![](assets/journey-targeting-select-rule.png){width=70%}
+   ![Sélectionnez une règle de ciblage existante dans le menu Règles](assets/journey-targeting-select-rule.png){width=70%}
 
    Dans ce cas, la formule qui constitue la règle est simplement copiée dans l’activité de parcours. Toute modification ultérieure apportée à cette règle à partir du menu **[!UICONTROL Règles]** n’aura aucune incidence sur la copie du parcours.
 
@@ -208,7 +208,7 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
 1. Après avoir ajouté une règle, vous pouvez toujours la modifier. Choisissez **[!UICONTROL Modifier directement]** pour effectuer la mise à jour directement à l’aide du créateur de règles, ou **[!UICONTROL Sélectionner une règle]** pour sélectionner une autre règle.
 
-   ![](assets/journey-targeting-modify-rule.png){width=100%}
+   ![Modifier les options de règle intégrées ou Sélectionner une règle pour modifier les règles de ciblage](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,17 +224,17 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
 1. De retour dans le parcours, déposez des actions spécifiques pour personnaliser chaque chemin. Par exemple, créez un e-mail contenant des offres personnalisées pour les membres du programme de fidélité Gold et un rappel SMS pour l’ensemble des autres membres.
 
-   ![](assets/journey-targeting-paths.png)
+   ![Chemins de Parcours avec adresse e-mail pour les membres Gold et SMS pour les autres](assets/journey-targeting-paths.png)
 
 1. Si vous avez sélectionné l’option **[!UICONTROL Activer le chemin de remplacement]** lors de la définition des paramètres de la règle, définissez une ou plusieurs actions pour le chemin de remplacement qui a été automatiquement ajouté.
 
-   ![](assets/journey-targeting-fallback.png){width=70%}
+   ![Configuration du chemin de secours pour les profils non qualifiés](assets/journey-targeting-fallback.png){width=70%}
 
 1. Vous pouvez éventuellement utiliser l’option **[!UICONTROL Ajouter un chemin alternatif en cas de temporisation ou d’erreur]** pour définir une autre action en cas de problème. [En savoir plus](using-the-journey-designer.md#paths)
 
 1. Créez un contenu adapté pour chaque action correspondant à chaque groupe défini par les paramètres de règle de ciblage. Vous pouvez naviguer facilement entre les différents contenus de chaque action.
 
-   ![](assets/journey-targeting-design.png)
+   ![Panneau de conception de contenu pour les actions de règle de ciblage](assets/journey-targeting-design.png)
 
    Dans cet exemple, créez un e-mail contenant des offres spéciales pour les membres Gold et un SMS de rappel pour les autres membres.
 
@@ -254,7 +254,7 @@ Les membres Gold peuvent recevoir des offres personnalisées par e-mail, tandis 
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-segment.png)
+![Canaux spécifiques aux segments ciblant les membres Gold avec e-mail et d’autres avec SMS](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +264,7 @@ Les clientes et clients qui ont ouvert un e-mail mais qui n’ont pas cliqué pe
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-behavior.png)
+![Ciblage basé sur le comportement pour l’engagement des e-mails avec une notification push ou un SMS de secours](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,7 +274,7 @@ Les clientes et clients qui ont récemment acheté des produits peuvent choisir 
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-purchase.png)
+![Ciblage de l’historique des achats avec chemin de vente croisée pour les acheteurs et chemin de prospection pour les non-acheteurs](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
@@ -282,7 +282,7 @@ Les clientes et clients qui ont récemment acheté des produits peuvent choisir 
 
 Les conditions sont un type de règles de [ciblage](#targeting) qui permet de définir la progression d’une personne dans un parcours en créant plusieurs chemins selon des critères spécifiques.
 
-![](assets/journey-condition.png)
+![Activité de condition dans le parcours créant plusieurs chemins en fonction de critères](assets/journey-condition.png)
 
 Découvrez comment définir une condition dans [cette section](conditions.md).
 

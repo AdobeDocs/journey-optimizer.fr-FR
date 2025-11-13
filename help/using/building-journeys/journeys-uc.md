@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: cas d’utilisation, multicanal, messages, parcours, canal, événements, notification push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Cette section présente un cas d’utilisation qui combine une lecture d’audience, un événement, des événements de réaction et des e-mails/messages push.
 
-![](assets/jo-uc1.png)
+![ Flux de parcours simple avec les activités Lecture d’audience, Attente et E-mail ](assets/jo-uc1.png)
 
 ## Description du cas d’utilisation
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur les audiences, [consultez cette page](../audience
 1. Effectuez un glisser-déposer des champs de votre choix à partir du volet de gauche vers l’espace de travail central, puis configurez-les en fonction de vos besoins. Dans cet exemple, utilisez les champs d’attributs **Ville** et **Année de naissance**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/add-attributes.png)
+   ![Panneau Attributs supplémentaires pour la sélection des données d’enrichissement](assets/add-attributes.png)
 
 L’audience est maintenant créée et prête à être utilisée dans votre parcours. Avec l’activité **Lecture d’audience**, toutes les personnes appartenant à l’audience peuvent rejoindre le parcours.
 
@@ -76,7 +76,7 @@ Pour cela, utilisez un [événement basé sur des règles](../event/about-events
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/jo-uc2.png)
+   ![Parcours avec activité Condition ramifié en membres Gold et autres chemins d’accès](assets/jo-uc2.png)
 
 L’événement est maintenant configuré et prêt à être utilisé dans votre parcours. À l’aide de l’activité d’événement correspondante, une action peut être déclenchée à chaque fois qu’un client ou une cliente effectue un achat.
 
@@ -84,11 +84,11 @@ L’événement est maintenant configuré et prêt à être utilisé dans votre 
 
 1. Débutez le parcours avec une activité **Lecture d’audience**. Sélectionnez l’audience que vous venez de créer. Toutes les personnes appartenant à l’audience rejoignent le parcours.
 
-   ![](assets/jo-uc4.png)
+   ![Vérification des conditions météorologiques pour savoir si la température est inférieure à 50 degrés](assets/jo-uc4.png)
 
 1. Déposez une activité d’action **E-mail** et définissez le contenu du « premier message ». Ce message est envoyé à tous individus dans le parcours. Consultez cette [section](../email/create-email.md) pour savoir comment configurer et concevoir un e-mail.
 
-   ![](assets/jo-uc5.png)
+   ![parcours météorologique complet avec conditions de température et actions de messagerie](assets/jo-uc5.png)
 
 1. Ajoutez un événement **Réaction** et sélectionnez **E-mail ouvert**. L’événement est déclenché lorsqu’une personne appartenant à l’audience ouvre l’e-mail.
 

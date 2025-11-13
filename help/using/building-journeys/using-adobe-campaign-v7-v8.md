@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, intégration, campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 95%
 
 ---
 
@@ -36,4 +36,4 @@ Un cas d&#39;utilisation complet est présenté dans cette [section](../building
 1. Dans la section **Action** de la palette, sélectionnez une action Campaign et ajoutez-la à votre parcours.
 1. Dans les **paramètres d’action**, tous les champs attendus dans la payload du message s’affichent. Vous devez faire correspondre chacun de ces champs avec celui que vous souhaitez utiliser, et ce, depuis l’événement ou la source de données. Cette opération est similaire aux actions personnalisées. Reportez-vous à cette [section](../building-journeys/using-custom-actions.md).
 
-![](assets/accintegration2.png)
+![Configuration et paramètres d’intégration des actions Adobe Campaign v7/v8](assets/accintegration2.png)

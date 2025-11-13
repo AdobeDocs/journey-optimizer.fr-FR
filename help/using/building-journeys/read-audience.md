@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2461'
-ht-degree: 99%
+source-wordcount: '2558'
+ht-degree: 95%
 
 ---
 
@@ -60,13 +60,13 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
-   ![](assets/read-segment-selection.png)
+   ![Interface de sélection des audiences affichant les audiences Adobe Experience Platform disponibles](assets/read-segment-selection.png)
 
    Une fois l’audience ajoutée, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![Bouton Copier pour copier le nom et l’identifiant de l’audience au format JSON](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
@@ -165,15 +165,15 @@ Par défaut, le parcours est configuré pour être exécuté une seule fois. Pou
 
 1. Dans les propriétés de l’activité **[!UICONTROL Lecture d’audience]**, sélectionnez **[!UICONTROL Modifier le planning du parcours]**.
 
-   ![](assets/read-segment-schedule.png)
+   ![Bouton Modifier le planning du parcours dans les propriétés de l’activité Lecture d’audience](assets/read-segment-schedule.png)
 
 1. Les propriétés du parcours s’affichent. Dans la liste déroulante **[!UICONTROL Type de planificateur]**, sélectionnez la fréquence d’exécution du parcours.
 
-   ![](assets/read-segment-schedule-list.png)
+   ![Liste déroulante de type Planificateur avec des options de fréquence : une fois, tous les jours, toutes les semaines, tous les mois](assets/read-segment-schedule-list.png)
 
 Pour les parcours récurrents, des options spécifiques sont disponibles pour vous permettre de gérer l’entrée des profils dans le parcours. Développez les sections ci-dessous pour plus d’informations sur chaque option.
 
-![](assets/read-audience-options.png)
+![Options récurrentes de lecture d’audience : lecture incrémentielle, forcer une reprise, déclencher après le lot](assets/read-audience-options.png)
 
 +++**[!UICONTROL Lecture incrémentielle]**
 
@@ -239,13 +239,13 @@ L’activité **[!UICONTROL Lecture d’audience]** vous permet de tester le par
 
 Pour cela, activez le mode test.
 
-![](assets/read-segment-test-mode.png)
+![ Interface du mode test pour l’activité Lecture d’audience avec la sélection du profil de test](assets/read-segment-test-mode.png)
 
 Configurez et exécutez le mode test comme vous le faites habituellement. [Découvrez comment tester un parcours](testing-the-journey.md).
 
 Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les logs]** vous permet d’afficher les résultats du test. Voir à ce propos [cette section](testing-the-journey.md#viewing_logs).
 
-![](assets/read-segment-log.png)
+![Journaux de test affichant les résultats d’exécution de l’audience et le flux de profil](assets/read-segment-log.png)
 
 Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](publish-journey.md)). Les personnes appartenant à l’audience rejoindront le parcours à la date et à l’heure spécifiées dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
 
@@ -273,7 +273,7 @@ La segmentation peut être basée sur :
 * une heure, par exemple : est-ce le matin dans le fuseau horaire de la personne ?
 * un algorithme partageant l’audience circulant dans le parcours en fonction d’un pourcentage, par exemple : 90 à 10 % pour exclure une population témoin
 
-![](assets/read-segment-audience1.png)
+![Activité de condition pour la segmentation de l’audience en chemins VIP et non VIP](assets/read-segment-audience1.png)
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ La même activité **Condition** utilisée pour la segmentation (voir ci-dessus)
 
 Cette exclusion peut se produire juste après la récupération des audiences, à des fins de comptage de population ou sur un parcours à plusieurs étapes.
 
-![](assets/read-segment-audience2.png)
+![Chemin de Parcours avec branche d&#39;exclusion utilisant l&#39;activité Fin](assets/read-segment-audience2.png)
 
 **Union**
 
@@ -295,7 +295,7 @@ Les parcours vous permettent de créer des branches N et de les associer après
 
 Par exemple, après avoir suivi une expérience différente pendant dix jours dans un parcours, les clients et clientes VIP et non VIP peuvent revenir sur le même chemin. Après une union, vous pouvez partager à nouveau l’audience en exécutant une segmentation ou une exclusion.
 
-![](assets/read-segment-audience3.png)
+![chemins de Parcours fusionnant à nouveau après la segmentation à l’aide de l’union](assets/read-segment-audience3.png)
 
 ## Reprises {#read-audience-retry}
 
@@ -307,4 +307,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

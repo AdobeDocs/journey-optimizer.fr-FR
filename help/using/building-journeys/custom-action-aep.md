@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 86%
 
 ---
 
@@ -26,11 +26,11 @@ Ce cas d’utilisation explique comment écrire des événements personnalisés 
 
 1. Dans la section **Informations d’identification**, cliquez sur **OAuth de serveur à serveur**.
 
-   ![](assets/custom-action-aep-1.png)
+   ![Écran de configuration d’une action personnalisée avec menu déroulant du type d’action](assets/custom-action-aep-1.png)
 
 1. Cliquez sur **Afficher la commande cURL**.
 
-   ![](assets/custom-action-aep-2.png)
+   ![Sélection du type d&#39;action Adobe Experience Platform](assets/custom-action-aep-2.png)
 
 1. Copiez la commande cURL et stockez les éléments client_id, client_secret, grant_type et scope.
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. Dans Adobe Experience Platform, cliquez sur **Sources** sous **Connexions** dans le menu de gauche. Sous **API HTTP**, cliquez sur **Ajouter des données**.
 
-   ![](assets/custom-action-aep-3.png)
+   ![Liste déroulante de sélection de sandbox pour Adobe Experience Platform](assets/custom-action-aep-3.png)
 
 1. Sélectionnez **Nouveau compte** et activez l’authentification. Sélectionnez **Se connecter à la source**.
 
-   ![](assets/custom-action-aep-4.png)
+   ![Interface de sélection de jeu de données pour les données en flux continu](assets/custom-action-aep-4.png)
 
 1. Cliquez sur **Suivant** et sélectionnez le jeu de données dans lequel vous souhaitez écrire les données. Cliquez sur **Suivant** et **Terminer**.
 
-   ![](assets/custom-action-aep-5.png)
+   ![ Champs de schéma XDM mappés aux paramètres d’action](assets/custom-action-aep-5.png)
 
 1. Ouvrez le flux de données nouvellement créé. Copiez la payload du schéma et enregistrez-la dans votre notepad.
 
@@ -109,7 +109,7 @@ Pour cet exemple, procédez comme suit :
 
 1. Assurez-vous que les en-têtes (Content-Type, Charset, sandbox-name) sont configurés.
 
-   ![](assets/custom-action-aep-7bis.png)
+   ![Action personnalisée dans la zone de travail de parcours avec le volet de configuration](assets/custom-action-aep-7bis.png)
 
 ### Configurer l’authentification {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ Pour cet exemple, procédez comme suit :
 
 1. Utilisez le bouton **Cliquer pour tester l’authentification** pour tester la connexion.
 
-   ![](assets/custom-action-aep-8.png)
+   ![Interface de mapping des paramètres avec l&#39;éditeur d&#39;expression](assets/custom-action-aep-8.png)
 
 ### Configurer la payload {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ Pour cet exemple, procédez comme suit :
 
 1. Renseignez l’ID de version du parcours, l’ID de nœud, le nom du nœud et d’autres attributs en fonction de votre cas d’utilisation.
 
-   ![](assets/custom-action-aep-9.png)
+   ![Éditeur de mode avancé pour le mappage de champs complexes](assets/custom-action-aep-9.png)

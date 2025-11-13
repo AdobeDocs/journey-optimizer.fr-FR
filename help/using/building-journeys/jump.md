@@ -10,10 +10,10 @@ level: Intermediate
 keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 93%
 
 ---
 
@@ -76,16 +76,16 @@ Dans le parcours B, le premier événement est déclenché en interne via l’a
 
 1. Concevez votre **parcours d’origine**.
 
-   ![](assets/jump1.png)
+   ![Activité Saut dans la palette de parcours pour la transition entre les parcours ](assets/jump1.png)
 
 1. À chaque étape du parcours, ajoutez une activité **[!UICONTROL Saut]**, depuis la catégorie **[!UICONTROL ACTIONS]**. Ajoutez un libellé et une description.
 
-   ![](assets/jump2.png)
+   ![Liste déroulante de sélection du parcours cible dans la configuration de l’activité Saut](assets/jump2.png)
 
 1. Cliquez dans le champ **Parcours cible**.
 La liste contient toutes les versions de parcours en version brouillon, version active ou en mode test. Les parcours qui utilisent un autre espace de noms ou commençant par un événement **Qualification d’audience** ne sont pas disponibles. Les parcours cible qui créeraient un schéma de boucle sont également filtrés.
 
-   ![](assets/jump3.png)
+   ![Activité Saut présentant le parcours cible et les paramètres d’action](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -94,12 +94,12 @@ La liste contient toutes les versions de parcours en version brouillon, version 
 1. Sélectionnez le parcours cible auquel vous souhaitez accéder.
 Le champ **Premier événement** est prérenseigné avec le nom du premier événement du parcours cible. Si votre parcours cible comporte plusieurs événements, le **[!UICONTROL saut]** n’est autorisé que pour le premier.
 
-   ![](assets/jump4.png)
+   ![Configuration du mapping des paramètres pour l&#39;activité Saut avec l&#39;éditeur d&#39;expression](assets/jump4.png)
 
 1. La section **Paramètres d’action** affiche tous les champs de l’événement cible. Mappez chaque champ aux champs de l’événement d’origine ou de la source de données, comme pour les autres types d’actions. Ces informations seront transmises au parcours cible au moment de l’exécution.
 1. Ajoutez les activités suivantes pour terminer le parcours d’origine.
 
-   ![](assets/jump5.png)
+   ![Interface du mode Test pour tester l’activité de saut entre les parcours ](assets/jump5.png)
 
 
    >[!NOTE]
@@ -110,7 +110,7 @@ Votre activité **[!UICONTROL Saut]** est configurée. Dès que votre parcours e
 
 Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, une icône d’entrée **[!UICONTROL Saut]** est automatiquement ajoutée au début du parcours cible. Vous pouvez ainsi identifier que le parcours peut être déclenché depuis l’extérieur mais aussi en interne par le biais d’une activité **[!UICONTROL Saut]**.
 
-![](assets/jump7.png)
+![Flux de Parcours montrant le saut du parcours source vers le parcours cible](assets/jump7.png)
 
 ## Résolution des problèmes {#jump-troubleshoot}
 
@@ -120,4 +120,4 @@ Des erreurs se produisent si :
 * Le parcours cible est une version brouillon, fermé ou arrêté.
 * Le premier événement du parcours cible a changé et le mappage est interrompu.
 
-![](assets/jump6.png)
+![Parcours analytics affichant les mesures d’exécution de l’activité Saut](assets/jump6.png)

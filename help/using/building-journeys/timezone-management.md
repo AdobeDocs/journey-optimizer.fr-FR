@@ -10,10 +10,10 @@ level: Intermediate
 keywords: fuseau horaire, propriétés, parcours, condition, heure, date, personnalisé
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ Le fuseau horaire peut être fixe. Effacez le fuseau horaire prédéfini et sél
 
 Pour cela, dans le volet **[!UICONTROL Propriétés du parcours]**, sélectionnez un fuseau horaire.
 
-![](assets/journey72.png)
+![Liste déroulante de sélection du fuseau horaire dans les propriétés du parcours ](assets/journey72.png)
 
 ## Utiliser le fuseau horaire des profils {#timezone-from-profiles}
 
@@ -60,7 +60,7 @@ Si l’événement d’entrée du parcours comporte un espace de noms, ce qui si
 
 Si un fuseau horaire a été défini pour un profil, il est récupéré et utilisé par le parcours. Dans le cas contraire, le fuseau horaire utilisé sera celui défini dans le champ du fuseau horaire.
 
-![](assets/journey73.png)
+![Configuration du fuseau horaire du profil dans les sources de données pour une durée personnalisée](assets/journey73.png)
 
 >[!NOTE]
 >

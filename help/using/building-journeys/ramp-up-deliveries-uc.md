@@ -12,10 +12,10 @@ hidefromtoc: true
 keywords: délivrabilité, parcours, cas d’utilisation, e-mail, réputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 94%
 
 ---
 
@@ -37,13 +37,13 @@ Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffus
 
    1. Définissez le champ **[!UICONTROL Limite]** sur le nombre maximal de destinataires pour cette diffusion.
 
-   ![](assets/profile-cap-condition.png)
+   ![Configuration des conditions de limite de profil pour contrôler le volume de diffusion](assets/profile-cap-condition.png)
 
    Vous pouvez augmenter progressivement cette limite jusqu’au nombre total dʼabonnés.
 
 1. Ajoutez une activité d’action **[!UICONTROL E-mail]** au chemin nominal après lʼactivité **[!UICONTROL Condition]**.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![Configuration des messages e-mail dans un parcours de diffusion à plusieurs vitesses](assets/ramp-up-deliveries-message.png)
 
    Lors de lʼexécution du parcours, le message est envoyé aux profils entrants, dans la limite du nombre maximal de profils que vous avez spécifié. Lorsque cette limite est atteinte, les profils entrants empruntent lʼautre chemin.
 

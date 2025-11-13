@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, balises
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez iden
 
 Le champ **Balises**, dans les propriétés du parcours, vous permet d’ajouter des balises à votre parcours. Vous pouvez sélectionner une balise existante ou créer une nouvelle balise. Commencez à saisir le nom de la balise souhaitée et sélectionnez-la dans la liste. Si elle n’est pas disponible, cliquez sur **Créer** pour créer une balise et l’ajouter à votre parcours. Vous pouvez définir autant de balises que vous le souhaitez.
 
-![](assets/tags1.png)
+![Panneau Balises dans les propriétés de parcours pour la catégorisation et l’organisation](assets/tags1.png)
 
 La liste des balises définies s’affiche sous le champ **Balises**.
 
@@ -41,11 +41,11 @@ La liste des parcours comporte une colonne dédiée permettant de visualiser fac
 
 Un filtre est également disponible pour afficher uniquement les parcours comportant les balises souhaitées.
 
-![](assets/tags2.png)
+![Liste déroulante de sélection des balises avec les balises disponibles pour la classification de parcours ](assets/tags2.png)
 
 Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcours (actif, brouillon, etc.). Cliquez sur l’icône **Plus d’actions** en regard du parcours, puis sélectionnez **Modifier les balises**.
 
-![](assets/tags3.png)
+![liste de Parcours filtrée par balises affichant les parcours classés](assets/tags3.png)
 
 ## Gérer les balises
 

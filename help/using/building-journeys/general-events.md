@@ -10,10 +10,10 @@ level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 98%
+source-wordcount: '640'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une 
 
 En savoir plus sur le débit d’événement et les taux de traitement des parcours dans [cette section](entry-management.md#journey-processing-rate).
 
-![](assets/general-events.png)
+![Panneau de configuration des événements généraux avec sélection et paramètres d’événement](assets/general-events.png)
 
 Lorsque vous déposez un événement métier, cela ajoute automatiquement une activité **Lecture d’audience**. Pour plus d&#39;informations sur les événements métier, consultez [cette section](../event/about-events.md)
 
@@ -55,7 +55,7 @@ Pour configurer une temporisation d’événement, procédez comme suit :
 
 1. Lorsqu’aucun événement n’est reçu dans le délai d’expiration spécifié, la bonne pratique consiste à envoyer les personnes dans un chemin de temporisation. Pour ce faire, activez l’option **[!UICONTROL Définir un chemin de temporisation]**. Dans ce cas, le parcours se poursuit pour la personne une fois le délai d’expiration atteint. Nous vous recommandons de toujours activer l’option **[!UICONTROL Ajouter un chemin de temporisation]**.
 
-   ![](assets/event-timeout.png)
+   ![Configuration de la temporisation de l’événement avec les options de durée et de chemin de temporisation](assets/event-timeout.png)
 
 Dans cet exemple, le parcours envoie un premier e-mail de bienvenue à un client ou une cliente après son arrivée dans le lobby. Il envoie ensuite un e-mail d’offre de réduction sur un repas seulement si le client ou la cliente entre dans le restaurant le lendemain. Nous avons donc configuré l’événement « restaurant » avec une temporisation d’un jour :
 
@@ -69,4 +69,4 @@ La temporisation définie s’applique à tous les événements postérieurs à 
 * Si un événement est reçu pendant le délai de temporisation, la personne s’engage dans le chemin de l’événement reçu.
 * Si aucun événement n’est reçu pendant le délai de temporisation, la personne s’engage dans la branche de temporisation de l’événement où la temporisation a été définie.
 
-![](assets/event-timeout-group.png)
+![Plusieurs événements avec des configurations de temporisation en parcours ](assets/event-timeout-group.png)

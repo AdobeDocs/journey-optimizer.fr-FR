@@ -10,10 +10,10 @@ level: Intermediate
 keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 99%
+source-wordcount: '1546'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ L’optimisation de l’heure d’envoi n’est disponible que pour les types d�
 
 Utilisez l’optimisation de l’heure d’envoi sur une action e-mail ou push en activant le bouton bascule Optimisation de l’heure d’envoi dans les paramètres d’action.
 
-![](assets/jo-message5.png)
+![Bouton Optimisation de l’heure d’envoi dans la configuration du canal e-mail](assets/jo-message5.png)
 
 L’optimisation de l’heure d’envoi ne doit pas être utilisée pour les messages opérationnels urgents et sensibles au facteur temps, comme une confirmation de commande, une notification de réinitialisation de mot de passe ou une notification de changement de porte d’embarquement. L’optimisation de l’heure d’envoi est davantage destinée aux communications marketing moins urgentes, par exemple, une annonce publicitaire hebdomadaire, des informations promotionnelles sur un nouveau produit ou des informations sur une vente d’un mois.
 
@@ -80,11 +80,11 @@ L’optimisation de l’heure d’envoi effectue des prédictions pour chaque he
 
 Ces prédictions sont pondérées et combinées à l’aide d’une approche bayésienne, ce qui donne lieu à une « carte thermique » pour chaque mesure (ouvertures d’e-mails, clics d’e-mail et ouvertures push), pour chaque personne, qui indique les heures de la semaine où le contact avec cette personne est le plus et le moins susceptible d’entraîner le résultat d’engagement souhaité (ouverture/clic), comme illustré dans l’exemple de carte thermique ci-dessous :
 
-![](assets/heatmap-1.png)
+![Carte thermique de l’engagement indiquant les heures d’envoi optimales des e-mails par jour et par heure](assets/heatmap-1.png)
 
 Si une personne ayant les probabilités prédites ci-dessus est ciblée pour un message à 9 h mercredi avec l’optimisation de l’heure d’envoi activée et une durée d’attente maximale de 7 heures, l’heure d’envoi sélectionnée pour le message sera 12 h :
 
-![](assets/heatmap-2.png)
+![Carte thermique de l’engagement avec des données d’optimisation détaillées heure par heure](assets/heatmap-2.png)
 
 ## Détails de l’entraînement et de la notation du modèle d’optimisation de l’heure d’envoi  {#model-send-time}
 

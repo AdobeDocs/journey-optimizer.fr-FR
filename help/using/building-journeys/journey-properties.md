@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2748'
-ht-degree: 99%
+source-wordcount: '2771'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Vous pouvez effectuer les actions suivantes :
 * Définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement).
 * Surveiller les conflits et gérer la priorité des parcours à l’aide des [outils de gestion des conflits](#conflict).
 
-![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+Volet de configuration des propriétés du Parcours ![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"} avec paramètres généraux et options avancées
 
 >[!NOTE]
 >
@@ -285,7 +285,7 @@ Pour **créer** un critère de sortie, procédez comme suit :
 
 1. Ouvrez votre parcours.
 
-1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite de la zone de travail du parcours.
+1. Cliquez sur l’icône ![Afficher les critères de sortie](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite de la zone de travail du parcours.
 
 1. Sélectionnez **[!UICONTROL Ajouter un critère de sortie]**.
 
@@ -296,7 +296,7 @@ Pour **créer** un critère de sortie, procédez comme suit :
 
 Vous pouvez ajouter plusieurs critères de sortie.
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![Panneau Critères de sortie affichant les conditions d’audience pour la terminaison du parcours ](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### Critères de sortie basés sur des attributs de profil {#profile-exit-criteria}

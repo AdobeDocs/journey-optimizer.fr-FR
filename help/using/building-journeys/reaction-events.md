@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, événements, réaction, tracking, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Notez que vous ne pouvez utiliser une activité de réaction dans la zone de tra
 
 Voir [À propos des activités d’action](../building-journeys/about-journey-activities.md#action-activities).
 
-![](assets/journey45.png)
+![Configuration d’événement de réaction avec options de sélection de canal et de type d’événement](assets/journey45.png)
 
 La procédure de configuration des événements de réaction comprend les étapes suivantes :
 

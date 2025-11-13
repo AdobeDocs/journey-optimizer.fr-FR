@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 87%
+source-wordcount: '915'
+ht-degree: 84%
 
 ---
 
@@ -78,7 +78,7 @@ Pour créer un parcours à plusieurs étapes, procédez comme suit :
 
 1. Modifiez le volet de configuration du parcours pour définir le nom du parcours et ses propriétés. Découvrez comment définir les propriétés de votre parcours sur [cette page](journey-properties.md).
 
-   ![](assets/jo-properties.png)
+   Panneau Propriétés du Parcours ![avec paramètres et options de configuration](assets/jo-properties.png)
 
 Vous pouvez ensuite commencer à concevoir votre parcours.
 
@@ -86,11 +86,11 @@ Vous pouvez ensuite commencer à concevoir votre parcours.
 
 Le concepteur de parcours omnicanaux dispose d’une interface intuitive par glisser-déposer, qui vous permet de créer des parcours à plusieurs étapes avec des audiences ciblées, des mises à jour basées sur des interactions client ou commerciale en temps réel et des messages omnicanaux.
 
-![](assets/journey38.png)
+![Interface du concepteur de Parcours avec palette d&#39;activités et zone de travail](assets/journey38.png)
 
 1. Commencez par effectuer un glisser-déposer d’un événement ou d’une activité **Lecture d’audience** de la palette vers la zone de travail. Pour plus d’informations sur la conception d’un parcours, consultez [cette section](using-the-journey-designer.md).
 
-   ![](assets/read-segment.png)
+   ![Configuration de l’activité Lecture d’audience pour sélectionner une audience cible](assets/read-segment.png)
 
 1. Effectuez un glisser-déposer d’un événement ou d’une activité **Lecture d’audience** de la palette vers la zone de travail. Pour plus d’informations sur la conception d’un parcours, consultez [cette section](using-the-journey-designer.md).
 
@@ -104,11 +104,11 @@ Vous pouvez également exécuter votre parcours en mode **test à blanc**. Le te
 
 Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. Pour plus d’informations sur la publication d’un parcours, consultez cette [section](publish-journey.md).
 
-![](assets/jo-journeyuc2_32bis.png)
+![Complétez le flux de parcours avec l’audience, les conditions et les actions](assets/jo-journeyuc2_32bis.png)
 
 Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils de rapports dédiés afin de mesurer l’efficacité de votre parcours.
 
-![](assets/jo-dynamic_report_journey_12.png)
+![Rapport Parcours Analytics présentant les mesures et les statistiques de performances](assets/jo-dynamic_report_journey_12.png)
 
 En savoir plus sur les rapports de parcours dans [cette section](../reports/live-report.md).
 
@@ -120,7 +120,7 @@ En savoir plus sur les rapports de parcours dans [cette section](../reports/live
 * **[Publication de parcours](publish-journey.md)** - Découvrez le processus de publication des parcours et comment gérer les parcours en direct.
 * **[Rapports de Parcours](report-journey.md)** - Suivez et analysez les performances du parcours avec des mesures et des informations détaillées.
 * **[Dépannage des parcours](troubleshooting.md)** - Trouvez des solutions aux problèmes courants du parcours et des bonnes pratiques de débogage.
-* **[Tutoriels sur les Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur la création de parcours et les bonnes pratiques.
+* **[Tutoriels sur les Parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur la création de parcours et les bonnes pratiques.
 
 >[!NOTE]
 >

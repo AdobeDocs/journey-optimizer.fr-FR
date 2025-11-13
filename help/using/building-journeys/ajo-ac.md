@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: parcours, message, campagne, intégration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 79%
 
 ---
 
@@ -40,21 +40,21 @@ Votre instance de Campaign doit être approvisionnée pour cette intégration. L
 
 1. Sous **Administration** > **Plateforme** > **Énumérations**, sélectionnez l&#39;énumération **Type d&#39;événement** (eventType). Créez un type d&#39;événement (« journey-event », dans notre exemple). Utilisez le nom interne du type d’événement lors de l’écriture ultérieure du fichier JSON.
 
-   ![](assets/accintegration-uc-1.png)
+   ![Configurer un événement dans Adobe Journey Optimizer avec la sélection de schémas et de champs](assets/accintegration-uc-1.png)
 
 1. Déconnectez-vous et reconnectez-vous à l’instance pour que la création prenne effet.
 
 1. Sous **Message Center** > **Modèles de messages transactionnels**, créez un modèle d&#39;e-mail basé sur le type d&#39;événement précédemment créé.
 
-   ![](assets/accintegration-uc-2.png)
+   ![Configuration des événements affichant les paramètres d’espace de noms et d’identifiant de profil](assets/accintegration-uc-2.png)
 
 1. Concevez votre modèle. Dans cet exemple, la personnalisation est utilisée sur le prénom et le numéro de commande du profil. Le prénom se trouve dans la source de données Adobe Experience Platform et le numéro de commande est un champ de l’événement Journey Optimizer. Veillez à utiliser les noms de champ corrects dans Campaign.
 
-   ![](assets/accintegration-uc-3.png)
+   ![Aperçu de la payload d’événement affichant la structure JSON avec les données de profil et d’événement](assets/accintegration-uc-3.png)
 
 1. Publiez votre modèle transactionnel.
 
-   ![](assets/accintegration-uc-4.png)
+   ![Bouton Copier l’événement pour copier l’identifiant de payload pour l’intégration de l’API](assets/accintegration-uc-4.png)
 
 1. Écrivez la payload JSON correspondant au modèle.
 
@@ -78,30 +78,30 @@ Votre instance de Campaign doit être approvisionnée pour cette intégration. L
 
 1. Créez un événement. Incluez le champ « purchaseOrderNumber ».
 
-   ![](assets/accintegration-uc-5.png)
+   ![Écran de configuration d’une action personnalisée pour l’intégration de Adobe Campaign Classic](assets/accintegration-uc-5.png)
 
 1. Créez une action dans Journey Optimizer correspondant à votre modèle Campaign. Dans le menu déroulant **Type d’action**, sélectionnez **Adobe Campaign Classic**.
 
-   ![](assets/accintegration-uc-6.png)
+   ![ Sélection du type d’action affichant l’option Adobe Campaign Classic ](assets/accintegration-uc-6.png)
 
 1. Cliquez sur le **champ Payload** et collez le JSON créé précédemment.
 
-   ![](assets/accintegration-uc-7.png)
+   ![Liste déroulante de sélection du compte Campaign pour l’intégration de l’action](assets/accintegration-uc-7.png)
 
 1. Pour l&#39;adresse e-mail et les deux champs de personnalisation, remplacez **Constante** par **Variable**.
 
-   ![](assets/accintegration-uc-8.png)
+   ![Configuration de la payload d’action avec mappage des champs pour l’intégration de Campaign](assets/accintegration-uc-8.png)
 
 1. Créez maintenant un parcours et commencez par l&#39;événement précédemment créé.
 
-   ![](assets/accintegration-uc-9.png)
+   ![Zone de travail de Parcours avec événement et action de campagne configurés](assets/accintegration-uc-9.png)
 
 1. Ajoutez l&#39;action et mappez chaque champ au champ correct dans Journey Optimizer.
 
-   ![](assets/accintegration-uc-10.png)
+   ![Mappage du paramètre d’action avec l’éditeur d’expression pour les valeurs dynamiques](assets/accintegration-uc-10.png)
 
 1. Testez votre parcours.
 
-   ![](assets/accintegration-uc-11.png)
+   ![Compléter le flux de parcours avec le déclencheur d’événement et l’exécution de l’action Campaign](assets/accintegration-uc-11.png)
 
 1. Vous pouvez maintenant publier votre parcours.

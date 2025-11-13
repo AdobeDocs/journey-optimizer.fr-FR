@@ -3,10 +3,10 @@ title: Utiliser des identifiants supplémentaires dans les parcours
 description: Découvrez comment utiliser des identifiants supplémentaires dans les parcours.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 100%
+source-wordcount: '1424'
+ht-degree: 96%
 
 ---
 
@@ -89,7 +89,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours déclenché par un
 
    1. Marquez l’identifiant comme une **[!UICONTROL identité]**.
 
-      ![](assets/supplemental-ID-schema.png)
+      ![Configuration du schéma avec un groupe de champs d’identifiant supplémentaire](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -105,7 +105,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours déclenché par un
 
    1. Dans l’écran de configuration des événements, cochez l’option **[!UICONTROL Utiliser un identifiant supplémentaire]**.
 
-      ![](assets/supplemental-ID-event.png)
+      ![Configuration d’événement avec sélection d’espace de noms d’identifiant supplémentaire](assets/supplemental-ID-event.png)
 
    1. Utilisez l’éditeur d’expression pour sélectionner l’attribut que vous avez marqué comme ID supplémentaire.
 
@@ -119,7 +119,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours déclenché par un
 
    Faites glisser l’événement personnalisé sur la zone de travail de parcours. Cela déclenche l’entrée de parcours en fonction de l’identifiant de profil et de l’identifiant supplémentaire.
 
-   ![](assets/supplemental-ID-journey.png)
+   ![Parcours à l&#39;aide d&#39;un identifiant supplémentaire pour le déclenchement d&#39;événement](assets/supplemental-ID-journey.png)
 
 >[!TAB Parcours de lecture d’audience]
 
@@ -131,7 +131,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’aud
 
    1. Marquez l’identifiant comme une **[!UICONTROL identité]**.
 
-      ![](assets/supplemental-ID-schema-profile.png)
+      ![Schéma de profil avec le champ d’identifiant supplémentaire configuré](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -145,7 +145,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’aud
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
-        ![](assets/supplemental-ID-data-source.png)
+        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
     1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
 
@@ -155,7 +155,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’aud
 
    1. Dans le volet des propriétés de l’activité, activez l’option **[!UICONTROL Utiliser un identifiant supplémentaire]**.
 
-      ![](assets/supplemental-ID-read-audience.png)
+      ![Activité Lecture d’audience avec configuration d’identifiant supplémentaire](assets/supplemental-ID-read-audience.png)
 
    1. Dans le champ **[!UICONTROL Identifiant supplémentaire]**, utilisez l’éditeur d’expression pour sélectionner l’attribut que vous avez marqué comme ID supplémentaire.
 
@@ -171,7 +171,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’aud
 
 Utilisez l’éditeur d’expression et l’éditeur de personnalisation pour référencer les attributs de l’identifiant supplémentaire à des fins de personnalisation ou de logique conditionnelle. Les attributs sont accessibles à partir du menu **[!UICONTROL Attributs contextuels]**.
 
-![](assets/supplemental-ID-perso.png)
+![Éditeur Personalization affichant des champs d&#39;identifiant supplémentaires pour le contenu](assets/supplemental-ID-perso.png)
 
 Pour les parcours déclenchés par un événement, si vous utilisez des tableaux (par exemple, plusieurs ordonnances ou contrats d’assurance), utilisez une formule pour extraire des éléments spécifiques.
 
@@ -246,4 +246,4 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

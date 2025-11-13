@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '482'
+ht-degree: 94%
 
 ---
 
@@ -33,11 +33,11 @@ Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur
 
 * si un champ obligatoire est vide, une erreur s’affiche ;
 
-  ![](assets/journey63.png)
+  ![Erreurs de validation de Parcours affichées dans la zone de travail avec des indicateurs d&#39;erreur](assets/journey63.png)
 
 * dans la zone de travail, un avertissement s’affiche lorsque deux activités sont déconnectées.
 
-  ![](assets/canvas-disconnected.png)
+  ![Icône d’avertissement affichant les activités déconnectées dans la zone de travail du parcours ](assets/canvas-disconnected.png)
 
 ## Erreurs dans le parcours {#canvas-errors}
 
@@ -45,7 +45,7 @@ Les erreurs sont également visibles à partir du bouton **[!UICONTROL Alertes]*
 
 Le système détecte deux types de problèmes : les **erreurs** et les **avertissements**. Les erreurs bloquent la publication et l&#39;activation des tests. Les avertissements indiquent des problèmes potentiels qui ne bloquent pas l&#39;activation ou la publication des tests. Vous verrez une description du problème et un identifiant de journal des problèmes du type ERR_XXX_XXX. Cela peut aider à identifier le problème.
 
-![](assets/journey-error-and-warning.png)
+![Indicateurs d’erreur et d’avertissement dans le parcours avec info-bulles de description](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

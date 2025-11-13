@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 96%
+source-wordcount: '1285'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
 
-   ![](assets/segment5.png)
+   ![Événement de qualification d’audience dans la palette de parcours ](assets/segment5.png)
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
 
@@ -56,13 +56,13 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
    >
    >Vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
-   ![](assets/segment6.png)
+   ![Liste déroulante de sélection de l’audience pour la configuration de l’événement de qualification](assets/segment6.png)
 
    Une fois l’audience ajoutée, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![Bouton Copier pour copier le nom et l’identifiant de l’audience au format JSON](assets/segment-copy.png)
 
 1. Dans le champ **[!UICONTROL Comportement]**, choisissez d’écouter les entrées de l’audience, les sorties ou les deux.
 
@@ -76,7 +76,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
    >
    >Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
 
-   ![](assets/segment7.png)
+   ![Sélection d’un espace de noms pour l’identité de qualification d’audience](assets/segment7.png)
 
 La payload contient les informations contextuelles suivantes, utilisables dans des conditions et des actions :
 
@@ -88,7 +88,7 @@ Lorsque vous utilisez l’éditeur d’expression dans une condition ou une acti
 
 Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
 
-![](assets/segment8.png)
+![Configuration d’entrée et de sortie d’audience dans les paramètres d’événement](assets/segment8.png)
 
 Un nouveau parcours contenant un événement de **qualification d’audience** est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
 
@@ -118,13 +118,13 @@ Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les sy
 
 * N’utilisez pas une audience par lots immédiatement après sa création dans une activité **[!UICONTROL Qualification d’audience]**. Cela permet d’éviter le premier pic de calcul. Un avertissement jaune apparaît dans la zone de travail du parcours si vous êtes sur le point d’utiliser une audience qui n’a jamais été calculée.
 
-  ![](assets/segment-error.png)
+  ![Message d’erreur indiquant que l’audience est introuvable dans Adobe Experience Platform](assets/segment-error.png)
 
 * Mettez en place une règle de capping pour les sources de données et les actions utilisées dans les parcours pour éviter de les surcharger. Pour en savoir plus, consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target="_blank"}. Notez que la règle de capping ne permet pas de nouvelle tentative. Si vous avez besoin d’effectuer une nouvelle tentative, utilisez un autre chemin dans le parcours en cochant la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de dépassement de délai ou d’erreur]** dans les conditions ou les actions.
 
 * Avant d’utiliser l’audience dans un parcours en production, évaluez quotidiennement le nombre de personnes qualifiées pour cette audience. Pour ce faire, accédez au menu **[!UICONTROL Audiences]**, ouvrez l’audience, puis consultez le graphique **[!UICONTROL Profils dans le temps]**.
 
-  ![](assets/segment-overload.png)
+  ![Message d’avertissement lorsque l’audience comporte trop d’événements pour le traitement en temps réel](assets/segment-overload.png)
 
 En savoir plus sur les limites de débit d’entrée dans [cette section](entry-management.md#profile-entrance-rate).
 
@@ -164,4 +164,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

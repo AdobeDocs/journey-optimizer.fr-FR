@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 36c44728172313492898bf3374a37512e4c19789
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 83%
+source-wordcount: '1881'
+ht-degree: 79%
 
 ---
 
@@ -67,11 +67,11 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. Pour activer le mode test, cliquez sur le bouton **[!UICONTROL Mode test]** dans le coin supérieur droit de l’écran.
 
-   ![](assets/journeytest1.png)
+   ![Bouton Mode test dans l’interface de parcours ](assets/journeytest1.png)
 
 1. Si le parcours comporte au moins une activité **Attente**, définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
 
-   ![](assets/journeytest_wait.png)
+   ![Configuration du paramètre de temps d’attente en mode test](assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -79,15 +79,15 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 
-   ![](assets/journeyuctest1.png)
+   ![Bouton Déclencher un événement en mode test](assets/journeyuctest1.png)
 
 1. Configurez les différents champs attendus. Dans le champ **Identifiant de profil**, saisissez la valeur du champ utilisé pour identifier le profil de test. Il peut s’agir, par exemple, de l’adresse e-mail. Veillez à envoyer des événements liés aux profils de test. Consultez [cette section](#firing_events).
 
-   ![](assets/journeyuctest1-bis.png)
+   ![Champs de configuration d’événement avec entrée d’identifiant de profil](assets/journeyuctest1-bis.png)
 
 1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Consultez [cette section](#viewing_logs).
 
-   ![](assets/journeyuctest2.png)
+   ![Afficher le bouton de journal pour afficher les résultats du test](assets/journeyuctest2.png)
 
 1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Une fois les tests terminés, vous pouvez publier votre parcours. Consultez [cette page](../building-journeys/publish-journey.md).
 
@@ -122,17 +122,17 @@ L’espace de noms d’identité est utilisé pour identifier de manière unique
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l&#39;exécution de l&#39;envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans le payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
-![](assets/journeytest4.png)
+![Interface de configuration des événements avec champs et liste déroulante pour la sélection d’événements](assets/journeytest4.png)
 
 L’interface vous permet de transmettre des paramètres d’événement simples. Si vous souhaitez transmettre des collections ou d’autres objets avancés dans l’événement, vous pouvez sélectionner **[!UICONTROL Affichage du code]** pour voir l’intégralité du code de la payload et le modifier. Vous pouvez par exemple copier et coller des informations d’événement préparées par un utilisateur ou une utilisatrice technique.
 
-![](assets/journeytest5.png)
+![Affichage du code de la payload d’événement au format JSON pour une configuration avancée](assets/journeytest5.png)
 
 Un utilisateur ou une utilisatrice technique peut également utiliser cette interface pour composer des payloads d’événement et déclencher des événements sans avoir à utiliser un outil tiers.
 
 Lorsque vous cliquez sur le bouton **[!UICONTROL Envoyer]**, le test commence. La progression de la personne dans le parcours est représentée par un flux visuel. Le chemin devient progressivement vert lorsque la personne se déplace sur le parcours. Si une erreur se produit, un symbole d’avertissement s’affiche à l’étape correspondante. Vous pouvez y placer le curseur pour afficher plus d’informations sur l’erreur et accéder à tous les détails (le cas échéant).
 
-![](assets/journeytest6.png)
+Flux visuel de test de Parcours ![indiquant la progression du profil et les erreurs éventuelles](assets/journeytest6.png)
 
 Lorsque vous sélectionnez un autre profil de test dans l’écran de configuration de l’événement et exécutez à nouveau le test, le flux visuel est effacé et affiche le chemin de la nouvelle personne.
 
@@ -144,7 +144,7 @@ Le mode test est également disponible pour les parcours qui utilisent un évén
 
 Lors du déclenchement d’un événement, l’écran **Configuration de l’événement** vous permet de définir les paramètres d’événement à transmettre au test. Vous pouvez afficher la condition de l’identifiant d’événement en cliquant sur l’icône Info-bulle dans la partie supérieure droite. Une info-bulle est également disponible en regard de chaque champ qui fait partie de l’évaluation des règles.
 
-![](assets/jo-event8.png)
+![Écran de configuration des événements avec des info-bulles d’évaluation des règles](assets/jo-event8.png)
 
 ## Mode test pour événements métier {#test-business}
 
@@ -161,7 +161,7 @@ Notez que lorsque vous déclenchez pour la première fois un événement métier
 
 Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
 
-![](assets/journeytest3.png)
+![Journaux de test affichant les résultats d’exécution du parcours au format JSON](assets/journeytest3.png)
 
 
 >[!NOTE]
