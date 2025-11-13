@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
+source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1472'
 ht-degree: 99%
 
 ---
@@ -143,8 +143,8 @@ Pour ce faire, procédez comme suit :
 ## Ajouter du texte enrichi à un fragment personnalisable {#rich-text}
 
 Le texte enrichi, tel que les sauts de ligne, l’attribut gras, italique, etc., peut être ajouté à un fragment modifiable à l’aide de composants HTML. Pour ce faire, procédez comme suit.
-
-➡️ [Découvrez comment ajouter et utiliser du texte enrichi dans un fragment modifiable dans cette vidéo.](#video)
+<!--
+➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
 
 ### Créer un fragment contenant du texte enrichi {#add-rich-text}
 
@@ -190,8 +190,10 @@ Lorsqu’ils ajoutent le fragment au contenu de leur e-mail, les utilisateurs et
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
-## Vidéo pratique {#video}
+<!--
+## How-to video {#video}
 
-Cette vidéo montre comment rendre les composants HTML d’un fragment modifiables, permettant ainsi des mises à jour dynamiques du contenu et du style.
+This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464370/?captions=fre_fr&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+-->
