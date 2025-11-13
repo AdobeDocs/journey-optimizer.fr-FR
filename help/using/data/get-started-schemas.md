@@ -56,7 +56,7 @@ Adobe Experience Platform comporte deux types de schémas :
 
 Découvrez comment créer un schéma standard, ajouter des groupes de champs, et créer et configurer des groupes de champs personnalisés.
 
->[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416870?captions=fre_fr&quality=12)
 
 >[!MORELIKETHIS]
 >
