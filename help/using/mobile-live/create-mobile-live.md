@@ -64,7 +64,7 @@ Après avoir configuré votre configuration mobile et implémenté votre SDK mob
 
    Veillez également à copier les identifiants **[!UICONTROL Identifiant de campagne]** à inclure dans votre payload.
 
-   ➡️ les exigences d’authentification, y compris les jetons OAuth et les clés d’API[ dans la documentation sur les campagnes déclenchées par ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/)API .
+   ➡️ les exigences d’authentification, y compris les jetons OAuth et les clés d’API[&#x200B; dans la documentation sur les campagnes déclenchées par &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/)API .
 
    ![](assets/create-live-3.png)
 
@@ -116,4 +116,4 @@ Après avoir configuré votre configuration mobile et implémenté votre SDK mob
 
    +++
 
-Après avoir conçu votre activité dynamique, vous pouvez suivre la mesure de l’impact de votre activité dynamique à l’aide de [ rapports intégrés ](../reports/campaign-global-report-cja-activity.md).
+Après avoir conçu votre activité dynamique, vous pouvez suivre la mesure de l’impact de votre activité dynamique à l’aide de [&#x200B; rapports intégrés &#x200B;](../reports/campaign-global-report-cja-activity.md).
