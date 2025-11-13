@@ -239,7 +239,7 @@ L’activité **[!UICONTROL Lecture d’audience]** vous permet de tester le par
 
 Pour cela, activez le mode test.
 
-![ Interface du mode test pour l’activité Lecture d’audience avec la sélection du profil de test](assets/read-segment-test-mode.png)
+![&#x200B; Interface du mode test pour l’activité Lecture d’audience avec la sélection du profil de test](assets/read-segment-test-mode.png)
 
 Configurez et exécutez le mode test comme vous le faites habituellement. [Découvrez comment tester un parcours](testing-the-journey.md).
 

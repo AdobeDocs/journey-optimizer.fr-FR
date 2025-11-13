@@ -79,7 +79,7 @@ Par défaut, les parcours autorisent la rentrée. Lorsque l’option **Autoriser
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
-![Basculement des paramètres de rentrée dans les propriétés du parcours ](assets/journey-re-entrance.png)
+![Basculement des paramètres de rentrée dans les propriétés du parcours &#x200B;](assets/journey-re-entrance.png)
 
 Après la période de rentrée, les profils peuvent rejoindre à nouveau le parcours. Pour éviter cela et désactiver complètement la possibilité de rentrée pour ces profils, vous pouvez ajouter une condition de test pour savoir si le profil est déjà entré ou non, à l’aide des données de profil ou d’audience.
 
@@ -94,7 +94,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 Dans les **parcours métier**, pour autoriser plusieurs exécutions d’événements métier, activez l’option correspondante dans la section **[!UICONTROL Exécution]** des propriétés du parcours.
 
-![Options de gestion de l’entrée des événements métier dans la configuration du parcours ](assets/business-entry.png)
+![Options de gestion de l’entrée des événements métier dans la configuration du parcours &#x200B;](assets/business-entry.png)
 
 Dans le cas d’événements métier, pour un parcours donné, les données d’audience récupérées lors de la première exécution sont réutilisées pendant une période d’une heure.
 

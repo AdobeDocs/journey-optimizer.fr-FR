@@ -46,7 +46,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
 
-   ![Événement de qualification d’audience dans la palette de parcours ](assets/segment5.png)
+   ![Événement de qualification d’audience dans la palette de parcours &#x200B;](assets/segment5.png)
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
 

@@ -296,7 +296,7 @@ Pour **créer** un critère de sortie, procédez comme suit :
 
 Vous pouvez ajouter plusieurs critères de sortie.
 
-![Panneau Critères de sortie affichant les conditions d’audience pour la terminaison du parcours ](assets/exitcriteria-sample.png){width="40%" align="left"}
+![Panneau Critères de sortie affichant les conditions d’audience pour la terminaison du parcours &#x200B;](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### Critères de sortie basés sur des attributs de profil {#profile-exit-criteria}

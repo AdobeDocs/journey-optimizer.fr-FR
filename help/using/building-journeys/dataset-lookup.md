@@ -63,7 +63,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Recherche de jeu de données]** dans votre zone de travail.
 
-   ![Activité de recherche de jeu de données Adobe Experience Platform dans le parcours ](assets/aep-data-activity.png)
+   ![Activité de recherche de jeu de données Adobe Experience Platform dans le parcours &#x200B;](assets/aep-data-activity.png)
 
 1. Ajoutez un libellé et une description.
 

@@ -66,7 +66,7 @@ En outre, la configuration d’activité **Mettre à jour le profil** ne nécess
 
    * L&#39;éditeur d&#39;expression simple vous permet de sélectionner un champ à partir d&#39;une source de données ou de l&#39;événement entrant.
 
-     ![ Sélecteur de champ de mode simple pour les mises à jour d’attributs de profil](assets/profileupdate4.png)
+     ![&#x200B; Sélecteur de champ de mode simple pour les mises à jour d’attributs de profil](assets/profileupdate4.png)
 
    * Si vous souhaitez définir une valeur spécifique ou utiliser des fonctions avancées, cliquez sur **Mode avancé**.
 

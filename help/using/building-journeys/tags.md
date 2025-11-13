@@ -41,7 +41,7 @@ La liste des parcours comporte une colonne dédiée permettant de visualiser fac
 
 Un filtre est également disponible pour afficher uniquement les parcours comportant les balises souhaitées.
 
-![Liste déroulante de sélection des balises avec les balises disponibles pour la classification de parcours ](assets/tags2.png)
+![Liste déroulante de sélection des balises avec les balises disponibles pour la classification de parcours &#x200B;](assets/tags2.png)
 
 Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcours (actif, brouillon, etc.). Cliquez sur l’icône **Plus d’actions** en regard du parcours, puis sélectionnez **Modifier les balises**.
 

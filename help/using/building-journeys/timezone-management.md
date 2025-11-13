@@ -47,7 +47,7 @@ Le fuseau horaire peut être fixe. Effacez le fuseau horaire prédéfini et sél
 
 Pour cela, dans le volet **[!UICONTROL Propriétés du parcours]**, sélectionnez un fuseau horaire.
 
-![Liste déroulante de sélection du fuseau horaire dans les propriétés du parcours ](assets/journey72.png)
+![Liste déroulante de sélection du fuseau horaire dans les propriétés du parcours &#x200B;](assets/journey72.png)
 
 ## Utiliser le fuseau horaire des profils {#timezone-from-profiles}
 

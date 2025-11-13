@@ -69,4 +69,4 @@ La temporisation définie s’applique à tous les événements postérieurs à 
 * Si un événement est reçu pendant le délai de temporisation, la personne s’engage dans le chemin de l’événement reçu.
 * Si aucun événement n’est reçu pendant le délai de temporisation, la personne s’engage dans la branche de temporisation de l’événement où la temporisation a été définie.
 
-![Plusieurs événements avec des configurations de temporisation en parcours ](assets/event-timeout-group.png)
+![Plusieurs événements avec des configurations de temporisation en parcours &#x200B;](assets/event-timeout-group.png)

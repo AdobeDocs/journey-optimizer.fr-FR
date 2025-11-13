@@ -42,7 +42,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 1. Dans la section **Actions** de la palette, faites glisser et déposez une activité de canal dans la zone de travail.
 
-   ![Activité d’action de canal web dans la zone de travail du parcours ](assets/journey-web-activity.png)
+   ![Activité d’action de canal web dans la zone de travail du parcours &#x200B;](assets/journey-web-activity.png)
 
 1. Vous pouvez également sélectionner l’activité **[!UICONTROL Action]**, qui permet de sélectionner plusieurs actions entrantes. [En savoir plus](journey-action.md)
 

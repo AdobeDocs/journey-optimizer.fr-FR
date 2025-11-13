@@ -82,7 +82,7 @@ Votre instance de Campaign doit être approvisionnée pour cette intégration. L
 
 1. Créez une action dans Journey Optimizer correspondant à votre modèle Campaign. Dans le menu déroulant **Type d’action**, sélectionnez **Adobe Campaign Classic**.
 
-   ![ Sélection du type d’action affichant l’option Adobe Campaign Classic ](assets/accintegration-uc-6.png)
+   ![&#x200B; Sélection du type d’action affichant l’option Adobe Campaign Classic &#x200B;](assets/accintegration-uc-6.png)
 
 1. Cliquez sur le **champ Payload** et collez le JSON créé précédemment.
 

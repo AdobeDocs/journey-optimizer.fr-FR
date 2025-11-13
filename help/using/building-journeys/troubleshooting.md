@@ -37,7 +37,7 @@ Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur
 
 * dans la zone de travail, un avertissement s’affiche lorsque deux activités sont déconnectées.
 
-  ![Icône d’avertissement affichant les activités déconnectées dans la zone de travail du parcours ](assets/canvas-disconnected.png)
+  ![Icône d’avertissement affichant les activités déconnectées dans la zone de travail du parcours &#x200B;](assets/canvas-disconnected.png)
 
 ## Erreurs dans le parcours {#canvas-errors}
 
