@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 97%
@@ -161,8 +161,8 @@ ht-degree: 97%
       + [Questions fréquentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuration des données {#data-configuration}
          + [Configuration des données](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Gérer les jeux de données et les schémas basés sur des modèles {#schemas-datasets}
-            + [Gérer les jeux de données et les schémas basés sur des modèles](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Gérer des jeux de données et des schémas relationnels {#schemas-datasets}
+            + [Gérer des jeux de données et des schémas relationnels](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Commencer à utiliser des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
             + [Schéma manuel](using/orchestrated/manual-schema.md)
             + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
@@ -914,7 +914,7 @@ ht-degree: 97%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

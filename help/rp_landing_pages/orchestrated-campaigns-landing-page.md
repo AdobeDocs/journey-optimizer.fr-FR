@@ -5,7 +5,7 @@ title: Campagnes orchestrées
 description: Campagnes orchestrées
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Découvrez les contraintes et les limites à prendre en compte lors de l’utili
 
 Configuration des données pour les campagnes orchestrées
 
-Configurez des jeux de données, des canaux et des schémas basés sur des modèles pour vous assurer que les données sont prêtes pour les campagnes orchestrées.
+Configurez des schémas relationnels, des jeux de données et des canaux pour vous assurer que les données sont prêtes pour les campagnes orchestrées.
 
 [Explorer la configuration des données](data-configuration-landing-page.md)
 :::

@@ -2,34 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Étapes de configuration
-description: Découvrez comment créer un schéma basé sur un modèle dans Adobe Experience Platform en chargeant un fichier DDL.
+description: Découvrez comment créer un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
 
-# Créer des schémas basés sur des modèles à l’aide d’un fichier DDL {#file-upload-schema}
+# Créer des schémas relationnels à l’aide d’un fichier DDL {#file-upload-schema}
 
-Définissez le modèle de données basé sur un modèle, requis pour les campagnes orchestrées en créant des schémas tels que **Membres du programme de fidélité**, **Transactions de fidélité** et **Récompenses de fidélité**. Chaque schéma doit inclure une clé primaire, un attribut de contrôle de version et des relations appropriées pour référencer des entités telles que les **Destinataires** ou les **Marques**.
+Définissez le modèle de données relationnelles requis pour les campagnes orchestrées en créant des schémas tels que **Membres du programme de fidélité**, **Transactions de fidélité** et **Récompenses de fidélité**. Chaque schéma doit inclure une clé primaire, un attribut de contrôle de version et des relations appropriées pour référencer des entités telles que les **Destinataires** ou les **Marques**.
 
 Les schémas peuvent être créés manuellement par le biais de l’interface ou importés en masse à l’aide d’un fichier DDL.
 
-Cette section fournit des instructions détaillées sur la création d’un schéma basé sur un modèle dans Adobe Experience Platform en chargeant un fichier DDL (Data Definition Language). L’utilisation d’un fichier DDL permet de définir à l’avance la structure de votre modèle de données, y compris les tables, les attributs, les clés et les relations.
+Cette section fournit des instructions détaillées sur la création d’un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL (Data Definition Language). L’utilisation d’un fichier DDL permet de définir à l’avance la structure de votre modèle de données, y compris les tables, les attributs, les clés et les relations.
 
-1. [Chargez un fichier DDL](#ddl-upload) pour créer des schémas basés sur des modèles et définir leur structure.
+1. [Chargez un fichier DDL](#ddl-upload) pour créer des schémas relationnels et définir leur structure.
 
 1. [Définissez des relations](#relationships) entre les tables de votre modèle de données.
 
-1. [Liez des schémas](#link-schema) pour connecter vos données basées sur des modèles à des entités de profil existantes telles que les personnes destinataires ou les marques.
+1. [Liez des schémas](#link-schema) pour connecter vos données relationnelles à des entités de profil existantes telles que les Destinataires ou les Marques.
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [Pour en savoir plus sur les schémas basés sur des modèles, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational)
+➡️ [En savoir plus sur les schémas relationnels dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Charger un fichier DDL{#ddl-upload}
 
@@ -37,7 +37,7 @@ En chargeant un fichier DDL, vous pouvez définir à l’avance la structure de
 
 Les chargements de fichiers de schéma basés sur le format Excel sont pris en charge. Téléchargez le [modèle fourni](assets/template.zip) pour préparer facilement vos définitions de schéma.
 
-+++Les fonctions suivantes sont prises en charge lors de la création de schémas basés sur des modèles dans Adobe Experience Platform.
++++Les fonctions suivantes sont prises en charge lors de la création de schémas relationnels dans Adobe Experience Platform.
 
 * **ENUM**\
   Les champs ENUM sont pris en charge pour la création de schémas manuelle ou basée sur un fichier DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
@@ -66,7 +66,7 @@ Voici un exemple :
 
 1. Cliquez sur **Créer un schéma**.
 
-1. Sélectionnez **[!UICONTROL Basé sur un modèle]** pour votre **Type de schéma**.
+1. Sélectionnez **[!UICONTROL Relationnel]** comme **Type de schéma**.
 
    ![](assets/admin_schema_1.png)
 

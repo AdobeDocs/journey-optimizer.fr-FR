@@ -5,7 +5,7 @@ title: Étapes de configuration
 description: Découvrez comment insérer des données dans Adobe Experience Platform à partir de sources prises en charge telles que SFTP, l’espace de stockage dans le cloud ou des bases de données.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Les sources suivantes sont prises en charge pour une utilisation dans des campag
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Entrepôts de données cloud</td>
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
@@ -67,7 +67,7 @@ Les sources suivantes sont prises en charge pour une utilisation dans des campag
 </tbody>
 </table>
 
-## Instructions relatives à l’hygiène des données des schémas basés sur des modèles {#cdc}
+## Instructions relatives à l’hygiène des données des schémas relationnels {#cdc}
 
 Pour les jeux de données avec l’option **[!UICONTROL Capture des données modifiées]** activée, toutes les modifications de données, y compris les suppressions, sont automatiquement répliquées dans Adobe Experience Platform à partir du système source.
 
@@ -105,9 +105,9 @@ Cet exemple montre comment configurer un flux de données qui ingère des donné
 
    ![](assets/S3_config_1.png)
 
-1. Depuis la page **[!UICONTROL Détails du jeu de données]**, cochez **[!UICONTROL Activer la capture des données modifiées]** pour afficher uniquement les jeux de données mappés à des schémas basés sur des modèles et contenant à la fois une clé primaire et un descripteur de version.
+1. Depuis la page **[!UICONTROL Détails du jeu de données]**, cochez **[!UICONTROL Activer la capture des données modifiées]** pour afficher uniquement les jeux de données mappés à des schémas relationnels et contenant à la fois une clé primaire et un descripteur de version.
 
-[En savoir plus sur les directives relatives à l’hygiène des données des schémas basés sur des modèles](#cdc)
+[En savoir plus sur les directives relatives à l’hygiène des données des schémas relationnels](#cdc)
 
    >[!IMPORTANT]
    >

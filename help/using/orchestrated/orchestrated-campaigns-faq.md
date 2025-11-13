@@ -5,7 +5,7 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 79%
@@ -247,7 +247,7 @@ Dans l’orchestration de campagne, nous appelons la segmentation ad hoc « seg
 
 +++ L’orchestration de campagne accède-t-elle uniquement aux données chargées par lots ou interroge-t-elle aussi les tables mises à jour en temps réel (par exemple, les données Analytics) ?
 
-L’orchestration de Journey Optimizer Campaign peut créer des requêtes ad hoc sur des schémas basés sur des modèles. Les schémas basés sur des modèles ne prennent en charge les sources de lots que pour l’instant. En outre, il prend en charge les activités Lecture d’audience à partir de n’importe quel type d’audience Adobe Experience Platform.
+L’orchestration de Journey Optimizer Campaign peut créer des requêtes ad hoc sur des schémas relationnels. Les schémas relationnels ne prennent en charge les sources de lots que pour l’instant. En outre, il prend en charge les activités Lecture d’audience à partir de n’importe quel type d’audience Adobe Experience Platform.
 
 **En savoir plus**
 
