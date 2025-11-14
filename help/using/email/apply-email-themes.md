@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 34%
