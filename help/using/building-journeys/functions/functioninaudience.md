@@ -109,7 +109,7 @@ Lors de l’utilisation de la fonction `inAudience` dans vos parcours, tenez com
 
 **Considérations relatives aux politiques de fusion :**
 * Lors de l’utilisation de plusieurs audiences avec la fonction `inAudience` , les incohérences avec les politiques de fusion peuvent entraîner des erreurs ou des alertes
-* Pour plus d’informations sur le comportement de la politique de fusion[&#x200B; voir &#x200B;](../journey-properties.md)Propriétés du Parcours
+* Pour plus d’informations sur le comportement de la politique de fusion[ voir ](../journey-properties.md)Propriétés du Parcours
 
 ## Rubriques connexes
 
