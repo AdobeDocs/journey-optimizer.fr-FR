@@ -20,7 +20,7 @@ Adobe Journey Optimizer exploite la puissance de l’intelligence artificielle
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Assistant IA pour la génération de contenu
 
@@ -30,7 +30,7 @@ Utilisez l’IA générative pour créer et personnaliser du contenu dans les e-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Optimisation de l’heure d’envoi
 
@@ -40,7 +40,7 @@ Utilisez l’IA pour prévoir le moment optimal pour envoyer des messages et opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Modèles d’IA pour la prise de décision
 
@@ -50,7 +50,7 @@ Créez des modèles d’optimisation automatique et d’optimisation personnalis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Assistant IA : connaissance du produit
 
@@ -60,7 +60,7 @@ Obtenez des réponses immédiates et des informations opérationnelles sur Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Contenu : expérimentation avec l’IA
 
@@ -70,7 +70,7 @@ Générez plusieurs variantes de contenu et effectuez des expériences afin d’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Marque : évaluation de l’alignement
 
@@ -80,7 +80,7 @@ Marque : évaluation de l’alignement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Expérimentation : accélérateur
 
@@ -90,7 +90,7 @@ Accélérez votre processus d’expérimentation de contenu avec des information
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Convertisseur d’images en HTML
 
@@ -100,7 +100,7 @@ Transformez des conceptions d’images statiques en modèles d’e-mail HTML mod
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Parcours : informations opérationnelles (Beta)
 
