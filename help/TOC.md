@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '2983'
 ht-degree: 97%
 
 ---
@@ -316,6 +316,7 @@ ht-degree: 97%
       + [Vérifier et envoyer vos messages texte](using/sms/send-sms.md)
       + [Gérer les opt-out pour les messages texte](using/sms/sms-opt-out.md)
       + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
+      + [Bonnes pratiques pour l’optimisation des coûts des SMS](using/sms/sms-subdomains.md)
       + Configurer le canal SMS/MMS/RCS {#configure-sms}
          + [Configurer le canal SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Commencer avec la configuration des SMS/MMS/RCS](using/sms/sms-configuration.md)
@@ -914,7 +915,7 @@ ht-degree: 97%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '445'
+ht-degree: 64%
 
 ---
 
@@ -26,6 +26,22 @@ Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis vérifiez v
 ![](assets/sms_preview_2.png)
 
 Vous trouverez des informations détaillées sur comment prévisualiser et tester votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
+
+### Encodage et limites des caractères {#sms-character-limits}
+
+Un nombre de caractères s’affiche lors de l’accès au menu **[!UICONTROL Simuler du contenu]** pour vous aider à planifier et à gérer vos SMS.
+
+![](assets/sms_preview_3.png)
+
+Journey Optimizer utilise le codage UTF-8 dans son éditeur de SMS, ce qui vous permet de saisir ou de coller des caractères codés sur deux octets ou Unicode. Ces caractères sont ensuite transmis au fournisseur de services pour diffusion. La plupart des fournisseurs SMS utilisent le codage GSM 7 bits pour les messages standard avec une limite de 160 caractères et passent à UTF-16 (UCS-2) lorsque des caractères non-GSM sont détectés avec une limite de 70 caractères.
+
+Notez que le nombre de caractères ne reflète pas les variations introduites par la personnalisation dynamique ou les caractères spéciaux 7 bits non-GSM.
+
+>[!IMPORTANT]
+>
+>Les rapports de diffusion SMS Journey Optimizer ne prennent pas en compte les messages concaténés et la personnalisation dynamique, et peuvent donc ne pas refléter le nombre réel de messages envoyés depuis le fournisseur. Pour plus d’informations sur l’utilisation et la facturation, contactez votre représentant Adobe.
+>
+>Pour connaître les bonnes pratiques relatives à la minimisation des dépassements de facturation par SMS, reportez-vous à [Bonnes pratiques relatives aux SMS pour l’optimisation des caractères](sms-cost-optimization.md).
 
 ## Valider votre contenu {#sms-validate}
 
