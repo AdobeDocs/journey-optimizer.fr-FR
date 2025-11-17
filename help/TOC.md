@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -133,7 +133,7 @@ ht-degree: 97%
    + [Campagnes](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Accéder aux campagnes et les gérer](using/campaigns/manage-campaigns.md)
-   + [Heures calmes](using/campaigns/quiet-hours.md)
+   + [Heures creuses](using/campaigns/quiet-hours.md)
    + Campagnes d’action {#action-campaigns}
       + [Campagnes d’action](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [Utiliser des campagnes d’action](using/campaigns/create-campaign.md)
@@ -228,12 +228,12 @@ ht-degree: 97%
       + [Créer et gérer des politiques d’approbation](using/test-approve/approval-policies.md)
       + [Demander l’approbation](using/test-approve/request-approval.md)
       + [Approuver une demande](using/test-approve/review-approve-request.md)
-+ Surveillance et dépannage {#monitor}
++ Surveiller et dépanner {#monitor}
    + [Surveillance et dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Alertes système](using/reports/alerts.md)
    + [Référence des codes d’erreur](using/building-journeys/error-codes-reference.md)
    + [Articles de dépannage](using/start/troubleshooting.md)
-   + Dépannage de Parcours {#troubleshoot-journey}
+   + Dépannage des parcours {#troubleshoot-journey}
       + [Résoudre les erreurs de parcours](using/building-journeys/troubleshooting.md)
       + [Résoudre les problèmes d’exécution d’un parcours](using/building-journeys/troubleshooting-execution.md)
       + [Résoudre les problèmes liés aux actions entrantes](using/building-journeys/troubleshooting-inbound.md)
@@ -494,7 +494,7 @@ ht-degree: 97%
    + [Optimisation des messages](using/campaigns/campaigns-message-optimization.md)
    + Expérience de contenu {#content-experiment}
       + [Expérience de contenu](/help/rp_landing_pages/content-experiment-landing-page.md)
-      + [Prise en main de l’expérience de contenu](using/content-management/get-started-experiment.md)
+      + [Commencer avec l’expérience de contenu](using/content-management/get-started-experiment.md)
       + [Commencer avec l’accélérateur d’expérience](using/content-management/experiment-accelerator-gs.md)
       + [Créer une expérience de contenu](using/content-management/content-experiment.md)
       + Notes techniques {#technotes}
@@ -882,7 +882,7 @@ ht-degree: 97%
       + [Commencer avec les actions personnalisées](using/action/action.md)
       + [Configurer une action personnalisée](using/action/about-custom-action-configuration.md)
       + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
-      + [Surveillance des actions personnalisées](using/action/reporting.md)
+      + [Surveiller vos actions personnalisées](using/action/reporting.md)
 + Connecter vos systèmes et environnements {#connect-systems}
    + [Connecter vos systèmes et environnements](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Intégration à d’autres solutions](using/integrations/ajo-integrations.md)
@@ -915,7 +915,7 @@ ht-degree: 97%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

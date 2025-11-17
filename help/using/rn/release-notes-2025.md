@@ -222,7 +222,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <td>
 <p>Vous pouvez maintenant suspendre et reprendre les parcours. Cette fonctionnalité offre aux concepteurs et conceptrices du parcours un meilleur contrôle et une plus grande flexibilité en leur permettant de suspendre temporairement les parcours actifs sans perturber l’expérience client. Lorsque le parcours est suspendu, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.</p>
 <p>Vous pouvez suspendre et reprendre un seul parcours ou un groupe de parcours par le biais d’opérations en bloc.</p>
-<p>En outre, vous pouvez appliquer des critères de sortie basés sur les attributs de profil (précédemment appelés « filtre global ») aux parcours en pause afin d’exclure les profils en fonction de leurs attributs.</p>
+<p>Il est également possible d’appliquer des critères de sortie basés sur les attributs de profil (anciennement appelés « filtre global ») aux parcours en pause afin d’exclure les profils en fonction de leurs attributs.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-pause.md">documentation détaillée</a>.</p>
@@ -379,7 +379,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>Diffuser du contenu personnalisé en fonction des attributs d’utilisation et des données contextuelles.</li>
 <li>Combinez le ciblage et l’expérimentation pour obtenir des stratégies avancées.</li>
 <li>Filtrer les utilisateurs et utilisatrices qui ne correspondent pas aux critères de variante.</li>
-<li>Garantir des mécanismes de secours pour maintenir l’interaction client.</li>
+<li>Garantir des mécanismes de secours pour maintenir l’engagement client.</li>
 </ul>
 <P>Une fois la campagne ou le parcours actif, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
