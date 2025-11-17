@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les notifications push peuvent être créées :
 
 * Dans un **parcours** : une fois que vous avez ajouté une activité push à votre parcours et défini des paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : notification push]** pour créer le contenu des notifications push. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
 
-* Dans une **campagne** : une fois une campagne créée, sélectionnez Notification push comme action et définissez les paramètres de base. Découvrez comment créer [une campagne d’action](../campaigns/campaign-action.md#action-campaign-action) | [une campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) | [une campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create)
+* Dans une **campagne** : une fois une campagne créée, sélectionnez Notification push comme action et définissez les paramètres de base. Découvrez comment créer une [campagne d’action](../campaigns/campaign-action.md#action-campaign-action), une [campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
 
 Utilisez les onglets dédiés pour définir les paramètres de notification push pour les systèmes d’exploitation **iOS** et **Android**.
 

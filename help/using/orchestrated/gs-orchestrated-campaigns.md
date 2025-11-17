@@ -7,9 +7,9 @@ short-description: Découvrez les fonctionnalités clés et les cas d’utilisat
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Prise en charge de l’envoi à plusieurs niveaux, qui permet d’envoyer un mes
 
 >[!NOTE]
 >
->Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
+>Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
 >
 >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
@@ -92,7 +92,7 @@ Découvrez les concepts et fonctionnalités clés disponibles dans les campagnes
 
 ## Explorons plus en détail.
 
-Maintenant que vous connaissez le b.a.-ba des campagnes orchestrées, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser la fonctionnalité.
+Maintenant que vous avez appris les principes de base des campagnes orchestrées, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser cette fonctionnalité.
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -124,10 +124,10 @@ Maintenant que vous connaissez le b.a.-ba des campagnes orchestrées, il est tem
 
 ## Ressources supplémentaires
 
-* **[Créer votre première règle](build-query.md)** - Effectuez un Principal du créateur de règles pour créer des requêtes ciblées et segmenter vos audiences avec précision à l’aide de données relationnelles.
-* **[Créer des schémas relationnels](gs-schemas.md)** - Découvrez comment configurer des schémas relationnels pour exploiter des données multi-entités dans vos campagnes.
-* **[Reporting pour les campagnes orchestrées](reporting-campaigns.md)** - Suivez et analysez les performances de votre campagne avec des mesures et des informations détaillées sur les rapports.
-* **[Démarrer et surveiller les campagnes](start-monitor-campaigns.md)** - Découvrez les bonnes pratiques pour lancer des campagnes et surveiller leur exécution en temps réel.
-* **[Mécanismes de sécurisation et limitations](guardrails.md)** - Passez en revue les mécanismes de sécurisation, limitations et bonnes pratiques importants pour garantir des performances optimales de la campagne.
-* **[Questions fréquentes](orchestrated-campaigns-faq.md)** - Trouvez des réponses aux questions courantes sur les fonctionnalités et cas d’utilisation des campagnes orchestrées.
-* **[Tutoriels orchestrés sur Campaign](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques.
+* **[Créer votre première règle](build-query.md)** ; maîtrisez le créateur de règles pour créer des requêtes ciblées et segmenter les audiences avec précision à l’aide de données relationnelles.
+* **[Créer des schémas relationnels](gs-schemas.md)** : découvrez comment configurer et paramétrer des schémas relationnels afin d’exploiter des données multi-entités dans les campagnes.
+* **[Création de rapports pour les campagnes orchestrées](reporting-campaigns.md)** ; suivez et analysez les performances des campagnes à l’aide de mesures détaillées et d’informations pertinentes.
+* **[Démarrer et surveiller les campagnes](start-monitor-campaigns.md)** : découvrez les bonnes pratiques pour lancer des campagnes et surveiller leur exécution en temps réel.
+* **[Mécanismes de sécurisation et limitations](guardrails.md)** ; passez en revue les mécanismes de sécurisation, les limitations et les bonnes pratiques pour garantir des performances optimales des campagnes.
+* **[Questions fréquentes](orchestrated-campaigns-faq.md)** ; trouvez des réponses aux questions fréquentes sur les fonctionnalités, les capacités et les cas d’usage des campagnes orchestrées.
+* **[Tutoriels sur les campagnes orchestrées](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** ; explorez des tutoriels vidéo détaillés présentant les fonctionnalités et les meilleures pratiques.

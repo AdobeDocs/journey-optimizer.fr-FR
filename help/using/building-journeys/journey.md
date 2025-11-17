@@ -10,9 +10,9 @@ keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,12 +51,12 @@ Découvrez comment créer des parcours [dans les cas d’utilisation complets su
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Ressources supplémentaires {#additional-resources}
 
-* [FAQ sur les Parcours &#x200B;](journey-faq.md) - Questions fréquentes sur les parcours
-* [Référence des codes d’erreur](error-codes-reference.md) - Codes d’erreur de Parcours et étapes de dépannage
-* [Alertes](../reports/alerts.md) - Configurer des alertes pour la surveillance des parcours
-* [Dépannage](troubleshooting.md) - Problèmes courants du parcours et solutions
-* [Surveillance et dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - Outils et fonctionnalités pour surveiller et résoudre les problèmes liés à vos parcours
+* [Questions fréquentes sur les parcours ](journey-faq.md) : questions fréquentes sur les parcours.
+* [Référence des codes d’erreur](error-codes-reference.md) : codes d’erreur des parcours et étapes de dépannage.
+* [Alertes](../reports/alerts.md) : configurez des alertes pour la surveillance des parcours.
+* [Dépannage](troubleshooting.md) : problèmes courants des parcours et solutions.
+* [Surveillance et dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) : outils et fonctionnalités permettant de surveiller et résoudre les problèmes liés à vos parcours.

@@ -6,9 +6,9 @@ description: Parcours
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, les parcours vous permettent de créer des parco
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec les parcours Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez comment créer des parcours clients en temps réel et à plusieurs é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Guide complet de création et de gestion des parcours
 
@@ -40,7 +40,7 @@ Cette section contient des conseils détaillés pour la conception, le test, la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Guide complet de gestion des parcours
 
@@ -50,7 +50,7 @@ Gérez efficacement les parcours des clientes et clients à l’aide d’outils 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activités dans Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Découvrez comment configurer et utiliser des activités telles que les déclenc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Création d’expressions dans Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Maîtrisez la création d’expressions pour les workflows dynamiques, la manipu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Cas pratiques d’utilisation d’Adobe Journey Optimizer
 
@@ -88,6 +88,6 @@ Explorez les mises en œuvre réelles d’Adobe Journey Optimizer, y compris l
 
 - **[S’abonner aux alertes de parcours](../using/reports/alerts.md)** : découvrez comment gérer les alertes système, vous abonner aux notifications et résoudre les problèmes liés aux parcours et aux campagnes.
 
-- **[Tutoriels sur les Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Découvrez la création de parcours au moyen de tutoriels vidéo pratiques couvrant les fonctionnalités, les capacités et les bonnes pratiques.
+- **[Tutoriels sur les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** ; découvrez la création de parcours au moyen de tutoriels vidéo pratiques couvrant les fonctionnalités, les capacités et les bonnes pratiques.
 
 

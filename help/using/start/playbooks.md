@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,4 +61,4 @@ Outre l’utilisation de playbooks prédéfinis, vous pouvez créer et partager 
 
 Vous pouvez définir des métadonnées à l’aide de l’assistance IA ou d’une saisie manuelle, associer des ressources techniques telles que des schémas et des segments et partager vos playbooks dans différentes organisations IMS.
 
-Pour plus d’informations sur la création et le partage de playbooks, consultez la documentation sur les playbooks de cas d’utilisation : [Créer et partager vos propres playbooks à l’aide de l’Assistant IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=fr#sharing-playbooks-sandboxes){target="_blank"}.
+Pour plus d’informations sur la création et le partage de playbooks, consultez la documentation sur les playbooks de cas d’utilisation : [Créer et partager vos propres playbooks à l’aide de l’Assistant IA](https://experienceleague.adobe.com/fr/docs/experience-platform/use-case-playbooks/playbooks/author#sharing-playbooks-sandboxes){target="_blank"}.

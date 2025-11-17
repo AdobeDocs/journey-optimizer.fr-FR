@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Utilisez les campagnes [!DNL Journey Optimizer] pour diffuser du contenu ponctue
 
 ## Types de campagne
 
-[!DNL Journey Optimizer] prend en charge trois types de campagnes. Chaque type correspond à différents cas d’utilisation et prend en charge différents canaux. Pour plus d’informations sur les canaux disponibles pour chaque type de campagne, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels)
+[!DNL Journey Optimizer] prend en charge trois types de campagnes. Chaque type convient à différents cas d’utilisation et prend en charge différents canaux. Pour plus d’informations sur les canaux disponibles pour chaque type de campagne, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -149,7 +149,7 @@ Avant de créer votre campagne, lisez attentivement les conditions préalables c
 
    1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez cette personne dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-      Si l&#39;utilisateur n&#39;a pas été créé auparavant, consultez la documentation [Ajouter des utilisateurs](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users){target="_blank"}
+      Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
 
   La personne doit alors recevoir un e-mail la redirigeant vers votre instance.

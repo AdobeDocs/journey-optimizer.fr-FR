@@ -10,9 +10,9 @@ level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les diffusions d’e-mail peuvent être créées :
 
 * Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du message. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
 
-* Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base. Découvrez comment créer [une campagne d’action](../campaigns/campaign-action.md#action-campaign-action) | [une campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) | [une campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create)
+* Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base. Découvrez comment créer [une campagne d’action](../campaigns/campaign-action.md#action-campaign-action), [une campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou [une campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
 
 
 >[!IMPORTANT]
@@ -112,9 +112,9 @@ Les diffusions d’e-mail peuvent être créées :
 
 ## Ressources supplémentaires
 
-* **[Créer un e-mail](create-email.md)** - Découvrez comment créer des e-mails dans les campagnes et les parcours à l’aide d’instructions détaillées.
-* **[Concevoir du contenu d’e-mail](get-started-email-design.md)** - Découvrez les différentes manières de concevoir le contenu de votre e-mail, en partant de zéro ou en utilisant des modèles.
-* **[Configuration des e-mails](get-started-email-config.md)** - Découvrez comment configurer les paramètres d’e-mail, y compris les surfaces d’e-mail, les sous-domaines et les pools d’adresses IP.
-* **[Personnalisation et style des e-mails](get-started-email-style.md)** - Techniques de style de Principal, y compris la prise en charge personnalisée du CSS, de l’alignement, de la marge intérieure et du mode sombre.
-* **[Tracker et surveiller les e-mails](message-tracking.md)** - Découvrez comment effectuer le suivi des ouvertures de messages, des clics et gérer le suivi des URL pour l’analyse des performances.
-* **[Tutoriels sur le canal e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités de messagerie et les bonnes pratiques.
+* **[Créer un e-mail](create-email.md)** : découvrez comment créer des e-mails dans les campagnes et les parcours à l’aide d’instructions détaillées.
+* **[Concevoir le contenu d’un e-mail](get-started-email-design.md)** : découvrez les différentes manières de concevoir le contenu de votre e-mail, en partant de zéro ou en utilisant des modèles.
+* **[Configuration du canal e-mail](get-started-email-config.md)** : découvrez comment configurer les paramètres d’e-mail, y compris les surfaces d’e-mail, les sous-domaines et les groupes d’adresses IP.
+* **[Personnalisation et style des e-mails](get-started-email-style.md)** : maîtrisez les différentes techniques de style, notamment le CSS personnalisé, l’alignement, les marges intérieures et la prise en charge du mode sombre.
+* **[Suivre et surveiller les e-mails](message-tracking.md)** : découvrez comment effectuer le suivi des ouvertures de messages, des clics et gérez le suivi des URL à des fins d’analyse des performances.
+* **[Tutoriels sur le canal E-mail](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives aux e-mails.

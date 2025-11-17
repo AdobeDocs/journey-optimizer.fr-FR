@@ -10,7 +10,7 @@ level: Beginner
 keywords: destination, page de destination, commencer, prise en main
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -71,4 +71,4 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 
 La vidéo ci-dessous montre comment créer une liste d’abonnements et configurer des pages de destination dans le but de proposer des abonnements ou des désabonnements à partir d’un service, intégrer l’option d’abonnement ou de désabonnement à un message et configurer les parcours pertinents.
 
->[!VIDEO](https://video.tv.adobe.com/v/344398?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -49,6 +49,6 @@ Grâce à cette fonctionnalité, les spécialistes du marketing peuvent présent
 
 ## Ressources supplémentaires
 
-* **[Cartes de contenu dans les pages de destination](content-card-lp.md)** - Découvrez comment implémenter des cartes de contenu dans les pages de destination pour un engagement amélioré.
-* **[Compte rendu des performances des cartes de contenu](content-card-report.md)** - Suivez et analysez les performances des cartes de contenu avec des mesures et des informations détaillées.
-* **[Tutoriels sur la carte de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives aux cartes de contenu.
+* **[Cartes de contenu dans les pages de destination](content-card-lp.md)** ; découvrez comment implémenter des cartes de contenu dans les pages de destination pour améliorer l’engagement.
+* **[Rapports sur les cartes de contenu](content-card-report.md)** ; suivez et analysez les performances des cartes de contenu avec des mesures et des informations détaillées.
+* **[Tutoriels sur les cartes de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** ; découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives aux cartes de contenu.

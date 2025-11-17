@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -71,9 +71,9 @@ Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de 
 
 ## Ressources supplémentaires
 
-* **[Gérer les conflits](conflicts.md)** - Découvrez comment identifier et résoudre les conflits entre les campagnes et les parcours qui se chevauchent.
-* **[Définir les scores de priorité](priority-scores.md)** - Découvrez comment attribuer et utiliser des scores de priorité pour contrôler la priorité de diffusion des messages.
-* **[Configurer le capping de la fréquence](channel-capping.md)** - Découvrez comment définir des limitations de fréquence au niveau du canal pour éviter la surmessagerie.
-* **[Créer des ensembles de règles](rule-sets.md)** - Découvrez comment créer des règles métier pour la gestion avancée des conflits et la gouvernance des messages.
-* **[Limitation spécifique au Parcours](journey-capping.md)** - Configurez des règles de limitation au niveau du parcours pour contrôler la fréquence des messages dans les parcours.
-* **[Tutoriels sur la gestion des conflits](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur la gestion des conflits et la hiérarchisation.
+* **[Gérer les conflits](conflicts.md)** ; découvrez comment identifier et résoudre les conflits entre les campagnes et les parcours qui se chevauchent.
+* **[Définir les scores de priorité](priority-scores.md)** ; découvrez comment attribuer et utiliser des scores de priorité pour contrôler la priorité de diffusion des messages.
+* **[Configurer le capping de la fréquence](channel-capping.md)** ; découvrez comment définir des cappings de fréquence au niveau du canal afin d’éviter une sollicitation excessive.
+* **[Créer des ensembles de règles](rule-sets.md)** ; découvrez comment créer des règles métier pour la gestion avancée des conflits et la gouvernance des messages.
+* **[Limitation spécifique au parcours](journey-capping.md)** ; configurez des règles de limitation au niveau du parcours afin de contrôler la fréquence des messages au sein des parcours.
+* **[Tutoriels sur la gestion des conflits](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** ; découvrez des tutoriels vidéo détaillés sur la gestion des conflits et la hiérarchisation.

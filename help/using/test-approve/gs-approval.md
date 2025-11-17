@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Vous pouvez surveiller toutes les demandes d’approbation et de modification qu
 
 ## Ressources supplémentaires
 
-* **[Créer des politiques de validation](approval-policies.md)** - Découvrez comment configurer des politiques de validation pour appliquer les workflows de révision aux campagnes et aux parcours.
-* **[Demande d’approbation](request-approval.md)** - Découvrez comment envoyer du contenu pour approbation et suivre le statut d’approbation.
-* **[Révision et approbation des demandes](review-approve-request.md)** - Découvrez comment réviser, approuver ou rejeter des demandes d’approbation en tant qu’approbateur.
-* **[Simuler avec des exemples d’entrées](simulate-sample-input.md)** - Découvrez comment tester et valider du contenu à l’aide d’exemples de données de profil.
+* **[Créer des politiques de validation](approval-policies.md)** ; découvrez comment configurer des politiques de validation pour appliquer des workflows de révision aux campagnes et aux parcours.
+* **[Demande d’approbation](request-approval.md)** ; découvrez comment soumettre du contenu pour approbation et suivre le statut de la demande.
+* **[Révision et approbation des demandes](review-approve-request.md)** ; découvrez comment examiner, approuver ou refuser des demandes d’approbation en tant que personne en charge de l’approbation.
+* **[Simuler avec des données d’exemple](simulate-sample-input.md)** ; découvrez comment tester et valider le contenu à l’aide de données de profil d’exemple.

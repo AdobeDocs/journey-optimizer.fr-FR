@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 Quand utiliser le canal basé sur le code plutôt que d’autres canaux [!DNL Journey Optimizer] ?
 
-* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de [&#128279;](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app [!DNL Journey Optimizer].
+* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de ](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app[ [!DNL Journey Optimizer].
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
@@ -104,10 +104,10 @@ Les étapes clés pour créer et diffuser une expérience basée sur du code son
 
 ## Ressources supplémentaires
 
-* **[Créer des expériences basées sur du code](create-code-based.md)** - Découvrez comment créer et configurer des campagnes et des parcours basés sur du code pour les implémentations personnalisées.
-* **[Configurer le canal basé sur le code](code-based-configuration.md)** - Paramétrez des configurations d’expérience basées sur le code avec les paramètres de surface et d’implémentation appropriés.
-* **[Conditions préalables basées sur le code](code-based-prerequisites.md)** - Comprenez les exigences techniques et les ressources de développement nécessaires à la mise en œuvre.
-* **[Tester des expériences basées sur du code](test-code-based.md)** - Découvrez comment prévisualiser et tester vos expériences basées sur du code avant de les publier.
-* **[Exemples d’implémentation](code-based-implementation-samples.md)** - Explorez des exemples de code et des modèles d’implémentation pour divers cas d’utilisation.
-* **[Tutoriels sur les expériences basées sur du code](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur les fonctionnalités basées sur le code et les bonnes pratiques.
+* **[Créer des expériences basées sur du code](create-code-based.md)** ; découvrez comment créer et configurer des campagnes et des parcours basés sur du code pour les implémentations personnalisées.
+* **[Configurer un canal basé sur du code](code-based-configuration.md)** ; paramétrez des configurations d’expérience basée sur du code avec les paramètres de surface et d’implémentation appropriés.
+* **[Conditions préalables basées sur du code](code-based-prerequisites.md)** ; comprenez les exigences techniques et les ressources de développement nécessaires à l’implémentation.
+* **[Tester des expériences basées sur du code](test-code-based.md)** ; découvrez comment prévisualiser et tester vos expériences basées sur du code avant de les publier.
+* **[Exemples d’implémentation](code-based-implementation-samples.md)** ; explorez des exemples de code et des modèles d’implémentation pour divers cas d’utilisation.
+* **[Tutoriels sur les expériences basées sur du code](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** ; consultez des tutoriels vidéo détaillés sur les fonctionnalités basées sur du code et les bonnes pratiques.
 

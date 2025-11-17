@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -59,8 +59,8 @@ Utilisez Journey Optimizer pour créer des notifications in-app et configurer de
 
 ## Ressources supplémentaires
 
-* **[Créer des messages in-app](create-in-app.md)** - Découvrez comment créer et configurer des messages in-app pour les applications mobiles.
-* **[Configurer le canal in-app](inapp-configuration.md)** - Configurez votre canal de messagerie in-app avec les configurations d’application mobile appropriées.
-* **[Conception de contenu in-app](design-in-app.md)** - Personnalisez les mises en page, les styles, les boutons et les éléments interactifs des messages in-app.
-* **[In-app pour le web](create-in-app-web.md)** - Découvrez comment créer et diffuser des messages in-app pour les applications web.
-* **[Tutoriels sur le canal in-app](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur les fonctionnalités de messagerie in-app et les bonnes pratiques.
+* **[Créer des messages in-app](create-in-app.md)** : découvrez comment créer et configurer des messages in-app pour les applications mobiles.
+* **[Configurer le canal in-app](inapp-configuration.md)** : configurez votre canal de messagerie in-app avec les configurations d’application mobile appropriées.
+* **[Concevoir du contenu in-app](design-in-app.md)** : personnalisez les dispositions, les styles, les boutons et les éléments interactifs des messages in-app.
+* **[In-app pour le web](create-in-app-web.md)** : découvrez comment créer et diffuser des messages in-app pour les applications web.
+* **[Tutoriels sur le canal in-app](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur les fonctionnalités de messagerie in-app et les bonnes pratiques.
