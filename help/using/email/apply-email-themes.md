@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 34%
+source-wordcount: '1604'
+ht-degree: 33%
 
 ---
 
@@ -39,6 +39,8 @@ Cette fonctionnalité permet aux spécialistes du marketing d’utiliser plus ra
   Si vous choisissez le mode Style manuel, vous ne pourrez appliquer aucun thème à moins de réinitialiser votre e-mail.
 
 * Les [fragments](../content-management/fragments.md) ne sont pas compatibles entre les modes Utiliser des thèmes et Style manuel.
+
+   * Les fragments de thème ne sont pas disponibles dans les contenus d’e-mail créés sans utiliser de thème.
 
    * Pour exploiter un [fragment](../content-management/fragments.md) dans un contenu avec thème, ce fragment doit avoir été créé lui-même à l’aide de thèmes. [En savoir plus](#leverage-themes-fragment)
 
@@ -227,6 +229,10 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 ## Rendre un modèle compatible avec les thèmes {#theme-convertor}
 
 [!DNL Journey Optimizer] vous permet de convertir un modèle créé à l’aide d’un style manuel en un contenu compatible avec le thème. Cela peut s’avérer particulièrement utile si vous avez créé des modèles de contenu avant l’introduction des thèmes dans [!DNL Journey Optimizer] ou si vous importez des contenus externes.
+
+>[!NOTE]
+>
+> Seuls les **modèles d’e-mail** peuvent être convertis pour être compatibles avec les thèmes. Les e-mails individuels ne peuvent pas être convertis. Vous devez d’abord enregistrer votre contenu en tant que modèle.
 
 1. Ouvrez un e-mail [modèle de contenu](../content-management/create-content-templates.md) et modifiez son contenu à l’aide du Designer d’e-mail.
 
