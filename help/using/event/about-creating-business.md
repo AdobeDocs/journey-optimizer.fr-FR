@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -27,11 +27,11 @@ Contrairement aux événements unitaires, les événements métier ne sont pas l
 
 Les parcours basés sur la lecture d’audience peuvent être déclenchés en une seule fois, par un planificateur sur une base régulière ou par un événement métier, lorsque l’événement se produit.
 
-Les événements métier peuvent être « un produit est de nouveau en stock », « le cours des actions d’une société a atteint une certaine valeur », etc.
+Les événements métier peuvent être « un produit est de nouveau en stock », « le cours des actions d’une société a atteint une certaine valeur », etc.
 
 >[!NOTE]
 >
->Vous pouvez également visionner le [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=fr) sur le cas d’utilisation d’un événement métier. Notez que le schéma n&#39;a pas besoin d&#39;être activé pour le profile.
+>Vous pouvez également visionner le [tutoriel](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"} sur le cas d’utilisation d’un événement métier. Notez que le schéma n&#39;a pas besoin d&#39;être activé pour le profile.
 
 ## Remarques importantes {#important-notes}
 
@@ -56,7 +56,7 @@ Les événements métier suivent les règles de rentrée de la même manière qu
 
 **Quelles sont les mécanismes de sécurisation permettant d’éviter la surcharge des audiences matérialisées ?**
 
-Dans le cas d’événements métier uniques, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de mécanisme de sécurisation. Pour en savoir plus sur les audiences, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+Dans le cas d’événements métier uniques, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de mécanisme de sécurisation. Pour en savoir plus sur les audiences, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 
 ## Prise en main des événements métier {#gs-business-events}
 
