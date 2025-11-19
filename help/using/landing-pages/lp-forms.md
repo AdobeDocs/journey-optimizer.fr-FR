@@ -10,10 +10,10 @@ level: Beginner
 keywords: destination, page de destination, création, page, formulaire
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement en disponibilité limitée pour les clients situés aux États-Unis et en Australie. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est actuellement en disponibilité limitée pour la clientèle située aux États-Unis et en Australie. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 Pour capturer des données de profil avec vos pages de destination [!DNL Journey Optimizer] et enrichir vos jeux de données [!DNL Experience Platform], vous pouvez utiliser des formulaires dans vos pages de destination.
 
@@ -31,7 +31,7 @@ Pour capturer des données de profil avec vos pages de destination [!DNL Journey
 >id="ajo_lp_form_connection"
 >title="Sélectionner le point d’entrée à utiliser"
 >abstract="Définissez le point d&#39;entrée de streaming où les données sont envoyées lors de l’envoi du formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -71,7 +71,7 @@ Pour créer un paramètre prédéfini de formulaire, procédez comme suit.
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Sélectionnez un **[!UICONTROL jeu de données]** à lier au formulaire. C’est là que les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir du texte pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
 
@@ -95,7 +95,7 @@ Tous les formulaires existants s’affichent. Vous pouvez les filtrer selon leur
 >id="ajo_lp_form_preset"
 >title="Sélectionner un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
 
 Pour créer un formulaire, suivez les étapes ci-dessous.
 
@@ -195,8 +195,6 @@ Une fois que vous avez sélectionné un attribut de champ ou ajouté un champ pe
 >abstract="Configurez ce qui se produit lorsqu’une personne remplit ou transfère le formulaire."
 
 De retour dans les détails du formulaire, dans la section **[!UICONTROL Page de remerciement]**, configurez ce qui se passe lorsqu’un utilisateur remplit le formulaire.
-
-![](assets/lp_create-form-thank-you.png){width=70%}
 
 Configurez l’une des actions suivantes :
 
