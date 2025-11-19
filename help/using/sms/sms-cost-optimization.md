@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 13b3c8aa7fce85029167ef31feb7272e4877b7b0
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Utilisez des applications en texte brut ou le menu Journey Optimizer **[!UICONTR
 
 Lorsque Journey Optimizer affiche le nombre de caractères, espaces compris, lors de la simulation du contenu, notez les points suivants :
 
-* Il n’inclut **&#x200B;**&#x200B;les caractères générés par la personnalisation dynamique ou certains caractères spéciaux.
+* Il n’inclut **** les caractères générés par la personnalisation dynamique ou certains caractères spéciaux.
 
 * Le comptage **x/1500** sert d’indicateur visuel de la limite technique de la charge utile, et non de la limite par message, par exemple la limite de 7 bits du GSM à 160 caractères.
 
@@ -66,9 +66,9 @@ Lorsque Journey Optimizer affiche le nombre de caractères, espaces compris, lor
 
 ## Comprendre le reporting {#understanding-reporting}
 
-Le compte rendu des performances de **Journey Optimizer** compte l&#39;ensemble du message comme un envoi, indépendamment des parties SMS. Cela permet de réduire la quantité de profils engageables.
+Le compte rendu des performances de **Journey Optimizer** compte l&#39;ensemble du message comme un envoi, indépendamment des parties SMS.
 
-Le **rapport du fournisseur** affiche les parties SMS réelles pour la diffusion et doit être utilisé pour déterminer la facturation et les dépassements.
+Le **rapport du fournisseur** reflète le nombre réel de parties de message SMS utilisées pour la diffusion et doit être référencé pour confirmer la facturation et tout dépassement potentiel. Si Adobe est votre fournisseur de SMS via Sinch, vous recevrez ce rapport de facturation séparément tous les mois.
 
 ## Considérations relatives à Personalization {#personalization-considerations}
 
