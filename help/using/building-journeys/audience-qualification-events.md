@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 91%
+source-wordcount: '1277'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
 
-   ![Événement de qualification d’audience dans la palette de parcours &#x200B;](assets/segment5.png)
+   ![Événement de qualification d’audience dans la palette de parcours ](assets/segment5.png)
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
 
@@ -88,15 +88,13 @@ Lorsque vous utilisez l’éditeur d’expression dans une condition ou une acti
 
 Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
 
-![Configuration d’entrée et de sortie d’audience dans les paramètres d’événement](assets/segment8.png)
-
 Un nouveau parcours contenant un événement de **qualification d’audience** est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
 
 ## Bonnes pratiques {#best-practices-segments}
 
 L’activité **[!UICONTROL Qualification d’audience]** permet une entrée immédiate dans les parcours des personnes qualifiées ou disqualifiées d’une audience Adobe Experience Platform.
 
-La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, assurez-vous de comprendre comment les pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours. Pour en savoir plus sur les taux de traitement du parcours et les limites de débit, consultez [cette section](entry-management.md#journey-processing-rate).
+La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, assurez-vous de comprendre comment les pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours. Pour en savoir plus sur les taux de traitement de parcours et les limites de débit, consultez [cette section](entry-management.md#journey-processing-rate).
 
 ### Audiences par lots {#batch-speed-segment-qualification}
 
@@ -164,4 +162,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
