@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 98%
@@ -93,8 +93,6 @@ Les premières étapes pour configurer un événement métier sont les suivantes
    ![](assets/test-profiles-4.png)
 
 1. Cliquez à l&#39;intérieur du champ **[!UICONTROL Condition de l&#39;identifiant d&#39;événement]**. Utilisez l’éditeur d’expression simple pour définir la condition qui sera utilisée par le système pour identifier les événements qui déclenchent votre parcours.
-
-   ![](assets/jo-event6-business.png)
 
    Dans notre exemple, nous avons écrit une condition basée sur l&#39;ID du produit. Cela signifie que chaque fois que le système reçoit un événement correspondant à cette condition, il le transmet aux parcours.
 
