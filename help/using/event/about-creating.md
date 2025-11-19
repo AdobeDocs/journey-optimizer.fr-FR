@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 100%
@@ -42,15 +42,13 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
 1. Saisissez le nom de votre événement. Vous pouvez également ajouter une description.
 
-   ![](assets/jo-event3.png)
-
    >[!NOTE]
    >
    >Seuls les caractères alphanumériques et les traits de soulignement sont autorisés. La longueur maximale est de 30 caractères.
 
-1. Dans le champ **[!UICONTROL Type]**, choisissez **Unitaire**.
+   ![](assets/jo-event3.png)
 
-   ![](assets/jo-event3bis.png)
+1. Dans le champ **[!UICONTROL Type]**, choisissez **Unitaire**.
 
 1. Dans le champ **[!UICONTROL Type d&#39;identifiant d&#39;événement]**, sélectionnez le type d&#39;identifiant d&#39;événement à utiliser : **Basé sur une règle** ou **Généré par le système**. Pour en savoir plus sur les types d&#39;identifiant d&#39;événements, reportez-vous à [cette section](../event/about-events.md#event-id-type).
 
@@ -68,8 +66,6 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
 1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l’aide de l’éditeur d’expression simple ou avancé, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
 
-   ![](assets/jo-event6.png)
-
    Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet aux parcours.
 
    >[!NOTE]
@@ -81,8 +77,6 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 1. Ajoutez un type d’identité. Cette étape est facultative, mais recommandée. En effet, l’ajout d’un type d’identité permet d’exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l’événement. En savoir plus dans [cette section](../event/about-creating.md#select-the-namespace).
 
 1. Définissez l’identifiant du profil : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un type d’identité. En effet, le parcours sélectionne la clé qui doit correspondre au type d’identité : par exemple, si vous sélectionnez un type d’identité d’e-mail, la clé d’e-mail est sélectionnée. En savoir plus dans [cette section](../event/about-creating.md#define-the-event-key).
-
-   ![](assets/jo-event7.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
