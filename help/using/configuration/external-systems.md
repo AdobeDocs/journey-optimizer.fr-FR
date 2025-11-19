@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
+source-git-commit: e6e8178f7a57a6d57c8d137dd313a26a5878994b
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 95%
+source-wordcount: '1781'
+ht-degree: 88%
 
 ---
 
@@ -127,6 +127,24 @@ Pour un appel donné, trois reprises au maximum peuvent être effectuées jusqu&
 +++ Où puis-je configurer la temporisation ? Existe-t-il une valeur maximale ?
 
 Dans chaque parcours, vous pouvez définir un délai de temporisation. Le délai de temporisation est configuré dans les propriétés d&#39;un parcours. Le délai de temporisation doit être compris entre 1 et 30 secondes. Consultez [cette section](../configuration/external-systems.md#timeout) et [cette page](../building-journeys/journey-properties.md#timeout_and_error).
+
++++
+
++++ Qu’est-ce que le proxy de sortie et quand dois-je l’utiliser ?
+
+Le proxy de sortie fournit une **adresse IP statique** pour les appels sortants de Journey Optimizer vers vos systèmes externes. Utilisez-le lorsque vos points d’entrée tiers nécessitent une liste autorisée IP.
+
+**Important :** le proxy de sortie ne contrôle PAS le débit, les limites de débit ni le nombre de connexions simultanées. Pour gérer le volume d’appels et les limites de connexion, utilisez l’API [Plafonnement](capping.md) ou [Limitation](throttling.md).
+
+**Utiliser le proxy de sortie pour :**
+* Placer sur la liste autorisée une adresse IP statique sur votre pare-feu ou point d’entrée tiers
+
+**Utiliser les API de plafonnement/limitation pour :**
+* Limiter le nombre d&#39;appels API par seconde
+* Contrôle des connexions simultanées à votre point d’entrée
+* Protection de votre système externe contre la surcharge
+
+Contactez Adobe placer sur la liste autorisée pour activer le proxy de sortie pour votre organisation si vous avez besoin d’une adresse IP statique à des fins d’analyse.
 
 +++
 
