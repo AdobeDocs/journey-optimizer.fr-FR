@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
+source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '836'
 ht-degree: 96%
 
 ---
@@ -34,7 +34,7 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 
 * **Pas de DCP dans les jeux de données** : les jeux de données activés pour la recherche ne doivent contenir aucune donnée à caractère personnel (DCP).
 
-* &#x200B;
+* 
    * **Risque de suppression** : les jeux de données utilisés dans la personnalisation ne sont pas protégés contre la suppression. Vous devez effectuer le suivi des jeux de données utilisés pour vous assurer qu’ils ne sont pas supprimés.
 
 * **Type de schéma** : les jeux de données doivent être associés à un schéma qui n’est **PAS** de type Profil ou Événement.
@@ -100,10 +100,6 @@ Si aucun espace de noms personnalisé n’a été défini, assurez-vous que l’
 Dans l’interface d’utilisation de la gestion des jeux de données, utilisez le bouton (bascule) pour activer le jeu de données pour la recherche.
 
 ![](assets/aep-data-enable.png)
-
->[!NOTE]
->
->Il est recommandé de NE PAS activer également le jeu de données pour le profil, car cela peut augmenter la richesse du profil, ce qui n’est pas nécessaire pour effectuer des recherches.
 
 ### Méthode API
 
