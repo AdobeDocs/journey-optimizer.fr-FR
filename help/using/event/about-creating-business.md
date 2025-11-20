@@ -31,7 +31,7 @@ Les événements métier peuvent être « un produit est de nouveau en stock »,
 
 >[!NOTE]
 >
->Vous pouvez également visionner le [tutoriel](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"} sur le cas d’utilisation d’un événement métier. Notez que le schéma n&#39;a pas besoin d&#39;être activé pour le profile.
+>Vous pouvez également visionner le [tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"} sur le cas d’utilisation d’un événement métier. Notez que le schéma n&#39;a pas besoin d&#39;être activé pour le profile.
 
 ## Remarques importantes {#important-notes}
 
