@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: b8fb0c0fd9e9e119428b430563cbb35d1961516e
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 93%
+source-wordcount: '1344'
+ht-degree: 88%
 
 ---
 
@@ -46,7 +46,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
 
-   ![Événement de qualification d’audience dans la palette de parcours &#x200B;](assets/segment5.png)
+   ![Événement de qualification d’audience dans la palette de parcours ](assets/segment5.png)
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
 
@@ -110,6 +110,10 @@ Lorsque vous utilisez la qualification d’audience pour les audiences en flux c
 
 Pour plus d’informations sur la segmentation par streaming, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
+>[!NOTE]
+>
+>Pour la segmentation en flux continu, les données nouvellement ingérées peuvent prendre jusqu’à **2 heures** pour se propager entièrement dans Adobe Experience Platform pour une utilisation en temps réel. Les audiences qui reposent sur des conditions basées sur un jour ou sur l’heure (par exemple, « événements survenus aujourd’hui ») peuvent présenter une complexité supplémentaire dans le minutage de la qualification. Si votre parcours dépend de la qualification immédiate de l’audience, pensez à ajouter une courte [activité d’attente](wait-activity.md) au début ou à laisser un temps de mémoire tampon pour garantir une qualification précise.
+
 ### Éviter les surcharges {#overloads-speed-segment-qualification}
 
 Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités d’action de canal) :
@@ -162,4 +166,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
