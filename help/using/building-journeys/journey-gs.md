@@ -120,7 +120,7 @@ En savoir plus sur les rapports de parcours dans [cette section](../reports/live
 * **[Publication de parcours](publish-journey.md)** - Découvrez le processus de publication des parcours et comment gérer les parcours en direct.
 * **[Rapports de Parcours](report-journey.md)** - Suivez et analysez les performances du parcours avec des mesures et des informations détaillées.
 * **[Dépannage des parcours](troubleshooting.md)** - Trouvez des solutions aux problèmes courants du parcours et des bonnes pratiques de débogage.
-* **[Tutoriels sur les Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur la création de parcours et les bonnes pratiques.
+* **[Tutoriels sur les Parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur la création de parcours et les bonnes pratiques.
 
 >[!NOTE]
 >
