@@ -58,7 +58,7 @@ Utilisez des applications en texte brut ou le menu Journey Optimizer **[!UICONTR
 
 Lorsque Journey Optimizer affiche le nombre de caractères, espaces compris, lors de la simulation du contenu, notez les points suivants :
 
-* Il n’inclut **** les caractères générés par la personnalisation dynamique ou certains caractères spéciaux.
+* Il n’inclut **&#x200B;**&#x200B;les caractères générés par la personnalisation dynamique ou certains caractères spéciaux.
 
 * Le comptage **x/1500** sert d’indicateur visuel de la limite technique de la charge utile, et non de la limite par message, par exemple la limite de 7 bits du GSM à 160 caractères.
 
