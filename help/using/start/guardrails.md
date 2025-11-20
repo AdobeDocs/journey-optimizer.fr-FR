@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,24 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal e-mail](../em
 * Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des e-mails depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage], par exemple.
 
 Lors de la conception des e-mails, le système vérifie les paramètres essentiels et affiche des alertes pour les avertissements (recommandations et bonnes pratiques) ainsi que pour les erreurs (problèmes bloquants empêchant les tests ou l’activation). Pour en savoir plus sur les alertes d’e-mail et les exigences de validation, consultez [cette section](../email/create-email.md#check-email-alerts).
+
+#### Taille du contenu du message pour la publication par parcours {#message-content-size}
+
+Lors de la publication de parcours contenant des e-mails, la taille totale du contenu du message ne doit pas dépasser **2 Mo** après le traitement du serveur principal. Lors de la publication, le système traite automatiquement le contenu du message en appliquant des correctifs aux liens et aux images, ainsi qu’en appliquant des transformations, ce qui augmente la taille de la payload au-delà de la taille du contenu créé.
+
+>[!CAUTION]
+>
+>Si le contenu final du message traité dépasse 2 Mo, la publication par parcours échoue. Pour éviter les échecs de publication, gardez le contenu de votre message créé bien en dessous de 2 Mo (idéalement sous **1 Mo**) pour permettre une mémoire tampon de 300 400KB pour la surcharge de traitement du serveur principal.
+
+**Bonnes pratiques pour éviter les échecs de publication :**
+
+* Conserver le contenu d’e-mail créé sous 1 Mo
+* Réduire le nombre de variantes du contenu
+* Optimiser et compresser les images avant de les ajouter aux messages
+* Supprimer les ressources inutilisées et les éléments HTML inutiles
+* Test de la taille du message avant la publication des parcours en production
+
+Si la publication du parcours échoue en raison de la taille du contenu, réduisez le contenu du message et republiez le parcours.
 
 ### Mécanismes de sécurisation des SMS {#sms-guardrails}
 
