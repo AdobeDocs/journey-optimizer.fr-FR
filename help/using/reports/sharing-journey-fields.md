@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 60%
 
 ---
 
@@ -42,6 +42,10 @@ Type : chaîne
 Nom du parcours.
 
 Type : chaîne
+
+>[!NOTE]
+>
+>Le nom du parcours est utilisé pour lier les données d’exécution du parcours aux jeux de données de rapports. Si vous renommez un parcours, assurez-vous que le nouveau nom correspond au nom figurant dans votre jeu de données de rapports afin de créer des rapports précis. Une incohérence peut entraîner l’affichage inattendu des données de rapport. En savoir plus sur [résolution des problèmes liés aux données de rapports manquantes](../building-journeys/report-journey.md#troubleshooting-missing-data).
 
 ## description {#description-field}
 

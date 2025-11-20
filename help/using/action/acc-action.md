@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign, acc, intégration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '701'
+ht-degree: 77%
 
 ---
 
@@ -92,9 +92,25 @@ Pour créer une action Campaign, procédez comme suit :
 
 1. Créez une action. [Découvrez comment créer des actions personnalisées](../action/action.md).
 1. Saisissez un nom et une description.
-1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
+1. Dans le champ **[!UICONTROL Type d’action]**, sélectionnez **[!UICONTROL Adobe Campaign Classic]**.
    ![](assets/accintegration1.png)
-1. Cliquez dans le champ **Payload** et collez un exemple de payload JSON correspondant au message Campaign Contactez Adobe pour obtenir cette payload.
+1. Cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de payload JSON correspondant au message Campaign Contactez Adobe pour obtenir cette payload.
 1. Définissez chaque champ comme statique ou variable selon que vous souhaitez le mapper ou non sur la zone de travail du parcours. Par exemple, les champs tels que les paramètres de canal e-mail et les champs de personnalisation (`ctx`) doivent généralement être définis en tant que variables afin de pouvoir s’adapter dynamiquement au sein du parcours.
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Mettre à jour une action existante {#update-action}
+
+Si vous devez mettre à jour une action personnalisée Campaign v7/v8 existante, par exemple lorsque le point d’entrée en temps réel (RT) change après la configuration initiale, procédez comme suit :
+
+1. Dans le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Configurations]**, puis accédez à **[!UICONTROL Actions]**.
+1. Recherchez et sélectionnez l’action Campaign à mettre à jour dans la liste des actions.
+1. Cliquez sur **[!UICONTROL Modifier]** pour ouvrir la configuration de l’action.
+1. Mettez à jour le champ **[!UICONTROL URL]** avec la nouvelle URL du point d’entrée RT. Assurez-vous que le format du point d’entrée est correct et accessible.
+1. Si nécessaire, mettez à jour la configuration **[!UICONTROL Payload]** pour qu’elle corresponde à toutes les modifications apportées à la structure du message transactionnel Campaign.
+1. Cliquez sur **[!UICONTROL Tester]** pour valider la connexion au nouveau point d’entrée. Vérifiez que le test renvoie une réponse réussie avant de continuer.
+1. Une fois la validation effectuée, cliquez sur **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
+
+>[!NOTE]
+>
+>Tous les parcours qui utilisent cette action utiliseront automatiquement la configuration mise à jour. Si des parcours en direct utilisent cette action, surveillez-les étroitement après la mise à jour du point d’entrée pour assurer une diffusion correcte des messages.
 

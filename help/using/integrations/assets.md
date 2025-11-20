@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ressources, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 5ac4220250b69289ec0f722ca54fef3b63174643
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 73%
 
 ---
 
@@ -139,5 +139,42 @@ Oui, vous pouvez utiliser des URL Dynamic Media lors de la création d’e-mail
 +++ Peut-on apporter des modifications au référentiel Adobe Experience Manager Assets as a Cloud Service à partir de l’interface de Journey Optimizer ?
 
 Si la personne utilisant Journey Optimizer est autorisée à utiliser **[!DNL Adobe Experience Manager Assets as a Cloud Service]** de manière standard et qu’elle dispose de l’autorisation Modifier sur le référentiel, elle peut apporter des modifications au référentiel **[!DNL Adobe Experience Manager Assets as a Cloud Service]**.
+
++++
+
++++ Pourquoi les images ne se chargent-elles parfois pas dans les e-mails envoyés depuis Journey Optimizer ?
+
+Si des ressources (telles que des images) sont gérées via Adobe Experience Manager et utilisées dans Journey Optimizer, elles sont soumises à une politique de cycle de vie des ressources avec une durée de vie (TTL). Après l’expiration de la période de TTL, les ressources peuvent être supprimées du stockage (CDN), ce qui peut entraîner des images endommagées dans les e-mails qui font référence à ces ressources.
+
+>[!NOTE]
+>
+>La TTL de la ressource est gérée par les services principaux de Adobe Journey Optimizer et n’est actuellement pas configurable par la clientèle. La période de durée de vie actuelle est définie sur 730 jours pour toutes les organisations Journey Optimizer.
+
++++
+
++++ Comment résoudre les images endommagées par l’expiration des ressources ?
+
+Pour restaurer la disponibilité des images lorsque les ressources ont expiré :
+
+1. **Republier les ressources affectées** : accédez à la ressource dans Adobe Experience Manager et republiez-la. La ressource sera à nouveau disponible dans le réseau CDN.
+
+2. **Mettre à jour les références de contenu** : si vous utilisez des fragments de contenu ou des modèles qui référencent des ressources expirées :
+   * Créer un brouillon ou un clone du fragment de contenu
+   * Ajouter ou sélectionner à nouveau la ressource
+   * Publier le contenu mis à jour
+
+3. **Gestion proactive** : pour éviter toute perturbation future, pensez à vérifier et à republier régulièrement les ressources utilisées dans les campagnes par e-mail actives, en particulier celles dont la période d’expiration de TTL approche.
+
+>[!CAUTION]
+>
+>Les exigences de republication s’appliquent à tous les environnements (production, évaluation, développement). Garantissez la disponibilité des ressources en gérant leur cycle de vie de manière appropriée.
+
++++
+
++++ La logique d’expiration des ressources sera-t-elle améliorée à l’avenir ?
+
+Oui, Adobe s’emploie activement à apporter des améliorations pour affiner la logique d’expiration et de gestion du cycle de vie des ressources. Ces améliorations visent à offrir une meilleure visibilité sur le statut du cycle de vie des ressources et à réduire le risque de dégradation des images dans les campagnes en direct.
+
+Pour connaître les dernières mises à jour, consultez l’équipe de votre compte Adobe ou surveillez les notes de mise à jour de Adobe Journey Optimizer.
 
 +++
