@@ -225,7 +225,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/342829/?captions=fre_fr&quality=12) -->
 
 ## Étapes suivantes {#next-steps}
 
