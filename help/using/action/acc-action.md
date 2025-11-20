@@ -61,7 +61,7 @@ En cas de demande, la connexion entre les environnements Journey Optimizer et A
 
 ## Conditions préalables {#prerequisites}
 
-Dans Adobe Campaign, vous devez créer et publier un message transactionnel ainsi que l’événement associé. Reportez-vous à la [documentation d’Adobe Campaign ](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+Dans Adobe Campaign, vous devez créer et publier un message transactionnel ainsi que l’événement associé. Reportez-vous à la [documentation d’Adobe Campaign &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Vous pouvez créer la payload JSON correspondant à chaque message selon le modèle ci-dessous. Vous devrez ensuite coller cette payload lors de la configuration de l’action dans Journey Optimizer (voir ci-dessous).
 
