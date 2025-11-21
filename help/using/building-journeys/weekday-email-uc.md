@@ -329,7 +329,7 @@ Pour exclure les jours fériés de l’envoi de vos e-mails :
 
 Découvrez comment envoyer des e-mails uniquement les jours de la semaine à l’aide de Adobe Journey Optimizer. Cette vidéo présente l’implémentation étape par étape des activités de condition et des formules d’attente pour mettre en file d’attente les entrées de week-end pour la diffusion du lundi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469382?captions=fre_fr&quality=12&learn=on)
 
 ## Ressources supplémentaires
 
