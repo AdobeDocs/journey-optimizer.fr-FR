@@ -317,5 +317,5 @@ Découvrez comment envoyer des e-mails uniquement les jours de la semaine à l�
 * [Documentation relative à l’éditeur d’expression](expression/expressionadvanced.md) - Créer et valider des expressions de parcours
 * [guide du concepteur de Parcours &#x200B;](using-the-journey-designer.md) - Principal de la zone de travail de parcours
 * [Présentation des cas d’utilisation de Parcours &#x200B;](jo-use-cases.md) - Explorez d’autres modèles et exemples de parcours
-* [Article de blog de la communauté : Comment envoyer des e-mails uniquement les jours de semaine](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Article de blog original avec des exemples détaillés
+* [Article de blog de la communauté : Comment envoyer des e-mails uniquement les jours de semaine](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=fr){target="_blank"} - Article de blog original avec des exemples détaillés
 
