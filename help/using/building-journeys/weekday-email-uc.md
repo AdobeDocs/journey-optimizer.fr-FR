@@ -11,9 +11,9 @@ keywords: parcours, cas d’utilisation, jours de la semaine, condition, e-mail,
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: ad902c1055ea2e883c028172297aab878a898b94
+source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,9 @@ Cette approche vous explique comment utiliser une activité de condition pour v�
 
 Cette approche est idéale pour les campagnes par e-mail B2B (business-to-business), les newsletters et les communications professionnelles, les annonces liées à l’entreprise, les mises à jour de produits liés au travail et toute campagne marketing pour laquelle la diffusion du week-end n’est pas souhaitée.
 
-➡️ Regarder le tutoriel vidéo détaillé [pas à pas](#how-to-video)
-
 >[!NOTE]
 >
->Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours &#x200B;](condition-activity.md) et [expressions](expression/expressionadvanced.md).
+>Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours ](condition-activity.md) et [expressions](expression/expressionadvanced.md).
 
 
 ## Étapes dʼimplémentation
@@ -45,9 +43,9 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 1. Accédez à **[!UICONTROL Gestion des Parcours]** > **[!UICONTROL Parcours]** dans Adobe Journey Optimizer.
 
-1. Cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours. [En savoir plus sur la création de parcours &#x200B;](journey-gs.md)
+1. Cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours. [En savoir plus sur la création de parcours ](journey-gs.md)
 
-1. Configurez les [propriétés du parcours &#x200B;](journey-properties.md).
+1. Configurez les [propriétés du parcours ](journey-properties.md).
 
 1. Choisissez votre point d’entrée de parcours :
    * **[Lecture d’audience](read-audience.md)** : pour les campagnes par lots ciblant une audience spécifique
@@ -55,21 +53,21 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 ### Étape 2 : ajoutez une activité Condition pour vérifier le jour de la semaine
 
-Juste après le début du parcours, ajoutez une condition pour vérifier si le jour en cours est le samedi ou le dimanche. Le workflow sera ainsi divisé en plusieurs branches en conséquence.
+Juste après le début du parcours, ajoutez une activité **[!UICONTROL Condition]** pour vérifier si le jour en cours est le samedi ou le dimanche. Le workflow sera ainsi divisé en plusieurs branches en conséquence.
 
 1. Faites glisser et déposez une activité **[!UICONTROL Condition]** sur la zone de travail après votre point d’entrée. [En savoir plus sur les activités de condition](condition-activity.md)
 
-1. Cliquez sur l’activité Condition pour ouvrir son panneau de configuration.
+1. Cliquez sur l’activité **[!UICONTROL Condition]** pour ouvrir son panneau de configuration.
 
 1. Sélectionnez **[!UICONTROL Condition de temps]** comme type de condition.
 
-1. Sélectionnez **Jour de la semaine** comme option de filtrage temporel.
+1. Sélectionnez **[!UICONTROL Jour de la semaine]** comme option de filtrage temporel.
 
 1. Pour le **premier chemin (samedi)**, sélectionnez **samedi** uniquement. Libellez ce chemin comme « Samedi ».
 
 1. Cliquez sur **[!UICONTROL Ajouter un chemin]** pour créer une deuxième condition.
 
-1. Pour le **deuxième chemin (dimanche)**, sélectionnez **Jour de la semaine** et choisissez **Dimanche** uniquement. Libellez ce chemin comme étant « Dimanche ».
+1. Pour le **deuxième chemin (dimanche)**, sélectionnez **[!UICONTROL Jour de la semaine]** et choisissez **Dimanche** uniquement. Libellez ce chemin comme étant « Dimanche ».
 
    ![Configuration des conditions du samedi et du dimanche dans l&#39;éditeur d&#39;expression](assets/weekday-email-uc-condition-expression.png)
 
@@ -82,9 +80,9 @@ Juste après le début du parcours, ajoutez une condition pour vérifier si le j
 
 ### Étape 3 : Configurer les activités d’attente pour les entrées de week-end
 
-Pour les profils qui s’enregistrent le samedi ou le dimanche, utilisez les activités d’attente avec des formules personnalisées pour retarder l’e-mail jusqu’au lundi à l’heure souhaitée.
+Pour les profils qui s’enregistrent le samedi ou le dimanche, utilisez les activités **[!UICONTROL Attente]** avec des formules personnalisées pour reporter l’e-mail au lundi, à l’heure souhaitée.
 
-Dans l&#39;activité Attente , utilisez la formule suivante :
+Dans l&#39;activité **[!UICONTROL Attente]**, la formule est la suivante :
 
 ```javascript
 toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
@@ -132,22 +130,22 @@ Pour implémenter cette fonction dans votre parcours :
 
 Pour les profils qui s’enregistrent du lundi au vendredi, passez à l’étape Envoyer un e-mail comme d’habitude.
 
-1. Dans le chemin **Jour de la semaine** (chemin « autres cas »), passez directement à l’ajout d’une activité d’action **[!UICONTROL E-mail]**. Aucune activité d’attente n’est nécessaire pour les entrées de jour de la semaine.
+1. Dans le chemin **Jour de la semaine** (chemin « autres cas »), passez directement à l’ajout d’une activité d’action **[!UICONTROL E-mail]**. Aucune activité **[!UICONTROL Attente]** n’est nécessaire pour les entrées de jour de la semaine.
 
 1. Configurez votre e-mail selon vos besoins.
 
 ### Étape 5 : terminer le flux de parcours
 
-Après les activités d’attente sur les chemins samedi et dimanche, les trois chemins (samedi, dimanche et jours de la semaine) doivent se diriger vers la même activité d’action E-mail. Ajoutez une activité **[!UICONTROL Fin]** après l’e-mail.
+Après les activités **[!UICONTROL Attente]** sur les chemins samedi et dimanche, les trois chemins (samedi, dimanche et jours de la semaine) doivent tous être dirigés vers la même activité d’action **[!UICONTROL E-mail]**. Ajoutez une activité **[!UICONTROL Fin]** après l’e-mail.
 
 ### Présentation visuelle des workflows
 
 Le workflow de parcours complet suit cette logique :
 
-* **Départ** → **Condition : est-ce le samedi ou le dimanche ?**
-   * **Oui (samedi) :** Attendez le lundi à 9 h → Envoyer un e-mail
-   * **Oui (dimanche) :** Attendez le lundi à 9 h → Envoyer un e-mail
-   * **Non (du lundi au vendredi) :** envoyer un e-mail immédiatement
+* **Début** → **[!UICONTROL Condition]** : Est-ce le samedi ou le dimanche ?
+   * **Oui (samedi) :** **[!UICONTROL Attendez]** jusqu’au lundi 9 h → **[!UICONTROL Envoyer un e-mail]**
+   * **Oui (dimanche) :** **[!UICONTROL Attendez]** jusqu’au lundi 9 h → **[!UICONTROL Envoyer un e-mail]**
+   * **Non (du lundi au vendredi) :** **[!UICONTROL Envoyer un e-mail]** immédiatement
 
 Ainsi, tous les e-mails sont envoyés uniquement les jours de la semaine, les entrées du week-end étant automatiquement mises en file d’attente pour la diffusion du lundi.
 
@@ -157,7 +155,7 @@ Avant de publier, testez minutieusement votre logique de parcours en mode test A
 
 1. Cliquez sur le bouton **[!UICONTROL Test]** dans le coin supérieur droit.
 
-1. Activez le mode test. [Découvrez comment tester votre parcours &#x200B;](testing-the-journey.md)
+1. Activez le mode test. [Découvrez comment tester votre parcours ](testing-the-journey.md)
 
 1. Créez des [profils de test](../audience/creating-test-profiles.md) avec des heures d’entrée simulées pour différents jours de la semaine :
    * **Entrée du samedi** : vérifiez que le profil suit le chemin du samedi, attend et reçoit un e-mail le lundi à l’heure spécifiée
@@ -166,13 +164,13 @@ Avant de publier, testez minutieusement votre logique de parcours en mode test A
 
 1. Consultez la visualisation du parcours pour vous assurer que les profils suivent les chemins d’accès conditionnels appropriés (samedi, dimanche ou jour de la semaine).
 
-1. Recherchez d’éventuelles erreurs ou avertissements dans le parcours. [En savoir plus sur la résolution des problèmes liés aux parcours &#x200B;](troubleshooting.md)
+1. Recherchez d’éventuelles erreurs ou avertissements dans le parcours. [En savoir plus sur la résolution des problèmes liés aux parcours ](troubleshooting.md)
 
 1. Vérifiez que les formules d’attente calculent la durée correcte pour l’heure de livraison du lundi souhaitée.
 
 >[!IMPORTANT]
 >
->Testez toujours votre logique de parcours en mode test pour vous assurer que les activités d’attente se comportent comme prévu. Utilisez le mode Test pour simuler différents scénarios d’entrée et vérifier que les entrées du week-end sont correctement placées en file d’attente pour la diffusion du lundi. [En savoir plus sur les bonnes pratiques en matière de tests de parcours &#x200B;](testing-the-journey.md)
+>Testez toujours votre logique de parcours en mode test pour vous assurer que les activités d’attente se comportent comme prévu. Utilisez le mode Test pour simuler différents scénarios d’entrée et vérifier que les entrées du week-end sont correctement placées en file d’attente pour la diffusion du lundi. [En savoir plus sur les bonnes pratiques en matière de tests de parcours ](testing-the-journey.md)
 
 ### Étape 7 : publier votre parcours
 
@@ -180,18 +178,18 @@ Une fois le test terminé :
 
 1. Cliquez sur **[!UICONTROL Publier]** dans le coin supérieur droit.
 
-1. Confirmez la publication. [En savoir plus sur la publication de parcours &#x200B;](publish-journey.md)
+1. Confirmez la publication. [En savoir plus sur la publication de parcours ](publish-journey.md)
 
-1. Surveillez les performances du parcours à l’aide des rapports de Parcours [&#128279;](report-journey.md) et [rapports dynamiques](../reports/journey-live-report.md).
+1. Surveillez les performances du parcours à l’aide des rapports de Parcours [](report-journey.md) et [rapports dynamiques](../reports/journey-live-report.md).
 
 
 ## Rubriques connexes
 
 * [À propos des activités de condition](condition-activity.md) - Découvrez comment créer différents chemins dans votre parcours
-* [Conditions d’utilisation dans un parcours &#x200B;](conditions.md) - Guide détaillé sur les conditions de parcours
+* [Conditions d’utilisation dans un parcours ](conditions.md) - Guide détaillé sur les conditions de parcours
 * [Activité d’attente](wait-activity.md) - Configuration des durées d’attente et des formules
 * [Fonctions de date](functions/date-functions.md) - Référence complète pour les fonctions de date et d’heure
 * [Éditeur d’expression](expression/expressionadvanced.md) - Créer des expressions complexes
-* [Bonnes pratiques relatives aux Parcours &#x200B;](journey-gs.md#best-practices) - Approches recommandées pour la conception de parcours
-* [Article de blog de la communauté : Comment envoyer des e-mails uniquement les jours de semaine](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=fr){target="_blank"} - Article de blog original avec des exemples détaillés
+* [Bonnes pratiques relatives aux Parcours ](journey-gs.md#best-practices) - Approches recommandées pour la conception de parcours
+* [Article de blog de la communauté : Comment envoyer des e-mails uniquement les jours de semaine](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Article de blog original avec des exemples détaillés
 
