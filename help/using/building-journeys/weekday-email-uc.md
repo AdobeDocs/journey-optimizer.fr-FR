@@ -34,7 +34,7 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 >[!NOTE]
 >
->Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours ](condition-activity.md) et [expressions](expression/expressionadvanced.md).
+>Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours &#x200B;](condition-activity.md) et [expressions](expression/expressionadvanced.md).
 
 
 ## Étapes dʼimplémentation
@@ -43,9 +43,9 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 1. Accédez à **[!UICONTROL Gestion des Parcours]** > **[!UICONTROL Parcours]** dans Adobe Journey Optimizer.
 
-1. Cliquez sur **[!UICONTROL Créer un Parcours]** pour [créer un parcours ](journey-gs.md).
+1. Cliquez sur **[!UICONTROL Créer un Parcours]** pour [créer un parcours &#x200B;](journey-gs.md).
 
-1. Configurez les [propriétés du parcours ](journey-properties.md).
+1. Configurez les [propriétés du parcours &#x200B;](journey-properties.md).
 
 1. Choisissez votre point d’entrée de parcours :
    * **[Lecture d’audience](read-audience.md)** : pour les campagnes par lots ciblant une audience spécifique
@@ -55,7 +55,7 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 Juste après le début du parcours, ajoutez une activité **[!UICONTROL Condition]** pour vérifier si le jour en cours est le samedi ou le dimanche. Le workflow sera ainsi divisé en plusieurs branches en conséquence.
 
-1. Faites glisser et déposez une activité [**[!UICONTROL Condition ]**](condition-activity.md) sur la zone de travail après votre point d’entrée.
+1. Faites glisser et déposez une activité [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) sur la zone de travail après votre point d’entrée.
 
 1. Cliquez sur l’activité **[!UICONTROL Condition]** pour ouvrir son panneau de configuration.
 
@@ -170,7 +170,7 @@ Avant de publier, testez minutieusement votre logique de parcours en mode test A
 
 >[!IMPORTANT]
 >
->Testez toujours votre logique de parcours en mode test pour vous assurer que les activités d’attente se comportent comme prévu. Utilisez le mode Test pour simuler différents scénarios d’entrée et vérifier que les entrées du week-end sont correctement placées en file d’attente pour la diffusion du lundi. Pour plus d’informations[ consultez les ](testing-the-journey.md)bonnes pratiques de test de parcours .
+>Testez toujours votre logique de parcours en mode test pour vous assurer que les activités d’attente se comportent comme prévu. Utilisez le mode Test pour simuler différents scénarios d’entrée et vérifier que les entrées du week-end sont correctement placées en file d’attente pour la diffusion du lundi. Pour plus d’informations[&#x200B; consultez les &#x200B;](testing-the-journey.md)bonnes pratiques de test de parcours .
 
 ### Étape 7 : publier votre parcours
 
@@ -178,16 +178,16 @@ Une fois le test terminé :
 
 1. Cliquez sur **[!UICONTROL Publier]** dans le coin supérieur droit.
 
-1. Confirmez la [ publication ](publish-journey.md).
+1. Confirmez la [&#x200B; publication &#x200B;](publish-journey.md).
 
-1. Surveillez les performances du parcours à l’aide des rapports de Parcours [](report-journey.md) et [rapports dynamiques](../reports/journey-live-report.md).
+1. Surveillez les performances du parcours à l’aide des rapports de Parcours [&#128279;](report-journey.md) et [rapports dynamiques](../reports/journey-live-report.md).
 
 
 ## Rubriques connexes
 
 * [Activités de condition](condition-activity.md) - Découvrez comment créer différents chemins dans votre parcours
-* [Conditions d’utilisation dans un parcours ](conditions.md) - Guide détaillé sur les conditions de parcours
+* [Conditions d’utilisation dans un parcours &#x200B;](conditions.md) - Guide détaillé sur les conditions de parcours
 * [Activité d’attente](wait-activity.md) - Configuration des durées d’attente et des formules
 * [Fonctions de date](functions/date-functions.md) - Référence complète pour les fonctions de date et d’heure
 * [Éditeur d’expression](expression/expressionadvanced.md) - Créer des expressions complexes
-* [Bonnes pratiques relatives aux Parcours ](journey-gs.md#best-practices) - Approches recommandées pour la conception de parcours
+* [Bonnes pratiques relatives aux Parcours &#x200B;](journey-gs.md#best-practices) - Approches recommandées pour la conception de parcours
