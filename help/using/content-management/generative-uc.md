@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 90%
@@ -39,7 +39,7 @@ ht-degree: 90%
 
 Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne par e-mail. [En savoir plus](../campaigns/review-activate-campaign.md)
 
-## Affiner la variation
+## Affiner la variation {#refine}
 
 ![Démonstration animée du perfectionnement des variations de contenu générées par l’IA à l’aide des options Reformuler et Résumer](assets/do-not-localize/gen-ai-variation.gif)
 

@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -474,6 +474,7 @@ ht-degree: 98%
    + Assistant IA pour la génération de contenu {#ai-assistant}
       + [Assistant IA pour la génération de contenu](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
+      + [Bonnes pratiques relatives aux invites d&#39;IA](using/content-management/ai-assistant-prompting-guide.md)
       + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
       + [Génération de notifications push avec l’IA](using/content-management/generative-push.md)
       + [Génération de SMS avec l’IA](using/content-management/generative-sms.md)
@@ -916,7 +917,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
