@@ -10,10 +10,10 @@ level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 95%
+source-wordcount: '732'
+ht-degree: 90%
 
 ---
 
@@ -81,7 +81,7 @@ Sélectionnez le type **Personnalisée** pour définir une date personnalisée �
 
 L’expression figurant dans l’éditeur doit fournir un format `dateTimeOnly`. Consultez [cette page](expression/expressionadvanced.md). Pour plus d’informations sur le format dateTimeOnly, consultez [cette page](expression/data-types.md).
 
-La bonne pratique consiste à utiliser des dates personnalisées spécifiques à vos profils, et d’éviter d’utiliser la même date pour tous les profils. Par exemple, ne définissez pas `toDateTimeOnly('2024-01-01T01:11:00Z')`, mais plutôt `toDateTimeOnly(@event{Event.productDeliveryDate})`, qui est spécifique à chaque profil. Gardez à l’esprit que l’utilisation de dates fixes peut entraîner des problèmes dans l’exécution de votre parcours. En savoir plus sur l’impact des activités d’attente sur le taux de traitement des parcours dans [cette section](entry-management.md#wait-activities-impact).
+La bonne pratique consiste à utiliser des dates personnalisées spécifiques à vos profils, et d’éviter d’utiliser la même date pour tous les profils. Par exemple, ne définissez pas `toDateTimeOnly('2024-01-01T01:11:00Z')`, mais plutôt `toDateTimeOnly(@event{Event.productDeliveryDate})`, qui est spécifique à chaque profil. Gardez à l’esprit que l’utilisation de dates fixes peut entraîner des problèmes d’exécution de votre parcours. Découvrez l’impact des activités d’attente sur le taux de traitement des parcours dans [cette section](entry-management.md#wait-activities-impact).
 
 
 >[!NOTE]
@@ -90,6 +90,15 @@ La bonne pratique consiste à utiliser des dates personnalisées spécifiques à
 >
 >La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, à partir de l’interface d’utilisation, il n’est actuellement pas possible de pointer directement vers un horodatage ISO-8601 complet associant l’heure et le fuseau horaire, tel que 2023-08-12T09:46:06.982-05. [En savoir plus](../building-journeys/timezone-management.md).
 
+>[!CAUTION]
+>
+>Lors de la création d’une expression d’attente personnalisée avec `toDateTimeOnly()`, évitez d’ajouter « Z » ou tout décalage de fuseau horaire (par exemple, « -05 :00 ») dans le résultat de l’expression. L’expression doit utiliser une syntaxe date/heure ISO valide qui fait référence au fuseau horaire configuré du parcours sans indicateurs de fuseau horaire explicites.
+>
+>**Exemple correct :** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
+>
+>**Exemple incorrect :** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contient &#39;Z&#39;)
+>
+>L’utilisation de indicateurs de fuseau horaire non pris en charge peut bloquer les profils dans l’activité d’attente au lieu de progresser comme prévu.
 
 Pour vérifier que l’activité d’attente fonctionne comme prévu, vous pouvez utiliser des événements d’étape. [En savoir plus](../reports/query-examples.md#common-queries).
 
