@@ -46,7 +46,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
 
-   ![Événement de qualification d’audience dans la palette de parcours ](assets/segment5.png)
+   ![Événement de qualification d’audience dans la palette de parcours &#x200B;](assets/segment5.png)
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
 
@@ -120,7 +120,7 @@ Lors de l’utilisation d’audiences en flux continu avec l’activité **Quali
 
 * **Profils déjà dans l’audience** : seuls les profils nouvellement qualifiés pour l’audience après la publication du parcours déclencheront l’entrée. Les profils déjà présents dans l’audience avant la publication n’y accéderont pas.
 
-* **Temps d’activation du Parcours** : lorsque vous publiez un parcours, l’activité **Qualification de l’audience** prend jusqu’à **10 minutes** pour devenir active et commencer à écouter les entrées et les sorties de profil. [En savoir plus sur l’activation des parcours ](#configure-segment-qualification).
+* **Temps d’activation du Parcours** : lorsque vous publiez un parcours, l’activité **Qualification de l’audience** prend jusqu’à **10 minutes** pour devenir active et commencer à écouter les entrées et les sorties de profil. [En savoir plus sur l’activation des parcours &#x200B;](#configure-segment-qualification).
 
 * **Sorties rapides de l’audience** : si un profil remplit les conditions de l’audience mais quitte l’audience avant le déclenchement de l’entrée de parcours, il se peut que ce profil ne rejoigne pas le parcours.
 
