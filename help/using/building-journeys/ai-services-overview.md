@@ -10,9 +10,9 @@ keywords: artificiel, IA, intelligent, parcours, service
 exl-id: 20da09e1-0611-4d27-a589-30552011e06c
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,4 +30,4 @@ L’IA dédiée aux clients permet aux marques de créer des scores d’attritio
 
 Par conséquent, ces attributs peuvent être utilisés comme n’importe quel autre attribut de profil dans les conditions de Journey Optimizer (pour prendre des décisions optimales), dans les actions ou lors de la création de segments.
 
-![Intégration de l’IA dédiée aux clients présentant des scores de propension et des prédictions](assets/customer-ai.png)
+![Intégration de l’IA dédiée aux clients et clientes affichant des scores de propension et des prédictions](assets/customer-ai.png)

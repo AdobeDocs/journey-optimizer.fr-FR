@@ -13,9 +13,9 @@ keywords: délivrabilité, parcours, cas d’utilisation, e-mail, réputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffus
 
 1. Ajoutez une activité d’action **[!UICONTROL E-mail]** au chemin nominal après lʼactivité **[!UICONTROL Condition]**.
 
-   ![Configuration des messages e-mail dans un parcours de diffusion à plusieurs vitesses](assets/ramp-up-deliveries-message.png)
+   ![Configuration des messages e-mail dans un parcours d’accélération de la diffusion](assets/ramp-up-deliveries-message.png)
 
    Lors de lʼexécution du parcours, le message est envoyé aux profils entrants, dans la limite du nombre maximal de profils que vous avez spécifié. Lorsque cette limite est atteinte, les profils entrants empruntent lʼautre chemin.
 

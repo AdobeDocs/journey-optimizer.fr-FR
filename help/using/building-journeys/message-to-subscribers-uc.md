@@ -11,9 +11,9 @@ keywords: parcours, cas d’utilisation, message, abonnés, liste, lecture
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Pour configurer ce parcours, procédez comme suit:
 
    1. Cliquez sur le bouton **[!UICONTROL Activer le remplacement de paramètre]** à droite du champ **[!UICONTROL Adresse]**, puis cliquez sur l’icône **[!UICONTROL Modifier]**.
 
-      ![Flux de Parcours avec Lecture d&#39;audience pour le ciblage des listes d&#39;abonnés](assets/message-to-subscribers-uc-1.png)
+      ![Flux du parcours avec Lecture d’audience pour le ciblage des listes des personnes abonnées](assets/message-to-subscribers-uc-1.png)
 
    1. Dans l’éditeur d’expression, saisissez l’expression permettant de récupérer les adresses e-mail des abonnés. [En savoir plus](expression/expressionadvanced.md).
 
@@ -54,7 +54,7 @@ Pour configurer ce parcours, procédez comme suit:
 
       En savoir plus sur les [références aux champs](expression/field-references.md) dans les expressions.
 
-      ![Configuration des e-mails avec du contenu personnalisé pour les abonnés](assets/message-to-subscribers-uc-2.png)
+      ![Configuration du canal e-mail avec du contenu personnalisé pour les personnes abonnées](assets/message-to-subscribers-uc-2.png)
 
    1. Dans la boîte de dialogue **[!UICONTROL Ajouter une expression]**, cliquez sur **[!UICONTROL OK]**.
 

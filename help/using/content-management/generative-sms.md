@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Cette ressource offre des recommandations pertinentes pour affiner votre contenu
 
 1. Accédez au menu **[!UICONTROL Afficher l’assistant IA]**.
 
-   ![Ouverture de l’éditeur de messages SMS avec le panneau Assistant IA affichant le sélecteur de marque et le champ Invite](assets/sms-genai-1.png){zoomable="yes"}
+   ![Éditeur de SMS avec le panneau Assistant IA ouvert affichant le sélecteur de marque et le champ Prompt](assets/sms-genai-1.png){zoomable="yes"}
 
 1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
@@ -48,7 +48,7 @@ Cette ressource offre des recommandations pertinentes pour affiner votre contenu
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![Assistant AI pour SMS avec sélecteur de marque, champ d’invite et bouton d’accès à la bibliothèque d’invite](assets/sms-genai-2.png){zoomable="yes"}
+   ![Assistant IA pour les SMS avec sélecteur de marque, champ Prompt et bouton d’accès à la bibliothèque de prompts](assets/sms-genai-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
@@ -57,7 +57,7 @@ Cette ressource offre des recommandations pertinentes pour affiner votre contenu
    * **[!UICONTROL Ton]** : assurez-vous que le texte est adapté à votre audience et à votre objectif.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
-   ![Panneau des paramètres de texte pour les SMS affichant la stratégie de communication, les commandes Langues, Ton et Curseur de longueur](assets/sms-genai-3.png){zoomable="yes"}
+   ![Panneau des paramètres de texte pour les SMS affichant les commandes Stratégie de communication, Langues, Ton et le curseur Longueur](assets/sms-genai-3.png){zoomable="yes"}
 
 1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
@@ -73,7 +73,7 @@ Cette ressource offre des recommandations pertinentes pour affiner votre contenu
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![Variations SMS générées avec l’indicateur de pourcentage de score d’alignement des marques et les options de prévisualisation](assets/sms-genai-5.png){zoomable="yes"}
+   ![Variations de SMS générées avec l’indicateur de pourcentage de score d’alignement de la marque et les options d’aperçu](assets/sms-genai-5.png){zoomable="yes"}
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation et affiner votre variation en fonction de vos préférences :
 
@@ -85,7 +85,7 @@ Cette ressource offre des recommandations pertinentes pour affiner votre contenu
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![Affiner les options pour les SMS affichant une reformulation, Utiliser un langage plus simple avec les listes déroulantes Ton et Stratégie de communication](assets/sms-genai-4.png){zoomable="yes"}
+   ![Option Affiner des SMS affichant Reformuler, Utiliser un langage simplifié avec les listes déroulantes Ton et Stratégie de communication](assets/sms-genai-4.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 

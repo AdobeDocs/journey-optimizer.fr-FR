@@ -12,9 +12,9 @@ badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1636'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Avec l’activité **Optimiser**, vous pouvez effectuer les actions suivantes su
 * utiliser des règles de [ciblage](#targeting) dans chaque chemin de parcours ;
 * appliquer des [conditions](#conditions) à vos chemins.
 
-![Bouton Optimiser dans la palette d’activités du parcours &#x200B;](assets/journey-optimize.png)
+![Bouton Optimiser dans la palette d’activités du parcours](assets/journey-optimize.png)
 
 Une fois le parcours actif, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont envoyés vers le chemin approprié du parcours.
 
@@ -71,13 +71,13 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 1. Sélectionnez **[!UICONTROL Expérience]** dans la liste déroulante **[!UICONTROL Méthode]**.
 
-   ![&#x200B; Panneau de configuration de l’expérience de contenu &#x200B;](assets/journey-optimize-experiment.png){width=65%}
+   ![Panneau de configuration de l’expérience de contenu](assets/journey-optimize-experiment.png){width=65%}
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]**.
 
 1. Sélectionnez les **[!UICONTROL mesures de succès]** que vous souhaitez définir pour votre expérience. En savoir plus sur les mesures disponibles et sur la configuration de la liste dans [cette section](success-metrics.md).
 
-   ![Sélection de Principal et de mesures supplémentaires pour l’expérience](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![Sélection de métriques principales et supplémentaires pour l’expérience](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. Vous pouvez ajouter un groupe d’**[!UICONTROL exclusion]** à votre diffusion. Ce groupe ne rejoindra aucun chemin de cette expérience.
 
@@ -151,7 +151,7 @@ Comparez une attente de 24 heures à une attente de 72 heures avant une relanc
 
 ➡️ Utilisez le taux de clics ou le chiffre d’affaires comme mesure de succès.
 
-![Expérience sur le temps d’attente comparant des retards de 24 heures à des retards de 72 heures](assets/journey-optimize-experiment-uc-wait.png)
+![Expérience sur le temps d’attente comparant des retards de 24 heures à des retards de 72 heures](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -208,7 +208,7 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
 1. Après avoir ajouté une règle, vous pouvez toujours la modifier. Choisissez **[!UICONTROL Modifier directement]** pour effectuer la mise à jour directement à l’aide du créateur de règles, ou **[!UICONTROL Sélectionner une règle]** pour sélectionner une autre règle.
 
-   ![Modifier les options de règle intégrées ou Sélectionner une règle pour modifier les règles de ciblage](assets/journey-targeting-modify-rule.png){width=100%}
+   ![Options de modification de règle intégrée ou de sélection d’une règle pour modifier les règles de ciblage](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,9 +224,9 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
 1. De retour dans le parcours, déposez des actions spécifiques pour personnaliser chaque chemin. Par exemple, créez un e-mail contenant des offres personnalisées pour les membres du programme de fidélité Gold et un rappel SMS pour l’ensemble des autres membres.
 
-   ![Chemins de Parcours avec adresse e-mail pour les membres Gold et SMS pour les autres](assets/journey-targeting-paths.png)
+   ![Chemins de parcours avec adresse e-mail pour les membres Gold et SMS pour les autres](assets/journey-targeting-paths.png)
 
-1. Si vous avez sélectionné l’option **[!UICONTROL Activer le chemin de remplacement]** lors de la définition des paramètres de la règle, définissez une ou plusieurs actions pour le chemin de remplacement qui a été automatiquement ajouté.
+1. Si vous avez sélectionné l’option **[!UICONTROL Activer le contenu de secours]** lors de la définition des paramètres de la règle, définissez une ou plusieurs actions pour le chemin de remplacement qui a été automatiquement ajouté.
 
    ![Configuration du chemin de secours pour les profils non qualifiés](assets/journey-targeting-fallback.png){width=70%}
 
@@ -254,7 +254,7 @@ Les membres Gold peuvent recevoir des offres personnalisées par e-mail, tandis 
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![Canaux spécifiques aux segments ciblant les membres Gold avec e-mail et d’autres avec SMS](assets/journey-optimize-targeting-uc-segment.png)
+![Canaux spécifiques aux segments ciblant les membres Gold avec e-mail et les autres avec SMS](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -274,7 +274,7 @@ Les clientes et clients qui ont récemment acheté des produits peuvent choisir 
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![Ciblage de l’historique des achats avec chemin de vente croisée pour les acheteurs et chemin de prospection pour les non-acheteurs](assets/journey-optimize-targeting-uc-purchase.png)
+![Ciblage de l’historique des achats avec chemin de vente croisée pour les acheteurs et acheteuses ; chemin de prospection pour les non-acheteurs et non-acheteuses](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 

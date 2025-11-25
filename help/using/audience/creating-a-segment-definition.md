@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 0356d88d66c7c02a59c7d91a44eb92596e08b21b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Dans cet exemple, vous allez créer une audience pour cibler la clientèle qui r
 
      >[!NOTE]
      >
-     >L’attribut `frequencyMap` n’est pas pris en charge pour une utilisation dans les définitions de segment et ne peut pas être utilisé dans le cadre des critères de segmentation d’audience. Pour le ciblage basé sur la fréquence, pensez à utiliser des règles de limitation de fréquence sous les règles métier.
+     >L’attribut `frequencyMap` n’est pas pris en charge dans les définitions de segment et ne peut pas être utilisé dans le cadre des critères de segmentation d’audience. Pour le ciblage basé sur la fréquence, pensez à utiliser des règles de capping de la fréquence sous les règles métier.
 
    * **Événements** : profils ayant effectué un achat au cours des 7 derniers jours.
 
@@ -140,4 +140,4 @@ Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences inéligi
 
 Découvrez comment Journey Optimizer utilise des règles pour générer une audience. Apprenez à utiliser des attributs, des événements et des audiences existantes pour créer une audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430324?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

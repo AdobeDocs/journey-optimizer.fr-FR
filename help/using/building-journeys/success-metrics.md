@@ -11,9 +11,9 @@ keywords: publication, parcours, actif, validité, vérifier
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Pour commencer à effectuer le suivi des mesures de votre parcours, procédez co
 
    Notez que les mesures s’appliquent au parcours lui-même et à tous les éléments du parcours.
 
-   ![Panneau de configuration des mesures de succès dans les propriétés du parcours &#x200B;](assets/success_metric.png)
+   ![Panneau de configuration des mesures de succès dans les propriétés du parcours ](assets/success_metric.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

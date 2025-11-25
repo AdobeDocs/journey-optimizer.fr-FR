@@ -6,14 +6,14 @@ description: Découvrez comment créer un schéma relationnel dans Adobe Experie
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Prise en main des schémas relationnels et des jeux de données{#gs-schemas}
+# Commencer avec les schémas relationnels et les jeux de données{#gs-schemas}
 
 Ce guide explique le processus de création d’un schéma relationnel, de configuration d’un jeu de données pour les campagnes orchestrées et d’ingestion de données.
 
@@ -35,7 +35,7 @@ Il décrit :
 
 Un modèle de données est logique et conceptuel, et n’est pas lié à une mise en œuvre physique dans les campagnes orchestrées.
 
-Dans un **modèle de données relationnelles**, les données sont organisées en tables liées à d&#39;autres tables.
+Dans un **modèle de données relationnel**, les données sont organisées en tables liées à d’autres tables.
 
 * Chaque table comporte des lignes (enregistrements) et des colonnes (attributs).
 * Chaque table possède une clé primaire pour identifier de manière unique les lignes.
@@ -52,7 +52,7 @@ Il précise :
 
 L’organisation des schémas ou des tables dans un modèle de données relationnel consiste à structurer vos données en plusieurs tables. Assurez-vous que chaque table stocke un type d’entité/des schémas.
 
-➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Étapes dʼimplémentation {#implementation}
 

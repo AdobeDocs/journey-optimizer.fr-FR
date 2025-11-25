@@ -11,9 +11,9 @@ keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ En outre, la configuration d’activité **Mettre à jour le profil** ne nécess
 
    * L&#39;éditeur d&#39;expression simple vous permet de sélectionner un champ à partir d&#39;une source de données ou de l&#39;événement entrant.
 
-     ![&#x200B; Sélecteur de champ de mode simple pour les mises à jour d’attributs de profil](assets/profileupdate4.png)
+     ![Sélecteur de champ de mode simple pour les mises à jour d’attributs de profil](assets/profileupdate4.png)
 
    * Si vous souhaitez définir une valeur spécifique ou utiliser des fonctions avancées, cliquez sur **Mode avancé**.
 

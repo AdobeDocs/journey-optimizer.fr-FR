@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1472'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Supposons, par exemple, que vous souhaitiez créer un fragment à ajouter à vos
 
 Pour les composants HTML, seuls des éléments spécifiques peuvent devenir des champs modifiables. Pour plus d’informations, développez la section ci-dessous.
 
-+++Éléments modifiables dans les composants HTML :
++++Éléments modifiables dans les composants HTML :
 
 Les éléments ci-dessous peuvent devenir des champs modifiables dans un composant HTML :
 
@@ -195,5 +195,5 @@ Lorsqu’ils ajoutent le fragment au contenu de leur e-mail, les utilisateurs et
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464370/?captions=fre_fr&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

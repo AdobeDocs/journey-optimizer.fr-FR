@@ -13,9 +13,9 @@ hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1696'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Pour ajouter une condition à votre parcours, procédez comme suit :
 
 1. Sélectionnez une condition dans la liste déroulante **[!UICONTROL Méthode]**.
 
-   ![Optimisation de l’activité avec la méthode Condition sélectionnée](assets/journey-optimize-condition.png){width=80%}
+   ![Activité Optimiser avec la méthode Condition sélectionnée](assets/journey-optimize-condition.png){width=80%}
 
    Les types de condition disponibles sont les suivants :
 
@@ -66,13 +66,13 @@ Lorsque vous utilisez plusieurs conditions dans un parcours, vous pouvez défini
 
 Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusieurs conditions. Pour chaque condition, un nouveau chemin est ajouté dans la zone de travail après l’activité.
 
-![Ajoutez un bouton de chemin pour créer plusieurs chemins de condition](assets/journey-condition-add-path.png){width=80%}
+![Bouton Ajouter un chemin pour créer plusieurs chemins de condition](assets/journey-condition-add-path.png){width=80%}
 
 Notez que la conception de parcours n’est pas sans conséquences sur le plan fonctionnel. Lorsque plusieurs chemins sont définis après une condition, seul le premier chemin éligible est exécuté. Cela signifie que vous pouvez modifier la priorité des chemins en les plaçant les uns au-dessus ou en dessous des autres.
 
 Prenons l’exemple de la condition « La personne est un VIP » d’un premier chemin et la condition « La personne est un homme » d’un second chemin. Si une personne répondant aux deux conditions (à savoir, un VIP de sexe masculin) franchit cette étape, le premier chemin d’accès est choisi, même s’il est également éligible au second, compte tenu de sa position hiérarchique supérieure. Pour modifier cette priorité, déplacez vos activités verticalement.
 
-![Exemple de hiérarchisation des chemins montrant la condition VIP au-dessus de la condition masculine](assets/journey48.png)
+![Exemple de hiérarchisation des chemins affichant la condition VIP au-dessus de la condition Homme](assets/journey48.png)
 
 Vous pouvez créer un autre chemin pour les audiences qui ne sont pas éligibles aux conditions définies en cochant la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**.
 
@@ -85,7 +85,7 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 * **ET** : intersection de deux critères. Seuls les éléments répondant à tous les critères sont pris en compte.
 * **OU** : union de deux critères. Les éléments répondant à au moins l’un des deux critères sont pris en compte.
 
-![Éditeur d&#39;expression simple avec des champs de type glisser-déposer et des opérateurs logiques](assets/journey64.png){width=80%}
+![Éditeur d’expression simple avec des champs de type glisser-déposer et des opérateurs logiques](assets/journey64.png){width=80%}
 
 Si vous utilisez le [service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les utiliser dans vos conditions de parcours. Pour plus d’informations, consultez la section [Utilisation d’audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -105,7 +105,7 @@ Par exemple, si vous ciblez une audience avec des attributs d’enrichissement g
 
 L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. [En savoir plus](../datasource/external-data-sources.md)
 
-![Condition de Source de données avec éditeur d’expression avancé](assets/journey50.png){width=80%}
+![Condition de source de données avec éditeur d’expression avancé](assets/journey50.png){width=80%}
 
 ## Condition de date {#date_condition}
 
@@ -127,7 +127,7 @@ En mode test, lorsqu&#39;un partage est atteint, la branche supérieure est touj
 >
 >Notez qu’il n’existe aucun bouton permettant d’ajouter un chemin dans la condition de division en pourcentage. Le nombre de chemins dépend du nombre de divisions. Dans les conditions de division, vous ne pouvez pas ajouter de chemin pour d’autres cas, car cela ne peut pas se produire. Les utilisateurs se trouveront toujours dans l’un des chemins de division.
 
-![Configuration du partage en pourcentage avec un curseur indiquant la distribution du trafic](assets/journey52.png)
+![Configuration Partage en pourcentage avec un curseur affichant la répartition du trafic](assets/journey52.png)
 
 ## Condition de temps {#time_condition}
 
@@ -139,7 +139,7 @@ Utilisez une **[!UICONTROL Condition de temps]** pour effectuer des actions diff
 >
 >* Par défaut, la **[!UICONTROL Condition de temps]** est définie par heure, de 00:00 à 12:00.
 
-![Condition de temps avec les sélecteurs de plage d’heures et de jour de la semaine](assets/journey51.png)
+![Condition de temps avec les sélecteurs de plage horaire et de jour de la semaine](assets/journey51.png)
 
 Trois options de filtrage temporel sont disponibles :
 
@@ -172,7 +172,7 @@ Pour les parcours actifs, voici les seuils à prendre en compte pour que la limi
 
 La limite de profils n’est pas prise en compte en mode test.
 
-![Condition de limite de profil avec champ d’entrée de limite de profil maximale](assets/profile-cap-condition.png)
+![Condition de limite de profils avec champ d’entrée de la limite maximale de profils](assets/profile-cap-condition.png)
 
 ## Utiliser des audiences dans des conditions {#using-a-segment}
 
@@ -182,13 +182,13 @@ Pour utiliser une audience dans une condition de parcours, procédez comme suit�
 
 1. Ouvrez un parcours, déposez une activité **[!UICONTROL Optimiser]** et choisissez la **[!UICONTROL condition de source de données]**.
 
-   ![Méthode de condition du Source de données sélectionnée dans le menu déroulant](assets/segment3.png)
+   ![Méthode Condition de source de données sélectionnée dans le menu déroulant](assets/segment3.png)
 
 1. Cliquez sur **[!UICONTROL Ajouter un chemin]** pour chaque chemin supplémentaire nécessaire. Pour chaque chemin, cliquez sur le champ **[!UICONTROL Expression]**.
 
 1. Sur le côté gauche, développez le nœud **[!UICONTROL Audiences]**. Faites glisser et déposez l’audience à utiliser pour votre condition. Par défaut, la condition sur l’audience est « true ».
 
-   ![nœud Audiences de l’éditeur d’expression pour sélectionner les audiences Adobe Experience Platform](assets/segment4.png){width=80%}
+   ![Nœud Audiences de l’éditeur d’expression pour sélectionner les audiences Adobe Experience Platform](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >

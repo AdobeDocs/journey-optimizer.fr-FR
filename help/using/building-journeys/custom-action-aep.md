@@ -10,9 +10,9 @@ level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Ce cas d’utilisation explique comment écrire des événements personnalisés 
 
 1. Dans la section **Informations d’identification**, cliquez sur **OAuth de serveur à serveur**.
 
-   ![Écran de configuration d’une action personnalisée avec menu déroulant du type d’action](assets/custom-action-aep-1.png)
+   ![Écran de configuration d’une action personnalisée avec liste déroulante du type d’action](assets/custom-action-aep-1.png)
 
 1. Cliquez sur **Afficher la commande cURL**.
 
-   ![Sélection du type d&#39;action Adobe Experience Platform](assets/custom-action-aep-2.png)
+   ![Sélection du type d’action Adobe Experience Platform](assets/custom-action-aep-2.png)
 
 1. Copiez la commande cURL et stockez les éléments client_id, client_secret, grant_type et scope.
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. Dans Adobe Experience Platform, cliquez sur **Sources** sous **Connexions** dans le menu de gauche. Sous **API HTTP**, cliquez sur **Ajouter des données**.
 
-   ![Liste déroulante de sélection de sandbox pour Adobe Experience Platform](assets/custom-action-aep-3.png)
+   ![Liste déroulante de sélection des sandbox pour Adobe Experience Platform](assets/custom-action-aep-3.png)
 
 1. Sélectionnez **Nouveau compte** et activez l’authentification. Sélectionnez **Se connecter à la source**.
 
-   ![Interface de sélection de jeu de données pour les données en flux continu](assets/custom-action-aep-4.png)
+   ![Interface de sélection des jeux de données pour les données en streaming](assets/custom-action-aep-4.png)
 
 1. Cliquez sur **Suivant** et sélectionnez le jeu de données dans lequel vous souhaitez écrire les données. Cliquez sur **Suivant** et **Terminer**.
 
-   ![&#x200B; Champs de schéma XDM mappés aux paramètres d’action](assets/custom-action-aep-5.png)
+   ![Champs de schéma XDM mappés aux paramètres d’action](assets/custom-action-aep-5.png)
 
 1. Ouvrez le flux de données nouvellement créé. Copiez la payload du schéma et enregistrez-la dans votre notepad.
 
@@ -143,7 +143,7 @@ Pour cet exemple, procédez comme suit :
 
 1. Utilisez le bouton **Cliquer pour tester l’authentification** pour tester la connexion.
 
-   ![Interface de mapping des paramètres avec l&#39;éditeur d&#39;expression](assets/custom-action-aep-8.png)
+   ![Interface de mappage des paramètres avec l’éditeur d’expression](assets/custom-action-aep-8.png)
 
 ### Configurer la payload {#custom-action-aep-payload}
 

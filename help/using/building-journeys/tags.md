@@ -11,9 +11,9 @@ keywords: parcours, balises
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -41,11 +41,11 @@ La liste des parcours comporte une colonne dédiée permettant de visualiser fac
 
 Un filtre est également disponible pour afficher uniquement les parcours comportant les balises souhaitées.
 
-![Liste déroulante de sélection des balises avec les balises disponibles pour la classification de parcours &#x200B;](assets/tags2.png)
+![Liste déroulante de sélection des balises avec les balises disponibles pour la classification des parcours](assets/tags2.png)
 
 Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcours (actif, brouillon, etc.). Cliquez sur l’icône **Plus d’actions** en regard du parcours, puis sélectionnez **Modifier les balises**.
 
-![liste de Parcours filtrée par balises affichant les parcours classés](assets/tags3.png)
+![Liste de parcours filtrée par balises affichant les parcours classés par catégorie](assets/tags3.png)
 
 ## Gérer les balises
 

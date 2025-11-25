@@ -6,9 +6,9 @@ description: Questions fréquentes sur les campagnes orchestrées Journey Optimi
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1799'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -51,13 +51,13 @@ Les fonctionnalités principales sont les suivantes :
 
 **En savoir plus**
 
-* [Création d’une campagne orchestrée](create-orchestrated-campaign.md)
-* [Utiliser les activités de campagne](activities/about-activities.md)
-* [Créer votre règle à l’aide du moteur de requête](build-query.md)
+* [Créer une campagne orchestrée](create-orchestrated-campaign.md)
+* [Utiliser les activités de campagnes](activities/about-activities.md)
+* [Créer votre règle à l’aide du concepteur de requête](build-query.md)
 
 +++
 
-+++ Comment accéder à l&#39;orchestration de Campaign ?
++++ Comment accéder à l’orchestration de campagne ?
 
 Pour accéder à l’orchestration de campagne, votre licence doit inclure le package **Journey Optimizer - Campagnes et parcours** ou **Journey Optimizer - Campagnes**. Contactez votre représentant ou représentante Adobe pour confirmer votre licence et effectuer une mise à jour si nécessaire.
 
@@ -85,15 +85,15 @@ Pour accéder à l’orchestration de campagne, votre licence doit inclure le pa
 
 +++ Qu’est-ce que la segmentation multi-entités ?
 
-L’orchestration de campagnes dans Adobe Journey Optimizer utilise une base de données relationnelle. Ce type de modèle de données comporte des schémas de données distincts, reliés par des relations 1:1 ou 1:many. Cela permet aux utilisateurs et utilisatrices de démarrer une requête sur n’importe quel schéma, pas seulement au niveau du destinataire, puis de basculer entre les schémas associés, tels que les achats, les produits, les réservations ou les détails du destinataire, offrant ainsi une grande flexibilité dans la manière dont les segments et les audiences peuvent être créés et affinés.
+L’orchestration de campagnes dans Adobe Journey Optimizer utilise une base de données relationnelle. Ce type de modèle de données comporte des schémas de données distincts, reliés par des relations 1:1 ou 1:many. Cela permet aux utilisateurs et aux utilisatrices de lancer une requête sur n’importe quel schéma, pas seulement au niveau du ou de la destinataire, puis de passer d’un schéma associé à un autre, comme les achats, les produits, les réservations ou les détails du ou de la destinataire, ce qui offre une grande flexibilité dans la création et l’affinement des segments et des audiences.
 
 **Exemple** : cibler toutes les personnes destinataires dont les abonnements expirent dans les 30 prochains jours. Dans l’orchestration de campagne, la requête peut commencer par le schéma des abonnements, rechercher uniquement la colonne de date d’expiration de ce schéma et renvoyer tous les abonnements arrivant à expiration, puis remonter jusqu’aux données des destinataire associées à ces ID d’abonnement spécifiques, ce qui permet d’obtenir des résultats plus rapidement et efficacement que les modèles de données qui initient chaque requête au niveau des destinataires.
 
 **En savoir plus**
 
 * [Commencer à utiliser des schémas et des jeux de données](gs-schemas.md)
-* [Configuration d’une dimension de ciblage](target-dimension.md)
-* [Créer votre règle à l’aide du moteur de requête](build-query.md)
+* [Configurer une dimension de ciblage](target-dimension.md)
+* [Créer votre règle à l’aide du concepteur de requête](build-query.md)
 
 +++
 
@@ -110,7 +110,7 @@ Les campagnes utilisent une **base de données relationnelle**. Vous pouvez ains
 **En savoir plus**
 
 * [Commencer à utiliser des schémas et des jeux de données](gs-schemas.md)
-* [Création manuelle d’un schéma](manual-schema.md)
+* [Créer un schéma manuellement](manual-schema.md)
 * [Ingérer des données](ingest-data.md)
 
 +++
@@ -128,7 +128,7 @@ Oui. Dans l’orchestration de campagne, un profil de destinataire appelé « E
 **En savoir plus**
 
 * [Utiliser l’activité Enrichissement](activities/enrichment.md)
-* [Ajout d’une activité de canal dans une campagne orchestrée](activities/channels.md)
+* [Ajouter une activité de canal dans une campagne orchestrée](activities/channels.md)
 
 +++
 
@@ -147,8 +147,8 @@ Vous pouvez créer des campagnes orchestrées pour envoyer des **e-mails**, des 
 
 **En savoir plus**
 
-* [Ajout d’une activité de canal dans une campagne orchestrée](activities/channels.md)
-* [Utiliser les activités de campagne](activities/about-activities.md)
+* [Ajouter une activité de canal dans une campagne orchestrée](activities/channels.md)
+* [Utiliser les activités de campagnes](activities/about-activities.md)
 
 +++
 
@@ -158,8 +158,8 @@ Oui, les campagnes orchestrées prennent en charge l’orchestration cross-canal
 
 **En savoir plus**
 
-* [Ajout d’une activité de canal dans une campagne orchestrée](activities/channels.md)
-* [Utiliser les activités de campagne](activities/about-activities.md)
+* [Ajouter une activité de canal dans une campagne orchestrée](activities/channels.md)
+* [Utiliser les activités de campagnes](activities/about-activities.md)
 
 +++
 
@@ -169,8 +169,8 @@ Non, vous ne pouvez pas définir ni utiliser de modèles de campagne, mais vous 
 
 **En savoir plus**
 
-* [Ajout d’une activité de canal dans une campagne orchestrée](activities/channels.md)
-* [Création d’une campagne orchestrée](create-orchestrated-campaign.md)
+* [Ajouter une activité de canal dans une campagne orchestrée](activities/channels.md)
+* [Créer une campagne orchestrée](create-orchestrated-campaign.md)
 
 +++
 
@@ -180,18 +180,18 @@ Non, le concepteur de contenu, y compris le Concepteur d’e-mail, est commun à
 
 **En savoir plus**
 
-* [Ajout d’une activité de canal dans une campagne orchestrée](activities/channels.md)
+* [Ajouter une activité de canal dans une campagne orchestrée](activities/channels.md)
 * [Utiliser l’activité Enrichissement](activities/enrichment.md)
 
 +++
 
 +++ Comment les différents canaux sont-ils connectés dans les campagnes orchestrées ?
 
-Le composant de canal et l’exécution sont communs à toutes les campagnes Journey Optimizer, mais les canaux pris en charge diffèrent. Les campagnes orchestrées prennent en charge les e-mails, SMS et notifications push.
+Le composant de canal et l’exécution sont communs à toutes les campagnes Journey Optimizer, mais les canaux pris en charge diffèrent. Les campagnes orchestrées prennent en charge les e-mails, SMS et notifications push.
 
 **En savoir plus**
 
-* [Ajout d’une activité de canal dans une campagne orchestrée](activities/channels.md)
+* [Ajouter une activité de canal dans une campagne orchestrée](activities/channels.md)
 * [Mécanismes de sécurisation et limitations](guardrails.md)
 
 +++
@@ -204,7 +204,7 @@ Non, les canaux entrants tels que web et in-app ne sont pas pris en charge dans 
 **En savoir plus**.
 
 * [Mécanismes de sécurisation et limitations](guardrails.md)
-* [Ajout d’une activité de canal dans une campagne orchestrée](activities/channels.md)
+* [Ajouter une activité de canal dans une campagne orchestrée](activities/channels.md)
 
 +++
 
@@ -238,16 +238,16 @@ Dans l’orchestration de campagne, nous appelons la segmentation ad hoc « seg
 
 **En savoir plus**
 
-* [Créer votre règle à l’aide du moteur de requête](build-query.md)
+* [Créer votre règle à l’aide du concepteur de requête](build-query.md)
 * [Utiliser l’activité Créer une audience](activities/build-audience.md)
-* [Configuration d’une dimension de ciblage](target-dimension.md)
+* [Configurer une dimension de ciblage](target-dimension.md)
 
 +++
 
 
 +++ L’orchestration de campagne accède-t-elle uniquement aux données chargées par lots ou interroge-t-elle aussi les tables mises à jour en temps réel (par exemple, les données Analytics) ?
 
-L’orchestration de Journey Optimizer Campaign peut créer des requêtes ad hoc sur des schémas relationnels. Les schémas relationnels ne prennent en charge les sources de lots que pour l’instant. En outre, il prend en charge les activités Lecture d’audience à partir de n’importe quel type d’audience Adobe Experience Platform.
+L’orchestration de campagne dans Journey Optimizer peut d’abord créer des requêtes ad hoc sur les schémas relationnels. Les schémas relationnels prennent actuellement en charge uniquement les sources par lots. De plus, ils prennent en charge les activités de lecture d’audience de tout type d’audience d’Adobe Experience Platform.
 
 **En savoir plus**
 
@@ -301,15 +301,15 @@ Yes, follow the best practices below:
 
 +++ Quelle est la relation entre les entités Destinataire et Profil ?
 
-La segmentation est effectuée sur les destinataires lors de l’envoi par rapport au profil Adobe Experience Platform. La dimension cible Destinataire étend le Profil unifié avec des données supplémentaires utilisées pour la segmentation dans les campagnes orchestrées, tandis que le Destinataire est réconcilié avec le Profil lors de l’exécution pour envoyer des messages et vérifier la politique de consentement et les règles métier. Cette réconciliation est utile pour unifier les règles métier et l’application du consentement au niveau du profil.
+La segmentation est effectuée sur les destinataires lors de l’envoi par rapport au profil Adobe Experience Platform. La dimension cible Destinataire étend le Profil unifié avec des données supplémentaires utilisées pour la segmentation dans les campagnes orchestrées, tandis que le Destinataire est réconcilié avec le Profil lors de l’exécution pour envoyer des messages et vérifier la politique de consentement et les règles métier. Cette réconciliation permet d’unifier les règles métier et l’application du consentement au niveau du profil.
 
 ![](assets/recipients-and-profiles.png)
 
 **En savoir plus**
 
-* [Configuration d’une dimension de ciblage](target-dimension.md)
+* [Configurer une dimension de ciblage](target-dimension.md)
 * [Commencer à utiliser des schémas et des jeux de données](gs-schemas.md)
-* [Créer votre règle à l’aide du moteur de requête](build-query.md)
+* [Créer votre règle à l’aide du concepteur de requête](build-query.md)
 
 +++
 
@@ -322,14 +322,14 @@ Répondre « Oui » suggère la meilleure banque de données. Cependant, confi
 | La source des données est-elle déjà relationnelle ? | La source des données est-elle en streaming ? |
 | Prévoyez-vous d’ingérer les données en l’état pour les cas d’utilisation marketing ? | La fraîcheur des données est-elle une exigence majeure ? |
 | Existe-t-il un volume important de données historiques (`>` 2 mois) nécessaire pour des cas d’utilisation d’activation marketing ? | Existe-t-il des scénarios où une action ou une décision en temps réel nécessite des données ? |
-| Existe-t-il des besoins ad hoc de création, d’évaluation et d’activation d’audiences ? | Les données comportementales peuvent-elles être limitées à `<` 90 jours à l’aide d’agrégats précalculés ? |
+| Existe-t-il des besoins ad hoc de création, d’évaluation et d’activation d’audiences ? | Les données comportementales peuvent-elles être limitées à `<` 90 jours à l’aide d’agrégats précalculés ? |
 |  | Des données sont-elles nécessaires pour personnaliser les messages en temps réel ? |
 
 **En savoir plus**
 
-* [Configuration d’une dimension de ciblage](target-dimension.md)
+* [Configurer une dimension de ciblage](target-dimension.md)
 * [Commencer à utiliser des schémas et des jeux de données](gs-schemas.md)
-* [Créer votre règle à l’aide du moteur de requête](build-query.md)
+* [Créer votre règle à l’aide du concepteur de requête](build-query.md)
 
 +++
 
@@ -340,13 +340,13 @@ Le nombre d’activités dans une campagne orchestrée est limité à 500.
 **En savoir plus**.
 
 * [Mécanismes de sécurisation et limitations](guardrails.md)
-* [Utiliser les activités de campagne](activities/about-activities.md)
+* [Utiliser les activités de campagnes](activities/about-activities.md)
 
 +++
 
 +++ Est-il possible d’effectuer des enrichissements pour ajouter des données supplémentaires ?
 
-Oui, vous pouvez enrichir les données du magasin relationnel et des audiences Adobe Experience Platform. Utilisez l’activité Enrichissement pour améliorer les données de votre audience avec des attributs supplémentaires issus de schémas associés.
+Oui, il est possible d’enrichir les données à partir du stockage relationnel et des audiences d’Adobe Experience Platform. Utilisez l’activité Enrichissement pour améliorer les données de votre audience avec des attributs supplémentaires issus de schémas associés.
 
 **En savoir plus**
 
@@ -361,7 +361,7 @@ Les campagnes orchestrées prennent en charge les filtres prédéfinis : il est
 
 **En savoir plus**
 
-* [Créer votre règle à l’aide du moteur de requête](build-query.md)
+* [Créer votre règle à l’aide du concepteur de requête](build-query.md)
 * [Utiliser l’activité Créer une audience](activities/build-audience.md)
 * [Utiliser des filtres prédéfinis](orchestrated-rule-builder.md)
 

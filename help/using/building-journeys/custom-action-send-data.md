@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: parcours, cas d’utilisation
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,13 +34,13 @@ Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffus
 
    1. Définissez le champ **[!UICONTROL Limite]** sur le nombre maximal de destinataires pour cette diffusion.
 
-   ![Condition de limite de profil pour contrôler le volume d’exécution d’une action personnalisée](assets/profile-cap-condition.png)
+   ![Condition de limite du profil pour contrôler le volume d’exécution d’une action personnalisée](assets/profile-cap-condition.png)
 
    Vous pouvez augmenter progressivement cette limite jusqu’au nombre total dʼabonnés.
 
 1. Ajoutez une activité d’action **[!UICONTROL E-mail]** au chemin nominal après lʼactivité **[!UICONTROL Condition]**.
 
-   ![Parcours avec action personnalisée pour l&#39;envoi de données à un système externe](assets/ramp-up-deliveries-message.png)
+   ![Parcours avec action personnalisée pour l’envoi de données à un système externe](assets/ramp-up-deliveries-message.png)
 
    Lors de lʼexécution du parcours, le message est envoyé aux profils entrants, dans la limite du nombre maximal de profils que vous avez spécifié. Lorsque cette limite est atteinte, les profils entrants empruntent lʼautre chemin.
 

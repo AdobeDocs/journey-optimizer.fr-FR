@@ -12,9 +12,9 @@ mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -172,7 +172,7 @@ Voici des exemples illustrant comment utiliser les données contextuelles dans l
 >
 >Dans les exemples de l’API Edge Decisioning, remplacez `<OrgID>` par votre ID de client d’organisation.
 
-+++Augmentez la priorité d’offre de 10 si le canal des données contextuelles correspond au canal préféré du client ou de la cliente
++++Augmentez la priorité de l’offre de 10 si le canal des données contextuelles correspond au canal de préférence du client ou de la cliente.
 
 >[!BEGINTABS]
 
@@ -188,7 +188,7 @@ Voici des exemples illustrant comment utiliser les données contextuelles dans l
 
 +++
 
-+++Boostez la priorité de toutes les offres avec « attribute=hot » si « contextData.weather=hot » est transmis dans l’appel.
++++Augmentez la priorité de toutes les offres avec « attribute=hot » si « contextData.weather=hot » est transmis dans l’appel.
 
 >[!BEGINTABS]
 
@@ -204,7 +204,7 @@ Voici des exemples illustrant comment utiliser les données contextuelles dans l
 
 +++
 
-+++Amplification de l’origine du contenu
++++Amélioration de l’origine du contenu
 
 >[!BEGINTABS]
 
@@ -220,7 +220,7 @@ Voici des exemples illustrant comment utiliser les données contextuelles dans l
 
 +++
 
-+++Amplification Météorologique
++++Amélioration de la météo
 
 >[!BEGINTABS]
 

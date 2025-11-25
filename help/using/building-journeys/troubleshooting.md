@@ -11,9 +11,9 @@ keywords: dépannage, résolution des problèmes, parcours, vérification, erreu
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur
 
 * si un champ obligatoire est vide, une erreur s’affiche ;
 
-  ![Erreurs de validation de Parcours affichées dans la zone de travail avec des indicateurs d&#39;erreur](assets/journey63.png)
+  ![Erreurs de validation de parcours affichées dans la zone de travail avec des indicateurs d’erreur](assets/journey63.png)
 
 * dans la zone de travail, un avertissement s’affiche lorsque deux activités sont déconnectées.
 
-  ![Icône d’avertissement affichant les activités déconnectées dans la zone de travail du parcours &#x200B;](assets/canvas-disconnected.png)
+  ![Icône d’avertissement affichant les activités déconnectées dans la zone de travail du parcours](assets/canvas-disconnected.png)
 
 ## Erreurs dans le parcours {#canvas-errors}
 

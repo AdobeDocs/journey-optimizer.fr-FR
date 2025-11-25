@@ -11,9 +11,9 @@ keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte 
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -50,11 +50,11 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 1. Sélectionnez l’activité de canal intégrée que vous souhaitez utiliser dans votre parcours.
 
-   ![&#x200B; Liste déroulante Type d’action affichant l’action du canal et les options d’action personnalisée](assets/journey-action-type-cbe.png)
+   ![Liste déroulante Type d’action affichant l’action du canal et les options d’action personnalisée](assets/journey-action-type-cbe.png)
 
 1. Ajoutez un libellé à votre action et sélectionnez **[!UICONTROL Configurer l’action]**.
 
-   ![Volet de configuration de l&#39;activité d&#39;action avec les champs de libellé et de description](assets/journey-action-configure.png){width="80%"}
+   ![Volet de configuration de l’activité d’action avec les champs de libellé et de description](assets/journey-action-configure.png){width="80%"}
 
 1. Vous accédez à l’onglet **[!UICONTROL Actions]** de l’écran de configuration de l’action de parcours.
 
@@ -163,7 +163,7 @@ Pour définir plusieurs actions entrantes dans une action de parcours, procédez
 
 1. Ajoutez un libellé si nécessaire et sélectionnez **[!UICONTROL Configurer l’action]**.
 
-   ![Volet de configuration multiaction avec des champs de libellé et de description](assets/journey-multi-action-configure.png){width="60%"}
+   ![Volet de configuration multi-action avec les champs de libellé et de description](assets/journey-multi-action-configure.png){width="60%"}
 
 1. Vous accédez à l’onglet **[!UICONTROL Actions]** de l’écran de configuration de l’action de parcours.
 
@@ -175,7 +175,7 @@ Pour définir plusieurs actions entrantes dans une action de parcours, procédez
 
 1. Utilisez le bouton **[!UICONTROL Ajouter une action]** pour sélectionner une autre action entrante dans la liste déroulante.
 
-   ![Ajouter un bouton d’action pour inclure des actions supplémentaires dans l’activité multiaction](assets/journey-multi-action-add.png){width="80%"}
+   ![Ajouter un bouton d’action pour inclure des actions supplémentaires dans l’activité multi-action](assets/journey-multi-action-add.png){width="80%"}
 
 1. Procédez de la même manière pour ajouter d’autres actions. Vous pouvez ajouter jusqu’à 10 actions entrantes dans un groupe d’actions de parcours.
 

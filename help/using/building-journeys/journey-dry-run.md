@@ -10,9 +10,9 @@ keywords: publication, parcours, actif, validité, vérification
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Lors du test à blanc, le parcours s’exécute en mode simulation, en appliquan
 
 * Les **sources de données**, y compris les sources de données externes, et les activités **Attente** sont désactivées par défaut pendant le test à blanc. Vous pouvez toutefois modifier ce comportement [lors de l’activation du mode Test à blanc](#journey-dry-run-start).
 
-* Les nœuds **Réaction** ne sont pas exécutés : tous les profils qui y accèdent les quittent. Toutefois, les règles de priorité suivantes s’appliquent :
+* Les nœuds **Réaction** ne sont pas exécutés : tous les profils qui y accèdent les quittent. Toutefois, les règles de priorité suivantes s’appliquent :
    * Si un nœud **Réaction** est utilisé avec un ou plusieurs nœuds d’**événement unitaire** en parallèle, les profils passeront toujours par l’événement de réaction.
    * Si un nœud **Réaction** est utilisé avec un ou plusieurs nœuds d’**événement de réaction** en parallèle, les profils passeront toujours par le premier dans la zone de travail (celui en haut).
 
@@ -143,10 +143,10 @@ Le test à blanc de parcours génère des **événements d’étape**. Ces évé
 
 Si vous exportez des données d’événement d’étape vers des **systèmes externes**, vous pouvez filtrer les exécutions de test à blanc à l’aide de l’indicateur `inDryRun`.
 
-Lors de l’analyse de **mesures de rapports de parcours** à l’aide de Adobe Experience Platform Query Service, les événements d’étape générés par l’exécution d’essai doivent être exclus. Pour ce faire, définissez l’indicateur `inDryRun` sur `false`.
+Lors de l’analyse des **mesures de rapports de parcours** à l’aide du service de requête Adobe Experience Platform, les événements d’étape générés par le test à blanc doivent être exclus. Pour ce faire, définissez l’indicateur `inDryRun` sur `false`.
 
 ## Vidéo pratique {#dry-run-video}
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464684/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

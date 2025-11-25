@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
 source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1926'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Afficher l’assistant IA]**.
 
-   ![Ouverture de l’éditeur de notifications push avec le panneau Assistant AI affichant les options de marque et d’invite](assets/push-genai-full-1.png){zoomable="yes"}
+   ![Éditeur de notifications push avec le panneau Assistant IA ouvert affichant les options Marque et Prompt](assets/push-genai-full-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
@@ -58,7 +58,7 @@ Procédez comme suit :
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![Assistant AI pour les notifications push avec champ Invite, sélecteurs de champs pour Message de titre et Image, et Bibliothèque d’invites](assets/push-genai-full-2.png){zoomable="yes"}
+   ![Assistant IA pour les notifications push avec champ Prompt, sélecteurs de champs pour Message, Titre et Image, et la bibliothèque de prompts](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. Sélectionnez le champ à générer : **[!UICONTROL Titre]**, **[!UICONTROL Message]** et/ou **[!UICONTROL Image]**.
 
@@ -94,7 +94,7 @@ Procédez comme suit :
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![Variantes de notification push générées avec pourcentage de score d’alignement des marques et contrôles de prévisualisation](assets/push-genai-full-4.png){zoomable="yes"}
+   ![Variations de notification push générées avec le pourcentage de score d’alignement sur la marque et les commandes d’aperçu](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -106,7 +106,7 @@ Procédez comme suit :
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![Affiner les options pour les notifications push avec Rephrase, Utiliser un langage, un ton et des contrôles de stratégie de communication plus simples](assets/push-genai-full-6.png){zoomable="yes"}
+   ![Options Affiner pour les notifications push avec les options Reformuler, Utiliser un langage simplifié, Ton et Stratégie de communication](assets/push-genai-full-6.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
@@ -132,7 +132,7 @@ Dans cet exemple particulier, découvrez comment utiliser l’Assistant IA dans
 
 1. Accédez au menu **[!UICONTROL Modifier le texte avec l’assistant IA]** en regard de votre champ **[!UICONTROL Titre]** ou **[!UICONTROL Message]**.
 
-   ![Écran de composition des notifications push avec bouton Modifier le texte avec l’assistant AI en regard des champs Titre et Message](assets/push-genai-1.png){zoomable="yes"}
+   ![Écran de composition des notifications push avec le bouton Modifier le texte avec l’assistant IA en regard des champs Titre et Message](assets/push-genai-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
@@ -144,7 +144,7 @@ Dans cet exemple particulier, découvrez comment utiliser l’Assistant IA dans
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![Éditeur de texte de l’assistant AI avec le bouton (bascule) Utiliser le contenu de référence, le sélecteur de marque, le champ Invite et le bouton Bibliothèque d’invites](assets/push-genai-2.png){zoomable="yes"}
+   ![Éditeur de texte de l’assistant IA avec le bouton bascule Utiliser le contenu de référence, le sélecteur de marque, le champ Prompt et le bouton Bibliothèque de prompts](assets/push-genai-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
@@ -153,7 +153,7 @@ Dans cet exemple particulier, découvrez comment utiliser l’Assistant IA dans
    * **[!UICONTROL Ton]** : le ton de votre notification push doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’Assistant IA peut adapter le message en conséquence.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
-   ![Les paramètres de texte ont été développés, affichant la stratégie de communication, les listes déroulantes Langues, Ton et le curseur Longueur](assets/push-genai-4.png){zoomable="yes"}
+   ![Paramètres de texte développés, affichant les listes déroulantes Stratégie de communication, Langues et Ton, et le curseur Longueur](assets/push-genai-4.png){zoomable="yes"}
 
 1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
@@ -167,7 +167,7 @@ Dans cet exemple particulier, découvrez comment utiliser l’Assistant IA dans
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![Variantes de texte générées pour les notifications push avec l’indicateur de score d’alignement des marques](assets/push-genai-5.png){zoomable="yes"}
+   ![Variations de texte générées pour les notifications push avec l’indicateur de score d’alignement sur la marque](assets/push-genai-5.png){zoomable="yes"}
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -183,7 +183,7 @@ Dans cet exemple particulier, découvrez comment utiliser l’Assistant IA dans
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![Menu affiner affichant les options Développer, Résumer, Reformuler, Utiliser des options linguistiques plus simples avec le menu déroulant Ton](assets/push-genai-6.png){zoomable="yes"}
+   ![Menu Affiner affichant les options Élaborer, Résumer, Reformuler, Utiliser un langage simplifié avec la liste déroulante Ton](assets/push-genai-6.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
@@ -219,7 +219,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![Génération d’images de l’assistant AI pour les notifications push avec le bouton bascule Style de référence, le sélecteur de marque et le champ Invite](assets/push-gen-img.png){zoomable="yes"}
+   ![Génération d’images avec l’assistant IA pour les notifications push avec le bouton bascule Style de référence, le sélecteur de marque et le champ Prompt](assets/push-gen-img.png){zoomable="yes"}
 
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
@@ -250,7 +250,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    * **[!UICONTROL Enregistrer]** : permet de stocker les ressources en vue d’un accès ultérieur.
 
-   ![Affiner les options des images de notification push en affichant les boutons Générer un fichier similaire, Modifier dans Adobe Express et Enregistrer](assets/push-gen-img-2.png){zoomable="yes"}
+   ![Option Affiner pour les images de notification push affichant les boutons Générer des résultats similaires, Modifier dans Adobe Express et Enregistrer](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 

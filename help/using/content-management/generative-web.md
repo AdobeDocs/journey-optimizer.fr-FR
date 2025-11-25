@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
 source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1308'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ L’Assistant IA dans Journey Optimizer peut vous aider à optimiser l’impac
 
 1. Sélectionnez un **[!UICONTROL composant de texte]** pour cibler uniquement un contenu spécifique. Accédez au menu **[!UICONTROL Afficher l’assistant IA]**.
 
-   ![Concepteur web avec le composant Texte sélectionné et bouton de menu Afficher l’assistant AI](assets/web-gen-full-1.png){zoomable="yes"}
+   ![Concepteur web avec le composant Texte sélectionné et le bouton de menu Afficher l’assistant IA](assets/web-gen-full-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
@@ -50,7 +50,7 @@ L’Assistant IA dans Journey Optimizer peut vous aider à optimiser l’impac
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![Panneau d’assistant AI pour le texte de page web avec le sélecteur de marque, le champ Invite et le bouton Bibliothèque d’invites](assets/web-gen-full-2.png){zoomable="yes"}
+   ![Panneau d’assistant IA pour le texte de page web avec le sélecteur de marque, le champ Prompt et le bouton Bibliothèque de prompts](assets/web-gen-full-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
@@ -113,7 +113,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Afficher l’Assistant IA]**.
 
-   ![Concepteur web avec ressource image sélectionnée et panneau Afficher l’assistant AI ouvert pour la génération d’images](assets/web-gen-img-1.png){zoomable="yes"}
+   ![Concepteur web avec ressource image sélectionnée et panneau Afficher l’assistant IA ouvert pour la génération d’images](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Style de référence]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
@@ -125,7 +125,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![Génération d’images de l’assistant AI pour le web avec le bouton bascule Style de référence, le sélecteur de marque et le champ Invite](assets/web-gen-img-2.png){zoomable="yes"}
+   ![Génération d’images avec l’assistant IA pour le web avec le bouton bascule Style de référence, le sélecteur de marque et le champ Prompt](assets/web-gen-img-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres des images]** :
 
@@ -136,7 +136,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![Panneau des paramètres d’image pour le web avec format, type de contenu, intensité visuelle, couleur et ton, éclairage et composition](assets/web-gen-img-3.png){zoomable="yes"}
+   ![Panneau Paramètres des images pour le web avec les options Format, Type de contenu, Intensité visuelle, Couleur et ton, Éclairage et Composition](assets/web-gen-img-3.png){zoomable="yes"}
 
 1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
@@ -152,7 +152,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![Variantes d’image de page web générées avec score d’alignement des marques et contrôles de prévisualisation](assets/web-gen-img-4.png){zoomable="yes"}
+   ![Variations d’image de page web générées avec le score d’alignement sur la marque et les commandes d’aperçu](assets/web-gen-img-4.png){zoomable="yes"}
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -163,7 +163,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
    * **[!UICONTROL Enregistrer]** : permet de stocker les ressources en vue d’un accès ultérieur.
 
-   ![Affiner les options des images web affichant les boutons Générer un similaire, Modifier dans Adobe Express et Enregistrer](assets/web-gen-img-5.png){zoomable="yes"}
+   ![Options Affiner pour les images web affichant les boutons Générer des résultats similaires, Modifier dans Adobe Express et Enregistrer](assets/web-gen-img-5.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
