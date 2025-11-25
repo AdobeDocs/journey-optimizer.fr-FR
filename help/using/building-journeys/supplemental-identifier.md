@@ -246,4 +246,4 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464794?captions=fre_fr&quality=12)
