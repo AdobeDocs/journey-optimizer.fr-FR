@@ -5,15 +5,19 @@ title: Guide de demande de contenu de l’assistant AI
 description: Découvrez comment créer des invites efficaces pour la génération de contenu optimisée par l’IA à l’aide du framework CO-STAR afin de créer du contenu marketing hautement convertissable et aligné sur la marque.
 role: User
 level: Intermediate
-source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
+source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2107'
 ht-degree: 1%
 
 ---
 
-
 # Bonnes pratiques relatives aux invites de l&#39;assistant AI {#ai-assistant-prompting-guide}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="Exemples de prompts"
+>abstract="Consultez la documentation de Journey Optimizer pour savoir comment créer des invites efficaces qui génèrent du contenu marketing de marque à conversion élevée."
 
 Ce guide vous aide à structurer vos requêtes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de votre campagne.
 Découvrez comment écrire des invites efficaces qui permettent à l&#39;assistant AI de générer du contenu marketing sur la marque de haute qualité adapté à vos objectifs.
@@ -116,19 +120,19 @@ Ces requêtes ne sont pas prises en charge et doivent être traitées par d’au
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&check; **Audience cible définie** : indique la population, le rôle ou le segment.
+&amp;check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&amp;check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&check; **Les sélections déroulantes configurées** : la tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
+&amp;check; **Les sélections déroulantes configurées** : la tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
 
-&check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
+&amp;check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
 
-&check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
+&amp;check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
 
-&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -138,11 +142,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
+&amp;check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
+&amp;check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
 
-&check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
+&amp;check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
 
 **Exemples à éviter :**
 
@@ -159,11 +163,11 @@ Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **A
 
 **Exemples de bons objectifs :**
 
-&check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
+&amp;check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
 
-&check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
+&amp;check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
 
-&check; « Augmentez la participation à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
+&amp;check; « Augmentez la participation à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
 
 **Exemples à éviter :**
 
