@@ -9,62 +9,62 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Surveillance des actions personnalisées {#reporting}
+# Surveiller vos actions personnalisées {#reporting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
->title="Surveillance des actions personnalisées"
->abstract="La page de création de rapports **[!UICONTROL Action personnalisée]** vous permet de suivre les performances et la fiabilité des appels API que vos parcours effectuent à des systèmes tiers."
+>title="Surveiller vos actions personnalisées"
+>abstract="La page de rapports **[!UICONTROL Action personnalisée]** vous permet de suivre les performances et la fiabilité des appels API que vos parcours effectuent à des systèmes tiers."
 
 >[!AVAILABILITY]
 >
->La création de rapports d’actions personnalisées n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée).
+>Les rapports sur les actions personnalisées ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée).
 
-La page de création de rapports **[!UICONTROL Action personnalisée]** vous permet de surveiller la fiabilité et les performances des appels API effectués depuis vos parcours vers des systèmes tiers. Ces rapports vous aident à identifier rapidement les problèmes d’intégration, les goulets d’étranglement de latence ou les limites de limitation/plafonnement qui peuvent avoir un impact sur la diffusion.
+La page de rapports **[!UICONTROL Action personnalisée]** vous permet de surveiller la fiabilité et les performances des appels API effectués depuis vos parcours vers des systèmes tiers. Ces rapports vous aident à identifier rapidement les problèmes d’intégration, les goulots d’étranglement de latence ou les limites/limitations qui peuvent avoir un impact sur la diffusion.
 
-La page de création de rapports d’action personnalisée fonctionne comme d’autres rapports à tout moment dans Journey Optimizer. Pour plus d’informations sur les fonctionnalités des tableaux de bord, consultez [cette documentation](../reports/report-cja-manage.md).
+La page de rapports sur les actions personnalisées fonctionne comme d’autres rapports complets dans Journey Optimizer. Pour en savoir plus sur les fonctionnalités des tableaux de bord, consultez [cette documentation](../reports/report-cja-manage.md).
 
-Pour accéder à la page de création de rapports **[!UICONTROL Action personnalisée]**, cliquez sur ![](assets/do-not-localize/Smock_Monitoring_18_N.svg) sur la page d’accueil **[!UICONTROL Actions]**.
+Pour accéder à la page de rapports **[!UICONTROL Action personnalisée]**, cliquez sur ![](assets/do-not-localize/Smock_Monitoring_18_N.svg) sur la page d’accueil **[!UICONTROL Actions]**.
 
 ![](assets/monitor-1.png)
 
 ➡️ [En savoir plus sur la configuration des actions personnalisées](../action/about-custom-action-configuration.md)
 
-Outre la page de création de rapports **[!UICONTROL Action personnalisée]**, vous pouvez utiliser des **[!DNL Adobe Experience Platform Query Service]** pour créer des requêtes afin de créer des rapports sur les mesures de performances des actions personnalisées. Des exemples de requête sont disponibles dans [cette section](../reports/query-examples.md).
+Outre la page de rapports **[!UICONTROL Action personnalisée]**, vous pouvez utiliser **[!DNL Adobe Experience Platform Query Service]** pour créer des requêtes afin de générer des rapports sur les mesures de performances des actions personnalisées. Vous pouvez consulter des exemples de requête dans [cette section](../reports/query-examples.md).
 
 ## KPI {#kpis}
 
 ![](assets/monitor-2.png)
 
-Les indicateurs clés de performance **[!UICONTROL action personnalisée]** servent de tableau de bord centralisé, fournissant une vue consolidée de l’intégrité opérationnelle et de la fiabilité de vos appels d’action personnalisée. Ces mesures vous permettent d’évaluer les performances, d’identifier les goulets d’étranglement et d’assurer des intégrations stables avec des systèmes externes.
+Les indicateurs clés de performance (KPI) sur les **[!UICONTROL actions personnalisées]** servent de tableau de bord centralisé, fournissant une vue consolidée de l’intégrité opérationnelle et de la fiabilité de vos appels d’action personnalisée. Ces mesures vous permettent d’évaluer les performances, d’identifier les goulots d’étranglement et d’assurer des intégrations stables à des systèmes externes.
 
 +++ En savoir plus sur les KPI des actions personnalisées
 
-* **[!UICONTROL Appels réussis]** : nombre total d&#39;appels HTTP ayant renvoyé une réponse valide sans erreur.
+* **[!UICONTROL Appels réussis]** : nombre total d’appels HTTP ayant renvoyé une réponse valide sans erreur.
 
-* **[!UICONTROL erreurs 4xx/5xx]** : nombre d’appels ayant échoué en raison d’erreurs côté client (4xx) ou côté serveur (5xx), mettant en évidence des problèmes de configuration ou des échecs de point d’entrée.
+* **[!UICONTROL Erreurs 4xx/5xx]** : nombre d’appels ayant échoué en raison d’erreurs côté client (4xx) ou côté serveur (5xx), mettant en évidence des problèmes de configuration ou des échecs de point d’entrée.
 
-* **[!UICONTROL Délais d’expiration]** : nombre d’appels ayant échoué, car ils ont dépassé le temps de réponse maximal. Cela permet de faire apparaître des problèmes de latence ou de performances avec les points d’entrée externes.
+* **[!UICONTROL Délais d’expiration]** : nombre d’appels ayant échoué, car ils ont dépassé le temps de réponse maximal. Cela permet de faire apparaître des problèmes de latence ou de performances avec les points d’entrée externes.
 
-* **[!UICONTROL Appels limités]** : nombre d’appels bloqués en raison des limites de limitation, ce qui permet de s’assurer que les systèmes en aval ne sont pas surchargés.
+* **[!UICONTROL Appels limités]** : nombre d’appels bloqués en raison de limitations, ce qui permet de s’assurer que les systèmes en aval ne sont pas surchargés.
 
-* **[!UICONTROL RPS moyenne]** : nombre de demandes par seconde traitées par l’action personnalisée sur la période sélectionnée.
+* **[!UICONTROL RPS moyenne]** : nombre de requêtes par seconde traitées par l’action personnalisée sur la période sélectionnée.
 
 +++
 
-## Appels au fil du temps {#calls}
+## Historique des appels {#calls}
 
 ![](assets/monitor-3.png)
 
-Le graphique **[!UICONTROL Appels au fil du temps]** affiche la tendance des KPI des appels HTTP sur la période sélectionnée pour le rapport. La granularité de la série temporelle dépend de la période sélectionnée. Par exemple :
+Le graphique **[!UICONTROL Historique des appels]** affiche la tendance des KPI des appels HTTP sur la période sélectionnée pour le rapport. La granularité de la série temporelle dépend de la période sélectionnée. Par exemple :
 
-* Pour un rapport sur 7 jours, chaque point de données affiche les KPI pour un jour.
+* Pour un rapport sur 7 jours, chaque point de données affiche les KPI pour une journée.
 * Si vous sélectionnez une période d’un jour, le graphique affiche les KPI par heure.
 * Si vous sélectionnez une période d’une heure, le graphique affiche les KPI par minute.
 

@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 Pour configurer votre canal web in-app, procédez comme suit :
 
-* Installez l’extension de balise SDK Web pour prendre en charge la messagerie web in-app. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=fr){target="_blank"}
+* Installez l’extension de balise SDK Web pour prendre en charge la messagerie web in-app. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration){target="_blank"}
 
 * Personnalisez vos déclencheurs. La messagerie web in-app prend en charge deux types de déclencheurs : Envoi de données à la plateforme et Déclencheurs manuels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=fr){target="_blank"}
 
@@ -58,7 +58,7 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-      +++Voir Triggers disponibles.
+      +++Affichez les déclencheurs disponibles.
 
       | Package | Déclencheur | Définition |
       |---|---|---|

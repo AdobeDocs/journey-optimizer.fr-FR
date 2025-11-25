@@ -10,9 +10,9 @@ level: Beginner
 keywords: destination, page de destination, conception, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -36,4 +36,4 @@ Plusieurs possibilités sʼoffrent alors à vous :
 >
 >Le concepteur de contenu de page de destination est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 >
->La [loi européenne sur l&#39;accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](../email/accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].
+>La [directive européenne sur l’accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](../email/accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].

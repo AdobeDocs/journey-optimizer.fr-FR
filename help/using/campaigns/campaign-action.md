@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
+   >Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
    >
    >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 

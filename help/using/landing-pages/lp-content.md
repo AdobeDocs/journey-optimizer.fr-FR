@@ -10,9 +10,9 @@ level: Beginner
 keywords: destination, page de destination, création, page, formulaire, composant
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1336'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Grâce au concepteur de contenu de page de destination, vous pouvez également u
 
 >[!NOTE]
 >
->La [loi européenne sur l&#39;accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](../email/accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].
+>La [directive européenne sur l’accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](../email/accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].
 
 ## Utiliser le composant de formulaire {#use-form-component}
 

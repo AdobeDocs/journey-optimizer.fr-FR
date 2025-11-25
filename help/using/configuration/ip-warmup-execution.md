@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2723'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -160,7 +160,7 @@ Pour définir les phases de votre plan de préchauffage d’adresses IP, vous de
 >title="Afficher les profils qualifiés"
 >abstract="Cette colonne affiche le nombre de profils qualifiés. Une fois que l’audience a été évaluée pour une exécution, s’il existe plus de profils ciblés que de profils qualifiés, l’exécution se poursuit, sauf si l’option **Annuler les exécutions activées en cas d’erreurs** est activée. Dans ce cas, l’exécution est annulée."
 
-Après avoir défini les phases de votre plan de préchauffage d’adresses IP, vous devez configurer les exécutions individuelles au sein de chaque phase. Chaque exécution nécessite un planning. Vous pouvez éventuellement configurer les filtres d’engagement, la gestion des erreurs et les fenêtres de reprise pour garantir une exécution optimale. Procédez comme suit :
+Après avoir défini les phases de votre plan de préchauffage d’adresses IP, vous devez configurer les exécutions individuelles au sein de chaque phase. Chaque exécution nécessite un planning. Vous pouvez éventuellement configurer les filtres d’engagement, la gestion des erreurs et les fenêtres de nouvelle tentative pour garantir une exécution optimale. Procédez comme suit :
 
 1. Sélectionnez un planning pour chaque exécution afin de vous assurer qu’il est exécuté à l’heure indiquée.
 

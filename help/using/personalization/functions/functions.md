@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2422'
 ht-degree: 100%
 
@@ -518,4 +518,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

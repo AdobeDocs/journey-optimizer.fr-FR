@@ -5,12 +5,12 @@ description: En savoir plus sur les fonctions de liste
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: list, fonctions, expression, parcours, tableau, collection
+keywords: liste, fonctions, expression, parcours, tableau, collection
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 85%
 
 Les fonctions de liste vous permettent de manipuler et d’utiliser des collections de valeurs dans vos expressions de parcours. Ces fonctions sont essentielles pour le filtrage, le tri, la transformation et l’analyse des tableaux et des listes dans vos parcours clients.
 
-Utilisez des fonctions de liste lorsque vous devez :
+Utilisez des fonctions de liste lorsque vous devez :
 
-* Filtrer et extraire des éléments spécifiques des collections en fonction de critères ([filter](#filter), [getListItem](#getListItem))
-* Trier et organiser les éléments de liste par ordre croissant ou décroissant ([sort](#sort))
-* Supprimer les doublons et obtenir des valeurs uniques des listes ([distinct](#distinct), [distinctWithNull](#distinctWithNull))
-* Vérifier si des valeurs existent dans les collections ([in](#in))
-* Limiter le nombre d’éléments renvoyés par une liste ([limit](#limit))
+* filtrer et extraire des éléments spécifiques des collections en fonction de critères ([filter](#filter), [getListItem](#getListItem)) ;
+* trier et organiser les éléments de liste par ordre croissant ou décroissant ([sort](#sort)) ;
+* Supprime les doublons et obtenir des valeurs uniques des listes ([distinct](#distinct), [distinctWithNull](#distinctWithNull))
+* vérifie si des valeurs existent dans les collections ([in](#in)) ;
+* limiter le nombre d’éléments renvoyés par une liste ([limit](#limit)) ;
 * Obtenir la taille d’une liste ([listSize](#listSize)) ou transformer des listes en différents formats ([serializeList](#serializeList))
-* Effectuer des opérations définies telles que la recherche d’éléments communs entre les listes ([intersect](#intersect))
+* effectuer des opérations définies telles que la recherche d’éléments communs entre les listes ([intersect](#intersect)).
 
 Les fonctions de liste fournissent des outils puissants pour travailler avec des structures de données complexes, ce qui permet une manipulation de données sophistiquée et une logique conditionnelle basée sur les contenus de collection.
 
@@ -161,7 +161,7 @@ Renvoie [10, 2, null]
 
 +++
 
-**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
+**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
 
 ## filter {#filter}
 
@@ -309,7 +309,7 @@ Renvoie « 2 »
 
 `getListItem(["A", "B", "C"], 2)`
 
-Renvoie « C »
+Renvoie « C »
 
 Exemples avec un champ d’événement &#39;event.appVersion&#39; avec la valeur : « 20.45.2.3434 »
 
@@ -414,21 +414,21 @@ Renvoie les valeurs communes dans les deux listes dʼentrée. Si lʼune des deux
 
 +++Signatures et types renvoyés
 
-`intersect(listString,listString)` : listString
+`intersect(listString,listString)` : listString
 
-`intersect(listDecimal,listDecimal)` : listDecimal
+`intersect(listDecimal,listDecimal)` : listDecimal
 
-`intersect(listInteger,listInteger)` : listInteger
+`intersect(listInteger,listInteger)` : listInteger
 
-`intersect(listDateTime,listDateTime)` : listDateTime
+`intersect(listDateTime,listDateTime)` : listDateTime
 
-`intersect(listDateTimeOnly,listDateTimeOnly)` : listDateTimeOnly
+`intersect(listDateTimeOnly,listDateTimeOnly)` : listDateTimeOnly
 
-`intersect(listDateOnly,listDateOnly)` : listDateOnly
+`intersect(listDateOnly,listDateOnly)` : listDateOnly
 
-`intersect(listDuration,listDuration)` : listDuration
+`intersect(listDuration,listDuration)` : listDuration
 
-`intersect(listBoolean,listBoolean)` : listBoolean
+`intersect(listBoolean,listBoolean)` : listBoolean
 
 Renvoie une liste.
 

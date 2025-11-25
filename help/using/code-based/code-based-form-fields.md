@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1218'
 ht-degree: 100%
 
@@ -246,4 +246,4 @@ Vous pourrez facilement modifier les champs de formulaire d’un parcours ou d�
 
 Découvrez comment ajouter des champs modifiables aux modèles de contenu de canal d’expérience basée sur du code.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463993/?captions=fre_fr&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

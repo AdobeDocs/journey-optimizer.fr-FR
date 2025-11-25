@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1638'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Concevoir du contenu accessible {#accessible-content}
 
-L’[Acte législatif européen sur l’accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} est une directive visant à renforcer le marché intérieur des produits et services accessibles en éliminant les obstacles dus aux divergences entre les règles nationales des États membres.
+L’[Acte législatif européen sur l’accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} est une directive visant à renforcer le marché intérieur des produits et services accessibles en éliminant les obstacles dus aux divergences entre les règles nationales des États membres.
 
 Cette directive stipule que toutes les communications numériques, y compris les e-mails, les bulletins d’information, les fichiers PDF et le contenu téléchargeable, doivent être accessibles. Lors de la création de contenu pour vos destinataires, vous devez donc respecter des consignes précises, telles que l’utilisation de polices accessibles, de formats lisibles et d’un texte secondaire pour les images.
 
@@ -144,7 +144,7 @@ Pour vérifier de manière plus fiable si votre contenu est accessible, recherch
 
 Le mode sombre améliore l’accessibilité visuelle pour les personnes sensibles à la lumière ou ayant une déficience visuelle, ainsi que leur expérience de visionnage.
 
-Le Designer d’e-mail vous permet de passer à la vue **[!UICONTROL Mode sombre]** et de définir des paramètres personnalisés spécifiques qui seront affichés par les clients de messagerie de prise en charge. [Voici comment procéder](dark-mode.md)
+Le Concepteur d’e-mail vous permet de passer en vue **[!UICONTROL Mode sombre]** et de définir des paramètres personnalisés spécifiques qui seront affichés par les clients de messagerie pris en charge. [Voici comment procéder](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 

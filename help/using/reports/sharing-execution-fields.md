@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -107,19 +107,19 @@ Type : chaîne
 
 ## actionOriginEndpoint {#actionoriginendpoint}
 
-URI du point d’entrée d’action personnalisé utilisé dans l’action.
+URI du point d’entrée d’action personnalisée utilisé dans l’action.
 
 Type : chaîne
 
 ## actionOriginMethod {#actionoriginmethod}
 
-Cette section décrit la méthode utilisée dans la requête HTTP (GET ou POST).
+Indique la méthode utilisée dans la requête HTTP (GET ou POST).
 
 Type : chaîne
 
 ## actionOriginIsMTLS {#actionoriginismtls}
 
-Indique si le protocole MTLS est activé pour le point d’entrée.
+Indique si le protocole MTLS est activé ou non pour le point d’entrée.
 
 Type : booléen
 
@@ -131,27 +131,27 @@ Type : booléen
 
 ## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
 
-Elle décrit la date et l’heure auxquelles la requête HTTP est lancée. En cas de nouvelle tentative, il s’agit de la date et de l’heure auxquelles la dernière tentative est lancée. La date et l’heure utilisent le format ISO8601 dans le fuseau horaire UTC.
+Indique la date et l’heure auxquelles la requête HTTP est envoyée. En cas de nouvelles tentatives, il s’agit de la date et de l’heure auxquelles la dernière tentative est effectuée. La date et l’heure utilisent le format ISO 8601 avec le fuseau horaire UTC.
 
-Notez que cette date et heure seront généralement légèrement postérieures à l’entrée du profil dans le nœud d’action personnalisée, ou significativement postérieures à son entrée dans le nœud en cas de limitation.
+Notez que la date et l’heure seront généralement légèrement postérieures à l’entrée du profil dans le nœud d’action personnalisée, ou significativement postérieures à son entrée dans le nœud en cas de limitation.
 
-Type : date et heure
+Type : date et heure
 
 ## actionExecutionOriginTime {#actionexecutionorigintime}
 
-Décrit le temps de réponse de l’appel HTTP. En cas de nouvelle tentative, il s’agit de la durée nécessaire à la dernière tentative. Il mesure le temps entre le moment où la requête HTTP est lancée et le moment où la réponse complète est renvoyée du serveur. Notez que cela exclut tout temps d’attente dans la file d’attente en cas de ralentissement.
+Indique le temps de réponse de l’appel HTTP. En cas de nouvelles tentatives, il s’agit de la durée de la dernière tentative effectuée. Cette fonction mesure le temps entre le moment où la requête HTTP est envoyée et le moment où la réponse complète est renvoyée à partir du serveur. Attention, cela exclut le temps passé dans la file d’attente en cas de limitation.
 
 Type : long
 
 ## actionIsThrottled {#actionisthrottled}
 
-Indique si le ralentissement est activé pour le point d’entrée.
+Indique si la limitation est activée pour le point d’entrée.
 
 Type : booléen
 
 ## actionWaitTime {#actionwaittime}
 
-Cela décrit comment, lorsque la limite de débit configurée est atteinte pour un point d’entrée limité, les appels sont placés en file d’attente et traités à la fréquence configurée. Ce champ indique le temps passé par l’appel à attendre dans la file d’attente avant d’être exécuté. Spécifié uniquement si actionIsThrottled == true.
+Indique lorsque la limite de débit configurée est atteinte pour un point d’entrée limité. Les appels sont placés en file d’attente et traités à la fréquence configurée. Ce champ indique le temps que l’appel a passé en file d’attente avant d’être exécuté. Spécifié uniquement si actionIsThrottled == true.
 
 Type : long
 

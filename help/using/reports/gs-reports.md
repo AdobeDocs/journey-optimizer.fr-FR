@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Sélectionnez une expérience entrante pour découvrir les **rapports globaux su
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="In-app" src="../channels/assets/do-not-localize/inapp.jpg">
 <div align="center"><p><strong>Canal in-app</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Rapport de parcours</strong></a></p></div></td>
-<td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
+<td><p><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Canal web</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Rapport de parcours</strong></a></p></div></td>
 <td><img alt="Expérience basée sur du code" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Expériences basées sur du code</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapport de campagne</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapport de parcours</strong></a></p></div></td>
@@ -136,12 +136,12 @@ Sélectionnez une expérience entrante pour découvrir les **rapports globaux su
 
 ### Vidéo pratique {#video}
 
-Découvrez comment utiliser efficacement le rapport à toute heure dans Adobe Journey Optimizer.
+Découvrez comment utiliser efficacement le rapport complet dans Adobe Journey Optimizer.
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-Découvrez d’autres tutoriels vidéo sur le reporting et l’analyse dans [tutoriels sur le reporting](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Découvrez d’autres tutoriels vidéo sur la création e rapports et l’analyse dans les [tutoriels sur la création de rapports](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}.

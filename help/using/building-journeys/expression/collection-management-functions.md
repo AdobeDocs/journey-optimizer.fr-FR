@@ -10,7 +10,7 @@ keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
 ht-degree: 100%
 

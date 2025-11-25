@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 source-git-commit: 460ac269404842001f320df6404db474a34c30b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,4 +39,4 @@ Il offre les principaux avantages suivants :
 
 * **Collaboration fluide** : partagez facilement les résultats et gérez les rôles d’équipe avec des alertes en temps réel.
 
-➡️ [Accéder à la documentation de Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/overview)
+➡️ [Accéder à la documentation Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/overview)

@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2076'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-      +++Voir Triggers disponibles.
+      +++Affichez les déclencheurs disponibles.
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -110,7 +110,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
    1. Sélectionnez la fréquence de votre déclencheur lorsque votre message in-app est actif :
 
       * **[!UICONTROL Afficher à chaque fois]** : toujours afficher le message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
-      * **[!UICONTROL Afficher une fois]** : ce message s’affiche une seule fois par session utilisateur et reste visible dans toutes les fenêtres ou activités jusqu’à sa fermeture. Pour le limiter à un certain écran ou le faire disparaître automatiquement, utilisez une logique personnalisée avec le délégué de messagerie.
+      * **[!UICONTROL Afficher une fois]** : ce message s’affiche une seule fois par session utilisateur et reste visible dans toutes les fenêtres ou activités jusqu’à sa fermeture. Pour le limiter à un certain écran ou le faire disparaître automatiquement, utilisez une logique personnalisée avec le délégué de messagerie.
       * **[!UICONTROL Afficher jusqu’au clic]** : afficher ce message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action « faisant l’objet d’un clic ».
 
 1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
@@ -157,7 +157,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-      +++Voir Triggers disponibles.
+      +++Affichez les déclencheurs disponibles.
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -236,7 +236,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451884?captions=fre_fr&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445290/?captions=fre_fr&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -252,7 +252,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451832/?captions=fre_fr&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 

@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1091'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -422,12 +422,12 @@ L’opération suivante renvoie la date au format suivant : MM/JJ/AA.
 
 ### Caractères de motif {#pattern-characters}
 
-Certaines lettres motifs peuvent ressembler à d’autres, mais représentent des concepts différents.
+Certaines lettres de motif peuvent ressembler à d’autres, mais représenter des concepts différents.
 
-| Modèle | Signification | Exemple (par `2023-12-31T10:15:30Z`) |
+| Motif | Signification | Exemple (pour `2023-12-31T10:15:30Z`) |
 |---------|---------|--------------------------------------|
 | `y` | Année civile (année standard) | `2023` |
-| `Y` | Année basée sur une semaine (ISO 8601). Peut varier selon les limites de l’année. | `2024` (depuis le 31 décembre 2023, au cours de la première semaine de 2024) |
+| `Y` | Année basée sur les semaines (ISO 8601). Peut varier à la fin de l’année. | `2024` (puisque le 31 décembre 2023 tombe dans la première semaine de 2024) |
 | `M` | Mois de l’année (1-12 ou texte comme `Jan`, `January`) | `12` ou `Dec`. |
 | `m` | Minute de l’heure (0-59) | `15` |
 | `d` | Jour du mois (1-31) | `31` |
@@ -435,7 +435,7 @@ Certaines lettres motifs peuvent ressembler à d’autres, mais représentent de
 
 ### Formater la date avec la prise en charge des paramètres régionaux{#format-date-locale}
 
-La fonction `formatDate` peut être utilisée pour formater une valeur d’heure et de date au format de la langue correspondante, c’est-à-dire dans le paramètre régional souhaité. Le format doit être un modèle Java DateTimeFormat valide.
+La fonction `formatDate` peut être utilisée pour formater une valeur d’heure et de date au format de la langue correspondante, c’est-à-dire dans les paramètres régionaux souhaités. Le format doit être un modèle Java DateTimeFormat valide.
 
 **Syntaxe**
 

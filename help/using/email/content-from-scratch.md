@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: contenu, éditeur, e-mail, commencer
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -60,11 +60,11 @@ ht-degree: 91%
 >abstract="Le Concepteur vous permet de définir facilement la disposition de votre modèle en sélectionnant la structure des colonnes."
 
 
-Utilisez le Designer d’e-mail [!DNL Adobe Journey Optimizer] pour définir facilement la structure de vos contenus. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de vos contenus en quelques secondes.
+Utilisez le concepteur d’e-mail d’[!DNL Adobe Journey Optimizer] pour définir facilement la structure de vos contenus. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de vos contenus en quelques secondes.
 
 >[!NOTE]
 >
->La [loi européenne sur l&#39;accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].
+>La [loi européenne sur l’accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].
 
 Pour commencer à créer votre contenu , procédez comme suit :
 
@@ -84,7 +84,7 @@ Pour commencer à créer votre contenu , procédez comme suit :
 
    ![](assets/email_designer_structure_components.png)
 
-   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur des colonnes en déplaçant les flèches situées en bas de chacune d’elles.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur des colonnes en déplaçant les flèches situées en bas de chacune d’elles.
 
    >[!NOTE]
    >

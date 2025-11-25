@@ -10,7 +10,7 @@ level: Intermediate
 keywords: expression, éditeur, aide, cas d’utilisation, personnalisation
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -344,4 +344,4 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 Découvrez comment utiliser les fonctions d’assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

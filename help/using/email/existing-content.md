@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Importation du contenu de vos e-mails
+title: Importer le contenu de vos e-mails
 description: Découvrez comment importer du contenu d'e-mail
 feature: Email Design
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: e-mail, importation, contenu, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 >[!TIP]
 >
->Si vous disposez de conceptions d’image (JPEG ou PNG) au lieu de fichiers HTML, vous pouvez utiliser le convertisseur [image vers HTML](image-to-html.md) pour les convertir automatiquement en modèles d’e-mail HTML modifiables à l’aide de l’IA.
+>Si vous disposez d’images (JPEG ou PNG) au lieu de fichiers HTML, vous pouvez utiliser le [convertisseur d’images en HTML](image-to-html.md) pour les convertir automatiquement en modèles d’e-mail HTML modifiables à l’aide de l’IA.
 
 Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
@@ -60,4 +60,4 @@ Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
 Découvrez comment importer du contenu HTML existant, améliorer la conception et ajouter une page miroir et des liens de désabonnement. Apprenez également comment coder le contenu.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421910?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

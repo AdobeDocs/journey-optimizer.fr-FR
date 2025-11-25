@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -107,9 +107,9 @@ L&#39;opération suivante renvoie la première des cinq principales commandes au
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Trier et obtenir N premiers dans le tableau {#first-n}
+## Trier et obtenir les N premiers dans le tableau {#first-n}
 
-La fonction `topN` trie un tableau dans l’ordre décroissant en fonction de l’expression numérique donnée et renvoie les premiers éléments `N`. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
+La fonction `topN` trie un tableau par ordre décroissant en fonction de l’expression numérique donnée et renvoie les `N` premiers éléments. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
 
 Cette fonction
 **Syntaxe**
@@ -206,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Trier et obtenir le dernier N dans le tableau {#last-n}
+## Trier et obtenir les N derniers dans le tableau {#last-n}
 
-La fonction `bottomN` trie un tableau dans l’ordre croissant en fonction de l’expression numérique donnée et renvoie les premiers éléments `N`. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
+La fonction `bottomN` trie un tableau par ordre croissant en fonction de l’expression numérique donnée et renvoie les `N` premiers éléments. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
 
 **Syntaxe**
 

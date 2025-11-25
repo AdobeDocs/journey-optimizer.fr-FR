@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2153'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes*
 
 * Découvrez comment résoudre les problèmes de vos parcours sur [cette page](../building-journeys/troubleshooting.md).
 
-* Découvrez comment vérifier et activer vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md)
+* Découvrez comment vérifier et activer vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md)
 
 
 En outre, lorsqu’un certain ensemble de conditions est atteint, des messages d’alerte peuvent être envoyés à toutes les personnes de votre organisation qui se sont abonnées à ces messages. Ces alertes sont disponibles à partir du menu dédié **[!UICONTROL Alertes]**. Adobe Experience Platform fournit plusieurs règles d’alerte prédéfinies que vous pouvez activer pour votre organisation. En outre, vous pouvez vous abonner à des alertes système spécifiques à [!DNL Adobe Journey Optimizer], comme indiqué sur cette page.
@@ -37,12 +37,12 @@ Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UI
 * Alertes spécifiques aux parcours :
 
    * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
-   * l’alerte [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate) (remplace l’alerte précédente Action personnalisée en cas d’échec du Parcours)
+   * Alerte [Taux d’erreur d’action personnalisée dépassé](#alert-custom-action-error-rate) (remplace l’alerte précédente Échec d’action personnalisée du parcours)
    * Alerte [Taux de rejet de profil dépassé](#alert-discard-rate)
    * Alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
-   * l’alerte [Parcours publié](#alert-journey-published)
-   * l’alerte [Parcours terminé](#alert-journey-finished)
-   * l’alerte [Action personnalisée de limitation déclenchée](#alert-custom-action-capping)
+   * Alerte [Parcours publié](#alert-journey-published)
+   * Alerte [Parcours terminé](#alert-journey-finished)
+   * Alerte [Limitation d’action personnalisée déclenchée](#alert-custom-action-capping)
 
 * Alertes spécifiques à la configuration des canaux :
 
@@ -58,7 +58,7 @@ Vous pouvez vous abonner à chaque alerte à partir de l’interface d’utilisa
 
 En fonction des préférences des personnes abonnées, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface d’utilisation (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les **[!UICONTROL Préférences]** [!DNL Adobe Experience Cloud]. [En savoir plus](../start/user-interface.md#in-product-uc)
 
-Lorsqu’une alerte est résolue, les abonnés reçoivent une notification « Résolu ». Les alertes sont résolues au bout d’une heure pour vous protéger contre le basculement des valeurs.
+Lorsqu’une alerte est résolue, les personnes abonnées reçoivent une notification « Résolue ». Les alertes sont résolues au bout d’une heure pour vous protéger contre la fluctuation des valeurs.
 
 
 ### Abonnement global {#global-subscription}
@@ -85,13 +85,13 @@ Pour vous abonner ou vous désabonner d’une alerte pour un parcours spécifiqu
 
    ![Abonnement à une alerte concernant un parcours spécifique](assets/subscribe-journey-alert.png){width=75%}
 
-1. Choisissez la ou les alertes. Les alertes suivantes sont disponibles : [Taux d’erreur de profil ignoré dépassé](#alert-discard-rate), [Taux d’erreur d’action personnalisée dépassé](#alert-custom-action-error-rate), [Taux d’erreur de profil dépassé](#alert-profile-error-rate), [Parcours publié](#alert-journey-published), [Parcours terminé](#alert-journey-finished) et [Limitation d’action personnalisée déclenchée](#alert-custom-action-capping).
+1. Choisissez la ou les alertes. Les alertes suivantes sont disponibles : [Taux d’erreur de profil ignoré dépassé](#alert-discard-rate), [Taux d’erreur d’action personnalisée dépassé](#alert-custom-action-error-rate), [Taux d’erreur de profil dépassé](#alert-profile-error-rate), [Parcours publié](#alert-journey-published), [Parcours terminé](#alert-journey-finished) et [Limitation d’action personnalisée déclenchée](#alert-custom-action-capping).
 
 1. Pour vous désabonner d’une alerte, désélectionnez-la dans le même écran.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
@@ -108,7 +108,7 @@ Cette alerte vous avertit si une activité **Lecture d’audience** n’a trait�
 
 Les alertes sur l’activité **Lecture d’audience** ne s’appliquent qu’aux parcours récurrents. Les activités **Lecture d’audience** dans des parcours dynamiques dont l’exécution est planifiée **Une fois** ou **Dès que possible** sont ignorées.
 
-Les alertes de **Lecture d’audience** sont résolues lorsqu’un profil accède au nœud **Lecture d’audience** ou après 1 heure.
+Les alertes sur **Lecture d’audience** sont résolues lorsqu’un profil entre dans le nœud **Lecture d’audience**, ou après une heure.
 
 Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte **Échec du déclenchement de la lecture d’audience** est **Retards, échecs et erreurs dans la lecture d’audience du parcours**.
 
@@ -116,7 +116,7 @@ Pour résoudre les alertes **Lecture d’audience**, vérifiez la taille de l’
 
 ### Taux de rejet de profil dépassé {#alert-discard-rate}
 
-Cette alerte vous avertit si le ratio des rejets de profil par rapport aux profils ayant rejoint le parcours au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
+Cette alerte vous avertit si le ratio des rejets de profil par rapport aux profils ayant rejoint le parcours au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
@@ -131,11 +131,11 @@ Il existe plusieurs raisons pour lesquelles un profil peut être rejeté, ce qui
 
 ### Taux d’erreur d’action personnalisée dépassé {#alert-custom-action-error-rate}
 
-Cette alerte vous alerte si le ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes et ayant dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
+Cette alerte vous alerte si le ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes et ayant dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
 >[!NOTE]
 >
->Cette alerte remplace l’alerte précédente Échec de l’action personnalisée de Parcours **&#x200B;**.
+>Cette alerte remplace l’alerte précédente **Échec de l’action personnalisée du parcours**.
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
@@ -144,13 +144,13 @@ Les erreurs d’actions personnalisées peuvent se produire pour diverses raison
 * Vérifiez votre action personnalisée à l’aide du [mode test](../building-journeys/testing-the-journey.md) sur un autre parcours.
 * Consultez le [rapport de votre parcours](../reports/journey-live-report.md) pour afficher les motifs d’erreur lors de l’action.
 * Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur « failureReason ».
-* Vérifiez que l’action personnalisée est configurée correctement et que l’authentification est toujours valide. Effectuez un contrôle manuel avec Postman, par exemple.
+* Vérifiez que l’action personnalisée est bien configurée et que l’authentification est toujours valide. Effectuez un contrôle manuel avec Postman, par exemple.
 * Vérifiez que le point d’entrée est accessible et que l’action personnalisée peut y accéder via le vérificateur de connectivité de l’action personnalisée.
 * vérifier les informations d’authentification, la connectivité Internet, etc.
 
 ### Taux d’erreur de profil dépassé {#alert-profile-error-rate}
 
-Cette alerte vous avertit si le taux de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
+Cette alerte vous avertit si le ratio des profils erronés par rapport aux profils ayant rejoint le parcours au cours des 5 dernières minutes a dépassé le seuil. Le seuil par défaut est défini sur 20 %, mais vous pouvez [définir un seuil personnalisé](#custom-threshold).
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
@@ -164,21 +164,21 @@ Il s’agit d’une alerte informative qui vous permet de suivre les événement
 
 ### Parcours terminé {#alert-journey-finished}
 
-Cette alerte vous avertit lorsqu’un parcours est terminé. La définition de « terminé » varie en fonction du type de parcours :
+Cette alerte vous avertit lorsqu’un parcours est terminé. La définition de « terminé » varie en fonction du type de parcours :
 
-| Type de parcours | Récurrent ? | A une date de fin ? | Définition de « terminé » |
+| Type de parcours | Récurrent ? | A une date de fin ? | Définition de « terminé » |
 |--------------|------------|---------------|--------------------------|
-| Lecture d’audience | Non | S.O. | 91 jours après le début de l’exécution |
-| Lecture d’audience | Oui | Non | 91 jours après le début de l’exécution |
+| Lecture d’audience | Non | S.O. | 91 jours après le début de l’exécution |
+| Lecture d’audience | Oui | Non | 91 jours après le début de l’exécution |
 | Lecture d’audience | Oui | Oui | Lorsque la date de fin est atteinte |
 | Parcours déclenché par un événement | S.O. | Oui | Lorsque la date de fin est atteinte |
-| Parcours déclenché par un événement | S.O. | Non | Fermées dans l’interface utilisateur ou via l’API |
+| Parcours déclenché par un événement | S.O. | Non | Si fermeture dans l’interface d’utilisation ou via l’API |
 
 Il s’agit d’une alerte informative qui vous permet de suivre l’achèvement du parcours. Il n’existe aucun critère de résolution, car il s’agit d’une notification ponctuelle.
 
 ### Limitation d’action personnalisée déclenchée {#alert-custom-action-capping}
 
-Cette alerte vous avertit lorsque la limitation a été déclenchée sur une action personnalisée. La limitation est utilisée pour limiter le nombre d’appels envoyés à un point d’entrée externe afin d’éviter de le surcharger.
+Cette alerte vous avertit lorsque la limitation a été déclenchée sur une action personnalisée. La limitation est utilisée pour définir un nombre maximal d’appels envoyés à un point d’entrée externe afin d’éviter de le surcharger.
 
 Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration.
 
@@ -186,7 +186,7 @@ Lorsque la limitation est déclenchée, cela signifie que le nombre maximal d’
 
 Cette alerte est résolue lorsque la limitation n’est plus active ou lorsqu’aucun profil n’atteint l’action personnalisée pendant la période d’évaluation.
 
-Pour résoudre les problèmes de limitation :
+Pour résoudre les problèmes de limitation :
 
 * Passez en revue la configuration de limitation de votre action personnalisée pour vous assurer que les limites sont appropriées à votre cas d’utilisation.
 * Vérifiez si le volume des appels API est plus élevé que prévu et envisagez d’ajuster la conception de votre parcours ou les paramètres de limitation.

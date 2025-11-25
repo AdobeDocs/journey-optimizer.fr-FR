@@ -7,9 +7,9 @@ level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '981'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
   >[!NOTE]
   >
-  >L’utilisation des attributs `context.datastream` est actuellement prise en charge uniquement pour les campagnes de canal web dans Journey Optimizer. Toute tentative d’utilisation de `context.datastream` dans les messages In-App entraînera des erreurs de validation telles que des `Invalid syntax Missing schema field: 'datastream`.
+  >L’utilisation des attributs `context.datastream` est actuellement prise en charge uniquement pour les campagnes de canal web dans Journey Optimizer. Toute tentative d’utilisation de `context.datastream` dans les messages in-app entraînera des erreurs de validation telles que `Invalid syntax Missing schema field: 'datastream`.
 
   ![](assets/inapp_config_6.png)
 

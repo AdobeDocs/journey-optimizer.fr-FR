@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1400'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d�
 
    >[!NOTE]
    >
-   >Lors de la configuration d’un fournisseur de SMS personnalisé avec l’authentification de base ou au porteur, vous devez inclure le paramètre `authOption` dans la payload JSON. En outre, le **payload du fournisseur** doit référencer les variables de modèle `{{fromNumber}}`, `{{toNumber}}` et `{{message}}`.
+   >Lors de la configuration d’un fournisseur de SMS personnalisé avec l’authentification de base ou porteur, vous devez inclure le paramètre `authOption` dans la payload JSON. En outre, la **payload du fournisseur** doit référencer les variables de modèle `{{fromNumber}}`, `{{toNumber}}` et `{{message}}`.
 
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
@@ -210,7 +210,7 @@ Lors de la configuration d’un webhook, vous pouvez définir son objectif en fo
 
 1. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter vos catégories de mots-clés, puis configurez-les comme suit :
 
-   * **[!UICONTROL Catégorie de mots-clés entrants]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Double Opt-in]**, **[!UICONTROL Help]** ou **[!UICONTROL Custom]**.
+   * **[!UICONTROL Catégorie de mots-clés entrants]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Double Opt-in]**, **[!UICONTROL Aide]** ou **[!UICONTROL Personnalisé]**.
 
    * **[!UICONTROL Saisir un mot-clé]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter plusieurs mots-clés.
 

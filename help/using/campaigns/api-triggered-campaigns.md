@@ -10,9 +10,9 @@ level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour ce faire, vous devez d’abord créer une campagne déclenchée par API dan
 
 >[!NOTE]
 >
->Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
+>Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
 >
 >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
@@ -54,4 +54,4 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452727?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

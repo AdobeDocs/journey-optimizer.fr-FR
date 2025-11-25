@@ -5,12 +5,12 @@ description: En savoir plus sur les fonctions de conversion
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: conversion, fonctions, expression, parcours, type, cast
+keywords: conversion, fonctions, expression, parcours, type, convertir
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 85%
 
 Les fonctions de conversion vous permettent de transformer des données d’un type en un autre dans vos expressions de parcours. Ces fonctions sont essentielles pour garantir la compatibilité des données et une gestion appropriée des types de données lorsque vous travaillez avec différentes sources de données et opérations.
 
-Utilisez des fonctions de conversion lorsque vous devez :
+Utilisez des fonctions de conversion lorsque vous devez :
 
 * Convertir les valeurs de chaîne en types numériques, booléens ou dates ([toInteger](#toInteger), [toDecimal](#toDecimal), [toBool](#toBool))
 * Transformer les dates et heures entre différents formats et représentations ([toDateTime](#toDateTime), [toDateTimeOnly](#toDateTimeOnly), [toDateOnly](#toDateOnly))
-* Conversion de valeurs numériques entre les types entier et décimal ([toInteger](#toInteger), [toDecimal](#toDecimal))
-* Convertir les valeurs au format chaîne ([toString](#toString)) ou durée ([toDuration](#toDuration))
+* Convertir les valeurs numériques entre les types entier et décimal ([toInteger](#toInteger), [toDecimal](#toDecimal))
+* Convertir les valeurs au format chaîne ([toString](#toString)) ou en durée ([toDuration](#toDuration))
 * Assurer la compatibilité des types pour les comparaisons et les opérations
 * Traiter les données provenant de sources externes qui peuvent avoir différents formats de type
 

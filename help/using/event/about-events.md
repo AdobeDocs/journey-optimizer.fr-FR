@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1555'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Pour les événements générés par le système, le service Pipeline filtre les
 
 Adobe Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours par seconde au niveau d’une organisation, sur tous les sandbox. Ce quota s’applique à tous les événements utilisés dans les parcours en cours, qui incluent les parcours **Actifs**, de **Test à blanc**, **Fermés** et **Mis en pause**. Lorsque ce quota est atteint, les nouveaux événements sont mis en file d’attente avec un taux de traitement de 5 000 éléments par seconde. La durée maximale qu’un événement peut passer dans la file d’attente est de **24 heures**.
 
-Pour plus d’informations sur les taux de traitement des parcours et l’impact des différents types de parcours sur le débit, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
+Pour plus d’informations sur les taux de traitement des parcours et sur la façon dont les types de parcours affectent les débits, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 
 Les types d’événements suivants sont comptabilisés dans le quota des 5 000 TPS :
 
@@ -122,8 +122,8 @@ Les événements utilisés dans des parcours **actifs**, **brouillons** ou **fer
 
 Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431514?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416325?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

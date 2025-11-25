@@ -10,7 +10,7 @@ level: Intermediate
 keywords: expression, éditeur, cas d’utilisation, personnalisation
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -110,4 +110,4 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
 La vidéo ci-dessous présente un cas d’utilisation similaire en exploitant les données contextuelles d’un parcours pour personnaliser un e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428528?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

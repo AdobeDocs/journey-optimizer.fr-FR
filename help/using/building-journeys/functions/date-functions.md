@@ -1,32 +1,32 @@
 ---
 product: journey optimizer
 title: Fonctions de date
-description: En savoir plus sur les fonctions de date
+description: Découvrir les fonctions de date
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: date, fonctions, expression, parcours, heure
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Fonctions de date {#date-functions}
 
-Les fonctions de date vous permettent de manipuler et d’utiliser des valeurs de date et d’heure dans vos expressions de parcours. Ces fonctions sont essentielles pour les conditions temporelles, la planification et les calculs temporels de vos parcours client.
+Les fonctions de date permettent de manipuler et d’utiliser des valeurs de date et d’heure dans vos expressions de parcours. Ces fonctions sont essentielles pour les conditions temporelles, la planification et les calculs temporels de vos parcours clientèle.
 
-Utilisez des fonctions de date lorsque vous devez :
+Utilisez les fonctions de date lorsque vous devez :
 
-* Obtenez l’heure ou la date actuelles avec une gestion spécifique des fuseaux horaires ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
-* Vérifiez si une date se situe dans une plage de temps spécifique ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
+* Obtenir l’heure ou la date actuelle avec une gestion spécifique des fuseaux horaires ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
+* Vérifie si une date se situe dans une période spécifique ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
 * Modifier les composants de date et d’heure ([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone))
 * Effectuer des calculs et des comparaisons temporels
-* Conversion entre différents formats d&#39;heure et représentations
+* Convertit entre différents formats et représentations temporels
 
-Les fonctions de date fournissent un contrôle précis sur la logique temporelle, ce qui vous permet de créer des conditions et des chemins de parcours sensibles au temps qui répondent à des périodes et à des plannings spécifiques.
+Les fonctions de date apportent un contrôle précis sur la logique temporelle, ce qui vous permet de créer des conditions et des chemins de parcours sensibles au temps qui réagissent à des calendriers et à des plannings spécifiques.
 
 ## currentTimeInMillis {#currentTimeInMillis}
 

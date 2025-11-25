@@ -1,28 +1,28 @@
 ---
 product: journey optimizer
 title: Fonctions d’agrégation
-description: En savoir plus sur les fonctions d’agrégation
+description: Découvrir les fonctions d’agrégation
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: agrégation, fonctions, expression, parcours, moyenne, nombre, max, min, somme
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Fonctions d’agrégation {#aggregation-functions}
 
-Les fonctions d&#39;agrégation effectuent des calculs sur un ensemble de valeurs et renvoient un seul résultat résumé. Ces fonctions vous permettent d’analyser les données dans vos expressions de parcours en calculant des moyennes, en recherchant des valeurs minimales et maximales, en comptant les éléments et en additionnant les valeurs numériques.
+Les fonctions d’agrégation effectuent des calculs sur un ensemble de valeurs et renvoient un seul résultat résumé. Ces fonctions vous permettent d’analyser les données dans vos expressions de parcours en calculant des moyennes, en recherchant des valeurs minimales et maximales, en comptant les éléments et en additionnant les valeurs numériques.
 
-Utilisez des fonctions d’agrégation lorsque vous devez :
+Utilisez des fonctions d’agrégation lorsque vous devez :
 
-* Calculer des valeurs statistiques à partir de listes ou de tableaux ([avg](#avg), [sum](#sum), [min](#min), [max](#max))
-* Compter les éléments dans les collections ([count](#count), [countOnlyNull](#countOnlyNull), [countWithNull](#countWithNull)), avec des options pour inclure ou exclure les valeurs nulles
-* Déterminer des valeurs uniques dans les jeux de données ([distinctCount](#distinctCount), [distinctCountWithNull](#distinctCountWithNull))
+* calculer des valeurs statistiques à partir de listes ou de tableaux ([avg](#avg), [sum](#sum), [min](#min), [max](#max)) ;
+* compter les éléments dans les collections ([count](#count), [countOnlyNull](#countOnlyNull), [countWithNull](#countWithNull)), avec des options pour inclure ou exclure les valeurs nulles ;
+* déterminer des valeurs uniques dans les jeux de données ([distinctCount](#distinctCount), [distinctCountWithNull](#distinctCountWithNull)).
 * Prendre des décisions axées sur les données en fonction de mesures calculées
 
 Les fonctions d’agrégation gèrent automatiquement les valeurs nulles en fonction de leur comportement spécifique, ce qui facilite l’utilisation des données du monde réel qui peuvent contenir des valeurs manquantes ou non définies.
@@ -155,7 +155,7 @@ Renvoie 1.
 
 +++
 
-**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
+**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
 
 ## countWithNull {#countWithNull}
 
@@ -191,7 +191,7 @@ Renvoie 4.
 
 +++
 
-**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
+**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
 
 ## distinctCount {#distinctCount}
 
@@ -276,7 +276,7 @@ Renvoie 3.
 
 +++
 
-**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
+**Remarque :** le paramètre `<listObject>` n’est pas pris en charge dans cette fonction.
 
 ## max {#max}
 

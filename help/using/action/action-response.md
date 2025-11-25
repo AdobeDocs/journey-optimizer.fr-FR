@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -212,11 +212,11 @@ currentActionField.description == "abc"
 )
 ```
 
-### Utilisation de réponses d’action personnalisées dans les canaux natifs {#response-in-channels}
+### Utiliser des réponses d’action personnalisée dans les canaux natifs {#response-in-channels}
 
-Vous pouvez effectuer une itération sur des tableaux imbriqués à partir d’une réponse d’action personnalisée dans des canaux natifs (tels que les e-mails, les notifications push ou les SMS) à l’aide de la syntaxe Handlebars. Cela s’avère utile lorsque vous devez personnaliser le contenu du message avec des données dynamiques provenant de systèmes externes.
+Vous pouvez effectuer une itération sur des tableaux imbriqués à partir d’une réponse d’action personnalisée dans des canaux natifs (tels que les e-mails, les notifications push ou les SMS) à l’aide de la syntaxe de handlebars. Cela s’avère utile lorsque vous devez personnaliser le contenu du message avec des données dynamiques provenant de systèmes externes.
 
-Par exemple, si votre action personnalisée renvoie la réponse suivante d’un système externe :
+Par exemple, si votre action personnalisée renvoie la réponse suivante d’un système externe :
 
 ```json
 {    
@@ -229,7 +229,7 @@ Par exemple, si votre action personnalisée renvoie la réponse suivante d’un 
 }
 ```
 
-Vous pouvez effectuer une itération sur le tableau `responses` et les tableaux `productIDs` imbriqués dans un canal natif (par exemple dans un e-mail) comme suit :
+Vous pouvez effectuer une itération sur le tableau `responses` et les tableaux `productIDs` imbriqués dans un canal natif (par exemple dans un e-mail) comme suit :
 
 ```handlebars
 {{#each context.journey.actions.<yourcustomaction>.responses as |res|}}

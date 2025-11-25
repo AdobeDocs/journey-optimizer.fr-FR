@@ -10,9 +10,9 @@ level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2085'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer utilise ensuite des méthodes statistiques avancées «�
 
 Lors de l’exécution d’expériences, il est important de suivre certaines des bonnes pratiques. Voici quelques conseils pour exécuter ces expériences :
 
-+++Isolez les variables que vous essayez de tester
++++Isolez les variables que vous essayez de tester.
 
 Formulez une hypothèse que vous avez l’intention de tester et limitez cette hypothèse au minimum de modifications possibles afin de déterminer ce qui a eu un impact sur votre diffusion.
 
@@ -89,7 +89,7 @@ Déterminez la mesure que vous souhaitez cibler et si les modifications que vous
 Par exemple, il est peu probable que la modification du contenu du corps du message affecte les taux d’ouverture des e-mails.
 +++
 
-+++Exécutez votre test sur la bonne taille d’audience ou pendant une durée suffisante.
++++Effectuez votre test sur la bonne taille d’audience ou pour une durée suffisante.
 
 Si vous exécutez vos tests plus longtemps, vous pourrez détecter de plus petites différences dans la mesure d’objectif entre les traitements. Cependant, si la valeur de base de votre mesure d’objectif est faible, vous aurez besoin de tailles d’échantillon plus grandes.
 Le nombre d’utilisateurs qui doivent être inclus dans votre expérience dépend de la taille de l’effet que vous souhaitez détecter, de l&#39;écart ou de la propagation de votre mesure d’objectif, ainsi que de votre tolérance pour les erreurs Faux positifs et Faux négatifs. Dans les expériences classiques, vous pouvez utiliser une [calculatrice de taille d’échantillons](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr){_blank} pour déterminer la durée pendant laquelle vous devez exécuter votre test.
@@ -101,7 +101,7 @@ Si vous exécutez une expérience dans laquelle 1 000 utilisateurs ont vu un tr
 Les méthodes statistiques nous permettent de formaliser cette incertitude. L’un des concepts les plus importants à comprendre lors de l’exécution d’expériences en ligne est que les taux de conversion observés soient cohérents avec une plage de taux de conversion réels sous-jacents, ce qui signifie que vous devez attendre que ces estimations soient suffisamment précises, avant d’essayer de tirer une conclusion. Les intervalles de confiance et le degré de confiance nous aident à quantifier cette incertitude.
 +++
 
-+++Formulez de nouvelles hypothèses et testez-les continuellement
++++Formuler de nouvelles hypothèses et effectuer des tests en continu
 
 Pour obtenir de véritables informations d’entreprise, vous devez vous en tenir à une seule expérience. Au lieu de cela, poursuivez les expériences en formulant de nouvelles hypothèses et en effectuant de nouveaux tests avec différentes modifications, sur différentes audiences, et en examinant l’effet sur les différentes mesures.
 +++
@@ -184,9 +184,9 @@ Après avoir exécuté votre expérience, plusieurs actions de suivi sont possib
 
 ## Ressources supplémentaires
 
-* **[Créer des expériences de contenu](content-experiment.md)** - Découvrez comment concevoir et configurer des tests A/B pour optimiser les performances de vos messages.
-* **[Calculs d’expérience](experiment-calculations.md)** - Comprenez les méthodes statistiques et les mesures utilisées dans l’analyse des expériences.
-* **[Test bandit manchot ou A/B](mab-vs-ab.md)** - Comparez différentes approches d’expérimentation et quand utiliser chaque méthode.
-* **[Accélérateur d’expérience](experiment-accelerator-gs.md)** - Découvrez comment accélérer l’expérimentation avec l’optimisation optimisée par l’IA.
-* **[Calculs du rapport d’expérience](experiment-report-calculations.md)** - Découvrez comment interpréter les résultats des expériences et la signification statistique.
-* **[Tutoriels d’expérimentation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur l’expérimentation de contenu et les bonnes pratiques.
+* **[Créer des expériences de contenu](content-experiment.md)** : découvrez comment concevoir et configurer des tests A/B pour optimiser les performances de vos messages.
+* **[Calculs d’expérience](experiment-calculations.md)** : comprenez les méthodes statistiques et les mesures utilisées dans l’analyse des expériences.
+* **[Bandit manchot ou tests AB](mab-vs-ab.md)** : comparez différentes approches d’expérimentation et quand utiliser chaque méthode.
+* **[Accélérateur d’expérience](experiment-accelerator-gs.md)** : découvrez comment accélérer l’expérimentation avec l’optimisation optimisée par l’IA.
+* **[Calculs du rapport d’expérience](experiment-report-calculations.md)** : découvrez comment interpréter les résultats des expériences et la signification statistique.
+* **[Tutoriels d’expérimentation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** : consultez des tutoriels vidéo détaillés sur l’expérimentation de contenu et les bonnes pratiques.

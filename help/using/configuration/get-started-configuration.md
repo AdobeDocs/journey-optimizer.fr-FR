@@ -10,9 +10,9 @@ feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../in-app/inapp-configuration.md"><img alt="In-app" src="../channels/assets/do-not-localize/inapp.jpg"></a>
     <div align="center"><a href="../in-app/inapp-configuration.md"><strong>In-app</strong></a></div></td>
-    <td><a href="../web/web-configuration.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
+    <td><a href="../web/web-configuration.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
     <div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
     <td><a href="../code-based/code-based-configuration.md"><img alt="Expérience basée sur du code" src="../channels/assets/do-not-localize/code.png"></a>
     <div align="center"><a href="../code-based/code-based-configuration.md"><strong>Expérience basée sur du code</strong></a></div></td>
@@ -76,9 +76,9 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
 
 ## Ressources supplémentaires
 
-* **[Configurer des surfaces de canal](channel-surfaces.md)** - Découvrez comment configurer et gérer des surfaces de canal pour les e-mails, les notifications push, les SMS et d’autres canaux.
-* **[Délégation de sous-domaines](delegate-subdomain.md)** - Découvrez comment déléguer des sous-domaines à Adobe pour la délivrabilité des e-mails et le branding.
-* **[Préchauffage d’adresses IP](ip-warmup-gs.md)** - Découvrez les bonnes pratiques de préchauffage des adresses IP pour améliorer la délivrabilité des e-mails et la réputation des expéditeurs.
-* **[Gérer la liste de suppression](manage-suppression-list.md)** - Découvrez comment gérer les listes de suppression pour gérer les rebonds et maintenir l’hygiène des listes.
-* **[Configuration des applications mobiles](set-mobile-config.md)** - Configurez les configurations d’applications mobiles pour les notifications push et la messagerie in-app.
-* **[Tutoriels de configuration](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - Découvrez des tutoriels vidéo détaillés sur la configuration des canaux et les bonnes pratiques.
+* **[Configurer des surfaces de canal](channel-surfaces.md)** : découvrez comment configurer et gérer des surfaces de canal pour les e-mails, les notifications push, les SMS et d’autres canaux.
+* **[Déléguer des sous-domaines](delegate-subdomain.md)** : découvrez comment déléguer des sous-domaines à Adobe pour la délivrabilité des e-mails et le branding.
+* **[Préchauffer les adresses IP](ip-warmup-gs.md)** : découvrez les bonnes pratiques de préchauffage des adresses IP pour améliorer la délivrabilité des e-mails et la réputation des expéditeurs et expéditrices.
+* **[Gérer la liste de suppression](manage-suppression-list.md)** : découvrez comment gérer les listes de suppression pour gérer les rebonds et maintenir l’hygiène des listes.
+* **[Configurer des applications mobiles](set-mobile-config.md)** : définissez les configurations d’applications mobiles pour les notifications push et la messagerie in-app.
+* **[Tutoriels de configuration](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur la configuration des canaux et les bonnes pratiques.

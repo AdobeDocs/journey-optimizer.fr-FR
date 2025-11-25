@@ -8,9 +8,9 @@ level: Experienced
 keywords: mathématiques, fonctions, expression, parcours, calcul, nombre
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 35%
 
 Les fonctions mathématiques fournissent des opérations mathématiques essentielles pour les calculs numériques dans vos expressions de parcours. Ces fonctions vous permettent d’effectuer des calculs numériques et des transformations précis sur vos données.
 
-Utilisez des fonctions mathématiques lorsque vous devez :
+Utilisez des fonctions mathématiques lorsque vous devez :
 
-* Générer des valeurs aléatoires pour les tests, l’échantillonnage ou la randomisation ([aléatoire](#random))
-* Arrondissez les nombres décimaux à l’entier le plus proche pour une présentation des données plus épurée ([arrondi](#round)).
-* Effectuer des calculs mathématiques sur des champs numériques
-* Transformer les valeurs numériques pour la logique commerciale et la prise de décision
+* générer des valeurs aléatoires pour les tests, l’échantillonnage ou la randomisation ([random](#random)) ;
+* arrondir les nombres décimaux à l’entier le plus proche pour une présentation des données plus épurée ([round](#round)) ;
+* effectuer des calculs mathématiques sur des champs numériques ;
+* transformer les valeurs numériques pour la logique métier et la prise de décision.
 
 Les fonctions mathématiques gèrent les types décimaux et entiers, et gèrent automatiquement les conversions de type pour garantir des résultats précis dans vos expressions de parcours.
 

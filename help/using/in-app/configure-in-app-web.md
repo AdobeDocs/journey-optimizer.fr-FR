@@ -7,22 +7,22 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Configurer le canal web in-app {#configure-in-app-web}
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
 * Assurez-vous d’utiliser la dernière version pour votre extension **SDK Web Adobe Experience Platform**.
 
 * Installez l’extension **SDK Web Adobe Experience Platform** dans vos **Propriétés de balise** et activez l’option **Stockage de personnalisation**.
 
-  Cette configuration est essentielle pour le stockage des historiques d’événements sur le client, condition préalable à l’implémentation des règles de fréquence dans le créateur de règles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=fr){target="_blank"}
+  Cette configuration est essentielle pour le stockage des historiques d’événements sur le client, condition préalable à l’implémentation des règles de fréquence dans le créateur de règles. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 99%
 
 1. Enregistrez la configuration de votre **Action** en cliquant sur **Conserver les modifications**.
 
-1. Accédez au menu **Flux de publication**. Créez une **Bibliothèque** ou sélectionnez un **Bibliothèque** existante et ajoutez la **Règle** nouvellement créée à celle-ci. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=fr#create-a-library){target="_blank"}
+1. Accédez au menu **Flux de publication**. Créez une **Bibliothèque** ou sélectionnez un **Bibliothèque** existante et ajoutez la **Règle** nouvellement créée à celle-ci. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/libraries#create-a-library){target="_blank"}
 
 1. Dans votre **Bibliothèque**, sélectionnez **Enregistrer et créer pour le développement**.
 
@@ -104,7 +104,7 @@ ht-degree: 99%
 
 1. Dans la section **Contexte des décisions**, définissez les paires **Clé** et **Valeur** qui déterminent l’expérience à diffuser.
 
-1. Accédez au menu **Flux de publication**, créez une **Bibliothèque** ou sélectionnez une **Bibliothèque** existante et ajoutez la **Règle** nouvellement créée. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=fr#create-a-library){target="_blank"}
+1. Accédez au menu **Flux de publication**, créez une **Bibliothèque** ou sélectionnez une **Bibliothèque** existante et ajoutez la **Règle** nouvellement créée. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/libraries#create-a-library){target="_blank"}
 
 1. Dans votre **Bibliothèque**, sélectionnez **Enregistrer et créer pour le développement**.
 

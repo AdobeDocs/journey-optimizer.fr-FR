@@ -10,9 +10,9 @@ level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels). Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
+   >Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels). Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
    >
    >Les campagnes déclenchées par API à haut débit prennent actuellement en charge uniquement le canal E-mail.
 

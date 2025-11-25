@@ -10,7 +10,7 @@ level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1906'
 ht-degree: 100%
 
@@ -277,4 +277,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

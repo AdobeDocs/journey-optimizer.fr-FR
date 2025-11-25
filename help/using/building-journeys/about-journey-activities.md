@@ -11,9 +11,9 @@ keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

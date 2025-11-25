@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
 source-git-commit: 20faceb1de8523426b288864d400f023c7dfdc6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Le processus de création du contenu dépend du canal que vous avez sélectionn�
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../in-app/create-in-app.md"><img alt="In-app" src="../channels/assets/do-not-localize/inapp.jpg"></a>
 <div align="center"><a href="../in-app/create-in-app.md"><strong>In-app</strong></a></div></td>
-<td><a href="../web/create-web.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<td><a href="../web/create-web.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
 <div align="center"><a href="../web/create-web.md"><strong>Web</strong></a></div></td>
 <td><a href="../code-based/create-code-based.md"><img alt="Expérience basée sur du code" src="../channels/assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/create-code-based.md"><strong>Expérience basée sur du code</strong></a></div></td>
@@ -51,10 +51,10 @@ Le processus de création du contenu dépend du canal que vous avez sélectionn�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td></td>
-<td><a href="../line/get-started-line.md"><img alt="ligne" src="assets/do-not-localize/line.png"></a>
-<div align="center"><a href="../line/get-started-line.md"><strong>LIGNE</strong></a></div></td>
-<td><a href="../whatsapp/get-started-whatsapp.md"><img alt="Web" src="assets/do-not-localize/whatsapp.png"></a>
-<div align="center"><a href="../whatsapp/get-started-whatsapp.md"><strong> WhatsApp </strong></a></div></td>
+<td><a href="../line/get-started-line.md"><img alt="line" src="assets/do-not-localize/line.png"></a>
+<div align="center"><a href="../line/get-started-line.md"><strong>LINE</strong></a></div></td>
+<td><a href="../whatsapp/get-started-whatsapp.md"><img alt="web" src="assets/do-not-localize/whatsapp.png"></a>
+<div align="center"><a href="../whatsapp/get-started-whatsapp.md"><strong>WhatsApp</strong></a></div></td>
 <td></td>
 </tr></table>
 

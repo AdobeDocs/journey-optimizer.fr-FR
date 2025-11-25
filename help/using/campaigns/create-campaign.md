@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Les campagnes d’action (ou campagnes planifiées) permettent des communication
 
 >[!NOTE]
 >
->Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
+>Pour plus d’informations sur les canaux pris en charge, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
 >
 >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
@@ -53,4 +53,4 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 
 Découvrez comment créer une campagne d’action.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412403?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

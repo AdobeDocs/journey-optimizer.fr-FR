@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
 source-git-commit: bd925e1fd053a19e2102536049278e48b0784960
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -42,21 +42,21 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
    |---|---|    
    | Fournisseur SMS | Infobip |
    | Nom | Saisissez un nom pour vos informations d’identification API. |
-   | URL de base et clé API | Accédez à la page d’accueil de votre interface web ou à la page de gestion des clés API pour trouver vos informations d’identification. Pour les points d’entrée de domaine régionaux ou alternatifs, par exemple `api-ny2.infobip.com`, spécifiez l’URL de base complète et vérifiez votre jeton d’autorisation avec la prise en charge d’Infobip. </br>En savoir plus dans [Documentation Infobip](https://www.infobip.com/docs/api){target="_blank"} |
+   | URL de base et clé API | Accédez à la page d’accueil de votre interface web ou à la page de gestion des clés API pour trouver vos informations d’identification. Pour les points d’entrée de domaine régionaux ou alternatifs, par exemple `api-ny2.infobip.com`, spécifiez l’URL de base complète et vérifiez votre jeton d’autorisation auprès de l’assistance d’Infobip. </br>En savoir plus dans la [documentation Infobip](https://www.infobip.com/docs/api){target="_blank"} |
    | Mots-clés d’opt-in | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’opt-in. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
    | Message d’opt-in | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-in. |
    | Mots-clés d’opt-out | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’opt-out. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
    | Message d’opt-out | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out. |
    | Mots-clés d’aide | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
    | Message d’aide | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**. |
-   | Mots-clés de double opt-in | Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3440276/?captions=fre_fr&learn=on). |
+   | Mots-clés de double opt-in | Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Message de double opt-in | Saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in. |
    | Identifiant d’entité principale | Saisissez l’identifiant d’entité principale DLT qui vous a été attribué. |
    | Identifiant du modèle de contenu | Saisissez votre identifiant de modèle de contenu DLT enregistré. |
    | Période de validité | Saisissez la période de validité du message en heures. Si les messages ne peuvent pas être livrés dans ce délai, le système effectue d’autres tentatives pour les renvoyer. La période de validité par défaut est définie sur 48 heures. |
    | Données de rappel | Saisissez les données clients supplémentaires qui seront envoyées à l’URL de notification. |
    | Numéro entrant | Ajoutez votre numéro entrant unique. Cela permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun possédant son propre numéro entrant. |
-   | Mots-clés entrants personnalisés | Définir des mots-clés uniques, non liés au consentement, pour les actions par lots, par exemple REMISE, OFFRES, INSCRIPTION. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment par lots dans le parcours et de fournir une réponse ou une action personnalisée. |
+   | Mots-clés entrants personnalisés | Définissez des mots-clés uniques et non liés au consentement pour des actions par lots, par exemple REMISE, OFFRES, INSCRIRE. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment par lots dans le parcours et de fournir une réponse ou une action personnalisée. |
    | Message de réponse entrant par défaut | Saisissez la réponse par défaut envoyée lorsqu’un utilisateur final ou une utilisatrice finale envoie un SMS entrant qui ne correspond à aucun des mots-clés définis. |
 
    +++

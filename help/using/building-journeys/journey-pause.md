@@ -10,7 +10,7 @@ keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2481'
 ht-degree: 100%
 

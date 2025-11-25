@@ -9,9 +9,9 @@ level: Experienced
 keywords: destination, page de destination, configurer, environnement, sous-domaine, préréglages
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Pour créer un préréglage de page de destination, procédez comme suit :
 
    Les paramètres correspondant au sous-domaine sélectionné s’affichent.
 
-1. Vous pouvez sélectionner le sous-domaine de la page de destination pour l’**[!UICONTROL URL de tracking]** en cochant l’option **[!UICONTROL Identique au sous-domaine de la page de destination]**. [En savoir plus sur le tracking](../email/message-tracking.md)
+1. Si vous souhaitez sélectionner le sous-domaine de page de destination comme **[!UICONTROL URL de suivi]**, cochez lʼoption **[!UICONTROL Identique au sous-domaine de page de destination]**. [En savoir plus sur le tracking](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
@@ -74,7 +74,7 @@ Pour créer un préréglage de page de destination, procédez comme suit :
 
    >[!CAUTION]
    >
-   >Le sous-domaine de page de destination sélectionné est utilisé pour spécifier le **[!UICONTROL URL de suivi]** <!--and **[!UICONTROL Image Delivery URL]** -->si ce sous-domaine a été créé à l’aide d’un [sous-domaine existant](lp-subdomains.md#lp-use-existing-subdomain).
+   >Le sous-domaine de page de destination sélectionné est utilisé pour spécifier l’**[!UICONTROL URL de suivi]** <!--and **[!UICONTROL Image Delivery URL]** -->si ce sous-domaine a été créé à l’aide d’un [sous-domaine existant](lp-subdomains.md#lp-use-existing-subdomain).
    >
    >Si le sous-domaine a été créé à l’aide de l’option [Ajouter votre propre domaine](lp-subdomains.md#lp-configure-new-subdomain), le sous-domaine principal (c’est-à-dire le premier sous-domaine délégué) est utilisé à la place.
 

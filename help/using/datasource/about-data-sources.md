@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: données, source, parcours, plateforme
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -55,5 +55,5 @@ Pour plus d’informations sur la configuration d’une source de données Adobe
 
 Comprenez ce qu&#39;est une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416634?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

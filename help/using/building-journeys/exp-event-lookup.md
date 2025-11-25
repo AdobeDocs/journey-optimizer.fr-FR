@@ -6,9 +6,9 @@ description: Découvrez comment utiliser la recherche d’événements d’expé
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ En savoir plus :
 
 ## Questions fréquentes {#faq-ee}
 
-Vous trouverez ci-dessous les questions fréquentes sur la recherche d’événement d’expérience dans les parcours.
+Vous trouverez ci-dessous les questions fréquentes sur la recherche d’événements d’expérience dans les parcours.
 
 Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 

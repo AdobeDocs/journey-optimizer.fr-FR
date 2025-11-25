@@ -1,16 +1,16 @@
 ---
 product: journey optimizer
 title: Fonctions de chaîne
-description: Découvrez les fonctions de chaîne
+description: En savoir plus sur les fonctions de chaîne
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: chaîne, fonctions, expression, parcours, texte, manipulation
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 82%
 
 Les fonctions de chaîne vous permettent de manipuler et d’utiliser des valeurs de texte dans vos expressions de parcours. Ces fonctions sont essentielles pour le traitement de texte, la validation, la transformation et l’analyse dans vos parcours clients.
 
-Utilisez des fonctions de chaîne lorsque vous devez :
+Utilisez des fonctions de chaîne lorsque vous devez :
 
-* Concaténer et combiner plusieurs valeurs de texte ([concat](#concat))
-* Recherchez des modèles de texte ou des sous-chaînes spécifiques ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
-* Comparer des chaînes avec une correspondance sensible à la casse ou insensible à la casse ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
-* Vérifiez que la chaîne commence et se termine ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase)).
-* Extraire des parties de texte à l’aide d’opérations de sous-chaîne ([substr](#substr))
-* Transformer le texte en majuscules ou en minuscules ([majuscule](#upper), [inférieure](#lower), [rognage](#trim))
-* Vérifiez si les chaînes sont vides ou contiennent des valeurs spécifiques ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty))
-* Remplacer des modèles de texte par de nouvelles valeurs ([replace](#replace), [replaceAll](#replaceAll))
-* Diviser les chaînes en tableaux pour un traitement ultérieur ([division](#split))
-* Obtenir la longueur de la chaîne ([length](#length)) ou générer les identifiants uniques ([uuid](#uuid))
+* concaténer et combiner plusieurs valeurs de texte ([concat](#concat)) ;
+* rechercher des modèles de texte ou des sous-chaînes spécifiques ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp)) ;
+* comparer des chaînes avec une correspondance sensible ou insensible à la casse ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase)) ;
+* vérifier que la chaîne commence et se termine ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase)) ;
+* extraire des parties de texte à l’aide d’opérations de sous-chaîne ([substr](#substr)) ;
+* transformer le texte en majuscules ou en minuscules ([majuscule](#upper), [inférieure](#lower), [rognage](#trim)) ;
+* vérifier si les chaînes sont vides ou contiennent des valeurs spécifiques ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty)) ;
+* remplacer des modèles de texte par de nouvelles valeurs ([replace](#replace), [replaceAll](#replaceAll)) ;
+* partager les chaînes en tableaux pour un traitement ultérieur ([division](#split)) ;
+* obtenir la longueur de la chaîne ([length](#length)) ou générer les identifiants uniques ([uuid](#uuid)).
 
 Les fonctions de chaîne fournissent des fonctionnalités complètes de manipulation de texte, permettant un traitement des données sophistiqué et une logique conditionnelle basée sur le contenu texte de vos expressions de parcours.
 
@@ -282,7 +282,7 @@ Renvoie 2.
 
 Explication :
 
-Dans « Hello », la première occurrence de « l » est à la position 2.
+Dans « Hello », la première occurrence de « l » est en position 2.
 
 +++
 
@@ -393,7 +393,7 @@ Renvoie 3.
 
 Explication :
 
-Dans « Hello », la dernière occurrence de « l » est à la position 3.
+Dans « Hello », la dernière occurrence de « l » est en position 3.
 
 +++
 
@@ -562,7 +562,7 @@ Renvoie une chaîne.
 
 Renvoie « Hexlo World ».
 
-**Exemple avec RegExp:**
+**Exemple avec RegExp :**
 
 Comme le paramètre cible est un RegExp, selon la chaîne que vous souhaitez remplacer, vous devrez peut-être ajouter une séquence d’échappement à certains caractères. Voici un exemple :
 
@@ -869,7 +869,7 @@ Renvoie une chaîne.
 
 `uuid()`
 
-Renvoie « 79e70b7f-8a85-400b-97a1-9f9826121553 ».
+Renvoie « 79e70b7f-8a85-400b-97a1-9f9826121553 »
 
 +++
 

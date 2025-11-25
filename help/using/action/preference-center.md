@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: politiques, gouvernance, plateforme, consentement, healthcare shield
 source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Supposons que vous souhaitiez cibler votre clientèle par le biais de parcours e
 
      >[!NOTE]
      >
-     >Assurez-vous que le domaine de la page de destination utilisée appartient à la marque supérieure et non à une sous-marque. En effet, les préférences collectées sont stockées dans les données de profil qui sont au niveau de la marque supérieure.
+     >Assurez-vous que le domaine de la page de destination utilisée appartient à la marque principale et non à une sous-marque. En effet, les préférences collectées sont stockées dans les données de profils, qui se situent au niveau de la marque principale.
 
 1. Sur cette page, la clientèle peut mettre à jour ses préférences, telles que les abonnements par sujet, en cochant ou décochant des cases.
 
@@ -111,7 +111,7 @@ Supposons que vous souhaitiez cibler votre clientèle par le biais de parcours e
     
     * si **[!UICONTROL Action marketing]** est égal à **[!UICONTROL E-mail]**
     
-    * alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à **&#x200B;**
+    * alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à ****
     
      ![](assets/consent-policy-email-newsletter.png){width=80%}
     

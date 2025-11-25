@@ -10,9 +10,9 @@ level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Le mécanisme de désinscription standard repose sur deux étapes : la personne
 Pour mettre en œuvre ce mode de désinscription, vous devez créer et publier une page de destination d’opt-out et ajouter un lien de désinscription dans vos e-mails avec un lien vers la page de destination. Ces étapes sont décrites ci-dessous.
 
 
-### Prérequis {#prereq-lp}
+### Conditions préalables {#prereq-lp}
 
 Pour configurer un mécanisme de désinscription en deux étapes, vous devez créer vos propres pages de destination de désinscription. La première page de destination est liée à votre message et doit contenir un bouton d’appel à l’action. Un message de confirmation doit s’afficher lorsque l’utilisateur ou l’utilisatrice clique sur le bouton.
 
@@ -97,7 +97,7 @@ Vous pouvez également utiliser une page de destination externe. Dans ce cas, co
 
 +++ Découvrez comment mettre en œuvre un appel API d’opt-out
 
-Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com){target="_blank"} pour mettre à jour les préférences des profils correspondants.
+Pour que vos personnes destinataires soient désinscrites lorsqu’elles envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com){target="_blank"} pour mettre à jour les préférences des profils correspondants.
 
 Cet appel POST est le suivant :
 
@@ -134,7 +134,7 @@ Contenu de la requête :
 }
 ```
 
-[!DNL Journey Optimizer] utilise ces paramètres pour mettre à jour le choix du profil correspondant par le biais de l’appel API [Adobe Developer](https://developer.adobe.com){target="_blank"}.
+[!DNL Journey Optimizer] utilise ces paramètres pour mettre à jour le choix du profil correspondant par le biais de l’appel API [Adobe Developer](https://developer.adobe.com){target="_blank"}.
 
 +++
 

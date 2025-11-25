@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
 source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide
 
 Les valeurs prédéfinies suivantes sont disponibles dans l’éditeur de personnalisation :
 
-* **Identifiant de profil du message** : attribut orienté message identifiant de manière unique chaque message envoyé à chaque profil ciblé dans une diffusion.
+* **Identifiant de profil du message** : il s’agit d’un attribut orienté message qui identifie de manière unique chaque message envoyé à chaque profil ciblé dans une diffusion.
 
 * **ID de l’offre** : ID de l’offre utilisée dans l’e-mail.
 

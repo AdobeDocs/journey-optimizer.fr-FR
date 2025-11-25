@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1543'
 ht-degree: 100%
 
@@ -266,4 +266,4 @@ Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter
 
 La vidéo ci-dessous montre comment créer une campagne web, configurer ses propriétés, la réviser et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449983/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

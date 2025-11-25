@@ -10,9 +10,9 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1062'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Type de règle"
->abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’un e-mail ou d’un SMS par jour. Sélectionnez **Heures calmes** (disponible en disponibilité limitée) pour définir des exclusions temporelles afin de vous assurer qu’aucun message n’est envoyé pendant des périodes spécifiques."
+>abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’un e-mail ou d’un SMS par jour. Sélectionnez **Heures creuses** (en disponibilité limitée) pour définir des exclusions basées sur l’heure afin de vous assurer qu’aucun message n’est envoyé pendant certaines périodes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -180,4 +180,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

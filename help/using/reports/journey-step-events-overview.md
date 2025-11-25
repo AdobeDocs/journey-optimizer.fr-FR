@@ -8,9 +8,9 @@ role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: parcours, événements d’étape, analyse, rapports, surveillance, XDM
 source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 Les événements d’étape de parcours sont des événements générés automatiquement qui capturent des informations détaillées sur chaque étape qu’un [profil](../audience/get-started-profiles.md) suit au fur et à mesure de sa progression dans un [parcours](../building-journeys/journey.md) dans Adobe Journey Optimizer. Ces événements offrent une visibilité complète sur les [performances du parcours](../building-journeys/report-journey.md) et permettent de puissantes fonctionnalités d’analyse.
 
-## Que sont les événements d’étape de parcours ? {#what-are-step-events}
+## Présentation des événements d’étape de parcours {#what-are-step-events}
 
 Les événements d’étape de parcours sont des événements [XDM (modèle de données d’expérience)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"} générés par le système et automatiquement créés et envoyés par Adobe Journey Optimizer à [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} chaque fois qu’un profil passe d’un nœud à un autre dans un parcours. Chaque événement correspond à une [activité de parcours](../building-journeys/about-journey-activities.md) spécifique ou à une transition dans l’expérience de parcours du client ou de la cliente.
 
@@ -35,7 +35,7 @@ Les événements d’étape de parcours sont générés automatiquement pour div
 - **Exécution d’action** : lorsque des [messages sont envoyés](../building-journeys/journeys-message.md) ou que des [actions personnalisées](../building-journeys/using-custom-actions.md) sont effectuées.
 - **Évaluation des conditions** : lorsque les profils passent par des [conditions](../building-journeys/condition-activity.md) et des points de décision.
 - **Activités d’attente** : lorsque les profils rejoignent et quittent des [nœuds d’attente](../building-journeys/wait-activity.md).
-- **Événements de sortie** : lorsque les profils terminent ou [quittent un parcours &#x200B;](../building-journeys/end-journey.md)
+- **Événements de sortie** : lorsque les profils terminent ou [quittent un parcours ](../building-journeys/end-journey.md)
 - **Gestion des erreurs** : lorsque des erreurs se produisent lors de l’exécution d’un parcours.
 
 >[!NOTE]
@@ -92,7 +92,7 @@ Les événements d’étape de parcours capturent des informations complètes, n
 
 Explorez toutes les [définitions de champ disponibles](sharing-field-list.md).
 
-### Cas d&#39;utilisation courants {#common-use-cases}
+### Cas d’utilisation courants {#common-use-cases}
 
 **Surveillance des performances**
 
@@ -178,7 +178,7 @@ Découvrez comment [configurer Customer Journey Analytics](report-gs-cja.md) pou
 ### Liens vers la documentation {#documentation-links}
 
 - **[Présentation du partage des étapes de parcours](sharing-overview.md)** : comprendre le flux des données de parcours vers Adobe Experience Platform.
-- **[Dictionnaire des schémas natifs](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}** : référence complète des schémas XDM.
+- **[Dictionnaire des schémas natifs](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}** : référence complète des schémas XDM.
 - **[Création de rapports Journey Optimizer](report-gs-cja.md)** : présentation des fonctionnalités de création de rapports dans Journey Optimizer.
 
 ### Guides d’intégration {#integration-guides}
