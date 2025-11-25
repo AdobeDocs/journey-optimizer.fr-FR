@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
 workflow-type: tm+mt
-source-wordcount: '5125'
-ht-degree: 87%
+source-wordcount: '5226'
+ht-degree: 95%
 
 ---
 
@@ -74,77 +74,77 @@ En savoir plus sur les [activités de parcours](about-journey-activities.md).
 
 +++
 
-+++ Quels types d’audiences sont pris en charge dans les parcours et quelles sont leurs limites ?
++++ Quels sont les types d’audiences pris en charge dans les parcours et quelles sont leurs limites ?
 
-Adobe Journey Optimizer prend en charge quatre types d’audiences, chacune ayant des caractéristiques et des mécanismes de sécurisation différents :
+Adobe Journey Optimizer prend en charge quatre types d’audiences, chacun ayant des caractéristiques et des mécanismes de sécurisation différents :
 
-**1. Audiences en flux continu**
+**1. Audiences de streaming**
 
-* **Description** : audiences qui sont évaluées en temps réel à mesure que les données de profil changent
-* **Évaluation** : évaluation continue lorsque les attributs ou les événements de profil correspondent aux critères du segment
-* **Utilisation du Parcours** : pris en charge dans les activités Lecture d’audience, Qualification d’audience et Condition
-* **Idéal pour** : engagement en temps réel basé sur des changements de comportement ou des mises à jour de profil.
-* **Mécanismes de sécurisation** :
-   * La taille maximale de l’audience dépend de votre licence Journey Optimizer
-   * Latence d’évaluation généralement inférieure à 5 minutes
-   * Une logique de segment complexe peut avoir un impact sur les performances d’évaluation
+* **Description** : audiences évaluées en temps réel à mesure que les données de profil changent.
+* **Évaluation** : évaluation continue lorsque les attributs ou les événements de profil correspondent à des critères de segment.
+* **Utilisation du parcours** : pris en charge dans les activités Lecture d’audience, Qualification d’audience et Condition.
+* **Idéal pour** : un engagement en temps réel basé sur des changements de comportement ou des mises à jour de profil.
+* **Mécanismes de sécurisation** :
+   * La taille maximale de l’audience dépend de votre licence Journey Optimizer.
+   * La latence de l’évaluation est généralement inférieure à 5 minutes.
+   * Une logique de segmentation complexe peut affecter les performances de l’évaluation.
 
 **2. Audiences par lots**
 
-* **Description** : audiences évaluées selon un calendrier (généralement quotidien)
-* **Évaluation** : traitement par lots à intervalles planifiés
-* **Utilisation du Parcours** : prise en charge dans les activités Lecture d’audience et Condition ; prise en charge limitée dans les parcours de qualification d’audience
-* **Idéal pour** : campagnes régulières, newsletters, communications planifiées
-* **Mécanismes de sécurisation** :
-   * L’évaluation a lieu une fois par jour (par défaut) ou selon le planning configuré
-   * Les profils peuvent ne pas refléter les modifications en temps réel avant la prochaine évaluation
-   * L’activité Lecture d’audience peut traiter efficacement de grandes audiences par lots
+* **Description** : audiences évaluées selon un calendrier défini (généralement quotidiennement).
+* **Évaluation** : traitement par lots à intervalles planifiés.
+* **Utilisation du parcours** : prise en charge dans les activités Lecture d’audience et Condition ; prise en charge limitée dans les parcours de qualification d’audience.
+* **Idéal pour** : campagnes régulières, newsletters, communications planifiées.
+* **Mécanismes de sécurisation** :
+   * L’évaluation a lieu une fois par jour (par défaut) ou selon le planning configuré.
+   * Les profils peuvent ne pas refléter les modifications en temps réel avant la prochaine évaluation.
+   * L’activité Lecture d’audience peut traiter efficacement de grandes audiences par lots.
 
-**3. Chargement d’audiences (chargement personnalisé)**
+**3. Audiences avec chargement (chargement personnalisé)**
 
-* **Description** : audiences créées en chargeant des fichiers CSV avec des identifiants de profil
-* **Évaluation** : liste statique mise à jour uniquement lorsque de nouveaux fichiers sont chargés
-* **Utilisation du Parcours** : pris en charge dans les activités Lecture d’audience et Condition ; **non pris en charge** dans les parcours de qualification d’audience
-* **Idéal pour** : campagnes ponctuelles, importations de listes externes, communications ciblées.
-* **Mécanismes de sécurisation** :
-   * Des limites de taille de fichier CSV s’appliquent (consultez la documentation du produit pour connaître les limites actuelles).
-   * Les membres de l’audience sont statiques jusqu’à ce qu’ils soient actualisés avec un nouveau chargement
+* **Description** : audiences créées en chargeant des fichiers CSV avec des identifiants de profil.
+* **Évaluation** : liste statique mise à jour uniquement lorsque de nouveaux fichiers sont chargés.
+* **Utilisation du parcours** : prise en charge dans les activités Lecture d’audience et Condition ; **non prise en charge** dans les parcours de qualification d’audience.
+* **Idéal pour** : campagnes ponctuelles, importations de listes externes, communications ciblées.
+* **Mécanismes de sécurisation** :
+   * Des limites de taille pour les fichiers CSV s’appliquent (consultez la documentation du produit pour connaître les limites actuelles).
+   * Les membres de l’audience restent statiques jusqu’à ce qu’ils soient actualisés lors d’un nouveau chargement.
    * L’espace de noms d’identité doit correspondre à l’espace de noms du parcours.
-   * Les profils doivent exister dans Adobe Experience Platform
+   * Les profils doivent exister dans Adobe Experience Platform.
 
-**4. Audiences de composition d’audiences fédérées (FAC)**
+**4. Audiences de composition d’audiences fédérées**
 
-* **Description** : audiences créées à l’aide de données fédérées, ce qui vous permet d’interroger et de composer des audiences à partir d’entrepôts de données externes sans copier de données dans Adobe Experience Platform
-* **Évaluation** : composition statique mise à jour lors de l’exécution de la composition de l’audience fédérée
-* **Utilisation du Parcours** : pris en charge dans les activités Lecture d’audience et Condition ; **non pris en charge** dans les parcours de qualification d’audience (similaire au chargement d’audiences du point de vue du serveur principal)
-* **Idéal pour** : intégration d’Enterprise Data Warehouse, composition de l’audience à l’aide de sources de données externes, scénarios nécessitant que les données restent dans des systèmes externes.
-* **Mécanismes de sécurisation** :
-   * Les membres de l’audience sont statiques jusqu’à la prochaine exécution de composition fédérée.
+* **Description** : audiences créées à l’aide de données fédérées, ce qui vous permet d’interroger et de composer des audiences à partir d’entrepôts de données externes sans copier de données dans Adobe Experience Platform.
+* **Évaluation** : la composition statique est mise à jour lors de l’exécution de la composition d’audiences fédérées.
+* **Utilisation du parcours** : prise en charge dans les activités Lecture d’audience et Condition ; **non prise en charge** dans les parcours de qualification d’audience (similaire au audiences chargées du point de vue back-end).
+* **Idéal pour** : l’intégration d’entrepôts de données d’entreprise, la composition d’audiences à l’aide de sources de données externes, les scénarios nécessitant que les données restent dans des systèmes externes.
+* **Mécanismes de sécurisation** :
+   * Les membres de l’audience restent statiques jusqu’à la prochaine exécution d’une composition fédérée.
    * L’espace de noms d’identité doit correspondre à l’espace de noms du parcours.
-   * Les performances dépendent des fonctionnalités de requête de l’entrepôt de données externe
-   * Nécessite un module complémentaire de composition d’audience fédérée
+   * Les performances dépendent des fonctionnalités de requêtes de l’entrepôt de données externe.
+   * Nécessite le module complémentaire de composition d’audiences fédérées.
 
-**Audiences Customer Journey Analytics (CJA)**:
+**Audiences Customer Journey Analytics (CJA)** :
 
-Bien que les audiences CJA ne soient pas directement prises en charge dans parcours, vous pouvez utiliser une **solution** en « enveloppant » une audience CJA dans une règle de segmentation. Cela crée une audience UPS (Unified Profile Service) par lots qui fait référence à l’audience CJA, ce qui la rend disponible pour une utilisation dans parcours en tant que type d’audience par lots.
+Bien que les audiences CJA ne soient pas directement prises en charge dans les parcours, vous pouvez utiliser une **solution de contournement** en « incorporant » une audience CJA dans une règle de segmentation. Cela crée une audience par lots du service de profils unifiés faisant référence à l’audience CJA, ce qui la rend disponible pour une utilisation dans des parcours en tant qu’audience par lots.
 
-**Remarques spécifiques au Parcours** :
+**Éléments à prendre en compte spécifiques aux parcours** :
 
-* **Lire les parcours d’audience** : les quatre types d’audience pris en charge ; l’exportation par lots se produit lors de l’exécution du parcours
-* **parcours de qualification d’audience** : audiences en flux continu recommandées ; les audiences par lots ont une détection de qualification retardée ; les audiences de chargement et d’analyse de contenu publicitaire ne sont pas prises en charge
-* **Activités de condition** : tous les types d’audience peuvent être utilisés pour vérifier l’appartenance
-* **Alignement des espaces de noms** : l’espace de noms d’identité d’audience doit correspondre à celui du parcours pour identifier correctement le profil
+* **Parcours de Lecture d’audience** : les quatre types d’audience sont pris en charge ; un export par lots est effectué lors de l’exécution du parcours.
+* **Parcours de qualification d’audience** : audiences en streaming recommandées ; les audiences par lots ont une détection de la qualification retardée ; les audiences chargées et les audiences de composition d’audiences fédérées ne sont pas prises en charge.
+* **Activités Condition** : tous les types d’audience peuvent être utilisés pour vérifier l’appartenance.
+* **Alignement des espaces de noms** : l’espace de noms d’identité de l’audience doit correspondre à celui du parcours pour identifier correctement les profils.
 
 **Bonnes pratiques** :
 
-* Utilisez des **audiences en flux continu** pour les parcours en temps réel pilotés par les événements et nécessitant une réponse immédiate
-* Utilisez des **audiences par lots** pour les communications planifiées où l’évaluation quotidienne est suffisante
-* Utilisez **charger des audiences** pour les campagnes ponctuelles ciblées avec des listes externes
-* Utilisez les audiences **AEC** lorsque vous devez exploiter les fonctionnalités de Data Warehouse d’entreprise sans duplication des données
-* Surveiller la taille de l’audience et les performances d’évaluation dans les déploiements à grande échelle
-* Tenez compte des taux d’actualisation de l’audience lors de la conception du timing et des conditions d’entrée du parcours
+* Utilisez des **audiences en streaming** pour les parcours en temps réel pilotés par des événements et nécessitant une réponse immédiate.
+* Utilisez des **audiences par lots** pour les communications planifiées lorsque l’évaluation quotidienne est suffisante.
+* Utilisez des **audiences chargées** pour les campagnes ponctuelles ciblées avec des listes externes.
+* Utilisez des **audiences de composition d’audiences fédérées** lorsque vous devez exploiter les fonctionnalités d’entrepôts de données d’entreprise sans dupliquer les données.
+* Surveillez la taille de l’audience et les performances des évaluations dans les déploiements à grande échelle.
+* Tenez compte des taux d’actualisation de l’audience lors de la conception du timing et des conditions d’entrée du parcours.
 
-En savoir plus sur les [audiences](../audience/about-audiences.md), [création de segments](../audience/creating-a-segment-definition.md), [audiences de chargement personnalisées](../audience/custom-upload.md) et [composition d’audiences fédérées](../audience/federated-audience-composition.md).
+En savoir plus sur les [audiences](../audience/about-audiences.md), la [création de segments](../audience/creating-a-segment-definition.md), les [audiences chargées personnalisées](../audience/custom-upload.md) et la [composition d’audiences fédérées](../audience/federated-audience-composition.md).
 
 +++
 
@@ -271,10 +271,10 @@ En savoir plus sur la [configuration d’événement](../event/about-events.md) 
 
 +++ Puis-je renvoyer un message si quelqu’un ne l’ouvre pas ou ne clique pas dessus ?
 
-Oui. Utilisez un **événement de réaction** avec une **temporisation** :
+Oui. Utilisez un événement **[!UICONTROL Réaction]** avec un **Délai d’expiration** :
 
-1. Après avoir envoyé votre message, ajoutez un événement de réaction qui écoute les ouvertures d’e-mail ou les clics.
-2. Configurez un délai de temporisation (par exemple, 3 jours) sur l’événement de réaction.
+1. Après avoir envoyé votre message, ajoutez un événement **[!UICONTROL Réaction]** **immédiatement** après l’action du canal (sans activité **[!UICONTROL Attente]** entre les deux)
+2. Configurez un délai d’expiration (par exemple, 3 jours) sur l’événement **[!UICONTROL Réaction]** pour écouter les ouvertures d’e-mail ou les clics
 3. Créez deux chemins :
    * **Si vous l’avez ouvert/cliqué dessus** : passez aux étapes suivantes ou terminez le parcours.
    * **Chemin de temporisation (non ouvert/cliqué)** : envoyez un e-mail de rappel avec un objet différent.
@@ -287,15 +287,20 @@ En savoir plus sur les [événements de réaction](reaction-events.md).
 
 +++ Comment créer un parcours d’abandon de panier ?
 
-Créez un parcours déclenché par un événement à l’aide d’un événement de réaction avec une temporisation :
+Créez un parcours déclenché par un événement à l’aide d’un événement **[!UICONTROL Réaction]** avec une temporisation :
 
 1. **Configurez un événement « Panier abandonné »** : déclenché lorsque des articles sont ajoutés, mais que le passage en caisse n’est pas terminé dans un délai donné.
-2. **Ajoutez un événement de réaction** : configurez-le pour qu’il écoute un événement d’achat.
-3. **Définissez une période de temporisation** : définissez une temporisation (par exemple, 1 à 2 heures) sur l’événement de réaction pour donner au client ou à la cliente le temps de terminer le processus.
-4. **Créez deux chemins** :
+2. **Envoyer un message initial** (facultatif) : e-mail accusant réception des articles du panier
+3. **Ajouter un événement [!UICONTROL Réaction] immédiatement après l’action du canal** : configurez-le pour qu’il écoute un événement d’achat
+4. **Définir un délai d’expiration** : définissez un délai d’expiration (par exemple, 1 à 2 heures) pour l’événement **[!UICONTROL Réaction]** afin de donner au client le temps de terminer naturellement
+5. **Créez deux chemins** :
    * **Si l’événement d’achat se produit** : mettez fin au parcours ou continuez avec le flux après achat.
    * **Chemin de temporisation (pas d’achat)** : envoyez un e-mail de rappel d’abandon avec le contenu du panier.
-5. **Facultatif** : ajoutez un autre événement de réaction avec une temporisation (24 heures) et envoyez un deuxième rappel avec un avantage incitatif (par exemple, une remise de 10 %).
+6. **Facultatif** : ajoutez un autre événement **[!UICONTROL Réaction]** **immédiatement après** l’e-mail de rappel avec la temporisation (24 heures) et envoyez un second rappel avec un incentives (par exemple, une remise de 10 %)
+
+>[!IMPORTANT]
+>
+>Les événements **[!UICONTROL Réaction]** doivent être placés immédiatement après les [actions de canal](journeys-message.md). Ne placez pas d’activités **[!UICONTROL Attente]** entre l’action de canal et l’activité **[!UICONTROL Réaction]**.
 
 En savoir plus sur les [cas d’utilisation de parcours](jo-use-cases.md) et les [événements de réaction](reaction-events.md).
 
@@ -463,8 +468,9 @@ Raisons courantes pour lesquelles les profils peuvent ne pas rejoindre un parcou
 * **Parcours non publié** : le parcours est en état de brouillon.
 * **Espace de noms non valide** : l’espace de noms du parcours ne correspond pas à l’identité du profil.
 * **Parcours fermé** : le parcours n’accepte plus de nouvelles entrées.
+* **Durée de qualification des audiences de streaming** : pour les parcours utilisant la qualification d’audience avec les audiences de streaming, les profils peuvent ne pas entrer s’ils étaient déjà dans l’audience avant la publication du parcours ou si le parcours n’a pas terminé sa période d’activation (jusqu’à 10 minutes après la publication)
 
-En savoir plus sur la [gestion des entrées](entry-management.md).
+En savoir plus sur les [gestion des entrées](entry-management.md) et [considérations relatives au timing de qualification des audiences de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 +++
 
@@ -801,11 +807,11 @@ Les **politiques de fusion** déterminent la manière dont Adobe Experience Plat
 **Impact sur les parcours** :
 
 * Les parcours utilisent la politique de fusion associée à l’audience ou à l’événement pour déterminer quelles données de profil sont disponibles.
-   * Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée
+   * Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée.
    * Dans les parcours d’événements unitaires : la politique de fusion par défaut est utilisée.
    * Dans les parcours d’événements métier : la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée.
 
-* La politique de fusion affecte les attributs accessibles dans des conditions de parcours, la personnalisation et les actions
+* La politique de fusion affecte les attributs qui sont accessibles dans les conditions de parcours, la personnalisation et les actions.
 * Des politiques de fusion différentes peuvent entraîner l’utilisation de données de profil différentes dans le parcours.
 
 **Bonnes pratiques** :
@@ -820,12 +826,12 @@ En savoir plus sur les [politiques de fusion](../audience/get-started-profiles.m
 
 +++ Quelle est la différence entre une condition et une activité d’attente ?
 
-| | **Activité de condition** | **Activité d’attente** |
+| | **Activité Condition** : | **Activité Attente** |
 |---|---|---|
-| **Rôle** | Crée différents chemins en fonction de la logique (if/then) | Suspend le parcours pendant un certain temps |
-| **Fonction** | Évalue les données et achemine les profils en conséquence | Contient les profils à un moment donné avant de continuer |
-| **Cas d’utilisation** | Segmenter les clients, vérifier le statut, créer une branche en fonction du comportement | Timing entre les messages, attente des heures de bureau, création de retards |
-| **Exemple** | Si le client est VIP, envoyez une offre Premium ; sinon, envoyez une offre standard. | Patientez 3 jours après l’e-mail de bienvenue avant d’envoyer le message suivant |
+| **Rôle** | Crée différents chemins basés sur une logique (if/then). | Met le parcours en pause pendant une période donnée. |
+| **Fonction** | Évalue les données et oriente les profils vers les différents chemins en conséquence. | Maintient les profils à un emplacement spécifique avant de poursuivre. |
+| **Cas d’utilisation** | Segmenter une clientèle, vérifier les statuts, créer une branche en fonction du comportement. | Espacer le temps entre des messages, attendre jusqu’aux heures d’ouverture, créer des délais d’attente. |
+| **Exemple** | S’il s’agit d’un client ou d’une cliente VIP, envoi d’une offre Premium. Sinon, envoi d’une offre standard. | Patientez 3 jours après l’e-mail de bienvenue avant d’envoyer le message suivant. |
 
 **Elles peuvent être utilisées ensemble** :
 
