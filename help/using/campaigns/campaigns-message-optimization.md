@@ -210,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Apprenez à tirer parti de l’optimisation des messages dans les campagnes déclenchées par des actions ou des API. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470370?captions=fre_fr&quality=12)
