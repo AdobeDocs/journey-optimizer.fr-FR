@@ -7,10 +7,10 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: 312c3a9b924876f6bfe88890b247629ea1706b3e
 workflow-type: tm+mt
-source-wordcount: '2862'
-ht-degree: 96%
+source-wordcount: '2942'
+ht-degree: 93%
 
 ---
 
@@ -201,9 +201,17 @@ Cette incohérence peut se produire lorsque le parcours utilise l’instantané 
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
-Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=fr){target="_blank"}.
+Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Consultez également la [documentation de l’API Schedules d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/api/schedules){target="_blank"} pour savoir quand votre tâche quotidienne est planifiée.
+
++++
+
++++ Pourquoi le sélecteur d’audience affiche-t-il un nombre de profils différent dans les campagnes et les Parcours ?
+
+Vous remarquerez peut-être que la même audience affiche un nombre de profils différent dans les campagnes par rapport aux Parcours. Cela se produit, car chaque fonctionnalité utilise des API différentes pour récupérer les données d’audience, qui peuvent renvoyer des valeurs différentes.
+
+Il s’agit d’un comportement attendu qui n’a aucune incidence sur l’exécution de votre campagne. Les profils corrects seront toujours ciblés. Pour vérifier la taille réelle de l’audience, accédez à **[!UICONTROL Client]** > **[!UICONTROL Audiences]** et sélectionnez votre audience.
 
 +++
 
