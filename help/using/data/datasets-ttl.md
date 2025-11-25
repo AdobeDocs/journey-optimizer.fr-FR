@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
-workflow-type: ht
+source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Le tableau ci-dessous répertorie tous les jeux de données affectés et leur du
 | Jeu de données d’événement d’activité entrante AJO | 13 mois | 90 jours |
 | Jeu de données de classification AJO | 13 mois | S.O. |
 | Jeu de données d’événement de retour des e-mails en Cci AJO | 13 mois | S.O. |
-| Jeu de données d’événement acpEntity | 13 mois | S.O. |
+| Jeu de données d’événement d’entité | 13 mois | S.O. |
 | Parcours | 13 mois | S.O. |
 | Événements d’étape de parcours | 13 mois | S.O. |
 | Référentiel d’objets de décision - Offres personnalisées | 13 mois | S.O. |
