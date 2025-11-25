@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 93%
+source-wordcount: '1773'
+ht-degree: 88%
 
 ---
 
@@ -90,6 +90,14 @@ Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours,
 Utilisez une **[!UICONTROL condition de source de données]** pour définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Ce type de condition est défini à l’aide de l’éditeur d’expression. Découvrez comment utiliser l’éditeur d’expression dans [cette section](expression/expressionadvanced.md).
 
 Par exemple, si vous ciblez une audience avec des attributs d’enrichissement générés à l’aide d’un workflow de composition ou d’un chargement personnalisé (fichier CSV), vous pouvez utiliser ces attributs d’enrichissement pour créer votre condition.
+
+>[!IMPORTANT]
+>
+>**Gestion des attributs manquants ou non ingérés**
+>
+>Si un champ de schéma est défini dans votre schéma de profil mais qu’aucune donnée n’a été ingérée pour ce champ, Journey Optimizer et le profil client en temps réel sous-jacent interprètent le champ comme `null`. Par conséquent, les conditions qui vérifient la `isEmpty()`, la `isNull()` ou des fonctions similaires s’évaluent pour `true` même si l’attribut n’a jamais été ingéré. Cela peut entraîner un comportement de parcours inattendu si vous ne savez pas que le champ ne contient aucune donnée.
+>
+>Pour éviter toute confusion, assurez-vous que les attributs que vous utilisez dans les expressions de condition ont été ingérés avec des données réelles avant que le profil n’entre dans le parcours. Vous pouvez vérifier les valeurs d’attribut dans le [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} afin de confirmer si des données existent pour les champs utilisés dans vos conditions.
 
 L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. [En savoir plus](../datasource/external-data-sources.md).
 
