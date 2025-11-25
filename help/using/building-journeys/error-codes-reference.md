@@ -182,15 +182,15 @@ Si vous rencontrez des erreurs persistantes qui ne peuvent pas être résolues �
 1. **Collectez des informations** : collectez le code d’erreur, l’identifiant de requête, la date et l’heure, et les étapes à reproduire.
 2. **Vérifiez le statut du système** : consultez le [statut d’Adobe](https://status.adobe.com/fr){target="_blank"} pour connaître les problèmes de service connus.
 3. **Recherchez dans la documentation** : consultez [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr){target="_blank"} pour trouver des solutions.
-4. **Interagissez avec la communauté** : posez des questions à la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}.
+4. **Interagissez avec la communauté** : posez des questions à la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 5. **Contactez l’assistance Adobe** : envoyez un ticket d’assistance avec tous les détails pertinents.
 
 >[!NOTE]
 >
->Cette référence de code d’erreur est continuellement mise à jour au fur et à mesure que de nouveaux codes sont identifiés et documentés. Pour obtenir les informations les plus récentes, consultez régulièrement les [blogs de la communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}.
+>Cette référence de code d’erreur est continuellement mise à jour au fur et à mesure que de nouveaux codes sont identifiés et documentés. Pour obtenir les informations les plus récentes, consultez régulièrement les [blogs de la communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=fr){target="_blank"}.
 
 **Rubriques connexes**
 
-* [Comprendre les codes d’erreur Adobe Journey Optimizer : partie 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
-* [Comprendre les codes d’erreur Adobe Journey Optimizer : partie 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+* [Comprendre les codes d’erreur Adobe Journey Optimizer : partie 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr){target="_blank"}
+* [Comprendre les codes d’erreur Adobe Journey Optimizer : partie 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=fr){target="_blank"}
 
