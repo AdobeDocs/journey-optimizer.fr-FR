@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 5ac4220250b69289ec0f722ca54fef3b63174643
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -114,7 +114,7 @@ Pour importer des fichiers dans **[!DNL Assets Essentials]** ou **[!DNL Assets a
 
 ## Questions fréquentes {#faq-assets}
 
-Vous trouverez ci-dessous les questions fréquentes sur Adobe Experience Manager Assets.
+Vous trouverez ci-dessous les questions fréquentes sur Adobe Experience Manager Assets.
 
 Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 

@@ -50,7 +50,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 1. Sélectionnez l’activité de canal intégrée que vous souhaitez utiliser dans votre parcours.
 
-   ![&#x200B; Liste déroulante Type d’action affichant l’action du canal et les options d’action personnalisée](assets/journey-action-type-cbe.png)
+   ![ Liste déroulante Type d’action affichant l’action du canal et les options d’action personnalisée](assets/journey-action-type-cbe.png)
 
 1. Ajoutez un libellé à votre action et sélectionnez **[!UICONTROL Configurer l’action]**.
 

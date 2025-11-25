@@ -56,7 +56,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. Cliquez sur **Suivant** et sélectionnez le jeu de données dans lequel vous souhaitez écrire les données. Cliquez sur **Suivant** et **Terminer**.
 
-   ![&#x200B; Champs de schéma XDM mappés aux paramètres d’action](assets/custom-action-aep-5.png)
+   ![ Champs de schéma XDM mappés aux paramètres d’action](assets/custom-action-aep-5.png)
 
 1. Ouvrez le flux de données nouvellement créé. Copiez la payload du schéma et enregistrez-la dans votre notepad.
 

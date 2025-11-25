@@ -13,7 +13,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 
   Si vous supprimez le **lot 1**, les Sku1, Sku2 et Sku3 sont supprimés du stockage de la recherche. Les données de recherche résultantes contiendront alors : Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
 
-* **Aucune recherche chaînée** - Les recherches de jeux de données ne peuvent pas être chaînées ensemble. En d’autres termes, vous ne pouvez pas utiliser le résultat d’une recherche comme variable pour devenir la clé permettant d’effectuer une seconde recherche.
+* **Aucune recherche liée** : les recherches de jeux de données ne peuvent pas être liées. En d’autres termes, vous ne pouvez pas utiliser le résultat d’une recherche comme variable pour devenir la clé permettant d’effectuer une seconde recherche.
 
 ### Droit pour le service de recherche
 

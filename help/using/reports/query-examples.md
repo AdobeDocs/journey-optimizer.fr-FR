@@ -11,7 +11,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 56%
+ht-degree: 61%
 
 ---
 
@@ -696,8 +696,8 @@ WHERE
 Elle renvoie tous les événements de service liés à la version de parcours donnée. Nous pouvons suivre la chaîne des opérations :
 
 * création de rubrique
-* création de tâche d&#39;exportation
-* arrêt de tâche d&#39;exportation (avec des mesures sur les profils exportés)
+* création de tâche d’export
+* arrêt de tâche d’export (avec des mesures sur les profils exportés)
 * arrêt de traitement secondaire
 
 Nous pouvons également détecter des problèmes tels que :
@@ -773,11 +773,11 @@ WHERE
 Si aucun enregistrement n&#39;est renvoyé, cela signifie que :
 
 * une erreur s&#39;est produite lors de la création de la rubrique ou de la tâche d&#39;exportation
-* la tâche d&#39;exportation est toujours en cours d&#39;exécution
+* la tâche d’export est toujours en cours d’exécution
 
 +++
 
-+++Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de tâches d&#39;exportation pour chaque tâche d&#39;exportation
++++Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de tâches d’export pour chaque tâche d’export
 
 Cette requête combine le nombre de profils ignorés avec les mesures de tâche d&#39;exportation afin de fournir une vue complète des performances d&#39;exportation d&#39;audience pour chaque tâche d&#39;exportation individuelle.
 
@@ -1389,7 +1389,7 @@ ORDER BY
 
 ## Requêtes liées aux mesures de performances des actions personnalisées {#query-custom-action}
 
-+++ Nombre total d’appels, d’erreurs et de requêtes réussis par seconde de chaque point d’entrée sur une période spécifique
++++ Nombre total d’appels réussis, d’erreurs et de requêtes pour chaque seconde de chaque point d’entrée sur une période spécifique
 
 Cette requête fournit des mesures de performances pour les actions HTTP personnalisées, notamment le nombre total d’appels, les appels réussis, le nombre d’erreurs par type (4xx, 5xx, les délais d’expiration, limités) et le débit en requêtes par seconde pour chaque point d’entrée.
 
@@ -1451,7 +1451,7 @@ ORDER BY
 
 +++
 
-+++ Série temporelle d’appels réussis, d’erreurs et de débit de chaque point d’entrée sur une période spécifique
++++ Série temporelle d’appels réussis, d’erreurs et de débits pour chaque point d’entrée sur une période spécifique
 
 Cette requête fournit les mêmes mesures de performances que la requête précédente, mais organisées sous la forme d’une série temporelle, montrant comment les performances des points d’entrée varient au fil du temps avec une granularité minute par minute.
 
@@ -1519,7 +1519,7 @@ ORDER BY
 
 +++
 
-+++Latence de réponse de chaque critère d’évaluation aux 50e, 95e, 99e et 99,9e percentiles sur une période spécifique
++++Latence de réponse de chaque point d’entrée aux 50e, 95e, 99e et 99,9e percentiles sur une période spécifique
 
 Cette requête calcule les centiles du temps de réponse pour les points d’entrée d’action personnalisés, ce qui vous aide à comprendre la distribution de la latence et à identifier les valeurs aberrantes de performance à différents seuils de centile.
 
@@ -1573,7 +1573,7 @@ ORDER BY
 
 +++
 
-+++Série temporelle de centiles de latence de réponse de chaque point d’entrée sur une période spécifique
++++Série temporelle de percentiles de latence de réponse pour chaque point d’entrée sur une période spécifique
 
 Cette requête fournit des centiles de latence organisés sous la forme d’une série temporelle, ce qui vous permet de suivre l’évolution des temps de réponse des points d’entrée au fil du temps à différents niveaux de centile.
 
@@ -1633,7 +1633,7 @@ ORDER BY
 
 +++
 
-+++ Temps d’attente en file d’attente sur les points d’entrée limités aux 50e et 95e centiles sur une période spécifique
++++ Temps d’attente en file d’attente sur des points d’entrée encombrés aux 50e et 95e percentiles sur une période spécifique
 
 Cette requête analyse les temps d’attente dans la file d’attente pour les points d’entrée limités, en affichant les temps d’attente des 50e et 95e centiles pour vous aider à comprendre l’impact de la limitation sur vos actions personnalisées.
 
@@ -1683,7 +1683,7 @@ ORDER BY
 
 +++
 
-+++ Série temporelle de centiles de temps d’attente de file pour chaque point d’entrée limité
++++ Série temporelle de percentiles de temps d’attente en file d’attente pour chaque point d’entrée encombré
 
 Cette requête fournit des centiles de temps d’attente de file d’attente sous la forme d’une série temporelle, ce qui vous permet de surveiller l’impact de la limitation sur les temps d’attente au fil du temps pour chaque point d’entrée.
 
