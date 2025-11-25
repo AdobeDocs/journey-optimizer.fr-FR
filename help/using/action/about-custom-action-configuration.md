@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 98%
+source-wordcount: '1921'
+ht-degree: 95%
 
 ---
 
@@ -74,10 +74,12 @@ Les actions personnalisées prennent en charge le format JSON uniquement lors d
 
 Lorsque vous choisissez un point d’entrée à cibler à l’aide d’une action personnalisée, assurez-vous de ce qui suit :
 
-* Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point d’entrée ciblé doit prendre en charge au moins 200 TPS. En savoir plus sur les taux de traitement des parcours dans [cette section](../building-journeys/entry-management.md#journey-processing-rate).
+* Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point d’entrée ciblé devra prendre en charge au moins 200 TPS. En savoir plus sur les taux de traitement de parcours dans [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 * Ce point d’entrée doit avoir un temps de réponse aussi bas que possible. Selon le débit attendu, un temps de réponse élevé peut avoir un impact sur le débit réel.
 
 Un plafond de 300 000 appels sur une minute est défini pour toutes les actions personnalisées. En outre, la limitation par défaut est effectuée par hôte et par sandbox. Par exemple, sur un sandbox, s’il existe deux points d’entrée avec le même hôte (par exemple, `https://www.adobe.com/endpoint1` et `https://www.adobe.com/endpoint2`), la limitation s’applique à tous les points d’entrée sous l’hôte adobe.com. Le point d’entrée 1 et le point d’entrée 2 partagent la même configuration de limitation. En outre, le fait qu’un point d’entrée atteigne la limite a un impact sur l’autre point d’entrée.
+
+La limite par défaut de 300 000 appels par minute s’applique au niveau du domaine (c’est-à-dire example.com). Si vous avez besoin d’une limite supérieure, consultez les preuves d’utilisation du support Adobe et confirmez le débit de votre point d’entrée. Pour demander une augmentation de la limitation, fournissez des détails sur le volume d’appels et la capacité du point d’entrée attendus. Adobe peut personnaliser la limitation si le test de capacité démontre que le point d’entrée peut gérer un débit plus élevé. Pour connaître les bonnes pratiques, pensez à réduire le taux de lecture de l’audience, à restructurer les parcours ou à mettre en œuvre des activités d’attente pour échelonner les appels sortants et éviter les erreurs de limitation.
 
 Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 
