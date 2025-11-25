@@ -11,7 +11,7 @@ exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 ## Utiliser le contenu existant
 
-![Démonstration animée montrant l’assistant AI réutilisant le contenu de campagne existant pour générer de nouvelles variations](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Démonstration animée affichant l’assistant IA réutilisant le contenu de campagne existant pour générer de nouvelles variations](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Après avoir configuré votre campagne, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
@@ -91,7 +91,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 ## Charger une référence stylistique
 
-![Démonstration animée du chargement d’une image de référence pour guider le style de génération d’image de l’assistant AI](assets/do-not-localize/uc-image-reference.gif)
+![Démonstration animée du chargement d’une image de référence pour guider le style de génération d’image de l’assistant IA](assets/do-not-localize/uc-image-reference.gif)
 
 1. Après avoir défini et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -115,7 +115,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 ## Générer du contenu dans plusieurs langues prises en charge{#languages}
 
-![Démonstration animée d’AI Assistant générant du contenu dans plusieurs langues, notamment le français, l’espagnol et l’allemand](assets/do-not-localize/gen-ai-language.gif)
+![Démonstration animée de l’assistant IA générant du contenu dans plusieurs langues, notamment le français, l’espagnol et l’allemand](assets/do-not-localize/gen-ai-language.gif)
 
 1. Une fois votre campagne définie et configurée, cliquez sur **[!UICONTROL Modifier le contenu]**.
 

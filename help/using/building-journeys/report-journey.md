@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 71%
+ht-degree: 73%
 
 ---
 
@@ -29,7 +29,7 @@ Une fois votre parcours publié et une fois le [mode Test à blanc](journey-dry-
 
 Les événements affichés se sont produits au cours des dernières 24 heures, avec un intervalle minimal de deux minutes entre l’événement et son affichage, généralement dans les cinq minutes.
 
-![Tableau de bord de rapports dynamiques de Parcours affichant les mesures de performances en temps réel](assets/journey_live_report.png)
+![Tableau de bord Rapports dynamiques du parcours affichant les mesures de performances en temps réel](assets/journey_live_report.png)
 
 Pour vos parcours actifs ou en mode [Test à blanc](journey-dry-run.md), vous pouvez vérifier les éléments suivants :
 

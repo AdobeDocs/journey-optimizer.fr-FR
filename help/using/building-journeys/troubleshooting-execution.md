@@ -13,13 +13,13 @@ version: Journey Orchestration
 source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 53%
+ht-degree: 87%
 
 ---
 
 # Résoudre les problèmes d’exécution de votre parcours actif {#troubleshooting-execution}
 
-Dans cette section, découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si les profils ont accédé à votre parcours, comment ils le parcourent et si des messages sont envoyés.
+Dans cette section, découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si des profils ont rejoint le parcours ainsi que leur progression, et si des messages sont envoyés.
 
 Vous pouvez également résoudre les erreurs avant de tester ou de publier un parcours. Découvrez comment procéder [sur cette page](troubleshooting.md).
 
@@ -79,46 +79,46 @@ Si les personnes progressent correctement dans le parcours sans recevoir les mes
 
 Dans le cas d’un message envoyé par le biais d’une action personnalisée, le seul élément vérifiable pendant le test du parcours est l’apparition ou non d’une erreur suite à l’appel du système à l’aide d’une action personnalisée. Si l’appel au système externe associé à l’action personnalisée n’entraîne pas d’erreur, mais ne déclenche pas l’envoi d’un message, certaines vérifications doivent être effectuées du côté du système externe.
 
-## Comprendre les entrées en double dans les événements d’étape de Parcours {#duplicate-step-events}
+## Explication des entrées en double dans les événements d’étape de parcours {#duplicate-step-events}
 
-### Pourquoi est-ce que je vois plusieurs entrées avec les mêmes ID d’instance de parcours, de profil, de nœud et de requête ?
+### Pourquoi est-ce que je vois plusieurs entrées avec les mêmes ID d’instance de parcours, de profil, de nœud et de requête ?
 
-Lors de l’interrogation des données d’événements d’étape de Parcours, vous pouvez occasionnellement observer ce qui semble être des entrées de journal en double pour la même exécution de parcours. Ces entrées partagent des valeurs identiques pour :
+Lors de l’interrogation des données d’événements d’étape de parcours, vous pouvez parfois détecter des entrées de journal en double pour la même exécution de parcours. Ces entrées partagent des valeurs identiques pour les éléments suivants :
 
 * `profileID` - Identité du profil
 * `instanceID` - Identifiant de l’instance de parcours
 * `nodeID` - Nœud de parcours spécifique
 * `requestID` - Identifiant de la requête
 
-Cependant, ces entrées ont des **valeurs de `_id` différentes**, qui est l’indicateur clé qui distingue ce scénario de la duplication réelle des données.
+Cependant, ces entrées ont des **valeurs `_id` différentes**, ce qui indique qu’il ne s’agit pas d’une duplication réelle des données.
 
-### Qu’est-ce qui provoque ce comportement ?
+### Qu’est-ce qui provoque ce comportement ?
 
-Cela se produit en raison des opérations de mise à l’échelle automatique du serveur principal (également appelées « rééquilibrage ») dans l’architecture des microservices de Adobe Journey Optimizer. Pendant les périodes de forte charge ou d’optimisation du système :
+Cela se produit en raison des opérations de mise à l’échelle automatique du système back-end (également appelées « rééquilibrage ») dans l’architecture des microservices d’Adobe Journey Optimizer. Pendant les périodes de forte charge ou d’optimisation du système :
 
-1. Un événement d’étape de parcours commence le traitement et est consigné dans le jeu de données Événements d’étape de Parcours .
-2. Une opération de mise à l’échelle automatique redistribue la charge de travail entre les instances de service
-3. Le même événement peut être retraité par une autre instance de service, créant ainsi une seconde entrée de journal avec une `_id` différente
+1. un événement d’étape de parcours commence à être traité et est enregistré dans le jeu de données Événements d’étape de parcours ;
+2. une opération de mise à l’échelle automatique redistribue la charge de travail entre les instances de service ;
+3. le même événement peut être retraité par une autre instance de service, créant ainsi une seconde entrée de journal avec une valeur `_id` différente.
 
 Il s’agit d’un comportement système attendu qui **fonctionne comme prévu**.
 
-### Y a-t-il un impact sur l&#39;exécution du parcours ou la diffusion des messages ?
+### Y a-t-il un impact sur l’exécution du parcours ou la diffusion des messages ?
 
-**Non.** L’impact se limite à la journalisation uniquement. Adobe Journey Optimizer dispose de mécanismes de déduplication intégrés au niveau de la couche d’exécution des messages qui garantissent :
+**Non.** L’impact ne concerne que la journalisation. Adobe Journey Optimizer dispose de mécanismes de déduplication intégrés au niveau de la couche d’exécution des messages qui garantissent ce qui suit :
 
-* Un seul message (email, SMS, notification push, etc.) est envoyé à chaque profil
-* Les actions sont exécutées une seule fois
-* L’exécution du parcours se déroule correctement
+* Un seul message (e-mail, SMS, notification push, etc.) est envoyé à chaque profil.
+* Les actions sont exécutées une seule fois.
+* L’exécution du parcours se déroule correctement.
 
-Vous pouvez le vérifier en interrogeant les `ajo_message_feedback_event_dataset` ou en vérifiant les journaux d’exécution d’action. Vous verrez qu’un seul message a été réellement envoyé, malgré les entrées d’événement d’étape de parcours en double.
+Vous pouvez vérifier en interrogeant le `ajo_message_feedback_event_dataset` ou en consultant les journaux d’exécution d’action. Vous verrez qu’un seul message a été réellement envoyé, malgré les entrées d’événement d’étape de parcours en double.
 
-### Comment puis-je identifier ces cas dans mes requêtes ?
+### Comment puis-je identifier ces cas dans mes requêtes ?
 
-Lors de l’analyse des données d’événements d’étape de Parcours :
+Lors de l’analyse des données d’événements d’étape de parcours :
 
-1. **Vérifiez le champ `_id`** : les vrais doublons au niveau du système auraient le même `_id`. Des valeurs de `_id` différentes indiquent des entrées de journal distinctes du scénario de rééquilibrage décrit ci-dessus.
+1. **Vérifier le champ `_id`** : les vrais doublons au niveau du système auraient la même valeur `_id`. Des valeurs `_id` différentes indiquent qu’il s’agit d’entrées de journal distinctes du scénario de rééquilibrage décrit ci-dessus.
 
-2. **Vérifier la diffusion du message** : effectuez une référence croisée avec les données des commentaires du message pour confirmer qu’un seul message a été envoyé :
+2. **Vérifier la diffusion du message** : comparez avec les données de feedback sur les messages pour confirmer qu’un seul message a été envoyé :
 
    ```sql
    SELECT
@@ -132,7 +132,7 @@ Lors de l’analyse des données d’événements d’étape de Parcours :
    ORDER BY timestamp DESC;
    ```
 
-3. **Regrouper par identifiants uniques** : lors du comptage des exécutions, utilisez `_id` pour obtenir des décomptes précis :
+3. **Regrouper par identifiants uniques** : lors du comptage des exécutions, utilisez `_id` pour obtenir des décomptes précis :
 
    ```sql
    SELECT
@@ -143,17 +143,17 @@ Lors de l’analyse des données d’événements d’étape de Parcours :
      AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
    ```
 
-### Que dois-je faire si j&#39;observe ceci ?
+### Que dois-je faire si cela se produit ?
 
 Il s’agit d’un comportement normal du système et **aucune action n’est requise**. La journalisation en double n’indique aucun problème au niveau de la configuration du parcours ou de la diffusion des messages.
 
-Si vous créez des rapports ou des analyses en fonction d’événements d’étape de Parcours :
+Si vous créez des rapports ou des analyses en fonction d’événements d’étape de parcours :
 
-* Utiliser `_id` comme clé primaire pour compter les événements uniques
-* Référencement croisé avec les jeux de données de commentaires des messages lors de l’analyse de la diffusion des messages
-* Gardez à l’esprit que l’analyse de minutage peut afficher des entrées en cluster à quelques secondes d’intervalle
+* Utilisez `_id` comme clé primaire pour compter les événements uniques.
+* Comparez avec les jeux de données de feedback sur les messages lors de l’analyse de la diffusion des messages.
+* Gardez à l’esprit que l’analyse temporelle peut afficher des entrées regroupées sur quelques secondes d’intervalle.
 
-Pour plus d’informations sur l’interrogation des événements d’étape de Parcours, voir [Exemples de requêtes](../reports/query-examples.md).
+Pour plus d’informations sur l’interrogation des événements d’étape de parcours, voir [Exemples de requêtes](../reports/query-examples.md).
 
 ## Résolution des problèmes liés aux incohérences des mesures du tableau de bord {#dashboard-metrics}
 

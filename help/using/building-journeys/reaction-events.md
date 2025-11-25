@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 48%
+ht-degree: 50%
 
 ---
 
@@ -36,7 +36,7 @@ Vous pouvez utiliser l’activité **[!UICONTROL Réaction]** pour effectuer une
 
 ## Configuration des événements de réaction {#configure}
 
-![Configuration d’événement de réaction avec options de sélection de canal et de type d’événement](assets/journey45.png)
+![Configuration d’un événement de réaction avec options de sélection de canal et de type d’événement](assets/journey45.png)
 
 Pour configurer les événements de réaction, procédez comme suit :
 
