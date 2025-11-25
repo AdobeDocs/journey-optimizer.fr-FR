@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: a93f08cf2da1f2b19296359d1200a6dddacbc1f2
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 61%
+source-wordcount: '1199'
+ht-degree: 56%
 
 ---
 
@@ -150,3 +150,13 @@ Si vous créez des rapports ou des analyses en fonction d’événements d’ét
 * Gardez à l’esprit que l’analyse de minutage peut afficher des entrées en cluster à quelques secondes d’intervalle
 
 Pour plus d’informations sur l’interrogation des événements d’étape de Parcours, voir [Exemples de requêtes](../reports/query-examples.md).
+
+## Résolution des problèmes liés aux incohérences des mesures du tableau de bord {#dashboard-metrics}
+
+Si les mesures affichées dans le tableau de bord **Présentation** ne correspondent pas au nombre réel de parcours dans l’onglet **Parcourir**, vérifiez les points suivants :
+
+* Assurez-vous que les parcours en question ont eu du trafic au cours des dernières 24 heures, car les parcours sans activité récente sont exclus du tableau de bord.
+* Vérifiez que vous disposez des autorisations d’accès appropriées pour afficher tous les parcours de votre organisation.
+* Patientez jusqu’à 30 minutes pour que les mesures s’actualisent après avoir apporté des modifications à vos parcours.
+
+Si les incohérences persistent, contactez l’assistance Adobe avec des captures d’écran des onglets Aperçu et Parcourir pour en savoir plus.
