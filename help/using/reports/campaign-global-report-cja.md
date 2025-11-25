@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 96%
 
 ---
 
@@ -72,9 +72,9 @@ Notez que les mesures varient en fonction des canaux utilisés dans votre campag
 
 * **[!UICONTROL Erreurs sortantes]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
-* **[!UICONTROL Exclusions sortantes]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer.
+* **[!UICONTROL Exclusions sortantes]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer. [En savoir plus sur le comptage des exclusions](exclusion-list.md#exclusion-list).
 
-* **[!UICONTROL Affichages]** : nombre de fois que le message a été ouvert.
+* **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
 * **[!UICONTROL Affichages uniques]** : nombre de fois où le message a été ouvert, les interactions multiples d’un même profil ne sont pas prises en compte.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2134'
-ht-degree: 100%
+source-wordcount: '2162'
+ht-degree: 95%
 
 ---
 
@@ -132,7 +132,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Exclusions d’envois<br/> </td> 
-   <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer.<br/> </td> 
+   <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer. <a href="exclusion-list.md">En savoir plus sur le comptage des exclusions</a>.<br/> </td> 
   </tr>
   <tr> 
    <td> Nom de l’emplacement<br/> </td> 
@@ -193,7 +193,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr>
   <tr> 
    <td> Exclusions d’envois uniques<br/> </td> 
-   <td>Nombre de profils uniques exclus de la réception des messages en raison de règles d’éligibilité, de la segmentation de l’audience ou du statut de profil.<br/> </td> 
+   <td>Nombre de profils uniques exclus de la réception des messages en raison de règles d’éligibilité, de la segmentation de l’audience ou du statut de profil. <a href="exclusion-list.md">En savoir plus sur le comptage des exclusions</a>.<br/> </td> 
   </tr>
   <tr> 
    <td>Ciblages uniques<br/> </td> 
@@ -234,7 +234,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
     </tr>
     <tr> 
       <td>Exclusions de SMS sortants</td> 
-      <td>Nombre de profils qui ont été exclus de la réception de SMS par Adobe Journey Optimizer.</td> 
+      <td>Nombre de profils qui ont été exclus de la réception de SMS par Adobe Journey Optimizer. <a href="exclusion-list.md">En savoir plus sur le comptage des exclusions</a>.</td> 
     </tr>
     <tr> 
       <td>Clics uniques</td> 
@@ -548,7 +548,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
 <tr> 
    <td>Exclusions sortantes<br/> </td> 
-   <td>Nombre de profils exclus de la réception du publipostage direct en raison de critères prédéfinis ou d’un filtrage par Adobe Journey Optimizer.<br/> </td> 
+   <td>Nombre de profils exclus de la réception du publipostage direct en raison de critères prédéfinis ou du filtrage par Adobe Journey Optimizer. <a href="exclusion-list.md">En savoir plus sur le comptage des exclusions</a>.<br/> </td> 
 </tr>
 <tr> 
    <td>Profils<br/> </td> 

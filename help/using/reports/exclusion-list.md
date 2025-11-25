@@ -2,20 +2,41 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Liste d’exclusions
-description: En savoir plus sur les exclusions lors de l’envoi
+description: En savoir plus sur les exclusions survenant lors de l’envoi
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 83%
 
 ---
 
 # Causes d’exclusion {#exclusion-list}
+
+## Comptage des exclusions dans les rapports de campagne
+
+Lors de l&#39;affichage des rapports de campagne, la mesure *Exclusions* est calculée comme suit :
+
+**Exclusions = exclusions uniques + événements d’exclusion de doublon**
+
+Cela signifie que si un profil est exclu plusieurs fois (par exemple, en raison de plusieurs événements d’exclusion pour le même profil), chaque événement est comptabilisé dans le total des exclusions. Par conséquent, la somme des *Diffusés* et *Exclusions* peut dépasser la taille de l’audience ciblée d’origine. Ce comportement est attendu et reflète la manière dont les événements d’exclusion sont suivis dans le système.
+
+**Exemple :**
+
+- Public ciblé : 94 000 profils
+- Présentés : 69 000
+- Exclusions : 37 000 (y compris les événements d’exclusion en double)
+- Total (Délivrés + Exclusions) : 106 000
+
+Le total dépasse l’audience ciblée, car les événements d’exclusion en double sont inclus dans le nombre d’exclusions.
+
+Pour plus d’informations sur les raisons spécifiques d’exclusion, consultez le tableau ci-dessous.
+
+## Liste des raisons d’exclusion
 
 | Motif d’exclusion | Code d’erreur | Canal | Explication |
 |-|-|-|-|

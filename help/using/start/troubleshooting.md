@@ -7,10 +7,10 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2748'
-ht-degree: 100%
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+workflow-type: tm+mt
+source-wordcount: '2862'
+ht-degree: 96%
 
 ---
 
@@ -201,7 +201,7 @@ Cette incohérence peut se produire lorsque le parcours utilise l’instantané 
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
-Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=fr){target="_blank"}.
+Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Consultez également la [documentation de l’API Schedules d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/api/schedules){target="_blank"} pour savoir quand votre tâche quotidienne est planifiée.
 
@@ -239,6 +239,18 @@ Les e-mails peuvent être envoyés à des destinataires qui **ne répondent pas 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"} pour apprendre comment résoudre ce problème.
 
 Pour en savoir plus sur les fonctions de date, consultez [cette page](../building-journeys/functions/date-functions.md).
+
++++
+
++++ Pourquoi les exclusions + diffusées dépassent-elles ma taille d’audience ciblée dans les rapports de campagne ?
+
+Dans les rapports de campagne, vous remarquerez peut-être que la somme des **Diffusés** et **Exclusions** dépasse la taille de l’audience ciblée d’origine. Cela se produit, car la mesure **Exclusions** comptabilise tous les événements d’exclusion, y compris les événements d’exclusion en double pour le même profil. Si un profil est exclu plusieurs fois au cours d’une campagne, chaque événement est comptabilisé séparément.
+
+**Exemple** : une campagne ciblant 94 000 profils affiche 69 000 profils diffusés et 37 000 exclusions, pour un total de 106 000, ce qui dépasse les 94 000 profils ciblés d’origine. Il s’agit d’un comportement attendu.
+
+Pour comprendre la différence entre les événements d’exclusion totale et les exclusions de profil uniques, reportez-vous à l’explication du [Comptage des exclusions](../reports/exclusion-list.md#exclusion-list).
+
+En savoir plus sur les [rapports de campagne](../reports/campaign-global-report-cja.md) et [mesures des rapports](../reports/global-report-components-cja.md).
 
 +++
 
