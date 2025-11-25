@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: a93f08cf2da1f2b19296359d1200a6dddacbc1f2
+source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 56%
+source-wordcount: '1260'
+ht-degree: 53%
 
 ---
 
@@ -56,6 +56,10 @@ Pour résoudre votre problème, commencez par répondre aux questions suivantes�
   X-gw-ims-org-id - your organization's ID
   Content-type - application/json
   ```
+
+>[!NOTE]
+>
+>**Pour les parcours de qualification d’audience avec audiences en flux continu** : si vous utilisez une activité Qualification d’audience comme point d’entrée par parcours, sachez que tous les profils qui remplissent les critères pour l’audience n’entreront pas nécessairement dans le parcours en raison de facteurs de minutage, de sorties rapides de l’audience ou si les profils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences de diffusion en continu](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Vérifier comment les gens naviguent dans le parcours {#checking-how-people-navigate-through-the-journey}
 

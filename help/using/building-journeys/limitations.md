@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, limitation
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 91%
 
 ---
 
@@ -23,10 +23,11 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 ## Limitations des actions générales {#action-limitations}
 
-* Il n’y a pas de limite d’envoi. 
-* En cas d&#39;erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. 
-* L’événement **Réaction** intégré vous permet de réagir aux actions d’usine (voir cette [page](../building-journeys/reaction-events.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié. 
+* Il n’y a pas de limite d’envoi.
+* En cas d&#39;erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé.
+* L’événement **Réaction** intégré vous permet de réagir aux actions d’usine (voir cette [page](../building-journeys/reaction-events.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
+
 
 ## Limitations des versions de parcours {#journey-versions-limitations}
 
@@ -47,6 +48,10 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 ## Limitations des événements {#events-limitations}
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
+
+## Limites des événements de réaction {#reaction-limitations}
+
+* Les activités **[!UICONTROL Réaction]** doivent être placées immédiatement après une activité [action de canal](../building-journeys/journeys-message.md) dans la zone de travail du parcours. Le placement d’une activité **[!UICONTROL Attente]** ou de toute autre activité entre l’action de canal et l’activité **[!UICONTROL Réaction]** n’est pas pris en charge et peut entraîner un dysfonctionnement de la réaction comme prévu. En savoir plus dans [cette section](../building-journeys/reaction-events.md).
 
 ## Limites des sources de données {#data-sources-limitations}
 

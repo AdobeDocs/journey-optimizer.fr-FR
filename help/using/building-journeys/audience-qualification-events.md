@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: b8fb0c0fd9e9e119428b430563cbb35d1961516e
+source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 88%
+source-wordcount: '1598'
+ht-degree: 76%
 
 ---
 
@@ -46,7 +46,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
 
-   ![Événement de qualification d’audience dans la palette de parcours &#x200B;](assets/segment5.png)
+   ![Événement de qualification d’audience dans la palette de parcours ](assets/segment5.png)
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
 
@@ -94,7 +94,7 @@ Un nouveau parcours contenant un événement de **qualification d’audience** e
 
 L’activité **[!UICONTROL Qualification d’audience]** permet une entrée immédiate dans les parcours des personnes qualifiées ou disqualifiées d’une audience Adobe Experience Platform.
 
-La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, assurez-vous de comprendre comment les pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours. Pour en savoir plus sur les taux de traitement de parcours et les limites de débit, consultez [cette section](entry-management.md#journey-processing-rate).
+La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, vous devez veiller à comprendre comment des pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours. Pour en savoir plus sur les taux de traitement et les limites de débit des parcours, consultez [cette section](entry-management.md#journey-processing-rate).
 
 ### Audiences par lots {#batch-speed-segment-qualification}
 
@@ -114,6 +114,28 @@ Pour plus d’informations sur la segmentation par streaming, consultez la [docu
 >
 >Pour la segmentation en flux continu, les données nouvellement ingérées peuvent prendre jusqu’à **2 heures** pour se propager entièrement dans Adobe Experience Platform pour une utilisation en temps réel. Les audiences qui reposent sur des conditions basées sur un jour ou sur l’heure (par exemple, « événements survenus aujourd’hui ») peuvent présenter une complexité supplémentaire dans le minutage de la qualification. Si votre parcours dépend de la qualification immédiate de l’audience, pensez à ajouter une courte [activité d’attente](wait-activity.md) au début ou à laisser un temps de mémoire tampon pour garantir une qualification précise.
 
+#### Pourquoi tous les profils qualifiés ne peuvent-ils pas entrer sur le parcours ? {#streaming-entry-caveats}
+
+Lors de l’utilisation d’audiences en flux continu avec l’activité **Qualification d’audience**, tous les profils qui remplissent les critères de l’audience ne rejoindront pas nécessairement le parcours. Ce comportement peut être dû aux éléments suivants :
+
+* **Profils déjà dans l’audience** : seuls les profils nouvellement qualifiés pour l’audience après la publication du parcours déclencheront l’entrée. Les profils déjà présents dans l’audience avant la publication n’y accéderont pas.
+
+* **Temps d’activation du Parcours** : lorsque vous publiez un parcours, l’activité **Qualification de l’audience** prend jusqu’à **10 minutes** pour devenir active et commencer à écouter les entrées et les sorties de profil. [En savoir plus sur l’activation des parcours ](#configure-segment-qualification).
+
+* **Sorties rapides de l’audience** : si un profil remplit les conditions de l’audience mais quitte l’audience avant le déclenchement de l’entrée de parcours, il se peut que ce profil ne rejoigne pas le parcours.
+
+* **Délai entre la qualification et le traitement du parcours** : en raison de la nature distribuée de Adobe Experience Platform, il peut y avoir des écarts de délai entre le moment où un profil se qualifie pour une audience et le moment où le parcours traite cet événement de qualification.
+
+**Recommandations:**
+
+* Après la publication d’un parcours, attendez au moins 10 minutes avant d’envoyer des événements ou des données qui déclencheront la qualification du profil. Cela permet de s’assurer que le parcours est entièrement activé et prêt à traiter les entrées.
+
+* Pour les cas d’utilisation critiques où vous devez vous assurer que tous les profils qualifiés entrent, pensez à utiliser une activité [Lecture d’audience](read-audience.md) qui traite tous les profils d’une audience à un moment spécifique.
+
+* Surveillez le [débit et taux d’entrée](entry-management.md#profile-entrance-rate) de votre parcours pour comprendre les modèles de flux de profil.
+
+* Si les profils ne rejoignent pas le site comme prévu, consultez le [guide de dépannage](troubleshooting-execution.md#checking-if-people-enter-the-journey) pour obtenir des instructions de diagnostic supplémentaires.
+
 ### Éviter les surcharges {#overloads-speed-segment-qualification}
 
 Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités d’action de canal) :
@@ -128,7 +150,7 @@ Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les sy
 
   ![Message d’avertissement lorsque l’audience comporte trop d’événements pour le traitement en temps réel](assets/segment-overload.png)
 
-En savoir plus sur les limites de débit d’entrée dans [cette section](entry-management.md#profile-entrance-rate).
+Pour en savoir plus sur les limites de débit d’entrée, consultez [cette section](entry-management.md#profile-entrance-rate).
 
 ## Mécanismes de sécurisation et limitations {#audience-qualification-guardrails}
 
@@ -166,4 +188,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
