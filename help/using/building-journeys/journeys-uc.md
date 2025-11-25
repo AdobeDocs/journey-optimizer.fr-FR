@@ -21,7 +21,7 @@ ht-degree: 94%
 
 Cette section présente un cas d’utilisation qui combine une lecture d’audience, un événement, des événements de réaction et des e-mails/messages push.
 
-![ Flux de parcours simple avec les activités Lecture d’audience, Attente et E-mail ](assets/jo-uc1.png)
+![&#x200B; Flux de parcours simple avec les activités Lecture d’audience, Attente et E-mail &#x200B;](assets/jo-uc1.png)
 
 ## Description du cas d’utilisation
 

@@ -43,7 +43,7 @@ Avec l’activité **Optimiser**, vous pouvez effectuer les actions suivantes su
 * utiliser des règles de [ciblage](#targeting) dans chaque chemin de parcours ;
 * appliquer des [conditions](#conditions) à vos chemins.
 
-![Bouton Optimiser dans la palette d’activités du parcours ](assets/journey-optimize.png)
+![Bouton Optimiser dans la palette d’activités du parcours &#x200B;](assets/journey-optimize.png)
 
 Une fois le parcours actif, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont envoyés vers le chemin approprié du parcours.
 
@@ -71,7 +71,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 1. Sélectionnez **[!UICONTROL Expérience]** dans la liste déroulante **[!UICONTROL Méthode]**.
 
-   ![ Panneau de configuration de l’expérience de contenu ](assets/journey-optimize-experiment.png){width=65%}
+   ![&#x200B; Panneau de configuration de l’expérience de contenu &#x200B;](assets/journey-optimize-experiment.png){width=65%}
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]**.
 
