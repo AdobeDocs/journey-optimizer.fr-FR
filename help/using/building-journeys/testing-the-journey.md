@@ -67,7 +67,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. Pour activer le mode test, cliquez sur le bouton **[!UICONTROL Mode test]** dans le coin supérieur droit de l’écran.
 
-   ![Bouton Mode test dans l’interface de parcours ](assets/journeytest1.png)
+   ![Bouton Mode test dans l’interface de parcours &#x200B;](assets/journeytest1.png)
 
 1. Si le parcours comporte au moins une activité **Attente**, définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
 
