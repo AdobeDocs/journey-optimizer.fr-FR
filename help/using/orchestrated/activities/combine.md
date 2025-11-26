@@ -6,7 +6,7 @@ description: Découvrir comment utiliser l’activité Combiner
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1019'
 ht-degree: 100%
 

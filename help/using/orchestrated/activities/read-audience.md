@@ -6,7 +6,7 @@ description: Découvrez comment utiliser l’activité Lecture d’audience dans
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
 ht-degree: 100%
 

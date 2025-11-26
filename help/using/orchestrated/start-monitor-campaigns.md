@@ -6,7 +6,7 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
 ht-degree: 100%
 
