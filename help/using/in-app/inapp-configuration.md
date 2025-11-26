@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -33,7 +33,6 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 * Dans la [collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous qu’un train de données est défini, de telle sorte que sous le service **[!UICONTROL Adobe Experience Platform]**, les options Adobe Experience Platform Edge et **[!UICONTROL Adobe Journey Optimizer]** soient activées.
 
   Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr){target="_blank"}
-
 
   >[!NOTE]
   >
@@ -143,4 +142,18 @@ Si vous **n’utilisez pas** les [groupes de champs](https://experienceleague.ad
 * [Création d’une campagne](../campaigns/create-campaign.md)
 * [Concevoir un message in-app](design-in-app.md)
 * [Rapport in-app](../reports/campaign-global-report-cja-inapp.md)
+
+## Mécanisme de sécurisation de la gestion des profils {#profile-management-guardrail}
+
+[!DNL Journey Optimizer] messages in-app peuvent cibler des profils pseudonymes, c’est-à-dire des profils qui ne sont pas authentifiés ou qui ne sont pas encore connus, car ils n’ont encore jamais été engagés sur d’autres canaux. C’est le cas, par exemple, lors du ciblage de tous les visiteurs ou audiences en fonction d’identifiants temporaires tels qu’ECID.
+
+Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
+
+Pour que vos profils engageables restent dans des limites raisonnables, Adobe recommande de définir une durée de vie (TTL) pour supprimer automatiquement les profils pseudonymes du profil client en temps réel s’ils n’ont pas été vus ou engagés dans une fenêtre temporelle spécifique.
+
+>[!NOTE]
+>
+>Découvrez comment configurer l’expiration des données pour les profils pseudonymes dans la documentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+
+Adobe recommande de définir la valeur de durée de vie sur 14 jours pour correspondre à la durée de vie actuelle du profil Edge.
 

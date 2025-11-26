@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 73%
 
 ---
 
@@ -47,3 +47,17 @@ Ajoutez le groupe de champs **Événement d’expérience - Interaction de propo
   Assurez-vous que le jeu de données utilisé dans le [train de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview#_blank){target="_blank"} de votre application est également inclus dans votre configuration des rapports d’expérience de contenu. Les données de l’application ne s’afficheront pas dans les rapports si les jeux de données ne correspondent pas.
 
   Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../reports/reporting-configuration.md).
+
+## Mécanisme de sécurisation de la gestion des profils {#profile-management-guardrail}
+
+Les cartes de contenu [!DNL Journey Optimizer] peuvent cibler des profils pseudonymes, c’est-à-dire des profils qui ne sont pas authentifiés ou qui ne sont pas encore connus, car ils n’ont encore jamais été engagés sur d’autres canaux. C’est le cas, par exemple, lors du ciblage de tous les visiteurs ou audiences en fonction d’identifiants temporaires tels qu’ECID.
+
+Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
+
+Pour que vos profils engageables restent dans des limites raisonnables, Adobe recommande de définir une durée de vie (TTL) pour supprimer automatiquement les profils pseudonymes du profil client en temps réel s’ils n’ont pas été vus ou engagés dans une fenêtre temporelle spécifique.
+
+>[!NOTE]
+>
+>Découvrez comment configurer l’expiration des données pour les profils pseudonymes dans la documentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+
+Adobe recommande de définir la valeur de durée de vie sur 14 jours pour correspondre à la durée de vie actuelle du profil Edge.

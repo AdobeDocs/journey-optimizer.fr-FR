@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '3131'
-ht-degree: 93%
+source-wordcount: '3233'
+ht-degree: 90%
 
 ---
 
@@ -88,15 +88,21 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/g
 
 ### Mécanismes de sécurisation pour le canal entrant {#inbound-guardrails}
 
+Pour utiliser des actions d’[expérience basée sur du code](../code-based/get-started-code-based.md) dans [!DNL Journey Optimizer] et fournir la payload de contenu de code qui peut être utilisée par vos applications, respectez les conditions préalables requises présentées dans [cette page](../code-based/code-based-prerequisites.md).
+
+Pour créer et accéder à des [pages web](../web/get-started-web.md) dans l’interface utilisateur [!DNL Journey Optimizer], remplissez les conditions préalables répertoriées sur [cette page](../web/web-prerequisites.md).
+
+Pour envoyer des messages in-app dans vos parcours et campagnes avec [!DNL Journey Optimizer], suivez les conditions préalables à la diffusion répertoriées sur [cette page](../in-app/inapp-configuration.md).
+
+Pour que Adobe Journey Optimizer affiche correctement les cartes de contenu, vous devez configurer les paramètres Adobe Experience Platform répertoriés sur [cette page](../content-card/content-card-configuration-prereq.md).
+
 * Journey Optimizer prend en charge un volume maximal de 5 000 requêtes entrantes par seconde. Ce mécanisme de sécurisation s’applique à toutes les requêtes entrantes, qui peuvent provenir de n’importe quel canal entrant pris en charge par Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md), [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)).
 
-  Les canaux entrants de Journey Optimizer ciblent les nouveaux profils qui n’ont peut-être jamais été engagés avant sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
+* Les canaux entrants de Journey Optimizer ciblent les nouveaux profils qui n’ont peut-être jamais été engagés avant sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées à la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-  Les mesures de licence de chaque package sont répertoriées à la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  Pour maintenir vos profils engageables dans des limites raisonnables, Adobe recommande de définir une durée de vie (TTL) de 14 jours pour supprimer automatiquement les profils pseudonymes sur le Hub s’ils n’ont pas été vus ou engagés dans cette fenêtre temporelle. Découvrez comment le faire dans la documentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
 
 * Journey Optimizer prend en charge un maximum de 500 actions entrantes actives, quel que soit le moment. Ces actions entrantes ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md), [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)) sont comptabilisées si elles font partie d’une campagne active ou si elles sont un nœud utilisé dans un parcours actif. Une fois ce nombre atteint, vous devez désactiver les anciennes campagnes ou les anciens parcours qui utilisent des actions entrantes avant de pouvoir en lancer de nouvelles.
-
-* Pour utiliser des actions d’[expérience basée sur du code](../code-based/get-started-code-based.md) dans [!DNL Journey Optimizer] et fournir la payload de contenu de code qui peut être utilisée par vos applications, respectez les conditions préalables requises présentées dans [cette page](../code-based/code-based-prerequisites.md).
 
 ### Mécanismes de sécurisation des messages transactionnels {#transactional-message-guardrails}
 
@@ -161,7 +167,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
