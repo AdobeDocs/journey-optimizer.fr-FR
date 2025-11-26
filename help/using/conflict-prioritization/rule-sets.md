@@ -10,7 +10,7 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 100%
 
@@ -180,4 +180,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

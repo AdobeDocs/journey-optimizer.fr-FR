@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '2729'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -146,12 +146,12 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Utilisation de la limitation"
->abstract="Pour éviter de sur-solliciter vos clients et clientes, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée. Vous pouvez créer jusqu’à 10 règles de limitation pour une offre donnée."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="La modification des dates peut avoir un impact sur la limitation."
+>abstract="Pour éviter de trop solliciter votre clientèle, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée. Vous pouvez créer jusqu’à 10 règles de limitation pour une offre donnée."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="La modification des dates peut avoir un impact sur la limitation."
 
-La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les utilisateurs reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clients et donc d’optimiser chaque point de contact avec la meilleure offre.
+La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre.
 
-Vous pouvez ajouter jusqu’à 10 règles de limitation pour une offre donnée. Pour définir une règle de limitation, cliquez sur le bouton **[!UICONTROL Créer une limitation]**, puis suivez les étapes ci-dessous.
+Vous pouvez ajouter jusqu’à 10 règles de limitation pour une offre donnée. Pour définir une règle de limitation, cliquez sur le bouton **[!UICONTROL Créer une limitation]** puis procédez comme suit.
 
 1. Définissez l’**[!UICONTROL Événement de limitation]** à prendre en compte pour augmenter le compteur. [En savoir plus](#capping-event).
 
@@ -192,7 +192,7 @@ Le champ **[!UICONTROL Choisir l’événement de limitation]** vous permet de d
   >
   >L’utilisation des impressions comme événements de limitation est réservée aux **canaux entrants**.
 
-* **[!UICONTROL Événement personnalisé]** : vous pouvez définir un événement personnalisé afin de limiter le nombre d’offres envoyées. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} pour créer une règle d’événement personnalisé.
+* **[!UICONTROL Événement personnalisé]** : vous pouvez définir un événement personnalisé afin de limiter le nombre d’offres envoyées. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"} pour créer une règle d’événement personnalisé.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 
