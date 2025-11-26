@@ -38,7 +38,7 @@ Les étapes de publication d’un parcours sont présentées en détail ci-desso
    >
    > Si votre parcours est soumis à une politique d’approbation, vous devez effectuer une demande d’approbation afin de pouvoir le publier. [En savoir plus](../test-approve/gs-approval.md)
 
-   ![Bouton Publier dans la barre d’outils du parcours pour activer le parcours ](assets/journeyuc1_18.png)
+   ![Bouton Publier dans la barre d’outils du parcours pour activer le parcours &#x200B;](assets/journeyuc1_18.png)
 
 Une fois le parcours publié, il est en **lecture seule**. En lecture seule, vous ne pouvez modifier que les libellés et les descriptions des activités, ainsi que le nom et la description du parcours. Si vous devez apporter des modifications à un parcours publié, créez [une nouvelle version](journey-ui.md#journey-filter) de votre parcours.
 
@@ -66,7 +66,7 @@ Si vous devez apporter des modifications à un parcours publié, vous devez en c
 
 1. Ouvrez la dernière version de votre parcours actif, puis cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
-   ![Boîte de dialogue Créer une version pour dupliquer le parcours ](assets/journeyversions2.png)
+   ![Boîte de dialogue Créer une version pour dupliquer le parcours &#x200B;](assets/journeyversions2.png)
 
    >[!NOTE]
    >
