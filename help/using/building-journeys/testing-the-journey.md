@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
 source-wordcount: '1881'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
@@ -36,38 +36,38 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 ### Limites générales
 
-* **Profils de test uniquement** - Seuls les individus indiqués comme « profils de test » dans le service de profil client en temps réel peuvent entrer un parcours en mode test. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md).
-* **Exigence d’espace de noms** - Le mode test n’est disponible que pour les brouillons de parcours qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
-* **Limite de profil** - Un maximum de 100 profils de test peuvent rejoindre un parcours au cours d’une seule session de test.
-* **Déclenchement d’événement** - Les événements ne peuvent être déclenchés qu’à partir de l’interface. Les événements ne peuvent pas être déclenchés à partir de systèmes externes à l’aide d’une API.
-* **Audiences de chargement personnalisées** - Le mode test de Parcours ne prend pas en charge l’enrichissement d’attributs [audience de chargement personnalisée](../audience/custom-upload.md).
+* **Profils de test uniquement** : seuls les individus indiqués comme « profils de test » dans le service de profil client en temps réel peuvent rejoindre un parcours en mode test. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md).
+* **Exigence d’espace de noms** : le mode test n’est disponible que pour les brouillons de parcours qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
+* **Limite de profil** : un maximum de 100 profils de test peuvent rejoindre un parcours au cours d’une seule session de test.
+* **Déclenchement d’événement** : les événements ne peuvent être déclenchés qu’à partir de l’interface. Les événements ne peuvent pas être déclenchés à partir de systèmes externes à l’aide d’une API.
+* **Audiences de chargement personnalisées** : le mode test de parcours ne prend pas en charge l’enrichissement d’attributs d’[audience de chargement personnalisée](../audience/custom-upload.md).
 
-### Comportement pendant et après le test
+### Comportement pendant et après les tests
 
-* **Désactivation du mode test** - Lorsque vous désactivez le mode test, tous les profils actuellement ou précédemment entrés dans le parcours sont supprimés et le compte rendu des performances est effacé.
-* **Flexibilité de réactivation** - Vous pouvez activer et désactiver le mode test autant de fois que nécessaire.
-* **Désactivation automatique** - Les Parcours qui restent inactifs en mode test pendant **plus d’une semaine** reviennent automatiquement au statut Brouillon pour optimiser les performances et empêcher l’utilisation des ressources obsolètes.
-* **Modification et publication** - Lorsque le mode test est actif, vous ne pouvez pas modifier le parcours. Vous pouvez toutefois publier directement le parcours. Il n’est pas nécessaire de désactiver le mode test auparavant.
+* **Désactivation du mode test** : lorsque vous désactivez le mode test, tous les profils présents actuellement dans le parcours ou qui l’ont rejoint précédemment sont supprimés et les rapports sont effacés.
+* **Flexibilité de réactivation** : vous pouvez activer et désactiver le mode test autant de fois que nécessaire.
+* **Désactivation automatique** : les parcours qui restent inactifs en mode test pendant **plus d’une semaine** reviennent automatiquement au statut Brouillon pour optimiser les performances et empêcher l’utilisation des ressources obsolètes.
+* **Modification et publication** : lorsque le mode test est actif, vous ne pouvez pas modifier le parcours. Cependant, vous pouvez publier directement le parcours, sans avoir à désactiver le mode test au préalable.
 
 ### Exécution
 
-* **Comportement de partage** - Lorsque le parcours atteint un partage, la branche supérieure est toujours sélectionnée. Réordonnez les branches si vous souhaitez tester un autre chemin.
-* **Planning des événements** - Si le parcours comprend * plusieurs événements, déclenchez chaque événement dans des séquences. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
-* **Fenêtre de date active** - Assurez-vous que la fenêtre de choix [dates/heure de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lors du lancement du mode test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement.
-* **Événements de réaction** - Pour les événements de réaction avec une temporisation, le temps d’attente minimum et par défaut est de 40 secondes.
-* **Jeux de données de test** - Les événements déclenchés en mode test sont stockés dans des jeux de données dédiés libellés comme suit : `JOtestmode - <schema of your event>`
+* **Comportement de partage** : lorsque le parcours atteint un partage, la branche supérieure est toujours sélectionnée. Réorganisez les branches si vous souhaitez tester un autre chemin.
+* **Timing des événements** : si le parcours comprend plusieurs événements, déclenchez chaque événement en séquence. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
+* **Fenêtre de date active** : assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement.
+* **Événements de réaction** : pour les événements de réaction avec une temporisation, le temps d’attente minimum et par défaut est de 40 secondes.
+* **Jeux de données de test** : les événements déclenchés en mode test sont stockés dans des jeux de données dédiés libellés comme suit : `JOtestmode - <schema of your event>`
 
 <!--
 * Fields from related entities are hidden from the test mode.
 -->
 
-## Activation du mode test
+## Activer le mode test
 
 Pour utiliser le mode test, procédez comme suit :
 
 1. Pour activer le mode test, cliquez sur le bouton **[!UICONTROL Mode test]** dans le coin supérieur droit de l’écran.
 
-   ![Bouton Mode test dans l’interface de parcours &#x200B;](assets/journeytest1.png)
+   ![Bouton Mode test dans l’interface de parcours ](assets/journeytest1.png)
 
 1. Si le parcours comporte au moins une activité **Attente**, définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
 
