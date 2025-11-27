@@ -10,7 +10,7 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 86%
@@ -38,7 +38,7 @@ Les étapes de publication d’un parcours sont présentées en détail ci-desso
    >
    > Si votre parcours est soumis à une politique d’approbation, vous devez effectuer une demande d’approbation afin de pouvoir le publier. [En savoir plus](../test-approve/gs-approval.md)
 
-   ![Bouton Publier dans la barre d’outils du parcours pour activer le parcours &#x200B;](assets/journeyuc1_18.png)
+   ![Bouton Publier dans la barre d’outils du parcours pour activer le parcours ](assets/journeyuc1_18.png)
 
 Une fois le parcours publié, il est en **lecture seule**. En lecture seule, vous ne pouvez modifier que les libellés et les descriptions des activités, ainsi que le nom et la description du parcours. Si vous devez apporter des modifications à un parcours publié, créez [une nouvelle version](journey-ui.md#journey-filter) de votre parcours.
 
@@ -46,9 +46,9 @@ Si vous arrêtez un parcours, l’arrêt est définitif. Toutes les personnes pr
 
 >[!IMPORTANT]
 >
->Si des modifications sont apportées à une décision d’offres utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier. Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
+>* Si des modifications sont apportées à une décision d’offres utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier. Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
 >
->Assets/Images sont accessibles dans le contenu diffusé pendant un maximum de 2 ans (730 jours) depuis leur première publication dans un fragment ou un message intégré. Une republication est nécessaire après cette période d’expiration (à tout moment après 730 jours) pour les conserver accessibles pendant 2 ans supplémentaires. Toute republication effectuée dans les 730 jours suivant la première publication n’étendra pas l’expiration des ressources/images aux 730 jours suivants.
+>* Assets/Images sont accessibles dans le contenu diffusé pendant un maximum de 2 ans (730 jours) depuis leur première publication dans un fragment ou un message intégré. Une republication est nécessaire après cette période d’expiration (à tout moment après 730 jours) pour les conserver accessibles pendant 2 ans supplémentaires. Toute republication effectuée dans les 730 jours suivant la première publication n’étendra pas l’expiration des ressources/images aux 730 jours suivants.
 
 ## Versions de parcours {#journey-versions}
 
@@ -66,7 +66,7 @@ Si vous devez apporter des modifications à un parcours publié, vous devez en c
 
 1. Ouvrez la dernière version de votre parcours actif, puis cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
-   ![Boîte de dialogue Créer une version pour dupliquer le parcours &#x200B;](assets/journeyversions2.png)
+   ![Boîte de dialogue Créer une version pour dupliquer le parcours ](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -90,4 +90,4 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 Découvrez comment publier un parcours dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3427934?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

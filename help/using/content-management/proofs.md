@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 80%
@@ -50,6 +50,6 @@ Il est recommandé d’envoyer des BAT après chaque modification du contenu du 
 
 >[!NOTE]
 >
->Dans le BAT envoyé, le lien vers la page miroir n’est pas actif. Il n’est activé que dans les messages finaux.
+>* Dans le BAT envoyé, le lien vers la page miroir n’est pas actif. Il n’est activé que dans les messages finaux.
 >
->Assets/Images sont accessibles dans le contenu diffusé ou le contenu du BAT pendant un maximum de 2 ans (730 jours) depuis leur première publication dans un fragment ou un message intégré. Une republication est nécessaire après cette période d’expiration (à tout moment après 730 jours) pour les conserver accessibles pendant 2 ans supplémentaires. Toute republication effectuée dans les 730 jours suivant la première publication n’étendra pas l’expiration des ressources/images aux 730 jours suivants.
+>* Assets/Images sont accessibles dans le contenu diffusé ou le contenu du BAT pendant un maximum de 2 ans (730 jours) depuis leur première publication dans un fragment ou un message intégré. Une republication est nécessaire après cette période d’expiration (à tout moment après 730 jours) pour les conserver accessibles pendant 2 ans supplémentaires. Toute republication effectuée dans les 730 jours suivant la première publication n’étendra pas l’expiration des ressources/images aux 730 jours suivants.
