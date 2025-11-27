@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 89%
+source-wordcount: '1181'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 
 >[!NOTE]
 >
->Lors du ciblage de profils pseudonymes (visiteurs non authentifiés) avec vos pages web, pensez à définir une durée de vie (TTL) pour la suppression automatique des profils afin de gérer le nombre de profils engageables et les coûts associés. [En savoir plus](#profile-management-guardrail)
+>Lors du ciblage de profils pseudonymes (visiteurs non authentifiés) avec vos pages web, pensez à définir une durée de vie (TTL) pour la suppression automatique des profils afin de gérer le nombre de profils engageables et les coûts associés. [En savoir plus](../start/guardrails.md#profile-management-inbound)
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 
@@ -45,7 +45,7 @@ Deux types d’implémentation sont pris en charge pour permettre la création e
 >
 >L’implémentation côté serveur uniquement n’est actuellement pas prise en charge avec le canal web. Si vous disposez d’une implémentation côté serveur uniquement pour vos pages web, vous pouvez utiliser le [canal d’expérience basée sur du code](../code-based/get-started-code-based.md) à la place.
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## Conditions préalables à la création visuelle {#visual-authoring-prerequisites}
 
@@ -155,17 +155,3 @@ Si vous **n’utilisez pas** les [groupes de champs](https://experienceleague.ad
 ## Domaines de marque pour les ressources {#branded-domains-for-assets}
 
 Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque [Adobe Experience Manager Assets](../integrations/assets.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu. [En savoir plus](web-delegated-subdomains.md)
-
-## Mécanisme de sécurisation de la gestion des profils {#profile-management-guardrail}
-
-[!DNL Journey Optimizer] campagnes web peuvent cibler des profils pseudonymes, c’est-à-dire des profils qui ne sont pas authentifiés ou qui ne sont pas encore connus, car ils n’ont encore jamais été engagés sur d’autres canaux. C’est le cas, par exemple, lors du ciblage de tous les visiteurs ou audiences en fonction d’identifiants temporaires tels qu’ECID.
-
-Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
-
-Pour que vos profils engageables restent dans des limites raisonnables, Adobe recommande de définir une durée de vie (TTL) pour supprimer automatiquement les profils pseudonymes du profil client en temps réel s’ils n’ont pas été vus ou engagés dans une fenêtre temporelle spécifique.
-
->[!NOTE]
->
->Découvrez comment configurer l’expiration des données pour les profils pseudonymes dans la documentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
-
-Adobe recommande de définir la valeur de durée de vie sur 14 jours pour correspondre à la durée de vie actuelle du profil Edge.

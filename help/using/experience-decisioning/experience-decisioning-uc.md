@@ -7,16 +7,20 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '828'
-ht-degree: 100%
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 98%
 
 ---
 
 # Utiliser la prise de décision dans une expérience basée sur le code avec une expérience de contenu {#experience-decisioning-uc}
 
 Ce cas d’utilisation présente toutes les étapes nécessaires pour utiliser la prise de décisions avec le canal basé sur le code [!DNL Journey Optimizer].
+
+>[!NOTE]
+>
+>La fonctionnalité de gestion des décisions héritée n’est pas prise en charge avec le canal d’expérience basé sur le code.
 
 Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d’offre préaffectées. Pour mesurer celle qui fonctionne le mieux pour votre audience cible, créez une campagne à l’aide de l’[Expérience de contenu](../content-management/content-experiment.md), dans laquelle vous définissez deux traitements de diffusion :
 

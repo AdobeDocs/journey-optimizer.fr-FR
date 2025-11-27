@@ -6,16 +6,22 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 81%
 
 ---
 
-# Prise de décisions dans les implémentations d’expérience basée sur du code
+# Prise de décisions dans les implémentations d’expérience basée sur du code {#code-based-decisioning-implementations}
 
 Lors de l’utilisation de prises de décisions dans des expériences basées sur du code, pensez à ajouter les indicateurs suivants à votre implémentation client dans les cas décrits ci-dessous.
+
+➡️ Pour en savoir plus sur la configuration de Web SDK pour les expériences de prise de décision et basées sur du code, consultez [ces tutoriels](#tutorials).
+
+>[!CAUTION]
+>
+>Le canal d’expérience basé sur le code ne prend en charge que la fonctionnalité [!DNL Journey Optimizer] [Decisioning](../experience-decisioning/gs-experience-decisioning.md). La fonctionnalité de gestion des décisions héritée n’est pas disponible avec les expériences basées sur du code.
 
 ## Test d’expériences basées sur du code à l’aide de décisions {#code-based-test-decisions}
 
@@ -288,3 +294,9 @@ Supposons que vous ayez la même politique de décision avec l’emplacement de 
 ```
 
 +++
+
+## Tutoriels{#tutorials}
+
+Découvrez comment utiliser la prise de décision dans Journey Optimizer pour personnaliser les offres de contenu de votre site web, en mettant l’accent sur la configuration de Web SDK dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+
+Découvrez comment configurer Web SDK et utiliser la prise de décision avec des expériences basées sur du code pour personnaliser les offres à l’aide de données météorologiques en temps réel et d’informations contextuelles dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
