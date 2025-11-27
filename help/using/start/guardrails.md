@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
-source-wordcount: '3331'
+source-wordcount: '3324'
 ht-degree: 87%
 
 ---
@@ -88,17 +88,17 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/g
 
 ### Mécanismes de sécurisation pour le canal entrant {#inbound-guardrails}
 
-Pour utiliser des actions d’[expérience basée sur du code](../code-based/get-started-code-based.md) dans [!DNL Journey Optimizer] et fournir la payload de contenu de code qui peut être utilisée par vos applications, respectez les conditions préalables requises présentées dans [cette page](../code-based/code-based-prerequisites.md).
+* Pour utiliser des actions d’[expérience basée sur du code](../code-based/get-started-code-based.md) dans [!DNL Journey Optimizer] et fournir la payload de contenu de code qui peut être utilisée par vos applications, respectez les conditions préalables requises présentées dans [cette page](../code-based/code-based-prerequisites.md).
 
-Pour créer et accéder à des [pages web](../web/get-started-web.md) dans l’interface utilisateur [!DNL Journey Optimizer], remplissez les conditions préalables répertoriées sur [cette page](../web/web-prerequisites.md).
+* Pour créer et accéder à des [pages web](../web/get-started-web.md) dans l’interface utilisateur [!DNL Journey Optimizer], remplissez les conditions préalables répertoriées sur [cette page](../web/web-prerequisites.md).
 
-Pour envoyer des messages in-app dans vos parcours et campagnes avec [!DNL Journey Optimizer], suivez les conditions préalables à la diffusion répertoriées sur [cette page](../in-app/inapp-configuration.md).
+* Pour envoyer des messages in-app dans vos parcours et campagnes avec [!DNL Journey Optimizer], suivez les conditions préalables à la diffusion répertoriées sur [cette page](../in-app/inapp-configuration.md).
 
-Pour que Adobe Journey Optimizer affiche correctement les cartes de contenu, vous devez configurer les paramètres Adobe Experience Platform répertoriés sur [cette page](../content-card/content-card-configuration-prereq.md).
+* Pour que Adobe Journey Optimizer affiche correctement les cartes de contenu, vous devez configurer les paramètres Adobe Experience Platform répertoriés sur [cette page](../content-card/content-card-configuration-prereq.md).
 
 * Journey Optimizer prend en charge un volume maximal de 5 000 requêtes entrantes par seconde. Ce mécanisme de sécurisation s’applique à toutes les requêtes entrantes, qui peuvent provenir de n’importe quel canal entrant pris en charge par Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md), [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)).
 
-* Journey Optimizer prend en charge un maximum de 500 actions entrantes actives, quel que soit le moment. Ces actions entrantes ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [expériences basées sur du code](../code-based/get-started-code-based.md), [cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)) sont comptabilisées si elles font partie d’une campagne active ou si elles sont un nœud utilisé dans un parcours actif. Une fois ce nombre atteint, vous devez désactiver les anciennes campagnes ou les anciens parcours qui utilisent des actions entrantes avant de pouvoir en lancer de nouvelles.
+* Journey Optimizer prend en charge un maximum de 500 actions entrantes actives, quel que soit le moment. Ces actions entrantes sont comptabilisées si elles font partie d’une campagne active ou s’il s’agit d’un nœud utilisé dans un parcours actif. Une fois ce nombre atteint, vous devez désactiver les anciennes campagnes ou les anciens parcours qui utilisent des actions entrantes avant de pouvoir en lancer de nouvelles.
 
 #### Gestion des profils avec canaux entrants {#profile-management-inbound}
 
@@ -152,7 +152,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../cont
 
 * Lors de l’ingestion de données, les e-mails sont sensibles à la casse. Cela signifie que des profils peuvent être créés en double (par exemple, un profil pour John.Greene@luma.com, un autre pour john.greene@luma.com) et utilisés lors du ciblage du destinataire correspondant dans vos parcours et campagnes [!DNL Journey Optimizer].
 
-* Lorsque vous ciblez des profils pseudonymes (visiteurs non authentifiés) avec vos cartes de contenu, pensez à définir une durée de vie (TTL) pour la suppression automatique des profils afin de gérer le nombre de profils engageables et les coûts associés. [En savoir plus](#profile-management-inbound)
+* Lors du ciblage de profils pseudonymes (visiteurs non authentifiés) avec des canaux entrants, pensez à définir une durée de vie (TTL) pour la suppression automatique des profils afin de gérer le nombre de profils engageables et les coûts associés. [En savoir plus](#profile-management-inbound)
 
 ## Mécanismes de sécurisation des décisions et de la gestion des décisions {#decisioning-guardrails}
 
@@ -179,7 +179,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
