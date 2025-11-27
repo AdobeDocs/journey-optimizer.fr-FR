@@ -21,7 +21,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Novembre 2025 {#november-2025}
 
-* Ajout d’un mécanisme de sécurisation pour le ciblage des profils pseudonymes avec des canaux entrants à la page [ Mécanismes de sécurisation et limitations ](../start/guardrails.md#profile-management-inbound). Ce mécanisme de sécurisation indique que le ciblage des profils qui ne sont pas authentifiés ou qui ne sont pas connus augmente le nombre total de profils engageables et peut avoir une incidence sur votre facturation. C’est pourquoi Adobe recommande de définir une durée de vie (TTL) pour la suppression automatique des profils afin de gérer le nombre de profils engageables et les coûts associés.
+* Ajout d’un mécanisme de sécurisation pour le ciblage des profils pseudonymes avec des canaux entrants à la page [&#x200B; Mécanismes de sécurisation et limitations &#x200B;](../start/guardrails.md#profile-management-inbound). Ce mécanisme de sécurisation indique que le ciblage des profils qui ne sont pas authentifiés ou qui ne sont pas connus augmente le nombre total de profils engageables et peut avoir une incidence sur votre facturation. C’est pourquoi Adobe recommande de définir une durée de vie (TTL) pour la suppression automatique des profils afin de gérer le nombre de profils engageables et les coûts associés.
 
 * Une note a été ajoutée pour indiquer que les ressources et les images restent accessibles pendant 2 ans (730 jours) à compter de la première publication et doivent être republiées après expiration. [En savoir plus](../content-management/proofs.md)
 
@@ -210,7 +210,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
