@@ -217,4 +217,4 @@ Oui, GenStudio est conçu pour la collaboration. Plusieurs membres de l’équip
 
 Découvrez le processus d’export d’un modèle d’e-mail de Journey Optimizer vers GenStudio for Performance Marketing, de création d’e-mails conformes à la marque à l’aide du modèle dans GenStudio et de réimport transparent dans Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456051/?captions=fre_fr&quality=12)
