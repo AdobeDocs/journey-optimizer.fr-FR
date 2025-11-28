@@ -9,9 +9,9 @@ badge: label="Disponibilité limitée" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 784f1fbfbf2cfa73666bdc943fc30028c9dc913c
+source-git-commit: c03fc0e53cdaaa735c4fa48113db7b4f848e33a8
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1252'
 ht-degree: 46%
 
 ---
@@ -51,7 +51,7 @@ Pour utiliser l’intégration [!DNL GenStudio for Performance Marketing] avec [
 
 * [!DNL GenStudio for Performance Marketing] et [!DNL Adobe Journey Optimizer] doivent appartenir à la même organisation IMS.
 
-* Les utilisateurs doivent disposer au minimum du rôle **collaborateur** ou d’un rôle supérieur pour [!DNL GenStudio for Performance Marketing] les fonctionnalités d’intégration. [En savoir plus sur les rôles utilisateur dans GenStudio](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* Les utilisateurs doivent disposer au minimum du rôle **collaborateur** ou d’un rôle supérieur pour [!DNL GenStudio for Performance Marketing] les fonctionnalités d’intégration. [En savoir plus sur les rôles utilisateur dans GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
@@ -91,8 +91,7 @@ Cette intégration offre de puissantes fonctionnalités à votre organisation ma
 
 ### Cas d’utilisation courants {#genstudio-use-cases}
 
-L’intégration entre [!DNL GenStudio for Performance Marketing] et 
-Journey Optimizer&rbrack; prend en charge divers scénarios marketing :
+L’intégration entre [!DNL GenStudio for Performance Marketing] et [!DNL Journey Optimizer] prend en charge divers scénarios marketing :
 
 * **Campagnes de lancement de produit** : générez rapidement plusieurs variantes d’e-mail pour les annonces de produit, testez-les avec différents segments d’audience et mettez à l’échelle la version gagnante sur l’ensemble de votre base de clients.
 
@@ -158,9 +157,9 @@ Une fois que vous avez créé des variations d’e-mail dans GenStudio, réimpor
 
    >[!NOTE]
    >
-   >Les expériences GenStudio [créées à partir d’un modèle [!DNL Journey Optimizer]  &#x200B;](#export-from-ajo-to-genstudio) sont importées directement dans le Designer d’e-mail avec des fonctionnalités d’édition complètes. Les expériences GenStudio créées sans modèle de [!DNL Journey Optimizer] sont importées en [mode de compatibilité](../email/existing-content.md), qui peut comporter des fonctionnalités de modification limitées.
+   >Les expériences GenStudio [créées à partir d’un modèle [!DNL Journey Optimizer]  ](#export-from-ajo-to-genstudio) sont importées directement dans le Designer d’e-mail avec des fonctionnalités d’édition complètes. Les expériences GenStudio créées sans modèle de [!DNL Journey Optimizer] sont importées en [mode de compatibilité](../email/existing-content.md), qui peut comporter des fonctionnalités de modification limitées.
 
-1. Utilisez les [&#x200B; outils d’édition de contenu d’e-mail &#x200B;](../email/content-from-scratch.md) et [&#x200B; champs de personnalisation &#x200B;](../personalization/personalize.md) pour modifier votre e-mail selon vos besoins. Enregistrez votre contenu.
+1. Utilisez les [ outils d’édition de contenu d’e-mail ](../email/content-from-scratch.md) et [ champs de personnalisation ](../personalization/personalize.md) pour modifier votre e-mail selon vos besoins. Enregistrez votre contenu.
 
 1. Retournez à la page récapitulative de la campagne, puis cliquez sur **[!UICONTROL Créer une expérience]** pour lancer une expérimentation. [Découvrir comment créer une expérience de contenu](../content-management/content-experiment.md)
 
@@ -217,4 +216,4 @@ Oui, GenStudio est conçu pour la collaboration. Plusieurs membres de l’équip
 
 Découvrez le processus d’export d’un modèle d’e-mail de Journey Optimizer vers GenStudio for Performance Marketing, de création d’e-mails conformes à la marque à l’aide du modèle dans GenStudio et de réimport transparent dans Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456051/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
