@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 9cd13e97315daef36918d4352f182efe0d3d9c7a
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 100%
+source-wordcount: '1615'
+ht-degree: 87%
 
 ---
 
@@ -275,11 +275,21 @@ Pour personnaliser votre **[!UICONTROL style d’écriture]** :
 
 1. Dans l’onglet **[!UICONTROL Style d’écriture]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une directive, une exception ou une exclusion.
 
-1. Saisissez votre directive, votre exception ou votre exclusion, puis cliquez sur **[!UICONTROL Ajouter]**.
+1. Entrez votre règle, votre exception ou votre exclusion. Vous pouvez également inclure des **[!UICONTROL exemples]** pour mieux illustrer la manière dont ils doivent être appliqués.
 
    ![](assets/brands-3.png)
 
-1. Sélectionnez l’une des directives ou exclusions à mettre à jour ou à supprimer.
+1. Spécifiez le contexte d’utilisation pour votre règle, exception ou exclusion :
+
+   * **[!UICONTROL Type de canal]** : choisissez où cette règle, exception ou exclusion doit s’appliquer. Par exemple, vous pouvez souhaiter qu’un style d’écriture spécifique apparaisse uniquement dans les canaux E-mail, Mobile, Impression ou autres canaux de communication.
+
+   * **[!UICONTROL Type d’élément]** : spécifiez à quel élément de contenu la règle s’applique. Il peut s’agir d’éléments tels que des en-têtes, des boutons, des liens ou d’autres composants de votre contenu.
+
+     ![](assets/brands-16.png)
+
+1. Une fois votre règle, votre exception ou votre exclusion configurée, cliquez sur **[!UICONTROL Ajouter]**.
+
+1. Si nécessaire, sélectionnez l’une des instructions ou exclusions à mettre à jour ou à supprimer.
 
 1. Cliquez sur ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_Edit_18_N.svg "Modifier") pour modifier votre exemple ou sur l’icône ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_Delete_18_N.svg "Supprimer") pour le supprimer.
 
@@ -337,18 +347,29 @@ Pour personnaliser votre **[!UICONTROL contenu visuel]** :
 
 1. Dans l’onglet **[!UICONTROL Contenu visuel]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une directive, une exclusion ou un exemple.
 
-1. Saisissez votre directive, exclusion ou exemple et cliquez sur **[!UICONTROL Ajouter]**.
+1. Entrez votre règle, votre exclusion ou votre exemple.
 
    ![](assets/brands-4.png)
+
+1. Spécifiez le contexte d’utilisation pour votre règle ou exclusion :
+
+   * **[!UICONTROL Type de canal]** : choisissez où cette règle, exception ou exclusion doit s’appliquer. Par exemple, vous pouvez souhaiter qu’un style d’écriture spécifique apparaisse uniquement dans les canaux E-mail, Mobile, Impression ou autres canaux de communication.
+
+   * **[!UICONTROL Type d’élément]** : spécifiez à quel élément de contenu la règle s’applique. Il peut s’agir d’éléments tels que des en-têtes, des boutons, des liens ou d’autres composants de votre contenu.
+
+     ![](assets/brands-16.png)
+
+1. Une fois votre règle, votre exception ou votre exclusion configurée, cliquez sur **[!UICONTROL Ajouter]**.
 
 1. Pour ajouter une image attestant d’une utilisation correcte, sélectionnez **[!UICONTROL Exemple]** et cliquez sur **[!UICONTROL Sélectionner une image]**. Vous pouvez également ajouter une image montrant une utilisation incorrecte comme exemple d’exclusion.
 
    ![](assets/brands-13.png)
 
-1. Sélectionnez l’une des directives ou exclusions à mettre à jour ou à supprimer.
+1. Si nécessaire, sélectionnez l’une des instructions ou exclusions à mettre à jour ou à supprimer.
 
 1. Sélectionnez l’une de vos directives ou exclusions pour la mettre à jour. Cliquez sur l’icône ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_Delete_18_N.svg "Supprimer") pour la supprimer.
 
    ![](assets/brands-14.png)
 
 Vous pouvez désormais personnaliser davantage votre marque ou [la publier](#create-brand-kit).
+
