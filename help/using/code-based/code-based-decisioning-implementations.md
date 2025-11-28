@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
+source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 81%
+source-wordcount: '486'
+ht-degree: 77%
 
 ---
 
@@ -21,7 +21,7 @@ Lors de l’utilisation de prises de décisions dans des expériences basées su
 >
 >Le canal d’expérience basé sur le code ne prend en charge que la fonctionnalité [!DNL Journey Optimizer] [Decisioning](../experience-decisioning/gs-experience-decisioning.md). La fonctionnalité de gestion des décisions héritée n’est pas disponible avec les expériences basées sur du code.
 
-➡️ Pour en savoir plus sur la configuration de Web SDK pour les expériences de prise de décision et basées sur du code, consultez [ces tutoriels](#tutorials).
+➡️ Pour en savoir plus sur la configuration de Web SDK pour les expériences et la prise de décision basées sur du code, consultez [ces tutoriels](#tutorials).
 
 ## Test d’expériences basées sur du code à l’aide de décisions {#code-based-test-decisions}
 
@@ -297,6 +297,10 @@ Supposons que vous ayez la même politique de décision avec l’emplacement de 
 
 ## Tutoriels {#tutorials}
 
-Découvrez comment utiliser la prise de décision dans Journey Optimizer pour personnaliser les offres de contenu de votre site web, en mettant l’accent sur la configuration de Web SDK dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+Découvrez comment récupérer, afficher et suivre les expériences basées sur le code à l’aide de l’[extension Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} pour les SDK mobiles Adobe Experience Platform dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+
+Découvrez comment utiliser la prise de décision dans Journey Optimizer pour personnaliser les offres de contenu de votre site web, en particulier la configuration de Web SDK, dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 
 Découvrez comment configurer Web SDK et utiliser la prise de décision avec des expériences basées sur du code pour personnaliser les offres à l’aide de données météorologiques en temps réel et d’informations contextuelles dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
+
+
