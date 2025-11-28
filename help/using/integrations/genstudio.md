@@ -51,7 +51,7 @@ Pour utiliser l’intégration [!DNL GenStudio for Performance Marketing] avec [
 
 * [!DNL GenStudio for Performance Marketing] et [!DNL Adobe Journey Optimizer] doivent appartenir à la même organisation IMS.
 
-* Les utilisateurs doivent disposer au minimum du rôle **collaborateur** ou d’un rôle supérieur pour [!DNL GenStudio for Performance Marketing] les fonctionnalités d’intégration. [En savoir plus sur les rôles utilisateur dans GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* Les utilisateurs doivent disposer au minimum du rôle **collaborateur** ou d’un rôle supérieur pour [!DNL GenStudio for Performance Marketing] les fonctionnalités d’intégration. [En savoir plus sur les rôles utilisateur dans GenStudio](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
