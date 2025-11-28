@@ -157,9 +157,9 @@ Une fois que vous avez créé des variations d’e-mail dans GenStudio, réimpor
 
    >[!NOTE]
    >
-   >Les expériences GenStudio [créées à partir d’un modèle [!DNL Journey Optimizer]  ](#export-from-ajo-to-genstudio) sont importées directement dans le Designer d’e-mail avec des fonctionnalités d’édition complètes. Les expériences GenStudio créées sans modèle de [!DNL Journey Optimizer] sont importées en [mode de compatibilité](../email/existing-content.md), qui peut comporter des fonctionnalités de modification limitées.
+   >Les expériences GenStudio [créées à partir d’un modèle [!DNL Journey Optimizer]  &#x200B;](#export-from-ajo-to-genstudio) sont importées directement dans le Designer d’e-mail avec des fonctionnalités d’édition complètes. Les expériences GenStudio créées sans modèle de [!DNL Journey Optimizer] sont importées en [mode de compatibilité](../email/existing-content.md), qui peut comporter des fonctionnalités de modification limitées.
 
-1. Utilisez les [ outils d’édition de contenu d’e-mail ](../email/content-from-scratch.md) et [ champs de personnalisation ](../personalization/personalize.md) pour modifier votre e-mail selon vos besoins. Enregistrez votre contenu.
+1. Utilisez les [&#x200B; outils d’édition de contenu d’e-mail &#x200B;](../email/content-from-scratch.md) et [&#x200B; champs de personnalisation &#x200B;](../personalization/personalize.md) pour modifier votre e-mail selon vos besoins. Enregistrez votre contenu.
 
 1. Retournez à la page récapitulative de la campagne, puis cliquez sur **[!UICONTROL Créer une expérience]** pour lancer une expérimentation. [Découvrir comment créer une expérience de contenu](../content-management/content-experiment.md)
 
