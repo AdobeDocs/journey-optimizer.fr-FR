@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2153'
-ht-degree: 100%
+source-git-commit: 767eb74a6ba13013b290eaa28ba8ff590e8b6781
+workflow-type: tm+mt
+source-wordcount: '2216'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ Pour vous abonner ou vous désabonner d’une alerte pour un parcours spécifiqu
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
@@ -158,11 +158,19 @@ Pour résoudre les erreurs de profil, vous pouvez interroger les données des é
 
 ### Parcours publié {#alert-journey-published}
 
+>[!AVAILABILITY]
+>
+>Cette alerte est actuellement disponible avec des fonctionnalités limitées. Bien que vous puissiez vous abonner à cette alerte, les notifications ne sont pas encore entièrement opérationnelles.
+
 Cette alerte vous avertit lorsqu’un parcours a été publié par un utilisateur ou une utilisatrice dans la zone de travail du parcours.
 
 Il s’agit d’une alerte informative qui vous permet de suivre les événements de cycle de vie du parcours dans votre organisation. Il n’existe aucun critère de résolution, car il s’agit d’une notification ponctuelle.
 
 ### Parcours terminé {#alert-journey-finished}
+
+>[!AVAILABILITY]
+>
+>Cette alerte est actuellement disponible avec des fonctionnalités limitées. Bien que vous puissiez vous abonner à cette alerte, les notifications ne sont pas encore entièrement opérationnelles.
 
 Cette alerte vous avertit lorsqu’un parcours est terminé. La définition de « terminé » varie en fonction du type de parcours :
 
@@ -177,6 +185,10 @@ Cette alerte vous avertit lorsqu’un parcours est terminé. La définition de �
 Il s’agit d’une alerte informative qui vous permet de suivre l’achèvement du parcours. Il n’existe aucun critère de résolution, car il s’agit d’une notification ponctuelle.
 
 ### Limitation d’action personnalisée déclenchée {#alert-custom-action-capping}
+
+>[!AVAILABILITY]
+>
+>Cette alerte est actuellement disponible avec des fonctionnalités limitées. Bien que vous puissiez vous abonner à cette alerte, les notifications ne sont pas encore entièrement opérationnelles.
 
 Cette alerte vous avertit lorsque la limitation a été déclenchée sur une action personnalisée. La limitation est utilisée pour définir un nombre maximal d’appels envoyés à un point d’entrée externe afin d’éviter de le surcharger.
 
