@@ -31,7 +31,7 @@ Par exemple, si vous avez deux règles de limitation :
 
 L’offre ne s’affichera plus pour un utilisateur ou une utilisatrice une fois qu’il ou elle l’aura vue 5 fois par semaine, même si la limite totale de 100 n’a pas encore été atteinte. De même, une fois que 100 impressions totales sont atteintes, l’offre cesse d’être affichée pour tous les utilisateurs.
 
-En savoir plus sur les [ règles de limitation ](items.md#capping).
+En savoir plus sur les [&#x200B; règles de limitation &#x200B;](items.md#capping).
 
 +++
 
@@ -90,7 +90,7 @@ Cela garantit un apprentissage et une optimisation continus de tout le trafic sa
 Pour optimiser les performances des modèles, Adobe recommande les minimums suivants :
 
 **Minimums recommandés (par semaine) :**
-* Au moins 1 000 impressions **** par offre/article
+* Au moins 1 000 impressions **&#x200B;**&#x200B;par offre/article
 * Au moins **100 événements de conversion** par offre/article
 
 <!--**Absolute minimums (per 30 days):**
