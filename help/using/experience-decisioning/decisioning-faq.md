@@ -8,10 +8,10 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
+source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '785'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Si vous définissez deux règles de limitation pour une offre :
 
 L’offre ne s’affichera plus pour un utilisateur ou une utilisatrice une fois qu’il ou elle l’aura vue 5 fois par semaine, même si la limite totale de 100 n’a pas encore été atteinte. De même, une fois que 100 impressions totales sont atteintes, l’offre cesse d’être affichée pour tous les utilisateurs.
 
-En savoir plus sur les [&#x200B; règles de limitation &#x200B;](items.md#capping).
+En savoir plus sur les [ règles de limitation ](items.md#capping).
 
 +++
 
@@ -135,11 +135,3 @@ Un pic de trafic temporaire (par exemple, 2 fois le trafic quotidien) a un effet
 **insight clé** : la fenêtre dynamique de données de 30 jours offre une stabilité de modèle pendant les fluctuations temporaires du trafic. Les pics ou les baisses à court terme ne perturbent pas de manière significative les prédictions ou les performances du modèle.
 
 +++
-
-## Rubriques connexes {#related-topics}
-
-<!--* [Get started with Decisioning](gs-experience-decisioning.md)-->
-* [Créer des éléments de décision](items.md)
-* [Présentation des modèles d’IA](ranking/ai-models.md)
-* [Mécanismes de sécurisation et limitations de la prise de décisions](decisioning-guardrails.md)
-
