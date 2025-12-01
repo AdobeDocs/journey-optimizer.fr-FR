@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
+source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -32,32 +32,30 @@ Si vous définissez deux règles de limitation pour une offre :
 
 L’offre ne s’affichera plus pour un utilisateur ou une utilisatrice une fois qu’il ou elle l’aura vue 5 fois par semaine, même si la limite totale de 100 n’a pas encore été atteinte. De même, une fois que 100 impressions totales sont atteintes, l’offre cesse d’être affichée pour tous les utilisateurs.
 
-En savoir plus sur les [&#x200B; règles de limitation &#x200B;](items.md#capping).
+En savoir plus sur les [ règles de limitation ](items.md#capping).
 
 +++
 
 ## Formules de classement {#ranking-formulas}
 
-+++**Quel est le rôle des audiences dans les modèles d’IA ?**
++++**Quel est le rôle des audiences par rapport à un jeu de données complet dans les modèles d’IA ?**
 
-Lors de la configuration de [modèles d’optimisation personnalisés](ranking/personalized-optimization-model.md), les jeux de données et les audiences ont des objectifs distincts :
+Lors de la configuration de [modèles d’IA](ranking/ai-models.md), les jeux de données et les audiences ont des objectifs distincts.
 
 * **Jeux de données** : capturez les événements de conversion (clics, commandes, chiffre d’affaires) qui servent de cibles d’optimisation pour le modèle.
 * **Audiences** : fonctionnent comme des variables de prédicteur qui permettent au modèle de personnaliser les recommandations en fonction de l’appartenance à un segment client.
 
 Les audiences ne limitent ni n’étendent la portée du modèle. Au lieu de cela, ils fournissent des attributs contextuels qui améliorent la capacité du modèle à effectuer des prédictions personnalisées sur différents segments de clients.
 
-Les deux composants sont nécessaires pour optimiser les performances des modèles d’optimisation personnalisés. En savoir plus sur les [modèles d’IA](ranking/ai-models.md).
+Les deux composants sont requis pour des performances de modèle efficaces [modèles d’optimisation personnalisés](ranking/personalized-optimization-model.md).
 
 +++
 
-+++**Comment les modifications apportées aux collections d’offres affectent-elles les modèles d’IA si vous utilisez des modèles d’optimisation automatique ou personnalisés ?**
++++**Comment les modifications apportées aux collections d’offres affectent-elles l’optimisation automatique ou les modèles d’optimisation personnalisés ?**
 
 Les deux modèles dirigeront le trafic vers la meilleure offre disponible suivante en fonction des données de trafic des 30 derniers jours.
 
-Lorsque plusieurs offres sont supprimées simultanément et que les offres restantes contiennent des données de trafic minimales dans la fenêtre de 30 jours, le modèle peut présenter un comportement sous-optimal, notamment :
-* Modèles de distribution aléatoire
-* Biais en faveur des offres avec des taux de conversion plus élevés en fonction de données d’impression limitées
+Lorsque plusieurs offres sont supprimées simultanément et que les offres restantes contiennent des données de trafic minimales dans la fenêtre de 30 jours, le modèle peut présenter un comportement sous-optimal, notamment des modèles de distribution aléatoire ou un biais en faveur des offres avec des taux de conversion plus élevés en fonction de données d’impression limitées.
 
 **Bonne pratique** : lorsque vous modifiez considérablement des collections d’offres, vérifiez que les offres restantes disposent de données de performances historiques suffisantes pour maintenir l’efficacité du modèle.
 
@@ -67,8 +65,8 @@ Lorsque plusieurs offres sont supprimées simultanément et que les offres resta
 
 Les modèles d’IA identifient et commencent à tester les nouvelles offres disponibles lors de leur prochain cycle de formation :
 
-* **Optimisation automatique** : exécutions de formation quotidiennes
-* **Optimisation personnalisée** : cycles de formation hebdomadaires
+* **Optimisation automatique** : quotidienne
+* **Optimisation personnalisée** : hebdomadaire
 
 Une fois identifiés, les deux modèles commenceront à proposer immédiatement les nouvelles offres à certains visiteurs afin de tester leurs performances et de collecter des données sur leur efficacité.
 
@@ -78,7 +76,7 @@ En savoir plus sur les modèles [optimisation automatique](ranking/auto-optimiza
 
 +++**Comment les modèles d’IA s’optimisent-ils sans population témoin ?**
 
-Les modèles d’optimisation automatique et d’optimisation personnalisée utilisent tous deux une stratégie d’exploration-exploitation qui élimine le besoin de populations témoins dédiées :
+Les modèles d’optimisation automatique et d’optimisation personnalisée utilisent tous deux une stratégie d’« exploration-exploitation » qui élimine le besoin de populations témoins dédiées.
 
 * **Phase initiale** : les modèles commencent par une exploration à 100 %, qui teste différentes offres pour établir des données de performances de base.
 * **Optimisation adaptative** : à mesure que les événements comportementaux s’accumulent et que la précision des prédictions s’améliore, les modèles équilibrent automatiquement l’exploration et l’exploitation.
@@ -91,10 +89,8 @@ Cela garantit un apprentissage et une optimisation continus de tout le trafic sa
 +++**Quelles sont les exigences minimales en matière de trafic pour des performances optimales du modèle d’IA ?**
 
 Adobe recommande les seuils minimaux suivants pour garantir des performances de modèle efficaces :
-
-**Minimums recommandés (par semaine) :**
-* 1 000 impressions par offre/article
-* 100 événements de conversion par offre/article
+* 1 000 impressions par offre/article par semaine
+* 100 événements de conversion par offre/article par semaine
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -110,7 +106,7 @@ En savoir plus sur les [exigences de collecte de données](data-collection/data-
 
 +++
 
-+++**En quoi la similarité des offres affecte-t-elle les performances du modèle d’IA ?**
++++**Comment des offres similaires affectent-elles les performances du modèle d’IA ?**
 
 Les modèles d’IA génèrent des avantages de personnalisation supérieurs lorsque les offres s’adressent à des segments de clientèle distincts. Lorsque les offres sont très similaires, deux résultats sont typiques :
 
@@ -127,11 +123,8 @@ Les modèles d’IA génèrent des avantages de personnalisation supérieurs lor
 
 +++**Comment les anomalies de trafic affectent-elles les performances du modèle d’IA ?**
 
-Les anomalies de trafic sont intégrées au modèle proportionnellement dans la fenêtre glissante de 30 jours.
+Les anomalies de trafic sont incorporées au modèle proportionnellement dans la fenêtre glissante de 30 jours, ce qui fournit une stabilité du modèle pendant les fluctuations temporaires de trafic. Les pics ou les baisses à court terme ne perturbent pas de manière significative les prédictions ou les performances du modèle.
 
-**Analyse d&#39;impact :**
-Un pic de trafic temporaire (par exemple, 2 fois le trafic quotidien) a un effet minimal sur les performances globales du modèle, car le trafic anormal représente une petite fraction du jeu de données de 30 jours.
-
-**insight clé** : la fenêtre dynamique de données de 30 jours offre une stabilité de modèle pendant les fluctuations temporaires du trafic. Les pics ou les baisses à court terme ne perturbent pas de manière significative les prédictions ou les performances du modèle.
+Un pic de trafic temporaire (par exemple, deux fois le trafic quotidien) a un effet minimal sur les performances globales du modèle, car le trafic anormal représente une petite fraction du jeu de données de 30 jours.
 
 +++
