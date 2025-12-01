@@ -5,10 +5,10 @@ title: Prise de décision
 description: Prise de décision
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 94%
 
 ---
 
@@ -37,6 +37,16 @@ Mécanismes de sécurisation et limitations de la prise de décision
 Découvrez les contraintes et les bonnes pratiques pour utiliser efficacement la prise de décision dans Adobe Journey Optimizer.
 
 [Découvrir les mécanismes de sécurisation](../using/experience-decisioning/decisioning-guardrails.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+Questions fréquentes
+
+Obtenez des réponses aux questions courantes sur Decisioning, y compris les règles de limitation, les modèles d’IA et les exigences d’optimisation.
+
+[Afficher les questions fréquentes](../using/experience-decisioning/decisioning-faq.md)
 :::
 
 :::
