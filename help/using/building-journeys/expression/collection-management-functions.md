@@ -9,10 +9,10 @@ level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '481'
-ht-degree: 100%
+source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Le langage d’expression s’accompagne également d’un ensemble de fonctions permettant d’interroger les collections. Ces fonctions sont expliquées ci-dessous.
 
-Dans les exemples suivants, nous allons utiliser la payload d’événement contenant une collection :
+Dans les exemples suivants, nous utilisons un événement nommé « LobbyBeacon » contenant une collection de jetons de notification push. Les exemples de cette page utilisent la structure de payload d&#39;événement illustrée ci-dessous :
 
 ```json
                 { 
@@ -65,6 +65,10 @@ Dans les exemples suivants, nous allons utiliser la payload d’événement cont
 }
 ```
 
+>[!NOTE]
+>
+>Dans les exemples ci-dessous, cette payload est référencée à l’aide de `@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}` où « LobbyBeacon » est le nom de l’événement et le reste du chemin d’accès correspond à la structure affichée ci-dessus.
+
 ## La fonction all(`<condition>`)
 
 La fonction **[!UICONTROL all]** permet de définir un filtre sur une collection donnée en utilisant une expression booléenne.
@@ -73,9 +77,13 @@ La fonction **[!UICONTROL all]** permet de définir un filtre sur une collection
 <listExpression>.all(<condition>)
 ```
 
-Par exemple, parmi tous les personnes utilisant l’application, vous pouvez extraire celles qui utilisent IOS 13 (expression booléenne « app used == IOS 13 »). Le résultat de cette fonction est une liste filtrée contenant les éléments qui correspondent à l’expression booléenne (exemple : utilisateur 1 de l’application, utilisateur 34 de l’application, utilisateur 432 de l’application).
+**Exemple conceptuel :** parmi tous les utilisateurs de l’application, vous pouvez obtenir ceux qui utilisent IOS 13 (expression booléenne « application utilisée == IOS 13 »). Le résultat de cette fonction est une liste filtrée contenant les éléments qui correspondent à l’expression booléenne (exemple : utilisateur 1 de l’application, utilisateur 34 de l’application, utilisateur 432 de l’application).
 
 Dans une activité Condition de source de données, vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** à d’autres fonctions, telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité Condition de source de données](../condition-activity.md#data_source_condition).
+
+**Exemples de code utilisant la payload LobbyBeacon :**
+
+Les exemples ci-dessous utilisent la payload d’événement affichée en haut de cette page.
 
 
 >[!CAUTION]
