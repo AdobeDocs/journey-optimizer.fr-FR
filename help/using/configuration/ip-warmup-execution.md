@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: ht
-source-wordcount: '2723'
-ht-degree: 100%
+source-git-commit: 52021f85658fe37e5cd9b66e4e764ccc1c790b38
+workflow-type: tm+mt
+source-wordcount: '2730'
+ht-degree: 99%
 
 ---
 
@@ -230,7 +230,7 @@ Assurez-vous d’avoir prévu suffisamment de temps pour permettre l’exécutio
 
 >[!CAUTION]
 >
->Chaque exécution doit être activée au moins 12 heures avant l’heure d’envoi réelle. Sinon, l’évaluation de l’audience peut ne pas être terminée.
+>Chaque exécution doit être activée au moins 12 heures avant l’heure d’envoi réelle et avant la tâche de segmentation par lots quotidienne. Sinon, l’évaluation de l’audience peut ne pas être terminée.
 
 Lorsque vous activez une exécution, plusieurs audiences sont automatiquement créées.
 
