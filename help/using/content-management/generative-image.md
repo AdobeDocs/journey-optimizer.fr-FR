@@ -7,7 +7,7 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
+source-git-commit: d552008195d324227ecf91ea7a1ab905fe3981cc
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 56%
@@ -171,7 +171,7 @@ Après avoir généré des variations d’image pour vos notifications push, vou
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-   ![Score d’alignement de la marque pour les variations](assets/q.png){zoomable="yes"}
+   ![Score d’alignement de la marque pour les variations](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
 
