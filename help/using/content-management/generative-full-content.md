@@ -7,10 +7,10 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1840'
-ht-degree: 55%
+source-wordcount: '1834'
+ht-degree: 50%
 
 ---
 
@@ -36,17 +36,15 @@ Avant de commencer à créer du contenu avec l’assistant AI, vous devez config
 1. Créez et configurez votre campagne ou votre parcours :
    * **E-mail** : après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../campaigns/create-campaign.md)
    * **Web** : après avoir créé et configuré votre page web, cliquez sur **[!UICONTROL Modifier la page web]**. [En savoir plus](../web/create-web.md)
-   * **Page de destination** : après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../landing-pages/create-lp.md)
+   * **Page de destination** : après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Ouvrir le concepteur]**. [En savoir plus](../landing-pages/create-lp.md)
 
-1. Personnalisez votre disposition selon vos besoins et accédez au menu **[!UICONTROL Assistant IA]**.
+1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant AI]** (ou **[!UICONTROL Afficher l’assistant de contenu]** pour le web).
 
    ![Panneau Assistant IA affichant la sélection de marque et le champ d’invite](assets/full-email-1.png){zoomable="yes"}
 
 ### Générer le contenu {#generate-content}
 
 Une fois l’assistant d’IA ouvert, vous pouvez configurer les paramètres de génération pour créer du contenu correspondant aux objectifs de votre marque et de votre campagne. Personnalisez les paramètres de texte et d’image, ajoutez des ressources de marque et fournissez des invites pour guider l’IA dans la génération de variations pertinentes pour votre audience.
-
-1. Activez l’option **[!UICONTROL Utiliser le contenu original]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
 1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
@@ -64,7 +62,7 @@ Une fois l’assistant d’IA ouvert, vous pouvez configurer les paramètres de 
    * **[!UICONTROL Langues]** : sélectionnez la langue du contenu généré.
    * **[!UICONTROL Ton]** : Le ton doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’Assistant IA peut adapter le message en conséquence.
 
-   ![Panneau Paramètres de texte affichant la stratégie de communication, les langues et les options de ton](assets/full-email-4.png){zoomable="yes"}
+     ![Panneau Paramètres de texte affichant la stratégie de communication, les langues et les options de ton](assets/full-email-4.png){zoomable="yes"}
 
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
@@ -74,11 +72,11 @@ Une fois l’assistant d’IA ouvert, vous pouvez configurer les paramètres de 
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![Panneau Paramètres d’image affichant les options Type de contenu, Intensité visuelle, Couleur et ton, Éclairage et Composition](assets/full-email-6.png){zoomable="yes"}
+     ![Panneau Paramètres d’image affichant les options Type de contenu, Intensité visuelle, Couleur et ton, Éclairage et Composition](assets/full-email-6.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
+1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter une ressource de marque contenant du contenu pouvant fournir un assistant d’IA contextuel supplémentaire ou sélectionnez-en une précédemment chargée.
 
-   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
+   Les fichiers précédemment chargés sont disponibles dans le menu déroulant **[!UICONTROL Contenu de référence chargé]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
    ![Section Ressources de marque avec le bouton Charger une ressource de marque](assets/full-email-3.png){zoomable="yes"}
 
@@ -88,7 +86,7 @@ Une fois l’assistant d’IA ouvert, vous pouvez configurer les paramètres de 
 
 Après avoir généré des variations de contenu, vous pouvez affiner les résultats pour vous assurer qu’ils répondent exactement à vos besoins. Examinez l’alignement de la marque, ajustez le ton et la langue, puis préparez le contenu pour l’activation dans votre campagne ou votre parcours.
 
-1. Après la génération, parcourez les **[!UICONTROL Variations]** et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
+1. Après la génération, parcourez les **[!UICONTROL Variations]**.
 
 1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement sur la marque]** et identifier tout décalage avec votre marque.
 
@@ -96,17 +94,21 @@ Après avoir généré des variations de contenu, vous pouvez affiner les résul
 
    ![Panneau Score d’alignement des marques indiquant le score en pourcentage](assets/full-email-7.png){zoomable="yes"}
 
+1. Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
+
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
    * **[!UICONTROL Reformuler]** : réécrivez le message tout en préservant sa signification. Cette option vous permet de générer une autre formulation, d’améliorer le flux ou d’ajuster les expressions sans modifier le message principal.
 
    * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’Assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
+   * **[!UICONTROL Traduire]** : simplifiez votre langue pour garantir la clarté et l’accessibilité pour une audience plus large.
+
    * **[!UICONTROL Changer de ton]** : ajustez le ton du message pour mieux correspondre à votre style de communication, c’est-à-dire le rendre plus convivial, professionnel, urgent ou inspirant.
 
    * **[!UICONTROL Modifier la stratégie de communication]** : modifiez l’approche de messagerie en fonction de vos objectifs, tels que créer une urgence ou mettre l’accent sur un appel passionnant.
 
-   ![Affiner le menu affichant les options](assets/full-email-5.png){zoomable="yes"}
+     ![Affiner le menu affichant les options](assets/full-email-5.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
@@ -166,7 +168,7 @@ Une fois que vous avez accédé à l’assistant AI pour les notifications push,
    * **[!UICONTROL Langues]** : sélectionnez la langue du contenu généré.
    * **[!UICONTROL Ton]** : le ton de votre notification push doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’Assistant IA peut adapter le message en conséquence.
 
-   ![Panneau Paramètres de texte pour les notifications push](assets/push-genai-full-3.png){zoomable="yes"}
+     ![Panneau Paramètres de texte pour les notifications push](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
@@ -176,11 +178,11 @@ Une fois que vous avez accédé à l’assistant AI pour les notifications push,
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![Paramètres d’image des notifications push](assets/push-genai-full-5.png){zoomable="yes"}
+     ![Paramètres d’image des notifications push](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
+1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter une ressource de marque contenant du contenu pouvant fournir un assistant d’IA contextuel supplémentaire ou sélectionnez-en une précédemment chargée.
 
-   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
+   Les fichiers précédemment chargés sont disponibles dans le menu déroulant **[!UICONTROL Contenu de référence chargé]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
@@ -210,7 +212,7 @@ Après avoir examiné les variations de notification push générées, vous pouv
 
    * **[!UICONTROL Modifier la stratégie de communication]** : modifiez l’approche de messagerie en fonction de vos objectifs, tels que créer une urgence ou mettre l’accent sur un appel passionnant.
 
-   ![Affiner les options pour les notifications push](assets/push-genai-full-6.png){zoomable="yes"}
+     ![Affiner les options pour les notifications push](assets/push-genai-full-6.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 

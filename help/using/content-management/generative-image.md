@@ -7,10 +7,10 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 64%
+source-wordcount: '1414'
+ht-degree: 56%
 
 ---
 
@@ -36,11 +36,11 @@ Pour commencer à générer des images avec l’assistant AI, commencez par conf
 1. Créez et configurez votre campagne ou votre parcours :
    * **E-mail** : après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../email/create-email.md)
    * **Web** : après avoir créé et configuré votre page web, cliquez sur **[!UICONTROL Modifier la page web]**. [En savoir plus](../web/create-web.md)
-   * **Page de destination** : après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../landing-pages/create-lp.md)
+   * **Page de destination** : après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Ouvrir le concepteur]**. [En savoir plus](../landing-pages/create-lp.md)
 
 1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’Assistant IA.
 
-1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant AI]** (ou **[!UICONTROL Afficher l’assistant AI]** pour le web).
+1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant AI]** (ou **[!UICONTROL Afficher l’assistant de contenu]** pour le web).
 
    ![Ressource image sélectionnée et panneau Assistant IA ouvert](assets/image-genai-1.png){zoomable="yes"}
 
@@ -67,25 +67,27 @@ Découvrez comment créer des invites efficaces et configurer les paramètres d&
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![Panneau Paramètres d’image avec commandes](assets/image-genai-4.png){zoomable="yes"}
+     ![Panneau Paramètres d’image avec commandes](assets/image-genai-4.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
+1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter une ressource de marque contenant du contenu pouvant fournir un assistant d’IA contextuel supplémentaire ou sélectionnez-en une précédemment chargée.
 
-   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
+   Les fichiers précédemment chargés sont disponibles dans le menu déroulant **[!UICONTROL Contenu de référence chargé]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
 1. Quand la configuration de votre prompt vous satisfait, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL Suggestions de variation]** pour trouver la ressource souhaitée.
+### Affiner et finaliser {#refine-finalize}
 
-   Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
+Après avoir généré des variations d’image, vous pouvez consulter les résultats, vérifier l’alignement des marques, effectuer des modifications dans Adobe Express et sélectionner la meilleure option pour votre contenu.
+
+1. Parcourez les **[!UICONTROL Suggestions de variation]** pour trouver la ressource souhaitée.
 
 1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement sur la marque]** et identifier tout décalage avec votre marque.
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-### Affiner et finaliser {#refine-finalize}
+   ![Score d’alignement de la marque pour les variations](assets/image-genai-6.png){zoomable="yes"}
 
-Après avoir généré des variations d’image, vous pouvez consulter les résultats, vérifier l’alignement des marques, effectuer des modifications dans Adobe Express et sélectionner la meilleure option pour votre contenu.
+1. Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -96,7 +98,7 @@ Après avoir généré des variations d’image, vous pouvez consulter les résu
 
    * **[!UICONTROL Enregistrer]** : permet de stocker les ressources en vue d’un accès ultérieur.
 
-   ![Affiner les options affichant les actions disponibles](assets/image-genai-5.png){zoomable="yes"}
+     ![Affiner les options affichant les actions disponibles](assets/image-genai-5.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
@@ -131,8 +133,6 @@ Pour utiliser l’assistant AI pour les notifications push, vous devez configure
 
 Après avoir accédé à l&#39;assistant AI, vous pouvez ajuster les paramètres de génération pour créer des images qui s&#39;alignent sur votre marque et prennent en charge vos objectifs de notification push. Configurez les paramètres d’invite et d’image pour générer des visuels optimisés pour les affichages mobiles.
 
-1. Activez l’option **[!UICONTROL Style de référence]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
-
 1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
    Notez que cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
@@ -143,6 +143,8 @@ Après avoir accédé à l&#39;assistant AI, vous pouvez ajuster les paramètres
 
    ![Génération d’images de l’assistant AI pour les notifications push](assets/push-gen-img.png){zoomable="yes"}
 
+1. Sélectionnez **[!UICONTROL Image]** comme champ à générer.
+
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
    * **[!UICONTROL Type de contenu]** : cette propriété classe la nature de l’élément visuel en faisant la distinction entre les différentes formes de représentation visuelle, telles que les photos, les graphiques ou les illustrations.
@@ -151,11 +153,17 @@ Après avoir accédé à l&#39;assistant AI, vous pouvez ajuster les paramètres
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
+     ![Génération d’images de l’assistant AI pour les notifications push](assets/push-gen-img-3.png){zoomable="yes"}
 
-   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
+1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter une ressource de marque contenant du contenu pouvant fournir un assistant d’IA contextuel supplémentaire ou sélectionnez-en une précédemment chargée.
+
+   Les fichiers précédemment chargés sont disponibles dans le menu déroulant **[!UICONTROL Contenu de référence chargé]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
+
+### Affiner et finaliser {#mobile-refine-finalize}
+
+Après avoir généré des variations d’image pour vos notifications push, vous pouvez affiner les résultats pour vous assurer qu’ils répondent exactement à vos besoins. Vérifiez l’alignement de la marque, modifiez-la dans Adobe Express si nécessaire, puis sélectionnez l’image la plus adaptée à votre campagne mobile.
 
 1. Parcourez les **[!UICONTROL variations]** générées.
 
@@ -163,20 +171,9 @@ Après avoir accédé à l&#39;assistant AI, vous pouvez ajuster les paramètres
 
    En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
-### Affiner et finaliser {#mobile-refine-finalize}
+   ![Score d’alignement de la marque pour les variations](assets/q.png){zoomable="yes"}
 
-Après avoir généré des variations d’image pour vos notifications push, vous pouvez affiner les résultats pour vous assurer qu’ils répondent exactement à vos besoins. Vérifiez l’alignement de la marque, modifiez-la dans Adobe Express si nécessaire, puis sélectionnez l’image la plus adaptée à votre campagne mobile.
-
-1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
-
-   * **[!UICONTROL Générer des résultats similaires]** : permet d’afficher les images associées à cette variante.
-   * **[!UICONTROL Modifier dans Adobe Express]** : permet de personnaliser davantage votre ressource.
-
-[En savoir plus sur l’intégration d’Adobe Express](../integrations/express.md)
-
-   * **[!UICONTROL Enregistrer]** : permet de stocker les ressources en vue d’un accès ultérieur.
-
-   ![Affiner les options des images de notification push](assets/push-gen-img-2.png){zoomable="yes"}
+1. Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
