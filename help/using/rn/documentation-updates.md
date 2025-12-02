@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3716265282599604de629be540ca68971daa343
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '3516'
-ht-degree: 83%
+source-wordcount: '3659'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,16 @@ ht-degree: 83%
 
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
+## Décembre 2025 {#december-2025}
+
+* La documentation sur la génération de contenu avec l’assistant d’IA a été réorganisée pour en améliorer la clarté et la convivialité. Les cinq pages précédentes spécifiques aux canaux (e-mail, notification push, SMS, web et page de destination) ont été consolidées en trois pages de type génération : [Générer l’intégralité du contenu](../content-management/generative-full-content.md), [Générer du texte](../content-management/generative-text.md) et [Générer des images](../content-management/generative-image.md).
+
 ## Novembre 2025 {#november-2025}
+
+* Un mécanisme de sécurisation permettant de cibler les profils pseudonymes avec des canaux entrants a été ajouté aux pages de conditions préalables [web](../web/web-prerequisites.md#profile-management-guardrail), [in-app](../in-app/inapp-configuration.md#profile-management-guardrail), [expérience basée sur le code](../code-based/code-based-prerequisites.md#profile-management-guardrail) et [carte de contenu](../content-card/content-card-configuration-prereq.md#profile-management-guardrail), ainsi qu’à la page [mécanismes de sécurisation et limitations](../start/guardrails.md). Ce mécanisme de sécurisation indique que le ciblage des profils qui ne sont pas authentifiés ou qui ne sont pas connus augmente le nombre total de profils engageables et peut avoir une incidence sur votre facturation. C’est pourquoi Adobe recommande de définir une durée de vie (TTL) pour la suppression automatique des profils afin de gérer le nombre de profils engageables et les coûts associés.
+  <!--* A new Decisioning FAQ page is now available, covering topics such as capping rules, AI model configuration, traffic requirements, and offer optimization strategies. [Read more](../experience-decisioning/decisioning-faq.md)-->
+
+* Mise à jour de la page Prise en main de la conception des emails afin de clarifier l&#39;accès au Designer Email. [En savoir plus](../email/get-started-email-design.md)
 
 * Une section de dépannage a été ajoutée à la page d’enregistrement DMARC pour résoudre les problèmes de latence de propagation DNS. [En savoir plus](../configuration/dmarc-record.md#troubleshooting)
 
@@ -31,26 +40,26 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Une note a été ajoutée pour indiquer que les ressources et les images restent accessibles pendant 2 ans (730 jours) à compter de la première publication et doivent être republiées après expiration. [En savoir plus](../content-management/proofs.md)
 
-* Disponibilité d’un guide complet sur l’invite de contenu de l’assistant AI. Ce guide vous explique comment créer des invites efficaces pour créer du contenu marketing hautement convertissable et aligné sur la marque. Découvrez les bonnes pratiques relatives à la rédaction d’objectifs marketing, à l’utilisation de ressources de marque et à l’optimisation du contenu pour différents canaux. [En savoir plus](../content-management/ai-assistant-prompting-guide.md)
+* Un guide complet sur la création de prompts de contenu avec l’assistant IA est à présent disponible. Ce guide vous explique comment créer des prompts efficaces, ainsi que des contenus marketing générant de fortes conversions et alignés sur la marque. Découvrez les bonnes pratiques relatives à la rédaction d’objectifs marketing, à l’utilisation de ressources de marque et à l’optimisation du contenu pour différents canaux. [En savoir plus](../content-management/ai-assistant-prompting-guide.md)
 
 * Une note a été ajoutée à la documentation sur la définition de segment pour clarifier le fait que l’attribut `frequencyMap` ne soit pas pris en charge dans les définitions de segment et ne puisse pas être utilisé dans le cadre des critères de segmentation d’audience. Pour le ciblage basé sur la fréquence, pensez à utiliser des règles de capping de la fréquence sous les règles métier. [En savoir plus](../audience/creating-a-segment-definition.md)
 * Un nouvel exemple montrant comment utiliser les réponses d’action personnalisée dans les canaux natifs a été ajouté à la documentation sur les réponses d’appel API. L’exemple montre comment effectuer une itération sur des tableaux imbriqués à partir de réponses d’action personnalisée à l’aide de la syntaxe Handlebars dans les e-mails, les notifications push et les SMS. [En savoir plus](../action/action-response.md#response-in-channels)
 
 * Une nouvelle section a été ajoutée à la documentation sur l’intégration de Campaign v7/v8 pour expliquer comment mettre à jour les actions personnalisées existantes lorsque le point d’entrée en temps réel (RT) change. Cette section comprend des instructions détaillées pour mettre à jour l’URL du point d’entrée, tester la connexion et valider les modifications avant d’enregistrer. [En savoir plus](../action/acc-action.md#update-action)
 
-* De nouvelles sections sur les limites et les bonnes pratiques ont été ajoutées à la documentation sur les fragments visuels pour avertir les utilisateurs d’une imbrication non prise en charge de fragments contenant du contenu dynamique dans d’autres fragments déverrouillés avec du contenu dynamique. Ces conseils comprennent des étapes de dépannage pour les problèmes de mode de compatibilité et des recommandations pour une conception correcte de la structure des emails. [En savoir plus](../email/use-visual-fragments.md#fragment-dynamic-content)
+* De nouvelles sections sur les limites et les bonnes pratiques ont été ajoutées à la documentation sur les fragments visuels pour indiquer toute imbrication non prise en charge de fragments contenant du contenu dynamique dans d’autres fragments déverrouillés avec du contenu dynamique. Ces conseils comprennent des étapes de dépannage pour les problèmes de mode de compatibilité et des recommandations pour une bonne conception de la structure des e-mails. [En savoir plus](../email/use-visual-fragments.md#fragment-dynamic-content)
 
-* Une section de dépannage a été ajoutée à la documentation des rapports dynamiques de parcours pour aider les utilisateurs à résoudre les problèmes liés aux données de rapports manquantes. La section couvre la synchronisation des noms de parcours avec les jeux de données de rapports, le timing de l’actualisation des données, la vérification des autorisations d’accès et les exigences de statut de parcours. [En savoir plus](../building-journeys/report-journey.md#troubleshooting-missing-data)
+* Une section de dépannage a été ajoutée à la documentation des rapports dynamiques de parcours pour permettre de résoudre les problèmes liés aux données de rapports manquantes. La section couvre la synchronisation des noms de parcours avec les jeux de données de rapports, le timing de l’actualisation des données, la vérification des autorisations d’accès et les exigences de statut de parcours. [En savoir plus](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
-* Trois nouveaux éléments de FAQ ont été ajoutés à la documentation des ressources pour expliquer l’expiration des ressources et la gestion du cycle de vie. Les rubriques abordées incluent la politique de durée de vie (TTL) des ressources AEM (730 jours), la manière de résoudre les images rompues en raison de l’expiration des ressources et des informations sur les améliorations à venir de la logique d’expiration des ressources. [En savoir plus](../integrations/assets.md#faq-assets)
+* Trois nouveaux éléments de FAQ ont été ajoutés à la documentation des ressources pour expliquer l’expiration des ressources et la gestion du cycle de vie. Les sujets abordés incluent la politique de durée de vie (TTL) des ressources AEM (730 jours), la manière de résoudre les images endommagées en raison de l’expiration des ressources et des informations sur les améliorations à venir de la logique d’expiration des ressources. [En savoir plus](../integrations/assets.md#faq-assets)
 
-* Une section de dépannage complète a été ajoutée à la documentation d’activité Lecture d’audience pour résoudre les incohérences du nombre d’audiences entre les profils estimés et réels qui entrent dans les parcours. La section couvre les problèmes de synchronisation et de propagation des données, les techniques de validation et de surveillance des données, ainsi que les bonnes pratiques, y compris l’utilisation de l’option « Déclencher après l’évaluation de l’audience par lots ». [En savoir plus](../building-journeys/read-audience.md#audience-count-mismatch)
+* Une section de dépannage complète a été ajoutée à la documentation de l’activité Lecture d’audience pour résoudre les incohérences de tailles d’audiences entre les profils estimés et réels qui rejoignent les parcours. La section couvre les problèmes de synchronisation et de propagation des données, les techniques de validation et de surveillance des données, ainsi que les bonnes pratiques, y compris l’utilisation de l’option « Déclencher après l’évaluation de l’audience par lots ». [En savoir plus](../building-journeys/read-audience.md#audience-count-mismatch)
 
-* Une note a été ajoutée à la documentation sur les événements de qualification d’audience pour clarifier la latence de la segmentation en flux continu (jusqu’à 2 heures) et recommander l’ajout d’une activité Attente ou d’une durée de mise en mémoire tampon pour les parcours sensibles au temps. [En savoir plus](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
+* Une note a été ajoutée à la documentation sur les événements de qualification d’audience pour clarifier la latence de la segmentation en streaming (jusqu’à 2 heures) et recommander l’ajout d’une activité Attente ou d’une durée de buffer pour les parcours sensibles au facteur temps. [En savoir plus](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
 
-* Une nouvelle section a été ajoutée aux mécanismes de sécurisation des e-mails. Elle documente la limite de taille du contenu des messages de 2 Mo pour la publication par parcours, y compris les bonnes pratiques pour conserver le contenu créé sous 1 Mo afin de permettre la surcharge de traitement du serveur principal. [En savoir plus](../start/guardrails.md#message-content-size)
+* Une nouvelle section a été ajoutée aux mécanismes de sécurisation des e-mails. Elle documente la limite de taille du contenu des messages de 2 Mo pour la publication de parcours, y compris les bonnes pratiques pour conserver le contenu créé sous 1 Mo afin de tenir compte de la surcharge de traitement back-end. [En savoir plus](../start/guardrails.md#message-content-size)
 
-* Amélioration de la documentation de l’option Lecture incrémentielle dans les activités Lecture d’audience afin de clarifier les dépendances de minutage des instantanés et la limitation de la recherche arrière de 24 heures, y compris des recommandations pour éviter les profils manquants. [En savoir plus](../building-journeys/read-audience.md)
+* Amélioration de la documentation de l’option Lecture incrémentielle dans les activités Lecture d’audience afin de clarifier les dépendances temporelles des instantanés et la limitation de la fenêtre de recherche de 24 heures, y compris des recommandations pour éviter les profils manquants. [En savoir plus](../building-journeys/read-audience.md)
 
 * Une note a été ajoutée aux mécanismes de sécurisation de la recherche de jeu de données pour indiquer que les recherches ne peuvent pas être liées. [En savoir plus](../data/lookup-aep-data.md#guidelines)
 
@@ -64,9 +73,9 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * La documentation sur l’utilisation des événements d’étape de parcours est désormais disponible. [En savoir plus](../reports/journey-step-events-overview.md)
 
-* La requête d’identification des événements ignorés dans les parcours a été corrigée afin d’inclure des filtres appropriés pour les erreurs de tâche d’exportation de segments, les abandons du Dispatcher et les abandons de machine d’état. [En savoir plus](../reports/query-examples.md#common-queries)
+* La requête d’identification des événements ignorés dans les parcours a été corrigée afin d’inclure des filtres appropriés pour les erreurs de traitement d’export de segments, les abandons du Dispatcher et les abandons de machine d’état. [En savoir plus](../reports/query-examples.md#common-queries)
 
-* Des phrases d’introduction ont été ajoutées aux 37 exemples de requête dans la documentation des exemples de requête afin de fournir un meilleur contexte et d’expliquer ce que chaque requête fait avant de présenter le code SQL. Cela permet aux utilisateurs et utilisatrices de mieux comprendre et fournit des conseils plus clairs sur le moment d’utiliser chaque requête. [En savoir plus](../reports/query-examples.md)
+* Des phrases d’introduction ont été ajoutées aux 37 exemples de requête dans la documentation des exemples de requête afin de fournir un meilleur contexte et d’expliquer ce que chaque requête effectue avant de présenter le code SQL. Cela permet de mieux comprendre quand utiliser chaque requête et de fournir des conseils plus clairs. [En savoir plus](../reports/query-examples.md)
 
 ## Octobre 2025 {#october-2025}
 
@@ -216,7 +225,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
@@ -297,7 +306,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Ajout d’une section sur la gestion des reprises de parcours. [En savoir plus](../building-journeys/read-audience.md#read-audience-retry)
 * Mise à jour des questions fréquentes sur la règle de capping et de limitation pour les actions personnalisées afin de mentionner la règle de capping par défaut. [En savoir plus](../configuration/external-systems.md#faq)
 * Mise à jour de la section Contrôler l’accès afin d’inclure les autorisations liées au générateur de contenu de l’assistant IA. [En savoir plus](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* Ajout d’une vidéo sur l’utilisation du générateur de contenu de l’assistant IA pour la génération d’e-mails. [En savoir plus](../content-management/generative-email.md#video)
+* Ajout d’une vidéo sur l’utilisation du générateur de contenu de l’assistant IA pour la génération d’e-mails. [En savoir plus](../content-management/generative-full-content.md#video)
 
 <!--
 
@@ -383,7 +392,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -413,7 +422,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -488,7 +497,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -616,7 +625,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

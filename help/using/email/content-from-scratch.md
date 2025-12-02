@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: contenu, éditeur, e-mail, commencer
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,9 @@ Pour commencer à créer votre contenu , procédez comme suit :
 1. Sur la page d’accueil du Concepteur, cliquez sur l’option **[!UICONTROL Créer en partant de zéro]**.
 
    ![](assets/email_designer.png)
+
+
+1. Accélérez la création de vos e-mails avec l’assistant AI et générez un contenu d’e-mail complet avec du texte et des images à l’aide de l’assistant [ AI pour générer du contenu complet](../content-management/generative-full-content.md).
 
 1. Commencez à concevoir votre contenu en plaçant les **[!UICONTROL structures]** dans la zone de travail pour définir la disposition de votre e-mail.
 

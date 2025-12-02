@@ -5,10 +5,10 @@ title: Assistant IA pour la génération de contenu
 description: Assistant IA pour la génération de contenu
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 70%
 
 ---
 
@@ -32,51 +32,31 @@ Découvrez comment accéder à la fonctionnalité Assistant IA et la configurer
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
-Génération de contenu d’e-mail avec l’IA
+Generate Full Content
 
-Découvrez comment utiliser l’assistant IA pour concevoir, personnaliser et optimiser du contenu d’e-mail avec l’alignement de la marque.
+Découvrez comment utiliser l’assistant AI pour concevoir du contenu complet, notamment du texte et des images pour les e-mails, les notifications push, les pages web et les pages de destination.
 
-[En savoir plus sur la génération d’e-mails](../using/content-management/generative-email.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
-
-Génération de contenu de notification push
-
-Créez et personnalisez le contenu des notifications push avec l’IA, y compris le texte et les images, en accord avec votre marque.
-
-[Générer des notifications push](../using/content-management/generative-push.md)
+[En savoir plus sur la génération de contenu complet](../using/content-management/generative-full-content.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=fr)
 
-Génération de contenu SMS avec l’IA
+Generate Text Only
 
-Utilisez l’assistant IA pour générer et affiner le contenu des SMS qui trouve un écho auprès de votre audience tout en respectant les directives de la marque.
+Utilisez l’assistant AI pour générer et affiner le contenu textuel pour tous les canaux, notamment les e-mails, les SMS, les notifications push, les pages web et les pages de destination.
 
-[Explorer la génération de SMS](../using/content-management/generative-sms.md)
+[Explorer la génération de texte](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
-Génération de contenu de page web et de ressources
+Générer des images uniquement
 
-Améliorez le contenu et les visuels des pages web avec l’assistant IA, en respectant les directives de la marque.
+Créez et personnalisez des images à l’aide de l’assistant AI à utiliser dans les e-mails, les notifications push, les pages web et les landing pages.
 
-[Générer du contenu de page web](../using/content-management/generative-web.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=fr)
-
-Génération de pages de destination avec l’IA
-
-Créez et affinez le contenu et les ressources des pages de destination, y compris le texte et les visuels, pour stimuler l’engagement.
-
-[Générer des pages de destination](../using/content-management/generative-lp.md)
+[Générer des images](../using/content-management/generative-image.md)
 :::
 
 ::::

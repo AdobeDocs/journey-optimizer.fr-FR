@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 93%
 
 ---
 
@@ -75,6 +75,7 @@ Découvrez les étapes détaillées pour créer une campagne web dans [cette vid
 * **[Modifier le contenu web](create-web.md#edit-web-content)** : maîtrisez le concepteur web pour modifier les pages en mode d’édition visuelle ou non.
 * **[Gérer les modifications web](manage-web-modifications.md)** : découvrez comment organiser, appliquer et gérer les modifications dans vos expériences web.
 * **[Surveiller les expériences web](monitor-web-experiences.md)** : suivez et analysez les performances de vos campagnes web grâce à des rapports détaillés.
+* **[Générer du contenu web avec l’assistant AI](../content-management/generative-full-content.md)** - Tirez parti de l’IA pour créer et optimiser du contenu web avec du texte et des images.
 * **[Tutoriels sur les campagnes web](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives aux canaux web.
 
 
