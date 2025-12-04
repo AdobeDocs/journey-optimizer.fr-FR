@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,10 @@ Vous pouvez accéder au rapport de campagne basée sur du code en cliquant sur l
 ![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>Les expériences basées sur du code fonctionnent comme des interactions entrantes dans lesquelles les utilisateurs s’inscrivent en accédant à votre site ou à votre application. Par conséquent, les mesures **Ciblées** ou **Audience**, qui effectuent le suivi des profils choisis pour la diffusion des messages sortants, ne sont pas incrémentées pour les campagnes basées sur le code.
 
 ## Affichages et clics {#impressions-code}
 
