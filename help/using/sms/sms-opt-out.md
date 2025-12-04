@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 89%
 
 ---
 
@@ -42,6 +42,8 @@ Lors de l’utilisation d’Infobip, assurez-vous que l’action Transfert est d
 
 Aucune opération n’est nécessaire pour s’assurer que les fonctionnalités de désinscription par SMS fonctionnent dans Adobe Journey Optimizer, car les réponses par mot-clé STOP, UNSTOP, START, QUIT, CANCEL, END et UNSUBSCRIBE sont automatiquement reconnues. Les statuts d’opt-out des profils sont mis à jour en temps réel dans Adobe Journey Optimizer.
 
+Si vous définissez des mots-clés de désinscription personnalisés dans vos informations d’identification de l’API SMS, ils remplacent les mots-clés entrants par défaut répertoriés ci-dessus. Pour que les mots-clés par défaut tels que STOP, QUIT, CANCEL, END et UNSUBSCRIBE restent fonctionnels, incluez-les explicitement avec vos mots-clés personnalisés dans le champ Mots-clés d&#39;opt-out de votre configuration SMS. Sinon, seuls vos mots-clés personnalisés sont reconnus et les mots-clés par défaut ne déclenchent plus d’actions d’exclusion.
+
 Notez que si un client ou une cliente répond STOP à un SMS, le fournisseur bloque tous les SMS suivants provenant de cet identifiant d’expédition spécifique (code court ou numéro long), y compris les messages transactionnels. Pour assurer la diffusion ininterrompue des SMS transactionnels, utilisez un identifiant d’expédition distinct qui n’a pas fait l’objet d’un opt-out précédemment.
 
 
@@ -71,6 +73,6 @@ Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils 
 
   +++ Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440276/?captions=fre_fr&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

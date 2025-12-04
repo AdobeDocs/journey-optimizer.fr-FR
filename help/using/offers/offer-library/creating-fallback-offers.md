@@ -10,14 +10,24 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 93%
 
 ---
 
-# Création d&#39;offres de secours {#create-fallback-offers}
+# Créer des offres de secours {#create-fallback-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="Offre de secours"
+>abstract="Une offre de secours est l’offre par défaut affichée lorsqu’un utilisateur final n’est pas éligible à l’une des offres personnalisées."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_fallback_offer_details "
+>title="Détails de l&#39;offre de secours"
+>abstract="Indiquez le nom de l&#39;offre de secours. Vous pouvez également y associer un ou plusieurs qualificateurs de collection existants, ce qui vous permet de rechercher et d’organiser plus facilement la bibliothèque des offres."
 
 L&#39;offre de secours est envoyée aux clients s&#39;ils ne sont pas éligibles pour d&#39;autres offres. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
 
@@ -65,5 +75,5 @@ Pour créer une offre de secours, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341348?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

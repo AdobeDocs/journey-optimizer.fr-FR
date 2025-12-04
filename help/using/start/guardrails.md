@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
+source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
-source-wordcount: '3324'
+source-wordcount: '3530'
 ht-degree: 87%
 
 ---
@@ -60,23 +60,23 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal e-mail](../em
 
 Lors de la conception des e-mails, le système vérifie les paramètres essentiels et affiche des alertes pour les avertissements (recommandations et bonnes pratiques) ainsi que pour les erreurs (problèmes bloquants empêchant les tests ou l’activation). Pour en savoir plus sur les alertes d’e-mail et les exigences de validation, consultez [cette section](../email/create-email.md#check-email-alerts).
 
-#### Taille du contenu du message pour la publication par parcours {#message-content-size}
+#### Taille du contenu des messages pour la publication de parcours {#message-content-size}
 
-Lors de la publication de parcours contenant des e-mails, la taille totale du contenu du message ne doit pas dépasser **2 Mo** après le traitement du serveur principal. Lors de la publication, le système traite automatiquement le contenu du message en appliquant des correctifs aux liens et aux images, ainsi qu’en appliquant des transformations, ce qui augmente la taille de la payload au-delà de la taille du contenu créé.
+Lors de la publication de parcours contenant des e-mails, la taille totale du contenu des messages ne doit pas dépasser **2 Mo** après le traitement back-end. Lors de la publication, le système traite automatiquement le contenu des messages en corrigeant les liens et les images, ainsi qu’en appliquant des transformations, ce qui augmente la taille de la payload au-delà de la taille du contenu créé.
 
 >[!CAUTION]
 >
->Si le contenu final du message traité dépasse 2 Mo, la publication par parcours échoue. Pour éviter les échecs de publication, gardez le contenu de votre message créé bien en dessous de 2 Mo (idéalement sous **1 Mo**) pour permettre une mémoire tampon de 300 400KB pour la surcharge de traitement du serveur principal.
+>Si le contenu final des messages traité dépasse 2 Mo, la publication de parcours échoue. Pour éviter les échecs de publication, gardez le contenu des messages créés bien en dessous de 2 Mo (idéalement sous **1 Mo**), afin de conserver un buffer de 300 à 400 Ko pour la surcharge liée au traitement back-end.
 
-**Bonnes pratiques pour éviter les échecs de publication :**
+**Bonnes pratiques pour éviter les échecs de publication :**
 
-* Conserver le contenu d’e-mail créé sous 1 Mo
-* Réduire le nombre de variantes du contenu
+* Conserver le contenu des e-mails créés sous 1 Mo
+* Réduire le nombre de variantes de contenu
 * Optimiser et compresser les images avant de les ajouter aux messages
 * Supprimer les ressources inutilisées et les éléments HTML inutiles
-* Test de la taille du message avant la publication des parcours en production
+* Tester la taille des messages avant la publication des parcours en production
 
-Si la publication du parcours échoue en raison de la taille du contenu, réduisez le contenu du message et republiez le parcours.
+Si la publication du parcours échoue en raison de la taille du contenu, réduisez le contenu des messages et republiez le parcours.
 
 ### Mécanismes de sécurisation des SMS {#sms-guardrails}
 
@@ -172,6 +172,23 @@ Les mécanismes de sécurisation et les limitations à garder à l’esprit lors
 * La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil extraites d’Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et affectent la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
 * Outre la temporisation utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée. Cette temporisation globale arrête la progression des personnes dans le parcours 91 jours après leur entrée. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
 
+### Sélectionner les limites de package pour les parcours unitaires {#select-package-limitations}
+
+>[!NOTE]
+>
+>Ces restrictions ne s’appliquent pas aux parcours Lecture d’audience ou Événement métier avec le package **Sélectionner**. Si vous avez besoin d’une logique de parcours plus complexe avec plusieurs actions, conditions ou activités d’attente, envisagez de mettre à niveau votre package de licence ou d’utiliser des parcours Lecture d’audience, le cas échéant.
+
+Pour les clients qui utilisent le package de licence **Select**, les restrictions supplémentaires suivantes s’appliquent spécifiquement aux parcours unitaires, aux parcours commençant par un événement ou à une qualification d’audience :
+
+* **Package SELECT : une seule action autorisée en parcours unitaire (ERR_PKG_SELECT_8)** : les parcours unitaires ne peuvent contenir qu’une seule activité d’action. Vous ne pouvez pas ajouter plusieurs activités d’action, notamment e-mail, notification push et SMS dans le même parcours.
+
+* **Package SELECT : aucune condition autorisée dans les parcours unitaires (ERR_PKG_SELECT_7)** : les activités de condition ne peuvent pas être utilisées dans les parcours unitaires. Le parcours doit suivre un seul chemin linéaire sans logique de branchement.
+
+* **Package SELECT : aucune attente autorisée en parcours unitaire (ERR_PKG_SELECT_6)** : les activités d’attente ne peuvent pas être ajoutées aux parcours unitaires. Les actions doivent s&#39;exécuter immédiatement sans délai.
+
+* **Package SELECT : la transition de temporisation/erreur à partir du nœud doit pointer uniquement vers le nœud de fin (ERR_PKG_SELECT_2)** : si vous configurez des transitions de temporisation ou d’erreur pour une action, telle qu’une action d’e-mail, ces chemins doivent pointer directement vers un nœud de fin. Ils ne peuvent pas se connecter à d’autres activités ou actions du parcours.
+
+
 ### Actions générales {#general-actions-g}
 
 Les mécanismes de sécurisation suivants s’appliquent aux [actions](../building-journeys/about-journey-activities.md) dans vos parcours :
@@ -179,7 +196,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -196,7 +213,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [versions de parcou
 
 Les mécanismes de sécurisation suivants s’appliquent aux [actions personnalisées](../action/action.md) dans vos parcours :
 
-* Une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. La limite « par hôte » s’applique au niveau du domaine (par exemple, example.com). Cette limite est appliquée en tant que fenêtre coulissante par sandbox et par point d’entrée pour les points d’entrée dont les temps de réponse sont inférieurs à 0,75 seconde. Pour les points d’entrée dont le temps de réponse est supérieur à 0,75 seconde, une limite distincte de 150 000 appels par 30 secondes (également une fenêtre glissante) s’applique. Consultez [cette page](../action/about-custom-action-configuration.md). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
+* Une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. La limite « par hôte » s’applique au niveau du domaine (par exemple, exemple.com). Cette limite est appliquée en tant que fenêtre glissante par sandbox et par point d’entrée, pour les points d’entrée dont le temps de réponse est inférieur à 0,75 seconde. Pour les points d’entrée dont le temps de réponse est supérieur à 0,75 seconde, une limite distincte de 150 000 appels par 30 secondes (également une fenêtre glissante) s’applique. Consultez [cette page](../action/about-custom-action-configuration.md). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
 * Les méthodes d’appel POST, PUT et GET sont prises en charge.
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ »

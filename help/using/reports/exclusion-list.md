@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 83%
+source-wordcount: '868'
+ht-degree: 77%
 
 ---
 
@@ -63,7 +63,7 @@ Pour plus d’informations sur les raisons spécifiques d’exclusion, consultez
 | InAppNoVariantDefined | 050041 | InApp | Un événement d’exclusion est généré lorsqu’aucune variante n’est définie pour le message in-app. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Un événement d’exclusion est généré lorsque l’expérience est activée pour le message et qu’aucun message n’est trouvé pour le traitement qualifié. |
 | PushNoTokenFoundInProfile | 050030 | Notification push | Un événement d’exclusion est généré lorsque le profil ne comporte pas de jetons push. |
-| PushNoValidTokenFoundForApps | 050031 | Notification push | Un événement d’exclusion est généré lorsqu’aucun jeton valable n’est trouvé pour les applications ciblées dans la configuration. |
+| PushNoValidTokenFoundForApps | 050031 | Notification push | Un événement d’exclusion est généré lorsqu’aucun jeton valide n’est trouvé pour les applications ciblées dans la configuration. **Important :** lors de l’utilisation d’un certificat de production, l’attribut `pushNotificationDetails.platform` du profil utilisateur doit être défini sur `apns`. Si vous utilisez un certificat sandbox, définissez-le sur `apnsSandbox`. Une incohérence entre l’attribut de plateforme et le type de certificat déclenche cette exclusion. |
 | PushMalformedProfile | 050034 | Notification push | Un événement d’exclusion est généré lorsque pushNotificationDetails est incorrect dans le profil. |
 | PushNoConsent | 050111 | Notification push | Un événement d’exclusion est généré lorsque l’utilisateur ou l’utilisatrice s’exclut des notifications push marketing. |
 | PushNoApplicationDefinedInPreset | 050033 | Notification push | Un événement d’exclusion est généré lorsque la configuration ne contient aucune application à cibler. |

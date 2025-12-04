@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 100%
+source-wordcount: '1927'
+ht-degree: 96%
 
 ---
 
@@ -105,6 +105,12 @@ Pour votre expérience de contenu, vous pouvez choisir entre trois types d’exp
 1. Cliquez sur **[!UICONTROL Ajouter un traitement]** pour créer autant de nouveaux traitements que nécessaire.
 
    ![](assets/content_experiment_8.png)
+
+   >[!CAUTION]
+   >
+   >Lors de la création d’une expérience basée sur le code, notez les restrictions suivantes :
+   >* **Nombre de traitements** : la création de plus de 3 à 5 traitements peut entraîner des problèmes de performances et d’interface. Si vous rencontrez des erreurs lors de l’ajout de traitements, essayez de réduire le nombre de traitements ou ajoutez-les de manière incrémentielle jusqu’à ce que le problème soit résolu.
+   >* **Mots-clés réservés** : évitez d’utiliser des mots-clés réservés tels que « holdout » dans vos noms de traitement, car cela peut entraîner des erreurs de mappage des nœuds de décision et empêcher le bon fonctionnement de l’expérience.
 
 1. Modifiez le **[!UICONTROL Titre]** de votre traitement pour mieux les différencier.
 

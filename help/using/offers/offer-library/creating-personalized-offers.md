@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '830'
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+workflow-type: tm+mt
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -52,11 +52,6 @@ La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Of
 >id="ajo_decisioning_new_personalized"
 >title="Offre personnalisée"
 >abstract="Une offre personnalisée est un message personnalisable basé sur des contraintes et des règles d’éligibilité."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="Offre de secours"
->abstract="Une offre de secours est l’offre par défaut affichée lorsqu’un utilisateur final ou une utilisatrice finale n’est pas éligible à l’une des offres personnalisées."
 
 Pour créer une **offre**, procédez comme suit :
 
@@ -176,4 +171,4 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sé
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341347?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
