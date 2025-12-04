@@ -28,7 +28,7 @@ Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **
 
 Utilisez la section de prévisualisation des appareils pour visualiser la façon dont s’affiche la notification push sur les appareils iOS et Android.
 
-Accélérez la création de votre contenu avec l’assistant AI et générez du texte de notification push attrayant avec l’assistant [ AI pour la génération de texte](../content-management/generative-text.md) ou créez des notifications push complètes avec l’assistant [ AI pour la génération de contenu complète](../content-management/generative-full-content.md).
+Accélérez la création de votre contenu avec l’assistant AI et générez du texte de notification push attrayant avec l’assistant [&#x200B; AI pour la génération de texte](../content-management/generative-text.md) ou créez des notifications push complètes avec l’assistant [&#x200B; AI pour la génération de contenu complète](../content-management/generative-full-content.md).
 
 ## Comportement en cas de clic {#on-click-behavior}
 
