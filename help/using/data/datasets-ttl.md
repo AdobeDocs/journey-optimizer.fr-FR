@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
+source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 86%
+source-wordcount: '1061'
+ht-degree: 67%
 
 ---
 
@@ -78,13 +78,13 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Ce
 
 >[!NOTE]
 >
->Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=_blank}
+>Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=&quot;_blank}
 
 +++
 
 +++La clientèle peut-elle augmenter la durée de vie des données du jeu de données système de [!DNL Journey Optimizer] dans le lac de données ? 
 
-Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -114,6 +114,30 @@ La date et l’heure de l’événement sont utilisées (et non la date d’inge
 
 +++
 
++++Comment la nouvelle durée de vie affecte-t-elle les cas d’utilisation qui nécessitent une conservation des données plus longue (par exemple, en excluant les profils qui ont reçu un e-mail au cours des 120 derniers jours ou en limitant les e-mails sur un an) ?
+
+La nouvelle politique de durée de vie limite la période de recherche en amont des données de jeux de données générés par le système dans la banque de profils à 90 jours et dans le lac de données à 13 mois. Les cas d’utilisation qui nécessitent l’accès aux données au-delà de ces périodes seront affectés. Par exemple, la segmentation de l’audience ou le capping de la fréquence en fonction des événements de plus de 90 jours dans la banque de profils ne sera plus possible à l’aide des jeux de données système.
+
++++
+
++++Quelles sont les alternatives disponibles pour conserver les données plus longtemps que la durée de vie ?
+
+Les clients qui nécessitent une rétention plus longue doivent envisager d’exporter les données pertinentes des jeux de données AJO vers un stockage externe avant l’expiration de la durée de vie. Adobe Journey Optimizer prend en charge l’exportation de jeux de données vers diverses destinations d’espace de stockage (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank}
+
++++
+
++++Que doivent faire les clients pour se préparer au changement de durée de vie ?
+
+* Passez en revue vos cas d’utilisation et identifiez ceux qui nécessitent une conservation des données au-delà des nouvelles TTL.
+* Configurez des requêtes automatisées pour copier des données critiques vers des jeux de données dérivés avant que les données ne soient supprimées.
+* Contactez votre représentant Adobe pour discuter des besoins supplémentaires ou des extensions de durée de vie potentielles (prévues pour les prochaines versions).
+
++++
+
++++Les clients seront-ils avertis avant l’application de la TTL sur les sandbox existants ?
+
+Oui, les clients concernés seront avertis à l’avance et l’équipe produit travaillera avec eux pour assurer une transition fluide.
+
 +++Puis-je supprimer des jeux de données générés par le système Journey Optimizer ?
 
 Les jeux de données générés par le système Journey Optimizer sont protégés et ne peuvent pas être supprimés via l’interface utilisateur Adobe Experience Platform standard. Ces jeux de données sont essentiels aux fonctionnalités de Journey Optimizer et sont gérés par le système.
@@ -123,5 +147,6 @@ Si vous devez supprimer définitivement un jeu de données système Journey Opti
 >[!NOTE]
 >
 >Pour le nettoyage de routine des données de ces jeux de données système, utilisez les opérations **[!UICONTROL Cycle de vie des données]** disponibles via Privacy Service pour supprimer des enregistrements ou des identités spécifiques. [En savoir plus](../privacy/data-hygiene.md)
+
 
 +++
