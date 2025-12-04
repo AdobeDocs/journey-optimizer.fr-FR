@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: conversion, fonctions, expression, parcours, type, convertir
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '957'
-ht-degree: 100%
+source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+workflow-type: tm+mt
+source-wordcount: '1054'
+ht-degree: 89%
 
 ---
 
@@ -142,12 +142,13 @@ Convertit les paramètres en une valeur de date et d’heure, selon leurs types.
 
 +++Paramètres
 
-| Paramètre | Type |
-|-----------|------------------|
-| date et heure au format ISO-8601 | chaîne |
-| identifiant de fuseau horaire | chaîne |
-| date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
-| valeur entière d’une époque en millisecondes | nombre entier |
+| Paramètre | Description |
+|--- |--- |
+| chaîne | date et heure au format ISO-8601. Représentation sous forme de chaîne d’une heure avec des informations de fuseau horaire |
+| Chaîne | id de fuseau horaire. Identifiant de fuseau horaire (par exemple, « UTC », « Europe/Paris ») |
+| dateOnly | représente une date sans fuseau horaire, sous la forme année-mois-jour |
+| dateTimeOnly | représente une valeur datetime sans fuseau horaire, affichée sous la forme année-mois-jour-heure-minute-seconde-milliseconde |
+| Entier | valeur entière d’une époque en millisecondes |
 
 +++
 
@@ -155,7 +156,9 @@ Convertit les paramètres en une valeur de date et d’heure, selon leurs types.
 
 `toDateTime(<string>)`
 
-`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
+`toDateTime(<string>, <dateOnly>)`
+
+`toDateTime(<string>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
@@ -165,17 +168,29 @@ Renvoie une valeur **dateTime**.
 
 +++Exemples
 
-`toDateTime ("2023-08-18T23:17:59.123Z")`
+`toDateTime("2023-08-18T23:17:59.123Z")`
 
 Renvoie 2023-08-18T23:17:59.123Z.
 
-`toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
+La chaîne ISO-8601 inclut déjà des informations sur le fuseau horaire.
+
+`toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
+
+Renvoie 2023-08-18T00:00:00.000+02:00
+
+Vous créez ainsi une valeur dateTime en combinant un fuseau horaire avec une valeur de date seule. L’heure est définie sur minuit (00:00:00) dans le fuseau horaire spécifié.
+
+`toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
 Renvoie 2023-08-18T23:17:59.123Z.
+
+Cela crée une valeur dateTime en appliquant un fuseau horaire à une valeur dateTimeOnly (qui ne contient aucune information de fuseau horaire).
 
 `toDateTime(1560762190189)`
 
-Renvoie 2023-06-17T09:03:10.189Z.
+Renvoie 2019-06-17T09:03:10.189Z
+
+Convertit une date et une heure Unix en millisecondes en une valeur dateTime.
 
 +++
 
