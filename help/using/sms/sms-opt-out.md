@@ -73,6 +73,6 @@ Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils 
 
   +++ Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3440276/?captions=fre_fr&learn=on)
 
   +++
