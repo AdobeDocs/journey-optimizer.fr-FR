@@ -6,9 +6,9 @@ description: Découvrez comment mapper un schéma relationnel au profil client
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 source-git-commit: f842142a985481004192c88af2973787912c85b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ Lors de la configuration du ciblage, vous devez définir deux aspects essentiels
 
   >[!IMPORTANT]
   >
-  > Les campagnes orchestrées permettent le ciblage sur tout schéma ayant une relation directe ou connexe avec le schéma **Profil**. Bien que son utilisation soit principalement destinée aux relations 1:1, elle prend également en charge les relations 1:N, telles que Compte `>` Destinataires, à condition que le chemin de la relation soit correctement modélisé dans le modèle de données. Cela permet le ciblage en fonction des données au niveau du compte tout en résolvant l’identité de profil correcte pour la diffusion des messages.
+  > Les campagnes orchestrées permettent le ciblage sur tout schéma ayant une relation directe ou connexe avec le schéma **Profil**. Bien que leur utilisation soit principalement destinée aux relations 1:1, elles prennent également en charge les relations 1:N, telles que Compte `>` Destinataires, tant que le chemin de la relation est correctement modélisé dans le modèle de données. Cela permet un ciblage basé sur les données au niveau du compte tout en résolvant l’identité de profil correcte pour la diffusion des messages.
 
 * **Lien de profil**
 
   Le système doit comprendre comment le schéma cible est mappé au schéma `Profile`. Pour ce faire, un champ d’identité partagé, qui existe à la fois dans le schéma cible et dans le schéma `Profile`, est configuré comme un espace de noms d’identité.
 
-➡️ [En savoir plus sur les schémas relationnels dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Pour en savoir plus sur les schémas relationnels, consultez la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas).
 
 ## Créer une dimension de ciblage {#targeting-dimension}
 
@@ -47,7 +47,7 @@ Commencez par configurer l’orchestration de campagne en mappant un schéma rel
 
 1. Sélectionnez le [schéma précédemment configuré](gs-schemas.md) dans la liste déroulante.
 
-   Bien que tous les schémas relationnels s’affichent, seuls ceux ayant une relation d’identité directe avec **Profile** peuvent être sélectionnés. Évitez de choisir des schémas non-personnes, par exemple des achats, et sélectionnez un schéma directement associé à un profil.
+   Bien que tous les schémas relationnels soient affichés, seuls ceux ayant une relation d’identité directe avec le **profil** sont éligibles à la sélection. Évitez de choisir des schémas qui ne concernent pas des personnes, par exemple des achats, et sélectionnez un schéma directement associé à un profil.
 
 1. Sélectionnez la **[!UICONTROL valeur d’identité]** qui représente l’entité à cibler.
 

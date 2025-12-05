@@ -10,9 +10,9 @@ keywords: cas d’utilisation, multicanal, parcours, événements
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
 source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -189,42 +189,42 @@ Parcourez les articles de blog suivants pour obtenir d’autres conseils et cons
 <td>
 <img alt="Publications de blog" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="weekday-email-uc.md">Cas d’utilisation : envoi d’e-mails uniquement les jours de la semaine dans Adobe Journey Optimizer</a> également disponible en tant qu’article de blog de la <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=fr" target="_blank">communauté</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=fr" target="_blank">Cas d’utilisation : stratégies d’approbation avancées</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=fr" target="_blank">Cas d’utilisation : capping quotidien de la fréquence</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=fr" target="_blank">Bonnes pratiques : parcours de lecture d’audience</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=fr" target="_blank">Cas d’utilisation : tester vos parcours</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=fr" target="_blank">Cas d’utilisation : workflows d’approbation</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=fr" target="_blank">Cas pratique : critères d’entrée et de sortie d’un parcours</a></p>
+<p><a href="weekday-email-uc.md">Cas d’utilisation : envoi d’e-mails uniquement les jours de la semaine dans Adobe Journey Optimizer</a> – Également disponible en tant qu’<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">article de blog de la communauté</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">Cas d’utilisation : stratégies d’approbation avancées</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">Cas d’utilisation : capping quotidien de la fréquence</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">Bonnes pratiques : parcours de lecture d’audience</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">Cas d’utilisation : tester vos parcours</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">Cas d’utilisation : workflows d’approbation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">Cas pratique : critères d’entrée et de sortie d’un parcours</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="Événements d’étape dans vos parcours" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=fr" target="_blank">Maîtriser les événements d’étape dans Adobe Journey Optimizer : principes fondamentaux, schéma et requêtes essentielles pour les campagnes pilotées par des données
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">Maîtriser les événements d’étape dans Adobe Journey Optimizer : principes fondamentaux, schéma et requêtes essentielles pour les campagnes pilotées par des données
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=fr" target="_blank">Cas d’utilisation : activation d’audience externe rapide avec chargement personnalisé</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=fr" target="_blank">Cas d’utilisation : personnalisation au-delà du profil
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Cas d’utilisation : activation d’audience externe rapide avec chargement personnalisé</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">Cas d’utilisation : personnalisation au-delà du profil
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=fr" target="_blank">Prendre son envol avec la personnalisation : comment les compagnies aériennes peuvent améliorer leurs offres avec Adobe Journey Optimizer
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">Prendre son envol avec la personnalisation : comment les compagnies aériennes peuvent améliorer leurs offres avec Adobe Journey Optimizer
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=fr" target="_blank">Maîtriser la personnalisation en temps réel : guide destiné aux spécialistes marketing pour les fragments de contenu AEM et Adobe Journey Optimizer
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">Maîtriser la personnalisation en temps réel : guide destiné aux spécialistes marketing pour les fragments de contenu AEM et Adobe Journey Optimizer
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="Actions personnalisées" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=fr" target="_blank">Extension d’Adobe Journey Optimizer à l’aide d’actions personnalisées : cas d’utilisation des intégrations
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Extension d’Adobe Journey Optimizer à l’aide d’actions personnalisées : cas d’utilisation des intégrations
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=fr" target="_blank">La fonctionnalité de délégation personnalisée d’Adobe Journey Optimizer résout les problèmes de conformité des entreprises.
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">La fonctionnalité de délégation personnalisée d’Adobe Journey Optimizer résout les problèmes de conformité des entreprises.
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=fr" target="_blank">LINE dans Journey Optimizer : de la première campagne aux cas d’utilisation de fragments d’expression avancés et d’actions personnalisées
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">LINE dans Journey Optimizer : de la première campagne aux cas d’utilisation de fragments d’expression avancés et d’actions personnalisées
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=fr" target="_blank">Guide d’intégration de Journey Optimizer Universal Link pour iOS
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">Guide d’intégration de Journey Optimizer Universal Link pour iOS
 </a></p>
 </div>
 </td>

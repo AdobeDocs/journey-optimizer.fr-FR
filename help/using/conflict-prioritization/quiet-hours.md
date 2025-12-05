@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: message, fréquence, règles, pression
 source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ En rationalisant ces processus, vous pouvez améliorer l’expérience client, g
 
 >[!AVAILABILITY]
 >
->Actuellement, les règles relatives aux heures creuses ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée).  Ils seront progressivement disponibles pour tous les clients dans les prochaines versions.
+>Les règles d’heures creuses ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée).  Elles seront progressivement disponibles pour l’ensemble de la clientèle dans les versions ultérieures.
 
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
@@ -187,4 +187,4 @@ Une fois vos campagnes ou votre parcours activés et exécutés, vous pouvez vis
 
 Découvrez comment utiliser la fonctionnalité des heures creuses dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475854?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

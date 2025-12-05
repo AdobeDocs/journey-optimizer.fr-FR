@@ -10,9 +10,9 @@ keywords: parcours, sources de données, limite, débit, personnalisé, actions
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Cela est possible grâce aux éléments suivants :
 >
 >Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
 
-Si vous utilisez des sources de données externes ou des actions personnalisées, vous pouvez protéger vos systèmes externes en limitant le débit du parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 20 000 instances/seconde pour les instances déclenchées par une audience. Pour en savoir plus sur les taux de traitement et le débit des parcours, consultez [cette section](entry-management.md#journey-processing-rate).
+Si vous utilisez des sources de données externes ou des actions personnalisées, il peut être judicieux de protéger vos systèmes externes en limitant le débit des parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 20 000 instances/seconde pour les parcours déclenchés par une audience. Pour en savoir plus sur les taux de traitement et le débit des parcours, consultez [cette section](entry-management.md#journey-processing-rate).
 
 Pour les actions personnalisées, les fonctionnalités de ralentissement existent au niveau du produit. Voir cette [page](../configuration/external-systems.md#capping).
 
@@ -49,11 +49,11 @@ Pour les **parcours déclenchés par une audience**, vous pouvez définir le tau
 > Il s’agit du nombre maximum de profils pouvant entrer dans le parcours par seconde. Ce taux s’applique uniquement à cette activité et non aux autres activités du parcours. [En savoir plus](../building-journeys/read-audience.md)
 
 
-![Panneau de configuration de débit limité avec paramètres de limitation de débit](assets/limit-throughput-1.png)
+![Panneau de configuration de limitation de débit avec les paramètres de limitation de débit](assets/limit-throughput-1.png)
 
 Vous pouvez modifier cette valeur de 500 à 20 000 instances par seconde. Si vous devez descendre en dessous de 500/s, vous pouvez également ajouter des conditions de « partage en pourcentage » avec des activités d’attente pour fractionner votre parcours en plusieurs branches et les faire s’exécuter à un moment spécifique.
 
-![Parcours avec activité de débit limitée contrôlant le taux de diffusion des messages](assets/limit-throughput-2.png)
+![Parcours avec une activité de limitation de débit contrôlant le taux de diffusion des messages](assets/limit-throughput-2.png)
 
 Prenons l’exemple d’un **parcours déclenché par une audience** s’exécutant avec une population de **10 000 profils** et envoyant des données à un système externe prenant en charge **100 requêtes/seconde**.
 

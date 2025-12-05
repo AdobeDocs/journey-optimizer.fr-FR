@@ -11,9 +11,9 @@ keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -92,13 +92,13 @@ La bonne pratique consiste à utiliser des dates personnalisées spécifiques à
 
 >[!CAUTION]
 >
->Lors de la création d’une expression d’attente personnalisée avec `toDateTimeOnly()`, évitez d’ajouter « Z » ou tout décalage de fuseau horaire (par exemple, « -05 :00 ») dans le résultat de l’expression. L’expression doit utiliser une syntaxe date/heure ISO valide qui fait référence au fuseau horaire configuré du parcours sans indicateurs de fuseau horaire explicites.
+>Lors de la création d’une expression d’attente personnalisée avec `toDateTimeOnly()`, évitez d’ajouter « Z » ou tout décalage de fuseau horaire (par exemple, « -05:00 ») dans le résultat de l’expression. L’expression doit utiliser une syntaxe date/heure ISO valide qui fait référence au fuseau horaire configuré du parcours sans indicateurs de fuseau horaire explicites.
 >
->**Exemple correct :** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
+>**Exemple correct :** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
 >
->**Exemple incorrect :** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contient &#39;Z&#39;)
+>**Exemple incorrect :** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contient « Z »)
 >
->L’utilisation de indicateurs de fuseau horaire non pris en charge peut bloquer les profils dans l’activité d’attente au lieu de progresser comme prévu.
+>L’utilisation d’indicateurs de fuseau horaire non pris en charge peut bloquer les profils dans l’activité d’attente au lieu de progresser comme prévu.
 
 Pour vérifier que l’activité d’attente fonctionne comme prévu, vous pouvez utiliser des événements d’étape. [En savoir plus](../reports/query-examples.md#common-queries).
 

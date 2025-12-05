@@ -11,9 +11,9 @@ keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2771'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Vous pouvez effectuer les actions suivantes :
 * Définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement).
 * Surveiller les conflits et gérer la priorité des parcours à l’aide des [outils de gestion des conflits](#conflict).
 
-Volet de configuration des propriétés du Parcours ![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"} avec paramètres généraux et options avancées
+![Volet de configuration des propriétés du parcours avec paramètres généraux et options avancées](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Pour plus d’informations sur les champs techniques liés à un parcours pour u
 
 Le mode d’entrée des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
 
-La gestion des entrées de profils dépend du type de parcours. Pour en savoir plus sur la gestion des entrées et des reprises de profil, consultez [cette page](entry-management.md). En savoir plus sur les taux de traitement des parcours et le flux des profils dans les parcours dans [cette section](entry-management.md#journey-processing-rate).
+La gestion des entrées de profils dépend du type de parcours. Pour plus d’informations sur la gestion des entrées et des rentrées de profils, consultez [cette page](entry-management.md). En savoir plus sur les taux de traitement des parcours et le flux des profils dans les parcours dans [cette section](entry-management.md#journey-processing-rate).
 
 ### Autoriser une nouvelle rentrée  {#allow-reentrance}
 
@@ -248,7 +248,7 @@ Une personne ne peut entrer dans une activité d’attente que si elle dispose d
 
 Adobe Journey Optimizer utilise des politiques de fusion lors de la récupération des données de profil d’Adobe Experience Platform. Selon le type de parcours, différentes politiques de fusion sont utilisées :
 
-* Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée
+* Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée.
 * Dans les parcours d’événements unitaires : la politique de fusion par défaut est utilisée.
 * Dans les parcours d’événements métier : la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée.
 
@@ -285,7 +285,7 @@ Pour **créer** un critère de sortie, procédez comme suit :
 
 1. Ouvrez votre parcours.
 
-1. Cliquez sur l’icône ![Afficher les critères de sortie](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite de la zone de travail du parcours.
+1. Cliquez sur l’icône ![Icône Afficher les critères de sortie](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite de la zone de travail du parcours.
 
 1. Sélectionnez **[!UICONTROL Ajouter un critère de sortie]**.
 
@@ -296,7 +296,7 @@ Pour **créer** un critère de sortie, procédez comme suit :
 
 Vous pouvez ajouter plusieurs critères de sortie.
 
-![Panneau Critères de sortie affichant les conditions d’audience pour la terminaison du parcours &#x200B;](assets/exitcriteria-sample.png){width="40%" align="left"}
+![Panneau Critères de sortie affichant les conditions d’audience pour la fin du parcours](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### Critères de sortie basés sur des attributs de profil {#profile-exit-criteria}

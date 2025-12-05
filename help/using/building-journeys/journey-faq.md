@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide
 version: Journey Orchestration
 source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5226'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -271,10 +271,10 @@ En savoir plus sur la [configuration d’événement](../event/about-events.md) 
 
 +++ Puis-je renvoyer un message si quelqu’un ne l’ouvre pas ou ne clique pas dessus ?
 
-Oui. Utilisez un événement **[!UICONTROL Réaction]** avec un **Délai d’expiration** :
+Oui. Utilisez un événement de **[!UICONTROL réaction]** avec une **temporisation** :
 
-1. Après avoir envoyé votre message, ajoutez un événement **[!UICONTROL Réaction]** **immédiatement** après l’action du canal (sans activité **[!UICONTROL Attente]** entre les deux)
-2. Configurez un délai d’expiration (par exemple, 3 jours) sur l’événement **[!UICONTROL Réaction]** pour écouter les ouvertures d’e-mail ou les clics
+1. Après avoir envoyé votre message, ajoutez un événement de **[!UICONTROL réaction]** **immédiatement** après l’action de canal (sans activité d’**[!UICONTROL attente]** entre les deux).
+2. Configurez une période de temporisation (par exemple, 3 jours) sur l’événement de **[!UICONTROL réaction]** pour écouter les ouvertures d’e-mail ou les clics.
 3. Créez deux chemins :
    * **Si vous l’avez ouvert/cliqué dessus** : passez aux étapes suivantes ou terminez le parcours.
    * **Chemin de temporisation (non ouvert/cliqué)** : envoyez un e-mail de rappel avec un objet différent.
@@ -287,20 +287,20 @@ En savoir plus sur les [événements de réaction](reaction-events.md).
 
 +++ Comment créer un parcours d’abandon de panier ?
 
-Créez un parcours déclenché par un événement à l’aide d’un événement **[!UICONTROL Réaction]** avec une temporisation :
+Créez un parcours déclenché par un événement à l’aide d’un événement de **[!UICONTROL réaction]** avec une temporisation :
 
 1. **Configurez un événement « Panier abandonné »** : déclenché lorsque des articles sont ajoutés, mais que le passage en caisse n’est pas terminé dans un délai donné.
-2. **Envoyer un message initial** (facultatif) : e-mail accusant réception des articles du panier
-3. **Ajouter un événement [!UICONTROL Réaction] immédiatement après l’action du canal** : configurez-le pour qu’il écoute un événement d’achat
-4. **Définir un délai d’expiration** : définissez un délai d’expiration (par exemple, 1 à 2 heures) pour l’événement **[!UICONTROL Réaction]** afin de donner au client le temps de terminer naturellement
+2. **Envoyez un message initial** (facultatif) : e-mail accusant réception des articles du panier.
+3. **Ajoutez un événement de [!UICONTROL réaction] immédiatement après l’action de canal** : configurez-le pour qu’il écoute un événement d’achat.
+4. **Définissez une période de temporisation** : définissez une temporisation (par exemple, 1 à 2 heures) sur l’événement de **[!UICONTROL réaction]** pour donner au client ou à la cliente le temps de terminer le processus.
 5. **Créez deux chemins** :
    * **Si l’événement d’achat se produit** : mettez fin au parcours ou continuez avec le flux après achat.
    * **Chemin de temporisation (pas d’achat)** : envoyez un e-mail de rappel d’abandon avec le contenu du panier.
-6. **Facultatif** : ajoutez un autre événement **[!UICONTROL Réaction]** **immédiatement après** l’e-mail de rappel avec la temporisation (24 heures) et envoyez un second rappel avec un incentives (par exemple, une remise de 10 %)
+6. **Facultatif** : ajoutez un autre événement de **[!UICONTROL réaction]** **immédiatement** après l’e-mail de rappel avec une temporisation (24 heures) et envoyez un deuxième rappel avec un avantage incitatif (par exemple, une remise de 10 %).
 
 >[!IMPORTANT]
 >
->Les événements **[!UICONTROL Réaction]** doivent être placés immédiatement après les [actions de canal](journeys-message.md). Ne placez pas d’activités **[!UICONTROL Attente]** entre l’action de canal et l’activité **[!UICONTROL Réaction]**.
+>Les événements de **[!UICONTROL réaction]** doivent être placés immédiatement après les [actions de canal](journeys-message.md). Ne placez pas d’activités d’**[!UICONTROL attente]** entre l’action de canal et l’activité de **[!UICONTROL réaction]**.
 
 En savoir plus sur les [cas d’utilisation de parcours](jo-use-cases.md) et les [événements de réaction](reaction-events.md).
 
@@ -468,9 +468,9 @@ Raisons courantes pour lesquelles les profils peuvent ne pas rejoindre un parcou
 * **Parcours non publié** : le parcours est en état de brouillon.
 * **Espace de noms non valide** : l’espace de noms du parcours ne correspond pas à l’identité du profil.
 * **Parcours fermé** : le parcours n’accepte plus de nouvelles entrées.
-* **Durée de qualification des audiences de streaming** : pour les parcours utilisant la qualification d’audience avec les audiences de streaming, les profils peuvent ne pas entrer s’ils étaient déjà dans l’audience avant la publication du parcours ou si le parcours n’a pas terminé sa période d’activation (jusqu’à 10 minutes après la publication)
+* **Durée de qualification des audiences en streaming** : pour les parcours utilisant la qualification d’audience avec les audiences en streaming, les profils peuvent ne pas rejoindre le parcours s’ils étaient déjà dans l’audience avant la publication du parcours ou si la période d’activation du parcours n’est pas terminée (jusqu’à 10 minutes après la publication)
 
-En savoir plus sur les [gestion des entrées](entry-management.md) et [considérations relatives au timing de qualification des audiences de streaming](audience-qualification-events.md#streaming-entry-caveats).
+En savoir plus sur la [gestion des entrées](entry-management.md) et les [considérations relatives à la durée de qualification des audiences de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 +++
 

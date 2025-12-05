@@ -9,9 +9,9 @@ level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1805'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Vous avez besoin de plus d’informations ? Utilisez les options de commentaire
 
 +++ Comment configurer une règle de limitation ? Existe-t-il une règle par défaut ?
 
-Pour créer des règles de limitation ou de ralentissement, reportez-vous à [cette section](../configuration/external-systems.md#capping). Par défaut, il n’y a aucune règle de ralentissement mais une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. La limite « par hôte » s’applique au niveau du domaine (par exemple, example.com). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../action/about-custom-action-configuration.md) pour plus d’informations sur la manière de demander des augmentations de limitation.
+Pour créer des règles de limitation ou de ralentissement, reportez-vous à [cette section](../configuration/external-systems.md#capping). Par défaut, il n’y a aucune règle de ralentissement mais une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. La limite « par hôte » s’applique au niveau du domaine (par exemple, example.com). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../action/about-custom-action-configuration.md) pour plus d’informations sur la manière de demander des augmentations de limitation.
 
 +++
 
@@ -130,21 +130,21 @@ Dans chaque parcours, vous pouvez définir un délai de temporisation. Le délai
 
 +++
 
-+++ Qu’est-ce que le proxy de sortie et quand dois-je l’utiliser ?
++++ Qu’est-ce que le proxy de sortie et quand dois-je l’utiliser ?
 
-Le proxy de sortie fournit une **adresse IP statique** pour les appels sortants de Journey Optimizer vers vos systèmes externes. Utilisez-le lorsque vos points d’entrée tiers nécessitent une liste autorisée IP.
+Le proxy de sortie fournit une **adresse IP statique** pour les appels sortants de Journey Optimizer vers vos systèmes externes. Utilisez-le lorsque vos points d’entrée tiers nécessitent une liste autorisée d’adresses IP.
 
-**Important :** le proxy de sortie ne contrôle PAS le débit, les limites de débit ni le nombre de connexions simultanées. Pour gérer le volume d’appels et les limites de connexion, utilisez l’API [Plafonnement](capping.md) ou [Limitation](throttling.md).
+**Important :** le proxy de sortie NE contrôle PAS le débit, les limites de débit ni le nombre de connexions simultanées. Pour gérer le volume d’appels et les limites de connexion, utilisez l’[API de limitation](capping.md) ou l’[API d’étranglement](throttling.md).
 
-**Utiliser le proxy de sortie pour :**
+**Utiliser le proxy de sortie pour :**
 * Placer sur la liste autorisée une adresse IP statique sur votre pare-feu ou point d’entrée tiers
 
-**Utiliser les API de plafonnement/limitation pour :**
-* Limiter le nombre d&#39;appels API par seconde
-* Contrôle des connexions simultanées à votre point d’entrée
-* Protection de votre système externe contre la surcharge
+**Utiliser les API de limitation ou d’étranglement pour :**
+* Limiter le nombre d’appels API par seconde
+* Contrôler les connexions simultanées à votre point d’entrée
+* Protéger votre système externe contre les surcharges
 
-Contactez Adobe placer sur la liste autorisée pour activer le proxy de sortie pour votre organisation si vous avez besoin d’une adresse IP statique à des fins d’analyse.
+Contactez Adobe pour activer le proxy sortant pour votre organisation si vous avez besoin d’une adresse IP statique à des fins d’ajout à une liste autorisée.
 
 +++
 

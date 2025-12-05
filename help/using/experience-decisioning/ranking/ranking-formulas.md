@@ -8,9 +8,9 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -225,19 +225,19 @@ Ainsi, pour un profil tel que :
 
 +++
 
-+++Booster les offres en fonction du code postal et du revenu annuel d’un profil
++++Mettre en avant des offres en fonction du code postal et du revenu annuel d’un profil
 
-Dans cet exemple, le système tente toujours d’afficher en premier une offre ZIP correspondante, puis retourne à une offre générale si aucune correspondance n’est trouvée, évitant d’afficher les offres destinées à d’autres codes postaux.
+Dans cet exemple, le système tente toujours de présenter en premier une offre avec un code postal identique, puis utilise une offre générale si aucune correspondance n’est trouvée. Cela évite de présenter les offres destinées aux autres codes postaux.
 
 ```pql
 if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
 ```
 
-Fonction de la formule :
+Fonction de la formule :
 
-* Si l’offre a le même code postal que l’utilisateur ou l’utilisatrice, attribuez-lui un score très élevé afin qu’elle soit sélectionnée en premier.
-* Si l’offre ne comporte aucun code postal (il s’agit d’une offre générale), donnez-lui un score normal en fonction du revenu de l’utilisateur.
-* Si le code postal de l’offre est différent de celui de l’utilisateur, donnez-lui un score très faible afin qu’elle ne soit pas sélectionnée.
+* Si l’offre possède le même code postal que l’utilisateur ou l’utilisatrice, attribuez-lui un score très élevé afin qu’elle soit sélectionnée en premier.
+* Si l’offre ne comporte aucun code postal (s’il s’agit d’une offre générale), attribuez-lui un score normal en fonction du revenu de l’utilisateur ou de l’utilisatrice.
+* Si le code postal de l’offre est différent de celui de l’utilisateur ou de l’utilisatrice, attribuez-lui un score très faible afin qu’elle ne soit pas sélectionnée.
 
 +++
 

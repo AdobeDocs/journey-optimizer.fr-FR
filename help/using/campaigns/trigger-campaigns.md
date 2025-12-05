@@ -10,9 +10,9 @@ level: Intermediate
 keywords: campagne, vérification, validation, activation, activer, optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
 source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -45,24 +45,24 @@ Une fois votre campagne activée, vous devez récupérer l’exemple de requête
 
 ### Erreurs d’authentification Azure Cosmos DB (erreur de serveur interne 500) {#cosmosdb-auth-errors}
 
-Si vous rencontrez des erreurs de serveur internes **500** lors du déclenchement de campagnes déclenchées par l’API, et les journaux système affichent une erreur **403 Forbidden** de la base de données Azure Cosmos avec un message tel que :
+Si vous rencontrez des **erreurs de serveur interne 500** lors du déclenchement de campagnes déclenchées par API et que les journaux système affichent une erreur **403 Interdit** provenant d’Azure Cosmos avec un message tel que :
 
-_« L’accès à votre compte est actuellement révoqué, car le service de base de données Azure Cosmos ne parvient pas à obtenir le jeton d’authentification AAD pour l’identité par défaut du compte »_
+_« L’accès à votre compte est actuellement révoqué, car le service Azure Cosmos DB ne parvient pas à obtenir le jeton d’authentification AAD pour l’identité par défaut du compte »_
 
-Cette erreur se produit généralement lorsque le principal de service Azure requis pour l’authentification de la BD Cosmos a été désactivé, supprimé ou mal configuré.
+Cette erreur se produit généralement lorsque le principal de service Azure requis pour l’authentification de Cosmos DB a été désactivé, supprimé ou mal configuré.
 
-+++Comment résoudre ce problème
++++Résolution de ce problème
 
-1. **Vérifier votre principal de service Azure** - Assurez-vous que votre principal de service Azure ou votre identité gérée est activé et n’a pas été désactivé ou supprimé dans votre Azure Active Directory.
+1. **Vérifier votre principal de service Azure** : assurez-vous que votre principal de service Azure ou que votre identité gérée sont activés et n’ont pas été désactivés ou supprimés dans Azure Active Directory.
 
-1. **Vérifier les autorisations** - Vérifiez que le principal de service dispose des autorisations nécessaires pour accéder aux ressources Azure Key Vault et de la base de données Cosmos. Le principal de service doit avoir des affectations de rôle appropriées pour s’authentifier avec la base de données Azure Cosmos.
+1. **Vérifier les autorisations** : vérifiez que le principal de service dispose des autorisations nécessaires pour accéder aux ressources Azure Key Vault et Cosmos DB. Le principal de service doit disposer des affectations de rôle appropriées pour s’authentifier auprès d’Azure Cosmos DB.
 
-1. **Vérification de la configuration de la fonction CMK de la base de données Azure Cosmos** - Si vous utilisez des clés gérées par le client (CMK), consultez le [guide de dépannage de la fonction CMK de la base de données Azure Cosmos](https://learn.microsoft.com/en-us/azure/cosmos-db/cmk-troubleshooting-guide#azure-active-directory-token-acquisition-error){target="_blank"} pour obtenir des instructions détaillées sur la restauration de l’acquisition des jetons AAD.
+1. **Vérifier la configuration de la CMK d’Azure Cosmos DB** : si vous utilisez des clés gérées par le client ou la cliente (CMK), consultez le [guide de dépannage de la CMK d’Azure Cosmos DB](https://learn.microsoft.com/fr-fr/azure/cosmos-db/cmk-troubleshooting-guide#azure-active-directory-token-acquisition-error){target="_blank"} pour obtenir des instructions détaillées sur la restauration de l’acquisition des jetons AAD.
 
-1. **Réactiver et tester** - Après avoir corrigé la configuration, réactivez le principal de service s’il a été désactivé, puis testez à nouveau vos appels API de campagne transactionnelle pour confirmer que l’authentification réussit et que les messages sont diffusés.
+1. **Réactiver et tester** : après avoir corrigé la configuration, réactivez le principal de service s’il a été désactivé, puis testez à nouveau vos appels API de campagne transactionnelle pour confirmer que l’authentification réussit et que les messages sont bien diffusés.
 
 >[!NOTE]
 >
->Ce problème est généralement causé par une mauvaise configuration ou une désactivation accidentelle du principal de service Azure requis pour l’authentification de la base de données Cosmos. Si le principal de service reste activé et correctement configuré, cette erreur ne se reproduira plus.
+>Ce problème est généralement dû à une mauvaise configuration ou à une désactivation accidentelle du principal de service Azure requis pour l’authentification de Cosmos DB. Si le principal de service reste activé et correctement configuré, cette erreur ne se reproduira plus.
 
 +++

@@ -11,9 +11,9 @@ keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 96%
 >title="Activer pour la recherche"
 >abstract="Activer un jeu de données pour la recherche vous permet d’utiliser ses données avec les fonctionnalités de personnalisation, de prise de décision et d’orchestration de parcours de Journey Optimizer."
 
-[!DNL Journey Optimizer] vous permet d’exploiter les données de [!DNL Adobe Experience Platform] avec des fonctionnalités de personnalisation, de prise de décision et d’orchestration de parcours. Pour ce faire, les jeux de données basés sur des enregistrements nécessaires à la personnalisation de la recherche doivent d’abord être activés pour le service de recherche, comme décrit ci-dessous.
+[!DNL Journey Optimizer] vous permet d’utiliser les données d’[!DNL Adobe Experience Platform] avec les fonctionnalités de personnalisation, de prise de décision et d’orchestration de parcours. Pour ce faire, les jeux de données basés sur des enregistrements nécessaires à la personnalisation de la recherche doivent d’abord être activés pour le service de recherche, comme décrit ci-dessous.
 
-Découvrez comment accéder aux jeux de données et comment les utiliser dans cette section : [Prise en main des jeux de données](../data/get-started-datasets.md)
+Découvrez comment accéder aux jeux de données et comment les utiliser dans cette section : [Commencer avec les jeux de données](../data/get-started-datasets.md).
 
 ## À lire impérativement
 
@@ -122,7 +122,7 @@ Suivez les instructions détaillées dans [cette documentation](https://develope
 curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}" 
 ```
 
-Où ce qui suit est vrai :
+Où :
 
 * L’URL est `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`.
 * L’ID du jeu de données est le jeu de données que vous souhaitez activer.

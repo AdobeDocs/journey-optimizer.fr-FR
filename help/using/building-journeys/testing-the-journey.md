@@ -11,9 +11,9 @@ keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1881'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. Pour activer le mode test, cliquez sur le bouton **[!UICONTROL Mode test]** dans le coin supérieur droit de l’écran.
 
-   ![Bouton Mode test dans l’interface de parcours &#x200B;](assets/journeytest1.png)
+   ![Bouton Mode test dans l’interface de parcours](assets/journeytest1.png)
 
 1. Si le parcours comporte au moins une activité **Attente**, définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
 
@@ -87,7 +87,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Consultez [cette section](#viewing_logs).
 
-   ![Afficher le bouton de journal pour afficher les résultats du test](assets/journeyuctest2.png)
+   ![Bouton Afficher le journal pour afficher les résultats du test](assets/journeyuctest2.png)
 
 1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Une fois les tests terminés, vous pouvez publier votre parcours. Consultez [cette page](../building-journeys/publish-journey.md).
 
@@ -132,7 +132,7 @@ Un utilisateur ou une utilisatrice technique peut également utiliser cette inte
 
 Lorsque vous cliquez sur le bouton **[!UICONTROL Envoyer]**, le test commence. La progression de la personne dans le parcours est représentée par un flux visuel. Le chemin devient progressivement vert lorsque la personne se déplace sur le parcours. Si une erreur se produit, un symbole d’avertissement s’affiche à l’étape correspondante. Vous pouvez y placer le curseur pour afficher plus d’informations sur l’erreur et accéder à tous les détails (le cas échéant).
 
-Flux visuel de test de Parcours ![indiquant la progression du profil et les erreurs éventuelles](assets/journeytest6.png)
+![Flux visuel de test de parcours affichant la progression du profil et les éventuelles erreurs](assets/journeytest6.png)
 
 Lorsque vous sélectionnez un autre profil de test dans l’écran de configuration de l’événement et exécutez à nouveau le test, le flux visuel est effacé et affiche le chemin de la nouvelle personne.
 

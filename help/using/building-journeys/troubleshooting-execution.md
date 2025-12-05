@@ -11,9 +11,9 @@ keywords: dépannage, résolution des problèmes, parcours, vérification, erreu
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1260'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Pour résoudre votre problème, commencez par répondre aux questions suivantes�
 
 >[!NOTE]
 >
->**Pour les parcours de qualification d’audience avec audiences en flux continu** : si vous utilisez une activité Qualification d’audience comme point d’entrée par parcours, sachez que tous les profils qui remplissent les critères pour l’audience n’entreront pas nécessairement dans le parcours en raison de facteurs de minutage, de sorties rapides de l’audience ou si les profils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences de diffusion en continu](audience-qualification-events.md#streaming-entry-caveats).
+>**Pour les parcours de qualification d’audience avec audiences en streaming** : si vous utilisez une activité de qualification d’audience comme point d’entrée d’un parcours, gardez à l’esprit que tous les profils correspondant aux critères de cette audience ne rejoindront pas nécessairement le parcours, en raison de facteurs de délai, de sorties rapides de l’audience ou du fait qu’ils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences en streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Vérifier comment les gens naviguent dans le parcours {#checking-how-people-navigate-through-the-journey}
 
@@ -157,10 +157,10 @@ Pour plus d’informations sur l’interrogation des événements d’étape de 
 
 ## Résolution des problèmes liés aux incohérences des mesures du tableau de bord {#dashboard-metrics}
 
-Si les mesures affichées dans le tableau de bord **Présentation** ne correspondent pas au nombre réel de parcours dans l’onglet **Parcourir**, vérifiez les points suivants :
+Si les mesures affichées dans le tableau de bord **Vue d’ensemble** ne correspondent pas au nombre réel de parcours dans l’onglet **Parcourir**, vérifiez les points suivants :
 
-* Assurez-vous que les parcours en question ont eu du trafic au cours des dernières 24 heures, car les parcours sans activité récente sont exclus du tableau de bord.
+* Assurez-vous que les parcours en question ont eu du trafic au cours des dernières 24 heures, car les parcours sans activité récente sont exclus du tableau de bord.
 * Vérifiez que vous disposez des autorisations d’accès appropriées pour afficher tous les parcours de votre organisation.
-* Patientez jusqu’à 30 minutes pour que les mesures s’actualisent après avoir apporté des modifications à vos parcours.
+* Patientez jusqu’à 30 minutes pour que les mesures s’actualisent après avoir apporté des modifications à vos parcours.
 
-Si les incohérences persistent, contactez l’assistance Adobe avec des captures d’écran des onglets Aperçu et Parcourir pour en savoir plus.
+Si les incohérences persistent, contactez l’assistance Adobe avec des copies d’écran des onglets Vue d’ensemble et Parcourir pour en savoir plus.

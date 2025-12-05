@@ -11,9 +11,9 @@ keywords: parcours, limitation
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 * Il n’y a pas de limite d’envoi.
 * En cas d&#39;erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé.
-* L’événement **Réaction** intégré vous permet de réagir aux actions d’usine (voir cette [page](../building-journeys/reaction-events.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
+* L’événement **Réaction** intégré vous permet de réagir aux actions prêtes à l’emploi (voir cette [page](../building-journeys/reaction-events.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
 
 
@@ -51,7 +51,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 ## Limites des événements de réaction {#reaction-limitations}
 
-* Les activités **[!UICONTROL Réaction]** doivent être placées immédiatement après une activité [action de canal](../building-journeys/journeys-message.md) dans la zone de travail du parcours. Le placement d’une activité **[!UICONTROL Attente]** ou de toute autre activité entre l’action de canal et l’activité **[!UICONTROL Réaction]** n’est pas pris en charge et peut entraîner un dysfonctionnement de la réaction comme prévu. En savoir plus dans [cette section](../building-journeys/reaction-events.md).
+* Les activités **[!UICONTROL Réaction]** doivent être placées immédiatement après une activité [action de canal](../building-journeys/journeys-message.md) dans la zone de travail du parcours. Le placement d’une activité **[!UICONTROL Attente]** ou de toute autre activité entre l’action de canal et l’activité **[!UICONTROL Réaction]** n’est pas pris en charge et peut entraîner un dysfonctionnement de la réaction. En savoir plus dans [cette section](../building-journeys/reaction-events.md).
 
 ## Limites des sources de données {#data-sources-limitations}
 

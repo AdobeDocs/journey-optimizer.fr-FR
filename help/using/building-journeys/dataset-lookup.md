@@ -10,9 +10,9 @@ level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Recherche de jeu de données]** dans votre zone de travail.
 
-   ![Activité de recherche de jeu de données Adobe Experience Platform dans le parcours &#x200B;](assets/aep-data-activity.png)
+   ![Activité de recherche de jeu de données Adobe Experience Platform dans le parcours ](assets/aep-data-activity.png)
 
 1. Ajoutez un libellé et une description.
 

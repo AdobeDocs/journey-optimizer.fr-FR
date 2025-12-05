@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
 source-git-commit: 312c3a9b924876f6bfe88890b247629ea1706b3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2942'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -201,17 +201,17 @@ Cette incohérence peut se produire lorsque le parcours utilise l’instantané 
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
-Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=fr){target="_blank"}.
+Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Consultez également la [documentation de l’API Schedules d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/api/schedules){target="_blank"} pour savoir quand votre tâche quotidienne est planifiée.
 
 +++
 
-+++ Pourquoi le sélecteur d’audience affiche-t-il un nombre de profils différent dans les campagnes et les Parcours ?
++++ Pourquoi le sélecteur d’audience affiche-t-il un nombre de profils différent dans les campagnes et les parcours ?
 
-Vous remarquerez peut-être que la même audience affiche un nombre de profils différent dans les campagnes par rapport aux Parcours. Cela se produit, car chaque fonctionnalité utilise des API différentes pour récupérer les données d’audience, qui peuvent renvoyer des valeurs différentes.
+Vous remarquerez peut-être qu’une même audience affiche un nombre de profils différent dans les campagnes et les parcours. Cela se produit, car chaque fonctionnalité utilise des API différentes pour récupérer les données d’audience, qui peuvent renvoyer des valeurs différentes.
 
-Il s’agit d’un comportement attendu qui n’a aucune incidence sur l’exécution de votre campagne. Les profils corrects seront toujours ciblés. Pour vérifier la taille réelle de l’audience, accédez à **[!UICONTROL Client]** > **[!UICONTROL Audiences]** et sélectionnez votre audience.
+Il s’agit d’un comportement attendu qui n’a aucune incidence sur l’exécution de votre campagne. Les profils corrects seront toujours ciblés. Pour vérifier la taille réelle de l’audience, accédez à **[!UICONTROL Client ou cliente]** > **[!UICONTROL Audiences]** et sélectionnez votre audience.
 
 +++
 
@@ -250,15 +250,15 @@ Pour en savoir plus sur les fonctions de date, consultez [cette page](../buildin
 
 +++
 
-+++ Pourquoi les exclusions + diffusées dépassent-elles ma taille d’audience ciblée dans les rapports de campagne ?
++++ Pourquoi la somme Exclusions + Diffusés dépasse-t-elle ma taille d’audience ciblée dans les rapports de campagne ?
 
-Dans les rapports de campagne, vous remarquerez peut-être que la somme des **Diffusés** et **Exclusions** dépasse la taille de l’audience ciblée d’origine. Cela se produit, car la mesure **Exclusions** comptabilise tous les événements d’exclusion, y compris les événements d’exclusion en double pour le même profil. Si un profil est exclu plusieurs fois au cours d’une campagne, chaque événement est comptabilisé séparément.
+Dans les rapports de campagne, vous remarquerez peut-être que la somme des **Diffusés** et **Exclusions** dépasse la taille de l’audience ciblée d’origine. Cela se produit, car la mesure **Exclusions** comptabilise tous les événements d’exclusion, y compris les événements d’exclusion en double pour un même profil. Si un profil est exclu plusieurs fois au cours d’une campagne, chaque événement est comptabilisé séparément.
 
-**Exemple** : une campagne ciblant 94 000 profils affiche 69 000 profils diffusés et 37 000 exclusions, pour un total de 106 000, ce qui dépasse les 94 000 profils ciblés d’origine. Il s’agit d’un comportement attendu.
+**Exemple** : une campagne ciblant 94 000 profils affiche 69 000 diffusions et 37 000 exclusions, pour un total de 106 000, ce qui dépasse les 94 000 profils ciblés d’origine. C’est un comportement normal.
 
-Pour comprendre la différence entre les événements d’exclusion totale et les exclusions de profil uniques, reportez-vous à l’explication du [Comptage des exclusions](../reports/exclusion-list.md#exclusion-list).
+Pour comprendre la différence entre les événements d’exclusion totale et les exclusions de profil uniques, reportez-vous à l’[explication du comptage des exclusions](../reports/exclusion-list.md#exclusion-list).
 
-En savoir plus sur les [rapports de campagne](../reports/campaign-global-report-cja.md) et [mesures des rapports](../reports/global-report-components-cja.md).
+En savoir plus sur les [rapports de campagne](../reports/campaign-global-report-cja.md) et les [mesures de rapport](../reports/global-report-components-cja.md).
 
 +++
 

@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -93,8 +93,8 @@ Le débit de diffusion correspond au nombre de réponses de décision qui peuven
 | Modèle de classement AI | 5 |
 | Capping de la fréquence : nombre maximal de règles de limitation par offre | 10 |
 
-## Configurations  {#configurations}
+## Configurations {#configurations}
 
-Le nombre total de configurations prises en charge par Decision Management ne peut pas dépasser 20 000.
+Le nombre total de configurations prises en charge par la gestion des décisions ne peut pas dépasser 20 000.
 
-Le nombre total de configurations correspond au nombre total de [règles de limitation](offer-library/add-constraints.md#capping) qui existent dans votre sandbox. Pour chaque règle de limitation appliquée à tous les [emplacements](offer-library/creating-placements.md), la règle doit être multipliée à tous les emplacements associés à l’offre spécifiée.
+Le nombre total de configurations correspond au nombre total de [règles de limitation](offer-library/add-constraints.md#capping) qui existent dans votre sandbox. Pour chaque règle de limitation appliquée à tous les [emplacements](offer-library/creating-placements.md), la règle doit être multipliée par tous les emplacements associés à l’offre spécifiée.

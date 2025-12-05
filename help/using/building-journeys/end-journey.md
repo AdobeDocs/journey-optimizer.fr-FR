@@ -10,9 +10,9 @@ keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Lors de la création d’un parcours, une « balise de fin » s’affiche à l
 
 Si le parcours comporte plusieurs chemins, il est conseillé d’ajouter un libellé à chaque fin pour faciliter la lecture des rapports. En savoir plus sur les [rapports de parcours](../reports/live-report.md).
 
-![Bouton d’action Terminer le parcours dans la barre d’outils du parcours &#x200B;](assets/journey-end.png)
+![Bouton d’action Terminer le parcours dans la barre d’outils du parcours](assets/journey-end.png)
 
 ## Fermeture d’un parcours {#close-journey}
 
@@ -69,14 +69,14 @@ Le fait de fermer un parcours manuellement assure que les clients qui l’ont d�
 
 Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Fermer aux nouvelles entrées]**.
 
-![Liste déroulante Terminer l’action dans le menu des actions rapides pour terminer le parcours &#x200B;](assets/journey-finish-quick-action.png)
+![Liste déroulante Terminer l’action dans le menu des actions rapides pour terminer le parcours](assets/journey-finish-quick-action.png)
 
 Vous pouvez également réaliser les opérations suivantes :
 
 1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez fermer.
 1. En haut à droite, cliquez sur la flèche vers le bas.
 
-   ![Menu Options de fin affichant le parcours de fin et les actions alternatives](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![Menu des options de fin affichant terminer le parcours et les actions alternatives](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]** et confirmez dans la boîte de dialogue.
 
@@ -89,14 +89,14 @@ Si nécessaire, il est possible d’arrêter la progression de toutes les person
 
 Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
 
-![Liste déroulante Terminer l’action dans le menu des actions rapides pour terminer le parcours &#x200B;](assets/journey-finish-quick-action.png)
+![Liste déroulante Terminer l’action dans le menu des actions rapides pour terminer le parcours](assets/journey-finish-quick-action.png)
 
 Vous pouvez également réaliser les opérations suivantes :
 
 1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez arrêter.
 1. En haut à droite, cliquez sur la flèche vers le bas.
 
-   ![Options de finition supplémentaires, notamment fermeture du parcours et nettoyage](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![Options de fin supplémentaires, notamment fermeture du parcours et nettoyage](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Arrêter]** et confirmez dans la boîte de dialogue.
 

@@ -11,9 +11,9 @@ keywords: parcours, premier, commencer, démarrage rapide, audience, événement
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1475'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Représentation des parcours :
 
 Pour naviguer dans le calendrier des parcours :
 
-1. Pour accéder à la vue Calendrier, ouvrez la liste parcours et cliquez sur l’icône ![Calendrier pour passer à la vue Calendrier](assets/do-not-localize/timeline-icon.svg).
+1. Pour accéder à la vue de calendrier, ouvrez la liste des parcours et cliquez sur l’icône ![icône de calendrier](assets/do-not-localize/timeline-icon.svg).
 
 1. Utilisez les boutons fléchés ou le sélecteur de date au-dessus du calendrier pour passer d’une semaine à l’autre.
 
@@ -73,11 +73,11 @@ Pour naviguer dans le calendrier des parcours :
 
    ![vue de calendrier affichant les parcours actifs](assets/timeline-journeys.png)
 
-1. Cliquez sur l’icône ![Paramètres pour activer/désactiver l’affichage du parcours de plusieurs jours](assets/do-not-localize/Smock_Gears_18_N.png) pour activer ou désactiver l’affichage des éléments qui s’étendent sur plusieurs jours ou semaines.
+1. Cliquez sur l’![icône Paramètres pour basculer vers l’icône d’affichage d’un parcours de plusieurs jours](assets/do-not-localize/Smock_Gears_18_N.png) afin de basculer vers l’affichage des éléments qui s’étendent sur plusieurs jours ou semaines.
 
    ![vue de calendrier affichant les campagnes actives](assets/journey-calendar-1.png)
 
-1. Cliquez sur l&#39;icône ![Ajouter un calendrier externe](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pour gérer et ajouter jusqu&#39;à trois calendriers externes.
+1. Cliquez sur l’icône ![Ajouter un calendrier externe](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pour gérer et ajouter jusqu’à trois calendriers externes.
 
    ![vue calendrier affichant les calendriers externes](assets/journey-calendar-2.png)
 
@@ -120,7 +120,7 @@ Pour filtrer les parcours selon une période spécifique, sélectionnez **[!UICO
 
 Dans les volets de configuration des événements, des sources de données et des actions, le champ **[!UICONTROL Utilisé dans]** affiche également le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
 
-![Utilisé dans le champ indiquant le nombre de parcours utilisant un événement ou une action](assets/journey3bis.png)
+![Utilisé dans un champ indiquant le nombre de parcours à l’aide d’un événement ou d’une action](assets/journey3bis.png)
 
 ## Types de parcours {#journey-types}
 
@@ -166,7 +166,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 1. Saisissez le nom du parcours et confirmez. Vous pouvez également modifier le nom dans l’écran des propriétés du parcours. Par défaut, le nom est défini comme suit : `[JOURNEY-NAME]_copy`
 
-   Champ de saisie de nom de Parcours ![pour le parcours dupliqué](assets/duplicate-jo2.png)
+   ![Champ de saisie du nom du parcours pour un parcours dupliqué](assets/duplicate-jo2.png)
 
 1. Le nouveau parcours est créé et disponible dans la liste des parcours.
 

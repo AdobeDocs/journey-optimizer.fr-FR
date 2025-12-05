@@ -7,9 +7,9 @@ level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
 source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -70,8 +70,8 @@ La liste complète des mécanismes de sécurisation et limitations de [!DNL Jour
 | Modèle de classement AI | 5 |
 | Règles de fréquence : nombre maximal de règles de limitation par offre | 10 |
 
-## Configurations  {#configurations}
+## Configurations {#configurations}
 
-Le nombre total de configurations prises en charge par Decisioning ne peut pas dépasser 20 000.
+Le nombre total de configurations acceptées par prise de décision ne peut pas dépasser 20 000.
 
 Le nombre total de configurations correspond au nombre total de [règles de limitation](items.md#capping) qui existent dans votre sandbox.

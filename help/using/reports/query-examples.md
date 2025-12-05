@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2598'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Découvrez comment [dépanner les types d’événements rejetés dans journey_s
 
 +++Règle ayant empêché un profil de rejoindre un parcours donné
 
-Cette requête renvoie les informations sur l’ensemble de règles et les règles rejetées lorsqu’un profil ne peut pas entrer dans un parcours en raison des règles de limitation ou d’éligibilité.
+Cette requête renvoie les informations sur l’ensemble de règles et les règles rejetées lorsqu’un profil ne peut pas rejoindre un parcours en raison des règles de limitation ou d’éligibilité.
 
 _Exemple_
 
@@ -106,7 +106,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++Nombre d’événements rejetés d’un parcours spécifique pendant une certaine période
 
-Cette requête compte le nombre total d’événements qui ont été ignorés d’un parcours. Il filtre divers codes d’événement d’ignorance, y compris les erreurs de tâche d’exportation de segments, les abandons du Dispatcher et les abandons de machine d’état.
+Cette requête compte le nombre total d’événements qui ont été supprimés d’un parcours. Elle filtre divers codes d’événement de rejet, y compris les erreurs de traitement d’export de segments, les rejets du Dispatcher et les rejets de machine d’état.
 
 _Requête du lac de données_
 
@@ -286,7 +286,7 @@ WHERE
 
 +++Vérification des détails d’un événement serviceEvent 
 
-Le jeu de données Événements de l’étape du parcours contient tous les événements stepEvents et serviceEvents. Les événements stepEvents sont utilisés dans les rapports, dans la mesure où ils se rapportent aux activités (événement, actions, etc.) des profils d’un parcours. Les événements serviceEvents sont stockés dans le même jeu de données et indiquent des informations supplémentaires à des fins de débogage, comme la raison de l’abandon d’un événement d’expérience.
+Le jeu de données Événements de l’étape du parcours contient tous les événements stepEvents et serviceEvents. Les événements stepEvents sont utilisés dans les rapports, dans la mesure où ils se rapportent aux activités (événement, actions, etc.) des profils d’un parcours. Les événements serviceEvents sont stockés dans le même jeu de données et indiquent des informations supplémentaires à des fins de débogage, comme la raison du rejet d’un événement d’expérience.
 
 Voici un exemple de requête permettant de vérifier le détail d’un événement serviceEvent :
 
@@ -416,7 +416,7 @@ La requête renvoie la liste de tous les messages ainsi que leur nombre appelés
 
 +++Rechercher tous les messages reçus par un profil au cours des 30 derniers jours
 
-Cette requête récupère toutes les actions de message exécutées avec succès pour un profil spécifique au cours des 30 derniers jours, regroupées par nom de message.
+Cette requête récupère toutes les actions de message exécutées avec succès pour un profil spécifique au cours des 30 derniers jours, regroupées par nom de message.
 
 _Requête du lac de données_
 
@@ -446,7 +446,7 @@ La requête renvoie la liste de tous les messages ainsi que leur nombre appelés
 
 +++Rechercher tous les parcours qu’un profil a rejoint au cours des 30 derniers jours
 
-Cette requête renvoie tous les parcours qu’un profil spécifique a saisis au cours des 30 derniers jours, ainsi que le nombre d’entrées pour chaque parcours.
+Cette requête renvoie tous les parcours rejoints par un profil spécifique au cours des 30 derniers jours, ainsi que le nombre d’entrées pour chaque parcours.
 
 _Requête du lac de données_
 
@@ -474,7 +474,7 @@ La requête renvoie la liste de tous les noms de parcours ainsi que le nombre de
 
 +++Nombre de profils qualifiés pour un parcours par jour
 
-Cette requête fournit une répartition quotidienne du nombre de profils distincts entrés dans un parcours sur une période spécifiée.
+Cette requête fournit une répartition quotidienne du nombre de profils distincts ayant rejoint un parcours dans une période spécifiée.
 
 _Requête du lac de données_
 
@@ -507,7 +507,7 @@ Découvrez comment [dépanner les types d’événements rejetés dans journey_s
 
 +++Temps nécessaire pour terminer un traitement d’export d’audiences
 
-Cette requête calcule la durée d’une tâche d’exportation d’audience en recherchant la différence de temps entre le moment où la tâche a été mise en file d’attente et celui où elle s’est terminée.
+Cette requête calcule la durée d’un traitement d’export d’audience en recherchant la différence de temps entre le moment où le traitement a été mis en file d’attente et celui où il s’est terminé.
 
 _Requête du lac de données_
 
@@ -541,7 +541,7 @@ La requête renvoie la différence de temps, en minutes, entre le moment où le 
 
 +++
 
-+++Nombre de profils qui ont été ignorés par le parcours, car il s’agissait de doublons
++++Nombre de profils qui ont été ignorés par le parcours, car il s’agissait de doublons.
 
 Cette requête comptabilise le nombre de profils distincts qui ont été ignorés en raison d’erreurs de duplication des instances lors de l’activité Lecture d’audience.
 
@@ -621,7 +621,7 @@ La requête renvoie tous les identifiants de profil qui ont été ignorés par l
 
 +++Nombre de profils qui ont été ignorés par le parcours, car celui-ci se trouvait dans le nœud de test et que le profil n&#39;était pas un profil de test
 
-Cette requête identifie les profils qui ont été ignorés lorsque le parcours était en cours d&#39;exécution en mode test, mais pour le profil, l&#39;attribut testProfile n&#39;était pas défini sur true.
+Cette requête identifie les profils qui ont été ignorés lorsque le parcours était en cours d’exécution en mode test, mais dont l’attribut testProfile n’était pas défini sur vrai.
 
 _Requête du lac de données_
 
@@ -641,11 +641,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car la tâche d&#39;exportation a été exécutée en mode test, mais le profil n&#39;a pas défini l&#39;attribut testProfile sur true.
+La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car le traitement d’export a été exécuté en mode test, mais l’attribut testProfile des profils n’était pas défini sur vrai.
 
 +++
 
-+++Nombre de profils qui ont été ignorés par le parcours en raison d&#39;une erreur interne
++++Nombre de profils qui ont été ignorés par le parcours en raison d’une erreur interne
 
 Cette requête renvoie le nombre de profils qui ont été ignorés en raison d’erreurs système internes lors de l’exécution du parcours.
 
@@ -673,7 +673,7 @@ La requête renvoie tous les identifiants de profil qui ont été ignorés par l
 
 +++Vue d’ensemble de la lecture d’audience pour une version de parcours donnée
 
-Cette requête fournit une vue d’ensemble complète de l’activité Lecture d’audience, y compris les détails de la tâche d’exportation de segments, les codes d’événement, les statuts et le nombre de profils pour toutes les étapes du processus d’exportation d’audience.
+Cette requête fournit une vue d’ensemble complète de l’activité Lecture d’audience, y compris les détails du traitement d’export de segments, les codes d’événement, les statuts et le nombre de profils pour toutes les étapes du processus d’export d’audience.
 
 _Requête du lac de données_
 
@@ -709,14 +709,14 @@ Nous pouvons également détecter des problèmes tels que :
 IMPORTANT : si aucun événement n&#39;est renvoyé par cette requête, cela peut être dû à l&#39;une des raisons suivantes :
 
 * la version du parcours n&#39;a pas atteint le planning
-* si la version du parcours est censée déclencher la tâche d’exportation en appelant l’orchestrateur, un problème est survenu dans le flux en amont : problème sur le déploiement du parcours, événement métier ou problème avec le planificateur.
+* si la version de parcours est censée avoir déclenché le traitement d’export en appelant l’orchestrateur, un problème s’est produit dans le flux en amont : problème lors du déploiement de parcours, événement métier ou problème lié au planificateur.
 
 +++
 
 
 +++Obtention des erreurs de lecture d’audience pour une version de parcours donnée
 
-Cette requête filtre les codes d’événement d’erreur spécifiques liés aux échecs de lecture d’audience, tels que les erreurs de création de rubrique, les erreurs d’appel API, les dépassements de délai et les tâches d’exportation ayant échoué.
+Cette requête filtre les codes d’événement d’erreur spécifiques liés aux échecs de lecture d’audience, tels que les erreurs de création de rubrique, les erreurs d’appel API, les temporisations et les traitements d’export ayant échoué.
 
 _Requête du lac de données_
 
@@ -746,7 +746,7 @@ WHERE
 
 +++Obtention de l&#39;état du traitement des tâches d&#39;exportation
 
-Cette requête récupère le statut du traitement des tâches d’exportation d’audience, indiquant si elles ont réussi ou échoué avec les mesures d’exportation de profil.
+Cette requête récupère le statut des traitements d’export d’audience, indiquant s’ils ont réussi ou échoué avec les mesures d’export de profils.
 
 _Requête du lac de données_
 
@@ -772,14 +772,14 @@ WHERE
 
 Si aucun enregistrement n&#39;est renvoyé, cela signifie que :
 
-* une erreur s&#39;est produite lors de la création de la rubrique ou de la tâche d&#39;exportation
+* une erreur s’est produite lors de la création d’un traitement d’export ou rubrique
 * la tâche d’export est toujours en cours d’exécution
 
 +++
 
 +++Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de tâches d’export pour chaque tâche d’export
 
-Cette requête combine le nombre de profils ignorés avec les mesures de tâche d&#39;exportation afin de fournir une vue complète des performances d&#39;exportation d&#39;audience pour chaque tâche d&#39;exportation individuelle.
+Cette requête combine le nombre de profils ignorés avec les mesures de traitement d’export afin de fournir une vue complète des performances d’export d’audience pour chaque traitement d’export.
 
 _Requête du lac de données_
 
@@ -843,7 +843,7 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 
 +++Obtention de mesures agrégées (traitements d’export d’audiences et abandons) sur tous les traitements d’export
 
-Cette requête agrège les mesures globales de toutes les tâches d’exportation pour une version de parcours donnée. Cette requête est utile pour les parcours récurrents ou les parcours déclenchés par un événement métier avec réutilisation de rubrique.
+Cette requête agrège les mesures globales de tous les traitements d’export pour une version de parcours donnée. Cette requête est utile pour les parcours récurrents ou les parcours déclenchés par un événement métier avec réutilisation de rubrique.
 
 _Requête du lac de données_
 
@@ -912,7 +912,7 @@ Elle renvoie les mesures globales d&#39;une version de parcours donnée, quelles
 
 +++Profil rejeté en raison d’une réalisation d’audience différente de celle configurée
 
-Cette requête identifie les profils qui ont été ignorés, car leur statut de réalisation de l’audience ne correspondait pas à la configuration Qualification de l’audience du parcours (par exemple, configuré pour « enters », mais profil « sorti »).
+Cette requête identifie les profils qui ont été ignorés, car leur statut de réalisation de l’audience ne correspondait pas à la configuration de la qualification d’audience du parcours (par exemple, configuré pour « rejoint », mais profil « sorti »).
 
 _Requête du lac de données_
 
@@ -972,7 +972,7 @@ Cette requête renvoie tous les événements (événements externes/événements
 
 +++Vérifier si un événement métier a été reçu pour un parcours
 
-Cette requête comptabilise le nombre de fois qu&#39;un événement métier a été reçu par un parcours, regroupé par date, au cours d&#39;une période spécifiée.
+Cette requête comptabilise le nombre de fois qu’un événement métier a été reçu par un parcours, regroupé par date, au cours d’une période spécifiée.
 
 _Requête du lac de données_
 
@@ -1002,7 +1002,7 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++Vérifier si l’événement externe d’un profil a été rejeté, car aucun parcours associé n’a été trouvé
 
-Cette requête identifie le moment où un événement externe pour un profil spécifique a été ignoré, car aucun parcours actif ou correspondant n&#39;était configuré pour recevoir cet événement.
+Cette requête identifie le moment où un événement externe pour un profil spécifique a été ignoré, car aucun parcours actif ou correspondant n’était configuré pour recevoir cet événement.
 
 _Requête du lac de données_
 
@@ -1088,7 +1088,7 @@ Découvrez comment [dépanner les types d’événements rejetés dans journey_s
 
 +++Vérifier tous les événements rejetés, car une nouvelle entrée n’était pas autorisée
 
-Cette requête identifie tous les événements qui ont été ignorés car un profil a tenté de rejoindre à nouveau un parcours alors qu’une nouvelle entrée n’était pas autorisée dans la configuration du parcours.
+Cette requête identifie tous les événements qui ont été ignorés, car un profil a tenté de rejoindre à nouveau un parcours alors qu’une nouvelle entrée n’était pas autorisée dans la configuration du parcours.
 
 _Requête du lac de données_
 
@@ -1120,7 +1120,7 @@ Découvrez comment [dépanner les types d’événements rejetés dans journey_s
 
 +++Nombre de parcours actifs quotidiens
 
-Cette requête renvoie un nombre quotidien de versions de parcours uniques qui avaient une activité, ce qui vous aide à comprendre les modèles d’exécution de parcours au fil du temps.
+Cette requête renvoie un nombre quotidien de versions de parcours uniques qui avaient une activité, ce qui vous permet de comprendre les modèles d’exécution de parcours au fil du temps.
 
 _Requête du lac de données_
 
@@ -1301,7 +1301,7 @@ ORDER BY
 
 +++Nombre de profils qui ont quitté le parcours au cours de la période spécifique
 
-Cette requête comptabilise les instances de parcours qui se sont fermées au cours d’une période spécifiée, y compris les sorties dues à des erreurs de fin, des erreurs, des dépassements de délai ou des erreurs de limitation.
+Cette requête comptabilise les instances de parcours qui se sont fermées au cours d’une période spécifiée, y compris les sorties dues à des achèvements, des erreurs, des temporisations ou des erreurs de limitation.
 
 _Requête du lac de données_
 
@@ -1391,7 +1391,7 @@ ORDER BY
 
 +++ Nombre total d’appels réussis, d’erreurs et de requêtes pour chaque seconde de chaque point d’entrée sur une période spécifique
 
-Cette requête fournit des mesures de performances pour les actions HTTP personnalisées, notamment le nombre total d’appels, les appels réussis, le nombre d’erreurs par type (4xx, 5xx, les délais d’expiration, limités) et le débit en requêtes par seconde pour chaque point d’entrée.
+Cette requête fournit des mesures de performances pour les actions HTTP personnalisées, notamment le nombre total d’appels, les appels réussis, le nombre d’erreurs par type (4xx, 5xx, temporisations, limitations) et le débit en requêtes par seconde pour chaque point d’entrée.
 
 _Requête du lac de données_
 
@@ -1521,7 +1521,7 @@ ORDER BY
 
 +++Latence de réponse de chaque point d’entrée aux 50e, 95e, 99e et 99,9e percentiles sur une période spécifique
 
-Cette requête calcule les centiles du temps de réponse pour les points d’entrée d’action personnalisés, ce qui vous aide à comprendre la distribution de la latence et à identifier les valeurs aberrantes de performance à différents seuils de centile.
+Cette requête calcule les centiles du temps de réponse pour les points d’entrée d’action personnalisés, ce qui vous permet de comprendre la distribution de la latence et d’identifier les valeurs aberrantes de performance à différents seuils de centile.
 
 _Requête du lac de données_
 
@@ -1635,7 +1635,7 @@ ORDER BY
 
 +++ Temps d’attente en file d’attente sur des points d’entrée encombrés aux 50e et 95e percentiles sur une période spécifique
 
-Cette requête analyse les temps d’attente dans la file d’attente pour les points d’entrée limités, en affichant les temps d’attente des 50e et 95e centiles pour vous aider à comprendre l’impact de la limitation sur vos actions personnalisées.
+Cette requête analyse les temps d’attente dans la file d’attente pour les points d’entrée limités, en affichant les temps d’attente des 50e et 95e centiles pour vous permettre de comprendre l’impact de la limitation sur vos actions personnalisées.
 
 _Requête du lac de données_
 

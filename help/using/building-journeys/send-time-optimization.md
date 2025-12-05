@@ -11,9 +11,9 @@ keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intellige
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1546'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ L’optimisation de l’heure d’envoi n’est disponible que pour les types d�
 
 Utilisez l’optimisation de l’heure d’envoi sur une action e-mail ou push en activant le bouton bascule Optimisation de l’heure d’envoi dans les paramètres d’action.
 
-![Bouton Optimisation de l’heure d’envoi dans la configuration du canal e-mail](assets/jo-message5.png)
+![Bouton bascule Optimisation de l’heure d’envoi dans la configuration du canal E-mail](assets/jo-message5.png)
 
 L’optimisation de l’heure d’envoi ne doit pas être utilisée pour les messages opérationnels urgents et sensibles au facteur temps, comme une confirmation de commande, une notification de réinitialisation de mot de passe ou une notification de changement de porte d’embarquement. L’optimisation de l’heure d’envoi est davantage destinée aux communications marketing moins urgentes, par exemple, une annonce publicitaire hebdomadaire, des informations promotionnelles sur un nouveau produit ou des informations sur une vente d’un mois.
 
@@ -84,7 +84,7 @@ Ces prédictions sont pondérées et combinées à l’aide d’une approche bay
 
 Si une personne ayant les probabilités prédites ci-dessus est ciblée pour un message à 9 h mercredi avec l’optimisation de l’heure d’envoi activée et une durée d’attente maximale de 7 heures, l’heure d’envoi sélectionnée pour le message sera 12 h :
 
-![Carte thermique de l’engagement avec des données d’optimisation détaillées heure par heure](assets/heatmap-2.png)
+![Carte thermique de l’engagement avec données d’optimisation détaillées heure par heure](assets/heatmap-2.png)
 
 ## Détails de l’entraînement et de la notation du modèle d’optimisation de l’heure d’envoi  {#model-send-time}
 

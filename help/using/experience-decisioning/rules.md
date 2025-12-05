@@ -8,9 +8,9 @@ level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
 source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '958'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -135,6 +135,6 @@ Pour créer une règle, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
-Découvrez comment créer, dupliquer et appliquer des **règles de ciblage** réutilisables dans Adobe Journey Optimizer afin de personnaliser efficacement les campagnes en fonction des attributs du client, tels que la région, la langue et le comportement, ce qui vous permet de gagner du temps tout en améliorant la précision de l’audience.
+Découvrez comment créer, dupliquer et appliquer des **règles de ciblage** réutilisables dans Adobe Journey Optimizer afin de personnaliser efficacement les campagnes en fonction des attributs de la clientèle, tels que la zone géographique, la langue et le comportement. Gagnez du temps tout en améliorant la précision de l’audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476129/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

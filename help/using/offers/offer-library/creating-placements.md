@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ La liste des emplacements est accessible dans le menu **[!UICONTROL Composants]*
 
 ![](../assets/placements_filter.png)
 
-Pour créer une emplacement, procédez comme suit :
+Pour créer un emplacement, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Créer un emplacement]**.
 
@@ -89,5 +89,5 @@ Pour créer une emplacement, procédez comme suit :
 
 Découvrez comment créer des emplacements pour la gestion des décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/341382?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

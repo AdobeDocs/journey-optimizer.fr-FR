@@ -11,9 +11,9 @@ keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte 
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour ajouter une action de canal intégrée à votre parcours, faites glisser et
 
 ## Ajout d’un message dans un parcours  {#add-msg-in-journey}
 
-Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Pour plus d’informations sur les canaux disponibles dans les parcours, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
+Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Pour plus d’informations sur les canaux disponibles dans les parcours, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
 
 Pour ajouter une action de canal intégrée à un parcours, procédez comme suit :
 
@@ -42,7 +42,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 1. Dans la section **Actions** de la palette, faites glisser et déposez une activité de canal dans la zone de travail.
 
-   ![Activité d’action de canal web dans la zone de travail du parcours &#x200B;](assets/journey-web-activity.png)
+   ![Activité d’action de canal web dans la zone de travail du parcours](assets/journey-web-activity.png)
 
 1. Vous pouvez également sélectionner l’activité **[!UICONTROL Action]**, qui permet de sélectionner plusieurs actions entrantes. [En savoir plus](journey-action.md)
 

@@ -8,9 +8,9 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 * **[Configurer des catalogues de décisions](catalogs.md)** - Découvrez comment organiser les éléments de décision en catalogues pour une meilleure gestion.
 * **[Définir des stratégies de sélection](selection-strategies.md)** - Découvrez comment créer des stratégies de sélection avec des règles d’éligibilité et des méthodes de classement.
 * **[Créer des politiques de décision](create-decision-policy.md)** - Découvrez comment créer des politiques de décision combinant des stratégies et des contraintes.
-* **[Modèles de classement et d’IA](ranking/ranking.md)** - Formules de classement des Principal et modèles d’IA pour une prise de décision personnalisée.
+* **[Classement et modèles d’IA](ranking/ranking.md)** - Maîtrisez les formules de classement et les modèles d’IA pour une prise de décision personnalisée.
 * **[Mécanismes de sécurisation de prise de décision](decisioning-guardrails.md)** - Examinez les limites importantes et les bonnes pratiques pour la mise en œuvre de la prise de décision.
 * **[Tutoriels sur la prise de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur les fonctionnalités de prise de décision et les bonnes pratiques.
 

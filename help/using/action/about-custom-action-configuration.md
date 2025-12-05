@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1974'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -81,9 +81,9 @@ Un plafond de 300 000 appels sur une minute est défini pour toutes les actio
 
 >[!NOTE]
 >
->La limite de 300 000 appels par minute est appliquée en tant que **fenêtre glissante** par sandbox et par point d’entrée pour les points d’entrée dont les temps de réponse sont inférieurs à 0,75 seconde. La fenêtre glissante peut commencer à n’importe quelle milliseconde, ce qui signifie que des erreurs de limitation peuvent se produire même si le débit apparaît en dessous de 300 000/min lorsqu’il est aligné sur les minutes d’horloge. Pour les points d’entrée dont le temps de réponse est supérieur à 0,75 seconde, une limite distincte de 150 000 appels par 30 secondes (également une fenêtre glissante) s’applique. En savoir plus sur les points d’entrée lents sur [cette page](../configuration/external-systems.md#response-time).
+>La limite de 300 000 appels par minute est appliquée sous forme de **fenêtre glissante** par sandbox et par point d’entrée pour les points d’entrée dont les temps de réponse sont inférieurs à 0,75 seconde. La fenêtre glissante peut commencer à n’importe quelle milliseconde, ce qui signifie que des erreurs de limitation peuvent se produire même si le taux semble inférieur à 300 000/min lorsqu’il est aligné sur les minutes d’horloge. Pour les points d’entrée dont le temps de réponse est supérieur à 0,75 seconde, une limite distincte de 150 000 appels par 30 secondes (également une fenêtre glissante) s’applique. Pour en savoir plus sur les points d’entrée lents, consultez [cette page](../configuration/external-systems.md#response-time).
 
-La limite par défaut de 300 000 appels par minute s’applique au niveau du domaine (c’est-à-dire example.com). Si vous avez besoin d’une limite supérieure, consultez les preuves d’utilisation du support Adobe et confirmez le débit de votre point d’entrée. Pour demander une augmentation de la limitation, fournissez des détails sur le volume d’appels et la capacité du point d’entrée attendus. Adobe peut personnaliser la limitation si le test de capacité démontre que le point d’entrée peut gérer un débit plus élevé. Pour connaître les bonnes pratiques, envisagez de restructurer les parcours ou de mettre en œuvre des activités d’attente pour échelonner les appels sortants et éviter les erreurs de limitation.
+La limite par défaut de 300 000 appels par minute s’applique au niveau du domaine (c’est-à-dire exemple.com). Si vous avez besoin d’une limite supérieure, contactez l’assistance Adobe en fournissant des preuves d’utilisation, et confirmez le débit de votre point d’entrée. Pour demander une augmentation de la limite, fournissez des détails sur le volume d’appels prévu et la capacité du point d’entrée. Adobe peut personnaliser la limitation si le test de capacité montre que le point d’entrée peut gérer un débit plus élevé. Pour connaître les bonnes pratiques, envisagez de restructurer les parcours ou de mettre en œuvre des activités d’attente pour échelonner les appels sortants et éviter les erreurs de limitation.
 
 Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 

@@ -11,9 +11,9 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1983'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -81,10 +81,10 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++ _experience > decisioning > characteristics
 
-**Champ :** caractéristiques
-**Titre :** Caractéristiques De L’Option De Décision
-**Description :** caractéristiques sont des attributs ou des propriétés supplémentaires des offres appartenant à une option de décision particulière. Ces attributs sont des paires clé-valeur, ce qui signifie qu’ils incluent un nom d’attribut (parfois appelé clé) auquel une valeur est associée, et sont utilisés pour distinguer une option de décision des autres offres. Par exemple, pour un nom d’attribut « color », la valeur peut être « green » pour une offre spécifique.
-Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d’une offre. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l&#39;option de décision.
+**Champ :** caractéristiques 
+**Titre :** caractéristiques de l’option de décision
+**Description :** les caractéristiques sont des propriétés ou attributs supplémentaires d’offres qui appartiennent à cette option de décision spécifique. Ces attributs sont des paires clé-valeur, ce qui signifie qu’ils incluent un nom d’attribut (parfois appelé clé) auquel une valeur est associée, et sont utilisés pour distinguer une option de décision des autres offres. Par exemple, pour un nom d’attribut « couleur », la valeur peut être « vert » pour une offre spécifique.
+Les caractéristiques sont utilisées en tant que valeurs dans le contenu qui représente cette option de décision et en tant que fonctionnalités pour analyser et optimiser les performances d’une offre. Lorsque toutes les instances possèdent le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d’extension dérivé des détails de l’option de décision.
 **Type :** objet
 
 +++
@@ -183,7 +183,7 @@ Les caractéristiques sont utilisées comme valeurs dans le contenu qui représe
   **Champ :** linkURL
   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
   **Type :** chaîne
-  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
 
@@ -234,7 +234,7 @@ Les caractéristiques sont utilisées comme valeurs dans le contenu qui représe
 +++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **Champ :** eligibilityRule
-**Titre :**&#x200B;règle d&#39;éligibilité
+**Titre :**règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 

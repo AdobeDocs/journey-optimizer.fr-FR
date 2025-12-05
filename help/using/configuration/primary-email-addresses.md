@@ -10,9 +10,9 @@ level: Intermediate
 keywords: principal, exécution, e-mail, cible, profil, optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adre
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="Définir une valeur personnalisée"
->abstract="Dans certains cas spécifiques, vous pouvez remplacer la valeur du champ d’exécution par défaut. Utilisez l’icône **Activer le remplacement du paramètre** à droite de ce champ pour définir une adresse e-mail ou un numéro de téléphone personnalisé à prioriser pour l’envoi."
+>abstract="Dans certains cas particuliers, vous pouvez remplacer la valeur de champ d’exécution par défaut. Utilisez l’icône **Activer le remplacement du paramètre** à droite de ce champ pour définir une adresse e-mail ou un numéro de téléphone personnalisé à prioriser pour l’envoi."
 
 Pour des cas d’utilisation spécifiques, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau du parcours.
 
@@ -90,7 +90,7 @@ Pour remplacer cette valeur, cliquez sur l’icône **[!UICONTROL Activer le rem
 
 >[!CAUTION]
 >
->Le remplacement de l’adresse e-mail ou du numéro de téléphone ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de la modifier, car la valeur définie comme champ principal dans le **[!UICONTROL Champs d’exécution]** au niveau du sandbox est celle qui doit être utilisée. [En savoir plus](#change-primary-email)
+>Le remplacement de l’adresse e-mail ou du numéro de téléphone ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire d’apporter des modifications, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d’exécution]** au niveau du sandbox est celle qui doit être utilisée. [En savoir plus](#change-primary-email)
 
 ## Remplacer le champ d’exécution par défaut dans la configuration des canaux {#override-execution-address-channel-config}
 
