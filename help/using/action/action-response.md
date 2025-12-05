@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
-workflow-type: ht
-source-wordcount: '713'
-ht-degree: 100%
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 94%
 
 ---
 
@@ -214,34 +214,9 @@ currentActionField.description == "abc"
 
 ### Utiliser des réponses d’action personnalisée dans les canaux natifs {#response-in-channels}
 
-Vous pouvez effectuer une itération sur des tableaux imbriqués à partir d’une réponse d’action personnalisée dans des canaux natifs (tels que les e-mails, les notifications push ou les SMS) à l’aide de la syntaxe de handlebars. Cela s’avère utile lorsque vous devez personnaliser le contenu du message avec des données dynamiques provenant de systèmes externes.
+Les champs de payload de réponse des actions personnalisées peuvent être utilisés dans les canaux natifs (e-mail, notification push ou SMS) à des fins de personnalisation des messages. Cela inclut la possibilité d’effectuer une itération sur des tableaux et des structures de données imbriquées renvoyés par des API externes.
 
-Par exemple, si votre action personnalisée renvoie la réponse suivante d’un système externe :
-
-```json
-{    
-    "id": "84632848268632",    
-    "responses": [
-        { "productIDs": [1111,2222,3333] },
-        { "productIDs": [4444,5555,6666] },
-        { "productIDs": [7777,8888,9999] }
-    ]
-}
-```
-
-Vous pouvez effectuer une itération sur le tableau `responses` et les tableaux `productIDs` imbriqués dans un canal natif (par exemple dans un e-mail) comme suit :
-
-```handlebars
-{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
-
-  {{#each res.productIDs as |productID|}}
-    <li>{{productID}}</li>
-  {{/each}}
-
-{{/each}}
-```
-
-Remplacez `<yourcustomaction>` par le nom réel de votre action personnalisée, tel qu’il est configuré dans le parcours.
+<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/personalization-contexts.md#custom-action-responses).-->
 
 ## Ressources supplémentaires
 

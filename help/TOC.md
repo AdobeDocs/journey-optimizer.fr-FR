@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 7ab576435c2605167ad1dd463ae5e7d5dc71c13c
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2992'
 ht-degree: 99%
 
 ---
@@ -403,6 +403,7 @@ ht-degree: 99%
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
       + [Utiliser des données Adobe Experience Platform à des fins de personnalisation](using/personalization/aep-data-perso.md)
+      + [Itérer sur les données contextuelles](using/personalization/personalization-contexts.md)
       + Liste des fonctions d’assistance {#functions}
          + [Liste des fonctions d’assistance](/help/rp_landing_pages/functions-landing-page.md)
          + [Commencer avec les fonctions d’assistance](using/personalization/functions/functions.md)
@@ -916,7 +917,7 @@ ht-degree: 99%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
