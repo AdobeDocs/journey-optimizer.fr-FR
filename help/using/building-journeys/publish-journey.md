@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -38,7 +38,7 @@ Les étapes de publication d’un parcours sont présentées en détail ci-desso
    >
    > Si votre parcours est soumis à une politique d’approbation, vous devez effectuer une demande d’approbation afin de pouvoir le publier. [En savoir plus](../test-approve/gs-approval.md)
 
-   ![Bouton Publier dans la barre d’outils du parcours pour activer le parcours &#x200B;](assets/journeyuc1_18.png)
+   ![Bouton Publier dans la barre d’outils du parcours pour activer le parcours](assets/journeyuc1_18.png)
 
 Une fois le parcours publié, il est en **lecture seule**. En lecture seule, vous ne pouvez modifier que les libellés et les descriptions des activités, ainsi que le nom et la description du parcours. Si vous devez apporter des modifications à un parcours publié, créez [une nouvelle version](journey-ui.md#journey-filter) de votre parcours.
 
@@ -54,7 +54,7 @@ Si vous arrêtez un parcours, l’arrêt est définitif. Toutes les personnes pr
 
 Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l&#39;interface d&#39;édition des parcours, au-dessus de la zone de travail.
 
-![liste des versions de Parcours affichant les versions publiées et les brouillons](assets/journeyversions1.png)
+![Liste des versions de parcours affichant les versions publiées et les brouillons](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Si vous devez apporter des modifications à un parcours publié, vous devez en c
 
 1. Ouvrez la dernière version de votre parcours actif, puis cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
-   ![Boîte de dialogue Créer une version pour dupliquer le parcours &#x200B;](assets/journeyversions2.png)
+   ![Boîte de dialogue Créer une version pour dupliquer le parcours](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -90,4 +90,4 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 Découvrez comment publier un parcours dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3427934?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

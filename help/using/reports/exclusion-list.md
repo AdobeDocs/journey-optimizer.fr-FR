@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Liste d’exclusions
-description: En savoir plus sur les exclusions survenant lors de l’envoi
+description: En savoir plus sur les exclusions lors de l’envoi
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,32 +11,32 @@ exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
 source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 77%
+ht-degree: 93%
 
 ---
 
 # Causes d’exclusion {#exclusion-list}
 
-## Comptage des exclusions dans les rapports de campagne
+## Comptabilisation des exclusions dans les rapports de campagne
 
-Lors de l&#39;affichage des rapports de campagne, la mesure *Exclusions* est calculée comme suit :
+Lors de l’affichage des rapports de campagne, la mesure *Exclusions* est calculée comme suit :
 
-**Exclusions = exclusions uniques + événements d’exclusion de doublon**
+**Exclusions = exclusions uniques + événements d’exclusion en double**
 
-Cela signifie que si un profil est exclu plusieurs fois (par exemple, en raison de plusieurs événements d’exclusion pour le même profil), chaque événement est comptabilisé dans le total des exclusions. Par conséquent, la somme des *Diffusés* et *Exclusions* peut dépasser la taille de l’audience ciblée d’origine. Ce comportement est attendu et reflète la manière dont les événements d’exclusion sont suivis dans le système.
+Cela signifie que si un profil est exclu plusieurs fois (par exemple, en raison de plusieurs événements d’exclusion pour le même profil), chaque événement est comptabilisé dans le total des exclusions. Par conséquent, la somme de *Diffusion* et *Exclusions* peut dépasser la taille de l’audience ciblée d’origine. Ce comportement est attendu et reflète la manière dont les événements d’exclusion sont suivis dans le système.
 
 **Exemple :**
 
-- Public ciblé : 94 000 profils
-- Présentés : 69 000
-- Exclusions : 37 000 (y compris les événements d’exclusion en double)
-- Total (Délivrés + Exclusions) : 106 000
+- Audience ciblée : 94 000 profils
+- Diffusion : 69 000
+- Exclusions : 37 000 (y compris les événements d’exclusion en double)
+- Total (Diffusions + Exclusions) : 106 000
 
 Le total dépasse l’audience ciblée, car les événements d’exclusion en double sont inclus dans le nombre d’exclusions.
 
 Pour plus d’informations sur les raisons spécifiques d’exclusion, consultez le tableau ci-dessous.
 
-## Liste des raisons d’exclusion
+## Liste des motifs d’exclusion
 
 | Motif d’exclusion | Code d’erreur | Canal | Explication |
 |-|-|-|-|

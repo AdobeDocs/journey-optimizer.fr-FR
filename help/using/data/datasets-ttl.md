@@ -11,7 +11,7 @@ exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 67%
+ht-degree: 77%
 
 ---
 
@@ -78,13 +78,13 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Ce
 
 >[!NOTE]
 >
->Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=_blank}
+>Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=&quot;_blank}
 
 +++
 
 +++La clientèle peut-elle augmenter la durée de vie des données du jeu de données système de [!DNL Journey Optimizer] dans le lac de données ? 
 
-Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -122,7 +122,7 @@ La nouvelle politique de durée de vie limite la période de recherche en amont 
 
 +++Quelles sont les alternatives disponibles pour conserver les données plus longtemps que la durée de vie ?
 
-Les clients qui nécessitent une rétention plus longue doivent envisager d’exporter les données pertinentes des jeux de données AJO vers un stockage externe avant l’expiration de la durée de vie. Adobe Journey Optimizer prend en charge l’exportation de jeux de données vers diverses destinations d’espace de stockage (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=_blank}
+Les clients qui nécessitent une rétention plus longue doivent envisager d’exporter les données pertinentes des jeux de données AJO vers un stockage externe avant l’expiration de la durée de vie. Adobe Journey Optimizer prend en charge l’exportation de jeux de données vers diverses destinations d’espace de stockage (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank}
 
 +++
 
@@ -138,15 +138,15 @@ Les clients qui nécessitent une rétention plus longue doivent envisager d’ex
 
 Oui, les clients concernés seront avertis à l’avance et l’équipe produit travaillera avec eux pour assurer une transition fluide.
 
-+++Puis-je supprimer des jeux de données générés par le système Journey Optimizer ?
++++Puis-je supprimer des jeux de données générés par le système Journey Optimizer ?
 
-Les jeux de données générés par le système Journey Optimizer sont protégés et ne peuvent pas être supprimés via l’interface utilisateur Adobe Experience Platform standard. Ces jeux de données sont essentiels aux fonctionnalités de Journey Optimizer et sont gérés par le système.
+Les jeux de données générés par le système Journey Optimizer sont protégés et ne peuvent pas être supprimés via l’interface d’utilisation Adobe Experience Platform standard. Ces jeux de données sont essentiels aux fonctionnalités de Journey Optimizer et sont gérés par le système.
 
-Si vous devez supprimer définitivement un jeu de données système Journey Optimizer (par exemple, pour les environnements d’assurance qualité, le nettoyage des sandbox ou des exigences spécifiques en matière d’hygiène des données), contactez l’ingénierie Adobe ou l’assistance clientèle Adobe. Ces jeux de données nécessitent des procédures d’arrière-plan spécialisées pour garantir une suppression complète et sécurisée.
+Si vous devez supprimer définitivement un jeu de données système Journey Optimizer (par exemple, pour les environnements d’assurance qualité, le nettoyage des sandbox ou des exigences spécifiques en matière d’hygiène des données), contactez l’ingénierie Adobe ou l’assistance clientèle Adobe. Ces jeux de données nécessitent des procédures back-end spécialisées pour garantir une suppression complète et sécurisée.
 
 >[!NOTE]
 >
->Pour le nettoyage de routine des données de ces jeux de données système, utilisez les opérations **[!UICONTROL Cycle de vie des données]** disponibles via Privacy Service pour supprimer des enregistrements ou des identités spécifiques. [En savoir plus](../privacy/data-hygiene.md)
+>Pour le nettoyage régulier des données dans ces jeux de données système, utilisez les opérations **[!UICONTROL Cycle de vie des données]** disponibles via Privacy Service pour supprimer des enregistrements ou des identités spécifiques. [En savoir plus](../privacy/data-hygiene.md)
 
 
 +++

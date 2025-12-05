@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 67fe852bfeb64932999e7c5930114c027423aeb9
 workflow-type: tm+mt
 source-wordcount: '3045'
-ht-degree: 65%
+ht-degree: 86%
 
 ---
 
@@ -60,13 +60,13 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
-   ![Interface de sélection des audiences affichant les audiences Adobe Experience Platform disponibles](assets/read-segment-selection.png)
+   ![Interface de sélection des audiences affichant les audiences Adobe Experience Platform disponibles](assets/read-segment-selection.png)
 
    Une fois l’audience ajoutée, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![Bouton Copier pour copier le nom et l’identifiant de l’audience au format JSON](assets/read-segment-copy.png)
+   ![Bouton Copier pour copier le nom et l’ID de l’audience au format JSON](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
@@ -165,11 +165,11 @@ Par défaut, les parcours sont configurés pour s’exécuter une seule fois. Po
 
 1. Les propriétés du parcours s’affichent. Dans la liste déroulante **[!UICONTROL Type de planificateur]**, sélectionnez la fréquence d’exécution du parcours.
 
-   ![Liste déroulante de type Planificateur avec des options de fréquence : une fois, tous les jours, toutes les semaines, tous les mois](assets/read-segment-schedule-list.png)
+   ![Liste déroulante Type de planificateur avec des options de fréquence : une fois, tous les jours, toutes les semaines, tous les mois](assets/read-segment-schedule-list.png)
 
 Pour les parcours récurrents, des options spécifiques sont disponibles pour vous permettre de gérer l’entrée des profils dans le parcours. Développez les sections ci-dessous pour plus d’informations sur chaque option.
 
-![Options récurrentes de lecture d’audience : lecture incrémentielle, forcer une reprise, déclencher après le lot](assets/read-audience-options.png)
+![Options récurrentes de lecture d’audience : lecture incrémentielle, forcer une reprise, déclencher après le lot](assets/read-audience-options.png)
 
 +++**[!UICONTROL Lecture incrémentielle]**
 
@@ -179,10 +179,10 @@ Lors de l’utilisation de cette option, le système revient 24 heures en arriè
 
 Une fois la segmentation terminée, une tâche d’exportation d’instantané de profil commence, ce qui permet à Journey Optimizer de détecter et de traiter les nouveaux profils. Si le parcours est planifié entre ces deux tâches, la lecture incrémentielle ne récupère pas les profils qui sont devenus membres de l’audience depuis la dernière exécution du parcours.
 
-Pour minimiser le risque de profils manquants :
+Pour minimiser le risque de profils manquants :
 * Activez l’option **[!UICONTROL Déclencheur après l’évaluation de l’audience par lots]** pour étendre la période d’analyse à l’heure de la dernière exécution réussie du parcours, quelle que soit la date à laquelle elle s’est produite
-* Planifiez le bon fonctionnement des parcours une fois les tâches de segmentation par lots quotidiennes terminées (généralement 2 à 3 heures de mémoire tampon)
-* Pour les cas d’utilisation urgents nécessitant une inclusion immédiate de profil, pensez à utiliser des activités [Qualification d’audience](audience-qualification-events.md) avec des audiences en flux continu
+* Planifiez le bon fonctionnement des parcours une fois les traitements de segmentation par lots quotidiens terminés (généralement 2 à 3 heures de buffer).
+* Pour les cas d’utilisation critiques nécessitant une inclusion immédiate de profil, pensez à utiliser des activités [Qualification d’audience](audience-qualification-events.md) avec des audiences en streaming.
 
 >[!CAUTION]
 >
@@ -233,13 +233,13 @@ L’activité **[!UICONTROL Lecture d’audience]** vous permet de tester le par
 
 Pour cela, activez le mode test.
 
-![&#x200B; Interface du mode test pour l’activité Lecture d’audience avec la sélection du profil de test](assets/read-segment-test-mode.png)
+![Interface du mode test pour l’activité Lecture d’audience avec la sélection du profil de test](assets/read-segment-test-mode.png)
 
 Configurez et exécutez le mode test comme vous le faites habituellement. [Découvrez comment tester un parcours](testing-the-journey.md).
 
 Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les logs]** vous permet d’afficher les résultats du test. Voir à ce propos [cette section](testing-the-journey.md#viewing_logs).
 
-![Journaux de test affichant les résultats d’exécution de l’audience et le flux de profil](assets/read-segment-log.png)
+![Journaux de test affichant les résultats d’exécution de l’audience et le flux de profils](assets/read-segment-log.png)
 
 Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](../building-journeys/publish-journey.md)). Les personnes appartenant à l’audience rejoindront le parcours à la date et à l’heure spécifiées dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
 
@@ -281,7 +281,7 @@ La même activité **Condition** utilisée pour la segmentation (voir ci-dessus)
 
 Cette exclusion peut se produire juste après la récupération des audiences, à des fins de comptage de population ou sur un parcours à plusieurs étapes.
 
-![Chemin de Parcours avec branche d&#39;exclusion utilisant l&#39;activité Fin](assets/read-segment-audience2.png)
+![Chemin de parcours avec branche d’exclusion utilisant l’activité Fin](assets/read-segment-audience2.png)
 
 **Union**
 
@@ -289,46 +289,46 @@ Les parcours vous permettent de créer des branches N et de les associer après
 
 Par exemple, après avoir suivi une expérience différente pendant dix jours dans un parcours, les clients et clientes VIP et non VIP peuvent revenir sur le même chemin. Après une union, vous pouvez partager à nouveau l’audience en exécutant une segmentation ou une exclusion.
 
-![chemins de Parcours fusionnant à nouveau après la segmentation à l’aide de l’union](assets/read-segment-audience3.png)
+![Chemins de parcours fusionnant à nouveau après la segmentation à l’aide d’un union](assets/read-segment-audience3.png)
 
-## Dépannage des incohérences du nombre d’audiences {#audience-count-mismatch}
+## Résolution des problèmes liés aux incohérences de tailles d’audiences {#audience-count-mismatch}
 
-Si vous constatez des incohérences entre le nombre estimé d’audiences, les profils qualifiés et les profils réels qui entrent dans votre parcours, tenez compte des points suivants :
+Si vous constatez des incohérences entre les estimations de tailles d’audiences, les profils qualifiés et les profils réels qui rejoignent votre parcours, tenez compte des points suivants :
 
-### Synchronisation et propagation des données
+### Calendrier et propagation des données
 
-* **Fin de la tâche de segmentation par lots** : pour les audiences par lots, assurez-vous que la tâche de segmentation par lots quotidienne est terminée et que les instantanés sont mis à jour avant l’exécution du parcours. Les audiences par lots sont prêtes à l’emploi environ **2 heures** après la fin de la tâche de segmentation. En savoir plus sur les [&#x200B; méthodes d’évaluation d’audience &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#evaluate-segments){target="_blank"}.
+* **Fin du traitement de segmentation par lots** : pour les audiences par lots, assurez-vous que le traitement de segmentation par lots quotidien est terminé et que les instantanés sont mis à jour avant l’exécution du parcours. Les audiences par lots sont prêtes à l’emploi environ **2 heures** après la fin du traitement de segmentation. En savoir plus sur les [méthodes d’évaluation d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#evaluate-segments){target="_blank"}.
 
-* **Planning d’ingestion des données** : vérifiez que l’ingestion des données de profil est entièrement terminée avant l’exécution du parcours. Si les profils ont été ingérés peu de temps avant le début du parcours, ils peuvent ne pas encore être reflétés dans l’audience. En savoir plus sur [l’ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
+* **Calendrier d’ingestion des données** : vérifiez que l’ingestion des données de profil est terminée avant l’exécution du parcours. Si des profils ont été ingérés peu de temps avant le début du parcours, ils ne sont peut-être pas encore pris en compte dans l’audience. En savoir plus sur l’[ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
 
-* **Utiliser l’option « Déclencheur après l’évaluation de l’audience par lots »** : pour les parcours planifiés quotidiens utilisant des audiences par lots, envisagez d’activer l’option **[!UICONTROL Déclencheur après l’évaluation de l’audience par lots]**. Cela permet de s’assurer que le parcours attend les nouvelles données d’audience (jusqu’à 6 heures) avant de s’exécuter. [En savoir plus sur la planification](#schedule)
+* **Utiliser l’option « Déclencher après l’évaluation de l’audience par lots »** : pour les parcours planifiés quotidiens utilisant des audiences par lots, envisagez d’activer l’option **[!UICONTROL Déclencher après l’évaluation de l’audience par lots]**. Cela permet de s’assurer que le parcours attend les nouvelles données d’audience (jusqu’à 6 heures) avant de s’exécuter. [En savoir plus sur la planification](#schedule)
 
-* **Ajouter une activité Attente** : pour les audiences en flux continu avec des données récemment ingérées, pensez à ajouter une activité **Attente** au début du parcours pour laisser le temps à la propagation des données et à la qualification du profil. [En savoir plus sur l’activité Attente &#x200B;](wait-activity.md)
+* **Ajouter une activité Attente** : pour les audiences en streaming avec des données récemment ingérées, pensez à ajouter une activité **Attente** au début du parcours pour laisser le temps nécessaire à la propagation des données et à la qualification des profils. [En savoir plus sur l’activité Attente](wait-activity.md)
 
 ### Validation et surveillance des données
 
-* **Vérification du statut de la tâche de segmentation** : surveillez les temps d’achèvement de la tâche de segmentation par lots dans Adobe Experience Platform [tableau de bord de surveillance](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=fr){target="_blank"} pour vérifier quand les données d’audience sont prêtes.
+* **Vérifier le statut des traitements de segmentation** : surveillez les délais d’exécution des traitements de segmentation par lots dans le [tableau de bord de surveillance](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=fr){target="_blank"} d’Adobe Experience Platform pour vérifier quand les données d’audience sont prêtes.
 
-* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [politiques de fusion dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}.
+* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [politiques de fusion dans Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}
 
-* **Vérifier les définitions de segment** : vérifiez que les définitions de segment sont correctement configurées et incluez tous les critères de qualification attendus. En savoir plus sur la [création d’audiences](../audience/creating-a-segment-definition.md). Accordez une attention particulière aux éléments suivants :
-   * Conditions temporelles pouvant exclure des profils en fonction des horodatages d’événement
-   * Qualifications des attributs qui dépendent des données récemment mises à jour
-   * Méthodes d’évaluation par lots ou par flux
+* **Vérifier les définitions de segment** : vérifiez que les définitions de segment sont correctement configurées et incluez tous les critères de qualification attendus. En savoir plus sur la [création d’audiences](../audience/creating-a-segment-definition.md). Accordez une attention particulière aux éléments suivants :
+   * Conditions de temps pouvant exclure des profils en fonction des dates et heures des événements.
+   * Qualifications des attributs qui dépendent des données récemment mises à jour.
+   * Méthodes d’évaluation par lots ou en streaming.
 
-* **Valider la configuration des espaces de noms** : assurez-vous que l’espace de noms sélectionné dans l’activité **Lecture d’audience** correspond à l’identité principale utilisée par les profils de votre audience. Les profils sans l’espace de noms sélectionné n’entreront pas dans le parcours. En savoir plus sur les [espaces de noms d’identité](../event/about-creating.md#select-the-namespace).
+* **Valider la configuration des espaces de noms** : assurez-vous que l’espace de noms sélectionné dans l’activité **Lecture d’audience** correspond à l’identité principale utilisée par les profils de votre audience. Les profils sans l’espace de noms sélectionné ne rejoindront pas le parcours. En savoir plus sur les [espaces de noms d’identité](../event/about-creating.md#select-the-namespace).
 
 ### Bonnes pratiques pour éviter les incohérences
 
-* **Planification des parcours après la segmentation** : pour les audiences par lots, planifiez l’exécution des parcours au moins 2 à 3 heures après l’heure d’achèvement standard de la tâche de segmentation par lots. [En savoir plus sur la planification des parcours &#x200B;](#schedule)
+* **Planifier les parcours après la segmentation** : pour les audiences par lots, planifiez l’exécution des parcours au moins 2 à 3 heures après l’heure habituelle d’achèvement du traitement de segmentation par lots. [En savoir plus sur la planification des parcours](#schedule)
 
-* **Utiliser les audiences en flux continu pour les cas d’utilisation en temps réel** : si vous avez besoin d’une qualification de profil et d’une entrée de parcours immédiates, utilisez les activités [Qualification d’audience](audience-qualification-events.md) avec les audiences en flux continu plutôt que **Lecture d’audience** avec les audiences par lots.
+* **Utiliser les audiences en streaming pour les cas d’utilisation en temps réel** : si vous avez besoin d’une qualification de profil et d’une entrée de parcours immédiates, utilisez les activités [Qualification d’audience](audience-qualification-events.md) avec les audiences en streaming plutôt que **Lecture d’audience** avec les audiences par lots.
 
-* **Tester d’abord avec des audiences plus petites** : avant de lancer des parcours à grande échelle, testez avec un sous-ensemble plus petit pour vérifier que les chiffres correspondent aux attentes. [Découvrez comment tester un parcours &#x200B;](testing-the-journey.md)
+* **Effectuer d’abord un test avec des audiences plus petites** : avant de lancer des parcours à grande échelle, effectuez un test avec un sous-ensemble plus petit pour vérifier que les nombres correspondent aux attentes. [Découvrir comment tester un parcours](testing-the-journey.md)
 
-* **Surveiller régulièrement** : configurez une surveillance régulière des tailles d’audience et des mesures d’entrée sur le parcours pour détecter rapidement les incohérences. En savoir plus sur les [taux de traitement des parcours et la gestion des entrées](entry-management.md).
+* **Surveiller régulièrement** : configurez une surveillance régulière des tailles d’audience et des mesures d’entrée dans les parcours pour détecter rapidement les incohérences. Découvrez les [taux de traitement des parcours et la gestion des entrées](entry-management.md).
 
-Si des incohérences de nombre persistent après avoir suivi ces étapes, contactez l’assistance Adobe pour obtenir des détails sur votre audience, la configuration du parcours et les incohérences observées.
+Si des incohérences de nombre persistent après avoir suivi ces étapes, contactez l’assistance Adobe pour obtenir des détails sur votre audience, la configuration des parcours et les incohérences observées.
 
 ## Reprises {#read-audience-retry}
 
@@ -348,4 +348,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
