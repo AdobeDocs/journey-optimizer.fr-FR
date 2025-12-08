@@ -32,7 +32,7 @@ Si vous définissez deux règles de limitation pour une offre :
 
 L’offre ne s’affichera plus pour un utilisateur ou une utilisatrice une fois qu’il ou elle l’aura vue 5 fois par semaine, même si la limite totale de 100 n’a pas encore été atteinte. De même, une fois que 100 impressions totales sont atteintes, l’offre cesse d’être affichée pour tous les utilisateurs.
 
-En savoir plus sur les [ règles de limitation ](items.md#capping).
+En savoir plus sur les [&#x200B; règles de limitation &#x200B;](items.md#capping).
 
 +++
 
