@@ -11,10 +11,10 @@ keywords: activité, condition, zone de travail, parcours, optimisation
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
+workflow-type: tm+mt
+source-wordcount: '1662'
+ht-degree: 98%
 
 ---
 
@@ -120,6 +120,10 @@ Supposons que vous souhaitiez comparer trois chemins :
 Une fois le parcours actif, les utilisateurs et utilisatrices sont affectés de manière aléatoire à différents chemins. [!DNL Journey Optimizer] suit le chemin le plus performant et fournit des informations exploitables.
 
 Suivez le succès de votre parcours avec le rapport d’expérience de chemin de parcours. [En savoir plus](../reports/journey-global-report-cja-experimentation.md)
+
+>[!CAUTION]
+>
+>Ne modifiez pas les métadonnées d’une expérience de chemin une fois qu’elles ont été publiées. La modification des métadonnées perturbe le calcul et la création de rapports des résultats de l’expérience.
 
 ### Cas d’utilisation des expériences {#uc-experiment}
 
