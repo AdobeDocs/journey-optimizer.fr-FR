@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Cette section fournit des informations générales sur l’utilisation de l’AP
 
 ## Description de l’API de throttling et collection Postman {#description}
 
-Le tableau ci-dessous répertorie les commandes disponibles pour l’API de throttling. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la [documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
+Le tableau ci-dessous répertorie les commandes disponibles pour l’API de throttling. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la [documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/).
 
 | Méthode | Chemin | Description |
 |---|---|---|
