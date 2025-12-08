@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
+source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Si vous définissez deux règles de limitation pour une offre :
 
 L’offre ne s’affichera plus pour un utilisateur ou une utilisatrice une fois qu’il ou elle l’aura vue 5 fois par semaine, même si la limite totale de 100 n’a pas encore été atteinte. De même, une fois que 100 impressions totales sont atteintes, l’offre cesse d’être affichée pour tous les utilisateurs.
 
-En savoir plus sur les [&#x200B; règles de limitation &#x200B;](items.md#capping).
+En savoir plus sur les [ règles de limitation ](items.md#capping).
 
 +++
 
@@ -53,9 +53,9 @@ Les deux composants sont requis pour des performances de modèle efficaces [mod�
 
 +++**Comment les modifications apportées aux collections d’offres affectent-elles l’optimisation automatique ou les modèles d’optimisation personnalisés ?**
 
-Les deux modèles dirigeront le trafic vers la meilleure offre disponible suivante en fonction des données de trafic des 30 derniers jours.
+Le modèle d’optimisation automatique diffuse le trafic vers la meilleure offre disponible suivante en fonction des données de trafic des 14 derniers jours, que le modèle d’optimisation personnalisé utilise ou non les données de trafic des 30 derniers jours.
 
-Lorsque plusieurs offres sont supprimées simultanément et que les offres restantes contiennent des données de trafic minimales dans la fenêtre de 30 jours, le modèle peut présenter un comportement sous-optimal, notamment des modèles de distribution aléatoire ou un biais en faveur des offres avec des taux de conversion plus élevés en fonction de données d’impression limitées.
+Lorsque plusieurs offres sont supprimées simultanément et que les offres restantes contiennent des données de trafic minimales dans la fenêtre de 14 ou 30 jours, le modèle peut présenter un comportement sous-optimal, notamment des modèles de distribution aléatoire ou un biais en faveur des offres avec des taux de conversion plus élevés en fonction de données d’impression limitées.
 
 **Bonne pratique** : lorsque vous modifiez considérablement des collections d’offres, vérifiez que les offres restantes disposent de données de performances historiques suffisantes pour maintenir l’efficacité du modèle.
 
