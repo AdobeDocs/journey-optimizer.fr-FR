@@ -7,14 +7,19 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 87%
 
 ---
 
-# Catalogue d’éléments {#catalog}
+# Configurer le catalogue d’éléments {#catalog}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="Définir les attributs personnalisés"
+>abstract="Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont créés dans le schéma de catalogue des éléments de décision."
 
 Dans la prise de décision, les catalogues servent de conteneurs centraux pour organiser les éléments de décision. Chaque catalogue est lié à un schéma Adobe Experience Platform, englobant tous les attributs affectés à un élément de décision.
 
@@ -48,11 +53,11 @@ Pour accéder au schéma du catalogue où les attributs des éléments de décis
 1. Le schéma du catalogue s’ouvre dans un nouvel onglet, selon la structure ci-dessous :
 
    * Le nœud **`_experience`** comprend des attributs d’éléments de décision standard tels que le nom, la date de début et de fin et la description.
-   * Le nœud **`_<imsOrg>`** héberge des attributs d’éléments de décision personnalisés. Par défaut, aucun attribut personnalisé n’est configuré, mais vous pouvez en ajouter autant que nécessaire pour répondre à vos besoins. Une fois cette opération terminée, les attributs personnalisés s’affichent dans l’écran de création de l’élément de décision à côté des attributs standard.
+   * Le nœud **`_<imsOrg>`** héberge les attributs d’éléments de décision personnalisés, où `<imsOrg>` est remplacé par le nom de votre organisation (par exemple, `_luma` pour la société Luma). Par défaut, aucun attribut personnalisé n’est configuré, mais vous pouvez en ajouter autant que nécessaire pour répondre à vos besoins. Une fois cette opération terminée, les attributs personnalisés s’affichent dans l’écran de création de l’élément de décision à côté des attributs standard.
 
    ![](assets/catalogs-schema.png)
 
-1. Pour ajouter un attribut personnalisé au schéma, développez le nœud **`_<imsOrg>`** et cliquez sur le bouton « + » à l’emplacement souhaité dans la structure.
+1. Pour ajouter un attribut personnalisé au schéma, développez le nœud de votre organisation (par exemple, **`_luma`**) et cliquez sur le bouton « + » à l’emplacement souhaité dans la structure.
 
    ![](assets/catalogs-add.png)
 
