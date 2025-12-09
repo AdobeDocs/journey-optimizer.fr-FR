@@ -1,40 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration du canal d’activité en direct
-description: Découvrez comment configurer votre environnement pour envoyer des activités en direct avec Journey Optimizer
+title: Configurer le canal d’activité en direct
+description: Découvrez comment configurer votre environnement pour envoyer des activités en direct avec Journey Optimizer.
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
-# Prise en main de la configuration des activités en direct {#mobile-live-config}
+# Commencer la configuration des activités en direct {#mobile-live-config}
 
 >[!BEGINSHADEBOX]
 
-* [Prise en main de l’activité Live](get-started-mobile-live.md)
-* **[Configuration de l’activité en direct](mobile-live-configuration.md)**
-* [Intégration d’une activité en direct à Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* [Créer une activité Live](create-mobile-live.md)
+* [Commencer avec les activités en direct](get-started-mobile-live.md)
+* **[Configuration d’une activité en direct](mobile-live-configuration.md)**
+* [Intégration des activités en direct au SDK mobile Adobe Experience Platform](mobile-live-configuration-sdk.md)
+* [Créer une activité en direct](create-mobile-live.md)
 * [Questions fréquentes](mobile-live-faq.md)
-* [Rapport de campagne d’activité dynamique](../reports/campaign-global-report-cja-activity.md)
+* [Rapport de campagne d’activités en direct](../reports/campaign-global-report-cja-activity.md)
 
 >[!ENDSHADEBOX]
 
-Avant d’envoyer votre activité Live , vous devez configurer votre environnement Adobe Journey Optimizer. Pour ce faire, procédez comme suit :
+Avant d’envoyer une activité en direct, vous devez configurer votre environnement Adobe Journey Optimizer. Pour ce faire, procédez comme suit :
 
-## Étape 1 : ajouter les informations d’identification push de votre application dans Journey Optimizer (facultatif){#push-credentials-launch}
+## Étape 1 : ajouter les informations d’identification push de votre application dans Journey Optimizer (facultatif){#push-credentials-launch}
 
-L’enregistrement des informations d’identification des notifications push de l’application mobile est nécessaire pour autoriser Adobe à envoyer des notifications push en votre nom.
+L&#39;enregistrement des informations d&#39;identification push de l’application mobile est nécessaire pour autoriser Adobe à envoyer des notifications push en votre nom.
 
-L’étape 1 est facultative si vos informations d’identification push ont déjà été configurées, car elles peuvent être réutilisées pour la configuration du canal d’activité en direct. Si aucune information d’identification n’est définie, vous devez créer des informations d’identification push pour votre application. Reportez-vous aux étapes détaillées ci-dessous :
+L’étape 1 est facultative si vos informations d’identification push ont déjà été configurées, car elles peuvent être réutilisées pour la configuration du canal d’activité en direct. Si aucune information d’identification push n’est définie pour votre application, vous devez les créer. Reportez-vous aux étapes détaillées ci-dessous :
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres push]** > **[!UICONTROL Informations d’identification push]**.
 
@@ -42,7 +42,7 @@ L’étape 1 est facultative si vos informations d’identification push ont dé
 
    ![](assets/credential-1.png)
 
-1. Dans la liste déroulante **[!UICONTROL Plateforme]**, sélectionnez Système opérationnel :
+1. Dans la liste déroulante **[!UICONTROL Plateforme]**, sélectionnez le système d’exploitation :
 
 1. Saisissez l’**[!UICONTROL ID d’application]** de l’application mobile.
 
@@ -60,7 +60,7 @@ L’étape 1 est facultative si vos informations d’identification push ont dé
 
 1. Cliquez sur **[!UICONTROL Envoyer]** pour créer votre configuration d’application.
 
-## Étape 2 : créer la configuration de votre activité Live {#config-live-activity}
+## Étape 2 : créer la configuration de votre activité en direct {#config-live-activity}
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canal]**. Cliquez sur le bouton **[!UICONTROL Créer une configuration de canal]**.
 
@@ -78,9 +78,9 @@ L’étape 1 est facultative si vos informations d’identification push ont dé
 
 1. Sélectionnez une ou plusieurs **[!UICONTROL actions marketing]** pour associer des politiques de consentement aux messages qui utilisent cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. En savoir plus
 
-1. Choisissez iOS comme **[!UICONTROL Platform]**.
+1. Choisissez iOS comme **[!UICONTROL Plateforme]**.
 
-1. Dans la liste déroulante, sélectionnez le même **[!UICONTROL ID d’application]** que pour vos [informations d’identification push](#push-credentials-launch) configurées ci-dessus ou choisissez-en un existant.
+1. Dans la liste déroulante, sélectionnez le même **[!UICONTROL ID d’application]** que pour les [informations d’identification push](#push-credentials-launch) configurées ci-dessus ou choisissez-en un existant.
 
    ![](assets/config-3.png)
 
@@ -94,6 +94,6 @@ L’étape 1 est facultative si vos informations d’identification push ont dé
 
 1. Une fois les contrôles réussis, la configuration de canal obtient le statut **[!UICONTROL Actif]**. Elle est prête à être utilisée pour diffuser des messages.
 
-Vous pouvez maintenant commencer l’intégration avec Adobe Experience Platform Mobile SDK pour activer les mises à jour dynamiques en temps réel sur l’écran de verrouillage et l’île dynamique.
+Vous pouvez maintenant commencer l’intégration avec le SDK mobile d’Adobe Experience Platform pour activer les mises à jour dynamiques en temps réel sur l’écran de verrouillage et la Dynamic Island.
 
-➡️ [En savoir plus sur l&#39;intégration de Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
+➡️ [En savoir plus sur l&#39;intégration du SDK mobile d’Adobe Experience Platform](mobile-live-configuration-sdk.md)

@@ -10,19 +10,19 @@ level: Beginner, Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Prise en main de la conception d’e-mails {#get-started-content-design}
 
-Pour accéder au Designer d’e-mail et commencer à concevoir le contenu de votre e-mail, vous devez d’abord [créer un e-mail](create-email.md) dans un parcours ou une campagne.
+Pour accéder au Concepteur d’e-mail et commencer à concevoir le contenu de votre e-mail, vous devez d’abord [créer un e-mail](create-email.md) dans un parcours ou une campagne.
 
-Vous pouvez ensuite utiliser [!DNL Journey Optimizer] **fonctionnalités de conception d’e-mail** pour importer du contenu existant ou commencer à créer des e-mails réactifs à partir de zéro. [En savoir plus](content-from-scratch.md)
+Vous pouvez ensuite utiliser les **fonctionnalités de conception d’e-mail** de [!DNL Journey Optimizer] pour importer du contenu existant ou commencer à créer des e-mails réactifs à partir de zéro. [En savoir plus](content-from-scratch.md)
 
-Le Designer Email vous permet également d’effectuer les opérations suivantes :
+Le Concepteur d’e-mail vous permet également d’effectuer les opérations suivantes :
 
 * Utiliser **Adobe Experience Manager Assets Essentials** pour enrichir vos e-mails, créer et gérer votre propre base de données de ressources. [En savoir plus](../integrations/assets.md)
 
@@ -34,7 +34,7 @@ Le Designer Email vous permet également d’effectuer les opérations suivantes
 
 ## Étapes clés de création de contenu d’e-mail {#key-steps}
 
-Une fois que vous avez créé un e-mail, vous pouvez commencer à concevoir le contenu de votre email.
+Une fois que vous avez créé un e-mail, vous pouvez commencer à créer son contenu.
 
 1. Dans l’écran de configuration des parcours ou des campagnes, parcourez l’écran **[!UICONTROL Modifier le contenu]** pour accéder au concepteur d’e-mail. [En savoir plus](create-email.md#define-email-content)
 
@@ -82,8 +82,8 @@ Consultez le tableau ci-dessous pour connaître les bonnes pratiques en matière
 
 Découvrez comment créer du contenu d’e-mail avec l’éditeur de messages.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416232?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Découvrez comment configurer des expériences de contenu pour un test AB et explorer le contenu d’e-mail qui répond le mieux aux objectifs de votre entreprise.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447333?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

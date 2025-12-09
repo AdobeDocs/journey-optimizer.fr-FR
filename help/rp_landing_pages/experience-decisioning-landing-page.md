@@ -6,9 +6,9 @@ description: Prise de décision
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ Découvrez les contraintes et les bonnes pratiques pour utiliser efficacement la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Questions fréquentes
 
-Obtenez des réponses aux questions courantes sur Decisioning, y compris les règles de limitation, les modèles d’IA et les exigences d’optimisation.
+Obtenez des réponses aux questions courantes sur la prise de décision, y compris les règles de limite, les modèles d’IA et les exigences d’optimisation.
 
 [Afficher les questions fréquentes](../using/experience-decisioning/decisioning-faq.md)
 :::

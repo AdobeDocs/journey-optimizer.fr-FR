@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1704'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Selon le client de messagerie e-mail et les paramètres de désabonnement de la 
 >
 >Découvrez comment gérer les paramètres de désabonnement dans [cette section](#enable-list-unsubscribe) ci-dessous.
 
-Dans les deux cas, lorsqu’une personne destinataire clique sur le lien de désinscription, sa demande de désabonnement est traitée en conséquence. Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr){target="_blank"}. En savoir plus sur le traitement du consentement dans la documentation d’[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=fr){target="_blank"}.
+Dans les deux cas, lorsqu’une personne destinataire clique sur le lien de désinscription, sa demande de désabonnement est traitée en conséquence. Le profil correspondant est immédiatement désinscrit et ce choix est mis à jour dans [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr){target="_blank"}. Pour en savoir plus sur le traitement du consentement, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=fr){target="_blank"}.
 
 >[!NOTE]
 >
@@ -259,7 +259,7 @@ Paramètres de requête :
 
    * Valeur analysée : *v1.xyz*
 
-Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
