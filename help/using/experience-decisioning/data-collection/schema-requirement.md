@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: f43b1ea0dd2197331329e24cb3d76eef0b5a9e86
+source-git-commit: 093e5ba2a74b498bb31d0398e1df460fd93b285f
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 49%
+source-wordcount: '289'
+ht-degree: 39%
 
 ---
 
@@ -104,6 +104,10 @@ Vérifiez que les champs suivants sont correctement configurés :
 
 Chaque offre dans une proposition comprend un jeton de suivi, qui est un identifiant unique généré par Adobe. Ce jeton doit être transmis exactement tel qu’il est reçu, sans modification, dans l’événement de clic ou d’impression correspondant. Les jetons de suivi correspondants permettent à Adobe d’associer précisément l’action de l’utilisateur à la décision d’offre correcte, ce qui active la création de rapports en aval et l’optimisation basée sur l’IA.
 
+>[!CAUTION]
+>
+>Si vous ne transmettez pas le jeton de suivi dans le champ `propositionAction.tokens` lors du suivi des clics, les événements de clic ne seront pas correctement attribués à l’offre correspondante. Les données de suivi seront alors incomplètes, ce qui aura un impact négatif sur les rapports et l’optimisation du classement par l’IA. Veillez toujours à inclure le jeton de suivi de la proposition dans votre implémentation de suivi des clics.
+
 +++**Exemple de payload :**
 
 ```json
@@ -179,4 +183,4 @@ Pour les événements personnalisés, le schéma utilisé dans le jeu de donnée
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
