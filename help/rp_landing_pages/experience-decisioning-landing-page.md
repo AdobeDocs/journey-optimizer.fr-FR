@@ -40,7 +40,7 @@ Découvrez les contraintes et les bonnes pratiques pour utiliser efficacement la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=fr)
 
 Questions fréquentes
 
