@@ -38,13 +38,13 @@ Ce guide fournit des conseils pratiques, des exemples réels et des bonnes prati
 
 **Critères de sortie** définissez quand et comment un profil quitte ou est supprimé d’un parcours :
 
-* **Achèvement du Parcours** - Les profils se ferment automatiquement lorsqu’ils atteignent la [fin de tous les chemins de parcours ](end-journey.md), achevant ainsi l’expérience conçue.
+* **Achèvement du Parcours** - Les profils se ferment automatiquement lorsqu’ils atteignent la [fin de tous les chemins de parcours &#x200B;](end-journey.md), achevant ainsi l’expérience conçue.
 
-* **Réalisation des mesures de succès** - Les profils se ferment lorsqu’ils atteignent l’objectif du parcours [](success-metrics.md), par exemple lors d’un achat ou du téléchargement d’une application, ce qui élimine les communications de suivi inutiles.
+* **Réalisation des mesures de succès** - Les profils se ferment lorsqu’ils atteignent l’objectif du parcours [&#128279;](success-metrics.md), par exemple lors d’un achat ou du téléchargement d’une application, ce qui élimine les communications de suivi inutiles.
 
 * **Basé sur des conditions** - Les profils se ferment lorsque des [conditions spécifiques](condition-activity.md) sont remplies, comme l’inactivité sur une période définie ou des modifications dans les attributs de profil.
 
-* **Basé sur un événement** - Les profils se ferment lorsque des événements [ spécifiques se produisent](../event/about-events.md) tels que l’annulation d’un abonnement ou le retour d’un produit.
+* **Basé sur un événement** - Les profils se ferment lorsque des événements [&#x200B; spécifiques se produisent](../event/about-events.md) tels que l’annulation d’un abonnement ou le retour d’un produit.
 
 * **Disqualification de l’audience** - Les profils disparaissent lorsqu’ils ne répondent plus aux [critères de l’audience cible](../audience/about-audiences.md), en s’assurant que les messages restent pertinents.
 
@@ -94,7 +94,7 @@ Voici des scénarios courants qui montrent comment fonctionnent en pratique les 
 
 **Découvrez tout ce que vous devez savoir sur les critères d’entrée ici :**
 
-* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurer les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]**, définissez [le schéma et les champs d’événement](../event/experience-event-schema.md), puis ajoutez l’événement à partir de la palette **[!UICONTROL Événements]** dans le [Concepteur de parcours ](using-the-journey-designer.md).
+* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurer les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]**, définissez [le schéma et les champs d’événement](../event/experience-event-schema.md), puis ajoutez l’événement à partir de la palette **[!UICONTROL Événements]** dans le [Concepteur de parcours &#x200B;](using-the-journey-designer.md).
 
 * **[Entrée basée sur l’audience](read-audience.md)** : les parcours cibles sont destinés aux profils qui appartiennent à des audiences spécifiques, sous la forme d’un lot unique ou selon un planning récurrent. [Créez des audiences](../audience/creating-a-segment-definition.md) dans le menu **[!UICONTROL Audiences]**, puis ajoutez une activité **[!UICONTROL Lecture d’audience]** et [configurez le planning](journey-properties.md#schedule).
 
@@ -140,7 +140,7 @@ Pour obtenir des conseils de mise en œuvre détaillés avec des détails techni
 
 >[!TIP]
 >
->Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [](jo-use-cases.md) pour découvrir d’autres modèles et implémentations, notamment [augmenter les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimer des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [&#128279;](jo-use-cases.md) pour découvrir d’autres modèles et implémentations, notamment [augmenter les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimer des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Bonnes pratiques de gestion des entrées et des sorties {#best-practices}
 
@@ -160,11 +160,11 @@ Pour obtenir des conseils de mise en œuvre détaillés avec des détails techni
 
 >[!NOTE]
 >
->Pour les scénarios avancés tels que la suppression automatique des profils lorsqu’ils remplissent les critères pour les parcours de priorité supérieure, utilisez la limitation et l’arbitrage des parcours [](../conflict-prioritization/journey-capping.md) au lieu des critères de sortie.
+>Pour les scénarios avancés tels que la suppression automatique des profils lorsqu’ils remplissent les critères pour les parcours de priorité supérieure, utilisez la limitation et l’arbitrage des parcours [&#128279;](../conflict-prioritization/journey-capping.md) au lieu des critères de sortie.
 
 **Surveiller et optimiser**
 
-* Suivez le taux d’entrée, le taux de sortie et le taux d’achèvement pour chaque parcours à l’aide de [rapports de parcours ](../reports/journey-global-report-cja.md)
+* Suivez le taux d’entrée, le taux de sortie et le taux d’achèvement pour chaque parcours à l’aide de [rapports de parcours &#x200B;](../reports/journey-global-report-cja.md)
 * Surveiller [mesures de succès](success-metrics.md) : pourcentage de sortie via l’achèvement des mesures de succès par rapport au délai d’expiration
 * [Test des critères d’entrée et de sortie](testing-the-journey.md) avec divers scénarios de profil avant le lancement
 * Ajuster en fonction des données : si le taux de sortie précoce est élevé, examiner la pertinence des critères d’entrée ; si la mesure de succès est faible, analyser le contenu et le timing.
@@ -178,7 +178,7 @@ Pour obtenir des conseils de mise en œuvre détaillés avec des détails techni
 
 >[!NOTE]
 >
->Pour gérer les limites de fréquence et les limites d’entrée de parcours sur plusieurs parcours, utilisez [le capping et l’arbitrage des parcours ](../conflict-prioritization/journey-capping.md) et [capping de la fréquence par canal](../conflict-prioritization/channel-capping.md).
+>Pour gérer les limites de fréquence et les limites d’entrée de parcours sur plusieurs parcours, utilisez [le capping et l’arbitrage des parcours &#x200B;](../conflict-prioritization/journey-capping.md) et [capping de la fréquence par canal](../conflict-prioritization/channel-capping.md).
 
 ## Conclusion {#conclusion}
 
@@ -191,14 +191,14 @@ Commencez par mapper clairement les déclencheurs et les points de sortie de vos
 **Documentation technique**
 
 * [Gestion des entrées de profil](entry-management.md) - Guide technique détaillé pour les contrôles d’entrée
-* [Propriétés du Parcours et critères de sortie ](journey-properties.md) - Référence de configuration complète
-* [Fin des parcours ](end-journey.md) - Gestion du cycle de vie des Parcours
+* [Propriétés du Parcours et critères de sortie &#x200B;](journey-properties.md) - Référence de configuration complète
+* [Fin des parcours &#x200B;](end-journey.md) - Gestion du cycle de vie des Parcours
 * [Identifiants supplémentaires](supplemental-identifier.md) - Scénarios de rentrée avancés
-* [Concepteur de Parcours ](using-the-journey-designer.md) - Créer et concevoir des parcours
+* [Concepteur de Parcours &#x200B;](using-the-journey-designer.md) - Créer et concevoir des parcours
 
 **Tutoriels et exemples**
 
-* [Cas d’utilisation de Parcours ](jo-use-cases.md) - Exemples et modèles de parcours complets
+* [Cas d’utilisation de Parcours &#x200B;](jo-use-cases.md) - Exemples et modèles de parcours complets
 * [Vidéo d’intégration des clients](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * [Vidéo de panier abandonné](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
 * [Blog communautaire : critères d&#39;entrée et de sortie](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
