@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '2771'
-ht-degree: 100%
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+workflow-type: tm+mt
+source-wordcount: '2849'
+ht-degree: 97%
 
 ---
 
@@ -273,6 +273,10 @@ En ajoutant des critères de sortie, vous faites quitter le parcours aux profils
 
 Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent plus l’objectif du parcours. Pour ce faire, utilisez les **critères de sortie globale**, qui sont étroitement associés à la gestion des objectifs.
 
+>[!TIP]
+>
+>Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation complets avec des configurations d’entrée et de sortie, des bonnes pratiques et des stratégies d’optimisation.
+
 **Exemple de cas d’utilisation**
 
 Une personne spécialiste du marketing dispose d’un parcours promotionnel avec une série de communications. Chacune de ces communications a pour but d’inciter le client ou la cliente à effectuer un achat. Dès que l’achat est effectué, le client ou la cliente ne doit pas recevoir le reste des messages de la série. En définissant un critère de sortie, tous les profils ayant effectué un achat sont supprimés du parcours.
@@ -331,6 +335,13 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
    * Dans un **brouillon de parcours**, l’option *Attribut de profil* apparaît désactivée (lecture seule), tandis que les options *Événement* et *Audience* restent actives.
    * Dans un **parcours mis en pause**, l’option *Attribut de profil* devient modifiable et les options *Événement* et *Audience* sont en lecture seule.
+
+### Rubriques connexes {#exit-criteria-related}
+
+* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Gestion des entrées de profil](entry-management.md) - Configurer la manière dont les profils entrent dans les parcours
+* [Comment se terminent les parcours ](end-journey.md) - Comprendre la complétion naturelle du parcours
+* [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) - Utiliser des critères de sortie lors de la suspension des parcours
 
 ## Planning du parcours {#schedule}
 

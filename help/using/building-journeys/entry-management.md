@@ -9,10 +9,10 @@ level: Intermediate
 keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 # Gestion des entrées de profil {#entry-management}
 
 La gestion des entrées de profil dépend du type de parcours.
+
+>[!TIP]
+>
+>Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation tels que des campagnes de bienvenue, la récupération de panier abandonné et des programmes de fidélité avec des exemples complets de configuration d’entrée et de sortie.
 
 ## Types de parcours {#types-of-journeys}
 
@@ -115,3 +119,10 @@ Plusieurs options sont disponibles pour les parcours Lecture d’audience récur
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->
+
+## Rubriques connexes
+
+* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Configurer les critères de sortie](journey-properties.md#exit-criteria) - Définir quand les profils doivent quitter votre parcours
+* [Terminer un parcours ](end-journey.md) - Comprendre comment les parcours se ferment et se terminent
+* [Cas d’utilisation de Parcours ](jo-use-cases.md) - Consultez des exemples complets avec des configurations d’entrée et de sortie

@@ -9,14 +9,18 @@ level: Intermediate
 keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '819'
-ht-degree: 100%
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 92%
 
 ---
 
 # Terminer un parcours {#journey-ending}
+
+>[!TIP]
+>
+>Vous recherchez des conseils pratiques sur quand et comment les profils doivent quitter les parcours ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des scénarios de sortie réels, des bonnes pratiques et des conseils de configuration.
 
 ## Terminaison d’un parcours dynamique
 
@@ -105,3 +109,10 @@ Vous pouvez également réaliser les opérations suivantes :
 >[!CAUTION]
 >
 >Les autorisations d’arrêt de parcours sont limitées aux utilisateurs et aux utilisatrices disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+
+## Rubriques connexes
+
+* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Gestion des entrées de profil](entry-management.md) - Configurer la manière dont les profils entrent dans les parcours
+* [Configurer les critères de sortie](journey-properties.md#exit-criteria) - Configurer la suppression automatique des profils des parcours
+* [Mettre en pause un parcours ](journey-pause.md) - Arrêter temporairement l’exécution du parcours
