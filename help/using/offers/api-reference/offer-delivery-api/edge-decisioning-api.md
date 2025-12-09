@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+workflow-type: tm+mt
+source-wordcount: '935'
+ht-degree: 95%
 
 ---
 
@@ -54,6 +54,12 @@ Pour utiliser le SDK, vous devez disposer d’un [schéma](../../../data/get-sta
 Pour personnaliser les offres, vous devez configurer séparément vos options de personnalisation/profils.
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
+
+>[!NOTE]
+>
+>**Transmission de données contextuelles dans les requêtes Edge Decisioning**
+>
+>Vous pouvez transmettre des données contextuelles (telles que le type d’appareil, l’emplacement ou les préférences utilisateur) dans vos requêtes Edge Decisioning pour créer des règles d’éligibilité dynamiques et diffuser des offres personnalisées en fonction des conditions en temps réel. [En savoir plus sur les demandes de données contextuelles et de prise de décision Edge](../../context-data-edge.md)
 
 Pour configurer le SDK pour la gestion des décisions, procédez à l’une des deux étapes ci-dessous :
 

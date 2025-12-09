@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '1051'
-ht-degree: 100%
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,12 @@ Vous pouvez créer et diffuser des offres en effectuant une requête POST à l&#
 Ce tutoriel nécessite une bonne compréhension des API, tout particulièrement en ce qui concerne la gestion des décisions.
 Pour plus d&#39;informations, consultez le [Guide de l&#39;API de gestion des décisions destiné aux développeurs](../getting-started.md).
 Ce tutoriel nécessite aussi que vous disposiez d&#39;un identifiant d&#39;emplacement et d&#39;un identifiant de décision uniques. Si vous ne disposez pas de ces valeurs, consultez les tutoriels sur la [création d&#39;un emplacement](../offers-api/placements/create.md) et la [création d&#39;une décision](../activities-api/activities/create.md).
+
+>[!NOTE]
+>
+>**Transmission de données contextuelles dans les requêtes de prise de décision**
+>
+>Vous pouvez transmettre des données contextuelles (telles que le type d’appareil, l’emplacement ou les préférences utilisateur) dans vos requêtes Decisioning pour créer des règles d’éligibilité dynamiques et diffuser des offres personnalisées en fonction des conditions en temps réel. [En savoir plus sur les données contextuelles et les requêtes de prise de décision](../../context-data-decisioning.md)
 
 ## En-têtes requis {#required-headers}
 
@@ -225,7 +231,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342829/?captions=fre_fr&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Étapes suivantes {#next-steps}
 
