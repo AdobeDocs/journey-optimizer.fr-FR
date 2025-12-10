@@ -119,7 +119,7 @@ Pour configurer des notifications :
 2. Dans **[!UICONTROL Notifications]**, recherchez **[!UICONTROL Journey Optimizer]**.
 3. Activez les types de notification à recevoir
 
-![Préférences de notification ](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
+![Préférences de notification &#x200B;](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
 ### Préférences de langue {#language}
 
@@ -164,7 +164,7 @@ AI Assistant fournit une aide instantanée et des informations opérationnelles.
 
 Pour une documentation complète sur chaque fonctionnalité :
 
-* **Parcours** - [Créez votre premier parcours ](../building-journeys/journey-gs.md)
+* **Parcours** - [Créez votre premier parcours &#x200B;](../building-journeys/journey-gs.md)
 * **Campagnes** - [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
 * **Offres et prise de décision** - [Gestion des décisions](../offers/get-started/starting-offer-decisioning.md)
 * **Création de contenu** - [Conception d’e-mail](../email/get-started-email-design.md)

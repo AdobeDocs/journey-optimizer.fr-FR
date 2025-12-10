@@ -68,7 +68,7 @@ En s’appuyant sur les capacités de conversation de l’assistant d’IA, Adob
 
 ### Agent d’analyse de parcours {#journey-agent}
 
-L&#39;agent d&#39;analyse de Parcours [](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
+L&#39;agent d&#39;analyse de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
 
 **Fonctionnalités clés :**
 
@@ -205,7 +205,7 @@ Créez des modèles de classement intelligents qui optimisent automatiquement le
 
 * Au moins 2 offres avec des données d’interaction suffisantes :
    * Plus de 100 événements d’affichage
-   * + de 5 clics sur les événements
+   * &#x200B;+ de 5 clics sur les événements
    * Au cours des 14 derniers jours
 * Maximum de 5 modèles de classement IA par organisation
 
@@ -251,7 +251,7 @@ Parcourez les playbooks Journey Optimizer pour obtenir des scénarios courants t
 * Configurations de canal pour les e-mails, les notifications push et/ou les SMS
 * Autorisations utilisateur pour la création de parcours et de messages
 
-![ Interface des playbooks de cas d’utilisation ](assets/playbooks-filter.png)
+![&#x200B; Interface des playbooks de cas d’utilisation &#x200B;](assets/playbooks-filter.png)
 
 [Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
@@ -310,7 +310,7 @@ La plupart des fonctionnalités d’IA sont incluses dans Adobe Journey Optimize
 >* [Assistant AI dans Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}
 >* [Documentation de l&#39;agent Parcours Analyze](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
 >* [Documentation de l’agent d’expérimentation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
->* [ Guide d’optimisation de l’heure d’envoi ](../building-journeys/send-time-optimization.md)
+>* [&#x200B; Guide d’optimisation de l’heure d’envoi &#x200B;](../building-journeys/send-time-optimization.md)
 >* [Créer des modèles de classement IA](../experience-decisioning/ranking/create-ai-models.md)
 >* [Documentation sur les playbooks de cas d’utilisation](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
