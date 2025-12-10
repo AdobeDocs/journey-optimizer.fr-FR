@@ -24,7 +24,7 @@ Découvrez les principes de base de Adobe Journey Optimizer et comment il permet
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Qu’est-ce que Journey Optimizer ?
 
@@ -34,7 +34,7 @@ Découvrez les principales fonctionnalités, les cas d’utilisation et la mani�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Comprendre son fonctionnement
 
@@ -44,7 +44,7 @@ Découvrez comment Journey Optimizer s’intègre à Adobe Experience Platform e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=fr)
 
 Terminologie Clé
 
@@ -61,7 +61,7 @@ Commencez avec des conseils spécifiques adaptés à vos responsabilités et obj
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=fr)
 
 Pour les professionnels du marketing
 
@@ -81,7 +81,7 @@ Configurez les structures de données, gérez les schémas et les jeux de donné
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Pour les administrateurs
 
@@ -110,7 +110,7 @@ Découvrez comment utiliser l’interface de Journey Optimizer, accéder aux pri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/search.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/search.svg?lang=fr)
 
 Rechercher et organiser
 
@@ -149,7 +149,7 @@ Découvrez comment l’IA vous aide à créer du contenu, à optimiser les temps
 
 * **[Surveillance et dépannage](troubleshoot-journey-landing-page.md)** - Outils de suivi des performances, d’identification des problèmes et de résolution rapide des problèmes
 * **[Nouveautés](../using/rn/release-notes.md)** - Tenez-vous informé des dernières fonctionnalités, améliorations et correctifs
-* **[Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - Communiquez avec d’autres utilisateurs, posez des questions et partagez les bonnes pratiques
+* **[Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}** - Communiquez avec d’autres utilisateurs, posez des questions et partagez les bonnes pratiques
 
 ## Liens rapides {#quick-links}
 
@@ -171,7 +171,7 @@ Choisissez le chemin qui vous convient le mieux :
 * **Vous découvrez Journey Optimizer ?** avec [Qu’est-ce que Journey Optimizer ?](../using/start/get-started.md) comprendre les principes de base
 * **Vous connaissez votre rôle ?** Accéder directement au guide [spécifique au rôle](../using/start/quick-start.md) qui correspond à vos responsabilités
 * **Vous souhaitez explorer ?** Parcourir les [fonctionnalités d’IA](../using/start/ai-features.md) ou essayer [Playbooks de cas d’utilisation](../using/start/ai-features.md#playbooks)
-* **Besoin d’aide ?** consulter le [Guide de dépannage](../using/start/troubleshooting.md) ou consultez le [Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+* **Besoin d’aide ?** consulter le [Guide de dépannage](../using/start/troubleshooting.md) ou consultez le [Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}
 
 >[!NOTE]
 >
