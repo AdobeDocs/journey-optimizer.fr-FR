@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expression, éditeur
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: abdce896a63f7d1eee7b45fea025405bf88cad2a
+workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 * **Canaux pris en charge** : la recherche de jeu de données avec prise de décision fonctionne actuellement pour les actions personnalisées de parcours et d’e-mail. <!--Support for code-based experience channels is coming soon.-->
 * **Utilisation des attributs** : la fonctionnalité de recherche de jeu de données pour la prise de décisions enrichit les définitions d’élément de décision avec des attributs supplémentaires, sans pour autant les appliquer aux profils.
-* Limites de recherche : [!DNL Journey Optimizer] prend en charge jusqu’à 1 000 recherches par politique de décision.
+* **Limites de recherche** : [!DNL Journey Optimizer] prend en charge jusqu’à 1 000 recherches par politique de décision unique.
 
 ## Conditions préalables
 
