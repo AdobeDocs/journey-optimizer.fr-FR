@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 92%
 
 ---
 
@@ -73,6 +73,10 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 * **Composition d’audiences** : créez un workflow de composition pour combiner les audiences existantes en une zone de travail visuelle et appliquer des actions telles que le classement, le partage et la jonction pour créer des audiences. [Découvrir comment utiliser la composition d’audiences](get-started-audience-orchestration.md)
 
 * **Composition d’audiences fédérées** : fédérez directement les jeux de données de votre entrepôt de données existant pour créer et enrichir les audiences et les attributs Adobe Experience Platform dans un seul système. [Découvrir comment utiliser la composition d’audiences fédérées](federated-audience-composition.md).
+
+## Cibler les audiences dans les parcours et les campagnes {#target-audiences}
+
+Une fois vos audiences prêtes, vous pouvez les sélectionner lors de la création de parcours ou de campagnes, ce qui vous permet d’atteindre les bonnes personnes au bon moment avec les messages pertinents. [En savoir plus sur l’activation des audiences dans Journey Optimizer](target-audiences.md).
 
 ## Vidéo pratique {#video}
 

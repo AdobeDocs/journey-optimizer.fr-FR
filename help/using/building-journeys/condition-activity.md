@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
-workflow-type: ht
-source-wordcount: '1773'
-ht-degree: 100%
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+workflow-type: tm+mt
+source-wordcount: '1804'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Les types de condition disponibles sont les suivants :
 * [Condition de date](#date_condition)
 * [Limite de profils](#profile_cap)
 
-Vous pouvez également utiliser une audience dans une condition de parcours. [En savoir plus](#using-a-segment)
+Vous pouvez également utiliser une audience dans une condition de parcours. [En savoir plus](#using-a-segment). Pour plus d’informations sur la génération et le ciblage d’audiences, consultez [cette section](../audience/about-audiences.md)
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 
 ![Éditeur d’expression affichant la sélection de champs et les opérateurs logiques ET/OU](assets/journey64.png)
 
-Si vous utilisez le [service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les utiliser dans vos conditions de parcours. Pour plus d’informations, consultez la section [Utilisation d’audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
+Si vous utilisez le [service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les utiliser dans vos conditions de parcours. Pour plus d&#39;informations, consultez la section [ Utilisation d&#39;une audience dans des conditions ](../building-journeys/condition-activity.md#using-a-segment). Pour plus d’informations sur la génération et le ciblage d’audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
 
 
 >[!NOTE]

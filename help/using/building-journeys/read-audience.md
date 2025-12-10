@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 67fe852bfeb64932999e7c5930114c027423aeb9
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '3045'
+source-wordcount: '3057'
 ht-degree: 86%
 
 ---
@@ -56,7 +56,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    >[!NOTE]
    >
-   >En outre, vous pouvez également cibler des audiences [!DNL Adobe Experience Platform] créées à l’aide de [compositions d’audience](../audience/get-started-audience-orchestration.md) ou [téléchargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}.
+   >En outre, vous pouvez également cibler des audiences [!DNL Adobe Experience Platform] créées à l’aide de [compositions d’audience](../audience/get-started-audience-orchestration.md) ou [téléchargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}. [En savoir plus sur comment générer et cibler des audiences dans Journey Optimizer](../audience/about-audiences.md).
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
@@ -96,7 +96,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
 * Gestion du débit des sandbox : le système gère dynamiquement le débit de traitement par sandbox avec une limite maximale de 20 000 profils par seconde partagés sur toutes les activités Lecture d’audience. Les activités individuelles Lecture d’audience peuvent être configurées avec un taux minimal de 500 profils par seconde. Si les limites de débit au niveau du sandbox sont atteintes, les tâches peuvent être mises en file d’attente pour garantir une allocation équitable des ressources.
 
-* Délai de traitement des tâches : les tâches de lecture d’audience qui ne peuvent pas être traitées dans les 12 heures en raison des limites du mécanisme de sécurisation seront automatiquement nettoyées et ne s’exécuteront jamais. Cela empêche l’accumulation des tâches et assure la stabilité du système.
+* Délai d’expiration du traitement des tâches : les tâches de lecture d’audience qui ne peuvent pas être traitées dans les 12 heures en raison des limites du mécanisme de sécurisation seront automatiquement nettoyées et ne s’exécuteront jamais. Cela empêche l’accumulation des tâches et assure la stabilité du système.
 
 * Lorsque vous utilisez des segments par lots, assurez-vous que l’ingestion et les mises à jour quotidiennes des instantanés se terminent bien avant le début du parcours. Prévoyez une période d’attente supplémentaire si les segments doivent refléter les données ingérées le même jour. Si l’actualisation immédiate des profils est essentielle, utilisez une approche basée sur les événements ou en flux continu au lieu d’une approche par lots quotidienne. Vous pouvez également insérer un mécanisme d’attente pour permettre aux données mises à jour de se propager avant l’évaluation du parcours.
 
@@ -348,4 +348,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

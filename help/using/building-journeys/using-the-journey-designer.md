@@ -10,10 +10,10 @@ level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1739'
-ht-degree: 100%
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+workflow-type: tm+mt
+source-wordcount: '1756'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ Il existe deux possibilités :
 
 1. **Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les individus rejoignent le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
 
-1. **Débuter avec une lecture d’audience** : vous pouvez définir votre parcours pour écouter les audiences Adobe Experience Platform. Dans ce cas, toutes les personnes appartenant à l’audience spécifiée rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux personnes appartenant à l’audience. En savoir plus sur la [lecture d’audience](read-audience.md).
+1. **Débuter avec une lecture d’audience** : vous pouvez définir votre parcours pour écouter les audiences Adobe Experience Platform. Dans ce cas, toutes les personnes appartenant à l’audience spécifiée rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux personnes appartenant à l’audience. En savoir plus sur la [lecture d’audience](read-audience.md). Pour plus d’informations sur la génération et le ciblage d’audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
 
 ## Définir les étapes suivantes{#define-next-steps}
 
@@ -108,7 +108,7 @@ Les activités d’action de canal vous permettent d’inclure un message conçu
 
 ## Ajout de chemins alternatifs {#paths}
 
-Vous pouvez définir une action de remplacement en cas d’erreur ou de dépassement de délai pour les activités de parcours suivantes : **[!UICONTROL Condition]** et **[!UICONTROL Action]**.
+Vous pouvez définir une action de remplacement en cas d’erreur ou de temporisation pour les activités de parcours suivantes : **[!UICONTROL Condition]** et **[!UICONTROL Action]**.
 
 Pour ajouter une action de remplacement pour une activité, sélectionnez l’option **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les propriétés de l’activité : un autre chemin est ajouté après l’activité. Le délai d’expiration est défini par les utilisateurs administrateurs dans la variable [Propriétés du parcours](../building-journeys/journey-properties.md). Par exemple, si l&#39;envoi d&#39;un e-mail prend trop de temps ou génère une erreur, vous pouvez décider d&#39;envoyer une notification push.
 
