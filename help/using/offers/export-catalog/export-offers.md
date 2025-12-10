@@ -10,10 +10,10 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '1983'
-ht-degree: 100%
+source-git-commit: 47f4ab608df3439c01ca962232a956016a1f8667
+workflow-type: tm+mt
+source-wordcount: '1934'
+ht-degree: 99%
 
 ---
 
@@ -83,9 +83,8 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **Champ :** caractéristiques 
 **Titre :** caractéristiques de l’option de décision
-**Description :** les caractéristiques sont des propriétés ou attributs supplémentaires d’offres qui appartiennent à cette option de décision spécifique. Ces attributs sont des paires clé-valeur, ce qui signifie qu’ils incluent un nom d’attribut (parfois appelé clé) auquel une valeur est associée, et sont utilisés pour distinguer une option de décision des autres offres. Par exemple, pour un nom d’attribut « couleur », la valeur peut être « vert » pour une offre spécifique.
-Les caractéristiques sont utilisées en tant que valeurs dans le contenu qui représente cette option de décision et en tant que fonctionnalités pour analyser et optimiser les performances d’une offre. Lorsque toutes les instances possèdent le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d’extension dérivé des détails de l’option de décision.
-**Type :** objet
+**Description :** les caractéristiques sont des propriétés ou attributs supplémentaires d’offres qui appartiennent à cette option de décision spécifique. Ces attributs sont des paires clé-valeur, ce qui signifie qu’ils incluent un nom d’attribut (parfois appelé clé) auquel une valeur est associée, et sont utilisés pour distinguer une option de décision des autres offres. Par exemple, pour un nom d’attribut « color », la valeur peut être « green » pour une offre spécifique.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Type:** objet
 
 +++
 
