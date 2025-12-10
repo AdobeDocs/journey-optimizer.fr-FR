@@ -10,10 +10,10 @@ level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
-workflow-type: ht
-source-wordcount: '732'
-ht-degree: 100%
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+workflow-type: tm+mt
+source-wordcount: '891'
+ht-degree: 82%
 
 ---
 
@@ -102,8 +102,18 @@ La bonne pratique consiste à utiliser des dates personnalisées spécifiques à
 
 Pour vérifier que l’activité d’attente fonctionne comme prévu, vous pouvez utiliser des événements d’étape. [En savoir plus](../reports/query-examples.md#common-queries).
 
-## Nœud d’attente automatique  {#auto-wait-node}
+## Actualisation du profil après l’attente {#profile-refresh}
 
+Lorsqu’un profil est parqué à une activité **Attente** dans un parcours commençant par une activité **Lecture d’audience**, le parcours actualise automatiquement les attributs du profil à partir du service de profil unifié (UPS) pour récupérer les dernières données disponibles.
+
+* **À l’entrée du parcours** : les profils utilisent des valeurs d’attribut de l’instantané d’audience qui a été évalué au démarrage du parcours.
+* **Après un nœud d’attente** : le parcours effectue une recherche pour récupérer les dernières données de profil de l’onduleur, et non les anciennes données d’instantané. Cela signifie que les attributs de profil peuvent avoir changé depuis le début du parcours.
+
+Ce comportement garantit que les activités en aval utilisent les informations de profil actuelles après une période d’attente. Cependant, cela peut produire des résultats inattendus si vous prévoyez que le parcours n’utilise que les données d’instantané d’origine pendant l’exécution.
+
+Exemple : si un profil est qualifié pour une audience « client(e) Silver » au début du parcours, mais passe à « client(e) Gold » pendant une attente de 3 jours, les activités après l’attente verront le statut « client(e) Gold » mis à jour.
+
+## Nœud d’attente automatique  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "

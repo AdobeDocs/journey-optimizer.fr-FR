@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '3530'
-ht-degree: 94%
+source-wordcount: '3575'
+ht-degree: 92%
 
 ---
 
@@ -196,7 +196,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -319,6 +319,7 @@ Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **
 Les mécanismes de sécurisation suivants s’appliquent à l’activité de parcours [Lecture d’audience](../building-journeys/read-audience.md) :
 
 * Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
+* À l’entrée du parcours, les profils utilisent les valeurs d’attribut de l’instantané d’audience par lots. Cependant, lorsqu’un profil atteint une activité **Attente**, le parcours actualise automatiquement les attributs de profil en récupérant les dernières données du service de profil unifié (UPS). Cela signifie que les attributs de profil peuvent changer pendant l’exécution du parcours.
 * Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les nouvelles tentatives sont effectuées par le système, mais il est recommandé d’éviter de lancer plus de cinq parcours (avec **Lecture d’audience**, planifiés ou démarrant « dès que possible ») exactement au même moment, en les espaçant dans le temps, par exemple de 5 à 10 minutes. Pour en savoir plus sur les autorisations de parcours, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 * L’activité **Lecture d’audience** ne peut pas être utilisée avec les activités Adobe Campaign.
 * L’activité **Lecture d’audience** ne peut être utilisée que comme première activité dans un parcours ou après une activité d’événement métier.

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '667'
+ht-degree: 90%
 
 ---
 
@@ -49,9 +49,7 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 * Utilisez une activité d’orchestration **Lecture d’audience** dans un parcours pour faire en sorte que toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. Supposons que vous ayez une audience « cliente ou cliente Silver ». Avec cette activité, vous pouvez faire en sorte que tous les clientes et clients Silver rejoignent un parcours et leur envoyer une série de messages personnalisés. [Découvrez comment configurer une activité Lecture d’audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-  >[!NOTE]
-  >
-  >Tout parcours qui utilise une audience provenant de la composition d’audiences ou du chargement personnalisé dans l’activité « Lecture d’audience » disposera d’attributs de profil aussi récents que la dernière évaluation par lots. Cela inclut le consentement/les suppressions dans le parcours.
+  Pour les parcours utilisant des audiences de composition d’audience ou de chargement personnalisé, les attributs de profil sont aussi récents que la dernière évaluation par lot à l’entrée du parcours. Cependant, après une activité **Attente**, le parcours actualise les attributs de profil depuis l’UPS (Unified Profile Service) en récupérant les dernières données disponibles, ce qui signifie que les attributs de profil peuvent changer pendant l’exécution du parcours. [En savoir plus sur l’actualisation du profil après une activité Attente ](../building-journeys/wait-activity.md#profile-refresh)
 
 * Utilisez l’activité **Condition** dans un parcours afin de créer des conditions basées sur l’appartenance à une audience. [Découvrez comment utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 
