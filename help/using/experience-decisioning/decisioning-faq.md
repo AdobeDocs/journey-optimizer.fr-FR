@@ -6,11 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
+source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -32,7 +30,7 @@ Si vous définissez deux règles de limitation pour une offre :
 
 L’offre ne s’affichera plus pour un utilisateur ou une utilisatrice une fois qu’il ou elle l’aura vue 5 fois par semaine, même si la limite totale de 100 n’a pas encore été atteinte. De même, une fois que 100 impressions totales sont atteintes, l’offre cesse d’être affichée pour tous les utilisateurs.
 
-En savoir plus sur les [&#x200B; règles de limitation &#x200B;](items.md#capping).
+En savoir plus sur les [ règles de limitation ](items.md#capping).
 
 +++
 
@@ -65,8 +63,8 @@ Lorsque plusieurs offres sont supprimées simultanément et que les offres resta
 
 Les modèles d’IA identifient et commencent à tester les nouvelles offres disponibles lors de leur prochain cycle de formation :
 
-* **Optimisation automatique** : quotidienne
-* **Optimisation personnalisée** : hebdomadaire
+* **Optimisation automatique** identifie et commence à tester de nouvelles offres lors de son prochain cycle de formation. L’entraînement d’optimisation automatique a lieu 3 à 4 fois par jour, environ toutes les 6 heures.
+* **Optimisation personnalisée** identifie et commence à tester les nouvelles offres au fur et à mesure qu’elles sont ajoutées à la stratégie d’offre. Ils seront inclus dans le trafic d’exploration aléatoire. Ensuite, ces offres seront personnalisées dans le prochain cycle de formation du modèle, sur une base hebdomadaire.
 
 Une fois identifiés, les deux modèles commenceront à proposer immédiatement les nouvelles offres à certains visiteurs afin de tester leurs performances et de collecter des données sur leur efficacité.
 
