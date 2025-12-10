@@ -63,6 +63,6 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 Seules les audiences créées dans le portail Audience peuvent être ciblées directement dans les parcours et campagnes [!DNL Journey Optimizer]. [En savoir plus sur les types d’audience disponibles](../audience/about-audiences.md#types).
 
-Si vous devez cibler des profils d’une audience non prise en charge, telle qu’une audience Customer Journey Analytics, vous devez les encapsuler dans une nouvelle définition de segment dans le portail Audience. Vous trouverez des informations détaillées sur l’ajout d’audiences dans une définition de segment dans la [documentation du créateur de segments](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Si vous devez cibler des profils d’une audience non prise en charge, telle qu’une audience Customer Journey Analytics, vous devez les encapsuler dans une nouvelle définition de segment dans le portail Audience. Vous trouverez des informations détaillées sur l’ajout d’audiences dans une définition de segment dans la [documentation du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Une fois l’évaluation terminée, attendez qu’elle soit terminée pour l’utiliser dans vos parcours et campagnes.
