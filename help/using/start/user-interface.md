@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c936f42c8b5d96bd5a7e0ccb36ecdb0d9b2e9957
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 33%
+source-wordcount: '1103'
+ht-degree: 34%
 
 ---
 
@@ -44,51 +44,49 @@ Le volet de navigation de gauche organise les fonctionnalités de Journey Optimi
 **Accueil** - Votre point de départ avec un accès rapide aux éléments récemment créés et aux ressources utiles
 
 **Gestion des Parcours** - Créez et gérez des expériences client
-* **Campagnes** - Créez des messages ponctuels ou planifiés pour des audiences spécifiques
-* **Parcours** - Créez des expériences client à plusieurs étapes et cross-canal
-* **Rapports** - Analyse des performances avec la création de rapports Customer Journey Analytics intégrée
+* **Campagnes** - Créez des messages ponctuels ou planifiés pour des audiences spécifiques. [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
+* **Parcours** - Créez des expériences client à plusieurs étapes et cross-canal. [Créer votre premier parcours](../building-journeys/journey-gs.md)
+* **Rapports** - Analysez les performances avec les rapports Customer Journey Analytics intégrés. [Voir la documentation sur le reporting](../reports/campaign-global-report.md)
 
-**Gestion des décisions** - Gérer les offres personnalisées
+**Gestion des décisions** - Gérez les offres personnalisées. [En savoir plus sur la gestion des décisions ](../offers/get-started/starting-offer-decisioning.md)
 * **Offres** - Créez et gérez des offres personnalisées
 * **Composants** - Configurez les emplacements, les règles et les balises pour les offres
 
 **Gestion de contenu** - Créez et organisez du contenu
-* **Assets** - Référentiel centralisé pour les images et les médias
-* **Modèles de contenu** - Modèles de message réutilisables pour les campagnes et les parcours
-* **Fragments** - Blocs de contenu pouvant être utilisés dans plusieurs messages
-* **Landing pages** - Formulaires web pour les abonnements et les préférences
+* **Assets** - Référentiel centralisé pour les images et les médias. [Gérer les ressources](../content-management/assets.md)
+* **Modèles de contenu** - Modèles de message réutilisables pour les campagnes et les parcours. [Créer des modèles](../content-management/content-templates.md)
+* **Fragments** - Blocs de contenu pouvant être utilisés dans plusieurs messages. [Utilisation de fragments](../content-management/fragments.md)
+* **Pages de destination** - Formulaires web pour les abonnements et les préférences. [Concevoir des pages de destination](../landing-pages/get-started-lp.md)
 
-**Gestion des données** - Gérez vos bases de données
+**Gestion des données** - Gérez vos bases de données. [Découvrez les schémas et les jeux de données](../data/get-started-schemas.md)
 * **Schémas** - Définition de la structure des données
 * **Jeux de données** - Stocker et gérer les collections de données
 * **Requêtes** - Écrivez et exécutez des requêtes
 * **Surveillance** - Suivi de l’ingestion des données
 
 **Connexions** - Intégration à d’autres systèmes
-* **Sources** - Ingérer des données à partir de systèmes externes
-* **Destinations** - Exporter les données vers l’espace de stockage dans le cloud
+* **Sources** - Ingérez des données à partir de systèmes externes. [Configurer les sources](../data/get-started-sources.md)
+* **Destinations** - Exportez les données vers l’espace de stockage dans le cloud. [Configurer des destinations](../data/export-datasets.md)
 
 **Client** - Gestion des audiences et des profils
-* **Audiences** - Créez et gérez des segments de clients
-* **Listes d’abonnements** - Gestion des listes de souscription
-* **Profils** - Afficher les profils clients unifiés
-* **Identités** - Gérer la résolution des identités
+* **Audiences** - Créez et gérez des segments de clients. [Utiliser les audiences](../audience/about-audiences.md)
+* **Listes d’abonnements** - Gérez les listes d’opt-in. [Gestion des abonnements](../landing-pages/subscription-list.md)
+* **Profils** - Affichez les profils clients unifiés. [Explorer les profils](../audience/get-started-profiles.md)
+* **Identités** - Gérez la résolution des identités. [En savoir plus sur les identités ](../audience/get-started-identity.md)
 
-**Confidentialité** - Contrôlez la confidentialité et la conformité
+**Confidentialité** - Contrôlez la confidentialité et la conformité. [Présentation de la confidentialité](../privacy/get-started-privacy.md)
 * **Politiques** - Définition des politiques de gouvernance des données
 * **Demandes** - Gérer les demandes d’accès à des informations personnelles (RGPD, CCPA)
-* **Audit** - Consulter les journaux d’activité
+* **Audit** - Consultez les journaux d’activité. [Afficher les journaux d’audit](../privacy/audit-logs.md)
 * **Cycle de vie des données** - Configurer la conservation des données
 
-**Administration** - Configuration des paramètres système
-* **Configurations** - Configurez des événements, des sources de données et des actions
-* **Règles métier** - Contrôle de la fréquence des messages et de la saisie des parcours
-* **Alertes** - Afficher et gérer les alertes système
-* **Sandbox** - Gérez les environnements et copiez des objets entre les sandbox
+**Administration** - Configurez les paramètres système. [Présentation du contrôle d’accès](../administration/permissions-overview.md)
+* **Configurations** - Configurez des événements, des sources de données et des actions. [Configurer des canaux](../configuration/get-started-configuration.md)
+* **Règles métier** - Contrôlez la fréquence des messages et l’entrée des parcours. [Configurer des règles métier](../configuration/frequency-rules.md)
+* **Alertes** - Affichez et gérez les alertes système. [Surveiller les alertes](../reports/alerts.md)
+* **Sandbox** - Gérez les environnements et copiez des objets entre les sandbox. [Utilisation des sandbox](../administration/sandboxes.md)
 * **Canaux** - Configurez les paramètres des canaux et la délivrabilité
 * **Balises** - Organiser et catégoriser le contenu
-
-[En savoir plus sur chaque fonctionnalité dans la documentation détaillée des fonctionnalités .](#feature-links)
 
 ## Fonctions de la barre supérieure {#top-bar}
 
@@ -119,7 +117,7 @@ Pour configurer des notifications :
 2. Dans **[!UICONTROL Notifications]**, recherchez **[!UICONTROL Journey Optimizer]**.
 3. Activez les types de notification à recevoir
 
-![Préférences de notification &#x200B;](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
+![Préférences de notification ](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
 ### Préférences de langue {#language}
 
@@ -159,20 +157,6 @@ AI Assistant fournit une aide instantanée et des informations opérationnelles.
 * Parcourir les concepts et les bonnes pratiques
 
 [En savoir plus sur l’assistant AI](ai-features.md#ai-assistant)
-
-## Liens de fonctionnalités détaillés {#feature-links}
-
-Pour une documentation complète sur chaque fonctionnalité :
-
-* **Parcours** - [Créez votre premier parcours &#x200B;](../building-journeys/journey-gs.md)
-* **Campagnes** - [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
-* **Offres et prise de décision** - [Gestion des décisions](../offers/get-started/starting-offer-decisioning.md)
-* **Création de contenu** - [Conception d’e-mail](../email/get-started-email-design.md)
-* **Audiences** - [Gestion de l’audience](../audience/about-audiences.md)
-* **Configuration des canaux** - [Configurer des canaux](../configuration/get-started-configuration.md)
-* **Gestion des données** - [Utilisation des schémas](../data/get-started-schemas.md)
-* **Confidentialité et gouvernance** - [Présentation de la confidentialité](../privacy/get-started-privacy.md)
-* **Administration** - [Contrôle d’accès](../administration/permissions-overview.md)
 
 ## Rubriques connexes {#related-topics}
 
