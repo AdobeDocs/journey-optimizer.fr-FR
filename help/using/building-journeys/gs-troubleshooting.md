@@ -59,9 +59,9 @@ Consultez les pages ci-dessous pour explorer les rubriques spécifiques de réso
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr">
 <img alt="Comprendre les codes d’erreur courants" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-<br>Consultez également <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">cet article de blog de la communauté Adobe</a> pour en savoir plus sur les <strong>codes d’erreur courants</strong> et sur la manière de les résoudre efficacement.
+<br>Consultez également <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr" target="_blank">cet article de blog de la communauté Adobe</a> pour en savoir plus sur les <strong>codes d’erreur courants</strong> et sur la manière de les résoudre efficacement.
     </div>
   </td>
 </tr>
