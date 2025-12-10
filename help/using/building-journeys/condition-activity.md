@@ -72,7 +72,7 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 
 ![Éditeur d’expression affichant la sélection de champs et les opérateurs logiques ET/OU](assets/journey64.png)
 
-Si vous utilisez le [service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les utiliser dans vos conditions de parcours. Pour plus d&#39;informations, consultez la section [ Utilisation d&#39;une audience dans des conditions ](../building-journeys/condition-activity.md#using-a-segment). Pour plus d’informations sur la génération et le ciblage d’audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
+Si vous utilisez le [service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les utiliser dans vos conditions de parcours. Pour plus d&#39;informations, consultez la section [&#x200B; Utilisation d&#39;une audience dans des conditions &#x200B;](../building-journeys/condition-activity.md#using-a-segment). Pour plus d’informations sur la génération et le ciblage d’audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
 
 
 >[!NOTE]
