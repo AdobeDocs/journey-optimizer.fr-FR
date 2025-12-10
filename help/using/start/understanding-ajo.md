@@ -29,7 +29,7 @@ Adobe Experience Platform sert de colonne vertébrale, ce qui permet aux marques
 
 * **Data Platform** - hub central pour la collecte, la gestion et la structuration des données clients afin d’assurer la cohérence entre les systèmes. [Découvrez les schémas et les jeux de données](../data/get-started-schemas.md)
 * **Ingestion de données (sources)** - Importez des données à partir de plateformes CRM, de sites web, d’applications mobiles et de solutions de stockage dans le cloud à l’aide de connecteurs préconfigurés. [Explorer des sources de données](../data/get-started-sources.md)
-* **Real-time Customer Profile** - Crée des profils unifiés en fusionnant des données issues de plusieurs sources (interactions par e-mail, achats en magasin, comportement web). [En savoir plus sur les profils ](../audience/get-started-profiles.md)
+* **Real-time Customer Profile** - Crée des profils unifiés en fusionnant des données issues de plusieurs sources (interactions par e-mail, achats en magasin, comportement web). [En savoir plus sur les profils &#x200B;](../audience/get-started-profiles.md)
 * **Couche de gouvernance** - Régit l’accès aux données, la conformité en matière de confidentialité et la sécurité tout en respectant les réglementations. [Afficher la documentation sur la confidentialité](../privacy/get-started-privacy.md)
 
 ### Adobe Journey Optimizer : moteur d’orchestration {#ajo-orchestration}
@@ -38,7 +38,7 @@ Adobe Journey Optimizer applique les données et les informations de Adobe Exper
 
 * **Présentation du client** - Les profils client en temps réel permettent la segmentation des audiences pour la messagerie ciblée. [Création d’audiences](../audience/about-audiences.md)
 * **Contenu et offres** - Outils de création, de gestion et de personnalisation de contenu ; logique en temps réel pour sélectionner la meilleure offre pour chaque individu. [Conception du contenu](../content-management/get-started-content.md) | [Gérer les offres](../offers/get-started/starting-offer-decisioning.md)
-* **Gestion des Parcours et des campagnes** - Automatise les séquences d’interactions (parcours) ou planifie des messages ciblés ponctuels (campagnes). [Créer des parcours ](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
+* **Gestion des Parcours et des campagnes** - Automatise les séquences d’interactions (parcours) ou planifie des messages ciblés ponctuels (campagnes). [Créer des parcours &#x200B;](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
 * **Diffusion (connexions)** - Diffuse les messages par le biais de canaux tels que les e-mails, les SMS, les notifications push et le publipostage direct ; exporte les données vers des systèmes externes. [Configurer des canaux](../configuration/get-started-configuration.md)
 * **Mesures et analyses** - Effectue le suivi de l’engagement des clients et des performances des campagnes avec des rapports d’amélioration continue. [Affichage des rapports](../reports/campaign-global-report.md)
 
