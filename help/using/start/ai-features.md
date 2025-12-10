@@ -68,7 +68,7 @@ En s’appuyant sur les capacités de conversation de l’assistant d’IA, Adob
 
 ### Agent d’analyse de parcours {#journey-agent}
 
-L&#39;agent d&#39;analyse de Parcours [](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
+L&#39;agent d&#39;analyse de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
 
 +++**Fonctionnalités clés**
 
@@ -142,9 +142,9 @@ Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieu
 
 ### Fonctionnalités clés
 
-* **Génération de texte** - Créez une copie attrayante basée sur la voix et les objectifs de votre marque. [ Générer du texte avec l’IA ](../content-management/generative-text.md)
+* **Génération de texte** - Créez une copie attrayante basée sur la voix et les objectifs de votre marque. [&#x200B; Générer du texte avec l’IA &#x200B;](../content-management/generative-text.md)
 * **Génération d’images** - Générez des images personnalisées à l’aide d’Adobe Firefly. [Générer des images avec l’IA](../content-management/generative-image.md)
-* **Variations de contenu** - Produisez plusieurs variations pour les tests A/B. [ Expérience de contenu avec l’IA ](../content-management/generative-experimentation.md)
+* **Variations de contenu** - Produisez plusieurs variations pour les tests A/B. [&#x200B; Expérience de contenu avec l’IA &#x200B;](../content-management/generative-experimentation.md)
 * **Alignement des marques** - Assurez-vous que le contenu généré correspond à vos directives de marque. [Évaluation de l’alignement de la marque](../content-management/brands-score.md)
 * **Prise en charge des modèles** - Tirez parti de vos modèles d’e-mail existants. [Utiliser des modèles de contenu](../content-management/content-templates.md)
 
@@ -191,7 +191,7 @@ Créez des modèles de classement intelligents qui optimisent automatiquement le
 
 * Au moins 2 offres avec des données d’interaction suffisantes :
    * Plus de 100 événements d’affichage
-   * + de 5 clics sur les événements
+   * &#x200B;+ de 5 clics sur les événements
    * Au cours des 14 derniers jours
 * Maximum de 5 modèles de classement IA par organisation
 
@@ -214,7 +214,7 @@ Fonctionnalités clés :
 
 Les playbooks de cas d’utilisation sont des workflows préconfigurés qui vous permettent d’implémenter rapidement des scénarios marketing courants. Chaque playbook comprend des parcours prêts à l’emploi, des messages, des schémas et des segments.
 
-![ Interface des playbooks de cas d’utilisation ](assets/playbooks-filter.png)
+![&#x200B; Interface des playbooks de cas d’utilisation &#x200B;](assets/playbooks-filter.png)
 
 ### Fonctionnement des playbooks
 

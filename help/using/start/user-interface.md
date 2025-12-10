@@ -48,7 +48,7 @@ Le volet de navigation de gauche organise les fonctionnalités de Journey Optimi
 * **Parcours** - Créez des expériences client à plusieurs étapes et cross-canal. [Créer votre premier parcours](../building-journeys/journey-gs.md)
 * **Rapports** - Analysez les performances avec les rapports Customer Journey Analytics intégrés. [Voir la documentation sur le reporting](../reports/campaign-global-report-cja.md)
 
-**Gestion des décisions** - Gérez les offres personnalisées. [En savoir plus sur la gestion des décisions ](../offers/get-started/starting-offer-decisioning.md)
+**Gestion des décisions** - Gérez les offres personnalisées. [En savoir plus sur la gestion des décisions &#x200B;](../offers/get-started/starting-offer-decisioning.md)
 * **Offres** - Créez et gérez des offres personnalisées
 * **Composants** - Configurez les emplacements, les règles et les balises pour les offres
 
@@ -73,7 +73,7 @@ Le volet de navigation de gauche organise les fonctionnalités de Journey Optimi
 * **Audiences** - Créez et gérez des segments de clients. [Utiliser les audiences](../audience/about-audiences.md)
 * **Listes d’abonnements** - Gérez les listes d’opt-in. [Gestion des abonnements](../landing-pages/subscription-list.md)
 * **Profils** - Affichez les profils clients unifiés. [Explorer les profils](../audience/get-started-profiles.md)
-* **Identités** - Gérez la résolution des identités. [En savoir plus sur les identités ](../audience/get-started-identity.md)
+* **Identités** - Gérez la résolution des identités. [En savoir plus sur les identités &#x200B;](../audience/get-started-identity.md)
 
 **Confidentialité** - Contrôlez la confidentialité et la conformité. [Présentation de la confidentialité](../privacy/get-started-privacy.md)
 * **Politiques** - Définition des politiques de gouvernance des données
@@ -86,7 +86,7 @@ Le volet de navigation de gauche organise les fonctionnalités de Journey Optimi
 * **Règles métier** - Contrôlez la fréquence des messages et l’entrée des parcours. [Configurer des règles métier](../conflict-prioritization/rule-sets.md)
 * **Alertes** - Affichez et gérez les alertes système. [Surveiller les alertes](../reports/alerts.md)
 * **Sandbox** - Gérez les environnements et copiez des objets entre les sandbox. [Utilisation des sandbox](../administration/sandboxes.md)
-* **Canaux** - Configurez les paramètres des canaux et la délivrabilité. [Configurer des configurations de canal](../configuration/channel-surfaces.md) | [Prise en main de la configuration ](../configuration/get-started-configuration.md)
+* **Canaux** - Configurez les paramètres des canaux et la délivrabilité. [Configurer des configurations de canal](../configuration/channel-surfaces.md) | [Prise en main de la configuration &#x200B;](../configuration/get-started-configuration.md)
 * **Balises** - Organisez et catégorisez le contenu. [Utiliser des balises unifiées](search-filter-categorize.md#tags)
 
 ## Fonctions de la barre supérieure {#top-bar}
@@ -118,7 +118,7 @@ Pour configurer des notifications :
 2. Dans **[!UICONTROL Notifications]**, recherchez **[!UICONTROL Journey Optimizer]**.
 3. Activez les types de notification à recevoir
 
-![Préférences de notification ](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
+![Préférences de notification &#x200B;](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
 ### Préférences de langue {#language}
 
