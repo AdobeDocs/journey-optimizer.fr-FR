@@ -5,7 +5,7 @@ title: À propos de l’activité Lecture d’audience
 description: Découvrez comment utiliser l’activité Lecture d’audience dans une campagne orchestrée.
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: eaaa11352bcb0b77c5517836b26eb2e72b82ac20
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 95%
@@ -52,7 +52,7 @@ Pour configurer l’activité **[!UICONTROL Lecture d’audience]**, procédez c
 
 1. Saisissez un **[!UICONTROL libellé]** pour votre activité. Ce libellé servira de nom à votre audience.
 
-1. Cliquez sur ![icône de recherche de dossier](../assets/do-not-localize/folder-search.svg) pour sélectionner l’audience que vous souhaitez cibler pour votre campagne orchestrée. [En savoir plus sur comment générer et cibler des audiences dans Journey Optimizer](../audience/about-audiences.md).
+1. Cliquez sur ![icône de recherche de dossier](../assets/do-not-localize/folder-search.svg) pour sélectionner l’audience que vous souhaitez cibler pour votre campagne orchestrée. [En savoir plus sur comment générer et cibler des audiences dans Journey Optimizer](../../audience/about-audiences.md).
 
    ![](../assets/read-audience-2.png)
 
