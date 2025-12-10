@@ -76,6 +76,6 @@ Découvrez comment créer et personnaliser vos propres marques pour définir cla
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on)
 
 +++
