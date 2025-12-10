@@ -258,7 +258,7 @@ Vous ne pouvez pas désactiver une configuration de canal dans les cas suivants 
 
 * S’il est référencé par un parcours actif. Toute tentative de désactivation d’une configuration toujours en cours d’utilisation par un parcours dynamique entraîne une erreur.
 
-  Pour désactiver une configuration de canal, assurez-vous que tous les parcours en direct utilisant cette configuration sont fermés ou arrêtés. [Découvrez comment terminer un parcours ](../building-journeys/end-journey.md)
+  Pour désactiver une configuration de canal, assurez-vous que tous les parcours en direct utilisant cette configuration sont fermés ou arrêtés. [Découvrez comment terminer un parcours &#x200B;](../building-journeys/end-journey.md)
 
 * Pendant le traitement d’une mise à jour de la configuration du canal. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canal](#edit-channel-surface) et sur les [statuts de mise à jour](#update-statuses).
 
