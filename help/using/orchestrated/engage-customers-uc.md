@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Impliquer les clients en parcourant l’activité
 description: Impliquer les clients en parcourant l’activité
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-Notez que ce cas d’utilisation commence par une audience qui existe déjà dans Experience Platform, en particulier une audience de comportement web en temps réel qui collecte l’activité de navigation au fur et à mesure qu’elle se produit. [En savoir plus dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Notez que ce cas d’utilisation commence par une audience qui existe déjà dans Experience Platform, en particulier une audience de comportement web en temps réel qui collecte l’activité de navigation au fur et à mesure qu’elle se produit. [En savoir plus dans Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Schémas nécessaires pour ce cas d’utilisation :**
 

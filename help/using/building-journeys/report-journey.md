@@ -3,17 +3,17 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Publier le parcours
 description: Découvrir comment obtenir des rapports sur votre parcours
-feature: Journeys
+feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -52,17 +52,17 @@ Pour chaque activité de chaque parcours actif ou en [mode Test à blanc](journe
 
 ## Résolution des problèmes liés aux données de rapport manquantes {#troubleshooting-missing-data}
 
-Si vous ne voyez pas les données attendues dans vos rapports de parcours, tenez compte des points suivants :
+Si les rapports de parcours ne contiennent pas les données attendues, tenez compte des points suivants :
 
-* **Synchronisation des noms de Parcours** : vérifiez que le nom du parcours dans Adobe Journey Optimizer correspond au nom stocké dans le jeu de données de rapports. Une incohérence entre ces noms peut empêcher l’affichage correct des données de rapport.
+* **Synchronisation des noms de parcours** : vérifiez que le nom du parcours dans Adobe Journey Optimizer correspond au nom stocké dans le jeu de données de rapports. Une incohérence entre ces noms peut empêcher l’affichage correct des données de rapport.
 
-* **Délai d’actualisation des données** : après la mise à jour d’un nom ou d’une configuration de parcours, patientez suffisamment longtemps pour actualiser les données. Les données de création de rapports apparaissent généralement en quelques minutes, mais peuvent prendre plus de temps dans certains cas.
+* **Délai d’actualisation des données** : après la mise à jour d’un nom ou d’une configuration de parcours, patientez suffisamment longtemps pour actualiser les données. Les données de rapports apparaissent généralement en quelques minutes, mais peuvent prendre plus de temps dans certains cas.
 
-* **Autorisations d’accès** : vérifiez que vous disposez des autorisations nécessaires pour afficher les rapports de parcours. Si vous ne voyez aucune donnée, vérifiez auprès de votre administrateur que l’autorisation **[!UICONTROL Afficher le rapport des parcours]** est activée. [En savoir plus sur les autorisations](../administration/permissions.md)
+* **Autorisations d’accès** : vérifiez que vous disposez des autorisations nécessaires pour afficher les rapports de parcours. Si vous ne voyez aucune donnée, vérifiez auprès de votre administrateur ou administratrice que l’autorisation **[!UICONTROL Afficher le rapport des parcours]** est activée. [En savoir plus sur les autorisations](../administration/permissions.md)
 
-* **Statut du Parcours** : les données de rapport ne sont disponibles que pour les parcours publiés ou les parcours s’exécutant en [mode d’exécution d’essai](journey-dry-run.md). Les brouillons de parcours ne génèrent pas de données de rapport.
+* **Statut de parcours** : les données de rapport ne sont disponibles que pour les parcours publiés ou les parcours s’exécutant en [mode test à blanc](journey-dry-run.md). Les brouillons de parcours ne génèrent pas de données de rapport.
 
-Si les problèmes persistent après avoir vérifié ces éléments, contactez votre administrateur Adobe ou l’assistance Adobe pour obtenir de l’aide.
+Si les problèmes persistent après avoir vérifié ces éléments, contactez votre administrateur ou administratrice Adobe ou l’assistance Adobe pour obtenir de l’aide.
 
 >[!MORELIKETHIS]
 >

@@ -4,10 +4,10 @@ product: journey optimizer
 title: Générer du texte avec l’assistant d’IA
 description: Découvrez comment générer du contenu texte avec l’assistant AI dans Journey Optimizer.
 feature: Content Assistant
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 41%

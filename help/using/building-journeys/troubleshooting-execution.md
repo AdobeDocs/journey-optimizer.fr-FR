@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Résoudre les problèmes d’exécution de votre parcours actif
 description: Découvrez comment résoudre les erreurs d’exécution des parcours actifs.
-feature: Journeys
+feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
-workflow-type: ht
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 100%
 

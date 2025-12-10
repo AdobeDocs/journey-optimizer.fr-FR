@@ -4,21 +4,19 @@ product: journey optimizer
 title: Convertir des images en modèles HTML avec le convertisseur d’images en HTML
 description: Découvrez comment utiliser le convertisseur d’images en HTML optimisé par l’IA pour convertir des conceptions d’image en modèles d’e-mail HTML modifiables.
 feature: Email Design
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 badge: label="Disponibilité limitée" type="Informative"
 keywords: e-mail, modèle, image, HTML, IA, conception, convertisseur
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: ht
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
 ---
 
 # Convertir des images en modèles HTML avec le convertisseur d’images en HTML {#image-to-html}
-
-
 
 ## Vue d’ensemble {#overview}
 

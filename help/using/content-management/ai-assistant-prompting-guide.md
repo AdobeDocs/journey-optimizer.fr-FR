@@ -3,9 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Guide de création de prompts de contenu avec l’assistant IA
 description: Découvrez comment créer des prompts efficaces pour la génération de contenu optimisé par l’IA à l’aide du framework CO-STAR afin de créer du contenu marketing à conversion élevée et aligné sur la marque.
+topic: Artificial Intelligence
 role: User
 level: Intermediate
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 100%
