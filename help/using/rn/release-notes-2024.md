@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -756,7 +756,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tr>
 <td>
 <p>L’assistant IA est une fonctionnalité de l’interface d’utilisation qui vous permet de parcourir et de comprendre les concepts Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique. Il est disponible dans plusieurs produits Adobe Experience Cloud, y compris Adobe Journey Optimizer.</p>
-<p>Pour plus d’informations, consultez la <a href="../start/ai-assistant.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../start/ai-features.md#ai-assistant">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -1308,7 +1308,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tr>
 <td>
 <p>Tirez profit d’un catalogue de playbooks de cas d’utilisation spécifiques à des secteurs d’activité dans Real-Time CDP et Journey Optimizer pour traiter les cas d’utilisation courants que vous pouvez exécuter à l’aide d’Adobe Experience Platform et d’Adobe Journey Optimizer.</p><p>Une fois que vous avez choisi le playbook qui correspond le mieux à vos besoins, vous pouvez lui permettre de générer les ressources nécessaires à la prise en charge de votre cas d’utilisation, telles que des parcours, des messages, des schémas ou des segments, et de les personnaliser dans votre schéma pour réduire le délai de rentabilisation.</p>
-<p>Pour plus d’informations, consultez la <a href="../start/playbooks.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../start/ai-features.md#playbooks">documentation détaillée</a>.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>

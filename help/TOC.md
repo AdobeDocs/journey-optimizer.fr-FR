@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
+source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 99%
+source-wordcount: '2995'
+ht-degree: 98%
 
 ---
 
@@ -32,24 +32,22 @@ ht-degree: 99%
    + [Amélioration de la zone de travail de parcours](using/rn/new-canvas.md)
 + Commencer {#get-started}
    + [Commencer](/help/rp_landing_pages/get-started-landing-page.md)
-   + [Fonctionnalités principales](using/start/get-started.md)
-   + [Architecture](using/start/architecture-concepts-redpen.md)
-   + [Concepts de base](using/start/functional-areas-redpen.md)
-   + [Terminologie clé](using/start/terminology-md-redpen.md)
-   + Rôles et responsabilités {#quick-start}
-      + [Vue d’ensemble](using/start/quick-start.md)
+   + Essentiels {#essentials}
+      + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
+      + [Comprendre son fonctionnement](using/start/understanding-ajo.md)
+      + [Terminologie clé](using/start/terminology.md)
+      + [Mécanismes de sécurisation et limitations](using/start/guardrails.md)
+   + Prise en main par rôle {#by-role}
+      + [Choisir votre parcours de formation](using/start/quick-start.md)
       + [Prise en main en tant que spécialiste marketing](using/start/path/marketer.md)
       + [Prise en main en tant qu’ingénieur de données](using/start/path/data-engineer.md)
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
       + [Prise en main en tant que développeur](using/start/path/developer.md)
-   + Interface d’utilisation {#ui}
-      + [Commencer avec l’interface](using/start/user-interface.md)
-      + [Recherche, filtrage, catégorisation](using/start/search-filter-categorize.md)
+   + Travailler efficacement {#work-efficiently}
+      + [Navigation dans l’interface](using/start/user-interface.md)
+      + [Rechercher, filtrer et organiser](using/start/search-filter-categorize.md)
+      + [Fonctionnalités intelligentes et d’IA](using/start/ai-features.md)
       + [Accessibilité](using/start/accessibility.md)
-   + [Utiliser l’Assistant IA](using/start/ai-assistant.md)
-   + [Fonctionnalités d’IA dans AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
-   + [Playbooks de cas d’utilisation](using/start/playbooks.md)
-   + [Mécanismes de sécurisation et limitations](using/start/guardrails.md)
 + Parcours {#orchestrate-journeys}
    + [Parcours](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Commencer les parcours](using/building-journeys/journey.md)
@@ -178,8 +176,8 @@ ht-degree: 99%
          + [Orchestrer les activités](using/orchestrated/orchestrate-activities.md)
          + [Démarrer et surveiller la campagne](using/orchestrated/start-monitor-campaigns.md)
          + [Création de rapports](using/orchestrated/reporting-campaigns.md)
-      + Interroger la base de données {#query-database}
-         + [Interroger la base de données](/help/rp_landing_pages/query-database-landing-page.md)
+      + Interrogation de la base de données {#query-database}
+         + [Interrogation de la base de données](/help/rp_landing_pages/query-database-landing-page.md)
          + [Utiliser le créateur de règles](using/orchestrated/orchestrated-rule-builder.md)
          + [Créer votre première règle](using/orchestrated/build-query.md)
          + [Modifier les expressions](using/orchestrated/edit-expressions.md)
@@ -918,7 +916,7 @@ ht-degree: 99%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
