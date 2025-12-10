@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 34%
@@ -46,14 +46,14 @@ Le volet de navigation de gauche organise les fonctionnalités de Journey Optimi
 **Gestion des Parcours** - Créez et gérez des expériences client
 * **Campagnes** - Créez des messages ponctuels ou planifiés pour des audiences spécifiques. [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
 * **Parcours** - Créez des expériences client à plusieurs étapes et cross-canal. [Créer votre premier parcours](../building-journeys/journey-gs.md)
-* **Rapports** - Analysez les performances avec les rapports Customer Journey Analytics intégrés. [Voir la documentation sur le reporting](../reports/campaign-global-report.md)
+* **Rapports** - Analysez les performances avec les rapports Customer Journey Analytics intégrés. [Voir la documentation sur le reporting](../reports/campaign-global-report-cja.md)
 
-**Gestion des décisions** - Gérez les offres personnalisées. [En savoir plus sur la gestion des décisions &#x200B;](../offers/get-started/starting-offer-decisioning.md)
+**Gestion des décisions** - Gérez les offres personnalisées. [En savoir plus sur la gestion des décisions ](../offers/get-started/starting-offer-decisioning.md)
 * **Offres** - Créez et gérez des offres personnalisées
 * **Composants** - Configurez les emplacements, les règles et les balises pour les offres
 
 **Gestion de contenu** - Créez et organisez du contenu
-* **Assets** - Référentiel centralisé pour les images et les médias. [Gérer les ressources](../content-management/assets.md)
+* **Assets** - Référentiel centralisé pour les images et les médias. [Gérer les ressources](../integrations/assets.md)
 * **Modèles de contenu** - Modèles de message réutilisables pour les campagnes et les parcours. [Créer des modèles](../content-management/content-templates.md)
 * **Fragments** - Blocs de contenu pouvant être utilisés dans plusieurs messages. [Utilisation de fragments](../content-management/fragments.md)
 * **Pages de destination** - Formulaires web pour les abonnements et les préférences. [Concevoir des pages de destination](../landing-pages/get-started-lp.md)
@@ -65,14 +65,14 @@ Le volet de navigation de gauche organise les fonctionnalités de Journey Optimi
 * **Surveillance** - Suivi de l’ingestion des données
 
 **Connexions** - Intégration à d’autres systèmes
-* **Sources** - Ingérez des données à partir de systèmes externes. [Configurer les sources](../data/get-started-sources.md)
+* **Sources** - Ingérez des données à partir de systèmes externes. [Configurer les sources](get-started-sources.md)
 * **Destinations** - Exportez les données vers l’espace de stockage dans le cloud. [Configurer des destinations](../data/export-datasets.md)
 
 **Client** - Gestion des audiences et des profils
 * **Audiences** - Créez et gérez des segments de clients. [Utiliser les audiences](../audience/about-audiences.md)
 * **Listes d’abonnements** - Gérez les listes d’opt-in. [Gestion des abonnements](../landing-pages/subscription-list.md)
 * **Profils** - Affichez les profils clients unifiés. [Explorer les profils](../audience/get-started-profiles.md)
-* **Identités** - Gérez la résolution des identités. [En savoir plus sur les identités &#x200B;](../audience/get-started-identity.md)
+* **Identités** - Gérez la résolution des identités. [En savoir plus sur les identités ](../audience/get-started-identity.md)
 
 **Confidentialité** - Contrôlez la confidentialité et la conformité. [Présentation de la confidentialité](../privacy/get-started-privacy.md)
 * **Politiques** - Définition des politiques de gouvernance des données
@@ -82,7 +82,7 @@ Le volet de navigation de gauche organise les fonctionnalités de Journey Optimi
 
 **Administration** - Configurez les paramètres système. [Présentation du contrôle d’accès](../administration/permissions-overview.md)
 * **Configurations** - Configurez des événements, des sources de données et des actions. [Configurer des canaux](../configuration/get-started-configuration.md)
-* **Règles métier** - Contrôlez la fréquence des messages et l’entrée des parcours. [Configurer des règles métier](../configuration/frequency-rules.md)
+* **Règles métier** - Contrôlez la fréquence des messages et l’entrée des parcours. [Configurer des règles métier](../conflict-prioritization/rule-sets.md)
 * **Alertes** - Affichez et gérez les alertes système. [Surveiller les alertes](../reports/alerts.md)
 * **Sandbox** - Gérez les environnements et copiez des objets entre les sandbox. [Utilisation des sandbox](../administration/sandboxes.md)
 * **Canaux** - Configurez les paramètres des canaux et la délivrabilité
@@ -117,7 +117,7 @@ Pour configurer des notifications :
 2. Dans **[!UICONTROL Notifications]**, recherchez **[!UICONTROL Journey Optimizer]**.
 3. Activez les types de notification à recevoir
 
-![Préférences de notification &#x200B;](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
+![Préférences de notification ](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
 ### Préférences de langue {#language}
 

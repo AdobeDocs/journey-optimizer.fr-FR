@@ -6,7 +6,7 @@ description: Découvrez comment Adobe Journey Optimizer fonctionne avec Adobe Ex
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 11%
@@ -28,8 +28,8 @@ Adobe Journey Optimizer fonctionne comme un flux continu où les données sont c
 Adobe Experience Platform sert de colonne vertébrale, ce qui permet aux marques de centraliser les données client et de les activer pour des expériences personnalisées :
 
 * **Data Platform** - hub central pour la collecte, la gestion et la structuration des données clients afin d’assurer la cohérence entre les systèmes. [Découvrez les schémas et les jeux de données](../data/get-started-schemas.md)
-* **Ingestion de données (sources)** - Importez des données à partir de plateformes CRM, de sites web, d’applications mobiles et de solutions de stockage dans le cloud à l’aide de connecteurs préconfigurés. [Explorer des sources de données](../data/get-started-sources.md)
-* **Real-time Customer Profile** - Crée des profils unifiés en fusionnant des données issues de plusieurs sources (interactions par e-mail, achats en magasin, comportement web). [En savoir plus sur les profils &#x200B;](../audience/get-started-profiles.md)
+* **Ingestion de données (sources)** - Importez des données à partir de plateformes CRM, de sites web, d’applications mobiles et de solutions de stockage dans le cloud à l’aide de connecteurs préconfigurés. [Explorer des sources de données](get-started-sources.md)
+* **Real-time Customer Profile** - Crée des profils unifiés en fusionnant des données issues de plusieurs sources (interactions par e-mail, achats en magasin, comportement web). [En savoir plus sur les profils ](../audience/get-started-profiles.md)
 * **Couche de gouvernance** - Régit l’accès aux données, la conformité en matière de confidentialité et la sécurité tout en respectant les réglementations. [Afficher la documentation sur la confidentialité](../privacy/get-started-privacy.md)
 
 ### Adobe Journey Optimizer : moteur d’orchestration {#ajo-orchestration}
@@ -37,10 +37,10 @@ Adobe Experience Platform sert de colonne vertébrale, ce qui permet aux marques
 Adobe Journey Optimizer applique les données et les informations de Adobe Experience Platform pour offrir des expériences client intelligentes et personnalisées :
 
 * **Présentation du client** - Les profils client en temps réel permettent la segmentation des audiences pour la messagerie ciblée. [Création d’audiences](../audience/about-audiences.md)
-* **Contenu et offres** - Outils de création, de gestion et de personnalisation de contenu ; logique en temps réel pour sélectionner la meilleure offre pour chaque individu. [Conception du contenu](../content-management/get-started-content.md) | [Gérer les offres](../offers/get-started/starting-offer-decisioning.md)
-* **Gestion des Parcours et des campagnes** - Automatise les séquences d’interactions (parcours) ou planifie des messages ciblés ponctuels (campagnes). [Créer des parcours &#x200B;](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
+* **Contenu et offres** - Outils de création, de gestion et de personnalisation de contenu ; logique en temps réel pour sélectionner la meilleure offre pour chaque individu. [Conception du contenu](../../rp_landing_pages/content-management-landing-page.md) | [Gérer les offres](../offers/get-started/starting-offer-decisioning.md)
+* **Gestion des Parcours et des campagnes** - Automatise les séquences d’interactions (parcours) ou planifie des messages ciblés ponctuels (campagnes). [Créer des parcours ](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
 * **Diffusion (connexions)** - Diffuse les messages par le biais de canaux tels que les e-mails, les SMS, les notifications push et le publipostage direct ; exporte les données vers des systèmes externes. [Configurer des canaux](../configuration/get-started-configuration.md)
-* **Mesures et analyses** - Effectue le suivi de l’engagement des clients et des performances des campagnes avec des rapports d’amélioration continue. [Affichage des rapports](../reports/campaign-global-report.md)
+* **Mesures et analyses** - Effectue le suivi de l’engagement des clients et des performances des campagnes avec des rapports d’amélioration continue. [Affichage des rapports](../reports/campaign-global-report-cja.md)
 
 ### Le cycle d’optimisation continue {#optimization-cycle}
 
@@ -56,7 +56,7 @@ Journey Optimizer comprend sept domaines fonctionnels clés qui fonctionnent ens
 |-----------------|---------|----------------|
 | **Gestion des données** | Organisation des données client | Définir des schémas, créer des jeux de données, importer des données de divers systèmes. [En savoir plus](../data/get-started-schemas.md) |
 | **Gestion des clients** | Comprendre qui est la clientèle | Créer des profils unifiés, résoudre des identités et créer des audiences. [En savoir plus](../audience/get-started-profiles.md) |
-| **Gestion de contenu** | Création de messages personnalisés | Concevoir des e-mails, gérer des ressources, créer des modèles et des fragments, personnaliser le contenu. [En savoir plus](../content-management/get-started-content.md) |
+| **Gestion de contenu** | Création de messages personnalisés | Concevoir des e-mails, gérer des ressources, créer des modèles et des fragments, personnaliser le contenu. [En savoir plus](../../rp_landing_pages/content-management-landing-page.md) |
 | **Gestion des décisions** | Sélection de la meilleure offre en temps réel | Gérer la bibliothèque des offres, définir des règles, appliquer des contraintes, établir une logique de classement. [En savoir plus](../offers/get-started/starting-offer-decisioning.md) |
 | **Gestion des Parcours** | Concevoir des expériences client automatisées | Créez des parcours avec le concepteur visuel, définissez des déclencheurs, ajoutez des conditions et des étapes d’attente. [En savoir plus](../building-journeys/journey-gs.md) |
 | **Connexions** | Connecter les sources de données et les canaux | Configurez les connecteurs source, configurez les canaux, connectez-vous aux plateformes externes. [En savoir plus](../configuration/get-started-configuration.md) |
