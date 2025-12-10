@@ -7,16 +7,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4847276532155a698cf997e22a0894c737208595
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1469'
 ht-degree: 4%
 
 ---
 
 # Fonctionnalités intelligentes et d’IA {#ai-features}
 
-Adobe Journey Optimizer exploite la puissance de l’intelligence artificielle et du machine learning pour vous aider à créer, optimiser et offrir des expériences client exceptionnelles. De la génération de contenu personnalisé à la prévision d’heures d’envoi optimales, les fonctionnalités d’IA rationalisent votre workflow et maximisent l’impact.
+Adobe Journey Optimizer exploite la puissance de l’intelligence artificielle et du machine learning pour vous aider à créer, optimiser et offrir des expériences client exceptionnelles. De la génération de contenu personnalisé à la prévision d’heures d’envoi optimales, les fonctionnalités d’IA rationalisent votre workflow et maximisent l’impact. Les playbooks de cas d’utilisation fournissent des modèles préconfigurés pour mettre en œuvre rapidement des scénarios marketing courants.
 
 ## Assistant IA {#ai-assistant}
 
@@ -68,7 +68,7 @@ En s’appuyant sur les capacités de conversation de l’assistant d’IA, Adob
 
 ### Agent d’analyse de parcours {#journey-agent}
 
-L&#39;agent d&#39;analyse de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
+L&#39;agent d&#39;analyse de Parcours [](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
 
 +++**Fonctionnalités clés**
 
@@ -136,19 +136,15 @@ Le [agent d’expérimentation](https://experienceleague.adobe.com/fr/docs/exper
 
 **Agent Orchestrator** - Coordonne plusieurs agents spécialisés pour résoudre des défis marketing complexes et en plusieurs étapes. L&#39;orchestrateur détermine automatiquement les agents à impliquer et organise leur travail efficacement. [En savoir plus sur Agent Orchestrator](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
-**Obtention de l’accès :**
-
-Les agents AI sont disponibles pour les clients disposant d’un accès d’assistant AI. Contactez votre représentant Adobe pour obtenir des détails spécifiques sur les licences et les activations.
-
 ## Génération de contenu optimisée par l’IA {#content-generation}
 
 Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieurs canaux, ce qui accélère votre processus de création de contenu tout en préservant la cohérence de la marque. L’assistant AI pour la génération de contenu est disponible pour les expériences [e-mail](../email/get-started-email.md), [notifications push](../push/get-started-push.md), [SMS](../sms/get-started-sms.md) et [web](../web/get-started-web.md). Il vous permet de générer des lignes d’objet, du corps de texte, des images et de compléter des variations de message.
 
 ### Fonctionnalités clés
 
-* **Génération de texte** - Créez une copie attrayante basée sur la voix et les objectifs de votre marque. [&#x200B; Générer du texte avec l’IA &#x200B;](../content-management/generative-text.md)
+* **Génération de texte** - Créez une copie attrayante basée sur la voix et les objectifs de votre marque. [ Générer du texte avec l’IA ](../content-management/generative-text.md)
 * **Génération d’images** - Générez des images personnalisées à l’aide d’Adobe Firefly. [Générer des images avec l’IA](../content-management/generative-image.md)
-* **Variations de contenu** - Produisez plusieurs variations pour les tests A/B. [&#x200B; Expérience de contenu avec l’IA &#x200B;](../content-management/generative-experimentation.md)
+* **Variations de contenu** - Produisez plusieurs variations pour les tests A/B. [ Expérience de contenu avec l’IA ](../content-management/generative-experimentation.md)
 * **Alignement des marques** - Assurez-vous que le contenu généré correspond à vos directives de marque. [Évaluation de l’alignement de la marque](../content-management/brands-score.md)
 * **Prise en charge des modèles** - Tirez parti de vos modèles d’e-mail existants. [Utiliser des modèles de contenu](../content-management/content-templates.md)
 
@@ -195,7 +191,7 @@ Créez des modèles de classement intelligents qui optimisent automatiquement le
 
 * Au moins 2 offres avec des données d’interaction suffisantes :
    * Plus de 100 événements d’affichage
-   * &#x200B;+ de 5 clics sur les événements
+   * + de 5 clics sur les événements
    * Au cours des 14 derniers jours
 * Maximum de 5 modèles de classement IA par organisation
 
@@ -218,7 +214,7 @@ Fonctionnalités clés :
 
 Les playbooks de cas d’utilisation sont des workflows préconfigurés qui vous permettent d’implémenter rapidement des scénarios marketing courants. Chaque playbook comprend des parcours prêts à l’emploi, des messages, des schémas et des segments.
 
-![&#x200B; Interface des playbooks de cas d’utilisation &#x200B;](assets/playbooks-filter.png)
+![ Interface des playbooks de cas d’utilisation ](assets/playbooks-filter.png)
 
 ### Fonctionnement des playbooks
 
@@ -245,7 +241,7 @@ Parcourez les playbooks Journey Optimizer pour obtenir des scénarios courants t
 
 +++
 
-[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=fr){target="_blank"}
+[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Fonctionnalités d’IA supplémentaires {#additional-capabilities}
 
