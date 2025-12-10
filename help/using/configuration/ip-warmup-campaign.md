@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 05e300476ee77c7ac449f3cbb1ecb506e94c3da0
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,8 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
    >[!IMPORTANT]
    >
    >Les audiences autorisées dans une campagne de préchauffage des adresses IP doivent être [basées sur des segments](../audience/creating-a-segment-definition.md) et créées à l’aide de la [politique de fusion par défaut](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >
+   >Les audiences de chargement CSV ne sont pas prises en charge pour les campagnes de préchauffage d’adresses IP et entraîneront une erreur lors de l’activation de la campagne.
 
    Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
