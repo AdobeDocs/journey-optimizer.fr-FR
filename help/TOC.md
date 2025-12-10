@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
+source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '3013'
+ht-degree: 97%
 
 ---
 
@@ -199,6 +199,10 @@ ht-degree: 98%
          + [Partage](using/orchestrated/activities/split.md)
          + [Test](using/orchestrated/activities/test.md)
          + [Attente](using/orchestrated/activities/wait.md)
+      + Apprendre avec des cas d’utilisation {#use-cases}
+         + [Envoyer des mises à jour d’éléments de liste de souhaits](using/orchestrated/wishlist-uc.md)
+         + [Impliquer les clients en parcourant l’activité](using/orchestrated/engage-customers-uc.md)
+         + [Informer les utilisateurs de la disponibilité du produit](using/orchestrated/product-availability-uc.md)
 + Conflit et hiérarchisation {#conflict-prioritization}
    + [Gestion des conflits et hiérarchisation](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Commencer avec la gestion et la hiérarchisation des conflits](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -916,7 +920,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
