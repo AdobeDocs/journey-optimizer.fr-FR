@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
-workflow-type: ht
-source-wordcount: '2598'
-ht-degree: 100%
+source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+workflow-type: tm+mt
+source-wordcount: '2749'
+ht-degree: 94%
 
 ---
 
@@ -123,6 +123,64 @@ WHERE (
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
++++
+
++++Affichage des événements d’étape pour les profils ignorés
+
+Cette requête renvoie les détails de l’événement d’étape pour les profils qui ont été ignorés d’un parcours. Cela permet d’identifier pourquoi les profils ont été ignorés, par exemple en raison de règles métier ou de contraintes d’heures creuses. La requête filtre des types d’événements de rejet spécifiques et affiche des informations essentielles, notamment l’identifiant du profil, l’identifiant de l’instance, les détails du parcours et l’erreur qui a provoqué le rejet.
+
+_Requête du lac de données_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = '<eventType>' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = '<instanceID>';
+```
+
+_Exemple_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'quietHours' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '6f21a072-6235-4c39-9f6a-9d9f3f3b2c3a' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
+```
+
+![Exemple de résultats de requête affichant les détails de profil ignorés](assets/query-discarded-profiles.png)
+
+Les résultats de la requête affichent les champs clés qui permettent d’identifier la raison des abandons de profil :
+
+* **actionExecutionError** - Lorsque la valeur est définie sur `businessRuleProfileDiscarded`, cela indique que le profil a été ignoré en raison d’une règle métier. Le champ `eventType` fournit des détails supplémentaires sur la règle métier spécifique à l&#39;origine de la suppression.
+
+* **eventType** - Indique le type de règle métier à l&#39;origine de l&#39;abandon :
+   * `quietHours` : le profil a été ignoré en raison de la configuration des heures calmes
+   * `forcedDiscardDueToQuietHours` : le profil a été ignoré de force, car la limite de mécanisme de sécurisation a été atteinte pour les profils conservés pendant les heures calmes
 
 +++
 
