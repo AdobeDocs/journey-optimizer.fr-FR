@@ -25,7 +25,7 @@ Le langage de modèle est utilisé dans les fonctions d’assistance disponibles
 
 >[!NOTE]
 >
->Les fonctions et fonctionnalités disponibles dans l&#39;éditeur de personnalisation diffèrent de celles disponibles dans l&#39;éditeur d&#39;expression avancé du Parcours [](../../building-journeys/expression/expressionadvanced.md). Par exemple, la fonction `now()` n’est disponible que dans les expressions de parcours. [En savoir plus](../../email/code-content.md#date-time-limitations)
+>Les fonctions et fonctionnalités disponibles dans l&#39;éditeur de personnalisation diffèrent de celles disponibles dans l&#39;éditeur d&#39;expression avancé du Parcours [&#128279;](../../building-journeys/expression/expressionadvanced.md). Par exemple, la fonction `now()` n’est disponible que dans les expressions de parcours. [En savoir plus](../../email/code-content.md#date-time-limitations)
 
 Dans l’éditeur de personnalisation de [!DNL Journey Optimizer], les fonctions d’assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
 

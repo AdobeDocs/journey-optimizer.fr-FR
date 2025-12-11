@@ -57,7 +57,7 @@ Pour résoudre votre problème, commencez par répondre aux questions suivantes�
   Content-type - application/json
   ```
 
->>
+&#x200B;>>
 **Pour les parcours de qualification d’audience avec audiences en streaming** : si vous utilisez une activité de qualification d’audience comme point d’entrée d’un parcours, gardez à l’esprit que tous les profils correspondant aux critères de cette audience ne rejoindront pas nécessairement le parcours, en raison de facteurs de délai, de sorties rapides de l’audience ou du fait qu’ils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences en streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Résolution des problèmes liés aux transitions en mode test {#troubleshooting-test-transitions}
@@ -73,7 +73,7 @@ Si les profils de test rejoignent le parcours mais ne progressent pas au-delà d
    * Assurez-vous que l’heure actuelle se situe dans la fenêtre de date active du parcours
    * Si nécessaire, mettez à jour les propriétés du parcours pour ajuster la date de début
 
-* **Configuration du profil de test** - Vérifiez que le profil est correctement marqué comme profil de test dans Adobe Experience Platform. Pour plus d’informations[ voir ](../audience/creating-test-profiles.md) Création de profils de test .
+* **Configuration du profil de test** - Vérifiez que le profil est correctement marqué comme profil de test dans Adobe Experience Platform. Pour plus d’informations[&#x200B; voir &#x200B;](../audience/creating-test-profiles.md) Création de profils de test .
 
 * **Espace de noms d’identité** - Assurez-vous que l’espace de noms d’identité utilisé dans la configuration d’événement correspond à l’espace de noms de votre profil de test.
 
