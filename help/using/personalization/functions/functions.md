@@ -527,4 +527,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
