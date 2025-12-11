@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 98%
@@ -23,10 +23,6 @@ Le langage de modèle est utilisé dans les fonctions d’assistance disponibles
 
 ![](../assets/access-helper-functions.png)
 
->[!NOTE]
->
->Les fonctions et fonctionnalités disponibles dans l&#39;éditeur de personnalisation diffèrent de celles disponibles dans l&#39;éditeur d&#39;expression avancé du Parcours [&#128279;](../../building-journeys/expression/expressionadvanced.md). Par exemple, la fonction `now()` n’est disponible que dans les expressions de parcours. [En savoir plus](../../email/code-content.md#date-time-limitations)
-
 Dans l’éditeur de personnalisation de [!DNL Journey Optimizer], les fonctions d’assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
 
 Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
@@ -34,6 +30,10 @@ Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
 Accédez aux sous-catégories en cliquant sur l’icône `>`. Sélectionnez une fonction en cliquant sur l’icône `+` : la fonction est automatiquement ajoutée à l’écran de personnalisation.
 
 Cliquez sur l’icône `...` pour afficher la description de la fonction et l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
+
+>[!NOTE]
+>
+>Les fonctions et fonctionnalités disponibles dans l&#39;éditeur de personnalisation diffèrent de celles disponibles dans l&#39;éditeur d&#39;expression avancé du Parcours [](../../building-journeys/expression/expressionadvanced.md). Par exemple, la fonction `now()` n’est disponible que dans les expressions de parcours. [En savoir plus](../../email/code-content.md#date-time-limitations)
 
 ## Fonctions{#functions-helper}
 
@@ -518,4 +518,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

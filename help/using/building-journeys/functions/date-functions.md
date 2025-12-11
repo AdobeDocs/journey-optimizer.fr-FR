@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 keywords: date, fonctions, expression, parcours, heure
 version: Journey Orchestration
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 95%
@@ -18,10 +18,6 @@ ht-degree: 95%
 
 Les fonctions de date permettent de manipuler et d’utiliser des valeurs de date et d’heure dans vos expressions de parcours. Ces fonctions sont essentielles pour les conditions temporelles, la planification et les calculs temporels de vos parcours clientèle.
 
->[!NOTE]
->
->Les fonctions de cette page sont disponibles dans les expressions de parcours. Certaines fonctions telles que `now()` ne sont pas disponibles dans l’éditeur de personnalisation du contenu des e-mails. [En savoir plus](../../personalization/functions/dates.md)
-
 Utilisez les fonctions de date lorsque vous devez :
 
 * Obtenir l’heure ou la date actuelle avec une gestion spécifique des fuseaux horaires ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
@@ -31,6 +27,10 @@ Utilisez les fonctions de date lorsque vous devez :
 * Convertit entre différents formats et représentations temporels
 
 Les fonctions de date apportent un contrôle précis sur la logique temporelle, ce qui vous permet de créer des conditions et des chemins de parcours sensibles au temps qui réagissent à des calendriers et à des plannings spécifiques.
+
+>[!NOTE]
+>
+>Les fonctions de cette page sont disponibles dans les expressions de parcours. Certaines fonctions telles que `now()` ne sont pas disponibles dans l’éditeur de personnalisation du contenu des e-mails. [En savoir plus](../../personalization/functions/dates.md)
 
 ## currentTimeInMillis {#currentTimeInMillis}
 
