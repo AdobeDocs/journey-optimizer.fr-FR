@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
+source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1854'
 ht-degree: 94%
 
 ---
@@ -256,9 +256,7 @@ Pour empêcher la création de nouveaux messages à partir d’une configuration
 
 Vous ne pouvez pas désactiver une configuration de canal dans les cas suivants :
 
-* S’il est référencé par un parcours actif. Toute tentative de désactivation d’une configuration toujours en cours d’utilisation par un parcours dynamique entraîne une erreur.
-
-  Pour désactiver une configuration de canal, assurez-vous que tous les parcours en direct utilisant cette configuration sont fermés ou arrêtés. [Découvrez comment terminer un parcours &#x200B;](../building-journeys/end-journey.md)
+* S’il est référencé par un parcours actif. Toute tentative de désactivation d’une configuration toujours en cours d’utilisation par un parcours dynamique entraîne une erreur. Pour désactiver une configuration de canal, assurez-vous que tous les parcours en direct utilisant cette configuration sont fermés ou arrêtés. [Découvrez comment terminer un parcours ](../building-journeys/end-journey.md)
 
 * Pendant le traitement d’une mise à jour de la configuration du canal. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canal](#edit-channel-surface) et sur les [statuts de mise à jour](#update-statuses).
 
