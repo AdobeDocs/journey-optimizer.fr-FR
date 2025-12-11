@@ -76,7 +76,7 @@ Utilisez des **actions de canal intégrées** pour envoyer des messages conçus 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
 
 **Actions personnalisées**
 
@@ -128,7 +128,7 @@ Envoyez un parcours de bienvenue personnalisé lorsque les clients s’abonnent 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg?lang=fr)
 
 **Optimiser les heures d’envoi des e-mails**
 
@@ -184,7 +184,7 @@ Découvrez les composants d’un parcours et comprenez les principes de base de 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 **Créer et gérer des parcours**
 
@@ -194,7 +194,7 @@ Cette section contient des conseils détaillés pour la conception, le test, la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 **activités de Parcours**
 
@@ -204,7 +204,7 @@ Découvrez comment configurer et utiliser des activités telles que les déclenc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 **Expressions et conditions**
 
