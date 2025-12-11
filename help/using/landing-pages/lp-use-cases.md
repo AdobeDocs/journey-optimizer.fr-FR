@@ -194,7 +194,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 Vous pouvez utiliser les informations envoyées sur une page de destination pour effectuer d’autres actions. Par exemple, si un utilisateur s’abonne à une liste d’abonnements donnée, vous pouvez exploiter ces informations pour envoyer un e-mail recommandant d’autres listes d’abonnements à cet utilisateur.
 
-Pour ce faire, vous devez créer un [événement unitaire basé sur des règles](../event/about-creating.md) basé sur le **[!UICONTROL Schéma d’événement d’expérience de tracking d’e-mail AJO]** contenant les informations d’envoi et [utiliser cet événement dans un parcours ](../building-journeys/general-events.md).
+Pour ce faire, vous devez créer un [événement unitaire basé sur des règles](../event/about-creating.md) basé sur le **[!UICONTROL Schéma d’événement d’expérience de tracking d’e-mail AJO]** contenant les informations d’envoi et [utiliser cet événement dans un parcours &#x200B;](../building-journeys/general-events.md).
 
 >[!NOTE]
 >
