@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 88%
 
 ---
 
@@ -169,8 +169,6 @@ Les informations concernant les désinscriptions sont stockées dans le **Jeu de
 >
 >Même si aucun lot n’a été ajouté à ce jeu de données, il contiendra toujours les informations d’opt-in et d’opt-out.
 
-
-
 **Voir également :**
 
 * [Opt-out en un clic](../email/email-opt-out.md#one-click-opt-out)
@@ -190,14 +188,21 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
-////////
+-->
 
+## Exploiter l’événement de soumission de la page de destination {#leverage-lp-event}
 
-## Leverage landing page submission event {#leverage-lp-event}
+Vous pouvez utiliser les informations envoyées sur une page de destination pour effectuer d’autres actions. Par exemple, si un utilisateur s’abonne à une liste d’abonnements donnée, vous pouvez exploiter ces informations pour envoyer un e-mail recommandant d’autres listes d’abonnements à cet utilisateur.
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+Pour ce faire, vous devez créer un [événement unitaire basé sur des règles](../event/about-creating.md) basé sur le **[!UICONTROL Schéma d’événement d’expérience de tracking d’e-mail AJO]** contenant les informations d’envoi et [utiliser cet événement dans un parcours ](../building-journeys/general-events.md).
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+>[!NOTE]
+>
+>Lorsque vous utilisez des événements d’envoi de page de destination, sachez que le champ de `interactionType` d’événement peut ne pas toujours refléter précisément l’action spécifique de l’utilisateur. Pour déterminer avec précision si un utilisateur s’est désabonné, s’est abonné ou a effectué une autre action, vérifiez toujours les attributs de profil réels (comme les préférences de consentement) ou les valeurs de champ de formulaire plutôt que de vous fier uniquement au `interactionType` d’événement.
+
+<!--DETAILED STEPS TBC:
+
+Follow the steps below.
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
 
