@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, aide, cas d’utilisation, personnalisation
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
@@ -115,7 +115,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 ## Étape 4 : insérer la liste des articles du panier {#each-helper}
 
-<!--This step demonstrates iterating over event data. For comprehensive examples of iterating over different data sources (events, custom action responses, and other contextual data), see [Iterate over contextual data with Handlebars](personalization-contexts.md).-->
+<!--This step demonstrates iterating over event data. For comprehensive examples of iterating over different data sources (events, custom action responses, and other contextual data), see [Iterate over contextual data with Handlebars](iterate-contextual-data.md).-->
 
 1. Rouvrez le contenu du message.
 
@@ -346,4 +346,4 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 Découvrez comment utiliser les fonctions d’assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
