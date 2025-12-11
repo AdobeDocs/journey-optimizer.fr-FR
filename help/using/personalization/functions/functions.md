@@ -6,34 +6,43 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 98%
+source-wordcount: '2458'
+ht-degree: 93%
 
 ---
 
 # Prise en main des fonctions d’assistance{#functions}
 
-Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions des données, des conditions, et les manipuler dans le contexte de la personnalisation. Découvrez les instructions de syntaxe de personnalisation sur [cette page](../personalization-syntax.md).
+Les fonctions d’assistance vous permettent de transformer et de manipuler des données dans votre contenu personnalisé. Utilisez-les pour effectuer des calculs, formater des données, appliquer des conditions et effectuer diverses opérations afin de créer des expériences dynamiques personnalisées pour vos clients.
+
+Ces fonctions exploitent le langage de modèle [!DNL Journey Optimizer]. Découvrez les instructions de syntaxe de personnalisation dans [cette page](../personalization-syntax.md).
 
 ➡️ [Découvrez comment utiliser les fonctions d’assistance dans cette vidéo](#video).
 
-Le langage de modèle est utilisé dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur de personnalisation, comme indiqué ci-dessous :
+## Accéder aux fonctions d&#39;assistance
+
+Les fonctions d’assistance sont disponibles à partir du menu de fonction de l’éditeur de personnalisation :
 
 ![](../assets/access-helper-functions.png)
 
-Dans l’éditeur de personnalisation de [!DNL Journey Optimizer], les fonctions d’assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
+Les fonctions sont organisées en trois catégories pour une navigation facile :
 
-Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
+* **[Fonctions](#functions-helper)** - Opérations de manipulation et de transformation des données
+* **[Helpers](#helper-helper)** - Logique conditionnelle et fonctions utilitaires
+* **[Opérateurs](#operators-helper)** - Opérateurs logiques et de comparaison
 
-Accédez aux sous-catégories en cliquant sur l’icône `>`. Sélectionnez une fonction en cliquant sur l’icône `+` : la fonction est automatiquement ajoutée à l’écran de personnalisation.
+**Pour utiliser une fonction d’assistance, procédez comme suit**
 
-Cliquez sur l’icône `...` pour afficher la description de la fonction et l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
+1. Sélectionnez une catégorie pour afficher ses sous-catégories et ses fonctions disponibles
+1. Cliquez sur l’icône `>` pour développer les sous-catégories
+1. Cliquez sur l’icône `+` en regard d’une fonction pour l’ajouter à votre code de personnalisation
+1. Cliquez sur l’icône `...` pour afficher la description de la fonction ou l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
 
 >[!NOTE]
 >
->Les fonctions et fonctionnalités disponibles dans l&#39;éditeur de personnalisation diffèrent de celles disponibles dans l&#39;éditeur d&#39;expression avancé du Parcours [&#128279;](../../building-journeys/expression/expressionadvanced.md). Par exemple, la fonction `now()` n’est disponible que dans les expressions de parcours. [En savoir plus](../../email/code-content.md#date-time-limitations)
+>Les fonctions et fonctionnalités disponibles dans l&#39;éditeur de personnalisation diffèrent de celles disponibles dans l&#39;éditeur d&#39;expression avancé du Parcours [](../../building-journeys/expression/expressionadvanced.md). Par exemple, la fonction `now()` n’est disponible que dans les expressions de parcours. [En savoir plus](../../email/code-content.md#date-time-limitations)
 
 ## Fonctions{#functions-helper}
 
@@ -518,4 +527,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
