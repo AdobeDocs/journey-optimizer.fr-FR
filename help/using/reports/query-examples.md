@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
 workflow-type: tm+mt
-source-wordcount: '2749'
-ht-degree: 94%
+source-wordcount: '2734'
+ht-degree: 95%
 
 ---
 
@@ -78,57 +78,9 @@ AND
 
 +++
 
-+++Nombre d’erreurs qui se sont produites sur chaque nœud d’un parcours spécifique pendant une certaine période
++++Quelle règle a empêché un profil de recevoir une action de parcours ?
 
-Cette requête comptabilise les profils distincts qui ont rencontré des erreurs à chaque nœud d’un parcours, regroupés par nom de nœud. Elle inclut tous les types d’erreurs d’exécution d’action et de récupération.
-
-_Requête du lac de données_
-
-```sql
-SELECT
-_experience.journeyOrchestration.stepEvents.nodeName,
-count(distinct _experience.journeyOrchestration.stepEvents.profileID)
-FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
-AND
-  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
-  )
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
-```
-
-+++
-
-+++Nombre d’événements rejetés d’un parcours spécifique pendant une certaine période
-
-Cette requête compte le nombre total d’événements qui ont été supprimés d’un parcours. Elle filtre divers codes d’événement de rejet, y compris les erreurs de traitement d’export de segments, les rejets du Dispatcher et les rejets de machine d’état.
-
-_Requête du lac de données_
-
-```sql
-SELECT
-count(_id) AS NUMBER_OF_EVENTS_DISCARDED
-FROM journey_step_events
-WHERE (
-   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
-   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
-)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
-```
-
-+++
-
-+++Affichage des événements d’étape pour les profils ignorés
-
-Cette requête renvoie les détails de l’événement d’étape pour les profils qui ont été ignorés d’un parcours. Cela permet d’identifier pourquoi les profils ont été ignorés, par exemple en raison de règles métier ou de contraintes d’heures creuses. La requête filtre des types d’événements de rejet spécifiques et affiche des informations essentielles, notamment l’identifiant du profil, l’identifiant de l’instance, les détails du parcours et l’erreur qui a provoqué le rejet.
+Cette requête renvoie les détails de l’événement d’étape pour les profils qui ont été ignorés lors d’un parcours et qui n’ont pas reçu d’action de parcours. Cela permet d’identifier pourquoi les profils ont été ignorés en raison de règles métier telles que les contraintes d’heures calmes.
 
 _Requête du lac de données_
 
@@ -181,6 +133,54 @@ Les résultats de la requête affichent les champs clés qui permettent d’iden
 * **eventType** - Indique le type de règle métier à l&#39;origine de l&#39;abandon :
    * `quietHours` : le profil a été ignoré en raison de la configuration des heures calmes
    * `forcedDiscardDueToQuietHours` : le profil a été ignoré de force, car la limite de mécanisme de sécurisation a été atteinte pour les profils conservés pendant les heures calmes
+
++++
+
++++Nombre d’erreurs qui se sont produites sur chaque nœud d’un parcours spécifique pendant une certaine période
+
+Cette requête comptabilise les profils distincts qui ont rencontré des erreurs à chaque nœud d’un parcours, regroupés par nom de nœud. Elle inclut tous les types d’erreurs d’exécution d’action et de récupération.
+
+_Requête du lac de données_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
++++
+
++++Nombre d’événements rejetés d’un parcours spécifique pendant une certaine période
+
+Cette requête compte le nombre total d’événements qui ont été supprimés d’un parcours. Elle filtre divers codes d’événement de rejet, y compris les erreurs de traitement d’export de segments, les rejets du Dispatcher et les rejets de machine d’état.
+
+_Requête du lac de données_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE (
+   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
+   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
+)
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
 
 +++
 
