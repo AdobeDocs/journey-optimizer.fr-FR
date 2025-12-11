@@ -9,10 +9,8 @@ role: User
 level: Intermediate
 keywords: parcours, cas d’utilisation, jours de la semaine, condition, e-mail, planification
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
-workflow-type: ht
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 100%
 
