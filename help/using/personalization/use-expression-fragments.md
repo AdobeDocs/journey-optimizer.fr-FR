@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+workflow-type: tm+mt
+source-wordcount: '1309'
+ht-degree: 75%
 
 ---
 
@@ -107,6 +107,89 @@ Les cas d’utilisation suivants sont possibles :
 >
 >Au moment de l’exécution, le système développe ce qui se trouve à l’intérieur des fragments, puis interprète le code de personnalisation de haut en bas. Sachant cela, des cas d’utilisation plus complexes peuvent être réalisés. Par exemple, vous pouvez disposer d’un fragment F1 transmettant des variables à un autre fragment F2, situé dessous. Vous pouvez également disposer d’un fragment visuel F1 qui transmet des variables à un fragment d’expression imbriqué F2.
 
+## Utilisation de fragments d’expression dans des boucles {#fragments-in-loops}
+
+Lors de l’utilisation de fragments d’expression dans des boucles d’`{{#each}}`, il est important de comprendre comment fonctionne la portée des variables. Les fragments d’expression peuvent accéder aux variables globales définies dans le contenu de votre message, mais ils ne peuvent pas recevoir de variables spécifiques aux boucles en tant que paramètres.
+
+### Modèle pris en charge : utilisation de variables globales {#global-variables-in-loops}
+
+Les fragments d’expression peuvent référencer des variables globales définies en dehors du fragment, même lorsque le fragment est appelé depuis une boucle. Il s’agit de l’approche recommandée lorsque vous devez utiliser des fragments dans des contextes itératifs.
+
+**Exemple : utiliser un fragment avec des variables globales dans une boucle**
+
+Dans le contenu de votre message, définissez une variable globale et utilisez un fragment qui y fait référence :
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    <p>Price: ${{product.price}}</p>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+Dans le fragment d’expression (fragment123), vous pouvez référencer la variable `globalDiscount` :
+
+```handlebars
+<p class="discount-info">Save {{globalDiscount}}% on all items!</p>
+```
+
+Ce modèle fonctionne car la variable globale est accessible dans tout le message, y compris dans les fragments, quel que soit le contexte de la boucle.
+
+### Non pris en charge : transmission de variables de boucle en tant que paramètres de fragment {#loop-variables-limitations}
+
+Vous ne pouvez pas transmettre l’élément d’itération actif (par exemple, `product` dans l’exemple ci-dessus) en tant que paramètre à un fragment d’expression. Le fragment ne peut pas accéder directement aux variables de boucle à partir du bloc de `{{#each}}` environnant.
+
+**Exemple : qu’est-ce qui ne fonctionne PAS**
+
+```handlebars
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' mode='inline' currentProduct=product}}
+{{/each}}
+```
+
+Le fragment ne peut pas recevoir de `product` en tant que paramètre et l’utiliser en interne, car le transfert de paramètre pour les variables spécifiques à la boucle n’est pas pris en charge dans l’implémentation actuelle.
+
+### Solutions recommandées {#fragments-in-loops-workarounds}
+
+Lorsque vous devez utiliser des fragments d’expression avec des données provenant d’une boucle, tenez compte des approches suivantes :
+
+1. **Inclure la logique directement dans le message** : au lieu d’utiliser un fragment pour la logique spécifique à la boucle, ajoutez le code de personnalisation directement dans votre bloc de `{{#each}}`.
+
+   ```handlebars
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+       {{#if product.price > 100}}
+         <span class="premium-badge">Premium Product</span>
+       {{/if}}
+     </div>
+   {{/each}}
+   ```
+
+2. **Utilisation de fragments en dehors des boucles** : si le contenu du fragment n’est pas dépendant de la boucle, appelez le fragment avant ou après le bloc d’itération.
+
+   ```handlebars
+   {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+   
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+     </div>
+   {{/each}}
+   ```
+
+3. **Définir plusieurs variables globales** : si vous devez transmettre différentes valeurs à un fragment à travers les itérations, définissez des variables globales avant chaque appel au fragment (bien que cela limite la flexibilité).
+
+>[!NOTE]
+>
+>Pour effectuer une itération sur les données contextuelles et utiliser des boucles, consultez le guide complet sur l’[itération sur les données contextuelles](iterate-contextual-data.md) qui comprend les bonnes pratiques, des conseils de dépannage et des modèles avancés.
 
 ## Personnaliser des champs modifiables {#customize-fields}
 

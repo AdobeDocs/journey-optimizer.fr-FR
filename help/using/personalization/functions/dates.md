@@ -6,16 +6,20 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+workflow-type: tm+mt
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
 
 # Fonctions de date/heure{#date-time}
 
 Les fonctions de date et d’heure sont utilisées pour effectuer des opérations de date et d’heure sur des valeurs dans Journey Optimizer.
+
+>[!NOTE]
+>
+>La fonction `now()` n’est pas disponible dans l’éditeur de personnalisation. Utilisez `getCurrentZonedDateTime()` ou `currentTimeInMillis()` à la place pour les valeurs de date et d’heure actuelles. [En savoir plus](../../email/code-content.md#date-time-limitations)
 
 ## Ajouter des jours {#add-days}
 

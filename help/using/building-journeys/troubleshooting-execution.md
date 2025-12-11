@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 79%
 
 ---
 
@@ -57,9 +57,43 @@ Pour résoudre votre problème, commencez par répondre aux questions suivantes�
   Content-type - application/json
   ```
 
+>>
+**Pour les parcours de qualification d’audience avec audiences en streaming** : si vous utilisez une activité de qualification d’audience comme point d’entrée d’un parcours, gardez à l’esprit que tous les profils correspondant aux critères de cette audience ne rejoindront pas nécessairement le parcours, en raison de facteurs de délai, de sorties rapides de l’audience ou du fait qu’ils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences en streaming](audience-qualification-events.md#streaming-entry-caveats).
+
+## Résolution des problèmes liés aux transitions en mode test {#troubleshooting-test-transitions}
+
+Si les profils de test ne progressent pas dans votre parcours en mode test ou si le flux visuel n’affiche pas de flèches vertes indiquant la progression de l’étape, le problème peut être lié à la validation de la transition. Cette section fournit des conseils sur le diagnostic et la résolution des problèmes courants du mode test.
+
+### Profils de test sans progression
+
+Si les profils de test rejoignent le parcours mais ne progressent pas au-delà de l’étape initiale, vérifiez les points suivants :
+
+* **Date de début du Parcours** - La cause la plus courante est lorsque la date de début du parcours est définie dans le futur. Les profils de test sont immédiatement ignorés si l’heure actuelle se situe en dehors de la fenêtre [dates/heure de début et de fin](journey-properties.md#dates) configurée du parcours. Pour résoudre :
+   * Vérifiez que la date de début du parcours n&#39;est pas définie dans le futur
+   * Assurez-vous que l’heure actuelle se situe dans la fenêtre de date active du parcours
+   * Si nécessaire, mettez à jour les propriétés du parcours pour ajuster la date de début
+
+* **Configuration du profil de test** - Vérifiez que le profil est correctement marqué comme profil de test dans Adobe Experience Platform. Pour plus d’informations[ voir ](../audience/creating-test-profiles.md) Création de profils de test .
+
+* **Espace de noms d’identité** - Assurez-vous que l’espace de noms d’identité utilisé dans la configuration d’événement correspond à l’espace de noms de votre profil de test.
+
+### Indicateurs de transition nuls
+
+Lors du dépannage technique, vous pouvez rencontrer une propriété `isValidTransition` définie sur null dans les détails techniques du parcours. Cette propriété réservée à l’interface utilisateur n’a aucune incidence sur le traitement principal ou les performances du parcours. Cependant, une valeur nulle peut indiquer :
+
+* **Mauvaise configuration du Parcours** - La date de début du parcours est définie dans le futur, ce qui entraîne l’abandon silencieux des événements de test
+* **Transition corrompue** - Dans de rares cas, les nœuds de parcours doivent être reconnectés
+
+Si vous rencontrez des problèmes de transition persistants :
+
+1. Vérifier que la date de début du parcours est actuelle
+1. Désactiver et réactiver le mode test
+1. Si le problème persiste, pensez à dupliquer les nœuds de parcours concernés et à les reconnecter
+1. Pour les cas non résolus, contactez l’assistance avec les journaux de parcours, les identifiants de profil concernés et des détails sur la transition nulle
+
 >[!NOTE]
 >
->**Pour les parcours de qualification d’audience avec audiences en streaming** : si vous utilisez une activité de qualification d’audience comme point d’entrée d’un parcours, gardez à l’esprit que tous les profils correspondant aux critères de cette audience ne rejoindront pas nécessairement le parcours, en raison de facteurs de délai, de sorties rapides de l’audience ou du fait qu’ils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences en streaming](audience-qualification-events.md#streaming-entry-caveats).
+>N’oubliez pas que les événements envoyés en dehors de la fenêtre de date active du parcours sont ignorés silencieusement, sans message d’erreur. Commencez toujours par vérifier votre configuration de minutage de parcours lors du dépannage de la progression du profil de test.
 
 ## Vérifier comment les gens naviguent dans le parcours {#checking-how-people-navigate-through-the-journey}
 

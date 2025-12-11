@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 keywords: date, fonctions, expression, parcours, heure
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '791'
-ht-degree: 100%
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 95%
 
 ---
 
 # Fonctions de date {#date-functions}
 
 Les fonctions de date permettent de manipuler et d’utiliser des valeurs de date et d’heure dans vos expressions de parcours. Ces fonctions sont essentielles pour les conditions temporelles, la planification et les calculs temporels de vos parcours clientèle.
+
+>[!NOTE]
+>
+>Les fonctions de cette page sont disponibles dans les expressions de parcours. Certaines fonctions telles que `now()` ne sont pas disponibles dans l’éditeur de personnalisation du contenu des e-mails. [En savoir plus](../../personalization/functions/dates.md)
 
 Utilisez les fonctions de date lorsque vous devez :
 
@@ -347,6 +351,10 @@ Renvoie true.
 ## now {#now}
 
 Renvoie la date actuelle au format date et heure. Pour plus d’informations sur les types de données, consultez [cette page](../expression/data-types.md).
+
+>[!NOTE]
+>
+>Cette fonction n’est disponible que dans les expressions de parcours. Pour la personnalisation des e-mails et d’autres contenus, utilisez plutôt `getCurrentZonedDateTime()`. [En savoir plus](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++Syntaxe
 

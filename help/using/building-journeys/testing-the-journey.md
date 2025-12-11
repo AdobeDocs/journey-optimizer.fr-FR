@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1881'
-ht-degree: 100%
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+workflow-type: tm+mt
+source-wordcount: '1904'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 >[!NOTE]
 >
->Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment rechercher des erreurs avant d’effectuer des tests dans [cette section](../building-journeys/troubleshooting.md).
+>Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment vérifier les erreurs avant le test dans [cette section](../building-journeys/troubleshooting.md). Si les profils de test ne progressent pas en mode test, voir [résolution des problèmes liés aux transitions en mode test](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Remarques importantes {#important_notes}
 
@@ -53,7 +53,7 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 * **Comportement de partage** : lorsque le parcours atteint un partage, la branche supérieure est toujours sélectionnée. Réorganisez les branches si vous souhaitez tester un autre chemin.
 * **Timing des événements** : si le parcours comprend plusieurs événements, déclenchez chaque événement en séquence. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
-* **Fenêtre de date active** : assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement.
+* **Fenêtre de date active** : assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement. En savoir plus sur la résolution de ce problème [sur cette page](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Événements de réaction** : pour les événements de réaction avec une temporisation, le temps d’attente minimum et par défaut est de 40 secondes.
 * **Jeux de données de test** : les événements déclenchés en mode test sont stockés dans des jeux de données dédiés libellés comme suit : `JOtestmode - <schema of your event>`
 
@@ -69,7 +69,7 @@ Pour utiliser le mode test, procédez comme suit :
 
    ![Bouton Mode test dans l’interface de parcours](assets/journeytest1.png)
 
-1. Si le parcours comporte au moins une activité **Attente**, définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
+1. Si le parcours comporte au moins une activité **Attente**, définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque délai d’expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
 
    ![Configuration du paramètre de temps d’attente en mode test](assets/journeytest_wait.png)
 

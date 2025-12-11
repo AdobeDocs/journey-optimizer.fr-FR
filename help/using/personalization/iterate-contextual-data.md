@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expression, éditeur, barres de contrôle, itération, tableaux, contexte, personnalisation
-source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '3008'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Journey Optimizer permet d’accéder aux données contextuelles provenant de pl
 * **[Propriétés techniques](#technical-properties)** : métadonnées de Parcours telles que l’identifiant du parcours et les identifiants supplémentaires
 * **[Parcours context](#other-contexts)** : autres données relatives au parcours accessibles lors de l&#39;exécution.
 
-Ce guide vous explique comment effectuer une itération sur des tableaux à partir de chacune de ces sources dans vos messages et comment utiliser des tableaux lors de la configuration des activités de parcours. Commencez par [Syntaxe d’itération Handlebars](#syntax) pour comprendre les principes de base de la personnalisation des messages, ou passez à [Utiliser des tableaux dans des expressions de Parcours &#x200B;](#arrays-in-journeys) pour savoir comment transmettre des données de tableau à des actions personnalisées et à des recherches de jeux de données.
+Ce guide vous explique comment effectuer une itération sur des tableaux à partir de chacune de ces sources dans vos messages et comment utiliser des tableaux lors de la configuration des activités de parcours. Commencez par [Syntaxe d’itération Handlebars](#syntax) pour comprendre les principes de base de la personnalisation des messages, ou passez à [Utiliser des tableaux dans des expressions de Parcours ](#arrays-in-journeys) pour savoir comment transmettre des données de tableau à des actions personnalisées et à des recherches de jeux de données.
 
 ## Syntaxe de l’itération Handlebars {#syntax}
 
@@ -55,11 +55,11 @@ Handlebars fournit la `{{#each}}` [helper](functions/helpers.md) pour effectuer 
 
 ## Itérer sur les données d’événement {#event-data}
 
-Les données d’événement sont disponibles lorsque votre parcours est déclenché par un [&#x200B; événement &#x200B;](../event/about-events.md). Cela s’avère utile pour afficher les données capturées au moment du démarrage du parcours, telles que le contenu du panier, les éléments de commande ou les envois de formulaire.
+Les données d’événement sont disponibles lorsque votre parcours est déclenché par un [ événement ](../event/about-events.md). Cela s’avère utile pour afficher les données capturées au moment du démarrage du parcours, telles que le contenu du panier, les éléments de commande ou les envois de formulaire.
 
 >[!TIP]
 >
->Vous pouvez combiner des données d’événement avec d’autres sources. Pour obtenir des exemples[&#x200B; voir &#x200B;](#combine-sources) Combiner plusieurs sources de contexte .
+>Vous pouvez combiner des données d’événement avec d’autres sources. Pour obtenir des exemples[ voir ](#combine-sources) Combiner plusieurs sources de contexte .
 
 ### Chemin d’accès au contexte pour les événements
 
@@ -107,7 +107,7 @@ Pour les structures imbriquées, utilisez des blocs de `{{#each}}` imbriqués.
 
 +++
 
-En savoir plus sur l’imbrication dans [&#x200B; Bonnes pratiques &#x200B;](#best-practices).
+En savoir plus sur l’imbrication dans [ Bonnes pratiques ](#best-practices).
 
 ## Effectuer une itération sur les réponses d’action personnalisées {#custom-action-responses}
 
@@ -319,7 +319,7 @@ Pour filtrer les résultats de la recherche de jeux de données lors de l’ité
 
 +++
 
-En savoir plus sur le filtrage conditionnel dans [&#x200B; Bonnes pratiques &#x200B;](#best-practices).
+En savoir plus sur le filtrage conditionnel dans [ Bonnes pratiques ](#best-practices).
 
 ### Exemple : calcul de totaux à partir de la recherche de jeux de données
 
@@ -514,7 +514,7 @@ Bien que les sections précédentes se concentrent sur l’itération sur des ta
 
 >[!IMPORTANT]
 >
->Les expressions de parcours utilisent une syntaxe différente de la personnalisation Handlebars. Dans la configuration de parcours (paramètres ou conditions d&#39;action personnalisée, par exemple), vous utilisez l&#39;éditeur d&#39;expression de Parcours [&#128279;](../building-journeys/expression/expressionadvanced.md) avec des fonctions telles que `first`, `all` et `serializeList`. Dans le contenu des messages, vous utilisez la syntaxe Handlebars avec des boucles `{{#each}}`.
+>Les expressions de parcours utilisent une syntaxe différente de la personnalisation Handlebars. Dans la configuration de parcours (paramètres ou conditions d&#39;action personnalisée, par exemple), vous utilisez l&#39;éditeur d&#39;expression de Parcours [](../building-journeys/expression/expressionadvanced.md) avec des fonctions telles que `first`, `all` et `serializeList`. Dans le contenu des messages, vous utilisez la syntaxe Handlebars avec des boucles `{{#each}}`.
 
 ### Transmettre des valeurs de tableau aux paramètres d’action personnalisés {#arrays-to-custom-actions}
 
@@ -636,7 +636,7 @@ La gestion des collections pour les actions personnalisées est traitée dans la
 2. Marquer comme `Variable`
 3. Définissez les champs d’objet : `id`, `name`, `price`, `color` (chacun devient mappable)
 
-Configuration de la zone de travail de Parcours **&#x200B;**&#x200B;:
+Configuration de la zone de travail de Parcours **** :
 
 1. En mode avancé, définissez l’expression de collection :
 
@@ -656,7 +656,7 @@ Journey Optimizer construit le tableau d’objets correspondant à la structure 
 >
 >Lorsque vous utilisez des tableaux d’événements, utilisez `currentEventField` pour référencer chaque élément. Pour les collections de sources de données (Adobe Experience Platform), utilisez `currentDataPackField`. Pour les collections de réponses d’actions personnalisées, utilisez `currentActionField`.
 
-En savoir plus sur la section [&#x200B; Transmettre des collections dans des paramètres d’action personnalisés &#x200B;](../building-journeys/collections.md#passing-collection).
+En savoir plus sur la section [ Transmettre des collections dans des paramètres d’action personnalisés ](../building-journeys/collections.md#passing-collection).
 
 +++
 
@@ -805,7 +805,7 @@ Dans le contenu de votre e-mail, effectuez une itération sur les recommandation
 
 Avant d’exécuter un parcours en direct, testez l’action personnalisée à l’aide de la fonctionnalité « Envoyer la demande de test » de la configuration de l’action pour vérifier la demande et les valeurs créées.
 
-1. Utiliser le mode test de parcours [&#128279;](../building-journeys/testing-the-journey.md)
+1. Utiliser le mode test de parcours [](../building-journeys/testing-the-journey.md)
 2. Déclencheur avec des exemples de données d’événement, y compris un tableau de `productListItems`
 3. Vérifiez que l’action personnalisée reçoit la structure de baie appropriée.
 4. Vérifiez les journaux de test [action](../action/action-response.md#test-mode-logs)
@@ -837,6 +837,44 @@ Choisissez des noms de variables qui indiquent clairement ce sur quoi vous effec
 ```
 
 +++
+
+### Fragments d’expression dans les boucles
+
+Lors de l’utilisation de [fragments d’expression](use-expression-fragments.md) dans des boucles d’`{{#each}}`, sachez que vous ne pouvez pas transmettre de variables de portée boucle en tant que paramètres de fragment. Cependant, les fragments peuvent accéder aux variables globales définies dans le contenu de votre message en dehors du fragment.
+
++++ Afficher un exemple de code
+
+**Modèle pris en charge - Utilisez des variables globales :**
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+Le fragment peut `globalDiscount` référencer, car il est défini globalement dans le message.
+
+**Non pris en charge - Transmission des variables de boucle :**
+
+```handlebars
+{{#each products as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' currentProduct=product}}
+{{/each}}
+```
+
+**Solution** : incluez la logique de personnalisation directement dans votre boucle au lieu d’utiliser un fragment, ou appelez le fragment en dehors de la boucle.
+
++++
+
+En savoir plus sur [l’utilisation de fragments d’expression dans des boucles](use-expression-fragments.md#fragments-in-loops), y compris des exemples détaillés et des solutions supplémentaires.
+
+
 
 ### Gérer les tableaux vides
 
@@ -915,7 +953,7 @@ Handlebars fournit des variables spéciales dans les boucles qui aident à obten
 
 >[!NOTE]
 >
->Ces variables Handlebars (`@index`, `@first`, `@last`) ne sont disponibles que dans les boucles `{{#each}}` dans la personnalisation des messages. Pour utiliser des tableaux dans des expressions de Parcours (comme obtenir le premier élément d’un tableau avant de transmettre à une action personnalisée), utilisez des fonctions de tableau telles que [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) ou [`all`](../building-journeys/expression/collection-management-functions.md). Voir [&#x200B; Utilisation de tableaux dans les expressions de Parcours &#x200B;](#arrays-in-journeys) pour plus d’informations.
+>Ces variables Handlebars (`@index`, `@first`, `@last`) ne sont disponibles que dans les boucles `{{#each}}` dans la personnalisation des messages. Pour utiliser des tableaux dans des expressions de Parcours (comme obtenir le premier élément d’un tableau avant de transmettre à une action personnalisée), utilisez des fonctions de tableau telles que [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) ou [`all`](../building-journeys/expression/collection-management-functions.md). Voir [ Utilisation de tableaux dans les expressions de Parcours ](#arrays-in-journeys) pour plus d’informations.
 
 ## Résolution des problèmes {#troubleshooting}
 
@@ -954,9 +992,37 @@ Vous rencontrez des problèmes avec l’itération ? Cette section couvre les pr
 
 +++
 
+### Les fragments d’expression ne fonctionnent pas dans les boucles
+
+**Problème** : un fragment d’expression n’affiche pas le contenu attendu lorsqu’il est utilisé dans une boucle `{{#each}}` ou affiche une sortie vide/inattendue.
+
++++ Affichage des causes possibles et des solutions
+
+**Causes possibles et solutions** :
+
+1. **Tentative de transmettre des variables de boucle en tant que paramètres** : les fragments d’expression ne peuvent pas recevoir de variables de boucle (comme l’élément d’itération actuel) en tant que paramètres. Il s’agit d’une limitation connue.
+
+   **Solution** : utilisez l’une des solutions suivantes :
+
+   * Définissez dans votre message des variables globales auxquelles le fragment peut accéder
+   * Insérez la logique de personnalisation directement dans votre boucle au lieu d’utiliser un fragment
+   * Appelez le fragment en dehors de la boucle s’il n’a pas besoin de données spécifiques à la boucle
+
+2. **Le fragment attend un paramètre qui n’est pas disponible** : si votre fragment a été conçu pour recevoir des paramètres d’entrée spécifiques, il ne fonctionnera pas correctement lorsque ces paramètres ne peuvent pas être transmis depuis une boucle.
+
+   **Solution** : Restructurez votre approche pour utiliser les variables globales auxquelles le fragment peut accéder. Voir [Bonnes pratiques - Fragments d’expression dans les boucles](#best-practices) pour obtenir des exemples.
+
+3. **Portée de variable incorrecte** : le fragment peut essayer de référencer une variable qui n’existe que dans la portée de la boucle.
+
+   **Solution** : définissez toutes les variables dont le fragment a besoin au niveau du message (en dehors de la boucle) afin qu’elles soient accessibles au niveau mondial.
+
+En savoir plus sur [l’utilisation de fragments d’expression dans des boucles](use-expression-fragments.md#fragments-in-loops), y compris des explications détaillées, des exemples et des modèles recommandés.
+
++++
+
 ### Test de vos itérations
 
-Utilisez le mode de test de parcours [&#128279;](../building-journeys/testing-the-journey.md) pour vérifier vos itérations. Ceci est particulièrement important lors de l’utilisation de [actions personnalisées](#custom-action-responses) ou [recherches de jeux de données](#dataset-lookup) :
+Utilisez le mode de test de parcours [](../building-journeys/testing-the-journey.md) pour vérifier vos itérations. Ceci est particulièrement important lors de l’utilisation de [actions personnalisées](#custom-action-responses) ou [recherches de jeux de données](#dataset-lookup) :
 
 +++ Afficher les étapes de test
 
@@ -971,7 +1037,7 @@ Utilisez le mode de test de parcours [&#128279;](../building-journeys/testing-th
 
 **Principes de base de Personalization :** [Prise en main de la personnalisation](personalize.md) | [Ajouter une personnalisation](personalization-build-expressions.md) | Syntaxe de [Personalization](personalization-syntax.md) | [Fonctions helper](functions/helpers.md) | [Créer des règles conditionnelles](create-conditions.md)
 
-**Configuration du Parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md#passing-collection) | [Utilisation des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utilisation des données Adobe Experience Platform dans les parcours &#x200B;](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours &#x200B;](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester le parcours &#x200B;](../building-journeys/testing-the-journey.md)
+**Configuration du Parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md#passing-collection) | [Utilisation des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utilisation des données Adobe Experience Platform dans les parcours ](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours ](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester le parcours ](../building-journeys/testing-the-journey.md)
 
 **Fonctions d&#39;expression de Parcours :** [Éditeur d&#39;expression avancé](../building-journeys/expression/expressionadvanced.md) | [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md) (en premier, en dernier) | [Fonctions de liste](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Fonctions de tableau](../personalization/functions/arrays-list.md) (head, tail)
 
