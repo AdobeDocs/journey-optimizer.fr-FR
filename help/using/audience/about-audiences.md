@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
@@ -60,13 +60,13 @@ Pour plus d’informations sur l’utilisation des audiences dans le portail Aud
 
 Les audiences peuvent être générées à l’aide de différentes méthodes :
 
-* **Définitions de segment** : créez une définition d’audience à l’aide du Service de segmentation d’Adobe Experience Platform. Les audiences sont générées à partir des définitions de segment et actualisées à différents moments en fonction de leur type d’évaluation.
+* **Définitions de segment** : créez une définition d’audience à l’aide du Service de segmentation d’Adobe Experience Platform. Les audiences sont générées à partir des définitions de segment et actualisées à différents moments en fonction de leur type d’évaluation :
 
    * Segmentation du streaming : les audiences sont mises à jour en temps réel au fur et à mesure que de nouvelles données affluent, assurant ainsi une pertinence continue basée sur l’activité des utilisateurs et utilisatrices.
    * Segmentation par lots : les audiences sont actualisées toutes les 24 heures, capturant un instantané des profils à un intervalle fixe.
    * Segmentation Edge : les audiences sont évaluées instantanément à la périphérie, ce qui permet une personnalisation en temps réel.
 
-[Découvrir comment créer des définitions de segment](creating-a-segment-definition.md)
+  [Découvrir comment créer des définitions de segment](creating-a-segment-definition.md)
 
 * **Chargement personnalisé** : importez une audience à l’aide d’un fichier CSV. [Découvrir comment créer des audiences de chargement personnalisé](custom-upload.md)
 
