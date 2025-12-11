@@ -5,9 +5,9 @@ title: Rapport des mises à jour mensuelles de la documentation
 description: Liste des pages de documentation nouvelles et mises à jour
 hide: true
 hidefromtoc: true
-source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
+source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 ## Nouvelles pages
 
-- [Guide des critères d&#39;entrée et de sortie du Parcours &#x200B;](help/using/building-journeys/entry-exit-criteria-guide.md) - 11 décembre
-- [Cas d’utilisation de Parcours &#x200B;](help/using/building-journeys/jo-use-cases.md) - 11 décembre
+- [Guide des critères d&#39;entrée et de sortie du Parcours ](help/using/building-journeys/entry-exit-criteria-guide.md) - 11 décembre
+- [Cas d’utilisation de Parcours ](help/using/building-journeys/jo-use-cases.md) - 11 décembre
 - [Envoyer des e-mails uniquement les jours de la semaine](help/using/building-journeys/weekday-email-uc.md) - 11 décembre
 - [Itération sur les données contextuelles](help/using/personalization/iterate-contextual-data.md) - 11 décembre
 - [Prise en main des fonctionnalités de décision dans Journey Optimizer](help/using/experience-decisioning/gs-decision.md) - 18 novembre
@@ -34,13 +34,6 @@ ht-degree: 0%
 - [Configuration des applications mobiles](help/using/configuration/set-mobile-config.md) - 6 décembre
 - [Contenu multilingue avec traduction manuelle](help/using/content-management/multilingual-provider.md) - 5 décembre
 - [Utilisation de la prise de décision dans vos expériences basées sur du code](help/using/experience-decisioning/experience-decisioning-uc.md) - 3 décembre
-- [Rapports de cartes de contenu](help/using/content-card/content-card-report.md) - 2 décembre
-- [Créer une carte de contenu](help/using/content-card/create-content-card.md) - 2 décembre
-- [Prise en main de la carte de contenu](help/using/content-card/get-started-content-card.md) - 2 décembre
-- [Conception de cartes de contenu](help/using/content-card/design-content-card.md) - 2 décembre
-- [Conditions préalables à la configuration des cartes de contenu](help/using/content-card/content-card-configuration-prereq.md) - 2 décembre
-- [Configuration du SDK de carte de contenu](help/using/content-card/content-card-configuration-sdk.md) - 2 décembre
-- [Configuration de la carte de contenu](help/using/content-card/content-card-configuration.md) - 2 décembre
 - [Créer une campagne d’action](help/using/campaigns/create-campaign.md) - 2 décembre
 - [Exécution du préchauffage d’adresses IP](help/using/configuration/ip-warmup-execution.md) - 26 novembre
 - [Créer une landing page](help/using/landing-pages/create-lp.md) - 25 novembre
@@ -101,9 +94,9 @@ ht-degree: 0%
 
 - [Fonctionnalités intelligentes et d’IA dans Adobe Journey Optimizer](help/using/start/ai-features.md) - 31 octobre
 - [Gérer les préférences de vos clients](help/using/action/preference-center.md) - 24 octobre
-- [Rapport de Parcours &#x200B;](help/using/action/reporting.md) - 29 octobre
+- [Rapport de Parcours ](help/using/action/reporting.md) - 29 octobre
 - [Référence des codes d’erreur](help/using/building-journeys/error-codes-reference.md) - 27 octobre
-- [Questions Fréquentes Sur Parcours &#x200B;](help/using/building-journeys/journey-faq.md) - 28 Oct
+- [Questions Fréquentes Sur Parcours ](help/using/building-journeys/journey-faq.md) - 28 Oct
 - [Activer le mode à débit élevé pour les campagnes déclenchées par l’API](help/using/campaigns/api-triggered-high-throughput.md) - Oct 27
 - [Définir des heures calmes](help/using/conflict-prioritization/quiet-hours.md) - 22 octobre
 - [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 24 Oct
@@ -113,8 +106,8 @@ ht-degree: 0%
 - [Configuration de votre canal](help/using/orchestrated/channel-config.md) - 14 octobre
 - [Concevoir une notification push](help/using/push/design-push-web.md) - 14 octobre
 - [Configuration des notifications push](help/using/push/push-configuration-web.md) - 14 octobre
-- [Utilisation d’événements d’étape de parcours &#x200B;](help/using/reports/journey-step-events-overview.md) - 21 octobre
-- [Cycle de publication de Adobe Journey Optimizer &#x200B;](help/using/rn/releases.md) - 28 octobre
+- [Utilisation d’événements d’étape de parcours ](help/using/reports/journey-step-events-overview.md) - 21 octobre
+- [Cycle de publication de Adobe Journey Optimizer ](help/using/rn/releases.md) - 28 octobre
 - [Conception du contenu du message](help/using/start/message-content-design.md) - 18 octobre
 
 ### Pages mises à jour
@@ -131,26 +124,26 @@ ht-degree: 0%
 - [Création d’un profil de test](help/using/audience/creating-test-profiles.md) - 22 octobre
 - [À propos des audiences Adobe Experience Platform](help/using/audience/enrichment-attributes.md) - 28 octobre
 - [Prise en main des profils dans Journey Optimizer](help/using/audience/get-started-profiles.md) - 22 octobre
-- [Prise en main des activités de parcours &#x200B;](help/using/building-journeys/about-journey-activities.md) - 27 octobre
+- [Prise en main des activités de parcours ](help/using/building-journeys/about-journey-activities.md) - 27 octobre
 - [Transmission de collections dans des paramètres d’action personnalisés](help/using/building-journeys/collections.md) - 13 octobre
 - [Activité de condition](help/using/building-journeys/condition-activity.md) - 24 octobre
-- [Utilisation des données Adobe Experience Platform dans les parcours &#x200B;](help/using/building-journeys/dataset-lookup.md) - 28 octobre
+- [Utilisation des données Adobe Experience Platform dans les parcours ](help/using/building-journeys/dataset-lookup.md) - 28 octobre
 - [Recherche d’événements d’expérience dans parcours](help/using/building-journeys/exp-event-lookup.md) - 28 octobre
 - [Utiliser l’activité parcours d’action](help/using/building-journeys/journey-action.md) - 14 octobre
-- [Mettre en pause un parcours &#x200B;](help/using/building-journeys/journey-pause.md) - 13 octobre
+- [Mettre en pause un parcours ](help/using/building-journeys/journey-pause.md) - 13 octobre
 - [Prise en main de parcours](help/using/building-journeys/journey.md) - 27 octobre
-- [Ajouter une action de canal intégrée à un parcours &#x200B;](help/using/building-journeys/journeys-message.md) - 29 octobre
+- [Ajouter une action de canal intégrée à un parcours ](help/using/building-journeys/journeys-message.md) - 29 octobre
 - [Optimiser l’activité](help/using/building-journeys/optimize.md) - 22 octobre
-- [Utiliser une audience dans un parcours &#x200B;](help/using/building-journeys/read-audience.md) - 17 octobre
+- [Utiliser une audience dans un parcours ](help/using/building-journeys/read-audience.md) - 17 octobre
 - [Optimisation de l’heure d’envoi](help/using/building-journeys/send-time-optimization.md) - 28 octobre
-- [Testez votre parcours &#x200B;](help/using/building-journeys/testing-the-journey.md) - 28 octobre
+- [Testez votre parcours ](help/using/building-journeys/testing-the-journey.md) - 28 octobre
 - [Configurer l’action de campagne déclenchée par l’API](help/using/campaigns/api-triggered-campaign-action.md) - 29 octobre
 - [Définir l’audience de campagne déclenchée par l’API](help/using/campaigns/api-triggered-campaign-audience.md) - 23 octobre
 - [Modification du contenu de campagne déclenché par l’API](help/using/campaigns/api-triggered-campaign-content.md) - 23 octobre
 - [Définir les propriétés de la campagne déclenchée par l’API](help/using/campaigns/api-triggered-campaign-properties.md) - Oct 23
 - [Utilisation de campagnes déclenchées par API](help/using/campaigns/api-triggered-campaigns.md) - 29 octobre
 - [Configurer l’action de campagne](help/using/campaigns/campaign-action.md) - 29 octobre
-- [Optimisation des campagnes et des parcours &#x200B;](help/using/campaigns/campaigns-message-optimization.md) - 22 octobre
+- [Optimisation des campagnes et des parcours ](help/using/campaigns/campaigns-message-optimization.md) - 22 octobre
 - [Créer une campagne d’action](help/using/campaigns/create-campaign.md) - 29 octobre
 - [Prise en main des campagnes](help/using/campaigns/get-started-with-campaigns.md) - 29 octobre
 - [Accéder aux campagnes et les gérer](help/using/campaigns/manage-campaigns.md) - 23 octobre
@@ -206,18 +199,18 @@ ht-degree: 0%
 - [Bibliothèque de fonctions de tableau](help/using/personalization/functions/arrays-list.md) - 29 octobre
 - [Bibliothèque de fonctions Date et heure](help/using/personalization/functions/dates.md) - 29 octobre
 - [Ajouter une personnalisation](help/using/personalization/personalization-build-expressions.md) - 28 octobre
-- [Syntaxe de Personalization &#x200B;](help/using/personalization/personalization-syntax.md) - 28 octobre
+- [Syntaxe de Personalization ](help/using/personalization/personalization-syntax.md) - 28 octobre
 - [Concevoir une notification push](help/using/push/design-push.md) - 14 octobre
 - [Configuration des notifications push](help/using/push/push-configuration.md) - 23 octobre
 - [Accéder aux alertes système et s’y abonner](help/using/reports/alerts.md) - 28 octobre
 - [Rapport de campagne](help/using/reports/campaign-global-report-cja-inapp.md) - 14 octobre
 - [Prise en main des fonctionnalités de création de rapports dans  [!DNL Adobe Journey Optimizer]](help/using/reports/gs-reports.md) - 23 octobre
-- [Rapport de Parcours &#x200B;](help/using/reports/journey-global-report-cja-inapp.md) - 14 octobre
+- [Rapport de Parcours ](help/using/reports/journey-global-report-cja-inapp.md) - 14 octobre
 - [Exemples de requêtes](help/using/reports/query-examples.md) - 29 octobre
 - [Rapports](help/using/reports/report-cja-manage.md) - 13 Octobre
 - [champs d’exécution d’action des événements journeyStep](help/using/reports/sharing-execution-fields.md) - Oct 29
 - [Liste des champs d’événement d’étape](help/using/reports/sharing-field-list.md) - 17 octobre
-- Présentation du partage des étapes du Parcours [&#128279;](help/using/reports/sharing-overview.md) - 17 octobre
+- Présentation du partage des étapes du Parcours [](help/using/reports/sharing-overview.md) - 17 octobre
 - [Mises À Jour De La Documentation](help/using/rn/documentation-updates.md) - 29 Octobre
 - [Notes de mise à jour préliminaires pour Journey Optimizer](help/using/rn/e-release-notes.md) - 20 octobre
 - [Notes de mise à jour 2025](help/using/rn/release-notes-2025.md) - 28 octobre
@@ -227,5 +220,5 @@ ht-degree: 0%
 - [Configurer le fournisseur Infobip](help/using/sms/sms-configuration-infobip.md) - 27 octobre
 - [Configurer le fournisseur Sinch](help/using/sms/sms-configuration-sinch.md) - 27 octobre
 - [Mécanismes de sécurisation et limitations de Journey Optimizer](help/using/start/guardrails.md) - 3 novembre
-- [Articles de dépannage de Journey Optimizer &#x200B;](help/using/start/troubleshooting.md) - 27 octobre
+- [Articles de dépannage de Journey Optimizer ](help/using/start/troubleshooting.md) - 27 octobre
 - [Configurer le canal WhatsApp](help/using/whatsapp/whatsapp-configuration.md) - 22 octobre
