@@ -210,7 +210,7 @@ Découvrez les composants d’un parcours et comprenez les principes de base de 
 
 Cette section contient des conseils détaillés pour la conception, le test, la publication et le suivi des parcours clients afin de créer des campagnes omnicanal personnalisées.
 
-[Explorer la création de parcours ](/help/rp_landing_pages/create-journey-landing-page.md) | [Découvrez la gestion des parcours ](/help/rp_landing_pages/manage-journey-landing-page.md)
+[Explorer la création de parcours &#x200B;](/help/rp_landing_pages/create-journey-landing-page.md) | [Découvrez la gestion des parcours &#x200B;](/help/rp_landing_pages/manage-journey-landing-page.md)
 :::
 
 :::
@@ -251,5 +251,5 @@ Diagnostiquez et résolvez les problèmes d’exécution du parcours à l’aide
 * **[Référence des codes d’erreur](error-codes-reference.md)** : codes d’erreur des parcours et étapes de dépannage.
 * **[Alertes](../reports/alerts.md)** : configurez des alertes pour la surveillance des parcours.
 * **[Dépannage](troubleshooting.md)** : problèmes courants des parcours et solutions.
-* **[Tutoriels Parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Découvrez la création de parcours au moyen de tutoriels vidéo pratiques.
+* **[Tutoriels Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Découvrez la création de parcours au moyen de tutoriels vidéo pratiques.
 
