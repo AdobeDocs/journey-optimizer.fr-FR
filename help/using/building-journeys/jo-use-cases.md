@@ -24,7 +24,7 @@ Utilisez cette bibliothèque comme point de référence lors de la conception de
 
 >[!TIP]
 >
->Vous découvrez les critères d’entrée et de sortie du parcours ? Commencez par notre [guide complet sur les critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation réels, des bonnes pratiques et des conseils de configuration détaillés.
+>Vous découvrez les critères d’entrée et de sortie du parcours ? Commencez par notre [guide complet sur les critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation réels, des bonnes pratiques et des conseils de configuration détaillés.
 
 
 ## Utiliser les événements de parcours
