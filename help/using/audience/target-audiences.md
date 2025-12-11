@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '764'
 ht-degree: 52%
 
 ---
@@ -49,7 +49,7 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 * Utilisez une activité d’orchestration **Lecture d’audience** dans un parcours pour faire en sorte que toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. Supposons que vous ayez une audience « cliente ou cliente Silver ». Avec cette activité, vous pouvez faire en sorte que tous les clients Silver rejoignent un parcours. Vous pouvez ensuite leur envoyer une série de messages personnalisés. [Découvrez comment configurer une activité Lecture d’audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-  Pour les parcours utilisant des audiences de composition d’audience ou de chargement personnalisé, les attributs de profil sont aussi récents que la dernière évaluation par lot à l’entrée du parcours. Cependant, après une activité **Attente**, le parcours actualise les attributs de profil depuis l’UPS (Unified Profile Service) en récupérant les dernières données disponibles, ce qui signifie que les attributs de profil peuvent changer pendant l’exécution du parcours. [En savoir plus sur l’actualisation du profil après une activité Attente &#x200B;](../building-journeys/wait-activity.md#profile-refresh)
+  Pour les parcours utilisant des audiences de composition d’audience ou de chargement personnalisé, les attributs de profil sont aussi récents que la dernière évaluation par lot à l’entrée du parcours. Cependant, après une activité **Attente**, le parcours actualise les attributs de profil depuis l’UPS (Unified Profile Service) en récupérant les dernières données disponibles, ce qui signifie que les attributs de profil peuvent changer pendant l’exécution du parcours. [En savoir plus sur l’actualisation du profil après une activité Attente ](../building-journeys/wait-activity.md#profile-refresh)
 
 * Utilisez l’activité **Condition** dans un parcours afin de créer des conditions basées sur l’appartenance à une audience. [Découvrez comment utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -61,8 +61,8 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 ## Activation des types d’audience non pris en charge dans [!DNL Journey Optimizer]
 
-Seules les audiences créées dans le portail Audience peuvent être ciblées directement dans les parcours et campagnes [!DNL Journey Optimizer]. [En savoir plus sur les types d’audience disponibles](../audience/about-audiences.md#types).
+Seules les audiences générées à l’aide de **définition de segment**, **compositions d’audience**, **chargement personnalisé (fichier CSV)** et **composition d’audience fédérée** peuvent être ciblées directement dans les parcours et campagnes Journey Optimizer. [En savoir plus sur les types d’audience disponibles](../audience/about-audiences.md#types)
 
-Si vous devez cibler des profils d’une audience non prise en charge, telle qu’une audience Customer Journey Analytics, vous devez les encapsuler dans une nouvelle définition de segment dans le portail Audience. Vous trouverez des informations détaillées sur l’ajout d’audiences dans une définition de segment dans la [documentation du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Si vous devez cibler des profils d’une audience non prise en charge, telle qu’une audience Customer Journey Analytics, vous devez les encapsuler dans une nouvelle définition de segment dans le portail Audience. Vous trouverez des informations détaillées sur l’ajout d’audiences dans une définition de segment dans la [documentation du créateur de segments](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Une fois l’évaluation terminée, attendez qu’elle soit terminée pour l’utiliser dans vos parcours et campagnes.
