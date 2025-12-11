@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expression, éditeur, barres de contrôle, itération, tableaux, contexte, personnalisation
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: ebe367a91dc1bb20ceeb03b13a6008433fadf023
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 3%
+source-wordcount: '2557'
+ht-degree: 0%
 
 ---
 
@@ -33,11 +33,13 @@ Journey Optimizer permet d’accéder aux données contextuelles provenant de pl
 * **[Propriétés techniques](#technical-properties)** : métadonnées de Parcours telles que l’identifiant du parcours et les identifiants supplémentaires
 * **[Parcours context](#other-contexts)** : autres données relatives au parcours accessibles lors de l&#39;exécution.
 
-Ce guide vous explique comment effectuer une itération sur des tableaux à partir de chacune de ces sources dans vos messages et comment utiliser des tableaux lors de la configuration des activités de parcours. Commencez par [Syntaxe d’itération Handlebars](#syntax) pour comprendre les principes de base de la personnalisation des messages, ou passez à [Utiliser des tableaux dans des expressions de Parcours &#x200B;](#arrays-in-journeys) pour savoir comment transmettre des données de tableau à des actions personnalisées et à des recherches de jeux de données.
+Ce guide vous explique comment effectuer une itération sur des tableaux à partir de chacune de ces sources dans vos messages et comment utiliser des tableaux lors de la configuration des activités de parcours. Commencez par [Syntaxe d’itération Handlebars](#syntax) pour comprendre les principes de base de la personnalisation des messages, ou passez à [Utiliser des tableaux dans des expressions de Parcours ](#arrays-in-journeys) pour savoir comment transmettre des données de tableau à des actions personnalisées et à des recherches de jeux de données.
 
 ## Syntaxe de l’itération Handlebars {#syntax}
 
-Handlebars fournit la `{{#each}}` [helper](functions/helpers.md) pour effectuer une itération sur des tableaux. La syntaxe de base est :
+Handlebars fournit la `{{#each}}` [helper](functions/helpers.md) pour effectuer une itération sur des tableaux.
+
++++ Syntaxe de base
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -53,13 +55,15 @@ Handlebars fournit la `{{#each}}` [helper](functions/helpers.md) pour effectuer 
 * Accès aux propriétés de chaque élément à l’aide de `{{item.propertyName}}`
 * Vous pouvez imbriquer plusieurs blocs de `{{#each}}` pour des tableaux à plusieurs niveaux
 
++++
+
 ## Itérer sur les données d’événement {#event-data}
 
-Les données d’événement sont disponibles lorsque votre parcours est déclenché par un [&#x200B; événement &#x200B;](../event/about-events.md). Cela s’avère utile pour afficher les données capturées au moment du démarrage du parcours, telles que le contenu du panier, les éléments de commande ou les envois de formulaire.
+Les données d’événement sont disponibles lorsque votre parcours est déclenché par un [ événement ](../event/about-events.md). Cela s’avère utile pour afficher les données capturées au moment du démarrage du parcours, telles que le contenu du panier, les éléments de commande ou les envois de formulaire.
 
 >[!TIP]
 >
->Vous pouvez combiner des données d’événement avec d’autres sources. Pour obtenir des exemples[&#x200B; voir &#x200B;](#combine-sources) Combiner plusieurs sources de contexte .
+>Vous pouvez combiner des données d’événement avec d’autres sources. Pour obtenir des exemples[ voir ](#combine-sources) Combiner plusieurs sources de contexte .
 
 ### Chemin d’accès au contexte pour les événements
 
@@ -74,6 +78,8 @@ context.journey.events.<event_ID>.<fieldPath>
 
 Si votre [schéma d’événement](../event/experience-event-schema.md) comprend un tableau `productListItems` (format [XDM standard](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target="_blank"}), vous pouvez afficher le contenu du panier comme suit :
 
++++ Afficher un exemple de code
+
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
   <div class="product">
@@ -84,9 +90,13 @@ Si votre [schéma d’événement](../event/experience-event-schema.md) comprend
 {{/each}}
 ```
 
++++
+
 ### Exemple : tableaux imbriqués dans des événements
 
-Pour les structures imbriquées, utilisez des blocs de `{{#each}}` imbriqués. En savoir plus sur l’imbrication dans [&#x200B; Bonnes pratiques &#x200B;](#best-practices).
+Pour les structures imbriquées, utilisez des blocs de `{{#each}}` imbriqués. En savoir plus sur l’imbrication dans [ Bonnes pratiques ](#best-practices).
+
++++ Afficher un exemple de code
 
 ```handlebars
 {{#each context.journey.events.event_ID.categories as |category|}}
@@ -98,6 +108,8 @@ Pour les structures imbriquées, utilisez des blocs de `{{#each}}` imbriqués. E
   </ul>
 {{/each}}
 ```
+
++++
 
 ## Effectuer une itération sur les réponses d’action personnalisées {#custom-action-responses}
 
@@ -119,6 +131,8 @@ context.journey.actions.<actionName>.<fieldPath>
 ### Exemple : recommandations de produit à partir d’une API
 
 Si votre action personnalisée renvoie des recommandations de produit :
+
++++ Afficher un exemple de code
 
 **Réponse de l’API :**
 
@@ -156,9 +170,13 @@ Si votre action personnalisée renvoie des recommandations de produit :
 </div>
 ```
 
++++
+
 ### Exemple : tableaux imbriqués à partir d’actions personnalisées
 
 Si votre action personnalisée renvoie des tableaux imbriqués (par exemple, des catégories avec des produits). Pour des modèles d’imbrication plus complexes, consultez [Bonnes pratiques](#best-practices).
+
++++ Afficher un exemple de code
 
 **Réponse de l’API :**
 
@@ -188,9 +206,13 @@ Si votre action personnalisée renvoie des tableaux imbriqués (par exemple, des
 {{/each}}
 ```
 
++++
+
 ### Exemple : avantages du niveau de fidélité
 
 Afficher les avantages dynamiques en fonction du statut de fidélité :
+
++++ Afficher un exemple de code
 
 **Réponse de l’API :**
 
@@ -219,6 +241,8 @@ Afficher les avantages dynamiques en fonction du statut de fidélité :
 </ul>
 ```
 
++++
+
 ## Itérer sur les résultats de la recherche de jeu de données {#dataset-lookup}
 
 L’activité [Recherche de jeu de données](../building-journeys/dataset-lookup.md) vous permet de récupérer des données de [jeux de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"} pendant l’exécution du parcours. Les données enrichies sont stockées sous la forme d’un tableau et peuvent être itérées dans vos messages.
@@ -241,6 +265,8 @@ context.journey.datasetLookup.<activityID>.entities
 ### Exemple : détails du produit d’un jeu de données
 
 Si vous utilisez une activité de recherche de jeu de données pour récupérer des informations sur les produits en fonction des SKU :
+
++++ Afficher un exemple de code
 
 **Configuration de la recherche de jeu de données:**
 
@@ -271,9 +297,13 @@ Si vous utilisez une activité de recherche de jeu de données pour récupérer 
 </table>
 ```
 
++++
+
 ### Exemple : itération filtrée avec des données de jeu de données
 
-Afficher uniquement les produits d’une catégorie spécifique. En savoir plus sur le filtrage conditionnel dans [&#x200B; Bonnes pratiques &#x200B;](#best-practices).
+Afficher uniquement les produits d’une catégorie spécifique. En savoir plus sur le filtrage conditionnel dans [ Bonnes pratiques ](#best-practices).
+
++++ Afficher un exemple de code
 
 ```handlebars
 <h2>Household Products</h2>
@@ -287,7 +317,11 @@ Afficher uniquement les produits d’une catégorie spécifique. En savoir plus 
 {{/each}}
 ```
 
++++
+
 ### Exemple : calcul de totaux à partir de la recherche de jeux de données
+
++++ Afficher un exemple de code
 
 ```handlebars
 {% let householdTotal = 0 %}
@@ -299,6 +333,8 @@ Afficher uniquement les produits d’une catégorie spécifique. En savoir plus 
 
 <p>Your household products total: ${{householdTotal}}</p>
 ```
+
++++
 
 ## Utilisation des propriétés techniques de parcours {#technical-properties}
 
@@ -317,6 +353,8 @@ Lors de l’utilisation d’identifiants supplémentaires dans des parcours déc
 
 **Scénario** : un parcours est déclenché avec plusieurs réservations, mais vous souhaitez afficher les informations uniquement pour la réservation spécifique (identifiée par un ID supplémentaire) qui a déclenché cette instance de parcours.
 
++++ Afficher un exemple de code
+
 ```handlebars
 {{#each context.journey.events.event_ID.bookingList as |booking|}}
   {%#if booking.bookingInfo.bookingNum = context.journey.technicalProperties.supplementalId%}
@@ -329,13 +367,19 @@ Lors de l’utilisation d’identifiants supplémentaires dans des parcours déc
 {{/each}}
 ```
 
++++
+
 ### Exemple : inclure l’ID de parcours pour le suivi
+
++++ Afficher un exemple de code
 
 ```handlebars
 <footer>
   <p>Journey Reference: {{context.journey.technicalProperties.journeyUID}}</p>
 </footer>
 ```
+
++++
 
 ## Combinaison de plusieurs sources de contexte {#combine-sources}
 
@@ -350,6 +394,8 @@ Vous pouvez combiner des données provenant de différentes sources dans le mêm
 ### Exemple : articles de panier avec stock en temps réel
 
 Combinez les données d’événement (contenu du panier) avec les données d’action personnalisée (statut d’inventaire) :
+
++++ Afficher un exemple de code
 
 ```handlebars
 <h2>Your Cart</h2>
@@ -375,9 +421,13 @@ Combinez les données d’événement (contenu du panier) avec les données d’
 {{/each}}
 ```
 
++++
+
 ### Exemple : données d’événement enrichies avec la recherche de jeu de données
 
 Combinez les [SKU d’événement](#event-data) avec des informations détaillées sur les produits provenant d’une [recherche de jeu de données](#dataset-lookup) :
+
++++ Afficher un exemple de code
 
 ```handlebars
 <h2>Your Order Details</h2>
@@ -398,7 +448,11 @@ Combinez les [SKU d’événement](#event-data) avec des informations détaillé
 {{/each}}
 ```
 
++++
+
 ### Exemple : combinaison de plusieurs sources avec des propriétés techniques
+
++++ Afficher un exemple de code
 
 ```handlebars
 <div class="personalized-content">
@@ -429,6 +483,8 @@ Combinez les [SKU d’événement](#event-data) avec des informations détaillé
 </div>
 ```
 
++++
+
 ## Autres types de contexte {#other-contexts}
 
 Bien que ce guide se concentre sur l’itération sur les tableaux, d’autres types de contexte sont disponibles pour la personnalisation qui ne nécessitent généralement pas d’itération. Ils sont accessibles directement plutôt que par bouclage :
@@ -450,7 +506,7 @@ Bien que les sections précédentes se concentrent sur l’itération sur des ta
 
 >[!IMPORTANT]
 >
->Les expressions de parcours utilisent une syntaxe différente de la personnalisation Handlebars. Dans la configuration de parcours (paramètres ou conditions d&#39;action personnalisée, par exemple), vous utilisez l&#39;éditeur d&#39;expression de Parcours [&#128279;](../building-journeys/expression/expressionadvanced.md) avec des fonctions telles que `first`, `all` et `serializeList`. Dans le contenu des messages, vous utilisez la syntaxe Handlebars avec des boucles `{{#each}}`.
+>Les expressions de parcours utilisent une syntaxe différente de la personnalisation Handlebars. Dans la configuration de parcours (paramètres ou conditions d&#39;action personnalisée, par exemple), vous utilisez l&#39;éditeur d&#39;expression de Parcours [](../building-journeys/expression/expressionadvanced.md) avec des fonctions telles que `first`, `all` et `serializeList`. Dans le contenu des messages, vous utilisez la syntaxe Handlebars avec des boucles `{{#each}}`.
 
 ### Transmettre des valeurs de tableau aux paramètres d’action personnalisés {#arrays-to-custom-actions}
 
@@ -463,6 +519,8 @@ En savoir plus sur la transmission de collections dans [Transmettre des collecti
 **Cas d’utilisation** : obtenez un champ spécifique d’un tableau d’événements à transmettre en tant que paramètre de requête dans une requête GET.
 
 **Exemple de scénario** : extrayez le premier SKU avec un prix supérieur à 0 d’une liste de produits.
+
++++ Afficher un exemple de code
 
 **Exemple de schéma d’événement** :
 
@@ -499,9 +557,13 @@ En savoir plus sur la transmission de collections dans [Transmettre des collecti
 
 En savoir plus sur la fonction `first` dans [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md).
 
++++
+
 #### Création d’une liste de valeurs à partir d’un tableau
 
 **Cas d’utilisation** : créez une liste d’identifiants séparés par des virgules à transmettre en tant que paramètre de requête (par exemple, `/products?ids=sku1,sku2,sku3`).
+
++++ Afficher un exemple de code
 
 **Configuration d’une action personnalisée** :
 
@@ -535,9 +597,13 @@ En savoir plus sur :
 
 La gestion des collections pour les actions personnalisées est traitée dans la section [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection).
 
++++
+
 #### Transmettre un tableau d’objets à une action personnalisée
 
 **Cas d’utilisation** : envoyez un tableau complet d’objets dans un corps de requête (pour POST ou GET avec le corps).
+
++++ Afficher un exemple de code
 
 **Exemple de corps de requête** :
 
@@ -562,7 +628,7 @@ La gestion des collections pour les actions personnalisées est traitée dans la
 2. Marquer comme `Variable`
 3. Définissez les champs d’objet : `id`, `name`, `price`, `color` (chacun devient mappable)
 
-Configuration de la zone de travail de Parcours **&#x200B;**&#x200B;:
+Configuration de la zone de travail de Parcours **** :
 
 1. En mode avancé, définissez l’expression de collection :
 
@@ -582,13 +648,17 @@ Journey Optimizer construit le tableau d’objets correspondant à la structure 
 >
 >Lorsque vous utilisez des tableaux d’événements, utilisez `currentEventField` pour référencer chaque élément. Pour les collections de sources de données (Adobe Experience Platform), utilisez `currentDataPackField`. Pour les collections de réponses d’actions personnalisées, utilisez `currentActionField`.
 
-En savoir plus sur la section [&#x200B; Transmettre des collections dans des paramètres d’action personnalisés &#x200B;](../building-journeys/collections.md#passing-collection).
+En savoir plus sur la section [ Transmettre des collections dans des paramètres d’action personnalisés ](../building-journeys/collections.md#passing-collection).
+
++++
 
 ### Utilisation de tableaux avec les recherches de jeux de données {#arrays-with-dataset-lookup}
 
 Lors de l’utilisation de l’activité [Recherche de jeu de données](../building-journeys/dataset-lookup.md), vous pouvez transmettre un tableau de valeurs en tant que clés de recherche pour récupérer des données enrichies.
 
 **Exemple** : recherchez les détails du produit pour tous les SKU d’un tableau d’événements.
+
++++ Afficher un exemple de code
 
 **Configuration de la recherche de jeu de données** :
 
@@ -599,6 +669,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ```
 
 Cela crée une liste de toutes les valeurs de SKU à rechercher dans le jeu de données. Les résultats sont disponibles sous la forme d’un tableau à l’`context.journey.datasetLookup.<activityID>.entities` sur lequel vous pouvez effectuer une itération dans votre message (voir [Itérer sur les résultats de la recherche de jeu de données](#dataset-lookup)).
+
++++
 
 ### Restrictions et modèles {#array-limitations}
 
@@ -638,6 +710,8 @@ Les baies volumineuses peuvent avoir un impact sur les performances du parcours 
 Voici un workflow complet montrant comment utiliser un tableau d’événements avec une action personnalisée.
 
 **Scénario** : lorsqu’un utilisateur abandonne son panier, envoyez les données du panier à une API de recommandation externe pour obtenir des suggestions personnalisées, puis affichez-les dans un e-mail.
+
++++ Afficher l’exemple complet
 
 **Étape 1 : configurer l’action personnalisée**
 
@@ -723,13 +797,15 @@ Dans le contenu de votre e-mail, effectuez une itération sur les recommandation
 
 Avant d’exécuter un parcours en direct, testez l’action personnalisée à l’aide de la fonctionnalité « Envoyer la demande de test » de la configuration de l’action pour vérifier la demande et les valeurs créées.
 
-1. Utiliser le mode test de parcours [&#128279;](../building-journeys/testing-the-journey.md)
+1. Utiliser le mode test de parcours [](../building-journeys/testing-the-journey.md)
 2. Déclencheur avec des exemples de données d’événement, y compris un tableau de `productListItems`
 3. Vérifiez que l’action personnalisée reçoit la structure de baie appropriée.
 4. Vérifiez les journaux de test [action](../action/action-response.md#test-mode-logs)
 5. Prévisualisez l’e-mail pour confirmer que les deux tableaux s’affichent correctement
 
 En savoir plus dans [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md).
+
++++
 
 ## Bonnes pratiques {#best-practices}
 
@@ -738,6 +814,8 @@ Suivez ces bonnes pratiques lors de l’itération sur les données contextuelle
 ### Utiliser des noms de variables descriptifs
 
 Choisissez des noms de variables qui indiquent clairement ce sur quoi vous effectuez une itération. Cela rend votre code plus lisible et plus facile à gérer. En savoir plus sur la [syntaxe de personnalisation](personalization-syntax.md) :
+
++++ Afficher l’exemple
 
 ```handlebars
 <!-- Good -->
@@ -750,9 +828,13 @@ Choisissez des noms de variables qui indiquent clairement ce sur quoi vous effec
 {{#each array as |element|}}
 ```
 
++++
+
 ### Gérer les tableaux vides
 
 Utilisez la clause `{{else}}` pour fournir un contenu de secours lorsqu’un tableau est vide. En savoir plus sur les [fonctions helper](functions/helpers.md) :
+
++++ Afficher l’exemple
 
 ```handlebars
 {{#each context.journey.actions.GetRecommendations.items as |item|}}
@@ -762,9 +844,13 @@ Utilisez la clause `{{else}}` pour fournir un contenu de secours lorsqu’un tab
 {{/each}}
 ```
 
++++
+
 ### Combinaison avec des assistants conditionnels
 
 Utilisez des `{{#if}}` dans des boucles pour le contenu conditionnel. En savoir plus sur les [règles conditionnelles](create-conditions.md) et consultez des exemples dans les sections [Réponses d’action personnalisées](#custom-action-responses) et [Recherche de jeu de données](#dataset-lookup).
+
++++ Afficher l’exemple
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -780,9 +866,13 @@ Utilisez des `{{#if}}` dans des boucles pour le contenu conditionnel. En savoir 
 {{/each}}
 ```
 
++++
+
 ### Limiter l’itération pour les performances
 
 Pour les tableaux volumineux, pensez à limiter le nombre d’itérations :
+
++++ Afficher l’exemple
 
 ```handlebars
 <!-- Display only first 5 items -->
@@ -793,6 +883,8 @@ Pour les tableaux volumineux, pensez à limiter le nombre d’itérations :
 {{/each}}
 ```
 
++++
+
 ### Accès aux métadonnées des tableaux
 
 Handlebars fournit des variables spéciales dans les boucles qui aident à obtenir des modèles d’itération avancés :
@@ -800,6 +892,8 @@ Handlebars fournit des variables spéciales dans les boucles qui aident à obten
 * `@index` : index d’itération actuel (basé sur 0)
 * `@first` : Vrai pour la première itération
 * `@last` : True pour la dernière itération
+
++++ Afficher l’exemple
 
 ```handlebars
 {{#each products as |product|}}
@@ -809,9 +903,11 @@ Handlebars fournit des variables spéciales dans les boucles qui aident à obten
 {{/each}}
 ```
 
++++
+
 >[!NOTE]
 >
->Ces variables Handlebars (`@index`, `@first`, `@last`) ne sont disponibles que dans les boucles `{{#each}}` dans la personnalisation des messages. Pour utiliser des tableaux dans des expressions de Parcours (comme obtenir le premier élément d’un tableau avant de transmettre à une action personnalisée), utilisez des fonctions de tableau telles que [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) ou [`all`](../building-journeys/expression/collection-management-functions.md). Voir [&#x200B; Utilisation de tableaux dans les expressions de Parcours &#x200B;](#arrays-in-journeys) pour plus d’informations.
+>Ces variables Handlebars (`@index`, `@first`, `@last`) ne sont disponibles que dans les boucles `{{#each}}` dans la personnalisation des messages. Pour utiliser des tableaux dans des expressions de Parcours (comme obtenir le premier élément d’un tableau avant de transmettre à une action personnalisée), utilisez des fonctions de tableau telles que [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) ou [`all`](../building-journeys/expression/collection-management-functions.md). Voir [ Utilisation de tableaux dans les expressions de Parcours ](#arrays-in-journeys) pour plus d’informations.
 
 ## Résolution des problèmes {#troubleshooting}
 
@@ -820,6 +916,8 @@ Vous rencontrez des problèmes avec l’itération ? Cette section couvre les pr
 ### Tableau non affiché
 
 **Problème** : votre itération de tableau n’affiche aucun contenu.
+
++++ Affichage des causes possibles et des solutions
 
 **Causes possibles et solutions** :
 
@@ -832,9 +930,13 @@ Vous rencontrez des problèmes avec l’itération ? Cette section couvre les pr
 
 3. **Données pas encore disponibles** : assurez-vous que l’action personnalisée, l’événement ou l’activité de recherche de jeu de données a été exécuté avant l’activité de message dans votre flux de parcours.
 
++++
+
 ### Erreurs de syntaxe
 
 **Problème** : la validation de l’expression échoue ou le message ne s’affiche pas.
+
++++ Afficher les erreurs courantes
 
 **Erreurs courantes** :
 
@@ -842,53 +944,30 @@ Vous rencontrez des problèmes avec l’itération ? Cette section couvre les pr
 * Nom de variable incorrect : assurez-vous que le nom de variable est utilisé de manière cohérente dans tout le bloc. Voir [Bonnes pratiques](#best-practices) pour connaître les conventions de nommage.
 * Séparateurs de chemin incorrects : utilisez des points (`.`) et non des barres obliques ou d’autres caractères.
 
++++
+
 ### Test de vos itérations
 
-Utilisez le mode de test de parcours [&#128279;](../building-journeys/testing-the-journey.md) pour vérifier vos itérations. Ceci est particulièrement important lors de l’utilisation de [actions personnalisées](#custom-action-responses) ou [recherches de jeux de données](#dataset-lookup) :
+Utilisez le mode de test de parcours [](../building-journeys/testing-the-journey.md) pour vérifier vos itérations. Ceci est particulièrement important lors de l’utilisation de [actions personnalisées](#custom-action-responses) ou [recherches de jeux de données](#dataset-lookup) :
+
++++ Afficher les étapes de test
 
 1. Démarrez votre parcours en [mode test](../building-journeys/testing-the-journey.md)
 2. Déclencher l’événement ou l’action personnalisée avec des exemples de données
 3. Vérifiez l’[aperçu du message](../content-management/preview.md) pour vous assurer que l’itération s’affiche correctement
 4. Consultez les journaux du mode test pour connaître les erreurs éventuelles (voir [Journaux du mode test d’action personnalisée](../action/action-response.md#test-mode-logs)).
 
++++
+
 ## Rubriques connexes {#related-topics}
 
-**Principes de base de Personalization :**
+**Principes de base de Personalization :** [Prise en main de la personnalisation](personalize.md) | [Ajouter une personnalisation](personalization-build-expressions.md) | Syntaxe de [Personalization](personalization-syntax.md) | [Fonctions helper](functions/helpers.md) | [Créer des règles conditionnelles](create-conditions.md)
 
-* [Commencer avec la personnalisation](personalize.md)
-* [Ajouter une personnalisation](personalization-build-expressions.md)
-* [Syntaxe de personnalisation](personalization-syntax.md)
-* [Fonctions d’assistance](functions/helpers.md)
-* [Créer des règles conditionnelles](create-conditions.md)
+**Configuration du Parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md#passing-collection) | [Utilisation des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utilisation des données Adobe Experience Platform dans les parcours ](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours ](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester le parcours ](../building-journeys/testing-the-journey.md)
 
-Configuration du Parcours **&#x200B;**
+**Fonctions d&#39;expression de Parcours :** [Éditeur d&#39;expression avancé](../building-journeys/expression/expressionadvanced.md) | [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md) (en premier, en dernier) | [Fonctions de liste](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Fonctions de tableau](../personalization/functions/arrays-list.md) (head, tail)
 
-* [À propos des événements](../event/about-events.md)
-* [Configurer des actions personnalisées](../action/about-custom-action-configuration.md)
-* [Transmettre des collections dans des paramètres d’actions personnalisées](../building-journeys/collections.md#passing-collection)
-* [Utiliser des réponses d’appel API dans des actions personnalisées](../action/action-response.md)
-* [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md)
-* [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md)
-* [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md)
-* [Mécanismes de sécurisation et limitations](../start/guardrails.md)
-* [Tester votre parcours](../building-journeys/testing-the-journey.md)
+**Cas d’utilisation de Personalization :** [E-mail d’abandon de panier](personalization-use-case-helper-functions.md) | [Notification du statut de la commande](personalization-use-case.md)
 
-**Fonctions d&#39;expression de Parcours :**
-
-* [Éditeur d’expression avancé](../building-journeys/expression/expressionadvanced.md)
-* [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md) (en premier, en dernier)
-* [Fonctions de liste](../building-journeys/functions/list-functions.md) (serializeList, filter, sort)
-* [Fonctions de tableau](../personalization/functions/arrays-list.md) (head, tail)
-
-**Cas d’utilisation de Personalization :**
-
-* [E-mail d’abandon de panier](personalization-use-case-helper-functions.md)
-* [Notification de statut de la commande](personalization-use-case.md)
-
-**Conception de message :**
-
-* [Commencer la conception d’e-mails](../email/get-started-email-design.md)
-* [Créer des notifications push](../push/create-push.md)
-* [Création de SMS](../sms/create-sms.md)
-* [Prévisualiser et tester le contenu](../content-management/preview-test.md)
+**Conception de message :** [Prise en main de la conception d’e-mails](../email/get-started-email-design.md) | [Créer des notifications push](../push/create-push.md) | [Créer des SMS](../sms/create-sms.md) | [Prévisualiser et tester votre contenu](../content-management/preview-test.md)
 
