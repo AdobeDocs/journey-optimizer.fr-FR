@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
+source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 88%
+source-wordcount: '1184'
+ht-degree: 85%
 
 ---
 
@@ -149,6 +149,10 @@ Pour permettre aux personnes destinataires dʼun e-mail dʼannuler leur abonneme
 
    ![](assets/lp_opt-out-submit-form.png)
 
+   >[!WARNING]
+   >
+   >Cliquer sur le lien de désabonnement dans l’e-mail ouvre uniquement la page de destination. Le destinataire doit **envoyer le formulaire en cliquant sur le bouton d&#39;opt-out dans la page de destination** terminer la désinscription et mettre à jour son consentement de profil.
+
    Si le destinataire coche la case et soumet le formulaire :
 
    * Le destinataire qui sʼest désabonné est redirigé vers lʼécran du message de confirmation.
@@ -194,7 +198,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 Vous pouvez utiliser les informations envoyées sur une page de destination pour effectuer d’autres actions. Par exemple, si un utilisateur s’abonne à une liste d’abonnements donnée, vous pouvez exploiter ces informations pour envoyer un e-mail recommandant d’autres listes d’abonnements à cet utilisateur.
 
-Pour ce faire, vous devez créer un [événement unitaire basé sur des règles](../event/about-creating.md) basé sur le **[!UICONTROL Schéma d’événement d’expérience de tracking d’e-mail AJO]** contenant les informations d’envoi et [utiliser cet événement dans un parcours &#x200B;](../building-journeys/general-events.md).
+Pour ce faire, vous devez créer un [événement unitaire basé sur des règles](../event/about-creating.md) basé sur le **[!UICONTROL Schéma d’événement d’expérience de tracking d’e-mail AJO]** contenant les informations d’envoi et [utiliser cet événement dans un parcours ](../building-journeys/general-events.md).
 
 >[!NOTE]
 >
