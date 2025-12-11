@@ -50,7 +50,7 @@ ht-degree: 97%
 + Parcours {#orchestrate-journeys}
    + [Parcours](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Commencer les parcours](using/building-journeys/journey.md)
-   + [Journey Orchestration - Guide complet](using/building-journeys/journey-get-started.md){hide="yes"}
+   + [Journey Orchestration - Guide complethide="yes"](using/building-journeys/journey-get-started.md)
    + [FAQ sur Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
       + [Créer un parcours](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -920,7 +920,7 @@ ht-degree: 97%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
