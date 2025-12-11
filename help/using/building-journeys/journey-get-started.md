@@ -177,7 +177,7 @@ Le [concepteur de parcours](using-the-journey-designer.md) fournit des [actions 
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
 
 ### Explorer par sujet
 
