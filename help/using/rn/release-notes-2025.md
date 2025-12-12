@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+source-git-commit: d3559564b0bf33428a703f7909eed908f1c452a4
 workflow-type: tm+mt
-source-wordcount: '7890'
-ht-degree: 100%
+source-wordcount: '7908'
+ht-degree: 99%
 
 ---
 
@@ -594,7 +594,7 @@ Pour plus d’informations, consultez la <a href="../experience-decisioning/crea
 <tbody>
 <tr>
 <td>
-<p>L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni modifier les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
+<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-dry-run.md">documentation détaillée</a>.</p>
@@ -793,7 +793,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni modifier les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
+<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-dry-run.md">documentation détaillée</a>.</p>
@@ -894,7 +894,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
    * **Copie de sandbox et prise de décision** (date de disponibilité : 3 juin 2025) : les objets de prise de décision peuvent désormais être copiés entre des sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Prise en charge des attributs d’élément de décision pour les règles de prise de décision** (date de disponibilité : 4 juin 2025) * Vous pouvez désormais tirer profit des attributs d’élément de décision pour créer des règles de prise de décision. [En savoir plus](../experience-decisioning/rules.md#create)
+   * **Prise en charge des attributs d’élément de décision pour les règles de prise de décision** (date de disponibilité : 4 juin 2025) : vous pouvez désormais tirer profit des attributs d’élément de décision pour créer des règles de prise de décision. [En savoir plus](../experience-decisioning/rules.md#create)
 
 * **Mise à jour de l’API d’exécution de message interactif** - Date de disponibilité : 6 juin 2025
 
@@ -1613,11 +1613,13 @@ Pour plus d’informations sur les règles métier, consultez la [documentation 
 
 Les modèles de contenu de type HTML sont désormais obsolètes. Notez que vous pouvez toujours utiliser les modèles de contenu HTML existants, précédemment créés dans [!DNL Journey Optimizer]. [En savoir plus sur les modèles de contenu](../content-management/content-templates.md)
 
+**Politiques de consentement**
+
+Vous pouvez désormais tirer parti des politiques de consentement personnalisées par le biais d’actions marketing dans les configurations de canal e-mail. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
 You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
-
 
 
 
