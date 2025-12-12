@@ -160,5 +160,5 @@ Découvrez les principes de base de la délivrabilité, l’établissement de la
 * [Paramétrer des configurations de canal](channel-surfaces.md)
 * [Délégation de sous-domaines](delegate-subdomain.md)
 * [Gestion de la liste de suppression](manage-suppression-list.md)
-* [ Guide des bonnes pratiques en matière de délivrabilité ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr)
+* [&#x200B; Guide des bonnes pratiques en matière de délivrabilité &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr)
 
