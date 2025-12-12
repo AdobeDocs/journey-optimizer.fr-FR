@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1477'
 ht-degree: 3%
 
 ---
@@ -38,8 +38,8 @@ Pour commencer à créer des expériences, procédez comme suit :
    * **Personnalisez les messages** avec des données client, du contenu dynamique et une logique conditionnelle. [En savoir plus sur la personnalisation](../../personalization/personalize.md)
    * **Effectuez une itération sur les données contextuelles** pour afficher des listes dynamiques à partir d’événements, d’actions personnalisées et de recherches de jeux de données. [En savoir plus sur l’itération des données contextuelles](../../personalization/iterate-contextual-data.md)
    * Créez des **modèles de contenu** et des **fragments** réutilisables pour maintenir la cohérence de la marque. [Utiliser des modèles](../../content-management/content-templates.md)
-   * Diffusez des cartes de contenu **persistantes et non intrusives** dans les applications mobiles et les sites web. Contrairement aux notifications push, les cartes de contenu restent visibles jusqu’à leur rejet. [En savoir plus sur les cartes de contenu &#x200B;](../../content-card/create-content-card.md)
-   * Gérez les ressources avec l’intégration **Adobe Experience Manager Assets**. [En savoir plus sur les ressources &#x200B;](../../integrations/assets.md)
+   * Diffusez des cartes de contenu **persistantes et non intrusives** dans les applications mobiles et les sites web. Contrairement aux notifications push, les cartes de contenu restent visibles jusqu’à leur rejet. [En savoir plus sur les cartes de contenu ](../../content-card/create-content-card.md)
+   * Gérez les ressources avec l’intégration **Adobe Experience Manager Assets**. [En savoir plus sur les ressources ](../../integrations/assets.md)
 
    ![](../assets/perso_ee2.png)
 
@@ -68,7 +68,7 @@ Pour commencer à créer des expériences, procédez comme suit :
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours &#x200B;](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours &#x200B;](../../building-journeys/jo-use-cases.md). Comprenez [&#x200B; critères d’entrée/sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler le flux du profil.
+   Découvrez comment [concevoir et exécuter des parcours ](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours ](../../building-journeys/jo-use-cases.md). Comprenez [ critères d’entrée/sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler le flux du profil.
 
 1. **Lancer des campagnes orchestrées**. Concevez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
 
@@ -79,16 +79,16 @@ Pour commencer à créer des expériences, procédez comme suit :
    * Planifiez des campagnes pour qu’elles s’exécutent immédiatement, à des heures spécifiques ou selon des planifications récurrentes (quotidiennes, hebdomadaires, mensuelles).
    * Traiter les audiences en **mode batch** où tous les profils progressent ensemble tout au long du workflow
 
-   Découvrez comment [commencer avec les campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md) et quand [utiliser les campagnes plutôt que les parcours &#x200B;](../../orchestrated/orchestrated-campaigns-faq.md).
+   Découvrez comment [commencer avec les campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md) et quand [utiliser les campagnes plutôt que les parcours ](../../orchestrated/orchestrated-campaigns-faq.md).
 
 1. **Surveiller et optimiser**. Suivez les performances et améliorez les résultats au fil du temps :
    * Surveillez **parcours en direct** les performances et identifiez les goulots d’étranglement
    * Analyse **diffusion des messages** taux et mesures d’engagement
    * Utilisation de **tableaux de bord de rapports** avec l’intégration de Customer Journey Analytics
    * Suivi **conversion** et de l’impact commercial
-   * Gérez la **fréquence et hiérarchisation des messages** avec des règles de gestion des conflits pour éviter la surcommunication. [En savoir plus sur la gestion des conflits &#x200B;](../../conflict-prioritization/gs-conflict-prioritization.md)
+   * Gérez la **fréquence et hiérarchisation des messages** avec des règles de gestion des conflits pour éviter la surcommunication. [En savoir plus sur la gestion des conflits ](../../conflict-prioritization/gs-conflict-prioritization.md)
 
-   Découvrez comment [&#x200B; surveiller les performances &#x200B;](../../reports/report-gs-cja.md).
+   Découvrez comment [ surveiller les performances ](../../reports/report-gs-cja.md).
 
 ## Bonnes pratiques pour réussir
 
@@ -161,7 +161,7 @@ Apprenez à partir d’exemples pratiques qui démontrent les fonctionnalités d
 * [Messagerie multicanal](../../building-journeys/journeys-uc.md) : combinez e-mail et notification push avec des événements de réaction
 * [E-mails réservés à la semaine](../../building-journeys/weekday-email-uc.md) : planifier des communications à l’aide de conditions temporelles
 
-Parcourez l’ensemble de la bibliothèque de cas d’utilisation de [parcours &#x200B;](../../building-journeys/jo-use-cases.md) et découvrez [Campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md).
+Parcourez l’ensemble de la bibliothèque de cas d’utilisation de [parcours ](../../building-journeys/jo-use-cases.md) et découvrez [Campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Collaborer avec d’autres rôles
 
@@ -177,17 +177,11 @@ Suivez les dernières fonctionnalités de Journey Optimizer et de marketing :
 
 * **[Notes de mise à jour](../../rn/release-notes.md)** : consultez les nouvelles fonctionnalités, les mises à jour de canal et les améliorations publiées chaque mois
 * **[Mises à jour de la documentation](../../rn/documentation-updates.md)** : suivez les modifications récentes, y compris les nouveaux cas d’utilisation, les bonnes pratiques et la documentation sur les fonctionnalités
-* **Notifications de produit** : activez les notifications dans votre profil [Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} pour recevoir des alertes sur :
-   * Nouveaux canaux et fonctionnalités disponibles
-   * Lancements de fonctionnalités et programmes bêta à venir
-   * Bonnes pratiques et opportunités de formation
-   * Annonces importantes affectant vos campagnes
-
-  Pour activer les notifications, cliquez sur l’icône de votre profil en haut à droite de Adobe Experience Cloud, accédez à **Préférences > Notifications**, puis configurez vos préférences de notification Journey Optimizer.
+* **[Notifications de produit](../../rn/releases.md#staying-informed)** : découvrez comment vous abonner à des e-mails et des alertes sur le produit pour les mises à jour de Journey Optimizer, y compris les nouveaux canaux, les lancements de fonctionnalités à venir et les annonces de campagnes importantes
 
 ## Étapes suivantes
 
 1. **Commencez petit** : créez un parcours de bienvenue simple ou une campagne à message unique pour apprendre à utiliser la plateforme
 2. **Utiliser l’IA** : utilisez l’assistant d’IA pour poser des questions et accélérer la création de contenu
-3. **Rejoindre la communauté** : entrez en contact avec d’autres utilisateurs Journey Optimizer de la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}
+3. **Rejoindre la communauté** : entrez en contact avec d’autres utilisateurs Journey Optimizer de la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explorer les tutoriels** : regardez des vidéos détaillées sur [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"}

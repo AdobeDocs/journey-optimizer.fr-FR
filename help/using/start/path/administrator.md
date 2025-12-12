@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 48%
+source-wordcount: '971'
+ht-degree: 50%
 
 ---
 
@@ -104,14 +104,7 @@ Tenez-vous informé des dernières mises à jour de la plateforme Journey Optimi
 
 * **[Notes de mise à jour](../../rn/release-notes.md)** : consultez les nouvelles fonctionnalités, les mises à jour de la plateforme, les correctifs de sécurité et les modifications de configuration publiés chaque mois
 * **[Mises à jour de la documentation](../../rn/documentation-updates.md)** : suivez les modifications récentes apportées aux guides de configuration, aux mises à jour des autorisations et aux nouvelles fonctionnalités administratives.
-* **Notifications de produit** : activez les notifications dans votre profil [Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} pour recevoir des alertes critiques sur :
-   * Fenêtres de maintenance du système et temps d’arrêt planifié
-   * Mises à jour et correctifs de sécurité
-   * Nouvelles fonctionnalités administratives et modifications des autorisations
-   * Mises à jour des licences et des droits
-   * Annonces de produits critiques
-
-  Pour activer les notifications, cliquez sur l’icône de votre profil en haut à droite de Adobe Experience Cloud, accédez à **Préférences > Notifications**, puis configurez vos préférences de notification Journey Optimizer. En tant qu’administrateur, vous devez activer toutes les notifications système critiques.
+* **[Notifications produit](../../rn/releases.md#staying-informed)** : découvrez comment vous abonner à des e-mails et à des alertes sur les produits pour les mises à jour de Journey Optimizer, y compris la maintenance du système, les mises à jour de sécurité et les annonces de produits critiques. En tant qu’administrateur, vous devez activer toutes les notifications système critiques
 
 ## Étapes suivantes
 

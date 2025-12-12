@@ -5,9 +5,9 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
@@ -34,25 +34,11 @@ Ce guide décrit les étapes essentielles de mise en œuvre technique pour comme
 
 Avant de commencer l’implémentation, vérifiez que vous disposez des éléments suivants :
 
-**Compétences techniques :**
-
-* Expérience avec JavaScript (pour Web SDK) ou Swift/Kotlin (pour Mobile SDK)
-* Compréhension des API RESTful et JSON
-* Familiarité avec la programmation asynchrone et les architectures basées sur les événements
-* Connaissance de l’architecture d’application de votre entreprise
-
-**Accès et outils :**
-
-* Accès à [Adobe Developer Console](https://developer.adobe.com){target="_blank"} pour les informations d’identification d’API
-* Environnement de développement avec accès à la base de code de votre application.
-* Test d’outils tels que Postman pour le test des API
-* Outils de développement de navigateur ou outils de débogage mobile
-
-**D’autres membres de l’équipe :**
-
-* Accès à l’environnement accordé par votre [administrateur](administrator.md)
-* Schémas XDM et définitions d’événement de votre [ingénieur de données](data-engineer.md)
-* Exigences et cas d’utilisation de vos [marketeurs](marketer.md)
+| Catégorie | Conditions requises |
+|----------|-------------|
+| **Compétences techniques** | * Expérience avec JavaScript (pour Web SDK) ou Swift/Kotlin (pour Mobile SDK)<br>* Compréhension des API RESTful et de JSON<br>* Familiarité avec la programmation asynchrone et les architectures basées sur les événements<br>* Connaissance de l’architecture d’application de votre organisation |
+| **Accès et outils** | * Accès à [Adobe Developer Console](https://developer.adobe.com){target="_blank"} pour les informations d’identification d’API<br>* Environnement de développement avec accès à la base de code de votre application<br>* Outils de test tels que Postman pour les tests d’API<br>* Outils de développement de navigateur ou outils de débogage mobile |
+| **D&#39;autres membres de l&#39;équipe** | * Accès à l’environnement accordé par vos [Administrateur](administrator.md)<br>* schémas XDM et définitions d’événement de vos [Ingénieur de données](data-engineer.md)<br>* Exigences et cas pratiques de vos [Spécialistes marketing](marketer.md) |
 
 ## Comprendre les bases techniques {#technical-foundation}
 
@@ -80,7 +66,7 @@ Pour activer les notifications push, les messages in-app et d’autres fonctionn
 
 1. **Tester votre intégration mobile** : utilisez le workflow de démarrage rapide de l’intégration mobile [mobile](../../push/mobile-onboarding-wf.md) pour configurer et tester rapidement votre configuration mobile.
 
-Les étapes détaillées pour configurer les notifications push sont disponibles sur [&#x200B; cette page &#x200B;](../../push/push-configuration.md).
+Les étapes détaillées pour configurer les notifications push sont disponibles sur [ cette page ](../../push/push-configuration.md).
 
 ### Mise en œuvre d’expériences basées sur du code (Mobile SDK)
 
@@ -163,7 +149,7 @@ Content-Type: application/json
 }
 ```
 
-En savoir plus sur [l’utilisation d’événements de parcours &#x200B;](../../event/about-events.md).
+En savoir plus sur [l’utilisation d’événements de parcours ](../../event/about-events.md).
 
 ## Développement de points d’entrée d’action personnalisés {#custom-actions}
 
@@ -193,7 +179,7 @@ Journey Optimizer fournit des API REST complètes pour un accès programmatique 
 
 1. **Authentification** : suivez [ce tutoriel](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} pour configurer l’authentification de l’API à l’aide de Adobe Developer Console.
 
-1. **Explorer les références d’API** : parcourez la documentation complète de l’API et essayez les API directement dans la référence de l’API Adobe Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+1. **Explorer les références d’API** : parcourez la documentation complète de l’API et essayez les API directement dans la référence de l’API Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 1. **Campagnes déclenchées par API** : créez des messages transactionnels avec des campagnes déclenchées par API. Pour les scénarios de volume élevé (jusqu’à 5 000 TPS), explorez le [mode Débit élevé](../../campaigns/api-triggered-high-throughput.md) (nécessite une licence de module complémentaire).
 
@@ -207,7 +193,7 @@ Journey Optimizer fournit des API REST complètes pour un accès programmatique 
 
 1. **Valider les intégrations d’API** : testez vos points d’entrée d’action personnalisés pour vous assurer qu’ils gèrent correctement les requêtes Journey Optimizer, répondent dans les limites de délai d’expiration et renvoient les formats de données attendus.
 
-1. **Utilisation du mode test avec des profils de test** : contactez votre [ingénieur de données](data-engineer.md) pour obtenir l’accès aux profils de test, puis validez votre implémentation à l’aide du mode test de parcours. Découvrez comment [tester des parcours &#x200B;](../../building-journeys/testing-the-journey.md).
+1. **Utilisation du mode test avec des profils de test** : contactez votre [ingénieur de données](data-engineer.md) pour obtenir l’accès aux profils de test, puis validez votre implémentation à l’aide du mode test de parcours. Découvrez comment [tester des parcours ](../../building-journeys/testing-the-journey.md).
 
 1. **Surveiller les journaux SDK** : activez la journalisation du débogage dans votre implémentation de SDK pour résoudre les problèmes lors du développement :
    * **Mobile SDK** : activez la journalisation pour afficher les événements SDK et les appels API
@@ -215,7 +201,7 @@ Journey Optimizer fournit des API REST complètes pour un accès programmatique 
 
 1. **Vérifier la configuration du flux de données** : vérifiez que votre flux de données est correctement configuré pour envoyer des données à Journey Optimizer. Vérifiez que les événements traversent le flux de données vers les destinations correctes.
 
-1. **Données de parcours de requête pour analyse** : utilisez des requêtes SQL sur le lac de données pour analyser les événements d’étape de parcours, les problèmes de débogage et surveiller les performances des actions personnalisées. Explorez [exemples de requêtes pour l’analyse de parcours &#x200B;](../../reports/query-examples.md) notamment :
+1. **Données de parcours de requête pour analyse** : utilisez des requêtes SQL sur le lac de données pour analyser les événements d’étape de parcours, les problèmes de débogage et surveiller les performances des actions personnalisées. Explorez [exemples de requêtes pour l’analyse de parcours ](../../reports/query-examples.md) notamment :
    * Suivi des entrées/sorties du profil et raisons des rejets
    * Mesures de performances des actions personnalisées (latence, débit, erreurs)
    * Modèles de diffusion d’événements et d’erreurs
@@ -238,7 +224,7 @@ Mettez en œuvre des politiques de gouvernance des données et de consentement d
 ### Optimisation et bonnes pratiques
 
 * **Plafonnement et limitation** : comprenez les limites de débit et implémentez un ralentissement approprié. En savoir plus sur les [systèmes externes](../../configuration/external-systems.md).
-* **Optimisation des Parcours** : suivez les bonnes pratiques pour l’optimisation des parcours [&#128279;](../../building-journeys/optimize.md).
+* **Optimisation des Parcours** : suivez les bonnes pratiques pour l’optimisation des parcours [](../../building-journeys/optimize.md).
 * **Gestion des erreurs** : implémentez une gestion des erreurs robuste. Consultez les [codes d’erreur](../../building-journeys/error-codes-reference.md) et [guides de dépannage](../../building-journeys/troubleshooting.md).
 
 ## Ressources supplémentaires {#additional-resources}
@@ -252,26 +238,36 @@ Mettez en œuvre des politiques de gouvernance des données et de consentement d
 
 Votre travail d’implémentation croise d’autres membres de l’équipe :
 
-**Utilisation de [Ingénieurs de données](data-engineer.md):**
+>[!BEGINTABS]
+
+>[!TAB Utilisation des ingénieurs de données]
+
+Collaborez avec des [ingénieurs de données](data-engineer.md) sur les configurations de données et d’événements :
 
 * Obtenez les schémas XDM et les structures d’événement que vous devez implémenter
 * Identifiez les événements à envoyer et le format de payload requis
 * Aligner sur les exigences de collecte de données et les normes de qualité des données
 * Tester conjointement la diffusion d’événements et l’ingestion de données
 
-**Utilisation de [Administrateurs](administrator.md):**
+>[!TAB Utilisation des administrateurs]
+
+Collaborez avec les [administrateurs](administrator.md) sur l’accès et les configurations :
 
 * Fournir les spécifications d’API pour les actions personnalisées qu’ils configureront
 * Demander les autorisations nécessaires et les informations d’identification d’API
 * Coordination des exigences de configuration des canaux (par exemple, certificats push)
 * Alignement sur les environnements de test et la stratégie Sandbox
 
-**Utiliser [Professionnels du marketing](marketer.md):**
+>[!TAB Utiliser les professionnels du marketing]
+
+Collaborez avec les [spécialistes marketing](marketer.md) sur les exigences et les tests de parcours :
 
 * Identifier les interactions utilisateur qui doivent déclencher des événements
 * Implémenter le suivi pour les performances du contenu et l’interaction client
 * Prise en charge du test des parcours avec vos fonctionnalités implémentées
 * Résolution des problèmes liés à la diffusion ou à la personnalisation des messages
+
+>[!ENDTABS]
 
 ## Restez à jour
 
@@ -279,13 +275,7 @@ Tenez-vous informé des dernières fonctionnalités et modifications techniques 
 
 * **[Notes de mise à jour](../../rn/release-notes.md)** : consultez les nouvelles fonctionnalités, les modifications d’API, les mises à jour de SDK et les correctifs de bugs publiés chaque mois
 * **[Mises à jour de la documentation](../../rn/documentation-updates.md)** : suivez les modifications récentes apportées à la documentation technique, y compris les nouveaux guides d’implémentation et exemples de code
-* **Notifications de produit** : activez les notifications dans votre profil [Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} pour recevoir des alertes sur :
-   * Nouvelles versions de SDK et mises à jour des API
-   * Rupture des modifications et des abandons
-   * Fenêtres de maintenance affectant les intégrations
-   * Mises à jour de sécurité critiques
-
-  Pour activer les notifications, cliquez sur l’icône de votre profil en haut à droite de Adobe Experience Cloud, accédez à **Préférences > Notifications**, puis configurez vos préférences de notification Journey Optimizer.
+* **[Notifications de produit](../../rn/releases.md#staying-informed)** : découvrez comment vous abonner aux alertes par e-mail et intégrées au produit pour les mises à jour de Journey Optimizer, y compris les nouvelles versions de SDK, les modifications d’API, les modifications avec rupture et les mises à jour de sécurité critiques
 
 ## Commencer l’implémentation de
 

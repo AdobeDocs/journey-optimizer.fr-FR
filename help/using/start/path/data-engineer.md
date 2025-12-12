@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 50%
+source-wordcount: '817'
+ht-degree: 51%
 
 ---
 
@@ -65,7 +65,7 @@ Une fois les parcours en cours d’exécution, vous pouvez interroger les évén
 * Mesures de performances des actions personnalisées
 * États des instances de parcours et goulets d’étranglement
 
-Explorez des [exemples de requête prêts à l’emploi pour l’analyse de parcours &#x200B;](../../reports/query-examples.md) afin de commencer à analyser et à résoudre les problèmes liés aux données.
+Explorez des [exemples de requête prêts à l’emploi pour l’analyse de parcours ](../../reports/query-examples.md) afin de commencer à analyser et à résoudre les problèmes liés aux données.
 
 ## Restez à jour
 
@@ -73,9 +73,4 @@ Suivez les dernières fonctionnalités et améliorations de Journey Optimizer :
 
 * **[Notes de mise à jour](../../rn/release-notes.md)** : consultez les nouvelles fonctionnalités, améliorations et correctifs publiés chaque mois
 * **[Mises à jour de la documentation](../../rn/documentation-updates.md)** : suivez les modifications récentes apportées à la documentation, y compris les nouvelles pages et le contenu mis à jour
-* **Notifications de produit** : activez les notifications dans votre profil [Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} pour recevoir des alertes sur :
-   * Nouvelles versions et fonctionnalités du produit
-   * Fenêtres de maintenance et mises à jour du système
-   * Annonces et modifications importantes
-
-  Pour activer les notifications, cliquez sur l’icône de votre profil en haut à droite de Adobe Experience Cloud, accédez à **Préférences > Notifications**, puis configurez vos préférences de notification Journey Optimizer.
+* **[Notifications produit](../../rn/releases.md#staying-informed)** : découvrez comment vous abonner aux e-mails et aux alertes sur le produit pour les mises à jour de Journey Optimizer, y compris les nouvelles fonctionnalités, les fenêtres de maintenance et les modifications système importantes
