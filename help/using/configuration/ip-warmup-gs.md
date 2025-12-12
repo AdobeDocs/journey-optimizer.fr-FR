@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, délivrabilité
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: fd9ae1f554357a0379e4c93b91f1d475c99d8ac3
+source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 72%
+source-wordcount: '367'
+ht-degree: 63%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 72%
 Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation, et ce d’une manière normalisée et efficace qui respecte les bonnes pratiques pour une délivrabilité optimale. Lorsque vous envoyez des e-mails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les marque souvent comme spam.
 
 Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité du plan de préchauffage d’adresses IP. Cette nouvelle option dans le menu **[!UICONTROL Administration]** vous permet de le faire plus facilement de manière consolidée au lieu de créer des parcours quotidiens complexes.
+
+>[!NOTE]
+>
+>Avant de mettre en œuvre votre plan de préchauffage d’adresses IP, découvrez les principes fondamentaux de la délivrabilité, la création de réputation et les bonnes pratiques dans ce [guide de délivrabilité du préchauffage d’adresses IP](ip-warmup-deliverability-guide.md).
 
 ➡️ [Découvrez comment créer et exécuter un plan de préchauffage d’adresses IP dans cette vidéo](#video)
 
@@ -52,7 +56,7 @@ Les étapes clés de la mise en œuvre d’un plan de préchauffage d’adresses
 
 Découvrez comment créer et exécuter un plan de préchauffage des adresses IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453842/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -62,8 +66,10 @@ Découvrez comment créer et exécuter un plan de préchauffage des adresses IP
 
 Consultez ces articles de blog utiles pour obtenir des conseils plus détaillés sur le préchauffage des adresses IP :
 
-* [Comprendre comment configurer le préchauffage d’adresses IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=fr) - Découvrez les principes de base de la configuration des plans de préchauffage d’adresses IP et les bonnes pratiques pour une implémentation réussie.
+* [Guide de délivrabilité de Adobe Journey Optimizer : de la réputation zéro à la boîte de réception hero ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Guide complet couvrant les principes de base de la réputation, les calendriers de préchauffage, la surveillance et les bonnes pratiques de dépannage.
 
-* [Fonctionnalités avancées dans les plans de préchauffage d’adresses IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=fr) - Découvrez les fonctionnalités avancées et les commandes granulaires pour optimiser votre stratégie de préchauffage d’adresses IP.
+* [Comprendre comment configurer le préchauffage d’adresses IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - Découvrez les principes de base de la configuration des plans de préchauffage d’adresses IP et les bonnes pratiques pour une implémentation réussie.
 
-* [Résolution des problèmes de préchauffage d’IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=fr) - Trouvez des solutions aux problèmes courants tels que les retards d’audience et découvrez les mécanismes de reprise intelligente.
+* [Fonctionnalités avancées dans les plans de préchauffage d’adresses IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - Découvrez les fonctionnalités avancées et les commandes granulaires pour optimiser votre stratégie de préchauffage d’adresses IP.
+
+* [Résolution des problèmes de préchauffage d’IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - Trouvez des solutions aux problèmes courants tels que les retards d’audience et découvrez les mécanismes de reprise intelligente.

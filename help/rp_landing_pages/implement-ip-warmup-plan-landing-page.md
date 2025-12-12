@@ -5,10 +5,10 @@ title: Mettre en œuvre un plan de préchauffage d’adresses IP
 description: Mettre en œuvre un plan de préchauffage d’adresses IP
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,16 @@ La mise en œuvre d’un plan de préchauffage d’adresses IP dans Adobe Journe
 ## Mettre en œuvre un plan de préchauffage d’adresses IP
 
 :::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+
+Guide de délivrabilité du préchauffage d’adresses IP
+
+Découvrez les principes de base de la délivrabilité, l’établissement de la réputation et les bonnes pratiques avant de démarrer votre parcours de préchauffage d’adresses IP.
+
+[Lire le guide](../using/configuration/ip-warmup-deliverability-guide.md)
+:::
+
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
