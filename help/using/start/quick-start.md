@@ -174,17 +174,17 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 **Formation et documentation :**
 
 * [Tutoriels vidéo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"} - Tutoriels vidéo détaillés pour tous les rôles
-* [Bibliothèque de cas d’utilisation de Parcours ](../building-journeys/jo-use-cases.md) - Exemples pratiques et modèles d’implémentation
+* [Bibliothèque de cas d’utilisation de Parcours &#x200B;](../building-journeys/jo-use-cases.md) - Exemples pratiques et modèles d’implémentation
 * [Fonctionnalités intelligentes et d’IA](ai-features.md) - Découvrez l’assistant d’IA, l’optimisation de l’heure d’envoi et la génération de contenu
-* [ Guide de l’interface utilisateur ](user-interface.md) - Naviguez efficacement dans Journey Optimizer
+* [&#x200B; Guide de l’interface utilisateur &#x200B;](user-interface.md) - Naviguez efficacement dans Journey Optimizer
 
 **Restez à jour :**
 
-* [ Notes de mise à jour ](../rn/release-notes.md) - Dernières fonctionnalités, améliorations et correctifs
+* [&#x200B; Notes de mise à jour &#x200B;](../rn/release-notes.md) - Dernières fonctionnalités, améliorations et correctifs
 * [Mises à jour de la documentation](../rn/documentation-updates.md) - Suivez les modifications récentes de la documentation
 * **Notifications de produit** - Activez les alertes dans votre profil [Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} pour recevoir des notifications sur les nouvelles versions, les fenêtres de maintenance et les annonces importantes. Cliquez sur l’icône de votre profil > Préférences > Notifications à configurer.
 
 **Communauté et assistance :**
 
-* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Connectez-vous à d’autres utilisateurs et experts
+* [Communauté Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Connectez-vous à d’autres utilisateurs et experts
 * [Forum produit](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Posez des questions et partagez vos connaissances

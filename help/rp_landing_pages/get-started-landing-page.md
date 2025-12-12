@@ -173,11 +173,11 @@ Commencez immédiatement la création avec ces guides essentiels :
 
 | Tâche | Guide |
 |------|-------|
-| Créer votre premier parcours | [Guide de création de Parcours ](../using/building-journeys/journey-gs.md) |
+| Créer votre premier parcours | [Guide de création de Parcours &#x200B;](../using/building-journeys/journey-gs.md) |
 | Envoyer votre première campagne | [Guide de création de campagne](../using/campaigns/get-started-with-campaigns.md) |
 | Concevoir un e-mail | [Guide de conception des emails](../using/email/get-started-email-design.md) |
 | Créer une audience | [Guide de création d’audiences](../using/audience/creating-a-segment-definition.md) |
-| Configurer des canaux | [ Guide de configuration des canaux ](../using/configuration/get-started-configuration.md) |
+| Configurer des canaux | [&#x200B; Guide de configuration des canaux &#x200B;](../using/configuration/get-started-configuration.md) |
 | Créer des offres personnalisées | [Guide de gestion des décisions](../using/offers/get-started/starting-offer-decisioning.md) |
 
 >[!NOTE]
