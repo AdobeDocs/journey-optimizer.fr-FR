@@ -65,7 +65,7 @@ Une fois les parcours en cours d’exécution, vous pouvez interroger les évén
 * Mesures de performances des actions personnalisées
 * États des instances de parcours et goulets d’étranglement
 
-Explorez des [exemples de requête prêts à l’emploi pour l’analyse de parcours ](../../reports/query-examples.md) afin de commencer à analyser et à résoudre les problèmes liés aux données.
+Explorez des [exemples de requête prêts à l’emploi pour l’analyse de parcours &#x200B;](../../reports/query-examples.md) afin de commencer à analyser et à résoudre les problèmes liés aux données.
 
 ## Restez à jour
 
