@@ -56,7 +56,7 @@ Les étapes clés de la mise en œuvre d’un plan de préchauffage d’adresses
 
 Découvrez comment créer et exécuter un plan de préchauffage des adresses IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453842/?captions=fre_fr&learn=on)
 
 >[!NOTE]
 >
