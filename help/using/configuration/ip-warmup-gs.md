@@ -66,7 +66,7 @@ Découvrez comment créer et exécuter un plan de préchauffage des adresses IP
 
 Consultez ces articles de blog utiles pour obtenir des conseils plus détaillés sur le préchauffage des adresses IP :
 
-* [Guide de délivrabilité de Adobe Journey Optimizer : de la réputation zéro à la boîte de réception hero ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Guide complet couvrant les principes de base de la réputation, les calendriers de préchauffage, la surveillance et les bonnes pratiques de dépannage.
+* [Guide de délivrabilité de Adobe Journey Optimizer : de la réputation zéro à la boîte de réception hero &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Guide complet couvrant les principes de base de la réputation, les calendriers de préchauffage, la surveillance et les bonnes pratiques de dépannage.
 
 * [Comprendre comment configurer le préchauffage d’adresses IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - Découvrez les principes de base de la configuration des plans de préchauffage d’adresses IP et les bonnes pratiques pour une implémentation réussie.
 
