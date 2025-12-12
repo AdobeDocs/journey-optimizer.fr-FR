@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 50%
+source-wordcount: '965'
+ht-degree: 51%
 
 ---
 
@@ -88,23 +88,40 @@ Au fur et à mesure que les besoins de votre entreprise se développent, tenez c
 
 * **Plans de préchauffage d’adresses IP** : augmentez progressivement les volumes d’envoi des e-mails pour renforcer la réputation de l’expéditeur auprès des fournisseurs de messagerie. [En savoir plus](../../configuration/ip-warmup-gs.md)
 
-## Collaborer avec d’autres rôles
+## Collaboration entre les rôles
 
 Votre travail administratif permet à toutes les équipes de réussir :
 
-* **Prise en charge [Ingénieurs de données](data-engineer.md)** : octroi d’autorisations pour la gestion des données, approbation de l’accès aux sandbox et coordination sur les politiques de conservation des données
+>[!BEGINTABS]
 
-* **Activer [Développeurs](developer.md)** : fournissez les informations d’identification d’API, configurez des environnements de test pour les sandbox et approuvez les configurations de canal
+>[!TAB Prise en charge des ingénieurs de données]
 
-* **Autoriser les [spécialistes du marketing](marketer.md)** : attribuez les autorisations appropriées pour créer des parcours et des campagnes, configurer les canaux qu’ils utiliseront et prendre en charge les environnements de test
+Collaborez avec [Ingénieurs de données](data-engineer.md) sur la gestion et l’accès aux données :
 
-## Restez à jour
+* Octroi d’autorisations pour la gestion des données et la création de schémas
+* Approuver l’accès au sandbox pour le développement et les tests
+* Coordination des politiques de conservation des données et des règles de gouvernance
+* Activer l’accès aux fonctionnalités avancées telles que la composition d’audiences fédérées
 
-Tenez-vous informé des dernières mises à jour de la plateforme Journey Optimizer et des modifications administratives :
+>[!TAB Activer les développeurs]
 
-* **[Notes de mise à jour](../../rn/release-notes.md)** : consultez les nouvelles fonctionnalités, les mises à jour de la plateforme, les correctifs de sécurité et les modifications de configuration publiés chaque mois
-* **[Mises à jour de la documentation](../../rn/documentation-updates.md)** : suivez les modifications récentes apportées aux guides de configuration, aux mises à jour des autorisations et aux nouvelles fonctionnalités administratives.
-* **[Notifications produit](../../rn/releases.md#staying-informed)** : découvrez comment vous abonner à des e-mails et à des alertes sur les produits pour les mises à jour de Journey Optimizer, y compris la maintenance du système, les mises à jour de sécurité et les annonces de produits critiques. En tant qu’administrateur, vous devez activer toutes les notifications système critiques
+Collaborez avec [les développeurs](developer.md) sur l’accès et le test des API :
+
+* Fournir des informations d’identification d’API via Adobe Developer Console
+* Configurer des environnements Sandbox pour le développement et les tests
+* Approuver les configurations de canal (certificats push, fournisseurs SMS)
+* Coordination des environnements de test et de la stratégie de déploiement
+
+>[!TAB Responsabiliser les professionnels du marketing]
+
+Collaborez avec [spécialistes marketing](marketer.md) sur les autorisations et la configuration des canaux :
+
+* Attribuez les autorisations appropriées pour créer des parcours et des campagnes
+* Configurez les canaux qu’ils utiliseront (e-mail, notification push, SMS, etc.)
+* Prise en charge des environnements de test et des workflows d’approbation
+* Activer l’accès aux nouvelles fonctionnalités
+
+>[!ENDTABS]
 
 ## Étapes suivantes
 

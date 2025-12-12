@@ -5,10 +5,10 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1886'
-ht-degree: 2%
+source-wordcount: '1816'
+ht-degree: 3%
 
 ---
 
@@ -66,7 +66,7 @@ Pour activer les notifications push, les messages in-app et d’autres fonctionn
 
 1. **Tester votre intégration mobile** : utilisez le workflow de démarrage rapide de l’intégration mobile [mobile](../../push/mobile-onboarding-wf.md) pour configurer et tester rapidement votre configuration mobile.
 
-Les étapes détaillées pour configurer les notifications push sont disponibles sur [&#x200B; cette page &#x200B;](../../push/push-configuration.md).
+Les étapes détaillées pour configurer les notifications push sont disponibles sur [ cette page ](../../push/push-configuration.md).
 
 ### Mise en œuvre d’expériences basées sur du code (Mobile SDK)
 
@@ -149,7 +149,7 @@ Content-Type: application/json
 }
 ```
 
-En savoir plus sur [l’utilisation d’événements de parcours &#x200B;](../../event/about-events.md).
+En savoir plus sur [l’utilisation d’événements de parcours ](../../event/about-events.md).
 
 ## Développement de points d’entrée d’action personnalisés {#custom-actions}
 
@@ -179,7 +179,7 @@ Journey Optimizer fournit des API REST complètes pour un accès programmatique 
 
 1. **Authentification** : suivez [ce tutoriel](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} pour configurer l’authentification de l’API à l’aide de Adobe Developer Console.
 
-1. **Explorer les références d’API** : parcourez la documentation complète de l’API et essayez les API directement dans la référence de l’API Adobe Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+1. **Explorer les références d’API** : parcourez la documentation complète de l’API et essayez les API directement dans la référence de l’API Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 1. **Campagnes déclenchées par API** : créez des messages transactionnels avec des campagnes déclenchées par API. Pour les scénarios de volume élevé (jusqu’à 5 000 TPS), explorez le [mode Débit élevé](../../campaigns/api-triggered-high-throughput.md) (nécessite une licence de module complémentaire).
 
@@ -193,7 +193,7 @@ Journey Optimizer fournit des API REST complètes pour un accès programmatique 
 
 1. **Valider les intégrations d’API** : testez vos points d’entrée d’action personnalisés pour vous assurer qu’ils gèrent correctement les requêtes Journey Optimizer, répondent dans les limites de délai d’expiration et renvoient les formats de données attendus.
 
-1. **Utilisation du mode test avec des profils de test** : contactez votre [ingénieur de données](data-engineer.md) pour obtenir l’accès aux profils de test, puis validez votre implémentation à l’aide du mode test de parcours. Découvrez comment [tester des parcours &#x200B;](../../building-journeys/testing-the-journey.md).
+1. **Utilisation du mode test avec des profils de test** : contactez votre [ingénieur de données](data-engineer.md) pour obtenir l’accès aux profils de test, puis validez votre implémentation à l’aide du mode test de parcours. Découvrez comment [tester des parcours ](../../building-journeys/testing-the-journey.md).
 
 1. **Surveiller les journaux SDK** : activez la journalisation du débogage dans votre implémentation de SDK pour résoudre les problèmes lors du développement :
    * **Mobile SDK** : activez la journalisation pour afficher les événements SDK et les appels API
@@ -201,7 +201,7 @@ Journey Optimizer fournit des API REST complètes pour un accès programmatique 
 
 1. **Vérifier la configuration du flux de données** : vérifiez que votre flux de données est correctement configuré pour envoyer des données à Journey Optimizer. Vérifiez que les événements traversent le flux de données vers les destinations correctes.
 
-1. **Données de parcours de requête pour analyse** : utilisez des requêtes SQL sur le lac de données pour analyser les événements d’étape de parcours, les problèmes de débogage et surveiller les performances des actions personnalisées. Explorez [exemples de requêtes pour l’analyse de parcours &#x200B;](../../reports/query-examples.md) notamment :
+1. **Données de parcours de requête pour analyse** : utilisez des requêtes SQL sur le lac de données pour analyser les événements d’étape de parcours, les problèmes de débogage et surveiller les performances des actions personnalisées. Explorez [exemples de requêtes pour l’analyse de parcours ](../../reports/query-examples.md) notamment :
    * Suivi des entrées/sorties du profil et raisons des rejets
    * Mesures de performances des actions personnalisées (latence, débit, erreurs)
    * Modèles de diffusion d’événements et d’erreurs
@@ -224,7 +224,7 @@ Mettez en œuvre des politiques de gouvernance des données et de consentement d
 ### Optimisation et bonnes pratiques
 
 * **Plafonnement et limitation** : comprenez les limites de débit et implémentez un ralentissement approprié. En savoir plus sur les [systèmes externes](../../configuration/external-systems.md).
-* **Optimisation des Parcours** : suivez les bonnes pratiques pour l’optimisation des parcours [&#128279;](../../building-journeys/optimize.md).
+* **Optimisation des Parcours** : suivez les bonnes pratiques pour l’optimisation des parcours [](../../building-journeys/optimize.md).
 * **Gestion des erreurs** : implémentez une gestion des erreurs robuste. Consultez les [codes d’erreur](../../building-journeys/error-codes-reference.md) et [guides de dépannage](../../building-journeys/troubleshooting.md).
 
 ## Ressources supplémentaires {#additional-resources}
@@ -268,14 +268,6 @@ Collaborez avec les [spécialistes marketing](marketer.md) sur les exigences et 
 * Résolution des problèmes liés à la diffusion ou à la personnalisation des messages
 
 >[!ENDTABS]
-
-## Restez à jour
-
-Tenez-vous informé des dernières fonctionnalités et modifications techniques de Journey Optimizer :
-
-* **[Notes de mise à jour](../../rn/release-notes.md)** : consultez les nouvelles fonctionnalités, les modifications d’API, les mises à jour de SDK et les correctifs de bugs publiés chaque mois
-* **[Mises à jour de la documentation](../../rn/documentation-updates.md)** : suivez les modifications récentes apportées à la documentation technique, y compris les nouveaux guides d’implémentation et exemples de code
-* **[Notifications de produit](../../rn/releases.md#staying-informed)** : découvrez comment vous abonner aux alertes par e-mail et intégrées au produit pour les mises à jour de Journey Optimizer, y compris les nouvelles versions de SDK, les modifications d’API, les modifications avec rupture et les mises à jour de sécurité critiques
 
 ## Commencer l’implémentation de
 

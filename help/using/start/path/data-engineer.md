@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 51%
+source-wordcount: '898'
+ht-degree: 47%
 
 ---
 
@@ -65,12 +65,39 @@ Une fois les parcours en cours d’exécution, vous pouvez interroger les évén
 * Mesures de performances des actions personnalisées
 * États des instances de parcours et goulets d’étranglement
 
-Explorez des [exemples de requête prêts à l’emploi pour l’analyse de parcours &#x200B;](../../reports/query-examples.md) afin de commencer à analyser et à résoudre les problèmes liés aux données.
+Explorez des [exemples de requête prêts à l’emploi pour l’analyse de parcours ](../../reports/query-examples.md) afin de commencer à analyser et à résoudre les problèmes liés aux données.
 
-## Restez à jour
+## Collaboration entre les rôles
 
-Suivez les dernières fonctionnalités et améliorations de Journey Optimizer :
+Votre travail de configuration des données est essentiel pour les autres équipes :
 
-* **[Notes de mise à jour](../../rn/release-notes.md)** : consultez les nouvelles fonctionnalités, améliorations et correctifs publiés chaque mois
-* **[Mises à jour de la documentation](../../rn/documentation-updates.md)** : suivez les modifications récentes apportées à la documentation, y compris les nouvelles pages et le contenu mis à jour
-* **[Notifications produit](../../rn/releases.md#staying-informed)** : découvrez comment vous abonner aux e-mails et aux alertes sur le produit pour les mises à jour de Journey Optimizer, y compris les nouvelles fonctionnalités, les fenêtres de maintenance et les modifications système importantes
+>[!BEGINTABS]
+
+>[!TAB Utilisation des administrateurs]
+
+Collaborez avec les [administrateurs](administrator.md) sur l’accès et la gouvernance :
+
+* Demande des autorisations nécessaires à la gestion des données et à la création de schémas
+* Coordination de l’accès aux sandbox pour le développement et les tests
+* Alignement sur les politiques de gouvernance des données et la gestion du consentement
+* Discuter des politiques de conservation des données et des exigences de stockage
+
+>[!TAB Travailler avec les développeurs]
+
+Collaborez avec [les développeurs](developer.md) sur la structure des données et les événements :
+
+* Fournir les schémas XDM et les structures d’événement dont ils ont besoin pour implémenter
+* Définir les événements à envoyer et leur format de payload requis
+* Aligner sur les exigences de collecte de données et les normes de qualité des données
+* Tester conjointement la diffusion d’événements et l’ingestion de données
+
+>[!TAB Utiliser les professionnels du marketing]
+
+Collaborez avec des [spécialistes du marketing](marketer.md) sur les audiences et les données :
+
+* Créer des attributs calculés pour la personnalisation et la segmentation
+* Créer des audiences en fonction des exigences de leurs campagnes et parcours
+* Configurer des schémas relationnels pour les campagnes orchestrées
+* Prise en charge de la segmentation d’entités multiples pour les cas d’utilisation avancés
+
+>[!ENDTABS]
