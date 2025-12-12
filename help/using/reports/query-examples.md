@@ -8,23 +8,25 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 95%
+source-wordcount: '2747'
+ht-degree: 92%
 
 ---
 
 # Exemples de requêtes{#query-examples}
 
-Cette section répertorie plusieurs exemples couramment utilisés pour interroger les événements d’étape du parcours dans le lac de données.
+Cette section fournit des exemples couramment utilisés pour interroger les événements d’étape de Parcours dans le lac de données. Avant de passer à des cas d’utilisation spécifiques, il est important de comprendre les identifiants clés utilisés dans les données d’événement de parcours.
 
 Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associées dans le schéma correspondant.
 
-+++Quelle est la différence entre id, instanceid et profileid ?
+## Compréhension des identifiants clés {#key-identifiers}
+
++++Quelle est la différence entre id, instanceID et profileID ?
 
 * ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
-* instanceID : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
+* instanceID : instanceID est le même pour tous les événements d’étape associés à un profil dans une exécution de parcours. Si un profil entre à nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
 * profileID : identité du profil correspondant à l’espace de noms du parcours.
 
 >[!NOTE]
@@ -124,7 +126,6 @@ WHERE
     _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
 ```
 
-![Exemple de résultats de requête affichant les détails de profil ignorés](assets/query-discarded-profiles.png)
 
 Les résultats de la requête affichent les champs clés qui permettent d’identifier la raison des abandons de profil :
 
@@ -1068,7 +1069,7 @@ _Requête du lac de données_
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
-_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```

@@ -5,9 +5,9 @@ title: Commencer
 description: Comencer avec Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '587'
 ht-degree: 11%
 
 ---
@@ -24,7 +24,7 @@ Découvrez les principes de base de Adobe Journey Optimizer et comment il permet
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Qu’est-ce que Journey Optimizer ?
 
@@ -34,7 +34,7 @@ Découvrez les principales fonctionnalités, les cas d’utilisation et la mani�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Comprendre son fonctionnement
 
@@ -44,7 +44,7 @@ Découvrez comment Journey Optimizer s’intègre à Adobe Experience Platform e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Terminologie Clé
 
@@ -61,7 +61,7 @@ Commencez avec des conseils spécifiques adaptés à vos responsabilités et obj
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Pour les professionnels du marketing
 
@@ -81,13 +81,23 @@ Configurez les structures de données, gérez les schémas et les jeux de donné
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Pour les administrateurs
 
 Configurez des environnements, gérez des autorisations et configurez des canaux pour votre organisation.
 
 [Démarrer en tant qu’administrateur](../using/start/path/administrator.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Pour les développeurs
+
+Intégrez des applications mobiles, implémentez des SDK web, configurez des événements et créez des intégrations personnalisées.
+
+[Démarrer en tant que développeur](../using/start/path/developer.md)
 :::
 
 ::::
@@ -100,7 +110,7 @@ Principal de l’interface et utilisation de fonctionnalités intelligentes pour
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Navigation dans l’interface
 
@@ -110,7 +120,7 @@ Découvrez comment utiliser l’interface de Journey Optimizer, accéder aux pri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Rechercher et organiser
 
@@ -120,7 +130,7 @@ Utilisez la recherche, les filtres et les balises pour gérer efficacement les p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fonctionnalités intelligentes et d’IA
 
@@ -145,7 +155,7 @@ Découvrez comment l’IA vous aide à créer du contenu, à optimiser les temps
 * **[Playbooks de cas d’utilisation](../using/start/ai-features.md#playbooks)** - Workflows préconfigurés pour des scénarios courants tels que la récupération de panier abandonné et les campagnes de bienvenue
 * **[Surveillance et dépannage](troubleshoot-journey-landing-page.md)** - Outils de suivi des performances, d’identification des problèmes et de résolution rapide des problèmes
 * **[Nouveautés](../using/rn/release-notes.md)** - Tenez-vous informé des dernières fonctionnalités, améliorations et correctifs
-* **[Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}** - Communiquez avec d’autres utilisateurs, posez des questions et partagez les bonnes pratiques
+* **[Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - Communiquez avec d’autres utilisateurs, posez des questions et partagez les bonnes pratiques
 * **[Mises à jour de la documentation](../using/rn/documentation-updates.md)** - Restez informé des modifications et ajouts récents apportés à la documentation de .
 
 ## Prêt à démarrer ?
@@ -155,7 +165,7 @@ Choisissez le chemin qui vous convient le mieux :
 * **Vous découvrez Journey Optimizer ?** avec [Qu’est-ce que Journey Optimizer ?](../using/start/get-started.md) comprendre les principes de base
 * **Vous connaissez votre rôle ?** Accéder directement au guide [spécifique au rôle](../using/start/quick-start.md) qui correspond à vos responsabilités
 * **Vous souhaitez explorer ?** Parcourir les [fonctionnalités d’IA](../using/start/ai-features.md) ou essayer [Playbooks de cas d’utilisation](../using/start/ai-features.md#playbooks)
-* **Besoin d’aide ?** consulter le [Guide de dépannage](../using/start/troubleshooting.md) ou consultez le [Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}
+* **Besoin d’aide ?** consulter le [Guide de dépannage](../using/start/troubleshooting.md) ou consultez le [Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 
 ## Liens rapides {#quick-links}
 
@@ -163,11 +173,11 @@ Commencez immédiatement la création avec ces guides essentiels :
 
 | Tâche | Guide |
 |------|-------|
-| Créer votre premier parcours | [Guide de création de Parcours &#x200B;](../using/building-journeys/journey-gs.md) |
+| Créer votre premier parcours | [Guide de création de Parcours ](../using/building-journeys/journey-gs.md) |
 | Envoyer votre première campagne | [Guide de création de campagne](../using/campaigns/get-started-with-campaigns.md) |
 | Concevoir un e-mail | [Guide de conception des emails](../using/email/get-started-email-design.md) |
 | Créer une audience | [Guide de création d’audiences](../using/audience/creating-a-segment-definition.md) |
-| Configurer des canaux | [&#x200B; Guide de configuration des canaux &#x200B;](../using/configuration/get-started-configuration.md) |
+| Configurer des canaux | [ Guide de configuration des canaux ](../using/configuration/get-started-configuration.md) |
 | Créer des offres personnalisées | [Guide de gestion des décisions](../using/offers/get-started/starting-offer-decisioning.md) |
 
 >[!NOTE]
