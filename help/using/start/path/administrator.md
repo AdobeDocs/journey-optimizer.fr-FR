@@ -7,18 +7,18 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 50%
+source-wordcount: '1012'
+ht-degree: 48%
 
 ---
 
 # Prise en main pour les administrateurs système {#get-started-sys-admins}
 
-Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], plusieurs étapes sont nécessaires pour préparer votre environnement. Vous devez effectuer les étapes suivantes afin que l’[ingénieur de données](data-engineer.md) et le [marketeur](marketer.md) puissent commencer à utiliser [!DNL Adobe Journey Optimizer].
+En tant qu’**administrateur système**, vous pouvez configurer l’environnement Journey Optimizer et gérer l’accès pour permettre à vos équipes de travailler efficacement et en toute sécurité. Vous effectuez les étapes de configuration essentielles pour que les [Ingénieur de données](data-engineer.md), [Développeur](developer.md) et [Professionnel du marketing](marketer.md) puissent commencer à utiliser [!DNL Adobe Journey Optimizer].
 
-En tant qu’**administrateur ou administratrice système**, vous devez **comprendre les rôles et attribuer des autorisations** pour l’administration des sandbox et la configuration des canaux. Vous devez également configurer des sandbox et les gérer pour les rôles disponibles. Vous pourrez ensuite affecter des membres de l’équipe à des rôles. Pendant que les [Ingénieurs de données](data-engineer.md) configurent les schémas et les sources de données, et les [Développeurs](developer.md) implémentent des intégrations techniques, vous vous assurez que les bonnes personnes ont accès aux bonnes fonctionnalités.
+Vos principales responsabilités comprennent la configuration des groupes d’utilisateurs et des autorisations, la création et la gestion des sandbox pour le partitionnement des données et des parcours pour différents groupes d’utilisateurs, ainsi que la configuration des canaux de diffusion et des préréglages de message afin d’assurer une valorisation de marque cohérente pour les différents messages et ressources diffusés via Journey Optimizer. Vous vous assurez que les bonnes personnes ont accès aux bonnes fonctionnalités tout en préservant la sécurité et la gouvernance.
 
 Ces fonctionnalités peuvent être gérées par les **[!UICONTROL administrateurs et administratrices de produits]** qui ont accès au produit Autorisations. [En savoir plus sur les autorisations](../../administration/permissions.md){target="_blank"}.
 

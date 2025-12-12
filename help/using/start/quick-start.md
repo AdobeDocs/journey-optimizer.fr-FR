@@ -8,17 +8,28 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 20%
+source-wordcount: '1585'
+ht-degree: 14%
 
 ---
 
 
 # Rôles et responsabilités
 
-Adobe Journey Optimizer permet aux marques de proposer des parcours clients connectés et contextualisés tout au long du cycle de vie du client. Il permet aux équipes de personnaliser les interactions à grande échelle et d’aligner les attentes des clientes et clients sur les objectifs de l’entreprise. Cette documentation explique les rôles clés impliqués dans l’utilisation efficace de Journey Optimizer, leurs responsabilités et la manière de commencer.
+Adobe Journey Optimizer permet aux marques de proposer des expériences connectées, contextuelles et personnalisées dans l’ensemble du parcours client. Conçu dans une optique complète d’évolutivité, de vitesse et de flexibilité, Journey Optimizer associe trois principaux facteurs de valeur dans une application unifiée :
+
+* **Informations sur le client en temps réel et engagement** optimisé par le profil client en temps réel d’Adobe
+* **Orchestration omnicanal moderne** par le biais de canevas unifiés pour les parcours en temps réel et les campagnes par lots, ainsi qu’un concepteur de messages moderne
+* **Prise de décision et personnalisation intelligentes** grâce à la gestion des décisions et aux fonctionnalités d’IA/ML
+
+Journey Optimizer propose deux approches d’orchestration qui répondent à des besoins marketing différents :
+
+* **Parcours** : idéal pour un engagement individuel en temps réel, où chaque client évolue à son propre rythme, en fonction du comportement ou des événements
+* **Campagnes orchestrées** : idéal pour les campagnes par lots, de type « un à plusieurs », où les audiences progressent ensemble par le biais de workflows à plusieurs étapes selon un planning, idéal pour les promotions saisonnières, les lancements de produits et les communications basées sur les comptes
+
+Cette expérience unifiée vous permet de mettre en œuvre des cas d’utilisation complets en un seul endroit, de la définition d’audiences et de la conception de parcours à la création de contenu personnalisé et à l’analyse des résultats. Cette documentation explique les rôles clés impliqués dans l’utilisation efficace de Journey Optimizer, leurs responsabilités et la manière de commencer.
 
 **Remarque importante :** Adobe Journey Optimizer définit des rôles distincts avec des responsabilités spécifiques. Selon la structure de votre entreprise, une seule personne peut assumer plusieurs rôles ou tous les rôles.
 
@@ -28,10 +39,10 @@ Pour simplifier la mise en œuvre, Adobe Journey Optimizer organise les tâches 
 
 | Rôle | Responsabilités principales | Compétences principales | Tâches standard |
 |-------------------|----------------------------------|--------------------------------|-----------------------------------------------|
-| **Administrateur ou administratrice** | Configuration de l’environnement et gestion des accès | Configuration du système, gestion des utilisateurs et utilisatrices, sécurité | Configuration des sandbox, gestion des autorisations et configuration des configurations de canal |
-| **Ingénieur ou ingénieure de données** | Base et architecture des données | Modélisation des données, schémas XDM, qualité des données | Créer des schémas et des jeux de données, configurer l’ingestion des données, gérer le cycle de vie des données |
+| **Administrateur ou administratrice** | Configuration de l’environnement et gestion des accès | Configuration du système, gestion des utilisateurs et utilisatrices, sécurité | Configurer des sandbox, gérer les autorisations utilisateur, configurer des canaux et des préréglages de message |
+| **Ingénieur ou ingénieure de données** | Données de profil client et sources de données | Modélisation des données, schémas XDM, connecteurs source | Modélisez les données de profil et métier dans des schémas, configurez les connecteurs source et surveillez l’ingestion des données |
 | **Développeur ou développeuse** | Implémentation technique et intégrations | SDK mobile/web, API, architecture orientée événement | Intégrer des SDK, implémenter des événements et créer des points d’entrée d’action personnalisés |
-| **Spécialiste marketing** | Conception et exécution de l’expérience client | conception de parcours, création de contenu, analyse de données | Création de parcours, création de contenu personnalisé et optimisation des campagnes |
+| **Spécialiste marketing** | Conception de parcours et expériences personnalisées | orchestration des parcours, création de contenu, ciblage des audiences | Concevoir des parcours clients, créer et personnaliser des messages, gérer des offres et des composants de décision, définir des audiences |
 
 Chaque rôle aborde une phase spécifique de la mise en œuvre de Adobe Journey Optimizer et assure un processus de déploiement structuré et efficace.
 
@@ -80,54 +91,54 @@ Chaque rôle commence par des tâches spécifiques adaptées à son objectif. L�
 
 ### Pour les professionnels du marketing {#for-marketers}
 
-Concentrez-vous sur la création d’expériences client personnalisées sur tous les canaux.
+En tant que professionnel du marketing ou praticien/praticienne professionnel, vous concevez des parcours client pour offrir des expériences personnelles et contextuelles à tous les points de contact. Vous travaillerez dans une interface unifiée pour implémenter des cas d’utilisation complets du début à la fin.
 
 **Fonctionnalités clés que vous utiliserez :**
 
-* Créez des audiences et des segments à l’aide de plusieurs méthodes (définitions de segment, chargement CSV, composition de l’audience)
-* Concevoir du contenu avec l’assistant AI pour la génération de texte et d’images
-* Créer des parcours client multicanaux à l’aide du concepteur glisser-déposer
-* Tirez parti de l’optimisation de l’heure d’envoi et de la gestion des conflits pour optimiser l’engagement
-* Test du contenu et utilisation des workflows de validation avant publication
-* Surveiller les performances à l’aide de tableaux de bord de rapports intégrés
+* **Journey Orchestration** : créez un engagement client individuel en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux
+* **Orchestration des campagnes** : concevez et automatisez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle. Parfait pour les campagnes lancées par la marque comme les promotions saisonnières, les lancements de produits et les communications basées sur un compte. Utilisez la segmentation d’entités multiples pour créer des audiences précises en connectant les données client aux entités associées (comptes, achats, réservations).
+* **Modern Message Designer** : concevez et personnalisez des e-mails et des messages mobiles à l’aide d’une interface glisser-déposer. Modifier les modèles prêts à l’emploi pour accélérer le délai de mise sur le marché
+* **Gestion des décisions** : créez et gérez des offres, des règles d’éligibilité et d’autres composants dans une bibliothèque centralisée qui peut être incorporée dans les e-mails et les points de contact des clients
+* **Gestion des ressources** : accédez à Adobe Experience Manager Assets Essentials entièrement intégré à Journey Optimizer pour une diffusion et un accès aux ressources rationalisés
+* **Définition d’audience** : créez des audiences à la demande avec un affinement instantané à l’aide de requêtes relationnelles, avec une visibilité de pré-envoi pour un décompte d’audience précis
+* **Services AI/ML** : utilisez l’optimisation de l’heure d’envoi et les scores d’engagement prédictifs pour cibler les clients à forte valeur ajoutée et réduire le risque d’attrition
 
-**Commencez par :** créer un parcours de bienvenue simple ou une campagne de récupération de panier abandonné à l’aide de modèles préconfigurés.
+**Commencez par :** utilisez des modèles de cas d’utilisation et des assistants pour créer et déployer facilement de nouveaux parcours client.
 
 [Prise en main en tant qu’→ marketing](path/marketer.md)
 
 ### Pour les ingénieurs de données {#for-data-engineers}
 
-Établissez la base de données qui alimente les expériences personnalisées.
+En tant qu’architecte ou ingénieur de données, vous configurez et gérez les données de profil client et d’autres sources de données qui alimentent les expériences orchestrées par Journey Optimizer.
 
 **Principales responsabilités :**
 
-* Création d’espaces de noms d’identité et configuration de la résolution d’identité
-* Concevoir des schémas XDM pour les données de profil et d’événement (standard et relationnelles)
-* Configurer des jeux de données et les activer pour le profil client en temps réel
-* Configuration des connecteurs source pour l’ingestion de données par lots et par flux
-* Créer des attributs calculés pour simplifier la segmentation
-* Configurer des événements et des sources de données pour l’exécution du parcours
-* Gérer la qualité, la gouvernance et le cycle de vie des données
+* **Données du profil client** : modélisez les données du profil client et les données commerciales dans des schémas pour créer une vue unifiée à 360 degrés du client
+* **Modélisation des données relationnelles** : pour les campagnes orchestrées, concevez des schémas relationnels afin de permettre la segmentation d’entités multiples, en connectant les données client à des entités associées telles que des comptes, des achats, des abonnements et des réservations, pour une création d’audience flexible
+* **Connecteurs Source** : configurez les connecteurs source pour ingérer les données provenant du Web, du CRM, des données hors ligne et d’autres sources dans Adobe Experience Platform
+* **Résolution d’identités** : configurez des espaces de noms d’identité pour mettre à jour en continu les profils et déplacer les clients dans et hors des segments et des parcours en temps réel
+* **Sources de données** : configurez les sources de données pour écouter en temps réel les signaux externes sur le parcours client
+* **Gestion des profils** : activez des jeux de données pour le profil client en temps réel afin d’offrir des expériences personnalisées
+* **Qualité des données** : surveillez l’ingestion des données pour vous assurer que tout se déroule correctement dans Journey Optimizer
 
-**Commencer par :** configurer des espaces de noms d’identité et créer votre premier schéma de profil avec les groupes de champs obligatoires.
+**Commencer par :** modélisez votre premier schéma de profil client et configurez un connecteur source pour commencer à ingérer des données.
 
 [Prise en main en tant qu’ingénieur de données →](path/data-engineer.md)
 
 ### Pour les administrateurs {#for-administrators}
 
-Configurez et gérez l’environnement Journey Optimizer pour votre organisation.
+En tant qu’administrateur ou administratrice, vous configurez l’environnement Journey Optimizer pour permettre à vos équipes de travailler efficacement et en toute sécurité.
 
 **Principales responsabilités :**
 
-* Créer et gérer des sandbox pour le développement, les tests et la production
-* Configuration des rôles et des autorisations à l’aide de rôles prêts à l’emploi ou personnalisés
-* Application du contrôle d’accès au niveau de l’objet (OLAC) pour sécuriser les ressources
-* Configurez les configurations de canal pour les e-mails, SMS, notifications push, in-app, web et cartes de contenu
-* Déléguer des sous-domaines et créer des groupes d’adresses IP pour la délivrabilité des e-mails
-* Gestion des listes de suppression et des listes autorisées
-* Configurer les politiques de consentement et la gouvernance des données (avec Healthcare/Privacy Shield)
+* **Sandbox** : créez et gérez des sandbox pour partitionner les données et les parcours pour différents groupes d’utilisateurs (développement, test, production)
+* **User Management** : configurez des groupes d’utilisateurs et des autorisations pour contrôler l’accès à différentes fonctionnalités
+* **Configuration du canal** : configurez les canaux de diffusion et les préréglages de message pour garantir la cohérence de l’identité graphique des messages et des ressources diffusés via Journey Optimizer
+* **Sécurité et gouvernance** : appliquez le contrôle d’accès au niveau de l’objet (OLAC), configurez des politiques de consentement et implémentez des politiques de gouvernance des données
+* **Délivrabilité** : déléguez des sous-domaines, créez des groupes d’adresses IP et gérez les listes et listes autorisées de suppression
+* **Configuration de Parcours** : définissez des éléments et des configurations de parcours pour vos équipes
 
-**Commencez par :** configurer des sandbox, configurer des rôles et des autorisations de base, puis travailler avec votre équipe sur les configurations de canal.
+**Commencez par :** Configurer des sandbox et des autorisations utilisateur, puis configurer vos premières configurations de canal et vos premiers préréglages de message.
 
 [Prise en main en tant qu’administrateur →](path/administrator.md)
 
@@ -165,7 +176,7 @@ La réussite des implémentations de Journey Optimizer nécessite une collaborat
 
 Pour en savoir plus sur les principales fonctionnalités et les personas les plus importants de Journey Optimizer, regardez la vidéo de présentation. La vidéo présente l’interface d’utilisation et met en évidence les fonctionnalités clés en fonction des workflows spécifiques aux rôles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430314?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Ressources supplémentaires
 
@@ -174,17 +185,17 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 **Formation et documentation :**
 
 * [Tutoriels vidéo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"} - Tutoriels vidéo détaillés pour tous les rôles
-* [Bibliothèque de cas d’utilisation de Parcours &#x200B;](../building-journeys/jo-use-cases.md) - Exemples pratiques et modèles d’implémentation
+* [Bibliothèque de cas d’utilisation de Parcours ](../building-journeys/jo-use-cases.md) - Exemples pratiques et modèles d’implémentation
 * [Fonctionnalités intelligentes et d’IA](ai-features.md) - Découvrez l’assistant d’IA, l’optimisation de l’heure d’envoi et la génération de contenu
-* [&#x200B; Guide de l’interface utilisateur &#x200B;](user-interface.md) - Naviguez efficacement dans Journey Optimizer
+* [ Guide de l’interface utilisateur ](user-interface.md) - Naviguez efficacement dans Journey Optimizer
 
 **Restez à jour :**
 
-* [&#x200B; Notes de mise à jour &#x200B;](../rn/release-notes.md) - Dernières fonctionnalités, améliorations et correctifs
+* [ Notes de mise à jour ](../rn/release-notes.md) - Dernières fonctionnalités, améliorations et correctifs
 * [Mises à jour de la documentation](../rn/documentation-updates.md) - Suivez les modifications récentes de la documentation
 * **Notifications de produit** - Activez les alertes dans votre profil [Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} pour recevoir des notifications sur les nouvelles versions, les fenêtres de maintenance et les annonces importantes. Cliquez sur l’icône de votre profil > Préférences > Notifications à configurer.
 
 **Communauté et assistance :**
 
-* [Communauté Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Connectez-vous à d’autres utilisateurs et experts
-* [Forum produit](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Posez des questions et partagez vos connaissances
+* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Connectez-vous à d’autres utilisateurs et experts
+* [Forum produit](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Posez des questions et partagez vos connaissances

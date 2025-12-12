@@ -7,20 +7,27 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 6%
+source-wordcount: '1516'
+ht-degree: 3%
 
 ---
 
 # Prise en main pour les responsables marketing {#get-started-marketers}
 
-En tant que **responsable marketing** ou **utilisateur ou utilisatrice de parcours**, vous êtes responsable de la création des offres et des parcours, ainsi que de la conception du contenu. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) et l’[ingénieur de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement.
+En tant que **spécialiste marketing** ou **professionnel**, vous concevez des parcours client pour offrir aux clients des expériences personnelles et contextuelles. Vous créez et gérez tous les différents composants de ces parcours personnalisés, notamment les e-mails et les messages push, les offres et les composants de décision, afin de personnaliser intelligemment le contenu des messages. Journey Optimizer offre une expérience utilisateur unifiée où vous pouvez mettre en œuvre des cas d’utilisation complets en un seul endroit. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) et l’[ingénieur de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement.
 
 ## Prise en main de l’essentiel
 
-Journey Optimizer vous permet de créer des expériences client connectées et personnalisées par e-mail, SMS, notification push, in-app, web, cartes de contenu, etc. Contactez vos [administrateurs](administrator.md) pour obtenir l’accès et les [ingénieurs de données](data-engineer.md) pour configurer des audiences et des données.
+Journey Optimizer réunit des informations client en temps réel, une orchestration omnicanale moderne et une prise de décision intelligente dans une seule application. Créez des expériences client personnalisées et connectées par e-mail, SMS, notification push, in-app, web, cartes de contenu, etc.
+
+Journey Optimizer propose deux approches d’orchestration puissantes :
+
+* **Parcours** : engagement individuel en temps réel, où chaque client évolue à son propre rythme, en fonction du comportement ou des événements
+* **Campagnes orchestrées** : campagnes par lots complexes et à plusieurs étapes à grande échelle où les audiences progressent ensemble par le biais de workflows, idéales pour les campagnes lancées par la marque comme les promotions saisonnières, les lancements de produits ou les communications basées sur un compte
+
+Collaborez avec vos [administrateurs](administrator.md) pour obtenir l’accès et avec les [ingénieurs de données](data-engineer.md) pour configurer des audiences, des données et des schémas relationnels en vue d’une segmentation avancée.
 
 Pour commencer à créer des expériences, procédez comme suit :
 
@@ -31,8 +38,8 @@ Pour commencer à créer des expériences, procédez comme suit :
    * **Personnalisez les messages** avec des données client, du contenu dynamique et une logique conditionnelle. [En savoir plus sur la personnalisation](../../personalization/personalize.md)
    * **Effectuez une itération sur les données contextuelles** pour afficher des listes dynamiques à partir d’événements, d’actions personnalisées et de recherches de jeux de données. [En savoir plus sur l’itération des données contextuelles](../../personalization/iterate-contextual-data.md)
    * Créez des **modèles de contenu** et des **fragments** réutilisables pour maintenir la cohérence de la marque. [Utiliser des modèles](../../content-management/content-templates.md)
-   * Diffusez des cartes de contenu **persistantes et non intrusives** dans les applications mobiles et les sites web. Contrairement aux notifications push, les cartes de contenu restent visibles jusqu’à leur rejet. [En savoir plus sur les cartes de contenu &#x200B;](../../content-card/create-content-card.md)
-   * Gérez les ressources avec l’intégration **Adobe Experience Manager Assets**. [En savoir plus sur les ressources &#x200B;](../../integrations/assets.md)
+   * Diffusez des cartes de contenu **persistantes et non intrusives** dans les applications mobiles et les sites web. Contrairement aux notifications push, les cartes de contenu restent visibles jusqu’à leur rejet. [En savoir plus sur les cartes de contenu ](../../content-card/create-content-card.md)
+   * Gérez les ressources avec l’intégration **Adobe Experience Manager Assets**. [En savoir plus sur les ressources ](../../integrations/assets.md)
 
    ![](../assets/perso_ee2.png)
 
@@ -61,16 +68,27 @@ Pour commencer à créer des expériences, procédez comme suit :
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours &#x200B;](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours &#x200B;](../../building-journeys/jo-use-cases.md). Comprenez [&#x200B; critères d’entrée/sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler le flux du profil.
+   Découvrez comment [concevoir et exécuter des parcours ](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours ](../../building-journeys/jo-use-cases.md). Comprenez [ critères d’entrée/sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler le flux du profil.
+
+1. **Lancer des campagnes orchestrées**. Concevez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
+
+   * Créez **audiences à la demande** en utilisant instantanément des requêtes relationnelles pour connecter les données client à des comptes, des achats, des abonnements et d’autres entités
+   * Créez une **segmentation d’entités multiples** pour un ciblage précis (par exemple, « clients avec des abonnements expirant dans 30 jours » ou « comptes avec des achats récents à forte valeur »)
+   * Obtenez **visibilité de pré-envoi** avec un nombre précis d’audiences avant le lancement
+   * Concevez des **workflows à plusieurs étapes** pour les promotions saisonnières, les lancements de produits, les offres de fidélité ou le marketing basé sur les comptes
+   * Planifiez des campagnes pour qu’elles s’exécutent immédiatement, à des heures spécifiques ou selon des planifications récurrentes (quotidiennes, hebdomadaires, mensuelles).
+   * Traiter les audiences en **mode batch** où tous les profils progressent ensemble tout au long du workflow
+
+   Découvrez comment [commencer avec les campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md) et quand [utiliser les campagnes plutôt que les parcours ](../../orchestrated/orchestrated-campaigns-faq.md).
 
 1. **Surveiller et optimiser**. Suivez les performances et améliorez les résultats au fil du temps :
    * Surveillez **parcours en direct** les performances et identifiez les goulots d’étranglement
    * Analyse **diffusion des messages** taux et mesures d’engagement
    * Utilisation de **tableaux de bord de rapports** avec l’intégration de Customer Journey Analytics
    * Suivi **conversion** et de l’impact commercial
-   * Gérez la **fréquence et hiérarchisation des messages** avec des règles de gestion des conflits pour éviter la surcommunication. [En savoir plus sur la gestion des conflits &#x200B;](../../conflict-prioritization/gs-conflict-prioritization.md)
+   * Gérez la **fréquence et hiérarchisation des messages** avec des règles de gestion des conflits pour éviter la surcommunication. [En savoir plus sur la gestion des conflits ](../../conflict-prioritization/gs-conflict-prioritization.md)
 
-   Découvrez comment [&#x200B; surveiller les performances &#x200B;](../../reports/report-gs-cja.md).
+   Découvrez comment [ surveiller les performances ](../../reports/report-gs-cja.md).
 
 ## Bonnes pratiques pour réussir
 
@@ -90,6 +108,15 @@ Pour commencer à créer des expériences, procédez comme suit :
 * **Test en mode brouillon** : validez la logique de parcours avec l’essai avant l’activation.
 
 [Découvrir les bonnes pratiques relatives au parcours](../../building-journeys/entry-exit-criteria-guide.md#best-practices)
+
+### Orchestration des campagnes
+
+* **Choisir la bonne approche** : utilisez des Parcours pour les expériences en temps réel déclenchées par un comportement. Utilisez des campagnes orchestrées pour les campagnes planifiées et par lots.
+* **Définir des objectifs de campagne clairs** : établissez des objectifs avant de concevoir des workflows à plusieurs étapes
+* **Commencer par les audiences pilotes** : valider les nombres et la logique de segmentation avant la mise à l’échelle
+* **Utiliser les données relationnelles** : utilisez la segmentation d’entités multiples pour connecter les données client aux comptes, aux achats, aux abonnements pour un ciblage précis
+* **Maintenir la segmentation simple** : optimisez les performances et la transparence grâce à des règles claires et gérables.
+* **Utiliser des noms cohérents** : facilitez la gestion des campagnes grâce à des conventions de nommage claires
 
 ### Ciblage des audiences
 
@@ -111,14 +138,22 @@ Pour commencer à créer des expériences, procédez comme suit :
 
 Apprenez à partir d’exemples pratiques qui démontrent les fonctionnalités de Journey Optimizer :
 
-**Cas d’utilisation courants :**
+**Cas d’utilisation de Parcours** (temps réel, un-à-un) :
 
 * **Série de bienvenue** : intégrez de nouveaux clients avec des parcours personnalisés à plusieurs étapes. [Afficher le cas d’utilisation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * **Récupération de panier abandonné** : réengagez les clients qui ont laissé des articles dans leur panier. [Afficher le cas d’utilisation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* **Campagnes de réengagement** : récupérez les clients inactifs avec des offres ciblées. [Afficher le cas d’utilisation](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
-* **Campagnes d’anniversaire** : envoyez des messages d’anniversaire personnalisés avec des offres spéciales
-* **Recommandations de produits** : suggérez des produits pertinents en fonction de l’historique de navigation et d’achat
 * **Messagerie pilotée par les événements** : répondez aux actions des clients en temps réel
+* **Campagnes d’anniversaire** : envoyez des messages d’anniversaire personnalisés déclenchés par les dates de profil
+* **Recommandations de produits** : suggérez des produits pertinents en fonction de l’historique de navigation et d’achat
+
+**Cas pratiques de campagnes orchestrées** (par lots, de type « un à plusieurs ») :
+
+* **Promotions saisonnières** : lancez des campagnes coordonnées sur plusieurs segments de clientèle (par exemple, ventes de vacances, rentrée scolaire).
+* **Lancements de produits** : annonce de nouveaux produits auprès d’audiences ciblées avec une messagerie séquencée
+* **Offres du programme de fidélité** : récompensez les clients à forte valeur ajoutée par des offres échelonnées en fonction de l’historique des achats
+* **Marketing basé sur les comptes** : comptes cibles présentant des caractéristiques spécifiques et contacts associés
+* **Renouvellements d’abonnement** : joignez les clients dont les abonnements expirent bientôt à l’aide de requêtes d’entités multiples
+* **Campagnes de réengagement** : récupérez les clients et clientes inactifs avec des offres ciblées en mode batch. [Afficher le cas d’utilisation](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
 
 **modèles de Parcours :**
 
@@ -126,15 +161,15 @@ Apprenez à partir d’exemples pratiques qui démontrent les fonctionnalités d
 * [Messagerie multicanal](../../building-journeys/journeys-uc.md) : combinez e-mail et notification push avec des événements de réaction
 * [E-mails réservés à la semaine](../../building-journeys/weekday-email-uc.md) : planifier des communications à l’aide de conditions temporelles
 
-Parcourez toute la bibliothèque de cas d’utilisation de [parcours &#x200B;](../../building-journeys/jo-use-cases.md) pour découvrir d’autres modèles et implémentations.
+Parcourez l’ensemble de la bibliothèque de cas d’utilisation de [parcours ](../../building-journeys/jo-use-cases.md) et découvrez [Campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Collaborer avec d’autres rôles
 
 Votre travail marketing se connecte à d’autres équipes :
 
-* **Collaboration avec les [ingénieurs de données](data-engineer.md)** : demandez de nouveaux attributs calculés, fournissez des commentaires sur la qualité de l’audience et coordonnez les exigences en matière de données
+* **Collaboration avec les [ingénieurs de données](data-engineer.md)** : demandez de nouveaux attributs calculés, coordonnez les schémas relationnels pour les campagnes orchestrées, donnez votre avis sur la qualité de l’audience et alignez-vous sur les exigences en matière de données multi-entités pour une segmentation avancée
 * **Travailler avec [les développeurs](developer.md)** : alignement sur les déclencheurs d’événement, test des implémentations mobiles et validation du suivi
-* **Travailler avec [Administrateurs](administrator.md)** : demander des configurations de canal, signaler les problèmes liés aux autorisations et se coordonner sur l’activation des nouvelles fonctionnalités
+* **Utilisation avec [Administrateurs](administrator.md)** : demandez des configurations de canal, confirmez l’accès sous licence pour les campagnes orchestrées, signalez les problèmes liés aux autorisations et assurez la coordination pour l’activation des nouvelles fonctionnalités
 
 ## Restez à jour
 
@@ -154,5 +189,5 @@ Suivez les dernières fonctionnalités de Journey Optimizer et de marketing :
 
 1. **Commencez petit** : créez un parcours de bienvenue simple ou une campagne à message unique pour apprendre à utiliser la plateforme
 2. **Utiliser l’IA** : utilisez l’assistant d’IA pour poser des questions et accélérer la création de contenu
-3. **Rejoindre la communauté** : entrez en contact avec d’autres utilisateurs Journey Optimizer de la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}
+3. **Rejoindre la communauté** : entrez en contact avec d’autres utilisateurs Journey Optimizer de la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explorer les tutoriels** : regardez des vidéos détaillées sur [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"}

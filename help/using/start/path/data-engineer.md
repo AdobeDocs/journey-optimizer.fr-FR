@@ -7,16 +7,16 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 52%
+source-wordcount: '848'
+ht-degree: 50%
 
 ---
 
 # Prise en main pour l’ingénieur de données {#data-engineer}
 
-En tant qu’**ingénieur de données Adobe Journey Optimizer**, vous préparez et conservez les données de profil client pour alimenter les expériences orchestrées par [!DNL Journey Optimizer], modéliser les données clients et commerciales dans les schémas et configurer les connecteurs source pour l’ingestion de données. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) vous a accordé l’accès et a préparé votre environnement.
+En tant qu’**architecte de données** ou **ingénieur de données**, vous configurez et gérez les données de profil client et d’autres sources de données qui alimentent les expériences orchestrées par [!DNL Journey Optimizer]. Cela inclut l’intégration de toutes les données de vos clients et de votre entreprise, qu’elles proviennent de sources web, CRM ou hors ligne, dans une vue unifiée à 360 degrés du client. Vous modélisez les données de profil client et les données commerciales dans des schémas, configurez les connecteurs source pour l’ingestion de données et assurez le flux des données en douceur pour activer les informations sur les clients et l’engagement en temps réel. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) vous a accordé l’accès et a préparé votre environnement.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Une fois les parcours en cours d’exécution, vous pouvez interroger les évén
 * Mesures de performances des actions personnalisées
 * États des instances de parcours et goulets d’étranglement
 
-Explorez des [exemples de requête prêts à l’emploi pour l’analyse de parcours &#x200B;](../../reports/query-examples.md) afin de commencer à analyser et à résoudre les problèmes liés aux données.
+Explorez des [exemples de requête prêts à l’emploi pour l’analyse de parcours ](../../reports/query-examples.md) afin de commencer à analyser et à résoudre les problèmes liés aux données.
 
 ## Restez à jour
 
