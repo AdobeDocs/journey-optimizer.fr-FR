@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 14%
+source-wordcount: '1724'
+ht-degree: 13%
 
 ---
 
@@ -163,12 +163,43 @@ Implémentez des intégrations techniques qui connectent Journey Optimizer à vo
 
 ## Cross-Role Collaboration
 
-La réussite des implémentations de Journey Optimizer nécessite une collaboration entre tous les rôles :
+La réussite des implémentations de Journey Optimizer nécessite une collaboration entre tous les rôles. Chaque rôle fonctionne avec d’autres pour offrir des expériences client transparentes :
 
-* **Administrateurs** activez d’autres rôles en configurant des sandbox, des autorisations et des canaux.
-* **Les ingénieurs de données** fournissent la base de données sur laquelle les développeurs et les spécialistes du marketing s’appuient.
-* **Développeurs** implémentez les intégrations techniques que les marketeurs utilisent pour déclencher les parcours
-* **Les spécialistes marketing** font part de leurs commentaires à toutes les équipes sur la qualité des données, les demandes de fonctionnalités et l’expérience utilisateur
+>[!BEGINTABS]
+
+>[!TAB Administrateurs]
+
+**Administrateurs** activez toutes les équipes en gérant l’accès et les configurations. Ils travaillent avec :
+
+* **Ingénieurs de données** : octroyez des autorisations pour la gestion des données, approuvez l’accès aux sandbox, coordonnez les politiques de gouvernance.
+* **Développeurs** : fournissez des informations d’identification d’API, configurez des environnements de test et approuvez des configurations de canal
+* **Spécialistes marketing** : attribuez des autorisations pour les parcours/campagnes, configurez des canaux et prenez en charge les environnements de test
+
+>[!TAB  Ingénieurs de données ]
+
+**Les ingénieurs de données** fournissent la base de données à tout le monde. Ils travaillent avec :
+
+* **Administrateurs** : demander des autorisations pour la gestion des données, coordonner les politiques de gouvernance et de conservation des données
+* **Développeurs** : fournissez des schémas XDM et des structures d’événement, définissez des formats de payload d’événement, testez l’ingestion des données
+* **Spécialistes marketing** : créez des attributs calculés pour la personnalisation, créez des audiences et configurez des schémas relationnels
+
+>[!TAB Développeurs]
+
+**Développeurs** implémentez des intégrations techniques qui alimentent les parcours. Ils travaillent avec :
+
+* **Ingénieurs de données** : obtenez des schémas XDM et des structures d’événement, alignez-vous sur les exigences de collecte de données, testez la diffusion d’événement
+* **Administrateurs** : indiquez les spécifications d’API, demandez les autorisations et les informations d’identification, coordonnez la stratégie de test.
+* **Spécialistes marketing** : comprendre les déclencheurs d’événement, implémenter le suivi, prendre en charge les tests de parcours et résoudre les problèmes
+
+>[!TAB Spécialistes marketing]
+
+**Les spécialistes marketing** conçoivent des expériences client et fournissent des commentaires. Ils travaillent avec :
+
+* **Ingénieurs de données** : demandez des attributs calculés, coordonnez les exigences en matière d’audience, fournissez des commentaires sur la qualité des données.
+* **Développeurs** : alignement sur les déclencheurs d’événement, test des implémentations, validation du suivi
+* **Administrateurs** : demandez des configurations de canal, confirmez l’accès aux fonctionnalités, coordonnez l’activation.
+
+>[!ENDTABS]
 
 **Bonne pratique :** organisez régulièrement des réunions transverses pour vous aligner sur les priorités, partager les progrès et résoudre les problèmes rencontrés par les différentes équipes.
 
@@ -176,26 +207,30 @@ La réussite des implémentations de Journey Optimizer nécessite une collaborat
 
 Pour en savoir plus sur les principales fonctionnalités et les personas les plus importants de Journey Optimizer, regardez la vidéo de présentation. La vidéo présente l’interface d’utilisation et met en évidence les fonctionnalités clés en fonction des workflows spécifiques aux rôles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430314?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Ressources supplémentaires
 
 Pour des mises à jour et des formations plus approfondies, consultez les ressources suivantes :
 
-**Formation et documentation :**
+>[!BEGINTABS]
+
+>[!TAB Formation et documentation]
 
 * [Tutoriels vidéo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"} - Tutoriels vidéo détaillés pour tous les rôles
-* [Bibliothèque de cas d’utilisation de Parcours &#x200B;](../building-journeys/jo-use-cases.md) - Exemples pratiques et modèles d’implémentation
+* [Bibliothèque de cas d’utilisation de Parcours ](../building-journeys/jo-use-cases.md) - Exemples pratiques et modèles d’implémentation
 * [Fonctionnalités intelligentes et d’IA](ai-features.md) - Découvrez l’assistant d’IA, l’optimisation de l’heure d’envoi et la génération de contenu
-* [&#x200B; Guide de l’interface utilisateur &#x200B;](user-interface.md) - Naviguez efficacement dans Journey Optimizer
+* [ Guide de l’interface utilisateur ](user-interface.md) - Naviguez efficacement dans Journey Optimizer
 
-**Restez à jour :**
+>[!TAB Restez à jour]
 
-* [&#x200B; Notes de mise à jour &#x200B;](../rn/release-notes.md) - Dernières fonctionnalités, améliorations et correctifs
+* [ Notes de mise à jour ](../rn/release-notes.md) - Dernières fonctionnalités, améliorations et correctifs
 * [Mises à jour de la documentation](../rn/documentation-updates.md) - Suivez les modifications récentes de la documentation
 * [Notifications de produit](../rn/releases.md#staying-informed) - Découvrez comment vous abonner aux e-mails et aux alertes sur le produit pour les mises à jour de Journey Optimizer
 
-**Communauté et assistance :**
+>[!TAB Communauté et assistance]
 
-* [Communauté Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Connectez-vous à d’autres utilisateurs et experts
-* [Forum produit](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Posez des questions et partagez vos connaissances
+* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Connectez-vous à d’autres utilisateurs et experts
+* [Forum produit](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Posez des questions et partagez vos connaissances
+
+>[!ENDTABS]
