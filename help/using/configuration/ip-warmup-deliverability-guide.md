@@ -8,8 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, délivrabilité, réputation, FAI, engagement
-exl-id: TBD
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 6%
@@ -145,12 +144,12 @@ Une fois que vous avez terminé votre plan de préchauffage et que les mesures s
 
 Découvrez les principes de base de la délivrabilité, l’établissement de la réputation et les bonnes pratiques pour le préchauffage des adresses IP dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463784/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
 
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=fr).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
 
 ## Rubriques connexes {#related-topics}
 
@@ -161,5 +160,5 @@ Découvrez les principes de base de la délivrabilité, l’établissement de la
 * [Paramétrer des configurations de canal](channel-surfaces.md)
 * [Délégation de sous-domaines](delegate-subdomain.md)
 * [Gestion de la liste de suppression](manage-suppression-list.md)
-* [&#x200B; Guide des bonnes pratiques en matière de délivrabilité &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr)
+* [ Guide des bonnes pratiques en matière de délivrabilité ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr)
 
