@@ -20,7 +20,7 @@ La mise en œuvre d’un plan de préchauffage d’adresses IP dans Adobe Journe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=fr)
 
 Guide de délivrabilité du préchauffage d’adresses IP
 
