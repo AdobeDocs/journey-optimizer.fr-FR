@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, liste, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >id="ajo_subscription_list"
 >title="Configurer une liste d’abonnements"
 >abstract="Créez une liste d’abonnements afin de rassembler les profils ayant accepté de recevoir des communications sur un objet ou un événement spécifique. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=fr#define-subscription-list" text="Créer une liste dʼabonnements"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Créer une liste dʼabonnements"
 
 Un service d’abonnement fait référence aux produits et services marketing fournis aux clients qui ont choisi de recevoir des communications sur un sujet/événement/intérêt spécifique etc. de manière régulière. Dans [!DNL Journey Optimizer], ces clients inscrits sont regroupés dans une liste d’abonnements.
 
@@ -37,6 +37,10 @@ Voici quelques exemples de services dʼabonnement :
 Les profils peuvent être ajoutés à une liste dʼabonnements au moyen dʼune [page de destination](create-lp.md). Retrouvez un exemple dans [cette section](lp-use-cases.md#subscription-to-a-service).
 
 ## Créer une liste dʼabonnements {#define-subscription-list}
+
+>[!NOTE]
+>
+>Lorsque vous créez une liste d’abonnements, un segment de diffusion en continu associé est automatiquement généré dans Adobe Experience Platform. Pour que le segment de diffusion en continu soit créé avec succès, l’option **Active-On-Edge** doit être activée pour la politique de fusion. En savoir plus sur les critères d’éligibilité des segments de streaming dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Pour créer une liste dʼabonnements, procédez comme suit :
 
