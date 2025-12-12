@@ -144,7 +144,7 @@ Une fois que vous avez terminé votre plan de préchauffage et que les mesures s
 
 Découvrez les principes de base de la délivrabilité, l’établissement de la réputation et les bonnes pratiques pour le préchauffage des adresses IP dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463784/?captions=fre_fr&learn=on)
 
 <!--
 >[!NOTE]
