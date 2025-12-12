@@ -31,7 +31,7 @@ Pour commencer à créer des expériences, procédez comme suit :
    * **Personnalisez les messages** avec des données client, du contenu dynamique et une logique conditionnelle. [En savoir plus sur la personnalisation](../../personalization/personalize.md)
    * **Effectuez une itération sur les données contextuelles** pour afficher des listes dynamiques à partir d’événements, d’actions personnalisées et de recherches de jeux de données. [En savoir plus sur l’itération des données contextuelles](../../personalization/iterate-contextual-data.md)
    * Créez des **modèles de contenu** et des **fragments** réutilisables pour maintenir la cohérence de la marque. [Utiliser des modèles](../../content-management/content-templates.md)
-   * Gérez les ressources avec l’intégration **Adobe Experience Manager Assets**. [En savoir plus sur les ressources ](../../integrations/assets.md)
+   * Gérez les ressources avec l’intégration **Adobe Experience Manager Assets**. [En savoir plus sur les ressources &#x200B;](../../integrations/assets.md)
 
    ![](../assets/perso_ee2.png)
 
@@ -59,7 +59,7 @@ Pour commencer à créer des expériences, procédez comme suit :
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours ](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours ](../../building-journeys/jo-use-cases.md). Comprenez [ critères d’entrée/sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler le flux du profil.
+   Découvrez comment [concevoir et exécuter des parcours &#x200B;](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours &#x200B;](../../building-journeys/jo-use-cases.md). Comprenez [&#x200B; critères d’entrée/sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler le flux du profil.
 
 1. **Surveiller et optimiser**. Suivez les performances et améliorez les résultats au fil du temps :
    * Surveillez **parcours en direct** les performances et identifiez les goulots d’étranglement
@@ -67,15 +67,15 @@ Pour commencer à créer des expériences, procédez comme suit :
    * Utilisation de **tableaux de bord de rapports** avec l’intégration de Customer Journey Analytics
    * Suivi **conversion** et de l’impact commercial
 
-   Découvrez comment [ surveiller les performances ](../../reports/report-gs-cja.md).
+   Découvrez comment [&#x200B; surveiller les performances &#x200B;](../../reports/report-gs-cja.md).
 
 ## Tirer parti des dernières fonctionnalités
 
 Journey Optimizer évolue en permanence avec de nouvelles fonctionnalités pour améliorer votre efficacité marketing :
 
-* **Cartes de contenu** : diffusez des messages persistants et non intrusifs dans les applications mobiles et les sites web, avec lesquels les utilisateurs peuvent interagir à leur guise. Contrairement aux notifications push, les cartes de contenu restent visibles jusqu’à leur rejet. [En savoir plus sur les cartes de contenu ](../../content-card/create-content-card.md)
+* **Cartes de contenu** : diffusez des messages persistants et non intrusifs dans les applications mobiles et les sites web, avec lesquels les utilisateurs peuvent interagir à leur guise. Contrairement aux notifications push, les cartes de contenu restent visibles jusqu’à leur rejet. [En savoir plus sur les cartes de contenu &#x200B;](../../content-card/create-content-card.md)
 
-* **Gestion des conflits et hiérarchisation** : contrôlez la fréquence des messages et empêchez la surcommunication avec des règles de limitation avancées. Définissez des scores de priorité pour vous assurer que les messages les plus importants atteignent d’abord les clients. [En savoir plus sur la gestion des conflits ](../../conflict-prioritization/gs-conflict-prioritization.md)
+* **Gestion des conflits et hiérarchisation** : contrôlez la fréquence des messages et empêchez la surcommunication avec des règles de limitation avancées. Définissez des scores de priorité pour vous assurer que les messages les plus importants atteignent d’abord les clients. [En savoir plus sur la gestion des conflits &#x200B;](../../conflict-prioritization/gs-conflict-prioritization.md)
 
 * **Optimisation de l’heure d’envoi optimisée par l’IA** : laissez l’IA prédire l’heure d’envoi optimale pour chaque client en fonction de ses modèles d’engagement historiques, en augmentant les taux d’ouverture et de clic jusqu’à 10 %. [Découvrez l’optimisation de l’heure d’envoi](../../building-journeys/send-time-optimization.md)
 
@@ -137,7 +137,7 @@ Apprenez à partir d’exemples pratiques qui démontrent les fonctionnalités d
 * [Messagerie multicanal](../../building-journeys/journeys-uc.md) : combinez e-mail et notification push avec des événements de réaction
 * [E-mails réservés à la semaine](../../building-journeys/weekday-email-uc.md) : planifier des communications à l’aide de conditions temporelles
 
-Parcourez toute la bibliothèque de cas d’utilisation de [parcours ](../../building-journeys/jo-use-cases.md) pour découvrir d’autres modèles et implémentations.
+Parcourez toute la bibliothèque de cas d’utilisation de [parcours &#x200B;](../../building-journeys/jo-use-cases.md) pour découvrir d’autres modèles et implémentations.
 
 ## Collaborer avec d’autres rôles
 
