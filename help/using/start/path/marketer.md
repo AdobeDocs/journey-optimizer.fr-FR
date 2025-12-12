@@ -38,8 +38,8 @@ Pour commencer à créer des expériences, procédez comme suit :
    * **Personnalisez les messages** avec des données client, du contenu dynamique et une logique conditionnelle. [En savoir plus sur la personnalisation](../../personalization/personalize.md)
    * **Effectuez une itération sur les données contextuelles** pour afficher des listes dynamiques à partir d’événements, d’actions personnalisées et de recherches de jeux de données. [En savoir plus sur l’itération des données contextuelles](../../personalization/iterate-contextual-data.md)
    * Créez des **modèles de contenu** et des **fragments** réutilisables pour maintenir la cohérence de la marque. [Utiliser des modèles](../../content-management/content-templates.md)
-   * Diffusez des cartes de contenu **persistantes et non intrusives** dans les applications mobiles et les sites web. Contrairement aux notifications push, les cartes de contenu restent visibles jusqu’à leur rejet. [En savoir plus sur les cartes de contenu ](../../content-card/create-content-card.md)
-   * Gérez les ressources avec l’intégration **Adobe Experience Manager Assets**. [En savoir plus sur les ressources ](../../integrations/assets.md)
+   * Diffusez des cartes de contenu **persistantes et non intrusives** dans les applications mobiles et les sites web. Contrairement aux notifications push, les cartes de contenu restent visibles jusqu’à leur rejet. [En savoir plus sur les cartes de contenu &#x200B;](../../content-card/create-content-card.md)
+   * Gérez les ressources avec l’intégration **Adobe Experience Manager Assets**. [En savoir plus sur les ressources &#x200B;](../../integrations/assets.md)
 
    ![](../assets/perso_ee2.png)
 
@@ -68,7 +68,7 @@ Pour commencer à créer des expériences, procédez comme suit :
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours ](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours ](../../building-journeys/jo-use-cases.md). Comprenez [ critères d’entrée/sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler le flux du profil.
+   Découvrez comment [concevoir et exécuter des parcours &#x200B;](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours &#x200B;](../../building-journeys/jo-use-cases.md). Comprenez [&#x200B; critères d’entrée/sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler le flux du profil.
 
 1. **Lancer des campagnes orchestrées**. Concevez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
 
@@ -79,16 +79,16 @@ Pour commencer à créer des expériences, procédez comme suit :
    * Planifiez des campagnes pour qu’elles s’exécutent immédiatement, à des heures spécifiques ou selon des planifications récurrentes (quotidiennes, hebdomadaires, mensuelles).
    * Traiter les audiences en **mode batch** où tous les profils progressent ensemble tout au long du workflow
 
-   Découvrez comment [commencer avec les campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md) et quand [utiliser les campagnes plutôt que les parcours ](../../orchestrated/orchestrated-campaigns-faq.md).
+   Découvrez comment [commencer avec les campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md) et quand [utiliser les campagnes plutôt que les parcours &#x200B;](../../orchestrated/orchestrated-campaigns-faq.md).
 
 1. **Surveiller et optimiser**. Suivez les performances et améliorez les résultats au fil du temps :
    * Surveillez **parcours en direct** les performances et identifiez les goulots d’étranglement
    * Analyse **diffusion des messages** taux et mesures d’engagement
    * Utilisation de **tableaux de bord de rapports** avec l’intégration de Customer Journey Analytics
    * Suivi **conversion** et de l’impact commercial
-   * Gérez la **fréquence et hiérarchisation des messages** avec des règles de gestion des conflits pour éviter la surcommunication. [En savoir plus sur la gestion des conflits ](../../conflict-prioritization/gs-conflict-prioritization.md)
+   * Gérez la **fréquence et hiérarchisation des messages** avec des règles de gestion des conflits pour éviter la surcommunication. [En savoir plus sur la gestion des conflits &#x200B;](../../conflict-prioritization/gs-conflict-prioritization.md)
 
-   Découvrez comment [ surveiller les performances ](../../reports/report-gs-cja.md).
+   Découvrez comment [&#x200B; surveiller les performances &#x200B;](../../reports/report-gs-cja.md).
 
 ## Bonnes pratiques pour réussir
 
@@ -161,7 +161,7 @@ Apprenez à partir d’exemples pratiques qui démontrent les fonctionnalités d
 * [Messagerie multicanal](../../building-journeys/journeys-uc.md) : combinez e-mail et notification push avec des événements de réaction
 * [E-mails réservés à la semaine](../../building-journeys/weekday-email-uc.md) : planifier des communications à l’aide de conditions temporelles
 
-Parcourez l’ensemble de la bibliothèque de cas d’utilisation de [parcours ](../../building-journeys/jo-use-cases.md) et découvrez [Campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md).
+Parcourez l’ensemble de la bibliothèque de cas d’utilisation de [parcours &#x200B;](../../building-journeys/jo-use-cases.md) et découvrez [Campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Collaboration entre les rôles
 
