@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 97%
+source-wordcount: '1943'
+ht-degree: 95%
 
 ---
 
@@ -56,6 +56,7 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 * **Fenêtre de date active** : assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement. En savoir plus sur la résolution de ce problème [sur cette page](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Événements de réaction** : pour les événements de réaction avec une temporisation, le temps d’attente minimum et par défaut est de 40 secondes.
 * **Jeux de données de test** : les événements déclenchés en mode test sont stockés dans des jeux de données dédiés libellés comme suit : `JOtestmode - <schema of your event>`
+* **Infrastructure partagée** - Le mode test s’exécute sur la même infrastructure que la production. Pendant les périodes de trafic élevé, vous pouvez remarquer des retards dans les envois d’e-mails ou le traitement des événements. Dans ce cas, vérifiez les tableaux de bord de trafic de la plateforme ou réessayez vos tests en dehors des heures de pointe.
 
 <!--
 * Fields from related entities are hidden from the test mode.
