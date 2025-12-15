@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le 
 Les **campagnes d’action** également appelées campagnes planifiées, permettent d’envoyer facilement des communications ponctuelles par lots.
 
 * **Planifiées - Marketing** - Pour les cas d’utilisation marketing tels que les offres promotionnelles, les campagnes d’engagement, les annonces, les notifications juridiques ou les mises à jour de politiques. Les destinataires doivent être inscrits.
-* **Planifiées - Transactionnelles** - Contrairement aux campagnes marketing, les campagnes transactionnelles ne nécessitent pas que les destinataires soient inscrits. Utilisez cette catégorie pour les communications liées aux interruptions, aux urgences et aux annulations. Canaux pris en charge : e-mail, SMS, notifications push.
+* **Planifiées - Transactionnelles** - Contrairement aux campagnes marketing, les campagnes transactionnelles ne nécessitent pas que les destinataires soient inscrits. Utilisez cette catégorie pour les communications liées aux perturbations, aux urgences et aux annulations. Canaux pris en charge : e-mail, SMS, notifications push.
 
 ➡️ [Découvrez comment utiliser les campagnesd’action.](create-campaign.md)
 

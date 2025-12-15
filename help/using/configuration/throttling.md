@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Cette section fournit des informations générales sur l’utilisation de l’AP
 
 ## À lire absolument
 
-* **Une configuration par organisation :** une seule configuration est actuellement autorisée par organisation. Une configuration doit être définie sur un sandbox de production (indiqué par `x-sandbox-name` dans les en-têtes).
+* **Une configuration par organisation :** une seule configuration est actuellement autorisée par organisation. Une configuration doit être définie sur un sandbox de production (indiqué par `x-sandbox-name` dans les en-têtes).
 * **Application au niveau de l’organisation :** une configuration s’applique au niveau de l’organisation.
 * **Gestion de la limite de l’API :** lorsque la limite définie dans l’API est atteinte, les événements suivants sont mis en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
 * Paramètre **`maxHttpConnections` :** le paramètre `maxHttpConnections` est un paramètre facultatif disponible dans l’API Capping uniquement pour vous permettre de limiter le nombre de connexions que Journey Optimizer ouvrira au système externe. [En savoir plus l’utilisation de l’API Capping](../configuration/capping.md)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: message, fréquence, règles, pression
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -187,4 +187,4 @@ Une fois vos campagnes ou votre parcours activés et exécutés, vous pouvez vis
 
 Découvrez comment utiliser la fonctionnalité des heures creuses dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475854?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

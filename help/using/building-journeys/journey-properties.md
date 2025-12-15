@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '2849'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer utilise des politiques de fusion lors de la récupéra
 * Dans les parcours d’événements unitaires : la politique de fusion par défaut est utilisée.
 * Dans les parcours d’événements métier : la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée.
 
-Adobe Journey Optimizer applique la politique de fusion utilisée tout au long du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions [`inAudience`](functions/functioninaudience.md)), ce qui crée des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
+Adobe Journey Optimizer applique la politique de fusion utilisée tout au long du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions [`inAudience`](functions/functioninaudience.md)), ce qui crée des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, aucune alerte n’est déclenchée, malgré l’incohérence. Pour cette raison, il est vivement recommandé de vérifier la politique de fusion associée à votre audience, lorsque cette audience est utilisée dans la personnalisation des messages.
 
 Pour en savoir plus sur les politiques de fusion, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
@@ -275,7 +275,7 @@ Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent pl
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation complets avec des configurations d’entrée et de sortie, des bonnes pratiques et des stratégies d’optimisation.
+>Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation complets avec des configurations d’entrée et de sortie, des bonnes pratiques et des stratégies d’optimisation.
 
 **Exemple de cas d’utilisation**
 
@@ -338,9 +338,9 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 ### Rubriques connexes {#exit-criteria-related}
 
-* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
 * [Gestion des entrées de profil](entry-management.md) - Configurer la manière dont les profils entrent dans les parcours
-* [Comment se terminent les parcours &#x200B;](end-journey.md) - Comprendre la complétion naturelle du parcours
+* [Comment se terminent les parcours ](end-journey.md) - Comprendre la complétion naturelle du parcours
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) - Utiliser des critères de sortie lors de la suspension des parcours
 
 ## Planning du parcours {#schedule}

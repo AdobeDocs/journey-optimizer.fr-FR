@@ -8,10 +8,10 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: politiques, gouvernance, plateforme, consentement, healthcare shield
-source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Dans un écosystème moderne d’automatisation du marketing, les marques interagissent avec la clientèle via différents points de contact, au risque de communiquer de façon non pertinente ou excessive, entraînant ainsi un désengagement, des plaintes pour spam et des risques de non-conformité. C’est pourquoi elles doivent gérer les préférences de leur clientèle afin d’obtenir des informations en temps réel sur leur audience et de diffuser une communication personnalisée et respectueuse.
 
-Avec [!DNL Adobe Journey Optimizer], en utilisant des [politiques de consentement](consent.md), vous pouvez respecter les préférences de votre clientèle<!-- in terms of **channels** and **topics**-->. Ainsi, [!DNL Journey Optimizer] ne cible que la clientèle en fonction de ses choix<!-- their preferred channels and on the subscription topics--> tout en respectant son consentement.
+Avec [!DNL Adobe Journey Optimizer], en utilisant des [politiques de consentement](consent.md), vous pouvez respecter les préférences de vos clients<!-- in terms of **channels** and **topics**-->. Ainsi, [!DNL Journey Optimizer] ne cible que la clientèle en fonction de ses choix<!-- their preferred channels and on the subscription topics--> tout en respectant son consentement.
 
 Pour gérer les préférences des utilisateurs et utilisatrices avec [!DNL Journey Optimizer], vous pouvez :
 
@@ -39,7 +39,7 @@ Pour gérer les préférences des utilisateurs et utilisatrices avec [!DNL Journ
 >
 >Le consentement prévaut sur les préférences. Par exemple, une personne a indiqué que son canal préféré est l’e-mail et qu’elle a accepté de recevoir des newsletters<!-- they are interested in yoga-->. Toutefois, si elle s’est opposée à toute communication de votre part, elle ne peut pas être ciblée par un e-mail que vous envoyez<!-- on yoga-->.
 
-## Enregistrer et respecter les préférences {#manage-preferences}
+## Enregistrer et honorer les préférences {#manage-preferences}
 
 Grâce aux politiques de consentement dans [!DNL Journey Optimizer], vous pouvez gérer les préférences de votre clientèle de manière centralisée. Vous pouvez ainsi vous assurer de cibler uniquement la clientèle en fonction des sujets qu’elle a sélectionnés, tout en respectant ses choix de consentement. Pour ce faire, suivez les étapes ci-après.
 

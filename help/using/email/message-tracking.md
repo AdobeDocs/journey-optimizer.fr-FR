@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ La période de conservation d’une page miroir est de **90 jours**. Une fois c
 
 >[!CAUTION]
 >
->* Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées et chiffrées nécessaires pour générer l’e-mail original. Par conséquent, l’utilisation d’attributs personnalisés dotés de valeurs élevées peut générer des URL de pages miroir longues et empêcher le fonctionnement du lien dans les navigateurs web appliquant une longueur maximale d’URL.
+>* Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées et chiffrées nécessaires pour générer l’e-mail original. Par conséquent, l’utilisation d’attributs personnalisés dotés de valeurs élevées peut générer de longues URL de pages miroir. Cela peut empêcher le lien de fonctionner dans les navigateurs web qui imposent des limites de longueur d’URL.
 >
 >* Lors de la création d’e-mails qui reposent fortement sur la personnalisation d’exécution (par exemple, les boucles `#each`, les objets imbriqués, les données de payload volumineuses), les URL de page miroir peuvent devenir trop volumineuses, en particulier dans les campagnes déclenchées par API qui utilisent des données contextuelles volumineuses provenant des payloads. Cela peut entraîner des erreurs HTTP (404, 422, 502) dans les navigateurs ou les clients de messagerie. Adobe recommande de limiter la largeur et la profondeur des champs dynamiques, de réduire la dépendance à l’égard de fragments complexes et de simplifier les structures de personnalisation pour éviter les échecs de lien.
 >

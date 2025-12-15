@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 52021f85658fe37e5cd9b66e4e764ccc1c790b38
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '2730'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -299,7 +299,7 @@ Une exécution peut avoir les statuts suivants :
 * **[!UICONTROL Brouillon]** : chaque fois qu’une exécution est créée, soit lors de la [création d’un plan](ip-warmup-plan.md) ou de l’[ajout d’une exécution](#define-runs) à partir de l’interface utilisateur, son statut est **[!UICONTROL Brouillon]**.
 * **[!UICONTROL Actif]** : chaque fois que vous activez une exécution, son statut est **[!UICONTROL Actif]**. Cela signifie que le système a accepté la demande de planification de l’exécution, et non que l’envoi a commencé. À ce stade, vous pouvez observer le statut de l’exécution active en cliquant sur le bouton **[!UICONTROL Afficher le statut]** dans le tableau. Vous pouvez ainsi suivre le nombre de profils ciblés réellement qualifiés.
 * **[!UICONTROL Terminé]** : l’exécution de la campagne pour cette exécution est terminée. Vous pouvez accéder à un rapport d’exécution détaillé en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans le tableau. Cette option vous permet de suivre le statut de diffusion par e-mail de l’exécution, y compris les répartitions spécifiques aux groupes de domaines pour une surveillance améliorée. Notez que le statut « Arrêté » sera attribué à la campagne.[En savoir plus](#reports)
-* **[!UICONTROL Annulée]** : une exécution **[!UICONTROL Active]** a été annulée à l’aide du bouton **[!UICONTROL Annuler]**.[En savoir plus](#define-runs)
+* **[!UICONTROL Annulée]** : une exécution **[!UICONTROL en direct]** a été annulée à l’aide du bouton **[!UICONTROL Annuler]**.[En savoir plus](#define-runs)
 * **[!UICONTROL Échec]** : une erreur a été rencontrée par le système ou la campagne utilisée pour la phase en cours a été arrêtée, ou vous avez activé l’option **[!UICONTROL Annuler les exécutions activées en cas d’erreurs]** et une erreur s’est produite. Si une exécution échoue, vous pouvez en planifier une autre pour le jour suivant.
 
 ### Utiliser les rapports {#reports}
@@ -355,7 +355,7 @@ Prenons un exemple :
 
 * Avec le plan initial de préchauffage des adresses IP, la phase 2 comportait 9 exécutions.
 
-* 4 exécutions ont été exécutées (peu importe si elles ont échoué, ont été terminées ou annulées<!--as long as a run has been attempted, it is an executed run-->).
+* 4 exécutions ont été exécutées (peu importe si elles ont échoué, ont été terminées ou annulées<!--as long as a run has been attempted, it is an executed run-->).
 
 * Si vous rechargez un plan, la phase 2 avec les 4 premières exécutions effectuées passe en mode lecture seule.
 
