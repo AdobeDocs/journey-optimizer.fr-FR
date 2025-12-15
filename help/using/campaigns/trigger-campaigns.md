@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagne, vérification, validation, activation, activer, optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
-workflow-type: ht
-source-wordcount: '468'
-ht-degree: 100%
+source-git-commit: a5d8f10c8751d6be47f5423aea576e16590b86d6
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Une fois votre campagne activée, vous devez récupérer l’exemple de requête
 
 * **Dates de début/de fin de la campagne** : si vous avez configuré une date de début et/ou de fin spécifique lors de la création de la campagne, elle ne sera pas exécutée en dehors de ces dates et les appels API échoueront.
 
-* **Délai d’expiration de l’appel** : le délai d’expiration de l’appel de l’API REST Interactive Message Execution est de 60 secondes. Cependant, de nouvelles tentatives internes d’appel sont implémentées en cas de délais dépassés inattendus pour garantir la diffusion.
+* **Délai d’expiration de l’appel** : le délai d’expiration de l’appel de l’API REST Interactive Message Execution est de 60 secondes. Cependant, de nouvelles tentatives internes d’appel sont implémentées en cas de temporisations inattendues pour garantir la diffusion.
 
 ## Déclencher la campagne {#trigger}
 
@@ -42,6 +42,10 @@ Une fois votre campagne activée, vous devez récupérer l’exemple de requête
    Des exemples d’appels API sont également disponibles sur [cette page](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
 ## Résolution des problèmes {#troubleshooting}
+
+### Retards de diffusion des e-mails {#delivery-delays}
+
+Si les délais de diffusion des e-mails dépassent les attentes, recherchez les pannes potentielles ou les problèmes de performances avec les services externes, tels que les fournisseurs d&#39;infrastructure cloud ou les fournisseurs de messagerie électronique. Journey Optimizer enregistre les horodatages de départ des messages, ce qui peut aider à déterminer si des retards se sont produits en aval dans le pipeline de diffusion.
 
 ### Erreurs d’authentification Azure Cosmos DB (erreur de serveur interne 500) {#cosmosdb-auth-errors}
 
