@@ -111,7 +111,7 @@ Supposons que vous souhaitiez cibler votre clientèle par le biais de parcours e
     
     * si **[!UICONTROL Action marketing]** est égal à **[!UICONTROL E-mail]**
     
-    * alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à ****
+    * alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à **&#x200B;**
     
      ![](assets/consent-policy-email-newsletter.png){width=80%}
     
