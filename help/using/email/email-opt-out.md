@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 94%
+source-wordcount: '1117'
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ Pour insérer un lien de désinscription dans le contenu de votre e-mail, vous p
 
 Lorsqu’une personne destinataire clique sur le lien de désinscription (opt-out), sa demande de désabonnement est traitée.
 
-Pour vérifier que le choix du profil correspondant a été mis à jour, rendez-vous sur Experience Platform et [accédez à ce profil](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Dans l’onglet [&#x200B; Attributs &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, la valeur de **[!UICONTROL choice]** a été remplacée par **[!UICONTROL no]**. Pour en savoir plus sur le traitement du consentement, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=fr){target="_blank"}.
+Pour vérifier que le choix du profil correspondant a été mis à jour, rendez-vous sur Experience Platform et [accédez à ce profil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Dans l’onglet [ Attributs ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, la valeur de **[!UICONTROL choice]** a été remplacée par **[!UICONTROL no]**. Pour en savoir plus sur le traitement du consentement, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=fr){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,25 +160,30 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 
-### Envoyer le message avec le lien de désinscription {#send-message-unsubscribe-link}
+### Présentation du flux de désabonnement {#send-message-unsubscribe-link}
 
-Une fois que vous avez configuré le lien de désabonnement sur votre page de destination, vous pouvez créer et envoyer votre message.
+Une fois que vous avez configuré le lien de désabonnement sur votre page de destination, vous pouvez terminer et envoyer votre message à vos abonnés.
 
-1. Configurez votre message avec un lien de désinscription et envoyez-le aux personnes abonnées.
+Pour que l’ensemble du flux d’opt-out de la page de destination se termine correctement, les événements suivants doivent se produire dans l’ordre :
 
-1. Une fois le message reçu, si la personne destinataire clique sur le lien de désinscription, votre page de destination s’affiche.
+1. **Clic** - Une fois le message reçu, le destinataire clique sur le lien de désabonnement figurant dans l’e-mail.
+
+1. **Visite** - La page de destination se charge et s’affiche pour le destinataire.
 
    ![](assets/opt-out-lp-example.png)
+
+1. **Envoyer** - Le destinataire envoie le formulaire d’opt-out en cliquant sur le bouton de désabonnement sur la page de destination.
 
    >[!WARNING]
    >
    >Cliquer sur le lien de désabonnement dans l’e-mail ouvre uniquement la page de destination. Le destinataire doit **envoyer le formulaire en cliquant sur le bouton d&#39;opt-out dans la page de destination** terminer la désinscription et mettre à jour son consentement de profil.
 
-1. Si la personne destinataire envoie le formulaire (en appuyant sur le bouton **[!UICONTROL Se désabonner]** dans votre page de destination, dans ce cas), les données de profil sont mises à jour via l’appel API.
-
-1. Le destinataire désabonné est ensuite redirigé vers un écran de message de confirmation indiquant que la désinscription a réussi.
+1. **Désabonnement** - Le système traite la demande de désabonnement. Le destinataire désabonné est redirigé vers un écran de message de confirmation indiquant que la désinscription a réussi.
 
    ![](assets/opt-out-confirmation-example.png)
 
+1. **Mise à jour du consentement** - Les données de profil sont mises à jour avec le consentement dans les attributs de profil via l’appel API, ce qui exclut le profil des futurs envois d’e-mails.
+
    Par conséquent, cet utilisateur ne recevra aucune communication de votre marque à moins d&#39;être de nouveau abonné.
 
+Cette séquence d’événements garantit que le processus de désinscription est correctement suivi et que les préférences de consentement du profil sont reflétées avec précision dans le système. Si une étape de ce flux est manquante ou ne fonctionne pas, cela peut indiquer un problème avec la mise en œuvre de l’opt-out qui doit être examiné.
