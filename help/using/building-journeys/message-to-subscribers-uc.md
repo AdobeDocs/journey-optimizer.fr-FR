@@ -27,7 +27,7 @@ Dans cet exemple, le groupe de champs **[!UICONTROL Détails du consentement et 
 
 Pour configurer ce parcours, procédez comme suit:
 
-1. Créez un parcours commençant par une activité **[!UICONTROL Lecture]**. En savoir plus dans [Création de votre premier parcours ](journey-gs.md).
+1. Créez un parcours commençant par une activité **[!UICONTROL Lecture]**. En savoir plus dans [Création de votre premier parcours &#x200B;](journey-gs.md).
 1. Ajoutez une activité d’action **[!UICONTROL E-mail]** au parcours. Découvrez comment [utiliser les actions de canal](journeys-message.md).
 1. Dans la section **[!UICONTROL Paramètres de l’e-mail]** des paramètres d’activité **[!UICONTROL E-mail]**, remplacez l’adresse e-mail par défaut (`PersonalEmail.adress`) par l’adresse e-mail des abonnés à la liste :
 
