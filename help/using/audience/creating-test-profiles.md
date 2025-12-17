@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: ht
-source-wordcount: '1082'
-ht-degree: 100%
+source-git-commit: e6395120223a0e87ef3557c9f5d7e2af84462968
+workflow-type: tm+mt
+source-wordcount: '1202'
+ht-degree: 76%
 
 ---
 
@@ -21,19 +21,13 @@ Les profils de test sont requis lors de l’utilisation du [mode test](../buildi
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] permet de tester différentes variantes de votre contenu en les prévisualisant et en envoyant des BAT à l’aide de données d’entrée d’exemple chargées depuis un fichier CSV ou JSON, ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+>[!DNL Journey Optimizer] permet de tester différentes variantes de votre contenu en les prévisualisant et en envoyant des BAT à l’aide de données d’entrée d’exemple chargées depuis un fichier CSV ou JSON, ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
-Il existe plusieurs façons de créer des profils de test. Vous trouverez sur cette page des informations détaillées pour :
-
-* Transformer un [profil existant](#turning-profile-into-test) en profil de test.
-
-* Créer des profils de test en chargeant un fichier [CSV](#create-test-profiles-csv) ou en utilisant des [appels API](#create-test-profiles-api).
-
-  Adobe Journey Optimizer propose également un [cas d’utilisation intégré au produit](#use-case-1) spécifique pour faciliter la création de profils de test.
+Vous pouvez créer des profils de test en [téléchargeant un fichier CSV](#create-test-profiles-csv) ou en utilisant des [appels d’API](#create-test-profiles-api). [!DNL Adobe Journey Optimizer] fournit également un [cas d’utilisation interne au produit](#use-case-1) spécifique pour faciliter la création de profils de test.
 
 Vous pouvez charger un fichier JSON dans un jeu de données existant. Pour plus d’informations, consultez la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target="_blank"}.
 
-Veuillez noter que la création d&#39;un profil de test est similaire à la création de profils classiques dans Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
+Notez que la création d’un profil de test est similaire à la création de profils standard dans [!DNL Adobe Experience Platform]. Pour plus d&#39;informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
 ➡️ [Découvrez comment créer des profils de test dans cette vidéo.](#video)
 
@@ -45,27 +39,30 @@ Pour créer des profils, vous devez d’abord créer un schéma et un jeu de don
 
 Pour **créer un schéma**, procédez comme suit :
 
-1. Dans la section du menu Gestion des données, cliquez sur **[!UICONTROL Schémas]**.
-   ![](assets/test-profiles-0.png)
-1. Cliquez sur **[!UICONTROL Créer un schéma]**, dans le coin supérieur droit, sélectionnez un type de schéma, par exemple **Profil individuel** et cliquez sur **Suivant**.
-   ![](assets/test-profiles-1.png)
+1. Dans la section du menu DATA MANAGEMENT, cliquez sur **[!UICONTROL Schémas]** et sélectionnez le bouton **[!UICONTROL Créer un schéma]**.
+
+   ![Menu Schémas avec le bouton Créer un schéma](assets/test-profiles-0.png)
+
+1. Sélectionnez **[!UICONTROL Standard]** comme option de création de schéma.
+1. Sélectionnez un type de schéma, par exemple **Profil individuel**, puis cliquez sur **Suivant**.
+   ![Sélection du type de schéma affichant l’option Profil individuel](assets/test-profiles-1.png)
 1. Saisissez le nom de votre schéma, puis cliquez sur **Terminer**.
-   ![](assets/test-profiles-1-bis.png)
+   ![ Boîte de dialogue Nommer et enregistrer le schéma ](assets/test-profiles-1-bis.png)
 1. Dans la section **Groupes de champs**, à gauche, cliquez sur **Ajouter** et sélectionnez les groupe de champs appropriés. Veillez à ajouter le groupe de champs **Détails du profil de test**.
-   ![](assets/test-profiles-1-ter.png)
-Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes de champs]** : la liste des groupes de champs s&#39;affiche dans l&#39;écran aperçu du schéma.
-   ![](assets/test-profiles-2.png)
+   ![Section Groupes de champs avec bouton Ajouter](assets/test-profiles-1-ter.png)
+Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes de champs]** : la liste des groupes de champs s&#39;affiche dans l&#39;écran aperçu du schéma .
+   ![Présentation du schéma avec la liste des groupes de champs](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
    >Cliquez sur le nom du schéma pour mettre à jour ses propriétés.
 
 1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme identité principale.
-   ![](assets/test-profiles-3.png)
+   ![Liste des champs de schéma pour la sélection de l’identité principale](assets/test-profiles-3.png)
 1. Dans le volet de droite **[!UICONTROL Propriétés du champ]**, vérifiez les options **[!UICONTROL Identité]** et **[!UICONTROL Identité principale]**, puis sélectionnez un espace de noms. Si vous souhaitez que l&#39;identité principale soit une adresse e-mail, choisissez l&#39;espace de noms **[!UICONTROL E-mail]**. Cliquez sur **[!UICONTROL Appliquer]**.
-   ![](assets/test-profiles-4bis.png)
+   ![Panneau Propriétés du champ avec les options Identité et Identité du Principal ](assets/test-profiles-4bis.png)
 1. Sélectionnez le schéma et activez l&#39;option **[!UICONTROL Profil]** dans le volet **[!UICONTROL Propriétés du schéma]**.
-   ![](assets/test-profiles-5.png)
+   ![Volet Propriétés du schéma avec l’option Profil activée](assets/test-profiles-5.png)
 1. Cliquez sur **Enregistrer**.
 
 >[!NOTE]
@@ -77,15 +74,15 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
 Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez comme suit :
 
 1. Accédez à **[!UICONTROL Jeux de données]**, puis cliquez sur **[!UICONTROL Créer un jeu de données]**.
-   ![](assets/test-profiles-6.png)
+   ![Menu Jeux de données avec le bouton Créer un jeu de données](assets/test-profiles-6.png)
 1. Choisissez **[!UICONTROL Créer un jeu de données à partir d&#39;un schéma]**.
-   ![](assets/test-profiles-7.png)
+   ![Option Créer un jeu de données à partir d’un schéma](assets/test-profiles-7.png)
 1. Sélectionnez le schéma créé précédemment, puis cliquez sur **[!UICONTROL Suivant]**.
-   ![](assets/test-profiles-8.png)
+   ![Écran de sélection des schémas pour la création de jeux de données](assets/test-profiles-8.png)
 1. Choisissez un nom, puis cliquez sur **[!UICONTROL Terminer]**.
-   ![](assets/test-profiles-9.png)
+   ![ Boîte de dialogue Nommer et terminer le jeu de données ](assets/test-profiles-9.png)
 1. Activez l&#39;option **[!UICONTROL Profil]**.
-   ![](assets/test-profiles-10.png)
+   ![Paramètres du jeu de données avec l’option Profil activée](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -93,9 +90,9 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 
 ## Cas d’utilisation interne au produit{#use-case-1}
 
-Depuis la page d’accueil d&#39;Adobe Journey Optimizer, vous pouvez exploiter le cas d’utilisation interne au produit des profils de test. Ce cas pratique facilite la création de profils de test utilisés pour les parcours de test avant la publication.
+Depuis [!DNL Adobe Journey Optimizer] page d’accueil, vous pouvez exploiter le cas d’utilisation interne au produit des profils de test. Ce cas pratique facilite la création de profils de test utilisés pour les parcours de test avant la publication.
 
-![](assets/use-cases-home.png)
+![Carte de cas d’utilisation des profils de test sur la page d’accueil](assets/use-cases-home.png)
 
 Cliquez sur le bouton **[!UICONTROL Commencer]** pour lancer le cas d’utilisation.
 
@@ -114,7 +111,6 @@ Les informations affichées sont requises :
    1. **Genre** : genre du profil de test. Les valeurs disponibles sont **homme**, **femme** et **non_spécifié**
 
 Après avoir sélectionné l’espace de noms d’identité et fourni le fichier CSV au format ci-dessus, cliquez sur le bouton **[!UICONTROL Exécuter]** en haut à droite. Le cas d’utilisation peut prendre quelques minutes. Lorsque le cas d’utilisation a terminé le traitement et la création des profils de test, une notification est envoyée à l’utilisateur.
-
 >[!NOTE]
 >
 >Les profils de test peuvent remplacer les profils existants. Avant d’exécuter le cas d’utilisation, assurez-vous que le fichier CSV contient uniquement des profils de test et qu’il est exécuté sur le bon sandbox.
@@ -160,41 +156,38 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 ## Création d&#39;un profil de test à l&#39;aide d&#39;un fichier CSV{#create-test-profiles-csv}
 
-Dans Adobe Experience Platform, vous pouvez créer des profils en téléchargeant un fichier CSV contenant les différents champs de profil dans votre jeu de données. Cette méthode est la plus simple.
+Dans [!DNL Adobe Experience Platform], vous pouvez créer des profils en chargeant un fichier csv contenant les différents champs de profil dans votre jeu de données. Cette méthode est la plus simple.
 
 1. Créez un fichier CSV simple à l&#39;aide d&#39;un tableur.
-1. Ajoutez une colonne pour chaque champ nécessaire. Assurez-vous d&#39;ajouter le champ de l&#39;identité principale (« personID » dans l&#39;exemple ci-dessus) et le champ « testProfile » défini sur « true ».
-   ![](assets/test-profiles-11.png)
+1. Ajoutez une colonne pour chaque champ obligatoire. Assurez-vous d&#39;ajouter le champ de l&#39;identité principale (« personID » dans l&#39;exemple ci-dessus) et le champ « testProfile » défini sur « true ».
+   ![Fichier CSV avec en-têtes de colonne incluant personID et testProfile](assets/test-profiles-11.png)
 1. Ajoutez une ligne par profil et remplissez les valeurs de chaque champ.
-   ![](assets/test-profiles-12.png)
+   ![Fichier CSV avec des exemples de données de profil de test](assets/test-profiles-12.png)
 1. Enregistrez la feuille de calcul au format CSV. Assurez-vous que les virgules sont utilisées comme séparateurs.
-1. Accédez aux **workflows** d&#39; Adobe Experience Platform.
-   ![](assets/test-profiles-14.png)
+1. Accédez à [!DNL Adobe Experience Platform] **Workflows**.
+   ![Menu Workflows dans Adobe Experience Platform](assets/test-profiles-14.png)
 1. Sélectionnez **Mapper un CSV à un schéma XDM**, puis cliquez sur **Lancer**.
-   ![](assets/test-profiles-16.png)
+   ![Option de workflow Mapper CSV à un schéma XDM](assets/test-profiles-16.png)
 1. Sélectionnez le jeu de données dans lequel vous souhaitez importer les profils. Cliquez sur **Suivant**.
-   ![](assets/test-profiles-17.png)
+   ![Écran de sélection des jeux de données pour l’importation d’un fichier CSV](assets/test-profiles-17.png)
 1. Cliquez sur **Choisir les fichiers** et sélectionnez votre fichier CSV. Une fois le fichier téléchargé, cliquez sur **Suivant**.
-   ![](assets/test-profiles-18.png)
+   ![Écran de chargement de fichier avec le bouton Choisir les fichiers](assets/test-profiles-18.png)
 1. Mappez les champs CSV source aux champs du schéma, puis cliquez sur **Terminer**.
-   ![](assets/test-profiles-19.png)
+   ![Interface de mappage des champs CSV affichant les champs source et cible](assets/test-profiles-19.png)
 1. L&#39;import de données démarre. Le statut passe de **Traitement** à **Succès**. Cliquez sur **Aperçu du jeu de données**, dans le coin supérieur droit.
-   ![](assets/test-profiles-20.png)
+   ![Statut de l’importation affichant la réussite avec le bouton Prévisualiser le jeu de données](assets/test-profiles-20.png)
 1. Vérifiez que les profils de test ont été correctement ajoutés.
-   ![](assets/test-profiles-21.png)
+   ![Aperçu du jeu de données affichant les profils de test importés](assets/test-profiles-21.png)
 
 Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du test d&#39;un parcours. Reportez-vous à [cette section](../building-journeys/testing-the-journey.md).
-
 
 >[!NOTE]
 >
 >Pour plus d&#39;informations sur les imports de fichiers CSV, consultez la [documentation sur l&#39;ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr#tutorials){target="_blank"}.
->
-
 
 ## Création de profils de test à l&#39;aide d&#39;appels d&#39;API{#create-test-profiles-api}
 
-Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
+Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. En savoir plus dans la [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
 Vous devez utiliser un schéma de profil contenant le groupe de champs « Détails du test de profil ». L&#39;indicateur testProfile fait partie de ce groupe de champs.
 Lors de la création d&#39;un profil, veillez à transmettre la valeur : testProfile = true.
@@ -203,7 +196,7 @@ Veuillez noter que vous pouvez également mettre à jour un profil existant pour
 
 Voici un exemple d&#39;appel API pour créer un profil de test :
 
-```
+```bash
 curl -X POST \
 'https://dcs.adobedc.net/collection/xxxxxxxxxxxxxx' \
 -H 'Cache-Control: no-cache' \
@@ -249,4 +242,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416331?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
