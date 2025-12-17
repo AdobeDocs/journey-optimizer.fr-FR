@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
 workflow-type: tm+mt
-source-wordcount: '3015'
-ht-degree: 97%
+source-wordcount: '3024'
+ht-degree: 96%
 
 ---
 
@@ -628,6 +628,11 @@ ht-degree: 97%
             + [Rechercher des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [Liste des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [Mettre à jour des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + Emplacements {#placements}
+            + [Créer des emplacements](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [Liste des emplacements](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [Rechercher des emplacements](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [Mise à jour des emplacements](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Gérer les éléments de décision {#manage-decision-items}
          + [Gérer les éléments de décision](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
@@ -921,7 +926,7 @@ ht-degree: 97%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
