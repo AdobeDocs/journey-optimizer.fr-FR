@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: e292d584e3c3d1997c2c3e6bb3675758ff530bf9
+source-git-commit: 92690f1b3f73c75d9b81746b49836a24ebf7c457
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 50%
+source-wordcount: '1510'
+ht-degree: 37%
 
 ---
 
@@ -30,17 +30,19 @@ Pour en savoir plus sur les fragments de contenu AEM, voir [Utilisation des frag
 
 Notez les restrictions suivantes lorsque vous utilisez des fragments de contenu Adobe Experience Manager dans Journey Optimizer :
 
-* **Types de fragment de contenu** : seuls les fragments de contenu simples sont pris en charge. Les variations et les fragments imbriqués ne sont actuellement pas pris en charge.
+* **Types de fragments de contenu** : les fragments de contenu simples et les fragments de contenu imbriqués sont pris en charge. Les variations de fragment de contenu ne sont actuellement pas prises en charge.
 
-* **Contenu multilingue** : Seul le flux manuel est pris en charge.
+* **Contenu multilingue** : Seul le flux manuel est pris en charge. Chaque variante de langue doit être créée indépendamment dans Adobe Experience Manager, balisée, publiée et sélectionnée manuellement dans Journey Optimizer. Il n’existe aucun mécanisme automatique de résolution linguistique ou de secours.
+
+* **Accès au référentiel** : Journey Optimizer s’intègre exclusivement au niveau Publication Adobe Experience Manager, où les fragments de contenu sont disponibles via un point d’entrée public non authentifié. Bien que les référentiels de création puissent apparaître dans le sélecteur de référentiel, seuls les fragments de contenu publiés au niveau Publication peuvent être utilisés dans Journey Optimizer.
+
+* **Statut du fragment de contenu** : Journey Optimizer affiche les fragments de contenu avec le statut **Publié** et **Modifié**. Dans tous les cas, seule la dernière version publiée est utilisée. Si un fragment est modifié après publication, ces modifications ne sont pas répercutées dans Journey Optimizer tant que le fragment de contenu n’est pas republié dans Adobe Experience Manager. Il n’existe pas de réconciliation de version automatique entre Adobe Experience Manager et Journey Optimizer.
 
 * **Personalization** : seuls les attributs de profil, les attributs contextuels, les chaînes statiques et les variables prédéclarées sont pris en charge. Les attributs dérivés ou calculés ne sont pas pris en charge.
 
-* **Mises à jour et contrôle de version** : les mises à jour de fragments de contenu nécessitent une republication manuelle depuis Adobe Experience Manager. Il n’existe pas de réconciliation de version automatique entre Adobe Experience Manager et Journey Optimizer.
+* **Mises à jour et contrôle de version** : les mises à jour de fragments de contenu nécessitent une republication manuelle depuis Adobe Experience Manager. Il n’existe pas de réconciliation de version automatique entre Adobe Experience Manager et Journey Optimizer. Lorsqu’un fragment de contenu est publié dans Adobe Experience Manager, Journey Optimizer reçoit un événement et des mises à jour du côté Journey Optimizer. En cas de réussite, la mise à jour sera disponible au bout de 5 minutes pour les Parcours unitaires et dans le lot suivant pour les cas d’utilisation par lots.
 
-* **Mise en cache** : Journey Optimizer récupère les fragments de contenu en temps réel à partir de la publication Adobe Experience Manager. Il n’existe aucune mise en cache de pré-rendu.
-
-* **Relecture** : la relecture des campagnes et parcours publiés reflète les données de la dernière publication de fragment de contenu Experience Manager. Il n’existe aucun verrou de version historique.
+* **Mise en cache et relecture** : les fragments de contenu sont récupérés en temps réel à partir du niveau Publication Adobe Experience Manager. Il n’existe aucune mise en cache de prérendu ou d’instantané. Les épreuves des campagnes et des parcours reflètent toujours la version publiée la plus récemment du fragment de contenu et les versions historiques ne peuvent pas être verrouillées pour la relecture.
 
 * **Accès utilisateur** : il est recommandé de limiter le nombre d’utilisateurs ayant accès à la publication de fragments de contenu afin de réduire le risque d’erreurs accidentelles.
 
@@ -48,15 +50,29 @@ Notez les restrictions suivantes lorsque vous utilisez des fragments de contenu 
 
 L’intégration entre Adobe Experience Manager et Journey Optimizer suit ce flux de données :
 
-1. **[Créer et créer](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)** : le contenu est créé et configuré dans Adobe Experience Manager en tant que fragments de contenu.
+1. **[Créer et créer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)** : le contenu est créé et configuré dans Adobe Experience Manager en tant que fragments de contenu.
 
-1. **[Balisage](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)** : les fragments de contenu doivent être balisés avec la balise spécifique à Journey Optimizer (`ajo-enabled:{OrgId}/{SandboxName}`).
+1. **[Balisage](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)** : les fragments de contenu doivent être balisés avec la balise spécifique à Journey Optimizer (`ajo-enabled:{OrgId}/{SandboxName}`).
 
-1. **[Publication](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)** : les fragments de contenu sont publiés dans Adobe Experience Manager, ce qui les rend disponibles pour Journey Optimizer.
+1. **[Publication](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)** : les fragments de contenu sont publiés dans Adobe Experience Manager, ce qui les rend disponibles pour Journey Optimizer.
 
 1. **[Accès](#aem-add)** : Journey Optimizer récupère et affiche les fragments de contenu disponibles à partir de l’instance de publication Adobe Experience Manager en temps réel.
 
 1. **[Intégration](#aem-add)** : les fragments de contenu sont sélectionnés et intégrés dans les campagnes ou les parcours.
+
+Lorsqu’un fragment de contenu est publié dans Adobe Experience Manager, un événement est envoyé pour mettre à jour le contenu côté Journey Optimizer. Si la mise à jour est réussie, le fragment de contenu est disponible dans les 5 minutes environ pour les parcours unitaires et dans le lot de traitement suivant pour les cas d’utilisation par lots. Une fois que la mise à jour est disponible dans Journey Optimizer, le contenu publié le plus récent est utilisé dans toutes les campagnes et tous les parcours applicables.
+
+### Cycle de vie du fragment de contenu
+
+![](assets/do-not-localize/AEM_CF.png)
+
+Les fragments de contenu suivent différentes étapes du cycle de vie en fonction du niveau Adobe Experience Manager dans lequel ils existent. [En savoir plus dans la documentation de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+
+Le contenu est créé et géré au **niveau Auteur**, où les fragments peuvent avoir des statuts tels que Nouveau, Brouillon, Publié, Modifié ou Dépublié. Ces statuts s’appliquent uniquement au **niveau Auteur** et prennent en charge la création et la révision de contenu.
+
+Lorsqu’un fragment de contenu est publié, une copie est créée au **niveau Publication** et exposée via un point d’entrée public non authentifié. Journey Optimizer s’intègre exclusivement à ce **niveau Publication**.
+
+Par conséquent, Journey Optimizer n’affiche que les fragments de contenu publiés ou modifiés et utilise toujours la dernière version publiée. Les modifications apportées après la publication ne sont pas répercutées dans Journey Optimizer tant que le fragment de contenu n’a pas été republié.
 
 ## Créer et affecter une balise dans Experience Manager
 
