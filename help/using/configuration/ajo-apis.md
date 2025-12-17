@@ -37,13 +37,13 @@ Adobe Journey Optimizer est conçu de manière native sur Adobe Experience P
 
 Avant d’utiliser les API Journey Optimizer, vous devez configurer l’authentification pour accéder aux points d’entrée de l’API.
 
-Suivez le [ guide d’authentification ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} pour rassembler les informations d’authentification requises pour toutes les API Journey Optimizer.
+Suivez le [&#x200B; guide d’authentification &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} pour rassembler les informations d’authentification requises pour toutes les API Journey Optimizer.
 
 ## Documentation des API {#api-documentation}
 
 La documentation complète de l’API Adobe Journey Optimizer comprend des informations détaillées sur tous les points d’entrée, formats de requête/réponse et fonctionnalités de test interactif disponibles.
 
-Accédez à la documentation de l’API Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} et parcourez le menu **Références de l’API** pour explorer toutes les API disponibles.
+Accédez à la documentation de l’API Adobe Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} et parcourez le menu **Références de l’API** pour explorer toutes les API disponibles.
 
 ## API Decision Management {#decision-management-apis}
 
