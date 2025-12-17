@@ -47,7 +47,7 @@ Pour **créer un schéma**, procédez comme suit :
 1. Sélectionnez un type de schéma, par exemple **Profil individuel**, puis cliquez sur **Suivant**.
    ![Sélection du type de schéma affichant l’option Profil individuel](assets/test-profiles-1.png)
 1. Saisissez le nom de votre schéma, puis cliquez sur **Terminer**.
-   ![ Boîte de dialogue Nommer et enregistrer le schéma ](assets/test-profiles-1-bis.png)
+   ![&#x200B; Boîte de dialogue Nommer et enregistrer le schéma &#x200B;](assets/test-profiles-1-bis.png)
 1. Dans la section **Groupes de champs**, à gauche, cliquez sur **Ajouter** et sélectionnez les groupe de champs appropriés. Veillez à ajouter le groupe de champs **Détails du profil de test**.
    ![Section Groupes de champs avec bouton Ajouter](assets/test-profiles-1-ter.png)
 Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes de champs]** : la liste des groupes de champs s&#39;affiche dans l&#39;écran aperçu du schéma .
@@ -60,7 +60,7 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
 1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme identité principale.
    ![Liste des champs de schéma pour la sélection de l’identité principale](assets/test-profiles-3.png)
 1. Dans le volet de droite **[!UICONTROL Propriétés du champ]**, vérifiez les options **[!UICONTROL Identité]** et **[!UICONTROL Identité principale]**, puis sélectionnez un espace de noms. Si vous souhaitez que l&#39;identité principale soit une adresse e-mail, choisissez l&#39;espace de noms **[!UICONTROL E-mail]**. Cliquez sur **[!UICONTROL Appliquer]**.
-   ![Panneau Propriétés du champ avec les options Identité et Identité du Principal ](assets/test-profiles-4bis.png)
+   ![Panneau Propriétés du champ avec les options Identité et Identité du Principal &#x200B;](assets/test-profiles-4bis.png)
 1. Sélectionnez le schéma et activez l&#39;option **[!UICONTROL Profil]** dans le volet **[!UICONTROL Propriétés du schéma]**.
    ![Volet Propriétés du schéma avec l’option Profil activée](assets/test-profiles-5.png)
 1. Cliquez sur **Enregistrer**.
@@ -80,7 +80,7 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 1. Sélectionnez le schéma créé précédemment, puis cliquez sur **[!UICONTROL Suivant]**.
    ![Écran de sélection des schémas pour la création de jeux de données](assets/test-profiles-8.png)
 1. Choisissez un nom, puis cliquez sur **[!UICONTROL Terminer]**.
-   ![ Boîte de dialogue Nommer et terminer le jeu de données ](assets/test-profiles-9.png)
+   ![&#x200B; Boîte de dialogue Nommer et terminer le jeu de données &#x200B;](assets/test-profiles-9.png)
 1. Activez l&#39;option **[!UICONTROL Profil]**.
    ![Paramètres du jeu de données avec l’option Profil activée](assets/test-profiles-10.png)
 
