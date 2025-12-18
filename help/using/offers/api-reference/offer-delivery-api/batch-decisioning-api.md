@@ -38,7 +38,7 @@ Pour ce faire, l&#39;organisation :
 
 * Exporte le jeu de données vers l&#39;API du fournisseur de diffusion de messages.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=fr) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
