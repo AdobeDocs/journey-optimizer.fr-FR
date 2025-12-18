@@ -7,9 +7,9 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
+source-git-commit: f0b9eb87608eb8183cf0b08926b1dee695634e11
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '529'
 ht-degree: 39%
 
 ---
@@ -37,13 +37,13 @@ Adobe Journey Optimizer est conçu de manière native sur Adobe Experience P
 
 Avant d’utiliser les API Journey Optimizer, vous devez configurer l’authentification pour accéder aux points d’entrée de l’API.
 
-Suivez le [&#x200B; guide d’authentification &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} pour rassembler les informations d’authentification requises pour toutes les API Journey Optimizer.
+Suivez le [ guide d’authentification ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} pour rassembler les informations d’authentification requises pour toutes les API Journey Optimizer.
 
 ## Documentation des API {#api-documentation}
 
 La documentation complète de l’API Adobe Journey Optimizer comprend des informations détaillées sur tous les points d’entrée, formats de requête/réponse et fonctionnalités de test interactif disponibles.
 
-Accédez à la documentation de l’API Adobe Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} et parcourez le menu **Références de l’API** pour explorer toutes les API disponibles.
+Accédez à la documentation de l’API Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} et parcourez le menu **Références de l’API** pour explorer toutes les API disponibles.
 
 ## API Decision Management {#decision-management-apis}
 
@@ -71,14 +71,14 @@ Pour en savoir plus, consultez la [référence de l’API Experience Decisioning
 **Documentation et guides des API**
 
 * [Référence API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
-* [&#x200B; Guide d’authentification &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
+* [ Guide d’authentification ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
 * [Guide de développement de l’API de gestion des décisions](../offers/api-reference/getting-started.md)
 * [Référence de l’API Experience Decisioning](../experience-decisioning/api-reference/getting-started.md)
 
 Intégration de **Journey Optimizer**
 
-* [Intégration d’Adobe Analytics](../integrations/integration-ajo-analytics.md)
-* [Intégration d’Adobe Target](../integrations/integration-ajo-target.md)
+* [Intégrations à d’autres solutions](../integrations/ajo-integrations.md)
+* [Intégration à Adobe Analytics](../event/about-analytics.md)
 * [Intégration d’Adobe Campaign](../building-journeys/using-adobe-campaign-v7-v8.md)
 
 **Ressources pour les développeurs**
