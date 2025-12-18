@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: de60569946f94921312d96acd0cd1aad73a906fe
+source-git-commit: 6cbe5d5e523f102ae340f1b33f3495fd721499d3
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
@@ -95,6 +95,7 @@ Après avoir créé et personnalisé vos fragments de contenu AEM, vous pouvez 
    ![](assets/aem_campaign_8.png)
 
 1. Sélectionnez les champs de votre **[!UICONTROL fragment]** à ajouter à votre contenu.
+
    <!--
     Note that if you choose to copy the value, any future updates to the Content Fragment will not be reflected in your campaign or journey. However, using dynamic placeholders ensures real-time updates.-->
 
