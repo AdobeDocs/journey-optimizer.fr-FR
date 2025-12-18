@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: Liste des offres personnalisées
 description: Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '279'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
 
 
 # Liste des offres personnalisées {#list-personalized-offers}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 

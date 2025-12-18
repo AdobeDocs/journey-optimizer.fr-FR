@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Suppression d’une collection
 description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
 feature: Decision Management, API, Collections
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '117'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
 # Suppression d’une collection {#delete-collection}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Il peut parfois être nécessaire de supprimer (DELETE) une collection. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant l’`id` de la collection que vous souhaitez supprimer.
 

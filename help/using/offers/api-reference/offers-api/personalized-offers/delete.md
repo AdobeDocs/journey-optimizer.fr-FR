@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Suppression d’offres personnalisées
 description: Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '116'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
 
-# Supprimer une offre personnalisée {#delete-personalized-offer}
+# Suppression d’une offre personnalisée {#delete-personalized-offer}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Il peut parfois être nécessaire de supprimer (DELETE) une offre personnalisée. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant l’identifiant de l’offre personnalisée que vous souhaitez supprimer.
 

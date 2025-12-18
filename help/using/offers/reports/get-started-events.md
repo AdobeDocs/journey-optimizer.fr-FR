@@ -10,18 +10,22 @@ role: User, Developer
 level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '295'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
 
 # Prise en main des événements de gestion des décisions {#monitor-offer-events}
 
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 Chaque fois que la gestion des décisions prend une décision pour un profil donné, les informations relatives à ces événements sont automatiquement envoyées à Adobe Experience Platform.
 
-Cela vous permet d’obtenir des informations sur vos décisions, notamment pour savoir quelle offre a été présentée à un profil donné. Vous pouvez exporter ces données pour les analyser dans votre propre système de rapports ou utiliser le [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr) d’Adobe Experience Platform en association avec d’autres outils à des fins d’analyse et de création de rapports améliorées.
+Cela vous permet d’obtenir des informations sur vos décisions, notamment pour savoir quelle offre a été présentée à un profil donné. Vous pouvez exporter ces données pour les analyser dans votre propre système de rapports ou utiliser le [service de requête](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr) Adobe Experience Platform en association avec d’autres outils à des fins d’analyse et de création de rapports améliorées.
 
 ## Informations clés disponibles dans les jeux de données {#key-information}
 

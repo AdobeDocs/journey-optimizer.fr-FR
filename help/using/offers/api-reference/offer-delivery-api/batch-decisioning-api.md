@@ -3,21 +3,26 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: API Batch Decisioning
 description: Découvrez comment utiliser l’API Batch Decisioning pour sélectionner les meilleures offres pour les profils d’audiences dans une portée de décision prédéfinie.
+badge: label="Hérité" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '729'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '747'
 ht-degree: 100%
 
 ---
 
 
 # Diffuser des offres à l’aide de l’API [!DNL Batch Decisioning] {#deliver-offers-batch}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../../experience-decisioning/gs-experience-decisioning.md)
 
 L’API [!DNL Batch Decisioning] permet aux organisations d’utiliser la fonctionnalité de prise de décision pour tous les profils d’une audience donnée en un seul appel. Le contenu de l’offre pour chaque profil de l’audience est placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
 
@@ -33,7 +38,7 @@ Pour ce faire, l&#39;organisation :
 
 * Exporte le jeu de données vers l&#39;API du fournisseur de diffusion de messages.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=fr) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >

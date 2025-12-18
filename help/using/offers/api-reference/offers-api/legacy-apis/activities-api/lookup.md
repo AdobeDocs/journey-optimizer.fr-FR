@@ -2,21 +2,27 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 'Recherche d''une règle '
-description: Une décision contient la logique sous-tendant la sélection d’une offre.
+description: Une décision contient la logique sous-tendant la sélection d'une offre.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '151'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '169'
 ht-degree: 100%
 
 ---
 
-# Recherche d&#39;une règle {#look-up-decision}
+# Recherche d&#39;une règle  {#look-up-decision}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Vous pouvez rechercher des décisions spécifiques en effectuant une requête GET à l’API [!DNL Offer Library] qui inclut les décisions `@id` ou le nom de la décision dans le chemin de la requête.
 

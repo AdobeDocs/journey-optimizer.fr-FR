@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: Mettre des décisions à jour
 description: Une décision contient la logique sous-tendant la sélection d’une offre.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 63a6b50b-9e42-43c0-87ee-19fcb6ecdd98
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '157'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
 
 
-# Mettre une décision à jour {#update-decision}
+# Mise à jour d’une décision {#update-decision}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Vous pouvez modifier ou mettre à jour une décision dans votre conteneur en exécutant une requête PATCH sur l’API [!DNL Offer Library].
 

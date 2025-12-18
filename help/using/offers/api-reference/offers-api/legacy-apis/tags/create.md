@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Créer un qualificateur de collection
 description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 84f0efa5-28af-4569-994c-12d87828a277
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '141'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
 # Créer un qualificateur de collection {#create-tag}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Vous pouvez créer un qualificateur de collection (auparavant appelé « balise ») en exécutant une requête POST sur l’API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 

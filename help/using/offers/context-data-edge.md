@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 78%
+source-wordcount: '900'
+ht-degree: 79%
 
 ---
 
 # Données contextuelles et requêtes Edge Decisioning {#edge}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
 Cette section vous guide tout au long de la transmission de données contextuelles dans les requêtes Edge Decisioning et de leur utilisation dans les règles d&#39;éligibilité. Nous allons explorer un cas d’utilisation complet qui montre comment diffuser des offres personnalisées en fonction du type d’appareil utilisé par les clients et les clientes.
 

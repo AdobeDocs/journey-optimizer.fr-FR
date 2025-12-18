@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Liste des offres de secours
 description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '282'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
 
 # Liste des offres de secours {#list-fallback-offers}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres. Les étapes de création d’une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d’une offre.
 

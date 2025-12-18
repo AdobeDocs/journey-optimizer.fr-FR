@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Diffusion d'offres
 description: 'La gestion des décisions est un ensemble de services et d''interfaces utilisateur qui permet aux spécialistes marketing de créer et de proposer des expériences d''offres personnalisées aux utilisateurs finaux par le biais de canaux et d''applications en s''appuyant sur une logique métier et des règles de décision. '
+badge: label="Hérité" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1112'
 ht-degree: 96%
 
 ---
 
 # Diffuser des offres à l’aide de l’API Decisioning {#decisioning-api}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../../experience-decisioning/gs-experience-decisioning.md)
 
 Avec la gestion des décisions, vous pouvez créer et proposer des expériences d&#39;offre personnalisées aux utilisateurs finaux par le biais de canaux et des applications en s&#39;appuyant sur une logique métier et des règles de décision.
 Une offre est un message marketing auquel des règles peuvent être associées et qui spécifie qui est éligible pour voir l&#39;offre.
@@ -231,7 +236,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342829/?captions=fre_fr&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Étapes suivantes {#next-steps}
 

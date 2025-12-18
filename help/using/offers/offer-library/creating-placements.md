@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '630'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '647'
 ht-degree: 100%
 
 ---
 
 # Créer des emplacements {#create-placements}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
@@ -89,5 +93,5 @@ Pour créer un emplacement, procédez comme suit :
 
 Découvrez comment créer des emplacements pour la gestion des décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/341382?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

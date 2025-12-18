@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Mettre à jour les qualificateurs de collection
 description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Mettre à jour un qualificateur de collection {#update-collection-qualifier}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Vous pouvez modifier ou mettre à jour un qualificateur de collection (auparavant appelé « balise ») dans votre conteneur en exécutant une requête PATCH sur l’API [!DNL Offer Library].
 

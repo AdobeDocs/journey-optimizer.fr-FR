@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
 
 # Créer des modèles d’IA {#ai-rankings}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer] permet de créer des **modèles &#39;’IA** pour classer les offres en fonction des objectifs de votre entreprise.
 
@@ -97,4 +101,4 @@ Pour envoyer des types d’événement (offre affichée ou offre ayant fait l�
 
 Découvrez comment créer un modèle d’optimisation personnalisé et comment l’appliquer à une décision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445953?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '824'
 ht-degree: 100%
 
 ---
 
-# Création d&#39;offres personnalisées {#create-personalized-offers}
+# Créer des offres personnalisées {#create-personalized-offers}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
 
 Avant de créer une offre, assurez-vous que vous avez créé les éléments suivants :
 
@@ -171,4 +175,4 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sé
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341347?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

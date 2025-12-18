@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '533'
-ht-degree: 100%
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Utilisation d’audiences de chargement personnalisé pour la prise de décision {#custom-upload-decisioning}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
 Avec Journey Optimizer, vous pouvez utiliser les données des audiences créées à l’aide du chargement personnalisé (fichier CSV) dans Adobe Experience Platform pour prendre en charge vos workflows de gestion des décisions. Cette action est particulièrement utile lorsque les données ne sont pas nécessaires sur le profil, mais qu’elles sont toujours essentielles à la prise de décision.
 

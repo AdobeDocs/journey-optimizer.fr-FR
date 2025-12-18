@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Mise à jour d’une offre de secours
 description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '155'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
 
 # Mise à jour d’une offre de secours {#update-fallback-offer}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Vous pouvez modifier ou mettre à jour une offre de secours dans votre conteneur en adressant une requête PATCH à l’API [!DNL Offer Library].
 

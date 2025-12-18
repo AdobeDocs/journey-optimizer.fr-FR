@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: recherche d’offres de secours
 description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '88'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
 
 # Rechercher des offres de secours {#look-up-fallback-offers}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Vous pouvez rechercher des offres de secours spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut l’identifiant de l’offre de secours dans le chemin de la requête.
 

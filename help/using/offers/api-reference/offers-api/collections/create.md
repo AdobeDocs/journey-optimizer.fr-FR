@@ -4,21 +4,27 @@ product: Journey Optimizer
 title: Création d'une collection
 description: Les collections sont des sous-ensembles d'offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l'offre.
 feature: Decision Management, API, Collections
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '128'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '146'
 ht-degree: 100%
 
 ---
 
-# Création d&#39;une collection {#create-collection}
+# Création d’une collection {#create-collection}
 
-Les collections sont des sous-ensembles d&#39;offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l&#39;offre.
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
+
+Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par une personne spécialisée dans le marketing, telles que la catégorie de l’offre.
 
 Vous pouvez créer une collection en adressant une requête POST à l’API [!DNL Offer Library].
 

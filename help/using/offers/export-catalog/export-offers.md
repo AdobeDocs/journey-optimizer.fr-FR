@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: 47f4ab608df3439c01ca962232a956016a1f8667
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1951'
 ht-degree: 99%
 
 ---
 
-# Jeu de données d&#39;offres personnalisées {#offers-dataset}
+# Jeu de données d’offres personnalisées {#offers-dataset}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
 
 Chaque fois qu&#39;une offre est modifiée, le jeu de données généré automatiquement pour les offres de contenu personnalisées est mis à jour.
 
@@ -182,7 +186,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
   **Champ :** linkURL
   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
   **Type :** chaîne
-  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
 
@@ -233,7 +237,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 +++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **Champ :** eligibilityRule
-**Titre :**&#x200B;règle d&#39;éligibilité
+**Titre :**règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 

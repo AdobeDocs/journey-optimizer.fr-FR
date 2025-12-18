@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 753f6bc8130b0a743aac1208a8e5aac58e3dbbfd
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
 
 # Mécanismes de sécurisation et limitations de la gestion des décisions {#decision-management-guardrails}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
 Pour garantir une utilisation optimale de la gestion des décisions, gardez à l’esprit les mécanismes de sécurisation et limitations suivants.
 

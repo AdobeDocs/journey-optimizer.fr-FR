@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
 version: Journey Orchestration
-source-git-commit: d0b3a4e90b8eca6f5929f92f203c4bc296da7615
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Commencer avec les données contextuelles {#context-data}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
 Les données envoyées dans le cadre de la requête de prise de décision sont considérées comme des données contextuelles. Vous pouvez exploiter les données contextuelles dans le moteur de décision, par exemple pour concevoir une règle de décision qui nécessite que la météo actuelle soit supérieure à 20 degrés au moment de la demande de décision.
 

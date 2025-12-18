@@ -4,21 +4,27 @@ product: Journey Optimizer
 title: Recherche d’une collection
 description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
 feature: Decision Management, API, Collections
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '106'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '124'
 ht-degree: 100%
 
 ---
 
 # Recherche d’une collection {#look-up-collection}
 
-Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
+
+Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par une personne spécialisée dans le marketing, telles que la catégorie de l’offre.
 
 Vous pouvez rechercher des collections spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut la collection `id` dans le chemin de la requête.
 

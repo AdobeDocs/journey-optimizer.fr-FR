@@ -4,21 +4,27 @@ product: Journey Optimizer
 title: Répertorier les décisions
 description: Une décision contient la logique sous-tendant la sélection d’une offre.
 feature: Decision Management, API
+badge: label="Hérité" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Répertorier les décisions {#list-decisions}
 
-Une décision contient la logique sous-tendant la sélection d’une offre.
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+
+
+Une décision contient la logique sous-tendant la sélection d&#39;une offre.
 
 Vous pouvez afficher une liste de toutes les décisions en exécutant une seule requête GET sur l&#39;API [!DNL Offer Library].
 
