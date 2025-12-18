@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 6cbe5d5e523f102ae340f1b33f3495fd721499d3
+source-git-commit: 13879953461a28c4c911030a165fbd0b6393bb07
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,10 @@ Pour en savoir plus sur les fragments de contenu AEM, voir [Utilisation des frag
 * Le BAT de la campagne et du parcours publiés reflète les données de la dernière publication de fragment de contenu Experience Manager.
 
 ## Créer et affecter une balise dans Experience Manager
+
+>[!IMPORTANT]
+>
+>Pour permettre à Journey Optimizer d’accéder aux fragments de contenu de Adobe Experience Manager via l’API de gestion des fragments de contenu, vous devez d’abord [configurer Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration).
 
 Avant d’utiliser votre fragment de contenu dans Journey Optimizer, vous devez créer une balise spécifique à Journey Optimizer :
 
