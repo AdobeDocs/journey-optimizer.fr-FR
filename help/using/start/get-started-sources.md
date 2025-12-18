@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 11%
@@ -71,7 +71,7 @@ Journey Optimizer prend en charge différents types de sources pour se connecter
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ Voir la liste complète dans le catalogue [des sources Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#sources-catalog){target="_blank"}
+➡️ Voir la liste complète dans le catalogue [des sources Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
 
 ## Avant de commencer {#prerequisites}
 
@@ -81,7 +81,7 @@ Avant de configurer des sources, vérifiez que vous disposez des éléments suiv
 * **Informations d’identification du système Source** - Informations d’authentification pour le système externe auquel vous souhaitez vous connecter
 * **Compréhension de vos données** - Savoir quels champs de données vous avez besoin et comment ils sont associés à des profils Journey Optimizer
 
-➡️ En savoir plus sur [le contrôle d’accès et les autorisations](../../administration/permissions.md)
+➡️ En savoir plus sur [le contrôle d’accès et les autorisations](../administration/permissions.md)
 
 ## Fonctionnement des sources {#how-sources-work}
 
@@ -101,15 +101,15 @@ Une fois configurées, les sources s’exécutent automatiquement en arrière-pl
 
 Regardez cette vidéo pour comprendre les connecteurs source et comment les configurer dans Journey Optimizer :
 
->[!VIDEO](https://video.tv.adobe.com/v/3422583?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Pour plus d’informations sur la configuration et la gestion des sources, consultez la documentation sur les sources Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur la configuration et la gestion des sources, consultez la documentation sur les sources Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.
 
 ## Étapes suivantes {#next-steps}
 
 Maintenant que vous comprenez ce que sont les sources et pourquoi elles sont importantes :
 
-* Explorez le [catalogue de sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#sources-catalog){target="_blank"} pour trouver des connecteurs pour vos systèmes
-* Découvrez comment [&#x200B; créer une connexion source &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
+* Explorez le [catalogue de sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} pour trouver des connecteurs pour vos systèmes
+* Découvrez comment [ créer une connexion source ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * Comprendre le [mappage et transformation des données](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
-* Voir comment [utiliser des données importées dans des parcours &#x200B;](../building-journeys/journey-gs.md)
+* Voir comment [utiliser des données importées dans des parcours ](../building-journeys/journey-gs.md)
