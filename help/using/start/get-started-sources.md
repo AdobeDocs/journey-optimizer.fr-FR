@@ -103,13 +103,13 @@ Regardez cette vidéo pour comprendre les connecteurs source et comment les conf
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Pour plus d’informations sur la configuration et la gestion des sources, consultez la documentation sur les sources Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur la configuration et la gestion des sources, consultez la documentation sur les sources Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.
 
 ## Étapes suivantes {#next-steps}
 
 Maintenant que vous comprenez ce que sont les sources et pourquoi elles sont importantes :
 
 * Explorez le [catalogue de sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} pour trouver des connecteurs pour vos systèmes
-* Découvrez comment [ créer une connexion source ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
+* Découvrez comment [&#x200B; créer une connexion source &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * Comprendre le [mappage et transformation des données](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
-* Voir comment [utiliser des données importées dans des parcours ](../building-journeys/journey-gs.md)
+* Voir comment [utiliser des données importées dans des parcours &#x200B;](../building-journeys/journey-gs.md)
