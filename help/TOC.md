@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 96%
 
 ---
@@ -235,14 +235,22 @@ ht-degree: 96%
       + [Approuver une demande](using/test-approve/review-approve-request.md)
 + Surveiller et dépanner {#monitor}
    + [Surveillance et dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Alertes système](using/reports/alerts.md)
-   + [Référence des codes d’erreur](using/building-journeys/error-codes-reference.md)
-   + [Articles de dépannage](using/start/troubleshooting.md)
-   + Dépannage des parcours {#troubleshoot-journey}
-      + [Résoudre les erreurs de parcours](using/building-journeys/troubleshooting.md)
-      + [Résoudre les problèmes d’exécution d’un parcours](using/building-journeys/troubleshooting-execution.md)
-      + [Résoudre les problèmes liés aux actions entrantes](using/building-journeys/troubleshooting-inbound.md)
-      + [Résoudre les problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
+   + [Commencer avec le tracking](using/start/get-started-tracking.md)
+   + Délivrabilité des e-mails {#deliverability}
+      + [Délivrabilité des e-mails](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [Commencer avec la délivrabilité](using/reports/deliverability.md)
+      + [Présentation de la liste de suppression](using/reports/suppression-list.md)
+      + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
+   + Surveiller les alertes et les codes d’erreur {#monitor-alerts-errors}
+      + [Alertes système](using/reports/alerts.md)
+      + [Référence des codes d’erreur](using/building-journeys/error-codes-reference.md)
+   + Résolution des problèmes {#troubleshooting}
+      + [FAQ sur le dépannage](using/start/troubleshooting.md)
+      + Dépannage des parcours {#troubleshoot-journey}
+         + [Résoudre les erreurs de parcours](using/building-journeys/troubleshooting.md)
+         + [Résoudre les problèmes d’exécution d’un parcours](using/building-journeys/troubleshooting-execution.md)
+         + [Résoudre les problèmes liés aux actions entrantes](using/building-journeys/troubleshooting-inbound.md)
+         + [Résoudre les problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
 + Canaux de communication {#channels}
    + [Commencer avec les canaux de communication](using/channels/gs-channels.md)
    + Canal e-mail {#email}
@@ -288,11 +296,6 @@ ht-degree: 96%
          + [Paramètres d’en-tête](using/email/header-parameters.md)
          + [Tracking d’URL](using/email/url-tracking.md)
          + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
-      + Délivrabilité des e-mails {#deliverability}
-         + [Délivrabilité des e-mails](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [Commencer avec la délivrabilité](using/reports/deliverability.md)
-         + [Présentation de la liste de suppression](using/reports/suppression-list.md)
-         + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
    + Canal in-app {#in-app}
       + [Canal in-app](/help/rp_landing_pages/in-app-landing-page.md)
       + [Commencer avec les notifications in-app](using/in-app/get-started-in-app.md)
@@ -429,7 +432,7 @@ ht-degree: 96%
          + [E-mail d’ordonnances de programmes de santé](using/personalization/perso-uc-plan-prescriptions.md)
    + Pages de destination {#landing-pages}
       + [Pages de destination](/help/rp_landing_pages/landing-pages-landing-page.md)
-      + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
+      + [Commencer avec les pages de destination](using/landing-pages/get-started-lp.md)
       + [Créer une page de destination](using/landing-pages/create-lp.md)
       + [Gérer vos pages de destination](using/landing-pages/manage-lp.md)
       + Concevoir du contenu {#landing-pages-design}
@@ -441,8 +444,8 @@ ht-degree: 96%
       + [Utiliser les formulaires dans vos pages de destination](using/landing-pages/lp-forms.md)
       + [Créer une liste dʼabonnements](using/landing-pages/subscription-list.md)
       + [Apprendre avec des cas d’utilisation](using/landing-pages/lp-use-cases.md)
-      + Configurer les pages de destination {#lp-configuration}
-         + [Configurer les pages de destination](/help/rp_landing_pages/lp-configuration-landing-page.md)
+      + Configuration des pages de destination {#lp-configuration}
+         + [Configuration des pages de destination](/help/rp_landing_pages/lp-configuration-landing-page.md)
          + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
          + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
    + Modèles de contenu {#content-templates}
@@ -926,7 +929,7 @@ ht-degree: 96%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

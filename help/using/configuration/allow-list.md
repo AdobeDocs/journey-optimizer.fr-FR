@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
+source-git-commit: d236ece92a40a9ad986adfff33cb1b0a53ae57c0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 100%
+source-wordcount: '1182'
+ht-degree: 99%
 
 ---
 
-# Liste autorisée {#allow-list}
+# Configurer une liste autorisée {#allow-list}
 
 Il est possible de définir une liste de sécurité d’envoi spécifique au niveau du [sandbox](../administration/sandboxes.md).
 
