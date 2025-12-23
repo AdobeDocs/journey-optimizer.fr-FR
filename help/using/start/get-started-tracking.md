@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: tracking, surveillance, analyse, reporting, délivrabilité
-source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1916'
 ht-degree: 3%
 
 ---
@@ -91,11 +91,11 @@ Le suivi des e-mails est automatiquement activé lorsque vous créez un e-mail. 
 
 * **Configurer les paramètres de tracking d’URL** - Configurez les paramètres de tracking au niveau de la surface pour ajouter automatiquement des identifiants de campagne (utm_campaign, utm_source, etc.) à tous les liens d’e-mail. Cela permet le suivi de l’attribution dans l’ensemble de votre écosystème numérique. [En savoir plus](../email/url-tracking.md)
 
-* **Suivi des liens dans les fragments enregistrés** - Lorsque le suivi est activé dans un parcours ou une campagne, les liens d’un fragment enregistré à partir du contenu de ce parcours ou de cette campagne sont également suivis lorsque ce fragment est réutilisé. [En savoir plus](../content-management/save-fragments.md)
+* **Suivi des liens dans les fragments enregistrés** - Lorsque vous enregistrez un fragment à partir d’un contenu pour lequel le suivi est activé, les liens de ce fragment restent suivis lorsque vous le réutilisez dans d’autres parcours ou campagnes. [En savoir plus](../content-management/save-fragments.md)
 
 * **Ajouter le suivi des pages miroir** - Activez l’option de page miroir pour créer une version web de votre e-mail avec le suivi automatique de la personne qui la consulte. [En savoir plus](../email/message-tracking.md#mirror-page)
 
-**Surveiller les performances :** affichez des mesures en temps réel dans les rapports de campagne et de parcours, y compris les ouvertures, les clics et les performances au niveau des liens. [&#x200B; Rapports de campagne &#x200B;](../reports/campaign-global-report-cja-email.md) | [Parcours de rapports](../reports/journey-global-report-cja-email.md)
+**Surveiller les performances :** affichez des mesures en temps réel dans les rapports de campagne et de parcours, y compris les ouvertures, les clics et les performances au niveau des liens. [ Rapports de campagne ](../reports/campaign-global-report-cja-email.md) | [Parcours de rapports](../reports/journey-global-report-cja-email.md)
 
 +++
 
@@ -105,13 +105,13 @@ Le tracking web nécessite une configuration explicite pour suivre les interacti
 
 **Configurer le suivi des clics :**
 
-Lors de la conception d’une modification web, vous pouvez sélectionner des éléments spécifiques (boutons, images, liens) dont vous souhaitez effectuer le suivi. Cela permet le suivi des clics pour ces éléments sans avoir besoin de code supplémentaire. [En savoir plus](../web/monitor-web-experiences.md)
+Lors de la création d’une page web, vous pouvez sélectionner des éléments spécifiques (boutons, images, liens) dont vous souhaitez effectuer le suivi. Cela permet le suivi des clics pour ces éléments sans avoir besoin de code supplémentaire. [En savoir plus](../web/monitor-web-experiences.md)
 
-* **Suivre tout élément cliquable** - Sélectionnez des boutons, des images, des liens ou tout élément interactif dans votre personnalisation web
-* **Collecte automatique de données** - Une fois configuré, Journey Optimizer capture automatiquement les événements de clic et les associe à des profils
-* **Surveiller en temps réel** - Suivez les interactions utilisateur au fur et à mesure qu’elles se produisent pour valider l’efficacité de la personnalisation
+* **Suivre tout élément cliquable** - Sélectionnez des boutons, des images, des liens ou tout élément interactif dans votre personnalisation web.
+* **Collecte automatique de données** - Une fois configuré, Journey Optimizer capture automatiquement les événements de clic et les associe à des profils.
+* **Surveiller en temps réel** - Suivez les interactions utilisateur au fur et à mesure qu’elles se produisent pour valider l’efficacité de la personnalisation.
 
-**Afficher les données de suivi :** permet d’accéder aux mesures d’affichage, aux taux de clics publicitaires et aux performances au niveau des éléments dans les rapports. [&#x200B; Rapports de campagne &#x200B;](../reports/campaign-global-report-cja-web.md) | [Parcours de rapports](../reports/journey-global-report-cja-web.md)
+**Afficher les données de suivi :** permet d’accéder aux mesures d’affichage, aux taux de clics publicitaires et aux performances au niveau des éléments dans les rapports. [ Rapports de campagne ](../reports/campaign-global-report-cja-web.md) | [Parcours de rapports](../reports/journey-global-report-cja-web.md)
 
 +++
 
@@ -131,7 +131,7 @@ Le suivi des notifications push est automatiquement activé et capture les impre
 >
 >Le suivi des notifications push nécessite une implémentation de SDK mobile. Vérifiez que le SDK mobile Adobe Experience Platform est correctement configuré pour votre application. [En savoir plus](../push/push-configuration.md#integrate-mobile-app)
 
-**Analyser l’engagement :** afficher les taux de clics publicitaires, les performances des boutons et les détails des liens suivis dans les rapports. [&#x200B; Rapports de campagne &#x200B;](../reports/campaign-global-report-cja-push.md) | [Parcours de rapports](../reports/journey-global-report-cja-push.md)
+**Analyser l’engagement :** afficher les taux de clics publicitaires, les performances des boutons et les détails des liens suivis dans les rapports. [ Rapports de campagne ](../reports/campaign-global-report-cja-push.md) | [Parcours de rapports](../reports/journey-global-report-cja-push.md)
 
 +++
 
@@ -141,13 +141,15 @@ Les messages in-app effectuent automatiquement le suivi des affichages et des in
 
 **Configurer le suivi :**
 
-* **Configurer des règles d’affichage** - Définissez quand et où les messages in-app s’affichent à l’aide de déclencheurs (lancement d’application, chargement d’écran), de règles de fréquence et de conditions d’audience. Une configuration appropriée garantit un suivi précis des messages déclenchés et affichés. [En savoir plus](../in-app/create-in-app.md)
+* **Définir des règles d’affichage** - Définissez quand et où les messages in-app apparaissent à l’aide de déclencheurs (lancement d’application, chargement d’écran), de règles de fréquence et de conditions d’audience. Une configuration appropriée garantit un suivi précis des messages déclenchés et affichés.
 
 * **Ajout d’éléments suivis** - Incluez des boutons, des liens et des éléments interactifs dans le contenu de votre message. Chaque interaction est automatiquement suivie avec des libellés détaillés.
 
 * **Optimiser le timing de l’affichage** - Configurez les règles relatives au jour de la semaine et à l’heure de la journée afin de maximiser la probabilité que les messages déclenchés s’affichent réellement pour les utilisateurs et les utilisatrices.
 
-**Ce qui est suivi :** Journey Optimizer capture automatiquement les affichages, les clics sur les boutons, les rejets, les mesures déclenchées ou affichées et les performances des liens. [&#x200B; Rapports de campagne &#x200B;](../reports/campaign-global-report-cja-inapp.md) | [Parcours de rapports](../reports/journey-global-report-cja-inapp.md)
+[Découvrez comment configurer des messages in-app](../in-app/create-in-app.md)
+
+**Ce qui est suivi :** Journey Optimizer capture automatiquement les affichages, les clics sur les boutons, les rejets, les mesures déclenchées ou affichées et les performances des liens. [ Rapports de campagne ](../reports/campaign-global-report-cja-inapp.md) | [Parcours de rapports](../reports/journey-global-report-cja-inapp.md)
 
 +++
 
@@ -157,11 +159,11 @@ Le suivi des SMS nécessite une configuration minimale : Journey Optimizer racco
 
 **Fonctionnement :**
 
-* **Suivi automatique des liens** - Ajoutez une URL à votre contenu SMS à l’aide de la fonction d’assistance d’URL. Journey Optimizer raccourcit automatiquement le lien et effectue le suivi des clics sans configuration supplémentaire. Pour utiliser le raccourcissement des URL, vous devez d’abord configurer un sous-domaine SMS. [En savoir plus](../sms/create-sms.md#sms-content)
+* **Suivi automatique des liens** - Ajoutez une URL à votre contenu SMS à l’aide de la fonction d’assistance d’URL. Journey Optimizer raccourcit automatiquement le lien et effectue le suivi des clics sans configuration supplémentaire. Pour utiliser le raccourcissement des URL, vous devez d’abord configurer un sous-domaine SMS. [En savoir plus](../sms/sms-subdomains.md)
 
-* **Suivi des messages entrants** - Les réponses des destinataires sont automatiquement capturées, ce qui vous permet de surveiller les conversations bidirectionnelles et les modèles de réponse.
+* **Suivi des messages entrants** - Les réponses des destinataires sont automatiquement capturées, ce qui vous permet de surveiller les conversations bidirectionnelles et les modèles de réponse. [En savoir plus](../sms/sms-opt-out.md#sms-native-keywords)
 
-**Afficher les mesures :** accédez aux données de clic sur les liens, aux volumes de messages entrants et aux performances des types de messages dans les rapports. [&#x200B; Rapports de campagne &#x200B;](../reports/campaign-global-report-cja-sms.md) | [Parcours de rapports](../reports/journey-global-report-cja-sms.md)
+**Afficher les mesures :** accédez aux données de clic sur les liens, aux volumes de messages entrants et aux performances des types de messages dans les rapports. [ Rapports de campagne ](../reports/campaign-global-report-cja-sms.md) | [Parcours de rapports](../reports/journey-global-report-cja-sms.md)
 
 +++
 
@@ -173,19 +175,19 @@ Les expériences basées sur du code nécessitent une configuration d’impléme
 
 Avant que le suivi ne fonctionne, vous devez configurer votre implémentation pour envoyer des événements d’interaction (affichages, clics) à Adobe Experience Platform. Cela nécessite :
 
-* Configuration d’un flux de données configuré pour Adobe Experience Platform
-* Mise en œuvre de la collecte d’événements dans votre code à l’aide de Web SDK ou de Mobile SDK
-* Envoi d’événements d’affichage et d’interaction lorsque le contenu est affiché ou fait l’objet d’un clic
+* Configurez un flux de données configuré pour Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr)
+* Mise en œuvre de la collecte d’événements dans votre code à l’aide de Web SDK ou de Mobile SDK.
+* Envoi d’événements d’affichage et d’interaction lorsque le contenu est affiché ou cliqué.
 
 [En savoir plus sur les conditions préalables à l’implémentation](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
-**Ce qui est suivi :** une fois implémenté, suivez les affichages, les clics, les taux de clic publicitaire et les performances au niveau des éléments sur tous les points de contact numériques (sites web, applications mobiles, appareils IoT, etc.). [&#x200B; Rapports de campagne &#x200B;](../reports/campaign-global-report-cja-code.md) | [Parcours de rapports](../reports/journey-global-report-cja-code.md)
+**Ce qui est suivi :** une fois implémenté, suivez les affichages, les clics, les taux de clic publicitaire et les performances au niveau des éléments sur tous les points de contact numériques (sites web, applications mobiles, appareils IoT, etc.). [ Rapports de campagne ](../reports/campaign-global-report-cja-code.md) | [Parcours de rapports](../reports/journey-global-report-cja-code.md)
 
 +++
 
 +++Suivi des cartes de contenu
 
-[Cartes de contenu](../content-card/create-content-card.md) effectuent automatiquement le suivi des interactions utilisateur. Configurez le contenu et les règles d’affichage pour contrôler le comportement du suivi.
+Les cartes de contenu effectuent automatiquement le suivi des interactions utilisateur. Configurez le contenu et les règles d’affichage pour contrôler le comportement du suivi.
 
 **Mise en œuvre :**
 
@@ -195,13 +197,15 @@ Avant que le suivi ne fonctionne, vous devez configurer votre implémentation po
 
 * **Configurer des règles d’affichage** - Définissez quand et où les cartes doivent apparaître afin d’assurer le suivi précis des affichages par rapport aux interactions.
 
-**Surveiller l’engagement :** suivez les affichages, les clics, les taux de clics publicitaires et les schémas d’engagement sur plusieurs sessions. [&#x200B; Rapports de campagne &#x200B;](../reports/campaign-global-report-cja-content.md) | [Parcours de rapports](../reports/journey-global-report-cja-content.md)
+[Découvrez comment configurer des cartes de contenu](../content-card/create-content-card.md)
+
+**Surveiller l’engagement :** suivez les affichages, les clics, les taux de clics publicitaires et les schémas d’engagement sur plusieurs sessions. [ Rapports de campagne ](../reports/campaign-global-report-cja-content.md) | [Parcours de rapports](../reports/journey-global-report-cja-content.md)
 
 +++
 
 +++Tracking des landing pages
 
-[Pages de destination](../reports/lp-report-global-cja.md) est fourni avec un suivi intégré qui ne nécessite aucune configuration supplémentaire. Journey Optimizer capture automatiquement les visites, les conversions et les taux de rebond.
+Les landing pages sont fournies avec un suivi intégré qui ne nécessite aucune configuration supplémentaire. Journey Optimizer capture automatiquement les visites, les conversions et les taux de rebond.
 
 **Contenu suivi automatiquement :**
 
@@ -210,7 +214,9 @@ Avant que le suivi ne fonctionne, vous devez configurer votre implémentation po
 * **Taux de rebond** - Pourcentage de visiteurs qui quittent sans interagir
 * **Tendances des performances** - Données de série temporelle montrant l’évolution des mesures
 
-**Optimiser les performances :** utilisez les données de suivi pour affiner les champs de formulaire, tester les variations de contenu, identifier les sources de trafic efficaces et réduire les abandons.
+[Découvrez comment configurer des pages de destination](../landing-pages/create-lp.md)
+
+**Surveiller les performances :** suivez les modèles de visite, les taux de conversion et les taux de rebond au fil du temps pour comprendre comment les utilisateurs interagissent avec vos formulaires et identifier les améliorations à apporter. [Rapports de campagne](../reports/lp-report-global-cja.md)
 
 +++
 
@@ -228,21 +234,25 @@ Au-delà du suivi au niveau des canaux, configurez le suivi pour mesurer les per
 
 * **Rapports et exportation de données personnalisés** - Créez des rapports personnalisés et exportez les données de suivi vers des systèmes externes pour une analyse plus approfondie. [En savoir plus](../reports/sharing-overview.md)
 
-**Afficher des performances unifiées :** accédez à des rapports complets pour les campagnes et les parcours afin de comparer les performances sur les e-mails, les notifications push, les SMS et d’autres canaux, et de déterminer les combinaisons qui génèrent les meilleurs résultats. [&#x200B; Rapports de campagne &#x200B;](../reports/campaign-global-report-cja.md) | [Parcours de rapports](../reports/journey-global-report-cja.md)
+**Afficher des performances unifiées :** accédez à des rapports complets pour les campagnes et les parcours afin de comparer les performances sur les e-mails, les notifications push, les SMS et d’autres canaux, et de déterminer les combinaisons qui génèrent les meilleurs résultats. [ Rapports de campagne ](../reports/campaign-global-report-cja.md) | [Parcours de rapports](../reports/journey-global-report-cja.md)
 
 ## Suivi des performances d’optimisation et de prise de décision {#optimization-decisioning-tracking}
 
 Journey Optimizer effectue automatiquement le suivi des expériences d’optimisation, des stratégies de ciblage et des performances de prise de décision. Configurez vos paramètres pour garantir une collecte de données appropriée.
 
-**Configurer le suivi de l’optimisation :**
+### Configurer le suivi de l’optimisation {#optimization-tracking}
 
-* **Configurer l’expérimentation** - Lors de la création d’expériences ou de l’utilisation du ciblage, définissez les mesures à suivre (conversions, clics, événements personnalisés). Journey Optimizer collecte automatiquement les données de performance pour chaque traitement. [En savoir plus](../campaigns/campaigns-message-optimization.md)
+* **Optimisation de vos campagnes et parcours**
 
-* **Configurer l’optimisation des chemins d’accès** - Ajoutez une activité **Optimiser** à votre parcours et configurez plusieurs chemins d’accès. Journey Optimizer suit automatiquement les chemins empruntés par les profils et mesure les performances. [En savoir plus](../building-journeys/optimize.md)
+   * Lors de la création d’expériences, définissez les mesures à suivre (conversions, clics, événements personnalisés). Journey Optimizer collecte automatiquement les données de performance pour chaque traitement. [En savoir plus](../campaigns/campaigns-message-optimization.md#experimentation)
 
-**Analyser les résultats :** afficher les taux de conversion, la signification statistique et l’effet élévateur entre les traitements dans les rapports d’expérience. [&#x200B; Rapports de campagne &#x200B;](../reports/campaign-global-report-cja-experimentation.md) | [Parcours de rapports](../reports/journey-global-report-cja-experimentation.md)
+   * Créez des règles de ciblage pour diffuser un contenu différent à différents segments d’audience. Journey Optimizer effectue automatiquement le suivi des mesures d’engagement pour chaque groupe ciblé, ce qui vous permet de comparer les performances entre les segments. [En savoir plus](../campaigns/campaigns-message-optimization.md#targeting)
 
-**Suivre les performances de la prise de décision :**
+* **Optimisation des chemins de Parcours** - Ajoutez une activité **Optimiser** à votre parcours et configurez plusieurs chemins d’accès. Journey Optimizer suit automatiquement les chemins empruntés par les profils et mesure les performances. [En savoir plus](../building-journeys/optimize.md)
+
+**Analyser les résultats :** afficher les taux de conversion, la signification statistique et l’effet élévateur entre les traitements dans les rapports d’expérience, ou comparer les mesures d’engagement sur les segments ciblés. [ Rapport de campagne d’expérimentation ](../reports/campaign-global-report-cja-experimentation.md) | [Rapport parcours d’expérimentation](../reports/journey-global-report-cja-experimentation.md) | [rapport de ciblage de Parcours ](../reports/journey-global-report-cja.md#targeting)
+
+### Suivi des performances de prise de décision {#decisioning-tracking}
 
 Lorsque vous utilisez Decisioning pour personnaliser le contenu, Journey Optimizer effectue automatiquement le suivi des événements, des impressions et des clics de décision, sans configuration supplémentaire requise.
 
@@ -270,19 +280,19 @@ La gouvernance des données garantit la conformité aux réglementations telles 
 
 Au-delà du suivi de l’engagement, configurez la surveillance pour vous assurer que les boîtes de réception et les systèmes atteignent les messages de manière optimale.
 
-**Configurer la surveillance proactive :**
-
-* **Configurer des alertes** - Configurez des notifications en temps réel pour les erreurs de parcours, les échecs d’action personnalisée et les problèmes critiques afin de répondre rapidement aux problèmes. [En savoir plus](../reports/alerts.md)
-
-* **Activer les journaux d’audit** - Activez la journalisation d’audit pour suivre toutes les actions sur les ressources à des fins de conformité et de dépannage. [En savoir plus](../privacy/audit-logs.md)
-
-* **Surveiller les intégrations** - Suivez les performances des actions personnalisées et la connectivité du système externe pour identifier rapidement les problèmes d’intégration. [En savoir plus](../action/reporting.md)
-
-**Surveillance de la délivrabilité :**
+La surveillance de la délivrabilité permet de s’assurer que vos messages atteignent les boîtes de réception des destinataires et préservent la bonne réputation de l’expéditeur en suivant les indicateurs clés :
 
 * **Consultez régulièrement la liste de suppression** pour comprendre pourquoi les adresses sont bloquées et conservez l’hygiène de la liste. [En savoir plus](../reports/suppression-list.md)
 
 * **Analyser les erreurs de diffusion** diagnostiquer les échecs et prendre des mesures correctives. [En savoir plus](../configuration/email-error-types.md)
 
 * **Suivez les bonnes pratiques** pour DMARC, SPF et DKIM afin d’optimiser l’emplacement des boîtes de réception. [En savoir plus](../reports/deliverability.md)
+
+Configurez une surveillance proactive afin de recevoir des notifications en temps réel sur les événements critiques et les problèmes système, ce qui vous permet de répondre rapidement avant qu’ils n’affectent vos expériences client :
+
+* **Configurer des alertes** - Configurez des notifications en temps réel pour les erreurs de parcours, les échecs d’action personnalisée et les problèmes critiques afin de répondre rapidement aux problèmes. [En savoir plus](../reports/alerts.md)
+
+* **Activer les journaux d’audit** - Activez la journalisation d’audit pour suivre toutes les actions sur les ressources à des fins de conformité et de dépannage. [En savoir plus](../privacy/audit-logs.md)
+
+* **Surveiller les intégrations** - Suivez les performances des actions personnalisées et la connectivité du système externe pour identifier rapidement les problèmes d’intégration. [En savoir plus](../action/reporting.md)
 
