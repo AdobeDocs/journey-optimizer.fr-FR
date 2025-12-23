@@ -34,13 +34,13 @@ Découvrez comment implémenter le tracking des e-mails, des expériences web, d
 
 Accédez aux rapports clés pour surveiller les performances des parcours, analyser les mesures et identifier les problèmes ;
 
-* [Rapports globaux de Parcours ](../using/reports/journey-global-report-cja.md) - Affichez des mesures et des analyses complètes des performances du parcours sur tous les canaux.
+* [Rapports globaux de Parcours &#x200B;](../using/reports/journey-global-report-cja.md) - Affichez des mesures et des analyses complètes des performances du parcours sur tous les canaux.
 
-* [Rapports dynamiques sur les Parcours ](../using/reports/journey-live-report.md) - Surveillez les données d’exécution des parcours en temps réel et suivez les interactions actives des clients.
+* [Rapports dynamiques sur les Parcours &#x200B;](../using/reports/journey-live-report.md) - Surveillez les données d’exécution des parcours en temps réel et suivez les interactions actives des clients.
 
-* [Événements d’étape de Parcours ](../using/reports/journey-step-events-overview.md) - Analysez les événements d’exécution de parcours détaillés étape par étape à des fins de dépannage et d’optimisation.
+* [Événements d’étape de Parcours &#x200B;](../using/reports/journey-step-events-overview.md) - Analysez les événements d’exécution de parcours détaillés étape par étape à des fins de dépannage et d’optimisation.
 
-* [Prise en main des rapports ](../using/reports/report-gs-cja.md) - Découvrez les fonctionnalités de création de rapports, les mesures et comment accéder aux informations sur le parcours.
+* [Prise en main des rapports &#x200B;](../using/reports/report-gs-cja.md) - Découvrez les fonctionnalités de création de rapports, les mesures et comment accéder aux informations sur le parcours.
 
 * [Surveillance de la délivrabilité](../using/reports/deliverability.md) - Suivez les taux de diffusion des messages et identifiez les problèmes de diffusion potentiels sur l’ensemble des canaux.
 
