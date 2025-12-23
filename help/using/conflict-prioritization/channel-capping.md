@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1219'
-ht-degree: 100%
+source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
+workflow-type: tm+mt
+source-wordcount: '1249'
+ht-degree: 97%
 
 ---
 
@@ -128,6 +128,10 @@ Pour appliquer un jeu de règles à un message, procédez comme suit :
 
 Lors du test des règles de fréquence, il est recommandé d’utiliser un nouveau [profil de test](../audience/creating-test-profiles.md), car une fois la limitation de fréquence d’un profil atteinte, il n’est pas possible de réinitialiser le compteur avant la période suivante. La désactivation d’une règle permet aux profils limités de recevoir des messages, mais elle ne supprime pas les incréments de compteur.
 
+>[!CAUTION]
+>
+>Les règles de limitation de la fréquence s’appliquent également lors de l’envoi de [BAT](../content-management/proofs.md). Si un profil de test a déjà atteint la limite de fréquence, les BAT s&#39;affichent comme terminés, mais aucun e-mail ne sera diffusé.
+
 <!--add a new section for default priority namespace.-->
 
 <!--
@@ -161,4 +165,4 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
