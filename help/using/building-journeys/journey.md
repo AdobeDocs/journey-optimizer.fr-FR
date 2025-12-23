@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
+source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 39%
+source-wordcount: '1139'
+ht-degree: 31%
 
 ---
 
@@ -31,9 +31,78 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 
 * Avec le **[concepteur de parcours](using-the-journey-designer.md)**, créez vos cas d&#39;utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d&#39;entrée ou une activité [lecture d&#39;audience](read-audience.md), ajoutez des [conditions](condition-activity.md) et envoyez des messages personnalisés.
 
-Le Journey Optimizer [Concepteur de parcours &#x200B;](using-the-journey-designer.md) fournit tout ce dont les spécialistes du marketing et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier. Explorez les [cas d’utilisation réels](jo-use-cases.md) pour savoir comment appliquer ces fonctionnalités.
+Le Journey Optimizer [Concepteur de parcours ](using-the-journey-designer.md) fournit tout ce dont les spécialistes du marketing et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier. Explorez les [cas d’utilisation réels](jo-use-cases.md) pour savoir comment appliquer ces fonctionnalités.
 
 ➡️ [Découvrir Journey Optimizer en vidéo](#video)
+
+## Vue d’ensemble des parcours
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Prise en main de la création de Parcours
+
+Cette section contient des conseils détaillés pour la conception, le test, la publication et le suivi des parcours clients afin de créer des campagnes omnicanal personnalisées.
+
+[Créer votre premier parcours](journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Journey Orchestration - Guide complet
+
+Documentation complète couvrant tous les aspects de la création, de la gestion et de l’optimisation des parcours dans Adobe Journey Optimizer.
+
+[Explorer le guide complet](journey-get-started.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Gestion des Parcours
+
+Gérez efficacement les parcours des clientes et clients à l’aide d’outils de filtrage, de gestion des profils, de fuseaux horaires et de techniques d’optimisation.
+
+[Découvrir la gestion des parcours](/help/rp_landing_pages/manage-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+Activités De parcours
+
+Découvrez comment configurer et utiliser des activités telles que les déclencheurs, les étapes de décision, la gestion de l’audience et les messages personnalisés dans les parcours.
+
+[Explorer les activités](/help/rp_landing_pages/about-journey-building-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Création d’expressions
+
+Maîtrisez la création d’expressions pour les workflows dynamiques, la manipulation de données et l’orchestration de parcours avancée à l’aide d’outils et d’une syntaxe puissants.
+
+[Découvrir les expressions](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Cas d’utilisation de parcours
+
+Explorez les mises en œuvre réelles d’Adobe Journey Optimizer, y compris la messagerie multicanale et l’intégration à des systèmes externes.
+
+[Découvrir les cas d’utilisation](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+:::
+
+::::
+
+## Que pouvez-vous faire avec des parcours ?
+
+À partir du concepteur de parcours, les spécialistes marketing peuvent envoyer des messages 1:1 déclenchés en temps réel via n’importe quel canal lorsqu’un événement se produit. Par exemple, lorsqu’une personne s’abonne à un service, cela peut [déclencher un e-mail de bienvenue](message-to-subscribers-uc.md) l’incitant à se connecter pour la première fois à l’application et à définir ses préférences. Des actions telles que terminer l’achat, ouvrir l’e-mail et se connecter à l’application peuvent être utilisées pour faire progresser les nouveaux clients et les nouvelles clientes dans leur parcours.
 
 ## Types de parcours
 
@@ -124,78 +193,17 @@ Les **parcours d’événement métier** sont déclenchés par des événements 
 
 >[!ENDTABS]
 
-## Vue d’ensemble des parcours
+## Parcours Designer{#journey-designer}
 
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+Le concepteur de parcours [](using-the-journey-designer.md) est une zone de travail intuitive par glisser-déposer qui vous permet de créer et d’orchestrer visuellement vos parcours client. Il fournit tout ce dont vous avez besoin pour concevoir des expériences à plusieurs étapes :
 
-Prise en main de la création de Parcours
+* **[Actions de canal intégrées](journeys-message.md)** - Envoyez des messages par e-mail, notifications push, SMS/MMS, in-app, web, expériences basées sur du code, etc., le tout directement dans Journey Optimizer
+* **[Actions personnalisées](using-custom-actions.md)** - Intégrez des systèmes tiers pour envoyer des messages ou déclencher des workflows dans des plateformes externes.
+* **[Activités d’orchestration](about-journey-activities.md)** - Ajoutez une logique, des conditions, des temps d’attente et un ciblage d’audience pour créer des expériences client complexes
+* **[Conditions](condition-activity.md)** - Branchez votre parcours en fonction des attributs de profil, de l’appartenance à l’audience ou des événements en temps réel
+* **[Expressions](expression/expressionadvanced.md)** - Créez une logique et une personnalisation avancées à l’aide de l’éditeur d’expression
 
-Cette section contient des conseils détaillés pour la conception, le test, la publication et le suivi des parcours clients afin de créer des campagnes omnicanal personnalisées.
-
-[Créer votre premier parcours](journey-gs.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
-
-Journey Orchestration - Guide complet
-
-Documentation complète couvrant tous les aspects de la création, de la gestion et de l’optimisation des parcours dans Adobe Journey Optimizer.
-
-[Explorer le guide complet](journey-get-started.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
-
-Gestion des Parcours
-
-Gérez efficacement les parcours des clientes et clients à l’aide d’outils de filtrage, de gestion des profils, de fuseaux horaires et de techniques d’optimisation.
-
-[Découvrir la gestion des parcours](/help/rp_landing_pages/manage-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
-
-Activités De parcours
-
-Découvrez comment configurer et utiliser des activités telles que les déclencheurs, les étapes de décision, la gestion de l’audience et les messages personnalisés dans les parcours.
-
-[Explorer les activités](/help/rp_landing_pages/about-journey-building-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
-
-Création d’expressions
-
-Maîtrisez la création d’expressions pour les workflows dynamiques, la manipulation de données et l’orchestration de parcours avancée à l’aide d’outils et d’une syntaxe puissants.
-
-[Découvrir les expressions](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
-
-Cas d’utilisation de parcours
-
-Explorez les mises en œuvre réelles d’Adobe Journey Optimizer, y compris la messagerie multicanale et l’intégration à des systèmes externes.
-
-[Découvrir les cas d’utilisation](/help/rp_landing_pages/journey-use-cases-landing-page.md)
-:::
-
-::::
-
-## Cas d’utilisation{#uc-journey}
-
-À partir du concepteur de parcours, les spécialistes marketing peuvent envoyer des messages 1:1 déclenchés en temps réel via n’importe quel canal lorsqu’un événement se produit. Par exemple, lorsqu’une personne s’abonne à un service, cela peut [déclencher un e-mail de bienvenue](message-to-subscribers-uc.md) l’incitant à se connecter pour la première fois à l’application et à définir ses préférences. Des actions telles que terminer l’achat, ouvrir l’e-mail et se connecter à l’application peuvent être utilisées pour faire progresser les nouveaux clients et les nouvelles clientes dans leur parcours.
-
-Le [concepteur de parcours](using-the-journey-designer.md) fournit des [actions de canal intégrées](journeys-message.md) qui prennent en charge les messages sortants, tels que les e-mails, les notifications push et les SMS/MMS, ainsi que les canaux entrants, notamment les applications mobiles, les sites web et les expériences basées sur du code créées directement dans Journey Optimizer. Vous pouvez également utiliser des systèmes tiers pour envoyer des messages (par e-mail, par texte ou par d’autres canaux). Journey Optimizer inclut des [actions personnalisées](using-custom-actions.md) pour permettre l’intégration de ces systèmes dans les parcours directement à partir du concepteur de parcours.
-
-Découvrez comment créer des parcours [dans les cas d’utilisation complets suivants](jo-use-cases.md).
+Découvrez comment utiliser le concepteur de parcours [dans ces cas d’utilisation complets](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -205,7 +213,7 @@ Découvrez comment créer des parcours [dans les cas d’utilisation complets su
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Ressources supplémentaires {#additional-resources}
 
