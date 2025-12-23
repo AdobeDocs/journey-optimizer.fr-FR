@@ -118,5 +118,5 @@ Vous trouverez ci-dessous des définitions, des causes courantes et des étapes 
 
 * [Exemples de requête de jeu de données - Événement d’étape de parcours](../data/datasets-query-examples.md#journey-step-event).
 * [Exemples de requêtes - Requêtes basées sur un événement](query-examples.md#event-based-queries).
-* [Dictionnaire de schémas intégré](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+* [Dictionnaire de schémas intégré](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
 
