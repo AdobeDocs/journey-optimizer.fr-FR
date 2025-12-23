@@ -5,7 +5,7 @@ title: Documentation Adobe Journey Optimizer
 description: Documentation Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
+source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 91%
@@ -56,7 +56,7 @@ Les heures creuses vous permettent de définir des exclusions basées sur l’he
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Dernières notes de mise à jour
 
@@ -66,7 +66,7 @@ Tenez-vous au courant des dernières notes de mise à jour, des nouvelles foncti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer
 
@@ -76,27 +76,27 @@ Découvrez les principes de base de Journey Optimizer, notamment ses fonctionna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guide complet des parcours
 
 Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés avec ce guide détaillé.
 
-[Explorer les parcours](./rp_landing_pages/orchestrate-journeys-landing-page.md)
+[Explorer les parcours](using/building-journeys/journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Comprendre et gérer les campagnes
 
 Conseils détaillés pour la création, la gestion et l’optimisation de divers types de campagnes pour un ciblage efficace.
 
-[En savoir plus sur les campagnes](./rp_landing_pages/campaigns-landing-page.md)
+[En savoir plus sur les campagnes](using/campaigns/get-started-with-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canaux de communication
 
@@ -106,7 +106,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestion et hiérarchisation des conflits
 

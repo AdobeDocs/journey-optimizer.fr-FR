@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Aide d’Adobe Journey Optimizer
 description: Aide d’Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
@@ -31,27 +31,27 @@ Découvrez les principes de base d’Adobe Journey Optimizer, notamment ses fo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guide complet des parcours
 
 Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés avec ce guide détaillé.
 
-[Explorer les parcours](orchestrate-journeys-landing-page.md)
+[Explorer les parcours](../using/building-journeys/journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Comprendre et gérer les campagnes
 
 Conseils détaillés pour la création, la gestion et l’optimisation de divers types de campagnes pour un ciblage efficace.
 
-[En savoir plus sur les campagnes](campaigns-landing-page.md)
+[En savoir plus sur les campagnes](../using/campaigns/get-started-with-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestion et hiérarchisation des conflits
 
