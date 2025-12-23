@@ -5,7 +5,7 @@ title: Canal e-mail
 description: Canal e-mail
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
-source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
+source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Maîtrise de la délivrabilité des e-mails
 
 Comprenez et optimisez la délivrabilité des e-mails grâce aux outils, aux bonnes pratiques et aux informations exploitables pour améliorer la réputation des expéditeurs et expéditrices.
 
-[Améliorer la délivrabilité des e-mails](deliverability-landing-page.md)
+[Améliorer la délivrabilité des e-mails](../using/reports/deliverability.md)
 :::
 
 ::::
