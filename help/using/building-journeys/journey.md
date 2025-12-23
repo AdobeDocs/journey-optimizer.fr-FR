@@ -205,7 +205,7 @@ Découvrez comment créer des parcours [dans les cas d’utilisation complets su
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
 
 ## Ressources supplémentaires {#additional-resources}
 
