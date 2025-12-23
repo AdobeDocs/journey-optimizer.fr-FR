@@ -31,7 +31,7 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 
 * Avec le **[concepteur de parcours](using-the-journey-designer.md)**, créez vos cas d&#39;utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d&#39;entrée ou une activité [lecture d&#39;audience](read-audience.md), ajoutez des [conditions](condition-activity.md) et envoyez des messages personnalisés.
 
-Le Journey Optimizer [Concepteur de parcours ](using-the-journey-designer.md) fournit tout ce dont les spécialistes du marketing et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier. Explorez les [cas d’utilisation réels](jo-use-cases.md) pour savoir comment appliquer ces fonctionnalités.
+Le Journey Optimizer [Concepteur de parcours &#x200B;](using-the-journey-designer.md) fournit tout ce dont les spécialistes du marketing et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier. Explorez les [cas d’utilisation réels](jo-use-cases.md) pour savoir comment appliquer ces fonctionnalités.
 
 ➡️ [Découvrir Journey Optimizer en vidéo](#video)
 
@@ -195,7 +195,7 @@ Les **parcours d’événement métier** sont déclenchés par des événements 
 
 ## Parcours Designer{#journey-designer}
 
-Le concepteur de parcours [](using-the-journey-designer.md) est une zone de travail intuitive par glisser-déposer qui vous permet de créer et d’orchestrer visuellement vos parcours client. Il fournit tout ce dont vous avez besoin pour concevoir des expériences à plusieurs étapes :
+Le concepteur de parcours [&#128279;](using-the-journey-designer.md) est une zone de travail intuitive par glisser-déposer qui vous permet de créer et d’orchestrer visuellement vos parcours client. Il fournit tout ce dont vous avez besoin pour concevoir des expériences à plusieurs étapes :
 
 * **[Actions de canal intégrées](journeys-message.md)** - Envoyez des messages par e-mail, notifications push, SMS/MMS, in-app, web, expériences basées sur du code, etc., le tout directement dans Journey Optimizer
 * **[Actions personnalisées](using-custom-actions.md)** - Intégrez des systèmes tiers pour envoyer des messages ou déclencher des workflows dans des plateformes externes.
