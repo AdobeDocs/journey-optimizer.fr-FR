@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '609'
+ht-degree: 84%
 
 ---
 
@@ -34,10 +34,11 @@ Pour plus d’informations sur les audiences de chargement personnalisé, report
 * [Commencer avec les audiences et Journey Optimizer](../audience/about-audiences.md)
 * [Import d’une audience dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
-## À lire absolument {#must-read}
+## À lire impérativement {#must-read}
 
-* Cette fonctionnalité est prise en charge uniquement dans la **gestion des décisions** et non dans la prise de décision (anciennement appelée Décisions pour les expériences).
-* Elle est disponible exclusivement via les requêtes **API Decisioning (Hub)** et n’est pas prise en charge par l’**API Edge Decisioning** ou la **prise de décision par lots**.
+* **Gestion des décisions uniquement** - Cette fonctionnalité est prise en charge dans la gestion des décisions uniquement, et non dans Decisioning (anciennement appelée « Experience Decisioning »).
+* **API Decisioning (Hub) uniquement** - Elle est disponible exclusivement par le biais de requêtes de l’API Decisioning (Hub) et n’est pas prise en charge par l’API Edge Decisioning ni la prise de décision par lots.
+* **Indicateur d’API obligatoire pour les données d’enrichissement** - Lorsque vous utilisez une audience de chargement personnalisé (CSV) et que vous souhaitez récupérer des données d’enrichissement dans la réponse de décision d’offre, vous devez inclure `"xdm:enrichedAudience": true` dans la payload de votre requête API. Sans cet indicateur, les attributs d’enrichissement de l’audience chargée au format CSV ne seront pas renvoyés. [En savoir plus sur l’API Decisioning](api-reference/offer-delivery-api/decisioning-api.md)
 
 ## Utilisation d’une audience de chargement personnalisé comme critères d’éligibilité {#eligibilty}
 
