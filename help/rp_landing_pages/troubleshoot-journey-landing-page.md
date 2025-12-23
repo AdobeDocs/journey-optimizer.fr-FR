@@ -49,7 +49,7 @@ Accédez aux rapports clés pour surveiller les performances des parcours, analy
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
 
 Accéder aux alertes système et s’y abonner
 
@@ -59,7 +59,7 @@ Découvrez comment accéder aux alertes système, vous abonner aux notifications
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Référence des codes d’erreur
 
@@ -69,7 +69,7 @@ Comprenez les codes d’erreur courants dans Adobe Journey Optimizer et trouve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Résoudre les erreurs avant de tester ou de publier votre parcours
 
@@ -79,7 +79,7 @@ Identifiez et résolvez les erreurs à l’échelle du parcours, les problèmes 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Résoudre les problèmes d’exécution des parcours actifs
 
@@ -89,7 +89,7 @@ Diagnostiquez les problèmes de validation des événements, d’entrée de prof
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Résoudre les problèmes liés aux actions entrantes dans les parcours
 
@@ -99,7 +99,7 @@ Résolvez les problèmes des actions entrantes, tels que le contenu manquant ou 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Résoudre les problèmes liés aux actions personnalisées
 
