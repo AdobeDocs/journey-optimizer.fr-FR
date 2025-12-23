@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 62%
+source-wordcount: '1099'
+ht-degree: 39%
 
 ---
 
@@ -31,15 +31,104 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 
 * Avec le **[concepteur de parcours](using-the-journey-designer.md)**, créez vos cas d&#39;utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d&#39;entrée ou une activité [lecture d&#39;audience](read-audience.md), ajoutez des [conditions](condition-activity.md) et envoyez des messages personnalisés.
 
-Le Journey Optimizer [Concepteur de parcours &#x200B;](using-the-journey-designer.md) fournit tout ce dont les spécialistes du marketing et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier. Explorez les [cas d’utilisation réels](jo-use-cases.md) pour savoir comment appliquer ces fonctionnalités.
+Le Journey Optimizer [Concepteur de parcours ](using-the-journey-designer.md) fournit tout ce dont les spécialistes du marketing et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier. Explorez les [cas d’utilisation réels](jo-use-cases.md) pour savoir comment appliquer ces fonctionnalités.
 
 ➡️ [Découvrir Journey Optimizer en vidéo](#video)
+
+## Types de parcours
+
+Adobe Journey Optimizer prend en charge quatre types de parcours, chacun conçu pour différents cas d’utilisation et mécanismes d’entrée. Choisissez le type approprié en fonction de la manière dont vous souhaitez que les profils rejoignent et progressent dans vos expériences client.
+
+>[!BEGINTABS]
+
+>[!TAB parcours unitaires ]
+
+Les **parcours unitaires** sont déclenchés individuellement par un événement lorsqu’une action spécifique se produit, comme un achat, une connexion à l’application ou un envoi de formulaire. Les profils rejoignent le parcours un par un en temps réel à la réception de l’événement, ce qui le rend idéal pour les expériences personnalisées basées sur le comportement.
+
+**Caractéristiques principales :**
+
+* Entrée en temps réel pilotée par les événements
+* Traitement des profils individuels
+* Parfait pour les messages transactionnels et les réponses immédiates
+* Prend en charge les données contextuelles issues de l’événement déclencheur
+
+**Cas d’utilisation :**
+
+* Confirmation de commande après achat
+* E-mail de bienvenue lorsqu’un utilisateur s’abonne
+* Abandon de panier déclenché par le comportement de navigation
+* Notifications de réinitialisation du mot de passe
+
+➡️ [En savoir plus sur la configuration des événements](../event/about-events.md) | [Événements généraux](general-events.md) | [Cas pratique Message aux abonnés](message-to-subscribers-uc.md)
+
+>[!TAB Lire les parcours d’audience]
+
+**Lisez parcours d’audience** commencez avec une audience de Adobe Experience Platform et envoyez des messages par lots à tous les profils de cette audience. Ce type de parcours traite l’ensemble de l’audience en même temps, ce qui le rend idéal pour les campagnes planifiées et les communications récurrentes.
+
+**Caractéristiques principales :**
+
+* Traitement par lots des segments ciblés
+* Exécution planifiée ou ponctuelle
+* Tous les profils rejoignent simultanément
+* Prise en charge des communications à grande échelle
+
+**Cas d’utilisation :**
+
+* Newsletters mensuelles
+* Campagnes promotionnelles vers les segments cibles
+* Annonces de produits à tous les clients
+* Campagnes marketing saisonnières
+
+➡️ [En savoir plus sur l’activité Lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Cas d’utilisation de la messagerie multicanal](journeys-uc.md)
+
+>[!TAB parcours de qualification d’audience]
+
+Les **parcours de qualification d’audience** sont déclenchés lorsque les profils remplissent les critères d’un segment d’audience spécifique (ou le quittent). Les profils rejoignent le parcours individuellement car ils répondent aux critères d’audience en temps réel, ce qui permet un engagement immédiat lorsque le comportement des clients change.
+
+**Caractéristiques principales :**
+
+* Entrée basée sur la qualification en temps réel
+* Surveillance continue de l’appartenance à l’audience
+* Traitement des profils individuels tels qu’ils sont qualifiés
+* Idéal avec les audiences en flux continu
+
+**Cas d’utilisation :**
+
+* Notifications de mise à niveau du niveau VIP
+* Réengagement lorsque les clients deviennent inactifs
+* Messages de célébration du premier achat
+* Ciblage géographique lors du déplacement des clients
+
+➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Activité de condition](condition-activity.md) | [Création de définitions de segment](../audience/creating-a-segment-definition.md)
+
+>[!TAB parcours d’événement métier]
+
+Les **parcours d’événement métier** sont déclenchés par des événements métier (tels que des mises à jour de stocks, des alertes météorologiques ou des changements de prix) qui affectent plusieurs profils simultanément. Plutôt que de réagir aux actions individuelles des clients, ces parcours réagissent à des conditions commerciales plus larges ou à des facteurs externes.
+
+**Caractéristiques principales :**
+
+* Déclenché par des événements au niveau de l’entreprise, et non par des actions individuelles
+* Affecte plusieurs profils à la fois
+* Cible une audience spécifique lorsque l’événement se produit.
+* Associe une synchronisation pilotée par les événements à un ciblage d’audience
+
+**Cas d’utilisation :**
+
+* Alertes de faible stock aux clients intéressés
+* Annonces de vente Flash
+* Promotions basées sur la météo
+* Notifications de chute de prix
+* Alertes de retour de stock de produit
+
+➡️ [En savoir plus sur les événements métier](general-events.md) | [Configurer des événements métier](../event/about-creating-business.md) | [Gestion des entrées](entry-management.md)
+
+>[!ENDTABS]
 
 ## Vue d’ensemble des parcours
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main de la création de Parcours
 
@@ -49,7 +138,7 @@ Cette section contient des conseils détaillés pour la conception, le test, la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration - Guide complet
 
@@ -59,7 +148,7 @@ Documentation complète couvrant tous les aspects de la création, de la gestion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestion des Parcours
 
@@ -69,7 +158,7 @@ Gérez efficacement les parcours des clientes et clients à l’aide d’outils 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activités De parcours
 
@@ -79,7 +168,7 @@ Découvrez comment configurer et utiliser des activités telles que les déclenc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Création d’expressions
 
@@ -89,7 +178,7 @@ Maîtrisez la création d’expressions pour les workflows dynamiques, la manipu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Cas d’utilisation de parcours
 
@@ -116,7 +205,7 @@ Découvrez comment créer des parcours [dans les cas d’utilisation complets su
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Ressources supplémentaires {#additional-resources}
 
