@@ -69,7 +69,7 @@ Commencez par créer votre contenu et par utiliser les fonctionnalités de prév
 
 Validez les aspects techniques ayant un impact sur la délivrabilité et les fonctionnalités :
 
-* Exécutez [ contrôles de score de spam ](../using/content-management/spam-report.md) pour identifier les problèmes de délivrabilité potentiels
+* Exécutez [&#x200B; contrôles de score de spam &#x200B;](../using/content-management/spam-report.md) pour identifier les problèmes de délivrabilité potentiels
 * Tester les liens pour s’assurer qu’ils ne sont pas rompus et effectuer correctement le suivi
 * Valider la configuration [authentification par e-mail](../using/configuration/dmarc-record.md) (SPF, DKIM, DMARC)
 * Vérifier le rendu HTML et rechercher les problèmes de compatibilité CSS
@@ -101,7 +101,7 @@ Avant d’activer votre campagne ou votre parcours :
 * Effectuez une révision finale de tous les paramètres, audiences et [plannings](../using/building-journeys/journey-properties.md)
 * Vérifier que toutes les approbations sont en place et documentées
 * Vérifiez que les heures d’envoi et les [fuseaux horaires](../using/building-journeys/timezone-management.md) sont corrects.
-* Activez la [ surveillance et alertes ](../using/reports/alerts.md) pour suivre les performances après le lancement
+* Activez la [&#x200B; surveillance et alertes &#x200B;](../using/reports/alerts.md) pour suivre les performances après le lancement
 
 ### &#x200B;6. Surveiller et itérer
 
@@ -183,13 +183,13 @@ Accédez à un ensemble complet de ressources de dépannage, d’alertes systèm
 
 ### Guides de test et de validation essentiels
 
-* [Rapport dynamique dans votre Parcours ](../using/building-journeys/report-journey.md) - Surveillez les mesures de parcours en temps réel pour suivre les performances et identifier les problèmes lors de l’exécution. Accédez aux répartitions détaillées de la progression du profil, des déclencheurs d’événement et des taux d’achèvement de l’action.
+* [Rapport dynamique dans votre Parcours &#x200B;](../using/building-journeys/report-journey.md) - Surveillez les mesures de parcours en temps réel pour suivre les performances et identifier les problèmes lors de l’exécution. Accédez aux répartitions détaillées de la progression du profil, des déclencheurs d’événement et des taux d’achèvement de l’action.
 
 * [Création de profils de test](../using/audience/creating-test-profiles.md) - Créez et gérez des profils de test pour simuler des scénarios client réels et valider la personnalisation. Découvrez comment marquer les profils pour les tests, définir des valeurs d’attribut et organiser les segments de profil de test.
 
 * [Rapport sur les spams par e-mail](../using/content-management/spam-report.md) - Vérifiez le score de spam de vos e-mails avant envoi pour améliorer la délivrabilité et le placement des boîtes de réception. Découvrez comment les filtres anti-spam évaluent votre contenu et obtenez des recommandations d’amélioration.
 
-* [FAQ sur les Parcours ](../using/building-journeys/journey-faq.md) - Trouvez des réponses aux questions courantes sur la création, le test, l&#39;exécution et le dépannage de parcours. Référence rapide pour résoudre des problèmes fréquents et comprendre le comportement du parcours.
+* [FAQ sur les Parcours &#x200B;](../using/building-journeys/journey-faq.md) - Trouvez des réponses aux questions courantes sur la création, le test, l&#39;exécution et le dépannage de parcours. Référence rapide pour résoudre des problèmes fréquents et comprendre le comportement du parcours.
 
 ### Rubriques connexes
 
@@ -197,6 +197,6 @@ Accédez à un ensemble complet de ressources de dépannage, d’alertes systèm
 
 * [Reporting et Analytics](reporting-landing-page.md) - Analysez les performances des campagnes et des parcours à l’aide de rapports, de tableaux de bord et de mesures complets. Prenez des décisions axées sur les données pour optimiser les expériences client.
 
-* [Configuration de Parcours ](configure-journeys-landing-page.md) - Configurez les sources de données, les événements et les actions personnalisées pour activer une orchestration de parcours sophistiquée. Configurez les bases techniques de la création de parcours.
+* [Configuration de Parcours &#x200B;](configure-journeys-landing-page.md) - Configurez les sources de données, les événements et les actions personnalisées pour activer une orchestration de parcours sophistiquée. Configurez les bases techniques de la création de parcours.
 
 * [Gestion de campagne](../using/campaigns/get-started-with-campaigns.md) - Explorez les différents types de campagne et apprenez à créer, planifier et optimiser des campagnes par lots et en temps réel pour un impact maximal.
