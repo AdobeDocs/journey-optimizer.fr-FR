@@ -128,7 +128,7 @@ Découvrez comment les concepts de test s’appliquent aux scénarios réels :
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Prévisualiser, tester et valider le contenu
 
@@ -138,7 +138,7 @@ Découvrez comment prévisualiser, tester et valider du contenu personnalisé à
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Workflows d’approbation des parcours et des campagnes
 
@@ -148,7 +148,7 @@ Découvrez comment configurer, gérer et exécuter des processus d’approbation
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Tester votre parcours
 
@@ -158,7 +158,7 @@ Validez votre parcours avant de le publier en le testant avec des profils spéci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Test à blanc du parcours
 
@@ -168,7 +168,7 @@ Effectuez un test à blanc pour simuler et valider le chemin d’exécution de v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Surveillance et dépannage
 
