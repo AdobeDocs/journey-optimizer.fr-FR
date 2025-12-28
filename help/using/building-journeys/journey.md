@@ -338,7 +338,7 @@ Découvrez comment utiliser le concepteur de parcours [dans ces cas d’utilisat
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
 
 
 ## Ressources supplémentaires {#additional-resources}
