@@ -9,27 +9,95 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: dd3d91266c0edea562f75ceb1f75974c7242ee1a
+source-git-commit: 4b78a7b2b4c437882c5e760efac1120e004bf640
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 35%
+source-wordcount: '1438'
+ht-degree: 36%
 
 ---
 
 
 # Prise en main des parcours{#jo-general-principle}
 
-Dans Adobe Journey Optimizer, les parcours vous permettent de créer des parcours clients personnalisés et à plusieurs étapes qui s’adaptent en temps réel au comportement et aux besoins de votre audience. Grâce à une zone de travail intuitive par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal. Que vous exploriez des déclencheurs en temps réel, gériez des propriétés de parcours ou utilisiez des outils avancés tels que des actions et des expressions personnalisées, cette section fournit une feuille de route claire pour vous aider à concevoir et à affiner des parcours qui offrent des expériences client significatives et opportunes.
+Dans Adobe Journey Optimizer, les parcours vous permettent de créer des parcours clients personnalisés et à plusieurs étapes qui s’adaptent en temps réel au comportement et aux besoins de votre audience. Grâce à une zone de travail intuitive par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal.
 
-Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. Vous pouvez concevoir des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
+Que vous exploriez des déclencheurs en temps réel, gériez des propriétés de parcours ou utilisiez des outils avancés tels que des actions et des expressions personnalisées, ce guide fournit une feuille de route claire pour concevoir et affiner en toute confiance des parcours qui offrent des expériences client significatives et opportunes.
 
-* Envoyez des diffusions **unitaires** en temps réel, déclenchées lorsqu’un [événement](general-events.md) est reçu ou **par lots** à l’aide de Adobe Experience Platform [audiences](read-audience.md).
+## Que sont les parcours ?
 
-* Tirez parti des **données contextuelles** issues des [événements](../event/about-events.md), des informations de Adobe Experience Platform ou des données provenant de services d’API tiers via des [sources de données](../datasource/about-data-sources.md).
+Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes qui répondent en temps réel au comportement des clients et aux événements métier.
 
-* Utilisez les **[actions intégrées](journeys-message.md)** pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **[actions personnalisées](using-custom-actions.md)** si vous utilisez un système tiers pour envoyer vos messages.
+Le concepteur de parcours Journey Optimizer fournit tout ce dont les spécialistes marketing et les responsables de parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier.
 
-* Avec le **[concepteur de parcours](using-the-journey-designer.md)**, créez vos cas d&#39;utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d&#39;entrée ou une activité [lecture d&#39;audience](read-audience.md), ajoutez des [conditions](condition-activity.md) et envoyez des messages personnalisés.
+![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
+
+**Prêt à commencer la création ?** Découvrez comment créer et concevoir votre premier parcours sur [cette page](journey-gs.md).
+
+## Fonctionnalités principales {#capabilities}
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+**Diffusion en temps réel et par lots**
+
+Envoyez des **diffusions unitaires** en temps réel déclenchées lors de la réception d’un événement ou **par lots** à l’aide d’audiences Adobe Experience Platform.
+
+[En savoir plus sur l’entrée de parcours](entry-management.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
+
+**Données contextuelles**
+
+Tirez parti des **données contextuelles** issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
+
+[Utilisation des sources de données](../datasource/about-data-sources.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+
+**Actions intégrées**
+
+Utilisez des **actions de canal intégrées** pour envoyer des messages conçus dans [!DNL Journey Optimizer] par e-mail, notification push, SMS/MMS, etc.
+
+[Envoi de messages dans des parcours](journeys-message.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+**Actions personnalisées**
+
+Créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages ou vous connecter à des API externes.
+
+[Configurer des actions personnalisées](../action/about-custom-action-configuration.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+**Concepteur de parcours visuel**
+
+Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : faites glisser et déposez facilement un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
+
+[Explorer le concepteur de parcours](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+**Tester et optimiser**
+
+Testez vos parcours avant la publication, surveillez leurs performances et optimisez la diffusion à l’aide de fonctionnalités avancées telles que l’optimisation de l’heure d’envoi.
+
+[Tester et publier des parcours](testing-the-journey.md)
+:::
+
+::::
 
 ➡️ [Découvrir Journey Optimizer en vidéo](#video)
 
@@ -37,7 +105,7 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main de la création de Parcours
 
@@ -47,17 +115,7 @@ Cette section contient des conseils détaillés pour la conception, le test, la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
-
-Journey Orchestration - Guide complet
-
-Documentation complète couvrant tous les aspects de la création, de la gestion et de l’optimisation des parcours dans Adobe Journey Optimizer.
-
-[Explorer le guide complet](journey-get-started.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestion des Parcours
 
@@ -67,7 +125,7 @@ Gérez efficacement les parcours des clientes et clients à l’aide d’outils 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activités De parcours
 
@@ -77,7 +135,7 @@ Découvrez comment configurer et utiliser des activités telles que les déclenc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Création d’expressions
 
@@ -87,7 +145,7 @@ Maîtrisez la création d’expressions pour les workflows dynamiques, la manipu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Cas d’utilisation de parcours
 
@@ -98,9 +156,76 @@ Explorez les mises en œuvre réelles d’Adobe Journey Optimizer, y compris l
 
 ::::
 
-## Que pouvez-vous faire avec des parcours ?
+## Cas d’utilisation et exemples {#use-cases}
 
 À partir du concepteur de parcours, les spécialistes marketing peuvent envoyer des messages 1:1 déclenchés en temps réel via n’importe quel canal lorsqu’un événement se produit. Par exemple, lorsqu’une personne s’abonne à un service, cela peut [déclencher un e-mail de bienvenue](message-to-subscribers-uc.md) l’incitant à se connecter pour la première fois à l’application et à définir ses préférences. Des actions telles que terminer l’achat, ouvrir l’e-mail et se connecter à l’application peuvent être utilisées pour faire progresser les nouveaux clients et les nouvelles clientes dans leur parcours.
+
+Le [concepteur de parcours](using-the-journey-designer.md) fournit des [actions de canal intégrées](journeys-message.md) qui prennent en charge les messages sortants, tels que les e-mails, les notifications push et les SMS/MMS, ainsi que les canaux entrants, notamment les applications mobiles, les sites web et les expériences basées sur du code créées directement dans Journey Optimizer. Vous pouvez également utiliser des systèmes tiers pour envoyer des messages. Journey Optimizer inclut des [actions personnalisées](using-custom-actions.md) pour permettre l’intégration de ces systèmes dans les parcours directement à partir du concepteur de parcours.
+
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+**Apprendre à travers les cas d’utilisation**
+
+Explorez des cas d’utilisation de parcours complets de bout en bout qui montrent les implémentations et les bonnes pratiques réelles.
+
+[Découvrir tous les cas d’utilisation](jo-use-cases.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+
+**Bienvenue aux nouveaux abonnés**
+
+Envoyez un parcours de bienvenue personnalisé lorsque les clients s’abonnent à votre service, en les guidant tout au long des étapes d’intégration.
+
+[En savoir plus](message-to-subscribers-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+
+**Optimiser les heures d’envoi des e-mails**
+
+Utilisez l’optimisation de l’heure d’envoi optimisée par l’IA pour diffuser des e-mails lorsque chaque client est le plus susceptible d’interagir.
+
+[En savoir plus](send-time-optimization.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**Accélérer les diffusions**
+
+Augmentez progressivement le volume des messages pour réchauffer votre réputation d&#39;envoi et éviter les problèmes de délivrabilité.
+
+[En savoir plus](ramp-up-deliveries-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+**Cible par jour de la semaine**
+
+Envoyez un contenu différent en fonction du jour de la semaine où les clients entrent dans votre parcours.
+
+[En savoir plus](weekday-email-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+**FAQ Parcours**
+
+Trouvez des réponses aux questions fréquentes sur la création de parcours, le dépannage et les bonnes pratiques.
+
+[Afficher les questions fréquentes](journey-faq.md)
+:::
+
+::::
 
 ## Types de parcours
 
@@ -193,7 +318,7 @@ Les **parcours d’événement métier** sont déclenchés par des événements 
 
 ## Parcours Designer{#journey-designer}
 
-Le [concepteur de parcours &#x200B;](using-the-journey-designer.md) fournit tout ce dont les marketeurs et les professionnels du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier.
+Le [concepteur de parcours ](using-the-journey-designer.md) fournit tout ce dont les marketeurs et les professionnels du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier.
 
 Le concepteur de parcours fournit tout ce dont vous avez besoin pour concevoir des expériences à plusieurs étapes :
 
@@ -213,7 +338,8 @@ Découvrez comment utiliser le concepteur de parcours [dans ces cas d’utilisat
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
 
 ## Ressources supplémentaires {#additional-resources}
 
@@ -223,3 +349,4 @@ Découvrez les composants d’un parcours et comprenez les principes de base de 
 * **[Référence des codes d’erreur](error-codes-reference.md)** : codes d’erreur des parcours et étapes de dépannage.
 * **[Dépannage](troubleshooting.md)** : problèmes courants des parcours et solutions.
 * **[Tutoriels Parcours (vidéos)](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Découvrez la création de parcours au moyen de tutoriels vidéo pratiques couvrant les fonctionnalités, les capacités et les bonnes pratiques
+* **[Mécanismes de sécurisation et limitations du Parcours](../start/guardrails.md)** - Vérifiez les mécanismes de sécurisation et les limitations lors de l’utilisation de [!DNL Adobe Journey Optimizer]
