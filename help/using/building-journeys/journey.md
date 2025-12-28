@@ -318,7 +318,7 @@ Les **parcours d’événement métier** sont déclenchés par des événements 
 
 ## Parcours Designer{#journey-designer}
 
-Le [concepteur de parcours ](using-the-journey-designer.md) fournit tout ce dont les marketeurs et les professionnels du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier.
+Le [concepteur de parcours &#x200B;](using-the-journey-designer.md) fournit tout ce dont les marketeurs et les professionnels du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier.
 
 Le concepteur de parcours fournit tout ce dont vous avez besoin pour concevoir des expériences à plusieurs étapes :
 
