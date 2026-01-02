@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b78a7b2b4c437882c5e760efac1120e004bf640
+source-git-commit: 4cafa9bb5cf481ba79a6b8ccc43e0b7bf02566ec
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3029'
 ht-degree: 96%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 96%
    + Gérer vos parcours {#manage-journey}
       + [Gérer vos parcours](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
+      + [Organiser avec des balises](using/building-journeys/tags.md)
       + [Entrée de profil dans les parcours](using/building-journeys/entry-management.md)
       + [Utiliser des identifiants supplémentaires dans les parcours](using/building-journeys/supplemental-identifier.md)
       + [Utiliser des événements d’étape de parcours](using/reports/journey-step-events-overview.md)
@@ -926,7 +927,7 @@ ht-degree: 96%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
