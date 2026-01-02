@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 31%
@@ -195,7 +195,7 @@ Créez des messages attrayants pour votre audience :
 * Créer des expériences **in-app** et **web**
 * Ajouter **personnalisation** à l’aide des attributs de profil et des données contextuelles
 
-**Guides spécifiques aux types :** [Contenu d’action de campagne](campaign-content.md) | [Contenu de campagne déclenché par API](api-triggered-campaign-content.md) | [&#x200B; Contenu de campagne orchestré &#x200B;](../orchestrated/create-orchestrated-campaign.md)
+**Guides spécifiques aux types :** [Contenu d’action de campagne](campaign-content.md) | [Contenu de campagne déclenché par API](api-triggered-campaign-content.md) | [ Contenu de campagne orchestré ](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. Examen et test {#review}
 
@@ -249,25 +249,25 @@ Avant d’utiliser des campagnes, vérifiez que les éléments suivants sont en 
 
 * **Autorisations** - Vous avez besoin des autorisations appropriées en fonction du type de campagne. Contactez votre administrateur si vous ne pouvez pas accéder aux fonctionnalités de Campaign. [En savoir plus sur les rôles intégrés →](../administration/ootb-product-profiles.md)
 
-| Type de campagne | Autorisations |
-|----------------------------|----------------------------------------------------------------------------|
-| **Campagnes d’action** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
-| **Campagnes déclenchées par API** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
-| **Campagnes orchestrées** | Administrateur ou administratrice de campagne orchestrée<br>Approbateur ou approbatrice de campagne orchestrée<br>Responsable de campagne orchestrée<br>Observateur ou observatrice de campagne orchestrée |
+  | Type de campagne | Autorisations |
+  |----------------------------|----------------------------------------------------------------------------|
+  | **Campagnes d’action** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
+  | **Campagnes déclenchées par API** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
+  | **Campagnes orchestrées** | Administrateur ou administratrice de campagne orchestrée<br>Approbateur ou approbatrice de campagne orchestrée<br>Responsable de campagne orchestrée<br>Observateur ou observatrice de campagne orchestrée |
 
 +++Attribuer des autorisations de campagne
 
 1. Accédez à l’onglet **[!UICONTROL Rôles]** dans le produit [!DNL Permissions] et sélectionnez l’un des **[!UICONTROL Rôles]** intégrés liés à la campagne.
 
-1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+   1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
 
-1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez cette personne dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
+   1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez cette personne dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
-La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
+   La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-+++
+   +++
 
 ## Fonctionnalités de Campaign {#capabilities}
 
@@ -276,7 +276,7 @@ La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et minutage**
 
@@ -286,7 +286,7 @@ Planifiez des campagnes à des dates/heures spécifiques, définissez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -296,7 +296,7 @@ Limitez le débit des messages pour éviter la surcharge sur les systèmes en av
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -306,7 +306,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -326,7 +326,7 @@ Respectez les préférences du client en évitant la diffusion de messages penda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation**
 
