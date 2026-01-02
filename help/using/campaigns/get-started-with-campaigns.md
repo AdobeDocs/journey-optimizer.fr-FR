@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: cebb21aba29a15236b6810309efc488b578a1ca6
+source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 32%
+source-wordcount: '1542'
+ht-degree: 31%
 
 ---
 
@@ -122,13 +122,7 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 * **Marketing** - Offres promotionnelles, campagnes d’engagement, annonces, informations juridiques ou mises à jour de politiques. Les destinataires doivent être inscrits.
 * **Transactionnel** - Perturbations, urgences, annulations. Ne nécessite pas d’opt-in.
 
-**Parfait pour :**
-
-* Newsletters mensuelles destinées aux segments de clientèle
-* Annonces promotionnelles sensibles à l’heure
-* Campagnes marketing saisonnières
-* Communications du lancement du produit
-* Notifications d’interruption de service
+**Idéal pour** : newsletters mensuelles destinées aux segments clients, annonces promotionnelles sensibles au facteur temps, campagnes marketing saisonnières, communications de lancement de produit et notifications d’interruption de service.
 
 ➡️ [En savoir plus sur les campagnes Action](create-campaign.md)
 
@@ -143,13 +137,7 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 * **Marketing** - Communications marketing personnalisées destinées à des audiences ciblées
 * **Transactionnel** - Messages suivant des actions individuelles (réinitialisations de mot de passe, achats de panier, etc.)
 
-**Parfait pour :**
-
-* Confirmations de réinitialisation du mot de passe
-* Récupération après abandon de panier
-* Confirmations de commande et mises à jour d’expédition
-* Notifications d’activité de compte
-* Recommandations personnalisées en temps réel
+**Parfait pour :** les confirmations de réinitialisation du mot de passe, la récupération de l’abandon de panier, les confirmations de commande et les mises à jour d’expédition, les notifications d’activité de compte et les recommandations personnalisées en temps réel.
 
 ➡️ [En savoir plus sur les campagnes déclenchées par API](api-triggered-campaigns.md)
 
@@ -159,13 +147,7 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 
 **Campagnes orchestrées** fournissez une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing sophistiqués. De la segmentation de l’audience à la diffusion personnalisée des messages sur plusieurs canaux, tout se passe dans un environnement intuitif conçu pour la vitesse et le contrôle.
 
-**Parfait pour :**
-
-* Programmes d’engagement client à plusieurs étapes
-* Stratégies complexes de ciblage et de segmentation
-* Orchestration de campagnes cross-canal
-* Marketing initié par la marque à grande échelle
-* Automatisation avancée des workflows avec plusieurs points de décision
+**Idéal pour** programmes d’engagement client à plusieurs étapes, les stratégies de ciblage et de segmentation complexes, l’orchestration de campagnes cross-canal, le marketing à l’échelle initié par la marque et l’automatisation avancée des workflows avec plusieurs points de décision.
 
 ➡️ [En savoir plus sur les campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
 
@@ -181,7 +163,7 @@ La création de campagnes réussies suit un processus clair et reproductible. Vo
 
 **1. Plan** → **2. Configurez** → **3. Conception** → **4. Révision** → **5. Activer** → **6. Surveiller**
 
-### &#x200B;1. **Planifier votre campagne** {#plan}
+### &#x200B;1. Planifier votre campagne {#plan}
 
 Avant de commencer, clarifiez vos objectifs :
 
@@ -191,7 +173,7 @@ Avant de commencer, clarifiez vos objectifs :
 * **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, in-app, web, etc.) → [Voir les canaux pris en charge par type de campagne](../channels/gs-channels.md#channels)
 * **Quand doit-il s’exécuter ?** (immédiat, planifié ou déclenché par API)
 
-### &#x200B;2. **Configurer les propriétés de la campagne** {#configure}
+### &#x200B;2. Configurer les propriétés de la campagne {#configure}
 
 Configurez les bases de votre campagne :
 
@@ -206,7 +188,7 @@ Configurez les bases de votre campagne :
 * [→ des propriétés de campagne déclenchées par API](api-triggered-campaign-properties.md)
 * [→ de configuration de campagne orchestrée](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;3. **Concevoir le contenu** {#design}
+### &#x200B;3. Concevoir le contenu {#design}
 
 Créez des messages attrayants pour votre audience :
 
@@ -221,7 +203,7 @@ Créez des messages attrayants pour votre audience :
 * [→ de contenu de campagne déclenchée par l’API](api-triggered-campaign-content.md)
 * [Contenu de campagne orchestré →](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;4. **Examen et test** {#review}
+### &#x200B;4. Examen et test {#review}
 
 Examinez toujours votre campagne avant l’activation :
 
@@ -236,7 +218,7 @@ Examinez toujours votre campagne avant l’activation :
 * [Vérification des campagnes déclenchées par API →](review-activate-api-triggered-campaign.md)
 * [Vérifier les → de campagnes orchestrées](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;5. **Activer votre campagne** {#activate}
+### &#x200B;5. Activer votre campagne {#activate}
 
 Une fois la révision terminée, activez votre campagne :
 
@@ -250,7 +232,7 @@ Une fois la révision terminée, activez votre campagne :
 * [Activer les campagnes déclenchées par API →](review-activate-api-triggered-campaign.md)
 * [Activer les campagnes orchestrées →](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;6. **Surveiller et analyser** {#monitor}
+### &#x200B;6. Surveiller et analyser {#monitor}
 
 Suivez les performances de votre campagne :
 
@@ -309,7 +291,7 @@ La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et minutage**
 
@@ -319,7 +301,7 @@ Planifiez des campagnes à des dates/heures spécifiques, définissez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -329,7 +311,7 @@ Limitez le débit des messages pour éviter la surcharge sur les systèmes en av
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -339,7 +321,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -359,7 +341,7 @@ Respectez les préférences du client en évitant la diffusion de messages penda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation de l’heure d’envoi**
 
