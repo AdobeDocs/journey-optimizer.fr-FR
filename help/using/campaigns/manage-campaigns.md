@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1612'
 ht-degree: 66%
 
 ---
@@ -31,18 +31,17 @@ ht-degree: 66%
 
 Découvrez comment accéder à vos campagnes, les organiser et les gérer dans Adobe Journey Optimizer. Ce guide couvre tous les aspects, de la recherche de campagnes à la compréhension des statuts, en passant par l’exécution d’opérations courantes et la maintenance de votre espace de travail Campaign.
 
-## Démarrage rapide : tâches courantes {#quick-tasks}
+>[!BEGINSHADEBOX]
 
-Accédez directement à ce dont vous avez besoin :
+**Accédez directement à ce dont vous avez besoin :**
 
-* **Créer une campagne** → [Choisissez votre type de campagne](get-started-with-campaigns.md#campaign-types)
-   * [Créer une campagne d’action](create-campaign.md)
-   * [Créer une campagne déclenchée par API](api-triggered-campaigns.md)
-   * [Créer une campagne orchestrée](../orchestrated/gs-orchestrated-campaigns.md)
-* **Rechercher des campagnes existantes** → [Rechercher et filtrer](#access)
-* **Afficher les performances de la campagne** → [Rapports de campagne](../reports/campaign-global-report-cja.md)
-* **Planifier des campagnes** → [Utiliser le calendrier](#calendar)
-* **Gestion des conflits** → [Guide de gestion des conflits](../conflict-prioritization/gs-conflict-prioritization.md)
+* **Créer une campagne** - [Choisissez votre type de campagne](get-started-with-campaigns.md#campaign-types) | [Créer une campagne Action](create-campaign.md) | [Créer une campagne déclenchée par l’API](api-triggered-campaigns.md) | [Créer une campagne orchestrée](../orchestrated/gs-orchestrated-campaigns.md)
+* **Rechercher des campagnes existantes** - [Rechercher et filtrer](#access)
+* **Afficher les performances de la campagne** - [Rapports de campagne](../reports/campaign-global-report-cja.md)
+* **Planifier des campagnes** - [Utiliser le calendrier](#calendar)
+* **Gestion des conflits** - [Guide de gestion des conflits](../conflict-prioritization/gs-conflict-prioritization.md)
+
+>[!ENDSHADEBOX]
 
 ## Accès aux campagnes et navigation dans celles-ci {#access}
 
@@ -258,7 +257,7 @@ La campagne est créée et ajoutée à la liste des campagnes.
 
 ## Ressources supplémentaires
 
-* **Prise en main** - [Prise en main des campagnes](get-started-with-campaigns.md) | [Créer votre première campagne Action](create-campaign.md) | [&#x200B; Guide des campagnes déclenchées par API &#x200B;](api-triggered-campaigns.md) | [&#x200B; Guide des campagnes orchestrées &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
+* **Prise en main** - [Prise en main des campagnes](get-started-with-campaigns.md) | [Créer votre première campagne Action](create-campaign.md) | [ Guide des campagnes déclenchées par API ](api-triggered-campaigns.md) | [ Guide des campagnes orchestrées ](../orchestrated/gs-orchestrated-campaigns.md)
 
 * **Configuration de la campagne** - [Propriétés de la campagne](campaign-properties.md) | [Actions et canaux de Campaign](campaign-action.md) | [Conception de contenu Campaign](campaign-content.md) | [Sélection de l’audience de la campagne](campaign-audience.md) | [Planification des campagnes](campaign-schedule.md)
 
