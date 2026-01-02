@@ -49,7 +49,7 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 1. [Planifier la campagne d’action](campaign-schedule.md)
 1. [Vérifier et activer la campagne d’action](review-activate-campaign.md)
 
-En savoir plus sur le [](get-started-with-campaigns.md#workflow) workflow de création de campagne complet avec des guides spécifiques au type→
+En savoir plus sur le [&#128279;](get-started-with-campaigns.md#workflow) workflow de création de campagne complet avec des guides spécifiques au type→
 
 ## Vidéos pratiques {#video}
 

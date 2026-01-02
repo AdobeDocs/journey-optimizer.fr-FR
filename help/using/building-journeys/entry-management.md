@@ -23,7 +23,7 @@ La gestion des entrées de profil dépend du type de parcours.
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation tels que des campagnes de bienvenue, la récupération de panier abandonné et des programmes de fidélité avec des exemples complets de configuration d’entrée et de sortie.
+>Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation tels que des campagnes de bienvenue, la récupération de panier abandonné et des programmes de fidélité avec des exemples complets de configuration d’entrée et de sortie.
 
 ## Types de parcours {#types-of-journeys}
 
@@ -124,7 +124,7 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 
 ## Rubriques connexes
 
-* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) - Définir quand les profils doivent quitter votre parcours
-* [Terminer un parcours ](end-journey.md) - Comprendre comment les parcours se ferment et se terminent
-* [Cas d’utilisation de Parcours ](jo-use-cases.md) - Consultez des exemples complets avec des configurations d’entrée et de sortie
+* [Terminer un parcours &#x200B;](end-journey.md) - Comprendre comment les parcours se ferment et se terminent
+* [Cas d’utilisation de Parcours &#x200B;](jo-use-cases.md) - Consultez des exemples complets avec des configurations d’entrée et de sortie

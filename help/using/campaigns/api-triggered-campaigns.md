@@ -50,7 +50,7 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 1. [Vérifier et activer la campagne](review-activate-api-triggered-campaign.md)
 1. [Déclencher l’exécution de la campagne](trigger-campaigns.md)
 
-En savoir plus sur le [](get-started-with-campaigns.md#workflow) workflow de création de campagne complet avec des guides spécifiques au type→
+En savoir plus sur le [&#128279;](get-started-with-campaigns.md#workflow) workflow de création de campagne complet avec des guides spécifiques au type→
 
 ## Vidéos pratiques {#video}
 

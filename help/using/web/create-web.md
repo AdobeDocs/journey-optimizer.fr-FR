@@ -230,7 +230,7 @@ Une fois que vous avez défini vos paramètres de campagne web et que vous avez 
    >
    >En savoir plus sur l’activation des campagnes dans [cette section](../campaigns/review-activate-campaign.md).
 
-Votre campagne web passe au statut **[!UICONTROL Actif]** [](../campaigns/manage-campaigns.md#statuses) et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre site web.
+Votre campagne web passe au statut **[!UICONTROL Actif]** [&#128279;](../campaigns/manage-campaigns.md#statuses) et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre site web.
 
 >[!NOTE]
 >

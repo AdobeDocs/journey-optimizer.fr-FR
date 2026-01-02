@@ -148,7 +148,7 @@ Selon les informations que vous recherchez, vous pouvez exécuter les requêtes 
 
    >[!NOTE]
    >
-   >Pour obtenir le paramètre `<journey version id>`, sélectionnez la version de parcours correspondante à partir du menu **[!UICONTROL Gestion des Parcours]** > **[!UICONTROL Parcours]**. L’ID de version du parcours s’affiche à la fin de l’URL affichée dans votre navigateur web. [En savoir plus sur les versions de parcours ](../building-journeys/publish-journey.md#journey-versions)
+   >Pour obtenir le paramètre `<journey version id>`, sélectionnez la version de parcours correspondante à partir du menu **[!UICONTROL Gestion des Parcours]** > **[!UICONTROL Parcours]**. L’ID de version du parcours s’affiche à la fin de l’URL affichée dans votre navigateur web. [En savoir plus sur les versions de parcours &#x200B;](../building-journeys/publish-journey.md#journey-versions)
    >
    >![](assets/preset-bcc-action-id.png)
 

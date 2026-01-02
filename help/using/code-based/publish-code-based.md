@@ -69,7 +69,7 @@ Le statut de votre parcours basé sur du code passe à **[!UICONTROL Actif]** et
    >
    >En savoir plus sur l’activation des campagnes dans [cette section](../campaigns/review-activate-campaign.md).
 
-Votre campagne basée sur le code adopte le statut **[!UICONTROL Actif]** [](../campaigns/manage-campaigns.md#statuses) et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre contenu.
+Votre campagne basée sur le code adopte le statut **[!UICONTROL Actif]** [&#128279;](../campaigns/manage-campaigns.md#statuses) et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre contenu.
 
 >[!NOTE]
 >
