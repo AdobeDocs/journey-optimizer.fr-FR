@@ -9,9 +9,9 @@ level: Beginner
 keywords: parcours, campagne, orchestré, comparaison, choisir, décision, workflow, temps réel, lot, orchestration, à plusieurs étapes, planifié, déclenché par API, piloté par événement
 hide: true
 hidefromtoc: true
-source-git-commit: 5c842eb5d744380b462c6830af0838aa3329e9f7
+source-git-commit: 3fd971c719bfd667fe5b237c8f03a5915422c1e7
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -221,32 +221,42 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 
 ## Questions courantes {#common-questions}
 
-**Q : Puis-je combiner des parcours et des campagnes dans ma stratégie marketing ?**
++++ Puis-je combiner des parcours et des campagnes dans ma stratégie marketing ?
 
-R : Absolument ! La plupart des entreprises utilisent les trois approches pour différents scénarios :
+Absolument ! La plupart des entreprises utilisent les trois approches pour différents scénarios :
 - Parcours d’engagement comportemental en temps réel
 - Action Campagnes pour les communications de diffusion planifiées
 - Campagnes déclenchées par API pour les messages transactionnels
 - Campagnes orchestrées pour des campagnes par lots complexes utilisant de nombreuses données
 
-**Q : Puis-je convertir une campagne en parcours ou vice versa ?**
++++
 
-R : Non, vous devez recréer l’expérience au format approprié. Cependant, vous pouvez réutiliser du contenu, des audiences et des concepts logiques.
++++ Puis-je convertir une campagne en parcours ou vice versa ?
 
-**Q : Quelle approche est la plus facile à élaborer ?**
+Non, vous devez recréer l’expérience au format approprié. Cependant, vous pouvez réutiliser du contenu, des audiences et des concepts logiques.
 
-R : Les campagnes d’action sont généralement les plus simples (message unique à l’audience), suivies des campagnes déclenchées par l’API, des Parcours (plus complexes avec une logique à plusieurs étapes) et des campagnes orchestrées (les plus complexes en raison des fonctionnalités de workflow de zone de travail et d’entités multiples).
++++
 
-**Q : Quelle est la meilleure solution pour les audiences volumineuses ?**
++++ Quelle approche est la plus facile à élaborer ?
 
-R : Les trois peuvent bien s’adapter, mais :
+Les campagnes d’action sont généralement les plus simples (message unique à l’audience), suivies des campagnes déclenchées par l’API, des Parcours (plus complexes avec une logique à plusieurs étapes) et des campagnes orchestrées (les plus complexes en raison des fonctionnalités de workflow de zone de travail et d’entités multiples).
+
++++
+
++++ Quelle est la plus adaptée aux audiences de grande taille ?
+
+Tous trois peuvent être adaptés à l’échelle, mais :
 - parcours Les campagnes **Lecture d’audience** et **Action** sont optimisées pour les audiences par lots volumineuses
 - **Campagnes orchestrées** excellez dans la segmentation complexe avec des jeux de données volumineux
 - **Parcours unitaires** traitez les profils individuellement, de sorte que l’échelle dépend du volume d’événements
 
-**Q : Puis-je utiliser la même audience sur tous les parcours et campagnes ?**
++++
 
-R : Oui, les audiences créées dans Adobe Experience Platform peuvent être utilisées selon les trois approches.
++++ Puis-je utiliser la même audience pour tous les parcours et campagnes ?
+
+Oui, les audiences créées dans Adobe Experience Platform peuvent être utilisées selon les trois approches.
+
++++
 
 ## Étapes suivantes {#next-steps}
 
