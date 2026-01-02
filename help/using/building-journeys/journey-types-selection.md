@@ -177,5 +177,5 @@ Maintenant que vous comprenez les types de parcours, vous êtes prêt à :
 * **[Voir la FAQ sur le parcours](journey-faq.md)** - Réponses aux questions courantes
 
 **Besoin de comparer avec des campagnes ?**
-- [Guide de comparaison des Parcours et des campagnes](../start/journeys-vs-campaigns.md) - Choisissez entre les parcours, les campagnes Action/API et les campagnes orchestrées
+&#x200B;- [Guide de comparaison des Parcours et des campagnes](../start/journeys-vs-campaigns.md) - Choisissez entre les parcours, les campagnes Action/API et les campagnes orchestrées
 

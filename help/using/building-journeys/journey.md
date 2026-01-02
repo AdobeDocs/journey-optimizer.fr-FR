@@ -35,7 +35,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
-➡️ **Prêt à commencer la création ?** [Créez votre premier parcours ](journey-gs.md) en 5 minutes.
+➡️ **Prêt à commencer la création ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
 
 ### Parcours et campagnes : quand utiliser chacun d’eux {#journeys-vs-campaigns-intro}
 
@@ -63,7 +63,7 @@ Adobe Journey Optimizer prend en charge quatre types de parcours, chacun conçu 
 
 ## Créer avec le concepteur de parcours {#journey-designer}
 
-Le concepteur de parcours **[](using-the-journey-designer.md)** est votre zone de travail visuelle pour la création d’expériences client. Grâce à une interface intuitive par glisser-déposer, vous pouvez orchestrer chaque étape de votre parcours sans avoir à écrire de code.
+Le concepteur de parcours **[&#128279;](using-the-journey-designer.md)** est votre zone de travail visuelle pour la création d’expériences client. Grâce à une interface intuitive par glisser-déposer, vous pouvez orchestrer chaque étape de votre parcours sans avoir à écrire de code.
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
@@ -133,7 +133,7 @@ Utilisez les temps d’attente, les sauts, les mises à jour de profil et la ges
 
 ::::
 
-➡️ **Formation pratique :** [Regardez la vidéo du concepteur de parcours ](#video) ou [explorez des cas d’utilisation de bout en bout](jo-use-cases.md)
+➡️ **Formation pratique :** [Regardez la vidéo du concepteur de parcours &#x200B;](#video) ou [explorez des cas d’utilisation de bout en bout](jo-use-cases.md)
 
 ## Workflow de création de parcours {#workflow}
 
@@ -147,7 +147,7 @@ Avant d’ouvrir le concepteur, clarifiez vos objectifs :
 
 * **Quel est l&#39;objectif ?** (par exemple, intégration de nouveaux clients, réengagement des utilisateurs inactifs)
 * **Qui est l&#39;audience ?** (segment spécifique, individus pilotés par un événement)
-* **Quel type de parcours convient ?** (voir [types de parcours ](#journey-types) ci-dessus)
+* **Quel type de parcours convient ?** (voir [types de parcours &#x200B;](#journey-types) ci-dessus)
 * **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
 
 ### &#x200B;2. Conception dans la zone de travail {#design}
@@ -171,7 +171,7 @@ Testez toujours votre parcours pour détecter les problèmes avant que les clien
 * Vérifiez que toutes les conditions, tous les messages et toutes les actions fonctionnent comme prévu
 * Vérifier la synchronisation, les flux de données et la personnalisation
 
-[Tester votre → de parcours ](testing-the-journey.md) | [En savoir plus sur les → d’essai](journey-dry-run.md)
+[Tester votre → de parcours &#x200B;](testing-the-journey.md) | [En savoir plus sur les → d’essai](journey-dry-run.md)
 
 ### &#x200B;4. Publiez votre parcours {#publish}
 
@@ -350,7 +350,7 @@ Obtenez une présentation visuelle des composants de parcours et découvrez les 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **Vous voulez plus de vidéos ?** [Découvrir les tutoriels vidéo parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Vous voulez plus de vidéos ?** [Découvrir les tutoriels vidéo parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Questions courantes {#common-questions}
 
@@ -366,7 +366,7 @@ R : Adobe Journey Optimizer propose trois approches :
 
 **Différence clé** : les Parcours conservent l’état individuel du client pour les actions en temps réel ; les campagnes Action/API diffusent des messages simples par lots ; les campagnes orchestrées fournissent des zones de travail de workflows par lots avec des fonctionnalités de segmentation d’entités multiples.
 
-<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[En savoir plus sur les campagnes orchestrées ](../orchestrated/gs-orchestrated-campaigns.md)
+&#x200B;<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[En savoir plus sur les campagnes orchestrées &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
 
 <!-- Waiting for DOCAC-13912
 **Q: Which journey type should I use?**
@@ -376,7 +376,7 @@ A: Use the [decision guide](#decision-guide) or [comparison table](#journey-type
 
 **Q : Puis-je modifier un parcours en direct ?**
 
-R : Vous pouvez modifier des éléments limités (nom, contenu du message), mais les modifications structurelles nécessitent la création d’une nouvelle version. [En savoir plus sur les versions de parcours ](publish-journey.md#journey-versions)
+R : Vous pouvez modifier des éléments limités (nom, contenu du message), mais les modifications structurelles nécessitent la création d’une nouvelle version. [En savoir plus sur les versions de parcours &#x200B;](publish-journey.md#journey-versions)
 
 ➡️ **Plus de questions ?** [Voir la FAQ sur le Parcours complet](journey-faq.md) avec plus de 40 réponses détaillées
 
