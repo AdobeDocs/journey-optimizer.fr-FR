@@ -9,7 +9,7 @@ level: Beginner
 keywords: parcours, campagne, orchestré, comparaison, choisir, décision, workflow, temps réel, lot, orchestration, à plusieurs étapes, planifié, déclenché par API, piloté par événement
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
+source-git-commit: 5c842eb5d744380b462c6830af0838aa3329e9f7
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 3%
@@ -159,33 +159,33 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 
 ### Cas d’utilisation de parcours
 
-&#x200B;* **Récupération après abandon de panier** : déclenché par l’événement d’ajout au panier, attente d’un passage en caisse, envoi de rappels en cas d’absence d’achat
-&#x200B;* **Intégration des clients** : série de bienvenue à plusieurs étapes avec du contenu personnalisé basé sur les données de profil
-&#x200B;* **Mise à niveau du niveau de fidélité** : déclenché lorsque le client atteint un nouveau niveau, envoyez des félicitations et des avantages
-&#x200B;* **Campagnes d’anniversaire** : saisie basée sur la date de naissance, offres personnalisées
-&#x200B;* **Réengagement** : déclenché par la qualification de l’audience (inactivité), la diffusion progressive
+- **Récupération après abandon de panier** : déclenché par l’événement d’ajout au panier, attente d’un passage en caisse, envoi de rappels en cas d’absence d’achat
+- **Intégration des clients** : série de bienvenue à plusieurs étapes avec du contenu personnalisé basé sur les données de profil
+- **Mise à niveau du niveau de fidélité** : déclenché lorsque le client atteint un nouveau niveau, envoyez des félicitations et des avantages
+- **Campagnes d’anniversaire** : saisie basée sur la date de naissance, offres personnalisées
+- **Réengagement** : déclenché par la qualification de l’audience (inactivité), la diffusion progressive
 
 ### Cas d’utilisation de Campaign (déclenchés par action et API)
 
 **Campagnes d’action :**
-&#x200B;* **Newsletters mensuelles** : diffusion par lots planifiée vers le segment des abonnés
-&#x200B;* **Annonces promotionnelles** : offres sensibles au facteur temps destinées aux audiences cibles
-&#x200B;* **Lancements de produits** : annonce coordonnée à l’intention de tous les clients
-&#x200B;* **Salutations saisonnières** : messages de vacances à des dates spécifiques
+- **Newsletters mensuelles** : diffusion par lots planifiée vers le segment des abonnés
+- **Annonces promotionnelles** : offres sensibles au facteur temps destinées aux audiences cibles
+- **Lancements de produits** : annonce coordonnée à l’intention de tous les clients
+- **Salutations saisonnières** : messages de vacances à des dates spécifiques
 
 **Campagnes déclenchées par l’API :**
-&#x200B;* **Confirmations de commande** : Déclenché par le système e-commerce après l’achat
-&#x200B;* **Notifications d’expédition** : déclenchées par le système logistique
-&#x200B;* **Alertes de comptes** : Déclenché par le système de détection des fraudes
-&#x200B;* **Réinitialisations du mot de passe** : déclenchées par une action de l’utilisateur dans l’application
+- **Confirmations de commande** : Déclenché par le système e-commerce après l’achat
+- **Notifications d’expédition** : déclenchées par le système logistique
+- **Alertes de comptes** : Déclenché par le système de détection des fraudes
+- **Réinitialisations du mot de passe** : déclenchées par une action de l’utilisateur dans l’application
 
 ### Cas d&#39;utilisation de Campaign orchestré
 
-&#x200B;* **Promotion saisonnière avec intégration de catalogues** : interroger le catalogue de produits, identifier les clients éligibles, segmenter par préférences, envoyer des recommandations de produits personnalisées
-&#x200B;* **Campagnes spécifiques au magasin** : ciblez les clients situés à proximité d’emplacements de magasin spécifiques avec des données d’inventaire de magasin.
-&#x200B;* **Communications multi-réservation** : Envoyez un message par réservation (réservations d&#39;hôtel, réservations de vols)
-&#x200B;* **Orchestration de segments complexes** : créez des audiences étape par étape avec un enrichissement à partir de plusieurs sources de données
-&#x200B;* **Validation de la pré-envoi** : obtenez le nombre exact de destinataires avant de lancer des campagnes majeures
+- **Promotion saisonnière avec intégration de catalogues** : interroger le catalogue de produits, identifier les clients éligibles, segmenter par préférences, envoyer des recommandations de produits personnalisées
+- **Campagnes spécifiques au magasin** : ciblez les clients situés à proximité d’emplacements de magasin spécifiques avec des données d’inventaire de magasin.
+- **Communications multi-réservation** : Envoyez un message par réservation (réservations d&#39;hôtel, réservations de vols)
+- **Orchestration de segments complexes** : créez des audiences étape par étape avec un enrichissement à partir de plusieurs sources de données
+- **Validation de la pré-envoi** : obtenez le nombre exact de destinataires avant de lancer des campagnes majeures
 
 ## Disponibilité des fonctionnalités {#feature-availability}
 
@@ -252,9 +252,9 @@ R : Oui, les audiences créées dans Adobe Experience Platform peuvent être uti
 
 Prêt à commencer la création ? Consultez la documentation détaillée relative à l’approche choisie :
 
-&#x200B;* **[Prise en main des Parcours](../building-journeys/journey.md)** - En savoir plus sur les types de parcours, le concepteur et les workflows
-&#x200B;* **[Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)** - Explorer les campagnes déclenchées par une action et une API
-&#x200B;* **[Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)** - Découverte des workflows de zone de travail par lots
+- **[Prise en main des Parcours](../building-journeys/journey.md)** - En savoir plus sur les types de parcours, le concepteur et les workflows
+- **[Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)** - Explorer les campagnes déclenchées par une action et une API
+- **[Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)** - Découverte des workflows de zone de travail par lots
 
 **Besoin d’aide pour prendre une décision ?**
 - [Comparaison des types de parcours](../building-journeys/journey.md#journey-types-comparison)
