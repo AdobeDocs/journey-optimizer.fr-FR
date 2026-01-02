@@ -10,7 +10,7 @@ keywords: types de parcours, unitaire, lecture d’audience, qualification d’a
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 4%
@@ -177,5 +177,6 @@ Maintenant que vous comprenez les types de parcours, vous êtes prêt à :
 * **[Voir la FAQ sur le parcours](journey-faq.md)** - Réponses aux questions courantes
 
 **Besoin de comparer avec des campagnes ?**
-&#x200B;- [Guide de comparaison des Parcours et des campagnes](../start/journeys-vs-campaigns.md) - Choisissez entre les parcours, les campagnes Action/API et les campagnes orchestrées
+
+* [Guide de comparaison des Parcours et des campagnes](../start/journeys-vs-campaigns.md) - Choisissez entre les parcours, les campagnes Action/API et les campagnes orchestrées
 
