@@ -100,7 +100,7 @@ Le concepteur de parcours **[&#128279;](using-the-journey-designer.md)** est vot
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 **Définir des points d’entrée**
 
@@ -120,7 +120,7 @@ Utilisez des actions de canal intégrées pour les e-mails, les notifications pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 **Ajouter une logique et des conditions**
 
@@ -140,7 +140,7 @@ Utilisez des données contextuelles issues d’événements, de Adobe Experience
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 **Connecter des systèmes externes**
 
@@ -150,7 +150,7 @@ Créez des actions personnalisées pour intégrer des systèmes tiers afin d&#39
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 **Ajouter des activités d’orchestration**
 
@@ -251,7 +251,7 @@ Lorsqu’un client s’abonne à votre service, déclenchez un parcours de bienv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
 
 **Optimisation de l’heure d’envoi**
 
@@ -261,7 +261,7 @@ Utilisez l’IA pour diffuser des e-mails lorsque chaque client est le plus susc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 **Accélérer les diffusions**
 
@@ -271,7 +271,7 @@ Augmentez progressivement le volume des messages pour réchauffer votre réputat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 **Cible par jour de la semaine**
 
@@ -281,7 +281,7 @@ Envoyez un contenu différent en fonction du jour de la semaine où les clients 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 **Campagnes multicanaux**
 
@@ -291,7 +291,7 @@ Orchestrez des expériences transparentes sur les canaux e-mail, push, SMS et we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 **Tous les cas d’utilisation**
 
@@ -309,7 +309,7 @@ Explorez la bibliothèque complète de cas d’utilisation de parcours avec des 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 **Expressions avancées**
 
@@ -329,7 +329,7 @@ Gérez les audiences globales avec des ajustements de fuseau horaire automatique
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 **Mode test et essai**
 
@@ -349,7 +349,7 @@ Dupliquez des parcours dans les sandbox pour rationaliser les workflows de test 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 **Balises et organisation**
 
@@ -359,7 +359,7 @@ Utilisez les balises pour catégoriser et filtrer les parcours afin d’amélior
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 **Contrôle de débit**
 
