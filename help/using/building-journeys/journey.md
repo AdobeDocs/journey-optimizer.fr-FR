@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 32ca652c07cb7df48b9fa6fc2122583be839377e
+source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1420'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
-➡️ **Prêt à commencer la création ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
+➡️ **Prêt à commencer la création ?** [Créez votre premier parcours ](journey-gs.md) en 5 minutes.
 
 ## Choisissez votre type de parcours {#journey-types}
 
@@ -45,7 +45,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 >[!TAB parcours unitaires ]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr) **Quand utiliser :** expériences déclenchées par un événement en temps réel
+**Quand utiliser :** expériences déclenchées par un événement en temps réel
 
 Les **parcours unitaires** sont déclenchés individuellement lorsqu’une action spécifique se produit (achat, connexion à l’application, envoi du formulaire). Les profils entrent un par un en temps réel, ce qui en fait l’outil idéal pour des réponses immédiates basées sur le comportement.
 
@@ -60,7 +60,7 @@ Les **parcours unitaires** sont déclenchés individuellement lorsqu’une actio
 
 >[!TAB Lire les parcours d’audience]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr) **Utilisation :** campagnes planifiées vers des segments d’audience
+**Utilisation :** Campagnes planifiées aux segments d’audience
 
 **Lisez parcours d’audience** commencez par une audience Adobe Experience Platform et envoyez des messages par lots à tous les profils simultanément. Ce type de parcours est idéal pour les communications planifiées à grande échelle.
 
@@ -75,7 +75,7 @@ Les **parcours unitaires** sont déclenchés individuellement lorsqu’une actio
 
 >[!TAB parcours de qualification d’audience]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr) **Quand utiliser :** Réponses en temps réel aux modifications de l’appartenance à l’audience
+**Utilisation :** réponses en temps réel aux modifications de l’appartenance à l’audience
 
 **parcours de qualification d’audience** se déclenchent lorsque les profils sont qualifiés pour une audience spécifique (ou en sortent). Les profils entrent individuellement lorsqu’ils répondent à des critères en temps réel, ce qui permet un engagement immédiat lorsque le comportement des clients change.
 
@@ -90,7 +90,7 @@ Les **parcours unitaires** sont déclenchés individuellement lorsqu’une actio
 
 >[!TAB parcours d’événement métier]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr) **Utilisation :** conditions commerciales affectant plusieurs clients et clientes
+**Utilisation :** conditions commerciales affectant plusieurs clients et clientes
 
 Les **parcours d’événement métier** sont déclenchés par des événements au niveau de l’entreprise (mises à jour de stocks, alertes météorologiques, changements de prix) qui affectent plusieurs profils simultanément. Ils répondent à des conditions commerciales plus larges plutôt qu&#39;à des actions individuelles.
 
@@ -112,7 +112,7 @@ Les **parcours d’événement métier** sont déclenchés par des événements 
 
 ## Créer avec le concepteur de parcours {#journey-designer}
 
-Le concepteur de parcours **[&#128279;](using-the-journey-designer.md)** est votre zone de travail visuelle pour la création d’expériences client. Grâce à une interface intuitive par glisser-déposer, vous pouvez orchestrer chaque étape de votre parcours sans avoir à écrire de code.
+Le concepteur de parcours **[](using-the-journey-designer.md)** est votre zone de travail visuelle pour la création d’expériences client. Grâce à une interface intuitive par glisser-déposer, vous pouvez orchestrer chaque étape de votre parcours sans avoir à écrire de code.
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
@@ -121,7 +121,7 @@ Le concepteur de parcours **[&#128279;](using-the-journey-designer.md)** est vot
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Définir des points d’entrée**
 
@@ -141,7 +141,7 @@ Utilisez des actions de canal intégrées pour les e-mails, les notifications pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Ajouter une logique et des conditions**
 
@@ -161,7 +161,7 @@ Utilisez des données contextuelles issues d’événements, de Adobe Experience
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Connecter des systèmes externes**
 
@@ -171,7 +171,7 @@ Créez des actions personnalisées pour intégrer des systèmes tiers afin d&#39
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Ajouter des activités d’orchestration**
 
@@ -182,7 +182,7 @@ Utilisez les temps d’attente, les sauts, les mises à jour de profil et la ges
 
 ::::
 
-➡️ **Formation pratique :** [Regardez la vidéo du concepteur de parcours &#x200B;](#video) ou [explorez des cas d’utilisation de bout en bout](jo-use-cases.md)
+➡️ **Formation pratique :** [Regardez la vidéo du concepteur de parcours ](#video) ou [explorez des cas d’utilisation de bout en bout](jo-use-cases.md)
 
 ## Workflow de création de parcours {#workflow}
 
@@ -196,7 +196,7 @@ Avant d’ouvrir le concepteur, clarifiez vos objectifs :
 
 * **Quel est l&#39;objectif ?** (par exemple, intégration de nouveaux clients, réengagement des utilisateurs inactifs)
 * **Qui est l&#39;audience ?** (segment spécifique, individus pilotés par un événement)
-* **Quel type de parcours convient ?** (voir [types de parcours &#x200B;](#journey-types) ci-dessus)
+* **Quel type de parcours convient ?** (voir [types de parcours ](#journey-types) ci-dessus)
 * **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
 
 ### &#x200B;2. **Conception dans la zone de travail** {#design}
@@ -220,7 +220,7 @@ Testez toujours votre parcours pour détecter les problèmes avant que les clien
 * Vérifiez que toutes les conditions, tous les messages et toutes les actions fonctionnent comme prévu
 * Vérifier la synchronisation, les flux de données et la personnalisation
 
-[Tester votre → de parcours &#x200B;](testing-the-journey.md) | [En savoir plus sur les → d’essai](journey-dry-run.md)
+[Tester votre → de parcours ](testing-the-journey.md) | [En savoir plus sur les → d’essai](journey-dry-run.md)
 
 ### &#x200B;4. **Publier votre parcours** {#publish}
 
@@ -272,7 +272,7 @@ Lorsqu’un client s’abonne à votre service, déclenchez un parcours de bienv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimisation de l’heure d’envoi**
 
@@ -282,7 +282,7 @@ Utilisez l’IA pour diffuser des e-mails lorsque chaque client est le plus susc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Accélérer les diffusions**
 
@@ -292,7 +292,7 @@ Augmentez progressivement le volume des messages pour réchauffer votre réputat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Cible par jour de la semaine**
 
@@ -302,7 +302,7 @@ Envoyez un contenu différent en fonction du jour de la semaine où les clients 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagnes multicanaux**
 
@@ -312,7 +312,7 @@ Orchestrez des expériences transparentes sur les canaux e-mail, push, SMS et we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tous les cas d’utilisation**
 
@@ -330,7 +330,7 @@ Explorez la bibliothèque complète de cas d’utilisation de parcours avec des 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expressions avancées**
 
@@ -350,7 +350,7 @@ Gérez les audiences globales avec des ajustements de fuseau horaire automatique
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Mode test et essai**
 
@@ -370,7 +370,7 @@ Dupliquez des parcours dans les sandbox pour rationaliser les workflows de test 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Balises et organisation**
 
@@ -380,7 +380,7 @@ Utilisez les balises pour catégoriser et filtrer les parcours afin d’amélior
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -397,9 +397,9 @@ Limitez le débit des messages pour gérer la réputation des envois et éviter 
 
 Obtenez une présentation visuelle des composants de parcours et découvrez les principes de base de la création de parcours dans la zone de travail :
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **Vous voulez plus de vidéos ?** [Découvrir les tutoriels vidéo parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Vous voulez plus de vidéos ?** [Découvrir les tutoriels vidéo parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Besoin d&#39;aide ? {#help}
 

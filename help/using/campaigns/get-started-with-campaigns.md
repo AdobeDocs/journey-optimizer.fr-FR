@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 43b82a251eca802a14b83df670b479dd05f90b8e
+source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 31%
@@ -113,7 +113,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 >[!TAB Campagnes d’action (planifiées)]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr) **Utilisation :** communications par lots simples et planifiées
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Utilisation :** communications par lots simples et planifiées
 
 Les **campagnes d’action** (également appelées campagnes planifiées) sont idéales pour les communications par lots simples, ponctuelles ou récurrentes qui s’exécutent à un moment spécifique.
 
@@ -134,7 +134,7 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 
 >[!TAB Campagnes déclenchées par API]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr) **Utilisation :** messagerie en temps réel pilotée par les événements avec les systèmes externes
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **Utilisation :** messagerie en temps réel pilotée par les événements avec les systèmes externes
 
 **Campagnes déclenchées par API** activez par le biais d’appels d’API, ce qui active la messagerie automatisée directement à partir de systèmes externes. Ces campagnes prennent en charge la personnalisation à l’aide des attributs de profil et des données contextuelles en temps réel de la payload de l’API.
 
@@ -155,7 +155,7 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 
 >[!TAB Campagnes orchestrées]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr) **Utilisation :** workflows marketing complexes, à plusieurs étapes
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **Utilisation :** workflows marketing complexes, à plusieurs étapes
 
 **Campagnes orchestrées** fournissez une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing sophistiqués. De la segmentation de l’audience à la diffusion personnalisée des messages sur plusieurs canaux, tout se passe dans un environnement intuitif conçu pour la vitesse et le contrôle.
 
@@ -204,7 +204,7 @@ Configurez les bases de votre campagne :
 **Guides spécifiques aux types :**
 * [Propriétés de la campagne d’action →](campaign-properties.md)
 * [→ des propriétés de campagne déclenchées par API](api-triggered-campaign-properties.md)
-* [→ de configuration de campagne orchestrée](../orchestrated/create-orchestrated-campaigns.md)
+* [→ de configuration de campagne orchestrée](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;3. **Concevoir le contenu** {#design}
 
@@ -219,7 +219,7 @@ Créez des messages attrayants pour votre audience :
 **Guides spécifiques aux types :**
 * [→ du contenu de la campagne d’action](campaign-content.md)
 * [→ de contenu de campagne déclenchée par l’API](api-triggered-campaign-content.md)
-* [Contenu de campagne orchestré →](../orchestrated/create-orchestrated-campaigns.md)
+* [Contenu de campagne orchestré →](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. **Examen et test** {#review}
 
@@ -234,7 +234,7 @@ Examinez toujours votre campagne avant l’activation :
 **Guides spécifiques aux types :**
 * [Consulter la → des campagnes d’action](review-activate-campaign.md)
 * [Vérification des campagnes déclenchées par API →](review-activate-api-triggered-campaign.md)
-* [Vérifier les → de campagnes orchestrées](../orchestrated/create-orchestrated-campaigns.md)
+* [Vérifier les → de campagnes orchestrées](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;5. **Activer votre campagne** {#activate}
 
@@ -248,7 +248,7 @@ Une fois la révision terminée, activez votre campagne :
 **Guides spécifiques aux types :**
 * [Activer les campagnes d’action →](review-activate-campaign.md)
 * [Activer les campagnes déclenchées par API →](review-activate-api-triggered-campaign.md)
-* [Activer les campagnes orchestrées →](../orchestrated/create-orchestrated-campaigns.md)
+* [Activer les campagnes orchestrées →](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;6. **Surveiller et analyser** {#monitor}
 
@@ -309,7 +309,7 @@ La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et minutage**
 
@@ -319,7 +319,7 @@ Planifiez des campagnes à des dates/heures spécifiques, définissez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -329,7 +329,7 @@ Limitez le débit des messages pour éviter la surcharge sur les systèmes en av
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -339,7 +339,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -359,7 +359,7 @@ Respectez les préférences du client en évitant la diffusion de messages penda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation de l’heure d’envoi**
 
