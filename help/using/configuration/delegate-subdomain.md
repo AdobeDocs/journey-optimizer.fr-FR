@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '1906'
-ht-degree: 100%
+source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
+workflow-type: tm+mt
+source-wordcount: '1928'
+ht-degree: 98%
 
 ---
 
@@ -125,6 +125,10 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
 
     Capital letters are not allowed in subdomains. TBC by PM
 -->
+
+    >[!REMARQUE]
+    >
+    >Après la création d’un nouveau sous-domaine avec votre fournisseur DNS, attendez 24 à 48 heures pour la propagation DNS avant de tenter la délégation à Adobe.
 
 1. Configurez l’**[!UICONTROL enregistrement DMARC]** dans la section dédiée. Si le sous-domaine comporte un [enregistrement DMARC](dmarc-record.md) existant et qu’il est récupéré par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs ou les modifier selon vos besoins. Si vous n’ajoutez pas de valeurs, les valeurs par défaut seront utilisées. [Découvrez comment gérer l’enregistrement DMARC](dmarc-record.md#set-up-dmarc).
 
@@ -277,4 +281,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
