@@ -45,7 +45,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 >[!TAB parcours unitaires ]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) **Quand utiliser :** expériences déclenchées par un événement en temps réel
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr) **Quand utiliser :** expériences déclenchées par un événement en temps réel
 
 Les **parcours unitaires** sont déclenchés individuellement lorsqu’une action spécifique se produit (achat, connexion à l’application, envoi du formulaire). Les profils entrent un par un en temps réel, ce qui en fait l’outil idéal pour des réponses immédiates basées sur le comportement.
 
@@ -60,7 +60,7 @@ Les **parcours unitaires** sont déclenchés individuellement lorsqu’une actio
 
 >[!TAB Lire les parcours d’audience]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg) **Utilisation :** campagnes planifiées vers des segments d’audience
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr) **Utilisation :** campagnes planifiées vers des segments d’audience
 
 **Lisez parcours d’audience** commencez par une audience Adobe Experience Platform et envoyez des messages par lots à tous les profils simultanément. Ce type de parcours est idéal pour les communications planifiées à grande échelle.
 
@@ -75,7 +75,7 @@ Les **parcours unitaires** sont déclenchés individuellement lorsqu’une actio
 
 >[!TAB parcours de qualification d’audience]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg) **Quand utiliser :** Réponses en temps réel aux modifications de l’appartenance à l’audience
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr) **Quand utiliser :** Réponses en temps réel aux modifications de l’appartenance à l’audience
 
 **parcours de qualification d’audience** se déclenchent lorsque les profils sont qualifiés pour une audience spécifique (ou en sortent). Les profils entrent individuellement lorsqu’ils répondent à des critères en temps réel, ce qui permet un engagement immédiat lorsque le comportement des clients change.
 
@@ -90,7 +90,7 @@ Les **parcours unitaires** sont déclenchés individuellement lorsqu’une actio
 
 >[!TAB parcours d’événement métier]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Utilisation :** conditions commerciales affectant plusieurs clients et clientes
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr) **Utilisation :** conditions commerciales affectant plusieurs clients et clientes
 
 Les **parcours d’événement métier** sont déclenchés par des événements au niveau de l’entreprise (mises à jour de stocks, alertes météorologiques, changements de prix) qui affectent plusieurs profils simultanément. Ils répondent à des conditions commerciales plus larges plutôt qu&#39;à des actions individuelles.
 
@@ -121,7 +121,7 @@ Le concepteur de parcours **[&#128279;](using-the-journey-designer.md)** est vot
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 **Définir des points d’entrée**
 
@@ -141,7 +141,7 @@ Utilisez des actions de canal intégrées pour les e-mails, les notifications pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 **Ajouter une logique et des conditions**
 
@@ -161,7 +161,7 @@ Utilisez des données contextuelles issues d’événements, de Adobe Experience
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 **Connecter des systèmes externes**
 
@@ -171,7 +171,7 @@ Créez des actions personnalisées pour intégrer des systèmes tiers afin d&#39
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 **Ajouter des activités d’orchestration**
 
@@ -279,7 +279,7 @@ Lorsqu’un client s’abonne à votre service, déclenchez un parcours de bienv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
 
 **Optimisation de l’heure d’envoi**
 
@@ -289,7 +289,7 @@ Utilisez l’IA pour diffuser des e-mails lorsque chaque client est le plus susc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 **Accélérer les diffusions**
 
@@ -299,7 +299,7 @@ Augmentez progressivement le volume des messages pour réchauffer votre réputat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 **Cible par jour de la semaine**
 
@@ -309,7 +309,7 @@ Envoyez un contenu différent en fonction du jour de la semaine où les clients 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 **Campagnes multicanaux**
 
@@ -319,7 +319,7 @@ Orchestrez des expériences transparentes sur les canaux e-mail, push, SMS et we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 **Tous les cas d’utilisation**
 
@@ -337,7 +337,7 @@ Explorez la bibliothèque complète de cas d’utilisation de parcours avec des 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 **Expressions avancées**
 
@@ -357,7 +357,7 @@ Gérez les audiences globales avec des ajustements de fuseau horaire automatique
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 **Mode test et essai**
 
@@ -377,7 +377,7 @@ Dupliquez des parcours dans les sandbox pour rationaliser les workflows de test 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 **Balises et organisation**
 
@@ -387,7 +387,7 @@ Utilisez les balises pour catégoriser et filtrer les parcours afin d’amélior
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 **Contrôle de débit**
 
