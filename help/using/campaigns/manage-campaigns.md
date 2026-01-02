@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 66%
@@ -191,7 +191,7 @@ Représentation des campagnes :
 
 ## Modifier et arrêter des campagnes d’action récurrentes {#modify}
 
-### Modifier une campagne d’action
+### Modifier une campagne d’action {#modify-an-action-campaign}
 
 Pour modifier et créer une nouvelle version d’une campagne d’action récurrente, procédez comme suit :
 
@@ -258,7 +258,7 @@ La campagne est créée et ajoutée à la liste des campagnes.
 
 ## Ressources supplémentaires
 
-* **Prise en main** - [Prise en main des campagnes](get-started-with-campaigns.md) | [Créer votre première campagne Action](create-campaign.md) | [&#x200B; Guide des campagnes déclenchées par API &#x200B;](api-triggered-campaigns.md) | [&#x200B; Guide des campagnes orchestrées &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
+* **Prise en main** - [Prise en main des campagnes](get-started-with-campaigns.md) | [Créer votre première campagne Action](create-campaign.md) | [ Guide des campagnes déclenchées par API ](api-triggered-campaigns.md) | [ Guide des campagnes orchestrées ](../orchestrated/gs-orchestrated-campaigns.md)
 
 * **Configuration de la campagne** - [Propriétés de la campagne](campaign-properties.md) | [Actions et canaux de Campaign](campaign-action.md) | [Conception de contenu Campaign](campaign-content.md) | [Sélection de l’audience de la campagne](campaign-audience.md) | [Planification des campagnes](campaign-schedule.md)
 

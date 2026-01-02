@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 96%
 
 ---
 
@@ -50,8 +50,10 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 1. [Vérifier et activer la campagne](review-activate-api-triggered-campaign.md)
 1. [Déclencher l’exécution de la campagne](trigger-campaigns.md)
 
+En savoir plus sur le [](get-started-with-campaigns.md#workflow) workflow de création de campagne complet avec des guides spécifiques au type→
+
 ## Vidéos pratiques {#video}
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452727?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

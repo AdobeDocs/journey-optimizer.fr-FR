@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '2730'
-ht-degree: 98%
+source-wordcount: '2733'
+ht-degree: 97%
 
 ---
 
@@ -308,7 +308,7 @@ Plus généralement, pour mesurer l’impact de votre plan, vous pouvez vérifie
 
 ![](assets/ip-warmup-plan-reports.png)
 
-Vous pouvez également accéder aux rapports à partir du [menu Campagnes](../campaigns/manage-campaigns.md#access), car votre plan peut utiliser différentes campagnes.
+Vous pouvez également accéder aux rapports à partir du menu [Campagnes](../campaigns/manage-campaigns.md#access), car votre plan peut utiliser différentes campagnes. [Afficher dans le → du calendrier](../campaigns/manage-campaigns.md#calendar)
 
 
 ## Gérer votre plan {#manage-plan}

@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '663'
 ht-degree: 68%
 
 ---
@@ -66,7 +66,7 @@ Les politiques de validation offrent des options de ciblage flexibles pour répo
 * **Noms de campagne/Parcours** : ciblez des objets spécifiques par nom.
 * **Balises** : application de politiques à toutes les campagnes ou à tous les parcours comportant une balise spécifique
 * **Types de canal** : nécessitent une approbation pour des actions spécifiques (e-mail, SMS, notification push, etc.)
-* **Types de campagne** : définissez des règles différentes pour les campagnes planifiées par rapport aux campagnes déclenchées par l’API
+* **Types de campagne** : définissez des règles différentes pour les campagnes déclenchées par [Action ou API](../campaigns/get-started-with-campaigns.md#campaign-types)
 * **Demandeurs** : définissez des politiques en fonction de la personne qui crée la campagne ou le parcours
 
 Pour définir les conditions associées à une politique d’approbation, procédez comme suit :

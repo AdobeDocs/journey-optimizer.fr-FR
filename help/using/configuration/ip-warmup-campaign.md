@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 05e300476ee77c7ac449f3cbb1ecb506e94c3da0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -81,5 +81,5 @@ Une campagne de préchauffage d’adresses IP ne peut être utilisée que dans u
 
 >[!NOTE]
 >
->Lorsqu’une campagne active est utilisée dans un plan de préchauffage d’adresses IP, une fois que le plan est [marqué comme terminé](ip-warmup-execution.md#mark-as-completed), le statut de cette campagne passe à **[!UICONTROL Arrêté]**.
+>Lorsqu’une campagne active est utilisée dans un plan de préchauffage d’adresses IP, une fois le plan [marqué comme terminé](ip-warmup-execution.md#mark-as-completed), le [statut](../campaigns/manage-campaigns.md#statuses) de cette campagne devient **[!UICONTROL Arrêté]**.
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1337'
-ht-degree: 100%
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -148,7 +148,7 @@ Selon les informations que vous recherchez, vous pouvez exécuter les requêtes 
 
    >[!NOTE]
    >
-   >Pour obtenir le paramètre `<journey version id>`, sélectionnez la [version de parcours](../building-journeys/journey.md#uc-journey) correspondante à partir du menu **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Parcours]**. L’ID de version du parcours s’affiche à la fin de l’URL affichée dans votre navigateur web.
+   >Pour obtenir le paramètre `<journey version id>`, sélectionnez la version de parcours correspondante à partir du menu **[!UICONTROL Gestion des Parcours]** > **[!UICONTROL Parcours]**. L’ID de version du parcours s’affiche à la fin de l’URL affichée dans votre navigateur web. [En savoir plus sur les versions de parcours ](../building-journeys/publish-journey.md#journey-versions)
    >
    >![](assets/preset-bcc-action-id.png)
 

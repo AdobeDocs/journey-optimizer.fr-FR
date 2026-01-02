@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -69,13 +69,13 @@ Le statut de votre parcours basé sur du code passe à **[!UICONTROL Actif]** et
    >
    >En savoir plus sur l’activation des campagnes dans [cette section](../campaigns/review-activate-campaign.md).
 
-Votre campagne basée sur le code passe au statut **[!UICONTROL Actif]** et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre contenu.
+Votre campagne basée sur le code adopte le statut **[!UICONTROL Actif]** [](../campaigns/manage-campaigns.md#statuses) et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre contenu.
 
 >[!NOTE]
 >
 >Après avoir cliqué sur **[!UICONTROL Activer]**, les modifications peuvent prendre jusqu’à 15 minutes avant d’être mises en ligne.
 >
->Si vous avez défini un planning pour votre campagne basée sur le code, celle-ci conserve le statut **[!UICONTROL Planifié]** jusqu’à ce que la date et l’heure de début soient atteintes.
+>Si vous avez défini un planning pour votre campagne basée sur du code, celle-ci conserve le statut **[!UICONTROL Planifié]** [Statut](../campaigns/manage-campaigns.md#statuses) jusqu’à ce que la date et l’heure de début soient atteintes.
 
 ## Arrêter un parcours basé sur du code ou une campagne basée sur du code {#stop-code-based-experience}
 

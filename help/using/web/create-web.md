@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -230,13 +230,13 @@ Une fois que vous avez défini vos paramètres de campagne web et que vous avez 
    >
    >En savoir plus sur l’activation des campagnes dans [cette section](../campaigns/review-activate-campaign.md).
 
-Votre campagne web passe au statut **[!UICONTROL Actif]** et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre site web.
+Votre campagne web passe au statut **[!UICONTROL Actif]** [](../campaigns/manage-campaigns.md#statuses) et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre site web.
 
 >[!NOTE]
 >
 >Après avoir cliqué sur **[!UICONTROL Activer]**, les modifications des campagnes web peuvent prendre jusqu’à 15 minutes pour être disponibles en direct sur votre site web.
 >
->Si vous avez défini un planning pour votre campagne web, celle-ci conserve le statut **[!UICONTROL Planifié]** jusqu’à ce que la date et l’heure de début soient atteintes.
+>Si vous avez défini un planning pour votre campagne web, celle-ci conserve le statut **[!UICONTROL Planifié]** [statut](../campaigns/manage-campaigns.md#statuses) jusqu’à ce que la date et l’heure de début soient atteintes.
 
 Une fois votre expérience mise en ligne, vous pouvez surveiller vos parcours web et vos campagnes web. [En savoir plus](monitor-web-experiences.md)
 
@@ -266,4 +266,4 @@ Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter
 
 La vidéo ci-dessous montre comment créer une campagne web, configurer ses propriétés, la réviser et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449983/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

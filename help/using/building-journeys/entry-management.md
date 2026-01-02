@@ -9,10 +9,10 @@ level: Intermediate
 keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 93%
+source-wordcount: '1214'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ La gestion des entrées de profil dépend du type de parcours.
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation tels que des campagnes de bienvenue, la récupération de panier abandonné et des programmes de fidélité avec des exemples complets de configuration d’entrée et de sortie.
+>Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation tels que des campagnes de bienvenue, la récupération de panier abandonné et des programmes de fidélité avec des exemples complets de configuration d’entrée et de sortie.
 
 ## Types de parcours {#types-of-journeys}
 
@@ -36,6 +36,8 @@ Avec Adobe Journey Optimizer, vous pouvez créer les types de parcours suivant
 * Parcours **Lecture d’audience** : ces parcours commencent par une activité **Lecture d’audience**. Lorsque le parcours est exécuté, les profils appartenant à l’audience ciblée rejoignent le parcours. Une instance de ce parcours est créée pour chaque profil. Ces parcours peuvent être récurrents ou ponctuels. [En savoir plus](#entry-read-audience)
 
 * Parcours **Qualification de l’audience** : ces parcours commencent par un événement Qualification de l’audience. Ces parcours écoutent les entrées et les sorties des profils dans les audiences. Lorsque cela se produit, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
+
+[Comparer tous les types de parcours avec les cas d’utilisation →](journey.md#journey-types)
 
 Dans tous les types de parcours, un profil ne peut pas être présent plusieurs fois dans un même parcours et au même moment. Cela s’applique à toutes les [versions actives du parcours](publish-journey.md#journey-versions). Pour vérifier qu’une personne se trouve dans un parcours, l’identité du profil est utilisée comme clé. Le système n’autorise pas qu’une même clé (`CRMID=3224`, par exemple) se trouve à des endroits différents dans un même parcours.
 
@@ -122,7 +124,7 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 
 ## Rubriques connexes
 
-* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) - Définir quand les profils doivent quitter votre parcours
-* [Terminer un parcours &#x200B;](end-journey.md) - Comprendre comment les parcours se ferment et se terminent
-* [Cas d’utilisation de Parcours &#x200B;](jo-use-cases.md) - Consultez des exemples complets avec des configurations d’entrée et de sortie
+* [Terminer un parcours ](end-journey.md) - Comprendre comment les parcours se ferment et se terminent
+* [Cas d’utilisation de Parcours ](jo-use-cases.md) - Consultez des exemples complets avec des configurations d’entrée et de sortie
