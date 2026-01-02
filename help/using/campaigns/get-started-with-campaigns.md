@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
+source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 31%
@@ -183,10 +183,7 @@ Configurez les bases de votre campagne :
 4. **Définir la priorité** si vous utilisez la gestion des conflits
 5. **Configurer le planning** (pour les campagnes d’action) ou les détails de l’API (pour les campagnes déclenchées par API)
 
-**Guides spécifiques aux types :**
-* [Propriétés de la campagne d’action →](campaign-properties.md)
-* [→ des propriétés de campagne déclenchées par API](api-triggered-campaign-properties.md)
-* [→ de configuration de campagne orchestrée](../orchestrated/create-orchestrated-campaign.md)
+**Guides spécifiques aux types :** [Propriétés de la campagne d’action](campaign-properties.md) | [Propriétés de campagne déclenchées par API](api-triggered-campaign-properties.md) | [Configuration de campagne orchestrée](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;3. Concevoir le contenu {#design}
 
@@ -198,10 +195,7 @@ Créez des messages attrayants pour votre audience :
 * Créer des expériences **in-app** et **web**
 * Ajouter **personnalisation** à l’aide des attributs de profil et des données contextuelles
 
-**Guides spécifiques aux types :**
-* [→ du contenu de la campagne d’action](campaign-content.md)
-* [→ de contenu de campagne déclenchée par l’API](api-triggered-campaign-content.md)
-* [Contenu de campagne orchestré →](../orchestrated/create-orchestrated-campaign.md)
+**Guides spécifiques aux types :** [Contenu d’action de campagne](campaign-content.md) | [Contenu de campagne déclenché par API](api-triggered-campaign-content.md) | [ Contenu de campagne orchestré ](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. Examen et test {#review}
 
@@ -213,10 +207,7 @@ Examinez toujours votre campagne avant l’activation :
 * **Demande d’approbation** si vous utilisez le workflow d’approbation
 * **Tester la délivrabilité** avec des listes de contrôle
 
-**Guides spécifiques aux types :**
-* [Consulter la → des campagnes d’action](review-activate-campaign.md)
-* [Vérification des campagnes déclenchées par API →](review-activate-api-triggered-campaign.md)
-* [Vérifier les → de campagnes orchestrées](../orchestrated/create-orchestrated-campaign.md)
+**Guides spécifiques aux types :** [Consultez les campagnes Action](review-activate-campaign.md) | [Vérification des campagnes déclenchées par l’API](review-activate-api-triggered-campaign.md) | [Vérifier les campagnes orchestrées](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;5. Activer votre campagne {#activate}
 
@@ -227,10 +218,7 @@ Une fois la révision terminée, activez votre campagne :
 * **Processus d’approbation** - Si nécessaire, attendez l’approbation des parties prenantes
 * Remarque : les campagnes actives ne peuvent pas être modifiées (vous devez les dupliquer pour apporter des modifications)
 
-**Guides spécifiques aux types :**
-* [Activer les campagnes d’action →](review-activate-campaign.md)
-* [Activer les campagnes déclenchées par API →](review-activate-api-triggered-campaign.md)
-* [Activer les campagnes orchestrées →](../orchestrated/create-orchestrated-campaign.md)
+**Guides spécifiques aux types :** [Activer des campagnes d’action](review-activate-campaign.md) | [Activer des campagnes déclenchées par API](review-activate-api-triggered-campaign.md) | [Activer des campagnes orchestrées](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;6. Surveiller et analyser {#monitor}
 
@@ -242,10 +230,7 @@ Suivez les performances de votre campagne :
 * Analyse de la conversion et du retour sur investissement
 * Utiliser des informations pour l’optimisation
 
-**Guides spécifiques aux types :**
-* [Rapports de campagne d’action →](../reports/campaign-global-report-cja.md)
-* [→ de surveillance des campagnes déclenchées par API](api-triggered-campaigns.md#monitor)
-* [→ d’analyse de campagne orchestrée](../orchestrated/create-orchestrated-campaign.md)
+**Guides spécifiques aux types :** [Rapports de campagne d’action](../reports/campaign-global-report-cja.md) | [Surveillance de campagne déclenchée par API](api-triggered-campaigns.md#monitor) | [Analyse de campagne orchestrée](../orchestrated/create-orchestrated-campaign.md)
 
 ➡️ **Prêt à démarrer ?** Choisissez votre type de campagne :
 * [Créer un → de campagne d’action](create-campaign.md)
@@ -291,7 +276,7 @@ La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et minutage**
 
@@ -301,7 +286,7 @@ Planifiez des campagnes à des dates/heures spécifiques, définissez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -311,7 +296,7 @@ Limitez le débit des messages pour éviter la surcharge sur les systèmes en av
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -321,7 +306,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -341,7 +326,7 @@ Respectez les préférences du client en évitant la diffusion de messages penda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation de l’heure d’envoi**
 
