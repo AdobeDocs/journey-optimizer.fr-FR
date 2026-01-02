@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
+source-git-commit: b038865ee71ae4acb463b32d5ea66488f42b5c54
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 31%
@@ -113,7 +113,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 >[!TAB Campagnes d’action (planifiées)]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr) **Utilisation :** communications par lots simples et planifiées
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Utilisation :** communications par lots simples et planifiées
 
 Les **campagnes d’action** (également appelées campagnes planifiées) sont idéales pour les communications par lots simples, ponctuelles ou récurrentes qui s’exécutent à un moment spécifique.
 
@@ -134,7 +134,7 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 
 >[!TAB Campagnes déclenchées par API]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr) **Utilisation :** messagerie en temps réel pilotée par les événements avec les systèmes externes
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **Utilisation :** messagerie en temps réel pilotée par les événements avec les systèmes externes
 
 **Campagnes déclenchées par API** activez par le biais d’appels d’API, ce qui active la messagerie automatisée directement à partir de systèmes externes. Ces campagnes prennent en charge la personnalisation à l’aide des attributs de profil et des données contextuelles en temps réel de la payload de l’API.
 
@@ -155,7 +155,7 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 
 >[!TAB Campagnes orchestrées]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr) **Utilisation :** workflows marketing complexes, à plusieurs étapes
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **Utilisation :** workflows marketing complexes, à plusieurs étapes
 
 **Campagnes orchestrées** fournissez une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing sophistiqués. De la segmentation de l’audience à la diffusion personnalisée des messages sur plusieurs canaux, tout se passe dans un environnement intuitif conçu pour la vitesse et le contrôle.
 
@@ -263,7 +263,7 @@ Suivez les performances de votre campagne :
 **Guides spécifiques aux types :**
 * [Rapports de campagne d’action →](../reports/campaign-global-report-cja.md)
 * [→ de surveillance des campagnes déclenchées par API](api-triggered-campaigns.md#monitor)
-* [→ d’analyse de campagne orchestrée](../orchestrated/create-orchestrated-campaigns.md)
+* [→ d’analyse de campagne orchestrée](../orchestrated/create-orchestrated-campaign.md)
 
 ➡️ **Prêt à démarrer ?** Choisissez votre type de campagne :
 * [Créer un → de campagne d’action](create-campaign.md)
@@ -309,7 +309,7 @@ La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et minutage**
 
@@ -319,7 +319,7 @@ Planifiez des campagnes à des dates/heures spécifiques, définissez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -329,7 +329,7 @@ Limitez le débit des messages pour éviter la surcharge sur les systèmes en av
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -339,7 +339,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -359,7 +359,7 @@ Respectez les préférences du client en évitant la diffusion de messages penda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation de l’heure d’envoi**
 
