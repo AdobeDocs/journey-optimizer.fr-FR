@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 88%
+source-wordcount: '678'
+ht-degree: 82%
 
 ---
 
@@ -33,7 +33,7 @@ où :
 
 ## Règles générales de syntaxe {#general-rules}
 
-* Les identificateurs peuvent être n&#39;importe quel caractère unicode, à l&#39;exception des caractères suivants :
+* Les identifiants peuvent être n’importe quel caractère Unicode, à l’exception des caractères spéciaux suivants, qui sont réservés à la syntaxe Handlebars :
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -47,7 +47,7 @@ où :
 
   Supposons que la valeur du champ `profile.person.name` soit « Mark &amp; Mary ». Le `{{profile.person.name}}` de syntaxe affiche `Mark &amp; Mary`, tandis que `{{{profile.person.name}}}` affiche `Mark & Mary`.
 
-* En ce qui concerne les arguments de fonctions littérales, l’analyseur de langage de création de modèles ne prend pas en charge la barre oblique inverse sans échappement (`\`). Ce caractère doit avoir fait l’objet d’une séquence d’échappement avec une barre oblique inverse supplémentaire (`\`). Exemple :
+* En ce qui concerne les arguments de fonctions littérales, l’analyseur de langage de création de modèles ne prend pas en charge la barre oblique inverse sans échappement (`\`). Ce caractère doit être placé dans une séquence d’échappement avec une barre oblique inverse (`\`) supplémentaire. Exemple :
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -136,7 +136,7 @@ Sans les backticks, l’éditeur de personnalisation échoue lors de la validati
 
   +++
 
-## Assistants{#helpers-all}
+## Assistants {#helpers-all}
 
 Un assistant Handlebars est un identifiant simple qui peut être suivi de paramètres. Chaque paramètre est une expression Handlebars. Ces assistants sont accessibles depuis n&#39;importe quel contexte dans un modèle.
 
@@ -144,7 +144,7 @@ Ces assistants de bloc sont identifiés par un `#` placé devant le nom de l’a
 
 Les blocs sont des expressions qui ont une ouverture (`{{# }}`) et une fermeture (`{{/}}`) de bloc.
 
-Pour plus d’informations sur les fonctions d’assistant, consultez [cette section](functions/helpers.md).
+    Pour plus d’informations sur les fonctions d’assistance, consultez [cette section](functions/helpers.md).
 
 ## Types littéraux {#literal-types}
 
