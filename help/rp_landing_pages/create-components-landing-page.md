@@ -45,7 +45,7 @@ Définissez des règles de décision pour personnaliser les offres en ciblant de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=fr)
 
 Création et gestion des qualificateurs de collection dans Adobe Journey Optimizer
 
