@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: Créer des rapports de gestion des décisions
 description: Créer des rapports de gestion des décisions
 redpen-status: CREATED_||_2025-08-11_21-02-56
+badge: label="Hérité" type="Informative"
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
 
 # Créer des rapports de gestion des décisions{#section-overview}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
 La création de rapports de gestion des décisions dans Adobe Journey Optimizer vous permet d’obtenir de précieuses informations sur les performances de vos offres et décisions personnalisées dans des scénarios réels. En utilisant les données et les schémas d’événement, vous pouvez découvrir les offres sélectionnées, les scénarios de secours et l’efficacité des emplacements, autant d’éléments clés pour affiner vos expériences client. Cette section vous guide tout au long de la compréhension des jeux de données d’événement, de l’accès et de l’interprétation du schéma XDM DecisioningEvents, et de l’utilisation de ces outils pour obtenir des rapports exploitables. Que vous soyez ingénieur ou ingénieure de données ou spécialiste marketing, vous apprendrez à analyser et à optimiser en toute confiance les processus de prise de décision.
 

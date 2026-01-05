@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: Collecter les données d’événement
 description: Collecter les données d’événement
 redpen-status: CREATED_||_2025-08-11_21-02-07
+badge: label="Hérité" type="Informative"
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
 
 # Collecter les données d’événement{#section-overview}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
 La collecte de données d’événement dans Adobe Journey Optimizer vous permet d’effectuer le suivi d’interactions essentielles telles que les décisions, les impressions, les clics et les événements personnalisés, en veillant à ce que vos offres soient adaptées et efficaces. Ces données alimentent des processus critiques tels que la création de rapports, le capping de la fréquence et la création de modèles d’IA en s’intégrant de manière transparente à Adobe Experience Platform. Vous allez apprendre comment différents types d’événements, qu’ils soient déclenchés automatiquement ou définis de façon personnalisée, fonctionnent ensemble pour fournir des commentaires exploitables. De la création de jeux de données à la configuration de schémas, chaque étape jette les bases de la capture et de l’exploitation des informations, ce qui vous aide à prendre des décisions éclairées et à optimiser les expériences client en toute confiance.
 

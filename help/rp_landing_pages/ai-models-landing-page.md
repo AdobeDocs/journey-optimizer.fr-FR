@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: Modèles d’IA
 description: Modèles d’IA
 redpen-status: CREATED_||_2025-08-11_20-59-35
+badge: label="Hérité" type="Informative"
 exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
 
 # Modèles d’IA{#section-overview}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
 Les modèles d’IA d’Adobe Journey Optimizer vous aident à prendre des décisions plus intelligentes et axées sur les données en classant les offres en fonction des objectifs de votre entreprise. Que vous visiez des taux de conversion plus élevés, une augmentation de votre chiffre d’affaires ou des expériences client personnalisées, ces modèles s’adaptent à vos besoins. Vous allez explorer deux types de modèles d’IA : l’optimisation automatique, qui se concentre sur l’amélioration des performances globales en fonction des données antérieures, et l’optimisation personnalisée, qui adapte les recommandations à chaque individu. Grâce à des conseils clairs sur la création et l’utilisation de ces modèles, vous apprendrez à exploiter leur potentiel pour optimiser chaque interaction, rendant vos stratégies marketing plus efficaces et plus percutantes.
 

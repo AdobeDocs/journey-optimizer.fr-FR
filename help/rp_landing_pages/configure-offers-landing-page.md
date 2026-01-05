@@ -4,17 +4,22 @@ product: Journey Optimizer
 title: Configurer les offres
 description: Configurer les offres
 redpen-status: CREATED_||_2025-08-11_21-00-31
+badge: label="Hérité" type="Informative"
 exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 87%
 
 ---
 
 # Configurer les offres{#section-overview}
 
-La section « Configurer les offres » d’Adobe Journey Optimizer vous permet de concevoir et de gérer des offres personnalisées qui correspondent parfaitement aux besoins et préférences de votre audience. Que vous créiez des offres à partir de zéro, définissiez leur emplacement ou affiniez des contraintes telles que l’éligibilité et la fréquence, ces outils permettent de vous assurer que vos messages atteignent les bonnes personnes, au bon moment. Vous allez découvrir comment créer du contenu attrayant selon différents contextes, définir des règles pour le moment et l’endroit où les offres apparaissent et ajuster les priorités afin d’en optimiser les effets. Au terme de votre parcours, vous disposerez des compétences nécessaires pour créer des offres dynamiques et ciblées qui boostent l’engagement et fournissent des résultats mesurables.
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
+
+La section « Configurer les offres » de Adobe Journey Optimizer vous permet de concevoir et de gérer des offres personnalisées qui s’alignent parfaitement sur les besoins et les préférences de votre audience. Que vous créiez des offres à partir de zéro, définissiez leur emplacement ou affiniez des contraintes telles que l’éligibilité et la fréquence, ces outils permettent de vous assurer que vos messages atteignent les bonnes personnes, au bon moment. Vous allez découvrir comment créer du contenu attrayant selon différents contextes, définir des règles pour le moment et l’endroit où les offres apparaissent et ajuster les priorités afin d’en optimiser les effets. Au terme de votre parcours, vous disposerez des compétences nécessaires pour créer des offres dynamiques et ciblées qui boostent l’engagement et fournissent des résultats mesurables.
 
 ## Configurer les offres
 

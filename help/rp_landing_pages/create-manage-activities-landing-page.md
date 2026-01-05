@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: Créer et gérer des décisions
 description: Créer et gérer des décisions
 redpen-status: CREATED_||_2025-08-11_21-01-28
+badge: label="Hérité" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '206'
 ht-degree: 100%
 
 ---
 
 # Créer et gérer des décisions{#section-overview}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
 Dans Adobe Journey Optimizer, la création et la gestion des décisions vous permettent de proposer à votre clientèle les offres les plus pertinentes, au bon moment. Les décisions se comportent comme des conteneurs intelligents qui évaluent les données des clientes et clients et les règles métier afin de sélectionner la meilleure offre pour chaque individu. Vous allez apprendre à définir des portées de décision, à configurer des méthodes de classement telles que la priorité ou l’IA, et à définir des options de secours pour vous assurer qu’aucune personne de la clientèle ne se retrouve sans offre. De l’élaboration de votre première décision au test avec des simulations, ce guide détaille chaque étape et vous donne les outils nécessaires pour personnaliser les expériences et générer un engagement significatif.
 

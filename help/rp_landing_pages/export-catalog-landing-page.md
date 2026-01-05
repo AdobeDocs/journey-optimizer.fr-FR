@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: Exporter votre catalogue d’offres
 description: Exporter votre catalogue d’offres
 redpen-status: CREATED_||_2025-08-11_21-03-50
+badge: label="Hérité" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '292'
 ht-degree: 100%
 
 ---
 
 # Exporter votre catalogue d’offres{#section-overview}
+
+>[!TIP]
+>
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
 L’export de votre catalogue d’offres dans Adobe Journey Optimizer ouvre la porte à une intégration transparente des données avec Adobe Experience Platform. Cette fonctionnalité garantit que vos offres personnalisées, options de secours, emplacements et décisions sont automatiquement mis à jour et organisés en jeux de données, prêts pour une analyse et une prise de décision avancées. Que vous prévisualisiez des jeux de données exportés, compreniez leur structure ou que vous exploriez des détails spécifiques tels que des classements ou des contraintes, le processus est conçu pour être intuitif et efficace. En explorant les rubriques à venir, vous obtiendrez les outils nécessaires pour exploiter cette fonctionnalité afin d’offrir des expériences clients plus précises et axées sur les données.
 
