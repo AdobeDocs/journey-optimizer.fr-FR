@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
+source-git-commit: b85210a46c928389db985f0f794618209773c071
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 98%
+source-wordcount: '1648'
+ht-degree: 81%
 
 ---
 
@@ -115,6 +115,10 @@ Si vous avez sélectionné **[!UICONTROL SFTP]** en tant que **[!UICONTROL type 
 
 ![](assets/file-routing-config-sftp-detail.png)
 
+>[!TIP]
+>
+>Lors de l’utilisation de l’authentification par clé SSH, la clé doit être une clé privée OpenSSH codée en **Base64**. S’il s’agit d’un fichier au format PPK, utilisez l’outil PuTTY pour le convertir au format OpenSSH. Pour obtenir des instructions détaillées, voir [cette section](#ssh-key-generation).
+
 >[!NOTE]
 >
 >Pour spécifier un chemin d’accès sur le serveur afin d’enregistrer le fichier, mettez à jour le **[!UICONTROL nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
@@ -154,6 +158,36 @@ Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ 
 Une fois que vous avez renseigné les détails de votre type de serveur, sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
 
 Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu’elle ne sera pas **[!UICONTROL Active]**.
+
+### Générer une clé SSH pour l’authentification SFTP {#ssh-key-generation}
+
+Si vous utilisez le protocole SFTP avec l’authentification par clé SSH, vous devez disposer d’une clé privée OpenSSH codée en Base64. Si la clé n’est pas correctement formatée, vous pouvez rencontrer des erreurs de connexion lors de la configuration du routage de vos fichiers.
+
++++Générer une clé privée OpenSSH codée en Base64
+
+1. Dans PuTTYgen, générez votre paire de clés. RSA avec 2 048 bits ou plus est recommandé.
+1. Sélectionnez **Conversions** > **Exporter la clé OpenSSH** dans le menu.
+1. Lorsque vous y êtes invité, choisissez d’enregistrer la clé privée **sans protection de phrase secrète**.
+1. Dans la boîte de dialogue d’enregistrement, sélectionnez **Tous les fichiers (*.*)** comme type de fichier pour vous assurer que la clé est enregistrée en tant que texte brut et non en tant que fichier .ppk.
+1. Ouvrez le fichier enregistré avec un éditeur de texte et vérifiez son format :
+   * Le fichier doit commencer par `-----BEGIN RSA PRIVATE KEY-----` (cinq tirets avant et après).
+   * Il ne devrait pas y avoir de libellé indiquant le chiffrement.
+   * Le fichier doit se terminer par `-----END RSA PRIVATE KEY-----` (cinq tirets avant et après).
+1. Copiez le **contenu entier du fichier** (y compris les marqueurs `-----BEGIN/END RSA PRIVATE KEY-----`) et codez-le en Base64 à l’aide d’un outil tel que [Coder et décoder en Base64](https://www.base64encode.org/).
+
+   >[!NOTE]
+   >
+   >Dans la sortie de codage Base64, supprimez toute mise en forme MIME. La clé encodée doit être une seule chaîne continue.
+
+1. Vous pouvez désormais coller la clé SSH codée en Base64 dans le champ dédié de Journey Optimizer.
+
+>[!CAUTION]
+>
+>Après l&#39;encodage Base64, la clé ne contiendra plus les marqueurs `-----BEGIN/END RSA PRIVATE KEY-----` et ne devra pas inclure de sauts de ligne. La clé publique correspondante doit être ajoutée au fichier des clés autorisées de votre serveur SFTP.
+
+Pour plus d’informations sur la connexion de votre compte SFTP à Experience Platform, consultez [cette documentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+
++++
 
 ## Créer une configuration de publipostage direct {#direct-mail-surface}
 
