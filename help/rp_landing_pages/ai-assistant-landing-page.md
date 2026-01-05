@@ -50,7 +50,7 @@ Utilisez l’assistant AI pour générer et affiner le contenu textuel pour tous
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Générer des images uniquement
 
