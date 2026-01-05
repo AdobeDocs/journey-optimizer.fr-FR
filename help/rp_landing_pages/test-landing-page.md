@@ -78,7 +78,7 @@ Les processus de test et d’approbation constituent des points de contrôle qua
 
 +++**Profils de test**
 
-Profils client synthétiques (et non clients réels) utilisés pour prévisualiser du contenu personnalisé. Signalé dans le service de profil client en temps réel. Obligatoire pour le mode test et la prévisualisation du contenu. [ En savoir plus ](../using/content-management/test-profiles.md) | [Découvrez comment créer des profils de test](../using/audience/creating-test-profiles.md)
+Profils client synthétiques (et non clients réels) utilisés pour prévisualiser du contenu personnalisé. Signalé dans le service de profil client en temps réel. Obligatoire pour le mode test et la prévisualisation du contenu. [&#x200B; En savoir plus &#x200B;](../using/content-management/test-profiles.md) | [Découvrez comment créer des profils de test](../using/audience/creating-test-profiles.md)
 
 +++
 
@@ -108,7 +108,7 @@ Les adresses e-mail des parties prenantes internes sont automatiquement incluses
 
 +++**Expériences de contenu**
 
-Tests A/B ou expériences de bandit manchot comparant des variations de contenu. Campagnes uniquement, non disponible dans les parcours. [ En savoir plus ](../using/content-management/get-started-experiment.md) | [Création d’expériences](../using/content-management/content-experiment.md)
+Tests A/B ou expériences de bandit manchot comparant des variations de contenu. Campagnes uniquement, non disponible dans les parcours. [&#x200B; En savoir plus &#x200B;](../using/content-management/get-started-experiment.md) | [Création d’expériences](../using/content-management/content-experiment.md)
 
 +++
 
@@ -120,13 +120,13 @@ Tester des diffusions e-mail envoyées à des adresses e-mail spécifiques à l�
 
 +++**Détection des conflits**
 
-Outil qui identifie les campagnes et parcours qui se chevauchent ciblant les mêmes audiences. Prise en charge limitée des parcours : unitaire, qualification d’audience et lecture d’audience uniquement. [ En savoir plus ](../using/conflict-prioritization/conflicts.md) | [En savoir plus sur la gestion des conflits ](../using/conflict-prioritization/gs-conflict-prioritization.md)
+Outil qui identifie les campagnes et parcours qui se chevauchent ciblant les mêmes audiences. Prise en charge limitée des parcours : unitaire, qualification d’audience et lecture d’audience uniquement. [&#x200B; En savoir plus &#x200B;](../using/conflict-prioritization/conflicts.md) | [En savoir plus sur la gestion des conflits &#x200B;](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
 +++
 
 +++**Workflows d’approbation**
 
-Processus d’examen en plusieurs étapes nécessitant l’approbation des parties prenantes avant activation. Nécessite la configuration d’une politique d’approbation. [ En savoir plus ](../using/test-approve/gs-approval.md) | [Créer des politiques](../using/test-approve/approval-policies.md)
+Processus d’examen en plusieurs étapes nécessitant l’approbation des parties prenantes avant activation. Nécessite la configuration d’une politique d’approbation. [&#x200B; En savoir plus &#x200B;](../using/test-approve/gs-approval.md) | [Créer des politiques](../using/test-approve/approval-policies.md)
 
 +++
 
@@ -283,7 +283,7 @@ Commencez par créer votre contenu et par utiliser les fonctionnalités de prév
 
 Validez les aspects techniques ayant un impact sur la délivrabilité et les fonctionnalités :
 
-* Exécutez [ contrôles de score de spam ](../using/content-management/spam-report.md) pour identifier les problèmes de délivrabilité potentiels
+* Exécutez [&#x200B; contrôles de score de spam &#x200B;](../using/content-management/spam-report.md) pour identifier les problèmes de délivrabilité potentiels
 
 * Tester les liens pour s’assurer qu’ils ne sont pas rompus et effectuer correctement le suivi
 
@@ -331,7 +331,7 @@ Avant d’activer votre campagne ou votre parcours :
 
 * Vérifiez que les heures d’envoi et les [fuseaux horaires](../using/building-journeys/timezone-management.md) sont corrects.
 
-* Activez la [ surveillance et alertes ](../using/reports/alerts.md) pour suivre les performances après le lancement
+* Activez la [&#x200B; surveillance et alertes &#x200B;](../using/reports/alerts.md) pour suivre les performances après le lancement
 
 ### &#x200B;6. Surveiller et itérer
 
@@ -457,13 +457,13 @@ Identifiez les chevauchements potentiels entre les campagnes et les parcours afi
 
 >[!TAB Guides essentiels ]
 
-* [ Simuler des variations de contenu ](../using/test-approve/simulate-sample-input.md) - Testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON. Idéal pour les tests de contenu multilingue sans créer plusieurs profils de test. Prend en charge les e-mails, SMS, notifications push, web, basées sur le code, in-app et cartes de contenu.
+* [&#x200B; Simuler des variations de contenu &#x200B;](../using/test-approve/simulate-sample-input.md) - Testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON. Idéal pour les tests de contenu multilingue sans créer plusieurs profils de test. Prend en charge les e-mails, SMS, notifications push, web, basées sur le code, in-app et cartes de contenu.
 
 * [Création de profils de test](../using/audience/creating-test-profiles.md) - Créez et gérez des profils de test pour simuler des scénarios client. Découvrez comment marquer les profils pour les tests, définir des attributs et organiser les segments de test.
 
 * [Rapport sur les courriers indésirables](../using/content-management/spam-report.md) - Vérifiez les scores de spam avant l&#39;envoi pour améliorer la délivrabilité et le positionnement dans la boîte de réception. Obtenez des recommandations exploitables pour l’optimisation du contenu.
 
-* [FAQ sur les Parcours ](../using/building-journeys/journey-faq.md) - Référence rapide pour les questions courantes sur les tests de parcours, l’exécution et le dépannage.
+* [FAQ sur les Parcours &#x200B;](../using/building-journeys/journey-faq.md) - Référence rapide pour les questions courantes sur les tests de parcours, l’exécution et le dépannage.
 
 >[!TAB Dépendances et relations]
 
