@@ -6,7 +6,7 @@ description: Créer des classements
 badge: label="Hérité" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Les classements dans Adobe Journey Optimizer vous permettent de définir les offres qui apparaissent en premier pour votre audience, en veillant à ce que les options les plus pertinentes soient toujours au premier plan. Que vous préfériez utiliser des formules de classement simples basées sur des règles ou des modèles d’IA sophistiqués qui s’adaptent au comportement des utilisateurs et des utilisatrices, cette fonctionnalité vous permet d’optimiser l’engagement de votre clientèle et de générer des résultats. Vous allez découvrir comment les formules de classement vous permettent de définir des règles personnalisées, tandis que les modèles d’IA exploitent des informations basées sur les données pour une hiérarchisation plus intelligente. De plus, vous apprendrez à attribuer ces classements de manière transparente aux emplacements, ce qui vous permet de contrôler entièrement la manière dont les offres sont présentées dans chaque interaction client.
 
@@ -45,7 +45,7 @@ Suivez les instructions étape par étape pour créer des formules de classement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Modèles d’IA pour le classement des offres
 

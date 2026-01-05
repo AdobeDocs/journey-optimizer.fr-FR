@@ -6,7 +6,7 @@ description: Diffuser des offres à l’aide d’API
 redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="Hérité" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Les API Offer Delivery d’Adobe Journey Optimizer vous permettent de diffuser des offres marketing personnalisées à la bonne audience au bon moment, améliorant l’engagement sur plusieurs canaux. Que vous conceviez des expériences en temps réel avec l’API Edge Decisioning, personnalisiez des offres spécifiques avec l’API Decisioning ou développiez votre portée via l’API Batch Decisioning, ces outils offrent des solutions polyvalentes pour différents cas d’utilisation. Vous allez découvrir le fonctionnement de chaque API, depuis la gestion des données contextuelles jusqu’à l’implémentation de cappings de la fréquence, ainsi que les workflows adaptés aux besoins de votre entreprise. Commencez à prendre des décisions plus intelligentes et à bénéficier d’intégrations transparentes pour offrir des expériences client percutantes en toute confiance.
 

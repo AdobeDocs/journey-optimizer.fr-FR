@@ -6,7 +6,7 @@ description: Commencer avec la gestion des décisions
 redpen-status: CREATED_||_2025-08-11_20-58-31
 badge: label="Hérité" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
+>La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../using/experience-decisioning/gs-experience-decisioning.md)
 
 La gestion des décisions d’Adobe Journey Optimizer permet aux spécialistes marketing de proposer les offres personnalisées adéquates aux clientes et clients au bon moment, sur plusieurs canaux. En combinant une bibliothèque d’offres centralisée à un puissant moteur de décision, vous pouvez personnaliser les messages en fonction de profils uniques et de règles métier. Que vous définissiez des critères d’éligibilité, gériez des options de secours ou classiez des offres pour des emplacements prioritaires, le processus est rationalisé et intuitif. Cette section présente les composants clés, depuis la création d’offres et de collections jusqu’à l’intégration de décisions dans les campagnes, afin que vous puissiez créer des expériences significatives qui trouvent écho auprès de votre audience et stimuler l’engagement.
 
