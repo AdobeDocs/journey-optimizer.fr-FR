@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 88%
 
 ---
 
@@ -50,6 +50,26 @@ où :
 * En ce qui concerne les arguments de fonctions littérales, l’analyseur de langage de création de modèles ne prend pas en charge la barre oblique inverse sans échappement (`\`). Ce caractère doit avoir fait l’objet d’une séquence d’échappement avec une barre oblique inverse supplémentaire (`\`). Exemple :
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+
+## Mots-clés réservés {#reserved-keywords}
+
+Certains mots-clés sont réservés dans Profile Query Language (PQL) et ne peuvent pas être utilisés directement comme noms de champ ou de variable dans les expressions de personnalisation. Si votre schéma XDM contient des champs dont les noms correspondent à des mots-clés réservés, vous devez leur appliquer une séquence d’échappement à l’aide de accents graves (`` ` ``) pour les référencer dans vos expressions.
+
+**Les mots-clés réservés sont les suivants :**
+
+* `next`
+* `last`
+* `this`
+
+**Exemple :**
+
+Si votre schéma de profil comporte un champ nommé `next`, vous devez l’encapsuler avec des accents graves :
+
+```
+{{profile.person.`next`.name}}
+```
+
+Sans les backticks, l’éditeur de personnalisation échoue lors de la validation avec une erreur.
 
 ## Espaces de noms disponibles {#namespaces}
 
