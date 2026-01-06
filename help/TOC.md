@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
-source-wordcount: '3038'
+source-wordcount: '3041'
 ht-degree: 99%
 
 ---
@@ -235,8 +235,8 @@ ht-degree: 99%
       + [Demander l’approbation](using/test-approve/request-approval.md)
       + [Approuver une demande](using/test-approve/review-approve-request.md)
 + Surveiller et dépanner {#monitor}
-   + [Surveillance et dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Commencer avec le tracking](using/start/get-started-tracking.md)
+   + [Prise en main de la surveillance et du dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Tracking dans Journey Optimizer](using/start/get-started-tracking.md)
    + Délivrabilité des e-mails {#deliverability}
       + [Commencer avec la délivrabilité](using/reports/deliverability.md)
       + [Présentation de la liste de suppression](using/reports/suppression-list.md)
@@ -929,7 +929,7 @@ ht-degree: 99%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
