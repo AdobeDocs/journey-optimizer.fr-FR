@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: test, validation, approbation, assurance qualité, assurance qualité, aq, profils de test, personnalisation, rendu, contrôle de spam, test de contenu, test a/b, détection de conflit, liste de contrôle, bat, données d’exemple, workflow d’approbation, test d’e-mail, validation de workflow
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 5b1a68bb64fc55de894cb97a5239f4e1cd77fb40
+source-git-commit: 670503f9aedcd3008b3cd63c0ec6e59fac3dc31a
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2328'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ Cette page de destination vous aide à choisir la bonne approche de test en fonc
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prévisualiser, tester et valider le contenu
 
@@ -36,7 +36,7 @@ Découvrez comment prévisualiser, tester et valider du contenu personnalisé à
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Workflows d’approbation des parcours et des campagnes
 
@@ -46,7 +46,7 @@ Découvrez comment configurer, gérer et exécuter des processus d’approbation
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Tester votre parcours
 
@@ -56,7 +56,7 @@ Validez votre parcours avant de le publier en le testant avec des profils spéci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Test à blanc du parcours
 
@@ -66,7 +66,7 @@ Effectuez un test à blanc pour simuler et valider le chemin d’exécution de v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Surveillance et dépannage
 
@@ -76,7 +76,7 @@ Accédez à un ensemble complet de ressources de dépannage, d’alertes systèm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -106,7 +106,7 @@ Incluez automatiquement les adresses des parties prenantes internes dans les dif
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Détection des conflits
 
@@ -305,12 +305,55 @@ Suivez cette approche en 4 phases pour valider vos campagnes et parcours avant l
 
 Découvrez comment les concepts de test s’appliquent aux scénarios réels :
 
-| Exemple d’utilisation | Ce que vous apprendrez | Principales priorités en matière de test |
-|----------|-------------------|-------------------|
-| **[Envoyer des messages multicanaux](../using/building-journeys/journeys-uc.md)** | Testez un parcours qui combine la lecture d’audience, les événements de réaction et les e-mails/messages push. Validez l’ensemble du flux, du ciblage des audiences à la diffusion des messages. | Coordination multicanal, événements de réaction, validation du flux de bout en bout, étapes de test et de publication |
-| **[Envoyer un message aux abonnés](../using/building-journeys/message-to-subscribers-uc.md)** | Testez des parcours qui ciblent les listes d’abonnements avec une adresse e-mail dynamique. Validez les expressions de personnalisation pour un ciblage correct des abonnés. | expressions Personalization, adressage dynamique, ciblage de liste d’abonnements |
-| **[Envoyer des messages limités dans le temps](../using/building-journeys/weekday-email-uc.md)** | Testez des parcours avec des conditions temporelles pour vous assurer que les messages sont envoyés à des jours spécifiques. Validez les activités d’attente et la logique de planification. | Conditions temporelles, activités d’attente, validation de la planification |
-| **[Explorer d’autres cas d’utilisation de parcours](../using/building-journeys/jo-use-cases.md)** | Accédez à une collection complète d’exemples pratiques couvrant les événements d’expérience, la messagerie multicanal et les intégrations système externes. | Divers scénarios, modèles avancés, tests d’intégration |
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/journeys-uc.md">
+<img alt="Envoyer des messages multicanaux" src="../using/assets/do-not-localize/start-journey.jpeg">
+</a>
+<div>
+<a href="../using/building-journeys/journeys-uc.md"><strong>Envoyer des messages multicanaux</strong></a>
+</div>
+<p>
+Testez un parcours qui combine la lecture d’audience, les événements de réaction et les e-mails/messages push. Validez l’ensemble du flux, du ciblage des audiences à la diffusion des messages. Concentrez-vous sur la coordination multicanal, les événements de réaction, la validation du flux de bout en bout et les étapes de test/publication.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/message-to-subscribers-uc.md">
+<img alt="Envoyer un message aux personnes abonnées" src="../using/assets/do-not-localize/start-quick.png">
+</a>
+<div>
+<a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Envoyer un message aux abonnés</strong></a>
+</div>
+<p>
+Testez des parcours qui ciblent les listes d’abonnements avec une adresse e-mail dynamique. Validez les expressions de personnalisation pour un ciblage correct des abonnés. Concentrez-vous sur les expressions de personnalisation, l’adressage dynamique et le ciblage des listes d’abonnements.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/weekday-email-uc.md">
+<img alt="Envoyer des messages limités dans le temps" src="../using/assets/do-not-localize/icon-first-journey.svg">
+</a>
+<div>
+<a href="../using/building-journeys/weekday-email-uc.md"><strong>Envoyer des messages limités dans le temps</strong></a>
+</div>
+<p>
+Testez des parcours avec des conditions temporelles pour vous assurer que les messages sont envoyés à des jours spécifiques. Validez les activités d’attente et la logique de planification. Concentrez-vous sur les conditions temporelles, les activités d’attente et la validation de la planification.
+</p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/jo-use-cases.md">
+<img alt="Explorer d’autres cas d’utilisation de parcours" src="../using/assets/do-not-localize/icon-quick-start.svg">
+</a>
+<div>
+<a href="../using/building-journeys/jo-use-cases.md"><strong>Explorer d’autres cas d’utilisation de parcours </strong></a>
+</div>
+<p>
+Accédez à une collection complète d’exemples pratiques couvrant les événements d’expérience, la messagerie multicanal et les intégrations système externes. Explorez divers scénarios, modèles avancés et approches de test d’intégration.
+</p>
+</td>
+</tr></table>
 
 ## Terminologie clé
 
@@ -322,7 +365,7 @@ Familiarisez-vous avec ces concepts de test essentiels pour mieux comprendre les
 
 **[Exécution d’essai](../using/building-journeys/journey-dry-run.md)** outil d’analyse d’exécution de Parcours qui effectue le suivi des chemins sans envoyer de messages ni effectuer d’appels API. Cas d’utilisation : validation de la logique sans consommer de ressources. [En savoir plus sur l’essai](../using/building-journeys/journey-dry-run.md)
 
-**[Exemples de données d’entrée](../using/test-approve/simulate-sample-input.md)** - Fichiers CSV ou JSON contenant des valeurs d’attribut de profil pour tester la personnalisation. Prend en charge jusqu’à 30 variantes. Alternative à la création de profils de test. [Comment simuler des variations de contenu &#x200B;](../using/test-approve/simulate-sample-input.md)
+**[Exemples de données d’entrée](../using/test-approve/simulate-sample-input.md)** - Fichiers CSV ou JSON contenant des valeurs d’attribut de profil pour tester la personnalisation. Prend en charge jusqu’à 30 variantes. Alternative à la création de profils de test. [Comment simuler des variations de contenu ](../using/test-approve/simulate-sample-input.md)
 
 **[Listes de contrôle](../using/configuration/seed-lists.md)** - Adresses e-mail des parties prenantes internes automatiquement incluses dans les diffusions réelles (et non les envois de test). Canal e-mail uniquement. Cas pratique : surveillance de la qualité et conformité. [Configuration des listes de contrôle](../using/configuration/seed-lists.md)
 
@@ -330,7 +373,7 @@ Familiarisez-vous avec ces concepts de test essentiels pour mieux comprendre les
 
 **[BAT](../using/content-management/proofs.md)** - Testez les diffusions e-mail envoyées à des adresses e-mail spécifiques à l’aide des données de profil de test. Différent des listes de contrôle (les BAT sont des envois de test manuels, les listes de contrôle sont des copies automatiques des parties prenantes). [Envoi de BAT](../using/content-management/proofs.md)
 
-**[Détection des conflits](../using/conflict-prioritization/conflicts.md)** - Outil qui identifie les campagnes et les parcours qui se chevauchent et ciblent les mêmes audiences. Prise en charge limitée des parcours : unitaire, qualification d’audience et lecture d’audience uniquement. [En savoir plus sur la gestion des conflits &#x200B;](../using/conflict-prioritization/gs-conflict-prioritization.md)
+**[Détection des conflits](../using/conflict-prioritization/conflicts.md)** - Outil qui identifie les campagnes et les parcours qui se chevauchent et ciblent les mêmes audiences. Prise en charge limitée des parcours : unitaire, qualification d’audience et lecture d’audience uniquement. [En savoir plus sur la gestion des conflits ](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
 **[Workflows d’approbation](../using/test-approve/gs-approval.md)** - Processus de révision en plusieurs étapes nécessitant l’approbation des parties prenantes avant activation. Nécessite la configuration d’une politique d’approbation. [Configurer les validations](../using/test-approve/gs-approval.md) | [Créer des politiques](../using/test-approve/approval-policies.md)
 
@@ -344,13 +387,13 @@ Familiarisez-vous avec ces concepts de test essentiels pour mieux comprendre les
 
 >[!TAB Guides essentiels ]
 
-* [&#x200B; Simuler des variations de contenu &#x200B;](../using/test-approve/simulate-sample-input.md) - Testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON. Idéal pour les tests de contenu multilingue sans créer plusieurs profils de test. Prend en charge les e-mails, SMS, notifications push, web, basées sur le code, in-app et cartes de contenu.
+* [ Simuler des variations de contenu ](../using/test-approve/simulate-sample-input.md) - Testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON. Idéal pour les tests de contenu multilingue sans créer plusieurs profils de test. Prend en charge les e-mails, SMS, notifications push, web, basées sur le code, in-app et cartes de contenu.
 
 * [Création de profils de test](../using/audience/creating-test-profiles.md) - Créez et gérez des profils de test pour simuler des scénarios client. Découvrez comment marquer les profils pour les tests, définir des attributs et organiser les segments de test.
 
 * [Rapport sur les courriers indésirables](../using/content-management/spam-report.md) - Vérifiez les scores de spam avant l&#39;envoi pour améliorer la délivrabilité et le positionnement dans la boîte de réception. Obtenez des recommandations exploitables pour l’optimisation du contenu.
 
-* [FAQ sur les Parcours &#x200B;](../using/building-journeys/journey-faq.md) - Référence rapide pour les questions courantes sur les tests de parcours, l’exécution et le dépannage.
+* [FAQ sur les Parcours ](../using/building-journeys/journey-faq.md) - Référence rapide pour les questions courantes sur les tests de parcours, l’exécution et le dépannage.
 
 >[!TAB Dépendances et relations]
 
