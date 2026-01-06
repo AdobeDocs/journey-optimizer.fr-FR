@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 57f32088aa9cef55ed68729995326d3eae401bd5
 workflow-type: tm+mt
 source-wordcount: '4444'
-ht-degree: 78%
+ht-degree: 89%
 
 ---
 
@@ -42,35 +42,35 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Une nouvelle page de destination de suivi complète a été créée pour aider les utilisateurs à découvrir et à accéder à toutes les fonctionnalités de suivi et de surveillance disponibles dans Journey Optimizer. [En savoir plus](../start/get-started-tracking.md)
 
-* La page de gestion du processus de désinscription aux e-mails a été améliorée avec des informations détaillées sur le flux de désinscription, expliquant l’ordre attendu des événements pour le processus de désinscription à la page de destination. [En savoir plus](../email/email-opt-out.md#send-message-unsubscribe-link)
+* La page de gestion du processus de désabonnement aux e-mails a été améliorée avec des informations détaillées sur le processus de désabonnement, expliquant l’ordre attendu des événements pour le processus de désabonnement sur la page de destination. [En savoir plus](../email/email-opt-out.md#send-message-unsubscribe-link)
 
 * Mise à jour de la documentation sur la liste d’abonnements afin d’inclure des informations sur les critères d’éligibilité des segments de streaming. [En savoir plus](../landing-pages/subscription-list.md#define-subscription-list)
 
-* Disponibilité d’un nouveau guide sur la délivrabilité du préchauffage des adresses IP , qui fournit des conseils complets sur les principes de base de la réputation, la préparation avant vol, les mesures de surveillance et les bonnes pratiques pour passer de la réputation nulle à un emplacement réussi dans la boîte de réception. [En savoir plus](../configuration/ip-warmup-deliverability-guide.md)
+* Un nouveau guide sur la délivrabilité du préchauffage des adresses IP est disponible, qui fournit des conseils complets sur les principes de base de la réputation, la préparation avant lancement, les mesures de surveillance et les bonnes pratiques pour passer d’une réputation inexistante à une arrivée réussie dans la boîte de réception. [En savoir plus](../configuration/ip-warmup-deliverability-guide.md)
 
-* Un avertissement a été ajouté aux sections Page de destination et Désinscription aux e-mails pour clarifier le fait que cliquer sur un lien de désinscription ouvre uniquement la page de destination, mais les utilisateurs doivent envoyer le formulaire pour terminer le processus de désinscription. [En savoir plus](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Un avertissement a été ajouté dans les sections Page de destination et Désabonnement aux e-mails pour clarifier le fait que cliquer sur un lien de désabonnement ouvre uniquement la page de destination, tandis que les utilisateurs et les utilisatrices doivent envoyer le formulaire pour terminer le processus de désabonnement. [En savoir plus](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 * Une nouvelle bibliothèque de cas d’utilisation de parcours est désormais disponible. Elle rassemble une collection de cas d’utilisation pratiques, y compris des modèles tactiques (logique de suppression, techniques de personnalisation, stratégies de sortie de parcours) et des scénarios complets couvrant les workflows marketing et techniques. [En savoir plus](../building-journeys/jo-use-cases.md)
 
-* Disponibilité d’un nouveau cas pratique, qui montre comment configurer un parcours pour envoyer des e-mails uniquement les jours de la semaine (lundi au vendredi), avec la mise en file d’attente automatique des entrées du week-end pour qu’elles soient envoyées le lundi à une heure spécifiée. [En savoir plus](../building-journeys/weekday-email-uc.md)
+* Un nouveau cas pratique est désormais disponible : il montre comment configurer un parcours pour envoyer des e-mails uniquement les jours de la semaine (du lundi au vendredi), avec la mise en file d’attente automatique des entrées du week-end pour qu’elles soient envoyées le lundi à une heure spécifiée. [En savoir plus](../building-journeys/weekday-email-uc.md)
 
 * Une nouvelle page est désormais disponible pour expliquer les fonctionnalités de décision de Journey Optimizer, y compris les différences entre le framework de prise de décision de nouvelle génération et la solution de gestion des décisions établie, ainsi que leurs principaux avantages pour la diffusion d’offres personnalisées sur plusieurs canaux. [En savoir plus](../experience-decisioning/gs-decision.md)
 
-* Une nouvelle section a été ajoutée à la documentation sur l’activation des audiences. Elle explique comment activer les types d’audience non pris en charge (tels que les audiences Customer Journey Analytics) dans [!DNL Journey Optimizer] en les enveloppant dans une nouvelle définition de segment dans le portail Audience. [En savoir plus](../audience/target-audiences.md#activation-non-supported)
+* Une nouvelle section a été ajoutée à la documentation sur l’activation des audiences. Elle explique comment activer les types d’audience non pris en charge (tels que les audiences Customer Journey Analytics) dans [!DNL Journey Optimizer] en les enveloppant dans une nouvelle définition de segment dans le portail d’audience. [En savoir plus](../audience/target-audiences.md#activation-non-supported)
 
-* Une nouvelle section a été ajoutée à la documentation sur l’activité d’attente pour expliquer comment les profils stationnés lors d’une activité d’attente dans les parcours Lecture d’audience actualisent automatiquement leurs attributs à partir du service de profil unifié (UPS). Cela clarifie le fait que les données de profil peuvent changer pendant l’exécution du parcours après un nœud d’attente, ce qui peut produire des résultats inattendus si vous vous attendez à des données d’instantané cohérentes dans l’ensemble du parcours. [En savoir plus](../building-journeys/wait-activity.md#profile-refresh)
+* Une nouvelle section a été ajoutée à la documentation sur l’activité d’attente pour expliquer comment les profils stationnés dans une activité d’attente dans les parcours de lecture d’audience actualisent automatiquement leurs attributs à partir du service de profil unifié (UPS). Cela permet de clarifier le fait que les données de profil peuvent changer au cours de l’exécution du parcours après un nœud d’attente, ce qui peut produire des résultats inattendus si vous vous attendez à des données d’instantanés constantes sur l’ensemble du parcours. [En savoir plus](../building-journeys/wait-activity.md#profile-refresh)
 
-* Une note d’avertissement a été ajoutée à la section Expérimentation de chemin pour avertir les utilisateurs de ne pas modifier les métadonnées d’une expérience de chemin une fois qu’elles ont été publiées, car cela perturberait le calcul et la création de rapports des résultats de l’expérience. [En savoir plus](../building-journeys/optimize.md#experimentation)
+* Une note d’avertissement a été ajoutée dans la section Expérimentation de chemin pour avertir les utilisateurs et les utilisatrices de ne pas modifier les métadonnées d’une expérience de chemin une fois qu’elles ont été publiées, car cela perturberait le calcul et les rapports des résultats de l’expérience. [En savoir plus](../building-journeys/optimize.md#experimentation)
 
-* Une note a été ajoutée à la section Créer un paramètre prédéfini de formulaire pour spécifier les exigences relatives aux connexions en continu à afficher dans la liste déroulante de sélection. [En savoir plus](../landing-pages/lp-forms.md#create-form-preset)
+* Une note a été ajoutée à la section Créer un préréglage de formulaire pour spécifier les exigences relatives aux connexions en streaming à afficher dans la liste déroulante de sélection. [En savoir plus](../landing-pages/lp-forms.md#create-form-preset)
 
 * Une nouvelle page est désormais disponible dans la section Prise de décision sur la configuration de la collecte de données pour le suivi des impressions, des clics et des événements personnalisés. [En savoir plus](../experience-decisioning/data-collection/schema-requirement.md)
 
-* La documentation sur la génération de contenu avec l’assistant d’IA a été réorganisée pour en améliorer la clarté et la convivialité. Les cinq pages précédentes spécifiques aux canaux (e-mail, notification push, SMS, web et page de destination) ont été consolidées en trois pages de type génération : [Générer l’intégralité du contenu](../content-management/generative-full-content.md), [Générer du texte](../content-management/generative-text.md) et [Générer des images](../content-management/generative-image.md).
+* La documentation sur la génération de contenu avec l’assistant IA a été réorganisée pour en améliorer la clarté et la convivialité. Les cinq anciennes pages spécifiques aux canaux (e-mail, notification push, SMS, web et page de destination) ont été consolidées en trois pages de type génération : [Générer du contenu complet](../content-management/generative-full-content.md), [Générer du texte](../content-management/generative-text.md) et [Générer des images](../content-management/generative-image.md).
 
 ## Novembre 2025 {#november-2025}
 
-* Une nouvelle page FAQ Decisioning est désormais disponible, couvrant des sujets tels que les règles de limitation, la configuration du modèle d’IA, les exigences de trafic et les stratégies d’optimisation des offres. [En savoir plus](../experience-decisioning/decisioning-faq.md)
+* Une nouvelle page pour les Questions fréquentes relatives à la prise de décision est désormais disponible et traite de sujets tels que les règles de limitation, la configuration de modèles d’IA, les exigences en matière de trafic et les stratégies d’optimisation des offres. [En savoir plus](../experience-decisioning/decisioning-faq.md)
 
 * Mise à jour de la page Commencer la conception d’e-mails afin de clarifier l’accès au Concepteur d’e-mail. [En savoir plus](../email/get-started-email-design.md)
 
@@ -117,9 +117,9 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * La documentation sur l’utilisation des événements d’étape de parcours est désormais disponible. [En savoir plus](../reports/journey-step-events-overview.md)
 
-* Disponibilité d’un nouveau guide complet sur les critères d’entrée et de sortie de parcours, couvrant les bonnes pratiques, des exemples concrets et des conseils pratiques pour gérer le moment où les profils entrent et sortent des parcours dans Adobe Journey Optimizer. [En savoir plus](../building-journeys/entry-exit-criteria-guide.md)
+* Un nouveau guide complet sur les critères d’entrée et de sortie de parcours est disponible et présente des bonnes pratiques, des exemples concrets et des conseils pratiques pour gérer les entrées et les sorties des profils dans des parcours dans Adobe Journey Optimizer. [En savoir plus](../building-journeys/entry-exit-criteria-guide.md)
 
-* Disponibilité d&#39;une nouvelle page expliquant comment effectuer une itération sur les données contextuelles dans les messages. Ce guide explique comment utiliser la syntaxe Handlebars pour afficher des listes dynamiques à partir d’événements, de réponses d’action personnalisée, de recherches de jeux de données et d’autres sources de contexte dans votre personnalisation. [En savoir plus](../personalization/iterate-contextual-data.md)
+* Une nouvelle page expliquant comment effectuer une itération sur les données contextuelles dans les messages est désormais disponible. Ce guide explique comment utiliser la syntaxe Handlebars pour afficher des listes dynamiques à partir d’événements, de réponses d’action personnalisée, de recherches dans des jeux de données et d’autres sources de contexte dans votre personnalisation. [En savoir plus](../personalization/iterate-contextual-data.md)
 
 * La requête d’identification des événements ignorés dans les parcours a été corrigée afin d’inclure des filtres appropriés pour les erreurs de traitement d’export de segments, les abandons du Dispatcher et les abandons de machine d’état. [En savoir plus](../reports/query-examples.md#common-queries)
 
@@ -273,7 +273,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
@@ -440,7 +440,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -470,7 +470,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -545,7 +545,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -673,7 +673,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '3037'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -32,27 +32,27 @@ ht-degree: 96%
    + [Amélioration de la zone de travail de parcours](using/rn/new-canvas.md)
 + Commencer {#get-started}
    + [Commencer](/help/rp_landing_pages/get-started-landing-page.md)
-   + Essentiels {#essentials}
-      + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
-      + [Comprendre son fonctionnement](using/start/understanding-ajo.md)
+   + Principes de base {#essentials}
+      + [Présentation de Journey Optimizer](using/start/get-started.md)
+      + [Présentation du fonctionnement](using/start/understanding-ajo.md)
       + [Terminologie clé](using/start/terminology.md)
       + [Mécanismes de sécurisation et limitations](using/start/guardrails.md)
-   + Prise en main par rôle {#by-role}
+   + Commencer avec les rôles {#by-role}
       + [Choisir votre parcours de formation](using/start/quick-start.md)
-      + [Prise en main en tant que spécialiste marketing](using/start/path/marketer.md)
-      + [Prise en main en tant qu’ingénieur de données](using/start/path/data-engineer.md)
+      + [Commencer en tant que responsable marketing](using/start/path/marketer.md)
+      + [Commencer en tant qu’ingénieur ou ingénieure de données](using/start/path/data-engineer.md)
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
       + [Prise en main en tant que développeur](using/start/path/developer.md)
    + Travailler efficacement {#work-efficiently}
-      + [Navigation dans l’interface](using/start/user-interface.md)
-      + [Rechercher, filtrer et organiser](using/start/search-filter-categorize.md)
-      + [Fonctionnalités intelligentes et d’IA](using/start/ai-features.md)
+      + [Naviguer dans l’interface](using/start/user-interface.md)
+      + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
+      + [Fonctionnalités intelligentes et fonctionnalités d’IA](using/start/ai-features.md)
       + [Accessibilité](using/start/accessibility.md)
       + [Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer les parcours](using/building-journeys/journey.md)
    + [Types de parcours et guide de sélection](using/building-journeys/journey-types-selection.md)
-   + [FAQ sur Journey Orchestration](using/building-journeys/journey-faq.md)
+   + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
       + [Créer un parcours](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
@@ -203,8 +203,8 @@ ht-degree: 96%
          + [Attente](using/orchestrated/activities/wait.md)
       + Apprendre avec des cas d’utilisation {#use-cases}
          + [Envoyer des mises à jour d’éléments de liste de souhaits](using/orchestrated/wishlist-uc.md)
-         + [Impliquer les clients en parcourant l’activité](using/orchestrated/engage-customers-uc.md)
-         + [Informer les utilisateurs de la disponibilité du produit](using/orchestrated/product-availability-uc.md)
+         + [Interagir avec les clientes et clients en fonction de leur activité de navigation](using/orchestrated/engage-customers-uc.md)
+         + [Informer les utilisateurs et les utilisatrices de la disponibilité d’un produit](using/orchestrated/product-availability-uc.md)
 + Conflit et hiérarchisation {#conflict-prioritization}
    + [Gestion des conflits et hiérarchisation](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Commencer avec la gestion et la hiérarchisation des conflits](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -408,7 +408,7 @@ ht-degree: 96%
       + [Prise en main de la personnalisation](using/personalization/personalize.md)
       + [Ajouter une personnalisation](using/personalization/personalization-build-expressions.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + [Itérer sur les données contextuelles](using/personalization/iterate-contextual-data.md)
+      + [Effectuer une itération sur des données contextuelles](using/personalization/iterate-contextual-data.md)
       + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
       + [Utiliser des données Adobe Experience Platform à des fins de personnalisation](using/personalization/aep-data-perso.md)
       + Liste des fonctions d’assistance {#functions}
@@ -432,7 +432,7 @@ ht-degree: 96%
          + [E-mail d’ordonnances de programmes de santé](using/personalization/perso-uc-plan-prescriptions.md)
    + Pages de destination {#landing-pages}
       + [Pages de destination](/help/rp_landing_pages/landing-pages-landing-page.md)
-      + [Commencer avec les pages de destination](using/landing-pages/get-started-lp.md)
+      + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
       + [Créer une page de destination](using/landing-pages/create-lp.md)
       + [Gérer vos pages de destination](using/landing-pages/manage-lp.md)
       + Concevoir du contenu {#landing-pages-design}
@@ -444,8 +444,8 @@ ht-degree: 96%
       + [Utiliser les formulaires dans vos pages de destination](using/landing-pages/lp-forms.md)
       + [Créer une liste dʼabonnements](using/landing-pages/subscription-list.md)
       + [Apprendre avec des cas d’utilisation](using/landing-pages/lp-use-cases.md)
-      + Configuration des pages de destination {#lp-configuration}
-         + [Configuration des pages de destination](/help/rp_landing_pages/lp-configuration-landing-page.md)
+      + Configurer les pages de destination {#lp-configuration}
+         + [Configurer les pages de destination](/help/rp_landing_pages/lp-configuration-landing-page.md)
          + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
          + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
    + Modèles de contenu {#content-templates}
@@ -485,9 +485,9 @@ ht-degree: 96%
       + [Bonnes pratiques relatives aux prompts d’IA](using/content-management/ai-assistant-prompting-guide.md)
       + [Générer du contenu complet avec l’IA](using/content-management/generative-full-content.md)
       + [Générer du texte avec l’IA](using/content-management/generative-text.md)
-      + [Générer des images à l’aide de l’IA](using/content-management/generative-image.md)
+      + [Générer des images avec l’IA](using/content-management/generative-image.md)
       + [Expérience de contenu avec l’IA](using/content-management/generative-experimentation.md)
-      + [Cas d’utilisation de l’Assistant IA](using/content-management/generative-uc.md)
+      + [Cas d’utilisation de l’assistant IA](using/content-management/generative-uc.md)
       + Marques {#brands}
          + [Marques](/help/rp_landing_pages/brands-landing-page.md)
          + [Créer et gérer vos marques](using/content-management/brands.md)
@@ -600,7 +600,7 @@ ht-degree: 96%
       + [FAQ sur Decisioning](using/experience-decisioning/decisioning-faq.md)
       + Référence d’API {#experience-decisioning-api-reference}
          + [Référence d’API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + [Prise en main des API Decisioning](using/experience-decisioning/api-reference/getting-started.md)
+         + [Commencer à utiliser les API de prise de décision](using/experience-decisioning/api-reference/getting-started.md)
          + Éléments de décision {#decision-items}
             + [Créer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Liste d’éléments de décision](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
@@ -635,7 +635,7 @@ ht-degree: 96%
             + [Créer des emplacements](using/experience-decisioning/api-reference/exd-placements/create.md)
             + [Liste des emplacements](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
             + [Rechercher des emplacements](using/experience-decisioning/api-reference/exd-placements/lookup.md)
-            + [Mise à jour des emplacements](using/experience-decisioning/api-reference/exd-placements/update.md)
+            + [Mettre à jour des emplacements](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Gérer les éléments de décision {#manage-decision-items}
          + [Gérer les éléments de décision](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
@@ -858,7 +858,7 @@ ht-degree: 96%
       + [Créer des groupes d’adresses IP](using/configuration/ip-pools.md)
    + Mettre en œuvre un plan de préchauffage d’adresses IP {#implement-ip-warmup-plan}
       + [Mettre en œuvre un plan de préchauffage d’adresses IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [Guide de délivrabilité du préchauffage d’adresses IP](using/configuration/ip-warmup-deliverability-guide.md)
+      + [Guide de délivrabilité du préchauffage des adresses IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Commencer avec les plans de préchauffage d’adresses IP](using/configuration/ip-warmup-gs.md)
       + [Créer des campagnes de préchauffage d’adresses IP](using/configuration/ip-warmup-campaign.md)
       + [Créer un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-plan.md)
@@ -929,7 +929,7 @@ ht-degree: 96%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

@@ -195,7 +195,7 @@ Créez des messages attrayants pour votre audience :
 * Créer des expériences **in-app** et **web**
 * Ajouter **personnalisation** à l’aide des attributs de profil et des données contextuelles
 
-**Guides spécifiques aux types :** [Contenu d’action de campagne](campaign-content.md) | [Contenu de campagne déclenché par API](api-triggered-campaign-content.md) | [&#x200B; Contenu de campagne orchestré &#x200B;](../orchestrated/create-orchestrated-campaign.md)
+**Guides spécifiques aux types :** [Contenu d’action de campagne](campaign-content.md) | [Contenu de campagne déclenché par API](api-triggered-campaign-content.md) | [ Contenu de campagne orchestré ](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. Examen et test {#review}
 
@@ -259,7 +259,7 @@ Avant d’utiliser des campagnes, vérifiez que les éléments suivants sont en 
 
 1. Accédez à l’onglet **[!UICONTROL Rôles]** dans le produit [!DNL Permissions] et sélectionnez l’un des **[!UICONTROL Rôles]** intégrés liés à la campagne.
 
-   1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+   1. Dans l’onglet **[!UICONTROL Utilisateurs et utilisatrices]**, cliquez sur **[!UICONTROL Ajouter un utilisateur ou une utilisatrice]**.
 
    1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez cette personne dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -276,7 +276,7 @@ Avant d’utiliser des campagnes, vérifiez que les éléments suivants sont en 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et minutage**
 
@@ -286,7 +286,7 @@ Planifiez des campagnes à des dates/heures spécifiques, définissez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -296,7 +296,7 @@ Limitez le débit des messages pour éviter la surcharge sur les systèmes en av
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -306,7 +306,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -326,7 +326,7 @@ Respectez les préférences du client en évitant la diffusion de messages penda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation**
 

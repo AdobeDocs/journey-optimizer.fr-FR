@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -171,21 +171,21 @@ Les mécanismes de sécurisation et les limitations à garder à l’esprit lors
 * La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil extraites d’Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et affectent la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
 * Outre la temporisation utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée. Cette temporisation globale arrête la progression des personnes dans le parcours 91 jours après leur entrée. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
 
-### Sélectionner les limites de package pour les parcours unitaires {#select-package-limitations}
+### Restrictions du package Select pour les parcours unitaires {#select-package-limitations}
 
 >[!NOTE]
 >
->Ces restrictions ne s’appliquent pas aux parcours Lecture d’audience ou Événement métier avec le package **Sélectionner**. Si vous avez besoin d’une logique de parcours plus complexe avec plusieurs actions, conditions ou activités d’attente, envisagez de mettre à niveau votre package de licence ou d’utiliser des parcours Lecture d’audience, le cas échéant.
+>Ces restrictions ne s’appliquent pas aux parcours Lecture d’audience ou Événement métier avec le package **Select**. Si vous avez besoin d’une logique de parcours plus complexe avec plusieurs actions, conditions ou activités d’attente, envisagez de mettre à niveau votre package de licence ou d’utiliser des parcours Lecture d’audience, le cas échéant.
 
-Pour les clients qui utilisent le package de licence **Select**, les restrictions supplémentaires suivantes s’appliquent spécifiquement aux parcours unitaires, aux parcours commençant par un événement ou à une qualification d’audience :
+Pour les clientes et les clients qui utilisent le package de licence **Select**, les restrictions supplémentaires suivantes s’appliquent spécifiquement aux parcours unitaires, aux parcours commençant par un événement, ou à une qualification d’audience :
 
-* **Package SELECT : une seule action autorisée en parcours unitaire (ERR_PKG_SELECT_8)** : les parcours unitaires ne peuvent contenir qu’une seule activité d’action. Vous ne pouvez pas ajouter plusieurs activités d’action, notamment e-mail, notification push et SMS dans le même parcours.
+* **Package SELECT : une seule action autorisée dans un parcours unitaire (ERR_PKG_SELECT_8)** - Les parcours unitaires ne peuvent contenir qu’une seule activité d’action. Vous ne pouvez pas ajouter plusieurs activités d’action e-mail, notification push, SMS, ou autres, dans le même parcours.
 
-* **Package SELECT : aucune condition autorisée dans les parcours unitaires (ERR_PKG_SELECT_7)** : les activités de condition ne peuvent pas être utilisées dans les parcours unitaires. Le parcours doit suivre un seul chemin linéaire sans logique de branchement.
+* **Package SELECT : aucune condition autorisée dans les parcours unitaires (ERR_PKG_SELECT_7)** - Les activités de condition ne peuvent pas être utilisées dans les parcours unitaires. Le parcours doit suivre un unique chemin linéaire sans logique de branche.
 
-* **Package SELECT : aucune attente autorisée en parcours unitaire (ERR_PKG_SELECT_6)** : les activités d’attente ne peuvent pas être ajoutées aux parcours unitaires. Les actions doivent s&#39;exécuter immédiatement sans délai.
+* **Package SELECT : aucune attente autorisée dans les parcours unitaires (ERR_PKG_SELECT_6)** - Les activités d’attente ne peuvent pas être ajoutées aux parcours unitaires. Les actions doivent s’exécuter immédiatement, sans délai.
 
-* **Package SELECT : la transition de temporisation/erreur à partir du nœud doit pointer uniquement vers le nœud de fin (ERR_PKG_SELECT_2)** : si vous configurez des transitions de temporisation ou d’erreur pour une action, telle qu’une action d’e-mail, ces chemins doivent pointer directement vers un nœud de fin. Ils ne peuvent pas se connecter à d’autres activités ou actions du parcours.
+* **Package SELECT : la transition de délai d’expiration/d’erreur à partir du nœud doit pointer uniquement vers le nœud de fin (ERR_PKG_SELECT_2)** - Si vous configurez des transitions de délai d’expiration ou d’erreur pour une action, telle qu’une action d’e-mail, ces chemins doivent pointer directement vers un nœud de fin. Elles ne peuvent pas se connecter à d’autres activités ou actions dans le parcours.
 
 
 ### Actions générales {#general-actions-g}
@@ -195,7 +195,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -318,7 +318,7 @@ Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **
 Les mécanismes de sécurisation suivants s’appliquent à l’activité de parcours [Lecture d’audience](../building-journeys/read-audience.md) :
 
 * Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
-* À l’entrée du parcours, les profils utilisent les valeurs d’attribut de l’instantané d’audience par lots. Cependant, lorsqu’un profil atteint une activité **Attente**, le parcours actualise automatiquement les attributs de profil en récupérant les dernières données du service de profil unifié (UPS). Cela signifie que les attributs de profil peuvent changer pendant l’exécution du parcours.
+* Lors de leur entrée dans le parcours, les profils utilisent les valeurs d’attributs issues de l’instantané d’audience par lots. Cependant, lorsqu’un profil atteint une activité **Attente**, le parcours actualise automatiquement les attributs de profils en récupérant les dernières données à partir du service de profil unifié (UPS). Cela signifie que les attributs de profils peuvent changer au cours de l’exécution du parcours.
 * Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les nouvelles tentatives sont effectuées par le système, mais il est recommandé d’éviter de lancer plus de cinq parcours (avec **Lecture d’audience**, planifiés ou démarrant « dès que possible ») exactement au même moment, en les espaçant dans le temps, par exemple de 5 à 10 minutes. Pour en savoir plus sur les autorisations de parcours, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 * L’activité **Lecture d’audience** ne peut pas être utilisée avec les activités Adobe Campaign.
 * L’activité **Lecture d’audience** ne peut être utilisée que comme première activité dans un parcours ou après une activité d’événement métier.
