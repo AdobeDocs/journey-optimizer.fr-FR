@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
+source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
 workflow-type: tm+mt
-source-wordcount: '3574'
-ht-degree: 99%
+source-wordcount: '3661'
+ht-degree: 96%
 
 ---
 
@@ -21,19 +21,19 @@ Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations lo
 
 Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-
 >[!CAUTION]
 >
 >* [Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
 >
 >* Consultez également la section [Mécanismes de sécurisation pour l’ingestion de données dans le profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/guardrails){target="_blank"}.
 
+## Système et plateforme {#system-platform}
 
-## Navigateurs pris en charge {#browsers}
+### Navigateurs pris en charge {#browsers}
 
 L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionner de manière optimale avec la dernière version de Google Chrome. Vous pouvez rencontrer des problèmes lors de l&#39;utilisation de certaines fonctions sur des versions plus anciennes ou d&#39;autres navigateurs.
 
-## Mécanismes de sécurisation des jeux de données {#datasets-guardrails}
+### Mécanismes de sécurisation des jeux de données {#datasets-guardrails}
 
 À compter de février 2025, un mécanisme de sécurisation de la durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer dans **les nouveaux sandbox et les nouvelles organisations** comme suit :
 
@@ -42,12 +42,13 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 
 Cette modification sera déployée sur les **sandbox client existants** dans une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
 
-## Mécanismes de sécurisation des canaux {#channel-guardrails}
+## Canaux et messagerie {#channel-guardrails}
+
+Cette section couvre les mécanismes de sécurisation pour tous les canaux de communication, y compris les e-mails, SMS, canaux entrants (web, in-app, basés sur du code, cartes de contenu) et messages transactionnels.
 
 >[!NOTE]
 >
 >Dans de rares cas, des pannes temporaires dans une zone géographique spécifique peuvent entraîner l’exclusion de profils valides des parcours ou l’indication erronée des e-mails comme rebonds. Une fois les services restaurés, vérifiez à nouveau les journaux du parcours, les champs du profil de consentement et republiez le parcours si nécessaire. En cas de panne du FAI, découvrez comment supprimer des profils de la liste de suppression dans [cette section](../configuration/manage-suppression-list.md#remove-from-suppression-list).
->
 
 ### Mécanismes de sécurisation des e-mails {#message-guardrails}
 
@@ -117,7 +118,11 @@ Adobe recommande de définir la valeur de durée de vie (TTL) sur 14 jours pour
 
 Journey Optimizer prend en charge un volume maximal de 500 messages transactionnels par seconde dans les campagnes.
 
-## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
+## Contenu et Assets {#content-assets}
+
+Cette section présente les mécanismes de sécurisation pour la création et la gestion de contenu, y compris les pages de destination, les sous-domaines et les fragments.
+
+### Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
 Les mécanismes de sécurisation suivants s’appliquent aux [pages de destination](../landing-pages/get-started-lp.md) :
 
@@ -126,11 +131,11 @@ Les mécanismes de sécurisation suivants s’appliquent aux [pages de destinati
 * Vous ne pouvez pas ajouter de pré-en-tête à une page de destination.
 * Vous ne pouvez pas sélectionner l’option **Coder le vôtre** lors de la conception d’une page de destination principale.
 
-## Mécanismes de sécurisation des sous-domaines {#subdomain-guardrails}
+### Mécanismes de sécurisation des sous-domaines {#subdomain-guardrails}
 
 Les mécanismes de sécurisation et les limitations qui s’appliquent à la délégation de sous-domaines dans Journey Optimizer sont décrits dans [cette page](../configuration/delegate-subdomain.md#guardrails).
 
-## Mécanismes de sécurisation des fragments {#fragments-guardrails}
+### Mécanismes de sécurisation des fragments {#fragments-guardrails}
 
 Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../content-management/fragments.md) :
 
@@ -143,7 +148,11 @@ Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../cont
 * Les fragments visuels ne sont pas compatibles entre les modes Utiliser des thèmes et Style manuel. Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Utiliser des thèmes. [En savoir plus sur les thèmes](../email/apply-email-themes.md)
 * Lorsque le suivi est activé dans un parcours ou une campagne, si vous ajoutez des liens à un fragment et que ce fragment est utilisé dans un message, ces liens font l’objet d’un suivi comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le suivi](../email/message-tracking.md)
 
-## Mécanismes de sécurisation des audiences et des profils {#audience}
+## Audiences et profils {#audiences-profiles}
+
+Cette section présente les mécanismes de sécurisation pour la gestion des audiences, la gestion des profils et les considérations sur les profils engageables.
+
+### Mécanismes de sécurisation des audiences et des profils {#audience}
 
 * Vous pouvez publier jusqu’à 10 compositions d’audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
@@ -153,14 +162,18 @@ Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../cont
 
 * Lors du ciblage de profils pseudonymes (visiteurs non authentifiés) avec des canaux entrants, pensez à définir une durée de vie (TTL) pour la suppression automatique des profils afin de maîtriser le nombre de profils engageables et les coûts associés. [En savoir plus](#profile-management-inbound)
 
-## Mécanismes de sécurisation des décisions et de la gestion des décisions {#decisioning-guardrails}
+## Gestion des décisions {#decision-management}
+
+### Mécanismes de sécurisation des décisions et de la gestion des décisions {#decisioning-guardrails}
 
 Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez la prise de décision ou la gestion des décisions sont détaillés dans ces sections Prise de décision et gestion des décisions :
 
 * [Mécanismes de sécurisation et limitations de la prise de décisions](../experience-decisioning/decisioning-guardrails.md)
 * [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
 
-## Mécanismes de sécurisation des parcours {#journeys-guardrails}
+## Parcours {#journeys-guardrails}
+
+Cette section présente les mécanismes de sécurisation et les limitations des parcours, y compris les limitations générales des parcours, les composants de parcours (actions, événements, sources de données), les activités de parcours et les fonctionnalités spécifiques telles que les actions personnalisées et l’éditeur d’expression.
 
 ### Mécanismes de sécurisation généraux des parcours {#journeys-guardrails-journeys}
 
@@ -195,7 +208,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -333,6 +346,8 @@ Consultez également [cette page](../building-journeys/read-audience.md#must-rea
 
 Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Mettre à jour un profil]**. Ils sont répertoriés sur [cette page](../building-journeys/update-profiles.md).
 
-## Mécanismes de sécurisation de l’orchestration de campagne {#orchestration-guardrails}
+## Orchestration de campagne {#campaign-orchestration}
+
+### Mécanismes de sécurisation de l’orchestration de campagne {#orchestration-guardrails}
 
 Les mécanismes de sécurisation et les limitations à prendre en compte lorsque vous utilisez l’orchestration de campagne sont décrits dans cette section : [Mécanismes de sécurisation et limitations](../orchestrated/guardrails.md).

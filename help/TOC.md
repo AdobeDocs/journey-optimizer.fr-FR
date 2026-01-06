@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
 workflow-type: tm+mt
-source-wordcount: '3037'
+source-wordcount: '3038'
 ht-degree: 99%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 99%
       + [Définir le capping de la fréquence par canal et type](using/conflict-prioritization/channel-capping.md)
       + [Définir des heures creuses](using/conflict-prioritization/quiet-hours.md)
 + Tester et approuver {#test}
-   + [Tester et approuver](/help/rp_landing_pages/test-landing-page.md)
+   + [Tester, valider et approuver](/help/rp_landing_pages/test-landing-page.md)
    + Prévisualiser et tester le contenu {#preview-test}
       + [Prévisualiser et tester le contenu](/help/rp_landing_pages/preview-test-landing-page.md)
       + [Commencer avec la prévisualisation et les tests](using/content-management/preview-test.md)
@@ -929,7 +929,7 @@ ht-degree: 99%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
