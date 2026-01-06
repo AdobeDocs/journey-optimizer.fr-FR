@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Créez, personnalisez et gérez le contenu de votre SMS :
 * [Prévisualiser, tester et envoyer des messages](send-sms.md)
 * [Personnalisation dans les SMS](../personalization/personalize.md)
 * [Contenu dynamique](../personalization/get-started-dynamic-content.md)
-* [Générer du contenu SMS avec l’assistant AI](../content-management/generative-text.md)
+* [Générer du contenu SMS avec l’assistant IA](../content-management/generative-text.md)
 
 +++
 
@@ -202,7 +202,7 @@ Découvrez comment configurer, créer et inclure des SMS dans vos parcours clien
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -212,7 +212,7 @@ Découvrez les fonctionnalités complètes de messagerie mobile qu’Adobe Jour
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430372?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -222,7 +222,7 @@ Découvrez comment configurer et envoyer des messages RCS interactifs d’une ma
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ Les restrictions suivantes s’appliquent à l’Assistant IA dans Adobe Journ
 <img alt="Génération de contenu complet" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Générer le contenu complet</strong></a>
+<a href="generative-full-content.md"><strong>Générer du contenu complet</strong></a>
 </div>
 <p>
 </td>
@@ -157,5 +157,5 @@ Les restrictions suivantes s’appliquent à l’Assistant IA dans Adobe Journ
 ## Ressources supplémentaires
 
 * **[Expérimentation générative](generative-experimentation.md)** : découvrez comment combiner du contenu généré par l’IA avec l’expérimentation.
-* **[Cas d’utilisation de l’assistant AI](generative-uc.md)** - Découvrez à travers les cas d’utilisation comment utiliser l’assistant AI
-* **[Tutoriels sur l’Assistant IA](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques de l’Assistant IA.
+* **[Cas d’utilisation de l’assistant IA](generative-uc.md)** : découvrez comment utiliser l’assistant IA à travers divers cas d’utilisation
+* **[Tutoriels sur l’assistant IA](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques de l’assistant IA.

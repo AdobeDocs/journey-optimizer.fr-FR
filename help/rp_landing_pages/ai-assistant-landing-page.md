@@ -6,9 +6,9 @@ description: Assistant IA pour la génération de contenu
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Découvrez comment accéder à la fonctionnalité Assistant IA et la configurer
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
-Generate Full Content
+Générer du contenu complet
 
-Découvrez comment utiliser l’assistant AI pour concevoir du contenu complet, notamment du texte et des images pour les e-mails, les notifications push, les pages web et les pages de destination.
+Découvrez comment utiliser l’assistant IA pour concevoir du contenu complet incluant du texte et des images pour les e-mails, les notifications push, les pages web et les pages de destination.
 
 [En savoir plus sur la génération de contenu complet](../using/content-management/generative-full-content.md)
 :::
@@ -42,19 +42,19 @@ Découvrez comment utiliser l’assistant AI pour concevoir du contenu complet, 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=fr)
 
-Generate Text Only
+Générer uniquement du texte
 
-Utilisez l’assistant AI pour générer et affiner le contenu textuel pour tous les canaux, notamment les e-mails, les SMS, les notifications push, les pages web et les pages de destination.
+Utilisez l’assistant IA pour générer et affiner du contenu textuel pour tous les canaux, y compris les e-mails, les SMS, les notifications push, les pages web et les pages de destination.
 
 [Explorer la génération de texte](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
-Générer des images uniquement
+Générer uniquement des images
 
-Créez et personnalisez des images à l’aide de l’assistant AI à utiliser dans les e-mails, les notifications push, les pages web et les landing pages.
+Créez et personnalisez des images à l’aide de l’assistant IA que vous pouvez ensuite utiliser dans des e-mails, des notifications push, des pages web et des pages de destination.
 
 [Générer des images](../using/content-management/generative-image.md)
 :::

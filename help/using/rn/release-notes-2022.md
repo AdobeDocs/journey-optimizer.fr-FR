@@ -11,9 +11,9 @@ hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3599'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 ### Autres modifications{#sept-2022-other}
 
 * Le mode de parcours en rafale a été remplacé par le mode de diffusion rapide des campagnes. [En savoir plus](../push/create-push.md#rapid-delivery)
-* Pour améliorer les performances, les groupes de champs d’événement d’expérience ne peuvent plus être utilisés dans les parcours commençant par une lecture d’audience, une qualification d’audience ou une activité d’événement métier. Cette modification s’applique uniquement aux nouveaux parcours. Ceux qui existent déjà conserveront le comportement actuel. [En savoir plus](../start/guardrails.md#expression-editor)
+* Pour améliorer les performances, les groupes de champs d’événement d’expérience ne peuvent plus être utilisés dans les parcours commençant par une lecture d’audience, une qualification d’audience ou une activité d’événement métier. Cette modification s’applique uniquement aux nouveaux parcours. Les parcours existants conservent leur comportement actuel. [En savoir plus](../start/guardrails.md#expression-editor)
 * La limitation d’une heure pour les parcours de lecture d’audience planifiés a été supprimée. Ces parcours peuvent désormais être exécutés sans délai.
 
 
