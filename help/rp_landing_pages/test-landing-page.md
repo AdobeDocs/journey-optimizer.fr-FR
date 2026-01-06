@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: test, validation, approbation, assurance qualité, assurance qualité, aq, profils de test, personnalisation, rendu, contrôle de spam, test de contenu, test a/b, détection de conflit, liste de contrôle, bat, données d’exemple, workflow d’approbation, test d’e-mail, validation de workflow
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
+source-git-commit: 1f0890dd4257f049fd041dc2dbf6d45cd0d7092c
 workflow-type: tm+mt
-source-wordcount: '2560'
-ht-degree: 5%
+source-wordcount: '2284'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Cette page de destination vous aide à choisir la bonne approche de test en fonc
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prévisualiser, tester et valider le contenu
 
@@ -36,7 +36,7 @@ Découvrez comment prévisualiser, tester et valider du contenu personnalisé à
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Workflows d’approbation des parcours et des campagnes
 
@@ -46,7 +46,7 @@ Découvrez comment configurer, gérer et exécuter des processus d’approbation
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Tester votre parcours
 
@@ -56,7 +56,7 @@ Validez votre parcours avant de le publier en le testant avec des profils spéci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Test à blanc du parcours
 
@@ -66,7 +66,7 @@ Effectuez un test à blanc pour simuler et valider le chemin d’exécution de v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Surveillance et dépannage
 
@@ -76,7 +76,7 @@ Accédez à un ensemble complet de ressources de dépannage, d’alertes systèm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -106,7 +106,7 @@ Incluez automatiquement les adresses des parties prenantes internes dans les dif
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Détection des conflits
 
@@ -290,89 +290,16 @@ Pour optimiser l’efficacité de vos efforts de test, suivez ces pratiques reco
 
 ## Workflow de test recommandé
 
-Suivez cette approche systématique pour garantir des tests approfondis et des approbations fluides :
+Suivez cette approche en 4 phases pour valider vos campagnes et parcours avant le lancement :
 
-### &#x200B;1. Développement et prévisualisation du contenu
+| Phase | Éléments à tester | Actions clés |
+|-------|-------------|-------------|
+| **1. Validation du contenu** | Personalization, conception, rendu | [Aperçu avec profils de test](../using/content-management/preview-test.md), test [plusieurs variations](../using/test-approve/simulate-sample-input.md) avec CSV/JSON, vérification [rendu](../using/content-management/rendering.md) sur tous les appareils |
+| **2. Contrôles techniques** | Délivrabilité, liens, conflits | Exécutez [contrôles de score de spam](../using/content-management/spam-report.md), validez les liens, recherchez [conflits](../using/conflict-prioritization/conflicts.md) avec d’autres campagnes. |
+| **3. Logique de parcours** (parcours uniquement) | Conditions d’entrée, flux, embranchement | Utilisez [mode test](../using/building-journeys/testing-the-journey.md) pour simuler la progression, exécutez [essai](../using/building-journeys/journey-dry-run.md) pour les chemins complexes |
+| **4. Pré-lancement** | Paramètres, validations, surveillance | Envoyer pour [approbation](../using/test-approve/gs-approval.md), vérifier les plannings et les audiences, activer [alertes](../using/reports/alerts.md) |
 
-Commencez par créer votre contenu et par utiliser les fonctionnalités de prévisualisation pour vérifier la conception et la personnalisation initiales :
-
-* Concevoir le contenu de votre [e-mail](../using/email/create-email.md), [SMS](../using/sms/create-sms.md), [notification push](../using/push/create-push.md) ou d’un autre canal
-
-* Utilisez la fonction **[Simuler du contenu](../using/content-management/preview-test.md)** pour prévisualiser avec des profils de test
-
-* Cochez [jetons de personnalisation](../using/personalization/personalization-syntax.md), contenu dynamique et valeurs de secours
-
-* Testez les expressions de personnalisation dans le **[terrain de jeu de la personnalisation](../using/personalization/personalize.md#playground)** pour tester et affiner votre code avec des exemples de données avant de l’appliquer au contenu en direct
-
-* Testez plusieurs variations à l’aide de **[exemples de données d’entrée](../using/test-approve/simulate-sample-input.md)** provenant de fichiers CSV/JSON pour valider la personnalisation dans divers scénarios de profil
-
-* Vérifier le [rendu](../using/content-management/rendering.md) sur différents formats d’écran et clients de messagerie
-
-### &#x200B;2. Validation technique
-
-Validez les aspects techniques ayant un impact sur la délivrabilité et les fonctionnalités :
-
-* Exécutez [&#x200B; contrôles de score de spam &#x200B;](../using/content-management/spam-report.md) pour identifier les problèmes de délivrabilité potentiels
-
-* Tester les liens pour s’assurer qu’ils ne sont pas rompus et effectuer correctement le suivi
-
-* Valider la configuration [authentification par e-mail](../using/configuration/dmarc-record.md) (SPF, DKIM, DMARC)
-
-* Vérifier le rendu HTML et rechercher les problèmes de compatibilité CSS
-
-* Test [responsive design](../using/email/content-from-scratch.md) sur les appareils mobiles et les ordinateurs de bureau
-
-* Recherchez les [conflits potentiels](../using/conflict-prioritization/conflicts.md) avec d’autres campagnes et parcours pour éviter la fatigue des messages client et les problèmes de minutage
-
-### &#x200B;3. Essais Parcours (parcours uniquement)
-
-Si vous testez un parcours, validez la logique d’orchestration :
-
-* Activez le **[mode Test](../using/building-journeys/testing-the-journey.md)** pour simuler la progression du profil tout au long du parcours
-
-* Tester différentes [conditions d’entrée](../using/building-journeys/entry-management.md) et qualifications d’audience
-
-* Vérifiez que [les activités d’attente](../using/building-journeys/wait-activity.md), [les conditions](../using/building-journeys/condition-activity.md) et la logique de branchement fonctionnent correctement
-
-* Utilisez **[Exécution d’essai](../using/building-journeys/journey-dry-run.md)** pour les parcours complexes afin d’analyser les chemins d’exécution sans envoyer de messages
-
-* Vérifiez que les [événements](../using/event/about-events.md) se déclenchent correctement et [actions personnalisées](../using/action/about-custom-action-configuration.md) s’exécutent comme prévu
-
-### &#x200B;4. Soumission d’approbation
-
-Une fois le test terminé et les problèmes résolus :
-
-* Soumettez la campagne ou le parcours à validation conformément à la [politique de validation](../using/test-approve/approval-policies.md) de votre organisation
-
-* Incluez les résultats du test et la documentation avec la [demande d’approbation](../using/test-approve/request-approval.md)
-
-* Répondre à tout commentaire ou demande de modification de la part des [approbateurs](../using/test-approve/review-approve-request.md)
-
-* Effectuez les révisions nécessaires et testez-les à nouveau si les modifications sont importantes.
-
-### &#x200B;5. Vérification préalable au lancement
-
-Avant d’activer votre campagne ou votre parcours :
-
-* Effectuez une révision finale de tous les paramètres, audiences et [plannings](../using/building-journeys/journey-properties.md)
-
-* Vérifier que toutes les approbations sont en place et documentées
-
-* Vérifiez que les heures d’envoi et les [fuseaux horaires](../using/building-journeys/timezone-management.md) sont corrects.
-
-* Activez la [&#x200B; surveillance et alertes &#x200B;](../using/reports/alerts.md) pour suivre les performances après le lancement
-
-### &#x200B;6. Surveiller et itérer
-
-Après le lancement, continuez la surveillance pour détecter rapidement tout problème :
-
-* Configurer des [alertes système](../using/reports/alerts.md) pour les erreurs de parcours, les taux de rebond élevés ou un faible engagement
-
-* Examinez les [rapports dynamiques](../using/building-journeys/report-journey.md) pour suivre les performances par rapport aux attentes
-
-* Préparez-vous à [mettre en pause ou modifier](../using/building-journeys/journey-pause.md) les parcours en cas de problèmes critiques
-
-* Documenter les leçons apprises pour améliorer les futurs processus de test
+**Conseil pro :** commencez par le [terrain de jeu de la personnalisation](../using/personalization/personalize.md#playground) pour tester les expressions avant de créer du contenu et vérifiez toujours [détection de conflit](../using/conflict-prioritization/conflicts.md) avant le lancement pour éviter la surmessagerie.
 
 ## Tests en action : cas d’utilisation
 
@@ -393,7 +320,7 @@ Découvrez comment les concepts de test s’appliquent aux scénarios réels :
 
 **[Exécution d’essai](../using/building-journeys/journey-dry-run.md)** = outil d’analyse d’exécution de Parcours qui effectue le suivi des chemins sans envoyer de messages ni effectuer d’appels API. Cas d’utilisation : validation de la logique sans consommer de ressources. [En savoir plus sur l’essai](../using/building-journeys/journey-dry-run.md)
 
-**[Exemples de données d’entrée](../using/test-approve/simulate-sample-input.md)** = fichiers CSV ou JSON contenant des valeurs d’attribut de profil pour tester la personnalisation. Prend en charge jusqu’à 30 variantes. Alternative à la création de profils de test. [Comment simuler des variations de contenu &#x200B;](../using/test-approve/simulate-sample-input.md)
+**[Exemples de données d’entrée](../using/test-approve/simulate-sample-input.md)** = fichiers CSV ou JSON contenant des valeurs d’attribut de profil pour tester la personnalisation. Prend en charge jusqu’à 30 variantes. Alternative à la création de profils de test. [Comment simuler des variations de contenu ](../using/test-approve/simulate-sample-input.md)
 
 **[Listes de contrôle](../using/configuration/seed-lists.md)** = adresses e-mail des parties prenantes internes automatiquement incluses dans les diffusions réelles (et non les envois de test). Canal e-mail uniquement. Cas pratique : surveillance de la qualité et conformité. [Configuration des listes de contrôle](../using/configuration/seed-lists.md)
 
@@ -401,7 +328,7 @@ Découvrez comment les concepts de test s’appliquent aux scénarios réels :
 
 **[BAT](../using/content-management/proofs.md)** = Tester les diffusions par e-mail envoyées à des adresses e-mail spécifiques à l’aide des données de profil de test. Différent des listes de contrôle (les BAT sont des envois de test manuels, les listes de contrôle sont des copies automatiques des parties prenantes). [Envoi de BAT](../using/content-management/proofs.md)
 
-**[Détection des conflits](../using/conflict-prioritization/conflicts.md)** = Outil qui identifie les campagnes et les parcours qui se chevauchent et ciblent les mêmes audiences. Prise en charge limitée des parcours : unitaire, qualification d’audience et lecture d’audience uniquement. [En savoir plus sur la gestion des conflits &#x200B;](../using/conflict-prioritization/gs-conflict-prioritization.md)
+**[Détection des conflits](../using/conflict-prioritization/conflicts.md)** = Outil qui identifie les campagnes et les parcours qui se chevauchent et ciblent les mêmes audiences. Prise en charge limitée des parcours : unitaire, qualification d’audience et lecture d’audience uniquement. [En savoir plus sur la gestion des conflits ](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
 **[Workflows d’approbation](../using/test-approve/gs-approval.md)** = processus de révision en plusieurs étapes nécessitant l’approbation des parties prenantes avant activation. Nécessite la configuration d’une politique d’approbation. [Configurer les validations](../using/test-approve/gs-approval.md) | [Créer des politiques](../using/test-approve/approval-policies.md)
 
@@ -415,13 +342,13 @@ Découvrez comment les concepts de test s’appliquent aux scénarios réels :
 
 >[!TAB Guides essentiels ]
 
-* [&#x200B; Simuler des variations de contenu &#x200B;](../using/test-approve/simulate-sample-input.md) - Testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON. Idéal pour les tests de contenu multilingue sans créer plusieurs profils de test. Prend en charge les e-mails, SMS, notifications push, web, basées sur le code, in-app et cartes de contenu.
+* [ Simuler des variations de contenu ](../using/test-approve/simulate-sample-input.md) - Testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON. Idéal pour les tests de contenu multilingue sans créer plusieurs profils de test. Prend en charge les e-mails, SMS, notifications push, web, basées sur le code, in-app et cartes de contenu.
 
 * [Création de profils de test](../using/audience/creating-test-profiles.md) - Créez et gérez des profils de test pour simuler des scénarios client. Découvrez comment marquer les profils pour les tests, définir des attributs et organiser les segments de test.
 
 * [Rapport sur les courriers indésirables](../using/content-management/spam-report.md) - Vérifiez les scores de spam avant l&#39;envoi pour améliorer la délivrabilité et le positionnement dans la boîte de réception. Obtenez des recommandations exploitables pour l’optimisation du contenu.
 
-* [FAQ sur les Parcours &#x200B;](../using/building-journeys/journey-faq.md) - Référence rapide pour les questions courantes sur les tests de parcours, l’exécution et le dépannage.
+* [FAQ sur les Parcours ](../using/building-journeys/journey-faq.md) - Référence rapide pour les questions courantes sur les tests de parcours, l’exécution et le dépannage.
 
 >[!TAB Dépendances et relations]
 
