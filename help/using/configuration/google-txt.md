@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, google, txt, enregistrement, gmail, délivrabilité
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: e89bec74f597185065b274d22740324a09e9319e
+source-git-commit: a23f13bea69d1539cc2cd27a701e20287ddba026
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '285'
 ht-degree: 75%
 
 ---
@@ -30,6 +30,8 @@ Pour garantir une délivrabilité optimale et une diffusion réussie des e-mails
 >[!CAUTION]
 >
 > Cette opération ne peut être effectuée que lorsqu&#39;un sous-domaine a le statut **[!UICONTROL Succès]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](delegate-subdomain.md#access-delegated-subdomains).
+
+## Ajouter un enregistrement TXT Google {#add-google-txt-record}
 
 Pour ajouter un enregistrement TXT Google à votre sous-domaine, procédez comme suit :
 
