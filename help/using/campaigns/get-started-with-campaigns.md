@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: 129c2af3a7a8db00c400f5c6e78530c0649d9896
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1525'
 ht-degree: 31%
 
 ---
@@ -92,7 +92,7 @@ Ce guide fournit une feuille de route claire pour vous aider à comprendre les p
 
 Les **campagnes** sont des actions marketing coordonnées qui diffusent du contenu à une audience spécifique sur un ou plusieurs canaux. Contrairement aux parcours où les actions s’exécutent de manière séquentielle, les campagnes exécutent des actions simultanément, immédiatement ou selon un planning défini.
 
-Utilisez [!DNL Journey Optimizer] pour :
+Utilisez les campagnes [!DNL Journey Optimizer] pour :
 
 * Diffuser du **contenu unique ou récurrent** aux segments ciblés d’audience.
 * Exécutez **communications multicanaux coordonnées** par e-mail, notification push, SMS, in-app, web, etc
@@ -110,6 +110,16 @@ Utilisez [!DNL Journey Optimizer] pour :
 ![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
+
+>[!TAB Campagnes orchestrées]
+
+**Utilisation :** workflows marketing complexes et à plusieurs étapes
+
+**Campagnes orchestrées** fournissez une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing sophistiqués. De la segmentation de l’audience à la diffusion personnalisée des messages sur plusieurs canaux, tout se passe dans un environnement intuitif conçu pour la vitesse et le contrôle.
+
+**Idéal pour** programmes d’engagement client à plusieurs étapes, les stratégies de ciblage et de segmentation complexes, l’orchestration de campagnes cross-canal, le marketing à l’échelle initié par la marque et l’automatisation avancée des workflows avec plusieurs points de décision.
+
+➡️ [En savoir plus sur les campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB Campagnes d’action (planifiées)]
 
@@ -141,16 +151,6 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 
 ➡️ [En savoir plus sur les campagnes déclenchées par API](api-triggered-campaigns.md)
 
->[!TAB Campagnes orchestrées]
-
-**Utilisation :** workflows marketing complexes et à plusieurs étapes
-
-**Campagnes orchestrées** fournissez une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing sophistiqués. De la segmentation de l’audience à la diffusion personnalisée des messages sur plusieurs canaux, tout se passe dans un environnement intuitif conçu pour la vitesse et le contrôle.
-
-**Idéal pour** programmes d’engagement client à plusieurs étapes, les stratégies de ciblage et de segmentation complexes, l’orchestration de campagnes cross-canal, le marketing à l’échelle initié par la marque et l’automatisation avancée des workflows avec plusieurs points de décision.
-
-➡️ [En savoir plus sur les campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
-
 >[!ENDTABS]
 
 >[!NOTE]
@@ -161,9 +161,7 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 
 La création de campagnes réussies suit un processus clair et reproductible. Votre workflow détaillé est le suivant :
 
-**1. Plan** → **2. Configurez** → **3. Conception** → **4. Révision** → **5. Activer** → **6. Surveiller**
-
-### &#x200B;1. Planifier votre campagne {#plan}
++++ &#x200B;1. Planifier votre campagne
 
 Avant de commencer, clarifiez vos objectifs :
 
@@ -173,7 +171,9 @@ Avant de commencer, clarifiez vos objectifs :
 * **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, in-app, web, etc.) → [Voir les canaux pris en charge par type de campagne](../channels/gs-channels.md#channels)
 * **Quand doit-il s’exécuter ?** (immédiat, planifié ou déclenché par API)
 
-### &#x200B;2. Configurer les propriétés de la campagne {#configure}
++++
+
++++Configurer les propriétés de la campagne
 
 Configurez les bases de votre campagne :
 
@@ -185,7 +185,9 @@ Configurez les bases de votre campagne :
 
 **Guides spécifiques aux types :** [Propriétés de la campagne d’action](campaign-properties.md) | [Propriétés de campagne déclenchées par API](api-triggered-campaign-properties.md) | [Configuration de campagne orchestrée](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;3. Concevoir le contenu {#design}
++++
+
++++Concevoir du contenu
 
 Créez des messages attrayants pour votre audience :
 
@@ -195,9 +197,11 @@ Créez des messages attrayants pour votre audience :
 * Créer des expériences **in-app** et **web**
 * Ajouter **personnalisation** à l’aide des attributs de profil et des données contextuelles
 
-**Guides spécifiques aux types :** [Contenu d’action de campagne](campaign-content.md) | [Contenu de campagne déclenché par API](api-triggered-campaign-content.md) | [&#x200B; Contenu de campagne orchestré &#x200B;](../orchestrated/create-orchestrated-campaign.md)
+**Guides spécifiques aux types :** [Contenu d’action de campagne](campaign-content.md) | [Contenu de campagne déclenché par API](api-triggered-campaign-content.md) | [ Contenu de campagne orchestré ](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;4. Examen et test {#review}
++++
+
++++Révision et test
 
 Examinez toujours votre campagne avant l’activation :
 
@@ -209,18 +213,23 @@ Examinez toujours votre campagne avant l’activation :
 
 **Guides spécifiques aux types :** [Consultez les campagnes Action](review-activate-campaign.md) | [Vérification des campagnes déclenchées par l’API](review-activate-api-triggered-campaign.md) | [Vérifier les campagnes orchestrées](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;5. Activer votre campagne {#activate}
++++
+
++++Activer votre campagne
 
 Une fois la révision terminée, activez votre campagne :
 
 * **Activation manuelle** - Activer immédiatement ou à l’heure prévue
 * **Activation d’API** - Pour les campagnes déclenchées par API, utilisez le point d’entrée d’activation
 * **Processus d’approbation** - Si nécessaire, attendez l’approbation des parties prenantes
-* Remarque : les campagnes actives ne peuvent pas être modifiées (vous devez les dupliquer pour apporter des modifications)
+
+Remarque : les campagnes actives ne peuvent pas être modifiées (vous devez les dupliquer pour apporter des modifications)
 
 **Guides spécifiques aux types :** [Activer des campagnes d’action](review-activate-campaign.md) | [Activer des campagnes déclenchées par API](review-activate-api-triggered-campaign.md) | [Activer des campagnes orchestrées](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;6. Surveiller et analyser {#monitor}
++++
+
++++Surveiller et analyser
 
 Suivez les performances de votre campagne :
 
@@ -232,6 +241,8 @@ Suivez les performances de votre campagne :
 
 **Guides spécifiques aux types :** [Rapports de campagne d’action](../reports/campaign-global-report-cja.md) | [Surveillance de campagne déclenchée par API](api-triggered-campaigns.md#monitor) | [Analyse de campagne orchestrée](../orchestrated/create-orchestrated-campaign.md)
 
++++
+
 ➡️ **Prêt à démarrer ?** Choisissez votre type de campagne :
 * [Créer un → de campagne d’action](create-campaign.md)
 * [Créer des → de campagne déclenchées par API](api-triggered-campaigns.md)
@@ -241,8 +252,6 @@ Suivez les performances de votre campagne :
 
 Avant d’utiliser des campagnes, vérifiez que les éléments suivants sont en place :
 
-### Configuration requise
-
 * **Audiences** - Les audiences doivent être disponibles dans Adobe Experience Platform avant de créer des campagnes. [Prise en main des audiences →](../audience/about-audiences.md)
 
 * **Configurations de canal** - Les configurations de canal (préréglages) doivent être créées et disponibles pour les canaux que vous souhaitez utiliser. [Configurez les configurations de canal →](../configuration/channel-surfaces.md)
@@ -250,24 +259,23 @@ Avant d’utiliser des campagnes, vérifiez que les éléments suivants sont en 
 * **Autorisations** - Vous avez besoin des autorisations appropriées en fonction du type de campagne. Contactez votre administrateur si vous ne pouvez pas accéder aux fonctionnalités de Campaign. [En savoir plus sur les rôles intégrés →](../administration/ootb-product-profiles.md)
 
   | Type de campagne | Autorisations |
-  |----------------------------|----------------------------------------------------------------------------|
-  | **Campagnes d’action** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
-  | **Campagnes déclenchées par API** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
+  |-------------|---------------|
+  | **Campagnes d’action** et **campagnes déclenchées par l’API** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
   | **Campagnes orchestrées** | Administrateur ou administratrice de campagne orchestrée<br>Approbateur ou approbatrice de campagne orchestrée<br>Responsable de campagne orchestrée<br>Observateur ou observatrice de campagne orchestrée |
 
-+++Attribuer des autorisations de campagne
+  +++Attribution des autorisations de campagne
 
-1. Accédez à l’onglet **[!UICONTROL Rôles]** dans le produit [!DNL Permissions] et sélectionnez l’un des **[!UICONTROL Rôles]** intégrés liés à la campagne.
+   1. Accédez à l’onglet **[!UICONTROL Rôles]** dans le produit [!DNL Permissions] et sélectionnez l’un des **[!UICONTROL Rôles]** intégrés liés à la campagne.
 
    1. Dans l’onglet **[!UICONTROL Utilisateurs et utilisatrices]**, cliquez sur **[!UICONTROL Ajouter un utilisateur ou une utilisatrice]**.
 
    1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez cette personne dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users){target="_blank"}.
+  Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
-   La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
+  La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-   +++
+  +++
 
 ## Fonctionnalités de Campaign {#capabilities}
 
@@ -276,7 +284,7 @@ Avant d’utiliser des campagnes, vérifiez que les éléments suivants sont en 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et minutage**
 
@@ -286,7 +294,7 @@ Planifiez des campagnes à des dates/heures spécifiques, définissez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -296,7 +304,7 @@ Limitez le débit des messages pour éviter la surcharge sur les systèmes en av
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -306,7 +314,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -326,7 +334,7 @@ Respectez les préférences du client en évitant la diffusion de messages penda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation**
 
