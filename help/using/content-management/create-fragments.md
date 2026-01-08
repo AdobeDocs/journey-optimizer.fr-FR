@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 96%
 
 ---
 
@@ -89,7 +89,7 @@ Lorsque votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Enregistrer
 
 >[!NOTE]
 >
->Les fragments visuels ne peuvent pas dépasser 100 Ko. Les fragments d’expression ne peuvent pas dépasser 200 Ko.
+>Les fragments visuels ne doivent pas dépasser 100 Ko. Les fragments d’expression ne doivent pas dépasser 200 Ko.
 
 Le fragment est créé et ajouté à la liste de fragments avec le statut **[!UICONTROL Brouillon]**. Vous pouvez le prévisualiser et le publier pour le rendre disponible dans les parcours et les campagnes.
 
@@ -119,3 +119,7 @@ Le fragment est maintenant **[!UICONTROL Actif]** et devient disponible lors de 
 
 * [Découvrir comment utiliser des fragments visuels](../email/use-visual-fragments.md)
 * [Découvrir comment utiliser des fragments d’expression](../personalization/use-expression-fragments.md)
+
+>[!CAUTION]
+>
+>Une fois publié, vous ne pouvez pas ajouter de nouveaux attributs personnalisés à un fragment dynamique. Si vous souhaitez ajouter des attributs de personnalisation, vous devez dupliquer le fragment. [En savoir plus](manage-fragments.md#adding-new-attributes)
