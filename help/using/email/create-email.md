@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création d’un e-mail
+title: Créer un e-mail
 description: Découvrez comment créer un e-mail dans Journey Optimizer.
 feature: Email
 topic: Content Management
@@ -10,13 +10,13 @@ level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 100%
 
 ---
 
-# Création d’un e-mail {#create-email}
+# Créer un e-mail {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"

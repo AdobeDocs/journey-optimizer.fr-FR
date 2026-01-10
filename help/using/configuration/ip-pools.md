@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création de groupes d’adresses IP
+title: Créer des groupes d’adresses IP
 description: Découvrez comment gérer des groupes d’adresses IP
 feature: Subdomains, Channel Configuration
 topic: Administration
@@ -10,13 +10,13 @@ level: Experienced
 keywords: adresses IP, groupes, groupe, sous-domaines, délivrabilité
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
 ---
 
-# Création de groupes d’adresses IP {#create-ip-pools}
+# Créer des groupes d’adresses IP {#create-ip-pools}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"

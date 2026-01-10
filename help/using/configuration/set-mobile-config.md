@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Commencer avec la configuration guidée des canaux {#set-mobile-config}
+# Commencer la configuration guidée des canaux {#set-mobile-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
