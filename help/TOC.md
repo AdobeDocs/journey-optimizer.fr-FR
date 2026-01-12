@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c9274ddf086fd0ea5fd4d2de9d90daffbccd5ae5
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
-source-wordcount: '3051'
+source-wordcount: '3061'
 ht-degree: 98%
 
 ---
@@ -501,9 +501,12 @@ ht-degree: 98%
       + [Créer un fournisseur de langue](using/content-management/multilingual-provider.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
-   + [Optimisation des messages](using/campaigns/campaigns-message-optimization.md)
+   + Optimisation du contenu {#message-optimization}
+      + [Prise en main de l’optimisation](using/campaigns/gs-message-optimization.md)
+      + [Utiliser le ciblage](using/campaigns/optimization-targeting.md)
+      + [Utiliser l’expérimentation](using/campaigns/optimization-experimentation.md)
+      + [Combiner ciblage et expérimentation](using/campaigns/optimization-combination.md)
    + Expérience de contenu {#content-experiment}
-      + [Expérience de contenu](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Commencer avec l’expérience de contenu](using/content-management/get-started-experiment.md)
       + [Commencer avec l’accélérateur d’expérience](using/content-management/experiment-accelerator-gs.md)
       + [Créer une expérience de contenu](using/content-management/content-experiment.md)
@@ -931,7 +934,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
