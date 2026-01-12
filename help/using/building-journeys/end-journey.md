@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques sur quand et comment les profils doivent quitter les parcours ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des scénarios de sortie réels, des bonnes pratiques et des conseils de configuration.
+>Vous recherchez des conseils pratiques sur quand et comment les profils doivent quitter les parcours ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des scénarios de sortie réels, des bonnes pratiques et des conseils de configuration.
 
 ## Terminaison d’un parcours dynamique
 
@@ -126,7 +126,7 @@ Vous pouvez également réaliser les opérations suivantes :
 
 ## Rubriques connexes
 
-* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
 * [Gestion des entrées de profil](entry-management.md) - Configurer la manière dont les profils entrent dans les parcours
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) - Configurer la suppression automatique des profils des parcours
-* [Mettre en pause un parcours ](journey-pause.md) - Arrêter temporairement l’exécution du parcours
+* [Mettre en pause un parcours &#x200B;](journey-pause.md) - Arrêter temporairement l’exécution du parcours

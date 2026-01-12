@@ -279,7 +279,7 @@ Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent pl
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation complets avec des configurations d’entrée et de sortie, des bonnes pratiques et des stratégies d’optimisation.
+>Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation complets avec des configurations d’entrée et de sortie, des bonnes pratiques et des stratégies d’optimisation.
 
 **Exemple de cas d’utilisation**
 
@@ -342,9 +342,9 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 ### Rubriques connexes {#exit-criteria-related}
 
-* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
 * [Gestion des entrées de profil](entry-management.md) - Configurer la manière dont les profils entrent dans les parcours
-* [Comment se terminent les parcours ](end-journey.md) - Comprendre la complétion naturelle du parcours
+* [Comment se terminent les parcours &#x200B;](end-journey.md) - Comprendre la complétion naturelle du parcours
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) - Utiliser des critères de sortie lors de la suspension des parcours
 
 ## Planning du parcours {#schedule}
