@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 94%
+source-wordcount: '681'
+ht-degree: 91%
 
 ---
 
@@ -216,7 +216,7 @@ currentActionField.description == "abc"
 
 Les champs de payload de réponse des actions personnalisées peuvent être utilisés dans les canaux natifs (e-mail, notification push ou SMS) à des fins de personnalisation des messages. Cela inclut la possibilité d’effectuer une itération sur des tableaux et des structures de données imbriquées renvoyés par des API externes.
 
-<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).-->
+Pour obtenir des exemples détaillés et la syntaxe pour effectuer une itération sur les données de réponse d’action personnalisée dans les messages, voir [Itérer sur les données contextuelles avec Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).
 
 ## Ressources supplémentaires
 
