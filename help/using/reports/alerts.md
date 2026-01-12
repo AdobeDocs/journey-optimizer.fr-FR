@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 97%
+source-wordcount: '2102'
+ht-degree: 99%
 
 ---
 
@@ -91,7 +91,7 @@ Pour vous abonner ou vous désabonner d’une alerte pour un parcours spécifiqu
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
@@ -158,37 +158,17 @@ Pour résoudre les erreurs de profil, vous pouvez interroger les données des é
 
 ### Parcours publié {#alert-journey-published}
 
->[!AVAILABILITY]
->
->Cette alerte est actuellement disponible avec des fonctionnalités limitées. Bien que vous puissiez vous abonner à cette alerte, les notifications ne sont pas encore entièrement opérationnelles.
-
 Cette alerte vous avertit lorsqu’un parcours a été publié par un utilisateur ou une utilisatrice dans la zone de travail du parcours.
 
 Il s’agit d’une alerte informative qui vous permet de suivre les événements de cycle de vie du parcours dans votre organisation. Il n’existe aucun critère de résolution, car il s’agit d’une notification ponctuelle.
 
 ### Parcours terminé {#alert-journey-finished}
 
->[!AVAILABILITY]
->
->Cette alerte est actuellement disponible avec des fonctionnalités limitées. Bien que vous puissiez vous abonner à cette alerte, les notifications ne sont pas encore entièrement opérationnelles.
-
-Cette alerte vous avertit lorsqu’un parcours est terminé. La définition de « terminé » varie en fonction du type de parcours :
-
-| Type de parcours | Récurrent ? | A une date de fin ? | Définition de « terminé » |
-|--------------|------------|---------------|--------------------------|
-| Lecture d’audience | Non | S.O. | 91 jours après le début de l’exécution |
-| Lecture d’audience | Oui | Non | 91 jours après le début de l’exécution |
-| Lecture d’audience | Oui | Oui | Lorsque la date de fin est atteinte |
-| Parcours déclenché par un événement | S.O. | Oui | Lorsque la date de fin est atteinte |
-| Parcours déclenché par un événement | S.O. | Non | Si fermeture dans l’interface d’utilisation ou via l’API |
+Cette alerte vous avertit lorsqu’un parcours est terminé. La définition de « terminé » varie en fonction du type de parcours. [En savoir plus sur les parcours considérés comme terminés](../building-journeys/end-journey.md#journey-finished-definition).
 
 Il s’agit d’une alerte informative qui vous permet de suivre l’achèvement du parcours. Il n’existe aucun critère de résolution, car il s’agit d’une notification ponctuelle.
 
 ### Limitation d’action personnalisée déclenchée {#alert-custom-action-capping}
-
->[!AVAILABILITY]
->
->Cette alerte est actuellement disponible avec des fonctionnalités limitées. Bien que vous puissiez vous abonner à cette alerte, les notifications ne sont pas encore entièrement opérationnelles.
 
 Cette alerte vous avertit lorsque la limitation a été déclenchée sur une action personnalisée. La limitation est utilisée pour définir un nombre maximal d’appels envoyés à un point d’entrée externe afin d’éviter de le surcharger.
 

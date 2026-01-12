@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2866'
 ht-degree: 95%
 
 ---
@@ -129,6 +129,10 @@ Les parcours utilisent également une temporisation globale comme décrit ci-des
 En plus de la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, une temporisation globale de parcours est appliquée. Elle ne s’affiche pas dans l’interface et ne peut pas être modifiée.
 
 Cette temporisation globale arrête la progression des personnes dans le parcours **91 jours** après leur entrée. En d’autres termes, la durée du parcours d’une personne ne peut pas excéder 91 jours. Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
+
+>[!NOTE]
+>
+>La définition exacte du moment où un parcours est considéré comme « terminé » varie selon le type de parcours. [Voir les critères détaillés](end-journey.md#journey-finished-definition).
 
 Compte tenu de la temporisation de 91 jours du parcours, lorsque la rentrée de celui-ci n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de la rentrée fonctionnera plus de 91 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 91 jours après leur entrée, rien ne nous permet de savoir qu’une personne l’a déjà rejoint il y a plus de 91 jours.
 
@@ -275,7 +279,7 @@ Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent pl
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation complets avec des configurations d’entrée et de sortie, des bonnes pratiques et des stratégies d’optimisation.
+>Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation complets avec des configurations d’entrée et de sortie, des bonnes pratiques et des stratégies d’optimisation.
 
 **Exemple de cas d’utilisation**
 
@@ -338,9 +342,9 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 ### Rubriques connexes {#exit-criteria-related}
 
-* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
 * [Gestion des entrées de profil](entry-management.md) - Configurer la manière dont les profils entrent dans les parcours
-* [Comment se terminent les parcours &#x200B;](end-journey.md) - Comprendre la complétion naturelle du parcours
+* [Comment se terminent les parcours ](end-journey.md) - Comprendre la complétion naturelle du parcours
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) - Utiliser des critères de sortie lors de la suspension des parcours
 
 ## Planning du parcours {#schedule}

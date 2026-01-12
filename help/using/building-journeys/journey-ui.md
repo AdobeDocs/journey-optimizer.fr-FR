@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1475'
-ht-degree: 100%
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+workflow-type: tm+mt
+source-wordcount: '1483'
+ht-degree: 98%
 
 ---
 
@@ -140,7 +140,7 @@ Le statut du parcours dépend de son cycle de vie. Il peut s’agir des élémen
 
 * **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
 * **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**. [En savoir plus](../building-journeys/testing-the-journey.md)
-* **Terminé** : le parcours passe automatiquement à ce statut après la [temporisation globale](journey-properties.md#global_timeout) de 91 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
+* **Terminé** : le parcours passe automatiquement à ce statut en fonction du type et de la configuration du parcours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils de cleintes et clients ne peuvent plus rejoindre le parcours. [Découvrez quand les parcours sont considérés comme terminés](end-journey.md#journey-finished-definition).
 * **Actif** : le parcours a été publié à l’aide du bouton **Publier**. [En savoir plus](../building-journeys/publish-journey.md)
 * **Mis en pause** : le parcours actif a été mis en pause, à l’aide du bouton **Pause**. [En savoir plus](../building-journeys/journey-pause.md)
 * **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours. [En savoir plus](../building-journeys/end-journey.md#stop-journey)

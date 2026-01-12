@@ -9,9 +9,9 @@ level: Intermediate
 keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '991'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques sur quand et comment les profils doivent quitter les parcours ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des scénarios de sortie réels, des bonnes pratiques et des conseils de configuration.
+>Vous recherchez des conseils pratiques sur quand et comment les profils doivent quitter les parcours ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des scénarios de sortie réels, des bonnes pratiques et des conseils de configuration.
 
 ## Terminaison d’un parcours dynamique
 
@@ -67,6 +67,20 @@ Après la **temporisation globale de 91 jours**, le statut d’un parcours de l
 >
 >Un parcours unique basé sur les segments conserve le statut **Actif** même après une seule exécution. Les profils ne peuvent pas rejoindre à nouveau le parcours une fois l’opération terminée, mais le statut du parcours reste **Actif** jusqu’à l’expiration de la temporisation globale par défaut. Vous pouvez le fermer manuellement plus tôt à l’aide de l’option **Fermer aux nouvelles entrées**.
 
+### Quand un parcours est-il considéré comme « terminé » ? {#journey-finished-definition}
+
+La définition de « terminé » varie en fonction du type de parcours :
+
+| Type de parcours | Récurrent ? | A une date de fin ? | Définition de « terminé » |
+|--------------|------------|---------------|--------------------------|
+| Lecture d’audience | Non | S.O. | 91 jours après le début de l’exécution |
+| Lecture d’audience | Oui | Non | 91 jours après le début de l’exécution |
+| Lecture d’audience | Oui | Oui | Lorsque la date de fin est atteinte |
+| Parcours déclenché par un événement | S.O. | Oui | Lorsque la date de fin est atteinte |
+| Parcours déclenché par un événement | S.O. | Non | Si fermeture dans l’interface d’utilisation ou via l’API |
+
+Il s’agit d’une alerte informative qui vous permet de suivre l’achèvement du parcours. Il n’existe aucun critère de résolution, car il s’agit d’une notification ponctuelle.
+
 ### Fermer aux nouvelles entrées {#close-to-new-entrances}
 
 Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n’est alors plus accessible aux nouvelles personnes. Les profils déjà présents dans le parcours peuvent terminer le parcours normalement. Au-delà de la temporisation globale par défaut de 91 jours, le statut du parcours passe à **Terminé**.
@@ -112,7 +126,7 @@ Vous pouvez également réaliser les opérations suivantes :
 
 ## Rubriques connexes
 
-* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
 * [Gestion des entrées de profil](entry-management.md) - Configurer la manière dont les profils entrent dans les parcours
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) - Configurer la suppression automatique des profils des parcours
-* [Mettre en pause un parcours &#x200B;](journey-pause.md) - Arrêter temporairement l’exécution du parcours
+* [Mettre en pause un parcours ](journey-pause.md) - Arrêter temporairement l’exécution du parcours
