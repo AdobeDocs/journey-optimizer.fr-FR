@@ -230,7 +230,7 @@ Créez des messages attrayants pour votre audience :
 * Créer des expériences **in-app** et **web**
 * Ajouter **personnalisation** à l’aide des attributs de profil et des données contextuelles
 
-**Guides spécifiques aux types :** [Contenu d’action de campagne](campaign-content.md) | [Contenu de campagne déclenché par API](api-triggered-campaign-content.md) | [ Contenu de campagne orchestré ](../orchestrated/create-orchestrated-campaign.md)
+**Guides spécifiques aux types :** [Contenu d’action de campagne](campaign-content.md) | [Contenu de campagne déclenché par API](api-triggered-campaign-content.md) | [&#x200B; Contenu de campagne orchestré &#x200B;](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
