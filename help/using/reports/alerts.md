@@ -8,90 +8,146 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 99%
+source-wordcount: '2385'
+ht-degree: 67%
 
 ---
 
 # Accéder et s’abonner aux alertes système {#alerts}
 
-Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou les publier.
+## Présentation
 
-* Découvrez comment résoudre les problèmes de vos parcours sur [cette page](../building-journeys/troubleshooting.md).
+Adobe Journey Optimizer propose deux types d’alertes pour vous aider à surveiller et à résoudre les problèmes liés à vos opérations :
 
-* Découvrez comment vérifier et activer vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md)
+* **Alertes de validation dans la zone de travail** : lors de la création de parcours et de campagnes, utilisez le bouton **Alertes** dans la zone de travail pour identifier et résoudre les erreurs de configuration avant la publication. Découvrez comment [résoudre les problèmes liés aux parcours ](../building-journeys/troubleshooting.md) et examiner vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md).
 
+* **Alertes de surveillance du système** (présentées dans cette page) : recevez des notifications proactives lorsque les seuils opérationnels sont dépassés ou que des problèmes sont détectés dans les parcours en direct et les configurations de canal. Ces alertes vous aident à réagir rapidement aux problèmes potentiels avant qu’ils n’aient une incidence sur vos expériences client.
 
-En outre, lorsqu’un certain ensemble de conditions est atteint, des messages d’alerte peuvent être envoyés à toutes les personnes de votre organisation qui se sont abonnées à ces messages. Ces alertes sont disponibles à partir du menu dédié **[!UICONTROL Alertes]**. Adobe Experience Platform fournit plusieurs règles d’alerte prédéfinies que vous pouvez activer pour votre organisation. En outre, vous pouvez vous abonner à des alertes système spécifiques à [!DNL Adobe Journey Optimizer], comme indiqué sur cette page.
+Les alertes système sont disponibles à partir du menu **[!UICONTROL Alertes]** sous **[!UICONTROL Administration]**. Adobe Experience Platform fournit plusieurs règles d’alerte prédéfinies que vous pouvez activer, y compris des alertes spécifiques aux [!DNL Adobe Journey Optimizer] pour les parcours et les configurations de canal.
+
+## Conditions préalables
+
+Avant d’utiliser des alertes :
+
+* **Autorisations** : vous avez besoin d’autorisations spécifiques pour afficher et gérer les alertes. Voir [autorisations requises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
+
+* **Sensibilité aux sandbox** : les abonnements aux alertes sont spécifiques aux sandbox. Lorsque vous vous abonnez à des alertes, elles s’appliquent uniquement au sandbox actuel. Lorsqu’un sandbox est réinitialisé, tous les abonnements aux alertes sont également réinitialisés.
+
+* **Préférences de notification** : configurez la manière dont vous recevez les alertes (par e-mail et/ou in-app) dans vos [Préférences Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
 
 >[!NOTE]
 >
->En savoir plus sur les alertes dans Adobe Experience Platform dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
+>Les alertes spécifiques à Journey Optimizer s’appliquent uniquement aux parcours **en ligne**. Les alertes ne sont pas déclenchées pour les parcours en mode test. Pour plus d’informations sur le framework d’alerte, consultez la documentation sur les alertes Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
-Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Alertes]**. Plusieurs alertes préconfigurées pour Journey Optimizer sont disponibles dans l’onglet **Parcourir**.
+## Alertes disponibles
+
+Pour accéder aux alertes, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Alertes]** dans le menu de gauche. L’onglet **Parcourir** affiche toutes les alertes préconfigurées disponibles pour Journey Optimizer.
 
 ![](assets/updated-alerts-list.png){width=50%}
 
-* Alertes spécifiques aux parcours :
+Journey Optimizer propose deux catégories d’alertes système :
 
-   * Alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences)
-   * Alerte [Taux d’erreur d’action personnalisée dépassé](#alert-custom-action-error-rate) (remplace l’alerte précédente Échec d’action personnalisée du parcours)
-   * Alerte [Taux de rejet de profil dépassé](#alert-discard-rate)
-   * Alerte [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
-   * Alerte [Parcours publié](#alert-journey-published)
-   * Alerte [Parcours terminé](#alert-journey-finished)
-   * Alerte [Limitation d’action personnalisée déclenchée](#alert-custom-action-capping)
+**Alertes de Parcours** - Surveillez l’exécution et les performances du parcours :
 
-* Alertes spécifiques à la configuration des canaux :
+* [Échec du déclenchement de la lecture d’audience](#alert-read-audiences) - Avertit lorsqu’une activité Lecture d’audience ne parvient pas à traiter les profils
+* [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate) - Détecte des taux d’erreur élevés dans les appels d’API d’action personnalisée (remplace l’alerte d’échec d’action personnalisée de Parcours précédente)
+* [Taux d’abandon du profil dépassé](#alert-discard-rate) - Identifie le moment où les profils sont ignorés à un taux anormal
+* [Taux d’erreur de profil dépassé](#alert-profile-error-rate) - Indique les erreurs rencontrées par les profils lors de l’exécution du parcours
+* [Parcours publié ](#alert-journey-published) - Notification d&#39;information lors de la publication d&#39;un parcours
+* [Parcours terminé ](#alert-journey-finished) - Notification d&#39;information lorsqu&#39;un parcours est terminé
+* [Limitation d’action personnalisée déclenchée](#alert-custom-action-capping) - Indique lorsque les limites d’appel API sont atteintes
 
-   * Alerte [Enregistrement DNS du domaine AJO manquant](#alert-dns-record-missing)
-   * Alerte [Échec de configuration du canal AJO](#alert-channel-config-failure)
-     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+**Alertes de configuration des canaux** - Détectez les problèmes liés à la configuration de la délivrabilité des e-mails :
+
+* [Enregistrement DNS du domaine AJO manquant](#alert-dns-record-missing) - Identifie les enregistrements DNS manquants ou mal configurés
+* [Échec de configuration du canal AJO ](#alert-channel-config-failure) - Détecte les problèmes de configuration des e-mails (enregistrements SPF, DKIM, MX)
+  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+
+>[!NOTE]
+>
+>Pour les alertes provenant d’autres services Adobe Experience Platform (ingestion de données, résolution d’identité, segmentation, etc.), consultez la [documentation sur les règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## S’abonner aux alertes {#subscribe-alerts}
 
-Si un comportement inattendu se produit, et/ou qu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système dépasse un certain seuil), des notifications d’alerte sont envoyées à l’ensemble des personnes de votre organisation qui s’y sont abonnées.
+Les notifications d’alerte sont diffusées aux utilisateurs qui s’y sont abonnés lorsque des conditions spécifiques sont remplies (telles que le dépassement des seuils ou la détection de problèmes de configuration).
 
-Vous pouvez vous abonner à chaque alerte à partir de l’interface d’utilisation, soit globalement à partir du menu **[!UICONTROL Alertes]** (voir [Abonnement global](#global-subscription)), soit unitairement pour un parcours spécifique (voir [Abonnement unitaire](#unitary-subscription)).
+Vous pouvez vous abonner à des alertes de deux manières :
 
-En fonction des préférences des personnes abonnées, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface d’utilisation (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les **[!UICONTROL Préférences]** [!DNL Adobe Experience Cloud]. [En savoir plus](../start/user-interface.md#in-product-uc)
+* **[Abonnement global](#global-subscription)** : s’applique à tous les parcours et campagnes du sandbox actuel
+* **[Abonnement spécifique au Parcours](#unitary-subscription)** : s&#39;applique uniquement aux parcours individuels
 
-Lorsqu’une alerte est résolue, les personnes abonnées reçoivent une notification « Résolue ». Les alertes sont résolues au bout d’une heure pour vous protéger contre la fluctuation des valeurs.
+**Fonctionnement des notifications d’alerte :**
+
+* **Canaux de diffusion** : les alertes sont envoyées par e-mail et/ou notifications in-app dans le centre de notification Journey Optimizer (icône représentant une cloche dans le coin supérieur droit). Configurez vos canaux de diffusion préférés dans vos [Préférences Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
+
+* **Types d’alerte** : Journey Optimizer fournit des alertes ponctuelles (événements informatifs tels que les parcours publiés) et des alertes répétées (seuils de surveillance). Les alertes répétées se poursuivent jusqu’à ce que la condition soit résolue.
+
+* **Résolution** : lorsqu’une condition d’alerte est résolue, les abonnés reçoivent une notification « Résolu ». Pour éviter que la fatigue des notifications ne fluctue en fonction des valeurs, les alertes se résolvent automatiquement au bout d’1 heure, même si la condition persiste.
+
+Pour plus d’informations sur l’abonnement via les événements I/O, consultez la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}.
 
 
 ### Abonnement global {#global-subscription}
 
-Pour vous abonner ou vous désabonner d’une alerte pour tous les parcours et campagnes, procédez comme suit :
+Les abonnements globaux vous permettent de recevoir des alertes pour tous les parcours et campagnes du sandbox actuel.
 
-1. Accédez au tableau de bord **[!UICONTROL Alertes]** dans le menu de gauche, puis sélectionnez l’option **[!UICONTROL S’abonner]** correspondant à l’alerte à laquelle vous souhaitez vous abonner.
+**Pour vous abonner à une alerte :**
+
+1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Alertes]** dans le menu de gauche.
+
+1. Dans l’onglet **[!UICONTROL Parcourir]**, recherchez l’alerte à surveiller.
+
+1. Cliquez sur **[!UICONTROL S’abonner]** pour afficher l’alerte souhaitée.
 
    ![Abonnement à une alerte](assets/alert-subscribe.png){width=80%}
 
-   >[!NOTE]
-   >
-   >L’abonnement s’applique uniquement à un sandbox spécifique. Vous devez vous abonner à des alertes pour chaque sandbox.
+**Pour vous désabonner :**
 
-1. Utilisez la même méthode pour vous **[!UICONTROL désabonner]**.
+Cliquez sur **[!UICONTROL Se désabonner]** en regard de l’alerte.
 
-Vous pouvez également vous abonner par le biais des [notifications d’événements d’E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés [ci-dessous](#journey-alerts).
+>[!IMPORTANT]
+>
+>Les abonnements aux alertes sont spécifiques au sandbox. Vous devez vous abonner aux alertes séparément dans chaque sandbox où vous souhaitez recevoir des notifications.
 
-### Abonnement unitaire {#unitary-subscription}
+**Autre méthode d’abonnement :**
 
-Pour vous abonner ou vous désabonner d’une alerte pour un parcours spécifique, procédez comme suit :
+Vous pouvez également vous abonner via les notifications d’événement [I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}, qui permettent l’intégration à des systèmes externes. Les noms d’abonnement aux événements pour les alertes Journey Optimizer sont répertoriés dans chaque [description de l’alerte ci-dessous](#journey-alerts).
 
-1. Accédez à l’inventaire des parcours et sélectionnez l’option **[!UICONTROL S’abonner aux alertes]** pour un parcours spécifique.
+### Abonnement spécifique au parcours {#unitary-subscription}
+
+Les abonnements spécifiques aux parcours vous permettent de surveiller les parcours prioritaires individuels sans recevoir d’alertes pour tous les parcours de votre entreprise.
+
+**Pour vous abonner à des alertes relatives à un parcours spécifique, procédez comme suit**
+
+1. Accédez à l’inventaire des parcours.
+
+1. Cliquez sur le menu **⋯** (autres actions) du parcours que vous souhaitez surveiller.
+
+1. Sélectionnez **[!UICONTROL S’abonner aux alertes]**.
 
    ![Abonnement à une alerte concernant un parcours spécifique](assets/subscribe-journey-alert.png){width=75%}
 
-1. Choisissez la ou les alertes. Les alertes suivantes sont disponibles : [Taux d’erreur de profil ignoré dépassé](#alert-discard-rate), [Taux d’erreur d’action personnalisée dépassé](#alert-custom-action-error-rate), [Taux d’erreur de profil dépassé](#alert-profile-error-rate), [Parcours publié](#alert-journey-published), [Parcours terminé](#alert-journey-finished) et [Limitation d’action personnalisée déclenchée](#alert-custom-action-capping).
+1. Sélectionnez la ou les alertes à activer dans les options disponibles :
+   * [Taux de rejet de profil dépassé](#alert-discard-rate)
+   * [Taux d’erreur d’action personnalisée dépassé](#alert-custom-action-error-rate)
+   * [Taux d’erreur de profil dépassé](#alert-profile-error-rate)
+   * [Parcours publié](#alert-journey-published)
+   * [Parcours terminé](#alert-journey-finished)
+   * [Limitation d’action personnalisée déclenchée](#alert-custom-action-capping)
 
-1. Pour vous désabonner d’une alerte, désélectionnez-la dans le même écran.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer vos abonnements.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
+**Pour vous désabonner :**
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+Ouvrez la même boîte de dialogue, désélectionnez la ou les alertes, puis cliquez sur **[!UICONTROL Enregistrer]**.
+
+>[!NOTE]
+>
+>L’alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences) n’est disponible que par abonnement global, et non par abonnement par parcours.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
