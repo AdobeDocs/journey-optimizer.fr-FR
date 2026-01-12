@@ -25,7 +25,7 @@ ht-degree: 8%
 
 L’optimisation du contenu vous fournit les outils nécessaires pour transmettre le message approprié à la bonne audience au bon moment. En associant des informations basées sur les données à de puissantes fonctionnalités de personnalisation, vous pouvez optimiser l’engagement et les conversions dans vos campagnes et parcours.
 
-L’optimisation du contenu est disponible dans les deux parcours [campagnes](../campaigns/create-campaign.md) et [](../building-journeys/journey-gs.md), ce qui vous permet d’appliquer les mêmes stratégies d’optimisation à tous les points de contact de vos clients.
+L’optimisation du contenu est disponible dans les deux parcours [campagnes](../campaigns/create-campaign.md) et [&#128279;](../building-journeys/journey-gs.md), ce qui vous permet d’appliquer les mêmes stratégies d’optimisation à tous les points de contact de vos clients.
 
 ➡️ [Découvrez comment exploiter l’optimisation du contenu dans une campagne dans cette vidéo](#video)
 
@@ -83,7 +83,7 @@ Combinaison :
 
 Pour commencer à optimiser votre contenu :
 
-1. **Création d’une campagne ou d’un parcours** : configurez votre [campagne](../campaigns/create-campaign.md) ou [parcours ](../building-journeys/journey-gs.md) et ajoutez au moins une action.
+1. **Création d’une campagne ou d’un parcours** : configurez votre [campagne](../campaigns/create-campaign.md) ou [parcours &#x200B;](../building-journeys/journey-gs.md) et ajoutez au moins une action.
 
 1. **Choisissez votre approche d’optimisation** :
    * [Utilisez le ciblage](optimization-targeting.md) pour personnaliser le contenu pour des segments spécifiques.
