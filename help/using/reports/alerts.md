@@ -31,7 +31,7 @@ Les alertes système sont disponibles à partir du menu **[!UICONTROL Alertes]**
 
 Avant d’utiliser des alertes :
 
-* **Autorisations** : vous avez besoin d’autorisations spécifiques pour afficher et gérer les alertes. Voir [autorisations requises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
+* **Autorisations** : vous avez besoin d’autorisations spécifiques pour afficher et gérer les alertes. Voir [autorisations requises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr#permissions){target="_blank"}.
 
 * **Sensibilité aux sandbox** : les abonnements aux alertes sont spécifiques aux sandbox. Lorsque vous vous abonnez à des alertes, elles s’appliquent uniquement au sandbox actuel. Lorsqu’un sandbox est réinitialisé, tous les abonnements aux alertes sont également réinitialisés.
 
@@ -67,7 +67,7 @@ Journey Optimizer propose deux catégories d’alertes système :
 
 >[!NOTE]
 >
->Pour les alertes provenant d’autres services Adobe Experience Platform (ingestion de données, résolution d’identité, segmentation, etc.), consultez la [documentation sur les règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
+>Pour les alertes provenant d’autres services Adobe Experience Platform (ingestion de données, résolution d’identité, segmentation, etc.), consultez la [documentation sur les règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=fr){target="_blank"}.
 
 ## S’abonner aux alertes {#subscribe-alerts}
 
@@ -147,7 +147,7 @@ Ouvrez la même boîte de dialogue, désélectionnez la ou les alertes, puis cli
 >
 >L’alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences) n’est disponible que par abonnement global, et non par abonnement par parcours.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
