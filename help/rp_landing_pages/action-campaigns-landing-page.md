@@ -5,7 +5,7 @@ title: Campagnes d’action
 description: Campagnes d’action
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Les campagnes d’action dans Adobe Journey Optimizer vous permettent de diffu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Créer une campagne d’action
 
@@ -30,7 +30,7 @@ Découvrez comment créer et gérer des campagnes d’action, y compris les prop
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Définir les propriétés de campagne d’action
 
@@ -50,13 +50,13 @@ Guide de configuration des actions de campagne, notamment la sélection de canau
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Tirer parti de l’optimisation des messages
 
 Utilisez le ciblage et l’expérimentation pour optimiser l’engagement et créer des campagnes personnalisées.
 
-[Optimiser les campagnes](../using/campaigns/gs-message-optimization.md)
+[Optimiser les campagnes](../using/content-management/gs-message-optimization.md)
 :::
 
 :::

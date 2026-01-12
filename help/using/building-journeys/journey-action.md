@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
@@ -68,7 +68,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 1. Utilisez la section **[!UICONTROL Optimisation]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage.
 
-   Ces différentes options et les étapes à suivre sont présentées dans [cette section](../campaigns/gs-message-optimization.md).
+   Ces différentes options et les étapes à suivre sont présentées dans [cette section](../content-management/gs-message-optimization.md).
 
 1. Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre action de parcours. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez les **[!UICONTROL paramètres de langue]** souhaités.
 

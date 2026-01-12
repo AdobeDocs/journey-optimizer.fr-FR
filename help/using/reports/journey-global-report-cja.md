@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
@@ -154,7 +154,7 @@ Le tableau **[!UICONTROL Vue d’ensemble des événements]** indique le nombre 
 
 Si vous configurez des **[!UICONTROL règles de ciblage]** pour votre contenu, le tableau **[!UICONTROL Vue d’ensemble du ciblage]** fournit une vue détaillée des mesures d’engagement clés, montrant comment les profils ciblés de chaque règle ont interagi avec votre contenu.
 
-➡️ [En savoir plus sur les règles de ciblage](../campaigns/optimization-targeting.md)
+➡️ [En savoir plus sur les règles de ciblage](../content-management/optimization-targeting.md)
 
 +++ En savoir plus sur les mesures du tableau Vue d’ensemble du ciblage
 
