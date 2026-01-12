@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
+source-git-commit: c9274ddf086fd0ea5fd4d2de9d90daffbccd5ae5
 workflow-type: tm+mt
-source-wordcount: '3047'
+source-wordcount: '3051'
 ht-degree: 98%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 98%
       + [Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer les parcours](using/building-journeys/journey.md)
+   + [Guide de prise en main du parcours](using/building-journeys/journey-get-started.md)
    + [Types de parcours et guide de sélection](using/building-journeys/journey-types-selection.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
@@ -244,7 +245,7 @@ ht-degree: 98%
    + Surveiller les alertes et les codes d’erreur {#monitor-alerts-errors}
       + [Alertes système](using/reports/alerts.md)
       + [Référence des codes d’erreur](using/building-journeys/error-codes-reference.md)
-   + Résolution des problèmes {#troubleshooting}
+   + Dépannage {#troubleshooting}
       + [FAQ sur le dépannage](using/start/troubleshooting.md)
       + Dépannage des parcours {#troubleshoot-journey}
          + [Résoudre les erreurs de parcours](using/building-journeys/troubleshooting.md)
@@ -930,7 +931,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
