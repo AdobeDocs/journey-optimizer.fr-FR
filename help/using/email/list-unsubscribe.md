@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: ht
-source-wordcount: '1704'
-ht-degree: 100%
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+workflow-type: tm+mt
+source-wordcount: '1701'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,9 @@ Pour personnaliser davantage vos points d’entrée <!-- (**[!UICONTROL Mailto (
 
 >[!AVAILABILITY]
 >
->Pour l’option **[!UICONTROL Mailto (désabonnement)]**, cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès. Dans ce cas, vous devez utiliser les nouveaux paramètres de requête décrits dans la section **Mailto (désabonnement) avec des attributs personnalisés (disponibilité limitée)** [ci-dessous](#configure-decrypt-api).
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>
+>Pour l’option **[!UICONTROL Mailto (unsubscribe)]**, vous devez utiliser les nouveaux paramètres de requête décrits dans la section **Mailto (unsubscribe) avec des attributs personnalisés (disponibilité limitée)** [ci-dessous](#configure-decrypt-api).
 
 Pour définir des attributs personnalisés pour vos points d’entrée, utilisez la section **[!UICONTROL Paramètres de suivi des URL]**. Tous les paramètres de suivi des URL que vous définissez dans la section correspondante seront ajoutés à la fin de vos points d’entrée personnalisés, en plus des paramètres par défaut. [Découvrez comment configurer le tracking personnalisé des URL](url-tracking.md).
 

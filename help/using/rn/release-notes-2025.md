@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
-source-wordcount: '7909'
+source-wordcount: '7916'
 ht-degree: 99%
 
 ---
@@ -441,7 +441,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
    * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** : a-vec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
 
-     Pour personnaliser davantage votre lien de désabonnement en un clic, vous pouvez maintenant définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement. [En savoir plus](../email/list-unsubscribe.md#custom-attributes)
+     Pour personnaliser davantage votre lien de désabonnement en un clic, vous pouvez maintenant définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement. Cette fonctionnalité est en disponibilité limitée. [En savoir plus](../email/list-unsubscribe.md#custom-attributes)
 
 * **Jeux de données**
 
