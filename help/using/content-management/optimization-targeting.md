@@ -6,7 +6,7 @@ description: Découvrez comment tirer parti des règles de ciblage pour diffuser
 role: User
 level: Intermediate
 keywords: ciblage, optimisation, audience, personnalisation, règles
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 95%
@@ -90,7 +90,7 @@ Pour configurer le ciblage, suivez les étapes ci-dessous.
 
    Dans cet exemple, concevez un contenu spécifique pour les personnes vivant aux États-Unis, un contenu différent pour les personnes vivant en France et encore un autre pour les personnes vivant en Inde.
 
-1. [Activez](review-activate-campaign.md) votre parcours ou campagne.
+1. [Activez](../campaigns/review-activate-campaign.md) votre parcours ou campagne.
 
 Une fois la campagne ou le parcours actif, le contenu adapté à chaque cible est envoyé : les personnes vivant aux États-Unis reçoivent un message spécifique, les personnes vivant en France un message différent, et ainsi de suite.
 

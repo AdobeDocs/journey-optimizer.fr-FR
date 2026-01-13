@@ -6,7 +6,7 @@ description: Découvrez comment combiner le ciblage et les expériences dans un 
 role: User
 level: Intermediate
 keywords: optimisation, ciblage, expérimentation, combinaison, avancé
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 92%
@@ -45,7 +45,7 @@ Pour combiner le ciblage et les expériences dans un parcours ou une campagne, s
 
 1. Procédez de la même manière pour les autres règles de ciblage et concevez le contenu correspondant pour chaque variante.
 
-1. Enregistrez vos modifications et [activez](review-activate-campaign.md) votre parcours ou campagne.
+1. Enregistrez vos modifications et [activez](../campaigns/review-activate-campaign.md) votre parcours ou campagne.
 
 Une fois la campagne ou le parcours actif, les utilisateurs et utilisatrices de chaque groupe ciblé se voient attribuer aléatoirement les différentes variations de contenu définies pour leur groupe respectif.
 

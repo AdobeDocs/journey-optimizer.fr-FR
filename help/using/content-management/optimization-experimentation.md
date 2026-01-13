@@ -6,7 +6,7 @@ description: Découvrez comment utiliser des expériences de contenu pour tester
 role: User
 level: Intermediate
 keywords: expérimentation, optimisation, tests A/B, expérience de contenu, traitements
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 72%
@@ -53,7 +53,7 @@ Pour configurer l’expérimentation et déterminer le message qui génère le p
    >
    >Vous pouvez sélectionner d’autres actions : l’expérimentation s’applique à toutes les actions ajoutées à la campagne ou au parcours [Activité d’action](../building-journeys/journey-action.md).
 
-1. [Activez](review-activate-campaign.md) votre parcours ou campagne.
+1. [Activez](../campaigns/review-activate-campaign.md) votre parcours ou campagne.
 
 Une fois la campagne ou le parcours actif, les utilisateurs et utilisatrices se voient attribuer aléatoirement les différentes variations de contenu. [!DNL Journey Optimizer] suit la variation qui génère le plus d’achats et fournit des informations exploitables.
 
