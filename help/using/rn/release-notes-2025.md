@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
 source-wordcount: '7916'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1615,7 +1615,7 @@ Les modèles de contenu de type HTML sont désormais obsolètes. Notez que vous 
 
 **Politiques de consentement**
 
-Vous pouvez désormais tirer parti des politiques de consentement personnalisées par le biais d’actions marketing dans les configurations de canal d’e-mail transactionnel. [En savoir plus](../action/consent.md#surface-marketing-actions)
+Vous pouvez désormais tirer parti de politiques de consentement personnalisées par le biais d’actions marketing dans les configurations de canal d’e-mails transactionnels. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 

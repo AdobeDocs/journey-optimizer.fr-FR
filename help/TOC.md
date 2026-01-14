@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 98%
       + [Accessibilité](using/start/accessibility.md)
       + [Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
-   + [Commencer les parcours](using/building-journeys/journey.md)
+   + [Commencer avec les parcours](using/building-journeys/journey.md)
    + [Guide de prise en main du parcours](using/building-journeys/journey-get-started.md)
    + [Types de parcours et guide de sélection](using/building-journeys/journey-types-selection.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
@@ -124,9 +124,9 @@ ht-degree: 98%
       + [Apprendre avec des cas d’utilisation](using/building-journeys/jo-use-cases.md)
       + [Critères d’entrée et de sortie de parcours](using/building-journeys/entry-exit-criteria-guide.md)
       + [Rechercher des événements d’expérience](using/building-journeys/exp-event-lookup.md)
-      + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
+      + [Envoyer des messages multicanaux](using/building-journeys/journeys-uc.md)
       + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/ajo-ac.md)
-      + [Envoyer un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
+      + [Envoyer un message aux personnes abonnées](using/building-journeys/message-to-subscribers-uc.md)
       + [Envoyer des e-mails uniquement les jours de la semaine](using/building-journeys/weekday-email-uc.md)
       + [Transmettre des collections dans des paramètres d’action personnalisés](using/building-journeys/collections.md)
       + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
@@ -157,8 +157,8 @@ ht-degree: 98%
       + [Vérifier et activer la campagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
       + [Activer le mode de débit élevé pour les campagnes déclenchées par API](using/campaigns/api-triggered-high-throughput.md)
-   + Campagnes orchestrées {#orchestrated-campaigns}
-      + [Campagnes orchestrées](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
+   + Campagnes orchestrées {#orchestrated-campaigns}
+      + [Campagnes orchestrées](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Commencer avec les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Mécanismes de sécurisation et limitations](using/orchestrated/guardrails.md)
       + [Questions fréquentes](using/orchestrated/orchestrated-campaigns-faq.md)
@@ -219,8 +219,8 @@ ht-degree: 98%
       + [Définir des heures creuses](using/conflict-prioritization/quiet-hours.md)
 + Tester et approuver {#test}
    + [Tester, valider et approuver](/help/rp_landing_pages/test-landing-page.md)
-   + Prévisualiser et tester le contenu {#preview-test}
-      + [Prévisualiser et tester le contenu](/help/rp_landing_pages/preview-test-landing-page.md)
+   + Prévisualiser et tester du contenu {#preview-test}
+      + [Prévisualiser et tester du contenu](/help/rp_landing_pages/preview-test-landing-page.md)
       + [Commencer avec la prévisualisation et les tests](using/content-management/preview-test.md)
       + [Sélectionner des profils de test](using/content-management/test-profiles.md)
       + [Prévisualiser avec les profils de test](using/content-management/preview.md)
@@ -236,8 +236,8 @@ ht-degree: 98%
       + [Demander l’approbation](using/test-approve/request-approval.md)
       + [Approuver une demande](using/test-approve/review-approve-request.md)
 + Surveiller et dépanner {#monitor}
-   + [Prise en main de la surveillance et du dépannage](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Tracking dans Journey Optimizer](using/start/get-started-tracking.md)
+   + [Commencer avec la surveillance et la résolution des problèmes](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Suivi dans Journey Optimizer](using/start/get-started-tracking.md)
    + Délivrabilité des e-mails {#deliverability}
       + [Commencer avec la délivrabilité](using/reports/deliverability.md)
       + [Présentation de la liste de suppression](using/reports/suppression-list.md)
@@ -245,8 +245,8 @@ ht-degree: 98%
    + Surveiller les alertes et les codes d’erreur {#monitor-alerts-errors}
       + [Alertes système](using/reports/alerts.md)
       + [Référence des codes d’erreur](using/building-journeys/error-codes-reference.md)
-   + Dépannage {#troubleshooting}
-      + [FAQ sur le dépannage](using/start/troubleshooting.md)
+   + Résolution des problèmes {#troubleshooting}
+      + [Questions fréquentes relatives à la résolution des problèmes](using/start/troubleshooting.md)
       + Dépannage des parcours {#troubleshoot-journey}
          + [Résoudre les erreurs de parcours](using/building-journeys/troubleshooting.md)
          + [Résoudre les problèmes d’exécution d’un parcours](using/building-journeys/troubleshooting-execution.md)
@@ -690,7 +690,7 @@ ht-degree: 98%
          + [Créer des qualificateurs de collection](using/offers/offer-library/creating-tags.md)
       + Créer des classements {#rankings}
          + [Créer des classements](/help/rp_landing_pages/rankings-landing-page.md)
-         + [Prise en main des classements](using/offers/ranking/get-started-rankings.md)
+         + [Commencer à utiliser les classements](using/offers/ranking/get-started-rankings.md)
          + [Formules de classement](using/offers/ranking/create-ranking-formulas.md)
          + Modèles d’IA {#ai-models}
             + [Modèles d’IA](/help/rp_landing_pages/ai-models-landing-page.md)
@@ -730,14 +730,14 @@ ht-degree: 98%
       + Exporter votre catalogue d’offres {#export-catalog}
          + [Exporter votre catalogue d’offres](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [Commencer à exporter des catalogues d’offres](using/offers/export-catalog/get-started-export.md)
-         + [Accès au catalogue d’offres exporté](using/offers/export-catalog/access-dataset.md)
+         + [Accéder au catalogue d’offres exporté](using/offers/export-catalog/access-dataset.md)
          + [Jeu de données d’offres personnalisées](using/offers/export-catalog/export-offers.md)
          + [Jeu de données de décisions](using/offers/export-catalog/export-decisions.md)
          + [Jeu de données d’emplacements](using/offers/export-catalog/export-placements.md)
          + [Jeu de données de secours](using/offers/export-catalog/export-fallback.md)
       + Référence d’API {#api-reference}
          + [Référence d’API](/help/rp_landing_pages/api-reference-landing-page.md)
-         + [Commencer](using/offers/api-reference/getting-started.md)
+         + [Prise en main](using/offers/api-reference/getting-started.md)
          + Créer et gérer des offres à l’aide d’API {#offers-api}
             + Emplacements {#placements}
                + [Liste des emplacements](using/offers/api-reference/offers-api/placements/placements-list.md)
@@ -934,7 +934,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
