@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 97%
 
 ---
 
@@ -30,12 +30,7 @@ Pour créer des messages de courrier, créez une campagne planifiée et configur
 >1. [Configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d’extraction doit être chargé et stocké,
 >1. [Configuration de message de publipostage direct](../direct-mail/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
 
-
 ## Créer une campagne par courrier{#create-dm-campaign}
-
->[!AVAILABILITY]
->
->Le courrier prend en charge la fonctionnalité d’exclusion, mais ne prend actuellement pas en charge les traitements.
 
 Pour créer une campagne de publipostage direct, vous devez configurer une campagne planifiée, sélectionner votre audience cible et configurer les paramètres de publipostage direct, y compris la configuration du message. Procédez comme suit :
 
@@ -62,6 +57,10 @@ Pour créer une campagne de publipostage direct, vous devez configurer une campa
 1. Sélectionnez ou créez une **[!UICONTROL configuration depublipostage direct]** à utiliser. [Découvrez comment créer une configuration de publipostage direct](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
+
+   >[!AVAILABILITY]
+   >
+   >Le publipostage direct prend en charge la fonctionnalité **Exclusion** mais ne prend actuellement pas en charge **Traitements**. [Découvrez comment utiliser les expériences](../content-management/get-started-experiment.md)
 
 1. Les campagnes peuvent être planifiées pour une date spécifique ou définies pour être récurrentes à intervalles réguliers. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/campaign-schedule.md).
 
