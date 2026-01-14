@@ -80,5 +80,5 @@ Dans ce document, vous avez découvert les connaissances préalables requises po
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/342829?captions=fre_fr&quality=12) -->
 

@@ -101,7 +101,7 @@ Une fois configurées, les sources s’exécutent automatiquement en arrière-pl
 
 Regardez cette vidéo pour comprendre les connecteurs sources et comment les configurer dans Journey Optimizer :
 
->[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3422583?captions=fre_fr&quality=12)
 
 Pour plus d’informations sur la configuration et la gestion des sources, consultez la [documentation sur les sources Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.
 
