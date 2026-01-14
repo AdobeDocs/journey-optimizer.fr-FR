@@ -6,7 +6,7 @@ description: Canal e-mail
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Le canal e-mail d’Adobe Journey Optimizer vous permet de concevoir, de confi
 
 Les diffusions d’e-mail peuvent être créées :
 
-* Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du message. [Découvrez comment créer un parcours.](../using/building-journeys/journey-gs.md)
+* Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du message. [Découvrir comment créer un parcours](../using/building-journeys/journey-gs.md)
 
 * Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base. [Découvrir comment créer une campagne](../using/campaigns/create-campaign.md#configure)
 
@@ -32,7 +32,7 @@ Les diffusions d’e-mail peuvent être créées :
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Création d’un e-mail
 
@@ -42,7 +42,7 @@ Guide détaillé sur l’ajout, la configuration et le test d’actions d’e-ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Concevoir et optimiser le contenu des e-mails
 
@@ -62,7 +62,7 @@ Configurez des mécanismes d’opt-out en un clic ou en deux étapes pour gérer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer le canal e-mail
 

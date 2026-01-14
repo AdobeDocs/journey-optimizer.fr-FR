@@ -1,36 +1,36 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Prévisualiser et tester le contenu
-description: Validez la précision du message avant le lancement. Prévisualisez du contenu personnalisé avec des profils de test, envoyez des BAT aux parties prenantes, vérifiez le rendu des e-mails sur les clients, évaluez les scores de spam et testez efficacement plusieurs variations de contenu.
+title: Prévisualiser et tester du contenu
+description: Validez la précision du message avant le lancement. Prévisualisez du contenu personnalisé avec des profils de test, envoyez des BAT aux parties prenantes, vérifiez le rendu des e-mails sur différents clients, évaluez les scores de spam et testez efficacement plusieurs variations de contenu.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
-# Prévisualiser et tester le contenu{#section-overview}
+# Prévisualiser et tester du contenu{#section-overview}
 
 >[!BEGINSHADEBOX]
 
-**Objectif :** outils de validation de prélancement pour les campagnes et les parcours\
-**Utilisateurs du Principal :** responsables de campagne, spécialistes du marketing par e-mail, créateurs de contenu\
-**Résultat clé :** détecter les erreurs avant la diffusion au client
+**Objectif :** outils de validation de prélancement pour les campagnes et les parcours\
+**Utilisateurs et utilisatrices principaux :** responsables de campagne, responsables du marketing par e-mail, créateurs et créatrices de contenu\
+**Résultat clé :** détecter les erreurs avant la diffusion aux clientes et clients
 
 >[!ENDSHADEBOX]
 
-Garantissez une diffusion irréprochable des messages en détectant les erreurs avant qu’elles n’atteignent les clients. La prévisualisation du contenu valide la précision de la personnalisation sur différents profils clients, tandis que les outils de test révèlent des problèmes de rendu, des risques de spam et des variations de contenu susceptibles d’avoir un impact sur l’engagement. Accédez à des fonctionnalités complètes pour envoyer des BAT aux parties prenantes, simuler la personnalisation avec des exemples de données, vérifier le rendu des e-mails entre les clients et évaluer les mesures de délivrabilité, le tout avant activation. Principal de ces techniques de validation pour protéger la réputation de la marque, optimiser l’emplacement de la boîte de réception et offrir systématiquement d’excellentes expériences client.
+Garantissez une diffusion parfaite des messages en détectant les erreurs avant qu’elles n’atteignent les clientes et clients. La prévisualisation du contenu valide la précision de la personnalisation sur différents profils clients, tandis que les outils de test révèlent des problèmes de rendu, des risques de spam et des variations de contenu susceptibles d’avoir un impact sur l’engagement. Accédez à des fonctionnalités complètes pour envoyer des BAT aux parties prenantes, simuler la personnalisation avec des données d’exemple, vérifier le rendu des e-mails sur différents clients et évaluer les mesures de délivrabilité, le tout avant activation. Maîtrisez ces techniques de validation pour protéger la réputation de la marque, optimiser le placement dans les boîtes de réception et offrir systématiquement d’excellentes expériences pour les clientes et clients.
 
 ## Prévisualiser et tester le contenu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Prévisualisation et test du contenu
+Prévisualiser et tester votre contenu
 
 Découvrez comment utiliser des profils de test et des exemples de données d’entrée pour prévisualiser et tester le contenu, envoyer des BAT et garantir la précision de la personnalisation.
 
@@ -38,9 +38,9 @@ Découvrez comment utiliser des profils de test et des exemples de données d’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Comment sélectionner des profils de test
+Sélectionner des profils de test
 
 Découvrez comment sélectionner et gérer des profils de test pour prévisualiser et tester efficacement du contenu personnalisé.
 
@@ -48,7 +48,7 @@ Découvrez comment sélectionner et gérer des profils de test pour prévisualis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prévisualiser votre contenu à l’aide de profils de test
 
@@ -58,7 +58,7 @@ Guide détaillé pour la prévisualisation de contenu personnalisé à l’aide 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Envoyer des BAT à l’aide des données de profil de test
 
@@ -70,7 +70,7 @@ Testez et validez vos e-mails en envoyant des BAT à l’aide des données de pr
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=fr)
 
-Comment tester le rendu des e-mails avec Litmus
+Tester le rendu des e-mails de test avec Litmus
 
 Intégrez Litmus pour prévisualiser le rendu des e-mails sur les principaux clients de messagerie et garantir un affichage correct.
 
@@ -78,9 +78,9 @@ Intégrez Litmus pour prévisualiser le rendu des e-mails sur les principaux cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Simulation et test de variations de contenu
+Simuler et tester des variations de contenu
 
 Simulez des variations de contenu à l’aide d’exemples de données d’entrée pour tester le contenu personnalisé et garantir sa précision.
 
@@ -91,55 +91,55 @@ Simulez des variations de contenu à l’aide d’exemples de données d’entr�
 
 ## Guide de décision rapide
 
-**Contexte :** ce tableau mappe les objectifs de test à des outils spécifiques dans Adobe Journey Optimizer.
+**Contexte :** ce tableau établit une correspondance entre les objectifs de test et les outils spécifiques d’Adobe Journey Optimizer.
 
-Choisissez votre approche de test en fonction de votre objectif :
+Choisissez votre approche de test en fonction de votre objectif :
 
 | **Si vous devez...** | **Utiliser cet outil** |
 |----------------------|-------------------|
-| Vérifier que la personnalisation s’affiche correctement | [Profils de test](../using/content-management/test-profiles.md) |
-| Test rapide de plus de 10 variations de contenu | [Exemple de données d’entrée](../using/test-approve/simulate-sample-input.md) |
-| Obtenir l’approbation des parties prenantes avant l’envoi | [Envoi de BAT](../using/content-management/proofs.md) |
-| Vérifier l’affichage des e-mails dans Gmail, Outlook, Apple Mail | [Rendu Litmus](../using/content-management/rendering.md) |
-| Amélioration de l’emplacement de la boîte de réception | [Rapport sur les spams](../using/content-management/spam-report.md) |
-| Prévisualiser toutes les variations en une seule fois | [Mode Aperçu](../using/content-management/preview.md) |
+| Vérifier que la personnalisation s’affiche correctement. | [Profils de test](../using/content-management/test-profiles.md) |
+| Tester rapidement plus de 10 variations de contenu | [Exemple de données d’entrée](../using/test-approve/simulate-sample-input.md) |
+| Obtenir l’approbation des parties prenantes avant l’envoi | [Envoyer des BAT](../using/content-management/proofs.md) |
+| Vérifier l’affichage des e-mails dans Gmail, Outlook, Apple Mail | [Rendu Litmus](../using/content-management/rendering.md) |
+| Améliorer le placement dans les boîtes de réception | [Signalement de courrier indésirable](../using/content-management/spam-report.md) |
+| Prévisualiser toutes les variations en même temps | [Mode de prévisualisation](../using/content-management/preview.md) |
 
-## Test de la liste de contrôle du workflow
+## Tester la liste de contrôle du workflow
 
-**Contexte :** séquence de test en 5 étapes recommandée applicable à tous les canaux (e-mail, SMS, notification push, web, in-app).
+**Contexte :** séquence de test en 5 étapes recommandée applicable à tous les canaux (e-mail, SMS, notification push, web, in-app).
 
-Suivez cette séquence pour une validation complète :
+Suivez cette séquence pour une validation complète :
 
-1. **Aperçu** - Utilisez des profils de test pour vérifier correctement les rendus de personnalisation
-2. **Variations de test** - Chargez les données d’exemple au format CSV/JSON pour valider plusieurs scénarios.
-3. **Vérifier la délivrabilité** (e-mail) - Exécutez le rapport de spam et les tests de rendu
-4. **Envoyer des BAT** - Partagez avec les parties prenantes pour révision et approbation
-5. **Vérification finale** - Vérifiez que tous les liens, images et CTA fonctionnent correctement.
+1. **Prévisualiser** : utilisez des profils de test pour vérifier que la personnalisation s’affiche correctement.
+2. **Variations de test** : chargez des données d’exemple au format CSV/JSON pour valider plusieurs scénarios.
+3. **Vérifier la délivrabilité** (e-mail) : exécutez le rapport de spam et les tests de rendu.
+4. **Envoyer des BAT** : partagez des BAT avec les parties prenantes pour examen et approbation.
+5. **Vérification finale** : vérifiez que l’ensemble des liens, des images et des appels à l’action fonctionnent correctement.
 
-Conseil **Pro :** testez avec au moins 3 profils représentant différents segments de clients (à forte valeur ajoutée, nouveaux, inactifs) pour détecter les cas particuliers.
+**Conseil :** effectuez un test avec au moins 3 profils représentant différents segments de clientèle (à forte valeur ajoutée, nouvelle, inactive) pour détecter les cas particuliers.
 
 ## Scénarios courants
 
-**Contexte :** exemples réels montrant comment appliquer des outils de test dans des cas d’utilisation standard.
+**Contexte :** exemples réels montrant comment appliquer des outils de test dans des cas d’utilisation standard.
 
-**Scénario 1 : test des e-mails personnalisés pour une campagne multisegment**
-→ Utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) pour tester 20 à 30 variations sans créer de profils de test individuels. Chargez un fichier CSV avec différents attributs de client et prévisualisez-le en une seule fois.
+**Scénario 1 : test d’e-mails personnalisés pour une campagne multisegments**
+→ Utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) pour tester 20 à 30 variations sans créer de profils de test individuels. Chargez un fichier CSV avec différents attributs clients et prévisualisez l’ensemble.
 
-**Scénario 2 : validation du rendu des e-mails avant un envoi majeur**
-→ Exécuter [tests Litmus](../using/content-management/rendering.md) pour vérifier l&#39;affichage sur les principaux clients de messagerie, puis vérifiez le [rapport de spam](../using/content-management/spam-report.md) pour vérifier que la boîte de réception est bien placée.
+**Scénario 2 : validation du rendu des e-mails avant un envoi majeur**
+→ Exécutez des [tests Litmus](../using/content-management/rendering.md) pour vérifier l’affichage sur les principaux clients de messagerie, puis consultez le [rapport de spam](../using/content-management/spam-report.md) pour vous assurer du placement dans les boîtes de réception.
 
-**Scénario 3 : Obtention de l’approbation des parties prenantes**
+**Scénario 3 : obtention de l’approbation des parties prenantes**
 → [Envoyez des BAT](../using/content-management/proofs.md) aux réviseurs et réviseuses internes avec les données de profil de test afin qu’ils voient exactement ce que les clients et clientes recevront.
 
-## Principaux points à retenir
+## Points clés
 
-- Les **profils de test** sont essentiels pour prévisualiser du contenu personnalisé ; utilisez des exemples de données d’entrée pour tester efficacement plus de 10 variations
-- Les **outils spécifiques aux e-mails** incluent les tests de rendu (Litmus), les rapports de spam et les BAT
-- **Séquence recommandée :** prévisualiser → tester les variations → vérifier la délivrabilité → envoyer des BAT → vérification finale.
-- **Gain de temps :** chargez des fichiers CSV/JSON avec des attributs de client au lieu de créer des profils de test individuels
+- Les **profils de test** sont essentiels pour prévisualiser le contenu personnalisé ; utilisez des exemples de données d’entrée pour tester efficacement plus de 10 variations.
+- Les **outils spécifiques aux e-mails** incluent les tests de rendu (Litmus), les rapports de spam et les BAT.
+- **Séquence recommandée :** prévisualiser → tester les variations → vérifier la délivrabilité → envoyer des BAT → vérification finale.
+- **Pour gagner du temps :** chargez des fichiers CSV/JSON avec les attributs clients au lieu de créer des profils de test individuels.
 
 ## Ressources supplémentaires
 
-- **[Utilisation du rapport sur les courriers indésirables](../using/content-management/spam-report.md)** - Évaluez le score de spam du contenu des courriers électroniques à l&#39;aide de la fonctionnalité de rapport sur les courriers indésirables pour améliorer la délivrabilité.
+- **[Utiliser le rapport de spam dans Adobe Journey Optimizer](../using/content-management/spam-report.md)** : évaluez le score de spam du contenu des e-mails à l’aide de la fonctionnalité de rapport de spam pour améliorer la délivrabilité.
 
-**Rubriques connexes :** [Tester et approuver une page de destination](test-landing-page.md) | [Workflows d’approbation](approve-landing-page.md) | [Création de profils de test](../using/audience/creating-test-profiles.md)
+**Rubriques connexes :** [Tester et approuver une page de destination](test-landing-page.md) | [Workflows d’approbation](approve-landing-page.md) | [Créer des profils de test](../using/audience/creating-test-profiles.md)

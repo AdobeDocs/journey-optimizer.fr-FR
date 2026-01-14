@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Ce guide de développement décrit les étapes à suivre pour commencer à utili
 
 ➡️ [Découvrir les composants de la gestion des décisions dans cette vidéo](#video)
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
 Ce guide nécessite une compréhension professionnelle des composants suivants d&#39;Adobe Experience Platform :
 
@@ -80,5 +80,5 @@ Dans ce document, vous avez découvert les connaissances préalables requises po
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342829?captions=fre_fr&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

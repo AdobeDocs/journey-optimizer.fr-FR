@@ -9,15 +9,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3661'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Mécanismes de sécurisation et limitations {#limitations}
 
-Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations lors de l’utilisation de [!DNL Adobe Journey Optimizer].
+Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
 
 Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -42,7 +42,7 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 
 Cette modification sera déployée sur les **sandbox client existants** dans une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
 
-## Canaux et messagerie {#channel-guardrails}
+## Canaux et messages {#channel-guardrails}
 
 Cette section couvre les mécanismes de sécurisation pour tous les canaux de communication, y compris les e-mails, SMS, canaux entrants (web, in-app, basés sur du code, cartes de contenu) et messages transactionnels.
 
@@ -118,7 +118,7 @@ Adobe recommande de définir la valeur de durée de vie (TTL) sur 14 jours pour
 
 Journey Optimizer prend en charge un volume maximal de 500 messages transactionnels par seconde dans les campagnes.
 
-## Contenu et Assets {#content-assets}
+## Contenu et ressources {#content-assets}
 
 Cette section présente les mécanismes de sécurisation pour la création et la gestion de contenu, y compris les pages de destination, les sous-domaines et les fragments.
 
@@ -166,7 +166,7 @@ Cette section présente les mécanismes de sécurisation pour la gestion des aud
 
 ### Mécanismes de sécurisation des décisions et de la gestion des décisions {#decisioning-guardrails}
 
-Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez la prise de décision ou la gestion des décisions sont détaillés dans ces sections Prise de décision et gestion des décisions :
+Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez la prise de décision ou la gestion des décisions sont détaillés dans les sections Prise de décision et gestion des décisions présentées ci-après :
 
 * [Mécanismes de sécurisation et limitations de la prise de décisions](../experience-decisioning/decisioning-guardrails.md)
 * [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
@@ -208,7 +208,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 

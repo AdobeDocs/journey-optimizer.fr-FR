@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-59-35
 badge: label="Hérité" type="Informative"
 exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Les modèles d’IA d’Adobe Journey Optimizer vous aident à prendre des dé
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec les modèles d’IA
 
@@ -45,7 +45,7 @@ Découvrez comment les modèles d’optimisation automatique utilisent des algor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Présentation des modèles d’optimisation personnalisée
 
@@ -55,7 +55,7 @@ Découvrez comment les modèles d’optimisation personnalisée utilisent les do
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Création de modèles d’IA
 

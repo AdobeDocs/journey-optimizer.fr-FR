@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
+   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
 
 1. **Lancer des campagnes orchestrées** Concevez des campagnes par lots complexes et en plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
 
@@ -111,7 +111,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
 ### Orchestration de campagnes
 
-* **Choisir la bonne approche** : [Comparer des types de parcours &#x200B;](../../building-journeys/journey.md#journey-types) pour des expériences en temps réel déclenchées par un comportement ou [types de campagne](../../campaigns/get-started-with-campaigns.md#campaign-types) pour des campagnes planifiées et par lots
+* **Choisissez la bonne approche** : [comparez les types de parcours](../../building-journeys/journey.md#journey-types) pour des expériences en temps réel déclenchées par un comportement ou les [types de campagnes](../../campaigns/get-started-with-campaigns.md#campaign-types) pour des campagnes planifiées et par lots.
 * **Définissez des objectifs de campagne clairs** : établissez des objectifs avant de concevoir des workflows à plusieurs étapes.
 * **Commencez avec des audiences pilotes** : validez les quantités et la logique de segmentation avant de travailler à grande échelle.
 * **Utilisez les données relationnelles** : utilisez la segmentation d’entités multiples pour connecter les données client aux comptes, aux achats et aux abonnements pour un ciblage précis.
@@ -202,5 +202,5 @@ Collaborez avec les [administrateurs et les administratrices](administrator.md) 
 
 1. **Commencez simplement** : créez un parcours de bienvenue simple ou une campagne à message unique pour apprendre à utiliser la plateforme.
 2. **Utilisez l’IA** : utilisez l’assistant IA pour poser des questions et accélérer la création de contenu.
-3. **Rejoignez la communauté** : discutez avec d’autres utilisateurs et utilisatrices de Journey Optimizer dans la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+3. **Rejoignez la communauté** : discutez avec d’autres utilisateurs et utilisatrices de Journey Optimizer dans la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}.
 4. **Explorez les tutoriels** : regardez des vidéos détaillées sur [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"}.

@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-03-50
 badge: label="Hérité" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ L’export de votre catalogue d’offres dans Adobe Journey Optimizer ouvre la
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guide d’export des catalogues d’offres
 
@@ -35,7 +35,7 @@ Découvrez comment exporter votre catalogue d’offres sous forme de jeu de donn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Accéder au catalogue d’offres exporté
 
@@ -45,7 +45,7 @@ Découvrez comment localiser et interagir avec le catalogue d’offres exporté 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Référence du jeu de données d’offres personnalisées
 
@@ -55,7 +55,7 @@ Explorez les champs et le schéma hiérarchique du jeu de données pour les offr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Vue d’ensemble du jeu de données des décisions
 
@@ -65,7 +65,7 @@ Découvrez la structure hiérarchique, les définitions de champ et les métadon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Détails du jeu de données des emplacements
 
@@ -75,7 +75,7 @@ Découvrez les champs, le schéma et les métadonnées du jeu de données des em
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Documentation du jeu de données des offres de secours
 

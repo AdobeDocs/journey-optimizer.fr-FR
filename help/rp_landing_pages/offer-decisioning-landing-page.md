@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="Hérité" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ La gestion des décisions dans Adobe Journey Optimizer vous permet de diffuser
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer la gestion des décisions
 
@@ -35,7 +35,7 @@ Découvrez les principes de base de la gestion des décisions, notamment les com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Créer et gérer des composants de prise de décision
 
@@ -45,7 +45,7 @@ Découvrez comment créer des emplacements, des règles de décision et des qual
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Créer et optimiser des classements
 
@@ -55,7 +55,7 @@ Découvrez comment classer les offres à l’aide de formules et de modèles d�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Créer et gérer des offres
 
@@ -65,7 +65,7 @@ Cette section contient des conseils détaillés pour la création d’offres per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Créer et gérer des décisions
 
