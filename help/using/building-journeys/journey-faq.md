@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide, orchestration
 version: Journey Orchestration
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '5233'
-ht-degree: 99%
+source-wordcount: '5231'
+ht-degree: 98%
 
 ---
 
@@ -225,7 +225,7 @@ En savoir plus sur les [conditions](condition-activity.md).
 
 +++ Puis-je envoyer des messages aux profils d’un parcours ?
 
-Oui. Journey Optimizer comprend des **actions de canal intégrées** qui vous permettent d’envoyer des messages par e-mail, des notifications push, des SMS/MMS/RCS, des messages in-app, des expériences web, des expériences basées sur du code, du courrier, des cartes de contenu, des messages WhatsApp et LINE. Vous pouvez concevoir le contenu des messages directement dans Journey Optimizer et les ajouter en tant qu’activités d’action dans votre parcours.
+Oui. Journey Optimizer comprend des **actions de canal intégrées** qui vous permettent d’envoyer des messages par e-mail, des notifications push, des SMS/MMS/RCS, des messages in-app, des expériences web, des expériences basées sur du code, des cartes de contenu, WhatsApp et LINE. Vous pouvez concevoir le contenu des messages directement dans Journey Optimizer et les ajouter en tant qu’activités d’action dans votre parcours.
 
 Pour les canaux non pris en charge en mode natif, vous pouvez utiliser des **actions personnalisées** pour intégrer des plateformes de messagerie externes et envoyer des messages via n’importe quel canal tiers.
 

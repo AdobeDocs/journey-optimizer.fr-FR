@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '313'
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+workflow-type: tm+mt
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 * **[Créer des courriers](create-direct-mail.md)** : découvrez comment créer des diffusions de courrier et configurer des fichiers d’extraction pour les canaux hors ligne.
 * **[Configurer le canal Courrier](direct-mail-configuration.md)** : configurez les surfaces de courrier et les configurations de routage des fichiers.
-* **[Courrier dans les parcours](direct-mail-journeys.md)** : découvrez comment utiliser les actions de courrier dans les parcours clients.
 * **[Tester et envoyer un courrier](test-send-direct-mail.md)** : découvrez comment tester, valider et publier vos diffusions de courrier.
 * **[Tutoriels sur le courrier](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives au courrier.
 

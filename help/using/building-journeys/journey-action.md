@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 Des paramètres supplémentaires sont disponibles en fonction du canal de communication sélectionné. Pour plus d’informations, développez les sections ci-dessous.
 
-+++**Appliquer des règles de limitation** (e-mail, courrier, notification push, SMS)
++++**Appliquer des règles de limitation** (e-mail, notification push ou SMS)
 
 Dans la liste déroulante **[!UICONTROL Règles métier]**, sélectionnez un jeu de règles pour appliquer des règles de limitation à votre action de parcours.
 
