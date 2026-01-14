@@ -25,7 +25,7 @@ Les données contextuelles permettent à Adobe Journey Optimizer de créer des
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec les données contextuelles
 
@@ -35,7 +35,7 @@ Découvrez comment utiliser les données contextuelles dans le moteur de prise d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation des données contextuelles dans les requêtes Edge Decisioning
 

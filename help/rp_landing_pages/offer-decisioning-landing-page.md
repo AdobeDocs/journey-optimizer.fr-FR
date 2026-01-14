@@ -25,7 +25,7 @@ La gestion des décisions dans Adobe Journey Optimizer vous permet de diffuser
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer la gestion des décisions
 
@@ -65,7 +65,7 @@ Cette section contient des conseils détaillés pour la création d’offres per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Créer et gérer des décisions
 

@@ -35,7 +35,7 @@ Découvrez comment intégrer l’API Offer Library pour la gestion des décision
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Diffuser des offres à l’aide des API Adobe Journey Optimizer
 

@@ -22,7 +22,7 @@ Les campagnes dans Adobe Journey Optimizer vous permettent de diffuser des mes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main des campagnes
 
@@ -32,7 +32,7 @@ Découvrez les principes de base des campagnes dans Adobe Journey Optimizer, n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Accéder aux campagnes et les gérer
 
@@ -42,7 +42,7 @@ Découvrez comment accéder aux campagnes, les gérer, les modifier ou les archi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Campagnes d’action
 
@@ -52,7 +52,7 @@ Conseils détaillés sur la création, la personnalisation et l’activation de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Campagnes déclenchées par API
 
@@ -62,7 +62,7 @@ Conseils complets à l’intention des développeurs et développeuses sur la cr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Campagnes orchestrées
 

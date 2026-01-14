@@ -35,7 +35,7 @@ Découvrez les API disponibles pour diffuser des offres personnalisées, notamme
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Diffuser des offres à l’aide de l’API Decisioning
 
