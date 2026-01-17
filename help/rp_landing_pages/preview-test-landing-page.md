@@ -28,7 +28,7 @@ Garantissez une diffusion parfaite des messages en détectant les erreurs avant 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prévisualiser et tester votre contenu
 
@@ -48,7 +48,7 @@ Découvrez comment sélectionner et gérer des profils de test pour prévisualis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Prévisualiser votre contenu à l’aide de profils de test
 
@@ -58,7 +58,7 @@ Guide détaillé pour la prévisualisation de contenu personnalisé à l’aide 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Envoyer des BAT à l’aide des données de profil de test
 
@@ -78,7 +78,7 @@ Intégrez Litmus pour prévisualiser le rendu des e-mails sur les principaux cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Simuler et tester des variations de contenu
 

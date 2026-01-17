@@ -25,7 +25,7 @@ Les API Offer Delivery d’Adobe Journey Optimizer vous permettent de diffuser
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Commencer avec les API Offer Delivery
 
@@ -45,7 +45,7 @@ Créez et diffusez des offres marketing personnalisées à l’aide de l’API D
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Diffuser des offres à l’aide de l’API Edge Decisioning
 
@@ -55,7 +55,7 @@ Mettez en œuvre une diffusion d’offres personnalisées à l’aide du SDK Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Utilisation de l’API Batch Decisioning pour diffuser des offres
 

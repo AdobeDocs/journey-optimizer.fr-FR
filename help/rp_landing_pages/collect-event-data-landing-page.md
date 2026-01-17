@@ -45,7 +45,7 @@ Suivez les instructions détaillées afin de créer un jeu de données et un sch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration de la capture de données d’événement pour la gestion des décisions
 

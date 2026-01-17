@@ -25,7 +25,7 @@ La gestion des décisions d’Adobe Journey Optimizer permet aux spécialistes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation de la gestion des décisions
 
@@ -65,7 +65,7 @@ Suivez un guide détaillé pour créer, gérer et configurer des offres et des d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utilisation du chargement personnalisé d’audiences pour la prise de décision
 

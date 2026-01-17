@@ -35,7 +35,7 @@ Découvrez comment créer et gérer des offres personnalisées grâce à des con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Ajouter des représentations à des offres
 
@@ -45,7 +45,7 @@ Définissez et configurez l’emplacement où les offres seront affichées à l�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Ajouter des contraintes à des offres
 

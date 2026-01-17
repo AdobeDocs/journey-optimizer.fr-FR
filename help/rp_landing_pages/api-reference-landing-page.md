@@ -25,7 +25,7 @@ La section Référence d’API d’Adobe Journey Optimizer propose les outils do
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main de l’API Offer Library
 

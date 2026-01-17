@@ -32,7 +32,7 @@ Les diffusions d’e-mail peuvent être créées :
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création d’un e-mail
 

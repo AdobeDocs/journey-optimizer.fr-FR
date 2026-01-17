@@ -32,7 +32,7 @@ Découvrez comment créer des parcours clients en temps réel et à plusieurs é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Guide complet de création et de gestion des parcours
 
@@ -42,7 +42,7 @@ Cette section contient des conseils détaillés pour la conception, le test, la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Guide complet de gestion des parcours
 

@@ -35,7 +35,7 @@ Découvrez comment créer des offres personnalisées, configurer des représenta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création d’offres de secours
 
