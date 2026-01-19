@@ -9,10 +9,10 @@ level: Intermediate
 keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
+source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 92%
+source-wordcount: '994'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques sur quand et comment les profils doivent quitter les parcours ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des scénarios de sortie réels, des bonnes pratiques et des conseils de configuration.
+>Vous recherchez des conseils pratiques sur quand et comment les profils doivent quitter les parcours ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) qui comprend des scénarios de sortie réels, des bonnes pratiques et des conseils de configuration.
 
 ## Terminaison d’un parcours dynamique
 
@@ -120,11 +120,11 @@ Vous pouvez également réaliser les opérations suivantes :
 
 >[!CAUTION]
 >
->Les autorisations d’arrêt de parcours sont limitées aux utilisateurs et aux utilisatrices disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>L’arrêt d’un parcours nécessite l’autorisation **[!DNL Manage journeys]** . Si le parcours comprend des campagnes intégrées ou des nœuds de messagerie, les utilisateurs doivent également disposer des autorisations **Campagnes > Publier les campagnes**. Si le parcours utilise des ressources (par exemple, dans des e-mails), les utilisateurs doivent avoir accès à ces dossiers de ressources. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
 
 ## Rubriques connexes
 
-* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
+* [Guide des critères d’entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
 * [Gestion des entrées de profil](entry-management.md) - Configurer la manière dont les profils entrent dans les parcours
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) - Configurer la suppression automatique des profils des parcours
-* [Mettre en pause un parcours &#x200B;](journey-pause.md) - Arrêter temporairement l’exécution du parcours
+* [Mettre en pause un parcours ](journey-pause.md) - Arrêter temporairement l’exécution du parcours
