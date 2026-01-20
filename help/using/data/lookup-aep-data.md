@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser les données d’Adobe Experience Platform
+title: Utiliser des données Adobe Experience Platform
 description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans les fonctionnalités de prise de décision et de personnalisation de  [!DNL Journey Optimizer] .
 feature: Personalization, Rules
 topic: Personalization
@@ -10,14 +10,14 @@ level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
-# Utiliser les données d’Adobe Experience Platform {#aep-data}
+# Utiliser des données Adobe Experience Platform {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
@@ -41,6 +41,8 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 * **Type de schéma** : les jeux de données doivent être associés à un schéma qui n’est **PAS** de type Profil ou Événement.
 
 * **Maintenir le bouton (bascule) de recherche activé** : évitez d’activer et de désactiver les jeux de données de manière répétée. Cela peut entraîner un comportement d’indexation inattendu. La bonne pratique consiste à laisser le jeu de données activé tant que vous prévoyez de l’utiliser pour les recherches.
+
+* **Région d’activation d’Edge** - Les jeux de données activés pour la recherche ne sont disponibles pour l’activation entrante basée sur les serveurs Edge que dans la région où réside le sandbox du jeu de données (par exemple, NLD2 ou VA7). La région du sandbox s’affiche dans l’interface utilisateur en regard du nom du sandbox.
 
 * **Suppression d’un lot de données** : la suppression d’un lot de données de votre jeu de données supprime complètement toutes les clés correspondantes du service de recherche. Par exemple :
 
