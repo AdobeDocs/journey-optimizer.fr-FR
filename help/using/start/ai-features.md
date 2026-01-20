@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Fonctionnalités intelligentes et d’IA
+title: Fonctionnalités intelligentes et fonctionnalités de l’IA
 description: Découvrez comment l’IA et le machine learning améliorent les fonctionnalités de Adobe Journey Optimizer
 feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 76a970f4edf0cef3fc15ab69c78ef46fbb0497c7
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1676'
 ht-degree: 4%
 
 ---
 
-# Fonctionnalités intelligentes et d’IA {#ai-features}
+# Fonctionnalités intelligentes et fonctionnalités de l’IA {#ai-features}
 
 Adobe Journey Optimizer exploite la puissance de l’intelligence artificielle et du machine learning pour vous aider à créer, optimiser et offrir des expériences client exceptionnelles. De la génération de contenu personnalisé à la prévision d’heures d’envoi optimales, les fonctionnalités d’IA rationalisent votre workflow et maximisent l’impact. Les playbooks de cas d’utilisation fournissent des modèles préconfigurés pour mettre en œuvre rapidement des scénarios marketing courants.
 
@@ -66,9 +66,23 @@ Cliquez sur l’icône de l’assistant AI dans la barre supérieure pour ouvrir
 
 En s’appuyant sur les capacités de conversation de l’assistant d’IA, Adobe Journey Optimizer propose des agents d’IA spécialisés qui fournissent une analyse approfondie et des recommandations exploitables pour l’optimisation et l’expérimentation des parcours.
 
-### Agent d’analyse de parcours {#journey-agent}
+### Journey Agent {#journey-agent}
 
-L&#39;agent d&#39;analyse de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
+Journey Agent comprend deux compétences dans l’assistant AI : Analyser et Créer. Utilisez-les pour optimiser les parcours existants ou en créer de nouveaux à partir d’invites en langage naturel.
+
++++**Autorisations requises**
+
+* **Afficher les Parcours** - Affichez des informations sur les parcours directement dans l’assistant AI
+* **Gérer les Parcours** - Créez des parcours directement dans l’assistant AI
+* **Affichage des segments** - Obtenez des informations sur les audiences et recherchez des audiences existantes
+* **Gérer les segments** - Créez de nouvelles audiences directement dans l’assistant AI
+* **Afficher les événements de Parcours, les sources de données et les actions** - Requis pour que la compétence Créer puisse rechercher des événements de parcours et des actions personnalisées
+
++++
+
+#### Compétence en analyse de parcours {#journey-analyze-skill}
+
+L&#39;agent d&#39;analyse de Parcours [](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
 
 +++**Fonctionnalités clés**
 
@@ -88,12 +102,27 @@ L&#39;agent d&#39;analyse de Parcours [&#128279;](https://experienceleague.adobe
 
 +++
 
-+++**Autorisations requises**
++++
 
-* **Afficher les Parcours** - Affichez des informations sur les parcours directement dans l’assistant AI
-* **Gérer les Parcours** - Créez des parcours directement dans l’assistant AI
-* **Afficher les segments** - Obtenez des informations sur les audiences
-* **Gérer les segments** - Créez de nouvelles audiences directement dans l’assistant AI
+#### Parcours Create Skill {#journey-create-skill}
+
+L’agent de création de Parcours [](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
+
++++**Fonctionnalités clés**
+
+* **Création d’un Parcours en langage naturel** - Décrivez le parcours souhaité et faites-le créer automatiquement
+* **Démarrages basés sur un événement et une audience** - Créez des parcours de qualification d’audience, d’événement métier ou déclenchés par un événement
+* **Logique conditionnelle** - Créez des chemins de division en fonction des attributs ou du comportement du client
+* **Messagerie multicanal** - Ajoutez des actions e-mail, push et SMS.
+* **Planification** - Configurez les dates et heures de début entre les étapes.
+
++++
+
++++**Exemples d’invites**
+
+* « Créez un parcours qui démarre lorsqu’un client effectue un achat en ligne et envoie une notification push de remerciement. »
+* « Créez un parcours ciblant mon audience de randonneurs d’une journée avec trois e-mails sur deux semaines, à partir du 20/12. »
+* « Créez un parcours qui démarre lorsqu’un utilisateur ou une utilisatrice saisit l’emplacement de ma boutique et effectue un suivi selon qu’il ou elle dispose d’une adresse e-mail valide. »
 
 +++
 
@@ -142,9 +171,9 @@ Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieu
 
 ### Fonctionnalités clés
 
-* **Génération de texte** - Créez une copie attrayante basée sur la voix et les objectifs de votre marque. [&#x200B; Générer du texte avec l’IA &#x200B;](../content-management/generative-text.md)
+* **Génération de texte** - Créez une copie attrayante basée sur la voix et les objectifs de votre marque. [ Générer du texte avec l’IA ](../content-management/generative-text.md)
 * **Génération d’images** - Générez des images personnalisées à l’aide d’Adobe Firefly. [Générer des images avec l’IA](../content-management/generative-image.md)
-* **Variations de contenu** - Produisez plusieurs variations pour les tests A/B. [&#x200B; Expérience de contenu avec l’IA &#x200B;](../content-management/generative-experimentation.md)
+* **Variations de contenu** - Produisez plusieurs variations pour les tests A/B. [ Expérience de contenu avec l’IA ](../content-management/generative-experimentation.md)
 * **Alignement des marques** - Assurez-vous que le contenu généré correspond à vos directives de marque. [Évaluation de l’alignement de la marque](../content-management/brands-score.md)
 * **Prise en charge des modèles** - Tirez parti de vos modèles d’e-mail existants. [Utiliser des modèles de contenu](../content-management/content-templates.md)
 
@@ -191,7 +220,7 @@ Créez des modèles de classement intelligents qui optimisent automatiquement le
 
 * Au moins 2 offres avec des données d’interaction suffisantes :
    * Plus de 100 événements d’affichage
-   * &#x200B;+ de 5 clics sur les événements
+   * + de 5 clics sur les événements
    * Au cours des 14 derniers jours
 * Maximum de 5 modèles de classement IA par organisation
 
@@ -214,7 +243,7 @@ Fonctionnalités clés :
 
 Les playbooks de cas d’utilisation sont des workflows préconfigurés qui vous permettent d’implémenter rapidement des scénarios marketing courants. Chaque playbook comprend des parcours prêts à l’emploi, des messages, des schémas et des segments.
 
-![&#x200B; Interface des playbooks de cas d’utilisation &#x200B;](assets/playbooks-filter.png)
+![ Interface des playbooks de cas d’utilisation ](assets/playbooks-filter.png)
 
 ### Fonctionnement des playbooks
 
@@ -241,7 +270,7 @@ Parcourez les playbooks Journey Optimizer pour obtenir des scénarios courants t
 
 +++
 
-[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=fr){target="_blank"}
+[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Fonctionnalités d’IA supplémentaires {#additional-capabilities}
 
@@ -264,6 +293,7 @@ Transformez des conceptions d’images statiques (JPEG, PNG) en modèles d’e-m
 * **[Assistant AI pour la génération de contenu](#content-generation)** - Nécessite l’autorisation « Générer du contenu »
 * **[Assistant IA](#ai-assistant)** connaissance du produit - Nécessite un accord avec les directives d’utilisation de l’IA générative Adobe
 * **[Agent d’analyse des Parcours](#journey-agent)** - Nécessite des autorisations d’affichage/de gestion des Parcours et d’affichage/de gestion des segments
+* **[Agent de création de Parcours](#journey-create-agent)** - Nécessite des autorisations de niveau Gérer les Parcours, Afficher les événements de Parcours/les sources de données/les actions, Afficher les segments et Gérer les segments
 * **[Agent d’expérimentation](#experimentation-agent)** - Nécessite d’afficher les expériences et de gérer les métadonnées d’expérience
 
 Tous les agents AI doivent avoir accès à l’assistant AI et accepter les directives d’utilisation de Adobe Experience Cloud Generative AI.
