@@ -244,9 +244,9 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Planifier une campagne à l’aide du fuseau horaire du profil** - La planification Campaign peut désormais utiliser le fuseau horaire de chaque profil pour diffuser les messages à l’heure locale prévue.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Cette amélioration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée).
 
 #### Canaux
@@ -271,9 +271,9 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Publiée précédemment en disponibilité limitée, cette amélioration est désormais disponible dans tous les environnements (disponibilité générale).
 
 #### Parcours
@@ -284,9 +284,9 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Plusieurs actions entrantes dans les campagnes** : pour simplifier l’orchestration de parcours, vous pouvez désormais définir plusieurs actions entrantes dans un seul parcours. Précédemment disponible dans les campagnes, cette fonctionnalité vous permet de diffuser simultanément plusieurs expériences basées sur du code, des messages in-app, des cartes de contenu ou des actions web à différents emplacements, chaque action contenant un contenu spécifique.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Publiée précédemment en disponibilité limitée, cette amélioration est désormais disponible dans tous les environnements (disponibilité générale).
 
 #### Campagnes orchestrées
