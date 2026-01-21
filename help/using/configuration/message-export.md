@@ -12,10 +12,10 @@ badge: label="Disponibilité limitée" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
+source-git-commit: 8bc0d28ea3e7c26bd8f7a35d00a73e41f35720d0
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '513'
+ht-degree: 85%
 
 ---
 
@@ -24,28 +24,28 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="Conserver et exporter votre contenu envoyé"
->abstract="La sélection de cette option vous permet d’écrire le contenu de l’e-mail ou du SMS envoyé à l’aide de cette configuration dans un jeu de données [!DNL Experience Platform]. Les enregistrements sont conservés pendant 3 jours calendaires, au cours desquels vous pouvez les exporter vers votre propre espace de stockage."
+>abstract="La sélection de cette option vous permet d’écrire le contenu de l’e-mail ou du SMS envoyé à l’aide de cette configuration dans un jeu de données [!DNL Experience Platform]. Les enregistrements sont conservés pendant 7 jours calendaires à partir de l’ingestion, pendant lesquels vous pouvez les exporter vers votre propre espace de stockage."
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité n’est actuellement disponible que pour un ensemble spécifique d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Cette fonctionnalité n’est actuellement disponible que pour un ensemble spécifique d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 **L’export de messages** vous permet de transférer le contenu des e-mails et des SMS envoyés à partir de [!DNL Journey Optimizer] vers votre propre espace de stockage via des destinations [!DNL Adobe Experience Platform], qui permettent de diffuser des données provenant d’[!DNL Experience Platform] vers des points d’entrée externes. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home){target="_blank"}
 
 Grâce à cette fonctionnalité, le contenu des e-mails et des SMS envoyés via [!DNL Journey Optimizer] marqués pour l’export est écrit dans le **jeu de données d’export de messages AJO** d’[!DNL Experience Platform].
 
-Les enregistrements sont ensuite conservés dans le **jeu de données d’export de messages AJO** pendant trois jours calendaires, au cours desquels vous pouvez les exporter vers le système externe de votre choix.
+Les enregistrements sont ensuite conservés dans le **jeu de données d’exportation de messages AJO** pendant sept jours calendaires à partir de l’ingestion, pendant lesquels vous pouvez les exporter vers le système externe de votre choix.
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
 ## Mécanismes de sécurisation
 
 * Cette fonctionnalité prend uniquement en charge les canaux E-mail et SMS.
-* Les enregistrements du jeu de données d’export de messages AJO sont conservés pendant trois jours calendaires à compter de l’ingestion.
+* Les enregistrements du jeu de données d’exportation de messages d’AJO sont conservés pendant sept jours calendaires à compter de l’ingestion.
 * Le renvoi n’est pas pris en charge pour les messages envoyés avant l’activation de l’export des messages, comme décrit ci-dessous.
 
 ## Activer l’export des messages {#enable-message-export}
@@ -75,7 +75,7 @@ Avant de pouvoir exporter vos données, vous devez configurer le processus d’e
 
    * Jeu de données source : sélectionnez **jeu de données d’export de messages AJO**.
    * Format de fichier : sélectionnez JSON ou Parquet (choisissez-le en fonction des outils déployés).
-   * Planification : assurez-vous qu’elle s’exécute pendant l’intervalle de conservation de 3 jours.
+   * Planification : assurez-vous qu’elle s’exécute dans la fenêtre de conservation de 7 jours.
 
 ### Activer l’export des messages dans la configuration de canal {#config-message-export}
 
