@@ -5,10 +5,10 @@ title: Utiliser des activités de campagnes orchestrées
 description: Découvrir comment utiliser des activités de campagne orchestrée
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 99%
 
 ---
 
@@ -61,6 +61,11 @@ Découvrez comment [créer une action de canal dans une campagne orchestrée](ch
 >id="ajo_orchestration_end"
 >title="Activité de fin"
 >abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’une campagne orchestrée. Cette activité n’a aucun impact fonctionnel et est donc facultative."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_signal"
+>title="Signal externe"
+>abstract="signal externe"
 
 Les activités ci-après sont spécifiques à l’organisation et à l’exécution des campagnes orchestrées. Leur principale tâche est de coordonner les autres activités.
 
