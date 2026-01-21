@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 157e880de7dc63e4972b4e6794cc4a5f736d7bd4
+source-git-commit: 3635cb3ad81cc3462dc3ebb6d60594b4b83051e9
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 33%
+source-wordcount: '2068'
+ht-degree: 32%
 
 ---
 
@@ -218,6 +218,21 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
+<th><strong>Export de message</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il est désormais possible d’<strong>exporter des diffusions envoyées</strong> dans un jeu de données spécifique, à des fins d’archivage et de conformité. Cette capacité est disponible non seulement pour les e-mails, mais également pour d’autres canaux tels que les SMS.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nouvelle API pour récupérer les campagnes d’action</strong><br/></th>
 </tr>
 </thead>
@@ -291,23 +306,21 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Canaux
 
-* **Exportation des messages** - Il est désormais possible d’<strong>exporter les diffusions envoyées</strong> dans un jeu de données spécifique, à des fins d’archivage et de conformité. Cette capacité est disponible non seulement pour les e-mails, mais également pour d’autres canaux tels que les SMS.
-
 * **Webhooks des SGS : Phase II** - Description à fournir.
 
 * **Offre de revente WhatsApp** - Description à fournir.
 
 #### Concepteur d’e-mail
 
-* **Corrections statiques - Acrite - E-mail et pages de destination** - Description à fournir.
+* **Les corrections statiques dans le concepteur d’e-mail** - <strong>suggestions de contenu automatiques optimisées par l’IA</strong> sont désormais disponibles dans le Designer d’e-mail lorsque des violations sont détectées lors de la validation du contenu. Si le contenu est signalé comme non conforme aux directives de la marque ou ne répond pas aux critères de qualité, le système génère de manière proactive des alternatives corrigées qui peuvent être examinées et appliquées en ligne, améliorant la conformité et accélérant la production.
 
 #### Experience Decisioning
 
-* **Arbitrage de Parcours - Formules** - Vous pouvez désormais utiliser des <strong>formules et modèles d’IA</strong> pour augmenter automatiquement les scores de priorité du parcours en fonction des attributs du profil client et des facteurs contextuels, en vous assurant que les clients saisissent les parcours les plus pertinents.
+* **Arbitrage de Parcours** - Vous pouvez désormais utiliser des <strong>formules et modèles d’IA</strong> pour augmenter automatiquement les scores de priorité du parcours en fonction des attributs du profil client et des facteurs contextuels, en vous assurant que les clients saisissent les parcours les plus pertinents.
 
 * **exd sandbox tooling documentation - update** - Description à fournir.
 
-* **API d’outils de migration en libre-service** - Description à fournir.
+* **API d&#39;outils de migration en libre-service** - Un nouvel ensemble d&#39;<strong>API d&#39;outils de migration</strong> est disponible pour migrer les entités de gestion des offres vers Experience Decisioning. Cet outil permet une migration transparente entre les sandbox avec des fonctionnalités de résolution de dépendance et de restauration.
 
 * **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des <strong>fragments</strong> aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision.
 
@@ -316,6 +329,8 @@ Les améliorations de cette version sont présentées ci-dessous.
 #### Parcours
 
 * **Tirer parti d’un payload de réponse d’échec dans les actions personnalisées de parcours** - Description à fournir.
+
+* **Combiner des actions de message natives et Adobe Campaign** - Journey Optimizer vous permet désormais de combiner des actions de message Adobe Campaign v7/v8 avec des actions de canal natives dans le même parcours.
 
 * **Validation de la taille de la payload du Parcours dans parcours** - Journey Optimizer fournit désormais la <strong>validation de la taille de la payload</strong> pour garantir des performances optimales et la stabilité du système. Lors de la création ou de la publication de parcours, vous recevez des avertissements et des erreurs clairs si les tailles de payload approchent ou dépassent les limites recommandées, ainsi que des conseils pratiques pour optimiser votre configuration de parcours. Cette validation proactive vous permet d’identifier rapidement les problèmes potentiels et de maintenir les performances du parcours.
 
@@ -359,6 +374,23 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <tr>
 <td>
 <p>Optimisé par Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> est disponible dans Journey Optimizer et vous permet d’analyser les parcours par le biais d’une interface en langage naturel. Vous pouvez désormais également générer et gérer du contenu spécifique à un canal directement dans Journey Agent, ce qui permet de créer du contenu pour des canaux tels que les e-mails et les notifications push, d’appliquer et de prévisualiser des modèles, d’affiner le ton et le style via des invites et d’ouvrir le contenu dans Content Designer pour le modifier en contexte.</p>
+<p>Date de disponibilité : mardi 2 février 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité Décision de contenu</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais inclure des <strong>offres personnalisées</strong> dans vos parcours par le biais d’une activité de décision de contenu dédiée dans la zone de travail de parcours, et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
+<p>Date de disponibilité : mardi 2 février 2026</p>
 </td>
 </tr>
 </tbody>
