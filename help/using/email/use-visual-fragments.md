@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1028'
 ht-degree: 97%
 
 ---
@@ -111,10 +111,6 @@ Découvrez comment utiliser les variables implicites dans [cette section](../per
 
 Si certaines parties du fragment sélectionné ont été rendues modifiables, vous pouvez remplacer leur valeur par défaut après l’ajout du fragment dans votre contenu. [Découvrir comment rendre personnalisables vos fragments](../content-management/customizable-fragments.md)
 
->[!CAUTION]
->
->Lorsque les **libellé** et **URL** d’un composant de bouton sont modifiables dans un fragment, les rapports de suivi affichent l’URL au lieu du libellé du bouton. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
-
 Pour personnaliser les champs modifiables dans un fragment, procédez comme suit :
 
 1. Ajoutez le fragment à votre contenu.
@@ -128,6 +124,10 @@ Pour personnaliser les champs modifiables dans un fragment, procédez comme suit
    Dans l’exemple ci-dessous, l’image **source** et le **texte alternatif** peuvent être modifiés, ainsi que l’**URL** du bouton « Cliquez ici ».
 
    ![](assets/fragment-editable.png)
+
+>[!CAUTION]
+>
+>Lorsque les **libellé** et **URL** d’un composant de bouton sont rendus modifiables dans un fragment, les rapports de suivi affichent l’URL au lieu du libellé du bouton. [En savoir plus sur le tracking](../email/message-tracking.md)
 
 ## Rompre l’héritage {#break-inheritance}
 

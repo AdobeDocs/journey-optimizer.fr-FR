@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1370'
 ht-degree: 95%
 
 ---
@@ -99,7 +99,7 @@ Une fois le message envoyé, la période de conservation d’un lien est de **25
 
 >[!CAUTION]
 >
->Lorsque les **libellé** et **URL** d’un bouton sont rendus modifiables dans un fragment, les rapports de suivi affichent l’URL au lieu du libellé du bouton. Le champ `_experience.customerJourneyManagement.messageInteraction.label` du jeu de données de suivi consigne la valeur de l’URL.
+>Lorsque les **libellé** et **URL** d’un bouton sont rendus modifiables dans un [fragment personnalisable](../content-management/customizable-fragments.md), les rapports de suivi affichent l’URL au lieu du libellé du bouton.
 
 ## Lien vers une page miroir {#mirror-page}
 
