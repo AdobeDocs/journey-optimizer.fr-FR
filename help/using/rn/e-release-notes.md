@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7965928aca9d4e36bacc058776c24065b8cfff21
+source-git-commit: 5cdb4e9f8e01a2db17d2c831178053db620286eb
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 42%
+source-wordcount: '1779'
+ht-degree: 41%
 
 ---
 
@@ -32,14 +32,36 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Heures creuses/exclusions basées sur l’heure</strong><br/></th>
+<th><strong>Activité d’action dans les parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les heures creuses vous permettent de définir des exclusions basées sur l’heure pour les canaux E-mail, SMS, Notification push et WhatsApp. Ils garantissent qu’aucun message n’est envoyé pendant des périodes spécifiques, ce qui vous aide à respecter les préférences des clients et les exigences de conformité. Vous pouvez appliquer des heures creuses par le biais de jeux de règles, qui peuvent être affectés à des actions individuelles dans des campagnes ou des parcours pour un contrôle précis.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité permet désormais au client de mettre en file d’attente une action de campagne jusqu’à la fin des heures creuses et de prévisualiser la règle des heures creuses activée.</p>
+<p>Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des actions uniques et des groupes d’actions entrantes multiples, ce qui simplifie la configuration des actions dans la zone de travail de parcours. Cette nouvelle fonctionnalité permet notamment les opérations suivantes :</p>
+<ul>
+<li>Configuration d’action native simplifiée dans la zone de travail de parcours</li>
+<li>Création de groupes d’actions entrantes multi-actions</li>
+<li>Ajout d’une optimisation à toute action de canal intégrée</li>
+<li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action</li>
+</ul>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité Décision de contenu</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais inclure des offres personnalisées dans vos parcours par le biais d’une activité de décision de contenu dédiée dans la zone de travail de parcours et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 </td>
 </tr>
 </tbody>
@@ -64,13 +86,29 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Formulaires personnalisés de la page de destination</strong><br/></th>
+<th><strong>Heures creuses/exclusions basées sur l’heure</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Avec Journey Optimizer, vous pouvez désormais capturer les attributs de profil via vos pages de destination. Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
+<p>Les heures creuses vous permettent de définir des exclusions basées sur l’heure pour les canaux E-mail, SMS, Notification push et WhatsApp. Ils garantissent qu’aucun message n’est envoyé pendant des périodes spécifiques, ce qui vous aide à respecter les préférences des clients et les exigences de conformité. Vous pouvez appliquer des heures creuses par le biais de jeux de règles, qui peuvent être affectés à des actions individuelles dans des campagnes ou des parcours pour un contrôle précis.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité permet désormais au client de mettre en file d’attente une action de campagne jusqu’à la fin des heures creuses et de prévisualiser la règle des heures creuses activée.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal Courrier dans parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Auparavant limité aux campagnes, le canal Publipostage direct est désormais disponible sur la zone de travail du parcours, ce qui vous permet d’incorporer le publipostage direct dans vos parcours. Le publipostage direct peut désormais être utilisé dans les scénarios de lot et de parcours 1:1, avec la prise en charge de la configuration de l’extraction de fichiers et des paramètres de fréquence basés sur le temps.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 </td>
 </tr>
@@ -96,14 +134,20 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Canal Courrier dans parcours</strong><br/></th>
+<th><strong>Messagerie de base RCS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Auparavant limité aux campagnes, le canal Publipostage direct est désormais disponible sur la zone de travail du parcours, ce qui vous permet d’incorporer le publipostage direct dans vos parcours. Le publipostage direct peut désormais être utilisé dans les scénarios de lot et de parcours 1:1, avec la prise en charge de la configuration de l’extraction de fichiers et des paramètres de fréquence basés sur le temps.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<p>Avec la nouvelle offre de module complémentaire RCS Basic, vous pouvez désormais diffuser des messages RCS (Rich Communication Services) de base dans Journey Optimizer, ce qui permet d’utiliser les fonctionnalités de messagerie améliorées suivantes, sous réserve de la prise en charge par le fournisseur et l’opérateur :</p>
+<ul>
+<li>Prise en charge des expéditeurs de marque vérifiés : envoyez des messages à l’aide de profils métier vérifiés avec des éléments de branding (logo, nom de l’expéditeur, etc.).</li>
+<li>Informations sur la diffusion des messages : recevez des rapports de diffusion détaillés comprenant les mises à jour du statut des messages (par exemple, envoyé, diffusé, lu).</li>
+<li>Suivi des liens : incorporez et suivez les URL dans les messages RCS pour l’analyse de l’engagement.</li>
+<li>Basculement vers les SMS : basculement automatique vers les SMS lorsque l’appareil du profil ne prend pas en charge RCS ou est temporairement inatteignable via RCS.</li>
+<li>Composition de base du message : envoyez des messages RCS textuels de base.</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -144,20 +188,13 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Messagerie de base RCS</strong><br/></th>
+<th><strong>Canal courrier dans les campagnes orchestrées</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Avec la nouvelle offre de module complémentaire RCS Basic, vous pouvez désormais diffuser des messages RCS (Rich Communication Services) de base dans Journey Optimizer, ce qui permet d’utiliser les fonctionnalités de messagerie améliorées suivantes, sous réserve de la prise en charge par le fournisseur et l’opérateur :</p>
-<ul>
-<li>Prise en charge des expéditeurs de marque vérifiés : envoyez des messages à l’aide de profils métier vérifiés avec des éléments de branding (logo, nom de l’expéditeur, etc.).</li>
-<li>Informations sur la diffusion des messages : recevez des rapports de diffusion détaillés comprenant les mises à jour du statut des messages (par exemple, envoyé, diffusé, lu).</li>
-<li>Suivi des liens : incorporez et suivez les URL dans les messages RCS pour l’analyse de l’engagement.</li>
-<li>Basculement vers les SMS : basculement automatique vers les SMS lorsque l’appareil du profil ne prend pas en charge RCS ou est temporairement inatteignable via RCS.</li>
-<li>Composition de base du message : envoyez des messages RCS textuels de base.</li>
-</ul>
+<p>Le canal Courrier est désormais disponible dans les campagnes orchestrées. L’activité Courrier facilite l’envoi de courrier depuis votre campagne orchestrée pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données.</p>
 </td>
 </tr>
 </tbody>
@@ -166,13 +203,14 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Canal courrier dans les campagnes orchestrées</strong><br/></th>
+<th><strong>Formulaires personnalisés de la page de destination</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le canal Courrier est désormais disponible dans les campagnes orchestrées. L’activité Courrier facilite l’envoi de courrier depuis votre campagne orchestrée pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données.</p>
+<p>Avec Journey Optimizer, vous pouvez désormais capturer les attributs de profil via vos pages de destination. Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 </td>
 </tr>
 </tbody>
@@ -193,44 +231,6 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Activité d’action dans les parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des actions uniques et des groupes d’actions entrantes multiples, ce qui simplifie la configuration des actions dans la zone de travail de parcours. Cette nouvelle fonctionnalité permet notamment les opérations suivantes :</p>
-<ul>
-<li>Configuration d’action native simplifiée dans la zone de travail de parcours</li>
-<li>Création de groupes d’actions entrantes multi-actions</li>
-<li>Ajout d’une optimisation à toute action de canal intégrée</li>
-<li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action</li>
-</ul>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Activité Décision de contenu</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais inclure des offres personnalisées dans vos parcours par le biais d’une activité de décision de contenu dédiée dans la zone de travail de parcours et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Améliorations {#jan-26-01-improv}
 
 Les améliorations de cette version sont présentées ci-dessous.
@@ -244,10 +244,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Planifier une campagne à l’aide du fuseau horaire du profil** - La planification Campaign peut désormais utiliser le fuseau horaire de chaque profil pour diffuser les messages à l’heure locale prévue.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Cette amélioration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée).
+  **Remarque** : cette amélioration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée).
 
 #### Canaux
 
@@ -271,10 +268,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Publiée précédemment en disponibilité limitée, cette amélioration est désormais disponible dans tous les environnements (disponibilité générale).
+  **Remarque** : publiée précédemment en disponibilité limitée, cette amélioration est désormais disponible dans tous les environnements (disponibilité générale).
 
 #### Parcours
 
@@ -284,10 +278,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Plusieurs actions entrantes dans les campagnes** : pour simplifier l’orchestration de parcours, vous pouvez désormais définir plusieurs actions entrantes dans un seul parcours. Précédemment disponible dans les campagnes, cette fonctionnalité vous permet de diffuser simultanément plusieurs expériences basées sur du code, des messages in-app, des cartes de contenu ou des actions web à différents emplacements, chaque action contenant un contenu spécifique.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Publiée précédemment en disponibilité limitée, cette amélioration est désormais disponible dans tous les environnements (disponibilité générale).
+  **Remarque** : publiée précédemment en disponibilité limitée, cette amélioration est désormais disponible dans tous les environnements (disponibilité générale).
 
 #### Campagnes orchestrées
 
