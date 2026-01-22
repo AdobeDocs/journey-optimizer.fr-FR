@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
+source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
 workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 23%
+source-wordcount: '2407'
+ht-degree: 22%
 
 ---
 
@@ -172,13 +172,19 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Export de message</strong><br/></th>
+<th><strong>Exportation de messages</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Il est désormais possible d’<strong>exporter des diffusions envoyées</strong> dans un jeu de données spécifique, à des fins d’archivage et de conformité. Cette capacité est disponible non seulement pour les e-mails, mais également pour d’autres canaux tels que les SMS. La conservation des données pour le jeu de données d’exportation du message est désormais de <strong> 7 jours</strong>.</p>
+<p>Une nouvelle fonctionnalité <strong>Exportation des messages</strong> est désormais disponible pour les canaux e-mail et SMS. Cette fonctionnalité vous permet d'exporter automatiquement le contenu des messages envoyés vers un jeu de données Experience Platform dédié, ce qui vous permet d'effectuer les opérations suivantes :</p>
+<ul>
+<li>Respect des exigences réglementaires (telles que la loi HIPAA)</li>
+<li>Archiver les messages pour les réclamations juridiques et les demandes de renseignements de l'assistance clientèle</li>
+<li>Conserver des copies du contenu personnalisé envoyé aux individus</li>
+</ul>
+<p>Les enregistrements sont conservés dans le jeu de données d’exportation de messages AJO pendant 7 jours calendaires <strong> à compter de l’ingestion</strong>. Pendant cette période de conservation, vous pouvez exporter les données vers votre propre espace de stockage via les destinations Experience Platform. La fonctionnalité est activée au niveau de la configuration des canaux, ce qui vous permet de contrôler de manière granulaire les messages exportés.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">Lien vers la tâche DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">Lien vers la tâche PRODUCT JIRA</a></p>
 </td>
 </tr>
@@ -297,9 +303,6 @@ Les améliorations de cette version sont présentées ci-dessous.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">Lien vers la tâche DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">Lien vers la tâche PRODUCT JIRA</a>
 
 #### Experience Decisioning
-
-* **exd sandbox tooling documentation - update** - Description à fournir.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">Lien vers la tâche DOCAC JIRA</a>
 
 * **API d&#39;outils de migration en libre-service** - Un nouvel ensemble d&#39;<strong>API d&#39;outils de migration</strong> est disponible pour migrer les entités de gestion des offres vers Experience Decisioning. Cet outil permet une migration transparente entre les sandbox avec des fonctionnalités de résolution de dépendance et de restauration.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">Lien vers la tâche DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695">Lien vers la tâche PRODUCT JIRA</a>
