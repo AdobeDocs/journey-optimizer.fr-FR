@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
+source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 23%
@@ -388,7 +388,7 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <td>
 <p>Vous pouvez désormais inclure des <strong>offres personnalisées</strong> dans vos parcours par le biais d’une activité de décision de contenu dédiée dans la zone de travail de parcours, et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">Lien vers la tâche DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">Lien vers la tâche PRODUCT JIRA</a></p>
-<p>Date de disponibilité : mardi 2 février 2026</p>
+<p>Date de disponibilité : mercredi 3 février 2026</p>
 </td>
 </tr>
 </tbody>
