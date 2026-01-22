@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
+source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 5%
+source-wordcount: '358'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Pour ajouter des attributs contextuels à un fragment publié, procédez comme s
 
 >[!IMPORTANT]
 >
->Continuez uniquement si vous comprenez pleinement les impacts sur les parcours et les campagnes référençant le fragment. [En savoir plus](#limitations)
+>Ne poursuivez que si vous [comprenez pleinement les impacts](#limitations) sur les parcours et les campagnes référençant le fragment.
 
 1. Accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]**.
 
@@ -56,11 +56,7 @@ Pour ajouter des attributs contextuels à un fragment publié, procédez comme s
 
 1. Basculez vers **[!UICONTROL Éditeur de code]** ou **[!UICONTROL Mode avancé]** dans l’éditeur de personnalisation.
 
-1. Saisissez ou copiez-collez manuellement l’attribut contextuel à l’aide de la syntaxe :
-
-   ```
-   {{context.attribute_name}}
-   ```
+1. Saisissez ou copiez-collez manuellement l’attribut contextuel à l’aide de la syntaxe `{{context.attribute_name}}` :
 
    Exemple pour un attribut `promotionCode` :
 
@@ -83,6 +79,6 @@ Pour ajouter des attributs contextuels à un fragment publié, procédez comme s
 
 * [Gérer les fragments](manage-fragments.md)
 * [Modifier un fragment](manage-fragments.md#edit-fragments)
-* [Campagnes déclenchées par l’API](../campaigns/api-triggered-campaigns.md)
+* [Campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)
 * [Syntaxe de personnalisation](../personalization/personalization-syntax.md)
 
