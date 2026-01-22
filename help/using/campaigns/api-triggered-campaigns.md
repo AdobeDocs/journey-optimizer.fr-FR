@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
->title="Campagnes déclenchées par API"
+>title="Campagnes déclenchées par API"
 >abstract="**Campagnes transactionnelles déclenchées par API**<br/> Déclencher des messages en temps réel à l’aide d’appels API <br/><br/>**Messages marketing**<br/> Contenu promotionnel (nécessite un opt-in, soumis aux règles métier)<br/><br/>**Messages transactionnels**<br/> Contenu lié au service (confirmation, alertes, non soumis à un consentement marketing)<br/><br/>**Canaux disponibles**<br/> E-mail, SMS, notifications push"
 
 ## À propos des campagnes déclenchées par API {#about}
@@ -50,10 +50,10 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 1. [Vérifier et activer la campagne](review-activate-api-triggered-campaign.md)
 1. [Déclencher l’exécution de la campagne](trigger-campaigns.md)
 
-En savoir plus sur le [&#128279;](get-started-with-campaigns.md#workflow) workflow de création de campagne complet avec des guides spécifiques au type→
+En savoir plus sur le [](get-started-with-campaigns.md#workflow) workflow de création de campagne complet avec des guides spécifiques au type→
 
 ## Vidéos pratiques {#video}
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452727?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
->title="Activité AND-join"
+>title="Activité Rendez-vous"
 >abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne orchestrée."
 
 L’activité **[!UICONTROL Rendez-vous]** est une activité de **[!UICONTROL contrôle de flux]**. Elle permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée.
