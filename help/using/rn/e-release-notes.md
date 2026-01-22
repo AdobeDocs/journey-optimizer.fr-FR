@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
+source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 22%
+source-wordcount: '2358'
+ht-degree: 23%
 
 ---
 
@@ -188,6 +188,24 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
+<th><strong>Journey Agent - Création d’un Parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’agent de création de parcours permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec l’agent de création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes du marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">En savoir plus</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Lien vers la tâche DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Lien vers la tâche PRODUCT JIRA</a></p>
+<p>Date de disponibilité : mardi 12 janvier 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nouvelle API pour récupérer les campagnes d’action</strong><br/></th>
 </tr>
 </thead>
@@ -279,11 +297,6 @@ Les améliorations de cette version sont présentées ci-dessous.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">Lien vers la tâche DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">Lien vers la tâche PRODUCT JIRA</a>
 
 #### Experience Decisioning
-
-* **Arbitrage de Parcours** - Vous pouvez désormais utiliser des <strong>formules et modèles d’IA</strong> pour augmenter automatiquement les scores de priorité du parcours en fonction des attributs du profil client et des facteurs contextuels, en vous assurant que les clients saisissent les parcours les plus pertinents.
-
-  **Remarque** : cette amélioration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">Lien vers la tâche DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932">Lien vers la tâche PRODUCT JIRA</a>
 
 * **exd sandbox tooling documentation - update** - Description à fournir.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">Lien vers la tâche DOCAC JIRA</a>
@@ -380,3 +393,4 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 </tr>
 </tbody>
 </table>
+
