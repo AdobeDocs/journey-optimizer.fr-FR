@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
+source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
 workflow-type: tm+mt
-source-wordcount: '2051'
-ht-degree: 28%
+source-wordcount: '2086'
+ht-degree: 29%
 
 ---
 
@@ -26,11 +26,13 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Notes de mise à jour de janvier 2026 {#latest-rn}
+## Notes de mise à jour préliminaires du 26 janvier {#latest-rn}
 
 **Date de publication** : mercredi 27 janvier 2026
 
-Ces notes de mise à jour sont en version préliminaire et peuvent être modifiées jusqu’à la date de disponibilité de la version. Les liens, écrans et la documentation mise à jour seront publiés dans les notes de mise à jour à la date de publication.
+**Les notes de version préliminaire ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les notes de mise à jour, à la date de publication.
+
+Voir également les [Notes de mise à jour préliminaires d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
@@ -116,6 +118,7 @@ Ces notes de mise à jour sont en version préliminaire et peuvent être modifi�
 <td>
 <p>Adobe Journey Optimizer prend désormais en charge les <strong>notifications push web</strong>, ce qui étend le canal push au-delà des applications mobiles. Vous pouvez diffuser facilement des notifications aux navigateurs mobiles et de bureau, ce qui vous permet d’atteindre les clients directement sur leurs appareils sans avoir besoin d’une application. Cette amélioration permet d’interagir avec les utilisateurs et utilisatrices à l’aide de messages personnalisés et opportuns en temps réel, en exploitant les mêmes workflows de création et les mêmes fonctionnalités de ciblage que ceux déjà disponibles pour les notifications push mobiles.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<p><strong>Remarque </strong> : la notification silencieuse n’est pas encore prise en charge pour les notifications push web.</p>
 </td>
 </tr>
 </tbody>
@@ -198,7 +201,7 @@ Ces notes de mise à jour sont en version préliminaire et peuvent être modifi�
 <tr>
 <td>
 <p>L’agent de création de parcours permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec l’agent de création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes du marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">En savoir plus</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">En savoir plus</a></p>
 <p>Date de disponibilité : mardi 12 janvier 2026</p>
 </td>
 </tr>
@@ -276,7 +279,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Campagnes
 
-* **Planification de l’opération à l’aide du fuseau horaire du profil** - La planification des opérations peut désormais utiliser le <strong>fuseau horaire</strong> de chaque profil pour diffuser les messages à l’heure locale prévue.
+* **Planification de l’opération à l’aide du fuseau horaire du profil** - La planification des opérations peut désormais utiliser le <strong>fuseau horaire</strong> de chaque profil pour diffuser les messages à l’heure locale prévue. La planification à l’aide des fuseaux horaires de profil est disponible pour les canaux E-mail, Push, SMS, WhatsApp et LINE.
 
   **Remarque** : cette amélioration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée).
 
