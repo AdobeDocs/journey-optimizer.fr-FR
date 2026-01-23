@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2051'
 ht-degree: 28%
 
 ---
@@ -100,7 +100,6 @@ Ces notes de mise à jour sont en version préliminaire et peuvent être modifi�
 <td>
 <p>Auparavant limité aux campagnes, le canal <strong>publipostage direct</strong> est désormais disponible sur la zone de travail de parcours <strong></strong>, ce qui vous permet d’incorporer le publipostage direct dans vos parcours. Le publipostage direct peut désormais être utilisé dans les scénarios de lot et de parcours 1:1, avec la prise en charge de la configuration de l’extraction de fichiers et des paramètres de fréquence basés sur le temps.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
-<img src="assets/do-not-localize/dm-journey.gif">
 </td>
 </tr>
 </tbody>
@@ -148,7 +147,6 @@ Ces notes de mise à jour sont en version préliminaire et peuvent être modifi�
 <tr>
 <td>
 <p>Le canal Courrier est désormais disponible dans les campagnes orchestrées. L’activité <strong>Publipostage direct</strong> facilite l’envoi de publipostage direct dans votre campagne orchestrée, pour les messages ponctuels et récurrents. Il permet d’automatiser le processus de génération du fichier <strong>extraction</strong> requis par les fournisseurs de publipostage direct. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données.</p>
-<img src="assets/do-not-localize/dm-oc.gif">
 </td>
 </tr>
 </tbody>
@@ -200,7 +198,7 @@ Ces notes de mise à jour sont en version préliminaire et peuvent être modifi�
 <tr>
 <td>
 <p>L’agent de création de parcours permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec l’agent de création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes du marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">En savoir plus</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">En savoir plus</a></p>
 <p>Date de disponibilité : mardi 12 janvier 2026</p>
 </td>
 </tr>
@@ -288,7 +286,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Concepteur d’e-mail
 
-* **Les corrections statiques dans le concepteur d’e-mail** - <strong>suggestions de contenu automatiques optimisées par l’IA</strong> sont désormais disponibles dans le Designer d’e-mail lorsque des violations sont détectées lors de la validation du contenu. Si le contenu est signalé comme non conforme aux directives de la marque ou ne répond pas aux critères de qualité, le système génère de manière proactive des alternatives corrigées qui peuvent être examinées et appliquées en ligne, améliorant la conformité et accélérant la production.
+* **Corrections en place dans le concepteur d’e-mail** - Lors de la gestion du contenu selon les directives de votre marque, des suggestions de contenu automatiques optimisées par l’IA <strong>IA</strong> sont désormais disponibles lorsque des violations sont détectées lors de la validation du contenu. Si le contenu est signalé comme non conforme aux directives de la marque ou ne répond pas aux critères de qualité, le système génère de manière proactive des alternatives corrigées qui peuvent être examinées et appliquées en ligne, améliorant la conformité et accélérant la production.
 
 #### Experience Decisioning
 
