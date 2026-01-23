@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 775811ef33441c3209eaedc6cd3bee8f686190e0
+source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 29%
+source-wordcount: '2027'
+ht-degree: 30%
 
 ---
 
@@ -202,7 +202,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>L’agent de création de parcours permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec l’agent de création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes du marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">En savoir plus</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">En savoir plus</a></p>
 <p>Date de disponibilité : mardi 12 janvier 2026</p>
 </td>
 </tr>
@@ -284,10 +284,6 @@ Les améliorations de cette version sont présentées ci-dessous.
 
   **Remarque** : cette amélioration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée).
 
-
-#### Concepteur d’e-mail
-
-* **Corrections en place dans le concepteur d’e-mail** - Lors de la gestion du contenu selon les directives de votre marque, des suggestions de contenu automatiques optimisées par l’IA <strong>IA</strong> sont désormais disponibles lorsque des violations sont détectées lors de la validation du contenu. Si le contenu est signalé comme non conforme aux directives de la marque ou ne répond pas aux critères de qualité, le système génère de manière proactive des alternatives corrigées qui peuvent être examinées et appliquées en ligne, améliorant la conformité et accélérant la production.
 
 #### Experience Decisioning
 
