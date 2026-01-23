@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
+source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
 workflow-type: tm+mt
-source-wordcount: '2027'
-ht-degree: 30%
+source-wordcount: '1984'
+ht-degree: 29%
 
 ---
 
@@ -159,21 +159,6 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Nouveaux connecteurs source pour les applications de programmes de fidélité</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>De nouveaux <strong>connecteurs source</strong> sont désormais disponibles dans Adobe Experience Platform pour les applications de fidélité Talon.One, Capillary et Kobie. Ces connecteurs vous permettent de diffuser facilement des données de fidélité dans Adobe Experience Platform et d’exploiter ces données dans Journey Optimizer.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Exportation de messages</strong><br/></th>
 </tr>
 </thead>
@@ -202,7 +187,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>L’agent de création de parcours permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec l’agent de création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes du marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">En savoir plus</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">En savoir plus</a></p>
 <p>Date de disponibilité : mardi 12 janvier 2026</p>
 </td>
 </tr>
