@@ -5,15 +5,20 @@ title: Utiliser le créateur de règles
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
-source-wordcount: '305'
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+workflow-type: tm+mt
+source-wordcount: '328'
 ht-degree: 100%
 
 ---
 
 
 # Utiliser le créateur de règles {#orchestrated-rule-builder}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="Filtre prédéfini"
+>abstract="En utilisant l’option **Filtre prédéfini**, vous pouvez sélectionner un filtre prédéfini dans la liste des filtres personnalisés ou parmi les favoris."
 
 Les campagnes orchestrées s’accompagnent d’un créateur de règles qui simplifie le processus de filtrage de la base de données en fonction de divers critères. Le créateur de règles gère efficacement des requêtes très complexes et longues, offrant une flexibilité et une précision optimisées.
 

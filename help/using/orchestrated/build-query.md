@@ -5,15 +5,25 @@ title: Créer votre première règle
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
-source-wordcount: '1717'
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+workflow-type: tm+mt
+source-wordcount: '1878'
 ht-degree: 100%
 
 ---
 
 
 # Créer votre première règle {#build-query}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_selectaudience"
+>title="Sélectionner une audience"
+>abstract="En utilisant l’option **Sélectionner une audience**, vous pouvez choisir l’audience que vous souhaitez utiliser pour filtrer votre requête."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="Filtre prédéfini"
+>abstract="En utilisant l’option **Filtre prédéfini**, vous pouvez sélectionner un filtre prédéfini dans la liste des filtres personnalisés ou parmi les favoris."
 
 Les principales étapes pour créer des règles pour vos campagnes orchestrées sont les suivantes :
 
@@ -22,6 +32,11 @@ Les principales étapes pour créer des règles pour vos campagnes orchestrées 
 1. **Vérifier et valider la règle** - Vérifiez les données résultant de votre règle avant de les enregistrer.
 
 ## Ajouter une condition {#conditions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_customcondition"
+>title="Condition personnalisée"
+>abstract="Les conditions personnalisées sont des composants de filtrage qui vous permettent de filtrer votre requête en créant votre propre condition avec des attributs de la base de données et des expressions avancées."
 
 Pour ajouter des conditions à votre requête, procédez comme suit :
 
@@ -39,7 +54,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le bouton **Modifier une expression** permet d’utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](../orchestrated/edit-expressions.md)
+   >Le bouton **Modifier une expression** permet d’utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrir comment modifier des expressions](../orchestrated/edit-expressions.md)
 
 1. Cliquez sur le bouton ![image showing the More actions button](assets/do-not-localize/rule-builder-icon-more.svg) en regard d’un attribut pour accéder à ces options supplémentaires :
 
@@ -81,7 +96,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
    | Inférieur à | Obtenir un résultat inférieur à la valeur indiquée. | Date de création (@created) plus tôt que « DaysAgo(100) » renvoie toutes les personnes destinataires créées il y a moins de 100 jours. |
    | Supérieur ou égal à | Obtenir un résultat rigoureusement égal ou supérieur à la valeur renseignée. | Age (@age) supérieur ou égal à « 30 » renvoie toutes les personnes destinataires dont l’âge est de 30 ans ou plus. |
    | Inférieur ou égal à | Obtenir un résultat rigoureusement égal ou inférieur à la valeur renseignée. | Âge (@age) inférieur ou égal à « 60 », afin de retrouver les personnes destinataires dont l’âge est de 60 ans et moins. |
-   | Compris dans | Obtenir les résultats compris dans les valeurs indiquées. Ces valeurs doivent être séparées par une virgule. | Date de naissance (@birthDate) est compris dans « 12/10/1979,12/10/1984 ». Les personnes destinataires nées entre ces dates sont alors renvoyées. |
+   | Compris dans | Renvoie les résultats compris dans les valeurs indiquées. Ces valeurs doivent être séparées par une virgule. | Date de naissance (@birthDate) est compris dans « 12/10/1979,12/10/1984 ». Les personnes destinataires nées entre ces dates sont alors renvoyées. |
    | Pas dans | Le principe est le même qu’avec l’opérateur Est compris dans. Ici, les personnes destinataires sont exclues en fonction des valeurs saisies. | La date de naissance (@birthDate) n’est pas incluse dans 12/10/1979,12/10/1984. Les personnes destinataires nées entre ces dates ne seront pas renvoyées. |
    | Est vide | Renvoie les résultats correspondant à une valeur vide dans la seconde colonne Valeur. | Mobile (@mobilePhone) est vide afin de retrouver toutes les personnes destinataires ne disposant pas d’un numéro de téléphone mobile. |
    | N’est pas vide | Le principe est contraire à l’opérateur Est vide. Il n’est pas nécessaire de saisir de données dans la seconde colonne Valeur. | E-mail (@email) n’est pas vide. |
@@ -94,7 +109,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    +++
 
-1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur l’icône ![image affichant l’icône de l’éditeur d’expressions](assets/do-not-localize/rule-builder-icon-editor.svg). [Découvrez comment modifier des expressions](../orchestrated/edit-expressions.md)
+1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur l’icône ![image affichant l’icône de l’éditeur d’expressions](assets/do-not-localize/rule-builder-icon-editor.svg). [Découvrir comment modifier des expressions](../orchestrated/edit-expressions.md)
 
    Pour les attributs de type date, des valeurs prédéfinies sont disponibles à l’aide de l’option **[!UICONTROL Préréglages]**.
 
@@ -156,9 +171,14 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 
 1. Dans le volet des propriétés, activez l’option **Données agrégées** et sélectionnez la fonction d’agrégat souhaitée.
 
-   ![Capture d&#39;écran de l’option Données agrégées](assets/rule-builder-aggregate.png)
+   ![Capture d’écran de l’option Données agrégées](assets/rule-builder-aggregate.png)
 
 ## Combiner des conditions à l’aide d’opérateurs {#operators}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_group"
+>title="Groupe"
+>abstract="Dans ce volet, vous pouvez modifier l’opérateur utilisé pour associer les conditions de filtrage."
 
 À chaque fois que vous ajoutez une nouvelle condition à votre règle, elle est automatiquement liée à la condition existante par un opérateur **AND**. Cela signifie que les résultats des deux conditions sont combinés.
 
@@ -199,6 +219,11 @@ Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour cib
 ![](assets/rule-builder-groups.png)
 
 ## Vérifier et valider votre requête
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_ruleproperties"
+>title="Propriétés de la règle"
+>abstract="Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit.<br/>Ce volet permet d’afficher les données obtenues, de récupérer une version de code SQL de la requête et de vérifier le nombre d’enregistrements ciblés.<br/>Utilisez le bouton **Sélectionner ou enregistrer un filtre** pour enregistrer votre requête en tant que filtre prédéfini ou remplacer le contenu de la zone de travail par un filtre existant."
 
 Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés de la règle**. Les opérations disponibles sont les suivantes :
 
