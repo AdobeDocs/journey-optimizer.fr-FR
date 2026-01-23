@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
+source-git-commit: 7c505152995cc54bea4fb3cbb8ca7eecd68df737
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2388'
 ht-degree: 22%
 
 ---
@@ -293,9 +293,6 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Webhooks des SGS : Phase II** - Description à fournir.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13978">Lien vers la tâche DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-93914">Lien vers la tâche PRODUCT JIRA</a>
-
-* **Offre de revente WhatsApp** - Description à fournir.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13669">Lien vers la tâche DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-86420">Lien vers la tâche PRODUCT JIRA</a>
 
 #### Concepteur d’e-mail
 
