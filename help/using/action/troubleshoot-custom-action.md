@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,11 @@ En tant qu’administrateur ou administratrice, utilisez la fonctionnalité **[!
 ![](assets/send-test-request.png){width="70%" align="left"}
 
 L’utilisation de cette fonctionnalité simplifie le processus de test et de validation, en veillant au bon déroulement des actions personnalisées dans les parcours actifs.
+
+>[!NOTE]
+>
+>Si le proxy IP (sortie) est activé pour votre organisation, l’appel **[!UICONTROL Envoyer la requête de test]** le contourne. Pour confirmer le routage du proxy, exécutez un test ou un parcours en direct. En savoir plus sur le proxy IP (sortie) et son activation dans [Intégration à des systèmes externes](../configuration/external-systems.md#faq).
+
 
 ## Conditions préalables {#troubleshoot-custom-action-prereq}
 
