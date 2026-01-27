@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0ed4d941863730e6bc8dbea771cba94b305dd5b
+source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1704'
 ht-degree: 18%
 
 ---
@@ -184,7 +184,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>L’agent de création de parcours permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une <strong> interface en langage naturel </strong>. Les spécialistes peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles, ce qui simplifie la création de parcours et permet aux spécialistes marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.</p>
+<p>Journey Agent offre désormais des fonctionnalités de création qui permettent aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing par le biais d’une <strong> interface en langage naturel </strong>. Les praticiens peuvent rapidement créer des parcours en décrivant leurs exigences dans des invites conversationnelles. Cela simplifie le processus de création de parcours, ce qui permet aux spécialistes marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.</p>
 </td>
 </tr>
 </tbody>
