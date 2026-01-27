@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 91%
+source-wordcount: '844'
+ht-degree: 73%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Créez l’action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
 
-1. Cliquez dans le champ **Réponse**.
+1. Cliquez dans le champ **Réponse** (réponse de succès).
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload.
 
+1. (Facultatif) Activez une payload de réponse d’erreur pour capturer le format renvoyé lorsque l’appel échoue, puis collez un exemple de payload. Pour ce faire, sélectionnez **Définir un payload de réponse d’échec** dans la configuration d’une action personnalisée. Pour en savoir plus sur la configuration des champs de payload, consultez [Configuration d’une action personnalisée](../action/about-custom-action-configuration.md).
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   La payload de réponse d’erreur n’est disponible que si vous l’activez dans la configuration de l’action personnalisée.
+
 1. Ajoutons également l’ID de client comme paramètre de requête.
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## Utiliser la réponse dans un parcours {#response-in-journey}
 
 Il vous suffit d’ajouter l’action personnalisée à un parcours. Vous pouvez ensuite exploiter les champs de payload de réponse dans des conditions, dans d’autres actions et dans la personnalisation des messages.
+
+Si vous avez défini une payload de réponse d’erreur, elle est exposée sous **Attributs contextuels** > **Journey Orchestration** > **Actions** > `<action name>` > **errorResponse**. Vous pouvez l’utiliser dans la branche Temporisation et erreur pour piloter la logique de secours et la gestion des erreurs.
 
 Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de points de fidélité. Lorsque la personne entre dans le restaurant, votre point d’entrée local envoie un appel avec les informations de fidélité du profil. Vous pouvez envoyer une notification push si le profil est un client Gold. Et si une erreur est détectée dans l’appel, envoyez une action personnalisée pour en informer l’administrateur ou l’administratrice système.
 
@@ -150,6 +162,12 @@ Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de point
    @action{ActionLoyalty.jo_status_code} == "http_400"
    ```
 
+   Si une payload de réponse d’erreur a été définie, vous pouvez également cibler ses champs, par exemple :
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
+   ```
+
    ![](assets/action-response7.png)
 
 1. Ajoutez une action personnalisée qui sera envoyée à votre organisation.
@@ -158,7 +176,7 @@ Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de point
 
 ## Journaux du mode test {#test-mode-logs}
 
-Vous pouvez accéder, via le mode test, aux journaux de statut liés aux réponses d’action personnalisée. Si vous avez défini des actions personnalisées avec des réponses dans votre parcours, une section **actionsHistory** sur ces journaux affiche la payload renvoyée par le point d’entrée externe (en réponse à cette action personnalisée). Cela peut être très utile en termes de débogage.
+Vous pouvez accéder, via le mode test, aux journaux de statut liés aux réponses d’action personnalisée. Si vous avez défini des actions personnalisées avec des réponses dans votre parcours, une section **actionsHistory** sur ces journaux affiche la payload renvoyée par le point d’entrée externe (en réponse à cette action personnalisée). Lorsqu’une payload de réponse d’erreur est définie, elle est incluse pour les appels ayant échoué. Cela peut être très utile en termes de débogage.
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ Voici les valeurs possibles pour ce champ :
 * erreur interne : **erreurInterne**
 
 Un appel d’action est considéré comme une erreur lorsque le code http renvoyé est supérieur à 2xx ou en cas d’erreur. Dans ce cas, le parcours est dirigé vers la branche Délai d’expiration ou erreur dédiée.
+
+Si une payload de réponse d’erreur a été configurée pour l’action personnalisée, ses champs sont exposés sous le nœud **errorResponse** pour les appels ayant échoué. Si aucune payload de réponse d’erreur n’est configurée, ce nœud n’est pas disponible.
 
 >[!WARNING]
 >

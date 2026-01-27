@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
-workflow-type: ht
-source-wordcount: '1974'
-ht-degree: 100%
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+workflow-type: tm+mt
+source-wordcount: '2032'
+ht-degree: 96%
 
 ---
 
@@ -44,12 +44,12 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
 1. Ajoutez une description à l&#39;action. Cette étape est facultative.
 1. Le nombre de parcours qui font appel à cette action s’affiche dans le champ **[!UICONTROL Utilisé dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour afficher la liste des parcours utilisant cette action.
-1. Définissez les différents paramètres de **[!UICONTROL Configuration d&#39;URL]**. Voir [cette page](../action/about-custom-action-configuration.md#url-configuration).
+1. Définissez les différents paramètres de **[!UICONTROL Configuration d&#39;URL]**. Consultez [cette page](../action/about-custom-action-configuration.md#url-configuration).
 1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Consultez [cette section](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Définissez les **[!UICONTROL paramètres d&#39;action]**. Voir [cette page](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Définissez les **[!UICONTROL paramètres d&#39;action]**. Consultez [cette page](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   L&#39;action personnalisée est maintenant configurée et prête à être utilisée dans vos parcours. Voir [cette page](../building-journeys/about-journey-activities.md#action-activities).
+   L&#39;action personnalisée est maintenant configurée et prête à être utilisée dans vos parcours. Consultez [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
    >[!NOTE]
    >
@@ -74,14 +74,14 @@ Les actions personnalisées prennent en charge le format JSON uniquement lors d
 
 Lorsque vous choisissez un point d’entrée à cibler à l’aide d’une action personnalisée, assurez-vous de ce qui suit :
 
-* Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point d’entrée ciblé devra prendre en charge au moins 200 TPS. En savoir plus sur les taux de traitement de parcours dans [cette section](../building-journeys/entry-management.md#journey-processing-rate).
-* Ce point d’entrée doit avoir un temps de réponse aussi bas que possible. Selon le débit attendu, un temps de réponse élevé peut avoir un impact sur le débit réel.
+* Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point d’entrée ciblé devra prendre en charge au moins 200 TPS. Pour en savoir plus sur les autorisations de parcours, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
+* Ce point d’entrée doit avoir un temps de réponse aussi bas que possible. En fonction de votre débit prévu, un temps de réponse élevé peut avoir un impact sur le débit réel.
 
 Un plafond de 300 000 appels sur une minute est défini pour toutes les actions personnalisées. En outre, la limitation par défaut est effectuée par hôte et par sandbox. Par exemple, sur un sandbox, s’il existe deux points d’entrée avec le même hôte (par exemple, `https://www.adobe.com/endpoint1` et `https://www.adobe.com/endpoint2`), la limitation s’applique à tous les points d’entrée sous l’hôte adobe.com. Le point d’entrée 1 et le point d’entrée 2 partagent la même configuration de limitation. En outre, le fait qu’un point d’entrée atteigne la limite a un impact sur l’autre point d’entrée.
 
 >[!NOTE]
 >
->La limite de 300 000 appels par minute est appliquée sous forme de **fenêtre glissante** par sandbox et par point d’entrée pour les points d’entrée dont les temps de réponse sont inférieurs à 0,75 seconde. La fenêtre glissante peut commencer à n’importe quelle milliseconde, ce qui signifie que des erreurs de limitation peuvent se produire même si le taux semble inférieur à 300 000/min lorsqu’il est aligné sur les minutes d’horloge. Pour les points d’entrée dont le temps de réponse est supérieur à 0,75 seconde, une limite distincte de 150 000 appels par 30 secondes (également une fenêtre glissante) s’applique. Pour en savoir plus sur les points d’entrée lents, consultez [cette page](../configuration/external-systems.md#response-time).
+>La limite de 300 000 appels par minute est appliquée sous forme de **fenêtre glissante** par sandbox et par point d’entrée pour les points d’entrée dont les temps de réponse sont inférieurs à 0,75 seconde. La fenêtre glissante peut commencer à n’importe quelle milliseconde, ce qui signifie que des erreurs de limitation peuvent se produire même si le taux semble inférieur à 300 000/min lorsqu’il est aligné sur les minutes d’horloge. Pour les points d’entrée dont le temps de réponse est supérieur à 0,75 seconde, une limite distincte de 150 000 appels par 30 secondes (également une fenêtre glissante) s’applique. Pour en savoir plus sur les points d’entrée lents, consultez [cette page](../configuration/external-systems.md#response-time).
 
 La limite par défaut de 300 000 appels par minute s’applique au niveau du domaine (c’est-à-dire exemple.com). Si vous avez besoin d’une limite supérieure, contactez l’assistance Adobe en fournissant des preuves d’utilisation, et confirmez le débit de votre point d’entrée. Pour demander une augmentation de la limite, fournissez des détails sur le volume d’appels prévu et la capacité du point d’entrée. Adobe peut personnaliser la limitation si le test de capacité montre que le point d’entrée peut gérer un débit plus élevé. Pour connaître les bonnes pratiques, envisagez de restructurer les parcours ou de mettre en œuvre des activités d’attente pour échelonner les appels sortants et éviter les erreurs de limitation.
 
@@ -149,7 +149,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
 
    >[!NOTE]
    >
-   >Après avoir ajouté l’action personnalisée à un parcours, vous pouvez toujours y ajouter des champs d’en-tête si le parcours a le statut de brouillon. Si vous ne souhaitez pas que le parcours soit affecté par les modifications de configuration, dupliquez l’action personnalisée et ajoutez les champs d’en-tête à la nouvelle action personnalisée.
+   >Après avoir ajouté l’action personnalisée à un parcours, vous pouvez toujours y ajouter des champs d’en-tête ou des paramètres de requête si le parcours a le statut de brouillon. Si vous ne souhaitez pas que le parcours soit affecté par les modifications de configuration, dupliquez l’action personnalisée et ajoutez les champs d’en-tête à la nouvelle action personnalisée.
    >
    >Les en-têtes sont validés conformément à des règles d’analyse. Pour plus d’informations, consultez [cette documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
@@ -175,7 +175,13 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. Dans la section **[!UICONTROL Réponse]**, collez un exemple de payload renvoyée par l’appel. Ce champ est facultatif et disponible pour toutes les méthodes d’appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à [cette page](../action/action-response.md).
+1. Dans la section **[!UICONTROL Réponse]**, collez un exemple de payload renvoyé lorsque l’appel réussit. Ce champ est facultatif et disponible pour toutes les méthodes d’appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à [cette page](../action/action-response.md).
+
+   ![](assets/response-values.png){width="70%" align="left"}
+
+1. (Facultatif) Sélectionnez **[!UICONTROL Définir un payload de réponse d’erreur]** pour activer le champ Payload de réponse d’erreur. Lorsque cette option est activée, utilisez la section **[!UICONTROL Réponse d’erreur]** pour coller un exemple de la payload renvoyée en cas d’échec de l’appel. Les mêmes exigences s’appliquent que pour le payload de réponse (types et format de champ). Découvrez comment exploiter la payload de réponse d&#39;échec dans les parcours [ici](../action/action-response.md).
+
+   ![](assets/response-values.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -184,7 +190,7 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
 ![](assets/customactionpayloadmessage2.png)
 
-Dans la configuration des champs, vous devez procédez comme suit :
+Dans cette configuration de champ, vous devez :
 
 * Sélectionnez le type de paramètre, par exemple : chaîne, entier, etc.
 
