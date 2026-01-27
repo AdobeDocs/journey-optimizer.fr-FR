@@ -5,10 +5,10 @@ title: Créer votre première règle
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 100%
+source-wordcount: '1895'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
 1. Cliquez sur le bouton **Ajouter une condition** pour créer une première condition pour votre requête.
 
-   Vous pouvez également lancer votre requête à l’aide d’un filtre prédéfini. Pour ce faire, cliquez sur le bouton **[!UICONTROL Sélectionner ou enregistrer le filtre]** et choisissez **[!UICONTROL Sélectionner un filtre prédéfini]**.
+   Vous pouvez également lancer votre requête à l’aide d’un filtre prédéfini. Pour ce faire, cliquez sur le bouton **[!UICONTROL Sélectionner ou enregistrer le filtre]** et choisissez **[!UICONTROL Sélectionner un filtre prédéfini]**. Pour plus d’informations, voir [Utilisation de filtres prédéfinis](predefined-filters.md).
 
    ![image affichant le créateur de règles](assets/rule-builder-add.png)
 
@@ -50,9 +50,13 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    +++ Répartition des valeurs
 
-   Analysez la répartition des valeurs pour un attribut donné dans le tableau. Cette fonctionnalité est particulièrement utile pour comprendre les valeurs disponibles, leur nombre et leur pourcentage. Cela permet également d’éviter des problèmes, par exemple en matière de majuscules ou d’orthographe, lors de la création de requêtes ou d’expressions.
+   La répartition des valeurs permet d’identifier la manière dont les valeurs sont utilisées dans la base de données. Il est utile pour comprendre les valeurs disponibles, leur nombre et leurs pourcentages. Cela permet également d’éviter des problèmes, par exemple en matière de majuscules ou d’orthographe, lors de la création de requêtes ou d’expressions.
 
    Pour les attributs comportant un grand nombre de valeurs, l’outil affiche uniquement les vingt premières valeurs. Une notification **[!UICONTROL Chargement partiel]** s’affiche pour vous informer de cette limite. Vous pouvez appliquer des filtres avancés pour affiner les résultats affichés et mettre l’accent sur des valeurs ou des sous-ensembles de données spécifiques.
+
+   Pour créer votre condition plus rapidement, sélectionnez une valeur et cliquez sur **[!UICONTROL Sélectionner l’attribut et la valeur]** pour renseigner l’attribut et la valeur dans la condition actuelle.
+
+   Vous pouvez également copier une valeur dans le presse-papiers à l’aide de l’icône ![image illustrant l’icône de l’éditeur d’expression](assets/do-not-localize/activity-copy.svg), par exemple pour la coller dans l’éditeur d’expression.
 
    ![image affichant l’interface de Distribution des valeurs](assets/rule-builder-distribution-values.png)
 
@@ -215,7 +219,7 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
 * **Afficher les résultats** : affiche les données issues de votre requête.
 * **Affichage du code** : affiche une version basée sur le code de la requête en SQL.
 * **Calculer** : met à jour et affiche le nombre d’enregistrements ciblés par votre règle.
-* **Sélectionner ou enregistrer un filtre** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure.
+* **Sélectionner ou enregistrer un filtre** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. Si le filtre comprend des paramètres, indiquez des valeurs avant de l’appliquer. Pour plus d’informations, voir [ Utilisation de filtres prédéfinis](predefined-filters.md).
 
 <br/>
 
@@ -224,4 +228,3 @@ Lorsque votre règle est prête, cliquez sur le bouton **[!UICONTROL Confirmer]*
 >[!IMPORTANT]
 >
 >Sélectionner un filtre prédéfini dans le volet propriétés de la règle remplace la règle qui a été créée dans la zone de travail par le filtre sélectionné.
-

@@ -5,10 +5,10 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
-source-wordcount: '1799'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
@@ -201,7 +201,7 @@ Le composant de canal et l’exécution sont communs à toutes les campagnes Jou
 
 Non, les canaux entrants tels que web et in-app ne sont pas pris en charge dans les campagnes orchestrées. Seuls les canaux sortants (e-mail, SMS et notifications push) sont pris en charge.
 
-**En savoir plus**.
+**En savoir plus**
 
 * [Mécanismes de sécurisation et limitations](guardrails.md)
 * [Ajouter une activité de canal dans une campagne orchestrée](activities/channels.md)
@@ -337,7 +337,7 @@ Répondre « Oui » suggère la meilleure banque de données. Cependant, confi
 
 Le nombre d’activités dans une campagne orchestrée est limité à 500.
 
-**En savoir plus**.
+**En savoir plus**
 
 * [Mécanismes de sécurisation et limitations](guardrails.md)
 * [Utiliser les activités de campagnes](activities/about-activities.md)
@@ -357,7 +357,7 @@ Oui, il est possible d’enrichir les données à partir du stockage relationnel
 
 +++ Tous les filtres doivent-ils être définis via des audiences ou est-il possible de configurer un autre type de filtre ?
 
-Les campagnes orchestrées prennent en charge les filtres prédéfinis : il est possible de définir et d’enregistrer une requête comme filtre, puis de l’ajouter aux favoris pour la réutiliser dans d’autres tâches de segmentation.
+Les campagnes orchestrées prennent en charge les filtres prédéfinis : vous pouvez définir et enregistrer une requête en tant que filtre, l’ajouter à vos favoris et la réutiliser dans d’autres tâches de segmentation. Les filtres prédéfinis peuvent inclure des paramètres afin que vous puissiez saisir des valeurs au moment de l’utilisation. [Découvrir comment utiliser des filtres prédéfinis](predefined-filters.md)
 
 **En savoir plus**
 

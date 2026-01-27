@@ -5,10 +5,10 @@ title: Utiliser l’activité Enregistrer l’audience
 description: Découvrez comment utiliser l’activité Enregistrer l’audience dans une campagne orchestrée
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 93%
 
 ---
 
@@ -59,6 +59,9 @@ Le contenu de l’audience enregistrée est ensuite disponible dans la vue déta
 
 ![](../assets/save-audience-4.png)
 
+>[!NOTE]
+>
+>Si la définition de votre audience utilise des attributs de schéma Experience Platform libellés avec data usage (DULE), ces libellés sont automatiquement hérités par l’audience enregistrée. Vous n’avez pas besoin de les réappliquer. [En savoir plus sur la gouvernance des données](../../action/action-privacy.md)
 
 ## Exemple {#save-audience-example}
 

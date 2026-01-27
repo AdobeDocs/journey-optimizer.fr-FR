@@ -7,10 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '945'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '946'
+ht-degree: 95%
 
 ---
 
@@ -83,9 +83,11 @@ Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur 
 
 Si votre politique de décision contient des éléments de décision, y compris des fragments, vous pouvez utiliser ces fragments dans le code de la politique de décision. [En savoir plus sur les fragments](../content-management/fragments.md)
 
->[!AVAILABILITY]
+>[!CAUTION]
 >
->Actuellement, cette fonctionnalité n’est disponible que pour le canal d’expérience basée sur du code et pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Actuellement, cette fonctionnalité n’est disponible que pour le canal d’expérience basé sur le code.
+>
+>Actuellement, seuls les [fragments d’expression](../personalization/use-expression-fragments.md) peuvent être utilisés. Les fragments imbriqués (fragments référençant d’autres fragments) ne sont pas pris en charge.
 
 Supposons, par exemple, que vous souhaitiez afficher différents contenus pour plusieurs modèles d’appareils mobiles. Assurez-vous d’avoir ajouté les fragments correspondant à ces appareils à l’élément de décision que vous utilisez dans la politique de décision. [Découvrez comment procéder](items.md#attributes).
 
@@ -134,7 +136,7 @@ L’ID de fragment et la clé de référence sont sélectionnés dans la section
 
 **Attributs d’élément de décision et de contexte**
 
-Les attributs d’élément de décision et les attributs contextuels ne sont pas pris en charge par défaut dans les fragments [!DNL Journey Optimizer]. Cependant, vous pouvez utiliser des variables globales à la place, comme décrit ci-dessous.
+Les attributs d’élément de décision et les attributs contextuels ne sont pas pris en charge par défaut dans les fragments de [!DNL Journey Optimizer]. Cependant, vous pouvez utiliser des variables globales à la place, comme décrit ci-dessous.
 
 Supposons que vous souhaitiez utiliser la variable *sport* dans votre fragment.
 

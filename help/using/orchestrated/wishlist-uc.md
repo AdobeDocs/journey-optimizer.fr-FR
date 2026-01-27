@@ -5,10 +5,10 @@ title: Envoyer des mises à jour d’éléments de liste de souhaits
 description: Envoyer des mises à jour d’éléments de liste de souhaits
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Bien que cet exemple utilise un schéma **Wishlist**, la même méthode s’appl
 * **Produit** : avec champs : `description`, `priceref`, `imageurl`
 * **AbandonedCarts** (facultatif) : avec le champ : `lastmodified`
 
-➡️ [Découvrez comment configurer des schémas basés sur des modèles](gs-schemas.md)
+➡️ [Découvrez comment configurer des schémas relationnels](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

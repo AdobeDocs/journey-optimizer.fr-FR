@@ -5,10 +5,10 @@ title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 82%
+source-wordcount: '1431'
+ht-degree: 68%
 
 ---
 
@@ -50,7 +50,7 @@ UNUSED IDs in BJ
 >title="Activité Courrier"
 >abstract="L’activité Courrier facilite l’envoi de courrier depuis votre campagne orchestrée pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
-[!DNL Adobe Journey Optimizer] vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux (e-mail, SMS et notifications push). Vous pouvez combiner ces activités de canal dans la zone de travail de campagne afin de créer des campagnes orchestrées cross-canal. Ces campagnes peuvent déclencher des actions en fonction du comportement et des données des clients.
+[!DNL Adobe Journey Optimizer] vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux : e-mail, SMS et notifications push. Vous pouvez combiner ces activités de canal dans la zone de travail de campagne afin de créer des campagnes orchestrées cross-canal. Ces campagnes peuvent déclencher des actions en fonction du comportement et des données des clients.
 
 Par exemple :
 
@@ -92,17 +92,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
 1. **Appliquer des règles de limitation**
 
-   Dans la liste déroulante **[!UICONTROL Jeu de règles]**, sélectionnez un jeu de règles de canal pour appliquer des règles de limitation à la campagne. L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients. [Découvrir comment utiliser les jeux de règles](../../conflict-prioritization/rule-sets.md)
-
-1. **Suivre l’engagement** (pour les e-mails et les SMS).
-
-   Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction des personnes destinataires à vos diffusions e-mail ou SMS. Les résultats du suivi sont accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../../reports/campaign-global-report-cja.md)
-
-1. **Activer le mode de diffusion rapide** (notifications push).
-
-   Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grandes quantités dans le cadre d’une campagne. La diffusion rapide est utilisée lorsque le retard de diffusion des messages est critique pour l&#39;entreprise. Par exemple, vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, telle que des nouvelles importantes aux utilisateurs qui ont installé votre application de canal d&#39;actualités. Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../../push/create-push.md#rapid-delivery).
-
-   Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+   Dans la liste déroulante **[!UICONTROL Jeu de règles]**, sélectionnez un jeu de règles de canal pour appliquer des règles de limitation à la campagne. L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients. [Découvrez comment utiliser des ensembles de règles](../../conflict-prioritization/rule-sets.md).
 
 1. **Créer une expérience de contenu**
 
@@ -114,9 +104,28 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    ![image illustrant la section Expérience de contenu](../assets/channel-experiment.png)
 
+Des paramètres supplémentaires sont disponibles en fonction du canal de communication sélectionné. Pour plus d’informations, développez les sections ci-dessous.
+
++++**Suivi de l’engagement** (e-mails et SMS).
+
+Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction des personnes destinataires à vos diffusions e-mail ou SMS. Les résultats du suivi sont accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../../reports/campaign-global-report-cja.md)
+
++++
+
++++**Activer le mode de diffusion rapide** (notifications push).
+
+Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grandes quantités dans le cadre de campagnes. La diffusion rapide est utilisée lorsque le retard de diffusion des messages est critique pour l&#39;entreprise. Par exemple, vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, telle que des nouvelles importantes aux utilisateurs qui ont installé votre application de canal d&#39;actualités. Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../../push/create-push.md#rapid-delivery).
+
+Pour plus d&#39;informations sur les performances en mode de diffusion rapide, consultez la description du produit [Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
++++
+
 Une fois votre activité de canal configurée, sélectionnez l’onglet **[!UICONTROL Contenu]** pour définir son contenu.
 
 ## Définir le contenu {#content}
+
+
+### Création du contenu du message
 
 Passez à l’onglet **[!UICONTROL Contenu]** pour créer votre message. Les étapes du processus varient en fonction du canal sélectionné. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes.
 
@@ -126,9 +135,9 @@ Passez à l’onglet **[!UICONTROL Contenu]** pour créer votre message. Les ét
 <td><a href="../../push/create-push.md"><img alt="notification push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Créer une notification push</strong></a></td>
 </tr></table>
 
-## Ajouter une personnalisation
+### Ajouter une personnalisation
 
-Le fonctionnement de Personalization dans les campagnes orchestrées est similaire à celui d’autres campagnes ou parcours **[!UICONTROL Journey Optimizer]**. Cependant, il existe quelques différences clés spécifiques à la zone de travail orchestrée.
+Le fonctionnement de Personalization dans les campagnes orchestrées est similaire à celui d’autres campagnes ou parcours [!DNL Journey Optimizer], avec quelques différences importantes spécifiques à la zone de travail orchestrée.
 
 Lorsque vous accédez à l’éditeur de personnalisation depuis une campagne orchestrée, deux dossiers principaux contiennent des attributs disponibles pour la personnalisation, décrits ci-dessous.
 
@@ -146,15 +155,50 @@ Lorsque vous accédez à l’éditeur de personnalisation depuis une campagne or
 
 Pour une présentation détaillée de l’utilisation de l’éditeur de personnalisation, reportez-vous à la section [Prise en main de la personnalisation](../../personalization/personalize.md).
 
-## Vérifier et tester le contenu
+### Vérifier et tester le contenu
 
 Une fois votre contenu créé, utilisez le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser et tester votre contenu avec des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [En savoir plus](../../content-management/preview-test.md)
 
 ![image montrant le bouton Simuler du contenu](../assets/channel-simulate.png)
 
+## Confirmer l’envoi du message
+
+Par défaut, pour les campagnes orchestrées non récurrentes, la diffusion des messages est suspendue jusqu&#39;à ce que vous approuviez explicitement l&#39;envoi. Après avoir publié la campagne, confirmez la demande d’envoi à partir du volet des propriétés de l’activité de canal.
+
+![image illustrant le bouton Confirmer](../assets/confirm-sending.png)
+
+La confirmation d’envoi peut être désactivée avant de publier la campagne orchestrée. Pour ce faire, sélectionnez l’activité de canal dans la zone de travail pour afficher ses propriétés, puis activez **[!UICONTROL Envoyer sans confirmation]**.
+
+![image illustrant le bouton Envoyer sans confirmation](../assets/send-without-confirmation.png)
+
+## Définir le contrôle du débit {#rate-control}
+
+[!DNL Journey Optimizer] vous permet d’activer le contrôle des taux pour les actions sortantes dans les campagnes orchestrées.
+
+Cette fonctionnalité est particulièrement utile pour éviter la surcharge sur les systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. Par exemple, vous pouvez définir une limite de débit de 165 messages par seconde pour garantir une diffusion régulière sans surcharger les systèmes en aval.
+
+Pour définir le contrôle du débit, procédez comme suit :
+
+1. Sélectionnez une activité de canal sortant dans la zone de travail et cliquez sur **[!UICONTROL Modifier l’e-mail]**, **[!UICONTROL Modifier le SMS]** ou **[!UICONTROL Modifier la notification push]** selon le canal choisi.
+
+   ![image montrant la zone de travail avec une activité E-mail](../assets/channel-edit.png)
+
+1. Accédez à l’onglet **[!UICONTROL Planifier]** et activez l’option **[!UICONTROL Ralentir la diffusion]** dans la section **[!UICONTROL Paramètres de diffusion]**.
+
+   ![Paramètres de contrôle de la vitesse avec l’option Ralentir la diffusion et taux de diffusion par seconde](../assets/rate-control.png)
+
+1. Spécifiez le **[!UICONTROL Taux de diffusion]** par seconde souhaité.
+
+   * Taux de diffusion minimum pris en charge : 1 par seconde.
+   * Taux de diffusion maximal pris en charge : 2 000 par seconde lorsque l’option « Limiter la diffusion » est activée.
+
+>[!IMPORTANT]
+>
+>Lors de la définition d’un taux de diffusion, la durée maximale d’exécution d’une audience de campagne est de 12 heures. Si le taux de diffusion est défini sur une valeur qui ne permet pas d’envoyer le message à toute l’audience dans le délai de 12 heures, les profils restants seront exclus de la campagne. Le nombre de ces profils exclus apparaît dans le rapport de campagne.
+
 ## Étapes suivantes {#next}
 
-Lorsque le contenu du message est prêt, revenez à votre campagne orchestrée à l’aide de la flèche **[!UICONTROL Retour]**. Vous pouvez ensuite terminer l’orchestration des activités dans la zone de travail et publier la campagne pour commencer l’envoi des messages. [Découvrez comment démarrer et surveiller des campagnes orchestrées](../start-monitor-campaigns.md)
+Lorsque le contenu du message est prêt, revenez à votre campagne orchestrée à l’aide de la flèche **[!UICONTROL Retour]**. Vous pouvez ensuite terminer l’orchestration des activités dans la zone de travail et publier la campagne pour commencer à envoyer des messages. [Découvrez comment démarrer et surveiller des campagnes orchestrées](../start-monitor-campaigns.md)
 
 ![image montrant le bouton Retour](../assets/channel-back.png)
 

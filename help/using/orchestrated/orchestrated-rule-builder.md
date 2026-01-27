@@ -5,10 +5,10 @@ title: Utiliser le créateur de règles
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ Les campagnes orchestrées s’accompagnent d’un créateur de règles qui simp
 
 En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qui vous permet d’affiner facilement vos requêtes tout en utilisant des expressions et des opérateurs avancés pour des stratégies complètes de segmentation et de ciblage d’audience.
 
-## Accéder au créateur de règles
+## Accéder au créateur de règles {#access}
 
 Le créateur de règles est disponible dans tout contexte où vous devez définir des règles pour filtrer les données.
 
@@ -40,3 +40,7 @@ Le créateur de règles fournit une zone de travail centrale où vous pouvez cr�
 * Le volet **[!UICONTROL Propriétés de la règle]** fournit des informations sur votre règle. Il vous permet d’effectuer diverses opérations pour vérifier la règle et vous assurer qu’elle correspond à vos besoins.
 
   Ce volet s’affiche lors de la création d’une requête pour créer une audience. [Découvrir comment vérifier et valider votre requête](build-query.md#check-and-validate-your-query)
+
+## Utiliser des filtres prédéfinis
+
+Les filtres prédéfinis vous permettent de réutiliser des requêtes enregistrées dans le créateur de règles, y compris des versions avec des paramètres. Pour une présentation complète de l’enregistrement, de l’application et de la gestion des filtres prédéfinis, voir [ Utilisation de filtres prédéfinis](predefined-filters.md).
