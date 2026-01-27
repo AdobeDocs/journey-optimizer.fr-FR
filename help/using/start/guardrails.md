@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
 workflow-type: tm+mt
-source-wordcount: '3676'
-ht-degree: 98%
+source-wordcount: '3908'
+ht-degree: 92%
 
 ---
 
@@ -184,6 +184,34 @@ Cette section présente les mécanismes de sécurisation et les limitations des 
 * La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil extraites d’Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et affectent la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
 * Outre la temporisation utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée. Cette temporisation globale arrête la progression des personnes dans le parcours 91 jours après leur entrée. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
 
+
+#### Validation de la taille de la payload du parcours {#journey-payload-size}
+
+Lorsque vous enregistrez ou publiez un parcours, Journey Optimizer valide la taille totale de la payload du parcours afin de préserver la stabilité et les performances.
+
+**Configuration par défaut**
+
+* **Taille maximale de requête par défaut** : 2 Mo (2 000 000 octets). Certaines organisations peuvent avoir des limites personnalisées configurées par Adobe.
+* **Seuil d’avertissement** : 90 % de la limite maximale.
+* **Seuil d’erreur** : 100 % de la limite maximale. L’enregistrement ou la publication est bloqué et la requête renvoie **entité de requête HTTP 413 trop grande**.
+
+**Scénarios d’expérience utilisateur**
+
+* **Payload &lt; 90 % de la limite** : le Parcours enregistre et publie avec succès. Aucun avertissement ou erreur ne s’affiche.
+* **Payload 90 à 99 % de la limite** : le Parcours enregistre et publie avec succès, avec un avertissement d’optimisation. Message d’avertissement : **Avertissement** : la taille de la payload du Parcours est proche de la limite. Nœud le plus grand : &#39;[NodeName]&#39; (type : &#39;[NodeType]&#39;, taille : [N] octets).
+* **Payload >= 100 % de la limite** : la sauvegarde ou la publication du Parcours est bloquée avec une erreur. Message d’erreur : **Erreur** : la taille de la payload du Parcours dépasse la limite. Nœud le plus grand : &#39;[NodeName]&#39; (type : &#39;[NodeType]&#39;, taille : [N] octets).
+
+**Détails de la réponse d’erreur**
+
+Si la requête dépasse la taille maximale autorisée, la réponse inclut **Entité de requête trop grande**. La payload du parcours dépasse la taille maximale autorisée. Passez en revue les détails de l’erreur et optimisez votre parcours.
+
+**Dépannage et recommandations**
+
+* Examinez le nœud le plus grand mis en surbrillance dans l’avertissement ou l’erreur.
+* Simplifiez les conditions, réduisez les mappages de données et supprimez les étapes ou paramètres inutiles.
+* Envisagez de diviser le parcours en parcours plus petits si nécessaire.
+* Si vous pensez que votre entreprise a besoin d’une limite supérieure, contactez votre représentant ou représentante Adobe.
+
 ### Restrictions du package Select pour les parcours unitaires {#select-package-limitations}
 
 >[!NOTE]
@@ -208,7 +236,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
