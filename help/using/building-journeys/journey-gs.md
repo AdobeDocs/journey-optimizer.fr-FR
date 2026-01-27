@@ -102,7 +102,7 @@ Vous pouvez également exécuter votre parcours en mode **test à blanc**. Le te
 
 ## Publiez le parcours. {#jo-pub}
 
-Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. Journey Optimizer valide également la taille de la payload au moment de l’enregistrement et de la publication pour préserver la stabilité et les performances. En savoir plus sur la publication des parcours dans cette [section](publish-journey.md) et consultez [Validation de la taille de la payload du parcours ](../start/guardrails.md#journey-payload-size).
+Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. Journey Optimizer valide également la taille de la payload au moment de l’enregistrement et de la publication pour préserver la stabilité et les performances. En savoir plus sur la publication des parcours dans cette [section](publish-journey.md) et consultez [Validation de la taille de la payload du parcours &#x200B;](../start/guardrails.md#journey-payload-size).
 
 ![Flux de parcours complet avec l’audience, les conditions et les actions](assets/jo-journeyuc2_32bis.png)
 

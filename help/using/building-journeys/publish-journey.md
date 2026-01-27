@@ -23,7 +23,7 @@ Vous devez publier un parcours pour l’activer et le rendre disponible pour que
 
 >[!NOTE]
 >
->Lorsque vous enregistrez ou publiez un parcours, Journey Optimizer valide la taille totale de la payload du parcours et peut avertir ou bloquer la publication si vous approchez ou dépassez cette limite. En savoir plus sur la validation de la taille de la payload du Parcours [](../start/guardrails.md#journey-payload-size).
+>Lorsque vous enregistrez ou publiez un parcours, Journey Optimizer valide la taille totale de la payload du parcours et peut avertir ou bloquer la publication si vous approchez ou dépassez cette limite. En savoir plus sur la validation de la taille de la payload du Parcours [&#128279;](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
