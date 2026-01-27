@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: ht
-source-wordcount: '3661'
-ht-degree: 100%
+source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+workflow-type: tm+mt
+source-wordcount: '3676'
+ht-degree: 98%
 
 ---
 
@@ -300,7 +300,8 @@ Pour en savoir plus sur les taux de traitement de parcours et les limites de dé
 Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
 
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
-* Les activités de campagne ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur du code, E-mail, Notification push, SMS, Messages in-app, Web.
+* Les activités **[!UICONTROL Campaign Standard]** ne peuvent pas être utilisées avec d’autres activités de canal : carte, expérience basée sur le code, e-mail, notification push, SMS, messages in-app, web.
+* Les activités **[!UICONTROL Campaign v7/v8]** peuvent être utilisées conjointement avec les activités de canal natives dans le même parcours.
 
 #### Activité in-app {#in-app-activity-limitations}
 
@@ -310,7 +311,7 @@ Les mécanismes de sécurisation suivants s’appliquent à l’action **[!UICON
 
 * La personnalisation ne peut contenir que des attributs de profil.
 
-* L’activité in-app ne peut pas être utilisée avec les activités Adobe Campaign.
+* L’activité in-app ne peut pas être utilisée avec les activités **[!UICONTROL Campaign Standard]**.
 
 * L’affichage in-app est lié à la durée de parcours, ce qui signifie que lorsque le parcours se termine pour un profil, tous les messages in-app de ce parcours ne s’affichent plus pour ce profil.  Par conséquent, il n’est pas possible d’arrêter un message in-app directement à partir d’une activité de parcours. Vous devez plutôt terminer le parcours entier pour que les messages in-app ne s’affichent pas sur le profil.
 
