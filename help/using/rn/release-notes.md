@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
+source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 18%
+source-wordcount: '1707'
+ht-degree: 19%
 
 ---
 
@@ -111,28 +111,6 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <td>
 <p>Vous pouvez désormais ajouter des <strong>politiques de décision</strong> dans les parcours et campagnes SMS. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin d’effectuer un rendu dynamique du meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
 <p>Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble d’organisations. Contactez votre représentant ou représentante Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Export de message</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Une nouvelle fonctionnalité <strong>Exportation des messages</strong> est désormais disponible pour les canaux e-mail et SMS. Cette fonctionnalité vous permet d'exporter automatiquement le contenu des messages envoyés vers un jeu de données Experience Platform dédié, ce qui vous permet d'effectuer les opérations suivantes :</p>
-<ul>
-<li>Respect des exigences réglementaires (telles que la loi HIPAA)</li>
-<li>Archiver les messages pour les réclamations juridiques et les demandes de renseignements de l'assistance clientèle</li>
-<li>Conserver des copies du contenu personnalisé envoyé aux individus</li>
-</ul>
-<p>Les enregistrements sont conservés dans le jeu de données d’exportation de messages AJO pendant 7 jours calendaires à compter de l’ingestion. Pendant cette période de conservation, vous pouvez exporter les données vers votre propre espace de stockage via les destinations Experience Platform. La fonctionnalité est activée au niveau de la configuration des canaux, ce qui vous permet de contrôler de manière granulaire les messages exportés.</p>
-<p>Cette fonctionnalité est disponible uniquement pour les canaux e-mail et SMS, pour les organisations qui ont acheté l’offre de module complémentaire Exportation de messages . Pour en savoir plus, contactez votre représentant Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -278,6 +256,29 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <td>
 <p>Vous pouvez désormais personnaliser et optimiser le contenu de vos messages push avec <strong>Decisioning</strong>. Utilisez des <strong>scores de priorité</strong>, des formules ou des modèles d’IA pour afficher le meilleur contenu à l’intention de vos clients.</p>
 <p>Date de disponibilité : mercredi 3 février 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Export de message</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Une nouvelle fonctionnalité <strong>Exportation des messages</strong> est désormais disponible pour les canaux e-mail et SMS. Cette fonctionnalité vous permet d'exporter automatiquement le contenu des messages envoyés vers un jeu de données Experience Platform dédié, ce qui vous permet d'effectuer les opérations suivantes :</p>
+<ul>
+<li>Respect des exigences réglementaires (telles que la loi HIPAA)</li>
+<li>Archiver les messages pour les réclamations juridiques et les demandes de renseignements de l'assistance clientèle</li>
+<li>Conserver des copies du contenu personnalisé envoyé aux individus</li>
+</ul>
+<p>Les enregistrements sont conservés dans le jeu de données d’exportation de messages AJO pendant 7 jours calendaires à compter de l’ingestion. Pendant cette période de conservation, vous pouvez exporter les données vers votre propre espace de stockage via les destinations Experience Platform. La fonctionnalité est activée au niveau de la configuration des canaux, ce qui vous permet de contrôler de manière granulaire les messages exportés.</p>
+<p>Cette fonctionnalité est disponible uniquement pour les canaux e-mail et SMS, pour les organisations qui ont acheté l’offre de module complémentaire Exportation de messages . Pour en savoir plus, contactez votre représentant Adobe.</p>
+<p>Date de disponibilité : jeudi 28 janvier 2026</p>
 </td>
 </tr>
 </tbody>
