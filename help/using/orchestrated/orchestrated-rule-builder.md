@@ -43,4 +43,4 @@ Le créateur de règles fournit une zone de travail centrale où vous pouvez cr�
 
 ## Utiliser des filtres prédéfinis
 
-Les filtres prédéfinis vous permettent de réutiliser des requêtes enregistrées dans le créateur de règles, y compris des versions avec des paramètres. Pour une présentation complète de l’enregistrement, de l’application et de la gestion des filtres prédéfinis, voir [ Utilisation de filtres prédéfinis](predefined-filters.md).
+Les filtres prédéfinis vous permettent de réutiliser des requêtes enregistrées dans le créateur de règles, y compris des versions avec des paramètres. Pour une présentation complète de l’enregistrement, de l’application et de la gestion des filtres prédéfinis, voir [&#x200B; Utilisation de filtres prédéfinis](predefined-filters.md).
