@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa66cc14a9d10df066f91403ed072cb95eebaa8f
+source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 14%
@@ -35,7 +35,7 @@ Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
@@ -128,7 +128,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### Campagnes orchestrées
 
-* **Sélectionner des attributs et copier les valeurs de distribution** - Vous pouvez désormais sélectionner ou copier des valeurs directement à partir de la vue de distribution des valeurs dans les campagnes orchestrées. [En savoir plus](../orchestrated/orchestrated-rule-builder.md)
+* **Sélectionner des attributs et copier les valeurs de distribution** - Vous pouvez désormais sélectionner ou copier des valeurs directement à partir de la vue de distribution des valeurs dans les campagnes orchestrées. [En savoir plus](../orchestrated/build-query.md)
 
 * **Héritage des libellés d’utilisation des données pour les audiences** - Les libellés appliqués dans Adobe Experience Platform sont désormais automatiquement transférés lors de l’enregistrement des audiences dans les campagnes orchestrées, ce qui réduit le balisage DULE manuel. [En savoir plus](../orchestrated/activities/save-audience.md)
 
