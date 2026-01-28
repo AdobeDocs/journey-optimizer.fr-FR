@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 48d7d6e9e92c6bcd35cf0b88e5383aa068cdefd0
+source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Decisioning offre des fonctionnalités et des avantages significatifs par rappor
 
 ### Fonctionnalités d’IA et de machine learning
 
-* **Mesures personnalisées** : possibilité d’utiliser des mesures d’optimisation personnalisées pour les modèles d’IA. Cela permet une interopérabilité des rapports avec [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normalise les rapports sur les deux plateformes et améliore la cohérence et la fiabilité des données. L’intégration transparente offre une vue plus claire des mesures de performances et ajoute de nouvelles fonctionnalités telles que la création de mesures simples, la publication d’audiences, la pose de questions ad hoc à l’aide d’Insight Builder et la planification de rapports.
+* **Mesures personnalisées** : possibilité d’utiliser des mesures d’optimisation personnalisées pour les modèles d’IA. Cela permet une interopérabilité des rapports avec [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normalise les rapports sur les deux plateformes et améliore la cohérence et la fiabilité des données. L’intégration transparente offre une vue plus claire des mesures de performances et ajoute de nouvelles fonctionnalités telles que la création de mesures simples, la publication d’audiences, la pose de questions ad hoc à l’aide d’Insight Builder et la planification de rapports.
 
 * **Mesure de l’effet élévateur** : capacité à visualiser le trafic d’exploration et d’exploitation dans les modèles d’IA. Cela permet aux spécialistes du marketing et aux spécialistes des données de quantifier la manière dont l’exploration de l’IA améliore les performances du modèle à long terme et la découvrabilité de nouvelles offres gagnantes. La transparence dans l’affectation du trafic renforce la confiance dans les décisions de l’IA et permet aux équipes d’optimiser l’apprentissage et les performances au fil du temps. [En savoir plus](ranking/auto-optimization-model.md#lift)
 
@@ -74,16 +74,16 @@ Tableau de bord documentant les performances des éléments de décision et des 
 
 | Exemple d’utilisation | Gestion des décisions | Prise de décision |
 |----------|---------------------|-------------|
-| **Stratégie multi-emplacement** | Une seule stratégie alimente la page d’accueil et l’application mobile | Logique de décision liée à un emplacement spécifique (emplacement web ou e-mail, par exemple) |
-| **Attributs d’offre cohérents** | Un marketeur définit « discountType » et « offerValue » une seule fois ; chaque offre hérite automatiquement de ces champs | Chaque offre gère manuellement ses propres attributs ; aucune cohérence au niveau du schéma |
-| **Classement IA dynamique** | Un spécialiste marketing peut ajuster la pondération (par exemple, 60 % de score de conversion de l’IA + 40 % de marge bénéficiaire) pour équilibrer les objectifs de chiffre d’affaires et d’engagement | Les classements reposent uniquement sur la sortie du modèle ou les règles statiques |
-| **Stratégies de test A/B** | Une équipe peut tester A/B si « AI + règles métier » surpasse le « classement par priorité » | Aucune prise en charge d’expérimentation intégrée |
-| **Mesures IA personnalisées** | Retailer entraîne un modèle de « probabilité d’achat » et surveille l’effet élévateur sur les produits nouveaux par rapport aux produits connus | Optimise uniquement en fonction de la propension aux clics ; aucune visibilité sur l’exploration ou l’effet élévateur des modèles |
-| **Réutilisation du contenu** | La mise à jour d’un en-tête ou de CTA se propage automatiquement à des centaines d’offres | Chaque offre stocke le contenu complet indépendamment |
-| **Création intégrée** | Un marketeur insère des offres personnalisées dans un email sans quitter l&#39;éditeur de messages | Les prises de décision et la messagerie sont intégrées dans des structures distinctes avec une intégration limitée |
-| **Respect de la confidentialité** | Un spécialiste marketing crée une règle d’offre en sachant que les préférences de consentement excluent automatiquement certains profils | Nécessite une coordination manuelle avec les équipes d’ingénierie et de données pour l’application |
-| **Inventaire en temps réel** | Utilisez un jeu de données d’inventaire de produits pour supprimer en temps réel les offres pour les articles en rupture de stock | Données statiques ; flexibilité limitée pour utiliser des jeux de données externes ou contextuels |
-| **Mise à l’échelle des performances** | Personnalisation en temps réel de millions de requêtes entrantes avec un temps de réponse inférieur à 100 ms | Décisions prises dans le hub avec une latence plus élevée |
+| **Stratégie multi-emplacement** | Logique de décision liée à un emplacement spécifique (emplacement web ou e-mail, par exemple) | Une seule stratégie alimente la page d’accueil et l’application mobile |
+| **Attributs d’offre cohérents** | Chaque offre gère manuellement ses propres attributs ; aucune cohérence au niveau du schéma | Un marketeur définit « discountType » et « offerValue » une seule fois ; chaque offre hérite automatiquement de ces champs |
+| **Classement IA dynamique** | Les classements reposent uniquement sur la sortie du modèle ou les règles statiques | Un spécialiste marketing peut ajuster la pondération (par exemple, 60 % de score de conversion de l’IA + 40 % de marge bénéficiaire) pour équilibrer les objectifs de chiffre d’affaires et d’engagement |
+| **Stratégies de test A/B** | Aucune prise en charge d’expérimentation intégrée | Une équipe peut tester A/B si « AI + règles métier » surpasse le « classement par priorité » |
+| **Mesures IA personnalisées** | Optimise uniquement en fonction de la propension aux clics ; aucune visibilité sur l’exploration ou l’effet élévateur des modèles | Retailer entraîne un modèle de « probabilité d’achat » et surveille l’effet élévateur sur les produits nouveaux par rapport aux produits connus |
+| **Réutilisation du contenu** | Chaque offre stocke le contenu complet indépendamment | La mise à jour d’un en-tête ou de CTA se propage automatiquement à des centaines d’offres |
+| **Création intégrée** | Les prises de décision et la messagerie sont intégrées dans des structures distinctes avec une intégration limitée | Un marketeur insère des offres personnalisées dans un email sans quitter l&#39;éditeur de messages |
+| **Respect de la confidentialité** | Nécessite une coordination manuelle avec les équipes d’ingénierie et de données pour l’application | Un spécialiste marketing crée une règle d’offre en sachant que les préférences de consentement excluent automatiquement certains profils |
+| **Inventaire en temps réel** | Données statiques ; flexibilité limitée pour utiliser des jeux de données externes ou contextuels | Utilisez un jeu de données d’inventaire de produits pour supprimer en temps réel les offres pour les articles en rupture de stock |
+| **Mise à l’échelle des performances** | Décisions prises dans le hub avec une latence plus élevée | Personnalisation en temps réel de millions de requêtes entrantes avec un temps de réponse inférieur à 100 ms |
 
 ## Outils de migration {#migration-tooling}
 
