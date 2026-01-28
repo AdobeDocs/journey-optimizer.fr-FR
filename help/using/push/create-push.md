@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
-workflow-type: ht
-source-wordcount: '801'
-ht-degree: 100%
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 >id="ajo_message_push"
 >title="Créer un message push"
 >abstract="Ajoutez votre message push et commencez à le personnaliser à l’aide de l’éditeur de personnalisation."
+
+Vous pouvez créer des notifications push pour les appareils mobiles (iOS et Android) et les navigateurs web. Cette page vous guide tout au long du processus de configuration d’une notification push dans un parcours ou une campagne.
 
 ## Créer la notification push dans un parcours ou une campagne {#create}
 
@@ -70,11 +72,11 @@ Pour créer une notification push, procédez comme suit :
 
 1. Dans la section **[!UICONTROL Actions]**, sélectionnez la **[!UICONTROL notification push]** et sélectionnez ou créez une configuration.
 
-   En savoir plus sur la configuration de notifications push sur [cette page](push-configuration.md).
+   En savoir plus sur la configuration des notifications push pour les appareils mobiles sur [cette page](push-configuration.md) et pour le web sur [cette page](push-configuration-web.md).
 
    ![](assets/push_create_3.png)
 
-1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md).
+1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md)
 
 1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/create-campaign.md#schedule).
 
@@ -109,11 +111,11 @@ Pour créer une notification push, procédez comme suit :
 
 Le mode de diffusion rapide est un module complémentaire de [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grande quantité dans le cadre d’une campagne.
 
-Il est utilisé lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux personnes qui ont installé votre application de canal d’actualités.
+La diffusion rapide est utilisée lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple une nouvelle de dernière minute aux personnes qui ont installé votre application d&#39;actualités.
 
 Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-### Prérequis {#prerequisites}
+### Conditions préalables {#prerequisites}
 
 La messagerie en diffusion rapide est fournie avec les conditions suivantes :
 
@@ -128,7 +130,7 @@ La messagerie en diffusion rapide est fournie avec les conditions suivantes :
 
    ![](assets/create-campaign-burst.png)
 
-1. Configurez le contenu du message et sélectionnez l’audience à cibler. [Découvrez comment créer une campagne](#create).
+1. Configurez le contenu du message et sélectionnez l’audience à cibler. [Découvrir comment créer une campagne](#create)
 
    >[!IMPORTANT]
    >

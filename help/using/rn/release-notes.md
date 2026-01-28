@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1807'
 ht-degree: 15%
 
 ---
@@ -35,7 +35,7 @@ Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
@@ -110,6 +110,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Canal de notifications push web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer prendra en charge les <strong>notifications push web</strong>, en étendant le canal push au-delà des applications mobiles. Vous pourrez envoyer des notifications aux navigateurs mobiles et de bureau, ce qui vous permettra d’atteindre directement les clients sur leurs appareils sans avoir besoin d’une application. Cette amélioration vous aidera à interagir avec les utilisateurs et utilisatrices grâce à des messages personnalisés et opportuns en temps réel, en exploitant les mêmes workflows de création et les mêmes fonctionnalités de ciblage que ceux déjà disponibles pour les notifications push mobiles.</p>
+<p>Pour plus d’informations, consultez la <a href="../push/push-configuration-web.md">documentation détaillée</a>.</p>
+<p>Publiée précédemment dans Beta, cette fonctionnalité sera disponible pour tous les environnements (disponibilité générale).</p>
+<p>Date de disponibilité : jeudi 28 janvier 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Améliorations {#jan-26-01-improv}
 
 #### Experience Decisioning
@@ -175,23 +193,6 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 </ul>
 <p>Les enregistrements sont conservés dans le jeu de données d’exportation de messages AJO pendant 7 jours calendaires à compter de l’ingestion. Pendant cette période de conservation, vous pouvez exporter les données vers votre propre espace de stockage via les destinations Experience Platform. La fonctionnalité est activée au niveau de la configuration des canaux, ce qui vous permet de contrôler de manière granulaire les messages exportés.</p>
 <p>Cette fonctionnalité est disponible uniquement pour les canaux e-mail et SMS, pour les organisations qui ont acheté l’offre de module complémentaire Exportation de messages . Pour en savoir plus, contactez votre représentant Adobe.</p>
-<p>Date de disponibilité : jeudi 28 janvier 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal de notifications push web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer prendra en charge les <strong>notifications push web</strong>, en étendant le canal push au-delà des applications mobiles. Vous pourrez envoyer des notifications aux navigateurs mobiles et de bureau, ce qui vous permettra d’atteindre directement les clients sur leurs appareils sans avoir besoin d’une application. Cette amélioration vous aidera à interagir avec les utilisateurs et utilisatrices grâce à des messages personnalisés et opportuns en temps réel, en exploitant les mêmes workflows de création et les mêmes fonctionnalités de ciblage que ceux déjà disponibles pour les notifications push mobiles.</p>
-<p>Publiée précédemment dans Beta, cette fonctionnalité sera disponible pour tous les environnements (disponibilité générale).</p>
 <p>Date de disponibilité : jeudi 28 janvier 2026</p>
 </td>
 </tr>

@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 31f0ff2497b5d3c1211c26e8bcd9a12d072f298d
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 90%
+source-wordcount: '1883'
+ht-degree: 72%
 
 ---
 
 # Concevoir une notification push {#design-push-notification}
+
+Une fois que vous avez créé une notification push, vous pouvez concevoir son contenu pour les plateformes iOS, Android et web. Cette page vous guide tout au long de la composition de votre message, de la configuration du comportement en cas de clic, de l’ajout de médias et de boutons et de la définition d’options avancées pour créer des notifications push attrayantes qui résonnent avec votre audience.
 
 ## Titre et corps {#push-title-body}
 
@@ -24,11 +26,13 @@ ht-degree: 90%
 >title="Personnalisez votre notification push."
 >abstract="Pour composer votre message, saisissez le contenu dans les champs **Titre** et **Corps**. Pour inclure des jetons de personnalisation, ouvrez la boîte de dialogue de personnalisation."
 
+![](assets/title-body.png)
+
 Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**. Utilisez l’éditeur de personnalisation pour définir du contenu, personnaliser des données et ajouter du contenu dynamique. En savoir plus sur la [personnalisation](../personalization/personalize.md) et le [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur de personnalisation.
 
-Utilisez la section de prévisualisation des appareils pour visualiser la façon dont s’affiche la notification push sur les appareils iOS et Android.
+Utilisez la section de prévisualisation des appareils pour visualiser la manière dont s’affiche la notification push sur iOS, Android et le Web.
 
-Accélérez la création de votre contenu avec l’assistant AI et générez du texte de notification push attrayant avec l’assistant [&#x200B; AI pour la génération de texte](../content-management/generative-text.md) ou créez des notifications push complètes avec l’assistant [&#x200B; AI pour la génération de contenu complète](../content-management/generative-full-content.md).
+Accélérez la création de votre contenu avec l’assistant AI et générez du texte de notification push attrayant avec l’assistant [ AI pour la génération de texte](../content-management/generative-text.md) ou créez des notifications push complètes avec l’assistant [ AI pour la génération de contenu complète](../content-management/generative-full-content.md).
 
 ## Comportement en cas de clic {#on-click-behavior}
 
@@ -37,13 +41,13 @@ Accélérez la création de votre contenu avec l’assistant AI et générez du 
 >title="À propos du comportement en cas de clic"
 >abstract="Sélectionnez le comportement lorsquʼun destinataire clique sur le contenu de la notification push."
 
-Sélectionnez le comportement lorsquʼun utilisateur clique sur le contenu de la notification push.
+Configurez l’action qui se produit lorsque les destinataires appuient sur le corps de votre notification push. Effectuez un choix parmi les options suivantes :
 
 ![](assets/title-body-push.png)
 
-* Pour ouvrir l’application, sélectionnez l’option **[!UICONTROL Ouvrir l’application]**. Lʼapplication associée à la notification est définie dans la [configuration de canal](../configuration/channel-surfaces.md) (c’est-à-dire le paramètre prédéfini du message).
-* Pour rediriger l’utilisateur vers un élément de contenu spécifique dans une application, sélectionnez l’option **[!UICONTROL Lien profond]** .  Le contenu spécifique peut être un affichage spécifique, une section spécifique d’une page ou un certain onglet. Une fois lʼoption sélectionnée, saisissez le lien profond dans le champ correspondant.
-* Pour rediriger l’utilisateur vers une URL externe, utilisez l’option **[!UICONTROL URL Web]**. Une fois lʼoption sélectionnée, saisissez lʼURL dans le champ correspondant.
+* **[!UICONTROL Ouvrir l’application]** : lance l’application associée à la notification. L’application est spécifiée dans votre [configuration du canal](../configuration/channel-surfaces.md) (c’est-à-dire le préréglage du message).
+* **[!UICONTROL Lien profond]** : dirige les utilisateurs vers un contenu spécifique dans votre application, tel qu’une vue, une section de page ou un onglet spécifique. Saisissez l’URL du lien profond dans le champ fourni.
+* **[!UICONTROL URL web]** : dirige les utilisateurs vers une page web externe. Saisissez l’URL de destination dans le champ fourni.
 
 ## Ajouter un média {#add-media-push}
 
@@ -52,26 +56,55 @@ Sélectionnez le comportement lorsquʼun utilisateur clique sur le contenu de la
 >title="Ajouter des médias à votre notification push"
 >abstract="Vous pouvez ajouter une image, une vidéo ou un GIF qui s’affichent dans votre notification."
 
-Dans la version iOS de votre notification push, vous pouvez ajouter une image, une vidéo ou un GIF qui s’affiche dans votre notification.
+Améliorez vos notifications push en ajoutant des médias visuels. Les types de médias disponibles et les méthodes d’implémentation varient selon le système d’exploitation, comme indiqué dans les onglets ci-dessous.
 
-Dans la version Android, vous pouvez uniquement ajouter une icône d&#39;image et une image pour les notifications étendues.
+>[!BEGINTABS]
+
+>[!TAB Android]
+
+Pour Android, vous pouvez uniquement ajouter une icône d’image et une image pour les notifications étendues.
 
 ![](assets/push-config-add-media.png)
 
-Deux options sont disponibles. Vous pouvez :
+Vous pouvez ajouter des médias à l’aide de l’une des méthodes suivantes :
 
-* Cliquez sur le bouton **[!UICONTROL Ajouter un média]** pour sélectionner une ressource dans **[!DNL Adobe Experience Manager Assets]**.
+* Bouton **[!UICONTROL Ajouter un média]** : sélectionnez une ressource dans [Adobe Experience Manager Assets](../integrations/assets.md) ou accédez à l’assistant AI pour générer des [images attrayantes](../content-management/generative-image.md) pour les notifications push.
 
-  Découvrez comment utiliser **[!DNL Adobe Experience Manager Assets]** sur [cette page](../integrations/assets.md).
-
-* Vous pouvez également saisir lʼURL du média en cliquant sur le champ **[!UICONTROL Ajouter un média]**. Dans ce cas, vous pouvez ajouter une personnalisation à l’URL.
+* **[!UICONTROL Ajouter un média]** champ : renseignez directement l&#39;URL du média. Vous pouvez inclure des jetons de personnalisation dans l’URL.
 
 Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
 
-Notez que lors de l’inclusion de pièces jointes de média dans la payload de notification push, telles que des images dans des champs de données personnalisés tels que `adb_media`, votre application mobile doit implémenter une gestion côté client spécifique pour que les images s’affichent sur les appareils :
+>[!NOTE]
+>
+>Lors de l’inclusion de pièces jointes multimédia dans la payload de notification push (telles que des images dans des champs de données personnalisés tels que `adb_media`), votre application mobile doit implémenter une gestion côté client spécifique pour que les images s’affichent sur les appareils. Votre application doit mettre en œuvre le [workflow d’affichage et de suivi automatique](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} pour gérer les pièces jointes d’image de la payload.
 
-* **iOS** : votre application doit mettre en œuvre une [extension du service de notification](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} pour télécharger et traiter le contenu multimédia à partir de la payload. En outre, l’option **[!UICONTROL Ajouter un indicateur de contenu modifiable]** doit être activée dans la section [Options avancées](#advanced-options-push).
-* **Android** : votre application doit implémenter le [workflow d’affichage et de suivi automatique](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} pour gérer les pièces jointes d’image de la payload.
+>[!TAB iOS]
+
+Pour iOS, vous pouvez ajouter une image, une vidéo ou un GIF à afficher dans votre notification.
+
+![](assets/push-config-add-media-ios.png)
+
+Vous pouvez ajouter des médias à l’aide de l’une des méthodes suivantes :
+
+* Bouton **[!UICONTROL Ajouter un média]** : sélectionnez une ressource dans la **[!DNL Adobe Experience Manager Assets]**. En savoir plus sur l’utilisation de **[!DNL Adobe Experience Manager Assets]** dans [cette page](../integrations/assets.md).
+
+* **[!UICONTROL Ajouter un média]** champ : renseignez directement l&#39;URL du média. Vous pouvez inclure des jetons de personnalisation dans l’URL.
+
+Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
+
+>[!NOTE]
+>
+>Lors de l’inclusion de pièces jointes multimédia dans la payload de notification push (telles que des images dans des champs de données personnalisés tels que `adb_media`), votre application mobile doit implémenter une gestion côté client spécifique pour que les images s’affichent sur les appareils. Votre application doit mettre en œuvre une [extension du service de notification](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} pour télécharger et traiter le contenu multimédia à partir de la payload. En outre, l’option **[!UICONTROL Ajouter un indicateur de contenu modifiable]** doit être activée dans la section [Options avancées](#advanced-options-push).
+
+>[!TAB Web]
+
+Saisissez l’URL du média dans le champ **[!UICONTROL Ajouter un média]**. Vous pouvez également inclure des jetons de personnalisation dans l’URL pour personnaliser le contenu en fonction de chaque personne.
+
+Cliquez sur ![Modifier le texte avec l’assistant IA](assets/do-not-localize/Smock_ImageAdd_18_N.svg) pour générer rapidement des médias à l’aide de l’assistant IA Journey Optimizer.
+
+![](assets/web-media.png)
+
+>[!ENDTABS]
 
 ## Ajouter des boutons {#add-buttons-push}
 
@@ -80,19 +113,39 @@ Notez que lors de l’inclusion de pièces jointes de média dans la payload de 
 >title="Ajoutez des boutons pour que les personnes puissent interagir avec votre notification push."
 >abstract="Dans cette section, ajoutez les boutons call-to-action à votre message. Pour Apple iOS, indiquez un identifiant de catégorie de notification. Pour Google Android, vous pouvez inclure du texte et des cibles personnalisés pour chaque bouton."
 
-Créez une notification exploitable en ajoutant des boutons à votre contenu push.
+Créez une notification exploitable en ajoutant des boutons à votre contenu push. Parcourez les onglets ci-dessous en fonction de votre système d’exploitation.
 
 Si l’écran de l’appareil est verrouillé, les boutons suivants ne s’affichent pas : seuls le **Titre** et le **Message** de la notification sont visibles. Si leur appareil est déverrouillé, les destinataires verront les boutons.
 
-Dans la version Android, vous pouvez ajouter jusquʼà trois boutons.
+>[!BEGINTABS]
 
-Dans la version iOS, un identifiant de catégorie de notification est spécifié. Les catégories de notifications doivent être préconfigurées dans l&#39;application iOS, qui définira les boutons à afficher et les actions à effectuer. Consultez la [documentation Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) pour en savoir plus.
+>[!TAB Android]
+
+Pour Android, vous pouvez ajouter jusqu’à trois boutons.
 
 1. Cliquez sur **[!UICONTROL Ajouter un bouton]** pour définir les paramètres : le libellé et lʼaction correspondante. Les actions possibles sont les mêmes que pour le [comportement en cas de clic](#on-click-behavior).
 
+   ![](assets/push_buttons.png)
+
 1. Utilisez l’icone **[!UICONTROL Expansion de l’affichage]** sous l’image d’aperçu centrale pour prévisualiser vos boutons personnalisés.
 
-   ![](assets/push_buttons.png)
+>[!TAB iOS]
+
+![](assets/push_buttons-ios.png)
+
+Pour iOS, un identifiant de catégorie de notification est spécifié. Les catégories de notifications doivent être préconfigurées dans l&#39;application iOS, qui définira les boutons à afficher et les actions à effectuer. Consultez la [documentation Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) pour en savoir plus.
+
+>[!TAB Web]
+
+![](assets/push_buttons-web.png)
+
+Utilisez l&#39;option **[!UICONTROL Ajouter un bouton]** pour définir le libellé de chaque bouton et l’action associée, comme décrit ci-dessous :
+
+* **[!UICONTROL Lien profond]** : redirigez les personnes vers une vue, une section ou un onglet spécifique dans votre application. Saisissez l’URL du lien profond dans le champ associé.
+
+* **[!UICONTROL URL web]** : redirigez les personnes vers une page web externe. Saisissez l&#39;URL dans le champ associé.
+
+>[!ENDTABS]
 
 ## Envoyer une notification silencieuse {#silent-notification}
 
@@ -100,6 +153,10 @@ Dans la version iOS, un identifiant de catégorie de notification est spécifié
 >id="ajo_message_push_silent_notification"
 >title="À propos des notifications silencieuses"
 >abstract="Envoyez des notifications sans déranger l&#39;utilisateur ou l&#39;utilisatrice. Les notifications ne sont pas affichées dans le centre de notifications ni dans la barre de notifications."
+
+>[!AVAILABILITY]
+>
+>Les notifications push web dans Journey Optimizer ne prennent pas en charge la fonctionnalité **Notification silencieuse**.
 
 Une notification push silencieuse (ou notification en arrière-plan) est une instruction masquée qui est transmise à l’application. Elle est par exemple utilisée pour informer votre application de la disponibilité d&#39;un nouveau contenu ou pour lancer un téléchargement en arrière-plan.
 
@@ -127,7 +184,7 @@ Vous pouvez configurer les **[!UICONTROL options avancées]** pour votre notific
 
 | Paramètre | Description |
 |---------|---------|
-| **[!UICONTROL Réductible]** (iOS/Android) | Un message réductible est un message qui peut être remplacé par un nouveau message s&#39;il est obsolète. Les messages utilisés pour indiquer à une application mobile de synchroniser les données du serveur constituent des cas d&#39;utilisation courants de messages réductibles. Par exemple, une application sportive qui informe les utilisateurs du dernier score. Seul le message le plus récent est pertinent. D’un autre côté, avec un message non réductible, chaque message est important pour l’application cliente et doit être diffusé. |
+| **[!UICONTROL Réductible]** (iOS/Android) | Un message réductible est un message qui peut être remplacé par un nouveau message s&#39;il est obsolète. Les messages utilisés pour indiquer à une application mobile de synchroniser les données du serveur constituent des cas d&#39;utilisation courants de messages réductibles. Par exemple, une application sportive qui informe les utilisateurs et utilisatrices du dernier score. Seul le message le plus récent est pertinent. D’un autre côté, avec un message non réductible, chaque message est important pour l’application cliente et doit être diffusé. |
 | **[!UICONTROL Son personnalisé]** (iOS/Android) | Son à émettre par le terminal mobile lors de la réception de la notification. Le son doit être assemblé dans l&#39;application. |
 | **[!UICONTROL Badges]** (iOS/Android) | Un badge est utilisé pour afficher directement sur l&#39;icône de l&#39;application le nombre de nouvelles informations non lues. <br/>La valeur du badge disparaît dès que l&#39;utilisateur ouvre ou lit le nouveau contenu de l&#39;application. Lorsqu&#39;une notification est reçue sur un appareil, elle peut actualiser ou ajouter une valeur de badge pour l&#39;application associée.<br/>Par exemple, si vous stockez le nombre d&#39;articles non lus de vos clients, vous pouvez tirer parti de la personnalisation pour envoyer la valeur unique de badge d&#39;articles non lus pour chaque client. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](../personalization/personalize.md). |
 | **[!UICONTROL Groupe de notifications]** (iOS uniquement) | Associez un groupe de notification à la notification push.<br/>À partir d&#39;iOS 12, les groupes de notifications vous permettent de consolider les threads de message et les rubriques de notification en identifiants de threads. Par exemple, une marque peut envoyer des notifications marketing sous un identifiant de groupe, tout en conservant d&#39;autres notifications de type opérationnel sous un ou plusieurs identifiants différents.<br/>Pour illustrer cela, vous pouvez avoir les groupes de notification groupID : 123 « Consultez la nouvelle collection printanière de pulls » et groupID : 456 « Votre colis a été livré ». Dans cet exemple, toutes les notifications de diffusion sont regroupées sous l&#39;identifiant de groupe : 456. |

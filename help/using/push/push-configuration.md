@@ -7,20 +7,20 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '1877'
-ht-degree: 100%
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+workflow-type: tm+mt
+source-wordcount: '1879'
+ht-degree: 99%
 
 ---
 
-# Configurer le canal de notifications push {#push-notification-configuration}
+# Configuration du canal de notification push des applications mobiles {#push-notification-configuration}
 
 [!DNL Journey Optimizer] vous permet de créer vos parcours et d&#39;envoyer des messages à une audience ciblée. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez vous assurer que les configurations et les intégrations sont en place sur lʼapplication mobile et pour les balises dʼAdobe Experience Platform. Pour comprendre le flux de données des notifications push dans [!DNL Adobe Journey Optimizer], reportez-vous à [cette page](push-gs.md).
 
 >[!AVAILABILITY]
 >
->Le nouveau **workflow de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile, afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique. [En savoir plus](mobile-onboarding-wf.md).
+>Le nouveau **workflow de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile, afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique. [En savoir plus](mobile-onboarding-wf.md)
 >
 
 ## Avant de commencer {#start-push}
@@ -86,7 +86,7 @@ Pour attribuer ce **[!UICONTROL profil de produit]** aux utilisateurs, procédez
 
 1. Sélectionnez votre **[!UICONTROL Profil de produit]** précédemment configuré.
 
-1. Dans l&#39;onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+1. Dans l’onglet **[!UICONTROL Utilisateurs et utilisatrices]**, cliquez sur **[!UICONTROL Ajouter un utilisateur ou une utilisatrice]**.
 
    ![](assets/push_product_6.png)
 
@@ -208,7 +208,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=fr).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## Étape 2 : création d’une configuration de canal pour les notifications push{#message-preset}
