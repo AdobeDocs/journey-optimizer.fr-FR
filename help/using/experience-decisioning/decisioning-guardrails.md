@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,15 @@ La liste complète des mécanismes de sécurisation et limitations de [!DNL Jour
 | Requête API d’expérience basée sur du code avec politique de décision utilisant la segmentation Edge | 1 500 |
 | Requête API d’expérience basée sur du code avec politique de décision n’utilisant pas la segmentation Edge | 5 000 |
 | Nombre maximal d’URI de surface par requête de prise de décision Edge | 30 |
+
+## Éléments de décision {#decision-items}
+
+| Mécanisme de sécurisation | Limite |
+| ------- | ------- |
+| Total des éléments de décision | 10 000 |
+| Taille maximale des éléments, y compris les attributs (1 Ko), 30 attributs max. | 1 Ko |
+| Taille maximale de représentation de l&#39;élément (total pour tous les emplacements) | 1 Ko |
+| Règles de fréquence : nombre maximal de règles de limitation par offre | 10 |
 
 ## Collections d’éléments {#item-collections}
 
@@ -65,10 +74,8 @@ La liste complète des mécanismes de sécurisation et limitations de [!DNL Jour
 | Mécanisme de sécurisation | Limite |
 | ------- | ------- |
 | Nombre d&#39;attributs personnalisés par schéma de catalogue d&#39;offres | 100 |
-| Nombre total d’éléments d’offre | 10 000 |
 | Nombre total d’emplacements | 1 000 |
 | Modèle de classement AI | 5 |
-| Règles de fréquence : nombre maximal de règles de limitation par offre | 10 |
 
 ## Configurations {#configurations}
 
