@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 79%
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -21,13 +21,13 @@ Toutes les données correctement ingérées par Adobe Experience Platform sont
 
 ## Mécanismes de sécurisation et limitations
 
-* À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=fr){target="_blank"}.
+* À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
-* Depuis février 2025, un mécanisme de sécurisation de durée de vie (TTL) est en cours de déploiement sur les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
+* Depuis février 2025, un mécanisme de sécurisation sur la durée de vie (TTL) est déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
 
 ## Accéder aux jeux de données {#access}
 
-L’espace de travail **Jeux de données** de [!DNL Adobe Journey Optimizer]’interface utilisateur vous permet d’explorer les données et de créer des jeux de données. Pour ouvrir le tableau de bord Jeux de données, sélectionnez **Jeux de données** dans le volet de navigation de gauche.
+L’espace de travail **Jeux de données** de l’interface d’utilisation [!DNL Adobe Journey Optimizer] vous permet d’explorer les données et de créer des jeux de données. Pour ouvrir le tableau de bord Jeux de données, sélectionnez **Jeux de données** dans le volet de navigation de gauche.
 
 ![](assets/datasets-home.png)
 
@@ -42,7 +42,7 @@ Pour prévisualiser un jeu de données, sélectionnez **Prévisualiser le jeu de
 
 ![](assets/dataset-preview.png)
 
-## [!DNL Journey Optimizer] des jeux de données système {#system-datasets}
+## Jeux de données système de [!DNL Journey Optimizer]{#system-datasets}
 
 Cette section répertorie les jeux de données système utilisés par [!DNL Journey Optimizer]. Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
 
@@ -63,23 +63,27 @@ Cette section répertorie les jeux de données système utilisés par [!DNL Jour
 
   _Jeu de données du service de consentement_ : stocke les informations de consentement d’un profil.
 
+* Exportation de messages
+
+  _Jeu de données d’exportation de messages AJO_ : stocke le contenu des e-mails et des SMS envoyés à des fins d’exportation. Les enregistrements sont conservés pendant 7 jours calendaires à compter de l’ingestion. Disponible uniquement pour les organisations qui ont acheté le module complémentaire Exportation de message. [En savoir plus](../configuration/message-export.md)
+
 * Services intelligents
 
   _Scores d’optimisation de l’heure d’envoi / Scores d’engagement_ : scores de sortie de l’IA dédiée au parcours.
 
 
-## Création de jeux de données{#create-datasets}
+## Créer des jeux de données{#create-datasets}
 
 L’ajout de données à [!DNL Adobe Experience Platform] est la base de la création d’un profil. Vous pouvez ensuite exploiter les profils dans [!DNL Adobe Journey Optimizer]. Commencez par définir des schémas, utilisez les outils ETL pour préparer et normaliser vos données, puis créez des jeux de données basés sur vos schémas.
 
-Vous pouvez créer un jeu de données à partir d’un schéma ou d’un fichier CSV. Des informations détaillées sur la création de jeux de données sont disponibles dans la documentation [!DNL Adobe Experience Platform] :
+Vous pouvez créer un jeu de données à partir d’un schéma ou d’un fichier CSV. Des informations détaillées sur la création de jeux de données sont disponibles dans la documentation [!DNL Adobe Experience Platform].
 
-* [Créer un jeu de données avec un schéma existant](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [Créer un jeu de données à partir d’un schéma existant](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
 * [Mapper un fichier CSV à un schéma XDM existant](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416649?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Gouvernance des données
 
@@ -93,12 +97,12 @@ En savoir plus sur la gouvernance des données et les libellés d’utilisation 
 
 ## Exemples et cas d’utilisation {#samples}
 
-* [Tutoriel - Ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr){target="_blank"}
-* [Cas pratique de bout en bout](../audience/creating-test-profiles.md) - Créez un schéma, un jeu de données et ingérez des données pour ajouter des profils de test dans [!DNL Adobe Journey Optimizer]
-* [Exemples de requête](../data/datasets-query-examples.md) - Jeux de données [!DNL Adobe Journey Optimizer] et cas d’utilisation associés.
+* [Tutoriel : ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr){target="_blank"}
+* [Cas d’utilisation de bout en bout](../audience/creating-test-profiles.md) : création d’un schéma, d’un jeu de données et ingestion des données pour ajouter des profils de test dans [!DNL Adobe Journey Optimizer]
+* [Exemples de requête](../data/datasets-query-examples.md) : jeux de données [!DNL Adobe Journey Optimizer] et cas d’utilisation associés
 
 >[!MORELIKETHIS]
 >
 >* [Documentation relative aux jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}
->* [Documentation sur l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
+>* [Documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}
 >* [Bonnes pratiques relatives aux droits de licence de gestion des données](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
