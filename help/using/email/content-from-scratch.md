@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: contenu, éditeur, e-mail, commencer
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 96%
+source-wordcount: '743'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ Pour commencer à créer votre contenu , procédez comme suit :
    ![](assets/email_designer.png)
 
 
-1. Accélérez la création de vos e-mails avec l’assistant AI et générez un contenu d’e-mail complet avec du texte et des images à l’aide de l’assistant [&#x200B; AI pour générer du contenu complet](../content-management/generative-full-content.md).
+1. Accélérez la création de vos e-mails avec l’assistant AI et générez un contenu d’e-mail complet avec du texte et des images à l’aide de l’assistant [ AI pour générer du contenu complet](../content-management/generative-full-content.md).
 
 1. Commencez à concevoir votre contenu en plaçant les **[!UICONTROL structures]** dans la zone de travail pour définir la disposition de votre e-mail.
 
@@ -126,5 +126,7 @@ Pour commencer à créer votre contenu , procédez comme suit :
 1. Une fois que votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier le rendu. Vous pouvez choisir la vue bureau ou la vue mobile. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
+
+1. Vous pouvez également valider la qualité de votre contenu pour en évaluer la lisibilité, l’efficacité et la cohésion. [En savoir plus sur la validation de la qualité du contenu](../content-management/brands-score.md#validate-quality)
 
 1. Lorsque votre contenu est prêt, cliquez sur **[!UICONTROL Enregistrer]**.

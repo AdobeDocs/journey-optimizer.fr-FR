@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1799'
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
@@ -147,6 +147,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 #### Autorisations
 
 * **Empêcher l’approbation automatique pour les parcours et les campagnes** - Ajout d’une option lors de la création ou de la définition de la stratégie d’approbation pour empêcher les créateurs de parcours ou de campagnes de valider leurs propres objets. [En savoir plus](../test-approve/approval-policies.md)
+
+#### Assistant IA
+
+* **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous serez en mesure d’évaluer la <strong>qualité du contenu</strong> globale pour découvrir les problèmes potentiels de lisibilité, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces vérifications automatisées aideront à identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. Date de disponibilité : 28 janvier 2026.
 
 ## Bientôt disponible {#jan-26-01-coming-soon}
 
@@ -333,10 +337,6 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 </table>
 
 ### Améliorations
-
-* **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous serez en mesure d’évaluer la <strong>qualité du contenu</strong> globale pour découvrir les problèmes potentiels de lisibilité, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces vérifications automatisées aideront à identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. Date de disponibilité : 28 janvier 2026.
-
-* **Mettre à jour les marques avec un nouvel onglet de couleur** - Les directives de marque vous aideront à vous assurer que votre marque est présentée de manière cohérente à tous les points de contact. La nouvelle <strong>section Couleurs</strong> définit les normes du système de couleurs de votre marque et décrit comment les couleurs sont sélectionnées, organisées et appliquées à travers les expériences. Il garantira l’utilisation cohérente des couleurs primaires, secondaires, d’accentuation et neutres pour soutenir une identité de marque cohérente, accessible et reconnaissable. Date de disponibilité : 28 janvier 2026.
 
 * **Webhooks SMS** - <strong>Webhooks</strong> sera pris en charge sur tous les fournisseurs SMS. Vous pourrez configurer chaque webhook en fonction de son objectif : webhooks entrants pour capturer les messages entrants et webhooks Retours pour recevoir les accusés de réception de diffusion, les mises à jour de statut et d&#39;autres événements liés aux messages. Date de disponibilité : 28 janvier 2026.
 

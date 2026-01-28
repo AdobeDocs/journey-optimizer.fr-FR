@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 96%
 
 ---
 
-# Prise en main de la conception d’e-mails {#get-started-content-design}
+# Commencer la conception d’e-mails {#get-started-content-design}
 
 Pour accéder au Concepteur d’e-mail et commencer à concevoir le contenu de votre e-mail, vous devez d’abord [créer un e-mail](create-email.md) dans un parcours ou une campagne.
 
@@ -62,6 +62,8 @@ Une fois que vous avez créé un e-mail, vous pouvez commencer à créer son con
 
    ![](assets/email_designer_export.png)
 
+1. Vous pouvez également valider la qualité de votre contenu pour identifier les problèmes potentiels de lisibilité, de cohésion du contenu et d’efficacité. [En savoir plus sur la validation de la qualité du contenu](../content-management/brands-score.md#validate-quality)
+
 ## Bonnes pratiques en matière de conception d’e-mail {#best-practices}
 
 Lors de l’envoi d’e-mails, il est important de tenir compte du fait que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu de l’e-mail. Vous risquez de rencontrer ces problèmes si vous utilisez des classes CSS non prises en charge par le fournisseur de messagerie utilisé pour le transfert, comme « is-desktop-hidden », par exemple, pour masquer une image sur les appareils mobiles.
@@ -78,12 +80,12 @@ Consultez le tableau ci-dessous pour connaître les bonnes pratiques en matière
 >
 >La [loi européenne sur l’accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Outre les bonnes pratiques de conception d’e-mails présentées dans cette section, veillez également à suivre les recommandations figurant sur [cette page](accessible-content.md), dédiées à la création de contenu accessible avec le Concepteur d’e-mail.
 
-## Tutoriels vidéo {#video}
+## Vidéos pratiques {#video}
 
 Découvrez comment créer du contenu d’e-mail avec l’éditeur de messages.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416232?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Découvrez comment configurer des expériences de contenu pour un test AB et explorer le contenu d’e-mail qui répond le mieux aux objectifs de votre entreprise.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447333?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

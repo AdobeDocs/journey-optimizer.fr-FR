@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '1638'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '1652'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Les bonnes pratiques relatives à la conception de contenu accessible avec [!DNL
 
 >[!NOTE]
 >
->Cette page a pour but de vous aider à rendre votre contenu accessible à l’ensemble de vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec les e-mails et les pages de destination que vous avez conçus avec [!DNL Journey Optimizer].
+>Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos pages de destination conçus avec [!DNL Journey Optimizer].
 >
 >D’un autre côté, l’accessibilité de l’interface [!DNL Journey Optimizer] elle-même est détaillée dans [cette section](../start/accessibility.md). 
 
@@ -131,6 +131,8 @@ Pour vérifier l’accessibilité de votre contenu, vous pouvez utiliser les fon
 * Utilisez l’option [Rendu d’e-mail](../content-management/rendering.md) qui tire parti de Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et vérifier si le texte, les couleurs et les images rendent votre contenu accessible. <!--Litmus includes accessibility testing-->
 
 * Envoyez des BAT pour tester le rendu de votre contenu avant de l’envoyer à votre audience réelle. [Voici comment procéder](../content-management/proofs.md)
+
+* Validez la qualité de votre contenu pour évaluer sa lisibilité, sa cohésion et son efficacité globale. [Voici comment procéder](../content-management/brands-score.md#validate-quality)
 
 ![](assets/accessible-simulate.png){width="90%"}
 
