@@ -148,9 +148,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **Validation de la taille de la payload du Parcours dans parcours** - Journey Optimizer valide désormais <strong>tailles de la payload</strong> pour garantir des performances optimales et la stabilité du système. Lors de la création ou de la publication de parcours, vous recevez des <strong>avertissements et erreurs</strong> clairs si les tailles de payload approchent ou dépassent les limites recommandées, ainsi que des conseils pratiques pour optimiser votre configuration de parcours. Cette validation proactive vous permet d’identifier rapidement les problèmes potentiels et de maintenir les performances du parcours. [En savoir plus](../start/guardrails.md#journey-payload-size)
 
 * **Alertes de Parcours** - De nouvelles <strong>alertes préconfigurées</strong> sont disponibles pour les parcours.
-   - <strong>Taux de rejet du profil dépassé</strong> - Ratio des rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil
-   - <strong>Taux d’erreurs d’action personnalisée dépassé</strong> - Rapport entre les erreurs d’action personnalisée et les appels HTTP réussis au cours des 5 dernières minutes dépassé le seuil
-   - <strong>Taux d’erreur de profil dépassé</strong> - Ratio de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil
+   &#x200B;- <strong>Taux de rejet du profil dépassé</strong> - Ratio des rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil
+   &#x200B;- <strong>Taux d’erreurs d’action personnalisée dépassé</strong> - Rapport entre les erreurs d’action personnalisée et les appels HTTP réussis au cours des 5 dernières minutes dépassé le seuil
+   &#x200B;- <strong>Taux d’erreur de profil dépassé</strong> - Ratio de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil
 
   Pour plus d’informations, consultez la [documentation détaillée](../reports/alerts.md).
 
