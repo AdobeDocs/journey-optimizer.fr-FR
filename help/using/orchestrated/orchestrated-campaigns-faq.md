@@ -5,10 +5,10 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 97%
+source-wordcount: '1821'
+ht-degree: 96%
 
 ---
 
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ Quels canaux sont pris en charge ?
 
-Vous pouvez créer des campagnes orchestrées pour envoyer des **e-mails**, des **SMS** et des **notifications push**.
+Vous pouvez créer des campagnes orchestrées pour envoyer des **e-mails**, **SMS**, **notifications push** et **courriers**.
 
 **En savoir plus**
 

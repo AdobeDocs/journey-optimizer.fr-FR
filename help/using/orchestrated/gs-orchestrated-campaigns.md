@@ -6,9 +6,9 @@ description: Découvrez comment commencer avec les campagnes orchestrées
 short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '781'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
->abstract="<b>Orchestration de campagne</b><br/>Fractionner, combiner, enrichir et manipuler des jeux de données relationnelles pour définir votre audience<br/><br/> <b>Tirer parti des données multi-entités</b><br/>Découvrir comment les campagnes orchestrées peuvent tirer parti des jeux de données relationnelles pour enrichir les données à des fins de segmentation et de personnalisation<br/><br/><b>Segmentation ad hoc et nombres exacts</b><br/>Créer un segment étape par étape avec des nombres exacts<br/><br/><b>Canaux disponibles</b><br/>E-mail, SMS, notifications push"
+>abstract="<b>Orchestration de campagne</b><br/>Fractionner, combiner, enrichir et manipuler des jeux de données relationnelles pour définir votre audience<br/><br/> <b>Tirer parti des données multi-entités</b><br/>Découvrir comment les campagnes orchestrées peuvent tirer parti des jeux de données relationnelles pour enrichir les données pour la segmentation et la personnalisation.<br/><br/><b>Segmentation ad hoc et nombres exacts</b><br/>Créer votre segment étape par étape avec des nombres exacts<br/><br/><b>Canaux disponibles</b><br/>E-mail, SMS, Notifications push, Courrier"
 
 L’orchestration de campagne dans [!DNL Adobe Journey Optimizer] alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui permet de renforcer l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
 
@@ -106,7 +106,7 @@ Maintenant que vous avez appris les principes de base des campagnes orchestrées
 </td>
 <td>
 <a href="create-orchestrated-campaign.md">
-<img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
+<img alt="Prospect" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
 <div><a href="create-orchestrated-campaign.md"><strong>Créer une campagne orchestrée</strong>
 </div>
