@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '1721'
-ht-degree: 100%
+source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
+workflow-type: tm+mt
+source-wordcount: '1777'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Pour présenter la meilleure offre et expérience dynamique à votre clientèle,
 
 >[!AVAILABILITY]
 >
->Pour l’instant, les politiques de décision sont disponibles pour tous les clients et clientes pour le canal **Expérience basée sur du code**. Ils sont disponibles pour le canal **E-mail** en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Pour l’instant, les politiques de décision sont disponibles pour tous les clients et clientes pour le canal **Expérience basée sur du code**. Ils sont disponibles pour le canal **E-mail** en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 ## Ajouter une politique de décision {#add}
 
@@ -207,6 +207,10 @@ Vous pouvez sélectionner n’importe quel élément de la liste, qui affiche to
 ## Vérifier et enregistrer la politique de décision {#review}
 
 Après avoir configuré une stratégie de sélection et ajouté des offres de secours, cliquez sur **[!UICONTROL Suivant]** pour vérifier et enregistrer votre politique de décision, puis cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la politique.
+
+>[!IMPORTANT]
+>
+>Une fois une politique de décision créée, toute modification apportée peut prendre jusqu’à 15 minutes pour se propager dans toutes les régions de données, et jusqu’à 30 minutes pour le Canada. Cela inclut des modifications telles que l’ajout d’un nouvel élément de décision à une collection, la modification d’une règle dans un élément, la modification du contenu de l’élément ou la mise à jour d’une formule.
 
 Vous pouvez modifier ou supprimer une politique de décision à tout moment à l’aide du bouton représentant des points de suspension dans l’éditeur de personnalisation, ou dans le menu **[!UICONTROL Prise de décision]** dans le volet des propriétés du composant.
 
