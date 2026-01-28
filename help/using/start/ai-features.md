@@ -82,7 +82,7 @@ Journey Agent comprend deux compétences dans l’assistant AI : Analyser et Cr�
 
 #### Compétence en analyse de parcours {#journey-analyze-skill}
 
-L&#39;agent d&#39;analyse de Parcours [&#128279;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
+L&#39;agent d&#39;analyse de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} vous aide à optimiser les performances du parcours grâce à l&#39;analyse du langage naturel :
 
 +++**Fonctionnalités clés**
 
@@ -105,7 +105,7 @@ L&#39;agent d&#39;analyse de Parcours [&#128279;](https://experienceleague.adobe
 
 #### Parcours Create Skill {#journey-create-skill}
 
-L’agent de création de Parcours [&#128279;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
+L’agent de création de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
 
 +++**Fonctionnalités clés**
 
@@ -269,7 +269,7 @@ Parcourez les playbooks Journey Optimizer pour obtenir des scénarios courants t
 
 +++
 
-[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=fr){target="_blank"}
 
 ## Fonctionnalités d’IA supplémentaires {#additional-capabilities}
 
