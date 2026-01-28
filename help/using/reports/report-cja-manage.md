@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
+source-git-commit: 47280460f7b47412c348ccc75ca9afca50c34e7e
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1327'
 ht-degree: 100%
 
 ---
@@ -216,10 +216,6 @@ Vous pouvez désormais sélectionner des données spécifiques dans le tableau e
 Vous pouvez maintenant utiliser l’audience nouvellement créée avec un parcours ou une campagne.
 
 ## Gérer les modèles {#cja-template}
-
->[!AVAILABILITY]
->
-> La fonctionnalité **Modèle** est progressivement déployée par phases, avec une disponibilité générale complète prévue d’ici la fin janvier. Elle est disponible exclusivement pour les personnes disposant d’une licence [!DNL Customer Journey Analytics].
 
 Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles Customer Journey Analytics. [En savoir plus sur le modèle Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
