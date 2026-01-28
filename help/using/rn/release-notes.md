@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a9751fb7a95a761cb84fd1a00ea6bae9d32e37
+source-git-commit: 2dd468a97b8cb696d4ad7f1d0de2aceb15da29df
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 21%
@@ -35,7 +35,7 @@ Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
@@ -131,7 +131,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous pouvez désormais évaluer l’ensemble <strong>qualité du contenu</strong> pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d&#39;identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality). [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on).
+* **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous pouvez désormais évaluer l’ensemble <strong>qualité du contenu</strong> pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d&#39;identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality). [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -148,9 +148,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **Validation de la taille de la payload du Parcours dans parcours** - Journey Optimizer valide désormais <strong>tailles de la payload</strong> pour garantir des performances optimales et la stabilité du système. Lors de la création ou de la publication de parcours, vous recevez des <strong>avertissements et erreurs</strong> clairs si les tailles de payload approchent ou dépassent les limites recommandées, ainsi que des conseils pratiques pour optimiser votre configuration de parcours. Cette validation proactive vous permet d’identifier rapidement les problèmes potentiels et de maintenir les performances du parcours. [En savoir plus](../start/guardrails.md#journey-payload-size)
 
 * **Alertes de Parcours** - De nouvelles <strong>alertes préconfigurées</strong> sont disponibles pour les parcours.
-   &#x200B;- <strong>Taux de rejet du profil dépassé</strong> - Ratio des rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil
-   &#x200B;- <strong>Taux d’erreurs d’action personnalisée dépassé</strong> - Rapport entre les erreurs d’action personnalisée et les appels HTTP réussis au cours des 5 dernières minutes dépassé le seuil
-   &#x200B;- <strong>Taux d’erreur de profil dépassé</strong> - Ratio de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil
+   * <strong>Taux de rejet du profil dépassé</strong> - Ratio des rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil
+   * <strong>Taux d’erreurs d’action personnalisée dépassé</strong> - Rapport entre les erreurs d’action personnalisée et les appels HTTP réussis au cours des 5 dernières minutes dépassé le seuil
+   * <strong>Taux d’erreur de profil dépassé</strong> - Ratio de profils en erreur par rapport aux profils entrés au cours des 5 dernières minutes qui a dépassé le seuil
 
   Pour plus d’informations, consultez la [documentation détaillée](../reports/alerts.md).
 
