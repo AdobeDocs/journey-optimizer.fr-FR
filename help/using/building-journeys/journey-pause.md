@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: ht
-source-wordcount: '2481'
-ht-degree: 100%
+source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
+workflow-type: tm+mt
+source-wordcount: '2515'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez mettre en pause vos parcours actifs, effectuer toutes les modificati
 
 ## Avantages clés {#journey-pause-benefits}
 
-La mise en pause et la reprise des parcours offrent aux responsables de parcours davantage de contrôle et de flexibilité en permettant de suspendre temporairement les parcours actifs sans perturber l’expérience client. Lorsqu’un parcours est mis en pause, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.
+La mise en pause et la reprise des parcours offrent aux responsables de parcours davantage de contrôle et de flexibilité en permettant de suspendre temporairement les parcours actifs sans perturber l’expérience client. Lorsque le parcours est suspendu, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.
 
 Cette fonctionnalité réduit le risque d’envoi de messages indésirables lors d’erreurs ou de mises à jour (par exemple, une modification du contenu du message), offre une gestion des parcours plus sûre et renforce la confiance du ou de la responsable de parcours. L’affichage des parcours en pause et de leur statut directement dans l’interface d’utilisation améliore la transparence et l’agilité opérationnelle.
 
@@ -154,6 +154,7 @@ N’oubliez pas que les exclusions de profils, pour les profils actuellement dan
 ## Mécanismes de sécurisation et limitations {#journey-pause-guardrails}
 
 * Une version de parcours peut être mise en pause pendant **14 jours** avec un maximum de **10 millions de profils** autorisés dans les parcours en pause dans l’ensemble de votre organisation.
+Cette limite tient compte du nombre total de profils conservés sur tous les parcours en pause, et non de profils distincts. Par exemple, si les mêmes profils de 5 millions sont conservés dans deux parcours en pause, la limite de 10 millions est atteinte.
 Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouvez temporairement dépasser le seuil de 10 millions, mais une fois que le système le détecte, tous les profils supplémentaires sont automatiquement ignorés.
 
   Si vous reprenez les parcours pour ramener le nombre de profils conservés en dessous de la limite, le parcours reprend immédiatement, mais la mise à jour du nombre de profils peut prendre jusqu’à 30 minutes. Pendant ce temps, le système peut toujours considérer ces profils comme étant en pause.
