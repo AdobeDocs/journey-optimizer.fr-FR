@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 69%
+source-wordcount: '708'
+ht-degree: 66%
 
 ---
 
@@ -38,6 +38,11 @@ Vous pouvez cibler des politiques de validation à l’aide de critères flexibl
 >id="ajo_permissions_approval_policy"
 >title="Nouvelle politique d’approbation"
 >abstract="Dans cet écran, saisissez le nom et sélectionnez le contexte de la politique d’approbation, puis créez les conditions pour déterminer qui peut lancer la demande d’approbation et qui peut la valider."
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_self_approval"
+>title="Bloquer l’auto-approbation"
+>abstract="Activez cette option pour empêcher les utilisateurs d’approuver leurs propres demandes d’approbation, même s’ils appartiennent à un groupe d’utilisateurs ou à un rôle désigné comme réviseur."
 
 Pour créer une politique d’approbation, procédez comme suit :
 
