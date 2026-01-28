@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1070'
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez créer jusqu’à 10 jeux de règles locales actifs pour chaque domaine de canal et pour le domaine de parcours.
+>Vous pouvez créer jusqu’à 10 ensembles de règles pour le domaine de canal et 10 ensembles de règles pour le domaine de parcours, pour un total de 20 ensembles de règles.
 
 1. Accédez à la liste **[!UICONTROL Jeux de règles]**, puis cliquez sur **[!UICONTROL Créer un jeu de règles]**.
 
@@ -180,4 +180,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
