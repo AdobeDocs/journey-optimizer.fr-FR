@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8a7926be7a8e73d889cf38a047400236fd352dab
+source-git-commit: c301785d95b9701830fde7f9812ef7dff9ba1a60
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 22%
@@ -35,7 +35,7 @@ Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
@@ -56,7 +56,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>Les enregistrements sont conservés dans le jeu de données d’exportation de messages AJO pendant 7 jours calendaires à compter de l’ingestion. Pendant cette période de conservation, vous pouvez les exporter vers votre propre espace de stockage via les destinations Experience Platform. La fonctionnalité est activée au niveau de la configuration du canal, ce qui vous permet <strong>un contrôle granulaire</strong> sur les messages exportés.</p>
 <p>Cette fonctionnalité est disponible uniquement pour les canaux e-mail et SMS, pour les organisations qui ont acheté l’offre de module complémentaire Exportation de messages . Pour en savoir plus, contactez votre représentant Adobe.</p>
-<!--p><img src="assets/do-not-localize/message-export.gif"/></p-->
+<p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/message-export.md#message-export">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -155,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous pouvez désormais évaluer l’ensemble <strong>qualité du contenu</strong> pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d&#39;identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality). [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on).
+* **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous pouvez désormais évaluer l’ensemble <strong>qualité du contenu</strong> pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d&#39;identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality). [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
