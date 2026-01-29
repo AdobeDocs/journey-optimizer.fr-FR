@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 97%
+source-wordcount: '1060'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez créer deux types de jeux de règles :
 * Les jeux de règles de **Canal** appliquent des règles aux canaux de communication. Ils vous permettent de définir les éléments suivants :
 
    * **Règles de capping de fréquence** : *ne pas envoyer plus d’un e-mail ou d’un SMS par jour.*
-   * **Règles d’heures creuses** (disponibilité limitée) : *ne pas envoyer d’e-mails en dehors de la période de 8 h à 21 h.*
+   * **Règles relatives aux heures calmes** - *N’envoyez pas d’e-mails en dehors de l’intervalle de 8 h à 21 h.*
 
 * Les jeux de règles de **Parcours** appliquent des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne pas entrer simultanément des profils dans plusieurs parcours.
 
@@ -80,7 +80,7 @@ En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Type de règle"
->abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’un e-mail ou d’un SMS par jour. Sélectionnez **Heures creuses** (en disponibilité limitée) pour définir des exclusions basées sur l’heure afin de vous assurer qu’aucun message n’est envoyé pendant certaines périodes."
+>abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’un e-mail ou d’un SMS par jour. Sélectionnez **Heures calmes** pour définir des exclusions temporelles afin de vous assurer qu’aucun message n’est envoyé pendant des périodes spécifiques."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -124,7 +124,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
    * [Limitation d’un parcours](../conflict-prioritization/journey-capping.md)
    * [Capping de la fréquence par canal et type de communication](../conflict-prioritization/channel-capping.md)
-   * [Heures creuses](../conflict-prioritization/quiet-hours.md) (fonctionnalité en disponibilité limitée)
+   * [Heures creuses](../conflict-prioritization/quiet-hours.md)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer la création de la règle. Votre message est ajouté au jeu de règles, au statut **[!UICONTROL Brouillon]**.
 
@@ -180,4 +180,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

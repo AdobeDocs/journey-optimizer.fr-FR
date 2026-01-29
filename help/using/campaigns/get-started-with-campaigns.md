@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 97%
@@ -291,7 +291,7 @@ Maintenant que vous comprenez comment fonctionnent les campagnes dans [!DNL Jour
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et timing**
 
@@ -301,7 +301,7 @@ Planifiez des campagnes à des dates/heures spécifiques, paramétrez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle du débit**
 
@@ -311,7 +311,7 @@ Limitez le débit des messages pour éviter la surcharge sur les systèmes en av
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -321,7 +321,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -337,11 +337,11 @@ Mettez en œuvre des processus de vérification et d’approbation avant la mise
 
 Respectez les préférences des clientes et des clients en évitant de diffuser des messages durant les fenêtres temporelles spécifiées. (Campagnes d’action et déclenchées par API)
 
-[Configurer les heures creuses](quiet-hours.md)
+[Configurer les heures creuses](../conflict-prioritization/quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation** :
 

@@ -7,12 +7,11 @@ feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilité limitée" type="Informative"
 keywords: message, fréquence, règles, pression
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 97%
+source-wordcount: '909'
+ht-degree: 81%
 
 ---
 
@@ -32,24 +31,21 @@ En rationalisant ces processus, vous pouvez améliorer l’expérience client, g
 * **Gain de temps** : gérez les exclusions au même endroit en créant une **règle temporelle**, au lieu d’ajouter plusieurs nœuds de condition avec des expressions personnalisées.\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->
 
->[!AVAILABILITY]
->
->Les règles d’heures creuses ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée).  Elles seront progressivement disponibles pour l’ensemble de la clientèle dans les versions ultérieures.
-
-
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Mécanismes de sécurisation et limitations
 
 * **Canaux pris en charge** : E-mail, SMS, Push et WhatsApp.
-  <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+* **Campagnes orchestrées** - Les heures calmes ne sont pas prises en charge pour les campagnes orchestrées.
 * **Délai de propagation** : les mises à jour d’une règle d’heures creuses peuvent prendre jusqu’à 12 heures pour être appliquées aux actions de canal qui utilisent déjà cette règle.
-  <!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 * **Latence de volume élevé** : en cas de communications à volume élevé, le système peut nécessité un délai supplémentaire pour commencer à appliquer les suppressions liées aux heures creuses.
+
+<!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+<!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 
 ## Créer des règles d’heures creuses
 
-Pour définir des heures creuses, créez une règle dans un ensemble de règles personnalisé. Procédez comme suit :
+Pour définir des heures creuses, créez une règle dans un ensemble de règles personnalisé. [Découvrez comment créer des ensembles de règles](../conflict-prioritization/rule-sets.md#Create). Procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Règles métier]** pour accéder à l’inventaire des ensembles de règles.
 
@@ -85,22 +81,21 @@ Pour définir des heures creuses, créez une règle dans un ensemble de règles 
 
 1. Dans la section **[!UICONTROL Dates et heures]**, définissez quand appliquer des heures creuses :
 
-   1. Choisissez le **[!UICONTROL fuseau horaire]** à utiliser :
+   1. Dans le menu déroulant **[!UICONTROL Fuseau horaire]**, appliquez un fuseau horaire standard à tous les destinataires de l’audience, quels que soient leurs fuseaux horaires individuels.
 
-      * **[!UICONTROL UTC/GMT]** : appliquez une fenêtre temporelle GMT standard à tous les destinataires de l’audience, quels que soient leurs fuseaux horaires individuels.
-      * **[!UICONTROL Utiliser le fuseau horaire local des destinataires]** : utilisez le champ de fuseau horaire de chaque profil. [En savoir plus sur la gestion des fuseaux horaires dans les parcours](../building-journeys/timezone-management.md#timezone-from-profiles)
+      Pour utiliser le champ de fuseau horaire de chaque profil, sélectionnez **[!UICONTROL Utiliser le fuseau horaire local des destinataires]** . [En savoir plus sur la gestion des fuseaux horaires dans les parcours](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-        >[!IMPORTANT]
-        >
-        >Si un profil ne dispose d’aucune valeur de fuseau horaire, les heures creuses ne sont pas appliquées pour celui-ci.
+      >[!IMPORTANT]
+      >
+      >Si un profil ne dispose d’aucune valeur de fuseau horaire, les heures creuses ne sont pas appliquées pour celui-ci.
 
    1. Spécifiez la période à laquelle les heures creuses doivent s’appliquer.
 
-      * **[!UICONTROL Hebdomadaire]** : sélectionnez des jours spécifiques de la semaine et un créneau horaire. Vous pouvez également appliquer la règle **[!UICONTROL Toute la journée]** (cette option n’est disponible que pendant 3 jours consécutifs maximum).
+      * **[!UICONTROL Hebdomadaire]** : sélectionnez des jours spécifiques de la semaine et un créneau horaire. Vous pouvez également appliquer la règle **[!UICONTROL Toute la journée]**.
 
         ![](assets/quiet-hours-weekly.png)
 
-      * **[!UICONTROL Date personnalisée]** : sélectionnez des dates spécifiques dans le calendrier et un créneau horaire. Vous pouvez également appliquer la règle **[!UICONTROL Toute la journée]** (cette option n’est disponible que pendant 3 jours consécutifs maximum).
+      * **[!UICONTROL Date personnalisée]** : sélectionnez des dates spécifiques dans le calendrier et un créneau horaire. Vous pouvez également appliquer la règle **[!UICONTROL Toute la journée]**.
 
         ![](assets/quiet-hours-custom.png)
 
@@ -116,9 +111,19 @@ Pour définir des heures creuses, créez une règle dans un ensemble de règles 
 
      >[!NOTE]
      >
-     >Cette option est disponible uniquement pour les actions de parcours. Si elle est appliquée à une action de campagne, elle se comporte de la même manière que si vous sélectionniez l’option **[!UICONTROL Ignorer le message]**.
+     >Si un message reste dans la file d’attente pour un profil pendant plus de 7 jours, le message est ignoré.
 
-   * **[!UICONTROL Ignorer le message]** : les messages ne sont jamais envoyés. Si vous souhaitez que le parcours ou la campagne contenant le message se termine par l’annulation de l’envoi, sélectionnez **[!UICONTROL Ignorer et quitter le parcours ou la campagne]**.
+   * **[!UICONTROL Ignorer le message]** - Les messages ne sont jamais envoyés.
+
+     >[!NOTE]
+     >
+     >Si vous sélectionnez **[!UICONTROL Ignorer]** et appliquez cette règle à une action de parcours, le profil est supprimé de la diffusion du message et quitté le parcours.
+
+La règle s’affiche désormais dans l’ensemble de règles. Vous pouvez la sélectionner pour afficher ses détails dans le volet des propriétés.
+
+![](assets/quiet-hours-preview.png)
+
+Si votre règle est prête, activez-la et effectuez la configuration de votre ensemble de règles. [Découvrez comment créer et activer des ensembles de règles](../conflict-prioritization/rule-sets.md#Create)
 
 ## Appliquer des heures creuses aux parcours et aux campagnes {#apply}
 
@@ -187,4 +192,4 @@ Une fois vos campagnes ou votre parcours activés et exécutés, vous pouvez vis
 
 Découvrez comment utiliser la fonctionnalité des heures creuses dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475854?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
