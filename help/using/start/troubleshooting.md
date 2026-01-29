@@ -7,20 +7,20 @@ feature: Get Started, Monitoring
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '2942'
-ht-degree: 99%
+source-wordcount: '2945'
+ht-degree: 97%
 
 ---
 
-# FAQ sur le dépannage {#ajo-troubleshooting}
+# Questions fréquentes relatives à la résolution des problèmes {#ajo-troubleshooting}
 
 Voici une liste d’articles de résolution des problèmes pour Adobe Journey Optimizer. Chaque section de résolution des problèmes fournit des réponses aux questions fréquentes ainsi que des solutions aux problèmes.
 
 Voir aussi les [Questions fréquentes sur Adobe Experience Platform et la documentation sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/troubleshooting){target="_blank"}.
 
-## Canal e-mail {#ajo-troubleshooting-email}
+## Canal E-mail {#ajo-troubleshooting-email}
 
 +++ Comment éviter les problèmes de mise en forme des e-mails dans Adobe Journey Optimizer à l’aide des thèmes ?
 
@@ -201,7 +201,7 @@ Cette incohérence peut se produire lorsque le parcours utilise l’instantané 
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
-Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=fr){target="_blank"}.
+Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Consultez également la [documentation de l’API Schedules d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/api/schedules){target="_blank"} pour savoir quand votre tâche quotidienne est planifiée.
 
@@ -230,13 +230,11 @@ Consultez également la [documentation du profil Adobe Real-Time CDP](https://ex
 
 +++ Pourquoi le nombre de profils engageables a-t-il augmenté de manière significative en peu de temps ? 
 
-La mesure **Profils engageables** reflète le nombre de profils uniques engagés par des parcours ou des campagnes au cours des 12 derniers mois. Une augmentation soudaine peut résulter du ciblage d’audiences importantes ou de modifications dans les jeux de données. Pour gérer ces hausses, vérifiez la **logique de comptage des profils**, explorez les parcours ciblant des audiences importantes, **filtrez les audiences** au niveau du parcours, réduisez la **taille d’audience adressable** et surveillez les **modifications apportées au jeu de données**.
+La mesure **Profils engageables** reflète le nombre de profils uniques engagés par des parcours ou des campagnes au cours des 12 derniers mois. Une augmentation soudaine peut résulter de parcours ou de campagnes ciblant de grandes audiences qui n’ont pas été engagées récemment, ou de modifications de jeux de données activés pour le service de profil.
 
-Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26161){target="_blank"} pour apprendre comment résoudre ce problème.
+Pour étudier et résoudre ce problème, vous devez comprendre la logique du comptage des profils, étudier les parcours et les campagnes ciblant de grandes audiences, filtrer les audiences de manière appropriée, surveiller les modifications des jeux de données et potentiellement réduire la taille de votre audience adressable.
 
-Surveillez l’utilisation des licences et les profils engageables de votre organisation à l’aide du [tableau de bord d’utilisation des licences.](../audience/license-usage.md)
-
-Consultez également la [présentation du service de requête Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/query/home){target="_blank"}.
+Découvrez comment dépanner et résoudre les augmentations des profils engageables et surveiller l’utilisation des licences de votre entreprise dans la [documentation du tableau de bord d’utilisation des licences](../audience/license-usage.md#troubleshooting-engageable-profiles).
 
 +++
 

@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 98%
@@ -21,7 +21,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="Mode Test à blanc"
->abstract="Ce parcours est en mode Test à blanc. Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux responsables des parcours de tester un parcours à l’aide de données de production réelles sans contacter de véritables clientes et clients ou sans mettre à jour les informations de profil.  Cette fonctionnalité permet aux responsables des parcours d’avoir confiance dans leur conception du parcours et leur ciblage d’audience avant de publier un parcours en ligne."
+>abstract="Ce parcours est en mode Test à blanc. Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux responsables des parcours de tester un parcours à l’aide de données de production réelles sans contacter de véritables clientes et clients ou sans mettre à jour les informations de profil.  Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours."
 
 
 >[!CONTEXTUALHELP]
@@ -29,7 +29,7 @@ ht-degree: 98%
 >title="Publier un parcours en mode Test à blanc"
 >abstract="Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux responsables des parcours de tester un parcours à l’aide de données de production réelles. Une fois que vous avez conçu votre parcours, effectuez un test à blanc pour confirmer qu’il est fonctionnel et vous assurer que les étapes sont correctes. Ce mode de publication vous permet de tester un parcours sans envoyer de communication à un profil."
 
-Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux responsables des parcours de tester un parcours à l’aide de données de production réelles sans contacter de véritables clientes et clients ou sans mettre à jour les informations de profil.  Cette fonctionnalité permet aux responsables des parcours d’avoir confiance dans leur conception du parcours et leur ciblage d’audience avant de publier un parcours en ligne.
+Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux responsables des parcours de tester un parcours à l’aide de données de production réelles sans contacter de véritables clientes et clients ou sans mettre à jour les informations de profil.  Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.
 
 ➡️ [Pour en savoir plus sur le test à blanc des parcours, regardez cette vidéo.](#dry-run-video)
 
@@ -124,7 +124,7 @@ Les liens vers les rapports des 24 dernières heures ou de la durée entière so
 
 ## Mécanismes de sécurisation et limitations {#journey-dry-run-limitations}
 
-* Les profils en mode Test à blanc sont comptabilisés dans les profils engageables.
+* Les profils en mode d’exécution d’essai sont comptabilisés dans les [profils engageables](../audience/license-usage.md)
 * Les parcours en mode Test à blanc sont comptabilisés dans le quota des parcours actifs.
 * Les parcours en mode Test à blanc n’ont aucune incidence sur les règles métier.
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
@@ -149,4 +149,4 @@ Lors de l’analyse des **mesures de rapports de parcours** à l’aide du servi
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464684/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
