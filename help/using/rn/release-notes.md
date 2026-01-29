@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c301785d95b9701830fde7f9812ef7dff9ba1a60
+source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 22%
+source-wordcount: '1849'
+ht-degree: 23%
 
 ---
 
@@ -29,13 +29,13 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 ## Notes de mise à jour de janvier 2026 {#latest-rn}
 
-**Date de publication** : 27-28 janvier 2026
+<!--**Release date**: January 27-28, 2026-->
 
 Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26-01-improv) couvrent les fonctionnalités déjà disponibles, tandis que [Bientôt disponible](#jan-26-01-coming-soon) répertorie les éléments planifiés pour une date de disponibilité ultérieure.
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
@@ -58,6 +58,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Cette fonctionnalité est disponible uniquement pour les canaux e-mail et SMS, pour les organisations qui ont acheté l’offre de module complémentaire Exportation de messages . Pour en savoir plus, contactez votre représentant Adobe.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/message-export.md#message-export">documentation détaillée</a>.</p>
+<p>Date de disponibilité : jeudi 28 janvier 2026</p>
 </td>
 </tr>
 </tbody>
@@ -76,6 +77,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Publiée précédemment en version Beta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../push/push-configuration-web.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : jeudi 28 janvier 2026</p>
 </td>
 </tr>
 </tbody>
@@ -93,6 +95,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Le canal Courrier est désormais disponible dans les campagnes orchestrées. L’activité <strong>Publipostage direct</strong> facilite l’envoi de publipostage direct dans votre campagne orchestrée, pour les messages ponctuels et récurrents. Il permet d’automatiser le processus de génération du fichier <strong>extraction</strong> requis par les fournisseurs de publipostage direct. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../orchestrated/activities/channels.md#channel">documentation détaillée</a>.</p>
+<p>Date de disponibilité : jeudi 28 janvier 2026</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous pouvez désormais évaluer l’ensemble <strong>qualité du contenu</strong> pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d&#39;identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality). [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on).
+* **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous pouvez désormais évaluer l’ensemble <strong>qualité du contenu</strong> pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d&#39;identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality). [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -163,9 +166,16 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Combiner des actions de message natives et Adobe Campaign** - Journey Optimizer vous permet désormais de combiner des actions de message <strong>Adobe Campaign v7/v8</strong> avec des actions de canal <strong>natives</strong> dans le même parcours. [En savoir plus](../building-journeys/using-adobe-campaign-v7-v8.md)
 
+  Date de disponibilité : 27 janvier 2026.
+
 * **Payload de réponse d’erreur d’action personnalisée** - Vous pouvez désormais définir une <strong>payload de réponse d’erreur</strong> facultative pour les actions personnalisées. Lorsqu’un appel échoue, la payload d’erreur est exposée dans le contexte du parcours (sous le nœud errorResponse de l’action) et est disponible dans la branche <strong>timeout/error</strong>, avec `jo_status_code`, pour prendre en charge une logique de secours plus riche et le débogage. [En savoir plus](../action/action-response.md)
 
+  Date de disponibilité : 27 janvier 2026.
+
 * **Validation de la taille de la payload du Parcours dans parcours** - Journey Optimizer valide désormais <strong>tailles de la payload</strong> pour garantir des performances optimales et la stabilité du système. Lors de la création ou de la publication de parcours, vous recevez des <strong>avertissements et erreurs</strong> clairs si les tailles de payload approchent ou dépassent les limites recommandées, ainsi que des conseils pratiques pour optimiser votre configuration de parcours. Cette validation proactive vous permet d’identifier rapidement les problèmes potentiels et de maintenir les performances du parcours. [En savoir plus](../start/guardrails.md#journey-payload-size)
+
+  Date de disponibilité : 27 janvier 2026.
+
 
 * **Alertes de Parcours** - De nouvelles <strong>alertes préconfigurées</strong> sont disponibles pour les parcours.
    * <strong>Taux de rejet du profil dépassé</strong> - Ratio des rejets de profil par rapport aux profils entrés au cours des 5 dernières minutes ayant dépassé le seuil
@@ -194,15 +204,21 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Prise en charge des métadonnées générées par l’utilisateur** - La fonction d’assistance <strong>executionMetadata</strong> est désormais disponible dans l’éditeur de personnalisation pour les campagnes orchestrées. Vous pouvez ainsi joindre des informations contextuelles à toute action native et les stocker dans un jeu de données pour les exporter vers des systèmes externes. [En savoir plus](../personalization/functions/helpers.md#execution-metadata)
 
+  Date de disponibilité : 27 janvier 2026.
+
 #### Campagnes
 
 * **Planification de l’opération à l’aide du fuseau horaire du profil** - La planification des opérations peut désormais utiliser le <strong>fuseau horaire</strong> de chaque profil pour diffuser les messages à l’heure locale prévue. [En savoir plus](../campaigns/campaign-schedule.md)
 
   **Remarque** : cette amélioration ne sera disponible que pour un ensemble d’organisations (disponibilité limitée).
 
+  Date de disponibilité : 27 janvier 2026.
+
 #### Autorisations
 
 * **Empêcher l’approbation automatique pour les parcours et les campagnes** - Ajout d’une option lors de la création ou de la définition de la <strong>Politique d’approbation</strong> pour empêcher les créateurs de parcours ou de campagnes de <strong>approuver leurs propres objets</strong>. [En savoir plus](../test-approve/approval-policies.md)
+
+  Date de disponibilité : 27 janvier 2026.
 
 ## Bientôt disponible {#jan-26-01-coming-soon}
 
@@ -220,7 +236,7 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <tr>
 <td>
 <p>Auparavant limité aux campagnes, le canal <strong>Publipostage direct</strong> est désormais disponible sur la zone de travail du parcours, ce qui vous permet d’incorporer le publipostage direct dans vos parcours. Le publipostage direct peut désormais être utilisé dans les scénarios <strong>par lots et de parcours 1:1</strong>, avec la prise en charge de la configuration de l’extraction de fichiers et des paramètres de fréquence temporels.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité sera disponible pour tous les environnements (disponibilité générale).</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p>Date de disponibilité : jeudi 28 janvier 2026</p>
 </td>
 </tr>
@@ -336,7 +352,7 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 
 * **Webhooks SMS** - <strong>Webhooks</strong> sont désormais pris en charge sur tous les fournisseurs de SMS. Vous pouvez configurer chaque webhook en fonction de son objectif, des webhooks entrants pour capturer les messages entrants et des webhooks de commentaires pour recevoir les accusés de réception de diffusion, les mises à jour de statut et d&#39;autres événements liés aux messages.
 
-  Date de disponibilité : 29 janvier 2026.
+  Date de disponibilité : 30 janvier 2026.
 
 * **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des <strong>fragments</strong> aux <strong>éléments de décision</strong> qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision.
 
