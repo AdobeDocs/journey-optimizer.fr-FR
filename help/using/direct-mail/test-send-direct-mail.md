@@ -42,7 +42,7 @@ Avant d’activer la campagne de publipostage direct, assurez-vous que la campag
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Lorsque votre campagne de publipostage direct est prête, effectuez la configuration de votre [parcours ](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
+Lorsque votre campagne de publipostage direct est prête, effectuez la configuration de votre [parcours &#x200B;](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
 
 >[!NOTE]
 >
