@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Action de canal intégrée"
->abstract="Journey Optimizer est fourni avec des fonctionnalités d’actions de canal intégrées. Vous pouvez ajouter à votre parcours un message (e-mail, message texte (SMS/MMS), notification push) ou une expérience entrante (in-app, web, expérience basée sur le code, carte de contenu) et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
+>abstract="Journey Optimizer est fourni avec des fonctionnalités d’actions de canal intégrées. Vous pouvez simplement ajouter à votre parcours une activité de message (e-mail, message texte (SMS/MMS), push, courrier) ou une expérience entrante (expérience in-app, web, basée sur un code, carte de contenu), puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
 
 [!DNL Journey Optimizer] est fourni avec des fonctionnalités d’action de canal intégrées qui sont utilisées pour envoyer des messages : lorsqu’un profil entre dans cette activité, un message lui est envoyé.
 
@@ -54,7 +54,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       <tr style="border: 0;">
       <td>
       <a href="../email/create-email.md">
-      <img alt="Lead" src="../assets/do-not-localize/email.jpg">
+      <img alt="Prospect" src="../assets/do-not-localize/email.jpg">
       </a>
       <div><a href="../email/create-email.md"><strong>Créer des e-mails</strong>
       </div>
@@ -78,6 +78,15 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       </div>
       <p>
       </td>
+      <td>
+      <a href="../direct-mail/create-direct-mail.md">
+      <img alt="Validation" src="../assets/do-not-localize/direct-mail.jpg">
+      </a>
+      <div>
+      <a href="../direct-mail/create-direct-mail.md"><strong>Créer des messages par courrier</strong></a>
+      </div>
+      <p>
+      </td>
       </tr>
       </table>
 
@@ -87,7 +96,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       <tr style="border: 0;">
       <td>
       <a href="../in-app/create-in-app.md">
-      <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
+      <img alt="Prospect" src="../assets/do-not-localize/in-app.jpg">
       </a>
       <div><a href="../in-app/create-in-app.md"><strong>Créer des messages in-app</strong>
       </div>
@@ -95,7 +104,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       </td>
       <td>
       <a href="../web/create-web.md">
-      <img alt="Lead" src="../assets/do-not-localize/web-create.jpg">
+      <img alt="Prospect" src="../assets/do-not-localize/web-create.jpg">
       </a>
       <div><a href="../web/create-web.md"><strong>Créer des expériences web</strong>
       </div>
@@ -103,7 +112,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       </td>
       <td>
       <a href="../content-card/create-content-card.md">
-      <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
+      <img alt="Prospect" src="../assets/do-not-localize/sms-config.jpg">
       </a>
       <div><a href="../content-card/create-content-card.md"><strong>Créer des cartes de contenu</strong>
       </div>

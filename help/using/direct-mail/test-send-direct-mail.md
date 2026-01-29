@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
@@ -34,7 +34,7 @@ Une fois que le contenu du fichier est prêt à être envoyé, fermez l’écran
 >
 > Si votre campagne est soumise à une politique de validation, vous devrez demander l’approbation afin de pouvoir envoyer votre campagne par courrier. [En savoir plus](../test-approve/gs-approval.md)
 
-Avant d’activer la campagne par courrier, vérifiez que la campagne et que le fichier d’extraction sont correctement paramétrés. Pour cela, vérifiez les alertes dans la section supérieure de l’éditeur. Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’envoyer le message. Deux types d’alertes peuvent se produire : avertissements et erreurs.
+Avant d’activer la campagne de publipostage direct, assurez-vous que la campagne ou le parcours et le fichier d’extraction sont correctement configurés. Pour cela, vérifiez les alertes dans la section supérieure de l’éditeur. Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’envoyer le message. Deux types d’alertes peuvent se produire : avertissements et erreurs.
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. Par exemple, un message d’avertissement s’affiche si votre SMS est vide.
 
@@ -42,14 +42,15 @@ Avant d’activer la campagne par courrier, vérifiez que la campagne et que le 
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Lorsque votre campagne par courrier est prête, cliquez sur le bouton **[!UICONTROL Activer]**. Lorsque la campagne démarre, le fichier d’extraction est automatiquement généré et exporté vers le serveur spécifié dans votre [configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md).
+Lorsque votre campagne de publipostage direct est prête, effectuez la configuration de votre [parcours ](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
 
 >[!NOTE]
 >
 >Le fichier exporté se termine par défaut par une nouvelle ligne. Cela garantit la compatibilité avec les outils de traitement des données standard.
 
-
-Une fois le message envoyé, vous pouvez mesurer l’impact de votre campagne par courrier dans les rapports de la campagne. Pour plus d’informations sur le reporting du courrier, consultez [cette section](../reports/campaign-global-report-cja-direct.md).
+Une fois l’envoi effectué, vous pouvez mesurer l’impact de votre campagne ou de votre parcours par publipostage direct dans les rapports. Pour plus d’informations sur les rapports de publipostage direct, reportez-vous aux sections suivantes :
+* [Rapport de campagne par courrier](../reports/campaign-global-report-cja-direct.md)
+* [Rapport de parcours de courrier](../reports/journey-global-report-cja-direct.md)
 
 ## Gérer le consentement relatif au courrier {#dm-consent-management}
 

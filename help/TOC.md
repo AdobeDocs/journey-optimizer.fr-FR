@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '3065'
 ht-degree: 98%
 
 ---
@@ -339,7 +339,6 @@ ht-degree: 98%
       + [Créer un courrier](using/direct-mail/create-direct-mail.md)
       + [Vérifier et envoyer un message de publipostage direct](using/direct-mail/test-send-direct-mail.md)
       + [Configurer le courrier](using/direct-mail/direct-mail-configuration.md)
-      + [Envoyer des messages de publipostage direct avec les parcours](using/direct-mail/direct-mail-journeys.md)
    + Canal web {#web}
       + [Canal web](/help/rp_landing_pages/web-landing-page.md)
       + [Commencer avec le canal web](using/web/get-started-web.md)
@@ -936,7 +935,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

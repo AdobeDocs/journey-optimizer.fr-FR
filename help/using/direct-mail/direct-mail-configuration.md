@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b85210a46c928389db985f0f794618209773c071
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 81%
+source-wordcount: '1708'
+ht-degree: 82%
 
 ---
 
@@ -60,6 +60,11 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 >id="ajo_dm_file_routing_aws_region"
 >title="Choisissez la région AWS"
 >abstract="Sélectionnez la région géographique du serveur AWS où vous souhaitez exporter vos fichiers de publipostage direct. En règle générale, il est préférable de choisir la région la plus proche du lieu où se trouve votre fournisseur de publipostage direct."
+
+>[!CONTEXTUALHELP]
+>id="ajo_dm_file_routing_frequency"
+>title="Choisir la région AWS"
+>abstract="Si votre configuration du routage des fichiers sera envoyée via des parcours, vous pouvez spécifier la fréquence à laquelle le fichier sera envoyé au serveur."
 
 >[!NOTE]
 >
@@ -155,6 +160,10 @@ L&#39;ensemble de la clientèle d’[!DNL Adobe Experience Platform] est approvi
 
 Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
+Si votre configuration du routage des fichiers sera envoyée via des parcours, vous pouvez spécifier la fréquence à laquelle le fichier sera envoyé au serveur.
+
+![](assets/file-routing-journey.png)
+
 Une fois que vous avez renseigné les détails de votre type de serveur, sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
 
 Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu’elle ne sera pas **[!UICONTROL Active]**.
@@ -185,7 +194,7 @@ Si vous utilisez le protocole SFTP avec l’authentification par clé SSH, vous 
 >
 >Après l&#39;encodage Base64, la clé ne contiendra plus les marqueurs `-----BEGIN/END RSA PRIVATE KEY-----` et ne devra pas inclure de sauts de ligne. La clé publique correspondante doit être ajoutée au fichier des clés autorisées de votre serveur SFTP.
 
-Pour plus d’informations sur la connexion de votre compte SFTP à Experience Platform, consultez [cette documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Pour plus d’informations sur la connexion de votre compte SFTP à Experience Platform, consultez [cette documentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 
