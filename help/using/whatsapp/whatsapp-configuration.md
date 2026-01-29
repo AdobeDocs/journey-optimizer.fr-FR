@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
+source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 85%
+source-wordcount: '1130'
+ht-degree: 77%
 
 ---
 
@@ -84,7 +84,13 @@ Après avoir créé et configuré vos informations d’identification d’API, v
 >
 >Sans des mots-clés d’opt-in ou d’opt-out spécifiés, les messages de consentement standard ne sont pas activés.
 
-Une fois vos informations d’identification d’API WhatsApp créées, vous pouvez configurer des webhooks pour capturer les réponses entrantes afin de gérer le consentement d’opt-in et d’opt-out, et pour recevoir des rapports de diffusion tels que les confirmations de lecture (le cas échéant).
+Une fois vos identifiants d&#39;API WhatsApp créés avec succès, vous pouvez configurer les Webhooks pour :
+
+* **Capture des réponses entrantes** pour la gestion du consentement d’opt-in et d’opt-out
+* **Recevoir les rapports de diffusion** tels que les accusés de réception de lecture (le cas échéant) et le statut de diffusion des messages
+* **Activer le suivi des événements** pour les analyses et les rapports dans les jeux de données Adobe Experience Platform
+
+Les Webhooks agissent comme le pont de communication entre la plateforme commerciale WhatsApp de Meta et Adobe Journey Optimizer, ce qui vous permet de recevoir des notifications en temps réel sur les événements de message et les interactions utilisateur.
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks WhatsApp]** dans **[!UICONTROL Paramètres WhatsApp]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
 
@@ -101,6 +107,7 @@ Une fois vos informations d’identification d’API WhatsApp créées, vous pou
    * **[!UICONTROL Mots-clés d’opt-in]**
    * **[!UICONTROL Mots-clés d’opt-out]**
    * **[!UICONTROL Mots-clés d’aide]**
+   * **[!UICONTROL Par défaut]** - Catégorie de secours pour tous les messages entrants qui ne correspondent pas à d’autres mots-clés. Utilisez cette catégorie pour activer le suivi des événements (ouvertures, rapports de diffusion) dans les jeux de données Adobe Experience Platform.
 
 1. Saisissez vos **[!UICONTROL mots-clés]**, puis cliquez sur ![ajouter](assets/do-not-localize/Smock_AddCircle_18_N.svg).
 
@@ -203,6 +210,6 @@ La vidéo ci-dessous montre comment configurer le canal WhatsApp dans Adobe Jou
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470270/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
