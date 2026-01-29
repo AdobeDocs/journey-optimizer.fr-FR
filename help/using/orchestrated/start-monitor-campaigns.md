@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 72%
+source-wordcount: '1141'
+ht-degree: 57%
 
 ---
 
@@ -65,6 +65,22 @@ Une fois votre campagne testée et prête, cliquez sur **[!UICONTROL Publier]** 
 Le flux visuel redémarre et les profils réels commencent à circuler dans le parcours en temps réel.
 
 Si l’action de publication échoue (en raison d’un contenu de message manquant, par exemple), vous recevez un avertissement et vous devez résoudre le problème avant de réessayer. Une fois la publication réussie, la campagne commence à s’exécuter (immédiatement ou selon le planning), passe du statut **Brouillon** au statut **Actif** et devient « Lecture seule ».
+
+## Rétablir le brouillon d’une campagne {#back-to-draft}
+
+La fonctionnalité **[!UICONTROL Retour au brouillon]** vous permet de dépublier et de rétablir le statut de brouillon d’une campagne orchestrée dans des situations spécifiques. Il s’agit d’un mécanisme de récupération conçu pour résoudre les problèmes avant l’envoi des messages, tout en préservant l’intégrité du cycle de vie de la campagne.
+
+Cette option est disponible dans deux scénarios :
+
+* **Campagnes planifiées en attente d’exécution** : lorsqu’une campagne est planifiée pour s’exécuter à un moment spécifique et que ce moment n’a pas encore été atteint, vous pouvez utiliser l’option Retour au brouillon pour vérifier et modifier la campagne avant qu’elle ne commence à s’exécuter. Cependant, si la campagne est récurrente (une campagne planifiée quotidienne, par exemple) et qu’au moins une exécution a déjà eu lieu, l’option n’est plus disponible. Dans ce cas, vous devez [dupliquer la campagne](../campaigns/manage-campaigns.md#duplicate-a-campaign) à la place.
+
+* **Campagnes dynamiques avec des erreurs d’exécution** : lorsqu’une campagne a rencontré une erreur lors de l’exécution et qu’elle est suspendue et qu’aucune exécution de campagne n’a encore été terminée, vous pouvez réutiliser l’option Précédent pour créer un brouillon et corriger l’erreur, puis republier la campagne.
+
+Pour rétablir le statut de brouillon d’une campagne, ouvrez la campagne orchestrée, puis cliquez sur le bouton **[!UICONTROL Retour au brouillon]** dans la barre d’outils de la zone de travail de campagne.
+
+![](assets/back-to-draft.png)
+
+La campagne est dépubliée et le workflow est arrêté. La campagne revient au statut **Brouillon**. Vous pouvez maintenant résoudre les problèmes identifiés, puis [tester la campagne](#test) et [la publier](#publish) une fois prête.
 
 ## Confirmer l’envoi du message {#confirm-sending}
 

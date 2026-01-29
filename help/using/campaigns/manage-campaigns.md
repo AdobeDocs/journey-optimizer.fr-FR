@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 66%
+source-wordcount: '1682'
+ht-degree: 64%
 
 ---
 
@@ -100,15 +100,19 @@ L’image ![qui affiche le bouton Autres actions](assets/do-not-localize/rule-bu
 * **[!UICONTROL Ajouter au package]** : ajoutez la campagne à un package pour l’exporter vers un autre sandbox. [Découvrez comment exporter des objets →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Ouvrir la version brouillon]** : si une nouvelle version de la campagne a été créée et n’a pas encore été activée, vous pouvez accéder à sa version brouillon à l’aide de cette action.
 
+**Pour les campagnes orchestrées uniquement :**
+
+* **[!UICONTROL Retour au brouillon]** - Dépubliez et revenez à l’état de brouillon d’une campagne pour la récupération des erreurs. Cette action est disponible lorsqu’une campagne planifiée n’a pas encore démarré ou lorsqu’une campagne active rencontre une erreur avant que les exécutions ne soient terminées. [En savoir plus sur la restauration de campagnes →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
 ## Comprendre le statut de la campagne {#statuses}
 
 Chaque campagne passe par un cycle de vie qui est reflété par son statut dans l’interface. Comprendre ces statuts vous permet de savoir quelles actions sont disponibles et ce qu’il faut faire ensuite.
 
-| Statut | Campagnes d’action | Campagnes déclenchées par l’API | Campagnes orchestrées | Signification | Actions suivantes |
+| État | Campagnes d’action | Campagnes déclenchées par API | Campagnes orchestrées | Signification | Actions suivantes |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL Brouillon]** | ✅ | ✅ | ✅ | En cours de modification, non activé | Poursuivre la modification ou [activer la campagne](review-activate-campaign.md) |
 | **[!UICONTROL Planifié]** | ✅ | ✅ | ✅ | Configuré pour une date de début spécifique | Attendre le lancement, [modifier si nécessaire](#modify) ou [afficher dans le calendrier](#calendar) |
-| **[!UICONTROL En direct]** | ✅ | ✅ | ✅ | Activé et en cours d’exécution | [Surveillance des performances](../reports/campaign-global-report-cja.md), [création d’une nouvelle version](#modify) si nécessaire |
+| **[!UICONTROL En direct]** | ✅ | ✅ | ✅ | Activé et en cours d’exécution | [Surveillance des performances](../reports/campaign-global-report-cja.md), [création d’une nouvelle version](#modify) si nécessaire. Pour les campagnes orchestrées : [revenir au brouillon](../orchestrated/start-monitor-campaigns.md#back-to-draft) pour les campagnes planifiées qui ne sont pas encore lancées ou les campagnes présentant des erreurs d’exécution avant l’envoi des messages |
 | **[!UICONTROL En révision]** | ✅ | ✅ | — | Soumis pour approbation | Attendre l’[approbation](../test-approve/gs-approval.md) ou modifier |
 | **[!UICONTROL Arrêtée]** | ✅ | ✅ | ✅ | Arrêté manuellement, impossible de réactiver | [Dupliquer pour réutiliser](#duplicate-a-campaign) |
 | **[!UICONTROL Terminé]** | ✅ | ✅ | ✅ | Exécution terminée (affectée automatiquement 3 jours après l’activation ou à la date de fin pour la période récurrente) | [Affichage des rapports](../reports/campaign-global-report-cja.md), [archivage](#archive-a-campaign) ou [duplication](#duplicate-a-campaign) |
@@ -257,7 +261,7 @@ La campagne est créée et ajoutée à la liste des campagnes.
 
 ## Ressources supplémentaires
 
-* **Prise en main** - [Prise en main des campagnes](get-started-with-campaigns.md) | [Créer votre première campagne Action](create-campaign.md) | [&#x200B; Guide des campagnes déclenchées par API &#x200B;](api-triggered-campaigns.md) | [&#x200B; Guide des campagnes orchestrées &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
+* **Prise en main** - [Prise en main des campagnes](get-started-with-campaigns.md) | [Créer votre première campagne Action](create-campaign.md) | [ Guide des campagnes déclenchées par API ](api-triggered-campaigns.md) | [ Guide des campagnes orchestrées ](../orchestrated/gs-orchestrated-campaigns.md)
 
 * **Configuration de la campagne** - [Propriétés de la campagne](campaign-properties.md) | [Actions et canaux de Campaign](campaign-action.md) | [Conception de contenu Campaign](campaign-content.md) | [Sélection de l’audience de la campagne](campaign-audience.md) | [Planification des campagnes](campaign-schedule.md)
 
