@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 89%
@@ -92,6 +92,8 @@ Lorsque votre fichier d’extraction est prêt, terminez la configuration de vot
 1. Les campagnes peuvent être planifiées pour une date spécifique ou définies pour être récurrentes à intervalles réguliers. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/campaign-schedule.md).
 
 Vous pouvez maintenant commencer à configurer le fichier d’extraction à envoyer à votre opérateur de publipostage direct.
+
+>[!ENDTABS]
 
 ## Configurer le fichier d’extraction {#extraction-file}
 
