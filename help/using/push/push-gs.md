@@ -8,10 +8,10 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
+source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 100%
+source-wordcount: '792'
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ Cette page vous aidera à configurer et à comprendre les services et les workfl
 
 >[!AVAILABILITY]
 >
->Le nouveau **workflow de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile, afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique. [En savoir plus](mobile-onboarding-wf.md).
+>Le nouveau **workflow de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile, afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique. [En savoir plus](mobile-onboarding-wf.md)
 >
 
 Apprenez sur [cette page](create-push.md) à créer des notifications push.
@@ -36,6 +36,11 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 1. Enregistrement de votre application mobile de marque (Android ou iOS) auprès d&#39;APNs d&#39;Apple et des services de messagerie push Google FCM
 1. Les services de messagerie génèrent un jeton push, qui est un identifiant qu’utilisera [!DNL Adobe Journey Optimizer] pour cibler l’appareil spécifique avec une notification push.
 1. Le jeton push généré précédemment est transmis à Adobe Experience Platform et synchronisé avec le profil client en temps réel. Cette opération est effectuée en standard avec un SDK client facile à intégrer.
+
+   >[!NOTE]
+   >
+   >La gestion des jetons diffère selon les plateformes. Sur **Android (FCM)**, les jetons sont automatiquement marqués comme non valides lorsque les utilisateurs effacent le cache de l’application ou réinstallent l’application, générant un nouveau jeton et un ECID. Sur **iOS (APNs)**, les jetons ne sont pas systématiquement marqués comme non valides dans ces scénarios. Si un profil contient plusieurs ECID avec des jetons valides, les notifications push sont envoyées à tous les appareils associés.
+
 1. Les messages push sont créés dans [!DNL Adobe Journey Optimizer]. Ils respectent une configuration de canal (c’est-à-dire un préréglage de message).
 1. Les messages push peuvent être inclus dans la zone de travail d&#39;orchestration des parcours.
 1. Lors de la publication des parcours, les profils client basés sur les conditions des parcours sont qualifiés pour recevoir des notifications push. Les payloads de messagerie push sont personnalisées à cette étape.
@@ -44,7 +49,7 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 1. envoie le message aux services de messagerie Apple et Google pour une diffusion finale.
 1. Les retours d’expérience des services de messagerie sont notés, les erreurs et les succès sont consignés pour le reporting dans les rapports dynamiques sur les parcours et Customer Journey Analytics.
 1. Les notifications push sont diffusées sur les appareils de l&#39;utilisateur final.
-1. Les interactions de notification push de l&#39;utilisateur final sont envoyées en tant qu&#39;événements d&#39;expérience depuis le client de l&#39;utilisateur final via l&#39;intégration du SDK.
+1. Les interactions de notification push de l’utilisateur final sont envoyées en tant qu’événements d’expérience depuis le client de l’utilisateur final via l’intégration du SDK.
 
 ## Rôles des services clés des notifications push {#roles-of-key-services}
 
