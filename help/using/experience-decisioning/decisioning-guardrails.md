@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+source-git-commit: 5be6ecd85b0b45e01f7a27e0ffc55a2c6a22bcea
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 91%
+source-wordcount: '263'
+ht-degree: 83%
 
 ---
 
@@ -33,22 +33,21 @@ La liste complète des mécanismes de sécurisation et limitations de [!DNL Jour
 | ------- | ------- |
 | Total des éléments de décision | 10 000 |
 | Taille maximale des éléments, y compris les attributs (1 Ko), 30 attributs max. | 1 Ko |
-| Taille maximale de représentation de l&#39;élément (total pour tous les emplacements) | 1 Ko |
-| Règles de fréquence : nombre maximal de règles de limitation par offre | 10 |
+| Règles de fréquence - Nombre maximal de règles de limitation par élément de décision | 10 |
 
 ## Collections d’éléments {#item-collections}
 
 | Mécanisme de sécurisation | Limite |
 | ------- | ------- |
 | Collections d’éléments | 10 000 |
-| Nombre total d’éléments d’offre par collection d’éléments | 500 |
+| Total des éléments de décision par collection | 500 |
 
 ## Politique de décision {#decision-policy}
 
 | Mécanisme de sécurisation | Limite |
 | ------- | ------- |
 | Nombre de stratégies de sélection et d’éléments manuels par politique de décision | 10 |
-| Nombre maximal d’éléments d’offre renvoyés par politique de décision | 30 |
+| Nombre maximal d’éléments de décision renvoyés par politique de décision | 30 |
 
 ## Règles d’éligibilité {#eligibility-rules}
 
@@ -73,7 +72,7 @@ La liste complète des mécanismes de sécurisation et limitations de [!DNL Jour
 
 | Mécanisme de sécurisation | Limite |
 | ------- | ------- |
-| Nombre d&#39;attributs personnalisés par schéma de catalogue d&#39;offres | 100 |
+| Nombre d’attributs personnalisés par schéma de catalogue d’articles | 100 |
 | Nombre total d’emplacements | 1 000 |
 | Modèle de classement AI | 5 |
 
