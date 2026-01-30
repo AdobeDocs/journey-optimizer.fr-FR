@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+source-git-commit: d6a46a6db9bcef4def71e915389d725c69d851c3
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 81%
 
 ---
 
@@ -45,18 +45,23 @@ Notez que le nombre de caractères ne reflète pas les variations liées à la p
 
 ## Valider votre contenu {#sms-validate}
 
+>[!NOTE]
+>
+> Pour améliorer votre délivrabilité, utilisez les numéros de téléphone dans les formats pris en charge par le fournisseur. Par exemple, Twilio et Sinch ne prennent en charge que les numéros de téléphone au format E.164.
+
 Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’envoyer le message. Deux types d’alertes peuvent se produire : avertissements et erreurs.
 
 ![](assets/sms-alert-button.png)
 
-* Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. Par exemple, un message d’avertissement s’affiche si votre message texte est vide.
+* Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. Par exemple, un message d’avertissement s’affiche si votre message texte est vide ou si les limites de caractères peuvent être dépassées avec du contenu dynamique.
+
+  **Limites de caractères :** 160 caractères par segment (GSM 7 bits), 70 caractères pour Unicode/émojis, jusqu’à 1 500 caractères au total.
 
 * Les **erreurs** vous empêchent de tester ou d’activer le parcours ou de publier la campagne tant que celles-ci ne sont pas corrigées. Par exemple, un message d’erreur vous avertit lorsque l’objet est manquant.
 
+L’**d’alerte « La limite de caractères du texte du SMS a été dépassée »** peut apparaître même lorsque le message simulé est plus court, car la validation calcule la **longueur maximale possible** en évaluant toutes les branches conditionnelles, les champs de personnalisation et le contenu dynamique à leur plus longue longueur.
 
->[!NOTE]
->
-> Pour améliorer votre délivrabilité, utilisez les numéros de téléphone dans les formats pris en charge par le fournisseur. Par exemple, Twilio et Sinch ne prennent en charge que les numéros de téléphone au format E.164.
+La validation calcule la longueur maximale de toutes les données de profil possibles, tandis que la simulation affiche la sortie réelle d’un profil de test.
 
 ## Envoyer vos messages texte {#sms-send}
 
