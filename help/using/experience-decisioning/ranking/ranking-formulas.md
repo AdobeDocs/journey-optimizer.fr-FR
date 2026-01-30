@@ -7,22 +7,24 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '1457'
-ht-degree: 100%
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+workflow-type: tm+mt
+source-wordcount: '1481'
+ht-degree: 95%
 
 ---
 
 # Utiliser le créateur de formules d’IA {#create-ranking-formulas}
 
-Les **formules de classement** permettent de définir des règles qui déterminent les offres à présenter en premier, plutôt que de prendre en compte les scores de priorité.
+Les **formules de classement** vous permettent de définir des règles déterminant quelle offre doit être présentée en premier, plutôt que de prendre en compte les scores de priorité.
 
 Pour créer ces règles, le créateur de formules d’IA d’**[!UICONTROL Adobe Journey Optimizer]** offre une plus grande flexibilité et un meilleur contrôle du classement des offres. Au lieu de vous fier uniquement à une priorité d’offre statique, vous pouvez à présent définir des formules de classement personnalisées qui combinent les scores du modèle d’IA, les priorités d’offre, les attributs de profil, les attributs d’offre et les signaux contextuels par le biais d’une interface guidée.
 
 Cette approche vous permet d’ajuster dynamiquement le classement des offres en fonction de n’importe quelle combinaison entre la propension pilotée par l’IA, la valeur commerciale et le contexte en temps réel, ce qui facilite l’alignement de la prise de décisions sur les objectifs marketing et les besoins de la clientèle. Le créateur de formules d’IA prend en charge les formules simples ou avancées en fonction du niveau de contrôle que vous souhaitez appliquer.
 
 Après avoir créé une formule de classement, vous pouvez l’affecter à une [stratégie de sélection](../selection-strategies.md). Si plusieurs offres sont éligibles à la présentation lors de l’utilisation de cette stratégie de sélection, le moteur de décision emploiera la formule sélectionnée pour calculer l’offre à présenter en premier.
+
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Créer une formule de classement {#create-ranking-formula}
 
@@ -93,9 +95,9 @@ Pour définir des critères directement à partir de l’interface, procédez co
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. Dans la section **[!UICONTROL Critère 1]**, spécifiez les éléments de décision auxquels vous souhaitez appliquer un score de classement en procédant comme suit :
-   * Sélectionnez un [attribut d’élément de décision](../items.md#attributes).
-   * Sélectionnez un opérateur logique.
-   * Ajoutez une condition correspondante. Vous pouvez saisir une valeur ou sélectionner un attribut de profil ou des [données contextuelles](../context-data.md).
+   * sélectionnez un [attribut d’élément de décision](../items.md#attributes)
+   * sélectionner un opérateur logique
+   * ajouter une condition correspondante - vous pouvez saisir une valeur ou sélectionner un attribut de profil ou [des données contextuelles](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -274,3 +276,9 @@ Notez que lorsque vous utilisez l’API **Decisioning**, les données contextuel
 ```
 
 +++
+
+## Vidéo pratique {#video}
+
+Découvrez comment utiliser le créateur de formules d’IA dans Adobe Journey Optimizer pour créer des stratégies de classement d’offres personnalisées.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)

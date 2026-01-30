@@ -7,16 +7,18 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 96%
+source-wordcount: '880'
+ht-degree: 91%
 
 ---
 
 # Utiliser la prise de décision dans une expérience basée sur le code avec une expérience de contenu {#experience-decisioning-uc}
 
 Ce cas d’utilisation présente toutes les étapes nécessaires pour utiliser la prise de décisions avec le canal basé sur le code [!DNL Journey Optimizer].
+
+➡️ [Découvrir un cas pratique en vidéo](#video)
 
 >[!NOTE]
 >
@@ -95,11 +97,7 @@ Pour créer la deuxième stratégie de sélection avec la sélection d’une for
 
 ## Créer une campagne d’expérience basée sur le code
 
-<!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
-
-Define two delivery treatments each containing a different decision policy.-->
-
-Une fois que vous avez configuré les deux stratégies de sélection, créez une campagne d’expérience basée sur le code dans laquelle vous définissez un traitement différent pour chaque stratégie afin de comparer celle qui fonctionne le mieux.
+Une fois que vous avez configuré les deux stratégies de sélection, créez une campagne d’expérience basée sur le code dans laquelle vous définissez un traitement différent pour chaque stratégie, afin de comparer celle qui fonctionne le mieux.
 
 1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur du code]**. [En savoir plus](../code-based/create-code-based.md)
 
@@ -133,7 +131,7 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez un
 
 1. Enregistrez votre sélection et cliquez sur **[!UICONTROL Créer]**. La nouvelle décision est ajoutée sous **[!UICONTROL Politique de décision]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Insérer une politique]**. Le code correspondant à la politique de décision est ajouté. Ajoutez ensuite tous les attributs souhaités au code, y compris les attributs de profil. [En savoir plus](create-decision.md#create-decision).
+1. Cliquez sur le bouton **[!UICONTROL Insérer une politique]**. Le code correspondant à la politique de décision est ajouté. Ajoutez ensuite tous les attributs souhaités au code, y compris les attributs de profil. [En savoir plus](create-decision.md#create-decision)
 
    ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 
@@ -157,3 +155,9 @@ Si le résultat est concluant :
 
 * Vous pouvez envoyer le traitement avec le classement le plus performant à l’ensemble de votre clientèle.
 * Vous pouvez également créer une campagne à l’aide de la stratégie de sélection dans laquelle la méthode de classement la plus performante est répliquée.
+
+## Vidéo pratique {#video}
+
+Découvrez une présentation complète montrant comment utiliser la prise de décision dans une expérience basée sur du code.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451100/?learn=on&enablevpops)

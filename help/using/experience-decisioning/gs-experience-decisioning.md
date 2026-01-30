@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '619'
-ht-degree: 100%
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,13 @@ ht-degree: 100%
 
 La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque personne.
 
-Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au [nouveau canal d’expérience basée sur du code](../code-based/get-started-code-based.md), accessible dans les campagnes Journey Optimizer.
+Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes par le biais du [canal d’expérience basé sur le code](../code-based/get-started-code-based.md), accessible dans les campagnes [!DNL Adobe Journey Optimizer].
 
 >[!IMPORTANT]
 >
 >Les politiques de décision, dans la prise de décision, ne peuvent être utilisées que dans des campagnes d’expérience basée sur du code et des campagnes par e-mail.
+
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ➡️ Un cas d’utilisation de bout en bout montrant comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur du code est présenté dans [cette section](experience-decisioning-uc.md).
 
@@ -45,7 +47,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
       ![](assets/decision_permission_1.png)
 
-   1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+   1. Dans l’onglet **[!UICONTROL Utilisateurs et utilisatrices]**, cliquez sur **[!UICONTROL Ajouter un utilisateur ou une utilisatrice]**.
 
       ![](assets/decision_permission_2.png)
 
@@ -98,3 +100,8 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 * **[Mécanismes de sécurisation de prise de décision](decisioning-guardrails.md)** - Examinez les limites importantes et les bonnes pratiques pour la mise en œuvre de la prise de décision.
 * **[Tutoriels sur la prise de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur les fonctionnalités de prise de décision et les bonnes pratiques.
 
+## Vidéo pratique {#video}
+
+Découvrez les fonctionnalités de prise de décision dans Adobe Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
