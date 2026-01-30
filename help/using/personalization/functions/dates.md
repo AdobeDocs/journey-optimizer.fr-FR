@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 98%
@@ -412,7 +412,7 @@ Où la première chaîne correspond à l’attribut date et la seconde à la man
 
 >[!NOTE]
 >
-> Si un modèle de date n’est pas valide, la date revient au format ISO standard.
+> Si un modèle de date n’est pas valide, la date bascule vers le format ISO standard.
 >
 > Vous pouvez utiliser des fonctions de mise en forme des dates de Java, tel que cela est résumé dans la [documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}.
 
@@ -451,7 +451,7 @@ Lorsque la première chaîne correspond à l’attribut de date, la seconde vale
 
 >[!NOTE]
 >
-> Si un modèle de date n’est pas valide, la date revient au format ISO standard.
+> Si un modèle de date n’est pas valide, la date bascule vers le format ISO standard.
 >
 > Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la [documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
