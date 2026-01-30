@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 94%
 
 ---
 
-# Rapport de campagne par notification push {#campaign-global-report-cja-push}
+# Rapport de campagne de notifications push {#campaign-global-report-cja-push}
 
 >[!BEGINSHADEBOX]
 
@@ -33,7 +33,7 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 +++ En savoir plus sur les mesures de statistiques d’envoi
 
-* **[!UICONTROL Ciblées]** : nombre total de notifications push traitées lors de l’analyse.
+* **[!UICONTROL Ciblés]** : nombre de profils qui remplissent les critères de l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement. Dans les parcours dont la rentrée est activée, un profil peut être ciblé plusieurs fois.
 
 * **[!UICONTROL Envois]** : nombre total d’envois pour la notification push.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 100%
+source-wordcount: '2216'
+ht-degree: 96%
 
 ---
 
@@ -68,11 +68,11 @@ Les KPI des **[!UICONTROL e-mails]** fournissent un tableau de bord ciblé de m
 
 ![](assets/cja-email-click-funnel.png)
 
-Le graphique **[!UICONTROL Entonnoir de clics]** présente une analyse détaillée de la manière dont les profils ont interagi avec le contenu de vos e-mails, offrant ainsi des informations précieuses sur chaque étape de l’interaction, depuis la diffusion jusqu’aux clics. Cela vous aide à comprendre l’efficacité de vos messages pour stimuler l’interaction client.
+Le graphique **[!UICONTROL Entonnoir de clics]** fournit une analyse approfondie de l’engagement des profils avec le contenu de vos e-mails, offrant ainsi des informations précieuses sur chaque étape de l’interaction, depuis la diffusion jusqu’aux clics. Cela vous aide à comprendre l’efficacité de vos messages pour stimuler l’engagement client.
 
 +++ En savoir plus sur les mesures de l’entonnoir des clics
 
-* **[!UICONTROL Ciblages uniques]** : nombre de profils uniques ciblés pendant le processus d’envoi.
+* **[!UICONTROL Ciblés uniques]** : nombre de profils uniques qualifiés pour l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement.
 
 * **[!UICONTROL Envois uniques]** : nombre de profils uniques pour lesquels au moins une tentative d’envoi d’e-mail a eu lieu.
 
@@ -124,7 +124,7 @@ Le tableau **[!UICONTROL Statistiques d’envois uniques]** présente une vue d�
 
 +++ En savoir plus sur la mesure Statistiques d’envois uniques
 
-* **[!UICONTROL Ciblages uniques]** : nombre de profils uniques ciblés pendant le processus d’envoi.
+* **[!UICONTROL Ciblés uniques]** : nombre de profils uniques qualifiés pour l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement.
 
 * **[!UICONTROL Envois uniques]** : nombre de profils uniques pour lesquels au moins une tentative d’envoi d’e-mail a eu lieu.
 
@@ -170,7 +170,7 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 +++ En savoir plus sur les mesures de statistiques d’envoi
 
-* **[!UICONTROL Ciblés]** : nombre total d’e-mails traités lors de la procédure d’envoi.
+* **[!UICONTROL Ciblés]** : nombre de profils qui remplissent les critères de l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement. Dans les parcours dont la rentrée est activée, un profil peut être ciblé plusieurs fois.
 
 * **[!UICONTROL Envois]** : nombre total d’e-mails envoyés.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 92%
 
 ---
 
@@ -33,9 +33,9 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 +++ En savoir plus sur les mesures de statistiques d’envoi
 
-* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices identifiés comme cibles de vos messages.
 
-* **[!UICONTROL Ciblés]** : nombre total de messages de publipostage direct traités lors de la procédure d’envoi.
+* **[!UICONTROL Ciblés]** : nombre de profils qui remplissent les critères de l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement. Dans les parcours dont la rentrée est activée, un profil peut être ciblé plusieurs fois.
 
 * **[!UICONTROL Envois]** : nombre total de messages de publipostage direct envoyés.
 

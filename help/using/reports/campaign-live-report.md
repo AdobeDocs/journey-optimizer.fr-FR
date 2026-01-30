@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '3521'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '3543'
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ Le tableau **[!UICONTROL Mesures d’envoi par e-mail]** offre un résumé compl
 
 * **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre e-mail récurrent. Pour ne cibler qu’un ou plusieurs e-mails récurrents, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
-* **[!UICONTROL Ciblés]** : nombre total de messages traités lors de la procédure d’envoi.
+* **[!UICONTROL Ciblés]** : nombre de profils qui remplissent les critères de l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement.
 
 * **[!UICONTROL Exclus]** : nombre de profils utilisateurs, exclus des profils ciblés, qui n’ont pas reçu le message.
 
@@ -330,7 +330,7 @@ Le tableau **[!UICONTROL Notification push – Statistiques]** fournit un résum
 
 * **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre notification push récurrente. Pour ne cibler qu’une ou plusieurs notifications push récurrentes, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
-* **[!UICONTROL Ciblés]** : nombre total de messages traités lors de la procédure d’envoi.
+* **[!UICONTROL Ciblés]** : nombre de profils qui remplissent les critères de l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement.
 
 * **[!UICONTROL Exclus]** : nombre de profils utilisateurs, exclus des profils ciblés, qui n’ont pas reçu le message.
 
@@ -400,7 +400,7 @@ Le graphe et le tableau **[!UICONTROL Notification push – Répartition par pla
 
 +++ En savoir plus sur les mesures Notification push – Répartition par plateforme
 
-* **[!UICONTROL Ciblés]** : nombre total de messages traités lors de l’analyse.
+* **[!UICONTROL Ciblés]** : nombre de profils qui remplissent les critères de l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement.
 
 * **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -606,7 +606,7 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 ## Ressources supplémentaires
 
 * [Commencer avec les campagnes](../campaigns/get-started-with-campaigns.md)
-* [Création d’une campagne](../campaigns/create-campaign.md)
+* [Créer une campagne](../campaigns/create-campaign.md)
 * [Créer des campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)
 * [Modification ou arrêt d’une campagne](../campaigns/manage-campaigns.md)
 * [Rapport de campagne](campaign-global-report-cja.md)

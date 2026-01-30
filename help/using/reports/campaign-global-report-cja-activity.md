@@ -7,10 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit une vue d’ensemble 
 
 +++ En savoir plus sur les mesures de statistiques d’envoi
 
-* **[!UICONTROL Ciblés]** : nombre total de profils ciblés pendant l’activité dynamique.
+* **[!UICONTROL Ciblés]** : nombre de profils qui remplissent les critères de l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement.
 
 * **[!UICONTROL Envois]** : nombre total de tentatives d’envoi de notifications push aux profils ciblés.
 

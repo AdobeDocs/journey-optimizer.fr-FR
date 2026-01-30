@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
-workflow-type: ht
-source-wordcount: '2162'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '2189'
+ht-degree: 97%
 
 ---
 
@@ -144,7 +144,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Ciblés<br/> </td> 
-   <td> Nombre total de messages traités lors de l’analyse de la diffusion.<br/> </td> 
+   <td> Nombre de profils qualifiés pour l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement. Dans les parcours dont la rentrée est activée, un profil peut être ciblé plusieurs fois.<br/> </td> 
   </tr>
   <tr> 
    <td>Rebonds uniques<br/> </td> 
@@ -197,7 +197,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr>
   <tr> 
    <td>Ciblages uniques<br/> </td> 
-   <td>Nombre de profils uniques ciblés pendant le processus d’envoi.<br/> </td> 
+   <td>Nombre de profils uniques qualifiés pour l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement.<br/> </td> 
   </tr> 
   <tr> 
    <td> Désabonnements<br/> </td> 
@@ -217,7 +217,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </thead> 
   <tbody> 
     <tr> 
-      <td>Diffusés</td> 
+      <td>Délivrés</td> 
       <td>Nombre de SMS dont l’envoi a réussi par rapport au nombre total de SMS envoyés.</td> 
     </tr>
     <tr> 
@@ -528,7 +528,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-## Publipostage direct {#direct-mail}
+## Courrier {#direct-mail}
 
 <table> 
  <thead> 

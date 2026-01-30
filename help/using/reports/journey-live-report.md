@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '3712'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '3731'
+ht-degree: 99%
 
 ---
 
@@ -210,7 +210,7 @@ Le tableau **[!UICONTROL E-mail – Statistiques]** fournit un résumé complet 
 
 +++ En savoir plus sur les mesures Statistiques d’envoi d’e-mails
 
-* **[!UICONTROL Ciblés]** : nombre total de messages traités lors de la procédure d’envoi.
+* **[!UICONTROL Ciblés]** : nombre de profils qui remplissent les critères de l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement. Dans les parcours dont la rentrée est activée, un profil peut être ciblé plusieurs fois.
 
 * **[!UICONTROL Exclus]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer.
 
