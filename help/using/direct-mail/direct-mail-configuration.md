@@ -194,7 +194,7 @@ Si vous utilisez le protocole SFTP avec l’authentification par clé SSH, vous 
 >
 >Après l&#39;encodage Base64, la clé ne contiendra plus les marqueurs `-----BEGIN/END RSA PRIVATE KEY-----` et ne devra pas inclure de sauts de ligne. La clé publique correspondante doit être ajoutée au fichier des clés autorisées de votre serveur SFTP.
 
-Pour plus d’informations sur la connexion de votre compte SFTP à Experience Platform, consultez [cette documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Pour plus d’informations sur la connexion de votre compte SFTP à Experience Platform, consultez [cette documentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 
