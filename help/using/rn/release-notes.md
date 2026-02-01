@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 124ff40cf7cdc0dfdaf67924ff5fb558c96e2956
+source-git-commit: 6c51328bdea0daf44b1315cf139b60d5bc2c5c76
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 23%
@@ -35,7 +35,7 @@ Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
@@ -179,7 +179,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous pouvez désormais évaluer l’ensemble <strong>qualité du contenu</strong> pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d&#39;identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality).
 
-  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on).
+  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -265,7 +265,7 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <li>Prise en charge de la restauration pour les migrations terminées</li>
 <li>Rapports de migration détaillés avec les mappages d’objet</li>
 </ul>
-<p>Date de disponibilité : samedi 30 janvier 2026</p>
+<p>Date de disponibilité : jeudi 11 février 2026</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <tr>
 <td>
 <p>Vous pouvez désormais personnaliser et optimiser le contenu de vos messages <strong>push et SMS</strong> avec <strong>Decisioning</strong>. Utilisez des scores de priorité, des formules ou des modèles d’IA pour afficher le meilleur contenu à vos clients.</p>
-<p>Date de disponibilité : mardi 9 février 2026</p>
+<p>Date de disponibilité : jeudi 11 février 2026</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +298,7 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <td>
 <p>Une nouvelle <strong>activité de décision de contenu</strong> est désormais disponible dans la zone de travail du parcours pour intégrer <strong>offres personnalisées</strong> directement dans vos parcours clients. Cette activité vous permet de diffuser du contenu basé sur des décisions et de référencer ces offres dans l’ensemble de votre parcours, dans des conditions de création d’embranchements basés sur l’éligibilité, dans des actions personnalisées pour transmettre des données d’offre à des systèmes externes et dans d’autres activités pour créer des expériences client entièrement personnalisées.</p>
 <p>Cette fonctionnalité sera disponible dans tous les environnements (disponibilité générale).</p>
-<p>Date de disponibilité : mardi 9 février 2026</p>
+<p>Date de disponibilité : jeudi 11 février 2026</p>
 </td>
 </tr>
 </tbody>
@@ -327,4 +327,4 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 
 * **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des <strong>fragments</strong> aux <strong>éléments de décision</strong> qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision.
 
-  Date de disponibilité : 9 février 2026.
+  Date de disponibilité : 11 février 2026.
