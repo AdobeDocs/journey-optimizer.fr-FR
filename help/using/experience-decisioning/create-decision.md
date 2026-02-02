@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ Les politiques de décision sont des conteneurs pour vos offres qui tirent profi
 
 >[!AVAILABILITY]
 >
->Pour l’instant, les politiques de décision sont disponibles pour tous les clients et clientes pour le canal d’expérience basée sur du code. Elles sont en disponibilité limitée pour le canal e-mail. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Pour l’instant, les politiques de décision sont disponibles pour tous les clients et clientes pour le canal d’expérience basée sur du code. Elles sont en disponibilité limitée pour le canal e-mail. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 ## Principales étapes {#key}
 
@@ -85,3 +85,8 @@ Maintenant que vous comprenez comment fonctionnent les politiques de décision e
 
 ➡️ [Découvrez comment créer une politique de décision.](../experience-decisioning/create-decision-policy.md)
 
+## Vidéo pratique {#video}
+
+Découvrez comment utiliser Decisioning pour personnaliser les e-mails pour votre audience.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
