@@ -89,4 +89,4 @@ Maintenant que vous comprenez comment fonctionnent les politiques de décision e
 
 Découvrez comment utiliser Decisioning pour personnaliser les e-mails pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479212?captions=fre_fr&quality=12)
