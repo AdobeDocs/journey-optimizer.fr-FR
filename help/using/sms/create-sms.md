@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 98%
+source-wordcount: '1178'
+ht-degree: 93%
 
 ---
 
@@ -74,7 +74,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message SMS en
 
    ![](assets/sms_create_3.png)
 
-1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md).
+1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md)
 
 1. Dans la section **[!UICONTROL Tracking des actions]**, indiquez si vous souhaitez effectuer le tracking des clics sur les liens de votre SMS.
 
@@ -136,6 +136,12 @@ Pour configurer le contenu de votre message, suivez les étapes ci-après. Les p
    > La durée de vie des URL courtes est définie sur 30 jours. Passé ce délai, ces URL courtes ne seront plus accessibles et afficheront le message suivant : `404 short-code not found`.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Vous pouvez maintenant tester et vérifier le contenu de votre message, comme indiqué dans [cette section](#sms-mms-test).
+
+## Personnaliser avec Experience Decisioning {#decisioning-sms}
+
+Vous pouvez personnaliser et optimiser le contenu de vos SMS avec **Experience Decisioning**. Cette fonctionnalité vous permet d’utiliser des scores de priorité, des formules ou des modèles d’IA pour sélectionner et afficher dynamiquement le meilleur contenu pour vos clients.
+
+Pour plus d’informations sur la création et l’utilisation des politiques de décision dans les SMS, consultez [cette section](../experience-decisioning/create-decision.md).
 
 ## Définir le contenu de votre MMS{#mms-content}
 

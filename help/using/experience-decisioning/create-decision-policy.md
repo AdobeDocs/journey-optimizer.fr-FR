@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 71%
+source-wordcount: '2108'
+ht-degree: 68%
 
 ---
 
@@ -43,7 +43,7 @@ Pour présenter la meilleure offre et expérience dynamique à votre clientèle,
 
 >[!AVAILABILITY]
 >
->Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code** et **Notification push**.
+>Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et SMS.
 >
 >La prise de décision pour le canal e-mail est disponible en disponibilité limitée. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
@@ -114,6 +114,27 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
    >[!NOTE]
    >
    >Sélectionnez **[!UICONTROL Réutiliser la sortie de décision]** pour réutiliser une politique de décision déjà créée dans cet e-mail.
+
+>[!TAB SMS]
+
+Pour les SMS, vous pouvez ajouter une nouvelle politique de décision à l’aide du menu **éditeur de personnalisation** ou **Prise de décision** disponible dans le volet des propriétés.
+
++++Ajouter une politique de décision à partir de l’éditeur de personnalisation
+
+1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) .
+1. Accédez au menu **[!UICONTROL Politiques de décision]** puis cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
+
+   ![](assets/decision-policy-add-sms-editor.png)
+
++++
+
++++Ajouter une politique de décision à partir du menu Prise de décision
+
+1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
+
+1. Cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
+
+   ![](assets/decision-policy-add-sms.png)
 
 >[!TAB Notification push]
 

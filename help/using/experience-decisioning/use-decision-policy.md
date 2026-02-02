@@ -7,9 +7,9 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '722'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!CAUTION]
 >
->Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code** et **Notification push**.
+>Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **SMS** et **Notification push**.
 >
 >La prise de décision pour le canal e-mail est disponible en disponibilité limitée. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
@@ -56,6 +56,14 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
    ![](assets/decision-policy-placement.png)
 
+>[!TAB SMS]
+
+1. Ouvrez l’éditeur **Personalization** puis accédez à **[!UICONTROL Politiques de décision]**.
+
+2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
+
+   ![](assets/decision-policy-add-sms-insert-syntax.png)
+
 >[!TAB Notification push]
 
 1. Ouvrez l’éditeur **Personalization** puis accédez à **[!UICONTROL Politiques de décision]**.
@@ -74,13 +82,13 @@ Le code de la politique de décision est ajouté. Vous pouvez désormais utilise
 
 >[!NOTE]
 >
->Pour l’expérience basée sur le code et les canaux e-mail, répétez cette séquence une fois par élément de décision que vous souhaitez renvoyer. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](create-decision-policy.md), répétez deux fois la séquence. Pour le canal push, un seul élément de décision peut être renvoyé.
+>Pour l’expérience basée sur le code et les canaux e-mail, répétez cette séquence une fois par élément de décision que vous souhaitez renvoyer. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](create-decision-policy.md), répétez deux fois la séquence. Pour les canaux SMS et Push, un seul élément de décision peut être renvoyé.
 
 ## Personnalisation à l’aide des attributs d’élément de décision {#attributes}
 
 Une fois que vous avez ajouté le code d’une politique de décision dans votre contenu, tous les attributs des éléments de décision renvoyés peuvent être personnalisés. [Découvrez comment utiliser la personnalisation](../personalization/personalize.md).
 
-Les attributs sont stockés dans le schéma de catalogue [&#x200B; Offres &#x200B;](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
+Les attributs sont stockés dans le schéma de catalogue [ Offres ](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
 * **Attributs personnalisés** : dossier `_\<imsOrg\>`
 * **Attributs standard** : dossier `_experience`
 
@@ -98,10 +106,16 @@ Pour ajouter un attribut, cliquez sur l’icône **`+`** en regard de l’attrib
 
   +++
 
-* Pour le canal **Push**, veillez à insérer des attributs après le code de syntaxe de la politique de décision. Cette syntaxe doit toujours être conservée ligne 1.
+* Pour les canaux **SMS** et **Push**, veillez à insérer des attributs après le code de syntaxe de la politique de décision. Cette syntaxe doit toujours être conservée ligne 1.
+
+  +++Voir l’exemple
+
+  ![](assets/decision-added-sms.png)
+
+  +++
 
   >[!NOTE]
-  >Si vous insérez un attribut de ressource d’image dans le contenu push (par exemple, dans le titre ou le corps), la valeur de l’attribut s’affiche sous la forme d’une URL. L’image elle-même n’est pas rendue dans ces champs.
+  >Si vous insérez un attribut de ressource d’image dans du contenu SMS ou push (par exemple, dans le titre ou le corps), la valeur de l’attribut s’affiche sous la forme d’une URL. L’image elle-même n’est pas rendue dans ces champs.
 
 * Pour activer le suivi des éléments de décision, ajoutez l’attribut `trackingToken` : `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
