@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 6cfea1a34cb004d4028f190be92d8365f90de6b2
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '661'
 ht-degree: 73%
 
 ---
@@ -49,7 +49,7 @@ Les politiques de décision sont des conteneurs pour vos offres qui tirent profi
 
 ## Mécanismes de sécurisation et limitations
 
-* **Canaux pris en charge** - Les politiques de décision sont disponibles pour ces canaux : expérience basée sur le code, publipostage direct, e-mail et notifications push.
+* **Canaux pris en charge** - Les politiques de décision sont disponibles pour ces canaux : expérience basée sur le code, e-mail et notifications push.
 * **Exigence de SDK pour les notifications push** - Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **Pages miroir des e-mails** : pour l’instant, les éléments de décision ne s’affichent pas dans les pages miroir des e-mails.
 * **Type de suivi et de liens** : pour suivre les liens générés par la prise de décision, définissez-les dans le schéma comme « Ressources de prise de décision ». Les liens basés sur les attributs ne pevent pas faire l’objet d’un suivi.
@@ -85,8 +85,8 @@ Les principales étapes pour utiliser les politiques de décision dans vos messa
 
 Découvrez comment utiliser Decisioning pour personnaliser les e-mails pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479212?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Découvrez comment utiliser Decisioning pour personnaliser les notifications push pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479212?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
