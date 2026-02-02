@@ -85,12 +85,12 @@ Les principales étapes pour utiliser les politiques de décision dans vos messa
 
 Découvrez comment utiliser Decisioning pour personnaliser les e-mails pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479212?captions=fre_fr&quality=12)
 
 Découvrez comment utiliser Decisioning pour personnaliser les notifications push pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479212?captions=fre_fr&quality=12)
 
 Découvrez comment utiliser Decisioning pour personnaliser les SMS pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479531?captions=fre_fr&quality=12)
