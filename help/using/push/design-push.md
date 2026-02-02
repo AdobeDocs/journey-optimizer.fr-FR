@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 71%
+source-wordcount: '1831'
+ht-degree: 69%
 
 ---
 
@@ -32,7 +32,7 @@ Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **
 
 Utilisez la section de prévisualisation des appareils pour visualiser la manière dont s’affiche la notification push sur iOS et Android.
 
-Accélérez la création de votre contenu avec l’assistant AI et générez du texte de notification push attrayant avec l’assistant [&#x200B; AI pour la génération de texte](../content-management/generative-text.md) ou créez des notifications push complètes avec l’assistant [&#x200B; AI pour la génération de contenu complète](../content-management/generative-full-content.md).
+Accélérez la création de votre contenu avec l’assistant AI et générez du texte de notification push attrayant avec l’assistant [ AI pour la génération de texte](../content-management/generative-text.md) ou créez des notifications push complètes avec l’assistant [ AI pour la génération de contenu complète](../content-management/generative-full-content.md).
 
 ## Comportement en cas de clic {#on-click-behavior}
 
@@ -178,6 +178,12 @@ Utilisez la section **[!UICONTROL Données personnalisées]** pour ajouter des p
 >abstract="Ajoutez des variables personnalisées à la payload, en fonction de la configuration de votre application mobile."
 
 Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la payload, en fonction de la configuration de votre application mobile. Pour plus d’informations sur la configuration des notifications push dans Adobe Experience Platform, consultez [cette section](push-gs.md).
+
+## Personnaliser avec Experience Decisioning {#decisioning-push}
+
+Vous pouvez personnaliser et optimiser le contenu de vos notifications push avec **Experience Decisioning**. Cette fonctionnalité vous permet d’utiliser des scores de priorité, des formules ou des modèles d’IA pour sélectionner et afficher dynamiquement le meilleur contenu pour vos clients.
+
+Pour plus d’informations sur la création et l’utilisation des politiques de décision dans les notifications push, consultez [cette section](../experience-decisioning/create-decision.md).
 
 ## Options avancées {#advanced-options-push}
 

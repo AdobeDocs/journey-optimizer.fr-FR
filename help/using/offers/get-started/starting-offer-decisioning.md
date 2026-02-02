@@ -10,18 +10,14 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
 
 # Commencer avec la gestion des décisions {#about-decision-management}
-
->[!TIP]
->
->La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
 
 Utilisez [!DNL Journey Optimizer] pour offrir au bon moment à vos clients les meilleures offre et expérience possibles à tous les points de contact. Une fois la conception réalisée, ciblez vos audiences avec des offres personnalisées.
 
@@ -116,20 +112,20 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 
 * **Représentations** : une représentation est une information utilisée par un canal, comme la localisation ou la langue d&#39;affichage d&#39;une offre.
 
-## Tutoriels vidéo{#video}
+## Vidéos pratiques{#video}
 
 ### Qu&#39;est-ce que la gestion des décisions ?  {#what-is-offer-decisioning}
 
 La vidéo ci-dessous présente les principales fonctionnalités, l’architecture et les cas d’utilisation de la gestion des décisions :
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340412?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Définition et gestion des offres {#use-offer-decisioning}
 
 La vidéo ci-dessous montre comment utiliser la gestion des décisions pour définir et gérer vos offres, et exploiter les données client en temps réel.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340346?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

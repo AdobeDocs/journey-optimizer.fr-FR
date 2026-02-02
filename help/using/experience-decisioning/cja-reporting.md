@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '227'
-ht-degree: 100%
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Rapports de prise de décision {#campaigns}
 
-Une fois que les expériences basées sur du code ou les e-mails utilisant des stratégies de sélection sont actifs, vous pouvez accéder à des rapports dédiés pour suivre les indicateurs clés de performance de prise de décision (KPI).
+Une fois que les parcours ou les campagnes avec des stratégies de sélection sont en ligne, vous pouvez accéder à des rapports dédiés pour surveiller les indicateurs de performance clés (KPI) de prise de décision.
 
 <!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
 

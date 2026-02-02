@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 73%
 
 ---
 
@@ -45,28 +45,12 @@ ht-degree: 98%
 
 Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de renvoyer dynamiquement le meilleur contenu à diffuser pour chaque membre de l’audience. Leur objectif est de sélectionner les meilleures offres pour chaque profil, tandis que la création de campagne et de parcours vous permet d’indiquer comment les éléments de décision sélectionnés doivent être présentés, y compris les attributs d’élément à inclure dans le message.
 
->[!AVAILABILITY]
->
->Pour l’instant, les politiques de décision sont disponibles pour tous les clients et clientes pour le canal d’expérience basée sur du code. Elles sont en disponibilité limitée pour le canal e-mail. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
-
-## Principales étapes {#key}
-
-Les principales étapes pour utiliser les politiques de décision dans vos messages sont les suivantes :
-
-1. [Créer une politique de décision](../experience-decisioning/create-decision-policy.md)
-
-   Configurez une politique de décision dans votre message en choisissant le nombre d’éléments à renvoyer, en configurant des stratégies de sélection, des options de secours et l’ordre d’évaluation.
-
-1. [Utiliser la politique de décision dans votre contenu](../experience-decisioning/use-decision-policy.md)
-
-   Personnalisez votre contenu avec la sortie et les attributs de la politique de décision des éléments de décision que vous souhaitez afficher dans le message.
-
-1. [Créer des tableaux de bord de reporting](cja-reporting.md)
-
-   Créez des tableaux de bord Customer Journey Analytics personnalisés pour mesurer les performances et obtenir des informations sur la manière dont vos politiques de décision et vos offres sont diffusées et utilisées.
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Mécanismes de sécurisation et limitations
 
+* **Canaux pris en charge** - Les politiques de décision sont disponibles pour ces canaux : expérience basée sur le code, publipostage direct, e-mail et notifications push.
+* **Exigence de SDK pour les notifications push** - Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **Pages miroir des e-mails** : pour l’instant, les éléments de décision ne s’affichent pas dans les pages miroir des e-mails.
 * **Type de suivi et de liens** : pour suivre les liens générés par la prise de décision, définissez-les dans le schéma comme « Ressources de prise de décision ». Les liens basés sur les attributs ne pevent pas faire l’objet d’un suivi.
 * **Imbrication de politiques de décision dans des e-mails** : vous ne pouvez pas imbriquer plusieurs politiques de décision dans un composant d’e-mail parent auquel est déjà associée une politique de décision.
@@ -79,14 +63,30 @@ Les principales étapes pour utiliser les politiques de décision dans vos messa
 
 * **Classement AI** : pour l’instant, le classement AI n’est pas pris en charge pour le canal E-mail dans les parcours avec prise de décision.
 
-## Étapes suivantes {#next-steps}
+* **Modèles de contenu** - Toute politique de décision configurée dans votre contenu ne sera pas enregistrée dans le modèle. Si vous appliquez le modèle à une autre action, vous devez reconfigurer la politique.
 
-Maintenant que vous comprenez comment fonctionnent les politiques de décision et comment elles permettent de diffuser des offres personnalisées, vous êtes prêt à créer votre première politique de décision.
+## Principales étapes {#key}
 
-➡️ [Découvrez comment créer une politique de décision.](../experience-decisioning/create-decision-policy.md)
+Les principales étapes pour utiliser les politiques de décision dans vos messages sont les suivantes :
 
-## Vidéo pratique {#video}
+1. **Créer une politique de décision**
+
+   Ajoutez une politique de décision dans votre message et configurez le nombre d’éléments à renvoyer, la stratégie de sélection et les options de secours.
+
+   ➡️ [Découvrez comment créer une politique de décision.](../experience-decisioning/create-decision-policy.md)
+
+1. **Utiliser la politique de décision dans votre contenu**
+
+   Personnalisez votre contenu avec la sortie de politique de décision en insérant les attributs des éléments de décision que vous souhaitez afficher dans le message
+
+   ➡️ [Découvrez comment utiliser des politiques de décision dans les messages.](../experience-decisioning/create-decision-policy.md)
+
+## Vidéos pratiques {#video}
 
 Découvrez comment utiliser Decisioning pour personnaliser les e-mails pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479212?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+
+Découvrez comment utiliser Decisioning pour personnaliser les notifications push pour votre audience.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
