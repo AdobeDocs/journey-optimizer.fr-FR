@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 76%
+source-wordcount: '320'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 >[!AVAILABILITY]
 >
->Les messages de publipostage direct ne peuvent être créés que dans le cadre de parcours et de campagnes planifiées. Ils ne sont pas disponibles pour une utilisation dans des campagnes orchestrées et déclenchées par l’API.
+>Les messages de publipostage direct peuvent être créés dans le cadre de parcours et de campagnes. Ils ne sont pas disponibles pour une utilisation dans des campagnes déclenchées par API.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -45,4 +45,4 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 Découvrez comment tirer parti du canal Publipostage direct dans Adobe Journey Optimizer pour automatiser et planifier les diffusions de publipostage direct dans vos parcours.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479164?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
