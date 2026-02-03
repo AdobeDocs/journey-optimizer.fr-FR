@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 version: Journey Orchestration
-source-git-commit: ee67a1a9270c12fdf199bc378deaa6006553533c
+source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5146'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,7 @@ Les défis de fidélité vous permettent de créer des offres d’engagement per
 >**Dans ce guide :**
 >
 >* [Aperçu](#overview) - Comprenez ce qu’offrent les défis de fidélité
+>* [Fonctionnement ](#how-it-works) - Workflow détaillé allant de la configuration à la surveillance
 >* [Conditions préalables](#prerequisites) - Configurer l’ingestion des données et les autorisations
 >* [Accéder aux défis de fidélité](#access) - Ouvrez le menu et affichez les défis
 >* [Créer des défis](#create-challenges) - Créez de nouveaux défis de fidélité
@@ -43,6 +44,32 @@ Les défis de fidélité vous permettent de créer des offres d’engagement per
 ## Vue d’ensemble {#overview}
 
 Les défis de fidélité vous permettent de concevoir et de déployer des offres d’engagement personnalisées qui motivent les clients à effectuer des actions spécifiques et à gagner des récompenses. Cette fonctionnalité fournit une solution complète pour créer des programmes de fidélité à grande échelle, de la définition de tâches et de jalons à la diffusion de contenu et au suivi des performances sur l’ensemble des canaux. Vous pouvez créer trois types d’expériences de défi, configurer des récompenses, envoyer des notifications multicanaux à des étapes clés du cycle de vie et surveiller les performances par le biais de parcours générés automatiquement, tout en conservant l’intégration à votre système de gestion de la fidélité externe.
+
+## Fonctionnement {#how-it-works}
+
+La création et le lancement d’un défi de fidélité suivent ce workflow :
+
+1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que Capillaire) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients.
+
+2. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel), l’audience et la période.
+
+3. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâches (achat, dépenses, visite, etc.), les quantités, les filtres de produit et les récompenses.
+
+4. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de cartes de contenu Journey Optimizer qui s’affichent sur les appareils des clients.
+
+5. **Configurer la messagerie** (facultatif) - Configurez des messages multicanaux (in-app, e-mail, push) pour les étapes clés : lancement, en cours et achèvement.
+
+6. **Réviser et publier** - Testez votre défi avec des profils de test, puis publiez-le pour le rendre disponible auprès de votre audience cible.
+
+7. **parcours généré automatiquement** - Lorsque vous publiez, Journey Optimizer crée automatiquement un parcours qui orchestre la diffusion et la messagerie des cartes de contenu.
+
+8. **Activer le parcours** - Le parcours généré automatiquement est activé à la date de début de votre défi et gère toutes les interactions des clients.
+
+9. **Surveiller les performances** - Suivez la participation, les taux d’achèvement, la distribution des récompenses et l’engagement des messages au moyen de rapports intégrés et de la zone de travail de parcours.
+
+>[!NOTE]
+>
+>Le parcours généré automatiquement apparaît dans votre inventaire de parcours et peut être personnalisé si nécessaire. Toutefois, les modifications apportées directement au parcours ne sont pas resynchronisées avec la configuration de défi.
 
 ## Fonctionnalités principales
 
@@ -90,7 +117,7 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
   Pour obtenir des instructions détaillées, voir :
 
-   * [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+   * [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
 
 * Autorisations nécessaires {#required-permissions}
@@ -147,6 +174,59 @@ Affichez les défis au sein d’une période spécifique à l’aide de **[!UICO
 
 Afficher les défis liés à des balises spécifiques appliquées à l’aide de **[!UICONTROL Filtrer par balises]**.
 
+
+**[!UICONTROL Remise]** : indiquez un code ou une valeur de remise.
+
+* Saisir le type de remise (pourcentage ou montant fixe)
+* Saisir la valeur de remise
+* Indiquez éventuellement un code remise ou laissez le système en générer un
+
+**[!UICONTROL Article gratuit]** : Accordez un produit ou un service gratuit.
+
+* Spécifier le SKU ou la description de l’élément
+* Indiquer comment l’article gratuit doit être demandé
+
+**[!UICONTROL Récompense personnalisée]** : définissez un type de récompense personnalisée.
+
+* Saisir la description de la récompense
+* Fournissez tous codes ou identifiants pertinents
+* Configurer la manière dont la récompense est remise ou demandée
+
+#### Exemple de configuration de récompense {#reward-example}
+
+**Challenge** : « Défi de l&#39;amoureux du café »
+
+**Tâche 1** : Achat de 3 cafés
+
+* Récompense : 30 points (10 points par café)
+* Planning : une fois la tâche terminée
+
+**Tâche 2** : Essayez 2 nouvelles boissons de saison
+
+* Récompense : 50 points
+* Planning : une fois la tâche terminée
+
+**Récompense d’accomplissement du défi** :
+
+* Récompense : café gratuit + 100 points bonus
+* Planning : une fois toutes les tâches terminées
+
+**Récompenses possibles totales** : 180 points + 1 café gratuit
+
+### Attributs de tâche avancés {#advanced-attributes}
+
+Pour les cas d’utilisation avancés, vous pouvez configurer des attributs de tâche supplémentaires :
+
+**[!UICONTROL Conditions personnalisées]** : ajoutez une logique ou des conditions personnalisées au-delà des types de tâches standard à l’aide de segments ou de règles Experience Platform.
+
+**[!UICONTROL Géofencing]** : (pour les tâches de visite) Nécessite des visites à des emplacements spécifiques définis par des coordonnées géographiques et un rayon.
+
+**[!UICONTROL Exigences temporelles]** : exigent que les tâches soient terminées au cours d’heures, de jours ou de périodes spécifiques.
+
+**[!UICONTROL Période de réflexion]** : définissez un temps minimum entre les tâches terminées pour éviter des actions répétées rapides.
+
+**[!UICONTROL Dépendances de tâches]** : (pour les défis séquentiels) définissez les conditions préalables qui doivent être remplies avant que cette tâche ne soit disponible.
+
 ## Créer des défis {#create-challenges}
 
 Créez un défi de fidélité pour définir l’offre d’engagement, configurer les cartes de contenu pour la diffusion, ajouter des tâches, configurer des récompenses et éventuellement configurer la messagerie sur plusieurs canaux.
@@ -198,7 +278,7 @@ Pour créer un nouveau défi de fidélité :
 
 Pour créer ou affiner des audiences, voir [Création d’audiences dans Journey Optimizer](../audience/about-audiences.md).
 
-&#x200B;4. Sélectionnez **[!UICONTROL Enregistrer comme brouillon]** pour continuer à configurer votre défi.
+1. Sélectionnez **[!UICONTROL Enregistrer comme brouillon]** pour continuer à configurer votre défi.
 
 ## Création de tâches {#create-tasks}
 
@@ -372,59 +452,6 @@ Choisissez quand les clients reçoivent des récompenses :
 
 * Entrez le nombre de points (par exemple, 100)
 * Les points sont communiqués à votre système de gestion de la fidélité externe via l’API
-
-**[!UICONTROL Remise]** : indiquez un code ou une valeur de remise.
-
-* Saisir le type de remise (pourcentage ou montant fixe)
-* Saisir la valeur de remise
-* Indiquez éventuellement un code remise ou laissez le système en générer un
-
-**[!UICONTROL Article gratuit]** : Accordez un produit ou un service gratuit.
-
-* Spécifier le SKU ou la description de l’élément
-* Indiquer comment l’article gratuit doit être demandé
-
-**[!UICONTROL Récompense personnalisée]** : définissez un type de récompense personnalisée.
-
-* Saisir la description de la récompense
-* Fournissez tous codes ou identifiants pertinents
-* Configurer la manière dont la récompense est remise ou demandée
-
-#### Exemple de configuration de récompense {#reward-example}
-
-**Challenge** : « Défi de l&#39;amoureux du café »
-
-**Tâche 1** : Achat de 3 cafés
-
-* Récompense : 30 points (10 points par café)
-* Planning : une fois la tâche terminée
-
-**Tâche 2** : Essayez 2 nouvelles boissons de saison
-
-* Récompense : 50 points
-* Planning : une fois la tâche terminée
-
-**Récompense d’accomplissement du défi** :
-
-* Récompense : café gratuit + 100 points bonus
-* Planning : une fois toutes les tâches terminées
-
-**Récompenses possibles totales** : 180 points + 1 café gratuit
-
-### Attributs de tâche avancés {#advanced-attributes}
-
-Pour les cas d’utilisation avancés, vous pouvez configurer des attributs de tâche supplémentaires :
-
-**[!UICONTROL Conditions personnalisées]** : ajoutez une logique ou des conditions personnalisées au-delà des types de tâches standard à l’aide de segments ou de règles Experience Platform.
-
-**[!UICONTROL Géofencing]** : (pour les tâches de visite) Nécessite des visites à des emplacements spécifiques définis par des coordonnées géographiques et un rayon.
-
-**[!UICONTROL Exigences temporelles]** : exigent que les tâches soient terminées au cours d’heures, de jours ou de périodes spécifiques.
-
-**[!UICONTROL Période de réflexion]** : définissez un temps minimum entre les tâches terminées pour éviter des actions répétées rapides.
-
-**[!UICONTROL Dépendances de tâches]** : (pour les défis séquentiels) définissez les conditions préalables qui doivent être remplies avant que cette tâche ne soit disponible.
-
 ## Configuration des cartes de contenu {#configure-content-cards}
 
 Les cartes de contenu sont la principale manière dont les défis sont affichés pour les clients sur leurs appareils. Vous devez configurer une carte de contenu pour votre défi.
@@ -584,7 +611,7 @@ Pour personnaliser le parcours :
 
 5. Publiez le parcours une fois prêt.
 
-Pour obtenir des conseils détaillés sur la modification de parcours, voir [Créer des parcours &#x200B;](../building-journeys/journey-gs.md).
+Pour obtenir des conseils détaillés sur la modification de parcours, voir [Créer des parcours ](../building-journeys/journey-gs.md).
 
 ### Considérations relatives à la zone de travail de parcours {#journey-considerations}
 
@@ -895,7 +922,7 @@ Le parcours généré automatiquement contient des données d’exécution impor
    * Performances des messages par canal
    * Opportunités d’optimisation du minutage
 
-Pour obtenir des conseils détaillés sur la surveillance des parcours, voir [&#x200B; Surveiller vos parcours &#x200B;](../building-journeys/report-journey.md).
+Pour obtenir des conseils détaillés sur la surveillance des parcours, voir [ Surveiller vos parcours ](../building-journeys/report-journey.md).
 
 ### Optimiser les défis {#optimize}
 
@@ -1040,5 +1067,5 @@ Pendant la phase bêta, vos commentaires nous aideront à relever les défis de 
 * [Créer des notifications push](../push/create-push.md)
 * [Création de parcours](../building-journeys/journey-gs.md)
 * [Surveiller vos parcours](../building-journeys/report-journey.md)
-* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
