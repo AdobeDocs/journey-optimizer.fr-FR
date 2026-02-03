@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
+source-git-commit: 8c00784f80363183805175bea576a029f30d4c27
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1656'
 ht-degree: 23%
 
 ---
@@ -35,7 +35,7 @@ Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
@@ -232,7 +232,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous pouvez désormais évaluer l’ensemble <strong>qualité du contenu</strong> pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d&#39;identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality).
 
-  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on).
+  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Parcours
 
@@ -300,29 +300,30 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   Date de disponibilité : 2 février 2026.
 
-## Bientôt disponible {#jan-26-01-coming-soon}
+<!--
+## Coming soon {#jan-26-01-coming-soon}
 
-La publication des fonctionnalités et améliorations suivantes est prévue dans les prochains jours. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
+In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
-### Fonctionnalités
+### Features
 
 <table>
 <thead>
 <tr>
-<th><strong>API d’outils de migration en libre-service</strong><br/></th>
+<th><strong>Self-service migration tooling APIs</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les <strong>API d’outil de migration</strong> sont désormais disponibles pour migrer par programmation les entités de gestion des décisions vers la prise de décision, et comprennent :</p>
+<p><strong>Migration tooling APIs</strong> are now available to programmatically migrate Decision management entities to Decisioning, featuring:</p>
 <ul>
-<li>Portées de migration flexibles (sandbox, offre ou niveau de décision)</li>
-<li>Analyse et validation automatisées des dépendances</li>
-<li>Prise en charge de la restauration pour les migrations terminées</li>
-<li>Rapports de migration détaillés avec les mappages d’objet</li>
+<li>Flexible migration scopes (sandbox, offer, or decision level)</li>
+<li>Automated dependency analysis and validation</li>
+<li>Rollback support for completed migrations</li>
+<li>Detailed migration reports with object mappings</li>
 </ul>
-<p>Date de disponibilité : jeudi 11 février 2026</p>
+<p>Availability date: February 11, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -331,15 +332,15 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <table>
 <thead>
 <tr>
-<th><strong>Activité de décision de contenu</strong><br/></th>
+<th><strong>Content decision activity</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle <strong>activité de décision de contenu</strong> est désormais disponible dans la zone de travail du parcours pour intégrer <strong>offres personnalisées</strong> directement dans vos parcours clients. Cette activité vous permet de diffuser du contenu basé sur des décisions et de référencer ces offres dans l’ensemble de votre parcours, dans des conditions de création d’embranchements basés sur l’éligibilité, dans des actions personnalisées pour transmettre des données d’offre à des systèmes externes et dans d’autres activités pour créer des expériences client entièrement personnalisées.</p>
-<p>Cette fonctionnalité sera disponible dans tous les environnements (disponibilité générale).</p>
-<p>Date de disponibilité : jeudi 11 février 2026</p>
+<p>A new <strong>Content decision activity</strong> is now available in the journey canvas for integrating <strong>personalized offers</strong> directly into your customer journeys. This activity enables you to deliver decision-based content and reference those offers throughout your journey - in conditions for creating eligibility-based branching, in custom actions for passing offer data to external systems, and in other activities for building fully personalized customer experiences.</p>
+<p>This capability will be available to all environments (General Availability).</p>
+<p>Availability date: February 11, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -348,24 +349,26 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <table>
 <thead>
 <tr>
-<th><strong>Canal de notifications push web</strong><br/></th>
+<th><strong>Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer prend désormais en charge les <strong>notifications push web</strong>, ce qui étend le canal push au-delà des applications mobiles. Vous pouvez diffuser facilement des notifications aux <strong>navigateurs mobiles et de bureau</strong>, ce qui vous permet d’atteindre les clients directement sur leurs appareils sans avoir besoin d’une application. Cette amélioration permet d’interagir avec les utilisateurs et utilisatrices à l’aide de messages personnalisés et opportuns en temps réel, en exploitant les mêmes workflows de création et les mêmes fonctionnalités de ciblage que ceux déjà disponibles pour les notifications push mobiles.</p>
-<!--p><img src="assets/do-not-localize/web-push.gif"/></p-->
-<p>Publiée précédemment dans Beta, cette fonctionnalité sera disponible pour tous les environnements (disponibilité générale).</p>
-<p>Date de disponibilité : jeudi 11 février 2026</p>
+<p>Adobe Journey Optimizer now supports <strong>Web Push notifications</strong>, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both <strong>mobile and desktop browsers</strong>, enabling you to reach customers directly on their devices without requiring an app. This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+<p><img src="assets/do-not-localize/web-push.gif"/></p>
+<p>Previously released in Beta, this capability will be available to all environments (General Availability).</p>
+<p>Availability date: February 11, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Améliorations
+### Improvements
 
 
-* **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des <strong>fragments</strong> aux <strong>éléments de décision</strong> qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision.
+* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through decision policies.
 
-  Date de disponibilité : 11 février 2026.
+  Availability date: February 11, 2026.
+
+-->
