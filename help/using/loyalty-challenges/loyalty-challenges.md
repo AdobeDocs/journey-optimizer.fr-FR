@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 version: Journey Orchestration
-source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
+source-git-commit: b68c2610cbaaa8dbd86deb677562185e08d517ea
 workflow-type: tm+mt
 source-wordcount: '5146'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Les défis de fidélité vous permettent de créer des offres d’engagement per
 >**Dans ce guide :**
 >
 >* [Aperçu](#overview) - Comprenez ce qu’offrent les défis de fidélité
->* [Fonctionnement &#x200B;](#how-it-works) - Workflow détaillé allant de la configuration à la surveillance
+>* [Fonctionnement ](#how-it-works) - Workflow détaillé allant de la configuration à la surveillance
 >* [Conditions préalables](#prerequisites) - Configurer l’ingestion des données et les autorisations
 >* [Accéder aux défis de fidélité](#access) - Ouvrez le menu et affichez les défis
 >* [Créer des défis](#create-challenges) - Créez de nouveaux défis de fidélité
@@ -117,7 +117,7 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
   Pour obtenir des instructions détaillées, voir :
 
-   * [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+   * [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
 
 * Autorisations nécessaires {#required-permissions}
@@ -612,7 +612,7 @@ Pour personnaliser le parcours :
 
 5. Publiez le parcours une fois prêt.
 
-Pour obtenir des conseils détaillés sur la modification de parcours, voir [Créer des parcours &#x200B;](../building-journeys/journey-gs.md).
+Pour obtenir des conseils détaillés sur la modification de parcours, voir [Créer des parcours ](../building-journeys/journey-gs.md).
 
 ### Considérations relatives à la zone de travail de parcours {#journey-considerations}
 
@@ -923,7 +923,7 @@ Le parcours généré automatiquement contient des données d’exécution impor
    * Performances des messages par canal
    * Opportunités d’optimisation du minutage
 
-Pour obtenir des conseils détaillés sur la surveillance des parcours, voir [&#x200B; Surveiller vos parcours &#x200B;](../building-journeys/report-journey.md).
+Pour obtenir des conseils détaillés sur la surveillance des parcours, voir [ Surveiller vos parcours ](../building-journeys/report-journey.md).
 
 ### Optimiser les défis {#optimize}
 
@@ -1068,5 +1068,5 @@ Pendant la phase bêta, vos commentaires nous aideront à relever les défis de 
 * [Créer des notifications push](../push/create-push.md)
 * [Création de parcours](../building-journeys/journey-gs.md)
 * [Surveiller vos parcours](../building-journeys/report-journey.md)
-* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
