@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
-workflow-type: ht
-source-wordcount: '1604'
-ht-degree: 100%
+source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+workflow-type: tm+mt
+source-wordcount: '1741'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 
 Grâce aux thèmes, les utilisateurs et les utilisatrices non techniques ont la possibilité de créer du contenu réutilisable adapté à une marque et une langue de conception spécifiques en ajoutant un style personnalisé aux modèles standard<!-- to achieve brand specific results-->.
 
@@ -53,6 +53,12 @@ Cette fonctionnalité permet aux spécialistes du marketing d’utiliser plus ra
    * Vous pouvez également toujours convertir le contenu HTML importé. [En savoir plus](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
+
+* Lors de l’utilisation de polices web personnalisées (y compris les polices Google) dans vos thèmes, sachez que de nombreux clients de messagerie ne les prennent pas en charge. Définissez toujours des polices de secours appropriées dans votre thème pour garantir la lisibilité sur tous les clients de messagerie.
+
+   * Gmail et Yahoo ! ne chargez pas de polices web externes et reviendront aux polices système, quelle que soit la famille de polices spécifiée dans votre HTML/CSS.
+   * Les seules polices Google prises en charge par Gmail sont Roboto et Google Sans.
+   * Les clients de messagerie qui *prennent* en charge les polices web sont Apple Mail, iOS Mail, Android Mail, Thunderbird et Outlook pour macOS.
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -99,6 +105,10 @@ Pour définir un thème que vous pouvez utiliser dans les futurs contenus d’e-
 1. Dans les **[!UICONTROL Paramètres de texte]**, vous pouvez définir la police globale que vous souhaitez utiliser pour l’ensemble du thème. Pour un contrôle plus granulaire, vous pouvez également modifier chaque en-tête et type de paragraphe pour ajuster la police, la taille, le style, etc.
 
    ![](assets/theme-text.png)
+
+   >[!NOTE]
+   >
+   >Lors de la sélection de polices web personnalisées, notez que de nombreux clients de messagerie, tels que Gmail et Yahoo ! ne prend pas en charge les polices web externes et va revenir aux polices système. Pensez à inclure des polices de secours pour vous assurer que votre contenu s’affiche correctement sur tous les clients de messagerie. [En savoir plus](#themes-guardrails)
 
 1. Dans l’onglet **[!UICONTROL Espacement]**, sélectionnez un élément dans la liste pour l’espacer correctement entre les différents composants.
 
