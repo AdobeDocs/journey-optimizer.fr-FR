@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3074'
 ht-degree: 98%
 
 ---
@@ -328,12 +328,12 @@ ht-degree: 98%
       + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
       + [Bonnes pratiques pour l’optimisation des coûts des SMS](using/sms/sms-cost-optimization.md)
       + Configurer le canal SMS/MMS/RCS {#configure-sms}
-         + [Configurer le canal SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Commencer avec la configuration des SMS/MMS/RCS](using/sms/sms-configuration.md)
          + [Configurer le fournisseur Sinch](using/sms/sms-configuration-sinch.md)
          + [Configurer le fournisseur Infobip](using/sms/sms-configuration-infobip.md)
          + [Configurer le fournisseur Twilio](using/sms/sms-configuration-twilio.md)
          + [Configurer un fournisseur personnalisé](using/sms/sms-configuration-custom.md)
+         + [Créer un webhook](using/sms/sms-webhook.md)
          + [Créer une configuration de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Courrier {#direct-mail}
       + [Courrier](/help/rp_landing_pages/direct-mail-landing-page.md)
@@ -938,7 +938,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

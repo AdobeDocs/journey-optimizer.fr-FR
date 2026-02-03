@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 5b719ccfb38ea51d6f6c6a9204e235c022b01b4f
-workflow-type: ht
-source-wordcount: '1149'
-ht-degree: 100%
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+workflow-type: tm+mt
+source-wordcount: '1358'
+ht-degree: 75%
 
 ---
 
@@ -23,6 +23,13 @@ Lorsque vous utilisez le fournisseur Sinch avec Journey Optimizer, vous dispose
 * **Configuration des MMS** : pour la messagerie multimédia (MMS), configurez vos informations d’identification d’API MMS Sinch. Notez que le suivi et la réponse aux messages entrants sont gérés par la configuration des SMS. La configuration des MMS concerne uniquement la diffusion sortante des messages MMS.
 
 * **Configuration RCS** : configurez vos informations d’identification d’API Sinch pour envoyer des messages RCS de manière transparente.
+
+Pour configurer votre fournisseur Sinch, procédez comme suit :
+
+1. [Créer des informations d’identification d’API](#create-api)
+1. [Créer un webhook](sms-webhook.md)
+1. [Créer une configuration des canaux](sms-configuration-surface.md)
+1. [Créer un parcours ou une campagne avec une action de canal SMS](create-sms.md)
 
 ## Configurer les informations d’identification d’API pour les SMS{#create-api}
 
@@ -51,14 +58,14 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
    | Fournisseur SMS | Sinch |
    | Nom | Saisissez un nom pour vos informations d’identification API. |
    | ID de service et jeton API | Accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS. En savoir plus dans la [Documentation Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
-   | Mots-clés d’opt-in | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’opt-in. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
-   | Message d’opt-in | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-in. |
-   | Mots-clés d’opt-out | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’opt-out. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
-   | Message d’opt-out | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out. |
-   | Mots-clés d’aide | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
-   | Message d’aide | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**. |
-   | Mots-clés de double opt-in | Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3440276/?captions=fre_fr&learn=on). |
-   | Message de double opt-in | Saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in. |
+   | Mots-clés d’opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’accord préalable. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
+   | Message d’opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br> Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’accord préalable. |
+   | Mots-clés d’opt-out | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br> Entrez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d&#39;opt-out. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
+   | Message d’opt-out | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out. |
+   | Mots-clés d’aide | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br> Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
+   | Message d’aide | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**. |
+   | Mots-clés de double opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Message de double opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in. |
    | Numéro entrant | Ajoutez votre numéro entrant unique ou votre code court. Cela permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant ou code court. |
    | Mots-clés entrants personnalisés | Définissez des mots-clés uniques et non liés au consentement pour des actions par lots, par exemple REMISE, OFFRES, INSCRIRE. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment par lots dans le parcours et de fournir une réponse ou une action personnalisée. |
    | Message de réponse entrant par défaut | Saisissez la réponse par défaut envoyée lorsqu’un utilisateur final ou une utilisatrice finale envoie un SMS entrant qui ne correspond à aucun des mots-clés définis. |
@@ -86,7 +93,7 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
 
    ![](assets/verify-connection.png)
 
-Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une configuration des canaux pour les messages SMS. [En savoir plus](sms-configuration-surface.md)
+Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer [votre Webhook](sms-webhook.md) et une configuration de canal pour vos messages RCS. [En savoir plus](sms-configuration-surface.md)
 
 ## Configurer les informations d’identification d’API pour les MMS{#sinch-mms}
 
@@ -115,8 +122,7 @@ Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
 
 1. Pour modifier les informations d’identification existantes, recherchez les informations d’identification d’API souhaitées et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
 
-Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une configuration des canaux pour les messages MMS. [En savoir plus](sms-configuration-surface.md)
-
+Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer [votre Webhook](sms-webhook.md) et une configuration de canal pour vos messages RCS. [En savoir plus](sms-configuration-surface.md)
 
 ## Configurer des informations d’identification d’API pour RCS
 

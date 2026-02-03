@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
-workflow-type: ht
-source-wordcount: '1400'
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+workflow-type: tm+mt
+source-wordcount: '818'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ En configurant un fournisseur personnalisé, vous pouvez connecter des services 
 Pour configurer votre fournisseur personnalisé, procédez comme suit :
 
 1. [Créer des informations d’identification d’API](#api-credential)
-1. [Créer un webhook](#webhook)
+1. [Créer un webhook](sms-webhook.md)
 1. [Créer une configuration des canaux](sms-configuration-surface.md)
 1. [Créer un parcours ou une campagne avec une action de canal SMS](create-sms.md)
 
@@ -163,117 +163,6 @@ Une fois vos informations d’identification d’API créées, renseignez les ch
 ![](assets/sms-byop-jwt.png)
 
 >[!ENDTABS]
-
-## Créer un webhook {#webhook}
-
->[!BEGINSHADEBOX]
-
-Si les mots-clés relatifs à l’opt-in ou à l’opt-out ne sont pas fournis, des messages de consentement standard sont utilisés pour respecter la confidentialité des personnes. L’ajout de mots-clés personnalisés remplace automatiquement les valeurs par défaut.
-
-**Mots-clés par défaut :**
-
-* **Opt-in** : SUBSCRIBE (s’abonner), YES (oui), UNSTOP (redémarrer), START (démarrer), CONTINUE (continuer), RESUME (reprendre), BEGIN (commencer).
-* **Opt-out** : STOP (arrêter), QUIT (quitter), CANCEL (annuler), END (terminer), UNSUBSCRIBE (se désabonner), NO (non).
-* **Aide** : HELP (aide).
-
->[!ENDSHADEBOX]
-
-Une fois vos informations d’identification d’API créées, vous pouvez configurer des webhooks pour capturer les réponses entrantes afin de gérer le consentement d’opt-in et d’opt-out, et pour recevoir des rapports de diffusion tels que des confirmations de lecture (le cas échéant).
-
-Lors de la configuration d’un webhook, vous pouvez définir son objectif en fonction du type de données que vous souhaitez capturer :
-
-* **[!UICONTROL Entrant]** : utilisez cette option si vous souhaitez capturer des réponses de consentement, telles que les opt-ins ou les opt-outs, et collecter les préférences utilisateur.
-
-* **[!UICONTROL Commentaires]** : sélectionnez cette option pour effectuer le suivi des événements de diffusion et d’engagement, y compris les confirmations de lecture et les interactions utilisateur, afin de prendre en charge les rapports et analyses.
-
->[!BEGINTABS]
-
->[!TAB Entrant]
-
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks SMS]** sous **[!UICONTROL Paramètres SMS]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
-
-   ![](assets/sms_byo_5.png)
-
-1. Configurez vos paramètres de webhook comme indiqué ci-dessous :
-
-   * **[!UICONTROL Nom]** : saisissez un nom pour votre webhook.
-
-   * **[!UICONTROL Sélectionner le fournisseur de SMS]** : personnalisé.
-
-   * **[!UICONTROL Type]** : entrant.
-
-   * **[!UICONTROL Informations d’identification d’API]** : choisissez dans la liste déroulante les [informations d’identification d’API configurées précédemment](#api-credential).
-
-   * **[!UICONTROL Numéro de téléphone d’expéditeur ou d’expéditrice]** : saisissez le numéro de téléphone d’expéditeur ou d’expéditrice que vous souhaitez utiliser pour vos communications.
-
-     ![](assets/webhook-inbound.png)
-
-1. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter vos catégories de mots-clés, puis configurez-les comme suit :
-
-   * **[!UICONTROL Catégorie de mots-clés entrants]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Double Opt-in]**, **[!UICONTROL Aide]** ou **[!UICONTROL Personnalisé]**.
-
-   * **[!UICONTROL Saisir un mot-clé]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter plusieurs mots-clés.
-
-     Pour **[!UICONTROL Mot-clé personnalisé]**, utilisez des mots-clés non liés au consentement pour les actions par lots dans un parcours.
-
-   * **[!UICONTROL Message de réponse]** : sélectionnez dans la liste déroulante la réponse personnalisée qui sera automatiquement envoyée.
-
-   ![](assets/sms_byo_6.png)
-
-1. Cliquez sur **[!UICONTROL Afficher l’éditeur de payload]** pour valider et personnaliser les payloads de votre requête.
-
-   Vous pouvez personnaliser votre payload de manière dynamique à l’aide d’attributs de profil, et veiller à ce que des données précises sont envoyées pour le traitement et la génération de réponse à l’aide de fonctions d’assistance intégrées.
-
-1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de votre webhook.
-
-1. Dans le menu **[!UICONTROL Webhooks]**, cliquez sur l’![icône de corbeille](assets/do-not-localize/Smock_Delete_18_N.svg) pour supprimer votre webhook.
-
-1. Pour modifier la configuration existante, recherchez le webhook souhaité et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
-
-1. Accédez à la nouvelle **[!UICONTROL URL du webhook]** et copiez-la à partir du **[!UICONTROL webhook]** précédemment envoyé.
-
-   ![](assets/sms_byo_7.png)
-
-Après avoir créé et configuré les paramètres entrants pour le webhook, vous devez créer une [configuration des canaux](sms-configuration-surface.md) pour les messages SMS.
-
-Une fois configurés, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
-
->[!TAB Commentaires]
-
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks SMS]** sous **[!UICONTROL Paramètres SMS]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
-
-   ![](assets/sms_byo_5.png)
-
-1. Configurez vos paramètres de webhook comme indiqué ci-dessous :
-
-   * **[!UICONTROL Nom]** : saisissez un nom pour votre webhook.
-
-   * **[!UICONTROL Sélectionner le fournisseur de SMS]** : personnalisé.
-
-   * **[!UICONTROL Type]** : commentaires.
-
-   ![](assets/webhook-feedback.png)
-
-1. Cliquez sur **[!UICONTROL Afficher l’éditeur de payload]** pour valider et personnaliser les payloads de votre requête.
-
-   Vous pouvez personnaliser votre payload de manière dynamique à l’aide d’attributs de profil, et veiller à ce que des données précises sont envoyées pour le traitement et la génération de réponse à l’aide de fonctions d’assistance intégrées.
-
-1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de votre webhook.
-
-1. Dans le menu **[!UICONTROL Webhooks]**, cliquez sur l’![icône de corbeille](assets/do-not-localize/Smock_Delete_18_N.svg) pour supprimer votre webhook.
-
-1. Pour modifier la configuration existante, recherchez le webhook souhaité et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
-
-1. Accédez à la nouvelle **[!UICONTROL URL du webhook]** et copiez-la à partir du **[!UICONTROL webhook]** précédemment envoyé.
-
-   ![](assets/sms_byo_8.png)
-
-Après avoir créé et configuré les paramètres entrants pour le webhook, vous devez créer une [configuration des canaux](sms-configuration-surface.md) pour les messages SMS.
-
-Une fois configurés, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
-
->[!ENDTABS]
-
 
 ## Vidéo pratique {#video}
 
