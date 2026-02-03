@@ -30,7 +30,7 @@ Les défis de fidélité vous permettent de créer des offres d’engagement per
 >**Dans ce guide :**
 >
 >* [Aperçu](#overview) - Comprenez ce qu’offrent les défis de fidélité
->* [Fonctionnement ](#how-it-works) - Workflow détaillé allant de la configuration à la surveillance
+>* [Fonctionnement &#x200B;](#how-it-works) - Workflow détaillé allant de la configuration à la surveillance
 >* [Conditions préalables](#prerequisites) - Configurer l’ingestion des données et les autorisations
 >* [Accéder aux défis de fidélité](#access) - Ouvrez le menu et affichez les défis
 >* [Créer des défis](#create-challenges) - Créez de nouveaux défis de fidélité
@@ -610,7 +610,7 @@ Pour personnaliser le parcours :
 
 5. Publiez le parcours une fois prêt.
 
-Pour obtenir des conseils détaillés sur la modification de parcours, voir [Créer des parcours ](../building-journeys/journey-gs.md).
+Pour obtenir des conseils détaillés sur la modification de parcours, voir [Créer des parcours &#x200B;](../building-journeys/journey-gs.md).
 
 ### Considérations relatives à la zone de travail de parcours {#journey-considerations}
 
@@ -921,7 +921,7 @@ Le parcours généré automatiquement contient des données d’exécution impor
    * Performances des messages par canal
    * Opportunités d’optimisation du minutage
 
-Pour obtenir des conseils détaillés sur la surveillance des parcours, voir [ Surveiller vos parcours ](../building-journeys/report-journey.md).
+Pour obtenir des conseils détaillés sur la surveillance des parcours, voir [&#x200B; Surveiller vos parcours &#x200B;](../building-journeys/report-journey.md).
 
 ### Optimiser les défis {#optimize}
 
