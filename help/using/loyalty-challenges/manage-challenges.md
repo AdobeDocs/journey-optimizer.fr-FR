@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -87,9 +87,19 @@ Voir la [documentation principale](loyalty-challenges.md#monitor-performance) po
 
 ## Bonnes pratiques {#best-practices}
 
-### Création de défi* Commencez simplement pour votre premier défi* Testez minutieusement avant de publier en production.* Assurer une communication claire sur les exigences et les récompenses* Définir un calendrier réaliste permettant aux clients de relever les défis
+### Création de défi
 
-### Management et monitoring* Vérifiez régulièrement les performances des défis (au moins une fois par semaine pour les défis en direct).* Utilisez des noms descriptifs indiquant l’objectif, l’audience ou la période* Appliquer des balises cohérentes pour l’organisation* Archiver les défis terminés pour faciliter la gestion des stocks
+* Commencez simplement pour votre premier défi
+* Testez minutieusement avant de publier en production.
+* Assurer une communication claire sur les exigences et les récompenses
+* Définir un calendrier réaliste permettant aux clients de relever les défis
+
+### Management et monitoring
+
+* Vérifiez régulièrement les performances des défis (au moins une fois par semaine pour les défis en direct).
+* Utilisez des noms descriptifs indiquant l’objectif, l’audience ou la période
+* Appliquer des balises cohérentes pour l’organisation
+* Archiver les défis terminés pour faciliter la gestion des stocks
 
 Voir la [documentation principale](loyalty-challenges.md#best-practices) pour obtenir des bonnes pratiques complètes.
 
