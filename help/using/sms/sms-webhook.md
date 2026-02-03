@@ -39,7 +39,7 @@ Parcourez les onglets ci-dessous en fonction de vos fournisseurs SMS :
 
 >[!BEGINTABS]
 
->[!TAB Valeur] personnalisée
+>[!TAB Valeur personnalisée]
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks SMS]** sous **[!UICONTROL Paramètres SMS]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
 
