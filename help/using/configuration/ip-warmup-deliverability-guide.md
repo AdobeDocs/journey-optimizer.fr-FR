@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Lors du lancement de campagnes par e-mail avec de nouvelles adresses IP ou de nouveaux domaines dans Adobe Journey Optimizer, il est essentiel de comprendre les principes de base de la délivrabilité pour bâtir une réputation solide en tant qu’expéditeur. Ce guide aborde les concepts clés, les étapes de préparation et les bonnes pratiques pour vous aider à passer d’une réputation inexistante à un placement optimal en boîte de réception.
 
-➡️ Découvrez dans la vidéo de cet [article de blog Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"} les principes de base de la délivrabilité, comment bâtir une réputation solide et les bonnes pratiques pour le préchauffage des adresses IP.
+➡️ Découvrez dans la vidéo de cet [article de blog Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=fr){target="_blank"} les principes de base de la délivrabilité, comment bâtir une réputation solide et les bonnes pratiques pour le préchauffage des adresses IP.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Une fois le plan de préchauffage terminé et les mesures stabilisées :
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=fr).-->
 
 ## Rubriques connexes {#related-topics}
 
