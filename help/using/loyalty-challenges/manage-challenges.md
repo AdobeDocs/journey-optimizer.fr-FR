@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,6 @@ Les défis passent par différents statuts :
 * **Arrêté** : arrêté manuellement avant la fin de l’opération
 * **Archivé** : archivé à des fins d’organisation.
 
-Pour plus d’informations sur chaque statut et la gestion des défis, consultez la [documentation principale](loyalty-challenges.md#manage-challenges).
-
 ## Modifier les défis {#edit-challenges}
 
 Vous pouvez modifier les défis en fonction de leur statut actuel :
@@ -60,8 +58,6 @@ Vous pouvez modifier les défis en fonction de leur statut actuel :
 
 Pour les modifications nécessitant des modifications majeures, dupliquez le défi et créez une nouvelle version.
 
-Consultez la [documentation principale](loyalty-challenges.md#edit-challenges) pour obtenir des instructions de modification détaillées.
-
 ## Dupliquer les défis {#duplicate-challenges}
 
 Dupliquez les défis pour :
@@ -69,8 +65,6 @@ Dupliquez les défis pour :
 * Créer des variations pour différentes audiences
 * Mettre à jour les exigences de tâche ou les récompenses
 * Réactiver les défis arrêtés ou terminés
-
-Voir la [documentation principale](loyalty-challenges.md#duplicate-challenge) pour obtenir des instructions détaillées.
 
 ## Surveillance des performances {#monitor-performance}
 
@@ -82,8 +76,6 @@ Suivre les performances des défis via :
 * **Mesures d’engagement** : impressions de carte de contenu, diffusion de messages
 
 Accédez aux données de performance dans l’onglet Performance du défi et dans les rapports de parcours générés automatiquement.
-
-Voir la [documentation principale](loyalty-challenges.md#monitor-performance) pour obtenir des mesures et des rapports détaillés.
 
 ## Bonnes pratiques {#best-practices}
 
@@ -101,8 +93,6 @@ Voir la [documentation principale](loyalty-challenges.md#monitor-performance) po
 * Appliquer des balises cohérentes pour l’organisation
 * Archiver les défis terminés pour faciliter la gestion des stocks
 
-Voir la [documentation principale](loyalty-challenges.md#best-practices) pour obtenir des bonnes pratiques complètes.
-
 ## Résolution des problèmes {#troubleshooting}
 
 Problèmes courants et solutions :
@@ -111,8 +101,6 @@ Problèmes courants et solutions :
 * **Faibles taux de participation** : visibilité du contenu de révision, clarté des messages, réalisabilité des tâches
 * **Tâches non déclenchées** : vérifier l’ingestion des données, les attributs d’événement, l’éligibilité de l’audience
 * **Les récompenses ne sont pas attribuées** : confirmez la configuration et la connexion au système externe.
-
-Voir la [documentation principale](loyalty-challenges.md#troubleshooting) pour obtenir des conseils de dépannage détaillés.
 
 ## Étapes suivantes {#next-steps}
 
