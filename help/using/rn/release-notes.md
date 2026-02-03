@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1935'
 ht-degree: 23%
 
 ---
@@ -35,11 +35,29 @@ Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#jan-26-01-features}
 
 <table>
+<thead>
+<tr>
+<th><strong>Surveillance des actions personnalisées</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Renseignez davantage insight sur l’intégrité et les performances de vos points d’entrée d’action personnalisés <strong>custom action</strong> avec un nouveau tableau de bord de surveillance et des données d’événement d’étape de parcours enrichies. Effectuez le suivi des appels réussis, des erreurs, du débit, des temps de réponse et des temps d’attente de la file d’attente pour comprendre rapidement quand, où et pourquoi des anomalies se produisent.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<p>Pour plus d’informations, consultez la <a href="../action/reporting.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : mercredi 3 février 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+
 <thead>
 <tr>
 <th><strong>Prise en charge de la prise de décision dans le canal SMS</strong><br/></th>
@@ -214,7 +232,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Contrôles de qualité du contenu de l’assistant d’IA** - En plus de l’alignement de la marque, vous pouvez désormais évaluer l’ensemble <strong>qualité du contenu</strong> pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d&#39;identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality).
 
-  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on).
+  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Parcours
 

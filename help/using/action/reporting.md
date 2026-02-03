@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapport de parcours
+title: Surveiller vos actions personnalisées
 description: Découvrez comment utiliser les données du rapport de parcours.
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
+source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '622'
+ht-degree: 67%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 100%
 >id="ajo_campaigns_custom_actions_monitor"
 >title="Surveiller vos actions personnalisées"
 >abstract="La page de rapports **[!UICONTROL Action personnalisée]** vous permet de suivre les performances et la fiabilité des appels API que vos parcours effectuent à des systèmes tiers."
-
->[!AVAILABILITY]
->
->Les rapports sur les actions personnalisées ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée).
 
 La page de rapports **[!UICONTROL Action personnalisée]** vous permet de surveiller la fiabilité et les performances des appels API effectués depuis vos parcours vers des systèmes tiers. Ces rapports vous aident à identifier rapidement les problèmes d’intégration, les goulots d’étranglement de latence ou les limites/limitations qui peuvent avoir un impact sur la diffusion.
 
@@ -56,19 +52,34 @@ Les indicateurs clés de performance (KPI) sur les **[!UICONTROL actions personn
 
 * **[!UICONTROL RPS moyenne]** : nombre de requêtes par seconde traitées par l’action personnalisée sur la période sélectionnée.
 
+* **[!UICONTROL Latence moyenne]** : temps de réponse moyen de bout en bout (en millisecondes) pour tous les appels HTTP, y compris les appels réussis, les erreurs et les délais d’expiration.
+
+* **[!UICONTROL Latence moyenne réussie]** : temps de réponse moyen de bout en bout (en millisecondes) pour les appels réussis uniquement, à l’exclusion des requêtes en échec et des délais d’expiration.
+
+* **[!UICONTROL Temps moyen dans la file d’attente]** : temps moyen (en millisecondes) passé les appels à attendre dans la file d’attente d’exécution avant d’être envoyés. Cela s’applique uniquement aux points d’entrée limités, où Journey Optimizer met les appels en file d’attente lorsque la limite de débit est atteinte.
+
 +++
 
-## Historique des appels {#calls}
+## Appels dans le temps {#calls}
 
 ![](assets/monitor-3.png)
 
-Le graphique **[!UICONTROL Historique des appels]** affiche la tendance des KPI des appels HTTP sur la période sélectionnée pour le rapport. La granularité de la série temporelle dépend de la période sélectionnée. Par exemple :
+Le graphique **[!UICONTROL Appels au fil du temps]** affiche la tendance de l’indicateur de performance clé des appels HTTP sur la période sélectionnée pour le rapport. La granularité de la série temporelle dépend de la période sélectionnée. Par exemple :
 
 * Pour un rapport sur 7 jours, chaque point de données affiche les KPI pour une journée.
 * Si vous sélectionnez une période d’un jour, le graphique affiche les KPI par heure.
 * Si vous sélectionnez une période d’une heure, le graphique affiche les KPI par minute.
 
 ➡️[Voir la section KPI pour une description des mesures d’appel HTTP](#kpis)
+
+## Latence dans le temps {#latency-overtime}
+
+![](assets/monitor-6.png)
+
+Le graphique **[!UICONTROL Latence au fil du temps]** permet de visualiser la tendance des mesures de latence sur la période sélectionnée. Cette vue de série temporelle vous permet de suivre les modèles de performances, d’identifier les périodes de latence de pointe et de surveiller l’impact des optimisations ou des modifications du système au fil du temps.
+
+➡️[Voir la section KPI pour une description des mesures de latence](#kpis)
+
 
 ## Répartition des appels {#breakdown}
 
@@ -78,4 +89,11 @@ Le tableau **[!UICONTROL Répartition des appels]** fournit une répartition hi�
 
 ➡️[Voir la section KPI pour une description des mesures d’appel HTTP](#kpis)
 
+## Répartition de la latence {#latency-breakdown}
+
+![](assets/monitor-5.png)
+
+Le tableau **[!UICONTROL Répartition de la latence]** fournit une répartition détaillée des mesures de latence entre vos actions personnalisées. Cette vue vous permet d’identifier les points d’entrée ou actions spécifiques qui rencontrent des problèmes de performances, ce qui vous permet d’identifier et de résoudre les goulots d’étranglement de latence de manière efficace.
+
+➡️[Voir la section KPI pour une description des mesures de latence](#kpis)
 
