@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,7 @@ Pour commencer à créer votre contenu , procédez comme suit :
    ![](assets/email_designer.png)
 
 
-1. Accélérez la création de vos e-mails avec l’assistant AI et générez un contenu d’e-mail complet avec du texte et des images à l’aide de l’assistant [&#x200B; AI pour générer du contenu complet](../content-management/generative-full-content.md).
+1. Accélérez la création d’e-mails avec l’assistant IA et générez des e-mails complets contenant du texte et des images à l’aide de l’[assistant IA pour la génération de contenu complet](../content-management/generative-full-content.md).
 
 1. Commencez à concevoir votre contenu en plaçant les **[!UICONTROL structures]** dans la zone de travail pour définir la disposition de votre e-mail.
 

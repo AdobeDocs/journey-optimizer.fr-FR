@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 80795b643ba08e5016d768600c675ce1273e3a16
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Pour plus d’informations sur l’utilisation des audiences dans le portail Aud
 
 Les audiences peuvent être générées à l’aide de différentes méthodes :
 
-* **Définitions de segment** : créez une définition d’audience à l’aide du Service de segmentation d’Adobe Experience Platform. Les audiences sont générées à partir des définitions de segment et actualisées à différents moments en fonction de leur type d’évaluation :
+* **Définitions de segment** : créez une définition d’audience à l’aide du Service de segmentation d’Adobe Experience Platform. Les audiences sont générées à partir des définitions de segment et actualisées à différents moments en fonction de leur type d’évaluation :
 
    * Segmentation du streaming : les audiences sont mises à jour en temps réel au fur et à mesure que de nouvelles données affluent, assurant ainsi une pertinence continue basée sur l’activité des utilisateurs et utilisatrices.
    * Segmentation par lots : les audiences sont actualisées toutes les 24 heures, capturant un instantané des profils à un intervalle fixe.
@@ -76,7 +76,7 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 
 ## Cibler les audiences dans les parcours et les campagnes {#target-audiences}
 
-Une fois vos audiences prêtes, vous pouvez les sélectionner lors de la création de parcours ou de campagnes, ce qui vous permet d’atteindre les bonnes personnes au bon moment avec les messages pertinents. [En savoir plus sur l’activation des audiences dans Journey Optimizer](target-audiences.md).
+Une fois vos audiences prêtes, vous pouvez les sélectionner lors de la création de parcours ou de campagnes, ce qui vous permet d’atteindre les bonnes personnes au bon moment avec les messages pertinents. [En savoir plus sur l’activation d’audience dans Journey Optimizer](target-audiences.md)
 
 ## Vidéo pratique {#video}
 

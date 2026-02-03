@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 88%
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques sur quand et comment les profils doivent quitter les parcours ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des scénarios de sortie réels, des bonnes pratiques et des conseils de configuration.
+>Vous recherchez des conseils pratiques sur quand et comment les profils doivent quitter les parcours ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md), qui comprend des scénarios de sortie réels, des bonnes pratiques et des conseils de configuration.
 
-## Terminaison d’un parcours dynamique
+## Fin d’un parcours dynamique
 
 Les parcours sont fermés lorsque la temporisation globale du parcours est atteinte ou après la dernière occurrence d’un parcours récurrent basé sur l’audience. [Découvrir comment les parcours sont fermés](#close-journey).
 
@@ -124,7 +124,7 @@ Vous pouvez également réaliser les opérations suivantes :
 
 ## Rubriques connexes
 
-* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
-* [Gestion des entrées de profil](entry-management.md) - Configurer la manière dont les profils entrent dans les parcours
-* [Configurer les critères de sortie](journey-properties.md#exit-criteria) - Configurer la suppression automatique des profils des parcours
-* [Mettre en pause un parcours &#x200B;](journey-pause.md) - Arrêter temporairement l’exécution du parcours
+* [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
+* [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
+* [Configurer les critères de sortie](journey-properties.md#exit-criteria) : configurez la suppression automatique des profils des parcours.
+* [Mettre en pause un parcours ](journey-pause.md) : arrêtez temporairement l’exécution du parcours.

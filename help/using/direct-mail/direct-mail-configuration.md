@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
 source-wordcount: '1708'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_frequency"
->title="Choisir la région AWS"
+>title="Choisissez la région AWS"
 >abstract="Si votre configuration du routage des fichiers sera envoyée via des parcours, vous pouvez spécifier la fréquence à laquelle le fichier sera envoyé au serveur."
 
 >[!NOTE]
@@ -94,7 +94,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 Si vous avez sélectionné **[!UICONTROL Amazon S3]** en tant que **[!UICONTROL type de serveur]**, renseignez les détails et les informations d’identification de votre serveur :
 
-* **nom du compartiment AWS**:To pour savoir où trouver votre nom de compartiment AWS, reportez-vous à [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+* **Nom du compartiment AWS**:To : pour savoir où trouver le nom de votre compartiment AWS, consultez [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
 * **Clé d’accès AWS** : pour savoir où trouver votre ID de la clé d’accès AWS, consultez [cette page](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
@@ -122,7 +122,7 @@ Si vous avez sélectionné **[!UICONTROL SFTP]** en tant que **[!UICONTROL type 
 
 >[!TIP]
 >
->Lors de l’utilisation de l’authentification par clé SSH, la clé doit être une clé privée OpenSSH codée en **Base64**. S’il s’agit d’un fichier au format PPK, utilisez l’outil PuTTY pour le convertir au format OpenSSH. Pour obtenir des instructions détaillées, voir [cette section](#ssh-key-generation).
+>Lors de l’utilisation de l’authentification par clé SSH, la clé doit être une clé privée **OpenSSH codée en Base64**. S’il s’agit d’un fichier au format PPK, utilisez l’outil PuTTY pour le convertir au format OpenSSH. Pour obtenir des instructions détaillées, voir [cette section](#ssh-key-generation).
 
 >[!NOTE]
 >
@@ -174,25 +174,25 @@ Si vous utilisez le protocole SFTP avec l’authentification par clé SSH, vous 
 
 +++Générer une clé privée OpenSSH codée en Base64
 
-1. Dans PuTTYgen, générez votre paire de clés. RSA avec 2 048 bits ou plus est recommandé.
-1. Sélectionnez **Conversions** > **Exporter la clé OpenSSH** dans le menu.
+1. Dans PuTTYgen, générez votre paire de clés. RSA avec 2048 bits ou plus est recommandé.
+1. Sélectionnez **Conversions** > **Exporter la clé OpenSSH** dans le menu.
 1. Lorsque vous y êtes invité, choisissez d’enregistrer la clé privée **sans protection de phrase secrète**.
 1. Dans la boîte de dialogue d’enregistrement, sélectionnez **Tous les fichiers (*.*)** comme type de fichier pour vous assurer que la clé est enregistrée en tant que texte brut et non en tant que fichier .ppk.
-1. Ouvrez le fichier enregistré avec un éditeur de texte et vérifiez son format :
+1. Ouvrez le fichier enregistré avec un éditeur de texte et vérifiez son format :
    * Le fichier doit commencer par `-----BEGIN RSA PRIVATE KEY-----` (cinq tirets avant et après).
    * Il ne devrait pas y avoir de libellé indiquant le chiffrement.
    * Le fichier doit se terminer par `-----END RSA PRIVATE KEY-----` (cinq tirets avant et après).
-1. Copiez le **contenu entier du fichier** (y compris les marqueurs `-----BEGIN/END RSA PRIVATE KEY-----`) et codez-le en Base64 à l’aide d’un outil tel que [Coder et décoder en Base64](https://www.base64encode.org/).
+1. Copiez le **contenu entier du fichier** (y compris les marqueurs `-----BEGIN/END RSA PRIVATE KEY-----`) et codez-le en Base64 à l’aide d’un outil tel que [Base64 Encode and Decode](https://www.base64encode.org/).
 
    >[!NOTE]
    >
-   >Dans la sortie de codage Base64, supprimez toute mise en forme MIME. La clé encodée doit être une seule chaîne continue.
+   >Dans la sortie du codage en Base64, supprimez toute mise en forme MIME. La clé codée doit être une chaîne unique et continue.
 
 1. Vous pouvez désormais coller la clé SSH codée en Base64 dans le champ dédié de Journey Optimizer.
 
 >[!CAUTION]
 >
->Après l&#39;encodage Base64, la clé ne contiendra plus les marqueurs `-----BEGIN/END RSA PRIVATE KEY-----` et ne devra pas inclure de sauts de ligne. La clé publique correspondante doit être ajoutée au fichier des clés autorisées de votre serveur SFTP.
+>Après le codage en Base64, la clé ne contiendra plus les marqueurs `-----BEGIN/END RSA PRIVATE KEY-----` et ne devra pas inclure de sauts de ligne. La clé publique correspondante doit être ajoutée au fichier des clés autorisées de votre serveur SFTP.
 
 Pour plus d’informations sur la connexion de votre compte SFTP à Experience Platform, consultez [cette documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 

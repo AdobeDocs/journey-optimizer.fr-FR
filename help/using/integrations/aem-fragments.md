@@ -10,7 +10,7 @@ exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 source-git-commit: 780c197da342968c6dc125277f325219e0717082
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ Pour en savoir plus sur les fragments de contenu AEM, voir [Utilisation des frag
 
 >[!IMPORTANT]
 >
->Pour permettre à Journey Optimizer d’accéder aux fragments de contenu de Adobe Experience Manager via l’API de gestion des fragments de contenu, vous devez d’abord [configurer Dispatcher](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration).
+>Pour permettre à Journey Optimizer d’accéder aux fragments de contenu d’Adobe Experience Manager via l’API Content Fragment Management, vous devez d’abord [configurer Dispatcher](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration).
 
 Avant d’utiliser votre fragment de contenu dans Journey Optimizer, vous devez créer une balise spécifique à Journey Optimizer :
 

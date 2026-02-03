@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1682'
-ht-degree: 64%
+ht-degree: 95%
 
 ---
 
@@ -29,21 +29,21 @@ ht-degree: 64%
 >title="Action"
 >abstract="Cette section répertorie toutes les actions utilisées dans la campagne orchestrée."
 
-Découvrez comment accéder à vos campagnes, les organiser et les gérer dans Adobe Journey Optimizer. Ce guide couvre tous les aspects, de la recherche de campagnes à la compréhension des statuts, en passant par l’exécution d’opérations courantes et la maintenance de votre espace de travail Campaign.
+Découvrez comment accéder à vos campagnes, les organiser et les gérer dans Adobe Journey Optimizer. Ce guide couvre tous les aspects, depuis la recherche de campagnes jusqu’à la compréhension des statuts, en passant par l’exécution d’opérations courantes et la maintenance de votre espace de travail de campagne.
 
 >[!BEGINSHADEBOX]
 
-**Accédez directement à ce dont vous avez besoin :**
+**Accédez directement à ce dont vous avez besoin :**
 
-* **Créer une campagne** - [Choisissez votre type de campagne](get-started-with-campaigns.md#campaign-types) | [Créer une campagne Action](create-campaign.md) | [Créer une campagne déclenchée par l’API](api-triggered-campaigns.md) | [Créer une campagne orchestrée](../orchestrated/gs-orchestrated-campaigns.md)
+* **Créer une campagne** - [Choisir votre type de campagne](get-started-with-campaigns.md#campaign-types) | [Créer une campagne d’action](create-campaign.md) | [Créer une campagne déclenchée par API](api-triggered-campaigns.md) | [Créer une campagne orchestrée](../orchestrated/gs-orchestrated-campaigns.md)
 * **Rechercher des campagnes existantes** - [Rechercher et filtrer](#access)
 * **Afficher les performances de la campagne** - [Rapports de campagne](../reports/campaign-global-report-cja.md)
 * **Planifier des campagnes** - [Utiliser le calendrier](#calendar)
-* **Gestion des conflits** - [Guide de gestion des conflits](../conflict-prioritization/gs-conflict-prioritization.md)
+* **Gérer les conflits** - [Guide de gestion des conflits](../conflict-prioritization/gs-conflict-prioritization.md)
 
 >[!ENDSHADEBOX]
 
-## Accès aux campagnes et navigation dans celles-ci {#access}
+## Accéder aux campagnes et les gérer {#access}
 
 Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**. Utilisez les onglets pour parcourir les campagnes par type : campagnes d’**action**, campagnes **déclenchées par API** et campagnes **orchestrées**. En savoir plus sur les [types de campagne](get-started-with-campaigns.md#campaign-types). Les types disponibles dépendent de votre contrat de licence et de vos autorisations.
 
@@ -71,7 +71,7 @@ Sélectionnez l’onglet **[!UICONTROL Orchestration]** pour accéder à la list
 
 ![image montrant l’inventaire des campagnes orchestrées](assets/inventory.png){zoomable="yes"}
 
-Chaque campagne orchestrée de la liste affiche des informations telles que le [statut](#statuses) actuel de la campagne, le canal et les balises associés ou la dernière fois qu’elle a été modifiée. Vous pouvez personnaliser les colonnes affichées en cliquant sur le bouton ![Configure layout button](assets/do-not-localize/inventory-configure-layout.svg).
+Chaque campagne orchestrée figurant dans la liste affiche des informations telles que le [statut](#statuses) actuel de la campagne, le canal et les balises associés ou la dernière fois qu’elle a été modifiée. Vous pouvez personnaliser les colonnes affichées en cliquant sur le bouton ![Configurer la disposition](assets/do-not-localize/inventory-configure-layout.svg).
 
 >[!ENDTABS]
 
@@ -81,49 +81,49 @@ Une barre de recherche et des filtres sont également disponibles pour faciliter
 
 ## Opérations de campagne {#operations}
 
-L’image ![qui affiche le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) dans l’inventaire des campagnes vous permet d’effectuer diverses opérations.
+Le bouton ![image montrant le bouton Plus d’actions](assets/do-not-localize/rule-builder-icon-more.svg) dans l’inventaire des campagnes permet d’effectuer différentes opérations.
 
 ![image montrant l’inventaire des campagnes](assets/inventory-actions.png)
 
 ### Actions disponibles
 
-**Pour tous les types de campagne :**
+**Pour tous les types de campagne :**
 
 * **[!UICONTROL Afficher le rapport complet]**/**[!UICONTROL Afficher le rapport des dernières 24 heures]** : accédez aux rapports pour mesurer et visualiser l’impact et les performances de vos campagnes. [En savoir plus sur les rapports de campagne →](../reports/campaign-global-report-cja.md)
-* **[!UICONTROL Modifier les balises]** : modifiez les balises associées à la campagne. [Découvrez comment utiliser les balises →](../start/search-filter-categorize.md#add-tags)
-* **[!UICONTROL Dupliquer]** : vous aurez éventuellement besoin de dupliquer une campagne, par exemple pour exécuter une campagne orchestrée qui a été arrêtée. [En savoir plus sur la duplication de →](#duplicate-a-campaign)
-* **[!UICONTROL Supprimer]** : utilisez cette option pour supprimer une campagne. [En savoir plus sur la suppression de →](#delete-a-campaign)
-* **[!UICONTROL Archiver]** : archivez la campagne. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de leur dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des **[!UICONTROL brouillons]** de campagnes. [En savoir plus sur les → d’archivage](#archive-a-campaign)
+* **[!UICONTROL Modifier les balises]** : modifiez les balises associées à la campagne. [En savoir plus sur l’utilisation des balises →](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL Dupliquer]** : vous aurez éventuellement besoin de dupliquer une campagne, par exemple pour exécuter une campagne orchestrée qui a été arrêtée. [En savoir plus sur la duplication →](#duplicate-a-campaign)
+* **[!UICONTROL Supprimer]** : utilisez cette option pour supprimer une campagne. [En savoir plus sur la suppression →](#delete-a-campaign)
+* **[!UICONTROL Archiver]** : archivez la campagne. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de leur dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des **[!UICONTROL brouillons]** de campagnes. [En savoir plus sur l’archivage →](#archive-a-campaign)
 
-**Pour les campagnes déclenchées par action et API uniquement :**
+**Pour les campagnes d’action et déclenchées par API uniquement :**
 
-* **[!UICONTROL Ajouter au package]** : ajoutez la campagne à un package pour l’exporter vers un autre sandbox. [Découvrez comment exporter des objets →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Ajouter au package]** : ajoutez la campagne à un package pour l’exporter vers un autre sandbox. [En savoir plus sur l’export d’objets →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Ouvrir la version brouillon]** : si une nouvelle version de la campagne a été créée et n’a pas encore été activée, vous pouvez accéder à sa version brouillon à l’aide de cette action.
 
 **Pour les campagnes orchestrées uniquement :**
 
 * **[!UICONTROL Retour au brouillon]** - Dépubliez et revenez à l’état de brouillon d’une campagne pour la récupération des erreurs. Cette action est disponible lorsqu’une campagne planifiée n’a pas encore démarré ou lorsqu’une campagne active rencontre une erreur avant que les exécutions ne soient terminées. [En savoir plus sur la restauration de campagnes →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
 
-## Comprendre le statut de la campagne {#statuses}
+## Comprendre les statuts de campagne {#statuses}
 
-Chaque campagne passe par un cycle de vie qui est reflété par son statut dans l’interface. Comprendre ces statuts vous permet de savoir quelles actions sont disponibles et ce qu’il faut faire ensuite.
+Chaque campagne passe par un cycle de vie reflété par son statut dans l’interface. Comprendre ces statuts vous permet de savoir quelles actions sont disponibles et les actions à entreprendre.
 
-| État | Campagnes d’action | Campagnes déclenchées par API | Campagnes orchestrées | Signification | Actions suivantes |
+| Statut | Campagnes d’action | Campagnes déclenchées par API | Campagnes orchestrées | Signification | Actions suivantes |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL Brouillon]** | ✅ | ✅ | ✅ | En cours de modification, non activé | Poursuivre la modification ou [activer la campagne](review-activate-campaign.md) |
 | **[!UICONTROL Planifié]** | ✅ | ✅ | ✅ | Configuré pour une date de début spécifique | Attendre le lancement, [modifier si nécessaire](#modify) ou [afficher dans le calendrier](#calendar) |
-| **[!UICONTROL En direct]** | ✅ | ✅ | ✅ | Activé et en cours d’exécution | [Surveillance des performances](../reports/campaign-global-report-cja.md), [création d’une nouvelle version](#modify) si nécessaire. Pour les campagnes orchestrées : [revenir au brouillon](../orchestrated/start-monitor-campaigns.md#back-to-draft) pour les campagnes planifiées qui ne sont pas encore lancées ou les campagnes présentant des erreurs d’exécution avant l’envoi des messages |
+| **[!UICONTROL Actif]** | ✅ | ✅ | ✅ | Activé et en cours d’exécution | [Surveillance des performances](../reports/campaign-global-report-cja.md), [création d’une nouvelle version](#modify) si nécessaire. Pour les campagnes orchestrées : [revenir au brouillon](../orchestrated/start-monitor-campaigns.md#back-to-draft) pour les campagnes planifiées qui ne sont pas encore lancées ou les campagnes présentant des erreurs d’exécution avant l’envoi des messages |
 | **[!UICONTROL En révision]** | ✅ | ✅ | — | Soumis pour approbation | Attendre l’[approbation](../test-approve/gs-approval.md) ou modifier |
-| **[!UICONTROL Arrêtée]** | ✅ | ✅ | ✅ | Arrêté manuellement, impossible de réactiver | [Dupliquer pour réutiliser](#duplicate-a-campaign) |
-| **[!UICONTROL Terminé]** | ✅ | ✅ | ✅ | Exécution terminée (affectée automatiquement 3 jours après l’activation ou à la date de fin pour la période récurrente) | [Affichage des rapports](../reports/campaign-global-report-cja.md), [archivage](#archive-a-campaign) ou [duplication](#duplicate-a-campaign) |
+| **[!UICONTROL Arrêté]** | ✅ | ✅ | ✅ | Arrêté manuellement, impossible de réactiver | [Dupliquer pour réutiliser](#duplicate-a-campaign) |
+| **[!UICONTROL Terminé]** | ✅ | ✅ | ✅ | Exécution terminée (attribuée automatiquement 3 jours après l’activation ou à la date de fin pour les tâches récurrentes) | [Afficher les rapports](../reports/campaign-global-report-cja.md), [archiver](#archive-a-campaign) ou [dupliquer](#duplicate-a-campaign) |
 | **[!UICONTROL Échec]** | ✅ | ✅ | — | Échec de l’exécution | Vérifier les journaux, résoudre les problèmes, [dupliquer pour réessayer](#duplicate-a-campaign) |
-| **[!UICONTROL Archivé]** | ✅ | ✅ | ✅ | Archivé (supprimé automatiquement après 30 jours) | [Récupérer à l’aide du filtre](#access) si nécessaire |
-| **[!UICONTROL Fermé]** | — | — | ✅ | Campagne récurrente fermée, aucune nouvelle entrée autorisée (se poursuit jusqu&#39;à ce que toutes les activités soient terminées) | Attendre la fin |
+| **[!UICONTROL Archivé]** | ✅ | ✅ | ✅ | Archivé (supprimé automatiquement après 30 jours) | [Récupérer à l’aide du filtre](#access) si nécessaire |
+| **[!UICONTROL Fermé]** | — | — | ✅ | Campagne récurrente fermée, aucune nouvelle entrée autorisée (se poursuit jusqu’à ce que toutes les activités soient terminées) | Attendre la fin |
 | **[!UICONTROL Publication]** | — | — | ✅ | En cours de publication | Attendre la fin de la publication |
 
 >[!NOTE]
 >
->Pour les campagnes déclenchées par action et par API, l’icône « Ouvrir le brouillon » en regard d’un statut **[!UICONTROL En ligne]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version a été créée et n’a pas encore été activée.
+>Pour les campagnes d’action ou déclenchées par API, l’icône « Ouvrir la version brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version a été créée et n’a pas encore été activée.
 
 ### Indicateurs d’erreur
 
@@ -133,7 +133,7 @@ Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’ave
 
 >[!NOTE]
 >
->Assets/Images sont accessibles dans le contenu diffusé pendant un maximum de 2 ans (730 jours) depuis leur première publication dans un fragment ou un message intégré. Une republication est nécessaire après cette période d’expiration (à tout moment après 730 jours) pour les conserver accessibles pendant 2 ans supplémentaires. Toute republication effectuée dans les 730 jours suivant la première publication n’étendra pas l’expiration des ressources/images aux 730 jours suivants.
+>Les ressources/images sont accessibles dans le contenu diffusé pendant un maximum de 2 ans (730 jours) depuis leur première publication dans un fragment ou un message intégré. Une nouvelle publication est nécessaire après cette période d’expiration (à tout moment après 730 jours) pour prolonger leur accessibilité pendant 2 ans supplémentaires. Toute nouvelle publication effectuée dans les 730 jours suivant la première publication ne prolongera pas la validité des ressources/images aux 730 jours suivants.
 
 ## Calendrier des campagnes {#calendar}
 
@@ -154,7 +154,7 @@ Représentation des campagnes :
 * Si aucune heure de début n’est spécifiée, l’heure d’activation manuelle la plus proche est utilisée pour la positionner dans le calendrier.
 * Les campagnes s’affichent sous la forme de périodes d’une heure, mais cela ne reflète pas l’heure d’envoi ou d’achèvement réelle.
 
-### Parcourir le calendrier
+### Naviguer dans le calendrier
 
 1. Cliquez sur l’icône de ![calendrier](assets/do-not-localize/Smock_Calendar_18_N.svg) pour accéder à votre calendrier des campagnes.
 
@@ -217,9 +217,9 @@ Pour modifier et créer une nouvelle version d’une campagne d’action récurr
 **Rubriques connexes :**
 * [Propriétés de la campagne](campaign-properties.md)
 * [Actions de campagne](campaign-action.md)
-* [Contenu de la campagne](campaign-content.md)
-* [Audience de la campagne](campaign-audience.md)
-* [Planning de la campagne](campaign-schedule.md)
+* [Contenu de campagne](campaign-content.md)
+* [Audience de campagne](campaign-audience.md)
+* [Planning de campagne](campaign-schedule.md)
 
 ### Arrêter une campagne d’action {#stop}
 
@@ -243,7 +243,7 @@ Les campagnes archivées peuvent ensuite être récupérées à l’aide du filt
 
 ## Suprimer une campagne {#delete-a-campaign}
 
-Pour supprimer une campagne, utilisez les points de suspension ![image illustrant le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) puis sélectionnez **[!UICONTROL Supprimer]**.
+Pour supprimer une campagne, cliquez sur le bouton à trois points ![image montrant le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) puis sélectionnez **[!UICONTROL Supprimer]**.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -253,7 +253,7 @@ Pour supprimer une campagne, utilisez les points de suspension ![image illustran
 
 ## Dupliquer une campagne {#duplicate-a-campaign}
 
-Pour dupliquer une campagne, par exemple si elle a été arrêtée, utilisez les points de suspension ![image illustrant le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) et sélectionnez **[!UICONTROL Dupliquer]**.
+Pour dupliquer une campagne, par exemple si elle a été arrêtée, cliquez sur le bouton à trois points ![image montrant le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) et sélectionnez **[!UICONTROL Dupliquer]**.
 
 Saisissez le nom de la campagne et confirmez.
 
@@ -261,12 +261,12 @@ La campagne est créée et ajoutée à la liste des campagnes.
 
 ## Ressources supplémentaires
 
-* **Prise en main** - [Prise en main des campagnes](get-started-with-campaigns.md) | [Créer votre première campagne Action](create-campaign.md) | [&#x200B; Guide des campagnes déclenchées par API &#x200B;](api-triggered-campaigns.md) | [&#x200B; Guide des campagnes orchestrées &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
+* **Prise en main** - [Commencer avec les campagnes](get-started-with-campaigns.md) | [Créer votre première campagne d’action](create-campaign.md) | [Guide des campagnes déclenchées par API ](api-triggered-campaigns.md) | [Guide des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **Configuration de la campagne** - [Propriétés de la campagne](campaign-properties.md) | [Actions et canaux de Campaign](campaign-action.md) | [Conception de contenu Campaign](campaign-content.md) | [Sélection de l’audience de la campagne](campaign-audience.md) | [Planification des campagnes](campaign-schedule.md)
+* **Configuration de la campagne** - [Propriétés de la campagne](campaign-properties.md) | [Actions et canaux de campagne](campaign-action.md) | [Conception de contenu de campagne](campaign-content.md) | [Sélection de l’audience de campagne](campaign-audience.md) | [Planification de campagne](campaign-schedule.md)
 
 * **Fonctionnalités avancées** - [Workflows d’approbation](../test-approve/gs-approval.md) | [Gestion des conflits et hiérarchisation](../conflict-prioritization/gs-conflict-prioritization.md) | [Capping de la fréquence par canal](../conflict-prioritization/channel-capping.md) | [Scores de priorité](../conflict-prioritization/priority-scores.md) | [Exporter des campagnes vers d’autres sandbox](../configuration/copy-objects-to-sandbox.md)
 
 * **Surveillance et optimisation** - [Rapports de campagne (CJA)](../reports/campaign-global-report-cja.md) | [Configurer des alertes](../reports/alerts.md)
 
-* **Organisation** - [Utilisation des balises](../start/search-filter-categorize.md) | [Gérer les autorisations](../administration/ootb-product-profiles.md)
+* **Organisation** - [Utiliser les balises](../start/search-filter-categorize.md) | [Gérer les autorisations](../administration/ootb-product-profiles.md)

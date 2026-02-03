@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -109,7 +109,7 @@ Pour configurer le contenu de votre message, suivez les étapes ci-après. Les p
 
    ![](assets/sms-content.png)
 
-1. Générez des SMS attrayants adaptés à votre audience à l’aide de l’assistant [AI pour la génération de texte](../content-management/generative-text.md).
+1. Générez des messages texte attrayants adaptés à votre audience à l’aide de l’[assistant IA pour la génération de texte](../content-management/generative-text.md).
 
 1. Utilisez l’éditeur de personnalisation pour définir le contenu, ajouter de la personnalisation ou du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles. Accédez aux pages suivantes pour en savoir plus sur la [personnalisation](../personalization/personalize.md) et le [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur de personnalisation.
 

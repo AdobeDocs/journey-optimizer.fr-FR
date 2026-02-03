@@ -9,7 +9,7 @@ exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
 workflow-type: tm+mt
 source-wordcount: '935'
-ht-degree: 73%
+ht-degree: 87%
 
 ---
 
@@ -23,9 +23,9 @@ L’expérience basée sur le code est compatible avec n’importe quelle mise e
 
 >[!IMPORTANT]
 >
->Suivez [ce lien](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} pour trouver des exemples d’implémentation pour différents cas d’utilisation de personnalisation et d’expérimentation. Consultez-les et exécutez-les afin de mieux comprendre les étapes de mise en œuvre nécessaires et le fonctionnement du flux de personnalisation de bout en bout.
+>Suivez [ce lien](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} pour trouver des exemples de mise en œuvre pour différents cas de personnalisation et d’expérimentation. Consultez-les et exécutez-les afin de mieux comprendre les étapes de mise en œuvre nécessaires et le fonctionnement du flux de personnalisation de bout en bout.
 
-➡️ Pour en savoir plus sur la configuration de Web SDK pour les expériences et la prise de décision basées sur du code, consultez [ces tutoriels](code-based-decisioning-implementations.md#tutorials)
+➡️ Pour en savoir plus sur la configuration du SDK web pour les expériences et la prise de décision basées sur du code, consultez [ces tutoriels](code-based-decisioning-implementations.md#tutorials).
 
 ## Mise en œuvre côté client {#client-side-implementation}
 
@@ -33,15 +33,15 @@ Si vous disposez d’une implémentation côté client, vous pouvez utiliser l�
 
 * Les étapes [ci-dessous](#client-side-how) décrivent le processus de récupération du contenu publié en périphérie par les campagnes et parcours d’expériences basées sur du code dans un exemple d’implémentation du **SDK Web** et de l’affichage du contenu personnalisé.
 
-* Les étapes d’implémentation d’un canal basé sur le code à l’aide de **Mobile SDK** sont décrites dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* Les étapes d’implémentation du canal basé sur du code à l’aide du **SDK mobile** sont décrites dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
   >[!NOTE]
   >
-  >Des exemples de mise en œuvre pour les cas d’utilisation mobiles sont disponibles pour [l’application iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} et [l’application Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >Des exemples d’implémentation pour des cas d’utilisation mobiles sont disponibles dans l’[application iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} et l’[application Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
 ### Fonctionnement - SDK Web {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com//docs/experience-platform/edge/home.html?lang=fr){target="_blank"} est inclus dans la page.
+1. Le [SDK web](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/home){target="_blank"} est inclus dans la page.
 
 1. Vous devez utiliser la commande `sendEvent` et spécifier l’[URI de surface](code-based-surface.md)<!--( or location/path)--> pour récupérer le contenu de personnalisation.
 
@@ -54,7 +54,7 @@ Si vous disposez d’une implémentation côté client, vous pouvez utiliser l�
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. Les éléments d’expérience basés sur le code doivent être appliqués manuellement par le code d’implémentation (à l’aide de la méthode [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} ) pour mettre à jour le DOM en fonction de la décision.
+1. Les éléments d’expériences basées sur du code doivent être appliqués manuellement par le code de mise en œuvre (à l’aide de la méthode [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}) pour mettre à jour le modèle DOM en fonction de la décision.
 
 1. Pour les campagnes et parcours d’expériences basées sur du code, les événements d’affichage doivent être envoyés manuellement pour indiquer le moment où le contenu a été affiché. Cela s’effectue via la commande `sendEvent`.
 
@@ -147,7 +147,7 @@ Les étapes ci-dessous décrivent le processus de récupération du contenu publ
 ### Fonctionnement
 
 1. La page web est demandée et tous les cookies précédemment stockés par le navigateur, précédés du préfixe `kndctr_`, sont inclus.
-1. Lorsque la page est demandée auprès du serveur d’applications, un événement est envoyé au [point d’entrée de la collecte de données interactive](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr) pour récupérer du contenu de personnalisation. Cet exemple d’application utilise certaines méthodes d’assistance pour simplifier la création et l’envoi de requêtes à l’API (voir [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mais la requête est simplement un `POST` avec une payload contenant un événement et une requête. Les cookies (s’ils sont disponibles) de l’étape précédente sont inclus avec la requête dans le tableau `meta>state>entries`.
+1. Lorsque la page est demandée auprès du serveur d’applications, un événement est envoyé au [point d’entrée de la collecte de données interactive](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr) pour récupérer du contenu de personnalisation. Cet exemple d’application utilise des méthodes d’assistance pour simplifier la création et l’envoi de requêtes à l’API (voir [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mais la requête est simplement un `POST` avec une payload contenant un événement et une requête. Les cookies (s’ils sont disponibles) de l’étape précédente sont inclus avec la requête dans le tableau `meta>state>entries`.
 
    ```javascript
    fetch(
@@ -307,8 +307,8 @@ Les requêtes envoyées à l’API Adobe Experience Platform sont nécessaires
 
 Si vous disposez d’une mise en œuvre hybride, consultez les liens ci-dessous.
 
-* Blog Adobe Tech : [Personalization hybride dans Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentation SDK : [personnalisation hybride à l’aide de Web SDK et de l’API du serveur Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=fr){target="_blank"}
+* Blog sur les technologies Adobe : [Personnalisation hybride dans le SDK web d’Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* Documentation SDK : [Personnalisation hybride à l’aide du SDK web et de l’API Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=fr){target="_blank"}
 
 ## Déboguer les appels d’API réseau d’Edge avec Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
 
@@ -357,4 +357,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->

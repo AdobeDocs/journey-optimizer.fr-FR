@@ -11,22 +11,22 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '3337'
-ht-degree: 71%
+ht-degree: 77%
 
 ---
 
 # Exemples de requêtes{#query-examples}
 
-Cette section fournit des exemples couramment utilisés pour interroger les événements d’étape de Parcours dans le lac de données. Avant de passer à des cas d’utilisation spécifiques, il est important de comprendre les identifiants clés utilisés dans les données d’événement de parcours.
+Cette section fournit des exemples couramment utilisés pour interroger les événements d’étape du parcours dans le lac de données. Avant de s’intéresser à des cas d’utilisation spécifiques, il est important de comprendre les identifiants clés utilisés dans les données d’événement de parcours.
 
 Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associées dans le schéma correspondant.
 
 ## Compréhension des identifiants clés {#key-identifiers}
 
-+++Quelle est la différence entre id, instanceID et profileID ?
++++Quelle est la différence entre ID, instanceID et profileID ?
 
 * ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
-* instanceID : instanceID est le même pour tous les événements d’étape associés à un profil dans une exécution de parcours. Si un profil entre à nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
+* instanceID : l’instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil rejoint à nouveau le parcours, un instanceID différent est utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de cette nouvelle instance (du début à la fin).
 * profileID : identité du profil correspondant à l’espace de noms du parcours.
 
 >[!NOTE]
@@ -80,9 +80,9 @@ AND
 
 +++
 
-+++Quelle règle a empêché un profil de recevoir une action de parcours ?
++++Quelle règle a empêché un profil de recevoir une action de parcours ?
 
-Cette requête renvoie les détails de l’événement d’étape pour les profils qui ont été ignorés lors d’un parcours et qui n’ont pas reçu d’action de parcours. Cela permet d’identifier pourquoi les profils ont été ignorés en raison de règles métier telles que les contraintes d’heures calmes.
+Cette requête renvoie les détails de l’événement d’étape pour les profils qui ont été ignorés lors d’un parcours et qui n’ont pas reçu d’action de parcours. Elle permet d’identifier pourquoi les profils ont été ignorés en raison de règles métier telles que les contraintes liées aux heures creuses.
 
 _Requête du lac de données_
 
@@ -127,13 +127,13 @@ WHERE
 ```
 
 
-Les résultats de la requête affichent les champs clés qui permettent d’identifier la raison des abandons de profil :
+Les résultats de la requête affichent les champs qui permettent de savoir pourquoi les profils ont été ignorés :
 
-* **actionExecutionError** - Lorsque la valeur est définie sur `businessRuleProfileDiscarded`, cela indique que le profil a été ignoré en raison d’une règle métier. Le champ `eventType` fournit des détails supplémentaires sur la règle métier spécifique à l&#39;origine de la suppression.
+* **actionExecutionError** : lorsque la valeur est définie sur `businessRuleProfileDiscarded`, cela indique que le profil a été ignoré en raison d’une règle métier. Le champ `eventType` fournit des détails supplémentaires sur la règle métier qui a provoqué l’exclusion.
 
-* **eventType** - Indique le type de règle métier à l&#39;origine de l&#39;abandon :
-   * `quietHours` : le profil a été ignoré en raison de la configuration des heures calmes
-   * `forcedDiscardDueToQuietHours` : le profil a été ignoré de force, car la limite de mécanisme de sécurisation a été atteinte pour les profils conservés pendant les heures calmes
+* **eventType** : indique le type de la règle métier à l’origine de l’exclusion :
+   * `quietHours` : le profil a été ignoré en raison de la configuration des heures creuses.
+   * `forcedDiscardDueToQuietHours` : le profil a été ignoré de force, car la limite du mécanisme de sécurisation pour les profils en heures creuses a été atteinte.
 
 +++
 
@@ -1017,7 +1017,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-Découvrez comment [dépanner les types d’événements ignorés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
+Découvrez comment [dépanner les types d’événements rejetés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 

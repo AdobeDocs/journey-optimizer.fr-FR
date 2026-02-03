@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Ce cas d’utilisation présente toutes les étapes nécessaires pour utiliser l
 
 >[!NOTE]
 >
->La fonctionnalité de gestion des décisions héritée n’est pas prise en charge avec le canal d’expérience basé sur le code.
+>La fonctionnalité de gestion des décisions héritée n’est pas prise en charge avec le canal d’expérience basé sur du code.
 
 Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d’offre préaffectées. Pour mesurer celle qui fonctionne le mieux pour votre audience cible, créez une campagne à l’aide de l’[Expérience de contenu](../content-management/content-experiment.md), dans laquelle vous définissez deux traitements de diffusion :
 
@@ -31,7 +31,7 @@ Dans cet exemple, vous ne savez pas si une formule de classement spécifique ser
 
 >[!NOTE]
 >
->Pour plus d’informations sur la mise en œuvre des tests et de la déduplication lors de l’utilisation de la prise de décision dans des expériences basées sur du code, consultez [cette page](../code-based/code-based-decisioning-implementations.md).
+>Pour plus d’informations sur la mise en œuvre des tests et la déduplication lors de l’utilisation de la prise de décision dans des expériences basées sur du code, consultez [cette page](../code-based/code-based-decisioning-implementations.md).
 
 ## Créer des stratégies de sélection
 

@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
 workflow-type: tm+mt
 source-wordcount: '1130'
-ht-degree: 77%
+ht-degree: 90%
 
 ---
 
@@ -186,23 +186,23 @@ Une fois configurés, vous pouvez tirer parti de toutes les fonctionnalités d�
 
 Vous pouvez maintenant commencer à envoyer des messages WhatsApp avec Journey Optimizer.
 
-## Résolution des problèmes de configuration du canal WhatsApp {#troubleshooting}
+## Résoudre les problèmes liés à la configuration du canal WhatsApp {#troubleshooting}
 
 ### Erreurs HTTP 500 lors de la configuration des informations d’identification de l’API
 
-Si vous rencontrez une erreur HTTP 500 lors de la configuration des informations d’identification de l’API WhatsApp, procédez comme suit :
+Si vous rencontrez une erreur HTTP 500 lors de la configuration des informations d’identification de l’API WhatsApp, suivez ces étapes de dépannage :
 
-1. **Vérification des droits** : vérifiez que les droits d’`cjm_whatsapp` sont configurés pour votre organisation. Sans ce droit, le canal WhatsApp ne peut pas être configuré.
+1. **Vérifier les droits** : confirmez que votre organisation dispose du droit `cjm_whatsapp`. Sans ce droit, le canal WhatsApp ne peut pas être configuré.
 
-1. **Valider les champs du compte professionnel** : assurez-vous que tous les champs obligatoires sont correctement remplis :
-   * **Jeton API** : doit être un jeton d’accès Meta valide avec les autorisations appropriées. [En savoir plus](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-   * **Identifiant de compte professionnel** : doit correspondre exactement à votre identifiant de compte professionnel Meta. [En savoir plus](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
+1. **Valider les champs du compte d&#39;entreprise** : assurez-vous que tous les champs obligatoires sont correctement renseignés :
+   * **Jeton API** : doit être un jeton d’accès Meta valide avec les autorisations appropriées. [En savoir plus](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **ID de compte d’entreprise** : doit correspondre exactement à votre ID de compte d’entreprise Meta. [En savoir plus](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
 
-1. **Tester les informations d’identification en externe** : vérifiez vos informations d’identification directement auprès de l’API Meta pour confirmer que le problème concerne bien les informations d’identification ou la gestion des informations d’identification Journey Optimizer.
+1. **Tester les informations d’identification en externe** : vérifiez vos informations d’identification directement avec l’API Meta pour confirmer si le problème vient des informations d’identification ou de la gestion des informations d’identification de Journey Optimizer.
 
-1. **Activer la journalisation avancée** : pour identifier les configurations incorrectes du serveur interne ou de l’authentification, activez les journaux avancés dans votre environnement Journey Optimizer pour fournir des informations détaillées sur les échecs d’appel de l’API.
+1. **Activer la journalisation avancée** : pour identifier les erreurs de configuration du serveur interne ou de l’authentification, activez les journaux avancés dans votre environnement Journey Optimizer afin de fournir des informations détaillées sur les échecs des appels API.
 
-1. **Contactez l’assistance** : si la validité de l’environnement et des droits est confirmée, mais que l’erreur HTTP 500 persiste, contactez votre représentant Adobe.
+1. **Contacter l’assistance** : si la validité de l’environnement et des droits est confirmée mais que l’erreur HTTP 500 persiste, contactez votre représentant Adobe.
 
 ## Vidéo pratique {#video}
 
@@ -210,6 +210,6 @@ La vidéo ci-dessous montre comment configurer le canal WhatsApp dans Adobe Jou
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470270/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

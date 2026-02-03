@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Les fonctions de date et d’heure sont utilisées pour effectuer des opération
 
 >[!NOTE]
 >
->La fonction `now()` n’est pas disponible dans l’éditeur de personnalisation. Utilisez `getCurrentZonedDateTime()` ou `currentTimeInMillis()` à la place pour les valeurs de date et d’heure actuelles. [En savoir plus](../../email/code-content.md#date-time-limitations)
+>La fonction `now()` n’est pas disponible dans l’éditeur de personnalisation. Utilisez plutôt `getCurrentZonedDateTime()` ou `currentTimeInMillis()` pour les valeurs actuelles de date et d’heure. [En savoir plus](../../email/code-content.md#date-time-limitations)
 
 ## Ajouter des jours {#add-days}
 
@@ -412,7 +412,7 @@ Où la première chaîne correspond à l’attribut date et la seconde à la man
 
 >[!NOTE]
 >
-> Si un modèle de date n’est pas valide, la date bascule vers le format ISO standard.
+> Si un modèle de date n’est pas valide, la date revient au format ISO standard.
 >
 > Vous pouvez utiliser des fonctions de mise en forme des dates de Java, tel que cela est résumé dans la [documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}.
 
@@ -451,7 +451,7 @@ Lorsque la première chaîne correspond à l’attribut de date, la seconde vale
 
 >[!NOTE]
 >
-> Si un modèle de date n’est pas valide, la date bascule vers le format ISO standard.
+> Si un modèle de date n’est pas valide, la date revient au format ISO standard.
 >
 > Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la [documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >

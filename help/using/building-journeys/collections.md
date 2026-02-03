@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Transmettre des collections dans des paramètres d’action personnalisés
+title: Transmettre des collections dans des paramètres d’action personnalisée
 description: Découvrez comment transmettre des collections de manière dynamique dans Journey Optimizer à l’aide d’actions personnalisées.
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -17,7 +17,7 @@ ht-degree: 96%
 ---
 
 
-# Transmettre des collections dans des paramètres d’action personnalisés {#passing-collection}
+# Transmettre des collections dans des paramètres d’action personnalisée {#passing-collection}
 
 Vous pouvez transmettre une collection dans des paramètres d’actions personnalisées qui seront renseignés dynamiquement au moment de l’exécution.
 
@@ -230,6 +230,6 @@ Parcourez les sections suivantes pour en savoir plus sur la configuration des ac
 * [Commencer avec les actions personnalisées](../action/action.md) : découvrez en quoi consiste une action personnalisée et comment elle vous permet de vous connecter à vos systèmes tiers.
 * [Configurer vos actions personnalisées](../action/about-custom-action-configuration.md) : découvrez comment créer et configurer une action personnalisée.
 * [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) : découvrez comment utiliser des actions personnalisées dans vos parcours.
-* [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) : découvrez comment résoudre les problèmes liés à une action personnalisée.
+* [Dépanner une action personnalisée](../action/troubleshoot-custom-action.md) : découvrez comment dépanner une action personnalisée.
 * [Itérer sur les données contextuelles](../personalization/iterate-contextual-data.md#arrays-in-journeys) - Découvrez comment utiliser des tableaux dans les expressions de Parcours et effectuer une itération sur les réponses d’action personnalisée, les données d’événement et les recherches de jeux de données dans la personnalisation des messages
 

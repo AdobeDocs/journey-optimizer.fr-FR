@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Test à blanc du parcours
+title: Test à blanc des parcours
 description: Découvrez comment publier un parcours en mode Test à blanc.
 feature: Journeys
 role: User
@@ -12,11 +12,11 @@ version: Journey Orchestration
 source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
-# Test à blanc du parcours {#journey-dry-run}
+# Test à blanc des parcours {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
@@ -58,7 +58,7 @@ Lors du test à blanc, le parcours s’exécute en mode simulation, en appliquan
 
   ![Activités d’action grisées dans un parcours de test à blanc](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* Les **sources de données**, y compris les sources de données externes, et les activités **Attente** sont désactivées par défaut pendant le test à blanc. Vous pouvez toutefois modifier ce comportement [lors de l’activation du mode Exécution d’essai](#journey-dry-run-start).
+* Les **sources de données**, y compris les sources de données externes, et les activités **Attente** sont désactivées par défaut pendant le test à blanc. Vous pouvez toutefois modifier ce comportement [lors de l’activation du mode Test à blanc](#journey-dry-run-start).
 
 * Les nœuds **Réaction** ne sont pas exécutés : tous les profils qui y accèdent les quittent. Toutefois, les règles de priorité suivantes s’appliquent :
    * Si un nœud **Réaction** est utilisé avec un ou plusieurs nœuds d’**événement unitaire** en parallèle, les profils passeront toujours par l’événement de réaction.
@@ -149,4 +149,4 @@ Lors de l’analyse des **mesures de rapports de parcours** à l’aide du servi
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464684/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

@@ -38,7 +38,7 @@ Dans [!DNL Journey Optimizer], vous avez désormais la possibilité de saisir et
 
 >[!AVAILABILITY]
 >
->Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour en savoir plus, contactez votre représentant Adobe.
+>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 
 ## Accéder aux marques {#generative-access}

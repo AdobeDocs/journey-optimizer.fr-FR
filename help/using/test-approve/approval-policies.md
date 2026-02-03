@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 66%
+ht-degree: 95%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 66%
 >
 >Pour créer des politiques d’approbation, vous devez disposer de droits d’administration du système ou du produit dans Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home)
 
-Les politiques d’approbation permettent à l’équipe d’administration d’établir un processus de validation pour les parcours et les campagnes. Ce système décrit des conditions spécifiques qui déterminent si un parcours ou une campagne nécessite une approbation. La complexité de ces politiques peut varier. Ils peuvent simplement exiger que toutes les campagnes soient examinées par un utilisateur ou une équipe spécifique, ou établir des critères basés sur l’auteur de la campagne.
+Les politiques d’approbation permettent à l’équipe d’administration d’établir un processus de validation pour les parcours et les campagnes. Ce système décrit des conditions spécifiques qui déterminent si un parcours ou une campagne nécessite une approbation. La complexité de ces politiques peut varier. Elles vont de la simple exigence que toutes les campagnes soient examinées par une personne ou une équipe donnée, à la mise en place de critères fondés sur la personne à l’origine de la campagne.
 
-Vous pouvez cibler des politiques de validation à l’aide de critères flexibles tels que les balises, les noms de campagne ou de parcours, les types de canal ou les informations sur le demandeur. Par exemple, vous pouvez exiger une approbation pour tous les objets balisés avec « haut risque » ou pour toute campagne correspondant à un modèle de dénomination spécifique.
+Vous pouvez cibler des politiques d’approbation à l’aide de critères flexibles tels que les balises, les noms de campagne ou de parcours, les types de canal ou les informations sur la personne à l’origine de la demande. Par exemple, vous pouvez exiger une approbation pour tous les objets balisés « risque élevé » ou pour toute campagne correspondant à un modèle de dénomination spécifique.
 
 ## Créer des politiques d’approbation {#create-policies}
 
@@ -46,7 +46,7 @@ Vous pouvez cibler des politiques de validation à l’aide de critères flexibl
 
 Pour créer une politique d’approbation, procédez comme suit :
 
-1. Dans le menu **[!UICONTROL Administration]** de [!DNL Journey Optimizer], accédez à **[!UICONTROL Autorisations]** puis **[!UICONTROL Politiques]**.
+1. Dans le menu **[!UICONTROL Administration]** de [!DNL Journey Optimizer], accédez à **[!UICONTROL Autorisations]**, puis **[!UICONTROL Politiques]**.
 
    ![Bouton Créer une politique d’approbation dans le menu Autorisations](assets/policy_create_1.png)
 
@@ -64,13 +64,13 @@ Vous pouvez maintenant affiner les conditions afin de spécifier qui peut lancer
 
 ## Définir les conditions des politiques d’approbation {#conditions}
 
-Les politiques de validation offrent des options de ciblage flexibles pour répondre à vos besoins de gouvernance. Vous pouvez créer des politiques d’approbation basées sur différents critères, notamment :
+Les politiques d’approbation offrent des options de ciblage flexibles pour répondre à vos besoins de gouvernance. Vous pouvez créer des politiques d’approbation basées sur différents critères, notamment :
 
-* **Noms de campagne/Parcours** : ciblez des objets spécifiques par nom.
-* **Balises** : application de politiques à toutes les campagnes ou à tous les parcours comportant une balise spécifique
-* **Types de canal** : nécessitent une approbation pour des actions spécifiques (e-mail, SMS, notification push, etc.)
-* **Types de campagne** : définissez des règles différentes pour les campagnes déclenchées par [Action ou API](../campaigns/get-started-with-campaigns.md#campaign-types)
-* **Demandeurs** : définissez des politiques en fonction de la personne qui crée la campagne ou le parcours
+* **Noms de campagne/parcours** : ciblez des objets spécifiques par nom.
+* **Balises** : appliquez des politiques à toutes les campagnes ou à tous les parcours comportant une balise spécifique.
+* **Types de canal** : demandez une approbation pour des actions spécifiques (e-mail, SMS, notification push, etc.)
+* **Types de campagne** : définissez des règles différentes pour les campagnes [d’action ou déclenchées par API](../campaigns/get-started-with-campaigns.md#campaign-types).
+* **Personnes à l’origine de la demande** : définissez des politiques en fonction de la personne qui crée la campagne ou le parcours.
 
 Pour définir les conditions associées à une politique d’approbation, procédez comme suit :
 
@@ -80,9 +80,9 @@ Pour définir les conditions associées à une politique d’approbation, procé
 
 1. Sélectionnez la **[!UICONTROL catégorie]**, la **[!UICONTROL règle de correspondance]** et les **[!UICONTROL options]** appropriées.
 
-   Par exemple, « Si l’action correspond à un publipostage direct » ou « Si le nom d’utilisateur du demandeur correspond à John Doe ».
+   Par exemple, « Si Action correspond à n’importe quel Courrier » ou « Si Nom de la personne à l’origine de la demande correspond à Jean Dupont ».
 
-   ![Interface du créateur de conditions de politique d’approbation](assets/policy_condition_1.png)
+   ![Interface du créateur de conditions des politiques d’approbation](assets/policy_condition_1.png)
 
    +++ En savoir plus sur les catégories et options disponibles
    <table>
@@ -134,12 +134,12 @@ Pour définir les conditions associées à une politique d’approbation, procé
     <td>Nom de votre objet.</td>
     </tr>
     <tr>
-    <td>Nom du demandeur ou de la demandeuse</td>
-    <td>Nom et adresse électronique du demandeur désigné</td>
+    <td>Nom de la personne à l’origine de la demande</td>
+    <td>Nom et adresse e-mail de la personne désignée à l’origine de la demande</td>
     </tr>
     <tr>
-    <td>Groupe d’utilisateurs et d’utilisatrices du demandeur ou de la demandeuse</td>
-    <td>Nom du groupe d’utilisateurs des demandeurs désignés</td>
+    <td>Groupe d’utilisateurs et d’utilisatrices à l’origine de la demande</td>
+    <td>Nom du groupe des personnes désignées à l’origine de la demande</td>
     </tr>
     </table>
 
@@ -153,7 +153,7 @@ Pour définir les conditions associées à une politique d’approbation, procé
 
    La personne sélectionnée ou le groupe d’utilisateurs et d’utilisatrices sélectionné sera responsable de la validation de la demande d’approbation.
 
-   ![Interface de sélection des destinataires de la demande d&#39;approbation](assets/policy_condition_2.png)
+   ![Interface de sélection des destinataires de la demande d’approbation](assets/policy_condition_2.png)
 
 1. Pour ajouter d’autres critères, cliquez sur **[!UICONTROL Ajouter une condition]** pour définir des règles supplémentaires et sélectionnez **[!UICONTROL Et]** ou **[!UICONTROL Ou]** pour spécifier la manière dont les conditions sont connectées.
 
@@ -173,7 +173,7 @@ Pour appliquer votre politique d’approbation, vous devez l’activer. Pour ce 
    >
    >Une fois activée, les politiques ne peuvent pas être modifiées. Pour modifier les conditions, désactivez d’abord la politique.
 
-   ![Bouton Activer la stratégie d&#39;approbation](assets/policy_activate_1.png)
+   ![Bouton Activer la politique d’approbation](assets/policy_activate_1.png)
 
 1. Dans le menu **[!UICONTROL Politique]**, ouvrez les options avancées pour **[!UICONTROL modifier]**, **[!UICONTROL désactiver]** ou **[!UICONTROL dupliquer]** la politique selon les besoins.
 

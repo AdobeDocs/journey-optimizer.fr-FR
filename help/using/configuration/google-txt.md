@@ -12,7 +12,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: a23f13bea69d1539cc2cd27a701e20287ddba026
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ Pour ajouter un enregistrement TXT Google à votre sous-domaine, procédez comme
 
 1. Une fois l’enregistrement TXT ajouté, vous devez le faire vérifier par Google. Pour ce faire, accédez à [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, puis lancez lʼétape de vérification.
 
-## Mise à jour d’un enregistrement TXT Google {#update-google-txt-record}
+## Mettre à jour un enregistrement TXT Google {#update-google-txt-record}
 
-Pour mettre à jour un enregistrement TXT Google existant, procédez comme suit :
+Pour mettre à jour un enregistrement TXT Google existant, procédez comme suit :
 
 1. Ouvrez le sous-domaine à partir du menu **[!UICONTROL Sous-domaines]**.
 
@@ -55,4 +55,4 @@ Pour mettre à jour un enregistrement TXT Google existant, procédez comme suit 
 
 1. Cliquez de nouveau sur **[!UICONTROL Enregistrer]**.
 
-1. Vérifiez l’enregistrement mis à jour via [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}.
+1. Vérifiez l’enregistrement mis à jour via [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}.

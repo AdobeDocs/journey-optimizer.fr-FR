@@ -12,14 +12,14 @@ version: Journey Orchestration
 source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
 source-wordcount: '5231'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
 # Journey Orchestration - Questions fréquentes {#faq-journeys}
 
-Trouvez des réponses aux questions courantes sur Journey Orchestration dans Adobe Journey Optimizer.
+Découvrez les réponses aux questions le plus courantes sur Journey Orchestration dans Adobe Journey Optimizer.
 
 Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
