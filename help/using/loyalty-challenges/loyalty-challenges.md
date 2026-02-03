@@ -117,7 +117,7 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
   Pour obtenir des instructions détaillées, voir :
 
-   * [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
    * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
 
 * Autorisations nécessaires {#required-permissions}
@@ -1068,5 +1068,5 @@ Pendant la phase bêta, vos commentaires nous aideront à relever les défis de 
 * [Créer des notifications push](../push/create-push.md)
 * [Création de parcours](../building-journeys/journey-gs.md)
 * [Surveiller vos parcours](../building-journeys/report-journey.md)
-* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
 * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
