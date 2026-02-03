@@ -198,7 +198,7 @@ Pour créer un nouveau défi de fidélité :
 
 Pour créer ou affiner des audiences, voir [Création d’audiences dans Journey Optimizer](../audience/about-audiences.md).
 
-4. Sélectionnez **[!UICONTROL Enregistrer comme brouillon]** pour continuer à configurer votre défi.
+&#x200B;4. Sélectionnez **[!UICONTROL Enregistrer comme brouillon]** pour continuer à configurer votre défi.
 
 ## Création de tâches {#create-tasks}
 
@@ -584,7 +584,7 @@ Pour personnaliser le parcours :
 
 5. Publiez le parcours une fois prêt.
 
-Pour obtenir des conseils détaillés sur la modification de parcours, voir [Créer des parcours ](../building-journeys/journey-gs.md).
+Pour obtenir des conseils détaillés sur la modification de parcours, voir [Créer des parcours &#x200B;](../building-journeys/journey-gs.md).
 
 ### Considérations relatives à la zone de travail de parcours {#journey-considerations}
 
@@ -895,7 +895,7 @@ Le parcours généré automatiquement contient des données d’exécution impor
    * Performances des messages par canal
    * Opportunités d’optimisation du minutage
 
-Pour obtenir des conseils détaillés sur la surveillance des parcours, voir [ Surveiller vos parcours ](../building-journeys/report-journey.md).
+Pour obtenir des conseils détaillés sur la surveillance des parcours, voir [&#x200B; Surveiller vos parcours &#x200B;](../building-journeys/report-journey.md).
 
 ### Optimiser les défis {#optimize}
 
