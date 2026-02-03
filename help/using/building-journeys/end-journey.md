@@ -127,4 +127,4 @@ Vous pouvez également réaliser les opérations suivantes :
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) : configurez la suppression automatique des profils des parcours.
-* [Mettre en pause un parcours ](journey-pause.md) : arrêtez temporairement l’exécution du parcours.
+* [Mettre en pause un parcours &#x200B;](journey-pause.md) : arrêtez temporairement l’exécution du parcours.

@@ -23,7 +23,7 @@ Les alertes sont des notifications automatisées qui vous permettent de surveill
 
 Adobe Journey Optimizer propose deux types d’alertes :
 
-* **Alertes de validation dans la zone de travail** : lors de la création de parcours et de campagnes, utilisez le bouton **Alertes** dans la zone de travail pour identifier et résoudre les erreurs de configuration avant la publication. Découvrez comment [résoudre les problèmes liés aux parcours ](../building-journeys/troubleshooting.md) et examiner vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md).
+* **Alertes de validation dans la zone de travail** : lors de la création de parcours et de campagnes, utilisez le bouton **Alertes** dans la zone de travail pour identifier et résoudre les erreurs de configuration avant la publication. Découvrez comment [résoudre les problèmes liés aux parcours &#x200B;](../building-journeys/troubleshooting.md) et examiner vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md).
 
 * **Alertes de surveillance du système** (présentées dans cette page) : recevez des notifications proactives lorsque les seuils opérationnels sont dépassés ou que des problèmes sont détectés dans les parcours en direct et les configurations de canal. Les alertes système surveillent les mesures telles que les taux d’erreur, les abandons de profil et les problèmes de délivrabilité des e-mails.
 
@@ -48,7 +48,7 @@ Avant d’utiliser des alertes :
 
 >[!NOTE]
 >
->Les alertes spécifiques à Journey Optimizer s’appliquent uniquement aux parcours **en ligne**. Les alertes ne sont pas déclenchées pour les parcours en mode test. Pour plus d’informations sur le framework d’alerte, consultez la documentation sur les alertes Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
+>Les alertes spécifiques à Journey Optimizer s’appliquent uniquement aux parcours **en ligne**. Les alertes ne sont pas déclenchées pour les parcours en mode test. Pour plus d’informations sur le framework d’alerte, consultez la documentation sur les alertes Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
 ## Alertes disponibles dans Journey Optimizer {#available-alerts}
 
@@ -71,11 +71,11 @@ Journey Optimizer propose deux catégories d’alertes système :
 Surveillez l’exécution et les performances du parcours :
 
 * [Échec du déclenchement de la lecture d’audience](#alert-read-audiences) - Avertit lorsqu’une activité Lecture d’audience ne parvient pas à traiter les profils
-* [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate) - Détecte des taux d’erreur élevés dans les appels d’API d’action personnalisée (remplace l’alerte d’échec d’action personnalisée de Parcours précédente)
+* [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate) - Détecte des taux d’erreur élevés dans les appels d’API d’action personnalisée (remplace l’alerte d’échec d’action personnalisée de Parcours précédente)
 * [Taux d’abandon du profil dépassé](#alert-discard-rate) - Identifie le moment où les profils sont ignorés à un taux anormal
 * [Taux d’erreur de profil dépassé](#alert-profile-error-rate) - Indique les erreurs rencontrées par les profils lors de l’exécution du parcours
-* [Parcours publié ](#alert-journey-published) - Notification d&#39;information lors de la publication d&#39;un parcours
-* [Parcours terminé ](#alert-journey-finished) - Notification d&#39;information lorsqu&#39;un parcours est terminé
+* [Parcours publié &#x200B;](#alert-journey-published) - Notification d&#39;information lors de la publication d&#39;un parcours
+* [Parcours terminé &#x200B;](#alert-journey-finished) - Notification d&#39;information lorsqu&#39;un parcours est terminé
 * [Limitation d’action personnalisée déclenchée](#alert-custom-action-capping) - Indique lorsque les limites d’appel API sont atteintes
 
 >[!TAB Alertes de configuration de canal]
@@ -83,7 +83,7 @@ Surveillez l’exécution et les performances du parcours :
 Détecter les problèmes liés à la configuration de la délivrabilité des e-mails :
 
 * [Enregistrement DNS du domaine AJO manquant](#alert-dns-record-missing) - Identifie les enregistrements DNS manquants ou mal configurés
-* [Échec de configuration du canal AJO ](#alert-channel-config-failure) - Détecte les problèmes de configuration des e-mails (enregistrements SPF, DKIM, MX)
+* [Échec de configuration du canal AJO &#x200B;](#alert-channel-config-failure) - Détecte les problèmes de configuration des e-mails (enregistrements SPF, DKIM, MX)
   <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 >[!ENDTABS]
@@ -407,8 +407,8 @@ Pour supprimer des personnes abonnées, supprimez leurs adresses e-mail de la li
 
 **Gestion des Parcours et des campagnes :**
 
-* [Résolution des problèmes liés aux parcours ](../building-journeys/troubleshooting.md) - Identifiez et résolvez les problèmes et erreurs de parcours courants
-* [Tester et publier des parcours ](../building-journeys/publish-journey.md) - Valider la configuration du parcours avant la publication
+* [Résolution des problèmes liés aux parcours &#x200B;](../building-journeys/troubleshooting.md) - Identifiez et résolvez les problèmes et erreurs de parcours courants
+* [Tester et publier des parcours &#x200B;](../building-journeys/publish-journey.md) - Valider la configuration du parcours avant la publication
 * [Vérifier et activer les campagnes d’action](../campaigns/review-activate-campaign.md) - Validation de la prépublication pour les campagnes planifiées et ponctuelles
 * [Vérification et activation des campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) - Validation des campagnes déclenchées par API
 * [Surveiller les campagnes orchestrées](../orchestrated/start-monitor-campaigns.md) - Suivre et gérer l’exécution des campagnes orchestrées

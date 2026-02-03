@@ -105,7 +105,7 @@ L’[agent d&#39;analyse de parcours](https://experienceleague.adobe.com/en/docs
 
 #### Parcours Create Skill {#journey-create-skill}
 
-L’agent de création de Parcours [](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
+L’agent de création de Parcours [&#128279;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
 
 +++**Fonctions principales**
 

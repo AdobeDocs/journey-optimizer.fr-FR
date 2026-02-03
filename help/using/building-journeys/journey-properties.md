@@ -344,7 +344,7 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
-* [Comment se terminent les parcours ](end-journey.md) : comprenez la fin naturelle des parcours.
+* [Comment se terminent les parcours &#x200B;](end-journey.md) : comprenez la fin naturelle des parcours.
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) : utilisez des critères de sortie lors de la mise en pause des parcours.
 
 ## Planning du parcours {#schedule}
