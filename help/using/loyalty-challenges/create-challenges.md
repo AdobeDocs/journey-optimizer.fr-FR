@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 2%
@@ -111,7 +111,7 @@ Pour configurer les cartes de contenu en fonction de votre défi :
 
 1. Concevez votre carte de contenu :
    * Ajouter des images, du texte et des éléments de branding
-   * Incluez [&#x200B; jetons de personnalisation &#x200B;](../personalization/personalization-syntax.md) pour afficher les informations spécifiques au client ou à la cliente
+   * Incluez [ jetons de personnalisation ](../personalization/personalization-syntax.md) pour afficher les informations spécifiques au client ou à la cliente
    * Afficher les indicateurs de progression des défis
    * Afficher les récompenses et les incentives
 
@@ -171,13 +171,13 @@ Avant de publier votre défi :
 
 1. **Examiner tous les composants** : vérifier les propriétés du défi, les tâches, les récompenses, les cartes de contenu et les configurations de messagerie.
 
-1. **Tester l’expérience** : utilisez des [profils de test](../test-approve/test-profiles.md) pour valider l’affichage de la carte de contenu et le comportement du déclencheur de tâche.
+1. **Tester l’expérience** : utilisez des [profils de test](../content-management/test-profiles.md) pour valider l’affichage de la carte de contenu et le comportement du déclencheur de tâche.
 
 1. **Publier** : sélectionnez **[!UICONTROL Publier]** pour que le défi soit disponible pour votre audience cible.
 
 <!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
 
-Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un parcours [&#128279;](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
+Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un parcours [](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
 
 Pour mettre le défi à la disposition des clients :
 
@@ -185,7 +185,7 @@ Pour mettre le défi à la disposition des clients :
 
 1. Recherchez le parcours généré automatiquement (son nom contiendra le préfixe « Défi : »).
 
-1. [&#x200B; Activer le parcours &#x200B;](../building-journeys/publishing-the-journey.md).
+1. [ Activer le parcours ](../building-journeys/publish-journey.md).
 
 Le parcours démarre automatiquement à la date de début du défi que vous avez spécifiée.
 
