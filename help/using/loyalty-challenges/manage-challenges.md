@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '955'
+ht-degree: 2%
 
 ---
 
@@ -27,80 +27,169 @@ ht-degree: 1%
 * [Prise en main des défis de fidélité](get-started.md) - Présentation, workflow, conditions préalables
 * [Accéder aux défis de fidélité](access-loyalty-challenges.md) - Inventaire et filtrage
 * [Créer des défis](create-challenges.md) - Créez et configurez des défis
+* [Créer des tâches](create-tasks.md) - Définir des tâches de défi
 * **Gérer les défis** ◀︎ **Vous êtes ici** - Modifier, surveiller, optimiser
 
 >[!ENDSHADEBOX]
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_manage_challenges"
->title="Gestion des défis de fidélité"
->abstract="Après avoir créé et publié des défis de fidélité, vous pouvez les afficher, les modifier, les surveiller et les optimiser pour vous assurer qu’ils fournissent les résultats souhaités pour votre programme de fidélité."
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
-## Cycle de vie du défi {#challenge-lifecycle}
+## Gestion des défis {#manage-challenges-section}
 
-Les défis passent par différents statuts :
+### Cycle de vie du défi {#challenge-lifecycle}
 
-* **Brouillon** : en cours de création ou de modification
-* **Planifié** : publié, deviendra actif à la date de début.
-* **En direct** : les clients et clientes actifs peuvent participer
-* **Terminé** : date de fin passée ou objectifs atteints
-* **Arrêté** : arrêté manuellement avant la fin de l’opération
-* **Archivé** : archivé à des fins d’organisation.
+<!-- VISUAL: Flowchart diagram showing challenge lifecycle with status transitions: Draft → Scheduled → Live → Completed/Stopped/Archived -->
 
-## Modifier les défis {#edit-challenges}
+Les défis passent par différents états au cours de leur cycle de vie :
+
+* **Brouillon** : le défi est en cours de création ou de modification et n’est pas encore disponible pour les clients
+* **Planifié** : le défi a été publié et sera automatiquement activé à la date de début spécifiée
+* **En direct** : le défi est actuellement actif et les clients peuvent y participer
+* **Terminé** : le défi est terminé - la date de fin est dépassée ou tous les objectifs ont été atteints
+* **Arrêté** : le défi a été arrêté manuellement avant d’atteindre son achèvement naturel
+* **Archivé** : le défi a été archivé à des fins d’organisation et n’est plus visible dans l’inventaire principal
+
+### Modifier les défis {#edit-challenges}
 
 Vous pouvez modifier les défis en fonction de leur statut actuel :
 
-* **Brouillon des défis** : fonctionnalité d’édition complète
-* **Défis planifiés/en direct** : modification limitée (mises à jour de contenu, extensions de date)
+* **Brouillons de défis** : fonctionnalité de modification complète - toutes les propriétés peuvent être modifiées
+* **Défis planifiés/en direct** : modification limitée - vous pouvez mettre à jour le contenu, les messages et étendre les dates, mais vous ne pouvez pas modifier la structure de défi principale (type, audience ou définitions de tâche)
 
-Pour les modifications nécessitant des modifications majeures, dupliquez le défi et créez une nouvelle version.
+Pour modifier un défi :
 
-## Dupliquer les défis {#duplicate-challenges}
+1. Accédez à l’onglet **[!UICONTROL Défis]** dans l’inventaire des Défis de fidélité.
+
+1. Recherchez le défi à modifier.
+
+1. Sélectionnez le nom du défi pour l’ouvrir en mode d’édition.
+
+1. Apportez vos modifications en fonction du statut du défi :
+   * **Brouillons de défis** : modifiez des propriétés, des tâches, du contenu ou des messages
+   * **Défis planifiés/en direct** : mettez à jour les cartes de contenu, les messages ou étendez les dates de fin selon les besoins.
+
+1. Enregistrez vos modifications. Pour les défis planifiés ou en direct, les modifications prennent effet immédiatement ou conformément à votre planning de mise à jour.
+
+>[!NOTE]
+>
+>Pour les modifications nécessitant des modifications majeures (telles que la modification du type de défi, de l’audience ou de la structure de tâche), dupliquez le défi et créez une nouvelle version au lieu de modifier la version existante.
+
+### Dupliquer les défis {#duplicate-challenges}
 
 Dupliquez les défis pour :
+
 * Réexécution des défis réussis pour de nouvelles périodes
 * Créer des variations pour différentes audiences
 * Mettre à jour les exigences de tâche ou les récompenses
 * Réactiver les défis arrêtés ou terminés
 
-## Surveillance des performances {#monitor-performance}
+La duplication d’un défi crée une copie exacte avec toutes les tâches, le contenu et les messages intacts, ce qui vous permet de créer rapidement de nouvelles versions sans devoir repartir de zéro.
 
-Suivre les performances des défis via :
+Pour dupliquer un défi :
 
-* **Mesures de participation** : Inscription, participants actifs
-* **Mesures d’achèvement** : taux d’achèvement, temps d’achèvement moyen
-* **Mesures de récompense** : total des récompenses distribuées, récompenses par type
-* **Mesures d’engagement** : impressions de carte de contenu, diffusion de messages
+1. Accédez à l’onglet **[!UICONTROL Défis]** dans l’inventaire des Défis de fidélité.
 
-Accédez aux données de performance dans l’onglet Performance du défi et dans les rapports de parcours générés automatiquement.
+1. Recherchez le défi à dupliquer.
 
-## Bonnes pratiques {#best-practices}
+1. Sélectionnez le menu Autres actions (points de suspension) en regard de ce défi.
 
-### Création de défi
+1. Choisissez **[!UICONTROL Dupliquer]**.
 
-* Commencez simplement pour votre premier défi
-* Testez minutieusement avant de publier en production.
-* Assurer une communication claire sur les exigences et les récompenses
-* Définir un calendrier réaliste permettant aux clients de relever les défis
+1. Une copie du défi est créée avec « [ Copy ] » ajouté à son nom.
 
-### Management et monitoring
+1. Ouvrez le défi dupliqué et modifiez les propriétés nécessaires :
+   * Mettre à jour le nom du défi
+   * Ajuster les dates de début et de fin
+   * Modifiez l’audience cible si nécessaire.
+   * Modifiez les tâches, les récompenses, le contenu ou les messages selon les besoins
 
-* Vérifiez régulièrement les performances des défis (au moins une fois par semaine pour les défis en direct).
-* Utilisez des noms descriptifs indiquant l’objectif, l’audience ou la période
-* Appliquer des balises cohérentes pour l’organisation
-* Archiver les défis terminés pour faciliter la gestion des stocks
+1. Examinez et publiez le défi dupliqué.
 
-## Résolution des problèmes {#troubleshooting}
+### Surveillance des performances {#monitor-performance}
 
-Problèmes courants et solutions :
+<!-- SCREENSHOT: Challenge Performance tab showing key metrics dashboard with participation, completion, reward, and engagement metrics -->
 
-* **Le défi n’apparaît pas aux clients** : vérifier le statut, l’éligibilité de l’audience, la configuration des cartes de contenu
-* **Faibles taux de participation** : visibilité du contenu de révision, clarté des messages, réalisabilité des tâches
-* **Tâches non déclenchées** : vérifier l’ingestion des données, les attributs d’événement, l’éligibilité de l’audience
-* **Les récompenses ne sont pas attribuées** : confirmez la configuration et la connexion au système externe.
+Suivez les performances des défis au moyen des mesures clés :
 
-## Étapes suivantes {#next-steps}
+* **Mesures de participation** :
+   * Inscription : nombre de clients ayant rejoint le défi
+   * Participants actifs : clients actuellement engagés dans ce défi
+* **Mesures d’achèvement** :
+   * Taux d’achèvement : pourcentage de clients inscrits qui ont terminé le défi
+   * Durée moyenne d’achèvement : temps moyen nécessaire pour terminer toutes les tâches
+* **Mesures de récompense** :
+   * Récompenses totales distribuées : valeur agrégée de toutes les récompenses accordées
+   * Récompenses par type : répartition des récompenses par catégorie de récompense
+* **Mesures d’engagement** :
+   * Impressions sur les cartes de contenu : nombre de fois où des cartes de contenu de défi ont été affichées
+   * Diffusion des messages : nombre de messages envoyés avec succès sur tous les canaux
 
-* [Créer des défis](create-challenges.md) - Créez de nouveaux défis de fidélité
-* [Comprendre les défis de la fidélité](get-started.md) - Examinez les fonctionnalités et capacités
+Pour accéder aux données de performances :
+
+1. Accédez à l’onglet **[!UICONTROL Défis]** dans l’inventaire des Défis de fidélité.
+
+1. Sélectionnez le défi que vous souhaitez surveiller.
+
+1. Ouvrez l’onglet **[!UICONTROL Performances]** pour afficher les mesures et les analyses en temps réel.
+
+<!-- SCREENSHOT: Journey report showing challenge performance data with graphs and tables -->
+
+Vous pouvez également accéder à des données de performances détaillées dans les [rapports de parcours générés automatiquement](../reports/journey-global-report-cja.md), qui fournissent des informations supplémentaires et des tendances historiques.
+
+## Gestion des tâches {#manage-tasks}
+
+Les tâches sont des composants réutilisables qui peuvent être utilisés pour plusieurs défis. La gestion efficace des tâches garantit la cohérence de votre programme de fidélité et facilite la mise à jour centralisée des définitions de tâche. Les tâches créées dans un défi peuvent être réutilisées dans d’autres défis, ce qui réduit la duplication et maintient la normalisation.
+
+### Modifier les tâches {#edit-tasks}
+
+Vous pouvez modifier des tâches existantes à partir de l’inventaire des tâches. Tenez compte des points suivants :
+
+* **Tâches non utilisées dans les défis actifs** : peuvent être modifiées librement - toutes les propriétés peuvent être modifiées sans impact
+* **Tâches utilisées dans les défis en direct** : faites preuve de prudence, car les modifications affectent tous les défis utilisant la tâche. Les modifications s’appliquent immédiatement à tous les défis de référencement
+
+Pour modifier une tâche :
+
+1. Accédez à l’onglet **[!UICONTROL Tâches]** dans l’inventaire des défis de fidélité.
+
+1. Recherchez la tâche à modifier.
+
+1. Sélectionnez le nom de la tâche pour l’ouvrir en mode d’édition.
+
+1. Modifiez les propriétés de la tâche selon les besoins :
+   * Mettre à jour le nom ou la description de la tâche
+   * Modifier le type d’activité ou les attributs
+   * Ajuster les éléments éligibles et les exclusions
+   * Modifier les besoins en quantité ou en montant
+
+1. Enregistrez vos modifications.
+
+>[!WARNING]
+>
+>Lors de la modification d’une tâche qui est activement utilisée dans les défis en direct, pensez à créer un doublon avec une nouvelle version plutôt que de modifier l’original. Cela empêche les modifications involontaires apportées aux défis actifs et vous permet de tester les modifications avant de les appliquer.
+
+### Supprimer les tâches {#delete-tasks}
+
+Les tâches ne peuvent être supprimées que si elles ne sont actuellement utilisées dans aucun défi. Avant de supprimer une tâche :
+
+* Vérifiez le nombre **[!UICONTROL Utilisé dans les défis]** dans l’inventaire des tâches
+* Assurez-vous qu’aucun défi en version brouillon, planifié ou actif ne référence la tâche
+
+Pour supprimer une tâche :
+
+1. Accédez à l’onglet **[!UICONTROL Tâches]** dans l’inventaire des défis de fidélité.
+
+1. Recherchez la tâche à supprimer.
+
+1. Vérifiez que le nombre **[!UICONTROL Utilisé dans les défis]** indique 0. Si le nombre est supérieur à 0, vous devez d’abord supprimer la tâche de tous les défis avant la suppression.
+
+1. Sélectionnez le menu Autres actions (points de suspension) en regard de la tâche.
+
+1. Choisissez **[!UICONTROL Supprimer]**.
+
+1. Confirmez la suppression dans la boîte de dialogue.
+
+>[!NOTE]
+>
+>Si une tâche est utilisée dans un défi (brouillon, planifié ou actif), vous devez d’abord la supprimer de tous les défis avant de pouvoir la supprimer. Pensez à archiver ou dupliquer les tâches au lieu de les supprimer si vous en avez besoin ultérieurement.
