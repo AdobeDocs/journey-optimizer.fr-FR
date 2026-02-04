@@ -102,6 +102,6 @@ La vidéo ci-dessous montre comment surveiller la fiabilité et les performances
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479543?captions=fre_fr&quality=12&learn=on)
 
 +++
