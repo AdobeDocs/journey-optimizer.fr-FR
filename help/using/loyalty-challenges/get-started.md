@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '603'
 ht-degree: 4%
 
 ---
@@ -25,10 +25,9 @@ ht-degree: 4%
 **Documentation sur les défis de fidélité :**
 
 * **Prise en main des défis de fidélité** ◀︎ **Vous êtes ici** - Présentation, workflow, conditions préalables
-* [Accéder aux défis de fidélité](access-loyalty-challenges.md) - Inventaire et filtrage
+* [Accéder aux défis de fidélité et les gérer](access-loyalty-challenges.md) - Inventaire, défis et gestion des tâches
 * [Créer des défis](create-challenges.md) - Créez et configurez des défis
 * [Créer des tâches](create-tasks.md) - Définir des tâches de défi
-* [Gérer les défis](manage-challenges.md) - Modifier, surveiller, optimiser
 
 >[!ENDSHADEBOX]
 
@@ -48,29 +47,25 @@ Vous pouvez créer trois types d’expériences de défi :
 
 Grâce aux défis de fidélité, vous pouvez configurer des récompenses, envoyer des notifications multicanaux à des étapes clés du cycle de vie et surveiller les performances par le biais de parcours générés automatiquement, tout en conservant l’intégration à votre système de gestion de la fidélité externe.
 
-<!-- SCREENSHOT: High-level diagram showing Loyalty Challenges architecture with: Data ingestion from source connectors -> Challenge creation in JO -> Content cards & messaging -> Customer device -> Journey tracking -->
-
 ## Fonctionnement {#how-it-works}
-
-<!-- SCHEMA: Visual workflow diagram showing the 8 steps in the loyalty challenge creation process with icons for each step -->
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
 1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le connecteur capillaire) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
 
-1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel), l’audience et la période. Voir [Créer des défis](create-challenges.md) pour obtenir des instructions détaillées.
+1. **Sélectionner une audience cible** - Définissez quels clients peuvent participer à votre défi en sélectionnant une audience depuis Adobe Experience Platform.
 
-1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâche (achat, dépense, visite, engagement, événements personnalisés), les quantités, les filtres de produit et les récompenses. Voir [Créer des tâches](create-tasks.md) pour obtenir des instructions détaillées.
+1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel) et la période.
 
-1. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de Journey Optimizer [cartes de contenu](../content-card/create-content-card.md) qui s’affichent sur les appareils des clients. Les cartes de contenu affichent les informations sur le défi, la progression et les récompenses.
+1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâche (achat, dépense, visite, engagement, événements personnalisés), les quantités, les filtres de produit et les récompenses.
 
-1. **Configurer la messagerie** (facultatif) - Configurez des messages multicanaux ([in-app](../in-app/get-started-in-app.md), [e-mail](../email/get-started-email.md), [push](../push/get-started-push.md)) pour les étapes clés du cycle de vie : lancement, en cours et achèvement.
+1. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de cartes de contenu Journey Optimizer qui s’affichent sur les appareils des clients. Les cartes de contenu affichent les informations sur le défi, la progression et les récompenses.
 
-1. **Réviser et publier** - Testez votre défi avec des [profils de test](../content-management/test-profiles.md), puis publiez-le pour le rendre disponible auprès de votre audience cible.
+1. **Configurer la messagerie** (facultatif) - Configurez des messages multicanaux (in-app, e-mail, push) pour les étapes clés du cycle de vie : lancement, en cours et achèvement.
 
-1. **Activer le parcours** - Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un [parcours &#x200B;](../building-journeys/journey-gs.md) à l’état de brouillon qui orchestre la diffusion et la messagerie des cartes de contenu. Accédez à l’inventaire des Parcours, localisez le parcours généré automatiquement (nommé « Défi : [Nom du défi] ») et [activez-le](../building-journeys/publish-journey.md) pour mettre le défi à la disposition de vos clients.
+1. **parcours de publication** - Journey Optimizer génère automatiquement un parcours pour votre défi. Accédez à l’inventaire des Parcours et publiez le parcours généré automatiquement pour mettre le défi à la disposition des clients.
 
-1. **Surveiller les performances** - Suivez la participation, les taux d’achèvement, la distribution des récompenses et l’engagement des messages au moyen de rapports intégrés et de la zone de travail de parcours. Voir [Gérer les défis](manage-challenges.md) pour plus d’informations sur la surveillance.
+Pour obtenir des instructions détaillées, voir [Créer des défis](create-challenges.md).
 
 ## Conditions préalables {#prerequisites}
 
@@ -86,7 +81,7 @@ Les défis de fidélité reposent sur des données ingérées par le biais des c
 
 Pour obtenir des instructions détaillées, voir :
 
-* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -104,9 +99,9 @@ Contactez votre administrateur si vous ne pouvez pas accéder à la fonctionnali
 
 +++
 
-+++Audiences cibles
++++Audience cible
 
-Définissez des audiences cibles qui spécifient les clients éligibles pour participer à vos défis de fidélité. Vous pouvez sélectionner des audiences existantes ou en créer de nouvelles directement à partir de l’interface de création de défis. [Découvrez comment utiliser les audiences](../audience/about-audiences.md).
+Définissez une audience cible qui spécifie les clients éligibles pour participer à vos défis de fidélité. Vous pouvez sélectionner des audiences existantes ou en créer de nouvelles directement à partir de l’interface de création de défis. [Découvrez comment utiliser les audiences](../audience/about-audiences.md).
 
 +++
 

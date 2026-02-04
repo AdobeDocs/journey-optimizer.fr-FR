@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '807'
 ht-degree: 3%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 3%
 
 Les défis passent par différents états au cours de leur cycle de vie :
 
-* **Brouillon** : le défi est en cours de création ou de modification et n’est pas encore disponible pour les clients
-* **Publié** : le défi est actif, le parcours associé a été créé.
+* **Brouillon** : le défi est en cours de création ou de modification et n’est pas encore disponible pour les clients.
+* **Publié** : le défi est actif et le parcours associé a été créé.
 
 ### Modifier les défis {#edit-challenges}
 
@@ -53,10 +53,10 @@ Vous pouvez modifier les défis en les ouvrant dans l’inventaire des défis. L
 
 **Défis publiés** : lorsque vous ouvrez un défi publié pour le modifier, vous devez d’abord le rétablir au statut Brouillon.
 
-* Toutes les personnalisations apportées directement au parcours généré automatiquement seront perdues
-* Le défi revient à l’état Brouillon .
-* Après avoir apporté vos modifications, vous devez enregistrer et publier à nouveau le défi
-* Vous devez réactiver le parcours associé pour que les clients puissent accéder au défi mis à jour
+* Toutes les personnalisations apportées directement au parcours généré automatiquement seront perdues.
+* Le défi revient au statut Brouillon .
+* Après avoir apporté vos modifications, vous devez enregistrer et publier à nouveau le défi.
+* Vous devez republier le parcours associé pour mettre à la disposition des clients le défi mis à jour.
 
 >[!IMPORTANT]
 >
@@ -115,8 +115,8 @@ Les tâches sont des composants réutilisables qui peuvent être utilisés pour 
 
 Vous pouvez modifier des tâches existantes à partir de l’inventaire des tâches. Tenez compte des points suivants :
 
-* **Tâches non utilisées dans les défis actifs** : peuvent être modifiées librement - toutes les propriétés peuvent être modifiées sans impact
-* **Tâches utilisées dans les défis en direct** : faites preuve de prudence, car les modifications affectent tous les défis utilisant la tâche. Les modifications s’appliquent immédiatement à tous les défis de référencement
+* **Tâches non utilisées dans les défis actifs** : peuvent être modifiées librement. Toutes les propriétés peuvent être modifiées sans impact.
+* **Tâches utilisées dans les défis en direct** : faites preuve de prudence, car les modifications affectent tous les défis utilisant la tâche. Les modifications s’appliquent immédiatement à tous les défis de référencement.
 
 Pour modifier une tâche :
 
@@ -142,8 +142,8 @@ Pour modifier une tâche :
 
 Les tâches ne peuvent être supprimées que si elles ne sont actuellement utilisées dans aucun défi. Avant de supprimer une tâche :
 
-* Vérifiez le nombre **[!UICONTROL Utilisé dans les défis]** dans l’inventaire des tâches
-* Assurez-vous qu’aucun défi en version brouillon, planifié ou actif ne référence la tâche
+* Vérifiez le nombre **[!UICONTROL Utilisé dans les défis]** dans l’inventaire des tâches.
+* Assurez-vous qu’aucun défi en version brouillon, planifié ou actif ne référence la tâche.
 
 Pour supprimer une tâche :
 
