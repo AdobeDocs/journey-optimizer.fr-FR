@@ -7,10 +7,9 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
+source-git-commit: a5868a3c9eb1d0faca62887353145cd86cde883f
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 67%
 
 ---
