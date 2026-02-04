@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1154'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ L’API Decisioning Migration Service vous permet de migrer des objets Decision 
 
 Cette API vous permet de transférer facilement votre contenu de prise de décision entre les environnements (par exemple, du développement à l’évaluation ou de l’évaluation à la production) tout en préservant l’intégrité et les relations des données.
 
-Pour en savoir plus sur les avantages et les fonctionnalités de Decisioning par rapport à la gestion des décisions, voir [Avantages de la migration vers Decisioning](migrate-to-decisioning.md).
+Pour en savoir plus sur les avantages et les fonctionnalités de la prise de décision par rapport à la gestion des décisions, consultez [cette page](migrate-to-decisioning.md).
 
 ## Fonctionnalités {#capabilities}
 
@@ -62,7 +62,7 @@ Avant d’exécuter une migration, vérifiez que votre sandbox cible est correct
 * **Jeu de données** - Identifiez un nom de jeu de données à utiliser pour la migration (`dependency.datasetName`).
 * **Flux de données** - Décidez si la migration doit créer un flux de données (`createDataStream`).
 
-Pour plus d’informations sur la gestion des sandbox, voir [&#x200B; Utilisation et affectation de sandbox](../administration/sandboxes.md).
+Pour plus d’informations sur la gestion des sandbox, voir [ Utilisation et affectation de sandbox](../administration/sandboxes.md).
 
 ## Bases d’API {#api-basics}
 
