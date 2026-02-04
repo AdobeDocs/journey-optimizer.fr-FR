@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3091'
 ht-degree: 98%
 
 ---
@@ -608,7 +608,9 @@ ht-degree: 98%
       + [Commencer avec la prise de décisions](using/experience-decisioning/gs-experience-decisioning.md)
       + [Mécanismes de sécurisation et limitations de la prise de décisions](using/experience-decisioning/decisioning-guardrails.md)
       + [FAQ sur Decisioning](using/experience-decisioning/decisioning-faq.md)
-      + [Migration de la gestion des décisions vers la prise de décision](using/experience-decisioning/migrate-to-decisioning.md)
+      + Migrer vers la prise de décision {#migrate-to-decisioning}
+         + [Avantages de la migration vers Decisioning](using/experience-decisioning/migrate-to-decisioning.md)
+         + [API de migration Decisioning](using/experience-decisioning/decisioning-migration-api.md)
       + Référence d’API {#experience-decisioning-api-reference}
          + [Référence d’API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [Commencer à utiliser les API de prise de décision](using/experience-decisioning/api-reference/getting-started.md)
@@ -942,7 +944,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

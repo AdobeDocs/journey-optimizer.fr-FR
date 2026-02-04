@@ -9,10 +9,10 @@ role: User, Developer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '1701'
-ht-degree: 100%
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,10 @@ Le processus de copie est réalisé via un export de package et un import entre 
 1. [Ajouter l’objet à exporter en tant que package dans le sandbox source](#export)
 1. [Publier le package](#publish)
 1. [Importer le package dans le sandbox cible](#import)
+
+>[!NOTE]
+>
+>Pour migrer les objets de gestion des décisions vers Decisioning, utilisez l’API dédiée [Migration Decisioning](../experience-decisioning/decisioning-migration-api.md) qui fournit des fonctionnalités automatisées de résolution des dépendances et de restauration spécialement conçues pour la migration des entités de prise de décision.
 
 ## Objets exportés et bonnes pratiques {#objects}
 
@@ -68,7 +72,7 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées
 
 +++ Campagnes
 
-Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages intégrés et aux objets dépendants. Toutefois, les éléments suivants **ne sont pas** copiés :
+Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages en ligne et aux objets dépendants. Toutefois, les éléments suivants **ne sont pas** copiés :
 
 * Variantes multilingues et paramètres de langue
 * Règles métier
@@ -83,7 +87,7 @@ Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dess
 
 +++
 
-+++ Prise de décisions
++++ Prise de décision
 
 * Les objets ci-dessous doivent être présents dans le sandbox de destination avant de copier les objets de prise de décisions :
 
@@ -93,7 +97,7 @@ Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dess
 
 * La copie de sandbox pour les formules de classement avec des modèles d’IA n’est actuellement pas prise en charge.
 
-* Lors de la copie d’une campagne, les éléments de décision (éléments d’offre) ne sont pas automatiquement copiés. Veillez à les copier individuellement à l’aide de l’option « Ajouter au package ».
+* Lors de la copie d’une campagne, les éléments de décision (éléments d’offre) ne sont pas automatiquement copiés. Veillez à les copier individuellement à l&#39;aide de l&#39;option « Ajouter au package ».
 
 * Si une politique de décision comporte une stratégie de sélection, les éléments de décision doivent être ajoutés séparément. Si elle comporte des éléments de décision manuels/de secours, ils sont automatiquement ajoutés en tant que dépendances directes.
 

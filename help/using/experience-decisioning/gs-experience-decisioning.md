@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 95%
+source-wordcount: '647'
+ht-degree: 93%
 
 ---
 
@@ -97,6 +97,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 * **[Définir des stratégies de sélection](selection-strategies.md)** - Découvrez comment créer des stratégies de sélection avec des règles d’éligibilité et des méthodes de classement.
 * **[Créer des politiques de décision](create-decision-policy.md)** - Découvrez comment créer des politiques de décision combinant des stratégies et des contraintes.
 * **[Classement et modèles d’IA](ranking/ranking.md)** - Maîtrisez les formules de classement et les modèles d’IA pour une prise de décision personnalisée.
+* **[Migration depuis la gestion des décisions](migrate-to-decisioning.md)** - Comprenez les avantages de la migration vers la prise de décision et utilisez les API d’outils de migration.
 * **[Mécanismes de sécurisation de prise de décision](decisioning-guardrails.md)** - Examinez les limites importantes et les bonnes pratiques pour la mise en œuvre de la prise de décision.
 * **[Tutoriels sur la prise de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Consultez des tutoriels vidéo détaillés sur les fonctionnalités de prise de décision et les bonnes pratiques.
 
@@ -104,4 +105,4 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
 Découvrez les fonctionnalités de prise de décision dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475865?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
