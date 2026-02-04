@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
@@ -71,13 +71,13 @@ Dans l’onglet **[!UICONTROL Structure]**, définissez l’organisation de votr
 
 ### Planifier le défi {#schedule}
 
-Configurez le moment où votre défi s’exécute en sélectionnant l’icône ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Ouvrir le planning]** :
+Configurez le moment où votre défi s’exécute en sélectionnant l’icône **[!UICONTROL Ouvrir le planning]** :
 
-![](assets/challenge-create-properties.png)
+![](assets/challenge-create-schedule.png)
 
 * **[!UICONTROL Date et heure de début]** : à définir lorsque le défi est disponible pour les clients.
 * **[!UICONTROL Date et heure de fin]** : défini lorsque le défi expire et n’accepte plus de nouvelles tâches terminées.
-   * **[!UICONTROL Fuseau horaire]** : le défi utilise par défaut le fuseau horaire local du destinataire.
+* **[!UICONTROL Fuseau horaire]** : le défi utilise par défaut le fuseau horaire local du destinataire.
 * **[!UICONTROL Les tâches doivent être terminées]** : choisissez le moment où les clients peuvent terminer les tâches :
 
    * **[!UICONTROL À tout moment pendant le défi]** : les clients peuvent effectuer des tâches à tout moment entre les dates de début et de fin du défi.
@@ -89,17 +89,6 @@ Le planning du défi est maintenant configuré. Ajoutez ensuite les tâches que 
 
 Les tâches définissent les actions spécifiques que les clients doivent effectuer pour gagner des récompenses. Vous pouvez configurer les types de tâches (achat, dépenses), les quantités, les filtres de produit et d’autres attributs.
 
-Selon votre type de défi, les clients exécutent les tâches différemment :
-
-* **Défis standard** : effectuez le nombre spécifié de tâches dans n’importe quel ordre\
-  *Exemple : effectuez 3 tâches sur 5 - effectuez un achat, rédigez une évaluation, recommandez un ami, partagez sur les médias sociaux ou mettez à jour un profil*
-
-* **Défis de Streak** : effectuez la même tâche plusieurs fois de suite\
-  *Exemple : effectuez un achat pendant 7 jours consécutifs pour gagner des primes*
-
-* **Défis séquentiels** : exécutez les tâches dans un ordre défini\
-  *Exemple : effectuez d’abord un achat, puis rédigez une révision, puis partagez-la sur les médias sociaux. Les tâches doivent être effectuées dans cet ordre exact*
-
 Pour ajouter des tâches à votre défi, procédez comme suit :
 
 1. Dans la section **[!UICONTROL Tâches]**, sélectionnez **[!UICONTROL Ajouter une tâche]**.
@@ -108,12 +97,41 @@ Pour ajouter des tâches à votre défi, procédez comme suit :
 
 1. L’**[!UICONTROL Inventaire des tâches]** s’ouvre. Sélectionnez une ou plusieurs tâches dans la liste, puis sélectionnez **[!UICONTROL Ajouter]**. Pour créer une nouvelle tâche, sélectionnez **[!UICONTROL Nouveau]**. [Découvrez comment créer et configurer des tâches](create-tasks.md).
 
-1. Dans la section **[!UICONTROL Exigence d’achèvement de la tâche]**, indiquez à quel moment le défi est considéré comme terminé :
+1. Spécifier le moment où le défi est considéré comme terminé. Les paramètres disponibles dépendent du type de défi :
 
-   * **[!UICONTROL Le client choisit 1 tâche à effectuer]** : les clients peuvent sélectionner et exécuter n’importe quelle tâche pour gagner des récompenses.
-   * **[!UICONTROL Le client effectue un nombre spécifique de tâches]** : les clients doivent effectuer un nombre défini de tâches.
+   +++Défis standard
 
-1. Par défaut, les défis permettent aux clients d’effectuer des tâches sur plusieurs transactions. Pour exiger que toutes les tâches soient effectuées dans une seule transaction, sélectionnez l’icône ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Paramètres]** et activez l’option ci-dessous.
+   **[!UICONTROL Exigence d’achèvement de la tâche]** - Choisissez entre :
+
+   * **[!UICONTROL Le client choisit 1 tâche à effectuer]** : les clients peuvent sélectionner et exécuter n’importe quelle tâche pour gagner des récompenses
+   * **[!UICONTROL Le client effectue un nombre spécifique de tâches]** : les clients doivent effectuer un nombre défini de tâches. Spécifiez le nombre requis - *Exemple : effectuez 3 tâches sur 5*
+
+   +++
+
+   +++Défis en série
+
+   * **[!UICONTROL Type de flux]** :
+
+      * **Consécutive** : les clientes et clients doivent terminer la tâche tous les jours consécutifs, sans interruption. *Exemple : achat le lundi, le mardi ou le mercredi. Si un jour manque, la série est interrompue*
+
+      * **Non consécutifs** : les clients peuvent terminer la tâche avec des intervalles entre les finalisations - *Exemple : effectuez 7 achats sur 30 jours, avec des pauses autorisées*
+
+   * **[!UICONTROL Longueur de la séquence]** : spécifiez le nombre de fois où la tâche doit être terminée - *Exemple : définissez sur 7 pour une « séquence d’achat de 7 jours »*
+
+   +++
+
+   +++Défis séquentiels
+
+   **[!UICONTROL Exigence d’achèvement de la tâche]** - Choisissez entre :
+
+   * **[!UICONTROL Le client choisit 1 tâche à effectuer]** : les clients peuvent sélectionner et exécuter n’importe quelle tâche pour gagner des récompenses
+   * **[!UICONTROL Le client effectue un nombre spécifique de tâches]** : les clients doivent effectuer un nombre défini de tâches dans l’ordre exact que vous définissez. Une tâche manquante ou ignorée rompt la séquence. Spécifiez le nombre requis (par exemple, effectuez 3 des 5 tâches)
+
+   *Exemple : Tâche 1 (Achat) → Tâche 2 (Révision) → Tâche 3 (Partage) - doit être terminé dans cet ordre*
+
+   +++
+
+1. Par défaut, les défis standard et séquentiels permettent aux clients d’effectuer des tâches sur plusieurs transactions. Pour exiger que toutes les tâches soient effectuées dans une seule transaction, sélectionnez l’icône ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Paramètres]** et activez l’option ci-dessous.
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -225,11 +243,11 @@ Générez le parcours qui orchestrera votre diffusion de défi et les interactio
 
 ![](assets/challenge-create-generate-journey.png)
 
-Journey Optimizer crée automatiquement un parcours [&#128279;](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
+Journey Optimizer crée automatiquement un parcours [](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
 
 ![](assets/challenge-create-journey.png)
 
-Passez en revue la configuration du parcours si nécessaire, puis publiez le parcours pour mettre le défi à la disposition des clients. [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md).
+Passez en revue la configuration du parcours si nécessaire, puis publiez le parcours pour mettre le défi à la disposition des clients. [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md).
 
 Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration.
 

@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 4%
 
 ---
@@ -39,29 +39,36 @@ ht-degree: 4%
 
 Les défis de fidélité offrent une solution complète pour créer des programmes de fidélité à grande échelle, de la définition de tâches et de jalons à la diffusion de contenu et au suivi des performances sur l’ensemble des canaux.
 
+![](assets/challenges-gs.png)
+
 Vous pouvez créer trois types d’expériences de défi :
 
-* **Défis standard** : les clients effectuent un nombre spécifié de tâches dans n’importe quel ordre
-* **Défis en série** : les clients effectuent la même tâche plusieurs fois de suite
-* **Défis séquentiels** : les clients exécutent des tâches dans un ordre défini
+* **Défis standard** : les clients effectuent un nombre spécifié de tâches dans n’importe quel ordre\
+  *Exemple : effectuez 3 des 5 tâches disponibles*
 
-Grâce aux défis de fidélité, vous pouvez configurer des récompenses, envoyer des notifications multicanaux à des étapes clés du cycle de vie et surveiller les performances par le biais de parcours générés automatiquement, tout en conservant l’intégration à votre système de gestion de la fidélité externe.
+* **Défis en série** : les clients effectuent la même tâche plusieurs fois de suite\
+  *Exemple : effectuez un achat sur 7 jours consécutifs*
+
+* **Défis séquentiels** : les clients exécutent des tâches dans un ordre défini\
+  *Exemple : achat → révision → partage (doit être effectué dans cet ordre)*
+
+Grâce aux défis de fidélité, configurez les récompenses, envoyez des notifications multicanaux à des étapes clés du cycle de vie, à l’aide de parcours générés automatiquement, tout en conservant l’intégration à votre système de gestion de la fidélité externe.
 
 ## Fonctionnement {#how-it-works}
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
-
-1. **Sélectionner une audience cible** - Définissez quels clients peuvent participer à votre défi en sélectionnant une audience depuis Adobe Experience Platform.
+1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
 
 1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel) et la période.
 
-1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâche (achat, dépense, visite, engagement, événements personnalisés), les quantités, les filtres de produit et les récompenses.
+1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâches (achat, dépenses), les quantités, les filtres de produit et les récompenses.
 
 1. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de cartes de contenu Journey Optimizer qui s’affichent sur les appareils des clients. Les cartes de contenu affichent les informations sur le défi, la progression et les récompenses.
 
 1. **Configurer la messagerie** (facultatif) - Configurez des messages multicanaux (in-app, e-mail, push) pour les étapes clés du cycle de vie : lancement, en cours et achèvement.
+
+1. **Sélectionner une audience cible** - Définissez quels clients peuvent participer à votre défi en sélectionnant une audience depuis Adobe Experience Platform.
 
 1. **parcours de publication** - Journey Optimizer génère automatiquement un parcours pour votre défi. Accédez à l’inventaire des Parcours et publiez le parcours généré automatiquement pour mettre le défi à la disposition des clients.
 
@@ -75,11 +82,11 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
 Les défis de fidélité reposent sur des données ingérées par le biais des connecteurs source Experience Platform pour suivre la progression des clients et l’achèvement des tâches.
 
-1. **Configurer un connecteur source pris en charge** : actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty).
+1. **Configurer un connecteur source pris en charge** : actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 1. **Valider l’ingestion des données** : assurez-vous que les événements de fidélité et les données client circulent dans Experience Platform et sont disponibles dans Journey Optimizer. Vérifiez que le schéma de données comprend les champs nécessaires pour effectuer le suivi des actions et de la progression des clients.
 
-Pour obtenir des instructions détaillées, voir [Présentation des sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+Pour obtenir des instructions détaillées, voir [Présentation des sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -136,18 +143,7 @@ Définissez une audience cible qui spécifie les clients éligibles pour partici
     <a href="create-tasks.md"><strong>Créer des tâches</strong></a>
     </div>
     <p>
-    <em>Définir les actions et les récompenses pour les défis</em>
-    </p>
-  </td>
-  <td>
-    <a href="access-loyalty-challenges.md">
-    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
-    </a>
-    <div>
-    <a href="access-loyalty-challenges.md"><strong>Gérer les défis et les tâches</strong></a>
-    </div>
-    <p>
-    <em>Modifier, dupliquer et supprimer des défis et des tâches</em>
+    <em>Définir les actions à effectuer pour relever les défis</em>
     </p>
   </td>
 </tr>
