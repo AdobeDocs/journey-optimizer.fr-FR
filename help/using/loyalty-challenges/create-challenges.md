@@ -111,7 +111,7 @@ Pour configurer les cartes de contenu en fonction de votre défi :
 
 1. Concevez votre carte de contenu :
    * Ajouter des images, du texte et des éléments de branding
-   * Incluez [ jetons de personnalisation ](../personalization/personalization-syntax.md) pour afficher les informations spécifiques au client ou à la cliente
+   * Incluez [&#x200B; jetons de personnalisation &#x200B;](../personalization/personalization-syntax.md) pour afficher les informations spécifiques au client ou à la cliente
    * Afficher les indicateurs de progression des défis
    * Afficher les récompenses et les incentives
 
@@ -177,7 +177,7 @@ Avant de publier votre défi :
 
 <!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
 
-Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un parcours [](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
+Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un parcours [&#128279;](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
 
 Pour mettre le défi à la disposition des clients :
 
@@ -185,7 +185,7 @@ Pour mettre le défi à la disposition des clients :
 
 1. Recherchez le parcours généré automatiquement (son nom contiendra le préfixe « Défi : »).
 
-1. [ Activer le parcours ](../building-journeys/publish-journey.md).
+1. [&#x200B; Activer le parcours &#x200B;](../building-journeys/publish-journey.md).
 
 Le parcours démarre automatiquement à la date de début du défi que vous avez spécifiée.
 
