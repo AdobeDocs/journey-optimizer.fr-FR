@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 4%
@@ -62,13 +62,13 @@ La création et le lancement d’un défi de fidélité suivent ce workflow :
 
 1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâche (achat, dépense, visite, engagement, événements personnalisés), les quantités, les filtres de produit et les récompenses. Voir [Créer des tâches](create-tasks.md) pour obtenir des instructions détaillées.
 
-1. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de Journey Optimizer [cartes de contenu](../content-card/get-started-content-card.md) qui s’affichent sur les appareils des clients. Les cartes de contenu affichent les informations sur le défi, la progression et les récompenses.
+1. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de Journey Optimizer [cartes de contenu](../content-card/create-content-card.md) qui s’affichent sur les appareils des clients. Les cartes de contenu affichent les informations sur le défi, la progression et les récompenses.
 
 1. **Configurer la messagerie** (facultatif) - Configurez des messages multicanaux ([in-app](../in-app/get-started-in-app.md), [e-mail](../email/get-started-email.md), [push](../push/get-started-push.md)) pour les étapes clés du cycle de vie : lancement, en cours et achèvement.
 
 1. **Réviser et publier** - Testez votre défi avec des [profils de test](../test-approve/test-profiles.md), puis publiez-le pour le rendre disponible auprès de votre audience cible.
 
-1. **Activer le parcours** - Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un [parcours &#x200B;](../building-journeys/journey-gs.md) à l’état de brouillon qui orchestre la diffusion et la messagerie des cartes de contenu. Accédez à l’inventaire des Parcours, localisez le parcours généré automatiquement (nommé « Défi : [Nom du défi] ») et [activez-le](../building-journeys/publishing-the-journey.md) pour mettre le défi à la disposition de vos clients.
+1. **Activer le parcours** - Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un [parcours ](../building-journeys/journey-gs.md) à l’état de brouillon qui orchestre la diffusion et la messagerie des cartes de contenu. Accédez à l’inventaire des Parcours, localisez le parcours généré automatiquement (nommé « Défi : [Nom du défi] ») et [activez-le](../building-journeys/publishing-the-journey.md) pour mettre le défi à la disposition de vos clients.
 
 1. **Surveiller les performances** - Suivez la participation, les taux d’achèvement, la distribution des récompenses et l’engagement des messages au moyen de rapports intégrés et de la zone de travail de parcours. Voir [Gérer les défis](manage-challenges.md) pour plus d’informations sur la surveillance.
 
@@ -86,7 +86,7 @@ Les défis de fidélité reposent sur des données ingérées par le biais des c
 
 Pour obtenir des instructions détaillées, voir :
 
-* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
 
 +++
