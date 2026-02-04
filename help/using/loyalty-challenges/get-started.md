@@ -114,7 +114,7 @@ Les défis de fidélité reposent sur des données ingérées par le biais des c
 
 Pour obtenir des instructions détaillées, voir :
 
-* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
 * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
 
 ### Autorisations nécessaires {#required-permissions}
