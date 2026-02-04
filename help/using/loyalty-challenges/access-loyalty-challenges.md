@@ -64,7 +64,7 @@ Dans l’onglet Défis , vous pouvez effectuer des actions rapides sur les défi
 * **Dupliquer un défi** : sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Dupliquer]**
 * **Supprimer un brouillon de défi** : sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**
 
-Pour plus d’informations sur la gestion des défis après leur création, voir [ Gérer les défis et les tâches ](manage-challenges.md).
+Pour plus d’informations sur la gestion des défis après leur création, voir [&#x200B; Gérer les défis et les tâches &#x200B;](manage-challenges.md).
 
 ## Inventaire des tâches {#tasks-tab}
 
@@ -89,7 +89,7 @@ Dans l’onglet Tâches , vous pouvez effectuer des actions rapides sur les tâc
 * **Dupliquer une tâche** : sélectionnez l&#39;icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Dupliquer]**
 * **Supprimer une tâche** : sélectionnez l&#39;icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**
 
-Pour plus d’informations sur la gestion des tâches après leur création, voir [ Gérer les défis et les tâches ](manage-challenges.md).
+Pour plus d’informations sur la gestion des tâches après leur création, voir [&#x200B; Gérer les défis et les tâches &#x200B;](manage-challenges.md).
 
 ## Étapes suivantes {#next-steps}
 
