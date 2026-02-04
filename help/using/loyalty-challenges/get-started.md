@@ -68,7 +68,7 @@ La création et le lancement d’un défi de fidélité suivent ce workflow :
 
 1. **Réviser et publier** - Testez votre défi avec des [profils de test](../test-approve/test-profiles.md), puis publiez-le pour le rendre disponible auprès de votre audience cible.
 
-1. **Activer le parcours** - Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un [parcours ](../building-journeys/journey-gs.md) à l’état de brouillon qui orchestre la diffusion et la messagerie des cartes de contenu. Accédez à l’inventaire des Parcours, localisez le parcours généré automatiquement (nommé « Défi : [Nom du défi] ») et [activez-le](../building-journeys/publishing-the-journey.md) pour mettre le défi à la disposition de vos clients.
+1. **Activer le parcours** - Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un [parcours &#x200B;](../building-journeys/journey-gs.md) à l’état de brouillon qui orchestre la diffusion et la messagerie des cartes de contenu. Accédez à l’inventaire des Parcours, localisez le parcours généré automatiquement (nommé « Défi : [Nom du défi] ») et [activez-le](../building-journeys/publishing-the-journey.md) pour mettre le défi à la disposition de vos clients.
 
 1. **Surveiller les performances** - Suivez la participation, les taux d’achèvement, la distribution des récompenses et l’engagement des messages au moyen de rapports intégrés et de la zone de travail de parcours. Voir [Gérer les défis](manage-challenges.md) pour plus d’informations sur la surveillance.
 
