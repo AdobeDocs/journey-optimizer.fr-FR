@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 3%
+source-wordcount: '483'
+ht-degree: 4%
 
 ---
 
@@ -36,111 +36,60 @@ ht-degree: 3%
 >
 >Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
-## Accès à l’inventaire des défis de fidélité {#access-inventory}
-
-<!-- SCREENSHOT: Journey Optimizer main menu showing "Loyalty challenges" under "Customer journeys" section -->
-
-Pour accéder aux défis de fidélité, accédez à Journey Optimizer et sélectionnez **[!UICONTROL Défis de fidélité]** dans la section **[!UICONTROL parcours clients]**.
-
-<!-- SCREENSHOT: Loyalty Challenges landing page showing the two tabs: Challenges and Tasks -->
-
-La page Défis de fidélité s’affiche avec deux onglets :
-
-* **[!UICONTROL Défis]** : affichez et gérez tous les défis de fidélité
-
-* **[!UICONTROL Tâches]** : affichez et gérez toutes les tâches qui peuvent être réutilisées à travers les défis
+Pour accéder aux Défis de fidélité, accédez à Journey Optimizer et sélectionnez **[!UICONTROL Défi de fidélité (Beta)]** sous la section **[!UICONTROL Gestion des Parcours]**.
 
 ## Inventaire des défis {#challenges-tab}
 
-<!-- SCREENSHOT: Challenges tab showing the inventory table with columns: Challenge name, Status, Type, Start date, End date, Created by, Last modified, Tags -->
+L’onglet **[!UICONTROL Défis]** affiche tous les défis triés par date de dernière modification, les défis modifiés le plus récemment apparaissant en premier.
 
-L’onglet Défis affiche tous les défis triés par date de dernière modification, les défis modifiés le plus récemment apparaissant en premier. Les informations affichées sont alors les suivantes :
+![](assets/challenges-inventory.png)
 
-* **[!UICONTROL Nom du défi]** : nom que vous avez attribué au défi
-* **[!UICONTROL Statut]** : état actuel du défi (voir les descriptions de statut ci-dessous)
-* **[!UICONTROL Type]** : type de défi (standard, en traînée ou séquentiel)
-* **[!UICONTROL Date de début]** : date à laquelle le défi devient actif
-* **[!UICONTROL Date de fin]** : date d’expiration du défi
-* **[!UICONTROL Créé par]** : utilisateur qui a créé le défi
+Les informations affichées sont alors les suivantes :
+
+* **[!UICONTROL Défi]** : nom que vous avez attribué au défi
+* **[!UICONTROL State]** : état actuel du défi. Pour plus d’informations sur les transitions d’état et le cycle de vie du défi, voir [Cycle de vie du défi](manage-challenges.md#challenge-lifecycle).
+* **[!UICONTROL Description]** : brève description de l’objectif du défi
+* **[!UICONTROL Tâches]** : nombre de tâches configurées dans le défi
+* **[!UICONTROL Parcours]** : lien vers le parcours généré automatiquement associé au défi
+* **[!UICONTROL Statut]** : statut actuel du parcours associé (brouillon, actif, arrêté, etc.)
+* **[!UICONTROL Date de début (UTC)]** : date à laquelle le défi devient actif
+* **[!UICONTROL Date de fin (UTC)]** : date d’expiration du défi
 * **[!UICONTROL Dernière modification]** : date et heure de la dernière modification
-* **[!UICONTROL Balises]** : toutes les balises appliquées au défi pour l’organisation
-
-### Statuts des défis {#challenge-statuses}
-
-<!-- VISUAL: Status badges showing different challenge statuses with color coding: Draft (gray), Scheduled (blue), Live (green), Completed (gray), Stopped (red), Archived (gray) -->
-
-Les défis s’affichent avec différents statuts indiquant leur statut actuel dans le cycle de vie :
-
-* **Brouillon** : le défi est en cours de création ou de modification.
-* **Planifié** : le défi est publié et sera actif à la date de début
-* **En direct** : le défi est actif et les clients peuvent y participer
-* **Terminé** : la date de fin du défi est dépassée ou les objectifs ont été atteints
-* **Arrêté** : le défi a été arrêté manuellement avant la fin
-* **Archivé** : le défi a été archivé à des fins d’organisation
-
-Pour plus d’informations sur les transitions d’état et le cycle de vie du défi, voir [Cycle de vie du défi](manage-challenges.md#challenge-lifecycle).
-
-### Défis liés à la recherche et au filtrage {#search-challenges}
-
-<!-- SCREENSHOT: Search bar and filter panel showing available filters (status, type, dates, tags) with an example of active filters applied -->
-
-Vous pouvez rapidement localiser les défis à l’aide de la recherche et des filtres :
-
-**Rechercher:**
-
-* Utilisez la barre de recherche pour trouver les défis en saisissant des mots-clés à partir du nom ou de la description du défi. Les mises à jour de la recherche génèrent des résultats en temps réel au fur et à mesure que vous tapez.
-
-**Filtres:**
-
-* Appliquez un ou plusieurs filtres pour affiner vos résultats :
-   * **Statut** : filtrer par statut de défi (brouillon, planifié, actif, terminé, arrêté, archivé)
-   * **Type** : filtrer par type de défi (Standard, Séquentiel, Séquentiel)
-   * **Dates** : filtrez par périodes de début ou de fin.
-   * **Balises** : filtrer par balises appliquées aux défis
-
-Vous pouvez combiner plusieurs filtres simultanément. Par exemple, filtrez les défis Live Standard identifiés avec « Été 2024 » pour trouver rapidement les campagnes saisonnières actives.
-
-Pour effacer les filtres, sélectionnez **[!UICONTROL Effacer tout]** ou supprimez des filtres individuels.
-
-### Prendre des mesures pour relever les défis {#inventory-actions}
-
-<!-- SCREENSHOT: More actions menu (three dots) expanded showing options: Edit, Duplicate, Stop, Archive, Delete -->
+* **[!UICONTROL Date de création]** : date à laquelle le défi a été créé
+* **[!UICONTROL Créé par]** : utilisateur qui a créé le défi
 
 Dans l’onglet Défis , vous pouvez effectuer des actions rapides sur les défis :
 
 * **Afficher les détails du défi** : sélectionnez le nom du défi pour ouvrir sa page de détails
-* **Modifier un défi** : sélectionnez le menu **[!UICONTROL Plus d’actions]** (trois points) et choisissez **[!UICONTROL Modifier]**
-* **Dupliquer un défi** : sélectionnez le menu **[!UICONTROL Autres actions]** et choisissez **[!UICONTROL Dupliquer]**
-* **Arrêter un défi en direct** : sélectionnez le menu **[!UICONTROL Autres actions]** et choisissez **[!UICONTROL Arrêter]**
-* **Archiver un défi** : sélectionnez le menu **[!UICONTROL Autres actions]** et choisissez **[!UICONTROL Archiver]**
-* **Supprimer un brouillon de défi** : sélectionnez le menu **[!UICONTROL Autres actions]** et choisissez **[!UICONTROL Supprimer]** (disponible uniquement pour les brouillons).
+* **Dupliquer un défi** : sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Dupliquer]**
+* **Supprimer un brouillon de défi** : sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**
 
-Pour plus d’informations sur la gestion des défis après leur création, notamment la modification des limites, les stratégies de duplication, la surveillance des performances et le dépannage, consultez [Gérer les défis](manage-challenges.md).
+Pour plus d’informations sur la gestion des défis après leur création, voir [ Gérer les défis et les tâches ](manage-challenges.md).
 
 ## Inventaire des tâches {#tasks-tab}
 
-<!-- SCREENSHOT: Tasks tab showing the inventory table with columns: Task name, Task type, Description, Created by, Last modified, Used in challenges -->
-
 L’onglet Tâches affiche toutes les tâches réutilisables qui peuvent être utilisées pour plusieurs défis. Les tâches créées ici peuvent être sélectionnées lors de la création ou de la modification d’un défi.
+
+![](assets/tasks-inventory.png)
 
 L&#39;inventaire des tâches affiche les informations suivantes :
 
 * **[!UICONTROL Nom de la tâche]** : nom que vous avez attribué à la tâche
-* **[!UICONTROL Type de tâche]** : type d’action (achat, montant des dépenses, visite, engagement, événement personnalisé)
 * **[!UICONTROL Description]** : brève description de ce que la tâche requiert
-* **[!UICONTROL Créé par]** : utilisateur qui a créé la tâche.
+* **[!UICONTROL Activité de tâche]** : Type d&#39;activité (Achat, Dépenses)
+* **[!UICONTROL SKU]** : éléments éligibles et/ou exclus
 * **[!UICONTROL Dernière modification]** : date et heure de la dernière modification
-* **[!UICONTROL Utilisé dans les défis]** : nombre de défis utilisant actuellement cette tâche
+* **[!UICONTROL Dernière modification par]** : dernier utilisateur ayant modifié la tâche
+* **[!UICONTROL Date de création]** : date de création de la tâche
+* **[!UICONTROL Créé par]** : utilisateur qui a créé la tâche.
 
-### Agir sur les tâches {#tasks-actions}
-
-Dans l’onglet Tâches , vous pouvez effectuer des actions sur les tâches :
+Dans l’onglet Tâches , vous pouvez effectuer des actions rapides sur les tâches :
 
 * **Afficher les détails de la tâche** : sélectionnez le nom de la tâche pour afficher la configuration complète
-* **Modifier une tâche** : sélectionnez le menu **[!UICONTROL Autres actions]** (points de suspension) et choisissez **[!UICONTROL Modifier]**
-* **Dupliquer une tâche** : sélectionnez le menu **[!UICONTROL Autres actions]** et choisissez **[!UICONTROL Dupliquer]**
-* **Supprimer une tâche** : sélectionnez le menu **[!UICONTROL Autres actions]** et choisissez **[!UICONTROL Supprimer]** (uniquement si elle n’est utilisée dans aucun défi actif)
-* **Afficher l’utilisation** : voir quels défis utilisent actuellement la tâche.
+* **Dupliquer une tâche** : sélectionnez l&#39;icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Dupliquer]**
+* **Supprimer une tâche** : sélectionnez l&#39;icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**
+
+Pour plus d’informations sur la gestion des tâches après leur création, voir [ Gérer les défis et les tâches ](manage-challenges.md).
 
 ## Étapes suivantes {#next-steps}
 

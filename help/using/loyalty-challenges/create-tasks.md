@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Vous pouvez créer des tâches à partir de deux points d’entrée. Le processu
 
 +++À partir de l’inventaire des tâches
 
-1. Accédez à **[!UICONTROL Défis de fidélité]** dans Journey Optimizer.
+1. Accédez à **[!UICONTROL Défis de fidélité (Beta)]** dans Journey Optimizer.
 
 1. Sélectionnez l’onglet **[!UICONTROL Tâches]**.
 

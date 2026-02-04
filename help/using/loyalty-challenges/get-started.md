@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '662'
 ht-degree: 4%
 
 ---
@@ -68,7 +68,7 @@ La création et le lancement d’un défi de fidélité suivent ce workflow :
 
 1. **Réviser et publier** - Testez votre défi avec des [profils de test](../content-management/test-profiles.md), puis publiez-le pour le rendre disponible auprès de votre audience cible.
 
-1. **Activer le parcours** - Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un [parcours &#x200B;](../building-journeys/journey-gs.md) à l’état de brouillon qui orchestre la diffusion et la messagerie des cartes de contenu. Accédez à l’inventaire des Parcours, localisez le parcours généré automatiquement (nommé « Défi : [Nom du défi] ») et [activez-le](../building-journeys/publish-journey.md) pour mettre le défi à la disposition de vos clients.
+1. **Activer le parcours** - Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un [parcours ](../building-journeys/journey-gs.md) à l’état de brouillon qui orchestre la diffusion et la messagerie des cartes de contenu. Accédez à l’inventaire des Parcours, localisez le parcours généré automatiquement (nommé « Défi : [Nom du défi] ») et [activez-le](../building-journeys/publish-journey.md) pour mettre le défi à la disposition de vos clients.
 
 1. **Surveiller les performances** - Suivez la participation, les taux d’achèvement, la distribution des récompenses et l’engagement des messages au moyen de rapports intégrés et de la zone de travail de parcours. Voir [Gérer les défis](manage-challenges.md) pour plus d’informations sur la surveillance.
 
@@ -86,7 +86,7 @@ Les défis de fidélité reposent sur des données ingérées par le biais des c
 
 Pour obtenir des instructions détaillées, voir :
 
-* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -95,7 +95,7 @@ Pour obtenir des instructions détaillées, voir :
 
 Pour utiliser les défis de fidélité, vous avez besoin des autorisations appropriées dans Journey Optimizer. Les autorisations requises sont les suivantes :
 
-* Accès à la fonctionnalité **[!UICONTROL Défis de fidélité]**
+* Accès à la fonctionnalité **[!UICONTROL Défis de fidélité (Beta)]**
 * Autorisations de création et de gestion des parcours
 * Autorisations pour créer et gérer des cartes de contenu
 * Autorisations pour créer et gérer des audiences
@@ -106,7 +106,7 @@ Contactez votre administrateur si vous ne pouvez pas accéder à la fonctionnali
 
 +++Audiences cibles
 
-Créez des audiences cibles dans Experience Platform avant de créer des défis. Ces audiences définissent les clients éligibles pour participer à vos défis de fidélité. Pour plus d’informations sur la création d’audiences, consultez la section [Prise en main des audiences](../audience/about-audiences.md).
+Définissez des audiences cibles qui spécifient les clients éligibles pour participer à vos défis de fidélité. Vous pouvez sélectionner des audiences existantes ou en créer de nouvelles directement à partir de l’interface de création de défis. Pour plus d’informations sur l’utilisation des audiences, voir [Prise en main des audiences](../audience/about-audiences.md).
 
 +++
 

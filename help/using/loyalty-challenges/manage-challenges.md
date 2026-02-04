@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 2%
+source-wordcount: '804'
+ht-degree: 3%
 
 ---
 
@@ -45,67 +45,38 @@ ht-degree: 2%
 Les défis passent par différents états au cours de leur cycle de vie :
 
 * **Brouillon** : le défi est en cours de création ou de modification et n’est pas encore disponible pour les clients
-* **Planifié** : le défi a été publié et sera automatiquement activé à la date de début spécifiée
-* **En direct** : le défi est actuellement actif et les clients peuvent y participer
-* **Terminé** : le défi est terminé - la date de fin est dépassée ou tous les objectifs ont été atteints
-* **Arrêté** : le défi a été arrêté manuellement avant d’atteindre son achèvement naturel
-* **Archivé** : le défi a été archivé à des fins d’organisation et n’est plus visible dans l’inventaire principal
+* **Publié** : le défi est actif, le parcours associé a été créé.
 
 ### Modifier les défis {#edit-challenges}
 
-Vous pouvez modifier les défis en fonction de leur statut actuel :
+Vous pouvez modifier les défis en les ouvrant dans l’inventaire des défis. Le comportement de modification diffère en fonction du statut du défi :
 
-* **Brouillons de défis** : fonctionnalité de modification complète - toutes les propriétés peuvent être modifiées
-* **Défis planifiés/en direct** : modification limitée - vous pouvez mettre à jour le contenu, les messages et étendre les dates, mais vous ne pouvez pas modifier la structure de défi principale (type, audience ou définitions de tâche)
+**Brouillons des défis** : vous disposez d’une fonctionnalité d’édition complète. Toutes les propriétés, tâches, contenus et messages peuvent être modifiés sans restriction.
 
-Pour modifier un défi :
+**Défis publiés** : lorsque vous ouvrez un défi publié pour le modifier, vous devez d’abord le rétablir au statut Brouillon.
 
-1. Accédez à l’onglet **[!UICONTROL Défis]** dans l’inventaire des Défis de fidélité.
+* Toutes les personnalisations apportées directement au parcours généré automatiquement seront perdues
+* Le défi revient à l’état Brouillon .
+* Après avoir apporté vos modifications, vous devez enregistrer et publier à nouveau le défi
+* Vous devez réactiver le parcours associé pour que les clients puissent accéder au défi mis à jour
 
-1. Recherchez le défi à modifier.
-
-1. Sélectionnez le nom du défi pour l’ouvrir en mode d’édition.
-
-1. Apportez vos modifications en fonction du statut du défi :
-   * **Brouillons de défis** : modifiez des propriétés, des tâches, du contenu ou des messages
-   * **Défis planifiés/en direct** : mettez à jour les cartes de contenu, les messages ou étendez les dates de fin selon les besoins.
-
-1. Enregistrez vos modifications. Pour les défis planifiés ou en direct, les modifications prennent effet immédiatement ou conformément à votre planning de mise à jour.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Pour les modifications nécessitant des modifications majeures (telles que la modification du type de défi, de l’audience ou de la structure de tâche), dupliquez le défi et créez une nouvelle version au lieu de modifier la version existante.
+>La restauration d’un défi publié en version préliminaire ne peut pas être annulée. Tenez compte de l’impact sur votre parcours actif avant de continuer.
 
 ### Dupliquer les défis {#duplicate-challenges}
-
-Dupliquez les défis pour :
-
-* Réexécution des défis réussis pour de nouvelles périodes
-* Créer des variations pour différentes audiences
-* Mettre à jour les exigences de tâche ou les récompenses
-* Réactiver les défis arrêtés ou terminés
 
 La duplication d’un défi crée une copie exacte avec toutes les tâches, le contenu et les messages intacts, ce qui vous permet de créer rapidement de nouvelles versions sans devoir repartir de zéro.
 
 Pour dupliquer un défi :
 
-1. Accédez à l’onglet **[!UICONTROL Défis]** dans l’inventaire des Défis de fidélité.
+1. Accédez à l’onglet **[!UICONTROL Défis]** et localisez le défi à dupliquer.
 
-1. Recherchez le défi à dupliquer.
+1. Sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) en regard de ce défi et choisissez **[!UICONTROL Dupliquer]**.
 
-1. Sélectionnez le menu Autres actions (points de suspension) en regard de ce défi.
+1. Une copie du défi est créée. Ouvrez le défi dupliqué et modifiez les propriétés nécessaires.
 
-1. Choisissez **[!UICONTROL Dupliquer]**.
-
-1. Une copie du défi est créée avec « [ Copy ] » ajouté à son nom.
-
-1. Ouvrez le défi dupliqué et modifiez les propriétés nécessaires :
-   * Mettre à jour le nom du défi
-   * Ajuster les dates de début et de fin
-   * Modifiez l’audience cible si nécessaire.
-   * Modifiez les tâches, les récompenses, le contenu ou les messages selon les besoins
-
-1. Examinez et publiez le défi dupliqué.
+1. Enregistrez le défi dupliqué et générez le parcours associé.
 
 ### Surveillance des performances {#monitor-performance}
 
@@ -184,7 +155,7 @@ Pour supprimer une tâche :
 
 1. Vérifiez que le nombre **[!UICONTROL Utilisé dans les défis]** indique 0. Si le nombre est supérieur à 0, vous devez d’abord supprimer la tâche de tous les défis avant la suppression.
 
-1. Sélectionnez le menu Autres actions (points de suspension) en regard de la tâche.
+1. Sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) en regard de la tâche.
 
 1. Choisissez **[!UICONTROL Supprimer]**.
 

@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
@@ -38,48 +38,66 @@ ht-degree: 2%
 
 ## Fonctionnement {#how-it-works}
 
-<!-- SCHEMA: Visual workflow showing the 5 main steps with icons: Create challenge → Add tasks → Design content cards → Configure messaging → Review and publish -->
-
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel), l’audience et la période.
+1. **[Créer le défi](#create-the-challenge)** - Choisissez le type de défi (Standard, Streak ou Séquentiel) qui correspond le mieux aux objectifs de votre programme de fidélité.
 
-1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâches (achat, dépenses, visite, etc.), les quantités, les filtres de produit et les récompenses.
+1. **[Configurer la structure du défi](#structure)** - Définissez les propriétés du défi, le planning, les tâches que les clients doivent effectuer et les récompenses qu’ils vont gagner.
 
-1. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de cartes de contenu Journey Optimizer qui s’affichent sur les appareils des clients.
+1. **[Configurer des cartes de contenu](#configure-content-cards)** - Concevez des cartes de contenu pour représenter visuellement votre défi sur les appareils des clients, en affichant les informations sur le défi, la progression et les récompenses.
 
-1. **Configurer la messagerie** (facultatif) - Configurez des messages multicanaux (in-app, e-mail, push, SMS) pour les étapes clés : lancement, en cours et achèvement.
+1. **[Configurer la messagerie](#configure-messaging)** (facultatif) - Configurez des messages multicanaux (in-app, e-mail, push) pour les étapes clés : lancement, en cours et achèvement.
 
-1. **Réviser et publier** - Testez votre défi avec des profils de test, puis publiez-le pour le rendre disponible auprès de votre audience cible.
+1. **[Sélectionner l’audience du défi](#audience)** - Définir quels clients sont éligibles pour participer au défi.
 
-## Créer le défi {#create-challenge}
+1. **[Générer et activer le parcours](#review-and-publish)** - Générez le parcours associé et activez-le pour mettre le défi à la disposition de votre audience cible.
 
-<!-- SCREENSHOT: Challenge creation screen showing challenge properties form with fields for name, type, audience, dates -->
+## Créer le défi {#create-the-challenge}
 
-Pour créer un nouveau défi de fidélité :
+1. Accédez à **[!UICONTROL Défis de fidélité (Beta)]** dans Journey Optimizer.
 
-1. Accédez à **[!UICONTROL Défis de fidélité]** dans Journey Optimizer.
+1. Sélectionnez l’onglet **[!UICONTROL Défis]** et sélectionnez **[!UICONTROL Créer un défi]**.
 
-1. Sélectionnez l’onglet **[!UICONTROL Défis]**.
+   ![](assets/challenge-create.png)
 
-1. Sélectionnez **[!UICONTROL Créer un défi]**.
+1. Choisissez le type de défi :
 
-1. Configurez les propriétés du défi :
-
-   **Nom du défi** : saisissez un nom explicite pour votre défi. Ce nom apparaît dans l’inventaire des défis et vous aide à identifier le défi.
-
-   **Type de défi** : sélectionnez l’un des types suivants :
    * **[!UICONTROL Standard]** : les clients effectuent un nombre spécifié de tâches dans n’importe quel ordre
    * **[!UICONTROL Streak]** : les clients effectuent la même tâche plusieurs fois de suite
    * **[!UICONTROL Séquentiel]** : les clients exécutent des tâches dans un ordre défini
 
-   **Audience cible** : sélectionnez le segment d’audience qui définit les personnes pouvant participer à ce défi. Vous devez créer des audiences dans Experience Platform avant de créer des défis. Pour plus d’informations, voir [Prise en main des audiences](../audience/about-audiences.md).
+## Configurer la structure de défi {#structure}
 
-   **Date de début** : définie au moment où le défi devient disponible pour les clients.
+C’est dans l’onglet Structure que vous définissez l’organisation de votre défi : ses propriétés, son planning, les tâches à effectuer et les récompenses à accorder.
 
-   **Date de fin** : définie lorsque le défi expire et n’accepte plus de nouvelles fins de cours.
+### Définir les propriétés du défi et utiliser des métadonnées personnalisées {#properties}
 
-<!-- VISUAL: Comparison table or diagram showing the three challenge types (Standard, Streak, Sequential) with examples of each -->
+1. Dans le volet Propriétés du défi , configurez les propriétés du défi :
+
+   ![](assets/challenge-create-properties.png)
+
+   **Nom** : saisissez un nom explicite pour votre défi. Ce nom apparaît dans l’inventaire des défis et vous aide à identifier le défi.
+
+   **Description** : saisissez une description pour votre défi.
+
+1. Utilisez la section **[!UICONTROL Métadonnées personnalisées]** pour ajouter des métadonnées personnalisées à l’aide de paires clé/valeur. Ces métadonnées peuvent être utilisées pour le suivi, la segmentation ou l’intégration à des systèmes externes.
+
+### Planifier le défi {#schedule}
+
+Planifiez le défi en sélectionnant l’icône ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Ouvrir le planning]**.
+
+* **Date et heure de début** : indiquez le moment où le défi sera disponible pour les clients (format : jj/mm/aaaa, — : matin/après-midi).
+
+* **Date et heure de fin** : indiquez le moment où le défi expire et où vous n’acceptez plus de nouvelles formations (format : mm/jj/aaaa, —:— matin/après-midi).
+
+* **Fuseau horaire** : le défi utilise par défaut le fuseau horaire local du destinataire.
+
+* **Les tâches doivent être terminées** : choisissez le moment où les clients peuvent terminer les tâches :
+
+   * **[!UICONTROL À tout moment pendant le défi]** : les clients peuvent terminer des tâches à tout moment entre les dates de début et de fin du défi
+   * **[!UICONTROL À des heures spécifiques de la journée]** : limitez la fin de la tâche à des heures quotidiennes spécifiques en définissant les paramètres **[!UICONTROL Heure de début]** et **[!UICONTROL Heure de fin]**
+
+Le planning du défi est maintenant configuré. Vous pouvez maintenant ajouter les tâches que les clients doivent effectuer.
 
 ### Ajouter des tâches {#add-tasks}
 
@@ -91,110 +109,149 @@ Selon votre type de défi, les clients exécutent les tâches différemment :
 * **Défis de Streak** : effectuez la même tâche plusieurs fois de suite
 * **Défis séquentiels** : exécutez les tâches dans un ordre défini
 
-Pour ajouter des tâches à votre défi, sélectionnez **[!UICONTROL Ajouter une tâche]** dans la section Tâches et configurez les propriétés de la tâche.
+Pour ajouter des tâches à votre défi, procédez comme suit :
 
-Pour obtenir des instructions détaillées sur la création et la configuration de tâches, voir [Créer des tâches](create-tasks.md).
+1. Dans la section **[!UICONTROL Tâches]**, sélectionnez **[!UICONTROL Ajouter une tâche]**.
 
-### Configuration des cartes de contenu {#configure-content-cards}
+   ![](assets/challenge-create-add-task.png)
 
-<!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
+1. L’inventaire des tâches s’ouvre. Sélectionnez une ou plusieurs tâches dans la liste, puis sélectionnez **[!UICONTROL Ajouter]**. Pour créer une nouvelle tâche, sélectionnez **[!UICONTROL Nouveau]**.
+
+   Pour obtenir des instructions détaillées sur la création et la configuration de tâches, voir [Créer des tâches](create-tasks.md).
+
+1. Dans la section **[!UICONTROL Exigence d’achèvement de la tâche]**, indiquez à quel moment le défi doit être considéré comme terminé :
+
+   * **[!UICONTROL Le client choisit 1 tâche à effectuer]** : Le client peut sélectionner et exécuter n’importe quelle tâche du défi pour gagner des récompenses
+   * **[!UICONTROL Le client effectue un nombre spécifique de tâches]** : Le client doit effectuer un nombre défini de tâches. Saisissez le nombre requis de tâches terminées.
+
+1. Par défaut, les défis permettent aux clients d’effectuer des tâches sur plusieurs transactions. Pour exiger que toutes les tâches soient effectuées dans une seule transaction, sélectionnez l’icône ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Paramètres]** et activez/désactivez l’option **[!UICONTROL Une seule transaction]**.
+
+   ![](assets/challenge-create-single-transaction.png)
+
+### Configurer les récompenses {#rewards}
+
+Les récompenses sont les points de fidélité ou les avantages que les clients reçoivent pour relever les défis. Configurez comment et quand les récompenses sont distribuées pour motiver la participation du client.
+
+1. Dans le menu déroulant **[!UICONTROL Diffusion de récompenses]**, choisissez quand les récompenses doivent être diffusées :
+
+   * **[!UICONTROL Remettre des récompenses lorsque le défi est terminé]** : récompensez toutes les récompenses lorsque le client termine l’ensemble du défi
+   * **[!UICONTROL Offrir des récompenses aux jalons d’achèvement de tâche au fur et à mesure de la progression du défi]** : récompensez de manière incrémentielle les clients qui effectuent des tâches individuelles (uniquement disponible lorsque le défi nécessite l’accomplissement de plusieurs tâches)
+
+1. Sélectionnez votre fournisseur de récompense dans la liste déroulante. Il s’agit de votre solution de fidélité qui gère les points et les récompenses des clients.
+
+1. Configurez les montants de récompense en fonction de la méthode de diffusion sélectionnée :
+
+   +++Diffuser des récompenses lorsque le défi est terminé
+
+   Dans le champ **Nombre de [points de fidélité] à l’issue du défi**, indiquez le montant total de récompense à accorder lorsque le client termine l’ensemble du défi.
+
+   Le nom du champ affiche le nom de vos points de fidélité tel que défini dans le fournisseur sélectionné. Par exemple, si votre fournisseur utilise « Points Luma », le champ affiche « Nombre de points Luma à l’issue du défi ».
+
+   ![](assets/challenge-create-reward-total.png)
+
+   **Exemple** : dans la capture d’écran ci-dessus, les clients reçoivent 100 points pour relever le défi.
+
+   +++
+
+   +++Diffuser des récompenses aux jalons d’achèvement de la tâche
+
+   Spécifiez les montants de récompense pour les jalons d’achèvement de la tâche. Cette option vous permet de créer des récompenses progressives qui augmentent la motivation du client au fur et à mesure qu’il relève le défi.
+
+   Pour toute tâche pour laquelle vous souhaitez offrir une récompense, activez l’option Récompense et indiquez le nombre de points à accorder lorsque les clients effectuent cette tâche spécifique. Vous pouvez choisir de ne récompenser que certaines tâches terminées ; par exemple, si vous avez 10 tâches, vous pouvez récompenser uniquement les tâches 1, 5 et 10.
+
+   ![](assets/challenge-create-reward-milestones.png)
+
+   **Exemple** : dans la capture d’écran ci-dessus, les clients obtiennent 10 points lorsqu’ils terminent la première tâche, puis 50 points supplémentaires après avoir terminé la seconde tâche, pour un total de 60 points lorsque le défi est terminé.
+
+   >[!TIP]
+   >
+   >Envisagez d’augmenter les valeurs de récompense pour les tâches ultérieures afin de maintenir l’engagement client tout au long du défi.
+
+   +++
+
+La structure de défi est désormais configurée avec des tâches et des récompenses. Vous pouvez maintenant concevoir les cartes de contenu pour présenter le défi aux clients.
+
+## Configuration des cartes de contenu {#configure-content-cards}
 
 Les cartes de contenu fournissent la représentation visuelle de votre défi sur les appareils des clients, affichant les informations sur le défi, la progression et les récompenses. En savoir plus sur les [cartes de contenu](../content-card/create-content-card.md).
 
-<!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
-
 Pour configurer les cartes de contenu en fonction de votre défi :
 
-1. Dans l’éditeur de défis, accédez à la section **[!UICONTROL Cartes de contenu]**.
+1. Dans l’éditeur de défis, accédez à l’onglet **[!UICONTROL Contenu]**.
 
-1. Sélectionnez **[!UICONTROL Créer une carte de contenu]** ou choisissez un modèle existant.
+1. Saisissez un **[!UICONTROL Nom]** pour la carte de contenu.
 
-1. Concevez votre carte de contenu :
-   * Ajouter des images, du texte et des éléments de branding
-   * Incluez [&#x200B; jetons de personnalisation &#x200B;](../personalization/personalization-syntax.md) pour afficher les informations spécifiques au client ou à la cliente
-   * Afficher les indicateurs de progression des défis
-   * Afficher les récompenses et les incentives
+1. Sélectionnez la **[!UICONTROL configuration du canal]** associée. Les configurations de canal définissent comment et où votre contenu est diffusé aux clients. Pour plus d’informations, voir [Configurations de canal](../configuration/channel-surfaces.md).
 
-1. Configurez le moment où la carte de contenu s’affiche :
-   * **Début du défi** : afficher le moment où le défi est disponible
-   * **En cours** : afficher lorsque les clients participent activement
-   * **Achèvement** : afficher une fois que les clients ont terminé toutes les tâches
+1. Sélectionnez **[!UICONTROL Modifier le contenu]** pour concevoir votre carte de contenu.
 
-1. Prévisualisez la carte de contenu sur différents appareils pour garantir un affichage correct.
-
-1. Enregistrez la configuration de la carte de contenu.
+   ![](assets/challenge-create-content.png)
 
 Pour plus d’informations sur la conception et la personnalisation des cartes de contenu, voir [Conception de cartes de contenu](../content-card/design-content-card.md).
 
-### Configurer la messagerie {#configure-messaging}
+La carte de contenu est maintenant configurée. Vous pouvez désormais configurer la messagerie pour impliquer les clients tout au long du cycle de vie du défi.
 
-<!-- SCREENSHOT: Messaging configuration section showing the three lifecycle stages: Launch, In-progress, Completion -->
+### Configurer la messagerie {#configure-messaging}
 
 Configurez des messages multicanaux pour impliquer les clients aux étapes clés du cycle de vie du défi.
 
-<!-- VISUAL: Timeline diagram showing when each message type is sent during the challenge lifecycle -->
-
-Pour configurer la messagerie en fonction de votre défi :
-
-1. Dans l’éditeur de défis, accédez à la section **[!UICONTROL Messagerie]**.
+1. Accédez à l’onglet **[!UICONTROL Messagerie]**.
 
 1. Configurez les messages pour chaque étape du cycle de vie :
 
-   **Messages Launch** - Avertissez les clients lorsque le défi commence :
-   * Sélectionnez les canaux : [in-app](../in-app/get-started-in-app.md), [e-mail](../email/get-started-email.md), [notification push](../push/get-started-push.md) ou [SMS](../sms/get-started-sms.md)
-   * Concevoir le message avec des détails de défi et call-to-action
-   * Définir le timing : envoyer immédiatement lorsque le défi est lancé ou planifié pour une heure spécifique
+   ![](assets/challenge-create-messaging.png)
 
-   **Messages en cours** - Maintenez l’engagement des clients pendant le défi :
-   * Définir des conditions de déclenchement (par exemple, 50 % d’achèvement, tâche spécifique terminée)
-   * Créer des messages de rappel pour encourager la participation continue
-   * Inclure les mises à jour de progression et les étapes suivantes
+   * **Messages Launch** : avertissez les clients lorsque le défi commence et fournissez les détails initiaux
+   * **Messages en cours** : maintenez l’engagement des clients pendant le défi avec des rappels, des mises à jour sur la progression et des encouragements pour continuer
+   * **Messages d’achèvement** : célébrez le succès, confirmez l’attribution de récompenses et suggérez les prochains défis ou actions
 
-   **Messages d’achèvement** - Célébrez le succès et offrez des récompenses :
-   * Félicitez les clients d’avoir relevé ce défi
-   * Confirmer l’attribution de la récompense
-   * Fournir des instructions pour la demande de récompenses
-   * Proposer les prochains défis ou actions
+1. Pour chaque étape, sélectionnez **[!UICONTROL Ajouter *étape* message]** pour créer un message pour cette étape.
 
-Pour plus d’informations sur la création de messages pour des canaux spécifiques, voir :
+1. Choisissez le canal de votre choix : **[!UICONTROL In-app]**, **[!UICONTROL Email]** ou **[!UICONTROL Notification push]** et sélectionnez la configuration de canal associée.
 
-* [Documentation sur les messages in-app](../in-app/get-started-in-app.md)
-* [Documentation sur les e-mails](../email/get-started-email.md)
-* [Documentation sur les notifications push](../push/get-started-push.md)
-* [Documentation sur les messages SMS](../sms/get-started-sms.md)
+1. Sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Modifier]** pour concevoir le contenu de votre message.
 
-## Examiner et publier le défi {#review-and-publish}
+   Pour plus d’informations sur la création de messages pour des canaux spécifiques, voir :
 
-<!-- SCREENSHOT: Review screen showing summary of challenge configuration with all components listed -->
+   * [Documentation sur les messages in-app](../in-app/get-started-in-app.md)
+   * [Documentation sur les e-mails](../email/get-started-email.md)
+   * [Documentation sur les notifications push](../push/get-started-push.md)
 
-Avant de publier votre défi :
+1. Répétez ces étapes pour chaque étape et canal selon les besoins.
 
-1. **Examiner tous les composants** : vérifier les propriétés du défi, les tâches, les récompenses, les cartes de contenu et les configurations de messagerie.
+La configuration de la messagerie est maintenant terminée. Vous pouvez maintenant définir les clients éligibles pour participer au défi.
 
-1. **Tester l’expérience** : utilisez des [profils de test](../content-management/test-profiles.md) pour valider l’affichage de la carte de contenu et le comportement du déclencheur de tâche.
+## Sélectionner l’audience du défi {#audience}
 
-1. **Publier** : sélectionnez **[!UICONTROL Publier]** pour que le défi soit disponible pour votre audience cible.
+Définissez les clients éligibles pour participer à votre défi de fidélité.
 
-<!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
+1. Accédez à l’onglet **[!UICONTROL Audience]** et cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
 
-Lorsque vous publiez un défi, Journey Optimizer crée automatiquement un parcours [&#128279;](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
+   ![](assets/challenge-create-audience.png)
 
-Pour mettre le défi à la disposition des clients :
+1. Toutes les audiences Adobe Experience Platform disponibles s’affichent. Sélectionnez l’audience souhaitée dans la liste.
 
-1. Accédez à l’inventaire **[!UICONTROL Parcours]** dans Journey Optimizer.
+1. Sélectionnez **[!UICONTROL Ajouter une audience]** pour confirmer votre sélection.
 
-1. Recherchez le parcours généré automatiquement (son nom contiendra le préfixe « Défi : »).
+Votre configuration de défi est maintenant terminée. Vous pouvez maintenant générer le parcours qui orchestre la diffusion de défi.
 
-1. [&#x200B; Activer le parcours &#x200B;](../building-journeys/publish-journey.md).
+## Génération et activation du parcours {#review-and-publish}
 
-Le parcours démarre automatiquement à la date de début du défi que vous avez spécifiée.
+Une fois la configuration de votre défi terminée, générez le parcours associé qui orchestrera la diffusion du défi et les interactions des clients. Pour ce faire, sélectionnez **[!UICONTROL Générer le Parcours]**.
+
+![](assets/challenge-create-generate-journey.png)
+
+Journey Optimizer crée automatiquement un parcours [](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
+
+Vérifiez la configuration du parcours si nécessaire, puis [activez le parcours ](../building-journeys/publish-journey.md) pour mettre le défi à la disposition des clients.
+
+Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration.
 
 >[!NOTE]
 >
->Le parcours généré automatiquement apparaît dans votre inventaire de parcours et peut être personnalisé si nécessaire. Toutefois, les modifications apportées directement au parcours ne sont pas resynchronisées avec la configuration de défi.
+>Le parcours généré automatiquement peut être personnalisé si nécessaire pour ajouter une logique ou un message supplémentaire. Toutefois, les modifications apportées directement au parcours ne sont pas resynchronisées avec la configuration de défi. Si vous modifiez le défi ultérieurement, toutes les personnalisations de parcours seront perdues lorsque le parcours sera régénéré.
 
 ## Étapes suivantes {#next-steps}
 
 * [Gérer les défis](manage-challenges.md) - Découvrez comment modifier, surveiller et optimiser les défis
 * [Comprendre les défis de la fidélité](get-started.md) - Examinez les fonctionnalités et capacités
-
