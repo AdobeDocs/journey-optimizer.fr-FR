@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Concevoir le parcours
+title: Concevoir votre parcours
 description: Découvrez comment concevoir votre parcours
 feature: Journeys, Activities
 topic: Content Management
@@ -13,15 +13,15 @@ version: Journey Orchestration
 source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
 source-wordcount: '1756'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Concevoir le parcours {#design-your-journey}
+# Concevoir votre parcours {#design-your-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
->title="Concevoir le parcours"
+>title="Concevoir votre parcours"
 >abstract="L&#39;interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l&#39;ajouter dans la zone de travail à la prochaine étape disponible."
 
 Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter à la zone de travail à la prochaine étape disponible.
@@ -72,7 +72,7 @@ Il existe deux possibilités :
 
 1. **Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les individus rejoignent le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
 
-1. **Débuter avec une lecture d’audience** : vous pouvez définir votre parcours pour écouter les audiences Adobe Experience Platform. Dans ce cas, toutes les personnes appartenant à l’audience spécifiée rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux personnes appartenant à l’audience. En savoir plus sur la [lecture d’audience](read-audience.md). Pour plus d’informations sur la génération et le ciblage d’audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
+1. **Débuter avec une lecture d’audience** : vous pouvez définir votre parcours pour écouter les audiences Adobe Experience Platform. Dans ce cas, toutes les personnes appartenant à l’audience spécifiée rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux personnes appartenant à l’audience. En savoir plus sur la [lecture d’audience](read-audience.md). Pour plus d’informations sur la génération et le ciblage d’audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
 
 ## Définir les étapes suivantes{#define-next-steps}
 

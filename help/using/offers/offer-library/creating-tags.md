@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Créer des qualificateurs de collection
+title: Création de qualificateurs de collection
 description: Découvrez comment créer des qualificateurs de collection pour vos offres.
 badge: label="Hérité" type="Informative"
 feature: Decision Management
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ---
 
-# Créer des qualificateurs de collection {#create-tags}
+# Création de qualificateurs de collection {#create-tags}
 
 >[!TIP]
 >
@@ -32,7 +32,7 @@ Ajoutez des qualificateurs de collection (précédemment appelés « balises �
 
 Les qualificateurs de collection peuvent également être utilisés pour regrouper les offres sous forme de collections d’offres. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 La liste des qualificateurs de collection créés est accessible dans le menu **[!UICONTROL Composants]**.
 
@@ -52,4 +52,4 @@ Pour créer un qualificateur de collection, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341366?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

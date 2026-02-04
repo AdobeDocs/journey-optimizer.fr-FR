@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Délégation d’un sous-domaine
+title: Déléguer un sous-domaine
 description: Découvrez comment déléguer vos sous-domaines.
 feature: Subdomains, Deliverability
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
 workflow-type: tm+mt
 source-wordcount: '1928'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Délégation d’un sous-domaine {#delegate-subdomain}
+# Déléguer un sous-domaine {#delegate-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
@@ -29,7 +29,7 @@ ht-degree: 98%
 >title="Délégation de sous-domaines"
 >abstract="Pour commencer à envoyer des e-mails, vous devez d’abord déléguer votre sous-domaine à Adobe. Une fois cette opération terminée, les enregistrements DNS, les boîtes de réception, les adresses d’expéditeurs, de réponse et de rebond seront configurés pour vous."
 
-La délégation de noms de domaine est une méthode qui permet au propriétaire d&#39;un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division (techniquement : une zone DNS située au-dessous, qui peut être appelée sous-zone) à une autre entité. En tant que client ou cliente, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe.
+La délégation de noms de domaine est une méthode qui permet au propriétaire d’un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division de celui-ci (techniquement : une zone DNS sous celui-ci, qui peut être appelée sous-zone) à une autre entité. En tant que client ou cliente, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe.
 
 >[!NOTE]
 >
@@ -126,9 +126,9 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
-    >[ !REMARQUE]
+    >[!REMARQUE]
     >
-    >Après la création d’un nouveau sous-domaine avec votre fournisseur DNS, attendez 24 à 48 heures pour la propagation DNS avant de tenter la délégation à Adobe.
+    >Après avoir créé un nouveau sous-domaine chez votre fournisseur DNS, attendez 24 à 48 heures pour la propagation DNS avant de déléguer à Adobe.
 
 1. Configurez l’**[!UICONTROL enregistrement DMARC]** dans la section dédiée. Si le sous-domaine comporte un [enregistrement DMARC](dmarc-record.md) existant et qu’il est récupéré par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs ou les modifier selon vos besoins. Si vous n’ajoutez pas de valeurs, les valeurs par défaut seront utilisées. [Découvrez comment gérer l’enregistrement DMARC](dmarc-record.md#set-up-dmarc).
 
@@ -281,4 +281,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

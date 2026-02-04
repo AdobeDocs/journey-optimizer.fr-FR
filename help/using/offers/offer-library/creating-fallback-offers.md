@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Création d’offres de secours
+title: Créer des offres de secours
 description: Découvrez comment créer des offres de secours à afficher pour les clients qui ne sont éligibles à aucune offre.
 badge: label="Hérité" type="Informative"
 feature: Decision Management
@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_fallback_offer_details "
->title="Détails de l&#39;offre de secours"
->abstract="Indiquez le nom de l&#39;offre de secours. Vous pouvez également y associer un ou plusieurs qualificateurs de collection existants, ce qui vous permet de rechercher et d’organiser plus facilement la bibliothèque des offres."
+>title="Détails de l’offre de secours"
+>abstract="Indiquez le nom de l’offre de secours. Vous pouvez également y associer un ou plusieurs qualificatifs de collection, ce qui vous permettra de rechercher et d’organiser plus facilement la bibliothèque des offres."
 
 L&#39;offre de secours est envoyée aux clients s&#39;ils ne sont pas éligibles pour d&#39;autres offres. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
 
@@ -51,7 +51,7 @@ Pour créer une offre de secours, procédez comme suit :
 
    ![](../assets/create_fallback.png)
 
-1. Indiquez le nom de l&#39;offre de secours. Vous pouvez également y associer un ou plusieurs qualificateurs de collection (auparavant appelés « balises ») existants pour une recherche et un classement plus faciles des offres dans la bibliothèque des offres.
+1. Indiquez le nom de l’offre de secours. Vous pouvez également y associer un ou plusieurs qualificateurs de collection (auparavant appelés « balises ») existants pour une recherche et un classement plus faciles des offres dans la bibliothèque des offres.
 
    ![](../assets/fallback_details.png)
 
@@ -79,5 +79,5 @@ Pour créer une offre de secours, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341348?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

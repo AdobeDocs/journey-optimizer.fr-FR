@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Création de simulations
+title: Créer des simulations
 description: Découvrez comment simuler les offres qui seront diffusées pour un emplacement donné afin de valider votre logique de prise de décision.
 badge: label="Hérité" type="Informative"
 feature: Decision Management
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ---
 
-# Création de simulations {#create-simulations}
+# Créer des simulations {#create-simulations}
 
 >[!TIP]
 >
