@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Grâce aux défis de fidélité, vous pouvez configurer des récompenses, envoye
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le connecteur capillaire) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
+1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
 
 1. **Sélectionner une audience cible** - Définissez quels clients peuvent participer à votre défi en sélectionnant une audience depuis Adobe Experience Platform.
 
@@ -75,14 +75,11 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
 Les défis de fidélité reposent sur des données ingérées par le biais des connecteurs source Experience Platform pour suivre la progression des clients et l’achèvement des tâches.
 
-1. **Configuration d&#39;un connecteur source pris en charge** : actuellement, le connecteur capillaire est généralement disponible. D’autres connecteurs sont prévus pour les prochaines versions.
+1. **Configurer un connecteur source pris en charge** : actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 1. **Valider l’ingestion des données** : assurez-vous que les événements de fidélité et les données client circulent dans Experience Platform et sont disponibles dans Journey Optimizer. Vérifiez que le schéma de données comprend les champs nécessaires pour effectuer le suivi des actions et de la progression des clients.
 
-Pour obtenir des instructions détaillées, voir :
-
-* [Documentation sur les sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
-* [Configuration des connecteurs source dans Journey Optimizer](../start/get-started-sources.md)
+Pour obtenir des instructions détaillées, voir [Présentation des sources Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -143,14 +140,14 @@ Définissez une audience cible qui spécifie les clients éligibles pour partici
     </p>
   </td>
   <td>
-    <a href="manage-challenges.md">
+    <a href="access-loyalty-challenges.md">
     <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
-    <a href="manage-challenges.md"><strong>Gérer les défis</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>Gérer les défis et les tâches</strong></a>
     </div>
     <p>
-    <em>Modification, surveillance et optimisation des défis</em>
+    <em>Modifier, dupliquer et supprimer des défis et des tâches</em>
     </p>
   </td>
 </tr>
