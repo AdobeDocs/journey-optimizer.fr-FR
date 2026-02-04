@@ -45,4 +45,4 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 Découvrez comment tirer parti du canal Publipostage direct dans Adobe Journey Optimizer pour automatiser et planifier les diffusions de publipostage direct dans vos parcours.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479164?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)

@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Cette fonctionnalité offre une meilleure visibilité sur l’intégrité et les performances des points d’entrée d’action personnalisés. Un nouveau tableau de bord de surveillance d’action personnalisée et les champs correspondants dans le jeu de données d’événement d’étape de parcours vous permettent de surveiller les appels réussis, les erreurs, le débit, le temps de réponse et le temps d’attente en file d’attente de vos points d’entrée d’action personnalisée. Vous pouvez désormais rapidement comprendre quand, où et pourquoi une situation anormale se produit dans une action personnalisée.</p>
 <p>Cette fonctionnalité est pour le moment en disponibilité limitée pour la clientèle.</p>
 <p>Pour plus d’informations, consultez la <a href="../action/reporting.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 28 octobre 2025</p>
+<p>Date de disponibilité : 28 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Cette fonctionnalité est actuellement en disponibilité limitée pour la clientèle située aux États-Unis et en Australie. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : vendredi 23 octobre 2025</p>
+<p>Date de disponibilité : 23 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -93,7 +93,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Vous pouvez appliquer des heures creuses par le biais de jeux de règles, qui peuvent être affectés à des actions individuelles dans des campagnes ou des parcours pour un contrôle précis.</p>
 <p>Les règles d’heures creuses ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée).  Elles seront progressivement disponibles pour l’ensemble de la clientèle dans les versions ultérieures.</p>
 <p>Pour plus d’informations, consultez la <a href="../conflict-prioritization/quiet-hours.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : jeudi 22 octobre 2025</p>
+<p>Date de disponibilité : 22 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -206,7 +206,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Un nouveau mode de messagerie transactionnelle à débit élevé est disponible dans les campagnes déclenchées par API. Ce mode est conçu pour les messages transactionnels en temps réel à grande échelle et prend en charge jusqu’à 5 000 transactions par seconde avec une disponibilité supérieure. Ce mode prend également en charge les messages transactionnels sans référencer ni créer de profils client, tels que le passage en caisse de la clientèle, la confirmation de commande, les réinitialisations de mot de passe, les notifications de sécurité et autres notifications de service/exploitation.</p>
 <p>Cette fonctionnalité n’est disponible que pour le canal e-mail, pour les organisations qui ont acheté l’offre complémentaire de messagerie transactionnelle à haut débit d’Adobe. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../campaigns/api-triggered-high-throughput.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : jeudi 22 octobre 2025</p>
+<p>Date de disponibilité : 22 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +225,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Les règles de ciblage sont actuellement en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès. Notez que cette fonctionnalité n’est disponible que pour les organisations qui ont acheté le module complémentaire de prise de décision. Elle sera progressivement disponible pour l’ensemble de la clientèle.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/rules.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : jeudi 22 octobre 2025</p>
+<p>Date de disponibilité : 22 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -245,7 +245,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Taux d’erreur d’action personnalisée dépassé</a> : ratio des erreurs d’action personnalisée par rapport aux appels HTTP réussis au cours des 5 dernières minutes et ayant dépassé le seuil.</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">Taux d’erreur de profil dépassé</a> : ratio de profils erronés par rapport aux profils entrés au cours des 5 dernières minutes et ayant dépassé le seuil.</li></ul> <p>Vous pouvez modifier les valeurs de seuil et vous abonner à des alertes individuelles au niveau du parcours et non globalement.</p>
 <p>Pour plus d’informations, consultez la <a href="../reports/alerts.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 14 octobre 2025</p>
+<p>Date de disponibilité : 14 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -264,7 +264,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Pour plus d’informations, consultez la <a href="../personalization/functions/helpers.md#execution-metadata">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mardi 13 octobre 2025</p>
+<p>Date de disponibilité : 13 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>Journey Optimizer Experimentation Accelerator comprend désormais l’agent d’expérimentation, un outil de conversation optimisé par l’IA qui vous permet d’interagir avec vos expériences, informations et opportunités. Il améliore l’expérience Journey Optimizer Experimentation Accelerator, ce qui vous permet d’exécuter plus efficacement des expériences, d’identifier ce qui fonctionne et de déterminer les prochaines optimisations à effectuer.</p>
 <p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
-<p>Date de disponibilité : samedi 10 octobre 2025</p>
+<p>Date de disponibilité : 10 octobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -334,7 +334,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 Outre les e-mails et les SMS, vous pouvez désormais mettre à jour le champ d’exécution par défaut de vos diffusions WhatsApp au niveau du sandbox. Il est également possible de remplacer le champ d’exécution défini globalement en le modifiant dans les paramètres avancés de l’activité de parcours WhatsApp ou dans la configuration du canal WhatsApp. [En savoir plus](../configuration/primary-email-addresses.md)
 
-Date de disponibilité : jeudi 22 octobre 2025
+Date de disponibilité : 22 octobre 2025
 
 **Prise en charge des attributs personnalisés avec l’adresse Mailto (désabonnement)**
 
@@ -346,7 +346,7 @@ Pour personnaliser davantage vos points d’entrée personnalisés, vous pouvez 
 >
 >Cette fonctionnalité est déjà disponible pour l’**[!UICONTROL URL de désabonnement en un clic]** personnalisée depuis août 2025 et est désormais disponible pour l’option **[!UICONTROL Mailto (désabonnement)]** en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
-Date de disponibilité : mardi 6 octobre 2025
+Date de disponibilité : 6 octobre 2025
 
 <!--
 ### Coming soon {#oct-25-10-soon}
@@ -977,7 +977,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin d’effectuer un rendu dynamique du meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
+<p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de renvoyer dynamiquement le meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision.md">documentation détaillée</a>.</p>
 </td>
@@ -1471,7 +1471,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Thèmes dans le concepteur d’e-mail</strong><br/></th>
+<th><strong>Thèmes dans le Concepteur d’e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>

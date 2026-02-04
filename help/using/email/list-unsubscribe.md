@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
 source-wordcount: '1736'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ Dans les deux cas, lorsqu’une personne destinataire clique sur le lien de dé
 >
 >Parfois, la prise en compte des événements de désabonnement au niveau du profil peut prendre plus de temps en raison du traitement des données en aval. Attendez que le système procède à la mise à jour.
 
-## Activer le désabonnement de la liste {#enable-list-unsubscribe}
+## Activer la désinscription de la liste {#enable-list-unsubscribe}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
@@ -127,9 +127,9 @@ Pour personnaliser davantage vos points d’entrée <!-- (**[!UICONTROL Mailto (
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 >
->Pour l’option **[!UICONTROL Mailto (unsubscribe)]**, vous devez utiliser les nouveaux paramètres de requête décrits dans la section **Mailto (unsubscribe) avec des attributs personnalisés (disponibilité limitée)** [ci-dessous](#configure-decrypt-api).
+>Pour l’option **[!UICONTROL Mailto (désabonnement)]**, vous devez utiliser les nouveaux paramètres de requête décrits dans la section **Mailto (désabonnement) avec des attributs personnalisés (disponibilité limitée)** [ci-dessous](#configure-decrypt-api).
 
 Pour définir des attributs personnalisés pour vos points d’entrée, utilisez la section **[!UICONTROL Paramètres de suivi des URL]**. Tous les paramètres de suivi des URL que vous définissez dans la section correspondante seront ajoutés à la fin de vos points d’entrée personnalisés, en plus des paramètres par défaut. [Découvrez comment configurer le tracking personnalisé des URL](url-tracking.md).
 
@@ -247,7 +247,7 @@ Avec l’option **[!UICONTROL Mailto (désabonnement)]**, cliquer sur le lien de
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 L’appel GET se présente comme suit :
 
@@ -265,7 +265,7 @@ Paramètres de requête :
 
    * Valeur analysée : *v1.xyz*
 
-Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

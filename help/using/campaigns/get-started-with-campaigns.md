@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Ce guide fournit une feuille de route claire pour vous permettre de comprendre l
 
 Les **campagnes** sont des actions marketing coordonnées qui diffusent du contenu à une audience spécifique sur un ou plusieurs canaux. Contrairement aux parcours où les actions s’exécutent de manière séquentielle, les campagnes exécutent des actions simultanément, immédiatement ou selon un planning défini.
 
-Utilisez les campagnes [!DNL Journey Optimizer] pour :
+En utilisant les campagnes [!DNL Journey Optimizer], vous pouvez :
 
 * diffuser du **contenu unique ou récurrent** aux segments d’audience ciblés ;
 * exécuter des **communications multicanaux coordonnées** par e-mail, notification push, SMS, in-app, web, etc. ;
@@ -167,11 +167,11 @@ Avant d’utiliser des campagnes, vérifiez que vous disposez des éléments sui
 
 * **Autorisations** : vous avez besoin d’autorisations appropriées en fonction du type de campagne. Contactez votre administrateur ou votre administratrice si vous ne pouvez pas accéder aux fonctionnalités de campagne. [En savoir plus sur les rôles intégrés →](../administration/ootb-product-profiles.md)
 
-  +++Liste des autorisations relatives aux campagnes
+  +++Liste des autorisations de campagne
 
   | Type de campagne | Autorisations |
   |-------------|---------------|
-  | **Campagnes d’action** et **campagnes déclenchées par l’API** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
+  | **Campagnes d’action** et **campagnes déclenchées par API** | Administrateur ou administratrice de campagne<br>Approbateur ou approbatrice de campagne<br>Responsable de campagne<br>Observateur ou observatrice de campagne |
   | **Campagnes orchestrées** | Administrateur ou administratrice de campagne orchestrée<br>Approbateur ou approbatrice de campagne orchestrée<br>Responsable de campagne orchestrée<br>Observateur ou observatrice de campagne orchestrée |
 
   +++
@@ -291,7 +291,7 @@ Maintenant que vous comprenez comment fonctionnent les campagnes dans [!DNL Jour
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et timing**
 
@@ -301,17 +301,17 @@ Planifiez des campagnes à des dates/heures spécifiques, paramétrez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle du débit**
 
-Limitez le débit des messages pour éviter la surcharge sur les systèmes en aval tels que les pages de destination ou les plateformes d’assistance clientèle.
+Limitez le débit des messages pour éviter une surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle.
 
 [Contrôler les limites de débit](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -321,7 +321,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -341,7 +341,7 @@ Respectez les préférences des clientes et des clients en évitant de diffuser 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation** :
 

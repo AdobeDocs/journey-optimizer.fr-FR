@@ -51,7 +51,7 @@ ht-degree: 98%
       + [Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer avec les parcours](using/building-journeys/journey.md)
-   + [Guide de prise en main du parcours](using/building-journeys/journey-get-started.md)
+   + [Guide de prise en main des parcours](using/building-journeys/journey-get-started.md)
    + [Types de parcours et guide de sélection](using/building-journeys/journey-types-selection.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
@@ -298,7 +298,7 @@ ht-degree: 98%
          + [Configurer le canal e-mail](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Commencer la configuration du canal e-mail](using/email/get-started-email-config.md)
          + [Définir les paramètres de configuration du canal e-mail](using/email/email-settings.md)
-         + [Activer le désabonnement de la liste](using/email/list-unsubscribe.md)
+         + [Activer la désinscription de la liste](using/email/list-unsubscribe.md)
          + [Paramètres d’en-tête](using/email/header-parameters.md)
          + [Tracking d’URL](using/email/url-tracking.md)
          + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
@@ -507,7 +507,7 @@ ht-degree: 98%
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
    + Optimisation du contenu {#message-optimization}
-      + [Prise en main de l’optimisation](using/content-management/gs-message-optimization.md)
+      + [Commencer avec l’optimisation](using/content-management/gs-message-optimization.md)
       + [Utiliser le ciblage](using/content-management/optimization-targeting.md)
       + [Utiliser l’expérimentation](using/content-management/optimization-experimentation.md)
       + [Combiner ciblage et expérimentation](using/content-management/optimization-combination.md)
@@ -944,7 +944,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

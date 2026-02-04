@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '3977'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -191,30 +191,30 @@ Cette section présente les mécanismes de sécurisation et les limitations des 
 
 #### Validation de la taille de la payload du parcours {#journey-payload-size}
 
-Lorsque vous enregistrez ou publiez un parcours, Journey Optimizer valide la taille totale de la payload du parcours afin de préserver la stabilité et les performances.
+Lorsque vous enregistrez ou publiez un parcours, Journey Optimizer valide la taille totale de la payload du parcours afin de préserver la stabilité et les performances.
 
 **Configuration par défaut**
 
-* **Taille maximale de requête par défaut** : 2 Mo (2 000 000 octets). Certaines organisations peuvent avoir des limites personnalisées configurées par Adobe.
-* **Seuil d’avertissement** : 90 % de la limite maximale.
-* **Seuil d’erreur** : 100 % de la limite maximale. L’enregistrement ou la publication est bloqué et la requête renvoie **entité de requête HTTP 413 trop grande**.
+* **Taille maximale de requête par défaut** : 2 Mo (2 000 000 octets). Certaines organisations peuvent avoir des limites personnalisées configurées par Adobe.
+* **Seuil d’avertissement** : 90 % de la limite maximale.
+* **Seuil d’erreur** : 100 % de la limite maximale. L’enregistrement ou la publication est bloqué et la requête renvoie l’erreur **HTTP 413 Entité de requête trop volumineuse**.
 
-**Scénarios d’expérience utilisateur**
+**Scénarios d’expérience client**
 
-* **Payload &lt; 90 % de la limite** : le Parcours enregistre et publie avec succès. Aucun avertissement ou erreur ne s’affiche.
-* **Payload 90 à 99 % de la limite** : le Parcours enregistre et publie avec succès, avec un avertissement d’optimisation. Message d’avertissement : **Avertissement** : la taille de la payload du Parcours est proche de la limite. Nœud le plus grand : &#39;[NodeName]&#39; (type : &#39;[NodeType]&#39;, taille : [N] octets).
-* **Payload >= 100 % de la limite** : la sauvegarde ou la publication du Parcours est bloquée avec une erreur. Message d’erreur : **Erreur** : la taille de la payload du Parcours dépasse la limite. Nœud le plus grand : &#39;[NodeName]&#39; (type : &#39;[NodeType]&#39;, taille : [N] octets).
+* **Payload &lt; 90 % de la limite** : le parcours enregistre et publie correctement. Aucun avertissement ou aucune erreur ne s’affiche.
+* **Payload à 90-99 % de la limite** : le parcours enregistre et publie correctement, avec un avertissement d’optimisation. Message d’avertissement : **Avertissement** : la taille de la payload du parcours est proche de la limite. Nœud le plus grand : « [nom du nœud] » (type : « [type de nœud] », taille : [N] octets).
+* **Payload >= 100 % de la limite** : l’enregistrement ou la publication du parcours est bloqué avec une erreur. Message d’erreur : **Erreur** : la taille de la payload du parcours dépasse la limite. Nœud le plus grand : « [nom du nœud] » (type : « [type de nœud] », taille : [N] octets).
 
 **Détails de la réponse d’erreur**
 
-Si la requête dépasse la taille maximale autorisée, la réponse inclut **Entité de requête trop grande**. La payload du parcours dépasse la taille maximale autorisée. Passez en revue les détails de l’erreur et optimisez votre parcours.
+Si la requête dépasse la taille maximale autorisée, la réponse inclut **Entité de requête trop volumineuse**. La payload du parcours dépasse la taille maximale autorisée. Passez en revue les détails de l’erreur et optimisez votre parcours.
 
-**Dépannage et recommandations**
+**Résolution des problèmes et recommandations**
 
 * Examinez le nœud le plus grand mis en surbrillance dans l’avertissement ou l’erreur.
 * Simplifiez les conditions, réduisez les mappages de données et supprimez les étapes ou paramètres inutiles.
 * Envisagez de diviser le parcours en parcours plus petits si nécessaire.
-* Si vous pensez que votre entreprise a besoin d’une limite supérieure, contactez votre représentant ou représentante Adobe.
+* Si vous pensez que votre organisation a besoin d’une limite supérieure, contactez votre représentant ou représentante Adobe.
 
 ### Restrictions du package Select pour les parcours unitaires {#select-package-limitations}
 
@@ -240,7 +240,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -332,8 +332,8 @@ Pour en savoir plus sur les taux de traitement de parcours et les limites de dé
 Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
 
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
-* Les activités **[!UICONTROL Campaign Standard]** ne peuvent pas être utilisées avec d’autres activités de canal : carte, expérience basée sur le code, e-mail, notification push, SMS, messages in-app, web.
-* Les activités **[!UICONTROL Campaign v7/v8]** peuvent être utilisées conjointement avec les activités de canal natives dans le même parcours.
+* Les activités **[!UICONTROL Campaign Standard]** ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur du code, E-mail, Notification push, SMS, Messages in-app, Web.
+* Les activités **[!UICONTROL Campaign v7/v8]** peuvent être utilisées conjointement avec les activités de canal natives dans le même parcours.
 
 #### Activité in-app {#in-app-activity-limitations}
 
@@ -343,7 +343,7 @@ Les mécanismes de sécurisation suivants s’appliquent à l’action **[!UICON
 
 * La personnalisation ne peut contenir que des attributs de profil.
 
-* L’activité in-app ne peut pas être utilisée avec les activités **[!UICONTROL Campaign Standard]**.
+* L’activité in-app ne peut pas être utilisée avec les activités **[!UICONTROL Campaign Standard]**.
 
 * L’affichage in-app est lié à la durée de parcours, ce qui signifie que lorsque le parcours se termine pour un profil, tous les messages in-app de ce parcours ne s’affichent plus pour ce profil.  Par conséquent, il n’est pas possible d’arrêter un message in-app directement à partir d’une activité de parcours. Vous devez plutôt terminer le parcours entier pour que les messages in-app ne s’affichent pas sur le profil.
 
