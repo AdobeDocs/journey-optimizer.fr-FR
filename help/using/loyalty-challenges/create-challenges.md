@@ -225,11 +225,11 @@ Générez le parcours qui orchestrera votre diffusion de défi et les interactio
 
 ![](assets/challenge-create-generate-journey.png)
 
-Journey Optimizer crée automatiquement un parcours [](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
+Journey Optimizer crée automatiquement un parcours [&#128279;](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
 
 ![](assets/challenge-create-journey.png)
 
-Passez en revue la configuration du parcours si nécessaire, puis publiez le parcours pour mettre le défi à la disposition des clients. [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md).
+Passez en revue la configuration du parcours si nécessaire, puis publiez le parcours pour mettre le défi à la disposition des clients. [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md).
 
 Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration.
 
