@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 98%
+source-wordcount: '1736'
+ht-degree: 96%
 
 ---
 
@@ -127,11 +127,15 @@ Pour personnaliser davantage vos points d’entrée <!-- (**[!UICONTROL Mailto (
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 >
 >Pour l’option **[!UICONTROL Mailto (unsubscribe)]**, vous devez utiliser les nouveaux paramètres de requête décrits dans la section **Mailto (unsubscribe) avec des attributs personnalisés (disponibilité limitée)** [ci-dessous](#configure-decrypt-api).
 
 Pour définir des attributs personnalisés pour vos points d’entrée, utilisez la section **[!UICONTROL Paramètres de suivi des URL]**. Tous les paramètres de suivi des URL que vous définissez dans la section correspondante seront ajoutés à la fin de vos points d’entrée personnalisés, en plus des paramètres par défaut. [Découvrez comment configurer le tracking personnalisé des URL](url-tracking.md).
+
+>[!NOTE]
+>
+>L’ordre des paramètres UTM ajoutés à l’URL est aléatoire et ne peut pas être contrôlé. Si votre système nécessite des paramètres dans un ordre spécifique, vous devez les analyser et les réorganiser de votre côté.
 
 ### Configurer l’API de déchiffrement {#configure-decrypt-api}
 
@@ -243,7 +247,7 @@ Avec l’option **[!UICONTROL Mailto (désabonnement)]**, cliquer sur le lien de
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 
 L’appel GET se présente comme suit :
 
@@ -261,7 +265,7 @@ Paramètres de requête :
 
    * Valeur analysée : *v1.xyz*
 
-Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

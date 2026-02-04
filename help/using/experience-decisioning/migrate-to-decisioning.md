@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Decisioning offre des fonctionnalités et des avantages significatifs par rappor
 
 ### Fonctionnalités d’IA et de machine learning
 
-* **Mesures personnalisées** : possibilité d’utiliser des mesures d’optimisation personnalisées pour les modèles d’IA. Cela permet une interopérabilité des rapports avec [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normalise les rapports sur les deux plateformes et améliore la cohérence et la fiabilité des données. L’intégration transparente offre une vue plus claire des mesures de performances et ajoute de nouvelles fonctionnalités telles que la création de mesures simples, la publication d’audiences, la pose de questions ad hoc à l’aide d’Insight Builder et la planification de rapports.
+* **Mesures personnalisées** : possibilité d’utiliser des mesures d’optimisation personnalisées pour les modèles d’IA. Cela permet une interopérabilité des rapports avec [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normalise les rapports sur les deux plateformes et améliore la cohérence et la fiabilité des données. L’intégration transparente offre une vue plus claire des mesures de performances et ajoute de nouvelles fonctionnalités telles que la création de mesures simples, la publication d’audiences, la pose de questions ad hoc à l’aide d’Insight Builder et la planification de rapports.
 
 * **Mesure de l’effet élévateur** : capacité à visualiser le trafic d’exploration et d’exploitation dans les modèles d’IA. Cela permet aux spécialistes du marketing et aux spécialistes des données de quantifier la manière dont l’exploration de l’IA améliore les performances du modèle à long terme et la découvrabilité de nouvelles offres gagnantes. La transparence dans l’affectation du trafic renforce la confiance dans les décisions de l’IA et permet aux équipes d’optimiser l’apprentissage et les performances au fil du temps. [En savoir plus](ranking/auto-optimization-model.md#lift)
 
@@ -95,12 +95,11 @@ Les API d’outils de migration vous permettent d’effectuer les opérations su
 * **Migration à différentes portées** - sandbox, offre ou niveau de décision
 * **Migrations de restauration** si des problèmes sont détectés
 
-Pour consulter la documentation complète sur les API, y compris l’authentification, les points d’entrée, les exemples de requête/réponse et les workflows détaillés, reportez-vous à la section [Documentation de l’API de migration de prise de décision](decisioning-migration-api.md).
+Pour consulter la documentation complète sur les API, y compris l’authentification, les points d’entrée, les exemples de requête/réponse et les workflows détaillés, consultez [cette page](decisioning-migration-api.md).
 
 ## Rubriques connexes {#related-topics}
 
 * [Commencer avec la prise de décisions](gs-experience-decisioning.md)
 * [Mécanismes de sécurisation et limitations des décisions](decisioning-guardrails.md)
 * [FAQ sur Decisioning](decisioning-faq.md)
-* [API de migration Decisioning](decisioning-migration-api.md)
 
