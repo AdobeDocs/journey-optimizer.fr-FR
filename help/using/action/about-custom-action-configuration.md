@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
+source-git-commit: 05f076f19a348032e5bb21d7d1682509bd5d2658
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2022'
 ht-degree: 96%
 
 ---
@@ -408,9 +408,6 @@ A comprehensive example integrating multiple concepts:
 >
 >Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
 -->
-
-* [Dépanner une action personnalisée](../action/troubleshoot-custom-action.md) : découvrez comment dépanner une action personnalisée.
-
 
 ## Ressources supplémentaires
 
