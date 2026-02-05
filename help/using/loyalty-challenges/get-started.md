@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 6c6a1b31c81000877cea2af8bca0377264ec4833
+source-git-commit: 8816b20de66c7374525731d7aaee19106aa47582
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Vous pouvez créer trois types d’expériences de défi :
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
+1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
 
 1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel) et la période.
 
@@ -89,7 +89,7 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
 Les défis de fidélité reposent sur des données ingérées par le biais des connecteurs source Experience Platform pour suivre la progression des clients et l’achèvement des tâches.
 
-Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty).
+Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
@@ -117,18 +117,18 @@ Assurez-vous que l’audience cible dont vous avez besoin existe dans Adobe Expe
 <tr style="border: 0;">
   <td>
     <a href="access-loyalty-challenges.md">
-    <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
+      <img alt="Accès" src="assets/do-not-localize/icon-access.png">
     </a>
     <div>
     <a href="access-loyalty-challenges.md"><strong>Accéder aux défis et aux tâches et les gérer</strong></a>
     </div>
     <p>
-    <em>Découvrez comment accéder à l’inventaire et filtrer les défis</em>
+    <em>Découvrez comment accéder à l’inventaire et gérer les défis et les tâches</em>
     </p>
   </td>
   <td>
     <a href="create-challenges.md">
-      <!--<img alt="Create" src="../assets/do-not-localize/start-button.svg">-->
+      <img alt="Créer" src="assets/do-not-localize/icon-challenge.png">
     </a>
     <div>
     <a href="create-challenges.md"><strong>Créer des défis</strong></a>
@@ -139,13 +139,13 @@ Assurez-vous que l’audience cible dont vous avez besoin existe dans Adobe Expe
   </td>
   <td>
     <a href="create-tasks.md">
-    <!--<img alt="Tasks" src="../assets/do-not-localize/start-button.svg">-->
+      <img alt="Tâches" src="assets/do-not-localize/icon-task.png">
     </a>
     <div>
     <a href="create-tasks.md"><strong>Créer des tâches</strong></a>
     </div>
     <p>
-    <em>Découvrez comment configurer les actions que les clients effectuent pour relever les défis</em>
+    <em>Découvrez comment définir les tâches que les clients effectuent pour relever les défis</em>
     </p>
   </td>
 </tr>
