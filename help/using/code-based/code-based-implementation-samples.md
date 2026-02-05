@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 87%
+source-wordcount: '994'
+ht-degree: 81%
 
 ---
 
@@ -105,7 +105,9 @@ Si vous disposez d’une implémentation côté client, vous pouvez utiliser l�
                interact: 1
              },
              propositionAction: {
-               label: label
+               id: label,
+               label: label,
+               tokens: proposition.items?.[0]?.characteristics?.tokens || []
              },
            },
          },
@@ -113,6 +115,15 @@ Si vous disposez d’une implémentation côté client, vous pouvez utiliser l�
      });
    }
    ```
+
+   >[!IMPORTANT]
+   >
+   >Le champ `tokens` dans `propositionAction` est essentiel pour le suivi et l’attribution précis dans Adobe Journey Optimizer Decisioning (AJO-D). Ces jetons permettent :
+   >- Attribution des clics appropriée pour les activités de prise de décision
+   >- Création de rapports précis sur les interactions utilisateur avec du contenu décisionnel
+   >- Optimisation des performances des offres en fonction de l’interaction client
+   >
+   >Les jetons se trouvent généralement dans `proposition.items[0].characteristics.tokens` et doivent toujours être inclus lors du suivi des interactions des utilisateurs avec le contenu décidé.
 
 ### Principales observations
 
@@ -357,4 +368,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->

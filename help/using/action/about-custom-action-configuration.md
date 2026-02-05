@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 96%
+source-wordcount: '2437'
+ht-degree: 80%
 
 ---
 
@@ -207,16 +207,215 @@ Dans cette configuration de champ, vous devez :
 >Si vous configurez des paramètres facultatifs tout en autorisant des valeurs nulles, les paramètres non renseignés par une personne praticienne de parcours sont envoyés comme valeurs nulles.
 >
 
+## Exemples JSON complets {#json-examples}
 
-* [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) : découvrez comment résoudre les problèmes liés à une action personnalisée.
+Cette section fournit des exemples JSON complets montrant tous les types de paramètres pris en charge et les configurations pour les actions personnalisées.
+
+### Exemple 1 : types de paramètres de base
+
+Cet exemple montre comment utiliser différents types de données dans votre payload d’action personnalisée :
+
+```json
+{
+  "requestData": {
+    "userId": "@{profile.person.name.firstName}",
+    "accountId": "ABC123",
+    "age": "@{profile.person.age}",
+    "isActive": true,
+    "loyaltyScore": "@{profile.customField.score}"
+  }
+}
+```
+
+Dans la configuration de l’action :
+* `userId` - Paramètre variable (chaîne) - Mappe sur le prénom du profil.
+* `accountId` - Paramètre constant (chaîne) - Envoie toujours « ABC123 »
+* `age` - Paramètre variable (entier) - Associe à l’âge du profil
+* `isActive` - Paramètre constant (booléen) - Envoie toujours true
+* `loyaltyScore` - Paramètre de variable (décimal) - Associe au champ de profil personnalisé
+
+### Exemple 2 : utilisation de constantes système et de contexte de parcours
+
+Vous pouvez référencer des informations et des valeurs système spécifiques au parcours :
+
+```json
+{
+  "metadata": {
+    "sandboxName": "prod",
+    "executionTimestamp": "@{journey.startTime}",
+    "journeyId": "@{journey.id}",
+    "journeyName": "@{journey.name}",
+    "journeyVersion": "@{journey.version}",
+    "stepId": "@{journey.stepId}",
+    "profileId": "@{profile.identityMap.ECID[0].id}"
+  }
+}
+```
+
+**Variables contextuelles de parcours disponibles :**
+
+>[!NOTE]
+>
+>La syntaxe des variables contextuelles de parcours est en cours de vérification auprès de l’équipe produit. Les noms de champ réels peuvent être les suivants : journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName en fonction de la documentation Propriétés du Parcours .
+
+* `@{journey.id}` - Identifiant unique du parcours
+* `@{journey.name}` - Nom du parcours
+* `@{journey.version}` - Numéro de version du parcours
+* `@{journey.startTime}` - Date et heure de début du parcours pour ce profil (vérification requise)
+* `@{journey.stepId}` - Identifiant de l’étape actuelle
+* `@{journey.stepName}` - Nom de l’étape en cours
+
+### Exemple 3 : paramètres facultatifs et obligatoires
+
+Configurez les paramètres que les utilisateurs et utilisatrices de parcours peuvent éventuellement remplir :
+
+```json
+{
+  "customer": {
+    "email": "@{profile.personalEmail.address}",
+    "mobilePhone": "@{profile.mobilePhone.number}",
+    "preferredLanguage": "@{profile.preferredLanguage}"
+  }
+}
+```
+
+Dans l’interface utilisateur de configuration d’action :
+* Définissez `email` comme **obligatoire** (ne cochez pas la case « Facultatif »).
+* Définissez `mobilePhone` comme **facultatif** (cochez la case « Est facultatif »).
+* Définissez `preferredLanguage` comme **facultatif** avec la valeur par défaut
+
+>[!TIP]
+>
+>Lorsqu’un paramètre est marqué comme facultatif et n’est pas renseigné par le praticien en parcours, il est soit omis de la payload, soit envoyé comme étant nul (si « Autoriser les valeurs NULL » est activé).
+
+### Exemple 4 : utilisation de tableaux et de collections
+
+Transmettez des collections de données à vos actions personnalisées :
+
+```json
+{
+  "products": [
+    {
+      "id": "@{product1.id}",
+      "name": "@{product1.name}",
+      "price": "@{product1.price}"
+    },
+    {
+      "id": "@{product2.id}",
+      "name": "@{product2.name}",
+      "price": "@{product2.price}"
+    }
+  ],
+  "tags": ["premium", "loyalty", "vip"],
+  "categoryIds": ["CAT001", "CAT002"]
+}
+```
+
+>[!NOTE]
+>
+>En savoir plus sur la transmission de collections dans les actions personnalisées sur [cette page](../building-journeys/collections.md).
+
+### Exemple 5 : objets imbriqués et structures complexes
+
+Créer des structures de données hiérarchiques :
+
+```json
+{
+  "customer": {
+    "personalInfo": {
+      "firstName": "@{profile.person.name.firstName}",
+      "lastName": "@{profile.person.name.lastName}",
+      "email": "@{profile.personalEmail.address}"
+    },
+    "address": {
+      "street": "@{profile.homeAddress.street1}",
+      "city": "@{profile.homeAddress.city}",
+      "postalCode": "@{profile.homeAddress.postalCode}",
+      "country": "@{profile.homeAddress.country}"
+    },
+    "preferences": {
+      "language": "@{profile.preferredLanguage}",
+      "timezone": "@{profile.timeZone}",
+      "emailOptIn": "@{profile.consents.marketing.email.val}"
+    }
+  },
+  "context": {
+    "channel": "email",
+    "campaignId": "CAMPAIGN_2025_Q1",
+    "segment": "@{segmentMembership.status}"
+  }
+}
+```
+
+### Exemple 6 : réalisation d’une action personnalisée en situation réelle
+
+Exemple complet intégrant plusieurs concepts :
+
+```json
+{
+  "event": {
+    "eventType": "journey.action.triggered",
+    "eventId": "@{journey.stepId}",
+    "timestamp": "@{journey.stepTimestamp}",
+    "eventSource": "Adobe Journey Optimizer"
+  },
+  "profile": {
+    "id": "@{profile.identityMap.ECID[0].id}",
+    "email": "@{profile.personalEmail.address}",
+    "firstName": "@{profile.person.name.firstName}",
+    "lastName": "@{profile.person.name.lastName}",
+    "loyaltyTier": "@{profile.loyaltyTier}",
+    "lifetimeValue": "@{profile.lifetimeValue}"
+  },
+  "journey": {
+    "id": "@{journey.id}",
+    "name": "@{journey.name}",
+    "version": "@{journey.version}",
+    "step": "@{journey.stepName}"
+  },
+  "customData": {
+    "offerName": "@{decisioning.offerName}",
+    "offerPlacement": "@{decisioning.placementName}",
+    "specialPromotion": "WINTER2025"
+  },
+  "system": {
+    "sandbox": "prod",
+    "dataStreamId": "YOUR_DATASTREAM_ID",
+    "imsOrgId": "@{imsOrgId}"
+  }
+}
+```
+
+**Conseils de configuration pour cet exemple :**
+* Combinaison de valeurs constantes (`eventSource`, `specialPromotion`, `sandbox`) et de paramètres variables
+* Utilise le contexte du parcours pour le suivi et le débogage
+* Inclut les données de profil à personnaliser dans le système tiers
+* Ajoute un contexte de prise de décision lors de l’utilisation d’offres
+* Métadonnées système pour le routage et le suivi au niveau de l’organisation
+
+### Conseils pour configurer les constantes
+
+**Nom du sandbox :** utilisez un paramètre constant défini sur le nom de votre environnement (par exemple, « prod », « dev », « stage »)
+
+**Date et heure d’exécution :** utilisez `@{journey.startTime}` ou créez un paramètre de variable que les spécialistes du parcours peuvent mapper à `#{nowWithDelta()}` fonction
+
+**Version de l’API :** utilisez une constante pour les numéros de version des API afin d’assurer la cohérence entre les parcours
+
+**Jetons d’authentification :** ne jamais placer de jetons d’authentification dans la payload - utilisez plutôt la section Authentification de la configuration de l’action personnalisée
+
+>[!CAUTION]
+>
+>Les noms de champ de la payload ne peuvent pas contenir de point `.` ni commencer par un caractère `$`. Assurez-vous que votre structure JSON respecte ces conventions de nommage.
+
+* [Dépanner une action personnalisée](../action/troubleshoot-custom-action.md) : découvrez comment dépanner une action personnalisée.
 
 
 ## Ressources supplémentaires
 
 Parcourez les sections suivantes pour en savoir plus sur la configuration des actions personnalisées, l’utilisation de celles-ci et la résolution des problèmes liés à celles-ci :
 
-* [Prise en main des actions personnalisées](../action/action.md) : découvrez en quoi consiste une action personnalisée et comment elle permet de vous connecter à vos systèmes tiers.
+* [Commencer avec les actions personnalisées](../action/action.md) : découvrez en quoi consiste une action personnalisée et comment elle vous permet de vous connecter à vos systèmes tiers.
 * [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) : découvrez comment utiliser des actions personnalisées dans vos parcours.
-* [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) : découvrez comment résoudre les problèmes liés à une action personnalisée.
+* [Dépanner une action personnalisée](../action/troubleshoot-custom-action.md) : découvrez comment dépanner une action personnalisée.
 * [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md) : découvrez comment transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution.
 
