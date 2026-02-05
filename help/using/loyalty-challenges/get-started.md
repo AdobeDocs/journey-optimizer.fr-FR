@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 6c6a1b31c81000877cea2af8bca0377264ec4833
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '669'
+ht-degree: 2%
 
 ---
 
@@ -65,7 +65,7 @@ Vous pouvez créer trois types d’expériences de défi :
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
+1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
 
 1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel) et la période.
 
@@ -77,7 +77,7 @@ La création et le lancement d’un défi de fidélité suivent ce workflow :
 
 1. **Sélectionner une audience cible** - Définissez quels clients peuvent participer à votre défi en sélectionnant une audience depuis Adobe Experience Platform.
 
-1. **parcours de publication** - Journey Optimizer génère automatiquement un parcours pour votre défi. Accédez à l’inventaire des Parcours et publiez le parcours généré automatiquement pour mettre le défi à la disposition des clients.
+1. **Lancer le défi** - Publiez le défi, puis générez un parcours. Journey Optimizer crée automatiquement le parcours pour votre défi. Publiez le parcours généré automatiquement pour mettre le défi à la disposition des clients.
 
 Pour obtenir des instructions détaillées, voir [Créer des défis](create-challenges.md).
 
@@ -89,19 +89,21 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
 Les défis de fidélité reposent sur des données ingérées par le biais des connecteurs source Experience Platform pour suivre la progression des clients et l’achèvement des tâches.
 
-Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty).
+Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
-<!--+++Required permissions
++++Autorisations nécessaires
 
-To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
+Pour utiliser les défis de fidélité, vous avez besoin des autorisations appropriées dans Journey Optimizer. Les autorisations requises sont les suivantes :
 
-TBD
+* À déterminer
+* À déterminer
+* À déterminer
 
-Contact your administrator if you cannot access the feature or need additional permissions.
+Contactez votre administrateur si vous ne pouvez pas accéder à la fonctionnalité ou si vous avez besoin d’autorisations supplémentaires.
 
-+++-->
++++
 
 +++Audience cible
 
