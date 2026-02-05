@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-mini-toc-levels: 2
-source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 * [Créer des tâches](create-tasks.md) - Définir des tâches de défi
 
 >[!ENDSHADEBOX]
+
+Cette page couvre l’ensemble du processus de création d’un défi de fidélité, de la sélection du type de défi et de la configuration de ses propriétés à la génération et la publication du parcours qui proposera le défi à vos clients.
 
 ## Créer le défi {#create-the-challenge}
 
@@ -68,9 +70,9 @@ Dans l’onglet **[!UICONTROL Structure]**, définissez l’organisation de votr
    * **[!UICONTROL Nom]** : saisissez un nom explicite pour votre défi. Ce nom apparaît dans l’inventaire des défis.
    * **[!UICONTROL Description]** : saisissez une description qui explique l’objectif et les objectifs du défi.
 
-   ![](assets/challenge-create-properties.png)
-
 1. Utilisez la section **[!UICONTROL Métadonnées personnalisées]** pour ajouter des métadonnées personnalisées à l’aide de paires clé/valeur. Ces métadonnées peuvent être utilisées pour le suivi ou l’intégration à des systèmes externes.
+
+   ![](assets/challenge-create-properties.png)
 
 ### Planifier le défi {#schedule}
 
@@ -117,13 +119,13 @@ Pour ajouter des tâches à votre défi, procédez comme suit :
 
    +++Défis en série
 
-   * **[!UICONTROL Type de flux]** :
+   Dans le menu déroulant **[!UICONTROL Type de diffusion]** choisissez entre :
 
-      * **Consécutive** : les clientes et clients doivent terminer la tâche pendant plusieurs jours consécutifs, sans interruption. *Exemple : un achat effectué lundi, mardi ou mercredi, un jour manquant rompt la série.*
+   * **Consécutive** : les clientes et clients doivent terminer la tâche pendant plusieurs jours consécutifs, sans interruption. *Exemple : un achat effectué lundi, mardi ou mercredi, un jour manquant rompt la série.*
 
-      * **Non consécutif** : les clients peuvent terminer la tâche avec des écarts entre les terminaisons. *Exemple : effectuez 7 achats sur 30 jours, avec des pauses autorisées.*
+   * **Non consécutif** : les clients peuvent terminer la tâche avec des écarts entre les terminaisons. *Exemple : effectuez 7 achats sur 30 jours, avec des pauses autorisées.*
 
-   * **[!UICONTROL Longueur de la séquence]** : indiquez le nombre de fois où la tâche doit être terminée. *Exemple : définissez sur 7 pour une « série d’achats de 7 jours »*
+   Dans le champ **[!UICONTROL Longueur de la séquence]**, indiquez le nombre de fois où la tâche doit être terminée. *Exemple : définissez sur 7 pour une « série d’achats de 7 jours »*
 
    +++
 
@@ -157,6 +159,8 @@ Pour configurer quand et comment les récompenses sont diffusées :
      *Exemple : Attribuer 10 points après la tâche 1, 20 points après la tâche 2 et 50 points après la tâche 3*
 
 1. Sélectionnez votre fournisseur de récompense. Il s’agit de votre solution de fidélité qui gère les points et les récompenses des clients.
+
+   ![](assets/challenge-create-reward-type.png)
 
 1. Configurez les montants de récompense en fonction de la méthode de diffusion sélectionnée :
 
@@ -210,7 +214,7 @@ Configurez des messages multicanaux pour impliquer les clients aux étapes clés
    * Message **En cours** : pour que les clients restent engagés dans les rappels et les mises à jour de progression
    * Message **Achèvement** : célébrer le succès et confirmer l’attribution de la récompense
 
-1. Pour chaque étape, ajoutez un bouton de message afin de créer un message pour cette étape.
+1. Pour chaque étape, cliquez sur le bouton Ajouter un message pour créer un message pour cette étape.
 
 1. Choisissez le canal de votre choix : **[!UICONTROL In-app]**, **[!UICONTROL Email]** ou **[!UICONTROL Notification push]** et sélectionnez la configuration de canal associée.
 
@@ -244,13 +248,11 @@ Après avoir configuré tous les composants de défi, générez le parcours qui 
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom *»Parcours : [Nom du défi] »*. [En savoir plus sur l’inventaire des parcours &#x200B;](../building-journeys/journey-ui.md).
-
-   Accédez à l’inventaire **[!UICONTROL Parcours]** pour consulter la configuration de parcours générée automatiquement si nécessaire.
+1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom *»Parcours : [Nom du défi] »*. [En savoir plus sur l’inventaire des parcours ](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Une fois prêt, publiez le parcours pour mettre le défi à la disposition des clients. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md).
+1. Une fois prêt, publiez le parcours pour mettre le défi à la disposition des clients. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md).
 
 >[!NOTE]
 >

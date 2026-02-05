@@ -10,8 +10,8 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-mini-toc-levels: 2
-source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 3%
@@ -65,7 +65,7 @@ Vous pouvez créer trois types d’expériences de défi :
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
+1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
 
 1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel) et la période.
 
@@ -89,7 +89,7 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
 Les défis de fidélité reposent sur des données ingérées par le biais des connecteurs source Experience Platform pour suivre la progression des clients et l’achèvement des tâches.
 
-Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty).
+Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
