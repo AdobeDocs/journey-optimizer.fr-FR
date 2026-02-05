@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Accès et gestion des défis de fidélité
+title: Accéder aux défis et aux tâches et les gérer
 description: Découvrez comment accéder aux défis et aux tâches de fidélité, les gérer et les organiser dans Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -10,38 +10,41 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+mini-toc-levels: 2
+source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '484'
 ht-degree: 3%
 
 ---
 
 
-# Accès et gestion des défis de fidélité {#access-loyalty-challenges}
+# Accéder aux défis et aux tâches et les gérer {#access-loyalty-challenges}
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
 **Documentation sur les défis de fidélité :**
 
 * [Prise en main des défis de fidélité](get-started.md) - Présentation, workflow, conditions préalables
-* **Accéder aux défis de fidélité** ◀︎ **Vous êtes ici** - Inventaire, défis et gestion des tâches
+* **Accéder et gérer les défis et les tâches** ◀︎ **Vous êtes ici** - Inventaire, gestion des défis et des tâches
 * [Créer des défis](create-challenges.md) - Créez et configurez des défis
 * [Créer des tâches](create-tasks.md) - Définir des tâches de défi
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
+## Accéder aux défis et aux tâches et les gérer
 
-## Accéder aux défis fidèles
+Pour accéder aux Défis de fidélité, accédez à Journey Optimizer et sélectionnez **[!UICONTROL Défi de fidélité (Beta)]** sous la section **[!UICONTROL Gestion des Parcours]**. L’interface des Défis de fidélité fournit un emplacement centralisé pour afficher, gérer et organiser tous vos défis et tâches.
 
-Pour accéder aux Défis de fidélité, accédez à Journey Optimizer et sélectionnez **[!UICONTROL Défi de fidélité (Beta)]** sous la section **[!UICONTROL Gestion des Parcours]**.
+L’interface donne accès à deux inventaires principaux :
 
-L’interface des Défis de fidélité fournit un emplacement centralisé pour afficher, gérer et organiser tous vos défis et tâches. Vous pouvez accéder à deux inventaires principaux :
+* **Défis** : affichez et gérez tous les défis de fidélité, surveillez leur statut et effectuez des actions rapides telles que l’affichage, la modification, la duplication ou la suppression de défis
+* **Tâches** : parcourez les tâches réutilisables pouvant être utilisées pour plusieurs défis et gérez les définitions de tâche indépendamment
 
-* **Inventaire des défis** : affichez et gérez tous les défis de fidélité, surveillez leur statut et effectuez des actions rapides
-* **Inventaire des tâches** : parcourez les tâches réutilisables pouvant être utilisées pour plusieurs défis
 
 ## Inventaire des défis {#challenges-tab}
 
@@ -51,7 +54,6 @@ L’onglet **[!UICONTROL Défis]** affiche tous les défis triés par date de de
 
 Informations clés affichées :
 
-* **[!UICONTROL Défi]** : nom du défi
 * **[!UICONTROL État]** : État actuel du défi (version préliminaire ou publiée)
 * **[!UICONTROL Tâches]** : nombre de tâches configurées dans le défi
 * **[!UICONTROL Parcours]** : lien vers le parcours généré automatiquement associé au défi
@@ -65,12 +67,7 @@ Dans l’onglet Défis , vous pouvez effectuer des actions sur les défis :
 * **Supprimer un défi** : sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**
 * **Modifier un défi** : sélectionnez le nom du défi pour ouvrir sa page de détails et le modifier.
 
-  Lorsque vous ouvrez un défi publié pour le modifier, vous devez d’abord le rétablir au statut Brouillon :
-
-   * Toutes les personnalisations apportées directement au parcours généré automatiquement seront perdues
-   * Le défi revient au statut Brouillon .
-   * Après avoir apporté vos modifications, vous devez enregistrer et publier à nouveau le défi
-   * Vous devez republier le parcours associé pour mettre à la disposition des clients le défi mis à jour
+  Lorsque vous ouvrez un défi publié pour le modifier, vous devez d’abord le rétablir à l’état « Brouillon ». Toutes les personnalisations apportées directement au parcours généré automatiquement seront perdues. Après avoir apporté vos modifications, enregistrez et publiez à nouveau le défi, puis republiez le parcours associé.
 
   >[!IMPORTANT]
   >
@@ -84,7 +81,6 @@ L’onglet **[!UICONTROL Tâches]** affiche toutes les tâches réutilisables qu
 
 Informations clés affichées :
 
-* **[!UICONTROL Nom de la tâche]** : nom que vous avez attribué à la tâche
 * **[!UICONTROL Description]** : brève description de ce que la tâche requiert
 * **[!UICONTROL Activité de tâche]** : Type d&#39;activité (Achat, Dépenses)
 * **[!UICONTROL SKU]** : éléments éligibles et/ou exclus
@@ -92,6 +88,6 @@ Informations clés affichées :
 
 Dans l’onglet Tâches , vous pouvez effectuer des actions sur les tâches :
 
-* **Afficher/Modifier la tâche** : sélectionnez le nom de la tâche pour afficher la configuration complète et modifier la tâche
+* **Afficher/Modifier une tâche** : sélectionnez le nom de la tâche pour afficher la configuration complète et modifier la tâche
 * **Dupliquer une tâche** : sélectionnez l&#39;icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Dupliquer]**
 * **Supprimer une tâche** : sélectionnez l&#39;icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**

@@ -10,9 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
+mini-toc-levels: 2
+source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1470'
 ht-degree: 1%
 
 ---
@@ -20,20 +21,20 @@ ht-degree: 1%
 
 # Créer des défis {#create-challenges}
 
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
+
 >[!BEGINSHADEBOX]
 
 **Documentation sur les défis de fidélité :**
 
 * [Prise en main des défis de fidélité](get-started.md) - Présentation, workflow, conditions préalables
-* [Accéder aux défis de fidélité et les gérer](access-loyalty-challenges.md) - Inventaire, défis et gestion des tâches
+* [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md) - Inventaire, gestion des défis et des tâches
 * **Créer des défis** ◀︎ **Vous êtes ici** - Créez et configurez des défis
 * [Créer des tâches](create-tasks.md) - Définir des tâches de défi
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
 ## Créer le défi {#create-the-challenge}
 
@@ -54,6 +55,8 @@ ht-degree: 1%
    * **[!UICONTROL Séquentiel]** : les clients exécutent des tâches dans un ordre défini\
      *Exemple : achat → révision → partage (doit être effectué dans cet ordre)*
 
+   Après avoir sélectionné un type de défi, l’interface de création de défi s’ouvre avec plusieurs onglets de configuration. Commencez par configurer la structure du défi.
+
 ## Configurer la structure de défi {#structure}
 
 Dans l’onglet **[!UICONTROL Structure]**, définissez l’organisation de votre défi : ses propriétés, son planning, les tâches à effectuer et les récompenses à diffuser.
@@ -71,17 +74,21 @@ Dans l’onglet **[!UICONTROL Structure]**, définissez l’organisation de votr
 
 ### Planifier le défi {#schedule}
 
-Configurez le moment où votre défi s’exécute en sélectionnant l’icône **[!UICONTROL Ouvrir le planning]** :
+Configurez le moment où votre défi s’exécute :
 
-![](assets/challenge-create-schedule.png)
+1. Sélectionnez l’icône **[!UICONTROL Ouvrir le planning]** :
 
-* **[!UICONTROL Date et heure de début]** : à définir lorsque le défi est disponible pour les clients.
-* **[!UICONTROL Date et heure de fin]** : défini lorsque le défi expire et n’accepte plus de nouvelles tâches terminées.
-* **[!UICONTROL Fuseau horaire]** : le défi utilise par défaut le fuseau horaire local du destinataire.
-* **[!UICONTROL Les tâches doivent être terminées]** : choisissez le moment où les clients peuvent terminer les tâches :
+   ![](assets/challenge-create-schedule.png)
 
-   * **[!UICONTROL À tout moment pendant le défi]** : les clients peuvent effectuer des tâches à tout moment entre les dates de début et de fin du défi.
-   * **[!UICONTROL À des heures spécifiques de la journée]** : limitez la fin de la tâche à des heures quotidiennes spécifiques en définissant les paramètres **[!UICONTROL Heure de début]** et **[!UICONTROL Heure de fin]**.
+1. Configurez les options de planification suivantes :
+
+   * **[!UICONTROL Date et heure de début]** : à définir lorsque le défi est disponible pour les clients.
+   * **[!UICONTROL Date et heure de fin]** : défini lorsque le défi expire et n’accepte plus de nouvelles tâches terminées.
+   * **[!UICONTROL Fuseau horaire]** : le défi utilise par défaut le fuseau horaire local du destinataire.
+   * **[!UICONTROL Les tâches doivent être terminées]** : choisissez le moment où les clients peuvent terminer les tâches :
+
+      * **[!UICONTROL À tout moment pendant le défi]** : les clients peuvent effectuer des tâches à tout moment entre les dates de début et de fin du défi.
+      * **[!UICONTROL À des heures spécifiques de la journée]** : limitez la fin de la tâche à des heures quotidiennes spécifiques en définissant les paramètres **[!UICONTROL Heure de début]** et **[!UICONTROL Heure de fin]**.
 
 Le planning du défi est maintenant configuré. Ajoutez ensuite les tâches que les clients doivent effectuer.
 
@@ -101,10 +108,10 @@ Pour ajouter des tâches à votre défi, procédez comme suit :
 
    +++Défis standard
 
-   **[!UICONTROL Exigence d’achèvement de la tâche]** - Choisissez entre :
+   Dans le menu déroulant **[!UICONTROL Exigence d’achèvement de la tâche]**, choisissez entre :
 
-   * **[!UICONTROL Le client choisit 1 tâche à effectuer]** : les clients peuvent sélectionner et exécuter n’importe quelle tâche pour gagner des récompenses
-   * **[!UICONTROL Le client effectue un nombre spécifique de tâches]** : les clients doivent effectuer un nombre défini de tâches. Spécifiez le nombre requis - *Exemple : effectuez 3 tâches sur 5*
+   * **[!UICONTROL Le client choisit 1 tâche à effectuer]** - *Les clients peuvent sélectionner et exécuter n’importe quelle tâche pour gagner des récompenses*
+   * **[!UICONTROL Le client effectue un nombre spécifique de tâches]** - *Les clients doivent effectuer un nombre défini de tâches. Spécifiez le nombre requis de tâches à effectuer.*
 
    +++
 
@@ -112,26 +119,24 @@ Pour ajouter des tâches à votre défi, procédez comme suit :
 
    * **[!UICONTROL Type de flux]** :
 
-      * **Consécutive** : les clientes et clients doivent terminer la tâche tous les jours consécutifs, sans interruption. *Exemple : achat le lundi, le mardi ou le mercredi. Si un jour manque, la série est interrompue*
+      * **Consécutive** : les clientes et clients doivent terminer la tâche pendant plusieurs jours consécutifs, sans interruption. *Exemple : un achat effectué lundi, mardi ou mercredi, un jour manquant rompt la série.*
 
-      * **Non consécutifs** : les clients peuvent terminer la tâche avec des intervalles entre les finalisations - *Exemple : effectuez 7 achats sur 30 jours, avec des pauses autorisées*
+      * **Non consécutif** : les clients peuvent terminer la tâche avec des écarts entre les terminaisons. *Exemple : effectuez 7 achats sur 30 jours, avec des pauses autorisées.*
 
-   * **[!UICONTROL Longueur de la séquence]** : spécifiez le nombre de fois où la tâche doit être terminée - *Exemple : définissez sur 7 pour une « séquence d’achat de 7 jours »*
+   * **[!UICONTROL Longueur de la séquence]** : indiquez le nombre de fois où la tâche doit être terminée. *Exemple : définissez sur 7 pour une « série d’achats de 7 jours »*
 
    +++
 
    +++Défis séquentiels
 
-   **[!UICONTROL Exigence d’achèvement de la tâche]** - Choisissez entre :
+   Dans le menu déroulant **[!UICONTROL Exigence d’achèvement de la tâche]**, choisissez entre :
 
-   * **[!UICONTROL Le client choisit 1 tâche à effectuer]** : les clients peuvent sélectionner et exécuter n’importe quelle tâche pour gagner des récompenses
-   * **[!UICONTROL Le client effectue un nombre spécifique de tâches]** : les clients doivent effectuer un nombre défini de tâches dans l’ordre exact que vous définissez. Une tâche manquante ou ignorée rompt la séquence. Spécifiez le nombre requis (par exemple, effectuez 3 des 5 tâches)
-
-   *Exemple : Tâche 1 (Achat) → Tâche 2 (Révision) → Tâche 3 (Partage) - doit être terminé dans cet ordre*
+   * **[!UICONTROL Le client choisit 1 tâche à effectuer]** - *Les clients peuvent sélectionner et exécuter n’importe quelle tâche pour gagner des récompenses*
+   * **[!UICONTROL Le client effectue un nombre spécifique de tâches]** - *Les clients doivent effectuer un nombre défini de tâches dans l’ordre exact que vous définissez. Une tâche manquante ou ignorée rompt la séquence. Spécifiez le nombre requis de tâches à effectuer*
 
    +++
 
-1. Par défaut, les défis standard et séquentiels permettent aux clients d’effectuer des tâches sur plusieurs transactions. Pour exiger que toutes les tâches soient effectuées dans une seule transaction, sélectionnez l’icône ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Paramètres]** et activez l’option ci-dessous.
+1. Par défaut, les défis standard et séquentiels permettent aux clients d’effectuer des tâches sur plusieurs transactions. Pour exiger que toutes les tâches soient effectuées dans une seule transaction, sélectionnez l’icône **[!UICONTROL Paramètres]** et activez l’option ci-dessous.
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -139,9 +144,11 @@ Après avoir ajouté des tâches à votre défi, configurez les récompenses que
 
 ### Configurer les récompenses {#rewards}
 
-Les récompenses sont les points de fidélité ou les avantages que les clients reçoivent pour relever les défis. Configurez quand et comment les récompenses sont diffusées.
+Les récompenses sont les points de fidélité ou les avantages que les clients reçoivent pour relever les défis.
 
-1. Dans le menu déroulant **[!UICONTROL Diffusion de récompenses]**, choisissez quand diffuser les récompenses :
+Pour configurer quand et comment les récompenses sont diffusées :
+
+1. Dans le menu déroulant **[!UICONTROL Diffusion de récompenses]** choisissez à quel moment diffuser les récompenses :
 
    * **[!UICONTROL Remettre des récompenses lorsque le défi est terminé]** : récompensez les clients lorsqu’ils relèvent l’ensemble du défi\
      *Exemple : Attribuez 100 points après avoir effectué les 5 tâches*
@@ -157,9 +164,9 @@ Les récompenses sont les points de fidélité ou les avantages que les clients 
 
    Spécifiez le montant total de récompense à accorder lorsque les clients relèvent l’ensemble du défi.
 
-   ![](assets/challenge-create-reward-total.png)
+   *Dans l’exemple ci-dessous, les clients obtiennent 100 points pour relever le défi.*
 
-   **Exemple** : les clients obtiennent 100 points pour relever le défi.
+   ![](assets/challenge-create-reward-total.png)
 
    +++
 
@@ -169,13 +176,9 @@ Les récompenses sont les points de fidélité ou les avantages que les clients 
 
    Pour toute tâche pour laquelle vous souhaitez offrir une récompense, activez l’option Récompense et indiquez le nombre de points à accorder lorsque les clients effectuent cette tâche spécifique. Vous pouvez choisir de ne récompenser que certaines tâches terminées ; par exemple, si vous avez 10 tâches, vous pouvez récompenser uniquement les tâches 1, 5 et 10.
 
+   *Dans l’exemple ci-dessous, les clients obtiennent 10 points lorsqu’ils effectuent la première tâche, puis 50 points supplémentaires lorsqu’ils effectuent la seconde tâche.*
+
    ![](assets/challenge-create-reward-milestones.png)
-
-   **Exemple** : les clients obtiennent 10 points lorsqu’ils terminent la première tâche, puis 50 points supplémentaires après avoir terminé la deuxième tâche, pour un total de 60 points lorsque le défi est terminé.
-
-   >[!TIP]
-   >
-   >Envisagez d’augmenter les valeurs de récompense pour les tâches ultérieures afin de maintenir l’engagement client tout au long du défi.
 
    +++
 
@@ -207,7 +210,7 @@ Configurez des messages multicanaux pour impliquer les clients aux étapes clés
    * Message **En cours** : pour que les clients restent engagés dans les rappels et les mises à jour de progression
    * Message **Achèvement** : célébrer le succès et confirmer l’attribution de la récompense
 
-1. Pour chaque étape, sélectionnez **[!UICONTROL Ajouter [étape] message]** (où [étape] représente le lancement, la progression ou la fin) pour créer un message pour cette étape.
+1. Pour chaque étape, ajoutez un bouton de message afin de créer un message pour cette étape.
 
 1. Choisissez le canal de votre choix : **[!UICONTROL In-app]**, **[!UICONTROL Email]** ou **[!UICONTROL Notification push]** et sélectionnez la configuration de canal associée.
 
@@ -215,11 +218,7 @@ Configurez des messages multicanaux pour impliquer les clients aux étapes clés
 
    ![](assets/challenge-create-messaging.png)
 
-Découvrez comment créer des messages pour des canaux spécifiques :
-
-* [Messages in-app](../in-app/get-started-in-app.md)
-* [Canal Email](../email/get-started-email.md)
-* [Notifications push](../push/get-started-push.md)
+Découvrez comment créer des messages pour des canaux spécifiques dans les sections suivantes : [Messages in-app](../in-app/get-started-in-app.md) - [E-mails](../email/get-started-email.md) - [Notifications push](../push/get-started-push.md)
 
 Une fois la configuration de la messagerie terminée, définissez les clients éligibles pour participer au défi.
 
@@ -227,29 +226,31 @@ Une fois la configuration de la messagerie terminée, définissez les clients é
 
 Définir quels clients peuvent participer à votre défi de fidélité.
 
-1. Accédez à l’onglet **[!UICONTROL Audience]** et sélectionnez le bouton **[!UICONTROL Sélectionner une audience]**.
+1. Accédez à l’onglet **[!UICONTROL Audience]** et cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
 
    ![](assets/challenge-create-audience.png)
 
-1. Sélectionnez votre audience cible dans la liste des audiences Adobe Experience Platform disponibles. [Découvrez comment utiliser les audiences](../audience/about-audiences.md).
-
-1. Sélectionnez **[!UICONTROL Ajouter une audience]**.
+1. Dans la boîte de dialogue de sélection d’audience, sélectionnez votre audience cible dans la liste des audiences Adobe Experience Platform disponibles, puis sélectionnez **[!UICONTROL Ajouter une audience]**. [Découvrez comment utiliser les audiences](../audience/about-audiences.md).
 
 Votre défi est maintenant entièrement configuré avec sa structure, son contenu, sa messagerie et son audience cible. La dernière étape consiste à générer et publier le parcours.
 
 ## Générer et publier le parcours {#review-and-publish}
 
-Générez le parcours qui orchestrera votre diffusion de défi et les interactions des clients. Pour ce faire, sélectionnez **[!UICONTROL Générer le Parcours]**.
+Après avoir configuré tous les composants de défi, générez le parcours qui orchestrera votre diffusion de défi :
 
-![](assets/challenge-create-generate-journey.png)
+1. Vérifiez votre configuration de défi pour vous assurer que tous les champs obligatoires sont renseignés.
 
-Journey Optimizer crée automatiquement un parcours [&#128279;](../building-journeys/journey-gs.md) au statut Brouillon . Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom « Défi : [Nom du défi] ».
+1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer la configuration du défi, puis sélectionnez **[!UICONTROL Générer le Parcours]**.
 
-![](assets/challenge-create-journey.png)
+   ![](assets/challenge-create-generate-journey.png)
 
-Passez en revue la configuration du parcours si nécessaire, puis publiez le parcours pour mettre le défi à la disposition des clients. [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md).
+1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom *»Parcours : [Nom du défi] »*. [En savoir plus sur l’inventaire des parcours ](../building-journeys/journey-ui.md).
 
-Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration.
+   Accédez à l’inventaire **[!UICONTROL Parcours]** pour consulter la configuration de parcours générée automatiquement si nécessaire.
+
+   ![](assets/challenge-create-journey.png)
+
+1. Une fois prêt, publiez le parcours pour mettre le défi à la disposition des clients. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md).
 
 >[!NOTE]
 >
