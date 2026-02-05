@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 80%
+source-wordcount: '2032'
+ht-degree: 96%
 
 ---
 
@@ -207,13 +207,14 @@ Dans cette configuration de champ, vous devez :
 >Si vous configurez des paramètres facultatifs tout en autorisant des valeurs nulles, les paramètres non renseignés par une personne praticienne de parcours sont envoyés comme valeurs nulles.
 >
 
-## Exemples JSON complets {#json-examples}
+<!--
+## Comprehensive JSON examples {#json-examples}
 
-Cette section fournit des exemples JSON complets montrant tous les types de paramètres pris en charge et les configurations pour les actions personnalisées.
+This section provides complete JSON examples demonstrating all supported parameter types and configurations for custom actions.
 
-### Exemple 1 : types de paramètres de base
+### Example 1: Basic parameter types
 
-Cet exemple montre comment utiliser différents types de données dans votre payload d’action personnalisée :
+This example shows how to use different data types in your custom action payload:
 
 ```json
 {
@@ -227,16 +228,16 @@ Cet exemple montre comment utiliser différents types de données dans votre pay
 }
 ```
 
-Dans la configuration de l’action :
-* `userId` - Paramètre variable (chaîne) - Mappe sur le prénom du profil.
-* `accountId` - Paramètre constant (chaîne) - Envoie toujours « ABC123 »
-* `age` - Paramètre variable (entier) - Associe à l’âge du profil
-* `isActive` - Paramètre constant (booléen) - Envoie toujours true
-* `loyaltyScore` - Paramètre de variable (décimal) - Associe au champ de profil personnalisé
+In the action configuration:
+* `userId` - Variable parameter (String) - Maps to profile firstName
+* `accountId` - Constant parameter (String) - Always sends "ABC123"
+* `age` - Variable parameter (Integer) - Maps to profile age
+* `isActive` - Constant parameter (Boolean) - Always sends true
+* `loyaltyScore` - Variable parameter (Decimal) - Maps to custom profile field
 
-### Exemple 2 : utilisation de constantes système et de contexte de parcours
+### Example 2: Using system constants and journey context
 
-Vous pouvez référencer des informations et des valeurs système spécifiques au parcours :
+You can reference journey-specific information and system values:
 
 ```json
 {
@@ -252,22 +253,22 @@ Vous pouvez référencer des informations et des valeurs système spécifiques a
 }
 ```
 
-**Variables contextuelles de parcours disponibles :**
+**Available journey context variables:**
 
 >[!NOTE]
 >
->La syntaxe des variables contextuelles de parcours est en cours de vérification auprès de l’équipe produit. Les noms de champ réels peuvent être les suivants : journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName en fonction de la documentation Propriétés du Parcours .
+>Journey context variables syntax is being verified with Product team. The actual field names may be: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName based on Journey Properties documentation.
 
-* `@{journey.id}` - Identifiant unique du parcours
-* `@{journey.name}` - Nom du parcours
-* `@{journey.version}` - Numéro de version du parcours
-* `@{journey.startTime}` - Date et heure de début du parcours pour ce profil (vérification requise)
-* `@{journey.stepId}` - Identifiant de l’étape actuelle
-* `@{journey.stepName}` - Nom de l’étape en cours
+* `@{journey.id}` - Unique identifier of the journey
+* `@{journey.name}` - Name of the journey
+* `@{journey.version}` - Version number of the journey
+* `@{journey.startTime}` - Timestamp when the journey started for this profile (verification needed)
+* `@{journey.stepId}` - Current step identifier
+* `@{journey.stepName}` - Name of the current step
 
-### Exemple 3 : paramètres facultatifs et obligatoires
+### Example 3: Optional and required parameters
 
-Configurez les paramètres que les utilisateurs et utilisatrices de parcours peuvent éventuellement remplir :
+Configure parameters that journey practitioners can optionally fill:
 
 ```json
 {
@@ -279,18 +280,18 @@ Configurez les paramètres que les utilisateurs et utilisatrices de parcours peu
 }
 ```
 
-Dans l’interface utilisateur de configuration d’action :
-* Définissez `email` comme **obligatoire** (ne cochez pas la case « Facultatif »).
-* Définissez `mobilePhone` comme **facultatif** (cochez la case « Est facultatif »).
-* Définissez `preferredLanguage` comme **facultatif** avec la valeur par défaut
+In the action configuration UI:
+* Set `email` as **required** (do not check "Is optional")
+* Set `mobilePhone` as **optional** (check "Is optional")
+* Set `preferredLanguage` as **optional** with default value
 
 >[!TIP]
 >
->Lorsqu’un paramètre est marqué comme facultatif et n’est pas renseigné par le praticien en parcours, il est soit omis de la payload, soit envoyé comme étant nul (si « Autoriser les valeurs NULL » est activé).
+>When a parameter is marked as optional and not filled by the journey practitioner, it will either be omitted from the payload or sent as null (if "Allow NULL values" is enabled).
 
-### Exemple 4 : utilisation de tableaux et de collections
+### Example 4: Working with arrays and collections
 
-Transmettez des collections de données à vos actions personnalisées :
+Pass collections of data to your custom actions:
 
 ```json
 {
@@ -313,11 +314,11 @@ Transmettez des collections de données à vos actions personnalisées :
 
 >[!NOTE]
 >
->En savoir plus sur la transmission de collections dans les actions personnalisées sur [cette page](../building-journeys/collections.md).
+>Learn more about passing collections in custom actions on [this page](../building-journeys/collections.md).
 
-### Exemple 5 : objets imbriqués et structures complexes
+### Example 5: Nested objects and complex structures
 
-Créer des structures de données hiérarchiques :
+Build hierarchical data structures:
 
 ```json
 {
@@ -347,9 +348,9 @@ Créer des structures de données hiérarchiques :
 }
 ```
 
-### Exemple 6 : réalisation d’une action personnalisée en situation réelle
+### Example 6: Complete real-world custom action
 
-Exemple complet intégrant plusieurs concepts :
+A comprehensive example integrating multiple concepts:
 
 ```json
 {
@@ -386,26 +387,27 @@ Exemple complet intégrant plusieurs concepts :
 }
 ```
 
-**Conseils de configuration pour cet exemple :**
-* Combinaison de valeurs constantes (`eventSource`, `specialPromotion`, `sandbox`) et de paramètres variables
-* Utilise le contexte du parcours pour le suivi et le débogage
-* Inclut les données de profil à personnaliser dans le système tiers
-* Ajoute un contexte de prise de décision lors de l’utilisation d’offres
-* Métadonnées système pour le routage et le suivi au niveau de l’organisation
+**Configuration tips for this example:**
+* Mix of constant values (`eventSource`, `specialPromotion`, `sandbox`) and variable parameters
+* Uses journey context for tracking and debugging
+* Includes profile data for personalization in the third-party system
+* Adds decisioning context when using offers
+* System metadata for routing and organization-level tracking
 
-### Conseils pour configurer les constantes
+### Tips for configuring constants
 
-**Nom du sandbox :** utilisez un paramètre constant défini sur le nom de votre environnement (par exemple, « prod », « dev », « stage »)
+**Sandbox name:** Use a constant parameter set to your environment name (e.g., "prod", "dev", "stage")
 
-**Date et heure d’exécution :** utilisez `@{journey.startTime}` ou créez un paramètre de variable que les spécialistes du parcours peuvent mapper à `#{nowWithDelta()}` fonction
+**Execution timestamp:** Use `@{journey.startTime}` or create a variable parameter that journey practitioners can map to `#{nowWithDelta()}` function
 
-**Version de l’API :** utilisez une constante pour les numéros de version des API afin d’assurer la cohérence entre les parcours
+**API version:** Use a constant for API version numbers to ensure consistency across journeys
 
-**Jetons d’authentification :** ne jamais placer de jetons d’authentification dans la payload - utilisez plutôt la section Authentification de la configuration de l’action personnalisée
+**Authentication tokens:** Never put authentication tokens in the payload - use the Authentication section of the custom action configuration instead
 
 >[!CAUTION]
 >
->Les noms de champ de la payload ne peuvent pas contenir de point `.` ni commencer par un caractère `$`. Assurez-vous que votre structure JSON respecte ces conventions de nommage.
+>Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
+-->
 
 * [Dépanner une action personnalisée](../action/troubleshoot-custom-action.md) : découvrez comment dépanner une action personnalisée.
 
