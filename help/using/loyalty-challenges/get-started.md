@@ -10,55 +10,62 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
+mini-toc-levels: 2
+source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 4%
+source-wordcount: '665'
+ht-degree: 3%
 
 ---
 
 
 # Prise en main des défis de fidélité {#get-started-loyalty-challenges}
 
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
+
 >[!BEGINSHADEBOX]
 
 **Documentation sur les défis de fidélité :**
 
 * **Prise en main des défis de fidélité** ◀︎ **Vous êtes ici** - Présentation, workflow, conditions préalables
-* [Accéder aux défis de fidélité et les gérer](access-loyalty-challenges.md) - Inventaire, défis et gestion des tâches
+* [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md) - Inventaire, gestion des défis et des tâches
 * [Créer des défis](create-challenges.md) - Créez et configurez des défis
 * [Créer des tâches](create-tasks.md) - Définir des tâches de défi
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
-
 ## Vue d’ensemble {#overview}
 
-Les défis de fidélité offrent une solution complète pour créer des programmes de fidélité à grande échelle, de la définition de tâches et de jalons à la diffusion de contenu et au suivi des performances sur l’ensemble des canaux.
+Les défis de fidélité vous permettent de créer des programmes de fidélité attrayants et ludiques qui stimulent le comportement des clients et approfondissent les relations de la marque. Créez des défis qui récompensent les clients pour des actions spécifiques, qu’il s’agisse d’acheter ou de rédiger des avis, de communiquer sur les médias sociaux ou de recommander des amis.
+
+Grâce aux défis de fidélité, vous pouvez :
+
+* **Concevez des types de défis flexibles** : créez des défis standard, en série ou séquentiels pour répondre aux objectifs de votre entreprise
+* **Configurer les récompenses de manière stratégique** : attribuez des points aux jalons de la tâche ou à l’achèvement complet pour maintenir l’engagement
+* **Personnaliser l’expérience** : utilisez des cartes de contenu et la messagerie multicanale pour créer des expériences immersives de marque
+* **Intégration transparente** : entrez en contact avec vos fournisseurs de fidélité existants et exploitez les données Experience Platform
+* **Suivi automatique** : surveiller les progrès des clients par le biais de parcours générés automatiquement sans développement personnalisé
 
 ![](assets/challenges-gs.png)
 
 Vous pouvez créer trois types d’expériences de défi :
 
-* **Défis standard** : les clients effectuent un nombre spécifié de tâches dans n’importe quel ordre\
-  *Exemple : effectuez 3 des 5 tâches disponibles*
+* **Défis standard** : les clients effectuent un nombre spécifié de tâches dans n’importe quel ordre. Utilisez ce type lorsque vous souhaitez de la flexibilité et que vous souhaitez terminer plusieurs chemins d’accès.\
+  *Exemple : « Summer Wellness Challenge » - Effectuez 3 des 5 tâches suivantes : acheter des produits de santé, partager sur les médias sociaux, recommander un ami, écrire un commentaire ou assister à un événement virtuel*
 
-* **Défis en série** : les clients effectuent la même tâche plusieurs fois de suite\
-  *Exemple : effectuez un achat sur 7 jours consécutifs*
+* **Défis de Streak** : les clients effectuent la même tâche plusieurs fois de suite. Utilisez ce type pour encourager un comportement cohérent et répété au fil du temps.\
+  *Exemple : « Semaine des amoureux du café » - Achetez des produits de café pendant 7 jours consécutifs pour débloquer une récompense de boisson gratuite*
 
-* **Défis séquentiels** : les clients exécutent des tâches dans un ordre défini\
-  *Exemple : achat → révision → partage (doit être effectué dans cet ordre)*
-
-Grâce aux défis de fidélité, configurez les récompenses, envoyez des notifications multicanaux à des étapes clés du cycle de vie, à l’aide de parcours générés automatiquement, tout en conservant l’intégration à votre système de gestion de la fidélité externe.
+* **Défis séquentiels** : les clients exécutent des tâches dans un ordre défini. Utilisez ce type pour guider les clients tout au long d’un processus d’intégration ou de parcours spécifique.\
+  *Exemple : « Nouveau Parcours membre » - Inscrivez-vous aux e-mails → Effectuez votre premier achat → Rédiger un avis sur le produit → Recommander un ami (dans cet ordre exact)*
 
 ## Fonctionnement {#how-it-works}
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
+1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
 
 1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel) et la période.
 
@@ -82,30 +89,23 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
 Les défis de fidélité reposent sur des données ingérées par le biais des connecteurs source Experience Platform pour suivre la progression des clients et l’achèvement des tâches.
 
-1. **Configurer un connecteur source pris en charge** : actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty).
-
-1. **Valider l’ingestion des données** : assurez-vous que les événements de fidélité et les données client circulent dans Experience Platform et sont disponibles dans Journey Optimizer. Vérifiez que le schéma de données comprend les champs nécessaires pour effectuer le suivi des actions et de la progression des clients.
-
-Pour obtenir des instructions détaillées, voir [Présentation des sources Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)
+Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
-+++Autorisations nécessaires
+<!--+++Required permissions
 
-Pour utiliser les défis de fidélité, vous avez besoin des autorisations appropriées dans Journey Optimizer. Les autorisations requises sont les suivantes :
+To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
 
-* Accès à la fonctionnalité **[!UICONTROL Défis de fidélité (Beta)]**
-* Autorisations de création et de gestion des parcours
-* Autorisations pour créer et gérer des cartes de contenu
-* Autorisations pour créer et gérer des audiences
+TBD
 
-Contactez votre administrateur si vous ne pouvez pas accéder à la fonctionnalité ou si vous avez besoin d’autorisations supplémentaires.
+Contact your administrator if you cannot access the feature or need additional permissions.
 
-+++
++++-->
 
 +++Audience cible
 
-Définissez une audience cible qui spécifie les clients éligibles pour participer à vos défis de fidélité. Vous pouvez sélectionner des audiences existantes ou en créer de nouvelles directement à partir de l’interface de création de défis. [Découvrez comment utiliser les audiences](../audience/about-audiences.md).
+Assurez-vous que l’audience cible dont vous avez besoin existe dans Adobe Experience Platform avant de créer votre défi. Lors de la configuration du défi, vous sélectionnerez l’audience qui définit les clients éligibles à participer. [Découvrez comment utiliser les audiences](../audience/about-audiences.md).
 
 +++
 
@@ -118,7 +118,7 @@ Définissez une audience cible qui spécifie les clients éligibles pour partici
     <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>Accéder aux défis de fidélité</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>Accéder aux défis et aux tâches et les gérer</strong></a>
     </div>
     <p>
     <em>Découvrez comment accéder à l’inventaire et filtrer les défis</em>
@@ -132,7 +132,7 @@ Définissez une audience cible qui spécifie les clients éligibles pour partici
     <a href="create-challenges.md"><strong>Créer des défis</strong></a>
     </div>
     <p>
-    <em>Créer et configurer votre premier défi de fidélité</em>
+    <em>Découvrez comment créer et configurer votre premier défi de fidélité</em>
     </p>
   </td>
   <td>
@@ -143,7 +143,7 @@ Définissez une audience cible qui spécifie les clients éligibles pour partici
     <a href="create-tasks.md"><strong>Créer des tâches</strong></a>
     </div>
     <p>
-    <em>Définir les actions à effectuer pour relever les défis</em>
+    <em>Découvrez comment configurer les actions que les clients effectuent pour relever les défis</em>
     </p>
   </td>
 </tr>
