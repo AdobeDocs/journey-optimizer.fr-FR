@@ -119,9 +119,9 @@ Si vous disposez d’une implémentation côté client, vous pouvez utiliser l�
    >[!IMPORTANT]
    >
    >Le champ `tokens` dans `propositionAction` est essentiel pour le suivi et l’attribution précis dans Adobe Journey Optimizer Decisioning (AJO-D). Ces jetons permettent :
-   >- Attribution des clics appropriée pour les activités de prise de décision
-   >- Création de rapports précis sur les interactions utilisateur avec du contenu décisionnel
-   >- Optimisation des performances des offres en fonction de l’interaction client
+   >&#x200B;- Attribution des clics appropriée pour les activités de prise de décision
+   >&#x200B;- Création de rapports précis sur les interactions utilisateur avec du contenu décisionnel
+   >&#x200B;- Optimisation des performances des offres en fonction de l’interaction client
    >
    >Les jetons se trouvent généralement dans `proposition.items[0].characteristics.tokens` et doivent toujours être inclus lors du suivi des interactions des utilisateurs avec le contenu décidé.
 
