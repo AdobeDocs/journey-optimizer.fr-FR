@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '469'
 ht-degree: 3%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 3%
 
 **Documentation sur les défis de fidélité :**
 
-* [Prise en main des défis de fidélité](get-started.md) - Présentation, workflow, conditions préalables
-* **Accéder et gérer les défis et les tâches** ◀︎ **Vous êtes ici** - Inventaire, gestion des défis et des tâches
-* [Créer des défis](create-challenges.md) - Créez et configurez des défis
-* [Créer des tâches](create-tasks.md) - Définir des tâches de défi
+* [Prise en main des défis de fidélité](get-started.md)
+* **Accéder aux défis et aux tâches et les gérer** ◀︎ **Vous êtes ici**
+* [Créer des défis](create-challenges.md)
+* [Création de tâches](create-tasks.md)
 
 >[!ENDSHADEBOX]
 

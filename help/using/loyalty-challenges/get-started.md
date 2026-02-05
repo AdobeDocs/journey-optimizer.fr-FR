@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 3%
+source-wordcount: '650'
+ht-degree: 4%
 
 ---
 
@@ -29,10 +29,10 @@ ht-degree: 3%
 
 **Documentation sur les défis de fidélité :**
 
-* **Prise en main des défis de fidélité** ◀︎ **Vous êtes ici** - Présentation, workflow, conditions préalables
-* [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md) - Inventaire, gestion des défis et des tâches
-* [Créer des défis](create-challenges.md) - Créez et configurez des défis
-* [Créer des tâches](create-tasks.md) - Définir des tâches de défi
+* **Prise en main des défis de fidélité** ◀︎ **Vous êtes ici**
+* [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md)
+* [Créer des défis](create-challenges.md)
+* [Création de tâches](create-tasks.md)
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Vous pouvez créer trois types d’expériences de défi :
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
+1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
 
 1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel) et la période.
 
@@ -89,7 +89,7 @@ Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des él
 
 Les défis de fidélité reposent sur des données ingérées par le biais des connecteurs source Experience Platform pour suivre la progression des clients et l’achèvement des tâches.
 
-Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty).
+Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
