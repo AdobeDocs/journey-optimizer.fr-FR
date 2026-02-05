@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -220,7 +220,7 @@ L&#39;exemple suivant permet de calculer la somme totale des prix des produits d
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 
 L’assistant `executionMetadata` permet de capturer et de stocker dynamiquement des paires clé-valeur personnalisées dans le contexte d’exécution du message.
 
@@ -269,11 +269,11 @@ Lors de l’exécution, la valeur des métadonnées est ajoutée au **[!UICONTRO
 >
 >Pour en savoir plus sur les jeux de données, consultez [cette section](../../data/get-started-datasets.md).
 
-**Limite**
+**Limitations**
 
-Il existe une limite supérieure de 2 Ko pour les paires clé-valeur par action.
+La limite supérieure est de 2 Ko sur les paires clé-valeur par action. Si vous dépassez la limite de 2 Ko, le message est toujours diffusé, mais toutes les paires clé-valeur peuvent être tronquées.
 
-Si vous dépassez la limite de 2 Ko, le message est toujours diffusé, mais toutes les paires clé-valeur peuvent être tronquées.
+Les métadonnées ne sont pas capturées pour les profils exclus de l’action. Lorsqu’un profil est exclu de la réception d’un message, aucune entrée de métadonnées n’est créée pour ce profil dans le jeu de données.
 
 **Exemple**
 
