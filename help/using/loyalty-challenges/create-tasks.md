@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '683'
+ht-degree: 0%
 
 ---
 
 
 # Création de tâches {#create-tasks}
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 2%
 * **Créer des tâches** ◀︎ **Vous êtes ici**
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement en version bêta **privée**. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
 Les tâches définissent les actions ou jalons spécifiques que les clients doivent effectuer pour gagner des récompenses dans un défi de fidélité. Vous pouvez configurer les types de tâches, les quantités et les exigences en matière de produits afin de créer des expériences de fidélité attrayantes et personnalisées.
 

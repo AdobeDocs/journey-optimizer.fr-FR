@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 1%
+source-wordcount: '1471'
+ht-degree: 0%
 
 ---
 
 
 # Créer des défis {#create-challenges}
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement en version **Private Beta** et peut ne pas être disponible dans votre environnement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 1%
 * [Création de tâches](create-tasks.md)
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement en version bêta **privée**. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
 Cette page couvre l’ensemble du processus de création d’un défi de fidélité, de la sélection du type de défi et de la configuration de ses propriétés à la génération et la publication du parcours qui proposera le défi à vos clients.
 
@@ -248,11 +248,11 @@ Après avoir configuré tous les composants de défi, générez le parcours qui 
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom *»Parcours : [Nom du défi] »*. [En savoir plus sur l’inventaire des parcours &#x200B;](../building-journeys/journey-ui.md).
+1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom *»Parcours : [Nom du défi] »*. [En savoir plus sur l’inventaire des parcours ](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Une fois prêt, publiez le parcours pour mettre le défi à la disposition des clients. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md).
+1. Une fois prêt, publiez le parcours pour mettre le défi à la disposition des clients. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md).
 
 >[!NOTE]
 >
