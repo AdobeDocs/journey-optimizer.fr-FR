@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -236,23 +236,29 @@ Définir quels clients peuvent participer à votre défi de fidélité.
 
 1. Dans la boîte de dialogue de sélection d’audience, sélectionnez votre audience cible dans la liste des audiences Adobe Experience Platform disponibles, puis sélectionnez **[!UICONTROL Ajouter une audience]**. [Découvrez comment utiliser les audiences](../audience/about-audiences.md).
 
-Votre défi est maintenant entièrement configuré avec sa structure, son contenu, sa messagerie et son audience cible. La dernière étape consiste à générer et publier le parcours.
+Votre défi est maintenant entièrement configuré avec sa structure, son contenu, sa messagerie et son audience cible. Pour le lancer, vous devez publier le défi et son parcours associé.
 
-## Générer et publier le parcours {#review-and-publish}
+## Lancer le défi {#launch}
 
-Après avoir configuré tous les composants de défi, générez le parcours qui orchestrera votre diffusion de défi :
+Le lancement d’un défi nécessite **trois étapes** : (1) publier le défi, (2) générer le parcours, (3) publier le parcours. Les trois doivent être terminés pour que le défi soit relevé aux clients.
 
 1. Vérifiez votre configuration de défi pour vous assurer que tous les champs obligatoires sont renseignés.
 
-1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer la configuration du défi, puis sélectionnez **[!UICONTROL Générer le Parcours]**.
+1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et sélectionnez **[!UICONTROL Publier]**.
+
+   ![](assets/challenge-create-publish.png)
+
+1. Sélectionnez **[!UICONTROL Générer le Parcours]** pour créer le parcours qui orchestrera votre diffusion de défi.
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours généré automatiquement apparaît dans votre inventaire de parcours avec le format de nom *»Parcours : [Nom du défi] »*. [En savoir plus sur l’inventaire des parcours &#x200B;](../building-journeys/journey-ui.md).
+1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours apparaît dans votre inventaire de parcours avec le format de nom *»Parcours : [Nom du défi] »*. [En savoir plus sur l’inventaire des parcours ](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Une fois prêt, publiez le parcours pour mettre le défi à la disposition des clients. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md).
+1. Ouvrez le parcours et publiez-le. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md).
+
+1. Une fois votre défi lancé, surveillez les performances et la diffusion des messages dans le rapport de parcours [](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >

@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ L’interface donne accès à deux inventaires principaux :
 * **Défis** : affichez et gérez tous les défis de fidélité, surveillez leur statut et effectuez des actions rapides telles que l’affichage, la modification, la duplication ou la suppression de défis
 * **Tâches** : parcourez les tâches réutilisables pouvant être utilisées pour plusieurs défis et gérez les définitions de tâche indépendamment
 
-
 ## Inventaire des défis {#challenges-tab}
 
 L’onglet **[!UICONTROL Défis]** affiche tous les défis triés par date de dernière modification, les défis modifiés le plus récemment apparaissant en premier.
@@ -57,17 +56,22 @@ Informations clés affichées :
 * **[!UICONTROL État]** : État actuel du défi (version préliminaire ou publiée)
 * **[!UICONTROL Tâches]** : nombre de tâches configurées dans le défi
 * **[!UICONTROL Parcours]** : lien vers le parcours généré automatiquement associé au défi
-* **[!UICONTROL Statut]** : statut actuel du parcours associé (brouillon, actif, arrêté, etc.)
+* **[!UICONTROL Statut]** : statut actuel du parcours généré automatiquement qui relève le défi.
 * **[!UICONTROL Date de début/fin (UTC)]** : le moment où le défi devient actif et expire
 
 Dans l’onglet Défis , vous pouvez effectuer des actions sur les défis :
 
 * **Afficher le défi** : sélectionnez le nom du défi pour ouvrir sa page de détails
 * **Dupliquer un défi** : sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Dupliquer]**. Une copie est créée avec toutes les tâches, le contenu et les messages intacts.
-* **Supprimer un défi** : sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**
-* **Modifier un défi** : sélectionnez le nom du défi pour ouvrir sa page de détails et le modifier.
+* **Supprimer un défi** : sélectionnez l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**.
 
-  Lorsque vous ouvrez un défi publié pour le modifier, vous devez d’abord le rétablir à l’état « Brouillon ». Toutes les personnalisations apportées directement au parcours généré automatiquement seront perdues. Après avoir apporté vos modifications, enregistrez et publiez à nouveau le défi, puis republiez le parcours associé.
+  >[!IMPORTANT]
+  >
+  >Vous pouvez supprimer un défi même s’il est publié. Tenez compte de l’impact avant de supprimer.
+
+* **Modifier un défi** : sélectionnez le nom du défi pour ouvrir sa page de détails et effectuer les modifications souhaitées.
+
+  Lorsque vous ouvrez un défi publié pour le modifier, vous devez d’abord le rétablir à l’état de brouillon. Toutes les personnalisations apportées directement au parcours généré automatiquement seront perdues. Après avoir apporté vos modifications, enregistrez et publiez à nouveau le défi, puis publiez le parcours associé. [Découvrez comment lancer un défi](create-challenges.md#launch)
 
   >[!IMPORTANT]
   >
@@ -90,4 +94,8 @@ Dans l’onglet Tâches , vous pouvez effectuer des actions sur les tâches :
 
 * **Afficher/Modifier une tâche** : sélectionnez le nom de la tâche pour afficher la configuration complète et modifier la tâche
 * **Dupliquer une tâche** : sélectionnez l&#39;icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Dupliquer]**
-* **Supprimer une tâche** : sélectionnez l&#39;icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**
+* **Supprimer une tâche** : sélectionnez l&#39;icône ![](assets/do-not-localize/Smock_More_18_N.svg) et choisissez **[!UICONTROL Supprimer]**.
+
+  >[!IMPORTANT]
+  >
+  >Vous pouvez supprimer une tâche même si elle est utilisée dans un ou plusieurs défis. Tenez compte de l’impact sur les défis qui font référence à la tâche avant de la supprimer.
