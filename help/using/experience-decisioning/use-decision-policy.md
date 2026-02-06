@@ -7,9 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 11%
 
 ---
@@ -22,7 +23,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 >
 >Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **SMS** et **Notification push**.
 >
->La prise de décision pour le canal e-mail est disponible en disponibilité limitée. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
+>La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée uniquement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
 ## Insérer le code de la politique de décision {#insert}
 
@@ -88,7 +89,7 @@ Le code de la politique de décision est ajouté. Vous pouvez désormais utilise
 
 Une fois que vous avez ajouté le code d’une politique de décision dans votre contenu, tous les attributs des éléments de décision renvoyés peuvent être personnalisés. [Découvrez comment utiliser la personnalisation](../personalization/personalize.md).
 
-Les attributs sont stockés dans le schéma de catalogue [&#x200B; Offres &#x200B;](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
+Les attributs sont stockés dans le schéma de catalogue [ Offres ](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
 * **Attributs personnalisés** : dossier `_\<imsOrg\>`
 * **Attributs standard** : dossier `_experience`
 
@@ -127,7 +128,7 @@ Après avoir créé votre contenu, prévisualisez et testez-le avant d’activer
 
 Une fois que votre contenu est prêt, passez en revue et publiez votre campagne ou votre parcours :
 
-* [Publier un parcours](../building-journeys/publish-journey.md)
+* [Publication d’un parcours](../building-journeys/publish-journey.md)
 * [Examiner et activer une campagne](../campaigns/review-activate-campaign.md)
 
 Pour les expériences basées sur du code, dès que votre développeur ou développeuse effectue un appel d’API ou de SDK pour récupérer du contenu pour la surface définie dans votre configuration de canal, les modifications sont appliquées à votre page web ou votre application.
