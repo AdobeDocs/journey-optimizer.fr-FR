@@ -11,13 +11,13 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
+exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
+source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '636'
 ht-degree: 2%
 
 ---
-
 
 # Prise en main des défis de fidélité {#get-started-loyalty-challenges}
 
@@ -65,8 +65,6 @@ Vous pouvez créer trois types d’expériences de défi :
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Configurer l’ingestion des données** - Configurez les connecteurs source Experience Platform (tels que le [connecteur capillaire](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty)) pour ingérer des données d’événement de fidélité qui effectuent le suivi des actions et de la progression des clients. Ces données alimentent le suivi des défis et l’achèvement des tâches.
-
 1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel) et la période.
 
 1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâches (achat, dépenses), les quantités, les filtres de produit et les récompenses.
@@ -85,21 +83,28 @@ Pour obtenir des instructions détaillées, voir [Créer des défis](create-chal
 
 Avant d’utiliser les défis de fidélité, vérifiez que vous disposez des éléments suivants :
 
-+++Configuration de l’ingestion des données
-
-Les défis de fidélité reposent sur des données ingérées par le biais des connecteurs source Experience Platform pour suivre la progression des clients et l’achèvement des tâches.
-
-Avant de commencer, configurez un connecteur source pris en charge. Actuellement, le connecteur capillaire est disponible. D’autres connecteurs sont prévus pour les prochaines versions. [En savoir plus sur les connecteurs source de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home#loyalty).
-
-+++
-
 +++Autorisations nécessaires
 
-Pour utiliser les défis de fidélité, vous avez besoin des autorisations appropriées dans Journey Optimizer. Les autorisations requises sont les suivantes :
+Pour utiliser les défis de fidélité, vous avez besoin des autorisations appropriées dans Journey Optimizer et Adobe Experience Platform.
 
-* À déterminer
-* À déterminer
-* À déterminer
+**Journey Optimizer:**
+
+* `journeys.read`
+* `journeys.write`
+* `journeys.delete`
+* `journeys.publish`
+* `journeys_events.read`
+* `journeys_events.write`
+* `journeys_events.delete`
+* `journeys_report.read`
+* `messages.read`
+* `messages_report.read`
+
+**Adobe Experience Platform:**
+
+* `segments.read`
+* `profiles.read`
+* `identity_namespace.read`
 
 Contactez votre administrateur si vous ne pouvez pas accéder à la fonctionnalité ou si vous avez besoin d’autorisations supplémentaires.
 
