@@ -5,9 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1240'
 ht-degree: 3%
 
 ---
@@ -26,7 +27,7 @@ Decisioning offre des fonctionnalités et des avantages significatifs par rappor
 
 ### Fonctionnalités d’IA et de machine learning
 
-* **Mesures personnalisées** : possibilité d’utiliser des mesures d’optimisation personnalisées pour les modèles d’IA. Cela permet une interopérabilité des rapports avec [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normalise les rapports sur les deux plateformes et améliore la cohérence et la fiabilité des données. L’intégration transparente offre une vue plus claire des mesures de performances et ajoute de nouvelles fonctionnalités telles que la création de mesures simples, la publication d’audiences, la pose de questions ad hoc à l’aide d’Insight Builder et la planification de rapports.
+* **Mesures personnalisées** : possibilité d’utiliser des mesures d’optimisation personnalisées pour les modèles d’IA. Cela permet une interopérabilité des rapports avec [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normalise les rapports sur les deux plateformes et améliore la cohérence et la fiabilité des données. L’intégration transparente offre une vue plus claire des mesures de performances et ajoute de nouvelles fonctionnalités telles que la création de mesures simples, la publication d’audiences, la pose de questions ad hoc à l’aide d’Insight Builder et la planification de rapports.
 
 * **Mesure de l’effet élévateur** : capacité à visualiser le trafic d’exploration et d’exploitation dans les modèles d’IA. Cela permet aux spécialistes du marketing et aux spécialistes des données de quantifier la manière dont l’exploration de l’IA améliore les performances du modèle à long terme et la découvrabilité de nouvelles offres gagnantes. La transparence dans l’affectation du trafic renforce la confiance dans les décisions de l’IA et permet aux équipes d’optimiser l’apprentissage et les performances au fil du temps. [En savoir plus](ranking/auto-optimization-model.md#lift)
 
@@ -64,7 +65,7 @@ Tableau de bord documentant les performances des éléments de décision et des 
 
 * **Application des politiques** : autonomisation des utilisateurs professionnels pour l’utilisation de fonctionnalités telles que [Data Usage Labeling &amp; Enforcement (DULE)](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview){target="_blank"} et [Consentement](../action/consent.md) dans la prise de décision, ce qui permet d’activer la protection de Privacy Shield dans l’ensemble du workflow de prise de décision. Cela garantit que les décisions respectent automatiquement les politiques d’utilisation des données et les préférences de consentement du client.
 
-* **Prise en charge native des canaux de messagerie** : messagerie et prise de décision intégrées dans un cadre unique sur plusieurs canaux ([Expérience basée sur le code](../code-based/get-started-code-based.md) et [E-mail](../email/get-started-email.md) actuellement disponibles, d’autres canaux seront disponibles au cours du premier semestre 2026). La prise en charge intuitive de l’interface utilisateur permet aux utilisateurs et utilisatrices d’insérer des composants de prise de décision directement dans les workflows de création de messages.
+* **Prise en charge native des canaux de messagerie** : messagerie et prise de décision intégrées dans un seul framework sur plusieurs canaux : [Expérience basée sur le code](../code-based/get-started-code-based.md), [E-mail](../email/get-started-email.md) (disponibilité limitée), [SMS](../sms/get-started-sms.md) et [Notifications push](../push/get-started-push.md). La prise en charge intuitive de l’interface utilisateur permet aux utilisateurs et utilisatrices d’insérer des composants de prise de décision directement dans les workflows de création de messages.
 
 * **Recherche de jeu de données Experience Platform** : possibilité de charger et de référencer des [jeux de données Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview){target="_blank"} directement dans les règles de sélection d’offres, le classement et le contenu d’offre personnalisé. Vous bénéficiez ainsi d’une plus grande flexibilité en matière de personnalisation et de ciblage en permettant à la logique de décision d’utiliser des sources de données externes dynamiques. [En savoir plus](../data/lookup-aep-data.md)
 
@@ -102,4 +103,3 @@ Pour consulter la documentation complète sur les API, y compris l’authentific
 * [Commencer avec la prise de décisions](gs-experience-decisioning.md)
 * [Mécanismes de sécurisation et limitations des décisions](decisioning-guardrails.md)
 * [FAQ sur Decisioning](decisioning-faq.md)
-

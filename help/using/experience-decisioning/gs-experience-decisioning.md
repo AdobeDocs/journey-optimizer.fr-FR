@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 93%
+source-wordcount: '674'
+ht-degree: 82%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 93%
 
 La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque personne.
 
-Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes par le biais du [canal d’expérience basé sur le code](../code-based/get-started-code-based.md), accessible dans les campagnes [!DNL Adobe Journey Optimizer].
+Ces éléments de décision sont intégrés de manière transparente dans les messages et les expériences sur [!DNL Adobe Journey Optimizer] canaux : [expérience basée sur le code](../code-based/get-started-code-based.md), e-mail, SMS et notifications push.
 
 >[!IMPORTANT]
 >
->Les politiques de décision, dans la prise de décision, ne peuvent être utilisées que dans des campagnes d’expérience basée sur du code et des campagnes par e-mail.
+>Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et **SMS**. La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée uniquement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -85,7 +85,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    ➡️ [Découvrez comment créer des stratégies de sélection](selection-strategies.md) dans l’interface d’utilisation (et dans la documentation de l’[API](api-reference/selection-strategies/create.md)).
 
-1. **Créez une politique de décision et incorporez-la dans votre parcours basé sur du code ou par e-mail ou votre campagne basée sur du code ou par e-mail** : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher pour l’audience prévue.
+1. **Créez une politique de décision et incorporez-la dans votre parcours ou campagne** (expérience basée sur un code, e-mail, SMS ou notification push) : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher à l’audience prévue.
 
    ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md).
 ➡️ Pour diffuser l’offre par l’intermédiaire du canal d’expérience basée sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
@@ -105,4 +105,4 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
 Découvrez les fonctionnalités de prise de décision dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475865?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
