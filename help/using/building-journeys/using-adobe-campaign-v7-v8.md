@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Actions [!DNL Adobe Campaign] v7/v8
-description: En savoir plus sur les actions  [!DNL Adobe Campaign] v7/v8
+title: Actions d’Adobe Campaign v7/v8
+description: En savoir plus sur les actions Adobe Campaign v7/v8
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, intégration, campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 42%
+source-wordcount: '296'
+ht-degree: 46%
 
 ---
 
@@ -45,7 +45,7 @@ Un cas d&#39;utilisation complet est présenté dans cette [section](../building
 
 >[!NOTE]
 >
->* Les actions de Campaign v7/v8 peuvent être utilisées avec les actions de canal natives dans le même parcours. Cela ne s’applique pas aux actions Campaign Standard. Voir [&#x200B; Mécanismes de sécurisation de l’activité Campaign](../start/guardrails.md#ac-g).
+>* Les actions de Campaign v7/v8 peuvent être utilisées avec les actions de canal natives dans le même parcours. Cela ne s’applique pas aux actions Campaign Standard. Voir [ Mécanismes de sécurisation de l’activité Campaign](../start/guardrails.md#ac-g).
 >* Les actions Campaign v7/v8 ne peuvent pas être utilisées avec les activités Lecture d’audience ou Qualification d’audience . Consultez les mécanismes de sécurisation Lecture d’audience et Qualification d’audience dans la page Mécanismes de sécurisation .
 
 ![[!DNL Adobe Campaign] paramètres d’intégration et de configuration des actions v7/v8](assets/accintegration2.png)

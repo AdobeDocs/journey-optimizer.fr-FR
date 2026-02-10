@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Actions [!DNL Adobe Campaign] Standard
-description: En savoir plus sur  [!DNL Adobe Campaign]  actions standard
+title: Actions d'Adobe Campaign Standard
+description: En savoir plus sur les actions Adobe Campaign Standard
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, intégration, standard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 74%
+source-wordcount: '937'
+ht-degree: 75%
 
 ---
 
@@ -36,7 +36,7 @@ Pour chacun de ces canaux, vous sélectionnez un modèle de message transactionn
 >
 >Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés dans Journey Optimizer. Si l’événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface de Journey Optimizer. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface de Journey Optimizer, mais il ne sera pas utilisable.
 
-Configuration de l’action ![[!DNL Adobe Campaign] Standard dans le parcours &#x200B;](assets/journey59.png)
+Configuration de l’action ![[!DNL Adobe Campaign] Standard dans le parcours ](assets/journey59.png)
 
 Vous pouvez utiliser un modèle de message transactionnel basé sur un événement (appelé également en temps réel) ou sur un profil.
 
