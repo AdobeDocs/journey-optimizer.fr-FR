@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 95%
+source-wordcount: '713'
+ht-degree: 92%
 
 ---
 
@@ -58,7 +58,7 @@ Pour créer une politique d’approbation, procédez comme suit :
 
 1. Activez l’option **[!UICONTROL Bloquer l’auto-approbation]** pour empêcher les créateurs et créatrices de parcours/campagne de valider leurs propres objets.
 
-   ![](assets/policy_create_2.png)
+   ![Formulaire des détails de la politique d’approbation](assets/policy_create_2.png)
 
 Vous pouvez maintenant affiner les conditions afin de spécifier qui peut lancer la demande d’approbation et qui peut la valider.
 
@@ -72,7 +72,7 @@ Les politiques d’approbation offrent des options de ciblage flexibles pour ré
 * **Types de campagne** : définissez des règles différentes pour les campagnes [d’action ou déclenchées par API](../campaigns/get-started-with-campaigns.md#campaign-types).
 * **Personnes à l’origine de la demande** : définissez des politiques en fonction de la personne qui crée la campagne ou le parcours.
 
-Pour définir les conditions associées à une politique d’approbation, procédez comme suit :
+Pour définir les conditions associées à une politique d’approbation, procédez comme suit :
 
 1. Accédez à votre **[!UICONTROL politique d’approbation]**.
 

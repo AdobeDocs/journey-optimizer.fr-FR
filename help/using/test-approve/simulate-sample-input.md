@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '989'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >title="Simuler à l’aide d’un exemple d’entrée"
 >abstract="Sur cet écran, vous pouvez tester différentes variantes de votre contenu en fournissant des valeurs pour les champs de personnalisation à l’aide d’un modèle CSV ou JSON, ou en saisissant manuellement les valeurs."
 
-Journey Optimizer permet de prévisualiser différentes variations de votre contenu à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV ou JSON ou ajoutés manuellement.
+[!DNL Journey Optimizer] vous permet de prévisualiser différentes variations de votre contenu à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement.
 
 Tous les attributs utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés dans vos tests afin de créer plusieurs variantes. Une variante fait référence à une version du contenu dont les attributs ont des valeurs différentes.
 
@@ -49,7 +49,7 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 
 * **Attributs** : les attributs de profil et contextuels sont pris en charge.
 
-* **Types de données** : seuls les types de données suivants sont pris en charge lors de la saisie de données pour vos variantes : nombre (entier et décimal), chaîne, valeur booléenne et type de date. Tout autre type de données affiche une erreur.
+* **Types de données** - Seuls les types de données suivants sont pris en charge lors de la saisie de données pour vos variantes : nombre (entier et décimal), chaîne, valeur booléenne et type de date. Tout autre type de données affiche une erreur.
 
 * **Nombre de variantes** : vous pouvez ajouter jusqu’à 30 variantes pour tester votre contenu, soit à l’aide d’un fichier, soit manuellement.
 
@@ -57,7 +57,7 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 
 Pour créer des variations de votre contenu et les prévisualiser, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** et choisissez **[!UICONTROL Simuler les variations de contenu]**.
 
-![](assets/simulate-sample.png)
+![Option Simuler des variations de contenu](assets/simulate-sample.png)
 
 Les principales étapes pour tester votre contenu sont les suivantes :
 
@@ -71,7 +71,7 @@ Lors de l’accès à l’expérience de variations de contenu, tous les champs 
 
 Par exemple, si votre e-mail contient deux champs de personnalisation « Ville » et « Solde des points du programme », ils apparaîtront dans la liste. Au départ, aucune valeur n’est saisie et aucun contenu personnalisé n’est affiché dans le volet d’aperçu.
 
-![](assets/simulate-custom-variants-list.png)
+![Exemple de liste de variantes d’entrée](assets/simulate-custom-variants-list.png)
 
 Pour modifier la valeur d’une variante :
 
@@ -85,7 +85,7 @@ Pour ajouter une nouvelle variante :
 1. Une nouvelle variante vierge s’affiche, contenant tous les champs de personnalisation détectés.
 1. Modifiez la nouvelle variante selon vos besoins.
 
-![](assets/simulate-custom-add.png)
+![Bouton Créer un exemple d’entrée](assets/simulate-custom-add.png)
 
 Vous pouvez également charger un fichier avec des variantes et des valeurs prédéfinies pour accélérer le processus.
 
@@ -113,7 +113,7 @@ Vous pouvez également charger un fichier avec des variantes et des valeurs pré
 1. Une fois votre fichier prêt, cliquez sur **[!UICONTROL Charger les données d’entrée]** pour le charger.
 1. Après le chargement, une nouvelle variante est ajoutée à la liste pour chaque entrée dans le fichier.
 
-   ![](assets/simulate-custom-variants.png)
+   ![Exemples de variantes d’entrée chargés](assets/simulate-custom-variants.png)
 
 Une fois les variantes ajoutées, vous pouvez les utiliser pour prévisualiser votre contenu dans le volet de droite et envoyer des BAT d’e-mail.
 
@@ -125,15 +125,15 @@ Dans l’exemple ci-dessous, nous avons ajouté deux variantes pour l’objet d
 
 | Sélection de la variante 1 | Sélection de la variante 2 |
 |----------|-------------|
-| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+| ![Sélection de la variante 1](assets/simulate-custom-boxes.png) | ![Sélection de la variante 2](assets/simulate-custom-boxes2.png) |
 
 Pour le contenu et l’expérimentation multilingues, une liste déroulante est disponible pour basculer entre les différentes variantes ou traitements de langue.
 
-![](assets/simulate-custom-experiment.png)
+![ Sélecteur de langue ou de traitement ](assets/simulate-custom-experiment.png)
 
 Vous pouvez supprimer une variante à tout moment à l’aide du bouton représentant des points de suspension dans le coin supérieur droit et en sélectionnant **[!UICONTROL Supprimer]**. Pour modifier les informations d’une variante, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
 
-### Envoyer des épreuves {#proofs}
+### Envoyer des BAT {#proofs}
 
 Journey Optimizer permet d’envoyer des épreuves à des adresses e-mail tout en empruntant l’identité d’une ou plusieurs variantes ajoutées dans l’écran de simulation. Les étapes sont les suivantes :
 
@@ -145,10 +145,10 @@ Journey Optimizer permet d’envoyer des épreuves à des adresses e-mail tout 
 
    Pour plus d’informations sur une variante, cliquez sur le lien **[!UICONTROL Afficher les détails du profil]**. Vous pouvez ainsi afficher les informations saisies dans l’écran précédent pour les différentes variantes.
 
-   ![](assets/simulate-custom-proofs.png)
+   ![Sélection des destinataires et des variantes du BAT](assets/simulate-custom-proofs.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Envoyer une épreuve]** pour commencer à envoyer l’épreuve.
 
 1. Pour suivre l’envoi de l’épreuve, cliquez sur le bouton **[!UICONTROL Afficher les épreuves]** dans l’écran de simulation de contenu.
 
-![](assets/simulate-custom-sent-proofs.png)
+![Liste des BAT envoyés](assets/simulate-custom-sent-proofs.png)
