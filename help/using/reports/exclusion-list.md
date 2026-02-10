@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
+source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 93%
+source-wordcount: '891'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Pour plus d’informations sur les raisons spécifiques d’exclusion, consultez
 |-|-|-|-|
 | RuntimeDispatchError | 050301 | Tous les canaux | Événement d’exclusion générique pour toute erreur de distribution d’exécution. |
 | RuntimeRenderingError | 050302 | Tous les canaux | Événement d’exclusion générique pour toute erreur de rendu d’exécution. |
-| NamespaceErrorForExperimentation | 050017 | Tous les canaux | Un événement d’exclusion est généré lorsque l’espace de nommage dans l’expérience est différent de l’espace de nommage du profil. |
+| NamespaceErrorForExperimentation | 050017 | Tous les canaux | Un événement d’exclusion est généré lorsque l’espace de noms dans l’expérience est différent de l’espace de noms du profil. |
 | ExperimentationHoldoutExclusion | 050018 | Tous les canaux | Cet événement d’exclusion est généré lorsque le traitement qualifié pour une expérience est « Exclusion ». |
 | ExcludedForControlRules | 050002 | Tous les canaux | Cet événement d’exclusion est généré lorsque la diffusion du message actuel entraîne une violation des règles de contrôle, par exemple le nombre d’e-mails autorisés en un mois. |
 | DirectMailNoVariantDefined | 050062 | DirectMail | Un événement d’exclusion est généré lorsque la variante Publipostage direct n’est pas définie. |
@@ -60,10 +60,11 @@ Pour plus d’informations sur les raisons spécifiques d’exclusion, consultez
 | EmailNoVariantDefined | 050026 | E-mail | Un événement d’exclusion est généré lorsqu’aucune variante n’est définie dans l’e-mail. |
 | EmailNoMessageFoundForTreatment | 050027 | E-mail | Un événement d’exclusion est généré lorsque l’expérience est activée pour le message et qu’aucun message n’est trouvé pour le traitement qualifié. |
 | EmailMalformedAddress | 050024 | E-mail | Un événement d’exclusion est généré lorsque l’e-mail contient une adresse incorrecte. |
+| UnsubscribeLinkNotValid | 050081 | E-mail | Un événement d’exclusion est généré lorsque la longueur de l’objet List-Unsubscribe mailTo est supérieure à la limite RFC de 998 caractères. |
 | InAppNoVariantDefined | 050041 | InApp | Un événement d’exclusion est généré lorsqu’aucune variante n’est définie pour le message in-app. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Un événement d’exclusion est généré lorsque l’expérience est activée pour le message et qu’aucun message n’est trouvé pour le traitement qualifié. |
 | PushNoTokenFoundInProfile | 050030 | Notification push | Un événement d’exclusion est généré lorsque le profil ne comporte pas de jetons push. |
-| PushNoValidTokenFoundForApps | 050031 | Notification push | Un événement d’exclusion est généré lorsqu’aucun jeton valide n’est trouvé pour les applications ciblées dans la configuration. **Important :** lors de l’utilisation d’un certificat de production, l’attribut `pushNotificationDetails.platform` du profil utilisateur doit être défini sur `apns`. Si vous utilisez un certificat sandbox, définissez-le sur `apnsSandbox`. Une incohérence entre l’attribut de plateforme et le type de certificat déclenche cette exclusion. |
+| PushNoValidTokenFoundForApps | 050031 | Notification push | Un événement d’exclusion est généré lorsqu’aucun jeton valable n’est trouvé pour les applications ciblées dans la configuration. **Important :** lors de l’utilisation d’un certificat de production, l’attribut `pushNotificationDetails.platform` du profil utilisateur doit être défini sur `apns`. Si vous utilisez un certificat sandbox, définissez-le sur `apnsSandbox`. Une incohérence entre l’attribut de plateforme et le type de certificat déclenche cette exclusion. |
 | PushMalformedProfile | 050034 | Notification push | Un événement d’exclusion est généré lorsque pushNotificationDetails est incorrect dans le profil. |
 | PushNoConsent | 050111 | Notification push | Un événement d’exclusion est généré lorsque l’utilisateur ou l’utilisatrice s’exclut des notifications push marketing. |
 | PushNoApplicationDefinedInPreset | 050033 | Notification push | Un événement d’exclusion est généré lorsque la configuration ne contient aucune application à cibler. |
