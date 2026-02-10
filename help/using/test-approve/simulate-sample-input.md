@@ -129,7 +129,7 @@ Dans l’exemple ci-dessous, nous avons ajouté deux variantes pour l’objet d
 
 Pour le contenu et l’expérimentation multilingues, une liste déroulante est disponible pour basculer entre les différentes variantes ou traitements de langue.
 
-![ Sélecteur de langue ou de traitement ](assets/simulate-custom-experiment.png)
+![&#x200B; Sélecteur de langue ou de traitement &#x200B;](assets/simulate-custom-experiment.png)
 
 Vous pouvez supprimer une variante à tout moment à l’aide du bouton représentant des points de suspension dans le coin supérieur droit et en sélectionnant **[!UICONTROL Supprimer]**. Pour modifier les informations d’une variante, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
 

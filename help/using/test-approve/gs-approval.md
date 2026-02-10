@@ -40,7 +40,7 @@ Pour approuver et publier des parcours et des campagnes, les utilisateurs doiven
 
 1. Ajoutez la ressource **Parcours**, puis sélectionnez **Approuver et publier des parcours** dans le menu déroulant.
 
-   ![Attribuer une autorisation d’approbation et de publication de Parcours ](assets/permissions_approval_2.png){zoomable="yes"}
+   ![Attribuer une autorisation d’approbation et de publication de Parcours &#x200B;](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. Cliquez sur **Enregistrer** pour appliquer vos modifications.
 
