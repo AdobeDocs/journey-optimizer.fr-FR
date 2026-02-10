@@ -184,7 +184,7 @@ Trouvez des réponses aux questions fréquentes sur la création de parcours, le
 
 Cette section contient des conseils détaillés pour la conception, le test, la publication et le suivi des parcours clients afin de créer des campagnes omnicanales personnalisées.
 
-[Explorer la création de parcours](../../rp_landing_pages/create-journey-landing-page.md) | [Découvrir la gestion des parcours ](../../rp_landing_pages/manage-journey-landing-page.md) | [Étapes de workflow des parcours](journey.md#workflow)
+[Explorer la création de parcours](../../rp_landing_pages/create-journey-landing-page.md) | [Découvrir la gestion des parcours &#x200B;](../../rp_landing_pages/manage-journey-landing-page.md) | [Étapes de workflow des parcours](journey.md#workflow)
 :::
 
 :::

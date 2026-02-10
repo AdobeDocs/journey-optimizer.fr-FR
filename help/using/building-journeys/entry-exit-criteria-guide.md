@@ -92,7 +92,7 @@ Collectez des informations sur la satisfaction client et les performances des pr
 
 * **Entrée** : les personnes rejoignent le parcours après réception d’un événement de confirmation de diffusion du produit.
 * **Sortie** : les profils quittent le parcours une fois les commentaires envoyés ou après 10 jours en l’absence de réponse.
-* **Avantage ** : capture rapidement des commentaires utiles sans importuner la clientèle par des demandes persistantes.
+* **Avantage &#x200B;** : capture rapidement des commentaires utiles sans importuner la clientèle par des demandes persistantes.
 
 ## Configurer les critères d’entrée de parcours {#configure-entry}
 
@@ -100,7 +100,7 @@ Collectez des informations sur la satisfaction client et les performances des pr
 
 **Découvrez ici tout ce que vous devez savoir sur les critères d’entrée :**
 
-* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurez les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]** et définissez [le schéma et les champs d’événement](../event/experience-event-schema.md). Ajoutez ensuite l’événement à partir de la palette **[!UICONTROL Événements]** dans le concepteur de parcours [](using-the-journey-designer.md).
+* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurez les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]** et définissez [le schéma et les champs d’événement](../event/experience-event-schema.md). Ajoutez ensuite l’événement à partir de la palette **[!UICONTROL Événements]** dans le concepteur de parcours [&#128279;](using-the-journey-designer.md).
 
 * **[Entrée basée sur l’audience](read-audience.md)** : les parcours cibles sont destinés aux profils qui appartiennent à des audiences spécifiques, sous la forme d’un lot unique ou selon un planning récurrent. [Créez des audiences](../audience/creating-a-segment-definition.md) dans le menu **[!UICONTROL Audiences]**, puis ajoutez une activité **[!UICONTROL Lecture d’audience]** et [configurez le planning](journey-properties.md#schedule).
 
@@ -146,7 +146,7 @@ Pour obtenir des conseils de mise en œuvre détaillés avec des détails techni
 
 >[!TIP]
 >
->Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [](jo-use-cases.md) pour plus de modèles et d’implémentations. Par exemple, [améliorez les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimez des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [&#128279;](jo-use-cases.md) pour plus de modèles et d’implémentations. Par exemple, [améliorez les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimez des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Bonnes pratiques de gestion des entrées et des sorties {#best-practices}
 
@@ -212,4 +212,4 @@ Commencez par mapper clairement les déclencheurs et les points de sortie de vos
 
 **Fonctionnalités associées**
 
-[Événements de qualification d’audience](audience-qualification-events.md) | [Mesures de succès et objectifs](success-metrics.md) | [Gestion des conflits](../conflict-prioritization/conflicts.md) | [Capping de la fréquence](../conflict-prioritization/rule-sets.md) | [Test des parcours ](testing-the-journey.md) | [Activité de condition](condition-activity.md) | [Événements de réaction](reaction-events.md) | [Activité d’attente](wait-activity.md)
+[Événements de qualification d’audience](audience-qualification-events.md) | [Mesures de succès et objectifs](success-metrics.md) | [Gestion des conflits](../conflict-prioritization/conflicts.md) | [Capping de la fréquence](../conflict-prioritization/rule-sets.md) | [Test des parcours &#x200B;](testing-the-journey.md) | [Activité de condition](condition-activity.md) | [Événements de réaction](reaction-events.md) | [Activité d’attente](wait-activity.md)

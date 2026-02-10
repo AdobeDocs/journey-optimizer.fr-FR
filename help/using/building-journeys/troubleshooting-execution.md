@@ -57,7 +57,7 @@ Pour résoudre votre problème, commencez par répondre aux questions suivantes�
   Content-type - application/json
   ```
 
->>
+&#x200B;>>
 **Pour les parcours de qualification d’audience avec audiences en streaming** : si vous utilisez une activité de qualification d’audience comme point d’entrée d’un parcours, gardez à l’esprit que tous les profils correspondant aux critères de cette audience ne rejoindront pas nécessairement le parcours, en raison de facteurs de délai, de sorties rapides de l’audience ou du fait qu’ils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences en streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Résoudre des problèmes liés aux transitions en mode test {#troubleshooting-test-transitions}

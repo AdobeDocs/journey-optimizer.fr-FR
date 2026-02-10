@@ -33,7 +33,7 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 >[!NOTE]
 >
->Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance [!DNL Adobe Journey Optimizer] active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours ](condition-activity.md) et des [expressions](expression/expressionadvanced.md).
+>Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance [!DNL Adobe Journey Optimizer] active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours &#x200B;](condition-activity.md) et des [expressions](expression/expressionadvanced.md).
 
 
 ## Étapes dʼimplémentation
@@ -56,7 +56,7 @@ Suivez ces étapes pour créer un flux d’e-mail en semaine uniquement.
 
 Juste après le début du parcours, ajoutez une activité **[!UICONTROL Condition]** pour vérifier si le jour actuel est un samedi ou un dimanche. Le workflow sera ainsi divisé en conséquence.
 
-1. Placez une activité [**[!UICONTROL Condition ]**](condition-activity.md) sur la zone de travail après votre point d’entrée.
+1. Placez une activité [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) sur la zone de travail après votre point d’entrée.
 
 1. Cliquez sur l’activité **[!UICONTROL Condition]** pour ouvrir son panneau de configuration.
 
@@ -191,4 +191,4 @@ Une fois les tests effectués :
 * [Activité d’attente](wait-activity.md) : configurer des durées d’attente et des formules
 * [Fonctions de date](functions/date-functions.md) : référence complète pour les fonctions de date et d’heure
 * [Éditeur d’expression](expression/expressionadvanced.md) : créer des expressions complexes
-* [Bonnes pratiques relatives aux parcours ](journey-gs.md#best-practices) : approches recommandées pour la conception de parcours
+* [Bonnes pratiques relatives aux parcours &#x200B;](journey-gs.md#best-practices) : approches recommandées pour la conception de parcours

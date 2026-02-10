@@ -88,7 +88,7 @@ Pour commencer à effectuer le suivi des mesures de votre parcours, procédez co
 
    Notez que les mesures s’appliquent au parcours lui-même et à tous les éléments du parcours.
 
-   ![Panneau de configuration des mesures de succès dans les propriétés du parcours ](assets/success_metric.png)
+   ![Panneau de configuration des mesures de succès dans les propriétés du parcours &#x200B;](assets/success_metric.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

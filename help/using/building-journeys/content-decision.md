@@ -48,7 +48,7 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Décision de contenu]** dans votre zone de travail.
 
-   ![Ajouter une décision de contenu au parcours ](assets/journey-content-decision.png){width=100%}
+   ![Ajouter une décision de contenu au parcours &#x200B;](assets/journey-content-decision.png){width=100%}
 
 1. Vous pouvez, si vous le souhaitez, ajouter un libellé et une description à l’activité.
 

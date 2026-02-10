@@ -124,7 +124,7 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 
 ## Rubriques connexes
 
-* [Guide relatif aux critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques
+* [Guide relatif aux critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) : définissez quand les profils doivent quitter votre parcours.
-* [Terminer un parcours ](end-journey.md) : comprenez comment les parcours se ferment et se terminent.
-* [Cas d’utilisation de parcours ](jo-use-cases.md) : consultez des exemples complets avec des configurations d’entrée et de sortie.
+* [Terminer un parcours &#x200B;](end-journey.md) : comprenez comment les parcours se ferment et se terminent.
+* [Cas d’utilisation de parcours &#x200B;](jo-use-cases.md) : consultez des exemples complets avec des configurations d’entrée et de sortie.
