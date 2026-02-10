@@ -8,7 +8,7 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
+source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 11%
@@ -39,7 +39,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!NOTE]
 >
->Pour les expériences basées sur du code, si votre politique de décision contient des éléments de décision, y compris des fragments, vous pouvez exploiter ces fragments dans le code de la politique de décision. [Découvrez comment exploiter les fragments](../experience-decisioning/fragments-decision-policies.md)
+>Pour les expériences basées sur du code, si votre politique de décision contient des éléments de décision, y compris des fragments, vous pouvez exploiter ces fragments dans le code de la politique de décision. [Découvrez comment exploiter les fragments](fragments-decision-policies.md)
 
 >[!TAB E-mail]
 
@@ -89,7 +89,7 @@ Le code de la politique de décision est ajouté. Vous pouvez désormais utilise
 
 Une fois que vous avez ajouté le code d’une politique de décision dans votre contenu, tous les attributs des éléments de décision renvoyés peuvent être personnalisés. [Découvrez comment utiliser la personnalisation](../personalization/personalize.md).
 
-Les attributs sont stockés dans le schéma de catalogue [&#x200B; Offres &#x200B;](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
+Les attributs sont stockés dans le schéma de catalogue [ Offres ](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
 * **Attributs personnalisés** : dossier `_\<imsOrg\>`
 * **Attributs standard** : dossier `_experience`
 
