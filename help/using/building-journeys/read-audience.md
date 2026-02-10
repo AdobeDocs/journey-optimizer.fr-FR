@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilisation d’une audience dans un parcours
-description: Découvrez comment configurer et utiliser l’activité Lecture d’audience pour que les personnes appartenant à des audiences Adobe Experience Platform rejoignent des parcours.
+description: Découvrez comment configurer et utiliser l’activité Lecture d’audience pour que les individus issus des audiences  [!DNL Adobe Experience Platform]  rejoignent les parcours.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -10,14 +10,16 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 846a831077680e1654041b05b59233c138b559fb
+source-git-commit: ac7793f9ac38528fbe9252ad2f12921ca7fe0665
 workflow-type: tm+mt
-source-wordcount: '3033'
-ht-degree: 100%
+source-wordcount: '3024'
+ht-degree: 92%
 
 ---
 
 # Utilisation d’une audience dans un parcours {#segment-trigger-activity}
+
+Utilisez l’activité Lecture d’audience pour démarrer des parcours avec des audiences définies.
 
 ## À propos de l’activité Lecture d’audience {#about-segment-trigger-actvitiy}
 
@@ -56,11 +58,13 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    >[!NOTE]
    >
-   >Vous pouvez également cibler les audiences [!DNL Adobe Experience Platform] créées à l’aide des [compositions d’audiences](../audience/get-started-audience-orchestration.md) ou [chargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}. [En savoir plus sur la manière de générer et de cibler des audiences dans Journey Optimizer](../audience/about-audiences.md).
+   >En outre, vous pouvez cibler des audiences [!DNL Adobe Experience Platform] créées à l’aide de [compositions d’audience](../audience/get-started-audience-orchestration.md).
+   >Vous pouvez également cibler des audiences [téléchargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}.
+   >[En savoir plus sur la manière de générer et de cibler des audiences dans Journey Optimizer](../audience/about-audiences.md).
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
-   ![Interface de sélection des audiences affichant les audiences Adobe Experience Platform disponibles](assets/read-segment-selection.png)
+   ![Interface de sélection des audiences affichant les audiences [!DNL Adobe Experience Platform] disponibles](assets/read-segment-selection.png)
 
    Une fois l’audience ajoutée, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
@@ -186,7 +190,7 @@ Pour minimiser le risque de profils manquants :
 
 >[!CAUTION]
 >
->Si vous ciblez une [audience de chargement personnalisé](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première récurrence si cette option est activée dans un parcours récurrent, car ces audiences sont fixes.
+>Si vous ciblez une [ audience de chargement personnalisée ](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité lorsque cette option est activée dans un parcours récurrent. Ces audiences sont corrigées.
 
 +++
 
@@ -194,7 +198,7 @@ Pour minimiser le risque de profils manquants :
 
 Cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution.
 
-Par exemple, si vous avez un délai d’attente de 2 jours dans un parcours récurrent quotidien, l’activation de cette option déplacera toujours les profils lors de la prochaine exécution du parcours (c’est-à-dire le lendemain), qu’ils se trouvent ou non dans l’audience d’exécution suivante.
+Par exemple, si vous avez une attente de 2 jours dans un parcours récurrent quotidien, l’activation de cette option déplace les profils vers l’exécution de parcours suivante. Cela se produit le lendemain, qu’ils se trouvent ou non dans l’audience d’exécution suivante.
 
 Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité, n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
 
@@ -297,7 +301,7 @@ Si vous constatez des incohérences entre les estimations de tailles d’audienc
 
 * **Fin du traitement de segmentation par lots** : pour les audiences par lots, assurez-vous que le traitement de segmentation par lots quotidien est terminé et que les instantanés sont mis à jour avant l’exécution du parcours. Les audiences par lots sont prêtes à l’emploi environ **2 heures** après la fin du traitement de segmentation. En savoir plus sur les [méthodes d’évaluation d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#evaluate-segments){target="_blank"}.
 
-* **Calendrier d’ingestion des données** : vérifiez que l’ingestion des données de profil est terminée avant l’exécution du parcours. Si des profils ont été ingérés peu de temps avant le début du parcours, ils ne sont peut-être pas encore pris en compte dans l’audience. En savoir plus sur l’[ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
+* **Calendrier d’ingestion des données** : vérifiez que l’ingestion des données de profil est terminée avant l’exécution du parcours. Si des profils ont été ingérés peu de temps avant le début du parcours, ils ne sont peut-être pas encore pris en compte dans l’audience. En savoir plus sur l’ingestion de données [ dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
 
 * **Utiliser l’option « Déclencher après l’évaluation de l’audience par lots »** : pour les parcours planifiés quotidiens utilisant des audiences par lots, envisagez d’activer l’option **[!UICONTROL Déclencher après l’évaluation de l’audience par lots]**. Cela permet de s’assurer que le parcours attend les nouvelles données d’audience (jusqu’à 6 heures) avant de s’exécuter. [En savoir plus sur la planification](#schedule)
 
@@ -305,9 +309,9 @@ Si vous constatez des incohérences entre les estimations de tailles d’audienc
 
 ### Validation et surveillance des données
 
-* **Vérifier le statut des traitements de segmentation** : surveillez les délais d’exécution des traitements de segmentation par lots dans le [tableau de bord de surveillance](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=fr){target="_blank"} d’Adobe Experience Platform pour vérifier quand les données d’audience sont prêtes.
+* **Vérification de l’état de la tâche de segmentation** : surveillez les temps d’achèvement de la tâche de segmentation par lots dans le [!DNL Adobe Experience Platform] [tableau de bord de surveillance](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=fr){target="_blank"}. Utilisez-le pour vérifier quand les données d’audience sont prêtes.
 
-* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [politiques de fusion dans Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}
+* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [ politiques de fusion dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}.
 
 * **Vérifier les définitions de segment** : vérifiez que les définitions de segment sont correctement configurées et incluez tous les critères de qualification attendus. En savoir plus sur la [création d’audiences](../audience/creating-a-segment-definition.md). Accordez une attention particulière aux éléments suivants :
    * Conditions de temps pouvant exclure des profils en fonction des dates et heures des événements.
@@ -332,7 +336,7 @@ Si des incohérences de nombre persistent après avoir suivi ces étapes, contac
 
 Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
 
-Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés dans les **Alertes**. L’**alerte Lecture d’audience** vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide. Si cet échec est dû à des problèmes techniques, sachez que des reprises peuvent toujours se produire, selon le type de problème (par exemple : si la création du traitement d’export a échoué, nous allons réessayer toutes les 10 minutes pendant 1 h au maximum). [En savoir plus](../reports/alerts.md#alert-read-audiences)
+Échec **Lecture d’audience** les déclencheurs sont capturés et affichés dans **Alertes**. L’alerte **Lecture d’audience** vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure d’exécution planifiée. Cet échec peut être dû à des problèmes techniques ou à une audience vide. Si l’échec est dû à des problèmes techniques, des reprises peuvent toujours se produire en fonction du type de problème. Par exemple, si la création de tâche d’exportation échoue, nous réessayons toutes les 10 minutes pendant une heure au maximum. [En savoir plus](../reports/alerts.md#alert-read-audiences)
 
 ## Rubriques connexes
 
@@ -346,4 +350,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
