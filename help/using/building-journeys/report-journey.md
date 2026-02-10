@@ -10,10 +10,10 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Pour chaque activité de chaque parcours actif ou en [mode Test à blanc](journe
 
 Si les rapports de parcours ne contiennent pas les données attendues, tenez compte des points suivants :
 
-* **Synchronisation des noms de parcours** : vérifiez que le nom du parcours dans Adobe Journey Optimizer correspond au nom stocké dans le jeu de données de rapports. Une incohérence entre ces noms peut empêcher l’affichage correct des données de rapport.
+* **Synchronisation des noms de Parcours** : vérifiez que le nom du parcours dans [!DNL Adobe Journey Optimizer] correspond au nom stocké dans le jeu de données de rapports. Une incohérence entre ces noms peut empêcher l’affichage correct des données de rapport.
 
 * **Délai d’actualisation des données** : après la mise à jour d’un nom ou d’une configuration de parcours, patientez suffisamment longtemps pour actualiser les données. Les données de rapports apparaissent généralement en quelques minutes, mais peuvent prendre plus de temps dans certains cas.
 

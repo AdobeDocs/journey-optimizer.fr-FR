@@ -11,10 +11,10 @@ badge: label="Disponibilité limitée" type="Informative"
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: ht
-source-wordcount: '1120'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 93%
 
 ---
 
@@ -80,7 +80,7 @@ Vous êtes maintenant en mesure d’utiliser la sortie de cette activité Décis
 
 Les mises à jour des politiques de consentement prennent jusqu’à 48 heures. Si une politique de décision fait référence à un attribut lié à une politique de consentement récemment mise à jour, les modifications ne sont pas appliquées immédiatement.
 
-De même, si de nouveaux attributs de profil soumis à une politique de consentement sont ajoutés à une politique de décision, ils seront utilisables, mais la politique de consentement qui leur est associée ne sera pas appliquée tant que le délai ne sera pas écoulé.
+De même, de nouveaux attributs de profil soumis à une politique de consentement peuvent être ajoutés à une politique de décision et utilisés. La politique de consentement associée ne sera pas appliquée tant que le délai n’aura pas expiré.
 
 Les politiques de consentement ne sont actuellement disponibles que pour les organisations disposant des modules complémentaires Adobe Healthcare Shield et Privacy and Security Shield.
 
@@ -114,7 +114,7 @@ Pour tirer parti de la sortie d’une activité Décision de contenu, vous pouve
 
    >[!NOTE]
    >
-   >Tout libellé restreint défini sur un attribut, soit dans un événement d’expérience de parcours utilisé dans une règle de décision (en tant que données contextuelles), soit dans le [schéma d’offres](../experience-decisioning/catalogs.md#access-catalog-schema), n’entraîne pas de violation de la politique DULE ou de la politique de consentement. Pour en savoir plus sur les politiques de gouvernance des données, consultez [cette section](../action/action-privacy.md).
+   >Toute étiquette restreinte définie sur un attribut peut entraîner une violation de la politique pour DULE ou le consentement. Cela s’applique aux événements d’expérience de parcours utilisés dans une règle de décision et au [schéma d’offres](../experience-decisioning/catalogs.md#access-catalog-schema). En savoir plus sur les politiques de gouvernance des données dans [cette section](../action/action-privacy.md).
 
 1. Pour vérifier si une offre a été renvoyée pour les profils qui rejoignent le parcours, utilisez la fonction [listSize](functions/list-functions.md#listSize) avec la syntaxe suivante : `listSize(@decision{ContentdecisionName.items})>0`
 

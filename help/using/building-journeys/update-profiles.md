@@ -10,10 +10,10 @@ level: Intermediate
 keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '669'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 88%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="Mettre à jour l&#39;activité du profil"
->abstract="L&#39;activité d&#39;action Mettre à jour le profil vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l&#39;événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique."
+>abstract="L&#39;activité d&#39;action Mettre à jour le profil vous permet de mettre à jour un profil de [!DNL Adobe Experience Platform] existant avec des informations provenant de l&#39;événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique."
 
-Utilisez l’activité d&#39;action **[!UICONTROL Mettre à jour le profil]** pour mettre à jour un profil Adobe Experience Platform existant avec des informations provenant d’un événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique.
+Utilisez l&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** pour mettre à jour un profil de [!DNL Adobe Experience Platform] existant avec des informations provenant d&#39;un événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique.
 
 ## Principaux concepts {#key-concepts}
 
 * L’action **Mettre à jour le profil** ne peut être utilisée que dans les parcours qui possèdent un espace de noms.
 * L&#39;action ne met à jour que les champs existants, elle ne crée pas de nouveaux champs de profil.
-* Vous ne pouvez pas utiliser l&#39;action **Mettre à jour le profil** pour générer des événements d&#39;expérience, par exemple un achat.
+* Vous ne pouvez pas utiliser l’action **Mettre à jour le profil** pour générer des événements d’expérience, par exemple un achat.
 * Comme toute autre action, vous pouvez définir un chemin alternatif en cas d&#39;erreur ou de temporisation, et vous ne pouvez pas placer deux actions en parallèle.
-* La demande de mise à jour envoyée à Adobe Experience Platform est immédiate/inférieure à une seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action **Mettre à jour le profil** positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour du « champ 1 » dans l&#39;action.
+* La demande de mise à jour envoyée à [!DNL Adobe Experience Platform] est immédiate/inférieure à une seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action **Mettre à jour le profil** positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour du « champ 1 » dans l&#39;action.
 * L’activité **Mettre à jour le profil** ne prend pas en charge les champs XDM définis comme des énumérations ou des valeurs suggérées.
 * L’activité **[!UICONTROL Mettre à jour un profil]** met seulement à jour le [magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"} et non le lac de données.
 
@@ -81,6 +81,6 @@ L’action **Mettre à jour un profil** est maintenant configurée.
 
 En mode test, la mise à jour du profil ne sera pas simulée. La mise à jour sera effectuée sur le profil de test.
 
-Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Dans Adobe Experience Platform, vous pouvez mettre à jour les attributs de profil par le biais d&#39;un import de fichier csv ou d&#39;appels d&#39;API. Une méthode plus simple consiste à utiliser une activité d&#39;action **Mettre à jour le profil** et à redéfinir le champ booléen du profil de test de false à true.
+Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Dans [!DNL Adobe Experience Platform], vous pouvez mettre à jour les attributs de profil par le biais d’un import de fichier CSV ou d’appels API. Une méthode plus simple consiste à utiliser une activité d&#39;action **Mettre à jour le profil** et à redéfinir le champ booléen du profil de test de false à true.
 
 Pour plus d&#39;informations sur la façon de transformer un profil existant en profil de test, consultez [cette section](../audience/creating-test-profiles.md#create-test-profiles-csv).

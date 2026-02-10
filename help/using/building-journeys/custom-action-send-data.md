@@ -9,20 +9,20 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: parcours, cas d’utilisation
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 80%
 
 ---
 
-# Cas d’utilisation : créer une action personnalisée pour envoyer des données à Adobe Experience Platform{#send-data-to-aep}
+# Cas d’utilisation : création d’une action personnalisée pour envoyer des données à [!DNL Adobe Experience Platform]{#send-data-to-aep}
 
-Si vous avez récemment migré vers un autre fournisseur de services de messagerie, dʼadresse IP ou de domaine ou sous-domaine de messagerie, vous devez asseoir votre réputation d’expéditeur. Dans le cas contraire, vos diffusions risquent dʼêtre bloquées voire déplacées dans le dossier des courriers indésirables de la boîte aux lettres des destinataires. Découvrez comment accroître la réputation de vos e-mails grâce au préchauffage dʼadresses IP dans le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr){target="_blank"}.
+Si vous avez récemment changé de fournisseur de services de messagerie, d&#39;adresse IP, de domaine ou de sous-domaine de messagerie, établissez votre réputation en tant qu&#39;expéditeur. Dans le cas contraire, les diffusions peuvent être bloquées ou déplacées vers les dossiers de spam des destinataires. Pour obtenir des conseils, consultez le [ Guide des bonnes pratiques en matière de délivrabilité ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr){target="_blank"}.
 
 Pour préchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. En savoir plus sur lʼ[optimisation de la délivrabilité dans Journey Optimizer](../reports/deliverability.md).
 
-Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffusions e-mail. Pour configurer ce parcours, procédez comme suit :
+Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffusions e-mail. Pour configurer ce parcours, procédez comme suit:
 
 1. Créez un parcours. [En savoir plus](journey-gs.md).
 

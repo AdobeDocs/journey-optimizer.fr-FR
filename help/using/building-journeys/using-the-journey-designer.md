@@ -10,10 +10,10 @@ level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 100%
+source-wordcount: '1744'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >title="Concevoir votre parcours"
 >abstract="L&#39;interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l&#39;ajouter dans la zone de travail à la prochaine étape disponible."
 
-Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter à la zone de travail à la prochaine étape disponible.
+[!DNL Adobe Journey Optimizer] comprend une zone de travail d’orchestration omnicanal qui permet aux marketeurs d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter à la zone de travail à la prochaine étape disponible.
 
 Les activités d’événement, d’orchestration et d’action ont un rôle et une place spécifiques dans le processus. Les activités sont séquencées : lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, et ainsi de suite.
 
@@ -72,7 +72,7 @@ Il existe deux possibilités :
 
 1. **Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les individus rejoignent le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
 
-1. **Débuter avec une lecture d’audience** : vous pouvez définir votre parcours pour écouter les audiences Adobe Experience Platform. Dans ce cas, toutes les personnes appartenant à l’audience spécifiée rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux personnes appartenant à l’audience. En savoir plus sur la [lecture d’audience](read-audience.md). Pour plus d’informations sur la génération et le ciblage d’audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
+1. **Commencez avec une Lecture d’audience** : vous pouvez définir votre parcours pour écouter les audiences [!DNL Adobe Experience Platform]. Dans ce cas, toutes les personnes appartenant à l’audience spécifiée rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux personnes appartenant à l’audience. En savoir plus sur la [lecture d’audience](read-audience.md). Pour plus d’informations sur la génération et le ciblage d’audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
 
 ## Définir les étapes suivantes{#define-next-steps}
 
@@ -88,13 +88,13 @@ Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition
 
 Vous pouvez également ajouter un événement de **réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d&#39;envoyer un autre message si l&#39;individu a ouvert le message précédent ou cliqué dessus. [En savoir plus sur les événements de réaction](reaction-events.md).
 
-Utilisez l’activité d’événement **Qualification d’audience** pour faire en sorte que des personnes rejoignent un parcours ou y progressent en fonction des entrées et des sorties d’audiences Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](audience-qualification-events.md).
+Utilisez l’activité d’événement **Qualification d’audience** pour faire en sorte que des individus rejoignent un parcours ou y progressent en fonction des entrées et des sorties [!DNL Adobe Experience Platform] de l’audience. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](audience-qualification-events.md).
 
 ### Orchestration{#jo-orch}
 
 Les activités d’orchestration sont des conditions différentes qui permettent de déterminer l’étape suivante du parcours.
 
-Dans les activités d’orchestration, utilisez l’activité **Lecture d’audience** pour définir votre parcours pour écouter une audience Adobe Experience Platform. [En savoir plus sur l’activité Lecture d’audience](read-audience.md).
+Dans les activités d’orchestration, utilisez l’activité **Lecture d’audience** pour définir votre parcours d’écoute d’une audience [!DNL Adobe Experience Platform]. [En savoir plus sur l’activité Lecture d’audience](read-audience.md).
 
 Les autres activités vous permettent d’ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d’attente avant l’exécution de l’activité suivante, ou de terminer votre parcours. [En savoir plus sur les activités d’orchestration](about-journey-activities.md#orchestration-activities).
 

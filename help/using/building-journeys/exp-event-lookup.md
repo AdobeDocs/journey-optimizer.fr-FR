@@ -5,10 +5,10 @@ title: Recherche d’événements d’expérience dans les parcours
 description: Découvrez comment utiliser la recherche d’événements d’expérience dans les parcours.
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 87%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->À compter du 8 juillet 2025, dans les nouvelles organisations clients, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées ci-dessous.
+>À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées ci-dessous.
 >
 >Vous avez besoin de plus d’informations ? [Consultez les questions fréquentes](#faq-ee).
 
-Cette page décrit les modèles courants et les approches évolutives pour vous permettre de tirer le meilleur parti des événements d’expérience dans Adobe Journey Optimizer. Ces cas d’utilisation ont été conçus pour vous aider à résoudre les défis courants tels que la gestion des opt-outs, le contrôle de la fréquence des messages, la personnalisation du contenu en fonction du comportement des utilisateurs et des utilisatrices et la réaction aux signaux en temps réel.
+Cette page décrit les modèles courants et les approches évolutives pour vous aider à tirer le meilleur parti des événements d’expérience dans [!DNL Adobe Journey Optimizer]. Ces cas d’utilisation ont été conçus pour vous aider à résoudre les défis courants tels que la gestion des opt-outs, le contrôle de la fréquence des messages, la personnalisation du contenu en fonction du comportement des utilisateurs et des utilisatrices et la réaction aux signaux en temps réel.
 
 En utilisant ces stratégies, vous pouvez transformer des données comportementales en actions significatives, à savoir la suppression, la qualification ou l’exclusion de profils en fonction des événements qu’ils déclenchent ou des attributs qu’ils possèdent. Que vous élaboriez une logique pour les seuils d’achat, les déclencheurs d’abandon ou la gestion des rebonds, ces exemples vous fournissent des conseils pratiques que vous pouvez adapter à vos besoins.
 
@@ -34,12 +34,12 @@ En savoir plus :
 
 * [Gérer le consentement](../privacy/opt-out.md)
 * [Gestion des opt-outs pour les e-mails](../email/email-opt-out.md)
-* [Gestion des opt-outs pour les SMS](../sms/sms-opt-out.md)
+* [Gestion des droits d’opposition pour les messages texte](../sms/sms-opt-out.md)
 
 
 ## Suppression basée sur les rebonds
 
-Pour exclure les profils qui ont connu des rebonds d’e-mails, utilisez la liste de suppression automatique d’Adobe Journey Optimizer pour les adresses qui ont fait l’objet de rebonds. Ce mécanisme intégré garantit que les e-mails non valides ou inatteignables sont exclus des envois futurs sans nécessiter de logique personnalisée.
+Pour exclure les profils qui ont subi des rebonds d’e-mails, utilisez la liste de suppression automatique de [!DNL Adobe Journey Optimizer] pour les adresses qui ont fait l’objet de rebonds. Ce mécanisme intégré garantit que les e-mails non valides ou inatteignables sont exclus des envois futurs sans nécessiter de logique personnalisée.
 
 En savoir plus :
 
@@ -52,9 +52,9 @@ Pour supprimer des profils qui ont manifesté des comportements spécifiques, ut
 
 En savoir plus :
 
-* [Créateur de segments - Événements](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"} Adobe Experience Platform
+* [!DNL Adobe Experience Platform] [Créateur de segments - Événements](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [Créateur de segments - Contraintes temporelles](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"} Adobe Experience Platform
+* [!DNL Adobe Experience Platform] [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +71,9 @@ Pour empêcher l’envoi de messages aux profils qui ont reçu des communication
 
 En savoir plus sur l’utilisation des audiences :
 
-* [Créateur de segments - Événements](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"} Adobe Experience Platform
+* [!DNL Adobe Experience Platform] [Créateur de segments - Événements](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [Créateur de segments - Contraintes temporelles](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"} Adobe Experience Platform
+* [!DNL Adobe Experience Platform] [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +93,9 @@ Pour inclure ou exclure des profils en fonction d’un message reçu spécifique
 
 En savoir plus :
 
-* [Créateur de segments - Événements](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"} Adobe Experience Platform
+* [!DNL Adobe Experience Platform] [Créateur de segments - Événements](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [Créateur de segments - Contraintes temporelles](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"} Adobe Experience Platform
+* [!DNL Adobe Experience Platform] [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +105,8 @@ En savoir plus :
 
 Pour personnaliser les communications en fonction des derniers événements liés au panier ou à la navigation sur plusieurs types de panier ou consultations de produits :
 
-* Si vous avez accès à [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configurez des requêtes automatisées pour extraire les données requises de l’événement, manipulez-les pour les adapter au cas d’utilisation, puis réécrivez-les dans un jeu de données compatible avec les profils pour activation.
-* Si les données d’abandon peuvent être modélisées sur le profil avec des attributs scalaires, envisagez d’utiliser des attributs calculés pour capturer les dernières informations, puis de référencer ces attributs dans le parcours pour créer la communication. [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Si vous avez accès à [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configurez des requêtes automatisées pour extraire les données requises de l’événement, les manipuler pour les adapter au cas d’utilisation et les réécrire dans un jeu de données activé pour un profil pour activation.
+* Si les données d’abandon peuvent être modélisées sur le profil avec des attributs scalaires, envisagez d’utiliser des attributs calculés pour capturer les dernières informations, puis de référencer ces attributs dans le parcours pour créer la communication. [En savoir plus dans  [!DNL Adobe Experience Platform]  documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Sortie du parcours basée sur le comportement
@@ -123,7 +123,7 @@ Pour déclencher des parcours en fonction des achats et procéder à une suppres
 
 En savoir plus :
 
-* [Vue d’ensemble des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview){target="_blank"} Adobe Experience Platform
+* [!DNL Adobe Experience Platform] [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -131,7 +131,7 @@ En savoir plus :
 
 Vous trouverez ci-dessous les questions fréquentes sur la recherche d’événements d’expérience dans les parcours.
 
-Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou communiquer avec [[!DNL Adobe Journey Optimizer] communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
 +++Quelles fonctionnalités spécifiques sont affectées ? 
 

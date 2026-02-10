@@ -2,23 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Envoyer des e-mails uniquement les jours de la semaine
-description: Découvrez comment configurer un parcours pour envoyer des e-mails uniquement les jours de la semaine dans Adobe Journey Optimizer.
+description: Découvrez comment configurer un parcours pour envoyer des e-mails uniquement les jours de la semaine dans  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Use Cases, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: parcours, cas d’utilisation, jours de la semaine, condition, e-mail, planification
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+exl-id: 2f313e59-ee50-473c-9346-8859889346ec
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 100%
+source-wordcount: '1065'
+ht-degree: 90%
 
 ---
 
 # Envoyer des e-mails uniquement les jours de la semaine {#send-emails-only-on-weekdays}
 
-Ce cas pratique montre comment configurer un parcours dans Adobe Journey Optimizer qui envoie des e-mails uniquement les jours de la semaine (du lundi au vendredi). Pour les profils qui rejoignent le parcours le week-end (samedi ou dimanche), les e-mails sont automatiquement mis en file d’attente et envoyés le lundi à une heure spécifiée. Cela garantit un engagement optimal en diffusant des messages pendant la semaine de travail.
+Ce cas pratique montre comment configurer un parcours dans [!DNL Adobe Journey Optimizer] qui envoie des e-mails uniquement les jours de la semaine (du lundi au vendredi). Pour les profils qui rejoignent le parcours le week-end (samedi ou dimanche), les e-mails sont automatiquement mis en file d’attente et envoyés le lundi à une heure spécifiée. Cela garantit un engagement optimal en diffusant des messages pendant la semaine de travail.
 
 ## Vue d’ensemble de cas d’utilisation
 
@@ -32,14 +33,16 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 >[!NOTE]
 >
->Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou un [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours ](condition-activity.md) et des [expressions](expression/expressionadvanced.md).
+>Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance [!DNL Adobe Journey Optimizer] active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours ](condition-activity.md) et des [expressions](expression/expressionadvanced.md).
 
 
 ## Étapes dʼimplémentation
 
+Suivez ces étapes pour créer un flux d’e-mail en semaine uniquement.
+
 ### Étape 1 : créer votre parcours
 
-1. Accédez à **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Parcours]** dans Adobe Journey Optimizer.
+1. Accédez à **[!UICONTROL Gestion des Parcours]** > **[!UICONTROL Parcours]** dans [!DNL Adobe Journey Optimizer].
 
 1. Cliquez sur **[!UICONTROL Créer un parcours]** pour [créer un parcours](journey-gs.md).
 
@@ -149,7 +152,7 @@ Ainsi, tous les e-mails sont envoyés uniquement les jours de la semaine, les en
 
 ### Étape 6 : tester votre parcours
 
-Avant de publier, testez minutieusement votre logique de parcours dans le mode test d’Adobe Journey Optimizer pour confirmer que tout fonctionne comme prévu :
+Avant de publier, testez minutieusement votre logique de parcours en mode test de [!DNL Adobe Journey Optimizer] pour confirmer que tout fonctionne comme prévu :
 
 1. Cliquez sur le bouton **[!UICONTROL Tester]** en haut à droite.
 

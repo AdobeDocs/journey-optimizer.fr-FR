@@ -10,10 +10,10 @@ level: Intermediate
 keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '896'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,9 @@ Dans le parcours B, le premier événement est déclenché en interne via l’a
 >
 >Le parcours B peut également être déclenché par un événement externe.
 
-## Bonnes pratiques et restrictions {#jump-limitations}
+## Bonnes pratiques et limites {#jump-limitations}
+
+Suivez ces instructions pour que le comportement de l’activité Saut reste prévisible et sûr.
 
 ### Création {#jump-limitations-authoring}
 
@@ -112,7 +114,7 @@ Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, u
 
 ![Flux du parcours affichant le saut du parcours source vers le parcours cible](assets/jump7.png)
 
-## Résolution des problèmes {#jump-troubleshoot}
+## Dépannage {#jump-troubleshoot}
 
 Des erreurs se produisent si :
 

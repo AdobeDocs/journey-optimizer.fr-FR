@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, événements, réaction, tracking, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="Événements de réaction"
->abstract="Cette activité vous permet de réagir aux données de suivi liées à un message envoyé au sein du même parcours. Ces données sont collectées en temps réel au moment de leur partage avec Adobe Experience Platform."
+>abstract="Cette activité vous permet de réagir aux données de suivi liées à un message envoyé au sein du même parcours. Nous recueillons ces informations en temps réel au moment où elles sont partagées avec [!DNL Adobe Experience Platform]."
 
 ## Vue d’ensemble {#overview}
 
-Parmi les différentes activités d’événement disponibles dans la palette, vous trouverez l’événement **[!UICONTROL Réactions]** intégré. Cette activité vous permet de réagir aux données de suivi liées à un message envoyé au sein du même parcours. Ces données sont collectées en temps réel au moment de leur partage avec Adobe Experience Platform.
+Parmi les différentes activités d’événement disponibles dans la palette, vous trouverez l’événement **[!UICONTROL Réactions]** intégré. Cette activité vous permet de réagir aux données de suivi liées à un message envoyé au sein du même parcours. Nous recueillons ces informations en temps réel au moment où elles sont partagées avec [!DNL Adobe Experience Platform].
 
 Vous pouvez réagir aux messages ouverts ou qui ont fait l’objet d’un clic. Par exemple, vous pouvez envoyer un autre message si un individu a ouvert l’e-mail précédent ou cliqué dessus, ou envoyer un autre message de relance si elle n’a pas interagi avec votre communication.
 

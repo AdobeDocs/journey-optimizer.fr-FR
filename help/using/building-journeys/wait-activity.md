@@ -10,10 +10,10 @@ level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 82%
+source-wordcount: '906'
+ht-degree: 98%
 
 ---
 
@@ -38,6 +38,8 @@ Vous pouvez définir deux types d’activité **Attente** :
 
 ## Recommandations {#wait-recommendations}
 
+Utilisez ces recommandations pour garantir la prévisibilité et la sécurité des attentes.
+
 ### Activités Attente multiples {#multiple-wait-activities}
 
 Lorsque vous utilisez plusieurs activités **Attente** dans un parcours, gardez à l’esprit que le [délai d’expiration global](journey-properties.md#global_timeout) du parcours est de 91 jours, ce qui signifie qu’un profil quittera toujours le parcours au maximum 91 jours après y être entré. En savoir plus sur [cette page](journey-properties.md#global_timeout).
@@ -57,6 +59,8 @@ En mode test, le paramètre **[!UICONTROL Durée d’attente en test]** vous per
 Si vous souhaitez afficher un [message in-app](../in-app/create-in-app.md) peu après l’envoi d’une [notification push](../../rp_landing_pages/push-landing-page.md), utilisez une activité **Attente** pour permettre à la payload du message in-app de se propager. En règle générale, une attente de 5 à 15 minutes est recommandée, mais les heures exactes peuvent varier en fonction de la complexité de la payload et des besoins de personnalisation.
 
 ## Configuration {#wait-configuration}
+
+Configurez la durée et le minutage de l’attente ici.
 
 ### Durée de l’attente {#duration}
 
@@ -104,14 +108,14 @@ Pour vérifier que l’activité d’attente fonctionne comme prévu, vous pouve
 
 ## Actualisation du profil après l’attente {#profile-refresh}
 
-Lorsqu’un profil est parqué à une activité **Attente** dans un parcours commençant par une activité **Lecture d’audience**, le parcours actualise automatiquement les attributs du profil à partir du service de profil unifié (UPS) pour récupérer les dernières données disponibles.
+Lorsqu’un profil est mis dans une activité **Attente** dans un parcours commençant par une activité **Lecture d’audience**, le parcours actualise automatiquement les attributs du profil à partir du service de profil unifié (UPS) pour récupérer les dernières données disponibles.
 
-* **À l’entrée du parcours** : les profils utilisent des valeurs d’attribut de l’instantané d’audience qui a été évalué au démarrage du parcours.
-* **Après un nœud d’attente** : le parcours effectue une recherche pour récupérer les dernières données de profil de l’onduleur, et non les anciennes données d’instantané. Cela signifie que les attributs de profil peuvent avoir changé depuis le début du parcours.
+* **À l’entrée du parcours** : les profils utilisent des valeurs d’attribut de l’instantané d’audience qui a été évalué au démarrage du parcours.
+* **Après un nœud d’attente** : le parcours effectue une recherche pour récupérer les dernières données de profil d’UPS, et non les anciennes données d’instantané. Cela signifie que les attributs de profil peuvent avoir changé depuis le début du parcours.
 
 Ce comportement garantit que les activités en aval utilisent les informations de profil actuelles après une période d’attente. Cependant, cela peut produire des résultats inattendus si vous prévoyez que le parcours n’utilise que les données d’instantané d’origine pendant l’exécution.
 
-Exemple : si un profil est qualifié pour une audience « client(e) Silver » au début du parcours, mais passe à « client(e) Gold » pendant une attente de 3 jours, les activités après l’attente verront le statut « client(e) Gold » mis à jour.
+Exemple : si un profil est qualifié pour une audience « client ou cliente Silver » au début du parcours, mais passe à « client ou cliente Gold » pendant une attente de 3 jours, les activités après l’attente verront le statut « client ou cliente Gold » mis à jour.
 
 ## Nœud d’attente automatique  {#auto-wait-node}
 

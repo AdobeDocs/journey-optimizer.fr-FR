@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Définir les propriétés de votre parcours
-description: Découvrir comment définir les propriétés de votre parcours avec Adobe Journey Optimizer
+description: Découvrez comment définir les propriétés de votre parcours avec  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2866'
-ht-degree: 99%
+source-wordcount: '2859'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Dans cette section, choisissez le nom du parcours, ajoutez une description et d�
 
 Vous pouvez effectuer les actions suivantes :
 
-* Attribuer des balises unifiées Adobe Experience Platform à votre parcours afin de les classer facilement et d’améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
+* Attribuez [!DNL Adobe Experience Platform] balises unifiées à votre parcours pour les classer facilement et améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
 * Sélectionner les mesures du parcours. [Découvrir comment configurer et suivre vos mesures de parcours.](success-metrics.md)
 * Gérer [l’entrée et la rentrée](#entrance). La gestion des entrées de profils dépend du type de parcours. Pour plus d’informations, consultez [cette page](entry-management.md).
 * Gérer l’[accès aux données](#manage-access)
@@ -87,7 +87,7 @@ Pour attribuer des libellés d’utilisation des données personnalisés au parc
 
 ## Fuseaux horaires des parcours et des profils {#timezone}
 
-Le fuseau horaire est défini au niveau du parcours. Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Adobe Experience Platform pour définir le fuseau horaire du parcours. Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
+Le fuseau horaire est défini au niveau du parcours. Vous pouvez saisir un fuseau horaire fixe ou utiliser des profils de [!DNL Adobe Experience Platform] pour définir le fuseau horaire du parcours. Si un fuseau horaire est défini dans [!DNL Adobe Experience Platform] profil, il peut être récupéré dans le parcours.
 
 [En savoir plus sur la gestion des fuseaux horaires](../building-journeys/timezone-management.md)
 
@@ -108,6 +108,8 @@ Par défaut, les profils peuvent rejoindre votre parcours dès qu’il est publi
 Si nécessaire, vous pouvez définir une **date de début** et une **date de fin** personnalisées. Les profils peuvent ainsi rejoindre votre parcours à une date spécifique et en sortir automatiquement à la date de fin.
 
 ## Temporisation {#timeout}
+
+Les paramètres de temporisation contrôlent la durée pendant laquelle un parcours attend l’exécution de l’activité et la durée pendant laquelle les profils peuvent rester dans un parcours.
 
 ### Temporisation des activités du parcours {#timeout_and_error}
 
@@ -140,7 +142,7 @@ Une personne ne peut entrer dans une activité d’attente que si elle dispose d
 
 #### Questions fréquentes sur la durée de vie (TTL) et la rétention des données {#timeout-faq}
 
-À compter de la version de juin 2024 d’Adobe Journey Optimizer, la temporisation globale du parcours est passée de 30 à 91 jours. Les éléments affectés sont répertoriés dans les questions fréquentes ci-dessous :
+Depuis [!DNL Adobe Journey Optimizer] version de juin 2024, le délai d’expiration global par parcours est passé de 30 à 91 jours. Les éléments affectés sont répertoriés dans les questions fréquentes ci-dessous :
 
 **Pour les parcours unitaires**
 
@@ -250,15 +252,15 @@ Une personne ne peut entrer dans une activité d’attente que si elle dispose d
 
 ## Politiques de fusion {#merge-policies}
 
-Adobe Journey Optimizer utilise des politiques de fusion lors de la récupération des données de profil d’Adobe Experience Platform. Selon le type de parcours, différentes politiques de fusion sont utilisées :
+[!DNL Adobe Journey Optimizer] utilise des politiques de fusion lors de la récupération des données de profil de [!DNL Adobe Experience Platform]. Selon le type de parcours, différentes politiques de fusion sont utilisées :
 
 * Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée.
 * Dans les parcours d’événements unitaires : la politique de fusion par défaut est utilisée.
 * Dans les parcours d’événements métier : la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée.
 
-Adobe Journey Optimizer applique la politique de fusion utilisée tout au long du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions [`inAudience`](functions/functioninaudience.md)), ce qui crée des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque celle-ci est utilisée dans la personnalisation des messages.
+[!DNL Adobe Journey Optimizer] applique la politique de fusion utilisée dans l’ensemble du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions [`inAudience`](functions/functioninaudience.md)), ce qui crée des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque celle-ci est utilisée dans la personnalisation des messages.
 
-Pour en savoir plus sur les politiques de fusion, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Pour en savoir plus sur les politiques de fusion, consultez la [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
@@ -344,7 +346,7 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
-* [Comment se terminent les parcours &#x200B;](end-journey.md) : comprenez la fin naturelle des parcours.
+* [Comment se terminent les parcours ](end-journey.md) : comprenez la fin naturelle des parcours.
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) : utilisez des critères de sortie lors de la mise en pause des parcours.
 
 ## Planning du parcours {#schedule}

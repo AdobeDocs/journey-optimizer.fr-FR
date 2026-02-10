@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1943'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -30,14 +30,16 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 >[!NOTE]
 >
->Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment vérifier les erreurs avant le test dans [cette section](../building-journeys/troubleshooting.md). Si les profils de test ne progressent pas en mode test, voir [résolution des problèmes liés aux transitions en mode test](troubleshooting-execution.md#troubleshooting-test-transitions).
+>Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment rechercher des erreurs avant d’effectuer des tests dans [cette section](../building-journeys/troubleshooting.md). Si les profils de test ne progressent pas en mode test, voir [résolution des problèmes liés aux transitions en mode test](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Remarques importantes {#important_notes}
+
+Consultez ces notes avant d’exécuter des tests dans votre parcours.
 
 ### Limites générales
 
 * **Profils de test uniquement** : seuls les individus indiqués comme « profils de test » dans le service de profil client en temps réel peuvent rejoindre un parcours en mode test. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md).
-* **Exigence d’espace de noms** : le mode test n’est disponible que pour les brouillons de parcours qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
+* **Exigence d’espace de noms** : le mode test n’est disponible que pour les brouillons de parcours qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui entre dans le parcours est un profil de test ou non et doit donc être en mesure d’atteindre [!DNL Adobe Experience Platform].
 * **Limite de profil** : un maximum de 100 profils de test peuvent rejoindre un parcours au cours d’une seule session de test.
 * **Déclenchement d’événement** : les événements ne peuvent être déclenchés qu’à partir de l’interface. Les événements ne peuvent pas être déclenchés à partir de systèmes externes à l’aide d’une API.
 * **Audiences de chargement personnalisées** : le mode test de parcours ne prend pas en charge l’enrichissement d’attributs d’[audience de chargement personnalisée](../audience/custom-upload.md).
@@ -53,10 +55,10 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 * **Comportement de partage** : lorsque le parcours atteint un partage, la branche supérieure est toujours sélectionnée. Réorganisez les branches si vous souhaitez tester un autre chemin.
 * **Timing des événements** : si le parcours comprend plusieurs événements, déclenchez chaque événement en séquence. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
-* **Fenêtre de date active** : assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement. En savoir plus sur la résolution de ce problème [sur cette page](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Fenêtre de date active** : assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement. Pour en savoir plus sur le dépannage de ce problème, consultez [cette page](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Événements de réaction** : pour les événements de réaction avec une temporisation, le temps d’attente minimum et par défaut est de 40 secondes.
 * **Jeux de données de test** : les événements déclenchés en mode test sont stockés dans des jeux de données dédiés libellés comme suit : `JOtestmode - <schema of your event>`
-* **Infrastructure partagée** - Le mode test s’exécute sur la même infrastructure que la production. Pendant les périodes de trafic élevé, vous pouvez remarquer des retards dans les envois d’e-mails ou le traitement des événements. Dans ce cas, vérifiez les tableaux de bord de trafic de la plateforme ou réessayez vos tests en dehors des heures de pointe.
+* **Infrastructure partagée** : le mode test s’exécute sur la même infrastructure que la production. Pendant les périodes de trafic élevé, vous pouvez remarquer des retards dans les envois d’e-mails ou le traitement des événements. Dans ce cas, vérifiez les tableaux de bord de trafic de la plateforme ou réessayez vos tests en dehors des heures de pointe.
 
 <!--
 * Fields from related entities are hidden from the test mode.
@@ -104,7 +106,7 @@ Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer u
 
 ### Conditions préalables {#trigger-events-prerequisites}
 
-Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test n’autorise ces profils que dans le parcours.
+Vous devez, au préalable, savoir quels profils sont marqués comme profils de test dans [!DNL Adobe Experience Platform]. En effet, le mode test n’autorise ces profils que dans le parcours.
 
 L’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse e-mail, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identifiant du profil**.
 
@@ -190,5 +192,5 @@ Voici les différents statuts du parcours d’une personne :
 
 Lorsqu’un événement est déclenché en mode test, un jeu de données est automatiquement généré avec le nom de la source.
 
-Le mode test crée automatiquement un événement d’expérience et l’envoie à Adobe Experience Platform. Le nom de la source de cet événement d’expérience est « Événements de test Journey Orchestration ».
+Le mode test crée automatiquement un événement d’expérience et l’envoie à [!DNL Adobe Experience Platform]. Le nom de la source de cet événement d’expérience est « Événements de test Journey Orchestration ».
 

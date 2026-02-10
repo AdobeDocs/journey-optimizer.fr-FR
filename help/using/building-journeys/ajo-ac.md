@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Envoi de messages à l'aide de Campaign v7/v8
+title: Envoi de messages à l’aide de Campaign v7/v8
 description: Découvrez comment envoyer un message à l'aide de Campaign v7/v8
 feature: Journeys, Integrations, Custom Actions, Use Cases
 topic: Administration
@@ -10,16 +10,16 @@ level: Intermediate, Experienced
 keywords: parcours, message, campagne, intégration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '470'
+ht-degree: 85%
 
 ---
 
 # Envoyer un message avec Campaign v7/v8 {#campaign-v7-v8-use-case}
 
-Ce cas d’utilisation explique toutes les étapes nécessaires pour envoyer un e-mail à l’aide de l’intégration à Adobe Campaign v7 et Adobe Campaign v8.
+Ce cas pratique décrit toutes les étapes requises pour envoyer un e-mail à l’aide de l’intégration à [!DNL Adobe Campaign] v7 et [!DNL Adobe Campaign] v8.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Pour en savoir plus sur l’intégration de Campaign, consultez les pages suivan
 * [Création d&#39;une action Campaign](../action/acc-action.md)
 * [Utilisation de l&#39;action dans un parcours](../building-journeys/using-adobe-campaign-v7-v8.md).
 
-**Adobe Campaign**
+**[!DNL Adobe Campaign]**
 
 Votre instance de Campaign doit être approvisionnée pour cette intégration. La fonctionnalité de messagerie transactionnelle doit être configurée.
 
@@ -40,7 +40,7 @@ Votre instance de Campaign doit être approvisionnée pour cette intégration. L
 
 1. Sous **Administration** > **Plateforme** > **Énumérations**, sélectionnez l&#39;énumération **Type d&#39;événement** (eventType). Créez un type d&#39;événement (« journey-event », dans notre exemple). Utilisez le nom interne du type d’événement lors de l’écriture ultérieure du fichier JSON.
 
-   ![Configurer un événement dans Adobe Journey Optimizer avec la sélection de schémas et de champs](assets/accintegration-uc-1.png)
+   ![Configuration d’un événement en [!DNL Adobe Journey Optimizer] avec la sélection de schémas et de champs](assets/accintegration-uc-1.png)
 
 1. Déconnectez-vous et reconnectez-vous à l’instance pour que la création prenne effet.
 
@@ -48,7 +48,7 @@ Votre instance de Campaign doit être approvisionnée pour cette intégration. L
 
    ![Configuration des événements affichant les paramètres d’espace de noms et d’identifiant de profil](assets/accintegration-uc-2.png)
 
-1. Concevez votre modèle. Dans cet exemple, la personnalisation est utilisée sur le prénom et le numéro de commande du profil. Le prénom se trouve dans la source de données Adobe Experience Platform et le numéro de commande est un champ de l’événement Journey Optimizer. Veillez à utiliser les noms de champ corrects dans Campaign.
+1. Concevez votre modèle. Dans cet exemple, la personnalisation est utilisée sur le prénom et le numéro de commande du profil. Le prénom se trouve dans la source de données [!DNL Adobe Experience Platform] et le numéro de commande est un champ de l’événement Journey Optimizer. Veillez à utiliser les noms de champ corrects dans Campaign.
 
    ![Aperçu de la payload d’événement affichant la structure JSON avec les données de profil et d’événement](assets/accintegration-uc-3.png)
 
@@ -78,11 +78,11 @@ Votre instance de Campaign doit être approvisionnée pour cette intégration. L
 
 1. Créez un événement. Incluez le champ « purchaseOrderNumber ».
 
-   ![Écran de configuration d’une action personnalisée pour l’intégration d’Adobe Campaign Classic](assets/accintegration-uc-5.png)
+   ![Écran de configuration d’une action personnalisée pour l’intégration [!DNL Adobe Campaign] Classic](assets/accintegration-uc-5.png)
 
-1. Créez une action dans Journey Optimizer correspondant à votre modèle Campaign. Dans le menu déroulant **Type d’action**, sélectionnez **Adobe Campaign Classic**.
+1. Créez une action dans Journey Optimizer correspondant à votre modèle Campaign. Dans le menu déroulant **Type d’action**, sélectionnez **[!DNL Adobe Campaign]Classique**.
 
-   ![Sélection du type d’action affichant l’option Adobe Campaign Classic ](assets/accintegration-uc-6.png)
+   ![Sélection du type d’action affichant [!DNL Adobe Campaign] option Classic](assets/accintegration-uc-6.png)
 
 1. Cliquez sur le **champ Payload** et collez le JSON créé précédemment.
 

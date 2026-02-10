@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 79%
+source-wordcount: '1592'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ Dans cette section, découvrez comment résoudre les problèmes liés aux évén
 
 Vous pouvez également résoudre les erreurs avant de tester ou de publier un parcours. Découvrez comment procéder [sur cette page](troubleshooting.md).
 
-Si vous utilisez des actions entrantes, découvrez comment résoudre les problèmes liés à ces dernières [sur cette page](troubleshooting-inbound.md).
+Si vous utilisez des actions entrantes, découvrez comment résoudre les problèmes liés à ces dernières [dans cette page](troubleshooting-inbound.md).
 
 ## Vérifier l’envoi correct des événements {#checking-that-events-are-properly-sent}
 
@@ -31,7 +31,7 @@ Le point de départ d&#39;un parcours est toujours un événement. Il est possib
 
 Vous pouvez ainsi vérifier si l&#39;appel d&#39;API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l&#39;en-tête (et en particulier l&#39;identifiant d&#39;organisation) et l&#39;URL de destination. Vous pouvez demander à votre administrateur l&#39;URL appropriée pour l&#39;accès.
 
-Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours s’appuient sur les API d’ingestion en flux continu d’Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez consulter la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr){target="_blank"} pour la résolution des problèmes liés aux API d’ingestion en flux continu.
+Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours s’appuient sur les API d’ingestion en flux continu d’[!DNL Adobe Experience Platform]. En cas de problèmes relatifs aux événements, vous pouvez donc consulter la [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr){target="_blank"} pour la résolution des problèmes concernant les API d’ingestion en flux continu.
 
 Si votre parcours ne parvient pas à activer le mode test avec l’erreur `ERR_MODEL_RULES_16`, assurez-vous que l’événement utilisé inclut un [espace de noms d’identité](../audience/get-started-identity.md) lors de l’utilisation d’une action de canal.
 
@@ -49,7 +49,7 @@ Pour résoudre votre problème, commencez par répondre aux questions suivantes�
 * Avez-vous enregistré l&#39;événement avant de copier la payload depuis l&#39;aperçu de la payload ?
 * La payload d&#39;événement contient-elle un identifiant d&#39;événement ?
 * Avez-vous atteint la bonne URL ?
-* Avez-vous appliqué la structure de payload des API d&#39;ingestion en flux continu en utilisant l&#39;aperçu de la structure de payload dans le volet de configuration des événements ? Voir [cette page](../event/about-creating.md#preview-the-payload).
+* Avez-vous appliqué la structure de payload des API d&#39;ingestion en flux continu en utilisant l&#39;aperçu de la structure de payload dans le volet de configuration des événements ? Consultez [cette page](../event/about-creating.md#preview-the-payload).
 * Avez-vous utilisé les paires clé-valeur appropriées dans l’en-tête de l’événement ?
 
   ```
@@ -57,43 +57,43 @@ Pour résoudre votre problème, commencez par répondre aux questions suivantes�
   Content-type - application/json
   ```
 
-&#x200B;>>
+>>
 **Pour les parcours de qualification d’audience avec audiences en streaming** : si vous utilisez une activité de qualification d’audience comme point d’entrée d’un parcours, gardez à l’esprit que tous les profils correspondant aux critères de cette audience ne rejoindront pas nécessairement le parcours, en raison de facteurs de délai, de sorties rapides de l’audience ou du fait qu’ils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences en streaming](audience-qualification-events.md#streaming-entry-caveats).
 
-## Résolution des problèmes liés aux transitions en mode test {#troubleshooting-test-transitions}
+## Résoudre des problèmes liés aux transitions en mode test {#troubleshooting-test-transitions}
 
-Si les profils de test ne progressent pas dans votre parcours en mode test ou si le flux visuel n’affiche pas de flèches vertes indiquant la progression de l’étape, le problème peut être lié à la validation de la transition. Cette section fournit des conseils sur le diagnostic et la résolution des problèmes courants du mode test.
+Si les profils de test ne progressent pas dans votre parcours en mode test ou si le flux visuel n’affiche pas de flèches vertes indiquant la progression des étapes, le problème peut être lié à la validation de la transition. Cette section fournit des conseils sur le diagnostic et la résolution des problèmes courants en mode test.
 
 ### Profils de test sans progression
 
-Si les profils de test rejoignent le parcours mais ne progressent pas au-delà de l’étape initiale, vérifiez les points suivants :
+Si les profils de test rejoignent le parcours mais ne progressent pas au-delà de l’étape initiale, vérifiez les points suivants :
 
-* **Date de début du Parcours** - La cause la plus courante est lorsque la date de début du parcours est définie dans le futur. Les profils de test sont immédiatement ignorés si l’heure actuelle se situe en dehors de la fenêtre [dates/heure de début et de fin](journey-properties.md#dates) configurée du parcours. Pour résoudre :
-   * Vérifiez que la date de début du parcours n&#39;est pas définie dans le futur
-   * Assurez-vous que l’heure actuelle se situe dans la fenêtre de date active du parcours
-   * Si nécessaire, mettez à jour les propriétés du parcours pour ajuster la date de début
+* **Date de début du parcours** : la cause la plus courante est lorsque la date de début du parcours est définie dans le futur. Les profils de test sont immédiatement ignorés si l’heure actuelle se situe en dehors de la fenêtre [dates/heure de début et de fin](journey-properties.md#dates) configurée du parcours. Pour résoudre ce problème :
+   * Vérifiez que la date de début du parcours n’est pas définie dans le futur.
+   * Assurez-vous que l’heure actuelle se situe dans la fenêtre de date active du parcours.
+   * Si nécessaire, mettez à jour les propriétés du parcours pour ajuster la date de début.
 
-* **Configuration du profil de test** - Vérifiez que le profil est correctement marqué comme profil de test dans Adobe Experience Platform. Pour plus d’informations[&#x200B; voir &#x200B;](../audience/creating-test-profiles.md) Création de profils de test .
+* **Configuration du profil de test** - Vérifiez que le profil est correctement marqué comme profil de test dans [!DNL Adobe Experience Platform]. Pour plus d’informations, voir [Créer des profils de test](../audience/creating-test-profiles.md).
 
-* **Espace de noms d’identité** - Assurez-vous que l’espace de noms d’identité utilisé dans la configuration d’événement correspond à l’espace de noms de votre profil de test.
+* **Espace de noms d’identité** : assurez-vous que l’espace de noms d’identité utilisé dans la configuration d’événement correspond à l’espace de noms de votre profil de test.
 
-### Indicateurs de transition nuls
+### Indicateurs de transition à valeur nulle
 
-Lors du dépannage technique, vous pouvez rencontrer une propriété `isValidTransition` définie sur null dans les détails techniques du parcours. Cette propriété réservée à l’interface utilisateur n’a aucune incidence sur le traitement principal ou les performances du parcours. Cependant, une valeur nulle peut indiquer :
+Lors du dépannage technique, vous pouvez rencontrer une propriété `isValidTransition` définie sur null dans les détails techniques du parcours. Cette propriété réservée à l’interface d’utilisation n’a aucune incidence sur le traitement du serveur principal ni sur les performances du parcours. Cependant, une valeur nulle peut indiquer ce qui suit :
 
-* **Mauvaise configuration du Parcours** - La date de début du parcours est définie dans le futur, ce qui entraîne l’abandon silencieux des événements de test
-* **Transition corrompue** - Dans de rares cas, les nœuds de parcours doivent être reconnectés
+* **Mauvaise configuration du parcours** : la date de début du parcours est définie dans le futur, ce qui entraîne l’abandon silencieux des événements de test.
+* **Transition endommagée** : dans de rares cas, les nœuds de parcours doivent être reconnectés.
 
-Si vous rencontrez des problèmes de transition persistants :
+Si vous rencontrez des problèmes de transition persistants :
 
-1. Vérifier que la date de début du parcours est actuelle
-1. Désactiver et réactiver le mode test
-1. Si le problème persiste, pensez à dupliquer les nœuds de parcours concernés et à les reconnecter
-1. Pour les cas non résolus, contactez l’assistance avec les journaux de parcours, les identifiants de profil concernés et des détails sur la transition nulle
+1. Vérifiez que la date de début du parcours est correcte.
+1. Désactivez et réactivez le mode test.
+1. Si le problème persiste, pensez à dupliquer les nœuds de parcours concernés et à les reconnecter.
+1. Pour les cas non résolus, contactez l’assistance avec les journaux de parcours, les identifiants de profil concernés et des détails sur la transition nulle.
 
 >[!NOTE]
 >
->N’oubliez pas que les événements envoyés en dehors de la fenêtre de date active du parcours sont ignorés silencieusement, sans message d’erreur. Commencez toujours par vérifier votre configuration de minutage de parcours lors du dépannage de la progression du profil de test.
+>N’oubliez pas que les événements envoyés en dehors de la fenêtre de date active du parcours sont ignorés silencieusement, sans message d’erreur. Commencez toujours par vérifier votre configuration du timing du parcours lors du dépannage de la progression du profil de test.
 
 ## Vérifier comment les gens naviguent dans le parcours {#checking-how-people-navigate-through-the-journey}
 
@@ -115,6 +115,8 @@ Dans le cas d’un message envoyé par le biais d’une action personnalisée, l
 
 ## Explication des entrées en double dans les événements d’étape de parcours {#duplicate-step-events}
 
+Utilisez cette section pour comprendre pourquoi des lignes en double peuvent apparaître dans les événements d’étape de Parcours.
+
 ### Pourquoi est-ce que je vois plusieurs entrées avec les mêmes ID d’instance de parcours, de profil, de nœud et de requête ?
 
 Lors de l’interrogation des données d’événements d’étape de parcours, vous pouvez parfois détecter des entrées de journal en double pour la même exécution de parcours. Ces entrées partagent des valeurs identiques pour les éléments suivants :
@@ -128,7 +130,7 @@ Cependant, ces entrées ont des **valeurs `_id` différentes**, ce qui indique q
 
 ### Qu’est-ce qui provoque ce comportement ?
 
-Cela se produit en raison des opérations de mise à l’échelle automatique du système back-end (également appelées « rééquilibrage ») dans l’architecture des microservices d’Adobe Journey Optimizer. Pendant les périodes de forte charge ou d’optimisation du système :
+Cela est dû aux opérations de mise à l’échelle automatique du serveur principal (également appelées « rééquilibrage ») dans l’architecture des microservices d’[!DNL Adobe Journey Optimizer]. Pendant les périodes de forte charge ou d’optimisation du système :
 
 1. un événement d’étape de parcours commence à être traité et est enregistré dans le jeu de données Événements d’étape de parcours ;
 2. une opération de mise à l’échelle automatique redistribue la charge de travail entre les instances de service ;
@@ -138,7 +140,7 @@ Il s’agit d’un comportement système attendu qui **fonctionne comme prévu**
 
 ### Y a-t-il un impact sur l’exécution du parcours ou la diffusion des messages ?
 
-**Non.** L’impact ne concerne que la journalisation. Adobe Journey Optimizer dispose de mécanismes de déduplication intégrés au niveau de la couche d’exécution des messages qui garantissent ce qui suit :
+**Non.** L’impact ne concerne que la journalisation. [!DNL Adobe Journey Optimizer] dispose de mécanismes de déduplication intégrés au niveau de la couche d’exécution des messages qui garantissent :
 
 * Un seul message (e-mail, SMS, notification push, etc.) est envoyé à chaque profil.
 * Les actions sont exécutées une seule fois.

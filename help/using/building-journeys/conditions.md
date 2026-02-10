@@ -12,10 +12,10 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1696'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1662'
+ht-degree: 95%
 
 ---
 
@@ -70,7 +70,7 @@ Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusie
 
 Notez que la conception de parcours n’est pas sans conséquences sur le plan fonctionnel. Lorsque plusieurs chemins sont définis après une condition, seul le premier chemin éligible est exécuté. Cela signifie que vous pouvez modifier la priorité des chemins en les plaçant les uns au-dessus ou en dessous des autres.
 
-Prenons l’exemple de la condition « La personne est un VIP » d’un premier chemin et la condition « La personne est un homme » d’un second chemin. Si une personne répondant aux deux conditions (à savoir, un VIP de sexe masculin) franchit cette étape, le premier chemin d’accès est choisi, même s’il est également éligible au second, compte tenu de sa position hiérarchique supérieure. Pour modifier cette priorité, déplacez vos activités verticalement.
+Prenons deux conditions de chemin : « La personne est un VIP » et « La personne est un homme ». Si une personne remplit les deux conditions, le premier chemin est choisi, car il se situe au-dessus du second. Pour modifier cette priorité, déplacez vos activités vers un ordre vertical différent.
 
 ![Exemple de hiérarchisation des chemins affichant la condition VIP au-dessus de la condition Homme](assets/journey48.png)
 
@@ -87,11 +87,11 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 
 ![Éditeur d’expression simple avec des champs de type glisser-déposer et des opérateurs logiques](assets/journey64.png){width=80%}
 
-Si vous utilisez le [service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les utiliser dans vos conditions de parcours. Pour plus d’informations, consultez la section [Utilisation d’audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
+Si vous utilisez le [[!DNL Adobe Experience Platform] service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les exploiter dans vos conditions de parcours. Pour plus d’informations, consultez la section [Utilisation d’audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 
 >[!NOTE]
 >
->Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Voir [cette page](expression/expressionadvanced.md).
+>Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Consultez [cette page](expression/expressionadvanced.md).
 
 Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un chemin alternatif en cas de temporisation ou d’erreur]**. [En savoir plus](../building-journeys/using-the-journey-designer.md#paths)
 
@@ -188,7 +188,7 @@ Pour utiliser une audience dans une condition de parcours, procédez comme suit�
 
 1. Sur le côté gauche, développez le nœud **[!UICONTROL Audiences]**. Faites glisser et déposez l’audience à utiliser pour votre condition. Par défaut, la condition sur l’audience est « true ».
 
-   ![Nœud Audiences de l’éditeur d’expression pour sélectionner les audiences Adobe Experience Platform](assets/segment4.png){width=80%}
+   ![nœud Audiences de l’éditeur d’expression pour sélectionner [!DNL Adobe Experience Platform] audiences](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >

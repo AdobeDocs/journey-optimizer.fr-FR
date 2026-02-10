@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 96%
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -142,7 +142,7 @@ Bien que les collections dans les actions personnalisées offrent la flexibilit�
 
 * **Prise en charge des tableaux imbriqués dans les actions personnalisées**
 
-  Adobe Journey Optimizer prend en charge les tableaux d’objets imbriqués dans les **payloads de réponse** des actions personnalisées, mais cette prise en charge est limitée dans les **payloads de requête**.
+  [!DNL Adobe Journey Optimizer] prend en charge les tableaux d’objets imbriqués dans les actions personnalisées **payloads de réponse**, mais cette prise en charge est limitée dans les payloads de **requête**.
 
   Dans les payloads de requête, les tableaux imbriqués ne sont pris en charge que s’ils contiennent un nombre fixe d’éléments, comme défini dans la configuration de l’action personnalisée. Par exemple, si un tableau imbriqué comprend toujours exactement trois éléments, il peut être configuré comme une constante. Lorsque le nombre d’éléments doit être dynamique, seuls les tableaux non imbriqués (tableaux au niveau inférieur) peuvent être définis comme variables.
 

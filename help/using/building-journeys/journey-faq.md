@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Orchestration - Questions fréquentes
-description: Questions fréquentes sur Journey Orchestration dans Adobe Journey Optimizer
+description: Questions fréquentes sur Journey Orchestration dans  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide, orchestration
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '5231'
-ht-degree: 99%
+source-wordcount: '5191'
+ht-degree: 93%
 
 ---
 
-
 # Journey Orchestration - Questions fréquentes {#faq-journeys}
 
-Découvrez les réponses aux questions le plus courantes sur Journey Orchestration dans Adobe Journey Optimizer.
+Trouvez des réponses aux questions les plus fréquentes sur Journey Orchestration dans [!DNL Adobe Journey Optimizer].
 
-Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour soulever votre question. Vous pouvez également entrer en contact avec la [[!DNL Adobe Journey Optimizer] communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
 ## Concepts généraux
 
-+++ Qu’est-ce qu’un parcours dans Adobe Journey Optimizer ?
++++ Qu&#39;est-ce qu&#39;un parcours en [!DNL Adobe Journey Optimizer] ?
 
 Un parcours est une orchestration en plusieurs étapes qui vous permet de concevoir et d’exécuter des expériences clients en temps réel sur plusieurs canaux. Les parcours combinent des événements, des activités d’orchestration, des actions et des messages, en vue de créer des expériences contextuelles personnalisées basées sur le comportement de la clientèle et des événements métier.
 
@@ -35,10 +35,10 @@ En savoir plus sur les [parcours](journey.md).
 
 +++ Quels sont les différents types de parcours ?
 
-Adobe Journey Optimizer prend en charge quatre types de parcours :
+[!DNL Adobe Journey Optimizer] prend en charge quatre types de parcours :
 
 * **Parcours unitaires** : ils sont déclenchés individuellement par un événement (par exemple, un achat, une connexion à l’application). Les profils rejoignent le parcours un par un lorsque l’événement se produit.
-* **Parcours de lecture d’audience** : ils démarrent avec une audience Adobe Experience Platform et envoient des messages par lots à tous les profils de cette audience.
+* **Lire les parcours d’audience** : commencez avec une audience [!DNL Adobe Experience Platform] et envoyez des messages par lots à tous les profils de cette audience.
 * **Parcours de qualification d’audience** : ils sont déclenchés lorsque les profils sont qualifiés pour un segment ciblé spécifique (ou en sortent). Les profils rejoignent le parcours, car ils répondent aux critères de l’audience.
 * **Parcours d’événement métier** : ils sont déclenchés par des événements métier (par exemple, les mises à jour de stocks, les alertes météorologiques) qui affectent plusieurs profils simultanément.
 
@@ -56,7 +56,7 @@ Les **[campagnes](../campaigns/get-started-with-campaigns.md)** se divisent en t
 * **[Campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)** : campagnes déclenchées par le biais d’appels API, permettant l’intégration à des systèmes externes pour envoyer des messages en fonction des événements en temps réel ou de la logique commerciale.
 * **[Campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)** : campagnes à plusieurs étapes basées sur l’audience, créées sur une zone de travail qui peut inclure des conditions, des temps d’attente et plusieurs actions pour créer des expériences planifiées et coordonnées.
 
-**Bonne pratique** : utilisez les [parcours](journey.md) pour un engagement complexe déclenché par un événement avec une orchestration avancée ; utilisez les [campagnes d’action](../campaigns/create-campaign.md) pour des communications planifiées basées sur une audience ; utilisez les [campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md) pour un déclenchement par programme à partir de systèmes externes ; utilisez les [campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) pour des communications à plusieurs étapes avec des exigences spécifiques à la campagne.
+**Bonne pratique** : utilisez [parcours](journey.md) pour un engagement complexe déclenché par un événement avec une orchestration avancée. Utilisez des [campagnes d’action](../campaigns/create-campaign.md) pour les communications planifiées et basées sur l’audience. Utilisez des [campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md) pour le déclenchement programmatique à partir de systèmes externes. Utilisez des [campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) pour des communications à plusieurs étapes avec des exigences spécifiques aux campagnes.
 
 +++
 
@@ -76,7 +76,7 @@ En savoir plus sur les [activités de parcours](about-journey-activities.md).
 
 +++ Quels sont les types d’audiences pris en charge dans les parcours et quelles sont leurs limites ?
 
-Adobe Journey Optimizer prend en charge quatre types d’audiences, chacun ayant des caractéristiques et des mécanismes de sécurisation différents :
+[!DNL Adobe Journey Optimizer] prend en charge quatre types d’audiences, chacun ayant des caractéristiques et des mécanismes de sécurisation différents :
 
 **1. Audiences de streaming**
 
@@ -110,11 +110,11 @@ Adobe Journey Optimizer prend en charge quatre types d’audiences, chacun aya
    * Des limites de taille pour les fichiers CSV s’appliquent (consultez la documentation du produit pour connaître les limites actuelles).
    * Les membres de l’audience restent statiques jusqu’à ce qu’ils soient actualisés lors d’un nouveau chargement.
    * L’espace de noms d’identité doit correspondre à l’espace de noms du parcours.
-   * Les profils doivent exister dans Adobe Experience Platform.
+   * Les profils doivent exister dans [!DNL Adobe Experience Platform]
 
 **4. Audiences de composition d’audiences fédérées**
 
-* **Description** : audiences créées à l’aide de données fédérées, ce qui vous permet d’interroger et de composer des audiences à partir d’entrepôts de données externes sans copier de données dans Adobe Experience Platform.
+* **Description** : audiences créées à l’aide de données fédérées, ce qui vous permet d’interroger et de composer des audiences à partir d’entrepôts de données externes sans copier de données dans [!DNL Adobe Experience Platform]
 * **Évaluation** : la composition statique est mise à jour lors de l’exécution de la composition d’audiences fédérées.
 * **Utilisation du parcours** : prise en charge dans les activités Lecture d’audience et Condition ; **non prise en charge** dans les parcours de qualification d’audience (similaire au audiences chargées du point de vue back-end).
 * **Idéal pour** : l’intégration d’entrepôts de données d’entreprise, la composition d’audiences à l’aide de sources de données externes, les scénarios nécessitant que les données restent dans des systèmes externes.
@@ -187,7 +187,7 @@ Suivez le [guide détaillé](journey-gs.md).
 Les conditions préalables requises dépendent du type de votre parcours :
 
 * **Parcours déclenchés par un événement** : configurez les événements pour définir à quel moment les profils doivent rejoindre le parcours.
-* **Parcours basés sur l’audience** : créez des audiences dans Adobe Experience Platform.
+* **parcours basés sur l’audience** : créez des audiences dans [!DNL Adobe Experience Platform]
 * **Enrichissement des données** : configurez les sources de données pour récupérer des informations supplémentaires.
 * **Intégrations tierces** : configurez des actions personnalisées si vous utilisez des systèmes externes.
 
@@ -202,7 +202,7 @@ Oui, il existe plusieurs approches pour utiliser les données externes :
 **Bonnes pratiques** :
 
 * **Actions personnalisées** : appelez des API externes par le biais d’actions personnalisées pour récupérer ou envoyer des données à des systèmes tiers. Il s’agit de l’approche recommandée pour les interactions en temps réel avec des systèmes externes.
-* **Recherche de jeu de données** : si vous pouvez charger des données à partir de systèmes externes dans Adobe Experience Platform, utilisez la fonction de recherche de jeu de données pour récupérer les informations stockées dans les jeux de données Experience Platform.
+* **Recherche de jeu de données** : si vous pouvez charger des données à partir de systèmes externes dans [!DNL Adobe Experience Platform], utilisez la fonction de recherche de jeu de données pour récupérer les informations stockées dans les jeux de données Experience Platform.
 * **Sources de données externes** : configurez les sources de données externes pour récupérer les informations des services d’API tiers (approche moins recommandée que celles ci-dessus).
 
 Ces options vous permettent d’enrichir l’expérience client avec des données provenant de votre CRM, de vos systèmes de fidélité, de vos services météorologiques ou d’autres plateformes externes.
@@ -247,7 +247,7 @@ En savoir plus sur les [activités d’attente](wait-activity.md).
 
 +++ Puis-je mettre à jour les informations de profil au sein d’un parcours ?
 
-Oui. Utilisez l’activité **Mettre à jour le profil** pour modifier les attributs de profil dans Adobe Experience Platform en fonction d’événements ou de conditions de parcours. Cela s’avère utile pour mettre à jour les points de fidélité, enregistrer les jalons du parcours, modifier les paramètres de préférences ou suivre les scores d’engagement des clientes et clients.
+Oui. Utilisez l&#39;activité **Mettre à jour le profil** pour modifier les attributs de profil dans les [!DNL Adobe Experience Platform] en fonction d&#39;événements ou de conditions de parcours. Cela s’avère utile pour mettre à jour les points de fidélité, enregistrer les jalons du parcours, modifier les paramètres de préférences ou suivre les scores d’engagement des clientes et clients.
 
 En savoir plus sur les [mises à jour de profil](update-profiles.md).
 
@@ -468,7 +468,7 @@ Raisons courantes pour lesquelles les profils peuvent ne pas rejoindre un parcou
 * **Parcours non publié** : le parcours est en état de brouillon.
 * **Espace de noms non valide** : l’espace de noms du parcours ne correspond pas à l’identité du profil.
 * **Parcours fermé** : le parcours n’accepte plus de nouvelles entrées.
-* **Durée de qualification des audiences en streaming** : pour les parcours utilisant la qualification d’audience avec les audiences en streaming, les profils peuvent ne pas rejoindre le parcours s’ils étaient déjà dans l’audience avant la publication du parcours ou si la période d’activation du parcours n’est pas terminée (jusqu’à 10 minutes après la publication)
+* **Durée de qualification des audiences de streaming** : pour les parcours utilisant la qualification d’audience avec les audiences de streaming, les profils ne peuvent pas entrer s’ils étaient déjà dans l’audience avant la publication du parcours. Ils peuvent également être retardés si le parcours n’a pas terminé sa période d’activation (jusqu’à 10 minutes après la publication).
 
 En savoir plus sur la [gestion des entrées](entry-management.md) et les [considérations relatives à la durée de qualification des audiences de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
@@ -699,12 +699,12 @@ En savoir plus sur les [actions personnalisées](using-custom-actions.md).
 
 +++
 
-+++ Comment utiliser Adobe Campaign avec les parcours?
++++ Comment puis-je utiliser [!DNL Adobe Campaign] avec des parcours ?
 
-Journey Optimizer s’intègre de manière native à Adobe Campaign pour tirer profit de ses fonctionnalités avancées :
+Journey Optimizer s’intègre de manière native à [!DNL Adobe Campaign] pour tirer parti de ses fonctionnalités avancées :
 
-* **Adobe Campaign Standard** : utilisez les actions de Campaign Standard pour envoyer des messages transactionnels.
-* **Adobe Campaign v7/v8** : déclenchez des workflows Campaign et utilisez l’infrastructure de diffusion de Campaign.
+* **[!DNL Adobe Campaign]Standard** : utiliser des actions Campaign Standard pour envoyer des messages transactionnels
+* **[!DNL Adobe Campaign]v7/v8** : déclenchez des workflows Campaign et utilisez l’infrastructure de diffusion de Campaign.
 
 **Bonne pratique** : utilisez cette intégration si vous disposez déjà de modèles Campaign ou de modèles de données, ou si vous avez besoin de fonctionnalités spécifiques à Campaign.
 
@@ -802,7 +802,7 @@ En savoir plus sur les [événements métier](general-events.md).
 
 +++ En quoi consistent les politiques de fusion et comment affectent-elles les parcours ?
 
-Les **politiques de fusion** déterminent la manière dont Adobe Experience Platform combine les données provenant de plusieurs sources afin de créer une vue de profil unifiée. Elles définissent les règles de priorité des données et de rapprochement d’identités lorsque des fragments de profils existent dans plusieurs jeux de données différents.
+**Politiques de fusion** déterminez comment [!DNL Adobe Experience Platform] combine des données provenant de plusieurs sources afin de créer une vue de profil unifiée. Elles définissent les règles de priorité des données et de rapprochement d’identités lorsque des fragments de profils existent dans plusieurs jeux de données différents.
 
 **Impact sur les parcours** :
 
@@ -931,7 +931,7 @@ En savoir plus sur la [conception de parcours](using-the-journey-designer.md) et
 
 * Utilisez le [mode test](testing-the-journey.md) et le [test à blanc](journey-dry-run.md) pour valider les performances avant la publication.
 * Minimisez les appels API externes par le biais d’[actions personnalisées](using-custom-actions.md) pour éviter de la latence et la dépendance à des systèmes tiers.
-* Lorsque cela est possible, stockez les données fréquemment utilisées dans Adobe Experience Platform à l’aide de la [recherche de jeu de données](dataset-lookup.md) au lieu d’effectuer des appels externes.
+* Stocker les données fréquemment utilisées dans les [!DNL Adobe Experience Platform] à l’aide de la [recherche de jeu de données](dataset-lookup.md) au lieu d’effectuer des appels externes, si possible
 * Examinez et optimisez les performances des [diffusions des messages](journeys-message.md).
 
 En savoir plus sur les [mécanismes de sécurisation et les limitations](../start/guardrails.md).

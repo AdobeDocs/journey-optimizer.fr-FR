@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser des données Adobe Experience Platform dans les parcours
-description: Découvrez comment utiliser l’activité de recherche de jeu de données dans Adobe Journey Optimizer pour enrichir les parcours clients avec des données externes d’Adobe Experience Platform.
+title: Utilisation  [!DNL Adobe Experience Platform]  données dans les parcours
+description: Découvrez comment utiliser l’activité de recherche de jeu de données dans  [!DNL Adobe Journey Optimizer]  enrichir les parcours clients avec des données externes provenant de  [!DNL Adobe Experience Platform].
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 100%
+source-wordcount: '761'
+ht-degree: 89%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Activité de recherche de jeu de données"
->abstract="L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données à partir de jeux de données d’enregistrement Adobe Experience Platform au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun."
+>abstract="L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun."
 
-L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données à partir de jeux de données d’enregistrement Adobe Experience Platform au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun.
+L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun.
 
 Avantages clés :
 
@@ -38,9 +38,11 @@ Avantages clés :
 
 ## À lire absolument {#must-read}
 
+Examinez ces exigences avant de configurer les recherches de jeux de données.
+
 ### Activation du jeu de données
 
-Le jeu de données doit être activé pour la recherche dans Adobe Experience Platform. Vous trouverez des informations détaillées dans cette section : [Utiliser les données d’Adobe Experience Platform](../data/lookup-aep-data.md).
+Le jeu de données doit être activé pour la recherche dans [!DNL Adobe Experience Platform]. Vous trouverez des informations détaillées dans cette section : [Utiliser [!DNL Adobe Experience Platform] données](../data/lookup-aep-data.md).
 
 ### Limites et restrictions
 
@@ -64,7 +66,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Recherche de jeu de données]** dans votre zone de travail.
 
-   ![Activité de recherche de jeu de données Adobe Experience Platform dans le parcours ](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] activité de recherche de jeu de données dans le parcours ](assets/aep-data-activity.png)
 
 1. Ajoutez un libellé et une description.
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ Pour ajouter une action de canal intégrée à votre parcours, faites glisser et
 >
 >Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [En savoir plus](#recommendation)
 
-## Ajout d’un message dans un parcours  {#add-msg-in-journey}
+## Ajouter un message dans un parcours  {#add-msg-in-journey}
 
 Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Pour plus d’informations sur les canaux disponibles dans les parcours, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
 
@@ -54,7 +54,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       <tr style="border: 0;">
       <td>
       <a href="../email/create-email.md">
-      <img alt="Prospect" src="../assets/do-not-localize/email.jpg">
+      <img alt="Lead" src="../assets/do-not-localize/email.jpg">
       </a>
       <div><a href="../email/create-email.md"><strong>Créer des e-mails</strong>
       </div>
@@ -96,7 +96,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       <tr style="border: 0;">
       <td>
       <a href="../in-app/create-in-app.md">
-      <img alt="Prospect" src="../assets/do-not-localize/in-app.jpg">
+      <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
       </a>
       <div><a href="../in-app/create-in-app.md"><strong>Créer des messages in-app</strong>
       </div>
@@ -104,7 +104,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       </td>
       <td>
       <a href="../web/create-web.md">
-      <img alt="Prospect" src="../assets/do-not-localize/web-create.jpg">
+      <img alt="Lead" src="../assets/do-not-localize/web-create.jpg">
       </a>
       <div><a href="../web/create-web.md"><strong>Créer des expériences web</strong>
       </div>
@@ -112,7 +112,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       </td>
       <td>
       <a href="../content-card/create-content-card.md">
-      <img alt="Prospect" src="../assets/do-not-localize/sms-config.jpg">
+      <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
       </a>
       <div><a href="../content-card/create-content-card.md"><strong>Créer des cartes de contenu</strong>
       </div>
@@ -164,7 +164,7 @@ Au lieu d’utiliser les fonctionnalités de message intégrées, vous pouvez ut
 
 * Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. [En savoir plus](../action/action.md)
 
-* Si vous utilisez Adobe Campaign, reportez-vous aux sections suivantes :
+* Si vous utilisez des [!DNL Adobe Campaign], reportez-vous aux sections suivantes :
 
    * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)

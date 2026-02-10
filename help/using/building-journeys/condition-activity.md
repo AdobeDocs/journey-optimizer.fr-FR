@@ -10,14 +10,16 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 97%
+source-wordcount: '1788'
+ht-degree: 95%
 
 ---
 
 # Activité de condition {#condition-activity}
+
+Utilisez l’activité de condition pour acheminer les profils vers différents chemins d’accès en fonction des règles et des données.
 
 ## Ajouter une activité de condition {#add-condition-activity}
 
@@ -38,7 +40,7 @@ Les types de condition disponibles sont les suivants :
 * [Condition de date](#date_condition)
 * [Limite de profils](#profile_cap)
 
-Vous pouvez également utiliser une audience dans une condition de parcours. [En savoir plus](#using-a-segment). Pour plus d’informations sur la génération et le ciblage d’audiences, consultez [cette section](../audience/about-audiences.md)
+Vous pouvez également utiliser une audience dans une condition de parcours. [En savoir plus](#using-a-segment). Pour plus d’informations sur la génération et le suivi des audiences, voir [cette section](../audience/about-audiences.md).
 
 >[!NOTE]
 >
@@ -59,7 +61,7 @@ Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusie
 
 Notez que la conception de parcours n’est pas sans conséquences sur le plan fonctionnel. Lorsque plusieurs chemins sont définis après une condition, seul le premier chemin éligible est exécuté. Cela signifie que vous pouvez modifier la priorité des chemins en les plaçant les uns au-dessus ou en dessous des autres.
 
-Prenons l’exemple de la condition « La personne est un VIP » d’un premier chemin et la condition « La personne est un homme » d’un second chemin. Si une personne répondant aux deux conditions (à savoir, un VIP de sexe masculin) franchit cette étape, le premier chemin d’accès est choisi, même s’il est également éligible au second, compte tenu de sa position hiérarchique supérieure. Pour modifier cette priorité, déplacez vos activités verticalement.
+Prenons deux conditions de chemin : « La personne est un VIP » et « La personne est un homme ». Si une personne remplit les deux conditions, le premier chemin est choisi, car il se situe au-dessus du second. Pour modifier cette priorité, déplacez vos activités vers un ordre vertical différent.
 
 ![Hiérarchisation des chemins montrant les conditions VIP et sexe masculin](assets/journey48.png)
 
@@ -72,12 +74,12 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 
 ![Éditeur d’expression affichant la sélection de champs et les opérateurs logiques ET/OU](assets/journey64.png)
 
-Si vous utilisez le [service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les utiliser dans vos conditions de parcours. Pour plus d&#39;informations, consultez la section [&#x200B; Utilisation d&#39;une audience dans des conditions &#x200B;](../building-journeys/condition-activity.md#using-a-segment). Pour plus d’informations sur la génération et le ciblage d’audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
+Si vous utilisez le [[!DNL Adobe Experience Platform] service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les exploiter dans vos conditions de parcours. Consultez la section [Utilisation d’audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment). Pour plus d’informations sur la génération et le ciblage des audiences dans Journey Optimizer, consultez [cette section](../audience/about-audiences.md).
 
 
 >[!NOTE]
 >
->Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Voir [cette page](expression/expressionadvanced.md).
+>Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Consultez [cette page](expression/expressionadvanced.md).
 
 
 
@@ -139,7 +141,7 @@ Cette condition vous permet de définir un flux différent en fonction de la dat
 
 >[!NOTE]
 >
->Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Voir [cette page](../building-journeys/timezone-management.md).
+>Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Consultez [cette page](../building-journeys/timezone-management.md).
 
 ![Configuration de la condition de date avec le sélecteur de période](assets/journey53.png)
 

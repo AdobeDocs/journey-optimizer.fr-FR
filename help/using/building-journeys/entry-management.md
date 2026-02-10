@@ -9,10 +9,10 @@ level: Intermediate
 keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 92%
+source-wordcount: '1190'
+ht-degree: 87%
 
 ---
 
@@ -23,11 +23,11 @@ La gestion des entrées de profil dépend du type de parcours.
 
 >[!TIP]
 >
->Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet des critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation tels que des campagnes de bienvenue, la récupération de panier abandonné et des programmes de fidélité avec des exemples complets de configuration d’entrée et de sortie.
+>Vous recherchez des conseils pratiques avec des exemples concrets ? Consultez notre [guide complet relatif aux critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) qui comprend des cas d’utilisation tels que des campagnes de bienvenue, la récupération de panier abandonné et des programmes de fidélité avec des exemples complets de configuration d’entrée et de sortie.
 
 ## Types de parcours {#types-of-journeys}
 
-Avec Adobe Journey Optimizer, vous pouvez créer les types de parcours suivants :
+Avec [!DNL Adobe Journey Optimizer], vous pouvez créer les types de parcours suivants :
 
 * Parcours **Événement unitaire** : ces parcours commencent par un événement unitaire. Lorsque l’événement est reçu, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
 
@@ -49,13 +49,13 @@ Le taux de traitement du parcours est affecté par plusieurs facteurs qui déter
 
 La façon dont les profils entrent dans les parcours et leur taux attendu dépendent de la première activité utilisée :
 
-* Parcours de **lecture d’audience** (scénario par lots, où vous ciblez une audience de profils et déclenchez un parcours pour cette audience complète) : le maximum est de 20 000 TPS (transactions par seconde), qui est le quota disponible à un **niveau de sandbox**. Si vous avez plusieurs parcours s’exécutant en même temps sur ce sandbox, un objectif de 20 000 TPS peut ne pas être réalisable. Considérez ce seuil maximal comme le meilleur scénario.
+* **Lecture d’audience** parcours (scénario par lots, où vous ciblez une audience de profils et déclenchez un parcours pour cette audience complète) : la limite maximale est de 20 000 TPS (transactions par seconde). Il s’agit du quota disponible au **niveau du sandbox**. Si plusieurs parcours s’exécutent en même temps dans ce sandbox, 20 000 TPS peuvent ne pas être disponibles. Considérez ce maximum comme un scénario optimal.
 
 * Parcours de **qualification de l’audience** (scénario unitaire, où vous souhaitez déclencher un parcours lorsqu’un profil est qualifié ou non pour une audience de diffusion en continu) : le maximum est de 5 000 TPS. Notez qu’il s’agit d’une limite partagée avec les parcours commençant par les événements et qui est également partagée entre les parcours au **niveau de l’organisation**.
 
 * Parcours d’**événement unitaire** (scénario unitaire, dans lequel vous souhaitez déclencher un parcours lorsqu’un événement est émis à partir d’un profil) : comme ci-dessus, les deux partagent la même limite de 5 000 TPS. Pour plus d’informations sur le débit des événements de parcours, consultez [cette section](../event/about-events.md#event-thoughput).
 
-* Parcours d’**événement métier** (qui est essentiellement un scénario unitaire de lot, car un événement métier est toujours suivi d’une lecture d’audience) : les événements métier sont également comptabilisés dans le quota de 5 000 TPS, mais l’activité de lecture d’audience juste après a la même limite que les parcours commençant par une lecture d’audience (20 000 TPS).
+* **Événement métier** parcours (scénario à traitement unitaire par lots, car un événement métier est toujours suivi d’une Lecture d’audience) : les événements métier sont comptabilisés dans le quota de 5 000 TPS. L’activité Lecture d’audience qui suit a la même limite que les parcours commençant par une activité Lecture d’audience (20 000 TPS).
 
 ### Qualifications des événements et des audiences dans les parcours {#events-inside-journeys}
 
@@ -67,7 +67,7 @@ Les activités **d’attente** dans les parcours peuvent également avoir un imp
 
 ### Activités d’action {#action-activities-impact}
 
-Enfin, les activités **d’action** (canaux natifs tels que les e-mails, les SMS, les notifications push, etc., sortantes ou entrantes, les actions personnalisées, les sauts qui envoient des profils à d’autres parcours, les mises à jour de profils qui envoient des données au service de profil unifié, etc.) peuvent être affectées par la charge de profil provenant des parcours, mais peuvent également avoir une incidence sur le taux de traitement. Par exemple, une action personnalisée ciblant un point d’entrée externe avec un temps de réponse élevé ralentira le taux de traitement du parcours.
+Enfin, les activités **action** peuvent être affectées par la charge du profil provenant des parcours et peuvent également affecter le taux de traitement. Il s’agit notamment des canaux natifs tels que les e-mails, les SMS et les notifications push, ainsi que des actions personnalisées, des sauts vers d’autres parcours et des activités de mise à jour de profil. Par exemple, une action personnalisée ciblant un point d’entrée externe avec un temps de réponse élevé ralentira le taux de traitement du parcours.
 
 Pour les actions personnalisées, la limitation par défaut est de 300 000 appels par minute, ce qui peut être modifié par une politique de limitation personnalisée. En savoir plus sur les limitations d’actions personnalisées dans [cette section](../configuration/external-systems.md#capping).
 
@@ -124,7 +124,7 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 
 ## Rubriques connexes
 
-* [Guide des critères d’entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) - Guide complet avec des exemples réels et des bonnes pratiques
-* [Configurer les critères de sortie](journey-properties.md#exit-criteria) - Définir quand les profils doivent quitter votre parcours
-* [Terminer un parcours &#x200B;](end-journey.md) - Comprendre comment les parcours se ferment et se terminent
-* [Cas d’utilisation de Parcours &#x200B;](jo-use-cases.md) - Consultez des exemples complets avec des configurations d’entrée et de sortie
+* [Guide relatif aux critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques
+* [Configurer les critères de sortie](journey-properties.md#exit-criteria) : définissez quand les profils doivent quitter votre parcours.
+* [Terminer un parcours ](end-journey.md) : comprenez comment les parcours se ferment et se terminent.
+* [Cas d’utilisation de parcours ](jo-use-cases.md) : consultez des exemples complets avec des configurations d’entrée et de sortie.

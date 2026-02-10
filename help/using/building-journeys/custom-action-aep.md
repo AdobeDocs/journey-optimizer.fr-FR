@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 85%
 
 ---
 
 # Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform {#custom-action-aep}
 
-Ce cas d’utilisation explique comment écrire des événements personnalisés dans Adobe Experience Platform à partir de parcours à l’aide d’actions personnalisées et d’appels authentifiés.
+Ce cas d’utilisation explique comment écrire des événements personnalisés dans des [!DNL Adobe Experience Platform] à partir de Parcours à l’aide d’actions personnalisées et d’appels authentifiés.
 
 ## Configurer un projet de développement {#custom-action-aep-IO}
 
@@ -30,7 +30,7 @@ Ce cas d’utilisation explique comment écrire des événements personnalisés 
 
 1. Cliquez sur **Afficher la commande cURL**.
 
-   ![Sélection du type d’action Adobe Experience Platform](assets/custom-action-aep-2.png)
+   ![[!DNL Adobe Experience Platform] la sélection du type d’action](assets/custom-action-aep-2.png)
 
 1. Copiez la commande cURL et stockez les éléments client_id, client_secret, grant_type et scope.
 
@@ -40,15 +40,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Après avoir créé votre projet sur Adobe Developer Console, assurez vous d’accorder aux développeurs et développeuses et aux API le contrôle d’accès avec les autorisations appropriées. Pour en savoir plus, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}.
+>Après avoir créé votre projet sur Adobe Developer Console, assurez vous d’accorder aux développeurs et développeuses et aux API le contrôle d’accès avec les autorisations appropriées. En savoir plus dans la [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configurer la source à l’aide de l’inlet d’API HTTP
 
-1. Créez un point d’entrée dans Adobe Experience Platform pour écrire les données de parcours.
+1. Créez un point d’entrée dans [!DNL Adobe Experience Platform] pour écrire les données à partir de parcours.
 
-1. Dans Adobe Experience Platform, cliquez sur **Sources** sous **Connexions** dans le menu de gauche. Sous **API HTTP**, cliquez sur **Ajouter des données**.
+1. Dans [!DNL Adobe Experience Platform], cliquez sur **Sources**, sous **Connexions** dans le menu de gauche. Sous **API HTTP**, cliquez sur **Ajouter des données**.
 
-   ![Liste déroulante de sélection des sandbox pour Adobe Experience Platform](assets/custom-action-aep-3.png)
+   ![Liste déroulante de sélection de sandbox pour [!DNL Adobe Experience Platform]](assets/custom-action-aep-3.png)
 
 1. Sélectionnez **Nouveau compte** et activez l’authentification. Sélectionnez **Se connecter à la source**.
 
@@ -101,7 +101,7 @@ La configuration des actions personnalisées est présentée sur [cette page](..
 
 Pour cet exemple, procédez comme suit :
 
-1. Ouvrez Adobe Journey Optimizer, puis cliquez sur **Configurations**, sous **Administration** dans le menu de gauche. Sous **Actions**, cliquez sur **Gérer** et sur **Créer une action**.
+1. Ouvrez [!DNL Adobe Journey Optimizer] et cliquez sur **Configurations**, sous **Administration** dans le menu de gauche. Sous **Actions**, cliquez sur **Gérer** et sur **Créer une action**.
 
 1. Définissez l’URL et sélectionnez la méthode POST.
 

@@ -10,17 +10,17 @@ keywords: types de parcours, unitaire, lecture d’audience, qualification d’a
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
-workflow-type: ht
-source-wordcount: '986'
-ht-degree: 100%
+exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 96%
 
 ---
 
-
 # Types de parcours et guide de sélection {#journey-types-selection}
 
-Adobe Journey Optimizer prend en charge quatre types de parcours, chacun étant conçu pour différents mécanismes d’entrée et scénarios métier. Ce guide vous aide à comprendre les différences entre les types et à choisir celui qui convient à votre cas d’utilisation.
+[!DNL Adobe Journey Optimizer] prend en charge quatre types de parcours, chacun conçu pour différents mécanismes d’entrée et scénarios métier. Ce guide vous aide à comprendre les différences entre les types et à choisir celui qui convient à votre cas d’utilisation.
 
 ## Vue d’ensemble des types de parcours {#journey-types}
 
@@ -40,7 +40,7 @@ Les **parcours unitaires** sont déclenchés individuellement lorsqu’une actio
 
 **Utilisation :** campagnes planifiées pour des segments d’audience
 
-**Parcours de lecture d’audience** : commencez par une audience Adobe Experience Platform et envoyez des messages par lots à tous les profils simultanément. Ce type de parcours est idéal pour les communications planifiées à grande échelle.
+**Lire les parcours d’audience** commencez par une audience [!DNL Adobe Experience Platform] et envoyez des messages par lots à tous les profils simultanément. Ce type de parcours est idéal pour les communications planifiées à grande échelle.
 
 **Parfaits pour :** les newsletters mensuelles, les campagnes promotionnelles pour cibler des segments, les annonces de produits et les campagnes marketing saisonnières.
 
@@ -122,7 +122,7 @@ Utilisez ce tableau pour comparer rapidement les types de parcours et choisir ce
 | **À utiliser dans les cas suivants** | Réponse immédiate aux actions individuelles nécessaires | Atteindre des segments d’audience volumineux selon le planning | Réponse aux modifications du statut des clientes et clients | Événements métier affectant plusieurs clientes et clients |
 | **Exemples** | Confirmation de commande, réinitialisation du mot de passe | Newsletter mensuelle, campagne saisonnière | Mise à niveau de VIP, alerte d’inactivité | Alerte de stock faible, vente flash, baisse de prix |
 | **Reprise** | Configurable (autoriser plusieurs entrées par profil) | Chaque profil entre une fois par exécution. | Configurable par événement de qualification | Plusieurs profils peuvent être affectés par le même événement. |
-| **Exigences de données** | Schéma d’événement avec données de déclenchement | Audience Adobe Experience Platform | Audience par lots ou en streaming | Schéma d’événement métier |
+| **Exigences de données** | Schéma d’événement avec données de déclenchement | [!DNL Adobe Experience Platform] une audience | Audience par lots ou en streaming | Schéma d’événement métier |
 
 ## Compatibilité des fonctionnalités par type de parcours {#feature-compatibility}
 
@@ -179,4 +179,3 @@ Maintenant que vous comprenez les types de parcours, vous pouvez effectuer ce qu
 **Besoin de comparer avec des campagnes ?**
 
 * [Guide de comparaison entre les parcours et les campagnes](../start/journeys-vs-campaigns.md) – Choisir entre les parcours, les campagnes d’action/API et les campagnes orchestrées
-

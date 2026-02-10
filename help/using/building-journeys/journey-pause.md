@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 98%
+source-wordcount: '2512'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Pour mettre en pause votre parcours, procédez comme suit :
 
    ![Options de mise en pause de parcours](assets/pause-confirm.png){width="50%" align="left"}
 
-   Vous pouvez effectuer les actions suivantes :
+   Vous pouvez :
 
    * **Mettre en pause les profils** - Les profils attendront le nœud **Action** suivant pour reprendre le parcours.
    * **Ignorer les profils** - Les profils seront exclus du parcours lors du nœud **Action** suivant.
@@ -79,7 +79,7 @@ Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des 
 
 | Activité de parcours | Lorsque le parcours est en pause |
 |-------------------------|--------------------------------------------------|
-| [Qualification de l’audience](audience-qualification-events.md) | <ul> <li>Lors du premier nœud de la zone de travail : toute qualification de profil pour l’audience est ignorée. </li><li>Dans les autres nœuds : même comportement que dans un parcours actif, mais si la qualification de l’audience se situe après une activité <strong>Action</strong> et que l’utilisateur ou l’utilisatrice est mis en pause lors de cette action, la qualification de l’audience est ignorée. </li></ul> |
+| [Qualification d’audience](audience-qualification-events.md) | <ul> <li>Lors du premier nœud de la zone de travail : toute qualification de profil pour l’audience est ignorée. </li><li>Dans les autres nœuds : même comportement que dans un parcours actif, mais si la qualification de l’audience se situe après une activité <strong>Action</strong> et que l’utilisateur ou l’utilisatrice est mis en pause lors de cette action, la qualification de l’audience est ignorée. </li></ul> |
 | [Événement unitaire](general-events.md) | <ul> <li>Lors du premier nœud de la zone de travail : l’événement est ignoré.</li><li>Dans les autres nœuds : même comportement que dans un parcours actif. Cependant, si l’événement se situe après une activité <strong>Action</strong> et que l’utilisateur ou l’utilisatrice est mis en pause lors de cette action, l’événement est ignoré. </li></ul> |
 | [Lecture d’audience](read-audience.md) | Même comportement que dans un parcours actif, avec quelques spécificités : <ol> <li> Si le bouton <strong>Mettre en pause</strong> a été utilisé après le démarrage de l’activité <strong>Lecture d’audience</strong>, les profils déjà entrés dans le parcours le poursuivront (jusqu’à l’activité <strong>Action</strong> suivante). Étant donné que le parcours lit les audiences à une certaine vitesse, si l’audience entière n’est pas encore entrée, les profils restants dans la file d’attente seront ignorés.</li><li> Pour les exécutions uniques : aucune erreur ne s’affichera au moment de la reprise si la date planifiée est antérieure à la date de reprise. Cette planification sera ignorée.</li><li>Pour les parcours incrémentiels : <ul><li>Si une pause se produit avant la première occurrence, l’audience complète sera lue lors de la reprise. </li><li>Si une pause se produit, par exemple, le 4e jour d’une périodicité quotidienne et que le parcours reste en pause jusqu’au 9e jour, alors, lors de la reprise, tous les profils qui sont entrés entre le 4e et le 9e jour seront inclus.  </li></ul></ol> |
 | [Réaction](reaction-events.md) | Même comportement que dans un parcours actif. Cependant, si la réaction se situe après une activité <strong>Action</strong> et que l’utilisateur ou l’utilisatrice est mis en pause lors de cette action, l’événement de réaction est ignoré. |
@@ -202,7 +202,7 @@ Lorsque vous reprenez ce parcours :
 
 ## Résoudre les problèmes liés aux rejets de profils dans les parcours en pause {#discards-troubleshoot}
 
-Vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour interroger les événements d’étape, ce qui peut fournir plus d’informations sur les rejets de profils, selon le moment où ils se sont produits.
+Vous pouvez utiliser le [[!DNL Adobe Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour interroger les événements d’étape, ce qui peut fournir plus d’informations sur les abandons de profil, selon le moment où ils se sont produits.
 
 * Pour les rejets qui se produisent avant que le profil ne rejoigne le parcours, utilisez le code suivant :
 

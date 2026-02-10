@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publier le parcours
+title: Publiez le parcours.
 description: Découvrir comment obtenir des rapports sur les mesures de votre parcours
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: publication, parcours, actif, validité, vérifier
+keywords: publication, parcours, actif, validité, vérification
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Bénéficiez d’une visibilité claire sur l’efficacité de vos parcours clie
 
 ## Conditions préalables {#prerequisites}
 
-Avant d’utiliser les mesures de parcours, vous devez ajouter un jeu de données qui inclut les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} `Commerce Details`, `Web` et `Mobile` sous Configuration > Création de rapports dans Adobe Experience Platform.
+Avant d’utiliser vos mesures de parcours, vous devez ajouter un jeu de données qui inclut les `Commerce Details`, les `Web` et les `Mobile` [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} sous Configuration > Création de rapports dans [!DNL Adobe Experience Platform].
 
 Ces groupes de champs doivent être sélectionnés parmi les options intégrées, et non à partir de groupes personnalisés. Consultez la section [Ajouter des jeux de données](../reports/reporting-configuration.md#add-datasets).
 
