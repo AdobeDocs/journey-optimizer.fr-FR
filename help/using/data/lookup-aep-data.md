@@ -9,11 +9,12 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
+badge: label="Disponibilité limitée" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
+source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 95%
+source-wordcount: '917'
+ht-degree: 93%
 
 ---
 
@@ -26,9 +27,13 @@ ht-degree: 95%
 
 [!DNL Journey Optimizer] vous permet d’utiliser les données d’[!DNL Adobe Experience Platform] avec les fonctionnalités de personnalisation, de prise de décision et d’orchestration de parcours. Pour ce faire, les jeux de données basés sur des enregistrements nécessaires à la personnalisation de la recherche doivent d’abord être activés pour le service de recherche, comme décrit ci-dessous.
 
+>[!NOTE]
+>
+>La fonctionnalité de recherche de données n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
+
 Découvrez comment accéder aux jeux de données et comment les utiliser dans cette section : [Commencer avec les jeux de données](../data/get-started-datasets.md).
 
-## À lire impérativement
+## À lire absolument
 
 ### Mécanismes de sécurisation et directives {#guidelines}
 
