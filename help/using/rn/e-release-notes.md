@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3362242c13b404639d2a9b91742a5658cc1fb593
+source-git-commit: 22765397e7ec7a14e27a6998a28eb4dddca80f3c
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1298'
 ht-degree: 34%
 
 ---
@@ -121,7 +121,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Génération de contenu Journey Agent</strong><br/></th>
+<th><strong>Journey Agent : création de contenu de canal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -151,6 +151,22 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
+<th><strong>Activités mobiles en direct</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les <strong>Activités en direct</strong> fournissent des mises à jour en temps réel et des expériences interactives dans les applications mobiles, ce qui permet aux utilisateurs de rester informés des événements ou tâches en cours directement sur l’écran de leur appareil. Cette fonctionnalité améliore l’engagement en fournissant des informations en direct, telles que le suivi de la progression, les mises à jour d’événement ou le contenu interactif, sans que les utilisateurs et utilisatrices ouvrent l’application.</p>
+<p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Canal de notifications push web</strong><br/></th>
 </tr>
 </thead>
@@ -159,7 +175,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <td>
 <p>Adobe Journey Optimizer prend désormais en charge les <strong>notifications push web</strong>, en étendant le canal push au-delà des applications mobiles. Vous pouvez facilement diffuser des notifications vers les navigateurs mobiles et de bureau, ce qui vous permet d’atteindre les clientes et clients directement sur leurs appareils sans avoir besoin d’une application. Cette amélioration permet d’interagir avec les utilisateurs et utilisatrices à l’aide de messages personnalisés et opportuns en temps réel, en utilisant les mêmes workflows de création et les mêmes fonctionnalités de ciblage que ceux déjà disponibles pour les notifications push mobiles.</p>
 <p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p>Date de disponibilité : jeudi 11 février 2026</p>
+<p>Date de disponibilité : vendredi 12 février 2026</p>
 </td>
 </tr>
 </tbody>
@@ -178,12 +194,6 @@ Les améliorations de cette version sont présentées ci-dessous.
 #### Campagnes
 
 * **Dossiers pour les parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes en <strong>dossiers</strong> pour améliorer la navigation et la gestion dans l’interface.
-
-#### Canaux
-
-* **Activités mobiles en direct** - Les <strong>Activités en direct</strong> fournissent des mises à jour en temps réel et des expériences interactives dans les applications mobiles, ce qui permet aux utilisateurs de rester informés des événements ou tâches en cours directement sur l’écran de leur appareil. Cette fonctionnalité améliore l’engagement en fournissant des informations en direct, telles que le suivi de la progression, les mises à jour d’événement ou le contenu interactif, sans que les utilisateurs et utilisatrices ouvrent l’application.
-
-  **Remarque** : précédemment publiée en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).
 
 #### Configuration
 
@@ -222,7 +232,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -400,7 +410,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
