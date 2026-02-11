@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 9ec2255cd618035179b5dbc01b2e15374af65f3b
-workflow-type: ht
-source-wordcount: '991'
-ht-degree: 100%
+source-git-commit: 714d3dc6f0c8351e95ce4a2df2ad251c1491904b
+workflow-type: tm+mt
+source-wordcount: '993'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Pour en savoir plus sur Dynamic Media dans Adobe Experience Manager as a Cloud S
 
 >[!AVAILABILITY]
 >
->Pour les clientes et clients du secteur de la santé, l’intégration n’est activée que sous licence des modules complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Enhanced Security.
+>Pour les clients du secteur de la santé, l’intégration n’est activée que sous licence pour les offres complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Extended Security for Healthcare.
 
 
 ## Ajouter et gérer des médias dynamiques {#dynamic-media}
@@ -82,7 +82,7 @@ Votre contenu comprend désormais un média dynamique. Toutes les mises à jour 
 
 Personnalisez facilement n’importe quel média dynamique en remplaçant la superposition de texte existante par un texte de votre choix, pour simplifier les mises à jour et la personnalisation.
 
-Par exemple, à l’aide de la fonctionnalité d’expérimentation, vous pouvez modifier la superposition de texte existante en la remplaçant par un texte différent pour chaque traitement. Ainsi, chaque ouverture de message est personnalisée pour chaque profil.
+Par exemple, à l’aide de la fonctionnalité d’expérimentation, vous pouvez mettre à jour la superposition de texte existante en la remplaçant par un texte différent pour chaque traitement. Ainsi, chaque ouverture de message est personnalisée pour chaque profil.
 
 ![](assets/dynamic-media-layout-1.png)
 
@@ -109,7 +109,7 @@ Pour personnaliser votre superposition de texte, procédez comme suit :
 1. Mettez à jour les paramètres d’image suivants :
 
    * **Layer** : saisissez l’élément de base où est placé le texte.
-   * **Size** : modifiez la taille de votre bloc de texte.
+   * **Taille** : mettez à jour la taille de votre bloc de texte.
    * **TextAttr** : ajustez la taille de la police du texte.
    * **Pos** : définissez la position du texte sur l’image.
 
@@ -127,7 +127,7 @@ Votre contenu inclut désormais la superposition de texte mise à jour.
 
 ## Ajouter et gérer votre modèle Dynamic Media {#dynamic-media-template}
 
-Ajoutez facilement votre modèle Dynamic Media dans Journey Optimizer et modifiez votre contenu multimédia chaque fois que nécessaire. Vous pouvez désormais incorporer des champs de personnalisation dans vos médias, ce qui vous permet de créer du contenu plus personnalisé et plus attrayant dans Journey Optimizer.
+Ajoutez facilement votre modèle Dynamic Media dans Journey Optimizer et mettez à jour votre contenu multimédia chaque fois que nécessaire. Vous pouvez désormais incorporer des champs de personnalisation dans vos médias, ce qui vous permet de créer du contenu plus personnalisé et plus attrayant dans Journey Optimizer.
 
 En savoir plus sur le [modèle Dynamic Media](https://experienceleague.adobe.com/fr/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}
 
@@ -165,7 +165,7 @@ Vous pouvez insérer votre modèle dynamique directement dans votre contenu à l
 
    ![](assets/do-not-localize/dynamic_media_template.gif)
 
-1. Le contenu conditionnel peut être appliqué au composant Dynamic Media pour générer différentes variantes de contenu. [En savoir plus](../personalization/dynamic-content.md).
+1. Le contenu conditionnel peut être appliqué au composant Dynamic Media pour générer différentes variantes de contenu. [En savoir plus](../personalization/dynamic-content.md)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -254,9 +254,9 @@ Enable conditional content in your dynamic media to better target your audience 
 
 ## Vidéo pratique {#video}
 
-Découvrez comment intégrer Adobe Experience Manager Dynamic Media à Adobe Journey Optimizer pour activer les mises à jour de contenu en temps réel et la personnalisation.
+Découvrez comment intégrer Adobe Experience Manager Dynamic Media à Adobe Journey Optimizer pour activer la mise à jour de contenu en temps réel et la personnalisation.
 
 Ce tutoriel explique comment modifier des images directement dans AJO, ajouter des superpositions de texte à l’aide du mode HTML, créer des modèles Dynamic Media dans AEM à des fins d’hyper-personnalisation et personnaliser des campagnes en adaptant le contenu à différents segments d’audience. Cette intégration permet aux spécialistes du marketing de créer efficacement des campagnes attrayantes et personnalisées sans passer d’une application à l’autre.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463784/?captions=fre_fr&learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

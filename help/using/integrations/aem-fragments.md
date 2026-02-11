@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 780c197da342968c6dc125277f325219e0717082
+source-git-commit: 714d3dc6f0c8351e95ce4a2df2ad251c1491904b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 95%
+source-wordcount: '665'
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ Pour en savoir plus sur les fragments de contenu AEM, voir [Utilisation des frag
 
 >[!AVAILABILITY]
 >
->Pour la clientèle du secteur de la santé, l’intégration n’est activée qu’après l’obtention d’une licence pour les offres complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Enhanced Security.
+>Pour les clients du secteur de la santé, l’intégration n’est activée que sous licence pour les offres complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Extended Security for Healthcare.
 
 ## Limites {#limitations}
 
