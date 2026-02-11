@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
+source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 2%
 * [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md)
 * [Créer des défis](create-challenges.md)
 * [Création de tâches](create-tasks.md)
+* [Référence de l’API Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -157,3 +158,7 @@ Maintenant que vous connaissez les défis de fidélité et leur fonctionnement, 
   </td>
 </tr>
 </table>
+
+## Référence d’API {#api-reference}
+
+Pour gérer les défis de fidélité par programmation, utilisez l’API [Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}. L’API vous permet de créer, mettre à jour et gérer des défis et des tâches via des points d’entrée REST.

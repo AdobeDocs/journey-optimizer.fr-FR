@@ -11,13 +11,13 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
+exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
+source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
-
 
 # Créer des défis {#create-challenges}
 
@@ -29,6 +29,7 @@ ht-degree: 0%
 * [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md)
 * **Créer des défis** ◀︎ **Vous êtes ici**
 * [Création de tâches](create-tasks.md)
+* [Référence de l’API Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -252,13 +253,13 @@ Le lancement d’un défi nécessite **trois étapes** : (1) publier le défi, (
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours apparaît dans votre inventaire de parcours avec le format de nom *»Parcours : [Nom du défi] »*. [En savoir plus sur l’inventaire des parcours &#x200B;](../building-journeys/journey-ui.md).
+1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours apparaît dans votre inventaire de parcours avec le format de nom *»Parcours : [Nom du défi] »*. [En savoir plus sur l’inventaire des parcours ](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Ouvrez le parcours et publiez-le. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md).
+1. Ouvrez le parcours et publiez-le. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md).
 
-1. Une fois votre défi lancé, surveillez les performances et la diffusion des messages dans le rapport de parcours [&#128279;](../reports/journey-global-report-cja.md).
+1. Une fois votre défi lancé, surveillez les performances et la diffusion des messages dans le rapport de parcours [](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >

@@ -11,13 +11,13 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
+source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # Création de tâches {#create-tasks}
 
@@ -29,6 +29,7 @@ ht-degree: 0%
 * [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md)
 * [Créer des défis](create-challenges.md)
 * **Créer des tâches** ◀︎ **Vous êtes ici**
+* [Référence de l’API Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
