@@ -9,13 +9,13 @@ level: Beginner
 keywords: parcours, campagne, orchestré, comparaison, choisir, décision, workflow, temps réel, lot, orchestration, à plusieurs étapes, planifié, déclenché par API, piloté par événement
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 85%
 
 ---
-
 
 # Parcours ou campagnes : choisir la bonne approche {#journeys-vs-campaigns}
 
@@ -207,7 +207,7 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 | Web | ✅ | ✅ | ❌ | ❌ |
 | Basé sur le code | ✅ | ✅ | ❌ | ❌ |
 | Cartes de contenu | ✅ | ✅ | ❌ | ❌ |
-| Courrier | ✅ | ✅ | ❌ | ❌ |
+| Courrier | ✅ | ✅ | ❌ | ✅ |
 
 ### Fonctionnalités avancées
 
@@ -280,4 +280,3 @@ Vous souhaitez commencer à créer ? Consultez la documentation détaillée rel
 * [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [Questions fréquentes sur les parcours](../building-journeys/journey-faq.md)
 * [Questions fréquentes sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)
-

@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 100%
+source-wordcount: '1518'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campagnes"
->abstract="Créez votre flux de segmentation, concevez vos messages cross-canal et planifiez vos campagnes. Canaux pris en charge : e-mail, SMS, notification push."
+>abstract="Créez votre flux de segmentation, concevez vos messages cross-canal et planifiez vos campagnes. Canaux pris en charge : e-mail, SMS, notifications push, courrier."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -72,7 +72,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="Campagnes"
->abstract="Envoyez des actions transactionnelles sortantes uniques ou récurrentes."
+>abstract="Diffusez des actions transactionnelles sortantes uniques ou récurrentes. Canaux pris en charge : e-mail, SMS, notifications push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
@@ -291,7 +291,7 @@ Maintenant que vous comprenez comment fonctionnent les campagnes dans [!DNL Jour
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planification et timing**
 
@@ -301,7 +301,7 @@ Planifiez des campagnes à des dates/heures spécifiques, paramétrez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle du débit**
 
@@ -311,7 +311,7 @@ Limitez le débit des messages pour éviter une surcharge des systèmes en aval,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage des audiences**
 
@@ -321,7 +321,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Workflows d’approbation**
 
@@ -341,7 +341,7 @@ Respectez les préférences des clientes et des clients en évitant de diffuser 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimisation** :
 

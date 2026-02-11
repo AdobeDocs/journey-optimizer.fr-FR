@@ -5,10 +5,10 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '1881'
-ht-degree: 93%
+source-wordcount: '1887'
+ht-degree: 91%
 
 ---
 
@@ -162,7 +162,7 @@ Vous pouvez créer des campagnes orchestrées pour envoyer des **e-mails**, **SM
 
 +++ Est-il possible de lancer plusieurs communications et différents canaux au sein d’une même campagne orchestrée ?
 
-Oui, les campagnes orchestrées prennent en charge l’orchestration cross-canal. Vous pouvez combiner des activités de notification push, e-mail et SMS dans une zone de travail de campagne à plusieurs étapes afin de créer des expériences client complètes.
+Oui, les campagnes orchestrées prennent en charge l’orchestration cross-canal. Vous pouvez combiner des activités de type e-mail, SMS, notification push et courrier dans une zone de travail de campagne à plusieurs étapes afin de créer des expériences client complètes.
 
 **En savoir plus**
 
@@ -195,7 +195,7 @@ Non, le concepteur de contenu, y compris le Concepteur d’e-mail, est commun à
 
 +++ Comment les différents canaux sont-ils connectés dans les campagnes orchestrées ?
 
-Le composant de canal et l’exécution sont communs à toutes les campagnes Journey Optimizer, mais les canaux pris en charge diffèrent. Les campagnes orchestrées prennent en charge les e-mails, SMS et notifications push.
+Le composant de canal et l’exécution sont communs à toutes les campagnes Journey Optimizer, mais les canaux pris en charge diffèrent. Les campagnes orchestrées prennent en charge les e-mails, SMS, notifications push et le publipostage direct.
 
 **En savoir plus**
 
@@ -207,7 +207,7 @@ Le composant de canal et l’exécution sont communs à toutes les campagnes Jou
 
 +++ Les campagnes orchestrées peuvent-elles se connecter aux canaux sortants (web, inApp) ?
 
-Non, les canaux entrants tels que web et in-app ne sont pas pris en charge dans les campagnes orchestrées. Seuls les canaux sortants (e-mail, SMS et notifications push) sont pris en charge.
+Non, les canaux entrants tels que web et in-app ne sont pas pris en charge dans les campagnes orchestrées. Seuls les canaux sortants (e-mail, SMS, notifications push et courrier) sont pris en charge.
 
 **En savoir plus**
 
@@ -325,7 +325,7 @@ La segmentation est effectuée sur les destinataires lors de l’envoi par rappo
 
 Répondre « Oui » suggère la meilleure banque de données. Cependant, confirmez toujours la meilleure approche en fonction de votre cas d’utilisation et des contraintes avec votre représentant ou représentante Adobe.
 
-| Stockage relationnel | Profil client en temps réel |
+| Stockage relationnel | Real-time Customer Profile |
 |---------|----------|
 | La source des données est-elle déjà relationnelle ? | La source des données est-elle en streaming ? |
 | Prévoyez-vous d’ingérer les données en l’état pour les cas d’utilisation marketing ? | La fraîcheur des données est-elle une exigence majeure ? |
