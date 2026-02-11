@@ -36,7 +36,7 @@ Pour chacun de ces canaux, vous sélectionnez un modèle de message transactionn
 >
 >Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés dans Journey Optimizer. Si l’événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface de Journey Optimizer. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface de Journey Optimizer, mais il ne sera pas utilisable.
 
-Configuration de l’action ![[!DNL Adobe Campaign] Standard dans le parcours ](assets/journey59.png)
+Configuration de l’action ![[!DNL Adobe Campaign] Standard dans le parcours &#x200B;](assets/journey59.png)
 
 Vous pouvez utiliser un modèle de message transactionnel basé sur un événement (appelé également en temps réel) ou sur un profil.
 
