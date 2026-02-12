@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
+exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
+source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 5%
 
 ---
-
 
 # API de migration Decisioning {#decisioning-migration-api}
 
@@ -62,7 +62,7 @@ Avant d’exécuter une migration, vérifiez que votre sandbox cible est correct
 * **Jeu de données** - Identifiez un nom de jeu de données à utiliser pour la migration (`dependency.datasetName`).
 * **Flux de données** - Décidez si la migration doit créer un flux de données (`createDataStream`).
 
-Pour plus d’informations sur la gestion des sandbox, voir [&#x200B; Utilisation et affectation de sandbox](../administration/sandboxes.md).
+Pour plus d’informations sur la gestion des sandbox, voir [ Utilisation et affectation de sandbox](../administration/sandboxes.md).
 
 ## Bases d’API {#api-basics}
 
@@ -70,8 +70,8 @@ Pour plus d’informations sur la gestion des sandbox, voir [&#x200B; Utilisatio
 
 Utilisez les URL de base suivantes en fonction de votre environnement :
 
-* **Production** : `https://platform.adobe.io`
-* **Évaluation** : `https://platform-stage.adobe.io`
+* **Production** : `https://decisioning-migration.adobe.io`
+* **Évaluation** : `https://decisioning-migration-stage.adobe.io`
 
 ### Authentification {#authentication}
 
@@ -79,7 +79,6 @@ Toutes les requêtes API nécessitent les en-têtes suivants :
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
-* `x-api-key: <CLIENT_API_KEY>`
 * `Content-Type: application/json`
 
 Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
@@ -91,7 +90,7 @@ Chaque appel API crée ou récupère une ressource de workflow. Les workflows so
 Un workflow possède les propriétés suivantes :
 
 * `id` - Identifiant unique du workflow (UUID)
-* `status` - Statut actuel du workflow : `New`, `Running`, `Completed`, `Failed` ou `Cancelled`
+* `status` - Statut actuel du workflow : `New`, `Running`, `Completed` ou `Failed`
 * `result` - Sortie du workflow une fois terminée (inclut les résultats et les avertissements de la migration)
 * `errors` - Détails d’erreur structurés en cas d’échec
 * `_etag` - Identifiant de version utilisé pour les opérations de suppression (utilisateurs du service uniquement)
@@ -112,7 +111,7 @@ Utilisez l’appel API suivant pour créer un workflow d’analyse des dépendan
 **Format d’API**
 
 ```http
-POST /migration/service/dependency
+POST /workflows/generate-dependencies
 ```
 
 **Dépendance au niveau du sandbox (recommandée en premier)**
@@ -121,10 +120,9 @@ Commencez par une analyse au niveau du sandbox pour obtenir une vue complète de
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/dependency" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -149,24 +147,23 @@ Interrogez le workflow de dépendance pour vérifier la fin de l’analyse.
 **Format d’API**
 
 ```http
-GET /migration/service/dependency/{id}
+GET /workflows/generate-dependencies/{id}
 ```
 
 **Requête**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/dependency/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 Lorsque le champ de `status` affiche `Completed`, l’analyse des dépendances est prête. Utilisez la sortie du workflow pour créer vos mappages de dépendance de migration :
 
-* **profileAttributeDependency** - Mappe les attributs de profil source aux attributs de profil cible
-* **contextAttributeDependency** - Mappe les attributs de contexte source aux attributs de contexte cible.
-* **segmentsDependency** - Mappe les clés de segment source aux identifiants de segment cible (`{segmentNamespace, segmentId}`).
+* **profileAttributes** - Mappe les attributs de profil source aux attributs de profil cible
+* **contextAttributes** - Mappe les attributs de contexte source aux attributs de contexte cible.
+* **segments** - Mappe les clés de segment source aux identifiants de segment cible (`{namespace, id}`)
 * **datasetName** - Spécifie le nom du jeu de données cible pour la migration
 
 ### Étape 2 : exécuter la migration {#execute-migration}
@@ -180,7 +177,7 @@ Utilisez les mappages de dépendance de l’étape 1 pour configurer et exécute
 **Format d’API**
 
 ```http
-POST /migration/service/migrations
+POST /workflows/migration
 ```
 
 **Migration au niveau des sandbox**
@@ -189,10 +186,9 @@ Pour migrer tous les objets de prise de décision d’un sandbox à un autre :
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/migrations" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -200,16 +196,16 @@ curl --request POST \
     "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
     "createDataStream": true,
     "dependency": {
-      "profileAttributeDependency": {
+      "profileAttributes": {
         "sourceAttr1": "targetAttr1"
       },
-      "segmentsDependency": {
+      "segments": {
         "sourceSegmentKey1": {
-          "segmentNamespace": "<TARGET_SEGMENT_NAMESPACE>",
-          "segmentId": "<TARGET_SEGMENT_ID>"
+          "namespace": "<TARGET_SEGMENT_NAMESPACE>",
+          "id": "<TARGET_SEGMENT_ID>"
         }
       },
-      "contextAttributeDependency": {
+      "contextAttributes": {
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
@@ -241,17 +237,16 @@ Interrogez le workflow de migration pour suivre sa progression.
 **Format d’API**
 
 ```http
-GET /migration/service/migrations/{id}
+GET /workflows/migration/{id}
 ```
 
 **Requête**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/migrations/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 **Résultats de la migration**
@@ -301,20 +296,21 @@ Lancez une restauration en créant un workflow de restauration qui fait référe
 **Format d’API**
 
 ```http
-POST /migration/service/rollbacks/{migrationWorkflowId}
+POST /workflows/rollback
 ```
-
-Remplacez `{migrationWorkflowId}` par l’identifiant du workflow de migration que vous souhaitez restaurer.
 
 **Requête**
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<MIGRATION_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "Content-Type: application/json" \
+  --data '{ "rollbackWorkflowId": "<MIGRATION_WORKFLOW_ID>" }'
 ```
+
+Remplacez `<MIGRATION_WORKFLOW_ID>` par l’identifiant du workflow de migration que vous souhaitez restaurer.
 
 ### Surveillance du statut de restauration {#poll-rollback-status}
 
@@ -323,17 +319,16 @@ Recherchez le workflow de restauration pour suivre sa progression.
 **Format d’API**
 
 ```http
-GET /migration/service/rollbacks/{rollbackWorkflowId}
+GET /workflows/rollback/{rollbackWorkflowId}
 ```
 
 **Requête**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<ROLLBACK_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback/<ROLLBACK_WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 ## Gestion des workflows simultanés {#handle-concurrency}
@@ -353,7 +348,7 @@ Lors de la migration de la gestion des décisions vers la prise de décision, le
 | Règle d’éligibilité | Règle d’éligibilité |
 | Formule de classement | Formule de classement |
 | Décision | Stratégie de sélection + politique de décision |
-| Campagne | *de Campaign (contenu de base uniquement)* |
+| Campaign | *de Campaign (contenu de base uniquement)* |
 | Emplacement | Configuration Surface + Canal |
 | Balise | Balise unifiée |
 
@@ -363,9 +358,9 @@ Les ressources de workflow ne peuvent être supprimées que par les utilisateurs
 
 **Opérations de suppression disponibles :**
 
-* `DELETE /migration/service/dependency/{id}`
-* `DELETE /migration/service/migrations/{id}`
-* `DELETE /migration/service/rollbacks/{id}`
+* `DELETE /workflows/generate-dependencies/{id}`
+* `DELETE /workflows/migration/{id}`
+* `DELETE /workflows/rollback/{id}`
 
 >[!NOTE]
 >
@@ -376,4 +371,4 @@ Les ressources de workflow ne peuvent être supprimées que par les utilisateurs
 * [Migration de la gestion des décisions vers la prise de décision](migrate-to-decisioning.md) - Découvrez les avantages et les fonctionnalités de la migration vers la prise de décision
 * [Commencer avec la prise de décisions](gs-experience-decisioning.md)
 * [Mécanismes de sécurisation et limitations des décisions](decisioning-guardrails.md)
-* [Commencer à utiliser les API Decisioning](api-reference/getting-started.md)
+* [Commencer à utiliser les API de prise de décision](api-reference/getting-started.md)
