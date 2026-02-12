@@ -6,10 +6,11 @@ description: Découvrez comment configurer des Webhooks pour capturer des répon
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
+source-git-commit: 2bd0048c356c668ce2611b923f126e2a4e2c8630
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 71%
 
 ---
 
@@ -39,7 +40,7 @@ Parcourez les onglets ci-dessous en fonction de vos fournisseurs SMS :
 
 >[!BEGINTABS]
 
->[!TAB Valeur personnalisée]
+>[!TAB Valeur] personnalisée
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks SMS]** sous **[!UICONTROL Paramètres SMS]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
 
@@ -189,50 +190,51 @@ Après avoir créé et configuré les paramètres entrants pour le webhook, vous
 
 Une fois configurés, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
 
->[!TAB  Twilio ]
+<!--
+>[!TAB Twilio]
 
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks SMS]** sous **[!UICONTROL Paramètres SMS]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
+1. In the left rail, navigate to **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]**, select the **[!UICONTROL SMS Webhooks]** menu under **[!UICONTROL SMS settings]**, and click the **[!UICONTROL Create Webhook]** button.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+    ![](assets/sms_byo_5.png){zoomable="yes"}
 
-1. Configurez vos paramètres de webhook comme indiqué ci-dessous :
+1. Configure your Webhook Settings, as detailed below:
 
-   * **[!UICONTROL Nom]** : saisissez un nom pour votre webhook.
+    * **[!UICONTROL Name]**: Enter a name for your Webhook.
 
-   * **[!UICONTROL Sélectionnez le fournisseur de SMS]** : Twilio.
+    * **[!UICONTROL Select SMS vendor]**: Twilio.
 
-   * **[!UICONTROL Type]** : entrant.
+    * **[!UICONTROL Type]**: Inbound.
 
-   * **[!UICONTROL Informations d’identification d’API]** : choisissez dans la liste déroulante les [informations d’identification d’API configurées précédemment](sms-configuration-twilio.md#create-api).
+    * **[!UICONTROL API credentials]**: Choose from the drop-down you [previously configured API credentials](sms-configuration-twilio.md#create-api).
 
-   * **[!UICONTROL Numéro de téléphone d’expéditeur ou d’expéditrice]** : saisissez le numéro de téléphone d’expéditeur ou d’expéditrice que vous souhaitez utiliser pour vos communications.
+    * **[!UICONTROL Sender Phone Number ​]**: Enter the Sender phone number ​you want to use for your communications.
+        
+1. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add your keywords categories, then, configure them depending on your SMS provider:
 
-1. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter vos catégories de mots-clés, puis configurez-les en fonction de votre fournisseur SMS :
+    * **[!UICONTROL Inbound Keyword Category]**: Choose your keyword categories either **[!UICONTROL Opt-In]**, **[!UICONTROL Opt-Out]**, **[!UICONTROL Double Opt-In]**, **[!UICONTROL Help]** or **[!UICONTROL Custom]**. 
 
-   * **[!UICONTROL Catégorie de mots-clés entrants]** : sélectionnez vos catégories de mots-clés **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Double Opt-in]**, **[!UICONTROL Aide]** ou **[!UICONTROL Personnalisé]**.
+    * **[!UICONTROL Enter a keyword]**: Enter the default or custom keywords that will automatically trigger your message. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add multiple keywords.
 
-   * **[!UICONTROL Saisir un mot-clé]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message. Cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter plusieurs mots-clés.
+        For **[!UICONTROL Custom keyword]**, use non-consent–related keywords for batch-based actions within a journey.
 
-     Pour **[!UICONTROL Mot-clé personnalisé]**, utilisez des mots-clés non liés au consentement pour les actions par lots dans un parcours.
+    * **[!UICONTROL Reply Message]**: Select from the drop-down the custom response that is automatically sent.
 
-   * **[!UICONTROL Message de réponse]** : sélectionnez dans la liste déroulante la réponse personnalisée qui sera automatiquement envoyée.
+    * **[!UICONTROL Fuzzy Opt-out]**: Enable this option to send an automatic reply when a near-match opt-out keyword is detected.
 
-   * **[!UICONTROL Opt-out flou]** : activez cette option pour envoyer une réponse automatique lorsqu’un mot-clé d’opt-out proche de la correspondance est détecté.
+1. Enter a **[!UICONTROL Default Reply Message]** automatically sent when an inbound message does not match any configured keyword or category.
 
-1. Saisissez un **[!UICONTROL Message de réponse par défaut]** automatiquement envoyé lorsqu’un message entrant ne correspond à aucun mot-clé ou catégorie configuré.
+1. Click **[!UICONTROL Submit]** when you finished the configuration of your Webhook.
 
-1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de votre webhook.
+1. In the **[!UICONTROL Webhooks]** menu, click the ![bin icon](assets/do-not-localize/Smock_Delete_18_N.svg) to delete your Webhook.
 
-1. Dans le menu **[!UICONTROL Webhooks]**, cliquez sur l’![icône de corbeille](assets/do-not-localize/Smock_Delete_18_N.svg) pour supprimer votre webhook.
+1. To modify existing configuration, locate the desired Webhook and click the **[!UICONTROL Edit]** option to make the necessary changes.
 
-1. Pour modifier la configuration existante, recherchez le webhook souhaité et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
+1. Access and copy your new **[!UICONTROL Webhook URL]** from your previously submitted **[!UICONTROL Webhook]**.
 
-1. Accédez à la nouvelle **[!UICONTROL URL du webhook]** et copiez-la à partir du **[!UICONTROL webhook]** précédemment envoyé.
+After creating and configuring the inbound settings for the Webhook, you now need to create a [channel configuration](sms-configuration-surface.md) for SMS messages. 
 
-Après avoir créé et configuré les paramètres entrants pour le webhook, vous devez créer une [configuration des canaux](sms-configuration-surface.md) pour les messages SMS.
-
-Une fois configurés, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
-
+Once configured, you can leverage all out-of-the-box channel capabilities such as message authoring, personalization, link tracking, and reporting.
+-->
 
 >[!ENDTABS]
 
@@ -240,4 +242,3 @@ Une fois configurés, vous pouvez tirer parti de toutes les fonctionnalités d�
 ## Vidéo pratique {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431625)
-
