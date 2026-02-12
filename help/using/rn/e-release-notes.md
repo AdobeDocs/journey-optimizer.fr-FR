@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7ba8f54dae7460e6faa00235e0bb1dc24f37431c
+source-git-commit: a9c74b396e24fec418f0556124a07d482b015825
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 40%
+source-wordcount: '1591'
+ht-degree: 41%
 
 ---
 
@@ -37,11 +37,12 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez planifier la diffusion des messages sortants de campagnes ou de parcours par <strong>lots contrôlés</strong> dans le temps. L’option <strong>Envoyer des vagues</strong> offre les avantages suivants :</p>
+<p>Vous pouvez planifier la diffusion des messages sortants de campagnes ou de parcours par lots contrôlés dans le temps.</p>
+<p>L’envoi de vagues offre les avantages suivants :</p>
 <ul>
 <li>Meilleure délivrabilité : la diffusion des envois au fil du temps contribue à maintenir une bonne réputation des expéditeurs et réduit le risque d'être marqué comme spam.</li>
-<li>Contrôle de la charge - Évitez de surcharger les systèmes en aval (par exemple les centres d’appels ou les pages de destination) en limitant le nombre de messages diffusés simultanément.</li>
-<li>Cas d’utilisation volumineux et sensibles au facteur temps : adaptés aux audiences importantes ou lorsque vous devez contrôler le timing (par exemple, la capacité du centre d’appel, l’accélération ou les offres limitées dans le temps).</li>
+<li>Contrôle de la charge - Évitez de surcharger les systèmes en aval (par exemple les centres d’appels, les pages de destination) en limitant le nombre de messages diffusés en même temps.</li>
+<li>Cas d’utilisation importants et sensibles au facteur temps : adaptés aux audiences importantes ou lorsque vous devez contrôler le timing (par exemple, capacité du centre d’appel, montée en réputation ou offres limitées dans le temps).</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-11533">Lien vers la tâche JIRA DOCAC</a></p>
 </td>
@@ -58,7 +59,9 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais ajouter un champ <strong>CC (copie carbone)</strong> facultatif à vos configurations de canal e-mail. Contrairement à la fonctionnalité Cci, l’adresse en Cci est visible par le destinataire principal, ce qui vous permet d’envoyer une copie à la bonne personne par message (par exemple, un responsable des relations), tandis que le client voit qui se trouve en Cci et peut le contacter pour un suivi. Le champ CC prend en charge <strong>la personnalisation</strong> de sorte qu’une configuration peut répondre à de nombreux scénarios.</p>
+<p>Vous pouvez désormais configurer un champ CC (copie carbone) facultatif dans les paramètres de votre canal e-mail. Contrairement aux destinataires en Cci, les destinataires en Cci sont visibles par le destinataire principal, ce qui permet une communication transparente et une propriété plus claire.</p>
+<p>Vous pouvez ainsi copier automatiquement la bonne personne concernée sur chaque message, tel qu’un responsable de relation ou un propriétaire de compte, tout en vous assurant que le client sait à qui s’adresser pour le suivi.</p>
+<p>Le champ CC prend en charge la personnalisation, de sorte qu’une configuration unique peut acheminer dynamiquement les copies en fonction des données de profil, ce qui la rend évolutive sur plusieurs cas d’utilisation sans configuration supplémentaire.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14051">Lien vers la tâche JIRA DOCAC</a></p>
 </td>
 </tr>
@@ -74,7 +77,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais utiliser des <strong>formules</strong> et <strong>modèles d’IA</strong> pour améliorer automatiquement les scores de priorité des parcours en fonction des attributs de profil client et des facteurs contextuels, afin que les clients puissent accéder aux parcours les plus pertinents.</p>
+<p>Vous pouvez désormais utiliser des formules et des modèles d’IA pour augmenter automatiquement les scores de priorité des parcours en fonction des attributs de profil client et des facteurs contextuels, en vous assurant que les clients accèdent aux parcours les plus pertinents.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13976">Lien vers la tâche JIRA DOCAC</a></p>
 </td>
@@ -91,24 +94,8 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Optimisé par Adobe Experience Platform Agent Orchestrator, Journey Agent est disponible dans Journey Optimizer et vous permet d’analyser les parcours par le biais d’une interface en langage naturel. Vous pouvez désormais également générer et gérer du contenu spécifique à un canal directement dans Journey Agent, ce qui permet de créer du contenu pour des canaux tels que les e-mails et les notifications push, d’appliquer et de prévisualiser des modèles, d’affiner le ton et le style par le biais d’invites et d’ouvrir le contenu dans <strong>Content Designer</strong> pour une modification contextuelle.</p>
+<p>Optimisé par Adobe Experience Platform Agent Orchestrator, Journey Agent est disponible dans Journey Optimizer et vous permet d’analyser les parcours par le biais d’une interface en langage naturel. Vous pouvez désormais aussi générer et gérer du contenu spécifique à un canal directement dans l’agent Journey, ce qui permet de créer du contenu pour des canaux tels que les e-mails et les notifications push, d’appliquer et de prévisualiser des modèles, d’affiner le ton et le style via des prompts et d’ouvrir le contenu dans le concepteur de contenu pour le modifier en contexte.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13980">Lien vers la tâche JIRA DOCAC</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent : création d’une orchestration des campagnes</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Cas pratique de création d’une orchestration de campagnes via Journey Agent. Détails à confirmer à partir du produit.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13768">Lien vers la tâche JIRA DOCAC</a></p>
 </td>
 </tr>
 </tbody>
@@ -123,7 +110,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Les <strong>Activités en direct</strong> fournissent des mises à jour en temps réel et des expériences interactives dans les applications mobiles, ce qui permet aux utilisateurs de rester informés des événements ou tâches en cours directement sur l’écran de leur appareil. Cette fonctionnalité améliore l’engagement en fournissant des informations en direct, telles que le suivi de la progression, les mises à jour d’événement ou le contenu interactif, sans que les utilisateurs et utilisatrices ouvrent l’application.</p>
+<p>Les activités en direct fournissent des mises à jour en temps réel et des expériences interactives dans les applications mobiles, ce qui permet aux utilisateurs de rester informés des événements ou tâches en cours directement sur l’écran de leur appareil. Cette fonctionnalité améliore l’engagement en fournissant des informations en direct, telles que le suivi de la progression, les mises à jour d’événement ou le contenu interactif, sans que les utilisateurs et utilisatrices ouvrent l’application.</p>
 <p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13588">Lien vers la tâche JIRA DOCAC</a></p>
 </td>
@@ -140,7 +127,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer prend en charge une nouvelle <strong>activité d’action</strong> générique qui vous permet de configurer des actions uniques et des <strong>groupes d’actions entrantes multiples</strong>, ce qui simplifie la configuration des actions dans la zone de travail de parcours. Cette nouvelle fonctionnalité permet notamment les opérations suivantes :</p>
+<p>Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des actions uniques et des groupes d’actions entrantes multiples, ce qui simplifie la configuration des actions dans la zone de travail de parcours. Cette nouvelle fonctionnalité permet notamment les opérations suivantes :</p>
 <ul>
 <li>Configuration d’action native simplifiée dans la zone de travail de parcours</li>
 <li>Création de groupes d’actions entrantes multi-actions</li>
@@ -163,7 +150,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer prend désormais en charge les <strong>notifications push web</strong>, en étendant le canal push au-delà des applications mobiles. Vous pouvez facilement diffuser des notifications vers les navigateurs mobiles et de bureau, ce qui vous permet d’atteindre les clientes et clients directement sur leurs appareils sans avoir besoin d’une application.</p>
+<p>Adobe Journey Optimizer prend désormais en charge les notifications push web, en étendant le canal push au-delà des applications mobiles. Vous pouvez facilement diffuser des notifications vers les navigateurs mobiles et de bureau, ce qui vous permet d’atteindre les clientes et clients directement sur leurs appareils sans avoir besoin d’une application. Cette amélioration permet d’interagir avec les utilisateurs et utilisatrices à l’aide de messages personnalisés et opportuns en temps réel, en utilisant les mêmes workflows de création et les mêmes fonctionnalités de ciblage que ceux déjà disponibles pour les notifications push mobiles.</p>
 <p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p>Date de disponibilité : vendredi 12 février 2026</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13581">Lien vers la tâche JIRA DOCAC</a></p>
@@ -175,13 +162,13 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Activité Décision de contenu</strong><br/></th>
+<th><strong>Activité de décision de contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle <strong>activité de décision de contenu</strong> est désormais disponible dans la zone de travail du parcours pour intégrer les <strong>offres personnalisées</strong> directement dans vos parcours clients. Cette activité vous permet de diffuser du contenu basé sur des décisions et de référencer ces offres dans l’ensemble de votre parcours, dans des conditions de création d’embranchements basés sur l’éligibilité, dans des actions personnalisées pour transmettre des données d’offre à des systèmes externes et dans d’autres activités pour créer des expériences clients entièrement personnalisées.</p>
+<p>Une nouvelle activité de décision Contenu est désormais disponible dans la zone de travail du parcours pour intégrer des offres personnalisées directement dans vos parcours clients. Cette activité vous permet de diffuser du contenu basé sur des décisions et de référencer ces offres dans l’ensemble de votre parcours, dans des conditions de création d’embranchements basés sur l’éligibilité, dans des actions personnalisées pour transmettre des données d’offre à des systèmes externes et dans d’autres activités pour créer des expériences client entièrement personnalisées.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/content-decision.md">documentation détaillée</a>.</p>
@@ -259,47 +246,47 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Suppression de la recherche d’événement d’expérience** - Coordination avec le produit sur la phase suivante d’abandon de l’utilisation de la recherche d’événement d’expérience (EE) dans les parcours : suppression pour les clients qui n’ont pas utilisé la recherche EE au cours des 90 derniers jours. Des mises à jour de la documentation et des notes de mise à jour sont prévues ; le changement est prévu pour le 1er avril.
+* **Suppression de la recherche d’événement d’expérience** - À compter du 1er avril 2026, la recherche d’événement d’expérience dans l’éditeur d’expression de condition de parcours sera supprimée pour les organisations qui n’ont pas utilisé la recherche d’événement d’expérience au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14136">Lien vers la tâche DOCAC JIRA</a>
 
-* **Changement de méthode de délégation de sous-domaine** - Vous pouvez désormais passer d’une méthode <strong>délégation de sous-domaine</strong> à une autre. Vous pouvez ainsi migrer des domaines à l’aide du mode de délégation CNAME vers la méthode de délégation personnalisée afin de respecter les politiques de sécurité de votre entreprise.
+* **Changement de méthode de délégation de sous-domaine** - Vous pouvez désormais passer d’une méthode de délégation de sous-domaine à une autre. Vous pouvez ainsi migrer des domaines à l’aide du mode de délégation CNAME vers la méthode de délégation personnalisée afin de respecter les politiques de sécurité de votre entreprise.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13610">Lien vers la tâche DOCAC JIRA</a>
 
 #### Concepteur d’e-mail
 
-* **Utiliser un thème de marque pour convertir une image en modèle d’e-mail** - Lors de la conversion d’une image en modèle d’e-mail dans Journey Optimizer, vous pouvez désormais utiliser un <strong>thème de marque</strong> comme entrée afin que l’HTML générée respecte les paramètres de votre marque. Les styles tels que la couleur d’arrière-plan, la couleur du bouton, les polices, l’espacement des lignes, les marges et la marge intérieure sont appliqués automatiquement, ce qui réduit le travail de conception manuel et fournit un modèle prêt à l’emploi avec un minimum de modifications.
+* **Utiliser un thème de marque pour convertir une image en modèle d’e-mail** - Lors de la conversion d’une image en modèle d’e-mail dans Journey Optimizer, vous pouvez désormais utiliser un thème comme entrée afin que l’HTML générée suive les paramètres de votre marque. Les styles tels que la couleur d’arrière-plan, la couleur du bouton, les polices, l’espacement des lignes, les marges et la marge intérieure sont appliqués automatiquement, ce qui réduit le travail de conception manuel et fournit un modèle prêt à l’emploi avec un minimum de modifications.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14105">Lien vers la tâche DOCAC JIRA</a>
 
-* **Mettre à jour les marques avec un nouvel onglet de couleur** : les directives relatives à la marque permettent de s’assurer que votre marque est présentée de manière cohérente à tous les points de contact. La nouvelle <strong>section Couleurs</strong> définit les normes du système de couleurs de votre marque et décrit comment les couleurs sont sélectionnées, organisées et appliquées à travers les expériences.
+* **Mettre à jour les marques avec un nouvel onglet de couleur** : les directives relatives à la marque permettent de s’assurer que votre marque est présentée de manière cohérente à tous les points de contact. La nouvelle section Couleurs définit les normes du système de couleurs de votre marque et décrit comment les couleurs sont sélectionnées, organisées et appliquées à travers les expériences. Elle garantit une utilisation cohérente des couleurs primaires, secondaires, d’accentuation et neutres pour soutenir une identité de marque cohérente, accessible et reconnaissable.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13811">Lien vers la tâche DOCAC JIRA</a>
 
 #### IA
 
-* **Intégration de modèles Firefly personnalisés et de modèles de génération d’images tiers** - Activez l’intégration transparente des modèles Firefly standard et <strong> personnalisés</strong>, ainsi que des modèles d’image tiers <strong> approuvés</strong> (par exemple, NanoBanana), pour offrir une plus grande flexibilité, un meilleur contrôle et un meilleur alignement des marques lors de la génération d’images.
+* **Intégration de modèles Firefly personnalisés et de modèles de génération d’images tiers** - Activez l’intégration transparente des modèles Firefly standard et personnalisés, ainsi que des modèles d’image tiers approuvés (par exemple, NanoBanana), pour offrir une plus grande flexibilité, un meilleur contrôle et un meilleur alignement de la marque lors de la génération d’images. Vous pouvez ainsi sélectionner le meilleur modèle pour chaque cas d’utilisation : Firefly standard pour les besoins généraux, Firefly personnalisé pour la génération sur marque ou modèles tiers approuvés pour des scénarios spécialisés ou expérimentaux.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">Lien vers la tâche DOCAC JIRA</a>
 
 #### Campagnes
 
-* **Dossiers pour les parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes en <strong>dossiers</strong> pour améliorer la navigation et la gestion dans l’interface.
+* **Dossiers pour les parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes dans des dossiers pour améliorer la navigation et la gestion dans l’interface.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">Lien vers la tâche DOCAC JIRA</a>
 
 #### Décisions pour les expériences
 
-* **Aperçu d’Experience Decisioning dans le canal d’expérience basé sur le code** Vous pouvez désormais <strong>prévisualiser les éléments de décision</strong> lors de la configuration d’Experience Decisioning avec le <strong>canal d’expérience basé sur le code</strong>. L’aperçu est disponible directement dans l’interface de création avant la mise en ligne.
+* **Aperçu d’Experience Decisioning dans le canal d’expérience basé sur le code** - Vous pouvez désormais prévisualiser les éléments de décision lors de la configuration d’Experience Decisioning avec le canal d’expérience basé sur le code. L’aperçu est disponible directement dans l’interface de création avant la mise en ligne.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14082">Lien vers la tâche DOCAC JIRA</a>
 
-* **Observabilité des modèles d’IA pour le classement des offres** - Journey Optimizer vous permet désormais de surveiller l’intégrité, l’état de l’entraînement et les performances de vos <strong>modèles d’IA</strong> dans Decisioning, afin que vous puissiez vérifier la réussite de l’entraînement, résoudre les problèmes et comprendre l’impact sur vos résultats. Cette fonctionnalité est disponible uniquement pour les modèles d’optimisation personnalisés (et non pour l’optimisation automatique).
+* **Observabilité des modèles d’IA avec classement des offres** - Journey Optimizer vous permet désormais de surveiller l’intégrité, l’état de l’apprentissage et les performances de vos modèles d’IA dans la prise de décision. Vous pouvez ainsi vérifier la réussite de l’apprentissage, résoudre les problèmes et comprendre l’impact sur vos résultats. Cette fonctionnalité est disponible uniquement pour les modèles d’optimisation personnalisés (et non pour l’optimisation automatique).
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14040">Lien vers la tâche DOCAC JIRA</a>
 
-* **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des <strong>fragments</strong> aux <strong>éléments de décision</strong> qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision.
+* **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision.
 
   **Remarque** : cette amélioration est désormais disponible pour tous les environnements (disponibilité générale).
 
@@ -309,7 +296,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Parcours
 
-* **Plusieurs actions entrantes dans les parcours** : pour simplifier l’orchestration de parcours, vous pouvez désormais définir <strong>plusieurs actions entrantes</strong> dans un seul parcours. Précédemment disponible dans les campagnes, cette fonctionnalité vous permet de diffuser simultanément plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements, chaque action contenant du contenu spécifique.
+* **Plusieurs actions entrantes dans les campagnes** : pour simplifier l’orchestration de parcours, vous pouvez désormais définir plusieurs actions entrantes dans un seul parcours. Précédemment disponible dans les campagnes, cette fonctionnalité vous permet de diffuser simultanément plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements, chaque action contenant du contenu spécifique.
 
   **Remarque** : cette amélioration est désormais disponible pour tous les environnements (disponibilité générale).
 
@@ -326,7 +313,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -504,7 +491,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
