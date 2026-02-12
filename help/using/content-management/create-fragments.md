@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 96%
+source-wordcount: '802'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 >abstract="Créez un fragment d’expression autonome à partir de zéro pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes. Lorsque vous utilisez l’éditeur de personnalisation, vous pouvez utiliser tous les fragments d’expression qui ont été créés dans le sandbox actuel."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Utiliser l’éditeur de personnalisation"
 
-Les fragments peuvent être créés entièrement à partir du menu de gauche **[!UICONTROL Fragments]**. De plus, vous pouvez également enregistrer une partie du contenu existant en tant que fragment lorsque vous concevez du contenu. [Voici comment procéder.](save-fragments.md#)
+Les fragments peuvent être créés entièrement à partir du menu de gauche **[!UICONTROL Fragments]**. De plus, vous pouvez également enregistrer une partie du contenu existant en tant que fragment lorsque vous concevez du contenu. [Voici comment procéder](save-fragments.md#)
 
 Une fois enregistré, votre fragment peut être utilisé dans un parcours, une campagne ou un modèle. Vous pouvez utiliser ce fragment pour créer du contenu dans le cadre des parcours et des campagnes. Voir [Ajouter des fragments visuels](../email/use-visual-fragments.md) et [Utiliser des fragments d’expression](../personalization/use-expression-fragments.md).
 
@@ -84,6 +84,10 @@ Après avoir configuré les propriétés du fragment, le concepteur d’e-mail o
 * Pour les fragments d’expression, utilisez l’éditeur de personnalisation de [!DNL Journey Optimizer] et toutes ses fonctionnalités de personnalisation et de création pour créer le contenu de votre fragment. [En savoir plus](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+  >[!NOTE]
+  >
+  >Les fragments d’expression de type JSON sont validés syntaxiquement lors de l’enregistrement, les erreurs s’affichant sous forme d’alertes d’avertissement.
 
 Lorsque votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Enregistrer]**.
 
