@@ -246,7 +246,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Suppression de la recherche d’événement d’expérience** - À compter du 1er avril 2026, la recherche d’événement d’expérience dans l’éditeur d’expression de condition de parcours sera supprimée pour les organisations qui n’ont pas utilisé la recherche d’événement d’expérience au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
+* **Suppression de la recherche d’événement d’expérience** - À compter du 1er avril 2026, la recherche d’événement d’expérience dans l’éditeur d’expression de condition de parcours sera supprimée pour les organisations qui n’ont pas utilisé la recherche d’événement d’expérience au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14136">Lien vers la tâche DOCAC JIRA</a>
 
