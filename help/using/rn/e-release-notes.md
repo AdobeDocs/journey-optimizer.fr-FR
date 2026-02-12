@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a9c74b396e24fec418f0556124a07d482b015825
+source-git-commit: 4b6e988d79c48d0c5417c9e7f43a8da85a7fbe28
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 41%
+source-wordcount: '1553'
+ht-degree: 42%
 
 ---
 
@@ -45,24 +45,6 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <li>Cas d’utilisation importants et sensibles au facteur temps : adaptés aux audiences importantes ou lorsque vous devez contrôler le timing (par exemple, capacité du centre d’appel, montée en réputation ou offres limitées dans le temps).</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-11533">Lien vers la tâche JIRA DOCAC</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Copie carbone (CC) pour l’e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais configurer un champ CC (copie carbone) facultatif dans les paramètres de votre canal e-mail. Contrairement aux destinataires en Cci, les destinataires en Cci sont visibles par le destinataire principal, ce qui permet une communication transparente et une propriété plus claire.</p>
-<p>Vous pouvez ainsi copier automatiquement la bonne personne concernée sur chaque message, tel qu’un responsable de relation ou un propriétaire de compte, tout en vous assurant que le client sait à qui s’adresser pour le suivi.</p>
-<p>Le champ CC prend en charge la personnalisation, de sorte qu’une configuration unique peut acheminer dynamiquement les copies en fonction des données de profil, ce qui la rend évolutive sur plusieurs cas d’utilisation sans configuration supplémentaire.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14051">Lien vers la tâche JIRA DOCAC</a></p>
 </td>
 </tr>
 </tbody>
@@ -246,7 +228,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Suppression de la recherche d’événement d’expérience** - À compter du 1er avril 2026, la recherche d’événement d’expérience dans l’éditeur d’expression de condition de parcours sera supprimée pour les organisations qui n’ont pas utilisé la recherche d’événement d’expérience au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Suppression de la recherche d’événement d’expérience** - À compter du 1er avril 2026, la recherche d’événement d’expérience dans l’éditeur d’expression de condition de parcours sera supprimée pour les organisations qui n’ont pas utilisé la recherche d’événement d’expérience au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14136">Lien vers la tâche DOCAC JIRA</a>
 
@@ -269,6 +251,10 @@ Les améliorations de cette version sont présentées ci-dessous.
 * **Intégration de modèles Firefly personnalisés et de modèles de génération d’images tiers** - Activez l’intégration transparente des modèles Firefly standard et personnalisés, ainsi que des modèles d’image tiers approuvés (par exemple, NanoBanana), pour offrir une plus grande flexibilité, un meilleur contrôle et un meilleur alignement de la marque lors de la génération d’images. Vous pouvez ainsi sélectionner le meilleur modèle pour chaque cas d’utilisation : Firefly standard pour les besoins généraux, Firefly personnalisé pour la génération sur marque ou modèles tiers approuvés pour des scénarios spécialisés ou expérimentaux.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">Lien vers la tâche DOCAC JIRA</a>
+
+* **Prise en charge des modèles 3P Firefly pour la génération d’images tierces** - Vous pouvez désormais utiliser des modèles de génération d’images tiers (tels qu’OpenAI et Gemini) avec Firefly pour créer des images dans Journey Optimizer. Vous avez ainsi plus de flexibilité pour choisir le bon modèle pour chaque cas d’utilisation et intégrer des fournisseurs externes approuvés via la passerelle 3P de Firefly.
+
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14145">Lien vers la tâche DOCAC JIRA</a>
 
 #### Campagnes
 
@@ -313,7 +299,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -491,7 +477,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
