@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
+source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
 workflow-type: tm+mt
-source-wordcount: '3091'
+source-wordcount: '3086'
 ht-degree: 98%
 
 ---
@@ -315,7 +315,6 @@ ht-degree: 98%
       + [Commencer avec les notifications push](using/push/get-started-push.md)
       + [Créer une notification push](using/push/create-push.md)
       + [Concevoir votre notification push](using/push/design-push.md)
-      + [Concevoir votre notification push web](using/push/design-push-web.md)
       + [Vérifier et envoyer votre notification push](using/push/send-push.md)
       + Configurer les notifications push {#push-config}
          + [Configurer les notifications push](/help/rp_landing_pages/push-config-landing-page.md)
@@ -944,7 +943,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

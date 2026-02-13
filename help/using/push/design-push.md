@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1942'
 ht-degree: 74%
 
 ---
 
 # Concevoir une notification push {#design-push-notification}
 
-Une fois que vous avez créé une notification push, vous pouvez concevoir son contenu pour les plateformes iOS et Android. Cette page vous guide tout au long de la composition de votre message, de la configuration du comportement en cas de clic, de l’ajout de médias et de boutons et de la définition d’options avancées pour créer des notifications push attrayantes qui résonnent avec votre audience.
+Une fois que vous avez créé une notification push, vous pouvez concevoir son contenu pour les plateformes iOS, Android et web. Cette page vous guide tout au long de la composition de votre message, de la configuration du comportement en cas de clic, de l’ajout de médias et de boutons et de la définition d’options avancées pour créer des notifications push attrayantes qui résonnent avec votre audience.
 
 ## Titre et corps {#push-title-body}
 
@@ -30,7 +30,7 @@ Une fois que vous avez créé une notification push, vous pouvez concevoir son c
 
 Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**. Utilisez l’éditeur de personnalisation pour définir du contenu, personnaliser des données et ajouter du contenu dynamique. En savoir plus sur la [personnalisation](../personalization/personalize.md) et le [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur de personnalisation.
 
-Utilisez la section de prévisualisation des appareils pour visualiser la manière dont s’affiche la notification push sur iOS et Android.
+Utilisez la section de prévisualisation des appareils pour visualiser la manière dont s’affiche la notification push sur iOS, Android et le Web.
 
 Accélérez la création de contenu avec l’assistant IA et générez du texte de notification push attrayant avec l’[assistant IA pour la génération de texte](../content-management/generative-text.md) ou créez des notifications push complètes avec l’[assistant IA pour la génération de contenu complet](../content-management/generative-full-content.md).
 
@@ -96,15 +96,13 @@ Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
 >
 >Lors de l’inclusion de pièces jointes multimédia dans la payload de notification push (telles que des images dans des champs de données personnalisés tels que `adb_media`), votre application mobile doit implémenter une gestion côté client spécifique pour que les images s’affichent sur les appareils. Votre application doit mettre en œuvre une [extension du service de notification](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} pour télécharger et traiter le contenu multimédia à partir de la payload. En outre, l’option **[!UICONTROL Ajouter un indicateur de contenu modifiable]** doit être activée dans la section [Options avancées](#advanced-options-push).
 
-<!--
 >[!TAB Web]
 
-Enter the media URL in the **[!UICONTROL Add media]** field. You can also include personalization tokens in the URL to customize the content for each user.
+Saisissez l’URL du média dans le champ **[!UICONTROL Ajouter un média]**. Vous pouvez également inclure des jetons de personnalisation dans l’URL pour personnaliser le contenu en fonction de chaque personne.
 
-Click ![Edit text with the AI assistant](assets/do-not-localize/Smock_ImageAdd_18_N.svg) to quickly generate media using the Journey Optimizer AI Assistant.
+Cliquez sur ![Modifier le texte avec l’assistant IA](assets/do-not-localize/Smock_ImageAdd_18_N.svg) pour générer rapidement des médias à l’aide de l’assistant IA Journey Optimizer.
 
 ![](assets/web-media.png)
--->
 
 >[!ENDTABS]
 
@@ -137,17 +135,15 @@ Pour Android, vous pouvez ajouter jusqu’à trois boutons.
 
 Pour iOS, un identifiant de catégorie de notification est spécifié. Les catégories de notifications doivent être préconfigurées dans l&#39;application iOS, qui définira les boutons à afficher et les actions à effectuer. Consultez la [documentation Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) pour en savoir plus.
 
-<!--
 >[!TAB Web]
 
 ![](assets/push_buttons-web.png)
 
-Use the **[!UICONTROL Add Button]** option to define each button's label and associated action, as detailed below:
+Utilisez l&#39;option **[!UICONTROL Ajouter un bouton]** pour définir le libellé de chaque bouton et l’action associée, comme décrit ci-dessous :
 
-* **[!UICONTROL Deeplink]**: Redirect users to a specific view, section, or tab within your app. Enter the deeplink URL in the associated field.
+* **[!UICONTROL Lien profond]** : redirigez les personnes vers une vue, une section ou un onglet spécifique dans votre application. Saisissez l’URL du lien profond dans le champ associé.
 
-* **[!UICONTROL Web URL]**: Redirect users to an external webpage. Enter the URL in the associated field.
--->
+* **[!UICONTROL URL web]** : redirigez les personnes vers une page web externe. Saisissez l&#39;URL dans le champ associé.
 
 >[!ENDTABS]
 
@@ -158,11 +154,9 @@ Use the **[!UICONTROL Add Button]** option to define each button's label and ass
 >title="À propos des notifications silencieuses"
 >abstract="Envoyez des notifications sans déranger l&#39;utilisateur ou l&#39;utilisatrice. Les notifications ne sont pas affichées dans le centre de notifications ni dans la barre de notifications."
 
-<!--
 >[!AVAILABILITY]
 >
->Web push notifications in Journey Optimizer do not support the **Silent Notification** feature.
--->
+>Les notifications push web dans Journey Optimizer ne prennent pas en charge la fonctionnalité **Notification silencieuse**.
 
 Une notification push silencieuse (ou notification en arrière-plan) est une instruction masquée qui est transmise à l’application. Elle est par exemple utilisée pour informer votre application de la disponibilité d&#39;un nouveau contenu ou pour lancer un téléchargement en arrière-plan.
 
