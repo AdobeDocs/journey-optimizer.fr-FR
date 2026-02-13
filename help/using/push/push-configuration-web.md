@@ -6,12 +6,11 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
-hidefromtoc: true
-hide: true
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
+source-git-commit: bd1bb6156427fc9539a60119f909b67c505d5a1c
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -118,7 +117,7 @@ Les schémas et jeux de données suivants sont disponibles avec le canal de noti
 
 ### Configuration de la propriété pushNotification {#push-property}
 
-Pour activer les **notifications push web**, vous devez d’abord vous assurer que la propriété [pushNotifications](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/configure/pushnotifications) est correctement configurée dans le SDK web. Cette propriété contrôle la manière dont les notifications push sont traitées par votre application web.
+Pour activer les **notifications push web**, vous devez d’abord vous assurer que la propriété [pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) est correctement configurée dans le SDK web. Cette propriété contrôle la manière dont les notifications push sont traitées par votre application web.
 
 En outre, vous devez générer des clés VAPID, requises pour configurer [les informations d’identification push de votre application](#push-credentials-launch) dans Journey Optimizer.
 
@@ -146,7 +145,7 @@ L&#39;enregistrement des informations d&#39;identification push de l&#39;applica
 
 Une fois vos informations d’identification push créées, vous devez créer une configuration pour pouvoir envoyer des notifications push depuis **[!DNL Journey Optimizer]**.
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configuration des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
 
    ![](assets/push-config-9.png)
 
@@ -175,7 +174,7 @@ Vous pouvez maintenant sélectionner votre configuration lors de la création de
 
 ## Étape 3 : configurer la propriété sendPushSubscription {#sendPushSubscription-property}
 
-Une fois vos informations d’identification push et la configuration du canal configurées, vous devez implémenter [la commande sendPushSubscription](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/sendpushsubscription) dans votre application web. Cette commande enregistre les abonnements push des utilisateurs auprès de Adobe Experience Platform, ce qui permet au système de suivre les utilisateurs qui se sont inscrits pour recevoir des notifications push et conserver leur statut d&#39;abonnement. Cet enregistrement est essentiel pour que Journey Optimizer envoie des notifications push ciblées à vos utilisateurs.
+Une fois vos informations d’identification push et la configuration du canal configurées, vous devez implémenter [la commande sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) dans votre application web. Cette commande enregistre les abonnements push des utilisateurs auprès de Adobe Experience Platform, ce qui permet au système de suivre les utilisateurs qui se sont inscrits pour recevoir des notifications push et conserver leur statut d&#39;abonnement. Cet enregistrement est essentiel pour que Journey Optimizer envoie des notifications push ciblées à vos utilisateurs.
 
 ## Étape 4 : test de votre application mobile avec un événement {#mobile-app-test}
 
