@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53f9279a8698e99683cd6e75a7e746102e3e094
+source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1537'
 ht-degree: 29%
 
 ---
@@ -33,7 +33,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 Voir également les [Notes de mise à jour préliminaires d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Date de publication** : mercredi 17 février 2026
+**Date de publication** : 17-18 février 2026
 
 ### Nouvelles fonctionnalités {#feb-26-01-features}
 
@@ -227,7 +227,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
 
 * **Changement de méthode de délégation de sous-domaine** - Vous pouvez désormais passer d’une méthode <strong>délégation de sous-domaine</strong> à une autre. Vous pouvez ainsi migrer des domaines à l’aide du mode de délégation <strong>CNAME</strong> vers la méthode <strong>délégation personnalisée</strong> afin de respecter les politiques de sécurité de votre entreprise.
