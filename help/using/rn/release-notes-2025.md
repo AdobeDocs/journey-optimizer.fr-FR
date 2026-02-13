@@ -186,7 +186,7 @@ Les sections [Fonctionnalités](#jan-26-01-features) et [Améliorations](#jan-26
 
 * **Contrôles de qualité du contenu de l’assistant IA** : en plus de l’alignement sur la marque, vous pouvez désormais évaluer la <strong>qualité du contenu</strong> globale pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality).
 
-  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470544/?learn=on).
+  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on).
 
 #### Parcours
 
