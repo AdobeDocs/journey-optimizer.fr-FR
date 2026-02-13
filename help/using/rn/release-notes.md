@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7263e5ace72823ce7a3a184d2842f9bba495c068
 workflow-type: tm+mt
 source-wordcount: '1537'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Notes de mise à jour de février 2026 {#feb-26-01-rn}
+## Notes de préversion de février 2026 {#feb-26-01-rn}
 
 **Les notes de version préliminaire ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les notes de mise à jour, à la date de publication.
 
@@ -99,7 +99,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>Les <strong>Activités en direct</strong> fournissent des <strong>mises à jour en temps réel</strong> et des expériences interactives dans les applications mobiles, ce qui permet aux utilisateurs de rester informés des événements ou tâches en cours directement sur l’écran de leur appareil. Cette fonctionnalité améliore l’engagement en fournissant des informations en direct, telles que le suivi de la progression, les mises à jour d’événement ou le contenu interactif, sans que les utilisateurs et utilisatrices ouvrent l’application.</p>
-<p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (<strong>Disponibilité générale</strong>).</p>
+<p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +137,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>Adobe Journey Optimizer prend désormais en charge les <strong>notifications push web</strong>, en étendant le canal push au-delà des applications mobiles. Vous pouvez facilement diffuser des notifications vers les navigateurs mobiles et de bureau, ce qui vous permet d’atteindre les clientes et clients directement sur leurs appareils sans avoir besoin d’une application. Cette amélioration vous permet d’interagir avec les utilisateurs et utilisatrices à l’aide de messages personnalisés et opportuns en temps réel, en exploitant les mêmes <strong>workflows de création</strong> et <strong>fonctionnalités de ciblage</strong> déjà disponibles pour les notifications push mobiles.</p>
-<p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (<strong>Disponibilité générale</strong>).</p>
+<p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p>Date de disponibilité : samedi 13 février 2026</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>Une nouvelle <strong>activité de décision de contenu</strong> est désormais disponible dans la zone de travail de parcours <strong></strong> pour intégrer des <strong>offres personnalisées</strong> directement dans vos parcours clients. Cette activité vous permet de diffuser du contenu basé sur des décisions et de référencer ces offres dans l’ensemble de votre parcours, dans des conditions de création d’embranchements basés sur l’éligibilité, dans des actions personnalisées pour transmettre des données d’offre à des systèmes externes et dans d’autres activités pour créer des expériences client entièrement personnalisées.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (<strong>Disponibilité générale</strong>).</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/content-decision.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : jeudi 11 février 2026</p>
@@ -196,7 +196,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>Renseignez davantage insight sur l’intégrité et les performances de vos <strong> points d’entrée d’action personnalisés </strong> avec un nouveau <strong> tableau de bord de surveillance </strong> et des données d’événement d’étape de <strong>parcours enrichies</strong>. Effectuez le suivi des appels réussis, des erreurs, du débit, des temps de réponse et des temps d’attente de la file d’attente pour comprendre rapidement quand, où et pourquoi des anomalies se produisent.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (<strong>Disponibilité générale</strong>).</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../action/reporting.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 3 février 2026</p>
 </td>
@@ -227,7 +227,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
 
 * **Changement de méthode de délégation de sous-domaine** - Vous pouvez désormais passer d’une méthode <strong>délégation de sous-domaine</strong> à une autre. Vous pouvez ainsi migrer des domaines à l’aide du mode de délégation <strong>CNAME</strong> vers la méthode <strong>délégation personnalisée</strong> afin de respecter les politiques de sécurité de votre entreprise.
