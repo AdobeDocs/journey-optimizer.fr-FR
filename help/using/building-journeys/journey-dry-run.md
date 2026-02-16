@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 90%
+source-wordcount: '1143'
+ht-degree: 86%
 
 ---
 
@@ -137,16 +137,16 @@ Le test à blanc de parcours génère des **événements d’étape**. Ces évé
 
 ![Attributs de schéma de test à blanc de parcours](assets/dry-run-attributes.png)
 
-* `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si le test à blanc est activé et `false` dans le cas contraire.
-* `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant d’une instance de test à blanc.
+* `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` lorsque le parcours est en mode Exécution d’essai et `null` pour les parcours de test ou en direct (exécution d’essai).
+* `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant de l’instance d’exécution d’essai en mode Exécution d’essai ; pour les parcours de test ou en direct, il est `null`.
 
 
 Si vous exportez des données d’événement d’étape vers des **systèmes externes**, vous pouvez filtrer les exécutions de test à blanc à l’aide de l’indicateur `inDryRun`.
 
-Lors de l’analyse de **mesures de rapports de parcours** à l’aide de [!DNL Adobe Experience Platform] Query Service, les événements d’étape générés par l’exécution d’essai doivent être exclus. Pour ce faire, définissez l’indicateur `inDryRun` sur `false`.
+Lors de l’analyse de **mesures de rapports de parcours** à l’aide de [!DNL Adobe Experience Platform] Query Service, les événements d’étape générés par l’exécution d’essai doivent être exclus. Pour ce faire, excluez les événements d’étape où `inDryRun` est `true` (c’est-à-dire incluez uniquement les événements où `inDryRun` est `null` ou `false`).
 
 ## Vidéo pratique {#dry-run-video}
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464684/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
