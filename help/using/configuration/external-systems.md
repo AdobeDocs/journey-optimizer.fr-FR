@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1807'
 ht-degree: 97%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Cette page présente les différents mécanismes de sécurisation fournis par Journey Optimizer lors de l’intégration d’un système externe, ainsi que les bonnes pratiques : comment optimiser la protection de votre système externe à l’aide de l’API de limitation, comment configurer le délai d’expiration du parcours et comment les reprises fonctionnent.
 
-Journey Optimizer vous permet de configurer des connexions à des systèmes externes par le biais de sources de données et d&#39;actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours de données provenant d&#39;un système de réservation externe ou envoyer des messages à l&#39;aide d&#39;un système tiers tel qu&#39;Epsilon ou Facebook.
+Journey Optimizer vous permet de configurer des connexions à des systèmes externes via [sources de données personnalisées](../datasource/about-data-sources.md) et [actions personnalisées](../action/action.md). Vous pouvez ainsi, par exemple, enrichir vos parcours de données provenant d&#39;un système de réservation externe ou envoyer des messages à l&#39;aide d&#39;un système tiers tel qu&#39;Epsilon ou Facebook.
 
 Lors de l&#39;intégration d&#39;un système externe, vous pouvez rencontrer plusieurs problèmes : le système peut être lent, il peut arrêter de répondre ou ne pas être en mesure de gérer un volume important. Journey Optimizer propose plusieurs mécanismes de sécurisation pour protéger votre système contre la surcharge.
 
@@ -57,8 +57,8 @@ Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de l
 
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
 
-* [API Capping](capping.md)
-* [API de limitation](throttling.md)
+* [API de limitation](capping.md)
+* [API Throttling](throttling.md)
 
 Consultez la description détaillée des API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/).
 
@@ -101,10 +101,10 @@ La valeur du délai de temporisation dépend du cas d&#39;utilisation. Si vous s
 Prenons un exemple pour une temporisation de 5 secondes.
 
 * Le premier appel dure moins de 5 secondes : l&#39;appel a réussi, aucune nouvelle reprise n&#39;a été effectuée.
-* Le premier appel dure plus de 5 secondes : l’appel est annulé et il n’y a aucune reprise. Il est compté comme une erreur de temporisation dans les rapports.
+* Le premier appel dure plus de 5 secondes : l’appel est annulé et il n’y a aucune reprise. Il est compté comme une erreur de temporisation dans les rapports.
 * Le premier appel échoue après 2 secondes (le système externe renvoie une erreur) : 3 secondes restent pour les reprises, si des emplacements de limitation sont disponibles.
    * Si l&#39;une des trois reprises réussit avant la fin des 5 secondes, l&#39;appel est effectué et aucune erreur ne se produit.
-   * Si la fin du délai de temporisation est atteinte lors des nouvelles reprises, l&#39;appel est annulé et compté comme une erreur de temporisation dans les rapports.
+   * Si la fin du délai de temporisation est atteinte lors des nouvelles reprises, l’appel est annulé et comptabilisé comme une erreur de temporisation dans les rapports.
 
 ## Questions fréquentes {#faq}
 
@@ -114,7 +114,7 @@ Vous avez besoin de plus d’informations ? Utilisez les options de commentaire
 
 +++ Comment configurer une règle de limitation ? Existe-t-il une règle par défaut ?
 
-Pour créer des règles de limitation ou de ralentissement, reportez-vous à [cette section](../configuration/external-systems.md#capping). Par défaut, il n’y a aucune règle de ralentissement mais une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. La limite « par hôte » s’applique au niveau du domaine (par exemple, example.com). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../action/about-custom-action-configuration.md) pour plus d’informations sur la manière de demander des augmentations de limitation.
+Pour créer des règles de limitation ou de ralentissement, reportez-vous à [cette section](../configuration/external-systems.md#capping). Par défaut, il n’y a aucune règle de ralentissement mais une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. La limite « par hôte » s’applique au niveau du domaine (par exemple, exemple.com). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../action/about-custom-action-configuration.md) pour plus d’informations sur la manière de demander des augmentations de limitation.
 
 +++
 
@@ -132,7 +132,7 @@ Dans chaque parcours, vous pouvez définir un délai de temporisation. Le délai
 
 +++ Qu’est-ce que le proxy de sortie et quand dois-je l’utiliser ?
 
-Le proxy de sortie fournit une **adresse IP statique** pour les appels sortants de Journey Optimizer vers vos systèmes externes. Utilisez-le lorsque vos points d’entrée tiers nécessitent une liste autorisée d’adresses IP.
+Le proxy de sortie fournit une **adresse IP statique** pour les appels sortants depuis Journey Optimizer **actions personnalisées** vers vos systèmes externes. Utilisez-le lorsque vos points d’entrée tiers nécessitent une liste autorisée d’adresses IP.
 
 **Important :** le proxy de sortie NE contrôle PAS le débit, les limites de débit ni le nombre de connexions simultanées. Pour gérer le volume d’appels et les limites de connexion, utilisez l’[API de limitation](capping.md) ou l’[API d’étranglement](throttling.md).
 
