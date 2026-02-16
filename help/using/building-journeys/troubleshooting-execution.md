@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 94%
+source-wordcount: '1793'
+ht-degree: 84%
 
 ---
 
@@ -57,8 +57,18 @@ Pour résoudre votre problème, commencez par répondre aux questions suivantes�
   Content-type - application/json
   ```
 
-&#x200B;>>
+* **Types de données de condition d’événement et de schéma** - Assurez-vous que les types de données utilisés dans votre condition d’événement (règle) correspondent au schéma d’événement. Les types incohérents (par exemple, chaîne par rapport à entier) entraînent l’échec de l’évaluation des règles et la suppression des événements. Voir [Vérification de l’identité des événements et des types de données de règle](#verify-event-identity-and-rule-data-types).
+
+>>
 **Pour les parcours de qualification d’audience avec audiences en streaming** : si vous utilisez une activité de qualification d’audience comme point d’entrée d’un parcours, gardez à l’esprit que tous les profils correspondant aux critères de cette audience ne rejoindront pas nécessairement le parcours, en raison de facteurs de délai, de sorties rapides de l’audience ou du fait qu’ils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences en streaming](audience-qualification-events.md#streaming-entry-caveats).
+
+### Vérification de l’identité des événements et des types de données de règle {#verify-event-identity-and-rule-data-types}
+
+Lors de la configuration d&#39;un parcours basé sur un événement, vérifiez que le champ d&#39;identité de la payload correspond à l&#39;espace de noms [ sélectionné dans l&#39;événement](../event/about-creating.md#select-the-namespace). Si l’événement inclut des champs utilisés dans la condition d’événement (règle), vérifiez que les **casse de lettre** et **type de données** de la condition correspondent exactement aux données entrantes et au schéma d’événement.
+
+Par exemple, si le schéma d’événement définit un champ tel que `roStatus` sous la forme d’une chaîne, la règle de parcours doit également l’évaluer sous la forme d’une chaîne. Les types de données incohérents (par exemple, chaîne dans le schéma par rapport à entier dans la règle) entraînent l’échec de l’évaluation des règles et la suppression d’événements valides. Par conséquent, aucun profil n’entre dans le parcours, même lorsque les événements sont ingérés avec succès.
+
+Pour valider votre condition d&#39;événement dans [!DNL Journey Optimizer], utilisez l&#39;aperçu de la payload dans la configuration de l&#39;événement et assurez-vous que les types et les valeurs que vous utilisez dans la règle correspondent à la structure de la payload. Découvrez comment [ prévisualiser la payload ](../event/about-creating.md#preview-the-payload) et [ configurer des événements basés sur des règles](../event/about-creating.md).
 
 ## Résoudre des problèmes liés aux transitions en mode test {#troubleshooting-test-transitions}
 

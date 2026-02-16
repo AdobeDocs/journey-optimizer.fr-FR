@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '482'
-ht-degree: 100%
+source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d&#39;effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d&#39;effectuer la publication. En savoir plus sur le mode test sur [cette page](../building-journeys/testing-the-journey.md).
 
-Découvrez sur [cette page](troubleshooting-execution.md) comment résoudre les problèmes liés aux événements de parcours. Apprenez également comment vérifier si des profils ont rejoint votre parcours et la façon dont ils progressent dans celui-ci, et si des messages sont envoyés.
+Découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si les profils ont rejoint votre parcours, comment ils le parcourent et si des messages sont envoyés [sur cette page](troubleshooting-execution.md). Si aucun profil n’entre dans votre parcours basé sur un événement malgré l’ingestion d’événements, assurez-vous que les types de données de condition d’événement [ correspondent au schéma d’événement](troubleshooting-execution.md#verify-event-identity-and-rule-data-types).
 
 Si vous utilisez des actions entrantes, découvrez comment résoudre les problèmes liés à ces dernières [dans cette page](troubleshooting-inbound.md).
 
