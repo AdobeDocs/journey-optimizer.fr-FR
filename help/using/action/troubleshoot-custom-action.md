@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
+source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 94%
+source-wordcount: '1041'
+ht-degree: 61%
 
 ---
 
@@ -93,6 +93,20 @@ Si la demande échoue, vous pouvez vérifier les éléments suivants :
 * La méthode de la demande (GET ou POST) et la payload correspondante.
 * Le point d’entrée de l’API et les en-têtes définis dans l’action personnalisée.
 * Utilisez les données de réponse pour identifier les erreurs de configuration potentielles.
+
+## Gestion des événements d’ignorance et des délais d’inactivité {#handling-discard-events-and-idle-timeouts}
+
+Lorsqu’une action personnalisée dans un parcours déclenche un événement destiné à démarrer un **second parcours**, assurez-vous que le second parcours est dans un état valide et que l’événement est reconnu. Si l’événement ne remplit pas les conditions d’entrée du second parcours, il peut être **ignoré** et apparaître dans les journaux avec des codes tels que `notSuitableInitialEvent`. Les délais d’inactivité peuvent survenir si le deuxième parcours n’est pas prêt, ce qui entraîne l’abandon des événements dans les journaux.
+
+**Causes fréquentes :**
+
+* **Qualification d’événement non remplie** - Le deuxième parcours utilise un événement basé sur des règles avec une condition de qualification (par exemple, un champ obligatoire doit être non vide, comme une `isNotEmpty` sur un champ spécifique). Si la payload de l&#39;événement ne répond pas à cette condition (par exemple, le champ est vide ou manquant), l&#39;événement est **reçu mais ignoré** et le deuxième parcours n&#39;est pas déclenché. Ce comportement est attendu. La documentation et les journaux confirment que si la condition de qualification n’est pas remplie, l’événement sera ignoré et le parcours ne sera pas déclenché pour ce profil. Vérifiez que la payload envoyée par l’action personnalisée inclut tous les champs et valeurs requis par la configuration d’événement du second parcours. Découvrez comment [configurer des événements basés sur des règles](../event/about-creating.md) et [résoudre les problèmes de réception d’événements](../building-journeys/troubleshooting-execution.md#checking-if-people-enter-the-journey) dans l’exécution de parcours.
+
+* **Second parcours non prêt** - Des délais d’inactivité peuvent se produire si le second parcours n’est pas encore actif (par exemple, pas en mode test ou actif) ou s’il existe un intervalle de temps entre le déclenchement de l’action personnalisée et la réception du second parcours. Assurez-vous que le parcours cible est publié ou en mode test avant le déclenchement de l’action personnalisée.
+
+* **Diagnostic des événements ignorés** - Si vous voyez des événements ignorés dans les journaux, vérifiez les journaux de parcours et les traces Splunk pour confirmer si l’événement a été reçu mais ignoré en raison de la qualification (la payload ne respectait pas la règle) ou de la synchronisation. Assurez-vous que la date de début et la configuration du deuxième parcours sont correctes et que le parcours se trouve dans sa fenêtre de date active.
+
+Pour éviter de ignorer des événements lors de l’association de parcours par le biais d’actions personnalisées, validez la payload de l’événement par rapport à la règle d’événement du deuxième parcours et confirmez que le parcours cible est actif ou en test et dans sa fenêtre de date active.
 
 ## Ressources supplémentaires
 
