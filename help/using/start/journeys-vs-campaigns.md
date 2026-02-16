@@ -11,7 +11,7 @@ keywords: parcours, campagne, orchestré, comparaison, choisir, décision, workf
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 241202021c4e634e3fd1a6d67f734142c3c87c34
+source-git-commit: 4cf2b850561ef99dc8dc8300c41eeedd0cecfe32
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 66%
@@ -235,7 +235,7 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 
 +++ Puis-je combiner des parcours et des campagnes dans ma stratégie marketing ?
 
-Oui. La plupart des entreprises utilisent les quatre approches pour différents scénarios :
+Oui. De nombreuses entreprises utilisent les quatre approches pour différents scénarios :
 
 * **Parcours** pour l’engagement comportemental en temps réel
 * **Campagnes d’action** pour les communications de diffusion planifiées
@@ -264,7 +264,7 @@ Les quatre peuvent être adaptés à l’échelle ; le bon choix dépend de votr
 
 * parcours Les campagnes **Lecture d’audience** et **Action** sont optimisées pour les audiences par lots volumineuses (un message ou flux vers plusieurs profils à la fois).
 * **Campagnes orchestrées** excellez dans la segmentation complexe avec des jeux de données volumineux et des données d’entités multiples.
-* **&#x200B;**&#x200B;Les Parcours unitaires (basés sur un événement) traitent les profils individuellement au fur et à mesure des événements. De ce fait, l’échelle dépend du volume et du débit des événements.
+* **** Les Parcours unitaires (basés sur un événement) traitent les profils individuellement au fur et à mesure des événements. De ce fait, l’échelle dépend du volume et du débit des événements.
 
 +++
 
@@ -284,7 +284,7 @@ Vous souhaitez commencer à créer ? Consultez la documentation détaillée rel
 
 >[!MORELIKETHIS]
 >
->* [comparaison des types de Parcours &#x200B;](../building-journeys/journey.md#journey-types-comparison)
+>* [comparaison des types de Parcours ](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [FAQ sur les parcours](../building-journeys/journey-faq.md)
 >* [FAQ sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)
