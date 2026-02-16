@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
+exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
+source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 87%
+source-wordcount: '1755'
+ht-degree: 83%
 
 ---
 
@@ -105,7 +106,7 @@ L’[agent d&#39;analyse de parcours](https://experienceleague.adobe.com/fr/docs
 
 #### Parcours Create Skill {#journey-create-skill}
 
-L’agent de création de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
+L’agent de création de Parcours [](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
 
 +++**Fonctions principales**
 
@@ -170,6 +171,7 @@ Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieu
 
 ### Fonctionnalités clés
 
+* **Génération complète de contenu** - Générez des expériences de contenu complètes (texte et images) dans un seul flux pour les e-mails, le web, les pages de destination et les notifications push. [Générer du contenu complet avec l’assistant AI](../content-management/generative-full-content.md)
 * **Génération de texte** : créez des contenus attrayants en accord avec le ton et les objectifs de votre marque. [Génération de texte avec l’IA](../content-management/generative-text.md)
 * **Génération d’images** : générez des images personnalisées à l’aide d’Adobe Firefly. [Génération d’images avec l’IA](../content-management/generative-image.md)
 * **Variantes de contenu** : produisez plusieurs variantes pour les tests A/B. [Expérience de contenu avec l’IA](../content-management/generative-experimentation.md)
@@ -178,7 +180,7 @@ Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieu
 
 ### Bonnes pratiques
 
-* **Faire preuve de précision** : rédigez des prompts clairs et détaillés pour de meilleurs résultats.
+* **Soyez précis** - Fournissez des invites claires et détaillées pour de meilleurs résultats. [Découvrez les bonnes pratiques relatives aux invites](../content-management/ai-assistant-prompting-guide.md)
 * **Charger des ressources de la marque** : utilisez des fichiers PDF, des images ou des fichiers ZIP (50 Mo max.) pour assurer la cohérence de la marque.
 * **Utiliser des modèles personnalisés** : utilisez des modèles spécifiques à la marque contenant jusqu’à 8 à 10 images.
 * **Fournir des commentaires** : évaluez les sorties pour améliorer les modèles d’IA.
@@ -269,7 +271,7 @@ Parcourez les playbooks Journey Optimizer pour obtenir des scénarios courants t
 
 +++
 
-[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=fr){target="_blank"}
+[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Fonctionnalités d’IA supplémentaires {#additional-capabilities}
 
@@ -278,6 +280,12 @@ Parcourez les playbooks Journey Optimizer pour obtenir des scénarios courants t
 Transformez des images statiques (JPEG, PNG) en modèles d’e-mail HTML modifiables à l’aide de la technologie de conversion optimisée par l’IA.
 
 [En savoir plus sur la conversion d’images en HTML](../email/image-to-html.md)
+
+### GenStudio for Performance Marketing
+
+Intégrez-la à Adobe GenStudio for Performance Marketing pour créer du contenu d’e-mail optimisé par IA et importer des modèles dans Journey Optimizer pour orchestration. Exportez les modèles Journey Optimizer vers GenStudio, générez des variations avec l’IA et ramenez-les pour déploiement. (Disponibilité limitée, canal e-mail uniquement.)
+
+[En savoir plus sur GenStudio](../integrations/genstudio.md)
 
 ### Marque : évaluation de l’alignement
 
