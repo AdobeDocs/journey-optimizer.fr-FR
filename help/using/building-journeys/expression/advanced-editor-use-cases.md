@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: expression, condition, cas d’utilisation, événements
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ L’éditeur d’expression avancé est obligatoire pour effectuer des requêtes
 
 >[!NOTE]
 >
->Les événements commencent par le caractère @, les sources de données par #.
+>Les événements commencent par le caractère @, les sources de données par #.
 
 Les événements d’expérience sont récupérés depuis Adobe Experience Platform sous la forme d’une collection dans l’ordre chronologique inverse. Par conséquent :
 
@@ -114,6 +114,16 @@ Cette expression renvoie une valeur booléenne.
   ```
 
 De là, vous pouvez ajouter un autre chemin dans votre parcours pour les cas où le produit ne se trouve pas en magasin et envoyer une notification avec une offre d’engagement. Configurez les messages en conséquence et utilisez les données de personnalisation pour améliorer le ciblage de ces messages.
+
+## Filtrage d’horodatage dans les expressions
+
+Lors du référencement de plusieurs événements d’activité de panier, spécifiez une fenêtre d’horodatage de début et de fin pour éviter de récupérer des données historiques. Par exemple :
+
+```json
+toDateTimeOnly(currentDataPackField.timestamp) >= toDateTimeOnly(@event{poc_UDXCartAddSavedCheckOutEv.timestamp})
+AND
+toDateTimeOnly(currentDataPackField.timestamp) < toDateTimeOnly(nowWithDelta(4, "hours"))
+```
 
 ## Exemples de manipulations de chaînes avec l’éditeur d’expression avancé
 
