@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 'Parcours ou campagnes : choisir la bonne approche'
-description: Comparez les parcours, les campagnes et les campagnes orchestrées afin de choisir l’approche appropriée à vos besoins marketing dans Adobe Journey Optimizer.
+description: Comparez les Parcours, les campagnes d’action, les campagnes déclenchées par l’API et les campagnes orchestrées afin de choisir l’approche appropriée à vos besoins marketing dans Adobe Journey Optimizer.
 feature: Journeys, Campaigns, Get Started, Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: parcours, campagne, orchestré, comparaison, choisir, décision, workflow, temps réel, lot, orchestration, à plusieurs étapes, planifié, déclenché par API, piloté par événement
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 241202021c4e634e3fd1a6d67f734142c3c87c34
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 85%
+source-wordcount: '1602'
+ht-degree: 66%
 
 ---
 
 # Parcours ou campagnes : choisir la bonne approche {#journeys-vs-campaigns}
 
-Adobe Journey Optimizer propose trois approches puissantes pour atteindre et engager votre clientèle. Il est essentiel de comprendre quand utiliser chacune d’elles pour créer des expériences marketing efficaces.
+[!DNL Adobe Journey Optimizer] offre quatre méthodes principales pour atteindre et impliquer vos clients : **Parcours**, **Campagnes d’action**, **Campagnes déclenchées par une API** et **Campagnes orchestrées**. Le choix du bon dépend de si vous avez besoin d’orchestration 1:1 en temps réel, de diffusions planifiées, de messages pilotés par des événements ou de workflows par lots complexes.
 
-Ce guide vous aide à choisir entre **Parcours**, **Campagnes d’action**, **Campagnes déclenchées par l’API** et **Campagnes orchestrées** en fonction de vos besoins marketing spécifiques.
+Ce guide vous aide à choisir en fonction du style d’exécution, des besoins en données et du cas d’utilisation, avec une comparaison rapide, une arborescence de décision et des exemples concrets.
 
 ## Comparaison rapide {#quick-overview}
 
@@ -31,6 +32,10 @@ Ce guide vous aide à choisir entre **Parcours**, **Campagnes d’action**, **Ca
 | **Campagnes d’action** | Diffusions planifiées ou récurrentes vers les audiences | Exécution par lots : audience traitée ensemble au moment de l’envoi |
 | **Campagnes déclenchées par API** | Messages déclenchés par un événement ou transactionnels provenant de systèmes externes | Exécution à la demande : déclenchée par un appel API avec payload |
 | **Campagnes orchestrées** | Workflows par lots complexes avec segmentation d’entités multiples | Zone de travail par lots : tous les profils sont traités ensemble. |
+
+>[!TIP]
+>
+>**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez **Parcours**. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes D’Action**. Déclencher depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API**. Besoin de données multi-entités, de décomptes exacts ou d’une zone de travail par lots ? Utilisez **Campagnes Orchestrées**.
 
 ## Comparaison détaillée {#detailed-comparison}
 
@@ -55,7 +60,7 @@ Utilisez ce tableau complet pour comprendre les principales différences :
 
 ## Guide de décision {#decision-guide}
 
-Suivez cet arbre de décision pour choisir la bonne approche :
+Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marques utilisent plusieurs types ; choisissez le meilleur ajustement pour chaque cas d’utilisation.
 
 ### Étape 1 : quelle est votre exigence d’exécution ?
 
@@ -88,14 +93,14 @@ Suivez cet arbre de décision pour choisir la bonne approche :
 | Vos besoins | Approche recommandée | Pourquoi |
 |-----------|---------------------|-----|
 | Accueillir une nouvelle clientèle avec l’intégration en plusieurs étapes | Parcours | Entrée en temps réel, plusieurs points de contact, chemins conditionnels |
-| Envoyer une newsletter mensuelle aux personnes abonnées | Campagne d’action | Message planifié simple à l’audience |
+| Envoyer une newsletter mensuelle aux personnes abonnées | Campagnes d’action | Message planifié simple à l’audience |
 | Abandon de panier avec séquence de rappel | Parcours | Déclencheur en temps réel, temps d’attente, suivi conditionnel |
-| Annonce promotionnelle à l’ensemble de la clientèle | Campagne d’action | Message ponctuel, diffusion immédiate |
+| Annonce promotionnelle à l’ensemble de la clientèle | Campagnes d’action | Message ponctuel, diffusion immédiate |
 | Réengager les personnes inactives en fonction de leur comportement | Parcours | Déclenché par la qualification d’audience, chemin personnalisé |
 | Vente flash déclenchée par un événement métier | Parcours (événement métier) | Déclencheur en temps réel affectant plusieurs membres de la clientèle |
-| Promotion saisonnière avec intégration du catalogue de produits | Campagne orchestrée | Données multi-entités, segmentation complexe, nombres exacts |
-| Message transactionnel déclenché par API | Campagne déclenchée par API | Déclencheur de système externe, diffusion immédiate |
-| Envoi à plusieurs niveaux par réservation | Campagne orchestrée | Relations multi-entités, un message par réservation |
+| Promotion saisonnière avec intégration du catalogue de produits | Campagnes orchestrées | Données multi-entités, segmentation complexe, nombres exacts |
+| Message transactionnel déclenché par API | Campagnes déclenchées par API | Déclencheur de système externe, diffusion immédiate |
+| Envoi à plusieurs niveaux par réservation | Campagnes orchestrées | Relations multi-entités, un message par réservation |
 
 ## Principales distinctions expliquées {#key-distinctions}
 
@@ -230,12 +235,14 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 
 +++ Puis-je combiner des parcours et des campagnes dans ma stratégie marketing ?
 
-Absolument ! La plupart des entreprises utilisent les trois approches pour différents scénarios :
+Oui. La plupart des entreprises utilisent les quatre approches pour différents scénarios :
 
-* Parcours d’engagement comportemental en temps réel
-* Campagnes d’action pour les communications de diffusion planifiées
-* Campagnes déclenchées par API pour les messages transactionnels
-* Campagnes orchestrées pour des campagnes par lots complexes utilisant de nombreuses données
+* **Parcours** pour l’engagement comportemental en temps réel
+* **Campagnes d’action** pour les communications de diffusion planifiées
+* **Campagnes déclenchées par API** pour les messages transactionnels
+* **Campagnes orchestrées** pour des campagnes par lots complexes et gourmandes en données
+
+Utilisez l’outil approprié pour chaque cas d’utilisation plutôt que de forcer une approche pour tout.
 
 +++
 
@@ -253,17 +260,17 @@ Les campagnes d’action sont généralement les plus simples (message unique à
 
 +++ Quelle est l’approche la plus adaptée aux audiences de grande taille ?
 
-Les trois peuvent être adaptées à l’échelle, mais :
+Les quatre peuvent être adaptés à l’échelle ; le bon choix dépend de votre modèle :
 
-* Les **parcours de lecture d’audience** et les **campagnes d’action** sont optimisés pour les audiences par lots de grande taille.
-* Les **campagnes orchestrées** excellent dans la segmentation complexe avec des jeux de données volumineux.
-* Les **parcours unitaires** traitent les profils individuellement, de sorte que l’échelle dépend du volume d’événements.
+* parcours Les campagnes **Lecture d’audience** et **Action** sont optimisées pour les audiences par lots volumineuses (un message ou flux vers plusieurs profils à la fois).
+* **Campagnes orchestrées** excellez dans la segmentation complexe avec des jeux de données volumineux et des données d’entités multiples.
+* **** Les Parcours unitaires (basés sur un événement) traitent les profils individuellement au fur et à mesure des événements. De ce fait, l’échelle dépend du volume et du débit des événements.
 
 +++
 
 +++ Puis-je utiliser la même audience pour l’ensemble des parcours et campagnes ?
 
-Oui, les audiences créées dans Adobe Experience Platform peuvent être utilisées selon les trois approches.
+Oui. Les audiences créées dans [!DNL Adobe Experience Platform] peuvent être utilisées dans des Parcours, des campagnes d’action et des campagnes orchestrées (où la logique d’audience peut également être créée à la demande dans la zone de travail). Les campagnes déclenchées par API sont pilotées par la payload et n’utilisent pas les audiences préconfigurées de la même manière.
 
 +++
 
@@ -271,12 +278,14 @@ Oui, les audiences créées dans Adobe Experience Platform peuvent être utilis�
 
 Vous souhaitez commencer à créer ? Consultez la documentation détaillée relative à l’approche choisie :
 
-* **[Commencer avec les parcours](../building-journeys/journey.md)** : découvrez les types de parcours, le concepteur et les workflows.
-* **[Commencer avec les campagnes](../campaigns/get-started-with-campaigns.md)** : explorez les campagnes d’action et déclenchées par API.
-* **[Commencer avec les campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)** : découvrez les workflows de zone de travail par lots.
+* **[Prise en main des Parcours](../building-journeys/journey.md)** - types de Parcours, concepteur et workflow
+* **[Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)** - Campagnes déclenchées par une action et une API
+* **[Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)** - Workflows par lots de la zone de travail
 
-**Besoin d’aide pour prendre une décision ?**
-* [Comparaison des types de parcours](../building-journeys/journey.md#journey-types-comparison)
-* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [Questions fréquentes sur les parcours](../building-journeys/journey-faq.md)
-* [Questions fréquentes sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)
+>[!MORELIKETHIS]
+>
+>* [comparaison des types de Parcours ](../building-journeys/journey.md#journey-types-comparison)
+>* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [FAQ sur les parcours](../building-journeys/journey-faq.md)
+>* [FAQ sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)
+>* [Bonnes pratiques](best-practices.md) - Cas d’utilisation en temps réel et évolutivité avec des mécanismes de sécurisation
