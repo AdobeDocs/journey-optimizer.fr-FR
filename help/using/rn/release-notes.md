@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
+source-git-commit: d3e361c6b7a91a1fd3b72d12a8aa6fefc295837a
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 39%
+source-wordcount: '1549'
+ht-degree: 40%
 
 ---
 
@@ -46,11 +46,11 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez planifier la diffusion des messages sortants provenant de <strong>campagnes</strong> ou <strong>parcours </strong> par <strong>lots</strong> contrôlés dans le temps.</p>
+<p>Vous pouvez planifier la diffusion des messages sortants de campagnes ou de parcours par lots contrôlés dans le temps.</p>
 <p>L’envoi de vagues offre les avantages suivants :</p>
 <ul>
-<li>Meilleure <strong>délivrabilité</strong> - Répartissez les envois au fil du temps pour préserver la réputation de l’expéditeur et réduire le risque d’être marqué comme spam.</li>
-<li><strong>Contrôle de charge</strong> - Évitez de surcharger les systèmes en aval (par exemple les centres d’appels, les pages de destination) en limitant le nombre de messages diffusés en même temps.</li>
+<li>Meilleure délivrabilité : la diffusion des envois au fil du temps contribue à maintenir une bonne réputation des expéditeurs et réduit le risque d'être marqué comme spam.</li>
+<li>Contrôle de la charge - Évitez de surcharger les systèmes en aval (par exemple les centres d’appels, les pages de destination) en limitant le nombre de messages diffusés en même temps.</li>
 <li>Cas d’utilisation importants et sensibles au facteur temps : adaptés aux audiences importantes ou lorsque vous devez contrôler le timing (par exemple, capacité du centre d’appel, montée en réputation ou offres limitées dans le temps).</li>
 </ul>
 </td>
@@ -67,7 +67,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais utiliser des <strong>formules</strong> et <strong>modèles d’IA</strong> pour améliorer automatiquement les scores de priorité des parcours en fonction des attributs de profil client et des facteurs contextuels, afin que les clients puissent accéder aux parcours les plus pertinents.</p>
+<p>Vous pouvez désormais utiliser des <strong>formules de classement</strong> <!--and <strong>AI models</strong> --> pour améliorer automatiquement les scores de priorité des parcours en fonction des attributs de profil client et des facteurs contextuels, afin que les clients puissent accéder aux parcours les plus pertinents.</p>
 <p>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (<strong>Disponibilité limitée</strong>). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </td>
 </tr>
@@ -110,6 +110,22 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
+<th><strong>Surveillance des modèles d’IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer vous permet désormais de surveiller l’intégrité, l’état de la formation et les performances de vos modèles d’IA dans la prise de décision. Vous pouvez ainsi vérifier les performances de la formation, résoudre les problèmes et comprendre l’impact sur vos résultats.</p>
+<p>Cette fonctionnalité est actuellement disponible uniquement pour les modèles <strong>optimisation personnalisée</strong> (et non pour l’optimisation automatique).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Activité d’action dans les parcours</strong><br/></th>
 </tr>
 </thead>
@@ -120,8 +136,8 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <ul>
 <li>Configuration d’action native simplifiée dans la zone de travail de parcours</li>
 <li>Création de groupes d’actions entrantes multi-actions</li>
-<li>La possibilité d’ajouter <strong>optimisation</strong> à toute action de canal intégrée.</li>
-<li>Possibilité d’ajouter des options <strong>expérimentation</strong> et <strong>multilingues</strong> à n’importe quelle action.</li>
+<li>Ajout d’une optimisation à toute action de canal intégrée</li>
+<li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action.</li>
 </ul>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 </td>
@@ -193,11 +209,11 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p><strong>Les API d’outil de migration</strong> sont désormais disponibles pour migrer par programmation les entités <strong>Gestion des décisions</strong> vers <strong>Prise de décision</strong>, avec les fonctionnalités suivantes :</p>
+<p>Les API d’outils de migration sont désormais disponibles pour migrer par programmation des entités <strong>Gestion des décisions</strong> vers <strong>Prise de décision</strong>, avec les fonctionnalités suivantes :</p>
 <ul>
-<li>Portées de migration flexibles (<strong>sandbox</strong>, <strong>offre</strong> ou <strong>décision</strong> niveau)</li>
-<li>Automatisé <strong>analyse des dépendances</strong> et validation</li>
-<li><strong> Prise en charge des restaurations </strong> pour les migrations terminées</li>
+<li>Des portées de migration flexibles (sandbox, offre ou niveau de décision)</li>
+<li>L’analyse et la validation automatisées des dépendances</li>
+<li>La prise en charge de la restauration pour les migrations terminées</li>
 <li>Des rapports de migration détaillés avec les mappages d’objet</li>
 </ul>
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/decisioning-migration-api.md">documentation détaillée</a>.</p>
@@ -248,7 +264,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
 
 * **Migrer les sous-domaines vers la délégation personnalisée** - Vous pouvez désormais migrer les sous-domaines à l’aide du mode de délégation CNAME vers la délégation personnalisée directement à partir de l’interface, afin de pouvoir respecter des politiques de sécurité plus strictes conformément aux directives de votre entreprise sans recréer de configurations de canal.
@@ -277,9 +293,6 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 
 * **Aperçu d’Experience Decisioning dans le canal d’expérience basé sur le code** - Vous pouvez désormais prévisualiser les éléments de décision lors de la configuration d’Experience Decisioning avec le canal d’expérience basé sur le code. L’aperçu est disponible directement dans l’interface de création avant la mise en ligne.
-
-
-* **Observabilité des modèles d’IA avec classement des offres** - Journey Optimizer vous permet désormais de surveiller l’intégrité, l’état de l’apprentissage et les performances de vos modèles d’IA dans la prise de décision. Vous pouvez ainsi vérifier la réussite de l’apprentissage, résoudre les problèmes et comprendre l’impact sur vos résultats. Cette fonctionnalité est disponible uniquement pour les modèles d’optimisation personnalisés (et non pour l’optimisation automatique).
 
 
 * **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision.
