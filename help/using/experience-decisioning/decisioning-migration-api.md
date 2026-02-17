@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
+source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1105'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 L’API Decisioning Migration Service vous permet de migrer des objets Decision Management d’un sandbox à un autre. Le processus de migration s’exécute sous la forme de workflows asynchrones qui incluent l’analyse des dépendances, l’exécution et des fonctionnalités de restauration facultatives.
 
-Cette API vous permet de transférer facilement votre contenu de prise de décision entre les environnements (par exemple, du développement à l’évaluation ou de l’évaluation à la production) tout en préservant l’intégrité et les relations des données.
+Cette API vous permet de transférer facilement votre contenu de prise de décision entre les environnements <!--(e.g., from development to staging, or staging to production) -->tout en préservant l’intégrité des données et les relations.
 
 Pour en savoir plus sur les avantages et les fonctionnalités de la prise de décision par rapport à la gestion des décisions, consultez [cette page](migrate-to-decisioning.md).
 
@@ -62,16 +62,16 @@ Avant d’exécuter une migration, vérifiez que votre sandbox cible est correct
 * **Jeu de données** - Identifiez un nom de jeu de données à utiliser pour la migration (`dependency.datasetName`).
 * **Flux de données** - Décidez si la migration doit créer un flux de données (`createDataStream`).
 
-Pour plus d’informations sur la gestion des sandbox, voir [&#x200B; Utilisation et affectation de sandbox](../administration/sandboxes.md).
+Pour plus d’informations sur la gestion des sandbox, voir [ Utilisation et affectation de sandbox](../administration/sandboxes.md).
 
 ## Bases d’API {#api-basics}
 
-### URL de base {#base-urls}
+### URL de base {#base-url}
 
-Utilisez les URL de base suivantes en fonction de votre environnement :
+Utilisez l’URL de base suivante :
 
 * **Production** : `https://decisioning-migration.adobe.io`
-* **Évaluation** : `https://decisioning-migration-stage.adobe.io`
+  <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Authentification {#authentication}
 
@@ -93,8 +93,8 @@ Un workflow possède les propriétés suivantes :
 * `status` - Statut actuel du workflow : `New`, `Running`, `Completed` ou `Failed`
 * `result` - Sortie du workflow une fois terminée (inclut les résultats et les avertissements de la migration)
 * `errors` - Détails d’erreur structurés en cas d’échec
-* `_etag` - Identifiant de version utilisé pour les opérations de suppression (utilisateurs du service uniquement)
 * `_links.self` - URL du workflow pour la récupération du statut
+  <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
 ## Workflow de migration {#migration-workflow}
 
@@ -354,17 +354,15 @@ Lors de la migration de la gestion des décisions vers la prise de décision, le
 
 ## Nettoyage du workflow {#cleanup}
 
-Les ressources de workflow ne peuvent être supprimées que par les utilisateurs et utilisatrices du service. Les opérations de suppression nécessitent un en-tête `If-Match` avec la valeur de `_etag` du workflow.
+<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
-**Opérations de suppression disponibles :**
+**Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`
+* `DELETE /workflows/rollback/{id}`-->
 
->[!NOTE]
->
->La suppression de workflow n’est disponible que pour les comptes de service disposant des autorisations appropriées. Si vous devez supprimer une ressource de workflow, contactez votre administrateur ou administratrice système.
+La suppression de workflow n’est pas disponible publiquement. Si vous devez supprimer une ressource de workflow, contactez votre administrateur ou administratrice système.
 
 ## Rubriques connexes {#related-topics}
 
