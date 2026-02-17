@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Le convertisseur d’images en HTML est une fonctionnalité optimisée par l’IA qui convertit des conceptions d’images statiques en modèles de contenu d’e-mail HTML entièrement personnalisables et modulaires. Cet outil sans code permet aux spécialistes marketing de transformer des conceptions visuelles en modèles d’e-mail réactifs et modifiables sans avoir besoin d’expertise technique. Il est idéal pour la migration de plateformes, la création rapide de modèles et la création de bibliothèques de modèles réutilisables.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
-<p>Pour plus d’informations, consultez la <a href="../email/image-to-html.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../content-management/image-to-html.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 30 octobre_2025</p>
 </td>
 </tr>

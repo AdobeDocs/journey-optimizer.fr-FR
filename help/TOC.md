@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 98%
@@ -273,7 +273,6 @@ ht-degree: 98%
             + [Importer votre contenu](using/email/existing-content.md)
             + [Coder votre propre contenu](using/email/code-content.md)
             + [Utiliser des modèles d’e-mail](using/email/use-email-templates.md)
-            + [Convertir des images en modèles HTML](using/email/image-to-html.md)
             + [Utiliser les thèmes d’e-mail](using/email/apply-email-themes.md)
             + [Joindre des fichiers PDF à vos e-mails](using/email/pdf-attachments.md)
          + Concevoir du contenu {#add-content}
@@ -457,6 +456,7 @@ ht-degree: 98%
       + [Commencer avec les modèles de contenu](using/content-management/content-templates.md)
       + [Accéder aux modèles et les gérer](using/content-management/access-content-templates.md)
       + [Créer des modèles de contenu](using/content-management/create-content-templates.md)
+      + [Convertir des images en modèles HTML](using/content-management/image-to-html.md)
       + [Verrouiller le contenu dans les modèles d’e-mail](using/content-management/content-locking.md)
       + [Tester des modèles de contenu](using/content-management/test-content-templates.md)
       + [Utiliser des modèles de contenu](using/content-management/use-content-templates.md)
@@ -943,7 +943,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
