@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
+source-git-commit: 7dac7dbdb6a84455dc97828884027cfed39f3995
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 38%
+source-wordcount: '1529'
+ht-degree: 39%
 
 ---
 
@@ -52,8 +52,9 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <li>Meilleure délivrabilité : la diffusion des envois au fil du temps contribue à maintenir une bonne réputation des expéditeurs et réduit le risque d'être marqué comme spam.</li>
 <li>Contrôle de la charge - Évitez de surcharger les systèmes en aval (par exemple les centres d’appels, les pages de destination) en limitant le nombre de messages diffusés en même temps.</li>
 <li>Cas d’utilisation importants et sensibles au facteur temps : adaptés aux audiences importantes ou lorsque vous devez contrôler le timing (par exemple, capacité du centre d’appel, montée en réputation ou offres limitées dans le temps).</li>
-<p>Dans les campagnes, cette fonctionnalité est disponible dans tous les environnements (Disponibilité générale). Dans parcours, cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </ul>
+<p>Dans les campagnes, cette fonctionnalité est disponible dans tous les environnements (Disponibilité générale).</p>
+<p>Dans parcours, cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -264,13 +265,14 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
 
 #### Concepteur d’e-mail
 
-* **Utiliser un thème de marque pour convertir une image en modèle d’e-mail** - Lors de la conversion d’une image en modèle d’e-mail dans Journey Optimizer, vous pouvez désormais utiliser un thème comme entrée afin que l’HTML générée suive les paramètres de votre marque. Les styles tels que la couleur d’arrière-plan, la couleur du bouton, les polices, l’espacement des lignes, les marges et la marge intérieure sont appliqués automatiquement, ce qui réduit le travail de conception manuel et fournit un modèle prêt à l’emploi avec un minimum de modifications.
+* **Utiliser des thèmes pour convertir des images en modèles d’e-mail** - Lors de la conversion d’une image en modèle d’e-mail dans Journey Optimizer, vous pouvez désormais utiliser un thème comme entrée afin que l’HTML générée suive les paramètres de votre marque. Les styles tels que la couleur d’arrière-plan, la couleur du bouton, les polices, l’espacement des lignes, les marges et la marge intérieure sont appliqués automatiquement, ce qui réduit le travail de conception manuel et fournit un modèle prêt à l’emploi avec un minimum de modifications. [En savoir plus](../content-management/image-to-html.md)
 
+  Date de disponibilité : 13 février 2026.
 
 * **Mettre à jour les marques avec un nouvel onglet de couleur** : les directives relatives à la marque permettent de s’assurer que votre marque est présentée de manière cohérente à tous les points de contact. La nouvelle section Couleurs définit les normes du système de couleurs de votre marque et décrit comment les couleurs sont sélectionnées, organisées et appliquées à travers les expériences. Elle garantit une utilisation cohérente des couleurs primaires, secondaires, d’accentuation et neutres pour soutenir une identité de marque cohérente, accessible et reconnaissable.
 
@@ -290,7 +292,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 * **Aperçu d’Experience Decisioning dans le canal d’expérience basé sur le code** - Vous pouvez désormais prévisualiser les éléments de décision lors de la configuration d’Experience Decisioning avec le canal d’expérience basé sur le code. L’aperçu est disponible directement dans l’interface de création avant la mise en ligne.
 
 
-* **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision.
+* **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision. [En savoir plus](../experience-decisioning/fragments-decision-policies.md)
 
   **Remarque** : cette fonctionnalité, précédemment disponible en disponibilité limitée, est désormais disponible dans tous les environnements (disponibilité générale).
 
@@ -303,6 +305,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
   **Remarque** : cette fonctionnalité, précédemment disponible en disponibilité limitée, est désormais disponible dans tous les environnements (disponibilité générale).
 
+#### SMS
 
 * **Webhooks SMS** : les <strong>webhooks</strong> sont désormais pris en charge par tous les fournisseurs de SMS. Vous pouvez configurer chaque webhook en fonction de son objectif : <strong>Webhooks entrants</strong> pour capturer les messages entrants et <strong>Webhooks de commentaires</strong> pour recevoir les accusés de réception des diffusions, les mises à jour de statut et d’autres événements liés aux messages. [En savoir plus](../sms/sms-webhook.md)
 
