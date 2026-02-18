@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7dac7dbdb6a84455dc97828884027cfed39f3995
+source-git-commit: 029f91599f0be6d30d1e7d73cac7390a6fb05f1f
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1461'
 ht-degree: 39%
 
 ---
@@ -265,14 +265,17 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
 
-#### Concepteur d’e-mail
+#### Modèles de contenu
 
 * **Utiliser des thèmes pour convertir des images en modèles d’e-mail** - Lors de la conversion d’une image en modèle d’e-mail dans Journey Optimizer, vous pouvez désormais utiliser un thème comme entrée afin que l’HTML générée suive les paramètres de votre marque. Les styles tels que la couleur d’arrière-plan, la couleur du bouton, les polices, l’espacement des lignes, les marges et la marge intérieure sont appliqués automatiquement, ce qui réduit le travail de conception manuel et fournit un modèle prêt à l’emploi avec un minimum de modifications. [En savoir plus](../content-management/image-to-html.md)
 
   Date de disponibilité : 13 février 2026.
+
+
+#### Concepteur d’e-mail
 
 * **Mettre à jour les marques avec un nouvel onglet de couleur** : les directives relatives à la marque permettent de s’assurer que votre marque est présentée de manière cohérente à tous les points de contact. La nouvelle section Couleurs définit les normes du système de couleurs de votre marque et décrit comment les couleurs sont sélectionnées, organisées et appliquées à travers les expériences. Elle garantit une utilisation cohérente des couleurs primaires, secondaires, d’accentuation et neutres pour soutenir une identité de marque cohérente, accessible et reconnaissable.
 
@@ -288,7 +291,6 @@ Les améliorations de cette version sont présentées ci-dessous.
 
   **Remarque** : cette fonctionnalité n’est disponible que pour un ensemble d’organisations (<strong>Disponibilité limitée</strong>). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-
 * **Aperçu d’Experience Decisioning dans le canal d’expérience basé sur le code** - Vous pouvez désormais prévisualiser les éléments de décision lors de la configuration d’Experience Decisioning avec le canal d’expérience basé sur le code. L’aperçu est disponible directement dans l’interface de création avant la mise en ligne.
 
 
@@ -298,12 +300,6 @@ Les améliorations de cette version sont présentées ci-dessous.
 
   Date de disponibilité : 12 février 2026.
 
-
-#### Parcours
-
-* **Plusieurs actions entrantes dans les campagnes** : pour simplifier l’orchestration de parcours, vous pouvez désormais définir plusieurs actions entrantes dans un seul parcours. Précédemment disponible dans les campagnes, cette fonctionnalité vous permet de diffuser simultanément plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements, chaque action contenant du contenu spécifique.
-
-  **Remarque** : cette fonctionnalité, précédemment disponible en disponibilité limitée, est désormais disponible dans tous les environnements (disponibilité générale).
 
 #### SMS
 
