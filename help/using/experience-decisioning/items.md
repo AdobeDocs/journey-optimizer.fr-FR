@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 99%
+source-wordcount: '2100'
+ht-degree: 98%
 
 ---
 
@@ -78,8 +78,8 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 >abstract="Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -123,13 +123,9 @@ La limitation est utilisée comme contrainte pour définir le nombre maximal de 
 >
 >La mise à jour de la valeur du compteur de limitations peut prendre jusqu’à 3 secondes. Prenons l’exemple suivant : vous présentez une offre sur la bannière web de votre site web. Si une personne accède à la page suivante de votre site web en moins de 3 secondes, la valeur du compteur ne sera pas incrémentée pour cette personne.
 
-Lors de la configuration des règles de limitation, vous pouvez référencer des attributs stockés dans les jeux de données Adobe Experience Platform pour définir des seuils. Pour utiliser un jeu de données, sélectionnez-le dans la section **[!UICONTROL Jeu de données]**.
+Lors de la configuration des règles de limitation, vous pouvez référencer des attributs stockés dans les jeux de données Adobe Experience Platform pour définir des seuils. Pour utiliser un jeu de données, sélectionnez-le dans la section **[!UICONTROL Jeu de données]**. [Découvrez comment utiliser les données Adobe Experience Platform pour la prise de décision](../experience-decisioning/aep-data-exd.md)
 
 ![](assets/exd-lookup-capping.png)
-
->[!NOTE]
->
->Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des utilisateurs et utilisatrices. Vous trouverez des informations détaillées sur son utilisation dans cette section : [Utiliser les données Adobe Experience Platform pour la prise de décision](../experience-decisioning/aep-data-exd.md).
 
 Pour définir des règles de limitation pour l’élément de décision, cliquez sur le bouton **[!UICONTROL Créer une limitation]**, puis procédez comme suit :
 

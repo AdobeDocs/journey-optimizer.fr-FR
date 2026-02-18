@@ -5,10 +5,10 @@ title: Recherche d’événements d’expérience dans les parcours
 description: Découvrez comment utiliser la recherche d’événements d’expérience dans les parcours.
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 87%
+source-wordcount: '960'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
->À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées ci-dessous.
+>À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la source de données [Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions.
+>
+>À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées ci-dessous.
 >
 >Vous avez besoin de plus d’informations ? [Consultez les questions fréquentes](#faq-ee).
 
@@ -129,9 +131,9 @@ En savoir plus :
 
 ## Questions fréquentes {#faq-ee}
 
-Vous trouverez ci-dessous les questions fréquentes sur la recherche d’événements d’expérience dans les parcours.
+Cette FAQ se concentre sur la chronologie du retrait de l’utilisation des événements d’expérience dans les expressions de parcours et sur les personnes affectées. Pour obtenir des conseils sur les autres approches, consultez les cas d’utilisation et les bonnes pratiques ci-dessus.
 
-Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou communiquer avec [[!DNL Adobe Journey Optimizer] communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [[!DNL Adobe Journey Optimizer] communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
 
 +++Quelles fonctionnalités spécifiques sont affectées ? 
 
@@ -153,9 +155,9 @@ Seule la recherche d’événements d’expérience dans l’éditeur d’expres
 
 +++
 
-+++Mon organisation Adobe existante est-elle affectée par cette mise à jour ? 
++++Mon organisation Adobe existante est-elle affectée par cette mise à jour ?
 
-Votre organisation Adobe n’est affectée que si vous n’avez pas déjà utilisé la recherche d’événements d’expérience. Si vous utilisez déjà des événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md), votre organisation Adobe continue à prendre en charge la recherche d’événements d’expérience.
+À compter du 8 juillet 2025, les nouvelles organisations clientes ne pourront plus créer d’expressions à l’aide d’attributs d’événement d’expérience. À compter du 1er avril 2026, les organisations qui n’ont pas accédé aux événements d’expérience par le biais d’expressions de parcours au cours des 90 derniers jours n’auront plus accès à cette fonctionnalité.
 
 +++
 

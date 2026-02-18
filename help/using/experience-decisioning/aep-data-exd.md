@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expression, éditeur
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 100%
+source-wordcount: '1213'
+ht-degree: 95%
 
 ---
 
@@ -53,8 +53,8 @@ ht-degree: 100%
 
 ## Mécanismes de sécurisation et limitations {#guardrails}
 
-* **Canaux pris en charge** : la recherche de jeu de données avec prise de décision fonctionne actuellement pour les actions personnalisées de parcours et d’e-mail. <!--Support for code-based experience channels is coming soon.-->
-* **Utilisation des attributs** : la fonctionnalité de recherche de jeu de données pour la prise de décisions enrichit les définitions d’élément de décision avec des attributs supplémentaires, sans pour autant les appliquer aux profils.
+* **Canaux pris en charge** - La recherche de jeux de données avec la prise de décision fonctionne pour tous les canaux pour lesquels la prise de décision est disponible : expérience basée sur le code (entrant), e-mail, notification push, SMS et le nœud de décision de contenu dans parcours.
+* **Utilisation des attributs** - La fonctionnalité de recherche de jeu de données pour la prise de décisions étend les définitions d’élément de décision avec des attributs supplémentaires - elle n’étend pas les attributs aux profils.
 * **Limites de recherche** : [!DNL Journey Optimizer] prend en charge jusqu’à 1 000 recherches par politique de décision.
 
 ## Conditions préalables
