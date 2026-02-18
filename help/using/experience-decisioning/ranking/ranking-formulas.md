@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 95%
@@ -141,7 +141,7 @@ Si la région de l’élément de décision (attribut personnalisé) est égale 
 
 ## Utiliser l’éditeur de code {#ranking-code-editor}
 
-Pour exprimer les formules de classement dans la **syntaxe PQL**, basculez vers l’éditeur de code à l’aide du bouton dédié en haut à droite de l’écran. Pour plus d’informations sur l’utilisation de la syntaxe PQL, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr).
+Pour exprimer les formules de classement dans la **syntaxe PQL**, basculez vers l’éditeur de code à l’aide du bouton dédié en haut à droite de l’écran. Pour plus d&#39;informations sur l&#39;utilisation de la syntaxe PQL, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr).
 
 >[!CAUTION]
 >
@@ -245,7 +245,7 @@ Fonction de la formule :
 
 +++Booster les offres basées sur des données contextuelles
 
-[!DNL Journey Optimizer] permet de mettre en avant certaines offres en fonction des données contextuelles transmises dans l’appel. Par exemple, si la valeur `contextData.weather=hot` est transmise, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
+[!DNL Journey Optimizer] permet de booster certaines offres en fonction des données contextuelles transmises dans l’appel. Par exemple, si la valeur `contextData.weather=hot` est transmise, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
 
 >[!NOTE]
 >
@@ -279,6 +279,6 @@ Notez que lorsque vous utilisez l’API **Decisioning**, les données contextuel
 
 ## Vidéo pratique {#video}
 
-Découvrez comment utiliser le créateur de formules d’IA dans Adobe Journey Optimizer pour créer des stratégies de classement d’offres personnalisées.
+Découvrez comment utiliser le créateur de formules IA dans Adobe Journey Optimizer pour créer des stratégies de classement d’offres personnalisées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)

@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Prenons l’exemple d’un scénario dans lequel vous avez des éléments de dé
 >
 >Les règles de ciblage sont actuellement en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 >
->Notez que cette fonctionnalité n’est disponible que pour les organisations qui ont acheté le module complémentaire **Decisioning**. Elle sera progressivement disponibles pour l’ensemble des clientes et clients.
+>Notez que cette fonctionnalité n’est disponible que pour les organisations qui ont acheté le module complémentaire **Decisioning**. Elle sera progressivement disponible pour l’ensemble de la clientèle.
 
 Les règles de ciblage permettent de déterminer les qualifications spécifiques qui doivent être remplies pour qu’un client ou une cliente puisse recevoir du contenu personnalisé ou rejoindre un chemin de parcours spécifique, en fonction de segments d’audience spécifiques, ce qui vous permet de cibler des sous-audiences dans vos parcours et campagnes.
 
@@ -79,7 +79,7 @@ Les actions suivantes sont disponibles :
 
 ![](assets/rule-formula.png){width=60%}
 
-## Créer une règle {#create}
+## Création d’une règle {#create}
 
 Pour créer une règle, procédez comme suit :
 
@@ -137,4 +137,4 @@ Pour créer une règle, procédez comme suit :
 
 Découvrez comment créer, dupliquer et appliquer des **règles de ciblage** réutilisables dans Adobe Journey Optimizer afin de personnaliser efficacement les campagnes en fonction des attributs de la clientèle, tels que la zone géographique, la langue et le comportement. Gagnez du temps tout en améliorant la précision de l’audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476129/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
