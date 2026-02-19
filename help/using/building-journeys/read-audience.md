@@ -7,13 +7,13 @@ feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
-keywords: activité, parcours, lecture, audience, platform
+keywords: activité, parcours, lecture d’audience, audience, segment, lot, point d’entrée, déclencheur, planning, qualification d’audience
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: ac7793f9ac38528fbe9252ad2f12921ca7fe0665
+source-git-commit: 2823164e60521fd3b81980d8cc1aac90c148e657
 workflow-type: tm+mt
-source-wordcount: '3024'
-ht-degree: 92%
+source-wordcount: '3389'
+ht-degree: 77%
 
 ---
 
@@ -21,22 +21,31 @@ ht-degree: 92%
 
 Utilisez l’activité Lecture d’audience pour démarrer des parcours avec des audiences définies.
 
-## À propos de l’activité Lecture d’audience {#about-segment-trigger-actvitiy}
+## À propos de l’activité Lecture d’audience {#about-segment-trigger-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Activité Lecture d’audience"
->abstract="L’activité Lecture d’audience vous permet de faire en sorte que toutes les personnes appartenant à une audience [!DNL Adobe Experience Platform] rejoignent un parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement."
+>abstract="Ajoutez à ce parcours tous les profils qualifiés d’une audience [!DNL Adobe Experience Platform] sélectionnée. Exécuter une fois ou selon un planning."
 
-Utilisez l’activité **Lecture d’audience** pour que toutes les personnes appartenant à une audience rejoignent le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
+L’activité **Lecture d’audience** est l’activité de point d’entrée du parcours qui ajoute tous les profils d’une audience [!DNL Adobe Experience Platform] sélectionnée à un parcours. Vous pouvez exécuter l’entrée une fois ou selon une planification récurrente. Dans les API et les références techniques, cette activité est également appelée entrée de parcours déclenchée par un segment ou basée sur une audience.
 
-Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’application Luma » créée dans le cas d’utilisation de [Création d’audiences](../audience/about-audiences.md). Avec l’activité Lecture d’audience, vous pouvez faire en sorte que toutes les personnes appartenant à l’audience rejoignent un parcours. Elles évolueront dans des parcours individualisés qui utilisent toutes les fonctionnalités du parcours : conditions, minuteurs, événements, actions.
+**Quand utiliser Lecture d’audience ou Qualification d’audience**
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+| Utilisez **Lecture d’audience** lorsque | Utilisez **[qualification d’audience](audience-qualification-events.md)** lorsque |
+|----------------------------|-----------------------------------------------------------------------|
+| Vous souhaitez exécuter un parcours une fois ou selon un planning (lot). | Vous avez besoin que les profils rejoignent le parcours en temps réel lorsqu’ils remplissent les critères. |
+| Votre audience est évaluée par lots (par exemple, instantané quotidien). | Votre audience est en flux continu ou basée sur un événement. |
+| Un délai entre l’évaluation de l’audience et l’entrée sur le parcours ne vous pose pas de problème. | Vous avez besoin d’une entrée immédiate lorsqu’un profil se qualifie. |
 
->[!NOTE]
->
->Lorsqu’une activité Lecture d’audience s’exécute, le système génère des événements internes (appelés événements `segmentExportJob`) pour suivre le cycle de vie de l’opération d’export d’audience. Ces événements sont enregistrés au niveau de l’activité, et non par profil, et peuvent être interrogés à des fins de surveillance et de dépannage. Découvrez comment [interroger des événements Lecture d’audience](../reports/query-examples.md#read-segment-queries).
+**Limites clés :** une lecture d’audience par parcours (doit être la première activité) ; une audience par activité ; jusqu’à cinq exécutions de lecture d’audience simultanées par organisation ; 20 000 profils par seconde par sandbox ; délai d’expiration de la tâche de 12 heures. Informations complètes dans [ Mécanismes de sécurisation et recommandations ](#must-read).
+
+**Conditions préalables** une audience [!DNL Adobe Experience Platform] créée et évaluée (statut Réalisé), un espace de noms d’identité basé sur les personnes sélectionné pour le parcours et, pour les exécutions récurrentes, une compréhension des [planification et limites de débit](#must-read).
+
+Par exemple, l’audience `Luma app opening and checkout` créée dans le cas d’utilisation [Créer des audiences](../audience/about-audiences.md) peut être utilisée comme point d’entrée. Tous les profils qualifiés entrent dans le parcours et progressent par le biais de chemins personnalisés à l’aide de conditions, de minuteurs, d’événements et d’actions.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+
 
 >[!CAUTION]
 >
@@ -190,7 +199,7 @@ Pour minimiser le risque de profils manquants :
 
 >[!CAUTION]
 >
->Si vous ciblez une [&#x200B; audience de chargement personnalisée &#x200B;](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité lorsque cette option est activée dans un parcours récurrent. Ces audiences sont corrigées.
+>Si vous ciblez une [ audience de chargement personnalisée ](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité lorsque cette option est activée dans un parcours récurrent. Ces audiences sont corrigées.
 
 +++
 
@@ -293,25 +302,48 @@ Par exemple, après avoir suivi une expérience différente pendant dix jours d
 
 ![Chemins de parcours fusionnant à nouveau après la segmentation à l’aide d’un union](assets/read-segment-audience3.png)
 
-## Résolution des problèmes liés aux incohérences de tailles d’audiences {#audience-count-mismatch}
+## Résolution des problèmes {#audience-count-mismatch}
 
-Si vous constatez des incohérences entre les estimations de tailles d’audiences, les profils qualifiés et les profils réels qui rejoignent votre parcours, tenez compte des points suivants :
+Cette section vous aide à résoudre les **incohérences de nombre de profils des audiences** (un nombre inférieur ou supérieur de profils entrants par rapport aux prévisions), **aucun profil traité** (lecture d’alerte d’audience ou aucune entrée) et **entrées retardées ou manquantes** (minutage et propagation des données).
 
-### Calendrier et propagation des données
+>[!NOTE]
+>
+>Lorsqu’une activité Lecture d’audience s’exécute, le système génère des événements internes (appelés événements `segmentExportJob`) pour suivre le cycle de vie de l’opération d’export d’audience. Ces événements sont enregistrés au niveau de l’activité, et non par profil, et peuvent être interrogés à des fins de surveillance et de dépannage. Découvrez comment [interroger des événements Lecture d’audience](../reports/query-examples.md#read-segment-queries).
+
+**Rechercher votre problème :**
+
+| Symptôme | Accéder à |
+|---------|--------|
+| Moins de profils (ou plus) saisis que la taille de l’audience | [Planning et propagation des données](#timing-and-data-propagation), [Validation et surveillance des données](#data-validation-and-monitoring) |
+| Lecture de zéro profil traité par l’audience ; alerte déclenchée | [Aucun profil traité](#zero-profiles-processed) |
+| Entrées retardées ou manquantes pour les audiences par lots | [Synchronisation et propagation des données](#timing-and-data-propagation) |
+| Nécessité de vérifier le statut de la tâche de segmentation ou l’espace de noms | [Validation et surveillance des données](#data-validation-and-monitoring) |
+
+### Aucun profil traité {#zero-profiles-processed}
+
+Si l’activité **Lecture d’audience** n’a traité aucun profil (par exemple, l’alerte [Lecture d’audience](../reports/alerts.md#alert-read-audiences) s’affiche) :
+
+1. **Vérifier si l’audience est vide** - Dans [!DNL Adobe Experience Platform], vérifiez la taille de l’audience et que les profils ont le statut **Réalisé**. Une audience vide ou non encore évaluée n’entraînera aucune entrée.
+2. **Vérifier l’espace de noms** - L’espace de noms sélectionné dans l’activité Lecture d’audience doit être présent sur les profils de votre audience. Les profils sans cette identité ne peuvent pas entrer dans le parcours. [En savoir plus sur les espace de noms](../event/about-creating.md#select-the-namespace).
+3. **Vérifier les alertes et les reprises** - Les échecs sont signalés dans **Alertes**. Le système tente à nouveau de créer une tâche d’exportation toutes les 10 minutes pendant une heure au maximum. [En savoir plus sur les reprises et les alertes](#read-audience-retry).
+
+Si le problème persiste après ces vérifications, consultez les sections [Minutage et propagation des données](#timing-and-data-propagation) et [Validation et surveillance des données](#data-validation-and-monitoring) pour connaître les causes des lots et de la configuration.
+
+### Calendrier et propagation des données {#timing-and-data-propagation}
 
 * **Fin du traitement de segmentation par lots** : pour les audiences par lots, assurez-vous que le traitement de segmentation par lots quotidien est terminé et que les instantanés sont mis à jour avant l’exécution du parcours. Les audiences par lots sont prêtes à l’emploi environ **2 heures** après la fin du traitement de segmentation. En savoir plus sur les [méthodes d’évaluation d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#evaluate-segments){target="_blank"}.
 
-* **Calendrier d’ingestion des données** : vérifiez que l’ingestion des données de profil est terminée avant l’exécution du parcours. Si des profils ont été ingérés peu de temps avant le début du parcours, ils ne sont peut-être pas encore pris en compte dans l’audience. En savoir plus sur l’ingestion de données [&#x200B; dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
+* **Calendrier d’ingestion des données** : vérifiez que l’ingestion des données de profil est terminée avant l’exécution du parcours. Si des profils ont été ingérés peu de temps avant le début du parcours, ils ne sont peut-être pas encore pris en compte dans l’audience. En savoir plus sur l’ingestion de données [ dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
 
 * **Utiliser l’option « Déclencher après l’évaluation de l’audience par lots »** : pour les parcours planifiés quotidiens utilisant des audiences par lots, envisagez d’activer l’option **[!UICONTROL Déclencher après l’évaluation de l’audience par lots]**. Cela permet de s’assurer que le parcours attend les nouvelles données d’audience (jusqu’à 6 heures) avant de s’exécuter. [En savoir plus sur la planification](#schedule)
 
 * **Ajouter une activité Attente** : pour les audiences en streaming avec des données récemment ingérées, pensez à ajouter une activité **Attente** au début du parcours pour laisser le temps nécessaire à la propagation des données et à la qualification des profils. [En savoir plus sur l’activité Attente](wait-activity.md)
 
-### Validation et surveillance des données
+### Validation et surveillance des données {#data-validation-and-monitoring}
 
 * **Vérification de l’état de la tâche de segmentation** : surveillez les temps d’achèvement de la tâche de segmentation par lots dans le [!DNL Adobe Experience Platform] [tableau de bord de surveillance](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=fr){target="_blank"}. Utilisez-le pour vérifier quand les données d’audience sont prêtes.
 
-* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [&#x200B; politiques de fusion dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}.
+* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [ politiques de fusion dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}.
 
 * **Vérifier les définitions de segment** : vérifiez que les définitions de segment sont correctement configurées et incluez tous les critères de qualification attendus. En savoir plus sur la [création d’audiences](../audience/creating-a-segment-definition.md). Accordez une attention particulière aux éléments suivants :
    * Conditions de temps pouvant exclure des profils en fonction des dates et heures des événements.
@@ -320,7 +352,7 @@ Si vous constatez des incohérences entre les estimations de tailles d’audienc
 
 * **Valider la configuration des espaces de noms** : assurez-vous que l’espace de noms sélectionné dans l’activité **Lecture d’audience** correspond à l’identité principale utilisée par les profils de votre audience. Les profils sans l’espace de noms sélectionné ne rejoindront pas le parcours. En savoir plus sur les [espaces de noms d’identité](../event/about-creating.md#select-the-namespace).
 
-### Bonnes pratiques pour éviter les incohérences
+### Bonnes pratiques pour éviter les incohérences d’audience
 
 * **Planifier les parcours après la segmentation** : pour les audiences par lots, planifiez l’exécution des parcours au moins 2 à 3 heures après l’heure habituelle d’achèvement du traitement de segmentation par lots. [En savoir plus sur la planification des parcours](#schedule)
 
@@ -330,7 +362,9 @@ Si vous constatez des incohérences entre les estimations de tailles d’audienc
 
 * **Surveiller régulièrement** : configurez une surveillance régulière des tailles d’audience et des mesures d’entrée dans les parcours pour détecter rapidement les incohérences. Découvrez les [taux de traitement des parcours et la gestion des entrées](entry-management.md).
 
-Si des incohérences de nombre persistent après avoir suivi ces étapes, contactez l’assistance Adobe pour obtenir des détails sur votre audience, la configuration des parcours et les incohérences observées.
+### Quand contacter l’assistance
+
+Si des incohérences de nombre ou des exécutions de profil nul persistent après avoir suivi les étapes ci-dessus, contactez l’assistance Adobe. Préparez : nom/ID de l’audience, nom/ID du parcours, heure(s) d’exécution planifiée(s), sandbox et une brève description de l’incohérence (par exemple, « L’audience affiche 10 000 personnes réalisées, seulement 2 000 sont entrées dans le parcours à [date] »).
 
 ## Reprises {#read-audience-retry}
 
@@ -350,4 +384,4 @@ Les reprises sont appliquées par défaut sur les parcours déclenchés par l’
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
