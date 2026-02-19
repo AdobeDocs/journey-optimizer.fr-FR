@@ -8,10 +8,10 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 11%
+source-wordcount: '780'
+ht-degree: 10%
 
 ---
 
@@ -57,6 +57,10 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
    ![](assets/decision-policy-placement.png)
 
+   >[!NOTE]
+   >
+   >Si vous utilisez plusieurs politiques de décision dans le même e-mail (par exemple, une pour l’en-tête et une pour le pied de page), la même offre est dédupliquée à plusieurs emplacements : chaque zone reçoit une offre différente. Pour afficher la même offre dans plusieurs zones, utilisez **[!UICONTROL Réutiliser la sortie de décision]** lors de l’ajout d’une politique de décision. [Découvrez comment créer des politiques de décision](create-decision-policy.md).
+
 >[!TAB SMS]
 
 1. Ouvrez l’éditeur **Personalization** puis accédez à **[!UICONTROL Politiques de décision]**.
@@ -89,7 +93,7 @@ Le code de la politique de décision est ajouté. Vous pouvez désormais utilise
 
 Une fois que vous avez ajouté le code d’une politique de décision dans votre contenu, tous les attributs des éléments de décision renvoyés peuvent être personnalisés. [Découvrez comment utiliser la personnalisation](../personalization/personalize.md).
 
-Les attributs sont stockés dans le schéma de catalogue [&#x200B; Offres &#x200B;](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
+Les attributs sont stockés dans le schéma de catalogue [ Offres ](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
 * **Attributs personnalisés** : dossier `_\<imsOrg\>`
 * **Attributs standard** : dossier `_experience`
 

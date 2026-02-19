@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 743165991c3f4d351cd6ab15e94ece0309c8e82a
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 68%
+source-wordcount: '2189'
+ht-degree: 64%
 
 ---
 
@@ -113,7 +113,9 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
    >[!NOTE]
    >
-   >Sélectionnez **[!UICONTROL Réutiliser la sortie de décision]** pour réutiliser une politique de décision déjà créée dans cet e-mail.
+   >L’option **[!UICONTROL Réutiliser la sortie de décision]** vous permet de réutiliser une politique de décision déjà créée dans cet e-mail. Cela s’avère particulièrement utile lorsque vous souhaitez afficher la même offre à plusieurs emplacements (par exemple, en-tête et pied de page).
+   >
+   >Lorsqu’une même offre peut être sélectionnée par plusieurs politiques de décision dans le corps de l’e-mail, le moteur déduplique les offres : chaque emplacement reçoit une offre différente, de sorte que la même offre n’apparaît pas aux deux endroits. Pour afficher la même offre à plusieurs emplacements, utilisez **[!UICONTROL Réutiliser la sortie de décision]** pour réutiliser la sortie d’une politique de décision existante dans cet e-mail.
 
 >[!TAB SMS]
 
