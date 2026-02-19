@@ -384,4 +384,4 @@ Les reprises sont appliquées par défaut sur les parcours déclenchés par l’
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
