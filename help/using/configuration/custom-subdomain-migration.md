@@ -28,7 +28,7 @@ Dans le cadre de ce processus, vous devez :
 
 * [Supprimer les enregistrements DNS existants](#delete-dns) de votre solution d’hébergement
 * [Téléchargez le certificat SSL](#upload-ssl-certificate) obtenu auprès de l’autorité de certification
-* Suivez les étapes [ Feedback Loop ](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
+* Suivez les étapes [&#x200B; Feedback Loop &#x200B;](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
 * [Copiez l’enregistrement de validation d’URL du réseau CDN SSL](#copy-ssl-cdn-url-record) généré par Adobe dans votre plateforme d’hébergement
 
 Pour migrer votre sous-domaine, procédez comme suit.
@@ -148,6 +148,7 @@ Avant cela, vérifiez les éléments suivants :
    MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
    -----END CERTIFICATE-----
    ```
+
 1. Cochez la case « Je confirme avoir téléchargé le certificat SSL ».
 
 ## Boucle de rétroaction complète {#feedback-loop}
