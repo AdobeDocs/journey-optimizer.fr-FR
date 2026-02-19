@@ -10,10 +10,10 @@ level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 
-Au lieu des méthodes [Délégation complète](about-subdomain-delegation.md#full-subdomain-delegation) et [Configuration CNAME](about-subdomain-delegation.md#subdomain-delegation-methods), la méthode **Délégation personnalisée** vous permet d’obtenir la propriété de vos sous-domaines dans Journey Optimizer et de disposer d’un contrôle total sur les certificats générés.
+Au lieu des méthodes [Délégation complète](about-subdomain-delegation.md#full-subdomain-delegation) et [Configuration CNAME](about-subdomain-delegation.md#subdomain-delegation-methods), la méthode **Délégation personnalisée** vous permet de prendre en charge vos sous-domaines dans Journey Optimizer et d’avoir un contrôle total sur les certificats générés.
+
+>[!NOTE]
+>
+>Si votre sous-domaine est actuellement configuré avec CNAME, vous pouvez également le migrer vers la délégation personnalisée. [En savoir plus](custom-subdomain-migration.md)
 
 Dans le cadre de ce processus, Adobe doit s’assurer que votre DNS est configuré de manière appropriée pour la diffusion, le rendu et le suivi des messages. C’est pourquoi il vous sera demandé de [charger le certificat SSL](#upload-ssl-certificate) obtenu auprès de l’autorité de certification et de suivre les étapes de la [feedback loop](#feedback-loop-steps) en vérifiant la propriété du domaine et l’adresse e-mail de signalement.
 
@@ -147,6 +151,8 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 1. Si tout est correctement configuré, cochez la case « J’ai terminé... ».
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+
+## Copiez l’enregistrement de validation de l’URL du réseau CDN SSL {#copy-ssl-cdn-url-record}
 
 1. Cliquez sur **[!UICONTROL Continuer]** et patientez jusquʼà ce quʼAdobe vérifie que ces enregistrements ont été générés sans erreurs sur votre solution dʼhébergement. Cette opération peut prendre jusquʼà 2 minutes.
 

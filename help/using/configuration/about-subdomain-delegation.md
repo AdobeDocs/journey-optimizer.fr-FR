@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, optimizer, délégation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 86%
+source-wordcount: '996'
+ht-degree: 84%
 
 ---
 
@@ -92,7 +92,7 @@ La méthode de délégation personnalisée vous permet de contrôler et de gére
 
 Dans ce cas, vous possédez et gérez entièrement vos propres sous-domaines et avez un contrôle total sur les certificats générés dans le cadre de ce processus.
 
-Découvrez comment configurer un domaine personnalisé dans [cette section](delegate-custom-subdomain.md).
+Découvrez comment [configurer un sous-domaine personnalisé](delegate-custom-subdomain.md). Si votre sous-domaine utilise actuellement CNAME, vous pouvez également [migrer de CNAME vers la délégation personnalisée](custom-subdomain-migration.md).
 
 ## Comparaison des méthodes de configuration
 
