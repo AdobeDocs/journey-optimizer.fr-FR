@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 77fdbd9ea47d20fa2b2534cc9520a9b3cd011ac5
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 >[!TIP]
 >
->La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nouvelle fonctionnalité de prise de décision de [!DNL Adobe Journey Optimizer], est désormais disponible via l’expérience basée sur le code, les canaux e-mail, SMS et Push. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 
-## Prise en main de la diffusion de décisions par lots {#start}
+## Commencer avec la prise de décision par lots {#start}
 
 Journey Optimizer vous permet de diffuser les décisions d’offres à tous les profils d’une audience Adobe Experience Platform donnée.
 
