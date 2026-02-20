@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 58%
+source-wordcount: '815'
+ht-degree: 54%
 
 ---
 
@@ -96,6 +96,12 @@ Pour définir le contrôle du débit, activez l’option **[!UICONTROL Limiter l
 >[!IMPORTANT]
 >
 >Lors de la définition d’un taux de diffusion, le délai maximal d’exécution de l’audience de la campagne est de 12 heures. Si le taux de diffusion est défini sur une valeur qui ne permet pas d’envoyer le message à l’ensemble de l’audience dans un délai de 12 heures, les profils restants seront exclus de la campagne. Le nombre de ces profils exclus apparaît dans le rapport de campagne.
+
+## Envoyer par vagues
+
+Pour diffuser votre message de campagne par lots au fil du temps plutôt que tous en même temps, vous pouvez utiliser l’envoi de vagues. Cela permet d’équilibrer la charge, de prendre en charge la délivrabilité et d’éviter de surcharger les systèmes en aval (par exemple, les centres d’appels ou les pages de destination). Vous définissez le nombre de vagues, leur taille (en pourcentage ou en nombre absolu) et la planification de chaque vague.
+
+[Découvrez comment envoyer à l’aide de vagues](send-using-waves.md).
 
 ## Étapes suivantes {#next}
 

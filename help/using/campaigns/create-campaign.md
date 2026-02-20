@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 94%
+source-wordcount: '213'
+ht-degree: 92%
 
 ---
 
@@ -46,10 +46,10 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 1. [Configurer l’action de campagne](campaign-action.md)
 1. [Modifier le contenu d’une campagne d’action](campaign-content.md)
 1. [Définir l’audience d’une campagne d’action](campaign-audience.md)
-1. [Planifier la campagne d’action](campaign-schedule.md)
+1. [Planifiez la campagne Action](campaign-schedule.md). Vous pouvez éventuellement [envoyer par vagues](send-using-waves.md) pour diffuser le message par lots au fil du temps.
 1. [Vérifier et activer la campagne d’action](review-activate-campaign.md)
 
-En savoir plus sur le [&#128279;](get-started-with-campaigns.md#workflow) workflow de création de campagne complet avec des guides spécifiques au type→
+En savoir plus sur le [workflow complet pour la création d’une campagne avec des guides spécifiques →](get-started-with-campaigns.md#workflow)
 
 ## Vidéos pratiques {#video}
 
