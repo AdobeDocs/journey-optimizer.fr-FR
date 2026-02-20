@@ -10,7 +10,7 @@ level: Experienced
 keywords: objet, niveau, accès, contrôle, libellés, olac, autorisation
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Vous pouvez limiter l’accès à un objet en fonction des libellés d’accès.
 La fonctionnalité de contrôle d’accès au niveau de l’objet (OLAC) vous permet de définir des autorisations pour gérer l’accès aux données d’une sélection d’objets :
 
 * Parcours
-* Campagne
+* Campaign
 * Modèle
 * Fragment
 * Page de destination

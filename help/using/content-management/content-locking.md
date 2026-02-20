@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verrouillage du contenu dans les modèles d’e-mail
+title: Verrouiller le contenu dans les modèles d’e-mail
 description: Découvrez comment verrouiller le contenu dans vos modèles d’e-mail.
 topic: Content Management
 role: User
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Verrouillage du contenu dans les modèles d’e-mail {#lock-content-email-templates}
+# Verrouiller le contenu dans les modèles d’e-mail {#lock-content-email-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
@@ -196,4 +196,4 @@ Voici quelques exemples de modifications d’e-mails et de configurations de ver
 
 Découvrez comment verrouiller le contenu dans vos modèles d’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451609?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

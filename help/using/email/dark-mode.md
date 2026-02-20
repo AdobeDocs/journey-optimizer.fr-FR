@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, éditeur
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 100%
 
@@ -259,7 +259,7 @@ The best practices for designing accesible content in dark mode are listed in [t
 
 * Utilisez la [prévisualisation du mode sombre](#preview-dark-mode) du Concepteur d’e-mail, qui utilise des modèles de couleurs inversées, pour repérer les problèmes en amont.
 
-* Utilisez l’option [Rendu d’e-mail](../content-management/rendering.md) qui tire parti de Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir comment les couleurs et les images se comportent en mode sombre.
+* Utilisez l’option [Rendu des e-mails](../content-management/rendering.md) qui tire parti de Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir comment les couleurs et les images se comportent en mode sombre.
 
 <!--
 

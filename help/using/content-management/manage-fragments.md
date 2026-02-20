@@ -46,7 +46,7 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 * L’ajouter à un package pour l’export. [En savoir plus](#export)
 * Si un fragment actif est en cours de modification, ouvrir le brouillon de ce fragment. [En savoir plus](#edit-fragments)
 * Dupliquer le fragment.
-* Utilisez l’option **[!UICONTROL Explorer les références]** pour afficher les parcours, les campagnes ou les modèles dans lesquels ils sont utilisés. [En savoir plus](#explore-references).
+* Utilisez l’option **[!UICONTROL Explorer les références]** pour afficher les parcours, les campagnes ou les modèles dans lesquels ils sont utilisés. [En savoir plus](#explore-references)
 * Archiver le fragment. [En savoir plus](#archive-fragments)
 * Modifier les balises du fragment. [Découvrir comment utiliser les balises unifiées](../start/search-filter-categorize.md#tags)
 * Déplacez le fragment vers un dossier. [En savoir plus](#folders)
@@ -143,7 +143,7 @@ Pour modifier un fragment, procédez comme suit.
 
 1. Apportez les modifications souhaitées aux détails du fragment, si nécessaire.
 
-1. Pour modifier le contenu du fragment, cliquez sur le bouton **[!UICONTROL Modifier]**, puis modifiez votre contenu comme vous le feriez lors de la création d’un fragment à partir de zéro. [Découvrir comment créer un fragment](create-fragments.md#content)
+1. Pour modifier le contenu du fragment, cliquez sur le bouton **[!UICONTROL Modifier]**, puis mettez à jour votre contenu comme vous le feriez lors de la création d’un fragment à partir de zéro. [Découvrir comment créer un fragment](create-fragments.md#content)
 
    ![](assets/fragment-edit.png){width="70%" align="left"}
 

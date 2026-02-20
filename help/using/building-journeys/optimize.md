@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
 workflow-type: tm+mt
 source-wordcount: '1662'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 
 L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs **chemins** en fonction de critères spécifiques, notamment l’expérimentation, le ciblage et des conditions spécifiques, garantissant ainsi un engagement et un succès optimaux pour créer des parcours hautement personnalisés et efficaces.
 
@@ -123,7 +123,7 @@ Suivez le succès de votre parcours avec le rapport d’expérience de chemin de
 
 >[!CAUTION]
 >
->Ne modifiez pas les métadonnées d’une expérience de chemin une fois qu’elles ont été publiées. La modification des métadonnées perturbe le calcul et la création de rapports des résultats de l’expérience.
+>Ne modifiez pas les métadonnées d’une expérience de chemin après sa publication. La modification des métadonnées perturbe le calcul des résultats de l’expérience et la création de rapports.
 
 ### Cas d’utilisation des expériences {#uc-experiment}
 

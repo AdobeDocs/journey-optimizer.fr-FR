@@ -10,9 +10,9 @@ level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,14 +36,14 @@ Par conséquent, Adobe vous recommande vivement de vous assurer que les enregist
 * Si vous avez [entièrement délégué](delegate-subdomain.md#set-up-subdomain) vos sous-domaines d’envoi à Adobe, suivez l’une des deux options ci-dessous :
 
    * Configurez DMARC sur le domaine parent de vos sous-domaines délégués **dans votre solution d’hébergement**.
-ou
-   * Configurez DMARC sur vos sous-domaines délégués **dans l’interface utilisateur de configuration[!DNL Journey Optimizer]**, et ce sans travail supplémentaire à effectuer sur votre solution d’hébergement. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
+or
+   * Configurez DMARC sur vos sous-domaines délégués **dans l’interface utilisateur de configuration[!DNL Journey Optimizer]**, et ce sans travail supplémentaire à effectuer sur votre solution d’hébergement. [Voici comment procéder](dmarc-record.md#implement-dmarc)
 
 * Si vous avez configuré vos sous-domaines d’envoi avec [CNAME](delegate-subdomain.md#cname-subdomain-setup), suivez l’une des options ci-dessous :
 
    * Configurez DMARC sur vos sous-domaines ou sur le domaine parent de vos sous-domaines **dans votre solution d’hébergement**.
-ou
-   * Configurez DMARC sur vos sous-domaines délégués **dans l’interface utilisateur de configuration[!DNL Journey Optimizer]**. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
+or
+   * Configurez DMARC sur vos sous-domaines délégués **dans l’interface utilisateur de configuration[!DNL Journey Optimizer]**. [Voici comment procéder](dmarc-record.md#implement-dmarc)
 
   Toutefois, la configuration CNAME nécessite également une entrée supplémentaire dans votre solution d’hébergement. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour détaillée dans [cette section](dmarc-record.md#implement-dmarc).
 
