@@ -7,12 +7,12 @@ feature: Personalization, Use Cases
 topic: Personalization
 role: Developer
 level: Intermediate
-keywords: expression, éditeur, aide, cas d’utilisation, personnalisation
+keywords: expression, éditeur, assistants, cas d’utilisation, personnalisation
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 58b4acf8cccfc3a5e507a738bdf6755a8decbaca
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 97%
+source-wordcount: '1238'
+ht-degree: 83%
 
 ---
 
@@ -57,26 +57,26 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Créez un parcours commençant par cet événement.
 1. Ajoutez une activité **E-mail** au parcours.
 
-   ![](assets/personalization-uc-helpers-8.png)
+   ![Zone de travail de Parcours avec un événement et une activité E-mail dans le flux](assets/personalization-uc-helpers-8.png)
 
-## Étape 2 : créer l’e-mail{#configure-email}
+## Étape 2 : créer l’e-mail {#configure-email}
 
 1. Dans l’activité **E-mail**, cliquez sur **[!UICONTROL Modifier le contenu]**, puis cliquez sur **[!UICONTROL concepteur d’e-mail]**.
 
-   ![](assets/personalization-uc-helpers-1.png)
+   ![Activité E-mail avec les options Modifier le contenu et Designer des e-mails](assets/personalization-uc-helpers-1.png)
 
 1. Dans la palette gauche de la page d&#39;accueil du concepteur d’e-mail, effectuez un glisser-déposer de trois composants de structure dans le corps du message.
 
 1. Effectuez un glisser-déposer d’un composant de contenu HTML dans chaque nouveau composant de structure.
 
-   ![](assets/personalization-uc-helpers-2.png)
+   ![Email Designer avec trois composants de structure et des composants de contenu HTML dans le corps](assets/personalization-uc-helpers-2.png)
 
 ## Étape 3 : insérer le prénom du client en majuscules {#uppercase-function}
 
 1. Sur la page d’accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez ajouter le prénom du client.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction de chaîne `upperCase` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -89,7 +89,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       {%= upperCase(string) %}
       ```
 
-      ![](assets/personalization-uc-helpers-4.png)
+      ![Éditeur d’expression avec fonction upperCase sélectionnée dans les fonctions d’assistance](assets/personalization-uc-helpers-4.png)
 
 1. Supprimez l’espace réservé « string » de l’expression.
 1. Ajoutez le jeton de prénom :
@@ -103,13 +103,13 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](assets/personalization-uc-helpers-5.png)
+      ![Éditeur d’expression affichant la majuscule avec le jeton de prénom du profil](assets/personalization-uc-helpers-5.png)
 
       En savoir plus sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/personalization-uc-helpers-6.png)
+   ![Fenêtre Modifier HTML avec les boutons Valider et Enregistrer](assets/personalization-uc-helpers-6.png)
 
 1. Enregistrez le message.
 
@@ -122,7 +122,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez répertorier le contenu du panier.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `each` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -135,7 +135,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](assets/personalization-uc-helpers-9.png)
+      ![Éditeur d’expression avec le modèle d’assistance each](assets/personalization-uc-helpers-9.png)
 
 1. Ajoutez le tableau `productListItems` à l’expression :
 
@@ -158,7 +158,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 
       Dans cet exemple, *event_ID* représente l’identifiant de votre événement.
 
-      ![](assets/personalization-uc-helpers-10.png)
+      ![Éditeur d’expression avec productListItems dans les attributs contextuels](assets/personalization-uc-helpers-10.png)
 
    1. Modifiez l’expression :
       1. Supprimez la chaîne « .product ».
@@ -170,7 +170,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
-1. Collez ce code entre la balise `{{#each}}` d’ouverture et la balise `{/each}}` de fermeture :
+1. Collez ce code entre la balise `{{#each}}` d’ouverture et la balise `{{/each}}` de fermeture :
 
    ```html
    <table>
@@ -212,14 +212,14 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/personalization-uc-helpers-11.png)
+   ![Éditeur d’expression avec Valider et Enregistrer après la configuration de chaque bloc](assets/personalization-uc-helpers-11.png)
 
 ## Étape 5 : insérer une note spécifique au produit {#if-helper}
 
 1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez insérer la note.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `if` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -235,7 +235,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-12.png)
+      ![ Éditeur d’expression avec le modèle d’assistance if ](assets/personalization-uc-helpers-12.png)
 
 1. Supprimez cette condition de l’expression :
 
@@ -269,7 +269,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-13.png)
+      ![ Éditeur d’expression avec jeton de nom productListItems dans la condition if ](assets/personalization-uc-helpers-13.png)
 
 1. Modifiez l’expression :
    1. Dans l&#39;éditeur d&#39;expression, indiquez le nom du produit après le jeton `name`.
@@ -303,7 +303,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
    1. Supprimez l’espace réservé « default_render » de l’expression.
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/personalization-uc-helpers-14.png)
+   ![Modifier la fenêtre HTML avec Valider et Enregistrer après la configuration du bloc si](assets/personalization-uc-helpers-14.png)
 
 1. Enregistrez le message.
 
@@ -311,19 +311,19 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 
 1. Activez le bouton d’activation/désactivation **[!UICONTROL Test]**, puis cliquez sur **[!UICONTROL Déclencher un événement]**.
 
-   ![](assets/personalization-uc-helpers-15.png)
+   ![Parcours avec le bouton bascule Test activé et Déclencher un événement](assets/personalization-uc-helpers-15.png)
 
 1. Dans la fenêtre **[!UICONTROL Configuration de l&#39;événement]**, saisissez les valeurs d&#39;entrée, puis cliquez sur **[!UICONTROL Envoyer]**.
 
    Le mode test fonctionne uniquement avec les profils de test.
 
-   ![](assets/personalization-uc-helpers-16.png)
+   ![Fenêtre de configuration des événements avec les valeurs d’entrée et le bouton Envoyer](assets/personalization-uc-helpers-16.png)
 
    L’e-mail est envoyé à l’adresse du profil de test.
 
    Dans cet exemple, l’e-mail contient la note relative à Juno Jacket, car ce produit se trouve dans le panier :
 
-   ![](assets/personalization-uc-helpers-17.png)
+   ![Exemple d’e-mail présentant la note d’expédition Juno Jacket dans le corps du message](assets/personalization-uc-helpers-17.png)
 
 1. Vérifiez qu&#39;il n&#39;y a pas d&#39;erreur et publiez le parcours.
 
@@ -342,8 +342,8 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 
 * [Personnalisation avec offre basée sur la décision](../offers/offers-e2e.md)
 
-## Vidéo pratique{#video}
+## Vidéo pratique {#video}
 
 Découvrez comment utiliser les fonctions d’assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
