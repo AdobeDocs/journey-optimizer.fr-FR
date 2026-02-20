@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 59%
+source-wordcount: '750'
+ht-degree: 58%
 
 ---
 
@@ -42,8 +42,6 @@ Par exemple, si vous planifiez une campagne pour l’envoyer à 9 h du matin en 
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
->
 >La planification à l’aide des fuseaux horaires de profil est disponible uniquement pour ces canaux sortants : e-mail, notification push, SMS, WhatsApp et LINE.
 
 Pour activer la planification du fuseau horaire de profil :
@@ -54,7 +52,7 @@ Pour activer la planification du fuseau horaire de profil :
 
    ![](assets/campaign-profile-timezone.png)
 
-**Fonctionnement :**
+**Fonctionnement :**
 
 Le système utilise le champ `profile.timeZone` du profil Adobe Experience Platform de chaque destinataire pour déterminer son fuseau horaire local. Si un profil ne dispose pas d’une valeur de fuseau horaire, le système utilise le fuseau horaire dans lequel la campagne a été créée comme solution de secours.
 
@@ -62,7 +60,9 @@ La campagne conserve le statut **Actif** pendant la diffusion des messages dans 
 
 **Identifiants de fuseau horaire pris en charge :**
 
-Journey Optimizer valide la valeur `profile.timeZone` par rapport aux identifiants de fuseau horaire IANA standard. Les identifiants sont sensibles à la casse et doivent correspondre aux noms IANA officiels. Les décalages peuvent changer au fil du temps en raison de règles d&#39;enregistrement de la lumière du jour et de mises à jour historiques. Reportez-vous à la [Base de données des fuseaux horaires IANA](https://www.iana.org/time-zones){_blank} pour obtenir la liste officielle des identifiants.
+Le format de `profile.timeZone` peut être un nom IANA ou défini comme des décalages UTC. Le format de nom IANA est le format préféré, car il s’ajuste automatiquement aux règles d’enregistrement de la lumière du jour.
+
+Pour la dénomination IANA, les identifiants sont sensibles à la casse et doivent correspondre à la dénomination IANA officielle. Les décalages peuvent changer au fil du temps en raison de règles d&#39;enregistrement de la lumière du jour et de mises à jour historiques. Reportez-vous à la [Base de données des fuseaux horaires IANA](https://www.iana.org/time-zones){_blank} pour obtenir la liste officielle des identifiants.
 
 ## Définir une fréquence d’exécution
 
