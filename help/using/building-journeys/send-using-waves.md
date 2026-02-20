@@ -33,9 +33,9 @@ Vous le configurez au niveau du parcours lorsque vous définissez la manière do
 
 ## Limites et mécanismes de sécurisation {#limitations-guardrails}
 
-* L’envoi de vagues est uniquement disponible pour les parcours d’audience lue avec les types de planificateur **[!DNL As soon as possible]** et **[!UICONTROL Une fois]**. En savoir plus sur le planning de parcours [](read-audience.md#schedule).
+* L’envoi de vagues est uniquement disponible pour les parcours d’audience lue avec les types de planificateur **[!DNL As soon as possible]** et **[!UICONTROL Une fois]**. En savoir plus sur le planning de parcours [&#128279;](read-audience.md#schedule).
 * L’envoi de vagues n’est pas disponible pour les parcours récurrents, déclenchés par un événement, d’événement métier, de mode test ou d’exécution d’essai.
-* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de ****.
+* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de **&#x200B;**.
 * L’intervalle minimum entre le début de deux vagues est de **30 minutes**.
 * Un début de vague ne peut pas être antérieur au début du parcours ou antérieur.
 * La division de l’audience en vagues peut prendre jusqu’à 1 heure. Les profils ne peuvent pas entrer dans le parcours avant cette date.
@@ -44,7 +44,7 @@ Vous le configurez au niveau du parcours lorsque vous définissez la manière do
 
 ## Configurer l’envoi de vagues dans un parcours {#configure-wave-sending}
 
-1. Commencez votre parcours par une activité [ Lecture d’audience ](read-audience.md).
+1. Commencez votre parcours par une activité [&#x200B; Lecture d’audience &#x200B;](read-audience.md).
 
 1. Double-cliquez sur l’activité **[!UICONTROL Lecture d’audience]** pour afficher ses propriétés et sélectionnez l’option **[!UICONTROL Diffuser l’action de parcours par vagues]**.
 
@@ -133,4 +133,4 @@ Vous pouvez uniquement définir la taille et la durée des vagues. La même audi
 
 ## Voir également {#see-also}
 
-* [Utiliser une audience dans un parcours ](read-audience.md) : configurez l&#39;activité Lecture d&#39;audience.
+* [Utiliser une audience dans un parcours &#x200B;](read-audience.md) : configurez l&#39;activité Lecture d&#39;audience.
