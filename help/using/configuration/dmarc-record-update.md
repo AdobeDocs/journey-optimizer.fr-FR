@@ -68,6 +68,6 @@ or
 
 * Découvrez DMARC dans le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=fr#about){target="_blank"}.
 * Consultez l’[annonce Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}.
-* Consultez l’[annonce Yahoo! ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}.
+* Consultez l’[annonce Yahoo! &#x200B;](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}.
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->
