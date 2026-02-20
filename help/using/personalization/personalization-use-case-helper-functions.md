@@ -76,7 +76,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Sur la page d’accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez ajouter le prénom du client.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source &#x200B;](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction de chaîne `upperCase` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -122,7 +122,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez répertorier le contenu du panier.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source &#x200B;](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `each` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -219,7 +219,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez insérer la note.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source &#x200B;](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `if` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -235,7 +235,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {%/if%}
       ```
 
-      ![ Éditeur d’expression avec le modèle d’assistance if ](assets/personalization-uc-helpers-12.png)
+      ![&#x200B; Éditeur d’expression avec le modèle d’assistance if &#x200B;](assets/personalization-uc-helpers-12.png)
 
 1. Supprimez cette condition de l’expression :
 
@@ -269,7 +269,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {%/if%}
       ```
 
-      ![ Éditeur d’expression avec jeton de nom productListItems dans la condition if ](assets/personalization-uc-helpers-13.png)
+      ![&#x200B; Éditeur d’expression avec jeton de nom productListItems dans la condition if &#x200B;](assets/personalization-uc-helpers-13.png)
 
 1. Modifiez l’expression :
    1. Dans l&#39;éditeur d&#39;expression, indiquez le nom du produit après le jeton `name`.
