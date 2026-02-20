@@ -4,11 +4,11 @@ product: journey optimizer
 title: Envoyer par vagues
 description: Planifiez la diffusion des messages de campagne sortants par lots contrôlés dans le temps. L’envoi de vagues prend en charge la délivrabilité et permet de maintenir la réputation de l’expéditeur.
 feature: Campaigns
-topic: Campaign scheduling
+topic: Content Management
 role: User
 level: Intermediate
 keywords: vagues, lots, planning, campagne, parcours, délivrabilité
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Journey Optimizer vous permet de définir le nombre de vagues, leur taille (en p
 ## Limites et mécanismes de sécurisation {#limitations-guardrails}
 
 * L’envoi de vagues s’applique uniquement aux actions **sortantes** (e-mail, SMS, notification push, courrier).
-* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de **&#x200B;**.
+* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de ****.
 * L’intervalle minimum entre le début de deux vagues est de **30 minutes**.
 * Un début de vague ne peut pas être antérieur au début de la campagne ou antérieur.
 
