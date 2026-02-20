@@ -29,7 +29,7 @@ Journey Optimizer vous permet de définir le nombre de vagues, leur taille (en p
 ## Limites et mécanismes de sécurisation {#limitations-guardrails}
 
 * L’envoi de vagues s’applique uniquement aux actions **sortantes** (e-mail, SMS, notification push, courrier).
-* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de ****.
+* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de **&#x200B;**.
 * L’intervalle minimum entre le début de deux vagues est de **30 minutes**.
 * Un début de vague ne peut pas être antérieur au début de la campagne ou antérieur.
 
