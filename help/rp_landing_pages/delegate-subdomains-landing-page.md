@@ -5,22 +5,24 @@ title: Déléguer les sous-domaines d’e-mail
 description: Déléguer les sous-domaines d’e-mail
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: bb50d06e86f9399dfd295b8091aa637abcaea4a8
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 41%
 
 ---
 
 # Déléguer les sous-domaines d’e-mail{#section-overview}
 
-La délégation de sous-domaines d’e-mail dans Adobe Journey Optimizer permet aux administrateurs et aux administratrices d’améliorer la délivrabilité des e-mails, de protéger la réputation des domaines et de rationaliser la gestion des campagnes. En configurant des sous-domaines, vous pouvez isoler différents types de trafic d’e-mails, tels que les messages marketing et transactionnels, tout en garantissant la conformité aux normes du secteur. Cette section présente les principales méthodes de configuration, telles que les configurations de délégation complète et CNAME, et explique en quoi elles diffèrent en termes d’effort et de contrôle. Vous allez apprendre également à gérer les enregistrements DNS essentiels tels que DMARC et PTR, à améliorer la délivrabilité de Gmail avec les enregistrements TXT Google et à regrouper les adresses IP à l’aide de groupes d’adresses IP. Que vous optimisiez la sécurité ou la réputation, ce guide rend le processus accessible et efficace.
+La délégation de sous-domaines d’e-mail est une étape essentielle de la [configuration des canaux](../using/configuration/get-started-configuration.md), requise avant d’envoyer des e-mails à partir de Journey Optimizer. Les sous-domaines vous permettent d’isoler les types de trafic (par exemple, marketing ou transactionnel), de protéger la réputation de votre domaine principal et d’accélérer le [préchauffage d’adresses IP](../using/configuration/ip-warmup-gs.md). Ils fonctionnent conjointement avec [configuration du canal e-mail](../using/email/get-started-email-config.md) et [surveillance de la délivrabilité](../using/reports/deliverability.md) pour garantir que les messages atteignent les boîtes de réception.
+
+Vous pouvez choisir entre plusieurs méthodes de configuration : **délégation complète** (Adobe gère le DNS), **configuration CNAME** ou **délégation personnalisée** (vous possédez les certificats et le DNS). Si vous commencez avec CNAME, vous pouvez ensuite [migrer vers la délégation personnalisée](../using/configuration/custom-subdomain-migration.md) pour une sécurité plus stricte. Cette section couvre également les enregistrements DMARC et PTR, les enregistrements TXT Google pour Gmail et les pools d&#39;adresses IP. Pour obtenir des conseils plus généraux sur la délivrabilité, consultez [Prise en main de la délivrabilité](../using/reports/deliverability.md) et [Surveillance des adresses e-mail](monitor-reputation-landing-page.md).
 
 ## Déléguer les sous-domaines d’e-mail
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec la délégation de sous-domaines
 
@@ -30,7 +32,7 @@ Découvrez les avantages, les méthodes de configuration et les points à prendr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Déléguer un sous-domaine
 
@@ -40,7 +42,27 @@ Cette section contient des conseils détaillés pour la délégation de sous-dom
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=fr)
+
+Configurer un sous-domaine personnalisé
+
+Prenez pleinement possession de vos sous-domaines avec la délégation personnalisée : chargez vos propres certificats SSL et gardez le contrôle total sur la configuration des domaines.
+
+[Configurer un sous-domaine personnalisé](../using/configuration/delegate-custom-subdomain.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Migration de CNAME vers la délégation personnalisée
+
+Migrez les sous-domaines existants configurés CNAME vers la délégation personnalisée pour répondre aux politiques de sécurité et contrôler entièrement les certificats.
+
+[Migration de votre sous-domaine](../using/configuration/custom-subdomain-migration.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Configurer les enregistrements DMARC
 
@@ -50,7 +72,7 @@ Configurez les enregistrements DMARC pour améliorer la sécurité et la délivr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ajouter un enregistrement TXT Google
 
@@ -60,7 +82,7 @@ Vérifiez les sous-domaines pour la délivrabilité de Gmail en ajoutant des enr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Accéder aux enregistrements PTR et les modifier
 
@@ -70,7 +92,7 @@ Gérez les enregistrements PTR pour les sous-domaines délégués, y compris la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Créer des groupes d’adresses IP
 
@@ -80,3 +102,9 @@ Regroupez les adresses IP pour améliorer la délivrabilité des e-mails et gér
 :::
 
 ::::
+
+## Ressources supplémentaires
+
+- **[Configurer des sous-domaines de page de destination](../using/landing-pages/lp-subdomains.md)** - Configurez des sous-domaines pour les pages de destination et les formulaires d’abonnement.
+- **[Configurer des sous-domaines web](../using/web/web-delegated-subdomains.md)** - Déléguer des sous-domaines pour le tracking et les expériences web.
+- **[Prise en main de la configuration des canaux](../using/configuration/get-started-configuration.md)** - Présentation de toutes les étapes de configuration des canaux, y compris la délégation de sous-domaines.
