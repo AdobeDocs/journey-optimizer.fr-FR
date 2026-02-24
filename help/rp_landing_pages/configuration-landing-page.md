@@ -20,7 +20,7 @@ La configuration des canaux dans Adobe Journey Optimizer vous permet de gérer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main de la configuration des canaux
 
@@ -30,7 +30,7 @@ Découvrez les étapes de configuration des canaux dans Adobe Journey Optimize
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Définir et gérer les configurations des canaux
 
@@ -40,7 +40,7 @@ Suivez un guide détaillé pour créer, modifier, désactiver et surveiller les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration guidée des canaux
 
@@ -60,7 +60,7 @@ Découvrez comment déléguer et configurer des sous-domaines d’e-mail pour op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Mettre en œuvre un plan de préchauffage d’adresses IP
 
@@ -70,7 +70,7 @@ Créez et exécutez des plans de préchauffage d’adresses IP pour établir la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Surveiller la délivrabilité et la réputation des e-mails
 
