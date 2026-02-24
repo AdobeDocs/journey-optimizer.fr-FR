@@ -3,9 +3,11 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Gestion des sandbox
 description: Gestion des sandbox
+hide: true
+hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_21-17-32
 exl-id: 5dce56d9-0c3d-4eb1-8d44-d69a98925e8c
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
@@ -20,7 +22,7 @@ Les sandbox d’Adobe Journey Optimizer sont comme des espaces de travail virtue
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Gérer et attribuer des sandbox
 
@@ -30,7 +32,7 @@ Découvrez comment gérer et attribuer des sandbox pour partitionner les environ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Copier des objets entre sandbox
 
