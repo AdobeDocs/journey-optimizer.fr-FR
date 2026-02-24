@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: étapes, configuration, parcours, événements, flux, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +22,10 @@ Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL AP
 
 1. Récupérez l’URL d&#39;inlet à partir des API Adobe Experience Platform. En savoir plus sur [Présentation des API d&#39;ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr){target="_blank"}.
 1. Copiez la payload depuis son aperçu dans le menu **[!UICONTROL Événement]**. En savoir plus sur [cette page](../event/about-creating.md#define-the-payload-fields).
+
+>[!IMPORTANT]
+>
+>Pour connaître les exigences et les limitations des événements (diffusion en continu, Query Service, ingestion par lots), consultez [Mécanismes de sécurisation de Parcours - Événements](../start/guardrails.md#events-g).
 
 Vous devez ensuite configurer le système de données qui envoie les événements vers les API d’ingestion en flux continu à l’aide de la payload que vous avez copiée :
 
