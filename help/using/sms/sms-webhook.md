@@ -7,14 +7,25 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 2bd0048c356c668ce2611b923f126e2a4e2c8630
+source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 71%
+source-wordcount: '1077'
+ht-degree: 67%
 
 ---
 
 # Créer un webhook {#webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_sms_webhook_settings_create"
+>title="Créer un Webhook SMS"
+>abstract="Vous pouvez configurer des Webhooks pour capturer les réponses entrantes afin de gérer le consentement d’opt-in et d’opt-out, et pour recevoir des rapports de diffusion, y compris des accusés de réception de lecture, le cas échéant."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_flow_type"
+>title="Choisissez votre type de Webhook"
+>abstract="Lors de la configuration d’un webhook, choisissez **Entrant** pour capturer les réponses de consentement et les préférences utilisateur, ou **[!UICONTROL Commentaires]** pour effectuer le suivi des événements de diffusion et d’engagement pour la création de rapports et l’analyse."
 
 >[!BEGINSHADEBOX]
 
@@ -40,7 +51,7 @@ Parcourez les onglets ci-dessous en fonction de vos fournisseurs SMS :
 
 >[!BEGINTABS]
 
->[!TAB Valeur personnalisée]
+>[!TAB Valeur] personnalisée
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks SMS]** sous **[!UICONTROL Paramètres SMS]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
 
