@@ -5,22 +5,24 @@ title: Définir les règles de limitation des messages et des parcours
 description: Définir les règles de limitation des messages et des parcours
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 38%
 
 ---
 
 # Définir les règles de limitation des messages et des parcours{#section-overview}
 
-La gestion des règles de limitation des messages et des parcours dans Adobe Journey Optimizer permet de s’assurer que vos clientes et clients reçoivent la quantité adéquate de communications sans se sentir submergée. En fixant des limites quant à la fréquence d’envoi des messages ou au nombre de parcours auxquels un profil peut participer, vous pouvez maintenir l’engagement de votre clientèle tout en évitant la surcommunication. Cette section présente des outils puissants tels que le capping de la fréquence par canal, les limites d’entrée dans le parcours et les stratégies de priorisation, et fournit des conseils clairs sur la manière de créer et d’appliquer efficacement ces règles. Que vous affiniez des campagnes individuelles ou appliquiez des règles globales, vous apprendrez à trouver facilement un équilibre entre la portée et l’expérience client.
+Les règles de limitation font partie de la [gestion des conflits et hiérarchisation](../using/conflict-prioritization/gs-conflict-prioritization.md). Elles permettent de s’assurer que les clients reçoivent le montant de communication approprié sans se sentir dépassés. Avant d’appliquer des règles, utilisez l’outil [ de détection des conflits ](../using/conflict-prioritization/conflicts.md) pour identifier les parcours et les campagnes qui se chevauchent. Lorsque plusieurs communications sont qualifiées pour le même profil, [scores de priorité](../using/conflict-prioritization/priority-scores.md) déterminent quel message est diffusé en premier.
+
+Vous pouvez définir des limites sur la fréquence d’envoi des messages (capping de la fréquence), le nombre de parcours qu’un profil peut entrer (limitation des parcours) et le moment de blocage des messages (heures creuses). Les règles sont regroupées en **ensembles de règles** et appliquées aux campagnes ou aux parcours. Pour le contrôle programmatique à partir de systèmes externes, reportez-vous à la section [API de limitation](../using/configuration/capping.md).
 
 ## Définir les règles de limitation des messages et des parcours
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utiliser des jeux de règles
 
@@ -30,7 +32,7 @@ Découvrez comment créer, gérer et activer des jeux de règles pour contrôler
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Limitation et arbitrage des parcours
 
@@ -40,7 +42,7 @@ Découvrez comment définir des limitations d’entrée de parcours et de simult
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Capping de la fréquence par canal
 
@@ -49,4 +51,20 @@ Découvrez comment créer et appliquer des règles de capping de la fréquence s
 [Définir le capping de la fréquence](../using/conflict-prioritization/channel-capping.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
+
+Définir des heures calmes
+
+Définissez des exclusions temporelles pour les e-mails, SMS, notifications push et WhatsApp afin qu’aucun message ne soit envoyé pendant des périodes spécifiques, en respectant les préférences des clients et la conformité.
+
+[Définir des heures creuses](../using/conflict-prioritization/quiet-hours.md)
+:::
+
 ::::
+
+## Ressources supplémentaires
+
+- **[Prise en main de la gestion des conflits et de la hiérarchisation](../using/conflict-prioritization/gs-conflict-prioritization.md)** - Présentation de la détection des conflits, des scores de priorité et des ensembles de règles.
+- **[Identifier les conflits potentiels](../using/conflict-prioritization/conflicts.md)** - Détectez les parcours et campagnes qui se chevauchent avant d’appliquer les règles de limitation.
+- **[Attribuer des scores de priorité](../using/conflict-prioritization/priority-scores.md)** - Contrôlez quel parcours ou campagne est prioritaire lorsqu’un profil est qualifié pour plusieurs communications.
