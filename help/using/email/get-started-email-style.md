@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, style, css, corps, structure
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 53%
 
 ---
 
@@ -22,9 +22,21 @@ Une fois que vous avez commencé à créer le contenu de votre e-mail dans [!DNL
 
 Vous pouvez appliquer vos modifications au corps de l’e-mail, à un composant de structure ou à un composant de contenu.
 
-![](assets/email_designer_content_components_styles.png)
+Sélectionnez un élément dans votre e-mail et cliquez sur l’onglet **[!UICONTROL Styles]**. Toutes les options de mise en forme de l’élément sélectionné s’affichent dans le volet de droite.
 
-Suivez les liens ci-dessous pour découvrir comment ajuster certains des paramètres de style de votre e-mail.
+![](assets/email_designer_styles.png)
+
+Par exemple, si vous sélectionnez un composant de texte :
+
+* Vous pouvez ajuster la **[!UICONTROL Couleur d’arrière-plan]** et la **[!UICONTROL Couleur de police]** de ce paragraphe ;
+* Vous pouvez mettre à jour les paramètres **[!UICONTROL Texte]** tels que la famille de polices, la taille, la hauteur, l’alignement, etc., et gérer l’espacement avant le premier caractère d’une ligne à l’aide du paramètre **[!UICONTROL Mise en retrait]**.
+* Vous pouvez également ajuster des options telles que **[!UICONTROL Bordure]**, **[!UICONTROL Marge]** et **[!UICONTROL Marge intérieure]** du composant de texte.
+
+Si vous utilisez un [modèle de contenu](use-email-templates.md) par défaut ou si vous avez appliqué un thème à votre e-mail, vous ne pouvez ajuster que quelques paramètres de style pour correspondre au thème sélectionné. [En savoir plus sur les thèmes](apply-email-themes.md)
+
+![](assets/email_designer_styles_theme.png)
+
+Suivez les liens ci-dessous pour découvrir comment ajuster certains paramètres de style spécifiques à votre e-mail.
 
 * Découvrez comment [personnaliser l’arrière-plan de votre e-mail](backgrounds.md).
 * Découvrez comment [gérer l’alignement vertical et la marge intérieure](alignment-and-padding.md).
