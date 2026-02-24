@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
+source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 85%
+source-wordcount: '822'
+ht-degree: 83%
 
 ---
 
@@ -123,10 +123,12 @@ Notez que pour chaque plateforme que vous souhaitez configurer, il est nécessai
 * Mobile Core v5.2.0 ou version ultérieure
 * Adobe Journey Optimizer v5.1.1 ou version ultérieure
 
+
 >[!TAB Pour Android]
 
 * Mobile Core v3.1.0 ou version ultérieure
 * Adobe Journey Optimizer v3.1.0 ou version ultérieure
+
 
 >[!ENDTABS]
 
@@ -135,7 +137,7 @@ Notez que pour chaque plateforme que vous souhaitez configurer, il est nécessai
 
 Ce paramétrage de canal guidé simplifie la configuration rapide de canaux marketing, mettant facilement à disposition toutes les ressources essentielles dans les applications Experience Platform, Journey Optimizer et Collecte de données. Cela permet à votre équipe marketing de commencer rapidement à créer des campagnes et des parcours. Vous trouverez ci-dessous une liste des ressources générées et configurées automatiquement dans le cadre de la configuration de canal guidée.
 
-Parcourez les onglets ci-dessous pour accéder aux listes complètes de toutes les ressources générées automatiquement :
+Parcourez les onglets ci-dessous pour accéder aux listes complètes de toutes les ressources générées automatiquement :
 
 >[!BEGINTABS]
 
