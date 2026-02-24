@@ -22,7 +22,7 @@ Vous pouvez choisir entre plusieurs méthodes de configuration : **délégation 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec la délégation de sous-domaines
 
@@ -32,7 +32,7 @@ Découvrez les avantages, les méthodes de configuration et les points à prendr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Déléguer un sous-domaine
 
@@ -52,7 +52,7 @@ Prenez pleinement possession de vos sous-domaines avec la délégation personnal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Migration de CNAME vers la délégation personnalisée
 
@@ -62,7 +62,7 @@ Migrez les sous-domaines existants configurés CNAME vers la délégation person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Configurer les enregistrements DMARC
 
@@ -72,7 +72,7 @@ Configurez les enregistrements DMARC pour améliorer la sécurité et la délivr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Ajouter un enregistrement TXT Google
 
@@ -82,7 +82,7 @@ Vérifiez les sous-domaines pour la délivrabilité de Gmail en ajoutant des enr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Accéder aux enregistrements PTR et les modifier
 
@@ -92,7 +92,7 @@ Gérez les enregistrements PTR pour les sous-domaines délégués, y compris la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer des groupes d’adresses IP
 
