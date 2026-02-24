@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 Les champs d’événement d’étape sont organisés par catégorie.
 
 * Champs d’informations de débogage
-* Champs du parcours
+* Champs de parcours
 * Champs de profil
 * Champs d’événement de service
 
@@ -95,11 +95,11 @@ Vous trouverez ci-dessous des définitions, des causes courantes et des étapes 
 
   **Dépannage** : assurez-vous qu’au moins un parcours est actif et configuré pour le segment, puis vérifiez les identifiants de segment.
 
-* **PARCOURS_INSTANCE_ID_NOT_CREATED** : le système n&#39;a pas réussi à créer d&#39;instance de parcours pour le client.
+* **JOURNEY_INSTANCE_ID_NOT_CREATED** : le système n’a pas réussi à créer d’instance de parcours pour le client ou la cliente.
 
   **Causes courantes** : événements en double, volume d’événements élevé, contraintes de ressources système.
 
-  **Dépannage** : implémentez la déduplication, évitez les pics de trafic, optimisez la conception du parcours et contactez l’assistance en cas de persistance.
+  **Dépannage** : implémentez la déduplication, évitez les pics de trafic, optimisez la conception du parcours [contactez l’assistance](../start/user-interface.md#support-ticket-guidelines) si elle est persistante.
 
 * **EVENT_WITH_NO_JOURNEY** : un événement a été reçu, mais aucun parcours actif n’est configuré pour y répondre.
 

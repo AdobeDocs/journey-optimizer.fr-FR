@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
-workflow-type: ht
-source-wordcount: '1126'
-ht-degree: 100%
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+workflow-type: tm+mt
+source-wordcount: '1237'
+ht-degree: 91%
 
 ---
 
@@ -103,7 +103,19 @@ Cliquez sur l’icône **Aide** pour :
 * Contacter l’assistance Adobe
 * Partager vos commentaires
 
+L’aide contextuelle affiche des conseils relatifs à l’écran que vous affichez et des liens directement vers la documentation correspondante, afin que vous puissiez obtenir les informations appropriées sans quitter votre workflow.
+
 ![Exemple d’aide contextuelle](assets/do-not-localize/Context-help.gif)
+
+### Instructions relatives aux tickets d’assistance {#support-ticket-guidelines}
+
+Lorsque vous contactez l’assistance Adobe, incluez les éléments suivants pour accélérer l’analyse et la résolution des causes profondes :
+
+* **Détails d’environnement** - Nom du sandbox, ID d’organisation et zone de produit (par exemple, Parcours, Campagnes, Prise de décision)
+* **Niveau d’impact** - gravité du problème (par exemple, production bloquée, fonctionnalités limitées, aspect esthétique)
+* **Étapes de réplication** - Instructions claires et détaillées pour reproduire le problème
+* **Logs ou captures d’écran** - Messages d’erreur pertinents, identifiants de requête ou captures d’écran qui illustrent le problème
+* **ID pertinents** - ID de Parcours, ID de campagne, ID d’audience ou autres identifiants d’objet liés au problème
 
 ### Notifications {#notifications}
 

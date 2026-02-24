@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '1938'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
@@ -61,14 +61,14 @@ Pour résoudre votre problème, commencez par répondre aux questions suivantes�
 
 * **Événement ignoré - condition de qualification non remplie** - Pour les événements basés sur des règles, si la **condition de qualification** n’est pas remplie par la payload de l’événement (par exemple, un champ obligatoire est vide ou manquant, ou une condition telle qu’une `isNotEmpty` sur un champ échoue), l’événement est **reçu mais ignoré** et le parcours n’est pas déclenché. Les journaux et les traces Splunk peuvent indiquer que l’événement a été reçu mais ignoré, car il ne remplissait pas la condition de qualification, avec des codes d’ignorance tels que `notSuitableInitialEvent`. C’est le comportement attendu : si la condition de qualification n’est pas remplie, l’événement est ignoré et le parcours n’est pas déclenché pour ce profil. Vérifiez que la payload de l&#39;événement contient les champs et valeurs attendus et que la règle de la configuration de l&#39;événement correspond aux données envoyées. Si l’événement est déclenché par une **action personnalisée** provenant d’un autre parcours, consultez [Gestion des événements ignorés et des délais d’inactivité](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) dans la section Dépannage des actions personnalisées.
 
-&#x200B;>>
+>>
 **Pour les parcours de qualification d’audience avec audiences en streaming** : si vous utilisez une activité de qualification d’audience comme point d’entrée d’un parcours, gardez à l’esprit que tous les profils correspondant aux critères de cette audience ne rejoindront pas nécessairement le parcours, en raison de facteurs de délai, de sorties rapides de l’audience ou du fait qu’ils se trouvaient déjà dans l’audience avant la publication. En savoir plus sur les [considérations relatives au délai de qualification des audiences en streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Vérifier l’identité d’un événement {#verify-event-identity-and-rule-data-types}
 
-Lors de la configuration d&#39;un parcours basé sur un événement, vérifiez que le champ d&#39;identité de la payload correspond à l&#39;espace de noms [&#x200B; sélectionné dans l&#39;événement](../event/about-creating.md#select-the-namespace). Si l’événement inclut des champs pour la correspondance de profil, vérifiez que les **casse de lettre** et **type de données** de la condition d’événement correspondent exactement aux données entrantes. Par exemple, si le schéma d’événement définit `roStatus` comme une chaîne, la règle de parcours doit également l’évaluer comme une chaîne. Les types de données incohérents (par exemple, chaîne ou entier) entraînent l’échec de l’évaluation des règles et l’abandon d’événements valides. De même, si l’événement comporte une **condition de qualification** (par exemple, un champ doit être non vide), les événements qui ne remplissent pas cette condition sont **ignorés** et ne déclenchent pas le parcours ; les journaux peuvent afficher des codes d’ignorance tels que `notSuitableInitialEvent`.
+Lors de la configuration d&#39;un parcours basé sur un événement, vérifiez que le champ d&#39;identité de la payload correspond à l&#39;espace de noms [ sélectionné dans l&#39;événement](../event/about-creating.md#select-the-namespace). Si l’événement inclut des champs pour la correspondance de profil, vérifiez que les **casse de lettre** et **type de données** de la condition d’événement correspondent exactement aux données entrantes. Par exemple, si le schéma d’événement définit `roStatus` comme une chaîne, la règle de parcours doit également l’évaluer comme une chaîne. Les types de données incohérents (par exemple, chaîne ou entier) entraînent l’échec de l’évaluation des règles et l’abandon d’événements valides. De même, si l’événement comporte une **condition de qualification** (par exemple, un champ doit être non vide), les événements qui ne remplissent pas cette condition sont **ignorés** et ne déclenchent pas le parcours ; les journaux peuvent afficher des codes d’ignorance tels que `notSuitableInitialEvent`.
 
-Pour valider votre condition d&#39;événement dans [!DNL Journey Optimizer], utilisez l&#39;aperçu de la payload dans la configuration de l&#39;événement et assurez-vous que les types et les valeurs de la règle correspondent à la structure de la payload. Découvrez comment [&#x200B; prévisualiser la payload &#x200B;](../event/about-creating.md#preview-the-payload) et [&#x200B; configurer des événements basés sur des règles](../event/about-creating.md).
+Pour valider votre condition d&#39;événement dans [!DNL Journey Optimizer], utilisez l&#39;aperçu de la payload dans la configuration de l&#39;événement et assurez-vous que les types et les valeurs de la règle correspondent à la structure de la payload. Découvrez comment [ prévisualiser la payload ](../event/about-creating.md#preview-the-payload) et [ configurer des événements basés sur des règles](../event/about-creating.md).
 
 ## Résoudre des problèmes liés aux transitions en mode test {#troubleshooting-test-transitions}
 
@@ -99,7 +99,7 @@ Si vous rencontrez des problèmes de transition persistants :
 1. Vérifiez que la date de début du parcours est correcte.
 1. Désactivez et réactivez le mode test.
 1. Si le problème persiste, pensez à dupliquer les nœuds de parcours concernés et à les reconnecter.
-1. Pour les cas non résolus, contactez l’assistance avec les journaux de parcours, les identifiants de profil concernés et des détails sur la transition nulle.
+1. Pour les cas non résolus, [contactez l’assistance](../start/user-interface.md#support-ticket-guidelines) avec les journaux de parcours, les identifiants de profil concernés et les détails sur la transition nulle
 
 >[!NOTE]
 >
@@ -209,4 +209,4 @@ Si les mesures affichées dans le tableau de bord **Vue d’ensemble** ne corres
 * Vérifiez que vous disposez des autorisations d’accès appropriées pour afficher tous les parcours de votre organisation.
 * Patientez jusqu’à 30 minutes pour que les mesures s’actualisent après avoir apporté des modifications à vos parcours.
 
-Si les incohérences persistent, contactez l’assistance Adobe avec des copies d’écran des onglets Vue d’ensemble et Parcourir pour en savoir plus.
+Si les incohérences persistent, [contactez l’assistance Adobe](../start/user-interface.md#support-ticket-guidelines) avec des captures d’écran des onglets Aperçu et Parcourir pour plus d’informations.

@@ -7,10 +7,10 @@ feature: Get Started, Monitoring
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
-source-wordcount: '2945'
-ht-degree: 97%
+source-wordcount: '2972'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 97%
 Voici une liste d’articles de résolution des problèmes pour Adobe Journey Optimizer. Chaque section de résolution des problèmes fournit des réponses aux questions fréquentes ainsi que des solutions aux problèmes.
 
 Voir aussi les [Questions fréquentes sur Adobe Experience Platform et la documentation sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/troubleshooting){target="_blank"}.
+
+Lorsque vous contactez l’assistance Adobe pour des problèmes non résolus, incluez les détails de l’environnement, le niveau d’impact, les étapes de réplication, les journaux ou captures d’écran et les identifiants pertinents. [Découvrez les éléments à inclure dans les tickets d’assistance](user-interface.md#support-ticket-guidelines).
 
 ## Canal E-mail {#ajo-troubleshooting-email}
 
@@ -201,7 +203,7 @@ Cette incohérence peut se produire lorsque le parcours utilise l’instantané 
 
 Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} pour découvrir les étapes à suivre pour résoudre ce problème.
 
-Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=fr){target="_blank"}.
+Pour en savoir plus, consultez [cette publication de la communauté Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Consultez également la [documentation de l’API Schedules d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/api/schedules){target="_blank"} pour savoir quand votre tâche quotidienne est planifiée.
 

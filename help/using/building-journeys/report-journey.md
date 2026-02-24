@@ -10,10 +10,10 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -62,7 +62,7 @@ Si les rapports de parcours ne contiennent pas les données attendues, tenez com
 
 * **Statut de parcours** : les données de rapport ne sont disponibles que pour les parcours publiés ou les parcours s’exécutant en [mode test à blanc](journey-dry-run.md). Les brouillons de parcours ne génèrent pas de données de rapport.
 
-Si les problèmes persistent après avoir vérifié ces éléments, contactez votre administrateur ou administratrice Adobe ou l’assistance Adobe pour obtenir de l’aide.
+Si les problèmes persistent après avoir vérifié ces éléments, contactez votre administrateur Adobe ou [l’assistance Adobe](../start/user-interface.md#support-ticket-guidelines) pour obtenir de l’aide.
 
 >[!MORELIKETHIS]
 >
