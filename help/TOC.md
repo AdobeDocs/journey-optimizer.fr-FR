@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 98%
 
 ---
@@ -215,8 +215,7 @@ ht-degree: 98%
          + [Interagir avec les clientes et clients en fonction de leur activité de navigation](using/orchestrated/engage-customers-uc.md)
          + [Informer les utilisateurs et les utilisatrices de la disponibilité d’un produit](using/orchestrated/product-availability-uc.md)
 + Conflit et hiérarchisation {#conflict-prioritization}
-   + [Gestion des conflits et hiérarchisation](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [Commencer avec la gestion et la hiérarchisation des conflits](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Gestion des conflits et hiérarchisation](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifier les conflits potentiels](using/conflict-prioritization/conflicts.md)
    + [Attribuer des scores de priorité](using/conflict-prioritization/priority-scores.md)
    + Définir les règles de limitation des messages et des parcours {#capping-rules}
@@ -861,7 +860,6 @@ ht-degree: 98%
    + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
    + [Exporter le contenu du message](using/configuration/message-export.md)
    + Configuration guidée des canaux {#guided-setup}
-      + [Configuration guidée des canaux](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Commencer la configuration guidée des canaux](using/configuration/set-mobile-config.md)
       + [Créer une configuration de canal](using/configuration/create-channel-set-up.md)
    + Déléguer les sous-domaines d’e-mail {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 98%
       + [Action Campaign v7/v8 dans les parcours](using/action/acc-action.md)
       + [Action Marketo Engage dans les parcours](using/action/marketo-engage.md)
    + Gestion des sandbox {#sandbox}
-      + [Gestion des sandbox](/help/rp_landing_pages/sandbox-landing-page.md)
       + [Utiliser et attribuer des sandbox](using/administration/sandboxes.md)
       + [Exporter des objets vers un autre sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Configurer le connecteur Sources](using/start/get-started-sources.md)
@@ -947,7 +944,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

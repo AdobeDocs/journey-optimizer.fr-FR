@@ -5,7 +5,7 @@ title: Configuration des canaux
 description: Configuration des canaux
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
@@ -20,7 +20,7 @@ La configuration des canaux dans Adobe Journey Optimizer vous permet de gérer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main de la configuration des canaux
 
@@ -30,7 +30,7 @@ Découvrez les étapes de configuration des canaux dans Adobe Journey Optimize
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Définir et gérer les configurations des canaux
 
@@ -40,13 +40,13 @@ Suivez un guide détaillé pour créer, modifier, désactiver et surveiller les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuration guidée des canaux
 
 Configurez efficacement les canaux mobiles et web à l’aide des instructions détaillées et des ressources fournies pendant le processus de configuration.
 
-[Explorer la configuration guidée des canaux](guided-setup-landing-page.md)
+[Explorer la configuration guidée des canaux](../using/configuration/set-mobile-config.md)
 :::
 
 :::
@@ -60,7 +60,7 @@ Découvrez comment déléguer et configurer des sous-domaines d’e-mail pour op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Mettre en œuvre un plan de préchauffage d’adresses IP
 
@@ -70,7 +70,7 @@ Créez et exécutez des plans de préchauffage d’adresses IP pour établir la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Surveiller la délivrabilité et la réputation des e-mails
 

@@ -4,8 +4,8 @@ product: Journey Optimizer
 title: Aide d’Adobe Journey Optimizer
 description: Aide d’Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: ht
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Adobe Journey Optimizer permet aux équipes de concevoir et de diffuser des ex
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Découvrez les principes de base d’Adobe Journey Optimizer, notamment ses fo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guide complet des parcours
 
@@ -41,7 +41,7 @@ Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Comprendre et gérer les campagnes
 
@@ -51,13 +51,13 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestion et hiérarchisation des conflits
 
 Découvrez comment hiérarchiser et gérer efficacement les conflits de communication entre les campagnes et les parcours.
 
-[Découvrir la gestion des conflits](conflict-prioritization-landing-page.md)
+[Découvrir la gestion des conflits](../using/conflict-prioritization/gs-conflict-prioritization.md)
 :::
 
 ::::

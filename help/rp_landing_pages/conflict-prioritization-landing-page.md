@@ -3,9 +3,11 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Gestion des conflits et hiérarchisation
 description: Gestion des conflits et hiérarchisation
+hide: true
+hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_20-29-02
 exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
@@ -20,7 +22,7 @@ La gestion des conflits et la hiérarchisation dans Adobe Journey Optimizer vo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec la gestion des conflits
 
@@ -30,7 +32,7 @@ Découvrez comment utiliser des outils tels que la détection des conflits, les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Identifier les conflits potentiels
 
@@ -40,7 +42,7 @@ Découvrez des méthodes permettant de détecter et de résoudre les conflits de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Attribuer des scores de priorité aux campagnes
 
@@ -50,7 +52,7 @@ Découvrez comment attribuer des scores de priorité numériques aux parcours et
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Définir les règles de limitation des messages et des parcours
 

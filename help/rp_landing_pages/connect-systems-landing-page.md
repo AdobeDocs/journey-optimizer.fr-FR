@@ -5,7 +5,7 @@ title: Connecter vos systèmes et environnements
 description: Connecter vos systèmes et environnements
 redpen-status: CREATED_||_2025-08-11_21-18-12
 exl-id: fe784f79-f8a2-4091-a5f0-3e44a1838c1c
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer vous permet de connecter facilement vos systèmes et e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Intégrer Adobe Journey Optimizer à d’autres solutions
 
@@ -30,7 +30,7 @@ Découvrez comment Adobe Journey Optimizer se connecte à d’autres solutions
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utiliser les API Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez comment utiliser les API pour offrir des expériences personnalisées
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Intégrer vos parcours à des systèmes externes
 
@@ -50,7 +50,7 @@ Découvrez les bonnes pratiques relatives à l’intégration d’Adobe Journey
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Envoyer avec les solutions Adobe
 
@@ -60,17 +60,17 @@ Configurez Adobe Journey Optimizer pour l’intégration à Adobe Campaign, M
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestion des sandbox dans Adobe Journey Optimizer
 
 Gérez efficacement les environnements virtuels, les rôles et les workflows avec les sandbox dans Adobe Journey Optimizer.
 
-[Gérer vos sandbox](sandbox-landing-page.md)
+[Gérer vos sandbox](../using/administration/sandboxes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec les connecteurs sources
 
