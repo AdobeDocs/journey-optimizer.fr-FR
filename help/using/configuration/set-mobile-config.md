@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 >abstract="Le produit Adobe Experience Platform Assurance est incorporé à ce workflow pour vous aider à contrôler l’implémentation de votre SDK, ainsi qu’à simuler et valider des événements d’application."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home" text="Vue d’ensemble d’Adobe Experience Platform Assurance"
 
-Cette opération facilite la configuration rapide des canaux marketing, en s’assurant que toutes les ressources requises sont facilement disponibles dans Experience Platform, Journey Optimizer et la Collecte de données. Cela permet à votre équipe marketing de lancer la création de campagnes et de parcours.
+**Configuration guidée de canal** est un workflow rationalisé dans Adobe Journey Optimizer qui vous permet de configurer rapidement des canaux marketing web et mobiles. Il se trouve sous **Administration** > **Canaux** > **Configuration des canaux** et automatise la création de ressources essentielles, telles que les propriétés des balises, les flux de données et les configurations de canal, dans Adobe Experience Platform, Journey Optimizer et la collecte de données. Au lieu de configurer manuellement chaque composant, vous suivez un flux guidé qui configure tous les éléments pour vous, de sorte que votre équipe marketing puisse commencer à créer des messages in-app, des notifications push et des expériences web sans délai.
 
-La configuration du canal guidée prend en charge les plateformes et canaux suivants.
+La configuration guidée des canaux prend en charge les plateformes et canaux suivants.
 
 * Plateformes et SDK :
 
@@ -180,7 +180,7 @@ Pour la **configuration initiale**, vous trouverez ci-dessous une liste complèt
   </tr>
   <tr>
   <td>
-  <p>Trains de données</p>
+  <p>Flux de données</p>
   </td>
   <td>
   <p>Train de données avec services</p>
@@ -275,7 +275,7 @@ Pour la **configuration initiale**, vous trouverez ci-dessous une liste complèt
   </tr>
   <tr>
   <td>
-  <p>Trains de données</p>
+  <p>Flux de données</p>
   </td>
   <td>
   <p>Train de données avec services</p>
@@ -370,7 +370,7 @@ Pour la **configuration initiale**, vous trouverez ci-dessous une liste complèt
   </tr>
   <tr>
   <td>
-  <p>Trains de données</p>
+  <p>Flux de données</p>
   </td>
   <td>
   <p>Train de données avec services</p>

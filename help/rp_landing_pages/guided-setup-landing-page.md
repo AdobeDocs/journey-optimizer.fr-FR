@@ -3,9 +3,11 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Configuration guidée des canaux
 description: Configuration guidée des canaux
+hide: true
+hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_21-07-03
 exl-id: fb2185b8-6c92-4c50-8a79-2eb776cf0ac5
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -20,7 +22,7 @@ La configuration guidée des canaux dans Adobe Journey Optimizer simplifie le pr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer des canaux mobiles et web
 
@@ -30,7 +32,7 @@ Découvrez comment configurer rapidement des canaux mobiles et web à l’aide d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Créer et modifier des configurations de canaux
 
