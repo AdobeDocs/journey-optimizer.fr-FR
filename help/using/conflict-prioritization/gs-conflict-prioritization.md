@@ -23,7 +23,7 @@ Ces outils sont disponibles pour les campagnes et pour les parcours unitaires, d
 |-----------|------|--------|
 | Vérifiez si les parcours ou les campagnes se chevauchent (chronologie, audience, canal). | **Détection des conflits** | [Identifier les conflits potentiels](conflicts.md) |
 | Choisir le message qui gagne lorsqu’un profil se qualifie pour plusieurs | **Scores de priorité** | [Attribuer des scores de priorité](priority-scores.md) |
-| Limiter la fréquence ou le nombre de messages reçus par un profil | **Ensembles de règles** (limitation de la fréquence, limitation du parcours, heures calmes) | [Définir des règles de limitation des messages et des parcours ](../../rp_landing_pages/capping-rules-landing-page.md) |
+| Limiter la fréquence ou le nombre de messages reçus par un profil | **Ensembles de règles** (limitation de la fréquence, limitation du parcours, heures calmes) | [Définir des règles de limitation des messages et des parcours &#x200B;](../../rp_landing_pages/capping-rules-landing-page.md) |
 
 **Flux standard :** utilisez la détection des conflits pour repérer les chevauchements, puis appliquez des scores de priorité et des ensembles de règles pour contrôler quels messages sont envoyés et à quelle fréquence.
 
