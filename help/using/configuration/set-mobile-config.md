@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
+source-git-commit: 725d1d98759a721a7e2e891f0e560cd967e05f7f
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 88%
+source-wordcount: '823'
+ht-degree: 85%
 
 ---
 
@@ -33,22 +33,27 @@ ht-degree: 88%
 
 La configuration guidée des canaux prend en charge les plateformes et canaux suivants.
 
-* Plateformes et SDK :
-
-   * Swift par Apple, iOS
-
-   * Kotlin, Android
-
-   * JavaScript, web
-
-* Canaux :
-
-   * Mobile in-app
-
-   * Message de notification push mobile
-
-   * Web de base
-
+>[!BEGINTABS]
+>
+>[!TAB iOS]
+>
+>**SDK:** Swift par Apple
+>
+>**Canaux :** Message Push Mobile In-App
+>
+>[!TAB Android]
+>
+>**SDK:** Kotlin
+>
+>**Canaux :** Message Push Mobile In-App
+>
+>[!TAB Web]
+>
+>**SDK:** Javascript
+>
+>**Canaux :** Web Basic
+>
+>[!ENDTABS]
 
 Notez que pour chaque plateforme que vous souhaitez configurer, il est nécessaire de créer une configuration distincte. Cela est dû au fait que chaque application nécessite une configuration de canal unique, ce qui offre la possibilité de déterminer les canaux que vous souhaitez pour chaque plateforme.
 
