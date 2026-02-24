@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 73%
+source-wordcount: '1532'
+ht-degree: 70%
 
 ---
 
@@ -104,6 +104,10 @@ Lorsque vous utilisez la qualification d’audience pour une audience par lot, n
 
 De plus, si l’audience par lot est nouvellement créée et utilisée immédiatement dans un parcours, le premier lot de calculs peut générer de nombreuses entrées. Prévoyez ce pic.
 
+### Planning des mises à jour de l’appartenance à un segment {#timing-segment-membership}
+
+Lors de l’utilisation d’instantanés par lots dans un parcours, les nouvelles appartenances aux segments peuvent uniquement être reflétées dans les instantanés suivants. Si des ajouts de segments immédiats ou le même jour sont essentiels, pensez à la segmentation en flux continu ou vérifiez que les mises à jour de segment sont capturées par l’instantané suivant.
+
 ### Audiences en flux continu {#streamed-speed-segment-qualification}
 
 Lors de l’utilisation de la qualification de l’audience pour les audiences en flux continu, il y a moins de risque de pics d’entrée et de sortie importants car l’évaluation est continue. Si la définition d’audience qualifie plusieurs clients à la fois, un pic peut toujours se produire.
@@ -190,4 +194,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

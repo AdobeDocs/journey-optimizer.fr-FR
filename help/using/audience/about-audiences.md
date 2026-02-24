@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 80795b643ba08e5016d768600c675ce1273e3a16
+source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 94%
 
 ---
 
@@ -63,7 +63,7 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 * **Définitions de segment** : créez une définition d’audience à l’aide du Service de segmentation d’Adobe Experience Platform. Les audiences sont générées à partir des définitions de segment et actualisées à différents moments en fonction de leur type d’évaluation :
 
    * Segmentation du streaming : les audiences sont mises à jour en temps réel au fur et à mesure que de nouvelles données affluent, assurant ainsi une pertinence continue basée sur l’activité des utilisateurs et utilisatrices.
-   * Segmentation par lots : les audiences sont actualisées toutes les 24 heures, capturant un instantané des profils à un intervalle fixe.
+   * Segmentation par lots : les audiences sont actualisées toutes les 24 heures, capturant un instantané des profils à un intervalle fixe. Lorsqu’ils sont utilisés dans des parcours, les membres de segment nouvellement qualifiés peuvent ne pas apparaître avant l’instantané suivant. [En savoir plus sur le minutage](../building-journeys/audience-qualification-events.md#timing-segment-membership).
    * Segmentation Edge : les audiences sont évaluées instantanément à la périphérie, ce qui permet une personnalisation en temps réel.
 
   [Découvrir comment créer des définitions de segment](creating-a-segment-definition.md)
