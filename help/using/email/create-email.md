@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 98%
@@ -33,6 +33,8 @@ Pour créer un e-mail dans [!DNL Journey Optimizer], ajoutez une action d’**[!
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL E-mail]** depuis la section **[!UICONTROL Actions]** de la palette.
 
+   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
+
 1. Fournissez des informations de base sur votre message (libellé, description, catégorie).
 
 1. Sélectionnez ou créez la [configuration du canal e-mail](email-settings.md).
@@ -45,7 +47,7 @@ Pour créer un e-mail dans [!DNL Journey Optimizer], ajoutez une action d’**[!
 >
 >Vous pouvez utiliser l’option Optimisation de l’heure d’envoi pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. [Découvrez comment utiliser l’optimisation de l’heure d’envoi](../building-journeys/send-time-optimization.md)
 
-Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
+Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!TAB Ajouter un e-mail à une campagne]
 
