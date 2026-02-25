@@ -35,7 +35,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
-➡️ **Vous souhaitez commencer à créer ?** [Créez votre premier parcours ](journey-gs.md) en 5 minutes.
+➡️ **Vous souhaitez commencer à créer ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
 
 ### Parcours ou campagnes : quand utiliser l’un ou l’autre {#journeys-vs-campaigns-intro}
 
@@ -148,7 +148,7 @@ Avant d’ouvrir le concepteur, clarifiez vos objectifs :
 
 * **Quel est l’objectif ?** (par exemple, intégrer une nouvelle clientèle, réengager des utilisateurs et utilisatrices inactifs)
 * **Qui est l’audience ?** (segment spécifique, individus pilotés par un événement)
-* **Quel type de parcours convient ?** (voir les [types de parcours ](#journey-types) ci-dessus)
+* **Quel type de parcours convient ?** (voir les [types de parcours &#x200B;](#journey-types) ci-dessus)
 * **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
 
 ### &#x200B;2. Concevoir dans la zone de travail {#design}
@@ -192,7 +192,7 @@ Suivez les performances réelles de votre parcours :
 * Surveillez les taux d’entrée, d’achèvement et d’erreur.
 * Configurez des alertes pour les problèmes critiques.
 
-[Surveiller et établir des rapports → ](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
+[Surveiller et établir des rapports → &#x200B;](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
 
 ### &#x200B;6. Optimiser et itérer {#optimize}
 
@@ -411,4 +411,4 @@ Configurez des **[alertes de parcours](../reports/alerts.md)** pour recevoir des
 * **[Résolution des problèmes d’exécution](troubleshooting-execution.md)** – Déboguer les problèmes d’exécution de parcours
 * **[Résolution des problèmes d’activités entrantes](troubleshooting-inbound.md)** – Corriger les problèmes d’entrée et de qualification
 
-**Vous voulez créer votre premier parcours ?** [ Cʼest parti ! →](journey-gs.md)
+**Vous voulez créer votre premier parcours ?** [&#x200B; Cʼest parti ! →](journey-gs.md)

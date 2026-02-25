@@ -31,7 +31,7 @@ Notez que les messages in-app ne sont pas affectés par le choix de l’utilisat
 
 Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
-1. Ouvrez votre [parcours ](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+1. Ouvrez votre [parcours &#x200B;](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
 
    >[!IMPORTANT]
    >

@@ -121,4 +121,4 @@ Avant de tester et de publier votre parcours, vérifiez que toutes les activité
 
 Découvrez [dans cette page](troubleshooting.md) comment résoudre les erreurs dans les activités et dans le parcours.
 
-Voir aussi [ Surveillance et dépannage ](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
+Voir aussi [&#x200B; Surveillance et dépannage &#x200B;](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
