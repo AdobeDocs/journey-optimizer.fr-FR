@@ -1,19 +1,19 @@
 ---
-title: Créer des expériences basées sur le code
+title: Créer des expériences basées sur du code
 description: Découvrez comment créer des expériences basées sur le code dans Journey Optimizer.
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '785'
-ht-degree: 100%
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 82%
 
 ---
 
-# Créer des expériences basées sur le code {#create-code-based}
+# Créer des expériences basées sur du code {#create-code-based}
 
 Dans [!DNL Journey Optimizer], vous pouvez créer des expériences basées sur du code dans un parcours ou une campagne.
 
@@ -31,7 +31,13 @@ Pour ajouter une activité **expérience basée sur du code** à un parcours, pr
 
 1. Débutez votre parcours avec une activité [Événement](../building-journeys/general-events.md) ou [Lecture d’audience](../building-journeys/read-audience.md).
 
-1. Faites glisser et déposez une activité **[!UICONTROL Expérience basée sur du code]** depuis la section **[!UICONTROL Actions]** de la palette.
+1. Effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Tous les canaux natifs étant désormais accessibles par le biais de l’activité Action , les activités de canal natives héritées seront abandonnées avec la version de mars. Les parcours existants qui incluent des actions héritées continueront à fonctionner en l’état. Aucune migration n’est requise.
+
+1. Sélectionnez **[!UICONTROL Expérience basée sur du code]** comme type d’action.
 
    ![](assets/code-based-activity-journey.png)
 
@@ -39,25 +45,27 @@ Pour ajouter une activité **expérience basée sur du code** à un parcours, pr
    >
    >Comme l’activité **Expérience basée sur du code** est une activité d’expérience entrante, elle est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
+1. Saisissez un **[!UICONTROL Libellé]** pour identifier votre action dans la zone de travail du parcours.
 
-1. Sélectionnez ou créez la configuration d’expérience basée sur du code à utiliser. [En savoir plus](code-based-configuration.md)
+1. Cliquez sur le bouton **[!UICONTROL Configurer l’action]**.
+
+1. Vous accédez à l’onglet **[!UICONTROL Actions]**. À partir de là, sélectionnez ou créez la configuration d’expérience basée sur le code à utiliser. [En savoir plus](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
 
    >[!NOTE]
    >
-   >Lorsque plusieurs actions d’expérience basée sur du code utilisent la même configuration des canaux, le **[!UICONTROL score de priorité]** du parcours détermine ce qui est diffusé à l’utilisateur ou à l’utilisatrice s’ils sont qualifiés pour plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
+   >Lorsque plusieurs actions d’expérience basée sur du code utilisent la même configuration des canaux, le **[!UICONTROL score de priorité]** du parcours détermine ce qui est diffusé à l’utilisateur ou à l’utilisatrice s’ils sont qualifiés pour plusieurs actions. [Découvrir les scores de priorité](../conflict-prioritization/priority-scores.md)
 
 1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et modifiez votre contenu selon vos besoins à l’aide de l’éditeur de personnalisation. [En savoir plus](#edit-code)
 
-   Vous pouvez également utiliser un modèle de contenu existant comme base pour le contenu de votre code. Notez que les modèles disponibles pouvant être choisis sont définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment. [Découvrir comment utiliser les modèles de contenu](../content-management/use-content-templates.md)
+   Vous pouvez également utiliser un modèle de contenu existant comme base pour le contenu de votre code. Notez que les modèles disponibles pouvant être choisis sont définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment. [Découvrez comment utiliser les modèles de contenu.](../content-management/use-content-templates.md)
 
-1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
+1. Vous pouvez ajouter une ou plusieurs actions entrantes à votre expérience basée sur du code en cliquant sur le bouton **[!UICONTROL Ajouter une action]**. [En savoir plus](../building-journeys/journey-action.md#multi-action)
 
-1. Une fois que votre expérience basée sur du code est prête, finalisez la configuration et publiez votre parcours pour l’activer. [En savoir plus](../building-journeys/publish-journey.md)
+1. Revenez à la zone de travail parcours. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md)
 
-Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
+Pour plus d’informations sur la création, la configuration et la publication d’un parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!TAB Créer une expérience de campagne basée sur le code]
 
@@ -77,15 +85,15 @@ Pour commencer à créer votre **expérience basée sur du code** par le biais d
 
    >[!NOTE]
    >
-   >Lorsque plusieurs actions d’expérience basée sur du code utilisent sur la même configuration des canaux, le **[!UICONTROL score de priorité]** de la campagne détermine ce qui est diffusé à l’utilisateur ou à l’utilisatrice s’ils sont qualifiés pour plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
+   >Lorsque plusieurs actions d’expérience basée sur du code utilisent sur la même configuration des canaux, le **[!UICONTROL score de priorité]** de la campagne détermine ce qui est diffusé à l’utilisateur ou à l’utilisatrice s’ils sont qualifiés pour plusieurs actions. [Découvrir les scores de priorité](../conflict-prioritization/priority-scores.md)
 
 1. Modifiez le contenu selon vos besoins à l’aide de l’éditeur de personnalisation. [En savoir plus](#edit-code)
 
-   Vous pouvez également utiliser un modèle de contenu existant comme base pour le contenu de votre code. Notez que les modèles disponibles pouvant être choisis sont définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment. [Découvrir comment utiliser les modèles de contenu](../content-management/use-content-templates.md)
+   Vous pouvez également utiliser un modèle de contenu existant comme base pour le contenu de votre code. Notez que les modèles disponibles pouvant être choisis sont définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment. [Découvrez comment utiliser les modèles de contenu.](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
+Pour plus d’informations sur la création, la configuration et l’activation d’une campagne, consultez [cette page](../campaigns/get-started-with-campaigns.md).
 
 ➡️ [Découvrez comment créer une campagne d’expérience basée sur du code dans cette vidéo.](#video)
 
@@ -145,4 +153,4 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 
 La vidéo ci-dessous montre comment créer une campagne par expérience basée sur du code, configurer ses propriétés, la tester et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449455/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

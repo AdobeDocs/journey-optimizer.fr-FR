@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 100%
+source-wordcount: '1467'
+ht-degree: 89%
 
 ---
 
@@ -25,17 +25,29 @@ ht-degree: 100%
 
 Pour ajouter une carte de contenu à un parcours, procédez comme suit :
 
-1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL Carte]** depuis la section **[!UICONTROL Actions]** de la palette.
+1. Ouvrez votre [parcours ](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Tous les canaux natifs étant désormais accessibles par le biais de l’activité Action , les activités de canal natives héritées seront abandonnées avec la version de mars. Les parcours existants qui incluent des actions héritées continueront à fonctionner en l’état. Aucune migration n’est requise.
+
+1. Sélectionnez **[!UICONTROL Carte]** comme type d’action.
 
    ![](assets/content-card-jo-1.png)
 
-1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
+   >[!NOTE]
+   >
+   >Comme **Carte** est une activité d’expérience entrante, elle est fournie avec une activité de 3 jours **Attente**. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Choisissez la [configuration de carte de contenu](content-card-configuration.md) à utiliser.
+1. Saisissez un **[!UICONTROL Libellé]** pour identifier votre action dans la zone de travail du parcours.
+
+1. Cliquez sur le bouton **[!UICONTROL Configurer l’action]**.
+
+1. Vous accédez à l’onglet **[!UICONTROL Actions]**. À partir de là, sélectionnez ou créez la configuration de carte de contenu à utiliser. [En savoir plus](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
-1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-content-card.md).
+1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-content-card.md)
 
 1. Activez l’option **[!UICONTROL Activer des règles de diffusion supplémentaires]**, puis sélectionnez **[!UICONTROL Modifier les règles]** pour définir à quel moment votre message doit être affiché, ignoré ou définitivement masqué.
 
@@ -86,11 +98,11 @@ Pour ajouter une carte de contenu à un parcours, procédez comme suit :
 
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
-1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
+1. Vous pouvez ajouter une ou plusieurs actions entrantes à votre carte de contenu en cliquant sur le bouton **[!UICONTROL Ajouter une action]**. [En savoir plus](../building-journeys/journey-action.md#multi-action)
 
-1. Une fois votre carte de contenu prête, finalisez la configuration et publiez votre parcours pour l’activer.
+1. Revenez à la zone de travail parcours. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md)
 
-Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
+Pour plus d’informations sur la création, la configuration et la publication d’un parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!TAB Ajouter des cartes de contenu à une campagne]
 
@@ -102,7 +114,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
 
    * **[!UICONTROL Scheduled - Marketing]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **[!UICONTROL Déclenchée par API - Marketing/Transactionnelle]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL Déclenchée par API - Marketing/Transactionnelle]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrir comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
 
    ![](assets/content-card-create-1.png)
 

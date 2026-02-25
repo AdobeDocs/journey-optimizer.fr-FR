@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 94%
+source-wordcount: '952'
+ht-degree: 73%
 
 ---
 
@@ -32,27 +32,43 @@ Pour créer une notification push, procédez comme suit :
 
 >[!TAB Ajouter une notification push à un parcours]
 
-1. Ouvrez votre parcours, puis faites glisser et déposez une activité Push depuis la section Actions de la palette.
+1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Tous les canaux natifs étant désormais accessibles par le biais de l’activité Action , les activités de canal natives héritées seront abandonnées avec la version de mars. Les parcours existants qui incluent des actions héritées continueront à fonctionner en l’état. Aucune migration n’est requise.
+
+1. Sélectionnez **[!UICONTROL Push]** comme type d’action.
 
    ![](assets/push_create_1.png)
 
-1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la configuration de message à utiliser.
+1. Saisissez un **[!UICONTROL Libellé]** pour identifier votre action dans la zone de travail du parcours.
+
+1. Cliquez sur le bouton **[!UICONTROL Configurer l’action]**.
+
+1. Vous accédez à l’onglet **[!UICONTROL Actions]**. À partir de là, sélectionnez ou créez la configuration push à utiliser. [En savoir plus](push-configuration.md)
 
    ![](assets/push_create_2.png)
 
+1. En outre :
+
+   * Vous pouvez appliquer des règles de limitation à votre action push en sélectionnant un jeu de règles dans la liste déroulante **[!UICONTROL Règles métier]**. [En savoir plus](../conflict-prioritization/channel-capping.md)
+
+   * Vous pouvez utiliser l’option **[!DNL Send time optimization]** pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. [Voici comment procéder](../building-journeys/send-time-optimization.md)
+
+1. Utilisez le **[!UICONTROL mode de diffusion rapide]** pour envoyer votre notification push en grandes quantités. [Voici comment procéder](#rapid-delivery)
+
+1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et créez votre contenu selon vos besoins. [En savoir plus](design-push.md)
+
+1. Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement pour prévisualiser son contenu. [Voici comment procéder](send-push.md)
+
+1. Revenez à la zone de travail parcours. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md)
+
    >[!NOTE]
    >
-   >Si vous envoyez une notification push à partir d’un parcours, vous pouvez tirer parti de la fonctionnalité d’optimisation de l’heure d’envoi d’Adobe Journey Optimizer pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux d’ouverture et de clic historiques. [Découvrez comment utiliser l’optimisation de l’heure d’envoi](../building-journeys/send-time-optimization.md)
+   >Pour suivre le comportement de vos destinataires par le biais des ouvertures de notifications push et/ou les interactions avec celles-ci, assurez-vous que les options dédiées dans la section de tracking sont activées dans l’[activité E-mail](../building-journeys/journey-action.md).
 
-   Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
-
-1. Dans l’écran de configuration de parcours, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu push. [Créer une notification push](design-push.md)
-
-1. Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement pour prévisualiser son contenu.
-
-1. Lorsque votre notification push est prête, effectuez la configuration de votre [parcours](../building-journeys/journey-gs.md) pour l’envoyer.
-
-   Pour suivre le comportement de vos destinataires par le biais des ouvertures de notifications push et/ou les interactions avec celles-ci, assurez-vous que les options dédiées dans la section de tracking sont activées dans l’[activité E-mail](../building-journeys/journeys-message.md).
+Pour plus d’informations sur la création, la configuration et la publication d’un parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!TAB Ajouter une notification push à une campagne]
 
@@ -89,18 +105,20 @@ Pour créer une notification push, procédez comme suit :
 
 1. Dans l’écran de configuration de la campagne, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu push. [Créer une notification push](design-push.md)
 
-1. Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement pour prévisualiser son contenu.
+1. Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement pour prévisualiser son contenu. [Voici comment procéder](send-push.md)
 
 1. Lorsque votre notification push est prête, effectuez la configuration de votre [campagne](../campaigns/create-campaign.md) pour l’envoyer.
 
    Pour suivre le comportement de vos destinataires par le biais des ouvertures de notifications push et/ou les interactions avec celles-ci, assurez-vous que les options dédiées dans la section de tracking sont activées dans la [campagne](../campaigns/create-campaign.md).
+
+Pour plus d’informations sur la création, la configuration et l’activation d’une campagne, consultez [cette page](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
 **Rubriques connexes**
 
 * [Configuration du canal push](push-gs.md)
-* [Ajouter un message dans un parcours](../building-journeys/journeys-message.md)
+* [Ajouter un message dans un parcours](../building-journeys/journey-action.md)
 
 ## Mode de diffusion rapide {#rapid-delivery}
 

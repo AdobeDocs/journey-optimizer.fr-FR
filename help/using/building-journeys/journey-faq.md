@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide, orchestration
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 93%
@@ -229,7 +229,7 @@ Oui. Journey Optimizer comprend des **actions de canal intégrées** qui vous pe
 
 Pour les canaux non pris en charge en mode natif, vous pouvez utiliser des **actions personnalisées** pour intégrer des plateformes de messagerie externes et envoyer des messages via n’importe quel canal tiers.
 
-En savoir plus sur les [messages dans les parcours](journeys-message.md) et les [actions personnalisées](using-custom-actions.md).
+En savoir plus sur les [messages dans les parcours](journey-action.md) et les [actions personnalisées](using-custom-actions.md).
 
 +++
 
@@ -265,7 +265,7 @@ Créez un **parcours déclenché par un événement unitaire** :
 
 Le parcours se déclenche automatiquement à chaque réception d’un événement d’achat, envoyant l’e-mail de confirmation en temps réel.
 
-En savoir plus sur la [configuration d’événement](../event/about-events.md) et les [actions d’e-mail](journeys-message.md).
+En savoir plus sur la [configuration d’événement](../event/about-events.md) et les [actions d’e-mail](journey-action.md).
 
 +++
 
@@ -300,7 +300,7 @@ Créez un parcours déclenché par un événement à l’aide d’un événement
 
 >[!IMPORTANT]
 >
->Les événements de **[!UICONTROL réaction]** doivent être placés immédiatement après les [actions de canal](journeys-message.md). Ne placez pas d’activités d’**[!UICONTROL attente]** entre l’action de canal et l’activité de **[!UICONTROL réaction]**.
+>Les événements de **[!UICONTROL réaction]** doivent être placés immédiatement après les [actions de canal](journey-action.md). Ne placez pas d’activités d’**[!UICONTROL attente]** entre l’action de canal et l’activité de **[!UICONTROL réaction]**.
 
 En savoir plus sur les [cas d’utilisation de parcours](jo-use-cases.md) et les [événements de réaction](reaction-events.md).
 
@@ -606,7 +606,7 @@ Oui. Utilisez une **[activité de condition](condition-activity.md)** pour achem
 * Utilisez des [surfaces de canal](../configuration/channel-surfaces.md) pour gérer les configurations de canal.
 * Testez tous les chemins pour garantir une diffusion correcte des messages.
 
-En savoir plus sur les [conditions](condition-activity.md), les [actions de message](journeys-message.md) et la [sélection de canal](../channels/gs-channels.md).
+En savoir plus sur les [conditions](condition-activity.md), les [actions de message](journey-action.md) et la [sélection de canal](../channels/gs-channels.md).
 
 +++
 
@@ -932,7 +932,7 @@ En savoir plus sur la [conception de parcours](using-the-journey-designer.md) et
 * Utilisez le [mode test](testing-the-journey.md) et le [test à blanc](journey-dry-run.md) pour valider les performances avant la publication.
 * Minimisez les appels API externes par le biais d’[actions personnalisées](using-custom-actions.md) pour éviter de la latence et la dépendance à des systèmes tiers.
 * Stocker les données fréquemment utilisées dans les [!DNL Adobe Experience Platform] à l’aide de la [recherche de jeu de données](dataset-lookup.md) au lieu d’effectuer des appels externes, si possible
-* Examinez et optimisez les performances des [diffusions des messages](journeys-message.md).
+* Examinez et optimisez les performances des [diffusions des messages](journey-action.md).
 
 En savoir plus sur les [mécanismes de sécurisation et les limitations](../start/guardrails.md).
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 98%
+source-wordcount: '1187'
+ht-degree: 82%
 
 ---
 
@@ -31,23 +31,35 @@ Pour créer un e-mail dans [!DNL Journey Optimizer], ajoutez une action d’**[!
 
 >[!TAB Ajouter un e-mail à un parcours]
 
-1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL E-mail]** depuis la section **[!UICONTROL Actions]** de la palette.
+1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
 
-   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
+   >[!IMPORTANT]
+   >
+   >Tous les canaux natifs étant désormais accessibles par le biais de l’activité Action , les activités de canal natives héritées seront abandonnées avec la version de mars. Les parcours existants qui incluent des actions héritées continueront à fonctionner en l’état. Aucune migration n’est requise.
 
-1. Fournissez des informations de base sur votre message (libellé, description, catégorie).
-
-1. Sélectionnez ou créez la [configuration du canal e-mail](email-settings.md).
+1. Sélectionnez **[!UICONTROL E-mail]** comme type d’action.
 
    ![](assets/email_journey.png)
 
-   Par défaut, le champ est prérempli avec la dernière configuration utilisée par l’utilisateur ou l’utilisatrice pour ce canal.
+1. Saisissez un **[!UICONTROL Libellé]** pour identifier votre action dans la zone de travail du parcours.
 
->[!NOTE]
->
->Vous pouvez utiliser l’option Optimisation de l’heure d’envoi pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. [Découvrez comment utiliser l’optimisation de l’heure d’envoi](../building-journeys/send-time-optimization.md)
+1. Cliquez sur le bouton **[!UICONTROL Configurer l’action]**.
 
-Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
+1. Vous accédez à l’onglet **[!UICONTROL Actions]**. À partir de là, sélectionnez ou créez la configuration d’e-mail à utiliser. [En savoir plus](email-settings.md)
+
+   ![](assets/email-action-config.png)
+
+1. En outre :
+
+   * Vous pouvez appliquer des règles de limitation à votre action e-mail en sélectionnant un jeu de règles dans la liste déroulante **[!UICONTROL Règles métier]**. [En savoir plus](../conflict-prioritization/channel-capping.md)
+
+   * Vous pouvez utiliser l’option **[!DNL Send time optimization]** pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. [Voici comment procéder](../building-journeys/send-time-optimization.md)
+
+1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et créez votre contenu selon vos besoins à l’aide du Designer d’e-mail. [En savoir plus](#define-email-content)
+
+1. Revenez à la zone de travail parcours. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md)
+
+Pour plus d’informations sur la création, la configuration et la publication d’un parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!TAB Ajouter un e-mail à une campagne]
 
@@ -68,8 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-
-Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
+Pour plus d’informations sur la création, la configuration et l’activation d’une campagne, consultez [cette page](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -182,7 +193,7 @@ Une fois votre e-mail prêt, effectuez la configuration de votre [parcours](../b
 
 >[!NOTE]
 >
->Pour suivre le comportement de vos destinataires par le biais d’ouvertures d’e-mails et/ou d’interactions avec des e-mail,s assurez-vous que les options dédiées dans la section **[!UICONTROL Tracking]** sont activées dans l’[activité E-mail](../building-journeys/journeys-message.md) du parcours ou dans la [campagne](../campaigns/create-campaign.md) par e-mail.<!--to move?-->
+>Pour suivre le comportement de vos destinataires par le biais d’ouvertures d’e-mails et/ou d’interactions avec des e-mail,s assurez-vous que les options dédiées dans la section **[!UICONTROL Tracking]** sont activées dans l’[activité E-mail](../building-journeys/journey-action.md) du parcours ou dans la [campagne](../campaigns/create-campaign.md) par e-mail.<!--to move?-->
 
 <!--
 

@@ -7,8 +7,9 @@ feature: Journeys, Reporting
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: parcours, événements d’étape, analyse, rapports, surveillance, XDM
-source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
-workflow-type: ht
+exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 100%
 
@@ -20,7 +21,7 @@ Les événements d’étape de parcours sont des événements générés automat
 
 ## Présentation des événements d’étape de parcours {#what-are-step-events}
 
-Les événements d’étape de parcours sont des événements [XDM (modèle de données d’expérience)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"} générés par le système et automatiquement créés et envoyés par Adobe Journey Optimizer à [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} chaque fois qu’un profil passe d’un nœud à un autre dans un parcours. Chaque événement correspond à une [activité de parcours](../building-journeys/about-journey-activities.md) spécifique ou à une transition dans l’expérience de parcours du client ou de la cliente.
+Les événements d’étape de parcours sont des événements [XDM (modèle de données d’expérience)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} générés par le système et automatiquement créés et envoyés par Adobe Journey Optimizer à [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} chaque fois qu’un profil passe d’un nœud à un autre dans un parcours. Chaque événement correspond à une [activité de parcours](../building-journeys/about-journey-activities.md) spécifique ou à une transition dans l’expérience de parcours du client ou de la cliente.
 
 Il existe deux principaux types d’événements d’étape de parcours :
 
@@ -32,7 +33,7 @@ Il existe deux principaux types d’événements d’étape de parcours :
 Les événements d’étape de parcours sont générés automatiquement pour diverses activités de parcours :
 
 - **Événements d’entrée** : lorsqu’un profil [rejoint un parcours](../building-journeys/entry-management.md).
-- **Exécution d’action** : lorsque des [messages sont envoyés](../building-journeys/journeys-message.md) ou que des [actions personnalisées](../building-journeys/using-custom-actions.md) sont effectuées.
+- **Exécution d’action** : lorsque des [messages sont envoyés](../building-journeys/journey-action.md) ou que des [actions personnalisées](../building-journeys/using-custom-actions.md) sont effectuées.
 - **Évaluation des conditions** : lorsque les profils passent par des [conditions](../building-journeys/condition-activity.md) et des points de décision.
 - **Activités d’attente** : lorsque les profils rejoignent et quittent des [nœuds d’attente](../building-journeys/wait-activity.md).
 - **Événements de sortie** : lorsque les profils terminent ou [quittent un parcours ](../building-journeys/end-journey.md)
@@ -72,7 +73,7 @@ Les événements d’étape de parcours fournissent une valeur essentielle aux o
 
 Les données d’événement d’étape de parcours sont automatiquement stockées dans Adobe Experience Platform. Voici comment y accéder :
 
-1. **Requêtes du lac de données** : utilisez SQL pour interroger le jeu de données `journey_step_events` avec [Query Service](https://experienceleague.adobe.com/fr/docs/experience-platform/query/home){target="_blank"}.
+1. **Requêtes du lac de données** : utilisez SQL pour interroger le jeu de données `journey_step_events` avec le [service de requête](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}.
 2. **Customer Journey Analytics** : analysez des données de parcours au moyen d’[outils d’analyse avancés](cja-ajo.md).
 3. **Reporting en temps réel** : accédez aux données par le biais des [fonctionnalités de reporting intégrées](gs-reports.md) de Journey Optimizer.
 4. **API** : accédez par programme aux données d’événement pour les applications personnalisées.

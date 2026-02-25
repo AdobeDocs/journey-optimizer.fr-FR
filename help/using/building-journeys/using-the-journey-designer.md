@@ -10,7 +10,7 @@ level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 96%
@@ -102,7 +102,7 @@ Les autres activités vous permettent d’ajouter des conditions à votre parcou
 
 Les actions sont ce que vous voulez qu’il se produise à la suite d’un déclencheur, comme l’envoi d’un message. C’est le parcours que le client ou la cliente effectue. Il peut s’agir d’un e-mail, d’un SMS ou d’un message push ou d’une action tierce, telle qu’un message Slack.
 
-Les activités d’action de canal vous permettent d’inclure un message conçu dans [!DNL Journey Optimizer]. [En savoir plus sur les activités d’action de canal](journeys-message.md)
+Les activités d’action de canal vous permettent d’inclure un message conçu dans [!DNL Journey Optimizer]. [En savoir plus sur les activités d’action de canal](journey-action.md)
 
 À partir des activités d’action, utilisez des actions personnalisées pour envoyer des messages avec des systèmes tiers. [En savoir plus sur les actions personnalisées](about-journey-activities.md#action-activities).
 

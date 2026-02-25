@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 97%
@@ -86,7 +86,7 @@ Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des 
 | [Attente](wait-activity.md) | Même comportement que dans un parcours actif. |
 | [Condition](condition-activity.md) | Même comportement que dans un parcours actif. |
 | [Décision de contenu](content-decision.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
-| [Action de canal](journeys-message.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
+| [Action de canal](journey-action.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
 | [Action personnalisée](../action/action.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
 | [Mettre à jour le profil](update-profiles.md) et [Sauter](jump.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
 | [Source de données externe](../datasource/external-data-sources.md) | Même comportement que dans un parcours actif. |

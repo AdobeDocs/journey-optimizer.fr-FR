@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 97%
@@ -143,7 +143,7 @@ Notez qu’une fois vos préférences linguistiques configurées, vous n’aurez
 
 Après avoir configuré votre contenu multilingue, vous pouvez concevoir votre campagne ou votre parcours et personnaliser le contenu de chacun des paramètres régionaux sélectionnés.
 
-1. Commencez par créer et configurer votre [parcours](../building-journeys/journeys-message.md) ou [campagne](../campaigns/create-campaign.md) d’e-mails, de SMS ou de notifications push selon vos besoins.
+1. Commencez par créer et configurer votre [parcours](../building-journeys/journey-action.md) ou [campagne](../campaigns/create-campaign.md) d’e-mails, de SMS ou de notifications push selon vos besoins.
 
    >[!IMPORTANT]
    >

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1927'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 ## Créer votre contenu {#campaign-experiment}
 
-1. Commencez par créer et configurer votre [campagne](../campaigns/create-campaign.md) ou votre [parcours](../building-journeys/journeys-message.md) en fonction de vos besoins.
+1. Commencez par créer et configurer votre [campagne](../campaigns/create-campaign.md) ou votre [parcours](../building-journeys/journey-action.md) en fonction de vos besoins.
 
 1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, commencez à personnaliser votre traitement A.
 
@@ -108,9 +108,9 @@ Pour votre expérience de contenu, vous pouvez choisir entre trois types d’exp
 
    >[!CAUTION]
    >
-   >Lors de la création d’une expérience basée sur le code, notez les restrictions suivantes :
-   >* **Nombre de traitements** : la création de plus de 3 à 5 traitements peut entraîner des problèmes de performances et d’interface. Si vous rencontrez des erreurs lors de l’ajout de traitements, essayez de réduire le nombre de traitements ou ajoutez-les de manière incrémentielle jusqu’à ce que le problème soit résolu.
-   >* **Mots-clés réservés** : évitez d’utiliser des mots-clés réservés tels que « holdout » dans vos noms de traitement, car cela peut entraîner des erreurs de mappage des nœuds de décision et empêcher le bon fonctionnement de l’expérience.
+   >Lors de la création d’une expérience basée sur du code, notez les restrictions suivantes :
+   >* **Nombre de traitements** : la création de plus de 3 à 5 traitements peut entraîner des problèmes de performances et d’interface. Si vous rencontrez des erreurs lors de l’ajout de traitements, essayez de réduire le nombre de traitements ou ajoutez-les de manière incrémentielle jusqu’à ce que le problème soit résolu.
+   >* **Mots-clés réservés** : évitez d’utiliser des mots-clés réservés tels que « Exclusion » dans vos noms de traitement, car cela peut entraîner des erreurs de mappage des nœuds de décision et empêcher le bon fonctionnement de l’expérience.
 
 1. Modifiez le **[!UICONTROL Titre]** de votre traitement pour mieux les différencier.
 
@@ -234,7 +234,7 @@ Notez que l’expérience Apporter votre propre bandit manchot n’est disponibl
 
    ![](assets/content_experiment_19.png)
 
-1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** afin de contrôler le rendu de votre diffusion et vérifiez les paramètres de personnalisation avec les profils de test. [En savoir plus](../content-management/preview-test.md).
+1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** afin de contrôler le rendu de votre diffusion et vérifiez les paramètres de personnalisation avec les profils de test. [En savoir plus](../content-management/preview-test.md)
 
 Après avoir paramétré votre expérimentation, vous pouvez suivre le succès de votre diffusion avec votre rapport. [En savoir plus](../reports/campaign-global-report-cja-experimentation.md)
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
-workflow-type: ht
-source-wordcount: '2076'
-ht-degree: 100%
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+workflow-type: tm+mt
+source-wordcount: '2178'
+ht-degree: 90%
 
 ---
 
@@ -31,23 +31,31 @@ Notez que les messages in-app ne sont pas affectés par le choix de l’utilisat
 
 Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
-1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL In-app]** depuis la section **[!UICONTROL Actions]** de la palette.
+1. Ouvrez votre [parcours ](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
 
-   Lorsqu’un profil atteint la fin de son parcours, tous les messages in-app qui lui sont affichés expirent automatiquement. Pour cette raison, une activité d’attente est automatiquement ajoutée après votre activité in-app afin d’assurer un timing correct.
+   >[!IMPORTANT]
+   >
+   >Tous les canaux natifs étant désormais accessibles par le biais de l’activité Action , les activités de canal natives héritées seront abandonnées avec la version de mars. Les parcours existants qui incluent des actions héritées continueront à fonctionner en l’état. Aucune migration n’est requise.
+
+1. Sélectionnez **[!UICONTROL In-app]** comme type d’action.
 
    ![](assets/in_app_journey_1.png)
 
-1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
+   >[!NOTE]
+   >
+   >Lorsqu’un profil atteint la fin de son parcours, tous les messages in-app qui lui sont affichés expirent automatiquement. Pour cette raison, une activité **Attente** de 3 jours est automatiquement ajoutée après votre action in-app afin d’assurer un timing correct. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Choisissez la [configuration in-app](inapp-configuration.md#channel-prerequisites) à utiliser.
+1. Saisissez un **[!UICONTROL Libellé]** pour identifier votre action dans la zone de travail du parcours.
+
+1. Cliquez sur le bouton **[!UICONTROL Configurer l’action]**.
+
+1. Vous accédez à l’onglet **[!UICONTROL Actions]**. À partir de là, sélectionnez ou créez la configuration in-app à utiliser. [En savoir plus](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
-1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-in-app.md).
+1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et créez votre contenu selon vos besoins. [En savoir plus](design-in-app.md)
 
-1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs et utilisatrices de spécifier des critères et des valeurs qui, lorsqu’ils sont satisfaits, déclenchent un ensemble d’actions, telles que l’envoi d’un message in-app.
-
-   ![](assets/in_app_journey_4.png)
+1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs et utilisatrices de spécifier des critères et des valeurs qui, lorsqu’ils sont remplis, déclenchent un ensemble d’actions, telles que l’envoi d’un message in-app. [En savoir plus](design-in-app.md)
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
@@ -113,11 +121,11 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
       * **[!UICONTROL Afficher une fois]** : ce message s’affiche une seule fois par session utilisateur et reste visible dans toutes les fenêtres ou activités jusqu’à sa fermeture. Pour le limiter à un certain écran ou le faire disparaître automatiquement, utilisez une logique personnalisée avec le délégué de messagerie.
       * **[!UICONTROL Afficher jusqu’au clic]** : afficher ce message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action « faisant l’objet d’un clic ».
 
-1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
+1. Vous pouvez ajouter une ou plusieurs actions entrantes à votre message in-app en cliquant sur le bouton **[!UICONTROL Ajouter une action]**. [En savoir plus](../building-journeys/journey-action.md#multi-action)
 
-1. Une fois votre message in-app prêt, finalisez la configuration et publiez votre parcours pour l’activer.
+1. Revenez à la zone de travail parcours. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md)
 
-Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
+Pour plus d’informations sur la création, la configuration et la publication d’un parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!NOTE]
 >
@@ -151,7 +159,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
    ![](assets/in_app_create_1.png)
 
-1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md).
+1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md)
 
 1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs et utilisatrices de spécifier des critères et des valeurs qui, lorsqu’ils sont satisfaits, déclenchent un ensemble d’actions, telles que l’envoi d’un message in-app.
 
@@ -224,19 +232,21 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
    ![](assets/in-app-schedule.png)
 
-1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-in-app.md).
+1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 
+Pour plus d’informations sur la création, la configuration et l’activation d’une campagne, consultez [cette page](../campaigns/get-started-with-campaigns.md).
+
 >[!ENDTABS]
 
-## Tutoriels vidéo{#video}
+## Vidéos pratiques{#video}
 
 * La vidéo ci-dessous montre comment créer, configurer et publier des messages in-app dans vos campagnes.
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451884?captions=fre_fr&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +254,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445290/?captions=fre_fr&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -252,7 +262,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451832/?captions=fre_fr&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 

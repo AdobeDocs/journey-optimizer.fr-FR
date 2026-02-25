@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 73%
+source-wordcount: '717'
+ht-degree: 72%
 
 ---
 
@@ -43,7 +43,7 @@ Les activités d’orchestration sont des conditions qui permettent de détermin
 
 Les activités d’orchestration ci-dessous sont disponibles dans la palette située dans la partie gauche de l’écran :
 
-<!--* [Optimize](optimize.md)-->
+* [Optimiser](optimize.md)
 * [Lecture d’audience](read-audience.md)
 * [Attente](wait-activity.md)
 * [Décision de contenu](content-decision.md)
@@ -57,7 +57,7 @@ Les actions sont ce que vous souhaitez qu’il se produise à la suite d’un d�
 
 La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la partie gauche de l’écran, sous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration]**. Les activités d’action suivantes sont disponibles :
 
-* [Actions de canal intégrées](../building-journeys/journeys-message.md)
+* [Actions de canal intégrées](../building-journeys/journey-action.md) disponible à partir de l’activité **Action**
 * [Actions personnalisées](../building-journeys/using-custom-actions.md)
 * [Saut](../building-journeys/jump.md)
 
@@ -111,7 +111,7 @@ Dans certains contextes précis, vous pouvez remplacer les valeurs de ces param�
 
 ### Ajouter un chemin d’accès alternatif
 
-Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un chemin alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
+Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un chemin alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths)
 
 ![Option Ajouter un chemin alternatif dans les propriétés de l’activité Condition](assets/journey42.png)
 
@@ -121,4 +121,4 @@ Avant de tester et de publier votre parcours, vérifiez que toutes les activité
 
 Découvrez [dans cette page](troubleshooting.md) comment résoudre les erreurs dans les activités et dans le parcours.
 
-Voir aussi **[Surveillance et dépannage](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**.
+Voir aussi [ Surveillance et dépannage ](../../rp_landing_pages/troubleshoot-journey-landing-page.md)

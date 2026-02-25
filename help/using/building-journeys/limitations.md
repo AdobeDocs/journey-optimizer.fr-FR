@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, limitation
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 91%
@@ -51,7 +51,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 ## Limites des événements de réaction {#reaction-limitations}
 
-* Les activités **[!UICONTROL Réaction]** doivent être placées immédiatement après une activité [action de canal](../building-journeys/journeys-message.md) dans la zone de travail du parcours. Le placement d’une activité **[!UICONTROL Attente]** ou de toute autre activité entre l’action de canal et l’activité **[!UICONTROL Réaction]** n’est pas pris en charge et peut entraîner un dysfonctionnement de la réaction. En savoir plus dans [cette section](../building-journeys/reaction-events.md).
+* Les activités **[!UICONTROL Réaction]** doivent être placées immédiatement après une activité [action de canal](../building-journeys/journey-action.md) dans la zone de travail du parcours. Le placement d’une activité **[!UICONTROL Attente]** ou de toute autre activité entre l’action de canal et l’activité **[!UICONTROL Réaction]** n’est pas pris en charge et peut entraîner un dysfonctionnement de la réaction. En savoir plus dans [cette section](../building-journeys/reaction-events.md).
 
 ## Limites des sources de données {#data-sources-limitations}
 

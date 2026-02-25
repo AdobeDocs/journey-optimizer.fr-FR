@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, événements, réaction, tracking, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 94%
@@ -40,7 +40,7 @@ Vous pouvez également utiliser l’activité de **[!UICONTROL réaction]** pour
 
 Pour configurer les événements de réaction, procédez comme suit :
 
-1. Placez une activité de **[!UICONTROL réaction]** **immédiatement** après une [activité d’action de canal](journeys-message.md) sur la zone de travail du parcours.
+1. Placez une activité de **[!UICONTROL réaction]** **immédiatement** après une [activité d’action de canal](journey-action.md) sur la zone de travail du parcours.
 1. Ajoutez un **[!UICONTROL libellé]** à la réaction. Cette étape est facultative.
 1. Dans la liste déroulante, sélectionnez l’activité d’action à laquelle vous souhaitez réagir. Vous pouvez sélectionner toute activité d’action figurant dans les étapes précédentes du chemin.
 1. Selon l’action que vous avez sélectionnée, choisissez ce à quoi vous souhaitez réagir.
@@ -48,7 +48,7 @@ Pour configurer les événements de réaction, procédez comme suit :
 
 ## Mécanismes de sécurisation et limitations {#guardrails-limitations}
 
-* Une activité de **[!UICONTROL réaction]** doit être placée **immédiatement** après une [activité d’action de canal](journeys-message.md) dans la zone de travail du parcours.
+* Une activité de **[!UICONTROL réaction]** doit être placée **immédiatement** après une [activité d’action de canal](journey-action.md) dans la zone de travail du parcours.
 * Vous ne pouvez pas utiliser une activité de **[!UICONTROL réaction]** s’il n’y a aucune activité d’action de canal placée avant elle.
 * Le placement d’une activité d’**[!UICONTROL attente]** ou de toute autre activité entre l’action de canal et l’activité de **[!UICONTROL réaction]** n’est pas pris en charge et peut entraîner un dysfonctionnement de la réaction.
 * Les événements de réaction ne peuvent suivre que les messages envoyés dans le même parcours. Ils ne peuvent pas suivre les messages qui se produisent dans un autre parcours.

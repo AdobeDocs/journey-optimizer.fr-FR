@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1249'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ L’utilisation des jeux de règles de canal vous permet de définir un capping 
 
 >[!IMPORTANT]
 >
->Pour garantir le bon fonctionnement de la limitation au niveau du canal, veillez à choisir l’espace de noms avec la priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le [guide sur le Service d’identités Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}.
+>Pour garantir le bon fonctionnement de la limitation au niveau du canal, veillez à choisir l’espace de noms avec la priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le [guide sur le service d’identités Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}.
 
 ## Créer une règle de limitation de canal
 
@@ -130,7 +130,7 @@ Lors du test des règles de fréquence, il est recommandé d’utiliser un nouve
 
 >[!CAUTION]
 >
->Les règles de limitation de la fréquence s’appliquent également lors de l’envoi de [BAT](../content-management/proofs.md). Si un profil de test a déjà atteint la limite de fréquence, les BAT s&#39;affichent comme terminés, mais aucun e-mail ne sera diffusé.
+>Les règles de capping de la fréquence s’appliquent également lors de l’envoi de [BAT](../content-management/proofs.md). Si un profil de test a déjà atteint la limite de capping de la fréquence, les BAT s’affichent comme terminés, mais aucun e-mail ne sera diffusé.
 
 <!--add a new section for default priority namespace.-->
 
@@ -155,7 +155,7 @@ You can combine several message frequency rules, such as described in the exampl
 
 1. Save and [activate](#activate-rule) the rule.
 
-1. [Create a message](../building-journeys/journeys-message.md) for every channel you want to communicate through and select the **[!UICONTROL Marketing]** category for each message. [Learn how to apply a frequency rule](#apply-frequency-rule)
+1. [Create a message](../building-journeys/journey-action.md) for every channel you want to communicate through and select the **[!UICONTROL Marketing]** category for each message. [Learn how to apply a frequency rule](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -165,4 +165,4 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

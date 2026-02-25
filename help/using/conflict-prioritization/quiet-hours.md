@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 81%
 
 ---
-
 
 # Définir des heures creuses {#quiet-hours}
 
@@ -133,7 +133,7 @@ Une fois votre règle enregistrée et l’ensemble de règles activé, vous pouv
 
 >[!TAB Appliquer des actions de canal des heures creuses dans les parcours]
 
-1. Ouvrez votre parcours, sélectionnez une [action de canal](../building-journeys/journeys-message.md) et modifiez le contenu de votre message.
+1. Ouvrez votre parcours, sélectionnez une [action de canal](../building-journeys/journey-action.md) et modifiez le contenu de votre message.
 1. Cliquez sur le bouton **[!UICONTROL Ajouter une règle métier]** et sélectionnez l’ensemble de règles contenant la règle d’heures creuses.
 
    ![](assets/quiet-hours-apply.png)
@@ -192,4 +192,4 @@ Une fois vos campagnes ou votre parcours activés et exécutés, vous pouvez vis
 
 Découvrez comment utiliser la fonctionnalité des heures creuses dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475854?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

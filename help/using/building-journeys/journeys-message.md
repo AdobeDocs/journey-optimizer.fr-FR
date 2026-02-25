@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 92%
+source-wordcount: '615'
+ht-degree: 82%
 
 ---
 
@@ -24,13 +24,15 @@ ht-degree: 92%
 >title="Action de canal intégrée"
 >abstract="Journey Optimizer est fourni avec des fonctionnalités d’actions de canal intégrées. Vous pouvez simplement ajouter à votre parcours une activité de message (e-mail, message texte (SMS/MMS), push, courrier) ou une expérience entrante (expérience in-app, web, basée sur un code, carte de contenu), puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
 
-[!DNL Journey Optimizer] est fourni avec des fonctionnalités d’action de canal intégrées qui sont utilisées pour envoyer des messages : lorsqu’un profil entre dans cette activité, un message lui est envoyé.
+[!DNL Journey Optimizer] est fourni avec des fonctionnalités d’action de canal intégrées qui sont utilisées pour envoyer des messages. Pour ajouter une action de canal intégrée à votre parcours, faites glisser et déposez une activité de canal, puis définissez ses paramètres et son contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
 
-Pour ajouter une action de canal intégrée à votre parcours, faites glisser et déposez une activité de canal, puis définissez ses paramètres et son contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
+Tous les canaux natifs sont désormais également accessibles par le biais de l’activité **Action**, qui est la méthode recommandée pour ajouter une action de canal intégrée à votre parcours. [En savoir plus](journey-action.md)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [En savoir plus](#recommendation)
+>Les activités de canal natives héritées seront abandonnées avec la version de mars. Les parcours existants qui incluent des actions héritées continueront à fonctionner en l’état. Aucune migration n’est requise.
+
+Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [En savoir plus](#recommendation)
 
 ## Ajouter un message dans un parcours  {#add-msg-in-journey}
 

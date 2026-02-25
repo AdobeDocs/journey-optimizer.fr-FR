@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 97%
+source-wordcount: '1619'
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,13 @@ Pour ajouter une activité **Web** pour un parcours, procédez comme suit :
 
 1. Débutez votre parcours avec une activité [Événement](../building-journeys/general-events.md) ou [Lecture d’audience](../building-journeys/read-audience.md).
 
-1. Faites glisser et déposez une activité **[!UICONTROL Web]** depuis la section **[!UICONTROL Actions]** de la palette.
+1. Effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Tous les canaux natifs étant désormais accessibles par le biais de l’activité Action , les activités de canal natives héritées seront abandonnées avec la version de mars. Les parcours existants qui incluent des actions héritées continueront à fonctionner en l’état. Aucune migration n’est requise.
+
+1. Sélectionnez **[!UICONTROL Web]** comme type d’action.
 
    ![](assets/web-activity-journey.png)
 
@@ -53,19 +59,21 @@ Pour ajouter une activité **Web** pour un parcours, procédez comme suit :
    >
    >**Web** est une activité d’expérience entrante. Dès lors, elle s’accompagne d’une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
+1. Saisissez un **[!UICONTROL Libellé]** pour identifier votre action dans la zone de travail du parcours.
 
-1. Sélectionnez ou créez la [configuration web](web-configuration.md) à utiliser.
+1. Cliquez sur le bouton **[!UICONTROL Configurer l’action]**.
+
+1. Vous accédez à l’onglet **[!UICONTROL Actions]**. À partir de là, sélectionnez ou créez la [configuration web](web-configuration.md) à utiliser.
 
    ![](assets/web-activity-configuration.png)
 
+1. Vous pouvez ajouter une ou plusieurs actions entrantes à votre expérience web en cliquant sur le bouton **[!UICONTROL Ajouter une action]**. [En savoir plus](../building-journeys/journey-action.md#multi-action)
+
+1. Revenez à la zone de travail parcours. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md)
+
 1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et modifiez votre contenu selon vos besoins. [En savoir plus](#edit-web-content)
 
-1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
-
-1. Une fois votre expérience web prête, finalisez la configuration et publiez votre parcours pour l’activer. [En savoir plus](../building-journeys/publish-journey.md)
-
-Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
+Pour plus d’informations sur la création, la configuration et la publication d’un parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!TAB Créer une campagne web]
 
@@ -216,7 +224,7 @@ Le statut de votre parcours web est alors **[!UICONTROL Actif]** et il est déso
 
 ### Activer une campagne web {#activate-web-campaign}
 
-Une fois que vous avez défini vos paramètres de campagne web et que vous avez modifié votre contenu selon vos besoins, vous pouvez examiner et activer votre campagne web. Suivez les étapes ci-dessous.
+Une fois que vous avez défini vos paramètres de campagne web et que vous avez modifié votre contenu selon vos besoins, vous pouvez examiner et activer votre campagne web. Suivez les étapes ci-après.
 
 1. Dans votre campagne web, sélectionnez **[!UICONTROL Examiner pour activer]**.
 
@@ -230,19 +238,19 @@ Une fois que vous avez défini vos paramètres de campagne web et que vous avez 
    >
    >En savoir plus sur l’activation des campagnes dans [cette section](../campaigns/review-activate-campaign.md).
 
-Votre campagne web passe au statut **[!UICONTROL Actif]** [&#128279;](../campaigns/manage-campaigns.md#statuses) et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre site web.
+Votre campagne web prend le [statut](../campaigns/manage-campaigns.md#statuses) **[!UICONTROL Actif]** et est maintenant visible par l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre site web.
 
 >[!NOTE]
 >
 >Après avoir cliqué sur **[!UICONTROL Activer]**, les modifications des campagnes web peuvent prendre jusqu’à 15 minutes pour être disponibles en direct sur votre site web.
 >
->Si vous avez défini un planning pour votre campagne web, celle-ci conserve le statut **[!UICONTROL Planifié]** [statut](../campaigns/manage-campaigns.md#statuses) jusqu’à ce que la date et l’heure de début soient atteintes.
+>Si vous avez défini un planning pour votre campagne web, celle-ci conserve le [statut](../campaigns/manage-campaigns.md#statuses) **[!UICONTROL Planifié]** jusqu’à ce que la date et l’heure de début soient atteintes.
 
 Une fois votre expérience mise en ligne, vous pouvez surveiller vos parcours web et vos campagnes web. [En savoir plus](monitor-web-experiences.md)
 
 ## Arrêter un parcours ou une campagne web {#stop-web-experience}
 
-Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter afin d’empêcher votre audience de voir vos modifications. Suivez les étapes ci-dessous.
+Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter afin d’empêcher votre audience de voir vos modifications. Suivez les étapes ci-après.
 
 1. Sélectionnez une campagne active ou un parcours actif dans la liste correspondante.
 
@@ -266,4 +274,4 @@ Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter
 
 La vidéo ci-dessous montre comment créer une campagne web, configurer ses propriétés, la réviser et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449983/?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

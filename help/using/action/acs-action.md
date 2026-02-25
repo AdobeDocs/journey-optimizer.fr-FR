@@ -9,8 +9,8 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign, standard, intégration, limitation, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Le message transactionnel Campaign Standard et son événement associé doivent
 
 * Vous ne pouvez pas utiliser une action de Campaign Standard avec une activité de qualification d’audience ou de lecture d’audience.
 
-* Un parcours ne peut pas utiliser à la fois des [actions de canal intégrées](../building-journeys/journeys-message.md) et des [actions de Campaign Standard](../building-journeys/using-adobe-campaign-standard.md).
+* Un parcours ne peut pas utiliser à la fois des [actions de canal intégrées](../building-journeys/journey-action.md) et des [actions de Campaign Standard](../building-journeys/using-adobe-campaign-standard.md).
 
 ## Configurer l’action {#configure-action}
 
