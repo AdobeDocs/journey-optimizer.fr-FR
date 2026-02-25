@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 95%
@@ -129,7 +129,7 @@ Pour définir des critères directement à partir de l’interface, procédez co
 
 1. Cliquez sur **[!UICONTROL Créer]** pour terminer votre formule de classement. Vous pouvez maintenant la sélectionner dans la liste pour en afficher les détails et la modifier ou la supprimer. Elle est maintenant prête à être utilisée dans une [stratégie de sélection](../selection-strategies.md) pour classer les éléments de décision éligibles.
 
-### Exemple de formule de classement
+### Exemple de formule de classement {#ranking-formula-example}
 
 Consultez l’exemple ci-dessous.
 
