@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Interface d’utilisation
-description: Découvrez comment naviguer dans l’interface d’Adobe Journey Optimizer.
+title: Naviguer dans l’interface
+description: Découvrez comment naviguer dans l’interface de Adobe Journey Optimizer et accéder aux principales fonctions, notamment la barre supérieure, la page d’accueil et le volet de navigation de gauche.
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: b2abf39db81887aa6f183eb390a36b9f428f5ca8
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 91%
+source-wordcount: '1345'
+ht-degree: 81%
 
 ---
 
@@ -24,70 +24,18 @@ Pour accéder à Adobe Journey Optimizer, connectez-vous à [Adobe Experience Cl
 >* Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licences](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 >* Cette documentation est régulièrement mise à jour. Certaines captures d’écran peuvent être légèrement différentes de votre interface.
 
-## Visite guidée {#quick-tour}
+## Aperçu rapide {#quick-tour}
 
 L’interface de Journey Optimizer se compose de quatre zones principales :
 
-![](assets/ajo-home.png)
+![Page d&#39;accueil Journey Optimizer affichant le volet de navigation de gauche, la barre supérieure, l&#39;espace de travail principal et les zones de la page d&#39;accueil](assets/ajo-home.png)
 
 1. **Navigation de gauche** - Accédez à toutes les fonctionnalités organisées par fonction
 2. **Barre supérieure** - Recherche universelle, aide, notifications et paramètres
 3. **Page d’accueil** - Accès rapide aux éléments récents et aux ressources utiles
 4. **Espace de travail principal** - Là où vous créez et gérez votre contenu
 
-## Navigation de gauche {#left-nav}
-
-La navigation de gauche organise les fonctionnalités de Journey Optimizer en catégories fonctionnelles. Les éléments disponibles dans le menu dépendent de vos autorisations et de votre licence.
-
-### Sections principales {#main-sections}
-
-**Accueil** - Votre point de départ avec un accès rapide aux éléments récemment créés et aux ressources utiles
-
-**Gestion des parcours** - Créez et gérez des expériences client.
-* **Campagnes** - Créez des messages ponctuels ou planifiés pour des audiences spécifiques. [Commencer à utiliser les campagnes](../campaigns/get-started-with-campaigns.md)
-* **Parcours** - Créez des expériences client multi-étapes et cross-canal. [Créer votre premier parcours](../building-journeys/journey-gs.md)
-* **Rapports** - Analysez les performances à l’aide des rapports intégrés Customer Journey Analytics. [Consulter la documentation sur les rapports](../reports/campaign-global-report-cja.md)
-
-**Gestion des décisions** - Gérez les offres personnalisées. [En savoir plus sur la gestion des décisions](../offers/get-started/starting-offer-decisioning.md)
-* **Offres** - Créez et gérez des offres personnalisées.
-* **Composants** - Configurez les emplacements, les règles et les balises pour les offres.
-
-**Gestion du contenu** - Créez et organisez du contenu.
-* **Ressources** - Référentiel centralisé pour les images et les médias. [Gérer les ressources](../integrations/assets.md)
-* **Modèles de contenu** - Modèles de message réutilisables pour les campagnes et les parcours. [Créer des modèles](../content-management/content-templates.md)
-* **Fragments** - Blocs de contenu pouvant être utilisés dans plusieurs messages. [Utiliser des fragments](../content-management/fragments.md)
-* **Pages de destination** - Formulaires web pour les abonnements et les préférences. [Concevoir des pages de destination](../landing-pages/get-started-lp.md)
-* **Playbooks de cas d’utilisation** - Workflows préconfigurés pour les scénarios marketing courants. [Explorer les playbooks](ai-features.md#playbooks)
-
-**Gestion des données** - Gérez vos données. [En savoir plus sur les schémas et les jeux de données](../data/get-started-schemas.md)
-* **Schémas** - Définissez la structure des données.
-* **Jeux de données** - Stockez et gérez les collections de données.
-* **Requêtes** - Écrivez et exécutez des requêtes.
-* **Surveillance** - Surveillez l’ingestion de données.
-
-**Connexions** - Intégration à d’autres systèmes
-* **Sources** - Ingérez des données à partir de systèmes externes. [Configurer les sources](get-started-sources.md)
-* **Destinations** - Exportez les données vers l’espace de stockage dans le cloud. [Configurer des destinations](../data/export-datasets.md)
-
-**Clientes et clients** - Gérez les audiences et les profils.
-* **Audiences** - Créez et gérez des segments de clientes et de clients. [Utiliser des audiences](../audience/about-audiences.md)
-* **Listes d’abonnements** - Gérez les listes d’opt-in. [Gestion des abonnements](../landing-pages/subscription-list.md)
-* **Profils** - Affichez les profils clients unifiés. [Explorer les profils](../audience/get-started-profiles.md)
-* **Identités** - Gérez la résolution des identités. [En savoir plus sur les identités](../audience/get-started-identity.md)
-
-**Confidentialité** - Contrôlez la confidentialité et la conformité. [Vue d’ensemble de la confidentialité](../privacy/get-started-privacy.md)
-* **Politiques** - Définissez des politiques de gouvernance des données.
-* **Demandes** - Gérez les demandes d’accès aux informations personnelles (RGPD, CCPA).
-* **Audit** - Examinez les journaux d’activité. [Consulter les journaux d’activité](../privacy/audit-logs.md)
-* **Cycle de vie des données** - Configurez la conservation des données.
-
-**Administration** - Configurez les paramètres système. [Vue d’ensemble du contrôle d’accès](../administration/permissions-overview.md)
-* **Configurations** - Configurez des événements, des sources de données et des actions. [Configurer des canaux](../configuration/get-started-configuration.md)
-* **Règles métier** - Contrôlez la fréquence des messages et l’entrée dans les parcours. [Configurer des règles métier](../conflict-prioritization/rule-sets.md)
-* **Alertes** - Affichez et gérez les alertes système. [Surveiller les alertes](../reports/alerts.md)
-* **Sandbox** - Gérez les environnements et copiez des objets entre différents sandbox. [Utiliser des sandbox](../administration/sandboxes.md)
-* **Canaux** - Configurez les paramètres des canaux et la délivrabilité. [Définir des configurations de canal](../configuration/channel-surfaces.md) | [Commencer avec la configuration](../configuration/get-started-configuration.md)
-* **Balises** - Organisez et catégorisez le contenu. [Utiliser des balises unifiées](search-filter-categorize.md#tags)
+**Conseil :** les nouveaux utilisateurs peuvent commencer à partir de la page **Accueil** pour accéder aux éléments récents et aux cas d’utilisation, ou utiliser l’icône **Aide** dans la barre supérieure pour obtenir des conseils contextuels.
 
 ## Fonctionnalités de la barre supérieure {#top-bar}
 
@@ -95,9 +43,10 @@ La navigation de gauche organise les fonctionnalités de Journey Optimizer en ca
 
 Utilisez l’icône de recherche pour rechercher rapidement des parcours, des campagnes, des ressources et d’autres objets dans Journey Optimizer. Saisissez des mots-clés pour afficher les résultats pertinents issus de toutes les zones de la plateforme.
 
-### Aide et assistance {#help}
+### Aide et support {#help}
 
 Cliquez sur l’icône **Aide** pour :
+
 * Rechercher des articles et des vidéos d’aide
 * Accéder à l’aide contextuelle pour la page active
 * Contacter l’assistance Adobe
@@ -107,7 +56,7 @@ L’aide contextuelle affiche des conseils relatifs à l’écran que vous affic
 
 ![Exemple d’aide contextuelle](assets/do-not-localize/Context-help.gif)
 
-### Instructions relatives aux tickets d’assistance {#support-ticket-guidelines}
+#### Instructions relatives aux tickets d’assistance {#support-ticket-guidelines}
 
 Lorsque vous contactez l’assistance Adobe, incluez les éléments suivants pour accélérer l’analyse et la résolution des causes profondes :
 
@@ -117,9 +66,10 @@ Lorsque vous contactez l’assistance Adobe, incluez les éléments suivants pou
 * **Logs ou captures d’écran** - Messages d’erreur pertinents, identifiants de requête ou captures d’écran qui illustrent le problème
 * **ID pertinents** - ID de Parcours, ID de campagne, ID d’audience ou autres identifiants d’objet liés au problème
 
-### Notifications {#notifications}
+### Notifications {#in-product-uc}
 
 Activez les notifications dans le produit et par e-mail pour recevoir les informations suivantes :
+
 * **Alertes** - Défaillances du système et problèmes de performances
 * **Approbations** - Demandes nécessitant un examen de votre part
 * **Nouvelles versions** - Mises à jour des produits et nouvelles fonctionnalités
@@ -132,16 +82,18 @@ Pour configurer les notifications :
 
 ![Préférences des notifications](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
-### Préférences de langue {#language}
+### Préférences linguistiques {#language}
 
 L’interface est disponible en anglais, français, allemand, italien, espagnol, portugais (brésilien), japonais, coréen, chinois traditionnel et chinois simplifié.
 
 Pour modifier la langue :
 
-1. Cliquez sur **Préférences** dans le menu de votre profil.
+1. Cliquez sur **[!UICONTROL Préférences]** dans le menu de votre profil.
 2. Sélectionnez la langue de votre choix.
 3. Vous pouvez éventuellement sélectionner une deuxième langue comme langue de remplacement.
 4. Cliquez sur **Enregistrer**.
+
+Raccourcis clavier et fonctionnalités d’accessibilité sont disponibles. [En savoir plus](accessibility.md)
 
 ## Page d’accueil {#home-page}
 
@@ -151,7 +103,7 @@ La page d’accueil met à disposition les éléments suivants :
 * **Cas d’utilisation** - Scénarios préconfigurés pour vous aider à commencer à travailler rapidement (création de profils de test, envoi de messages d’anniversaire, etc.)
 * **Ressources** - Liens vers la documentation, les tutoriels et l’assistance
 
-### Cas d’utilisation internes au produit {#use-cases}
+### Cas d’utilisation et workflows de démarrage rapide {#use-cases}
 
 Les workflows de démarrage rapide vous permettent d’accomplir les tâches courantes :
 
@@ -162,9 +114,83 @@ Les workflows de démarrage rapide vous permettent d’accomplir les tâches cou
 
 Cliquez sur **[!UICONTROL Afficher les détails]** pour en savoir plus sur chaque cas d’utilisation, ou sur **[!UICONTROL Commencer]** pour démarrer.
 
-## Assistant IA {#ai-assistant}
+## Volet de navigation de gauche {#left-nav}
+
+La navigation de gauche organise les fonctionnalités de Journey Optimizer en catégories fonctionnelles. Les éléments disponibles dans le menu dépendent de vos autorisations et de votre licence.
+
+| Section | Rôle |
+|---------|---------|
+| Gestion des parcours | Campagnes, parcours, rapports |
+| Gestion des décisions | Offres et personnalisation |
+| Gestion de contenu | Assets, modèles, fragments, pages de destination |
+| Data Management | Schémas, jeux de données, requêtes |
+| Connexions | Sources et destinations |
+| Client | Audiences, profils, identités |
+| Confidentialité | Politiques, requêtes, audit |
+| Administration | Configurations, canaux, sandbox |
+
+### Sections principales {#main-sections}
+
+**Accueil** - Votre point de départ avec un accès rapide aux éléments récemment créés et aux ressources utiles
+
+**Gestion des parcours** - Créez et gérez des expériences client.
+
+* **Campagnes** - Créez des messages ponctuels ou planifiés pour des audiences spécifiques. [Commencer à utiliser les campagnes](../campaigns/get-started-with-campaigns.md)
+* **Parcours** - Créez des expériences client multi-étapes et cross-canal. [Créer votre premier parcours](../building-journeys/journey-gs.md)
+* **Rapports** - Analysez les performances à l’aide des rapports intégrés Customer Journey Analytics. [Consulter la documentation sur les rapports](../reports/campaign-global-report-cja.md)
+
+**Gestion des décisions** - Gérez les offres personnalisées. [En savoir plus sur la gestion des décisions](../offers/get-started/starting-offer-decisioning.md)
+
+* **Offres** - Créez et gérez des offres personnalisées.
+* **Composants** - Configurez les emplacements, les règles et les balises pour les offres.
+
+**Gestion du contenu** - Créez et organisez du contenu.
+
+* **Ressources** - Référentiel centralisé pour les images et les médias. [Gérer les ressources](../integrations/assets.md)
+* **Modèles de contenu** - Modèles de message réutilisables pour les campagnes et les parcours. [Créer des modèles](../content-management/content-templates.md)
+* **Fragments** - Blocs de contenu pouvant être utilisés dans plusieurs messages. [Utiliser des fragments](../content-management/fragments.md)
+* **Pages de destination** - Formulaires web pour les abonnements et les préférences. [Concevoir des pages de destination](../landing-pages/get-started-lp.md)
+* **Playbooks de cas d’utilisation** - Workflows préconfigurés pour les scénarios marketing courants. [Explorer les playbooks](ai-features.md#playbooks)
+
+**Gestion des données** - Gérez vos données. [En savoir plus sur les schémas et les jeux de données](../data/get-started-schemas.md)
+
+* **Schémas** - Définissez la structure des données.
+* **Jeux de données** - Stockez et gérez les collections de données.
+* **Requêtes** - Écrivez et exécutez des requêtes.
+* **Surveillance** - Surveillez l’ingestion de données.
+
+**Connexions** - Intégration à d’autres systèmes
+
+* **Sources** - Ingérez des données à partir de systèmes externes. [Configurer les sources](get-started-sources.md)
+* **Destinations** - Exportez les données vers l’espace de stockage dans le cloud. [Configurer des destinations](../data/export-datasets.md)
+
+**Clientes et clients** - Gérez les audiences et les profils.
+
+* **Audiences** - Créez et gérez des segments de clientes et de clients. [Utiliser des audiences](../audience/about-audiences.md)
+* **Listes d’abonnements** - Gérez les listes d’opt-in. [Gestion des abonnements](../landing-pages/subscription-list.md)
+* **Profils** - Affichez les profils clients unifiés. [Explorer les profils](../audience/get-started-profiles.md)
+* **Identités** - Gérez la résolution des identités. [En savoir plus sur les identités](../audience/get-started-identity.md)
+
+**Confidentialité** - Contrôlez la confidentialité et la conformité. [Vue d’ensemble de la confidentialité](../privacy/get-started-privacy.md)
+
+* **Politiques** - Définissez des politiques de gouvernance des données.
+* **Demandes** - Gérez les demandes d’accès aux informations personnelles (RGPD, CCPA).
+* **Audit** - Examinez les journaux d’activité. [Consulter les journaux d’activité](../privacy/audit-logs.md)
+* **Cycle de vie des données** - Configurez la conservation des données.
+
+**Administration** - Configurez les paramètres système. [Vue d’ensemble du contrôle d’accès](../administration/permissions-overview.md)
+
+* **Configurations** - Configurez des événements, des sources de données et des actions. [Configurer des canaux](../configuration/get-started-configuration.md)
+* **Règles métier** - Contrôlez la fréquence des messages et l’entrée dans les parcours. [Configurer des règles métier](../conflict-prioritization/rule-sets.md)
+* **Alertes** - Affichez et gérez les alertes système. [Surveiller les alertes](../reports/alerts.md)
+* **Sandbox** - Gérez les environnements et copiez des objets entre différents sandbox. [Utiliser des sandbox](../administration/sandboxes.md)
+* **Canaux** - Configurez les paramètres des canaux et la délivrabilité. [Définir des configurations de canal](../configuration/channel-surfaces.md) | [Commencer avec la configuration](../configuration/get-started-configuration.md)
+* **Balises** - Organisez et catégorisez le contenu. [Utiliser des balises unifiées](search-filter-categorize.md#tags)
+
+## Assistant IA {#ai-assistant}
 
 L’assistant IA offre une aide instantanée et des informations opérationnelles. Cliquez sur l’icône de l’assistant IA dans la barre supérieure pour :
+
 * Obtenir des réponses sur les fonctionnalités du produit
 * Recevoir des informations opérationnelles sur vos parcours
 * Parcourir les concepts et les bonnes pratiques
@@ -219,13 +245,13 @@ L’assistant IA offre une aide instantanée et des informations opérationnelle
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_camppaign_ovv_1"
+>id="ajo_oc_jo_campaign_ovv_1"
 >title="IU guidée pour créer et envoyer une campagne"
->abstract="Définissez une ou plusieurs actions avec un canal, choisissez une audience, définissez un contenu, définissez un planning... tout est prêt pour l’envoi !"
+>abstract="Définissez une ou plusieurs actions avec un canal, choisissez une audience, définissez le contenu, définissez un planning et vous êtes prêt à envoyer"
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_camppaign_ovv_2"
+>id="ajo_oc_jo_campaign_ovv_2"
 >title="Canaux disponibles"
 >abstract="E-mail, SMS, notifications push et expériences in-app, web, basées sur du code"
 
@@ -234,22 +260,22 @@ L’assistant IA offre une aide instantanée et des informations opérationnelle
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_1"
+>id="ajo_oc_api_campaign_ovv_1"
 >title="Campagnes déclenchées par l’API transactionnelle"
 >abstract="Déclencher des messages en temps réel par le biais d’appels API"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_2"
+>id="ajo_oc_api_campaign_ovv_2"
 >title="Messages marketing"
 >abstract="Contenu promotionnel (nécessite un accord préalable, soumis aux règles métier)"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_3"
+>id="ajo_oc_api_campaign_ovv_3"
 >title="Messages transactionnels"
 >abstract="Contenu lié au service (confirmations, alertes, non soumis à un consentement marketing)"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_4"
+>id="ajo_oc_api_campaign_ovv_4"
 >title="Canaux disponibles"
 >abstract="E-mail, SMS, notifications push"
 
