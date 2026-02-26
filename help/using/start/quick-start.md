@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
-workflow-type: ht
-source-wordcount: '1724'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1831'
+ht-degree: 88%
 
 ---
 
@@ -54,7 +54,7 @@ Une implémentation réussie de Journey Optimizer suit généralement cette sé
    L’administrateur ou l’administratrice pose les bases en configurant les sandbox et les contrôles d’accès et en préparant les configurations des canaux. Ces tâches doivent être effectuées en premier pour permettre aux autres équipes de travailler.
    * Configurer des sandbox de développement, d’évaluation et de production
    * Configurer les rôles, les autorisations et le contrôle d’accès au niveau de l’objet (OLAC)
-   * Configurer les configurations de canal (e-mail, SMS, notification push, in-app, web, cartes de contenu)
+   * Configurer des configurations de canal (e-mail, SMS, notification push web, in-app, web, courrier, cartes de contenu)
    * Déléguer des sous-domaines et configurer des groupes d’adresses IP
    * Configurer des listes de suppression et des politiques de consentement
 
@@ -70,9 +70,10 @@ Une implémentation réussie de Journey Optimizer suit généralement cette sé
 3. **Développeur ou développeuse** : implémente les intégrations techniques.\
    Les développeurs et les développeuses connectent les applications à Journey Optimizer en intégrant des SDK, en envoyant des événements et en créant des points d’entrée d’API. Ces implémentations permettent aux parcours de se déclencher et de s’exécuter.
    * Intégrer le SDK mobile (iOS/Android) à la configuration des notifications push
-   * Implémenter le SDK Web pour les expériences web
+   * Implémenter le SDK Web pour les expériences web et les notifications push web
    * Envoyer des événements à partir d’applications pour déclencher des parcours
    * Créer des points d’entrée d’actions personnalisées pour les intégrations à des systèmes externes
+   * Surveillance de l’intégrité et des performances des actions personnalisées
    * Tester les implémentations à l’aide d’Adobe Experience Platform Assurance
 
 4. **Responsable marketing** : conçoit et exécute les expériences client\
@@ -95,15 +96,16 @@ En tant que responsable marketing ou qu’utilisateur ou utilisatrice profession
 
 **Les fonctionnalités clés que vous allez utiliser :**
 
-* **Journey Orchestration** : créez un engagement client individuel et en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux.
-* **Orchestration de campagne** : concevez et automatisez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle. Parfait pour les campagnes lancées par une marque, comme des promotions saisonnières, des lancements de produits et des communications basées sur les comptes. Exploitez la segmentation d’entités multiples pour créer des audiences précises en connectant les données client à des entités associées (par exemple, comptes, achats, réservations).
+* **Journey Orchestration** : créez un engagement client individuel en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux. Utilisez l’activité Action unifiée pour toutes les actions de canal, l’activité Décision de contenu pour intégrer des offres dans des parcours et Journey Agent pour créer des parcours à partir d’invites en langage naturel
+* **Orchestration de campagne** : concevez et automatisez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle. Parfait pour les campagnes lancées par une marque, comme des promotions saisonnières, des lancements de produits et des communications basées sur les comptes. Utilisez la segmentation d’entités multiples pour créer des audiences précises en connectant les données client aux entités associées (comptes, achats, réservations). Utiliser l’envoi de vagues pour diffuser des messages par lots contrôlés
 * **Concepteur de messages moderne** : concevez et personnalisez des e-mails et des messages mobiles à l’aide d’une interface de type glisser-déposer. Modifier les modèles prêts à l’emploi pour accélérer le délai de mise sur le marché
-* **Gestion des décisions** : créez et gérez des offres, des règles d’éligibilité et d’autres composants dans une bibliothèque centralisée qui peuvent être incorporés dans des e-mails et des points de contact avec la clientèle
+* **Gestion des décisions** : créez et gérez des offres, des règles d’éligibilité et d’autres composants dans une bibliothèque centralisée qui peut être incorporée dans les e-mails et les points de contact des clients. Utilisation de la prise de décision pour la personnalisation des notifications push et des SMS
 * **Gestion des ressources** : accédez à Adobe Experience Manager Assets Essentials, entièrement intégré à Journey Optimizer pour un accès aux ressources et une diffusion des ressources rationalisés.
 * **Définition d’audience** : créez des audiences à la demande avec un ajustement instantané à l’aide de requêtes relationnelles, avec de la visibilité avant envoi pour une évaluation précise de la taille des audiences.
 * **Services d’IA/de ML** : utilisez l’optimisation de l’heure d’envoi et les scores d’engagement prédictifs pour cibler les clientes et les clients à forte valeur ajoutée et pour réduire le risque d’attrition.
+* **Agir sur les diffusions** : utilisez des heures calmes (exclusions temporelles) et la gestion des conflits pour respecter les préférences des clients et éviter la surcommunication
 
-**Commencez par :** utiliser des modèles de cas d’utilisation et des assistants pour créer et déployer facilement de nouveaux parcours client.
+**Commencez par :** utilisez des modèles de cas d’utilisation et des assistants pour créer et déployer facilement de nouveaux parcours client. Utilisez Journey Agent pour créer des parcours à partir d’invites en langage naturel.
 
 [Commencer en tant que responsable marketing →](path/marketer.md)
 
@@ -135,8 +137,9 @@ En tant qu’administrateur ou administratrice, vous configurez l’environnemen
 * **Gestion des utilisateurs et des utilisatrices** : configurez des groupes d’utilisateurs et d’utilisatrices et des autorisations pour contrôler l’accès aux différentes fonctionnalités.
 * **Configuration des canaux** : configurez les canaux de diffusion et les préréglages de messages pour garantir la cohérence de l’identité de marque dans les messages et les ressources diffusés via Journey Optimizer.
 * **Sécurité et gouvernance** : appliquez le contrôle d’accès au niveau de l’objet (OLAC), configurez des politiques de consentement et implémentez des politiques de gouvernance des données.
-* **Délivrabilité** : déléguez des sous-domaines, créez des groupes d’adresses IP et gérez les listes de suppression et les listes autorisées.
+* **Délivrabilité** : déléguez des sous-domaines, migrez des sous-domaines vers une délégation personnalisée si nécessaire, créez des pools d&#39;adresses IP et gérez des listes et des listes autorisées de suppression
 * **Configuration de parcours** : mettez en place des éléments et des configurations de parcours pour vos équipes.
+* **Configuration du canal** : configurez les notifications push web, le publipostage direct et l&#39;exportation des messages (e-mail/SMS) lorsque cela est nécessaire.
 
 **Commencez par :** configurer des sandbox et des autorisations utilisateur, puis définissez vos premières configurations de canal et vos premiers préréglages de messages.
 
@@ -207,7 +210,7 @@ La réussite des implémentations de Journey Optimizer nécessite une collaborat
 
 Pour en savoir plus sur les principales fonctionnalités et les personas les plus importants de Journey Optimizer, regardez la vidéo de présentation. La vidéo présente l’interface d’utilisation et met en évidence les fonctionnalités clés en fonction des workflows spécifiques aux rôles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430314?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Ressources supplémentaires
 
@@ -230,7 +233,7 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 
 >[!TAB Communauté et assistance]
 
-* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
-* [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Posez des questions et partagez vos connaissances.
+* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
+* [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Posez des questions et partagez vos connaissances.
 
 >[!ENDTABS]

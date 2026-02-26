@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '965'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1036'
+ht-degree: 92%
 
 ---
 
@@ -50,9 +50,11 @@ Pour permettre aux [responsables marketing](marketer.md) de créer et d’envoye
 
 Procédez comme suit :
 
-1. **Paramétrez les configurations de canaux**. Définissez tous les paramètres techniques requis pour les e-mails, SMS, notifications push et autres canaux :
+1. **Paramétrez les configurations de canaux**. Définissez tous les paramètres techniques requis pour les e-mails, SMS, notifications push, notifications push web, publipostage direct et autres canaux :
 
    * Définissez les **paramètres de notification push** dans [!DNL Adobe Experience Platform] et dans la collecte de données Adobe Experience Platform. [En savoir plus](../../push/push-gs.md)
+
+   * Configurez les **notifications push web** pour diffuser des notifications aux navigateurs mobiles et de bureau. [En savoir plus](../../push/push-configuration-web.md)
 
    * Créez des **configurations de canal** pour configurer tous les paramètres techniques requis pour les canaux e-mail, SMS, de notifications push, in-app, web et autres. [En savoir plus](../../configuration/channel-surfaces.md)
 
@@ -60,7 +62,9 @@ Procédez comme suit :
 
    * Gérez le nombre de jours pendant lesquels des **reprises** sont effectuées avant de transmettre des adresses e-mail à la liste de suppression. [En savoir plus](../../configuration/manage-suppression-list.md)
 
-1. **Déléguer des sous-domaines** : pour un nouveau sous-domaine à utiliser dans Journey Optimizer, la première étape consiste à le déléguer. [En savoir plus](../../configuration/about-subdomain-delegation.md)
+   * Activez l’**exportation de messages** au niveau de la configuration des canaux pour archiver le contenu des e-mails et des SMS envoyés si nécessaire (offre de module complémentaire). [En savoir plus](../../configuration/message-export.md)
+
+1. **Déléguer des sous-domaines** : pour un nouveau sous-domaine à utiliser dans Journey Optimizer, la première étape consiste à le déléguer. [En savoir plus](../../configuration/about-subdomain-delegation.md). Si nécessaire, vous pouvez migrer des sous-domaines de CNAME vers la délégation personnalisée. [En savoir plus](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -87,6 +91,8 @@ Au fur et à mesure que les besoins de votre entreprise se développent, envisag
 * **Politiques de gouvernance des données** : appliquez des libellés et des politiques d’utilisation des données pour contrôler la manière dont les données sont utilisées dans les actions marketing. [En savoir plus](../../action/action-privacy.md)
 
 * **Plans de préchauffage d’adresses IP** : augmentez progressivement les volumes d’envoi des e-mails pour renforcer la réputation de l’expéditeur auprès des fournisseurs de messagerie. [En savoir plus](../../configuration/ip-warmup-gs.md)
+
+* **Heures calmes** : configurez des ensembles de règles pour les exclusions temporelles lorsque les messages ne doivent pas être envoyés pendant des périodes spécifiques. [En savoir plus](../../conflict-prioritization/quiet-hours.md)
 
 ## Collaboration entre les rôles
 
