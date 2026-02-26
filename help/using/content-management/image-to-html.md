@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Convertir des images en modèles HTML
-description: Découvrez comment utiliser le convertisseur d’images en HTML optimisé par l’IA pour convertir des conceptions d’image en modèles d’e-mail HTML modifiables.
+title: Convertir des images en modèles de contenu d’e-mail
+description: Découvrez comment utiliser le convertisseur Image vers HTML optimisé par l’IA pour convertir des conceptions d’image en modèles de contenu d’e-mail modifiables
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
@@ -10,28 +10,32 @@ level: Beginner
 badge: label="Disponibilité limitée" type="Informative"
 keywords: e-mail, modèle, image, HTML, IA, conception, convertisseur
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: e5b02fe84f00dec189d4002280e9a69b782cd91f
+source-git-commit: 30eb70f2a96223d7a948bdbd56ca9c002e954d0e
 workflow-type: tm+mt
-source-wordcount: '1659'
-ht-degree: 64%
+source-wordcount: '1611'
+ht-degree: 50%
 
 ---
 
-# Convertir des images en modèles HTML {#image-to-html}
+# Convertir des images en modèles de contenu d’e-mail {#image-to-html}
 
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 
-[!DNL Journey Optimizer] vous permet d’accélérer considérablement la création d’e-mails en convertissant des conceptions d’image statiques en modèles de contenu d’e-mail HTML entièrement personnalisables et modulaires.
+[!DNL Journey Optimizer] vous permet d’accélérer considérablement la création d’e-mails en convertissant des conceptions d’image statiques en modèles de contenu d’e-mail entièrement personnalisables et modulaires.
 
-Grâce à la technologie d’IA générative, un outil intégré analyse la disposition, la typographie, les couleurs et les éléments visuels de votre image et génère un code HTML propre et modulaire qui conserve la fidélité de la conception tout en garantissant une modifiabilité totale avec le [Designer d’e-mail](../email/get-started-email-design.md).
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible uniquement pour le canal E-mail .
+
+Grâce à la technologie d’IA générative, un outil intégré analyse la mise en page, la typographie, les couleurs et les éléments visuels de votre image et génère un contenu HTML propre et modulaire qui conserve la fidélité de la conception tout en garantissant une modifiabilité totale avec le [Designer d’e-mail](../email/get-started-email-design.md).
 
 Cette fonctionnalité sans code permet aux marketeurs de transformer les ressources visuelles des concepteurs graphiques ou des outils de conception en modèles d’e-mail réactifs et modifiables qui peuvent être enregistrés et réutilisés dans plusieurs parcours et campagnes, sans avoir à recourir à une expertise technique.
 
 Les principaux avantages sont les suivants :
 
-* **Plus rapide qu’un codage manuel** - Le convertisseur transforme les images en HTML modifiable en quelques minutes, ce qui vous permet d’ignorer le processus manuel de transformation de la maquette en HTML, qui prend beaucoup de temps.
+* **Plus rapide qu’un codage manuel** - Le convertisseur transforme les images en contenu modifiable en quelques minutes, ce qui vous permet d’ignorer le processus manuel de transformation de la maquette en HTML, qui prend beaucoup de temps.
 * **Aucune compétence technique requise** - Les professionnels du marketing peuvent produire et ajuster des modèles sans assistance en matière de conception ou de développement.
 * **Réutilisable dans toutes les campagnes** - Enregistrez les modèles dans votre bibliothèque et utilisez-les dans n’importe quel parcours ou campagne.
 * **Reste fidèle à la conception** - La sortie correspond à votre disposition et à votre style tout en étant entièrement compatible avec le Designer d’e-mail.
@@ -53,27 +57,21 @@ Le convertisseur d’images en HTML est idéal pour :
 
 ## Mécanismes de sécurisation et recommandations {#limitations}
 
-Gardez à l’esprit les limites suivantes lors de la conversion d’images en modèles de contenu HTML.
+Gardez à l’esprit les limites suivantes lors de la conversion d’images en modèles de contenu d’e-mail.
 
-* **Interprétation de l’IA** : l’IA génère le HTML en fonction de l’interprétation visuelle de votre image. Les conceptions complexes ou inhabituelles peuvent nécessiter des réglages manuels après la conversion.
+* **Interprétation de l’IA** : l’IA génère du contenu HTML statique en fonction de l’interprétation visuelle de votre image. Il fournit un point de départ solide pour la création d’e-mails, mais doit être examiné et affiné à l’aide de la Designer d’e-mail afin de s’assurer qu’elle répond exactement à vos besoins. Vous devez ajouter manuellement la personnalisation, le contenu dynamique et le suivi après la conversion, si nécessaire.
 
 * **Précision du texte** : bien que l’IA tente de reconnaître et de reproduire le texte avec précision, vérifiez toujours le contenu du texte et apportez les corrections nécessaires.
-
-* **Contenu dynamique** : le processus de conversion crée un HTML statique en fonction de votre image. Vous devrez ajouter manuellement la personnalisation, le contenu dynamique et le suivi après la conversion.
 
 * **Dispositions complexes** : les conceptions très complexes avec des superpositions complexes, des formes inhabituelles ou des éléments non standard peuvent ne pas se convertir parfaitement. Des conceptions plus simples donnent généralement de meilleurs résultats.
 
 * **Temps de traitement** : le processus de conversion peut prendre jusqu’à 5 minutes selon la complexité et la taille de votre image. Le traitement par l’IA se produit en arrière-plan, ce qui vous permet de travailler sur d’autres tâches sans garder l’écran ouvert. Le modèle est automatiquement enregistré en tant que brouillon une fois la conversion terminée.
 
-* **Disponibilité limitée** : en tant que fonctionnalité en disponibilité limitée, le convertisseur d’images en HTML est régulièrement amélioré. Le fonctionnement et la précision peuvent varier, et vos commentaires permettent d’améliorer la fonctionnalité.
-
->[!NOTE]
->
->Le convertisseur d’images en HTML est conçu de manière à fournir un point de départ solide pour la création d’e-mails. Le HTML généré doit être examiné et affiné à l’aide du concepteur d’e-mail afin de s’assurer qu’il répond exactement à vos besoins.
+* **Disponibilité limitée** : en tant que fonctionnalité à disponibilité limitée, ce convertisseur est continuellement amélioré. Le fonctionnement et la précision peuvent varier, et vos commentaires permettent d’améliorer la fonctionnalité.
 
 ## Conversion d’une image en modèle HTML {#convert-image}
 
-Pour convertir une conception d’image en modèle d’e-mail HTML entièrement personnalisable, procédez comme suit.
+Pour convertir une conception d’image en modèle de contenu d’e-mail entièrement personnalisable, procédez comme suit.
 
 1. Assurez-vous de disposer d’un fichier image au format JPEG ou PNG contenant votre conception d’e-mail.
 
@@ -132,12 +130,12 @@ Votre modèle est maintenant disponible dans la bibliothèque de modèles de con
 
 ## Bonnes pratiques {#best-practices}
 
-Pour obtenir des résultats optimaux lors de la conversion d’images en modèles de contenu HTML, suivez ces recommandations.
+Pour obtenir des résultats optimaux lors de la conversion d’images en modèles de contenu d’e-mail, suivez ces recommandations.
 
 +++Avant de commencer
 
-* **Enregistrez le contenu existant** : la conversion d’une image en HTML remplacera tout le contenu existant de votre e-mail. Enregistrez toujours votre travail actuel avant d’utiliser cette fonctionnalité.
-* **Planifiez votre workflow** : utilisez le convertisseur d’images en HTML au début du processus de création d’e-mail ou assurez-vous que vous souhaitez remplacer tout le contenu actuel.
+* **Enregistrer le contenu existant** : la conversion d’une image remplace tout le contenu existant dans votre modèle d’e-mail. Enregistrez toujours votre travail actuel avant d’utiliser cette fonctionnalité.
+* **Planifier votre workflow** : utilisez cette fonctionnalité au début de votre processus de création d’e-mail ou assurez-vous que vous êtes prêt à remplacer tout le contenu actuel.
 
 +++
 
@@ -163,7 +161,7 @@ Pour obtenir des résultats optimaux lors de la conversion d’images en modèle
 
 +++Après la conversion
 
-* **Vérifiez votre brouillon** : une fois la conversion terminée, votre modèle est automatiquement enregistré en tant que brouillon. Examinez attentivement le HTML généré pour en vérifier la précision.
+* **Vérifiez votre brouillon** : une fois la conversion terminée, votre modèle est automatiquement enregistré en tant que brouillon. Prenez le temps d’examiner attentivement le contenu généré pour en vérifier la précision
 * **Testez minutieusement** : testez l’e-mail sur différents clients de messagerie et appareils.
 * **Affinez manuellement** : effectuez les ajustements nécessaires à l’aide des fonctionnalités de modification complètes du concepteur d’e-mail.
 * **Alignement de la marque** : vérifiez que les couleurs, les polices et le style correspondent à vos directives de marque.
@@ -174,15 +172,15 @@ Pour obtenir des résultats optimaux lors de la conversion d’images en modèle
 
 ## Questions fréquentes {#faq}
 
-+++Qu’advient-il du contenu existant de mon e-mail lorsque j’utilise le convertisseur d’images en HTML ?
++++Qu’advient-il de mon contenu d’e-mail existant lorsque je convertis une image en modèle de contenu ?
 
-Tout le contenu existant de votre e-mail est supprimé et remplacé par le modèle nouvellement généré lorsque vous chargez une image pour la convertir. Assurez-vous d’enregistrer tout contenu important avant d’utiliser cette fonctionnalité. Il est préférable d’utiliser le convertisseur d’images en HTML au début de votre tâche de création d’e-mail.
+Tout le contenu existant de votre e-mail est supprimé et remplacé par le modèle nouvellement généré lorsque vous chargez une image pour la convertir. Assurez-vous d’enregistrer tout contenu important avant d’utiliser cette fonctionnalité. Il est préférable d’utiliser cette fonctionnalité au début de votre processus de création d’e-mail.
 
 +++
 
 +++Quels formats de fichiers sont pris en charge ?
 
-Le convertisseur d’images en HTML prend en charge les formats d’images JPEG (.jpg, .jpeg) et PNG (.png).
+Le convertisseur prend en charge les formats d’image JPEG (.jpg, .jpeg) et PNG (.png).
 
 +++
 
@@ -194,7 +192,7 @@ La conversion peut prendre jusqu’à 5 minutes, selon la complexité et la tai
 
 +++Puis-je modifier le modèle généré ?
 
-Oui ! Le modèle HTML généré s’ouvre dans le concepteur d’e-mail avec les fonctionnalités d’édition complètes. Vous pouvez modifier tous les aspects du modèle, y compris le texte, les images, le style, la disposition et la structure.
+Oui ! Le modèle de contenu généré s’ouvre dans le Designer d’e-mail avec des fonctionnalités de modification complètes. Vous pouvez modifier tous les aspects du modèle, y compris le texte, les images, le style, la disposition et la structure.
 
 +++
 
@@ -206,13 +204,13 @@ L’IA fait de son mieux pour interpréter avec précision votre projet de conce
 
 +++Puis-je utiliser cette fonctionnalité pour des pages de destination ou d’autres types de contenu ?
 
-Le convertisseur d’images en HTML est actuellement conçu spécifiquement pour les modèles d’e-mails. Pour les autres types de contenu, utilisez les options de conception et d’import standard disponibles dans le concepteur d’e-mail.
+Le convertisseur image en HTML est actuellement conçu spécifiquement pour les modèles de contenu d’e-mail. Pour les autres types de contenu, utilisez les options de conception et d’import standard disponibles dans le concepteur d’e-mail.
 
 +++
 
 +++Ai-je besoin d’autorisations spéciales pour utiliser cette fonctionnalité ?
 
-Le convertisseur d’images en HTML est disponible en disponibilité limitée. Vous avez besoin d’un accès à la disponibilité limitée (contactez votre représentant ou représentante Adobe pour obtenir cet accès) et des autorisations standard du concepteur d’e-mail pour utiliser cette fonctionnalité.
+Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 
 +++
 
