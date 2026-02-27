@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapport de campagne
+title: Rapport d'activité de la campagne dynamique
 description: Découvrez comment utiliser les données d’activité dynamique du rapport de campagne.
 feature: Reporting
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 17f86c33f56b9855fa1d0f959aac8740ff2c2c2a
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 22%
 
 ---
@@ -37,11 +37,11 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un aperçu détaillé
 
 * **[!UICONTROL Ciblés]** : nombre de profils qui remplissent les critères de l’audience avant l’application des exclusions, des suppressions ou des suppressions de consentement.
 
-* **[!UICONTROL Envois]** : nombre total de tentatives d’envoi d’activités actives aux profils ciblés.
+* **[!UICONTROL Envois]** : nombre total d’événements d’activité en direct ayant tenté d’être envoyés aux profils ciblés.
 
-* **[!UICONTROL Diffusés]** : nombre d’activités actives diffusées avec succès sur les appareils, par rapport au nombre total de tentatives d’envoi.
+* **[!UICONTROL Délivrés]** : nombre d’événements d’activité dynamique délivrés avec succès aux appareils, par rapport au nombre total de tentatives d’envoi.
 
-* **[!UICONTROL Erreurs d’envoi]** : nombre total d’activités actives qui n’ont pas pu être envoyées en raison d’erreurs (par exemple, jetons non valides ou problèmes de connectivité).
+* **[!UICONTROL Erreurs d’envoi]** : nombre total d’événements d’activité actifs qui n’ont pas pu être envoyés en raison d’erreurs (par exemple, des jetons non valides ou des problèmes de connectivité).
 
 * **[!UICONTROL Exclusions d’envoi]** : nombre de profils exclus de l’envoi par Adobe Journey Optimizer (par exemple, en raison du statut d’opt-out ou des règles d’éligibilité).
 
