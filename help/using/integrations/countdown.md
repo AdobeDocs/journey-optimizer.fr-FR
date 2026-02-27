@@ -8,7 +8,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b0b2b5aa8c5b4ea0a101583ee1132574996bd98
+source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 3%
@@ -25,7 +25,7 @@ Par exemple, en tant que spécialiste marketing pour une marque de vente au dét
 * Les destinataires qui ouvrent 24 heures plus tard voient « 23 heures restantes »
 * Les destinataires qui ouvrent après la fin de la vente voient « Vente terminée »
 
-Pour plus d’informations sur la création de votre contenu Dynamic Media dans Adobe Experience Manager, consultez [ce document](assets/do-not-localize/Dynamic%20Media%20Templates.pdf).
+Pour plus d’informations sur la création de votre contenu Dynamic Media dans Adobe Experience Manager, consultez [ce document](assets/do-not-localize/countdown.pdf).
 
 
 1. Dans **[!DNL Adobe Experience Manager]**, créez un modèle Dynamic Media et ajoutez-y un composant Compte à rebours .
