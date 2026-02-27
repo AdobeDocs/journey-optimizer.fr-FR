@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: 1b0b2b5aa8c5b4ea0a101583ee1132574996bd98
 workflow-type: tm+mt
-source-wordcount: '3103'
+source-wordcount: '3106'
 ht-degree: 98%
 
 ---
@@ -486,6 +486,7 @@ ht-degree: 98%
       + [Utiliser Adobe Express](using/integrations/express.md)
       + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
       + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
+      + [Insérer le compteur de décompte](using/integrations/countdown.md)
       + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utiliser GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + [Utiliser des intégrations](using/integrations/external-sources.md)
@@ -947,7 +948,7 @@ ht-degree: 98%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
