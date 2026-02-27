@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création de la version texte d'un email
+title: Gestion de la version texte d’un e-mail
 description: Découvrez comment créer la version texte d'un e-mail
 feature: Email Design
 topic: Content Management
@@ -9,36 +9,44 @@ role: User
 level: Intermediate
 keywords: texte, e-mail, version, brut, éditeur
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 15%
+source-wordcount: '1141'
+ht-degree: 11%
 
 ---
 
-# Création de la version texte d&#39;un email {#text-version-email}
+# Gestion de la version texte d’un e-mail {#text-version-email}
 
 Il est recommandé de créer une version texte du corps de votre email, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 
+Du point de vue de la sécurité, il est important d’offrir une version en texte brut, car les e-mails d’HTML peuvent comporter des risques tels que des scripts malveillants, le suivi des pixels ou des tentatives d’hameçonnage qui reposent sur une mise en forme et des liens riches. Le texte brut réduit la surface d’attaque et est souvent privilégié par les destinataires soucieux de la sécurité ou les systèmes de messagerie d’entreprise qui limitent ou suppriment HTML. En fournissant les deux versions, les destinataires peuvent choisir le format qui correspond à leurs exigences en matière de sécurité et de confidentialité.
+
+## Accéder à la version texte par défaut {#plain-text-default}
+
 Par défaut, le concepteur d’e-mail crée une version en **[!UICONTROL texte brut]** de votre email, y compris des champs de personnalisation. Cette version est automatiquement générée et synchronisée avec la version HTML de votre contenu.
+
+Pour accéder à la version texte par défaut, sélectionnez l’icône **[!UICONTROL Texte brut]** dans le contenu de l’e-mail.
+
+![](assets/text_version_3.png)
+
+## Utiliser une version texte personnalisée {#plain-text-default-custom}
 
 Si vous préférez utiliser un contenu différent pour la version en texte brut, procédez comme suit :
 
 1. Dans votre e-mail, sélectionnez l’icône **[!UICONTROL Texte brut]**.
 
-   ![](assets/text_version_3.png)
-
 1. Utilisez le bouton (bascule) **[!UICONTROL Synchroniser avec HTML]** pour désactiver la synchronisation. Cliquez sur la coche pour confirmer votre choix.
 
    ![](assets/text_version_2.png)
 
-1. Vous pouvez ensuite modifier la version en texte brut comme vous le souhaitez.
+1. Vous pouvez ensuite modifier la version en texte brut personnalisée selon vos besoins.
 
 >[!CAUTION]
 >
 > * Lorsque la synchronisation est désactivée, les modifications apportées dans la vue **[!UICONTROL Texte brut]** ne sont pas répercutées dans la vue HTML.
 >
->* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
+> * Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
 
 ## Quand utiliser des versions en texte brut personnalisées {#when-to-use}
 
