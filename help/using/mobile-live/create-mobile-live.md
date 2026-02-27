@@ -159,4 +159,4 @@ Après avoir créé votre activité en direct, vous pouvez suivre son impact à 
 
 Découvrez comment configurer l’activité d’iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479866?captions=fre_fr)
