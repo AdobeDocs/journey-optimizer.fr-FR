@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 75%
+ht-degree: 69%
 
 ---
 
@@ -54,7 +54,7 @@ Après avoir effectué la configuration mobile et implémenté le SDK mobile Ado
 
 1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Réviser pour activer]**, puis sur **[!UICONTROL Activer]**.
 
-1. Une fois la campagne activée, utilisez la **requête cURL** fournie comme modèle pour déclencher les événements de démarrage, de mise à jour ou d’arrêt de l’activité en direct. Modifiez l’exemple de payload en incluant vos données avant l’exécution.
+1. Une fois la campagne activée, utilisez la requête **cURL** fournie comme modèle pour déclencher les événements de début, de mise à jour ou de fin de l’activité en direct. Modifiez l’exemple de payload en incluant vos données avant l’exécution.
 
    Veillez également à copier les identifiants **[!UICONTROL ID de campagne]** à inclure dans votre payload.
 
@@ -157,6 +157,6 @@ Après avoir créé votre activité en direct, vous pouvez suivre son impact à 
 
 ## Vidéo pratique
 
-Découvrez comment configurer les activités iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
+Découvrez comment configurer l’activité d’iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479866?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

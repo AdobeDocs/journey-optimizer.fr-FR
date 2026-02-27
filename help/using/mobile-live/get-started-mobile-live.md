@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Commencer avec les activités en direct
-description: Découvrez comment créer des activités en direct dans Journey Optimizer.
+description: Découvrez comment envoyer une activité en direct dans Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 60%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 >
 >L’activité en direct dans Journey Optimizer est uniquement compatible avec iOS.
 
-Les activités en direct fournissent des mises à jour en temps réel et des expériences interactives dans les applications mobiles, ce qui permet aux utilisateurs et aux utilisatrices de rester informés des événements ou tâches en cours directement sur l’écran de leur appareil.
+L’activité en direct fournit des mises à jour en temps réel et des expériences interactives dans les applications mobiles, ce qui permet aux utilisateurs de rester informés des événements ou tâches en cours directement sur l’écran de leur appareil.
 
 Cette fonctionnalité améliore l’engagement en fournissant des informations en direct, telles que le suivi de la progression, les mises à jour d’événement ou le contenu interactif, sans que les utilisateurs et utilisatrices ouvrent l’application.
 
-Les activités en direct peuvent **uniquement** être lancées par le biais de campagnes **déclenchées par API**, ce qui vous permet de fournir des payloads personnalisées et d’effectuer toute la personnalisation par le biais de votre propre payload.
+L’activité en direct peut **uniquement** être lancée par le biais de campagnes **déclenchées par une API**, ce qui vous permet de fournir des payloads personnalisés et d’effectuer toute la personnalisation par le biais de votre propre payload.
 Le type de campagne **déclenchée par API** approprié doit être sélectionné en fonction du cas d’utilisation prévu de l’activité en direct :
 
 * Sélectionnez **Marketing déclenché par API** pour les campagnes basées sur les audiences.
@@ -39,7 +39,7 @@ Le type de campagne **déclenchée par API** approprié doit être sélectionné
 
 ## Guide de démarrage rapide
 
-Suivez les étapes ci-dessous pour configurer et implémenter des activités en direct dans votre application :
+Suivez les étapes ci-dessous pour configurer et implémenter l’activité dynamique dans votre application :
 
 1. **[Configurer Adobe Journey Optimizer](mobile-live-configuration.md)**
 
@@ -49,10 +49,10 @@ Suivez les étapes ci-dessous pour configurer et implémenter des activités en 
 
    Intégrez le SDK mobile Adobe Experience Platform pour activer les mises à jour dynamiques en temps réel sur l’écran de verrouillage et Dynamic Island.
 
-1. **[Créer des activités en direct dans Journey Optimizer](create-mobile-live.md)**
+1. **[Créer une activité Live dans Journey Optimizer](create-mobile-live.md)**
 
-   Utilisez des campagnes déclenchées par API dans Journey Optimizer pour démarrer vos activités en direct.
+   Utilisez des campagnes déclenchées par API dans Journey Optimizer pour démarrer votre activité Live .
 
 1. **[Surveiller vos campagnes](../reports/campaign-global-report-cja-activity.md)**
 
-   Commencez à mesurer l’impact de vos activités en direct à l’aide de rapports intégrés.
+   Commencez à mesurer l’impact de votre Activité dynamique à l’aide de rapports intégrés.

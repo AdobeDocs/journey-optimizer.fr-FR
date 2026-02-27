@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurer le canal d’activité en direct
-description: Découvrez comment configurer votre environnement pour envoyer des activités en direct avec Journey Optimizer.
+description: Découvrez comment configurer votre environnement pour envoyer une activité en direct avec Journey Optimizer
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Avant d’envoyer une activité en direct, vous devez configurer votre environne
 
 L&#39;enregistrement des informations d&#39;identification push de l’application mobile est nécessaire pour autoriser Adobe à envoyer des notifications push en votre nom.
 
-L’étape 1 est facultative si vos informations d’identification push ont déjà été configurées, car elles peuvent être réutilisées pour la configuration du canal d’activité en direct. Si aucune information d’identification push n’est définie pour votre application, vous devez les créer. Reportez-vous aux étapes détaillées ci-dessous :
+L’étape 1 est facultative si vos informations d’identification push ont déjà été configurées, car elles peuvent être réutilisées pour la configuration du canal d’activité en direct . Si aucune information d’identification push n’est définie pour votre application, vous devez les créer. Reportez-vous aux étapes détaillées ci-dessous :
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres push]** > **[!UICONTROL Informations d’identification push]**.
 
@@ -56,7 +56,7 @@ L’étape 1 est facultative si vos informations d’identification push ont d�
 
    ![](assets/config-1.png)
 
-1. Saisissez un nom et une description (facultatif) pour la configuration, puis sélectionnez le canal WhatsApp.
+1. Saisissez un nom et une description (facultatif) pour la configuration, puis sélectionnez le canal Activité en direct .
 
    >[!NOTE]
    >
