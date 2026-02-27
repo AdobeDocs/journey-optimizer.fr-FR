@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '1603'
-ht-degree: 100%
+exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '1746'
+ht-degree: 89%
 
 ---
 
 # Questions fréquentes {#mobile-live-faq}
-
->[!BEGINSHADEBOX]
-
-* [Commencer avec les activités en direct](get-started-mobile-live.md)
-* [Configuration des activités en direct](mobile-live-configuration.md)
-* [Intégration des activités en direct au SDK mobile Adobe Experience Platform](mobile-live-configuration-sdk.md)
-* [Créer une activité en direct](create-mobile-live.md)
-* **[Questions fréquentes](mobile-live-faq.md)**
-* [Rapport de campagne d’activités en direct](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 ## Questions générales
 
@@ -123,6 +113,24 @@ Oui. Le `ActivityConfiguration` dispose de fermetures distinctes pour le contenu
 Non. Lorsque vous enregistrez un type d’activité en direct avec `Messaging.registerLiveActivity()`, le SDK collecte et gère automatiquement les jetons push.
 +++
 
++++Y a-t-il des limites au démarrage à distance d’activités en direct ?
+
+Oui. Les démarrages à distance via `ActivityKit` sont soumis à des limites appliquées par le système. Si vous tentez plusieurs demandes de démarrage en succession rapide, iOS peut rejeter d’autres démarrages en raison des quotas d’activité en direct ou des contraintes budgétaires. Après environ 5 tentatives de démarrage consécutives, les requêtes suivantes commencent à échouer jusqu’à ce qu’une brève période de refonte soit passée.
+
++++
+
++++Quel est le budget alloué aux mises à jour prioritaires ?
+
+Apple ne spécifie pas de limite numérique exacte pour les mises à jour prioritaires d’`(priority: 10)` Live Activity. Le système gère un budget interne dynamique qui limite la fréquence d’envoi de ces mises à jour. Si un trop grand nombre de mises à jour hautement prioritaires sont publiées en peu de temps, iOS peut ralentir ou retarder les mises à jour suivantes.
+
+Pour minimiser le ralentissement :
+
+* **Équilibrer les niveaux de priorité** : combinez les mises à jour de `(priority: 5)` standard et de haute `(priority: 10)` en fonction de l’importance.
+* **Utilisez la priorité élevée avec parcimonie** : réservez la priorité élevée aux mises à jour urgentes, telles que la progression de la diffusion, le statut de la commande ou les scores de sport en direct.
+* **Prise en charge des mises à jour fréquentes** : incluez `NSSupportsLiveActivitiesFrequentUpdates` dans le `Info.plist` de votre application et définissez-le sur **OUI** si vous avez besoin de mises à jour fréquentes.
+
++++
+
 ### Questions des spécialistes marketing
 
 +++Puis-je personnaliser le contenu de l’activité en direct pour chaque utilisateur et utilisatrice dans une campagne de diffusion ?
@@ -142,7 +150,7 @@ L’appel API déclenche immédiatement l’activité en direct. Cependant, vous
 
 +++Que se passe-t-il si j’envoie un événement de démarrage pour une activité en direct qui existe déjà ?
 
-Lorsque vous démarrez à distance des activités en direct via les API d’exécution d’Adobe :
+Lors du démarrage à distance d’activités dynamiques avec les API d’exécution d’Adobe :
 
 * Vous pouvez inclure un en-tête `x-request-id` dans votre requête. Idéalement, chaque `liveActivityID` devrait être associé à un seul `x-request-id`. Ainsi, si plusieurs requêtes sont effectuées avec la même combinaison de `x-request-id` et `liveActivityID`, une seule activité en direct démarrera sur l’appareil et les requêtes en double seront ignorées.
 
@@ -235,6 +243,7 @@ Causes fréquentes :
 * Les champs `content-state` ne correspondent pas votre structure `ContentState`.
 * L’activité en direct est déjà terminée.
 * Problèmes de connectivité réseau sur l’appareil.
+* L’heure d’époque utilisée comme horodatage n’est pas à jour.
 
 +++
 
@@ -259,7 +268,7 @@ Vous devez envoyer un événement d’arrêt pour chaque activité en direct. Su
 
 +++
 
-+++Mon widget affiche « Aucune donnée » même si j’ai envoyé une mise à jour. Quel peut être le problème ?
++++Mon widget affiche « Aucune donnée » même si j’ai envoyé une mise à jour. Quel peut être le problème ?
 
 * Vérifiez que l’implémentation de votre widget accède correctement au `context.state` et aux `context.attributes`.
 * Vérifiez que les valeurs par défaut ou les états d’erreur sont gérés dans l’interface de votre widget.

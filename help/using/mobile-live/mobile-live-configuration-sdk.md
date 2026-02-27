@@ -8,27 +8,16 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '465'
+exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '437'
 ht-degree: 100%
 
 ---
 
-
 # Intégration des activités en direct au SDK mobile Adobe Experience Platform {#mobile-live-config-sdk}
 
->[!BEGINSHADEBOX]
-
-* [Commencer avec les activités en direct](get-started-mobile-live.md)
-* [Configuration des activités en direct](mobile-live-configuration.md)
-* **[Intégration d’une activité en direct au SDK mobile Adobe Experience Platform](mobile-live-configuration-sdk.md)**
-* [Créer une activité en direct](create-mobile-live.md)
-* [Questions fréquentes](mobile-live-faq.md)
-* [Rapport de campagne d’activités en direct](../reports/campaign-global-report-cja-activity.md)
-
-
->[!ENDSHADEBOX]
 
 Le SDK mobile d’Adobe Experience Platform offre une prise en charge intégrée des activités en direct d’Apple. Cela permet à votre application d’afficher des mises à jour dynamiques en temps réel directement sur l’écran de verrouillage et Dynamic Island sans ouvrir l’application.
 
@@ -242,5 +231,3 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
     }
 }
 ```
-
-

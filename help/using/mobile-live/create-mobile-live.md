@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
-workflow-type: ht
-source-wordcount: '317'
-ht-degree: 100%
+exl-id: 9864a136-e129-4279-bb09-081b72f584df
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 75%
 
 ---
 
 # Créer une activité en direct {#create-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* [Commencer avec les activités en direct](get-started-mobile-live.md)
-* [Configuration des activités en direct](mobile-live-configuration.md)
-* [Intégration des activités en direct au SDK mobile Adobe Experience Platform](mobile-live-configuration-sdk.md)
-* **[Créer une activité en direct](create-mobile-live.md)**
-* [Questions fréquentes](mobile-live-faq.md)
-* [Rapport de campagne d’activités en direct](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 Après avoir effectué la configuration mobile et implémenté le SDK mobile Adobe Experience Platform, vous pouvez créer une activité en direct dans Journey Optimizer :
 
@@ -52,9 +42,13 @@ Après avoir effectué la configuration mobile et implémenté le SDK mobile Ado
 
    ![](assets/create-live-2.png)
 
-1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md).
+1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md)
 
 1. Dans l’onglet **[!UICONTROL Audience]**, choisissez le **[!UICONTROL Type d’identité]** [En savoir plus](../audience/about-audiences.md).
+
+   >[!NOTE]
+   >
+   >Pour les campagnes **Marketing déclenché par API**, vous pouvez sélectionner une audience existante qui agit comme première segmentation avant de vérifier l’abonnement à l’identifiant de canal APNs à partir de la payload de l’API.
 
 1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/create-campaign.md#schedule).
 
@@ -68,9 +62,9 @@ Après avoir effectué la configuration mobile et implémenté le SDK mobile Ado
 
    ![](assets/create-live-3.png)
 
-   +++ Exemple de payload individuelle
+   +++ Exemple de payload pour les cas d’utilisation unitaires (campagne transactionnelle déclenchée par une API)
 
-   Notez que la plupart des champs de l’exemple de payload suivant sont obligatoires, seuls `requestId`, `dismissal-date` et `alert` sont facultatifs.
+   Cet exemple de payload concerne des campagnes individuelles utilisant le type de campagne **transactionnel déclenché par l’API**. Notez que la plupart des champs de l’exemple de payload suivant sont obligatoires, seuls `requestId`, `dismissal-date` et `alert` sont facultatifs.
 
    ```json
    {
@@ -116,4 +110,53 @@ Après avoir effectué la configuration mobile et implémenté le SDK mobile Ado
 
    +++
 
+   +++ Exemple de payload pour les cas d’utilisation de diffusion (campagne marketing déclenchée par API)
+
+   Cet exemple de payload est destiné aux campagnes basées sur une audience utilisant le type de campagne **Marketing déclenché par l’API**.
+
+   ```json
+   {
+       "requestId": "123400000",
+       "campaignId": "d32e6f6c-56df-4a98-a2c0-6db6008f8f32",
+       "audience": {
+           "id": "508f9416-52d0-4898-ba47-08baaa22e9c7"
+       },
+       "context": {
+           "requestPayload": {
+               "aps": {
+                   "input-push-channel": "V+8UslywEfAAAOq9SbTrLg==",  //apns-channel-id
+                   "content-available": 1,
+                   "timestamp": 1770808339,
+                   "event": "update",   // start | update | end
+   
+                   // Fields from GameScoreLiveActivityAttributes
+                   "content-state": {
+                       "homeTeamScore": 33,
+                       "awayTeamScore": 49,
+                       "statusText": "Wingdom keeps scoring!"
+                   },
+                   "attributes-type": "GameScoreLiveActivityAttributes",
+                   "attributes": {
+                       "liveActivityData": {
+                           "channelID": "V+8UslywEfAAAOq9SbTrLg=="   //apns-channel-id, must match the "input-push-channel" value
+                       }
+                   },
+                   "alert": {
+                       "title": "This is the title for game",
+                       "body": "This is the body for body"
+                   }
+               }
+           }
+       }
+   }
+   ```
+
+   +++
+
 Après avoir créé votre activité en direct, vous pouvez suivre son impact à l’aide des [rapports intégrés](../reports/campaign-global-report-cja-activity.md).
+
+## Vidéo pratique
+
+Découvrez comment configurer les activités iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

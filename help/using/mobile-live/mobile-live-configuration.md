@@ -8,25 +8,15 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '533'
+exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
 
 # Commencer la configuration des activités en direct {#mobile-live-config}
-
->[!BEGINSHADEBOX]
-
-* [Commencer avec les activités en direct](get-started-mobile-live.md)
-* **[Configuration d’une activité en direct](mobile-live-configuration.md)**
-* [Intégration des activités en direct au SDK mobile Adobe Experience Platform](mobile-live-configuration-sdk.md)
-* [Créer une activité en direct](create-mobile-live.md)
-* [Questions fréquentes](mobile-live-faq.md)
-* [Rapport de campagne d’activités en direct](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 Avant d’envoyer une activité en direct, vous devez configurer votre environnement Adobe Journey Optimizer. Pour ce faire, procédez comme suit :
 

@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 7983480646eb49f32716cda19001ef7b9a95ba82
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 95%
+source-wordcount: '561'
+ht-degree: 58%
 
 ---
 
@@ -49,21 +49,43 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit une vue d’ensemble 
 
 ## Cycle de vie d’une activité dynamique {#lifecycle}
 
-![](assets/activity-lifecycle.png)
-
 Le tableau **[!UICONTROL Cycle de vie des activités dynamiques]** offre une vue complète de la progression de vos activités dynamiques au fil du temps. Il offre une visibilité sur les événements clés, tels que le moment où les activités sont démarrées, mises à jour ou terminées, ce qui vous permet de mieux comprendre l’interaction clientèle et le cycle de vie global de vos campagnes d’activités dynamiques.
 
-+++ En savoir plus sur les mesures de cycle de vie des activités dynamiques
+Le compte rendu des performances diffère selon que vous utilisez des campagnes transactionnelles ou marketing.
 
-* **[!UICONTROL Démarrages à distance]** : nombre d’activités dynamiques lancées à distance, généralement déclenchées par le serveur ou le système principal.
+### Activités transactionnelles en direct
 
-* **[!UICONTROL Démarrages locaux]** : nombre d’activités dynamiques démarrées localement sur l’appareil d’une personne, souvent suite à une interaction ou à des déclencheurs côté clientèle.
+![](assets/activity-lifecycle.png)
 
-**[!UICONTROL Mises à jour]** : nombre total de mises à jour d’activité dynamique envoyées aux appareils. Les mises à jour peuvent inclure des changements de statut, du nouveau contenu ou des notifications de progression.
+Pour une campagne transactionnelle, le rapport de campagne Activités dynamiques affiche tous les événements de cycle de vie, y compris les démarrages à distance, les démarrages locaux, les mises à jour et les fins de campagne.
 
-**[!UICONTROL Se termine]** : nombre d’activités dynamiques qui se sont terminées, soit automatiquement à la fin de l’opération, soit manuellement par le biais d’un déclencheur ou d’une temporisation définis.
++++ En savoir plus sur les mesures de cycle de vie des activités dynamiques avec les campagnes transactionnelles
 
-**[!UICONTROL Totaux]** : total général de tous les événements du cycle de vie d’une activité dynamique, y compris les démarrages, les mises à jour et les fins, fournissant une mesure complète du volume d’activité dynamique.
+* **[!UICONTROL démarrages à distance]** : nombre total d’événements de démarrage d’activités dynamiques lancés à distance, généralement déclenchés par le serveur ou les systèmes principaux.
+
+* **[!UICONTROL Lancements locaux]** : nombre total d’événements de démarrage d’activités dynamiques lancés localement sur l’appareil d’un utilisateur, souvent à la suite d’une interaction utilisateur ou de déclencheurs côté client.
+
+* **[!UICONTROL Mises à jour]** : nombre total de mises à jour d’activité dynamique envoyées aux appareils. Les mises à jour peuvent inclure des changements de statut, du nouveau contenu ou des notifications de progression.
+
+* **[!UICONTROL Se termine]** : nombre total d’événements de fin d’activités dynamiques envoyés aux appareils.
+
+* **[!UICONTROL Totaux]** : total général de tous les événements du cycle de vie d’une activité dynamique, y compris les démarrages, les mises à jour et les fins, fournissant une mesure complète du volume d’activité dynamique.
+
++++
+
+### Activités marketing en direct
+
+![](assets/activity-lifecycle-broadcast.png)
+
+Les campagnes marketing utilisent des activités en direct pour les cas d’utilisation de diffusion, envoyant des mises à jour à plusieurs appareils simultanément.
+
+Pour les activités iOS Live dans les campagnes marketing, le rapport affiche uniquement les événements **[!UICONTROL Démarrages à distance]** et **[!UICONTROL Erreurs de démarrages à distance]** au démarrage. Les événements **[!UICONTROL Mises à jour]** et **[!UICONTROL Fin]** ne sont pas suivis, car APNs distribue les mises à jour à tous les appareils sans fournir de commentaires. Pour afficher les événements **[!UICONTROL Mises à jour]** et **[!UICONTROL Se termine]**, utilisez la console [Notification push Apple](https://developer.apple.com/notifications/push-notifications-console/).
+
++++ En savoir plus sur les mesures de cycle de vie des activités dynamiques avec les campagnes marketing
+
+* **[!UICONTROL démarrages à distance]** : nombre total d’événements de démarrage d’activités dynamiques lancés à distance, généralement déclenchés par le serveur ou les systèmes principaux.
+
+* **[!UICONTROL Erreurs de démarrage à distance]** : nombre total d’erreurs qui se sont produites lors de la tentative de démarrage à distance d’activités dynamiques (par exemple, jetons non valides ou problèmes de connectivité).
 
 +++
 

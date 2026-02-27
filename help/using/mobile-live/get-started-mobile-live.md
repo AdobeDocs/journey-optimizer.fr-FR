@@ -8,26 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '278'
+exl-id: c9766603-df19-4efd-8319-27e9764254b4
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
 
-
 # Commencer avec les activités en direct {#get-started-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* **[Commencer avec les activités en direct](get-started-mobile-live.md)**
-* [Configuration des activités en direct](mobile-live-configuration.md)
-* [Intégration des activités en direct au SDK mobile Adobe Experience Platform](mobile-live-configuration-sdk.md)
-* [Créer une activité en direct](create-mobile-live.md)
-* [Questions fréquentes](mobile-live-faq.md)
-* [Rapport de campagne d’activités en direct](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -67,7 +56,3 @@ Suivez les étapes ci-dessous pour configurer et implémenter des activités en 
 1. **[Surveiller vos campagnes](../reports/campaign-global-report-cja-activity.md)**
 
    Commencez à mesurer l’impact de vos activités en direct à l’aide de rapports intégrés.
-
-
-
-
