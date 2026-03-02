@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 5bb1a76ac0797f5fdea36e8b7164cb139ebd40dd
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 48%
+source-wordcount: '1802'
+ht-degree: 47%
 
 ---
 
@@ -58,6 +58,12 @@ Non. L’activité en direct peut être démarrée, mise à jour et terminée à
 +++Pendant combien de temps une activité Live peut-elle rester active ?
 
 Apple limite l&#39;activité en direct à **8 heures de mises à jour actives**. Ensuite, le système met automatiquement fin à l’activité, bien qu’elle puisse rester visible dans un état statique pendant **12 heures supplémentaires au maximum** avant d’être supprimée. Vous pouvez également terminer une activité active plus tôt en définissant un `dismissalDate` ou en appelant explicitement `activity.end()` dans votre application.
+
++++
+
++++ Quelles sont les limites de taux ?
+
+Les campagnes ont une limite de taux par défaut de 500 messages transactionnels par seconde sur tous les canaux, y compris les activités iOS Live. Cette limite s’applique à l’ensemble des canaux. Il n’existe pas de limite tarifaire distincte spécifiquement pour les activités iOS Live.
 
 +++
 
