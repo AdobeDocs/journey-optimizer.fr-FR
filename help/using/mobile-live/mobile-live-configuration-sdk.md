@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 8af635a27bc37005c63050f95089a5ab65edd0e2
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 76%
+source-wordcount: '472'
+ht-degree: 73%
 
 ---
 
@@ -232,3 +232,13 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
     }
 }
 ```
+
+## Ressources supplémentaires
+
+Pour une documentation SDK complète et des détails de mise en œuvre :
+
+* [Guide du développeur des activités en direct](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [Référence d’API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
+* [ Tutoriel sur l’activité en direct ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [Classes publiques](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+s
