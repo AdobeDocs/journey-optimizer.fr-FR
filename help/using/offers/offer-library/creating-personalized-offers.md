@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +83,7 @@ Pour créer une **offre**, procédez comme suit :
 
    ![](../assets/offer_manage-access.png)
 
-1. Ajoutez des représentations pour définir l’emplacement d’affichage de votre offre dans le message. [En savoir plus](add-representations.md)
+1. Ajoutez des représentations pour définir l’emplacement d’affichage de votre offre dans le message. [En savoir plus](add-representations.md) Lors de la personnalisation du contenu d&#39;une représentation, seules certaines fonctions sont prises en charge. Voir [Fonctions prises en charge dans l&#39;éditeur d&#39;expression](../personalization-editor-supported-functions.md).
 
    ![](../assets/channel-placement.png)
 
@@ -175,4 +175,4 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sé
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341347?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

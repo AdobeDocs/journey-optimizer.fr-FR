@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '361'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Les principales étapes de création, de configuration et de gestion des offres,
 
 Pour obtenir un exemple complet montrant comment configurer des offres, les utiliser dans une décision et exploiter cette décision dans un e-mail, consultez [cette page](../offers-e2e.md).
 
-## Création de composants {#create-components}
+## Créer des composants {#create-components}
 
 Avant de commencer à créer des offres, vous devez définir plusieurs composants que vous utiliserez dans vos offres.
 
@@ -77,7 +77,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 
 ## Création et gestion des offres {#create-and-manage-offers}
 
-1. [Créez des offres](creating-personalized-offers.md) et configurez leur contenu et leurs propriétés.
+1. [Créez des offres](creating-personalized-offers.md) et configurez leur contenu et leurs propriétés. Lorsque vous personnalisez le contenu de l&#39;offre (représentations), seules certaines fonctions d&#39;expression sont prises en charge. Voir [Fonctions prises en charge dans l&#39;éditeur d&#39;expression](../personalization-editor-supported-functions.md).
 
 1. [Créez des offres de secours](creating-fallback-offers.md), qui sont les dernières offres de recours à afficher si les clients ne sont éligibles à aucune des offres sélectionnées.
 

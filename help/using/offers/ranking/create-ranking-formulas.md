@@ -11,10 +11,10 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 100%
 Les **formules de classement** vous permettent de définir des règles déterminant quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres.
 
 Les formules de classement sont exprimées en **syntaxe PQL** et peuvent exploiter les attributs de profil, les données contextuelles et les attributs d&#39;offre. Pour plus d&#39;informations sur l&#39;utilisation de la syntaxe PQL, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr).
+
+Dans la gestion des décisions, seul un sous-ensemble de fonctions est pris en charge dans les formules de classement. Voir [Fonctions prises en charge dans l’éditeur d’expression](../personalization-editor-supported-functions.md) pour la liste.
 
 Après avoir créé une formule de classement, vous pouvez l’affecter à un emplacement dans une décision. Voir à ce propos la section [Configurer la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
 
