@@ -71,7 +71,7 @@ En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez éte
 
 1. Saisissez votre **[!UICONTROL ID de modèle]**.
 
-   Pour trouver votre identifiant de modèle Firefly, accédez au site web Firefly et à vos modèles formés. L’identifiant unique est disponible dans la section de gestion du modèle une fois publié. Pour plus d&#39;informations, consultez la documentation sur les modèles personnalisés Firefly [](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Pour trouver votre identifiant de modèle Firefly, accédez au site web Firefly et à vos modèles formés. L’identifiant unique est disponible dans la section de gestion du modèle une fois publié. Pour plus d&#39;informations, consultez la documentation sur les modèles personnalisés Firefly [&#128279;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
