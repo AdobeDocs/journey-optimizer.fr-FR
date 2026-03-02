@@ -110,7 +110,7 @@ Pour réutiliser votre contenu dans une représentation, accédez à la **Biblio
 
 Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
-Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [ Fonctions prises en charge dans l’éditeur d’expression ](../personalization-editor-supported-functions.md).
+Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [&#x200B; Fonctions prises en charge dans l’éditeur d’expression &#x200B;](../personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url.png)
 
@@ -138,7 +138,7 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 
    ![](../assets/offer-text-content.png)
 
-   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [ Fonctions prises en charge dans l’éditeur d’expression ](../personalization-editor-supported-functions.md).
+   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [&#x200B; Fonctions prises en charge dans l’éditeur d’expression &#x200B;](../personalization-editor-supported-functions.md).
 
    ![](../assets/offer-personalization.png)
 
