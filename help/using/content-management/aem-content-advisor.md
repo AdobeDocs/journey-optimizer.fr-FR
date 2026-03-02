@@ -82,7 +82,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
    * **Scene7** : disponible pour les ressources publiées (à l’exception des vidéos et de PDF). [En savoir plus sur les modificateurs Scene7 Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI** : disponible pour les ressources approuvées (sauf la vidéo). [En savoir plus sur Dynamic Media avec les modificateurs OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
+   * **OpenAPI** : disponible pour les ressources approuvées (sauf la vidéo). [En savoir plus sur Dynamic Media avec les modificateurs OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=fr){target="_blank"}
 
    * **Scene7 et OpenAPI** : disponible lorsque les deux configurations existent et que la ressource répond aux critères.
 
