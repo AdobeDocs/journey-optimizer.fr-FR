@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '913'
 ht-degree: 98%
 
 ---
@@ -39,7 +39,7 @@ Pour aller plus loin, vous pouvez également exploiter les données contextuelle
 
 * [Formules de classement : améliorer les offres en fonction des données contextuelles](../offers/ranking/create-ranking-formulas.md#context-data)
 * [Personnaliser des représentations basées sur des données contextuelles](../offers/offer-library/add-representations.md#context-data)
-* [Fonctions prises en charge dans l’éditeur d’expression](personalization-editor-supported-functions.md) (lors de la création d’expressions dans la gestion des décisions)
+* [Fonctions prises en charge dans l’éditeur de personnalisation](offer-library/personalization-editor-supported-functions.md) (lors de la personnalisation du contenu de l’offre dans la gestion des décisions)
 
 >[!ENDSHADEBOX]
 

@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 91%
@@ -74,7 +74,7 @@ Vous pouvez ajouter différents types de contenu à une représentation.
 >
 >Notez que seul le contenu correspondant au type de contenu de l&#39;emplacement peut être utilisé.
 >
->Lorsque vous utilisez l&#39;éditeur de personnalisation dans la gestion des décisions, seul un sous-ensemble de fonctions est pris en charge. Voir [Fonctions prises en charge dans l&#39;éditeur d&#39;expression](../personalization-editor-supported-functions.md).
+>Lorsque vous utilisez l’éditeur de personnalisation dans la gestion des décisions, seul un sous-ensemble de fonctions est pris en charge. Voir [Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
 
 ### Ajout d’images {#images}
 
@@ -110,13 +110,13 @@ Pour réutiliser votre contenu dans une représentation, accédez à la **Biblio
 
 Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
-Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [&#x200B; Fonctions prises en charge dans l’éditeur d’expression &#x200B;](../personalization-editor-supported-functions.md).
+Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [ Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url.png)
 
 Par exemple, vous souhaitez personnaliser l’image qui s’affiche sous forme d’offre. Vous voulez que les utilisateurs et utilisatrices qui préfèrent les vacances en ville voient la skyline de New York et les utilisateurs et utilisatrices qui préfèrent les vacances à la plage voient la rive nord d’Hawaii.
 
-Utilisez l’éditeur de personnalisation pour récupérer des attributs de profils stockés dans Adobe Experience Platform à l’aide de schémas d’union. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=fr){target="_blank"} Pour les fonctions prises en charge dans la gestion des décisions, voir [Fonctions prises en charge dans l’éditeur d’expression](../personalization-editor-supported-functions.md).
+Utilisez l’éditeur de personnalisation pour récupérer des attributs de profils stockés dans Adobe Experience Platform à l’aide de schémas d’union. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=fr){target="_blank"} Pour les fonctions prises en charge dans la gestion des décisions, voir [Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -138,7 +138,7 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 
    ![](../assets/offer-text-content.png)
 
-   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [&#x200B; Fonctions prises en charge dans l’éditeur d’expression &#x200B;](../personalization-editor-supported-functions.md).
+   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [ Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
 
    ![](../assets/offer-personalization.png)
 

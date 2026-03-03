@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '3123'
 ht-degree: 97%
@@ -695,7 +695,6 @@ ht-degree: 97%
          + [Commencer avec la gestion des décisions](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
          + [Mécanismes de sécurisation et limitations de la gestion des décisions](using/offers/decision-management-guardrails.md)
-         + [Fonctions prises en charge dans l’éditeur d’expression](using/offers/personalization-editor-supported-functions.md)
          + [Interface d’utilisation](using/offers/get-started/user-interface.md)
          + [Étapes clés de la création et de la gestion des offres](using/offers/offer-library/key-steps.md)
          + [Tirer profit des audiences de chargement personnalisées pour la prise de décision](using/offers/custom-upload-decisioning.md)
@@ -721,6 +720,7 @@ ht-degree: 97%
             + [Configurer les offres](/help/rp_landing_pages/configure-offers-landing-page.md)
             + [Créer des offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
             + [Ajouter des représentations](using/offers/offer-library/add-representations.md)
+            + [Fonctions prises en charge dans l’éditeur de personnalisation](using/offers/offer-library/personalization-editor-supported-functions.md)
             + [Ajouter des contraintes](using/offers/offer-library/add-constraints.md)
          + [Créer des offres de secours](using/offers/offer-library/creating-fallback-offers.md)
          + [Créer des collections](using/offers/offer-library/creating-collections.md)
@@ -951,7 +951,7 @@ ht-degree: 97%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

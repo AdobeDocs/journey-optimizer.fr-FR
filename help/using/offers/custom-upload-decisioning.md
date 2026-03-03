@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 97%
@@ -77,6 +77,6 @@ Pour pouvoir utiliser les attributs d’une audience de chargement personnalisé
 
 Une fois l’audience ajoutée comme contrainte, vous pouvez utiliser ses attributs pour personnaliser le contenu de représentation. Pour ce faire, accédez à l’onglet **Attributs de profil** et recherchez l’audience de chargement personnalisé. Sélectionnez les attributs pertinents de l’audience pour personnaliser le contenu de l’offre.
 
-Dans la gestion des décisions, seules certaines fonctions sont prises en charge lors de la personnalisation du contenu. Voir [Fonctions prises en charge dans l’éditeur d’expression](personalization-editor-supported-functions.md).
+Dans la gestion des décisions, seules certaines fonctions sont prises en charge lors de la personnalisation du contenu. Voir [Fonctions prises en charge dans l’éditeur de personnalisation](offer-library/personalization-editor-supported-functions.md).
 
 ![Interface de personnalisation des attributs de profil](assets/csv-perso.png)

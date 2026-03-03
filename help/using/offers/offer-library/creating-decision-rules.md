@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 92%
+source-wordcount: '425'
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,6 @@ Voici une liste des limites à connaître lors de l’utilisation de règles de 
 * La prise de décision Edge utilise le profil Edge qui ne stocke pas d’événements. Par conséquent, toute règle utilisée dans une décision Edge sera non valide.
 * Lors de la création d’une règle de décision, la recherche dans une période précédente n’est pas prise en charge. Par exemple, si vous spécifiez un événement d’expérience qui s’est produit au cours du dernier mois en tant que composant de la règle. Toute tentative d’inclusion d’une période de recherche arrière lors de la création d’une règle déclenche une erreur lors de son enregistrement.
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
-
->[!NOTE]
->
->Dans la gestion des décisions, seul un sous-ensemble de fonctions d’expression est pris en charge. Lorsque votre règle utilise des expressions ou des attributs de profil, consultez [Fonctions prises en charge dans l’éditeur d’expression](../personalization-editor-supported-functions.md) pour obtenir la liste des fonctions prises en charge.
 
 ## Création d’une règle de décision {#create}
 
@@ -85,4 +81,4 @@ Pour créer cette règle de décision, procédez comme suit :
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341367?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
