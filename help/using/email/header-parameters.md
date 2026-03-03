@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 >[!NOTE]
 >
 >Pour un contrôle accru des paramètres d’e-mail, vous pouvez personnaliser les paramètres d’en-tête. [En savoir plus](../email/surface-personalization.md#personalize-header)
+>
+>Lors de la [ modification d’une configuration d’e-mail](../configuration/channel-surfaces.md#edit-channel-surface) vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une configuration de canal.
 
 * **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]** : nom de l’expéditeur ou de l’expéditrice, tel que le nom de votre marque.
 * **[!UICONTROL Préfixe d’e-mail d’expéditeur]** : adresse e-mail à utiliser pour vos communications.
@@ -43,7 +45,7 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 
 >[!NOTE]
 >
->Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait dʼunion `-`.
+>Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
 ## Adresse e-mail de réponse {#reply-to-email}
 

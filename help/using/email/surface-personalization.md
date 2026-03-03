@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1171'
-ht-degree: 100%
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+workflow-type: tm+mt
+source-wordcount: '1192'
+ht-degree: 98%
 
 ---
 
@@ -90,6 +90,10 @@ Une fois que vous avez ajouté un ou plusieurs sous-domaines dynamiques à une c
 
 Vous pouvez également personnaliser tous les paramètres d’en-tête définis dans une configuration.
 
+>[!NOTE]
+>
+>Lors de la [ modification d’une configuration d’e-mail](../configuration/channel-surfaces.md#edit-channel-surface) vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une configuration de canal.
+
 Par exemple, si vous possédez plusieurs marques, vous pouvez créer une configuration unique et utiliser des valeurs personnalisées pour vos en-têtes d’e-mail. Vous pouvez ainsi vous assurer que tous les e-mails envoyés à partir de vos différentes marques sont adressés à chacun de vos clientes et clients avec les bons noms d’expéditeur et d’expéditrice (**De**) et les bonnes adresses e-mail. De la même manière, lorsque vos destinataires appuient sur le bouton **Répondre** dans leur logiciel client de messagerie, vous souhaitez que les noms dans **Répondre à** et que les e-mails correspondent à la bonne marque pour le bon utilisateur ou la bonne utilisatrice.
 
 Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de configuration, procédez comme suit.
@@ -140,7 +144,7 @@ Désormais, lorsque l’e-mail est envoyé, ce paramètre personnalisé est auto
 
 ## Afficher les détails de configuration {#view-surface-details}
 
-Lorsque vous utilisez une configuration avec des paramètres personnalisés dans une campagne ou un parcours, vous pouvez afficher les détails de la configuration directement dans la campagne ou le parcours. Suivez les étapes ci-dessous.
+Lorsque vous utilisez une configuration avec des paramètres personnalisés dans une campagne ou un parcours, vous pouvez afficher les détails de la configuration directement dans la campagne ou le parcours. Suivez les étapes ci-après.
 
 1. Créez une [campagne](../campaigns/create-campaign.md) e-mail ou un [parcours](../building-journeys/journey-gs.md) e-mail.
 
@@ -162,7 +166,7 @@ Lorsque vous utilisez une configuration avec des paramètres personnalisés dans
 
 ## Vérification de votre configuration {#check-configuration}
 
-Lors de l’utilisation d’une configuration personnalisée dans une campagne ou un parcours, vous pouvez prévisualiser le contenu de votre e-mail à l’aide de profils de test afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis. Suivez les étapes ci-dessous.
+Lors de l’utilisation d’une configuration personnalisée dans une campagne ou un parcours, vous pouvez prévisualiser le contenu de votre e-mail à l’aide de profils de test afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis. Suivez les étapes ci-après.
 
 >[!NOTE]
 >

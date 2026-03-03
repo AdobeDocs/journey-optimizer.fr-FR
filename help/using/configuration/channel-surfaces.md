@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1854'
-ht-degree: 94%
+source-wordcount: '1875'
+ht-degree: 98%
 
 ---
 
@@ -166,6 +166,8 @@ Pour modifier une configuration de canal, procédez comme suit.
 >[!NOTE]
 >
 >Vous ne pouvez pas modifier les **[!UICONTROL Paramètres des notifications push]**. Si une configuration de canal est uniquement paramétrée pour le canal Notification push, elle n’est pas modifiable.
+>
+>Lors de la modification d’une configuration d’e-mail, vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une [nouvelle configuration de canal](#create-channel-surface).
 
 1. Dans la liste, cliquez sur un nom de configuration de canal pour l’ouvrir.
 
@@ -252,13 +254,13 @@ En cas d’échec de la mise à jour, la configuration est à nouveau modifiable
 
 ## Désactiver une configuration de canal {#deactivate-a-surface}
 
-Pour empêcher la création de nouveaux messages à partir d’une configuration de canal **[!UICONTROL Active]**, vous pouvez la désactiver. <!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
+Pour empêcher la création de nouveaux messages à partir d’une configuration de canal **[!UICONTROL active]**, vous pouvez la désactiver.<!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
 
-Vous ne pouvez pas désactiver une configuration de canal dans les cas suivants :
+Vous ne pouvez pas désactiver une configuration de canal dans les cas suivants :
 
-* S’il est référencé par un parcours actif. Toute tentative de désactivation d’une configuration toujours en cours d’utilisation par un parcours dynamique entraîne une erreur. Pour désactiver une configuration de canal, assurez-vous que tous les parcours en direct utilisant cette configuration sont fermés ou arrêtés. [Découvrez comment terminer un parcours &#x200B;](../building-journeys/end-journey.md)
+* Si elle est référencée par un parcours actif. Toute tentative de désactivation d’une configuration toujours en cours d’utilisation par un parcours actif entraîne une erreur. Pour désactiver une configuration de canal, assurez-vous que tous les parcours actifs utilisant cette configuration sont fermés ou arrêtés. [Découvrez comment terminer un parcours](../building-journeys/end-journey.md).
 
-* Pendant le traitement d’une mise à jour de la configuration du canal. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canal](#edit-channel-surface) et sur les [statuts de mise à jour](#update-statuses).
+* Pendant le traitement d’une mise à jour de la configuration de canal. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canal](#edit-channel-surface) et sur les [statuts de mise à jour](#update-statuses)
 
 Pour désactiver une configuration de canal, procédez comme suit.
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 97%
+source-wordcount: '1339'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Vous pouvez envoyer une copie carbone invisible (Cci) d’un e-mail envoyé par 
 
 ### Activer les e-mails en Cci {#enable-bcc}
 
-Pour activer l’option **[!UICONTROL E-mail Cci]**, saisissez l’adresse e-mail de votre choix dans le champ dédié de la [configuration de canal](channel-surfaces.md) (c’est-à-dire le paramètre prédéfini de message). Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
+Pour activer l’option **[!UICONTROL E-mail Cci]**, saisissez l’adresse e-mail de votre choix dans le champ dédié de la [configuration du canal](channel-surfaces.md). Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
 
 >[!CAUTION]
 >
@@ -148,11 +148,11 @@ Selon les informations que vous recherchez, vous pouvez exécuter les requêtes 
 
    >[!NOTE]
    >
-   >Pour obtenir le paramètre `<journey version id>`, sélectionnez la version de parcours correspondante à partir du menu **[!UICONTROL Gestion des Parcours]** > **[!UICONTROL Parcours]**. L’ID de version du parcours s’affiche à la fin de l’URL affichée dans votre navigateur web. [En savoir plus sur les versions de parcours &#x200B;](../building-journeys/publish-journey.md#journey-versions)
+   >Pour obtenir le paramètre `<journey version id>`, sélectionnez la version de parcours correspondante dans le menu **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Parcours]**. L’ID de version du parcours s’affiche à la fin de l’URL affichée dans votre navigateur web. [En savoir plus sur les versions de parcours](../building-journeys/publish-journey.md#journey-versions)
    >
    >![](assets/preset-bcc-action-id.png)
 
-1. Exécutez cette requête pour récupérer tous les événements de retour de message (en particulier l’état des retours) générés pour un message spécifique ciblé sur un utilisateur spécifique au cours des 2 derniers jours :
+1. Exécutez cette requête pour récupérer tous les événements de retour de message (en particulier l’état des retours) générés pour un message spécifique ciblé sur une personne spécifique au cours des 2 derniers jours :
 
    ```
    SELECT  

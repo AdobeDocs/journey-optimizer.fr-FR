@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
-workflow-type: ht
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 100%
 
@@ -100,10 +100,18 @@ Vous pouvez envoyer une copie identique (ou une copie carbone invisible) des e-m
 Pour ce faire, activez la fonctionnalité optionnelle **[!UICONTROL E-mail Cci]** au niveau de la configuration du canal. [En savoir plus](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+<!--replace screenshot-->
 
 En outre, lors de la définition de l’adresse **[!UICONTROL E-mail Cci]**, veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de configuration du canal e-mail échouera.
 
 Si vous obtenez une erreur lors de l’envoi de la configuration du canal e-mail, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
+
+<!--
+## CC email {#cc-email}
+
+You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey Optimizer], so that an additional address receives a copy and is visible to the primary recipient. The CC field is optional and supports personalization. [Learn more](../configuration/cc-email-field.md)
+
+-->
 
 ## Envoyer à des adresses e-mail supprimées {#send-to-suppressed-email-addresses}
 
