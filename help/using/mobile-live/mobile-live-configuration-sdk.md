@@ -237,6 +237,6 @@ Pour une documentation SDK complète et des détails de mise en œuvre :
 
 * [Guide du développeur des activités en direct](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
 * [Référence d’API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [ Tutoriel sur l’activité en direct ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [&#x200B; Tutoriel sur l’activité en direct &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
 * [Classes publiques](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
 s
