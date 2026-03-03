@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 21bab54492aec0715ec5fa9c0a1061f7b6539274
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 35%
+source-wordcount: '1801'
+ht-degree: 34%
 
 ---
 
@@ -31,25 +31,23 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 ### Nouvelles fonctionnalités {#march-26-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Live Activities for iOS</strong><br/></th>
+<th><strong>Activité en direct pour iOS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Bring real-time experiences directly to your customers' Lock Screens and Dynamic Island with iOS Live Activities in Adobe Journey Optimizer. Deliver live updates, from order tracking and flight status to event countdowns, live scores and delivery progress, without requiring users to open your app. Keep your audience informed and engaged at exactly the right moment, right where they are.</p>
-<p>Previously released in beta, this capability is now available to all environments (General Availability).</p>
-<p>For more information, refer to the <a href="../mobile-live/get-started-mobile-live.md">detailed documentation</a>.</p>
-<p>Availability date: March 3, 2026</p>
+<p>Proposez des expériences en temps réel directement sur Lock Screens et Dynamic Island de vos clients grâce à l’activité iOS Live dans Adobe Journey Optimizer. Diffusez des mises à jour en direct, depuis le suivi des commandes et du statut des vols jusqu’au décompte des événements, aux scores en direct et à la progression de la diffusion, sans demander aux utilisateurs d’ouvrir votre application. Tenez votre public informé et engagé au bon moment, exactement où il se trouve.</p>
+<p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p>Pour plus d’informations, consultez la <a href="../mobile-live/get-started-mobile-live.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : mercredi 3 mars 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
@@ -81,11 +79,11 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 ## Notes de mise à jour de février 2026 {#feb-26-01-rn}
 
-Les sections [Nouvelles fonctionnalités](#feb-26-01-features) et [Améliorations](#feb-26-01-improv) couvrent les fonctionnalités déjà disponibles. La section [&#x200B; bientôt disponible &#x200B;](#coming-soon) répertorie les fonctionnalités et améliorations dont la publication est prévue pour février.
+Les sections [Nouvelles fonctionnalités](#feb-26-01-features) et [Améliorations](#feb-26-01-improv) couvrent les fonctionnalités déjà disponibles. La section [ bientôt disponible ](#coming-soon) répertorie les fonctionnalités et améliorations dont la publication est prévue pour février.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -284,7 +282,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
 #### Gestion de contenu
 

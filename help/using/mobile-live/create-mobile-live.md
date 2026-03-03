@@ -6,10 +6,8 @@ description: Découvrez comment créer une activité en direct dans Journey Opt
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 69%
@@ -159,4 +157,4 @@ Après avoir créé votre activité en direct, vous pouvez suivre son impact à 
 
 Découvrez comment configurer l’activité d’iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479866?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

@@ -6,10 +6,8 @@ description: Découvrez comment configurer votre environnement pour envoyer une 
 feature: Channel Configuration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 89%

@@ -6,10 +6,8 @@ description: Découvrez comment envoyer une activité en direct dans Journey Opt
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 60%
