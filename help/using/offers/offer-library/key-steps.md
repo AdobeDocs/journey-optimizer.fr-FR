@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: 9d85361c6f177e451149baf4e2677dce56c6130c
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 92%
+source-wordcount: '360'
+ht-degree: 93%
 
 ---
 
@@ -77,7 +77,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 
 ## Création et gestion des offres {#create-and-manage-offers}
 
-1. [Créez des offres](creating-personalized-offers.md) et configurez leur contenu et leurs propriétés. Lorsque vous personnalisez le contenu de l&#39;offre (représentations), seules certaines fonctions d&#39;expression sont prises en charge. Voir [Fonctions prises en charge dans l&#39;éditeur d&#39;expression](../personalization-editor-supported-functions.md).
+1. [Créez des offres](creating-personalized-offers.md) et configurez leur contenu et leurs propriétés. Lorsque vous personnalisez le contenu de l&#39;offre (représentations), seules certaines fonctions sont prises en charge. Voir [Fonctions prises en charge dans l&#39;éditeur de personnalisation](personalization-editor-supported-functions.md).
 
 1. [Créez des offres de secours](creating-fallback-offers.md), qui sont les dernières offres de recours à afficher si les clients ne sont éligibles à aucune des offres sélectionnées.
 
