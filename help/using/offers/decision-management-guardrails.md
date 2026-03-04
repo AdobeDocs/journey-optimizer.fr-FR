@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
 # Mécanismes de sécurisation et limitations de la gestion des décisions {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
+>Cette page présente les mécanismes de sécurisation pour l’ancienne fonctionnalité **Gestion des décisions**. Si vous utilisez **Prise de décision**, la fonctionnalité de prise de décision actuelle d’[!DNL Adobe Journey Optimizer] disponible via une expérience basée sur le code et des canaux e-mail, reportez-vous à la section [ Mécanismes de sécurisation et limitations de prise de décision](../experience-decisioning/decisioning-guardrails.md) à la place.
+>
+>Vous ne savez pas quelle fonctionnalité vous utilisez ? [En savoir plus sur Decisioning](../experience-decisioning/gs-experience-decisioning.md).
 
-Pour garantir une utilisation optimale de la gestion des décisions, gardez à l’esprit les mécanismes de sécurisation et limitations suivants.
+Cette page s’applique aux utilisateurs qui travaillent toujours avec l’ancien système de gestion des décisions. Pour garantir une utilisation optimale, gardez à l’esprit les mécanismes de sécurisation et limitations suivantes.
 
 La liste complète des mécanismes de sécurisation et limitations de [!DNL Journey Optimizer] est disponible dans [cette section](../start/guardrails.md).
 

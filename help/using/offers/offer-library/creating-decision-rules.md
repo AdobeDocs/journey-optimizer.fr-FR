@@ -10,18 +10,20 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 90%
 
 ---
 
 # Création de règles de décision {#create-decision-rules}
 
->[!TIP]
+>[!IMPORTANT]
 >
->La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+>Cette page couvre les règles de décision pour l’ancienne fonctionnalité **Gestion des décisions**. Si vous utilisez **Decisioning**, la fonctionnalité de prise de décision actuelle d’[!DNL Adobe Journey Optimizer] disponible via une expérience basée sur le code et des canaux e-mail, reportez-vous à la section [Créer des règles](../../experience-decisioning/rules.md) à la place.
+>
+>Vous ne savez pas quelle fonctionnalité vous utilisez ? [En savoir plus sur Decisioning](../../experience-decisioning/gs-experience-decisioning.md).
 
 ## À propos des règles de décision {#about}
 
@@ -81,4 +83,4 @@ Pour créer cette règle de décision, procédez comme suit :
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341367?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
