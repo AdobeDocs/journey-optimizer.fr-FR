@@ -96,7 +96,7 @@ Si vous [modifiez une configuration d’e-mail](channel-surfaces.md#edit-channel
 
 * **Gestion de la boîte de réception :** votre boîte de réception utilisée pour la fonctionnalité CC doit être correctement gérée pour l’espace et la diffusion. Si la boîte de réception renvoie des bounces, certains e-mails peuvent ne pas être reçus.
 
-* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [ bounces](../reports/suppression-list.md#delivery-failures).
+* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [&#x200B; bounces](../reports/suppression-list.md#delivery-failures).
 
 * **Création de rapports :** les ouvertures, les clics et autres engagements des destinataires CC sont inclus dans les mesures de création de rapports par e-mail. Ainsi, les ouvertures ou les clics des destinataires en copie cachée entraînent des erreurs de calcul dans les [rapports](../reports/report-gs-cja.md).
 
