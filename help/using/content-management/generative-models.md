@@ -6,9 +6,10 @@ description: Découvrez comment créer et gérer vos modèles génératifs.
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
+source-git-commit: 7873c333cbe5002695a11d1edaaf9e15f74a6d3f
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Choisissez le modèle adapté à vos besoins :
 - Le **[!UICONTROL modèle partenaire]**, optimisé par Gemini 2.5 Flash, offre des fonctionnalités spécialisées pour des cas d’utilisation spécifiques.
 - Les **[!UICONTROL modèles personnalisés]** sont des modèles spécifiques à la marque, entraînés sur vos propres ressources et ajoutés par votre entreprise.
 
-  En savoir plus sur les **[!UICONTROL modèles personnalisés]** dans la documentation d’[Adobe Firefly](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  En savoir plus sur les **[!UICONTROL modèles personnalisés]** dans la documentation d’[Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu. [En savoir plus sur la génération d’images](generative-image.md).
 
@@ -61,7 +62,7 @@ Les modèles Firefly personnalisés sont des modèles d’IA spécifiques à la 
 
 En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez étendre vos fonctionnalités d’IA au-delà des modèles par défaut et vous assurer que le contenu généré reflète de manière cohérente l’esthétique et les exigences uniques de votre marque.
 
-➡️ [Découvrez comment entraîner votre modèle personnalisé](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [Découvrez comment entraîner votre modèle personnalisé](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Dans le menu **[!UICONTROL Marques]**, accédez à l’onglet **[!UICONTROL Modèles génératifs]** et cliquez sur **[!UICONTROL Ajouter un modèle]**.
 
@@ -71,7 +72,19 @@ En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez éte
 
 1. Saisissez votre **[!UICONTROL ID de modèle]**.
 
-   Pour trouver votre identifiant de modèle Firefly, accédez au site web Firefly et à vos modèles formés. L’identifiant unique est disponible dans la section de gestion du modèle une fois publié. Pour plus d&#39;informations, consultez la documentation sur les modèles personnalisés Firefly [&#128279;](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   +++ Recherche de votre identifiant de modèle Firefly
+
+   1. Accédez au site web Firefly et à vos modèles formés.
+   1. Accédez au menu [Prévisualisation et test](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test).
+   1. Dans l’URL, recherchez la valeur après `customModelId=`. Copiez cette valeur pour l’utiliser comme ID de modèle.
+
+   Pour plus d&#39;informations, consultez la documentation sur les modèles personnalisés Firefly [](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+
+   ![](assets/gen-model-manage-10.png){zoomable="yes"}
+
+   +++
+
+   </br>
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
