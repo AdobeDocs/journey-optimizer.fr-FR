@@ -20,7 +20,7 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->Cette page présente les mécanismes de sécurisation pour l’ancienne fonctionnalité **Gestion des décisions**. Si vous utilisez **Prise de décision**, la fonctionnalité de prise de décision actuelle d’[!DNL Adobe Journey Optimizer] disponible via une expérience basée sur le code et des canaux e-mail, reportez-vous à la section [ Mécanismes de sécurisation et limitations de prise de décision](../experience-decisioning/decisioning-guardrails.md) à la place.
+>Cette page présente les mécanismes de sécurisation pour l’ancienne fonctionnalité **Gestion des décisions**. Si vous utilisez **Prise de décision**, la fonctionnalité de prise de décision actuelle d’[!DNL Adobe Journey Optimizer] disponible via une expérience basée sur le code et des canaux e-mail, reportez-vous à la section [&#x200B; Mécanismes de sécurisation et limitations de prise de décision](../experience-decisioning/decisioning-guardrails.md) à la place.
 >
 >Vous ne savez pas quelle fonctionnalité vous utilisez ? [En savoir plus sur Decisioning](../experience-decisioning/gs-experience-decisioning.md).
 
