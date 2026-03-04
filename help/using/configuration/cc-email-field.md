@@ -11,7 +11,8 @@ hide: true
 hidefromtoc: true
 keywords: CC, copie carbone, e-mail, configuration du canal, en-têtes d’e-mail, Cci
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
+source-git-commit: 780a9259ee081336d1efb3e38c2a8eee4e97b7e3
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 7%
@@ -95,7 +96,7 @@ Si vous [modifiez une configuration d’e-mail](channel-surfaces.md#edit-channel
 
 * **Gestion de la boîte de réception :** votre boîte de réception utilisée pour la fonctionnalité CC doit être correctement gérée pour l’espace et la diffusion. Si la boîte de réception renvoie des bounces, certains e-mails peuvent ne pas être reçus.
 
-* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [&#x200B; bounces](../reports/suppression-list.md#delivery-failures).
+* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [ bounces](../reports/suppression-list.md#delivery-failures).
 
 * **Création de rapports :** les ouvertures, les clics et autres engagements des destinataires CC sont inclus dans les mesures de création de rapports par e-mail. Ainsi, les ouvertures ou les clics des destinataires en copie cachée entraînent des erreurs de calcul dans les [rapports](../reports/report-gs-cja.md).
 
