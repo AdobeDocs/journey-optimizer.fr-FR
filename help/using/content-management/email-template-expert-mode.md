@@ -9,7 +9,8 @@ role: User
 hidefromtoc: true
 hide: true
 level: Experienced
-source-git-commit: 74102069afa519898149de33f890568950571f26
+exl-id: 0c586565-0c65-435f-986d-cd08b59de159
+source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 5%
@@ -60,7 +61,7 @@ Lorsque vous utilisez l’éditeur HTML avancé, les mécanismes de sécurisatio
    >
    >Cet avertissement s’affiche uniquement la première fois que vous ouvrez l’éditeur HTML avancé et se réinitialise chaque mois.
 
-   ![](assets/email-template-expert-mode-warning.png)
+   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
 1. L’éditeur HTML avancé s’affiche.
 
@@ -74,7 +75,7 @@ Lorsque vous utilisez l’éditeur HTML avancé, les mécanismes de sécurisatio
 
 1. L’enregistrement n’est pas disponible dans la vue HTML avancée. Revenez à la vue Bureau pour enregistrer vos modifications.
 
-   &lt;![](assets/email-template-expert-mode-save.png)
+   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
