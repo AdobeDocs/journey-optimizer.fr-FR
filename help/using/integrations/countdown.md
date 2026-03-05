@@ -8,10 +8,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
+exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
+source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 3%
+source-wordcount: '329'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +26,7 @@ Par exemple, en tant que spécialiste marketing pour une marque de vente au dét
 * Les destinataires qui ouvrent 24 heures plus tard voient « 23 heures restantes »
 * Les destinataires qui ouvrent après la fin de la vente voient « Vente terminée »
 
-Pour plus d’informations sur la création de votre contenu Dynamic Media dans Adobe Experience Manager, consultez [ce document](assets/do-not-localize/countdown.pdf).
+Pour plus d’informations sur l’ajout de minuteries de décompte à votre modèle Dynamic Media dans Adobe Experience Manager, reportez-vous [à ce document](assets/do-not-localize/countdown.pdf).
 
 
 1. Dans **[!DNL Adobe Experience Manager]**, créez un modèle Dynamic Media et ajoutez-y un composant Compte à rebours .
@@ -34,9 +35,9 @@ Pour plus d’informations sur la création de votre contenu Dynamic Media dans 
 
 1. Dans **[!DNL Journey Optimizer]**, créez une campagne ou ouvrez une campagne existante, puis accédez au Designer Email.
 
-1. Faites glisser et déposez un composant **[!UICONTROL HTML]** dans le contenu de votre e-mail.
+1. Faites glisser et déposez un composant **HTML** ou **Asset** dans le contenu de votre e-mail.
 
-1. Sélectionnez **[!UICONTROL Afficher le code source]** pour modifier directement l’HTML.
+1. Pointez sur le composant et cliquez sur **[!UICONTROL Afficher le code source]** (pour les composants HTML) ou **[!UICONTROL Parcourir]** (pour les composants Ressource).
 
    ![](assets/timer-2.png)
 
@@ -50,9 +51,10 @@ Pour plus d’informations sur la création de votre contenu Dynamic Media dans 
 
    ![](assets/timer-4.png)
 
-1. Sélectionnez la ressource dans la Designer d’e-mail, puis accédez au menu **[!UICONTROL Styles]**.
+1. Sélectionnez la ressource dans le Designer de messagerie, puis accédez au menu **[!UICONTROL Paramètres]**.
 
-   Configurez les paramètres suivants :
+   Configurez les éléments suivants :
+
    * **Texte de bannière** : texte affiché avec votre minuteur
    * **Heure de fin** : date et heure d’expiration du décompte. Saisissez l’heure en GMT (heure de Greenwich) uniquement. Le système n&#39;accepte pas d&#39;autres fuseaux horaires.
    * **Texte de secours** : message affiché après la fin du minuteur
@@ -62,4 +64,3 @@ Pour plus d’informations sur la création de votre contenu Dynamic Media dans 
 1. Cliquez sur **[!UICONTROL Aperçu]** pour afficher le minuteur avec les mises à jour du compte à rebours en temps réel et vérifier votre configuration.
 
 Lorsque les destinataires ouvrent l’e-mail, ils voient le temps précis restant pour votre vente flash. S’ils rouvrent l’e-mail ultérieurement, le compte à rebours est automatiquement mis à jour pour refléter le temps restant actuel. Après la date de fin, le message par défaut s’affiche automatiquement.
-

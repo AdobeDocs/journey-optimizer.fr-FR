@@ -7,13 +7,13 @@ role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 58b6300dd00cc4475397d117a705fe88deab1796
+exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
+source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
-
 
 # Utiliser le gestionnaire de contenu Adobe Experience Manager {#aem-content-advisor}
 
@@ -29,7 +29,7 @@ Le gestionnaire de contenu Adobe Experience Manager remplace la découverte dét
 
 Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalités de ressource suivantes :
 
-* &#x200B;
+* 
   +++ Recherche sémantique IA
 
   Recherchez des ressources en utilisant un langage naturel au lieu de mots-clés ou de noms de fichier exacts. Décrivez vos besoins en langage simple, par exemple « café dans les montagnes », et l’IA trouve des ressources pertinentes du point de vue du contexte en fonction du sens et du contenu, et pas seulement des correspondances textuelles.
@@ -38,7 +38,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
   +++
 
-* &#x200B;
+* 
   +++ Historique de recherche récent
 
   Accédez à vos recherches récentes pour réutiliser rapidement des mots-clés et des contextes. Cela vous permet de gagner du temps lorsque vous travaillez sur des campagnes similaires ou lorsque vous devez affiner les recherches précédentes.
@@ -47,7 +47,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
   +++ 
 
-* &#x200B;
+* 
   +++ Charger le brief
 
   Chargez un document de résumé marketing pour faire apparaître automatiquement les ressources qui correspondent à votre contexte de campagne. L’IA analyse votre résumé et suggère des ressources pertinentes en fonction du contenu et des exigences décrits dans le document.
@@ -56,7 +56,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
   +++
 
-* &#x200B;
+* 
   +++ Panneau d’informations sur les ressources
 
   Affichez les métadonnées et les propriétés détaillées de n’importe quelle ressource à l’aide de l’icône **Info**. Cela inclut les dimensions des ressources, la taille du fichier, la date de création, les balises et d’autres informations pertinentes pour vous aider à prendre des décisions éclairées.
@@ -65,7 +65,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
   +++
 
-* &#x200B;
+* 
   +++ Panneau Dynamic Media
 
   Accédez aux rendus dynamiques, aux recadrages intelligents et aux modifications à la volée en fonction de la configuration du référentiel.
@@ -80,7 +80,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
    * **Scene7** : disponible pour les ressources publiées (à l’exception des vidéos et de PDF). [En savoir plus sur les modificateurs Scene7 Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI** : disponible pour les ressources approuvées (sauf la vidéo). [En savoir plus sur Dynamic Media avec les modificateurs OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=fr){target="_blank"}
+   * **OpenAPI** : disponible pour les ressources approuvées (sauf la vidéo). [En savoir plus sur Dynamic Media avec les modificateurs OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
    * **Scene7 et OpenAPI** : disponible lorsque les deux configurations existent et que la ressource répond aux critères.
 
@@ -97,7 +97,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
 Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalités de fragment de contenu suivantes :
 
-* &#x200B;
+* 
   +++ Liste des vues de modèles 
 
   Basculez entre les vues Miniature et Tableau pour parcourir les fragments de contenu au format le plus adapté à votre workflow. La vue Miniature fournit un contexte visuel, tandis que la vue Tableau affiche des informations détaillées dans un format structuré.
@@ -106,7 +106,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
   +++
 
-* &#x200B;
+* 
   +++ Panneau Infos 
 
   Cliquez sur l’icône **[!UICONTROL Info]** pour ouvrir un panneau de droite affichant les variations de fragment, les propriétés et les détails **[!UICONTROL Référencé par]**. La section **[!UICONTROL Référencé par]** présente toutes les entités Adobe Experience Manager où le fragment est utilisé, avec des liens pour afficher ces références directement dans Adobe Experience Manager.
@@ -115,7 +115,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
   +++
 
-* &#x200B;
+* 
   +++ Ouvrir dans Adobe Experience Manager
 
   Ouvrez rapidement un fragment de contenu directement dans Adobe Experience Manager pour le modifier à l’aide de l’icône en regard du titre. Cette intégration transparente vous permet de basculer entre Journey Optimizer et Adobe Experience Manager sans perdre de contexte.
@@ -124,7 +124,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
   +++
 
-* &#x200B;
+* 
   +++ Aperçu JSON
 
   Prévisualisez la structure JSON des fragments de contenu dans un format de tableau organisé et épuré. Cela vous permet de comprendre la structure de données du fragment et de vérifier le contenu avant de l’utiliser dans vos campagnes.
@@ -147,11 +147,11 @@ Pour accéder au gestionnaire d’accès de Adobe Experience Manager dans Journe
 
 1. Dans l’éditeur Personalization, choisissez votre point d’entrée de contenu :
 
-   * Pour ajouter une ressource, cliquez sur **[!UICONTROL Assets]** puis **[!UICONTROL Ouvrir le sélecteur de ressources]**.
+   * Pour ajouter une ressource, cliquez sur **[!UICONTROL Assets]** puis **[!UICONTROL Ouvrir le gestionnaire de contenu AEM]**.
 
      ![](assets/content-advisor-11.png){zoomable="yes"}
 
-   * Pour ajouter un fragment de contenu Adobe Experience Manager, cliquez sur **[!UICONTROL Fragment de contenu AEM]** puis **[!UICONTROL Ouvrir le sélecteur AEM CF]**.
+   * Pour ajouter un fragment de contenu Adobe Experience Manager, cliquez sur **[!UICONTROL Fragment de contenu AEM]** puis **[!UICONTROL Ouvrir le gestionnaire de contenu AEM]**.
 
      ![](assets/content-advisor-12.png){zoomable="yes"}
 
@@ -160,5 +160,3 @@ Pour accéder au gestionnaire d’accès de Adobe Experience Manager dans Journe
    ![](assets/content-advisor-13.png){zoomable="yes"}
 
 1. Recherchez et sélectionnez la ressource ou le fragment de contenu à utiliser, puis insérez-le dans votre contenu.
-
-
