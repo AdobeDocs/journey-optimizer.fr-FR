@@ -8,16 +8,16 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
+source-git-commit: f46ec2fa3bcd342b864081e0e2c805c2a07e4236
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 77%
+source-wordcount: '1039'
+ht-degree: 95%
 
 ---
 
 # Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données {#ttl-guardrail}
 
-Depuis février 2025, un mécanisme de sécurisation de la durée de vie (TTL) est déployé dans les jeux de données générés par le système Journey Optimizer dans **les nouveaux sandbox et les nouvelles organisations** comme suit :
+À compter de février 2025, un mécanisme de sécurisation de la durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer dans **les nouveaux sandbox et les nouvelles organisations** comme suit :
 
 * 90 jours pour les données dans la banque de profils
 * 13 mois pour les données du lac de données
@@ -33,19 +33,11 @@ Le tableau ci-dessous répertorie tous les jeux de données affectés et leur du
 | Jeu de données d’événement de retour sur les messages AJO | 13 mois | 90 jours |
 | Jeu de données d’événement d’expérience de tracking d’e-mail AJO | 13 mois | 90 jours |
 | Jeu de données d’événement d’expérience de tracking de notifications push AJO | 13 mois | 90 jours |
-| Jeu de données d’entité AJO | 13 mois | 90 jours |
 | Jeu de données de surfaces AJO | 13 mois | S.O. |
 | Jeu de données d’événement d’activité entrante AJO | 13 mois | 90 jours |
-| Jeu de données de classification AJO | 13 mois | S.O. |
 | Jeu de données d’événement de retour des e-mails en Cci AJO | 13 mois | S.O. |
 | Jeu de données d’événement d’entité | 13 mois | S.O. |
-| Parcours | 13 mois | S.O. |
 | Événements d’étape de parcours | 13 mois | S.O. |
-| Référentiel d’objets de décision - Offres personnalisées | 13 mois | S.O. |
-| Référentiel d’objets de décision - Offres de secours | 13 mois | S.O. |
-| Référentiel d’objets de décision - Emplacements | 13 mois | S.O. |
-| Référentiel d’objets de décision - Activités | 13 mois | S.O. |
-| Référentiel d’objets de décisions pour les expériences - Éléments d’offres personnalisées | 13 mois | S.O. |
 | ODE DecisionEvents - Décisions de production | 13 mois | S.O. |
 
 ## Questions fréquentes {#faq}
@@ -53,6 +45,12 @@ Le tableau ci-dessous répertorie tous les jeux de données affectés et leur du
 Vous trouverez ci-dessous les questions fréquentes sur la durée de vie (TTL) de jeux de données.
 
 Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou contacter la [communauté Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+
++++Quels types de jeux de données sont soumis à une durée de vie ?
+
+La durée de vie s’applique uniquement aux jeux de données de série temporelle. Les jeux de données de type enregistrement (tels que les jeux de données d’entité, les jeux de données de classification et les référentiels d’objets de décision) ne sont pas soumis à une durée de vie et n’apparaissent donc pas dans le tableau Jeux de données affectés ci-dessus.
+
++++
 
 +++Cette modification s’appliquera-t-elle uniquement aux sandbox de production ou s’appliquera-t-elle également aux sandbox de développement ?
 
@@ -78,13 +76,13 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Ce
 
 >[!NOTE]
 >
->Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=_blank}
+>Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=&quot;_blank}
 
 +++
 
 +++La clientèle peut-elle augmenter la durée de vie des données du jeu de données système de [!DNL Journey Optimizer] dans le lac de données ? 
 
-Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -114,29 +112,29 @@ La date et l’heure de l’événement sont utilisées (et non la date d’inge
 
 +++
 
-+++Comment la nouvelle durée de vie affecte-t-elle les cas d’utilisation qui nécessitent une conservation des données plus longue (par exemple, en excluant les profils qui ont reçu un e-mail au cours des 120 derniers jours ou en limitant les e-mails sur un an) ?
++++Comment la nouvelle durée de vie affecte-t-elle les cas d’utilisation qui nécessitent une conservation des données plus longue (par exemple, en excluant les profils qui ont reçu un e-mail au cours des 120 derniers jours ou en limitant les e-mails sur un an) ?
 
-La nouvelle politique de durée de vie limite la période de recherche en amont des données de jeux de données générés par le système dans la banque de profils à 90 jours et dans le lac de données à 13 mois. Les cas d’utilisation qui nécessitent l’accès aux données au-delà de ces périodes seront affectés. Par exemple, la segmentation de l’audience ou le capping de la fréquence en fonction des événements de plus de 90 jours dans la banque de profils ne sera plus possible à l’aide des jeux de données système.
-
-+++
-
-+++Quelles sont les alternatives disponibles pour conserver les données plus longtemps que la durée de vie ?
-
-Les clients qui nécessitent une rétention plus longue doivent envisager d’exporter les données pertinentes des jeux de données AJO vers un stockage externe avant l’expiration de la durée de vie. Adobe Journey Optimizer prend en charge l’exportation de jeux de données vers diverses destinations d’espace de stockage (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=_blank}
+La nouvelle politique de durée de vie limite la période de consultation des données des jeux de données générés par le système à 90 jours dans la banque de profils et à 13 mois dans le lac de données. Les cas d’utilisation qui nécessitent l’accès aux données au-delà de ces périodes seront affectés. Par exemple, la segmentation d’audience ou le capping de la fréquence en fonction des événements de plus de 90 jours dans la banque de profils ne sera plus possible à l’aide des jeux de données système.
 
 +++
 
-+++Que doivent faire les clients pour se préparer au changement de durée de vie ?
++++Quelles sont les alternatives disponibles pour conserver les données plus longtemps que leur durée de vie ?
 
-* Passez en revue vos cas d’utilisation et identifiez ceux qui nécessitent une conservation des données au-delà des nouvelles TTL.
+Les personnes qui nécessitent une rétention plus longue doivent envisager d’exporter les données pertinentes des jeux de données AJO vers un stockage externe avant l’expiration de leur durée de vie. Adobe Journey Optimizer prend en charge l’export de jeux de données vers diverses destinations d’espace de stockage (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank}
+
++++
+
++++Que devons-nous faire en tant que clients et clientes pour nous préparer au changement de durée de vie ?
+
+* Passez en revue vos cas d’utilisation et identifiez ceux qui nécessitent une conservation des données au-delà des nouvelles durées de vie.
 * Configurez des requêtes automatisées pour copier des données critiques vers des jeux de données dérivés avant que les données ne soient supprimées.
-* Contactez votre représentant Adobe pour discuter des besoins supplémentaires ou des extensions de durée de vie potentielles (prévues pour les prochaines versions).
+* Contactez votre représentant ou représentante Adobe pour discuter des besoins supplémentaires ou des extensions de durée de vie potentielles (prévues pour les prochaines versions).
 
 +++
 
-+++Les clients seront-ils avertis avant l’application de la TTL sur les sandbox existants ?
++++Recevons-nous en tant que clients et clientes un avertissement avant l’application de la durée de vie sur les sandbox existants ?
 
-Oui, les clients concernés seront avertis à l’avance et l’équipe produit travaillera avec eux pour assurer une transition fluide.
+Oui, les personnes concernées seront averties à l’avance et l’équipe produit travaillera avec elles pour assurer une transition fluide.
 
 +++Puis-je supprimer des jeux de données générés par le système Journey Optimizer ?
 
