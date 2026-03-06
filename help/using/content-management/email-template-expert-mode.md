@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
+source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
@@ -80,3 +80,8 @@ Lorsque vous utilisez l’éditeur HTML avancé, les mécanismes de sécurisatio
    >[!NOTE]
    >
    >Le contenu ne peut être enregistré dans la vue Bureau que pour des raisons de compatibilité du contenu. Vos modifications sont conservées lorsque vous changez de vue.
+
+1. La simulation de contenu n’est pas disponible dans la vue HTML avancée. Pour simuler votre contenu, passez à la vue Bureau.
+
+   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+
