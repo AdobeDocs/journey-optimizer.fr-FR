@@ -1,42 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Liste autorisée
-description: Découvrez comment utiliser la liste autorisée.
+title: Configurer une liste autorisée
+description: Découvrez comment configurer et gérer une liste autorisée dans Journey Optimizer pour restreindre l’envoi d’e-mails à des adresses et domaines de confiance au niveau du sandbox.
 feature: Deliverability
-topic: Content Management
+topic: Deliverability
 role: Admin
-level: Experienced
-keywords: liste autorisée, liste, sécurisé, configuration
+level: Intermediate
+keywords: liste autorisée, liste sécurisée, e-mail, délivrabilité, sandbox, domaines, suppression, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 100%
+source-wordcount: '1312'
+ht-degree: 76%
 
 ---
 
 # Configurer une liste autorisée {#allow-list}
 
-Il est possible de définir une liste de sécurité d’envoi spécifique au niveau du [sandbox](../administration/sandboxes.md).
-
-La liste autorisée vous permet de spécifier des adresses e-mail ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les e-mails que vous envoyez à partir d’un sandbox spécifique.
+La liste autorisée est une liste d’envoi sécurisé que vous pouvez définir au niveau du [sandbox](../administration/sandboxes.md). Il limite l’envoi d’e-mails à des adresses ou domaines spécifiques, en veillant à ce que seuls les destinataires explicitement répertoriés puissent recevoir des messages d’un sandbox donné.
 
 >[!CAUTION]
 >
 >Cette fonctionnalité s’applique uniquement au canal e-mail. Elle est disponible sur les sandbox de production et hors production.
 
-Par exemple, sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous ne risquez pas d’envoyer des messages indésirables à de vraies adresses client et fournit donc un environnement sécurisé à des fins de test.
+Sur les sandbox hors production, où des envois accidentels peuvent se produire, la liste autorisée empêche les messages indésirables d’atteindre des adresses réelles des clients, fournissant ainsi un environnement sécurisé à des fins de test.
 
-De plus, lorsque la liste autorisée est active mais vide, aucun e-mail ne sera envoyé. Par conséquent, si vous rencontrez un problème majeur, vous pouvez utiliser cette fonctionnalité pour arrêter toutes les communications sortantes depuis [!DNL Journey Optimizer] jusqu’à ce que vous résolviez le problème. En savoir plus sur la [logique de liste autorisée](#logic).
+Lorsque la liste autorisée est active mais vide, aucun e-mail n’est envoyé. Cela en fait un frein d’urgence utile : si un problème critique se produit, vous pouvez activer une liste autorisée vide pour arrêter toutes les communications sortantes depuis [!DNL Journey Optimizer] jusqu’à ce que le problème soit résolu. En savoir plus sur la [logique de liste autorisée](#logic).
 
-En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Vous pouvez également utiliser l’API Journey Optimizer **API REST de suppression** pour gérer les messages sortants par programmation via la suppression et les listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Accéder à la liste autorisée {#access-allowed-list}
 
 Pour accéder à la liste détaillée des adresses e-mail et domaines autorisés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]**, puis sélectionnez **[!UICONTROL Liste autorisée]**.
 
-![](assets/allow-list-access.png)
+Page de Liste autorisée ![affichant la liste des adresses e-mail et domaines autorisés](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
@@ -48,7 +46,7 @@ Utilisez le bouton **[!UICONTROL Supprimer]** pour supprimer définitivement une
 
 Vous pouvez effectuer des recherches sur les adresses e-mail ou domaines, puis filtrer selon le **[!UICONTROL Type d’adresse]**. Une fois sélectionné, vous pouvez effacer le filtre affiché en haut de la liste.
 
-![](assets/allowed-list-filtering-example.png)
+![Liste autorisée filtrée par type d&#39;adresse](assets/allowed-list-filtering-example.png)
 
 ## Activer la liste autorisée {#enable-allow-list}
 
@@ -58,11 +56,11 @@ Pour activer la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![](assets/allow-list-edit.png)
+   ![Bouton bascule pour activer la liste autorisée ](assets/allow-list-edit.png)
 
 1. Sélectionnez **[!UICONTROL Activer la liste autorisée]**. La liste autorisée est maintenant active.
 
-   ![](assets/allow-list-enable.png)
+   ![Confirmation que la liste autorisée est maintenant active](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
@@ -82,11 +80,11 @@ Pour désactiver la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![](assets/allow-list-edit-active.png)
+   ![Bouton bascule pour désactiver la liste autorisée ](assets/allow-list-edit-active.png)
 
 1. Sélectionnez **[!UICONTROL Désactiver la liste autorisée]**. La liste autorisée n’est plus active.
 
-   ![](assets/allow-list-deactivate.png)
+   ![Confirmation que la liste autorisée est maintenant inactive](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
@@ -124,7 +122,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Sélectionnez le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]**.
 
-   ![](assets/allowed-list-add-email.png)
+   ![Bouton Ajouter un e-mail ou un domaine sur la page de liste autorisée ](assets/allowed-list-add-email.png)
 
 1. Choisissez le type d&#39;adresse : **[!UICONTROL Adresse e-mail]** ou **[!UICONTROL Adresse de domaine]**.
 
@@ -136,7 +134,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Indiquez un motif si nécessaire.
 
-   ![](assets/allowed-list-add-email-address.png)
+   ![Formulaire pour ajouter une adresse e-mail ou un domaine à la liste autorisée, avec un champ de motif facultatif](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
@@ -148,7 +146,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 Pour renseigner la liste autorisée, vous pouvez également appeler l’API de suppression avec la valeur `ALLOWED` pour l’attribut `listType`. Par exemple :
 
-![](assets/allow-list-api.png)
+![Exemple d’appel API pour ajouter une entrée à la liste autorisée à l’aide de l’API de suppression](assets/allow-list-api.png)
 
 Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 
@@ -160,11 +158,11 @@ Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous 
 
 1. Sélectionnez le bouton **[!UICONTROL Téléchargement le CSV]**.
 
-   ![](assets/allowed-list-download-csv.png)
+   ![Bouton Télécharger CSV sur la page liste autorisée ](assets/allowed-list-download-csv.png)
 
 1. Patientez jusqu’à ce que le fichier soit généré.
 
-   ![](assets/allowed-list-download-generate.png)
+   ![Notification indiquant que le fichier CSV est en cours de génération](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
@@ -176,7 +174,7 @@ Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous 
 
 1. Cliquez sur la notification elle-même pour télécharger le fichier.
 
-   ![](assets/allowed-list-download-notification.png)
+   ![Notification avec un lien de téléchargement pour le fichier CSV généré](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
