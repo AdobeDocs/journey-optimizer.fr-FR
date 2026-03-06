@@ -4,12 +4,11 @@ product: journey optimizer
 title: Configurer une liste autorisée
 description: Découvrez comment configurer et gérer une liste autorisée dans Journey Optimizer pour restreindre l’envoi d’e-mails à des adresses et domaines de confiance au niveau du sandbox.
 feature: Deliverability
-topic: Deliverability
 role: Admin
 level: Intermediate
 keywords: liste autorisée, liste sécurisée, e-mail, délivrabilité, sandbox, domaines, suppression, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
+source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 76%
@@ -56,7 +55,7 @@ Pour activer la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![Bouton bascule pour activer la liste autorisée &#x200B;](assets/allow-list-edit.png)
+   ![Bouton bascule pour activer la liste autorisée ](assets/allow-list-edit.png)
 
 1. Sélectionnez **[!UICONTROL Activer la liste autorisée]**. La liste autorisée est maintenant active.
 
@@ -80,7 +79,7 @@ Pour désactiver la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![Bouton bascule pour désactiver la liste autorisée &#x200B;](assets/allow-list-edit-active.png)
+   ![Bouton bascule pour désactiver la liste autorisée ](assets/allow-list-edit-active.png)
 
 1. Sélectionnez **[!UICONTROL Désactiver la liste autorisée]**. La liste autorisée n’est plus active.
 
@@ -122,7 +121,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Sélectionnez le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]**.
 
-   ![Bouton Ajouter un e-mail ou un domaine sur la page de liste autorisée &#x200B;](assets/allowed-list-add-email.png)
+   ![Bouton Ajouter un e-mail ou un domaine sur la page de liste autorisée ](assets/allowed-list-add-email.png)
 
 1. Choisissez le type d&#39;adresse : **[!UICONTROL Adresse e-mail]** ou **[!UICONTROL Adresse de domaine]**.
 
@@ -158,7 +157,7 @@ Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous 
 
 1. Sélectionnez le bouton **[!UICONTROL Téléchargement le CSV]**.
 
-   ![Bouton Télécharger CSV sur la page liste autorisée &#x200B;](assets/allowed-list-download-csv.png)
+   ![Bouton Télécharger CSV sur la page liste autorisée ](assets/allowed-list-download-csv.png)
 
 1. Patientez jusqu’à ce que le fichier soit généré.
 
