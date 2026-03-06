@@ -7,14 +7,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 71%
 
 ---
 
 # Accéder aux modèles de contenu et les gérer {#access-manage-templates}
+
+## Conditions préalables {#prerequisites}
+
+Pour accéder aux modèles de contenu et les gérer, vérifiez les points suivants :
+
+* **Autorisation Modèles de contenu** — Votre rôle doit inclure l&#39;autorisation **[!UICONTROL Gérer les modèles de contenu]** (sous la ressource **Gestion de contenu**). Sans cela, le menu **Modèles de contenu** n’est pas visible dans le volet de navigation de gauche. [Découvrez comment gérer les autorisations](../administration/permissions.md)
+* **Portée du sandbox** — Les modèles de contenu sont spécifiques au sandbox. Les modèles créés dans un sandbox ne sont pas disponibles dans un autre. Assurez-vous que vous vous trouvez dans le bon sandbox avant de rechercher un modèle.
+* **Modèles HTML (obsolète)** — À compter de mars 2025, les modèles de contenu de type HTML seront obsolètes. Les modèles HTML existants restent accessibles, mais il est impossible d’en créer de nouveaux.
 
 ## Accéder aux modèles de contenu {#access}
 
@@ -108,6 +116,26 @@ Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèl
 >Les miniatures appropriées peuvent uniquement être générées pour les modèles de contenu d’e-mail de type HTML.
 
 Lorsque vous mettez à jour du contenu, patientez quelques secondes pour que les modifications se reflètent dans la miniature.
+
+## Résolution des problèmes {#troubleshooting}
+
++++Je ne peux pas voir le menu Modèles de contenu dans le volet de navigation de gauche
+
+Il manque l’autorisation **Gérer les modèles de contenu** à votre rôle. Demandez à votre administrateur d’ajouter la ressource **Gestion de contenu** avec l’autorisation **Gérer les modèles de contenu** à votre rôle. [En savoir plus](../administration/permissions.md)
+
++++
+
++++Un modèle que j’ai créé ne s’affiche pas dans la liste
+
+Vérifiez que vous vous trouvez dans le bon sandbox : les modèles sont spécifiques au sandbox. Vérifiez également si un dossier est sélectionné dans le volet de gauche ; lorsqu’un dossier est sélectionné, seuls les modèles le contenant s’affichent. Cliquez sur **[!UICONTROL Tous les modèles de contenu]** pour afficher tous les modèles, quel que soit le dossier.
+
++++
+
++++J’ai modifié un modèle mais mon contenu de campagne ou de parcours n’a pas été mis à jour
+
+La modification ou la suppression d’un modèle ne met pas à jour rétroactivement les campagnes ou les parcours créés à l’aide de celui-ci. Le contenu est copié au moment de l’utilisation. Pour mettre à jour le contenu existant, modifiez directement la campagne ou le parcours.
+
++++
 
 ## Exporter des modèles de contenu vers un autre sandbox {#export}
 

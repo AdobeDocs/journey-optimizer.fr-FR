@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: e6cac6aff79b30a308be480319902f478436391d
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 79%
+source-wordcount: '860'
+ht-degree: 59%
 
 ---
 
@@ -40,7 +40,7 @@ Pour approuver et publier des parcours et des campagnes, les utilisateurs doiven
 
 1. Ajoutez la ressource **Parcours**, puis sélectionnez **Approuver et publier des parcours** dans le menu déroulant.
 
-   ![Attribuer une autorisation d’approbation et de publication de Parcours &#x200B;](assets/permissions_approval_2.png){zoomable="yes"}
+   ![Attribuer une autorisation d’approbation et de publication de Parcours ](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. Cliquez sur **Enregistrer** pour appliquer vos modifications.
 
@@ -83,6 +83,32 @@ Le processus d’approbation global se présente comme suit :
 Vous pouvez surveiller toutes les demandes d’approbation et de modification qui ont été soumises pour un parcours donné ou une campagne donnée. Pour ce faire, cliquez sur l’icône **[!UICONTROL Afficher le journal d’audit]** située dans la section supérieure droite de la zone de travail du parcours ou de l’écran de révision de la campagne.
 
 ![Journal d&#39;audit des demandes d&#39;approbation](assets/monitor-requests.png)
+
+## Questions fréquentes {#faq}
+
++++Dois-je créer une politique de validation pour chaque campagne ou parcours ?
+
+Non. Les politiques d’approbation sont conditionnelles. Vous ne devez créer une politique que si vous souhaitez imposer la révision d’un ensemble spécifique de campagnes ou de parcours (par exemple, toutes les campagnes planifiées créées par une équipe spécifique). Si aucune politique ne s’applique à une campagne ou à un parcours, le créateur ou la créatrice peut publier directement sans demander d’approbation.
+
++++
+
++++Que se passe-t-il si l’approbateur n’est pas disponible ?
+
+La demande reste « En révision » jusqu’à ce qu’un approbateur agisse dessus. Vous pouvez annuler la demande (en renvoyant l’élément au statut « Brouillon ») et la soumettre à nouveau une fois que l’approbateur approprié est disponible. Les administrateurs peuvent également mettre à jour la politique d’approbation pour ajouter des approbateurs supplémentaires.
+
++++
+
++++Puis-je modifier une campagne ou un parcours lorsqu’il est en attente de validation ?
+
+Non. Une fois soumise à validation, la campagne ou le parcours est verrouillé(e) au statut « En révision ». Pour apporter des modifications, le créateur ou l’approbateur doit d’abord annuler la demande. L’élément revient à « Brouillon » et peut être modifié avant d’être envoyé à nouveau.
+
++++
+
++++Je ne vois pas l’autorisation Approuver et publier dans la liste déroulante. Que dois-je vérifier ?
+
+Assurez-vous d’abord d’ajouter la ressource appropriée. L’autorisation **Approuver et publier des campagnes** nécessite l’ajout de la ressource **Campagnes** au rôle et l’utilisation de la ressource **Approuver et publier des Parcours** nécessite la ressource **Parcours**. Les deux doivent être ajoutés séparément. [Découvrez comment attribuer des autorisations liées à la validation](#prerequisites)
+
++++
 
 ## Ressources supplémentaires
 

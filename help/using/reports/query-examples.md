@@ -8,16 +8,42 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: d2f32e0572b78db55c61cf087eb308d6fc0e2d4d
 workflow-type: tm+mt
-source-wordcount: '3337'
-ht-degree: 77%
+source-wordcount: '3542'
+ht-degree: 73%
 
 ---
 
 # Exemples de requêtes{#query-examples}
 
 Cette section fournit des exemples couramment utilisés pour interroger les événements d’étape du parcours dans le lac de données. Avant de s’intéresser à des cas d’utilisation spécifiques, il est important de comprendre les identifiants clés utilisés dans les données d’événement de parcours.
+
+## Conditions préalables {#prerequisites}
+
+Avant d’exécuter une requête sur cette page, vérifiez les points suivants :
+
+* **Accès à Adobe Experience Platform Query Service** — Vous devez avoir accès à [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"} dans votre sandbox Adobe Experience Platform.
+* **Jeu de données disponible** — Les requêtes ciblent le jeu de données `journey_step_events`. Vérifiez que le jeu de données existe et contient des données dans votre sandbox via **Experience Platform > Jeux de données**.
+* **Identifiant de version de parcours correct** — La plupart des requêtes nécessitent un `journeyVersionID`. Recherchez-le dans Journey Optimizer sous **Parcours > [votre parcours ] > Propriétés** ou utilisez `journeyVersionName` pour d’abord le localiser dans le jeu de données.
+* **Valeurs de champ de schéma** — Assurez-vous que les champs utilisés dans vos requêtes sont associés à des valeurs dans le schéma correspondant. Les champs vides ne renvoient aucun résultat sans erreur.
+
+>[!TIP]
+>
+>**Vous découvrez Query Service ?** Ouvrir [Adobe Experience Platform](https://experience.adobe.com/), accédez à **Query Service > Requêtes**, collez un exemple ci-dessous, remplacez les valeurs d’espace réservé (par exemple `<journeyVersionID>`, `<last x hours>`) et sélectionnez **Exécuter**.
+
+## Trouver la bonne requête {#find-query}
+
+| Je veux... | Accéder à |
+|---|---|
+| Compter les profils entrés dans un parcours | [Cas pratiques de base](#common-queries) |
+| Déboguer le chemin d’accès au parcours d’un profil spécifique | [Requêtes basées sur un profil](#profile-based-queries) |
+| Examiner l’exécution ou les erreurs de lecture d’audience | [Lire les requêtes d’audience](#read-segment-queries) |
+| Résolution des erreurs de message ou d’action | [Erreurs Message &amp; Action](#message-action-errors) |
+| Analyser les abandons de qualification d’audience | [Requêtes de qualification d’audience](#segment-qualification-queries) |
+| Déboguer des événements externes ou métier | [Requêtes basées sur un événement](#event-based-queries) |
+| Surveillance des performances des points d’entrée d’action personnalisés | [Requêtes d’action personnalisée](#query-custom-action) |
+| Suivi des profils engageables et de l’utilisation des licences | [Requêtes de profils engageables](#engageable-profiles-queries) |
 
 Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associées dans le schéma correspondant.
 

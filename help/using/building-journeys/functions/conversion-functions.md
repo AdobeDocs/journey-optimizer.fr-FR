@@ -7,10 +7,11 @@ role: Developer
 level: Experienced
 keywords: conversion, fonctions, expression, parcours, type, convertir
 version: Journey Orchestration
-source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
+source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 89%
+source-wordcount: '1249'
+ht-degree: 85%
 
 ---
 
@@ -28,6 +29,30 @@ Utilisez des fonctions de conversion lorsque vous devez :
 * Traiter les données provenant de sources externes qui peuvent avoir différents formats de type
 
 Chaque fonction de conversion gère automatiquement les règles et les cas Edge spécifiques au type, ce qui rend la transformation des données plus fiable et plus prévisible dans vos expressions de parcours.
+
+## Référence rapide {#quick-reference}
+
+| Objectif | Fonction |
+|------|----------|
+| Convertir une chaîne ou une époque en une date **avec** fuseau horaire | [toDateTime](#toDateTime) |
+| Convertir une chaîne ou une date en une date-heure **sans** fuseau horaire | [toDateTimeOnly](#toDateTimeOnly) |
+| Extraire une date uniquement (année-mois-jour, pas d’heure) | [toDateOnly](#toDateOnly) |
+| Convertir en nombre entier | [toInteger](#toInteger) |
+| Convertir en nombre décimal | [toDecimal](#toDecimal) |
+| Convertir en vrai/faux | [toBool](#toBool) |
+| Convertir n’importe quelle valeur en chaîne | [toString](#toString) |
+| Convertir en une durée (ISO-8601, par exemple PT10H) | [toDuration](#toDuration) |
+
+>[!TIP]
+>
+>**toDateTime vs. toDateTimeOnly :** permet d’utiliser des `toDateTime` lorsque le fuseau horaire est important (par exemple, pour la planification des messages, la comparaison des horodatages d’événement entre les régions). Utilisez `toDateTimeOnly` lorsque seule la date-heure locale est pertinente et que le fuseau horaire peut être ignoré (par exemple, en comparant les dates du calendrier dans une condition).
+
+## Pièges courants {#pitfalls}
+
+* **Le fuseau horaire doit être une constante de chaîne** — L&#39;argument de fuseau horaire dans `toDateTime` ne peut pas être une référence de champ ou une expression dynamique. Transmettez toujours une chaîne littérale telle que `"UTC"` ou `"Europe/Paris"`.
+* **Format ISO-8601 requis pour les entrées de chaîne** — Lors de la transmission d’une chaîne à `toDateTime` ou `toDateTimeOnly`, assurez-vous qu’elle respecte le format ISO-8601 (par exemple, `"2023-08-18T23:17:59.123Z"`). Les chaînes incorrectes renvoient la valeur null sans erreur.
+* **Les valeurs de l’époque sont exprimées en millisecondes** — `toDateTime(1560762190189)` s’attend à des millisecondes. Si votre source fournit des horodatages Unix en secondes, multipliez-les par 1 000 en premier (par exemple, `toDateTime(myField * 1000)`).
+* **toBool avec des chaînes inattendues** — `toBool` renvoie `true` uniquement si la valeur de la chaîne est exactement `"true"`. Toute autre chaîne (y compris `"1"`, `"yes"` et `"TRUE"`) renvoie `false`.
 
 ## toBool {#toBool}
 
@@ -47,7 +72,7 @@ Convertit une valeur d’argument en valeur booléenne, selon son type.
 * décimal
 * booléen
 * chaîne
-* nombre entier
+* entier
 
 +++
 
@@ -96,7 +121,7 @@ Convertit un argument en une valeur de type dateOnly. Pour plus d’informations
 | Représentation sous forme de chaîne d’une date au format « AAAA-MM-JJ » (format XDM). Prend également en charge le format ISO-8601 : seule la partie **full-date** est prise en compte (voir [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | chaîne |
 | date et heure | dateTime |
 | date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
-| valeur entière d’une époque en millisecondes | nombre entier |
+| valeur entière epoch en millisecondes | entier |
 
 +++
 
@@ -144,11 +169,11 @@ Convertit les paramètres en une valeur de date et d’heure, selon leurs types.
 
 | Paramètre | Description |
 |--- |--- |
-| chaîne | date et heure au format ISO-8601. Représentation sous forme de chaîne d’une heure avec des informations de fuseau horaire |
-| Chaîne | id de fuseau horaire. Identifiant de fuseau horaire (par exemple, « UTC », « Europe/Paris ») |
-| dateOnly | représente une date sans fuseau horaire, sous la forme année-mois-jour |
-| dateTimeOnly | représente une valeur datetime sans fuseau horaire, affichée sous la forme année-mois-jour-heure-minute-seconde-milliseconde |
-| Entier | valeur entière d’une époque en millisecondes |
+| chaîne | date et heure au format ISO-8601. Représentation sous forme de chaîne dateTime avec des informations de fuseau horaire |
+| chaîne | identifiant de fuseau horaire Identifiant de fuseau horaire (par exemple, « UTC », « Europe/Paris ») |
+| dateOnly | représente une valeur de date et d’heure sans fuseau horaire, sous la forme année-mois-jour. |
+| dateTimeOnly | représente une valeur dateTime sans fuseau horaire, sous la forme année-mois-jour-heure-minute-seconde-milliseconde. |
+| entier | valeur entière epoch en millisecondes |
 
 +++
 
@@ -184,7 +209,7 @@ Vous créez ainsi une valeur dateTime en combinant un fuseau horaire avec une va
 
 Renvoie 2023-08-18T23:17:59.123Z.
 
-Cela crée une valeur dateTime en appliquant un fuseau horaire à une valeur dateTimeOnly (qui ne contient aucune information de fuseau horaire).
+Vous créez ainsi une valeur dateTime en appliquant un fuseau horaire à une valeur dateTimeOnly (qui ne contient aucune information de fuseau horaire).
 
 `toDateTime(1560762190189)`
 
@@ -254,7 +279,7 @@ Convertit une valeur d’argument en valeur décimale, selon son type.
 | chaîne | convertit la valeur de la chaîne en valeur décimale |
 | dateTime | convertit la date en millisecondes (nombre de millisecondes depuis le début de l’époque) |
 | booléen | convertit la valeur booléenne en 1 si true, 0 si false |
-| nombre entier | convertit en valeur décimale (exemple :1 devient 1,0) |
+| entier | convertit en valeur décimale (exemple :1 devient 1,0) |
 
 +++
 
@@ -295,7 +320,7 @@ Convertit une valeur d’argument en une durée. Pour plus d’informations sur 
 | Paramètre | Description |
 |--- |--- |
 | chaîne | Formats basés sur le format de durée ISO-8601 PnDTnHnMn.nS pour une durée du jour considérée comme durant exactement 24 heures |
-| nombre entier | nombre de millisecondes |
+| entier | nombre de millisecondes |
 
 Si l’expression contient une chaîne : les formats acceptés sont basés sur le format de durée ISO-8601 PnDTnHnMn.nS pour une durée du jour considérée comme durant exactement 24 heures.
 
@@ -391,7 +416,7 @@ Convertit une valeur d’argument en valeur de chaîne, selon son type. Pour plu
 | dateTime | Convertit la date au format UTC |
 | dateTimeOnly | Convertit la date au format UTC |
 | durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
-| Entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 »). |
+| entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 »). |
 | Décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 »). |
 | Booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
 
@@ -430,4 +455,3 @@ Renvoie la représentation sous forme de chaîne du champ dateOnly (champ de dat
 Renvoie « PT1.52S ».
 
 +++
-
