@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '359'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Par exemple, en tant que spécialiste marketing pour une marque de vente au dét
 
 * Les destinataires qui ouvrent immédiatement le dossier voient « 47 heures restantes »
 * Les destinataires qui ouvrent 24 heures plus tard voient « 23 heures restantes »
-* Les destinataires qui ouvrent après la fin de la vente voient « Vente terminée »
+* Les destinataires qui ouvrent après la fin de la vente voient « Time&#39;s up ! »
 
 Pour plus d’informations sur l’ajout de minuteries de décompte à votre modèle Dynamic Media dans Adobe Experience Manager, reportez-vous [à ce document](assets/do-not-localize/countdown.pdf).
 
@@ -45,13 +45,17 @@ Pour plus d’informations sur l’ajout de minuteries de décompte à votre mod
 
    ![](assets/timer-3.png)
 
+1. Activez l’expérience des pilules en activant Pilules . Cela améliore la lisibilité en masquant les chemins d’accès aux attributs longs.
+
+   ![](assets/timer-6.png)
+
 1. Dans le menu **[!UICONTROL Attributs personnalisés]**, configurez les paramètres d’URL personnalisables selon les besoins de votre modèle.
 
    Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé.
 
    ![](assets/timer-4.png)
 
-1. Sélectionnez la ressource dans le Designer de messagerie, puis accédez au menu **[!UICONTROL Paramètres]**.
+1. Vous pouvez également accéder aux paramètres du modèle Dynamic Media en sélectionnant la ressource dans le Designer d’e-mail, puis en accédant au menu **[!UICONTROL Paramètres]**.
 
    Configurez les éléments suivants :
 
