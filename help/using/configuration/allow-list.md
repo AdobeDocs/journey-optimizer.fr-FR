@@ -56,7 +56,7 @@ Pour activer la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![Bouton bascule pour activer la liste autorisée ](assets/allow-list-edit.png)
+   ![Bouton bascule pour activer la liste autorisée &#x200B;](assets/allow-list-edit.png)
 
 1. Sélectionnez **[!UICONTROL Activer la liste autorisée]**. La liste autorisée est maintenant active.
 
@@ -80,7 +80,7 @@ Pour désactiver la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![Bouton bascule pour désactiver la liste autorisée ](assets/allow-list-edit-active.png)
+   ![Bouton bascule pour désactiver la liste autorisée &#x200B;](assets/allow-list-edit-active.png)
 
 1. Sélectionnez **[!UICONTROL Désactiver la liste autorisée]**. La liste autorisée n’est plus active.
 
@@ -122,7 +122,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Sélectionnez le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]**.
 
-   ![Bouton Ajouter un e-mail ou un domaine sur la page de liste autorisée ](assets/allowed-list-add-email.png)
+   ![Bouton Ajouter un e-mail ou un domaine sur la page de liste autorisée &#x200B;](assets/allowed-list-add-email.png)
 
 1. Choisissez le type d&#39;adresse : **[!UICONTROL Adresse e-mail]** ou **[!UICONTROL Adresse de domaine]**.
 
@@ -158,7 +158,7 @@ Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous 
 
 1. Sélectionnez le bouton **[!UICONTROL Téléchargement le CSV]**.
 
-   ![Bouton Télécharger CSV sur la page liste autorisée ](assets/allowed-list-download-csv.png)
+   ![Bouton Télécharger CSV sur la page liste autorisée &#x200B;](assets/allowed-list-download-csv.png)
 
 1. Patientez jusqu’à ce que le fichier soit généré.
 
