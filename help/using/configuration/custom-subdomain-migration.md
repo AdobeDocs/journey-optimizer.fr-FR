@@ -9,10 +9,11 @@ role: Admin
 level: Intermediate
 keywords: sous-domaine, délégation, migration, CNAME, délégation personnalisée
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
+exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
+source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 22%
+source-wordcount: '1251'
+ht-degree: 18%
 
 ---
 
@@ -28,8 +29,8 @@ Dans le cadre de ce processus, vous devez :
 
 * [Supprimer les enregistrements DNS existants](#delete-dns) de votre solution d’hébergement
 * [Téléchargez le certificat SSL](#upload-ssl-certificate) obtenu auprès de l’autorité de certification
-* Suivez les étapes [&#x200B; Feedback Loop &#x200B;](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
-* [Copiez l’enregistrement de validation d’URL du réseau CDN SSL](#copy-ssl-cdn-url-record) généré par Adobe dans votre plateforme d’hébergement
+* Suivez les étapes [ Feedback Loop ](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
+* [Créer un nouvel ensemble d’enregistrements DNS](#create-dns-records) généré par Adobe dans votre plateforme d’hébergement
 
 Pour migrer votre sous-domaine, procédez comme suit.
 
@@ -43,6 +44,11 @@ Avant de commencer le processus de migration, passez en revue les informations i
 
 * Assurez-vous que la **méthode de délégation personnalisée est activée** pour votre organisation (cette fonctionnalité est actuellement à disponibilité limitée ; contactez votre représentant Adobe pour obtenir l’accès). [En savoir plus](delegate-custom-subdomain.md)
 * Assurez-vous qu’aucune configuration de canal active n’utilise ce sous-domaine. Le processus de migration interrompra leur fonctionnalité.
+
+  >[!NOTE]
+  >
+  >Si vous désactivez une configuration de canal avant de démarrer la migration, vous pouvez la restaurer à l’état actif une fois le workflow de migration terminé.
+
 * Assurez-vous qu’aucune campagne ou parcours actif n’utilise une configuration de canal liée à ce sous-domaine, car cela peut entraîner des perturbations de la diffusion.
 * Gardez à l’esprit que les temps d’arrêt commencent dès que vous entrez dans le flux de migration. Le sous-domaine passe à l’état **[!UICONTROL Brouillon]** pendant le processus et n’est pas disponible tant que la configuration n’est pas terminée.
 * Par conséquent, il est recommandé d’**effectuer les étapes préalables à la migration avant de démarrer le processus de migration** afin que votre certificat SSL soit prêt et que les temps d’arrêt soient réduits. [En savoir plus](#start-migration)
@@ -99,7 +105,7 @@ Que vous ayez déjà commencé le processus de migration ou non, suivez les éta
 
    * Toutefois, le certificat doit couvrir à la fois data.subdomain.com et cdn.subdomain.com en tant qu’entrées de noms alternatifs de l’objet (SAN) dans un seul certificat. Par exemple, si vous déléguez example.adobe.com, alors data.subdomain.com correspond à data.example.adobe.com et cdn.subdomain.com correspond à cdn.example.adobe.com.
 
-   * Les sous-domaines de données (data.example.adobe.com) et de CDN (cdn.example.adobe.com) doivent être ajoutés en tant qu’entrées d’homologue dans le même certificat.
+   * Les sous-domaines de données (data.example.adobe.com) et de réseau CDN (cdn.example.adobe.com) doivent être ajoutés en tant qu’entrées d’homologue dans le même certificat. Aucun sous-domaine supplémentaire ne doit être ajouté à ce certificat.
 
    * La plupart des autorités de certification vous permettent d’ajouter des SAN supplémentaires (tels que le sous-domaine du CDN) pendant le processus de signature.
 
@@ -159,13 +165,39 @@ Suivez ensuite les étapes de la boucle des commentaires pour vérifier la propr
 
 Le processus est le même que lors de la configuration d’un nouveau sous-domaine personnalisé. Suivez les étapes présentées dans la page [Configurer un sous-domaine personnalisé](delegate-custom-subdomain.md#feedback-loop-steps).
 
-## Copiez l’enregistrement de validation de l’URL du réseau CDN SSL {#copy-ssl-cdn-url-record}
 
-Pour terminer le processus de migration, copiez l’enregistrement de validation d’URL CDN SSL généré par Adobe dans votre plateforme d’hébergement. Le processus est le même que lors de la configuration d’un nouveau sous-domaine personnalisé. Suivez les étapes présentées dans la page [Configurer un sous-domaine personnalisé](delegate-custom-subdomain.md#copy-ssl-cdn-url-record).
+## Créer un nouvel ensemble d’enregistrements DNS {#create-dns-records}
+
+Pour terminer le processus de migration, créez un nouvel ensemble d’enregistrements DNS générés par Adobe dans votre plateforme d’hébergement.
+
+1. Une fois les étapes de feedback loop terminées, cliquez sur le bouton **[!UICONTROL Continuer]** en haut à droite de l&#39;écran.
+
+   Cette étape vérifie que les enregistrements précédents ont été supprimés et que le certificat SSL a été correctement chargé. En cas d’erreur, reportez-vous à la [liste de contrôle de dépannage](#troubleshooting).
+
+1. Si toutes les validations réussissent, la section **[!UICONTROL Enregistrements à créer]** s’affiche.
+
+   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+
+1. Créez tous les enregistrements requis dans votre plateforme d’hébergement.
+
+1. Une fois tous les enregistrements créés, cliquez sur **[!UICONTROL Envoyer]**.
+
+   >[!NOTE]
+   >
+   >Si tous les enregistrements répertoriés ne sont pas créés, une erreur s’affiche. Veillez à créer tous les enregistrements requis.
 
 Après l’envoi, vous devez attendre qu’Adobe effectue les vérifications requises, ce qui peut prendre jusqu’à 3 heures. [En savoir plus](delegate-subdomain.md#submit-subdomain)
 
 Une fois que le sous-domaine est à nouveau actif, aucune modification n’est nécessaire aux configurations de canal existantes qui l’utilisent. Elles continuent à fonctionner comme avant.
+
+## Liste de contrôle de dépannage {#troubleshooting}
+
+Si des erreurs se produisent lorsque vous tentez de soumettre votre sous-domaine personnalisé, effectuez les actions de résolution des problèmes répertoriées ci-dessous.
+
+* _Impossible de valider la ressource. Le DNS existe toujours et doit être supprimé._ — Veillez à supprimer tous les enregistrements de votre solution d&#39;hébergement. [Voici comment procéder](#delete-dns)
+* _Impossible de valider la ressource. Chargez votre certificat SSL et réessayez._ — Le certificat SSL n&#39;a pas été chargé. Veillez à le charger. [Voici comment procéder](#upload-ssl-certificate)
+* _Le certificat contient des domaines inattendus dans ses noms alternatifs de sujet (SAN)._ — Veillez à charger le certificat SSL correct. [Voici comment procéder](#upload-ssl-certificate)
+* _Les domaines requis suivants sont absents du certificat dans ses noms de remplacement du sujet (SAN)._ — Veillez à charger le certificat SSL correct. [Voici comment procéder](#upload-ssl-certificate)
 
 **Voir également**
 
