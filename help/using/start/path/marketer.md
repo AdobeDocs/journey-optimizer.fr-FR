@@ -71,7 +71,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
+   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
 
 1. **Lancer des campagnes orchestrées** Concevez des campagnes par lots complexes et en plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
 
