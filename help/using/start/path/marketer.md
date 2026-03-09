@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1590'
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    ![](../assets/perso_ee2.png)
 
-1. **Ajouter des offres et des prises de décision** Proposez la meilleure offre à chaque client ou cliente au bon moment à l’aide de la prise de décision basée sur l’IA. Utilisez Decisioning pour personnaliser les notifications push, les SMS et d’autres canaux. En savoir plus sur la [gestion des décisions](../../offers/get-started/starting-offer-decisioning.md) et les [décisions pour les expériences](../../experience-decisioning/gs-experience-decisioning.md).
+1. **Ajouter des offres et des prises de décision** Proposez la meilleure offre à chaque client ou cliente au bon moment à l’aide de la prise de décision basée sur l’IA. Utilisez Decisioning pour personnaliser les notifications push, les SMS et d’autres canaux. Découvrez [Gestion des décisions](../../offers/get-started/starting-offer-decisioning.md) et [Prise de décision](../../experience-decisioning/gs-experience-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -71,7 +71,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
+   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
 
 1. **Lancer des campagnes orchestrées** Concevez des campagnes par lots complexes et en plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
 
@@ -207,5 +207,5 @@ Collaborez avec les [administrateurs et les administratrices](administrator.md) 
 
 1. **Commencez simplement** : créez un parcours de bienvenue simple ou une campagne à message unique pour apprendre à utiliser la plateforme.
 2. **Utilisez l’IA** : utilisez l’assistant IA pour poser des questions et accélérer la création de contenu.
-3. **Rejoignez la communauté** : discutez avec d’autres utilisateurs et utilisatrices de Journey Optimizer dans la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+3. **Rejoignez la communauté** : discutez avec d’autres utilisateurs et utilisatrices de Journey Optimizer dans la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}.
 4. **Explorez les tutoriels** : regardez des vidéos détaillées sur [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"}.

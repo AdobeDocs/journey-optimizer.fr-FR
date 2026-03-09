@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 97%
+source-wordcount: '626'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ Pour plus d’informations sur les audiences de chargement personnalisé, report
 
 ## À lire impérativement {#must-read}
 
-* **Gestion des décisions uniquement** : cette fonctionnalité est prise en charge uniquement dans la gestion des décisions et non dans la prise de décision (anciennement appelée « Décisions pour les expériences »).
+* **Gestion des décisions uniquement** - Cette fonctionnalité est prise en charge dans la gestion des décisions uniquement et non dans la prise de décision.
 * **API Decisioning (hub) uniquement** : elle est disponible exclusivement via les requêtes d’API Decisioning (hub) et n’est pas prise en charge par l’API Edge Decisioning ou la prise de décision par lots.
 * **Indicateur d’API obligatoire pour les données d’enrichissement** : lorsque vous utilisez une audience de chargement personnalisé (CSV) et que vous souhaitez récupérer des données d’enrichissement dans la réponse de décision d’offre, vous devez inclure `"xdm:enrichedAudience": true` dans la payload de votre requête d’API. Sans cet indicateur, les attributs d’enrichissement de l’audience chargée au format CSV ne seront pas renvoyés. [En savoir plus sur l’API Decisioning](api-reference/offer-delivery-api/decisioning-api.md)
 

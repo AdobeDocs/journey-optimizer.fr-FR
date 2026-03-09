@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1283'
 ht-degree: 82%
 
 ---
@@ -151,9 +151,9 @@ Pour configurer le contenu de votre message, suivez les étapes ci-après. Les p
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Vous pouvez maintenant tester et vérifier le contenu de votre message, comme indiqué dans [cette section](#sms-mms-test).
 
-## Personnaliser avec Experience Decisioning {#decisioning-sms}
+## Personnaliser avec la prise de décision {#decisioning-sms}
 
-Vous pouvez personnaliser et optimiser le contenu de vos SMS avec **Experience Decisioning**. Cette fonctionnalité vous permet d’utiliser des scores de priorité, des formules ou des modèles d’IA pour sélectionner et afficher dynamiquement le meilleur contenu pour vos clients.
+Vous pouvez personnaliser et optimiser le contenu de vos SMS avec **Decisioning**. Cette fonctionnalité vous permet d’utiliser des scores de priorité, des formules ou des modèles d’IA pour sélectionner et afficher dynamiquement le meilleur contenu pour vos clients.
 
 Pour plus d’informations sur la création et l’utilisation des politiques de décision dans les SMS, consultez [cette section](../experience-decisioning/create-decision.md).
 
