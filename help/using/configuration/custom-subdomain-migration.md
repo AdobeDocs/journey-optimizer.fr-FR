@@ -10,7 +10,7 @@ level: Intermediate
 keywords: sous-domaine, délégation, migration, CNAME, délégation personnalisée
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
+source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 18%
@@ -29,7 +29,7 @@ Dans le cadre de ce processus, vous devez :
 
 * [Supprimer les enregistrements DNS existants](#delete-dns) de votre solution d’hébergement
 * [Téléchargez le certificat SSL](#upload-ssl-certificate) obtenu auprès de l’autorité de certification
-* Suivez les étapes [&#x200B; Feedback Loop &#x200B;](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
+* Suivez les étapes [ Feedback Loop ](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
 * [Créer un nouvel ensemble d’enregistrements DNS](#create-dns-records) généré par Adobe dans votre plateforme d’hébergement
 
 Pour migrer votre sous-domaine, procédez comme suit.
@@ -176,7 +176,7 @@ Pour terminer le processus de migration, créez un nouvel ensemble d’enregistr
 
 1. Si toutes les validations réussissent, la section **[!UICONTROL Enregistrements à créer]** s’affiche.
 
-   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+   ![](assets/subdomain-migrate-records-to-create.png){width="100%"}
 
 1. Créez tous les enregistrements requis dans votre plateforme d’hébergement.
 
