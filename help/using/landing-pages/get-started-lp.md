@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, commencer, prise en main
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: a78beb79376b9963034954f8e424f2d23a041666
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 26%
+source-wordcount: '383'
+ht-degree: 23%
 
 ---
 
@@ -23,37 +23,6 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 [!DNL Journey Optimizer] vous permet de créer et de concevoir des pages de destination pour diriger vos utilisateurs vers des formulaires en ligne où ils peuvent s’inscrire ou se désinscrire de la réception de vos communications ou d’un service spécifique tel qu’une newsletter.
 
 ➡️ [Découvrez la configuration des abonnements et la création de pages de destination dans cette vidéo.](#video)
-
-## Quand utiliser les pages de destination {#when-to-use}
-
-Utilisez les pages de destination lorsque vous souhaitez :
-
-* Autoriser les clients **opt-in ou opt-out** des communications marketing ou d’un service ou d’une newsletter spécifique, à partir d’un lien dans un e-mail ou une campagne
-* **Collectez le consentement** avant d’envoyer des communications et confirmez l’action par un e-mail automatisé.
-* Rediriger les utilisateurs vers un **formulaire web dédié** sans créer de page externe en dehors de [!DNL Journey Optimizer]
-
-## Avant de commencer {#prerequisites}
-
-Avant de créer une page de destination, procédez comme suit :
-
-1. [**Configurer un sous-domaine**](lp-subdomains.md) — Configurez un sous-domaine dédié à l&#39;hébergement de vos pages de destination.
-1. [**Créer un préréglage de page de destination**](lp-presets.md#lp-create-preset) — Un préréglage définit le sous-domaine et les autres paramètres appliqués à vos pages de destination.
-1. [**Créer une liste d’abonnements**](subscription-list.md) (pour les cas d’utilisation d’abonnement) : cette option est obligatoire si vous souhaitez que les clients s’abonnent ou se désabonnent d’un service spécifique.
-
-## Fonctionnement {#how-it-works}
-
-La création et le déploiement d’une landing page s’effectuent comme suit :
-
-1. [**Créer et configurer votre page de destination**](create-lp.md) — Sélectionnez un préréglage, configurez la page principale et ajoutez toutes les sous-pages requises.
-1. [**Concevoir la page**](design-lp.md) — Créez le contenu et le formulaire de la page à l’aide de l’éditeur glisser-déposer de [!DNL Journey Optimizer].
-1. [**Tester et publier**](manage-lp.md) — Prévisualisez la page, testez le comportement du formulaire, puis publiez pour la rendre active.
-1. [**Lien dans un message ou un parcours**](../email/message-tracking.md#insert-links) — Ajoutez l’URL de la page de destination à un e-mail, une campagne ou une action de parcours pour que les clients puissent l’atteindre.
-
-## Fonctionnalités principales {#capabilities}
-
-* Utilisez le contenu des fonctionnalités de conception d’[!DNL Journey Optimizer] pour créer facilement des **pages de destination réactives**.
-* Configurez **les flux d’opt-in et d’opt-out** rapidement et en toute simplicité, y compris des listes d’abonnement pour permettre aux utilisateurs d’opt-in ou d’opt-out d’un service spécifique. [En savoir plus](lp-use-cases.md#subscription-to-a-service)
-* Envoyez un **e-mail de confirmation** lors du processus d’opt-in ou d’opt-out. [En savoir plus](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -92,8 +61,34 @@ La création et le déploiement d’une landing page s’effectuent comme suit :
 </td>
 </tr></table>
 
+## Quand utiliser les pages de destination {#when-to-use}
+
+Utilisez les pages de destination lorsque vous souhaitez :
+
+* Autoriser les clients **opt-in ou opt-out** à utiliser des communications marketing ou un service ou une newsletter spécifique à partir d’un lien dans un e-mail ou une campagne, y compris des listes d’abonnement pour les services ciblés. [En savoir plus](lp-use-cases.md#subscription-to-a-service)
+* **Collectez le consentement** avant d’envoyer des communications et envoyez un **e-mail de confirmation** lors de l’opt-in ou de l’opt-out. [En savoir plus](lp-use-cases.md#send-confirmation-email)
+* Rediriger les utilisateurs vers un **formulaire web dédié** sans créer de page externe en dehors de [!DNL Journey Optimizer]
+* Créer des **pages de destination réactives** à l’aide des fonctionnalités de conception de contenu d’[!DNL Journey Optimizer]
+
+## Avant de commencer {#prerequisites}
+
+Avant de créer une page de destination, procédez comme suit :
+
+1. [**Configurer un sous-domaine**](lp-subdomains.md) — Configurez un sous-domaine dédié à l&#39;hébergement de vos pages de destination.
+1. [**Créer un préréglage de page de destination**](lp-presets.md#lp-create-preset) — Un préréglage définit le sous-domaine et les autres paramètres appliqués à vos pages de destination.
+1. [**Créer une liste d’abonnements**](subscription-list.md) (pour les cas d’utilisation d’abonnement) : cette option est obligatoire si vous souhaitez que les clients s’abonnent ou se désabonnent d’un service spécifique.
+
+## Fonctionnement {#how-it-works}
+
+La création et le déploiement d’une landing page s’effectuent comme suit :
+
+1. [**Créer et configurer votre page de destination**](create-lp.md) — Sélectionnez un préréglage, configurez la page principale et ajoutez toutes les sous-pages requises.
+1. [**Concevoir la page**](design-lp.md) — Créez le contenu et le formulaire de la page à l’aide de l’éditeur glisser-déposer de [!DNL Journey Optimizer].
+1. [**Tester**](create-lp.md#test-landing-page) et [**publier**](create-lp.md#publish-landing-page) votre page de destination : prévisualisez la page, testez le comportement du formulaire, puis publiez pour la rendre active.
+1. [**Lien dans un message ou un parcours**](../email/message-tracking.md#insert-links) — Ajoutez l’URL de la page de destination à un e-mail, une campagne ou une action de parcours pour que les clients puissent l’atteindre.
+
 ## Vidéo pratique{#video}
 
 La vidéo ci-dessous montre comment créer une liste d’abonnements, configurer des pages de destination pour l’opt-in ou l’opt-out à un service, intégrer l’option d’opt-in/opt-out à un message et configurer des parcours pertinents.
 
->[!VIDEO](https://video.tv.adobe.com/v/344398?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

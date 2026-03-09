@@ -9,20 +9,24 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1518'
-ht-degree: 100%
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+workflow-type: tm+mt
+source-wordcount: '1567'
+ht-degree: 96%
 
 ---
 
-# Créer et publer des pages de destination {#create-lp}
+# Créer et publier des pages de destination {#create-lp}
 
 Pour rediriger vos clientes et clients vers une page web définie que vous souhaitez afficher lorsqu’ils cliquent sur un lien spécifique, créez une page de destination dans [!DNL Journey Optimizer], configurez la page principale et les sous-pages, puis testez-la et publiez-la.
 
 Suivez les étapes principales de création de pages de destination décrites ci-après :
 
 ![](assets/lp-creation-process.png)
+
+>[!NOTE]
+>
+>Avant de créer votre première page de destination, effectuez la configuration [configurer les pages de destination](../../rp_landing_pages/lp-configuration-landing-page.md). Cela inclut la configuration d’un sous-domaine pour héberger vos pages de destination et la définition d’au moins un préréglage qui spécifie le sous-domaine et d’autres paramètres de canal. Vous devrez sélectionner un préréglage lors de la création de la page de destination.
 
 ## Créer une page de destination {#create-landing-page}
 
@@ -53,7 +57,7 @@ Pour créer une page de destination, vous devez sélectionner un préréglage, p
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la page de destination, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
-1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre page de destination en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags).
+1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre page de destination en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
 1. Sélectionnez un préréglage. Découvrez comment créer des préréglages de page de destination dans [cette section](../landing-pages/lp-presets.md#lp-create-preset).
 
@@ -80,9 +84,9 @@ Une fois que vous avez configuré et conçu la [page principale](#configure-prim
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
 >title="Définissez les paramètres de votre page principale."
->abstract="La page principale est la page que les utilisateurs voient en premier lorsqu’ils cliquent sur le lien de votre page de destination (à partir d’un e-mail ou d’un site Web, par exemple)."
+>abstract="La page principale est la page que les utilisateurs et les utilisatrices voient en premier après avoir cliqué sur le lien de votre page de destination (à partir d’un e-mail ou d’un site web, par exemple)."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=fr" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -91,7 +95,7 @@ Une fois que vous avez configuré et conçu la [page principale](#configure-prim
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains" text="Configurer les sous-domaines des pages de destination"
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="Créer des préréglages de page de destination"
 
-La page principale est la page que les utilisateurs voient en premier lorsqu’ils cliquent sur le lien de votre page de destination (à partir d’un e-mail ou d’un site Web, par exemple).
+La page principale est la page affichée en premier lorsque les utilisateurs et utilisatrices cliquent sur le lien de votre page de destination (à partir d’un e-mail ou d’un site web, par exemple).
 
 Pour définir les paramètres de la page principale, procédez comme suit.
 
@@ -155,8 +159,8 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 >id="ajo_lp_access_settings-subpage"
 >title="Définissez lʼURL de votre page de destination."
 >abstract="Dans cette section, définissez une URL de page de destination unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du préréglage que vous avez sélectionné."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html?lang=fr" text="Configurer les sous-domaines des pages de destination"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html" text="Configurer les sous-domaines des pages de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 Vous pouvez ajouter jusquʼà 2 sous-pages. Par exemple, vous pouvez créer une page de remerciement qui s’affichera une fois que les utilisateurs auront envoyé le formulaire. Vous pouvez également définir une page d’erreur, qui sera affichée si la page de destination rencontre un problème.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 98%
@@ -67,7 +67,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * Sélectionnez **[!UICONTROL Lien externe]** pour insérer un lien vers une URL externe.
 
-   * Sélectionnez **[!UICONTROL Page de destination]** pour insérer un lien vers une page de destination. [En savoir plus](../landing-pages/get-started-lp.md)
+   * Sélectionnez **[!UICONTROL Page de destination]** pour insérer un lien vers une page de destination. [En savoir plus](../landing-pages/create-lp.md)
 
    * Sélectionnez **[!UICONTROL Opt-out en un clic]** pour insérer un lien permettant aux utilisateurs et utilisatrices de se désabonner rapidement de vos communications sans avoir à confirmer l’opt-out. [En savoir plus](email-opt-out.md#one-click-opt-out).
 
