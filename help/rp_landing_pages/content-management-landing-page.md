@@ -5,8 +5,8 @@ title: Gestion de contenu
 description: Gestion de contenu
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
-workflow-type: ht
+source-git-commit: e5e4acf5c83c036b5ff72c8022750f9827bd98d3
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Les fonctionnalités de gestion de contenu d’Adobe Journey Optimizer permett
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ajouter une personnalisation
 
@@ -30,17 +30,17 @@ Découvrez comment implémenter et optimiser les fonctionnalités de personnalis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Créer des pages de destination
 
 Découvrez des outils et des tutoriels pour créer, gérer et optimiser les pages de destination des campagnes marketing.
 
-[Découvrir les pages de destination](landing-pages-landing-page.md)
+[Découvrir les pages de destination](../using/landing-pages/get-started-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Modèles de contenu
 
@@ -50,7 +50,7 @@ Rationalisez la création de contenu à l’aide de modèles réutilisables pour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fragments de contenu réutilisables
 
@@ -60,7 +60,7 @@ Découvrez comment créer et gérer des fragments de contenu réutilisables à d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Créer du contenu dynamique
 
@@ -70,7 +70,7 @@ Utilisez des règles conditionnelles pour créer du contenu dynamique et personn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Cas d’utilisation inter-solutions
 
