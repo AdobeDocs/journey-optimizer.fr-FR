@@ -9,10 +9,10 @@ badge: label="Disponibilité limitée" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
+source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 16%
+source-wordcount: '643'
+ht-degree: 14%
 
 ---
 
@@ -43,7 +43,7 @@ Pour créer un modèle d’IA pour le classement des parcours, procédez comme s
 
 1. Spécifiez un nom unique et, si nécessaire, une description pour le modèle d’IA.
 
-   ![Volet de détails du modèle d’IA avec les champs de nom et de description](assets/journey-model-details.png){width="80%"}
+   ![Détails du modèle d’IA affichant les champs de nom et de description](assets/journey-model-details.png){width="85%"}
 
    >[!NOTE]
    >
@@ -55,9 +55,9 @@ Pour créer un modèle d’IA pour le classement des parcours, procédez comme s
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. Dans la **[!UICONTROL mesure d’optimisation]**, toutes les mesures de votre [!DNL Customer Journey Analytics] par défaut [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} s’affichent dans la liste. Sélectionnez la mesure que vous souhaitez utiliser pour optimiser votre modèle.
+1. Dans la section **[!UICONTROL Mesure d’optimisation]**, toutes les mesures de votre [!DNL Customer Journey Analytics] par défaut [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} s’affichent dans la liste. Sélectionnez la mesure que vous souhaitez utiliser pour optimiser votre modèle.
 
-   ![Volet de détails du modèle d’IA avec les champs de nom et de description](assets/journey-model-metrics.png){width="80%"}
+   ![Liste déroulante des mesures d’optimisation répertoriant les mesures Customer Journey Analytics pour le modèle d’IA](assets/journey-model-metrics.png){width="70%"}
 
    Classements [!DNL Journey Optimizer] en fonction du **taux de conversion** (Taux de conversion = Nombre total d’événements de conversion/Nombre total d’événements d’impression). Le taux de conversion est calculé comme suit :
 
@@ -72,9 +72,9 @@ Pour créer un modèle d’IA pour le classement des parcours, procédez comme s
 
    >[!CAUTION]
    >
-   >Seuls les jeux de données créés à partir de schémas associés au groupe de champs **[!UICONTROL Événement d’expérience - Interactions avec les propositions]** (précédemment appelé « mixin ») s’affichent dans la liste déroulante.
+   >Seuls les jeux de données créés à partir de schémas associés au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]** s&#39;affichent dans la liste déroulante. Vous pouvez sélectionner jusqu’à 5 jeux de données.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
 
    >[!NOTE]
    >
@@ -84,52 +84,30 @@ Pour créer un modèle d’IA pour le classement des parcours, procédez comme s
 
 Le modèle d’IA est désormais disponible à la sélection lorsque vous créez une formule de classement.
 
-## Sélectionner un modèle d’IA pour une formule de classement {#select-ai-model-for-ranking-formula}
+## Référencer le modèle d’IA dans une formule pour classer les parcours {#reference-ai-model}
 
-Vous pouvez désormais définir le modèle d’IA comme référence pour créer une formule de classement. Suivez les étapes ci-après.
+Vous pouvez désormais définir le modèle d’IA comme référence pour créer une formule de classement, puis affecter la formule à un ensemble de règles et appliquer l’ensemble de règles à vos parcours. Pour ce faire, procédez comme suit.
 
 1. Créez une formule de classement. [Voici comment procéder](journey-ranking-formulas.md#create-journey-ranking-formula)
 
-1. Utilisez le bouton **[!UICONTROL Sélectionner un modèle d’IA]** pour sélectionner le modèle d’IA que vous souhaitez utiliser.
+1. Utilisez le bouton **[!UICONTROL Sélectionner un modèle d’IA]** pour sélectionner le modèle d’IA à utiliser dans la formule.
 
-   ![Volet de détails de la formule de classement des Parcours avec sélection de modèles d&#39;IA](assets/journey-formula-ai-model.png){width="80%"}
+   ![Détails de la formule de classement des Parcours avec le bouton Sélectionner un modèle d’IA ](assets/journey-formula-ai-model.png){width="80%"}
 
 1. Dans au moins l’une des sections **[!UICONTROL Critère]**, définissez une condition et sélectionnez **[!UICONTROL Score du modèle d’IA]** comme méthode de classement. Par exemple, si le parcours comporte une balise « Promo », le score de classement est le score du modèle d’IA.
 
-   ![Formule de classement : la balise de promotion utilise le score du modèle d’IA](assets/journey-formula-ex-2.png){width="60%"}
+   ![Exemple de formule de classement dans lequel le critère de balise Promo utilise le score du modèle d’IA comme méthode de classement](assets/journey-formula-ex-2.png){width="60%"}
 
 1. Cliquez sur **[!UICONTROL Créer]** pour terminer votre formule de classement.
 
-## Affectation du modèle d’IA à un ensemble de règles {#assign-ai-model-to-ruleset}
+1. Créez maintenant un ensemble de règles et sélectionnez la formule que vous avez créée comme méthode de classement. [Voici comment procéder](journey-ranking-formulas.md#assign-formula-to-ruleset)
 
-Pour utiliser un modèle d’IA afin de classer vos parcours, vous devez affecter la formule référençant ce modèle d’IA à un ensemble de règles.
+1. Créez les règles de limitation de parcours et enregistrez l’ensemble de règles.
 
-1. Dans le menu **[!UICONTROL Business rules]**, créez un jeu de règles à utiliser pour l&#39;arbitrage de parcours. [Voici comment procéder](rule-sets.md#Create)
-
-1. Veillez à sélectionner le domaine **[!UICONTROL Parcours]**.
-
-1. Dans les propriétés de l&#39;ensemble de règles, définissez la **[!UICONTROL méthode de classement]** sur **[!UICONTROL Formule]** (au lieu de **[!UICONTROL Priorité]**).
-
-1. Sélectionnez dans la liste déroulante la formule qui utilise le modèle d’IA que vous avez créé.
-
-1. Créez les règles de limitation de parcours à ajouter au jeu de règles. [Voici comment procéder](journey-capping.md#create-rule)
-
-1. Enregistrez l’ensemble de règles.
-
-Désormais, la formule utilisant le modèle d’IA est affectée à l’ensemble de règles. Vous pouvez ensuite appliquer cet ensemble de règles à vos parcours.
-
-## Application du jeu de règles à un parcours {#assign-rule-set-to-journey}
-
-Pour attribuer l’ensemble de règles à un parcours, procédez comme suit.
-
-1. Créez ou ouvrez le parcours auquel vous souhaitez affecter l’ensemble de règles. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
-
-1. Dans les propriétés du parcours, sélectionnez l’ensemble de règles dans la liste déroulante. [Découvrez comment procéder](journey-capping.md#apply-capping).
+1. Appliquez l’ensemble de règles aux parcours souhaités et enregistrez-les. [Voici comment procéder](journey-ranking-formulas.md#assign-rule-set-to-journey)
 
    >[!NOTE]
    >
    >Un seul ensemble de règles à la fois peut être appliqué à un parcours.
 
-1. Enregistrez le parcours.
-
-Tous les parcours qui utilisent cet ensemble de règles seront classés avec la formule sélectionnée à l’aide du modèle d’IA lors de l’application de la limitation.
+Tous les parcours qui utilisent cet ensemble de règles seront classés avec la formule référençant le modèle d’IA sélectionné lors de l’application de la limitation.
