@@ -119,7 +119,7 @@ Les tâches de formation échouent souvent lorsque le jeu de données sélection
 
 +++ En quoi la surveillance des modèles d’IA est-elle liée aux rapports de campagne et de parcours ?
 
-La surveillance des modèles d’IA diffère des rapports de campagne ou de parcours. Un seul modèle d’IA peut être utilisé dans plusieurs campagnes ou plusieurs parcours. En outre, les rapports de campagne ou de parcours n’indiquent pas quel modèle a été utilisé pour une diffusion donnée. Utilisez la surveillance de l’état du modèle d’IA pour comprendre et surveiller le modèle lui-même ; utilisez [rapports de campagne](../../reports/campaign-global-report-cja.md) et [rapports de parcours ](../../reports/journey-global-report-cja.md) pour les mesures au niveau de la diffusion.
+La surveillance des modèles d’IA diffère des rapports de campagne ou de parcours. Un seul modèle d’IA peut être utilisé dans plusieurs campagnes ou plusieurs parcours. En outre, les rapports de campagne ou de parcours n’indiquent pas quel modèle a été utilisé pour une diffusion donnée. Utilisez la surveillance de l’état du modèle d’IA pour comprendre et surveiller le modèle lui-même ; utilisez [rapports de campagne](../../reports/campaign-global-report-cja.md) et [rapports de parcours &#x200B;](../../reports/journey-global-report-cja.md) pour les mesures au niveau de la diffusion.
 +++
 
 +++ Ma mesure d’optimisation est une mesure continue telle que le chiffre d’affaires ou la valeur de commande, et non une mesure binaire telle que les clics ou les conversions. Comment interpréter les valeurs de taux de conversion et de conversions signalées ?
