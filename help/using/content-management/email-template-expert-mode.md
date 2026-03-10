@@ -6,11 +6,9 @@ description: Utilisez le mode Expert pour afficher et modifier la source de cont
 feature: Templates
 topic: Content Management
 role: User
-hidefromtoc: true
-hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: 145944952ad9aca752085588526f71e8034b8611
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 7%
