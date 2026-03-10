@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destination, page de destination, commencer, prise en main
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 23%
@@ -23,6 +23,15 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 [!DNL Journey Optimizer] vous permet de créer et de concevoir des pages de destination pour diriger vos utilisateurs vers des formulaires en ligne où ils peuvent s’inscrire ou se désinscrire de la réception de vos communications ou d’un service spécifique tel qu’une newsletter.
 
 ➡️ [Découvrez la configuration des abonnements et la création de pages de destination dans cette vidéo.](#video)
+
+## Quand utiliser les pages de destination {#when-to-use}
+
+Utilisez les pages de destination lorsque vous souhaitez :
+
+* Autoriser les clients **opt-in ou opt-out** à utiliser des communications marketing ou un service ou une newsletter spécifique à partir d’un lien dans un e-mail ou une campagne, y compris des listes d’abonnement pour les services ciblés. [En savoir plus](lp-use-cases.md#subscription-to-a-service)
+* **Collectez le consentement** avant d’envoyer des communications et envoyez un **e-mail de confirmation** lors de l’opt-in ou de l’opt-out. [En savoir plus](lp-use-cases.md#send-confirmation-email)
+* Rediriger les utilisateurs vers un **formulaire web dédié** sans créer de page externe en dehors de [!DNL Journey Optimizer]
+* Créer des **pages de destination réactives** à l’aide des fonctionnalités de conception de contenu d’[!DNL Journey Optimizer]
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -61,15 +70,6 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 </td>
 </tr></table>
 
-## Quand utiliser les pages de destination {#when-to-use}
-
-Utilisez les pages de destination lorsque vous souhaitez :
-
-* Autoriser les clients **opt-in ou opt-out** à utiliser des communications marketing ou un service ou une newsletter spécifique à partir d’un lien dans un e-mail ou une campagne, y compris des listes d’abonnement pour les services ciblés. [En savoir plus](lp-use-cases.md#subscription-to-a-service)
-* **Collectez le consentement** avant d’envoyer des communications et envoyez un **e-mail de confirmation** lors de l’opt-in ou de l’opt-out. [En savoir plus](lp-use-cases.md#send-confirmation-email)
-* Rediriger les utilisateurs vers un **formulaire web dédié** sans créer de page externe en dehors de [!DNL Journey Optimizer]
-* Créer des **pages de destination réactives** à l’aide des fonctionnalités de conception de contenu d’[!DNL Journey Optimizer]
-
 ## Avant de commencer {#prerequisites}
 
 Avant de créer une page de destination, procédez comme suit :
@@ -91,4 +91,4 @@ La création et le déploiement d’une landing page s’effectuent comme suit :
 
 La vidéo ci-dessous montre comment créer une liste d’abonnements, configurer des pages de destination pour l’opt-in ou l’opt-out à un service, intégrer l’option d’opt-in/opt-out à un message et configurer des parcours pertinents.
 
->[!VIDEO](https://video.tv.adobe.com/v/344398?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

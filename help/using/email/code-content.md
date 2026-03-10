@@ -9,24 +9,30 @@ role: User
 level: Intermediate, Experienced
 keywords: code, HTML, éditeur
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 50%
+source-wordcount: '491'
+ht-degree: 67%
 
 ---
 
 # Coder votre propre contenu {#code-content}
 
-Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du code HTML brut et/ou coder votre contenu d’e-mail. Cette méthode nécessite des compétences HTML.
+**[!UICONTROL Coder le vôtre]** vous permet d’écrire ou de coller du contenu HTML brut pour créer du contenu d’e-mail directement dans le Designer d’e-mail [!DNL Journey Optimizer]. Utilisez ce mode lorsque vous avez besoin d’un contrôle total sur les balises ou lors de l’importation d’HTML existantes.
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+Vous devez posséder des compétences HTML et, une fois ce mode sélectionné, vous restez dans l’éditeur de code ; vous ne pouvez pas passer à l’éditeur visuel.
 
->[!CAUTION]
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+
+>[!NOTE]
 >
-> Les images provenant d’[Adobe Experience Manager Assets](../integrations/assets.md) ne peuvent pas être référencées lors de l’utilisation de cette méthode. Les images référencées dans votre code HTML doivent être stockées dans un emplacement public.
+>**[!UICONTROL Coder le vôtre]** n’est pas identique à l’éditeur HTML avancé dans les modèles de contenu. L’éditeur de code HTML avancé vous permet de basculer entre la vue HTML et la vue visuelle (bureau) à tout moment, et non l’éditeur de code. [En savoir plus sur l’éditeur HTML avancé](../content-management/email-template-expert-mode.md).
 
-1. Dans la page d’accueil du concepteur d’e-mail, sélectionnez **[!UICONTROL Coder le vôtre]**.
+## Utiliser l’éditeur de code {#use-code-editor}
+
+Pour créer ou modifier du contenu d’e-mail à l’aide de l’éditeur de code, procédez comme suit.
+
+1. Sur la page d’accueil [Email Designer](get-started-email-design.md), sélectionnez **[!UICONTROL Coder le vôtre]**.
 
    ![](assets/code-your-own.png)
 
@@ -38,7 +44,7 @@ Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du co
 
    >[!NOTE]
    >
-   >L’éditeur de personnalisation de la Designer d’e-mail présente certaines limitations de fonction par rapport aux expressions de parcours. [En savoir plus sur les limitations des fonctions date/heure](#date-time-limitations)
+   >L’éditeur de personnalisation du Concepteur d’e-mail présente certaines limitations de fonction par rapport aux expressions de parcours. [En savoir plus sur les limitations des fonctions date/heure](#date-time-limitations)
 
 1. Pour effacer le contenu de votre e-mail et en recréer un à partir d’une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu Options.
 
@@ -56,38 +62,42 @@ Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du co
 
    ![](assets/code-editor-save.png)
 
-## Limites des fonctions de date et d’heure {#date-time-limitations}
+>[!CAUTION]
+>
+>Les images provenant de [Adobe Experience Manager Assets](../integrations/assets.md) ne peuvent pas être référencées lors de l&#39;utilisation de la méthode Coder votre propre contenu. Stockez les images référencées dans votre code HTML dans un emplacement public.
 
-Lors de l’utilisation de la personnalisation dans l’éditeur de code d’Email Designer, la fonction `now()` n’est pas disponible pour les calculs de date dynamiques.
+## Limitations des fonctions de date/heure {#date-time-limitations}
+
+Lors de l’utilisation de la personnalisation dans l’éditeur de code du Concepteur d’e-mail, la fonction `now()` n’est pas disponible pour les calculs de date dynamiques.
 
 >[!IMPORTANT]
 >
 >La fonction `now()` n’est **pas prise en charge** dans le langage d’expression du créateur d’e-mail. Bien que `now()` soit disponible dans des conditions de parcours, il ne peut pas être utilisé dans le contenu d’e-mail ou l’éditeur de code.
 
-**Alternatives disponibles :**
+**Solutions disponibles :**
 
-Utilisez les fonctions suivantes pour utiliser la date et l’heure actuelles dans la personnalisation d’e-mail :
+Servez-vous des fonctions suivantes pour utiliser la date et l’heure actuelles dans la personnalisation d’e-mail :
 
-* **`getCurrentZonedDateTime()`** - Renvoie la date et l’heure actuelles avec les informations de fuseau horaire. Il s’agit de l’alternative recommandée à `now()`.
+* **`getCurrentZonedDateTime()`** : renvoie la date et l’heure actuelles avec les informations de fuseau horaire. C’est la solution alternative recommandée à `now()`.
 
-  Exemple : `{%= getCurrentZonedDateTime() %}` renvoie `2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]`
+  Exemple : `{%= getCurrentZonedDateTime() %}` renvoie `2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]`.
 
-* **`currentTimeInMillis()`** - Renvoie l’heure actuelle en millisecondes Epoch.
+* **`currentTimeInMillis()`** : renvoie l’heure actuelle en millisecondes au format Epoch.
 
   Exemple : `{%= currentTimeInMillis() %}`
 
-**Solutions recommandées :**
+**Solutions recommandées :**
 
-Si vous devez effectuer des calculs de date dans le contenu de votre e-mail :
+Si vous devez effectuer des calculs de date dans le contenu de votre e-mail :
 
-* **Précalculer les champs de date** - Calculez les valeurs de date requises dans votre pipeline de données ou les attributs de profil avant d’envoyer l’e-mail, puis référencez ces valeurs précalculées dans votre personnalisation.
+* **Précalculer les champs de date** : calculez les valeurs de date requises dans votre pipeline de données ou les attributs de profil avant d’envoyer l’e-mail, puis référencez ces valeurs précalculées dans votre personnalisation.
 
   Exemple : `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
-* **Utiliser des fonctions de manipulation de date** - Utilisez des fonctions [date/heure](../personalization/functions/dates.md) telles que `dayOfYear()` ou `diffInDays()` avec des valeurs de date provenant d’attributs de profil.
+* **Utiliser des fonctions de manipulation de date** : utilisez des fonctions [date/heure](../personalization/functions/dates.md) telles que `dayOfYear()` ou `diffInDays()` avec des valeurs de date provenant d’attributs de profil.
 
   Exemple : `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
-* **Utiliser les attributs calculés** - Créez [attributs calculés](../audience/computed-attributes.md) qui effectuent des calculs de date complexes, et qui rendent les résultats disponibles sous forme d’attributs de profil.
+* **Utiliser des attributs calculés** : créez des [attributs calculés](../audience/computed-attributes.md) qui effectuent des calculs de date complexes et qui rendent les résultats disponibles sous forme d’attributs de profil.
 
-En savoir plus sur les fonctions [Date et heure](../personalization/functions/dates.md) dans la personnalisation.
+Voir [Fonctions de date et d’heure](../personalization/functions/dates.md) pour obtenir la liste complète des fonctions prises en charge.
