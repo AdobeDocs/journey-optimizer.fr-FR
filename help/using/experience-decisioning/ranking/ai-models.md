@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Prise en main des modèles d’IA
+title: Commencer avec les modèles d’IA
 description: En savoir plus sur les modèles d’IA qui permettent de classer les offres
 feature: Ranking, Decisioning
 topic: Artificial Intelligence
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '313'
+ht-degree: 97%
 
 ---
 
-# Prise en main des modèles d’IA {#ai-models}
+# Commencer avec les modèles d’IA {#ai-models}
 
 [!DNL Journey Optimizer] vous permet d&#39;utiliser un système de modèles formés pour classer les offres à afficher pour un profil donné.
 
@@ -40,7 +40,7 @@ Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer] :
 
 * Les **modèles d’optimisation automatique** visent à proposer des offres qui optimisent le retour (KPI) défini par les clients commerciaux. Ces KPI peuvent prendre la forme de taux de conversion, de chiffres dʼaffaires, etc. À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme cible la conversion de lʼoffre. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances « globales » des offres. [En savoir plus](auto-optimization-model.md)
 
-* **Les modèles d’optimisation personnalisés** vous permettent de définir des objectifs métier et d’utiliser les données client pour entraîner des modèles orientés métier afin de diffuser des offres personnalisées et d’optimiser les KPI. [En savoir plus](personalized-optimization-model.md).
+* **Les modèles d’optimisation personnalisés** vous permettent de définir des objectifs métier et d’utiliser les données client pour entraîner des modèles orientés métier afin de diffuser des offres personnalisées et d’optimiser les KPI. [En savoir plus](personalized-optimization-model.md)
 
 ## Créer un modèle d’IA {#create-ai-model}
 
@@ -57,3 +57,5 @@ Les principales étapes pour créer et utiliser des modèles d’IA sont les sui
    >Les modèles de classement exigent que des événements de commentaires soient envoyés en tant qu’événements d’expérience afin d’être collectés. [En savoir plus sur la collecte de données de prise de décision](../data-collection/data-collection.md).
 
 1. Affectez le modèle d’IA à une stratégie de sélection pour classer les offres éligibles. [En savoir plus](../selection-strategies.md#select-ranking-method)
+
+1. Surveillez le statut et les performances d’entraînement de votre modèle d’IA. [En savoir plus](ai-model-observability.md)

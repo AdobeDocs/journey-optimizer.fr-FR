@@ -8,10 +8,10 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 97%
 
 ---
 
@@ -80,4 +80,4 @@ Un problème de démarrage à froid se produit lorsqu’il n’y a pas assez de 
 
 ## Nouvel entraînement {#re-training}
 
-Les modèles seront entraînés de nouveau afin d’apprendre les dernières interactions de fonctionnalités et d’atténuer chaque semaine la dégradation des performances de ceux-ci.
+Les modèles seront entraînés de nouveau afin d’apprendre les dernières interactions de fonctionnalités et d’atténuer chaque semaine la dégradation des performances. Pour surveiller le statut de l’entraînement et les performances du modèle, consultez [Surveillance de modèle IA](ai-model-observability.md).
