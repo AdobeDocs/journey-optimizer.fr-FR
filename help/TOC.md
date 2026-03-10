@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
 workflow-type: tm+mt
 source-wordcount: '3142'
 ht-degree: 96%
@@ -407,9 +407,9 @@ ht-degree: 96%
       + [Créer une activité en direct](using/mobile-live/create-mobile-live.md)
       + [Résolution des problèmes liés à l’activité en direct](using/mobile-live/troubleshoot-mobile-live.md)
       + [Questions fréquentes](using/mobile-live/mobile-live-faq.md)
-      + Configurer le canal des cartes de contenu {#configure}
+      + Configuration du canal d’activité dynamique {#configure}
          + [Configurer une activité en direct dans Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
-         + [Configurer l’intégration du SDK de l’activité en direct](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [Configuration de l’intégration SDK des activités en direct](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gestion de contenu {#content-management}
    + [Gestion de contenu](/help/rp_landing_pages/content-management-landing-page.md)
    + Personnalisation {#personalization}
@@ -954,7 +954,7 @@ ht-degree: 96%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
