@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 91%
+source-wordcount: '487'
+ht-degree: 81%
 
 ---
 
@@ -53,6 +53,10 @@ Les valeurs prédéfinies suivantes sont disponibles dans l’éditeur de person
 * **ID de l’offre** : ID de l’offre utilisée dans l’e-mail.
 
 * **ID d’action source** : ID de l’action e-mail ajoutée au parcours ou à la campagne.
+
+  >[!NOTE]
+  >
+  >Les parcours qui ont été fermés ou qui n’ont pas été republiés après une modification de produit peuvent ne pas remplir les `context.system.source.actionId` dans les URL de tracking, ce qui entraîne la présence d’espaces réservés vides (par exemple, `cid=em-acou-adob{}`). Pour vous assurer que les paramètres de tracking sont correctement renseignés, [republiez le parcours concerné](../building-journeys/publish-journey.md#journey-create-new-version) ou supprimez la référence à ce champ de contexte pour les parcours fermés. En savoir plus dans [Résolution des problèmes liés à l’exécution de votre parcours dynamique](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
 
 * **Nom de l’action source** : nom de l’action e-mail ajoutée au parcours ou à la campagne.
 
