@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 73%
+source-wordcount: '493'
+ht-degree: 70%
 
 ---
 
@@ -237,6 +237,9 @@ Pour une documentation SDK complète et des détails de mise en œuvre :
 
 * [Guide du développeur des activités en direct](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
 * [Référence d’API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [&#x200B; Tutoriel sur l’activité en direct &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [ Tutoriel sur l’activité en direct ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
 * [Classes publiques](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
-s
+
+>[!TIP]
+>
+>Si vous rencontrez des problèmes avec l’enregistrement des jetons, l’alignement de la payload ou la diffusion d’activités dynamiques, consultez [Dépannage des activités dynamiques](troubleshoot-mobile-live.md) pour obtenir des conseils détaillés sur le débogage.

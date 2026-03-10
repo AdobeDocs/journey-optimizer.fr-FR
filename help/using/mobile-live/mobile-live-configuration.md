@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 89%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -85,3 +85,7 @@ L’étape 1 est facultative si vos informations d’identification push ont dé
 Vous pouvez maintenant commencer l’intégration avec le SDK mobile d’Adobe Experience Platform pour activer les mises à jour dynamiques en temps réel sur l’écran de verrouillage et la Dynamic Island.
 
 ➡️ [En savoir plus sur l&#39;intégration du SDK mobile d’Adobe Experience Platform](mobile-live-configuration-sdk.md)
+
+>[!TIP]
+>
+>Si vous rencontrez des problèmes avec la configuration des activités dynamiques ou la diffusion, consultez [Dépannage des activités dynamiques](troubleshoot-mobile-live.md) pour les étapes de débogage.
