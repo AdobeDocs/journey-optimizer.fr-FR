@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '1647'
-ht-degree: 100%
+source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+workflow-type: tm+mt
+source-wordcount: '1718'
+ht-degree: 88%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 100%
 
 ## Utilisation de sources de données externes {#gs-ext-data-sources}
 
-Les sources de données externes vous permettent de définir une connexion à des systèmes tiers, par exemple, si vous utilisez un système de réservation d’hôtel pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire.
+Les sources de données externes vous permettent de définir une connexion à des systèmes tiers, par exemple, si vous utilisez un système de réservation d’hôtel pour vérifier si la personne a réservé une chambre. Contrairement à la source de données [!DNL Adobe Experience Platform] intégrée, vous pouvez créer autant de sources de données externes que nécessaire.
 
 >[!NOTE]
 >
 >* Les mécanismes de sécurisation lors de l’utilisation de systèmes externes sont répertoriés dans [cette page](../configuration/external-systems.md).
 >
->* Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
+>* Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [réponses d’action personnalisée](../action/action-response.md)
 
 Les API REST utilisant POST ou GET et renvoyant JSON sont prises en charge. Les modes d’authentification par clé API, de base et personnalisée sont pris en charge.
 
@@ -46,19 +46,19 @@ L’appel est composé d’une URL principale (_https://api.adobeweather.org/wea
 
 >[!TIP]
 >
->Nous vous recommandons de laisser au moins une minute de buffer entre la période d’expiration du jeton de l’API externe et votre paramètre [`cacheDuration` de Journey Optimizer](#custom-authentication-access-token) en particulier an cas de lourdes charges de travail, afin d’éviter les décalages d’expiration et les erreurs 401.
+>Nous vous recommandons de laisser au moins une minute de buffer entre la période d’expiration du jeton de l’API externe et votre paramètre [`cacheDuration` de Journey Optimizer](#custom-authentication-access-token), en particulier en cas de lourdes charges de travail, afin d’éviter les décalages d’expiration et les erreurs 401.
 
 ## Création et configuration d’une source de données externe {#create-ext-data-sources}
 
 Les principales étapes de création et de configuration d’une source de données externe sont les suivantes :
 
-1. Dans la liste des sources de données, cliquez sur **[!UICONTROL Créer une source de données]** pour créer une source de données externe.
+1. Dans la liste des sources de données, cliquez sur **[!UICONTROL Créer une Source de données]** pour créer une source de données externe.
 
-   ![](assets/journey25.png)
+   ![Écran de liste Sources de données avec le bouton Créer une Source de données en surbrillance](assets/journey25.png)
 
    Le volet de configuration de la source de données s’ouvre alors dans la partie droite de l’écran.
 
-   ![](assets/journey26.png)
+   ![Le volet de configuration de la source de données s’ouvre dans la partie droite de l’écran](assets/journey26.png)
 
 1. Saisissez un nom pour votre source de données.
 
@@ -71,7 +71,7 @@ Seuls les caractères alphanumériques et les traits de soulignement sont autori
    >
    >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que l’utilisation d’adresses Adobe qui ne sont pas publiquement disponibles et d’adresses IP n’est pas autorisée.
 
-   ![](assets/journey27.png)
+   ![Champ URL de source de données externe avec exemple de point d’entrée de l’API météo saisi](assets/journey27.png)
 
 1. Configurez l’authentification en fonction de la configuration du service externe : **[!UICONTROL Aucune authentification]**, **[!UICONTROL Simple]**, **[!UICONTROL Personnalisée]** ou **[!UICONTROL Clé API]**.
 
@@ -81,17 +81,17 @@ Seuls les caractères alphanumériques et les traits de soulignement sont autori
    >
    >* Lorsque l’appel d’authentification est effectué, la chaîne `<username>:<password>`, codée en base64, est ajoutée dans l’en-tête Authentification.
    >
-   >* Adobe Journey Optimizer chiffre automatiquement les secrets définis dans les actions personnalisées. Les clés de chiffrement de chaque organisation sont gérées en toute sécurité dans un coffre dédié lié à leur organisation. Lorsque les informations d’identification s’affichent dans l’interface, elles sont masquées par défaut afin d’éviter toute exposition accidentelle.
+   >* [!DNL Adobe Journey Optimizer] chiffre automatiquement les secrets définis dans les actions personnalisées. Les clés de chiffrement de chaque organisation sont gérées en toute sécurité dans un coffre dédié lié à leur organisation. Lorsque les informations d’identification s’affichent dans l’interface, elles sont masquées par défaut afin d’éviter toute exposition accidentelle.
 
 
-   Pour plus d’informations sur le mode d’authentification personnalisée, reportez-vous à [cette section](../datasource/external-data-sources.md#custom-authentication-mode). Dans notre exemple, nous choisissons le mode d’authentification de clé API, comme présenté ci-dessous :
+   Pour plus d’informations sur le mode d’authentification personnalisé, consultez [section Mode d’authentification personnalisé](../datasource/external-data-sources.md#custom-authentication-mode). Dans notre exemple, nous choisissons le mode d’authentification de clé API, comme présenté ci-dessous :
 
    * **[!UICONTROL Type]** : « clé API »
    * **[!UICONTROL Nom]** : « appid » (il s’agit du nom du paramètre de la clé API)
    * **[!UICONTROL Valeur]** : « 1234 » (valeur de la clé API)
    * **[!UICONTROL Emplacement]** : « Paramètre de requête » (la clé API se trouve dans l’URL).
 
-     ![](assets/journey28.png)
+     ![Champs d’authentification de clé API affichant les entrées Type, Nom, Valeur et Emplacement](assets/journey28.png)
 
 1. Ajoutez un nouveau groupe de champs pour chaque jeu de paramètres API en cliquant sur **[!UICONTROL Ajouter un nouveau groupe de champs]**. Seuls les caractères alphanumériques et les traits de soulignement sont autorisés dans le nom du groupe de champs. La longueur maximale est de 30 caractères. Dans notre exemple, nous devons créer deux groupes de champs, un pour chaque jeu de paramètres (city et long/lat).
 
@@ -99,7 +99,7 @@ Pour le jeu de paramètres « long/lat », nous créons un groupe de champs av
 
 * **[!UICONTROL Utilisé dans]** : affiche le nombre de parcours qui utilisent un groupe de champs. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour afficher la liste des parcours utilisant ce groupe de champs.
 * **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre cas, nous sélectionnons la méthode GET.
-* **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres séparés par une virgule, « long,lat » dans notre exemple. Les valeurs des paramètres dépendant du contexte d’exécution, elles seront définies dans les parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres séparés par une virgule, « long, lat » dans notre exemple. Les valeurs des paramètres dépendant du contexte d’exécution, elles seront définies dans les parcours. [En savoir plus sur les expressions](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Payload de réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple du payload renvoyé par l’appel. Dans notre exemple, nous avons utilisé un payload trouvé sur un site web d’API météorologique. Vérifiez que les types de champ sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Notez que vous pouvez cliquer sur **[!UICONTROL Coller un nouveau payload]** si vous souhaitez modifier le payload actuellement transmis.
 * **[!UICONTROL Payload envoyé]** : ce champ n’apparaît pas dans notre exemple. Il n’est disponible que si vous sélectionnez la méthode POST. Collez le payload qui sera envoyé au système tiers.
 
@@ -112,7 +112,7 @@ Dans le cas d’une méthode GET nécessitant un ou plusieurs paramètres, vous 
 {"id":{"param":"identifier"}}
 ```
 
-![](assets/journey29.png)
+![Panneau de configuration du groupe de champs avec des valeurs dynamiques et des champs de payload de réponse](assets/journey29.png)
 
 
 Une fois vos modifications enregistrées, la source de données est configurée et prête à être utilisée dans vos parcours, par exemple dans vos conditions ou pour personnaliser un e-mail. Si la température est supérieure à 30 °C, vous pouvez choisir d’envoyer une communication spécifique.
@@ -128,11 +128,11 @@ Ce mode d’authentification personnalisée est utilisé pour une authentificati
 
 Lorsque vous configurez l’authentification personnalisée, utilisez le bouton **[!UICONTROL Cliquer pour vérifier l’authentification]** pour contrôler si la payload d’authentification personnalisée est correctement configurée.
 
-![](assets/journey29-bis.png)
+![Bouton de test d’authentification personnalisée dans la configuration de la source de données](assets/journey29-bis.png)
 
 Si le test est réussi, le bouton devient vert.
 
-![](assets/journey29-ter.png)
+![Le bouton Test d’authentification est devenu vert pour indiquer une validation réussie](assets/journey29-ter.png)
 
 Avec ce mode d’authentification, l’exécution de l’action est un processus en deux étapes :
 
@@ -229,7 +229,7 @@ Voici un exemple pour le type d’authentification du porteur :
 
 >[!NOTE]
 >
->* Le jeton d’authentification est mis en cache par parcours : si deux parcours utilisent la même action personnalisée, chaque parcours dispose de son propre jeton mis en cache. Ce jeton n’est pas partagé entre ces parcours.
+>* Le jeton d’authentification est mis en cache par parcours : si deux parcours utilisent la même action personnalisée, chaque parcours a son propre jeton mis en cache. Ce jeton n’est pas partagé entre ces parcours.
 >
 >* La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points d’entrée d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée de mise en cache est de 1 heure. Dans la payload de l’authentification personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.
 >
