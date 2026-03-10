@@ -241,7 +241,7 @@ Non. Vous pouvez utiliser la même campagne et modifier le champ `event` dans la
 
 >[!TIP]
 >
->Pour obtenir des conseils de dépannage complets, voir [ Dépannage des activités en direct ](troubleshoot-mobile-live.md).
+>Pour obtenir des conseils de dépannage complets, voir [&#x200B; Dépannage des activités en direct &#x200B;](troubleshoot-mobile-live.md).
 
 +++Mon activité Live démarre mais ne se met pas à jour. Quel peut être le problème ?
 
