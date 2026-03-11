@@ -5,10 +5,10 @@ title: Utiliser l’activité Rendez-vous
 description: Découvrez comment utiliser l’activité Rendez-vous dans une campagne orchestrée
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 100%
 >id="ajo_orchestration_and-join"
 >title="Activité Rendez-vous"
 >abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne orchestrée."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_join"
+>title="Activité de jointure"
+>abstract="Espace réservé pour l’activité Jointure ."
 
 L’activité **[!UICONTROL Rendez-vous]** est une activité de **[!UICONTROL contrôle de flux]**. Elle permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée.
 
