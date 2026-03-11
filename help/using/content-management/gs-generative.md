@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '866'
-ht-degree: 100%
+source-git-commit: 194874dfe5f3c2dea6d0f418d4a62fd897f474b5
+workflow-type: tm+mt
+source-wordcount: '874'
+ht-degree: 99%
 
 ---
 
@@ -47,21 +47,27 @@ L’Assistant IA prend en charge la génération **dans plusieurs langues**, ce
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
         <ul>
-          <li>Français</li>
-          <li>Espagnol</li>
-          <li>Allemand</li>
-          <li>Italien</li>
+          <li>Chinois (Hong Kong)</li>
+          <li>Chinois (simplifié)</li>
+          <li>Chinois (Taïwan)</li>
+          <li>Néerlandais</li>
         </ul>
       </td>
       <td>
         <ul>
+          <li>Français</li>
+          <li>Allemand</li>
+          <li>Italien</li>
           <li>Japonais</li>
-          <li>Suédois</li>
-          <li>Néerlandais</li>
-          <li>Norvégien</li>
         </ul>
       </td>
       <td>
+        <ul>
+          <li>Norvégien</li>
+          <li>brésilien</li>
+          <li>Espagnol</li>
+          <li>Suédois</li>
+        </ul>
       </td>
     </tr>
   </tbody>
