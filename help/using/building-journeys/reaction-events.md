@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="Événements de réaction"
->abstract="Cette activité vous permet de réagir aux données de suivi liées à un message envoyé au sein du même parcours. Nous recueillons ces informations en temps réel au moment où elles sont partagées avec [!DNL Adobe Experience Platform]."
+>abstract="Cette activité vous permet de réagir aux données de suivi liées à un message envoyé au sein du même parcours. Elles sont collectées en temps réel au moment de leur partage avec [!DNL Adobe Experience Platform]."
 
 ## Vue d’ensemble {#overview}
 
-Parmi les différentes activités d’événement disponibles dans la palette, vous trouverez l’événement **[!UICONTROL Réactions]** intégré. Cette activité vous permet de réagir aux données de suivi liées à un message envoyé au sein du même parcours. Nous recueillons ces informations en temps réel au moment où elles sont partagées avec [!DNL Adobe Experience Platform].
+Parmi les différentes activités d’événement disponibles dans la palette, vous trouverez l’événement **[!UICONTROL Réactions]** intégré. Cette activité vous permet de réagir aux données de suivi liées à un message envoyé au sein du même parcours. Elles sont collectées en temps réel au moment de leur partage avec [!DNL Adobe Experience Platform].
 
 Vous pouvez réagir aux messages ouverts ou qui ont fait l’objet d’un clic. Par exemple, vous pouvez envoyer un autre message si un individu a ouvert l’e-mail précédent ou cliqué dessus, ou envoyer un autre message de relance si elle n’a pas interagi avec votre communication.
 

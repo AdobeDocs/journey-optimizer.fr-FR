@@ -13,18 +13,18 @@ version: Journey Orchestration
 source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 46%
+ht-degree: 63%
 
 ---
 
-# Actions [!DNL Adobe Campaign] v7/v8 {#using_campaign_v7-v8}
+# Actions [!DNL Adobe Campaign] v7/v8 {#using_campaign_v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="Actions personnalisées"
->abstract="Une intégration est disponible si vous disposez de [!DNL Adobe Campaign] v7 ou v8. Il vous permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle [!DNL Adobe Campaign]."
+>abstract="Une intégration est disponible si vous disposez d’[!DNL Adobe Campaign] v7 ou v8. Elle permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’[!DNL Adobe Campaign]."
 
-Une intégration est disponible si vous disposez de [!DNL Adobe Campaign] v7 ou v8. Il vous permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle [!DNL Adobe Campaign].
+Une intégration est disponible si vous disposez d’[!DNL Adobe Campaign] v7 ou v8. Elle permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’[!DNL Adobe Campaign].
 
 La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de l’approvisionnement. Contactez Adobe.
 
@@ -45,7 +45,7 @@ Un cas d&#39;utilisation complet est présenté dans cette [section](../building
 
 >[!NOTE]
 >
->* Les actions de Campaign v7/v8 peuvent être utilisées avec les actions de canal natives dans le même parcours. Cela ne s’applique pas aux actions Campaign Standard. Voir [&#x200B; Mécanismes de sécurisation de l’activité Campaign](../start/guardrails.md#ac-g).
+>* Les actions de Campaign v7/v8 peuvent être utilisées avec les actions de canal natives dans le même parcours. Cela ne s’applique pas aux actions Campaign Standard. Voir [ Mécanismes de sécurisation de l’activité Campaign](../start/guardrails.md#ac-g).
 >* Les actions Campaign v7/v8 ne peuvent pas être utilisées avec les activités Lecture d’audience ou Qualification d’audience . Consultez les mécanismes de sécurisation Lecture d’audience et Qualification d’audience dans la page Mécanismes de sécurisation .
 
 ![[!DNL Adobe Campaign] paramètres d’intégration et de configuration des actions v7/v8](assets/accintegration2.png)

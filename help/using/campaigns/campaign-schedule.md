@@ -13,7 +13,7 @@ exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 54%
+ht-degree: 60%
 
 ---
 
@@ -29,12 +29,12 @@ Lors de la planification de campagnes dans [!DNL Adobe Journey Optimizer], assur
 
 ![](assets/campaign-start.png)
 
-## Envoyer à l’heure locale du destinataire {#profile-timezone}
+## Envoyer à l’heure locale de la personne destinataire {#profile-timezone}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
 >title="Utiliser le fuseau horaire du profil"
->abstract="Envoyer des messages en fonction du fuseau horaire du profil de chaque destinataire. Tous les destinataires recevront le message au même moment local, quelle que soit leur localisation géographique. Le système utilise le champ « timeZone » des profils Adobe Experience Platform, avec le fuseau horaire du créateur de la campagne comme fuseau horaire de secours."
+>abstract="Envoyez des messages en fonction du fuseau horaire du profil de chaque personne destinataire. Toutes les personnes destinataires recevront le message à la même heure locale, quelle que soit leur localisation géographique. Le système utilise le champ « timeZone » des profils Adobe Experience Platform, avec le fuseau horaire du créateur ou de la créatrice de la campagne comme fuseau horaire de secours."
 
 Lors de la planification d’une campagne à une date et une heure spécifiques, vous pouvez choisir d’envoyer des messages en fonction du fuseau horaire du profil de chaque destinataire. Cela permet de s’assurer que tous les destinataires reçoivent le message au même moment local, quel que soit leur emplacement géographique.
 

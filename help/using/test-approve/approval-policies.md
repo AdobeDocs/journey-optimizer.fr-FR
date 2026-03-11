@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Vous pouvez cibler des politiques d’approbation à l’aide de critères flexi
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_self_approval"
 >title="Bloquer l’auto-approbation"
->abstract="Activez cette option pour empêcher les utilisateurs d’approuver leurs propres demandes d’approbation, même s’ils appartiennent à un groupe d’utilisateurs ou à un rôle désigné comme réviseur."
+>abstract="Activez cette option pour empêcher les utilisateurs et utilisatrices d’approuver leurs propres demandes d’approbation, même s’ils appartiennent à un groupe d’utilisateurs et d’utilisatrices ou à un rôle désigné comme réviseur ou réviseuse."
 
 Pour créer une politique d’approbation, procédez comme suit :
 

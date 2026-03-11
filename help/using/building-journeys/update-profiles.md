@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="Mettre à jour l&#39;activité du profil"
->abstract="L&#39;activité d&#39;action Mettre à jour le profil vous permet de mettre à jour un profil de [!DNL Adobe Experience Platform] existant avec des informations provenant de l&#39;événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique."
+>abstract="L’activité d’action Mettre à jour le profil vous permet de mettre à jour un profil [!DNL Adobe Experience Platform] existant avec des informations provenant de l’événement, d’une source de données ou à l’aide d’une valeur spécifique."
 
 Utilisez l&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** pour mettre à jour un profil de [!DNL Adobe Experience Platform] existant avec des informations provenant d&#39;un événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique.
 

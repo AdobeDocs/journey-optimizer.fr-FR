@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de l’optimisation du contenu
+title: Commencer avec l’optimisation de contenu
 description: Découvrez comment utiliser l’optimisation du contenu pour diffuser du contenu personnalisé et optimisé dans vos campagnes et parcours.
 feature: Experimentation
 topic: Content Management
@@ -12,20 +12,20 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
-# Prise en main de l’optimisation du contenu {#message-optimization}
+# Commencer avec l’optimisation de contenu {#message-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"
 >title="Optimisation du contenu"
->abstract="L’optimisation du contenu dans Journey Optimizer vous permet de tester différentes versions de votre contenu et de déterminer celle qui fonctionne le mieux. Vous pouvez utiliser le ciblage pour diffuser du contenu personnalisé à des segments spécifiques, procéder à des expériences pour tester plusieurs variations ou combiner les deux approches pour obtenir des stratégies d’optimisation sophistiquées."
+>abstract="L’optimisation du contenu dans Journey Optimizer vous permet de tester différentes versions de votre contenu et de déterminer celle qui fonctionne le mieux. Vous pouvez utiliser le ciblage pour diffuser du contenu personnalisé à des segments spécifiques, procéder à des expériences pour tester plusieurs variations ou combiner les deux approches pour obtenir des stratégies d’optimisation sophistiquées."
 
 L’optimisation du contenu vous fournit les outils nécessaires pour transmettre le message approprié à la bonne audience au bon moment. En associant des informations basées sur les données à de puissantes fonctionnalités de personnalisation, vous pouvez optimiser l’engagement et les conversions dans vos campagnes et parcours.
 
-L’optimisation du contenu est disponible dans les deux parcours [campagnes](../campaigns/create-campaign.md) et [&#128279;](../building-journeys/journey-gs.md), ce qui vous permet d’appliquer les mêmes stratégies d’optimisation à tous les points de contact de vos clients.
+L’optimisation du contenu est disponible dans les deux parcours [campagnes](../campaigns/create-campaign.md) et [](../building-journeys/journey-gs.md), ce qui vous permet d’appliquer les mêmes stratégies d’optimisation à tous les points de contact de vos clients.
 
 ➡️ [Découvrez comment exploiter l’optimisation du contenu dans une campagne dans cette vidéo](#video)
 
@@ -83,7 +83,7 @@ Combinaison :
 
 Pour commencer à optimiser votre contenu :
 
-1. **Création d’une campagne ou d’un parcours** : configurez votre [campagne](../campaigns/create-campaign.md) ou [parcours &#x200B;](../building-journeys/journey-gs.md) et ajoutez au moins une action.
+1. **Création d’une campagne ou d’un parcours** : configurez votre [campagne](../campaigns/create-campaign.md) ou [parcours ](../building-journeys/journey-gs.md) et ajoutez au moins une action.
 
 1. **Choisissez votre approche d’optimisation** :
    * [Utilisez le ciblage](optimization-targeting.md) pour personnaliser le contenu pour des segments spécifiques.
@@ -111,10 +111,10 @@ Une fois votre parcours ou campagne actif, les profils sont évalués en fonctio
 
 Découvrez comment tirer parti de l’optimisation du contenu dans les campagnes déclenchées par l’API ou l’action. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **Rubriques connexes**
 
-* [Créer une campagne](../campaigns/create-campaign.md)
+* [Création d’une campagne](../campaigns/create-campaign.md)
 * [Créer un parcours](../building-journeys/journey-gs.md)
 * [Expérience de contenu](../content-management/get-started-experiment.md)

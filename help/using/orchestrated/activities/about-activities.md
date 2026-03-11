@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Découvrez comment [créer une action de canal dans une campagne orchestrée](ch
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Signal externe"
->abstract="signal externe"
+>abstract="Signal externe"
 
 Les activités ci-après sont spécifiques à l’organisation et à l’exécution des campagnes orchestrées. Leur principale tâche est de coordonner les autres activités.
 

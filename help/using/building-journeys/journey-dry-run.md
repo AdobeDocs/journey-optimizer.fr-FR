@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Publier un parcours en mode Test à blanc"
->abstract="L’essai de parcours est un mode de publication de parcours spécial dans [!DNL Adobe Journey Optimizer] qui permet aux praticiens du parcours de tester un parcours à l’aide de données de production réelles. Une fois que vous avez conçu votre parcours, effectuez un test à blanc pour confirmer qu’il est fonctionnel et vous assurer que les étapes sont correctes. Ce mode de publication vous permet de tester un parcours sans envoyer de communication à un profil."
+>abstract="Le test à blanc de parcours est un mode de publication de parcours spécial dans [!DNL Adobe Journey Optimizer] qui permet aux utilisateurs et utilisatrices du parcours de tester un parcours à l’aide de données de production réelles. Une fois que vous avez conçu votre parcours, effectuez un test à blanc pour confirmer qu’il est fonctionnel et vous assurer que les étapes sont correctes. Ce mode de publication vous permet de tester un parcours sans envoyer de communication à un profil."
 
 L’essai de parcours est un mode de publication de parcours spécial dans [!DNL Adobe Journey Optimizer] qui permet aux praticiens du parcours de tester un parcours à l’aide de données de production réelles sans contacter de vrais clients ou mettre à jour les informations de profil.  Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.
 
@@ -149,4 +149,4 @@ Lors de l’analyse de **mesures de rapports de parcours** à l’aide de [!DNL 
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464684/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
