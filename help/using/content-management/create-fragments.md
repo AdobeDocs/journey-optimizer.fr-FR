@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
+source-git-commit: 449e8c9c1df7942346bcc94195aee89f2ecbc8f6
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 94%
@@ -87,7 +87,7 @@ Après avoir configuré les propriétés du fragment, le concepteur d’e-mail o
 
   >[!NOTE]
   >
-  >Les fragments d’expression de type JSON sont validés syntaxiquement lors de l’enregistrement, les erreurs s’affichant sous forme d’alertes d’avertissement.
+  >Les fragments d’expression de type JSON sont validés par la syntaxe lors de l’enregistrement, toutes les erreurs s’affichant sous forme d’alertes d’avertissement.
 
 Lorsque votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Enregistrer]**.
 
@@ -126,4 +126,4 @@ Le fragment est maintenant **[!UICONTROL Actif]** et devient disponible lors de 
 
 >[!CAUTION]
 >
->Une fois publié, vous ne pouvez pas ajouter de nouveaux attributs personnalisés à un fragment dynamique. Si vous souhaitez ajouter des attributs de personnalisation, vous devez dupliquer le fragment. [En savoir plus](manage-fragments.md#adding-new-attributes)
+>Une fois publié, vous ne pouvez plus ajouter de nouveaux attributs personnalisés à un fragment actif. Si vous souhaitez ajouter des attributs de personnalisation, vous devez dupliquer le fragment. [En savoir plus](manage-fragments.md#adding-new-attributes)
