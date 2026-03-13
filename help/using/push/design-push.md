@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 9425192fac4699778f81ce57c31979155dd38b18
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 74%
+source-wordcount: '2017'
+ht-degree: 71%
 
 ---
 
@@ -48,6 +48,11 @@ Configurez l’action qui se produit lorsque les destinataires appuient sur le c
 * **[!UICONTROL Ouvrir l’application]** : lance l’application associée à la notification. L’application est spécifiée dans votre [configuration du canal](../configuration/channel-surfaces.md) (c’est-à-dire le préréglage du message).
 * **[!UICONTROL Lien profond]** : dirige les utilisateurs vers un contenu spécifique dans votre application, tel qu’une vue, une section de page ou un onglet spécifique. Saisissez l’URL du lien profond dans le champ fourni.
 * **[!UICONTROL URL web]** : dirige les utilisateurs vers une page web externe. Saisissez l’URL de destination dans le champ fourni.
+
+  >[!NOTE]
+  >
+  >Si votre notification push contient une URL configurée en tant que lien universel dans iOS, elle ouvre l&#39;application associée si elle est installée, quelle que soit l&#39;action **[!UICONTROL URL Web]** que vous avez choisie. Pour forcer l’ouverture d’un navigateur, utilisez un domaine non configuré pour les liens universels ou supprimez l’enregistrement universel de lien pour le domaine.
+  >Pour plus d’informations sur la façon dont Adobe SDK gère les liens profonds et les liens universels, consultez la [documentation de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications/){target="_blank"}.
 
 ## Ajouter un média {#add-media-push}
 
