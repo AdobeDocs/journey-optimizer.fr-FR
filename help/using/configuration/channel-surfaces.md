@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1875'
-ht-degree: 98%
+source-wordcount: '1876'
+ht-degree: 95%
 
 ---
 
@@ -177,19 +177,13 @@ Pour modifier une configuration de canal, procédez comme suit.
 
    >[!NOTE]
    >
-   >Si une configuration de canal affiche le statut **[!UICONTROL Actif]**, les champs **[!UICONTROL Nom]**, **[!UICONTROL Sélectionner le canal]** et **[!UICONTROL Sous-domaine]** sont grisés et ne peuvent pas être modifiés.
+   >* Lorsque la configuration comporte le statut **[!UICONTROL Actif]**, les champs **[!UICONTROL Nom]**, **[!UICONTROL Sélectionner le canal]** et **[!UICONTROL Sous-domaine]** sont en lecture seule et ne peuvent pas être modifiés.
+   >* Vous pouvez enregistrer vos modifications en tant que brouillon à tout moment et reprendre la mise à jour ultérieurement.
+   >* Les modifications limitées aux champs **[!UICONTROL Description]**, **[!UICONTROL Type d’e-mail]** et/ou **[!UICONTROL Paramètres de reprise de l’e-mail]** prennent instantanément effet, sans délai de traitement.
 
 1. Cliquez sur **[!UICONTROL Soumettre]** pour confirmer vos modifications.
 
-   >[!NOTE]
-   >
-   >Vous pouvez également enregistrer la configuration de canal en tant que brouillon et reprendre sa mise à jour ultérieurement.
-
 Une fois les modifications envoyées, la configuration de canal passera par un cycle de validation similaire à celui mis en place lors de la [création d’une configuration de canal](#create-channel-surface). Le temps de traitement des modifications peut prendre jusqu’à **3 heures**.
-
->[!NOTE]
->
->Si vous modifiez uniquement les champs **[!UICONTROL Description]**, **[!UICONTROL Type d’e-mail]** et/ou **[!UICONTROL Paramètres de relance de l’e-mail]**, la mise à jour est instantanée.
 
 ### Détails de la mise à jour {#update-details}
 
@@ -298,4 +292,4 @@ Vous ne pouvez pas modifier directement une configuration de canal désactivée.
 
 Découvrez les configurations de canal et leur utilisation dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480453/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

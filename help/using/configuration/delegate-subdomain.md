@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1928'
-ht-degree: 100%
+source-wordcount: '1925'
+ht-degree: 98%
 
 ---
 
@@ -200,11 +200,7 @@ Pour terminer la délégation de votre sous-domaine, procédez comme suit.
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 3 heures. [En savoir plus](#subdomain-validation).
-
-   >[!NOTE]
-   >
-   >Vérifiez que tous les enregistrements sont correctement créés avant de continuer.
+1. Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, assurez-vous que tous les enregistrements DNS sont correctement créés, puis attendez qu’Adobe effectue les vérifications requises, ce qui peut prendre jusqu’à 3 heures. [En savoir plus](#subdomain-validation).
 
 ### Validation de sous-domaine {#subdomain-validation}
 
@@ -281,4 +277,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

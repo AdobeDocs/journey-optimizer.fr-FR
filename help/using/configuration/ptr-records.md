@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '842'
-ht-degree: 100%
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 97%
 
 ---
 
@@ -102,11 +102,7 @@ Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à 
    >   * Vérifiez auprès du fournisseur DNS si l’enregistrement DNS direct a bien été créé.
    >   * Les enregistrements sur les serveurs DNS peuvent ne pas se synchroniser immédiatement. Patientez quelques minutes, puis réessayez.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer vos modifications.
-
->[!NOTE]
->
->Vous ne pouvez pas modifier les champs **[!UICONTROL IP]** et **[!UICONTROL Enregistrement PTR]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer vos modifications. Notez que les champs **[!UICONTROL IP]** et **[!UICONTROL enregistrement PTR]** ne peuvent pas être modifiés.
 
 ## Vérification des détails de la mise à jour de l’enregistrement PTR {#check-ptr-record-update}
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: adresses IP, groupes, groupe, sous-domaines, délivrabilité
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 100%
+source-wordcount: '695'
+ht-degree: 79%
 
 ---
 
@@ -54,15 +54,11 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
    >
    >Le nom doit commencer par une lettre (A-Z) et contenir uniquement des caractères alphanumériques ou des caractères spéciaux ( _, ., - ).
 
-1. Sélectionnez les adresses IP à inclure dans le pool dans la liste déroulante, puis cliquez sur **[!UICONTROL Envoyer]**.
+1. Sélectionnez les adresses IP à inclure dans le pool dans la liste déroulante, puis cliquez sur **[!UICONTROL Envoyer]**. Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
 
    ![](assets/ip-pool-config.png)
 
-   >[!NOTE]
-   >
-   >Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
-
-Lors de la sélection des adresses IP, vous pouvez voir dans la liste les enregistrements PTR associés aux adresses IP. Vous pouvez ainsi vérifier les informations de branding de chaque adresse IP lors de la création d’un groupe d’adresses IP et sélectionner les adresses IP avec les mêmes informations de branding, par exemple. [En savoir plus sur les enregistrements PTR.](ptr-records.md)
+Lors de la sélection des adresses IP, vous pouvez voir dans la liste les enregistrements PTR associés aux adresses IP. Vous pouvez ainsi vérifier les informations de branding de chaque adresse IP lors de la création d’un groupe d’adresses IP et sélectionner les adresses IP avec les mêmes informations de branding, par exemple. [En savoir plus sur les enregistrements PTR](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
@@ -82,17 +78,13 @@ Pour modifier un groupe dʼadresses IP, suivez les étapes ci-dessous.
 
 1. Dans la liste, cliquez sur le nom du pool d’adresses IP pour l’ouvrir.
 
-1. Modifiez ses propriétés selon vos besoins. Vous pouvez modifier la description et ajouter ou supprimer des adresses IP.
-
-   >[!NOTE]
-   >
-   >Le nom du pool d’adresses IP n’est pas modifiable. Si vous souhaitez le modifier, vous devez supprimer le pool d’adresses IP et en créer un autre avec le nom de votre choix.
+1. Modifiez ses propriétés selon vos besoins. Vous pouvez modifier la description et ajouter ou supprimer des adresses IP. Notez que le nom du groupe d’adresses IP n’est pas modifiable : pour le renommer, supprimez le groupe et en créer un nouveau.
 
    ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
-   >Procédez avec attention lorsque vous envisagez de supprimer une adresse IP, car cela entraîne une charge supplémentaire pour les autres adresses IP, ce qui peut avoir de graves répercussions sur votre délivrabilité. En cas de doute, contactez un expert en délivrabilité.
+   >Procédez avec précaution lorsque vous envisagez de supprimer une adresse IP, car cela entraîne une charge supplémentaire pour les autres adresses IP, ce qui peut avoir de graves répercussions sur votre délivrabilité. En cas de doute, contactez un expert en délivrabilité.
 
 1. Enregistrez vos modifications.
 
@@ -103,18 +95,12 @@ La mise à jour est effective immédiatement ou de manière asynchrone, selon qu
 
 >[!NOTE]
 >
->Lors de la [création d’une configuration de canal](channel-surfaces.md#create-channel-surface), si vous sélectionnez un groupe d’adresses IP en cours d’édition (statut **[!UICONTROL En cours de traitement]**) et qui n’a jamais été associé au sous-domaine sélectionné pour cette configuration, vous ne pouvez pas poursuivre la création de la configuration. [En savoir plus](channel-surfaces.md#create-channel-surface)
+>* Lors de la [création d’une configuration de canal](channel-surfaces.md#create-channel-surface), si vous sélectionnez un groupe d’adresses IP à l’état **[!UICONTROL Traitement]** qui n’a jamais été associé au sous-domaine sélectionné, vous ne pouvez pas poursuivre la création de la configuration. [En savoir plus](channel-surfaces.md#create-channel-surface)
+>* Une fois qu’un groupe d’adresses IP a été mis à jour avec succès, patientez quelques minutes avant qu’il ne prenne effet pour les messages en temps réel ou attendez le prochain traitement par lots pour les messages par lots.
 
 Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Mises à jour récentes]**.
 
 ![](assets/ip-pool-recent-update.png)
-
->[!NOTE]
->
->Une fois qu’un pool d’adresses IP a été mis à jour, vous devrez peut-être attendre :
->
->* quelques minutes avant qu&#39;il soit consommé par les messages unitaires ;
->* jusqu’au lot suivant pour que le pool d’adresses IP soit effectif dans les messages par lots ;
 
 Vous pouvez également utiliser le bouton **[!UICONTROL Supprimer]** pour supprimer un pool d’adresses IP. Sachez que vous ne pouvez pas supprimer un groupe d’adresses IP associé à une configuration de canal.
 

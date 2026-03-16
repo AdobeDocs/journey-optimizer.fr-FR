@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 98%
+source-wordcount: '1332'
+ht-degree: 95%
 
 ---
 
@@ -45,13 +45,8 @@ Pour activer l’option **[!UICONTROL E-mail Cci]**, saisissez l’adresse e-mai
 
 >[!CAUTION]
 >
->Vous ne pouvez définir qu&#39;une seule adresse e-mail en Cci. Assurez-vous que l’adresse en Cci dispose d’une capacité de réception suffisante pour stocker tous les e-mails envoyés à l’aide de la configuration de canal actuelle.
->
->D’autres recommandations sont répertoriées dans [cette section](#bcc-recommendations-limitations).
-
->[!NOTE]
->
->Si vous avez acheté l’offre de module complémentaire Healthcare Shield, vous devez vous assurer que le FAI de votre adresse en Cci prend en charge le protocole TLS 1.2.
+>* Vous ne pouvez définir qu&#39;une seule adresse e-mail en Cci. Assurez-vous qu’il dispose de suffisamment de capacité pour stocker tous les e-mails envoyés à l’aide de la configuration de canal actuelle. D’autres recommandations sont répertoriées dans [cette section](#bcc-recommendations-limitations).
+>* Si vous avez acheté le module complémentaire Healthcare Shield, assurez-vous que le FAI de votre adresse en Cci prend en charge le protocole TLS 1.2.
 
 ![](assets/preset-bcc.png)
 

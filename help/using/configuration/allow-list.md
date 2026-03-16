@@ -8,10 +8,10 @@ role: Admin
 level: Intermediate
 keywords: liste autorisée, liste sécurisée, e-mail, délivrabilité, sandbox, domaines, suppression, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 76%
+source-wordcount: '1308'
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ Pour activer la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![Bouton bascule pour activer la liste autorisée &#x200B;](assets/allow-list-edit.png)
+   ![Bouton bascule pour activer la liste autorisée ](assets/allow-list-edit.png)
 
 1. Sélectionnez **[!UICONTROL Activer la liste autorisée]**. La liste autorisée est maintenant active.
 
@@ -63,13 +63,10 @@ Pour activer la liste autorisée, procédez comme suit.
 
    >[!NOTE]
    >
-   >Une fois la liste autorisée activée, elle prend effet dans vos parcours et campagnes après un délai de 10 minutes. De même, la mise à jour de la liste autorisée et de la liste de suppression peut prendre jusqu’à 10 minutes.
+   >* Après l’activation, un délai de 10 minutes est nécessaire avant que la liste autorisée ne prenne effet dans les parcours et les campagnes. Les mises à jour de la liste de liste autorisée et de suppression peuvent également prendre jusqu’à 10 minutes.
+   >* Lorsqu’elle est active, la liste autorisée est appliquée non seulement dans les parcours en direct, mais également lors du test des messages avec des [BAT](../content-management/proofs.md) et des parcours en [mode test](../building-journeys/testing-the-journey.md).
 
 La logique de liste autorisée s’applique lorsque la fonctionnalité est active. En savoir plus dans [cette section](#logic).
-
->[!NOTE]
->
->Lorsqu’elle est activée, la fonctionnalité de liste autorisée est respectée lors de l’exécution des parcours, mais également lors du test des messages avec des [BAT](../content-management/proofs.md) et du test des parcours à l’aide du [mode test](../building-journeys/testing-the-journey.md).
 
 ## Désactiver la liste autorisée {#deactivate-allow-list}
 
@@ -79,7 +76,7 @@ Pour désactiver la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![Bouton bascule pour désactiver la liste autorisée &#x200B;](assets/allow-list-edit-active.png)
+   ![Bouton bascule pour désactiver la liste autorisée ](assets/allow-list-edit-active.png)
 
 1. Sélectionnez **[!UICONTROL Désactiver la liste autorisée]**. La liste autorisée n’est plus active.
 
@@ -121,7 +118,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Sélectionnez le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]**.
 
-   ![Bouton Ajouter un e-mail ou un domaine sur la page de liste autorisée &#x200B;](assets/allowed-list-add-email.png)
+   ![Bouton Ajouter un e-mail ou un domaine sur la page de liste autorisée ](assets/allowed-list-add-email.png)
 
 1. Choisissez le type d&#39;adresse : **[!UICONTROL Adresse e-mail]** ou **[!UICONTROL Adresse de domaine]**.
 
@@ -157,7 +154,7 @@ Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous 
 
 1. Sélectionnez le bouton **[!UICONTROL Téléchargement le CSV]**.
 
-   ![Bouton Télécharger CSV sur la page liste autorisée &#x200B;](assets/allowed-list-download-csv.png)
+   ![Bouton Télécharger CSV sur la page liste autorisée ](assets/allowed-list-download-csv.png)
 
 1. Patientez jusqu’à ce que le fichier soit généré.
 

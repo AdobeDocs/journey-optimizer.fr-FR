@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 84%
@@ -123,9 +123,7 @@ Par exemple, si vous ajoutez le domaine personnalisé Roadrunner, vous voulez in
 
 ![](assets/ip-warmup-sample-file-custom.png)
 
->[!NOTE]
->
->Si vous n’avez pas besoin de domaines personnalisés, laissez l’onglet **[!UICONTROL Groupe de domaines personnalisés]** vide.
+Si vous n’avez pas besoin de domaines personnalisés, laissez l’onglet **[!UICONTROL Groupe de domaines personnalisés]** vide.
 
 ### Onglet Groupes de domaines prêts à l’emploi {#ootb-domain-groups-tab}
 
@@ -251,15 +249,12 @@ Chaque domaine s’affiche désormais dans une colonne différente sur la même 
 
 1. Pour supprimer un plan de préchauffage d’adresses IP, sélectionnez l’icône **[!UICONTROL Supprimer]** en regard du nom d’un plan et confirmez la suppression.
 
-   >[!NOTE]
-   >
-   >Seuls les plans ayant le statut **Non démarré** peuvent être supprimés.
-
-   ![](assets/ip-warmup-delete-plan.png)
-
    >[!CAUTION]
    >
-   >Le plan de préchauffage d’adresses IP sélectionné sera définitivement supprimé.
+   >* Seuls les plans ayant le statut **Non démarré** peuvent être supprimés.
+   >* Le plan de préchauffage d’adresses IP sélectionné sera définitivement supprimé.
+
+   ![](assets/ip-warmup-delete-plan.png)
 
 ## Créer un plan de préchauffage d’adresses IP {#create-ip-warmup-plan}
 

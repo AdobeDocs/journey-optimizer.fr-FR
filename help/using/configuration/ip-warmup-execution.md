@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '2733'
-ht-degree: 97%
+source-wordcount: '2709'
+ht-degree: 91%
 
 ---
 
@@ -50,37 +50,25 @@ Pour définir les phases de votre plan de préchauffage d’adresses IP, vous de
 
 1. Sélectionnez la campagne que vous souhaitez associer à la première phase du plan de préchauffage d’adresses IP.
 
-   >[!NOTE]
-   >
-   >Vous ne pouvez pas sélectionner une campagne qui est déjà utilisée dans un autre plan de préchauffage des adresses IP. Cependant, la même campagne peut être utilisée dans une ou plusieurs phases du même plan de préchauffage d’adresses IP.
-
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >* Seules les campagnes ayant l’option **[!UICONTROL Activation du plan de préchauffage des adresses IP]** activée sont disponibles pour sélection. [En savoir plus](#create-ip-warmup-campaign)
-   >
+   >* Seules les campagnes dont l’option **[!UICONTROL Activation du plan de préchauffage d’adresses IP]** est activée sont disponibles pour la sélection. [En savoir plus](#create-ip-warmup-campaign)
    >* Seules les campagnes qui utilisent la même configuration que le plan de préchauffage des adresses IP choisi peuvent être sélectionnées.
+   >* Impossible de sélectionner une campagne déjà utilisée dans un autre plan de préchauffage d’adresses IP. Une même campagne peut être utilisée en plusieurs phases d’un même plan.
 
-1. Une fois qu’une campagne est sélectionnée pour la phase en cours, les sections permettant d’exclure les profils, les audiences de campagnes et les groupes de domaines de l’opération s’affichent.
-
-   >[!NOTE]
-   >
-   >Quand une exécution est activée, les exclusions ne peuvent plus être modifiées, sauf si vous [scindez l’exécution](#split-phase) en une nouvelle phase.
+1. Une fois qu’une campagne est sélectionnée pour la phase en cours, les sections permettant d’exclure les profils, les audiences de campagne et les groupes de domaines s’affichent. Notez qu’une fois qu’une exécution est activée, les exclusions ne peuvent plus être modifiées, sauf si vous [divisez l’exécution](#split-phase) vers une nouvelle phase.
 
    1. Dans la section **[!UICONTROL Groupes de domaines exclus]**, sélectionnez les domaines à exclure de cette phase.
 
       >[!NOTE]
       >
-      >L’exclusion de domaines requiert une phase non exécutée, vous devrez donc peut-être [fractionner une phase d’exécution](#split-phase) pour ajouter des exclusions.
+      >L’exclusion de domaine nécessite une phase non exécutée. Vous devrez peut-être donc [diviser une phase en cours d’exécution](#split-phase) pour ajouter des exclusions. En outre, vous ne pouvez exclure qu’un groupe de domaines personnalisé qui a été ajouté au modèle de plan de préchauffage d’adresses IP [](ip-warmup-plan.md#prepare-file) — dans le cas contraire, mettez à jour le modèle avec le groupe de domaines personnalisé et [chargez à nouveau le plan](#re-upload-plan).
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
       Par exemple, après avoir exécuté le préchauffage des adresses IP pendant quelques jours, vous réalisez que la réputation de votre FAI auprès d’un domaine (par exemple, Adobe) n’est pas bonne et que vous souhaitez résoudre ce problème sans arrêter votre plan de préchauffage des adresses IP. Dans ce cas, vous pouvez exclure le groupe de domaines Adobe.
-
-      >[!NOTE]
-      >
-      >Vous pouvez uniquement exclure un groupe de domaines personnalisé qui a été ajouté au [modèle de plan de préchauffage des adresses IP](ip-warmup-plan.md#prepare-file). Si ce n’est pas le cas, mettez à jour le modèle avec le groupe de domaines personnalisé à exclure et [chargez à nouveau le plan](#re-upload-plan).
 
       >[!CAUTION]
       >
@@ -103,11 +91,7 @@ Pour définir les phases de votre plan de préchauffage d’adresses IP, vous de
       1. Dans le menu **Schémas**, sélectionnez **Schéma d’événement de retour de message AJO**, puis accédez au champ **_messageID**. Sélectionnez **Ajouter une relation** et choisissez **Schéma d’enregistrement d’entité AJO** en tant que **Schéma de référence** et votre espace de noms créé précédemment en tant qu’**Espace de noms d’identité de référence**.
       +++
 
-   1. Dans la section **[!UICONTROL Profils ciblés dans les exécutions précédentes]**, vous pouvez constater que les profils des exécutions précédentes de cette phase sont toujours exclus. Par exemple, si dans la première exécution un profil est couvert dans les 4 800 premières personnes ciblées, le système s’assure automatiquement que le même profil ne reçoit pas l’e-mail dans la deuxième exécution.
-
-      >[!NOTE]
-      >
-      >Cette section n’est pas modifiable.
+   1. Dans la section **[!UICONTROL Profils ciblés dans les exécutions précédentes]** vous pouvez constater que les profils des exécutions précédentes de cette phase sont toujours exclus (cette section est en lecture seule). Par exemple, si dans la première exécution un profil est couvert dans les 4 800 premières personnes ciblées, le système s’assure automatiquement que le même profil ne reçoit pas l’e-mail dans la deuxième exécution.
 
 1. Si nécessaire, vous pouvez remplacer la campagne en cliquant sur le bouton **[!UICONTROL Remplacer]**. Vous pouvez également **[!UICONTROL effacer]** la campagne sélectionnée en cliquant sur le bouton **[!UICONTROL Effacer]**. Cette action va non seulement effacer la campagne, mais également d’autres propriétés au niveau de la phase, telles que l’exclusion de groupes de domaines, la campagne, l’exclusion de parcours, etc. Après l’effacement, vous pouvez décider d’une nouvelle campagne, immédiatement ou à une date ultérieure.
 
@@ -125,13 +109,9 @@ Pour définir les phases de votre plan de préchauffage d’adresses IP, vous de
 
    >[!CAUTION]
    >
-   >Vous ne pouvez pas annuler l’action **[!UICONTROL Supprimer la phase]**.
+   >Vous ne pouvez pas annuler l’action **[!UICONTROL Supprimer la phase]**. Si vous supprimez toutes les phases, il est recommandé de charger à nouveau le plan. [En savoir plus](#re-upload-plan)
 
    ![](assets/ip-warmup-plan-delete-phase.png)
-
-   >[!NOTE]
-   >
-   >Si vous supprimez toutes les phases du plan de préchauffage des adresses IP, il est recommandé de charger à nouveau un plan. [En savoir plus](#re-upload-plan)
 
 ## Définir les exécutions {#define-runs}
 
@@ -170,27 +150,19 @@ Après avoir défini les phases de votre plan de préchauffage d’adresses IP, 
 
    >[!NOTE]
    >
-   >Les reprises ont lieu toutes les 30 minutes jusqu’à la fin de la période définie.
+   >Les reprises ont lieu toutes les 30 minutes jusqu’à la fin de la période définie. Si aucune fenêtre temporelle n’est spécifiée, l’exécution est tentée à l’heure d’envoi et échoue si l’évaluation de l’audience n’est pas terminée.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
    Par exemple, si vous définissez une heure d’envoi un jour donné à 9 h et que vous sélectionnez 120 minutes comme temps d’exécution de reprise, une fenêtre d’opportunité de 2 heures (9 h à 11 h) s’affiche pour l’exécution en cas de retards inattendus dans l’évaluation de l’audience.
 
-   >[!NOTE]
-   >
-   >Si aucune fenêtre temporelle n’est spécifiée, l’exécution est tentée à l’heure d’envoi et échoue si l’évaluation de l’audience n’est pas terminée.
-
 1. Si nécessaire, sélectionnez **[!UICONTROL Modifier l’exécution]** à partir de l’icône Plus d’actions. Vous pouvez y mettre à jour le nombre d’adresses dans chaque colonne. Vous pouvez également mettre à jour le champ **[!UICONTROL Dernier engagement]** pour cibler uniquement les utilisateurs et utilisatrices engagés auprès de votre marque au cours des 20 derniers jours, par exemple.
 
    >[!NOTE]
    >
-   >Il est recommandé de modifier ces chiffres en consultation avec votre personne spécialisée en délivrabilité.
+   >Il est recommandé de modifier ces nombres en consultation avec votre expert en délivrabilité. Pour désactiver la période d’engagement d’une exécution, saisissez 0 dans le champ **[!UICONTROL Dernier engagement]**.
 
    ![](assets/ip-warmup-plan-edit-run.png)
-
-   >[!NOTE]
-   >
-   >Si vous ne souhaitez appliquer aucune période d’engagement à une exécution, saisissez 0 dans le champ **[!UICONTROL Dernier engagement]**.
 
 1. Sélectionnez l’option **[!UICONTROL Annuler les exécutions activées en cas d’erreurs]** pour annuler une exécution si les profils qualifiés sont inférieurs aux profils ciblés une fois que l’audience a été évaluée pour cette exécution.
 
@@ -230,7 +202,7 @@ Assurez-vous d’avoir prévu suffisamment de temps pour permettre l’exécutio
 
 >[!CAUTION]
 >
->Chaque exécution doit être activée au moins 12 heures avant l’heure d’envoi réelle et avant la tâche de segmentation par lots quotidienne. Sinon, l’évaluation de l’audience peut ne pas être terminée.
+>Chaque exécution doit être activée au moins 12 heures avant l’heure d’envoi réelle et avant le traitement quotidien de segmentation par lots. Sinon, l’évaluation de l’audience peut ne pas être terminée.
 
 Lorsque vous activez une exécution, plusieurs audiences sont automatiquement créées.
 
@@ -299,7 +271,7 @@ Une exécution peut avoir les statuts suivants :
 * **[!UICONTROL Brouillon]** : chaque fois qu’une exécution est créée, soit lors de la [création d’un plan](ip-warmup-plan.md) ou de l’[ajout d’une exécution](#define-runs) à partir de l’interface utilisateur, son statut est **[!UICONTROL Brouillon]**.
 * **[!UICONTROL Actif]** : chaque fois que vous activez une exécution, son statut est **[!UICONTROL Actif]**. Cela signifie que le système a accepté la demande de planification de l’exécution, et non que l’envoi a commencé. À ce stade, vous pouvez observer le statut de l’exécution active en cliquant sur le bouton **[!UICONTROL Afficher le statut]** dans le tableau. Vous pouvez ainsi suivre le nombre de profils ciblés réellement qualifiés.
 * **[!UICONTROL Terminé]** : l’exécution de la campagne pour cette exécution est terminée. Vous pouvez accéder à un rapport d’exécution détaillé en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans le tableau. Cette option vous permet de suivre le statut de diffusion par e-mail de l’exécution, y compris les répartitions spécifiques aux groupes de domaines pour une surveillance améliorée. Notez que le statut « Arrêté » sera attribué à la campagne.[En savoir plus](#reports)
-* **[!UICONTROL Annulée]** : une exécution **[!UICONTROL en direct]** a été annulée à l’aide du bouton **[!UICONTROL Annuler]**.[En savoir plus](#define-runs)
+* **[!UICONTROL Annulée]** : une exécution **[!UICONTROL active]** a été annulée à l’aide du bouton **[!UICONTROL Annuler]**.[En savoir plus](#define-runs)
 * **[!UICONTROL Échec]** : une erreur a été rencontrée par le système ou la campagne utilisée pour la phase en cours a été arrêtée, ou vous avez activé l’option **[!UICONTROL Annuler les exécutions activées en cas d’erreurs]** et une erreur s’est produite. Si une exécution échoue, vous pouvez en planifier une autre pour le jour suivant.
 
 ### Utiliser les rapports {#reports}
@@ -308,7 +280,7 @@ Plus généralement, pour mesurer l’impact de votre plan, vous pouvez vérifie
 
 ![](assets/ip-warmup-plan-reports.png)
 
-Vous pouvez également accéder aux rapports à partir du menu [Campagnes](../campaigns/manage-campaigns.md#access), car votre plan peut utiliser différentes campagnes. [Afficher dans le → du calendrier](../campaigns/manage-campaigns.md#calendar)
+Vous pouvez également accéder aux rapports à partir du [menu Campagnes](../campaigns/manage-campaigns.md#access), car votre plan peut utiliser différentes campagnes. [Afficher dans le calendrier →](../campaigns/manage-campaigns.md#calendar)
 
 
 ## Gérer votre plan {#manage-plan}
@@ -355,7 +327,7 @@ Prenons un exemple :
 
 * Avec le plan initial de préchauffage des adresses IP, la phase 2 comportait 9 exécutions.
 
-* 4 exécutions ont été exécutées (peu importe si elles ont échoué, ont été terminées ou annulées<!--as long as a run has been attempted, it is an executed run-->).
+* 4 exécutions ont été effectuées (peu importe si elles ont échoué, si elles ont été terminées ou annulées<!--as long as a run has been attempted, it is an executed run-->).
 
 * Si vous rechargez un plan, la phase 2 avec les 4 premières exécutions effectuées passe en mode lecture seule.
 

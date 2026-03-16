@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b3716265282599604de629be540ca68971daa343
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -146,13 +146,10 @@ Pour permettre à Adobe de gérer l’enregistrement DMARC à votre place, séle
 
 >[!NOTE]
 >
->Si [!DNL Journey Optimizer] effectue la récupération, vous pouvez utiliser les mêmes valeurs que celles mises en surbrillance dans l’interface ou les modifier si nécessaire.
+>* Si [!DNL Journey Optimizer] effectue la récupération, vous pouvez utiliser les mêmes valeurs que celles mises en surbrillance dans l’interface ou les modifier si nécessaire.
+>* Si vous n’ajoutez pas de valeurs, les valeurs préremplies par défaut seront utilisées.
 
 ![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
-
->[!NOTE]
->
->Si vous n’ajoutez pas de valeurs, les valeurs préremplies par défaut seront utilisées.
 
 1. Définissez l’action que le serveur de la personne destinataire doit effectuer en cas d’échec de DMARC. Selon la [politique DMARC](#dmarc-policies) que vous souhaitez appliquer, sélectionnez l’une des trois options :
 
@@ -168,16 +165,13 @@ Pour permettre à Adobe de gérer l’enregistrement DMARC à votre place, séle
 
    >[!NOTE]
    >
-   >Assurez-vous que vous contrôlez une véritable boîte de réception (hors Adobe) dans laquelle vous pouvez recevoir ces rapports.
+   >* Assurez-vous que vous contrôlez une véritable boîte de réception (hors Adobe) dans laquelle vous pouvez recevoir ces rapports.
+   >* Ces rapports hautement techniques donnent un aperçu des e-mails qui sont tentés de mystifier et sont mieux assimilés par un outil tiers.
 
    Il existe deux rapports différents générés par les FAI que les expéditeurs et expéditrices peuvent recevoir par le biais des balises RUA/RUF dans leur politique DMARC :
 
    * **Rapports agrégés** (RUA) : ils ne contiennent aucune information d’identification personnelle qui pourrait être sensible au RGPD.
    * **Rapports d’échec** (RUF) : ils contiennent des adresses e-mail sensibles au RGPD. Avant de les utiliser, vérifiez en interne comment traiter les informations qui doivent être conformes au RGPD.
-
-   >[!NOTE]
-   >
-   >Ces rapports hautement techniques fournissent une vue d’ensemble des e-mails qui ont fait l’objet d’une tentative d’usurpation. Il est préférable de les digérer à l’aide d’un outil tiers.
 
 1. Sélectionnez le **pourcentage applicable** des e-mails pour DMARC.
 
