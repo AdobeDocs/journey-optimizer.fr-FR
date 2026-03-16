@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, balises
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+workflow-type: tm+mt
+source-wordcount: '618'
+ht-degree: 41%
 
 ---
 
@@ -21,9 +21,24 @@ ht-degree: 100%
 
 En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez identifier vos parcours à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche.
 
+## Balises et conventions de nommage {#tags-vs-naming}
+
+Les équipes s’appuient souvent sur des conventions de nommage complexes pour stocker les métadonnées directement dans les noms de parcours, par exemple : *Marketing tout au long du cycle de vie - Éducation - Intégration des clients V2 - Éducation des applications - T3 2025*. Bien qu’elle soit bien intentionnée, cette approche présente une faiblesse majeure : à mesure que le travail s’étend à tous les membres de l’équipe, la convention est rarement appliquée de manière cohérente et les listes parcours deviennent difficiles à parcourir.
+
+**Les catégories de balises** dans Journey Optimizer offrent une meilleure alternative. Au lieu de coder les métadonnées dans le nom, vous joignez des balises classées à chaque parcours (par exemple, équipe, objectif, phase, trimestre) et utilisez des filtres pour les localiser. Les noms de parcours peuvent alors se concentrer sur ce qui compte vraiment : le jalon du client piloté.
+
+Avantages des catégories de balises par rapport aux conventions de nommage :
+
+* **Cohérence** — Les balises sont sélectionnées dans une liste contrôlée et ne sont pas saisies librement.
+* **Filtrabilité** : toute combinaison de valeurs de balise peut être utilisée pour découper instantanément la liste de parcours.
+* **Clarté** — Les noms de parcours restent courts et axés sur les jalons.
+* **Évolutivité** : l’ajout d’une nouvelle dimension de métadonnées implique la création d’une catégorie de balises, et non la réécriture d’une convention de nommage.
+
+Pour obtenir un workflow de configuration recommandé, voir [Configurer des catégories de balises pour la gestion des parcours ](#tags-setup) ci-dessous.
+
 ## Ajouter des balises à un parcours
 
-Le champ **Balises**, dans les propriétés du parcours, vous permet d’ajouter des balises à votre parcours. Vous pouvez sélectionner une balise existante ou créer une nouvelle balise. Commencez à saisir le nom de la balise souhaitée et sélectionnez-la dans la liste. Si elle n’est pas disponible, cliquez sur **Créer** pour créer une balise et l’ajouter à votre parcours. Vous pouvez définir autant de balises que vous le souhaitez.
+Le champ **Balises**, dans les propriétés du parcours, vous permet d’ajouter des balises à votre parcours. Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Commencez à saisir le nom de la balise souhaitée et sélectionnez-la dans la liste. Si elle n’est pas disponible, cliquez sur **Créer** pour créer une balise et l’ajouter à votre parcours. Vous pouvez définir autant de balises que vous le souhaitez.
 
 ![Panneau Balises dans les propriétés de parcours pour la catégorisation et l’organisation](assets/tags1.png)
 
@@ -54,3 +69,27 @@ L’administration peut supprimer des balises et les classer par catégorie dans
 >[!NOTE]
 >
 > Les balises définies dans les parcours sont ajoutées à la catégorie intégrée « Non classé ».
+
+## Configurer des catégories de balises pour la gestion des parcours {#tags-setup}
+
+Pour remplacer une convention de nommage complexe par une approche basée sur les balises dans l’ensemble de votre équipe, procédez comme suit.
+
+**Étape 1 — Créer des catégories de balises (Admin)**
+
+Dans **[!UICONTROL Administration]** > **[!UICONTROL Balises]**, créez une catégorie pour chaque attribut de métadonnées que votre équipe code actuellement dans des noms de parcours, par exemple : *Équipe*, *Objectif marketing*, *Campagne*, *Phase*, *Trimestre*.
+
+**Étape 2 — Renseigner chaque catégorie avec des valeurs de balise (Admin)**
+
+Dans chaque catégorie, créez les balises qui représentent toutes les valeurs possibles. Par exemple, la catégorie *Phase* peut contenir : *Sensibilisation*, *Intégration*, *Rétention*, *Reconquête*.
+
+**Étape 3 — Application de balises lors de la création de parcours (utilisateurs)**
+
+À chaque création d’un parcours, sélectionnez la balise appropriée dans chaque catégorie des propriétés du parcours. En règle générale, un parcours comporte une balise par catégorie.
+
+**Étape 4 : nommer les parcours pour le jalon, filtrer par balises**
+
+Veillez à ce que le nom du parcours reste axé sur le jalon client qu’il franchit (par exemple, *Première transaction de fidélité*). Utilisez les filtres de balises dans la liste des parcours pour localiser les parcours à l’aide d’une combinaison de métadonnées, sans recourir à l’analyse de nom.
+
+>[!TIP]
+>
+>Pour une discussion plus large sur cette approche et ses avantages à grande échelle, consultez [Bonnes pratiques pour les parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.

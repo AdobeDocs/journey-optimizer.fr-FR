@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 97%
+source-wordcount: '949'
+ht-degree: 92%
 
 ---
 
@@ -85,6 +85,10 @@ Vous pouvez ensuite commencer à concevoir votre parcours.
 ## Concevoir le parcours {#jo-design}
 
 Le concepteur de parcours omnicanaux dispose d’une interface intuitive par glisser-déposer, qui vous permet de créer des parcours à plusieurs étapes avec des audiences ciblées, des mises à jour basées sur des interactions client ou commerciale en temps réel et des messages omnicanaux.
+
+>[!TIP]
+>
+>Pour les parcours comportant plusieurs phases ou plusieurs points de contact, pensez à diviser le flux de bout en bout en sous-parcours plus petits et ciblés liés à l’activité **[!UICONTROL Saut]**. Cette approche réduit la complexité et facilite les tests et la maintenance indépendants de chaque sous-parcours. En savoir plus dans [Stratégie de conception : sous-parcours de petite taille](jump.md#jump-strategy).
 
 ![Interface du concepteur de parcours avec la palette d’activités et la zone de travail](assets/journey38.png)
 

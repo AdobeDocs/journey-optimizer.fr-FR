@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 88%
+source-wordcount: '1761'
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Les sources de données externes vous permettent de définir une connexion à de
 >
 >* Les mécanismes de sécurisation lors de l’utilisation de systèmes externes sont répertoriés dans [cette page](../configuration/external-systems.md).
 >
->* Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [réponses d’action personnalisée](../action/action-response.md)
+>* Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [réponses d’action personnalisée](../action/action-response.md). Les actions personnalisées sans persistance du lac de données sont le bon choix lorsque les données ne sont utiles qu’à l’intérieur du parcours et que le système externe est accessible via un point d’entrée de l’API. Pour une comparaison de toutes les options d’accès aux données, voir [ Choisir votre stratégie d’accès aux données ](../datasource/about-data-sources.md#data-access-strategy).
 
 Les API REST utilisant POST ou GET et renvoyant JSON sont prises en charge. Les modes d’authentification par clé API, de base et personnalisée sont pris en charge.
 
