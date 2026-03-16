@@ -25,7 +25,7 @@ Utilisez les données d’événement de gestion des décisions et le schéma XD
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Utiliser les événements de gestion des décisions
 
@@ -35,7 +35,7 @@ Découvrez comment utiliser les jeux de données d’événements de gestion des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Accéder aux champs XDM DecisioningEvents et les explorer
 

@@ -20,7 +20,7 @@ Adobe Experience Platform est la base qui permet d’offrir des expériences cli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation de la fonction inAudience
 
@@ -30,7 +30,7 @@ Découvrez comment utiliser la fonction inAudience pour évaluer l’appartenanc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utilisation des données Adobe Experience Platform pour Personalization
 
