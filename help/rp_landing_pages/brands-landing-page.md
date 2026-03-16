@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Marques
-description: Marques
+description: Découvrez comment créer, gérer et personnaliser des directives de marque dans Journey Optimizer pour garantir un contenu cohérent et sur la marque pour toutes vos campagnes.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, la fonctionnalité « Marques » vous permet d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Créer et gérer vos directives de marque
 
@@ -30,13 +30,33 @@ Découvrez comment définir, personnaliser et gérer les directives de marque po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Évaluer votre score d’alignement sur la marque
 
 Comprenez et utilisez la fonctionnalité d’alignement sur la marque pour vérifier la conformité du contenu aux directives de marque et améliorer la cohérence.
 
 [Découvrir l’alignement sur la marque](../using/content-management/brands-score.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Personnaliser vos marques
+
+Découvrez comment définir les préférences de marque par défaut et adapter les directives de marque pour une intégration transparente au contenu généré par l’IA.
+
+[Personnaliser vos marques](../using/content-management/brands-personalize.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Création et gestion de modèles génératifs
+
+Découvrez comment créer et gérer des modèles d’IA génératifs personnalisés, formés selon les directives de votre marque pour une génération de contenu cohérente.
+
+[Gestion des modèles génératifs](../using/content-management/generative-models.md)
 :::
 
 ::::

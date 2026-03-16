@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Référence d’API
-description: Référence d’API
+description: Découvrez comment utiliser l’API de la bibliothèque des offres et les API de diffusion pour intégrer la gestion des décisions à vos workflows et diffuser des offres personnalisées à grande échelle.
 redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="Hérité" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ La section Référence d’API d’Adobe Journey Optimizer propose les outils do
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main de l’API Offer Library
 
@@ -35,13 +35,23 @@ Découvrez comment intégrer l’API Offer Library pour la gestion des décision
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Diffuser des offres à l’aide des API Adobe Journey Optimizer
 
 Explorez des ressources complètes sur l’implémentation des API Decisioning, Edge Decisioning et Batch Decisioning pour diffuser des offres personnalisées.
 
-[Explorer la section](offer-delivery-api-landing-page.md)
+[Explorer les API de diffusion](offer-delivery-api-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Créer et gérer des offres à l’aide d’API
+
+Accédez aux références d’API pour gérer les emplacements, les règles de décision, les qualificateurs de collection, les offres personnalisées, les collections, les offres de secours et les décisions.
+
+[Parcourir l&#39;API de la bibliothèque des offres](../using/offers/api-reference/getting-started.md)
 :::
 
 ::::

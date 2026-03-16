@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Configurer les pages de destination
-description: Configurer les pages de destination
+description: Découvrez comment configurer les sous-domaines et les préréglages de page de destination dans Journey Optimizer pour héberger, marquer et gérer vos pages de destination de manière cohérente.
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 35%
+source-wordcount: '179'
+ht-degree: 30%
 
 ---
 
@@ -26,7 +26,7 @@ Que vous utilisiez des domaines existants ou de nouvelles configurations, ces é
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuration et gestion des sous-domaines de page de destination
 
@@ -36,7 +36,7 @@ Découvrez comment configurer et gérer des sous-domaines pour héberger des pag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Définir les préréglages de page de destination
 

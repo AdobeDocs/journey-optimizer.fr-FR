@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Configuration des données
-description: Configuration des données
+description: Découvrez comment configurer des schémas relationnels, des jeux de données, des dimensions de ciblage et des paramètres de canal pour alimenter des campagnes orchestrées dans Journey Optimizer.
 redpen-status: CREATED_||_2025-08-11_20-24-01
 exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 487dac21011f951bedc6f9f71c39faf549859d79
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '209'
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ La configuration des données dans Adobe Journey Optimizer consiste à établir 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gérer des jeux de données et des schémas relationnels
 
@@ -30,13 +30,23 @@ Découvrez comment créer et gérer des schémas relationnels, configurer des je
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Configuration d’une dimension de ciblage
 
 Guide détaillé permettant de mapper des schémas relationnels aux profils clients et de configurer des canaux pour une communication ciblée dans des campagnes orchestrées.
 
 [Découvrir comment configurer des dimensions de ciblage](../using/orchestrated/target-dimension.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Configuration d’une configuration de canal
+
+Découvrez comment configurer des configurations de canal à utiliser dans des campagnes orchestrées, y compris les e-mails et les autres canaux pris en charge.
+
+[Configuration d’un canal](../using/orchestrated/channel-config.md)
 :::
 
 ::::
