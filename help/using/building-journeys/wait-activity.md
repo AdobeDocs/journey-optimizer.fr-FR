@@ -10,10 +10,10 @@ level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
+source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 86%
+source-wordcount: '878'
+ht-degree: 85%
 
 ---
 
@@ -90,13 +90,16 @@ La bonne pratique consiste à utiliser des dates personnalisées spécifiques à
 
 >[!CAUTION]
 >
->Vous pouvez tirer parti d’une expression `dateTimeOnly` ou utiliser une fonction pour effectuer une conversion vers le format `dateTimeOnly`. Par exemple : `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, le champ de l’événement se présentant sous la forme 2023-08-12T09:46:06Z. Le **fuseau horaire** est attendu dans les propriétés de votre parcours. Il n’est donc pas possible, à partir de l’interface utilisateur, de pointer directement vers un horodatage ISO-8601 complet associant l’heure et le décalage horaire, comme 2023-08-12T09:46:06.982-05. [En savoir plus](../building-journeys/timezone-management.md).
+>Lorsque vous utilisez des expressions `dateTimeOnly`, tenez compte des points suivants :
 >
->Lors de la création d’une expression d’attente personnalisée avec `toDateTimeOnly()`, évitez d’ajouter « Z » ou tout décalage de fuseau horaire (par exemple, « -05 :00 ») dans le résultat. L’expression doit utiliser une syntaxe date/heure ISO valide faisant référence au fuseau horaire configuré du parcours sans indicateurs de fuseau horaire explicites. Dans le cas contraire, les profils peuvent rester bloqués dans l’activité d’attente.
+>* Vous pouvez utiliser directement une expression de `dateTimeOnly` ou effectuer une conversion à l’aide d’une fonction, par exemple : `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})` où la valeur du champ se trouve dans le `2023-08-12T09:46:06Z` de formulaire.
+>* Le **fuseau horaire** est défini dans les propriétés du parcours. Par conséquent, il n’est pas possible à partir de l’interface utilisateur de pointer vers un horodatage ISO-8601 complet qui combine l’heure et le décalage de fuseau horaire, tel que `2023-08-12T09:46:06.982-05`. [En savoir plus](../building-journeys/timezone-management.md)
+>* Lors de la création d’une expression d’attente personnalisée avec `toDateTimeOnly()`, n’ajoutez **pas** de `Z` ou de décalage de fuseau horaire (par exemple, `-05:00`). L’expression doit référencer le fuseau horaire configuré du parcours sans indicateurs de fuseau horaire explicites. Dans le cas contraire, les profils peuvent être bloqués dans l’activité d’attente.
 >
->**Exemple correct :** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
->
->**Exemple incorrect :** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contient « Z »)
+>| | Exemple |
+>|---|---|
+>| **Correct** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
+>| **Incorrect** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contient du `Z`) |
 
 Pour vérifier que l’activité d’attente fonctionne comme prévu, vous pouvez utiliser des événements d’étape. [En savoir plus](../reports/query-examples.md#common-queries).
 
