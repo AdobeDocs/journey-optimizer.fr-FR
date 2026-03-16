@@ -59,4 +59,4 @@ Suivez les étapes ci-dessous pour configurer et implémenter l’activité dyna
 
 Découvrez comment configurer les activités iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479866/?captions=fre_fr&learn=on)
