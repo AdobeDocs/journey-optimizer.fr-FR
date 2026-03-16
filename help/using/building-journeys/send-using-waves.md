@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: vagues, lots, planning, parcours, lecture d’audience, délivrabilité
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
+source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '871'
+ht-degree: 2%
 
 ---
 
@@ -33,9 +34,9 @@ Vous le configurez au niveau du parcours lorsque vous définissez la manière do
 
 ## Limites et mécanismes de sécurisation {#limitations-guardrails}
 
-* L’envoi de vagues est uniquement disponible pour les parcours d’audience lue avec les types de planificateur **[!DNL As soon as possible]** et **[!UICONTROL Une fois]**. En savoir plus sur le planning de parcours [&#128279;](read-audience.md#schedule).
+* L’envoi de vagues est uniquement disponible pour les parcours d’audience lue avec les types de planificateur **[!DNL As soon as possible]** et **[!UICONTROL Une fois]**. En savoir plus sur le planning de parcours [](read-audience.md#schedule).
 * L’envoi de vagues n’est pas disponible pour les parcours récurrents, déclenchés par un événement, d’événement métier, de mode test ou d’exécution d’essai.
-* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de **&#x200B;**.
+* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de ****.
 * L’intervalle minimum entre le début de deux vagues est de **30 minutes**.
 * Un début de vague ne peut pas être antérieur au début du parcours ou antérieur.
 * La division de l’audience en vagues peut prendre jusqu’à 1 heure. Les profils ne peuvent pas entrer dans le parcours avant cette date.
@@ -44,7 +45,7 @@ Vous le configurez au niveau du parcours lorsque vous définissez la manière do
 
 ## Configurer l’envoi de vagues dans un parcours {#configure-wave-sending}
 
-1. Commencez votre parcours par une activité [&#x200B; Lecture d’audience &#x200B;](read-audience.md).
+1. Commencez votre parcours par une activité [ Lecture d’audience ](read-audience.md).
 
 1. Double-cliquez sur l’activité **[!UICONTROL Lecture d’audience]** pour afficher ses propriétés et sélectionnez l’option **[!UICONTROL Diffuser l’action de parcours par vagues]**.
 
@@ -78,17 +79,13 @@ Sélectionnez l’option **[!UICONTROL Distribution personnalisée]** pour défi
 
 ![](assets/journey-wave-percentage.png){width="70%"}
 
->[!NOTE]
->
->Le total sur toutes les vagues doit être égal à 100 %. Si ce n&#39;est pas le cas, un message d&#39;avertissement s&#39;affiche.<!--are the waves actually sent or does the system prevent user from saving the journey?-->
-
 Sélectionnez **[!UICONTROL Nombres]** pour définir la taille de chaque vague en tant que nombre absolu de profils (par exemple, 10 000 ; 50 000).
 
 ![](assets/journey-wave-numbers.png){width="70%"}
 
 >[!NOTE]
->
->Lorsque vous utilisez des nombres, le système ne vérifie pas si la somme couvre toute l’audience. Vous devez vous assurer que la taille des vagues couvre l’audience à laquelle vous avez l’intention d’envoyer. Pour en savoir plus, consultez le [Forum aux questions](#faq).
+>* Si vous utilisez des pourcentages, toutes les vagues doivent totaliser 100 %. Un avertissement s&#39;affiche si ce n&#39;est pas le cas.
+>* Lorsque vous utilisez des nombres, le système ne valide pas la couverture : assurez-vous que la taille des vagues couvre l’audience visée. [En savoir plus](#faq)
 
 ### Planning personnalisé {#custom-schedule}
 
@@ -133,4 +130,4 @@ Vous pouvez uniquement définir la taille et la durée des vagues. La même audi
 
 ## Voir également {#see-also}
 
-* [Utiliser une audience dans un parcours &#x200B;](read-audience.md) : configurez l&#39;activité Lecture d&#39;audience.
+* [Utiliser une audience dans un parcours ](read-audience.md) : configurez l&#39;activité Lecture d&#39;audience.
