@@ -92,4 +92,4 @@ Veillez à ce que le nom du parcours reste axé sur le jalon client qu’il fran
 
 >[!TIP]
 >
->Pour une discussion plus large sur cette approche et ses avantages à grande échelle, consultez [Bonnes pratiques pour les parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Pour une discussion plus large sur cette approche et ses avantages à grande échelle, consultez [Bonnes pratiques pour les parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/fr/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
