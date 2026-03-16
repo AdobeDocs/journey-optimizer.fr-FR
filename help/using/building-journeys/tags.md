@@ -34,7 +34,7 @@ Avantages des catégories de balises par rapport aux conventions de nommage :
 * **Clarté** — Les noms de parcours restent courts et axés sur les jalons.
 * **Évolutivité** : l’ajout d’une nouvelle dimension de métadonnées implique la création d’une catégorie de balises, et non la réécriture d’une convention de nommage.
 
-Pour obtenir un workflow de configuration recommandé, voir [Configurer des catégories de balises pour la gestion des parcours ](#tags-setup) ci-dessous.
+Pour obtenir un workflow de configuration recommandé, voir [Configurer des catégories de balises pour la gestion des parcours &#x200B;](#tags-setup) ci-dessous.
 
 ## Ajouter des balises à un parcours
 
