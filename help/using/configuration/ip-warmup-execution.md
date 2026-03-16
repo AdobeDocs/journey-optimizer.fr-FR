@@ -64,7 +64,7 @@ Pour définir les phases de votre plan de préchauffage d’adresses IP, vous de
 
       >[!NOTE]
       >
-      >L’exclusion de domaine nécessite une phase non exécutée. Vous devrez peut-être donc [diviser une phase en cours d’exécution](#split-phase) pour ajouter des exclusions. En outre, vous ne pouvez exclure qu’un groupe de domaines personnalisé qui a été ajouté au modèle de plan de préchauffage d’adresses IP [](ip-warmup-plan.md#prepare-file) — dans le cas contraire, mettez à jour le modèle avec le groupe de domaines personnalisé et [chargez à nouveau le plan](#re-upload-plan).
+      >L’exclusion de domaine nécessite une phase non exécutée. Vous devrez peut-être donc [diviser une phase en cours d’exécution](#split-phase) pour ajouter des exclusions. En outre, vous ne pouvez exclure qu’un groupe de domaines personnalisé qui a été ajouté au modèle de plan de préchauffage d’adresses IP [&#128279;](ip-warmup-plan.md#prepare-file) — dans le cas contraire, mettez à jour le modèle avec le groupe de domaines personnalisé et [chargez à nouveau le plan](#re-upload-plan).
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
