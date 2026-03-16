@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 93%
@@ -234,17 +234,14 @@ Cette fonction vous permet d’ajouter des informations contextuelles à toute a
 
 >[!NOTE]
 >
->La fonction Métadonnées d’exécution n’est pas prise en charge par les [actions personnalisées](../../action/action.md).
+>* La fonction Métadonnées d’exécution n’est pas prise en charge par les [actions personnalisées](../../action/action.md).
+>* La fonction Métadonnées d’exécution n’est pas visible lorsque le contenu est affiché.
 
 Par exemple, vous pouvez utiliser l’assistant Métadonnées d’exécution pour ajouter un ID spécifique à chaque diffusion envoyée à chaque profil. Ces informations sont générées lors de l’exécution, puis vous pouvez importer les métadonnées d’exécution enrichies pour la réconciliation en aval à l’aide d’une plateforme de création de rapports externe.
 
 **Fonctionnement**
 
 Sélectionnez n’importe quel élément du contenu de votre canal dans une campagne ou un parcours et, à l’aide de l’éditeur de personnalisation, ajoutez l’assistant `executionMetadata` à cet élément.
-
->[!NOTE]
->
->La fonction Métadonnées d’exécution n’est pas visible lorsque le contenu est affiché.
 
 
 Lors de l’exécution, la valeur des métadonnées est ajoutée au **[!UICONTROL jeu de données d’événement de retour de message]** existant avec le schéma suivant :

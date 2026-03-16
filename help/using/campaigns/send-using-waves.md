@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: vagues, lots, planning, campagne, parcours, délivrabilité
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 1%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +30,7 @@ Journey Optimizer vous permet de définir le nombre de vagues, leur taille (en p
 ## Limites et mécanismes de sécurisation {#limitations-guardrails}
 
 * L’envoi de vagues s’applique uniquement aux actions **sortantes** (e-mail, SMS, notification push, courrier).
-* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de **&#x200B;**.
+* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de ****.
 * L’intervalle minimum entre le début de deux vagues est de **30 minutes**.
 * Un début de vague ne peut pas être antérieur au début de la campagne ou antérieur.
 
@@ -73,17 +74,13 @@ Sélectionnez l’option **[!UICONTROL Distribution personnalisée]** pour défi
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->Le total sur toutes les vagues doit être égal à 100 %. Si ce n&#39;est pas le cas, un message d&#39;avertissement s&#39;affiche.<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 Sélectionnez **[!UICONTROL Nombres]** pour définir la taille de chaque vague en tant que nombre absolu de profils (par exemple, 10 000 ; 50 000).
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->Lorsque vous utilisez des nombres, le système ne vérifie pas si la somme couvre toute l’audience. Vous devez vous assurer que la taille des vagues couvre l’audience à laquelle vous avez l’intention d’envoyer. Pour en savoir plus, consultez le [Forum aux questions](#faq).
+>* Si vous utilisez des pourcentages, toutes les vagues doivent totaliser 100 %. Un avertissement s&#39;affiche si ce n&#39;est pas le cas.
+>* Lorsque vous utilisez des nombres, le système ne valide pas la couverture : assurez-vous que la taille des vagues couvre l’audience visée. [En savoir plus](#faq)
 
 ### Planning personnalisé {#custom-schedule}
 

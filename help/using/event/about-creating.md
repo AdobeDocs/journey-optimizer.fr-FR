@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration d'un événement unitaire
+title: Configurer un événement unitaire
 description: Découvrez comment configurer un événement unitaire
 feature: Journeys, Events
 topic: Administration
@@ -9,14 +9,14 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
-workflow-type: ht
-source-wordcount: '1693'
-ht-degree: 100%
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+workflow-type: tm+mt
+source-wordcount: '1684'
+ht-degree: 96%
 
 ---
 
-# Configuration d&#39;un événement unitaire {#configure-an-event}
+# Configurer un événement unitaire {#configure-an-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
@@ -80,7 +80,7 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   L&#39;événement est maintenant configuré et prêt à être déposé dans un parcours. Des étapes de configuration supplémentaires sont requises pour la réception d&#39;événements. Voir [cette page](../event/additional-steps-to-send-events-to-journey.md).
+   L&#39;événement est maintenant configuré et prêt à être déposé dans un parcours. Des étapes de configuration supplémentaires sont requises pour la réception d&#39;événements. Consultez [cette page](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Définition des champs de payload {#define-the-payload-fields}
 
@@ -94,15 +94,13 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    >[!NOTE]
    >
-   >Pour les événements générés par le système, veillez à ajouter le groupe de champs &quot;orchestration&quot; au schéma XDM. Vous aurez ainsi la garantie que votre schéma contient toutes les informations requises pour fonctionner avec [!DNL Journey Optimizer].
+   >Pour les événements générés par le système :
+   >* Assurez-vous d’avoir ajouté le groupe de champs `orchestration` au schéma XDM. Ainsi, votre schéma contient toutes les informations requises pour fonctionner avec [!DNL Journey Optimizer].
+   >* Le champ **[!UICONTROL eventID]** est automatiquement ajouté à la liste des champs sélectionnés afin que [!DNL Journey Optimizer] puissiez identifier l&#39;événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant - utilisez plutôt celui disponible dans l’aperçu de la payload. [En savoir plus](../event/about-creating.md#preview-the-payload)
 
    ![](assets/journey9.png)
 
 1. Sélectionnez les champs que vous prévoyez de recevoir de l&#39;événement. Il s&#39;agit des champs que l&#39;utilisateur chargé de la conception de parcours exploitera dans le parcours. Ils doivent également inclure la clé qui sera utilisée pour identifier la personne associée à l&#39;événement (voir [cette section](../event/about-creating.md#define-the-event-key)).
-
-   >[!NOTE]
-   >
-   >Pour les événements générés par le système, le champ **[!UICONTROL eventID]** est automatiquement ajouté à la liste des champs sélectionnés afin que [!DNL Journey Optimizer] puisse identifier l&#39;événement. Le système à l&#39;origine de l&#39;envoi de l&#39;événement ne doit pas générer d&#39;identifiant, mais plutôt utiliser celui indiqué dans l&#39;aperçu de la payload. Consultez [cette section](../event/about-creating.md#preview-the-payload).
 
 1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL OK]** ou appuyez sur la touche **[!UICONTROL Entrée]**.
 
