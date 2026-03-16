@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: intégré, source, données, platform, intégration
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 43a4b85adb74e24c7c57fa74177795d014b88774
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 94%
 
 ---
 
@@ -29,11 +29,9 @@ Pour autoriser la connexion au service de profil client en temps réel, nous dev
 
 Vous pouvez modifier le groupe de champs préconfiguré nommé « ProfileFieldGroup », en ajouter de nouveaux et supprimer ceux qui ne sont pas utilisés dans les parcours actifs ou dans un état de brouillon. [En savoir plus](../datasource/configure-data-sources.md#define-field-groups).
 
-
 >[!CAUTION]
 >
 >L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’utiliser d’autres méthodes. [En savoir plus](../building-journeys/exp-event-lookup.md)
-
 
 Voici les étapes principales pour ajouter des groupes de champs à la source de données intégrée :
 
@@ -48,8 +46,12 @@ Voici les étapes principales pour ajouter des groupes de champs à la source de
    ![](assets/journey24.png)
 
 1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. La création du schéma est effectuée dans Adobe Experience Platform, mais pas dans Adobe Journey Optimizer.
-1. Sélectionnez les champs à utiliser et enregistrez vos modifications.
 
+   >[!NOTE]
+   >
+   >Seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Source de données [!DNL Journey Optimizer]. Pour plus d’informations, voir [Classe XDM Individual Profile](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+
+1. Sélectionnez les champs à utiliser et enregistrez vos modifications.
 
 >[!TIP]
 >
