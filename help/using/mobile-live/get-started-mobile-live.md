@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: f3c398a7164d7c83a39c4ec7c9460589309c8cae
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 60%
+source-wordcount: '276'
+ht-degree: 55%
 
 ---
 
@@ -54,3 +54,9 @@ Suivez les étapes ci-dessous pour configurer et implémenter l’activité dyna
 1. **[Surveiller vos campagnes](../reports/campaign-global-report-cja-activity.md)**
 
    Commencez à mesurer l’impact de votre Activité dynamique à l’aide de rapports intégrés.
+
+## Vidéo pratique
+
+Découvrez comment configurer les activités iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
