@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 95%
+source-wordcount: '1818'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,11 @@ Les types de condition disponibles sont les suivants :
 * [Condition de date](#date_condition)
 * [Limite de profils](#profile_cap)
 
-Vous pouvez également utiliser une audience dans une condition de parcours. [En savoir plus](#using-a-segment). Pour plus d’informations sur la génération et le suivi des audiences, voir [cette section](../audience/about-audiences.md).
+Vous pouvez également utiliser les audiences directement dans des conditions de parcours. Voir :
+
+* [Utilisation d’une audience dans une condition](#using-a-segment) — Filtrez les profils qui empruntent un chemin donné en fonction de l’appartenance à l’audience
+* [Créer et gérer des audiences](../audience/about-audiences.md) — découvrez comment créer, évaluer et cibler des audiences dans [!DNL Adobe Experience Platform]
+* [Modèles de ciblage d’audience dans les parcours ](read-audience.md#audience-targeting-in-journeys) — segmenter, exclure ou fusionner les branches d’audience après une entrée Lecture d’audience
 
 >[!NOTE]
 >
