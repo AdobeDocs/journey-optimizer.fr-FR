@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: df3ae62439882bd4b1f5f00e9c24d341f83b8df9
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 98%
+source-wordcount: '1509'
+ht-degree: 89%
 
 ---
 
@@ -52,6 +52,15 @@ Lorsqu’elles sont activées, ces options effectuent le suivi du comportement d
 ## Insertion de liens {#insert-links}
 
 Lorsque le [suivi est activé](#enable-tracking), tous les liens inclus dans le contenu du message font l’objet d’un suivi.
+
+Un identifiant de tracking unique (urlID) n’est généré que lorsque le **URL** et le **label** sont uniques. Les liens qui partagent la même URL et ont le même libellé effectif (y compris lorsque le libellé est vide) réutilisent le même urlID, ce qui signifie que vous ne pouvez pas déterminer sur quel lien l’utilisateur a cliqué. Pour suivre la même URL dans plusieurs e-mails (ou plusieurs fois dans un seul e-mail), utilisez un libellé unique pour chaque URL similaire ; autrement, [!DNL Journey Optimizer] ne pourrez pas suivre le lien sur lequel l’utilisateur a cliqué. Vous pouvez définir des libellés distincts dans le Designer Email ou, pour HTML, via l’attribut `data-label` .
+
+| URL | Balise | Libellé | Comportement de l’urlID |
+|-----|-----|-------|----------------|
+| www.example.com | First | (vide) | Obtient un urlID (par exemple, A) |
+| www.example.com | Second | (vide) | Réutilise l’urlID A — impossible de déterminer le lien sur lequel l’utilisateur a cliqué |
+| www.example.com | Troisième | Première étiquette | Obtient un urlID (par exemple, B) |
+| www.example.com | Quatrième | Deuxième libellé | Obtient un urlID (par exemple C) |
 
 >[!NOTE]
 >
