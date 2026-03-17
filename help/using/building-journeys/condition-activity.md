@@ -44,7 +44,7 @@ Vous pouvez également utiliser les audiences directement dans des conditions de
 
 * [Utilisation d’une audience dans une condition](#using-a-segment) — Filtrez les profils qui empruntent un chemin donné en fonction de l’appartenance à l’audience
 * [Créer et gérer des audiences](../audience/about-audiences.md) — découvrez comment créer, évaluer et cibler des audiences dans [!DNL Adobe Experience Platform]
-* [Modèles de ciblage d’audience dans les parcours ](read-audience.md#audience-targeting-in-journeys) — segmenter, exclure ou fusionner les branches d’audience après une entrée Lecture d’audience
+* [Modèles de ciblage d’audience dans les parcours &#x200B;](read-audience.md#audience-targeting-in-journeys) — segmenter, exclure ou fusionner les branches d’audience après une entrée Lecture d’audience
 
 >[!NOTE]
 >
