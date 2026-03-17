@@ -47,7 +47,7 @@ Pour **créer un schéma**, procédez comme suit :
 1. Sélectionnez un type de schéma, par exemple **Profil individuel**, puis cliquez sur **Suivant**.
    ![Sélection du type de schéma affichant l’option Profil individuel](assets/test-profiles-1.png)
 1. Saisissez le nom de votre schéma, puis cliquez sur **Terminer**.
-   ![Boîte de dialogue Nommer et enregistrer le schéma ](assets/test-profiles-1-bis.png)
+   ![Boîte de dialogue Nommer et enregistrer le schéma &#x200B;](assets/test-profiles-1-bis.png)
 1. Dans la section **Groupes de champs**, à gauche, cliquez sur **Ajouter** et sélectionnez les groupe de champs appropriés. Veillez à ajouter le groupe de champs **Détails du profil de test**.
    ![Section Groupes de champs avec le bouton Ajouter](assets/test-profiles-1-ter.png)
 Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes de champs]** : la liste des groupes de champs s’affiche dans l’écran de vue d’ensemble du schéma.
@@ -89,7 +89,7 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 1. Sélectionnez le schéma créé précédemment, puis cliquez sur **[!UICONTROL Suivant]**.
    ![Écran de sélection des schémas pour la création de jeux de données](assets/test-profiles-8.png)
 1. Choisissez un nom, puis cliquez sur **[!UICONTROL Terminer]**.
-   ![Boîte de dialogue Nommer et terminer le jeu de données ](assets/test-profiles-9.png)
+   ![Boîte de dialogue Nommer et terminer le jeu de données &#x200B;](assets/test-profiles-9.png)
 1. Activez l&#39;option **[!UICONTROL Profil]**.
    ![Paramètres du jeu de données avec l’option Profil activée](assets/test-profiles-10.png)
 
