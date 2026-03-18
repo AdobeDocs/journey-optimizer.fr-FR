@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cfe6fa417c81e7488a3f2f1313b08f346f1aeb03
+source-git-commit: f91abf82dff8f9cc9e16d769bdfb65725f5e2983
 workflow-type: tm+mt
 source-wordcount: '2742'
 ht-degree: 7%
@@ -104,7 +104,7 @@ Pour Sinch et Sinch Conversational, créez un webhook unique qui gère les évé
 
 1. Sélectionnez une catégorie de mots-clés dans le menu déroulant **[!UICONTROL Catégorie de mots-clés entrante]** pour configurer :
 
-   * &#x200B;
+   * 
      +++ Abonnement
 
       * Activez les mots-clés qui inscrivent des utilisateurs avec leur consentement. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est accepté pour recevoir des SMS.
@@ -113,9 +113,9 @@ Pour Sinch et Sinch Conversational, créez un webhook unique qui gère les évé
 
       * Utilisez le champ **[!UICONTROL Message de réponse]** pour créer un message automatiquement envoyé lorsque le message entrant d’un utilisateur correspond à un mot-clé d’accord préalable.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Opt-Out
 
       * Activez les mots-clés qui désactivent les utilisateurs et suppriment le consentement pour envoyer des messages texte. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est désinscrit de la réception des SMS.
@@ -126,9 +126,9 @@ Pour Sinch et Sinch Conversational, créez un webhook unique qui gère les évé
 
       * Activez **[!UICONTROL Logique floue]** pour détecter des mots-clés similaires aux mots-clés d’exclusion configurés. Si la réponse d’un utilisateur est proche mais non exacte, le message saisi dans le champ **[!UICONTROL Réponse automatique floue]** est envoyé. En règle générale, ce message indique que le processus d’opt-out n’a pas eu lieu et indique le mot-clé exact nécessaire pour se désabonner.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Double Opt-In
 
       * Activez les mots-clés pour l’exigence de double opt-in. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, il n’est pas entièrement opt-in à ce stade. Ce workflow de consentement en deux étapes nécessite que les utilisateurs confirment leur opt-in par un deuxième mot-clé.
@@ -137,7 +137,7 @@ Pour Sinch et Sinch Conversational, créez un webhook unique qui gère les évé
 
    +++
 
-   * &#x200B;
+   * 
      +++ Aide
 
       * Activez les mots-clés qui fournissent une réponse standard lorsque de l’aide est demandée. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, il reçoit le message de réponse d’aide.
@@ -146,16 +146,16 @@ Pour Sinch et Sinch Conversational, créez un webhook unique qui gère les évé
 
       * Utilisez le champ **[!UICONTROL Message de réponse]** pour créer un message qui est automatiquement envoyé lorsque le message entrant d’un utilisateur correspond à un mot-clé d’aide.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Valeur personnalisée
 
       * Configurez un seul mot-clé personnalisé. Lorsque le message d’un utilisateur ou d’une utilisatrice correspond à ce mot-clé, celui-ci est écrit dans le jeu de données **[!UICONTROL Suivi des commentaires sur les messages]** pour la création de rapports et d’audiences.
 
       * Créez une audience (par flux ou par lots) qui fait référence à ce mot-clé à utiliser dans vos parcours et campagnes.
 
-   +++
+     +++
 
 1. Saisissez un **[!UICONTROL Message de réponse par défaut]**. Ce message est automatiquement envoyé lorsque la réponse d’un utilisateur ne correspond à aucun mot-clé configuré.
 
@@ -210,7 +210,7 @@ Pour Infobip, créez deux webhooks distincts : l’un pour les événements de c
 
 1. Sélectionnez une catégorie de mots-clés dans le menu déroulant **[!UICONTROL Catégorie de mots-clés entrante]** pour configurer :
 
-   * &#x200B;
+   * 
      +++ Abonnement
 
       * Activez les mots-clés qui inscrivent des utilisateurs avec leur consentement. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est accepté pour recevoir des SMS.
@@ -219,9 +219,9 @@ Pour Infobip, créez deux webhooks distincts : l’un pour les événements de c
 
       * Utilisez le champ **[!UICONTROL Message de réponse]** pour créer un message automatiquement envoyé lorsque le message entrant d’un utilisateur correspond à un mot-clé d’accord préalable.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Opt-Out
 
       * Activez les mots-clés qui désactivent les utilisateurs et suppriment le consentement pour envoyer des messages texte. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est désinscrit de la réception des SMS.
@@ -232,18 +232,18 @@ Pour Infobip, créez deux webhooks distincts : l’un pour les événements de c
 
       * Activez **[!UICONTROL Logique floue]** pour détecter des mots-clés similaires aux mots-clés d’exclusion configurés. Si la réponse d’un utilisateur est proche mais non exacte, le message saisi dans le champ **[!UICONTROL Réponse automatique floue]** est envoyé. En règle générale, ce message indique que le processus d’opt-out n’a pas eu lieu et indique le mot-clé exact nécessaire pour se désabonner.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Double Opt-In
 
       * Activez les mots-clés pour l’exigence de double opt-in. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, il n’est pas entièrement opt-in à ce stade. Ce workflow de consentement en deux étapes nécessite que les utilisateurs confirment leur opt-in par un deuxième mot-clé.
 
       * Utilisez le champ **[!UICONTROL Message de réponse]** pour créer un message qui est automatiquement envoyé lorsqu’un mot-clé de double opt-in est recherché. Ce message demande à l’utilisateur de saisir un mot-clé d’accord préalable pour terminer le processus d’accord préalable.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Aide
 
       * Activez les mots-clés qui fournissent une réponse standard lorsque de l’aide est demandée. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, il reçoit le message de réponse d’aide.
@@ -252,16 +252,16 @@ Pour Infobip, créez deux webhooks distincts : l’un pour les événements de c
 
       * Utilisez le champ **[!UICONTROL Message de réponse]** pour créer un message qui est automatiquement envoyé lorsque le message entrant d’un utilisateur correspond à un mot-clé d’aide.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Valeur personnalisée
 
       * Configurez un seul mot-clé personnalisé. Lorsque le message d’un utilisateur ou d’une utilisatrice correspond à ce mot-clé, celui-ci est écrit dans le jeu de données **[!UICONTROL Suivi des commentaires sur les messages]** pour la création de rapports et d’audiences.
 
       * Créez une audience (par flux ou par lots) qui fait référence à ce mot-clé à utiliser dans vos parcours et campagnes.
 
-   +++
+     +++
 
 1. Saisissez un **[!UICONTROL Message de réponse par défaut]**. Ce message est automatiquement envoyé lorsque la réponse d’un utilisateur ne correspond à aucun mot-clé configuré.
 
@@ -323,7 +323,7 @@ Pour les fournisseurs de SMS personnalisés, créez deux webhooks distincts : l�
 
 1. Sélectionnez une catégorie de mots-clés dans le menu déroulant **[!UICONTROL Catégorie de mots-clés entrante]** pour configurer :
 
-   * &#x200B;
+   * 
      +++ Abonnement
 
       * Activez les mots-clés qui inscrivent des utilisateurs avec leur consentement. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est accepté pour recevoir des SMS.
@@ -332,9 +332,9 @@ Pour les fournisseurs de SMS personnalisés, créez deux webhooks distincts : l�
 
       * Utilisez le champ **[!UICONTROL Message de réponse]** pour créer un message automatiquement envoyé lorsque le message entrant d’un utilisateur correspond à un mot-clé d’accord préalable.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Opt-Out
 
       * Activez les mots-clés qui désactivent les utilisateurs et suppriment le consentement pour envoyer des messages texte. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est désinscrit de la réception des SMS.
@@ -345,18 +345,18 @@ Pour les fournisseurs de SMS personnalisés, créez deux webhooks distincts : l�
 
       * Activez **[!UICONTROL Logique floue]** pour détecter des mots-clés similaires aux mots-clés d’exclusion configurés. Si la réponse d’un utilisateur est proche mais non exacte, le message saisi dans le champ **[!UICONTROL Réponse automatique floue]** est envoyé. En règle générale, ce message indique que le processus d’opt-out n’a pas eu lieu et indique le mot-clé exact nécessaire pour se désabonner.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Double Opt-In
 
       * Activez les mots-clés pour l’exigence de double opt-in. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, il n’est pas entièrement opt-in à ce stade. Ce workflow de consentement en deux étapes nécessite que les utilisateurs confirment leur opt-in par un deuxième mot-clé.
 
       * Utilisez le champ **[!UICONTROL Message de réponse]** pour créer un message qui est automatiquement envoyé lorsqu’un mot-clé de double opt-in est recherché. Ce message demande à l’utilisateur de saisir un mot-clé d’accord préalable pour terminer le processus d’accord préalable.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Aide
 
       * Activez les mots-clés qui fournissent une réponse standard lorsque de l’aide est demandée. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, il reçoit le message de réponse d’aide.
@@ -365,16 +365,16 @@ Pour les fournisseurs de SMS personnalisés, créez deux webhooks distincts : l�
 
       * Utilisez le champ **[!UICONTROL Message de réponse]** pour créer un message qui est automatiquement envoyé lorsque le message entrant d’un utilisateur correspond à un mot-clé d’aide.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Valeur personnalisée
 
       * Configurez un seul mot-clé personnalisé. Lorsque le message d’un utilisateur ou d’une utilisatrice correspond à ce mot-clé, celui-ci est écrit dans le jeu de données **[!UICONTROL Suivi des commentaires sur les messages]** pour la création de rapports et d’audiences.
 
       * Créez une audience (par flux ou par lots) qui fait référence à ce mot-clé à utiliser dans vos parcours et campagnes.
 
-   +++
+     +++
 
 1. Saisissez un **[!UICONTROL Message de réponse par défaut]**. Ce message est automatiquement envoyé lorsque la réponse d’un utilisateur ne correspond à aucun mot-clé configuré.
 
@@ -393,13 +393,13 @@ Pour les fournisseurs de SMS personnalisés, créez deux webhooks distincts : l�
    +++Exemple de payload
 
         « json 
-       &lbrace;
+       {
        « inboundMessage »: « {{inboundMessage}} »,
        « profileNumber »: « {{profileNumber}} »,
        « requestId »: « {{requestId}} »,
        « originTimestamp » : « {{originTimestamp}} »,
        « inboundNumber »: « {{inboundNumber}} »
-       &rbrace;
+       }
        « 
    +++
 
@@ -432,15 +432,15 @@ Pour les fournisseurs de SMS personnalisés, créez deux webhooks distincts : l�
    +++Exemple de payload
 
         « json 
-       &lbrace;
+       {
        « clientReference »: « {{client_reference}} »,
-        « status » : &lbrack;
-       &lbrace;
+        « status » : [
+       {
        « code »: « {{failureCode}} »,
        « status »: « {{feedbackStatus}} »
-       &rbrace;
-       &rbrack;
-       &rbrace;
+       }
+       ]
+       }
        « 
    
    +++
