@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 17e337a24f239aeb968962bb168d2f5a17bd6f3d
+source-git-commit: 44b528bc97bd8988edf042940808b6f48bd3d4a5
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 16%
+source-wordcount: '1356'
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
 
 Voir également les [Notes de mise à jour préliminaires d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Date de publication** : vendredi 26 mars 2026
+**Date de publication** : 24-25 mars 2026
 
 ### Nouvelles fonctionnalités {#march-26-features}
 
@@ -211,24 +211,6 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Prise en charge de la copie carbone (CC) pour les e-mails</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais ajouter des destinataires <strong>copie carbone (CC)</strong> aux e-mails sortants envoyés via Journey Optimizer. Utilisez cette fonctionnalité pour envoyer des copies des communications client aux équipes internes ou aux adresses de conformité à des fins d’archivage et de supervision.</p>
-<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p>Date de disponibilité : mardi 2 mars 2026</p>
-<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14051">DOCAC-14051</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Activités d’action de canal natives obsolètes</strong><br/></th>
 </tr>
 </thead>
@@ -248,13 +230,13 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Parcours
 
-* **Prise en charge de la recherche de jeux de données dans les parcours** - Vous pouvez désormais rechercher des données à partir de jeux de données Adobe Experience Platform directement dans des conditions, expressions et actions de parcours, ce qui permet d’enrichir la personnalisation avec des données de catalogue, des tables de référence et d’autres jeux de données structurés. Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).
-Tâche JIRA de documentation : [DOCAC-14351](https://jira.corp.adobe.com/browse/DOCAC-14351)
+* **Prise en charge de la recherche de jeux de données dans les parcours** - Une nouvelle activité dans les parcours, la recherche de jeux de données, vous permet de récupérer dynamiquement des données à partir de jeux de données d’enregistrement Adobe Experience Platform pendant l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun. Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
+
+  Tâche JIRA de documentation : [DOCAC-14351](https://jira.corp.adobe.com/browse/DOCAC-14351)
 
 * **Arbitrage de Parcours - Modèles d’IA** - En plus des formules de classement, les modèles d’IA peuvent désormais être utilisés avec l’arbitrage de Parcours pour classer et classer automatiquement par priorité l’entrée de parcours des clients, à l’aide du machine learning afin de déterminer le parcours le plus pertinent pour chaque profil en fonction du comportement historique et des signaux contextuels. Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-  Date de disponibilité : 26 février 2026
-Tâche JIRA de documentation : [DOCAC-14295](https://jira.corp.adobe.com/browse/DOCAC-14295)
+  Tâche JIRA de documentation : [DOCAC-14295](https://jira.corp.adobe.com/browse/DOCAC-14295)
 
 #### Création de rapports
 
@@ -263,8 +245,7 @@ Tâche JIRA de documentation : [DOCAC-14354](https://jira.corp.adobe.com/browse/
 
 * **Optimisation de l’heure d’envoi : emplacement des contrôles mis à jour et nouveau rapport d’effet élévateur** - Les contrôles de l’optimisation de l’heure d’envoi (STO) ont été déplacés du rail de gauche Action vers la configuration Action. De plus, un nouveau rapport d’effet élévateur est désormais disponible dans les rapports Parcours afin de mesurer l’impact de la STO sur les mesures de performances de vos campagnes.
 
-  Date de disponibilité : 10 mars 2026
-Tâche JIRA de documentation : [DOCAC-14335](https://jira.corp.adobe.com/browse/DOCAC-14335)
+  Tâche JIRA de documentation : [DOCAC-14335](https://jira.corp.adobe.com/browse/DOCAC-14335)
 
 #### Concepteur d’e-mail
 
@@ -279,7 +260,7 @@ Tâche JIRA de documentation : [DOCAC-14204](https://jira.corp.adobe.com/browse/
 
 #### Prise de décision
 
-* **Prise en charge du flux de modification de la référence du fragment d’expression dans Edge Decisioning** - Les fragments d’expression utilisés dans Edge Decisioning prennent désormais en charge le mécanisme de flux de modification, ce qui garantit que les mises à jour des fragments d’expression se propagent en temps quasi réel aux nœuds Edge.
+* **Prise en charge des flux de modification de la référence du fragment d’expression dans Edge Decisioning** - Cette amélioration permet de refléter automatiquement les modifications des références aux fragments dans tous les éléments qui font référence aux fragments, sans avoir à actualiser quoi que ce soit manuellement (republication de la campagne ou de la politique de décision).
 Tâche JIRA de documentation : [DOCAC-14350](https://jira.corp.adobe.com/browse/DOCAC-14350)
 
 * **Fragments facultatifs dans les éléments de décision** - Les fragments associés aux éléments de décision peuvent désormais être configurés comme facultatifs, ce qui offre une plus grande flexibilité dans la composition du contenu lorsque tous les rendus d’éléments de décision ne nécessitent pas un fragment spécifique.
@@ -306,7 +287,7 @@ Tâche JIRA de documentation : [DOCAC-13554](https://jira.corp.adobe.com/browse/
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -560,7 +541,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -737,7 +718,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
