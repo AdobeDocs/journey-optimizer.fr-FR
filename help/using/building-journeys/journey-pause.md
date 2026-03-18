@@ -124,7 +124,7 @@ Pour savoir quand un parcours a été suspendu ou repris pour la dernière fois,
 * Le nom d’affichage et l’identifiant de l’utilisateur qui a effectué la dernière pause et la dernière reprise
 * Paramètres du parcours en pause (comportement de pause, durée maximale de pause, état de reprise automatique, identifiant de pause)
 
-Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [ Accès aux propriétés d’un parcours ](journey-properties.md#access-properties).
+Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [&#x200B; Accès aux propriétés d’un parcours &#x200B;](journey-properties.md#access-properties).
 
 ## Appliquer un critère de sortie dans un parcours mis en pause {#journey-exit-criteria}
 
