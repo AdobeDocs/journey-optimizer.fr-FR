@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
 source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -20,14 +20,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test"
 >title="Activité Test"
->abstract="L’activité **Test** est une activité de **contrôle de flux**. Il permet d’activer des transitions en fonction de conditions spécifiées."
+>abstract="L’activité **Test** est une activité de **contrôle de flux**. Elle permet d’activer des transitions en fonction de conditions spécifiées."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Conditions"
 >abstract="L’activité **Test** peut avoir plusieurs transitions sortantes. Lors de l’exécution d’une campagne orchestrée, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, la campagne orchestrée se poursuit selon le chemin de la **[!UICONTROL Condition par défaut]**. Si aucune condition par défaut n’est activée, la campagne orchestrée s’arrête à ce stade."
 
-L’activité **[!UICONTROL Test]** est une activité de **[!UICONTROL contrôle de flux]**. Il permet d’activer des transitions en fonction de conditions spécifiées.
+L’activité **[!UICONTROL Test]** est une activité de **[!UICONTROL contrôle de flux]**. Elle permet d’activer des transitions en fonction de conditions spécifiées.
 
 ## Configurer l’activité Test {#test-configuration}
 
