@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 94%
+source-wordcount: '3069'
+ht-degree: 88%
 
 ---
 
@@ -47,7 +47,33 @@ Vous pouvez effectuer les actions suivantes :
 >
 >Pour les parcours actifs, cet écran affiche uniquement la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours.
 
-L’option **Copier les détails techniques** vous permet de copier les informations techniques relatives au parcours qui pourront être utiles à l’équipe d’assistance technique pour résoudre les éventuels problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+L’option **Copier les détails techniques** vous permet de copier les informations techniques relatives au parcours qui pourront être utiles à l’équipe d’assistance technique pour résoudre les éventuels problèmes. Les informations suivantes sont copiées :
+
+**Général**
+
+* `JourneyVersion UID` - Identifiant unique de cette version du parcours
+* `OrgID` - Identifiant (IMS) de votre organisation
+* `orgName` - Nom de votre organisation
+* `sandboxName` - Nom du sandbox dans lequel le parcours s’exécute
+* `lastDeployedBy` - Dernier utilisateur à avoir publié le parcours
+* `lastDeployedAt` - Date et heure de la dernière publication
+
+
+**Suspendre et reprendre** (inclus lorsque le parcours a été suspendu au moins une fois)
+
+* `lastPausedAt` - Date et heure de la dernière suspension du parcours
+* `lastPausedBy` - Nom d’affichage de l’utilisateur qui a effectué la dernière pause
+* `lastPausedById` - Identifiant interne de l’utilisateur ayant effectué la dernière pause
+* `lastResumedAt` - Date et heure de la dernière reprise du parcours
+* `lastResumedBy` - Nom d’affichage de l’utilisateur qui a effectué la dernière reprise
+* `lastResumedById` - Identifiant interne de l&#39;utilisateur ayant effectué la dernière reprise
+
+**Paramètres du parcours en pause** (en `pausedJourneySettings`, lorsque le parcours est ou a été mis en pause)
+
+* `pauseBehavior` - Qu’advient-il des profils du parcours lorsqu’il est en pause (par exemple, les ignorer ou les conserver) ?
+* `maxPauseDurationInMinutes` - Durée maximale de pause, en minutes, après laquelle le parcours reprend automatiquement (par exemple, 20160 = 14 jours)
+* `transitionStateForAutoResume` - État appliqué lorsque le parcours reprend automatiquement à l’issue de la période de pause (par exemple, arrêter ou continuer)
+* `pauseId` - Identifiant unique de l’instance de pause actuelle
 
 Pour plus d’informations sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser, consultez [cette page](expression/journey-properties.md).
 
@@ -346,7 +372,7 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
-* [Comment se terminent les parcours &#x200B;](end-journey.md) : comprenez la fin naturelle des parcours.
+* [Comment se terminent les parcours ](end-journey.md) : comprenez la fin naturelle des parcours.
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) : utilisez des critères de sortie lors de la mise en pause des parcours.
 
 ## Planning du parcours {#schedule}
@@ -355,7 +381,7 @@ La section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activi
 
 >[!TIP]
 >
->Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours &#x200B;](send-using-waves.md)
+>Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours ](send-using-waves.md)
 
 
 ## Gestion des conflits {#conflict}

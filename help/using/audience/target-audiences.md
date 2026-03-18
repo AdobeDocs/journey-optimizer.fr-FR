@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 97%
+source-wordcount: '797'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 * Choisissez une audience d’une **campagne**, où le message est envoyé à toutes les personnes appartenant à l’audience sélectionnée. [Découvrez comment définir l’audience d’une campagne](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Utilisez une activité d’orchestration **Lecture d’audience** dans un parcours pour faire en sorte que toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. Supposons que vous ayez une audience « client ou cliente Silver ». Avec cette activité, vous pouvez faire en sorte que l’ensemble des clientes et clients Silver rejoignent un parcours. Vous pouvez ensuite leur envoyer une série de messages personnalisés. [Découvrez comment configurer une activité Lecture d’audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Utilisez une activité d’orchestration **Lecture d’audience** dans un parcours pour faire en sorte que toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. Supposons que vous ayez une audience « client ou cliente Silver ». Avec cette activité, vous pouvez faire en sorte que l’ensemble des clientes et clients Silver rejoignent un parcours. Vous pouvez ensuite leur envoyer une série de messages personnalisés. [Découvrez comment configurer une activité Lecture d’audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Pour segmenter, exclure ou fusionner des branches après leur entrée, consultez la section [Ciblage des audiences dans les parcours ](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Après l’entrée, utilisez les activités **Condition** pour [segmenter par attributs ou comportement, exclure une partie de la population ou fusionner des branches](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 

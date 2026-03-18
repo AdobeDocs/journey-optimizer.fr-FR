@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 97%
+source-wordcount: '4046'
+ht-degree: 93%
 
 ---
 
@@ -240,7 +240,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -365,15 +365,17 @@ Les mécanismes de sécurisation suivants s’appliquent à l’activité de par
 
 * Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
 * Lors de leur entrée dans le parcours, les profils utilisent les valeurs d’attributs issues de l’instantané d’audience par lots. Cependant, lorsqu’un profil atteint une activité **Attente**, le parcours actualise automatiquement les attributs de profils en récupérant les dernières données à partir du service de profil unifié (UPS). Cela signifie que les attributs de profils peuvent changer au cours de l’exécution du parcours.
-* Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les nouvelles tentatives sont effectuées par le système, mais il est recommandé d’éviter de lancer plus de cinq parcours (avec **Lecture d’audience**, planifiés ou démarrant « dès que possible ») exactement au même moment, en les espaçant dans le temps, par exemple de 5 à 10 minutes. Pour en savoir plus sur les autorisations de parcours, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 * L’activité **Lecture d’audience** ne peut pas être utilisée avec les activités Adobe Campaign.
-* L’activité **Lecture d’audience** ne peut être utilisée que comme première activité dans un parcours ou après une activité d’événement métier.
+* L&#39;activité **Lecture d&#39;audience** ne peut être utilisée que comme première activité d&#39;un parcours ou après un événement métier.
 * Un parcours ne peut avoir qu’une seule activité **Lecture d’audience**.
-* Consultez également les recommandations sur l’utilisation de l’activité **Lecture d’audience** sur [cette page](../building-journeys/read-audience.md).
+* L’activité **Lecture d’audience** ne peut cibler qu’une seule audience par parcours. Si plusieurs audiences sont requises, fusionnez-les d’abord en une seule audience. [Découvrez comment combiner des audiences à l’aide de workflows de composition](../audience/get-started-audience-orchestration.md).
+* Chaque organisation peut exécuter jusqu’à cinq instances **Lecture d’audience** simultanément (planifiées ou déclenchées par un événement métier), sur tous les sandbox et parcours. Évitez d’avoir plus de cinq parcours avec **Lecture d’audience** commençant exactement au même moment ; étendez-les à 5 à 10 minutes d’intervalle. Pour en savoir plus sur les autorisations de parcours, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
+* Débit des sandbox : le système gère le traitement par sandbox avec un maximum de 20 000 profils par seconde partagés sur toutes les activités **Lecture d’audience**. Les activités individuelles peuvent être configurées de 500 à 20 000 profils par seconde. Si les limites du sandbox sont atteintes, les tâches peuvent être mises en file d’attente.
+* Délai de traitement des tâches : les tâches **Lecture d’audience** qui ne peuvent pas être traitées dans un délai de 12 heures sont automatiquement nettoyées et ne s’exécutent pas.
 * Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
 * Pour les parcours qui utilisent des ID supplémentaires, le taux de lecture de l’activité Lecture d’audience pour chaque instance de parcours est limité à un maximum de 500 profils par seconde.
 
-Consultez également [cette page](../building-journeys/read-audience.md#must-read).
+Voir aussi [recommandations et configuration](../building-journeys/read-audience.md#must-read) pour l’activité Lecture d’audience.
 
 #### Activité Mettre à jour un profil {#update-profile-g}
 

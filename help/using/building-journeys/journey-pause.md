@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 97%
+source-wordcount: '2626'
+ht-degree: 93%
 
 ---
 
@@ -116,6 +116,15 @@ Pour reprendre un parcours en pause et recommencer à écouter les événements 
 
 Dans la liste de vos parcours, vous pouvez reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise par lots_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque des parcours **en pause** sont sélectionnés.
 
+## Afficher le moment où un parcours a été suspendu ou repris {#view-pause-resume-info}
+
+Pour savoir quand un parcours a été suspendu ou repris pour la dernière fois, et par qui, ouvrez le parcours et accédez à ses **propriétés** (cliquez sur l’icône en forme de crayon en regard du nom du parcours). Utilisez le bouton **Copier les détails techniques** pour copier les informations techniques qui incluent :
+
+* Date et heure de la dernière pause et de la reprise
+* Le nom d’affichage et l’identifiant de l’utilisateur qui a effectué la dernière pause et la dernière reprise
+* Paramètres du parcours en pause (comportement de pause, durée maximale de pause, état de reprise automatique, identifiant de pause)
+
+Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [ Accès aux propriétés d’un parcours ](journey-properties.md#access-properties).
 
 ## Appliquer un critère de sortie dans un parcours mis en pause {#journey-exit-criteria}
 

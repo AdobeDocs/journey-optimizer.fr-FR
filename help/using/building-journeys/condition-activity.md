@@ -10,7 +10,7 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8e6d69fb1d6eb7d29261dd0fafdb779e57be26c7
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 92%
@@ -40,11 +40,11 @@ Les types de condition disponibles sont les suivants :
 * [Condition de date](#date_condition)
 * [Limite de profils](#profile_cap)
 
-Vous pouvez également utiliser les audiences directement dans des conditions de parcours. Voir :
+Vous pouvez également baser une condition sur l’appartenance à une audience. Consultez les sections suivantes :
 
-* [Utilisation d’une audience dans une condition](#using-a-segment) — Filtrez les profils qui empruntent un chemin donné en fonction de l’appartenance à l’audience
-* [Créer et gérer des audiences](../audience/about-audiences.md) — découvrez comment créer, évaluer et cibler des audiences dans [!DNL Adobe Experience Platform]
-* [Modèles de ciblage d’audience dans les parcours &#x200B;](read-audience.md#audience-targeting-in-journeys) — segmenter, exclure ou fusionner les branches d’audience après une entrée Lecture d’audience
+* [Utiliser une audience dans une condition](#using-a-segment) - Ajoutez des chemins d’accès en fonction de l’appartenance des profils à une audience.
+* [Créer et cibler des audiences](../audience/about-audiences.md) - Créez et gérez des audiences dans le menu Audiences.
+* [Ciblage des audiences dans les parcours ](read-audience.md#audience-targeting-in-journeys) - Après une activité Lecture d’audience, segmentez, excluez ou fusionnez des branches à l’aide de conditions.
 
 >[!NOTE]
 >

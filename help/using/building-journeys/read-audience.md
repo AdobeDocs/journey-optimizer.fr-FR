@@ -10,16 +10,16 @@ level: Intermediate
 keywords: activité, parcours, lecture d’audience, audience, segment, lot, point d’entrée, déclencheur, planning, qualification d’audience
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 7d4dcd9ed4edb5985d19acae197e7710b3b75938
 workflow-type: tm+mt
-source-wordcount: '3677'
-ht-degree: 65%
+source-wordcount: '3312'
+ht-degree: 61%
 
 ---
 
 # Utilisation d’une audience dans un parcours {#segment-trigger-activity}
 
-Utilisez l’activité Lecture d’audience pour démarrer des parcours avec des audiences définies. Vous choisissez l’audience et le moment de son exécution, puis vous utilisez des [conditions pour segmenter](#audience-targeting-in-journeys) exclure ou fusionner des branches, des minuteries et des actions afin de personnaliser le chemin d’accès de chaque profil.
+Utilisez l’activité Lecture d’audience pour démarrer des parcours avec des audiences définies. Vous choisissez l’audience et le moment de son exécution, puis vous utilisez des [conditions](#audience-targeting-in-journeys), des minuteurs et des actions pour personnaliser le chemin d’accès de chaque profil.
 
 ## À propos de l’activité Lecture d’audience {#about-segment-trigger-activity}
 
@@ -38,9 +38,9 @@ L’activité **Lecture d’audience** est l’activité de point d’entrée du
 | Votre audience est évaluée par lots (par exemple, instantané quotidien). | Votre audience est en flux continu ou basée sur un événement. |
 | Un délai entre l’évaluation de l’audience et l’entrée sur le parcours ne vous pose pas de problème. | Vous avez besoin d’une entrée immédiate lorsqu’un profil se qualifie. |
 
-**Limites clés** une lecture d’audience par parcours (doit être la première activité ou la seconde après un événement métier) ; une audience par activité ; jusqu’à cinq exécutions Lecture d’audience simultanées par organisation ; 20 000 profils par seconde par sandbox ; expiration du traitement de 12 heures. Informations complètes dans [&#x200B; Mécanismes de sécurisation et recommandations &#x200B;](#must-read).
+**Limites clés :** une lecture d’audience par parcours (doit être la première activité) ; une audience par activité ; jusqu’à cinq exécutions de lecture d’audience simultanées par organisation ; 20 000 profils par seconde par sandbox ; délai d’expiration de la tâche de 12 heures. Informations complètes dans [Mécanismes de sécurisation et limitations](../start/guardrails.md#read-segment-g).
 
-**Conditions préalables** une audience [!DNL Adobe Experience Platform] créée et évaluée (statut Réalisé), un espace de noms d’identité basé sur les personnes sélectionné pour le parcours et, pour les exécutions récurrentes, une compréhension des [planification et limites de débit](#must-read).
+**Conditions préalables** une audience [!DNL Adobe Experience Platform] créée et évaluée (statut Réalisé), un espace de noms d’identité basé sur les personnes sélectionné pour le parcours et, pour les exécutions récurrentes, une compréhension des [planification et limites de débit](../start/guardrails.md#read-segment-g).
 
 Par exemple, l’audience `Luma app opening and checkout` créée dans le cas d’utilisation [Créer des audiences](../audience/about-audiences.md) peut être utilisée comme point d’entrée. Tous les profils qualifiés entrent dans le parcours et progressent par le biais de chemins personnalisés à l’aide de conditions, de minuteurs, d’événements et d’actions.
 
@@ -114,27 +114,13 @@ Vous pouvez éventuellement activer l’option **Utiliser un identifiant supplé
 
 ### Mécanismes de sécurisation et recommandations {#must-read}
 
-* Une seule activité **[!UICONTROL Lecture d’audience]** peut être utilisée dans un parcours. Il doit s&#39;agir de la première activité de la zone de travail, sauf dans les parcours commençant par une activité **Événement métier**, auquel cas il s&#39;agit de la deuxième activité.
+Tous les mécanismes de sécurisation et les limitations de l’activité **Lecture d’audience** (simultanéité, débit, une audience par activité, délai d’expiration de la tâche, reprises, etc.) sont répertoriés dans la section [Mécanismes de sécurisation et limitations](../start/guardrails.md#read-segment-g).
 
-* L’activité **[!UICONTROL Lecture d’audience]** ne peut cibler qu’une seule audience. Si vous souhaitez cibler plusieurs audiences, envisagez de les fusionner avant de les utiliser. [Découvrir comment combiner des audiences à l’aide de workflows de composition](../audience/get-started-audience-orchestration.md)
+**Recommandations**
 
-* Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système. Toutefois, évitez d’avoir plus de cinq parcours (avec l’activité **Lecture d’audience** planifiée ou commençant « le plus tôt possible ») commençant exactement au même moment. La bonne pratique consiste à les espacer au fil du temps, par exemple avec une intervalle de 5 à 10 minutes.
-
-* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité **Lecture d’audience**, **[Qualification d’audience](audience-qualification-events.md)** ou événement métier.
-
-* En guise de bonne pratique, il est recommandé d’utiliser uniquement des audiences par lots dans une activité **Lecture d’audience**. Cela permet un comptage fiable et cohérent des audiences utilisées dans un parcours. La lecture d’audience est conçue pour les cas d’utilisation par lots. Si votre cas d’utilisation nécessite des données en temps réel, utilisez l’activité **[Qualification de l’audience](audience-qualification-events.md)**.
-
+* Il est recommandé d’utiliser les audiences par lot dans une activité **Lecture d’audience** pour obtenir des décomptes fiables et cohérents. La lecture d’audience est conçue pour les cas d’utilisation par lots. Si votre cas d’utilisation nécessite des données en temps réel, utilisez plutôt l’activité [Qualification d’audience](audience-qualification-events.md).
 * Les audiences [importées d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) peuvent être sélectionnées dans l’activité **Lecture d’audience**. Ces audiences ne sont pas disponibles dans l’activité **Qualification de l’audience**.
-
-* Limite de lecture d’audience simultanée par organisation : chaque organisation peut exécuter jusqu’à cinq instances de lecture d’audience simultanées. Cela inclut les exécutions planifiées et celles déclenchées par des événements métier. Cette limite s’applique à tous les sandbox et parcours. Cette limite est appliquée afin d’assurer une répartition juste et équilibrée des ressources entre toutes les organisations.
-
-* Gestion du débit des sandbox : le système gère dynamiquement le débit de traitement par sandbox avec une limite maximale de 20 000 profils par seconde partagés sur toutes les activités Lecture d’audience. Les activités individuelles Lecture d’audience peuvent être configurées avec un taux minimal de 500 profils par seconde. Si les limites de débit au niveau du sandbox sont atteintes, les traitements peuvent être mis en file d’attente pour garantir une attribution équitable des ressources.
-
-* Délai d’expiration du traitement des tâches : les tâches de lecture d’audience qui ne peuvent pas être traitées dans les 12 heures en raison des limites du mécanisme de sécurisation seront automatiquement nettoyées et ne s’exécuteront jamais. Cela empêche l’accumulation des tâches et assure la stabilité du système.
-
-* Lorsque vous utilisez des segments par lots, assurez-vous que l’ingestion et les mises à jour quotidiennes des instantanés se terminent bien avant le début du parcours. Prévoyez une période d’attente supplémentaire si les segments doivent refléter les données ingérées le même jour. Si l’actualisation immédiate des profils est essentielle, utilisez une approche basée sur les événements ou en flux continu au lieu d’une approche par lots quotidienne. Vous pouvez également insérer un mécanisme d’attente pour permettre aux données mises à jour de se propager avant l’évaluation du parcours.
-
-Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriées dans [cette page](../start/guardrails.md#read-segment-g).
+* Lors de l’utilisation de segments par lot, assurez-vous que l’ingestion et les mises à jour quotidiennes des instantanés se terminent bien avant le début du parcours. Prévoyez une période d’attente supplémentaire si les segments doivent refléter les données ingérées le même jour. Si l’actualisation immédiate du profil est essentielle, utilisez une approche basée sur un événement ou sur la diffusion en continu, ou ajoutez une activité **Attente** pour permettre aux données mises à jour de se propager avant l’évaluation.
 
 >[!CAUTION]
 >
@@ -208,10 +194,6 @@ Par défaut, les parcours sont configurés pour une seule exécution. Pour défi
 
    ![Liste déroulante Type de planificateur avec des options de fréquence : une fois, tous les jours, toutes les semaines, tous les mois](assets/read-segment-schedule-list.png)
 
->[!TIP]
->
->Pour diffuser les messages sortants par lots au fil du temps plutôt que tous en même temps, vous pouvez configurer l’envoi de vagues dans le planning de parcours. [Découvrez comment envoyer à l’aide de vagues dans les parcours &#x200B;](send-using-waves.md)
-
 Pour les parcours récurrents, des options spécifiques sont disponibles pour vous permettre de gérer l’entrée des profils dans le parcours. Développez les sections ci-dessous pour plus d’informations sur chaque option.
 
 ![Options récurrentes de lecture d’audience : lecture incrémentielle, forcer une reprise, déclencher après le lot](assets/read-audience-options.png)
@@ -231,7 +213,7 @@ Pour minimiser le risque de profils manquants :
 
 >[!CAUTION]
 >
->Si vous ciblez une [&#x200B; audience de chargement personnalisée &#x200B;](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité lorsque cette option est activée dans un parcours récurrent. Ces audiences sont corrigées.
+>Si vous ciblez une [ audience de chargement personnalisée ](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité lorsque cette option est activée dans un parcours récurrent. Ces audiences sont corrigées.
 
 +++
 
@@ -298,10 +280,6 @@ Les parcours basés sur l’audience commencent toujours par une activité **Lec
 
 Une fois qu’ils sont entrés dans le parcours, vous pouvez les orchestrer à l’aide des activités **Condition** : segmenter par attributs ou comportement, exclure une partie de la population ou fusionner les branches (union). Les sections ci-dessous décrivent chaque modèle.
 
->[!NOTE]
->
->L’activité [**Optimiser**](optimize.md) fournit une alternative pour le routage de chemin avancé, y compris les règles d’expérimentation et de ciblage. Il est actuellement à disponibilité limitée. Pour en savoir plus, contactez votre représentant Adobe.
-
 **Segmentation**
 
 Vous pouvez utiliser des conditions pour effectuer la segmentation à l’aide de l’activité **Condition**. Vous pouvez, par exemple, faire en sorte que les personnes VIP empruntent un chemin particulier et que les personnes non VIP suivent un autre chemin.
@@ -367,7 +345,7 @@ Si le problème persiste après ces vérifications, consultez les sections [Minu
 
 * **Fin du traitement de segmentation par lots** : pour les audiences par lots, assurez-vous que le traitement de segmentation par lots quotidien est terminé et que les instantanés sont mis à jour avant l’exécution du parcours. Les audiences par lots sont prêtes à l’emploi environ **2 heures** après la fin du traitement de segmentation. En savoir plus sur les [méthodes d’évaluation d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#evaluate-segments){target="_blank"}.
 
-* **Calendrier d’ingestion des données** : vérifiez que l’ingestion des données de profil est terminée avant l’exécution du parcours. Si des profils ont été ingérés peu de temps avant le début du parcours, ils ne sont peut-être pas encore pris en compte dans l’audience. En savoir plus sur l’ingestion de données [&#x200B; dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
+* **Calendrier d’ingestion des données** : vérifiez que l’ingestion des données de profil est terminée avant l’exécution du parcours. Si des profils ont été ingérés peu de temps avant le début du parcours, ils ne sont peut-être pas encore pris en compte dans l’audience. En savoir plus sur l’ingestion de données [ dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
 
 * **Utiliser l’option « Déclencher après l’évaluation de l’audience par lots »** : pour les parcours planifiés quotidiens utilisant des audiences par lots, envisagez d’activer l’option **[!UICONTROL Déclencher après l’évaluation de l’audience par lots]**. Cela permet de s’assurer que le parcours attend les nouvelles données d’audience (jusqu’à 6 heures) avant de s’exécuter. [En savoir plus sur la planification](#schedule)
 
@@ -377,7 +355,7 @@ Si le problème persiste après ces vérifications, consultez les sections [Minu
 
 * **Vérification de l’état de la tâche de segmentation** : surveillez les temps d’achèvement de la tâche de segmentation par lots dans le [!DNL Adobe Experience Platform] [tableau de bord de surveillance](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=fr){target="_blank"}. Utilisez-le pour vérifier quand les données d’audience sont prêtes.
 
-* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [&#x200B; politiques de fusion dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}.
+* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [ politiques de fusion dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}.
 
 * **Vérifier les définitions de segment** : vérifiez que les définitions de segment sont correctement configurées et incluez tous les critères de qualification attendus. En savoir plus sur la [création d’audiences](../audience/creating-a-segment-definition.md). Accordez une attention particulière aux éléments suivants :
    * Conditions de temps pouvant exclure des profils en fonction des dates et heures des événements.
@@ -398,7 +376,7 @@ Si le problème persiste après ces vérifications, consultez les sections [Minu
 
 ### Quand contacter l’assistance
 
-Si des incohérences de nombre ou des exécutions à profil nul persistent après avoir suivi les étapes ci-dessus, [contactez l’assistance Adobe](../start/user-interface.md#support-ticket-guidelines). Préparez : nom/ID de l’audience, nom/ID du parcours, heure(s) d’exécution planifiée(s), sandbox et une brève description de l’incohérence (par exemple, « L’audience affiche 10 000 personnes réalisées, seulement 2 000 sont entrées dans le parcours à [date] »).
+Si des incohérences de nombre ou des exécutions de profil nul persistent après avoir suivi les étapes ci-dessus, contactez l’assistance Adobe. Préparez : nom/ID de l’audience, nom/ID du parcours, heure(s) d’exécution planifiée(s), sandbox et une brève description de l’incohérence (par exemple, « L’audience affiche 10 000 personnes réalisées, seulement 2 000 sont entrées dans le parcours à [date] »).
 
 ## Reprises {#read-audience-retry}
 
@@ -406,12 +384,14 @@ Les reprises sont appliquées par défaut sur les parcours déclenchés par l’
 
 Échec **Lecture d’audience** les déclencheurs sont capturés et affichés dans **Alertes**. L’alerte **Lecture d’audience** vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure d’exécution planifiée. Cet échec peut être dû à des problèmes techniques ou à une audience vide. Si l’échec est dû à des problèmes techniques, des reprises peuvent toujours se produire en fonction du type de problème. Par exemple, si la création de tâche d’exportation échoue, nous réessayons toutes les 10 minutes pendant une heure au maximum. [En savoir plus](../reports/alerts.md#alert-read-audiences)
 
+Pour obtenir la liste complète des mécanismes de sécurisation de lecture d’audience (y compris les limites de reprise et de débit), voir [ Mécanismes de sécurisation et limitations ](../start/guardrails.md#read-segment-g).
+
 ## Rubriques connexes
 
 * [Créer des audiences](../audience/about-audiences.md)
 * [Activité Qualification d’audience](audience-qualification-events.md)
 * [Utiliser des identifiants supplémentaires dans les parcours](supplemental-identifier.md)
-* [Propriétés du parcours et mécanismes de sécurisation](../start/guardrails.md#read-segment-g)
+* [Mécanismes de sécurisation et limitations](../start/guardrails.md#read-segment-g)
 * [Taux de traitement des parcours et gestion des entrées](entry-management.md)
 * [Test d’un parcours](testing-the-journey.md)
 * [Publication d’un parcours](../building-journeys/publish-journey.md)
@@ -420,4 +400,4 @@ Les reprises sont appliquées par défaut sur les parcours déclenchés par l’
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
