@@ -5,10 +5,10 @@ title: Mécanismes de sécurisation et limitations des campagnes orchestrées
 description: En savoir plus sur les mécanismes de sécurisation et les limitations des campagnes orchestrées
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 97%
+source-wordcount: '519'
+ht-degree: 94%
 
 ---
 
@@ -35,13 +35,13 @@ Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lo
 
 * Les schémas relationnels ne peuvent pas être activés pour les **profils** Adobe Experience Platform. Seuls les schémas XDM standard sont pris en charge pour les **profils** Adobe Experience Platform. Les schémas relationnels peuvent être activés pour les campagnes orchestrées ou les campagnes d’action. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
-### Ingestion de données
+### Ingestion des données {#data-ingestion}
 
 * L’ingestion de données de profil et relationnelles est requise.
 
 * Toute ingestion doit se faire via des sources **Capture des données modifiées** :
 
-   * Pour **Basé sur des fichiers** : le champ `_change_request_type` est requis. Les valeurs prises en charge sont `U` (upsert) ou `D` (delete).
+   * Pour **Basé sur des fichiers** : le champ `_change_request_type` est requis. Les valeurs prises en charge sont `u` (upsert) ou `d` (delete). Ces valeurs doivent être `u` et `d` en minuscules, et non `U` et `D` en majuscules.
 
    * Pour **basé sur le cloud**, la journalisation des tables doit être activée.
 

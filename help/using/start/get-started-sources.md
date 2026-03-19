@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 93%
 
 ---
 
@@ -95,13 +95,17 @@ Adobe Journey Optimizer utilise le framework de sources d’Adobe Experience�
 
 Une fois configurées, les sources s’exécutent automatiquement en arrière-plan, conservant vos données clients à jour et prêtes à être utilisées dans les parcours.
 
+>[!NOTE]
+>
+>**Ingestion de données pour les campagnes orchestrées** - Pour les sources de capture de données de modification basées sur des fichiers utilisées avec les campagnes orchestrées, le champ `_change_request_type` est obligatoire. Les valeurs prises en charge sont `u` (upsert) ou `d` (delete). Ces valeurs doivent être `u` et `d` en minuscules, et non `U` et `D` en majuscules. [En savoir plus sur les mécanismes de sécurisation et limitations des campagnes orchestrées](../orchestrated/guardrails.md)
+
 ## En savoir plus {#learn-more}
 
 ![](assets/sources-home.png)
 
 Regardez cette vidéo pour comprendre les connecteurs sources et comment les configurer dans Journey Optimizer :
 
->[!VIDEO](https://video.tv.adobe.com/v/3422583?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Pour plus d’informations sur la configuration et la gestion des sources, consultez la [documentation sur les sources Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.
 
