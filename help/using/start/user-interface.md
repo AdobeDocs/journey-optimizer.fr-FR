@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
+source-git-commit: 85c170fce64e3cdfa790234002758c8d5e43bafd
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 80%
+source-wordcount: '1490'
+ht-degree: 72%
 
 ---
 
@@ -338,3 +338,18 @@ L’assistant IA offre une aide instantanée et des informations opérationnelle
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Paramètres d’en-tête"
 >abstract="Dans cette section, vous pouvez configurer des en-têtes personnalisés supplémentaires à envoyer avec chaque requête de webhook."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery"
+>title="Requête incrémentale"
+>abstract="La requête incrémentale est une activité de ciblage qui exécute une requête de base de données à chaque exécution de la campagne orchestrée. Il renvoie uniquement les nouveaux enregistrements et exclut tous ceux déjà inclus dans une exécution précédente, afin d’éviter de recibler les mêmes personnes ou de réexporter les mêmes lignes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_processeddata"
+>title="Données traitées"
+>abstract="Sous Données traitées, choisissez comment exclure les enregistrements des exécutions précédentes. Avec l’option Exclure les résultats de l’exécution précédente, l’activité conserve une liste des enregistrements renvoyés lors des exécutions précédentes ; chaque exécution les exclut et ne renvoie que les nouveaux. Avec l’option Utiliser un champ de date, l’activité utilise un champ de date sélectionné au lieu d’effectuer le suivi d’identifiants individuels et chaque exécution renvoie uniquement les lignes dont la date est postérieure à la dernière exécution."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_history"
+>title="Jours d’historique"
+>abstract="Ce paramètre contrôle la durée de conservation de cette liste. Une valeur égale à 0 signifie une conservation indéfinie ; aucun enregistrement n’est supprimé."
