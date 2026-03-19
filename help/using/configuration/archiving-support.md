@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 255b8c701f1dbe273a8910e8ba81f1ac720cb2e9
+source-git-commit: 63b5f1504679deb8e7a912341b7a2b470033de13
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 88%
@@ -90,7 +90,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Accédez à **[!UICONTROL Gestion des données]** > **[!UICONTROL Schémas]** > **[!UICONTROL Parcourir]** et sélectionnez **[!UICONTROL Schéma d’événement de retour du destinataire Secondaire AJO]**.
 
-   <!--<![](assets/preset-bcc-schema.png)-->
+   ![](assets/preset-bcc-schema.png){width="95%"}
 
 1. Cliquez pour développer **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** puis **[!UICONTROL secondaryRecipientDetail]**.
 
@@ -102,7 +102,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Sélectionnez un espace de noms dans la liste déroulante.
 
-   <!--<![](assets/preset-bcc-schema-identity.png)-->
+   ![](assets/preset-bcc-schema-identity.png){width="85%"}
 
 1. Cliquez sur **[!UICONTROL Appliquer]**.
 
@@ -116,11 +116,11 @@ Le reporting en tant que tel en Cci n&#39;est pas disponible dans les rapports d
 
 Pour accéder à ce jeu de données par le biais de l’interface d’utilisation, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Jeux de données]** > **[!UICONTROL Parcourir]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
 
-<!--![](assets/preset-bcc-dataset.png)-->
+![](assets/preset-bcc-dataset.png){width="85%"}
 
 Pour exécuter des requêtes sur ce jeu de données, vous pouvez utiliser le requêteur fourni par le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}. Pour y accéder, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Requêtes]** et cliquez sur **[!UICONTROL Créer une requête]**. [En savoir plus](../data/get-started-queries.md)
 
-![](assets/preset-bcc-queries.png)
+![](assets/preset-bcc-queries.png){width="100%"}
 
 Selon les informations que vous recherchez, vous pouvez exécuter les requêtes suivantes.
 
@@ -145,7 +145,7 @@ Selon les informations que vous recherchez, vous pouvez exécuter les requêtes 
    >
    >Pour obtenir le paramètre `<journey version id>`, sélectionnez la version de parcours correspondante dans le menu **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Parcours]**. L’ID de version du parcours s’affiche à la fin de l’URL affichée dans votre navigateur web. [En savoir plus sur les versions de parcours](../building-journeys/publish-journey.md#journey-versions)
    >
-   >![](assets/preset-bcc-action-id.png)
+   >![](assets/preset-bcc-action-id.png){width="85%"}
 
 1. Exécutez cette requête pour récupérer tous les événements de retour de message (en particulier l’état des retours) générés pour un message spécifique ciblé sur une personne spécifique au cours des 2 derniers jours :
 
