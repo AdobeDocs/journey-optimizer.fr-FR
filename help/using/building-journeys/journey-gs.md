@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
+source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 52%
+source-wordcount: '1215'
+ht-degree: 47%
 
 ---
 
@@ -40,18 +40,17 @@ Les étapes principales de la création d’un parcours sont détaillées sur ce
 Dans ce guide, vous allez :
 
 * Définir un point d’entrée de parcours : un segment d’audience ou un événement en temps réel
-* Ajouter des actions de message sur plusieurs canaux (e-mail, push ou SMS)
+* Ajoutez des actions de message sur plusieurs canaux (e-mail, notification push, SMS, in-app, web, expérience basée sur le code, carte de contenu, etc.). [Voir canaux pris en charge](journey-action.md)
 * Tester votre parcours avec des profils de test avant l’activation
 * Publiez votre parcours et surveillez ses performances
 
-Créez des parcours clients à plusieurs étapes pour démarrer une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clientes et clients interagissent aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents. Les audiences cibles sont définies en fonction du comportement, des données contextuelles et des événements métier. Les prérequis dépendent de votre cas d’utilisation et du [type de parcours](entry-management.md#types-of-journeys) que vous créez.
+Créez des parcours clients à plusieurs étapes pour démarrer une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clients sont engagés aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents.
 
-En savoir plus sur la circulation des profils dans les parcours et les taux de traitement des parcours dans [cette section](entry-management.md#journey-processing-rate).
-
-<!-->[!TIP]
-&#x200B;>>
-Vous ne savez pas s’il faut utiliser un parcours ou une campagne ? [Découvrez comment choisir la bonne approche](../start/journeys-vs-campaigns.md).
->—>
+<!--
+>[!TIP]
+>
+>Not sure whether to use a journey or a campaign? [Learn how to choose the right approach](../start/journeys-vs-campaigns.md).
+-->
 
 ## Avant de commencer {#prerequisites}
 
@@ -69,11 +68,9 @@ Les éléments suivants sont facultatifs, mais peuvent être requis selon votre 
 
 >[!NOTE]
 >
->Si vous êtes un ingénieur de données responsable de la configuration technique (événements, sources de données et actions), consultez [cette section](../configuration/about-data-sources-events-actions.md).
-
->[!NOTE]
+>* Si vous êtes un ingénieur de données responsable de la configuration technique (événements, sources de données et actions), consultez [cette section](../configuration/about-data-sources-events-actions.md).
 >
->Les mécanismes de sécurisation et limitations du parcours sont détaillés sur [cette page](../start/guardrails.md).
+>* Les mécanismes de sécurisation et limitations du parcours sont détaillés sur [cette page](../start/guardrails.md).
 
 ## Créer un parcours {#jo-build}
 
@@ -87,7 +84,7 @@ Pour créer un parcours à plusieurs étapes, procédez comme suit :
 
    >[!TIP]
    >
-   >**Quel type de parcours dois-je choisir ?** Si vous découvrez Journey Optimizer, commencez par utiliser un parcours basé sur les audiences avec une activité **[!UICONTROL Lecture d’audience]**. Il ne nécessite aucune configuration d’événement préalable et est le moyen le plus simple de vous familiariser avec la zone de travail. Pour les expériences déclenchées par un événement en temps réel (par exemple, en réaction à un achat ou à un envoi de formulaire), configurez d’abord un événement et utilisez une entrée basée sur un événement. En savoir plus sur les [types de parcours](entry-management.md#types-of-journeys).
+   >**Quel type de parcours dois-je choisir ?** Si vous découvrez Journey Optimizer, commencez par utiliser un parcours basé sur les audiences avec une activité **[!UICONTROL Lecture d’audience]**. Il ne nécessite aucune configuration d’événement préalable et est le moyen le plus simple de vous familiariser avec la zone de travail. Pour les expériences déclenchées par un événement en temps réel (par exemple, en réaction à un achat ou à un envoi de formulaire), configurez d’abord un événement et utilisez une entrée basée sur un événement. Prêt à aller plus loin ? [Découvrez tous les types de parcours et leurs règles d’entrée](entry-management.md#types-of-journeys).
 
    ![Panneau des propriétés du parcours avec les paramètres et les options de configuration](assets/jo-properties.png)
 
@@ -139,19 +136,19 @@ Vous ne savez pas par où commencer ? Voici trois scénarios typiques dans lesqu
   <tr style="border: 0;">
     <td>
       <a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
-        <img src="../assets/do-not-localize/icon-quick-start.svg">
+        <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
       </a>
       <div><strong>Série de bienvenue</strong><br/>Intégrez automatiquement les nouveaux utilisateurs avec une séquence de messages après leur inscription, les guidant tout au long de votre produit ou service.</div>
     </td>
     <td>
       <a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
-        <img src="../assets/do-not-localize/icon-campaign.svg">
+        <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
       </a>
       <div><strong>Abandon de panier</strong><br/>Réengagez les clients qui ont quitté le produit sans effectuer d’achat en envoyant un rappel opportun avec du contenu personnalisé.</div>
     </td>
     <td>
       <a href="jo-use-cases.md">
-        <img src="../assets/do-not-localize/icon-content.svg">
+        <img src="../assets/do-not-localize/icon-content.svg" width="35px">
       </a>
       <div><strong>Réengagement</strong><br/>Récupérez les utilisateurs inactifs avec des offres ou des mises à jour ciblées en fonction de leur dernier comportement connu.</div>
     </td>
@@ -165,6 +162,7 @@ Vous ne savez pas par où commencer ? Voici trois scénarios typiques dans lesqu
 
 ## Ressources supplémentaires
 
+* **[types de Parcours et entrée de profil](entry-management.md)** - Comprenez tous les types de parcours (événement unitaire, événement métier, lecture d’audience, qualification de l’audience) et la manière dont les profils entrent, rentrent à nouveau et circulent dans les parcours.
 * **[Présentation du concepteur de parcours](using-the-journey-designer.md)** : maîtrisez l’interface de zone de travail du parcours pour concevoir et orchestrer des parcours client.
 * **[Activités de parcours](about-journey-activities.md)** : découvrez toutes les activités disponibles, y compris les événements, les actions et les composants d’orchestration.
 * **[Test des parcours](testing-the-journey.md)** : découvrez comment tester vos parcours à l’aide du mode test avant de les publier en production.
