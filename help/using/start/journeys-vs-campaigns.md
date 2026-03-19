@@ -11,16 +11,16 @@ keywords: parcours, campagne, orchestré, comparaison, choisir, décision, workf
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
+source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 66%
+source-wordcount: '1613'
+ht-degree: 65%
 
 ---
 
 # Parcours ou campagnes : choisir la bonne approche {#journeys-vs-campaigns}
 
-[!DNL Adobe Journey Optimizer] offre quatre méthodes principales pour atteindre et impliquer vos clients : **Parcours**, **Campagnes d’action**, **Campagnes déclenchées par une API** et **Campagnes orchestrées**. Le choix du bon dépend de si vous avez besoin d’orchestration 1:1 en temps réel, de diffusions planifiées, de messages pilotés par des événements ou de workflows par lots complexes.
+[!DNL Adobe Journey Optimizer] offre deux méthodes principales pour atteindre et impliquer vos clients : **Parcours** et **Campagnes**. Les parcours sont conçus pour une orchestration en temps réel et à plusieurs étapes basée sur le comportement du client. Les campagnes sont mieux adaptées aux diffusions ponctuelles ou planifiées vers une audience définie. Une fois que vous avez choisi une campagne, vous pouvez choisir le type de campagne qui correspond le mieux à votre cas d’utilisation.
 
 Ce guide vous aide à choisir en fonction du style d’exécution, des besoins en données et du cas d’utilisation, avec une comparaison rapide, une arborescence de décision et des exemples concrets.
 
@@ -264,7 +264,7 @@ Les quatre peuvent être adaptés à l’échelle ; le bon choix dépend de votr
 
 * parcours Les campagnes **Lecture d’audience** et **Action** sont optimisées pour les audiences par lots volumineuses (un message ou flux vers plusieurs profils à la fois).
 * **Campagnes orchestrées** excellez dans la segmentation complexe avec des jeux de données volumineux et des données d’entités multiples.
-* **&#x200B;**&#x200B;Les Parcours unitaires (basés sur un événement) traitent les profils individuellement au fur et à mesure des événements. De ce fait, l’échelle dépend du volume et du débit des événements.
+* **** Les Parcours unitaires (basés sur un événement) traitent les profils individuellement au fur et à mesure des événements. De ce fait, l’échelle dépend du volume et du débit des événements.
 
 +++
 
@@ -284,7 +284,7 @@ Vous souhaitez commencer à créer ? Consultez la documentation détaillée rel
 
 >[!MORELIKETHIS]
 >
->* [comparaison des types de Parcours &#x200B;](../building-journeys/journey.md#journey-types-comparison)
+>* [comparaison des types de Parcours ](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [FAQ sur les parcours](../building-journeys/journey-faq.md)
 >* [FAQ sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)
