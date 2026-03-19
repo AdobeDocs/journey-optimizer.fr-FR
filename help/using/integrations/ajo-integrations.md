@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: c047b3fb04e9867be98da845aa89b0b9d6f59df2
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
@@ -65,7 +65,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 En intégrant Adobe Experience Manager à Adobe Journey Optimizer, vous pouvez désormais incorporer facilement vos fragments de contenu AEM dans le contenu de vos e-mails Journey Optimizer. Cette connexion rationalisée simplifie le processus d’accès au contenu AEM et d’utilisation de celui-ci, ce qui permet de créer des campagnes et des parcours personnalisés et dynamiques.
 
-[![En savoir plus](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
+[![En savoir plus](../assets/do-not-localize/learn-more-button.svg)](aem-fragments.md)
 
 >[!TAB Dynamic Media]
 
@@ -121,7 +121,7 @@ En savoir plus sur [Journey Optimizer + Campaign Standard](../building-journ
 
 Utilisez les modules Adobe Journey Optimizer dans Adobe Workfront pour créer, lire, mettre à jour ou supprimer des enregistrements, ou effectuez un appel d’API personnalisé vers l’API Adobe Journey Optimizer.
 
-Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=fr&lang=fr){target="_blank"}.
+Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?lang=fr){target="_blank"}.
 
 En savoir plus sur Journey Optimizer + Adobe Workfront [dans la documentation Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=fr){target="_blank"}.
 
@@ -135,6 +135,6 @@ En savoir plus sur les [actions personnalisées](../action/about-custom-action-c
 
 ## Sources de données externes {#integration-external-systems}
 
-Journey Optimizer vous permet de configurer des connexions à des systèmes externes par le biais de sources de données et d’actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours avec des données provenant d’un système de réservation externe.
+Journey Optimizer vous permet de configurer des connexions à des systèmes externes par le biais de sources de données et d&#39;actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours avec des données provenant d’un système de réservation externe.
 
 Découvrez comment utiliser des sources de données externes pour définir une connexion à un système tiers dans [cette section](../datasource/external-data-sources.md).
