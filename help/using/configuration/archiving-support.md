@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: baf210042685316742dac85658d281fe2711d716
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 95%
+source-wordcount: '1334'
+ht-degree: 88%
 
 ---
 
@@ -84,11 +84,11 @@ Cependant, l’adresse en Cci est sélectionnée pour l’envoi de communication
 
 ### Conformité au RGPD {#gdpr-compliance}
 
-Les réglementations telles que le RGPD stipulent que les titulaires de données doivent pouvoir modifier leur consentement à tout moment. Comme les e-mails en Cci que vous envoyez avec Journey Optimizer contiennent des informations d’identification personnelles (PII) en toute sécurité, vous devez modifier la variable **[!UICONTROL Schéma d’événement de retour en Cci d’e-mail CJM]** pour être en mesure de gérer ces informations d’identification personnelle conformément au RGPD et aux règlements similaires.
+Les réglementations telles que le RGPD stipulent que les titulaires de données doivent pouvoir modifier leur consentement à tout moment. Comme les e-mails en Cci que vous envoyez avec Journey Optimizer contiennent des informations d’identification personnelles (PII) en toute sécurité, vous devez modifier le **[!UICONTROL Schéma d’événement de retour du destinataire Secondaire AJO]** pour être en mesure de gérer ces informations d’identification personnelle conformément au RGPD et aux règlements similaires.
 
 Pour ce faire, suivez les étapes ci-après.
 
-1. Accédez à **[!UICONTROL Gestion des données]** > **[!UICONTROL Schémas]** > **[!UICONTROL Parcourir]** et sélectionnez **[!UICONTROL Schéma d’événement de retour en Cci d’e-mail CJM]**.
+1. Accédez à **[!UICONTROL Gestion des données]** > **[!UICONTROL Schémas]** > **[!UICONTROL Parcourir]** et sélectionnez **[!UICONTROL Schéma d’événement de retour du destinataire Secondaire AJO]**.
 
    ![](assets/preset-bcc-schema.png)
 
@@ -112,7 +112,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 ### Données de reporting en Cci {#bcc-reporting}
 
-Le reporting en tant que tel en Cci n&#39;est pas disponible dans les rapports de message et parcours. Toutefois, les informations sont stockées dans un jeu de données système appelé **[!UICONTROL Jeu de données d’événement de retour AJO Cci]**. Vous pouvez exécuter des requêtes sur ce jeu de données pour trouver des informations utiles à des fins de débogage, par exemple.
+Le reporting en tant que tel en Cci n&#39;est pas disponible dans les rapports de message et parcours. Toutefois, les informations sont stockées dans un jeu de données système appelé **[!UICONTROL Jeu de données d’événement de retour du destinataire Secondaire AJO]**. Vous pouvez exécuter des requêtes sur ce jeu de données pour trouver des informations utiles à des fins de débogage, par exemple.
 
 Pour accéder à ce jeu de données par le biais de l’interface d’utilisation, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Jeux de données]** > **[!UICONTROL Parcourir]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
 
@@ -225,7 +225,7 @@ Lorsque vos copies d’e-mails en Cci sont archivées sur un système externe, p
 
 Chaque e-mail contient désormais un en-tête appelé `x-message-profile-id`. La valeur de cet en-tête est différente pour chaque profil : elle est propre à chaque e-mail envoyé et à sa copie d’e-mail en Cci correspondante.
 
-L’en-tête `x-message-profile-id` est également stocké dans les jeux de données système suivants : [Jeu de données d’événement de retour de message AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (e-mails envoyés) et [Jeu de données d’événement de retour en Cci AJO](#bcc-reporting) (copies en Cci). Vous pouvez interroger ces jeux de données pour réconcilier la copie en Cci et l’e-mail réel correspondant.
+L’en-tête `x-message-profile-id` est également stocké dans les jeux de données système suivants : [Jeu de données d’événement de retour de message AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (emails envoyés) et [Jeu de données d’événement de retour de destinataire Secondaire AJO](#bcc-reporting) (copies en Cci). Vous pouvez interroger ces jeux de données pour réconcilier la copie en Cci et l’e-mail réel correspondant.
 
 * Pour accéder à ces jeux de données par le biais de l’interface d’utilisation, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Jeux de données]** > **[!UICONTROL Parcourir]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
 
