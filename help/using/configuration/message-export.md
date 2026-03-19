@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: export, messages, HIPAA, e-mails, SMS, configuration
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 53%
+source-wordcount: '701'
+ht-degree: 48%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 53%
 
 L’**exportation de messages** vous permet de transférer le contenu des e-mails et des SMS envoyés depuis [!DNL Journey Optimizer] vers votre propre stockage via des destinations [!DNL Adobe Experience Platform], ce qui vous permet de diffuser des données provenant de [!DNL Experience Platform] vers des points d’entrée externes. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home){target="_blank"}
 
-Grâce à cette fonctionnalité, le contenu des e-mails et des SMS envoyés par l’intermédiaire de [!DNL Journey Optimizer] marqués pour l’exportation est écrit dans le jeu de données d’exportation de messages AJO [!DNL Experience Platform]&#x200B;**&#x200B;**. [En savoir plus sur les jeux de données](../data/get-started-datasets.md)
+Grâce à cette fonctionnalité, le contenu des e-mails et des SMS envoyés par l’intermédiaire de [!DNL Journey Optimizer] marqués pour l’exportation est écrit dans le jeu de données d’exportation de messages AJO [!DNL Experience Platform]****. [En savoir plus sur les jeux de données](../data/get-started-datasets.md)
 
 Les enregistrements sont ensuite conservés dans le jeu de données pendant sept jours calendaires à compter de l’ingestion, pendant lesquels vous pouvez les exporter vers le système externe de votre choix.
 
@@ -52,7 +52,9 @@ Le processus d’intégration de la fonctionnalité d’export de messages compo
 
 ### Configurer le flux de données d’export {#set-up-export-dataflow}
 
-Avant de pouvoir exporter vos données, vous devez configurer le processus d’export en définissant la destination [!DNL Experience Platform] et le jeu de données qui sera utilisé. Suivez les étapes ci-après.
+Avant de pouvoir exporter vos données, configurez le processus d’exportation en définissant la destination du [!DNL Experience Platform] et le flux d’exportation du jeu de données.
+
+Pour obtenir des instructions détaillées, les destinations cloud prises en charge, les autorisations requises et des informations supplémentaires, consultez [cette section](../data/export-datasets.md#export-datasets).
 
 >[!NOTE]
 >

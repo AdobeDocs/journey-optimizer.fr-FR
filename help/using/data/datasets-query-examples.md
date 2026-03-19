@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '1066'
-ht-degree: 100%
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Dans cette page, vous trouverez la liste des jeux de données Adobe Journey Opti
 * [Jeu de données d’événement d’expérience de tracking de notifications push](#push-tracking-experience-event-dataset)
 * [Événement d’étape de parcours](#journey-step-event)
 * [Jeu de données d’événement Decisioning](#ode-decisionevents)
-* [Jeu de données d’événement de retour en Cci](#bcc-feedback-event-dataset)
+* [Jeu de données d’événement de retour de destinataire Secondaire (Cci)](#bcc-feedback-event-dataset)
 * [Jeu de données d’entité](#entity-dataset)
 
 Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
@@ -272,7 +272,7 @@ group by
 
 Consultez également plusieurs [exemples couramment utilisés pour interroger des événements d’étape de parcours](../reports/query-examples.md).
 
-Découvrez comment [dépanner les types d’événements ignorés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
+Découvrez comment [dépanner les types d’événements rejetés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
 ## Jeu de données d’événement Decisioning{#ode-decisionevents}
 
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## Jeu de données d’événement de retour en Cci{#bcc-feedback-event-dataset}
+## Jeu de données d’événement de retour de destinataire Secondaire (Cci){#bcc-feedback-event-dataset}
 
-_Nom dans l’interface : Jeu de données d’événement de retour en Cci AJO (jeu de données système)_
+_Nom dans l’interface : Jeu de données d’événement de retour du destinataire Secondaire AJO (jeu de données système). Dans Query Service, le tableau du jeu de données peut toujours être nommé `ajo_bcc_feedback_event_dataset`._
 
-Jeu de données pour stocker des informations pour les messages en Cci.
+Jeu de données pour les messages e-mail Cci (destinataire secondaire) lorsque l’archivage en Cci est activé.
 
 Requête pour tous les messages en Cci dans les 2 jours (pour une campagne donnée) :
 

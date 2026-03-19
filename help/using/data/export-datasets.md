@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 100%
+source-wordcount: '1001'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez exporter des jeux de données vers 6 destinations d’espace de sto
 
 Des informations détaillées sur chaque destination sont disponibles dans la documentation Adobe Experience Platform :
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=fr){target="_blank"}
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=fr){target="_blank"}
 * [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=fr){target="_blank"}
 * [Azure Data Lake Gen2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=fr){target="_blank"}
 * [Zone d’atterrissage des données](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=fr){target="_blank"}
@@ -44,7 +44,7 @@ Pour exporter des jeux de données, vous avez besoin des [autorisations de contr
 | Catégorie | Autorisation |
 |--|--|
 | Destinations | Gérer et activer des destinations de jeu de données |
-| Gestion des données | Affichage des jeux de données |
+| Data Management | Affichage des jeux de données |
 | Destinations | Affichage des destinations |
 
 ## Étapes clés pour exporter des jeux de données {#main-steps}
@@ -87,7 +87,6 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 
 | Jeu de données | Description |
 | ------- | ------- | 
-| Jeu de données d’événement de feedback en Cci AJO | Jeu de données d’événement de feedback en Cci AJO |
 | Jeu de données de classification AJO | Jeu de données pour l’ingestion d’événements de feedback d’application push et d’e-mail à partir de Journey Optimizer. Créé via le SDK. |
 | Jeu de données du service de consentement AJO | Stocke les informations de consentement d’un profil. |
 | Jeu de données d’événement d’expérience de tracking d’e-mail AJO | Logs d’interaction pour le canal e-mail utilisé à des fins de création de rapports et d’audiences.  |
@@ -95,16 +94,18 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 | Jeu de données d’événement d’activité entrante AJO | Jeu de données pour les canaux web et in-app Journey Optimizer pour les événements de diffusion et d’interaction. |
 | Jeu de données de profil de messagerie interactive AJO | Stocke les profils créés pour prendre en charge les campagnes déclenchées par API. |
 | Jeu de données d’événement de retour sur les messages AJO | Logs de diffusion des messages : Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. Ce jeu de données inclut des événements pour tous les canaux : e-mail, SMS/MMS, courrier, etc. |
+| Jeu De Données D’Exportation De Messages AJO | Stocke le contenu des e-mails et des SMS envoyés qui a été marqué pour l’exportation. Les données sont conservées pendant sept jours calendaires à compter de l’ingestion. |
 | Extension de compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expiryDate, saisi par counter_id. |
 | Jeu de données de profil push AJO | Stocke les jetons de notifications push d’un profil. |
 | Jeu de données d’événement d’expérience de tracking de notifications push AJO | Logs d’interaction pour le canal Notification push utilisé à des fins de création de rapports et d’audiences.  |
+| Jeu De Données D’Événement De Retour De Destinataire Secondaire AJO | Événements E-mail Cci (destinataire secondaire) lorsque l’archivage en Cci est activé. Pour les requêtes et la réconciliation avec l’email envoyé. |
 | Jeu de données de surfaces AJO | Jeu de données vide associé au schéma de surfaces entrantes Journey Optimizer. |
 | AOOutputForUPSDataset | Contient toutes les appartenances à l’audience AO à réécrire dans le service de profil unifié |
 | Jeu de données de profil Orchestration de lʼaudience | Généré par la composition d’audiences pour les audiences provenant de la composition d’audiences. Contient toutes les audiences de composition d’audiences, leurs attributs et leurs données d’enrichissement. |
 | Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur. Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier, dont les offres doivent être prises en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. |
 | Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre créé par un utilisateur ou une utilisatrice. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre. |
 | Référentiel d’objets de décision - Offres personnalisées | Référentiel pour un type d’offre créé par un utilisateur ou une utilisatrice. Ce jeu de données contient donc les attributs relatifs à ce type d’offre. |
-| Référentiel d’objets de décision - Emplacements | Référentiel d’objets qui définissent l’emplacement où doit s’afficher une offre. |
+| Référentiel d’objets de décision - Emplacements | Référentiel d’objets définissant l’emplacement où une offre doit être affichée. |
 | Référentiel d’objets de décisions pour les expériences - Éléments d’offres personnalisées | Stocke tous les éléments d’offre, y compris tous les attributs et le statut du cycle de vie pour prendre en charge la personnalisation et le reporting cross-canal. </br> Après l’ajout de nouveaux champs d’attributs personnalisés au schéma d’élément d’offre, il peut s’écouler jusqu’à une heure avant que ces nouveaux attributs ne soient visibles dans le jeu de données. Pour éviter toute perte de données ou incohérence, il est recommandé d’attendre au moins une heure avant d’effectuer des modifications ou des mises à jour qui reposent sur les attributs nouvellement ajoutés. |
 | Événements d’étape de parcours | Capturent tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. |
 | Parcours | Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours. |
