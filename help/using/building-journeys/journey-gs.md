@@ -49,7 +49,7 @@ Créez des parcours clients à plusieurs étapes pour démarrer une séquence d�
 En savoir plus sur la circulation des profils dans les parcours et les taux de traitement des parcours dans [cette section](entry-management.md#journey-processing-rate).
 
 <!-->[!TIP]
->>
+&#x200B;>>
 Vous ne savez pas s’il faut utiliser un parcours ou une campagne ? [Découvrez comment choisir la bonne approche](../start/journeys-vs-campaigns.md).
 >—>
 

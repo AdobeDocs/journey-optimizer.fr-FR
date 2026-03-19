@@ -264,7 +264,7 @@ Les quatre peuvent être adaptés à l’échelle ; le bon choix dépend de votr
 
 * parcours Les campagnes **Lecture d’audience** et **Action** sont optimisées pour les audiences par lots volumineuses (un message ou flux vers plusieurs profils à la fois).
 * **Campagnes orchestrées** excellez dans la segmentation complexe avec des jeux de données volumineux et des données d’entités multiples.
-* **** Les Parcours unitaires (basés sur un événement) traitent les profils individuellement au fur et à mesure des événements. De ce fait, l’échelle dépend du volume et du débit des événements.
+* **&#x200B;**&#x200B;Les Parcours unitaires (basés sur un événement) traitent les profils individuellement au fur et à mesure des événements. De ce fait, l’échelle dépend du volume et du débit des événements.
 
 +++
 
@@ -284,7 +284,7 @@ Vous souhaitez commencer à créer ? Consultez la documentation détaillée rel
 
 >[!MORELIKETHIS]
 >
->* [comparaison des types de Parcours ](../building-journeys/journey.md#journey-types-comparison)
+>* [comparaison des types de Parcours &#x200B;](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [FAQ sur les parcours](../building-journeys/journey-faq.md)
 >* [FAQ sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)
