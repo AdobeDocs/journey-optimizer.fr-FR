@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: baf210042685316742dac85658d281fe2711d716
+source-git-commit: 255b8c701f1dbe273a8910e8ba81f1ac720cb2e9
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 88%
@@ -90,7 +90,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Accédez à **[!UICONTROL Gestion des données]** > **[!UICONTROL Schémas]** > **[!UICONTROL Parcourir]** et sélectionnez **[!UICONTROL Schéma d’événement de retour du destinataire Secondaire AJO]**.
 
-   ![](assets/preset-bcc-schema.png)
+   <!--<![](assets/preset-bcc-schema.png)-->
 
 1. Cliquez pour développer **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** puis **[!UICONTROL secondaryRecipientDetail]**.
 
@@ -102,7 +102,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Sélectionnez un espace de noms dans la liste déroulante.
 
-   ![](assets/preset-bcc-schema-identity.png)
+   <!--<![](assets/preset-bcc-schema-identity.png)-->
 
 1. Cliquez sur **[!UICONTROL Appliquer]**.
 
