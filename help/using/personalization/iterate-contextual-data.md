@@ -77,7 +77,7 @@ context.journey.events.<event_ID>.<fieldPath>
 >context.journey.events.`1697323153`.fieldName
 >```
 >
->Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [ Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
+>Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [&#x200B; Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
 
 ### Exemple : articles dans le panier à partir d’un événement
 
@@ -1046,7 +1046,7 @@ Utilisez le [mode test de parcours](../building-journeys/testing-the-journey.md)
 
 **Principes de base de la personnalisation :** [Commencer avec la personnalisation](personalize.md) | [Ajouter une personnalisation](personalization-build-expressions.md) | [Syntaxe de personnalisation](personalization-syntax.md) | [Fonctions de l’assistant](functions/helpers.md) | [Créer des règles conditionnelles](create-conditions.md)
 
-**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours ](../building-journeys/testing-the-journey.md)
+**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours &#x200B;](../building-journeys/testing-the-journey.md)
 
 **Fonctions d’expression de parcours :** [Éditeur d’expression avancé](../building-journeys/expression/expressionadvanced.md) | [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md) (first, all, last) | [Fonctions de liste](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Fonctions de tableau](../personalization/functions/arrays-list.md) (head, tail)
 
