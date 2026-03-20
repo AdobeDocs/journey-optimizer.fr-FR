@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 91%
+source-wordcount: '913'
+ht-degree: 76%
 
 ---
 
@@ -66,7 +66,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Recherche de jeu de données]** dans votre zone de travail.
 
-   ![[!DNL Adobe Experience Platform] activité de recherche de jeu de données dans le parcours &#x200B;](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] activité de recherche de jeu de données dans le parcours ](assets/aep-data-activity.png)
 
 1. Ajoutez un libellé et une description.
 
@@ -93,6 +93,10 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
    * Les clés peuvent être des expressions dérivées du contexte du parcours, telles que des SKU, des ID d’e-mail ou d’autres identifiants. Exemple : `@profile.email` ou `list(@event{purchase_event.products.sku})`.
 
    * Seules les **chaînes** ou les **listes de chaînes** sont prises en charge.
+
+   >[!IMPORTANT]
+   >
+   >Vous devez définir la clé de recherche à l’aide du **mode avancé**. Si vous utilisez le mode simple pour définir la clé, la sortie de l’activité de recherche de jeu de données ne sera pas disponible en tant qu’attribut contextuel dans les activités en aval, et la syntaxe `@datasetLookup{}` échouera avec une erreur « Recherche de jeu de données introuvable » dans les activités de condition.
 
    +++Exemple
 
@@ -191,3 +195,15 @@ Les données récupérées par l’activité **[!UICONTROL Recherche de jeu de d
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## Résolution des problèmes {#troubleshooting}
+
+### Erreur « Recherche de jeu de données introuvable » dans l’activité de condition {#troubleshooting-not-found}
+
+**Symptôme :** la syntaxe `@datasetLookup{}` dans l’éditeur d’expression avancé d’une activité de condition renvoie une erreur « Recherche de jeu de données introuvable », même si l’activité de recherche de jeu de données est correctement configurée dans le parcours.
+
+**Cause :** la clé de recherche dans l’activité de recherche de jeu de données a été définie à l’aide du mode simple. Lorsque la clé n’est pas définie en mode avancé, la sortie de l’activité n’est pas exposée en tant qu’attribut de contexte dans les activités en aval.
+
+**Correctif :** ouvrez l’activité de recherche de jeu de données, localisez le champ **[!UICONTROL Clé(s) de recherche]** et passez en **mode avancé** pour redéfinir l’expression de la clé. Enregistrez l’activité et republiez le parcours.

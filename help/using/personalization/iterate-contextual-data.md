@@ -8,10 +8,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expression, éditeur, handlebars, itération, tableaux, contexte, personnalisation
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
-workflow-type: ht
-source-wordcount: '3008'
-ht-degree: 100%
+exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+workflow-type: tm+mt
+source-wordcount: '3060'
+ht-degree: 98%
 
 ---
 
@@ -67,6 +68,16 @@ context.journey.events.<event_ID>.<fieldPath>
 
 * `<event_ID>` : ID unique de votre événement tel que configuré dans le parcours
 * `<fieldPath>` : chemin d’accès au champ ou au tableau dans votre schéma d’événement
+
+>[!NOTE]
+>
+>**Les identifiants d’événement numériques nécessitent des accents graves.** Si l’identifiant d’événement est un nombre (par exemple, `1697323153`), placez-le entre accents graves (`` ` ``) dans le chemin d’accès de l’expression. Sans backticks, l’analyseur PQL génère une erreur de syntaxe.
+>
+>```handlebars
+>context.journey.events.`1697323153`.fieldName
+>```
+>
+>Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [ Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
 
 ### Exemple : articles dans le panier à partir d’un événement
 
@@ -1042,4 +1053,3 @@ Utilisez le [mode test de parcours](../building-journeys/testing-the-journey.md)
 **Cas d’utilisation de la personnalisation :** [E-mail d’abandon de panier](personalization-use-case-helper-functions.md) | [Notification de statut de la commande](personalization-use-case.md)
 
 **Conception de message :** [Commencer avec la conception d’e-mails](../email/get-started-email-design.md) | [Créer des notifications push](../push/create-push.md) | [Créer des SMS](../sms/create-sms.md) | [Prévisualiser et tester votre contenu](../content-management/preview-test.md)
-

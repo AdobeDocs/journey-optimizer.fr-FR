@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 84%
+source-wordcount: '1419'
+ht-degree: 75%
 
 ---
 
@@ -483,6 +483,29 @@ Pour une sortie en minuscules, combinez-la à la fonction `lowerCase` :
 Sortie : `sun`, `mon`, `tue`, etc.
 
 +++
+
++++Formatage d’une date et heure à partir d’un événement de contexte
+
+Lors de l’utilisation d’un horodatage à partir d’un attribut de contexte d’événement de parcours, deux exigences s’appliquent :
+
+* **Envelopper l&#39;horodatage avec`toDateTime()`** — Les horodatages des événements contextuels ne sont pas automatiquement reconnus comme des valeurs de date et d&#39;heure par `formatDate()`.
+* **Placer les identifiants d’événement numériques dans des accents graves** — si votre identifiant d’événement est un nombre (par exemple, `1697323153`), il doit être placé dans une séquence d’échappement avec des accents graves dans le chemin d’expression, sinon l’éditeur génère une erreur de syntaxe PQL.
+* **Utiliser `{% let %}` syntaxe d’affectation** — La syntaxe de `{%= %}` intégrée ne prend pas en charge ce modèle. Attribuez d’abord le résultat à une variable, puis effectuez son rendu avec `{{varName}}`.
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+Sortie (exemple) : `18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**Erreur courante : « entrée incohérente &#39;(&#39; en attente de \&lt;EOF\> »**
+>
+>Cette erreur de syntaxe PQL se produit lors de l’utilisation de `formatDate()` avec un horodatage d’événement de contexte intégré (`{%= formatDate(...) %}`). Les causes les plus courantes sont un identifiant d’événement numérique qui n’est pas encapsulé dans des accents graves (`` ` ``) ou un champ d’horodatage transmis directement à `formatDate()` sans l’encapsuler d’abord dans `toDateTime()`. Pour résoudre les deux problèmes, utilisez le modèle d’affectation de `{% let %}` illustré dans l’exemple ci-dessus.
 
 ### Caractères de motif {#pattern-characters}
 

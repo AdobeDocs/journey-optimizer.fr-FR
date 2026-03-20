@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 88%
+source-wordcount: '3223'
+ht-degree: 84%
 
 ---
 
@@ -274,6 +274,22 @@ Depuis [!DNL Adobe Journey Optimizer] version de juin 2024, le délai d’expira
       <p>Le profil conserve une durée de vie de 91 jours, correspondant à la durée de vie de la nouvelle version de parcours republiée. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
     </td>
   </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Mon parcours de lecture d’audience récurrent toujours activé s’arrêtera-t-il après 91 jours ?</p>
+    </td>
+    <td>
+      <p>Non. Un parcours récurrent Lecture d’audience sans date de fin reste <strong>actif</strong> tant qu’il est publié. Il passe à l’état <strong>Terminé</strong> seulement 91 jours après l’exécution de sa <strong>dernière occurrence</strong>. La temporisation globale de 91 jours s’applique aux profils individuels traversant le parcours (durée d’activité maximale par profil), et non au statut Actif du parcours.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Quelle est la différence entre le délai d’expiration de parcours de 91 jours et le créneau de rapport de 91 jours ?</p>
+    </td>
+    <td>
+      <p>Ce sont deux concepts distincts. La temporisation globale de <strong>parcours </strong> (91 jours) est la durée maximale pendant laquelle un profil individuel peut rester actif dans un parcours. Après 91 jours, le profil est quitté et ses données sont supprimées. La <strong> fenêtre de création de rapports </strong> (environ 91 jours) est une limite d’affichage dans l’interface utilisateur : les données de performances datant de plus de 91 jours ne sont plus visibles dans les rapports, mais le parcours lui-même continue de s’exécuter et de nouveaux profils continuent de saisir des données.</p>
+    </td>
+  </tr>
 </table>
 
 ## Politiques de fusion {#merge-policies}
@@ -372,7 +388,7 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
-* [Comment se terminent les parcours &#x200B;](end-journey.md) : comprenez la fin naturelle des parcours.
+* [Comment se terminent les parcours ](end-journey.md) : comprenez la fin naturelle des parcours.
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) : utilisez des critères de sortie lors de la mise en pause des parcours.
 
 ## Planning du parcours {#schedule}
@@ -381,7 +397,7 @@ La section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activi
 
 >[!TIP]
 >
->Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours &#x200B;](send-using-waves.md)
+>Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours ](send-using-waves.md)
 
 
 ## Gestion des conflits {#conflict}

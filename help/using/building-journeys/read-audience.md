@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, parcours, lecture d’audience, audience, segment, lot, point d’entrée, déclencheur, planning, qualification d’audience
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 7d4dcd9ed4edb5985d19acae197e7710b3b75938
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3312'
-ht-degree: 61%
+source-wordcount: '3394'
+ht-degree: 64%
 
 ---
 
@@ -184,7 +184,12 @@ Par défaut, les parcours sont configurés pour une seule exécution. Pour défi
 
 >[!NOTE]
 >
->Les parcours de lecture d’audience en une seule fois passent au statut **Terminé**, 91 jours ([temporisation de parcours globale](journey-properties.md#global_timeout)) après l’exécution du parcours. Pour les parcours Lecture d’audience planifiés, cela se passe 91 jours après l’exécution de la dernière occurrence.
+>Statut du Parcours **et délai d’expiration global de 91 jours :**
+>
+>* **PONCTUEL** Les parcours d’audience de lecture passent au statut **Terminé** 91 jours ([délai d’expiration global du parcours ](journey-properties.md#global_timeout)) après l’exécution du parcours.
+>* **Récurrent** Lire les parcours d’audience sans date de fin **restent actifs** tant que le parcours est publié. Ils passent au statut **Terminé** 91 jours après l’exécution de leur **dernière occurrence**.
+>* La temporisation de 91 jours s’applique aux **profils** individuels traversant le parcours (durée maximale pendant laquelle un profil peut rester actif), et non au statut Actif du parcours.
+>* Le créneau de rapport de 91 jours **fenêtre de création de rapports** est un concept distinct : l’interface utilisateur affiche les données de performance d’environ 91 jours. Les données plus anciennes ne sont pas accessibles dans l’interface utilisateur, mais le parcours continue de s’exécuter. [En savoir plus](journey-properties.md#global_timeout)
 
 1. Dans les propriétés de l’activité **[!UICONTROL Lecture d’audience]**, sélectionnez **[!UICONTROL Modifier le planning du parcours]**.
 
@@ -213,7 +218,7 @@ Pour minimiser le risque de profils manquants :
 
 >[!CAUTION]
 >
->Si vous ciblez une [&#x200B; audience de chargement personnalisée &#x200B;](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité lorsque cette option est activée dans un parcours récurrent. Ces audiences sont corrigées.
+>Si vous ciblez une [ audience de chargement personnalisée ](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité lorsque cette option est activée dans un parcours récurrent. Ces audiences sont corrigées.
 
 +++
 
@@ -345,7 +350,7 @@ Si le problème persiste après ces vérifications, consultez les sections [Minu
 
 * **Fin du traitement de segmentation par lots** : pour les audiences par lots, assurez-vous que le traitement de segmentation par lots quotidien est terminé et que les instantanés sont mis à jour avant l’exécution du parcours. Les audiences par lots sont prêtes à l’emploi environ **2 heures** après la fin du traitement de segmentation. En savoir plus sur les [méthodes d’évaluation d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#evaluate-segments){target="_blank"}.
 
-* **Calendrier d’ingestion des données** : vérifiez que l’ingestion des données de profil est terminée avant l’exécution du parcours. Si des profils ont été ingérés peu de temps avant le début du parcours, ils ne sont peut-être pas encore pris en compte dans l’audience. En savoir plus sur l’ingestion de données [&#x200B; dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
+* **Calendrier d’ingestion des données** : vérifiez que l’ingestion des données de profil est terminée avant l’exécution du parcours. Si des profils ont été ingérés peu de temps avant le début du parcours, ils ne sont peut-être pas encore pris en compte dans l’audience. En savoir plus sur l’ingestion de données [ dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
 
 * **Utiliser l’option « Déclencher après l’évaluation de l’audience par lots »** : pour les parcours planifiés quotidiens utilisant des audiences par lots, envisagez d’activer l’option **[!UICONTROL Déclencher après l’évaluation de l’audience par lots]**. Cela permet de s’assurer que le parcours attend les nouvelles données d’audience (jusqu’à 6 heures) avant de s’exécuter. [En savoir plus sur la planification](#schedule)
 
@@ -355,7 +360,7 @@ Si le problème persiste après ces vérifications, consultez les sections [Minu
 
 * **Vérification de l’état de la tâche de segmentation** : surveillez les temps d’achèvement de la tâche de segmentation par lots dans le [!DNL Adobe Experience Platform] [tableau de bord de surveillance](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=fr){target="_blank"}. Utilisez-le pour vérifier quand les données d’audience sont prêtes.
 
-* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [&#x200B; politiques de fusion dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}.
+* **Vérifier les politiques de fusion** : assurez-vous que la politique de fusion configurée pour votre audience correspond au comportement attendu pour combiner des données de profil provenant de différentes sources. En savoir plus sur les [ politiques de fusion dans  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=fr){target="_blank"}.
 
 * **Vérifier les définitions de segment** : vérifiez que les définitions de segment sont correctement configurées et incluez tous les critères de qualification attendus. En savoir plus sur la [création d’audiences](../audience/creating-a-segment-definition.md). Accordez une attention particulière aux éléments suivants :
    * Conditions de temps pouvant exclure des profils en fonction des dates et heures des événements.
@@ -384,7 +389,7 @@ Les reprises sont appliquées par défaut sur les parcours déclenchés par l’
 
 Échec **Lecture d’audience** les déclencheurs sont capturés et affichés dans **Alertes**. L’alerte **Lecture d’audience** vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure d’exécution planifiée. Cet échec peut être dû à des problèmes techniques ou à une audience vide. Si l’échec est dû à des problèmes techniques, des reprises peuvent toujours se produire en fonction du type de problème. Par exemple, si la création de tâche d’exportation échoue, nous réessayons toutes les 10 minutes pendant une heure au maximum. [En savoir plus](../reports/alerts.md#alert-read-audiences)
 
-Pour obtenir la liste complète des mécanismes de sécurisation de lecture d’audience (y compris les limites de reprise et de débit), voir [&#x200B; Mécanismes de sécurisation et limitations &#x200B;](../start/guardrails.md#read-segment-g).
+Pour obtenir la liste complète des mécanismes de sécurisation de lecture d’audience (y compris les limites de reprise et de débit), voir [ Mécanismes de sécurisation et limitations ](../start/guardrails.md#read-segment-g).
 
 ## Rubriques connexes
 
@@ -400,4 +405,4 @@ Pour obtenir la liste complète des mécanismes de sécurisation de lecture d’
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
