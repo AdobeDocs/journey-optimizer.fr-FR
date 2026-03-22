@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: chaîne, fonctions, expression, parcours, texte, manipulation
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '1127'
+exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
+source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
+workflow-type: tm+mt
+source-wordcount: '1129'
 ht-degree: 100%
 
 ---
@@ -317,6 +318,10 @@ Renvoie une valeur booléenne.
 Renvoie true.
 
 `isEmpty("Hello World")`
+
+Renvoie false.
+
+`isEmpty(<null>)`
 
 Renvoie false.
 
@@ -872,4 +877,3 @@ Renvoie une chaîne.
 Renvoie « 79e70b7f-8a85-400b-97a1-9f9826121553 »
 
 +++
-
