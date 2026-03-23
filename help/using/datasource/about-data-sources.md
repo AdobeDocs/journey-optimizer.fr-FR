@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: données, source, parcours, plateforme
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '616'
 ht-degree: 56%
 
 ---
@@ -51,7 +51,7 @@ Pour chaque source de données, vous définissez les informations à récupérer
 
 ## Choisir votre stratégie d’accès aux données {#data-access-strategy}
 
-Avant de configurer une source de données, réfléchissez à l’approche la mieux adaptée à votre cas d’utilisation. Trois options sont disponibles, chacune avec différents compromis en termes de persistance, d’enrichissement du profil et de réutilisation. Pour obtenir des informations détaillées sur ces options, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/fr/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Avant de configurer une source de données, réfléchissez à l’approche la mieux adaptée à votre cas d’utilisation. Trois options sont disponibles, chacune avec différents compromis en termes de persistance, d’enrichissement du profil et de réutilisation. Pour obtenir des informations détaillées sur ces options, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Option 1 — Accès aux données externes par le biais d’actions personnalisées (pas de lac de données)**
 
@@ -71,7 +71,7 @@ Ingérez des données dans un jeu de données pour déclencher et personnaliser 
 
 **Option 3 — Jeu de données activé pour Profile dans le lac de données**
 
-Ingérez des données dans un jeu de données activé pour le profil afin de créer des audiences, d’enrichir les graphiques d’identités et d’exploiter les données sur plusieurs parcours et destinations RT-CDP. Idéal lorsque :
+Ingérez des données dans un [jeu de données activé pour les profils](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} afin de créer des audiences, d’enrichir les graphiques d’identités et d’exploiter les données sur plusieurs parcours et destinations RT-CDP. Idéal lorsque :
 
 * Les données sont utiles pour les définitions d’audience utilisées dans des canaux au-delà de Journey Optimizer.
 * Les données contiennent plusieurs identités qui contribuent à des fragments de profil assemblés plus riches.
@@ -88,5 +88,5 @@ Pour plus d’informations sur la configuration d’une source de données Adobe
 
 Comprenez ce quʼest une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416634?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

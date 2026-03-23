@@ -5,9 +5,9 @@ title: Recherche d’événements d’expérience dans les parcours
 description: Découvrez comment utiliser la recherche d’événements d’expérience dans les parcours.
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
+source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '961'
 ht-degree: 76%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la source de données [Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions.
+>À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la source de données [](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions.
 >
 >À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées ci-dessous.
 >
@@ -107,7 +107,7 @@ En savoir plus :
 
 Pour personnaliser les communications en fonction des derniers événements liés au panier ou à la navigation sur plusieurs types de panier ou consultations de produits :
 
-* Si vous avez accès à [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configurez des requêtes automatisées pour extraire les données requises de l’événement, les manipuler pour les adapter au cas d’utilisation et les réécrire dans un jeu de données activé pour un profil pour activation.
+* Si vous avez accès à [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configurez des requêtes automatisées pour extraire les données requises de l’événement, les manipuler pour les adapter au cas d’utilisation et les réécrire dans un [jeu de données activé pour profile](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} pour activation.
 * Si les données d’abandon peuvent être modélisées sur le profil avec des attributs scalaires, envisagez d’utiliser des attributs calculés pour capturer les dernières informations, puis de référencer ces attributs dans le parcours pour créer la communication. [En savoir plus dans  [!DNL Adobe Experience Platform]  documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
