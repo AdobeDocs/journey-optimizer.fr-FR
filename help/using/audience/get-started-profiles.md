@@ -58,4 +58,4 @@ Vous pouvez rassembler des données issues de plusieurs sources et les combiner 
 
 Découvrez comment Adobe Experience Platform assemble et met à jour des profils clients en temps réel et la façon dont vous pouvez y accéder et les utiliser.
 
->[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31639?captions=fre_fr&quality=12)
