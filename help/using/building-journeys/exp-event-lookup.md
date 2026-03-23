@@ -16,7 +16,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la source de données [](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions.
+>À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la source de données [&#128279;](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions.
 >
 >À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées ci-dessous.
 >
