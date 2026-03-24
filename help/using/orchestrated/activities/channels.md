@@ -5,10 +5,10 @@ title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 44df78b89def6c4bd9a0070a627bfbd79ae66587
+source-git-commit: 6c318f0a11a59a80721f14d830be10ba4f29318f
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 69%
+source-wordcount: '1517'
+ht-degree: 66%
 
 ---
 
@@ -73,8 +73,8 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
->title="Target"
->abstract="Espace réservé pour le champ Catégorie"
+>title="Catégorie"
+>abstract="Choisissez Marketing ou Transactionnel pour cette activité de canal. Les messages marketing utilisent des configurations de canal marketing et suivent vos règles métier standard. Les messages transactionnels sont destinés aux communications opérationnelles, souvent déclenchées par l’action d’une personne (par exemple, la réinitialisation d’un mot de passe ou une confirmation d’achat) ou pour les avis urgents tels que les interruptions ou les annulations. Ils utilisent des configurations de canal transactionnel, les règles métier sont contournées et l’inclusion n’est pas requise."
 
 >[!PREREQUISITES]
 >
@@ -126,7 +126,7 @@ Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction 
 
 Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grandes quantités dans le cadre de campagnes. La diffusion rapide est utilisée lorsque le retard de diffusion des messages est critique pour l&#39;entreprise. Par exemple, vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, telle que des nouvelles importantes aux utilisateurs qui ont installé votre application de canal d&#39;actualités. Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../../push/create-push.md#rapid-delivery).
 
-Pour plus d&#39;informations sur les performances en mode de diffusion rapide, consultez la description du produit [Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Pour plus d&#39;informations sur les performances en mode de diffusion rapide, consultez la description du produit [](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
