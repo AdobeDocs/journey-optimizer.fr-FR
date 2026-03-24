@@ -11,10 +11,10 @@ keywords: expression, éditeur
 mini-toc-levels: 1
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 94%
+source-wordcount: '894'
+ht-degree: 93%
 
 ---
 
@@ -56,8 +56,6 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
   **Lot 3** : Sku7, Sku8, Sku9, Sku10
 
   Si vous supprimez le **lot 1**, les Sku1, Sku2 et Sku3 sont supprimés du stockage de la recherche. Les données de recherche résultantes contiendront alors : Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
-
-* **Aucune recherche liée** : les recherches de jeux de données ne peuvent pas être liées. En d’autres termes, vous ne pouvez pas utiliser le résultat d’une recherche comme variable pour devenir la clé permettant d’effectuer une seconde recherche.
 
 ### Droit pour le service de recherche
 
