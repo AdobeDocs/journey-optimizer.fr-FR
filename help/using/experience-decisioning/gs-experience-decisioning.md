@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 82%
+source-wordcount: '684'
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ Ces éléments de décision sont intégrés de manière transparente dans les me
 
 >[!IMPORTANT]
 >
->Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et **SMS**. La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée uniquement. Pour demander l’accès, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
+>Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et **SMS**. La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée uniquement. Pour demander l’accès, contactez votre représentant Adobe. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -105,4 +105,4 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
 Découvrez les fonctionnalités de prise de décision dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475865?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

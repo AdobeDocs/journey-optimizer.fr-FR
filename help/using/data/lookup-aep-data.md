@@ -11,10 +11,10 @@ keywords: expression, éditeur
 mini-toc-levels: 1
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 93%
+source-wordcount: '927'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->La fonctionnalité de recherche de données n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
+>La fonctionnalité de recherche de données n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
 
 Découvrez comment accéder aux jeux de données et comment les utiliser dans cette section : [Commencer avec les jeux de données](../data/get-started-datasets.md).
 

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 83%
+source-wordcount: '344'
+ht-degree: 85%
 
 ---
 
@@ -37,7 +37,7 @@ Notre framework de décision de nouvelle génération est conçu pour unifier le
 * Configuration mise à jour de la politique de décision et de la stratégie de sélection : autorisez la réutilisation des composants de décision.
 * Fonctionnalités d’expérimentation : testez la logique de décision en la comparant à d’autres composants de contenu pour mesurer les performances.
 
-La prise de décision est disponible pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et **SMS**. La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée. Pour demander l’accès à Email Decisioning, contactez votre représentant Adobe. En savoir plus sur les [libellés de disponibilité](../rn/releases.md#availability-labels).
+La prise de décision est disponible pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et **SMS**. La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée. Pour demander l’accès à Email Decisioning, contactez votre représentant Adobe. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
 
 ➡️[Commencer la prise de décisions](../experience-decisioning/gs-experience-decisioning.md)
 
