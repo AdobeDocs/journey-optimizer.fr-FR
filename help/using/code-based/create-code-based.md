@@ -153,4 +153,4 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 
 La vidéo ci-dessous montre comment créer une campagne par expérience basée sur du code, configurer ses propriétés, la tester et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449455/?captions=fre_fr&quality=12&learn=on)
