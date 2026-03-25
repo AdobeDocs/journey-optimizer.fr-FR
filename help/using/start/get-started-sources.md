@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 93%
+source-wordcount: '646'
+ht-degree: 90%
 
 ---
 
@@ -105,7 +105,7 @@ Une fois configurées, les sources s’exécutent automatiquement en arrière-pl
 
 Regardez cette vidéo pour comprendre les connecteurs sources et comment les configurer dans Journey Optimizer :
 
->[!VIDEO](https://video.tv.adobe.com/v/3422583?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Pour plus d’informations sur la configuration et la gestion des sources, consultez la [documentation sur les sources Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.
 
@@ -117,3 +117,4 @@ Maintenant que vous comprenez ce que sont les sources et pourquoi elles sont imp
 * Découvrir comment [créer une connexion source](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=fr){target="_blank"}
 * Comprendre [le mappage et la transformation des données](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=fr){target="_blank"}
 * Découvrir comment [utiliser des données importées dans les parcours](../building-journeys/journey-gs.md)
+* Consultez la présentation [Prise en main de la gestion des données](../data/gs-data.md) pour comprendre comment les sources s’intègrent dans la configuration complète des données pour Journey Optimizer

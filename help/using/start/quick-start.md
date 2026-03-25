@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 88%
+source-wordcount: '1867'
+ht-degree: 86%
 
 ---
 
@@ -96,7 +96,7 @@ En tant que responsable marketing ou qu’utilisateur ou utilisatrice profession
 
 **Les fonctionnalités clés que vous allez utiliser :**
 
-* **Journey Orchestration** : créez un engagement client individuel en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux. Utilisez l’activité Action unifiée pour toutes les actions de canal, l’activité Décision de contenu pour intégrer des offres dans des parcours et Journey Agent pour créer des parcours à partir d’invites en langage naturel
+* **** : créez un engagement client individuel en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux. Utilisez l’activité Action unifiée pour toutes les actions de canal, l’activité Décision de contenu pour intégrer des offres dans des parcours et Journey Agent pour créer des parcours à partir d’invites en langage naturel
 * **Orchestration de campagne** : concevez et automatisez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle. Parfait pour les campagnes lancées par une marque, comme des promotions saisonnières, des lancements de produits et des communications basées sur les comptes. Utilisez la segmentation d’entités multiples pour créer des audiences précises en connectant les données client aux entités associées (comptes, achats, réservations). Utiliser l’envoi de vagues pour diffuser des messages par lots contrôlés
 * **Concepteur de messages moderne** : concevez et personnalisez des e-mails et des messages mobiles à l’aide d’une interface de type glisser-déposer. Modifier les modèles prêts à l’emploi pour accélérer le délai de mise sur le marché
 * **Gestion des décisions** : créez et gérez des offres, des règles d’éligibilité et d’autres composants dans une bibliothèque centralisée qui peut être incorporée dans les e-mails et les points de contact des clients. Utilisation de la prise de décision pour la personnalisation des notifications push et des SMS
@@ -123,7 +123,7 @@ En tant qu’architecte ou ingénieur ou ingénieure de données, vous configure
 * **Gestion des profils** : activez les jeux de données pour une utilisation avec le profil client en temps réel afin d’offrir des expériences personnalisées.
 * **Qualité des données** : surveillez l’ingestion des données pour vous assurer que tout se déroule correctement dans Journey Optimizer.
 
-**Commencez par :** modéliser votre premier schéma de profil client et configurer un connecteur source pour commencer à ingérer des données.
+**Commencer par :** consultez la présentation de la [Prise en main de la gestion des données](../data/gs-data.md) pour comprendre les schémas, les jeux de données, les identités et la liste de contrôle de configuration complète des données. Ensuite, modélisez votre premier schéma de profil client et configurez un connecteur source pour commencer à ingérer des données.
 
 [Commencer en tant qu’ingénieur ou ingénieure de données →](path/data-engineer.md)
 
@@ -210,7 +210,7 @@ La réussite des implémentations de Journey Optimizer nécessite une collaborat
 
 Pour en savoir plus sur les principales fonctionnalités et les personas les plus importants de Journey Optimizer, regardez la vidéo de présentation. La vidéo présente l’interface d’utilisation et met en évidence les fonctionnalités clés en fonction des workflows spécifiques aux rôles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430314?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Ressources supplémentaires
 
@@ -221,6 +221,7 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 >[!TAB Formation et documentation]
 
 * [Tutoriels vidéo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"} - Tutoriels vidéo détaillés pour tous les rôles
+* [Prise en main de la gestion des données](../data/gs-data.md) - Schémas, jeux de données, identités et liste de contrôle de préparation des données pour Journey Optimizer
 * [Bibliothèque de cas d’utilisation de parcours](../building-journeys/jo-use-cases.md) - Exemples pratiques et modèles d’implémentation
 * [Fonctionnalités intelligentes et fonctionnalités d’IA](ai-features.md) - Découvrez l’assistant IA, l’optimisation de l’heure d’envoi et la génération de contenu.
 * [Guide de l’interface d’utilisation](user-interface.md) - Naviguez efficacement dans Journey Optimizer.
@@ -233,7 +234,7 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 
 >[!TAB Communauté et assistance]
 
-* [Communauté Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
-* [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Posez des questions et partagez vos connaissances.
+* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
+* [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Posez des questions et partagez vos connaissances.
 
 >[!ENDTABS]

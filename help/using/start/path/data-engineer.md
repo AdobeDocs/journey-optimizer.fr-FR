@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 95%
+source-wordcount: '970'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,10 @@ En tant qu’**architecte de données** ou **ingénieur ou ingénieure de donné
 >[!NOTE]
 >
 >En savoir plus sur l’**ingestion de données** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
+
+>[!TIP]
+>
+>Vous découvrez les données dans Journey Optimizer ? Commencez par la présentation de la [Prise en main de la gestion des données](../../data/gs-data.md) pour comprendre les schémas, les jeux de données, les identités, le modèle de fragment de profil et la liste de contrôle complète de préparation des données avant de passer à la configuration.
 
 ## Étapes essentielles de configuration des données
 

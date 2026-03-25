@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '897'
 ht-degree: 95%
 
 ---
@@ -21,7 +21,7 @@ Toutes les données correctement ingérées par Adobe Experience Platform sont
 
 ## Mécanismes de sécurisation et limitations
 
-* À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=fr){target="_blank"}.
+* À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * Depuis février 2025, un mécanisme de sécurisation sur la durée de vie (TTL) est déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
 
@@ -63,7 +63,7 @@ Cette section répertorie les jeux de données système utilisés par [!DNL Jour
 
   _Jeu de données du service de consentement_ : stocke les informations de consentement d’un profil.
 
-* Exportation de messages
+* Exporter des messages
 
   _Jeu de données d’exportation de messages AJO_ : stocke le contenu des e-mails et des SMS envoyés à des fins d’exportation. Les enregistrements sont conservés pendant 7 jours calendaires à compter de l’ingestion. Disponible uniquement pour les organisations qui ont acheté le module complémentaire Exportation de message. [En savoir plus](../configuration/message-export.md)
 
@@ -83,7 +83,7 @@ Vous pouvez créer un jeu de données à partir d’un schéma ou d’un fichier
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416649?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Gouvernance des données
 
@@ -103,6 +103,7 @@ En savoir plus sur la gouvernance des données et les libellés d’utilisation 
 
 >[!MORELIKETHIS]
 >
+>* [Prise en main de la gestion des données dans Journey Optimizer](gs-data.md)
 >* [Documentation relative aux jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}
 >* [Documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}
 >* [Bonnes pratiques relatives aux droits de licence de gestion des données](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

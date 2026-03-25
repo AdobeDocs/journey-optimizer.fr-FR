@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -102,7 +102,7 @@ Votre travail d’administration permet à toutes les équipes de réussir :
 
 >[!TAB Soutenir les ingénieurs et ingénieures de données]
 
-Collaborez avec les [ingénieurs et ingénieures de données](data-engineer.md) sur la gestion des données et l’accès aux données :
+Collaborez avec [Ingénieurs de données](data-engineer.md) sur la gestion et l’accès aux données. Consultez la présentation [Prise en main de la gestion des données](../../data/gs-data.md) pour comprendre les schémas, les jeux de données et les sources de données que vos ingénieurs de données doivent configurer.
 
 * Octroyez des autorisations pour la gestion des données et la création de schémas
 * Approuvez les accès aux sandbox pour le développement et les tests
