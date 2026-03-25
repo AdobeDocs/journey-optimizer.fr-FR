@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,11 @@ ht-degree: 4%
 >Cette fonctionnalité est actuellement en version bêta **privée**. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
 
 ## Vue d’ensemble {#overview}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_inventory"
+>title="Défis de fidélité"
+>abstract="Les défis de fidélité sont des programmes ludiques qui récompensent les clients pour avoir effectué certaines tâches. Découvrez en quoi ils consistent, les différences entre les défis Standard, Séquentiel et Séquentiel, et ce que vous pouvez configurer avant de créer un défi."
 
 Les défis de fidélité vous permettent de créer des programmes de fidélité attrayants et ludiques qui stimulent le comportement des clients et approfondissent les relations de la marque. Créez des défis qui récompensent les clients pour des actions spécifiques, qu’il s’agisse d’acheter ou de rédiger des avis, de communiquer sur les médias sociaux ou de recommander des amis.
 

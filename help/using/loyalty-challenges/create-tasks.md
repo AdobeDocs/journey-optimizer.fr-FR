@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,11 @@ Les tâches définissent les actions ou jalons spécifiques que les clients doiv
 Chaque tâche représente une action mesurable qui contribue à l&#39;achèvement du défi. Les tâches sont des composants réutilisables qui peuvent être créés indépendamment, puis ajoutés à un ou plusieurs défis, ou créés directement au sein d’un défi.
 
 ## Création d’une tâche {#create-task}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_create"
+>title="Création d’une tâche"
+>abstract="Sélectionnez une activité du client (Achat ou Dépenses), puis configurez les attributs spécifiques à l&#39;activité : quantités ou montants, éléments et exclusions éligibles, et limites facultatives telles que dépenses minimales ou transactions maximales. Dans le volet Propriétés , définissez le nom et la description de la tâche."
 
 Vous pouvez créer des tâches à partir de deux points d’entrée. Le processus de configuration est le même, quel que soit l’endroit où vous commencez.
 
@@ -101,6 +106,11 @@ Attributs disponibles pour les activités **Dépenses** :
 >[!ENDTABS]
 
 ## Définir les éléments éligibles et les exclusions {#eligible-items-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_eligible_items_exclusion"
+>title="Éléments éligibles et exclusions"
+>abstract="Contrôler le nombre d&#39;achats pour les tâches Achat et Dépenses. Dans le premier champ, saisissez des ID d’élément, des catégories ou des ID de destination séparés par des virgules pour n’autoriser que ceux-ci. Laissez ce champ vide pour que tous les achats soient pris en compte, ou saisissez un astérisque pour indiquer tous les achats. Dans le deuxième champ, répertoriez les éléments ou les catégories qui ne doivent jamais être pris en compte, comme les cartes-cadeaux ou le bordereau de sécurité."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
