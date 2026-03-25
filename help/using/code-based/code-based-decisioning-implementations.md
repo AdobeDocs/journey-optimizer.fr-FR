@@ -6,28 +6,26 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 77%
+ht-degree: 95%
 
 ---
 
-# Prise de décisions dans les implémentations d’expérience basée sur du code {#code-based-decisioning-implementations}
+# Prise de décision dans les implémentations d’expérience basées sur du code {#code-based-decisioning-implementations}
 
 Lors de l’utilisation de prises de décisions dans des expériences basées sur du code, pensez à ajouter les indicateurs suivants à votre implémentation client dans les cas décrits ci-dessous.
 
 >[!CAUTION]
 >
->Le canal d’expérience basé sur le code ne prend en charge que la fonctionnalité [!DNL Journey Optimizer] [Decisioning](../experience-decisioning/gs-experience-decisioning.md). La fonctionnalité de gestion des décisions héritée n’est pas disponible avec les expériences basées sur du code.
+>Le canal d’expérience basé sur du code ne prend en charge que la fonctionnalité de [prise de décision](../experience-decisioning/gs-experience-decisioning.md) de [!DNL Journey Optimizer]. La fonctionnalité de gestion des décisions héritée n’est pas disponible avec les expériences basées sur du code.
 
-➡️ Pour en savoir plus sur la configuration de Web SDK pour les expériences et la prise de décision basées sur du code, consultez [ces tutoriels](#tutorials).
+➡️ Pour en savoir plus sur la configuration du SDK web pour la prise de décision et les expériences basées sur du code, consultez [ces tutoriels](#tutorials).
 
 ## Test d’expériences basées sur du code à l’aide de décisions {#code-based-test-decisions}
 
-<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
-
-Lors du test d’une [expérience basée sur du code](create-code-based.md) avec la prise de décisions, l’indicateur `dryRun` peut être utilisé pour supprimer les événements de feedback relatifs aux compteurs de création de rapports et de limitation.
+Lors du test de l’[expérience basée sur le code](create-code-based.md) avec la prise de décision, l’indicateur `dryRun` peut être utilisé pour supprimer les événements de commentaires pour les compteurs de création de rapports et de limitation.
 
 Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le bloc de `data` d’événement XDM de votre implémentation client :
 
@@ -297,10 +295,10 @@ Supposons que vous ayez la même politique de décision avec l’emplacement de 
 
 ## Tutoriels {#tutorials}
 
-Découvrez comment récupérer, afficher et suivre les expériences basées sur le code à l’aide de l’[extension Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} pour les SDK mobiles Adobe Experience Platform dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+Découvrez comment récupérer, afficher et suivre les expériences basées sur du code à l’aide de l’[extension Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} pour les SDK mobiles Adobe Experience Platform dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
-Découvrez comment utiliser la prise de décision dans Journey Optimizer pour personnaliser les offres de contenu de votre site web, en particulier la configuration de Web SDK, dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+Découvrez comment utiliser la prise de décision dans Journey Optimizer pour personnaliser les offres de contenu de votre site web, en particulier la configuration du SDK web, dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 
-Découvrez comment configurer Web SDK et utiliser la prise de décision avec des expériences basées sur du code pour personnaliser les offres à l’aide de données météorologiques en temps réel et d’informations contextuelles dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
+Découvrez comment configurer le SDK web et utiliser la prise de décision avec des expériences basées sur du code pour personnaliser les offres à l’aide de données météorologiques en temps réel et d’informations contextuelles dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
 
 

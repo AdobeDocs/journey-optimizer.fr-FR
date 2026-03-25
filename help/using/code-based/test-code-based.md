@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 98%
+source-wordcount: '794'
+ht-degree: 87%
 
 ---
 
@@ -38,10 +38,11 @@ Pour afficher un aperçu de votre expérience basée sur le code qui a été mod
 
 Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans [cette section](../content-management/preview.md).
 
+Lorsque votre expérience basée sur le code utilise [Experience Decisioning](../experience-decisioning/gs-experience-decisioning.md), vous pouvez prévisualiser les éléments de décision qui seront diffusés : sélectionnez un ou plusieurs profils de test dans **[!UICONTROL Simuler du contenu]** et l’aperçu affiche les éléments de décision qui remplissent les critères de chaque profil.
+
 >[!NOTE]
 >
->Actuellement, vous ne pouvez pas simuler le contenu de l’interface d’utilisation dans une campagne ou un parcours d’expérience basée sur du code à l’aide de la [prise de décisions](../experience-decisioning/gs-experience-decisioning.md). Une solution de contournement est proposée dans [cette section](../experience-decisioning/create-decision.md#test-and-publish).
-
+>Cet aperçu est uniquement un **aperçu de contenu** : il affiche les éléments de décision qui remplissent les critères du profil de test sélectionné et la manière dont le contenu créé est rendu. Les **données contextuelles** envoyées dans des requêtes Edge actives (par exemple, les données utilisées dans les critères de décision ou référencées dans votre implémentation client) ne sont pas simulées dans l’aperçu **[!UICONTROL Simuler du contenu]**.
 
 ## Prévisualiser sur l’appareil {#preview-on-device}
 
@@ -95,7 +96,7 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
    * Sélectionnez le bouton **[!UICONTROL Copier le lien]** et partagez le lien avec votre équipe et les parties prenantes, qui peuvent prévisualiser la nouvelle expérience dans n’importe quel navigateur mobile avant que les modifications ne soient mises en ligne.
 
-   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien de prévisualisation directement dans l’application mobile. Vous devez saisir le code confidentiel sur votre appareil pour établir la session [Assurance](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien de prévisualisation directement dans l’application mobile. Vous devez saisir le code confidentiel sur votre appareil pour établir la session [](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
 
      >[!NOTE]
      >
