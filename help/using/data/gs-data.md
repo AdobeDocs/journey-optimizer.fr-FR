@@ -84,7 +84,7 @@ Une source de données dans Journey Optimizer définit les champs de Adobe Exper
 ➡️ [En savoir plus sur les sources de données](../datasource/about-data-sources.md)
 
 >[!NOTE]
->Le [Glossaire ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/glossary){target="_blank"} définit de manière générique la « source de données » comme l’origine des données (un CRM, une application mobile, etc.). Dans Journey Optimizer, **source de données** a une signification spécifique : une configuration de l’interface utilisateur qui contrôle les champs exposés dans les parcours et les messages.
+>Le [Glossaire &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/glossary){target="_blank"} définit de manière générique la « source de données » comme l’origine des données (un CRM, une application mobile, etc.). Dans Journey Optimizer, **source de données** a une signification spécifique : une configuration de l’interface utilisateur qui contrôle les champs exposés dans les parcours et les messages.
 
 ### Identité et profil client en temps réel {#identity}
 
@@ -178,7 +178,7 @@ Vérifiez que les jeux de données générés par le système Journey Optimizer 
 Certains mécanismes de sécurisation et limitations du produit peuvent influencer la manière dont vous concevez votre modèle de données et vos parcours. Révisez-les au plus tôt pour éviter de les retravailler ultérieurement.
 
 >[!IMPORTANT]
->Reportez-vous toujours à la page Mécanismes de sécurisation et limitations de [](../start/guardrails.md) pour obtenir les dernières informations. Les résumés ci-dessous mettent en évidence des éléments clés, mais ils peuvent évoluer au fil du temps.
+>Reportez-vous toujours à la page Mécanismes de sécurisation et limitations de [&#128279;](../start/guardrails.md) pour obtenir les dernières informations. Les résumés ci-dessous mettent en évidence des éléments clés, mais ils peuvent évoluer au fil du temps.
 
 ### Jeux de données système et TTL Journey Optimizer {#datasets-ttl}
 
@@ -204,8 +204,8 @@ L’exemple suivant montre comment les concepts de cette page fonctionnent ensem
 
 1. Un ingénieur de données crée un [schéma de profil individuel XDM](get-started-schemas.md) pour les attributs du client (nom, e-mail, niveau de fidélité, consentement) et un schéma XDM ExperienceEvent pour les événements d’inscription web.
 1. Des [jeux de données activés pour le profil](get-started-datasets.md) sont créés pour chaque schéma : un pour les attributs CRM et un pour les événements d’inscription.
-1. Les équipes web et mobiles diffusent les événements d’inscription via Adobe Experience Platform Web SDK ; les données de gestion de la relation client sont ingérées via un [ connecteur source](../start/get-started-sources.md).
-1. Un administrateur configure la source de données [](../datasource/adobe-experience-platform-data-source.md) dans Journey Optimizer et expose les champs tels que `profile.person.name.firstName`, `profile.personalEmail.address` et `profile.loyaltyTier`.
+1. Les équipes web et mobiles diffusent les événements d’inscription via Adobe Experience Platform Web SDK ; les données de gestion de la relation client sont ingérées via un [&#x200B; connecteur source](../start/get-started-sources.md).
+1. Un administrateur configure la source de données [&#128279;](../datasource/adobe-experience-platform-data-source.md) dans Journey Optimizer et expose les champs tels que `profile.person.name.firstName`, `profile.personalEmail.address` et `profile.loyaltyTier`.
 1. Un spécialiste marketing [crée un parcours de bienvenue](../building-journeys/journey-gs.md) qui écoute un événement d’inscription et utilise ces attributs de profil pour [personnaliser l’e-mail de bienvenue](../personalization/personalize.md). Journey Optimizer écrit des événements d’envoi et d’ouverture dans les jeux de données de suivi et consigne la progression du parcours dans les jeux de données d’événement d’étape de parcours.
 1. Un développeur ou une développeuse utilise [Query Editor](get-started-queries.md) pour vérifier que les événements s’écoulent correctement et analyse les performances (ouvertures, clics, délai d’envoi). L’équipe ajuste le parcours et le contenu en fonction de ces informations.
 
