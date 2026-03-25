@@ -7,9 +7,9 @@ feature: Data Management
 role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 89d575834871a5c55bfce75511083b4b651301b8
+source-git-commit: 7094cb2717f36042fa0aec1c6442f8d00c593823
 workflow-type: tm+mt
-source-wordcount: '2444'
+source-wordcount: '2442'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Cette page vous donne un point de départ pratique pour comprendre :
 Utilisez ce guide avec vos ingénieurs de données, administrateurs et spécialistes du marketing afin que tous partagent une vue d’ensemble de la manière dont les données circulent dans et hors de Journey Optimizer.
 
 >[!TIP]
->Vous découvrez la gestion des données dans Journey Optimizer ? Regardez le [tutoriel de présentation de la configuration des données](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} pour une présentation pratique et adaptée aux débutants des schémas, des jeux de données et des sources.
+>Vous découvrez la gestion des données dans Journey Optimizer ? Regardez le [tutoriel de présentation de la configuration des données](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} pour une présentation pratique et adaptée aux débutants des schémas, des jeux de données et des sources.
 
 ## Utilisation des données Adobe Experience Platform par Journey Optimizer {#aep-data}
 
@@ -40,7 +40,7 @@ Les schémas et les jeux de données résident dans Adobe Experience Platform. L
 >[!TIP]
 >Considérez Adobe Experience Platform comme votre couche de données principale et Journey Optimizer comme une application qui orchestre les parcours et les messages à l’aide de cette base de données partagée.
 
-➡️ [En savoir plus sur l&#39;architecture de Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
+➡️ [En savoir plus sur l&#39;architecture de Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
 
 ## Concepts clés des données dans Journey Optimizer {#key-concepts}
 
@@ -79,12 +79,12 @@ Un connecteur source (également appelé **source**) vous permet d’ingérer de
 
 ### Source de données (Journey Optimizer) {#data-source}
 
-Une source de données dans Journey Optimizer définit les champs de Adobe Experience Platform (ou les API externes) exposés dans les parcours et les messages. Configurées dans l’interface utilisateur de Journey Optimizer, les sources de données incluent généralement la source de données Adobe Experience Platform intégrée (exposant les attributs et les événements de profil client en temps réel) et des sources de données externes ou personnalisées facultatives appelées au moment de l’exécution du parcours pour un enrichissement supplémentaire. Ils sont utilisés pour les conditions de parcours, les actions personnalisées et la personnalisation des messages.
+Une source de données dans Journey Optimizer définit les champs de Adobe Experience Platform (ou les API externes) exposés dans les parcours et les messages. Configurées dans l’interface utilisateur de Journey Optimizer, les sources de données incluent généralement la source de données Adobe Experience Platform intégrée (exposant les attributs de profil client en temps réel) et des sources de données externes ou personnalisées facultatives appelées au moment de l’exécution du parcours pour un enrichissement supplémentaire. Ils sont utilisés pour les conditions de parcours, les actions personnalisées et la personnalisation des messages.
 
 ➡️ [En savoir plus sur les sources de données](../datasource/about-data-sources.md)
 
 >[!NOTE]
->Le [Glossaire &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/glossary){target="_blank"} définit de manière générique la « source de données » comme l’origine des données (un CRM, une application mobile, etc.). Dans Journey Optimizer, **source de données** a une signification spécifique : une configuration de l’interface utilisateur qui contrôle les champs exposés dans les parcours et les messages.
+>Le [Glossaire ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/glossary){target="_blank"} définit de manière générique la « source de données » comme l’origine des données (un CRM, une application mobile, etc.). Dans Journey Optimizer, **source de données** a une signification spécifique : une configuration de l’interface utilisateur qui contrôle les champs exposés dans les parcours et les messages.
 
 ### Identité et profil client en temps réel {#identity}
 
@@ -146,7 +146,7 @@ Configurez les connecteurs source pour vos systèmes d’entreprise, tels qu’A
 
 ➡️ [En savoir plus sur les connecteurs source](../start/get-started-sources.md)
 
-➡️ [tutoriel : créer des jeux de données et ingérer des données](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+➡️ [tutoriel : créer des jeux de données et ingérer des données](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 
 +++
 
@@ -157,7 +157,7 @@ Les sources de données relèvent d’un concept spécifique à Journey Optimize
 Journey Optimizer comprend une source de données [Adobe Experience Platform intégrée](../datasource/adobe-experience-platform-data-source.md) qui donne un accès direct aux attributs du profil client en temps réel. Cela couvre la grande majorité des cas d’utilisation : la lecture des attributs de profil pour la personnalisation ou la vérification des champs de consentement et de préférence. Vous pouvez également configurer des [sources de données externes](../datasource/external-data-sources.md) pour appeler des API tierces au moment de l’exécution du parcours, par exemple pour récupérer un score de fidélité en temps réel, une recommandation de produit ou un niveau d’inventaire de magasin qui n’est pas stocké dans Adobe Experience Platform.
 
 >[!NOTE]
->L’accès direct aux données d’événements d’expérience via la source de données Adobe Experience Platform intégrée est obsolète et progressivement désactivé. [En savoir plus](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
+>L’accès direct aux données d’événements d’expérience via la source de données Adobe Experience Platform intégrée est obsolète et progressivement désactivé. [En savoir plus](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
 
 La configuration des sources de données est une tâche administrative qui déverrouille la couche de données complète pour les auteurs de parcours et les spécialistes du marketing. Une fois qu’un champ est exposé via une source de données, il devient disponible dans le créateur de conditions de parcours, dans les éditeurs de personnalisation de message et dans les règles Offer Decisioning, sans nécessiter de travail d’ingénierie supplémentaire au moment de la création du parcours.
 
@@ -178,7 +178,7 @@ Vérifiez que les jeux de données générés par le système Journey Optimizer 
 Certains mécanismes de sécurisation et limitations du produit peuvent influencer la manière dont vous concevez votre modèle de données et vos parcours. Révisez-les au plus tôt pour éviter de les retravailler ultérieurement.
 
 >[!IMPORTANT]
->Reportez-vous toujours à la page Mécanismes de sécurisation et limitations de [&#128279;](../start/guardrails.md) pour obtenir les dernières informations. Les résumés ci-dessous mettent en évidence des éléments clés, mais ils peuvent évoluer au fil du temps.
+>Reportez-vous toujours à la page Mécanismes de sécurisation et limitations de [](../start/guardrails.md) pour obtenir les dernières informations. Les résumés ci-dessous mettent en évidence des éléments clés, mais ils peuvent évoluer au fil du temps.
 
 ### Jeux de données système et TTL Journey Optimizer {#datasets-ttl}
 
@@ -204,8 +204,8 @@ L’exemple suivant montre comment les concepts de cette page fonctionnent ensem
 
 1. Un ingénieur de données crée un [schéma de profil individuel XDM](get-started-schemas.md) pour les attributs du client (nom, e-mail, niveau de fidélité, consentement) et un schéma XDM ExperienceEvent pour les événements d’inscription web.
 1. Des [jeux de données activés pour le profil](get-started-datasets.md) sont créés pour chaque schéma : un pour les attributs CRM et un pour les événements d’inscription.
-1. Les équipes web et mobiles diffusent les événements d’inscription via Adobe Experience Platform Web SDK ; les données de gestion de la relation client sont ingérées via un [&#x200B; connecteur source](../start/get-started-sources.md).
-1. Un administrateur configure la source de données [&#128279;](../datasource/adobe-experience-platform-data-source.md) dans Journey Optimizer et expose les champs tels que `profile.person.name.firstName`, `profile.personalEmail.address` et `profile.loyaltyTier`.
+1. Les équipes web et mobiles diffusent les événements d’inscription via Adobe Experience Platform Web SDK ; les données de gestion de la relation client sont ingérées via un [ connecteur source](../start/get-started-sources.md).
+1. Un administrateur configure la source de données [](../datasource/adobe-experience-platform-data-source.md) dans Journey Optimizer et expose les champs tels que `profile.person.name.firstName`, `profile.personalEmail.address` et `profile.loyaltyTier`.
 1. Un spécialiste marketing [crée un parcours de bienvenue](../building-journeys/journey-gs.md) qui écoute un événement d’inscription et utilise ces attributs de profil pour [personnaliser l’e-mail de bienvenue](../personalization/personalize.md). Journey Optimizer écrit des événements d’envoi et d’ouverture dans les jeux de données de suivi et consigne la progression du parcours dans les jeux de données d’événement d’étape de parcours.
 1. Un développeur ou une développeuse utilise [Query Editor](get-started-queries.md) pour vérifier que les événements s’écoulent correctement et analyse les performances (ouvertures, clics, délai d’envoi). L’équipe ajuste le parcours et le contenu en fonction de ces informations.
 
@@ -216,7 +216,7 @@ Ce flux illustre la manière dont les schémas, les jeux de données, les source
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Prise en main des schémas**
 
@@ -236,7 +236,7 @@ Découvrez comment créer des jeux de données d’événement et activés pour 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Configuration des sources de données**
 
@@ -246,7 +246,7 @@ Conseils détaillés sur la configuration de la source de données Adobe Experie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Utilisation des données Adobe Experience Platform (recherche)**
 
@@ -256,7 +256,7 @@ Découvrez comment enrichir les messages au moment de l’exécution avec des do
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Prise en main des requêtes**
 
@@ -266,7 +266,7 @@ Utilisez Query Service pour analyser les jeux de données Journey Optimizer, vé
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Commencer avec les profils**
 
@@ -276,23 +276,23 @@ Découvrez le fonctionnement du profil client en temps réel dans Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Tutoriel de présentation de la configuration des données**
 
 Une présentation vidéo conviviale pour les débutants sur la configuration des données dans Journey Optimizer, couvrant les schémas, les jeux de données et les sources de bout en bout.
 
-[Tutoriel Watch](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}
+[Tutoriel Watch](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Tutoriel sur la création de jeux de données et l’ingestion de données**
 
 Tutoriel pratique montrant comment créer des jeux de données dans Adobe Experience Platform et ingérer des données à l’aide des connecteurs source, avec des instructions détaillées que vous pouvez suivre dans votre propre sandbox.
 
-[Tutoriel Watch](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+[Tutoriel Watch](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 :::
 
 ::::
