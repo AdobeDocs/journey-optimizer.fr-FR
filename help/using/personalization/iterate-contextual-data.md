@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, handlebars, itération, tableaux, contexte, personnalisation
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3040'
 ht-degree: 98%
 
 ---
@@ -77,7 +77,7 @@ context.journey.events.<event_ID>.<fieldPath>
 >context.journey.events.`1697323153`.fieldName
 >```
 >
->Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [&#x200B; Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
+>Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [ Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
 
 ### Exemple : articles dans le panier à partir d’un événement
 
@@ -255,10 +255,6 @@ Pour afficher les avantages dynamiques en fonction du statut de fidélité, repo
 ## Itération sur les résultats de la recherche de jeu de données {#dataset-lookup}
 
 L’activité [Recherche de jeu de données](../building-journeys/dataset-lookup.md) permet de récupérer des données à partir de [jeux de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"} pendant l’exécution du parcours. Les données enrichies sont stockées sous la forme d’un tableau et peuvent être itérées dans vos messages.
-
->[!AVAILABILITY]
->
->L’activité Recherche de jeu de données n’est disponible que pour un nombre limité d’organisations. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Pour en savoir plus sur la configuration de l’activité Recherche de jeu de données, voir [cette section](../building-journeys/dataset-lookup.md). La recherche de jeu de données est particulièrement performante si elle est combinée avec des données d’événement. Voir [Exemple : données d’événement enrichies par la recherche de jeu de données](#combine-sources) pour un cas d’utilisation pratique.
 
@@ -1046,7 +1042,7 @@ Utilisez le [mode test de parcours](../building-journeys/testing-the-journey.md)
 
 **Principes de base de la personnalisation :** [Commencer avec la personnalisation](personalize.md) | [Ajouter une personnalisation](personalization-build-expressions.md) | [Syntaxe de personnalisation](personalization-syntax.md) | [Fonctions de l’assistant](functions/helpers.md) | [Créer des règles conditionnelles](create-conditions.md)
 
-**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours &#x200B;](../building-journeys/testing-the-journey.md)
+**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours ](../building-journeys/testing-the-journey.md)
 
 **Fonctions d’expression de parcours :** [Éditeur d’expression avancé](../building-journeys/expression/expressionadvanced.md) | [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md) (first, all, last) | [Fonctions de liste](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Fonctions de tableau](../personalization/functions/arrays-list.md) (head, tail)
 

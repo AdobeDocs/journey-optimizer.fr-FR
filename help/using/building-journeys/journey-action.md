@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1427'
 ht-degree: 86%
 
 ---
@@ -24,19 +24,17 @@ ht-degree: 86%
 >title="Activité Action"
 >abstract="L’activité **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en ajoutant une optimisation à toute action de canal intégrée."
 
-[!DNL Journey Optimizer] est fourni avec une nouvelle activité **Action** générique qui permet de configurer une action de canal intégrée unique, ainsi que plusieurs activités entrantes.
+L’activité **Action** est le point d’entrée unique pour toutes les actions de canal dans la zone de travail de parcours. Il remplace les activités de canal intégrées individuelles précédentes et consolide les activités E-mail, Push, SMS, In-app, Web, Expérience basée sur le code et Carte de contenu en un type d’activité unifié.
 
-L&#39;activité Action offre les avantages suivants :
+Utilisez-le pour :
 
-* Configuration d’action native simplifiée dans la zone de travail de parcours
-* Création de groupes d’actions entrantes multi-actions
-* Ajout d’une optimisation à toute action de canal intégrée
-
-Pour ajouter une action de canal intégrée à votre parcours, utilisez l’activité **Action**. Cette activité unifiée regroupe toutes les actions de canal (e-mail, notification push, SMS, in-app, web, expérience basée sur le code et carte de contenu) en un seul type d’activité, remplaçant les activités de canal individuelles précédentes.
+* Configurez n’importe quelle action de canal intégrée à partir d’une interface unique et rationalisée.
+* Créez des groupes d’actions entrants multiactions.
+* Appliquez l’optimisation à n’importe quelle action de canal.
 
 >[!IMPORTANT]
 >
->Tous les canaux natifs étant désormais accessibles par le biais de l’activité Action , les activités de canal natives héritées seront abandonnées avec la version de mars. Les parcours existants qui incluent des actions héritées continueront à fonctionner en l’état. Aucune migration n’est requise.
+>Les activités de canal natives héritées (e-mail, notification push, SMS, in-app, web, expérience basée sur le code et carte de contenu) sont obsolètes depuis la version de mars 2026. Les parcours existants qui utilisent ces activités continuent à fonctionner sans modification ; aucune migration n’est requise.
 
 Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [En savoir plus](#recommendation)
 
@@ -44,7 +42,9 @@ Vous pouvez également configurer des actions personnalisées pour envoyer vos m
 
 Pour ajouter une action de canal intégrée à votre parcours à l’aide de l’activité **[!UICONTROL Action]**, procédez comme suit.
 
-Pour plus d’informations sur les canaux disponibles dans les parcours, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
+>[!NOTE]
+>
+>Pour plus d’informations sur les canaux disponibles dans les parcours, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
 
 1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture d’audience](read-audience.md).
 

@@ -8,12 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 76%
+source-wordcount: '891'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Activité de recherche de jeu de données"
->abstract="L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données à partir de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun."
+>abstract="L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun."
 
 L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun.
 
@@ -32,11 +31,7 @@ Avantages clés :
 * **Prise de décision dynamique** : utilisez des données externes pour orienter la logique et les actions du parcours.
 * **Accès aux données amélioré** : récupérez les métadonnées des produits, les tables de tarification ou les données relationnelles liées à des clés spécifiques.
 
->[!AVAILABILITY]
->
->Cette activité est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
-
-## À lire absolument {#must-read}
+## À lire impérativement {#must-read}
 
 Examinez ces exigences avant de configurer les recherches de jeux de données.
 
@@ -66,7 +61,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Recherche de jeu de données]** dans votre zone de travail.
 
-   ![[!DNL Adobe Experience Platform] activité de recherche de jeu de données dans le parcours &#x200B;](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] activité de recherche de jeu de données dans le parcours ](assets/aep-data-activity.png)
 
 1. Ajoutez un libellé et une description.
 
