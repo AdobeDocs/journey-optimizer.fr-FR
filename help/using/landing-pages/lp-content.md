@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire, composant
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '1336'
-ht-degree: 100%
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+workflow-type: tm+mt
+source-wordcount: '1571'
+ht-degree: 83%
 
 ---
 
@@ -24,19 +24,23 @@ ht-degree: 100%
 >abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’une page de destination. Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatrices de sélectionner et dʼenvoyer leurs choix, utilisez le composant de formulaire."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Ajouter des composants de contenu"
 
-Pour concevoir le contenu de votre page de destination, vous pouvez utiliser les mêmes composants que pour un e-mail. [En savoir plus](../email/content-components.md#add-content-components).
+Pour concevoir le contenu de votre page de destination, vous pouvez utiliser les mêmes composants que pour un e-mail. [En savoir plus](../email/content-components.md#add-content-components)
 
-Pour concevoir un contenu spécifique qui permettra aux utilisateurs et utilisatrices de sélectionner et d’envoyer leurs choix, [utilisez le composant de formulaire](#use-form-component) et définissez ses [styles spécifiques aux pages de destination](#lp-form-styles).
+Pour concevoir un contenu spécifique qui permettra aux utilisateurs et utilisatrices de sélectionner et d’envoyer leurs choix, utilisez le **composant de formulaire** :
+
+* Pour les scénarios d’opt-in, d’opt-out et d’abonnement, utilisez le [composant de formulaire intégré](#use-form-component) et définissez ses [styles spécifiques aux pages de destination](#lp-form-styles).
+
+* Pour permettre aux utilisateurs d’envoyer des données par le biais d’un formulaire spécifique (par exemple pour enrichir un jeu de données [!DNL Experience Platform]), [incorporez un formulaire publié](#embed-form) sur une page de destination **[!UICONTROL capture de données]**. [En savoir plus sur la création de formulaires](lp-forms.md)
 
 >[!NOTE]
 >
 >Vous pouvez également créer une page de destination de clics publicitaires sans composant **[!UICONTROL Formulaire]**. Dans ce cas, la page de destination s&#39;affichera aux utilisateurs, mais ils n&#39;auront pas à envoyer de formulaire. Cela peut s’avérer utile si vous souhaitez uniquement afficher une page de destination sans nécessiter d’action de la part de vos destinataires, comme l’opt-in ou l’opt-out, ou si vous souhaitez fournir des informations qui ne nécessitent pas d’entrée de la part de l’utilisateur.
 
-Grâce au concepteur de contenu de page de destination, vous pouvez également utiliser les données contextuelles provenant de la page principale dans une sous-page. [En savoir plus](#use-primary-page-context).
+Grâce au concepteur de contenu de page de destination, vous pouvez également utiliser les données contextuelles provenant de la page principale dans une sous-page. [En savoir plus](#use-primary-page-context)
 
 >[!NOTE]
 >
->La [directive européenne sur l’accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](../email/accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].
+>La [loi européenne sur l’accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Veillez à suivre les instructions spécifiques répertoriées sur [cette page](../email/accessible-content.md) lors de la conception de contenu dans [!DNL Journey Optimizer].
 
 ## Utiliser le composant de formulaire {#use-form-component}
 
@@ -167,6 +171,40 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 1. Développez la section **[!UICONTROL Erreur du formulaire]** pour ajuster l’affichage du message d’erreur qui est visible en cas de problème. Cochez lʼoption correspondante pour prévisualiser le texte dʼerreur sur le formulaire.
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## Incorporer un formulaire (capture de données) {#embed-form}
+
+Pour les landing pages créées avec le type [capture de données](get-started-lp.md#data-capture-lp), vous pouvez incorporer un [formulaire publié](lp-forms.md) que vous avez créé. Les envois sont envoyés à la connexion en continu et au jeu de données configuré dans le préréglage de formulaire.
+
+Dans le concepteur de contenu de page de destination, procédez comme suit.
+
+1. Faites glisser et déposez un composant **[!UICONTROL Structure]** dans votre contenu, puis faites glisser et déposez le composant **[!UICONTROL Formulaire]** dans cette structure.
+
+   >[!NOTE]
+   >
+   >Seuls les formulaires **publiés** peuvent être sélectionnés sur la page de destination.
+
+1. Dans la section **[!UICONTROL Incorporer le formulaire]**, sélectionnez le formulaire à afficher.
+
+   ![](assets/lp_embed-form.png)
+
+   >[!NOTE]
+   >
+   >Utilisez **[!UICONTROL Modifier le formulaire]** si vous devez modifier le contenu du formulaire ou le comportement de la page de remerciement ; le formulaire s’ouvre dans un nouvel onglet. [En savoir plus sur la modification des formulaires](lp-forms.md#edit-form)
+
+1. Dans la section **[!UICONTROL Type de suivi]** définissez ce qui se passe après l’envoi :
+
+   * **[!UICONTROL Formulaire défini]** — Utilisez l&#39;action de page de remerciement configurée dans le formulaire incorporé. [En savoir plus](lp-forms.md#thank-you-page)
+   * **Page de destination publiée** — Rediriger vers une autre [page de destination](create-lp.md) publiée.
+   * **URL externe** — Rediriger vers une URL complète.
+
+1. Enregistrez le contenu de votre page de destination lorsque vous avez terminé.
+
+Pour le workflow complet (création, test et publication de page de destination), voir [Exploiter le formulaire dans une page de destination](lp-forms.md#leverage-form-in-lp).
+
+>[!NOTE]
+>
+>Cette expérience de formulaire incorporé s’applique uniquement aux pages de destination **[!UICONTROL capture de données]**.
 
 ## Utiliser le contexte de la page principale {#use-primary-page-context}
 

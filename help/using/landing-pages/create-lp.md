@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 66bf475ed473f3b3d8c61f17ac0f7a36696fe962
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 95%
+source-wordcount: '1613'
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ Pour créer une page de destination, vous devez sélectionner un préréglage, p
 
 1. Donnez-lui un titre. Si nécessaire, vous pouvez ajouter une description.
 
-   ![](assets/lp_create-lp-details.png)
+   ![](assets/lp_create-lp-details.png){width=75%}
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la page de destination, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
@@ -61,7 +61,12 @@ Pour créer une page de destination, vous devez sélectionner un préréglage, p
 
 1. Sélectionnez un préréglage. Découvrez comment créer des préréglages de page de destination dans [cette section](../landing-pages/lp-presets.md#lp-create-preset).
 
-   ![](assets/lp_create-lp-presets.png)
+1. Sélectionnez le type de page de destination que vous souhaitez créer.
+
+   ![](assets/lp_create-lp-data-capture.png){width=60%}
+
+   * **[!UICONTROL Abonnement/désabonnement]** : utilisez ce type pour créer une landing page pour les cas d&#39;utilisation d&#39;abonnement ou de désabonnement. [En savoir plus](lp-use-cases.md#subscription-to-a-service)
+   * **[!UICONTROL Capture de données]** : utilisez ce type pour créer une page de destination pour les cas d’utilisation de capture de données. [En savoir plus](get-started-lp.md#data-capture-lp)
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -86,7 +91,7 @@ Une fois que vous avez configuré et conçu la [page principale](#configure-prim
 >title="Définissez les paramètres de votre page principale."
 >abstract="La page principale est la page que les utilisateurs et les utilisatrices voient en premier après avoir cliqué sur le lien de votre page de destination (à partir d’un e-mail ou d’un site web, par exemple)."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=fr" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -159,8 +164,8 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 >id="ajo_lp_access_settings-subpage"
 >title="Définissez lʼURL de votre page de destination."
 >abstract="Dans cette section, définissez une URL de page de destination unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du préréglage que vous avez sélectionné."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html?lang=fr" text="Configurer les sous-domaines des pages de destination"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html" text="Configurer les sous-domaines des pages de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 Vous pouvez ajouter jusquʼà 2 sous-pages. Par exemple, vous pouvez créer une page de remerciement qui s’affichera une fois que les utilisateurs auront envoyé le formulaire. Vous pouvez également définir une page d’erreur, qui sera affichée si la page de destination rencontre un problème.
 

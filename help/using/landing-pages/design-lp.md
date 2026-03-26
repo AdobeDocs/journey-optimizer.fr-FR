@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, conception, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 90%
+source-wordcount: '235'
+ht-degree: 88%
 
 ---
 
@@ -26,13 +26,15 @@ Plusieurs possibilités sʼoffrent alors à vous :
 
 * **Concevez votre page de destination en partant de zéro** dans lʼinterface du concepteur de contenu et tirez parti des images provenant dʼ[Adobe Experience Manager Assets](../integrations/assets.md). Découvrez comment concevoir le contenu de vos <!--or use built-in templates--> [dans cette section](../email/content-from-scratch.md).
 
-* **Générez du contenu avec l’assistant AI** pour accélérer la création de pages de destination avec du texte et des images générés par l’IA. [En savoir plus sur l’assistant AI](../content-management/generative-full-content.md).
+* **Générez du contenu avec l’assistant IA** pour accélérer la création de pages de destination avec du texte et des images générés par l’IA. [En savoir plus sur l’assistant IA](../content-management/generative-full-content.md).
 
 * **Codez ou collez du code HTML brut** directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../email/code-content.md).
 
 * **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer du contenu [dans cette section](../email/existing-content.md).
 
 * **Utiliser un modèle de page de destination enregistré** créé dans [!DNL Journey Optimizer]. [En savoir plus](lp-templates.md)
+
+Une fois dans le concepteur de contenu de page de destination, vous pouvez utiliser les mêmes composants que pour un e-mail et définir un contenu spécifique à la page de destination à l’aide du composant de formulaire. [Voici comment procéder](lp-content.md)
 
 >[!NOTE]
 >

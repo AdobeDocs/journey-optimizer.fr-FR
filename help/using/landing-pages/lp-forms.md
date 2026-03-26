@@ -2,28 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Créer et utiliser des formulaires pour vos pages de destination
-description: Découvrez comment créer et utiliser des formulaires pour vos pages de destination dans Journey Optimizer
+description: Découvrez comment créer et utiliser des formulaires pour vos pages de destination dans Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 98%
+source-wordcount: '2029'
+ht-degree: 75%
 
 ---
 
 # Utiliser des formulaires dans vos pages de destination {#lp-forms}
 
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement en disponibilité limitée pour les personnes situées aux États-Unis et en Australie. Contactez votre représentant ou représentante Adobe pour en bénéficier.
-
-Pour capturer des données de profil avec vos pages de destination [!DNL Journey Optimizer] et enrichir vos jeux de données [!DNL Experience Platform], vous pouvez utiliser des formulaires dans vos pages de destination.
+Pour capturer des données de profil avec vos pages de destination [!DNL Journey Optimizer] et enrichir vos jeux de données [!DNL Experience Platform], vous pouvez utiliser des formulaires dans vos pages de destination. Pour obtenir un aperçu des scénarios et des exigences de capture de données, consultez [Capture de données avec des pages de destination](get-started-lp.md#data-capture-lp).
 
 ## Créer un préréglage de formulaire {#create-form-preset}
 
@@ -31,7 +26,7 @@ Pour capturer des données de profil avec vos pages de destination [!DNL Journey
 >id="ajo_lp_form_connection"
 >title="Sélectionner le point d’entrée à utiliser"
 >abstract="Définissez le point d&#39;entrée de streaming où les données sont envoyées lors de l’envoi du formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +64,7 @@ Pour créer un préréglage de formulaire, suivez les étapes ci-dessous.
 
 1. Sélectionnez la **[!UICONTROL connexion en streaming]** à utiliser pour ce formulaire. Il s’agit du point d’entrée en streaming où les données sont envoyées lors de l’envoi du formulaire.
 
-   Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
    >[!IMPORTANT]
    >
@@ -78,7 +73,7 @@ Pour créer un préréglage de formulaire, suivez les étapes ci-dessous.
    >* **Type de données** doit être défini sur **XDM** (et non sur Données brutes).
    >* **Authentification** doit être défini sur **désactivée** (connexion non authentifiée).
    >
-   >Si votre connexion en streaming n’apparaît pas dans la liste, vérifiez que ces deux conditions sont remplies. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Si votre connexion en streaming n’apparaît pas dans la liste, vérifiez que ces deux conditions sont remplies. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Sélectionnez un **[!UICONTROL jeu de données]** à lier au formulaire. C’est là que les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir du texte pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
 
@@ -102,7 +97,7 @@ Tous les formulaires existants s’affichent. Vous pouvez les filtrer selon leur
 >id="ajo_lp_form_preset"
 >title="Sélectionner un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
 
 Pour créer un formulaire, suivez les étapes ci-dessous.
 
@@ -270,7 +265,7 @@ Vous pouvez désormais intégrer ce formulaire à une page de destination afin d
 
    >[!NOTE]
    >
-   >Vous pouvez mettre à jour le formulaire sélectionné à l’aide du bouton **[!UICONTROL Modifier le formulaire]**. Le formulaire s’ouvre dans un nouvel onglet. Les étapes pour modifier le contenu du formulaire sont présentées dans [cette section](#create-form).
+   >Vous pouvez mettre à jour le formulaire sélectionné à l’aide du bouton **[!UICONTROL Modifier le formulaire]**. Le formulaire s’ouvre dans un nouvel onglet. Les étapes pour modifier le contenu du formulaire sont présentées dans [cette section](#edit-form).
 
 1. Dans la section **[!UICONTROL Type de suivi]**, configurez ce qui se passe lorsqu’un utilisateur ou une utilisatrice remplit le formulaire :
 
@@ -282,8 +277,65 @@ Vous pouvez désormais intégrer ce formulaire à une page de destination afin d
 
 1. Enregistrez et testez votre page de destination. [Voici comment procéder](create-lp.md#test-landing-page)
 
-Une fois votre page de destination [publiée](create-lp.md#publish-landing-page) et utilisée dans un parcours, lorsque les utilisateurs et utilisatrices remplissent le formulaire, les informations saisies sont ingérées dans le jeu de données sélectionné.
+Une fois votre page de destination [publiée](create-lp.md#publish-landing-page) et utilisée dans un parcours, lorsque les utilisateurs remplissent le formulaire, les informations saisies sont ingérées dans le jeu de données sélectionné. Patientez jusqu’à 15 minutes pour que les données soient traitées et disponibles pour utilisation.
 
 >[!NOTE]
 >
 >Si vous dépubliez un formulaire utilisé dans une page de destination, modifiez ce formulaire et publiez-le à nouveau. La page de destination utilise toujours la dernière version publiée du formulaire.
+
+## Questions fréquentes {#lp-forms-faq}
+
++++De quel type de page de destination ai-je besoin pour utiliser un formulaire ?
+
+Lors de la création d’une page de destination, sélectionnez **[!UICONTROL Capture de données]** comme type de page de destination. Il s’agit du seul type de page de destination qui prend en charge l’incorporation d’un formulaire pour la collecte de données.
+
++++
+
++++Puis-je utiliser un jeu de données avec un paramètre prédéfini de formulaire ?
+
+Seuls les jeux de données **** activés pour Profil **et** non activés pour Profil[!DNL Adobe Experience Platform] peuvent être sélectionnés. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire et un seul jeu de données peut être sélectionné par préréglage.
+
++++
+
++++Puis-je réutiliser le même jeu de données ou la même connexion en continu sur plusieurs paramètres prédéfinis de formulaire ?
+
+Oui. Le même jeu de données ou la même connexion en continu peut être réutilisé sur plusieurs paramètres prédéfinis. Vous pouvez également configurer plusieurs préréglages à l’aide de différentes combinaisons de jeux de données et de connexions en continu pour prendre en charge différents scénarios de capture de données.
+
++++
+
++++Puis-je utiliser un brouillon de formulaire dans une page de destination ?
+
+Non. Seuls les formulaires **publiés** peuvent être sélectionnés et incorporés dans une page de destination.
+
++++
+
++++Si je modifie et republie un formulaire déjà incorporé dans une page de destination active, quelle version la page de destination utilise-t-elle ?
+
+La page de destination utilise toujours la **dernière version publiée** du formulaire. Les brouillons des modifications ne prennent effet que lorsque le formulaire mis à jour est publié.
+
++++
+
++++Puis-je rediriger les utilisateurs vers différentes pages en fonction de la manière dont ils ont rempli le formulaire ?
+
+Oui. Vous pouvez configurer une **[!UICONTROL Redirection conditionnelle]** sur la page de remerciement et définir des règles pour afficher différentes actions de suivi en fonction des réponses du formulaire. Par exemple, rediriger les visiteurs d’un pays vers une page et les visiteurs d’un autre pays vers une autre page, avec une solution de secours par défaut pour tous les autres. [En savoir plus](#thank-you-page)
+
++++
+
++++Les champs de formulaire peuvent-ils être préremplis avec des données de profil existantes ?
+
+Oui. Lors de la configuration d’un champ, vous pouvez activer l’option **[!UICONTROL Prérempli activé]** afin que le champ soit automatiquement renseigné à partir des informations du profil connu lorsqu’il est disponible.
+
++++
+
++++Puis-je rendre un champ obligatoire pour que les utilisateurs ne puissent pas l’ignorer ?
+
+Oui. Dans la section **[!UICONTROL Comportements de champ]** de la configuration d’un champ, sélectionnez **[!UICONTROL Obligatoire]**. Les utilisateurs ne peuvent pas envoyer le formulaire tant que tous les champs obligatoires ne sont pas remplis.
+
++++
+
++++Où vont les données d’envoi de formulaire une fois qu’un utilisateur a envoyé le formulaire ?
+
+Lorsque le formulaire est envoyé, les données sont envoyées à la **connexion en continu** définie dans le préréglage de formulaire. Il est ensuite intégré au jeu de données de **[!DNL Experience Platform]lié** par le biais d’un flux source généré automatiquement qui gère le mappage, la transformation et la validation.
+
++++
+
