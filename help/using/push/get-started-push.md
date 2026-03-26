@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 
 >[!NOTE]
 >
->Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les désinscriptions des e-mails et des SMS, les notifications push ne nécessitent aucune action de votre part, car les destinataires peuvent annuler leur abonnement depuis leurs appareils. Par exemple, lors du téléchargement ou de l’utilisation de votre application, les destinataires peuvent choisir d’arrêter les notifications. De même, ces personnes peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile ou des paramètres du navigateur web.
+>Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les désinscriptions des e-mails et des SMS, les notifications push ne nécessitent aucune action de votre part, car les destinataires peuvent annuler leur abonnement depuis leurs appareils. Par exemple, lors du téléchargement ou de l’utilisation de votre application, les destinataires peuvent choisir d’arrêter les notifications. De même, ils peuvent modifier les paramètres de notification par le biais des paramètres du système d’exploitation mobile ou du navigateur web. Pour vérifier le statut de consentement push d’un profil dans la visionneuse de profils AEP, consultez [Vérification du statut d’opt-out push](../privacy/opt-out.md#push-opt-out-status).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
