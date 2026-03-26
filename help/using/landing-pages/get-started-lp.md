@@ -113,4 +113,4 @@ La création et le déploiement d’une landing page s’effectuent comme suit :
 
 La vidéo ci-dessous montre comment créer une liste d’abonnements, configurer des pages de destination pour l’opt-in ou l’opt-out à un service, intégrer l’option d’opt-in/opt-out à un message et configurer des parcours pertinents.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344398?captions=fre_fr&quality=12&learn=on)
