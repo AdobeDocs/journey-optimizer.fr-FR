@@ -15,7 +15,7 @@ exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -41,11 +41,11 @@ Les tâches définissent les actions ou jalons spécifiques que les clients doiv
 
 Chaque tâche représente une action mesurable qui contribue à l&#39;achèvement du défi. Les tâches sont des composants réutilisables qui peuvent être créés indépendamment, puis ajoutés à un ou plusieurs défis, ou créés directement au sein d’un défi.
 
-## Création d’une tâche {#create-task}
+## Créer une tâche {#create-task}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
->title="Création d’une tâche"
+>title="Créer une tâche"
 >abstract="Sélectionnez une activité du client (Achat ou Dépenses), puis configurez les attributs spécifiques à l&#39;activité : quantités ou montants, éléments et exclusions éligibles, et limites facultatives telles que dépenses minimales ou transactions maximales. Dans le volet Propriétés , définissez le nom et la description de la tâche."
 
 Vous pouvez créer des tâches à partir de deux points d’entrée. Le processus de configuration est le même, quel que soit l’endroit où vous commencez.
