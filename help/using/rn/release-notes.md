@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 80241ba0afa94d6683f0fd562bb3185876c55cac
+source-git-commit: a4d1ef8820ef3cafc4dae5d897c850b106163868
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1535'
 ht-degree: 19%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Nouveautés"
->abstract="**&#x200B;** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
+>abstract="**** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
 
 [!DNL Adobe Journey Optimizer] suit un modèle de diffusion continu, ce qui permet à Adobe de fournir en continu de nouvelles fonctionnalités, de nouvelles améliorations et de nouveaux correctifs. Cette approche permet un déploiement évolutif et échelonné des fonctionnalités afin d’assurer les performances et la stabilité dans tous les environnements.
 
@@ -34,7 +34,7 @@ Les sections [Nouvelles fonctionnalités](#march-26-features) et [Améliorations
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Date de publication** : 24-25 mars 2026
 
@@ -161,7 +161,7 @@ Les parcours existants qui utilisent les activités de canal héritées continue
 <tbody>
 <tr>
 <td>
-<p>Proposez des expériences en temps réel directement sur Lock Screens et Dynamic Island de vos clients grâce à l’activité iOS Live dans Adobe Journey Optimizer. Diffusez des mises à jour en direct, depuis le suivi des commandes et du statut des vols jusqu’au décompte des événements, aux scores en direct et à la progression de la diffusion, sans demander aux utilisateurs d’ouvrir votre application. Tenez votre public informé et engagé au bon moment, exactement où il se trouve.</p>
+<p>Proposez des expériences en temps réel directement sur Lock Screens et Dynamic Island de vos clients avec l’<strong>activité iOS Live</strong> dans Adobe Journey Optimizer. Diffusez des mises à jour en direct, depuis le suivi des commandes et du statut des vols jusqu’au décompte des événements, aux scores en direct et à la progression de la diffusion, sans demander aux utilisateurs d’ouvrir votre application. Tenez votre public informé et engagé au bon moment, exactement où il se trouve.</p>
 <p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../mobile-live/get-started-mobile-live.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : mercredi 3 mars 2026</p>
@@ -181,7 +181,7 @@ Les parcours existants qui utilisent les activités de canal héritées continue
 <td>
 <p>Optimisé par <strong></strong> <strong>Journey Agent</strong> est disponible dans Journey Optimizer et vous permet d’analyser les parcours par le biais d’une interface en langage naturel. Vous pouvez désormais également générer et gérer du contenu spécifique à un canal directement dans Journey Agent, ce qui permet de créer du contenu pour des canaux tels que les e-mails et les notifications push, d’appliquer et de prévisualiser des modèles, d’affiner le ton et le style par le biais d’invites et d’ouvrir le contenu dans <strong>Content Designer</strong> pour une modification contextuelle.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=fr">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : jeudi 4 mars 2026</p>
 </td>
 </tr>
@@ -272,23 +272,6 @@ Les fonctionnalités et améliorations ci-dessous devraient être publiées plus
 <table>
 <thead>
 <tr>
-<th><strong>Déclencher des campagnes orchestrées à l’aide d’un signal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les campagnes orchestrées peuvent désormais être déclenchées via un signal <strong>API</strong>. Pour configurer ce paramètre, configurez la campagne cible comme <strong>Déclenchée par un signal</strong>, publiez-la, puis déclenchez-la à l’aide d’un appel API. Tous les paramètres inclus dans l’appel API sont disponibles en tant que variables dans la campagne en cours d’exécution. Notez que les campagnes orchestrées déclenchées par signal restent des campagnes <strong>par lots</strong> et sont distinctes des campagnes déclenchées par API.</p>
-<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>Date de disponibilité : 1 avril 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Convertir des images en modèles de contenu d’e-mail</strong><br/></th>
 </tr>
 </thead>
@@ -298,6 +281,23 @@ Les fonctionnalités et améliorations ci-dessous devraient être publiées plus
 <p>Vous pouvez désormais convertir des images en modèles de contenu d’e-mail directement dans Journey Optimizer. Utilisez l’analyse optimisée par l’IA pour générer automatiquement des modèles HTML structurés à partir de références visuelles, ce qui réduit considérablement le temps de conception des e-mails.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale). <a href="../content-management/image-to-html.md">En savoir plus</a></p>
 <p>Date de disponibilité : vendredi 26 mars 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Catégorie transactionnelle dans les campagnes orchestrées</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dans les campagnes orchestrées, vous pouvez désormais définir une activité de canal dans la catégorie <strong>Transactionnel</strong>. Cela applique des configurations de canal transactionnel à cette activité. Cette fonctionnalité est utile lorsque les règles métier ne doivent pas s’appliquer ou lorsque l’accord préalable des clients n’est pas requis.</p>
+<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
+<p>Date de disponibilité : 26 mars 2026 - Cette fonctionnalité sera progressivement déployée dans toutes les régions au cours des prochains jours.</p>
 </td>
 </tr>
 </tbody>
@@ -327,23 +327,6 @@ Les fonctionnalités et améliorations ci-dessous devraient être publiées plus
 <table>
 <thead>
 <tr>
-<th><strong>Catégorie transactionnelle dans les campagnes orchestrées</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Dans les campagnes orchestrées, vous pouvez désormais définir une activité de canal dans la catégorie <strong>Transactionnel</strong>. Cela applique des configurations de canal transactionnel à cette activité. Cette fonctionnalité est utile lorsque les règles métier ne doivent pas s’appliquer ou lorsque l’accord préalable des clients n’est pas requis.</p>
-<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>Date de disponibilité : 26 mars 2026 - Cette fonctionnalité sera progressivement déployée dans toutes les régions au cours des prochains jours.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Boîte de réception</strong><br/></th>
 </tr>
 </thead>
@@ -352,6 +335,23 @@ Les fonctionnalités et améliorations ci-dessous devraient être publiées plus
 <td>
 <p><strong>Boîte de réception</strong> est une fonctionnalité mobile, disponible avec les cartes de contenu, qui permet aux clients de créer un emplacement centralisé dans leur application ou site web pour afficher les messages envoyés à leurs utilisateurs. Cela prolonge la durée de vie des communications marketing en s’assurant que les messages restent accessibles même après leur rejet.</p>
 <p>Date de disponibilité : mercredi 31 mars 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Déclencher des campagnes orchestrées à l’aide d’un signal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les campagnes orchestrées peuvent désormais être déclenchées via un signal <strong>API</strong>. Pour configurer ce paramètre, configurez la campagne cible comme <strong>Déclenchée par un signal</strong>, publiez-la, puis déclenchez-la à l’aide d’un appel API. Tous les paramètres inclus dans l’appel API sont disponibles en tant que variables dans la campagne en cours d’exécution. Notez que les campagnes orchestrées déclenchées par signal restent des campagnes <strong>par lots</strong> et sont distinctes des campagnes déclenchées par API.</p>
+<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
+<p>Date de disponibilité : jeudi 1 avril 2026</p>
 </td>
 </tr>
 </tbody>
