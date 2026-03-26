@@ -293,7 +293,7 @@ Lors de la création d’une page de destination, sélectionnez **[!UICONTROL Ca
 
 +++Puis-je utiliser un jeu de données avec un paramètre prédéfini de formulaire ?
 
-Seuls les jeux de données **** activés pour Profil **et** non activés pour Profil[!DNL Adobe Experience Platform] peuvent être sélectionnés. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire et un seul jeu de données peut être sélectionné par préréglage.
+Seuls les jeux de données **&#x200B;**&#x200B;activés pour Profil **et** non activés pour Profil[!DNL Adobe Experience Platform] peuvent être sélectionnés. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire et un seul jeu de données peut être sélectionné par préréglage.
 
 +++
 
