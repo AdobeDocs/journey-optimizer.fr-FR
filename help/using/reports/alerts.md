@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: fb33b8ce7205e5420c09f41812cc286c2b651e26
+source-git-commit: 6184ea004448b95ba6a75139124b47cf775a0fb1
 workflow-type: tm+mt
-source-wordcount: '2693'
-ht-degree: 58%
+source-wordcount: '2876'
+ht-degree: 54%
 
 ---
 
@@ -23,7 +23,7 @@ Les alertes sont des notifications automatisées qui vous permettent de surveill
 
 Adobe Journey Optimizer propose deux types d’alertes :
 
-* **Alertes de validation dans la zone de travail** : lors de la création de parcours et de campagnes, utilisez le bouton **Alertes** dans la zone de travail pour identifier et résoudre les erreurs de configuration avant la publication. Découvrez comment [résoudre les problèmes liés aux parcours &#x200B;](../building-journeys/troubleshooting.md) et examiner vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md).
+* **Alertes de validation dans la zone de travail** : lors de la création de parcours et de campagnes, utilisez le bouton **Alertes** dans la zone de travail pour identifier et résoudre les erreurs de configuration avant la publication. Découvrez comment [résoudre les problèmes liés aux parcours ](../building-journeys/troubleshooting.md) et passer en revue vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par l’API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md).
 
 * **Alertes de surveillance du système** (présentées dans cette page) : recevez des notifications proactives lorsque les seuils opérationnels sont dépassés ou que des problèmes sont détectés dans les parcours en direct et les configurations de canal. Les alertes système surveillent les mesures telles que les taux d’erreur, les abandons de profil et les problèmes de délivrabilité des e-mails.
 
@@ -40,7 +40,7 @@ Les alertes système sont disponibles à partir du menu **[!UICONTROL Alertes]**
 
 Avant d’utiliser des alertes :
 
-* **Autorisations** : vous avez besoin d’autorisations spécifiques pour afficher et gérer les alertes. Voir [autorisations requises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr#permissions){target="_blank"}.
+* **Autorisations** : vous avez besoin d’autorisations spécifiques pour afficher et gérer les alertes. Voir [autorisations requises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Sensibilité aux sandbox** : les abonnements aux alertes sont spécifiques aux sandbox. Lorsque vous vous abonnez à des alertes, elles s’appliquent uniquement au sandbox actuel. Lorsqu’un sandbox est réinitialisé, tous les abonnements aux alertes sont également réinitialisés.
 
@@ -48,7 +48,7 @@ Avant d’utiliser des alertes :
 
 >[!NOTE]
 >
->Les alertes spécifiques à Journey Optimizer s’appliquent uniquement aux parcours **en ligne**. Les alertes ne sont pas déclenchées pour les parcours en mode test. Pour plus d’informations sur le framework d’alerte, consultez la documentation sur les alertes Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
+>Les alertes spécifiques à Journey Optimizer s’appliquent uniquement aux parcours **en ligne**. Les alertes ne sont pas déclenchées pour les parcours en mode test. Pour plus d’informations sur le framework d’alerte, consultez la documentation sur les alertes Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
 ## Alertes disponibles dans Journey Optimizer {#available-alerts}
 
@@ -58,7 +58,7 @@ Journey Optimizer fournit des règles d’alerte préconfigurées qui surveillen
 
 Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Alertes]** dans le menu de gauche. L’onglet **Parcourir** affiche toutes les alertes préconfigurées disponibles pour Journey Optimizer.
 
-![](assets/updated-alerts-list.png){width=50%}
+![](assets/updated-alerts-list.png){width=60%}
 
 ### Catégories d’alerte
 
@@ -71,11 +71,11 @@ Journey Optimizer propose deux catégories d’alertes système :
 Surveillez l’exécution et les performances du parcours :
 
 * [Échec du déclenchement de la lecture d’audience](#alert-read-audiences) - Avertit lorsqu’une activité Lecture d’audience ne parvient pas à traiter les profils
-* [&#x200B; Taux d’erreur d’action personnalisée dépassé &#x200B;](#alert-custom-action-error-rate) - Détecte des taux d’erreur élevés dans les appels d’API d’action personnalisée (remplace l’alerte d’échec d’action personnalisée de Parcours précédente)
+* [ Taux d’erreur d’action personnalisée dépassé ](#alert-custom-action-error-rate) - Détecte des taux d’erreur élevés dans les appels d’API d’action personnalisée (remplace l’alerte d’échec d’action personnalisée de Parcours précédente)
 * [Taux d’abandon du profil dépassé](#alert-discard-rate) - Identifie le moment où les profils sont ignorés à un taux anormal
 * [Taux d’erreur de profil dépassé](#alert-profile-error-rate) - Indique les erreurs rencontrées par les profils lors de l’exécution du parcours
-* [Parcours publié &#x200B;](#alert-journey-published) - Notification d&#39;information lors de la publication d&#39;un parcours
-* [Parcours terminé &#x200B;](#alert-journey-finished) - Notification d&#39;information lorsqu&#39;un parcours est terminé
+* [Parcours publié ](#alert-journey-published) - Notification d&#39;information lors de la publication d&#39;un parcours
+* [Parcours terminé ](#alert-journey-finished) - Notification d&#39;information lorsqu&#39;un parcours est terminé
 * [Limitation d’action personnalisée déclenchée](#alert-custom-action-capping) - Indique lorsque les limites d’appel API sont atteintes
 
 >[!TAB Alertes de configuration de canal]
@@ -83,14 +83,14 @@ Surveillez l’exécution et les performances du parcours :
 Détecter les problèmes liés à la configuration de la délivrabilité des e-mails :
 
 * [Enregistrement DNS du domaine AJO manquant](#alert-dns-record-missing) - Identifie les enregistrements DNS manquants ou mal configurés
-* [Échec de configuration du canal AJO &#x200B;](#alert-channel-config-failure) - Détecte les problèmes de configuration des e-mails (enregistrements SPF, DKIM, MX)
-  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+* [Échec de configuration du canal AJO ](#alert-channel-config-failure) - Détecte les problèmes de configuration des e-mails (enregistrements SPF, DKIM, MX)
+* [Échec du renouvellement des certificats de domaine AJO ](#alert-certificates-renewal) - Avertit lorsque les certificats de ressource ou de suivi d’un sous-domaine de délégation personnalisée expirent bientôt ou ont expiré
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Pour les alertes provenant d’autres services Adobe Experience Platform (ingestion de données, résolution d’identité, segmentation, etc.), consultez la [documentation sur les règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=fr){target="_blank"}.
+>Pour les alertes provenant d’autres services Adobe Experience Platform (ingestion de données, résolution d’identité, segmentation, etc.), consultez la [documentation sur les règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## S’abonner aux alertes {#subscribe-alerts}
 
@@ -114,7 +114,7 @@ Vous pouvez vous abonner à des alertes de deux manières :
 
 **Diffusion de notification :**
 
-* **Canaux de diffusion** : les alertes sont envoyées par e-mail et/ou notifications in-app dans le centre de notification Journey Optimizer (icône représentant une cloche dans le coin supérieur droit). Configurez vos canaux de diffusion préférés dans vos [Préférences Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
+* **Canaux de diffusion** : les alertes sont envoyées par e-mail et/ou notifications in-app dans le centre de notification Journey Optimizer (icône représentant une cloche dans le coin supérieur droit). Configurez vos canaux de diffusion préférés dans vos [Préférences ](../start/user-interface.md#in-product-uc).
 
 * **Types d’alerte** : Journey Optimizer fournit des alertes ponctuelles (événements informatifs tels que « parcours publié ») et des alertes répétées (seuils de surveillance). Les alertes répétées continuent l’évaluation et la notification jusqu’à ce que la condition soit résolue.
 
@@ -159,7 +159,7 @@ Les abonnements spécifiques aux parcours vous permettent de surveiller les parc
 
 1. Accédez à l’inventaire des parcours.
 
-1. Cliquez sur le menu **⋯** (autres actions) du parcours que vous souhaitez surveiller.
+1. Cliquez sur le menu ⋯**(autres actions) du parcours que vous souhaitez surveiller.**
 
 1. Sélectionnez **[!UICONTROL S’abonner aux alertes]**.
 
@@ -183,7 +183,7 @@ Ouvrez la même boîte de dialogue, désélectionnez la ou les alertes, puis cli
 >
 >L’alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences) n’est disponible que par abonnement global, et non par abonnement par parcours.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Alertes de parcours {#journey-alerts}
 
@@ -316,7 +316,7 @@ Si les modifications ne permettent pas de résoudre le problème, la même alert
 
 Cette alerte est déclenchée lorsque l’audit système détecte des problèmes de configuration du canal E-mail. Ces problèmes peuvent comprendre des paramètres de canal mal configurés, une configuration DNS non valide, un problème de liste de suppression, une incohérence d’adresses IP ou toute autre erreur pouvant avoir un impact sur la diffusion des e-mails.
 
-Si vous recevez une alerte de ce type, les étapes de résolution sont répertoriées ci-dessous :
+Si vous recevez une telle alerte, les étapes de résolution sont répertoriées ci-dessous.
 
 1. Cliquez sur l’alerte pour accéder à la [configuration du canal e-mail](../email/get-started-email-config.md) concernée dans l’interface [!DNL Journey Optimizer].
 
@@ -349,9 +349,29 @@ Lors de la résolution des problèmes de configuration du canal e-mail, gardez �
 * Agissez rapidement : corrigez les erreurs de configuration dès qu’elles sont détectéss afin d’éviter toute interruption de la diffusion des e-mails.
 * Vérifiez toutes les configurations : si l’alerte indique plusieurs configurations d’e-mail affectées, examinez et corrigez chacune d’elles.
 
-<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+### Échec du renouvellement des certificats de domaine AJO {#alert-certificates-renewal-unsuccessful}
 
-This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
+>[!IMPORTANT]
+>
+>Cette alerte s’applique uniquement aux configurations de canal utilisant le type de délégation [sous-domaine personnalisé](../configuration/delegate-custom-subdomain.md).
+
+Cette alerte vous avertit lorsqu’un certificat de domaine de ressource ou de suivi sur un sous-domaine de délégation personnalisé expire dans les 30 jours ou a déjà expiré. Sans certificats valides, la délivrabilité des e-mails et le suivi des liens peuvent être perturbés.
+
+>[!NOTE]
+>
+>La vérification s’exécute **toutes les semaines**.
+
+Si cette alerte est déclenchée, suivez les étapes ci-dessous pour examiner et résoudre le problème.
+
+1. Cliquez sur l’alerte pour ouvrir le [sous-domaine](../configuration/delegate-subdomain.md) concerné dans [!DNL Journey Optimizer].
+
+1. Consultez les détails pour déterminer si le renouvellement du certificat est nécessaire.
+
+   * Si la date d&#39;expiration se situe dans le futur, planifiez la remédiation : l&#39;alerte peut fournir jusqu&#39;à 30 jours d&#39;avertissement.
+   * Si le certificat a déjà expiré, prenez des mesures immédiates.
+   * Si le problème n’est pas résolu, la même alerte est déclenchée à nouveau la semaine suivante.
+
+1. Dans votre solution d’hébergement DNS, vérifiez que tous les enregistrements requis pour la délégation de sous-domaine correspondent toujours aux valeurs affichées dans [!DNL Journey Optimizer], y compris les enregistrements utilisés pour la validation SSL.
 
 ## Gérer les alertes {#manage-alerts}
 
@@ -407,15 +427,15 @@ Pour supprimer des personnes abonnées, supprimez leurs adresses e-mail de la li
 
 **Gestion des Parcours et des campagnes :**
 
-* [Résolution des problèmes liés aux parcours &#x200B;](../building-journeys/troubleshooting.md) - Identifiez et résolvez les problèmes et erreurs de parcours courants
-* [Tester et publier des parcours &#x200B;](../building-journeys/publish-journey.md) - Valider la configuration du parcours avant la publication
+* [Résolution des problèmes liés aux parcours ](../building-journeys/troubleshooting.md) - Identifiez et résolvez les problèmes et erreurs de parcours courants
+* [Tester et publier des parcours ](../building-journeys/publish-journey.md) - Valider la configuration du parcours avant la publication
 * [Vérifier et activer les campagnes d’action](../campaigns/review-activate-campaign.md) - Validation de la prépublication pour les campagnes planifiées et ponctuelles
 * [Vérification et activation des campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) - Validation des campagnes déclenchées par API
 * [Surveiller les campagnes orchestrées](../orchestrated/start-monitor-campaigns.md) - Suivre et gérer l’exécution des campagnes orchestrées
 
 **Framework d’alerte :**
 
-* [Présentation des alertes Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"} - Présentation du cadre des alertes
+* [Présentation des alertes ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"} - Présentation du cadre des alertes
 * [Gérer les alertes dans l’interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr){target="_blank"} - Afficher, s’abonner et gérer les alertes
 * [Abonnement aux alertes par le biais d’événements I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"} - Options d’intégration avancées
-* [Règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=fr){target="_blank"} - Liste complète des alertes Platform disponibles
+* [Règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Liste complète des alertes Platform disponibles
