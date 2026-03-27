@@ -8,7 +8,7 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
+source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 12%
@@ -43,7 +43,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB E-mail]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -63,7 +63,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB SMS]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -71,7 +71,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB Notification push]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -93,7 +93,7 @@ Le code de la politique de décision est ajouté. Vous pouvez désormais utilise
 
 Une fois que vous avez ajouté le code d’une politique de décision dans votre contenu, tous les attributs des éléments de décision renvoyés peuvent être personnalisés. [Découvrez comment utiliser la personnalisation](../personalization/personalize.md).
 
-Les attributs sont stockés dans le schéma de catalogue [&#x200B; Offres &#x200B;](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
+Les attributs sont stockés dans le schéma de catalogue [ Offres ](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
 * **Attributs personnalisés** : dossier `_\<imsOrg\>`
 * **Attributs standard** : dossier `_experience`
 
