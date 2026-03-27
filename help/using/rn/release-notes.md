@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 727a300a539618b61373941ad83147818cce714a
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1655'
 ht-degree: 22%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Nouveautés"
->abstract="**&#x200B;** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
+>abstract="**** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
 
 [!DNL Adobe Journey Optimizer] suit un modèle de diffusion continu, ce qui permet à Adobe de fournir en continu de nouvelles fonctionnalités, de nouvelles améliorations et de nouveaux correctifs. Cette approche permet un déploiement évolutif et échelonné des fonctionnalités afin d’assurer les performances et la stabilité dans tous les environnements.
 
@@ -34,7 +34,7 @@ Les sections [Nouvelles fonctionnalités](#march-26-features) et [Améliorations
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Date de publication** : 24-25 mars 2026
 
@@ -181,7 +181,7 @@ Les parcours existants qui utilisent les activités de canal héritées continue
 <td>
 <p>Optimisé par <strong></strong> <strong>Journey Agent</strong> est disponible dans Journey Optimizer et vous permet d’analyser les parcours par le biais d’une interface en langage naturel. Vous pouvez désormais également générer et gérer du contenu spécifique à un canal directement dans Journey Agent, ce qui permet de créer du contenu pour des canaux tels que les e-mails et les notifications push, d’appliquer et de prévisualiser des modèles, d’affiner le ton et le style par le biais d’invites et d’ouvrir le contenu dans <strong>Content Designer</strong> pour une modification contextuelle.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : jeudi 4 mars 2026</p>
 </td>
 </tr>
@@ -207,6 +207,23 @@ Les parcours existants qui utilisent les activités de canal héritées continue
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Catégorie transactionnelle dans les campagnes orchestrées</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dans les campagnes orchestrées, vous pouvez désormais définir une activité de canal dans la catégorie <strong>Transactionnel</strong>. Cela applique des configurations de canal transactionnel à cette activité. Cette fonctionnalité est utile lorsque les règles métier ne doivent pas s’appliquer ou lorsque l’accord préalable des clients n’est pas requis.</p>
+<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
+<p>Pour plus d’informations, consultez la <a href="../orchestrated/activities/channels.md#add">documentation détaillée</a>.</p>
+<p>Cette fonctionnalité sera progressivement déployée dans toutes les régions au cours des prochains jours.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Améliorations {#march-26-improv}
 
@@ -281,23 +298,6 @@ Les fonctionnalités et améliorations ci-dessous devraient être publiées plus
 <p>Vous pouvez désormais convertir des images en modèles de contenu d’e-mail directement dans Journey Optimizer. Utilisez l’analyse optimisée par l’IA pour générer automatiquement des modèles HTML structurés à partir de références visuelles, ce qui réduit considérablement le temps de conception des e-mails.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale). <a href="../content-management/image-to-html.md">En savoir plus</a></p>
 <p>Date de disponibilité : mardi 30 mars 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Catégorie transactionnelle dans les campagnes orchestrées</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Dans les campagnes orchestrées, vous pouvez désormais définir une activité de canal dans la catégorie <strong>Transactionnel</strong>. Cela applique des configurations de canal transactionnel à cette activité. Cette fonctionnalité est utile lorsque les règles métier ne doivent pas s’appliquer ou lorsque l’accord préalable des clients n’est pas requis.</p>
-<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>Date de disponibilité : mercredi 31 mars 2026</p>
 </td>
 </tr>
 </tbody>

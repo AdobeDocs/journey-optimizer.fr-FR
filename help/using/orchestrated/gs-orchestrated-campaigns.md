@@ -6,10 +6,10 @@ description: Découvrez comment commencer avec les campagnes orchestrées
 short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Orchestration de campagne</b><br/>Fractionner, combiner, enrichir et manipuler des jeux de données relationnelles pour définir votre audience<br/><br/> <b>Tirer parti des données multi-entités</b><br/>Découvrir comment les campagnes orchestrées peuvent tirer parti des jeux de données relationnelles pour enrichir les données pour la segmentation et la personnalisation.<br/><br/><b>Segmentation ad hoc et nombres exacts</b><br/>Créer votre segment étape par étape avec des nombres exacts<br/><br/><b>Canaux disponibles</b><br/>E-mail, SMS, Notifications push, Courrier"
 
-L’orchestration de campagne dans [!DNL Adobe Journey Optimizer] alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui permet de renforcer l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
+L’orchestration des campagnes dans [!DNL Adobe Journey Optimizer] alimente des campagnes sophistiquées lancées par la marque sur plusieurs canaux, à la fois **marketing** et **transactionnels**. Les campagnes marketing vous aident à stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle. Les messages transactionnels ne nécessitent pas d’accord préalable et sont adaptés aux communications sensibles au temps telles que les perturbations, les urgences ou les annulations.
 
 >[!IMPORTANT]
 >

@@ -5,10 +5,10 @@ title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 6c318f0a11a59a80721f14d830be10ba4f29318f
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 66%
+source-wordcount: '1554'
+ht-degree: 65%
 
 ---
 
@@ -55,7 +55,7 @@ UNUSED IDs in BJ
 >title="Activité Courrier"
 >abstract="L’activité Courrier facilite l’envoi de courrier depuis votre campagne orchestrée pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
-[!DNL Adobe Journey Optimizer] vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux (e-mail, SMS, notifications push et courrier). Vous pouvez combiner ces activités de canal dans la zone de travail de campagne afin de créer des campagnes orchestrées cross-canal. Ces campagnes peuvent déclencher des actions en fonction du comportement et des données des clients.
+[!DNL Adobe Journey Optimizer] vous permet d’automatiser et d’exécuter des campagnes sur plusieurs canaux (e-mail, SMS, notifications push et courrier) pour les messages marketing et transactionnels. Vous pouvez combiner ces activités de canal dans la zone de travail de campagne afin de créer des campagnes orchestrées cross-canal. Ces campagnes peuvent déclencher des actions en fonction du comportement et des données des clients.
 
 Par exemple :
 
@@ -83,6 +83,8 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 1. Ajoutez une activité de canal dans la zone de travail. Les activités de canal disponibles sont **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push]** et **[!UICONTROL Publipostage direct]**.
 
    ![image montrant la zone de travail avec les activités disponibles](../assets/channel-add.png)
+
+1. Dans le rail de droite, utilisez le champ **[!UICONTROL Catégorie]** pour choisir **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]** pour ce message. Les messages transactionnels ne nécessitent pas d’accord préalable et sont adaptés aux communications sensibles au temps telles que les perturbations, les urgences ou les annulations.
 
 1. Sélectionnez l’activité et cliquez sur **[!UICONTROL Modifier l’e-mail]**, **[!UICONTROL Modifier le SMS]**, **[!UICONTROL Modifier la notification push]** ou **[!UICONTROL Modifier le publipostage direct]** selon le canal choisi.
 
@@ -126,7 +128,7 @@ Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction 
 
 Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grandes quantités dans le cadre de campagnes. La diffusion rapide est utilisée lorsque le retard de diffusion des messages est critique pour l&#39;entreprise. Par exemple, vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, telle que des nouvelles importantes aux utilisateurs qui ont installé votre application de canal d&#39;actualités. Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../../push/create-push.md#rapid-delivery).
 
-Pour plus d&#39;informations sur les performances en mode de diffusion rapide, consultez la description du produit [&#128279;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Pour plus d&#39;informations sur les performances en mode de diffusion rapide, consultez la description du produit [](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
