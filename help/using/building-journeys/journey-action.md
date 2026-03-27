@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 86%
+source-wordcount: '1514'
+ht-degree: 81%
 
 ---
 
@@ -24,7 +24,9 @@ ht-degree: 86%
 >title="Activité Action"
 >abstract="L’activité **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en ajoutant une optimisation à toute action de canal intégrée."
 
-L’activité **Action** est le point d’entrée unique pour toutes les actions de canal dans la zone de travail de parcours. Il remplace les activités de canal intégrées individuelles précédentes et consolide les activités E-mail, Push, SMS, In-app, Web, Expérience basée sur le code et Carte de contenu en un type d’activité unifié.
+L’activité **Action** est le point d’entrée unique pour toutes les actions de canal dans la zone de travail de parcours.
+
+Il remplace les activités de canal intégrées individuelles précédentes et consolide les activités E-mail, Push, SMS, In-app, Web, Expérience basée sur le code et Carte de contenu en un type d’activité unifié.
 
 Utilisez-le pour :
 
@@ -32,11 +34,21 @@ Utilisez-le pour :
 * Créez des groupes d’actions entrants multiactions.
 * Appliquez l’optimisation à n’importe quelle action de canal.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Les activités de canal natives héritées (e-mail, notification push, SMS, in-app, web, expérience basée sur le code et carte de contenu) sont obsolètes depuis la version de mars 2026. Les parcours existants qui utilisent ces activités continuent à fonctionner sans modification ; aucune migration n’est requise.
+>Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [En savoir plus](#recommendation)
 
-Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [En savoir plus](#recommendation)
+## À propos des activités des canaux hérités
+
+Les activités de canal natives héritées (e-mail, notification push, SMS, in-app, web, expérience basée sur le code et carte de contenu) sont **obsolètes depuis la version de mars 2026**.
+
+Les parcours existants qui utilisent ces activités continuent à fonctionner sans modification ; aucune migration n’est requise.
+
+Les activités de canal natives héritées sont également conservées dans les cas suivants :
+
+* **Dupliquer un parcours** — Le parcours dupliqué continue à utiliser les activités héritées. Vous pouvez le modifier et le publier en l’état ; aucune migration n’est requise.
+* **Créer une version de parcours** — La nouvelle version continue d&#39;utiliser les activités héritées. Vous pouvez le modifier et le publier en l’état ; aucune migration n’est requise.
+* **Copier et coller des activités héritées dans un parcours** — Les activités collées restent des activités héritées. Vous pouvez les modifier et les publier en l’état ; aucune migration n’est requise.
 
 ## Ajouter une action de canal intégrée à un parcours  {#add-action}
 

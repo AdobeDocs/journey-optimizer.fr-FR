@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1925'
-ht-degree: 98%
+source-wordcount: '1931'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,7 @@ Vous pouvez effectuer l’une des actions suivantes :
 
 * Déléguer entièrement un sous-domaine : [en savoir plus](#set-up-subdomain)
 * Créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à Adobe : [en savoir plus](#set-up-subdomain)
+* Déléguer un sous-domaine personnalisé - [Découvrez comment](delegate-custom-subdomain.md)
 
 La **délégation complète de sous-domaine** est la méthode recommandée. Pour en savoir plus sur les différences entre les diverses méthodes de configuration de sous-domaine, consultez [cette section](about-subdomain-delegation.md#subdomain-delegation-methods).
 
@@ -126,7 +127,7 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
-    >[ !REMARQUE]
+    >[!REMARQUE]
     >
     >Après avoir créé un nouveau sous-domaine chez votre fournisseur DNS, attendez 24 à 48 heures pour la propagation DNS avant de déléguer à Adobe.
 
@@ -277,4 +278,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
