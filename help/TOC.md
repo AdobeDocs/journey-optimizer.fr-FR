@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
+source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
 workflow-type: tm+mt
-source-wordcount: '3142'
+source-wordcount: '3147'
 ht-degree: 96%
 
 ---
@@ -92,7 +92,6 @@ ht-degree: 96%
       + [Attente](using/building-journeys/wait-activity.md)
       + [Décision de contenu](using/building-journeys/content-decision.md)
       + [Recherche de jeu de données](using/building-journeys/dataset-lookup.md)
-      + [Actions de canal intégrées](using/building-journeys/journeys-message.md)
       + [Action](using/building-journeys/journey-action.md)
       + [Saut](using/building-journeys/jump.md)
       + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
@@ -214,6 +213,8 @@ ht-degree: 96%
          + [Envoyer des mises à jour d’éléments de liste de souhaits](using/orchestrated/wishlist-uc.md)
          + [Interagir avec les clientes et clients en fonction de leur activité de navigation](using/orchestrated/engage-customers-uc.md)
          + [Informer les utilisateurs et les utilisatrices de la disponibilité d’un produit](using/orchestrated/product-availability-uc.md)
+      + Opérations avancées {#orchestrated-advanced}
+         + [Déclencher des campagnes orchestrées à l’aide d’un signal](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflit et hiérarchisation {#conflict-prioritization}
    + [Gestion des conflits et hiérarchisation](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifier les conflits potentiels](using/conflict-prioritization/conflicts.md)
@@ -954,7 +955,7 @@ ht-degree: 96%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
