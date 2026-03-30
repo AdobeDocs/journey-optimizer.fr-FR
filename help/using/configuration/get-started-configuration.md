@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >title="Contrôles de débit pour les canaux"
 >abstract="Contrôles de débit pour les canaux"
 
-Lors de l&#39;accès à [!DNL Journey Optimizer] pour la première fois, vous recevez un sandbox de production et un certain nombre d’adresses IP vous sont attribuées en fonction de votre contrat.
+Lors du premier accès à [!DNL Journey Optimizer], vous recevez un sandbox de production et un certain nombre d’adresses IP vous sont attribuées en fonction de votre contrat.
 
 Pour envoyer des messages, vous devez suivre les étapes de configuration suivantes :
 
@@ -35,7 +35,7 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
     <div align="center"><a href="../email/get-started-email-config.md"><strong>E-mail</strong></a></div></td>
     <td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
     <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
-    <td><a href="../push/push-configuration.md"><img alt="Notification push" src="../channels/assets/do-not-localize/push.png"></a>
+    <td><a href="../push/push-configuration.md"><img alt="notification push" src="../channels/assets/do-not-localize/push.png"></a>
     <div align="center"><a href="../push/push-configuration.md"><strong>Notification push</strong></a></div></td>
     <td><a href="../direct-mail/direct-mail-configuration.md"><img alt="Courrier" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
     <div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>Courrier</strong></a></div></td>
@@ -51,6 +51,8 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
     <td><a href="../content-card/content-card-configuration-prereq.md"><img alt="Cartes de contenu" src="../channels/assets/do-not-localize/cards.png"></a>
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Cartes de contenu</strong></a></div></td>
     </tr></table>
+
+   Pour les canaux supplémentaires, reportez-vous aux sections : [iOS Live Activity](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) et [LINE](../line/line-configuration.md).
 
    >[!NOTE]
    >
@@ -81,4 +83,7 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
 * **[Préchauffer les adresses IP](ip-warmup-gs.md)** : découvrez les bonnes pratiques de préchauffage des adresses IP pour améliorer la délivrabilité des e-mails et la réputation des expéditeurs et expéditrices.
 * **[Gérer la liste de suppression](manage-suppression-list.md)** : découvrez comment gérer les listes de suppression pour gérer les rebonds et maintenir l’hygiène des listes.
 * **[Configurer des applications mobiles](set-mobile-config.md)** : définissez les configurations d’applications mobiles pour les notifications push et la messagerie in-app.
+* **[Configurer l’activité dynamique iOS](../mobile-live/mobile-live-configuration.md)** - Configurez votre environnement pour envoyer les activités dynamiques à l’écran de verrouillage iPhone et à l’île dynamique.
+* **[Configurer WhatsApp](../whatsapp/whatsapp-configuration.md)** - Configurez la messagerie WhatsApp via l’API Cloud Meta pour les campagnes et les parcours.
+* **[Configurer LINE](../line/line-configuration.md)** - Configurez la messagerie LINE pour les campagnes et les parcours.
 * **[Tutoriels de configuration](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur la configuration des canaux et les bonnes pratiques.
