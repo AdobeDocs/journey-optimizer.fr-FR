@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 874bbd1d7235c8043e824290d748677fe30f43a9
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 98%
+source-wordcount: '1496'
+ht-degree: 94%
 
 ---
 
@@ -124,7 +124,7 @@ Lors de l’ajout du fragment à leur contenu d’e-mail, les utilisateurs et ut
 
 * Pour les composants HTML, la variable s’affiche dans la liste des champs modifiables du concepteur d’e-mail. [Découvrir comment personnaliser des champs modifiables dans un fragment visuel](../email/use-visual-fragments.md#customize-fields)
 
-### Exemple de fragment d’expression modifiable{#example}
+### Exemple : fragment d’expression personnalisable {#example}
 
 Dans l’exemple ci-dessous, nous allons créer un fragment d’expression présentant de nouvelles collections sportives. Par défaut, le fragment affiche le contenu suivant : *Vous en voulez plus ? Ne manquez pas notre dernière collection sports !*
 
@@ -146,9 +146,9 @@ Pour ce faire, procédez comme suit :
 
 ## Ajouter du texte enrichi à un fragment personnalisable {#rich-text}
 
-Le texte enrichi, tel que les sauts de ligne, l’attribut gras, italique, etc., peut être ajouté à un fragment modifiable à l’aide de composants HTML. Pour ce faire, procédez comme suit.
+Le texte enrichi tel que les sauts de ligne, le gras, l’italique, etc. peut être ajouté à un fragment personnalisable à l’aide des composants HTML. Pour ce faire, procédez comme suit.
 <!--
-➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
+➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)-->
 
 ### Créer un fragment contenant du texte enrichi {#add-rich-text}
 
@@ -176,9 +176,9 @@ Le texte enrichi, tel que les sauts de ligne, l’attribut gras, italique, etc.,
 
 1. Enregistrez et [publiez](create-fragments.md#publish) le fragment.
 
-### Utiliser des fragments modifiables avec du texte enrichi {#use-rich-text}
+### Utiliser du texte enrichi dans des fragments personnalisables {#use-rich-text}
 
-Lorsqu’ils ajoutent le fragment au contenu de leur e-mail, les utilisateurs et les utilisatrices peuvent désormais modifier le contenu enrichi et le style que vous avez créés. Pour utiliser des fragments modifiables avec du texte enrichi en tant que spécialiste marketing, procédez comme suit.
+Lors de l’ajout du fragment à votre e-mail, vous pouvez désormais modifier le contenu et le style de texte enrichi que vous avez créés. En tant que spécialiste marketing, procédez comme suit.
 
 1. [Créez un e-mail](../email/create-email.md) dans une campagne ou un parcours, puis ajoutez le fragment avec le texte enrichi qui a été [créé](#add-rich-text).
 
@@ -199,5 +199,5 @@ Lorsqu’ils ajoutent le fragment au contenu de leur e-mail, les utilisateurs et
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464370/?captions=fre_fr&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
