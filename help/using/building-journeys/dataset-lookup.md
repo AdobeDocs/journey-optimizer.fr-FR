@@ -8,11 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
+badge: label="Disponibilité limitée" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 73%
+source-wordcount: '906'
+ht-degree: 74%
 
 ---
 
@@ -24,6 +25,10 @@ ht-degree: 73%
 >abstract="L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun."
 
 L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous pouvez accéder à des données qui peuvent ne pas figurer dans la payload de profil ou d’événement, ce qui garantit des interactions clients pertinentes et au moment opportun.
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clients et clientes.
 
 Avantages clés :
 
@@ -61,7 +66,7 @@ Pour configurer l’activité **[!UICONTROL Recherche de jeu de données]**, pro
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Recherche de jeu de données]** dans votre zone de travail.
 
-   ![[!DNL Adobe Experience Platform] activité de recherche de jeu de données dans le parcours &#x200B;](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] activité de recherche de jeu de données dans le parcours ](assets/aep-data-activity.png)
 
 1. Ajoutez un libellé et une description.
 
@@ -193,7 +198,7 @@ Les données récupérées par l’activité **[!UICONTROL Recherche de jeu de d
 
 +++
 
-## Résolution des problèmes {#troubleshooting}
+## Dépannage {#troubleshooting}
 
 ### Erreur « Recherche de jeu de données introuvable » dans l’activité de condition {#troubleshooting-not-found}
 
