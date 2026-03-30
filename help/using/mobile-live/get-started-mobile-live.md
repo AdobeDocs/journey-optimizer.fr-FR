@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
+source-git-commit: df4183e15b2907bfb669e7e2e8eb88771627dcf4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 21%
@@ -26,7 +26,7 @@ Les activités en direct sont des éléments d’interface utilisateur persistan
 Contrairement aux notifications push traditionnelles, les activités en direct représentent l’engagement basé sur l’état **state-based engagement** : au lieu de diffuser des alertes ponctuelles, elles conservent une présence contextuelle continue, qui se met à jour dynamiquement au fur et à mesure de l’évolution des événements.
 
 
-![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+![](assets/do-not-localize/live-activity.jpeg){width="30%" align="left"}
 
 Avec Adobe Journey Optimizer, vous pouvez **démarrer**, **mettre à jour** et **terminer** des activités en direct à distance et par programmation, par le biais de campagnes déclenchées par API. Cela permet de prendre en charge des cas d’utilisation individuels et basés sur une audience à grande échelle.
 
@@ -78,4 +78,4 @@ Suivez les étapes ci-dessous pour configurer et implémenter l’activité dyna
 
 Découvrez comment configurer les activités iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479866/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
