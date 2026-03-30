@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
+source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
 workflow-type: tm+mt
 source-wordcount: '3147'
 ht-degree: 96%
@@ -403,10 +403,10 @@ ht-degree: 96%
       + [Configurer le canal LINE dans Journey Optimizer](using/line/line-configuration.md)
       + [Créer un message LINE](using/line/create-line.md)
       + [Vérifier et envoyer des messages LINE](using/line/send-line.md)
-   + Activité en direct {#live-activity}
+   + Activités en direct {#live-activity}
       + [Commencer avec les activités en direct](using/mobile-live/get-started-mobile-live.md)
       + [Créer une activité en direct](using/mobile-live/create-mobile-live.md)
-      + [Résolution des problèmes liés à l’activité en direct](using/mobile-live/troubleshoot-mobile-live.md)
+      + [Résolution des problèmes liés aux activités en direct](using/mobile-live/troubleshoot-mobile-live.md)
       + [Questions fréquentes](using/mobile-live/mobile-live-faq.md)
       + Configuration du canal d’activité dynamique {#configure}
          + [Configurer une activité en direct dans Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
@@ -955,7 +955,7 @@ ht-degree: 96%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
