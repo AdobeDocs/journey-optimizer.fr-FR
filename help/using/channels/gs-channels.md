@@ -87,7 +87,7 @@ Découvrez comment intégrer et utiliser la messagerie WhatsApp via l’API Clou
 :::
 
 :::
-![icon]()
+![icon] ()
 
 Messagerie LINE
 
