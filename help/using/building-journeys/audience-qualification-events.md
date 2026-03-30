@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
+source-git-commit: 44a635c07989c075dc36d8698c19e33644c3b687
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 72%
+source-wordcount: '1758'
+ht-degree: 61%
 
 ---
 
@@ -118,13 +118,17 @@ Voir la [[!DNL Adobe Experience Platform] documentation sur la segmentation en f
 
 >[!NOTE]
 >
->Pour la segmentation en flux continu, les données nouvellement ingérées peuvent prendre jusqu’à **2 heures** pour se propager entièrement en [!DNL Adobe Experience Platform] pour une utilisation en temps réel. Les audiences qui reposent sur des conditions basées sur un jour ou sur l’heure (par exemple, « événements survenus aujourd’hui ») peuvent présenter une complexité supplémentaire dans le timing de la qualification. Si votre parcours dépend de la qualification immédiate de l’audience, pensez à ajouter une courte [activité d’attente](wait-activity.md) au début. Vous pouvez également prévoir un temps de mémoire tampon pour garantir une qualification précise.
+>Le délai de propagation de l’appartenance à un segment de diffusion en continu dépend de la manière dont l’appartenance est évaluée et de son utilisation dans le parcours :
+>
+>* **Nœud de qualification de l’audience + segment de diffusion en continu :** lorsqu’un profil est qualifié pour un segment de diffusion en continu dans Edge, cette appartenance est projetée d’Edge vers Hub avant que le parcours puisse agir dessus. Cette propagation d’Edge vers le hub prend généralement **15 à 30 minutes** (selon le SLT de l’onduleur). Le temps de traitement supplémentaire du parcours est généralement inférieur à 5 minutes, sauf si le système est soumis à une charge importante. Si les profils ne rejoignent pas le parcours de qualification d’audience comme prévu, attendez-vous à ce que cette fenêtre de propagation s’affiche avant d’approfondir l’enquête. Pour les cas d’utilisation nécessitant une entrée en temps réel réelle, envisagez plutôt un déclencheur d’événement unitaire .
+>* **`inAudience()`dans un nœud de condition : avant une activité Attente (ou dans un parcours Lecture d’audience) :** lorsque l’appartenance à un segment est évaluée dans une expression de condition dans ce contexte, AJO lit à partir de la projection par lots du profil. L’actualisation des données dans cette projection entraîne une TSL allant jusqu’à **2 heures** après l’ingestion. Les audiences qui reposent sur des conditions basées sur la journée ou sur l’heure peuvent subir un retard supplémentaire. Ajoutez une courte [activité d’attente](wait-activity.md) au début du parcours ou patientez le temps pour vous assurer que la dernière appartenance au segment est prise en compte.
+>* **`inAudience()`dans un nœud de condition : après une activité Attente (ou dans un parcours d’événement unitaire) :** dans ce cas, l’appartenance à un segment est lue à partir de la projection en flux continu (unitaire). Pour connaître la latence attendue, consultez la documentation sur l’ingestion par flux de [](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Ce chemin d’accès est généralement plus réactif aux modifications de profil récentes.
 
 #### Pourquoi tous les profils qualifiés ne peuvent-ils pas rejoindre le parcours ? {#streaming-entry-caveats}
 
 Lors de l’utilisation d’audiences en streaming avec l’activité **Qualification d’audience**, tous les profils qui remplissent les critères de l’audience ne rejoindront pas nécessairement le parcours. Ce comportement peut se produire pour les raisons suivantes :
 
-* **Profils déjà dans l’audience** : seuls les profils nouvellement qualifiés pour l’audience après la publication du parcours déclencheront l’entrée. Les profils déjà présents dans l’audience avant la publication ne pourront pas y entrer.
+* **Profils déjà dans l’audience** : seuls les profils nouvellement qualifiés pour l’audience après la publication du parcours déclencheront l’entrée. Les profils déjà présents dans l’audience avant la publication n’y accéderont pas. De même, lorsqu’un segment en flux continu utilise une **condition basée sur l’heure** (par exemple, « événement dans les 8 heures suivantes »), les profils qui remplissaient déjà cette condition avant la création du segment ne sont **évalués rétroactivement** ; seuls les profils dont les données changent après l’activation du segment sont évalués par rapport à la condition.
 
 * **Temps d’activation de parcours** : lorsque vous publiez un parcours, l’activité **Qualification d’audience** prend jusqu’à **10 minutes** pour devenir active et commencer à écouter les entrées et les sorties de profil. [En savoir plus sur l’activation des parcours](#configure-segment-qualification).
 
@@ -194,4 +198,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
