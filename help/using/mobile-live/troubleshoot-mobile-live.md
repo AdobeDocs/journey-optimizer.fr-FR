@@ -5,13 +5,13 @@ title: Résolution des problèmes liés aux activités en direct
 description: Découvrez comment résoudre les problèmes liés aux activités en direct dans Journey Optimizer pour les cas d’utilisation unitaires et de diffusion, y compris les problèmes de jeton de profil, la configuration de la campagne et les échecs de diffusion
 role: User
 level: Intermediate
-source-git-commit: b71dbb0e4987cfc879a7b153d5c1453d6c220bf9
+exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '4503'
 ht-degree: 1%
 
 ---
-
 
 # Résolution des problèmes liés aux activités en direct {#troubleshoot-mobile-live}
 
@@ -22,16 +22,16 @@ Les activités en direct dans Adobe Journey Optimizer permettent des mises à jo
 * **Unitaire** : ciblé individuellement, transactionnel (campagnes transactionnelles déclenchées par API)
 * **Diffusion** : diffusion en masse ciblée par l’audience (campagnes marketing déclenchées par API)
 
-Un problème fréquent avec les activités en direct survient lorsque l’appel API pour déclencher ou mettre à jour une activité en direct renvoie une **réponse réussie (200 OK)**, mais que l’activité en direct ne parvient pas à s’afficher ou à se mettre à jour sur l’appareil de l’utilisateur. Cette déconnexion entre la confirmation de l’API et le comportement réel de l’appareil peut se produire à plusieurs points du pipeline de diffusion. Ce guide fournit une approche de dépannage systématique pour identifier où la diffusion échoue, en examinant chaque étape, de la validation de la requête API au rendu de l’appareil.
+Un problème fréquent avec les activités dynamiques survient lorsque l’appel API pour déclencher ou mettre à jour une activité dynamique renvoie une **réponse réussie (200 OK)**, mais que l’activité dynamique ne parvient pas à s’afficher ou à se mettre à jour sur l’appareil de l’utilisateur. Cette déconnexion entre la confirmation de l’API et le comportement réel de l’appareil peut se produire à plusieurs points du pipeline de diffusion. Ce guide fournit une approche de dépannage systématique pour identifier où la diffusion échoue, en examinant chaque étape, de la validation de la requête API au rendu de l’appareil.
 
 ## Conditions préalables
 
 Avant de procéder au dépannage, vérifiez les points suivants :
 
-* &#x200B;
+* 
   +++ Configuration d’une session Assurance
 
-  Configurez une **session Assurance** pour capturer des événements SDK et inspecter le pipeline de diffusion. Assurance offre une visibilité sur les éléments suivants :
+  Configurez une **session** pour capturer des événements SDK et inspecter le pipeline de diffusion. Assurance offre une visibilité sur les éléments suivants :
 
    * Requêtes et réponses d’Edge Network
    * Événements de qualification de profil
@@ -40,11 +40,11 @@ Avant de procéder au dépannage, vérifiez les points suivants :
 
   Découvrez comment configurer Assurance dans la [documentation d’Adobe Experience Platform Assurance](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
-  **Remarque** : pour iOS Live Activity, assurez-vous que votre application s’exécute sur un appareil iOS physique (iOS 16.1 ou version ultérieure) ou sur un simulateur Xcode (iOS 16.1 ou version ultérieure).
+  **Remarque** : pour l’activité iOS Live, assurez-vous que votre application s’exécute sur un appareil iOS physique (iOS 16.1 ou version ultérieure) ou sur un simulateur Xcode (iOS 16.1 ou version ultérieure).
 
   +++
 
-* &#x200B;
+* 
   +++ Collecter les détails de la campagne déclenchée par l’API
 
   Accédez à votre campagne déclenchée par l’API dans Journey Optimizer et récupérez les éléments suivants :
@@ -52,14 +52,14 @@ Avant de procéder au dépannage, vérifiez les points suivants :
    * Nom de la campagne
    * Identifiant de campagne trouvé dans l’URL ou les propriétés de la campagne
    * Version de la campagne, le cas échéant
-   * Configuration de la surface, surface de l’application iOS utilisée pour l’activité en direct
+   * Configuration de la surface, surface de l’application iOS utilisée pour l’activité Live
 
   +++
 
-* &#x200B;
+* 
   +++ Collecter des informations sur les requêtes API
 
-  Lors de l’appel API pour déclencher l’activité dynamique, enregistrez :
+  Lors de l’appel API pour déclencher l’activité Live , enregistrez :
 
    * Payload de requête API, y compris les identifiants de profil et les données d’activité en direct
    * Réponse de l’API comprenant le code d’état, l’identifiant de message et l’identifiant de requête
@@ -68,7 +68,7 @@ Avant de procéder au dépannage, vérifiez les points suivants :
 
   +++
 
-* &#x200B;
+* 
   +++ Identification du profil de test
 
   À partir de votre requête API, récupérez les éléments suivants :
@@ -80,7 +80,7 @@ Avant de procéder au dépannage, vérifiez les points suivants :
 
   +++
 
-* &#x200B;
+* 
   +++ Informations sur l’appareil et l’application
 
   Collectez les éléments suivants à partir de votre appareil de test :
@@ -99,13 +99,13 @@ Avant de procéder au dépannage, vérifiez les points suivants :
 
 [!BADGE S’applique aux cas d’utilisation unitaires et de diffusion]{type=Positive}
 
-L’API renvoie un HTTP 200, mais l’activité active n’apparaît pas. Causes fréquentes :
+L’API renvoie un HTTP 200, mais l’activité Live n’apparaît pas. Causes fréquentes :
 
 * Le profil n’existe pas dans Adobe Experience Platform.
-* Le jeton push de l’activité dynamique n’a pas été synchronisé avec le profil.
+* Le jeton push d’activité dynamique n’a pas été synchronisé avec le profil.
 * Les détails des notifications push d’activité en direct sont synchronisés, mais contiennent une configuration incorrecte, par exemple un `appId` ou une `attributeType` incorrect.
 
-**Remarque pour les cas d’utilisation de diffusion** : si certains profils de votre audience n’ont pas de jetons, seuls ces profils ne recevront pas l’activité active. Échantillonnez plusieurs profils de votre audience pour diagnostiquer les problèmes de jeton. Cela s’applique uniquement aux événements de début distants, et non aux événements de mise à jour ou de fin.
+**Remarque pour les cas d’utilisation de diffusion** : si certains profils de votre audience n’ont pas de jetons, seuls ces profils ne recevront pas l’activité Live. Échantillonnez plusieurs profils de votre audience pour diagnostiquer les problèmes de jeton. Cela s’applique uniquement aux événements de début distants, et non aux événements de mise à jour ou de fin.
 
 #### Contrôles préalables
 
@@ -119,7 +119,7 @@ L’API renvoie un HTTP 200, mais l’activité active n’apparaît pas. Causes
 
 #### Étapes de débogage
 
-1. &#x200B;
+1. 
    +++ Vérifier que le profil existe dans Adobe Experience Platform
 
    1. Dans Journey Optimizer, accédez à **Client** `>` **Profils**.
@@ -129,7 +129,7 @@ L’API renvoie un HTTP 200, mais l’activité active n’apparaît pas. Causes
 
       +++
 
-1. &#x200B;
+1. 
    +++ Vérifier si le jeton push d’activité dynamique est synchronisé
 
    Vous pouvez utiliser Assurance pour vérifier l’enregistrement des jetons :
@@ -149,7 +149,7 @@ L’API renvoie un HTTP 200, mais l’activité active n’apparaît pas. Causes
 
    +++
 
-1. &#x200B;
+1. 
    +++ Valider les détails du jeton sur le profil
 
    1. À partir de votre **Profil**, accédez à l’onglet **Attributs**.
@@ -191,7 +191,7 @@ L’API renvoie un HTTP 200, mais l’activité active n’apparaît pas. Causes
 
 [!BADGE S’applique aux cas d’utilisation unitaires et de diffusion]{type=Positive}
 
-Le profil existe avec des jetons valides, mais l’activité active n’apparaît pas. Cela peut être dû aux éléments suivants :
+Le profil existe avec des jetons valides, mais l’activité Live n’apparaît pas. Cela peut être dû aux éléments suivants :
 
 * Mauvaise configuration de surface ou de canal.
 * Structure de la payload de l’API incorrecte.
@@ -202,12 +202,12 @@ Le profil existe avec des jetons valides, mais l’activité active n’apparaî
 
 #### Contrôles préalables
 
-* Campaign est une option **Transactionnel déclenché par API** (unitaire) ou **Marketing déclenché par API** (diffusion). L’option **Débit élevé** doit être **non** activée, car elle est incompatible avec l’activité en direct.
+* Campaign est une option **Transactionnel déclenché par API** (unitaire) ou **Marketing déclenché par API** (diffusion). L’option **Débit élevé** doit être **non** activée, car elle est incompatible avec l’activité Live.
 * Vérifiez que le profil existe et que les jetons sont correctement synchronisés à l’aide du [scénario ci-dessus](#profile-issue).
 
 #### Étapes de débogage
 
-1. &#x200B;
+1. 
    +++ Vérifier la configuration de la surface de campagne
 
    1. Dans Journey Optimizer, ouvrez votre **Campagne** et accédez au menu **Actions**.
@@ -216,7 +216,7 @@ Le profil existe avec des jetons valides, mais l’activité active n’apparaî
 
       +++
 
-1. &#x200B;
+1. 
    +++Validation de la structure de la payload de l’API
 
    Lors de l’exécution de la campagne par le biais de l’API, assurez-vous que la payload suit la structure correcte.
@@ -274,13 +274,13 @@ Le profil existe avec des jetons valides, mais l’activité active n’apparaî
 
    * Champ facultatif contenant l&#39;heure Unix epoch (secondes).
    * **Uniquement pertinent en cas de`event: "end"`**.
-   * Indique à quel moment l’activité dynamique doit être automatiquement supprimée de l’appareil.
-   * Si elle n’est pas fournie lors de l’événement de fin, l’activité dynamique reste visible jusqu’à ce que l’utilisateur la ferme.
+   * Indique à quel moment l’activité Live doit être automatiquement supprimée de l’appareil.
+   * Si elle n’est pas fournie lors de l’événement de fin, l’activité Live reste visible jusqu’à ce que l’utilisateur la ferme.
    * Doit être un horodatage ultérieur (postérieur à `timestamp`).
 
      +++
 
-1. &#x200B;
+1. 
    +++ Alignement de la payload sur l’implémentation d’iOS
 
    Assurez-vous que la payload de l’API correspond à la mise en œuvre `ActivityAttributes` de l’application iOS. Le protocole `LiveActivityAttributes` d’Adobe SDK étend la `ActivityAttributes` d’iOS et nécessite une propriété `liveActivityData`.
@@ -354,21 +354,21 @@ Le profil existe avec des jetons valides, mais l’activité active n’apparaî
 
    +++
 
-1. &#x200B;
+1. 
    +++ Tester avec Assurance
 
    Vérifiez l’exécution de l’API et la diffusion de la payload à l’aide d’Assurance :
 
    1. Ouvrez votre session Assurance.
-   1. Exécutez l’appel API pour déclencher l’activité dynamique.
+   1. Exécutez l’appel API pour déclencher l’activité Live .
    1. Dans la **Liste des événements**, vérifiez les éléments suivants :
       * Événements d’exécution de campagne.
-      * Événements de diffusion des activités en direct.
+      * Événements de diffusion d’activité en direct.
       * Événements d’erreur de validation de la payload.
    1. Examinez les payloads d’événement pour vérifier les éléments suivants :
       * La payload a été traitée correctement.
       * Aucune erreur de validation ne s’est produite.
-      * Live Activity a été envoyé aux APNs.
+      * L&#39;activité en direct a été envoyée aux APNs.
 
       +++
 
@@ -378,11 +378,11 @@ Le profil existe avec des jetons valides, mais l’activité active n’apparaî
 
 Dans ce scénario, toutes les vérifications précédentes ont réussi :
 
-* Le profil existe avec des [jetons push d’activité actifs valides](#profile-issue)
+* Le profil existe avec des [jetons push d’activité actifs valides](#profile-issue).
 * Campaign est correctement [configuré avec la payload appropriée](#payload-issues)
-* [&#x200B; Les jetons de mise à jour sont synchronisés &#x200B;](#token-not-synced) (pour les événements de mise à jour/de fin, cas d’utilisation unitaire uniquement)
+* [ Les jetons de mise à jour sont synchronisés ](#token-not-synced) (pour les événements de mise à jour/de fin, cas d’utilisation unitaire uniquement)
 
-Mais l’activité active n’apparaît toujours pas, ne se met pas à jour ou ne se termine pas comme prévu. Le problème peut concerner le système de diffusion Adobe ou le fournisseur de services de notification push (APNs).
+Mais l’activité Live ne s’affiche toujours pas, ne se met pas à jour ou ne se termine pas comme prévu. Le problème peut concerner le système de diffusion Adobe ou le fournisseur de services de notification push (APNs).
 
 **Remarque pour les cas d’utilisation de diffusion** : les rapports affichent des mesures pour tous les membres de l’audience. Certains profils peuvent réussir tandis que d’autres échouent.
 
@@ -401,7 +401,7 @@ Mais l’activité active n’apparaît toujours pas, ne se met pas à jour ou n
 
 #### Étapes de débogage
 
-1. &#x200B;
+1. 
    +++ Vérifier les rapports de campagne
 
    1. Accédez à votre **Campagne d’activité dynamique**.
@@ -423,7 +423,7 @@ Mais l’activité active n’apparaît toujours pas, ne se met pas à jour ou n
 
          | Erreur courante | Signification | Résolution |
          |-|-|-|
-         | Jeton non valide | Jeton push non valide ou expiré | Réenregistrer les jetons d’activité dynamique sur l’appareil |
+         | Jeton non valide | Jeton push non valide ou expiré | Réenregistrer les jetons d’activité dynamiques sur l’appareil |
          | Jeton introuvable | Aucun jeton valide associé au profil | Vérifier l`liveActivityPushNotificationDetails`existence |
          | APNs rejetés | Le service de notification push Apple a rejeté la notification push | Vérifier le certificat APNS, l’ID de lot, l’environnement |
          | Timeout réseau | Impossible d&#39;atteindre les APNs | Problème transitoire ; réessayez l’appel API |
@@ -436,18 +436,18 @@ Mais l’activité active n’apparaît toujours pas, ne se met pas à jour ou n
          | Jeton placé sur la liste bloquée | Jeton marqué comme non valide | Réenregistrer le jeton ou vérifier le statut de la liste bloquée |
          | Profil non éligible | Le profil ne répond pas aux critères de la campagne. | Vérifier les règles d’audience de campagne |
 
-   Pour en savoir plus, consultez la page [&#x200B; Rapport de campagne d’activité dynamique &#x200B;](../reports/campaign-global-report-cja-activity.md).
+   Pour en savoir plus, consultez la page [ Rapport de campagne d’activité dynamique ](../reports/campaign-global-report-cja-activity.md).
 
    +++
 
-1. &#x200B;
+1. 
    +++ Vérifier les événements de retour de message dans le profil
 
    1. Accédez à **Client** > **Profils** dans Journey Optimizer.
    1. Recherchez et ouvrez le profil.
    1. Sélectionnez l’onglet **Événements**.
    1. Filtrez ou recherchez des événements avec `eventType = "message.feedback"`.
-   1. Recherchez des événements de retour correspondant au type de `liveActivityID` et de `event` de votre activité en direct.
+   1. Recherchez des événements de retour correspondant au type de `liveActivityID` et de `event` de votre activité Live.
    1. Examinez les champs clés suivants :
 
       | Champ | Valeurs possibles | Signification |
@@ -467,12 +467,12 @@ Mais l’activité active n’apparaît toujours pas, ne se met pas à jour ou n
 
       +++
 
-1. &#x200B;
+1. 
    +++ Vérifier la diffusion de l’activité en direct aux APNs dans Assurance
 
    1. Ouvrez votre session Assurance, elle doit être active pendant l’appel API.
    1. Exécutez l’appel API (début, mise à jour ou fin).
-   1. Dans la **Liste des événements**, recherchez les événements de diffusion Activité en direct .
+   1. Dans la **Liste des événements**, recherchez les événements de diffusion d’activité en direct .
    1. Recherchez des événements liés à la diffusion des notifications push APNS.
    1. Recherchez les indicateurs suivants :
       * **Requête push aux APNs** : confirme qu’Adobe a envoyé la notification push aux serveurs Apple.
@@ -490,10 +490,10 @@ Mais l’activité active n’apparaît toujours pas, ne se met pas à jour ou n
 
       +++
 
-1. &#x200B;
+1. 
    +++ Effectuer des vérifications de diagnostic supplémentaires
 
-   1. Vérifiez les mesures de cycle de vie des activités dynamiques dans le rapport de campagne.
+   1. Vérifiez les mesures de cycle de vie des activités dans le rapport de campagne.
 
       Dans le rapport de campagne, passez en revue la section **Cycle de vie des activités dynamiques** :
 
@@ -506,9 +506,9 @@ Mais l’activité active n’apparaît toujours pas, ne se met pas à jour ou n
 
       Si ces mesures sont égales à zéro ou ne correspondent pas à vos appels API, il existe un problème de diffusion entre Adobe et APNS.
 
-   1. Si Adobe affiche une diffusion réussie mais que l’appareil n’affiche pas l’activité active :
+   1. Si Adobe affiche une diffusion réussie mais que l’appareil n’affiche pas l’activité Live :
 
-      * Recherchez des erreurs d’activité en direct dans les journaux d’appareils iOS.
+      * Recherchez des erreurs d’activité en direct dans les journaux des appareils iOS.
       * Vérifiez que l’application est en premier plan ou en arrière-plan (non terminée).
       * Vérifiez que l’appareil dispose d’une connectivité réseau.
       * Testez plusieurs appareils pour exclure les problèmes spécifiques à l’appareil.
@@ -516,7 +516,7 @@ Mais l’activité active n’apparaît toujours pas, ne se met pas à jour ou n
 
       +++
 
-1. &#x200B;
+1. 
    +++ Transmission à l’assistance Adobe
 
    Si vous avez terminé toutes les étapes et que le problème n’est pas résolu, contactez l’assistance clientèle d’Adobe à l’adresse suivante :
@@ -538,60 +538,60 @@ Mais l’activité active n’apparaît toujours pas, ne se met pas à jour ou n
 
 ## Scénarios spécifiques à une unité
 
-### Jeton de mise à jour de l’activité dynamique non synchronisé{#token-not-synced}
+### Jeton de mise à jour d’activité dynamique non synchronisé{#token-not-synced}
 
-L’activité dynamique démarre correctement sur l’appareil, mais les appels d’API `update` ou `end` suivants (renvoyant le HTTP 200) ne parviennent pas à mettre à jour ou à ignorer l’activité dynamique. Cela se produit lorsque le **jeton de mise à jour de l’activité dynamique** n’est pas correctement synchronisé avec le système Adobe.
+L’activité Live démarre correctement sur l’appareil, mais les appels d’API `update` ou `end` suivants (renvoyant le HTTP 200) ne parviennent pas à mettre à jour ou à ignorer l’activité Live. Cela se produit lorsque le **jeton de mise à jour de l’activité dynamique** n’est pas correctement synchronisé avec le système Adobe.
 
 **Présentation des jetons de mise à jour**
 
-Lorsqu’une activité dynamique démarre sur un appareil, iOS génère un jeton de mise à jour unique pour cette instance d’activité dynamique spécifique. Ce jeton est requis pour :
+Lorsqu’une activité Live démarre sur un appareil, iOS génère un jeton de mise à jour unique pour cette instance d’activité Live spécifique. Ce jeton est requis pour :
 
-* Envoi de mises à jour à l’activité active
-* Terminaison à distance de l’activité active
+* Envoi de mises à jour à l&#39;activité Live
+* Terminaison à distance de l’activité Live
 
-Chaque instance d’activité dynamique possède son propre jeton de mise à jour unique. Adobe a besoin de ce jeton pour diffuser les événements de mise à jour et de fin.
+Chaque instance d’activité active possède son propre jeton de mise à jour unique. Adobe a besoin de ce jeton pour diffuser les événements de mise à jour et de fin.
 
 **Comportement attendu**
 
 Pour que les événements de mise à jour et de fin fonctionnent, les événements suivants doivent se produire :
 
 1. L’activité en direct démarre correctement sur l’appareil.
-1. L’appareil génère un jeton de mise à jour pour cette instance Live Activity.
+1. L’appareil génère un jeton de mise à jour pour cette instance d’activité active.
 1. Mobile SDK capture et envoie le jeton de mise à jour à Adobe.
 1. Le jeton de mise à jour est synchronisé et stocké dans le système Adobe.
 1. Les appels API suivants pour la mise à jour/l’utilisation finale de ce jeton pour la diffusion.
 
 **Pré-vérifications :**
 
-* **Autorisation utilisateur** : la première fois qu’une activité active démarre sur un appareil, iOS affiche une invite système indiquant : « Autoriser [Nom de l’application] à fournir des mises à jour d’activité active ? » L’utilisateur **doit appuyer sur « Autoriser »** pour que les jetons de mise à jour soient générés et synchronisés. Si l’utilisateur clique sur « Ne pas autoriser », aucun jeton de mise à jour n’est créé et les requêtes de mise à jour/fin échouent. Il s’agit d’une autorisation unique par application.
+* **Autorisation utilisateur** : la première fois qu’une activité Live démarre sur un appareil, iOS affiche une invite système indiquant « Autoriser [Nom de l’application] à fournir des mises à jour d’activité Live ? » L’utilisateur **doit appuyer sur « Autoriser »** pour que les jetons de mise à jour soient générés et synchronisés. Si l’utilisateur clique sur « Ne pas autoriser », aucun jeton de mise à jour n’est créé et les requêtes de mise à jour/fin échouent. Il s’agit d’une autorisation unique par application.
 * **Validation des profils et des campagnes** : effectuez les vérifications [Scénario 1](#profile-issue) et [Scénario 2](#payload-issues) pour vous assurer que le profil, les jetons et la configuration de la campagne sont corrects.
 
 #### Étapes de débogage
 
-1. &#x200B;
+1. 
    +++ Vérification de la synchronisation des jetons de mise à jour dans Assurance
 
    1. Ouvrez votre session Assurance.
-   1. Assurez-vous que la session était active lorsque l’activité active a démarré sur l’appareil.
+   1. Assurez-vous que la session était active lorsque l’activité En direct a démarré sur l’appareil.
    1. Filtrez ou recherchez des événements avec `eventType = "liveActivity.updateToken"`.
    1. Sélectionnez l’événement et examinez la payload :
 
       * Vérifiez que le champ `token` contient une chaîne de jeton de mise à jour valide.
-      * Vérifiez que le `liveActivityID` correspond à votre instance d’activité dynamique.
+      * Vérifiez que le `liveActivityID` correspond à votre instance d’activité active.
       * Vérifiez que la `activityType` correspond à votre `attributes-type`.
 
    1. Si l’événement est introuvable :
 
       * Le jeton de mise à jour n’a pas été généré ou capturé par le SDK.
       * Vérifiez si l’utilisateur a accordé des autorisations d’activité en direct.
-      * Vérifiez que l’activité active a bien démarré sur l’appareil.
+      * Vérifiez que l’activité Live a démarré correctement sur l’appareil.
       * Vérifiez que le SDK mobile est correctement intégré pour capturer les jetons de mise à jour.
 
    1. Si l’événement est trouvé, passez à l’étape 2.
 
       +++
 
-2. &#x200B;
+2. 
    +++ Vérifier le jeton de mise à jour dans les événements de profil
 
    1. Accédez à **Client** > **Profils** dans Journey Optimizer.
@@ -600,7 +600,7 @@ Pour que les événements de mise à jour et de fin fonctionnent, les événemen
    1. Recherchez les événements `liveActivity.updateToken`.
    1. Vérifiez les détails de l’événement :
 
-      * Vérifiez que l’horodatage est récent (correspond au démarrage de l’activité dynamique).
+      * Vérifiez que l’horodatage est récent (correspond au démarrage de l’activité Live ).
       * Vérifiez que les `token` et les `liveActivityID` sont présents.
       * Assurez-vous que la `activityType` est correcte.
 
@@ -614,11 +614,11 @@ Pour que les événements de mise à jour et de fin fonctionnent, les événemen
 
       +++
 
-3. &#x200B;
+3. 
    +++ Vérifier les événements de diffusion des activités en direct dans Assurance
 
    1. Au cours de votre session Assurance, exécutez une mise à jour ou terminez un appel API.
-   1. Dans la **Liste des événements**, recherchez les événements de diffusion Activité en direct (événements push APNs).
+   1. Dans la **Liste des événements**, recherchez les événements de diffusion d’activité en direct (événements push APNs).
    1. Recherchez des événements indiquant :
       * Notification push envoyée aux APNs.
       * Réponse des APNs (succès ou erreur).
@@ -633,16 +633,16 @@ Pour que les événements de mise à jour et de fin fonctionnent, les événemen
 
 ### Problèmes liés à la configuration des campagnes de diffusion et à la payload{#broadcast-config}
 
-Cette section couvre la résolution des scénarios spécifiques à la diffusion des activités en direct, qui nécessitent des approches de débogage différentes de celles des campagnes unitaires.
+Cette section aborde les scénarios de dépannage spécifiques aux activités de diffusion en direct, qui nécessitent des approches de débogage différentes de celles des campagnes unitaires.
 
-Lorsque les profils disposent de jetons valides mais que l’activité active ne s’affiche pas, ne se met pas à jour ou ne se comporte pas comme prévu pour les membres de l’audience, le problème provient généralement de l’un des éléments suivants :
+Lorsque les profils disposent de jetons valides mais que l’activité Live n’apparaît pas, ne met pas à jour ou ne se comporte pas comme prévu pour les membres de l’audience, le problème provient généralement de l’un des éléments suivants :
 
 * La campagne n’est pas configurée en tant que marketing déclenché par l’API.
 * La payload de l’API utilise une structure de diffusion incorrecte (`audience` ou `input-push-channel` manquant).
 * Les champs `content-state` et `attributes` ne correspondent pas à l’implémentation d’iOS `ActivityAttributes`.
 * Le `input-push-channel` n’a pas été créé correctement sur le portail Apple Developer.
 
-Ce scénario de dépannage s’applique à tous les événements Live Activity des campagnes de diffusion : `start`, `update` et `end`.
+Ce scénario de dépannage s’applique à tous les événements d’activité Live dans les campagnes de diffusion : `start`, `update` et `end`.
 
 **Pré-vérifications :**
 
@@ -653,7 +653,7 @@ Ce scénario de dépannage s’applique à tous les événements Live Activity d
 
 #### Étapes de débogage
 
-1. &#x200B;
+1. 
    +++ Vérifier la configuration de l’audience de la campagne
 
    1. Ouvrez votre **campagne marketing déclenchée par API** dans Journey Optimizer.
@@ -668,7 +668,7 @@ Ce scénario de dépannage s’applique à tous les événements Live Activity d
 
       +++
 
-1. &#x200B;
+1. 
    +++ Validation de la structure de la payload de l’API de diffusion
 
    La structure de la payload de diffusion diffère des campagnes unitaires. Vérifiez que la payload respecte le format de diffusion approprié.
@@ -712,16 +712,16 @@ Ce scénario de dépannage s’applique à tous les événements Live Activity d
    **Champs critiques spécifiques à la diffusion :**
 
    * **`input-push-channel`** :
-      * Requis pour toutes les activités en direct de diffusion.
+      * Obligatoire pour toutes les activités de diffusion en direct.
       * Sert d’identifiant unique pour cette instance de diffusion spécifique.
       * Tous les profils de l’audience reçoivent des activités en direct liées à ce canal.
       * Doit correspondre à la `channelID` dans `liveActivityData.channelID` (voir Étape 3).
       * Doit être créé pour le `appID` sur le portail Apple Developer Portal par le client.
-      * Seuls les canaux créés pour l’`appID` spécifique peuvent être utilisés pour diffuser l’activité en direct sur cette application.
+      * Seuls les canaux créés pour l’`appID` spécifique peuvent être utilisés pour la diffusion d’activités en direct sur cette application.
 
    * **`audience.id`** :
       * Un segment d’audience valide créé dans Adobe Experience Platform doit être référencé.
-      * Tous les profils de cette audience sont ciblés pour l’activité en direct.
+      * Tous les profils de cette audience sont ciblés pour l’activité En direct .
       * L’audience doit être activée et contenir des profils avec des `liveActivityPushNotificationDetails` valides.
 
    **Utilisez toujours la dernière date et heure :**
@@ -736,11 +736,11 @@ Ce scénario de dépannage s’applique à tous les événements Live Activity d
    * `dismissal-date` : époque Unix pour le rejet automatique (pertinent uniquement pour les événements `end`)
    * `alert` : objet avec `title` et `body` pour la notification
 
-   Consultez la documentation de l’API de messagerie Adobe Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging) pour obtenir des spécifications d’API complètes.
+   Consultez la documentation de l’API de messagerie Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/references/messaging) pour obtenir des spécifications d’API complètes.
 
    +++
 
-1. &#x200B;
+1. 
    +++ Alignement de l’état du contenu, des attributs et du canal push d’entrée avec l’implémentation d’iOS
 
    Assurez-vous que les champs de payload correspondent à l’implémentation `ActivityAttributes` de votre application iOS et que le `input-push-channel` correspond au `channelID` dans `liveActivityData`.
@@ -821,7 +821,7 @@ Ce scénario de dépannage s’applique à tous les événements Live Activity d
 
    +++
 
-1. &#x200B;
+1. 
    +++ Tester avec Assurance
 
    Vérifiez l’exécution de l’API et la diffusion de la payload à l’aide d’Assurance :
@@ -830,23 +830,23 @@ Ce scénario de dépannage s’applique à tous les événements Live Activity d
    1. Exécutez l’appel API de diffusion.
    1. Dans la **Liste des événements**, recherchez :
       * Événements d’exécution de campagne.
-      * Événements de diffusion des activités en direct.
+      * Événements de diffusion d’activité en direct.
       * Événements d’erreur indiquant les échecs de validation de la payload.
    1. Inspectez les payloads d’événement pour confirmer :
       * La payload a été traitée correctement.
       * Le `input-push-channel` est présent.
       * Aucune erreur de validation ne s’est produite.
-      * Les activités en direct ont été envoyées aux APNs pour les membres de l&#39;audience.
+      * Des activités en direct ont été envoyées aux APNs pour les membres de l&#39;audience.
 
       +++
 
 ### Profil non présent dans l’audience ou instantané d’audience obsolète
 
-Dans ce scénario, la campagne et la payload sont correctement configurées, mais des profils spécifiques ne reçoivent pas l’activité active. Cela se produit généralement lorsque :
+Dans ce scénario, la campagne et la payload sont correctement configurées, mais des profils spécifiques ne reçoivent pas l’activité En direct . Cela se produit généralement lorsque :
 
 * Le profil n’est pas membre de l’audience liée à la campagne.
 * L’audience est une audience par lots et contient un instantané obsolète des données de profil.
-* Les jetons d’activité dynamique du profil ont été ajoutés récemment, mais n’ont pas encore été reflétés dans l’instantané d’audience.
+* Les jetons d’activité en direct du profil ont été ajoutés récemment, mais n’ont pas encore été reflétés dans l’instantané d’audience.
 
 Ce scénario de dépannage s’applique spécifiquement aux campagnes de diffusion utilisant le ciblage basé sur l’audience.
 
@@ -868,10 +868,10 @@ Adobe Experience Platform utilise différentes méthodes d’évaluation d’aud
 
 #### Étapes de débogage
 
-1. &#x200B;
+1. 
    +++ Vérifier que le profil est dans l’audience
 
-   Tout d’abord, vérifiez si le profil qui doit recevoir l’activité en direct fait réellement partie de l’audience.
+   Tout d’abord, vérifiez si le profil qui doit recevoir l’activité En direct fait réellement partie de l’audience.
 
    1. Accédez à **Audiences** dans Adobe Experience Platform.
    1. Recherchez et ouvrez l’audience à l’aide du `audience.id` de votre campagne.
@@ -886,7 +886,7 @@ Adobe Experience Platform utilise différentes méthodes d’évaluation d’aud
 
       +++
 
-2. &#x200B;
+2. 
    +++ Vérifier le type et le planning d’évaluation des audiences
 
    Déterminez si l’audience utilise une évaluation par lots ou par flux, car cela détermine l’actualisation des données.
@@ -894,7 +894,7 @@ Adobe Experience Platform utilise différentes méthodes d’évaluation d’aud
    1. Sur la page **Détails de l’audience**, vérifiez la méthode **Évaluation** :
       * **Lot** : évalué une fois par jour selon un planning.
       * **Streaming** : évalué en temps réel lorsque des mises à jour de profil se produisent.
-      * **Edge** : évalué aux emplacements Edge en temps réel.
+      * **** : évalué aux emplacements Edge en temps réel.
 
    Suivez les étapes de dépannage appropriées en fonction de la méthode d’évaluation :
 
@@ -903,7 +903,7 @@ Adobe Experience Platform utilise différentes méthodes d’évaluation d’aud
    1. **Comprendre les limites des audiences par lots :**
       * Les audiences par lots sont évaluées une fois par jour (généralement le soir).
       * L’instantané d’audience peut avoir jusqu’à 24 heures.
-      * Si un profil a récemment enregistré des jetons d’activité dynamique, ces jetons peuvent ne pas se trouver dans l’instantané actuel.
+      * Si un profil a récemment enregistré des jetons d’activité Dynamique , ces jetons peuvent ne pas se trouver dans l’instantané actuel.
       * Les mises à jour apportées aux profils ne seront reflétées que lors de la prochaine évaluation par lots.
 
    1. **Vérifier à quel moment s’est produite la dernière évaluation :**

@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 66%
@@ -155,10 +155,10 @@ Après avoir créé votre activité en direct, vous pouvez suivre son impact à 
 
 >[!TIP]
 >
->Si votre activité dynamique ne s’affiche pas ou ne se met pas à jour comme prévu, consultez [Dépannage des activités dynamiques](troubleshoot-mobile-live.md) pour obtenir des conseils détaillés sur le débogage.
+>Si votre activité Live ne s’affiche pas ou ne se met pas à jour comme prévu, consultez [Dépannage des activités Live](troubleshoot-mobile-live.md) pour obtenir des conseils détaillés sur le débogage.
 
 ## Vidéo pratique
 
-Découvrez comment configurer l’activité d’iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
+Découvrez comment configurer les activités iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479866?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

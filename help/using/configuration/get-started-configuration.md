@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
-source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 87%
@@ -52,7 +52,7 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Cartes de contenu</strong></a></div></td>
     </tr></table>
 
-   Pour les canaux supplémentaires, reportez-vous aux sections : [iOS Live Activity](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) et [LINE](../line/line-configuration.md).
+   Pour les canaux supplémentaires, reportez-vous aux sections suivantes : [Activités iOS Live](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) et [LINE](../line/line-configuration.md).
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
 * **[Préchauffer les adresses IP](ip-warmup-gs.md)** : découvrez les bonnes pratiques de préchauffage des adresses IP pour améliorer la délivrabilité des e-mails et la réputation des expéditeurs et expéditrices.
 * **[Gérer la liste de suppression](manage-suppression-list.md)** : découvrez comment gérer les listes de suppression pour gérer les rebonds et maintenir l’hygiène des listes.
 * **[Configurer des applications mobiles](set-mobile-config.md)** : définissez les configurations d’applications mobiles pour les notifications push et la messagerie in-app.
-* **[Configurer l’activité dynamique iOS](../mobile-live/mobile-live-configuration.md)** - Configurez votre environnement pour envoyer les activités dynamiques à l’écran de verrouillage iPhone et à l’île dynamique.
+* **[Configurer les activités iOS Live](../mobile-live/mobile-live-configuration.md)** - Configurez votre environnement pour envoyer des activités Live à l’écran de verrouillage d’iPhone et à l’île dynamique.
 * **[Configurer WhatsApp](../whatsapp/whatsapp-configuration.md)** - Configurez la messagerie WhatsApp via l’API Cloud Meta pour les campagnes et les parcours.
 * **[Configurer LINE](../line/line-configuration.md)** - Configurez la messagerie LINE pour les campagnes et les parcours.
 * **[Tutoriels de configuration](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur la configuration des canaux et les bonnes pratiques.

@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Questions fréquentes
-description: Questions fréquentes sur les activités en direct
+description: FAQ sur les activités en direct
 topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '1810'
-ht-degree: 46%
+source-wordcount: '1817'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 +++Quelle est la différence entre une activité En ligne et une notification push ?
 
-L’activité en direct fournit des mises à jour persistantes en temps réel sur l’écran de verrouillage et l’île dynamique sans que les utilisateurs aient à déverrouiller leur appareil. Les notifications push sont des alertes temporaires qui disparaissent une fois ignorées. L’activité active reste visible et peut être mise à jour plusieurs fois jusqu’à ce qu’elle soit explicitement terminée.
+Une activité En direct fournit des mises à jour persistantes en temps réel sur l’écran de verrouillage et l’île dynamique sans que les utilisateurs aient à déverrouiller leur appareil. Les notifications push sont des alertes temporaires qui disparaissent une fois ignorées. Une activité Live reste visible et peut être mise à jour plusieurs fois jusqu’à ce qu’elle soit explicitement terminée.
 
 +++
 
@@ -42,15 +42,15 @@ En pratique :
 
 +++Les utilisateurs doivent-ils ouvrir l’application pour recevoir les mises à jour des activités en direct ?
 
-Non. L’activité en direct peut être démarrée, mise à jour et terminée à distance, même lorsque l’application est complètement fermée. Il s’agit de l’un des principaux avantages de la fonctionnalité.
+Non. Une activité Live peut être démarrée, mise à jour et terminée à distance, même lorsque l’application est complètement fermée. Il s’agit de l’un des principaux avantages de la fonctionnalité.
 
 +++
 
-+++Quelles versions d’iOS prennent en charge l’activité Live ?
++++Quelles versions d’iOS prennent en charge les activités en direct ?
 
-* iOS 16.1+ : prise en charge de base des activités en direct
+* iOS 16.1+ : prise en charge des activités de base en direct
 * iOS 17.2+ : fonctionnalité de démarrage par notification push (démarrage à distance sans ouverture de l’application)
-* iOS 18+ : prise en charge des canaux de diffusion pour l’activité en direct basée sur l’audience
+* iOS 18+ : prise en charge des canaux de diffusion pour les activités en direct basées sur l’audience
 +++
 
 +++Pendant combien de temps une activité Live peut-elle rester active ?
@@ -67,14 +67,14 @@ Les campagnes ont une limite de taux par défaut de 500 messages transactionnels
 
 ### Questions des développeurs et développeuses
 
-+++Dois-je créer une extension de widget distincte pour l’activité Live ?
++++Dois-je créer une extension de widget distincte pour les activités en direct ?
 
-Oui. L’activité en direct est affichée via WidgetKit. Vous devez donc créer une extension de widget dans votre projet Xcode et implémenter le `ActivityConfiguration`.
+Oui. Les activités en direct s’affichent via WidgetKit. Vous devez donc créer une extension de widget dans votre projet Xcode et implémenter le `ActivityConfiguration`.
 [En savoir plus sur la configuration des widgets](mobile-live-configuration-sdk.md)
 
 +++
 
-+++Puis-je utiliser la même classe `LiveActivityAttributes` pour l’activité Live locale et distante ?
++++Puis-je utiliser la même classe `LiveActivityAttributes` pour les activités en direct locales et distantes ?
 
 Oui. La même classe d’attributs fonctionne pour les activités dynamiques démarrées localement et à distance (push-to-start). Vous devez vous assurer de l’enregistrer avec `Messaging.registerLiveActivity()`.
 
@@ -86,9 +86,9 @@ Si vous envoyez un événement de mise à jour ou de fin pour un `liveActivityID
 
 +++
 
-+++Puis-je tester l’activité En direct dans le simulateur iOS ?
++++Puis-je tester des activités en direct dans le simulateur iOS ?
 
-Oui, vous pouvez tester l’activité active démarrée localement et l’activité active démarrée à distance dans le simulateur iOS.
+Oui, vous pouvez tester les activités en direct démarrées localement et à distance dans le simulateur iOS.
 
 * **Local** : cela inclut la création, la mise à jour et l’envoi d’une activité Live directement depuis votre application à l’aide des API **ActivityKit**.
 
@@ -98,7 +98,7 @@ Oui, vous pouvez tester l’activité active démarrée localement et l’activi
 
 +++Comment gérer les mises à jour lorsque l’application fonctionne en arrière-plan ?
 
-Le SDK gère cela automatiquement. Une fois enregistrée, l’activité Live reçoit des mises à jour même lorsque l’application est arrêtée. Aucun mode d’arrière-plan supplémentaire n’est requis.
+Le SDK gère cela automatiquement. Une fois enregistrée, une activité Live reçoit des mises à jour même lorsque l’application est arrêtée. Aucun mode d’arrière-plan supplémentaire n’est requis.
 +++
 
 +++Quelle est la différence entre `liveActivityID` et `channelID` ?
@@ -114,10 +114,10 @@ Oui. Le `ActivityConfiguration` dispose de fermetures distinctes pour le contenu
 
 +++Dois-je stocker manuellement les jetons push ?
 
-Non. Lorsque vous enregistrez un type d’activité en direct avec `Messaging.registerLiveActivity()`, le SDK collecte et gère automatiquement les jetons push.
+Non. Lorsque vous enregistrez un type d’activité En direct avec `Messaging.registerLiveActivity()`, SDK collecte et gère automatiquement les jetons push pour vous.
 +++
 
-+++Existe-t-il des limites aux démarrages distants de l’activité Live ?
++++Existe-t-il des limites au démarrage à distance d’activités en direct ?
 
 Oui. Les démarrages à distance via `ActivityKit` sont soumis à des limites appliquées par le système. Si vous tentez plusieurs demandes de démarrage en succession rapide, iOS peut rejeter d’autres démarrages en raison des quotas d’activité en direct ou des contraintes budgétaires. Après environ 5 tentatives de démarrage consécutives, les requêtes suivantes commencent à échouer jusqu’à ce qu’une brève période de refonte soit passée.
 
@@ -147,7 +147,7 @@ Les campagnes de diffusion envoient le même contenu à tous les utilisateurs et
 [Surveillez vos analyses de campagne](../reports/campaign-global-report-cja-activity.md) dans Adobe Journey Optimizer. Vous pouvez effectuer le suivi des taux de diffusion, des échecs et des mesures d’engagement. Pensez également à implémenter des événements d’analyse personnalisés dans votre application.
 +++
 
-+++Puis-je planifier une activité en direct à l’avance ?
++++Puis-je planifier des activités en direct à l’avance ?
 
 L’appel API déclenche immédiatement l’activité Live . Cependant, vous pouvez planifier vos appels API par l’intermédiaire de vos systèmes back-end ou utiliser les fonctionnalités d’orchestration de Journey Optimizer pour les déclencher au moment approprié.
 +++
@@ -176,7 +176,7 @@ Mettez-la à jour uniquement lors de changements significatifs des informations,
 
 +++
 
-+++Puis-je cibler les utilisateurs en fonction de l’activation ou non de l’activité Live ?
++++Puis-je cibler les utilisateurs en fonction de l’activation ou non des activités en direct ?
 
 Vous devrez travailler avec votre équipe de développement pour suivre et transmettre cette préférence à Adobe Experience Platform en tant qu’attribut utilisateur, puis segmenter en fonction de cet attribut.
 
@@ -241,7 +241,7 @@ Non. Vous pouvez utiliser la même campagne et modifier le champ `event` dans la
 
 >[!TIP]
 >
->Pour obtenir des conseils de dépannage complets, voir [&#x200B; Dépannage des activités en direct &#x200B;](troubleshoot-mobile-live.md).
+>Pour obtenir des conseils de dépannage complets, voir [Dépannage des activités en direct](troubleshoot-mobile-live.md).
 
 +++Mon activité Live démarre mais ne se met pas à jour. Quel peut être le problème ?
 
@@ -260,13 +260,13 @@ Causes fréquentes :
 * Vérifiez que le nom de la classe correspond **exactement** (sensible à la casse) à votre nom de structure Swift.
 * Vérifiez que la structure est correctement définie et enregistrée.
 * Vérifiez qu’il n’y a pas de faute de frappe dans la payload JSON.
-* Vérifiez que la version de l’application installée dispose de l’implémentation de l’activité en direct.
+* Vérifiez que la version d’application installée dispose de la mise en œuvre d’activité active .
 
 +++
 
 +++Les utilisateurs voient uniquement la mise à jour de l’activité en direct et non la notification d’alerte. S’agit-il d’un problème connu ?
 
-Non. Le champ `alert` est facultatif et peut être supprimé par iOS dans certaines conditions, par exemple en mode Ne pas déranger. L’activité en direct peut se mettre à jour en silence, ce qui correspond souvent au comportement prévu. Le champ d’alerte est obligatoire pour envoyer des commandes de démarrage à distance, sinon Apple le traite comme une notification silencieuse en arrière-plan.
+Non. Le champ `alert` est facultatif et peut être supprimé par iOS dans certaines conditions, par exemple en mode Ne pas déranger. Une activité Live peut être mise à jour en mode silencieux, ce qui correspond souvent au comportement prévu. Le champ d’alerte est obligatoire pour envoyer des commandes de démarrage à distance, sinon Apple le traite comme une notification silencieuse en arrière-plan.
 
 +++
 

@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurer le canal d’activité en direct
+title: Configuration du canal des activités dynamiques
 description: Découvrez comment configurer votre intégration au SDK mobile Adobe Experience Platform.
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 70%
+source-wordcount: '494'
+ht-degree: 74%
 
 ---
 
 # Intégration d’une activité en direct à Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
-Adobe Experience Platform Mobile SDK offre une prise en charge intégrée de l’activité Apple Live. Cela permet à votre application d’afficher des mises à jour dynamiques en temps réel directement sur l’écran de verrouillage et Dynamic Island sans ouvrir l’application.
+Le SDK mobile d’Adobe Experience Platform offre une prise en charge intégrée des activités en direct d’Apple. Cela permet à votre application d’afficher des mises à jour dynamiques en temps réel directement sur l’écran de verrouillage et Dynamic Island sans ouvrir l’application.
 
 1. [Importer les modules requis](#import)
 
@@ -150,7 +150,7 @@ if #available(iOS 16.1, *) {
 
 ## Étape 4 : créer des widgets d’activité en direct {#widgets}
 
-L’activité en direct s’affiche par le biais de widgets. Vous devez créer un lot de widgets et une configuration :
+Une activité En direct s’affiche par le biais de widgets. Vous devez créer un lot de widgets et une configuration :
 
 **Exemple pour une activité en direct de livraison de repas :**
 
@@ -189,7 +189,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## Étape 5 : démarrer une activité en direct localement (facultatif) {#local}
 
-Journey Optimizer peut démarrer l’activité en direct à distance, mais vous pouvez également la démarrer localement :
+Bien que Journey Optimizer puisse démarrer des activités en direct à distance, vous pouvez également les démarrer localement :
 
 **Exemple pour une activité en direct de livraison de repas :**
 
@@ -237,7 +237,7 @@ Pour une documentation SDK complète et des détails de mise en œuvre :
 
 * [Guide du développeur des activités en direct](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
 * [Référence d’API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [&#x200B; Tutoriel sur l’activité en direct &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [Tutoriel sur l’activité en direct](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
 * [Classes publiques](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
 
 >[!TIP]
