@@ -5,10 +5,10 @@ title: Créer et planifier des campagnes orchestrées avec Journey Optimizer
 description: Découvrez comment créer et planifier une campagne orchestrée avec Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 97%
+source-wordcount: '1173'
+ht-degree: 94%
 
 ---
 
@@ -69,6 +69,8 @@ Pour créer une campagne orchestrée, procédez comme suit :
 >abstract="Définissez la fréquence du planificateur. Il peut être exécuté à un moment précis, ou encore une ou plusieurs fois par jour, semaine ou mois."
 
 Par défaut, les campagnes orchestrées démarrent lorsqu’elles sont activées manuellement et se terminent lorsque leurs activités associées ont été exécutées. Si vous préférez retarder l’exécution ou lancer la campagne de manière récurrente, vous pouvez définir un planning.
+
+Vous pouvez également démarrer la campagne lorsqu’elle reçoit un signal d’un système ou d’une application externe au lieu de l’exécuter selon un planning. [Découvrez comment déclencher une campagne orchestrée à l’aide d’un signal](trigger-orchestrated-campaign.md).
 
 Tenez compte des bonnes pratiques suivantes lors de la planification de campagnes orchestrées afin de garantir des performances optimales et de vous assurer que le comportement soit tel qu’attendu :
 

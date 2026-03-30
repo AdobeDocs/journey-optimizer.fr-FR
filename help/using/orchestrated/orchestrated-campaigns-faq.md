@@ -5,10 +5,10 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 91%
+source-wordcount: '1958'
+ht-degree: 88%
 
 ---
 
@@ -140,6 +140,12 @@ Yes. Campaign orchestration is natively integrated with:
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+
++++ Comment tester une campagne orchestrée déclenchée par un signal avant sa publication ?
+
+Lorsque la campagne est en version **brouillon**, vous pouvez la tester en définissant des **paramètres** dans le planning et en fournissant des **valeurs de test** pour chacune. Démarrez le workflow, puis appelez l’API de déclenchement (à l’aide de l’exemple de requête de la configuration de planning ou de votre propre requête avec le même point d’entrée) pour exécuter la campagne avec ces valeurs de test. [Découvrez comment terminer et tester une campagne déclenchée par un signal](trigger-orchestrated-campaign.md#complete-and-test).
+
++++
 
 +++ Puis-je rétablir le brouillon d’une campagne orchestrée active ?
 

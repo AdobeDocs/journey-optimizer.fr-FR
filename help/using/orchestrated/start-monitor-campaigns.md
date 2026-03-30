@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 59%
+source-wordcount: '1172'
+ht-degree: 55%
 
 ---
 
@@ -31,11 +31,13 @@ Une fois que vous avez créé votre campagne orchestrée et conçu les tâches �
 >
 >Toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Enregistrer l’audience]** et des activités de canal. L’opération n’a aucun impact fonctionnel sur vos données ou votre audience.
 
-Pour tester une campagne orchestrée, ouvrez la campagne et sélectionnez **[!UICONTROL Démarrer]**.
+Pour tester une campagne orchestrée, ouvrez la campagne et sélectionnez **[!UICONTROL Démarrer]**. Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin de la zone de travail soit atteinte.
 
 ![Bouton Démarrer dans la barre d’outils de la zone de travail de campagne](assets/campaign-start.png){zoomable="yes"}
 
-Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à la fin de la zone de travail. Lors du test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
+Pour les **campagnes orchestrées déclenchées**, le système attend un appel d’API pour démarrer la campagne. Vous devez envoyer le signal pour continuer le test. [Découvrez comment tester des campagnes déclenchées par un signal](trigger-orchestrated-campaign.md#complete-and-test).
+
+Lors du test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
 
 * **Arrêtez** l’exécution à tout moment.
 * **Démarrez** l’exécution à nouveau.
