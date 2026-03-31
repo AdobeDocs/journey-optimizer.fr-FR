@@ -8,10 +8,10 @@ level: Experienced
 keywords: inAudience, fonction, expression, parcours, audience, segmentation
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
+source-git-commit: e71c4c20e8360006d99b12821fb9a588db5e0548
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 81%
+source-wordcount: '730'
+ht-degree: 82%
 
 ---
 
@@ -115,8 +115,8 @@ Lors de l’utilisation de la fonction `inAudience` dans vos parcours, tenez com
 
 Lors de l’utilisation de `inAudience()` dans un nœud de condition, le délai d’évaluation de l’appartenance au segment varie en fonction de l’emplacement de la condition dans le parcours :
 
-* **Avant une activité Attente (ou dans un parcours Lecture d’audience) :** AJO lit à partir de la projection par lots du profil. L’actualisation des données dans cette projection entraîne une TSL allant jusqu’à **2 heures** après l’ingestion. Les audiences qui reposent sur des conditions basées sur la journée ou sur l’heure peuvent subir un retard supplémentaire. Ajoutez une courte [activité d’attente](../wait-activity.md) au début du parcours ou patientez le temps pour vous assurer que la dernière appartenance au segment est prise en compte.
-* **Après une activité Attente (ou dans un parcours d’événement unitaire) :** l’appartenance à un segment est lue à partir de la projection en flux continu (unitaire). Pour connaître la latence attendue, consultez la documentation sur l’ingestion par flux de [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Ce chemin d’accès est généralement plus réactif aux modifications de profil récentes.
+* **Avant une activité Attente (ou dans un parcours Lecture d’audience) :** Journey Optimizer lit à partir de la projection par lots du profil. Les données de cette projection sont actualisées dans les **2 heures** suivant l’ingestion. Les audiences qui reposent sur des conditions basées sur la journée ou sur l’heure peuvent subir un retard supplémentaire. Ajoutez une courte [activité d’attente](../wait-activity.md) au début du parcours ou patientez le temps pour vous assurer que la dernière appartenance au segment est prise en compte.
+* **Après une activité Attente (ou dans un parcours d’événement unitaire) :** l’appartenance à un segment est lue à partir de la projection en flux continu (unitaire). Pour connaître la latence attendue, consultez la documentation sur l’ingestion par flux de [](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Ce chemin d’accès est généralement plus réactif aux modifications de profil récentes.
 
 ## Rubriques connexes
 
