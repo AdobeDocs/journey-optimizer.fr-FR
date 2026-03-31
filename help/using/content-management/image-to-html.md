@@ -158,7 +158,7 @@ Pour convertir une conception d’image en modèle de contenu d’e-mail entièr
 1. Utilisez la section **[!UICONTROL Image vers commentaires du convertisseur de modèles]** pour partager vos idées et suggestions avec Adobe afin de nous aider à améliorer la fonctionnalité.
    ![Section Commentaires dans Journey Optimizer avec une zone de texte pour partager vos pensées et suggestions](../email/assets/email_designer_converter_feedback.png){width=70%}
 
-1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]**. Le modèle converti s’ouvre dans le Designer d’e-mail[ avec des fonctionnalités de modification complètes. ](../email/get-started-email-design.md) Vous pouvez maintenant :
+1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]**. Le modèle converti s’ouvre dans le Designer d’e-mail[&#x200B; avec des fonctionnalités de modification complètes. &#x200B;](../email/get-started-email-design.md) Vous pouvez maintenant :
 
    * Vérifier, modifier le contenu textuel et appliquer une personnalisation
    * modifier des images et ajouter des liens ;
@@ -212,7 +212,7 @@ Pour obtenir des résultats optimaux lors de la conversion d’images en modèle
 * **Tester minutieusement** : tester l’e-mail sur différents clients de messagerie et appareils. [Découvrez comment prévisualiser et tester du contenu](preview-test.md).
 * **Affiner manuellement** : effectuez les ajustements nécessaires en utilisant les fonctionnalités d’édition complètes du [Designer d’e-mail](../email/get-started-email-design.md).
 * **Alignement des marques** : vérifiez que les couleurs, les polices et le style correspondent à vos directives de marque, en utilisant les thèmes, le cas échéant. [En savoir plus sur les thèmes des emails](../email/apply-email-themes.md).
-* **** : ajoutez du contenu dynamique et des jetons de personnalisation selon les besoins. [En savoir plus sur la personnalisation](../personalization/personalize.md).
+* **&#x200B;**&#x200B;: ajoutez du contenu dynamique et des jetons de personnalisation selon les besoins. [En savoir plus sur la personnalisation](../personalization/personalize.md).
 * **Accessibilité** : passez en revue et améliorez les fonctionnalités d’accessibilité si nécessaire. [En savoir plus sur le contenu d’e-mail accessible](../email/accessible-content.md).
 
 +++
