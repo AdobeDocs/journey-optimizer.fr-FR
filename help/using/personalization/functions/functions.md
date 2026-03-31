@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2477'
 ht-degree: 99%
 
 ---
@@ -458,7 +458,7 @@ Les assistants sont détaillés sur [cette page](helpers.md).
         <td><a href="helpers.md#unless">Unless</a></td><td>Cette fonction est utilisée pour définir un bloc conditionnel. Si l'évaluation de l'expression renvoie 'false', le bloc est rendu.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-parameter-encryption-helper">Chiffrement des paramètres d'URL</a></td><td>Chiffre les valeurs d’expression des paramètres de requête d’URL au moment du rendu à l’aide d’une clé active du registre sandbox </td>
+        <td><a href="helpers.md#url-parameter-encryption-helper">Chiffrer</a></td><td>Chiffre les valeurs d’expression des paramètres de requête d’URL au moment du rendu à l’aide d’une clé active du registre sandbox </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Avec</a></td><td>Cette fonction est utilisée pour modifier le jeton d'évaluation d'une partie de modèle.</td>
@@ -530,4 +530,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
