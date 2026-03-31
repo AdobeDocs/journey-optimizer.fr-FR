@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 64%
+source-wordcount: '1011'
+ht-degree: 63%
 
 ---
 
@@ -283,7 +283,7 @@ Dans cet exemple, en supposant que `profile.person.name.firstName` = « Alex �
 }
 ```
 
-## Chiffrement des paramètres d&#39;URL {#url-parameter-encryption-helper}
+## Chiffrer {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
 >
@@ -291,40 +291,49 @@ Dans cet exemple, en supposant que `profile.person.name.firstName` = « Alex �
 >
 >Actuellement, cette fonctionnalité n’est disponible que pour le canal E-mail .
 
-L’assistant `EncryptParam` vous permet de chiffrer n’importe quelle valeur d’expression au moment du rendu (généralement un attribut de profil, un jeton ou même une structure JSON rigidifiée que vous créez dans l’expression) avant qu’elle ne soit écrite dans un paramètre de requête sur les liens de suivi ou les pages de destination.
+La fonction `Encrypt` vous permet de chiffrer n’importe quelle valeur d’expression au moment du rendu (généralement un attribut de profil, un jeton ou même une structure JSON rigidifiée que vous créez dans l’expression) avant qu’elle ne soit écrite dans un paramètre de requête sur les liens de suivi ou les pages de destination.
 
 Les valeurs qui apparaissent en tant que texte brut dans l’URL (y compris les PII ou d’autres données sensibles) ne sont pas lisibles lorsque le lien est inspecté ou transféré. Seules les valeurs que vous encapsulez avec cet helper sont chiffrées ; le reste de l’URL reste inchangé.
 
-Vous pouvez appliquer l’assistant à un, plusieurs ou tous les paramètres d’un lien, selon la conception de l’URL et les contraintes de longueur.
+**Cas d’utilisation**
 
-**Conditions préalables**
+Cet helper vous permet de protéger les données de profil sensibles (PII) avant de les inclure dans la sortie rendue.
 
-* Le chiffrement des paramètres d’URL doit être activé pour votre organisation (disponibilité limitée). Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
-* Un administrateur doit créer au moins une clé active dans le registre des clés au niveau du sandbox. [Découvrez comment créer et gérer des clés](../url-parameter-encryption.md)
+**Condition requise**
 
-**Fonctionnement**
-
-1. Dans la liste des assistants, sélectionnez l’assistant `EncryptParam` .
-
-1. Transmettre le `data` : valeur ou expression à chiffrer (par exemple, des champs `profile`, une variable ou un jeton de chaîne composé).
-
-1. Transmettez `key` : un identifiant de clé active à partir du registre des clés de votre sandbox.
+Un administrateur doit créer au moins une clé active dans le registre des clés au niveau du sandbox. [Découvrez comment créer et gérer des clés](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >
 >L’utilisation d’une clé révoquée ou inactive doit entraîner l’échec de la personnalisation au moment du rendu, de sorte qu’un message n’est pas envoyé avec une clé non valide.
 
-**Exemple**
-
-Supposons que vous définissiez ou calculiez une valeur (par exemple un `stringToken` de variable contenant une payload JSON ou des identifiants concaténés) qui ne doit pas apparaître en tant que texte brut dans le paramètre de requête `token`. Une URL finale peut suivre ce modèle : remplacez `stringToken` par votre expression et `encrypt-key` par un ID de clé actif issu du registre des clés :
+**Syntaxe**
 
 ```text
-https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+{{encrypt dataPath keyName="keyName" version="version" result="variableName"}}
 ```
+
+**Utilisation**
+
+Cet helper chiffre les données sensibles et stocke le résultat dans une variable de modèle. <!--The encryption is performed using the AES-256-GCM algorithm.-->
+
+Vous pouvez appliquer l’assistant à un, plusieurs ou tous les paramètres d’un lien, selon la conception de l’URL et les contraintes de longueur.
+
+* **Input** : `dataPath` (référence de données qui doit être résolue sur une chaîne), `keyName` (identifiant de clé de chiffrement), `version` (version de clé facultative), `result` (nom de variable pour la sortie chiffrée)
+* **Output** : rend la valeur chiffrée disponible dans la variable `result` spécifiée.
+* **Format de résultat** : la variable de résultat contient une chaîne séparée par des points : `keyName.version.nonce.authTag.cipherText` (tous les segments, à l’exception de `keyName` et `version`, sont codés en Base64 sécurisé par une URL sans marge intérieure).
+* **Exigences relatives aux clés statiques** : les `keyName` et `version` doivent être des littéraux de chaîne statiques (les références dynamiques ne sont pas prises en charge).
+* **Version par défaut** : le paramètre `version` est facultatif ; s’il est omis, le service de clé de chiffrement résout la version par défaut
+
+**Exemples**
+
+| Exemple d’expression | Résultat |
+| --- | --- |
+| `{{encrypt profile.person.email keyName="email-key" version="1" result="enc"}}{{enc}}` | `email-key.1.RkFrZU5vbmNlQUJD.T3V0cHV0QXV0aFRhZ0Fh.am9obkBleGFtcGxlLmNvbQ` |
+| `{{encrypt profile.person.name.firstName keyName="pii-key" version="2" result="encName"}}{{encName}}` | `pii-key.2.U29tZVJhbmRvbUlW.QXV0aGVudGljYXRpb25UYQ.Sm9obg` |
 
 **Mécanismes de sécurisation**
 
-Le déchiffrement est géré en dehors des [!DNL Journey Optimizer] sur vos pages de destination, applications ou API. Planifiez le cycle de vie et la rotation des clés avec votre équipe de sécurité afin que les payloads historiques puissent toujours être déchiffrées si nécessaire.
+* Le déchiffrement est géré en dehors des [!DNL Journey Optimizer] sur vos pages de destination, applications ou API. Planifiez le cycle de vie et la rotation des clés avec votre équipe de sécurité afin que les payloads historiques puissent toujours être déchiffrées si nécessaire.
 
-Les clés révoquées ne doivent pas être utilisées pour un nouveau chiffrement. Suivez votre politique de sécurité pour la rotation et le déclassement.
-
+* Les clés révoquées ne doivent pas être utilisées pour un nouveau chiffrement. Suivez votre politique de sécurité pour la rotation et le déclassement.
