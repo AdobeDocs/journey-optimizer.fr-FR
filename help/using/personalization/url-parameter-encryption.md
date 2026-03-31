@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Chiffrement des paramètres d’URL dans le tracking
+title: Paramètres de chiffrement de l’URL
 description: Découvrez comment chiffrer les paramètres de requête d’URL sensibles afin que les informations d’identification personnelles ne soient pas exposées en texte brut sur les liens de suivi et les pages de destination Journey Optimizer.
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ role: Admin
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: chiffrement, URL, tracking, page de destination, registre des clés, personnalisation, sécurité, confidentialité, sandbox
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 4%
+source-wordcount: '656'
+ht-degree: 5%
 
 ---
 
-
-# Chiffrement des paramètres d’URL dans le tracking {#url-parameter-encryption}
+# Paramètres de chiffrement de l’URL {#url-parameter-encryption}
 
 >[!AVAILABILITY]
 >
@@ -36,7 +36,7 @@ Vous chiffrez uniquement les paramètres de requête de votre choix à l’aide 
 ### Fonctionnement {#how-it-works}
 
 * **Administrateurs** utilisez le registre des clés pour [créer des clés](#create-keys) et [gérer des clés](#manage-keys) conformément aux politiques de sécurité de votre entreprise.
-* **Spécialistes marketing** insérez l’assistant de chiffrement dans l’éditeur de personnalisation et transmettez la valeur à protéger, ainsi qu’un identifiant de clé active dans le registre. Pour connaître la syntaxe et les options, voir [chiffrement des paramètres d’URL](functions/helpers.md#url-parameter-encryption-helper).
+* **Spécialistes du marketing** insérez l’assistant `Encrypt` dans l’éditeur de personnalisation et transmettez la valeur à protéger, ainsi qu’un identifiant de clé active dans le registre. Pour connaître la syntaxe et les options, voir [cette section](functions/helpers.md#url-parameter-encryption-helper).
 
 >[!IMPORTANT]
 >
@@ -96,6 +96,3 @@ Pour gérer les clés, procédez comme suit.
    >[!NOTE]
    >
    >Seules les clés actives doivent être sélectionnées pour chiffrer les nouvelles valeurs dans l’éditeur de personnalisation. N’utilisez pas de clés révoquées pour le nouveau contenu.
-
-
-
