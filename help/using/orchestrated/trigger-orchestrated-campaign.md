@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+exl-id: d1fd072d-b143-4752-822f-23f98684ba80
+source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
-
 
 # Déclencher des campagnes orchestrées à l’aide d’un signal {#trigger-signal}
 
@@ -26,6 +26,10 @@ Processus de bout en bout pour déclencher une campagne orchestrée à l&#39;aid
 1. [Ajouter des paramètres pour la payload du signal](#add-parameters-for-the-signal-payload-optional-parameters) (facultatif)
 1. [Créer et tester la campagne](#build-and-test-the-campaign-build-and-test)
 1. [Publier et déclencher la campagne](#publish-and-trigger-the-campaign-publish)
+
+>[!NOTE]
+>
+>Pour déclencher une campagne orchestrée à l’aide d’un signal, vous devez disposer de l’autorisation **[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`). Voir [ Autorisations intégrées ](../administration/ootb-permissions.md).
 
 ## Planifier la campagne à déclencher par un signal {#configure-signal}
 
