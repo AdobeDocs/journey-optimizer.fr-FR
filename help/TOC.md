@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '3147'
-ht-degree: 96%
+source-wordcount: '3160'
+ht-degree: 95%
 
 ---
 
@@ -420,7 +420,9 @@ ht-degree: 96%
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + [Effectuer une itération sur des données contextuelles](using/personalization/iterate-contextual-data.md)
       + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
-      + [Utiliser des données Adobe Experience Platform à des fins de personnalisation](using/personalization/aep-data-perso.md)
+      + Utiliser des données Adobe Experience Platform à des fins de personnalisation {#aep-data-perso}
+         + [Utiliser des données Adobe Experience Platform à des fins de personnalisation](using/personalization/aep-data-perso.md)
+         + [Chiffrement des paramètres d’URL dans les liens de tracking](using/personalization/url-parameter-encryption.md)
       + Liste des fonctions d’assistance {#functions}
          + [Liste des fonctions d’assistance](/help/rp_landing_pages/functions-landing-page.md)
          + [Commencer avec les fonctions d’assistance](using/personalization/functions/functions.md)
@@ -955,7 +957,7 @@ ht-degree: 96%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
