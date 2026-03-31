@@ -8,10 +8,10 @@ level: Experienced
 keywords: inAudience, fonction, expression, parcours, audience, segmentation
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
-workflow-type: ht
-source-wordcount: '600'
-ht-degree: 100%
+source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ Les audiences peuvent posséder deux statuts de participation :
 * **Réalisé** : l’individu est éligible à la définition de l’audience et doit être un membre actif.
 * **Sorti** : l’individu a quitté l’audience et ne se qualifie plus.
 
-Seuls les individus ayant le statut **Réalisé** seront considérés comme des membres actifs de l’audience. Lorsque la fonction renvoie `true`, elle confirme que l’individu a le statut Réalisé ; lorsqu’elle renvoie `false`, elle indique le statut de sortie. Pour plus d’informations sur l’évaluation d’audience, reportez-vous à la [documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
+Seuls les individus ayant le statut **Réalisé** seront considérés comme des membres actifs de l’audience. Lorsque la fonction renvoie `true`, elle confirme que l’individu a le statut Réalisé ; lorsqu’elle renvoie `false`, elle indique le statut de sortie. Pour plus d’informations sur l’évaluation d’audience, reportez-vous à la [documentation de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
 
 +++Syntaxe
 
@@ -110,6 +110,13 @@ Lors de l’utilisation de la fonction `inAudience` dans vos parcours, tenez com
 **Éléments à prendre en compte concernant la politique de fusion** :
 * Lors de l’utilisation de plusieurs audiences avec la fonction `inAudience`, des incohérences avec les politiques de fusion peuvent entraîner des erreurs ou des alertes.
 * Pour plus d’informations sur le comportement des politiques de fusion, consultez la section [Propriétés des parcours](../journey-properties.md).
+
+**Délai de propagation :** {#propagation-timing}
+
+Lors de l’utilisation de `inAudience()` dans un nœud de condition, le délai d’évaluation de l’appartenance au segment varie en fonction de l’emplacement de la condition dans le parcours :
+
+* **Avant une activité Attente (ou dans un parcours Lecture d’audience) :** AJO lit à partir de la projection par lots du profil. L’actualisation des données dans cette projection entraîne une TSL allant jusqu’à **2 heures** après l’ingestion. Les audiences qui reposent sur des conditions basées sur la journée ou sur l’heure peuvent subir un retard supplémentaire. Ajoutez une courte [activité d’attente](../wait-activity.md) au début du parcours ou patientez le temps pour vous assurer que la dernière appartenance au segment est prise en compte.
+* **Après une activité Attente (ou dans un parcours d’événement unitaire) :** l’appartenance à un segment est lue à partir de la projection en flux continu (unitaire). Pour connaître la latence attendue, consultez la documentation sur l’ingestion par flux de [](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Ce chemin d’accès est généralement plus réactif aux modifications de profil récentes.
 
 ## Rubriques connexes
 
