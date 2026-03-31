@@ -29,7 +29,7 @@ Processus de bout en bout pour déclencher une campagne orchestrée à l&#39;aid
 
 >[!NOTE]
 >
->Pour déclencher une campagne orchestrée à l’aide d’un signal, vous devez disposer de l’autorisation **[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`). Voir [ Autorisations intégrées ](../administration/ootb-permissions.md).
+>Pour déclencher une campagne orchestrée à l’aide d’un signal, vous devez disposer de l’autorisation **[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`). Voir [&#x200B; Autorisations intégrées &#x200B;](../administration/ootb-permissions.md).
 
 ## Planifier la campagne à déclencher par un signal {#configure-signal}
 
