@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
+source-git-commit: 2e9a3e641a63190660badac3eeb14800eb6a6ab7
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1127'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ L’API du service de migration Decisioning offre les fonctionnalités suivantes
 
 Pour utiliser l’API de migration, vous avez besoin des autorisations appropriées dans les sandbox source et cible :
 
-**Sandbox Source** - Accès en lecture aux objets de gestion des décisions
+**Sandbox** - Accès en lecture aux objets de gestion des décisions
 
 **Sandbox cible** - Création et modification de l’accès aux objets Decisioning
 
@@ -62,7 +62,7 @@ Avant d’exécuter une migration, vérifiez que votre sandbox cible est correct
 * **Jeu de données** - Identifiez un nom de jeu de données à utiliser pour la migration (`dependency.datasetName`).
 * **Flux de données** - Décidez si la migration doit créer un flux de données (`createDataStream`).
 
-Pour plus d’informations sur la gestion des sandbox, voir [&#x200B; Utilisation et affectation de sandbox](../administration/sandboxes.md).
+Pour plus d’informations sur la gestion des sandbox, voir [ Utilisation et affectation de sandbox](../administration/sandboxes.md).
 
 ## Bases d’API {#api-basics}
 
@@ -81,7 +81,7 @@ Toutes les requêtes API nécessitent les en-têtes suivants :
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 ### Modèle de workflow {#workflow-model}
 
@@ -351,6 +351,8 @@ Lors de la migration de la gestion des décisions vers la prise de décision, le
 | Campaign | *de Campaign (contenu de base uniquement)* |
 | Emplacement | Configuration Surface + Canal |
 | Balise | Balise unifiée |
+| Attributs d’offre | Champ `migratedofferattributes` dans le schéma d&#39;élément d&#39;offre personnalisée |
+| Attributs de contexte | `migratedcontextattributes` champ du schéma associé au jeu de données fourni lors de la migration |
 
 ## Nettoyage du workflow {#cleanup}
 
