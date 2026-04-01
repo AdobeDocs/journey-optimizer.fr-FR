@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
-workflow-type: ht
-source-wordcount: '1569'
-ht-degree: 100%
+source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
+workflow-type: tm+mt
+source-wordcount: '1566'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Exemples d’adresses URL personnalisées :
 >
 >Les espaces ne sont pas pris en charge dans les jetons de personnalisation utilisés dans les URL.
 
-En disponibilité limitée pour un ensemble de clientes et clients, Journey Optimizer prend également en charge la personnalisation complète/de base des URL. Par exemple :
+Journey Optimizer prend également en charge la personnalisation complète/de base des URL. Par exemple :
 
 ```
 <a href="{{profile.social.link}}" />
@@ -85,9 +85,9 @@ En disponibilité limitée pour un ensemble de clientes et clients, Journey Opt
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!WARNING]
+>[!NOTE]
 >
->La liste des domaines acceptés doit être fournie à Adobe au préalable.
+>Pour activer la personnalisation complète ou de base de l’URL, contactez Adobe et fournissez votre liste de domaines acceptés.
 
 +++
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
+source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1025'
 ht-degree: 63%
 
 ---
@@ -337,3 +337,5 @@ Vous pouvez appliquer l’assistant à un, plusieurs ou tous les paramètres d�
 * Le déchiffrement est géré en dehors des [!DNL Journey Optimizer] sur vos pages de destination, applications ou API. Planifiez le cycle de vie et la rotation des clés avec votre équipe de sécurité afin que les payloads historiques puissent toujours être déchiffrées si nécessaire.
 
 * Les clés révoquées ne doivent pas être utilisées pour un nouveau chiffrement. Suivez votre politique de sécurité pour la rotation et le déclassement.
+
+* Le processus de chiffrement consommant beaucoup de ressources, l’utilisation de la fonction `Encrypt` peut avoir un impact sur le débit au moment du rendu.
