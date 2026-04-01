@@ -20,7 +20,7 @@ Découvrez comment exploiter tout le potentiel de vos données d’audience avec
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Utilisation du Créateur de règles pour les campagnes orchestrées
 
@@ -30,7 +30,7 @@ Découvrez comment créer et gérer des règles de ciblage et de segmentation d�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création de votre première règle dans Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Tutoriel détaillé sur la création et la validation des règles pour le filtra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Modification des expressions dans Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Maîtrisez l’éditeur d’expression pour définir manuellement les règles de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Création de requêtes de reciblage dans Adobe Journey Optimizer
 
