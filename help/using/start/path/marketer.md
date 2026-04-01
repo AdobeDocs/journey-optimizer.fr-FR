@@ -56,7 +56,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    Découvrez comment [tester et valider des messages](../../content-management/preview-test.md).
 
-1. **Créer des parcours client** Créez des expériences personnalisées en temps réel à l’aide de la zone de travail du parcours. Utilisez **** dans l&#39;assistant AI pour créer des parcours à partir d&#39;invites en langage naturel. [En savoir plus sur Journey Agent](../ai-features.md#journey-agent)
+1. **Créer des parcours client** Créez des expériences personnalisées en temps réel à l’aide de la zone de travail du parcours. Utilisez **&#x200B;**&#x200B;dans l&#39;assistant AI pour créer des parcours à partir d&#39;invites en langage naturel. [En savoir plus sur Journey Agent](../ai-features.md#journey-agent)
 
    * Déclenchez des parcours avec des **événements** (actions client) ou des **audiences** (envois par lots).
    * Ajoutez des **conditions** pour créer des chemins personnalisés en fonction des données client.
@@ -71,7 +71,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
+   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
 
 1. **Lancer des campagnes orchestrées** Concevez des campagnes par lots complexes et en plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
 
