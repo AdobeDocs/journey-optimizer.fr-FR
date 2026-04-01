@@ -5,24 +5,24 @@ title: Activités de campagnes orchestrées
 description: Activités de campagnes orchestrées
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Activités de campagnes orchestrées{#section-overview}
 
-Les activités de campagnes orchestrées dans Adobe Journey Optimizer vous offrent la possibilité de concevoir des parcours marketing fluides et pilotés par les données qui vous permettent d’entrer en contact avec votre audience au bon moment et via les bons canaux. En combinant des activités de ciblage, de canal et de contrôle de flux, vous pouvez définir des segments d’audience précis, personnaliser les messages et automatiser des workflows complexes. Que vous créiez des audiences, synchronisiez des branches de campagne ou ralongiez les délais pour une synchronisation parfaite, ces activités fonctionnent ensemble pour rationaliser l’exécution de votre campagne. Grâce à des outils tels que l’enrichissement pour l’amélioration des données ou le partage pour la segmentation d’audience, vous disposez d’une boîte à outils flexible pour créer des expériences client significatives et percutantes.
+Les activités de campagnes orchestrées dans Adobe Journey Optimizer vous offrent la possibilité de concevoir des parcours marketing fluides et pilotés par les données qui vous permettent d’entrer en contact avec votre audience au bon moment et via les bons canaux. En combinant des activités de ciblage, de canal et de contrôle de flux, vous pouvez définir des segments d’audience précis, personnaliser les messages et automatiser des workflows complexes. Que vous créiez des audiences, synchronisiez des branches de campagne ou ralongiez les délais pour une synchronisation parfaite, ces activités fonctionnent ensemble pour rationaliser l’exécution de votre campagne. Grâce à des outils tels que l’enrichissement pour l’amélioration des données ou le partage pour la segmentation d’audience, vous disposez d’une boîte à outils flexible pour créer des expériences clients significatives et percutantes.
 
-## Activités de campagnes orchestrées
+## Activités de campagne orchestrées
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Utiliser des activités de campagnes orchestrées
+Utiliser des activités de campagne orchestrées
 
 Découvrez les activités de ciblage, de canal et de contrôle de flux pour concevoir et exécuter des campagnes orchestrées.
 
@@ -30,7 +30,7 @@ Découvrez les activités de ciblage, de canal et de contrôle de flux pour conc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilisation de l’activité Rendez-vous
 
@@ -40,7 +40,7 @@ Synchronisez plusieurs branches d’exécution en vous assurant que les tâches 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Activité Créer une audience
 
@@ -50,7 +50,7 @@ Définissez et configurez des segments d’audience pour vos campagnes à l’ai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Activité Changement de dimension
 
@@ -60,7 +60,7 @@ Améliorez le ciblage en passant d’une entité de données à l’autre dans v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Activités de canal
 
@@ -70,7 +70,7 @@ Configurez les e-mails, les SMS, les notifications push et le courrier pour l’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activité Combiner
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '9009'
-ht-degree: 100%
+source-wordcount: '9005'
+ht-degree: 99%
 
 ---
 
@@ -197,13 +197,13 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <table>
 <thead>
 <tr>
-<th><strong>Messagerie à débit élevé pour les campagnes par e-mail déclenchées par API</strong><br/></th>
+<th><strong>Messagerie à haut débit pour les campagnes par e-mail déclenchées par API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Un nouveau mode de messagerie transactionnelle à débit élevé est disponible dans les campagnes déclenchées par API. Ce mode est conçu pour les messages transactionnels en temps réel à grande échelle et prend en charge jusqu’à 5 000 transactions par seconde avec une disponibilité supérieure. Ce mode prend également en charge les messages transactionnels sans référencer ni créer de profils client, tels que le passage en caisse de la clientèle, la confirmation de commande, les réinitialisations de mot de passe, les notifications de sécurité et autres notifications de service/exploitation.</p>
+<p>Un nouveau mode de messagerie transactionnelle à débit élevé est disponible dans les campagnes déclenchées par API. Ce mode est conçu pour les messages transactionnels en temps réel à grande échelle et prend en charge jusqu’à 5 000 transactions par seconde avec une disponibilité supérieure. Ce mode prend également en charge les messages transactionnels sans référencer ni créer de profils client, tels que le passage en caisse de la clientèle, la confirmation de commande, les réinitialisations de mot de passe, les notifications de sécurité et autres notifications de service/exploitation.</p>
 <p>Cette fonctionnalité n’est disponible que pour le canal e-mail, pour les organisations qui ont acheté l’offre complémentaire de messagerie transactionnelle à haut débit d’Adobe. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../campaigns/api-triggered-high-throughput.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 22 octobre 2025</p>
@@ -570,8 +570,8 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Améliorations {#sept-25-9-improvements}
 
-* **Prise en charge des webhooks pour les campagnes déclenchées par API**\
-  Les campagnes déclenchées par API prennent désormais en charge les webhooks. Configurez une URL de webhook pour recevoir des mises à jour en temps réel du statut de chaque message, ce qui améliore l’observabilité et permet une surveillance et une automatisation efficaces. [En savoir plus](../configuration/feedback-webhooks.md)
+* **Prise en charge du Webhook pour les campagnes déclenchées par API**\
+  Les campagnes déclenchées par API prennent désormais en charge les Webhooks. Configurez une URL de webhook pour recevoir des mises à jour en temps réel du statut de chaque message, ce qui améliore l’observabilité et permet une surveillance et une automatisation efficaces. [En savoir plus](../configuration/feedback-webhooks.md)
 
   Date de disponibilité : 29 septembre 2025
 

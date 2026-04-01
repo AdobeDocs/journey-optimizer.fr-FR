@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer, unitaire, lecture d’audience, qualification d’audience, événement métier, temps réel, planifié, lot, déclenché par un événement, workflow, orchestration, personnalisation, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 93%
+source-wordcount: '1441'
+ht-degree: 88%
 
 ---
 
@@ -35,17 +35,17 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
-➡️ **Vous souhaitez commencer à créer ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
+➡️ **Vous souhaitez commencer à créer ?** [Créez votre premier parcours ](journey-gs.md) en 5 minutes.
 
 ### Parcours ou campagnes : quand utiliser l’un ou l’autre {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] propose trois approches pour atteindre les clients : **Parcours** (1:1 orchestration en temps réel), **Campagnes** (diffusion simple par lots ou déclenchée par API) et **Campagnes orchestrées** (workflows de zone de travail par lots avec des données à entités multiples).
+[!DNL Adobe Journey Optimizer] propose trois approches pour atteindre les clients : **Parcours** (1:1 orchestration en temps réel), **Campagnes** (diffusion simple par lots ou déclenchée par API) et **Campagnes orchestrées** (workflows de zone de travail par lots avec données multi-entités).
 
 **Décision rapide :**
 
 * Utilisez les **parcours** pour des expériences à plusieurs étapes, axées sur le comportement, où chaque cliente ou client progresse à son propre rythme.
-* Utilisez des **campagnes d’action/déclenchées par API** pour une diffusion de messages simple, planifiée ou déclenchée auprès de vos audiences.
-* Utilisez des **campagnes orchestrées** pour les workflows par lots complexes nécessitant une segmentation multi-entités et un nombre exact de pré-envois.
+* Utilisez des campagnes **déclenchées par action et par API** pour une diffusion de messages simple, planifiée ou déclenchée vers des audiences
+* Utilisez des **campagnes orchestrées** pour les workflows par lots complexes qui nécessitent une segmentation d’entités multiples et un nombre exact de pré-envois
 
 <!-- waiting for DOCAC-13912
 ➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
@@ -73,7 +73,7 @@ Le **[concepteur de parcours](using-the-journey-designer.md)** est votre zone de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Définir des points d’entrée**
 
@@ -83,7 +83,7 @@ Choisissez le mode d’entrée des clientes et clients : par le biais d’un é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Envoyer des messages**
 
@@ -93,7 +93,7 @@ Utilisez des actions de canal intégrées pour les e-mails, les notifications pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Ajouter une logique et des conditions**
 
@@ -113,7 +113,7 @@ Utilisez des données contextuelles issues d’événements, de [!DNL Adobe Expe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Connecter des systèmes externes**
 
@@ -123,7 +123,7 @@ Créez des actions personnalisées pour intégrer des systèmes tiers afin d’e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Ajouter des activités d’orchestration**
 
@@ -148,7 +148,7 @@ Avant d’ouvrir le concepteur, clarifiez vos objectifs :
 
 * **Quel est l’objectif ?** (par exemple, intégrer une nouvelle clientèle, réengager des utilisateurs et utilisatrices inactifs)
 * **Qui est l’audience ?** (segment spécifique, individus pilotés par un événement)
-* **Quel type de parcours convient ?** (voir les [types de parcours &#x200B;](#journey-types) ci-dessus)
+* **Quel type de parcours convient ?** (voir les [types de parcours ](#journey-types) ci-dessus)
 * **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
 
 ### &#x200B;2. Concevoir dans la zone de travail {#design}
@@ -192,7 +192,7 @@ Suivez les performances réelles de votre parcours :
 * Surveillez les taux d’entrée, d’achèvement et d’erreur.
 * Configurez des alertes pour les problèmes critiques.
 
-[Surveiller et établir des rapports → &#x200B;](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
+[Surveiller et établir des rapports → ](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
 
 ### &#x200B;6. Optimiser et itérer {#optimize}
 
@@ -214,7 +214,7 @@ Découvrez des exemples pratiques qui montrent comment appliquer des concepts de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Bienvenue aux nouvelles personnes abonnées**
 
@@ -224,7 +224,7 @@ Lorsqu’un client ou une cliente s’abonne à votre service, déclenchez un pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimisation de l’heure d’envoi**
 
@@ -234,7 +234,7 @@ Utilisez l’IA pour diffuser des e-mails lorsque chaque personne cliente est la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Accélérer les diffusions**
 
@@ -244,7 +244,7 @@ Augmentez progressivement le volume des messages pour améliorer votre réputati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage par jour de la semaine**
 
@@ -254,7 +254,7 @@ Envoyez du contenu différent en fonction du jour de la semaine où les clientes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagnes multicanaux**
 
@@ -264,7 +264,7 @@ Orchestrez des expériences optimales sur les canaux e-mail, push, SMS et web da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tous les cas d’utilisation**
 
@@ -282,7 +282,7 @@ Explorez la bibliothèque complète des cas d’utilisation de parcours avec des
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expressions avancées**
 
@@ -302,7 +302,7 @@ Gérez les audiences globales avec des ajustements de fuseau horaire automatique
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Mode test et test à blanc**
 
@@ -322,7 +322,7 @@ Dupliquez des parcours dans les sandbox pour rationaliser les workflows de test 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Balises et organisation**
 
@@ -332,7 +332,7 @@ Utilisez des balises pour classer et filtrer les parcours afin d’améliorer la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -349,7 +349,7 @@ Limitez le débit des messages pour gérer la réputation des envois et éviter 
 
 Obtenez une présentation visuelle des composants de parcours et découvrez les principes de base de la création de parcours dans la zone de travail :
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Vous voulez plus de vidéos ?** [Découvrir les tutoriels vidéo sur les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -363,9 +363,9 @@ Obtenez une présentation visuelle des composants de parcours et découvrez les 
 
 * **Campagnes (d’action et déclenchées par API)** : diffusion simple des messages aux audiences, s’exécutant simultanément sur tous les profils selon le planning ou via un déclencheur API. Idéal pour les campagnes promotionnelles, les newsletters et les messages transactionnels.
 
-* **Campagnes orchestrées** : workflows par lots à plusieurs étapes avec segmentation complexe à l’aide de données relationnelles (profils + produits/magasins/réservations). Tous les profils sont traités avec le nombre exact de pré-envois. Idéal pour les promotions saisonnières, les lancements de produits et les campagnes nécessitant des données multi-entités.
+* **Campagnes orchestrées** : workflows par lots à plusieurs étapes avec segmentation complexe à l’aide de données relationnelles (profils + produits/boutiques/réservations). Tous les profils sont traités avec le nombre exact de pré-envois. Idéal pour les promotions saisonnières, les lancements de produits et les campagnes nécessitant des données multi-entités.
 
-**Différence clé** : les parcours conservent l’état individuel du client ou de la cliente pour les actions en temps réel. Les campagnes d’action/API diffusent des messages simples par lots. Les campagnes orchestrées fournissent des zones de travail de workflows par lots avec des fonctionnalités de segmentation multi-entités.
+**Principale différence** : les Parcours conservent l’état individuel du client pour les actions en temps réel ; les campagnes déclenchées par action et par API diffusent des messages simples par lots ; les campagnes orchestrées fournissent des zones de travail de workflows par lots avec des fonctionnalités de segmentation d’entités multiples.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [Découvrir les campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
@@ -411,4 +411,4 @@ Configurez des **[alertes de parcours](../reports/alerts.md)** pour recevoir des
 * **[Résolution des problèmes d’exécution](troubleshooting-execution.md)** – Déboguer les problèmes d’exécution de parcours
 * **[Résolution des problèmes d’activités entrantes](troubleshooting-inbound.md)** – Corriger les problèmes d’entrée et de qualification
 
-**Vous voulez créer votre premier parcours ?** [&#x200B; Cʼest parti ! →](journey-gs.md)
+**Vous voulez créer votre premier parcours ?** [ Cʼest parti ! →](journey-gs.md)

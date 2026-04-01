@@ -5,10 +5,10 @@ title: Étapes de configuration
 description: Découvrez comment créer des schémas relationnels directement via l’interface utilisateur.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -28,7 +28,7 @@ L’exemple suivant définit manuellement le schéma **Membres du programme de f
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [Pour en savoir plus sur les schémas relationnels, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Pour en savoir plus sur les schémas relationnels, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Créer votre schéma {#schema}
 
@@ -114,7 +114,7 @@ Après avoir créé et enregistré des attributs, vous pouvez lier le schéma à
 
 ## Lier des schémas {#link-schema}
 
-La création d’une relation entre deux schémas permet d’enrichir vos campagnes orchestrées avec des données stockées en dehors du schéma de profil principal.
+La création d’une relation entre deux schémas permet d’améliorer les campagnes orchestrées avec des données au-delà du schéma de profil principal.
 
 1. Dans le schéma que vous venez de créer, sélectionnez l’attribut à utiliser comme lien et cliquez sur **[!UICONTROL Ajouter une relation]**.
 
@@ -152,7 +152,7 @@ Vous devez maintenant activer votre jeu de données pour les campagnes orchestr�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
->title="Campagnes orchestrées"
+>title="Campagnes orchestrées"
 >abstract="Après avoir créé votre jeu de données, vous devez l’activer explicitement pour les campagnes orchestrées. Cette étape permet de s’assurer que votre jeu de données est disponible pour l’orchestration et la personnalisation en temps réel dans Adobe Journey Optimizer."
 
 
@@ -162,7 +162,7 @@ Consultez la [documentation Adobe Developer](https://developer.adobe.com/journey
 
 1. Recherchez votre jeu de données dans la liste **[!UICONTROL Jeux de données]**.
 
-1. Dans les paramètres **[!UICONTROL Jeux de données]**, activez l’option **Campagnes orchestrées** pour pouvoir utiliser le jeu de données dans vos campagnes orchestrées.
+1. Dans les paramètres **[!UICONTROL Jeux de données]**, activez l’option **Campagnes orchestrées** pour marquer le jeu de données disponible pour une utilisation dans vos campagnes orchestrées.
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

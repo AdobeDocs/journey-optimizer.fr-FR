@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1612'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -25,7 +25,7 @@ Journey Optimizer réunit des informations sur la clientèle en temps réel, une
 Journey Optimizer propose deux approches d’orchestration puissantes :
 
 * **Parcours** : engagement individuel et en temps réel, où chaque client ou cliente évolue à son propre rythme, en fonction de son comportement ou d’événements.
-* **Campagnes orchestrées** : campagnes par lots complexes et en plusieurs étapes à grande échelle où les audiences progressent ensemble par le biais de workflows : idéales pour les campagnes lancées par une marque comme les promotions saisonnières, les lancements de produits ou les communications basées sur des comptes.
+* **Campagnes orchestrées** : campagnes par lots complexes et à plusieurs étapes à grande échelle où les audiences progressent ensemble par le biais de workflows, idéales pour les campagnes lancées par la marque comme les promotions saisonnières, les lancements de produits ou les communications basées sur un compte
 
 Collaborez avec vos [administrateurs](administrator.md) pour obtenir l’accès et avec les [ingénieurs de données](data-engineer.md) pour configurer des audiences, des données et des schémas relationnels en vue d’une segmentation avancée. Consultez la présentation [Prise en main de la gestion des données](../../data/gs-data.md) pour savoir quelle configuration des données est nécessaire avant de pouvoir créer des parcours et des campagnes.
 
@@ -56,7 +56,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    Découvrez comment [tester et valider des messages](../../content-management/preview-test.md).
 
-1. **Créer des parcours client** Créez des expériences personnalisées en temps réel à l’aide de la zone de travail du parcours. Utilisez **&#x200B;**&#x200B;dans l&#39;assistant AI pour créer des parcours à partir d&#39;invites en langage naturel. [En savoir plus sur Journey Agent](../ai-features.md#journey-agent)
+1. **Créer des parcours client** Créez des expériences personnalisées en temps réel à l’aide de la zone de travail du parcours. Utilisez **** dans l&#39;assistant AI pour créer des parcours à partir d&#39;invites en langage naturel. [En savoir plus sur Journey Agent](../ai-features.md#journey-agent)
 
    * Déclenchez des parcours avec des **événements** (actions client) ou des **audiences** (envois par lots).
    * Ajoutez des **conditions** pour créer des chemins personnalisés en fonction des données client.
@@ -71,7 +71,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
+   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
 
 1. **Lancer des campagnes orchestrées** Concevez des campagnes par lots complexes et en plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
 
@@ -207,5 +207,5 @@ Collaborez avec les [administrateurs et les administratrices](administrator.md) 
 
 1. **Commencez simplement** : créez un parcours de bienvenue simple ou une campagne à message unique pour apprendre à utiliser la plateforme.
 2. **Utilisez l’IA** : utilisez l’assistant IA pour poser des questions et accélérer la création de contenu.
-3. **Rejoignez la communauté** : discutez avec d’autres utilisateurs et utilisatrices de Journey Optimizer dans la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+3. **Rejoignez la communauté** : discutez avec d’autres utilisateurs et utilisatrices de Journey Optimizer dans la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}.
 4. **Explorez les tutoriels** : regardez des vidéos détaillées sur [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"}.

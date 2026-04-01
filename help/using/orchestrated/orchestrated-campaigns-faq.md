@@ -5,10 +5,10 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1958'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -73,7 +73,7 @@ Pour accéder à l’orchestration de campagne, votre licence doit inclure le pa
 * **Campagnes orchestrées** : idéales pour les campagnes **par lots, de type « un-à-plusieurs »**. Les audiences progressent en bloc, selon un planning.
 * **Parcours** : parfaits pour l’engagement **en temps réel, de type « un-à-plusieurs »**. Chaque client ou cliente suit le parcours à son propre rythme, déclenché par un comportement ou des événements.
 
-**Bonne pratique** : utilisez-les ensemble : les parcours pour les expériences déclenchées et réactives et les campagnes orchestrées pour les initiatives planifiées basées sur un calendrier.
+**Bonne pratique** : utilisez-les ensemble : Parcours pour les expériences déclenchées et réactives, et campagnes orchestrées pour les initiatives planifiées basées sur un calendrier.
 
 **En savoir plus**
 

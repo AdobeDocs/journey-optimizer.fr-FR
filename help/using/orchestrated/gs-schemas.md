@@ -5,10 +5,10 @@ title: Étapes de configuration
 description: Découvrez comment créer un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ Il décrit :
 * Les attributs de ces entités (par exemple, Nom du client ou de la cliente, Date de début de la campagne)
 * Les relations entre les entités (par exemple, les clients et clientes appartiennent à des segments, les campagnes ciblent des segments)
 
-Un modèle de données est logique et conceptuel, et n’est pas lié à une mise en œuvre physique dans les campagnes orchestrées.
+Un modèle de données est logique et conceptuel, et n’est pas lié à une implémentation physique dans une campagne orchestrée
 
 Dans un **modèle de données relationnel**, les données sont organisées en tables liées à d’autres tables.
 
@@ -52,7 +52,7 @@ Il précise :
 
 L’organisation des schémas ou des tables dans un modèle de données relationnel consiste à structurer vos données en plusieurs tables. Assurez-vous que chaque table stocke un type d’entité/des schémas.
 
-➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Étapes dʼimplémentation {#implementation}
 
@@ -74,7 +74,7 @@ Pour ingérer des données et créer un schéma relationnel, procédez comme sui
 
 1. [Activer des campagnes orchestrées](manual-schema.md#enable)
 
-   Ce jeu de données stocke vos données ingérées et doit être activé pour les campagnes orchestrées afin de le rendre accessible dans Adobe Journey Optimizer.
+   Le jeu de données stocke vos données ingérées et doit être activé pour les campagnes orchestrées afin de s’assurer qu’il est accessible dans Adobe Journey Optimizer.
 
 1. [Ingérer des données](ingest-data.md)
 

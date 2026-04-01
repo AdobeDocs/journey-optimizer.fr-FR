@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 68%
+ht-degree: 67%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 68%
 
 Le reciblage permet de relancer les destinataires en fonction de leur réaction à une campagne orchestrée précédente. Par exemple, il est possible d’envoyer un deuxième e-mail aux destinataires qui ont reçu, mais n’ont pas cliqué sur le premier.
 
-**[!UICONTROL Campagne orchestrée]** fournit deux schémas principaux pour cela :
+**[!UICONTROL Campagne orchestrée]** propose deux schémas principaux :
 
 * **[!UICONTROL Retour sur les messages]** : capture les événements liés à la diffusion, par exemple message envoyé, ouvert, rejeté, etc.
 * **[!UICONTROL Suivi des e-mails]** : capture les actions de l’utilisateur ou de l’utilisatrice, par exemple clics et ouvertures.
@@ -32,7 +32,7 @@ La règle de reciblage basée sur les retours permet de recibler les destinatair
 
 À l’aide de ces données, il est possible de définir des règles pour identifier les destinataires ayant reçu un message précédent, ce qui permet d’assurer une communication de suivi fondée sur des statuts de diffusion spécifiques.
 
-1. Créer une nouvelle **[!UICONTROL campagne orchestrée]**.
+1. Créez une **[!UICONTROL Campagne orchestrée]**.
 
 1. Ajoutez une activité **[!UICONTROL Créer une audience]** et définissez la dimension de ciblage sur **[!UICONTROL Destinataire (caas)]**. Cliquez sur **[!UICONTROL Continuer]**.
 
@@ -44,7 +44,7 @@ La règle de reciblage basée sur les retours permet de recibler les destinatair
 
    1. Sélectionnez la règle de filtrage et choisissez le **[!UICONTROL Comportement]** que vous souhaitez cibler, tel que **[!UICONTROL Message envoyé]**.
 
-   1. Cliquez sur ![icône de dossier &#x200B;](assets/do-not-localize/folder-search.svg) pour sélectionner la campagne spécifique à recibler. Vous disposez de deux options :
+   1. Cliquez sur ![icône de dossier ](assets/do-not-localize/folder-search.svg) pour sélectionner la campagne spécifique à recibler. Vous disposez de deux options :
 
       * **[!UICONTROL Sélectionner une campagne spécifique]** : sélectionnez une campagne spécifique dans votre liste pour recibler les destinataires qui ont interagi avec cette campagne.
 
@@ -119,7 +119,7 @@ La règle de reciblage basé sur le tracking cible les destinataires en fonction
 
 Pour recibler les destinataires en fonction des interactions sur les messages (par exemple ouverture ou clic), utilisez l’entité **[!UICONTROL Suivi des e-mails]** comme suit :
 
-1. Créer une nouvelle **[!UICONTROL campagne orchestrée]**.
+1. Créez une **[!UICONTROL Campagne orchestrée]**.
 
 1. Ajoutez une activité **[!UICONTROL Créer une audience]** et définissez la dimension de ciblage sur **[!UICONTROL Destinataire]** afin de vous concentrer sur les destinataires des campagnes orchestrées précédentes.
 
@@ -135,7 +135,7 @@ Pour recibler les destinataires en fonction des interactions sur les messages (p
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Cliquez sur ![icône de dossier &#x200B;](assets/do-not-localize/folder-search.svg) pour sélectionner la campagne spécifique à recibler. Vous disposez de deux options :
+   1. Cliquez sur ![icône de dossier ](assets/do-not-localize/folder-search.svg) pour sélectionner la campagne spécifique à recibler. Vous disposez de deux options :
 
       * **[!UICONTROL Sélectionner une campagne spécifique]** : sélectionnez une campagne spécifique dans votre liste pour recibler les destinataires qui ont interagi avec cette campagne.
 

@@ -5,19 +5,19 @@ title: Créer une dimension de ciblage
 description: Découvrez comment mapper un schéma relationnel au profil client
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: f842142a985481004192c88af2973787912c85b3
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 
 # Configurer une dimension de ciblage {#configuration}
 
-Avec les **[!UICONTROL campagnes orchestrées]**, vous pouvez concevoir et diffuser des communications ciblées au niveau de l’entité, en tirant parti des fonctionnalités de schéma relationnel d’Adobe Experience Platform. Experience Platform utilise des schémas pour décrire la structure des données de manière cohérente et réutilisable. Lorsque des données sont ingérées dans Experience Platform, elles sont structurées en fonction d’un schéma XDM.
+Grâce aux **[!UICONTROL campagnes orchestrées]**, vous pouvez concevoir et diffuser des communications ciblées au niveau de l’entité, en exploitant les fonctionnalités du schéma relationnel de Adobe Experience Platform. Experience Platform utilise des schémas pour décrire la structure des données de manière cohérente et réutilisable. Lorsque des données sont ingérées dans Experience Platform, elles sont structurées en fonction d’un schéma XDM.
 
-Bien que la segmentation pour les **[!UICONTROL campagnes orchestrées]** repose principalement sur des schémas relationnels, la diffusion réelle des messages s’effectue toujours au niveau du **Profil**.
+Bien que la segmentation des **[!UICONTROL campagnes orchestrées]** fonctionne principalement sur des schémas relationnels, la diffusion réelle des messages se produit toujours au niveau du **profil**.
 
 Lors de la configuration du ciblage, vous devez définir deux aspects essentiels :
 
@@ -27,7 +27,7 @@ Lors de la configuration du ciblage, vous devez définir deux aspects essentiels
 
   >[!IMPORTANT]
   >
-  > Les campagnes orchestrées permettent le ciblage sur tout schéma ayant une relation directe ou connexe avec le schéma **Profil**. Bien que leur utilisation soit principalement destinée aux relations 1:1, elles prennent également en charge les relations 1:N, telles que Compte `>` Destinataires, tant que le chemin de la relation est correctement modélisé dans le modèle de données. Cela permet un ciblage basé sur les données au niveau du compte tout en résolvant l’identité de profil correcte pour la diffusion des messages.
+  > Les campagnes orchestrées permettent de cibler n’importe quel schéma ayant une relation directe ou connexe avec le schéma **Profil**. Bien que leur utilisation soit principalement destinée aux relations 1:1, elles prennent également en charge les relations 1:N, telles que Compte `>` Destinataires, tant que le chemin de la relation est correctement modélisé dans le modèle de données. Cela permet un ciblage basé sur les données au niveau du compte tout en résolvant l’identité de profil correcte pour la diffusion des messages.
 
 * **Lien de profil**
 
