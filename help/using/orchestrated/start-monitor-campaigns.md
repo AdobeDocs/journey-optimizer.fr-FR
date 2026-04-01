@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 55%
+source-wordcount: '1175'
+ht-degree: 54%
 
 ---
 
@@ -50,7 +50,7 @@ L’icône **[!UICONTROL Alertes]** / **[!UICONTROL Avertissement]** de la bar
 
 Vous pouvez également identifier rapidement les activités ayant échoué à l’aide des [indicateurs visuels de statut](#activities) affichés directement sur chaque activité. Pour une résolution détaillée des problèmes, ouvrez les [journaux de la campagne](#logs-tasks) qui fournissent des informations détaillées sur l’erreur et son contexte.
 
-Si vous avez ajouté des activités de canal dans la zone de travail, vous pouvez prévisualiser et tester le contenu de vos messages à l’aide du bouton **[!UICONTROL Simuler le contenu]**. [Découvrez comment utiliser les activités de canal](activities/channels.md)
+Si vous avez ajouté des activités de canal dans la zone de travail, vous pouvez prévisualiser et tester le contenu de vos messages à l’aide du bouton **[!UICONTROL Simuler le contenu]**. [Découvrez comment travailler avec les activités des canaux et simuler du contenu](activities/channels.md#simulate-content-test-profiles).
 
 Une fois validée, la campagne peut être publiée.
 

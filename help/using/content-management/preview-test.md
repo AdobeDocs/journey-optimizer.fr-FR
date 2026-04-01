@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 95%
 
 ---
 
@@ -31,6 +31,10 @@ Vous pouvez également envoyer des diffusions de test de vos e-mails à des dest
 Toutes ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simuler du contenu]** accessible à partir de l’écran d’édition du contenu de votre message ou à partir des concepteurs d’e-mail et web pour les canaux e-mail et web.
 
 ![](../email/assets/email-preview-button.png)
+
+>[!IMPORTANT]
+>
+>Si vous utilisez **[!UICONTROL Simuler du contenu]** à partir d’une activité de canal **Campagne orchestrée**, consultez [Vérifier et tester votre contenu](../orchestrated/activities/channels.md#simulate-content-test-profiles) pour plus d’informations et des notes importantes.
 
 ## Test à l’aide de données de profils de test ou de données d’exemples d’entrée {#methods}
 
@@ -68,4 +72,4 @@ Journey Optimizer propose deux expériences pour tester votre contenu :
 
 Découvrez comment utiliser des profils de test pour tester le rendu des e-mails dans différentes boîtes de réception, prévisualiser vos e-mails personnalisés avec des profils de test et envoyer des BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430344?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

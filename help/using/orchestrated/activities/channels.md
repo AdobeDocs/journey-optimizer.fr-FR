@@ -5,10 +5,10 @@ title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 65%
+source-wordcount: '1682'
+ht-degree: 60%
 
 ---
 
@@ -128,7 +128,7 @@ Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction 
 
 Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grandes quantités dans le cadre de campagnes. La diffusion rapide est utilisée lorsque le retard de diffusion des messages est critique pour l&#39;entreprise. Par exemple, vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, telle que des nouvelles importantes aux utilisateurs qui ont installé votre application de canal d&#39;actualités. Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../../push/create-push.md#rapid-delivery).
 
-Pour plus d&#39;informations sur les performances en mode de diffusion rapide, consultez la description du produit [&#128279;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Pour plus d&#39;informations sur les performances en mode de diffusion rapide, consultez la description du produit [](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -167,11 +167,17 @@ Lorsque vous accédez à l’éditeur de personnalisation depuis une campagne or
 
 Pour une présentation détaillée de l’utilisation de l’éditeur de personnalisation, reportez-vous à la section [Prise en main de la personnalisation](../../personalization/personalize.md).
 
-### Vérifier et tester le contenu
+### Vérifier et tester le contenu {#simulate-content-test-profiles}
 
 Une fois votre contenu créé, utilisez le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser et tester votre contenu avec des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [En savoir plus](../../content-management/preview-test.md)
 
 ![image montrant le bouton Simuler du contenu](../assets/channel-simulate.png)
+
+Lorsque vous simulez du contenu avec des **profils de test** dans une campagne orchestrée, deux contraintes importantes s’appliquent :
+
+* **L’exécution doit avoir atteint l’activité de canal en test** - Exécutez la campagne en test à l’aide du bouton **[!UICONTROL Démarrer]** afin que le workflow atteigne l’activité de canal que vous souhaitez simuler. En mode test, le workflow s’arrête à l’activité de canal, de sorte qu’une activité de canal qui suit une autre activité de canal n’est jamais atteinte. Vous ne pouvez pas utiliser **[!UICONTROL Simuler du contenu]** pour ces activités de canal en aval. Voir [Tester votre campagne avant la publication](../start-monitor-campaigns.md#test).
+
+* **Le profil de test doit correspondre à la cible de l’activité de canal** - Utilisez un profil de test qui appartient à l’audience ciblée par cette activité de canal. Si le profil ne se trouve pas dans cette audience, le fait de le sélectionner ne génère pas d’aperçu de votre contenu. Voir [Sélection des profils de test](../../content-management/test-profiles.md).
 
 ## Confirmer l’envoi du message
 
