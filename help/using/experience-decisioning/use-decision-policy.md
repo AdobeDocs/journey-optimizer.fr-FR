@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '780'
 ht-degree: 12%
 
 ---
@@ -43,7 +43,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB E-mail]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -59,11 +59,11 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
    >[!NOTE]
    >
-   >Si vous utilisez plusieurs politiques de décision dans le même e-mail (par exemple, une pour l’en-tête et une pour le pied de page), la même offre est dédupliquée à plusieurs emplacements : chaque zone reçoit une offre différente. Pour afficher la même offre dans plusieurs zones, utilisez **[!UICONTROL Réutiliser la sortie de décision]** lors de l’ajout d’une politique de décision. [Découvrez comment créer des politiques de décision](create-decision-policy.md).
+   >Si vous utilisez plusieurs politiques de décision dans le même e-mail (par exemple, une pour l’en-tête et une pour le pied de page), la même offre est dédupliquée à plusieurs emplacements : elle n’est pas rendue deux fois. La deuxième politique de décision ne renvoie aucun contenu et affiche un espace vide, sauf si vous avez configuré une offre de secours, auquel cas la version de secours s’affiche à la place.
 
 >[!TAB SMS]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -71,7 +71,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB Notification push]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -93,7 +93,7 @@ Le code de la politique de décision est ajouté. Vous pouvez désormais utilise
 
 Une fois que vous avez ajouté le code d’une politique de décision dans votre contenu, tous les attributs des éléments de décision renvoyés peuvent être personnalisés. [Découvrez comment utiliser la personnalisation](../personalization/personalize.md).
 
-Les attributs sont stockés dans le schéma de catalogue [&#x200B; Offres &#x200B;](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
+Les attributs sont stockés dans le schéma de catalogue [ Offres ](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
 * **Attributs personnalisés** : dossier `_\<imsOrg\>`
 * **Attributs standard** : dossier `_experience`
 
