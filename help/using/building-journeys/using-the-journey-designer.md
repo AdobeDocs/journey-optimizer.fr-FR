@@ -10,19 +10,15 @@ level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 9691a5c7f3654c8c5d7945bb32ad772cf189d000
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 96%
+source-wordcount: '1706'
+ht-degree: 95%
 
 ---
 
 # Concevoir votre parcours {#design-your-journey}
 
->[!CONTEXTUALHELP]
->id="ajo_journey_canvas"
->title="Concevoir votre parcours"
->abstract="L&#39;interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l&#39;ajouter dans la zone de travail à la prochaine étape disponible."
 
 [!DNL Adobe Journey Optimizer] comprend une zone de travail d’orchestration omnicanal qui permet aux marketeurs d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter à la zone de travail à la prochaine étape disponible.
 
