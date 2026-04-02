@@ -10,10 +10,10 @@ level: Intermediate
 keywords: fuseau horaire, propriétés, parcours, condition, heure, date, personnalisé
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 90%
+source-wordcount: '373'
+ht-degree: 65%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
->title="Fuseau horaire"
+>title="fuseau horaire du parcours"
 >abstract="Sélectionnez le fuseau horaire du parcours. Si vous utilisez un fuseau horaire fixe, il est identique pour toutes les personnes qui entrent dans le parcours."
 
 
@@ -49,18 +49,18 @@ Pour cela, dans le volet **[!UICONTROL Propriétés du parcours]**, sélectionne
 
 ![Liste déroulante de sélection du fuseau horaire dans les propriétés du parcours](assets/journey72.png)
 
-## Utiliser le fuseau horaire des profils {#timezone-from-profiles}
+## Utiliser le fuseau horaire du profil {#timezone-from-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="Utiliser le fuseau horaire du profil"
->abstract="Cochez la case pour utiliser le fuseau horaire de profil en temps réel dans les activités d’attente et de condition. Si un fuseau horaire a été défini pour un profil, il est récupéré et utilisé par le parcours. Dans le cas contraire, le fuseau horaire utilisé est celui défini dans le champ du fuseau horaire du dessus."
+>abstract="Cochez cette option pour utiliser le fuseau horaire du profil en temps réel dans les activités **Attente** et **Condition**. Si un fuseau horaire a été défini pour un profil, il est récupéré et utilisé dans le parcours. Dans le cas contraire, le fuseau horaire est celui défini dans le champ Fuseau horaire ci-dessus."
 
 Si l’événement d’entrée du parcours comporte un espace de noms, ce qui signifie que le parcours peut accéder au service de profil client en temps réel de [!DNL Adobe Experience Platform], vous pouvez utiliser le fuseau horaire défini au niveau du profil. Pour cela, dans **Propriétés**, cochez la case **Utiliser le fuseau horaire du profil dans les attentes et conditions**. Cette option n’est pas cochée par défaut.
 
-Si un fuseau horaire a été défini pour un profil, il est récupéré et utilisé par le parcours. Dans le cas contraire, le fuseau horaire utilisé sera celui défini dans le champ du fuseau horaire.
+Si un fuseau horaire a été défini pour un profil, il est récupéré et utilisé par le parcours. Dans le cas contraire, le fuseau horaire utilisé est celui défini dans le champ du fuseau horaire.
 
-![Configuration du fuseau horaire du profil dans les sources de données pour un horaire personnalisé](assets/journey73.png)
+![Configuration du fuseau horaire du profil dans les sources de données pour une durée personnalisée](assets/journey73.png)
 
 >[!NOTE]
 >

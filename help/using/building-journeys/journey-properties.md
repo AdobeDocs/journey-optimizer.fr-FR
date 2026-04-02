@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
+source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 84%
+source-wordcount: '3257'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriétés du parcours"
->abstract="Cette section présente les propriétés du parcours. Par défaut, les paramètres en lecture seule sont masqués. Les paramètres disponibles dépendent du statut du parcours, de vos autorisations et de la configuration de votre produit."
+>abstract="Configurez les paramètres globaux de ce parcours, notamment le nom, les balises, les règles d’entrée, le fuseau horaire, les dates, le délai d’expiration et la gestion des conflits. Les paramètres en lecture seule sont masqués par défaut. Les options disponibles varient en fonction du statut du parcours, de vos autorisations et de la configuration du produit."
 
 ## Accéder aux propriétés d’un parcours {#access-properties}
 
@@ -292,13 +292,18 @@ Depuis [!DNL Adobe Journey Optimizer] version de juin 2024, le délai d’expira
   </tr>
 </table>
 
-## Politiques de fusion {#merge-policies}
+## Politique de fusion {#merge-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_merge_policy"
+>title="Politique de fusion"
+>abstract="La politique de fusion est automatiquement récupérée en fonction de l’événement ou de l’audience sélectionné. Cette politique de fusion est utilisée dans par l’intermédiaire du parcours entier."
 
 [!DNL Adobe Journey Optimizer] utilise des politiques de fusion lors de la récupération des données de profil de [!DNL Adobe Experience Platform]. Selon le type de parcours, différentes politiques de fusion sont utilisées :
 
-* Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée.
-* Dans les parcours d’événements unitaires : la politique de fusion par défaut est utilisée.
-* Dans les parcours d’événements métier : la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée.
+* Dans les parcours **[Lecture d’audience](read-audience.md)** ou **[Qualification d’audience](audience-qualification-events.md)** : la politique de fusion de l’audience est utilisée
+* Dans les parcours **[Événement unitaire](../event/about-events.md)** : la politique de fusion par défaut est utilisée
+* Dans les parcours **[Événement métier](../event/about-creating-business.md)** : la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée
 
 [!DNL Adobe Journey Optimizer] applique la politique de fusion utilisée dans l’ensemble du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions [`inAudience`](functions/functioninaudience.md)), ce qui crée des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque celle-ci est utilisée dans la personnalisation des messages.
 
@@ -388,7 +393,7 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
-* [Comment se terminent les parcours &#x200B;](end-journey.md) : comprenez la fin naturelle des parcours.
+* [Comment se terminent les parcours ](end-journey.md) : comprenez la fin naturelle des parcours.
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) : utilisez des critères de sortie lors de la mise en pause des parcours.
 
 ## Planning du parcours {#schedule}
@@ -397,7 +402,7 @@ La section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activi
 
 >[!TIP]
 >
->Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours &#x200B;](send-using-waves.md)
+>Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours ](send-using-waves.md)
 
 
 ## Gestion des conflits {#conflict}
