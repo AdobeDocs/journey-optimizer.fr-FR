@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 1%
 # Déclencher des campagnes orchestrées à l’aide d’un signal {#trigger-signal}
 
 Vous pouvez déclencher une campagne orchestrée en lui envoyant un signal au lieu de l’exécuter selon un planning. Le signal est envoyé via un appel API à partir d’un système ou d’une application externe. Lors de l’utilisation d’un signal , vous pouvez transmettre des paramètres. Elles sont ensuite mises à disposition dans la campagne orchestrée sous la forme de variables d’événement dans le contexte d’exécution, à utiliser dans le ciblage, les conditions ou les expressions.
+
+Pour obtenir la spécification REST complète du point d’entrée du déclencheur (chemins, en-têtes, corps, réponses et erreurs), consultez [API Trigger Orchestrated Campagnes](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} dans la documentation de l’API Adobe Journey Optimizer.
 
 Processus de bout en bout pour déclencher une campagne orchestrée à l&#39;aide d&#39;un signal :
 
@@ -29,7 +31,7 @@ Processus de bout en bout pour déclencher une campagne orchestrée à l&#39;aid
 
 >[!NOTE]
 >
->Pour déclencher une campagne orchestrée à l’aide d’un signal, vous devez disposer de l’autorisation **[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`). Voir [&#x200B; Autorisations intégrées &#x200B;](../administration/ootb-permissions.md).
+>Pour déclencher une campagne orchestrée à l’aide d’un signal, vous devez disposer de l’autorisation **[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`). Voir [ Autorisations intégrées ](../administration/ootb-permissions.md).
 
 ## Planifier la campagne à déclencher par un signal {#configure-signal}
 
@@ -100,7 +102,7 @@ Créez votre campagne sur la zone de travail, puis testez-la éventuellement dan
 
 1. Cliquez sur **[!UICONTROL Démarrer]** pour démarrer la campagne.
 
-1. Envoyez l’appel API déclencheur à l’aide de l’exemple de requête que vous avez copié à partir du planificateur. <!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
+1. Envoyez l’appel API déclencheur à l’aide de l’exemple de requête que vous avez copié à partir du planificateur. Voir [Déclencher l’API de campagnes orchestrées](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} pour les détails de la requête et de la réponse.
 
 Lorsque les résultats des tests vous conviennent, [publiez la campagne](#publish).
 
@@ -116,7 +118,7 @@ Une fois que vous avez [créé et testé la campagne](#build-and-test), publiez 
 
    ![Copier la requête d’API dans la configuration du planning](assets/triggered-oc-copy.png)
 
-1. Appelez l’API de déclenchement depuis votre système.
+1. Appelez l’API de déclenchement depuis votre système. Consultez [Déclencher l’API de campagnes orchestrées](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} pour la spécification des points d’entrée dynamiques.
 
    >[!IMPORTANT]
    >

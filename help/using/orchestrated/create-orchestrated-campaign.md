@@ -5,7 +5,7 @@ title: Créer et planifier des campagnes orchestrées avec Journey Optimizer
 description: Découvrez comment créer et planifier une campagne orchestrée avec Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 94%
@@ -70,13 +70,15 @@ Pour créer une campagne orchestrée, procédez comme suit :
 
 Par défaut, les campagnes orchestrées démarrent lorsqu’elles sont activées manuellement et se terminent lorsque leurs activités associées ont été exécutées. Si vous préférez retarder l’exécution ou lancer la campagne de manière récurrente, vous pouvez définir un planning.
 
-Vous pouvez également démarrer la campagne lorsqu’elle reçoit un signal d’un système ou d’une application externe au lieu de l’exécuter selon un planning. [Découvrez comment déclencher une campagne orchestrée à l’aide d’un signal](trigger-orchestrated-campaign.md).
-
 Tenez compte des bonnes pratiques suivantes lors de la planification de campagnes orchestrées afin de garantir des performances optimales et de vous assurer que le comportement soit tel qu’attendu :
 
 * Ne planifiez pas l’exécution d’une campagne orchestrée à une fréquence supérieure à toutes les 15 minutes, car cela peut nuire aux performances générales du système et créer des blocages dans la base de données.
 * Si vous souhaitez envoyer un message ponctuel dans votre campagne orchestrée, vous pouvez le définir afin qu’il s’exécute **Une fois**.
 * Si vous souhaitez envoyer un message récurrent dans votre campagne orchestrée, vous devez utiliser une option de **Planification** et définir la fréquence d’exécution. L’activité de diffusion récurrente ne permet pas de définir de planning.
+
+>[!NOTE]
+>
+>Vous pouvez également démarrer la campagne lorsqu’elle reçoit un signal d’un système ou d’une application externe au lieu de l’exécuter selon un planning. [Découvrez comment déclencher une campagne orchestrée à l’aide d’un signal](trigger-orchestrated-campaign.md).
 
 Pour configurer le planning de la campagne, procédez comme suit :
 

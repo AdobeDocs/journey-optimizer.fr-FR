@@ -5,10 +5,10 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '1958'
-ht-degree: 87%
+source-wordcount: '1969'
+ht-degree: 86%
 
 ---
 
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ Comment tester une campagne orchestrée déclenchée par un signal avant sa publication ?
 
-Lorsque la campagne est en version **brouillon**, vous pouvez la tester en définissant des **paramètres** dans le planning et en fournissant des **valeurs de test** pour chacune. Démarrez le workflow, puis appelez l’API de déclenchement (à l’aide de l’exemple de requête de la configuration de planning ou de votre propre requête avec le même point d’entrée) pour exécuter la campagne avec ces valeurs de test. [Découvrez comment terminer et tester une campagne déclenchée par un signal](trigger-orchestrated-campaign.md#complete-and-test).
+Lorsque la campagne est en version **brouillon**, vous pouvez la tester en définissant des **paramètres** dans le planning et en fournissant des **valeurs de test** pour chacune. Démarrez le workflow, puis appelez l’API de déclenchement (à l’aide de l’exemple de requête de la configuration de planning ou de votre propre requête avec le même point d’entrée) pour exécuter la campagne avec ces valeurs de test. [Découvrez comment terminer et tester une campagne déclenchée par un signal](trigger-orchestrated-campaign.md#build-and-test). Pour la référence de l’API de déclenchement, voir [Déclencher l’API de campagnes orchestrées](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}.
 
 +++
 
