@@ -219,7 +219,7 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
 * **Afficher les résultats** : affiche les données issues de votre requête.
 * **Affichage du code** : affiche une version basée sur le code de la requête en SQL.
 * **Calculer** : met à jour et affiche le nombre d’enregistrements ciblés par votre règle.
-* **Sélectionner ou enregistrer un filtre** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. Si le filtre comprend des paramètres, indiquez des valeurs avant de l’appliquer. Pour plus d’informations, voir [ Utilisation de filtres prédéfinis](predefined-filters.md).
+* **Sélectionner ou enregistrer un filtre** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. Si le filtre comprend des paramètres, indiquez des valeurs avant de l’appliquer. Pour plus d’informations, voir [&#x200B; Utilisation de filtres prédéfinis](predefined-filters.md).
 
 <br/>
 
