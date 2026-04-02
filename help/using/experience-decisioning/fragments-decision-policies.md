@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '438'
 ht-degree: 88%
 
 ---
@@ -19,7 +19,7 @@ Si votre politique de décision contient des éléments de décision, y compris 
 
 >[!AVAILABILITY]
 >
->Actuellement, cette fonctionnalité n’est disponible que pour le canal **Expérience basée sur le code**.
+>Cette fonctionnalité est disponible en disponibilité limitée pour les canaux **Expérience basée sur le code** et **E-mail**. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
 
 Supposons, par exemple, que vous souhaitiez afficher différents contenus pour plusieurs modèles d’appareils mobiles. Assurez-vous d’avoir ajouté les fragments correspondant à ces appareils à l’élément de décision que vous utilisez dans la politique de décision. [Découvrez comment procéder](items.md#attributes).
 

@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 90%
+source-wordcount: '2159'
+ht-degree: 88%
 
 ---
 
@@ -48,23 +48,11 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 
 1. Le champ **Balises** vous permet d’affecter des balises unifiées Adobe Experience Platform à vos éléments de décision. Vous pouvez ainsi facilement les classer et améliorer la recherche. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
 
-1. Utilisez des fragments pour ajouter plusieurs contenus à l’élément de décision, par exemple, si vous souhaitez afficher différents contenus pour plusieurs modèles d’appareils mobiles. [En savoir plus sur les fragments](../content-management/fragments.md)
+1. Utilisez des [fragments](../content-management/fragments.md) pour ajouter plusieurs contenus à l’élément de décision, par exemple, si vous souhaitez afficher différents contenus pour plusieurs modèles d’appareil mobile. Vous pouvez ensuite exploiter ces fragments dans vos politiques de décision. [Voici comment procéder](fragments-decision-policies.md)
 
    >[!AVAILABILITY]
    >
-   >Actuellement, cette fonctionnalité n’est disponible que pour le canal d’expérience basé sur le code.
-
-   Dans la section **[!UICONTROL Fragments]**, sélectionnez les fragments publiés que vous souhaitez utiliser et attribuez-leur une clé de référence. Vous pouvez ensuite utiliser ces fragments dans vos politiques de décision. [Voici comment procéder](fragments-decision-policies.md)
-
-   ![](assets/item-fragments.png){width=70%}
-
-   Vous pouvez uniquement sélectionner les fragments publiés et ajouter jusqu’à six fragments dans un élément de décision.
-
-   >[!WARNING]
-   >
-   >Actuellement, seuls les [fragments d’expression](../personalization/use-expression-fragments.md) sont pris en charge.
-   >
-   >Les fragments imbriqués (fragments référençant d’autres fragments) ne peuvent pas être utilisés. L’[approbation](#approve) de l’élément de décision échoue si vous ajoutez un tel fragment.
+   >Cette fonctionnalité est disponible en disponibilité limitée pour les canaux **Expérience basée sur le code** et **E-mail**. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
 
 1. Spécifiez des attributs personnalisés (facultatif). Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont définis dans le schéma de catalogue des éléments de décision. [Découvrez comment utiliser les catalogues](catalogs.md).
 
@@ -78,8 +66,8 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 >abstract="Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
