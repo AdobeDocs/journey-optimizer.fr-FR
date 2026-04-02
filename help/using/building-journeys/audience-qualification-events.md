@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
+source-git-commit: 29c591590415add30780cf5ea80964141a8fd236
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 66%
+source-wordcount: '1702'
+ht-degree: 62%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="Événements de qualification d’audience"
->abstract="Cette activité écoute les entrées et les sorties des profils dans les audiences [!DNL Adobe Experience Platform] pour faire progresser les personnes dans un parcours."
+>title="Qualification d’audience"
+>abstract="Déclenchez l’entrée ou la poursuite du parcours lorsqu’un profil remplit les conditions pour une audience [!DNL Adobe Experience Platform] ou la quitte. Recommandé pour les audiences en flux continu ; utilisez une activité Lecture d’audience pour les scénarios par lots."
 
 ## À propos des événements de qualification d’audience{#about-segment-qualification}
 
@@ -43,6 +43,33 @@ Il est possible de positionner ce type d’événement dès la première étape,
 ## Configurer l’activité {#configure-segment-qualification}
 
 Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, procédez comme suit :
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_label"
+>title="Libellé"
+>abstract="Ajoutez un libellé facultatif pour identifier cette activité dans les journaux des modes de reporting et de test."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_audience"
+>title="Audience"
+>abstract="Sélectionnez l’audience [!DNL Adobe Experience Platform] à utiliser. Le parcours écoute les entrées et les sorties de profil de cette audience."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_behavior"
+>title="Comportement"
+>abstract="Choisissez d’écouter les entrées d’audience, les sorties ou les deux."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_identity"
+>title="Type d’identité"
+>abstract="Sélectionnez le type d’identité utilisé pour identifier les individus. Seuls les espaces de noms d’identité basés sur des personnes sont disponibles."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_merge_policy"
+>title="Politique de fusion"
+>abstract="La politique de fusion est automatiquement récupérée à partir de l’audience sélectionnée et appliquée dans l’ensemble du parcours."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="En savoir plus sur les politiques de fusion"
+
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
 
@@ -196,4 +223,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
