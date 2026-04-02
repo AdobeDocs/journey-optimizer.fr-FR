@@ -265,7 +265,7 @@ Paramètres de requête :
 
    * Valeur analysée : *v1.xyz*
 
-Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
