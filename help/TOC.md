@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
 workflow-type: tm+mt
-source-wordcount: '3159'
+source-wordcount: '3173'
 ht-degree: 95%
 
 ---
@@ -490,7 +490,10 @@ ht-degree: 95%
       + [Utiliser Adobe Stock](using/integrations/stock.md)
       + [Utiliser Adobe Express](using/integrations/express.md)
       + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
-      + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
+      + Fragments de contenu Experience Manager {#aem}
+         + [Prise en main des fragments de contenu d’Experience Manager](using/integrations/aem-fragments-gs.md)
+         + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
+         + [Considérations et résolution des problèmes](using/integrations/aem-fragments-limitations.md)
       + [Utilisation du gestionnaire de contenu Experience Manager](using/content-management/aem-content-advisor.md)
       + [Insérer le compteur de décompte](using/integrations/countdown.md)
       + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
@@ -958,7 +961,7 @@ ht-degree: 95%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
