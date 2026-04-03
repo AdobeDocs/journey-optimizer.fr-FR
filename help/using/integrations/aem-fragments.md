@@ -179,7 +179,7 @@ Journey Optimizer vous permet de choisir la variation à utiliser lorsque vous i
 
 Pour sélectionner une variation :
 
-1. Ouvrez une [campagne](../campaigns/create-campaign.md) ou un [parcours ](../building-journeys/journey-gs.md).
+1. Ouvrez une [campagne](../campaigns/create-campaign.md) ou un [parcours &#x200B;](../building-journeys/journey-gs.md).
 
 1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) dans n’importe quel champ de texte, ou ouvrez la source HTML à partir d’un composant de contenu HTML.
 
