@@ -57,7 +57,7 @@ Pour éviter ces problèmes, [!DNL Journey Optimizer] réécrit le texte brut af
 
 Pour optimiser la version en texte brut de votre e-mail pour les boîtes de réception de l’IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[ (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](../email/content-from-scratch.md)
+1. Ouvrez l’e-mail dans le Designer d’e-mail[&#x200B; (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](../email/content-from-scratch.md)
 
 1. Sélectionnez l’icône **[!UICONTROL Texte brut]** pour ouvrir la version texte de votre e-mail. [En savoir plus](../email/text-version-email.md)
 
