@@ -41,7 +41,7 @@ Tenez compte des points suivants lors de l’utilisation de fragments de contenu
 * **Mises à jour et contrôle de version**
    * Les mises à jour nécessitent une republication manuelle à partir de [!DNL Adobe Experience Manager]. Il n’existe pas de réconciliation de version automatique.
    * Lorsqu’un fragment de contenu est publié ou republié dans [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] le met à jour et actualise **toutes les variations de ce fragment qui sont référencées** dans les campagnes ou parcours actifs.
-   * L’[!DNL Adobe Experience Manager] [action de publication](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) peut être retardée. Une fois l’opération terminée, [!DNL Journey Optimizer] reçoit un événement et actualise le contenu.
+   * L’[!DNL Adobe Experience Manager] [action de publication](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) peut être retardée. Une fois l’opération terminée, [!DNL Journey Optimizer] reçoit un événement et actualise le contenu.
    * Après une mise à jour réussie, les modifications sont généralement disponibles dans les **5 minutes environ** pour les parcours unitaires, et dans le **lot suivant** pour les cas d’utilisation par lots.
 
 * **Mise en cache et vérification**
