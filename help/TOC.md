@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3168'
 ht-degree: 95%
 
 ---
@@ -889,9 +889,8 @@ ht-degree: 95%
       + [Accéder aux enregistrements PTR et les modifier](using/configuration/ptr-records.md)
       + [Créer des groupes d’adresses IP](using/configuration/ip-pools.md)
    + Mettre en œuvre un plan de préchauffage d’adresses IP {#implement-ip-warmup-plan}
-      + [Mettre en œuvre un plan de préchauffage d’adresses IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [Guide de délivrabilité du préchauffage des adresses IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Commencer avec les plans de préchauffage d’adresses IP](using/configuration/ip-warmup-gs.md)
+      + [Guide de délivrabilité du préchauffage des adresses IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Créer des campagnes de préchauffage d’adresses IP](using/configuration/ip-warmup-campaign.md)
       + [Créer un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-plan.md)
       + [Exécuter le plan de préchauffage des adresses IP](using/configuration/ip-warmup-execution.md)
@@ -961,7 +960,7 @@ ht-degree: 95%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
