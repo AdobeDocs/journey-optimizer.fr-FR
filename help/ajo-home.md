@@ -5,7 +5,7 @@ title: Documentation Adobe Journey Optimizer
 description: Documentation Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+source-git-commit: 84a44eac9171c45098b8ad40d62bcae68a610f84
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Les heures creuses vous permettent de définir des exclusions basées sur l’he
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Dernières notes de mise à jour
 
@@ -66,7 +66,7 @@ Tenez-vous au courant des dernières notes de mise à jour, des nouvelles foncti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer
 
@@ -76,7 +76,7 @@ Découvrez les principes de base de Journey Optimizer, notamment ses fonctionna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guide complet des parcours
 
@@ -86,7 +86,7 @@ Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Comprendre et gérer les campagnes
 
@@ -96,7 +96,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canaux de communication
 
@@ -106,7 +106,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestion et hiérarchisation des conflits
 
@@ -143,5 +143,7 @@ Découvrez comment hiérarchiser et gérer efficacement les conflits de communic
 </td>
 </tr></table>
 
-<!--table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table-->
+<!--
+table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table
+-->
