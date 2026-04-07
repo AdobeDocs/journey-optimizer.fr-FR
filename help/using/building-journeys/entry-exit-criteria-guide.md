@@ -208,7 +208,7 @@ Commencez par mapper clairement les déclencheurs et les points de sortie de vos
 
 **Tutoriels et exemples**
 
-[Cas d’utilisation des parcours](jo-use-cases.md) | [Vidéo sur l’intégration des clients et des clientes](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vidéo sur les paniers abandonnés](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la communauté : critères d’entrée et de sortie](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[Cas d’utilisation des parcours](jo-use-cases.md) | [Vidéo sur l’intégration des clients et des clientes](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vidéo sur les paniers abandonnés](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la communauté : critères d’entrée et de sortie](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=fr)
 
 **Fonctionnalités associées**
 
