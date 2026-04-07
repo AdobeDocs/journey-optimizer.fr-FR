@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '1902'
-ht-degree: 96%
+source-wordcount: '1934'
+ht-degree: 95%
 
 ---
 
@@ -67,7 +67,7 @@ Une fois l’assistant IA ouvert, vous pouvez configurer les paramètres de gé
 
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
-   * **[!UICONTROL Modèle génératif]** : faites votre choix parmi les modèles intégrés disponibles, les modèles Firefly personnalisés formés sur les ressources de votre marque ou les fournisseurs de génération d’images tiers pour créer des images qui correspondent à vos besoins spécifiques et aux exigences de votre marque. [En savoir plus](generative-models.md)
+   * **[!UICONTROL Modèle génératif]** : faites votre choix parmi les modèles intégrés disponibles, les modèles Firefly personnalisés formés sur les ressources de votre marque ou les fournisseurs de génération d’images tiers pour créer des images qui correspondent à vos besoins spécifiques et aux exigences de votre marque. [En savoir plus](generative-models.md). Pour **Gemini** avec **superpositions de texte** sur les images, consultez [Utiliser Gemini comme modèle génératif pour les images superposées de texte](generative-uc.md#generative-gemini).
    * **[!UICONTROL Type de contenu]** : cette propriété classe la nature de l’élément visuel en faisant la distinction entre les différentes formes de représentation visuelle, telles que les photos, les graphiques ou les illustrations.
    * **[!UICONTROL Intensité visuelle]** : vous pouvez contrôler l’impact de l’image en ajustant son intensité. Un paramètre inférieur (2) crée un aspect plus doux et plus modéré, tandis qu’un paramètre supérieur (10) rend l’image plus vivante et visuellement plus puissante.
    * **[!UICONTROL Couleur et ton]** : aspect général des couleurs dans une image et humeur ou ambiance qu’elles véhiculent.
@@ -174,7 +174,7 @@ Une fois que vous avez accédé à l’assistant IA pour les notifications push
 
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
-   * **[!UICONTROL Modèle génératif]** : faites votre choix parmi les modèles intégrés disponibles, les modèles Firefly personnalisés formés sur les ressources de votre marque ou les fournisseurs de génération d’images tiers pour créer des images qui correspondent à vos besoins spécifiques et aux exigences de votre marque. [En savoir plus](generative-models.md)
+   * **[!UICONTROL Modèle génératif]** : faites votre choix parmi les modèles intégrés disponibles, les modèles Firefly personnalisés formés sur les ressources de votre marque ou les fournisseurs de génération d’images tiers pour créer des images qui correspondent à vos besoins spécifiques et aux exigences de votre marque. [En savoir plus](generative-models.md). Pour **Gemini** avec **superpositions de texte** sur les images, consultez [Utiliser Gemini comme modèle génératif pour les images superposées de texte](generative-uc.md#generative-gemini).
    * **[!UICONTROL Type de contenu]** : cette propriété classe la nature de l’élément visuel en faisant la distinction entre les différentes formes de représentation visuelle, telles que les photos, les graphiques ou les illustrations.
    * **[!UICONTROL Intensité visuelle]** : vous pouvez contrôler l’impact de l’image en ajustant son intensité. Un paramètre inférieur (2) crée un aspect plus doux et plus modéré, tandis qu’un paramètre supérieur (10) rend l’image plus vivante et visuellement plus puissante.
    * **[!UICONTROL Couleur et ton]** : aspect général des couleurs dans une image et humeur ou ambiance qu’elles véhiculent.

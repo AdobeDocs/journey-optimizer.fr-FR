@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
-source-git-commit: 7873c333cbe5002695a11d1edaaf9e15f74a6d3f
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ Développez vos fonctionnalités de création d’images par l’IA avec des mod
 Choisissez le modèle adapté à vos besoins :
 
 - **[!UICONTROL Adobe model]**, optimisé par Firefly Image Model 4, est fourni prêt à l’emploi et prêt à être utilisé pour la génération immédiate d’images sans configuration supplémentaire.
-- Le **[!UICONTROL modèle partenaire]**, optimisé par Gemini 2.5 Flash, offre des fonctionnalités spécialisées pour des cas d’utilisation spécifiques.
+- Le **[!UICONTROL modèle partenaire]**, optimisé par Gemini 2.5 Flash, offre des fonctionnalités spécialisées pour des cas d’utilisation spécifiques. Pour un workflow détaillé qui utilise **Gemini** avec des **superpositions de texte** sur les images dans l’assistant AI, consultez [Utiliser Gemini comme modèle génératif pour les images superposées de texte](generative-uc.md#generative-gemini).
 - Les **[!UICONTROL modèles personnalisés]** sont des modèles spécifiques à la marque, entraînés sur vos propres ressources et ajoutés par votre entreprise.
 
-  En savoir plus sur les **[!UICONTROL modèles personnalisés]** dans la documentation d’[Adobe Firefly](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  En savoir plus sur les **[!UICONTROL modèles personnalisés]** dans la documentation d’[Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu. [En savoir plus sur la génération d’images](generative-image.md).
 
@@ -62,7 +62,7 @@ Les modèles Firefly personnalisés sont des modèles d’IA spécifiques à la 
 
 En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez étendre vos fonctionnalités d’IA au-delà des modèles par défaut et vous assurer que le contenu généré reflète de manière cohérente l’esthétique et les exigences uniques de votre marque.
 
-➡️ [Découvrez comment entraîner votre modèle personnalisé](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [Découvrez comment entraîner votre modèle personnalisé](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Dans le menu **[!UICONTROL Marques]**, accédez à l’onglet **[!UICONTROL Modèles génératifs]** et cliquez sur **[!UICONTROL Ajouter un modèle]**.
 
@@ -75,10 +75,10 @@ En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez éte
    +++ Recherche de votre identifiant de modèle Firefly
 
    1. Accédez au site web Firefly et à vos modèles formés.
-   1. Accédez au menu [Prévisualisation et test](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test).
+   1. Accédez au menu [Prévisualisation et test](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test).
    1. Dans l’URL, recherchez la valeur après `customModelId=`. Copiez cette valeur pour l’utiliser comme ID de modèle.
 
-   Pour plus d&#39;informations, consultez la documentation sur les modèles personnalisés Firefly [&#128279;](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Pour plus d&#39;informations, consultez la documentation sur les modèles personnalisés Firefly [](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-10.png){zoomable="yes"}
 
