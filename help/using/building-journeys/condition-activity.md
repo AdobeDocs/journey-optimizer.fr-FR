@@ -46,7 +46,7 @@ Vous pouvez également baser une condition sur l’appartenance à une audience.
 
 * [Utiliser une audience dans une condition](#using-a-segment) - Ajoutez des chemins d’accès en fonction de l’appartenance des profils à une audience.
 * [Créer et cibler des audiences](../audience/about-audiences.md) - Créez et gérez des audiences dans le menu Audiences.
-* [Ciblage des audiences dans les parcours ](read-audience.md#audience-targeting-in-journeys) - Après une activité Lecture d’audience, segmentez, excluez ou fusionnez des branches à l’aide de conditions.
+* [Ciblage des audiences dans les parcours &#x200B;](read-audience.md#audience-targeting-in-journeys) - Après une activité Lecture d’audience, segmentez, excluez ou fusionnez des branches à l’aide de conditions.
 
 >[!NOTE]
 >
