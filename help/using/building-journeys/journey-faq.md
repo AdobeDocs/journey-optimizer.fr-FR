@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide, orchestration
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 93%
@@ -187,7 +187,7 @@ Suivez le [guide détaillé](journey-gs.md).
 Les conditions préalables requises dépendent du type de votre parcours :
 
 * **Parcours déclenchés par un événement** : configurez les événements pour définir à quel moment les profils doivent rejoindre le parcours.
-* parcours basés sur l’audience **: créez des audiences dans**&#x200B;[!DNL Adobe Experience Platform]
+* parcours basés sur l’audience **: créez des audiences dans**[!DNL Adobe Experience Platform]
 * **Enrichissement des données** : configurez les sources de données pour récupérer des informations supplémentaires.
 * **Intégrations tierces** : configurez des actions personnalisées si vous utilisez des systèmes externes.
 
@@ -606,7 +606,7 @@ Oui. Utilisez une **[activité d’optimisation](conditions.md)** pour acheminer
 * Utilisez des [surfaces de canal](../configuration/channel-surfaces.md) pour gérer les configurations de canal.
 * Testez tous les chemins pour garantir une diffusion correcte des messages.
 
-En savoir plus sur les [conditions](conditions.md), les [actions de message](journeys-message.md) et la [sélection de canal](../channels/gs-channels.md).
+En savoir plus sur les [conditions](conditions.md), les [actions de message](journey-action.md) et la [sélection de canal](../channels/gs-channels.md).
 
 +++
 
