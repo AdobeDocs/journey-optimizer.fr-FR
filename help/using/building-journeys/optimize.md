@@ -10,7 +10,7 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours, optimisation
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 33%
@@ -34,13 +34,13 @@ L’activité **Optimiser** vous permet de définir la progression des individus
 
 ![Bouton Optimiser dans la palette d’activités du parcours](assets/journey-optimize.png)
 
-## Qu’est-ce qu’un chemin de parcours ?
+## Qu’est-ce qu’un chemin de parcours ? {#journey-path}
 
 Un **chemin** de parcours peut être constitué de l’un des éléments suivants : séquencement des communications, intervalle entre celles-ci, nombre de communications ou toute combinaison de ces trois variables.
 
 Par exemple, un chemin peut contenir un e-mail, un autre peut contenir deux SMS et un troisième peut contenir un e-mail, un nœud d’attente de deux heures, puis un SMS.
 
-## Trois façons d’optimiser vos parcours
+## Trois façons d’optimiser vos parcours {#optimization-methods}
 
 Grâce à l’activité **Optimiser**, vous pouvez effectuer les actions suivantes sur vos chemins de parcours :
 
@@ -54,14 +54,14 @@ Grâce à l’activité **Optimiser**, vous pouvez effectuer les actions suivant
 
 * [Appliquer des conditions](conditions.md) - Créez des chemins d’accès conditionnels en fonction de critères spécifiques tels que les sources de données, l’heure, la date, les divisions en pourcentage ou les limites de profil. Il s’agit de l’équivalent de l’ancienne activité Condition .
 
-## Fonctionnement
+## Fonctionnement {#how-it-works}
 
 Une fois le parcours actif, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont envoyés vers le chemin approprié du parcours.
 
-## Étapes suivantes
+## Étapes suivantes {#next-steps}
 
 Sélectionnez la méthode d’optimisation qui correspond le mieux à votre cas d’utilisation :
 
 * Vous souhaitez tester et savoir quel chemin est le plus performant ? → Accéder à [Expérimentation de chemin](path-experimentation.md)
 * Vous souhaitez envoyer différentes audiences sur des chemins spécifiques ? → Accéder au [Ciblage des chemins](path-targeting.md)
-* Vous souhaitez créer une logique conditionnelle (scénarios if/then) ? → Accéder à [&#x200B; Conditions &#x200B;](conditions.md)
+* Vous souhaitez créer une logique conditionnelle (scénarios if/then) ? → Accéder à [ Conditions ](conditions.md)
