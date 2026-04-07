@@ -5,22 +5,28 @@ title: Configuration des canaux
 description: Configuration des canaux
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 77%
 
 ---
 
 # Configuration des canaux{#section-overview}
 
-La configuration des canaux dans Adobe Journey Optimizer vous permet de gérer la manière dont les messages sont diffusés sur différents canaux tels que les e-mails, les SMS, les notifications push et le web, afin d’assurer une communication adaptée et efficace. Que vous définissiez des paramètres techniques, configuriez des sous-domaines ou optimisiez la délivrabilité des e-mails à l’aide de plans de préchauffage d’adresses IP, chaque étape est conçue pour améliorer les performances et la conformité des messages. Vous y trouverez également des outils pour surveiller la réputation des e-mails, gérer les listes de suppression et même archiver les messages à des fins d’audit. Approfondissez les sujets à venir pour découvrir comment ces configurations fonctionnent ensemble, ce qui vous aidera à créer des expériences client fluides et percutantes.
+La configuration des canaux dans Adobe Journey Optimizer vous permet de gérer la manière dont les messages sont diffusés sur différents canaux tels que les e-mails, les SMS, les notifications push et le web, afin d’assurer une communication adaptée et efficace.
+
+Que vous configuriez des paramètres techniques, des sous-domaines ou la délivrabilité des e-mails à l’aide de plans de préchauffage d’adresses IP, chaque étape est conçue pour améliorer les performances et la conformité des messages.
+
+Vous y trouverez également des outils pour surveiller la réputation des e-mails, gérer les listes de suppression et même archiver les messages à des fins d&#39;audit.
+
+Approfondissez les sujets à venir pour découvrir comment ces configurations fonctionnent ensemble, ce qui vous aidera à créer des expériences client fluides et percutantes.
 
 ## Configuration des canaux
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main de la configuration des canaux
 
@@ -30,7 +36,7 @@ Découvrez les étapes de configuration des canaux dans Adobe Journey Optimize
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Définir et gérer les configurations des canaux
 
@@ -40,7 +46,7 @@ Suivez un guide détaillé pour créer, modifier, désactiver et surveiller les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuration guidée des canaux
 
@@ -59,18 +65,18 @@ Découvrez comment déléguer et configurer des sous-domaines d’e-mail pour op
 [Déléguer les sous-domaines d’e-mail](delegate-subdomains-landing-page.md)
 :::
 
-<!--:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Implement an IP Warmup Plan
+Mettre en œuvre un plan de préchauffage d’adresses IP
 
-Create and execute IP warmup plans to establish sender reputation and enhance email deliverability.
+Créez et exécutez des plans de préchauffage d’adresses IP pour établir la réputation de l’expéditeur ou de l’expéditrice et améliorer la délivrabilité des e-mails.
 
-[Learn about IP warmup plans](implement-ip-warmup-plan-landing-page.md)
-:::-->
+[Découvrir les plans de préchauffage d’adresses IP](ip-warmup-gs.md)
+:::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Surveiller la délivrabilité et la réputation des e-mails
 
