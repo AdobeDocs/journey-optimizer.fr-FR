@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 63%
+source-wordcount: '1124'
+ht-degree: 59%
 
 ---
 
@@ -215,6 +215,26 @@ L&#39;exemple suivant permet de calculer la somme totale des prix des produits d
     {{/each}}
 {{sum}}
 ```
+
+## Recherche de jeu de données {#dataset-lookup}
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clients et clientes.
+>
+>Pour l’instant, la fonction d’assistance `datasetLookup` peut être utilisée dans les fragments d’expression pour un ensemble limité de clientes et clients. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+
+L’assistant `datasetLookup` récupère les données des jeux de données d’enregistrement Adobe Experience Platform lors de la personnalisation afin que vous puissiez utiliser des valeurs de champ qui ne sont pas stockées sur le profil ou dans la payload de l’événement.
+
+**Syntaxe**
+
+```sql
+{{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
+```
+
+Référencez les champs récupérés avec `{{result.fieldId}}`, où `result` est la valeur que vous transmettez au paramètre `result` .
+
+Pour l’activation des jeux de données, les détails des paramètres, les exemples et les tests, consultez [Utilisation des données Adobe Experience Platform pour la personnalisation](../aep-data-perso.md).
 
 ## Métadonnées d’exécution {#execution-metadata}
 
