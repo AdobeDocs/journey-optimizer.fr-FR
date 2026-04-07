@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 89%
+source-wordcount: '1480'
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 89%
 
 Pour ajouter une carte de contenu à un parcours, procédez comme suit :
 
-1. Ouvrez votre [parcours &#x200B;](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+1. Ouvrez votre [parcours ](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
 
    >[!IMPORTANT]
    >
@@ -129,6 +129,10 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
    ![](assets/content-card-create-2.png)
 
 1. Sélectionnez ou créez une [configuration de carte de contenu](content-card-configuration.md).
+
+1. Sélectionnez une [Configuration de la boîte de réception](../inbox/inbox-configuration.md) qui définit la surface de la boîte de réception pour cette **Carte de contenu**.
+
+   ![](assets/content-card-create-2.png)
 
 1. Pour tester le contenu de votre message, cliquez sur **[!UICONTROL Créer une expérience]**. Vous pouvez ainsi tester plusieurs variables d’une diffusion sur des échantillons de population afin de déterminer quel traitement a le plus d’impact sur l’audience ciblée. [En savoir plus sur l’expérience de contenu](../content-management/content-experiment.md).
 
