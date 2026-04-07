@@ -78,7 +78,7 @@ En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez éte
    1. Accédez au menu [Prévisualisation et test](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test).
    1. Dans l’URL, recherchez la valeur après `customModelId=`. Copiez cette valeur pour l’utiliser comme ID de modèle.
 
-   Pour plus d&#39;informations, consultez la documentation sur les modèles personnalisés Firefly [&#128279;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Pour plus d&#39;informations, consultez la documentation sur les modèles personnalisés Firefly [](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-10.png){zoomable="yes"}
 
