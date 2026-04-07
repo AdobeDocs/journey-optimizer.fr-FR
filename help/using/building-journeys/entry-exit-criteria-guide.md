@@ -9,10 +9,10 @@ level: Intermediate
 keywords: entrée, sortie, critères, parcours, profil, reprise, bonnes pratiques
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1560'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Les **critères de sortie** définissent quand et comment un profil quitte ou es
 
 * **Atteinte des mesures de succès** : les profils quittent le parcours lorsqu’ils atteignent l’[objectif du parcours](success-metrics.md), par exemple lors d’un achat ou du téléchargement d’une application, ce qui élimine les communications de suivi inutiles.
 
-* **Basé sur des conditions** : les profils quittent le parcours lorsque des [conditions spécifiques](condition-activity.md) sont remplies, comme l’inactivité sur une période définie ou des modifications dans les attributs de profil.
+* **Basé sur des conditions** : les profils quittent le parcours lorsque des [conditions spécifiques](conditions.md) sont remplies, comme l’inactivité sur une période définie ou des modifications dans les attributs de profil.
 
 * **Basé sur des événements** : les profils quittent le parcours lorsque des [événements spécifiques](../event/about-events.md) se produisent, tels que l’annulation d’un abonnement ou le retour d’un produit.
 
@@ -92,7 +92,7 @@ Collectez des informations sur la satisfaction client et les performances des pr
 
 * **Entrée** : les personnes rejoignent le parcours après réception d’un événement de confirmation de diffusion du produit.
 * **Sortie** : les profils quittent le parcours une fois les commentaires envoyés ou après 10 jours en l’absence de réponse.
-* **Avantage &#x200B;** : capture rapidement des commentaires utiles sans importuner la clientèle par des demandes persistantes.
+* **Avantage ** : capture rapidement des commentaires utiles sans importuner la clientèle par des demandes persistantes.
 
 ## Configurer les critères d’entrée de parcours {#configure-entry}
 
@@ -100,13 +100,13 @@ Collectez des informations sur la satisfaction client et les performances des pr
 
 **Découvrez ici tout ce que vous devez savoir sur les critères d’entrée :**
 
-* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurez les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]** et définissez [le schéma et les champs d’événement](../event/experience-event-schema.md). Ajoutez ensuite l’événement à partir de la palette **[!UICONTROL Événements]** dans le concepteur de parcours [&#128279;](using-the-journey-designer.md).
+* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurez les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]** et définissez [le schéma et les champs d’événement](../event/experience-event-schema.md). Ajoutez ensuite l’événement à partir de la palette **[!UICONTROL Événements]** dans le concepteur de parcours [](using-the-journey-designer.md).
 
 * **[Entrée basée sur l’audience](read-audience.md)** : les parcours cibles sont destinés aux profils qui appartiennent à des audiences spécifiques, sous la forme d’un lot unique ou selon un planning récurrent. [Créez des audiences](../audience/creating-a-segment-definition.md) dans le menu **[!UICONTROL Audiences]**, puis ajoutez une activité **[!UICONTROL Lecture d’audience]** et [configurez le planning](journey-properties.md#schedule). Après l’entrée, utilisez des conditions pour [segmenter, exclure ou fusionner des branches](read-audience.md#audience-targeting-in-journeys).
 
 * **[Entrée de la qualification de l’audience](audience-qualification-events.md)** : déclenchez des parcours lorsque les profils répondent aux critères d’audiences spécifiques ou en sortent en temps réel. Définissez des [audiences de streaming](../audience/about-audiences.md), ajoutez un événement **[!UICONTROL Qualification d’audience]** à partir de la palette **[!UICONTROL Événements]** et choisissez le type de déclencheur.
 
-* **[Filtres d’attributs](condition-activity.md)** : affinez les critères d’entrée en combinant des événements ou des audiences avec des attributs de profil et du contexte à l’aide de la logique AND/OR. Utilisez des [conditions](conditions.md) pour référencer les [attributs de profil](../audience/get-started-profiles.md), événements ou [données externes](../datasource/about-data-sources.md).
+* **[Filtres d’attributs](conditions.md)** : affinez les critères d’entrée en combinant des événements ou des audiences avec des attributs de profil et du contexte à l’aide de la logique AND/OR. Utilisez des [conditions](conditions.md) pour référencer les [attributs de profil](../audience/get-started-profiles.md), événements ou [données externes](../datasource/about-data-sources.md).
 
 * **[Fenêtres de temps et planification](journey-properties.md#schedule)** : définissez des contraintes temporelles pour que les parcours restent opportuns et pertinents. Configurez des [plannings sur les activités de lecture d’audience](read-audience.md), utilisez des [activités d’attente](wait-activity.md) et ajoutez des [conditions basées sur le temps](conditions.md) pour contrôler le timing.
 
@@ -122,7 +122,7 @@ Collectez des informations sur la satisfaction client et les performances des pr
 
 * **[Atteinte des mesures de succès](journey-properties.md#exit-criteria)** : définissez des mesures de succès (comme les achats ou les abonnements) et faites sortir les profils une fois ces objectifs atteints. Cliquez sur l’icône **[!UICONTROL Afficher les critères de sortie]**, sélectionnez **[!UICONTROL Ajouter des critères de sortie]**, puis choisissez un [Événement](../event/about-events.md) ou une [Audience](../audience/about-audiences.md) comme déclencheur de sortie.
 
-* **[Délais d’inactivité](wait-activity.md)** : faites sortir les profils si aucun engagement ne se produit au cours d’une période définie. Utilisez les [Critères de sortie](journey-properties.md#exit-criteria) avec les audiences qui vérifient la date du dernier engagement, définissent les [activités d’attente](wait-activity.md) avec des durées définies et utilisent les [conditions](condition-activity.md) pour vérifier l’activité.
+* **[Délais d’inactivité](wait-activity.md)** : faites sortir les profils si aucun engagement ne se produit au cours d’une période définie. Utilisez les [Critères de sortie](journey-properties.md#exit-criteria) avec les audiences qui vérifient la date du dernier engagement, définissent les [activités d’attente](wait-activity.md) avec des durées définies et utilisent les [conditions](conditions.md) pour vérifier l’activité.
 
 * **[Règles de rentrée](entry-management.md)** : déterminez si les profils peuvent entrer à nouveau dans le parcours, plusieurs fois ou une seule fois, selon votre stratégie de campagne. Configurez les paramètres de **[!UICONTROL rentrée]** dans les **[!UICONTROL propriétés]** du parcours afin de définir des délais d’attente, d’activer la reprise forcée ou d’utiliser des [identifiants supplémentaires](supplemental-identifier.md) pour une reprise spécifique au contexte.
 
@@ -146,7 +146,7 @@ Pour obtenir des conseils de mise en œuvre détaillés avec des détails techni
 
 >[!TIP]
 >
->Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [&#128279;](jo-use-cases.md) pour plus de modèles et d’implémentations. Par exemple, [améliorez les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimez des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [](jo-use-cases.md) pour plus de modèles et d’implémentations. Par exemple, [améliorez les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimez des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Bonnes pratiques de gestion des entrées et des sorties {#best-practices}
 
@@ -208,8 +208,8 @@ Commencez par mapper clairement les déclencheurs et les points de sortie de vos
 
 **Tutoriels et exemples**
 
-[Cas d’utilisation des parcours](jo-use-cases.md) | [Vidéo sur l’intégration des clients et des clientes](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vidéo sur les paniers abandonnés](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la communauté : critères d’entrée et de sortie](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=fr)
+[Cas d’utilisation des parcours](jo-use-cases.md) | [Vidéo sur l’intégration des clients et des clientes](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vidéo sur les paniers abandonnés](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la communauté : critères d’entrée et de sortie](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Fonctionnalités associées**
 
-[Événements de qualification d’audience](audience-qualification-events.md) | [Mesures de succès et objectifs](success-metrics.md) | [Gestion des conflits](../conflict-prioritization/conflicts.md) | [Capping de la fréquence](../conflict-prioritization/rule-sets.md) | [Test des parcours &#x200B;](testing-the-journey.md) | [Activité de condition](condition-activity.md) | [Événements de réaction](reaction-events.md) | [Activité d’attente](wait-activity.md)
+[Événements de qualification d’audience](audience-qualification-events.md) | [Mesures de succès et objectifs](success-metrics.md) | [Gestion des conflits](../conflict-prioritization/conflicts.md) | [Capping de la fréquence](../conflict-prioritization/rule-sets.md) | [parcours de test](testing-the-journey.md) | [Optimiser l’activité](optimize.md) | [Événements de réaction](reaction-events.md) | [Activité d’attente](wait-activity.md)

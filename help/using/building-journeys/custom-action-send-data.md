@@ -9,16 +9,16 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: parcours, cas d’utilisation
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 80%
+source-wordcount: '272'
+ht-degree: 72%
 
 ---
 
 # Cas d’utilisation : création d’une action personnalisée pour envoyer des données à [!DNL Adobe Experience Platform]{#send-data-to-aep}
 
-Si vous avez récemment changé de fournisseur de services de messagerie, d&#39;adresse IP, de domaine ou de sous-domaine de messagerie, établissez votre réputation en tant qu&#39;expéditeur. Dans le cas contraire, les diffusions peuvent être bloquées ou déplacées vers les dossiers de spam des destinataires. Pour obtenir des conseils, consultez le [&#x200B; Guide des bonnes pratiques en matière de délivrabilité &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr){target="_blank"}.
+Si vous avez récemment changé de fournisseur de services de messagerie, d&#39;adresse IP, de domaine ou de sous-domaine de messagerie, établissez votre réputation en tant qu&#39;expéditeur. Dans le cas contraire, les diffusions peuvent être bloquées ou déplacées vers les dossiers de spam des destinataires. Pour obtenir des conseils, consultez le [ Guide des bonnes pratiques en matière de délivrabilité ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr){target="_blank"}.
 
 Pour préchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. En savoir plus sur lʼ[optimisation de la délivrabilité dans Journey Optimizer](../reports/deliverability.md).
 
@@ -26,11 +26,11 @@ Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffus
 
 1. Créez un parcours. [En savoir plus](journey-gs.md).
 
-1. Ajoutez une activité de **[!UICONTROL Condition]** au parcours. [En savoir plus](condition-activity.md).
+1. Ajoutez une activité **[!UICONTROL Optimiser]** au parcours. [En savoir plus](optimize.md).
 
 1. Dans les paramètres de lʼactivité de **[!UICONTROL Condition]**, définissez le nombre maximal de destinataires pour votre diffusion :
 
-   1. Dans les paramètres de lʼactivité de **[!UICONTROL Condition]**, définissez le champ **[!UICONTROL Type]** sur **[!UICONTROL Limite du profil]**. [En savoir plus](condition-activity.md#profile_cap).
+   1. Dans les paramètres d’activité **[!UICONTROL Optimiser]**, sélectionnez la méthode **[!UICONTROL Conditions]** et définissez le champ **[!UICONTROL Type]** sur **[!UICONTROL Limite de profil]**. [En savoir plus](conditions.md#profile_cap).
 
    1. Définissez le champ **[!UICONTROL Limite]** sur le nombre maximal de destinataires pour cette diffusion.
 

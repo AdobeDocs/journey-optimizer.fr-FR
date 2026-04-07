@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 93%
@@ -84,7 +84,7 @@ Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des 
 | [Lecture d’audience](read-audience.md) | Même comportement que dans un parcours actif, avec quelques spécificités : <ol> <li> Si le bouton <strong>Mettre en pause</strong> a été utilisé après le démarrage de l’activité <strong>Lecture d’audience</strong>, les profils déjà entrés dans le parcours le poursuivront (jusqu’à l’activité <strong>Action</strong> suivante). Étant donné que le parcours lit les audiences à une certaine vitesse, si l’audience entière n’est pas encore entrée, les profils restants dans la file d’attente seront ignorés.</li><li> Pour les exécutions uniques : aucune erreur ne s’affichera au moment de la reprise si la date planifiée est antérieure à la date de reprise. Cette planification sera ignorée.</li><li>Pour les parcours incrémentiels : <ul><li>Si une pause se produit avant la première occurrence, l’audience complète sera lue lors de la reprise. </li><li>Si une pause se produit, par exemple, le 4e jour d’une périodicité quotidienne et que le parcours reste en pause jusqu’au 9e jour, alors, lors de la reprise, tous les profils qui sont entrés entre le 4e et le 9e jour seront inclus.  </li></ul></ol> |
 | [Réaction](reaction-events.md) | Même comportement que dans un parcours actif. Cependant, si la réaction se situe après une activité <strong>Action</strong> et que l’utilisateur ou l’utilisatrice est mis en pause lors de cette action, l’événement de réaction est ignoré. |
 | [Attente](wait-activity.md) | Même comportement que dans un parcours actif. |
-| [Condition](condition-activity.md) | Même comportement que dans un parcours actif. |
+| [Optimiser](optimize.md) | Même comportement que dans un parcours actif. |
 | [Décision de contenu](content-decision.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
 | [Action de canal](journey-action.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
 | [Action personnalisée](../action/action.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
@@ -124,7 +124,7 @@ Pour savoir quand un parcours a été suspendu ou repris pour la dernière fois,
 * Le nom d’affichage et l’identifiant de l’utilisateur qui a effectué la dernière pause et la dernière reprise
 * Paramètres du parcours en pause (comportement de pause, durée maximale de pause, état de reprise automatique, identifiant de pause)
 
-Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [&#x200B; Accès aux propriétés d’un parcours &#x200B;](journey-properties.md#access-properties).
+Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [ Accès aux propriétés d’un parcours ](journey-properties.md#access-properties).
 
 ## Appliquer un critère de sortie dans un parcours mis en pause {#journey-exit-criteria}
 

@@ -8,7 +8,7 @@ role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: parcours, événements d’étape, analyse, rapports, surveillance, XDM
 exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Les événements d’étape de parcours sont générés automatiquement pour div
 
 - **Événements d’entrée** : lorsqu’un profil [rejoint un parcours](../building-journeys/entry-management.md).
 - **Exécution d’action** : lorsque des [messages sont envoyés](../building-journeys/journey-action.md) ou que des [actions personnalisées](../building-journeys/using-custom-actions.md) sont effectuées.
-- **Évaluation des conditions** : lorsque les profils passent par des [conditions](../building-journeys/condition-activity.md) et des points de décision.
+- **Évaluation des conditions** : lorsque les profils passent par des [conditions](../building-journeys/conditions.md) et des points de décision.
 - **Activités d’attente** : lorsque les profils rejoignent et quittent des [nœuds d’attente](../building-journeys/wait-activity.md).
 - **Événements de sortie** : lorsque les profils terminent ou [quittent un parcours ](../building-journeys/end-journey.md)
 - **Gestion des erreurs** : lorsque des erreurs se produisent lors de l’exécution d’un parcours.

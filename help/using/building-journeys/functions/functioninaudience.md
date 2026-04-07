@@ -8,10 +8,10 @@ level: Experienced
 keywords: inAudience, fonction, expression, parcours, audience, segmentation
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 72c6392d9d978c74c7ab2e82f654f17171d7ec55
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 82%
+ht-degree: 80%
 
 ---
 
@@ -21,7 +21,7 @@ La fonction `inAudience` est une fonction Adobe Experience Platform qui vous p
 
 Utilisez la fonction `inAudience` lorsque vous devez :
 
-* diviser le parcours en fonction de l’appartenance à l’audience. [En savoir plus](../condition-activity.md#using-a-segment)
+* diviser le parcours en fonction de l’appartenance à l’audience. [En savoir plus](../conditions.md#using-a-segment)
 * Appliquer une logique conditionnelle qui dépend du fait qu’un profil appartient ou non à un segment spécifique
 * Cibler des groupes spécifiques de clients et clientes avec des expériences personnalisées
 * Évaluer la participation de l’audience en temps réel dans des conditions de parcours
@@ -116,7 +116,7 @@ Lors de l’utilisation de la fonction `inAudience` dans vos parcours, tenez com
 Lors de l’utilisation de `inAudience()` dans un nœud de condition, le délai d’évaluation de l’appartenance au segment varie en fonction de l’emplacement de la condition dans le parcours :
 
 * **Dans un parcours Lecture d’audience, avant une activité Attente :** Journey Optimizer lit à partir de la projection par lots du profil. Les données de cette projection sont actualisées dans les **2 heures** suivant l’ingestion. Les audiences qui reposent sur des conditions basées sur la journée ou sur l’heure peuvent subir un retard supplémentaire. Ajoutez une courte [activité d’attente](../wait-activity.md) au début du parcours ou patientez le temps pour vous assurer que la dernière appartenance au segment est prise en compte.
-* **Dans un parcours d’événement unitaire, ou après une activité Attente :** l’appartenance à un segment est lue à partir de la projection en flux continu (unitaire). Les données sont généralement disponibles en **15 minutes**. Pour plus d’informations, consultez la documentation sur l’ingestion par flux de [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **Dans un parcours d’événement unitaire, ou après une activité Attente :** l’appartenance à un segment est lue à partir de la projection en flux continu (unitaire). Les données sont généralement disponibles en **15 minutes**. Pour plus d’informations, consultez la documentation sur l’ingestion par flux de [](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Rubriques connexes
 
@@ -125,6 +125,6 @@ Pour en savoir plus sur l’utilisation des audiences dans Adobe Journey Optimiz
 * **[À propos des audiences](../../audience/about-audiences.md)** - Découvrez comment fonctionnent les audiences dans Adobe Experience Platform et Journey Optimizer, y compris comment les créer et les gérer.
 * **[Activité Lecture d’audience](../read-audience.md)** - Utilisez des audiences pour déclencher l’entrée dans un parcours et faire en sorte que tous les membres d’une audience rejoignent un parcours.
 * **[Événements de qualification d’audience](../audience-qualification-events.md)** - Suivez les entrées et les sorties des profils dans les audiences pour déclencher des actions de parcours en temps réel.
-* **[Utilisation d’audiences dans des conditions](../condition-activity.md#using-a-segment)** - Créez des chemins de parcours conditionnels en fonction de l’appartenance à une audience à l’aide de l’activité Condition.
+* **[Utilisation d’audiences dans des conditions](../conditions.md#using-a-segment)** - Créez des chemins de parcours conditionnels en fonction de l’appartenance à l’audience à l’aide de l’activité Optimiser
 * **[Propriétés de parcours - Politiques de fusion](../journey-properties.md)** - Découvrez comment fonctionnent les politiques de fusion lors de l’utilisation de plusieurs audiences avec la fonction inAudience.
 

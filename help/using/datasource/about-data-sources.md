@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: données, source, parcours, plateforme
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 54%
@@ -28,7 +28,7 @@ ht-degree: 54%
 
 Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple :
 
-* [Définition d’une condition](../building-journeys/condition-activity.md)
+* [Définition d’une condition](../building-journeys/conditions.md)
 * Données de paramètre et de personnalisation dans les [actions](../action/action.md)
 * [Définition d’une attente personnalisée](../building-journeys/wait-activity.md#custom)
 * [Définition d’un fuseau horaire](../building-journeys/timezone-management.md)
@@ -54,7 +54,7 @@ Pour chaque source de données, vous définissez les informations à récupérer
 
 ## Choisir votre stratégie d’accès aux données {#data-access-strategy}
 
-Avant de configurer une source de données, réfléchissez à l’approche la mieux adaptée à votre cas d’utilisation. Trois options sont disponibles, chacune avec différents compromis en termes de persistance, d’enrichissement du profil et de réutilisation. Pour obtenir des informations détaillées sur ces options, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/fr/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Avant de configurer une source de données, réfléchissez à l’approche la mieux adaptée à votre cas d’utilisation. Trois options sont disponibles, chacune avec différents compromis en termes de persistance, d’enrichissement du profil et de réutilisation. Pour obtenir des informations détaillées sur ces options, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Option 1 — Accès aux données externes par le biais d’actions personnalisées (pas de lac de données)**
 
@@ -91,5 +91,5 @@ Pour plus d’informations sur la configuration d’une source de données Adobe
 
 Comprenez ce quʼest une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416634?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, cas d’utilisation, jours de la semaine, condition, e-mail, planification
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 90%
+source-wordcount: '1068'
+ht-degree: 91%
 
 ---
 
@@ -33,8 +33,7 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 >[!NOTE]
 >
->Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance [!DNL Adobe Journey Optimizer] active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours &#x200B;](condition-activity.md) et des [expressions](expression/expressionadvanced.md).
-
+>Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou un [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours ](conditions.md) et des [expressions](expression/expressionadvanced.md).
 
 ## Étapes dʼimplémentation
 
@@ -56,7 +55,7 @@ Suivez ces étapes pour créer un flux d’e-mail en semaine uniquement.
 
 Juste après le début du parcours, ajoutez une activité **[!UICONTROL Condition]** pour vérifier si le jour actuel est un samedi ou un dimanche. Le workflow sera ainsi divisé en conséquence.
 
-1. Placez une activité [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) sur la zone de travail après votre point d’entrée.
+1. Faites glisser et déposez une activité [**[!UICONTROL Optimiser ]**](optimize.md) sur la zone de travail après votre point d’entrée.
 
 1. Cliquez sur l’activité **[!UICONTROL Condition]** pour ouvrir son panneau de configuration.
 
@@ -186,9 +185,9 @@ Une fois les tests effectués :
 
 ## Rubriques connexes
 
-* [Activités de condition](condition-activity.md) : en savoir plus sur la création de différents chemins dans votre parcours
+* [Optimiser les activités](optimize.md) - Découvrez comment créer différents chemins d’accès dans votre parcours.
 * [Utiliser des conditions dans un parcours](conditions.md) : guide détaillé sur les conditions de parcours
 * [Activité d’attente](wait-activity.md) : configurer des durées d’attente et des formules
 * [Fonctions de date](functions/date-functions.md) : référence complète pour les fonctions de date et d’heure
 * [Éditeur d’expression](expression/expressionadvanced.md) : créer des expressions complexes
-* [Bonnes pratiques relatives aux parcours &#x200B;](journey-gs.md#best-practices) : approches recommandées pour la conception de parcours
+* [Bonnes pratiques relatives aux parcours ](journey-gs.md#best-practices) : approches recommandées pour la conception de parcours

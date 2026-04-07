@@ -9,8 +9,8 @@ level: Experienced
 keywords: parcours, expression, éditeur, propriétés
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Attributs de propriétés du parcours {#journey-properties}
 
-Dans l’[éditeur d’expression simple](../condition-activity.md#about_condition) et dans l’[éditeur d’expression avancé](../expression/expressionadvanced.md), sous les catégories **Événement** et **Source de données**, vous pouvez accéder à la catégorie **Propriétés du parcours**. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours actifs, telles que l’ID du parcours ou les erreurs spécifiques rencontrées.
+Dans l’[éditeur d’expression simple](../conditions.md#about_condition) et dans l’[éditeur d’expression avancé](../expression/expressionadvanced.md), sous les catégories **Événement** et **Source de données**, vous pouvez accéder à la catégorie **Propriétés du parcours**. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours actifs, telles que l’ID du parcours ou les erreurs spécifiques rencontrées.
 
 ![](../assets/journey-properties.png)
 

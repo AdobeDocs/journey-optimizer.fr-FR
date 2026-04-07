@@ -10,7 +10,7 @@ level: Intermediate
 keywords: fuseau horaire, propriétés, parcours, condition, heure, date, personnalisé
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 65%
@@ -31,8 +31,8 @@ Pour accéder aux propriétés du parcours, cliquez sur l’icône en forme de c
 
 Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un élément temporel tel que :
 
-* [Condition de temps](../building-journeys/condition-activity.md#time_condition)
-* [Condition de date](../building-journeys/condition-activity.md#date_condition)
+* [Condition de temps](../building-journeys/conditions.md#time_condition)
+* [Condition de date](../building-journeys/conditions.md#date_condition)
 * [Attente personnalisée](../building-journeys/wait-activity.md#custom)
 
 <!--

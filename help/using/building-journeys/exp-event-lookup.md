@@ -5,7 +5,7 @@ title: Recherche d’événements d’expérience dans les parcours
 description: Découvrez comment utiliser la recherche d’événements d’expérience dans les parcours.
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 76%
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la source de données [&#128279;](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions.
+>À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la source de données [](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions.
 >
 >À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées ci-dessous.
 >
@@ -58,7 +58,7 @@ En savoir plus :
 
 * [!DNL Adobe Experience Platform] [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment)
+* [Utiliser des audiences dans des conditions](../building-journeys/conditions.md#using-a-segment)
 
 * [Fonction inAudience()](../building-journeys/functions/functioninaudience.md)
 
@@ -77,7 +77,7 @@ En savoir plus sur l’utilisation des audiences :
 
 * [!DNL Adobe Experience Platform] [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment)
+* [Utiliser des audiences dans des conditions](../building-journeys/conditions.md#using-a-segment)
 
 * [Fonction inAudience()](../building-journeys/functions/functioninaudience.md)
 
@@ -99,7 +99,7 @@ En savoir plus :
 
 * [!DNL Adobe Experience Platform] [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment)
+* [Utiliser des audiences dans des conditions](../building-journeys/conditions.md#using-a-segment)
 
 * [Fonction inAudience()](../building-journeys/functions/functioninaudience.md)
 

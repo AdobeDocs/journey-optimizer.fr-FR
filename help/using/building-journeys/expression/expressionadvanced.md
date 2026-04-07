@@ -9,8 +9,8 @@ level: Experienced
 keywords: éditeur d’expression, données, parcours
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 100%
 
@@ -41,11 +41,11 @@ L’éditeur d’expression avancé propose un ensemble de fonctions et d’opé
 
 L’éditeur d’expression avancé peut être utilisé pour effectuer ce qui suit :
 
-* Créer des [conditions avancées](../condition-activity.md#about_condition) pour des sources de données et des informations d’événements.
+* Créer des [conditions avancées](../conditions.md#data_source_condition) pour des sources de données et des informations d’événements.
 * Définir des [activités Attente](../wait-activity.md#custom) personnalisées.
 * Définir le mappage de paramètres d’actions.
 
-Lorsque cela est possible, vous pouvez basculer entre les deux modes à l’aide du bouton **[!UICONTROL Mode avancé]**/**[!UICONTROL Mode simple]**. Le mode simple est décrit [ici](../condition-activity.md#about_condition).
+Lorsque cela est possible, vous pouvez basculer entre les deux modes à l’aide du bouton **[!UICONTROL Mode avancé]**/**[!UICONTROL Mode simple]**. Le mode simple est décrit [ici](../conditions.md#about_condition).
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Dans la partie gauche de l’écran, les champs et les fonctions disponibles son
   >
   >La création d’expressions à l’aide d’événements d’expérience n’est pas prise en charge. Les autres approches et bonnes pratiques pour créer des expressions et des logiques avec des événements d’expérience sont référencées [ici](../../building-journeys/exp-event-lookup.md).
 
-* **[!UICONTROL Audiences]** : si vous avez déposé un événement de **[!UICONTROL qualification d’audience]**, choisissez l’audience à utiliser dans votre expression. [En savoir plus](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Audiences]** : si vous avez déposé un événement de **[!UICONTROL qualification d’audience]**, choisissez l’audience à utiliser dans votre expression. [En savoir plus](../conditions.md#using-a-segment)
 * **[!UICONTROL Sources de données]** : choisissez dans la liste des champs disponibles issue des groupes de champs de vos sources de données. [En savoir plus](../../datasource/about-data-sources.md)
 * **[!UICONTROL Propriétés du parcours]** : cette section regroupe les champs techniques liés au parcours pour un profil donné. [En savoir plus](journey-properties.md)
 * **[!UICONTROL Fonctions]** : choisissez dans la liste des fonctions intégrées qui permettent d’effectuer un filtrage complexe. Les fonctions sont organisées par catégories. [En savoir plus](functions.md)

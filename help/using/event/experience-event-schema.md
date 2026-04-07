@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: schémas, XDM, platform, en flux continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 86%
@@ -25,7 +25,7 @@ Les événements [!DNL Journey Optimizer] sont des événements d’expérience 
 
 >[!CAUTION]
 >
->À compter du 8 juillet 2025, les nouvelles organisations clientes ne pourront plus créer d’expressions à l’aide d’attributs d’événement d’expérience dans des conditions de parcours. À compter du 1er avril 2026, les organisations qui n’ont pas accédé aux événements d’expérience par le biais d’expressions de parcours au cours des 90 derniers jours n’auront plus accès à cette fonctionnalité. D’autres approches et bonnes pratiques sont répertoriées dans [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+>À compter du 8 juillet 2025, les nouvelles organisations clientes ne pourront plus créer d’expressions à l’aide d’attributs d’événement d’expérience dans des conditions de parcours. À compter du 1er avril 2026, les organisations qui n’ont pas accédé aux événements d’expérience par le biais d’expressions de parcours au cours des 90 derniers jours n’auront plus accès à cette fonctionnalité. D’autres approches et bonnes pratiques sont répertoriées dans [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 >
 >L’accès au contexte à partir de l’événement de démarrage d’un parcours n’est pas affecté.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=fr).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
@@ -123,7 +123,7 @@ Add a condition in a journey, edit the expression and unfold the event node in t
 
 ![](assets/schema12.png)
 
-To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
+To learn how to define journey conditions, refer to this [page](../building-journeys/conditions.md).
 
 ### Message personalization{#message_personalization}
 

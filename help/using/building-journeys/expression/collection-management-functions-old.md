@@ -10,8 +10,8 @@ role: Developer
 level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ La fonction **[!UICONTROL all]** permet de définir un filtre sur une collection
 
 Par exemple, parmi tous les personnes utilisant l’application, vous pouvez extraire celles qui utilisent IOS 13 (expression booléenne « app used == IOS 13 »). Le résultat de cette fonction est une liste filtrée contenant les éléments qui correspondent à l’expression booléenne (exemple : utilisateur 1 de l’application, utilisateur 34 de l’application, utilisateur 432 de l’application).
 
-Dans une activité Condition de source de données, vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** à d’autres fonctions, telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité Condition de source de données](../condition-activity.md#data_source_condition).
+Dans une activité Condition de source de données, vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** à d’autres fonctions, telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité Condition de source de données](../conditions.md#data_source_condition).
 
 
 ## Exemples

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -47,13 +47,13 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 * Choisissez une audience d’une **campagne**, où le message est envoyé à toutes les personnes appartenant à l’audience sélectionnée. [Découvrez comment définir l’audience d’une campagne](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Utilisez une activité d’orchestration **Lecture d’audience** dans un parcours pour faire en sorte que toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. Supposons que vous ayez une audience « client ou cliente Silver ». Avec cette activité, vous pouvez faire en sorte que l’ensemble des clientes et clients Silver rejoignent un parcours. Vous pouvez ensuite leur envoyer une série de messages personnalisés. [Découvrez comment configurer une activité Lecture d’audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Pour segmenter, exclure ou fusionner des branches après leur entrée, consultez la section [Ciblage des audiences dans les parcours &#x200B;](../building-journeys/read-audience.md#audience-targeting-in-journeys).
+* Utilisez une activité d’orchestration **Lecture d’audience** dans un parcours pour faire en sorte que toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. Supposons que vous ayez une audience « client ou cliente Silver ». Avec cette activité, vous pouvez faire en sorte que l’ensemble des clientes et clients Silver rejoignent un parcours. Vous pouvez ensuite leur envoyer une série de messages personnalisés. [Découvrez comment configurer une activité Lecture d’audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Pour segmenter, exclure ou fusionner des branches après leur entrée, consultez la section [Ciblage des audiences dans les parcours ](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Après l’entrée, utilisez les activités **Condition** pour [segmenter par attributs ou comportement, exclure une partie de la population ou fusionner des branches](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Pour les parcours utilisant des audiences de composition d’audiences ou de chargement personnalisé, les attributs de profil sont aussi récents que la dernière évaluation par lots à l’entrée du parcours. Cependant, après une activité **Attente**, le parcours actualise les attributs de profil depuis le service de profil unifié en récupérant les dernières données disponibles, ce qui signifie que les attributs de profil peuvent changer pendant l’exécution du parcours. [En savoir plus sur l’actualisation des profils après une activité Attente](../building-journeys/wait-activity.md#profile-refresh)
 
-* Utilisez l’activité **Condition** dans un parcours afin de créer des conditions basées sur l’appartenance à une audience. [Découvrez comment utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
+* Utilisez l’activité **Optimiser** dans un parcours pour créer des conditions basées sur l’appartenance à une audience. [Découvrez comment utiliser des audiences dans des conditions](../building-journeys/conditions.md#using-a-segment).
 
 * Utilisez l’activité d’événement **Qualification d’audience** dans un parcours pour faire en sorte que des personnes rejoignent le parcours ou y progressent en fonction des entrées et des sorties d’audiences Adobe Experience Platform. Par exemple, vous pouvez faire en sorte que l’ensemble de la nouvelle clientèle Silver rejoigne un parcours et lui envoyer des messages. [Découvrir comment configurer une activité Qualification d’audience](../building-journeys/audience-qualification-events.md)
 

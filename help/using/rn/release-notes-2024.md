@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -310,7 +310,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
   Cette modification sera déployée sur les sandbox des clientes et clients existants au cours d’une phase ultérieure. [En savoir plus](../data/datasets-ttl.md#ttl-guardrail)
 
-* **Paramètres dans les actions personnalisées** - Date de disponibilité : 3 octobre 2024 - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters).
+* **Paramètres dans les actions personnalisées** - Date de disponibilité : 3 octobre 2024 - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **Créer des rapports**
 
@@ -435,7 +435,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Assistant IA</strong><br/></th>
+<th><strong>Assistant IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -630,7 +630,7 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* Dans l’activité **Condition**, par défaut, la **[!UICONTROL Condition de temps]** est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
+* Dans l’activité **Condition**, par défaut, la **[!UICONTROL Condition de temps]** est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/conditions.md#time_condition)
 * Lors de la création de vos parcours, les alertes s’affichent désormais à partir du bouton **Alertes**, afin de s’aligner sur d’autres alertes et d’offrir une expérience d’utilisation cohérente. [En savoir plus](../building-journeys/troubleshooting.md#activity-errors)
 * Les options de zoom de la barre d’outils des parcours ont été améliorées : le pourcentage de zoom est désormais visible et vous pouvez facilement réinitialiser sa valeur.
 
@@ -640,7 +640,7 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 
 ### Autres modifications {#changes}
 
-**Création de rapports**
+**Créer des rapports**
 
 * De nouveaux cas d’utilisation ont été ajoutés à la nouvelle expérience de création de rapports :
 
@@ -873,7 +873,7 @@ En savoir plus dans la documentation sur les [fragments de contenu](../content-m
 * Vous pouvez désormais utiliser le plug-in Edge Delivery pour obtenir les informations nécessaires pour comprendre et résoudre les problèmes liés à vos implémentations entrantes. [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-#### Canal de publipostage direct
+#### Canal courrier
 
 * Le canal de publipostage direct est désormais disponible pour l’ensemble des clientes et clients. [En savoir plus](../direct-mail/get-started-direct-mail.md)
 
@@ -1129,7 +1129,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Gestion de contenu**
 
-* Vous pouvez désormais simuler des modèles de contenu pour tous les canaux. [En savoir plus](../content-management/content-templates.md#video-templates).
+* Vous pouvez désormais simuler des modèles de contenu pour tous les canaux. [En savoir plus](../content-management/content-templates.md#video-templates)
 
 **Personnalisation**
 
@@ -1148,7 +1148,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Expériences basées sur le code</strong><br/></th>
+<th><strong>Expériences basées sur du code</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1318,7 +1318,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
-**Création de rapports**
+**Créer des rapports**
 
 * **Nouveaux widgets de répartition basés sur des domaines** – Ajout de nouveaux widgets pour améliorer vos rapports Campaign et Journey. Les widgets **Raisons de rebond par domaine**, **Envoyés et diffusés par domaine**, **Ouvertures et clics par domaine** et **Rebonds et erreurs par domaine** fournissent une répartition détaillée des mesures principales de diffusion et de suivi des e-mails au niveau du domaine. [En savoir plus](../reports/channel-report-cja.md)
 
@@ -1330,7 +1330,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* **Durée des événements de réaction** – La durée maximale que vous pouvez définir dans les **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](../building-journeys/reaction-events.md)
+* **Durée des événements de réaction** - La durée maximale que vous pouvez définir dans les **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](../building-journeys/reaction-events.md)
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 

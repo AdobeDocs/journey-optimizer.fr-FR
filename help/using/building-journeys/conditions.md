@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Activité de condition
-description: En savoir plus sur l’activité de condition
+title: Conditions
+description: Configuration de conditions dans l’activité Optimisation pour les chemins de parcours
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: activité, condition, zone de travail, parcours
-hidefromtoc: true
-hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 95%
+source-wordcount: '1873'
+ht-degree: 89%
 
 ---
 
@@ -24,15 +22,15 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Conditions"
->abstract="L’activité Condition permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide."
+>abstract="L’activité Condition permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les délais d’expiration ou les erreurs, assurant ainsi une expérience fluide. Notez que les conditions sont désormais configurées dans l’activité Optimiser , qui remplace l’ancienne activité Condition ."
 
 Les **conditions** vous permettent de définir la progression des individus dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide.
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Ces conditions sont disponibles par le biais de l’activité **Optimiser**, accessible à la demande en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Le nouveau moyen de créer des chemins conditionnels dans les parcours est l’activité [Optimiser](optimize.md). Elle remplace l’ancienne activité **Condition**, qui a été supprimée de l’interface utilisateur. Toute la logique conditionnelle est désormais gérée à l’aide des conditions de l’activité Optimiser présentées sur cette page.
 >
->Si vous n’avez pas accès à cette fonctionnalité, vous pouvez tout de même utiliser l’ancienne [activité Condition](condition-activity.md).
+>Si des parcours existants utilisent des activités **[!UICONTROL Condition]**, vous pouvez continuer à les utiliser comme auparavant. Elles s’affichent désormais avec une nouvelle icône en tant qu’activités **[!UICONTROL Optimiser]** à l’aide de la méthode **[!UICONTROL Condition]**, mais le comportement reste inchangé. Toute étiquette personnalisée que vous avez définie sur le nœud est conservée.
 
 ## Ajouter une condition {#add-condition-activity}
 
@@ -54,6 +52,10 @@ Pour ajouter une condition à votre parcours, procédez comme suit :
    * [Condition de date](#date_condition)
    * [Limite de profils](#profile_cap)
    * Vous pouvez également utiliser une audience dans une condition de parcours. [En savoir plus](#using-a-segment)
+
+>[!NOTE]
+>
+>L’évaluation de la condition échoue pour les profils qui incluent plus de deux identités inter-appareils dans le [magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"}.
 
 ## Gérer les chemins des conditions {#condition_paths}
 
@@ -87,7 +89,7 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 
 ![Éditeur d’expression simple avec des champs de type glisser-déposer et des opérateurs logiques](assets/journey64.png){width=80%}
 
-Si vous utilisez le [[!DNL Adobe Experience Platform] service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les exploiter dans vos conditions de parcours. Pour plus d’informations, consultez la section [Utilisation d’audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
+Si vous utilisez le [service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les utiliser dans vos conditions de parcours. Pour plus d&#39;informations, consultez la section [Utiliser une audience dans des conditions](#using-a-segment).
 
 >[!NOTE]
 >
@@ -102,6 +104,14 @@ Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours,
 Utilisez une **[!UICONTROL condition de source de données]** pour définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Ce type de condition est défini à l’aide de l’éditeur d’expression. [En savoir plus sur l’utilisation de l’éditeur d’expression](expression/expressionadvanced.md)
 
 Par exemple, si vous ciblez une audience avec des attributs d’enrichissement générés à l’aide d’un workflow de composition ou d’un chargement personnalisé (fichier CSV), vous pouvez utiliser ces attributs d’enrichissement pour créer votre condition.
+
+>[!IMPORTANT]
+>
+>**Gestion des attributs manquants ou non ingérés**
+>
+>Si un champ de schéma est défini dans votre schéma de profil mais qu’aucune donnée n’a été ingérée pour ce champ, Journey Optimizer et le profil client en temps réel sous-jacent interprètent le champ comme `null`. Par conséquent, les conditions qui vérifient `isEmpty()`, `isNull()` ou des fonctions similaires seront évaluées à `true` même si l’attribut n’a jamais été ingéré. Cela peut entraîner un comportement de parcours inattendu si vous ne savez pas que le champ ne contient aucune donnée.
+>
+>Pour éviter toute confusion, assurez-vous que les attributs que vous utilisez dans les expressions de condition ont été ingérés avec des données réelles avant que le profil rejoigne le parcours. Vous pouvez vérifier les valeurs d’attribut dans le [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} afin de confirmer si des données existent pour les champs utilisés dans vos conditions.
 
 L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. [En savoir plus](../datasource/external-data-sources.md)
 

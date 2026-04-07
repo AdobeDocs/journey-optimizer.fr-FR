@@ -10,9 +10,9 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 29c591590415add30780cf5ea80964141a8fd236
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1701'
 ht-degree: 62%
 
 ---
@@ -68,7 +68,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Politique de fusion"
 >abstract="La politique de fusion est automatiquement récupérée à partir de l’audience sélectionnée et appliquée dans l’ensemble du parcours."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="En savoir plus sur les politiques de fusion"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="En savoir plus sur les politiques de fusion"
 
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
@@ -115,7 +115,7 @@ La payload contient les informations contextuelles suivantes, utilisables dans d
 
 Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité de **[!UICONTROL qualification d’audience]**, vous avez accès au nœud **[!UICONTROL AudienceQualification]**. Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
 
-Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
+Voir [Conditions](../building-journeys/conditions.md#about_condition).
 
 Un nouveau parcours contenant un événement de **qualification d’audience** est opérationnel dix minutes après sa publication. Cet intervalle correspond à l’intervalle d’actualisation du cache du service dédié. Patientez dix minutes avant d’utiliser ce parcours.
 
@@ -223,4 +223,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

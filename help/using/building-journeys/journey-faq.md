@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide, orchestration
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 93%
@@ -187,7 +187,7 @@ Suivez le [guide détaillé](journey-gs.md).
 Les conditions préalables requises dépendent du type de votre parcours :
 
 * **Parcours déclenchés par un événement** : configurez les événements pour définir à quel moment les profils doivent rejoindre le parcours.
-* **parcours basés sur l’audience** : créez des audiences dans [!DNL Adobe Experience Platform]
+* parcours basés sur l’audience **: créez des audiences dans**[!DNL Adobe Experience Platform]
 * **Enrichissement des données** : configurez les sources de données pour récupérer des informations supplémentaires.
 * **Intégrations tierces** : configurez des actions personnalisées si vous utilisez des systèmes externes.
 
@@ -219,7 +219,7 @@ Vous pouvez ajouter des conditions à l’aide de l’**activité Condition** de
 * diviser le parcours en plusieurs chemins en fonction des attributs de profil, de l’appartenance à l’audience, des événements ou des données contextuelles ;
 * définir des chemins de temporisation pour les profils qui ne remplissent pas la condition dans un délai spécifié.
 
-En savoir plus sur les [conditions](condition-activity.md).
+En savoir plus sur les [conditions](conditions.md).
 
 +++
 
@@ -317,7 +317,7 @@ Utilisez une **activité de condition** avec des attributs de profil ou une appa
    * **Chemin 3** : nouveaux clients et nouvelles clientes (total des achats &lt; 100 $)
 3. Ajoutez des messages ou des offres différents pour chaque chemin.
 
-En savoir plus sur les [conditions](condition-activity.md) et la [qualification d’audience](audience-qualification-events.md).
+En savoir plus sur les [conditions](optimize.md#conditions) et la [qualification d’audience](audience-qualification-events.md).
 
 +++
 
@@ -588,9 +588,9 @@ En savoir plus sur la [personnalisation](../personalization/personalize.md).
 
 +++ Puis-je envoyer différents messages en fonction du canal préféré ?
 
-Oui. Utilisez une **[activité de condition](condition-activity.md)** pour acheminer les profils en fonction de leur canal préféré :
+Oui. Utilisez une **[activité d’optimisation](conditions.md)** pour acheminer les profils en fonction de leur canal préféré :
 
-1. Ajoutez une [activité de condition](condition-activity.md) à votre parcours.
+1. Ajoutez une activité [Optimiser](optimize.md) dans votre parcours
 2. Créez un chemin pour chaque canal en vérifiant l’attribut de profil de canal préféré (par exemple, `profile.preferredChannel`).
 3. Configurez les chemins spécifiques aux canaux :
    * **Chemin d’e-mail** : ajoutez une [action d’e-mail](../email/create-email.md) avec du contenu optimisé pour les e-mails.
@@ -606,7 +606,7 @@ Oui. Utilisez une **[activité de condition](condition-activity.md)** pour achem
 * Utilisez des [surfaces de canal](../configuration/channel-surfaces.md) pour gérer les configurations de canal.
 * Testez tous les chemins pour garantir une diffusion correcte des messages.
 
-En savoir plus sur les [conditions](condition-activity.md), les [actions de message](journey-action.md) et la [sélection de canal](../channels/gs-channels.md).
+En savoir plus sur les [conditions](conditions.md), les [actions de message](journeys-message.md) et la [sélection de canal](../channels/gs-channels.md).
 
 +++
 
@@ -622,7 +622,7 @@ Oui, il existe plusieurs façons d’exclure des clientes et des clients :
 
 **Dans le parcours** :
 
-* Ajoutez une [activité de condition](condition-activity.md) au début du parcours pour faire sortir les profils indésirables.
+* Ajoutez une [activité d’optimisation](conditions.md) au début du parcours pour quitter les profils indésirables
 * Vérifiez les attributs d’exclusion (par exemple, statut de VIP, comptes de test).
 * Utilisez la [qualification d’audience](audience-qualification-events.md) pour identifier les profils à exclure.
 
@@ -838,7 +838,7 @@ En savoir plus sur les [politiques de fusion](../audience/get-started-profiles.m
 * Patientez pendant un certain temps, puis utilisez une condition pour vérifier si un événement s’est produit pendant l’attente.
 * Exemple : attendre pendant 7 jours, puis vérifier si le client ou la cliente a effectué un achat.
 
-En savoir plus sur les [conditions](condition-activity.md) et les [activités d’attente](wait-activity.md).
+En savoir plus sur les [conditions](optimize.md#conditions) et les [activités d’attente](wait-activity.md).
 
 +++
 
@@ -918,7 +918,7 @@ En savoir plus sur la [conception de parcours](using-the-journey-designer.md) et
 * Utilisez l’[entrée basée sur l’audience](read-audience.md) pour les communications par lots au lieu d’événements individuels.
 * Implémentez des [temps d’attente](wait-activity.md) appropriés pour répartir le volume des messages.
 * Utilisez des [règles de limitation](../conflict-prioritization/journey-capping.md) pour éviter une surcharge du système.
-* Optimisez la [logique des conditions](condition-activity.md) pour réduire la complexité du traitement.
+* Optimisez la [logique des conditions](conditions.md) pour réduire la complexité du traitement.
 
 **Surveillance** :
 

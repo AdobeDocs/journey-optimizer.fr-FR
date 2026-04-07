@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -792,7 +792,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>Lors de la configuration d’une activité <strong>Condition</strong> dans un parcours, vous pouvez désormais définir une limite de profils. Utilisez ce nouveau type de condition pour définir un nombre maximal de profils pour le chemin dʼun parcours. Lorsque cette limite est atteinte, les profils entrants prennent un autre chemin. Vous pouvez ainsi augmenter le volume de vos diffusions (montée en puissance des adresses IP). Par exemple, vous pouvez augmenter le nombre de diffusions sur un domaine en fractionnant lʼexécution : envoi de 1 000 messages le premier jour, 2 000 le deuxième jour, etc.</p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/condition-activity.md#profile_cap">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/conditions.md#profile_cap">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

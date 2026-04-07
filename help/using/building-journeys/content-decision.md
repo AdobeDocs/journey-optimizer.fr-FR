@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 82%
+source-wordcount: '1257'
+ht-degree: 74%
 
 ---
 
@@ -29,7 +29,7 @@ Pour tirer parti de cette fonctionnalité, créez un parcours dans lequel vous a
 
 Vous pouvez ensuite utiliser la sortie de l’activité Décision de contenu dans :
 
-* Une [activité de condition](#add-condition-activity), pour déplacer des profils vers des chemins spécifiques en fonction des offres récupérées ;
+* une activité [ Optimiser avec une condition ](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
 
 * une [action personnalisée](#add-custom-action), via laquelle vous pouvez envoyer ces offres à des systèmes externes.
 
@@ -43,7 +43,7 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Décision de contenu]** dans votre zone de travail.
 
-   ![Ajouter une décision de contenu au parcours &#x200B;](assets/journey-content-decision.png){width=100%}
+   ![Ajouter une décision de contenu au parcours ](assets/journey-content-decision.png){width=100%}
 
 1. Vous pouvez, si vous le souhaitez, ajouter un libellé et une description à l’activité.
 
@@ -81,15 +81,15 @@ Vous êtes maintenant en mesure d’utiliser la sortie de cette activité Décis
 
 ## Utiliser la sortie de l’activité Décision de contenu {#use-content-decision-output}
 
-La sortie d’une décision de contenu peut être utilisée dans plusieurs activités de parcours. Par exemple, vous pouvez utiliser une [activité de condition](#add-condition-activity) pour déplacer des profils vers des branches spécifiques de votre parcours, en fonction du nombre d’offres récupérées pour ces derniers.
+La sortie d’une décision de contenu peut être utilisée dans plusieurs activités de parcours. Par exemple, vous pouvez utiliser une activité [Optimiser avec une condition](#add-condition-activity) pour déplacer des profils vers des branches spécifiques de votre parcours, en fonction du nombre d’offres récupérées pour ces dernières.
 
 Vous pouvez également ajouter une [action personnalisée](#add-custom-action) à votre parcours afin de partager les offres de l’activité de décision de contenu avec un système externe.
 
-### Dans une activité de condition {#add-condition-activity}
+### Dans une activité Optimiser (méthode Condition) {#add-condition-activity}
 
-Pour tirer parti de la sortie d’une activité Décision de contenu, vous pouvez ajouter une condition à votre parcours, dans laquelle vous pouvez définir des expressions pour déplacer des profils vers des chemins spécifiques à l’aide des données de ces offres. Suivez les étapes ci-après.
+Pour tirer parti de la sortie d’une activité de décision de contenu, ajoutez une activité **[!UICONTROL Optimiser]**, choisissez la méthode **[!UICONTROL Condition]** et définissez des expressions pour déplacer des profils vers des chemins spécifiques à l’aide des données issues de ces offres. Suivez les étapes ci-dessous. Pour plus de types de condition et d’options, voir [Conditions](conditions.md).
 
-1. Dans la catégorie **[!UICONTROL Orchestration]**, déposez une activité **[!UICONTROL Condition]** dans votre zone de travail. [En savoir plus](condition-activity.md#add-condition-activity)
+1. Dans la catégorie **[!UICONTROL Orchestration]**, déposez une activité **[!UICONTROL Optimiser]** dans la zone de travail. [En savoir plus](optimize.md)
 
 1. Vous pouvez, si vous le souhaitez, renommer **[!UICONTROL Path1]**, qui correspond à la première expression que vous définissez, pour lui donner un nom plus pertinent.
 
