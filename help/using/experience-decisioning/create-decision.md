@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 70%
+source-wordcount: '658'
+ht-degree: 71%
 
 ---
 
@@ -49,9 +49,8 @@ Les politiques de décision sont des conteneurs pour vos offres qui tirent profi
 
 ## Mécanismes de sécurisation et limitations
 
-* **Canaux pris en charge** - Les politiques de décision sont disponibles pour tous les clients pour les expériences basées sur le code, les SMS et les notifications push. La prise de décision pour le canal e-mail est disponible en disponibilité limitée uniquement.
+* **Canaux pris en charge** - Les politiques de décision sont disponibles pour l’expérience basée sur le code, les SMS, les notifications push et les e-mails.
 * **Exigence de SDK pour les notifications push** - Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
-* **Pages miroir des e-mails** : pour l’instant, les éléments de décision ne s’affichent pas dans les pages miroir des e-mails.
 * **Type de suivi et de liens** : pour suivre les liens générés par la prise de décision, définissez-les dans le schéma comme « Ressources de prise de décision ». Les liens basés sur les attributs ne pevent pas faire l’objet d’un suivi.
 * **Imbrication de politiques de décision dans des e-mails** : vous ne pouvez pas imbriquer plusieurs politiques de décision dans un composant d’e-mail parent auquel est déjà associée une politique de décision.
 * **Parcours ou campagnes dupliqués avec prise de décision** : si vous dupliquez un parcours ou une campagne qui inclut une politique de décision, la version dupliquée fait référence à l’e-mail ou à l’expérience basée sur du code d’origine, ce qui entraîne des erreurs. Reconfigurez toujours la politique de décision après la duplication.
@@ -85,12 +84,12 @@ Les principales étapes pour utiliser les politiques de décision dans vos messa
 
 Découvrez comment utiliser Decisioning pour personnaliser les e-mails pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476166?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Découvrez comment utiliser Decisioning pour personnaliser les notifications push pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479212?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Découvrez comment utiliser Decisioning pour personnaliser les SMS pour votre audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479531?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)

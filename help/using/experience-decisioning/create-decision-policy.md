@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 65%
+source-wordcount: '2225'
+ht-degree: 64%
 
 ---
 
@@ -39,13 +39,11 @@ Pour présenter la meilleure offre et expérience dynamique à votre clientèle,
 1. [Configurer une séquence de stratégie](#strategy) : sélectionnez les éléments à renvoyer avec la politique de décision.
 1. [Sélectionner des offres de secours](#fallback) (facultatif) : sélectionnez les éléments à afficher si aucun élément ou stratégie de sélection n’est qualifié.
 1. [Vérifier et enregistrer](#review) la stratégie de sélection
-1. [Attribuer un emplacement](#placement) (canal e-mail)
+1. [Attribuer un emplacement](#placement) (canal e-mail uniquement)
 
 >[!AVAILABILITY]
 >
->Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et SMS.
->
->La prise de décision pour le canal e-mail est disponible en disponibilité limitée. Pour demander l’accès, contactez votre représentant Adobe. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
+>Les politiques de décision sont disponibles pour les canaux **Expérience basée sur le code**, **Notification push**, **SMS** et **E-mail**.
 
 ## Ajouter une politique de décision {#add}
 
@@ -116,6 +114,16 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
    >L’option **[!UICONTROL Réutiliser la sortie de décision]** vous permet de réutiliser une politique de décision déjà créée dans cet e-mail. Cela s’avère particulièrement utile lorsque vous souhaitez afficher la même offre à plusieurs emplacements (par exemple, en-tête et pied de page).
    >
    >Lorsqu’une même offre peut être sélectionnée par plusieurs politiques de décision dans le corps de l’e-mail, le moteur déduplique les offres : chaque emplacement reçoit une offre différente, de sorte que la même offre n’apparaît pas aux deux endroits. Pour afficher la même offre à plusieurs emplacements, utilisez **[!UICONTROL Réutiliser la sortie de décision]** pour réutiliser la sortie d’une politique de décision existante dans cet e-mail.
+
+   +++
+
+Vous pouvez également ajouter des politiques de décision lors de l’utilisation du mode **[!UICONTROL Coder le vôtre]** dans le Designer d’e-mail. Pour ce faire, accédez à **[!UICONTROL Politiques de décision]** pour insérer le code de la politique de décision. [Découvrez comment coder votre propre contenu d’e-mail](../email/code-content.md).
+
+![](assets/decision-policy-add-code-your-own.png)
+
+>[!NOTE]
+>
+>En mode **[!UICONTROL Coder le vôtre]**, vous ne pouvez renvoyer qu’un seul élément de décision par politique, car le composant **[!UICONTROL Grille de répétition]** n’est pas disponible.
 
 >[!TAB SMS]
 
