@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 97%
+source-wordcount: '757'
+ht-degree: 84%
 
 ---
 
@@ -100,6 +100,12 @@ Vous trouverez ci-dessous des définitions, des causes courantes et des étapes 
   **Causes courantes** : événements en double, volume d’événements élevé, contraintes de ressources système.
 
   **Dépannage** : implémentez la déduplication, évitez les pics de trafic, optimisez la conception du parcours [contactez l’assistance](../start/user-interface.md#support-ticket-guidelines) si elle est persistante.
+
+* **maxInstanceStackEventsReached** : l’exécution du parcours a atteint la limite de pile d’événements interne par profil de 10 événements pour une version de parcours donnée.
+
+  **Causes courantes** : l’instance de parcours du profil est bloquée lors d’une étape de longue durée (par exemple, de longues attentes, des enrichissements lents ou des reprises d’action personnalisée) et les événements du même profil, également utilisés dans ce parcours, s’accumulent au-delà de la limite de 10 événements.
+
+  **Dépannage** : réduisez les étapes de longue durée sur les chemins qui peuvent se déclencher à nouveau fréquemment, rebondir ou dédupliquer les événements en amont et diviser les scénarios longs en plusieurs parcours. Il s’agit d’un mécanisme de sécurisation et la limite n’est pas configurable. Les événements supplémentaires sont ignorés jusqu’à ce que la pile se vide. Pour plus d’informations, voir [Événements ignorés avec maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
 * **EVENT_WITH_NO_JOURNEY** : un événement a été reçu, mais aucun parcours actif n’est configuré pour y répondre.
 
