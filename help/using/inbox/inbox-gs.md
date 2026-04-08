@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: f7f303685e954614b44a9b62368460e9b07b26b3
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
@@ -46,6 +46,10 @@ Pour configurer et utiliser la boîte de réception, procédez comme suit :
 
 ## Ressources supplémentaires
 
+* [Interface utilisateur de la boîte de réception (iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS/) : exigences, surface d’API publique, paramètres de la boîte de réception et liens vers des tutoriels pour l’implémentation de la boîte de réception Journey Optimizer dans une application iOS avec Adobe Experience Platform Mobile SDK (iOS 15 ou version ultérieure, Xcode 15 ou version ultérieure, Swift 5.1 ou version ultérieure).
+
 * [Récupérer et afficher la boîte de réception](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/) : chargement des messages de la boîte de réception Journey Optimizer et rendu de l’interface utilisateur de la boîte de réception sur Android (documentation Adobe Developer).
+
 * [Personnalisation de la boîte de réception](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/) : ajustez la disposition, le style et le comportement de l’interaction de la boîte de réception pour votre application Android (documentation Adobe Developer).
+
 * [Écoute des événements de boîte de réception](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/) : abonnez-vous aux rappels de boîte de réception pour les actions des utilisateurs et les mises à jour de cycle de vie sur Android (documentation Adobe Developer).
