@@ -138,7 +138,7 @@ Pour accéder au gestionnaire d’accès de Adobe Experience Manager dans Journe
 
 1. Dans l’éditeur Personalization, choisissez votre point d’entrée de contenu :
 
-   * Pour ajouter une ressource, cliquez sur **** puis **[!UICONTROL Ouvrir le gestionnaire de contenu AEM]**.
+   * Pour ajouter une ressource, cliquez sur **&#x200B;**&#x200B;puis **[!UICONTROL Ouvrir le gestionnaire de contenu AEM]**.
 
      ![](assets/content-advisor-11.png){zoomable="yes"}
 

@@ -129,7 +129,7 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
-    >[!REMARQUE]
+    >[ !REMARQUE]
     >
     >Après avoir créé un nouveau sous-domaine chez votre fournisseur DNS, attendez 24 à 48 heures pour la propagation DNS avant de déléguer à Adobe.
 

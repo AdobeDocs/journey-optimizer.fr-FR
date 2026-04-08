@@ -96,7 +96,7 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
    * Sélectionnez le bouton **[!UICONTROL Copier le lien]** et partagez le lien avec votre équipe et les parties prenantes, qui peuvent prévisualiser la nouvelle expérience dans n’importe quel navigateur mobile avant que les modifications ne soient mises en ligne.
 
-   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien de prévisualisation directement dans l’application mobile. Vous devez saisir le code confidentiel sur votre appareil pour établir la session [](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien de prévisualisation directement dans l’application mobile. Vous devez saisir le code confidentiel sur votre appareil pour établir la session [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
 
      >[!NOTE]
      >
