@@ -246,4 +246,4 @@ Vous pourrez facilement modifier les champs de formulaire d’un parcours ou d�
 
 Découvrez comment ajouter des champs modifiables aux modèles de contenu de canal d’expérience basée sur du code.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463993/?captions=fre_fr&learn=on&#x26;enablevpops)
