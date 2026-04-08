@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
+source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 84%
+source-wordcount: '761'
+ht-degree: 83%
 
 ---
 
@@ -105,7 +105,7 @@ Vous trouverez ci-dessous des définitions, des causes courantes et des étapes 
 
   **Causes courantes** : l’instance de parcours du profil est bloquée lors d’une étape de longue durée (par exemple, de longues attentes, des enrichissements lents ou des reprises d’action personnalisée) et les événements du même profil, également utilisés dans ce parcours, s’accumulent au-delà de la limite de 10 événements.
 
-  **Dépannage** : réduisez les étapes de longue durée sur les chemins qui peuvent se déclencher à nouveau fréquemment, rebondir ou dédupliquer les événements en amont et diviser les scénarios longs en plusieurs parcours. Il s’agit d’un mécanisme de sécurisation et la limite n’est pas configurable. Les événements supplémentaires sont ignorés jusqu’à ce que la pile se vide. Pour plus d’informations, voir [Événements ignorés avec maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+  **Dépannage** : réduisez les étapes de longue durée sur les chemins qui peuvent se déclencher à nouveau fréquemment, rebondir ou dédupliquer les événements en amont et diviser les scénarios longs en plusieurs parcours. Il s’agit d’un mécanisme de sécurisation et la limite n’est pas configurable. Les événements supplémentaires sont ignorés jusqu’à ce que la pile se vide. Pour plus d’informations, voir [Événements ignorés en raison d’une instance de parcours bloquée](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
 * **EVENT_WITH_NO_JOURNEY** : un événement a été reçu, mais aucun parcours actif n’est configuré pour y répondre.
 
