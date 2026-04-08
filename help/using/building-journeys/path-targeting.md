@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ciblage, règles, parcours, chemin, optimisation, personnalisation
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 89%
 
 ---
-
 
 # Utilisation du ciblage des chemins d’accès {#targeting}
 
@@ -140,4 +140,3 @@ Les clientes et clients qui ont récemment acheté des produits peuvent choisir 
 ![Ciblage de l’historique des achats avec chemin de vente croisée pour les acheteurs et acheteuses ; chemin de prospection pour les non-acheteurs et non-acheteuses](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
-

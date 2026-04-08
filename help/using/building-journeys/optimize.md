@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 33%
+ht-degree: 38%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="Activité Optimiser"
->abstract="L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs chemins d’accès en fonction de critères spécifiques, notamment l’expérimentation, le ciblage et des conditions spécifiques. Notez que l’activité **Optimiser** est le nouveau moyen de créer des chemins conditionnels dans les parcours. Elle remplace l’ancienne activité **Condition**."
+>abstract="L’activité **Optimiser** permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques, y compris l’expérimentation, le ciblage et les conditions spécifiques. Notez que l’activité **Optimiser** est le nouveau moyen de créer des chemins conditionnels dans les parcours. Elle remplace l’ancienne activité **Condition**."
 
 >[!IMPORTANT]
 >
@@ -64,4 +64,4 @@ Sélectionnez la méthode d’optimisation qui correspond le mieux à votre cas 
 
 * Vous souhaitez tester et savoir quel chemin est le plus performant ? → Accéder à [Expérimentation de chemin](path-experimentation.md)
 * Vous souhaitez envoyer différentes audiences sur des chemins spécifiques ? → Accéder au [Ciblage des chemins](path-targeting.md)
-* Vous souhaitez créer une logique conditionnelle (scénarios if/then) ? → Accéder à [&#x200B; Conditions &#x200B;](conditions.md)
+* Vous souhaitez créer une logique conditionnelle (scénarios if/then) ? → Accéder à [ Conditions ](conditions.md)

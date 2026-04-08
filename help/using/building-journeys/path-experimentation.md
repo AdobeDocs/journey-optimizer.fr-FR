@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: expérimentation, expérience, parcours, chemin, optimisation, test A/B, bandit manchot, mettre le gagnant à l’échelle
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 77%
