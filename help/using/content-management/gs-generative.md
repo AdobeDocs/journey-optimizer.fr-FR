@@ -7,8 +7,9 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
+mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9325cbff37665a1c46d8c0239755314b6cb876be
+source-git-commit: f0555a8a77e712e3f105001997243faebfbd4b57
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 96%
