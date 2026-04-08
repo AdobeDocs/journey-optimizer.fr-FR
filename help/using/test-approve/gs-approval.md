@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: e6cac6aff79b30a308be480319902f478436391d
+source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 59%
+source-wordcount: '966'
+ht-degree: 53%
 
 ---
 
@@ -40,7 +40,7 @@ Pour approuver et publier des parcours et des campagnes, les utilisateurs doiven
 
 1. Ajoutez la ressource **Parcours**, puis sélectionnez **Approuver et publier des parcours** dans le menu déroulant.
 
-   ![Attribuer une autorisation d’approbation et de publication de Parcours &#x200B;](assets/permissions_approval_2.png){zoomable="yes"}
+   ![Attribuer une autorisation d’approbation et de publication de Parcours ](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. Cliquez sur **Enregistrer** pour appliquer vos modifications.
 
@@ -107,6 +107,20 @@ Non. Une fois soumise à validation, la campagne ou le parcours est verrouillé(
 +++Je ne vois pas l’autorisation Approuver et publier dans la liste déroulante. Que dois-je vérifier ?
 
 Assurez-vous d’abord d’ajouter la ressource appropriée. L’autorisation **Approuver et publier des campagnes** nécessite l’ajout de la ressource **Campagnes** au rôle et l’utilisation de la ressource **Approuver et publier des Parcours** nécessite la ressource **Parcours**. Les deux doivent être ajoutés séparément. [Découvrez comment attribuer des autorisations liées à la validation](#prerequisites)
+
++++
+
++++Comment détermine-[!DNL Journey Optimizer] la politique d’approbation qui s’applique si plusieurs politiques peuvent correspondre ?
+
+Lorsque plusieurs politiques d’approbation actives peuvent s’appliquer au même parcours ou à la même campagne, la politique **activée le plus récemment** est prioritaire. Les groupes d’utilisateurs approbateurs définis dans cette politique sont ceux qui sont notifiés et qui régissent la demande.
+
+[En savoir plus](approval-policies.md#multiple-policies)
+
++++
+
++++Si un demandeur appartient à plusieurs groupes d’utilisateurs, peut-il choisir à quel groupe la demande d’approbation est envoyée ?
+
+Non. Les demandeurs ne peuvent pas sélectionner manuellement le groupe d&#39;utilisateurs qui reçoit ou achemine la demande d&#39;approbation. Les groupes d’utilisateurs spécifiés dans la politique d’approbation qui s’applique (selon la [priorité de la politique](approval-policies.md#multiple-policies)) sont automatiquement avertis.
 
 +++
 
