@@ -11,7 +11,7 @@ version: Journey Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 96%
@@ -130,34 +130,34 @@ Toutes les fonctionnalités ne sont pas disponibles pour tous les types de parco
 
 | Fonctionnalité | Unitaire | Lecture d’audience | Qualification d’audience | Événement métier |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
-| **Mécanismes d’entrée** |
+| **Mécanismes d’entrée** | | | | |
 | Entrée déclenchée par un événement | ✅ | ❌ | ❌ | ✅ |
 | Entrée planifiée | ❌ | ✅ | ❌ | ❌ |
 | Entrée basée sur l’audience | ❌ | ✅ | ✅ | ❌ |
-| **Fonctionnalités d’orchestration** |
+| **Fonctionnalités d’orchestration** | | | | |
 | Activités d’attente | ✅ | ✅ | ✅ | ✅ |
 | Activités de condition | ✅ | ✅ | ✅ | ✅ |
 | Actions personnalisées | ✅ | ✅ | ✅ | ✅ |
 | Activité Lecture d’audience (dans le parcours) | ✅ | ✅ | ✅ | ✅ |
 | Activité Qualification d’audience | ✅ | ✅ | ✅ | ✅ |
 | Activité Saut | ✅ | ✅ | ✅ | ✅ |
-| **Gestion des profils** |
+| **Gestion des profils** | | | | |
 | Reprise de profil | ✅ Configurable | ❌ Une fois par exécution | ✅ Configurable | ✅ Par événement |
 | Configuration de l’espace de noms | ✅ Requis | ✅ Facultatif | ✅ Requis | ✅ Requis |
 | Limite de profils | ✅ | ✅ | ✅ | ✅ |
-| **Tests et optimisation** |
+| **Tests et optimisation** | | | | |
 | Mode test | ✅ | ✅ | ✅ | ✅ |
 | Test à blanc | ✅ | ✅ | ✅ | ✅ |
 | Expériences de chemin (test A/B) | ✅ | ✅ | ✅ | ❌ |
 | Optimisation de l’heure d’envoi | ✅ | ✅ | ✅ | ✅ |
-| **Canaux** |
+| **Canaux** | | | | |
 | E-mail | ✅ | ✅ | ✅ | ✅ |
 | Notifications push | ✅ | ✅ | ✅ | ✅ |
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | Messages in-app | ✅ | ✅ | ✅ | ✅ |
 | Web | ✅ | ✅ | ✅ | ✅ |
 | Cartes de contenu | ✅ | ✅ | ✅ | ✅ |
-| **Fonctionnalités avancées** |
+| **Fonctionnalités avancées** | | | | |
 | Lecture incrémentielle | ❌ | ✅ | ❌ | ❌ |
 | Exporter l’audience | ✅ | ✅ | ✅ | ✅ |
 | Gestion des fuseaux horaires | ✅ | ✅ | ✅ | ✅ |

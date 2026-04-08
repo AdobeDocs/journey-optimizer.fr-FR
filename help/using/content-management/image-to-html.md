@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: e-mail, modèle, image, HTML, IA, conception, convertisseur
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 19%
@@ -41,8 +41,10 @@ Les principaux avantages sont les suivants :
 * **Réutilisable dans toutes les campagnes** - Enregistrez les modèles dans votre bibliothèque et utilisez-les dans n’importe quel parcours ou campagne.
 * **Reste fidèle à la conception** - La sortie correspond à votre disposition et à votre style tout en étant entièrement compatible avec le Designer d’e-mail.
 
-<!--* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
-* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients-->
+<!--
+* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
+* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients
+-->
 
 +++ Cas d’utilisation courants
 
@@ -101,7 +103,8 @@ Gardez à l’esprit les limites et recommandations suivantes lors de la convers
 <!--
 * **Background processing**: The AI processing happens in the background, so you can work on other tasks without keeping the screen open. The template is automatically saved as a draft once the conversion is complete.
 
-**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.-->
+**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.
+-->
 
 ## Conversion d’une image en modèle HTML {#convert-image}
 
@@ -158,7 +161,7 @@ Pour convertir une conception d’image en modèle de contenu d’e-mail entièr
 1. Utilisez la section **[!UICONTROL Image vers commentaires du convertisseur de modèles]** pour partager vos idées et suggestions avec Adobe afin de nous aider à améliorer la fonctionnalité.
    ![Section Commentaires dans Journey Optimizer avec une zone de texte pour partager vos pensées et suggestions](../email/assets/email_designer_converter_feedback.png){width=70%}
 
-1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]**. Le modèle converti s’ouvre dans le Designer d’e-mail[&#x200B; avec des fonctionnalités de modification complètes. &#x200B;](../email/get-started-email-design.md) Vous pouvez maintenant :
+1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]**. Le modèle converti s’ouvre dans le Designer d’e-mail[ avec des fonctionnalités de modification complètes. ](../email/get-started-email-design.md) Vous pouvez maintenant :
 
    * Vérifier, modifier le contenu textuel et appliquer une personnalisation
    * modifier des images et ajouter des liens ;
@@ -212,7 +215,7 @@ Pour obtenir des résultats optimaux lors de la conversion d’images en modèle
 * **Tester minutieusement** : tester l’e-mail sur différents clients de messagerie et appareils. [Découvrez comment prévisualiser et tester du contenu](preview-test.md).
 * **Affiner manuellement** : effectuez les ajustements nécessaires en utilisant les fonctionnalités d’édition complètes du [Designer d’e-mail](../email/get-started-email-design.md).
 * **Alignement des marques** : vérifiez que les couleurs, les polices et le style correspondent à vos directives de marque, en utilisant les thèmes, le cas échéant. [En savoir plus sur les thèmes des emails](../email/apply-email-themes.md).
-* **&#x200B;**&#x200B;: ajoutez du contenu dynamique et des jetons de personnalisation selon les besoins. [En savoir plus sur la personnalisation](../personalization/personalize.md).
+* **** : ajoutez du contenu dynamique et des jetons de personnalisation selon les besoins. [En savoir plus sur la personnalisation](../personalization/personalize.md).
 * **Accessibilité** : passez en revue et améliorez les fonctionnalités d’accessibilité si nécessaire. [En savoir plus sur le contenu d’e-mail accessible](../email/accessible-content.md).
 
 +++

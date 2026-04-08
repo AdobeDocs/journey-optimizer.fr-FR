@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Pour rendre une partie de votre code JSON ou HTML modifiable, commencez par cré
     | ------- | ------- | ------- |
     |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
     |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
-    -->
+-->
 
 1. Cliquez sur **[!UICONTROL Prévisualiser les champs de formulaire]** pour vérifier la façon dont les champs de formulaire modifiables s’afficheront dans les expériences basées sur du code qui utilisent ce modèle.
 
@@ -246,4 +246,4 @@ Vous pourrez facilement modifier les champs de formulaire d’un parcours ou d�
 
 Découvrez comment ajouter des champs modifiables aux modèles de contenu de canal d’expérience basée sur du code.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463993/?captions=fre_fr&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1931'
 ht-degree: 97%
@@ -95,7 +95,8 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
 <!--
 >[!NOTE]
 >
->This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).
+-->
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
@@ -118,7 +119,8 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
 
    ![](assets/subdomain-name.png)
 
-<!-- >[!CAUTION]
+<!--
+ >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     >
@@ -127,7 +129,7 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
-    >[ !REMARQUE]
+    >[!REMARQUE]
     >
     >Après avoir créé un nouveau sous-domaine chez votre fournisseur DNS, attendez 24 à 48 heures pour la propagation DNS avant de déléguer à Adobe.
 
@@ -189,7 +191,8 @@ Pour terminer la délégation de votre sous-domaine, procédez comme suit.
 <!--
     >[!NOTE]
     >
-    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).
+-->
 
 1. Vous pouvez créer les enregistrements et envoyer ultérieurement la configuration du sous-domaine à l’aide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**.
 
@@ -278,4 +281,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

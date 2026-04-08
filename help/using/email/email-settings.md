@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 99%
@@ -110,7 +110,6 @@ Si vous obtenez une erreur lors de l’envoi de la configuration du canal e-mail
 ## CC email {#cc-email}
 
 You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey Optimizer], so that an additional address receives a copy and is visible to the primary recipient. The CC field is optional and supports personalization. [Learn more](../configuration/cc-email-field.md)
-
 -->
 
 ## Envoyer à des adresses e-mail supprimées {#send-to-suppressed-email-addresses}

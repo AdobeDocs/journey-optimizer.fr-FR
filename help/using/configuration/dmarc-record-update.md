@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
@@ -47,7 +47,8 @@ or
 
   Toutefois, la configuration CNAME nécessite également une entrée supplémentaire dans votre solution d’hébergement. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour détaillée dans [cette section](dmarc-record.md#implement-dmarc).
 
-<!--The most recent timelines shared by Google and Yahoo! are as follows:
+<!--
+The most recent timelines shared by Google and Yahoo! are as follows:
 
 * Google:
 

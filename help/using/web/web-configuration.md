@@ -6,8 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Une configuration web est une propriété web identifiée par une URL où le co
 
 Pour créer une configuration de canal web, procédez comme suit.
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
 
    ![](assets/web_config_1.png)
 
@@ -49,11 +49,11 @@ Pour créer une configuration de canal web, procédez comme suit.
 
 Vous pouvez maintenant sélectionner cette configuration lorsque vous utilisez le canal web dans vos campagnes ou vos parcours.
 
-## Création d’une règle de correspondance de pages {#web-page-matching-rule}
+## Créer une règle de correspondance de pages {#web-page-matching-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
->title="Création d’une règle de correspondance de pages"
+>title="Créer une règle de correspondance de pages"
 >abstract="Pour gérer et cibler efficacement un groupe d’URL qui partagent les mêmes critères, créez une règle de correspondance de pages. Cette règle permet de rassembler plusieurs URL sous une seule directive, ce qui simplifie l’application de paramètres et d’actions cohérents à ces pages."
 
 >[!CONTEXTUALHELP]
@@ -133,7 +133,7 @@ Lors de la création d’une [règle correspondant à plusieurs pages](#web-page
         <td></td>
     </tr>
     <tr>
-        <td>N’importe lequel</td>
+        <td>Tous</td>
         <td>Correspond à tous les chemins. Cela se révèle utile lors du ciblage de tous les chemins sous un ou plusieurs domaines.</td>
         <td></td>
     </tr>

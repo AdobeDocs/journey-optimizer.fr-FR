@@ -8,8 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: adresse IP, délivrabilité, réputation, FAI, engagement
-source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
-workflow-type: ht
+exl-id: a4c4890e-fc69-498c-83c3-8a37c34e36ed
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 100%
 
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 Lors du lancement de campagnes par e-mail avec de nouvelles adresses IP ou de nouveaux domaines dans Adobe Journey Optimizer, il est essentiel de comprendre les principes de base de la délivrabilité pour bâtir une réputation solide en tant qu’expéditeur. Ce guide aborde les concepts clés, les étapes de préparation et les bonnes pratiques pour vous aider à passer d’une réputation inexistante à un placement optimal en boîte de réception.
 
-➡️ Découvrez dans la vidéo de cet [article de blog Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=fr){target="_blank"} les principes de base de la délivrabilité, comment bâtir une réputation solide et les bonnes pratiques pour le préchauffage des adresses IP.
+➡️ Découvrez dans la vidéo de cet [article de blog Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"} les principes de base de la délivrabilité, comment bâtir une réputation solide et les bonnes pratiques pour le préchauffage des adresses IP.
 
 >[!NOTE]
 >
@@ -135,7 +136,8 @@ Une fois le plan de préchauffage terminé et les mesures stabilisées :
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=fr).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).
+-->
 
 ## Rubriques connexes {#related-topics}
 
@@ -147,4 +149,3 @@ Une fois le plan de préchauffage terminé et les mesures stabilisées :
 * [Déléguer des sous-domaines](delegate-subdomain.md)
 * [Gérer la liste de suppression](manage-suppression-list.md)
 * [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr)
-

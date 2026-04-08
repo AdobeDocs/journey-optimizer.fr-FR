@@ -7,7 +7,7 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 20%
@@ -29,7 +29,8 @@ Les formules vous offrent plus de flexibilité que la priorité statique. Par ex
 <!--
 >[!NOTE]
 >
->Journey ranking formulas follow the same guardrails as decisioning ranking formulas (nesting depth, rule string size). [Learn more about Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md#ranking-formulas).-->
+>Journey ranking formulas follow the same guardrails as decisioning ranking formulas (nesting depth, rule string size). [Learn more about Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md#ranking-formulas).
+-->
 
 ## Créer une formule de classement {#create-journey-ranking-formula}
 
@@ -49,7 +50,8 @@ Pour créer une formule de classement pour vos parcours, procédez comme suit.
    >L&#39;objet de classement est l&#39;entité à laquelle la formule de classement s&#39;appliquera. Par défaut, l&#39;objet de classement est défini sur **[!UICONTROL Parcours]**.
 
    <!--
-    Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.-->
+    Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
+-->
 
 1. Si vous le souhaitez, cliquez sur **[!UICONTROL Sélectionner un modèle d’IA]** pour définir le modèle à utiliser comme référence pour créer votre formule de classement. [En savoir plus](journey-ai-models.md)
 
@@ -58,11 +60,12 @@ Pour créer une formule de classement pour vos parcours, procédez comme suit.
     >
     >[Personalized optimization models](../experience-decisioning/ranking/personalized-optimization-model.md) using continuous metrics are not supported with the AI formula builder.
 
-    Every time you refer to a model score when defining your formula below, the AI model that you selected will be used. [Learn more on AI models](../experience-decisioning/ranking/ai-models.md)-->
+    Every time you refer to a model score when defining your formula below, the AI model that you selected will be used. [Learn more on AI models](../experience-decisioning/ranking/ai-models.md)
+-->
 
 1. Dans la section **[!UICONTROL Critère 1]**, indiquez à quels parcours vous souhaitez appliquer un score de classement en procédant comme suit :
 
-   * sélectionner un attribut de parcours [&#128279;](../building-journeys/journey-properties.md) (par exemple le nom du parcours, les balises, la priorité ou d’autres propriétés de parcours) ;
+   * sélectionner un attribut de parcours [](../building-journeys/journey-properties.md) (par exemple le nom du parcours, les balises, la priorité ou d’autres propriétés de parcours) ;
    * sélectionner un opérateur logique;
    * ajouter une condition correspondante - vous pouvez saisir/sélectionner une valeur ou choisir un attribut de profil.
 
@@ -76,7 +79,7 @@ Pour créer une formule de classement pour vos parcours, procédez comme suit.
 
 1. Créez une expression qui attribuera un score de classement aux parcours qui remplissent la condition définie ci-dessus. Vous pouvez référencer l’un des éléments suivants :
    * une variable :
-      * la priorité du parcours, qui est une valeur manuelle attribuée au parcours lors de la [création d’un parcours &#x200B;](../building-journeys/journey-gs.md) ;
+      * la priorité du parcours, qui est une valeur manuelle attribuée au parcours lors de la [création d’un parcours ](../building-journeys/journey-gs.md) ;
       * le score provenant du modèle d’IA que vous avez éventuellement sélectionné ci-dessus ;
    * un attribut :
       * tout attribut susceptible de résider sur le profil, tel qu’un score de propension dérivé de l’extérieur ;
@@ -104,7 +107,7 @@ Examinons les exemples ci-dessous.
 
 +++Exemple 1 : utilisez la priorité de parcours ou le score d’IA en fonction des balises de parcours
 
-![Formule de classement : la balise marketing utilise la priorité du parcours &#x200B;](assets/journey-formula-ex-1.png){width="60%"}
+![Formule de classement : la balise marketing utilise la priorité du parcours ](assets/journey-formula-ex-1.png){width="60%"}
 
 Si le parcours comporte une balise « Marketing », le score de classement est la priorité du parcours.
 
@@ -183,7 +186,7 @@ Pour attribuer l’ensemble de règles à un parcours, procédez comme suit.
 
 Tous les parcours qui utilisent cet ensemble de règles seront classés selon la formule sélectionnée lors de l&#39;application de la limitation.
 
-Pour surveiller les performances de vos ensembles de règles et formules de classement, consultez la section [Limitation et conflits de Parcours &#x200B;](../reports/channel-report-cja.md#rule-sets) dans le rapport de présentation.
+Pour surveiller les performances de vos ensembles de règles et formules de classement, consultez la section [Limitation et conflits de Parcours ](../reports/channel-report-cja.md#rule-sets) dans le rapport de présentation.
 
 <!--
 ## Reporting {#reporting}
@@ -194,4 +197,5 @@ Reporting for journey arbitration helps you understand how rule sets and ranking
 * **Rule set performance** – For each rule set, metrics such as journey enters, journey exclusions, journey engagement, and other optimization metrics.
 * **Cross-journey view** – Time-based view of profiles across journeys (e.g. journey enters, failures, exclusions) to see the impact of capping and ranking.
 
-Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.-->
+Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.
+-->

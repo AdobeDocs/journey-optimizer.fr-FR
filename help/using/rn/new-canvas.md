@@ -8,7 +8,7 @@ description: Nouvelle interface de parcours
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 2%
@@ -51,7 +51,7 @@ Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateu
 
 ## Amélioration de la conception de la zone de travail de parcours
 
-Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **&#x200B;**&#x200B;nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
+Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **** nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
 
 ![](assets/new-canvas3.gif)
 
@@ -80,7 +80,8 @@ Pour chaque activité de chaque parcours actif utilisant le nouveau modèle, vou
 
 ![](assets/new-canvas6bis.png)
 
-<!--`
+<!--
+`
 With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
 * On a **new insert**, you will see:

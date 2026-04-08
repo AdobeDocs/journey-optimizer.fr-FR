@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: vagues, lots, planning, parcours, lecture d’audience, délivrabilité
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -24,15 +24,16 @@ Vous pouvez diffuser des messages sortants à partir d’un parcours par lots (v
 <!--
 >[!CAUTION]
 >
->Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).-->
+>Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).
+-->
 
 Vous le configurez au niveau du parcours lorsque vous définissez la manière dont l’audience entre et comment les actions sont planifiées. Vous définissez le nombre de vagues, leur taille (en pourcentage de l’audience ou en nombres absolus) et le moment où chaque vague s’exécute.
 
 ## Limites et mécanismes de sécurisation {#limitations-guardrails}
 
-* L’envoi de vagues est uniquement disponible pour les parcours d’audience lue avec les types de planificateur **[!DNL As soon as possible]** et **[!UICONTROL Une fois]**. En savoir plus sur le planning de parcours [&#128279;](read-audience.md#schedule).
+* L’envoi de vagues est uniquement disponible pour les parcours d’audience lue avec les types de planificateur **[!DNL As soon as possible]** et **[!UICONTROL Une fois]**. En savoir plus sur le planning de parcours [](read-audience.md#schedule).
 * L’envoi de vagues n’est pas disponible pour les parcours récurrents, déclenchés par un événement, d’événement métier, de mode test ou d’exécution d’essai.
-* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de **&#x200B;**.
+* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de ****.
 * L’intervalle minimum entre le début de deux vagues est de **30 minutes**.
 * Un début de vague ne peut pas être antérieur au début du parcours ou antérieur.
 * La division de l’audience en vagues peut prendre jusqu’à 1 heure. Les profils ne peuvent pas entrer dans le parcours avant cette date.
@@ -41,7 +42,7 @@ Vous le configurez au niveau du parcours lorsque vous définissez la manière do
 
 ## Configurer l’envoi de vagues dans un parcours {#configure-wave-sending}
 
-1. Commencez votre parcours par une activité [&#x200B; Lecture d’audience &#x200B;](read-audience.md).
+1. Commencez votre parcours par une activité [ Lecture d’audience ](read-audience.md).
 
 1. Double-cliquez sur l’activité **[!UICONTROL Lecture d’audience]** pour afficher ses propriétés et sélectionnez l’option **[!UICONTROL Diffuser l’action de parcours par vagues]**.
 
@@ -126,4 +127,4 @@ Vous pouvez uniquement définir la taille et la durée des vagues. La même audi
 
 ## Voir également {#see-also}
 
-* [Utiliser une audience dans un parcours &#x200B;](read-audience.md) : configurez l&#39;activité Lecture d&#39;audience.
+* [Utiliser une audience dans un parcours ](read-audience.md) : configurez l&#39;activité Lecture d&#39;audience.

@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 95%
@@ -44,7 +44,8 @@ Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le blo
 <!--
 >[!CAUTION]
 >
->Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.
+-->
 
 ## Déduplication des éléments de décision dans les implémentations basées sur du code {#code-based-decisioning-deduplication}
 

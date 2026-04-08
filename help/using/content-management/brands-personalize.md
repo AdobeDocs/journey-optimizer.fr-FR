@@ -6,7 +6,8 @@ description: Découvrez comment personnaliser vos directives de marque
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+exl-id: e5254a1f-e256-4ec8-b165-0b5b62ae4034
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 97%
@@ -350,5 +351,4 @@ To personalize your **[!UICONTROL Colors]**:
 1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
 
 You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
-
 -->

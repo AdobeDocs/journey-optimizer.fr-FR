@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 97%
+source-wordcount: '1310'
+ht-degree: 88%
 
 ---
 
@@ -115,9 +115,11 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 
    Par exemple, vous souhaitez gérer dynamiquement les e-mails envoyés au nom des gestionnaires de relations, dont les détails sont stockés dans le profil client, de sorte que chaque personne soit liée à un ou une gestionnaire de relations. Dans un [parcours](../building-journeys/journey-gs.md), l’en-tête de l’e-mail (nom de l’expéditeur ou de l’expéditrice, adresse e-mail de l’expéditeur ou de l’expéditrice, adresse de réponse) peut être personnalisé avec les paramètres des gestionnaires de relations, extraits des attributs de profil.
 
-   <!--The examples below use event parameters, which are currently not available.
-    
-    Let's say you want to handle dynamically emails sent on behalf of a sales assistant, where the sales assistant is retrieved from an event or campaign contextual parameters. For example: In a [journey](../building-journeys/journey-gs.md), when a purchase event is linked to the sales assistant of a specific shop, the email header (sender name, sender email, reply to address) can be personalized with the sales assistant parameters, taken from the event attributes. In an [API-triggered campaign](../campaigns/api-triggered-campaigns.md), initiated externally by a sales assistant, the triggered email can be sent on behalf of the sales assistant and the header personalization values taken from campaign contextual parameters.-->
+   <!--
+Les exemples ci-dessous utilisent des paramètres d’événement, qui ne sont actuellement pas disponibles.
+
+    Supposons que vous souhaitiez gérer dynamiquement les e-mails envoyés au nom d’un assistant commercial, où cet assistant est récupéré à partir de paramètres contextuels d’événement ou de campagne. Par exemple : dans un [parcours](../building-journeys/journey-gs.md), lorsqu’un événement d’achat est lié à l’assistant commercial d’une boutique spécifique, l’en-tête de l’e-mail (nom de l’expéditeur, adresse e-mail de l’expéditeur, adresse de réponse) peut être personnalisé avec les paramètres de l’assistant commercial, extraits des attributs de l’événement. Dans une [campagne déclenchée par une API](../campaigns/api-triggered-campaigns.md), lancée en externe par un assistant commercial, l’e-mail déclenché peut être envoyé au nom de l’assistant commercial et les valeurs de personnalisation de l’en-tête issues des paramètres contextuels de la campagne.
+-->
 
 1. Répétez les étapes ci-dessus pour chaque paramètre auquel vous souhaitez ajouter une personnalisation.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Diffuser des offres à l’aide de l’API Edge Decisioning
+title: Diffuser des offres à l’aide de l’API Edge Decisioning
 description: Le SDK web Adobe Experience Platform vous permet de récupérer et de générer des offres personnalisées que vous avez créées à l’aide des API ou de la bibliothèque des offres.
 badge: label="Hérité" type="Informative"
 feature: Decision Management, API
@@ -10,14 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Diffuser des offres à l’aide de l’API Edge Decisioning {#edge-decisioning-api}
+# Diffuser des offres à l’aide de l’API Edge Decisioning {#edge-decisioning-api}
 
 >[!TIP]
 >
@@ -62,9 +62,9 @@ Pour personnaliser les offres, vous devez configurer séparément vos options de
 
 >[!NOTE]
 >
->**Transmission de données contextuelles dans les requêtes Edge Decisioning**
+>**Transmission de données contextuelles dans les requêtes de prise de décision Edge**
 >
->Vous pouvez transmettre des données contextuelles (telles que le type d’appareil, l’emplacement ou les préférences utilisateur) dans vos requêtes Edge Decisioning pour créer des règles d’éligibilité dynamiques et diffuser des offres personnalisées en fonction des conditions en temps réel. [En savoir plus sur les demandes de données contextuelles et de prise de décision Edge](../../context-data-edge.md)
+>Vous pouvez transmettre des données contextuelles (telles que le type d’appareil, l’emplacement ou les préférences utilisateur) dans vos requêtes de prise de décision Edge pour créer des règles d’éligibilité dynamiques et diffuser des offres personnalisées en fonction des conditions en temps réel. [En savoir plus sur les données contextuelles et les requêtes de prise de décision Edge](../../context-data-edge.md)
 
 Pour configurer le SDK pour la gestion des décisions, procédez à l’une des deux étapes ci-dessous :
 
@@ -263,6 +263,8 @@ document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
 ```
 
-<!--## Limitations
+<!--
+## Limitations
 
-Some offer constraints are currently not supported with the mobile Experience Edge workflows, for example Capping. The Capping field value specifies the number of times an offer can be presented across all users. For more details, see [Add constraints to an offer](../../offer-library/add-constraints.md#capping).-->
+Some offer constraints are currently not supported with the mobile Experience Edge workflows, for example Capping. The Capping field value specifies the number of times an offer can be presented across all users. For more details, see [Add constraints to an offer](../../offer-library/add-constraints.md#capping).
+-->

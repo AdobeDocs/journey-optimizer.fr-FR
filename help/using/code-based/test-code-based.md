@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 87%
+source-wordcount: '829'
+ht-degree: 79%
 
 ---
 
@@ -96,7 +96,7 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
    * Sélectionnez le bouton **[!UICONTROL Copier le lien]** et partagez le lien avec votre équipe et les parties prenantes, qui peuvent prévisualiser la nouvelle expérience dans n’importe quel navigateur mobile avant que les modifications ne soient mises en ligne.
 
-   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien de prévisualisation directement dans l’application mobile. Vous devez saisir le code confidentiel sur votre appareil pour établir la session [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien de prévisualisation directement dans l’application mobile. Vous devez saisir le code confidentiel sur votre appareil pour établir la session [](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
 
      >[!NOTE]
      >
@@ -112,10 +112,12 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
 1. Les liens de prévisualisation sont générés pour le profil de test sélectionné et, si vous utilisez [Expérience de contenu](../content-management/content-experiment.md) dans votre parcours ou campagne, pour le traitement sélectionné.
 
-   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+   <!--
+Si vous avez modifié le contenu ou sélectionné un traitement ou un profil de test différent, faites défiler la page jusqu’au bas du pop-up **[!UICONTROL Prévisualisation sur l’appareil]** et cliquez sur **[!UICONTROL Actualiser le lien de prévisualisation]** pour refléter l’état actuel.
 
-   ![](assets/preview-on-device-refresh.png)-->
+![](assets/preview-on-device-refresh.png)
+—>
 
-   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+<!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   Lors de la mise à jour du contenu ou de la sélection d’un autre profil ou traitement de test, le lien de prévisualisation est automatiquement actualisé. Vous pouvez copier le lien dans différents onglets du navigateur et comparer les expériences.
+    Lors de la mise à jour du contenu ou de la sélection d’un profil de test ou d’un traitement différent, le lien de prévisualisation est automatiquement actualisé. Vous pouvez copier le lien dans différents onglets du navigateur et comparer les expériences.

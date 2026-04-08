@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Jeu de données d'offres personnalisées
+title: Jeu de données d’offres personnalisées
 description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les offres.
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
@@ -10,10 +10,10 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1951'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,8 +87,8 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **Champ :** caractéristiques 
 **Titre :** caractéristiques de l’option de décision
-**Description :** les caractéristiques sont des propriétés ou attributs supplémentaires d’offres qui appartiennent à cette option de décision spécifique. Ces attributs sont des paires clé-valeur, ce qui signifie qu’ils incluent un nom d’attribut (parfois appelé clé) auquel une valeur est associée, et sont utilisés pour distinguer une option de décision des autres offres. Par exemple, pour un nom d’attribut « color », la valeur peut être « green » pour une offre spécifique.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
-**Type:** objet
+**Description :** les caractéristiques sont des propriétés ou attributs supplémentaires d’offres qui appartiennent à cette option de décision spécifique. Ces attributs sont des paires clé-valeur, ce qui signifie qu’ils incluent un nom d’attribut (parfois appelé clé) auquel une valeur est associée, et sont utilisés pour distinguer une option de décision des autres offres. Par exemple, pour le nom d’attribut « couleur », la valeur peut être « vert » pour une offre spécifique.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Type :** objet
 
 +++
 
@@ -107,6 +107,8 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Description :** composants du contenu représentant l’option de décision, y compris toutes leurs variantes linguistiques. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
 **Type :** tableau
 **Obligatoire :** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
+
++++
 
 * **_experience > decisioning > contents > components > Content Component Type**
 
@@ -186,7 +188,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
   **Champ :** linkURL
   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
   **Type :** chaîne
-  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
 
@@ -237,7 +239,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 +++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **Champ :** eligibilityRule
-**Titre :**&#x200B;règle d&#39;éligibilité
+**Titre :**règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 

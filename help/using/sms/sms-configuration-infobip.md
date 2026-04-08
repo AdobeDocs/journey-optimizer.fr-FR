@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 70%
@@ -48,7 +48,7 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
    +++ Liste des informations d’identification SMS pour la configuration
 
    | Champs de configuration | Description |
-   |---|---|    
+   |---|---|
    | Fournisseur SMS | Infobip |
    | Nom | Saisissez un nom pour vos informations d’identification API. |
    | URL de base et clé API | Accédez à la page d’accueil de votre interface web ou à la page de gestion des clés API pour trouver vos informations d’identification. Pour les points d’entrée de domaine régionaux ou alternatifs, par exemple `api-ny2.infobip.com`, spécifiez l’URL de base complète et vérifiez votre jeton d’autorisation auprès de l’assistance d’Infobip. </br>En savoir plus dans la [documentation Infobip](https://www.infobip.com/docs/api){target="_blank"} |
@@ -58,7 +58,7 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
    | Message d’opt-out | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out. |
    | Mots-clés d’aide | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
    | Message d’aide | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**. |
-   | Mots-clés de double opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3440276/?captions=fre_fr&learn=on). |
+   | Mots-clés de double opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Message de double opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in. |
    | Identifiant d’entité principale | Saisissez l’identifiant d’entité principale DLT qui vous a été attribué. |
    | Identifiant du modèle de contenu | Saisissez votre identifiant de modèle de contenu DLT enregistré. |

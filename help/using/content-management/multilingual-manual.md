@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 97%
@@ -197,5 +197,4 @@ Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envo
 1. Create your journey with a Delivery and personalize your content as needed.
 1. From your delivery action, click Edit content.
 1. Click Add languages.
-
 -->

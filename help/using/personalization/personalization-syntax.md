@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ où :
 
 ## Règles générales de syntaxe {#general-rules}
 
-* Les identifiants peuvent être n’importe quel caractère Unicode, à l’exception des caractères spéciaux suivants, qui sont réservés à la syntaxe Handlebars :
+* Les identifiants peuvent être n’importe quel caractère Unicode, à l’exception des caractères spéciaux suivants, qui sont réservés à la syntaxe Handlebars :
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -47,15 +47,15 @@ où :
 
   Supposons que la valeur du champ `profile.person.name` soit « Mark &amp; Mary ». Le `{{profile.person.name}}` de syntaxe affiche `Mark &amp; Mary`, tandis que `{{{profile.person.name}}}` affiche `Mark & Mary`.
 
-* En ce qui concerne les arguments de fonctions littérales, l’analyseur de langage de création de modèles ne prend pas en charge la barre oblique inverse sans échappement (`\`). Ce caractère doit être placé dans une séquence d’échappement avec une barre oblique inverse (`\`) supplémentaire. Exemple :
+* En ce qui concerne les arguments de fonctions littérales, l’analyseur de langage de création de modèles ne prend pas en charge la barre oblique inverse sans échappement (`\`). Ce caractère doit avoir fait l’objet d’un échappement avec une barre oblique inverse supplémentaire (`\`). Exemple :
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## Mots-clés réservés {#reserved-keywords}
 
-Certains mots-clés sont réservés dans Profile Query Language (PQL) et ne peuvent pas être utilisés directement comme noms de champ ou de variable dans les expressions de personnalisation. Si votre schéma XDM contient des champs dont les noms correspondent à des mots-clés réservés, vous devez leur appliquer une séquence d’échappement à l’aide de accents graves (`` ` ``) pour les référencer dans vos expressions.
+Certains mots-clés sont réservés dans PQL (Profile Query Language) et ne peuvent pas être utilisés directement comme noms de champ ou de variable dans les expressions de personnalisation. Si votre schéma XDM contient des champs dont les noms correspondent à des mots-clés réservés, vous devez leur appliquer une séquence d’échappement à l’aide d’accents graves (`` ` ``) pour les référencer dans vos expressions.
 
-**Les mots-clés réservés sont les suivants :**
+**Les mots-clés réservés sont les suivants :**
 
 * `next`
 * `last`
@@ -63,13 +63,13 @@ Certains mots-clés sont réservés dans Profile Query Language (PQL) et ne peuv
 
 **Exemple :**
 
-Si votre schéma de profil comporte un champ nommé `next`, vous devez l’encapsuler avec des accents graves :
+Si votre schéma de profil comporte un champ nommé `next`, vous devez l’encadrer de guillemets inversés :
 
 ```
 {{profile.person.`next`.name}}
 ```
 
-Sans les backticks, l’éditeur de personnalisation échoue lors de la validation avec une erreur.
+Sans les guillemets inversés, l’éditeur de personnalisation échouera lors de la validation et vous obtiendrez une erreur.
 
 ## Espaces de noms disponibles {#namespaces}
 
@@ -144,7 +144,7 @@ Ces assistants de bloc sont identifiés par un `#` placé devant le nom de l’a
 
 Les blocs sont des expressions qui ont une ouverture (`{{# }}`) et une fermeture (`{{/}}`) de bloc.
 
-    Pour plus d’informations sur les fonctions d’assistance, consultez [cette section](functions/helpers.md).
+    Pour plus d’informations sur les fonctions d’assistant, consultez [cette section](functions/helpers.md).
 
 ## Types littéraux {#literal-types}
 

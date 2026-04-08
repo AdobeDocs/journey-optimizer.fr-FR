@@ -9,7 +9,7 @@ level: Intermediate
 keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 87%
@@ -90,7 +90,8 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 Après la période de rentrée, les profils peuvent rejoindre à nouveau le parcours. Pour éviter cela et désactiver complètement la possibilité de rentrée pour ces profils, vous pouvez ajouter une condition de test pour savoir si le profil est déjà entré ou non, à l’aide des données de profil ou d’audience.
 
 <!--
-Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
+Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
+-->
 
 ## Parcours métier {#entry-business}
 
@@ -124,7 +125,7 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 
 ## Rubriques connexes
 
-* [Guide relatif aux critères d’entrée et de sortie de parcours &#x200B;](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques
+* [Guide relatif aux critères d’entrée et de sortie de parcours ](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) : définissez quand les profils doivent quitter votre parcours.
-* [Terminer un parcours &#x200B;](end-journey.md) : comprenez comment les parcours se ferment et se terminent.
-* [Cas d’utilisation de parcours &#x200B;](jo-use-cases.md) : consultez des exemples complets avec des configurations d’entrée et de sortie.
+* [Terminer un parcours ](end-journey.md) : comprenez comment les parcours se ferment et se terminent.
+* [Cas d’utilisation de parcours ](jo-use-cases.md) : consultez des exemples complets avec des configurations d’entrée et de sortie.

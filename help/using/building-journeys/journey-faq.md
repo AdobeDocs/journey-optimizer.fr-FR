@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide, orchestration
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 93%
@@ -187,7 +187,7 @@ Suivez le [guide détaillé](journey-gs.md).
 Les conditions préalables requises dépendent du type de votre parcours :
 
 * **Parcours déclenchés par un événement** : configurez les événements pour définir à quel moment les profils doivent rejoindre le parcours.
-* parcours basés sur l’audience **: créez des audiences dans**&#x200B;[!DNL Adobe Experience Platform]
+* parcours basés sur l’audience **: créez des audiences dans**[!DNL Adobe Experience Platform]
 * **Enrichissement des données** : configurez les sources de données pour récupérer des informations supplémentaires.
 * **Intégrations tierces** : configurez des actions personnalisées si vous utilisez des systèmes externes.
 
@@ -553,9 +553,11 @@ Solution : validez la qualité des données de profil.
 * **Parcours non publié** : le parcours est toujours en mode brouillon.
 Solution : publiez le parcours pour l’activer.
 
-<!-- 
+<!--
+ 
 * **Message not approved**: Message content requires approval before sending
-  Solution: Submit for approval or check approval status-->
+  Solution: Submit for approval or check approval status
+-->
 
 * **Problème de configuration du canal** : la configuration des e-mails/SMS est incorrecte.
 Solution : vérifiez les configurations et l’authentification des canaux.

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notes de mise à jour 2023
-description: Notes de mise à jour 2023 pour Journey Optimizer
+description: Notes de mise à jour de 2023 pour Journey Optimizer
 feature: Release Notes
 topic: Content Management
 hide: true
@@ -10,8 +10,8 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -77,7 +77,8 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 <!--
 **Spam scoring for emails**
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.
+-->
 
 **Campagnes**
 
@@ -95,7 +96,8 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.
+-->
 
 **Gestion des décisions**
 
@@ -221,9 +223,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal courrier**
 
-* Vous pouvez désormais chiffrer les fichiers destinés à vos fournisseurs de publipostage direct lorsqu’ils sont transférés sur un serveur. Pour ce faire, un nouveau champ est disponible dans l’écran de configuration du routage des fichiers, ce qui vous permet de copier-coller votre clé de chiffrement. [En savoir plus](../direct-mail/direct-mail-configuration.md).
+* Vous pouvez désormais chiffrer les fichiers destinés à vos fournisseurs de publipostage direct lorsqu’ils sont transférés sur un serveur. Pour ce faire, un nouveau champ est disponible dans l’écran de configuration du routage des fichiers, ce qui vous permet de copier-coller votre clé de chiffrement. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 
-**Reporting**
+**Créer des rapports**
 
 * Vous pouvez désormais exporter des rapports Journey Optimizer en tant que fichier CSV. Pour en savoir plus, consultez la [documentation détaillée](../reports/report-gs-cja.md).
 
@@ -231,9 +233,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * Une nouvelle option pour Assets vous permet de choisir le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel Assets as a Cloud Service, à condition que vous possédiez cette solution. [En savoir plus](../integrations/assets.md)
 
-<!--**Decision management**
+<!--
+**Decision management**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
+-->
 
 ## Version d’août 2023 {#aug-rn-2023}
 
@@ -276,7 +280,8 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Generate text and images with the Content assistant</strong><br/></th>
@@ -291,7 +296,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 
@@ -302,11 +307,14 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 <!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+-->
 
-<!--**Email channel**
+<!--
+**Email channel**
 
-A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
+-->
 
 **Parcours**
 
@@ -441,7 +449,7 @@ La méthode JWT pour générer des jetons d’accès pour l’authentification d
 
 **Autres modifications**
 
-L’export des jeux de données Journey Optimizer vers les destinations d’espace de stockage est désormais disponible pour toute la clientèle en version Beta. Cette fonctionnalité vous permet d’établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md).
+L’export des jeux de données Journey Optimizer vers les destinations d’espace de stockage est désormais disponible pour toute la clientèle en version Beta. Cette fonctionnalité vous permet d’établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md)
 
 
 
@@ -617,12 +625,12 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Canal SMS**
 
-* Infobip a été ajouté en tant que fournisseur lors du paramétrage des configurations de vos canaux SMS. [En savoir plus](../sms/sms-configuration.md).
-* Twillio – La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twillio. [En savoir plus](../sms/sms-configuration.md).
+* Infobip a été ajouté en tant que fournisseur lors du paramétrage des configurations de vos canaux SMS. [En savoir plus](../sms/sms-configuration.md)
+* Twillio – La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twillio. [En savoir plus](../sms/sms-configuration.md)
 
 **Canal in-app**
 
-* Ajout de nouvelles règles de déclenchement de message pour Adobe Places Service. [En savoir plus](../in-app/inapp-configuration.md).
+* Ajout de nouvelles règles de déclenchement de message pour Adobe Places Service. [En savoir plus](../in-app/inapp-configuration.md)
 * Ajout de nouvelles fonctionnalités Adobe Experience Platform Assurance permettant de capturer des événements d’appareil à ajouter en tant que règles de déclenchement.
 
 <!--
@@ -633,13 +641,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Campagnes**
 
-* Il est désormais possible de dupliquer une campagne à partir de l’écran d’inventaire à l’aide du menu d’action représentant des points de suspension. [En savoir plus](../campaigns/manage-campaigns.md#duplicate).
+* Il est désormais possible de dupliquer une campagne à partir de l’écran d’inventaire à l’aide du menu d’action représentant des points de suspension. [En savoir plus](../campaigns/manage-campaigns.md#duplicate)
 * Vous pouvez désormais supprimer les brouillons des modifications d’une campagne active.
-* Les étapes d’activation d’une campagne ont été simplifiées. [En savoir plus](../campaigns/manage-campaigns.md).
+* Les étapes d’activation d’une campagne ont été simplifiées. [En savoir plus](../campaigns/manage-campaigns.md)
 
 **Gestion des décisions**
 
-* Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec le capping de la fréquence activée. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping).
+* Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec le capping de la fréquence activée. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personnalisation**
 
@@ -652,9 +660,11 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Version d’avril 2023 {#apr-rn-2023}
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
+<!--
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
 
-**Release date**: April 27, 2023-->
+**Release date**: April 27, 2023
+-->
 
 ### Nouvelles fonctionnalités{#apr-2023-features}
 
@@ -717,13 +727,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * La zone de travail du parcours affiche désormais l’ID d’activité sur les activités de message et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
-* Nouvelles informations sur le nombre de nœuds sur la zone de travail, avec des limitations pour stimuler la croissance : la lecture, l’assurance qualité et le dépannage des parcours sont ainsi plus faciles, avec un nombre maximal de nœuds par parcours établi à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
+* Nouvelles informations sur le nombre de nœuds sur la zone de travail, avec des limitations pour stimuler la croissance : la lecture, l’assurance qualité et le dépannage des parcours sont ainsi plus faciles, avec un nombre maximal de nœuds par parcours établi à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
 * Lors de l’ajout d’une action [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Push](../push/create-push.md) dans un parcours, la surface est désormais préremplie par défaut avec la dernière surface utilisée pour ce canal dans le parcours actuel.
-* Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
+* Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration)
 
 **Créer des rapports**
 
-* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que PDF. [En savoir plus](../reports/report-gs-cja.md).
+* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que PDF. [En savoir plus](../reports/report-gs-cja.md)
 
 **Concepteur de contenu**
 
@@ -788,15 +798,16 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Parcours**
 
-* La nouvelle **API de limitation** vous permet de limiter le nombre d’événements envoyés par seconde. Vous pouvez ainsi éviter les pics de trafic importants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour toutes vos sandbox. [En savoir plus](../configuration/external-systems.md).
+* La nouvelle **API de limitation** vous permet de limiter le nombre d’événements envoyés par seconde. Vous pouvez ainsi éviter les pics de trafic importants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour toutes vos sandbox. [En savoir plus](../configuration/external-systems.md)
 * Amélioration de la zone de travail Parcours pour offrir une expérience utilisateur plus fluide et épurée. Suppression des espaces réservés vides à la fin de chaque chemin de la zone de travail. Vous pouvez maintenant simplement ajouter vos activités en les faisant glisser à la fin d’un chemin.
 * Dans la zone de travail Parcours, le libellé de la balise **Fin** n’est plus défini automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
-* Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. [En savoir plus](../configuration/external-systems.md#timeout).
-* Le taux de limitation par défaut dans les activités de lecture d’audience passe de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. [En savoir plus](../configuration/external-systems.md#timeout)
+* Le taux de limitation par défaut dans les activités de lecture d’audience passe de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Un mécanisme de sécurisation a été ajouté au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte. [En savoir plus](../building-journeys/testing-the-journey.md)
 
 
-<!-- 
+<!--
+ 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
 * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
@@ -811,15 +822,15 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   Notez que bien que le terme « balise » ne soit plus utilisé dans l’interface utilisateur de la gestion des décisions, il l’est toujours dans les services back-end, tels que les API et les jeux de données.
 
-* Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
+* Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
 
-* Vous pouvez également choisir l’événement Adobe Experience Platform à prendre en compte pour la limitation de la gestion des décisions. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
+* Vous pouvez également choisir l’événement Adobe Experience Platform à prendre en compte pour la limitation de la gestion des décisions. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
 
-* Des paramètres supplémentaires ont été ajoutés à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et d’indiquer si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse API. [En savoir plus](../offers/offer-library/creating-placements.md).
+* Des paramètres supplémentaires ont été ajoutés à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et d’indiquer si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse API. [En savoir plus](../offers/offer-library/creating-placements.md)
 
 **Personnalisation**
 
-* Vous pouvez désormais inclure un texte de remplacement par défaut dans les attributs de profil basés sur des chaînes de l’éditeur d’expression. Ces valeurs s’affichent si les attributs sélectionnés ne renvoient aucun résultat. [En savoir plus](../personalization/personalization-build-expressions.md#add).
+* Vous pouvez désormais inclure un texte de remplacement par défaut dans les attributs de profil basés sur des chaînes de l’éditeur d’expression. Ces valeurs s’affichent si les attributs sélectionnés ne renvoient aucun résultat. [En savoir plus](../personalization/personalization-build-expressions.md#add)
 
 **Créer des rapports**
 
@@ -843,7 +854,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la disposition, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <p><strong>Attention</strong> : cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Pour plus d'informations, consultez la <a href="../../rp_landing_pages/in-app-landing-page.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../../rp_landing_pages/in-app-landing-page.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -868,7 +879,6 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 </table>
 
 <!--
-
 <table>
 <thead>
 <tr>
@@ -916,19 +926,17 @@ Note that each widget can be resized and deleted as needed.
 </tr>
 </tbody>
 </table>
-
 -->
 
 ### Améliorations {#feb-2023-improvements}
 
 **Parcours**
 
-* Le champ **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-properties.md#entrance).
+* Le champ **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-properties.md#entrance)
 
 * Des améliorations ont été apportées aux **dates de début et de fin de parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Pour les parcours **Lecture d’audience**, vous pouvez désormais ajouter une date de fin. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. [En savoir plus](../building-journeys/journey-gs.md#dates)
 
 <!--
-
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
 
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
@@ -943,17 +951,17 @@ Note that each widget can be resized and deleted as needed.
 
 **Administration**
 
-* **Liste autorisée** : vous pouvez désormais télécharger la liste autorisée sous la forme d’un fichier .csv. [En savoir plus](../configuration/allow-list.md#download-allowed-list).
+* **Liste autorisée** : vous pouvez désormais télécharger la liste autorisée sous la forme d’un fichier .csv. [En savoir plus](../configuration/allow-list.md#download-allowed-list)
 
-* **Surface d’e-mail** : une vérification supplémentaire a été ajoutée aux paramètres de surface d’e-mail. Si l’enregistrement MX pour le sous-domaine utilisé dans l’**adresse (e-mail) de réponse** ou dans l’**adresse e-mail en Cci** n’est pas correctement configuré, la surface d’e-mail ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#send-to-suppressed-email-addresses).
+* **Surface d’e-mail** : une vérification supplémentaire a été ajoutée aux paramètres de surface d’e-mail. Si l’enregistrement MX pour le sous-domaine utilisé dans l’**adresse (e-mail) de réponse** ou dans l’**adresse e-mail en Cci** n’est pas correctement configuré, la surface d’e-mail ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 * **Surface d’e-mail** : dans la section **Paramètres de suivi des URL** des paramètres de surface d’e-mail, la limite de chaque champ **Valeur** a été mise à jour de 255 caractères à 5 Ko pour des raisons de compatibilité avec le suivi Adobe Analytics. [En savoir plus](../email/email-settings.md#url-tracking)
 
 **Gestion des décisions**
 
-* **Emplacements** : ajout de paramètres supplémentaires à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et d’indiquer si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse API. [En savoir plus](../offers/offer-library/creating-placements.md).
+* **Emplacements** : ajout de paramètres supplémentaires à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et d’indiquer si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse API. [En savoir plus](../offers/offer-library/creating-placements.md)
 
-* **Personnalisation des URL** : lorsque vous ajoutez des URL en tant que contenu aux représentations de vos offres, vous pouvez désormais personnaliser ces URL à l’aide de l’éditeur d’expression. [En savoir plus](../offers/offer-library/add-representations.md).
+* **Personnalisation des URL** : lorsque vous ajoutez des URL en tant que contenu aux représentations de vos offres, vous pouvez désormais personnaliser ces URL à l’aide de l’éditeur d’expression. [En savoir plus](../offers/offer-library/add-representations.md)
 
 ## Version de janvier 2023 {#jan-2023-release}
 

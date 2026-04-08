@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 90%
@@ -31,7 +31,7 @@ Notez que les messages in-app ne sont pas affectés par le choix de l’utilisat
 
 Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
-1. Ouvrez votre [parcours &#x200B;](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+1. Ouvrez votre [parcours ](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
 
    >[!IMPORTANT]
    >
@@ -246,7 +246,7 @@ Pour plus d’informations sur la création, la configuration et l’activation 
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451884?captions=fre_fr&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -254,7 +254,7 @@ Pour plus d’informations sur la création, la configuration et l’activation 
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445290/?captions=fre_fr&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -262,7 +262,7 @@ Pour plus d’informations sur la création, la configuration et l’activation 
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451832/?captions=fre_fr&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 

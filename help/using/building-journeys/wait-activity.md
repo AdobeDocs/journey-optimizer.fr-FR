@@ -10,7 +10,7 @@ level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 85%
@@ -74,7 +74,6 @@ Sélectionnez le type de **Durée** pour définir la durée relative de l’atte
 Select the date for the execution of the next activity.
 
 ![Wait activity configuration panel with duration and fixed date options](assets/journey56.png)
-
 -->
 
 ### Attente personnalisée {#custom}

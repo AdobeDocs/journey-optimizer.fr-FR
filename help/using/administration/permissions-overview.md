@@ -9,8 +9,8 @@ role: Admin, Developer
 level: Intermediate
 keywords: autorisations, droits, restrictions, accès, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -24,14 +24,16 @@ Le contrôle d’accès pour [!DNL Journey Optimizer] est assuré via les **Auto
 
 Pour configurer le contrôle d’accès pour Journey Optimizer, vous devez disposer des droits d’administration système ou produit pour votre organisation. Le rôle minimum qui permet d’accorder ou de retirer des autorisations est un administrateur ou une administratrice de produit. Les autres rôles d’administrateur ou d’administratrice qui peuvent gérer les autorisations sont les administrateurs ou administratrices système (aucune restriction). Pour plus d’informations, consultez l’[article du Centre d’aide Adobe](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html){target="_blank"} consacré aux rôles administratifs.
 
-<!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
+<!--
+ A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
 * After licensing [!DNL Journey Optimizer], an email is sent to the administrator specified during licensing.
 * The administrator logs in to Adobe Admin Console and selects [!DNL Journey Optimizer] from the list of products on the overview page.
 * To grant access to [!DNL Journey Optimizer], it is recommended that the administrator add users to the default product profile
 * In Experience Platform Permissions, the administrator can create new roles or edit the permissions and users for any existing roles.
 * When creating or editing a role, the administrator adds users to the role using the users tab, and grants permissions to these users (such as "Read Datasets" or "Manage Schemas") by editing the role's permissions. Similarly, the administrator can assign access to sandboxes using the same editing option.
-* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.-->
+* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.
+-->
 
 
 La gestion des utilisateurs et des utilisatrices dans [!DNL Journey Optimizer] repose sur les concepts clés suivants :
@@ -50,7 +52,7 @@ Avec [!DNL Journey Optimizer], vous pouvez effectuer un choix parmi une gamme de
 * **Contrôle d’accès basé sur les attributs** : autorisations permettant de gérer l’accès aux données pour certaines équipes ou groupes d’utilisateurs et d’utilisatrices. Le contrôle d’accès basé sur les attributs permet aux membres de l’équipe d’administration de restreindre l’accès à des objets et/ou des fonctionnalités en fonction d’attributs. Les attributs peuvent être des métadonnées ajoutées à un objet, comme un libellé ajouté à un champ ou à un segment de schéma. Un administrateur ou une administratrice définit des politiques d’accès intégrant des attributs afin de gérer les autorisations d’accès des utilisateurs et des utilisatrices. En savoir plus sur la [Gestion des accès basée sur les attributs](attribute-based-access.md).
 
 
-## Explorons plus en détail
+## Explorons plus en détail.
 
 Maintenant que vous comprenez les concepts liés à la gestion des accès dans **[!DNL Journey Optimizer]**, il est temps d’explorer plus en détail les sections de documentation suivantes pour commencer à configurer les autorisations.
 

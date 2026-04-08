@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ressources, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 5ac4220250b69289ec0f722ca54fef3b63174643
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Pour importer des fichiers dans **[!DNL Assets Essentials]** ou **[!DNL Assets a
     Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
 
     ![](assets/media_library_14.png)
-    -->
+-->
 
 
 ## Questions fréquentes {#faq-assets}
@@ -142,28 +142,28 @@ Si la personne utilisant Journey Optimizer est autorisée à utiliser **[!DNL A
 
 +++
 
-+++ Pourquoi les images ne se chargent-elles parfois pas dans les e-mails envoyés depuis Journey Optimizer ?
++++ Pourquoi les images ne se chargent-elles pas parfois dans les e-mails envoyés depuis Journey Optimizer ?
 
-Si des ressources (telles que des images) sont gérées via Adobe Experience Manager et utilisées dans Journey Optimizer, elles sont soumises à une politique de cycle de vie des ressources avec une durée de vie (TTL). Après l’expiration de la période de TTL, les ressources peuvent être supprimées du stockage (CDN), ce qui peut entraîner des images endommagées dans les e-mails qui font référence à ces ressources.
+Si des ressources (telles que des images) sont gérées via Adobe Experience Manager et utilisées dans Journey Optimizer, elles sont soumises à une politique de cycle de vie des ressources avec une durée de vie (TTL). Après l’expiration de la période de TTL, les ressources peuvent être supprimées du stockage (CDN), ce qui peut entraîner des images endommagées dans les e-mails qui font référence à ces ressources.
 
 >[!NOTE]
 >
->La TTL de la ressource est gérée par les services principaux de Adobe Journey Optimizer et n’est actuellement pas configurable par la clientèle. La période de durée de vie actuelle est définie sur 730 jours pour toutes les organisations Journey Optimizer.
+>La TTL de la ressource est gérée par les services back-end d’Adobe Journey Optimizer et n’est actuellement pas configurable par les clientes et clients. La période de TTL actuelle est définie sur 730 jours pour toutes les organisations Journey Optimizer.
 
 +++
 
-+++ Comment résoudre les images endommagées par l’expiration des ressources ?
++++ Comment résoudre le problème des images endommagées en raison de l’expiration des ressources ?
 
-Pour restaurer la disponibilité des images lorsque les ressources ont expiré :
+Pour restaurer la disponibilité des images lorsque les ressources ont expiré :
 
-1. **Republier les ressources affectées** : accédez à la ressource dans Adobe Experience Manager et republiez-la. La ressource sera à nouveau disponible dans le réseau CDN.
+1. **Republier les ressources affectées** : accédez à la ressource dans Adobe Experience Manager et republiez-la. La ressource sera à nouveau disponible dans le CDN.
 
-2. **Mettre à jour les références de contenu** : si vous utilisez des fragments de contenu ou des modèles qui référencent des ressources expirées :
-   * Créer un brouillon ou un clone du fragment de contenu
-   * Ajouter ou sélectionner à nouveau la ressource
-   * Publier le contenu mis à jour
+2. **Mettre à jour les références de contenu** : si vous utilisez des fragments de contenu ou des modèles qui référencent des ressources expirées :
+   * Créez un brouillon ou un clone du fragment de contenu.
+   * Ajoutez ou sélectionnez à nouveau la ressource.
+   * Publiez le contenu mis à jour.
 
-3. **Gestion proactive** : pour éviter toute perturbation future, pensez à vérifier et à republier régulièrement les ressources utilisées dans les campagnes par e-mail actives, en particulier celles dont la période d’expiration de TTL approche.
+3. **Gestion proactive** : pour éviter toute perturbation future, pensez à vérifier et à republier régulièrement les ressources utilisées dans les campagnes par e-mail actives, en particulier celles dont la période d’expiration de TTL approche.
 
 >[!CAUTION]
 >
@@ -171,10 +171,10 @@ Pour restaurer la disponibilité des images lorsque les ressources ont expiré :
 
 +++
 
-+++ La logique d’expiration des ressources sera-t-elle améliorée à l’avenir ?
++++ La logique d’expiration des ressources sera-t-elle améliorée à l’avenir ?
 
-Oui, Adobe s’emploie activement à apporter des améliorations pour affiner la logique d’expiration et de gestion du cycle de vie des ressources. Ces améliorations visent à offrir une meilleure visibilité sur le statut du cycle de vie des ressources et à réduire le risque de dégradation des images dans les campagnes en direct.
+Oui, Adobe s’emploie activement à l’amélioration de la logique d’expiration et de la gestion du cycle de vie des ressources. Ces améliorations visent à offrir une meilleure visibilité sur le statut du cycle de vie des ressources et à réduire le risque d’endommagement des images dans les campagnes actives.
 
-Pour connaître les dernières mises à jour, consultez l’équipe de votre compte Adobe ou surveillez les notes de mise à jour de Adobe Journey Optimizer.
+Pour connaître les dernières mises à jour, consultez l’équipe Adobe en charge des comptes ou surveillez les notes de mise à jour d’Adobe Journey Optimizer.
 
 +++

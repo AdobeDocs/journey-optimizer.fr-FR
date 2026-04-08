@@ -7,7 +7,7 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 64%
@@ -146,6 +146,8 @@ Pour les SMS, vous pouvez ajouter une nouvelle politique de décision à l’aid
 
    ![](assets/decision-policy-add-sms.png)
 
++++
+
 >[!TAB Notification push]
 
 Pour les notifications push, vous pouvez ajouter une nouvelle politique de décision à l’aide du menu **éditeur de personnalisation** ou **Prise de décision** disponible dans le volet des propriétés.
@@ -170,6 +172,8 @@ Pour les notifications push, vous pouvez ajouter une nouvelle politique de déci
 >[!IMPORTANT]
 >
 >Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+
++++
 
 >[!ENDTABS]
 

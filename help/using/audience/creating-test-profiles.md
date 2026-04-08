@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Pour **créer un schéma**, procédez comme suit :
 1. Sélectionnez un type de schéma, par exemple **Profil individuel**, puis cliquez sur **Suivant**.
    ![Sélection du type de schéma affichant l’option Profil individuel](assets/test-profiles-1.png)
 1. Saisissez le nom de votre schéma, puis cliquez sur **Terminer**.
-   ![Boîte de dialogue Nommer et enregistrer le schéma &#x200B;](assets/test-profiles-1-bis.png)
+   ![Boîte de dialogue Nommer et enregistrer le schéma ](assets/test-profiles-1-bis.png)
 1. Dans la section **Groupes de champs**, à gauche, cliquez sur **Ajouter** et sélectionnez les groupe de champs appropriés. Veillez à ajouter le groupe de champs **[!UICONTROL Détails du profil de test]**.
    ![Section Groupes de champs avec le bouton Ajouter](assets/test-profiles-1-ter.png)
 Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes de champs]** : la liste des groupes de champs s’affiche dans l’écran de vue d’ensemble du schéma.
@@ -88,7 +88,7 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 1. Sélectionnez le schéma créé précédemment, puis cliquez sur **[!UICONTROL Suivant]**.
    ![Écran de sélection des schémas pour la création de jeux de données](assets/test-profiles-8.png)
 1. Choisissez un nom, puis cliquez sur **[!UICONTROL Terminer]**.
-   ![Boîte de dialogue Nommer et terminer le jeu de données &#x200B;](assets/test-profiles-9.png)
+   ![Boîte de dialogue Nommer et terminer le jeu de données ](assets/test-profiles-9.png)
 1. Activez l&#39;option **[!UICONTROL Profil]**.
    ![Paramètres du jeu de données avec l’option Profil activée](assets/test-profiles-10.png)
 
@@ -124,7 +124,8 @@ Après avoir sélectionné l’espace de noms d’identité et fourni le fichier
 >
 >Les profils de test peuvent remplacer les profils existants. Avant d’exécuter le cas d’utilisation, assurez-vous que le fichier CSV contient uniquement des profils de test et qu’il est exécuté sur le bon sandbox.
 
-<!-- Removed as asked in DOCAC-13605 AJO Test Profiles Using a Journey should be removed
+<!--
+ Removed as asked in DOCAC-13605 AJO Test Profiles Using a Journey should be removed
 ## Turn a profile into a test profile{#turning-profile-into-test}
 
 You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 
@@ -251,4 +252,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416331?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

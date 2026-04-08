@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 98%
@@ -375,6 +375,4 @@ Notez que si cette option est désactivée, une fois la traduction effectuée pa
 1. Create your journey with a Delivery and personalize your content as needed.
 1. From your delivery action, click Edit content.
 1. Click Add languages.
-
-
 -->

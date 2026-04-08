@@ -10,7 +10,7 @@ level: Intermediate
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 74%
@@ -29,7 +29,7 @@ Pour tirer parti de cette fonctionnalité, créez un parcours dans lequel vous a
 
 Vous pouvez ensuite utiliser la sortie de l’activité Décision de contenu dans :
 
-* une activité [&#x200B; Optimiser avec une condition &#x200B;](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
+* une activité [ Optimiser avec une condition ](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
 
 * une [action personnalisée](#add-custom-action), via laquelle vous pouvez envoyer ces offres à des systèmes externes.
 
@@ -43,7 +43,7 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Décision de contenu]** dans votre zone de travail.
 
-   ![Ajouter une décision de contenu au parcours &#x200B;](assets/journey-content-decision.png){width=100%}
+   ![Ajouter une décision de contenu au parcours ](assets/journey-content-decision.png){width=100%}
 
 1. Vous pouvez, si vous le souhaitez, ajouter un libellé et une description à l’activité.
 
@@ -165,9 +165,11 @@ Vous trouverez ci-dessous l’exemple complet d’un parcours utilisant une acti
 
 Une fois le parcours [activé](publish-journey.md) :
 
-<!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
+<!--
+* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
-* If no offer is returned for a profile, they are excluded from the custom action.-->
+* If no offer is returned for a profile, they are excluded from the custom action.
+-->
 
 1. Chaque fois qu’un profil se qualifie pour cette audience, il rejoint le parcours.
 

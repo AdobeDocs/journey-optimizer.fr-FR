@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Cas d’utilisation de pages de destination
-description: Découvrez les cas d’utilisation les plus courants en rapport avec les pages de destination dans Journey Optimizer
+description: Découvrir les cas d’utilisation les plus courants pour les pages de destination dans Journey Optimizer
 feature: Landing Pages, Subscriptions, Use Cases
 topic: Content Management
 role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Cas d’utilisation de pages de destination {#lp-use-cases}
 
-Retrouvez ci-dessous quelques exemples sur la façon dont vous pouvez utiliser les pages de destination de [!DNL Journey Optimizer] afin que vos clientes et clients puissent donner leur opt-in ou opt-out concernant la réception de certaines ou de toutes vos communications.
+Vous trouverez ci-dessous quelques exemples d’utilisation des pages de destination [!DNL Journey Optimizer] pour que vos clientes et clients s’abonnent à certaines ou toutes vos communications, ou s’en désabonnent.
 
 ## S’abonner à un service {#subscription-to-a-service}
 
@@ -72,11 +72,11 @@ Pour configurer une page de destination pour l’enregistrement à un événemen
 
 Vous pouvez également envoyer un e-mail de confirmation aux destinataires qui se sont inscrits à votre événement. Pour ce faire, procédez comme suit.
 
-1. Créez un autre [parcours](../building-journeys/journey.md). Vous pouvez le faire directement à partir de la page de destination en cliquant sur le bouton **[!UICONTROL Créer un parcours]**. [En savoir plus](create-lp.md#configure-primary-page).
+1. Créez un autre [parcours](../building-journeys/journey.md). Vous pouvez le faire directement à partir de la page de destination en cliquant sur le bouton **[!UICONTROL Créer un parcours]**. [En savoir plus](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail. [En savoir plus](../building-journeys/audience-qualification-events.md).
+1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail. [En savoir plus](../building-journeys/audience-qualification-events.md)
 
 1. Cliquez dans le champ **[!UICONTROL Audience]** et sélectionnez la liste d’abonnements que vous avez créée.
 
@@ -98,7 +98,7 @@ Pour permettre aux personnes destinataires de se désabonner de vos communicatio
 >
 >En savoir plus sur la gestion du consentement de vos destinataires et son importance dans [cette section](../privacy/opt-out.md).
 
-### Gestion du droit d&#39;opposition {#opt-out-management}
+### Gestion des opt-out {#opt-out-management}
 
 La possibilité pour les destinataires de se désabonner de la réception des communications d&#39;une marque est une exigence légale. Pour en savoir plus sur la législation applicable, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr#regulations){target="_blank"}.
 
@@ -151,7 +151,7 @@ Pour permettre aux personnes destinataires dʼun e-mail dʼannuler leur abonneme
 
    >[!WARNING]
    >
-   >Cliquer sur le lien de désabonnement dans l’e-mail ouvre uniquement la page de destination. Le destinataire doit **envoyer le formulaire en cliquant sur le bouton d&#39;opt-out dans la page de destination** terminer la désinscription et mettre à jour son consentement de profil.
+   >Cliquer sur le lien de désabonnement inclus dans l’e-mail ne fait qu’ouvrir la page de destination. La personne destinataire doit **envoyer le formulaire en cliquant sur le bouton d’opt-out dans la page de destination** pour terminer la désinscription et mettre à jour son consentement de profil.
 
    Si le destinataire coche la case et soumet le formulaire :
 
@@ -179,7 +179,6 @@ Les informations concernant les désinscriptions sont stockées dans le **Jeu de
 * [Lien d’exclusion dans l’en-tête de l’e-mail](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
-
 ### Other ways to opt out
 
 You can also enable your recipients to unsubscribe whithout using landing pages.
@@ -191,20 +190,20 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 * **Unsubscribe link in header**
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
-
 -->
 
-## Exploiter l’événement de soumission de la page de destination {#leverage-lp-event}
+## Utiliser l’événement d’envoi de la page de destination {#leverage-lp-event}
 
-Vous pouvez utiliser les informations envoyées sur une page de destination pour effectuer d’autres actions. Par exemple, si un utilisateur s’abonne à une liste d’abonnements donnée, vous pouvez exploiter ces informations pour envoyer un e-mail recommandant d’autres listes d’abonnements à cet utilisateur.
+Vous pouvez utiliser les informations envoyées sur une page de destination pour effectuer d’autres actions. Par exemple, si une personne s’abonne à une liste d’abonnements donnée, vous pouvez utiliser ces informations pour envoyer un e-mail recommandant d’autres listes d’abonnements à cette personne.
 
-Pour ce faire, vous devez créer un [événement unitaire basé sur des règles](../event/about-creating.md) basé sur le **[!UICONTROL Schéma d’événement d’expérience de tracking d’e-mail AJO]** contenant les informations d’envoi et [utiliser cet événement dans un parcours &#x200B;](../building-journeys/general-events.md).
+Pour ce faire, vous devez créer un [événement unitaire basé sur des règles](../event/about-creating.md) selon le **[!UICONTROL schéma d’événement d’expérience de tracking e-mail AJO]** contenant les informations d’envoi et [utiliser cet événement dans un parcours](../building-journeys/general-events.md).
 
 >[!NOTE]
 >
->Lorsque vous utilisez des événements d’envoi de page de destination, sachez que le champ de `interactionType` d’événement peut ne pas toujours refléter précisément l’action spécifique de l’utilisateur. Pour déterminer avec précision si un utilisateur s’est désabonné, s’est abonné ou a effectué une autre action, vérifiez toujours les attributs de profil réels (comme les préférences de consentement) ou les valeurs de champ de formulaire plutôt que de vous fier uniquement au `interactionType` d’événement.
+>Lorsque vous utilisez des événements d’envoi de page de destination, sachez que le champ de l’événement `interactionType` peut ne pas toujours refléter précisément l’action spécifique de l’utilisateur ou de l’utilisatrice. Pour déterminer avec précision si une personne s’est désabonnée, s’est abonnée ou a effectué une autre action, vérifiez toujours les attributs de profil réels (comme les préférences de consentement) ou les valeurs de champ de formulaire plutôt que de vous fier uniquement à l’événement `interactionType`.
 
-<!--DETAILED STEPS TBC:
+<!--
+DETAILED STEPS TBC:
 
 Follow the steps below.
 
@@ -254,4 +253,5 @@ Follow the steps below.
 
     ![](assets/lp_subscription-uc-journey-email.png)
 
-///How do you use the information from the event to send an email to the users? -->
+///How do you use the information from the event to send an email to the users? 
+-->

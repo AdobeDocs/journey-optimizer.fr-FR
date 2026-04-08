@@ -5,7 +5,7 @@ feature: Preview
 role: User
 level: Beginner
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 88%
@@ -56,7 +56,8 @@ Pour accéder à la fonctionnalité **[!UICONTROL Rapport de spam]**, suivez les
 
    ![](assets/spam-report-low-score.png)
 
-<!--You can also check the message's alerts for warnings on potential risk of spam detection. Follow the steps below.
+<!--
+You can also check the message's alerts for warnings on potential risk of spam detection. Follow the steps below.
 
 1. Click the **[!UICONTROL Alerts]** button on top right of the screen. [Learn more about email alerts](../email/create-email.md#check-email-alerts)
 

@@ -9,7 +9,7 @@ badge: label="Disponibilité limitée" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 14%
@@ -28,10 +28,12 @@ Au lieu d’utiliser la priorité, vous pouvez également utiliser des modèles 
 
 ## Créer un modèle d’IA {#create-ai-model}
 
-<!--Do you need specific permissions to create AI models?
+<!--
+Do you need specific permissions to create AI models?
 >[!CAUTION]
 >
->To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)-->
+>To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)
+-->
 
 Pour créer un modèle d’IA pour le classement des parcours, procédez comme suit.
 
@@ -53,7 +55,8 @@ Pour créer un modèle d’IA pour le classement des parcours, procédez comme s
 1. Select the type of AI model you want to create:
 
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
-    * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
+    * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
+-->
 
 1. Dans la section **[!UICONTROL Mesure d’optimisation]**, toutes les mesures de votre [!DNL Customer Journey Analytics] par défaut [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} s’affichent dans la liste. Sélectionnez la mesure que vous souhaitez utiliser pour optimiser votre modèle.
 
@@ -74,7 +77,7 @@ Pour créer un modèle d’IA pour le classement des parcours, procédez comme s
    >
    >Seuls les jeux de données créés à partir de schémas associés au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]** s&#39;affichent dans la liste déroulante. Vous pouvez sélectionner jusqu’à 5 jeux de données.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
 
    >[!NOTE]
    >
@@ -92,7 +95,7 @@ Vous pouvez désormais définir le modèle d’IA comme référence pour créer 
 
 1. Utilisez le bouton **[!UICONTROL Sélectionner un modèle d’IA]** pour sélectionner le modèle d’IA à utiliser dans la formule.
 
-   ![Détails de la formule de classement des Parcours avec le bouton Sélectionner un modèle d’IA &#x200B;](assets/journey-formula-ai-model.png){width="80%"}
+   ![Détails de la formule de classement des Parcours avec le bouton Sélectionner un modèle d’IA ](assets/journey-formula-ai-model.png){width="80%"}
 
 1. Dans au moins l’une des sections **[!UICONTROL Critère]**, définissez une condition et sélectionnez **[!UICONTROL Score du modèle d’IA]** comme méthode de classement. Par exemple, si le parcours comporte une balise « Promo », le score de classement est le score du modèle d’IA.
 

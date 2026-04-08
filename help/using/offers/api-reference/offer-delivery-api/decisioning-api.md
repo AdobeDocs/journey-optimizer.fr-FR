@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Ce tutoriel nécessite aussi que vous disposiez d&#39;un identifiant d&#39;empla
 >
 >**Transmission de données contextuelles dans les requêtes de prise de décision**
 >
->Vous pouvez transmettre des données contextuelles (telles que le type d’appareil, l’emplacement ou les préférences utilisateur) dans vos requêtes Decisioning pour créer des règles d’éligibilité dynamiques et diffuser des offres personnalisées en fonction des conditions en temps réel. [En savoir plus sur les données contextuelles et les requêtes de prise de décision](../../context-data-decisioning.md)
+>Vous pouvez transmettre des données contextuelles (telles que le type d’appareil, l’emplacement ou les préférences utilisateur) dans vos requêtes de prise de décision pour créer des règles d’éligibilité dynamiques et diffuser des offres personnalisées en fonction des conditions en temps réel. [En savoir plus sur les données contextuelles et les requêtes de prise de décision](../../context-data-decisioning.md)
 
 ## En-têtes requis {#required-headers}
 
@@ -228,7 +228,9 @@ Le tableau ci-dessous répertorie tous les codes qui peuvent être renvoyés dan
 | 500 | Erreur interne du serveur. Le serveur a rencontré une condition inattendue qui l’a empêché de satisfaire la requête. |
 | 503 | Service indisponible en raison d’une surcharge du serveur. Le serveur ne peut actuellement pas traiter la demande en raison d’une surcharge temporaire. |
 
-<!-- ## Tutorial video {#video}
+<!--
+ 
+## Tutorial video {#video}
 
 The following video is intended to support your understanding of the components of Decision Management.
 
@@ -236,7 +238,8 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342829/?captions=fre_fr&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+-->
 
 ## Étapes suivantes {#next-steps}
 

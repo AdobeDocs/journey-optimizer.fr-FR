@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, configurer, environnement, sous-domaine, préréglages
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -84,11 +84,12 @@ Pour créer un préréglage de page de destination, procédez comme suit :
 
 1. Une fois le préréglage de page de destination créé, il sʼaffiche dans la liste avec le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé avec vos pages de destination.
 
-Vous êtes maintenant prêt à [créer des pages de destination](../landing-pages/create-lp.md) dans [!DNL Journey Optimizer].
+Vous pouvez maintenant [créer des pages de destination](../landing-pages/create-lp.md) dans [!DNL Journey Optimizer].
 <!--
 >[!NOTE]
 >
->Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).-->
+>Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).
+-->
 
 **Rubriques connexes** :
 

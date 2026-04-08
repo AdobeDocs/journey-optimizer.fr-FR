@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 145944952ad9aca752085588526f71e8034b8611
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 7%
@@ -53,7 +53,7 @@ Pour ouvrir l’éditeur HTML avancé et modifier la source du modèle, procéde
 
 1. Ouvrez ou créez un [modèle d’e-mail](../content-management/create-content-templates.md) et ouvrez le [Designer d’e-mail](../email/get-started-email-design.md) pour modifier le contenu.
 
-1. Cliquez sur le bouton **[!UICONTROL HTML]** dans le coin supérieur droit de l’écran.
+1. Cliquez sur le bouton **** dans le coin supérieur droit de l’écran.
 
    ![Emplacement du bouton HTML dans la barre d’outils Designer d’email](assets/email-template-expert-mode-button.png)
 
@@ -84,7 +84,8 @@ Pour ouvrir l’éditeur HTML avancé et modifier la source du modèle, procéde
    >Vos modifications sont conservées lorsque vous changez de vue.
 
 <!--
-    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+-->
 
 ## Rubriques connexes
 

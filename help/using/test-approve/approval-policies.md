@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 96%
@@ -142,6 +142,8 @@ Pour définir les conditions associées à une politique d’approbation, procé
     <td>Nom du groupe des personnes désignées à l’origine de la demande</td>
     </tr>
     </table>
+
+   +++
 
 1. Pour ajouter d’autres critères, cliquez sur **[!UICONTROL Ajouter une condition]** pour définir des règles supplémentaires et sélectionnez **[!UICONTROL Et]** ou **[!UICONTROL Ou]** pour spécifier la manière dont les conditions sont connectées.
 

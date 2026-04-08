@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ressources, intégration
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 100%
@@ -42,7 +42,8 @@ En savoir plus sur [Journey Optimizer + Adobe Experience Manager Assets](../i
 
 With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
-Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).
+-->
 
 ### Fragments
 

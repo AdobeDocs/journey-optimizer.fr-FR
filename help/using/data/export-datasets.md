@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 92%
@@ -86,7 +86,7 @@ Une fois l’exportation terminée, le contenu de votre jeu de données est dép
 Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer que vous pouvez exporter.
 
 | Jeu de données | Description |
-| ------- | ------- | 
+| ------- | ------- |
 | Jeu de données de classification AJO | Jeu de données pour l’ingestion d’événements de feedback d’application push et d’e-mail à partir de Journey Optimizer. Créé via le SDK. |
 | Jeu de données du service de consentement AJO | Stocke les informations de consentement d’un profil. |
 | Jeu de données d’événement d’expérience de tracking d’e-mail AJO | Logs d’interaction pour le canal e-mail utilisé à des fins de création de rapports et d’audiences.  |

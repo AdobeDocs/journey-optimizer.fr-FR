@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 91%
@@ -108,11 +108,13 @@ Pour créer un modèle d’IA, procédez comme suit :
 
 1. Enregistrez et activez le modèle d’IA. Une fois votre modèle actif, vous pouvez [surveiller son statut et ses performances d’entraînement](ai-model-observability.md).
 
-<!--At this point, you must have:
+<!--
+At this point, you must have:
 
 * created the AI model,
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
-* and in which dataset you want to collect the event data.-->
+* and in which dataset you want to collect the event data.
+-->
 
 Désormais, chaque fois quʼune offre est présentée et/ou qu’un utilisateur ou une utilisatrice clique dessus, vous souhaitez que lʼévénement correspondant soit automatiquement capturé par le groupe de champs **[!UICONTROL Événement dʼexpérience - Interactions avec les propositions]** à lʼaide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou du SDK mobile.
 
@@ -123,4 +125,5 @@ Pour envoyer des types d’événement (offre affichée ou offre ayant fait l�
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445953?captions=fre_fr&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+-->

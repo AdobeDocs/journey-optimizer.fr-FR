@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ Pour obtenir des commentaires sur des types d’événement autres que les évé
 
 >[!CAUTION]
 >
->Pour chaque type d’événement, assurez-vous que le schéma utilisé dans le jeu de données est associé au groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]**. <!--[Learn more](create-dataset.md)-->
+>Pour chaque type d’événement, assurez-vous que le schéma utilisé dans le jeu de données est associé au groupe de champ **[!UICONTROL Événement d’expérience - Interactions de proposition]**. <!--[Learn more](create-dataset.md)-->
 
 Vous trouverez ci-dessous les exigences du schéma que vous devez implémenter dans votre code JavaScript.
 
 ## Suivi des impressions {#track-impressions}
 
-Vérifiez que les champs suivants sont correctement configurés :
+Vérifiez que les champs suivants sont correctement configurés :
 
-**Type d’événement d’expérience :** `decisioning.propositionDisplay`
+**Type d’événement d’expérience :** `decisioning.propositionDisplay`
 
-**propositionEventType:** `_experience.decisioning.propositionEventType.display`
+**propositionEventType :** `_experience.decisioning.propositionEventType.display`
 
-**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
 
 +++**Exemple de payload :**
 
@@ -94,15 +94,15 @@ Vérifiez que les champs suivants sont correctement configurés :
 
 ## Suivi des clics {#track-clicks}
 
-Vérifiez que les champs suivants sont correctement configurés :
+Vérifiez que les champs suivants sont correctement configurés :
 
-**Type d’événement d’expérience :** `decisioning.propositionInteract`
+**Type d’événement d’expérience :** `decisioning.propositionInteract`
 
-**propositionEventType:** `_experience.decisioning.propositionEventType.interact`
+**propositionEventType :** `_experience.decisioning.propositionEventType.interact`
 
-**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
 
-Chaque offre dans une proposition comprend un jeton de suivi, qui est un identifiant unique généré par Adobe. Ce jeton doit être transmis exactement tel qu’il est reçu, sans modification, dans l’événement de clic ou d’impression correspondant. Les jetons de suivi correspondants permettent à Adobe d’associer précisément l’action de l’utilisateur à la décision d’offre correcte, ce qui active la création de rapports en aval et l’optimisation basée sur l’IA.
+Chaque offre dans une proposition comprend un jeton de suivi, qui est un identifiant unique généré par Adobe. Ce jeton doit être transmis exactement tel qu’il est reçu, sans modification, dans l’événement de clic ou d’impression correspondant. Les jetons de suivi correspondants permettent à Adobe d’associer précisément l’action de l’utilisateur ou utilisatrice à la décision d’offres correcte, ce qui active la création de rapports en aval et l’optimisation basée sur l’IA.
 
 >[!CAUTION]
 >
@@ -175,7 +175,6 @@ Chaque offre dans une proposition comprend un jeton de suivi, qui est un identif
 Pour les événements personnalisés, le schéma utilisé dans le jeu de données doit également être associé au groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]**. Il n’y a toutefois aucune exigence spécifique quant au type d’événement d’expérience qui doit être utilisé pour baliser ces événements.
 
 <!--
-
 >[!NOTE]
 >
 >To have your custom events accounted for in [capping](../items.md#capping), you need to connect the experience event to Adobe Experience Platform endpoints by sending it to either one of these two Edge data collection endpoints:
@@ -183,4 +182,5 @@ Pour les événements personnalisés, le schéma utilisé dans le jeu de donnée
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.
+-->

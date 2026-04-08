@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 93%
@@ -76,13 +76,13 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Ce
 
 >[!NOTE]
 >
->Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=_blank}
+>Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=&quot;_blank}
 
 +++
 
 +++La clientèle peut-elle augmenter la durée de vie des données du jeu de données système de [!DNL Journey Optimizer] dans le lac de données ? 
 
-Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -120,7 +120,7 @@ La nouvelle politique de durée de vie limite la période de consultation des do
 
 +++Quelles sont les alternatives disponibles pour conserver les données plus longtemps que leur durée de vie ?
 
-Les personnes qui nécessitent une rétention plus longue doivent envisager d’exporter les données pertinentes des jeux de données AJO vers un stockage externe avant l’expiration de leur durée de vie. Adobe Journey Optimizer prend en charge l’export de jeux de données vers diverses destinations d’espace de stockage (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=_blank}
+Les personnes qui nécessitent une rétention plus longue doivent envisager d’exporter les données pertinentes des jeux de données AJO vers un stockage externe avant l’expiration de leur durée de vie. Adobe Journey Optimizer prend en charge l’export de jeux de données vers diverses destinations d’espace de stockage (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank}
 
 +++
 
@@ -135,6 +135,8 @@ Les personnes qui nécessitent une rétention plus longue doivent envisager d’
 +++Recevons-nous en tant que clients et clientes un avertissement avant l’application de la durée de vie sur les sandbox existants ?
 
 Oui, les personnes concernées seront averties à l’avance et l’équipe produit travaillera avec elles pour assurer une transition fluide.
+
++++
 
 +++Puis-je supprimer des jeux de données générés par le système Journey Optimizer ?
 

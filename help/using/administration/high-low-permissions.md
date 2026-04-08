@@ -9,8 +9,8 @@ role: Admin, Developer
 level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 100%
 
@@ -176,11 +176,13 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
       * campaign.read
       * campaign.write
       * campaign.delete
-     <!--* experiments.read
+     <!--
+      * experiments.read
       * experiments.write
-      * experiments.delete-->
+      * experiments.delete
+-->
 
-  +++
++++
 
 * Lʼautorisation de haut niveau **[!DNL Publish campaigns]** permet aux utilisateurs et utilisatrices de publier des campagnes.
 
@@ -190,9 +192,11 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
       * campaign-read
       * campaign-publish
-        <!--* experiments.activate-->
+     <!--
+      * experiments.activate
+-->
 
-  +++
++++
 
 * L’autorisation de haut niveau **[!DNL View campaigns report]** permet aux utilisateurs et utilisatrices de lire et de modifier des rapports de campagne.
 
@@ -201,10 +205,12 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
    * Spécifiques à Journey Optimizer :
       * campaign.read
       * campaign-report.read
-     <!--* experiments.read
-      * experiments_report.read-->
+     <!--
+      * experiments.read
+      * experiments_report.read
+-->
 
-  +++
++++
 
 ## Ressource de gestion des décisions {#decisions-permissions}
 

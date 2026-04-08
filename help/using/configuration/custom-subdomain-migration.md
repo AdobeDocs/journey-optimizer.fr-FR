@@ -10,7 +10,7 @@ level: Intermediate
 keywords: sous-domaine, délégation, migration, CNAME, délégation personnalisée
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 18%
@@ -29,7 +29,7 @@ Dans le cadre de ce processus, vous devez :
 
 * [Supprimer les enregistrements DNS existants](#delete-dns) de votre solution d’hébergement
 * [Téléchargez le certificat SSL](#upload-ssl-certificate) obtenu auprès de l’autorité de certification
-* Suivez les étapes [&#x200B; Feedback Loop &#x200B;](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
+* Suivez les étapes [ Feedback Loop ](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
 * [Créer un nouvel ensemble d’enregistrements DNS](#create-dns-records) généré par Adobe dans votre plateforme d’hébergement
 
 Pour migrer votre sous-domaine, procédez comme suit.
@@ -141,7 +141,8 @@ Avant cela, vérifiez les éléments suivants :
 
     * Click **[!UICONTROL Download CSR]** to save the form to your local computer.
 
-    * Send the CSR to the Certificate Authority to get your SSL certificate.-->
+    * Send the CSR to the Certificate Authority to get your SSL certificate.
+-->
 
 1. Une fois votre certificat SSL récupéré, cliquez sur **[!UICONTROL Télécharger le certificat]**.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 **Web et mobile**
 
 | Type | URI | Description |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web | `web://domain.com/path/page.html#element` | Représente un élément individuel dans une page spécifique d’un domaine spécifique, où un élément peut être un libellé comme dans les exemples suivants : hero_banner, top_nav, menu, pied de page, etc. |
 | Application iOS | `mobileapp://com.vendor.bundle/activity#element` | Représente un élément spécifique dans une activité application native, tel qu’un bouton ou un autre élément de vue. |
 | Application Android | `mobileapp://com.vendor.bundle/#element` | Représente un élément spécifique dans une application native. |
@@ -46,7 +46,7 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 **Autres types d’appareils**
 
 | Type | URI | Description |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Bureau | `desktop://com.vendor.bundle/#element` | Représente un élément spécifique dans une application, tel qu’un bouton, un menu, une bannière principale, etc. |
 | Application TV | `tvcd://com.vendor.bundle/#element` | Représente un élément spécifique dans un identifiant de bundle spécifique à l’application d’un appareil connecté à la télévision ou à la télévision intelligente. |
 | Service | `service://servicename/#element` | Représente un processus côté serveur ou une autre entité manuelle. |
@@ -56,7 +56,7 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 **Surfaces de caractères génériques**
 
 | Type | URI | Description |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Caractère générique web | `wildcard:web://domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
 | Caractère générique web | `wildcard:web://*domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines se terminant par « domain.com ». |
 

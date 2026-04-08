@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Une surface peut être considérée comme un conteneur à n’importe quel nivea
 
 >[!NOTE]
 >
->Lorsque plusieurs actions d’expérience basées sur du code s’exécutent sur la même surface, le **[!UICONTROL score de priorité]** de la campagne ou du parcours détermine ce qui est diffusé à l’utilisateur ou à l’utilisatrice s’ils sont qualifiés pour plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
+>Lorsque plusieurs actions d’expérience basées sur du code s’exécutent sur la même surface, le **[!UICONTROL score de priorité]** de la campagne ou du parcours détermine ce qui est diffusé à l’utilisateur ou à l’utilisatrice s’ils sont qualifiés pour plusieurs actions. [Découvrir les scores de priorité](../conflict-prioritization/priority-scores.md)
 
 ## Identifiant de surface {#surface-uri}
 
@@ -50,7 +50,7 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 **Web et mobile**
 
 | Type | URI | Description |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web | `web://domain.com/path/page.html#element` | Représente un élément individuel dans une page spécifique d’un domaine spécifique, où un élément peut être un libellé comme dans les exemples suivants : hero_banner, top_nav, menu, pied de page, etc. |
 | Application iOS | `mobileapp://com.vendor.bundle/activity#element` | Représente un élément spécifique dans une activité application native, tel qu’un bouton ou un autre élément de vue. |
 | Application Android | `mobileapp://com.vendor.bundle/#element` | Représente un élément spécifique dans une application native. |
@@ -58,7 +58,7 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 **Autres types d’appareils**
 
 | Type | URI | Description |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Bureau | `desktop://com.vendor.bundle/#element` | Représente un élément spécifique dans une application, tel qu’un bouton, un menu, une bannière principale, etc. |
 | Application TV | `tvcd://com.vendor.bundle/#element` | Représente un élément spécifique dans un identifiant de bundle spécifique à l’application d’un appareil connecté à la télévision ou à la télévision intelligente. |
 | Service | `service://servicename/#element` | Représente un processus côté serveur ou une autre entité manuelle. |
@@ -68,7 +68,7 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 **Surfaces de caractères génériques**
 
 | Type | URI | Description |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Caractère générique web | `wildcard:web://domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
 | Caractère générique web | `wildcard:web://*domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines se terminant par « domain.com ». |
 

@@ -5,13 +5,14 @@ title: Gérer les préférences de votre clientèle
 description: Découvrez comment gérer les préférences des utilisateurs et utilisatrices à l’aide de politiques de consentement.
 feature: Journeys, Privacy, Consent Management, Landing Pages
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Developer, Admin
 level: Experienced
 keywords: politiques, gouvernance, plateforme, consentement, healthcare shield
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +24,8 @@ ht-degree: 98%
 
 Dans un écosystème moderne d’automatisation du marketing, les marques interagissent avec la clientèle via différents points de contact, au risque de communiquer de façon non pertinente ou excessive, entraînant ainsi un désengagement, des plaintes pour spam et des risques de non-conformité. C’est pourquoi elles doivent gérer les préférences de leur clientèle afin d’obtenir des informations en temps réel sur leur audience et de diffuser une communication personnalisée et respectueuse.
 
-Avec [!DNL Adobe Journey Optimizer], en utilisant des [politiques de consentement](consent.md), vous pouvez respecter les préférences de vos clients<!-- in terms of **channels** and **topics**-->. Ainsi, [!DNL Journey Optimizer] ne cible que la clientèle en fonction de ses choix<!-- their preferred channels and on the subscription topics--> tout en respectant son consentement.
+Avec [!DNL Adobe Journey Optimizer], en utilisant des [politiques de consentement](consent.md), vous pouvez respecter les préférences de votre clientèle<!-- in terms of **channels** and **topics**-->. Cela permet de s’assurer que [!DNL Journey Optimizer] ne cible que les clients et clientes en fonction de leurs choix, tout en respectant leur consentement.
+<!-- their preferred channels and on the subscription topics-->
 
 Pour gérer les préférences des utilisateurs et utilisatrices avec [!DNL Journey Optimizer], vous pouvez :
 
@@ -37,9 +39,10 @@ Pour gérer les préférences des utilisateurs et utilisatrices avec [!DNL Journ
 
 >[!IMPORTANT]
 >
->Le consentement prévaut sur les préférences. Par exemple, une personne a indiqué que son canal préféré est l’e-mail et qu’elle a accepté de recevoir des newsletters<!-- they are interested in yoga-->. Toutefois, si elle s’est opposée à toute communication de votre part, elle ne peut pas être ciblée par un e-mail que vous envoyez<!-- on yoga-->.
+>Le consentement prévaut sur les préférences. Par exemple, l’un de vos clients a indiqué que son canal préféré est le courrier électronique et qu’il a accepté de recevoir des newsletters<!-- they are interested in yoga--> mais que s’il s’est désabonné de toute communication de votre part, il ne peut pas être ciblé par un courrier électronique que vous envoyez.
+<!-- on yoga-->
 
-## Enregistrer et honorer les préférences {#manage-preferences}
+## Enregistrer et respecter les préférences {#manage-preferences}
 
 Grâce aux politiques de consentement dans [!DNL Journey Optimizer], vous pouvez gérer les préférences de votre clientèle de manière centralisée. Vous pouvez ainsi vous assurer de cibler uniquement la clientèle en fonction des sujets qu’elle a sélectionnés, tout en respectant ses choix de consentement. Pour ce faire, suivez les étapes ci-après.
 
@@ -81,11 +84,13 @@ Supposons que vous souhaitiez cibler votre clientèle par le biais de parcours e
 
    ![](assets/profile-preference-attributes.png){width=80%}
 
-<!--The corresponding profile dataset is updated as follows:
+<!--
+The corresponding profile dataset is updated as follows:
 
 |Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
 |---------|----------|---------|
-| john.black@lumamail.com | Y | N |-->
+| john.black@lumamail.com | Y | N |
+-->
 
     >[!NOTE]
     >
@@ -101,17 +106,19 @@ Supposons que vous souhaitiez cibler votre clientèle par le biais de parcours e
 
 1. Choisissez le type de **[!UICONTROL Politique de consentement]** et configurez une condition comme suit. [Découvrir comment configurer des politiques de consentement](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy){target="_blank"}
 
-<!--Consent policies are comprised of two logical components:
+<!--
+Consent policies are comprised of two logical components:
 
 * **If**: The condition that will trigger the policy check, based on a certain marketing action (email, SMS, push, custom action, etc.) being performed, the presence of certain data usage labels, or a combination of the two.
 
-* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.-->
+* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.
+-->
 
     Par exemple, pour envoyer des communications uniquement à votre clientèle qui ne s’est pas désinscrite de la réception de newsletters par e-mail, créez une politique personnalisée et définissez la condition suivante :
     
     * si **[!UICONTROL Action marketing]** est égal à **[!UICONTROL E-mail]**
     
-    * alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à **&#x200B;**
+    * alors **[!UICONTROL Newsletter_E-mail]** n’existe pas **[!UICONTROL false]** ou **[!UICONTROL Newsletter_E-mail]** n’est pas égal à ****
     
      ![](assets/consent-policy-email-newsletter.png){width=80%}
     

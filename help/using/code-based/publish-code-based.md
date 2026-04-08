@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -69,17 +69,17 @@ Le statut de votre parcours basé sur du code passe à **[!UICONTROL Actif]** et
    >
    >En savoir plus sur l’activation des campagnes dans [cette section](../campaigns/review-activate-campaign.md).
 
-Votre campagne basée sur le code adopte le statut **[!UICONTROL Actif]** [&#128279;](../campaigns/manage-campaigns.md#statuses) et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre contenu.
+Votre campagne basée sur du code passe au [statut](../campaigns/manage-campaigns.md#statuses) **[!UICONTROL Actif]** et est maintenant visible pour l’audience sélectionnée. Chaque destinataire de votre campagne peut voir les modifications que vous avez ajoutées à votre contenu.
 
 >[!NOTE]
 >
 >Après avoir cliqué sur **[!UICONTROL Activer]**, les modifications peuvent prendre jusqu’à 15 minutes avant d’être mises en ligne.
 >
->Si vous avez défini un planning pour votre campagne basée sur du code, celle-ci conserve le statut **[!UICONTROL Planifié]** [Statut](../campaigns/manage-campaigns.md#statuses) jusqu’à ce que la date et l’heure de début soient atteintes.
+>Si vous avez défini un planning pour votre campagne basée sur du code, celle-ci conserve le [statut](../campaigns/manage-campaigns.md#statuses) **[!UICONTROL Planifié]** jusqu’à ce que la date et l’heure de début soient atteintes.
 
 ## Arrêter un parcours basé sur du code ou une campagne basée sur du code {#stop-code-based-experience}
 
-Lorsqu’une expérience basée sur du code est active, vous pouvez l’arrêter afin d’empêcher votre audience de voir vos modifications. Suivez les étapes ci-dessous.
+Lorsqu’une expérience basée sur du code est active, vous pouvez l’arrêter afin d’empêcher votre audience de voir vos modifications. Suivez les étapes ci-après.
 
 1. Sélectionnez une campagne active ou un parcours actif dans la liste correspondante.
 
@@ -99,13 +99,16 @@ Lorsqu’une expérience basée sur du code est active, vous pouvez l’arrêter
 >
 >Après l’arrêt d’une campagne basée sur du code ou d’un parcours basé sur du code, vous ne pouvez plus y apporter des modifications ni l’activer. Vous pouvez uniquement dupliquer la campagne ou le parcours et activer l’élément dupliqué.
 
-<!--Reporting TBC
+<!--
+Reporting TBC
 
 ## Check the code-based experience reports {#check-code-based-reports}
 
-Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
+Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.
+-->
 
-<!--## Code-based reports
+<!--
+## Code-based reports
 
 You can access code-based journey or campaign reports from the summary screen.
 
@@ -152,5 +155,4 @@ The **[!UICONTROL Code-based experience summary]** graph shows the evolution of 
 
 TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
 +++
-
 -->

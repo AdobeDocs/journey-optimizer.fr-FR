@@ -5,7 +5,8 @@ feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -41,7 +42,8 @@ Pour éviter ces problèmes, [!DNL Journey Optimizer] réécrit le texte brut af
 ## Cas d’utilisation recommandés {#use-cases}
 
 <!--
-* **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.-->
+* **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
+-->
 
 * **Texte généré automatiquement dense ou fragmenté** — Lorsque le texte brut par défaut est difficile à analyser, l’optimisation peut produire un récit linéaire plus clair avec des offres et des liens explicites.
 
@@ -57,7 +59,7 @@ Pour éviter ces problèmes, [!DNL Journey Optimizer] réécrit le texte brut af
 
 Pour optimiser la version en texte brut de votre e-mail pour les boîtes de réception de l’IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[&#x200B; (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](../email/content-from-scratch.md)
+1. Ouvrez l’e-mail dans le Designer d’e-mail[ (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](../email/content-from-scratch.md)
 
 1. Sélectionnez l’icône **[!UICONTROL Texte brut]** pour ouvrir la version texte de votre e-mail. [En savoir plus](../email/text-version-email.md)
 

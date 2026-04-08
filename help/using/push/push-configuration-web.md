@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
-source-git-commit: bd1bb6156427fc9539a60119f909b67c505d5a1c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 78%
@@ -33,7 +33,8 @@ Avant de créer une application mobile, vous devez dʼabord vous assurer que vou
 >
 >La configuration des notifications push doit être effectuée par un utilisateur expérimenté. Selon votre modèle de mise en œuvre et les rôles impliqués dans cette mise en œuvre, vous devrez peut-être attribuer le jeu complet des autorisations à un profil de produit unique ou partager des autorisations entre le développeur d&#39;application et l&#39;administrateur **Adobe Journey Optimizer**. Découvrez les autorisations liées aux **Balises** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=fr){target="_blank"}.
 
-<!--ou need to your have access to perform following roles :
+<!--
+ou need to your have access to perform following roles :
 
 * Manage Datastreams
 * Manage Client-side Properties
@@ -117,7 +118,7 @@ Les schémas et jeux de données suivants sont disponibles avec le canal de noti
 
 ### Configuration de la propriété pushNotification {#push-property}
 
-Pour activer les **notifications push web**, vous devez d’abord vous assurer que la propriété [pushNotifications](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/configure/pushnotifications) est correctement configurée dans le SDK web. Cette propriété contrôle la manière dont les notifications push sont traitées par votre application web.
+Pour activer les **notifications push web**, vous devez d’abord vous assurer que la propriété [pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) est correctement configurée dans le SDK web. Cette propriété contrôle la manière dont les notifications push sont traitées par votre application web.
 
 En outre, vous devez générer des clés VAPID, requises pour configurer [les informations d’identification push de votre application](#push-credentials-launch) dans Journey Optimizer.
 
@@ -174,7 +175,7 @@ Vous pouvez maintenant sélectionner votre configuration lors de la création de
 
 ## Étape 3 : configurer la propriété sendPushSubscription {#sendPushSubscription-property}
 
-Une fois vos informations d’identification push et la configuration du canal configurées, vous devez implémenter [la commande sendPushSubscription](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/sendpushsubscription) dans votre application web. Cette commande enregistre les abonnements push des utilisateurs auprès de Adobe Experience Platform, ce qui permet au système de suivre les utilisateurs qui se sont inscrits pour recevoir des notifications push et conserver leur statut d&#39;abonnement. Cet enregistrement est essentiel pour que Journey Optimizer envoie des notifications push ciblées à vos utilisateurs.
+Une fois vos informations d’identification push et la configuration du canal configurées, vous devez implémenter [la commande sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) dans votre application web. Cette commande enregistre les abonnements push des utilisateurs auprès de Adobe Experience Platform, ce qui permet au système de suivre les utilisateurs qui se sont inscrits pour recevoir des notifications push et conserver leur statut d&#39;abonnement. Cet enregistrement est essentiel pour que Journey Optimizer envoie des notifications push ciblées à vos utilisateurs.
 
 ## Étape 4 : test de votre application mobile avec un événement {#mobile-app-test}
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: vagues, lots, planning, campagne, parcours, délivrabilité
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 2%
@@ -23,14 +23,15 @@ Vous pouvez diviser la diffusion des messages de campagne sortants en plusieurs 
 <!--
 >[!CAUTION]
 >
->Wave sending applies to **outbound** actions only (Email, SMS, Push, Direct mail).-->
+>Wave sending applies to **outbound** actions only (Email, SMS, Push, Direct mail).
+-->
 
 Journey Optimizer vous permet de définir le nombre de vagues, leur taille (en pourcentage de l’audience ou en nombres absolus) et le moment où chaque vague s’exécute.
 
 ## Limites et mécanismes de sécurisation {#limitations-guardrails}
 
 * L’envoi de vagues s’applique uniquement aux actions **sortantes** (e-mail, SMS, notification push, courrier).
-* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de **&#x200B;**.
+* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de ****.
 * L’intervalle minimum entre le début de deux vagues est de **30 minutes**.
 * Un début de vague ne peut pas être antérieur au début de la campagne ou antérieur.
 

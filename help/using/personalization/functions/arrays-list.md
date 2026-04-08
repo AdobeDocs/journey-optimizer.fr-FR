@@ -6,8 +6,8 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -187,7 +187,8 @@ L&#39;opération suivante définit les personnes dont les couleurs préférées 
 ```
 
 
-<!-- ## Intersection{#intersection}
+<!--
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -217,7 +218,7 @@ La fonction `bottomN` trie un tableau par ordre croissant en fonction de l’exp
 ```
 
 | Argument | Description |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | Tableau ou liste à trier. |
 | `{VALUE}` | Propriété dans laquelle trier le tableau ou la liste. |
 | `{AMOUNT}` | Nombre d&#39;éléments à renvoyer. |

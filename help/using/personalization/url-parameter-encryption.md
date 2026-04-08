@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: chiffrement, URL, tracking, page de destination, registre des clés, personnalisation, sécurité, confidentialité, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 5%
@@ -53,7 +53,8 @@ Avant de pouvoir utiliser l’assistant de chiffrement des paramètres d’URL, 
 <!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)-->
+>To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
+-->
 
 1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
