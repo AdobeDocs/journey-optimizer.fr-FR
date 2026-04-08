@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -52,8 +53,15 @@ Pour connaître la procédure complète de création d’une campagne de boîte 
 
    ![](assets/inbox-design-3.png)
 
+1. Cliquez sur l’icône ![rail](assets/do-not-localize/Smock_Rail_18_N.svg) pour ouvrir le panneau d’aperçu et vérifier comment la boîte de réception vide s’affiche.
+
+   ![](assets/inbox-design-3.png)
+
 1. Dans la section **[!UICONTROL Données]**, cliquez sur **[!UICONTROL Ajouter un méta]** pour ajouter des paires clé/valeur personnalisées à la payload.
 
 1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_StarOutline_18_N.svg) pour ouvrir un aperçu en mode sombre de la boîte de réception et confirmer les couleurs et images de votre thème sombre.
 
    ![](assets/inbox-design-4.png)
+
+Lorsque vous êtes prêt, vérifiez vos paramètres et activez la boîte de réception. Après l’activation, vous pouvez l’utiliser avec des [cartes de contenu](../content-card/create-content-card.md).
+

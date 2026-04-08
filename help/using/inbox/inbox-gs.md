@@ -5,10 +5,11 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 1%
+source-wordcount: '321'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +22,7 @@ La boîte de réception s’appuie sur le canal Cartes de contenu et ajoute :
 * **Messages persistants** : le contenu reste dans la boîte de réception jusqu’à ce que vous le supprimiez ou qu’il expire, afin que les utilisateurs puissent y revenir après avoir fermé une notification ou quitté l’application.
 * **Emplacement centralisé** : une boîte aux lettres unique dans votre application ou site pour les messages marketing pertinents.
 * **Implémentation flexible** : utilisez le conteneur de boîte de réception prêt à l’emploi ou personnalisez l’expérience dans votre propre interface utilisateur.
-* **Synchronisation entre appareils** : le statut de lecture et l’engagement restent alignés sur les appareils d’un utilisateur.
+* **Read-Status** : les messages peuvent être marqués comme lus ou non lus sur l&#39;appareil sur lequel ils sont ouverts.
 
 ## Guide de démarrage rapide
 
@@ -42,3 +43,9 @@ Pour configurer et utiliser la boîte de réception, procédez comme suit :
 1. [Créez votre carte Contenu et liez-la à votre boîte de réception](../content-card/create-content-card.md)
 
    Créez le contenu de la carte dans le concepteur, terminez les options spécifiques à la boîte de réception, puis activez votre campagne pour que les messages atteignent la boîte de réception.
+
+## Ressources supplémentaires
+
+* [Récupérer et afficher la boîte de réception](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/) : chargement des messages de la boîte de réception Journey Optimizer et rendu de l’interface utilisateur de la boîte de réception sur Android (documentation Adobe Developer).
+* [Personnalisation de la boîte de réception](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/) : ajustez la disposition, le style et le comportement de l’interaction de la boîte de réception pour votre application Android (documentation Adobe Developer).
+* [Écoute des événements de boîte de réception](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/) : abonnez-vous aux rappels de boîte de réception pour les actions des utilisateurs et les mises à jour de cycle de vie sur Android (documentation Adobe Developer).
