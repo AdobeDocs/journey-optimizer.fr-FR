@@ -20,7 +20,7 @@ La conception de votre contenu dans Adobe Journey Optimizer consiste à créer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Utiliser des composants de contenu
 
@@ -40,7 +40,7 @@ Découvrez comment créer des fragments réutilisables pour rationaliser la conc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Ajouter des liens et suivre les messages
 
@@ -50,7 +50,7 @@ Activez le suivi, insérez des liens et gérez l’apparence des liens pour opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Insérer des offres personnalisées
 
@@ -80,7 +80,7 @@ Structurez la couche de texte brut de votre e-mail afin que les clients de boît
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Ajouter des métadonnées
 
