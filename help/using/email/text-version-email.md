@@ -58,7 +58,7 @@ Vous pouvez aider les fonctionnalités de boîte de réception optimisées par l
 >
 >Lorsque vous utilisez cette fonctionnalité, l’option **[!UICONTROL Synchroniser avec HTML]** est automatiquement désactivée.
 
-Pour une présentation complète et des scénarios recommandés, voir [ Optimiser le texte des e-mails pour les boîtes de réception de l’IA](llm-email-optimizer.md).
+Pour une présentation complète et des scénarios recommandés, voir [&#x200B; Optimiser le texte des e-mails pour les boîtes de réception de l’IA](llm-email-optimizer.md).
 
 ## Quand utiliser des versions en texte brut personnalisées {#when-to-use}
 
