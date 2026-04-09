@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04f0515131f0db889fdd206df540a110a9cee81c
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '3191'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -241,7 +241,6 @@ ht-degree: 94%
       + [Simuler des variations de contenu](using/test-approve/simulate-sample-input.md)
       + [Génération automatique de variantes de contenu](using/test-approve/simulate-sample-input-generated.md)
       + [Envoyer le rapport sur les spams](using/content-management/spam-report.md)
-      + [Optimisateur d’e-mails LLM](using/content-management/llm-email-optimizer.md)
    + Approuver les parcours et les campagnes {#approve}
       + [Approuver les parcours et les campagnes](/help/rp_landing_pages/approve-landing-page.md)
       + [Commencer les approbations](using/test-approve/gs-approval.md)
@@ -290,6 +289,7 @@ ht-degree: 94%
             + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
             + [Insérer des offres personnalisées](using/email/add-offers-email.md)
             + [Gestion de la version texte](using/email/text-version-email.md)
+            + [Optimiser le texte des e-mails pour les boîtes de réception d’IA](using/email/llm-email-optimizer.md)
             + [Ajouter des métadonnées](using/email/email-metadata.md)
          + Modifier le style {#edit-style}
             + [Modifier le style](/help/rp_landing_pages/edit-style-landing-page.md)
@@ -966,7 +966,7 @@ ht-degree: 94%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)

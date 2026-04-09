@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: texte, e-mail, version, brut, éditeur
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 11%
@@ -52,13 +52,13 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 
 Vous pouvez aider les fonctionnalités de boîte de réception optimisées par l’IA (telles que les résumés dans [!DNL Gmail], [!DNL Outlook] ou [!DNL Apple Mail]) à faire apparaître vos offres et détails clés à l’aide du bouton **[!UICONTROL Optimiser pour la boîte de réception IA]**. Cette action génère une version en texte brut améliorée axée sur les assistants d’information qui sont susceptibles de lire la partie texte du message.
 
-![Bouton Optimiser pour la boîte de réception IA dans la vue de version texte](../content-management/assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![Bouton Optimiser pour la boîte de réception IA dans la vue de version texte](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
 >Lorsque vous utilisez cette fonctionnalité, l’option **[!UICONTROL Synchroniser avec HTML]** est automatiquement désactivée.
 
-Pour une présentation complète et des scénarios recommandés, voir [&#x200B; Optimiser le texte des e-mails pour les boîtes de réception de l’IA](../content-management/llm-email-optimizer.md).
+Pour une présentation complète et des scénarios recommandés, voir [ Optimiser le texte des e-mails pour les boîtes de réception de l’IA](llm-email-optimizer.md).
 
 ## Quand utiliser des versions en texte brut personnalisées {#when-to-use}
 
