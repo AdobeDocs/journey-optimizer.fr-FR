@@ -2,11 +2,11 @@
 title: Optimiser le texte des e-mails pour les boîtes de réception d’IA
 description: Affinez la couche de texte brut de l’e-mail dans Journey Optimizer afin que les clients de boîte de réception assistés par l’IA puissent utiliser vos offres et vos appels à l’action lorsqu’ils résument l’intention de l’e-mail ou l’extraient, dans le Designer d’e-mail avec optimisation grâce à l’IA.
 feature: Email Design
-topic: Email Design, Artificial Intelligence
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 81cda1c3dbbf7310c7dfc9b00b55238e3784e1ea
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Pour éviter ces problèmes, [!DNL Journey Optimizer] réécrit le texte brut af
 
 Pour optimiser la version en texte brut de votre e-mail pour les boîtes de réception de l’IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[&#x200B; (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
+1. Ouvrez l’e-mail dans le Designer d’e-mail[ (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
 
 1. Sélectionnez l’icône **[!UICONTROL Texte brut]** pour ouvrir la version texte de votre e-mail. [En savoir plus](text-version-email.md)
 
