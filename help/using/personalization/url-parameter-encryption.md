@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: chiffrement, URL, tracking, page de destination, registre des clés, personnalisation, sécurité, confidentialité, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 5%
+source-wordcount: '693'
+ht-degree: 4%
 
 ---
 
@@ -49,6 +49,10 @@ Une URL de page de destination peut utiliser un paramètre de requête tel que `
 ## Création de clés {#create-keys}
 
 Avant de pouvoir utiliser l’assistant de chiffrement des paramètres d’URL, vous devez créer une clé. Pour ce faire, procédez comme suit.
+
+>[!NOTE]
+>
+>Il n’existe actuellement aucune autorisation spécifique pour accéder aux clés et les gérer. Les rôles qui accordent l’accès à la section **[!UICONTROL Configurations]** sous **[!UICONTROL Administration]** accordent également l’accès au registre des clés. Cependant, des autorisations spécifiques sont prévues pour une version ultérieure.
 
 <!--
 >[!IMPORTANT]
