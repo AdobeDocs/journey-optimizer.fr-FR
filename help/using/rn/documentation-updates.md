@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ccaeec7de75be7e9bb0f6eaef4797f8a86ab453d
+source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
 workflow-type: tm+mt
-source-wordcount: '6597'
-ht-degree: 73%
+source-wordcount: '6654'
+ht-degree: 72%
 
 ---
 
@@ -22,6 +22,8 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 ## Avril 2026 {#april-2026}
 
 * Une nouvelle section **[Événements ignorés en raison d’une instance de parcours bloquée](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** a été ajoutée à la documentation de dépannage des parcours. Elle explique le motif d’abandon du `maxInstanceStackEventsReached`, le moment où il se produit et comment l’atténuer. Les mécanismes de sécurisation et les pages de liste des champs d’événement d’étape ont également été mis à jour.
+
+* La documentation **Exploiter les fragments dans les politiques de décision** comprend désormais des notes de mécanisme de sécurisation pour le canal **E-mail** : **[!UICONTROL Simuler du contenu]** n’affiche pas les fragments d’expression de l’élément de décision, contrairement à **[!UICONTROL Envoyer le BAT]** et les campagnes activées. La page indique également que les **[!UICONTROL fragments visuels]** ne peuvent pas être affectés à un élément de décision ; seuls les **fragments d’expression** sont pris en charge dans ce contexte. [En savoir plus](../experience-decisioning/fragments-decision-policies.md)
 
 ## Mars 2026 {#march-2026}
 
@@ -61,11 +63,11 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Mise à jour de la documentation sur le **tracking des URL** et la **résolution des problèmes de Parcours** afin de documenter le comportement des `context.system.source.actionId` dans les parcours fermés. Les parcours fermés ou non republiés peuvent produire des espaces réservés de `{}` vides dans les URL de tracking. Des conseils ont été ajoutés pour résoudre le problème en republiant le parcours ou en supprimant le paramètre affecté. [En savoir plus](../email/url-tracking.md)
 
-* Mise à jour de la documentation sur la source de données **&#x200B;**&#x200B;avec une note indiquant que seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Data Source. [En savoir plus](../datasource/adobe-experience-platform-data-source.md)
+* Mise à jour de la documentation sur la source de données **** avec une note indiquant que seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Data Source. [En savoir plus](../datasource/adobe-experience-platform-data-source.md)
 
 * La documentation **Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données** a été améliorée avec une nouvelle entrée de FAQ pour identifier clairement les jeux de données soumis à une durée de vie. La durée de vie s’applique exclusivement aux jeux de données de série temporelle : les jeux de données de type enregistrement tels que les jeux de données d’entité, les jeux de données de classification et les référentiels d’objets de décision ne sont pas soumis à la durée de vie et ne sont pas affectés par le déploiement du mécanisme de sécurisation. [En savoir plus](../data/datasets-ttl.md)
 
-* Les documents Propriétés du Parcours **&#x200B;**&#x200B;et **Mettre en pause un parcours** ont été mis à jour afin de documenter les nouveaux champs de pause et de reprise désormais disponibles dans les détails techniques du parcours. Le bouton **Copier les détails techniques** comprend désormais `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy` et `lastResumedById`, en plus du bloc de `pausedJourneySettings` existant. Une nouvelle section a également été ajoutée à la page **Mettre en pause un parcours** pour expliquer comment afficher les horodatages en pause et reprendre directement à partir des propriétés du parcours. [En savoir plus](../building-journeys/journey-properties.md)
+* Les documents Propriétés du Parcours **** et **Mettre en pause un parcours** ont été mis à jour afin de documenter les nouveaux champs de pause et de reprise désormais disponibles dans les détails techniques du parcours. Le bouton **Copier les détails techniques** comprend désormais `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy` et `lastResumedById`, en plus du bloc de `pausedJourneySettings` existant. Une nouvelle section a également été ajoutée à la page **Mettre en pause un parcours** pour expliquer comment afficher les horodatages en pause et reprendre directement à partir des propriétés du parcours. [En savoir plus](../building-journeys/journey-properties.md)
 
 ## Février 2026 {#february-2026}
 
@@ -396,7 +398,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
@@ -566,7 +568,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -596,7 +598,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -671,7 +673,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -799,7 +801,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
