@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Concevoir le contenu des messages
-description: Concevoir le contenu des messages
+title: Concevoir le contenu d’un message
+description: Concevoir le contenu d’un message
 feature: Email Design, SMS, Push, In App
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: contenu, conception, e-mail, notification push, sms, personnalisation, modèles
-source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
+exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
 
 ---
 
-# Concevoir le contenu des messages{#section-overview}
+# Concevoir le contenu d’un message{#section-overview}
 
 La conception du contenu des messages dans Adobe Journey Optimizer vous permet de créer des communications attrayantes et personnalisées sur tous les canaux. Que vous créiez des e-mails avec des dispositions visuelles riches, des notifications push optimisées pour les appareils mobiles, des expériences in-app interactives ou des SMS, cette section fournit des conseils complets sur les bonnes pratiques de création de contenu. Découvrez comment utiliser les modèles et les fragments pour obtenir du contenu réutilisable, appliquer une personnalisation et du contenu dynamique afin d’adapter les messages à chaque destinataire et garantir la conformité en matière d’accessibilité. De la compréhension des principes de conception à l’implémentation d’options de formatage avancées, vous maîtriserez les outils nécessaires pour offrir des expériences attrayantes conformes à la marque, qui stimulent l’engagement et les conversions.
 
@@ -25,7 +25,7 @@ La conception du contenu des messages dans Adobe Journey Optimizer vous permet
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Concevoir le contenu des e-mails
 
@@ -55,7 +55,7 @@ Composez des SMS personnalisés, améliorez les communications avec du contenu m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Concevoir des messages in-app
 
@@ -75,7 +75,7 @@ Personnalisez les messages à l’aide d’attributs de profil, utilisez l’éd
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Utiliser des modèles et des fragments
 
@@ -103,4 +103,3 @@ Créez du contenu réutilisable avec des modèles, enregistrez les blocs de cont
 - **[Gestion des ressources](../integrations/assets.md)** : tirez parti d’Adobe Experience Manager Assets Essentials pour enrichir vos messages, gérer les ressources de marque et gérer une bibliothèque de contenu centralisée.
 - **[Intégration d’Adobe Stock](../integrations/stock.md)** : accédez à des millions de photos, vidéos et illustrations libres de droits directement dans Journey Optimizer pour améliorer la conception de votre contenu.
 - **[Contenu multilingue](../content-management/multilingual-gs.md)** : créez et gérez des campagnes et des parcours multilingues pour atteindre des audiences dans plusieurs langues avec des variations de contenu localisées.
-

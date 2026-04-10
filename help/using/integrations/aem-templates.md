@@ -4,15 +4,14 @@ product: journey optimizer
 title: Utiliser les modèles AEM
 description: Découvrez comment créer des modèles dans AEM et les exporter dans Journey Optimizer.
 hide: true
-hidefromtoc: true
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 100%
 
@@ -42,13 +41,13 @@ Avant de commencer à utiliser cette fonctionnalité, assurez-vous de répondre 
 
 * **Autorisations**
 
-  Pour créer, modifier et supprimer des modèles de contenu dans Adobe Journey Optimizer, vous devez disposer de l’autorisation **[!DNL Manage Library Items]** incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
+  Pour créer, modifier et supprimer des modèles de contenu dans Adobe Journey Optimizer, vous devez disposer de l’autorisation **[!DNL Manage Library Items]** incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
 
 ### Mécanismes de sécurisation et limitations{#aem-templates-limitations}
 
 Pour optimiser davantage votre utilisation d’Adobe Experience Manager avec Adobe Journey Optimizer, tenez compte des mécanismes de sécurisation et limitations supplémentaires suivantes :
 
-* Pour que la personnalisation du modèle Experience Manager porte ses fruits, la syntaxe de Journey Optimizer doit être respectée. [En savoir plus](../personalization/personalization-syntax.md).
+* Pour que la personnalisation du modèle Experience Manager porte ses fruits, la syntaxe de Journey Optimizer doit être respectée. [En savoir plus](../personalization/personalization-syntax.md)
 
 * L’exportation de modèles en bloc n’est actuellement pas prise en charge, les modèles doivent être exportés individuellement.
 
@@ -62,9 +61,9 @@ Pour exporter un modèle Adobe Experience Manager vers Adobe Journey Optimiz
 
    ![](assets/aem-outbound-menu.png)
 
-1. Dans votre bibliothèque de contenu, vous pouvez utiliser des modèles configurés précédemment ou en créer un à partir de rien. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=fr#creating-a-new-page).
+1. Dans votre bibliothèque de contenu, vous pouvez utiliser des modèles configurés précédemment ou en créer un à partir de rien. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=fr#creating-a-new-page)
 
-1. En incorporant la syntaxe de personnalisation de Journey Optimizer dans votre modèle, vous pouvez effectuer une personnalisation plus poussée. [En savoir plus](../personalization/personalization-syntax.md).
+1. En incorporant la syntaxe de personnalisation de Journey Optimizer dans votre modèle, vous pouvez effectuer une personnalisation plus poussée. [En savoir plus](../personalization/personalization-syntax.md)
 
    ![](assets/aem_ajo_4.png)
 
@@ -94,7 +93,7 @@ Une fois que le modèle Experience Manager est disponible dans Journey Optimiz
 
 1. Dans la fenêtre **[!UICONTROL Propriétés du modèle]**, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** pour attribuer des libellés d’utilisation des données personnalisés ou de base à votre modèle. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
-1. Pour personnaliser davantage votre modèle Experience Manager et votre contenu, cliquez sur **[!UICONTROL Modifier le contenu]**. Cet écran vous permet d’apporter facilement des modifications et d’adapter le modèle selon vos besoins. [En savoir plus](../email/get-started-email-design.md).
+1. Pour personnaliser davantage votre modèle Experience Manager et votre contenu, cliquez sur **[!UICONTROL Modifier le contenu]**. Cet écran vous permet d’apporter facilement des modifications et d’adapter le modèle selon vos besoins. [En savoir plus](../email/get-started-email-design.md)
 
    >[!WARNING]
    >

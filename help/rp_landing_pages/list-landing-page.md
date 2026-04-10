@@ -6,9 +6,8 @@ description: Liste
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
-hidefromtoc: true
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Les fonctions « Liste » d’Adobe Journey Optimizer permettent de manipule
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utiliser la fonction « distinct » dans Adobe Journey Optimizer
 
@@ -32,7 +31,7 @@ Découvrez comment utiliser la fonction « distinct » pour dédupliquer des l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction distinctWithNull - Adobe Journey Optimizer
 
@@ -42,7 +41,7 @@ Découvrez comment utiliser « distinctWithNull » pour récupérer des valeur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utiliser la fonction « filter » dans Adobe Journey Optimizer
 
@@ -52,7 +51,7 @@ Découvrez comment appliquer des filtres à des listes d’objets en fonction de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utiliser la fonction « getListItem » dans Adobe Journey Optimizer
 
@@ -62,7 +61,7 @@ Découvrez comment récupérer un élément d’une liste à un index spécifiqu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utiliser la fonction « in » dans Adobe Journey Optimizer
 
@@ -72,7 +71,7 @@ Découvrez comment vérifier si une valeur existe dans une liste à l’aide de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction « intersect » dans Adobe Journey Optimizer
 

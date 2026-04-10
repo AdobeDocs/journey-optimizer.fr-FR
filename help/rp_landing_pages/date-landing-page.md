@@ -6,9 +6,8 @@ description: Date
 redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
-hidefromtoc: true
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Les fonctions de date d’Adobe Journey Optimizer vous permettent de travaille
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Référence de la fonction currentTimeInMillis
 
@@ -32,7 +31,7 @@ Découvrez comment utiliser la fonction « currentTimeInMillis » pour récup�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction inLastDays
 
@@ -42,7 +41,7 @@ Découvrez la fonction « inLastDays », qui vérifie si une date donnée se s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utiliser la fonction inLastHours
 
@@ -52,7 +51,7 @@ Découvrez la fonction « inLastHours » pour déterminer si une date et une h
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utiliser la fonction inLastMonths
 
@@ -62,7 +61,7 @@ Vérifiez si une date se situe au sein d’une plage de mois spécifiée à l’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utiliser la fonction inLastYears
 
@@ -72,7 +71,7 @@ Découvrez comment utiliser la fonction « inLastYears » pour évaluer si une
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction inNextDays
 

@@ -1,20 +1,19 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Mathématiques
-description: Mathématiques
+title: Math
+description: Math
 redpen-status: CREATED_||_2025-08-11_20-16-12
 hide: true
-hidefromtoc: true
 exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
-source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 
 ---
 
-# Mathématiques{#section-overview}
+# Math{#section-overview}
 
 La section Mathématiques d’Adobe Journey Optimizer vous permet d’effectuer des calculs précis et des transformations de données dans vos parcours, ce qui vous aide à prendre des décisions plus intelligentes basées sur les données.
 
@@ -22,7 +21,7 @@ La section Mathématiques d’Adobe Journey Optimizer vous permet d’effectuer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction random
 
@@ -32,7 +31,7 @@ Apprenez à utiliser la fonction « random » pour générer des nombres aléa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction round
 

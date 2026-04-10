@@ -6,9 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 * [Commencer avec les cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)
 * [Conditions préalables des cartes de contenu](content-card-configuration-prereq.md)
-* [Configurer le canal des cartes de contenu dans Journey Optimizer](content-card-configuration.md)
+* [Configurer le canal des vignettes de contenu dans Journey Optimizer](content-card-configuration.md)
 * [Créer des cartes de contenu](create-content-card.md)
 * [Concevoir des cartes de contenu](design-content-card.md)
 * **Rapport sur les cartes de contenu**

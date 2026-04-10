@@ -6,9 +6,8 @@ description: Découvrez comment accéder à Adobe Experience Manager Content Adv
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -75,7 +74,7 @@ La disponibilité de Dynamic Media dépend de la configuration de votre référe
 
 * **Scene7** : disponible pour les ressources publiées (à l’exception des vidéos et de PDF). [En savoir plus sur les modificateurs Scene7 Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI** : disponible pour les ressources approuvées (sauf la vidéo). [En savoir plus sur Dynamic Media avec les modificateurs OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=fr){target="_blank"}
+* **OpenAPI** : disponible pour les ressources approuvées (sauf la vidéo). [En savoir plus sur Dynamic Media avec les modificateurs OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7 et OpenAPI** : disponible lorsque les deux configurations existent et que la ressource répond aux critères.
 
@@ -138,7 +137,7 @@ Pour accéder au gestionnaire d’accès de Adobe Experience Manager dans Journe
 
 1. Dans l’éditeur Personalization, choisissez votre point d’entrée de contenu :
 
-   * Pour ajouter une ressource, cliquez sur **&#x200B;**&#x200B;puis **[!UICONTROL Ouvrir le gestionnaire de contenu AEM]**.
+   * Pour ajouter une ressource, cliquez sur **** puis **[!UICONTROL Ouvrir le gestionnaire de contenu AEM]**.
 
      ![](assets/content-advisor-11.png){zoomable="yes"}
 

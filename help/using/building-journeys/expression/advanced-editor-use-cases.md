@@ -7,11 +7,10 @@ feature: Journeys
 role: Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 keywords: expression, condition, cas d’utilisation, événements
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 95%

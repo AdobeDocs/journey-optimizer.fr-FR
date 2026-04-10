@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Types d’erreur d’e-mail
+title: Types d’erreur e-mail
 description: Accédez à la liste de toutes les erreurs d’e-mail possibles lors de l’envoi de diffusions avec Journey Optimizer.
 feature: Deliverability, Channel Configuration
 topic: Administration
@@ -9,16 +9,15 @@ role: Admin
 level: Experienced
 keywords: reprises, rebond, temporaire, ignoré, définitif, optimizer, erreur
 hide: true
-hidefromtoc: true
 exl-id: a8908b11-2288-4d53-897c-3f99cb5ceab4
-source-git-commit: 0cb73489981659c3f231b9def40e0e483ed3aef8
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
 
 ---
 
-# Types d’erreur d’e-mail {#email-error-types}
+# Types d’erreur e-mail {#email-error-types}
 
 Les motifs possibles d’un échec de diffusion sont multiples : Le tableau ci-dessous présente toutes les erreurs qui peuvent se produire lors de l’envoi de diffusions par e-mail avec [!DNL Journey Optimizer], ainsi que leur description et leur type d’erreur.
 
@@ -33,7 +32,7 @@ Ces erreurs se trouvent dans le [Jeu de données d’événement de retour de me
 | **Échec du DNS** | Rebond temporaire | 21 | La diffusion du message a fait l’objet d’un échec DNS temporaire. Il peut réussir lors de prochaines reprises. |
 | **Boîte pleine** | Rebond temporaire | 22 | La diffusion du message a temporairement échoué, car la boîte de réception de la personne destinataire était pleine. |
 | **Trop grande** | Ignoré | 23 | La diffusion du message a temporairement échoué, car la taille du message a dépassé la limite de la personne destinataire. |
-| **Délai dépassé** | Ignoré | 24 | La diffusion du message a échoué, car la validité du message a expiré ou l’envoi du message au FAI a pris trop de temps. |
+| **Délai d’expiration** | Ignoré | 24 | La diffusion du message a échoué, car la validité du message a expiré ou l’envoi du message au FAI a pris trop de temps. |
 | **Échec de l’administration** | Administration | 25 | La diffusion a échoué en raison d’une configuration de politique dans l’infrastructure d’envoi d’e-mail. |
 | **Rebond générique : aucune personne destinataire** | Ignoré | 30 | Le message n’a pas pu être remis, car la personne destinataire n’a pas été identifiée. |
 | **Rebond générique** | Ignoré | 40 | La diffusion du message a temporairement échoué pour des raisons non spécifiées. |

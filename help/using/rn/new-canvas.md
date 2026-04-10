@@ -6,9 +6,8 @@ feature: Release Notes
 topic: Content Management
 description: Nouvelle interface de parcours
 hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 2%
@@ -51,7 +50,7 @@ Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateu
 
 ## Amélioration de la conception de la zone de travail de parcours
 
-Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **&#x200B;**&#x200B;nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
+Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **** nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
 
 ![](assets/new-canvas3.gif)
 
