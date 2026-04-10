@@ -63,11 +63,11 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Mise à jour de la documentation sur le **tracking des URL** et la **résolution des problèmes de Parcours** afin de documenter le comportement des `context.system.source.actionId` dans les parcours fermés. Les parcours fermés ou non republiés peuvent produire des espaces réservés de `{}` vides dans les URL de tracking. Des conseils ont été ajoutés pour résoudre le problème en republiant le parcours ou en supprimant le paramètre affecté. [En savoir plus](../email/url-tracking.md)
 
-* Mise à jour de la documentation sur la source de données **** avec une note indiquant que seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Data Source. [En savoir plus](../datasource/adobe-experience-platform-data-source.md)
+* Mise à jour de la documentation sur la source de données **&#x200B;**&#x200B;avec une note indiquant que seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Data Source. [En savoir plus](../datasource/adobe-experience-platform-data-source.md)
 
 * La documentation **Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données** a été améliorée avec une nouvelle entrée de FAQ pour identifier clairement les jeux de données soumis à une durée de vie. La durée de vie s’applique exclusivement aux jeux de données de série temporelle : les jeux de données de type enregistrement tels que les jeux de données d’entité, les jeux de données de classification et les référentiels d’objets de décision ne sont pas soumis à la durée de vie et ne sont pas affectés par le déploiement du mécanisme de sécurisation. [En savoir plus](../data/datasets-ttl.md)
 
-* Les documents Propriétés du Parcours **** et **Mettre en pause un parcours** ont été mis à jour afin de documenter les nouveaux champs de pause et de reprise désormais disponibles dans les détails techniques du parcours. Le bouton **Copier les détails techniques** comprend désormais `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy` et `lastResumedById`, en plus du bloc de `pausedJourneySettings` existant. Une nouvelle section a également été ajoutée à la page **Mettre en pause un parcours** pour expliquer comment afficher les horodatages en pause et reprendre directement à partir des propriétés du parcours. [En savoir plus](../building-journeys/journey-properties.md)
+* Les documents Propriétés du Parcours **&#x200B;**&#x200B;et **Mettre en pause un parcours** ont été mis à jour afin de documenter les nouveaux champs de pause et de reprise désormais disponibles dans les détails techniques du parcours. Le bouton **Copier les détails techniques** comprend désormais `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy` et `lastResumedById`, en plus du bloc de `pausedJourneySettings` existant. Une nouvelle section a également été ajoutée à la page **Mettre en pause un parcours** pour expliquer comment afficher les horodatages en pause et reprendre directement à partir des propriétés du parcours. [En savoir plus](../building-journeys/journey-properties.md)
 
 ## Février 2026 {#february-2026}
 
@@ -398,7 +398,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
