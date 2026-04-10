@@ -14,11 +14,11 @@ sur une application, un appareil ou un canal.
 
 Rubriques :
 
-* Prise en main
+* Commencer
 * Messages
 * Segments
 * Parcours
-* Reporting
+* Création de rapports
 * Offer Decisioning/Gestion des décisions
 * Instructions de configuration
-* Contrôle d&#39;accès
+* Contrôle d’accès
