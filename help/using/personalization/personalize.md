@@ -53,7 +53,7 @@ Ce terrain de jeu fournit un environnement simulé pour écrire et tester du cod
 
 ## Assistant AI dans l’éditeur Personalization {#ai-personalization-expressions}
 
-Dans l’éditeur ****, l’assistant **[!UICONTROL AI]** vous aide à générer de nouvelles expressions à partir du langage naturel, à expliquer ce que fait le code existant et à résoudre les problèmes d’une sélection, puis à appliquer la sortie lorsqu’elle correspond à votre intention.
+Dans l’éditeur **&#x200B;**, l’assistant **[!UICONTROL AI]** vous aide à générer de nouvelles expressions à partir du langage naturel, à expliquer ce que fait le code existant et à résoudre les problèmes d’une sélection, puis à appliquer la sortie lorsqu’elle correspond à votre intention.
 
 ![](../content-management/assets/ai-perso-generate.png)
 
