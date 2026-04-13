@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de l’expérience de contenu
+title: Commencer avec l’expérience de contenu
 description: En savoir plus sur l’expérience de contenu dans Journey Optimizer.
 feature: Experimentation
 topic: Content Management
@@ -10,7 +10,7 @@ level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 100%
 

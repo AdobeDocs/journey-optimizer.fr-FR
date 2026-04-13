@@ -39,7 +39,7 @@ Pour créer des vues dans l’interface utilisateur de [!DNL Journey Optimizer] 
 
 ## Découvrez les vues dans le concepteur web {#discover-views}
 
-Une fois la configuration des applications à une seule page effectuée dans l’implémentation du SDK web d’Adobe Experience Platform, vous devez parcourir toutes les vues de votre site Web auxquelles vous souhaitez appliquer des modifications. Suivez les étapes ci-dessous.
+Une fois la configuration des applications à une seule page effectuée dans l’implémentation du SDK web d’Adobe Experience Platform, vous devez parcourir toutes les vues de votre site Web auxquelles vous souhaitez appliquer des modifications. Suivez les étapes ci-après.
 
 1. [Créez un parcours web ou une campagne web](create-web.md) et accédez au [concepteur web](web-visual-editor.md).
 
@@ -57,7 +57,7 @@ Une fois la configuration des applications à une seule page effectuée dans l�
 
 ## Appliquer des modifications à d’autres vues {#apply-modifications-views}
 
-Une fois que vous avez ajouté une modification alors que vous vous trouvez dans une vue spécifique, vous pouvez l’appliquer à d’autres vues sélectionnées. Suivez les étapes ci-dessous.
+Une fois que vous avez ajouté une modification alors que vous vous trouvez dans une vue spécifique, vous pouvez l’appliquer à d’autres vues sélectionnées. Suivez les étapes ci-après.
 
 >[!CAUTION]
 >

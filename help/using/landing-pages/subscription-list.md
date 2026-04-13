@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création d’une liste dʼabonnements
+title: Créer une liste dʼabonnements
 description: Découvrez comment configurer une liste dʼabonnements dans Journey Optimizer
 feature: Subscriptions
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Listes des abonnements {#create-subscription-list}
+# Listes d’abonnements {#create-subscription-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
@@ -40,7 +40,7 @@ Les profils peuvent être ajoutés à une liste dʼabonnements au moyen dʼune [
 
 >[!NOTE]
 >
->Lorsque vous créez une liste d’abonnements, un segment de diffusion en continu associé est automatiquement généré dans Adobe Experience Platform. Pour que le segment de diffusion en continu soit créé avec succès, l’option **Active-On-Edge** doit être activée pour la politique de fusion. En savoir plus sur les critères d’éligibilité des segments de streaming dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Lorsque vous créez une liste d’abonnements, un segment de streaming associé est automatiquement généré dans Adobe Experience Platform. Pour que le segment de streaming soit correctement créé, l’option **Active-On-Edge** doit être activée pour la politique de fusion. Pour en savoir plus sur les critères d’éligibilité des segments de streaming, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Pour créer une liste dʼabonnements, procédez comme suit :
 
@@ -64,7 +64,7 @@ Pour créer une liste dʼabonnements, procédez comme suit :
 
    ![](assets/lp_subscription-list-dates.png)
 
-1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre page de destination en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags).
+1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre page de destination en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

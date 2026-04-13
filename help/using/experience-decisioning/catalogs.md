@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 68%
 >title="Accéder au schéma du catalogue et le modifier"
 >abstract="Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont créés dans le schéma de catalogue des éléments de décision."
 
-Dans la prise de décision, les catalogues servent de conteneurs centraux pour organiser les éléments de décision. Chaque catalogue est lié à un schéma de [!DNL Adobe Experience Platform], qui englobe tous les attributs assignables à un élément de décision.
+Dans la prise de décision, les catalogues servent de conteneurs centraux pour organiser les éléments de décision. Chaque catalogue est lié à un schéma [!DNL Adobe Experience Platform], englobant tous les attributs pouvant être affectés à un élément de décision.
 
 Pour l’instant, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres », accessible via le menu **[!UICONTROL Catalogues]**.
 
-![Liste du catalogue d&#39;articles affichant le catalogue d&#39;offres](assets/catalogs-list.png)
+![Liste du catalogue d’éléments affichant le catalogue d’offres](assets/catalogs-list.png)
 
 ## Mécanismes de sécurisation et limitations
 
@@ -56,13 +56,13 @@ Pour accéder au schéma du catalogue où les attributs des éléments de décis
 
    ![Structure d’un schéma de catalogue avec des nœuds d’expérience et d’organisation](assets/catalogs-schema.png)
 
-1. Pour ajouter un attribut personnalisé au schéma, développez le nœud de votre organisation (par exemple, **`_luma`**) et cliquez sur le bouton « + » à l’emplacement souhaité dans la structure.
+1. Pour ajouter un attribut personnalisé au schéma, développez le nœud de votre organisation, par exemple, **`_luma`**, et cliquez sur le bouton « + » à l’emplacement souhaité dans la structure.
 
-   ![Ajout d’un bouton d’attribut personnalisé dans l’éditeur de schéma](assets/catalogs-add.png)
+   ![Ajouter un bouton d’attribut personnalisé dans l’éditeur de schéma](assets/catalogs-add.png)
 
 1. Renseignez les champs nécessaires pour l’attribut ajouté et cliquez sur **[!UICONTROL Appliquer]**.
 
-   La valeur qui est saisie sur un attribut avec un attribut de ressource de prise de décision est une URL publique. La plupart du temps, cela pointe vers une image. Vous trouverez des informations détaillées sur l’utilisation des schémas [!DNL Adobe Experience Platform] dans la documentation du système [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr).
+   La valeur saisie sur un attribut avec l’attribut de ressource de prise de décision est une URL publique. La plupart du temps, cela pointe vers une image. Vous trouverez des informations détaillées sur l’utilisation des schémas [!DNL Adobe Experience Platform] dans la [Documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr).
 
 1. Une fois les attributs personnalisés souhaités ajoutés, enregistrez le schéma. Le nouveau champ est désormais disponible dans l’écran de création des éléments de décision, dans la section **[!UICONTROL Attributs personnalisés]**.
 

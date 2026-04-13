@@ -10,7 +10,7 @@ level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -20,16 +20,16 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
->title="Concevoir des e-mails"
+>title="Conception d&#39;e-mails"
 >abstract="Utilisez **Adobe Journey Optimizer** pour envoyer des e-mails à vos clientes et clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail."
 
 Utilisez [!DNL Journey Optimizer] pour envoyer des e-mails à vos client(e)s. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail.
 
 Les diffusions d’e-mail peuvent être créées :
 
-* Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du message. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
+* Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du message. [Découvrir comment créer un parcours](../building-journeys/journey-gs.md)
 
-* Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base. Découvrez comment créer [une campagne d’action](../campaigns/campaign-action.md#action-campaign-action), [une campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou [une campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
+* Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base. Découvrez comment créer une [campagne d’action](../campaigns/campaign-action.md#action-campaign-action), une [campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
 
 
 >[!IMPORTANT]
@@ -76,7 +76,7 @@ Les diffusions d’e-mail peuvent être créées :
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="../content-management/generative-full-content.md">
-<img alt="Assistant IA" src="../assets/do-not-localize/email-generate.jpg">
+<img alt="Assistant IA" src="../assets/do-not-localize/email-generate.jpg">
 </a>
 <div><a href="../content-management/generative-full-content.md"><strong>Assistant IA pour la génération de contenu</strong>
 </div>

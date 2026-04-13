@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Vous pouvez ajouter autant de composants de contenu que nécessaire dans un ou p
 
 >[!NOTE]
 >
->La [directive européenne sur l’accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Suivez les instructions spécifiques répertoriées sur [cette page](accessible-content.md) lorsque vous utilisez des composants de contenu pour concevoir des e-mails dans [!DNL Journey Optimizer], par exemple en utilisant des polices accessibles, des formats lisibles et en fournissant un texte secondaire pour les images.
+>La [loi européenne sur l’accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stipule que toutes les communications numériques doivent être accessibles. Suivez les instructions spécifiques répertoriées sur [cette page](accessible-content.md) lorsque vous utilisez des composants de contenu pour concevoir des e-mails dans [!DNL Journey Optimizer], par exemple en utilisant des polices accessibles, des formats lisibles et en fournissant un texte secondaire pour les images.
 
 ## Ajouter des composants de contenu {#add-content-components}
 
@@ -188,7 +188,7 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
    ![](assets/email_designer_10.png)
 
-1. Vous pouvez également choisir **[!UICONTROL Trouver des photos Stock similaires]**. [En savoir plus](../integrations/stock.md).
+1. Vous pouvez également choisir **[!UICONTROL Trouver des photos Stock similaires]**. [En savoir plus](../integrations/stock.md)
 
 1. Dans l’onglet **[!UICONTROL Styles]**, ajustez les autres attributs de style, tels que la marge, la bordure, etc. ou ajoutez un lien pour rediriger votre audience vers un autre contenu à partir du volet **[!UICONTROL Paramètres des composants]**.
 

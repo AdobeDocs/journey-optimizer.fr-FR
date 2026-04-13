@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 keywords: code, HTML, éditeur
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 67%
+source-wordcount: '492'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,7 @@ Vous devez posséder des compétences HTML et, une fois ce mode sélectionné, v
 
 >[!NOTE]
 >
->**[!UICONTROL Coder le vôtre]** n’est pas identique à l’éditeur HTML avancé dans les modèles de contenu. L’éditeur de code HTML avancé vous permet de basculer entre la vue HTML et la vue visuelle (bureau) à tout moment, et non l’éditeur de code. [En savoir plus sur l’éditeur HTML avancé](../content-management/email-template-expert-mode.md).
+>Le **[!UICONTROL coder le vôtre]** n’est pas identique à l’éditeur HTML avancé dans le Designer d’e-mail. L’éditeur de code HTML avancé vous permet de basculer entre la vue HTML et la vue visuelle (bureau) à tout moment, et non l’éditeur de code. [En savoir plus sur l’éditeur HTML avancé](email-expert-mode.md).
 
 ## Utiliser l’éditeur de code {#use-code-editor}
 
@@ -64,7 +64,7 @@ Pour créer ou modifier du contenu d’e-mail à l’aide de l’éditeur de cod
 
 >[!CAUTION]
 >
->Les images provenant de [Adobe Experience Manager Assets](../integrations/assets.md) ne peuvent pas être référencées lors de l&#39;utilisation de la méthode Coder votre propre contenu. Stockez les images référencées dans votre code HTML dans un emplacement public.
+>Les images provenant de [&#128279;](../integrations/assets.md) ne peuvent pas être référencées lors de l&#39;utilisation de la méthode Coder votre propre contenu. Stockez les images référencées dans votre code HTML dans un emplacement public.
 
 ## Limitations des fonctions de date/heure {#date-time-limitations}
 

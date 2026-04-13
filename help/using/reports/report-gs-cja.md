@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Expérience de création de rapports mise à jour
-description: Prise en main du rapport complet
+description: Commencer avec le rapport complet
 feature: Reporting
 topic: Content Management
 role: User
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Prise en main du rapport complet {#channel-report-gs-cja}
+# Commencer avec le rapport complet {#channel-report-gs-cja}
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_enable_cja"
@@ -47,7 +47,7 @@ L’accès à ces fonctionnalités de création de rapports dépend du contexte 
 >
 >Le fuseau UTC est actuellement la norme pour les rapports dans Adobe Journey Optimizer. La possibilité de personnaliser le fuseau horaire des rapports sera disponible dans une prochaine version.
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
 * Si vous ne disposez **pas** de Customer Journey Analytics, ou si vous en disposez mais que vous n’avez **pas** accès à un profil de produit de Customer Journey Analytics, les autorisations sont gérées dans Journey Optimizer. Dans ce cas, vous aurez besoin de l’autorisation **[!UICONTROL Afficher les rapports de canaux]** ou des rôles associés. [En savoir plus](../administration/permissions.md)
 

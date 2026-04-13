@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Création de collections
+title: Créer des collections
 description: Découvrez comment organiser des offres à l’aide de collections.
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Collections

@@ -134,7 +134,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Une fois le format modifié, vous pouvez l’enregistrer en tant que nouvelle image sous un autre nom. Saisissez un **[!UICONTROL Nom]** puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Une fois le format modifié, vous pouvez l’enregistrer en tant que nouvelle image sous un autre nom. Mettez à jour le champ **[!UICONTROL Nom]**, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/express-convert-3.png)
 

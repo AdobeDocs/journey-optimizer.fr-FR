@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Prise en main des modèles d’IA
+title: Commencer avec les modèles d’IA
 description: En savoir plus sur les modèles d’IA qui permettent de classer les offres
 badge: label="Hérité" type="Informative"
 feature: Ranking, Decision Management
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ---
 
-# Prise en main des modèles d’IA {#ai-models}
+# Commencer avec les modèles d’IA {#ai-models}
 
 >[!TIP]
 >
@@ -47,7 +47,7 @@ Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer] :
 
 * Les **modèles d’optimisation automatique** visent à proposer des offres qui optimisent le retour (KPI) défini par les clients commerciaux. Ces KPI peuvent prendre la forme de taux de conversion, de chiffres dʼaffaires, etc. À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme cible la conversion de lʼoffre. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances « globales » des offres. [En savoir plus](auto-optimization-model.md)
 
-* **Les modèles d’optimisation personnalisés** vous permettent de définir des objectifs métier et d’utiliser les données client pour entraîner des modèles orientés métier afin de diffuser des offres personnalisées et d’optimiser les KPI. [En savoir plus](personalized-optimization-model.md).
+* **Les modèles d’optimisation personnalisés** vous permettent de définir des objectifs métier et d’utiliser les données client pour entraîner des modèles orientés métier afin de diffuser des offres personnalisées et d’optimiser les KPI. [En savoir plus](personalized-optimization-model.md)
 
 ## Créer un modèle d’IA {#create-ai-model}
 

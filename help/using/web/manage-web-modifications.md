@@ -58,7 +58,7 @@ Vous pouvez facilement gérer tous les composants, réglages et styles que vous 
 
 ## Ajouter des modifications à partir du volet dédié {#add-modifications}
 
-Lors de la modification d’une page à l’aide du concepteur web, vous pouvez ajouter de nouvelles modifications à votre contenu directement à partir du volet **[!UICONTROL Modifications]**, sans avoir à sélectionner un composant et à le modifier dans l’interface du concepteur web. Suivez les étapes ci-dessous.
+Lors de la modification d’une page à l’aide du concepteur web, vous pouvez ajouter de nouvelles modifications à votre contenu directement à partir du volet **[!UICONTROL Modifications]**, sans avoir à sélectionner un composant et à le modifier dans l’interface du concepteur web. Suivez les étapes ci-après.
 
 1. Dans le volet **[!UICONTROL Modifications]**, cliquez sur le bouton **[!UICONTROL Plus d’actions]**.
 

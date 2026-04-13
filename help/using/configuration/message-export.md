@@ -90,7 +90,7 @@ Une fois que vous avez envoyé des messages par le biais de campagnes ou de parc
 
 ## Accès aux données de message exportées {#access-exported-data}
 
-Une fois les messages envoyés à l’aide d’une configuration de canal avec l’exportation de messages activée, vous pouvez accéder aux données exportées et les consulter dans le **Jeu de données d’exportation de messages AJO**.
+Une fois les messages envoyés à l’aide d’une configuration de canal avec l’exportation de messages activée, vous pouvez accéder aux données exportées et les consulter dans le **Jeu de données d’exportation de messages**.
 
 Pour afficher les données de message exportées :
 
@@ -98,7 +98,7 @@ Pour afficher les données de message exportées :
 
 1. Assurez-vous d’afficher les jeux de données générés par le système.
 
-1. Sélectionnez le **Jeu de données d’exportation de messages AJO** dans la liste.
+1. Sélectionnez le **Jeu de données d’exportation de messages** dans la liste.
 
    ![](assets/datasets-list.png)
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: actions, parcours, messages, envoi, connexions
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -58,5 +58,5 @@ Parcourez les sections ci-dessous pour en savoir plus sur la configuration et l�
 * [Configurer vos actions personnalisées](../action/about-custom-action-configuration.md) : découvrez comment créer et configurer une action personnalisée.
 * [Utiliser des actions personnalisées](../building-journeys/using-custom-actions.md) : découvrez comment utiliser des actions personnalisées dans vos parcours.
 * [Transmettre des collections dans des paramètres d’action personnalisés](../building-journeys/collections.md) : découvrez comment transmettre une collection dans des paramètres d’action personnalisés qui est renseignée dynamiquement au moment de l’exécution.
-* [Résolution des problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) : découvrez comment résoudre les problèmes liés à une action personnalisée.
+* [Dépanner une action personnalisée](../action/troubleshoot-custom-action.md) : découvrez comment dépanner une action personnalisée.
 

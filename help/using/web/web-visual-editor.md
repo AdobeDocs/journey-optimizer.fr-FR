@@ -29,7 +29,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="Learn more"
 -->
 
-Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome **Adobe Experience Cloud Visual Helper**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites).
+Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome **Adobe Experience Cloud Visual Helper**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
@@ -113,7 +113,7 @@ Une fois que vous avez modifié le contenu web, vous pouvez gérer vos modificat
 
 ## Ajouter une personnalisation
 
-Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Apportez vos modifications à l’aide de l’éditeur de personnalisation. [En savoir plus](../personalization/personalization-build-expressions.md).
+Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Apportez vos modifications à l’aide de l’éditeur de personnalisation. [En savoir plus](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 

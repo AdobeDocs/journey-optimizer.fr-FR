@@ -5,9 +5,8 @@ title: Notes de mise à jour préliminaires pour Journey Optimizer
 description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 100%

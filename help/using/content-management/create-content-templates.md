@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -26,9 +26,9 @@ Il est possible de créer des modèles de contenu de deux façons différentes 
 
 * Créez un modèle de contenu à partir de zéro à l’aide du menu **[!UICONTROL Modèles de contenu]** du rail de gauche. [Voici comment procéder](#create-template-from-scratch)
 
-* Lors de la conception de votre contenu dans une campagne ou un parcours, enregistrez-le en tant que modèle. [Voici comment procéder.](#save-as-template)
+* Lors de la conception de votre contenu dans une campagne ou un parcours, enregistrez-le en tant que modèle. [Voici comment procéder](#save-as-template)
 
-Une fois enregistré, votre modèle de contenu peut être utilisé dans une campagne ou un parcours. Qu’il soit créé en partant de zéro ou à partir d’un contenu existant, vous pouvez maintenant utiliser ce modèle lors de la création d’un contenu dans [!DNL Journey Optimizer]. [Voici comment procéder.](#use-content-templates)
+Une fois enregistré, votre modèle de contenu peut être utilisé dans une campagne ou un parcours. Qu’il soit créé en partant de zéro ou à partir d’un contenu existant, vous pouvez maintenant utiliser ce modèle lors de la création d’un contenu dans [!DNL Journey Optimizer]. [Voici comment procéder](#use-content-templates)
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
 1. Cliquez sur **[!UICONTROL Créer]** et concevez votre contenu selon vos besoins, de la même manière que tout autre contenu dans un parcours ou une campagne, selon le canal que vous avez sélectionné.
 
@@ -77,7 +77,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
      >
      >Vous pouvez ajouter des politiques de décision aux modèles de contenu d’expérience basée sur du code. [En savoir plus](../experience-decisioning/create-decision.md#create-decision)
 
-1. Vous pouvez tester votre contenu. [Voici comment procéder.](#test-template)
+1. Vous pouvez tester votre contenu. [Voici comment procéder](#test-template)
 
 1. Une fois votre modèle prêt, cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -113,13 +113,13 @@ Lors de la conception d’un contenu dans une campagne ou un parcours, vous pouv
    >
    >Le canal actuel est automatiquement renseigné et ne peut pas être modifié.
 
-1. Sélectionnez ou créez une balise Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle. [En savoir plus](../start/search-filter-categorize.md#tags).
+1. Sélectionnez ou créez une balise Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle. [En savoir plus](../start/search-filter-categorize.md#tags)
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Le modèle est enregistré dans la liste **[!UICONTROL Modèles de contenu]**, accessible à partir du menu dédié [!DNL Journey Optimizer]. Il devient alors un modèle de contenu autonome accessible pouvant être édité et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates).
+1. Le modèle est enregistré dans la liste **[!UICONTROL Modèles de contenu]**, accessible à partir du menu dédié [!DNL Journey Optimizer]. Il devient alors un modèle de contenu autonome accessible pouvant être édité et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates)
 
 Vous pouvez désormais utiliser ce modèle lors de la création de contenu dans [!DNL Journey Optimizer]. [Voici comment procéder](#use-content-templates)
 

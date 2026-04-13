@@ -9,7 +9,7 @@ level: Experienced
 keywords: destination, page de destination, sous-domaines, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -151,4 +151,4 @@ Si vous souhaitez annuler la délégation d’un sous-domaine de page de destina
 
 1. Contactez votre représentant ou représentante Adobe en indiquant le sous-domaine pour lequel vous souhaitez annuler la délégation.
 
-Une fois votre demande traitée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.
+Une fois que votre demande est gérée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.

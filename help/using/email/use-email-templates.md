@@ -10,7 +10,7 @@ level: Beginner
 keywords: e-mail, modèles, conception
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -33,9 +33,9 @@ Vous pouvez choisir parmi les options suivantes :
 
 * **Modèles enregistrés**. Vous pouvez également utiliser un modèle personnalisé que :
 
-   * vous avez créé à l’aide du menu **[!UICONTROL Modèles de contenu]** ; [En savoir plus](../content-management/content-templates.md#content-templates).
+   * vous avez créé à l’aide du menu **[!UICONTROL Modèles de contenu]** ; [En savoir plus](../content-management/content-templates.md#content-templates)
 
-   * vous avez enregistré dans un email dans un parcours ou une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle de contenu]**. [En savoir plus](../content-management/content-templates.md#video-templates).
+   * vous avez enregistré dans un email dans un parcours ou une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle de contenu]**. [En savoir plus](../content-management/content-templates.md#video-templates)
 
 Pour commencer à créer votre contenu avec l’un des exemples ou des modèles enregistrés, procédez comme suit.
 

@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 83%
+source-wordcount: '1777'
+ht-degree: 82%
 
 ---
 
@@ -175,6 +175,7 @@ Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieu
 * **Génération de texte** : créez des contenus attrayants en accord avec le ton et les objectifs de votre marque. [Génération de texte avec l’IA](../content-management/generative-text.md)
 * **Génération d’images** : générez des images personnalisées à l’aide d’Adobe Firefly. [Génération d’images avec l’IA](../content-management/generative-image.md)
 * **Variantes de contenu** : produisez plusieurs variantes pour les tests A/B. [Expérience de contenu avec l’IA](../content-management/generative-experimentation.md)
+* **&#x200B;**&#x200B;- Dans l’éditeur Personalization, générez de nouvelles expressions, expliquez le code existant ou corrigez les problèmes avec l’assistant AI. [Assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
 * **Alignement sur la marque** : assurez-vous que le contenu généré correspond aux consignes de votre marque. [Évaluation de l’alignement sur la marque](../content-management/brands-score.md)
 * **Prise en charge des modèles** : utilisez vos modèles d’e-mail existants. [Utiliser des modèles de contenu](../content-management/content-templates.md)
 

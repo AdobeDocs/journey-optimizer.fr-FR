@@ -6,11 +6,10 @@ topic: Integrations
 role: User, Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
 
@@ -48,7 +47,7 @@ Les **e-mails** créés par [!DNL Journey Optimizer] effectuent **automatiquemen
 
 Cependant, pour la **plupart des canaux**, les données relatives aux impressions et aux clics doivent être transmises à Adobe Experience Platform en tant qu’**événement d’expérience**. Cela inclut :
 
-* Les pages web utilisant le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com//docs/experience-platform/edge/home.html?lang=fr){target="_blank"} pour afficher les offres
+* Les pages web utilisant le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/home){target="_blank"} pour afficher les offres
 
 * Les applications mobiles utilisant le [SDK mobile Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"} pour afficher les offres - [En savoir plus](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * les kiosques,
