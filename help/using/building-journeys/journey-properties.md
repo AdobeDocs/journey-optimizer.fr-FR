@@ -10,14 +10,16 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
+source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
 workflow-type: tm+mt
-source-wordcount: '3257'
-ht-degree: 81%
+source-wordcount: '3380'
+ht-degree: 76%
 
 ---
 
 # Définir les propriétés de votre parcours {#jo-properties}
+
+Utilisez les propriétés du parcours pour configurer les paramètres globaux de votre parcours, notamment son nom, les règles d’entrée, son fuseau horaire, ses dates de début et de fin, sa durée de temporisation, ses critères de sortie et la gestion des conflits. Les propriétés sont accessibles à partir du rail de droite à n’importe quelle étape de la création de parcours.
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
@@ -150,7 +152,7 @@ Les valeurs recommandées sont comprises entre 1 et 30 secondes.
 
 Nous vous recommandons de définir une valeur très basse pour **[!UICONTROL Temporisation ou erreur]** si votre parcours est sensible au temps (c’est le cas, par exemple, lorsqu’il convient de réagir à l’emplacement d’une personne en temps réel), car l’action ne peut pas être différée de plus de quelques secondes. Si le facteur temps revêt une importance moindre, vous pouvez définir un délai plus long afin d’accorder davantage de temps au système appelé pour envoyer une réponse valide.
 
-Les parcours utilisent également une temporisation globale comme décrit ci-dessous.
+Parcours utilise également un délai d’expiration global, comme décrit ci-dessous.
 
 ### Temporisation de parcours globale {#global_timeout}
 
@@ -166,7 +168,7 @@ Compte tenu de la temporisation de 91 jours du parcours, lorsque la rentrée de
 
 Une personne ne peut entrer dans une activité d’attente que si elle dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 91 jours du parcours. Consultez [cette page](../building-journeys/wait-activity.md).
 
-#### Questions fréquentes sur la durée de vie (TTL) et la rétention des données {#timeout-faq}
+### FAQ sur la durée de vie (TTL) et la conservation des données {#timeout-faq}
 
 Depuis [!DNL Adobe Journey Optimizer] version de juin 2024, le délai d’expiration global par parcours est passé de 30 à 91 jours. Les éléments affectés sont répertoriés dans les questions fréquentes ci-dessous :
 
@@ -263,7 +265,7 @@ Depuis [!DNL Adobe Journey Optimizer] version de juin 2024, le délai d’expira
       <p>Qu’advient-il d’un profil en cours d’exécution dans une version de parcours précédente qui est republiée après le lancement de l’extension de la durée de vie ?</p>
     </td>
     <td>
-      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour HIPAA), alignée sur l’heure de publication originale du parcours. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour la loi HIPAA), alignée sur l’heure de publication de la version originale du parcours. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -297,7 +299,7 @@ Depuis [!DNL Adobe Journey Optimizer] version de juin 2024, le délai d’expira
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="Politique de fusion"
->abstract="La politique de fusion est automatiquement récupérée en fonction de l’événement ou de l’audience sélectionné. Cette politique de fusion est utilisée dans par l’intermédiaire du parcours entier."
+>abstract="La politique de fusion est automatiquement récupérée en fonction de l’événement ou de l’audience sélectionné. Cette politique de fusion est utilisée dans l’ensemble du parcours."
 
 [!DNL Adobe Journey Optimizer] utilise des politiques de fusion lors de la récupération des données de profil de [!DNL Adobe Experience Platform]. Selon le type de parcours, différentes politiques de fusion sont utilisées :
 
@@ -322,7 +324,7 @@ Pour en savoir plus sur les politiques de fusion, consultez la [[!DNL Adobe Expe
 
 ### Critères de sortie de parcours {#exit-criteria-desc}
 
-En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela évite à l’utilisateur ou à l’utilisatrice de recevoir d’autres communications du parcours.
+En ajoutant des critères de sortie, vous faites en sorte que les profils quittent le parcours dès qu’un événement se produit (par exemple, un achat) ou qu’ils remplissent les critères pour une audience. Cela évite à l’utilisateur ou à l’utilisatrice de recevoir d’autres communications du parcours.
 
 Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent plus l’objectif du parcours. Pour ce faire, utilisez les **critères de sortie globale**, qui sont étroitement associés à la gestion des objectifs.
 
@@ -334,7 +336,7 @@ Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent pl
 
 Une personne spécialiste du marketing dispose d’un parcours promotionnel avec une série de communications. Chacune de ces communications a pour but d’inciter le client ou la cliente à effectuer un achat. Dès que l’achat est effectué, le client ou la cliente ne doit pas recevoir le reste des messages de la série. En définissant un critère de sortie, tous les profils ayant effectué un achat sont supprimés du parcours.
 
-#### Configuration et utilisation {#exit-criteria-config}
+### Configuration et utilisation {#exit-criteria-config}
 
 Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Lorsque plusieurs critères de sortie sont définis, l’évaluation se fait de haut en bas avec une logique `OR`. Ainsi, si vous disposez des critères de sortie A et B, ils seront évalués en tant que A **OU** B. Les critères sont évalués à chaque étape du parcours.
 
@@ -351,7 +353,7 @@ Pour **créer** un critère de sortie, procédez comme suit :
    * Pour les critères de sortie basés sur un événement, comme le téléchargement d’une application ou l’ajout d’un produit à un panier, sélectionnez uniquement un événement unitaire.
    * Pour les critères de sortie en fonction d’une audience, par exemple une audience qui vérifie si un client ou une cliente a effectué un achat au cours des dernières 24 heures, sélectionnez une audience. Note : pour être efficaces, les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes.
 
-Vous pouvez ajouter plusieurs critères de sortie.
+Vous pouvez ajouter plusieurs critères de sortie. Le critère de sortie est désormais actif et sera évalué à chaque étape du parcours.
 
 ![Panneau Critères de sortie affichant les conditions d’audience pour la fin du parcours](assets/exitcriteria-sample.png){width="40%" align="left"}
 
@@ -393,7 +395,7 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
-* [Comment se terminent les parcours &#x200B;](end-journey.md) : comprenez la fin naturelle des parcours.
+* [Comment se terminent les parcours ](end-journey.md) : comprenez la fin naturelle des parcours.
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) : utilisez des critères de sortie lors de la mise en pause des parcours.
 
 ## Planning du parcours {#schedule}
@@ -402,7 +404,7 @@ La section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activi
 
 >[!TIP]
 >
->Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours &#x200B;](send-using-waves.md)
+>Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours ](send-using-waves.md)
 
 
 ## Gestion des conflits {#conflict}
@@ -413,6 +415,15 @@ La section **[!UICONTROL Gestion des conflits]** dans les propriétés du parcou
 
 * Attribuez un **score de priorité** au parcours, allant de 0 à 100. Un nombre plus élevé indique une priorité plus élevée. La valeur de priorité insérée ici est héritée par toute action entrante (in-app, par exemple) contenue dans ce parcours. [Découvrir comment utiliser les scores de priorité](../conflict-prioritization/priority-scores.md)
 
-  Dans les cas où cette même configuration de canal entrant est utilisée dans d’autres campagnes ou parcours, l’action entrante ayant le score de priorité le plus élevé est présentée aux destinataires. Si plusieurs parcours ou campagnes ont le même score, l’élément qui a été modifié le plus récemment est sélectionné.
+  Dans les cas où cette même configuration de canal entrant est utilisée dans d’autres campagnes ou parcours, l’action entrante ayant le score de priorité le plus élevé est présentée aux destinataires. Si plusieurs parcours ou campagnes ont le même score, l’élément qui a été modifié le plus récemment est choisi.
 
 * **Affichez les conflits** avec d’autres configuration de parcours, de campagnes, ou de canaux. Si vous souhaitez identifier un chevauchement concernant l’audience, la date de début et de fin, la configuration des canaux, le canal ou le jeu de règles, vous pouvez afficher les conflits potentiels ici. [Découvrir comment identifier les conflits potentiels dans un parcours](../conflict-prioritization/conflicts.md)
+
+## Rubriques connexes {#related-topics}
+
+* [Gestion de l’entrée des profils](entry-management.md) - Configurer la manière dont les profils entrent et rentrent dans les parcours
+* [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
+* [Fin des parcours ](end-journey.md) - Comprendre la fin naturelle du parcours et la sortie du profil
+* [Suspendre un parcours ](journey-pause.md) - Suspendre et reprendre les parcours avec les critères de sortie d’attribut de profil
+* [Gestion des fuseaux horaires](timezone-management.md) - Configuration des fuseaux horaires de parcours et de profil
+* [Gestion et hiérarchisation des conflits](../conflict-prioritization/conflicts.md) - Identifiez et résolvez les conflits entre les parcours et les campagnes
