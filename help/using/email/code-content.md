@@ -64,7 +64,7 @@ Pour créer ou modifier du contenu d’e-mail à l’aide de l’éditeur de cod
 
 >[!CAUTION]
 >
->Les images provenant de [](../integrations/assets.md) ne peuvent pas être référencées lors de l&#39;utilisation de la méthode Coder votre propre contenu. Stockez les images référencées dans votre code HTML dans un emplacement public.
+>Les images provenant de [&#128279;](../integrations/assets.md) ne peuvent pas être référencées lors de l&#39;utilisation de la méthode Coder votre propre contenu. Stockez les images référencées dans votre code HTML dans un emplacement public.
 
 ## Limitations des fonctions de date/heure {#date-time-limitations}
 

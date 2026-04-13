@@ -49,7 +49,7 @@ Pour ouvrir l’éditeur HTML avancé et modifier votre source HTML, procédez c
 
 1. Ouvrez l’e-mail ou le modèle que vous souhaitez modifier dans le Designer d’e-mail, par exemple [créez ou modifiez un e-mail](create-email.md) à partir d’un parcours ou d’une campagne, ou ouvrez un [modèle de contenu d’e-mail](../content-management/create-content-templates.md) et modifiez son corps dans le [Designer d’e-mail](get-started-email-design.md).
 
-1. Cliquez sur le bouton **** dans le coin supérieur droit de l’écran.
+1. Cliquez sur le bouton **&#x200B;**&#x200B;dans le coin supérieur droit de l’écran.
 
    ![Emplacement du bouton HTML dans la barre d’outils Designer d’email](assets/email-template-expert-mode-button.png)
 
