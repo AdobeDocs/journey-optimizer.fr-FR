@@ -5,10 +5,10 @@ title: Utiliser l’activité Enregistrer l’audience
 description: Découvrez comment utiliser l’activité Enregistrer l’audience dans une campagne orchestrée
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 93%
+source-wordcount: '596'
+ht-degree: 87%
 
 ---
 
@@ -54,6 +54,10 @@ Pour configurer l’activité **[!UICONTROL Enregistrer l’audience]**, procéd
 1. Finalisez votre configuration en enregistrant et en publiant la campagne orchestrée. Cette opération génère et stocke votre audience.
 
 1. Publiez la campagne pour l’audience à créer ou à remplacer, car l’activité **[!UICONTROL Enregistrer l’audience]** ne s’exécute pas lorsque la campagne est en **[!UICONTROL mode Brouillon]**.
+
+>[!NOTE]
+>
+>Au moment de la publication, les activités **[!UICONTROL Enregistrer l’audience]** s’exécutent toujours avant toute activité de message dans le workflow. Le shell d’audience est créé et les profils commencent à ingérer des audiences dans le portail d’audience avant que toute activité de canal ne commence à traiter. [En savoir plus sur la séquence d’exécution au moment de la publication](../start-monitor-campaigns.md#publication-sequence)
 
 Le contenu de l’audience enregistrée est ensuite disponible dans la vue détaillée de l’audience, accessible depuis le menu **[!UICONTROL Audiences]**, ou sélectionnable lors du ciblage d’une audience, par exemple avec une activité **[!UICONTROL Lecture d’audience]**.
 
