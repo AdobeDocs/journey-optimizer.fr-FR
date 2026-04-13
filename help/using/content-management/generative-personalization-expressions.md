@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '806'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ Dans l’éditeur , l’assistant [!UICONTROL AI] vous aide à générer une nou
 * Pour plus d’informations sur la personnalisation dans [!DNL Journey Optimizer], voir [Prise en main de la personnalisation](../personalization/personalize.md).
 * Pour obtenir des idées rapides, voir [Bonnes pratiques d’invite d’IA](ai-assistant-prompting-guide.md).
 
-Vous utilisez l’[!UICONTROL assistant AI] dans l’éditeur [!UICONTROL Personalization] partout où cet éditeur est disponible, par exemple dans l’objet, le corps et d’autres champs qui l’ouvrent. Pour savoir où et comment ouvrir l’éditeur, voir [&#x200B; Ajouter une personnalisation &#x200B;](../personalization/personalization-build-expressions.md#where).
+Vous utilisez l’[!UICONTROL assistant AI] dans l’éditeur [!UICONTROL Personalization] partout où cet éditeur est disponible, par exemple dans l’objet, le corps et d’autres champs qui l’ouvrent. Pour savoir où et comment ouvrir l’éditeur, voir [ Ajouter une personnalisation ](../personalization/personalization-build-expressions.md#where).
 
 Selon le contexte de votre campagne ou de votre parcours, l’assistant peut utiliser les données et construire les éléments déjà exposés par [!UICONTROL l’éditeur de Personalization] par exemple les attributs de profil, l’appartenance à un segment, les fonctions d’assistance et les sources de personnalisation associées.
 
@@ -44,7 +44,7 @@ Selon le contexte de votre campagne ou de votre parcours, l’assistant peut uti
 
 Ces étapes couvrent la génération à partir de zéro d’expressions de personnalisation. Pour utiliser du code déjà présent dans l’éditeur, voir [Modifier, corriger ou expliquer le code existant](#edit-existing).
 
-1. Dans votre message ou contenu, ouvrez l&#39;éditeur Personalization **&#x200B;**.
+1. Dans votre message ou contenu, ouvrez l&#39;éditeur Personalization ****.
 
 1. Placez le curseur dans l’éditeur à l’endroit où vous souhaitez insérer le code de personnalisation généré, puis cliquez sur le bouton **[!UICONTROL Assistant IA]**.
 
@@ -66,13 +66,17 @@ Ces étapes couvrent la génération à partir de zéro d’expressions de perso
 
 1. Après avoir généré une expression, cliquez sur **[!UICONTROL Afficher les aperçus pour les profils types]** pour voir comment l’expression est évaluée avec des données d’exemple et pour afficher la payload associée au format JSON. Pour ce contrôle, l’assistant génère un ensemble limité de profils types synthétiques ; ils ne sont ni enregistrés ni stockés dans votre organisation.
 
-   Si vous avez besoin d’autres profils types, saisissez **Aperçu** dans la discussion avec l’assistant afin qu’il puisse générer des profils d’aperçu supplémentaires.
+   Si vous avez besoin de profils types personnalisés ou supplémentaires, décrivez ce dont vous avez besoin lors de la discussion avec l’assistant et incluez le mot-clé **preview** dans votre invite afin qu’il puisse générer les profils de prévisualisation appropriés pour votre vérification.
 
    ![](assets/ai-perso-preview-button.png)
 
    +++Exemple de prévisualisation
 
    ![](assets/ai-perso-preview.png)
+
+   >[!NOTE]
+   >
+   >D’autres aperçus servent à la vérification par points. L’assistant est réglé de manière à générer environ un à cinq profils. Si vous demandez un nombre très élevé, la requête peut échouer.
 
    +++
 
