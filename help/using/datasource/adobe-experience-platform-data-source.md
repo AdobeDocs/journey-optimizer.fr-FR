@@ -49,7 +49,7 @@ Voici les étapes principales pour ajouter des groupes de champs à la source de
 
    >[!NOTE]
    >
-   >Seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Source de données [!DNL Journey Optimizer]. Pour plus d’informations, voir [Classe XDM Individual Profile](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+   >Seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Source de données [!DNL Journey Optimizer]. Pour plus d’informations, voir [Classe XDM Individual Profile](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
 
 1. Sélectionnez les champs à utiliser et enregistrez vos modifications.
 

@@ -94,7 +94,7 @@ Créez chaque phase sous la forme d’un parcours distinct dans Journey Optimize
 
 >[!TIP]
 >
->Pour une présentation détaillée de cette approche, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Pour une présentation détaillée de cette approche, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/fr/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Configuration de l’activité Saut {#jump-configure}
 
