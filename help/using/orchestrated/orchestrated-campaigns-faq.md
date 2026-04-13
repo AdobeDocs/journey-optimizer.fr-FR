@@ -5,10 +5,10 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ea7fdaf61a52f1dc65938e0aaa3ff6ca0be109a4
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 87%
+source-wordcount: '2493'
+ht-degree: 70%
 
 ---
 
@@ -153,6 +153,66 @@ Lorsque la campagne est en version **brouillon**, vous pouvez la tester en défi
 Oui, dans des situations particulières. L’option **[!UICONTROL Retour au brouillon]** est conçue comme un mécanisme de récupération permettant de dépublier et de rétablir un statut de brouillon pour une campagne.
 
 Cette option est disponible pour les campagnes planifiées en attente d’exécution ou pour les campagnes actives contenant des erreurs d’exécution. [Découvrez comment rétablir le brouillon d’une campagne active](start-monitor-campaigns.md#back-to-draft)
+
++++
+
++++ Que se passe-t-il en interne lorsque je publie une campagne orchestrée ?
+
+Lorsque vous cliquez sur **[!UICONTROL Publier]**, la séquence suivante se produit :
+
+1. **Activation du planificateur** — Si une planification est configurée, le planificateur se déclenche et déclenche l&#39;exécution à l&#39;heure définie.
+1. **Les activités Sauvegarde d’audience s’exécutent en premier** — Toutes les activités Sauvegarde d’audience s’exécutent avant les activités de message. Le shell d’audience est créé dans Audience Portal et les profils qualifiés commencent l’ingestion.
+1. **L&#39;exécution du message commence** — Les activités de canal commencent le traitement pour la première activité de message du workflow.
+1. **Recherche d’instantané de profil** — Les données de profil sont résolues par rapport à un instantané pris au moment de la publication, et non par rapport au profil en temps réel, ce qui garantit la cohérence de l’ensemble de l’exécution.
+1. **Évaluation du consentement** — Le consentement est directement respecté à partir de l’enregistrement du profil et n’est pas réévalué au moment de l’envoi.
+1. **Réconciliation des profils** — Les destinataires sont réconciliés avec les profils Adobe Experience Platform au moment de l&#39;envoi.
+1. **Création du log de diffusion** — Les événements de diffusion sont enregistrés dans le jeu de données `ajo_message_feedback_event`.
+
+**En savoir plus**
+
+* [Séquence d’exécution au moment de la publication](start-monitor-campaigns.md#publication-sequence)
+* [Démarrer et surveiller vos campagnes orchestrées](start-monitor-campaigns.md)
+
++++
+
++++ Pourquoi mes messages ne sont-ils pas envoyés après la publication de la campagne ?
+
+Plusieurs situations peuvent empêcher l&#39;envoi de messages après leur publication. Vérifiez les éléments suivants dans l’ordre :
+
+1. **Confirmation d’envoi en attente (la plus courante)** — Pour les campagnes non récurrentes, la diffusion des messages est suspendue par défaut jusqu’à ce que vous confirmiez explicitement l’envoi à partir du volet des propriétés de l’activité de canal. La campagne s’affiche comme **en direct** mais aucun message n’est envoyé tant qu’elle n’est pas confirmée. [En savoir plus](start-monitor-campaigns.md#confirm-sending)
+
+1. **La campagne est planifiée pour une heure ultérieure** — Si un planning est configuré, la campagne est Active mais l&#39;exécution n&#39;a pas encore commencé. Vérifiez les paramètres de planification et attendez l’heure de début configurée. [En savoir plus](create-orchestrated-campaign.md#schedule)
+
+1. **Les activités Sauvegarde d’audience sont toujours en cours d’ingestion** — Les activités Sauvegarde d’audience s’exécutent avant les activités de message au moment de la publication. Si l’ingestion de l’audience est toujours en cours, l’exécution du message n’a pas encore commencé. Surveillez les indicateurs de statut d’activité dans la zone de travail. [En savoir plus](start-monitor-campaigns.md#activities)
+
+1. **L’audience est vide** — La requête de ciblage n’a renvoyé aucun profil. Passez en revue vos règles de segmentation et validez le nombre de profils des audiences avant de le republier.
+
+1. **Tous les profils ont été désinscrits** — Le consentement est évalué au moment de l’envoi par rapport à chaque profil. Si tous les profils ciblés se sont désinscrits sur le canal approprié, aucun message n’est envoyé. [En savoir plus](../action/consent.md)
+
+1. **Activité du canal en état d’erreur** — Un indicateur de statut orange ou rouge sur l’activité du canal signale un problème de blocage. Ouvrez les **[!UICONTROL Journaux]** pour plus d’informations sur l’erreur et sur la manière de la résoudre. [En savoir plus](start-monitor-campaigns.md#logs-tasks)
+
+1. **Limitation de la diffusion par contrôle de débit** — Si le contrôle de débit est activé sur l&#39;activité de canal, la diffusion peut être plus lente que prévu. Vérifiez les paramètres de contrôle du débit dans le volet des propriétés de l’activité du canal. [En savoir plus](activities/channels.md#rate-control)
+
+**En savoir plus**
+
+* [Démarrer et surveiller vos campagnes orchestrées](start-monitor-campaigns.md)
+* [Ajouter une activité de canal dans une campagne orchestrée](activities/channels.md)
+
++++
+
++++ La publication utilise-t-elle le profil en temps réel ou un instantané ?
+
+Au moment de la publication, les données de profil sont résolues par rapport à un **instantané pris au moment de la publication** et non par rapport au profil en temps réel. Cela garantit la cohérence sur l’ensemble de l’exécution de la campagne : toutes les activités traitent le même état de profil, quelle que soit la durée d’exécution de la campagne.
+
+Toutefois, le consentement est toujours respecté à partir de l’enregistrement de profil actuel et n’est pas réévalué au moment de l’envoi.
+
+Notez que la segmentation dans les campagnes orchestrées est effectuée sur les destinataires (magasin relationnel), tandis que l’envoi des messages et les vérifications de consentement sont résolus par rapport au profil Adobe Experience Platform.
+
+**En savoir plus**
+
+* [Séquence d’exécution au moment de la publication](start-monitor-campaigns.md#publication-sequence)
+* [Quelle est la relation entre les entités Destinataire et Profil ?](#faq-oc)
+* [Utiliser les politiques de consentement](../action/consent.md)
 
 +++
 
