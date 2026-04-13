@@ -64,4 +64,4 @@ Sélectionnez la méthode d’optimisation qui correspond le mieux à votre cas 
 
 * Vous souhaitez tester et savoir quel chemin est le plus performant ? → Accéder à [Expérimentation de chemin](path-experimentation.md)
 * Vous souhaitez envoyer différentes audiences sur des chemins spécifiques ? → Accéder au [Ciblage des chemins](path-targeting.md)
-* Vous souhaitez créer une logique conditionnelle (scénarios if/then) ? → Accéder à [ Conditions ](conditions.md)
+* Vous souhaitez créer une logique conditionnelle (scénarios if/then) ? → Accéder à [&#x200B; Conditions &#x200B;](conditions.md)

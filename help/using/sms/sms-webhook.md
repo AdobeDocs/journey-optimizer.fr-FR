@@ -378,13 +378,13 @@ Pour les fournisseurs de SMS personnalisés, créez deux webhooks distincts : l�
    +++Exemple de payload
 
         « json 
-       {
+       &lbrace;
        « inboundMessage »: « {{inboundMessage}} »,
        « profileNumber »: « {{profileNumber}} »,
        « requestId »: « {{requestId}} »,
        « originTimestamp » : « {{originTimestamp}} »,
        « inboundNumber »: « {{inboundNumber}}« 
-       }
+       &rbrace;
        « 
    +++
 
@@ -417,15 +417,15 @@ Pour les fournisseurs de SMS personnalisés, créez deux webhooks distincts : l�
    +++Exemple de payload
 
         « json 
-       {
+       &lbrace;
        « clientReference »: « {{client_reference}} »,
-        « status » : [
-       {
+        « status » : &lbrack;
+       &lbrace;
        « code »: « {{failureCode}} »,
        « status »: « {{feedbackStatus}}« 
-       }
-       ]
-       }
+       &rbrace;
+       &rbrack;
+       &rbrace;
        « 
    
    +++
