@@ -72,7 +72,7 @@ Si vous avez ajouté des activités de canal dans la zone de travail, vous pouve
 >Avant de cliquer sur **[!UICONTROL Publier]**, confirmez ce qui suit :
 >* La campagne s’est exécutée correctement en mode test sans erreur dans les [logs](#logs-tasks).
 >* Le contenu du message a été prévisualisé à l’aide de l’option **[!UICONTROL Simuler du contenu]**.
->* Le [ planning est configuré ](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
+>* Le [&#x200B; planning est configuré &#x200B;](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
 >* Vous avez examiné le comportement [confirmation d’envoi](#confirm-sending) : pour les campagnes non récurrentes, aucun message n’est envoyé tant que vous n’avez pas explicitement approuvé l’envoi après la publication.
 
 ## Publier la campagne {#publish}
