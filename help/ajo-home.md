@@ -56,7 +56,7 @@ Les heures creuses vous permettent de définir des exclusions basées sur l’he
 
 ::::landing-cards-container
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Dernières notes de mise à jour
 
@@ -66,7 +66,7 @@ Tenez-vous au courant des dernières notes de mise à jour, des nouvelles foncti
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer
 
@@ -76,7 +76,7 @@ Découvrez les principes de base de Journey Optimizer, notamment ses fonctionna
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icône](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Guide complet des parcours
 
@@ -86,7 +86,7 @@ Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icône](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
 
 Comprendre et gérer les campagnes
 
@@ -96,7 +96,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icône](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Canaux de communication
 
@@ -106,7 +106,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icône](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
 
 Gestion et hiérarchisation des conflits
 
