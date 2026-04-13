@@ -32,7 +32,7 @@ Dans l’éditeur , l’assistant [!UICONTROL AI] vous aide à générer une nou
 * Pour plus d’informations sur la personnalisation dans [!DNL Journey Optimizer], voir [Prise en main de la personnalisation](../personalization/personalize.md).
 * Pour obtenir des idées rapides, voir [Bonnes pratiques d’invite d’IA](ai-assistant-prompting-guide.md).
 
-Vous utilisez l’[!UICONTROL assistant AI] dans l’éditeur [!UICONTROL Personalization] partout où cet éditeur est disponible, par exemple dans l’objet, le corps et d’autres champs qui l’ouvrent. Pour savoir où et comment ouvrir l’éditeur, voir [ Ajouter une personnalisation ](../personalization/personalization-build-expressions.md#where).
+Vous utilisez l’[!UICONTROL assistant AI] dans l’éditeur [!UICONTROL Personalization] partout où cet éditeur est disponible, par exemple dans l’objet, le corps et d’autres champs qui l’ouvrent. Pour savoir où et comment ouvrir l’éditeur, voir [&#x200B; Ajouter une personnalisation &#x200B;](../personalization/personalization-build-expressions.md#where).
 
 Selon le contexte de votre campagne ou de votre parcours, l’assistant peut utiliser les données et construire les éléments déjà exposés par [!UICONTROL l’éditeur de Personalization] par exemple les attributs de profil, l’appartenance à un segment, les fonctions d’assistance et les sources de personnalisation associées.
 
@@ -44,7 +44,7 @@ Selon le contexte de votre campagne ou de votre parcours, l’assistant peut uti
 
 Ces étapes couvrent la génération à partir de zéro d’expressions de personnalisation. Pour utiliser du code déjà présent dans l’éditeur, voir [Modifier, corriger ou expliquer le code existant](#edit-existing).
 
-1. Dans votre message ou contenu, ouvrez l&#39;éditeur Personalization ****.
+1. Dans votre message ou contenu, ouvrez l&#39;éditeur Personalization **&#x200B;**.
 
 1. Placez le curseur dans l’éditeur à l’endroit où vous souhaitez insérer le code de personnalisation généré, puis cliquez sur le bouton **[!UICONTROL Assistant IA]**.
 
