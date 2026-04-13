@@ -1,6 +1,6 @@
 ---
 title: Modifier un contenu web
-description: Découvrez comment créer une page web et modifier son contenu dans Journey Optimizer.
+description: Découvrez comment créer une page web et modifier son contenu dans Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
@@ -19,7 +19,7 @@ Après l’[ajout d’une expérience web](create-web.md#create-web-experience) 
 
 [Découvrez comment créer une campagne web dans cette vidéo.](#video)
 
-Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome **Visual Helper d’Adobe Experience Cloud**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites).
+Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome **Visual Helper d’Adobe Experience Cloud**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ Accédez aux sections suivantes pour en savoir plus sur chaque rubrique :
 >abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué à toutes les pages correspondant à la règle. La page web doit être mise en œuvre à l’aide du SDK web Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
-Pour commencer à créer votre expérience web, procédez comme suit :
+Pour commencer à créer votre expérience web, procédez comme suit.
 
 1. Dans l’onglet **[!UICONTROL Action]** de la campagne ou de l’activité d’expérience web dans le parcours, sélectionnez **[!UICONTROL Modifier le contenu]**.<!--change screen with rule-->
 
@@ -61,7 +61,7 @@ Pour commencer à créer votre expérience web, procédez comme suit :
 
    >[!CAUTION]
    >
-   >La page web doit inclure le [SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}. [En savoir plus](web-prerequisites.md#implementation-prerequisites).
+   >La page web doit inclure le [SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}. [En savoir plus](web-prerequisites.md#implementation-prerequisites)
 
 1. Cliquez sur **[!UICONTROL Modifier la page web]** pour commencer la création. Le concepteur web s’affiche.
 
@@ -71,7 +71,7 @@ Pour commencer à créer votre expérience web, procédez comme suit :
    >
    >Si vous tentez de charger un site web et que le chargement échoue, un message s’affiche pour vous suggérer d’installer l’extension de navigateur [Visual Editing Helper](#install-visual-editing-helper). Consultez quelques conseils dans [cette section](web-prerequisites.md#troubleshooting) pour résoudre les problèmes.
 
-1. Sélectionnez un élément dans la zone de travail, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête, un lien, etc. [En savoir plus](#content-components).
+1. Sélectionnez un élément dans la zone de travail, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête, un lien, etc. [En savoir plus](#content-components)
 
 1. Utilisation :
 
@@ -127,7 +127,7 @@ Pour commencer à créer votre expérience web, procédez comme suit :
 
 ## Ajouter une personnalisation
 
-Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Apportez vos modifications à l’aide de l’éditeur de personnalisation. [En savoir plus](../personalization/personalization-build-expressions.md).
+Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Apportez vos modifications à l’aide de l’éditeur de personnalisation. [En savoir plus](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 

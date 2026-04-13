@@ -83,7 +83,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -151,21 +151,21 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 >id="ajo_decisioning_capping"
 >title="Utilisation de la limitation"
 >abstract="Pour éviter de trop solliciter votre clientèle, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée. Vous pouvez créer jusqu’à 10 règles de limitation pour une offre donnée."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="La modification des dates peut avoir un impact sur la limitation."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="La modification des dates peut avoir un impact sur la limitation."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre.
 
 Vous pouvez ajouter jusqu’à 10 règles de limitation pour une offre donnée. Pour définir une règle de limitation, cliquez sur le bouton **[!UICONTROL Créer une limitation]** puis procédez comme suit.
 
-1. Définissez l’**[!UICONTROL Événement de limitation]** à prendre en compte pour augmenter le compteur. [En savoir plus](#capping-event).
+1. Définissez l’**[!UICONTROL Événement de limitation]** à prendre en compte pour augmenter le compteur. [En savoir plus](#capping-event)
 
-1. Choisissez si vous souhaitez appliquer la limitation à tous les utilisateurs et utilisatrices ou à un seul profil spécifique. [En savoir plus](#capping-type).
+1. Choisissez si vous souhaitez appliquer la limitation à tous les utilisateurs et utilisatrices ou à un seul profil spécifique. [En savoir plus](#capping-type)
 
-1. Définissez le nombre de fois où l’offre peut être présentée. [En savoir plus](#capping-count).
+1. Définissez le nombre de fois où l’offre peut être présentée. [En savoir plus](#capping-count)
 
-1. Définissez la **[!UICONTROL Fréquence]** pour définir la fréquence à laquelle le nombre de limitations est réinitialisé. [En savoir plus](#frequency-capping).
+1. Définissez la **[!UICONTROL Fréquence]** pour définir la fréquence à laquelle le nombre de limitations est réinitialisé. [En savoir plus](#frequency-capping)
 
-1. Si vous avez défini plusieurs [représentations](add-representations.md) pour votre offre, indiquez si vous souhaitez appliquer une limitation **à tous les emplacements** ou **pour chaque emplacement**. [En savoir plus](#placements).
+1. Si vous avez défini plusieurs [représentations](add-representations.md) pour votre offre, indiquez si vous souhaitez appliquer une limitation **à tous les emplacements** ou **pour chaque emplacement**. [En savoir plus](#placements)
 
 1. Une fois enregistrée et validée, si l’offre a été présentée le nombre de fois que vous avez spécifiées dans ce champ en fonction des critères et du délai que vous avez définis, sa diffusion s’arrêtera.
 
@@ -216,7 +216,7 @@ Le champ **[!UICONTROL Choisir l’événement de limitation]** vous permet de d
 
 >[!CAUTION]
 >
->Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires sur la gestion des décisions peuvent ne pas être collectés automatiquement, ce qui peut entraîner une incrémentation incorrecte du compteur de limitation. [En savoir plus](../data-collection/data-collection.md).
+>Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires sur la gestion des décisions peuvent ne pas être collectés automatiquement, ce qui peut entraîner une incrémentation incorrecte du compteur de limitation. [En savoir plus](../data-collection/data-collection.md)
 >
 >Pour vous assurer que chaque événement de limitation est suivi et comptabilisé dans le compteur de limitation, vérifiez que le schéma utilisé pour collecter les événements d’expérience inclut le groupe de champs approprié pour cet événement. [En savoir plus](../data-collection/schema-requirement.md)
 

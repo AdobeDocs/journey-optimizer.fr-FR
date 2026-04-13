@@ -20,16 +20,16 @@ ht-degree: 100%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
-Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome **Adobe Experience Cloud Visual Helper**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites).
+Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome **Adobe Experience Cloud Visual Helper**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
@@ -113,7 +113,7 @@ Une fois que vous avez modifié le contenu web, vous pouvez gérer vos modificat
 
 ## Ajouter une personnalisation
 
-Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Apportez vos modifications à l’aide de l’éditeur de personnalisation. [En savoir plus](../personalization/personalization-build-expressions.md).
+Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Apportez vos modifications à l’aide de l’éditeur de personnalisation. [En savoir plus](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 

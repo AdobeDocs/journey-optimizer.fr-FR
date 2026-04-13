@@ -19,7 +19,7 @@ ht-degree: 100%
 >title="Utiliser des profils de test pour vérifier votre contenu"
 >abstract="Utilisez des profils de test pour prévisualiser et tester votre contenu. Si vous avez ajouté des champs personnalisés, vous pouvez vérifier leur affichage à l’aide des données de profil de test."
 
-Les profils de test sont des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis. [Découvrez comment créer des profils de test.](../audience/creating-test-profiles.md)
+Les profils de test sont des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis. [En savoir plus sur la création de profils de test](../audience/creating-test-profiles.md)
 
 Avant d’utiliser des profils de test pour tester votre contenu, vous devez d’abord les sélectionner. Pour ce faire, procédez comme suit :
 

@@ -9,7 +9,7 @@ level: Experienced
 keywords: destination, page de destination, sous-domaines, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -26,13 +26,13 @@ ht-degree: 100%
 >id="ajo_admin_subdomain_lp"
 >title="Déléguer un sous-domaine de page de destination"
 >abstract="Vous devez configurer un sous-domaine à utiliser pour vos pages de destination, car vous aurez besoin de ce sous-domaine pour créer un préréglage de page de destination. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou configurer un nouveau sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="Créer un préréglage de la page de destination"
 >abstract="Pour pouvoir créer un préréglage de la page de destination, vérifiez que vous avez déjà configuré au moins un sous-domaine de la page de destination à sélectionner dans la liste Nom du sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 ## Commencer avec les sous-domaines de page de destination {#gs-lp-subdomains}
 
@@ -151,4 +151,4 @@ Si vous souhaitez annuler la délégation d’un sous-domaine de page de destina
 
 1. Contactez votre représentant ou représentante Adobe en indiquant le sous-domaine pour lequel vous souhaitez annuler la délégation.
 
-Une fois votre demande traitée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.
+Une fois que votre demande est gérée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.

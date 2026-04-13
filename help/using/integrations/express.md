@@ -49,7 +49,7 @@ Avec une licence Entreprise, les utilisateurs et les utilisatrices disposent d�
 
 ![](assets/express-licence.png)
 
-Pour plus d’informations sur les cas d’utilisation disponibles pour les utilisateurs et les utilisatrices disposant d’une licence Enterprise pour Adobe Express, consultez la [documentation web d’Adobe Express](https://helpx.adobe.com/fr/express/web.html).
+Pour plus d’informations sur les cas d’utilisation disponibles pour les utilisateurs et les utilisatrices disposant d’une licence Enterprise pour Adobe Express, consultez la [documentation web d’Adobe Express](https://helpx.adobe.com/express/web.html).
 
 ## Utilisation d’Adobe Express sans licence Entreprise  {#edit}
 
@@ -134,7 +134,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Une fois le format modifié, vous pouvez l’enregistrer en tant que nouvelle image sous un autre nom. Saisissez un **[!UICONTROL Nom]** puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Une fois le format modifié, vous pouvez l’enregistrer en tant que nouvelle image sous un autre nom. Mettez à jour le champ **[!UICONTROL Nom]**, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/express-convert-3.png)
 
@@ -148,7 +148,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Découvrez comment modifier vos ressources dans Adobe Journey Optimizer à l’aide des outils d’Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455525/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

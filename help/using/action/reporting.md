@@ -7,7 +7,8 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
+exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 65%
@@ -102,6 +103,6 @@ La vidéo ci-dessous montre comment surveiller la fiabilité et les performances
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479543?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

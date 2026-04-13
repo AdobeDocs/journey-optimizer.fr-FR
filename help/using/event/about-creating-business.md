@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration d'un événement métier
+title: Configuration d’un événement métier
 description: Découvrez comment créer un événement métier.
 feature: Journeys, Events
 topic: Administration
@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 
 ## Remarques importantes {#important-notes}
 
-* Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles.
+* Seuls les schémas de série temporelle sont disponibles. Les schémas d’événements d’expérience, d’événements de décision et d’événements d’étape de parcours ne sont pas disponibles.
 * Le schéma d&#39;événement doit contenir une identité principale non basée sur une personne. Les champs suivants doivent être sélectionnés lors de la définition de l&#39;événement : `_id` et `timestamp`
 * Les événements métier ne peuvent être placés que comme première étape d&#39;un parcours.
 * Lorsqu&#39;un événement métier est placé comme première étape d&#39;un parcours, le type de planificateur du parcours est « événement métier ».

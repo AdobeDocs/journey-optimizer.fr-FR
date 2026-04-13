@@ -100,4 +100,4 @@ Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
 Découvrez comment créer du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452115?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

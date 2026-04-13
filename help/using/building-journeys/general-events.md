@@ -11,7 +11,7 @@ keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l&#39;individu progressant dans le parcours.
 
-Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une description. Le reste de la configuration ne peut pas être modifié. C&#39;est l&#39;utilisateur technique qui s&#39;en charge. Voir [cette page](../event/about-events.md).
+Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une description. Le reste de la configuration ne peut pas être modifié. C&#39;est l&#39;utilisateur technique qui s&#39;en charge. Consultez [cette page](../event/about-events.md).
 
 Pour en savoir plus sur le débit des événements et les taux de traitement des parcours, consultez [cette section](entry-management.md#journey-processing-rate).
 

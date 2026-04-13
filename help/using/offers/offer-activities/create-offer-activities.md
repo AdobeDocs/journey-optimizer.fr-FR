@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Créer des décisions
+title: Création de décisions
 description: Découvrez comment créer des décisions
 badge: label="Hérité" type="Informative"
 feature: Decision Management
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 ---
 
-# Créer des décisions {#create-offer-activities}
+# Création de décisions {#create-offer-activities}
 
 >[!TIP]
 >
 >La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
 
-Les décisions sont des conteneurs pour vos offres qui s’appuient sur le moteur de décision d’offre pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
+Les décisions sont des conteneurs pour vos offres qui s’appuient sur le moteur de décision d’offres pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
 
 ➡️[Découvrez comment créer des activités d’offre dans cette vidéo.](#video)
 
@@ -138,7 +138,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    ![](../assets/activity_add-collection.png)
 
-1. Lorsque vous ajoutez plusieurs critères, ils sont évalués dans un ordre spécifique. La première collection ajoutée à la séquence sera évaluée en premier, etc. [En savoir plus](#evaluation-criteria-order).
+1. Lorsque vous ajoutez plusieurs critères, ils sont évalués dans un ordre spécifique. La première collection ajoutée à la séquence sera évaluée en premier, etc. [En savoir plus](#evaluation-criteria-order)
 
    Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les collections afin de les réorganiser selon vos besoins.
 
@@ -148,7 +148,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    ![](../assets/activity_move-collection.png)
 
-   Ils possèdent désormais le même rang et seront donc évalués en même temps. [En savoir plus](#evaluation-criteria-order).
+   Ils possèdent désormais le même rang et seront donc évalués en même temps. [En savoir plus](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
@@ -164,7 +164,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    >[!NOTE]
    >
-   >L’ajout de plusieurs portées de décision modifie l’ordre des critères d’évaluation. [En savoir plus](#multiple-scopes).
+   >L’ajout de plusieurs portées de décision modifie l’ordre des critères d’évaluation. [En savoir plus](#multiple-scopes)
 
 ### Ordre des critères d’évaluation {#evaluation-criteria-order}
 
@@ -412,6 +412,6 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette décision.
 
 Découvrez comment créer des activités d’offre dans la gestion de décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/346693?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

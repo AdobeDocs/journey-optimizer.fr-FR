@@ -37,7 +37,7 @@ Cette syntaxe vous permet de personnaliser des messages dans plusieurs champs, n
 
 ## Données utilisées pour la personnalisation
 
-La personnalisation est basée sur les données de profil gérées par le schéma **Profil individuel XDM** défini dans Adobe Experience Platform. Le schéma **Profil individuel XDM** est le seul que vous pouvez utiliser pour personnaliser le contenu dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
+La personnalisation est basée sur les données de profil gérées par le schéma **Profil individuel XDM** défini dans Adobe Experience Platform. Le schéma **Profil individuel XDM** est le seul que vous pouvez utiliser pour personnaliser le contenu dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 
 Vous pouvez également utiliser les **attributs calculés** pour personnaliser le contenu. Les attributs calculés vous permettent de résumer des événements comportementaux individuels en attributs de profil calculés disponibles sur Adobe Experience Platform. [Découvrir comment utiliser les attributs calculés](../audience/computed-attributes.md)
 
@@ -69,7 +69,7 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 </td>
 <td>
 <a href="../personalization/personalization-syntax.md">
-<img alt="Prospect" src="assets/do-not-localize/syntax.png">
+<img alt="Lead" src="assets/do-not-localize/syntax.png">
 </a>
 <div><a href="../personalization/personalization-syntax.md"><strong>Syntaxe de personnalisation</strong>
 </div>
@@ -97,14 +97,14 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 
 Découvrez comment utiliser les informations d’événement contextuelles d’un parcours pour personnaliser un message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448131?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Découvrez comment ajouter une personnalisation basée sur un profil à un message et comment utiliser l’appartenance à une audience comme condition préalable à un bloc de personnalisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416270?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Découvrez comment tirer parti du terrain de jeu de l’éditeur de personnalisation pour écrire et tester du code de personnalisation à l’aide de données d’exemple.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475954?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Découvrez d’autres tutoriels vidéo sur les fonctionnalités de personnalisation et les bonnes pratiques dans les [tutoriels sur la personnalisation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}.

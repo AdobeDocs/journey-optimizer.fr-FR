@@ -11,7 +11,7 @@ keywords: action, personnalisé, API, parcours, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ L’URL concaténée se présente comme suit :
 
 ### En-têtes et paramètres de requête {#headers}
 
-La section **[!UICONTROL Configuration de l’URL]** affiche les champs d’en-tête dynamique et de paramètres de requête, mais pas les champs constants. Les champs d’en-tête dynamique et de paramètres de requête sont définis comme variables dans l’écran de configuration des actions. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
+La section **[!UICONTROL Configuration de l’URL]** affiche les champs d’en-tête dynamique et de paramètres de requête, mais pas les champs constants. Les champs d’en-tête dynamique et de paramètres de requête sont définis comme variables dans l’écran de configuration des actions. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration)
 
 Pour spécifier la valeur des champs d’en-tête dynamique et de paramètres de requête, cliquez dans le champ ou sur l’icône représentant un crayon et sélectionnez le champ de votre choix.
 

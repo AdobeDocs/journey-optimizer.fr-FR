@@ -28,7 +28,7 @@ Vous pouvez accéder directement au rapport dynamique de campagne à partir de v
 
 La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les onglets suivants :
 
-* [Campagne](#campaign-live)
+* [Campaign](#campaign-live)
 * [E-mail](#email-live)
 * [In-app](#inapp-live)
 * [Notification push](#push-live)
@@ -606,7 +606,7 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 ## Ressources supplémentaires
 
 * [Commencer avec les campagnes](../campaigns/get-started-with-campaigns.md)
-* [Créer une campagne](../campaigns/create-campaign.md)
+* [Création d’une campagne](../campaigns/create-campaign.md)
 * [Créer des campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)
 * [Modification ou arrêt d’une campagne](../campaigns/manage-campaigns.md)
 * [Rapport de campagne](campaign-global-report-cja.md)

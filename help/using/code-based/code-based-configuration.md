@@ -42,7 +42,7 @@ Une configuration d’expérience basée sur du code doit référencer la surfac
 
 Pour créer une configuration de canal d’expérience basée sur du code, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
 
    ![](assets/code_config_1.png)
 
