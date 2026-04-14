@@ -395,7 +395,7 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
-* [Comment se terminent les parcours ](end-journey.md) : comprenez la fin naturelle des parcours.
+* [Comment se terminent les parcours &#x200B;](end-journey.md) : comprenez la fin naturelle des parcours.
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) : utilisez des critères de sortie lors de la mise en pause des parcours.
 
 ## Planning du parcours {#schedule}
@@ -404,7 +404,7 @@ La section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activi
 
 >[!TIP]
 >
->Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours ](send-using-waves.md)
+>Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours &#x200B;](send-using-waves.md)
 
 
 ## Gestion des conflits {#conflict}
@@ -423,7 +423,7 @@ La section **[!UICONTROL Gestion des conflits]** dans les propriétés du parcou
 
 * [Gestion de l’entrée des profils](entry-management.md) - Configurer la manière dont les profils entrent et rentrent dans les parcours
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
-* [Fin des parcours ](end-journey.md) - Comprendre la fin naturelle du parcours et la sortie du profil
-* [Suspendre un parcours ](journey-pause.md) - Suspendre et reprendre les parcours avec les critères de sortie d’attribut de profil
+* [Fin des parcours &#x200B;](end-journey.md) - Comprendre la fin naturelle du parcours et la sortie du profil
+* [Suspendre un parcours &#x200B;](journey-pause.md) - Suspendre et reprendre les parcours avec les critères de sortie d’attribut de profil
 * [Gestion des fuseaux horaires](timezone-management.md) - Configuration des fuseaux horaires de parcours et de profil
 * [Gestion et hiérarchisation des conflits](../conflict-prioritization/conflicts.md) - Identifiez et résolvez les conflits entre les parcours et les campagnes
