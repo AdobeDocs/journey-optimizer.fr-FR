@@ -11,7 +11,7 @@ hide: true
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 version: Journey Orchestration
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%
@@ -58,9 +58,9 @@ Consultez les pages ci-dessous pour explorer les rubriques spécifiques de réso
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
 <img alt="Comprendre les codes d’erreur courants" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-<br>Consultez également <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr" target="_blank">cet article de blog de la communauté Adobe</a> pour en savoir plus sur les <strong>codes d’erreur courants</strong> et sur la manière de les résoudre efficacement.
+<br>Consultez également <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">cet article de blog de la communauté Adobe</a> pour en savoir plus sur les <strong>codes d’erreur courants</strong> et sur la manière de les résoudre efficacement.
     </div>
   </td>
 </tr>

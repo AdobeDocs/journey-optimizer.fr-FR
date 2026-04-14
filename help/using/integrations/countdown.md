@@ -8,7 +8,7 @@ role: User
 level: Beginner
 hide: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Pour plus d’informations sur l’ajout de minuteries de décompte à votre mod
 
 1. Dans **[!DNL Journey Optimizer]**, créez une campagne ou ouvrez une campagne existante, puis accédez au Designer Email.
 
-1. Faites glisser et déposez un composant **&#x200B;**&#x200B;ou **Asset** dans le contenu de votre e-mail.
+1. Faites glisser et déposez un composant **** ou **Asset** dans le contenu de votre e-mail.
 
 1. Pointez sur le composant et cliquez sur **[!UICONTROL Afficher le code source]** (pour les composants HTML) ou **[!UICONTROL Parcourir]** (pour les composants Ressource).
 

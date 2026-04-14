@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: intégration, FAQ, données externes, personnalisation
 hide: true
-source-git-commit: 3733c9ab401f85b22e1d6e07dbf4db535ff8a96d
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 1%
@@ -71,7 +71,7 @@ Il s’agit par exemple des points de récompense des systèmes de fidélité, d
 
 +++ Comment configurer une intégration à un haut niveau en tant qu’administrateur ?
 
-Vous indiquez un nom et une description, une URL de point d’entrée de l’API (éventuellement avec des variables de chemin d’accès), des valeurs de modèle de chemin d’accès, **&#x200B;**&#x200B;ou **[!UICONTROL POST]**, des en-têtes facultatifs et des paramètres de requête, une méthode d’authentification, des paramètres de politique (tels que le délai d’expiration et le cache facultatif ou une nouvelle tentative), un exemple de réponse JSON pour mapper des champs, puis vous exécutez **[!UICONTROL Envoyer la connexion de test]** et **[!UICONTROL Activer]**, le cas échéant.
+Vous indiquez un nom et une description, une URL de point d’entrée de l’API (éventuellement avec des variables de chemin d’accès), des valeurs de modèle de chemin d’accès, **** ou **[!UICONTROL POST]**, des en-têtes facultatifs et des paramètres de requête, une méthode d’authentification, des paramètres de politique (tels que le délai d’expiration et le cache facultatif ou une nouvelle tentative), un exemple de réponse JSON pour mapper des champs, puis vous exécutez **[!UICONTROL Envoyer la connexion de test]** et **[!UICONTROL Activer]**, le cas échéant.
 
 ➡️ [En savoir plus sur la configuration de l&#39;intégration](external-sources.md#configure)
 

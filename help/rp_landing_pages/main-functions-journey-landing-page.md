@@ -6,7 +6,7 @@ description: Fonctions
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Les fonctions d’Adobe Journey Optimizer permettent de créer des expressions
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Principales fonctions d’Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Obtenez une vue d’ensemble des principales fonctions disponibles, classées pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utilisation de la fonction inAudience
 
@@ -41,7 +41,7 @@ Découvrez comment évaluer l’abonnement à une audience à l’aide de la fon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Référence des fonctions d’agrégation
 
@@ -51,7 +51,7 @@ Maîtrisez les fonctions d’agrégation pour effectuer des opérations telles q
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Fonctions de conversion
 
@@ -61,7 +61,7 @@ Transformez les types de données avec des fonctions de conversion permettant de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Fonctions de date dans Adobe Journey Optimizer
 
@@ -71,7 +71,7 @@ Découvrez comment manipuler et évaluer les valeurs de date et d’heure à l�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fonctions de liste dans Adobe Journey Optimizer
 
