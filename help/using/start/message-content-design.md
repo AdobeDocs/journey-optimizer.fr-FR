@@ -25,7 +25,7 @@ La conception du contenu des messages dans Adobe Journey Optimizer vous permet
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Concevoir le contenu des e-mails
 
@@ -55,7 +55,7 @@ Composez des SMS personnalisés, améliorez les communications avec du contenu m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
 
 Concevoir des messages in-app
 
@@ -75,7 +75,7 @@ Personnalisez les messages à l’aide d’attributs de profil, utilisez l’éd
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Utiliser des modèles et des fragments
 

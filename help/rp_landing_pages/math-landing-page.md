@@ -21,7 +21,7 @@ La section Mathématiques d’Adobe Journey Optimizer vous permet d’effectuer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Fonction random
 
@@ -31,7 +31,7 @@ Apprenez à utiliser la fonction « random » pour générer des nombres aléa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Fonction round
 
