@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: intégration, fournisseur, tiers
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 7%
@@ -47,6 +47,7 @@ Les prérequis suivants sont requis :
 
 * Espace contenu avec accès à l’API de diffusion et clé API orientée lecture.
 * Effacer les types de contenu et les identifiants de champ ; accès administrateur dans Journey Optimizer pour créer des intégrations.
+
 
 Les restrictions et exclusions suivantes s’appliquent :
 

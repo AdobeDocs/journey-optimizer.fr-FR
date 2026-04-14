@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: intégration, FAQ, données externes, personnalisation
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 1%
@@ -30,6 +30,7 @@ Table des matières :
 >[!ENDSHADEBOX]
 
 Vous trouverez ci-dessous des questions fréquentes sur **Intégrations** dans Adobe Journey Optimizer.
+
 
 ## Commencer
 
