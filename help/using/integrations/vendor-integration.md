@@ -139,7 +139,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Configurez **** sur votre chemin d’accès d’ordre de téléchargement, définissez les en-têtes d’autorisation par Sitecore, mappez les `id` à partir du contexte, collez l’exemple JSON, mappez les champs et ajustez les délais d’expiration pour la latence des ressources.
+1. Suivez [Utilisation des intégrations](external-sources.md). Configurez **&#x200B;**&#x200B;sur votre chemin d’accès d’ordre de téléchargement, définissez les en-têtes d’autorisation par Sitecore, mappez les `id` à partir du contexte, collez l’exemple JSON, mappez les champs et ajustez les délais d’expiration pour la latence des ressources.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -395,7 +395,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **** avec un jeton porteur, demandez uniquement les options d’attribut nécessaires dans les indicateurs de requête, collez l’exemple JSON, mappez un jeu d’attributs minimal, testez, activez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **&#x200B;**&#x200B;avec un jeton porteur, demandez uniquement les options d’attribut nécessaires dans les indicateurs de requête, collez l’exemple JSON, mappez un jeu d’attributs minimal, testez, activez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -422,7 +422,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [ API Akeneo ](https://api.akeneo.com/){target="_blank"}.
+Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [&#x200B; API Akeneo &#x200B;](https://api.akeneo.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
@@ -666,7 +666,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **** sur le profil ou le chemin d’accès dont vous avez besoin, définissez les `Authorization: ApiKey-v1 <key>` comme documenté, collez l’exemple JSON, mappez des champs, testez, activez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **&#x200B;**&#x200B;sur le profil ou le chemin d’accès dont vous avez besoin, définissez les `Authorization: ApiKey-v1 <key>` comme documenté, collez l’exemple JSON, mappez des champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -756,7 +756,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Configurez **** avec l’authentification du fournisseur (par exemple, la clé API dans la requête), évitez d’exposer les informations d’identification personnelles dans la politique, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Configurez **&#x200B;**&#x200B;avec l’authentification du fournisseur (par exemple, la clé API dans la requête), évitez d’exposer les informations d’identification personnelles dans la politique, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -867,7 +867,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Utilisez l’opération GET Loyalty Management **profil de membre** documentée pour la version de l’API de votre organisation. Les chemins incluent le programme et les identifiants de membre. Voir [Développeurs ](https://developer.salesforce.com/){target="_blank"}.
+Utilisez l’opération GET Loyalty Management **profil de membre** documentée pour la version de l’API de votre organisation. Les chemins incluent le programme et les identifiants de membre. Voir [Développeurs &#x200B;](https://developer.salesforce.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
@@ -1297,7 +1297,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **** à moins que votre abonnement n’en exige un autre, joignez le paramètre de requête `apiKey` (ou comme documenté), mappez les `locationKey` et d’autres variables de profile/context, collez l’exemple JSON, mappez des champs, puis testez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **&#x200B;**&#x200B;à moins que votre abonnement n’en exige un autre, joignez le paramètre de requête `apiKey` (ou comme documenté), mappez les `locationKey` et d’autres variables de profile/context, collez l’exemple JSON, mappez des champs, puis testez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -1479,7 +1479,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Appelez le REST **** modélisé ci-dessous, authentifiez-vous avec l’en-tête de clé secrète, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Appelez le REST **&#x200B;**&#x200B;modélisé ci-dessous, authentifiez-vous avec l’en-tête de clé secrète, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -1592,7 +1592,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++Exemples de champs d’intégration
 
-L’exemple de tâche **** ci-dessous est fourni à titre d’illustration. Pour la personnalisation pilotée par SQL, préférez le modèle [API d’exécution d’instruction](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} pris en charge par votre espace de travail.
+L’exemple de tâche **&#x200B;**&#x200B;ci-dessous est fourni à titre d’illustration. Pour la personnalisation pilotée par SQL, préférez le modèle [API d’exécution d’instruction](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} pris en charge par votre espace de travail.
 
 | Champ | Valeur |
 | --- | --- |
@@ -1644,7 +1644,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Configurez **** sur le point d’entrée choisi (l’un des schémas courants est la liste des utilisateurs), exécutez OAuth par [Bynder](https://developer.bynder.com/){target="_blank"}, évitez d’extraire des pages de données inutiles, mappez des champs, testez, puis activez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Configurez **&#x200B;**&#x200B;sur le point d’entrée choisi (l’un des schémas courants est la liste des utilisateurs), exécutez OAuth par [Bynder](https://developer.bynder.com/){target="_blank"}, évitez d’extraire des pages de données inutiles, mappez des champs, testez, puis activez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -1794,7 +1794,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Configurez **** avec l’authentification de requête requise, mappez les identifiants du profil ou du contexte, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Configurez **&#x200B;**&#x200B;avec l’authentification de requête requise, mappez les identifiants du profil ou du contexte, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -1878,7 +1878,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **** avec `passkey` comme paramètre de requête sur l’API Conversations, définissez `Accept: application/json`, collez l’exemple JSON, mappez des champs, testez, activez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **&#x200B;**&#x200B;avec `passkey` comme paramètre de requête sur l’API Conversations, définissez `Accept: application/json`, collez l’exemple JSON, mappez des champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -2048,7 +2048,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Les appels graphiques sont souvent des **** avec un chemin versionné ; gérez l’expiration du jeton, collez l’exemple JSON, mappez des champs, testez, activez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Les appels graphiques sont souvent des **&#x200B;**&#x200B;avec un chemin versionné ; gérez l’expiration du jeton, collez l’exemple JSON, mappez des champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
@@ -2133,7 +2133,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **** sur le chemin d’enregistrement dont vous avez besoin, envoyez les en-têtes requis tels que `API-VERSION`, collez l’exemple JSON (HAL ou JSON tel que renvoyé), mappez un ensemble de champs minimal, testez, activez.
+1. Suivez [Utilisation des intégrations](external-sources.md). Utilisez **&#x200B;**&#x200B;sur le chemin d’enregistrement dont vous avez besoin, envoyez les en-têtes requis tels que `API-VERSION`, collez l’exemple JSON (HAL ou JSON tel que renvoyé), mappez un ensemble de champs minimal, testez, activez.
 
 1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
 
