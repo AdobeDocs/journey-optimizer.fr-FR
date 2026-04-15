@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: texte, e-mail, version, brut, éditeur
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1141'
 ht-degree: 11%
 
 ---
@@ -48,21 +48,24 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 >
 > * Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
 
-## Optimisation de la version texte des boîtes de réception d’IA {#optimize-plain-text-ai}
+<!--
+## Optimize the text version for AI inboxes {#optimize-plain-text-ai}
 
-Vous pouvez aider les fonctionnalités de boîte de réception optimisées par l’IA (telles que les résumés dans [!DNL Gmail], [!DNL Outlook] ou [!DNL Apple Mail]) à faire apparaître vos offres et détails clés à l’aide du bouton **[!UICONTROL Optimiser pour la boîte de réception IA]**. Cette action génère une version en texte brut améliorée axée sur les assistants d’information qui sont susceptibles de lire la partie texte du message.
+You can help AI-powered inbox features (such as summaries in [!DNL Gmail], [!DNL Outlook], or [!DNL Apple Mail]) surface your key offers and details by using the **[!UICONTROL Optimize for AI Inbox]** button. That action generates an improved plain text version focused on information assistants are likely to read from the text part of the message.
 
-![Bouton Optimiser pour la boîte de réception IA dans la vue de version texte](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![Optimize for AI Inbox button in the text version view](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
->Lorsque vous utilisez cette fonctionnalité, l’option **[!UICONTROL Synchroniser avec HTML]** est automatiquement désactivée.
+>When using this capability, the **[!UICONTROL Sync with HTML]** option is automatically disabled.
 
-Pour une présentation complète et des scénarios recommandés, voir [&#x200B; Optimiser le texte des e-mails pour les boîtes de réception de l’IA](llm-email-optimizer.md).
+For a full walkthrough and recommended scenarios, see [Optimize email text for AI inboxes](llm-email-optimizer.md).
+-->
 
 ## Quand utiliser des versions en texte brut personnalisées {#when-to-use}
 
 Comprendre quand créer une version en texte brut personnalisée plutôt qu’utiliser la synchronisation automatique permet d’assurer une diffusion et une lisibilité optimales des e-mails.
+
 
 ### Utilisez du texte brut personnalisé (désactiver la synchronisation) lorsque :
 
