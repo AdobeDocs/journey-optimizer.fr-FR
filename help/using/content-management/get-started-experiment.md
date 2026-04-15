@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2085'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -129,7 +129,7 @@ Lorsque vous comparez les performances de deux traitements, vous devez toujours 
 
 Par exemple, si l’objectif de l’expérience est défini sur **[!UICONTROL Ouvertures uniques]**, et qu’un traitement donné a été présenté à 10 000 profils avec 200 ouvertures uniques enregistrées, cela représente un **[!UICONTROL taux de conversion]** de 2 %. Pour les mesures non uniques, par exemple la mesure Ouvertures, la mesure normalisée s’affiche sous la forme d’un **[!UICONTROL Nombre par profil]**, tandis que pour les mesures continues telles que le Prix total, la mesure normalisée s’affiche sous la forme d’un **[!UICONTROL Total par profil]**.
 
-### &#x200B;2. Se concentrer sur les intervalles de confiance {#confidence-intervals}
+### &#x200B;2. concentrez-vous sur les intervalles de confiance {#confidence-intervals}
 
 Lorsque vous exécutez des expériences sur des échantillons de vos profils, le taux de conversion observé pour un traitement donné représente une estimation du taux de conversion sous-jacent réel.
 
@@ -141,17 +141,17 @@ Si les intervalles de confiance pour deux traitements se chevauchent à peine, c
 
 Adobe utilise des intervalles de confiance à 95 % valides à tout moment, ce qui signifie que les résultats peuvent être affichés en toute sécurité à tout moment pendant l’expérience.
 
-### &#x200B;3. Comprendre l’effet élévateur {#understand-lift}
+### &#x200B;3. comprendre l’effet élévateur {#understand-lift}
 
 Le résumé du rapport d’expérience affiche le rapport d’**[!UICONTROL Effet élévateur sur la ligne de base]**, qui est une mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base. Plus précisément, il s’agit de la différence de performance entre un traitement donné et la ligne de base, divisée par la performance de la ligne de base, exprimée en pourcentage.
 
-### &#x200B;3. Comprendre le degré de confiance {#understand-confidence}
+### &#x200B;3. comprendre le degré de confiance {#understand-confidence}
 
 Bien que vous devriez principalement vous concentrer sur la variable **[!UICONTROL Intervalle de confiance]** pour ce qui est de la performance de chaque traitement, Adobe montre aussi le Degré de confiance, qui est une mesure probabiliste de la quantité de preuves démontrant qu’un traitement donné est le même que le traitement de la ligne de base. Un degré de confiance plus élevé indique que l’hypothèse selon laquelle les traitements de la ligne de base et ceux qui ne sont pas de la ligne de base aient des performances égales est moins probable. Plus précisément, le degré de confiance affiché est une probabilité (exprimée en pourcentage) que nous aurions observé une différence plus faible dans les taux de conversion entre un traitement donné et la ligne de base, si, en réalité, il n’y a aucune différence dans les taux de conversion sous-jacents réels. En termes de p-values, le degré de confiance affiché est 1 - p-value.
 
 Adobe utilise des degrés de confiance « valides à tout moment » et des p-values « valides à tout moment » qui sont conformes aux séquences de confiance décrites ci-dessus.
 
-### &#x200B;4. Signification statistique
+### &#x200B;4. signification statistique
 
 Lors de l’exécution d’expériences, un résultat est considéré comme statistiquement significatif s’il était très peu probable qu’il ait été observé, compte tenu d’une hypothèse nulle selon laquelle un traitement donné et la ligne de base ont des taux de conversion/performances réels sous-jacents identiques.
 

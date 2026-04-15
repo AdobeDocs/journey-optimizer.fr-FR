@@ -10,7 +10,7 @@ level: Intermediate
 keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 29%
@@ -36,7 +36,7 @@ L’activité **[!UICONTROL Mettre à jour le profil]** nécessite un jeu de don
 
 En outre, la configuration d&#39;activité **[!UICONTROL Mettre à jour le profil]** ne nécessite pas d&#39;espace de noms d&#39;identité [identity](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"}. Par conséquent, assurez-vous que le jeu de données sélectionné utilise le même **[!UICONTROL espace de noms d’identité]** que celui utilisé par l’action qui a lancé le parcours, car il s’agit de l’espace de noms que ces mises à jour utiliseront. Le mappage des identités peut également être utilisé par le jeu de données sélectionné. Si vous ne sélectionnez pas un jeu de données avec l’espace de noms d’identité correct ou un jeu de données utilisant un mappage d’identités, l’activité **[!UICONTROL Mettre à jour le profil]** échouera.
 
-## Configuration de l&#39;activité Mettre à jour le profil {#use-profile-update}
+## Configuration de l&#39;activité de mise à jour de profil {#use-profile-update}
 
 Suivez les étapes ci-dessous pour configurer l&#39;activité **[!UICONTROL Mettre à jour le profil]** dans votre parcours.
 

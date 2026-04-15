@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez accéder au rapport de campagne basée sur du code en cliquant sur l
 
 >[!NOTE]
 >
->Les expériences basées sur du code fonctionnent comme des interactions entrantes dans lesquelles les utilisateurs s’inscrivent en accédant à votre site ou à votre application. Par conséquent, les mesures **Ciblées** ou **Audience**, qui effectuent le suivi des profils choisis pour la diffusion des messages sortants, ne sont pas incrémentées pour les campagnes basées sur le code.
+>Les expériences basées sur du code fonctionnent comme des interactions entrantes auxquelles les utilisateurs et utilisatrices participent en accédant à votre site ou à votre application. Par conséquent, les mesures **Ciblées** ou **Audience**, qui effectuent le suivi des profils choisis pour la diffusion des messages sortants, ne sont pas incrémentées pour les campagnes basées sur du code.
 
 ## Affichages et clics {#impressions-code}
 
@@ -157,7 +157,7 @@ Les mesures clés affichées sont les suivantes :
 
 * **[!UICONTROL Affichages]** : nombre total de fois où des expériences personnalisées ont été affichées ou présentées aux utilisateurs et aux utilisatrices via les différents points de contact.
 
-* **[!UICONTROL Clics]** : nombre total de fois où des utilisateurs et les utilisatrices ont cliqué sur des expériences personnalisées qui leur ont été présentées.
+* **[!UICONTROL Clics]** : nombre total de fois où des utilisateurs et utilisatrices ont cliqué sur des expériences personnalisées qui leur ont été présentées.
 
 * **[!UICONTROL Taux de conversion]** : pourcentage d’affichages qui ont généré des actions de l’utilisateur ou de l’utilisatrice (par exemple, des clics), indiquant la capacité du modèle à générer de l’engagement des utilisateurs et des utilisatrices.
 
@@ -165,7 +165,7 @@ Les mesures clés affichées sont les suivantes :
 >
 >Actuellement, le rapport [Mesure de l’effet élévateur](../experience-decisioning/ranking/auto-optimization-model.md#lift) n’est disponible que pour le modèle d’IA [Optimisation personnalisée](../experience-decisioning/ranking/personalized-optimization-model.md). Si vous avez besoin de rapports sur la mesure de l’effet élévateur, utilisez plutôt le modèle d’optimisation personnalisée.
 
-### Taux de conversion pour le trafic Exclusion et le trafic Piloté par modèle {#conversion-rate}
+### Taux de conversion du trafic généré par l’exclusion et le modèle {#conversion-rate}
 
 >[!NOTE]
 >

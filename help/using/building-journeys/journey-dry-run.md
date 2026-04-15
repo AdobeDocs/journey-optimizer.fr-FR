@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -131,7 +131,7 @@ Les liens vers les rapports des 24 dernières heures ou de la durée entière so
 * Les actions **Saut** ne sont pas activées dans le test à blanc.
 Lorsqu’un parcours source déclenche un événement de **saut** vers un parcours de destination, cet événement de saut ne s’applique pas à une version de parcours de test à blanc. Par exemple, si la dernière version d’un parcours est en test à blanc et que la version précédente est **active**, l’événement de saut ignorerait la version en test à blanc et ne s’appliquerait qu’à la version **active**.
 
-## Événements d’étape de parcours et test à blanc {#journey-step-events}
+## Événements d’étape de parcours et essai {#journey-step-events}
 
 Le test à blanc de parcours génère des **événements d’étape**. Ces événements d’étape disposent d’un indicateur et d’un ID de test à blanc spécifiques : `inDryRun` et `dryRunID`.
 
@@ -149,4 +149,4 @@ Lors de l’analyse de **mesures de rapports de parcours** à l’aide de [!DNL 
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464684/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

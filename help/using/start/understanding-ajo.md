@@ -6,10 +6,11 @@ description: Découvrez comment Adobe Journey Optimizer fonctionne avec Adobe Ex
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
-workflow-type: ht
+exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +33,7 @@ Adobe Experience Platform sert de colonne vertébrale, ce qui permet aux marqu
 * **Profil client en temps réel** : crée des profils unifiés en fusionnant des données issues de plusieurs sources (interactions par e-mail, achats en magasin, comportement web). [Découvrir les profils](../audience/get-started-profiles.md)
 * **Couche de gouvernance** : régit l’accès aux données, la conformité en matière de confidentialité et la sécurité tout en respectant les réglementations. [Consulter la documentation sur la confidentialité](../privacy/get-started-privacy.md)
 
-### Adobe Journey Optimizer : le moteur d’orchestration {#ajo-orchestration}
+### Adobe Journey Optimizer : moteur d’orchestration {#ajo-orchestration}
 
 Adobe Journey Optimizer applique les données et les informations d’Adobe Experience Platform pour offrir des expériences clients intelligentes et personnalisées :
 
@@ -42,13 +43,13 @@ Adobe Journey Optimizer applique les données et les informations d’Adobe Ex
 * **Diffusion (connexions)** : diffuse les messages par le biais de canaux (e-mail, SMS, notifications push et courrier) ; exporte les données vers des systèmes externes. [Configurer des canaux](../configuration/get-started-configuration.md)
 * **Mesures et analyses** : effectue le suivi de l’engagement de la clientèle et des performances des campagnes avec des rapports pour une amélioration continue. [Afficher les rapports](../reports/campaign-global-report-cja.md)
 
-### Cycle d’optimisation continu {#optimization-cycle}
+### Le cycle d’optimisation continue {#optimization-cycle}
 
 Cet écosystème fonctionne comme un cycle d’optimisation continu. Les données approfondissent la compréhension des clientes et des clients, ce qui guide la personnalisation des contenus et oriente les décisions. Elles sont orchestrées dans des parcours, diffusées sur l’ensemble des canaux, mesurées pour en évaluer l’efficacité et affinées au fil du temps.
 
 ![](../assets/do-not-localize/get-started-flow.png)
 
-## Zones fonctionnelles clés {#functional-areas}
+## Principaux domaines fonctionnels {#functional-areas}
 
 Journey Optimizer comprend plusieurs zones fonctionnelles clés qui opèrent de manière parfaitement intégrée :
 
@@ -62,7 +63,7 @@ Journey Optimizer comprend plusieurs zones fonctionnelles clés qui opèrent de
 | **Connexions** | Connecter les sources de données et les canaux | Configurer les connecteurs sources, configurer les canaux, se connecter aux plateformes externes. [En savoir plus](../configuration/get-started-configuration.md) |
 | **Administration et confidentialité** | Contrôler la configuration et la conformité | Gérer les utilisateurs et les utilisatrices, configurer les sandbox, configurer les canaux, gérer les demandes d’accès à des informations personnelles. [En savoir plus](../administration/permissions.md) |
 
-### Interaction entre ces domaines {#working-together}
+### Comment ces domaines fonctionnent ensemble {#working-together}
 
 Ces domaines fonctionnels fonctionnent selon un cycle continu :
 

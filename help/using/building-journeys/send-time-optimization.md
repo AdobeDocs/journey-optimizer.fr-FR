@@ -10,10 +10,10 @@ level: Intermediate
 keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1567'
-ht-degree: 78%
+ht-degree: 77%
 
 ---
 
@@ -45,7 +45,7 @@ L’optimisation de l’heure d’envoi n’est disponible que pour les types d�
 >* L’optimisation de l’heure d’envoi s’applique uniquement aux canaux **E-mail** et **Notification push**.
 >
 
-## Utilisation de l’optimisation de l’heure d’envoi{#use-send-time-optimization}
+## Utiliser l’optimisation de l’heure d’envoi{#use-send-time-optimization}
 
 Pour activer et configurer l’optimisation de l’heure d’envoi sur une action push ou un e-mail, procédez comme suit.
 

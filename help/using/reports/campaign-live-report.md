@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '3543'
 ht-degree: 98%
@@ -470,7 +470,7 @@ Le widget **[!UICONTROL Performances des SMS par date]** offre une vue d’ense
 
 +++
 
-### SMS – Causes d’erreur {#sms-error-reasons}
+### SMS - Causes d’erreur {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -479,7 +479,7 @@ Le widget **[!UICONTROL Performances des SMS par date]** offre une vue d’ense
 
 Les graphes et le tableau **[!UICONTROL Causes d’exclusion]** permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi de vos SMS au cours des dernières 24 heures, ce qui facilite l’analyse approfondie de tous les problèmes rencontrés.
 
-### SMS – Causes d’exclusion {#sms-excluded-reasons}
+### SMS - raisons d’exclusion {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -556,7 +556,7 @@ Le tableau **[!UICONTROL Interactions par élément]** présente des information
 
 Depuis le **[!UICONTROL Rapport dynamique]** de votre campagne, l’onglet **[!UICONTROL Courrier]** présente les informations principales relatives à votre courrier.
 
-### Courrier – Statistiques d’envoi {#direct-mail-sending}
+### Courrier - Statistiques d’envoi {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -579,7 +579,7 @@ Le tableau **[!UICONTROL Courrier – Statistiques d’envoi]** fournit un résu
 
 +++
 
-### Courrier – Causes d’erreur {#direct-mail-error-reasons}
+### Courrier - Causes d’erreur {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -590,7 +590,7 @@ Le tableau **[!UICONTROL Courrier – Statistiques d’envoi]** fournit un résu
 
 Les graphes et le tableau **[!UICONTROL Courrier – Causes d’erreur]** permettent d’identifier les erreurs spécifiques qui se sont produites pendant le processus d’envoi de votre courrier, ce qui permet d’analyser en détail les éventuels problèmes rencontrés au cours des dernières 24 heures.
 
-### Courrier – Causes d’exclusion {#direct-mail-excluded-reasons}
+### Publipostage direct - raisons d’exclusion {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 82%
@@ -321,7 +321,7 @@ Si vous disposez d’une mise en œuvre hybride, consultez les liens ci-dessous.
 * Blog sur les technologies Adobe : [Personnalisation hybride dans le SDK web d’Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * Documentation SDK : [Personnalisation hybride à l’aide du SDK web et de l’API Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=fr){target="_blank"}
 
-## Déboguer les appels d’API réseau d’Edge avec Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
+## Déboguer les appels d’API réseau Edge avec l’assurance Adobe Experience Platform {#debugging-edge-api-assurance}
 
 Lors de l’utilisation directe de l’API Edge Network pour les expériences basées sur le code (sans utiliser Web SDK ou Mobile SDK), vous pouvez déboguer vos appels API avec Adobe Experience Platform Assurance en incluant l’ID de session Assurance comme en-tête de jeton de validation.
 
@@ -368,5 +368,5 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
 -->

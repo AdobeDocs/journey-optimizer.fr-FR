@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -96,7 +96,7 @@ En tant que responsable marketing ou qu’utilisateur ou utilisatrice profession
 
 **Les fonctionnalités clés que vous allez utiliser :**
 
-* **&#x200B;**&#x200B;: créez un engagement client individuel en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux. Utilisez l’activité Action unifiée pour toutes les actions de canal, l’activité Décision de contenu pour intégrer des offres dans des parcours et Journey Agent pour créer des parcours à partir d’invites en langage naturel
+* **** : créez un engagement client individuel en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux. Utilisez l’activité Action unifiée pour toutes les actions de canal, l’activité Décision de contenu pour intégrer des offres dans des parcours et Journey Agent pour créer des parcours à partir d’invites en langage naturel
 * **Orchestration de campagne** : concevez et automatisez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle. Parfait pour les campagnes lancées par une marque, comme des promotions saisonnières, des lancements de produits et des communications basées sur les comptes. Utilisez la segmentation d’entités multiples pour créer des audiences précises en connectant les données client aux entités associées (comptes, achats, réservations). Utiliser l’envoi de vagues pour diffuser des messages par lots contrôlés
 * **Concepteur de messages moderne** : concevez et personnalisez des e-mails et des messages mobiles à l’aide d’une interface de type glisser-déposer. Modifier les modèles prêts à l’emploi pour accélérer le délai de mise sur le marché
 * **Gestion des décisions** : créez et gérez des offres, des règles d’éligibilité et d’autres composants dans une bibliothèque centralisée qui peut être incorporée dans les e-mails et les points de contact des clients. Utilisation de la prise de décision pour la personnalisation des notifications push et des SMS
@@ -109,7 +109,7 @@ En tant que responsable marketing ou qu’utilisateur ou utilisatrice profession
 
 [Commencer en tant que responsable marketing →](path/marketer.md)
 
-### Pour les ingénieurs et ingénieures de données {#for-data-engineers}
+### Pour les ingénieurs de données {#for-data-engineers}
 
 En tant qu’architecte ou ingénieur ou ingénieure de données, vous configurez et gérez les données de profil client et d’autres sources de données utilisées dans les expériences orchestrées par Journey Optimizer.
 
@@ -210,7 +210,7 @@ La réussite des implémentations de Journey Optimizer nécessite une collaborat
 
 Pour en savoir plus sur les principales fonctionnalités et les personas les plus importants de Journey Optimizer, regardez la vidéo de présentation. La vidéo présente l’interface d’utilisation et met en évidence les fonctionnalités clés en fonction des workflows spécifiques aux rôles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430314?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Ressources supplémentaires
 
@@ -234,7 +234,7 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 
 >[!TAB Communauté et assistance]
 
-* [Communauté Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
-* [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Posez des questions et partagez vos connaissances.
+* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
+* [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Posez des questions et partagez vos connaissances.
 
 >[!ENDTABS]

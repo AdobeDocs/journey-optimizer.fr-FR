@@ -9,14 +9,14 @@ badge: label="Disponibilité limitée" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Utiliser GenStudio for Performance Marketing {#ajo-genstudio}
+# Utilisation de GenStudio pour le marketing de performances {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -220,4 +220,4 @@ Oui, GenStudio est conçu pour la collaboration. Plusieurs membres de l’équip
 
 Découvrez le processus d’export d’un modèle d’e-mail de Journey Optimizer vers GenStudio for Performance Marketing, de création d’e-mails conformes à la marque à l’aide du modèle dans GenStudio et de réimport transparent dans Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456051/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

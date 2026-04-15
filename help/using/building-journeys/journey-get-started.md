@@ -9,14 +9,14 @@ level: Beginner, Intermediate
 hide: true
 keywords: parcours, orchestration, prise en main, intégration, fonctionnalités
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
-# Guide complet - Journey Orchestration{#journey-orchestration-guide}
+# orchestration des parcours - guide complet{#journey-orchestration-guide}
 
 Les parcours dans [!DNL Adobe Journey Optimizer] vous permettent de créer des parcours clients personnalisés et à plusieurs étapes qui s’adaptent en temps réel au comportement et aux besoins de votre audience. Grâce à une zone de travail intuitive par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal.
 
@@ -38,7 +38,7 @@ Le concepteur de parcours Journey Optimizer fournit tout ce dont les spécialis
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Diffusion en temps réel et par lots**
 
@@ -58,7 +58,7 @@ Tirez parti des **données contextuelles** issues des événements, des informat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Actions intégrées**
 
@@ -68,7 +68,7 @@ Utilisez des **actions de canal intégrées** pour envoyer des messages conçus 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Actions personnalisées**
 
@@ -78,7 +78,7 @@ Créez des **actions personnalisées** si vous utilisez un système tiers pour e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Concepteur de parcours visuel**
 
@@ -88,7 +88,7 @@ Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Tester et optimiser**
 
@@ -109,7 +109,7 @@ Le [concepteur de parcours](using-the-journey-designer.md) fournit des [actions 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Apprendre à travers des cas d’utilisation**
 
@@ -119,7 +119,7 @@ Explorez des cas d’utilisation de parcours complets de bout en bout qui montre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Bienvenue aux personnes nouvellement abonnées**
 
@@ -129,7 +129,7 @@ Envoyez un parcours de bienvenue personnalisé lorsque les personnes s’abonnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimiser les heures d’envoi des e-mails**
 
@@ -139,7 +139,7 @@ Utilisez l’optimisation de l’heure d’envoi optimisée par l’IA pour diff
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Accélérer les diffusions**
 
@@ -149,7 +149,7 @@ Augmentez progressivement le volume des messages pour consolider votre réputati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Cible par jour de la semaine**
 
@@ -159,7 +159,7 @@ Envoyez un contenu différent en fonction du jour de la semaine où les personne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **FAQ sur les parcours**
 
@@ -177,17 +177,17 @@ Trouvez des réponses aux questions fréquentes sur la création de parcours, le
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **Créer et gérer des parcours**
 
 Cette section contient des conseils détaillés pour la conception, le test, la publication et le suivi des parcours clients afin de créer des campagnes omnicanales personnalisées.
 
-[Explorer la création de parcours](../../rp_landing_pages/create-journey-landing-page.md) | [Découvrir la gestion des parcours &#x200B;](../../rp_landing_pages/manage-journey-landing-page.md) | [Étapes de workflow des parcours](journey.md#workflow)
+[Explorer la création de parcours](../../rp_landing_pages/create-journey-landing-page.md) | [Découvrir la gestion des parcours ](../../rp_landing_pages/manage-journey-landing-page.md) | [Étapes de workflow des parcours](journey.md#workflow)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Activités de parcours**
 
@@ -197,7 +197,7 @@ Découvrez comment configurer et utiliser des activités telles que les déclenc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Expressions et conditions**
 
@@ -207,7 +207,7 @@ Maîtrisez la création d’expressions pour les workflows dynamiques, la manipu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **Dépannage et surveillance**
 
@@ -217,7 +217,7 @@ Diagnostiquez et résolvez les problèmes d’exécution de parcours à l’aide
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Vue d’ensemble du concepteur de parcours**
 
@@ -227,7 +227,7 @@ Découvrez la zone de travail des parcours et la palette ; découvrez comment c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Tester et publier**
 
@@ -242,7 +242,7 @@ Testez minutieusement vos parcours avant de les publier afin de vous assurer qu�
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### Ressources supplémentaires
 

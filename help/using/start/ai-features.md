@@ -8,14 +8,14 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1777'
-ht-degree: 82%
+ht-degree: 80%
 
 ---
 
-# Fonctionnalités intelligentes et IA {#ai-features}
+# Fonctionnalités intelligentes et fonctionnalités d’IA {#ai-features}
 
 Adobe Journey Optimizer exploite la puissance de l’intelligence artificielle et du machine learning pour transformer la manière dont vous créez, optimisez et diffusez des expériences clients exceptionnelles. Depuis la génération de contenu personnalisé jusqu’à la prévision d’heures d’envoi optimales, les fonctionnalités d’IA rationalisent votre workflow et maximisent l’impact. Les playbooks de cas d’utilisation fournissent des modèles préconfigurés pour rapidement mettre en œuvre des scénarios marketing courants.
 
@@ -33,7 +33,7 @@ Cliquez sur l’icône de l’assistant AI dans la barre supérieure pour ouvrir
 >
 >Avant de pouvoir utiliser l’assistant IA, vous devez accepter les [directives d’utilisation de l’IA générative d’Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-### Capacités de l’assistant IA
+### Ce que peut faire l’assistant d’IA
 
 **Connaissance du produit** : posez des questions sur les fonctionnalités et les concepts d’Adobe Journey Optimizer :
 
@@ -51,7 +51,7 @@ Cliquez sur l’icône de l’assistant AI dans la barre supérieure pour ouvrir
 >
 >Actuellement, les informations opérationnelles ne sont disponibles que pour les **parcours** et reflètent les données de votre sandbox actuel.
 
-### Utilisation de l’assistant IA
+### Utilisation de l’assistant d’IA
 
 1. Saisissez votre question dans le champ de texte en bas du panneau.
 2. Appuyez sur Entrée pour envoyer votre requête.
@@ -63,7 +63,7 @@ Cliquez sur l’icône de l’assistant AI dans la barre supérieure pour ouvrir
 
 [En savoir plus sur l’assistant IA d’Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}
 
-## Agents IA avancés pour l’optimisation des parcours {#ai-agents}
+## Agents AI avancés pour l’optimisation des Parcours {#ai-agents}
 
 En s’appuyant sur les capacités de conversation de l’assistant IA, Adobe Journey Optimizer propose des agents IA spécialisés qui fournissent une analyse approfondie et des recommandations exploitables pour l’optimisation et l’expérimentation des parcours.
 
@@ -81,7 +81,7 @@ Journey Agent comprend deux compétences dans l’assistant AI : Analyser et Cr�
 
 +++
 
-#### Compétence en analyse de parcours {#journey-analyze-skill}
+#### compétence d&#39;analyse de parcours {#journey-analyze-skill}
 
 L’[agent d&#39;analyse de parcours](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} vous aide à optimiser les performances du parcours grâce à l’analyse du langage naturel :
 
@@ -104,9 +104,9 @@ L’[agent d&#39;analyse de parcours](https://experienceleague.adobe.com/fr/docs
 +++
 
 
-#### Parcours Create Skill {#journey-create-skill}
+#### Parcours créer une compétence {#journey-create-skill}
 
-L’agent de création de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
+L’agent de création de Parcours [](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
 
 +++**Fonctions principales**
 
@@ -165,7 +165,7 @@ L’[agent Experimentation](https://experienceleague.adobe.com/fr/docs/experienc
 
 **Agent Orchestrator** : il coordonne plusieurs agents spécialisés afin de résoudre des défis marketing complexes en plusieurs étapes. L’orchestrateur détermine automatiquement quels agents impliquer et planifie leurs actions de manière optimale. [En savoir plus sur l’agent Orchestrator](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
-## Génération de contenu optimisé par l’IA {#content-generation}
+## Génération de contenu optimisée par l’IA {#content-generation}
 
 Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieurs canaux, et ainsi accélérer votre processus de création de contenu tout en préservant la cohérence de la marque. L’assistant IA pour la génération de contenu est disponible pour les expériences [e-mail](../email/get-started-email.md), [notifications push](../push/get-started-push.md), [SMS](../sms/get-started-sms.md) et [web](../web/get-started-web.md). Il vous permet de générer des objets, le corps des messages, des images et des variantes complètes des messages.
 
@@ -175,7 +175,7 @@ Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieu
 * **Génération de texte** : créez des contenus attrayants en accord avec le ton et les objectifs de votre marque. [Génération de texte avec l’IA](../content-management/generative-text.md)
 * **Génération d’images** : générez des images personnalisées à l’aide d’Adobe Firefly. [Génération d’images avec l’IA](../content-management/generative-image.md)
 * **Variantes de contenu** : produisez plusieurs variantes pour les tests A/B. [Expérience de contenu avec l’IA](../content-management/generative-experimentation.md)
-* **&#x200B;**&#x200B;- Dans l’éditeur Personalization, générez de nouvelles expressions, expliquez le code existant ou corrigez les problèmes avec l’assistant AI. [Assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
+* **** - Dans l’éditeur Personalization, générez de nouvelles expressions, expliquez le code existant ou corrigez les problèmes avec l’assistant AI. [Assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
 * **Alignement sur la marque** : assurez-vous que le contenu généré correspond aux consignes de votre marque. [Évaluation de l’alignement sur la marque](../content-management/brands-score.md)
 * **Prise en charge des modèles** : utilisez vos modèles d’e-mail existants. [Utiliser des modèles de contenu](../content-management/content-templates.md)
 
@@ -272,7 +272,7 @@ Parcourez les playbooks Journey Optimizer pour obtenir des scénarios courants t
 
 +++
 
-[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=fr){target="_blank"}
+[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Fonctionnalités d’IA supplémentaires {#additional-capabilities}
 
@@ -282,13 +282,13 @@ Transformez des images statiques (JPEG, PNG) en modèles d’e-mail HTML modifia
 
 [En savoir plus sur la conversion d’images en HTML](../content-management/image-to-html.md)
 
-### GenStudio for Performance Marketing
+### GenStudio pour le marketing de performances
 
 Intégrez-la à Adobe GenStudio for Performance Marketing pour créer du contenu d’e-mail optimisé par IA et importer des modèles dans Journey Optimizer pour orchestration. Exportez les modèles Journey Optimizer vers GenStudio, générez des variations avec l’IA et ramenez-les pour déploiement. (Disponibilité limitée, canal e-mail uniquement.)
 
 [En savoir plus sur GenStudio](../integrations/genstudio.md)
 
-### Marque : évaluation de l’alignement
+### Score d’alignement de la marque
 
 Évaluez l’alignement de votre contenu sur les consignes de votre marque à l’aide d’un système de notation optimisé par l’IA qui mesure la cohérence du ton, du style et des messages.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 91%
@@ -140,7 +140,7 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 * Votre utilisation de l’assistant IA est soumise aux directives d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Dans le cadre de l’engagement d’Adobe à promouvoir la transparence dans l’utilisation des outils d’IA générative dans la création de médias, Adobe appliquera Content Credentials lorsque le contenu ou un projet qui incluait une ressource générée par un Firefly est téléchargé ou exporté. [En savoir plus](https://helpx.adobe.com/fr/firefly/using/content-credentials.html)
 
-### Assistant AI dans l’éditeur Personalization {#ai-assistant-personalization-editor-guardrails}
+### Assistant IA dans l’éditeur de personnalisation {#ai-assistant-personalization-editor-guardrails}
 
 Les mécanismes de sécurisation suivants s’appliquent à [l’assistant AI pour les expressions de personnalisation](generative-personalization-expressions.md) dans l’éditeur de Personalization .
 

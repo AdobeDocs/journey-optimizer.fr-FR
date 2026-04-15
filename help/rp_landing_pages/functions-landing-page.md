@@ -5,7 +5,7 @@ title: Liste des fonctions d’assistance
 description: Liste des fonctions d’assistance
 redpen-status: CREATED_||_2025-08-12_00-34-42
 exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Les fonctions d’assistance d’Adobe Journey Optimizer permettent de personn
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec les fonctions d’assistance
 
@@ -30,7 +30,7 @@ Découvrez comment utiliser les fonctions d’assistance pour la manipulation et
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Bibliothèque des fonctions d’agrégation
 
@@ -40,7 +40,7 @@ Découvrez des fonctions permettant de résumer plusieurs valeurs en une seule v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Bibliothèque de fonctions arithmétiques
 
@@ -50,7 +50,7 @@ Découvrez la façon dont les fonctions arithmétiques effectuent des calculs te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Référence des fonctions de tableau et de liste
 
@@ -60,7 +60,7 @@ Découvrez comment manipuler des tableaux et des listes avec des fonctions telle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Bibliothèque des fonctions de date et d’heure
 
@@ -70,7 +70,7 @@ Utilisez les fonctions de date et d’heure pour manipuler et mettre en forme le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Bibliothèque de fonctions booléennes et de comparaison
 

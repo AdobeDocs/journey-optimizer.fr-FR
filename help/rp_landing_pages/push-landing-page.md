@@ -5,7 +5,7 @@ title: Canal des notifications push
 description: Canal des notifications push
 redpen-status: CREATED_||_2025-08-11_20-37-12
 exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
@@ -25,12 +25,12 @@ Les notifications push peuvent être créées :
 
 * Dans un **parcours** : une fois que vous avez ajouté une activité push à votre parcours et défini des paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : notification push]** pour créer le contenu des notifications push. [Découvrez comment créer un parcours.](../using/building-journeys/journey-gs.md)
 
-* Dans une **campagne** : une fois une campagne créée, sélectionnez Notification push comme action et définissez les paramètres de base. [Découvrez comment créer une campagne.](../using/campaigns/create-campaign.md#configure).
+* Dans une **campagne** : une fois une campagne créée, sélectionnez Notification push comme action et définissez les paramètres de base. [Découvrir comment créer une campagne](../using/campaigns/create-campaign.md#configure)
 
 
 >[!NOTE]
 >
->Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les désinscriptions des e-mails et des SMS, les notifications push ne nécessitent aucune action de votre part, car les destinataires peuvent annuler leur abonnement depuis leurs appareils. Par exemple, lors du téléchargement ou de l’utilisation de votre application, ils peuvent choisir d’arrêter les notifications. De même, ils peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile.
+>Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les désinscriptions des e-mails et des SMS, les notifications push ne nécessitent aucune action de votre part, car les destinataires peuvent annuler leur abonnement depuis leurs appareils. Par exemple, lors du téléchargement ou de l’utilisation de votre application, les destinataires peuvent choisir d’arrêter les notifications. De même, ils peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile.
 
 
 ## Canal des notifications push
@@ -38,7 +38,7 @@ Les notifications push peuvent être créées :
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Créer et envoyer des notifications push
 
@@ -48,7 +48,7 @@ Guide détaillé sur la création et la configuration des notifications push, no
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Concevoir votre notification push
 
@@ -58,7 +58,7 @@ Découvrez comment concevoir et personnaliser des notifications push avec des m�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prévisualiser, valider et envoyer des notifications push
 
@@ -68,7 +68,7 @@ Découvrez comment prévisualiser, valider et envoyer des notifications push, en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuration des notifications push
 

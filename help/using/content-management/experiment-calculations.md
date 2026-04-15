@@ -9,10 +9,10 @@ role: User
 level: Experienced
 keywords: contenu, expérience, statistique, calcul
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ Le tableau ci-dessus illustre les différents types d’erreurs :
 
 La plupart des techniques d’inférence statistique nécessitent que vous fixiez préalablement la taille de l’échantillon, en fonction de la taille de l’effet que vous souhaitez déterminer, ainsi que votre tolérance d’erreur (`\alpha` et `\beta`) tout cela à l’avance. Toutefois, la méthodologie d’Adobe Journey Optimizer est conçue pour vous permettre d’examiner en permanence vos résultats, quelle que soit la taille de l’échantillon.
 
-## Méthodologie statistique d’Adobe : séquences de confiance valides à tout moment
+## Méthodologie statistique d’Adobe : séquences de confiance valides à tout moment
 
 Une **Séquence de confiance** est l’analogie séquentielle d’un **Intervalle de confiance**, par exemple, si vous répétez vos expériences cent fois, et calculez une estimation de la mesure moyenne et de sa séquence de confiance de 95 % associée pour chaque nouvel utilisateur qui entre dans l’expérience, Une séquence de confiance de 95 % inclut la valeur réelle de la mesure dans 95 des 100 expériences exécutées. Un intervalle de confiance de 95 % ne pouvait être calculé qu’une seule fois par expérience afin de fournir la même garantie de couverture de 95 % ; et pas avec chaque nouvel utilisateur. Les séquences de confiance vous permettent donc de surveiller en permanence les expériences, sans augmenter les taux d’erreurs Faux Positifs.
 
@@ -70,7 +70,7 @@ Les fondements théoriques des **Séquences de confiance** proviennent de l’é
 
 Il est important de noter que, puisque les séquences de confiance sont « valides à tout moment », elles seront plus conservatrices qu’une méthodologie d’horizon fixe utilisée à la même taille d’échantillon. Les limites de la séquence de confiance sont généralement plus larges qu’un calcul d’intervalle de confiance, tandis que le degré de confiance valide à tout moment sera plus petit qu’un calcul de confiance à horizon fixe. L’avantage de ce conventionnalisme est que vous pouvez en toute sécurité interpréter vos résultats à tout moment.
 
-## Déclaration d’une expérience comme étant concluante
+## Déclaration d’une expérience comme concluante
 
 ![](assets/experimentation_report_2.png)
 

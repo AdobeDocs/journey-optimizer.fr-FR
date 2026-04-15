@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -105,7 +105,7 @@ Une fois configurées, les sources s’exécutent automatiquement en arrière-pl
 
 Regardez cette vidéo pour comprendre les connecteurs sources et comment les configurer dans Journey Optimizer :
 
->[!VIDEO](https://video.tv.adobe.com/v/3422583?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Pour plus d’informations sur la configuration et la gestion des sources, consultez la [documentation sur les sources Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.
 

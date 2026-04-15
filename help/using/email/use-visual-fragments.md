@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Pour utiliser un fragment dans un email, procédez comme suit :
 
    >[!CAUTION]
    >
-   >Vous pouvez ajouter n’importe quel fragment ayant un statut **Brouillon** ou **Actif** à votre contenu. Cependant, vous ne pouvez pas activer votre parcours ou votre campagne si un fragment ayant le statut de brouillon est utilisé dans ce parcours ou cette campagne. Lors de la publication du parcours ou de la campagne, les fragments de brouillon affichent une erreur et vous devez les approuver pour pouvoir les publier.
+   >Vous pouvez ajouter n’importe quel fragment **Brouillon** ou **Actif** à votre contenu. Cependant, vous ne pouvez pas activer votre parcours ou votre campagne si un fragment ayant le statut de brouillon est utilisé dans ce parcours ou cette campagne. Lors de la publication du parcours ou de la campagne, les brouillons de fragment affichent une erreur et vous devez les approuver pour pouvoir les publier.
 
 1. Comme tout autre composant, vous pouvez déplacer le fragment dans votre contenu.
 
@@ -72,7 +72,7 @@ Pour utiliser un fragment dans un email, procédez comme suit :
 
 1. Ajoutez autant de fragments que vous le souhaitez. Vous pouvez ensuite **[!UICONTROL enregistrer]** vos modifications.
 
-### Limites liées à l’utilisation de contenu dynamique dans les fragments {#fragment-dynamic-content}
+### Restrictions liées à l’utilisation de contenu dynamique dans les fragments {#fragment-dynamic-content}
 
 >[!CAUTION]
 >

@@ -6,14 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
-# Fonctions de date/heure{#date-time}
+# Fonctions de date et d’heure{#date-time}
 
 Les fonctions de date et d’heure sont utilisées pour effectuer des opérations de date et d’heure sur des valeurs dans Journey Optimizer.
 
@@ -503,7 +503,7 @@ Sortie (exemple) : `18/03/2026 14:30`
 
 >[!CAUTION]
 >
->**Erreur courante : « entrée incohérente &#39;(&#39; en attente de \&lt;EOF\> »**
+>**Erreur courante : « entrée incohérente &#39;(&#39; attendue \&lt;EOF\>«**
 >
 >Cette erreur de syntaxe PQL se produit lors de l’utilisation de `formatDate()` avec un horodatage d’événement de contexte intégré (`{%= formatDate(...) %}`). Les causes les plus courantes sont un identifiant d’événement numérique qui n’est pas encapsulé dans des accents graves (`` ` ``) ou un champ d’horodatage transmis directement à `formatDate()` sans l’encapsuler d’abord dans `toDateTime()`. Pour résoudre les deux problèmes, utilisez le modèle d’affectation de `{% let %}` illustré dans l’exemple ci-dessus.
 

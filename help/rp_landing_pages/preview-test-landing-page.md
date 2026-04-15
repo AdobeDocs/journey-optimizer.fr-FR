@@ -5,8 +5,8 @@ title: Prévisualiser et tester du contenu
 description: Validez la précision du message avant le lancement. Prévisualisez du contenu personnalisé avec des profils de test, envoyez des BAT aux parties prenantes, vérifiez le rendu des e-mails sur différents clients, évaluez les scores de spam et testez efficacement plusieurs variations de contenu.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 Garantissez une diffusion parfaite des messages en détectant les erreurs avant qu’elles n’atteignent les clientes et clients. La prévisualisation du contenu valide la précision de la personnalisation sur différents profils clients, tandis que les outils de test révèlent des problèmes de rendu, des risques de spam et des variations de contenu susceptibles d’avoir un impact sur l’engagement. Accédez à des fonctionnalités complètes pour envoyer des BAT aux parties prenantes, simuler la personnalisation avec des données d’exemple, vérifier le rendu des e-mails sur différents clients et évaluer les mesures de délivrabilité, le tout avant activation. Maîtrisez ces techniques de validation pour protéger la réputation de la marque, optimiser le placement dans les boîtes de réception et offrir systématiquement d’excellentes expériences pour les clientes et clients.
 
-## Prévisualiser et tester le contenu
+## Prévisualiser et tester du contenu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prévisualiser et tester votre contenu
 
@@ -38,7 +38,7 @@ Découvrez comment utiliser des profils de test et des exemples de données d’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Sélectionner des profils de test
 
@@ -48,7 +48,7 @@ Découvrez comment sélectionner et gérer des profils de test pour prévisualis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prévisualiser votre contenu à l’aide de profils de test
 
@@ -58,7 +58,7 @@ Guide détaillé pour la prévisualisation de contenu personnalisé à l’aide 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Envoyer des BAT à l’aide des données de profil de test
 
@@ -78,7 +78,7 @@ Intégrez Litmus pour prévisualiser le rendu des e-mails sur les principaux cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simuler et tester des variations de contenu
 

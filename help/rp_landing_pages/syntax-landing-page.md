@@ -5,10 +5,10 @@ title: Syntaxe
 description: Syntaxe
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Explorez les puissantes fonctionnalités de syntaxe de l’éditeur d’expression avancé d’Adobe Journey Optimizer, qui permet de créer des expressions précises et dynamiques pour affiner les parcours clients. Que vous organisiez des données complexes avec des opérateurs, interrogiez des collections ou appliquiez une logique conditionnelle, les outils de syntaxe vous offrent la possibilité de vous adapter à des scénarios réels. Explorez des sujets essentiels tels que les références de champ pour accéder aux données, les types de données pour garantir la précision et les propriétés de parcours pour la personnalisation en temps réel. Chaque concept s’appuie sur le précédent, créant une boîte à outils cohérente pour créer des parcours plus intelligents et plus efficaces. Vous souhaitez élargir le champ des possibles ? Alors commençons !
 
-## Syntaxe : créer des expressions dans Adobe Journey Optimizer
+## Syntaxe : création d’expressions dans Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Syntaxe de l’éditeur d’expression avancé
 
@@ -30,7 +30,7 @@ Découvrez les règles de syntaxe détaillées pour utiliser l’éditeur d’ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Instruction conditionnelle (if, then, else/si, alors, sinon)
 
@@ -40,7 +40,7 @@ Maîtrisez l’utilisation d’instructions conditionnelles pour créer des expr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation des types de données
 
@@ -50,7 +50,7 @@ Obtenez une vue d’ensemble complète des types de données utilisés dans les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilisation de références de champ
 
@@ -60,7 +60,7 @@ Découvrez comment référencer des champs dans les expressions, y compris les c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Fonctions de gestion des collections
 

@@ -5,10 +5,10 @@ title: Assistant IA pour la génération de contenu
 description: Assistant IA pour la génération de contenu
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 L’assistant IA d’Adobe Journey Optimizer révolutionne la création de contenu en exploitant l’IA générative pour concevoir du texte et des visuels personnalisés pour les e-mails, les SMS, les notifications push, les pages web, etc. Que vous génériez des campagnes complètes ou affiniez des ressources spécifiques, cette fonctionnalité vous permet d’aligner facilement le contenu avec les directives de votre marque tout en gagnant du temps. Vous découvrirez comment accéder à l’assistant IA, comprendre ses mécanismes de sécurisation et exploiter ses fonctionnalités sur différents canaux. Chaque sous-rubrique offre des conseils pratiques, de la conception d’e-mails attrayants à l’expérimentation de variations de contenu, afin que vous puissiez créer en toute confiance des campagnes percutantes sur la marque qui trouvent un écho auprès de votre audience.
 
-## Assistant IA pour la génération de contenu
+## Assistant d’IA pour la génération de contenu
 
 :::: landing-cards-container
 :::
@@ -50,7 +50,7 @@ Utilisez l’assistant IA pour générer et affiner du contenu textuel pour tous
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Générer uniquement des images
 

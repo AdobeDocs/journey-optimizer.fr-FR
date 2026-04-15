@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, cas d’utilisation, jours de la semaine, condition, e-mail, planification
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1068'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 >[!NOTE]
 >
->Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou un [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours &#x200B;](conditions.md) et des [expressions](expression/expressionadvanced.md).
+>Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou un [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours ](conditions.md) et des [expressions](expression/expressionadvanced.md).
 
 ## Étapes dʼimplémentation
 
@@ -51,11 +51,11 @@ Suivez ces étapes pour créer un flux d’e-mail en semaine uniquement.
    * **[Lecture d’audience](read-audience.md)** : pour les campagnes par lots ciblant une audience spécifique
    * **[Événement](../event/about-events.md)** : pour les parcours déclenchés en temps réel en fonction du comportement client
 
-### Étape 2 : ajouter une activité Condition pour vérifier le jour de la semaine
+### Étape 2 : ajoutez une activité de condition pour vérifier le jour de la semaine
 
 Juste après le début du parcours, ajoutez une activité **[!UICONTROL Condition]** pour vérifier si le jour actuel est un samedi ou un dimanche. Le workflow sera ainsi divisé en conséquence.
 
-1. Faites glisser et déposez une activité [**[!UICONTROL Optimiser &#x200B;]**](optimize.md) sur la zone de travail après votre point d’entrée.
+1. Faites glisser et déposez une activité [**[!UICONTROL Optimiser ]**](optimize.md) sur la zone de travail après votre point d’entrée.
 
 1. Cliquez sur l’activité **[!UICONTROL Condition]** pour ouvrir son panneau de configuration.
 
@@ -78,7 +78,7 @@ Juste après le début du parcours, ajoutez une activité **[!UICONTROL Conditio
 >
 >Le fuseau horaire utilisé pour l’évaluation des jours de la semaine est défini au niveau du parcours dans les propriétés du parcours, et non au niveau de la condition. Le [fuseau horaire](timezone-management.md) du parcours utilisé dans la formule est le fuseau horaire configuré du parcours, et non celui des destinataires.
 
-### Étape 3 : configurer les activités d’attente pour les entrées pendant les week-ends
+### Étape 3 : configurer les activités d&#39;attente pour les entrées du week-end
 
 Pour les profils qui rejoignent le parcours le samedi ou le dimanche, utilisez les activités **[!UICONTROL Attente]** avec des formules personnalisées pour reporter l’envoi de l’e-mail au lundi, à l’heure souhaitée.
 
@@ -190,4 +190,4 @@ Une fois les tests effectués :
 * [Activité d’attente](wait-activity.md) : configurer des durées d’attente et des formules
 * [Fonctions de date](functions/date-functions.md) : référence complète pour les fonctions de date et d’heure
 * [Éditeur d’expression](expression/expressionadvanced.md) : créer des expressions complexes
-* [Bonnes pratiques relatives aux parcours &#x200B;](journey-gs.md#best-practices) : approches recommandées pour la conception de parcours
+* [Bonnes pratiques relatives aux parcours ](journey-gs.md#best-practices) : approches recommandées pour la conception de parcours

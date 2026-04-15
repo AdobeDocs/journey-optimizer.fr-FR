@@ -6,10 +6,11 @@ description: Termes et concepts essentiels dans Adobe Journey Optimizer
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
-workflow-type: ht
+exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +49,7 @@ Ce guide de référence définit les termes essentiels que vous rencontrerez lor
 | **Audience engageable** | Nombre de profils clients que vous pouvez contacter activement via Adobe Journey Optimizer en fonction de votre contrat de licence. Cela fait généralement référence aux profils engagés au cours des 12 derniers mois. |
 | **Profil de test** | Profils fictifs utilisés pour tester et prévisualiser des messages avant de les envoyer à des clientes et clients réels. Les profils de test permettent de vérifier la personnalisation, le contenu et la logique du parcours. [En savoir plus](../audience/creating-test-profiles.md) |
 
-## Termes relatifs au contenu et à la personnalisation {#content-terms}
+## Termes de contenu et de personnalisation {#content-terms}
 
 | Terme | Définition |
 |------|------------|
@@ -57,7 +58,7 @@ Ce guide de référence définit les termes essentiels que vous rencontrerez lor
 | **Fragment** | Bloc de contenu réutilisable (par exemple, en-tête, pied de page ou bannière promotionnelle) pouvant être utilisé sur plusieurs messages pour garantir la cohérence et permettre des mises à jour centralisées. [En savoir plus](../content-management/fragments.md) |
 | **Page de destination** | Page web autonome sur laquelle les clients et clients peuvent s’inscrire ou se désinscrire des communications, s’abonner à des services ou fournir des informations au moyen de formulaires en ligne. [En savoir plus](../landing-pages/get-started-lp.md) |
 
-## Termes relatifs aux offres et aux décisions {#decision-terms}
+## Conditions des décisions et des offres {#decision-terms}
 
 | Terme | Définition |
 |------|------------|
@@ -81,4 +82,3 @@ Ce guide de référence définit les termes essentiels que vous rencontrerez lor
 * [Comprendre le fonctionnement de Journey Optimizer](understanding-ajo.md)
 * [Commencer avec l’interface utilisateur](user-interface.md)
 * [Choisir votre rôle et votre parcours de formation](quick-start.md)
-

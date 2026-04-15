@@ -10,14 +10,14 @@ level: Beginner
 keywords: parcours, campagne, orchestré, comparaison, choisir, décision, workflow, temps réel, lot, orchestration, à plusieurs étapes, planifié, déclenché par API, piloté par événement
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
-# Parcours ou campagnes : choisir la bonne approche {#journeys-vs-campaigns}
+# Parcours ou campagnes : choisissez la bonne approche {#journeys-vs-campaigns}
 
 [!DNL Adobe Journey Optimizer] offre deux méthodes principales pour atteindre et impliquer vos clients : **Parcours** et **Campagnes**. Les parcours sont conçus pour une orchestration en temps réel et à plusieurs étapes basée sur le comportement du client. Les campagnes sont mieux adaptées aux diffusions ponctuelles ou planifiées vers une audience définie. Une fois que vous avez choisi une campagne, vous pouvez choisir le type de campagne qui correspond le mieux à votre cas d’utilisation.
 
@@ -34,7 +34,7 @@ Ce guide vous aide à choisir en fonction du style d’exécution, des besoins e
 
 >[!TIP]
 >
->**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez **&#x200B;**. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API**. Besoin de données multi-entités, de décomptes exacts ou d’une zone de travail par lots ? Utilisez **Campagnes orchestrées**.
+>**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez ****. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API**. Besoin de données multi-entités, de décomptes exacts ou d’une zone de travail par lots ? Utilisez **Campagnes orchestrées**.
 
 ## Comparaison détaillée {#detailed-comparison}
 
@@ -176,7 +176,7 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 * **Campagnes d’anniversaire** : entrée basée sur la date de naissance, offres personnalisées
 * **Réengagement** : déclenché par la qualification de l’audience (inactivité), la diffusion progressive
 
-### Cas d’utilisation des campagnes (action et déclenchées par API)
+### Cas d’utilisation de Campaign (déclenchés par une action et une API)
 
 **Campagnes d’action :**
 * **Newsletters mensuelles** : diffusion par lots planifiée vers le segment des personnes abonnées
@@ -236,7 +236,7 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 
 Oui. De nombreuses entreprises utilisent les quatre approches pour différents scénarios :
 
-* **&#x200B;**&#x200B;pour l’engagement comportemental en temps réel
+* **** pour l’engagement comportemental en temps réel
 * **Campagnes d’action** pour les communications de diffusion planifiées
 * **Campagnes déclenchées par API** pour les messages transactionnels
 * **Campagnes orchestrées** pour des campagnes par lots complexes et gourmandes en données
@@ -283,7 +283,7 @@ Vous souhaitez commencer à créer ? Consultez la documentation détaillée rel
 
 >[!MORELIKETHIS]
 >
->* [comparaison des types de Parcours &#x200B;](../building-journeys/journey.md#journey-types-comparison)
+>* [comparaison des types de Parcours ](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [FAQ sur les parcours](../building-journeys/journey-faq.md)
 >* [FAQ sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)

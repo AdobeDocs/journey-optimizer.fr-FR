@@ -7,10 +7,10 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2107'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -297,7 +297,7 @@ Une fois le contenu généré, utilisez la fonction **Affiner** pour l’itérer
 | **Modifier le ton** | Adapter le contenu pour différentes audiences | « Adopte un ton plus décontracté pour les jeunes. » |
 | **Transcréer** | Adaptation culturelle au-delà de la traduction | « Transcrée cette campagne pour le marché japonais. » |
 
-## Exemples de prompts basés sur un scénario
+## Exemples d’invites basées sur un scénario
 
 ### En fonction du type de contenu {#content-type-practices}
 

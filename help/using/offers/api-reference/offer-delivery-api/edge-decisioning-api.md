@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ Pour personnaliser les offres, vous devez configurer séparément vos options de
 
 Pour configurer le SDK pour la gestion des décisions, procédez à l’une des deux étapes ci-dessous :
 
-## Option 1 : installer l’extension de balise et l’implémentation à l’aide de Launch
+## Option 1 - Installer l’extension de balise et l’implémentation à l’aide de launch
 
 Cette approche est plus conviviale pour les personnes qui ont moins d’expérience en matière de codage.
 

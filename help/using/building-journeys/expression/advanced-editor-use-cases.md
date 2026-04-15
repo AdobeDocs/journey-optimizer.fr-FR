@@ -10,7 +10,7 @@ hide: true
 keywords: expression, condition, cas d’utilisation, événements
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 95%
@@ -114,7 +114,7 @@ Cette expression renvoie une valeur booléenne.
 
 De là, vous pouvez ajouter un autre chemin dans votre parcours pour les cas où le produit ne se trouve pas en magasin et envoyer une notification avec une offre d’engagement. Configurez les messages en conséquence et utilisez les données de personnalisation pour améliorer le ciblage de ces messages.
 
-## Filtrage d’horodatage dans les expressions
+## Filtrage de date et heure dans les expressions
 
 Lors du référencement de plusieurs événements d’activité de panier, spécifiez une fenêtre d’horodatage de début et de fin pour éviter de récupérer des données historiques. Par exemple :
 

@@ -5,10 +5,10 @@ title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,16 +21,16 @@ Les messages LINE peuvent être créés et envoyés dans un parcours ou dans une
 
 * Dans un **parcours**. Créez un parcours, ajoutez une activité LINE et définissez les paramètres de base, puis accédez au volet de droite **[!UICONTROL Actions : LINE]** pour créer le contenu du message LINE. Découvrez comment créer un parcours dans [cette page](../using/building-journeys/journey-gs.md).
 
-* Dans une **Campagne**. Créez une campagne, sélectionnez LINE comme action et définissez les paramètres de base, puis modifiez le contenu du message pour définir le message LINE à envoyer. Découvrez comment créer une campagne sur [cette page](../using/campaigns/create-campaign.md#configure).
+* Dans une **campagne**. Créez une campagne, sélectionnez LINE comme action et définissez les paramètres de base, puis modifiez le contenu du message pour définir le message LINE à envoyer. Découvrez comment créer une campagne sur [cette page](../using/campaigns/create-campaign.md#configure).
 
 Avant de créer votre message LINE, configurez votre canal LINE avec Journey Optimizer. [En savoir plus](../using/line/line-configuration.md).
 
-## Documentation sur le canal LINE
+## Documentation du canal LINE
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer le canal LINE
 
@@ -40,7 +40,7 @@ Suivez les instructions détaillées pour configurer manuellement le canal LINE 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Créer et configurer les messages LINE
 
@@ -50,7 +50,7 @@ Découvrez comment ajouter des messages LINE aux parcours et aux campagnes, pers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Vérifier et envoyer des messages LINE
 
