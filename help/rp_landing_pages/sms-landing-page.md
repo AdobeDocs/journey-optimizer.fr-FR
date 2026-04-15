@@ -30,7 +30,7 @@ Découvrez comment configurer, créer et gérer des messages SMS, MMS et RCS dan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création de messages SMS, MMS et RCS
 
@@ -40,7 +40,7 @@ Guide détaillé pour la conception, la configuration et l’envoi de SMS person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Vérifier et envoyer vos SMS
 

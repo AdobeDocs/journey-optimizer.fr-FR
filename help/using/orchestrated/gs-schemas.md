@@ -52,7 +52,7 @@ Il précise :
 
 L’organisation des schémas ou des tables dans un modèle de données relationnel consiste à structurer vos données en plusieurs tables. Assurez-vous que chaque table stocke un type d’entité/des schémas.
 
-➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Étapes dʼimplémentation {#implementation}
 

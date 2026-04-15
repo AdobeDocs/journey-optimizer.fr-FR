@@ -40,7 +40,7 @@ Cette section contient des instructions détaillées pour l’attribution, la mo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Rôles intégrés
 
@@ -50,7 +50,7 @@ Découvrez les rôles prédéfinis et les autorisations associées pour gérer e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Autorisations intégrées
 
@@ -60,7 +60,7 @@ Découvrez les autorisations disponibles et leurs fonctionnalités pour configur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Niveaux d’autorisation
 

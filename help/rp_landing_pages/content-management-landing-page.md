@@ -30,7 +30,7 @@ Découvrez comment implémenter et optimiser les fonctionnalités de personnalis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Créer des pages de destination
 

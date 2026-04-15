@@ -66,7 +66,7 @@ Effectuez un test à blanc pour simuler et valider le chemin d’exécution de v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Surveillance et dépannage
 
@@ -86,7 +86,7 @@ Testez les expressions de personnalisation dans un environnement sécurisé. Tes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Expériences de contenu et tests A/B
 
@@ -106,7 +106,7 @@ Incluez automatiquement les adresses des parties prenantes internes dans les dif
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
 
 Détection des conflits
 

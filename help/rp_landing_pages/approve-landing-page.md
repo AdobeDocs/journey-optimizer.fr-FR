@@ -50,7 +50,7 @@ Découvrez comment demander l’approbation de parcours et de campagnes, y compr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Vérifier et approuver les demandes des parcours et des campagnes
 

@@ -20,7 +20,7 @@ Le « rapport complet » d’Adobe Journey Optimizer permet de comprendre le
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer à créer des rapports complets
 

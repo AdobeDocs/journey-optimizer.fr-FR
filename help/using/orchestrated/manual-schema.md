@@ -28,7 +28,7 @@ L’exemple suivant définit manuellement le schéma **Membres du programme de f
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [Pour en savoir plus sur les schémas relationnels, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Pour en savoir plus sur les schémas relationnels, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Créer votre schéma {#schema}
 

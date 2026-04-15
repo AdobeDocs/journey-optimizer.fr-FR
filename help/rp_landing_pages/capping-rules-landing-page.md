@@ -22,7 +22,7 @@ Vous pouvez définir des limites sur la fréquence d’envoi des messages (cappi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utiliser des jeux de règles
 

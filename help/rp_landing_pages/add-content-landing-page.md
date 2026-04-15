@@ -50,7 +50,7 @@ Activez le suivi, insérez des liens et gérez l’apparence des liens pour opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Insérer des offres personnalisées
 
@@ -80,7 +80,7 @@ Structurez la couche de texte brut de votre e-mail afin que les clients de boît
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Ajouter des métadonnées
 

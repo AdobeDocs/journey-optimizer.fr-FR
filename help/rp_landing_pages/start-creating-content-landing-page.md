@@ -20,7 +20,7 @@ La création de contenu dans Adobe Journey Optimizer est synonyme de flexibili
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Concevoir entièrement le contenu d’un e-mail
 
@@ -60,7 +60,7 @@ Gagnez du temps en utilisant des modèles d’e-mail types ou personnalisés pou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utiliser les thèmes d’e-mail
 
