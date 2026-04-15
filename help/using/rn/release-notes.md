@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5bf30e44d9b13fd6a1ac58e93212a84771ce1f5e
+source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2441'
 ht-degree: 21%
 
 ---
@@ -70,24 +70,26 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Optimiser le texte des e-mails pour les boîtes de réception d’IA</strong><br/></th>
+<th><strong>Optimize email text for AI inboxes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer comprend désormais une nouvelle fonctionnalité qui garantit que vos e-mails sont structurés de manière optimale pour les boîtes de réception optimisées par l’IA telles qu’Apple Intelligence et Google Gemini dans Gmail.</p>
-<p>Comme les assistants d’IA contrôlent de plus en plus la manière dont les destinataires lisent et agissent sur les e-mails, cette fonctionnalité vous permet de créer du contenu qui s’exécute correctement dans les tâches d’IA en aval, notamment la synthèse, le tri, la hiérarchisation et l’extraction d’intention.</p>
+<p>Adobe Journey Optimizer now includes a new capability that ensures your emails are optimally structured for AI-powered inboxes such as Apple Intelligence and Google Gemini in Gmail.</p>
+<p>As AI assistants increasingly control how recipients read and act on email, this feature helps you author content that performs well across downstream AI tasks including summarization, triage, prioritization, and intent extraction.</p>
 <p><img src="assets/do-not-localize/text-optimizer.gif"></p>
-<p>Pour plus d’informations, voir <a href="../email/llm-email-optimizer.md">Optimiser le texte des e-mails pour les boîtes de réception IA</a>.</p>
-<p>Date de disponibilité : samedi 3 avril 2026</p>
+<p>For more information, refer to <a href="../email/llm-email-optimizer.md">Optimize email text for AI inboxes</a>.</p>
+<p>Availability date: April 3, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
