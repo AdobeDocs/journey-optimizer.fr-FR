@@ -5,10 +5,10 @@ title: Canal SMS/MMS/RCS
 description: Canal SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 81%
 
 Le canal SMS/MMS/RCS d’Adobe Journey Optimizer vous permet d’interagir directement avec vos client et clientes sur leurs appareils mobiles par le biais de SMS personnalisés. Que vous envoyiez des mises à jour simples par SMS, du contenu multimédia enrichi par MMS ou des messages interactifs de marque avec RCS, ce canal offre des moyens polyvalents de se connecter. Vous découvrirez comment configurer les fournisseurs de services, créer et personnaliser des messages, les intégrer dans des campagnes ou des parcours et assurer la conformité à la gestion des désinscriptions. Au fil du temps, vous apprendrez à tester, à envoyer et à gérer vos communications pour un impact maximal, ce qui vous permettra de diffuser facilement des messages pertinents et opportuns qui trouveront un écho auprès de votre audience.
 
-## Vue d’ensemble du canal SMS/MMS/RCS
+## Présentation du canal SMS/MMS/RCS
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main des SMS
 
@@ -50,7 +50,7 @@ Prévisualisez, validez et envoyez des messages tout en assurant une diffusion r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gérer les opt-out pour les SMS
 
@@ -60,7 +60,7 @@ Assurez la conformité aux normes du secteur en gérant les processus d’opt-ou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer des sous-domaines SMS
 
@@ -70,7 +70,7 @@ Configurez les sous-domaines SMS pour la diffusion des messages, y compris la co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurer les canaux SMS/MMS/RCS
 

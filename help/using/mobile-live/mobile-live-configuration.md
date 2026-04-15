@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -48,7 +48,7 @@ L’étape 1 est facultative si vos informations d’identification push ont dé
 
 1. Cliquez sur **[!UICONTROL Envoyer]** pour créer votre configuration d’application.
 
-## Étape 2 : créer la configuration de votre activité en direct {#config-live-activity}
+## Étape 2 : créer votre configuration d’activité dynamique {#config-live-activity}
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canal]**. Cliquez sur le bouton **[!UICONTROL Créer une configuration de canal]**.
 

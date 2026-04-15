@@ -3,7 +3,7 @@ title: Utiliser des identifiants supplémentaires dans les parcours
 description: Découvrez comment utiliser des identifiants supplémentaires dans les parcours.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 99%
@@ -222,7 +222,7 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 Ces exemples montrent comment les identifiants supplémentaires prennent en charge plusieurs enregistrements associés.
 
-### **Notifications de renouvellement des contrats d’assurance**
+### **Notifications de renouvellement de politique**
 
 * **Scénario** : une compagnie d’assurance envoie des rappels de renouvellement portant sur chaque contrat d’assurance actif détenu par un client ou une cliente.
 * **Exécution** :

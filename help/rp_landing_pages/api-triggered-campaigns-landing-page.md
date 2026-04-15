@@ -5,7 +5,7 @@ title: Campagnes déclenchées par API
 description: Campagnes déclenchées par API
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Les campagnes déclenchées par API dans Adobe Journey Optimizer vous permettent de diffuser des messages personnalisés en temps réel, par exemple des confirmations d’achat ou des offres promotionnelles, au moment exact où ils sont nécessaires, à l’aide d’appels API REST. Que ce soit pour des mises à jour transactionnelles ou des messages marketing, cette fonctionnalité garantit une diffusion précise et automatisée, adaptée à votre audience. Vous apprendrez à définir des propriétés de campagne, à configurer des actions telles que le contenu multilingue ou le suivi de l’engagement, ainsi qu’à configurer des audiences avec des types d’identité. De la planification à l’exécution, en passant par l’activation, chaque étape s’ajoute aux autres pour atteindre une communication transparente et efficace. Grâce à des conseils pratiques et des exemples, vous pourrez créer des campagnes qui se connectent de manière opportune.
 
-## Campagnes déclenchées par API
+## Campagnes déclenchées par API
 
 :::: landing-cards-container
 :::
@@ -30,7 +30,7 @@ Découvrez comment créer, configurer et gérer des campagnes déclenchées par�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Définir les propriétés des campagnes déclenchées par API
 

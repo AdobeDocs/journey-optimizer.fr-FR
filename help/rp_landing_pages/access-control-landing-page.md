@@ -5,10 +5,10 @@ title: Contrôle d’accès
 description: Contrôle d’accès
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Le contrôle d’accès dans Adobe Journey Optimizer permet aux administrateur
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec le contrôle d’accès
 
@@ -30,7 +30,7 @@ Découvrez les concepts et les processus de gestion des autorisations des utilis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gérer les utilisateurs et utilisatrices et les rôles
 
@@ -70,7 +70,7 @@ Découvrez les autorisations de haut niveau et de bas niveau, ainsi que la mani�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Contrôle d’accès basé sur les attributs
 

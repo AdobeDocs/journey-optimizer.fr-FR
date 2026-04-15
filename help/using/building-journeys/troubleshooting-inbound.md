@@ -10,10 +10,10 @@ level: Intermediate
 keywords: actions entrantes, dépannage, parcours, débogage, aide autonome, vérification, erreurs
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -71,7 +71,7 @@ Le graphique ci-dessous montre la séquence des étapes de débogage que vous po
 
 ![Workflow de dépannage pour les messages entrants n’affichant pas : vérifier le parcours, la diffusion Edge et le profil](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### Étape 1 : vérifier si l’appareil/le client reçoit le contenu d’Edge Network {#step-1}
+### Étape 1 : vérifier si l’appareil/client reçoit le contenu du réseau Edge {#step-1}
 
 Commencez par vérifier si l’appareil ou le client obtient le contenu attendu.
 
@@ -99,7 +99,7 @@ Exécutez une requête curl à l’aide de l’[API d’Adobe](https://developer
 
 >[!ENDTABS]
 
-### Étape 2 : vérifier si Edge Network renvoie le contenu {#step-2}
+### Étape 2 : vérifier si le réseau Edge renvoie le contenu {#step-2}
 
 Cette étape permet de s’assurer qu’Edge Network renvoie le contenu entrant attendu pour le rendu sur l’appareil ou le client.
 
@@ -131,7 +131,7 @@ Pour déboguer le comportement d’Edge Network, procédez comme suit.
 
 1. Si le serveur de diffusion Edge Network ne voit pas le profil comme se trouvant dans le segment **joai** approprié, passez à l’étape suivante.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### Étape 3 : vérifier si l’appartenance à l’audience « joai » s’est propagée à Edge Network {#step-3}
+### Étape 3 : vérifier si l’appartenance à l’audience « joai » s’est propagée à Edge Network {#step-3}
 
 Cette étape permet de vérifier que le profil Edge a été correctement mis à jour lorsque le profil a rejoint l’action de parcours entrante et qu’il a été qualifié dans le segment **joai** correspondant.
 
@@ -165,7 +165,7 @@ Pour vérifier la présence du segment **joai** dans l’attribut `segmentMember
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
-### Étape 4 : vérifier si l’appartenance à l’audience « joai » est présente dans le profil sur le Hub {#step-4}
+### Étape 4 : vérifiez si l’appartenance à l’audience « joai » est présente dans le profil sur le hub {#step-4}
 
 Cette étape permet de vérifier que le profil Hub a été correctement mis à jour lorsque le profil a rejoint l’action de parcours entrante et qu’il a été qualifié dans le segment **joai** correspondant.
 

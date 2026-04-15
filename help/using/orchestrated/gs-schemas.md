@@ -5,15 +5,15 @@ title: Étapes de configuration
 description: Découvrez comment créer un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
 
-# Commencer avec les schémas relationnels et les jeux de données{#gs-schemas}
+# Prise en main des schémas relationnels et des jeux de données{#gs-schemas}
 
 Ce guide explique le processus de création d’un schéma relationnel, de configuration d’un jeu de données pour les campagnes orchestrées et d’ingestion de données.
 

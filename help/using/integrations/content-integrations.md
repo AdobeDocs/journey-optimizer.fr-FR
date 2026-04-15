@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ressources, intégration
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -78,7 +78,7 @@ Notez qu’avec une licence Enterprise, les utilisateurs et les utilisatrices b�
 
 En savoir plus sur [Journey Optimizer + Assets Express](../integrations/express.md).
 
-## GenStudio for Performance Marketing
+## GenStudio pour le marketing de performances
 
 Adobe GenStudio for Performance Marketing est une application axée sur l’IA générative qui permet aux équipes marketing de créer leurs propres annonces publicitaires et e-mails afin de mener des campagnes marketing percutantes et personnalisées, tout en respectant les normes de votre marque et les politiques de votre entreprise. La technologie d’IA d’Adobe met à votre disposition une suite complète d’outils qui simplifient la création et la gestion de contenu, ce qui permet aux personnes en charge de la création de se concentrer sur l’innovation.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: erreur, codes, dépannage, parcours, campagne, messages
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 92%
@@ -47,7 +47,7 @@ Lorsqu’une erreur se produit, notez le code d’erreur complet et l’ID de re
 
 Utilisez cette section pour rechercher les codes d&#39;erreur regroupés par service.
 
-### CJMPTS : erreurs des services de notification push et de transport {#cjmpts-errors}
+### CJMPTS : erreurs de service de notification push et de transport {#cjmpts-errors}
 
 Ces erreurs se produisent lors des opérations de diffusion des notifications push et de transport des messages.
 
@@ -76,7 +76,7 @@ Ces erreurs se produisent lors de l’exécution du parcours, du traitement des 
 | **CJMRT-080608-400** | Requête incorrecte dans le domaine/canal/délégation | Enregistrements DNS requis ou configuration des e-mails/SMS manquante | &#x200B;1. Terminez la configuration DNS pour les domaines des e-mails.<br/>2. Vérifiez que la délégation des sous-domaines est terminée.<br/>3. Exécutez à nouveau les assistants de configuration.<br/>4. Accordez du temps pour la propagation du DNS (jusqu’à 72 heures).<br/><br/>**Documentation associée** : [Surfaces de canal](../configuration/channel-surfaces.md), [délégation de sous-domaines](../configuration/delegate-subdomain.md) |
 | **CJMRT-110100-500** | Erreur interne sur la payload | Bug de données/configuration du serveur principal ou configuration non prise en charge | &#x200B;1. Effectuez à nouveau l’opération.<br/>2. Simplifiez la configuration si vous utilisez des fonctionnalités avancées.<br/>3. Signalez le problème à l’assistance Adobe avec l’identifiant de requête et la payload exacte.<br/>4. Recherchez les problèmes connus dans les notes de mise à jour.<br/><br/>**Documentation associée** : [Dépannage de parcours](troubleshooting.md). |
 
-### CJMMAS : erreurs du service de création de messages {#cjmmas-errors}
+### CJMAS : erreurs du service de création de messages {#cjmmas-errors}
 
 Ces erreurs se produisent lors de la création, de la modification ou de la publication de messages, de préréglages et de contenu.
 
@@ -101,7 +101,7 @@ Ces erreurs se produisent lors de la création, de la configuration et de l’ac
 | **CJMCMP-3001-400** | Simulation/prévisualisation : « filtre de type de surface incorrect » | Le nœud créé à l’aide de la structure héritée envoie type=surfaceId, le serveur principal attend brandingPresetId. | &#x200B;1. Supprimez et recréez le nœud concerné.<br/>2. Utilisez la nouvelle version/le nouveau modèle de parcours.<br/>3. Utilisez le mode test pour effacer la configuration.<br/>4. Recréez en bloc des nœuds si le problème est généralisé.<br/><br/>**Documentation associée** : [Surfaces de canal](../configuration/channel-surfaces.md), [simulation de messages](../content-management/preview.md) |
 | **CJMCMP-2050-400** | Requête incorrecte dans l’activation ou l’approbation de la campagne | Les références de la campagne ne sont pas valides ou comportent un segment ou une politique manquant. | &#x200B;1. Contrôlez toutes les configurations de nœud de campagne.<br/>2. Vérifiez que les liens de la politique/du segment sont à jour et valides.<br/>3. Mettez à jour avec la configuration appropriée.<br/>4. Testez à nouveau la campagne avant l’activation.<br/><br/>**Documentation associée** : [Création des campagnes](../campaigns/create-campaign.md), [approbation des campagnes](../test-approve/gs-approval.md) |
 
-### CJMTL : erreurs de couche de transport {#cjmtl-errors}
+### CJMTL : erreurs de couche de transfert {#cjmtl-errors}
 
 Ces erreurs se produisent lors des opérations de transport et de diffusion des messages.
 
@@ -110,7 +110,7 @@ Ces erreurs se produisent lors des opérations de transport et de diffusion des 
 | **CJMTL-010018-422** | « Personnalisation non autorisée dans le nom de domaine » lors de l’enregistrement/de l’envoi de contenu | La validation trop stricte a temporairement interrompu la personnalisation dynamique du domaine href. | &#x200B;1. Refactorisez les liens si vous utilisez des variables de domaine.<br/>2. Vérifiez que la dernière version d’AJO est utilisée.<br/>3. Effectuez à nouveau l’opération.<br/>4. Utilisez des domaines statiques si le problème persiste.<br/><br/>**Documentation associée** : [Syntaxe de personnalisation](../personalization/personalization-syntax.md), [conception d’e-mail](../email/content-from-scratch.md) |
 | **CJMTL-010011-422** | Entité impossible à traiter : l’envoi de notifications push/SMS/e-mail échoue et indique « champ non valide ». | Données de payload ou de destinataire/contact manquantes ou non valides | &#x200B;1. Inspectez les journaux pour détecter les erreurs de champ spécifiques.<br/>2. Corrigez des informations de profil/contact.<br/>3. Validez avec le profil de test.<br/>4. Refactorisez le format de payload selon les besoins.<br/><br/>**Documentation associée** : [Gestion des profils](../audience/get-started-profiles.md), [profils de test](../audience/creating-test-profiles.md) |
 
-### CJMRPS : erreurs du service de rapports et d’approvisionnement {#cjmrps-errors}
+### CJMRPS : erreurs de service de création de rapports et d’approvisionnement {#cjmrps-errors}
 
 Ces erreurs se produisent lors des opérations de configuration des rapports et d’approvisionnement des jeux de données.
 

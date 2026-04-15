@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -70,7 +70,7 @@ import AEPMessagingLiveActivity
 import ActivityKit
 ```
 
-## Étape 2 : définir les attributs de votre activité en direct {#attributes}
+## Étape 2 : définir les attributs de votre activité active {#attributes}
 
 Créez une structure conforme au protocole `LiveActivityAttributes`. Cela définit à la fois les données statiques et l’état du contenu dynamique pour votre activité en direct.
 
@@ -132,7 +132,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Étape 3 : Enregistrement de l’activité Live {#register}
+## Étape 3 : enregistrement de l’activité active {#register}
 
 Enregistrez vos types d’activités en direct dans votre `AppDelegate` après l’initialisation du SDK. Vous pouvez ainsi :
 
@@ -148,7 +148,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Étape 4 : créer des widgets d’activité en direct {#widgets}
+## Étape 4 : créer des widgets d’activité en direct {#widgets}
 
 Une activité En direct s’affiche par le biais de widgets. Vous devez créer un lot de widgets et une configuration :
 
@@ -187,7 +187,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## Étape 5 : démarrer une activité en direct localement (facultatif) {#local}
+## Étape 5 : démarrer une activité active localement (facultatif) {#local}
 
 Bien que Journey Optimizer puisse démarrer des activités en direct à distance, vous pouvez également les démarrer localement :
 

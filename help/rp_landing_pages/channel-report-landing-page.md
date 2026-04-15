@@ -5,10 +5,10 @@ title: Rapport complet
 description: Rapport complet
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Le « rapport complet » d’Adobe Journey Optimizer permet de comprendre les performances des campagnes et des parcours au fil du temps. Cette fonctionnalité vous permet d’analyser les données en toute transparence, grâce à son intégration à Customer Journey Analytics, afin d’obtenir des informations précises sur les canaux (e-mail, SMS, notifications push, etc). Vous allez apprendre à accéder à des mesures détaillées, à configurer des sources de données de rapports et même à créer des audiences directement à partir des rapports. Qu’il s’agisse d’étudier l’efficacité des campagnes ou d’explorer l’analyse des parcours, les rubriques interconnectées fournissent une feuille de route claire pour maîtriser les outils de création de rapports et optimiser l’engagement client en toute confiance.
 
-## Fonctionnalités des rapports complets
+## Toutes les fonctionnalités de rapport de temps
 
 :::: landing-cards-container
 :::
@@ -30,7 +30,7 @@ Découvrez comment accéder à la fonctionnalité « Rapport complet » d’Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Liste complète des mesures
 
@@ -40,7 +40,7 @@ Découvrez les définitions détaillées des mesures utilisées sur les canaux d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer manuellement Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Ce guide détaillé vous aide à configurer manuellement l’intégration à Cus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gérer vos rapports
 
@@ -60,7 +60,7 @@ Découvrez comment analyser, personnaliser, exporter et planifier des rapports, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Configurer les sources de données de rapports
 
@@ -70,7 +70,7 @@ Configurez les sources de données et les jeux de données pour permettre l’ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Causes d’exclusion
 

@@ -5,10 +5,10 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ L’effet élévateur entre une variante *ν* et la variante de contrôle *ν<su
 
 </br>
 
-## Intervalles de confiance valides à tout moment pour chaque traitement individuel
+## Intervalles de confiance valides à tout moment pour des traitements individuels
 
 Le panneau Expérience de Parcours affiche des intervalles de confiance « valides à tout moment » (séquences de confiance) pour chaque traitement d’une expérience.
 
@@ -60,7 +60,7 @@ Adobe utilise des séquences de confiance asymptotiques, qui, pour une variante 
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
-où :
+Où :
 
 * `N` correspond au nombre d’unités pour cette variante.
 * `σ` est un exemple d’estimation de l’écart type standard (défini ci-dessus).
@@ -99,7 +99,7 @@ Enfin, le **degré de confiance valide à tout moment** est :
 
 ![](assets/statistical_11.png){width="200" align="center"}
 
-## Déclaration d’une expérience comme étant concluante
+## Déclaration d’une expérience comme concluante
 
 Pour une expérience avec deux bras, le panneau Expérience de Journey Optimizer affiche un message indiquant qu’une expérience est **concluante** lorsque le degré de confiance valide à tout moment dépasse 95 % (c’est-à-dire lorsque la valeur-`p` valide à tout moment est inférieure à 5 %).
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 96%
@@ -116,7 +116,7 @@ Le graphique **[!UICONTROL Tendance des diffusions et clics]** présente une ana
 
 +++
 
-## Statistiques d’envois uniques {#unique-sending-statistics-email}
+## Statistiques d’envoi uniques {#unique-sending-statistics-email}
 
 ![](assets/cja-unique-email-sending-stat.png)
 

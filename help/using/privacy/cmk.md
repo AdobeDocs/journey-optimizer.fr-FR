@@ -7,14 +7,14 @@ feature: Privacy, Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
-source-git-commit: f9e1ae68fcfb9ecc12e0b80a067ca29186fc01f7
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Configurer et gérer des clés gérées par la clientèle {#cmk}
+# Configurer et gérer les clés gérées par le client {#cmk}
 
 >[!AVAILABILITY]
 >

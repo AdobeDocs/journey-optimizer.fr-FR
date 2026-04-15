@@ -5,7 +5,7 @@ title: Cas d’utilisation de personnalisation
 description: Cas d’utilisation de personnalisation
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Imaginez créer des communications tellement adaptées à votre audience qu’elles semblent faites sur mesure à chaque fois. Les cas d&#39;utilisation de la personnalisation d’Adobe Journey Optimizer vous permettent justement de faire cela, en combinant les profils clients, le contexte en temps réel et les offres basées sur des décisions pour créer des messages qui trouvent véritablement un écho. Que vous envoyiez une mise à jour du statut d’une commande, que vous relanciez les acheteurs et acheteuses ayant abandonné leur panier ou que vous personnalisiez des notifications liées à la santé, cette section vous guide étape par étape. Chaque cas d’utilisation montre comment combiner des données et des outils, tels que des fonctions d’assistance ou des modèles dynamiques, pour diffuser des messages que votre audience trouvera pertinents et attrayants. Découvrez comment ces techniques peuvent transformer vos campagnes.
 
-## Cas d’utilisation de la personnalisation
+## Cas d’utilisation de personnalisation
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Tutoriel sur la personnalisation des notifications relatives au statut des commandes
 
@@ -30,7 +30,7 @@ Découvrez comment créer des notifications push personnalisées pour les mises 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Guide de personnalisation des e-mails en cas d’abandon de panier
 
@@ -40,7 +40,7 @@ Découvrez comment personnaliser les e-mails d’abandon de panier à l’aide d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Exemple de personnalisation d’e-mails relatifs aux ordonnances dans le cadre d’un régime d’assurance maladie
 

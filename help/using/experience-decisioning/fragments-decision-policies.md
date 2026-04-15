@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: d03d69a858be99e83c563d8577847b6a60032274
+source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 31%
@@ -123,3 +123,4 @@ Si votre politique de décision est admissible pour deux offres et que chacune d
 >[!NOTE]
 >
 >Vous pouvez toujours marquer un fragment comme obligatoire en définissant l’indicateur `required` sur `true`. Cependant, si un fragment est temporairement manquant, cela peut entraîner l’échec du parcours ou du rendu de campagne.
+

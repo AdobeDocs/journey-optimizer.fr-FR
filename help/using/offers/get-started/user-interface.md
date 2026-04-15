@@ -10,14 +10,14 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Interface d’utilisation de la bibliothèque des offres {#user-interface}
+# Interface utilisateur de la bibliothèque des offres {#user-interface}
 
 >[!TIP]
 >
@@ -30,27 +30,27 @@ Utilisez le menu **[!UICONTROL Offres]** pour gérer et diffuser vos offres :
 
 ![](../assets/offers_menu.png)
 
-* **[!UICONTROL Aperçu]** : vous découvrez [!DNL decision management] ? Suivez les étapes à l’écran pour commencer à configurer des emplacements, des offres et des collections. Lorsque vous connaissez déjà [!DNL decision management], consultez l&#39;aperçu de vos offres, collections et décisions les plus récentes. [En savoir plus](#overview).
+* **[!UICONTROL Aperçu]** : vous découvrez [!DNL decision management] ? Suivez les étapes à l’écran pour commencer à configurer des emplacements, des offres et des collections. Lorsque vous connaissez déjà [!DNL decision management], consultez l&#39;aperçu de vos offres, collections et décisions les plus récentes. [En savoir plus](#overview)
 * **[!UICONTROL Offres]** : créez vos offres personnalisées et de secours, puis accédez-y. Découvrez comment créer des [offres](../offer-library/creating-personalized-offers.md) et des [offres de secours](../offer-library/creating-fallback-offers.md).
-* **[!UICONTROL Collections]** : organisez vos offres en collections statiques et dynamiques. [En savoir plus](../offer-library/creating-collections.md).
-* **[!UICONTROL Décisions]** : créez et gérez des décisions pour diffuser vos offres. [En savoir plus](../offer-activities/create-offer-activities.md).
-* **[!UICONTROL Prise de décision par lots]** : diffusez les décisions d’offres à tous les profils d’une audience Adobe Experience Platform donnée. [En savoir plus](../batch-delivery.md).
-* **[!UICONTROL Simulation]** : pour valider votre logique de prise de décision, vous pouvez simuler les offres qui seront diffusées à un profil de test pour un emplacement donné. [En savoir plus](../offer-activities/simulation.md).
+* **[!UICONTROL Collections]** : organisez vos offres en collections statiques et dynamiques. [En savoir plus](../offer-library/creating-collections.md)
+* **[!UICONTROL Décisions]** : créez et gérez des décisions pour diffuser vos offres. [En savoir plus](../offer-activities/create-offer-activities.md)
+* **[!UICONTROL Prise de décision par lots]** : diffusez les décisions d’offres à tous les profils d’une audience Adobe Experience Platform donnée. [En savoir plus](../batch-delivery.md)
+* **[!UICONTROL Simulation]** : pour valider votre logique de prise de décision, vous pouvez simuler les offres qui seront diffusées à un profil de test pour un emplacement donné. [En savoir plus](../offer-activities/simulation.md)
 
 Utilisez le menu **[!UICONTROL Composants]** pour créer et gérer des composants nécessaires à la création d’offres et de décisions :
 
 ![](../assets/offer_activities.png)
 
-* **[!UICONTROL Emplacements]** : créez et gérez des emplacements où vos offres s’afficheront. [En savoir plus](../offer-library/creating-placements.md).
-* **[!UICONTROL Qualificateurs de collection]** : créez et gérez des qualificateurs de collection (auparavant appelés « balises ») pour classer et filtrer vos offres. [En savoir plus](../offer-library/creating-tags.md).
-* **[!UICONTROL Règles]** : gérez les conditions selon lesquelles vos offres sont présentées. [En savoir plus](../offer-library/creating-decision-rules.md).
-* **[!UICONTROL Classement]** : créez et gérez des formules de classement afin de déterminer quelle offre doit être présentée en premier pour un emplacement donné. [En savoir plus](../ranking/create-ranking-formulas.md).
+* **[!UICONTROL Emplacements]** : créez et gérez des emplacements où vos offres s’afficheront. [En savoir plus](../offer-library/creating-placements.md)
+* **[!UICONTROL Qualificateurs de collection]** : créez et gérez des qualificateurs de collection (auparavant appelés « balises ») pour classer et filtrer vos offres. [En savoir plus](../offer-library/creating-tags.md)
+* **[!UICONTROL Règles]** : gérez les conditions selon lesquelles vos offres sont présentées. [En savoir plus](../offer-library/creating-decision-rules.md)
+* **[!UICONTROL Classement]** : créez et gérez des formules de classement afin de déterminer quelle offre doit être présentée en premier pour un emplacement donné. [En savoir plus](../ranking/create-ranking-formulas.md)
 
 >[!NOTE]
 >
 >Si vous rencontrez des problèmes pour accéder à la gestion des décisions ou à certaines de ses fonctionnalités, vérifiez auprès de l’administration que les droits nécessaires vous ont été accordés. Voir [Octroi de l’accès à la gestion des décisions](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 Lorsque vous découvrez [!DNL decision management], l’onglet **[!UICONTROL Aperçu]** vous guide tout au long des principales étapes nécessaires pour commencer à créer votre première décision d’offres. Suivez les étapes à l’écran pour commencer à créer des emplacements, des offres et des collections. Une fois que vous avez terminé ces premières étapes, vous êtes invité à créer des décisions d’offre.
 

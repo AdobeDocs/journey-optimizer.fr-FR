@@ -10,7 +10,7 @@ level: Intermediate
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 74%
@@ -85,7 +85,7 @@ La sortie d’une décision de contenu peut être utilisée dans plusieurs activ
 
 Vous pouvez également ajouter une [action personnalisée](#add-custom-action) à votre parcours afin de partager les offres de l’activité de décision de contenu avec un système externe.
 
-### Dans une activité Optimiser (méthode Condition) {#add-condition-activity}
+### Dans une activité optimisée (méthode de condition) {#add-condition-activity}
 
 Pour tirer parti de la sortie d’une activité de décision de contenu, ajoutez une activité **[!UICONTROL Optimiser]**, choisissez la méthode **[!UICONTROL Condition]** et définissez des expressions pour déplacer des profils vers des chemins spécifiques à l’aide des données issues de ces offres. Suivez les étapes ci-dessous. Pour plus de types de condition et d’options, voir [Conditions](conditions.md).
 

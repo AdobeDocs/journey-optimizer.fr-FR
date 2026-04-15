@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 71%
+ht-degree: 70%
 
 ---
 
@@ -101,7 +101,7 @@ Pour parcourir facilement vos modèles de contenu, utilisez des dossiers pour mi
 >
 >Lorsqu’un modèle est modifié ou supprimé, les campagnes ou les parcours, y compris le contenu créé à l’aide de ce modèle, ne sont pas affectés.
 
-## [!BADGE Disponibilité limitée]{type=Informative} Afficher les modèles sous forme de miniatures {#template-thumbnails}
+## [!BADGE Disponibilité limitée]{type=Informative} afficher les modèles sous forme de miniatures {#template-thumbnails}
 
 Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèle sous la forme d’une miniature.
 
@@ -117,7 +117,7 @@ Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèl
 
 Lorsque vous mettez à jour du contenu, patientez quelques secondes pour que les modifications se reflètent dans la miniature.
 
-## Résolution des problèmes {#troubleshooting}
+## Dépannage {#troubleshooting}
 
 +++Je ne peux pas voir le menu Modèles de contenu dans le volet de navigation de gauche
 

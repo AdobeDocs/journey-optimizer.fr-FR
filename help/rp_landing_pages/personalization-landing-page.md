@@ -5,10 +5,10 @@ title: Personnalisation
 description: Personnalisation
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Dans Adobe Journey Optimizer, la personnalisation vous permet de créer des expériences client sur mesure et percutantes en personnalisant dynamiquement le contenu en fonction des profils individuels, des comportements et des données contextuelles. Que vous créiez des e-mails personnalisés, des notifications ou des offres, les outils et techniques fournis vous permettent de transmettre facilement le bon message à la bonne personne et au bon moment. Découvrez comment l’éditeur de personnalisation, la syntaxe de handlebars et les données Adobe Experience Platform fonctionnent ensemble pour donner vie à vos idées, explorer des blocs de contenu réutilisables avec des fragments d’expression et utiliser des fonctions d’assistance avancées pour déverrouiller des perspectives plus vastes. Chaque rubrique développe vos compétences étape par étape, ce qui vous permet d’être prêt à concevoir des parcours personnalisés en toute confiance.
 
-## Fonctionnalités et guides de personnalisation
+## Fonctionnalités et guides de Personalization
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec la personnalisation
 
@@ -30,7 +30,7 @@ Découvrez les principes de base de la personnalisation dans Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Ajouter de la personnalisation et la valider
 
@@ -40,7 +40,7 @@ Maîtrisez l’éditeur de personnalisation pour créer du contenu personnalisé
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Présentation de la syntaxe de personnalisation
 
@@ -50,7 +50,7 @@ Découvrez les règles et les exemples de syntaxe de personnalisation basée sur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Réutiliser des fragments d’expression
 

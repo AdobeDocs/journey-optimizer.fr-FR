@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer, unitaire, lecture d’audience, qualification d’audience, événement métier, temps réel, planifié, lot, déclenché par un événement, workflow, orchestration, personnalisation, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -44,7 +44,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ➡️ **Vous souhaitez commencer à créer ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
 
-### Parcours ou campagnes : quand utiliser l’un ou l’autre {#journeys-vs-campaigns-intro}
+### Parcours ou campagnes : quand utiliser chacun d’eux {#journeys-vs-campaigns-intro}
 
 [!DNL Adobe Journey Optimizer] propose trois approches pour atteindre les clients : **Parcours** (1:1 orchestration en temps réel), **Campagnes** (diffusion simple par lots ou déclenchée par API) et **Campagnes orchestrées** (workflows de zone de travail par lots avec données multi-entités).
 

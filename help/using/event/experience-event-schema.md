@@ -9,14 +9,14 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: schémas, XDM, platform, en flux continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
-# À propos des schémas ExperienceEvent pour les événements [!DNL Journey Optimizer] {#about-experienceevent-schemas}
+# À propos des schémas experienceevent pour les événements [!DNL Journey Optimizer] {#about-experienceevent-schemas}
 
 Les événements [!DNL Journey Optimizer] sont des événements d’expérience XDM envoyés à Adobe Experience Platform par l’intermédiaire de l’ingestion en flux continu.
 

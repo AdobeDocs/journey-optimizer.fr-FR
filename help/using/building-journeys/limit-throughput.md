@@ -9,14 +9,14 @@ level: Experienced
 keywords: parcours, sources de données, limite, débit, personnalisé, actions
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
-# Cas d’utilisation : limiter le débit avec des sources de données externes et des actions personnalisées{#limit-throughput}
+# Cas d’utilisation : limiter le débit avec les sources de données externes et les actions personnalisées{#limit-throughput}
 
 Utilisez ce cas d’utilisation pour ralentir le traitement du parcours lorsque des systèmes externes doivent gérer un nombre limité de requêtes par seconde.
 

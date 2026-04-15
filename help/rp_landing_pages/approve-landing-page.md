@@ -5,7 +5,7 @@ title: Approuver les parcours et les campagnes
 description: Approuver les parcours et les campagnes
 redpen-status: CREATED_||_2025-08-11_20-30-36
 exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
@@ -20,7 +20,7 @@ L’approbation des parcours et des campagnes dans Adobe Journey Optimizer gar
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Configurer et gérer l’approbation des parcours et des campagnes
 
@@ -30,7 +30,7 @@ Découvrez comment configurer et gérer le processus d’approbation des parcour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Création et gestion des politiques d’approbation
 
@@ -40,7 +40,7 @@ Guide détaillé sur la création, la configuration et la gestion des politiques
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Demande d’approbation des parcours et des campagnes
 

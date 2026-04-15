@@ -10,10 +10,10 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2205'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
@@ -137,11 +137,11 @@ Si les personnes progressent correctement dans le parcours sans recevoir les mes
 
 Dans le cas d’un message envoyé par le biais d’une action personnalisée, le seul élément vérifiable pendant le test du parcours est l’apparition ou non d’une erreur suite à l’appel du système à l’aide d’une action personnalisée. Si l’appel au système externe associé à l’action personnalisée n’entraîne pas d’erreur, mais ne déclenche pas l’envoi d’un message, certaines vérifications doivent être effectuées du côté du système externe.
 
-## Explication des entrées en double dans les événements d’étape de parcours {#duplicate-step-events}
+## Comprendre les entrées en double dans les événements d’étape de Parcours {#duplicate-step-events}
 
 Utilisez cette section pour comprendre pourquoi des lignes en double peuvent apparaître dans les événements d’étape de Parcours.
 
-### Pourquoi est-ce que je vois plusieurs entrées avec les mêmes ID d’instance de parcours, de profil, de nœud et de requête ?
+### Pourquoi est-ce que je vois plusieurs entrées avec les mêmes ID d’instance de parcours, de profil, de nœud et de requête ?
 
 Lors de l’interrogation des données d’événements d’étape de parcours, vous pouvez parfois détecter des entrées de journal en double pour la même exécution de parcours. Ces entrées partagent des valeurs identiques pour les éléments suivants :
 
@@ -203,7 +203,7 @@ Lors de l’analyse des données d’événements d’étape de parcours :
      AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
    ```
 
-### Que dois-je faire si cela se produit ?
+### Que dois-je faire si j&#39;observe ceci ?
 
 Il s’agit d’un comportement normal du système et **aucune action n’est requise**. La journalisation en double n’indique aucun problème au niveau de la configuration du parcours ou de la diffusion des messages.
 

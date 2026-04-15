@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 90%
@@ -51,7 +51,7 @@ Ce terrain de jeu fournit un environnement simulé pour écrire et tester du cod
 
 ➡️ [Accédez au terrain de jeu de la personnalisation.](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## Assistant AI dans l’éditeur Personalization {#ai-personalization-expressions}
+## Assistant IA dans l’éditeur de personnalisation {#ai-personalization-expressions}
 
 Dans l’éditeur **&#x200B;**, l’assistant **[!UICONTROL AI]** vous aide à générer de nouvelles expressions à partir du langage naturel, à expliquer ce que fait le code existant et à résoudre les problèmes d’une sélection, puis à appliquer la sortie lorsqu’elle correspond à votre intention.
 

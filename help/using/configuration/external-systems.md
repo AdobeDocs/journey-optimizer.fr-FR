@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 97%
@@ -37,7 +37,7 @@ Lorsque Journey Optimizer exécute un appel à une API externe, les mécanismes
 
 ## API de plafonnement et de limitation {#capping}
 
-### À propos des API de plafonnement et de limitation
+### À propos des api de plafonnement et de limitation
 
 En configurant une source de données ou une action, vous établissez une connexion à un système afin de récupérer des informations supplémentaires pour enrichir vos parcours, les messages que vous envoyez ou les appels API.
 

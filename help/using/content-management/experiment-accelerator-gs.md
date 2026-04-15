@@ -1,21 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer Experimentation Accelerator
+title: Experimentation Accelerator de Journey Optimizer
 description: Améliorer votre capacité à mener des expériences efficacement et à générer des informations
 feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
-workflow-type: ht
+exl-id: 8913889e-3c8d-414f-8300-16fc1bd30607
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Commencer avec Journey Optimizer Experimentation Accelerator {#content-experiment}
+# Prise en main de l’accélérateur d’expériences Journey Optimizer {#content-experiment}
 
 >[!AVAILABILITY]
 >

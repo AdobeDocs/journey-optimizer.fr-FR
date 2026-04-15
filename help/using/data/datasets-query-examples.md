@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -183,7 +183,7 @@ Une fois identifiées, supprimez ces adresses de la liste de suppression de Jour
 
 
 
-## Jeu de données d’événement d’expérience de tracking de notifications push {#push-tracking-experience-event-dataset}
+## Jeu de données d’événement d’expérience de suivi des notifications push {#push-tracking-experience-event-dataset}
 
 _Nom dans l’interface : Jeu de données d’événement d’expérience de tracking de notifications push sur AJO_
 
@@ -274,7 +274,7 @@ Consultez également plusieurs [exemples couramment utilisés pour interroger de
 
 Découvrez comment [dépanner les types d’événements rejetés dans journey_step_events](../reports/sharing-field-list.md#discarded-events).
 
-## Jeu de données d’événement Decisioning{#ode-decisionevents}
+## Jeu de données d’événement de prise de décision{#ode-decisionevents}
 
 _Nom dans l’interface : ODE DecisionEvents (jeu de données système)_
 
@@ -305,7 +305,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 ```
 
 <!--
-## Consent Service Dataset{#consent-service-dataset}
+## Consent service dataset{#consent-service-dataset}
 
 _Name in the interface: CJM Consent Service Dataset (system dataset)_
 

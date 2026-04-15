@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, cas d’utilisation, jours de la semaine, condition, e-mail, planification
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1068'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -51,7 +51,7 @@ Suivez ces étapes pour créer un flux d’e-mail en semaine uniquement.
    * **[Lecture d’audience](read-audience.md)** : pour les campagnes par lots ciblant une audience spécifique
    * **[Événement](../event/about-events.md)** : pour les parcours déclenchés en temps réel en fonction du comportement client
 
-### Étape 2 : ajouter une activité Condition pour vérifier le jour de la semaine
+### Étape 2 : ajoutez une activité de condition pour vérifier le jour de la semaine
 
 Juste après le début du parcours, ajoutez une activité **[!UICONTROL Condition]** pour vérifier si le jour actuel est un samedi ou un dimanche. Le workflow sera ainsi divisé en conséquence.
 
@@ -78,7 +78,7 @@ Juste après le début du parcours, ajoutez une activité **[!UICONTROL Conditio
 >
 >Le fuseau horaire utilisé pour l’évaluation des jours de la semaine est défini au niveau du parcours dans les propriétés du parcours, et non au niveau de la condition. Le [fuseau horaire](timezone-management.md) du parcours utilisé dans la formule est le fuseau horaire configuré du parcours, et non celui des destinataires.
 
-### Étape 3 : configurer les activités d’attente pour les entrées pendant les week-ends
+### Étape 3 : configurer les activités d&#39;attente pour les entrées du week-end
 
 Pour les profils qui rejoignent le parcours le samedi ou le dimanche, utilisez les activités **[!UICONTROL Attente]** avec des formules personnalisées pour reporter l’envoi de l’e-mail au lundi, à l’heure souhaitée.
 

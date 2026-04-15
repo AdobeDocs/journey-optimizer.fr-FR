@@ -5,10 +5,10 @@ title: Documentation Adobe Journey Optimizer
 description: Documentation Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e4b8ba5941c276b74608a5510d97b33786b2507c
+source-git-commit: ae27c778a79cd8d4dddef65819b961055b476429
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 98%
+source-wordcount: '575'
+ht-degree: 92%
 
 ---
 
@@ -27,6 +27,13 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 Découvrez les dernières fonctionnalités et améliorations de Journey Optimizer dans les notes de mise à jour.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+
+>[!TAB Assistant AI pour la personnalisation]
+
+Utilisez l’**assistant AI** dans l’éditeur de Personalization pour décrire ce que vous souhaitez en langage clair et obtenir une expression de personnalisation, ou sélectionnez du code existant pour l’expliquer, résoudre des problèmes ou suggérer des améliorations.
+
+[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
 
 
 >[!TAB Effectuer une itération sur des données contextuelles]

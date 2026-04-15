@@ -9,14 +9,14 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Données contextuelles et requêtes Edge Decisioning {#edge}
+# Données contextuelles et requêtes de prise de décision Edge {#edge}
 
 >[!TIP]
 >
@@ -42,7 +42,7 @@ Pour aller plus loin, vous pouvez également exploiter les données contextuelle
 
 >[!ENDSHADEBOX]
 
-## Conditions préalables pour transmettre des données contextuelles dans les requêtes Edge Decisioning {#prerequisites}
+## Conditions préalables pour transmettre des données contextuelles dans les requêtes de prise de décision Edge {#prerequisites}
 
 Contrairement à la transmission du contexte dans un format libre à l’aide de l’API Decisioning, le contexte d’Edge Decisioning nécessite la conformité XDM. La payload du contexte doit être compatible avec les événements d’expérience XDM. Pour ce faire, le contexte doit être défini dans le cadre de l’« Événement d’expérience XDM » utilisé pour la collecte de données.
 
@@ -132,7 +132,7 @@ Créez une décision qui utilise le moteur de décision d’offres pour sélecti
 >
 >Pour aller plus loin, vous pouvez exploiter les données contextuelles dans des formules de classement et les affecter à votre décision. AJOUTER DES INFORMATIONS
 
-## Transmettre des données contextuelles dans la requête Edge Decisioning {#request}
+## Transmission de données contextuelles dans la requête de prise de décision Edge {#request}
 
 ### Point d’entrée
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagne, vérification, validation, activation, activer, optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: a5d8f10c8751d6be47f5423aea576e16590b86d6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -43,11 +43,11 @@ Une fois votre campagne activée, vous devez récupérer l’exemple de requête
 
 ## Résolution des problèmes {#troubleshooting}
 
-### Retards de diffusion des e-mails {#delivery-delays}
+### Retards de diffusion par e-mail {#delivery-delays}
 
-Si les délais de diffusion des e-mails dépassent les attentes, recherchez les pannes potentielles ou les problèmes de performances avec les services externes, tels que les fournisseurs d&#39;infrastructure cloud ou les fournisseurs de messagerie électronique. Journey Optimizer enregistre les horodatages de départ des messages, ce qui peut aider à déterminer si des retards se sont produits en aval dans le pipeline de diffusion.
+Si les délais de diffusion des e-mails dépassent les attentes, recherchez les pannes potentielles ou les problèmes de performances avec les services externes, tels que les fournisseurs d’infrastructure cloud ou les fournisseurs de messagerie électronique. Journey Optimizer enregistre les dates et heures de départ des messages, ce qui peut aider à déterminer si des retards se sont produits en aval dans le pipeline de diffusion.
 
-### Erreurs d’authentification Azure Cosmos DB (erreur de serveur interne 500) {#cosmosdb-auth-errors}
+### Erreurs d’authentification Azure cosmos DB (erreur de serveur interne 500) {#cosmosdb-auth-errors}
 
 Si vous rencontrez des **erreurs de serveur interne 500** lors du déclenchement de campagnes déclenchées par API et que les journaux système affichent une erreur **403 Interdit** provenant d’Azure Cosmos avec un message tel que :
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Le KPI **[!UICONTROL Vues de la page de destination]** vous permet de voir l’i
 
 * **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
-## Vues uniques de la page de destination {#lp-unique-views}
+## Pages de destination uniques vues {#lp-unique-views}
 
 ![](assets/cja-lp-unique-views.png)
 
@@ -111,6 +111,6 @@ Le tableau **[!UICONTROL Canal]** affiche le nombre de visites sur votre page de
 
 ## Principaux liens ayant fait l’objet d’un clic {#lp-top-clicked}
 
-Le tableau **[!UICONTROL Principaux liens ayant fait l’objet d’un clic]** fournit des informations sur la manière dont les visiteurs et visiteuses interagissent avec la diffusion, en mettant en évidence les liens qui suscitent le plus d’intérêt et d’attention de la part de votre audience.
+Le tableau **[!UICONTROL Principaux liens ayant fait l’objet d’un clic]** fournit des informations sur la manière dont les visiteurs et visiteuses interagissent avec la diffusion, en mettant en évidence les liens qui suscitent le plus d’engagement et d’attention de la part de votre audience.
 
 * **[!UICONTROL Clics de la page de destination]** : nombre de clics sur un contenu de la page de destination.

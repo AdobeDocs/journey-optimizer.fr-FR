@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: export, messages, HIPAA, e-mails, SMS, configuration
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -39,7 +39,7 @@ Les enregistrements sont ensuite conservés dans le jeu de données pendant sept
 * Les enregistrements du jeu de données d’exportation de messages d’AJO sont conservés **pendant sept jours calendaires à compter de l’ingestion**.
 * Le renvoi n’est pas pris en charge pour les messages envoyés avant l’activation de l’export des messages, comme décrit ci-dessous.
 
-## Activer l’export des messages {#enable-message-export}
+## Activer l&#39;export des messages {#enable-message-export}
 
 Le processus d’intégration de la fonctionnalité d’export de messages comporte deux étapes :
 
@@ -70,7 +70,7 @@ Pour obtenir des instructions détaillées, les destinations cloud prises en cha
    * Format de fichier : sélectionnez JSON ou Parquet (choisissez-le en fonction des outils déployés).
    * Planification : assurez-vous qu’elle s’exécute dans la fenêtre de conservation de 7 jours.
 
-### Activer l’export des messages dans la configuration de canal {#config-message-export}
+### Activer l’export des messages dans la configuration des canaux {#config-message-export}
 
 Pour appliquer l’export des messages à vos campagnes et à vos parcours, vous devez activer l’option dédiée au niveau de la configuration des canaux. Suivez les étapes ci-après.
 
