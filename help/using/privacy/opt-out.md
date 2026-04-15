@@ -43,7 +43,7 @@ Pour vérifier le statut du consentement push d’un profil dans Adobe Experienc
 
 >[!NOTE]
 >
->Pour les cas d’utilisation de conformité nécessitant un suivi du consentement push explicite, utilisez l’attribut **`consents.marketing.push.val`** du groupe de champs [ Consentements et Préférences ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"}. Une valeur `y` indique l’opt-in explicite ; `n` indique l’opt-out explicite.
+>Pour les cas d’utilisation de conformité nécessitant un suivi du consentement push explicite, utilisez l’attribut **`consents.marketing.push.val`** du groupe de champs [&#x200B; Consentements et Préférences &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"}. Une valeur `y` indique l’opt-in explicite ; `n` indique l’opt-out explicite.
 
 Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey Optimizer dans les sections suivantes :
 
@@ -82,7 +82,7 @@ Lors de l’utilisation des offres, les préférences de personnalisation ne son
 >
 >Les portées de décision utilisées dans les canaux [!DNL Journey Optimizer] créés répondent à cette exigence de la campagne ou du parcours auxquels ils appartiennent.
 
-1. Créez une audience [](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"} et utilisez un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Oui (opt-in)]** pour cibler les utilisateurs et utilisatrices qui ont consenti à la personnalisation.
+1. Créez une audience [&#128279;](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"} et utilisez un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Oui (opt-in)]** pour cibler les utilisateurs et utilisatrices qui ont consenti à la personnalisation.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +134,7 @@ Pour appliquer manuellement le consentement à la personnalisation dans les camp
 
 Vous pouvez utiliser le créateur de règles de segments pour créer une audience contenant des profils d’exclusion.
 
-1. Créez une audience [](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"}.
+1. Créez une audience [&#128279;](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 

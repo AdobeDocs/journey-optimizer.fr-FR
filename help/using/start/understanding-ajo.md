@@ -39,7 +39,7 @@ Adobe Journey Optimizer applique les données et les informations d’Adobe Ex
 
 * **Compréhension de la clientèle** : les profils clients en temps réel permettent la segmentation en audiences pour la messagerie ciblée. [Créer des audiences](../audience/about-audiences.md)
 * **Contenu et offres** : outils de création, de gestion et de personnalisation de contenu ; logique en temps réel visant à sélectionner la meilleure offre pour chaque individu. [Concevoir du contenu](../../rp_landing_pages/content-management-landing-page.md) | [Gérer les offres](../offers/get-started/starting-offer-decisioning.md)
-* **Gestion des parcours et des campagnes** : automatise les séquences d’interactions (parcours) ou planifie des messages ciblés uniques (campagnes). [Créer des parcours ](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
+* **Gestion des parcours et des campagnes** : automatise les séquences d’interactions (parcours) ou planifie des messages ciblés uniques (campagnes). [Créer des parcours &#x200B;](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
 * **Diffusion (connexions)** : diffuse les messages par le biais de canaux (e-mail, SMS, notifications push et courrier) ; exporte les données vers des systèmes externes. [Configurer des canaux](../configuration/get-started-configuration.md)
 * **Mesures et analyses** : effectue le suivi de l’engagement de la clientèle et des performances des campagnes avec des rapports pour une amélioration continue. [Afficher les rapports](../reports/campaign-global-report-cja.md)
 

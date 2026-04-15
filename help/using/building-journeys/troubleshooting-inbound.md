@@ -34,7 +34,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 Avant de commencer le dépannage :
 
-1. Configurez une session **Assurance**. Découvrez comment le faire dans la documentation d’[[!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Configurez une session **Assurance**. Découvrez comment le faire dans la documentation d’[[!DNL Adobe Experience Platform] &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Accédez au parcours contenant l’action entrante pour récupérer le nom du parcours et l’ID de version.
 

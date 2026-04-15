@@ -122,19 +122,19 @@ Ces requêtes ne sont pas prises en charge et doivent être traitées par d’au
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&amp;check; **Audience cible définie** : indique la démographie, le rôle ou le segment.
+&check; **Audience cible définie** : indique la démographie, le rôle ou le segment.
 
-&amp;check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&amp;check; **Sélections déroulantes configurées** : la tonalité, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
+&check; **Sélections déroulantes configurées** : la tonalité, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
 
-&amp;check; **Thème du document spécifié** : met en évidence le contenu ou les sections à référencer.
+&check; **Thème du document spécifié** : met en évidence le contenu ou les sections à référencer.
 
-&amp;check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
+&check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
 
-&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -144,11 +144,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Augmenter les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisée par l’IA »
+&check; « Augmenter les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisée par l’IA »
 
-&amp;check; « Générer des lead pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
+&check; « Générer des lead pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
 
-&amp;check; « Promouvoir notre réduction de 25 % à durée limitée pour les fêtes sur les abonnements Premium, jusqu’au 25 décembre »
+&check; « Promouvoir notre réduction de 25 % à durée limitée pour les fêtes sur les abonnements Premium, jusqu’au 25 décembre »
 
 **Exemples à éviter :**
 
@@ -165,11 +165,11 @@ Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Inciter à télécharger notre nouvelle application mobile qui permet aux utilisateurs et utilisatrices de suivre des habitudes de vie durable avec des recommandations personnalisées et écologiques »
+&check; « Inciter à télécharger notre nouvelle application mobile qui permet aux utilisateurs et utilisatrices de suivre des habitudes de vie durable avec des recommandations personnalisées et écologiques »
 
-&amp;check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les responsables marketing »
+&check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les responsables marketing »
 
-&amp;check; « Augmenter la participation à notre événement de lancement de produit présentant l’assistant IA de rédaction révolutionnaire qui permet de gagner plus de 5 heures par semaine »
+&check; « Augmenter la participation à notre événement de lancement de produit présentant l’assistant IA de rédaction révolutionnaire qui permet de gagner plus de 5 heures par semaine »
 
 **Exemples à éviter :**
 

@@ -96,7 +96,7 @@ En tant que responsable marketing ou qu’utilisateur ou utilisatrice profession
 
 **Les fonctionnalités clés que vous allez utiliser :**
 
-* **** : créez un engagement client individuel en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux. Utilisez l’activité Action unifiée pour toutes les actions de canal, l’activité Décision de contenu pour intégrer des offres dans des parcours et Journey Agent pour créer des parcours à partir d’invites en langage naturel
+* **&#x200B;**&#x200B;: créez un engagement client individuel en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux. Utilisez l’activité Action unifiée pour toutes les actions de canal, l’activité Décision de contenu pour intégrer des offres dans des parcours et Journey Agent pour créer des parcours à partir d’invites en langage naturel
 * **Orchestration de campagne** : concevez et automatisez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle. Parfait pour les campagnes lancées par une marque, comme des promotions saisonnières, des lancements de produits et des communications basées sur les comptes. Utilisez la segmentation d’entités multiples pour créer des audiences précises en connectant les données client aux entités associées (comptes, achats, réservations). Utiliser l’envoi de vagues pour diffuser des messages par lots contrôlés
 * **Concepteur de messages moderne** : concevez et personnalisez des e-mails et des messages mobiles à l’aide d’une interface de type glisser-déposer. Modifier les modèles prêts à l’emploi pour accélérer le délai de mise sur le marché
 * **Gestion des décisions** : créez et gérez des offres, des règles d’éligibilité et d’autres composants dans une bibliothèque centralisée qui peut être incorporée dans les e-mails et les points de contact des clients. Utilisation de la prise de décision pour la personnalisation des notifications push et des SMS
@@ -234,7 +234,7 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 
 >[!TAB Communauté et assistance]
 
-* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
+* [Communauté Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
 * [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - Posez des questions et partagez vos connaissances.
 
 >[!ENDTABS]

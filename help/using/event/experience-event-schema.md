@@ -25,7 +25,7 @@ Les événements [!DNL Journey Optimizer] sont des événements d’expérience 
 
 >[!CAUTION]
 >
->À compter du 8 juillet 2025, les nouvelles organisations clientes ne pourront plus créer d’expressions à l’aide d’attributs d’événement d’expérience dans des conditions de parcours. À compter du 1er avril 2026, les organisations qui n’ont pas accédé aux événements d’expérience par le biais d’expressions de parcours au cours des 90 derniers jours n’auront plus accès à cette fonctionnalité. D’autres approches et bonnes pratiques sont répertoriées dans [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
+>À compter du 8 juillet 2025, les nouvelles organisations clientes ne pourront plus créer d’expressions à l’aide d’attributs d’événement d’expérience dans des conditions de parcours. À compter du 1er avril 2026, les organisations qui n’ont pas accédé aux événements d’expérience par le biais d’expressions de parcours au cours des 90 derniers jours n’auront plus accès à cette fonctionnalité. D’autres approches et bonnes pratiques sont répertoriées dans [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
 >
 >L’accès au contexte à partir de l’événement de démarrage d’un parcours n’est pas affecté.
 

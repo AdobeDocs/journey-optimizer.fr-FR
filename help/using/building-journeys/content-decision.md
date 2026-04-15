@@ -29,7 +29,7 @@ Pour tirer parti de cette fonctionnalité, créez un parcours dans lequel vous a
 
 Vous pouvez ensuite utiliser la sortie de l’activité Décision de contenu dans :
 
-* une activité [ Optimiser avec une condition ](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
+* une activité [&#x200B; Optimiser avec une condition &#x200B;](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
 
 * une [action personnalisée](#add-custom-action), via laquelle vous pouvez envoyer ces offres à des systèmes externes.
 
@@ -43,7 +43,7 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Décision de contenu]** dans votre zone de travail.
 
-   ![Ajouter une décision de contenu au parcours ](assets/journey-content-decision.png){width=100%}
+   ![Ajouter une décision de contenu au parcours &#x200B;](assets/journey-content-decision.png){width=100%}
 
 1. Vous pouvez, si vous le souhaitez, ajouter un libellé et une description à l’activité.
 

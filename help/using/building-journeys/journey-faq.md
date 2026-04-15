@@ -187,7 +187,7 @@ Suivez le [guide détaillé](journey-gs.md).
 Les conditions préalables requises dépendent du type de votre parcours :
 
 * **Parcours déclenchés par un événement** : configurez les événements pour définir à quel moment les profils doivent rejoindre le parcours.
-* parcours basés sur l’audience **: créez des audiences dans**[!DNL Adobe Experience Platform]
+* parcours basés sur l’audience **: créez des audiences dans**&#x200B;[!DNL Adobe Experience Platform]
 * **Enrichissement des données** : configurez les sources de données pour récupérer des informations supplémentaires.
 * **Intégrations tierces** : configurez des actions personnalisées si vous utilisez des systèmes externes.
 

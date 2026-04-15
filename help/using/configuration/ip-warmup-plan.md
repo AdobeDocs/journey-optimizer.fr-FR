@@ -295,7 +295,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
     ![](assets/ip-warmup-upload-success.png)
     
-    >[!REMARQUE]
+    >[ !REMARQUE]
     >
     >En cas d’échec du chargement, assurez-vous d’utiliser le bon format de fichier et de mise en forme (.xls ou .xlsx). Utilisez le [modèle](assets/IPWarmupPlan-Template.xlsx) fourni par Adobe.
 
