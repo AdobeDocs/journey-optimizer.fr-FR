@@ -119,13 +119,13 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 La vidéo ci-dessous présente les principales fonctionnalités, l’architecture et les cas d’utilisation de la gestion des décisions :
 
 
->[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340412?captions=fre_fr&quality=12&learn=on)
 
 ### Définition et gestion des offres {#use-offer-decisioning}
 
 La vidéo ci-dessous montre comment utiliser la gestion des décisions pour définir et gérer vos offres, et exploiter les données client en temps réel.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340346?captions=fre_fr&quality=12&learn=on)
 
 
