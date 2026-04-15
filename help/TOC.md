@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bff1526dc5a0553741f688032745861debc17ddd
+source-git-commit: d4d746cdab0f30a09d04855768912927007bc12b
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3206'
 ht-degree: 91%
 
 ---
@@ -507,7 +507,7 @@ ht-degree: 91%
       + {hide-from-toc}[Prise en main de l’intégration des fournisseurs](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Fournisseurs disponibles](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[Utiliser les assistants d’IA via MCP](/help/using/integrations/ajo-mcp.md)
+      + {hide-from-toc}[Utilisation des assistants d’IA via MCP - Masqué](/help/using/integrations/ajo-mcp.md)
    + Assistant IA pour la génération de contenu {#ai-assistant}
       + [Assistant IA pour la génération de contenu](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
