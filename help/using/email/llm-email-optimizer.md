@@ -6,7 +6,8 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 88f47d375f01eff40a0f96e9cf0353b7914a0f89
+hide: true
+source-git-commit: 434480b9ea30ab456e97c2cf281adb1253b8f73d
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 1%
@@ -61,7 +62,7 @@ L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les
 
 Pour optimiser la version en texte brut de votre e-mail pour les boîtes de réception de l’IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[&#x200B; (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
+1. Ouvrez l’e-mail dans le Designer d’e-mail[ (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Optimiser pour la boîte de réception IA]** pour générer une version améliorée qui met en surbrillance les informations clés pour la lecture et la synthèse assistées par IA.
 
