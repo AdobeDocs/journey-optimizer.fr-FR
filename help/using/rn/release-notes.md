@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2510'
 ht-degree: 21%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Nouveautés"
->abstract="**&#x200B;** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
+>abstract="**** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
 
 [!DNL Adobe Journey Optimizer] suit un modèle de diffusion continu, ce qui permet à Adobe de fournir en continu de nouvelles fonctionnalités, de nouvelles améliorations et de nouveaux correctifs. Cette approche permet un déploiement évolutif et échelonné des fonctionnalités afin d’assurer les performances et la stabilité dans tous les environnements.
 
@@ -139,6 +139,10 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 #### Conception d’e-mail
 
+* **Assistant AI pour les expressions de personnalisation dans le Designer Email** - L’assistant AI pour les expressions de personnalisation est désormais également disponible directement à partir de l’expérience de modification en ligne dans le Designer Email. Lors de la modification d’un composant de texte, cliquez sur **Utiliser l’IA pour générer** dans la fenêtre contextuelle de modification en ligne pour décrire la personnalisation dont vous avez besoin en langage clair, passez en revue l’expression générée et insérez-la sans quitter le Designer d’e-mail. [En savoir plus](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  Date de disponibilité : jeudi 15 avril 2026
+
 * **Éditeur HTML avancé pour le contenu d’e-mail** - Le mode HTML avancé vous permet de modifier la source HTML de votre contenu dans le Designer d’e-mail, d’ajouter des expressions avancées (comme des conditions) dans la source et de basculer entre les vues HTML et Bureau sans perdre vos modifications.
 
   Auparavant disponible uniquement pour les modèles de contenu d’e-mail, cette fonctionnalité est désormais déployée sur le contenu **e-mail** dans le Designer d’e-mail (par exemple, les e-mails créés dans les parcours et les campagnes), en plus des modèles de contenu d’e-mail. Il est actuellement à disponibilité limitée. Contactez votre représentant Adobe pour y accéder. [En savoir plus](../email/email-expert-mode.md)
@@ -185,7 +189,7 @@ Les sections [Nouvelles fonctionnalités](#march-26-features) et [Améliorations
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Date de publication** : 24-25 mars 2026
@@ -375,7 +379,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Optimisé par <strong></strong> <strong>Journey Agent</strong> est disponible dans Journey Optimizer et vous permet d’analyser les parcours par le biais d’une interface en langage naturel. Vous pouvez désormais également générer et gérer du contenu spécifique à un canal directement dans Journey Agent, ce qui permet de créer du contenu pour des canaux tels que les e-mails et les notifications push, d’appliquer et de prévisualiser des modèles, d’affiner le ton et le style par le biais d’invites et d’ouvrir le contenu dans <strong>Content Designer</strong> pour une modification contextuelle.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : jeudi 4 mars 2026</p>
 </td>
 </tr>
