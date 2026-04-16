@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+source-git-commit: 873a9ed182e69c43be7c0f655a1696384395263c
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 97%
+source-wordcount: '1951'
+ht-degree: 74%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Événements de parcours"
->abstract="Un événement est lié à une personne. Il s’agit du comportement d’une personne (par exemple, une personne a acheté un produit, a visité un magasin, est sortie d’un site web, etc.) ou d’un élément lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). Journey Optimizer écoute les événements unitaires dans les parcours pour orchestrer les meilleures actions suivantes."
+>abstract="Journey Optimizer prend en charge trois types d’événements dans les parcours : les événements unitaires, liés au comportement d’une personne spécifique (comme un achat ou un jalon de fidélité) ; les événements métier, déclenchés par un événement global (comme une annulation de vol ou une mise à jour d’inventaire) ; et les événements de qualification d’audience, déclenchés lorsqu’un profil entre ou quitte une audience. Utilisez des événements pour déclencher des parcours et orchestrer les actions appropriées pour vos profils."
 
 Utilisez des événements pour déclencher les parcours individuellement, en envoyant des messages en temps réel à chaque utilisateur ou utilisatrice dès son entrée dans le parcours.
 
@@ -33,7 +33,7 @@ Dans la configuration des événements, vous configurez les événements attendu
 
 La configuration de l’événement est **obligatoire** et doit être effectuée par un ingénieur ou une ingénieure de données.
 
-Vous pouvez configurer deux types d’événements : des **événements unitaires** et des **événements métier**.
+Vous pouvez configurer trois types d’événements : **Événements unitaires**, **Événements métier** et **Événements de qualification d’audience**.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -45,8 +45,15 @@ Les parcours unitaires (qui commencent par un événement ou une qualification d
 
 ## Événements métier {#business-events}
 
-Les événements **métier** ne sont pas liés à un profil spécifique. Il peut s’agir, par exemple, d’une notification d’actualité, d’une information sportive, d’un changement ou d’une annulation de vol, d’une mise à jour d’inventaire, d’événements météorologiques, etc. Bien que ces événements ne soient pas spécifiques à un profil, ils peuvent intéresser un certain nombre de profils : les particuliers abonnés à des sujets d&#39;actualité spécifiques, les passagers d&#39;un vol, les acheteurs intéressés par un produit en rupture de stock, etc. Les événements métier sont toujours basés sur des règles. Lorsque vous ajoutez un événement métier dans un parcours, cela ajoute automatiquement une activité **Lecture d’audience** juste après. Découvrez comment créer un événement métier [sur cette page](../event/about-creating-business.md). 
+Les événements **métier** ne sont pas liés à un profil spécifique. Il peut s’agir, par exemple, d’une notification d’actualité, d’une information sportive, d’un changement ou d’une annulation de vol, d’une mise à jour d’inventaire, d’événements météorologiques, etc. Bien que ces événements ne soient pas spécifiques à un profil, ils peuvent intéresser un certain nombre de profils : les particuliers abonnés à des sujets d&#39;actualité spécifiques, les passagers d&#39;un vol, les acheteurs intéressés par un produit en rupture de stock, etc. Les événements métier sont toujours basés sur des règles. Lorsque vous déposez un événement métier dans un parcours, il ajoute automatiquement une activité **Lecture d’audience** juste après. Découvrez comment créer un événement métier [sur cette page](../event/about-creating-business.md).
 
+## Événements de qualification d’audience {#audience-qualification-events}
+
+Un événement **qualification de l’audience** est déclenché lorsqu’un profil entre ou quitte une audience. Par exemple, un client qui dépasse un seuil de dépenses de fidélité entre dans l’audience de niveau Gold ; cette qualification déclenche le parcours de ce profil en temps réel (pour les audiences de streaming) ou lors de l’évaluation du lot suivant. Contrairement aux événements unitaires, la qualification d’audience vous permet de créer une logique de déclenchement complexe en utilisant toute la puissance des définitions d’audience, sans avoir à apporter de modifications à l’implémentation pour envoyer un nouvel événement. En savoir plus sur les [événements de qualification d’audience](../building-journeys/audience-qualification-events.md).
+
+>[!NOTE]
+>
+>Les événements de qualification d’audience ne sont pas configurés dans **Administration > Événements** — ils sont sélectionnés directement sur la zone de travail de parcours comme première étape d’un parcours.
 
 ## Type d’identifiant d’événement {#event-id-type}
 
@@ -65,6 +72,20 @@ Pour les événements **unitaires**, il existe deux types d’identifiant d’�
 >[!NOTE]
 >
 >Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lots, les événements insérés via **Query Service** ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, suivi des e-mails, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, créez un segment basé sur ces événements et utilisez l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée, mais peut entraîner des difficultés en aval en fonction des actions utilisées. Ces données n’ont pas nécessairement besoin d’accéder au profil en temps réel. Si vous souhaitez utiliser les événements pour la segmentation, nous vous recommandons d’activer le jeu de données pour le profil.
+
+## Comment choisir {#choose-event-type}
+
+Utilisez les critères ci-dessous pour sélectionner le type d’événement approprié à votre parcours. La question essentielle est la suivante : **déclenchez-vous une action pour une personne spécifique ou diffusez-vous des événements vers plusieurs profils ?** [En savoir plus sur les types de parcours ](../building-journeys/journey.md#journey-types).
+
+* **Choisissez un événement unitaire** lorsque le déclencheur est lié à une personne spécifique (par exemple, un achat, un envoi de formulaire ou un jalon de fidélité). Les événements unitaires nécessitent une identité principale basée sur une personne dans le schéma et lancent immédiatement le parcours pour ce profil. [Découvrez comment configurer un événement unitaire](../event/about-creating.md).
+
+* **Choisissez un événement métier** lorsque le déclencheur est un événement global (par exemple, un réapprovisionnement de produit, une baisse de prix ou une annulation de vol) et que vous souhaitez diffuser vers un ensemble de profils liés à ce signal. Les événements métier doivent être la première étape du parcours et cibler automatiquement les profils par le biais d&#39;une activité **Lecture d&#39;audience**. Ils nécessitent un schéma de série temporelle avec une identité principale autre que des personnes et les champs `_id` et `timestamp`. Planifiez un délai d’exportation d’audience de 15 minutes à jusqu’à une heure. [Découvrez comment configurer un événement métier](../event/about-creating-business.md).
+
+* **Choisissez un événement de qualification d’audience** lorsque le déclencheur est un profil qui entre ou sort d’une audience et que vous avez besoin d’une logique de segmentation plus complexe que celle qu’un seul événement peut fournir (par exemple, réengager des clients obsolètes qui viennent d’atteindre un seuil de dépenses ou déclencher un flux de délocalisation lorsqu’un membre de VIP abandonne le niveau de fidélité). [En savoir plus sur les événements de qualification d’audience](../building-journeys/audience-qualification-events.md).
+
+>[!CAUTION]
+>
+>Les événements métier ne peuvent pas être utilisés dans le même parcours que les événements unitaires ou les activités de qualification d’audience.
 
 ## Cycle des données {#data-cycle}
 
@@ -126,8 +147,8 @@ Les événements utilisés dans des parcours **actifs**, **brouillons** ou **fer
 
 Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431514?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416325?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
