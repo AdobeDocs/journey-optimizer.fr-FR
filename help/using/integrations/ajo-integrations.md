@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 41fc96cb43c28e823c3b927901ad01e7d15bd5ef
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 99%
+source-wordcount: '1005'
+ht-degree: 94%
 
 ---
 
@@ -120,7 +120,7 @@ En savoir plus sur [Journey Optimizer + Campaign Standard](../building-journ
 
 Utilisez les modules Adobe Journey Optimizer dans Adobe Workfront pour créer, lire, mettre à jour ou supprimer des enregistrements, ou effectuez un appel d’API personnalisé vers l’API Adobe Journey Optimizer.
 
-Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=fr&lang=fr){target="_blank"}.
+Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?lang=fr){target="_blank"}.
 
 En savoir plus sur Journey Optimizer + Adobe Workfront [dans la documentation Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=fr){target="_blank"}.
 
@@ -137,3 +137,9 @@ En savoir plus sur les [actions personnalisées](../action/about-custom-action-c
 Journey Optimizer vous permet de configurer des connexions à des systèmes externes par le biais de sources de données et d&#39;actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours avec des données provenant d’un système de réservation externe.
 
 Découvrez comment utiliser des sources de données externes pour définir une connexion à un système tiers dans [cette section](../datasource/external-data-sources.md).
+
+## Outils d’IA via MCP (Beta) {#integration-mcp}
+
+[!DNL Adobe Journey Optimizer] fournit un serveur MCP (Model Context Protocol) qui vous permet d’interroger des campagnes et de proposer des données à l’aide d’invites en langage clair directement à partir d’outils d’IA compatibles avec MCP tels que Claude Web et Claude Desktop, sans avoir à écrire d’appels d’API ni à parcourir les écrans de produits.
+
+En savoir plus sur [Journey Optimizer + MCP](../integrations/ajo-mcp.md).
