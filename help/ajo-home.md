@@ -5,9 +5,9 @@ title: Documentation Adobe Journey Optimizer
 description: Documentation Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ae27c778a79cd8d4dddef65819b961055b476429
+source-git-commit: dbb52143912170bfb99e22d924c1395fce7ca010
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '557'
 ht-degree: 92%
 
 ---
@@ -48,12 +48,6 @@ Découvrez comment utiliser la syntaxe d’itération pour afficher dans vos mes
 Journey Optimizer comprend désormais l’**orchestration de campagne**, une nouvelle fonctionnalité spécialement conçue pour les campagnes par lots lancées par la marque.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
-
->[!TAB Heures creuses]
-
-Les heures creuses vous permettent de définir des exclusions basées sur l’heure pour les canaux E-mail, SMS, Notification push et WhatsApp.
-
-[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
 
 >[!ENDTABS]
