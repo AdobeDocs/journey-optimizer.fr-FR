@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: d4d746cdab0f30a09d04855768912927007bc12b
+source-git-commit: c0124f71de8e8f74d525725b7b8241b09917020e
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Les équipes de marketing et d’expérience client s’appuient de plus en plus
 
 Le serveur MCP [!DNL Adobe Journey Optimizer] vous permet d’inspecter, de résumer et de résoudre les problèmes liés aux parcours, aux campagnes et aux offres directement à partir de l’assistant d’IA. Toutes les opérations sont **lecture seule** — les surfaces du serveur MCP récupèrent les API comme réponses en langage clair afin que vous puissiez :
 
-* **Comprendre la logique des parcours** — Obtenez un résumé lisible par l&#39;utilisateur des embranchements, des conditions et des actions d&#39;un parcours.
+<!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
 * **Vérifier la préparation de la campagne** — Identifier les bloqueurs qui empêchent la publication d&#39;une campagne.
 * **Lacunes de couverture par spot** — Identifiez les canaux couverts dans vos parcours et campagnes en direct et repérez les lacunes éventuelles.
 * **Auditer votre portfolio d’orchestration** — Consulter le statut complet des campagnes et des parcours sans analyser le JSON ni passer d’un écran de produit à l’autre.
@@ -49,7 +49,7 @@ Les exemples suivants montrent comment interagir avec le serveur MCP [!DNL Adobe
 | **Inventaire et audit de statut** | « Qu&#39;avons-nous et dans quel état ? Affichez les décomptes en direct, brouillon, terminé, arrêté ou archivé des campagnes. » |
 | **Vérifier la préparation de la publication** | « Pourquoi la campagne cmp456 n’est-elle pas prête à être publiée ? Montre-moi les bloqueurs. » |
 | **Comparer des objets** | « Comparer les campagnes abc123 et xyz789 — Qu’est-ce qui a changé dans le statut et le planning ? » |
-| **Audit de votre portefeuille** | « Quels canaux sont couverts dans tous les parcours et campagnes en direct et où sont les lacunes ? » |
+| **Audit de votre portefeuille** | « Sur toutes les campagnes en direct, quels canaux sont couverts et où sont les lacunes ? » |
 | **Couverture et mix des canaux** | « Affichez l’empreinte du canal sur les parcours, les campagnes et les emplacements d’offres : e-mail uniquement par rapport à multicanal, utilisation des notifications push/SMS/in-app et incohérences entre les canaux de parcours. » |
 
 ## Conditions préalables {#mcp-prerequisites}
