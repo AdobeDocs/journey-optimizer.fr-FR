@@ -106,7 +106,7 @@ L’[agent d&#39;analyse de parcours](https://experienceleague.adobe.com/fr/docs
 
 #### Parcours créer une compétence {#journey-create-skill}
 
-L’agent de création de Parcours [](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
+L’agent de création de Parcours [&#128279;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
 
 +++**Fonctions principales**
 
@@ -175,7 +175,7 @@ Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieu
 * **Génération de texte** : créez des contenus attrayants en accord avec le ton et les objectifs de votre marque. [Génération de texte avec l’IA](../content-management/generative-text.md)
 * **Génération d’images** : générez des images personnalisées à l’aide d’Adobe Firefly. [Génération d’images avec l’IA](../content-management/generative-image.md)
 * **Variantes de contenu** : produisez plusieurs variantes pour les tests A/B. [Expérience de contenu avec l’IA](../content-management/generative-experimentation.md)
-* **** - Générez de nouvelles expressions, expliquez le code existant ou corrigez les problèmes avec l’assistant AI à partir de l’éditeur Personalization ou de la barre d’outils Designer d’e-mail (**Ajouter une expression**). [Assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
+* **&#x200B;**&#x200B;- Générez de nouvelles expressions, expliquez le code existant ou corrigez les problèmes avec l’assistant AI à partir de l’éditeur Personalization ou de la barre d’outils Designer d’e-mail (**Ajouter une expression**). [Assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
 * **Alignement sur la marque** : assurez-vous que le contenu généré correspond aux consignes de votre marque. [Évaluation de l’alignement sur la marque](../content-management/brands-score.md)
 * **Prise en charge des modèles** : utilisez vos modèles d’e-mail existants. [Utiliser des modèles de contenu](../content-management/content-templates.md)
 

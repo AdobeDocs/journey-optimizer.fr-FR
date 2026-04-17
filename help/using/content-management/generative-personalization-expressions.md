@@ -28,7 +28,7 @@ ht-degree: 4%
 
 L’[!UICONTROL assistant AI] vous permet de générer une nouvelle personnalisation à partir d’un langage clair, d’expliquer le rôle des expressions existantes et de résoudre les problèmes liés au code sélectionné, de sorte que vous passiez moins de temps sur la syntaxe et la découverte manuelle des champs. Vous pouvez également effectuer une itération sur une sélection ou demander d’autres modifications dans la conversation. Elle est disponible de deux manières :
 
-* **[!UICONTROL Éditeur Personalization]** — là où l&#39;éditeur est disponible (objet, corps et autres champs qui l&#39;ouvrent). Pour savoir où et comment ouvrir l’éditeur, voir [ Ajouter une personnalisation ](../personalization/personalization-build-expressions.md#where).
+* **[!UICONTROL Éditeur Personalization]** — là où l&#39;éditeur est disponible (objet, corps et autres champs qui l&#39;ouvrent). Pour savoir où et comment ouvrir l’éditeur, voir [&#x200B; Ajouter une personnalisation &#x200B;](../personalization/personalization-build-expressions.md#where).
 * **Email Designer** — lorsque vous sélectionnez un composant, utilisez **[!UICONTROL Ajouter une expression]** dans la barre d’outils contextuelle pour ouvrir l’assistant dans une boîte à outils. Voir [Générer à partir du Designer d’e-mail](#generate-email-designer).
 
 Pour en savoir plus sur la configuration et les langages de l’assistant AI, voir [Prise en main de l’assistant AI](gs-generative.md). Pour connaître les concepts de personnalisation, voir [Prise en main de la personnalisation](../personalization/personalize.md). Pour obtenir des idées rapides, voir [Bonnes pratiques d’invite d’IA](ai-assistant-prompting-guide.md).
@@ -43,7 +43,7 @@ Selon le contexte de votre campagne ou de votre parcours, l’assistant peut uti
 
 Ces étapes couvrent la génération à partir de zéro d’expressions de personnalisation. Pour utiliser du code déjà présent dans l’éditeur, voir [Modifier, corriger ou expliquer le code existant](#edit-existing).
 
-1. Dans votre message ou contenu, ouvrez l&#39;éditeur Personalization ****.
+1. Dans votre message ou contenu, ouvrez l&#39;éditeur Personalization **&#x200B;**.
 
 1. Placez le curseur dans l’éditeur à l’endroit où vous souhaitez insérer le code de personnalisation généré, puis cliquez sur le bouton **[!UICONTROL Assistant IA]**.
 
