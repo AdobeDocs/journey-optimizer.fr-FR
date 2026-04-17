@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2490'
 ht-degree: 21%
 
 ---
@@ -139,7 +139,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 #### Conception d’e-mail
 
-* **Assistant AI pour les expressions de personnalisation dans le Designer Email** - L’assistant AI pour les expressions de personnalisation est désormais également disponible directement à partir de l’expérience de modification en ligne dans le Designer Email. Lors de la modification d’un composant de texte, cliquez sur **Utiliser l’IA pour générer** dans la fenêtre contextuelle de modification en ligne pour décrire la personnalisation dont vous avez besoin en langage clair, passez en revue l’expression générée et insérez-la sans quitter le Designer d’e-mail. [En savoir plus](../content-management/generative-personalization-expressions.md#generate-email-designer)
+* **Assistant AI pour les expressions de personnalisation dans le Designer Email** - Dans le Designer Email, sélectionnez un composant et utilisez **Ajouter une expression** dans la barre d’outils contextuelle pour décrire la personnalisation dont vous avez besoin en langage clair, passer en revue l’expression générée et l’insérer sans quitter le concepteur. [En savoir plus](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
   Date de disponibilité : jeudi 15 avril 2026
 
