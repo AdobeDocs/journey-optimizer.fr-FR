@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 hide: true
-source-git-commit: 93e19a78dc942f8897b306f4549e971542f01c3a
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer] est fourni avec une fonctionnalité de canal e-mail qui vous permet de structurer une version spécifique de vos messages pour améliorer les expériences de boîte de réception assistée par l’IA, telles que les [!DNL Apple Intelligence] et les [!DNL Google Gemini] dans [!DNL Gmail], afin qu’ils puissent répondre aux questions et résumer les e-mails en fonction de votre contenu plus précisément, avec de meilleurs résultats.
 
-Vous pouvez utiliser cette fonctionnalité pour générer et affiner une version texte dédiée de vos messages afin que les expériences de boîte de réception assistée par IA soient plus susceptibles de faire surface aux offres, aux appels à l’action et aux détails que vous avez prévus, plutôt qu’à du texte fin généré automatiquement ou à un contexte sans rapport.
+Vous pouvez utiliser cette fonctionnalité pour générer et affiner une version dédiée de vos messages afin que les expériences de boîte de réception assistée par IA soient plus susceptibles de faire surface aux offres, aux appels à l’action et aux détails que vous avez prévus, plutôt qu’à du texte fin généré automatiquement ou à un contexte sans rapport.
 
+<!--
 >[!NOTE]
 >
->Cette version textuelle optimisée pour les boîtes de réception de l’IA n’est pas identique à la version en texte brut par défaut ou personnalisée de vos messages. [En savoir plus](text-version-email.md)
+>This optimized for AI inboxes text version is not the same as the default or custom plain text version of your messages. [Learn more](text-version-email.md)
+-->
 
 ## Fonctionnement {#how-it-works}
 

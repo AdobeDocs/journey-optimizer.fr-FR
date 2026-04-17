@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2568'
 ht-degree: 21%
 
 ---
@@ -30,6 +30,25 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 ## Mises à jour d’avril 2026 {#april-26-rn}
 
 ### Nouvelles fonctionnalités {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimisation des e-mails pour les boîtes de réception d’IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer comprend désormais une nouvelle fonctionnalité qui garantit que vos e-mails sont structurés de manière optimale pour les boîtes de réception optimisées par l’IA telles qu’Apple Intelligence et Google Gemini dans Gmail.</p>
+<p>Comme les assistants d’IA contrôlent de plus en plus la manière dont les destinataires lisent et agissent sur les e-mails, cette fonctionnalité vous permet de créer du contenu qui s’exécute correctement dans les tâches d’IA en aval, notamment la synthèse, le tri, la hiérarchisation et l’extraction d’intention.</p>
+<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
+<p>Pour plus d’informations, voir <a href="../email/llm-email-optimizer.md">Optimiser le texte des e-mails pour les boîtes de réception IA</a>.</p>
+<p>Date de disponibilité : samedi 17 avril 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
