@@ -1,20 +1,19 @@
 ---
 title: Optimiser le texte des e-mails pour les boîtes de réception d’IA
-description: Affinez la couche de texte brut de l’e-mail dans Journey Optimizer afin que les clients de boîte de réception assistés par l’IA puissent utiliser vos offres et vos appels à l’action lorsqu’ils résument l’intention de l’e-mail ou l’extraient, dans le Designer d’e-mail avec optimisation grâce à l’IA.
+description: Générez et affinez une version dédiée de vos messages afin que les clients de la boîte de réception assistée par IA puissent utiliser vos offres et vos appels à l’action lorsqu’ils résument l’intention de l’e-mail ou de l’extraire, dans le Designer d’e-mail avec optimisation avec IA.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-hide: true
-source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
 
-# Optimiser le texte des e-mails pour les boîtes de réception d’IA {#email-text-optimizer}
+# Optimisation des e-mails pour les boîtes de réception d’IA {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer] est fourni avec une fonctionnalité de canal e-mail qui vous permet de structurer une version spécifique de vos messages pour améliorer les expériences de boîte de réception assistée par l’IA, telles que les [!DNL Apple Intelligence] et les [!DNL Google Gemini] dans [!DNL Gmail], afin qu’ils puissent répondre aux questions et résumer les e-mails en fonction de votre contenu plus précisément, avec de meilleurs résultats.
 
@@ -64,7 +63,7 @@ L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les
 
 Pour optimiser le contenu de votre e-mail pour les expériences de boîte de réception IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[&#x200B; (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
+1. Ouvrez l’e-mail dans le Designer d’e-mail[ (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Optimiser pour la boîte de réception IA]** pour générer une version améliorée qui met en surbrillance les informations clés pour la lecture et la synthèse assistées par IA.
 
@@ -88,7 +87,7 @@ Pour optimiser le contenu de votre e-mail pour les expériences de boîte de ré
 
 1. Une fois la version créée, cliquez sur le bouton **[!UICONTROL Optimiser l’e-mail]** pour confirmer. Vous pouvez également utiliser le bouton **[!UICONTROL Réoptimiser]** pour générer une nouvelle version.
 
-1. Vous êtes redirigé vers la vue **&#x200B;**&#x200B;et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
+1. Vous êtes redirigé vers la vue **** et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
 
    ![Bouton Réoptimiser dans le Designer Email](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
 
