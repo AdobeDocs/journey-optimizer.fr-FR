@@ -5,10 +5,10 @@ title: Documentation Adobe Journey Optimizer
 description: Documentation Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dbb52143912170bfb99e22d924c1395fce7ca010
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 92%
+source-wordcount: '565'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Découvrez les dernières fonctionnalités et améliorations de Journey Optimize
 
 >[!TAB Assistant AI pour la personnalisation]
 
-Utilisez l’**assistant AI** dans l’éditeur de Personalization pour décrire ce que vous souhaitez en langage clair et obtenir une expression de personnalisation, ou sélectionnez du code existant pour l’expliquer, résoudre des problèmes ou suggérer des améliorations.
+Utilisez l’**assistant AI** dans l’éditeur Personalization ou dans la barre d’outils Designer d’e-mail (**Ajouter une expression**) pour décrire ce que vous souhaitez en langage clair et obtenir une expression de personnalisation, ou sélectionnez le code existant pour l’expliquer, résoudre des problèmes ou suggérer des améliorations.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
 
@@ -57,7 +57,7 @@ Journey Optimizer comprend désormais l’**orchestration de campagne**, une no
 
 ::::landing-cards-container
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Dernières notes de mise à jour
 
@@ -67,7 +67,7 @@ Tenez-vous au courant des dernières notes de mise à jour, des nouvelles foncti
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer
 
@@ -77,7 +77,7 @@ Découvrez les principes de base de Journey Optimizer, notamment ses fonctionna
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guide complet des parcours
 
@@ -87,7 +87,7 @@ Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Comprendre et gérer les campagnes
 
@@ -97,7 +97,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canaux de communication
 
@@ -107,7 +107,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestion et hiérarchisation des conflits
 
