@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a5a7b756bb2e398e88feb3bc65d9a0e1a163c4ed
+source-git-commit: dce9c31a7d7dea53928b9eefaf46b446cce2a874
 workflow-type: tm+mt
 source-wordcount: '3205'
 ht-degree: 91%
@@ -51,7 +51,7 @@ ht-degree: 91%
       + {hide-from-toc}[Parcours ou campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer avec les parcours](using/building-journeys/journey.md)
-   + {hide-from-toc}[Guide de prise en main du Parcours &#x200B;](using/building-journeys/journey-get-started.md)
+   + Guide de prise en main du Parcours {hide-from-toc}[](using/building-journeys/journey-get-started.md)
    + {hide-from-toc}[types de Parcours et guide de sélection](using/building-journeys/journey-types-selection.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
@@ -228,7 +228,7 @@ ht-degree: 91%
       + [Définir des heures creuses](using/conflict-prioritization/quiet-hours.md)
    + arbitrage de parcours {#journey-arbitration}
       + [Utilisation de formules pour classer les parcours](using/conflict-prioritization/journey-ranking-formulas.md)
-      + {hide-from-toc}[Utilisez les modèles d’IA pour classer les parcours &#x200B;](using/conflict-prioritization/journey-ai-models.md)
+      + {hide-from-toc}[Utilisez les modèles d’IA pour classer les parcours ](using/conflict-prioritization/journey-ai-models.md)
 + Tester et approuver {#test}
    + [Tester, valider et approuver](/help/rp_landing_pages/test-landing-page.md)
    + Prévisualiser et tester du contenu {#preview-test}
@@ -288,7 +288,7 @@ ht-degree: 91%
             + [Utiliser des fragments visuels](using/email/use-visual-fragments.md)
             + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
             + [Insérer des offres personnalisées](using/email/add-offers-email.md)
-            + {hide-from-toc}[Optimisation des e-mails pour les boîtes de réception d’IA](using/email/llm-email-optimizer.md)
+            + [Optimisation des e-mails pour les boîtes de réception d’IA](using/email/llm-email-optimizer.md)
             + [Gestion de la version texte](using/email/text-version-email.md)
             + [Ajouter des métadonnées](using/email/email-metadata.md)
             + [Modifier avec l’éditeur HTML avancé](using/email/email-expert-mode.md)
@@ -593,7 +593,7 @@ ht-degree: 91%
          + [Rapport de campagne par e-mail](using/reports/campaign-global-report-cja-email.md)
          + [Rapport de campagne d’expérimentation](using/reports/campaign-global-report-cja-experimentation.md)
          + [Rapport de campagne in-app](using/reports/campaign-global-report-cja-inapp.md)
-         + {hide-from-toc}[&#x200B; Rapport de campagne d’activité dynamique &#x200B;](using/reports/campaign-global-report-cja-activity.md)
+         + {hide-from-toc}[ Rapport de campagne d’activité dynamique ](using/reports/campaign-global-report-cja-activity.md)
          + [Rapport de campagne de notifications push](using/reports/campaign-global-report-cja-push.md)
          + [Rapport de campagne par SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Rapport de campagne web](using/reports/campaign-global-report-cja-web.md)
@@ -970,7 +970,7 @@ ht-degree: 91%
    + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources &#x200B;](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
