@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Assistant AI pour les expressions Personalization
-description: Découvrez comment utiliser l’assistant AI dans Journey Optimizer pour générer des expressions de personnalisation à partir du langage naturel (à partir de l’éditeur Personalization ou de la barre d’outils Designer d’e-mail).
+description: Découvrez comment utiliser l’assistant AI dans Journey Optimizer pour générer des expressions de personnalisation à partir du langage naturel dans l’éditeur de Personalization et comment fonctionne la commande Ajouter une expression dans le Designer d’e-mail.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 4%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 4%
 
 L’[!UICONTROL assistant AI] vous permet de générer une nouvelle personnalisation à partir d’un langage clair, d’expliquer le rôle des expressions existantes et de résoudre les problèmes liés au code sélectionné, de sorte que vous passiez moins de temps sur la syntaxe et la découverte manuelle des champs. Vous pouvez également effectuer une itération sur une sélection ou demander d’autres modifications dans la conversation. Elle est disponible de deux manières :
 
-* **[!UICONTROL Éditeur Personalization]** — là où l&#39;éditeur est disponible (objet, corps et autres champs qui l&#39;ouvrent). Pour savoir où et comment ouvrir l’éditeur, voir [&#x200B; Ajouter une personnalisation &#x200B;](../personalization/personalization-build-expressions.md#where).
-* **Email Designer** — lorsque vous sélectionnez un composant, utilisez **[!UICONTROL Ajouter une expression]** dans la barre d’outils contextuelle pour ouvrir l’assistant dans une boîte à outils. Voir [Générer à partir du Designer d’e-mail](#generate-email-designer).
+* **[!UICONTROL Éditeur Personalization]** — l&#39;endroit où l&#39;éditeur est disponible sur plusieurs canaux (objet, corps et autres champs qui l&#39;ouvrent). Il s’agit du chemin général de la personnalisation assistée par l’IA. Pour savoir où et comment ouvrir l’éditeur, voir [ Ajouter une personnalisation ](../personalization/personalization-build-expressions.md#where).
+* **Barre d’outils Designer d’e-mail** — lorsque vous créez des e-mails dans le Designer d’e-mail, sélectionnez un composant et utilisez **[!UICONTROL Ajouter une expression]** dans la barre d’outils contextuelle pour ouvrir l’assistant dans une boîte à outils sans ouvrir l’éditeur complet au préalable. Ce point d’entrée n’est pas disponible en dehors de la création d’e-mails. Voir [Générer à partir du Designer d’e-mail](#generate-email-designer).
 
 Pour en savoir plus sur la configuration et les langages de l’assistant AI, voir [Prise en main de l’assistant AI](gs-generative.md). Pour connaître les concepts de personnalisation, voir [Prise en main de la personnalisation](../personalization/personalize.md). Pour obtenir des idées rapides, voir [Bonnes pratiques d’invite d’IA](ai-assistant-prompting-guide.md).
 
@@ -43,7 +43,7 @@ Selon le contexte de votre campagne ou de votre parcours, l’assistant peut uti
 
 Ces étapes couvrent la génération à partir de zéro d’expressions de personnalisation. Pour utiliser du code déjà présent dans l’éditeur, voir [Modifier, corriger ou expliquer le code existant](#edit-existing).
 
-1. Dans votre message ou contenu, ouvrez l&#39;éditeur Personalization **&#x200B;**.
+1. Dans votre message ou contenu, ouvrez l&#39;éditeur Personalization ****.
 
 1. Placez le curseur dans l’éditeur à l’endroit où vous souhaitez insérer le code de personnalisation généré, puis cliquez sur le bouton **[!UICONTROL Assistant IA]**.
 
@@ -63,9 +63,9 @@ Ces étapes couvrent la génération à partir de zéro d’expressions de perso
 
    ![](assets/ai-perso-question.png)
 
-1. Après avoir généré une expression, cliquez sur **[!UICONTROL Afficher les aperçus pour les profils types]** pour voir comment l’expression est évaluée avec des données d’exemple et pour afficher la payload associée au format JSON. Pour ce contrôle, l’assistant génère un ensemble limité de profils types synthétiques ; ils ne sont ni enregistrés ni stockés dans votre organisation.
+1. Après avoir généré une expression, cliquez sur **[!UICONTROL Afficher les aperçus pour les profils types]** pour voir comment l’expression est évaluée par rapport à **un** profil type synthétique et pour afficher la payload associée au format JSON. L’aperçu est un contrôle ponctuel **unique** qui vous permet de vous assurer que votre code se résout comme prévu. Il ne simule **pas** plusieurs destinataires, des données variées ou une couverture complète. Les exemples de données ne sont pas enregistrés ou stockés dans votre organisation.
 
-   Si vous avez besoin de profils types personnalisés ou supplémentaires, décrivez ce dont vous avez besoin lors de la discussion avec l’assistant et incluez le mot-clé **preview** dans votre invite afin qu’il puisse générer les profils de prévisualisation appropriés pour votre vérification.
+   Si vous avez besoin d’ajuster l’échantillon (par exemple, en mettant différents attributs en évidence), décrivez ce dont vous avez besoin dans la discussion avec l’assistant et incluez le mot-clé **preview** dans votre invite.
 
    ![](assets/ai-perso-preview-button.png)
 
@@ -75,7 +75,7 @@ Ces étapes couvrent la génération à partir de zéro d’expressions de perso
 
    >[!NOTE]
    >
-   >D’autres aperçus servent à la vérification par points. L’assistant est réglé de manière à générer environ un à cinq profils. Si vous demandez un nombre très élevé, la requête peut échouer.
+   >Ne vous attendez pas à plusieurs lignes d’aperçu ou scénarios exhaustifs ici. Le contrôle est délibérément limité à **une** évaluation d’échantillon pour une vérification rapide du code, et non à une couverture partielle sur de nombreux profils. La demande d’un ensemble d’aperçus trop volumineux pour être réaliste peut entraîner l’échec de la requête.
 
    +++
 
@@ -109,6 +109,10 @@ Vous pouvez sélectionner une expression de personnalisation existante et utilis
 
 ## Générer à partir de la barre d’outils Designer d’e-mail {#generate-email-designer}
 
+>[!NOTE]
+>
+>Cette section s’applique uniquement lorsque vous modifiez le contenu **e-mail** dans le Designer d’e-mail. Pour les autres canaux, utilisez l’éditeur ****.
+
 Dans le Designer d’e-mail, vous pouvez utiliser l’assistant [!UICONTROL AI] pour les expressions de personnalisation, à partir de la barre d’outils contextuelle, sans ouvrir l’[!UICONTROL Éditeur Personalization] complet au préalable.
 
 1. Dans le Designer d’e-mail, sélectionnez le composant à personnaliser, puis cliquez à l’emplacement où vous souhaitez insérer l’expression.
@@ -125,7 +129,7 @@ Dans le Designer d’e-mail, vous pouvez utiliser l’assistant [!UICONTROL AI] 
 
    Vous pouvez :
 
-   * Validez la sortie de l’expression avec des valeurs d’échantillon. Utilisez l’onglet **[!UICONTROL Aperçu]**.
+   * Validez la sortie de l’expression avec un exemple de valeur. Utilisez l’onglet **[!UICONTROL Aperçu]**.
    * Générez une autre suggestion à partir de la même invite - utilisez **[!UICONTROL Régénérer]**.
    * Effacez la discussion et recommencez - utilisez **[!UICONTROL Réinitialiser]**.
    * Affinez l’expression dans l’éditeur complet. Cliquez sur l’icône ![Modifier](assets/do-not-localize/Smock_Edit_18_N.svg "Modifier") pour ouvrir l’éditeur **[!UICONTROL Personalization]**.
