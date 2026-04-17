@@ -62,7 +62,7 @@ L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les
 
 Pour optimiser le contenu de votre e-mail pour les expériences de boîte de réception IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[ (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
+1. Ouvrez l’e-mail dans le Designer d’e-mail[&#x200B; (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Optimiser pour la boîte de réception IA]** pour générer une version améliorée qui met en surbrillance les informations clés pour la lecture et la synthèse assistées par IA.
 
@@ -86,7 +86,7 @@ Pour optimiser le contenu de votre e-mail pour les expériences de boîte de ré
 
 1. Une fois la version créée, cliquez sur le bouton **[!UICONTROL Optimiser l’e-mail]** pour confirmer. Vous pouvez également utiliser le bouton **[!UICONTROL Réoptimiser]** pour générer une nouvelle version.
 
-1. Vous êtes redirigé vers la vue **** et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
+1. Vous êtes redirigé vers la vue **&#x200B;**&#x200B;et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
 
    ![Bouton Réoptimiser dans le Designer Email](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
 
