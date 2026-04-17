@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 hide: true
-source-git-commit: 93e19a78dc942f8897b306f4549e971542f01c3a
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer] est fourni avec une fonctionnalité de canal e-mail qui vous permet de structurer une version spécifique de vos messages pour améliorer les expériences de boîte de réception assistée par l’IA, telles que les [!DNL Apple Intelligence] et les [!DNL Google Gemini] dans [!DNL Gmail], afin qu’ils puissent répondre aux questions et résumer les e-mails en fonction de votre contenu plus précisément, avec de meilleurs résultats.
 
-Vous pouvez utiliser cette fonctionnalité pour générer et affiner une version texte dédiée de vos messages afin que les expériences de boîte de réception assistée par IA soient plus susceptibles de faire surface aux offres, aux appels à l’action et aux détails que vous avez prévus, plutôt qu’à du texte fin généré automatiquement ou à un contexte sans rapport.
+Vous pouvez utiliser cette fonctionnalité pour générer et affiner une version dédiée de vos messages afin que les expériences de boîte de réception assistée par IA soient plus susceptibles de faire surface aux offres, aux appels à l’action et aux détails que vous avez prévus, plutôt qu’à du texte fin généré automatiquement ou à un contexte sans rapport.
 
+<!--
 >[!NOTE]
 >
->Cette version textuelle optimisée pour les boîtes de réception de l’IA n’est pas identique à la version en texte brut par défaut ou personnalisée de vos messages. [En savoir plus](text-version-email.md)
+>This optimized for AI inboxes text version is not the same as the default or custom plain text version of your messages. [Learn more](text-version-email.md)
+-->
 
 ## Fonctionnement {#how-it-works}
 
@@ -62,7 +64,7 @@ L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les
 
 Pour optimiser le contenu de votre e-mail pour les expériences de boîte de réception IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[&#x200B; (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
+1. Ouvrez l’e-mail dans le Designer d’e-mail[ (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Optimiser pour la boîte de réception IA]** pour générer une version améliorée qui met en surbrillance les informations clés pour la lecture et la synthèse assistées par IA.
 
@@ -86,7 +88,7 @@ Pour optimiser le contenu de votre e-mail pour les expériences de boîte de ré
 
 1. Une fois la version créée, cliquez sur le bouton **[!UICONTROL Optimiser l’e-mail]** pour confirmer. Vous pouvez également utiliser le bouton **[!UICONTROL Réoptimiser]** pour générer une nouvelle version.
 
-1. Vous êtes redirigé vers la vue **&#x200B;**&#x200B;et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
+1. Vous êtes redirigé vers la vue **** et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
 
    ![Bouton Réoptimiser dans le Designer Email](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
 
