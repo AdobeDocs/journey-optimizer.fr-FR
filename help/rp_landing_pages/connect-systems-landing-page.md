@@ -20,7 +20,7 @@ Adobe Journey Optimizer vous permet de connecter facilement vos systèmes et e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Intégrer Adobe Journey Optimizer à d’autres solutions
 
@@ -30,7 +30,7 @@ Découvrez comment Adobe Journey Optimizer se connecte à d’autres solutions
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utiliser les API Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez comment utiliser les API pour offrir des expériences personnalisées
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Intégrer vos parcours à des systèmes externes
 
@@ -50,7 +50,7 @@ Découvrez les bonnes pratiques relatives à l’intégration d’Adobe Journey
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Envoyer avec les solutions Adobe
 
@@ -60,7 +60,7 @@ Configurez Adobe Journey Optimizer pour l’intégration à Adobe Campaign, M
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Gestion des sandbox dans Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Gérez efficacement les environnements virtuels, les rôles et les workflows ave
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec les connecteurs sources
 
