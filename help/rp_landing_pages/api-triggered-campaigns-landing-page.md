@@ -30,7 +30,7 @@ Découvrez comment créer, configurer et gérer des campagnes déclenchées par�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Définir les propriétés des campagnes déclenchées par API
 

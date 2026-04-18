@@ -30,7 +30,7 @@ Découvrez les règles de syntaxe détaillées pour utiliser l’éditeur d’ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Instruction conditionnelle (if, then, else/si, alors, sinon)
 
@@ -60,7 +60,7 @@ Découvrez comment référencer des champs dans les expressions, y compris les c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Fonctions de gestion des collections
 

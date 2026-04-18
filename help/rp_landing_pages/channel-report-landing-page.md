@@ -30,7 +30,7 @@ Découvrez comment accéder à la fonctionnalité « Rapport complet » d’Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Liste complète des mesures
 
@@ -40,7 +40,7 @@ Découvrez les définitions détaillées des mesures utilisées sur les canaux d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer manuellement Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Ce guide détaillé vous aide à configurer manuellement l’intégration à Cus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Gérer vos rapports
 
@@ -60,7 +60,7 @@ Découvrez comment analyser, personnaliser, exporter et planifier des rapports, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Configurer les sources de données de rapports
 
@@ -70,7 +70,7 @@ Configurez les sources de données et les jeux de données pour permettre l’ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Causes d’exclusion
 

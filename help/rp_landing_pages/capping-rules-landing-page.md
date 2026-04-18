@@ -32,7 +32,7 @@ Découvrez comment créer, gérer et activer des jeux de règles pour contrôler
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Limitation et arbitrage des parcours
 
@@ -42,7 +42,7 @@ Découvrez comment définir des limitations d’entrée de parcours et de simult
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Capping de la fréquence par canal
 

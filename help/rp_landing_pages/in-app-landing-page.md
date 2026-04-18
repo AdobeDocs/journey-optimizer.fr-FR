@@ -21,7 +21,7 @@ Le canal in-app d’Adobe Journey Optimizer vous permet de communiquer en temp
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration du canal in-app
 
@@ -31,7 +31,7 @@ Cette section contient un guide détaillé pour configurer les autorisations, le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer des messages in-app mobiles
 
@@ -41,7 +41,7 @@ Découvrez comment créer, configurer et publier des messages in-app mobiles à 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Créer des messages in-app web
 

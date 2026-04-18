@@ -30,7 +30,7 @@ Découvrez les principes de base de la conception des e-mails dans Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer et optimiser le contenu des e-mails
 
@@ -40,7 +40,7 @@ Découvrez les méthodes pour concevoir le contenu des e-mails, importer du cod
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Concevoir du contenu dans Adobe Journey Optimizer
 

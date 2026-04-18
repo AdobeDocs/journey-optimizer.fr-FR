@@ -20,7 +20,7 @@ Le lancement de votre première campagne orchestrée dans Adobe Journey Optimi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Guide détaillé pour la création d’une campagne orchestrée
 
@@ -30,7 +30,7 @@ Découvrez les étapes clés de création, de gestion et d’analyse d’une cam
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création et planification d’une campagne orchestrée
 
@@ -40,7 +40,7 @@ Découvrez comment créer et configurer des propriétés de campagne, des planni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Activités de campagne orchestrée
 
@@ -50,7 +50,7 @@ Maîtrisez la zone de travail visuelle pour concevoir et configurer des activit�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Démarrer et surveiller vos campagnes
 
@@ -60,7 +60,7 @@ Découvrez comment tester, publier et surveiller vos campagnes orchestrées pour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Création de rapports pour les campagnes orchestrées
 

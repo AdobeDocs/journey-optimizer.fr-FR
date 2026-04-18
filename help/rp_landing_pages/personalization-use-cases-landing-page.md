@@ -20,7 +20,7 @@ Imaginez créer des communications tellement adaptées à votre audience qu’el
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Tutoriel sur la personnalisation des notifications relatives au statut des commandes
 
@@ -30,7 +30,7 @@ Découvrez comment créer des notifications push personnalisées pour les mises 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Guide de personnalisation des e-mails en cas d’abandon de panier
 
@@ -40,7 +40,7 @@ Découvrez comment personnaliser les e-mails d’abandon de panier à l’aide d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Exemple de personnalisation d’e-mails relatifs aux ordonnances dans le cadre d’un régime d’assurance maladie
 

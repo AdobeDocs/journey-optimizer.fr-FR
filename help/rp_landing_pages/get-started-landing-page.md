@@ -24,7 +24,7 @@ Découvrez les principes de base d’Adobe Journey Optimizer et comment ceux-ci 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation de Journey Optimizer
 
@@ -34,7 +34,7 @@ Découvrez les principales fonctionnalités, les cas d’utilisation et la mani�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Présentation du fonctionnement
 
@@ -44,7 +44,7 @@ Découvrez comment Journey Optimizer s’intègre à Adobe Experience Platform e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=fr)
 
 Terminologie clé
 
@@ -61,7 +61,7 @@ Commencez avec des conseils spécifiques adaptés à vos responsabilités et à 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=fr)
 
 Pour les responsables marketing
 
@@ -91,7 +91,7 @@ Configurez des environnements, gérez les autorisations et configurez des canaux
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
 
 Pour les développeurs et développeuses
 
@@ -110,7 +110,7 @@ Perfectionnez votre maîtrise de l’interface et exploitez les fonctionnalités
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=fr)
 
 Naviguer dans l’interface
 
@@ -120,7 +120,7 @@ Découvrez comment utiliser l’interface de Journey Optimizer, accéder aux pri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Rechercher et organiser
 
@@ -130,7 +130,7 @@ Utilisez la recherche, les filtres et les balises pour gérer efficacement les p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Fonctionnalités intelligentes et fonctionnalités de l’IA
 

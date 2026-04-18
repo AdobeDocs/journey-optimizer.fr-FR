@@ -20,7 +20,7 @@ La fonctionnalité Rapport dynamique d’Adobe Journey Optimizer vous permet d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec le rapport dynamique
 
@@ -30,7 +30,7 @@ Découvrez comment accéder aux rapports dynamiques, les personnaliser et les ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Liste des mesures
 
@@ -40,7 +40,7 @@ Découvrez les définitions et les catégories des mesures utilisées dans les r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Rapport dynamique de parcours
 
@@ -50,7 +50,7 @@ Analysez en temps réel les performances des parcours et des canaux de communica
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Rapport dynamique de campagne
 
@@ -60,7 +60,7 @@ Visualisez les performances de la campagne sur plusieurs canaux tels que les e-m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Rapport dynamique de page de destination
 
@@ -70,7 +70,7 @@ Rapport dynamique de page de destination
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Rapport dynamique dʼabonnement
 

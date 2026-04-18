@@ -25,7 +25,7 @@ La gestion des décisions d’Adobe Journey Optimizer permet aux spécialistes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation de la gestion des décisions
 
@@ -45,7 +45,7 @@ Découvrez les contraintes opérationnelles et les seuils de performance de la g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Guide de l’interface d’utilisation de la bibliothèque des offres
 
@@ -65,7 +65,7 @@ Suivez un guide détaillé pour créer, gérer et configurer des offres et des d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utilisation du chargement personnalisé d’audiences pour la prise de décision
 
@@ -75,7 +75,7 @@ Découvrez comment affiner les critères d’éligibilité et personnaliser les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Utiliser des offres personnalisées dans un e-mail
 

@@ -30,7 +30,7 @@ Découvrez les campagnes par courrier dans Adobe Journey Optimizer, notamment 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Comment créer une campagne par courrier
 
@@ -50,7 +50,7 @@ Prévisualisez, validez, activez et gérez efficacement le consentement dans les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer le canal Courrier
 
