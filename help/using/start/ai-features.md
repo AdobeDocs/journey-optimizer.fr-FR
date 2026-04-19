@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 79%
+source-wordcount: '1845'
+ht-degree: 77%
 
 ---
 
@@ -106,7 +106,7 @@ L’[agent d&#39;analyse de parcours](https://experienceleague.adobe.com/fr/docs
 
 #### Parcours créer une compétence {#journey-create-skill}
 
-L’agent de création de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
+L’agent de création de Parcours [](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
 
 +++**Fonctions principales**
 
@@ -175,7 +175,7 @@ Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieu
 * **Génération de texte** : créez des contenus attrayants en accord avec le ton et les objectifs de votre marque. [Génération de texte avec l’IA](../content-management/generative-text.md)
 * **Génération d’images** : générez des images personnalisées à l’aide d’Adobe Firefly. [Génération d’images avec l’IA](../content-management/generative-image.md)
 * **Variantes de contenu** : produisez plusieurs variantes pour les tests A/B. [Expérience de contenu avec l’IA](../content-management/generative-experimentation.md)
-* **&#x200B;**&#x200B;- Générez de nouvelles expressions, expliquez le code existant ou corrigez les problèmes avec l’assistant AI à partir de l’éditeur Personalization ou de la barre d’outils Designer d’e-mail (**Ajouter une expression**). [Assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
+* **** - Générez de nouvelles expressions, expliquez le code existant ou corrigez les problèmes avec l’assistant AI à partir de l’éditeur Personalization ou de la barre d’outils Designer d’e-mail (**Ajouter une expression**). [Assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
 * **Alignement sur la marque** : assurez-vous que le contenu généré correspond aux consignes de votre marque. [Évaluation de l’alignement sur la marque](../content-management/brands-score.md)
 * **Prise en charge des modèles** : utilisez vos modèles d’e-mail existants. [Utiliser des modèles de contenu](../content-management/content-templates.md)
 
@@ -272,7 +272,7 @@ Parcourez les playbooks Journey Optimizer pour obtenir des scénarios courants t
 
 +++
 
-[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=fr){target="_blank"}
+[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Fonctionnalités d’IA supplémentaires {#additional-capabilities}
 
@@ -329,3 +329,11 @@ Non. Passez toujours en revue le [contenu généré par l’IA](#content-generat
 La plupart des fonctionnalités d’IA sont incluses dans Adobe Journey Optimizer. Certaines fonctionnalités telles que l’[optimisation de l’heure d’envoi](#send-time-optimization) et les [agents d’IA](#ai-agents) doivent être activées par Adobe. Contactez votre représentant ou représentante Adobe pour plus d’informations sur les fonctionnalités disponibles avec votre licence.
 
 +++
+
+>[!MORELIKETHIS]
+>
+>* [Présentation de Journey Optimizer](get-started.md) : présentation des principales fonctionnalités, des cas d’utilisation et de l’architecture.
+>* [Comprendre son fonctionnement ](understanding-ajo.md) — Comment Journey Optimizer et Experience Platform fonctionnent ensemble.
+>* [Génération de contenu AI](../content-management/gs-generative.md) — Générez des e-mails, des notifications push, des SMS et du contenu web avec l’assistant AI.
+>* [Optimisation de l’heure d’envoi](../building-journeys/send-time-optimization.md) — Prévoyez et optimisez le délai de diffusion des messages par individu.
+>* [Modèles d’IA pour la prise de décision](../experience-decisioning/ranking/ai-models.md) — Classez et personnalisez automatiquement les offres à l’aide de modèles de classement par l’IA.

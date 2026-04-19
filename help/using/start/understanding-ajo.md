@@ -4,25 +4,31 @@ product: journey optimizer
 title: Présentation de Journey Optimizer
 description: Découvrez comment Adobe Journey Optimizer fonctionne avec Adobe Experience Platform pour offrir des expériences clients personnalisées.
 feature: Get Started
+topic: Content Management
 role: Admin, Developer, User
 level: Beginner
+keywords: parcours optimizer, fonctionnement, architecture, experience platform, domaines fonctionnels
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 97%
+source-wordcount: '962'
+ht-degree: 74%
 
 ---
 
 # Présentation de Journey Optimizer {#understanding-ajo}
 
+Cette page explique comment Adobe Experience Platform et Journey Optimizer fonctionnent ensemble, en couvrant le cycle continu données-expérience, les domaines fonctionnels clés, les détails de l’architecture et les points d’intégration.
+
 Adobe Journey Optimizer et Adobe Experience Platform fonctionnent ensemble pour permettre une personnalisation pilotée par les données à grande échelle. Cette page explique le fonctionnement de ces systèmes et la manière dont leurs domaines fonctionnels clés se combinent pour offrir des expériences clients exceptionnelles. [En savoir plus sur les fonctionnalités clés](get-started.md) | [Explorer la terminologie clé](terminology.md)
 
 ## Fonctionnement de Journey Optimizer {#how-it-works}
 
+En l’absence d’une base de données unifiée, les marques sont contraintes de s’appuyer sur plusieurs outils spécifiques aux canaux, ce qui rend difficile le maintien d’une vue cohérente de chaque client ou cliente ou l’action sur son comportement en temps réel. Journey Optimizer résout ce problème en s’appuyant sur Adobe Experience Platform pour connecter les données client, la création de contenu et l’orchestration des parcours dans un système unique et continu. Il en résulte des expériences de marque significatives qui favorisent la fidélité du client et la valeur tout au long de la vie.
+
 Adobe Journey Optimizer fonctionne comme un flux continu où les données sont collectées, analysées et appliquées pour créer des parcours clients personnalisés.
 
-![](assets/ajo-aep-architecture-diagram.png)
+![Diagramme présentant Adobe Experience Platform comme couche de données fondamentale, avec Journey Optimizer reposant sur Real-Time CDP, Customer Journey Analytics et Adobe Mix Modeler, qui partagent tous des services principaux tels que le profil client en temps réel, la gouvernance des données et la résolution d’identité.](assets/ajo-aep-architecture-diagram.png)
 
 ### Adobe Experience Platform : les bases {#aep-foundation}
 
@@ -38,8 +44,8 @@ Adobe Experience Platform sert de colonne vertébrale, ce qui permet aux marqu
 Adobe Journey Optimizer applique les données et les informations d’Adobe Experience Platform pour offrir des expériences clients intelligentes et personnalisées :
 
 * **Compréhension de la clientèle** : les profils clients en temps réel permettent la segmentation en audiences pour la messagerie ciblée. [Créer des audiences](../audience/about-audiences.md)
-* **Contenu et offres** : outils de création, de gestion et de personnalisation de contenu ; logique en temps réel visant à sélectionner la meilleure offre pour chaque individu. [Concevoir du contenu](../../rp_landing_pages/content-management-landing-page.md) | [Gérer les offres](../offers/get-started/starting-offer-decisioning.md)
-* **Gestion des parcours et des campagnes** : automatise les séquences d’interactions (parcours) ou planifie des messages ciblés uniques (campagnes). [Créer des parcours &#x200B;](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
+* **Contenu et offres** - Un concepteur visuel intégré, des modèles réutilisables et une bibliothèque de ressources centralisée permettent aux équipes de créer et de personnaliser des messages pour n’importe quel canal, sans quitter la plateforme. La personnalisation dynamique adapte le contenu en fonction des attributs, du comportement et du contexte du client. La logique de prise de décision en temps réel sélectionne ensuite la meilleure offre pour chaque individu. [Conception de contenu](../../rp_landing_pages/content-management-landing-page.md) | [Gestion des ressources](../integrations/assets.md) | [Gestion des offres](../offers/get-started/starting-offer-decisioning.md)
+* **Gestion des parcours et des campagnes** : automatise les séquences d’interactions (parcours) ou planifie des messages ciblés uniques (campagnes). [Créer des parcours ](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
 * **Diffusion (connexions)** : diffuse les messages par le biais de canaux (e-mail, SMS, notifications push et courrier) ; exporte les données vers des systèmes externes. [Configurer des canaux](../configuration/get-started-configuration.md)
 * **Mesures et analyses** : effectue le suivi de l’engagement de la clientèle et des performances des campagnes avec des rapports pour une amélioration continue. [Afficher les rapports](../reports/campaign-global-report-cja.md)
 
@@ -47,7 +53,7 @@ Adobe Journey Optimizer applique les données et les informations d’Adobe Ex
 
 Cet écosystème fonctionne comme un cycle d’optimisation continu. Les données approfondissent la compréhension des clientes et des clients, ce qui guide la personnalisation des contenus et oriente les décisions. Elles sont orchestrées dans des parcours, diffusées sur l’ensemble des canaux, mesurées pour en évaluer l’efficacité et affinées au fil du temps.
 
-![](../assets/do-not-localize/get-started-flow.png)
+![Diagramme illustrant le cycle d’optimisation continue dans Journey Optimizer : l’ingestion de données alimente les profils clients, qui éclairent les décisions de contenu et d’offre, sont orchestrées dans des parcours, diffusées sur plusieurs canaux, mesurées en termes de performances et affinées au fil du temps.](../assets/do-not-localize/get-started-flow.png)
 
 ## Principaux domaines fonctionnels {#functional-areas}
 
