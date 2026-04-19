@@ -9,10 +9,10 @@ role: Admin, Developer, User
 level: Beginner
 keywords: parcours optimizer, fonctionnement, architecture, experience platform, domaines fonctionnels
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
+source-git-commit: 3983f5912cb0579d489af6466025551b60d6938e
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer fonctionne comme un flux continu où les données sont c
 
 ![Diagramme présentant Adobe Experience Platform comme couche de données fondamentale, avec Journey Optimizer reposant sur Real-Time CDP, Customer Journey Analytics et Adobe Mix Modeler, qui partagent tous des services principaux tels que le profil client en temps réel, la gouvernance des données et la résolution d’identité.](assets/ajo-aep-architecture-diagram.png)
 
-### Adobe Experience Platform : les bases {#aep-foundation}
+### Adobe Experience Platform : la base {#aep-foundation}
 
 Adobe Experience Platform sert de colonne vertébrale, ce qui permet aux marques de centraliser les données client et de les activer pour offrir des expériences personnalisées.
 
