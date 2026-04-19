@@ -54,7 +54,7 @@ Termes et concepts essentiels pour vous aider à naviguer dans Journey Optimizer
 :::
 
 :::
-![icon]()
+![icon] ()
 
 Fonctionnalités intelligentes et fonctionnalités de l’IA
 
@@ -140,7 +140,7 @@ Utilisez la recherche, les filtres et les balises pour gérer efficacement les p
 :::
 
 :::
-![icon]()
+![icon] ()
 
 Questions fréquentes sur la résolution des problèmes
 
