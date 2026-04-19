@@ -5,10 +5,10 @@ title: Commencer
 description: Commencer avec Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 46b1e980ebe480b19b2796c34de676935c272fb9
+source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Découvrez les principes de base d’Adobe Journey Optimizer et comment ceux-ci 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation de Journey Optimizer
 
@@ -34,7 +34,7 @@ Découvrez les principales fonctionnalités, les cas d’utilisation et la mani�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Présentation du fonctionnement
 
@@ -44,7 +44,7 @@ Découvrez comment Journey Optimizer s’intègre à Adobe Experience Platform e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Terminologie clé
 
@@ -54,7 +54,7 @@ Termes et concepts essentiels pour vous aider à naviguer dans Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Fonctionnalités intelligentes et fonctionnalités de l’IA
 
@@ -71,7 +71,7 @@ Commencez avec des conseils spécifiques adaptés à vos responsabilités et à 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Pour les responsables marketing
 
@@ -91,7 +91,7 @@ Configurez des structures de données, gérez les schémas et les jeux de donné
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Pour les administrateurs et administratrices
 
@@ -101,7 +101,7 @@ Configurez des environnements, gérez les autorisations et configurez des canaux
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Pour les développeurs et développeuses
 
@@ -120,7 +120,7 @@ Perfectionnez votre maîtrise de l’interface et exploitez les fonctionnalités
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Naviguer dans l’interface
 
@@ -130,7 +130,7 @@ Découvrez comment utiliser l’interface de Journey Optimizer, accéder aux pri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Rechercher et organiser
 
@@ -140,7 +140,7 @@ Utilisez la recherche, les filtres et les balises pour gérer efficacement les p
 :::
 
 :::
-![icon] ()
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Questions fréquentes sur la résolution des problèmes
 
