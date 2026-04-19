@@ -5,16 +5,16 @@ title: Commencer
 description: Commencer avec Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 5951889d9cc245488ef89b8a6fc73e515068281e
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 98%
+source-wordcount: '608'
+ht-degree: 88%
 
 ---
 
 # Commencer avec Adobe Journey Optimizer{#get-started}
 
-Adobe Journey Optimizer vous permet de proposer des expériences clients personnalisées en temps réel sur chaque canal. Rencontrez vos clients là où ils se trouvent avec le bon message au bon moment.
+Adobe Journey Optimizer vous permet de proposer des expériences client personnalisées en temps réel sur chaque canal, à partir d’une seule application et à grande échelle. Le résultat est des expériences de marque significatives qui augmentent la fidélité du client et la valeur à vie.
 
 Que vous soyez un utilisateur ou une utilisatrice novice ou expérimenté de Journey Optimizer souhaitant développer ses compétences, cette section vous fournit tout ce dont vous avez besoin pour commencer à travailler rapidement et efficacement.
 
@@ -53,9 +53,19 @@ Termes et concepts essentiels pour vous aider à naviguer dans Journey Optimizer
 [Passer en revue la terminologie](../using/start/terminology.md)
 :::
 
+:::
+![icon] ()
+
+Fonctionnalités intelligentes et fonctionnalités de l’IA
+
+Découvrez comment l’IA vous aide à créer du contenu, à optimiser les temps d’envoi et à prendre des décisions plus intelligentes.
+
+[Explorer les fonctionnalités de l’IA](../using/start/ai-features.md)
+:::
+
 ::::
 
-## Choisir votre parcours de formation {#by-role}
+## Commencer avec les rôles {#by-role}
 
 Commencez avec des conseils spécifiques adaptés à vos responsabilités et à vos objectifs.
 
@@ -81,7 +91,7 @@ Configurez des structures de données, gérez les schémas et les jeux de donné
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Pour les administrateurs et administratrices
 
@@ -102,7 +112,7 @@ Intégrez des applications mobiles, implémentez des SDK web, configurez des év
 
 ::::
 
-[Vous ne savez pas quel rôle vous correspond ? Passez notre évaluation rapide →](../using/start/quick-start.md)
+[Consulter tous les rôles et responsabilités →](../using/start/quick-start.md)
 
 ## Travailler efficacement {#work-efficiently}
 
@@ -130,13 +140,13 @@ Utilisez la recherche, les filtres et les balises pour gérer efficacement les p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon] ()
 
-Fonctionnalités intelligentes et fonctionnalités de l’IA
+Questions fréquentes sur la résolution des problèmes
 
-Découvrez comment l’IA vous aide à créer du contenu, à optimiser les temps d’envoi et à prendre des décisions plus intelligentes.
+Trouvez des réponses aux questions les plus fréquentes et des solutions aux problèmes courants sur l’ensemble des canaux et fonctionnalités.
 
-[Explorer les fonctionnalités de l’IA](../using/start/ai-features.md)
+[Afficher le guide de dépannage](../using/start/troubleshooting.md)
 :::
 
 ::::
