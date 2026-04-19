@@ -9,10 +9,10 @@ role: Admin, Developer, User
 level: Beginner
 keywords: parcours optimizer, fonctionnement, architecture, experience platform, domaines fonctionnels
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 74%
+source-wordcount: '925'
+ht-degree: 62%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer applique les données et les informations d’Adobe Ex
 
 * **Compréhension de la clientèle** : les profils clients en temps réel permettent la segmentation en audiences pour la messagerie ciblée. [Créer des audiences](../audience/about-audiences.md)
 * **Contenu et offres** - Un concepteur visuel intégré, des modèles réutilisables et une bibliothèque de ressources centralisée permettent aux équipes de créer et de personnaliser des messages pour n’importe quel canal, sans quitter la plateforme. La personnalisation dynamique adapte le contenu en fonction des attributs, du comportement et du contexte du client. La logique de prise de décision en temps réel sélectionne ensuite la meilleure offre pour chaque individu. [Conception de contenu](../../rp_landing_pages/content-management-landing-page.md) | [Gestion des ressources](../integrations/assets.md) | [Gestion des offres](../offers/get-started/starting-offer-decisioning.md)
-* **Gestion des parcours et des campagnes** : automatise les séquences d’interactions (parcours) ou planifie des messages ciblés uniques (campagnes). [Créer des parcours &#x200B;](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
+* **Gestion des parcours et des campagnes** : automatise les séquences d’interactions (parcours) ou planifie des messages ciblés uniques (campagnes). [Créer des parcours ](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
 * **Diffusion (connexions)** : diffuse les messages par le biais de canaux (e-mail, SMS, notifications push et courrier) ; exporte les données vers des systèmes externes. [Configurer des canaux](../configuration/get-started-configuration.md)
 * **Mesures et analyses** : effectue le suivi de l’engagement de la clientèle et des performances des campagnes avec des rapports pour une amélioration continue. [Afficher les rapports](../reports/campaign-global-report-cja.md)
 
@@ -83,21 +83,9 @@ Ces domaines fonctionnels fonctionnent selon un cycle continu :
 
 ## Détails de l’architecture {#architecture-details}
 
-Pour les équipes techniques, voici le diagramme d’architecture détaillé montrant comment Journey Optimizer s’intègre à Adobe Experience Platform. [Parcourez l’interface](user-interface.md) pour voir comment fonctionnent ces composants dans la pratique.
+Journey Optimizer est l’une des quatre applications créées en mode natif sur Adobe Experience Platform, aux côtés de Real-Time CDP, Customer Journey Analytics et Adobe Mix Modeler. Il partage les services principaux d’AEP (profil client en temps réel, graphique d’identités, gouvernance des données et services de requête) afin d’accéder à une base de données client unifiée sans nécessiter d’intégrations distinctes. Journey Optimizer peut fonctionner en tant qu’application autonome ou interagir avec d’autres applications natives AEP.
 
-![Architecture d’Adobe Journey Optimizer](assets/ajo-architecture.png)
-
-Quatre applications sont nativement intégrées à Experience Platform : Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics et Adobe Mix Modeler. Journey Optimizer fonctionne de manière transparente avec ces applications, mais peut également être utilisé de manière indépendante. Pour plus d’informations sur la mise en œuvre, voir [Mécanismes de sécurisation et limitations](guardrails.md).
-
-### Points d’intégration {#integration-points}
-
-Journey Optimizer s’intègre à Adobe Experience Platform à plusieurs niveaux :
-
-* **Couche de données** : elle partage le même profil client en temps réel, le même graphique d’identité et les mêmes jeux de données.
-* **Couche de service** : elle utilise les services de gouvernance, de confidentialité et de requête d’Adobe Experience Platform.
-* **Couche d’application** : elle permet l’orchestration de parcours, la gestion des décisions et la gestion de contenu en s’appuyant sur Adobe Experience Platform.
-
-En savoir plus sur les [plans directeurs Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Pour une exploration approfondie de l’architecture technique (y compris les modèles d’intégration, les conditions préalables et les flux de données système), consultez les [Plans directeurs de ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Pour des considérations d’implémentation, [consultez les mécanismes de sécurisation et les limitations](guardrails.md).
 
 ## Confidentialité et sécurité {#privacy-security}
 
