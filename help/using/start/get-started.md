@@ -9,18 +9,18 @@ role: User
 level: Beginner
 keywords: parcours optimizer, en quoi consiste ajo, adobe parcours optimizer, prise en main, omnicanal, personnalisation, parcours client
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: cccc064de7f05b6502c54ae539b4cf1cc722f212
+source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 14%
 
 ---
 
-# Prise en main de Journey Optimizer {#cjm-gs}
+# Prise en main de Journey Optimizer {#ajo-gs}
 
 Cette page présente Adobe Journey Optimizer : son fonctionnement, ses utilisateurs, ses principales fonctionnalités et sa compatibilité avec l’architecture de Adobe Experience Platform. Il s’agit du point de départ recommandé pour les nouveaux utilisateurs.
 
-## Qu’est-ce que [!DNL Adobe Journey Optimizer] ?{#about-cjm}
+## Qu’est-ce que [!DNL Adobe Journey Optimizer] ?{#about-ajo}
 
 [!DNL Adobe Journey Optimizer] est une application d’entreprise permettant de créer et de diffuser des expériences client connectées, contextuelles et personnalisées sur l’ensemble des canaux et des points de contact. Il est créé de manière native sur [!DNL Adobe Experience Platform] et utilise un profil client en temps réel unifié, un framework ouvert API-First, une fonction Offer Decisioning centralisée et des fonctionnalités d&#39;IA/ML. Journey Optimizer permet aux marques d’orchestrer à la fois des campagnes marketing planifiées et des communications déclenchées par un événement en temps réel, à partir d’une seule application et à grande échelle. Le résultat est des expériences de marque significatives qui augmentent la fidélité du client et la valeur à vie.
 
@@ -34,6 +34,28 @@ Ce guide s’applique aux professionnels du marketing, aux équipes opérationne
 
 You can also create audience-based campaigns to send messages.
 -->
+
+
+## Fonctionnalités principales {#key-capabilities}
+
+[!DNL Adobe Journey Optimizer] est une application agile et évolutive permettant de créer et de diffuser des expériences clients personnalisées, connectées et opportunes
+sur une application, un appareil ou un canal.
+
+![Diagramme présentant trois domaines de fonctionnalités principaux de Journey Optimizer : informations sur le client et engagement en temps réel, orchestration et exécution omnicanal moderne et prise de décision et Personalization intelligentes, le tout reposant sur Adobe Experience Platform.](assets/ajo-capabilities.png)
+
+Les fonctionnalités principales sont les suivantes :
+
+### Informations sur le client et engagement en temps réel
+
+Un profil intégré fusionne les données actives de toutes les sources entre les points de contact des clients, y compris les données comportementales, transactionnelles, financières et opérationnelles afin d’optimiser les expériences personnelles et contextuelles des clients à leur époque. [Découvrez les profils et les audiences](../audience/get-started-profiles.md)
+
+### Exécution et orchestration omnicanal modernes
+
+Zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour 1:1 l’engagement client et la sensibilisation marketing, afin d’aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux. Les outils de création de contenu intégrés, notamment le concepteur visuel de type glisser-déposer, les modèles réutilisables, les fragments de contenu et un éditeur de personnalisation, permettent aux équipes de créer, de personnaliser et de gérer des messages pour chaque canal directement au sein du même workflow. [Créer votre premier parcours ](../building-journeys/journey-gs.md) | [Concevoir votre contenu](../../rp_landing_pages/content-management-landing-page.md)
+
+### Prise de décision et Personalization intelligentes
+
+Les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et le machine learning pour configurer des informations prédictives tout au long de l’expérience client, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. Decisioning alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer]. [Explorer Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) | [Découvrir les fonctionnalités d’IA](ai-features.md)
 
 
 ## Cas d’utilisation {#use-cases}
@@ -105,28 +127,6 @@ Les personnes autres que les marketeurs comme les équipes opérationnelles et l
 [Création de votre premier parcours](../building-journeys/journey-gs.md)
 
 
-## Fonctionnalités principales {#key-capabilities}
-
-[!DNL Adobe Journey Optimizer] est une application agile et évolutive permettant de créer et de diffuser des expériences clients personnalisées, connectées et opportunes
-sur une application, un appareil ou un canal.
-
-![Diagramme présentant trois domaines de fonctionnalités principaux de Journey Optimizer : informations sur le client et engagement en temps réel, orchestration et exécution omnicanal moderne et prise de décision et Personalization intelligentes, le tout reposant sur Adobe Experience Platform.](assets/ajo-capabilities.png)
-
-Les fonctionnalités principales sont les suivantes :
-
-### Informations sur le client et engagement en temps réel
-
-Un profil intégré fusionne les données actives de toutes les sources entre les points de contact des clients, y compris les données comportementales, transactionnelles, financières et opérationnelles afin d’optimiser les expériences personnelles et contextuelles des clients à leur époque. [Découvrez les profils et les audiences](../audience/get-started-profiles.md)
-
-### Exécution et orchestration omnicanal modernes
-
-Zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour 1:1 l’engagement client et la sensibilisation marketing, afin d’aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux. Les outils de création de contenu intégrés, notamment le concepteur visuel de type glisser-déposer, les modèles réutilisables, les fragments de contenu et un éditeur de personnalisation, permettent aux équipes de créer, de personnaliser et de gérer des messages pour chaque canal directement au sein du même workflow. [Créer votre premier parcours &#x200B;](../building-journeys/journey-gs.md) | [Concevoir votre contenu](../../rp_landing_pages/content-management-landing-page.md)
-
-### Prise de décision et Personalization intelligentes
-
-Les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et le machine learning pour configurer des informations prédictives tout au long de l’expérience client, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. Decisioning alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer]. [Explorer Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) | [Découvrir les fonctionnalités d’IA](ai-features.md)
-
-
 ## Disponibilité et licences {#availability}
 
 Cette documentation couvre la version actuelle de Journey Optimizer et s’applique aux utilisateurs B2C et B2B edition, sauf indication contraire. Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licences](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable du succès client Adobe ou votre représentant ou représentante Adobe.
@@ -146,5 +146,5 @@ Journey Optimizer est conçu de manière native sur Adobe Experience Platform et
 >* [Concevoir des parcours et envoyer des messages](../building-journeys/journey-gs.md) — Créez votre premier parcours client et configurez les actions de canal.
 >* [Rapports dynamiques](../reports/live-report.md) — Surveillez les performances des campagnes et des parcours en temps réel.
 >* [Présentation du tutoriel Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — Présentation vidéo guidée des concepts de base de Journey Optimizer.
->* [Présentation de la sécurité de Journey Optimizer &#x200B;](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) : architecture de sécurité, protection des données et détails de conformité.
->* [Description du produit Journey Optimizer &#x200B;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — Décomposition des termes officiels de la licence et des fonctionnalités d&#39;édition.
+>* [Présentation de la sécurité de Journey Optimizer ](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) : architecture de sécurité, protection des données et détails de conformité.
+>* [Description du produit Journey Optimizer ](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — Décomposition des termes officiels de la licence et des fonctionnalités d&#39;édition.
