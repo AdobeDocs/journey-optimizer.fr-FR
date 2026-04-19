@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: parcours optimizer, en quoi consiste ajo, adobe parcours optimizer, prise en main, omnicanal, personnalisation, parcours client
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 0a87a3c689d9b623a00f0a3a257e4fe34152945d
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 23%
@@ -44,8 +44,8 @@ Ces exemples illustrent la façon dont les fonctionnalités de Journey Optimizer
 |----------|------|----------------|
 | Récupération d&#39;expédition retardée | Spécialiste marketing | [Profil unifié + exclusion d’audience](../audience/get-started-profiles.md) |
 | Engagement en magasin en temps réel | Spécialiste marketing | [Déclenchement de limite géographique + notification push](../push/get-started-push.md) |
-| Récupération après abandon de panier | Spécialiste marketing | parcours à plusieurs étapes déclenché par un événement[&#128279;](../building-journeys/journey-gs.md) |
-| Série de bienvenue sur le service de streaming | Spécialiste marketing | parcours de bienvenue déclenché par un événement[&#128279;](../building-journeys/journey-gs.md) |
+| Récupération après abandon de panier | Spécialiste marketing | parcours à plusieurs étapes déclenché par un événement[](../building-journeys/journey-gs.md) |
+| Série de bienvenue sur le service de streaming | Spécialiste marketing | parcours de bienvenue déclenché par un événement[](../building-journeys/journey-gs.md) |
 | Rappel de la réservation avec les directions | Spécialiste marketing | [Diffusion planifiée + tenant compte de l’emplacement](../campaigns/get-started-with-campaigns.md) |
 | Notification proactive de panne de service | Opérations | [Sélection automatisée à grande échelle](../audience/about-audiences.md) |
 | Campagne promotionnelle optimisée par l’IA | Spécialiste marketing | [Génération de contenu + expérimentation par l’IA](ai-features.md) |
@@ -130,7 +130,7 @@ Un profil intégré fusionne les données actives de toutes les sources entre le
 
 ### Exécution et orchestration omnicanal modernes
 
-Zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour 1:1 l’engagement client et la sensibilisation marketing, afin d’aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux. Les outils de création de contenu intégrés, notamment le concepteur visuel de type glisser-déposer, les modèles réutilisables, les fragments de contenu et un éditeur de personnalisation, permettent aux équipes de créer, de personnaliser et de gérer des messages pour chaque canal directement au sein du même workflow. [Créer votre premier parcours &#x200B;](../building-journeys/journey-gs.md) | [Concevoir votre contenu](../../rp_landing_pages/content-management-landing-page.md)
+Zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour 1:1 l’engagement client et la sensibilisation marketing, afin d’aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux. Les outils de création de contenu intégrés, notamment le concepteur visuel de type glisser-déposer, les modèles réutilisables, les fragments de contenu et un éditeur de personnalisation, permettent aux équipes de créer, de personnaliser et de gérer des messages pour chaque canal directement au sein du même workflow. [Créer votre premier parcours ](../building-journeys/journey-gs.md) | [Concevoir votre contenu](../../rp_landing_pages/content-management-landing-page.md)
 
 ### Prise de décision et Personalization intelligentes
 
@@ -150,7 +150,7 @@ Découvrez l’architecture de base d’[!DNL Adobe Journey Optimizer], les poin
 
 Adobe Experience Platform est une base de données puissante, flexible, ouverte et centralisée qui collecte, normalise, régit, applique les informations d’IA et unifie les données afin d’offrir des expériences client numériques réfléchies et pertinentes.
 
-![Diagramme présentant Adobe Experience Platform comme couche de données de base, avec quatre applications créées en mode natif sur la couche : Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics et Adobe Mix Modeler. Les services partagés tels que le profil client en temps réel, la gouvernance des données et la résolution d’identité sous-tendent les quatre applications &#x200B;](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}.
+![Diagramme présentant Adobe Experience Platform comme couche de données de base, avec quatre applications créées en mode natif sur la couche : Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics et Adobe Mix Modeler. Les services partagés tels que le profil client en temps réel, la gouvernance des données et la résolution d’identité sous-tendent les quatre applications ](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}.
 
 Quatre applications sont prise en charge en mode natif sur Experience Platform : Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics et Adobe Mix Modeler.
 
@@ -163,7 +163,7 @@ Les fonctionnalités et services principaux de Journey Optimizer fonctionnent �
 
 Les plans directeurs d’expérience digitale fournissent des diagrammes d’architecture du système et des flux de données pour permettre de mieux comprendre la façon dont Adobe Experience Platform et les applications sont intégrées et mises en œuvre. Les plans directeurs fournissent une représentation visuelle des flux de contenu et de données entre les systèmes et les composants, de la séquence des opérations et des dépendances afin de contribuer à la conception et à l’architecture des cas d’utilisation d’Adobe Experience Platform et des applications.
 
-Voir [Plans directeurs d’Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Voir [Plans directeurs d’Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
 
 
 >[!MORELIKETHIS]
@@ -173,5 +173,5 @@ Voir [Plans directeurs d’Adobe Journey Optimizer](https://experienceleague.a
 >* [Concevoir des parcours et envoyer des messages](../building-journeys/journey-gs.md) — Créez votre premier parcours client et configurez les actions de canal.
 >* [Rapports dynamiques](../reports/live-report.md) — Surveillez les performances des campagnes et des parcours en temps réel.
 >* [Présentation du tutoriel Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — Présentation vidéo guidée des concepts de base de Journey Optimizer.
->* [Présentation de la sécurité de Journey Optimizer &#x200B;](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) : architecture de sécurité, protection des données et détails de conformité.
->* [Description du produit Journey Optimizer &#x200B;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — Décomposition des termes officiels de la licence et des fonctionnalités d&#39;édition.
+>* [Présentation de la sécurité de Journey Optimizer ](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) : architecture de sécurité, protection des données et détails de conformité.
+>* [Description du produit Journey Optimizer ](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — Décomposition des termes officiels de la licence et des fonctionnalités d&#39;édition.
