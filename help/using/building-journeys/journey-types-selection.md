@@ -10,9 +10,9 @@ keywords: types de parcours, unitaire, lecture d’audience, qualification d’a
 version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '958'
 ht-degree: 96%
 
 ---
@@ -174,7 +174,3 @@ Maintenant que vous comprenez les types de parcours, vous pouvez effectuer ce qu
 * **[En savoir plus sur le concepteur de parcours](using-the-journey-designer.md)** – Concevoir la zone de travail de votre parcours
 * **[Explorer les fonctionnalités du parcours](journey.md#capabilities)** – Découvrir les fonctionnalités avancées
 * **[Voir les questions fréquentes sur les parcours](journey-faq.md)** – Réponses aux questions fréquentes
-
-**Besoin de comparer avec des campagnes ?**
-
-* [Guide de comparaison entre les parcours et les campagnes](../start/journeys-vs-campaigns.md) – Choisir entre les parcours, les campagnes d’action/API et les campagnes orchestrées

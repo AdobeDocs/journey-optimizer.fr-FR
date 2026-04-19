@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
+source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
 workflow-type: tm+mt
-source-wordcount: '3207'
+source-wordcount: '3209'
 ht-degree: 91%
 
 ---
@@ -35,18 +35,19 @@ ht-degree: 91%
    + Principes de base {#essentials}
       + [Présentation de Journey Optimizer](using/start/get-started.md)
       + [Présentation du fonctionnement](using/start/understanding-ajo.md)
+      + [Fonctionnalités intelligentes et fonctionnalités d’IA](using/start/ai-features.md)
       + [Terminologie clé](using/start/terminology.md)
       + [Mécanismes de sécurisation et limitations](using/start/guardrails.md)
    + Commencer avec les rôles {#by-role}
-      + [Choisir votre parcours de formation](using/start/quick-start.md)
-      + [Commencer en tant que responsable marketing](using/start/path/marketer.md)
-      + [Commencer en tant qu’ingénieur ou ingénieure de données](using/start/path/data-engineer.md)
+      + [Rôles et responsabilités](using/start/quick-start.md)
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
+      + [Commencer en tant qu’ingénieur ou ingénieure de données](using/start/path/data-engineer.md)
       + [Prise en main en tant que développeur](using/start/path/developer.md)
+      + [Commencer en tant que responsable marketing](using/start/path/marketer.md)
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Fonctionnalités intelligentes et fonctionnalités d’IA](using/start/ai-features.md)
+      + [FAQ sur le dépannage](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours ou campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
