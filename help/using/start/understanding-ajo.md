@@ -85,7 +85,7 @@ Ces domaines fonctionnels fonctionnent selon un cycle continu :
 
 Journey Optimizer est l’une des quatre applications créées en mode natif sur Adobe Experience Platform, aux côtés de Real-Time CDP, Customer Journey Analytics et Adobe Mix Modeler. Il partage les services principaux d’AEP (profil client en temps réel, graphique d’identités, gouvernance des données et services de requête) afin d’accéder à une base de données client unifiée sans nécessiter d’intégrations distinctes. Journey Optimizer peut fonctionner en tant qu’application autonome ou interagir avec d’autres applications natives AEP.
 
-Pour une exploration approfondie de l’architecture technique (y compris les modèles d’intégration, les conditions préalables et les flux de données système), consultez les [Plans directeurs de &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Pour des considérations d’implémentation, [consultez les mécanismes de sécurisation et les limitations](guardrails.md).
+Pour une exploration approfondie de l’architecture technique (y compris les modèles d’intégration, les conditions préalables et les flux de données système), consultez les [Plans directeurs de &#x200B;](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Pour des considérations d’implémentation, [consultez les mécanismes de sécurisation et les limitations](guardrails.md).
 
 ## Confidentialité et sécurité {#privacy-security}
 
