@@ -152,7 +152,7 @@ En savoir plus sur la gestion des désinscriptions aux SMS [sur cette page](../s
 
 Les difficultés liées à la création de rapports sur le **canal in-app** dans Adobe Customer Journey Analytics proviennent souvent d’une erreur de configuration des **vues de données**, des **jeux de données** ou des **mises à jour de schéma**. Vérifiez que ces configurations sont correctement appliquées pour résoudre le problème.
 
-Consultez également la documentation sur les rapports à tout moment de [](../reports/report-gs-cja.md).
+Consultez également la documentation sur les rapports à tout moment de [&#128279;](../reports/report-gs-cja.md).
 
 +++
 
@@ -177,7 +177,7 @@ Découvrez comment créer et configurer un message in-app [sur cette page](../in
 
 +++ Pourquoi les cartes de contenu ne s’affichent-elles pas dans l’application ?
 
-Les cartes de contenu nécessitent que le SDK mobile Adobe Experience Platform et le **SDK de messagerie** soient installés, enregistrés et configurés dans l’application. Contrairement aux messages push ou in-app, les cartes de contenu ne s’affichent pas automatiquement : votre application doit appeler explicitement les API Messaging SDK pour récupérer les cartes disponibles, puis les afficher dans votre interface utilisateur. Si les cartes n’apparaissent pas, utilisez **** pour vérifier que les demandes de décision sont envoyées lorsque l’événement cible se déclenche et que les réponses reviennent d’Edge Network.
+Les cartes de contenu nécessitent que le SDK mobile Adobe Experience Platform et le **SDK de messagerie** soient installés, enregistrés et configurés dans l’application. Contrairement aux messages push ou in-app, les cartes de contenu ne s’affichent pas automatiquement : votre application doit appeler explicitement les API Messaging SDK pour récupérer les cartes disponibles, puis les afficher dans votre interface utilisateur. Si les cartes n’apparaissent pas, utilisez **&#x200B;**&#x200B;pour vérifier que les demandes de décision sont envoyées lorsque l’événement cible se déclenche et que les réponses reviennent d’Edge Network.
 
 Découvrez comment configurer la prise en charge des cartes de contenu dans Mobile SDK [sur cette page](../content-card/content-card-configuration-sdk.md).
 
@@ -193,7 +193,7 @@ En savoir plus sur le canal des cartes de contenu [sur cette page](../content-ca
 
 +++ Pourquoi les impressions de carte de contenu n’apparaissent-elles pas dans les rapports de campagne ?
 
-Les impressions et interactions de cartes de contenu (clics, suppressions) ne sont pas automatiquement suivies. Votre application doit explicitement renvoyer les événements de suivi à Adobe via le SDK de messagerie après le rendu d’une carte et après toute interaction de l’utilisateur avec celle-ci. Si ces appels de suivi sont absents de l’implémentation de , les rapports n’affichent aucune impression, même si les cartes sont correctement diffusées. Vérifiez que les appels de suivi se déclenchent dans **** avant d’examiner la configuration de la campagne.
+Les impressions et interactions de cartes de contenu (clics, suppressions) ne sont pas automatiquement suivies. Votre application doit explicitement renvoyer les événements de suivi à Adobe via le SDK de messagerie après le rendu d’une carte et après toute interaction de l’utilisateur avec celle-ci. Si ces appels de suivi sont absents de l’implémentation de , les rapports n’affichent aucune impression, même si les cartes sont correctement diffusées. Vérifiez que les appels de suivi se déclenchent dans **&#x200B;**&#x200B;avant d’examiner la configuration de la campagne.
 
 Découvrez comment accéder aux rapports de carte de contenu [sur cette page](../content-card/content-card-report.md).
 
