@@ -9,10 +9,10 @@ role: Admin, Developer, User
 level: Beginner
 keywords: parcours optimizer, fonctionnement, architecture, experience platform, domaines fonctionnels
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 74%
+source-wordcount: '925'
+ht-degree: 62%
 
 ---
 
@@ -83,21 +83,9 @@ Ces domaines fonctionnels fonctionnent selon un cycle continu :
 
 ## Détails de l’architecture {#architecture-details}
 
-Pour les équipes techniques, voici le diagramme d’architecture détaillé montrant comment Journey Optimizer s’intègre à Adobe Experience Platform. [Parcourez l’interface](user-interface.md) pour voir comment fonctionnent ces composants dans la pratique.
+Journey Optimizer est l’une des quatre applications créées en mode natif sur Adobe Experience Platform, aux côtés de Real-Time CDP, Customer Journey Analytics et Adobe Mix Modeler. Il partage les services principaux d’AEP (profil client en temps réel, graphique d’identités, gouvernance des données et services de requête) afin d’accéder à une base de données client unifiée sans nécessiter d’intégrations distinctes. Journey Optimizer peut fonctionner en tant qu’application autonome ou interagir avec d’autres applications natives AEP.
 
-![Architecture d’Adobe Journey Optimizer](assets/ajo-architecture.png)
-
-Quatre applications sont nativement intégrées à Experience Platform : Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics et Adobe Mix Modeler. Journey Optimizer fonctionne de manière transparente avec ces applications, mais peut également être utilisé de manière indépendante. Pour plus d’informations sur la mise en œuvre, voir [Mécanismes de sécurisation et limitations](guardrails.md).
-
-### Points d’intégration {#integration-points}
-
-Journey Optimizer s’intègre à Adobe Experience Platform à plusieurs niveaux :
-
-* **Couche de données** : elle partage le même profil client en temps réel, le même graphique d’identité et les mêmes jeux de données.
-* **Couche de service** : elle utilise les services de gouvernance, de confidentialité et de requête d’Adobe Experience Platform.
-* **Couche d’application** : elle permet l’orchestration de parcours, la gestion des décisions et la gestion de contenu en s’appuyant sur Adobe Experience Platform.
-
-En savoir plus sur les [plans directeurs Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Pour une exploration approfondie de l’architecture technique (y compris les modèles d’intégration, les conditions préalables et les flux de données système), consultez les [Plans directeurs de &#x200B;](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Pour des considérations d’implémentation, [consultez les mécanismes de sécurisation et les limitations](guardrails.md).
 
 ## Confidentialité et sécurité {#privacy-security}
 
