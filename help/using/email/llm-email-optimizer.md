@@ -1,14 +1,14 @@
 ---
-title: Optimiser le texte des e-mails pour les boîtes de réception d’IA
+title: Optimisation des e-mails pour les boîtes de réception d’IA
 description: Générez et affinez une version dédiée de vos messages afin que les clients de la boîte de réception assistée par IA puissent utiliser vos offres et vos appels à l’action lorsqu’ils résument l’intention de l’e-mail ou de l’extraire, dans le Designer d’e-mail avec optimisation avec IA.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
+source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Les questions standard que les destinataires peuvent poser dans les expériences
 
 * En outre, les assistants peuvent rechercher de manière proactive des remises ou des coupons liés à la marque et les inclure dans la réponse, de sorte que l’utilisateur ne regarde plus uniquement ce que votre message a réellement promis. Ce comportement est utile pour les utilisateurs finaux, mais dilue le contrôle pour les spécialistes marketing qui ont besoin de réponses pour suivre les termes réels de l’envoi.
 
-Pour éviter ces problèmes, [!DNL Journey Optimizer] crée une version texte spécifique supplémentaire de vos messages afin que les coupons, les périodes de remise, les appels à l’action et d’autres priorités apparaissent au premier plan dans une copie linéaire claire. Cette version est différente de la version par défaut ou personnalisée [version en texte brut](text-version-email.md) de vos messages.
+Pour éviter ces problèmes, [!DNL Journey Optimizer] crée une version spécifique supplémentaire de vos messages afin que les coupons, les périodes de remise, les appels à l’action et d’autres priorités apparaissent au premier plan dans une copie linéaire claire. <!--This version is different from the HTML view and default or custom plain text version of your messages.-->
 
 L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les résumés et les questions/réponses dans vos offres et actions définies, au lieu de s’appuyer sur une partie de texte mince par défaut ou sur des résultats web sans rapport.
 
@@ -41,7 +41,7 @@ L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les
 >
 >Les comportements exacts des assistants d’IA dépendent du fournisseur de boîte de réception et de la version du modèle. Une fois votre e-mail diffusé, les réponses et les résumés fournis par les clients d’IA externes peuvent être incorrects, incomplets ou mélangés avec des résultats web.
 >
->La fonctionnalité Optimiser le texte des e-mails pour les boîtes de réception de l’IA génère uniquement une version dédiée dans Journey Optimizer ; elle ne garantit pas la façon dont un assistant tiers interprètera ou affichera le message. En savoir plus sur les [limites et risques de l’IA de boîte de réception tierce](#inbox-ai-risks).
+>La fonctionnalité Optimiser les e-mails pour les boîtes de réception IA génère uniquement une version dédiée dans Journey Optimizer ; elle ne garantit pas la façon dont un assistant tiers interprètera ou affichera le message. En savoir plus sur les [limites et risques de l’IA de boîte de réception tierce](#inbox-ai-risks).
 
 ## Cas d’utilisation recommandés {#use-cases}
 
@@ -49,7 +49,7 @@ L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les
 * **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
 -->
 
-* **Texte dense ou fragmenté** — Lorsque le contenu de l’e-mail est difficile à analyser, l’optimisation peut produire un récit linéaire plus clair avec des offres et des liens explicites.
+* **Contenu dense ou fragmenté** — Lorsque le contenu de l’e-mail est difficile à analyser, l’optimisation peut produire un récit linéaire plus clair avec des offres et des liens explicites.
 
 * **Contrôle des questions et réponses dans la boîte de réception** — Lorsque vous prévoyez que les destinataires interrogent les assistants *sur le sujet de l’e-mail* ou *sur les offres*, une version optimisée pour l’IA réduit les résumés partiels et évite de recourir à des réponses web qui ne sont pas liées à votre copie approuvée.
 
@@ -63,7 +63,7 @@ L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les
 
 Pour optimiser le contenu de votre e-mail pour les expériences de boîte de réception IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[&#x200B; (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
+1. Ouvrez l’e-mail dans le Designer d’e-mail[ (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Optimiser pour la boîte de réception IA]** pour générer une version améliorée qui met en surbrillance les informations clés pour la lecture et la synthèse assistées par IA.
 
@@ -87,7 +87,7 @@ Pour optimiser le contenu de votre e-mail pour les expériences de boîte de ré
 
 1. Une fois la version créée, cliquez sur le bouton **[!UICONTROL Optimiser l’e-mail]** pour confirmer. Vous pouvez également utiliser le bouton **[!UICONTROL Réoptimiser]** pour générer une nouvelle version.
 
-1. Vous êtes redirigé vers la vue **&#x200B;**&#x200B;et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
+1. Vous êtes redirigé vers la vue **** et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
 
    ![Bouton Réoptimiser dans le Designer Email](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
 
@@ -111,7 +111,7 @@ La fonctionnalité Optimiser l’e-mail pour les boîtes de réception IA vous p
 
 * **Marque et risque juridique** — Des résumés d&#39;IA incorrects ou incomplets peuvent toujours créer de la confusion ou des différends chez les clients au sujet de promotions, de conditions ou d&#39;un langage de désinscription. [!DNL Journey Optimizer] ne garantit pas que le modèle d’un tiers reproduira fidèlement la version optimisée de votre e-mail.
 
-* **[!UICONTROL Optimiser pour la boîte de réception de l’IA]** dans [!DNL Journey Optimizer] : le contrôle du temps de création dans le Designer d’e-mail est distinct des assistants de boîte de réception des utilisateurs finaux. Vérifiez toujours le texte brut généré avant l’envoi.
+* **[!UICONTROL Optimiser pour la boîte de réception de l’IA]** dans [!DNL Journey Optimizer] : le contrôle du temps de création dans le Designer d’e-mail est distinct des assistants de boîte de réception des utilisateurs finaux. Toujours vérifier le contenu généré avant l’envoi.
 
 ## Rubriques connexes {#related-topics}
 
