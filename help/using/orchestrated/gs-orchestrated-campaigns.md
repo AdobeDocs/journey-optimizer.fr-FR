@@ -6,10 +6,10 @@ description: Découvrez comment commencer avec les campagnes orchestrées
 short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 94%
+source-wordcount: '876'
+ht-degree: 86%
 
 ---
 
@@ -81,6 +81,13 @@ Chaque campagne orchestrée contient :
 
 * **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque campagne orchestrée utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la campagne orchestrée.
 
+Une campagne orchestrée d’entrée de gamme type suit ce modèle : **Créer une audience → Branchement → canal A + canal B**.
+
+Cette approche vous permet de cibler la même audience avec deux branches parallèles dans une seule exécution de campagne ; par exemple, une branche utilisant un e-mail marketing et une autre utilisant un e-mail transactionnel. Chaque branche est indépendante et peut utiliser une configuration de canal, un contenu de message ou une catégorie différents.
+
+➡️ [Découvrez comment utiliser l’activité Branchement](activities/fork.md)
+
+➡️ [Comprendre les messages marketing et transactionnels](activities/channels.md#marketing-vs-transactional)
 
 ## Vidéo de présentation {#video-oc}
 

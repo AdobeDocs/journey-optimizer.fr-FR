@@ -3,10 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer
 description: Découvrez comment démarrer et surveiller des campagnes orchestrées avec Adobe Journey Optimizer.
+mini-toc-levels: 1
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 41%
@@ -72,7 +73,7 @@ Si vous avez ajouté des activités de canal dans la zone de travail, vous pouve
 >Avant de cliquer sur **[!UICONTROL Publier]**, confirmez ce qui suit :
 >* La campagne s’est exécutée correctement en mode test sans erreur dans les [logs](#logs-tasks).
 >* Le contenu du message a été prévisualisé à l’aide de l’option **[!UICONTROL Simuler du contenu]**.
->* Le [&#x200B; planning est configuré &#x200B;](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
+>* Le [ planning est configuré ](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
 >* Vous avez examiné le comportement [confirmation d’envoi](#confirm-sending) : pour les campagnes non récurrentes, aucun message n’est envoyé tant que vous n’avez pas explicitement approuvé l’envoi après la publication.
 
 ## Publier la campagne {#publish}

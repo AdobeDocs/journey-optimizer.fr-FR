@@ -5,10 +5,10 @@ title: Utiliser l’activité Créer une audience
 description: Découvrez comment utiliser l’activité Créer une audience dans une campagne orchestrée.
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 86%
 
 ---
 
@@ -54,3 +54,7 @@ Pour configurer l’activité **[!UICONTROL Créer une audience]**, procédez co
 Voici un exemple de campagne orchestrée comportant deux activités **[!UICONTROL Créer une audience]**. La première cible les profils qui ont des articles dans leur panier, avec une diffusion par e-mail. La seconde cible les profils qui ont une liste de souhaits, avec une diffusion par SMS.
 
 ![](../assets/build-audience-2.png)
+
+Dans l’exemple ci-dessous, l’activité **[!UICONTROL Créer une audience]** utilise le créateur de règles pour filtrer les profils en fonction de leur formule d’abonnement. Une condition est définie sur l’attribut `plan` pour inclure uniquement les profils où `plan = "basic"`, ce qui limite l’audience aux abonnés de niveau de base avant de les transmettre à l’activité suivante.
+
+![](../assets/build-audience-plan.png){width="50%" align="left"}
