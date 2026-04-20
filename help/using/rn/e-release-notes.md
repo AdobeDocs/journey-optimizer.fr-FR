@@ -6,10 +6,10 @@ description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
+source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 21%
+source-wordcount: '1743'
+ht-degree: 20%
 
 ---
 
@@ -103,7 +103,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Les marketeurs peuvent désormais automatiser intelligemment la sélection des parcours en fonction de contraintes spécifiques, à l'aide de formules et de modèles d'IA. Les modèles d’IA peuvent optimiser la sélection de parcours en fonction de mesures d’engagement telles que le taux de clic, les achats ou toute autre mesure personnalisée pour laquelle le professionnel du marketing souhaite optimiser.</p>
+<p>Vous pouvez désormais utiliser des modèles d’IA dans vos formules de classement afin d’augmenter automatiquement les scores de priorité des parcours en fonction des attributs de profil client et des facteurs contextuels, en vous assurant que les clients saisissent les parcours les plus pertinents.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
@@ -369,7 +369,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Autorisations spécifiques pour le chiffrement des paramètres d’URL** - &lt;TBC>
+* **Autorisations spécifiques pour les clés de chiffrement des paramètres d’URL** - Pour accéder aux clés de chiffrement des paramètres d’URL et les gérer, de nouvelles autorisations ont été créées. Vous devez maintenant disposer des autorisations **Afficher le registre des clés** et **Gérer le registre des clés** accordées.
 
   Tâche JIRA de documentation : [DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
 
