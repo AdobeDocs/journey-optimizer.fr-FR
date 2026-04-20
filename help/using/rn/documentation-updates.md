@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
-source-wordcount: '6825'
-ht-degree: 71%
+source-wordcount: '6969'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,13 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2026 {#april-2026}
 
+* Mise à jour de la documentation sur les **activités de canal** avec une nouvelle section **Messages marketing ou transactionnels** expliquant les différences de comportement entre les deux catégories de canal : exigences d’opt-in, application de règle métier, type de configuration de canal et cas d’utilisation recommandés. [En savoir plus](../orchestrated/activities/channels.md#marketing-vs-transactional)
+
+* La documentation **Activité Branchement** a été enrichie d’une nouvelle section **Exemples** illustrant comment utiliser l’activité Branchement pour partager une audience sur deux branches d’e-mail parallèles (une marketing et une transactionnelle) dans une seule exécution de campagne. [En savoir plus](../orchestrated/activities/fork.md#fork-examples)
+
+* La documentation **Créer une activité d’audience** a été enrichie d’un nouvel exemple montrant comment filtrer les profils en fonction d’un attribut de plan d’abonnement à l’aide du créateur de règles. [En savoir plus](../orchestrated/activities/build-audience.md#build-audience-examples)
+
+* La page **Prise en main des campagnes orchestrées** documente le modèle d’entrée de gamme **Créer une audience → Branchement → canal A + canal B** dans **Que contient une campagne orchestrée ?**, avec des références croisées aux pages Activité Branchement et Messages marketing par rapport aux messages transactionnels . [En savoir plus](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * La page **Modifier le contenu d&#39;un email avec l&#39;éditeur HTML avancé** a été déplacée de la section Gestion de contenu vers la section **E-mail** de la documentation (sous Conception d&#39;email) et le fichier de page a été renommé **email-expert-mode.md**. Cette page indique désormais que l’éditeur HTML avancé est disponible dans le Designer d’e-mail pour les e-mails, ainsi que pour les modèles de contenu d’e-mail. [En savoir plus](../email/email-expert-mode.md)
 
 * Mise à jour de la documentation **Démarrer et surveiller les campagnes orchestrées** avec une nouvelle section détaillant la séquence d’exécution au moment de la publication interne, ainsi qu’un tableau de statut du cycle de vie de la campagne, une liste de contrôle de prépublication et un avertissement de confirmation d’envoi pour les campagnes non récurrentes. [En savoir plus](../orchestrated/start-monitor-campaigns.md#publication-sequence)

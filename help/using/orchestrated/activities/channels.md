@@ -5,10 +5,10 @@ title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 60%
+source-wordcount: '1769'
+ht-degree: 57%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
->title="Target"
+>title="Cible"
 >abstract="Espace réservé pour la section Cible"
 
 <!--
@@ -90,6 +90,22 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
    ![image montrant la zone de travail avec une activité E-mail](../assets/channel-edit.png)
 
 1. Dans l’onglet **[!UICONTROL Propriétés]**, saisissez une description, puis passez à l’onglet **[!UICONTROL Actions]** pour configurer l’activité.
+
+## Messages marketing ou transactionnels {#marketing-vs-transactional}
+
+Le choix de la catégorie appropriée détermine la manière dont les messages sont diffusés et les règles qui s’appliquent :
+
+| | Marketing | Transactionnel |
+| --- | --- | --- |
+| **Opt-in obligatoire** | Oui | Non |
+| **Règles métier** | Appliqué (capping de la fréquence, règles de fatigue) | Contourné |
+| **Type de configuration de canal** | Configuration du canal marketing | Configuration du canal transactionnel |
+| **Cas d’utilisation standard** | Promotions, newsletters, campagnes saisonnières | confirmations de commande, réinitialisations de mot de passe, alertes de perturbations |
+| **Audience** | Abonnés inscrits uniquement | Tout profil, quel que soit son statut d’opt-in |
+
+>[!NOTE]
+>
+>Utilisez Transactionnel uniquement pour les communications opérationnelles ou sensibles au facteur temps. La classification erronée d’un message promotionnel en tant que Transactionnel contourne le consentement et les règles commerciales, ce qui peut enfreindre les exigences réglementaires.
 
 ## Configurer la configuration et les paramètres du canal {#configuration}
 

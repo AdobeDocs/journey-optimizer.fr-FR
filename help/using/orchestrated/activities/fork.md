@@ -5,10 +5,10 @@ title: Utiliser l’activité Branchement
 description: Découvrez comment utiliser l’activité Branchement dans une campagne orchestrée.
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 55%
 
 ---
 
@@ -42,3 +42,16 @@ Pour configurer l’activité **[!UICONTROL Branchement]**, procédez comme suit
 1. Pour supprimer une transition, cliquez sur l’icône ![](../assets/do-not-localize/Smock_Delete_18_N.svg).
 
 1. Si nécessaire, cliquez sur **[!UICONTROL Ajouter une transition]** pour ajouter une transition sortante supplémentaire.
+
+## Exemples {#fork-examples}
+
+Voici une utilisation type de l’activité **[!UICONTROL Branchement]** : cibler la même audience avec deux canaux e-mail différents (un marketing et un transactionnel) pour comparer le comportement de diffusion.
+
+Une fois qu’une activité **[!UICONTROL Créer une audience]** sélectionne la population cible, un **[!UICONTROL Branchement]** crée deux branches parallèles :
+
+* **Branche 1** se connecte à une activité de canal e-mail marketing. Les messages suivent les règles métier standard et sont envoyés uniquement aux profils inscrits.
+* La **Branche 2** se connecte à une activité de canal e-mail transactionnel . Les messages contournent les règles métier et sont envoyés à tous les profils, quel que soit le statut d’opt-in.
+
+![](../assets/workflow-fork.png)
+
+Ce modèle est utile pour comprendre comment les paramètres de catégorie de canal affectent le comportement de la diffusion et pour envoyer différents types de messages à la même audience au cours d’une seule exécution de campagne.
