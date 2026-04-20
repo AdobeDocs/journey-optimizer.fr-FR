@@ -6,9 +6,9 @@ description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
+source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1729'
 ht-degree: 21%
 
 ---
@@ -36,8 +36,8 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] fournit désormais un serveur <strong>MCP (Model Context Protocol)</strong> qui surfacie les opérations de campagne, de parcours, de fidélité et de sandbox directement dans toute application compatible MCP. Grâce à cette intégration, différentes personnes peuvent collaborer autour des mêmes données d’orchestration. Au lieu d’écrire des requêtes sur l’API REST AJO ou de parcourir plusieurs écrans d’interface utilisateur, vous pouvez décrire votre intention par la conversation et laisser le gestionnaire de ligne de commande appeler les outils MCP appropriés. Cette fonctionnalité est actuellement disponible dans Claude Web et Desktop.</p>
-<p>Cette fonctionnalité est actuellement disponible dans Beta. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>[!DNL Adobe Journey Optimizer] fournit désormais un serveur <strong>MCP (Model Context Protocol)</strong> qui surfacie les opérations de campagne, de fidélité et de sandbox directement dans toute application compatible MCP. Grâce à cette intégration, différentes personnes peuvent collaborer autour des mêmes données d’orchestration. Au lieu d’écrire des requêtes sur l’API REST AJO ou de parcourir plusieurs écrans d’interface utilisateur, vous pouvez décrire votre intention par la conversation et laisser le gestionnaire de ligne de commande appeler les outils MCP appropriés. Cette fonctionnalité est actuellement disponible dans Claude Web et Desktop.</p>
+<p>Cette fonctionnalité est disponible pour tous les clients dans Public Beta.</p>
 <p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
