@@ -6,9 +6,9 @@ description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 90bc3ad994e941d0e888cabb327b934719a03a5b
+source-git-commit: 121171b536964efef5fdb1a7f1390bf10719735e
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1724'
 ht-degree: 17%
 
 ---
@@ -27,22 +27,23 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 ### Nouvelles fonctionnalités {#april-26-features}
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Intégration de l’agent Journey Optimizer AI via MCP</strong><br/></th>
+<th><strong>simulation de parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer fournit désormais un serveur <strong>MCP (Model Context Protocol)</strong> qui surfacie les opérations de campagne, de fidélité et de sandbox directement dans toute application compatible MCP. Grâce à cette intégration, différentes personnes peuvent collaborer autour des mêmes données d’orchestration. Au lieu d’écrire des requêtes sur l’API REST AJO ou de parcourir plusieurs écrans d’interface utilisateur, vous pouvez décrire votre intention par la conversation et laisser le gestionnaire de ligne de commande appeler les outils MCP appropriés. Cette fonctionnalité est actuellement disponible dans Claude Web et Desktop.</p>
-<p>Cette fonctionnalité est disponible pour tous les clients dans Public Beta.</p>
-<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+<p>Vous pouvez maintenant définir votre parcours sur <strong> Simulation </strong>. Ce mode permet de valider la logique à l’aide d’<strong> utilisateurs simulés </strong>. Il s’agit de profils temporaires créés spécifiquement pour la simulation, qui vous permettent de tester librement sans avoir à gérer de profils de test persistants dans Adobe Experience Platform.</p>
+<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+
 
 <table>
 <thead>
@@ -60,6 +61,77 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Dossiers pour les parcours et les campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais organiser vos parcours et campagnes dans des <strong>dossiers</strong> pour améliorer la navigation et la gestion dans l’interface.</p>
+<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Intégration de l’agent Journey Optimizer AI via MCP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer fournit désormais un serveur <strong>MCP (Model Context Protocol)</strong> qui surfacie les opérations de campagne, de fidélité et de sandbox directement dans toute application compatible MCP. Grâce à cette intégration, différentes personnes peuvent collaborer autour des mêmes données d’orchestration. Au lieu d’écrire des requêtes sur l’API REST AJO ou de parcourir plusieurs écrans d’interface utilisateur, vous pouvez décrire votre intention par la conversation et laisser le gestionnaire de ligne de commande appeler les outils MCP appropriés. Cette fonctionnalité est actuellement disponible dans Claude Web et Desktop.</p>
+<p>Cette fonctionnalité est disponible pour tous les clients dans Public Beta.</p>
+<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Copie de sandbox pour les campagnes orchestrées</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>L’outil Sandbox</strong> prend désormais en charge l’exportation et l’importation de <strong>Campagnes orchestrées</strong> entre les sandbox via des packages.</p>
+<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité Requête incrémentale dans les campagnes orchestrées</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’activité <strong> Requête incrémentale </strong> est désormais disponible dans les <strong>Campagnes orchestrées</strong>. Cette activité de ciblage exécute votre requête à chaque exécution de la campagne et renvoie uniquement les enregistrements qui n’ont pas été renvoyés lors d’une exécution précédente. Vous pouvez envoyer des messages ou exporter uniquement les nouvelles inscriptions, les nouveaux membres Gold ou d’autres segments « nouveau depuis la dernière exécution » sans cibler à nouveau les mêmes profils.</p>
+<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -81,39 +153,6 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Dossiers pour les parcours et les campagnes</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais organiser vos parcours et campagnes dans des <strong>dossiers</strong> pour améliorer la navigation et la gestion dans l’interface.</p>
-<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Copie de sandbox pour les campagnes orchestrées</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>L’outil Sandbox</strong> prend désormais en charge l’exportation et l’importation de <strong>Campagnes orchestrées</strong> entre les sandbox via des packages.</p>
-<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Optimiser les e-mails pour les boîtes de réception d’IA : workflow mis à jour</strong><br/></th>
 </tr>
 </thead>
@@ -127,55 +166,25 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Activité Requête incrémentale dans les campagnes orchestrées</strong><br/></th>
+<th><strong>Journey fragments</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’activité <strong> Requête incrémentale </strong> est désormais disponible dans les <strong>Campagnes orchestrées</strong>. Cette activité de ciblage exécute votre requête à chaque exécution de la campagne et renvoie uniquement les enregistrements qui n’ont pas été renvoyés lors d’une exécution précédente. Vous pouvez envoyer des messages ou exporter uniquement les nouvelles inscriptions, les nouveaux membres Gold ou d’autres segments « nouveau depuis la dernière exécution » sans cibler à nouveau les mêmes profils.</p>
-<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+<p><strong>Journey fragments</strong> are reusable sets of journey nodes that you can build once and drop into any journey across your sandbox. Whether it's an eligibility check, a preferred channel routing logic, or a welcome sequence, fragments help teams move faster and stay consistent — without rebuilding the same logic from scratch every time. Once created, fragments are stored in a dedicated <strong>Fragment inventory</strong> and can be inserted into any journey using the <strong>Journey fragments</strong> activity.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
+<p>Availability date: May 4, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>simulation de parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez maintenant définir votre parcours sur <strong> Simulation </strong>. Ce mode permet de valider la logique à l’aide d’<strong> utilisateurs simulés </strong>. Il s’agit de profils temporaires créés spécifiquement pour la simulation, qui vous permettent de tester librement sans avoir à gérer de profils de test persistants dans Adobe Experience Platform.</p>
-<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Fragments de parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les <strong>fragments de Parcours </strong> sont des ensembles réutilisables de nœuds de parcours que vous pouvez créer une fois et déposer dans n’importe quel parcours de votre sandbox. Qu’il s’agisse d’une vérification d’éligibilité, d’une logique de routage de canal préférée ou d’une séquence de bienvenue, les fragments aident les équipes à se déplacer plus rapidement et à rester cohérentes, sans avoir à reconstruire la même logique à chaque fois. Une fois créés, les fragments sont stockés dans un <strong>inventaire de fragments</strong> dédié et peuvent être insérés dans n’importe quel parcours à l’aide de l’activité <strong>Fragments de Parcours </strong>.</p>
-<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
-<p>Date de disponibilité : mardi 4 mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+-->
 
 <table>
 <thead>
@@ -330,7 +339,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -624,7 +633,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -877,7 +886,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1054,7 +1063,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
