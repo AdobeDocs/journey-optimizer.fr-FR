@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: chiffrement, URL, tracking, page de destination, registre des clés, personnalisation, sécurité, confidentialité, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
+source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 4%
@@ -101,3 +101,4 @@ Pour gérer les clés, procédez comme suit.
    >[!NOTE]
    >
    >Seules les clés actives doivent être sélectionnées pour chiffrer les nouvelles valeurs dans l’éditeur de personnalisation. N’utilisez pas de clés révoquées pour le nouveau contenu.
+
