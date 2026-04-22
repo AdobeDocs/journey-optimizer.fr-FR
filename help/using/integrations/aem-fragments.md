@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1f5d5138674633b8b2da1d54b45d66a17ab30dcc
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1272'
 ht-degree: 34%
 
 ---
@@ -24,11 +24,11 @@ L’intégration entre Adobe Experience Manager et Journey Optimizer suit ce flu
 
 1. **[Configurer le Dispatcher](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}** : pour permettre à Journey Optimizer d’accéder aux fragments de contenu de Adobe Experience Manager via l’API de gestion des fragments de contenu, vous devez d’abord configurer le Dispatcher. Il s’agit d’une condition préalable à l’intégration.
 
-1. **[Créer et créer](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)** : le contenu est créé et configuré dans Adobe Experience Manager en tant que fragments de contenu.
+1. **[Créer et créer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)** : le contenu est créé et configuré dans Adobe Experience Manager en tant que fragments de contenu.
 
-1. **[Balisage](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)** : les fragments de contenu doivent être balisés avec la balise spécifique à Journey Optimizer (`ajo-enabled:{OrgId}/{SandboxName}`).
+1. **[Balisage](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)** : les fragments de contenu doivent être balisés avec la balise spécifique à Journey Optimizer (`ajo-enabled:{OrgId}/{SandboxName}`).
 
-1. **[Publication](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)** : les fragments de contenu sont publiés dans Adobe Experience Manager, ce qui les rend disponibles pour Journey Optimizer.
+1. **[Publication](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)** : les fragments de contenu sont publiés dans Adobe Experience Manager, ce qui les rend disponibles pour Journey Optimizer.
 
 1. **[Accès](#aem-add)** : Journey Optimizer récupère et affiche les fragments de contenu disponibles à partir de l’instance de publication Adobe Experience Manager en temps réel.
 
@@ -114,9 +114,10 @@ Après avoir créé et personnalisé vos fragments de contenu AEM, vous pouvez 
 
    <!--
     Note that if you choose to copy the value, any future updates to the Content Fragment will not be reflected in your campaign or journey. However, using dynamic placeholders ensures real-time updates.
--->
+    
+    -->
 
-    ![](assets/aem_campaign_6.png)
+   ![](assets/aem_campaign_6.png)
 
 1. Pour surfacer une URL d’image stockée dans un attribut de fragment de contenu, par exemple un chemin ou un champ d’URL à partir du modèle de fragment, insérez-la dans votre HTML avec une balise `<img>` et l’attribut de fragment comme source, par exemple :
 
@@ -174,13 +175,13 @@ Exemples de cas d’utilisation de variation :
 * Réglages régionaux de la tonalité sans créer de fragment distinct.
 * Messages spécifiques à un canal (par exemple, web par rapport à mobile).
 
-➡️ [En savoir plus dans la documentation Adobe Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
+➡️ [En savoir plus dans la documentation Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
 
 Journey Optimizer vous permet de choisir la variation à utiliser lorsque vous insérez un fragment. De ce fait, différentes campagnes ou parcours peuvent s’appuyer sur différents rendus du même contenu source dans Adobe Experience Manager sans dupliquer les fragments.
 
 Pour sélectionner une variation :
 
-1. Ouvrez une [campagne](../campaigns/create-campaign.md) ou un [parcours &#x200B;](../building-journeys/journey-gs.md).
+1. Ouvrez une [campagne](../campaigns/create-campaign.md) ou un [parcours ](../building-journeys/journey-gs.md).
 
 1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) dans n’importe quel champ de texte, ou ouvrez la source HTML à partir d’un composant de contenu HTML.
 
