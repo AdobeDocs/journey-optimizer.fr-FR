@@ -6,9 +6,9 @@ description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: dd17038e3bae77f9de2642d2578e5fa4cad54d43
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2189'
 ht-degree: 14%
 
 ---
@@ -322,6 +322,12 @@ Les améliorations de cette version sont présentées ci-dessous.
 
   Date de disponibilité : vendredi 9 avril 2026
 
+#### Notification push
+
+* **Personnaliser l’ID d’application dans les paramètres du canal** - Dans les paramètres de configuration du canal push, vous pouvez désormais personnaliser le champ **ID d’application** afin que chaque destinataire puisse recevoir une notification push de la marque appropriée en fonction des informations de son profil.
+
+  Tâche JIRA de documentation : [DOCAC-14592](https://jira.corp.adobe.com/browse/DOCAC-14592)
+
 #### SMS
 
 * **Nombre de caractères** - Dans Adobe Journey Optimizer, vous pouvez désormais utiliser le nombre de caractères pour surveiller la longueur de vos SMS en temps réel. Cela vous permet de savoir quand un message sera divisé en plusieurs segments afin de mieux gérer la mise en forme et d’éviter des augmentations inattendues des coûts d’envoi. [En savoir plus](../sms/create-sms.md)
@@ -396,7 +402,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Campagnes orchestrées
 
-* **Améliorations apportées à Data Modeler** - Pour les schémas relationnels orchestrés, Data Modeler prend désormais en charge la création de clés composites à l’aide de plusieurs champs. Les relations composites entre les tables sont créées lorsque vous chargez un schéma à partir d’un fichier DDL ou Excel. Dans la vue de relation d’entité, après le chargement d’un fichier, les liens composites affichent l’ensemble complet des paires de champs entre les tables.
+* **Améliorations apportées à Data Modeler** - Les schémas relationnels orchestrés prennent désormais en charge les clés composites s’étendant sur plusieurs champs. Le chargement d’un schéma à partir d’un fichier DDL génère également des énumérations. En outre, le chargement d’un fichier DDL ou Excel crée automatiquement des relations composites entre les tables. Dans la vue de relation d’entité, les liens composites affichent désormais l’ensemble complet des paires de champs entre les tables après le chargement d’un fichier.
 
   Tâche JIRA de documentation : [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
@@ -409,7 +415,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -700,7 +706,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -953,7 +959,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1130,7 +1136,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
