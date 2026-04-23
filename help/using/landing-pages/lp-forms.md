@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 75%
@@ -33,6 +33,12 @@ Pour capturer des données de profil avec vos pages de destination [!DNL Journey
 >title="Sélectionner un jeu de données"
 >abstract="Définissez un jeu de données dans lequel les réponses du formulaire seront stockées et reflétées. Vous pouvez saisir du texte pour rechercher un jeu de données spécifique ou le sélectionner dans la liste."
 
+<!--
+>[!NOTE]
+>
+>To access and edit form presets, you must have the **[!UICONTROL View form presets]**, **[!UICONTROL Manage form presets]**, and **[!UICONTROL Publish form presets]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
+
 Avant de pouvoir créer un formulaire, vous devez définir un paramètre prédéfini dédié où vous sélectionnez le point d’entrée de connexion où les données d’envoi du formulaire sont envoyées et le jeu de données où les données capturées par le biais du formulaire seront stockées.
 
 Une fois les données sur le point d’entrée de streaming, celles-ci sont liées aux informations du jeu de données. À l’aide des connexions source/cible générées et du flux source, les données sont ensuite intégrées au jeu de données.
@@ -45,12 +51,6 @@ Lors de la création d’un paramètre prédéfini :
    * **Connexion Source** - emplacement d’où proviennent les données.
    * **Connexion cible** - emplacement de stockage ou d’utilisation des données.
    * **Flux source** - pipeline qui déplace les données de la connexion source vers [!DNL Experience Platform], gérant le mappage, la transformation et la validation.
-
-<!--
->[!NOTE]
->
-> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
--->
 
 Pour créer un préréglage de formulaire, suivez les étapes ci-dessous.
 
@@ -84,6 +84,12 @@ Pour créer un préréglage de formulaire, suivez les étapes ci-dessous.
 1. Cliquez sur **[!UICONTROL Publier]**. Votre paramètre prédéfini peut maintenant être utilisé dans un formulaire.
 
 ## Accéder aux formulaires et les gérer {#access-forms}
+
+<!--
+>[!NOTE]
+>
+>To access and edit forms, you must have the **[!UICONTROL View forms]**, **[!UICONTROL Manage forms]**, and **[!UICONTROL Publish forms]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
 
 Pour accéder à la liste des formulaires, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Formulaires]** dans le menu de gauche.
 
