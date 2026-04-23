@@ -11,10 +11,10 @@ hide: true
 keywords: CC, copie carbone, e-mail, configuration du canal, en-têtes d’e-mail, Cci
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 13%
+source-wordcount: '919'
+ht-degree: 12%
 
 ---
 
@@ -64,7 +64,7 @@ Le champ **[!UICONTROL E-mail CC]** accepte trois types de valeurs :
 
 * Attribut **profile**, tel que l’adresse e-mail du responsable de relation disponible dans le profil.
 
-* Un **attribut contextuel** - cette valeur ne peut **être utilisée que dans les campagnes déclenchées par l’API**. Elle est récupérée à partir de la payload de l’API qui doit inclure la variable contextuelle `context.channel.email.ccvalues` avec la valeur d’adresse CC .
+* Un **attribut contextuel** - cette valeur ne peut **être utilisée que dans les campagnes déclenchées par l’API**. Elle est récupérée à partir de la payload de l’API qui doit inclure la variable contextuelle `context.channel.email.ccvalues` avec la valeur d’adresse CC transmise sous forme de chaîne.
 
   >[!WARNING]
   >
@@ -97,7 +97,9 @@ Si vous [modifiez une configuration d’e-mail](channel-surfaces.md#edit-channel
 
 * **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [&#x200B; bounces](../reports/suppression-list.md#delivery-failures).
 
-* **Création de rapports :** les ouvertures, les clics et autres engagements des destinataires CC sont inclus dans les mesures de création de rapports par e-mail. Ainsi, les ouvertures ou les clics des destinataires en copie cachée entraînent des erreurs de calcul dans les [rapports](../reports/report-gs-cja.md).
+* **Consentement et suppression :** l’adresse e-mail en copie (CC) n’est pas comparée au consentement ou à la suppression.
+
+* **Création de rapports :** les ouvertures, les clics et autres engagements des destinataires CC sont inclus dans les mesures de création de rapports par e-mail. N’ouvrez pas et ne cliquez pas sur les e-mails envoyés à l’adresse CC, car cela est pris en compte dans les ouvertures totales et les clics provenant de l’analyse d’envoi, ce qui peut entraîner des erreurs de calcul dans les [rapports](../reports/report-gs-cja.md).
 
 * **Spam :** ne marquez pas les messages comme spam dans la boîte de réception CC, car cela aura un impact sur tous les autres e-mails envoyés à cette adresse.
 
