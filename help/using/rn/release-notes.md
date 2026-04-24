@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
+source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
 workflow-type: tm+mt
-source-wordcount: '3902'
+source-wordcount: '3944'
 ht-degree: 16%
 
 ---
@@ -98,6 +98,22 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 <tr>
 <td>
 <p>Il est désormais possible d’ajouter des liens profonds au contenu de votre e-mail par le biais d’une option dédiée dans le Designer d’e-mail. Cela permet aux utilisateurs d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Dossiers pour les parcours et les campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais organiser vos parcours et campagnes dans des <strong>dossiers</strong> pour améliorer la navigation et la gestion dans l’interface.</p>
+<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </td>
 </tr>
 </tbody>
