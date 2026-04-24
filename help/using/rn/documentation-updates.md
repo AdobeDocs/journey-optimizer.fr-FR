@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '7025'
-ht-degree: 69%
+source-wordcount: '7188'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,8 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2026 {#april-2026}
 
+* Mise à jour de la documentation de l’activité **Changement de dimension** afin de clarifier le fait que, tandis que l’activité utilise une jointure externe et conserve tous les enregistrements à l’étape de changement de dimension, les enregistrements sans profil correspondant dans la nouvelle dimension de ciblage sont silencieusement exclus au moment de la diffusion du message. [En savoir plus](../orchestrated/activities/change-dimension.md)
+
 * Les mécanismes de sécurisation de la documentation **Ajouter un champ CC aux e-mails** ont été améliorés. Ils indiquent désormais que l’adresse CC n’est pas vérifiée par rapport au consentement ou à la suppression, et que les ouvertures et les clics publicitaires des e-mails envoyés à l’adresse CC sont pris en compte dans les ouvertures totales et les clics de l’analyse d’envoi. [En savoir plus](../configuration/cc-email-field.md)
 
 * Mise à jour de la documentation sur les **activités de canal** avec une nouvelle section **Messages marketing ou transactionnels** expliquant les différences de comportement entre les deux catégories de canal : exigences d’opt-in, application de règle métier, type de configuration de canal et cas d’utilisation recommandés. [En savoir plus](../orchestrated/activities/channels.md#marketing-vs-transactional)
@@ -29,7 +31,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * La documentation **Créer une activité d’audience** a été enrichie d’un nouvel exemple montrant comment filtrer les profils en fonction d’un attribut de plan d’abonnement à l’aide du créateur de règles. [En savoir plus](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* La page **Prise en main des campagnes orchestrées** documente le modèle d’entrée de gamme **Créer une audience → Branchement → canal A + canal B** dans **Que contient une campagne orchestrée ?**, avec des références croisées aux pages Activité Branchement et Messages marketing par rapport aux messages transactionnels . [En savoir plus](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* La page **Prise en main des campagnes orchestrées** documente le modèle d’entrée de niveau **Créer une audience → Branchement → Canal A + Canal B** dans **Qu’est-ce qu’une campagne orchestrée ?**, avec des références croisées aux pages Activité Branchement et Messages marketing ou transactionnels . [En savoir plus](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * La page **Modifier le contenu d&#39;un email avec l&#39;éditeur HTML avancé** a été déplacée de la section Gestion de contenu vers la section **E-mail** de la documentation (sous Conception d&#39;email) et le fichier de page a été renommé **email-expert-mode.md**. Cette page indique désormais que l’éditeur HTML avancé est disponible dans le Designer d’e-mail pour les e-mails, ainsi que pour les modèles de contenu d’e-mail. [En savoir plus](../email/email-expert-mode.md)
 
 * Mise à jour de la documentation **Démarrer et surveiller les campagnes orchestrées** avec une nouvelle section détaillant la séquence d’exécution au moment de la publication interne, ainsi qu’un tableau de statut du cycle de vie de la campagne, une liste de contrôle de prépublication et un avertissement de confirmation d’envoi pour les campagnes non récurrentes. [En savoir plus](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -80,7 +82,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Mise à jour de la documentation sur le **tracking des URL** et la **résolution des problèmes de Parcours** afin de documenter le comportement des `context.system.source.actionId` dans les parcours fermés. Les parcours fermés ou non republiés peuvent produire des espaces réservés de `{}` vides dans les URL de tracking. Des conseils ont été ajoutés pour résoudre le problème en republiant le parcours ou en supprimant le paramètre affecté. [En savoir plus](../email/url-tracking.md)
 
-* Mise à jour de la documentation sur la source de données **&#x200B;**&#x200B;avec une note indiquant que seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Data Source. [En savoir plus](../datasource/adobe-experience-platform-data-source.md)
+* Mise à jour de la documentation sur la source de données **Adobe Experience Platform** avec une note indiquant que seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Data Source. [En savoir plus](../datasource/adobe-experience-platform-data-source.md)
 
 * La documentation **Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données** a été améliorée avec une nouvelle entrée de FAQ pour identifier clairement les jeux de données soumis à une durée de vie. La durée de vie s’applique exclusivement aux jeux de données de série temporelle : les jeux de données de type enregistrement tels que les jeux de données d’entité, les jeux de données de classification et les référentiels d’objets de décision ne sont pas soumis à la durée de vie et ne sont pas affectés par le déploiement du mécanisme de sécurisation. [En savoir plus](../data/datasets-ttl.md)
 
@@ -339,7 +341,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
    * Les identifiants supplémentaires ne sont pas validés par rapport aux politiques DULE (étiquetage et application des règles d’utilisation des données) et ne sont pas pris en compte lors des contrôles de gouvernance des données dans les parcours.
 
-[En savoir plus](../building-journeys/supplemental-identifier.md)
+     [En savoir plus](../building-journeys/supplemental-identifier.md)
 
 * La page Optimisation dans les campagnes a été mise à jour pour refléter le fait que l’optimisation est désormais également disponible dans les parcours. [En savoir plus](../content-management/gs-message-optimization.md)
 
