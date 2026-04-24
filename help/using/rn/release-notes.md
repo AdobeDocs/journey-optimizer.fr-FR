@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b3663df6447d0f689f598f258f050891388a8729
+source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
 workflow-type: tm+mt
-source-wordcount: '3896'
-ht-degree: 18%
+source-wordcount: '3902'
+ht-degree: 16%
 
 ---
 
@@ -35,7 +35,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 Les nouvelles fonctionnalités et améliorations publiées début avril sont accompagnées de leur date de disponibilité.
 
-**Date de publication** : 28-29 avril 2026
+**Date de publication** : 28 et 29 avril 2026
 
 ### Nouvelles fonctionnalités {#april-26-features}
 
@@ -181,7 +181,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
 <p>Pour plus d’informations, consultez la <a href="../integrations/express.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : vendredi 23 avril 2026</p>
+<p>Date de disponibilité : 23 avril 2026</p>
 </td>
 </tr>
 </tbody>
@@ -200,7 +200,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <p>Comme les assistants d’IA contrôlent de plus en plus la manière dont les destinataires lisent et agissent sur les e-mails, cette fonctionnalité vous permet de générer et de créer du contenu qui s’exécute correctement dans les tâches d’IA en aval, notamment la synthèse, le tri, la hiérarchisation et l’extraction d’intention.</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
 <p>Pour plus d’informations, voir <a href="../email/llm-email-optimizer.md">Optimisation des e-mails pour les boîtes de réception IA</a>.</p>
-<p>Date de disponibilité : samedi 17 avril 2026</p>
+<p>Date de disponibilité : 17 avril 2026</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <p>L'assistant travaille également à l'envers. Sélectionnez une expression existante et demandez-lui d’expliquer la logique, d’identifier les problèmes ou de suggérer des améliorations. Cela le rend utile non seulement pour créer de nouvelles expressions, mais aussi pour examiner et déboguer les expressions existantes dans votre équipe.</p>
 <p><img src="assets/do-not-localize/assistant-perso.gif"></p>
 <p>Pour plus d’informations, voir <a href="../content-management/generative-personalization-expressions.md">Assistant AI pour les expressions Personalization</a>.</p>
-<p>Date de disponibilité : mardi 13 avril 2026</p>
+<p>Date de disponibilité : 13 avril 2026</p>
 </td>
 </tr>
 </tbody>
@@ -240,7 +240,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <p>Dans le cadre de la disponibilité générale, cette version introduit la sélection <strong>type d’expérience</strong> (A/B ou bandit manchot) et <strong>Mettre à l’échelle le gagnant</strong> pour les parcours unitaires.</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/path-experimentation.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 7 avril 2026</p>
+<p>Date de disponibilité : 7 avril 2026</p>
 </td>
 </tr>
 </tbody>
@@ -258,7 +258,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <p><strong>Boîte de réception</strong> est une fonctionnalité mobile, disponible avec les cartes de contenu, qui permet aux clients de créer un emplacement centralisé dans leur application ou site web pour afficher les messages envoyés à leurs utilisateurs. Cela prolonge la durée de vie des communications marketing en s’assurant que les messages restent accessibles même après leur rejet.</p>
 <p><img src="assets/do-not-localize/inbox.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../inbox/inbox-gs.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 7 avril 2026</p>
+<p>Date de disponibilité : 7 avril 2026</p>
 </td>
 </tr>
 </tbody>
@@ -295,10 +295,10 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <tr>
 <td>
 <p>Vous pouvez désormais utiliser <strong>Decisioning</strong> pour personnaliser et optimiser le contenu de vos e-mails. Tirez parti des scores de priorité, des formules ou des modèles d’IA pour afficher les offres et le contenu les plus pertinents pour chaque destinataire.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale). Avec cette version de disponibilité générale, les pages miroir sont désormais prises en charge.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale). Avec cette version de disponibilité générale, les pages miroir sont désormais prises en charge.</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision-policy.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mardi 6 avril 2026</p>
+<p>Date de disponibilité : 6 avril 2026</p>
 </td>
 </tr>
 </tbody>
@@ -318,7 +318,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
 * **Fragments temporairement indisponibles sont ignorés** - Lors de l’utilisation de fragments dans des éléments de décision, si un fragment est temporairement indisponible sur Edge, il est ignoré et le parcours ou la campagne continue de s’afficher au lieu d’échouer. [En savoir plus](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
-  Date de disponibilité : mercredi 14 avril 2026
+  Date de disponibilité : 14 avril 2026
 
 #### Notification push
 
@@ -342,21 +342,17 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
 #### Intégrations Adobe Experience Manager
 
-* **Sélecteur de gestionnaire d’accès** - Les sélecteurs Adobe Experience Manager Assets et Fragment de contenu sont désormais remplacés par le **sélecteur de gestionnaire d’accès**, une fenêtre modale unifiée qui vous permet de parcourir, rechercher, filtrer et accéder à tous les fragments de contenu AEM Assets et AEM. La prise en charge des rendus Dynamic Media est également incluse, ce qui vous permet d’ajouter des rendus d’image à partir de l’interface utilisateur lorsque des ressources Dynamic Media sont sélectionnées. Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
-
-* **Personnalisation en temps ouvert avec compte à rebours à l’aide de Dynamic Media** l’intégration de Journey Optimizer et de Adobe Experience Manager Dynamic Media permet la personnalisation en temps ouvert des modèles Dynamic Media, ce qui déverrouille les cas d’utilisation hyper-personnalisés. Les clients peuvent créer et publier des modèles personnalisés dans Adobe Experience Manager et les utiliser dans Journey Optimizer, avec des données rendues au moment de l’ouverture.
-
 * **Prise en charge des variations de fragments de contenu Adobe Experience Manager** - Vous pouvez sélectionner **Variations de fragments de contenu** (par exemple, variantes de langue ou de canal) lors de l’insertion de fragments de contenu Adobe Experience Manager, avec une gestion améliorée pour les scénarios régionaux et multilingues. [En savoir plus](../integrations/aem-fragments.md#aem-variations)
 
   Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-  Date de disponibilité : samedi 3 avril 2026
+  Date de disponibilité : 3 avril 2026
 
 * **Contexte de fragment de contenu Adobe Experience Manager lors de la création** - Votre sélection de fragment de contenu reste active lorsque vous passez d’un champ de texte à un bloc de contenu. Vous pouvez ainsi ajouter d’autres champs de fragment sans rouvrir **Ouvrez le conseiller en contenu AEM** à chaque fois. [En savoir plus](../integrations/aem-fragments.md)
 
   Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-  Date de disponibilité : jeudi 1 avril 2026
+  Date de disponibilité : 1er avril 2026
 
 #### Configuration
 
@@ -374,29 +370,29 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
   Auparavant disponible uniquement pour les modèles de contenu d’e-mail, cette fonctionnalité est désormais déployée sur le contenu **e-mail** dans le Designer d’e-mail (par exemple, les e-mails créés dans les parcours et les campagnes), en plus des modèles de contenu d’e-mail. Il est actuellement à disponibilité limitée. Contactez votre représentant Adobe pour y accéder. [En savoir plus](../email/email-expert-mode.md)
 
-  Date de disponibilité : vendredi 9 avril 2026
+  Date de disponibilité : 9 avril 2026
 
 * **Assistant AI pour les expressions de personnalisation dans le Designer Email** - Dans le Designer Email, sélectionnez un composant et utilisez **Ajouter une expression** dans la barre d’outils contextuelle pour décrire la personnalisation dont vous avez besoin en langage clair, passer en revue l’expression générée et l’insérer sans quitter le concepteur. [En savoir plus](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
-  Date de disponibilité : jeudi 15 avril 2026
+  Date de disponibilité : 15 avril 2026
 
 #### Optimisation du chemin de parcours
 
 * **Type d’expérience** - Vous pouvez désormais choisir entre une expérience A/B (division fixe au début) ou un bandit manchot (division automatique avec mises à jour hebdomadaires du poids) lors de la configuration d’une expérience de chemin. [En savoir plus](../building-journeys/path-experimentation.md)
 
-  Date de disponibilité : mercredi 7 avril 2026
+  Date de disponibilité : 7 avril 2026
 
 * **Expérimentation de parcours : mettre à l’échelle le gagnant** - Vous pouvez désormais déployer automatiquement ou manuellement le parcours gagnant d’une expérience sur l’ensemble de votre audience. Une fois qu’un gagnant est déterminé, vous pouvez amplifier sa portée et son efficacité sans surveiller constamment l’expérience. [En savoir plus](../building-journeys/path-experimentation.md#scale-winner)
 
   Cette fonctionnalité n’est disponible que dans les parcours unitaires (déclenchés par un événement et qualifications d’audience). Elle n’est pas disponible pour les parcours Lecture d’audience .
 
-  Date de disponibilité : mercredi 7 avril 2026
+  Date de disponibilité : 7 avril 2026
 
 * **Conditions** - L’activité [Optimiser](../building-journeys/optimize.md) est le nouveau moyen de créer des chemins conditionnels dans les parcours. Elle remplace l’ancienne activité **Condition**, qui a été supprimée de l’interface utilisateur. Toute la logique conditionnelle est conservée et est désormais gérée via les conditions de l’activité **Optimiser**. [En savoir plus](../building-journeys/conditions.md)
 
   Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
 
-  Date de disponibilité : mercredi 7 avril 2026
+  Date de disponibilité : 7 avril 2026
 
 
 ## Notes de mise à jour de mars 2026 {#march-26-rn}
@@ -406,10 +402,10 @@ Les sections [Nouvelles fonctionnalités](#march-26-features) et [Améliorations
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
-**Date de publication** : 24-25 mars 2026
+**Date de publication** : 24 et 25 mars 2026
 
 ### Nouvelles fonctionnalités {#march-26-features}
 
@@ -430,7 +426,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>Pour plus d’informations, consultez la <a href="../personalization/url-parameter-encryption.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 31 mars 2026</p>
+<p>Date de disponibilité : 31 mars 2026</p>
 </td>
 </tr>
 </tbody>
@@ -449,7 +445,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
 <p>Pour plus d’informations, consultez la <a href="../content-management/image-to-html.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 31 mars 2026</p>
+<p>Date de disponibilité : 31 mars 2026</p>
 </td>
 </tr>
 </tbody>
@@ -469,7 +465,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Publiée précédemment en disponibilité limitée pour les clients et clientes des États-Unis et d’Australie, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : vendredi 26 mars 2026.</p>
+<p>Date de disponibilité : 26 mars 2026.</p>
 </td>
 </tr>
 </tbody>
@@ -542,7 +538,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Cette fonctionnalité est disponible dans les modèles de contenu pour le canal E-mail uniquement. Il est actuellement à disponibilité limitée. Contactez votre représentant Adobe pour y accéder.</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../email/email-expert-mode.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 10 mars 2026</p>
+<p>Date de disponibilité : 10 mars 2026</p>
 </td>
 </tr>
 </tbody>
@@ -561,7 +557,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Choisissez le modèle adapté à vos besoins :</p>
 <ul><li> <strong>Adobe model</strong> (optimisé par Firefly Image Model 4) pour la génération immédiate d’images sans configuration supplémentaire</li><li> <strong>Modèle partenaire</strong> (optimisé par Gemini 2.5 Flash) pour des fonctionnalités spécialisées</li><li><strong>Modèles personnalisés</strong> (modèles spécifiques à la marque entraînés sur vos propres ressources) pour une génération sur la marque qui s’aligne précisément sur l’identité, le style et les directives visuelles de votre marque.</li></ul>
 <p>Pour plus d’informations, consultez la <a href="../content-management/generative-models.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mardi 2 mars 2026</p>
+<p>Date de disponibilité : 2 mars 2026</p>
 </td>
 </tr>
 </tbody>
@@ -579,7 +575,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Proposez des expériences en temps réel directement sur Lock Screens et Dynamic Island de vos clients avec l’<strong>activité iOS Live</strong> dans Adobe Journey Optimizer. Diffusez des mises à jour en direct, depuis le suivi des commandes et du statut des vols jusqu’au décompte des événements, aux scores en direct et à la progression de la diffusion, sans demander aux utilisateurs d’ouvrir votre application. Tenez votre public informé et engagé au bon moment, exactement où il se trouve.</p>
 <p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../mobile-live/get-started-mobile-live.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 3 mars 2026</p>
+<p>Date de disponibilité : 3 mars 2026</p>
 </td>
 </tr>
 </tbody>
@@ -596,8 +592,8 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Optimisé par <strong>Adobe Experience Platform Agent Orchestrator</strong> <strong>Journey Agent</strong> est disponible dans Journey Optimizer et vous permet d’analyser les parcours par le biais d’une interface en langage naturel. Vous pouvez désormais également générer et gérer du contenu spécifique à un canal directement dans Journey Agent, ce qui permet de créer du contenu pour des canaux tels que les e-mails et les notifications push, d’appliquer et de prévisualiser des modèles, d’affiner le ton et le style par le biais d’invites et d’ouvrir le contenu dans <strong>Content Designer</strong> pour une modification contextuelle.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
-<p>Date de disponibilité : jeudi 4 mars 2026</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 4 mars 2026</p>
 </td>
 </tr>
 </tbody>
@@ -616,7 +612,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Cette fonctionnalité est actuellement disponible uniquement pour les modèles <strong>optimisation personnalisée</strong> (et non pour l’optimisation automatique).</p>
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/ranking/ai-model-observability.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mardi 9 mars 2026</p>
+<p>Date de disponibilité : 9 mars 2026</p>
 </td>
 </tr>
 </tbody>
@@ -667,13 +663,13 @@ Les améliorations de cette version sont présentées ci-dessous.
 
   Publiée précédemment en disponibilité limitée et destinée aux parcours, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).
 
-  Date de disponibilité : jeudi 1 avril 2026
+  Date de disponibilité : 1er avril 2026
 
 #### Création de rapports
 
 * **Optimisation de l’heure d’envoi : emplacement des contrôles mis à jour et nouveau rapport d’effet élévateur** - Les contrôles de l’optimisation de l’heure d’envoi (STO) ont été déplacés vers le menu de configuration des actions. De plus, un nouveau rapport d’effet élévateur est désormais disponible dans les rapports Parcours afin de mesurer l’impact de la STO sur les mesures de performances de vos campagnes. [En savoir plus](../reports/channel-report-cja.md#optimization-models)
 
-  Date de disponibilité : samedi 27 mars 2026
+  Date de disponibilité : 27 mars 2026
 
 <!--
 * **Exclude bot clicks for email and SMS reporting** - Email and SMS reporting now automatically filters out bot clicks from click metrics, providing more accurate engagement data and preventing automated traffic from inflating your performance figures.
@@ -693,7 +689,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Échec du renouvellement des certificats de domaine AJO** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, lorsqu’un certificat de domaine utilisé pour la délivrabilité des e-mails approche de son expiration ou a déjà expiré. [En savoir plus](../reports/alerts.md#alert-certificates-renewal-unsuccessful)
 
-  Date de disponibilité : vendredi 26 mars 2026
+  Date de disponibilité : 26 mars 2026
 
 * **Renommage du jeu de données d’événement de retour du destinataire Secondaire AJO** - Le jeu de données `AJO Email BCC Feedback Event` a été renommé jeu de données `AJO Secondary Recipient Feedback Event`. L’impact varie en fonction de votre situation :
 
@@ -705,7 +701,7 @@ Les améliorations de cette version sont présentées ci-dessous.
   >
   >Les nouveaux jeux de données affichent immédiatement le nouveau nom. Pour les anciens noms de jeux de données, le renvoi et la réconciliation se déroulent progressivement et peuvent prendre plusieurs semaines.
 
-  Date de disponibilité : mardi 2 mars 2026
+  Date de disponibilité : 2 mars 2026
 
 
 #### Parcours
@@ -716,17 +712,17 @@ Les améliorations de cette version sont présentées ci-dessous.
 
   Publiée précédemment en disponibilité limitée et destinée aux parcours, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).
 
-  Date de disponibilité : mardi 16 mars 2026
+  Date de disponibilité : 16 mars 2026
 
 * **Détails de pause et de reprise dans les détails techniques du parcours** - Le parcours **détails techniques** inclut désormais des informations supplémentaires sur la pause et la reprise : la date et l’heure de la dernière pause et reprise, le nom d’affichage et l’identifiant interne de l’utilisateur ou de l’utilisatrice qui a effectué chaque action, ainsi qu’un ensemble complet de paramètres de parcours en pause, tels que le comportement de la pause, la durée maximale de la pause et l’état de reprise automatique. [En savoir plus](../building-journeys/journey-properties.md)
 
-  Date de disponibilité : mardi 2 mars 2026
+  Date de disponibilité : 2 mars 2026
 
 #### Prise de décision
 
 * **Migration de prise de décision - Attributs d’offre et de contexte** - Le mappage d’entité de l’API de migration répertorie désormais **attributs d’offre** (`migratedofferattributes` sur le schéma d’élément d’offre personnalisée) et **attributs de contexte** (`migratedcontextattributes` sur le schéma du jeu de données de migration). [En savoir plus](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
 
-  Date de disponibilité : mercredi 31 mars 2026
+  Date de disponibilité : 31 mars 2026
 
 <!--
 ## Coming soon {#coming-soon}
