@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c61a6f19cf08d9de0133f323129efe196cc10f6
+source-git-commit: b3663df6447d0f689f598f258f050891388a8729
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 18%
@@ -64,7 +64,7 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 <tbody>
 <tr>
 <td>
-<p>With Journey Optimizer, you can now send emails where the transmitting entity (Sender) differs from the authoring entity (From). Email clients that support this will typically render it as "Sender on behalf of From" or show a "via" indicator. Fill in the optional <strong>Sender headers</strong> fields in the email channel settings to configure this capability.</p>
+<p>Avec Journey Optimizer, vous pouvez désormais envoyer des e-mails lorsque l’entité d’émission (expéditeur) diffère de l’entité de création (de). Les clients de messagerie qui prennent en charge cette fonctionnalité l’affichent généralement sous la forme « Expéditeur au nom de l’expéditeur » ou affichent un indicateur « via ». Renseignez les champs facultatifs <strong>En-têtes de l’expéditeur</strong> dans les paramètres du canal e-mail pour configurer cette fonctionnalité.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </td>
 </tr>
@@ -113,7 +113,7 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 <tr>
 <td>
 <p>Adobe Journey Optimizer fournit désormais un serveur <strong>MCP (Model Context Protocol)</strong> qui surfacie les opérations de campagne, de fidélité, de configuration des canaux et de sandbox directement dans toute application compatible MCP. Grâce à cette intégration, différentes personnes peuvent collaborer autour des mêmes données d’orchestration. Au lieu d’écrire des requêtes sur l’API REST Adobe Journey Optimizer ou de parcourir plusieurs écrans d’interface utilisateur, vous pouvez décrire votre intention par la conversation et laisser le gestionnaire de ligne de commande appeler les outils MCP appropriés. Cette fonctionnalité est actuellement disponible dans Claude Web et Desktop.</p>
-<p>This capability is available to all customers in Public Beta.</p>
+<p>Cette fonctionnalité est disponible pour tous les clients dans Public Beta.</p>
 </td>
 </tr>
 </tbody>
@@ -128,7 +128,7 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 <tbody>
 <tr>
 <td>
-<p><strong>L’outil Sandbox prend désormais en charge le package et la copie de campagnes orchestrées d’un sandbox à un autre. Vous n’avez ainsi plus besoin de recréer manuellement les campagnes dans chaque environnement. Lorsqu’une campagne est empaquetée, ses objets dépendants principaux, tels que les politiques de fusion et les messages, sont automatiquement inclus. La campagne importée est donc prête à être configurée et validée. Pour protéger les environnements de production, toutes les campagnes importées atteignent le statut de brouillon dans le sandbox cible, ce qui permet aux équipes de passer en revue et d’approuver les campagnes avant qu’elles ne soient mises en ligne.</p>
+<p>L’outil Sandbox prend désormais en charge le package et la copie de campagnes orchestrées d’un sandbox à un autre. Vous n’avez ainsi plus besoin de recréer manuellement les campagnes dans chaque environnement. Lorsqu’une campagne est empaquetée, ses objets dépendants principaux, tels que les politiques de fusion et les messages, sont automatiquement inclus. La campagne importée est donc prête à être configurée et validée. Pour protéger les environnements de production, toutes les campagnes importées atteignent le statut de brouillon dans le sandbox cible, ce qui permet aux équipes de passer en revue et d’approuver les campagnes avant qu’elles ne soient mises en ligne.</p>
 </td>
 </tr>
 </tbody>
@@ -190,16 +190,16 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <table>
 <thead>
 <tr>
-<th><strong>Optimize email for AI inboxes</strong><br/></th>
+<th><strong>Optimisation des e-mails pour les boîtes de réception d’IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer now includes a new capability that ensures your emails are optimally structured for AI-powered inboxes such as Apple Intelligence and Google Gemini in Gmail.</p>
-<p>As AI assistants increasingly control how recipients read and act on email, this feature helps you generate and author content that performs well across downstream AI tasks including summarization, triage, prioritization, and intent extraction.</p>
+<p>Adobe Journey Optimizer comprend désormais une nouvelle fonctionnalité qui garantit que vos e-mails sont structurés de manière optimale pour les boîtes de réception optimisées par l’IA telles qu’Apple Intelligence et Google Gemini dans Gmail.</p>
+<p>Comme les assistants d’IA contrôlent de plus en plus la manière dont les destinataires lisent et agissent sur les e-mails, cette fonctionnalité vous permet de générer et de créer du contenu qui s’exécute correctement dans les tâches d’IA en aval, notamment la synthèse, le tri, la hiérarchisation et l’extraction d’intention.</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
-<p>For more information, refer to <a href="../email/llm-email-optimizer.md">Optimize email for AI inboxes</a>.</p>
+<p>Pour plus d’informations, voir <a href="../email/llm-email-optimizer.md">Optimisation des e-mails pour les boîtes de réception IA</a>.</p>
 <p>Date de disponibilité : samedi 17 avril 2026</p>
 </td>
 </tr>
@@ -308,9 +308,9 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
 #### IA
 
-* **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
+* **Score d’alignement de la marque dans le tableau de bord Campaign** - Vous pouvez désormais évaluer votre score d’alignement de la marque directement dans votre tableau de bord Campaign pour vous assurer que le contenu reste fidèle à la marque. Vous pouvez ainsi vérifier les directives en un coup d’œil sans avoir à ouvrir le concepteur de contenu.
 
-* **Prompt Assistant enhancement** - When a prompt is vague, incomplete, or mixes multiple goals, **Prompt Assistant** can now ask focused clarifying questions or suggest a clearer rewrite of your request before generation, helping you pin down what you need before the assistant responds, which improves consistency and reduces retries. [En savoir plus](../content-management/ai-assistant-prompting-guide.md)
+* **Amélioration de l’assistant d’invite** - Lorsqu’une invite est vague, incomplète ou mélange plusieurs objectifs, **l’assistant d’invite** peut désormais poser des questions précises pour clarifier ou suggérer une réécriture plus claire de votre demande avant la génération, ce qui vous aide à identifier ce dont vous avez besoin avant que l’assistant ne réponde, ce qui améliore la cohérence et réduit les reprises. [En savoir plus](../content-management/ai-assistant-prompting-guide.md)
 
 #### Prise de décision
 
@@ -330,11 +330,11 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
 * **Opt-out et consentement au numéro de téléphone et à l’expéditeur** - Pour les SMS, Journey Optimizer enregistre désormais le consentement et l’opt-out marketing au niveau du numéro de téléphone et du numéro court du profil.
 
-  This capability is currently only available for Sinch SMS configurations. [En savoir plus](../sms/sms-configuration-sinch.md)
+  Actuellement, cette fonctionnalité n’est disponible que pour les configurations SMS Sinch. [En savoir plus](../sms/sms-configuration-sinch.md)
 
 * **SMS entrant dans un jeu de données personnalisé** - Dans **informations d’identification de l’API SMS**, acheminez **SMS entrant** vers un **jeu de données d’événement d’expérience personnalisé et activé pour le profil** que vous sélectionnez au lieu du seul jeu de données de suivi par défaut. [En savoir plus](../sms/sms-webhook.md)
 
-* **Webhook interface enhancement** - When configuring SMS webhooks, the user interface now includes a built-in setup guide with practical examples, making it easier to align provider payloads and troubleshoot issues without leaving the configuration flow. [En savoir plus](../sms/sms-webhook.md)
+* **Amélioration de l’interface Webhook** - Lors de la configuration des Webhooks SMS, l’interface utilisateur comprend désormais un guide de configuration intégré avec des exemples pratiques, ce qui facilite l’alignement des payloads des fournisseurs et la résolution des problèmes sans quitter le flux de configuration. [En savoir plus](../sms/sms-webhook.md)
 
 #### WhatsApp
 
@@ -399,9 +399,9 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
   Date de disponibilité : mercredi 7 avril 2026
 
 
-## March &#39;26 release notes {#march-26-rn}
+## Notes de mise à jour de mars 2026 {#march-26-rn}
 
-The [New capabilities](#march-26-features) and [Improvements](#march-26-improv) sections cover capabilities already available. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in March.-->
+Les sections [Nouvelles fonctionnalités](#march-26-features) et [Améliorations](#march-26-improv) couvrent les fonctionnalités déjà disponibles. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in March.-->
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
@@ -464,7 +464,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>With [!DNL Journey Optimizer], you can capture profile attributes through your landing pages.</p>
+<p>Avec [!DNL Journey Optimizer], vous pouvez capturer les attributs de profil par le biais de vos pages de destination.</p>
 <p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
 <p>Publiée précédemment en disponibilité limitée pour les clients et clientes des États-Unis et d’Australie, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
@@ -513,15 +513,15 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>Action activity replaces channel-specific journey activities</strong><br/></th>
+<th><strong>L’activité Action remplace les activités de parcours spécifiques à un canal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Following the General Availability of the <strong>Action activity</strong> in February 2026, legacy native channel activities (Email, Push, SMS, In-app, Web, Code-based experience, and Content Card) in the journey canvas are now deprecated.</p>
-<p>You must now use the single Action activity to configure all channel actions, replacing the need for separate channel-specific nodes.</p>
-<p>Existing journeys using legacy channel activities continue to function without any changes or migration required.</p>
+<p>Suite à la disponibilité générale de l’activité <strong>Action</strong> en février 2026, les activités de canal natives héritées (e-mail, notification push, SMS, in-app, web, expérience basée sur le code et carte de contenu) dans la zone de travail de parcours sont désormais obsolètes.</p>
+<p>Vous devez maintenant utiliser l’activité Action unique pour configurer toutes les actions de canal, en remplaçant le besoin de nœuds distincts spécifiques au canal.</p>
+<p>Les parcours existants qui utilisent les activités de canal héritées continuent à fonctionner sans aucune modification ni migration requise.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-action.md">documentation détaillée</a>.</p>
 </td>
@@ -695,9 +695,9 @@ Les améliorations de cette version sont présentées ci-dessous.
 
   Date de disponibilité : vendredi 26 mars 2026
 
-* **AJO Secondary Recipient Feedback Event Dataset rename** - The `AJO Email BCC Feedback Event` Dataset has been renamed to `AJO Secondary Recipient Feedback Event` Dataset. The impact varies depending on your situation:
+* **Renommage du jeu de données d’événement de retour du destinataire Secondaire AJO** - Le jeu de données `AJO Email BCC Feedback Event` a été renommé jeu de données `AJO Secondary Recipient Feedback Event`. L’impact varie en fonction de votre situation :
 
-   * **Existing users**: Only the display name is updated. The underlying table name remains unchanged.
+   * **Utilisateurs existants** : seul le nom d’affichage est mis à jour. Le nom de la table sous-jacente reste inchangé.
    * **Nouveaux utilisateurs et sandbox** : le nom d’affichage et le nom du tableau reflètent le nouveau nom.
    * **Utilisateurs existants avec de nouveaux sandbox** : le nom d’affichage et le nom du tableau sont mis à jour vers le nouveau nom.
 
@@ -724,7 +724,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Prise de décision
 
-* **Decisioning migration — offer and context attributes** - The Migration API entity mapping now lists **offer attributes** (`migratedofferattributes` on the Personalized offer item schema) and **context attributes** (`migratedcontextattributes` on the migration dataset schema). [En savoir plus](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
+* **Migration de prise de décision - Attributs d’offre et de contexte** - Le mappage d’entité de l’API de migration répertorie désormais **attributs d’offre** (`migratedofferattributes` sur le schéma d’élément d’offre personnalisée) et **attributs de contexte** (`migratedcontextattributes` sur le schéma du jeu de données de migration). [En savoir plus](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
 
   Date de disponibilité : mercredi 31 mars 2026
 
