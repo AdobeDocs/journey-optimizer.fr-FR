@@ -5,10 +5,10 @@ title: Utiliser l’activité Changement de dimension
 description: Découvrir comment utiliser l’activité « Changement de dimension »
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 63%
 
 ---
 
@@ -43,7 +43,11 @@ Pour configurer l’activité **[!UICONTROL Changement de dimension]**, procéde
 
    ![](../assets/orchestrated-change-dimension.png)
 
-1. Définissez la **[!UICONTROL Nouvelle dimension cible]**. Lors du changement de dimension, tous les enregistrements sont conservés.
+1. Définissez la **[!UICONTROL Nouvelle dimension cible]**. L’étape Modifier la dimension utilise une jointure externe : tous les enregistrements de la population d’entrée sont transmis, y compris ceux sans entrée correspondante dans la nouvelle dimension.
+
+   >[!IMPORTANT]
+   >
+   >Les enregistrements sans profil correspondant dans la nouvelle dimension de ciblage sont **exclus silencieusement au moment de la diffusion du message**. Cette exclusion n’est actuellement pas reflétée dans les journaux d’exclusion. Pour identifier rapidement les enregistrements non correspondants, utilisez l’option **Prévisualiser les résultats** sur la transition après l’étape Modifier la dimension et vérifiez que les nombres d’enregistrements correspondent à vos attentes avant de continuer.
 
 
 ## Exemple {#example}
@@ -52,6 +56,6 @@ Ce cas d’utilisation se concentre sur l’envoi d’un SMS aux profils qui on
 
 Commencez par une activité **[!UICONTROL Créer une audience]**, en utilisant la dimension de ciblage **[!UICONTROL Liste de souhaits]** pour identifier toutes les listes de souhaits pertinentes.
 
-Ajoutez ensuite une activité **[!UICONTROL Changement de dimension]** pour basculer la dimension de ciblage de **[!UICONTROL Liste de souhaits]** à **[!UICONTROL Destinataire].** Cette étape permet de s’assurer que la campagne orchestrée cible les bons profils associés à ces listes de souhaits, ce qui permet d’envoyer le SMS aux profils prévus.
+Ajoutez ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de **[!UICONTROL Liste de souhaits]** à **[!UICONTROL Destinataire].** Cette étape permet de s’assurer que la campagne orchestrée cible les profils corrects associés à ces listes de souhaits, ce qui permet d’envoyer le SMS aux profils prévus.
 
 ![](../assets/orchestrated-change-dimension-example.png)
