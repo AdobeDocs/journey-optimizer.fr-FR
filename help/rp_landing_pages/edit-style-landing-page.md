@@ -30,7 +30,7 @@ Découvrez comment ajuster les paramètres de style tels que le corps, la struct
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Personnaliser l’arrière-plan des e-mails
 
@@ -40,7 +40,7 @@ Découvrez comment définir les couleurs d’arrière-plan et les images à diff
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Ajuster l’alignement vertical et la marge intérieure
 

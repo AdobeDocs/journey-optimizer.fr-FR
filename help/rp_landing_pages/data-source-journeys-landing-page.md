@@ -30,7 +30,7 @@ Découvrez les sources de données, leurs types, les cas d’utilisation et les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration d’une source de données
 

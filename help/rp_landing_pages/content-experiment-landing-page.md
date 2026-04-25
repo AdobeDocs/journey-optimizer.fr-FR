@@ -30,7 +30,7 @@ Découvrez les principes de base des expériences de contenu, leur objectif et c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer et mettre à l’échelle les expériences de contenu
 
