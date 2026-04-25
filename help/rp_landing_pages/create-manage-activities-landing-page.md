@@ -45,7 +45,7 @@ Découvrez comment configurer des méthodes de classement pour les décisions, y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Simuler des décisions d’offre
 

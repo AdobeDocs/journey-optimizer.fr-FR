@@ -40,7 +40,7 @@ Maîtrisez la création, l’enregistrement et la gestion des règles conditionn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Créer du contenu dynamique dans Adobe Journey Optimizer
 

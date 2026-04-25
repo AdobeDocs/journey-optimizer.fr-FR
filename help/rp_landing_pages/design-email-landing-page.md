@@ -20,7 +20,7 @@ La conception du contenu de vos e-mails dans Adobe Journey Optimizer permet de
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec la conception des e-mails
 
@@ -50,7 +50,7 @@ Découvrez les outils et les bonnes pratiques pour utiliser des composants, des 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Modifier le style : personnaliser les conceptions d’e-mail
 

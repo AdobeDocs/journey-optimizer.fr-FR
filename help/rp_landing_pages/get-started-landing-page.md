@@ -24,7 +24,7 @@ Découvrez les principes de base d’Adobe Journey Optimizer et comment ceux-ci 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation de Journey Optimizer
 

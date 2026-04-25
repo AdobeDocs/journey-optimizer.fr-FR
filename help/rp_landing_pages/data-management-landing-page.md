@@ -30,7 +30,7 @@ Découvrez comment Adobe Journey Optimizer offre aux utilisateurs et utilisatr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Utiliser des schémas dans Adobe Journey Optimizer
 

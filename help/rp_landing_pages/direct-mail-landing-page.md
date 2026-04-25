@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, le courrier permet de contacter vos clientes et 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des campagnes par courrier
 
@@ -40,7 +40,7 @@ Guide détaillé sur la création de campagnes par courrier et la configuration 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Comment vérifier et envoyer une campagne par courrier
 
