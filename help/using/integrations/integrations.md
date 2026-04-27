@@ -10,7 +10,7 @@ level: Beginner
 keywords: Intégration
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 97%
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 Table des matières :
 
-* **[Utilisation des intégrations](external-sources.md)**
+* **[Utilisation des intégrations](integrations.md)**
 * [Prise en main de l’intégration des fournisseurs](vendor-integration-gs.md)
 * [Fournisseurs disponibles](vendor-integration.md)
 * [FAQ](vendor-integration-faq.md)
@@ -123,7 +123,7 @@ En tant que responsable marketing, vous pouvez utiliser des intégrations config
 
 1. Accédez au contenu de votre campagne et cliquez sur **[!UICONTROL Ajouter une personnalisation]** dans le champ **[!UICONTROL Composants]** Texte ou HTML.
 
-[En savoir plus sur les composants](../email/content-components.md)
+   [En savoir plus sur les composants](../email/content-components.md)
 
    ![](assets/external-integration-content-1.png)
 

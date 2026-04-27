@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: intégration, fournisseur, tiers
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Table des matières :
 
-* [Utiliser des intégrations](external-sources.md)
+* [Utiliser des intégrations](integrations.md)
 * **[Prise en main de l’intégration des fournisseurs](vendor-integration-gs.md)**
 * [Fournisseurs disponibles](vendor-integration.md)
 * [FAQ](vendor-integration-faq.md)
@@ -31,7 +31,7 @@ Table des matières :
 >[!ENDSHADEBOX]
 
 
-Vous pouvez utiliser **Integrations** dans Adobe Journey Optimizer pour appeler des **systèmes externes via HTTP** lorsque chaque système expose un point d’entrée **API** qui convient à votre cas d’utilisation et est compatible avec la manière dont Integrations émet des requêtes et consomme des réponses. Pour connaître le workflow complet, voir [Utilisation des intégrations](external-sources.md).
+Vous pouvez utiliser **Integrations** dans Adobe Journey Optimizer pour appeler des **systèmes externes via HTTP** lorsque chaque système expose un point d’entrée **API** qui convient à votre cas d’utilisation et est compatible avec la manière dont Integrations émet des requêtes et consomme des réponses. Pour connaître le workflow complet, voir [Utilisation des intégrations](integrations.md).
 
 La liste des solutions tierces décrites est fournie à titre d’illustration et n’est pas exhaustive. D&#39;autres plates-formes peuvent être utilisées lorsqu&#39;elles répondent aux exigences du produit.
 
@@ -41,7 +41,7 @@ Appliquez les règles suivantes lorsque vous configurez une intégration dans ce
 
 * **Format de réponse :** intégrations mappent les champs des réponses **JSON**. Appels de conception afin que l’API renvoie un JSON adapté au mappage au moment de la création.
 * **Payload et champs :** demandez et mappez uniquement les attributs dont vous avez besoin. Des réponses plus petites réduisent la latence et limitent l’exposition des données sensibles.
-* **Forme Point d’entrée :** préférez la récupération stable **à ressource unique** (par exemple une entrée, un produit ou un membre) à des points d’entrée de liste large ou de pagination lorsque le produit s’attend à des recherches ciblées. Voir [Limitations et exclusions](#limitations-exclusions) et [Utilisation des intégrations](external-sources.md).
+* **Forme Point d’entrée :** préférez la récupération stable **à ressource unique** (par exemple une entrée, un produit ou un membre) à des points d’entrée de liste large ou de pagination lorsque le produit s’attend à des recherches ciblées. Voir [Limitations et exclusions](#limitations-exclusions) et [Utilisation des intégrations](integrations.md).
 * **Volume et fiabilité :** respecter les **limites tarifaires** du fournisseur. Configurez la politique **délai d’expiration**, **reprise** et **cache** pour votre canal (par exemple, e-mail par lot par rapport aux envois transactionnels) et validez en cas de charge.
 * **Sécurité :** stockez et faites pivoter les jetons, les clés API et les informations d’identification OAuth en fonction des politiques de votre entreprise. N’incorporez pas de secrets dans le contenu des messages.
 
