@@ -428,7 +428,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [ API Akeneo ](https://api.akeneo.com/){target="_blank"}.
+Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [&#x200B; API Akeneo &#x200B;](https://api.akeneo.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
