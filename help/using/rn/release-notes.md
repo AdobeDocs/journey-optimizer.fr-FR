@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 16%
 
 ---
@@ -326,7 +326,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
 * **Score d’alignement de la marque dans le tableau de bord Campaign** - Vous pouvez désormais évaluer votre score d’alignement de la marque directement dans votre tableau de bord Campaign pour vous assurer que le contenu reste fidèle à la marque. Vous pouvez ainsi vérifier les directives en un coup d’œil sans avoir à ouvrir le concepteur de contenu.
 
-* **Amélioration de l’assistant d’invite** - Lorsqu’une invite est vague, incomplète ou mélange plusieurs objectifs, **l’assistant d’invite** peut désormais poser des questions précises pour clarifier ou suggérer une réécriture plus claire de votre demande avant la génération, ce qui vous aide à identifier ce dont vous avez besoin avant que l’assistant ne réponde, ce qui améliore la cohérence et réduit les reprises. [En savoir plus](../content-management/ai-assistant-prompting-guide.md)
+* **Amélioration de l’assistant d’invite** - L’assistant d’invite améliore la génération de contenu de l’IA en analysant les invites utilisateur en temps réel et en identifiant les lacunes de clarté, d’exhaustivité et de contexte. Il suggère des réécritures améliorées et fournit des conseils pratiques pour enrichir les invites avec des détails clés tels que l&#39;audience, le ton et l&#39;intention. La fonctionnalité pose également des questions ciblées pour clarifier les données afin d’aider les utilisateurs à affiner leurs entrées avant la génération. Vous obtenez ainsi des sorties plus précises et de haute qualité avec moins d’itérations. [En savoir plus](../content-management/ai-assistant-prompting-guide.md)
 
 #### Prise de décision
 
@@ -418,7 +418,7 @@ Les sections [Nouvelles fonctionnalités](#march-26-features) et [Améliorations
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Date de publication** : 24 et 25 mars 2026
@@ -608,7 +608,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Optimisé par <strong>Adobe Experience Platform Agent Orchestrator</strong> <strong>Journey Agent</strong> est disponible dans Journey Optimizer et vous permet d’analyser les parcours par le biais d’une interface en langage naturel. Vous pouvez désormais également générer et gérer du contenu spécifique à un canal directement dans Journey Agent, ce qui permet de créer du contenu pour des canaux tels que les e-mails et les notifications push, d’appliquer et de prévisualiser des modèles, d’affiner le ton et le style par le biais d’invites et d’ouvrir le contenu dans <strong>Content Designer</strong> pour une modification contextuelle.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=fr" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 4 mars 2026</p>
 </td>
 </tr>
