@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: intégration, fournisseur, tiers
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
 workflow-type: tm+mt
 source-wordcount: '9327'
 ht-degree: 7%
@@ -58,17 +58,17 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** avec l’API de diffusion de contenu et votre jeton de diffusion, collez l’exemple JSON, mappez les champs, testez, activez.
+
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’URL de l’API de diffusion de contenu (CDA) `https://cdn.contentful.com/spaces/{space_id}/environments/{environment_id}/entries/{entry_id}`
 
-1. Sélectionnez la méthode HTTP : GET.
+1. Sélectionnez la méthode HTTP : **GET**.
 
-1. Ajouter un en-tête d’authentification :
-
-   Autorisation : porteur &lt;CONTENTFUL_DELIVERY_TOKEN>
+1. Ajoutez une authentification. Définissez le paramètre **`access_token`** **requête** sur votre jeton API de diffusion de contenu, comme illustré dans **Exemples de champs d’intégration** ci-dessous. Contentful accepte également le même jeton dans un en-tête `Authorization: Bearer` ; utilisez la prise en charge de vos champs d’intégration quelle qu’elle soit.
 
 1. Ajoutez des variables de chemin d’accès si nécessaire (par exemple, ID d’entrée, paramètre régional).
 
@@ -88,7 +88,7 @@ Exemples de champs d’intégration (alignez-vous sur l’[API de diffusion de c
 
 | Champ | Valeur |
 | -- | -- |
-| **URL** | `https://cdn.contentful.com/spaces/{{spaceID}}/entries/environments/{{environment_id}}` |
+| **URL** | `https://cdn.contentful.com/spaces/{{spaceID}}/environments/{{environment_id}}/entries/{{entry_id}}` |
 | Payload de réponse | Sélectionnez et configurez les champs de réponse souhaités à utiliser lors de la création, en fonction de la réponse de l’API. |
 | Stratégie | Configurez les détails au niveau de la politique en fonction de vos besoins. |
 | **Méthode HTTP** | `GET` |
@@ -99,6 +99,7 @@ Exemples de champs d’intégration (alignez-vous sur l’[API de diffusion de c
 | --- | --- | --- |
 | `spaceID` | `spaceID` | `<YOUR_SPACE_ID>` |
 | `environment_id` | `environment_id` | `<YOUR_ENV_ID>` |
+| `entry_id` | `entry_id` | `<YOUR_ENTRY_ID>` |
 
 **En-têtes**
 
@@ -142,14 +143,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** sur votre chemin d’accès d’ordre de téléchargement, définissez les en-têtes d’autorisation par Sitecore, mappez les `id` à partir du contexte, collez l’exemple JSON, mappez les champs et ajustez les délais d’expiration pour la latence des ressources.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API Content Hub (exemple : télécharger l’ordre par ID). Exemple de modèle d’URL :
 
-1. `https://xmapps-api.sitecorecloud.io/api/v1/downloadorders/{id}`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://xmapps-api.sitecorecloud.io/api/v1/downloadorders/{id}`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -226,14 +228,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Préférez la récupération d’un seul produit aux appels de catalogue en bloc, définissez l’authentification du porteur, collez l’exemple JSON, mappez les champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API du produit Salsify. Exemple de modèle d’URL :
 
-1. `https://api.salsify.com/v1/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://api.salsify.com/v1/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -311,14 +314,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Ajoutez des en-têtes `api_key` et `access_token` comme Contentstack l’exige, incluez le paramètre de requête `environment`, collez un exemple de code JSON, mappez des champs, testez et activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API de diffusion de contenu. Exemple de modèle d’URL :
 
-1. `https://cdn.contentstack.io/v3/content_types/{content_type_uid}/entries/{entry_uid}`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://cdn.contentstack.io/v3/content_types/{content_type_uid}/entries/{entry_uid}`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -398,14 +402,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** avec un jeton porteur, demandez uniquement les options d’attribut nécessaires dans les indicateurs de requête, collez l’exemple JSON, mappez un jeu d’attributs minimal, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API REST Akeneo. Exemple de modèle d’URL :
 
-1. `https://{pim-host}/api/rest/v1/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://{pim-host}/api/rest/v1/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -423,7 +428,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [&#x200B; API Akeneo &#x200B;](https://api.akeneo.com/){target="_blank"}.
+Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [ API Akeneo ](https://api.akeneo.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
@@ -488,14 +493,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Utilisez le modèle d’URL de diffusion publique que vos modules exposent, authentifiez selon les conseils de Magnolia (diffusion anonyme par rapport au jeton pour le contenu protégé), collez un exemple de JSON, mappez des champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide du REST Magnolia (diffusion). Exemple de modèle d’URL :
 
-1. `https://{author-or-public}/.rest/delivery/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://{author-or-public}/.rest/delivery/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -535,7 +541,7 @@ Exemple de modèle : URL de type tour de diffusion `https://{domain}/magnoliaAut
 | --- | --- | --- | --- |
 | Clé API | Autorisation | `<bearer_token>` | Header |
 
-Remarque : l’API de diffusion doit utiliser le rôle rest-anonyme pour le contenu qui ne nécessite pas de connexion. Pour un accès sécurisé aux données protégées, une méthode plus robuste telle que les jetons API ou OAuth 2.0 est préférable
+Remarque : l’API de diffusion doit utiliser le rôle rest-anonyme pour le contenu qui ne nécessite pas de connexion. Pour un accès sécurisé aux données protégées, une méthode plus robuste telle que les jetons API ou OAuth 2.0 est préférable.
 
 +++
 
@@ -570,15 +576,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Définissez l’URL de base de votre cluster, ajoutez les en-têtes requis (`X-APP-ID`, `X-APP-TOKEN`), limitez les points d’entrée de liste avec des filtres ou des identifiants, collez un exemple de JSON, mappez des champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
-1. Configurez le point d’entrée à l’aide des API REST/Loyalty. Exemple de modèle d’URL :
+1. Configurez le point d’entrée à l’aide des API REST/Loyalty. Par [Voucherify](https://docs.voucherify.io/){target="_blank"}, définissez l’hôte **cluster** et les chemins d’accès pour votre région. Exemple de modèle d’URL :
 
-1. Par clé de vérification URL de base OpenAPI pour votre région
+   `https://{cluster}.voucherify.io/`
 
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -669,14 +675,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** sur le profil ou le chemin d’accès dont vous avez besoin, définissez les `Authorization: ApiKey-v1 <key>` comme documenté, collez l’exemple JSON, mappez des champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API d’intégration Talon.One. Exemple de modèle d’URL :
 
-1. `https://{your-domain}.talon.one/v1/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://{your-domain}.talon.one/v1/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -759,15 +766,13 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** avec l’authentification du fournisseur (par exemple, la clé API dans la requête), évitez d’exposer les informations d’identification personnelles dans la politique, collez l’exemple JSON, mappez les champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
-1. Configurez le point d’entrée à l’aide de l’API Antavo Enterprise. Exemple de modèle d’URL :
+1. Configurez le point d’entrée à l’aide de l’API Antavo Enterprise.
 
-1. Par URL de base de pile Antavo documentée dans votre client
-
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -843,14 +848,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Utilisez le point d’entrée d’intégration de fidélité approuvé par votre équipe, exécutez Salesforce OAuth, collez l’exemple JSON, mappez des champs, respectez les limites d’API composites, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide du REST Salesforce Loyalty Management. Exemple de modèle d’URL :
 
-1. `https://{instance}.salesforce.com/services/data/vXX.X/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://{instance}.salesforce.com/services/data/vXX.X/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -936,15 +942,13 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Configurez des en-têtes tels que `CAP-API-ACCESS-TOKEN` selon les besoins, collez l’exemple JSON, mappez des champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
-1. Configurez le point d’entrée à l’aide des API Capillary. Exemple de modèle d’URL :
+1. Configurez le point d’entrée à l’aide des API Capillary.
 
-1. Guide d’intégration par capillaire pour votre région
-
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1022,15 +1026,17 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration.
 
-1. Configurez le point d’entrée en utilisant l’URL de l’API des modèles Stensul (exemple de modèle) : `https://api.stensul.com/v1/templates/{template_id}`
+1. Configurez le point d’entrée à l’aide de l’URL de l’API Modèles Stensul . Exemple de modèle d’URL :
+
+   `https://api.stensul.com/v1/templates/{template_id}`
 
 1. Configurez l’authentification (clé API ou documentation OAuth par API Stensul).
 
-1. Définissez les variables de chemin d’accès (par exemple, l’identifiant du modèle).
+1. Définir des variables de chemin d’accès , par exemple un identifiant de modèle.
 
 1. Collez un exemple de réponse JSON pour la détection de champ.
 
@@ -1066,15 +1072,13 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Pointez sur l’hôte Marigold pour votre région, définissez l’authentification (l’exemple ci-dessous utilise `X-Api-Key` avec la clé et le secret), collez l’exemple JSON, mappez des champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
-1. Configurez le point d’entrée à l’aide de l’API REST Marigold (point d’entrée selon votre guide d’intégration). Exemple de modèle d’URL :
+1. Configurez le point d’entrée à l’aide de l’API REST Marigold.
 
-1. Utilisez l’URL de base et le chemin d’accès fournis dans la documentation de votre API Marigold
-
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1090,8 +1094,8 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Marigold utilise 2 points d’entrée en fonction de la zone géographique pour laquelle l’instance client est active :
 
-1. Europe : https://{{customername}}.module.slgnt.eu
-États-Unis : https://{{customername}}.module.slgnt.us
+   * Europe : `https://{{customername}}.module.slgnt.eu`
+   * USA : `https://{{customername}}.module.slgnt.us`
 
 Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d’intégration.
 
@@ -1155,17 +1159,15 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Les appels de diffusion sont souvent **POST** avec un corps JSON. Configurez OAuth par [authentification de la cible](https://experienceleague.adobe.com/fr/docs/target-dev/developer/api/configure-authentication){target="_blank"}, collez un exemple de réponse, mappez des champs, testez sous le volume attendu.
+1. Suivez [Utilisation des intégrations](integrations.md). Les appels de diffusion sont souvent **POST** avec un corps JSON. Configurez OAuth par [authentification de la cible](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, collez un exemple de réponse, mappez des champs, testez sous le volume attendu.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
-1. Configurez le point d’entrée à l’aide des API Target Recommendations/delivery (en fonction de la documentation Adobe pour votre modèle d’intégration). Exemple de modèle d’URL :
+1. Configurez le point d’entrée à l’aide des API Target Recommendations/delivery.
 
-1. Consultez la documentation de l’API Recommendations Adobe Target pour votre cas d’utilisation
-
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1210,7 +1212,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 **Authentification**
 
-Reportez-vous à [Configuration de l’authentification Target](https://experienceleague.adobe.com/fr/docs/target-dev/developer/api/configure-authentication) et ajoutez JSON à la payload.
+Reportez-vous à [Configuration de l’authentification Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) et ajoutez JSON à la payload.
 
 **Payload de requête**
 
@@ -1298,16 +1300,17 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** à moins que votre abonnement n’en exige un autre, joignez le paramètre de requête `apiKey` (ou comme documenté), mappez les `locationKey` et d’autres variables de profile/context, collez l’exemple JSON, mappez des champs, puis testez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** à moins que votre abonnement n’en exige autrement, joignez le paramètre de requête `apiKey`, mappez les `locationKey` et d’autres variables de profile/context, collez l’exemple JSON, mappez des champs, puis testez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API Daily Forecasts. Exemple de modèle d’URL :
 
-1. `https://dataservice.accuweather.com/forecasts/v1/daily/{days}day/{locationKey}`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://dataservice.accuweather.com/forecasts/v1/daily/{days}day/{locationKey}`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1392,14 +1395,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Ciblez la ressource dont vous avez besoin (commandes ou expéditions), authentifiez-la par [API ShipStation](https://www.shipstation.com/docs/api/){target="_blank"}, collez l’exemple JSON, mappez des champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API REST ShipStation. Exemple de modèle d’URL :
 
-1. `https://ssapi.shipstation.com/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://ssapi.shipstation.com/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1482,14 +1486,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Appelez le REST **GET** modélisé ci-dessous, authentifiez-vous avec l’en-tête de clé secrète, collez l’exemple JSON, mappez les champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API REST RevenueCat. Exemple de modèle d’URL :
 
-1. `https://api.revenuecat.com/v1/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://api.revenuecat.com/v1/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1568,14 +1573,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Préférez les chemins de lecture étroits. Si vous utilisez l’exécution d’instruction **POST**, incluez le corps JSON dont l’API a besoin, collez un exemple de réponse de réussite pour le mappage, testez soigneusement la latence, puis activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API d’exécution d’instruction SQL Databricks. Exemple de modèle d’URL :
 
-1. `https://{workspace-host}/api/2.0/sql/statements/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://{workspace-host}/api/2.0/sql/statements/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1601,7 +1607,7 @@ L’exemple de tâche **GET** ci-dessous est fourni à titre d’illustration. P
 | **Méthode HTTP** | `GET` |
 | Payload de réponse | Sélectionnez et configurez les champs de réponse souhaités à utiliser lors de la création, en fonction de la réponse de l’API. |
 | Stratégie | Configurez les détails au niveau de la politique en fonction de vos besoins. |
-| Authentification | Oauth |
+| Authentification | OAuth |
 
 **En-têtes**
 
@@ -1647,14 +1653,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** sur le point d’entrée choisi (l’un des schémas courants est la liste des utilisateurs), exécutez OAuth par [Bynder](https://developer.bynder.com/){target="_blank"}, évitez d’extraire des pages de données inutiles, mappez des champs, testez, puis activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
-1. Configurez le point d’entrée à l’aide de l’API Bynder v4 (exemple : modèle de liste des utilisateurs). Exemple de modèle d’URL :
+1. Configurez le point d’entrée à l’aide de l’API Bynder v4. Exemple de modèle d’URL :
 
-1. `https://{your-bynder-domain}/api/v4/users/`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://{your-bynder-domain}/api/v4/users/`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1797,14 +1804,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** avec l’authentification de requête requise, mappez les identifiants du profil ou du contexte, collez l’exemple JSON, mappez les champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide des API Trustpilot. Exemple de modèle d’URL :
 
-1. `https://api.trustpilot.com/v1/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://api.trustpilot.com/v1/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1881,14 +1889,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** avec `passkey` comme paramètre de requête sur l’API Conversations, définissez `Accept: application/json`, collez l’exemple JSON, mappez des champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API Bazaarvoice Conversations. Exemple de modèle d’URL :
 
-1. `https://api.bazaarvoice.com/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://api.bazaarvoice.com/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1965,15 +1974,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Utilisez le schéma publié ou le chemin d’accès au centre de préférences de vos documents d’abonnement, renseignez OAuth si nécessaire, collez un exemple de code JSON, mappez des champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
-1. Configurez le point d’entrée à l’aide de l’API OneTrust. Exemple de modèle d’URL :
+1. Configurez le point d’entrée à l’aide de l’API OneTrust. Votre client, votre produit et votre chemin d’accès proviennent de la documentation [OneTrust](https://developer.onetrust.com/){target="_blank"} de votre abonnement. Exemple de modèle d’URL :
 
-1. Par URL de base du portail de développement OneTrust
+   `https://{tenant}.my.onetrust.com/api/...`
 
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -1997,7 +2006,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 | **Méthode HTTP** | `GET` |
 | **Politique** | Configurez les détails au niveau de la politique en fonction de vos besoins. |
 | **Payload de réponse** | Sélectionnez et configurez les champs de réponse souhaités à utiliser lors de la création, en fonction de la réponse de l’API. |
-| **Authentification** | Oauth |
+| **Authentification** | OAuth |
 
 **Paramètres de chemin**
 
@@ -2051,14 +2060,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Les appels graphiques sont souvent des **GET** avec un chemin versionné ; gérez l’expiration du jeton, collez l’exemple JSON, mappez des champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
 1. Configurez le point d’entrée à l’aide de l’API Meta Graph. Exemple de modèle d’URL :
 
-1. `https://graph.facebook.com/vXX.X/...`
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+   `https://graph.facebook.com/vXX.X/...`
+
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -2084,7 +2094,7 @@ Exemples de champs d’intégration. Voir [API Graph](https://developers.faceboo
 | **Méthode HTTP** | `GET` |
 | Payload de réponse | Sélectionnez et configurez les champs de réponse souhaités à utiliser lors de la création, en fonction de la réponse de l’API. |
 | Stratégie | Configurez les détails au niveau de la politique en fonction de vos besoins. |
-| Authentification | Oauth |
+| Authentification | OAuth |
 
 **Paramètres de chemin**
 
@@ -2136,15 +2146,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** sur le chemin d’enregistrement dont vous avez besoin, envoyez les en-têtes requis tels que `API-VERSION`, collez l’exemple JSON (HAL ou JSON tel que renvoyé), mappez un ensemble de champs minimal, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
-1. Configurez le point d’entrée à l’aide de l’API Enregistrements / DAM Aprimo. Exemple de modèle d’URL :
+1. Configurez le point d’entrée à l’aide de l’API Enregistrements / DAM Aprimo. Utilisez l’URL de base de l’API et le chemin d’accès aux enregistrements pour votre **client** (selon Aprimo). Exemple de modèle d’URL :
 
-1. Par URL de base d’API Aprimo et chemin d’accès aux ressources pour votre client
+   `https://{tenant}.dam.aprimo.com/`
 
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
@@ -2218,15 +2228,15 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Suivez [Utilisation des intégrations](integrations.md). Ne devinez pas les URL publiques. Utilisez la spécification Epsilon, collez l’exemple JSON, mappez les champs, testez, activez.
 
-1. Dans Journey Optimizer, accédez à Configurations > Gérer, puis sélectionnez Créer une intégration.
+1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
 1. Saisissez un nom d’intégration sans espaces.
 
-1. Configurez le point d’entrée à l’aide de l’API Epsilon (conformément à votre spécification d’intégration). Exemple de modèle d’URL :
+1. Configurez le point d’entrée à l’aide de l’API Epsilon (conformément à votre spécification d’intégration). L’URL de base et les chemins d’accès aux ressources sont fournis par l’équipe de votre compte Epsilon. Exemple de modèle d’URL :
 
-1. Fourni par Epsilon pour votre programme
+   `https://{your-instance}.epsilon3.io/api/...`
 
-1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration (généralement GET, sauf indication contraire).
+1. Sélectionnez la méthode HTTP affichée dans le tableau de configuration, généralement GET, sauf indication contraire.
 
 1. Configurez l’authentification (en-têtes, paramètres de requête ou OAuth) exactement comme spécifié dans le tableau et dans la documentation du fournisseur.
 
