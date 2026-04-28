@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 hide: true
 keywords: intégration, fournisseur, tiers
-source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '9327'
+source-wordcount: '9348'
 ht-degree: 7%
 
 ---
 
-# Fournisseurs disponibles
+# Exemples de configurations de fournisseur {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -24,8 +24,14 @@ Table des matières :
 
 * [Utiliser des intégrations](integrations.md)
 * [Prise en main de l’intégration des fournisseurs](vendor-integration-gs.md)
-* **[Fournisseurs disponibles](vendor-integration.md)**
+* **[Exemples de configurations de fournisseur](vendor-integration.md)**
 * [FAQ](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Les clients et les fournisseurs tiers sont chargés de sécuriser les points d’entrée d’API, en fonction de leurs exigences de sécurité et de conformité.
 
 >[!ENDSHADEBOX]
 
@@ -428,7 +434,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [&#x200B; API Akeneo &#x200B;](https://api.akeneo.com/){target="_blank"}.
+Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [ API Akeneo ](https://api.akeneo.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
@@ -1159,7 +1165,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Les appels de diffusion sont souvent **POST** avec un corps JSON. Configurez OAuth par [authentification de la cible](https://experienceleague.adobe.com/fr/docs/target-dev/developer/api/configure-authentication){target="_blank"}, collez un exemple de réponse, mappez des champs, testez sous le volume attendu.
+1. Suivez [Utilisation des intégrations](integrations.md). Les appels de diffusion sont souvent **POST** avec un corps JSON. Configurez OAuth par [authentification de la cible](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, collez un exemple de réponse, mappez des champs, testez sous le volume attendu.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1212,7 +1218,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 **Authentification**
 
-Reportez-vous à [Configuration de l’authentification Target](https://experienceleague.adobe.com/fr/docs/target-dev/developer/api/configure-authentication) et ajoutez JSON à la payload.
+Reportez-vous à [Configuration de l’authentification Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) et ajoutez JSON à la payload.
 
 **Payload de requête**
 
