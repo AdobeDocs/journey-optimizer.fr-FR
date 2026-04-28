@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 90%
+source-wordcount: '361'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Ajoutez le groupe de champs **Événement d’expérience - Interaction de propo
 
 * **SDK web ou mobile Adobe Experience Platform**
 
-  Concernant les applications web et mobiles, pour ajouter des modifications à vos pages web ou à vos applications mobiles, vous devez mettre en œuvre le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-web-sdk/overview){target="_blank"} sur votre site web ou le [SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/home/){target="_blank"} sur vos applications mobiles.
+  Concernant les applications web et mobiles, pour ajouter des modifications à vos pages web ou à vos applications mobiles, vous devez mettre en œuvre le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-web-sdk/overview){target="_blank"} sur votre site web ou le [SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/home){target="_blank"} sur vos applications mobiles.
 
 * **Journey Optimizer**
 
@@ -50,4 +50,4 @@ Ajoutez le groupe de champs **Événement d’expérience - Interaction de propo
 
 >[!CAUTION]
 >
->Lorsque vous ciblez des profils pseudonymes (visiteurs non authentifiés) avec vos cartes de contenu, pensez à définir une durée de vie (TTL) pour la suppression automatique des profils afin de gérer le nombre de profils engageables et les coûts associés. [En savoir plus](../start/guardrails.md#profile-management-inbound)
+>Lors du ciblage de profils pseudonymes (personnes non authentifiées) avec vos cartes de contenu, pensez à définir une durée de vie (TTL) pour la suppression automatique des profils afin de maîtriser le nombre de profils engageables et les coûts associés. [En savoir plus](../start/guardrails.md#profile-management-inbound)

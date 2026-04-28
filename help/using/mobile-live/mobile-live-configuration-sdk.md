@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration du canal des activités dynamiques
+title: Configure the Live activities channel
 description: Découvrez comment configurer votre intégration au SDK mobile Adobe Experience Platform.
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 70%
+source-wordcount: '546'
+ht-degree: 65%
 
 ---
 
-# Intégration d’une activité en direct à Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
+# Live activity integration with Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
 Le SDK mobile d’Adobe Experience Platform offre une prise en charge intégrée des activités en direct d’Apple. Cela permet à votre application d’afficher des mises à jour dynamiques en temps réel directement sur l’écran de verrouillage et Dynamic Island sans ouvrir l’application.
@@ -27,7 +27,7 @@ Le SDK mobile d’Adobe Experience Platform offre une prise en charge intégrée
 
    Respectez les `LiveActivityAttributes`, incluez des `LiveActivityData` et des attributs `ContentState`.
 
-1. [Enregistrer l’activité dynamique](#register)
+1. [Register Live activity](#register)
 
    Utilisez `Messaging.registerLiveActivity()` après l’initialisation du SDK.
 
@@ -37,7 +37,7 @@ Le SDK mobile d’Adobe Experience Platform offre une prise en charge intégrée
 
 1. [Démarrer une activité en direct localement (facultatif)](#local)
 
-   L’activité active peut être lancée à distance via Journey Optimizer ou localement dans le code de l’application.
+   Live activity can be initiated either remotely through Journey Optimizer or locally within the application code.
 
 1. [Ajouter la prise en charge du débogage (facultatif)](#debug)
 
@@ -56,7 +56,7 @@ Vérifiez que les versions minimales suivantes sont installées pour garantir un
 * **Xcode :** 14.0 ou version ultérieure
 * **Swift :** 5.7 une version ultérieure
 * **Dépendances :** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
-* **AEP Mobile SDK version** : iOS Messaging 5.11.0 ou ultérieure
+* **AEP Mobile SDK version**: iOS Messaging 5.11.0 or later
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ import AEPMessagingLiveActivity
 import ActivityKit
 ```
 
-## Étape 2 : définir les attributs de votre activité active {#attributes}
+## Step 2: define your live activity attributes {#attributes}
 
 Créez une structure conforme au protocole `LiveActivityAttributes`. Cela définit à la fois les données statiques et l’état du contenu dynamique pour votre activité en direct.
 
@@ -84,7 +84,7 @@ Les principaux composants sont les suivants :
 
 * **`ContentState`** qui définit les données dynamiques qui peuvent être mises à jour pendant le cycle de vie de l’activité en direct. Il doit être conforme à `Codable` et `Hashable`.
 
-* L’énumération `LiveActivityOrigin` spécifie si une activité a été lancée localement dans l’application ou à distance par le biais d’un démarrage par notification push, pris en charge dans iOS 17.2 et les versions ultérieures. Cette valeur permet au SDK de faire la distinction entre l’activité active déclenchée localement et l’activité active déclenchée à distance pendant la collecte de données.
+* L’énumération `LiveActivityOrigin` spécifie si une activité a été lancée localement dans l’application ou à distance par le biais d’un démarrage par notification push, pris en charge dans iOS 17.2 et les versions ultérieures. This value allows the SDK to differentiate between locally initiated and remotely triggered Live activity during data collection.
 
 **Exemples**
 
@@ -132,7 +132,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Étape 3 : enregistrement de l’activité active {#register}
+## Step 3: register live activity {#register}
 
 Enregistrez vos types d’activités en direct dans votre `AppDelegate` après l’initialisation du SDK. Vous pouvez ainsi :
 
@@ -148,9 +148,9 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Étape 4 : créer des widgets d’activité en direct {#widgets}
+## Step 4: create live activity widgets {#widgets}
 
-Une activité En direct s’affiche par le biais de widgets. Vous devez créer un lot de widgets et une configuration :
+A Live activity is displayed through widgets. You need to create a widget bundle and configuration:
 
 **Exemple pour une activité en direct de livraison de repas :**
 
@@ -187,7 +187,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## Étape 5 : démarrer une activité active localement (facultatif) {#local}
+## Step 5: start a live activity locally (optional) {#local}
 
 Bien que Journey Optimizer puisse démarrer des activités en direct à distance, vous pouvez également les démarrer localement :
 
@@ -233,13 +233,13 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 ## Ressources supplémentaires
 
-Pour une documentation SDK complète et des détails de mise en œuvre :
+For comprehensive SDK documentation and implementation details:
 
-* [Guide du développeur des activités en direct](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
-* [Référence d’API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [Tutoriel sur l’activité en direct](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [Classes publiques](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+* [Live activities Developer Guide](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [Référence d’API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference)
+* [Live activity Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial)
+* [Public Classes](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes)
 
 >[!TIP]
 >
->Si vous rencontrez des problèmes avec l’enregistrement des jetons, l’alignement de la payload ou la diffusion d’activités dynamiques, consultez [Dépannage des activités dynamiques](troubleshoot-mobile-live.md) pour obtenir des conseils détaillés sur le débogage.
+>If you are experiencing issues with token registration, payload alignment, or Live activity delivery, see [Troubleshoot Live activities](troubleshoot-mobile-live.md) for detailed debugging guidance.

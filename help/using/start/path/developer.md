@@ -5,10 +5,10 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 93%
+source-wordcount: '2079'
+ht-degree: 90%
 
 ---
 
@@ -48,7 +48,7 @@ Avant d’aborder plus en détail l’implémentation, familiarisez-vous avec le
 
 1. **Modèles de données XDM** : Journey Optimizer utilise le modèle de données d’expérience (XDM) pour structurer les données d’événement et de profil. En tant que développeur ou développeuse, vous devez comprendre comment envoyer des données conformes aux schémas configurés par votre [ingénieur ou ingénieure de données](data-engineer.md). Découvrez les [schémas XDM](../../data/get-started-schemas.md).
 
-1. **Authentification et sécurité** : toutes les implémentations nécessitent une authentification appropriée. Découvrez comment configurer l’authentification pour les SDK et les API. En savoir plus sur l’[authentification des API](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+1. **Authentification et sécurité** : toutes les implémentations nécessitent une authentification appropriée. Découvrez comment configurer l’authentification pour les SDK et les API. En savoir plus sur l’[authentification des API](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ## Configurer les intégrations aux applications mobiles {#mobile-integration}
 
@@ -56,9 +56,9 @@ Avant d’aborder plus en détail l’implémentation, familiarisez-vous avec le
 
 Pour activer les notifications push, les messages in-app et d’autres fonctionnalités mobiles, intégrez le SDK mobile Adobe Experience Platform à vos applications mobiles.
 
-1. **Installer et configurer le SDK mobile** : consultez la [documentation du SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} pour commencer à intégrer le SDK.
+1. **Installer et configurer le SDK mobile** : consultez la [documentation du SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"} pour commencer à intégrer le SDK.
 
-1. **Créer une propriété mobile** : configurez une propriété mobile dans [!DNL Adobe Experience Platform Data Collection]. Découvrez comment [créer et configurer une propriété mobile](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+1. **Créer une propriété mobile** : configurez une propriété mobile dans [!DNL Adobe Experience Platform Data Collection]. Découvrez comment [créer et configurer une propriété mobile](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property){target="_blank"}.
 
 1. **Configurer les notifications push** :
    * Pour les **applications iOS** : enregistrez votre application auprès de l’APNs (service de notification push Apple). En savoir plus dans la [documentation Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}.
@@ -72,7 +72,7 @@ Les étapes détaillées pour configurer les notifications push sont disponibles
 
 Pour la personnalisation d’applications mobiles natives à l’aide d’expériences basées sur du code :
 
-* Suivez [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} pour l’implémentation du SDK mobile.
+* Suivez [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} pour l’implémentation du SDK mobile.
 * Examinez les exemples d’implémentation pour [iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} et [Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
 ## Implémenter les expériences Web {#web-implementation}
@@ -163,7 +163,7 @@ Les actions personnalisées permettent aux parcours d’appeler vos API. En tant
 
 1. **Comprendre les fonctionnalités des actions personnalisées** : les actions personnalisées peuvent se connecter à des systèmes tiers tels qu’Epsilon, Slack, Firebase, ou à vos propres services. En savoir plus sur les [actions personnalisées](../../action/action.md).
 
-1. **Utiliser les configurations d’actions** : votre [administrateur ou administratrice](administrator.md) ou votre [ingénieur ou ingénieure de données](data-engineer.md) configure l’action personnalisée dans Journey Optimizer en définissant l’URL du point d’entrée d’API, la méthode d’authentification et les paramètres. Vous devez leur fournir les spécifications de votre API. En savoir plus sur la [configuration d’une action personnalisée](../../action/about-custom-action-configuration.md). Vous pouvez définir une **payload de réponse d’erreur** facultative pour une logique de secours plus riche dans les branches Temporisation/Erreur.
+1. **Utiliser les configurations d’actions** : votre [administrateur ou administratrice](administrator.md) ou votre [ingénieur ou ingénieure de données](data-engineer.md) configure l’action personnalisée dans Journey Optimizer en définissant l’URL du point d’entrée d’API, la méthode d’authentification et les paramètres. Vous devez leur fournir les spécifications de votre API. Découvrez la [configuration des actions personnalisées](../../action/about-custom-action-configuration.md). Vous pouvez définir une **payload de réponse d’erreur** facultative pour une logique de secours plus riche dans les branches Temporisation/Erreur.
 
 1. **Renvoyer des données activables** : concevez votre API afin qu’elle renvoie des données pouvant être utilisées dans les étapes de parcours postérieures. Découvrez les [réponses aux actions](../../action/action-response.md).
 
@@ -179,9 +179,9 @@ Journey Optimizer fournit des API REST complètes pour un accès par programmati
 
 1. **Comprendre les fonctionnalités des API** : les API Journey Optimizer vous permettent de créer, lire, mettre à jour et supprimer diverses ressources par programmation. Découvrez les [API Adobe Journey Optimizer](../../configuration/ajo-apis.md).
 
-1. **Authentification** : suivez [ce tutoriel](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} pour configurer l’authentification des API à l’aide d’Adobe Developer Console.
+1. **Authentification** : suivez [ce tutoriel](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"} pour configurer l’authentification des API à l’aide d’Adobe Developer Console.
 
-1. **Explorer les références d’API** : parcourez la documentation complète des API et essayez les API directement dans la [référence des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+1. **Explorer les références d’API** : parcourez la documentation complète des API et essayez les API directement dans la [référence des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
 1. **Campagnes déclenchées par API** : créez des messages transactionnels avec des campagnes déclenchées par API. Pour les scénarios à volume élevé (jusqu’à 5 000 TPS), explorez le [mode à débit élevé](../../campaigns/api-triggered-high-throughput.md) (nécessite une licence de module complémentaire).
 
@@ -279,9 +279,9 @@ Collaborez avec les [responsables marketing](marketer.md) sur les exigences et l
 
 Vous souhaitez commencer à créer ? Sélectionnez votre premier domaine d’implémentation dans les sections ci-dessus :
 
-1. **Application mobile ?** Commencez par l’[Intégration du SDK mobile](#mobile-integration).
-2. **Site web ?** Commencez par la [Configuration du SDK Web](#web-implementation).
-3. **Intégration d’API ?** Passez directement à [Utiliser des API](#apis).
-4. **Système personnalisé ?** Consultez les [Actions personnalisées](#custom-actions).
+1. **Application mobile ?** Prise en main de [intégration de Mobile SDK](#mobile-integration)
+2. **Site web?** Commencez par [configuration de Web SDK](#web-implementation)
+3. **Intégration d’API ?** Accédez à [ Utilisation des API ](#apis)
+4. **Système personnalisé ?** Extraire [Actions personnalisées](#custom-actions)
 
 Chaque section comprend des liens vers une documentation technique détaillée, des exemples de code et des tutoriels pour vous guider dans votre implémentation.

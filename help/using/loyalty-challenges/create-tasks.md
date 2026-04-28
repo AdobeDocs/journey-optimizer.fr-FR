@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '815'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 * [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md)
 * [Créer des défis](create-challenges.md)
 * **Créer des tâches** ◀︎ **Vous êtes ici**
-* [Référence de l’API Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [Référence de l’API pour les défis de fidélité](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -59,52 +59,52 @@ Sélectionnez l’onglet **[!UICONTROL Tâches]** et sélectionnez **[!UICONTROL
 
 >[!TAB À partir d’un défi]
 
-Ouvrir un défi existant ou en créer un nouveau. Sélectionnez **[!UICONTROL Ajouter une tâche]** et cliquez sur le bouton **[!UICONTROL Nouveau]**. Les tâches créées de cette manière sont automatiquement ajoutées à votre défi et sont également enregistrées dans l’inventaire des tâches pour être réutilisées dans d’autres défis.
+Ouvrir un défi existant ou en créer un nouveau. Sélectionnez **[!UICONTROL Ajouter une tâche]** et cliquez sur le bouton **[!UICONTROL Nouveau]**. Tasks created this way are automatically added to your challenge and also saved to the Tasks inventory for reuse in other challenges.
 
 ![](assets/task-create-challenge.png)
 
 >[!ENDTABS]
 
-## Choisir l’activité du client {#choose-activity}
+## Choose customer activity {#choose-activity}
 
-Sélectionnez le type d’activité que les clients doivent effectuer pour terminer cette tâche :
+Select the type of activity that customers must perform to complete this task:
 
-* **[!UICONTROL Achat]** : les clients doivent acheter un ou plusieurs articles pour terminer cette tâche
-* **[!UICONTROL Dépenses]** : les clients doivent dépenser un montant spécifié pour terminer cette tâche
+* **[!UICONTROL Purchase]**: Customers must purchase one or more items to complete this task
+* **[!UICONTROL Spend]**: Customers must spend a specified amount to complete this task
 
-Pour sélectionner une activité, cliquez sur l’icône **+** et sélectionnez l’activité du client qui correspond le mieux à vos objectifs de résultat. Chaque type d’activité possède des attributs configurables spécifiques pour définir et définir plus en détail les exigences des tâches.
+To select an activity, click the **+** icon and select the customer activity that best aligns with your outcome goals. Each activity type has specific configurable attributes to further define and shape the task requirements.
 ![](assets/task-create-activity.png)
 
-## Définir les attributs de la tâche {#define-attributes}
+## Define the task attributes {#define-attributes}
 
-Configurez les attributs de la tâche en fonction du type d’activité sélectionné. Parcourez les onglets ci-dessous pour afficher les attributs disponibles pour chaque type d’activité :
+Configure the task attributes based on the selected activity type. Browse the tabs below to see available attributes for each activity type:
 
 >[!BEGINTABS]
 
->[!TAB Activité d’achat]
+>[!TAB Purchase activity]
 
-Attributs disponibles pour les activités **Achat** :
+Available attributes for **Purchase** activities:
 
-* **[!UICONTROL Quantité]** : saisissez le nombre d’articles qui doivent être achetés pour terminer cette tâche.
-* **[!UICONTROL Éléments et exclusions éligibles]** : définissez les éléments ou les groupes d’éléments qui sont pris en compte pour l’achèvement de la tâche, et ceux qui ne le sont pas. [En savoir plus sur les éléments et exclusions éligibles](#eligible-items-exclusions)
-* **[!UICONTROL Montant minimum de la valeur de dépense]** : définissez une exigence de montant minimum d’achat.
-* **[!UICONTROL Nombre maximum de transactions]** : limitez le nombre de transactions pouvant être utilisées pour terminer la tâche.
+* **[!UICONTROL Quantity]**: Enter the number of items that must be purchased to complete this task.
+* **[!UICONTROL Eligible items &amp; exclusions]**: Define items or item groups that count toward task completion and those that don&#39;t. [Learn more on eligible items and exclusions](#eligible-items-exclusions)
+* **[!UICONTROL Minimum spend value amount]**: Set a minimum purchase amount requirement.
+* **[!UICONTROL Maximum number of transactions]**: Limit how many transactions can be used to complete the task.
 
 ![](assets/task-create-purchase.png)
 
->[!TAB Activité de dépense]
+>[!TAB Spend activity]
 
-Attributs disponibles pour les activités **Dépenses** :
+Available attributes for **Spend** activities:
 
-* **[!UICONTROL Montant]** : saisissez le montant total des dépenses requises pour terminer la tâche.
-* **[!UICONTROL Éléments et exclusions éligibles]** : définissez les éléments ou les groupes d’éléments qui sont pris en compte pour l’achèvement de la tâche, et ceux qui ne le sont pas. [En savoir plus sur les éléments et exclusions éligibles](#eligible-items-exclusions)
-* **[!UICONTROL Nombre maximal de transactions]** : indiquez le nombre de transactions autorisées pour répondre à l’exigence de dépenses. Vous pouvez activer cet attribut à partir de l’icône des paramètres.
+* **[!UICONTROL Amount]**: Enter the total spend amount required to complete the task.
+* **[!UICONTROL Eligible items &amp; exclusions]**: Define items or item groups that count toward task completion and those that don&#39;t. [Learn more on eligible items and exclusions](#eligible-items-exclusions)
+* **[!UICONTROL Maximum number of transactions]**: Specify how many transactions are allowed to meet the spend requirement. You can activate this attribute from the parameters icon.
 
 ![](assets/task-create-spend.png)
 
 >[!ENDTABS]
 
-## Définir les éléments éligibles et les exclusions {#eligible-items-exclusions}
+## Define eligible items and exclusions {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"

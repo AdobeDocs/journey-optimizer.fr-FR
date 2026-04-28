@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 100%
+source-wordcount: '1272'
+ht-degree: 98%
 
 ---
 
@@ -244,7 +244,7 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 
 Dans l’onglet **Données**, vous pouvez définir une **[!UICONTROL Clé]** et une **[!UICONTROL Valeur]** pour inclure des variables personnalisées dans la payload. Ces paires clé/valeur vous permettent de transmettre des données supplémentaires, selon votre configuration spécifique.
 
-Pour plus d’informations, consultez la [documentation de développement](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+Pour plus d’informations, consultez la [documentation de développement](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata).
 
 1. Dans l’onglet **[!UICONTROL Données]**, sélectionnez **[!UICONTROL Ajouter une paire clé/valeur]**.
 
@@ -266,4 +266,4 @@ Pour plus d’informations, consultez la [documentation de développement](https
 
 La vidéo ci-dessous montre comment créer et tester vos messages in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422077?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

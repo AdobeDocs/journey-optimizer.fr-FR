@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '771'
 ht-degree: 11%
 
 ---
@@ -41,7 +41,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB E-mail]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **Personalization** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -61,7 +61,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB SMS]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **Personalization** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -69,7 +69,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB Notification push]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **Personalization** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -77,7 +77,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!IMPORTANT]
 >
->Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+>Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -91,7 +91,7 @@ Le code de la politique de décision est ajouté. Vous pouvez désormais utilise
 
 Une fois que vous avez ajouté le code d’une politique de décision dans votre contenu, tous les attributs des éléments de décision renvoyés peuvent être personnalisés. [Découvrez comment utiliser la personnalisation](../personalization/personalize.md).
 
-Les attributs sont stockés dans le schéma de catalogue [&#x200B; Offres &#x200B;](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
+Les attributs sont stockés dans le schéma de catalogue [ Offres ](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
 * **Attributs personnalisés** : dossier `_\<imsOrg\>`
 * **Attributs standard** : dossier `_experience`
 

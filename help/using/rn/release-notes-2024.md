@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 65b4b80aa1e68bf72bc0621ad22597f8273ec0a1
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '6783'
-ht-degree: 100%
+source-wordcount: '6916'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous :
 <tbody>
 <tr>
 <td>
-<p>Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et des parcours est essentielle pour éviter de submerger les clientes et clients avec un trop grand nombre d’interactions. Journey Optimizer propose désormais plusieurs outils de gestion des conflits et de hiérarchisation des priorités. <p>Pour plus d’informations, consultez la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentation détaillée</a>.</p></p><p><ul><li><b>Capping de la fréquence des parcours</b> : vous pouvez désormais créer des jeux de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours d’un profil par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</li>
+<p>Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et des parcours est essentielle pour éviter de submerger les clientes et clients avec un trop grand nombre d’interactions. Journey Optimizer propose désormais plusieurs outils de gestion des conflits et de hiérarchisation des priorités. <p>Pour plus d'informations, consultez la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentation détaillée</a>.</p></p><p><ul><li><b>Capping de la fréquence des parcours</b> : vous pouvez désormais créer des jeux de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours d’un profil par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</li>
 <li><b>Score de priorité</b> : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Un nombre plus élevé indique une priorité plus élevée. Lorsque deux campagnes ou actions de parcours utilisent la même configuration des canaux, Journey Optimizer sélectionne celle ayant le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne la plus anciennement modifiée sera choisie.</li>
 <li><b>Afficher les conflits potentiels</b> : un nouveau bouton « Afficher les conflits potentiels » dans les parcours et les campagnes vous permet désormais d’identifier le chevauchement avec d’autres parcours ou campagnes tels que la date de début, l’audience ciblée ou la configuration des canaux sélectionnée.</li>
 <li><b>Arbitrage du parcours</b> : cette nouvelle fonctionnalité vous permet de hiérarchiser les parcours les plus importants pour vos clientes et clients. Vous pouvez créer une règle pour supprimer une entrée dans un parcours de priorité inférieure lorsqu’un client ou une cliente est admissible pour un parcours de priorité supérieure à venir.</li>
@@ -504,14 +504,14 @@ Vous pouvez désormais exporter des modèles de contenu et des fragments entre l
 
 **API**
 
-* **API de simulation de campagne** : utilisez cette API pour déclencher le traitement de BAT d’une campagne. L’envoi du BAT de campagne est un processus asynchrone. L’API renvoie un BATJobId qui peut être utilisé pour vérifier le statut du BAT. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **API de simulation de campagne** : utilisez cette API pour déclencher le traitement de BAT d’une campagne. L’envoi du BAT de campagne est un processus asynchrone. L’API renvoie un BATJobId qui peut être utilisé pour vérifier le statut du BAT. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}
 
-* (Date de disponibilité : 10 septembre) La [documentation de l’API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} est désormais interactive. Explorez les points d’entrée de l’API directement à partir des pages de la documentation pour obtenir des commentaires immédiats et accélérer votre implémentation technique.
+* (Date de disponibilité : 10 septembre) La [documentation de l’API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} est désormais interactive. Explorez les points d’entrée de l’API directement à partir des pages de la documentation pour obtenir des commentaires immédiats et accélérer votre implémentation technique.
 
 
-  Toutes les pages de référence de l’API possèdent désormais une fonctionnalité **Essayer**. Cette fonctionnalité vous permet de tester les appels API directement sur la page du site web de la documentation. [Obtenez les informations d’authentification requises](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} et commencez à utiliser la fonctionnalité pour explorer les points d’entrée de l’API.
+  Toutes les pages de référence de l’API possèdent désormais une fonctionnalité **Essayer**. Cette fonctionnalité vous permet de tester les appels API directement sur la page du site web de la documentation. [Obtenez les informations d’authentification requises](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"} et commencez à utiliser la fonctionnalité pour explorer les points d’entrée de l’API.
 
-  Utilisez cette nouvelle fonctionnalité pour explorer les requêtes envoyées et les réponses issues des points d’entrée de l’API, afin d’obtenir des commentaires immédiats et d’accélérer votre implémentation technique.
+  Utilisez cette nouvelle fonctionnalité pour explorer les requêtes envoyées et les réponses issues des points d’entrée de l’API, afin d’obtenir des retours immédiats et d’accélérer votre implémentation technique.
 
   >[!CAUTION]
   >
@@ -1031,7 +1031,7 @@ De la version Beta à cette version, les améliorations suivantes ont été ajou
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **Prise en charge de mTLS** : l’authentification mTLS est désormais prise en charge dans les actions personnalisées. Aucune configuration supplémentaire n’est requise dans l’action ou le parcours personnalisé pour activer mTLS. L’activation se produit automatiquement lorsqu’un point d’entrée compatible mTLS est détecté. [En savoir plus](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **Tables de recherche dans les événements** :vous pouvez désormais exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Les valeurs de recherche seront disponibles dans les parcours (conditions, actions personnalisées, etc.) et dans la personnalisation des messages. [En savoir plus](../event/experience-event-schema.md#relationships_limitations)
+* **Tables de recherche dans les événements** :vous pouvez désormais exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Les valeurs de recherche seront disponibles dans les parcours (conditions, actions personnalisées, etc.) et la personnalisation des messages. [En savoir plus](../event/experience-event-schema.md#relationships_limitations)
 * **Éditeur d’expression avancé dans la configuration des événements** (LA) : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. Cette fonctionnalité est publiée en disponibilité limitée pour certaines clientes et certains clients uniquement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
 * **Politiques de fusion** (LA) : les politiques de fusion utilisées par un parcours sont désormais visibles et cohérentes dans l’ensemble du parcours. Cette fonctionnalité est publiée en disponibilité limitée pour certaines clientes et certains clients uniquement. [En savoir plus](../building-journeys/journey-properties.md#merge-policies)
 

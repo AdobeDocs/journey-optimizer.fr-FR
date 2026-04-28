@@ -2,22 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notes de mise à jour 2026
-description: Notes de mise à jour de 2026 pour Journey Optimizer
+description: Notes de mise à jour de Journey Optimizer 2026
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2525'
-ht-degree: 64%
+source-wordcount: '2640'
+ht-degree: 62%
 
 ---
 
-# Notes de mise à jour 2026 {#release-notes-2026}
+# Notes De Mise À Jour 2026 {#release-notes-2026}
 
-Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2026.
+Cette page répertorie toutes les fonctionnalités et améliorations des [!DNL Journey Optimizer] publiées en 2026.
 
 
 
@@ -39,7 +39,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../conflict-prioritization/journey-ranking-formulas.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 24 février 2026</p>
+<p>Date de disponibilité : 24 février 2026</p>
 </td>
 </tr>
 </tbody>
@@ -64,7 +64,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-action.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : samedi 20 février 2026</p>
+<p>Date de disponibilité : 20 février 2026</p>
 <p><strong>Remarque :</strong> tous les canaux natifs sont désormais accessibles via l'activité parcours d'action . Les activités de canal natives héritées seront abandonnées avec la version de mars. Les parcours existants qui incluent des actions héritées continueront à fonctionner en l’état. Aucune migration n’est requise.</p>
 </td>
 </tr>
@@ -90,8 +90,8 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p><img src="assets/do-not-localize/waves.gif"/></p>
 <p>Dans les <strong>campagnes</strong>, cette fonctionnalité est disponible dans tous les environnements (Disponibilité générale). Pour plus d’informations, consultez la <a href="../campaigns/send-using-waves.md">documentation détaillée</a>.</p>
 
-<p>Dans <strong></strong>, cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour y accéder, contactez votre représentant ou représentante Adobe. Pour plus d’informations, consultez la <a href="../building-journeys/send-using-waves.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : vendredi 19 février 2026</p>
+<p>Dans <strong>parcours</strong>, cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour y accéder, contactez votre représentant ou représentante Adobe. Pour plus d’informations, consultez la <a href="../building-journeys/send-using-waves.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 19 février 2026</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/custom-subdomain-migration.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : vendredi 19 février 2026</p>
+<p>Date de disponibilité : 19 février 2026</p>
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Publiée précédemment dans Beta, cette fonctionnalité sera disponible pour tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../push/push-configuration-web.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : samedi 13 février 2026</p>
+<p>Date de disponibilité : 13 février 2026</p>
 </td>
 </tr>
 </tbody>
@@ -148,7 +148,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/content-decision.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : mercredi 10 février 2026</p>
+<p>Date de disponibilité : 10 février 2026</p>
 </td>
 </tr>
 </tbody>
@@ -218,7 +218,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
 #### Gestion de contenu
 
@@ -246,7 +246,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Aperçu de la prise de décision dans le canal d’expérience basé sur le code** - Vous pouvez désormais prévisualiser les éléments de décision lors de la configuration de la prise de décision avec le canal d’expérience basé sur le code. L’aperçu est disponible directement dans l’interface de création avant la mise en ligne. [En savoir plus](../code-based/test-code-based.md#preview-code-based)
 
-  Date de disponibilité : jeudi 18 février 2026
+  Date de disponibilité : 18 février 2026
 
 <!--
 THIS WAS FINALLY NOT RELEASED IN FEBRUARY
@@ -260,17 +260,17 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### Personnalisation
 
-* **Assistant d’exécution des métadonnées** - La fonction d’assistance `executionMetadata` est désormais disponible pour tous les clients Journey Optimizer. Utilisez-le pour ajouter de manière dynamique des informations contextuelles à toute action native et pour les capturer dans un jeu de données en vue de les exporter vers des systèmes externes. [En savoir plus](../personalization/functions/helpers.md#execution-metadata)
+* **Execution Metadata helper** - The `executionMetadata` helper function is now available to all Journey Optimizer customers. Use it to dynamically append contextual information to any native action and capture it in a dataset for export to external systems. [En savoir plus](../personalization/functions/helpers.md#execution-metadata)
 
   Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
 
-  Date de disponibilité : 20 février 2026.
+  Availability date: February 20, 2026.
 
 #### SMS
 
-* **Webhooks SMS** - Les Webhooks sont désormais pris en charge sur tous les fournisseurs SMS. Vous pouvez configurer chaque webhook en fonction de son objectif : webhooks entrants pour capturer les messages entrants et webhooks Retours pour recevoir les accusés de réception de diffusion, les mises à jour de statut et d&#39;autres événements liés aux messages. [En savoir plus](../sms/sms-webhook.md)
+* **SMS Webhooks** - Webhooks are now supported across all SMS providers. You can configure each webhook based on its intended purpose: Inbound webhooks to capture incoming messages and Feedback webhooks to receive delivery receipts, status updates, and other message-related events. [En savoir plus](../sms/sms-webhook.md)
 
-  Date de disponibilité : 2 février 2026.
+  Availability date: February 2, 2026.
 
 
 
@@ -284,14 +284,14 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <table>
 <thead>
 <tr>
-<th><strong>Prise en charge de la prise de décision dans le canal push</strong><br/></th>
+<th><strong>Decisioning support in Push channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais personnaliser et optimiser le contenu de vos <strong>notifications push</strong> avec <strong>Decisioning</strong>. Utilisez des scores de priorité, des formules ou des modèles d’IA pour afficher le meilleur contenu à vos clientes et clients.</p>
-<p>Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les <a href="https://developer.adobe.com/client-sdks/home/release-notes/" target="_blank">notes de mise à jour</a> pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions/" target="_blank">cette section</a>.</p>
+<p>You can now personalize and optimize the content of your <strong>Push notifications</strong> with <strong>Decisioning</strong>. Utilisez des scores de priorité, des formules ou des modèles d’IA pour afficher le meilleur contenu à vos clientes et clients.</p>
+<p>Experience Decisioning with push notifications requires a specific version of the Mobile SDK. Before implementing this feature, check the <a href="https://developer.adobe.com/client-sdks/home/release-notes" target="_blank">release notes</a> to identify the required version and ensure you have upgraded accordingly. You can also view all available SDK versions for your platform in <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions" target="_blank">this section</a>.</p>
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 30 janvier 2026</p>
 </td>
@@ -352,7 +352,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <li>Archiver les messages pour les réclamations juridiques et les demandes de renseignements de l’assistance clientèle</li>
 <li>Conserver des copies du contenu personnalisé envoyé aux individus</li>
 </ul>
-<p>Les enregistrements sont conservés dans le jeu de données d’export des messages AJO pendant 7 jours calendaires à compter de l’ingestion. Pendant cette période de conservation, vous pouvez les exporter vers votre propre espace de stockage via les destinations Experience Platform. La fonctionnalité est activée au niveau de la configuration des canaux, ce qui vous permet de <strong>contrôler de façon précise</strong> les messages exportés.</p>
+<p>Les enregistrements sont conservés dans le jeu de données d’export des messages AJO pendant 7 jours calendaires à compter de l’ingestion. During this retention period, you can export them to your own storage via Experience Platform destinations. La fonctionnalité est activée au niveau de la configuration des canaux, ce qui vous permet de <strong>contrôler de façon précise</strong> les messages exportés.</p>
 <p>Cette fonctionnalité n’est disponible que pour les canaux e-mail et SMS, pour les organisations qui ont acheté l’offre complémentaire d’export des messages. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/message-export.md#message-export">documentation détaillée</a>.</p>
@@ -407,7 +407,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p>Une nouvelle API Journey Optimizer est désormais disponible. Celle-ci vous permet de récupérer et d’inspecter par programme les <strong>données liées à la campagne</strong>, telles que les détails, les versions et les configurations.</p>
-<p>Pour plus d’informations, consultez la <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/" target="_blank">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve" target="_blank">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 24 novembre 2025</p>
 </td>
 </tr>
@@ -439,7 +439,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Contrôles de qualité du contenu de l’assistant IA** : en plus de l’alignement sur la marque, vous pouvez désormais évaluer la <strong>qualité du contenu</strong> globale pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality).
 
-  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on).
+  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Parcours
 
@@ -485,13 +485,13 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
   Date de disponibilité : mercredi 27 janvier 2026.
 
-* **Rétablir le statut de brouillon des campagnes actives** - Vous pouvez désormais rétablir le statut de brouillon des campagnes orchestrées actives lorsqu’elles rencontrent des erreurs d’exécution ou lorsque vous devez modifier les campagnes planifiées avant qu’elles ne commencent à s’exécuter. Cette option est disponible jusqu&#39;à l&#39;envoi du premier message. [En savoir plus](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+* **Revert live campaigns to draft status** - You can now revert live orchestrated campaigns to draft status when they encounter execution errors or when you need to modify scheduled campaigns before they start executing. This option is available until the first message is sent. [En savoir plus](../orchestrated/start-monitor-campaigns.md#back-to-draft)
 
 #### Campagnes
 
-* **Planification de l’opération à l’aide du fuseau horaire du profil** - La planification des opérations peut désormais utiliser le <strong>fuseau horaire</strong> de chaque profil pour diffuser les messages à l’heure locale prévue. [En savoir plus](../campaigns/campaign-schedule.md)
+* **Planifier la campagne en utilisant le fuseau horaire du profil** : la planification de campagne peut désormais utiliser le <strong>fuseau horaire</strong> de chaque profil afin de diffuser les messages à l’heure locale prévue. [En savoir plus](../campaigns/campaign-schedule.md)
 
-  **Remarque** : cette amélioration ne sera disponible que pour un ensemble d’organisations (disponibilité limitée).
+  **Note**: This improvement is only be available for a set of organizations (Limited Availability).
 
   Date de disponibilité : mercredi 27 janvier 2026.
 

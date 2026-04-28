@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1291'
 ht-degree: 84%
 
 ---
@@ -29,7 +29,7 @@ Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les
 
 >[!NOTE]
 >
->En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+>En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ### Vérification du statut d’opt-out des notifications push {#push-opt-out-status}
 
@@ -43,7 +43,7 @@ Pour vérifier le statut du consentement push d’un profil dans Adobe Experienc
 
 >[!NOTE]
 >
->Pour les cas d’utilisation de conformité nécessitant un suivi du consentement push explicite, utilisez l’attribut **`consents.marketing.push.val`** du groupe de champs [&#x200B; Consentements et Préférences &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"}. Une valeur `y` indique l’opt-in explicite ; `n` indique l’opt-out explicite.
+>Pour les cas d’utilisation de conformité nécessitant un suivi du consentement push explicite, utilisez l’attribut **`consents.marketing.push.val`** du groupe de champs [ Consentements et Préférences ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"}. Une valeur `y` indique l’opt-in explicite ; `n` indique l’opt-out explicite.
 
 Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey Optimizer dans les sections suivantes :
 
@@ -82,7 +82,7 @@ Lors de l’utilisation des offres, les préférences de personnalisation ne son
 >
 >Les portées de décision utilisées dans les canaux [!DNL Journey Optimizer] créés répondent à cette exigence de la campagne ou du parcours auxquels ils appartiennent.
 
-1. Créez une audience [&#128279;](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"} et utilisez un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Oui (opt-in)]** pour cibler les utilisateurs et utilisatrices qui ont consenti à la personnalisation.
+1. Créez une audience [Adobe Experience Platform](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"} et utilisez un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Oui (opt-in)]** pour cibler les utilisateurs et utilisatrices qui ont consenti à la personnalisation.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +134,7 @@ Pour appliquer manuellement le consentement à la personnalisation dans les camp
 
 Vous pouvez utiliser le créateur de règles de segments pour créer une audience contenant des profils d’exclusion.
 
-1. Créez une audience [&#128279;](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"}.
+1. Créez une audience [Adobe Experience Platform](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 

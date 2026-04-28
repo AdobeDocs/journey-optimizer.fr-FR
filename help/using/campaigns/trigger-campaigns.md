@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagne, vérification, validation, activation, activer, optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 98%
+source-wordcount: '551'
+ht-degree: 95%
 
 ---
 
@@ -37,9 +37,9 @@ Une fois votre campagne activée, vous devez récupérer l’exemple de requête
    >
    >Les points d’entrée de la section cURL diffèrent entre les campagnes standard et [à débit élevé](../campaigns/api-triggered-high-throughput.md).
 
-1. Utilisez cette requête cURL dans les API pour créer votre payload et déclencher la campagne. Pour plus d’informations, consultez la [documentation de l’API Interactive Message Execution](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution), où tous les points d’entrée des campagnes standard et à débit élevé sont répertoriés.
+1. Utilisez cette requête cURL dans les API pour créer votre payload et déclencher la campagne. Pour plus d’informations, consultez la [documentation de l’API Interactive Message Execution](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution), où tous les points d’entrée des campagnes standard et à débit élevé sont répertoriés.
 
-   Des exemples d’appels API sont également disponibles sur [cette page](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+   Des exemples d’appels API sont également disponibles sur [cette page](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples).
 
 ## Résolution des problèmes {#troubleshooting}
 

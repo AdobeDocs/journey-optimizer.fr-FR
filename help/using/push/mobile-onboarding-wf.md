@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 9d3100389f6cfbd80ef8539db831ecc6817848c5
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '369'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ Le nouveau **workflow de démarrage rapide de l’intégration mobile** est une 
 
 Cette fonctionnalité est accessible à partir de la page d’accueil d’**[!DNL Adobe Experience Platform Data Collection]** à l’ensemble des clientes et clients en tant que version Beta publique.
 
-## Prise en main{#gs-mobile-wf}
+## Commencer{#gs-mobile-wf}
 
 Ce nouveau workflow automatise la configuration de la collecte de données en réduisant le nombre total de clics et en accélérant la configuration mobile pour Journey Optimizer. Ce workflow de démarrage rapide vous permet de suivre quatre étapes simples pour [configurer](#gs-mobile-wf), [implémenter](#implement-mobile-wf), [valider](#valid-mobile-wf) et [réviser](#review-mobile-wf) votre configuration mobile.
 
@@ -33,7 +33,7 @@ Pour accéder au nouveau workflow de démarrage rapide de l’intégration mobil
 Voici quelques autres fonctionnalités :
 
 * Workflow simple en quatre étapes et interface utilisateur.
-* Fournit une configuration de base pour commencer à collecter en quelques minutes des données d’événement mobile via le [SDK mobile d’Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}.
+* Fournit une configuration de base pour commencer à collecter en quelques minutes des données d’événement mobile via le [SDK mobile d’Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation){target="_blank"}.
 * Permet de tester et de valider un événement push mobile de base à l’aide d’[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=fr){target="_blank"}.
 * Crée et configure automatiquement toutes les ressources de Journey Optimizer et de collecte de données nécessaires.
 * Donne des conseils et affiche des info-bulles sur le produit.

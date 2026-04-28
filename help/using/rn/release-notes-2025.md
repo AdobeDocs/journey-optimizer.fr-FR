@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '9005'
+source-wordcount: '9308'
 ht-degree: 99%
 
 ---
@@ -34,7 +34,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>Le convertisseur d’images en HTML est une fonctionnalité optimisée par l’IA qui convertit des conceptions d’images statiques en modèles de contenu d’e-mail HTML entièrement personnalisables et modulaires. Cet outil sans code permet aux spécialistes marketing de transformer des conceptions visuelles en modèles d’e-mail réactifs et modifiables sans avoir besoin d’expertise technique. Il est idéal pour la migration de plateformes, la création rapide de modèles et la création de bibliothèques de modèles réutilisables.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
 <p>Pour plus d’informations, consultez la <a href="../content-management/image-to-html.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 30 octobre_2025</p>
 </td>
@@ -273,7 +273,7 @@ table>
 <tr>
 <td>
 <p>Une nouvelle fonction d’assistant « executionMetadata » est disponible dans l’éditeur de personnalisation. Il vous permet d’ajouter des informations contextuelles à toute action native et de les capturer dans un jeu de données pour les exporter vers des systèmes externes.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Pour plus d’informations, consultez la <a href="../personalization/functions/helpers.md#execution-metadata">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 13 octobre 2025</p>
@@ -333,7 +333,7 @@ table>
 <tr>
 <td>
 <p>Une nouvelle API Journey Optimizer est désormais disponible pour récupérer les parcours et leurs objets associés tels que les campagnes et les surfaces.</p>
-<p>Pour plus d’informations, consultez la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 25 septembre 2025</p>
 </td>
 </tr>
@@ -527,7 +527,7 @@ You can now use AI models to optimize the best content in your email through the
 <td>
 <p>Utilisez le nouveau nœud Optimiser pour cibler des audiences spécifiques ou exécuter des tests A/B afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier.</p>
 <p>Cet outil vous permet de tester, varier et personnaliser les communications, le séquencement et les délais afin d’atteindre avec précision votre clientèle.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/optimize.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 4 septembre 2025</p>
@@ -546,7 +546,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode de délégation personnalisée. Elle vous permet de contrôler et de gérer totalement l’ensemble des aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/delegate-custom-subdomain.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 4 septembre 2025</p>
@@ -586,8 +586,8 @@ You can now use AI models to optimize the best content in your email through the
 
   Date de disponibilité : 29 septembre 2025
 
-* **Prise en charge de mTLS pour le canal SMS**
-Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification TLS mutuelle (mTLS), qui nécessite que le client et le serveur confirment mutuellement leur identité avant qu’une connexion sécurisée ne soit établie. [En savoir plus](../sms/sms-configuration-custom.md) - Date de disponibilité : 23 septembre 2025
+* Prise en charge de **mTLS pour le canal SMS**
+Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification mutuelle TLS (mTLS), qui nécessite que le client et le serveur confirment l’identité de l’un et l’autre avant qu’une connexion sécurisée ne soit établie. [En savoir plus](../sms/sms-configuration-custom.md) - Date de disponibilité : 23 septembre 2025
 
 * **Schémas relationnels**\
   Les schémas relationnels peuvent désormais être utilisés pour prendre en charge vos besoins de modélisation relationnelle dans les campagnes orchestrées. [En savoir plus](../orchestrated/gs-schemas.md) - Date de disponibilité : 23 septembre 2025
@@ -740,7 +740,7 @@ table>
 <li>Ajout d’une optimisation à toute action de canal intégrée</li>
 <li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-action.md">documentation détaillée</a>.</p>
 </td>
@@ -763,7 +763,7 @@ table>
 <li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
 <li>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../email/pdf-attachments.md">documentation détaillée</a>.</p>
 </td>
@@ -991,7 +991,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de renvoyer dynamiquement le meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
 Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -1023,7 +1023,7 @@ Pour plus d’informations, consultez la <a href="../experience-decisioning/crea
 <tbody>
 <tr>
 <td>
-<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
+<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices de parcours d’avoir confiance dans leur conception de parcours et leur ciblage d’audience avant de publier un parcours en ligne.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-dry-run.md">documentation détaillée</a>.</p>
@@ -1083,12 +1083,12 @@ Les améliorations de cette version sont présentées ci-dessous.
 
    * **Réorganisation de l’inventaire des campagnes** : les campagnes planifiées et déclenchées par API sont désormais divisées en onglets distincts dans l’inventaire des campagnes pour une navigation et une gestion plus faciles.
 
-[En savoir plus](../campaigns/manage-campaigns.md)
+  [En savoir plus](../campaigns/manage-campaigns.md)
 
 * **Gestion des données**
    * **Mise à jour des jeux de données du système de gestion des décisions** : les offres personnalisées et de secours supprimées sont désormais marquées comme étant archivées dans les jeux de données « decision_object_repository_personalized_offers » et « decision_object_repository_fallback_offers ». Les enregistrements existants du jeu de données ne sont pas modifiés.
 
-[En savoir plus](../offers/export-catalog/access-dataset.md)
+  [En savoir plus](../offers/export-catalog/access-dataset.md)
 
 * **Parcours**
    * **Améliorations des outils de sandbox de parcours** : lors de la copie de parcours dans plusieurs sandbox à l’aide des fonctionnalités d’export et d’import de package, les fonctionnalités suivantes sont désormais également disponibles :
@@ -1096,7 +1096,7 @@ Les améliorations de cette version sont présentées ci-dessous.
       * Copier sur un événement indépendamment d’un parcours
       * Détecter des relations entre les groupes de champs et les sources de données, effectuer des liaisons vers ces dernières au niveau de la destination si elles existent, les créer si elles n’existent pas.
 
-[En savoir plus](../configuration/copy-objects-to-sandbox.md)
+  [En savoir plus](../configuration/copy-objects-to-sandbox.md)
 
 * **Canal - In-app**
    * **Paires clé/valeur in-app** : avec les messages in-app, vous pouvez définir des paires clé/valeur pour inclure des variables personnalisées dans la payload du message. Ces paires clé-valeur vous permettent de transmettre des données supplémentaires en fonction de votre configuration et de votre cas d’utilisation spécifiques. [En savoir plus](../in-app/design-in-app.md)
@@ -1108,7 +1108,7 @@ Les améliorations de cette version sont présentées ci-dessous.
       * Ignorer le message si : conditions qui masquent temporairement la carte de contenu. Elle peut réapparaître si les conditions d’affichage sont à nouveau remplies.
       * Disqualifier le message si : conditions qui empêchent définitivement l’affichage de la carte de contenu.
 
-[En savoir plus](../content-card/design-content-card.md)
+     [En savoir plus](../content-card/design-content-card.md)
 
 * **Prise de décision**
    * **API d’outils de migration** : l’équipe Journey Optimizer travaille actuellement sur des API d’outils de migration pour migrer les entités de gestion de décision vers la prise de décision. Ces outils permettent une migration transparente entre les sandbox avec des fonctionnalités de résolution de dépendance et de restauration. Si cela vous intéresse, contactez votre représentant ou représentante Adobe.
@@ -1116,7 +1116,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 * **Personnalisation**
    * Une nouvelle fonction d’assistance, « SHA256 », a été ajoutée à l’éditeur de personnalisation. Cette fonction est utilisée pour calculer et renvoyer le hachage sha256 d’une chaîne.
 
-[En savoir plus](../personalization/functions/string.md#sha256)
+  [En savoir plus](../personalization/functions/string.md#sha256)
 
 
 ## Notes de mise à jour de juin 2025 {#25-6-rn}
@@ -1222,7 +1222,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
+<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices de parcours d’avoir confiance dans leur conception de parcours et leur ciblage d’audience avant de publier un parcours en ligne.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-dry-run.md">documentation détaillée</a>.</p>
@@ -1327,7 +1327,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Mise à jour de l’API d’exécution de message interactif** - Date de disponibilité : 6 juin 2025
 
-  L’API d’exécution de message interactif vous permet désormais de supprimer le planning d’exécution des campagnes à venir. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  L’API d’exécution de message interactif vous permet désormais de supprimer le planning d’exécution des campagnes à venir. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"}
 
 
 ## Notes de mise à jour de mai 2025 {#25-5-rn}
@@ -1774,7 +1774,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Score d’alignement de la marque (Beta)</strong><br/></th>
+<th><strong>Score d’alignement sur la marque (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -2203,7 +2203,7 @@ Les améliorations ci-dessous proviennent de la mise à jour de février.
 -->
 
 
-* **Configuration du canal e-mail** : si vous gérez le consentement en dehors d’Adobe, vous pouvez désormais définir une adresse e-mail de désabonnement personnalisée et une URL de désabonnement en un clic personnalisée dans les paramètres de configuration du canal e-mail.[En savoir plus](../email/list-unsubscribe.md#custom-managed)
+* **Configuration du canal e-mail** : si vous gérez le consentement en dehors d’Adobe, vous pouvez désormais définir une adresse e-mail de désabonnement personnalisée et une URL de désabonnement en un clic personnalisée dans les paramètres de configuration du canal e-mail. [En savoir plus](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 

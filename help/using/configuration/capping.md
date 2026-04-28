@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API Capping
+title: API de limitation
 description: Découvrez comment utiliser l’API Capping
 feature: Journeys, API
 role: Developer
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 99%
+source-wordcount: '761'
+ht-degree: 98%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 99%
 
 L’API Capping vous permet de créer, configurer et surveiller vos configurations de limitation.
 
-Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
 ## Description de l’API de limitation et collection Postman {#description}
 
-Le tableau ci-dessous répertorie les commandes disponibles pour l’API de limitation. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la [documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}.
+Le tableau ci-dessous répertorie les commandes disponibles pour l’API de limitation. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la [documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"}.
 
 | Méthode | Chemin | Description |
 |---|---|---|

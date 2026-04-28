@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Un fragment est un composant réutilisable pouvant être référencé dans un ou
 
 Pour optimiser l’utilisation des fragments, procédez comme suit :
 
-* **Créer vos propres fragments** : créez des fragments visuels ou des fragments d’expression, à partir de zéro ou en enregistrant du contenu en tant que fragment. [Découvrez comment créer un fragment](create-fragments.md). En outre, vous pouvez tirer parti de l’**API REST Content** Journey Optimizer pour gérer les fragments de contenu. Pour plus d’informations à ce sujet, consultez la [documentation relative aux API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **Créer vos propres fragments** : créez des fragments visuels ou des fragments d’expression, à partir de zéro ou en enregistrant du contenu en tant que fragment. [Découvrez comment créer un fragment](create-fragments.md). En outre, vous pouvez tirer parti de l’**API REST Content** Journey Optimizer pour gérer les fragments de contenu. Pour plus d’informations à ce sujet, consultez la [documentation relative aux API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 * **Réutilisez vos fragments :** utilisez-les autant de fois que nécessaire dans votre contenu. Voir [Ajouter des fragments visuels](../email/use-visual-fragments.md) et [Utiliser des fragments d’expression](../personalization/use-expression-fragments.md)
 
 ## Avant de commencer {#fragment-prerequisites}
@@ -60,8 +60,8 @@ Tous les fragments sont accessibles à partir du menu de gauche **[!UICONTROL Ge
 
 Découvrez comment gérer, créer et utiliser des **fragments visuels** dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3451184/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
 Découvrez comment gérer, créer et utiliser des **fragments d’expression** dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438919/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
