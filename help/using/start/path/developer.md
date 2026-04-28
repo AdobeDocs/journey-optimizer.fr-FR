@@ -281,7 +281,7 @@ Vous souhaitez commencer à créer ? Sélectionnez votre premier domaine d’im
 
 1. **Application mobile ?** Prise en main de [intégration de Mobile SDK](#mobile-integration)
 2. **Site web?** Commencez par [configuration de Web SDK](#web-implementation)
-3. **Intégration d’API ?** Accédez à [ Utilisation des API ](#apis)
+3. **Intégration d’API ?** Accédez à [&#x200B; Utilisation des API &#x200B;](#apis)
 4. **Système personnalisé ?** Extraire [Actions personnalisées](#custom-actions)
 
 Chaque section comprend des liens vers une documentation technique détaillée, des exemples de code et des tutoriels pour vous guider dans votre implémentation.

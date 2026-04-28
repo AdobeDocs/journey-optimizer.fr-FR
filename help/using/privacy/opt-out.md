@@ -43,7 +43,7 @@ Pour vérifier le statut du consentement push d’un profil dans Adobe Experienc
 
 >[!NOTE]
 >
->Pour les cas d’utilisation de conformité nécessitant un suivi du consentement push explicite, utilisez l’attribut **`consents.marketing.push.val`** du groupe de champs [ Consentements et Préférences ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"}. Une valeur `y` indique l’opt-in explicite ; `n` indique l’opt-out explicite.
+>Pour les cas d’utilisation de conformité nécessitant un suivi du consentement push explicite, utilisez l’attribut **`consents.marketing.push.val`** du groupe de champs [&#x200B; Consentements et Préférences &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"}. Une valeur `y` indique l’opt-in explicite ; `n` indique l’opt-out explicite.
 
 Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey Optimizer dans les sections suivantes :
 
