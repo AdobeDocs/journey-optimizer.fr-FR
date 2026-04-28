@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1828'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 * [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md)
 * **Créer des défis** ◀︎ **Vous êtes ici**
 * [Création de tâches](create-tasks.md)
-* [Référence de l’API Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [Référence de l’API pour les défis de fidélité](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -188,55 +188,55 @@ Pour configurer quand et comment les récompenses sont diffusées :
 
    Spécifiez le montant total de récompense à accorder lorsque les clients relèvent l’ensemble du défi.
 
-   *Dans l’exemple ci-dessous, les clients obtiennent 100 points pour relever le défi.*
+   *In the example below, customers are awarded 100 points when completing the challenge.*
 
    ![](assets/challenge-create-reward-total.png)
 
    +++
 
-   +++Diffuser des récompenses aux jalons d’achèvement de la tâche
+   +++Deliver rewards at task completion milestones
 
-   Spécifiez les montants de récompense pour les jalons d’achèvement de la tâche. Cette option vous permet de créer des récompenses progressives qui augmentent la motivation du client au fur et à mesure qu’il relève le défi.
+   Specify reward amounts for task completion milestones. This option allows you to create progressive rewards that increase customer motivation as they progress through the challenge.
 
-   Pour toute tâche pour laquelle vous souhaitez offrir une récompense, activez l’option Récompense et indiquez le nombre de points à accorder lorsque les clients effectuent cette tâche spécifique. Vous pouvez choisir de ne récompenser que certaines tâches terminées ; par exemple, si vous avez 10 tâches, vous pouvez récompenser uniquement les tâches 1, 5 et 10.
+   For any task where you want to deliver a reward, toggle on the reward option and specify how many points to award when customers complete that specific task. You can choose to reward only certain task completions—for example, if you have 10 tasks, you might reward only tasks 1, 5, and 10.
 
-   *Dans l’exemple ci-dessous, les clients obtiennent 10 points lorsqu’ils effectuent la première tâche, puis 50 points supplémentaires lorsqu’ils effectuent la seconde tâche.*
+   *In the example below, customers are awarded 10 points when completing the first task, then 50 additional points after completing the second task.*
 
    ![](assets/challenge-create-reward-milestones.png)
 
    +++
 
-Après avoir configuré la structure du défi avec des tâches et des récompenses, concevez les cartes de contenu pour afficher le défi aux clients.
+After configuring the challenge structure with tasks and rewards, design the content cards to display the challenge to customers.
 
-## Configuration des cartes de contenu {#configure-content-cards}
+## Configure content cards {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Contenu"
->abstract="Configurez la carte de contenu qui représente votre défi sur les appareils des clients et affiche les informations sur le défi, la progression et les récompenses. Saisissez le nom de la carte, sélectionnez une configuration de canal afin que la diffusion utilise les paramètres techniques appropriés (par exemple, les en-têtes, le sous-domaine ou les applications mobiles), puis sélectionnez Modifier le contenu pour concevoir et personnaliser l’expérience de la carte."
+>abstract="Configure the content card that represents your challenge on customer devices and shows challenge information, progress, and rewards. Enter a name for the card, select a channel configuration so delivery uses the right technical settings (for example headers, subdomain, or mobile apps), then select Edit content to design and personalize the card experience."
 
-Les cartes de contenu représentent visuellement votre défi sur les appareils des clients, en affichant les informations sur le défi, la progression et les récompenses. [En savoir plus sur les cartes de contenu](../content-card/create-content-card.md).
+Content cards visually represent your challenge on customer devices, displaying challenge information, progress, and rewards. [Learn more about content cards](../content-card/create-content-card.md).
 
-Pour configurer les cartes de contenu en fonction de votre défi :
+To configure content cards for your challenge:
 
-1. Accédez à l’onglet **[!UICONTROL Contenu]** et saisissez un **[!UICONTROL Nom]** pour la carte de contenu.
+1. Navigate to the **[!UICONTROL Content]** tab and enter a **[!UICONTROL Name]** for the content card.
 
-1. Sélectionnez la **[!UICONTROL Configuration du canal]**. Les configurations de canal contiennent tous les paramètres techniques relatifs à l’envoi de messages, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus sur les configurations de canal](../configuration/channel-surfaces.md).
+1. Select the **[!UICONTROL Channel configuration]**. Channel configurations contain all the technical parameters for sending messages, such as header parameters, subdomain, mobile apps, etc. [Learn more about channel configurations](../configuration/channel-surfaces.md).
 
-1. Sélectionnez **[!UICONTROL Modifier le contenu]** pour concevoir votre carte de contenu. [Découvrez comment concevoir et personnaliser des cartes de contenu](../content-card/design-content-card.md).
+1. Select **[!UICONTROL Edit content]** to design your content card. [Learn how to design and personalize content cards](../content-card/design-content-card.md).
 
    ![](assets/challenge-create-content.png)
 
-Après avoir configuré la carte de contenu, configurez la messagerie pour impliquer les clients tout au long du cycle de vie du défi.
+After configuring the content card, set up messaging to engage customers throughout the challenge lifecycle.
 
-### Configurer la messagerie {#configure-messaging}
+### Configure messaging {#configure-messaging}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
->title="Messagerie"
->abstract="Les messages aident à l’engagement tout au long du cycle de vie du défi. Dans l’onglet Messagerie , ajoutez des messages pour chaque étape : Lancement (lorsque le défi commence), En cours (rappels et mises à jour de progression) et Terminé (célébrer le succès et confirmer les récompenses). Pour chaque étape, ajoutez un message, choisissez le canal, sélectionnez une configuration de canal, puis cliquez sur Modifier pour concevoir le contenu du message."
+>title="Message"
+>abstract="Messaging helps engagement across the challenge lifecycle. On the Messaging tab, add messages for each stage: Launch (when the challenge starts), In-progress (reminders and progress updates), and Completion (celebrate success and confirm rewards). For each stage, add a message, choose the channel, select a channel configuration, then select Edit to design the message content."
 
-Configurez des messages multicanaux pour impliquer les clients aux étapes clés du cycle de vie du défi. La messagerie est facultative, mais recommandée pour optimiser l’engagement du client.
+Set up multi-channel messages to engage customers at key stages of the challenge lifecycle. La messagerie est facultative, mais recommandée pour optimiser l’engagement du client.
 
 1. Accédez à l’onglet **[!UICONTROL Messagerie]** et configurez les messages pour chaque étape du cycle de vie :
 

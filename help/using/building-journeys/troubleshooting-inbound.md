@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Guide de dépannage pour les actions entrantes dans les parcours
-description: Découvrez comment déboguer et résoudre les problèmes liés aux actions entrantes dans  [!DNL Adobe Journey Optimizer]
+description: Découvrez comment déboguer et résoudre les problèmes liés aux actions entrantes dans parcours [!DNL Adobe Journey Optimizer]
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: actions entrantes, dépannage, parcours, débogage, aide autonome, vérification, erreurs
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1809'
 ht-degree: 95%
 
 ---
@@ -34,7 +34,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 Avant de commencer le dépannage :
 
-1. Configurez une session **Assurance**. Découvrez comment le faire dans la documentation d’[[!DNL Adobe Experience Platform] &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Configurez une session **Assurance**. Découvrez comment le faire dans la documentation d’[[!DNL Adobe Experience Platform] Assurance](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Accédez au parcours contenant l’action entrante pour récupérer le nom du parcours et l’ID de version.
 
@@ -95,7 +95,7 @@ Rendez-vous sur la page et examinez l’onglet Mise en réseau, ou vérifiez la 
 
 >[!TAB Canal d’expérience basée sur du code]
 
-Exécutez une requête curl à l’aide de l’[API d’Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) et vérifiez la payload de réponse Edge dans la section **[!UICONTROL Edge Delivery]** de la session [Assurance](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Exécutez une requête curl à l’aide de l’[API d’Adobe](https://developer.adobe.com/data-collection-apis/docs/api) et vérifiez la payload de réponse Edge dans la section **[!UICONTROL Edge Delivery]** de la session [Assurance](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!ENDTABS]
 

@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API de limitation
+title: API Throttling
 description: Découvrez comment utiliser l’API de limitation.
 feature: Journeys, API
 role: Developer
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1060'
 ht-degree: 98%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 98%
 
 L’API de limitation vous permet de créer, de configurer et de surveiller vos configurations de limitation, afin de limiter le nombre d’événements envoyés par seconde.
 
-Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
-## À lire absolument
+## À lire impérativement
 
-* **Une configuration par organisation :** une seule configuration est actuellement autorisée par organisation. Une configuration doit être définie sur un sandbox de production (indiqué par `x-sandbox-name` dans les en-têtes).
+* **Une configuration par organisation :** une seule configuration est actuellement autorisée par organisation. Une configuration doit être définie sur un sandbox de production (indiqué par `x-sandbox-name` dans les en-têtes).
 * **Application au niveau de l’organisation :** une configuration s’applique au niveau de l’organisation.
 * **Gestion de la limite de l’API :** lorsque la limite définie dans l’API est atteinte, les événements suivants sont mis en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
 * Paramètre **`maxHttpConnections` :** le paramètre `maxHttpConnections` est un paramètre facultatif disponible dans l’API Capping uniquement pour vous permettre de limiter le nombre de connexions que Journey Optimizer ouvrira au système externe. [En savoir plus l’utilisation de l’API Capping](../configuration/capping.md)
@@ -32,7 +32,7 @@ Cette section fournit des informations générales sur l’utilisation de l’AP
 
 ## Description de l’API de throttling et collection Postman {#description}
 
-Le tableau ci-dessous répertorie les commandes disponibles pour l’API de throttling. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la [documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/).
+Le tableau ci-dessous répertorie les commandes disponibles pour l’API de throttling. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la [documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling).
 
 | Méthode | Chemin | Description |
 |---|---|---|
@@ -55,7 +55,7 @@ Une fois le téléchargement puis le chargement effectués dans Postman, vous de
 * `{BASE_PATH}` : point d’entrée pour l’API.
 * `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr){target="_blank"}.
 
-## Configuration de limitation{#configuration}
+## Configuration de limitation {#configuration}
 
 Vous trouverez ci-dessous la structure d’une configuration de limitation. Les attributs **name** et **description** sont facultatifs.
 

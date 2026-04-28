@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 95%
+source-wordcount: '549'
+ht-degree: 93%
 
 ---
 
@@ -296,7 +296,7 @@ Supposons que vous ayez la même politique de décision avec l’emplacement de 
 
 ## Tutoriels {#tutorials}
 
-Découvrez comment récupérer, afficher et suivre les expériences basées sur du code à l’aide de l’[extension Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} pour les SDK mobiles Adobe Experience Platform dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+Découvrez comment récupérer, afficher et suivre les expériences basées sur du code à l’aide de l’[extension Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} pour les SDK mobiles Adobe Experience Platform dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}.
 
 Découvrez comment utiliser la prise de décision dans Journey Optimizer pour personnaliser les offres de contenu de votre site web, en particulier la configuration du SDK web, dans [ce tutoriel](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 

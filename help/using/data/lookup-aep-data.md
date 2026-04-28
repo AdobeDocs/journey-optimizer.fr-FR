@@ -11,10 +11,10 @@ keywords: expression, éditeur
 mini-toc-levels: 1
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 93%
+source-wordcount: '890'
+ht-degree: 92%
 
 ---
 
@@ -109,7 +109,7 @@ Dans l’interface d’utilisation de la gestion des jeux de données, utilisez 
 
 ### Méthode API
 
-Suivez les instructions détaillées dans [cette documentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) pour configurer votre environnement afin d’envoyer des commandes d’API.
+Suivez les instructions détaillées dans [cette documentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication) pour configurer votre environnement afin d’envoyer des commandes d’API.
 
 #### Conditions préalables
 

@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Utilisez l’onglet **[!UICONTROL Audience]** pour définir l’audience de la c
 >
 >L’utilisation d’audiences et d’attributs de la [composition d’audiences](../audience/get-started-audience-orchestration.md) est actuellement indisponible avec Healthcare Shield ou Privacy and Security Shield.
 
-**Pour les campagnes transactionnelles déclenchées par API**, les profils ciblés doivent être définis dans l’appel API. Un seul appel API prend en charge jusqu’à 20 personnes destinataires uniques. Chacune de ces personnes doit disposer d’un identifiant d’utilisateur ou d’utilisatrice unique, les doublons n’étant pas autorisés. Pour en savoir plus, consultez la [documentation de l’API Interactive Message Execution](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}.
+**Pour les campagnes transactionnelles déclenchées par API**, les profils ciblés doivent être définis dans l’appel API. Un seul appel API prend en charge jusqu’à 20 personnes destinataires uniques. Chacune de ces personnes doit disposer d’un identifiant d’utilisateur ou d’utilisatrice unique, les doublons n’étant pas autorisés. Pour en savoir plus, consultez la [documentation de l’API Interactive Message Execution](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution){target="_blank"}.
 
 ## Sélectionner le type d’identité
 

@@ -5,10 +5,10 @@ title: Documentation Adobe Journey Optimizer
 description: Documentation Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 91%
+source-wordcount: '638'
+ht-degree: 85%
 
 ---
 
@@ -136,11 +136,11 @@ Découvrez comment hiérarchiser et gérer efficacement les conflits de communic
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr" target="_blank">Tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit</a> – <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Vue d’ensemble de la sécurité (PDF)</a> – <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Référence des API</a> – <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Dictionnaire de schémas de Journey Optimizer</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr" target="_blank">Tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Présentation de la sécurité (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Référence des API</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Dictionnaire de schéma Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation</a> - <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées aux développeurs</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation</a> - <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources pour les développeurs</a>
 </td>
 </tr></table>
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1143'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ L’API du service de migration Decisioning offre les fonctionnalités suivantes
 
 Pour utiliser l’API de migration, vous avez besoin des autorisations appropriées dans les sandbox source et cible :
 
-**Sandbox** - Accès en lecture aux objets de gestion des décisions
+**Sandbox Source** - Accès en lecture aux objets de gestion des décisions
 
 **Sandbox cible** - Création et modification de l’accès aux objets Decisioning
 
@@ -81,7 +81,7 @@ Toutes les requêtes API nécessitent les en-têtes suivants :
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ### Modèle de workflow {#workflow-model}
 

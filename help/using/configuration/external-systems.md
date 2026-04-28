@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1834'
 ht-degree: 97%
 
 ---
@@ -49,7 +49,7 @@ Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de l
 
 >[!IMPORTANT]
 >
->Les **Règles de limitation** sont configurées au niveau du sandbox, pour un point d’entrée spécifique (l’URL appelée), mais elles s’appliquent à tous les parcours de ce sandbox. La limitation est disponible à la fois sur les sources de données et les actions personnalisées.
+>Les **Règles de limitation** sont configurées au niveau de la sandbox, pour un point d’entrée spécifique (l’URL appelée), mais elles s’appliquent à tous les parcours de cette sandbox. La limitation est disponible à la fois sur les sources de données et les actions personnalisées.
 >
 >Les **Règles de limitation** sont configurées dans les sandbox de production uniquement, pour un point d’entrée spécifique, mais elles s’appliquent à tous les parcours sur l’ensemble des sandbox. Une seule configuration de limitation est autorisée par organisation. La limitation n’est disponible que pour les actions personnalisées.
 >
@@ -58,9 +58,9 @@ Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de l
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
 
 * [API de limitation](capping.md)
-* [API Throttling](throttling.md)
+* [API de limitation](throttling.md)
 
-Consultez la description détaillée des API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/).
+Consultez la description détaillée des API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling).
 
 ### Sources de données et capacité des actions personnalisées {#capacity}
 

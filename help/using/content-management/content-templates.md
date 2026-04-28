@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '232'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Pour créer, modifier et supprimer des modèles de contenu, vous devez disposer 
 
 >[!NOTE]
 >
->Vous pouvez également créer et gérer des modèles de contenu à l’aide d’API. Pour plus d’informations, consultez la [documentation sur les API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+>Vous pouvez également créer et gérer des modèles de contenu à l’aide d’API. Pour plus d’informations, consultez la [documentation sur les API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 
 ## Vidéo pratique {#video-templates}
 

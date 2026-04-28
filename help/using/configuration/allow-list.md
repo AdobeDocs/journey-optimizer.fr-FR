@@ -8,10 +8,10 @@ role: Admin
 level: Intermediate
 keywords: liste autorisée, liste sécurisée, e-mail, délivrabilité, sandbox, domaines, suppression, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 72%
+source-wordcount: '1341'
+ht-degree: 73%
 
 ---
 
@@ -27,7 +27,7 @@ Sur les sandbox hors production, où des envois accidentels peuvent se produire,
 
 Lorsque la liste autorisée est active mais vide, aucun e-mail n’est envoyé. Cela en fait un frein d’urgence utile : si un problème critique se produit, vous pouvez activer une liste autorisée vide pour arrêter toutes les communications sortantes depuis [!DNL Journey Optimizer] jusqu’à ce que le problème soit résolu. En savoir plus sur la [logique de liste autorisée](#logic).
 
-Vous pouvez également utiliser l’API Journey Optimizer **API REST de suppression** pour gérer les messages sortants par programmation via la suppression et les listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Vous pouvez également utiliser l’API Journey Optimizer **API REST de suppression** pour gérer les messages sortants par programmation via la suppression et les listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## Accéder à la liste autorisée {#access-allowed-list}
 

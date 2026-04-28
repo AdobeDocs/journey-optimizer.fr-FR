@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 100%
+source-wordcount: '3645'
+ht-degree: 97%
 
 ---
 
@@ -85,7 +85,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <table>
 <thead>
 <tr>
-<th><strong>Campagnes déclenchées par l’API</strong><br/></th>
+<th><strong>Campagnes déclenchées par API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -122,7 +122,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <table>
 <thead>
 <tr>
-<th><strong>Gouvernance et confidentialité des données</strong><br/></th>
+<th><strong>Gouvernance des données et confidentialité</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ table>
 
 **Contrôles d’audit**
 
-* Avec Journey Optimizer, vous pouvez identifier les actions effectuées par les utilisateurs du système sur divers services et fonctionnalités tels que les campagnes, les parcours, les messages, les pages de destination, etc. Les ressources du journal d’audit incluent désormais des modifications sur diverses autres actions et sont enregistrées automatiquement au fur et à mesure de l’activité. En savoir plus [sur cette page](../privacy/audit-logs.md).
+* Avec Journey Optimizer, vous pouvez identifier les actions effectuées par les utilisateurs du système sur divers services et fonctionnalités tels que les campagnes, les parcours, les messages, les pages de destination, etc. Les ressources du journal d’audit incluent désormais des modifications sur diverses autres actions et sont enregistrées automatiquement au fur et à mesure de l’activité. En savoir plus [sur cette page](../privacy/audit-logs.md).
 
 **Prise en charge de l’archivage**
 
@@ -448,7 +448,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Le module d’intégration du concepteur d’e-mail Adobe Stock et Adobe Journey Optimizer fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages. </br>La nouvelle option <b>Rechercher des photos Stock similaires</b> vous permet également de localiser les photos Stock qui correspondent au contenu, à la couleur et à la composition de vos images. </p>
+<p>Le plug-in d’intégration Adobe Stock and Adobe Journey Optimizer Email Designer offre aux clients un moyen facile de parcourir, d’obtenir des licences et d’enregistrer des images à utiliser dans la création de messages. </br> La nouvelle option <b>Trouver des photos Stock similaires</b> vous permet également de localiser les photos Stock qui correspondent au contenu, à la couleur et à la composition de vos images. </p>
 <p>Pour plus d’informations, consultez la <a href="../integrations/stock.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -738,7 +738,7 @@ table>
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
 The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you do not send mails to customers from your development sandbox.</p>
-<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
+<p>See <a href="https://developer.adobe.com/journey-optimizer-apis">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
 </tbody>
