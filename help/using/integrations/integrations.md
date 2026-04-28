@@ -10,10 +10,10 @@ level: Beginner
 keywords: Intégration
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 57%
+source-wordcount: '1227'
+ht-degree: 49%
 
 ---
 
@@ -134,6 +134,10 @@ Lorsque la reprise est activée, d’autres échecs suivent **trois** reprises p
 
    ![](assets/external-integration-config-5.png)
 
+   >[!NOTE]
+   >
+   >La configuration **[!UICONTROL Payload de réponse]** définit la réponse attendue pour la création, y compris tout schéma appliqué à cette étape. Les marketeurs peuvent référencer uniquement les champs exposés. Les jetons pour d’autres chemins ne sont pas validés dans l’éditeur.
+
 1. Utilisez **[!UICONTROL Envoyer une connexion de test]** pour valider l’intégration.
 
    Une fois la validation effectuée, cliquez sur **[!UICONTROL Activer]**.
@@ -146,7 +150,14 @@ Les appels respectent le taux **de limitation** que vous avez configuré : Journ
 
 Chaque message mis en file d’attente comporte également une fenêtre de validité (TTL). Si le traitement prend du retard et qu’un message reste au-delà de cette fenêtre, le système **ignore** et émet un événement **`MessageValidityExclusion`** afin que le travail obsolète soit effacé de la file d’attente et que les ressources restent disponibles.
 
+
 ## Utiliser des intégrations externes pour la personnalisation {#personalization}
+
+Avant d’utiliser les intégrations externes pour la personnalisation, notez que la planification et l’isolation des appels d’intégration dépendent du contexte d’exécution :
+
+* **Exécution par lots** (campagnes par lots, campagnes orchestrées et campagnes marketing déclenchées par l’API) : chaque exécution par lots fonctionne dans un environnement dédié et isolé. Les exécutions par lots simultanées qui appellent des systèmes externes ne se concurrencent pas et ne s’entravent donc pas.
+
+* **Exécution unitaire** (parcours unitaires, parcours par lots et campagnes transactionnelles déclenchées par l’API) : le trafic d’intégration est isolé par sandbox de marque, de sorte qu’une API externe lente pour une marque ne retarde pas une autre. Dans votre sandbox, les intégrations simultanées peuvent retarder brièvement d’autres messages pris en charge par l’intégration ; chaque message est tenté jusqu’à 12 heures avant son expiration.
 
 En tant que responsable marketing, vous pouvez utiliser des intégrations configurées pour personnaliser votre contenu. Procédez comme suit :
 
@@ -186,6 +197,10 @@ En tant que responsable marketing, vous pouvez utiliser des intégrations config
 1. Une fois les attributs d’intégration définis, vous pouvez utiliser les champs d’intégration de votre contenu pour envoyer des messages personnalisés en cliquant sur l’icône ![ajouter](assets/do-not-localize/Smock_Add_18_N.svg).
 
    ![](assets/external-integration-content-6.png)
+
+   >[!NOTE]
+   >
+   >Les jetons de votre modèle doivent utiliser uniquement les champs exposés par l’administrateur dans la configuration de l’intégration. Par exemple, `{{weatherResponse.temperature}}` est valide lorsque `temperature` est exposé ; `{{weatherResponse.humidity}}` est rejeté dans l’éditeur si `humidity` n’a pas été exposé.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
