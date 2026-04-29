@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 99%
+source-wordcount: '1490'
+ht-degree: 96%
 
 ---
 
@@ -91,7 +91,11 @@ Elle vous permet d’inclure une URL de désabonnement en un clic dans l’en-t�
 
 ## Paramètres d’en-tête {#email-header}
 
-Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms de l’expéditeur ou de l’expéditrice et les adresses e-mail associées au type d’e-mails envoyés à l’aide de cette configuration. [En savoir plus](header-parameters.md)
+Dans la section **[!UICONTROL Paramètres d’en-tête]** , saisissez les valeurs **De**, **Répondre à** et **Erreur** pour le type d’e-mails envoyés à l’aide de cette configuration. [En savoir plus](header-parameters.md)
+
+
+Si le tiers émetteur doit être différent de l’auteur **De**, vous pouvez également définir un nom **Expéditeur** et un adresse e-mail différents à ajouter à l’en-tête de l’e-mail. [En savoir plus](header-parameters.md#sender-header)
+
 
 ## E-mail Cci {#bcc-email}
 

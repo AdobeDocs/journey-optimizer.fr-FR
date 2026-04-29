@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de la configuration du canal e-mail
+title: Commencer la configuration du canal e-mail
 description: En savoir plus sur la configuration du canal e-mail dans  [!DNL Journey Optimizer].
 role: Admin
 level: Experienced
@@ -9,14 +9,14 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configuration, surface, sous-domaines
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+source-git-commit: 9274277872e34f47e05be1acfe248a3b3303cb13
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 84%
 
 ---
 
-# Prise en main de la configuration du canal e-mail {#get-starte-email-config}
+# Commencer la configuration du canal e-mail {#get-starte-email-config}
 
 Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Journey Optimizer], vous devez passer par plusieurs étapes de configuration.
 
@@ -39,7 +39,7 @@ Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Jou
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * Les adresses **[!UICONTROL e-mail expéditeur]** et **[!UICONTROL e-mail d’erreur]** doivent utiliser le sous-domaine délégué actuellement sélectionné. [En savoir plus](email-settings.md#email-header)
+   * Les champs **[!UICONTROL Préfixe d’e-mail de l’expéditeur]** et **[!UICONTROL Préfixe d’e-mail d’erreur]** utilisent le [sous-domaine délégué](../configuration/about-subdomain-delegation.md) actuellement sélectionné. Vous pouvez éventuellement identifier **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** une autre partie émettrice (adresse **expéditeur** complète, non liée à ce suffixe de sous-domaine). [En savoir plus](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
