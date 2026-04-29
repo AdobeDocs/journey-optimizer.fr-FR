@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 98%
+source-wordcount: '2189'
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 98%
 >[!AVAILABILITY]
 >
 >Le nouveau **workflow de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile, afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique. [En savoir plus](mobile-onboarding-wf.md)
->
 
 ## Avant de commencer {#start-push}
 
@@ -238,11 +237,28 @@ Une fois vos informations d’identification push créées, vous devez créer un
 
 1. Choisissez votre **[!UICONTROL plateforme]** : Android et/ou iOS <!--and/or Web-->.
 
-1. Sélectionnez le même **[!UICONTROL ID d’application]** que pour vos [informations d’identification push](#push-credentials-launch) configurées ci-dessus.
+1. Pour **[!UICONTROL ID de l’application]**, sélectionnez la valeur correspondant à vos [informations d’identification push](#push-credentials-launch). Vous pouvez éventuellement utiliser la personnalisation pour piloter de nombreuses applications à partir d’un parcours ou d’une campagne. [En savoir plus](#app-id-personalization)
 
-1. Enregistrez vos modifications.
+1. **Enregistrez** vos modifications.
 
 Vous pouvez maintenant sélectionner votre configuration lors de la création de vos notifications push.
+
+### Personnaliser l’ID d’application (facultatif) {#app-id-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_app_id"
+>title="Personnaliser l’ID d’application"
+>abstract="Lorsque vous gérez plusieurs applications mobiles, stockez chaque identifiant d&#39;application sur le profil et utilisez une configuration de canal push unique. Ouvrez l’éditeur de personnalisation à côté du champ ID de l’application pour sélectionner un attribut de profil ; l’expression est évaluée au moment de l’envoi pour chaque destinataire. Assurez-vous que les informations d’identification push existent pour chaque identifiant d’application que votre expression peut renvoyer."
+
+Lorsque vous avez de nombreuses marques ou clients avec des applications distinctes, vous pouvez stocker chaque **[!UICONTROL ID d’application]** sur le profil et utiliser une configuration de canal unique pour envoyer des notifications push à l’application appropriée pour chaque destinataire.
+
+Pour ce faire, cliquez sur l’icône Personalization en regard du champ **[!UICONTROL ID de l’application]**, sélectionnez un attribut de profil mappé sur l’ID de l’application, puis enregistrez. Le champ utilise l’expression [Handlebars](../personalization/personalization-syntax.md) correspondante évaluée pour chaque destinataire au moment de l’envoi.
+
+![](assets/push-config-11.png){width="70%"}
+
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer] ne vérifie pas que les [informations d’identification push](#push-credentials-launch) existent pour chaque valeur que l’expression peut renvoyer. Vérifiez que vous disposez des informations d’identification push pour chaque identifiant d’application possible et effectuez des tests avec des profils représentatifs. Si l&#39;ID d&#39;application résolu d&#39;un destinataire ne correspond à aucune information d&#39;identification push, ils ne seront pas diffusés comme prévu.
 
 ## Étape 3 : configurer l’extension Adobe Journey Optimizer dans votre propriété mobile {#configure-journey-optimizer-extension}
 
@@ -411,4 +427,3 @@ Votre événement est maintenant créé et peut être utilisé dans un parcours.
 1. Cliquez sur **[!UICONTROL Envoyer]**.
 
 Votre événement sera déclenché et vous recevrez votre notification push sur votre application mobile.
-
