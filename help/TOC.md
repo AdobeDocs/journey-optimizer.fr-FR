@@ -52,7 +52,7 @@ ht-degree: 91%
       + {hide-from-toc}[Parcours ou campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer avec les parcours](using/building-journeys/journey.md)
-   + Guide de prise en main du Parcours {hide-from-toc}[](using/building-journeys/journey-get-started.md)
+   + {hide-from-toc}[Guide de prise en main du Parcours &#x200B;](using/building-journeys/journey-get-started.md)
    + {hide-from-toc}[types de Parcours et guide de sélection](using/building-journeys/journey-types-selection.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
@@ -79,7 +79,7 @@ ht-degree: 91%
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[Fragments de Parcours ](using/building-journeys/journey-fragments.md)
+      + {hide-from-toc}[Fragments de Parcours &#x200B;](using/building-journeys/journey-fragments.md)
    + Activités {#about-journey-building}
       + [Activités](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
@@ -595,7 +595,7 @@ ht-degree: 91%
          + [Rapport de campagne par e-mail](using/reports/campaign-global-report-cja-email.md)
          + [Rapport de campagne d’expérimentation](using/reports/campaign-global-report-cja-experimentation.md)
          + [Rapport de campagne in-app](using/reports/campaign-global-report-cja-inapp.md)
-         + {hide-from-toc}[ Rapport de campagne d’activité dynamique ](using/reports/campaign-global-report-cja-activity.md)
+         + {hide-from-toc}[&#x200B; Rapport de campagne d’activité dynamique &#x200B;](using/reports/campaign-global-report-cja-activity.md)
          + [Rapport de campagne de notifications push](using/reports/campaign-global-report-cja-push.md)
          + [Rapport de campagne par SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Rapport de campagne web](using/reports/campaign-global-report-cja-web.md)
