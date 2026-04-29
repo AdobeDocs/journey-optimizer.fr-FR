@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: aef18a41657866c5c612442c460b5c464553eaba
 workflow-type: tm+mt
 source-wordcount: '3276'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 90%
       + [Définir des heures creuses](using/conflict-prioritization/quiet-hours.md)
    + arbitrage de parcours {#journey-arbitration}
       + [Utilisation de formules pour classer les parcours](using/conflict-prioritization/journey-ranking-formulas.md)
-      + {hide-from-toc}[Utilisez les modèles d’IA pour classer les parcours &#x200B;](using/conflict-prioritization/journey-ai-models.md)
+      + [Utilisation des modèles d’IA pour classer les parcours](using/conflict-prioritization/journey-ai-models.md)
 + Tester et approuver {#test}
    + [Tester, valider et approuver](/help/rp_landing_pages/test-landing-page.md)
    + Prévisualiser et tester du contenu {#preview-test}
@@ -509,7 +509,7 @@ ht-degree: 90%
       + {hide-from-toc}[Prise en main de l’intégration des fournisseurs](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Exemples de configurations de fournisseur](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[Utilisation des outils d’IA via MCP](/help/using/integrations/ajo-mcp.md)
+      + [Utilisation des outils d’IA via MCP](/help/using/integrations/ajo-mcp.md)
    + Assistant IA pour la génération de contenu {#ai-assistant}
       + [Assistant IA pour la génération de contenu](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
@@ -915,7 +915,7 @@ ht-degree: 90%
       + [Liste autorisée](using/configuration/allow-list.md)
    + [Utiliser des listes de contrôle](using/configuration/seed-lists.md)
    + [Prise en charge de l’archivage des e-mails](using/configuration/archiving-support.md)
-   + {hide-from-toc}[Ajouter un champ CC aux e-mails](using/configuration/cc-email-field.md)
+   + [Ajouter un champ CC aux e-mails](using/configuration/cc-email-field.md)
    + [Gérer les champs d’exécution](using/configuration/primary-email-addresses.md)
    + [Créer des webhooks de commentaires](using/configuration/feedback-webhooks.md)
 + Configuration de parcours {#configure-journeys}
