@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 88%
+source-wordcount: '1336'
+ht-degree: 86%
 
 ---
 
@@ -92,14 +92,14 @@ Vous pouvez également personnaliser tous les paramètres d’en-tête définis 
 
 >[!NOTE]
 >
->* Tous les champs **[!UICONTROL Paramètres d’en-tête]** peuvent être personnalisés, à l’exception du champ **[!UICONTROL Préfixe d’e-mail d’erreur]**.
+>* Tous les champs **[!UICONTROL Paramètres d’en-tête]** et facultatifs **[!UICONTROL En-têtes d’expéditeur]** peuvent être personnalisés, à l’exception du champ **[!UICONTROL Préfixe d’e-mail d’erreur]**.
 >* Lors de la [modification d’une configuration d’e-mail](../configuration/channel-surfaces.md#edit-channel-surface), vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une configuration de canal à la place.
 
 Par exemple, si vous possédez plusieurs marques, vous pouvez créer une configuration unique et utiliser des valeurs personnalisées pour vos en-têtes d’e-mail. Vous pouvez ainsi vous assurer que tous les e-mails envoyés à partir de vos différentes marques sont adressés à chacun de vos clientes et clients avec les bons noms d’expéditeur et d’expéditrice (**De**) et les bonnes adresses e-mail. De la même manière, lorsque vos destinataires appuient sur le bouton **Répondre** dans leur logiciel client de messagerie, vous souhaitez que les noms dans **Répondre à** et que les e-mails correspondent à la bonne marque pour le bon utilisateur ou la bonne utilisatrice.
 
 Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de configuration, procédez comme suit.
 
-1. Définissez les paramètres d’en-tête comme vous en avez l’habitude. [Voici comment procéder](email-settings.md#email-header)
+1. Définissez les paramètres d’en-tête comme vous en avez l’habitude. [Voici comment procéder](header-parameters.md)
 
 1. Pour chaque champ, sélectionnez l’icône Modifier.
 
@@ -125,7 +125,7 @@ Les exemples ci-dessous utilisent des paramètres d’événement, qui ne sont a
 
 >[!NOTE]
 >
->Si vous avez ajouté un ou plusieurs sous-domaines dynamiques à votre configuration, les suffixes de l’**E-mail de l’expéditeur ou de l’expéditrice** et de l’**E-mail d’erreur** seront renseignés en fonction du [sous-domaine dynamique](#dynamic-subdomains) résolu.
+>Si vous avez ajouté un ou plusieurs sous-domaines dynamiques à votre configuration, les suffixes de l’**E-mail de l’expéditeur ou de l’expéditrice** et de l’**E-mail d’erreur** seront renseignés en fonction du [sous-domaine dynamique](#dynamic-subdomains) résolu. **[!UICONTROL E-mail de l’expéditeur]**, lorsqu’il est défini, est une adresse complète et n’est pas créé à partir de ce suffixe de sous-domaine.
 
 ## Utiliser le tracking personnalisé des URL {#personalize-url-tracking}
 

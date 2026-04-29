@@ -7,12 +7,12 @@ feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
-keywords: paramètres, e-mail, configuration
+keywords: paramètres, e-mail, configuration, en-tête de l'expéditeur, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 90%
+source-wordcount: '1089'
+ht-degree: 59%
 
 ---
 
@@ -24,12 +24,16 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 >
 >Pour un contrôle accru des paramètres d’e-mail, vous pouvez personnaliser les paramètres d’en-tête. [En savoir plus](../email/surface-personalization.md#personalize-header)
 >
->Lors de la [&#x200B; modification d’une configuration d’e-mail](../configuration/channel-surfaces.md#edit-channel-surface) vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une configuration de canal.
+>Lors de la [ modification d’une configuration d’e-mail](../configuration/channel-surfaces.md#edit-channel-surface) vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une configuration de canal.
 
 * **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]** : nom de l’expéditeur ou de l’expéditrice, tel que le nom de votre marque.
+
 * **[!UICONTROL Préfixe d’e-mail d’expéditeur]** : adresse e-mail à utiliser pour vos communications.
+
 * **[!UICONTROL Répondre à (nom)]** : nom qui est utilisé lorsque le ou la destinataire clique sur le bouton **Répondre** de son logiciel de messagerie.
+
 * **[!UICONTROL Répondre à (e-mail)]** : adresse e-mail qui est utilisée lorsque le ou la destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. [En savoir plus](#reply-to-email)
+
 * **[!UICONTROL Préfixe d’e-mail d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (rebonds asynchrones) sont reçues à cette adresse. Les notifications d’absence du bureau et les réponses de défi sont également reçues à cette adresse.
 
   Si vous souhaitez recevoir les notifications d’absence du bureau et demander des réponses de défi à une adresse e-mail spécifique qui n’est pas déléguée à Adobe, vous devez configurer un [processus de transfert](#forward-email). Dans ce cas, veillez à mettre en place une solution manuelle ou automatisée pour traiter les e-mails arrivant dans cette boîte de réception.
@@ -45,7 +49,42 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 
 >[!NOTE]
 >
->Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
+>Pour **[!UICONTROL Préfixe d’e-mail de l’expéditeur]** et **[!UICONTROL Préfixe d’e-mail d’erreur]**, les valeurs doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser des `_` de soulignement, des `.` de point et des tirets `-`.
+
+## En-têtes de l’expéditeur {#sender-header}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_sender_header"
+>title="En-têtes de l’expéditeur"
+>abstract="Utilisez ces champs facultatifs lorsque l’entité d’émission (expéditeur) diffère de l’entité de création (de), par exemple un parent d’entreprise distribuant des messages pour une marque enfant ou une agence envoyant pour plusieurs clients. Les clients de messagerie qui prennent en charge cette fonctionnalité l’affichent généralement sous la forme « Expéditeur au nom de l’expéditeur » ou affichent un indicateur « via »."
+
+Certains cas d’utilisation nécessitent que la boîte aux lettres qui transmet le message soit différente de l’auteur **De** ; par exemple, une organisation parente qui envoie pour le compte d’une filiale, une équipe marketing partagée pour plusieurs marques ou une agence qui envoie pour plusieurs clients.
+
+En d’autres termes, **De** est l’auteur du message (de qui l’e-mail provient) et **Expéditeur** est l’agent responsable de la transmission du message (qui l’a effectivement envoyé). Le champ **Expéditeur** est destiné à être utilisé lorsque l’entité de transmission est différente de l’auteur.
+
+Dans ce cas, vous pouvez définir un nom et une adresse e-mail **Expéditeur** différents à ajouter à l’en-tête de l’e-mail à l’aide des champs suivants de la section **En-têtes de l’expéditeur** :
+
+* **[!UICONTROL Nom de l’expéditeur]** : le nom de la partie responsable de la transmission du message lorsqu’il diffère de l’auteur **De**.
+
+* **[!UICONTROL E-mail de l’expéditeur]** : adresse e-mail de la partie émettrice.
+
+![](assets/preset-sender-header.png){width="80%"}
+
+>[!NOTE]
+>
+>Ces champs sont facultatifs. Vous pouvez les [personnaliser](surface-personalization.md#personalize-header) comme les autres champs d’en-tête.
+
+Lorsque les paramètres **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** sont définis, [!DNL Journey Optimizer] ajoute un en-tête SMTP **Expéditeur** à l’e-mail<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. Les clients de messagerie qui prennent en charge cette fonctionnalité peuvent afficher un libellé tel que **Expéditeur pour le compte de l’expéditeur** ou un indicateur **via**.
+
+>[!NOTE]
+>
+>Si vous laissez les champs **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** vides ou si l’en-tête **Expéditeur** résolu est identique à **De**, aucun en-tête **Expéditeur** n’est ajouté.
+
+Remarques :
+
+* L’adresse **Expéditeur** n’est pas utilisée pour l’alignement SPF, DKIM ou DMARC ; seule la validation **format** est effectuée. SPF, DKIM et DMARC continuent de s’appuyer sur les champs **De**. Le [sous-domaine délégué](../configuration/about-subdomain-delegation.md) sélectionné pour la configuration reste le domaine d’envoi utilisé pour ces vérifications.
+
+* Si **Expéditeur** est configuré et que la personnalisation ne correspond pas à une valeur pour un destinataire, le message n’est pas remis à ce destinataire.
 
 ## Adresse e-mail de réponse {#reply-to-email}
 

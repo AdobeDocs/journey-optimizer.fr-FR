@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 95%
+source-wordcount: '1898'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 >title="Action marketing"
 >abstract="Sélectionnez les Actions marketing pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement liées à l’action marketing seront utilisées pour respecter les préférences de vos clientes et clients."
 
-Avec [!DNL Journey Optimizer], vous pouvez paramétrer des configurations de canal (c’est-à-dire des paramètres prédéfinis de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’e-mail, nom et adresse e-mail de l’expéditeur ou de l’expéditrice, applications mobiles, configuration des SMS, etc.
+Avec [!DNL Journey Optimizer], vous pouvez configurer des configurations de canal (c’est-à-dire des préréglages de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’e-mail, nom et adresse e-mail de l’expéditeur, routage des réponses et des erreurs, applications mobiles, configuration des SMS, etc.
 
 >[!CAUTION]
 >
@@ -63,7 +63,7 @@ Vous pouvez également utiliser la configuration de canal guidée pour automatis
 
 Pour créer une configuration des canaux, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
 
    ![](assets/preset-create.png)
 
@@ -292,4 +292,4 @@ Vous ne pouvez pas modifier directement une configuration de canal désactivée.
 
 Découvrez les configurations de canal et leur utilisation dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480453/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
