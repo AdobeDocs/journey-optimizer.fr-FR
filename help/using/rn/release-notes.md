@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
+source-git-commit: 5336d78b070bbbdc735c56f53c284fbe9eff815d
 workflow-type: tm+mt
-source-wordcount: '2038'
-ht-degree: 20%
+source-wordcount: '2020'
+ht-degree: 19%
 
 ---
 
@@ -290,15 +290,11 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 
 * **Prise en charge des variations de fragments de contenu Adobe Experience Manager** - Vous pouvez sélectionner **Variations de fragments de contenu** (par exemple, variantes de langue ou de canal) lors de l’insertion de fragments de contenu Adobe Experience Manager, avec une gestion améliorée pour les scénarios régionaux et multilingues. [En savoir plus](../integrations/aem-fragments.md#aem-variations)
 
-  Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
-
-  Date de disponibilité : 3 avril 2026
+  Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
 
 * **Contexte de fragment de contenu Adobe Experience Manager lors de la création** - Votre sélection de fragment de contenu reste active lorsque vous passez d’un champ de texte à un bloc de contenu. Vous pouvez ainsi ajouter d’autres champs de fragment sans rouvrir **Ouvrez le conseiller en contenu AEM** à chaque fois. [En savoir plus](../integrations/aem-fragments.md)
 
-  Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
-
-  Date de disponibilité : 1er avril 2026
+  Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
 
 #### Conception d’e-mail
 
