@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, en-tête de l'expéditeur, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
+source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 59%
@@ -131,3 +131,4 @@ Vous devrez fournir les éléments suivants :
 L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 à 4 jours.
 
 Une fois cette opération terminée, tous les messages reçus aux adresses **[!UICONTROL Répondre à (e-mail)]** et **E-mail d’erreur**, ainsi que tous les e-mails envoyés à l’adresse **E-mail d’expéditeur**, sont transférés à l’adresse e-mail spécifique que vous avez fournie.
+
