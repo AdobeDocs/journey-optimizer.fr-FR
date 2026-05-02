@@ -5,21 +5,23 @@ git-repo: https://github.com/AdobeDocs/journey-optimizer.fr-FR
 index: true
 product: Journey Optimizer
 solution: Journey Optimizer
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature-set: Journey Optimizer
 landing-page-name: journey-optimizer
 landing-page-breadcrumb-title: Journey Optimizer
 solution-title: Journey Optimizer Documentation
-source-git-commit: 211ebdaaf1e9b046d4528f28b0ce0db406f2d7f3
+source-git-commit: e254eeaa6299ee42b419eeaba30ce304cbd14ae0
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 100%
+source-wordcount: 148
+ht-degree: 96%
 
 ---
 
 
 # Métadonnées à usage interne
 
-Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier du contenu metadata.md pour n’importe quel guide de l’utilisateur, effectuez vos modifications dans n’importe quel fichier TOC.md.
+Le fichier metadata.md inclut des métadonnées au niveau du référentiel qui sont transmises aux fichiers TOC.md du guide utilisateur dans le référentiel. Si vous souhaitez modifier le contenu de metadata.md pour un guide utilisateur, faites-le dans n’importe quel fichier TOC.md.
 
 | métadonnées | son fonctionnement |
 |--- |--- |
@@ -36,4 +38,4 @@ Dans le fichier TOC.md
 | métadonnées | son fonctionnement |
 |--- |--- |
 | user-guide-title | Utilisé dans l’en-tête de l’article comme lien |
-| user-guide-url | Ouvre la page hub d’aide |
+| user-guide-url | Ouvre la page du hub HelpX |
