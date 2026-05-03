@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5336d78b070bbbdc735c56f53c284fbe9eff815d
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 19%
+source-wordcount: '2028'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Nouveautés"
->abstract="**&#x200B;** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
+>abstract="**** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
 
 [!DNL Adobe Journey Optimizer] suit un modèle de diffusion continu, ce qui permet à Adobe de fournir en continu de nouvelles fonctionnalités, de nouvelles améliorations et de nouveaux correctifs. Cette approche permet un déploiement évolutif et échelonné des fonctionnalités afin d’assurer les performances et la stabilité dans tous les environnements.
 
@@ -32,7 +32,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Les nouvelles fonctionnalités et améliorations publiées début avril sont accompagnées de leur date de disponibilité.
@@ -40,6 +40,24 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 **Date de publication** : 28 et 29 avril 2026
 
 ### Nouvelles fonctionnalités {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité Requête incrémentale dans les campagnes orchestrées</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les <strong>campagnes orchestrées</strong> prennent désormais en charge une activité <strong>Requête incrémentale</strong> qui cible uniquement les profils ou les événements nouvellement éligibles depuis la dernière exécution.
+
+Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences (nouvelles inscriptions, membres nouvellement qualifiés du programme de fidélité et segments similaires) tout en réduisant la charge de travail des requêtes et en évitant les envois redondants au fil du temps.</p>
+<p>Pour plus d’informations, consultez la <a href="../orchestrated/activities/incremental-query.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -324,6 +342,7 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 
 #### Campagnes orchestrées
 
+* **Variables globales dans les campagnes orchestrées** - Les campagnes orchestrées prennent désormais en charge les variables globales qui peuvent être définies une seule fois et réutilisées dans toutes les activités d’un workflow. Cela simplifie la configuration et garantit la cohérence des valeurs dynamiques, des expressions et de la personnalisation du contenu. [En savoir plus](../orchestrated/global-variables.md)
 * **Améliorations apportées à Data Modeler** - Les schémas relationnels orchestrés prennent désormais en charge les clés composites s’étendant sur plusieurs champs. Le chargement d’un schéma à partir d’un fichier DDL génère également des énumérations. En outre, le chargement d’un fichier DDL ou Excel crée automatiquement des relations composites entre les tables. Dans la vue de relation d’entité, les liens composites affichent désormais l’ensemble complet des paires de champs entre les tables après le chargement d’un fichier. [En savoir plus](../orchestrated/gs-schemas.md)
 
 ## Bientôt disponible {#coming-soon}
@@ -368,23 +387,6 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <table>
 <thead>
 <tr>
-<th><strong>Activité Requête incrémentale dans les campagnes orchestrées</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les <strong>campagnes orchestrées</strong> prennent désormais en charge une activité <strong>Requête incrémentale</strong> qui cible uniquement les profils ou les événements nouvellement éligibles depuis la dernière exécution.
-
-Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences (nouvelles inscriptions, membres nouvellement qualifiés du programme de fidélité et segments similaires) tout en réduisant la charge de travail des requêtes et en évitant les envois redondants au fil du temps.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Liens profonds dans le Designer des emails</strong><br/></th>
 </tr>
 </thead>
@@ -404,8 +406,3 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 #### Configuration
 
 * **Autorisations spécifiques pour les clés de chiffrement des paramètres d’URL** - Pour accéder aux clés de chiffrement des paramètres d’URL et les gérer, de nouvelles autorisations ont été créées. Vous devez maintenant disposer des autorisations **Afficher le registre des clés** et **Gérer le registre des clés** accordées. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
-
-#### Campagnes orchestrées
-
-* **Variables globales dans les campagnes orchestrées** - Les campagnes orchestrées prennent désormais en charge les variables globales qui peuvent être définies une seule fois et réutilisées dans toutes les activités d’un workflow. Cela simplifie la configuration et garantit la cohérence des valeurs dynamiques, des expressions et de la personnalisation du contenu.
-
