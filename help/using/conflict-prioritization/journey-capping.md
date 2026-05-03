@@ -4,10 +4,10 @@ description: Découvrez comment créer des règles de limitation pour vos parcou
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 98%
 
 ---
 
@@ -115,8 +115,8 @@ Une fois un parcours actif, vous pouvez vérifier dans le rapport de parcours si
 
 ![](assets/journey-report.png)
 
-En outre, vous pouvez également utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour créer des requêtes permettant d’identifier quelle règle a empêché un profil de rejoindre un parcours donné. Un exemple de requête est disponible dans [cette section](../reports/query-examples.md#common-queries).
+En outre, vous pouvez également utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour créer des requêtes permettant d’identifier quelle règle a empêché un profil de rejoindre un parcours donné. Des exemples de requête, y compris la sous-raison Ignorer (`CAP_REACHED` ou `LOWER_PRIORITY`), sont disponibles dans [cette section](../reports/query-examples.md#business-rules-queries).
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

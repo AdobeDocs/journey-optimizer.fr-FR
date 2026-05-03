@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 62%
+source-wordcount: '1102'
+ht-degree: 61%
 
 ---
 
@@ -119,7 +119,7 @@ Le tableau **[!UICONTROL Canaux]** fournit une répartition détaillée de l’e
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
-* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos messages.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu de vos messages.
 
 +++
 
@@ -143,7 +143,7 @@ Le tableau **[!UICONTROL Limitation et conflits de Parcours]** fournit des infor
 
 La colonne **[!UICONTROL Entrées de Parcours par jeu de règles]** indique le nombre de profils entrés dans le parcours. Il existe trois types d&#39;entrées :
 
-* **&#x200B;**&#x200B;[!UICONTROL Aucun conflit]&#x200B;**&#x200B;** : le profil est entré dans le parcours sans conflit d’ensemble de règles. Aucun jeu de règles actif n&#39;a empêché cette saisie, et la saisie de parcours s&#39;est produite indépendamment des règles d&#39;arbitrage.
+* ****[!UICONTROL Aucun conflit]**** : le profil est entré dans le parcours sans conflit d’ensemble de règles. Aucun jeu de règles actif n&#39;a empêché cette saisie, et la saisie de parcours s&#39;est produite indépendamment des règles d&#39;arbitrage.
 
 * **Priorité plus élevée** : le profil est entré sur le parcours en raison de sa priorité plus élevée que les autres parcours concurrents. Malgré un conflit (le profil était qualifié pour plusieurs parcours), ce parcours a été sélectionné en raison de son score de priorité plus élevé.
 
@@ -157,7 +157,9 @@ La colonne **[!UICONTROL Exclusions]** indique le nombre de profils qui ont ét�
 
 +++
 
-➡️ [En savoir plus sur la limitation et l’arbitrage des parcours &#x200B;](../conflict-prioritization/journey-capping.md)
+Pour en savoir plus sur ces exclusions au niveau du lac de données à l’aide de Adobe Experience Platform Query Service, consultez [Requêtes relatives aux règles métier](query-examples.md#business-rules-queries).
+
+➡️ [En savoir plus sur la limitation et l’arbitrage des parcours ](../conflict-prioritization/journey-capping.md)
 
 ## Modèles d’optimisation {#optimization-models}
 
