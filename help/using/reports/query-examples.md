@@ -30,7 +30,7 @@ Avant d’exécuter une requête sur cette page, vérifiez les points suivants :
 
 >[!TIP]
 >
->**Vous découvrez Query Service ?** Ouvrez [](https://experience.adobe.com/), accédez à **Query Service > Requêtes**, collez un exemple ci-dessous, remplacez les valeurs d’espace réservé (par exemple, `<journeyVersionID>`, `<last x hours>`) et sélectionnez **Exécuter**.
+>**Vous découvrez Query Service ?** Ouvrez [&#128279;](https://experience.adobe.com/), accédez à **Query Service > Requêtes**, collez un exemple ci-dessous, remplacez les valeurs d’espace réservé (par exemple, `<journeyVersionID>`, `<last x hours>`) et sélectionnez **Exécuter**.
 
 ## Trouver la bonne requête {#find-query}
 
