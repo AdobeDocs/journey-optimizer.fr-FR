@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 1f5d5138674633b8b2da1d54b45d66a17ab30dcc
+source-git-commit: 5bbe7aa2e1acfc02fc8d6fdd571c9640d848dc76
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 34%
+source-wordcount: '1479'
+ht-degree: 35%
 
 ---
 
@@ -156,7 +156,7 @@ Dans ce cas, assurez-vous que **_variableName_** est déclaré avant d’ajouter
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Vous pouvez maintenant tester et vérifier le contenu de votre message, comme indiqué dans [cette section](../content-management/preview.md).
 
-   <!--Note that the Content Fragment you selected stays active for this message. When you open the Personalization Editor in another field or content block, you can keep working with the same fragment from the **[!UICONTROL AEM Content Fragment]** section and add more fields without reopening **[!UICONTROL Open AEM CF selector]**.-->
+   Notez que le fragment de contenu que vous avez sélectionné reste actif pour ce message. Lorsque vous ouvrez l’éditeur Personalization dans un autre champ ou bloc de contenu, vous pouvez continuer à utiliser le même fragment de la section **[!UICONTROL Fragment de contenu AEM]** et ajouter d’autres champs sans rouvrir **[!UICONTROL Ouvrir le sélecteur AEM CF]**.
 
 Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez [envoyer votre campagne](../campaigns/review-activate-campaign.md) ou [publier votre parcours](../building-journeys/publish-journey.md) pour votre audience.
 
