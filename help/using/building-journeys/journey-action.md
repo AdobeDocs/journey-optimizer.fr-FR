@@ -12,8 +12,8 @@ exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 81%
+source-wordcount: '1569'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Activité Action"
->abstract="L’activité **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en ajoutant une optimisation à toute action de canal intégrée."
+>abstract="L’activité **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en optimisant toute action de canal intégrée."
 
 L’activité **Action** est le point d’entrée unique pour toutes les actions de canal dans la zone de travail de parcours.
 
@@ -146,7 +146,7 @@ Pour ajouter une action de canal intégrée à votre parcours à l’aide de l�
       <img alt="Peu fréquent" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
-      <a href="../code-based/create-code-based.md"><strong>Créer des expériences basées sur le code<strong></a>
+      <a href="../code-based/create-code-based.md"><strong>Création d’expériences basées sur du code<strong></a>
       </div>
       <p>
       </td>
@@ -169,7 +169,7 @@ Pour ajouter une action de canal intégrée à votre parcours à l’aide de l�
 
    Ces différentes options et les étapes à suivre sont présentées dans [cette section](../content-management/gs-message-optimization.md).
 
-1. Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre action de parcours. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez les **[!UICONTROL paramètres de langue]** souhaités.
+1. Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre action de parcours. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez l’option **[!UICONTROL Paramètres de langue]** souhaitée.
 
    Vous trouverez des informations détaillées sur la configuration et l’utilisation des fonctionnalités multilingues dans [cette section](../content-management/multilingual-gs.md).
 

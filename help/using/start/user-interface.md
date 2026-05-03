@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1378'
 ht-degree: 83%
 
 ---
@@ -41,7 +41,7 @@ L’interface de Journey Optimizer se compose de quatre zones principales :
 
 ### Recherche universelle {#universal-search}
 
-Utilisez l’icône de recherche pour rechercher rapidement des parcours, des campagnes, des ressources et d’autres objets dans Journey Optimizer. Saisissez des mots-clés pour afficher les résultats pertinents dans toutes les zones de la plateforme. [En savoir plus sur la recherche universelle](search-filter-categorize.md#unified-search).
+Utilisez l’icône de recherche pour rechercher rapidement des parcours, des campagnes, des ressources et d’autres objets dans Journey Optimizer. Saisissez des mots-clés pour afficher les résultats pertinents issus de toutes les zones de la plateforme. [En savoir plus sur la recherche universelle](search-filter-categorize.md#unified-search).
 
 ### Aide et support {#help}
 
@@ -82,7 +82,7 @@ Pour configurer les notifications :
 
 ![Préférences des notifications](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
-### Préférences linguistiques {#language}
+### Préférences de langue {#language}
 
 L’interface est disponible en anglais, français, allemand, italien, espagnol, portugais (brésilien), japonais, coréen, chinois traditionnel et chinois simplifié.
 
@@ -338,28 +338,3 @@ L’assistant IA offre une aide instantanée et des informations opérationnelle
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Paramètres d’en-tête"
 >abstract="Dans cette section, vous pouvez configurer des en-têtes personnalisés supplémentaires à envoyer avec chaque requête de webhook."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery"
->title="Requête incrémentale"
->abstract="La requête incrémentale est une activité de ciblage qui exécute une requête de base de données à chaque exécution de la campagne orchestrée. Il renvoie uniquement les nouveaux enregistrements et exclut tous ceux déjà inclus dans une exécution précédente, afin d’éviter de recibler les mêmes personnes ou de réexporter les mêmes lignes."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_processeddata"
->title="Données traitées"
->abstract="Sous Données traitées, choisissez comment exclure les enregistrements des exécutions précédentes. Avec l’option Exclure les résultats de l’exécution précédente, l’activité conserve une liste des enregistrements renvoyés lors des exécutions précédentes ; chaque exécution les exclut et ne renvoie que les nouveaux. Avec l’option Utiliser un champ de date, l’activité utilise un champ de date sélectionné au lieu d’effectuer le suivi d’identifiants individuels et chaque exécution renvoie uniquement les lignes dont la date est postérieure à la dernière exécution."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_history"
->title="Jours d’historique"
->abstract="Ce paramètre contrôle la durée de conservation de cette liste. Une valeur égale à 0 signifie une conservation indéfinie ; aucun enregistrement n’est supprimé."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="Emplacement sur la page"
->abstract="."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_app_id"
->title="ID d’application"
->abstract="."

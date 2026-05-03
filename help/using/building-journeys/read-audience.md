@@ -12,8 +12,8 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '3435'
-ht-degree: 63%
+source-wordcount: '3538'
+ht-degree: 64%
 
 ---
 
@@ -26,7 +26,7 @@ Utilisez l’activité Lecture d’audience pour démarrer des parcours avec des
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Activité Lecture d’audience"
->abstract="Ajoutez à ce parcours tous les profils qualifiés d’une audience [!DNL Adobe Experience Platform] sélectionnée. Exécuter une fois ou selon un planning."
+>abstract="Ajoutez à ce parcours tous les profils qualifiés d’une audience [!DNL Adobe Experience Platform] sélectionnée. Exécutez une fois ou selon un planning."
 
 L’activité **Lecture d’audience** est l’activité de point d’entrée du parcours qui ajoute tous les profils d’une audience [!DNL Adobe Experience Platform] sélectionnée à un parcours. Vous pouvez exécuter l’entrée une fois ou selon une planification récurrente. Dans les API et les références techniques, cette activité est également appelée entrée de parcours déclenchée par un segment ou basée sur une audience.
 
@@ -55,12 +55,12 @@ Par exemple, l’audience `Luma app opening and checkout` créée dans le cas d�
 
 Vous définissez les éléments suivants : **Audience** (obligatoire), **Espace de noms** (obligatoire), **Taux de lecture** (obligatoire, 5 000/s par défaut) et **Planification** (lors de l’exécution du parcours). Vous pouvez éventuellement ajouter un **Libellé** et **Identifiant supplémentaire**. Les étapes ci-dessous vous guident à travers chaque paramètre.
 
-### Ajouter une activité et sélectionner une audience {#add-activity-and-select-audience}
+### Ajouter une activité et sélectionner l’audience. {#add-activity-and-select-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_label"
 >title="Libellé"
->abstract="Libellé facultatif permettant d’identifier cette activité dans les journaux du mode reporting et test."
+>abstract="Libellé facultatif pour identifier cette activité dans les journaux de mode de test et les rapports."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
@@ -133,7 +133,7 @@ Tous les mécanismes de sécurisation et les limitations de l’activité **Lect
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_reading_rate"
 >title="Taux de lecture"
->abstract="Nombre maximal de profils entrant dans le parcours par seconde (500 à 20 000). La valeur par défaut est 5 000."
+>abstract="Nombre maximal de profils entrant dans le parcours par seconde (de 500 à 20 000). La valeur par défaut est de 5 000."
 
 Définissez le paramètre **[!UICONTROL Taux de lecture]** (obligatoire). Il s’agit du nombre maximum de profils pouvant entrer dans le parcours par seconde. Ce taux s’applique uniquement à cette activité et non aux autres activités du parcours. Si vous souhaitez définir un taux de limitation pour les actions personnalisées, par exemple, vous devez utiliser l’API de limitation. Voir cette [page](../configuration/throttling.md).
 
@@ -148,7 +148,7 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Date et heure de début"
->abstract="Définissez quand démarrer ce parcours."
+>abstract="Définissez le moment où démarrer ce parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
@@ -157,7 +157,7 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
->title="Répéter chaque"
+>title="Fréquence de répétition"
 >abstract="Fréquence d’exécution du parcours (par exemple, quotidienne, hebdomadaire)."
 
 >[!CONTEXTUALHELP]
@@ -168,7 +168,7 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forcer une rentrée"
->abstract="Effacez tous les participants du parcours avant chaque nouvelle lecture d’audience."
+>abstract="Effacez toutes les participantes et tous les participants du parcours avant chaque nouvelle lecture d’audience."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
@@ -177,8 +177,8 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Temps d’attente pour une nouvelle évaluation d’audience"
->abstract="Durée pendant laquelle le parcours attend les nouvelles données d’audience (1 à 6 heures, en minutes ou en heures)."
+>title="Temps d’attente pour une nouvelle évaluation de l’audience"
+>abstract="Durée pendant laquelle le parcours attend les nouvelles données d’audience (de 1 à 6 heures, en minutes ou en heures)."
 
 Par défaut, les parcours sont configurés pour une seule exécution. Pour définir une date/heure et une fréquence spécifiques d’exécution du parcours, procédez comme suit.
 
@@ -279,7 +279,7 @@ Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publicati
 
 ## Ciblage des audiences dans parcours {#audience-targeting-in-journeys}
 
-Les parcours basés sur l’audience commencent toujours par une activité **Lecture d’audience** pour récupérer les individus appartenant à une audience [!DNL Adobe Experience Platform]. Ces profils sont lus une fois ou selon un planning récurrent.
+Les parcours basés sur des audiences débutent toujours par une activité **Lecture d’audience** pour récupérer les personnes appartenant à une audience [!DNL Adobe Experience Platform]. Ces profils sont lus une fois ou selon un planning récurrent.
 
 Une fois qu’ils sont entrés dans le parcours, vous pouvez les orchestrer à l’aide des activités **Condition** : segmenter par attributs ou comportement, exclure une partie de la population ou fusionner les branches (union). Les sections ci-dessous décrivent chaque modèle.
 
@@ -317,7 +317,7 @@ Par exemple, après avoir suivi une expérience différente pendant dix jours d
 
 ![Chemins de parcours fusionnant à nouveau après la segmentation à l’aide d’un union](assets/read-segment-audience3.png)
 
-## Dépannage {#audience-count-mismatch}
+## Résolution des problèmes {#audience-count-mismatch}
 
 Cette section vous aide à résoudre les **incohérences de nombre de profils des audiences** (un nombre inférieur ou supérieur de profils entrants par rapport aux prévisions), **aucun profil traité** (lecture d’alerte d’audience ou aucune entrée) et **entrées retardées ou manquantes** (minutage et propagation des données).
 

@@ -12,8 +12,8 @@ keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 98%
+source-wordcount: '1613'
+ht-degree: 90%
 
 ---
 
@@ -57,12 +57,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="Sélectionnez le type de la campagne. Les canaux disponibles varient en fonction du type sélectionné. <br>**Campagnes planifiées** (campagnes d’action) : idéales pour les communications par lots, simples et ponctuelles, que vous pouvez planifier pour qu’elles s’exécutent à une heure spécifique.<br>**Campagnes déclenchées par API** : activées par le biais d’un appel API, elles permettent d’envoyer des messages automatisés et basés sur un événement, directement depuis des systèmes externes.<br>**Campagnes orchestrées** : fournissent une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing complexes et à plusieurs étapes, depuis la segmentation d’audience jusqu’à la diffusion de messages personnalisés sur plusieurs canaux."
+>abstract="Sélectionnez le type de la campagne. Les canaux disponibles varient en fonction du type sélectionné. <br>**Campagnes planifiées** (Campagnes d’action) - Idéal pour les communications par lots simples et ponctuelles que vous pouvez planifier pour qu’elles s’exécutent à un moment spécifique.<br>**Campagnes déclenchées par API** - Activé par le biais d’un appel API, permettant une messagerie automatisée basée sur un événement, directement à partir de systèmes externes.<br>**Campagnes orchestrées** : fournissent une zone de travail visuelle par glisser-déposer pour concevoir et automatiser des workflows marketing complexes et à plusieurs étapes, depuis la segmentation d’audience jusqu’à la diffusion de messages personnalisés sur plusieurs canaux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campagnes"
->abstract="Créez votre flux de segmentation, concevez vos messages cross-canal et planifiez vos campagnes. Canaux pris en charge : e-mail, SMS, notifications push, courrier."
+>abstract="Créez votre flux de segmentation, concevez vos messages cross-canal et planifiez vos campagnes. Canaux pris en charge : e-mail, SMS, notifications push, courrier."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -72,7 +72,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="Campagnes"
->abstract="Diffusez des actions transactionnelles sortantes uniques ou récurrentes. Canaux pris en charge : e-mail, SMS, notifications push."
+>abstract="Envoyez des actions transactionnelles sortantes uniques ou récurrentes. Canaux pris en charge : e-mail, SMS, notifications push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
@@ -101,7 +101,7 @@ En utilisant les campagnes [!DNL Journey Optimizer], vous pouvez :
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Vous souhaitez commencer à créer ?** [Créez votre première campagne](create-campaign.md) en quelques minutes.
+➡️ **Prêt pour la création ?** [Créez votre première campagne](create-campaign.md) en quelques minutes.
 
 ## Choisir votre type de campagne {#campaign-types}
 
@@ -194,15 +194,15 @@ Avant d’utiliser des campagnes, vérifiez que vous disposez des éléments sui
 
 La création de campagnes réussies suit un processus clair et reproductible. Voici votre workflow détaillé :
 
-+++&#x200B;1. Planifier votre campagne
++++&#x200B;1. Planification de votre campagne
 
 Avant de commencer, clarifiez vos objectifs :
 
-* **Quel est l’objectif ?** (par exemple, stimuler les conversions, augmenter l’engagement, avertir les clientes et clients)
-* **Qui est l’audience ?** (par exemple, créée ou sélectionnée à partir d’Adobe Experience Platform)
-* **Quel type de campagne est approprié ?** (voir les [types de campagne](#campaign-types) ci-dessus)
-* **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, in-app, web, etc.) → [Voir les canaux pris en charge par type de campagne](../channels/gs-channels.md#channels)
-* **Quand doit-elle s’exécuter ?** (immédiate, planifiée ou déclenchée par API)
+* **Quel est l&#39;objectif ?** (par exemple, stimuler les conversions, augmenter l’engagement, informer les clients)
+* **Quelle est l&#39;audience ?** (par exemple, créer ou sélectionner à partir de Adobe Experience Platform)
+* **Quel type de campagne convient ?** (Voir [types de campagne](#campaign-types) ci-dessus)
+* **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, in-app, web, etc.) → [Voir canaux pris en charge par type de campagne](../channels/gs-channels.md#channels)
+* **Quand doit-il s’exécuter ?** (immédiat, planifié ou déclenché par API)
 
 +++
 
@@ -220,7 +220,7 @@ Configurez les bases de votre campagne :
 
 +++
 
-+++&#x200B;3. Concevoir votre contenu
++++&#x200B;3. Concevoir du contenu
 
 Créez des messages attrayants pour votre audience :
 
@@ -234,7 +234,7 @@ Créez des messages attrayants pour votre audience :
 
 +++
 
-+++&#x200B;4. Vérification et test
++++&#x200B;4. Révision et test
 
 Vérifiez toujours votre campagne avant son activation :
 
