@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aef18a41657866c5c612442c460b5c464553eaba
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 91%
+source-wordcount: '3289'
+ht-degree: 90%
 
 ---
 
@@ -206,6 +206,7 @@ ht-degree: 91%
          + [Déduplication](using/orchestrated/activities/deduplication.md)
          + [Enrichissement](using/orchestrated/activities/enrichment.md)
          + [Branchement](using/orchestrated/activities/fork.md)
+         + [Requête incrémentale](using/orchestrated/activities/incremental-query.md)
          + [Lecture d’audience](using/orchestrated/activities/read-audience.md)
          + [Réconciliation](using/orchestrated/activities/reconciliation.md)
          + [Enregistrer l’audience](using/orchestrated/activities/save-audience.md)
@@ -217,6 +218,8 @@ ht-degree: 91%
          + [Interagir avec les clientes et clients en fonction de leur activité de navigation](using/orchestrated/engage-customers-uc.md)
          + [Informer les utilisateurs et les utilisatrices de la disponibilité d’un produit](using/orchestrated/product-availability-uc.md)
       + Opérations avancées {#orchestrated-advanced}
+         + [Utilisation de variables dans des campagnes orchestrées](using/orchestrated/variables-orchestrated-campaigns.md)
+         + [Définition de variables globales dans des campagnes orchestrées](using/orchestrated/global-variables.md)
          + [Déclencher des campagnes orchestrées à l’aide d’un signal](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflit et hiérarchisation {#conflict-prioritization}
    + [Gestion des conflits et hiérarchisation](using/conflict-prioritization/gs-conflict-prioritization.md)

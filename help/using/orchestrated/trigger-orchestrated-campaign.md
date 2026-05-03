@@ -2,32 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Déclencher une campagne orchestrée à l’aide d’un signal
-description: Découvrez comment déclencher une campagne orchestrée à l’aide d’un signal dans  [!DNL Adobe Journey Optimizer].
+description: Découvrez comment déclencher une campagne orchestrée à l’aide d’un signal et transmettre les paramètres qui deviennent disponibles comme dans la campagne.
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
 # Déclencher des campagnes orchestrées à l’aide d’un signal {#trigger-signal}
 
-Vous pouvez déclencher une campagne orchestrée en lui envoyant un signal au lieu de l’exécuter selon un planning. Le signal est envoyé via un appel API à partir d’un système ou d’une application externe. Lors de l’utilisation d’un signal , vous pouvez transmettre des paramètres. Elles sont ensuite mises à disposition dans la campagne orchestrée sous la forme de variables d’événement dans le contexte d’exécution, à utiliser dans le ciblage, les conditions ou les expressions.
+Vous pouvez déclencher une campagne orchestrée en lui envoyant un signal au lieu de l’exécuter selon un planning. Le signal est envoyé via un appel API à partir d’un système ou d’une application externe. Lors de l’utilisation d’un signal, vous pouvez transmettre des paramètres qui deviennent disponibles en tant que variables dans la campagne, à utiliser dans le ciblage, les conditions ou les expressions.
+
+Cette page explique comment configurer et déclencher un signal. Une fois les variables disponibles, pour plus d’informations sur leur utilisation dans les règles et les conditions **[!UICONTROL Test]**, consultez la section [Utiliser des variables dans des campagnes orchestrées](variables-orchestrated-campaigns.md).
 
 Pour obtenir la spécification REST complète du point d’entrée du déclencheur (chemins, en-têtes, corps, réponses et erreurs), consultez [API Trigger Orchestrated Campagnes](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} dans la documentation de l’API Adobe Journey Optimizer.
 
 Processus de bout en bout pour déclencher une campagne orchestrée à l&#39;aide d&#39;un signal :
 
-1. [Planifier la campagne à déclencher par un signal](#set-an-orchestrated-campaign-to-wait-for-a-signal-configure-signal)
-1. [Ajouter des paramètres pour la payload du signal](#add-parameters-for-the-signal-payload-optional-parameters) (facultatif)
-1. [Créer et tester la campagne](#build-and-test-the-campaign-build-and-test)
-1. [Publier et déclencher la campagne](#publish-and-trigger-the-campaign-publish)
+1. [Planifier la campagne à déclencher par un signal](#configure-signal)
+1. [Ajouter des paramètres pour la payload du signal](#parameters) (facultatif)
+1. [Créer et tester la campagne](#build-and-test)
+1. [Publier et déclencher la campagne](#publish)
 
 >[!NOTE]
 >
@@ -57,7 +59,7 @@ Vous pouvez transmettre des paramètres dans le signal de déclenchement et les 
 
 >[!NOTE]
 >
->Si vous transmettez un paramètre dans l’appel API qui n’a pas été défini dans le planificateur, l’appel API réussit toujours et le paramètre est propagé, et vous pouvez l’utiliser dans les expressions. Cependant, l’interface de campagne orchestrée ne vous aidera pas à l’utiliser ; par exemple, l’activité Test ne répertorie ni n’affiche les paramètres qui n’ont pas été définis dans le planificateur.
+>Si vous transmettez un paramètre dans l’appel API qui n’a pas été défini dans le planificateur, l’appel API réussit toujours et le paramètre est propagé, et vous pouvez l’utiliser dans les expressions. Toutefois, l’interface de campagne orchestrée ne vous aidera pas à l’utiliser ; par exemple, l’activité Test ne répertorie ni n’affiche les paramètres qui n’ont pas été définis dans le planificateur.
 
 ## Créer et tester la campagne {#build-and-test}
 

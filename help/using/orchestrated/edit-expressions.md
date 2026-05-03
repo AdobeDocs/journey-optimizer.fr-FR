@@ -5,10 +5,10 @@ title: Modifier les expressions
 description: Découvrir comment modifier les expressions
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
-source-wordcount: '2034'
-ht-degree: 100%
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+workflow-type: tm+mt
+source-wordcount: '2071'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## Utiliser l’éditeur d’expression {#edit}
 
-L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques comme la manipulation de dates, de chaînes, de champs numériques et le tri.
+La modification d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques comme la manipulation de dates, de chaînes, de champs numériques et le tri.
 
 L’éditeur d’expression est accessible avec le bouton **[!UICONTROL Modifier une expression]** du créateur de règles, disponible pour les champs **[!UICONTROL Attribut]** et **[!UICONTROL Valeur]** lors de la configuration d’une condition personnalisée.
 
@@ -33,9 +33,11 @@ L’éditeur d’expression fournit :
 
 * un **champ de saisie (1)**, dans lequel l’expression est définie ;
 * la liste des **champs (2)** disponibles, utilisables dans l’expression et correspondant à la dimension de ciblage de la requête ;
-* des **fonctions d’assistance (3)**, triées par catégorie.
+* Liste des **variables (3)** disponibles pouvant être utilisées dans l’expression. Ce menu est disponible pour le champ **Valeur**. [Découvrez comment utiliser des variables dans des campagnes orchestrées](variables-orchestrated-campaigns.md)
 
-Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton +.
+* **Fonctions d’assistance (4)** triées par catégorie.
+
+Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ, une variable ou une fonction d&#39;assistance, placez le curseur dans l&#39;expression à l&#39;endroit où vous souhaitez l&#39;ajouter, puis cliquez sur le bouton + .
 
 ![Interface de l’éditeur d’expression](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
@@ -60,7 +62,7 @@ Les fonctions d’agrégat effectuent des calculs sur un jeu de valeurs.
 <td>Avg(&lt;valeur&gt;)</td>
 </tr>
 <tr>
-<td><strong>Number</strong></td>
+<td><strong>Nombre</strong></td>
 <td>Compte les valeurs non nulles d'une colonne</td>
 <td>Count(&lt;valeur&gt;)</td>
 </tr>
@@ -95,7 +97,7 @@ Les fonctions d’agrégat effectuent des calculs sur un jeu de valeurs.
 <td>StringAgg(&lt;Valeur&gt;,&lt;Chaîne&gt;)</td>
 </tr>
 <tr>
-<td><strong>Sum</strong></td>
+<td><strong>Somme</strong></td>
 <td>Renvoie la somme des valeurs d'une colonne de type nombre, chaîne ou date</td>
 <td>Sum(&lt;valeur&gt;)</td>
 </tr>
@@ -214,7 +216,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <td>MinutesDiff(&lt;date de fin&gt;, &lt;date de début&gt;)</td>
 </tr>
 <tr>
-<td><strong>Month</strong></td>
+<td><strong>Mois</strong></td>
 <td>Renvoie le nombre représentant le mois de la date.</td>
 <td>Month(&lt;date&gt;)</td>
 </tr>
@@ -483,10 +485,10 @@ Ce tableau contient les autres fonctions disponibles.
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
    <td> Chiffrer la chaîne fournie dans l’argument<br /> </td> 
-   <td> AESEncrypt(&lt;valeur&gt;)<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
-   <td> <strong>Case</strong><br /> </td> 
+   <td> <strong>Casse</strong><br /> </td> 
    <td> Renvoie la valeur 1 si la condition est vérifiée. Sinon, renvoie la valeur 2.<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;valeur 1&gt;), Else(&lt;valeur 2&gt;))<br /> </td> 
   </tr> 
@@ -608,7 +610,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
    <td> Renvoie la taille de la chaîne en octets <br /> </td> 
-   <td> dataLength(&lt;chaîne&gt;)<br /></td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -633,7 +635,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Concatène les chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
-   <td> JuxtWords3(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -648,7 +650,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>Line</strong><br /> </td> 
    <td> Extraire la ligne n de la chaîne<br /> </td> 
-   <td> Line(&lt;chaîne&gt;,&lt;nombre&gt;)<br /></td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -658,7 +660,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Renvoie la chaîne complétée à gauche<br /> </td> 
-   <td> LPad (&lt;Chaîne&gt;, &lt;Nombre&gt;, &lt;Caractère&gt;)<br /></td> 
+   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -678,12 +680,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extrait la valeur d’un champ XML de son XPath et des données de champ<br /> </td> 
-   <td> NodeValue (&lt;Chaîne&gt;, &lt;Chaîne&gt;)<br /></td> 
+   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
    <td> Remplace toutes les occurrences d’une valeur de chaîne spécifiée par une autre valeur de chaîne.<br /> </td> 
-   <td> Replace(&lt;Chaîne&gt;,&lt;Chaîne&gt;,&lt;Chaîne&gt;)<br /></td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -703,12 +705,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Représentation hexadécimale de la clé SHA256 d’une chaîne.<br /> </td> 
-   <td> Sha256Digest (&lt;Chaîne&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Représentation hexadécimale de la clé SHA512 d’une chaîne.<br /> </td> 
-   <td> Sha512Digest (&lt;Chaîne&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -743,7 +745,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
  </tbody> 
 </table>
 
-### Période
+### Fenêtre
 
 <table> 
  <tbody> 
@@ -755,7 +757,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> Exécutez l’appel de fonction SQL saisi en tant que 1er paramètre, sur Partition ou Trier selon les champs saisis en tant que 2e paramètre.<br /> </td> 
-   <td> _Over_ (&lt;Valeur&gt;, &lt;Valeur&gt;)<br /> </td>  
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
