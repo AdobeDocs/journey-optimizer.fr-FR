@@ -7,9 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1131'
 ht-degree: 20%
 
 ---
@@ -186,7 +186,7 @@ Pour attribuer l’ensemble de règles à un parcours, procédez comme suit.
 
 Tous les parcours qui utilisent cet ensemble de règles seront classés selon la formule sélectionnée lors de l&#39;application de la limitation.
 
-Pour surveiller les performances de vos ensembles de règles et formules de classement, consultez la section [Limitation et conflits de Parcours &#x200B;](../reports/channel-report-cja.md#rule-sets) dans le rapport de présentation.
+Pour surveiller les performances de vos ensembles de règles et formules de classement, consultez la section [Limitation et conflits de Parcours &#x200B;](../reports/channel-report-cja.md#rule-sets) dans le rapport de présentation. Pour étudier les abandons au niveau du lac de données et identifier si un profil a été exclu en raison d’une limite atteinte (`CAP_REACHED`) ou d’une priorité inférieure (`LOWER_PRIORITY`), utilisez les requêtes disponibles dans [cette section](../reports/query-examples.md#business-rules-queries).
 
 <!--
 ## Reporting {#reporting}

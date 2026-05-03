@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 73%
+source-wordcount: '3739'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +30,7 @@ Avant d’exécuter une requête sur cette page, vérifiez les points suivants :
 
 >[!TIP]
 >
->**Vous découvrez Query Service ?** Ouvrir [Adobe Experience Platform](https://experience.adobe.com/), accédez à **Query Service > Requêtes**, collez un exemple ci-dessous, remplacez les valeurs d’espace réservé (par exemple `<journeyVersionID>`, `<last x hours>`) et sélectionnez **Exécuter**.
+>**Vous découvrez Query Service ?** Ouvrez [&#128279;](https://experience.adobe.com/), accédez à **Query Service > Requêtes**, collez un exemple ci-dessous, remplacez les valeurs d’espace réservé (par exemple, `<journeyVersionID>`, `<last x hours>`) et sélectionnez **Exécuter**.
 
 ## Trouver la bonne requête {#find-query}
 
@@ -41,6 +41,7 @@ Avant d’exécuter une requête sur cette page, vérifiez les points suivants :
 | Examiner l’exécution ou les erreurs de lecture d’audience | [Lire les requêtes d’audience](#read-segment-queries) |
 | Résolution des erreurs de message ou d’action | [Erreurs Message &amp; Action](#message-action-errors) |
 | Analyser les abandons de qualification d’audience | [Requêtes de qualification d’audience](#segment-qualification-queries) |
+| Examiner les abandons de règles métier | [Requêtes relatives aux règles métier](#business-rules-queries) |
 | Déboguer des événements externes ou métier | [Requêtes basées sur un événement](#event-based-queries) |
 | Surveillance des performances des points d’entrée d’action personnalisés | [Requêtes d’action personnalisée](#query-custom-action) |
 | Suivi des profils engageables et de l’utilisation des licences | [Requêtes de profils engageables](#engageable-profiles-queries) |
@@ -371,7 +372,7 @@ WHERE
 
 +++Vérification des détails d’un événement serviceEvent 
 
-Le jeu de données Événements de l’étape du parcours contient tous les événements stepEvents et serviceEvents. Les événements stepEvents sont utilisés dans les rapports, dans la mesure où ils se rapportent aux activités (événement, actions, etc.) des profils d’un parcours. Les événements serviceEvents sont stockés dans le même jeu de données et indiquent des informations supplémentaires à des fins de débogage, comme la raison du rejet d’un événement d’expérience.
+Le jeu de données Événements de l’étape du parcours contient tous les événements stepEvents et serviceEvents. stepEvents sont utilisés dans les rapports, dans la mesure où ils se rapportent aux activités (événement, actions, etc.) des profils d’un parcours. Les événements serviceEvents sont stockés dans le même jeu de données et indiquent des informations supplémentaires à des fins de débogage, comme la raison du rejet d’un événement d’expérience.
 
 Voici un exemple de requête permettant de vérifier le détail d’un événement serviceEvent :
 
@@ -438,7 +439,7 @@ _Exemple de sortie_
 |---|
 | 3 |
 
-Cette requête renvoie le nombre exact de fois où un profil est entré dans un parcours. Un résultat supérieur à 0 confirme que le profil est entré dans le parcours.
+Cette requête renvoie le nombre exact de fois où un profil a rejoint un parcours. Un résultat supérieur à 0 confirme que le profil est entré dans le parcours.
 
 +++
 
@@ -558,11 +559,11 @@ _Exemple de sortie_
 
 | ENTRY_DATE | PROFILES_COUNT |
 |---|---|
-| 25/11/2024 | 1 245 |
-| 24/11/2024 | 1 189 |
-| 23/11/2024 | 15 340 |
-| 22/11/2024 | 1 205 |
-| 21/11/2024 | 1 167 |
+| 2024-11-25 | 1 245 |
+| 2024-11-24 | 1 189 |
+| 2024-11-23 | 15 340 |
+| 2024-11-22 | 1 205 |
+| 2024-11-21 | 1 167 |
 
 La requête renvoie, pour la période définie, le nombre de profils ayant rejoint le parcours chaque jour. Si un profil a rejoint le parcours via plusieurs identités, il sera comptabilisé deux fois. Si la reprise est activée, le nombre de profils peut être dupliqué sur différents jours s’il est entré à nouveau dans le parcours un autre jour.
 
@@ -965,6 +966,60 @@ Cette requête renvoie tous les événements (événements externes/événements
 
 +++
 
+## Requêtes liées aux règles métier {#business-rules-queries}
+
++++Vérifier tous les abandons dus à des exclusions de limitation de la fréquence du parcours sur un parcours spécifique après une date spécifique
+
+Cette requête renvoie l’ensemble de règles et les détails de règle rejetés pour tous les profils ignorés en raison des règles de limitation de la fréquence sur un parcours spécifique, à partir d’une date donnée.
+
+_Requête du lac de données_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionId>'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('<YYYY-MM-DD>')
+```
+
+_Exemple_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
+Cette requête renvoie tous les abandons pour lesquels un jeu de règles a été mis en correspondance (`rejectedRuleset.ID` non nul). Le champ `eventCodeReason` fournit la sous-raison de l’abandon : `LOWER_PRIORITY` (profil ignoré en raison d’un arbitrage de parcours) ou `CAP_REACHED` (profil ignoré car la limite de fréquence a été atteinte). Les résultats indiquent quels ensembles de règles et règles de limitation de la fréquence spécifiques ont provoqué l’exclusion des profils du parcours après la date spécifiée.
+
++++
+
 ## Requêtes basées sur un événement {#event-based-queries}
 
 +++Vérifier si un événement métier a été reçu pour un parcours
@@ -1053,13 +1108,12 @@ Découvrez comment [dépanner les types d’événements rejetés dans journey_s
 
 Ces requêtes vous aident à surveiller et à analyser votre nombre de profils engageables. Un profil engageable est un profil unique qui a été engagé par le biais de parcours ou de campagnes au cours des 12 derniers mois. En savoir plus sur [Profils engageables et utilisation de la licence](../audience/license-usage.md#what-is-engageable-profile).
 
->[!IMPORTANT]
->
->**Bonnes pratiques pour interroger des profils pouvant être engagés :**
->* Assurez-vous que chaque champ non agrégé est inclus dans la clause `GROUP BY`
->* Évitez de référencer des jeux de données qui n’existent pas dans votre sandbox : confirmez les noms des jeux de données dans l’interface utilisateur de Platform
->* Utilisez des `distinct` lors du comptage des profils uniques pour éviter les doublons dans les espaces de noms d’identité
->* Lors de l’utilisation de `LIMIT`, placez-le à la fin de la requête après `ORDER BY` clauses .
+**Bonnes pratiques pour interroger des profils pouvant être engagés :**
+
+* Assurez-vous que chaque champ non agrégé est inclus dans la clause `GROUP BY`
+* Évitez de référencer des jeux de données qui n’existent pas dans votre sandbox : confirmez les noms des jeux de données dans l’interface utilisateur de Platform
+* Utilisez des `distinct` lors du comptage des profils uniques pour éviter les doublons dans les espaces de noms d’identité
+* Lors de l’utilisation de `LIMIT`, placez-le à la fin de la requête après `ORDER BY` clauses .
 
 +++Comptage des profils uniques engagés par un parcours spécifique
 
@@ -1127,11 +1181,11 @@ _Exemple de sortie_
 
 | ENGAGEMENT_DATE | ENGAGED_PROFILES |
 |---|---|
-| 25/11/2024 | 8 450 |
-| 24/11/2024 | 7 820 |
-| 23/11/2024 | 125 340 |
-| 22/11/2024 | 9 230 |
-| 21/11/2024 | 8 670 |
+| 2024-11-25 | 8 450 |
+| 2024-11-24 | 7 820 |
+| 2024-11-23 | 125 340 |
+| 2024-11-22 | 9 230 |
+| 2024-11-21 | 8 670 |
 
 Cette sortie vous permet de surveiller les tendances quotidiennes et d’identifier lorsqu’un grand nombre de profils sont engagés. Dans cet exemple, le 23 novembre montre un pic significatif (125 340 profils) par rapport à l’engagement quotidien type (environ 8 000 profils), ce qui justifierait une enquête pour déterminer quel parcours ou quelle campagne a provoqué l’augmentation de votre nombre de [profils engageables](../audience/license-usage.md).
 
@@ -1162,9 +1216,9 @@ _Exemple de sortie_
 
 | PARCOURS_VERSION_ID | NOM_parcours | ENGAGEMENT_DATE | ENGAGED_PROFILES |
 |---|---|---|---|
-| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campagne du Vendredi noir | 23/11/2024 | 125 340 |
-| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Parcours de lancement du produit | 22/11/2024 | 45 230 |
-| f9e8d7c6-b5a4-3210-9876-543210fedcba | Newsletter des fêtes | 21/11/2024 | 32 150 |
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campagne du Vendredi noir | 2024-11-23 | 125 340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Parcours de lancement du produit | 2024-11-22 | 45 230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | Newsletter des fêtes | 2024-11-21 | 32 150 |
 
 Cette requête filtre les parcours qui ont impliqué plus de 1 000 profils par jour au cours des 7 derniers jours. La sortie indique quels parcours et dates spécifiques sont responsables des engagements de profil volumineux. Ajustez le seuil de la clause de `HAVING` en fonction de vos besoins (par exemple, remplacez `> 1000` par `> 10000` pour des seuils plus élevés).
 
@@ -1213,11 +1267,11 @@ _Exemple de sortie_
 
 | ACTIVITY_DATE | PARCOURS_ACTIFS |
 |---|---|
-| 25/11/2024 | 12 |
-| 24/11/2024 | 15 |
-| 23/11/2024 | 14 |
-| 22/11/2024 | 11 |
-| 21/11/2024 | 13 |
+| 2024-11-25 | 12 |
+| 2024-11-24 | 15 |
+| 2024-11-23 | 14 |
+| 2024-11-22 | 11 |
+| 2024-11-21 | 13 |
 
 La requête renvoie, pour la période définie, le nombre de parcours uniques qui se déclenchent chaque jour. Un seul parcours qui se déclenche plusieurs jours sera comptabilisé une fois par jour.
 

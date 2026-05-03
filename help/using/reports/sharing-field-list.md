@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 83%
+source-wordcount: '781'
+ht-degree: 82%
 
 ---
 
@@ -57,7 +57,7 @@ Pour journeyStepEvent, nous devons également ajouter des champs liés à l’id
 
 ## serviceEvents {#servicevents-field}
 
-Ce mixin contient tous les champs correspondant à un traitement d’export de profil. Ces événements sont générés par activité **Lecture d&#39;audience** pour effectuer le suivi du cycle de vie des opérations d’export d’audience (en file d’attente, démarrées, terminées, erreurs). Contrairement aux événements d’étape standard, les serviceEvents ne sont pas liés à des profils individuels, mais au nœud Lecture d’audience lui-même, ce qui signifie qu’ils peuvent ne pas être associés à un identifiant de profil.
+Ce mixin contient tous les champs correspondant à une tâche d’exportation de profil. Ces événements sont générés par activité **Lecture d&#39;audience** pour effectuer le suivi du cycle de vie des opérations d’export d’audience (en file d’attente, démarrées, terminées, erreurs). Contrairement aux événements d’étape standard, les serviceEvents ne sont pas liés à des profils individuels, mais au nœud Lecture d’audience lui-même, ce qui signifie qu’ils peuvent ne pas être associés à un identifiant de profil.
 
 | Nom du champ | Type | Description |
 |---|---|------------|
@@ -124,5 +124,6 @@ Vous trouverez ci-dessous des définitions, des causes courantes et des étapes 
 
 * [Exemples de requête de jeu de données - Événement d’étape de parcours](../data/datasets-query-examples.md#journey-step-event).
 * [Exemples de requêtes - Requêtes basées sur un événement](query-examples.md#event-based-queries).
-* [Dictionnaire de schémas intégré](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
+* [Exemples de requêtes - Requêtes relatives aux règles métier](query-examples.md#business-rules-queries).
+* [Dictionnaire des schémas natifs](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
 workflow-type: tm+mt
-source-wordcount: '7188'
+source-wordcount: '7252'
 ht-degree: 68%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 68%
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
+
+## Mai 2026 {#may-2026}
+
+* Une nouvelle section **Requêtes relatives aux règles métier** a été ajoutée à la page des exemples de requête. Elle fournit une requête du lac de données permettant de vérifier tous les abandons de profil en raison d’exclusions de limitation de la fréquence des parcours sur un parcours spécifique après une date spécifique. La requête inclut le champ `eventCodeReason` pour identifier si les profils ont été exclus car une limite a été atteinte (`CAP_REACHED`) ou en raison d’une priorité inférieure (`LOWER_PRIORITY`). [En savoir plus](../reports/query-examples.md#business-rules-queries)
 
 ## Avril 2026 {#april-2026}
 
@@ -82,7 +86,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Mise à jour de la documentation sur le **tracking des URL** et la **résolution des problèmes de Parcours** afin de documenter le comportement des `context.system.source.actionId` dans les parcours fermés. Les parcours fermés ou non republiés peuvent produire des espaces réservés de `{}` vides dans les URL de tracking. Des conseils ont été ajoutés pour résoudre le problème en republiant le parcours ou en supprimant le paramètre affecté. [En savoir plus](../email/url-tracking.md)
 
-* Mise à jour de la documentation sur la source de données **Adobe Experience Platform** avec une note indiquant que seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Data Source. [En savoir plus](../datasource/adobe-experience-platform-data-source.md)
+* Mise à jour de la documentation sur la source de données **&#x200B;**&#x200B;avec une note indiquant que seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Data Source. [En savoir plus](../datasource/adobe-experience-platform-data-source.md)
 
 * La documentation **Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données** a été améliorée avec une nouvelle entrée de FAQ pour identifier clairement les jeux de données soumis à une durée de vie. La durée de vie s’applique exclusivement aux jeux de données de série temporelle : les jeux de données de type enregistrement tels que les jeux de données d’entité, les jeux de données de classification et les référentiels d’objets de décision ne sont pas soumis à la durée de vie et ne sont pas affectés par le déploiement du mécanisme de sécurisation. [En savoir plus](../data/datasets-ttl.md)
 

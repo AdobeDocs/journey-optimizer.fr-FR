@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 100%
+source-wordcount: '1033'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,7 @@ Le tableau **[!UICONTROL Statistiques du parcours]** offre un résumé détaill�
 
 ## Exclusion de parcours {#journey-exclusion}
 
-Le tableau **[!UICONTROL Exclusion de parcours]** présente une vue complète des différents facteurs qui ont entraîné l’exclusion des profils d’utilisateurs et d’utilisatrices.
+Le tableau **[!UICONTROL Exclusion de parcours]** présente une vue complète des différents facteurs qui ont entraîné l’exclusion des profils d’utilisateurs et d’utilisatrices. Pour examiner les exclusions liées aux règles métier au niveau du lac de données et identifier si les profils ont été exclus en raison d’une limite atteinte ou d’une priorité inférieure, utilisez les requêtes disponibles dans [cette section](query-examples.md#business-rules-queries).
 
 ## Erreur d’action {#action-error}
 

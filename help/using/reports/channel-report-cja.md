@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 62%
+source-wordcount: '1102'
+ht-degree: 61%
 
 ---
 
@@ -119,7 +119,7 @@ Le tableau **[!UICONTROL Canaux]** fournit une répartition détaillée de l’e
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
-* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos messages.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu de vos messages.
 
 +++
 
@@ -156,6 +156,8 @@ La colonne **[!UICONTROL Exclusions]** indique le nombre de profils qui ont ét�
 * **Priorité inférieure** : le plafond n’a pas été atteint, mais d’autres parcours de priorité supérieure respectent les contraintes. Le profil a été exclu de ce parcours et est entré dans un parcours de priorité supérieure à la place.
 
 +++
+
+Pour en savoir plus sur ces exclusions au niveau du lac de données à l’aide de Adobe Experience Platform Query Service, consultez [Requêtes relatives aux règles métier](query-examples.md#business-rules-queries).
 
 ➡️ [En savoir plus sur la limitation et l’arbitrage des parcours &#x200B;](../conflict-prioritization/journey-capping.md)
 
