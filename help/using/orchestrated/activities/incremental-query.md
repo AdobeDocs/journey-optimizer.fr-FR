@@ -8,7 +8,7 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 0ec63458f12381b0b818f2cf35f9d6f4d7fb7729
+source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 21%
@@ -79,3 +79,4 @@ L’exemple suivant envoie un e-mail de bienvenue aux profils qui viennent de de
 * **[!UICONTROL Diffusion Email]** : envoie l&#39;email de bienvenue aux profils issus de la requête.
 
 ![Configuration de l’activité de requête incrémentale dans la zone de travail de campagne orchestrée](../assets/incremental-query-example.png)
+
