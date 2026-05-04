@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
 workflow-type: tm+mt
-source-wordcount: '3289'
-ht-degree: 90%
+source-wordcount: '3297'
+ht-degree: 91%
 
 ---
 
@@ -47,12 +47,12 @@ ht-degree: 90%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours ou campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer avec les parcours](using/building-journeys/journey.md)
-   + {hide-from-toc}[Guide de prise en main du Parcours &#x200B;](using/building-journeys/journey-get-started.md)
+   + Guide de prise en main du Parcours {hide-from-toc}[](using/building-journeys/journey-get-started.md)
    + {hide-from-toc}[types de Parcours et guide de sélection](using/building-journeys/journey-types-selection.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
@@ -79,7 +79,7 @@ ht-degree: 90%
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[Fragments de Parcours &#x200B;](using/building-journeys/journey-fragments.md)
+      + {hide-from-toc}[Fragments de Parcours ](using/building-journeys/journey-fragments.md)
    + Activités {#about-journey-building}
       + [Activités](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
@@ -508,10 +508,13 @@ ht-degree: 90%
       + {hide-from-toc}[Insérer le compteur de décompte](using/integrations/countdown.md)
       + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utiliser GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Utilisation des intégrations](using/integrations/integrations.md)
-      + {hide-from-toc}[Prise en main de l’intégration des fournisseurs](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[Exemples de configurations de fournisseur](using/integrations/vendor-integration.md)
-      + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
+      + Intégrations {#integrations}
+         + [Utiliser des intégrations](using/integrations/integrations.md)
+         + [Utiliser des intégrations externes pour la personnalisation](using/integrations/integrations-personalization.md)
+         + [Questions fréquentes](using/integrations/vendor-integration-faq.md)
+         + Exemples de fournisseurs {#vendors}
+            + [Prise en main de l’intégration des fournisseurs](using/integrations/vendor-integration-gs.md)
+            + [Exemples de configurations de fournisseur](using/integrations/vendor-integration.md)
       + [Utilisation des outils d’IA via MCP](/help/using/integrations/ajo-mcp.md)
    + Assistant IA pour la génération de contenu {#ai-assistant}
       + [Assistant IA pour la génération de contenu](/help/rp_landing_pages/ai-assistant-landing-page.md)
@@ -528,7 +531,7 @@ ht-degree: 90%
          + [Créer et gérer vos marques](using/content-management/brands.md)
          + [Personnaliser vos marques](using/content-management/brands-personalize.md)
          + [Créer et gérer des modèles génératifs](using/content-management/generative-models.md)
-         + [Évaluation de votre contenu](using/content-management/brands-score.md)
+         + [Évaluer votre contenu](using/content-management/brands-score.md)
    + Contenu multilingue {#content-multilingual}
       + [Contenu multilingue](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
@@ -598,7 +601,7 @@ ht-degree: 90%
          + [Rapport de campagne par e-mail](using/reports/campaign-global-report-cja-email.md)
          + [Rapport de campagne d’expérimentation](using/reports/campaign-global-report-cja-experimentation.md)
          + [Rapport de campagne in-app](using/reports/campaign-global-report-cja-inapp.md)
-         + {hide-from-toc}[&#x200B; Rapport de campagne d’activité dynamique &#x200B;](using/reports/campaign-global-report-cja-activity.md)
+         + {hide-from-toc}[ Rapport de campagne d’activité dynamique ](using/reports/campaign-global-report-cja-activity.md)
          + [Rapport de campagne de notifications push](using/reports/campaign-global-report-cja-push.md)
          + [Rapport de campagne par SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Rapport de campagne web](using/reports/campaign-global-report-cja-web.md)
