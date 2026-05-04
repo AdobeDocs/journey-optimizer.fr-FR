@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2208'
 ht-degree: 88%
 
 ---
@@ -209,7 +209,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=fr).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## Étape 2 : création d’une configuration de canal pour les notifications push{#message-preset}
@@ -249,6 +249,10 @@ Vous pouvez maintenant sélectionner votre configuration lors de la création de
 >id="ajo_surface_dynamic_app_id"
 >title="Personnaliser l’ID d’application"
 >abstract="Lorsque vous gérez plusieurs applications mobiles, stockez chaque identifiant d&#39;application sur le profil et utilisez une configuration de canal push unique. Ouvrez l’éditeur de personnalisation à côté du champ ID de l’application pour sélectionner un attribut de profil ; l’expression est évaluée au moment de l’envoi pour chaque destinataire. Assurez-vous que les informations d’identification push existent pour chaque identifiant d’application que votre expression peut renvoyer."
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Lorsque vous avez de nombreuses marques ou clients avec des applications distinctes, vous pouvez stocker chaque **[!UICONTROL ID d’application]** sur le profil et utiliser une configuration de canal unique pour envoyer des notifications push à l’application appropriée pour chaque destinataire.
 

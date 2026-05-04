@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, en-tête de l'expéditeur, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 59%
+source-wordcount: '1108'
+ht-degree: 60%
 
 ---
 
@@ -24,7 +24,7 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 >
 >Pour un contrôle accru des paramètres d’e-mail, vous pouvez personnaliser les paramètres d’en-tête. [En savoir plus](../email/surface-personalization.md#personalize-header)
 >
->Lors de la [&#x200B; modification d’une configuration d’e-mail](../configuration/channel-surfaces.md#edit-channel-surface) vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une configuration de canal.
+>Lors de la [ modification d’une configuration d’e-mail](../configuration/channel-surfaces.md#edit-channel-surface) vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une configuration de canal.
 
 * **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]** : nom de l’expéditeur ou de l’expéditrice, tel que le nom de votre marque.
 
@@ -57,6 +57,10 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 >id="ajo_admin_preset_sender_header"
 >title="En-têtes de l’expéditeur"
 >abstract="Utilisez ces champs facultatifs lorsque l’entité d’émission (expéditeur) diffère de l’entité de création (de), par exemple un parent d’entreprise distribuant des messages pour une marque enfant ou une agence envoyant pour plusieurs clients. Les clients de messagerie qui prennent en charge cette fonctionnalité l’affichent généralement sous la forme « Expéditeur au nom de l’expéditeur » ou affichent un indicateur « via »."
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Certains cas d’utilisation nécessitent que la boîte aux lettres qui transmet le message soit différente de l’auteur **De** ; par exemple, une organisation parente qui envoie pour le compte d’une filiale, une équipe marketing partagée pour plusieurs marques ou une agence qui envoie pour plusieurs clients.
 
