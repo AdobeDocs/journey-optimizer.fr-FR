@@ -7,13 +7,11 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: CC, copie carbone, e-mail, configuration du canal, en-têtes d’e-mail, Cci
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
+source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -24,10 +22,6 @@ ht-degree: 12%
 >id="ajo_admin_config_cc"
 >title="Définir une adresse e-mail en CC"
 >abstract="Vous pouvez ajouter un champ CC (copie carbone) visible aux e-mails envoyés avec cette configuration de canal. Saisissez une adresse e-mail fixe ou utilisez la personnalisation (attribut de profil ou variable de contexte). N’oubliez pas que l’utilisation de la section CC est comptabilisée dans le volume de messages auquel vous avez droit."
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est disponible pour tous les clients en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 Vous pouvez ajouter un champ CC (copie carbone) visible aux e-mails envoyés par [!DNL Journey Optimizer] via vos parcours et campagnes. Cette fonctionnalité facultative est configurée au niveau [configuration du canal](channel-surfaces.md), avec les paramètres d’en-tête des e-mails et l’option E-mail Cci .
 
@@ -95,7 +89,7 @@ Si vous [modifiez une configuration d’e-mail](channel-surfaces.md#edit-channel
 
 * **Gestion de la boîte de réception :** votre boîte de réception utilisée pour la fonctionnalité CC doit être correctement gérée pour l’espace et la diffusion. Si la boîte de réception renvoie des bounces, certains e-mails peuvent ne pas être reçus.
 
-* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [&#x200B; bounces](../reports/suppression-list.md#delivery-failures).
+* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [ bounces](../reports/suppression-list.md#delivery-failures).
 
 * **Consentement et suppression :** l’adresse e-mail en copie (CC) n’est pas comparée au consentement ou à la suppression.
 
