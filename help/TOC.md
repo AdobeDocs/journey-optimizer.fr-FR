@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
 workflow-type: tm+mt
-source-wordcount: '3289'
-ht-degree: 90%
+source-wordcount: '3297'
+ht-degree: 91%
 
 ---
 
@@ -508,10 +508,13 @@ ht-degree: 90%
       + {hide-from-toc}[Insérer le compteur de décompte](using/integrations/countdown.md)
       + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utiliser GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Utilisation des intégrations](using/integrations/integrations.md)
-      + {hide-from-toc}[Prise en main de l’intégration des fournisseurs](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[Exemples de configurations de fournisseur](using/integrations/vendor-integration.md)
-      + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
+      + Intégrations {#integrations}
+         + [Utiliser des intégrations](using/integrations/integrations.md)
+         + [Utiliser des intégrations externes pour la personnalisation](using/integrations/integrations-personalization.md)
+         + [Questions fréquentes](using/integrations/vendor-integration-faq.md)
+         + Exemples de fournisseurs {#vendors}
+            + [Prise en main de l’intégration des fournisseurs](using/integrations/vendor-integration-gs.md)
+            + [Exemples de configurations de fournisseur](using/integrations/vendor-integration.md)
       + [Utilisation des outils d’IA via MCP](/help/using/integrations/ajo-mcp.md)
    + Assistant IA pour la génération de contenu {#ai-assistant}
       + [Assistant IA pour la génération de contenu](/help/rp_landing_pages/ai-assistant-landing-page.md)
@@ -528,7 +531,7 @@ ht-degree: 90%
          + [Créer et gérer vos marques](using/content-management/brands.md)
          + [Personnaliser vos marques](using/content-management/brands-personalize.md)
          + [Créer et gérer des modèles génératifs](using/content-management/generative-models.md)
-         + [Évaluation de votre contenu](using/content-management/brands-score.md)
+         + [Évaluer votre contenu](using/content-management/brands-score.md)
    + Contenu multilingue {#content-multilingual}
       + [Contenu multilingue](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
