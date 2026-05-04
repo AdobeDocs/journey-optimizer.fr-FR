@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 96%
+source-wordcount: '2222'
+ht-degree: 84%
 
 ---
 
@@ -56,7 +56,7 @@ Consultez ces notes avant d’exécuter des tests dans votre parcours.
 ### Exécution
 
 * **Comportement de partage** : lorsque le parcours atteint un partage, la branche supérieure est toujours sélectionnée. Réorganisez les branches si vous souhaitez tester un autre chemin.
-* **Timing des événements** : si le parcours comprend plusieurs événements, déclenchez chaque événement en séquence. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
+* **Synchronisation des événements** - Si le parcours comprend * plusieurs événements, déclenchez chaque événement par séquences.L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
 * **Fenêtre de date active** : assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement. Pour en savoir plus sur le dépannage de ce problème, consultez [cette page](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Événements de réaction** : pour les événements de réaction avec une temporisation, le temps d’attente minimum et par défaut est de 40 secondes.
 * **Jeux de données de test** : les événements déclenchés en mode test sont stockés dans des jeux de données dédiés libellés comme suit : `JOtestmode - <schema of your event>`
@@ -95,6 +95,29 @@ Pour utiliser le mode test, procédez comme suit :
    ![Bouton Afficher le journal pour afficher les résultats du test](assets/journeyuctest2.png)
 
 1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Une fois les tests terminés, vous pouvez publier votre parcours. Consultez [cette page](../building-journeys/publish-journey.md).
+
+## Exemple de travail : valider un parcours simple {#test-walkthrough}
+
+L’exemple suivant illustre le test d’un parcours qui commence par un événement unitaire, envoie un e-mail, attend 10 minutes, puis envoie une notification push.
+
+Pour valider le parcours de bout en bout :
+
+1. Activez le mode test en cliquant sur **[!UICONTROL Mode test]** dans le coin supérieur droit. La zone de travail passe en mode test et un bouton **[!UICONTROL Déclencher un événement]** s’affiche.
+1. Définissez **[!UICONTROL Temps d’attente]** sur **10 secondes** afin que le nœud d’attente se termine rapidement pendant le test.
+1. Cliquez sur **[!UICONTROL Déclencher un événement]**, sélectionnez votre événement et saisissez un identifiant de profil de test (par exemple, l’adresse e-mail d’un profil marqué comme profil de test dans Adobe Experience Platform).
+1. Cliquez sur **[!UICONTROL Envoyer]**. Le flux visuel s’affiche sur la zone de travail et devient vert au fur et à mesure que le profil progresse à travers chaque étape.
+1. Cliquez sur **[!UICONTROL Afficher le journal]** et confirmez les éléments suivants dans la sortie JSON :
+   * `currentstep` correspond à l’activité dans laquelle vous pensez que le profil sera.
+   * `phase` affiche `running` lorsque le profil se trouve dans un nœud d’attente et `finished` lorsqu’il atteint la fin.
+   * Aucune entrée `actionExecutionErrors` n’est présente.
+1. Au bout de 10 secondes, actualisez le journal. Le profil aurait dû avancer au-delà du nœud d’attente et déclencher l’action push.
+1. Lorsque toutes les étapes affichent `finished` et qu’aucune erreur n’est consignée, désactivez le mode test et publiez le parcours.
+
+>[!TIP]
+>
+>Si le profil n’apparaît pas du tout dans le journal, vérifiez les points suivants :
+>* L’identifiant de profil que vous avez saisi est marqué comme profil de test dans [!DNL Adobe Experience Platform].
+>* Les dates de début et de fin configurées du parcours incluent l’heure actuelle. Les événements déclenchés en dehors de cette fenêtre sont ignorés silencieusement. [En savoir plus](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Déclencher vos événements {#firing_events}
 
