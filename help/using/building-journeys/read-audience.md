@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, parcours, lecture d’audience, audience, segment, lot, point d’entrée, déclencheur, planning, qualification d’audience
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '3538'
-ht-degree: 64%
+source-wordcount: '3612'
+ht-degree: 63%
 
 ---
 
@@ -37,6 +37,13 @@ L’activité **Lecture d’audience** est l’activité de point d’entrée du
 | Vous souhaitez exécuter un parcours une fois ou selon un planning (lot). | Vous avez besoin que les profils rejoignent le parcours en temps réel lorsqu’ils remplissent les critères. |
 | Votre audience est évaluée par lots (par exemple, instantané quotidien). | Votre audience est en flux continu ou basée sur un événement. |
 | Un délai entre l’évaluation de l’audience et l’entrée sur le parcours ne vous pose pas de problème. | Vous avez besoin d’une entrée immédiate lorsqu’un profil se qualifie. |
+
+>[!TIP]
+>
+>**Exemples réels**
+>* **Newsletter hebdomadaire** → Lecture d’audience. Votre audience est un instantané de lot quotidien. Tu programmes le parcours tous les lundis à 9 h. Tous les profils qualifiés entrent ensemble.
+>* **Mise à niveau du niveau de fidélité** → Qualification de l’audience. Dès qu’un profil atteint le statut Gold dans une audience en flux continu, il accède immédiatement au parcours pour recevoir un e-mail de félicitations.
+>* **Série de réengagement** → Lecture d’audience. Vous exécutez un parcours récurrent tous les 30 jours ciblant les profils inactifs depuis plus de 90 jours.
 
 **Limites clés :** une lecture d’audience par parcours (doit être la première activité) ; une audience par activité ; jusqu’à cinq exécutions de lecture d’audience simultanées par organisation ; 20 000 profils par seconde par sandbox ; délai d’expiration de la tâche de 12 heures. Informations complètes dans [Mécanismes de sécurisation et limitations](../start/guardrails.md#read-segment-g).
 

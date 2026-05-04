@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 47%
+source-wordcount: '1455'
+ht-degree: 45%
 
 ---
 
@@ -44,7 +44,7 @@ Dans ce guide, vous allez :
 * Tester votre parcours avec des profils de test avant l’activation
 * Publiez votre parcours et surveillez ses performances
 
-Créez des parcours clients à plusieurs étapes pour démarrer une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clients sont engagés aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents.
+Créez des parcours clients à plusieurs étapes pour démarrer une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clientes et clients interagissent aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents.
 
 <!--
 >[!TIP]
@@ -59,6 +59,15 @@ Ce que vous devez configurer avant de créer dépend de la manière dont votre p
 * **Entrée basée sur l’audience** — Le parcours s’exécute pour un ensemble défini de profils à une heure planifiée. [Créez une audience](../audience/about-audiences.md) dans Adobe Experience Platform avant de créer votre parcours. Il s’agit du point de départ recommandé si vous découvrez Journey Optimizer.
 
 * **Entrée basée sur un événement** — Le parcours est déclenché en temps réel lorsqu&#39;une personne effectue une action, comme un achat ou une inscription. [Configurer un événement](../event/about-events.md) pour définir le déclencheur et les données qu’il transporte.
+
+**Vous ne savez pas quel point d’entrée utiliser ?** Le tableau ci-dessous met en correspondance les cas d’utilisation les plus courants avec l’activité de départ appropriée.
+
+| Point d&#39;entrée | À utiliser lorsque... | Entrées de profils |
+|---|---|---|
+| **[Lecture d’audience](read-audience.md)** | Vous souhaitez envoyer un message planifié ou récurrent à un ensemble défini de profils (newsletters, promotions, séries d’intégration). | Tous les profils d’une audience par lots, à la fois ou selon un planning. |
+| **[Qualification d’audience](audience-qualification-events.md)** | Vous devez réagir en temps réel lorsqu’un profil entre ou quitte une audience (mise à niveau du niveau de fidélité, indicateur de risque d’attrition). | Un profil à la fois, dès qu’ils remplissent les critères d’une audience de diffusion en continu. |
+| **Événement unitaire** | Une action de profil déclenche une réponse immédiate (confirmation d’achat, envoi de formulaire, connexion à l’application). | Profil par profil, en temps réel. |
+| **[Événement métier](../event/about-creating-business.md)** | Un événement sans profil affecte plusieurs personnes à la fois (annulation de vol, réapprovisionnement des stocks, alerte de dernière minute). | Tous les profils associés à l’événement, via une étape automatique Lecture d’audience . |
 
 Les éléments suivants sont facultatifs, mais peuvent être requis selon votre cas d’utilisation :
 
@@ -84,7 +93,7 @@ Pour créer un parcours à plusieurs étapes, procédez comme suit :
 
    >[!TIP]
    >
-   >**Quel type de parcours dois-je choisir ?** Si vous découvrez Journey Optimizer, commencez par utiliser un parcours basé sur les audiences avec une activité **[!UICONTROL Lecture d’audience]**. Il ne nécessite aucune configuration d’événement préalable et est le moyen le plus simple de vous familiariser avec la zone de travail. Pour les expériences déclenchées par un événement en temps réel (par exemple, en réaction à un achat ou à un envoi de formulaire), configurez d’abord un événement et utilisez une entrée basée sur un événement. Prêt à aller plus loin ? [Découvrez tous les types de parcours et leurs règles d’entrée](entry-management.md#types-of-journeys).
+   >**Quel type de parcours dois-je choisir ?** Si vous découvrez Journey Optimizer, commencez avec un parcours basé sur les audiences à l’aide d’une activité **[!UICONTROL Lecture d’audience]**. Il ne nécessite aucune configuration d’événement préalable et est le moyen le plus simple de vous familiariser avec la zone de travail. Pour les expériences déclenchées par un événement en temps réel (par exemple, en réaction à un achat ou à un envoi de formulaire), configurez d’abord un événement et utilisez une entrée basée sur un événement. Prêt à aller plus loin ? [Découvrez tous les types de parcours et leurs règles d’entrée](entry-management.md#types-of-journeys).
 
    ![Panneau des propriétés du parcours avec les paramètres et les options de configuration](assets/jo-properties.png)
 
@@ -118,7 +127,7 @@ Vous pouvez également exécuter votre parcours en mode **test à blanc**. Le te
 
 ## Publiez le parcours. {#jo-pub}
 
-Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. Pour plus d’informations sur la publication d’un parcours, consultez cette [section](publish-journey.md).
+Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. En savoir plus sur la publication des parcours dans cette [section](publish-journey.md).
 
 ![Flux de parcours complet avec l’audience, les conditions et les actions](assets/jo-journeyuc2_32bis.png)
 

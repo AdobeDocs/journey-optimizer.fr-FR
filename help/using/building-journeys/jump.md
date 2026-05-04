@@ -10,10 +10,10 @@ level: Intermediate
 keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 78%
+source-wordcount: '1418'
+ht-degree: 60%
 
 ---
 
@@ -53,6 +53,20 @@ Dans le parcours B, le premier événement est déclenché en interne via l’a
 >[!NOTE]
 >
 >Le parcours B peut également être déclenché par un événement externe.
+
+### Comportement du profil lors d’un saut {#jump-profile-behavior}
+
+Lorsqu’un profil atteint l’étape **[!UICONTROL Saut]**, il continue à progresser dans le parcours d’origine (Parcours A) tout en accédant simultanément au parcours cible (Parcours B). Le profil est donc actif dans les deux parcours en même temps.
+
+Autrement dit :
+
+* Le profil effectue toutes les étapes restantes dans le Parcours A après l’activité Saut (par exemple, une action d’attente ou de fermeture de relance).
+* Le profil commence également à circuler dans le Parcours B à partir de son premier événement, indépendamment du Parcours A.
+* Si le profil est **déjà actif** dans le Parcours B lors de l’exécution du Saut, il **ne reviendra pas** dans le Parcours B. Le parcours A continue normalement ; aucune erreur n&#39;est signalée.
+
+>[!NOTE]
+>
+>Le cas ci-dessus — profil déjà actif dans le Parcours B — se traduit par un **saut silencieux** : aucune erreur n&#39;est générée et le Parcours A se poursuit normalement. Dans d’autres situations, le Saut peut **échouer** et le Parcours A applique sa gestion standard des actions et des erreurs. Voir [Échecs d’exécution](#jump-troubleshoot) pour obtenir la liste complète des cas.
 
 ## Bonnes pratiques et limites {#jump-limitations}
 
@@ -138,10 +152,20 @@ Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, u
 
 ## Dépannage {#jump-troubleshoot}
 
-Des erreurs se produisent si :
+### Erreurs de configuration
+
+Les problèmes suivants empêchent le fonctionnement correct du Saut et apparaissent comme des erreurs sur la zone de travail du parcours :
 
 * Le parcours cible n’existe plus.
-* Le parcours cible est une version brouillon, fermé ou arrêté.
-* Le premier événement du parcours cible a changé et le mappage est interrompu.
+* Le parcours cible est en version brouillon, fermé ou arrêté.
+* Le premier événement du parcours cible a changé et le mapping est rompu.
 
 ![Journey Analytics affichant les mesures d’exécution de l’activité Saut](assets/jump6.png)
+
+### Échecs d’exécution
+
+Dans les cas ci-dessous, l’étape Saut est traitée comme une **action en échec** dans le Parcours A. Le Parcours A applique la gestion standard action-erreur et continue :
+
+* L’instance de parcours cible existante a été arrêtée et le parcours cible n’est pas rentrant.
+* Une période de reprise est configurée sur le parcours cible. Même lorsque la rentrée est autorisée en principe, le profil ne peut pas rentrer à nouveau avant l’expiration de la période (le Saut échoue avec un statut « non rentrant pour la période »).
+* La version du parcours cible est introuvable, a été supprimée, est terminée ou a été arrêtée.
