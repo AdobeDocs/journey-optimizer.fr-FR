@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '1990'
 ht-degree: 20%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Nouveautés"
->abstract="**&#x200B;** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
+>abstract="**** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
 
 [!DNL Adobe Journey Optimizer] suit un modèle de diffusion continu, ce qui permet à Adobe de fournir en continu de nouvelles fonctionnalités, de nouvelles améliorations et de nouveaux correctifs. Cette approche permet un déploiement évolutif et échelonné des fonctionnalités afin d’assurer les performances et la stabilité dans tous les environnements.
 
@@ -32,7 +32,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Les nouvelles fonctionnalités et améliorations publiées début avril sont accompagnées de leur date de disponibilité.
@@ -40,6 +40,24 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 **Date de publication** : 28 et 29 avril 2026
 
 ### Nouvelles fonctionnalités {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Intégrations</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La fonctionnalité <b> Intégrations </b> vous permet de connecter des sources de données tierces directement à Adobe Journey Optimizer. En simplifiant la manière d’extraire des données externes et du <b>contenu composable</b>, cette fonctionnalité facilite la diffusion de messages dynamiques personnalisés sur tous vos canaux.</p>
+<p>Publiée précédemment en version Beta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p>Pour plus d’informations, consultez la <a href="../integrations/integrations.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 4 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -53,7 +71,7 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 <p>Les <strong>campagnes orchestrées</strong> prennent désormais en charge une activité <strong>Requête incrémentale</strong> qui cible uniquement les profils ou les événements nouvellement éligibles depuis la dernière exécution.
 
 Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences (nouvelles inscriptions, membres nouvellement qualifiés du programme de fidélité et segments similaires) tout en réduisant la charge de travail des requêtes et en évitant les envois redondants au fil du temps.</p>
-<p>Pour plus d’informations, consultez la <a href="../orchestrated/activities/incremental-query.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +87,6 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <tr>
 <td>
 <p>Avec Journey Optimizer, vous pouvez désormais envoyer des e-mails lorsque l’entité d’émission (expéditeur) diffère de l’entité de création (de). Les clients de messagerie qui prennent en charge cette fonctionnalité l’affichent généralement sous la forme « Expéditeur au nom de l’expéditeur » ou affichent un indicateur « via ». Renseignez les champs facultatifs <strong>En-têtes de l’expéditeur</strong> dans les paramètres du canal e-mail pour configurer cette fonctionnalité.</p>
-<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
 <p>Pour plus d’informations, consultez la <a href="../email/header-parameters.md#sender-header">documentation détaillée</a>.</p>
 </td>
@@ -278,8 +295,6 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
 * **Personnaliser l’ID d’application dans les paramètres du canal** - Dans les paramètres de configuration du canal push, vous pouvez désormais personnaliser le champ **ID d’application** afin que chaque destinataire puisse recevoir une notification push de la marque appropriée en fonction des informations de son profil. [En savoir plus](../push/push-configuration.md#app-id-personalization)
 
-  Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
-
 #### Prise de décision
 
 * **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des fragments aux éléments de décision. Ils peuvent être utilisés dans des expériences basées sur du code et des campagnes par e-mail via des politiques de décision. [En savoir plus](../experience-decisioning/fragments-decision-policies.md)
@@ -358,22 +373,6 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <table>
 <thead>
 <tr>
-<th><strong>Intégrations</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La fonctionnalité <b> Intégrations </b> vous permet de connecter des sources de données tierces directement à Adobe Journey Optimizer. En simplifiant la manière d’extraire des données externes et du <b>contenu composable</b>, cette fonctionnalité facilite la diffusion de messages dynamiques personnalisés sur tous vos canaux.</p>
-<p>Publiée précédemment en version bêta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>simulation de parcours</strong><br/></th>
 </tr>
 </thead>
@@ -400,13 +399,9 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <p>Il est désormais possible d’ajouter des liens profonds au contenu de votre e-mail par le biais d’une option dédiée dans le Designer d’e-mail.</p><p>Cela permet aux utilisateurs d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement.</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>Pour plus d’informations, consultez la <a href="../email/message-tracking.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 7 mai 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Améliorations {#comming-soon-improv}
-
-#### Configuration
-
-* **Autorisations spécifiques pour les clés de chiffrement des paramètres d’URL** - Pour accéder aux clés de chiffrement des paramètres d’URL et les gérer, de nouvelles autorisations ont été créées. Vous devez maintenant disposer des autorisations **Afficher le registre des clés** et **Gérer le registre des clés** accordées. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
