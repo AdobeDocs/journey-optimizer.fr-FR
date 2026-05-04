@@ -7,28 +7,16 @@ feature: Integrations
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: intégration, fournisseur, tiers
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 0%
 
 ---
 
 
 # Intégration des fournisseurs {#vendor-integration}
-
->[!BEGINSHADEBOX]
-
-Table des matières :
-
-* [Utiliser des intégrations](integrations.md)
-* **[Prise en main de l’intégration des fournisseurs](vendor-integration-gs.md)**
-* [Fournisseurs disponibles](vendor-integration.md)
-* [FAQ](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 Vous pouvez utiliser **Integrations** dans Adobe Journey Optimizer pour appeler des **systèmes externes via HTTP** lorsque chaque système expose un point d’entrée **API** qui convient à votre cas d’utilisation et est compatible avec la manière dont Integrations émet des requêtes et consomme des réponses. Pour connaître le workflow complet, voir [Utilisation des intégrations](integrations.md).
 
@@ -44,6 +32,7 @@ Appliquez les règles suivantes lorsque vous configurez une intégration dans ce
 * **Volume et fiabilité :** respecter les **limites tarifaires** du fournisseur. Configurez la politique **délai d’expiration**, **reprise** et **cache** pour votre canal (par exemple, e-mail par lot par rapport aux envois transactionnels) et validez en cas de charge.
 * **Sécurité :** stockez et faites pivoter les jetons, les clés API et les informations d’identification OAuth en fonction des politiques de votre entreprise. N’incorporez pas de secrets dans le contenu des messages.
 
+
 ## Restrictions et exclusions {#limitations-exclusions}
 
 La liste des solutions tierces est **à titre d’illustration** et non exhaustive. Les API du fournisseur, les hôtes, les limites de débit et les formes de réponse JSON ou HTML peuvent changer. Confirmez les points d’entrée, l’authentification et le mappage des champs avec la documentation actuelle du fournisseur et votre abonnement. Les modèles supposent ici que les appels **orientés lecture** conviennent à la personnalisation. Les intégrations prennent uniquement en charge le mappage à partir des réponses **JSON** et **HTML**. **Écriture différée**, **exportations par lots** et les réponses dans tout autre format ne sont pas prises en charge.
@@ -52,8 +41,8 @@ La liste des solutions tierces est **à titre d’illustration** et non exhausti
 
 Utilisez ces liens groupés pour accéder rapidement au modèle de fournisseur approprié :
 
-* **Système de gestion de contenu :** [Contentful](#contentful), [Sitecore](#sitecore), [Salsify](#salsify), [Contentstack](#contentstack), [Akeneo](#akeneo), [Magnolia](#magnolia)
-* **Fidélité et récompenses :** [Voucherify](#voucherify), [Talon.One](#talon-one), [Antavo](#antavo), [Fidélité Salesforce](#salesforce-loyalty), [Capillaire](#capillary)
-* **Modèles, personnalisation et recommandations :** [Stensul](#stensul), [Marigold](#marigold), [Adobe Target Recommendations](#adobe-target-recommendations)
-* **Données, météo et opérations :** [AccuWeather](#accuweather), [ShipStation](#shipstation), [RevenueCat](#revenuecat), [Databricks](#databricks)
-* **Examens, consentement et réseaux sociaux :** [Bynder](#bynder), [Trustpilot](#trustpilot), [Bazaarvoice](#bazaarvoice), [OneTrust](#onetrust), [Meta](#meta), [Aprimo](#aprimo), [Epsilon (Epsilon3)](#epsilon)
+* **Système de gestion de contenu :** [Contentful](vendor-integration.md#contentful), [Sitecore](vendor-integration.md#sitecore), [Salsify](vendor-integration.md#salsify), [Contentstack](vendor-integration.md#contentstack), [Akeneo](vendor-integration.md#akeneo), [Magnolia](vendor-integration.md#magnolia)
+* **Fidélité et récompenses :** [Voucherify](vendor-integration.md#voucherify), [Talon.One](vendor-integration.md#talon-one), [Antavo](vendor-integration.md#antavo), [Fidélité Salesforce](vendor-integration.md#salesforce-loyalty), [Capillaire](vendor-integration.md#capillary)
+* **Modèles, personnalisation et recommandations :** [Stensul](vendor-integration.md#stensul), [Marigold](vendor-integration.md#marigold), [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations)
+* **Données, météo et opérations :** [AccuWeather](vendor-integration.md#accuweather), [ShipStation](vendor-integration.md#shipstation), [RevenueCat](vendor-integration.md#revenuecat), [Databricks](vendor-integration.md#databricks)
+* **Examens, consentement et réseaux sociaux :** [Bynder](vendor-integration.md#bynder), [Trustpilot](vendor-integration.md#trustpilot), [Bazaarvoice](vendor-integration.md#bazaarvoice), [OneTrust](vendor-integration.md#onetrust), [Meta](vendor-integration.md#meta), [Aprimo](vendor-integration.md#aprimo), [Epsilon (Epsilon3)](vendor-integration.md#epsilon)

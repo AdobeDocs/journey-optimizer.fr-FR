@@ -8,26 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: intégration, FAQ, données externes, personnalisation
-hide: true
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 1%
 
 ---
 
 # Questions fréquentes sur les intégrations {#vendor-integration-faq}
-
->[!BEGINSHADEBOX]
-
-Table des matières :
-
-* [Utiliser des intégrations](integrations.md)
-* [Prise en main de l’intégration des fournisseurs](vendor-integration-gs.md)
-* [Fournisseurs disponibles](vendor-integration.md)
-* **[FAQ](vendor-integration-faq.md)**
-
->[!ENDSHADEBOX]
 
 Vous trouverez ci-dessous des questions fréquentes sur **Intégrations** dans Adobe Journey Optimizer.
 
@@ -72,7 +60,7 @@ Il s’agit par exemple des points de récompense des systèmes de fidélité, d
 
 +++ Comment configurer une intégration à un haut niveau en tant qu’administrateur ?
 
-Vous indiquez un nom et une description, une URL de point d’entrée de l’API (éventuellement avec des variables de chemin d’accès), des valeurs de modèle de chemin d’accès, **[!UICONTROL GET]** ou **[!UICONTROL POST]**, des en-têtes facultatifs et des paramètres de requête, une méthode d’authentification, des paramètres de politique (tels que le délai d’expiration et le cache facultatif ou une nouvelle tentative), un exemple de réponse JSON pour mapper des champs, puis vous exécutez **[!UICONTROL Envoyer la connexion de test]** et **[!UICONTROL Activer]**, le cas échéant.
+Vous indiquez un nom et une description, une URL de point d’entrée de l’API (éventuellement avec des variables de chemin d’accès), des valeurs de modèle de chemin d’accès, **** ou **[!UICONTROL POST]**, des en-têtes facultatifs et des paramètres de requête, une méthode d’authentification, des paramètres de politique (tels que le délai d’expiration et le cache facultatif ou une nouvelle tentative), un exemple de réponse JSON pour mapper des champs, puis vous exécutez **[!UICONTROL Envoyer la connexion de test]** et **[!UICONTROL Activer]**, le cas échéant.
 
 ➡️ [En savoir plus sur la configuration de l&#39;intégration](integrations.md#configure)
 
@@ -114,9 +102,9 @@ Oui. Cette fonctionnalité est disponible pour les parcours et les campagnes pou
 
 +++ Puis-je utiliser des intégrations dans des fragments réutilisables ?
 
-La fonctionnalité Intégrations n’est **pas** prise en charge dans les fragments. Utilisez les intégrations dans le contenu des campagnes et des messages de parcours lorsque le produit les prend en charge.
+La fonctionnalité Intégrations est prise en charge dans les fragments.
 
-➡️ [En savoir plus sur les fragments et les limites bêta](integrations.md#limitations)
+➡️ [En savoir plus sur les fragments](aem-fragments-gs.md)
 
 +++
 
@@ -132,7 +120,7 @@ Les canaux **sortants** sont pris en charge (par exemple e-mail, SMS et notifica
 
 +++ Quels formats de réponse d’API sont pris en charge ?
 
-Pour les réponses d’appel API, **JSON** est pris en charge pour le mappage des champs. La sortie d’image binaire brute et les formats qui ne sont pas JSON ne sont pas disponibles pour ce workflow.
+Pour les réponses d’appel API, **JSON** et **HTML** sont pris en charge pour le mappage des champs. La sortie d’image binaire brute et les formats qui ne sont pas JSON ne sont pas disponibles pour ce workflow.
 
 ➡️ [En savoir plus sur les formats JSON et de réponse](integrations.md#limitations)
 
@@ -150,9 +138,9 @@ Les API **Retrieval** qui ciblent un contenu spécifique sont prises en charge. 
 
 +++ De quelles autorisations ai-je besoin pour configurer les intégrations ?
 
-Configuration est un workflow d’administration sous **[!UICONTROL Configurations]** > **[!UICONTROL Intégrations]**. Les noms exacts des autorisations dépendent des profils de produits Admin Console et Journey Optimizer de votre organisation. Confirmez auprès de votre administrateur ou de votre représentant Adobe.
+Pour commencer à utiliser les intégrations, les utilisateurs doivent disposer des autorisations **[!UICONTROL Gérer la configuration de l’intégration AJO]** et **[!UICONTROL Afficher la configuration de l’intégration AJO]**.
 
-➡️ [En savoir plus sur l’emplacement de configuration des intégrations](integrations.md#configure)
+➡️ [En savoir plus sur les autorisations d’intégration](integrations.md#overview)
 
 +++
 

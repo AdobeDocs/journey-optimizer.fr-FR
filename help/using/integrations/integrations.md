@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Intégration
-hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 49%
+source-wordcount: '1125'
+ht-degree: 34%
 
 ---
 
 # Utiliser des intégrations {#external-sources}
-
->[!BEGINSHADEBOX]
-
-Table des matières :
-
-* **[Utilisation des intégrations](integrations.md)**
-* [Commencer](vendor-integration-gs.md)
-* [Fournisseurs disponibles](vendor-integration.md)
-* [FAQ](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 ## Vue d’ensemble
 
@@ -41,7 +29,7 @@ Vous pouvez utiliser cette fonctionnalité pour accéder à des données externe
 * **Recommandations de produits** à partir des moteurs de recommandation.
 * **Mises à jour logistiques** comme le statut de la diffusion.
 
-Pour commencer à utiliser les intégrations, les utilisateurs doivent disposer des autorisations **[!UICONTROL Gérer la configuration de l’intégration AJO]** et **[!UICONTROL Afficher l’intégration AJO]**. [En savoir plus sur les autorisations](../administration/permissions.md)
+Pour commencer à utiliser les intégrations, les utilisateurs doivent disposer des autorisations **[!UICONTROL Gérer la configuration de l’intégration AJO]** et **[!UICONTROL Afficher la configuration de l’intégration AJO]**. [En savoir plus sur les autorisations](../administration/permissions.md)
 
 +++ Découvrez comment attribuer des autorisations liées aux intégrations
 
@@ -49,7 +37,7 @@ Pour commencer à utiliser les intégrations, les utilisateurs doivent disposer 
 
 1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les autorisations.
 
-1. Ajoutez la ressource **[!UICONTROL Configuration de l’intégration AJO]**, puis sélectionnez les autorisations d’intégration appropriées dans le menu déroulant.
+1. Ajoutez la ressource **[!UICONTROL Configuration de l’intégration]**, puis sélectionnez les autorisations d’intégration appropriées dans le menu déroulant.
 
    ![](assets/external-integration-config-9.png)
 
@@ -69,7 +57,7 @@ Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé au
 
 >[!AVAILABILITY]
 >
-> Cette fonctionnalité d’intégration est limitée aux canaux sortants (e-mail, SMS et notification push) et fournit des données aux formats JSON ou HTML. Notez que l’API est en lecture seule et ne prend en charge que les opérations de récupération.
+> Cette fonctionnalité d’intégration est limitée aux canaux sortants (e-mail, SMS et notification push) et prend en charge l’extraction de fichiers JSON ou HTML.
 
 En tant qu’administrateur ou administratrice, vous pouvez configurer des intégrations externes en procédant comme suit :
 
@@ -85,11 +73,15 @@ En tant qu’administrateur ou administratrice, vous pouvez configurer des inté
 
    >[!NOTE]
    >
-   >Ces champs ne peuvent pas contenir d’espaces.
+   >Le champ **[!UICONTROL Nom]** ne peut pas contenir d’espaces.
 
-1. Saisissez l’**[!UICONTROL URL]** du point d’entrée API, qui peut inclure des paramètres de chemin comportant des variables définissables à l’aide de libellés et de valeurs par défaut.
+1. Saisissez le point d’entrée de l’API **[!UICONTROL URL]**.
 
-1. Configurez le **[!UICONTROL Modèle de chemin]** avec son **[!UICONTROL Nom]** et sa **[!UICONTROL Valeur par défaut]**.
+   Pour les variables de chemin d’accès, placez un libellé entre accolades doubles dans l’URL, par exemple `https://api.example.com/v1/products/{{productId}}`, puis définissez chaque espace réservé dans **[!UICONTROL Modèle de chemin d’accès]**.
+
+1. Configurez le **[!UICONTROL Modèle de chemin d’accès]** avec **[!UICONTROL Nom]** et **[!UICONTROL Valeur par défaut]** pour chaque espace réservé ajouté dans l’URL.
+
+   Notez que le **[!UICONTROL Nom]** est un libellé destiné aux professionnels du marketing dans l’éditeur uniquement. Il n’est pas envoyé sur la requête API.
 
    ![](assets/external-integration-config-2.png)
 
@@ -97,15 +89,15 @@ En tant qu’administrateur ou administratrice, vous pouvez configurer des inté
 
 1. Cliquez sur **[!UICONTROL Ajouter un en-tête]** et/ou **[!UICONTROL Ajouter des paramètres de requête]** selon les besoins de votre intégration. Pour chaque paramètre, fournissez les détails suivants :
 
-   * **[!UICONTROL Paramètre]** : un identifiant unique utilisé en interne pour référencer le paramètre.
+   * **[!UICONTROL Paramètre]** : nom réel de l’en-tête ou du paramètre de requête comme attendu par l’API.
 
-   * **[!UICONTROL Nom]** : le nom réel du paramètre, comme attendu par l’API.
+   * **[!UICONTROL Nom]** : libellé convivial pour les professionnels du marketing pour ce paramètre, les auteurs et autrices le sélectionnent lors du mappage des valeurs dans les campagnes.
 
    * **[!UICONTROL Type]** : choisissez **Constante** pour une valeur fixe ou **Variable** pour une entrée dynamique.
 
    * **[!UICONTROL Valeur]** : saisissez directement la valeur pour les constantes ou sélectionnez un mappage de variables.
 
-   * **[!UICONTROL Obligatoire]** : indiquez si ce paramètre est obligatoire.
+   * **[!UICONTROL Obligatoire]** : indiquez si ce paramètre est obligatoire. Pour les paramètres **[!UICONTROL Variable]** obligatoires, si aucune valeur n’est résolue au moment de l’exécution et qu’aucune valeur par défaut n’est fournie, la génération de la requête échoue avec une erreur et l’appel API sortant n’est pas effectué.
 
    ![](assets/external-integration-config-3.png)
 
@@ -123,8 +115,11 @@ En tant qu’administrateur ou administratrice, vous pouvez configurer des inté
 
 1. Définissez la **[!UICONTROL Configuration de la politique]** comme le **[!UICONTROL Délai d’expiration]** pour les requêtes API et choisissez d’activer le ralentissement, la mise en cache et/ou la reprise.
 
-   Lorsque la limitation est activée, les taux pris en charge vont de **50** TPS (minimum) à **5 000** TPS (maximum).
-Lorsque la reprise est activée, d’autres échecs suivent **trois** reprises par défaut, avec **200 ms**, **400 ms** et **800 ms** entre les tentatives successives.
+   >[!NOTE]
+   >
+   >Lorsque la limitation est activée, les taux pris en charge sont compris entre 50 et 5 000 TPS. Les limites s’appliquent à l’**intégration**, et non à chaque point d’entrée de l’API.
+   >
+   >Lorsque la reprise est activée, d’autres échecs réessayent **trois** par défaut, avec **200 ms**, **400 ms** et **800 ms** entre les tentatives.
 
 1. Avec le champ **[!UICONTROL payload de réponse]**, vous pouvez déterminer quels champs de l’exemple de sortie doivent être utilisés pour la personnalisation des messages.
 
@@ -138,9 +133,20 @@ Lorsque la reprise est activée, d’autres échecs suivent **trois** reprises p
    >
    >La configuration **[!UICONTROL Payload de réponse]** définit la réponse attendue pour la création, y compris tout schéma appliqué à cette étape. Les marketeurs peuvent référencer uniquement les champs exposés. Les jetons pour d’autres chemins ne sont pas validés dans l’éditeur.
 
-1. Utilisez **[!UICONTROL Envoyer une connexion de test]** pour valider l’intégration.
+1. Utilisez **[!UICONTROL Envoyer une connexion de test]** pour valider l’intégration. [En savoir plus sur la manière de tester votre connexion](#connection)
 
    Une fois la validation effectuée, cliquez sur **[!UICONTROL Activer]**.
+
+1. Accédez à l’intégration que vous venez de créer pour :
+
+   * **Mise à jour** : modifiez uniquement les détails **Authentification** et **Configuration de la stratégie**. Les mises à jour s’appliquent aux parcours et aux campagnes en direct. Avant d’enregistrer les modifications, utilisez le menu **[!UICONTROL Explorer les références]** pour confirmer où l’intégration est utilisée.
+   * **Archiver** : archivez une configuration d’intégration.
+
+   ![](assets/external-integration-config-7.png)
+
+Après l’activation, cliquez sur l’icône ![menu avancé](assets/do-not-localize/Smock_More_18_N.svg) pour accéder au menu **[!UICONTROL Explorer les références]** et passer en revue l’utilisation de cette configuration, y compris les parcours et les campagnes qui en dépendent.
+
+![](assets/external-integration-config-6.png)
 
 ### Limites de l’heure d’envoi et comportement {#configure-send-time}
 
@@ -150,61 +156,25 @@ Les appels respectent le taux **de limitation** que vous avez configuré : Journ
 
 Chaque message mis en file d’attente comporte également une fenêtre de validité (TTL). Si le traitement prend du retard et qu’un message reste au-delà de cette fenêtre, le système **ignore** et émet un événement **`MessageValidityExclusion`** afin que le travail obsolète soit effacé de la file d’attente et que les ressources restent disponibles.
 
+## Test de votre connexion {#connection}
 
-## Utiliser des intégrations externes pour la personnalisation {#personalization}
+**[!UICONTROL Envoyer la connexion de test]** valide l’URL du point d’entrée, l’authentification et la structure de requête par rapport à l’API cible avant l’activation, ce qui réduit le risque d’échecs d’exécution pendant le traitement des messages.
 
-Avant d’utiliser les intégrations externes pour la personnalisation, notez que la planification et l’isolation des appels d’intégration dépendent du contexte d’exécution :
+1. Lorsque l’URL, la méthode HTTP, les en-têtes et les paramètres de requête sont définis, cliquez sur **[!UICONTROL Envoyer la connexion de test]** pour exécuter un test de connectivité et confirmer la configuration.
 
-* **Exécution par lots** (campagnes par lots, campagnes orchestrées et campagnes marketing déclenchées par l’API) : chaque exécution par lots fonctionne dans un environnement dédié et isolé. Les exécutions par lots simultanées qui appellent des systèmes externes ne se concurrencent pas et ne s’entravent donc pas.
+1. Dans la boîte de dialogue **[!UICONTROL Envoyer la connexion de test]**, saisissez les valeurs par défaut des espaces réservés **[!UICONTROL Variable]** dans le chemin d’accès de l’URL, les en-têtes et les paramètres de requête.
 
-* **Exécution unitaire** (parcours unitaires, parcours par lots et campagnes transactionnelles déclenchées par l’API) : le trafic d’intégration est isolé par sandbox de marque, de sorte qu’une API externe lente pour une marque ne retarde pas une autre. Dans votre sandbox, les intégrations simultanées peuvent retarder brièvement d’autres messages pris en charge par l’intégration ; chaque message est tenté jusqu’à 12 heures avant son expiration.
+   Ces valeurs sont incluses dans la requête de test. Journey Optimizer appelle le point d’entrée et indique si la connexion a réussi ou échoué.
 
-En tant que responsable marketing, vous pouvez utiliser des intégrations configurées pour personnaliser votre contenu. Procédez comme suit :
+   ![](assets/external-integration-config-11.png)
 
-1. Accédez au contenu de votre campagne et cliquez sur **[!UICONTROL Ajouter une personnalisation]** dans le champ **[!UICONTROL Composants]** Texte ou HTML.
+1. Si le test renvoie une réponse réussie, sélectionnez **[!UICONTROL Utiliser comme payload de réponse]** pour copier le corps de la réponse dans le champ **[!UICONTROL Payload de réponse]**, voir l’étape 10 sous [Configurer votre intégration](#configure), où les types de données peuvent être détectés et les champs peuvent être sélectionnés pour la personnalisation.
 
-   [En savoir plus sur les composants](../email/content-components.md)
+   ![](assets/external-integration-config-10.png)
 
-   ![](assets/external-integration-content-1.png)
+1. Si le test échoue, développez le menu déroulant **[!UICONTROL Erreur]** pour consulter les détails de l’échec, mettez à jour la configuration de l’intégration si nécessaire et exécutez à nouveau **[!UICONTROL Envoyer la connexion de test]**.
 
-1. Accédez à la section **[!UICONTROL Intégrations]** et cliquez sur **[!UICONTROL Ouvrir les intégrations]** pour afficher toutes les intégrations actives.
+   ![](assets/external-integration-content-12.png)
 
-   Notez que les fragments de contenu sont disponibles avec les intégrations , mais prennent uniquement en charge les canaux sortants. La publication entrante ne réussit pas. Une fois qu’un fragment est publié, l’ajout et l’enregistrement de nouvelles intégrations sont désactivés afin d’éviter tout impact sur les parcours et campagnes existants.
-
-   ![](assets/external-integration-content-2.png)
-
-1. Sélectionnez une intégration et cliquez sur **[!UICONTROL Enregistrer]**.
-
-   ![](assets/external-integration-content-3.png)
-
-1. Activez le mode **[!UICONTROL Pastilles]** pour déverrouiller le menu d’intégration avancé.
-
-   ![](assets/external-integration-content-4.png)
-
-1. Lorsque vous créez la personnalisation de l’intégration, l’assistant Intégrations inclut un champ **`required`** qui définit la manière dont les données manquantes ou en échec interagissent avec le contenu par défaut :
-
-   * **`required=true`** (par défaut) : le rendu s’arrête pour ce message. L’envoi est exclu avec **`ExternalDataLookupExclusion`** et cette exclusion est enregistrée dans le jeu de données de commentaires de messages **message**.
-   * **`required=false`** : la variable de résultat est définie sur **`null`** et le rendu se poursuit. Utilisez du texte par défaut, des secours ou une logique conditionnelle dans votre modèle afin que les profils ne reçoivent pas de contenu vide lorsque l’intégration ne renvoie pas de données.
-
-     ![](assets/external-integration-content-8.png)
-
-1. Pour terminer la configuration de votre intégration, définissez les attributs d’intégration, qui ont été précédemment spécifiés lors de la [configuration](#configure).
-
-   Vous pouvez attribuer des valeurs à ces attributs à l’aide de valeurs statiques, qui restent constantes, ou d’attributs de profil, qui extraient dynamiquement des informations des profils utilisateur.
-
-   ![](assets/external-integration-content-5.png)
-
-1. Une fois les attributs d’intégration définis, vous pouvez utiliser les champs d’intégration de votre contenu pour envoyer des messages personnalisés en cliquant sur l’icône ![ajouter](assets/do-not-localize/Smock_Add_18_N.svg).
-
-   ![](assets/external-integration-content-6.png)
-
-   >[!NOTE]
-   >
-   >Les jetons de votre modèle doivent utiliser uniquement les champs exposés par l’administrateur dans la configuration de l’intégration. Par exemple, `{{weatherResponse.temperature}}` est valide lorsque `temperature` est exposé ; `{{weatherResponse.humidity}}` est rejeté dans l’éditeur si `humidity` n’a pas été exposé.
-
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
-
-Votre personnalisation d’intégration est maintenant appliquée avec succès à votre contenu, en veillant à ce que chaque destinataire reçoive une expérience adaptée et pertinente en fonction des attributs que vous avez configurés.
-
-![](assets/external-integration-content-7.png)
+Une fois le test réussi, sélectionnez **[!UICONTROL Activer]** dans la configuration de l’intégration. Voir [Configuration de votre intégration](#configure).
 

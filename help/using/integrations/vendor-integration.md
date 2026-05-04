@@ -7,12 +7,11 @@ feature: Integrations
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: intégration, fournisseur, tiers
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '9348'
-ht-degree: 7%
+source-wordcount: '10154'
+ht-degree: 6%
 
 ---
 
@@ -20,24 +19,27 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-Table des matières :
-
-* [Utiliser des intégrations](integrations.md)
-* [Prise en main de l’intégration des fournisseurs](vendor-integration-gs.md)
-* **[Exemples de configurations de fournisseur](vendor-integration.md)**
-* [FAQ](vendor-integration-faq.md)
+Il est de la responsabilité des clients de s’assurer que leur utilisation de la fonctionnalité Intégrations AJO et des fournisseurs tiers ou intégrations associés est conforme à toutes les lois et réglementations applicables, telles que la loi HIPAA.
 
 >[!ENDSHADEBOX]
 
->[!BEGINSHADEBOX]
+## Navigation rapide {#quick-navigation}
 
-Les clients et les fournisseurs tiers sont chargés de sécuriser les points d’entrée d’API, en fonction de leurs exigences de sécurité et de conformité.
+Utilisez ces liens groupés pour accéder rapidement au modèle de fournisseur approprié :
 
->[!ENDSHADEBOX]
+* **Système de gestion de contenu :** [Contentful](#contentful), [Sitecore](#sitecore), [Salsify](#salsify), [Contentstack](#contentstack), [Akeneo](#akeneo), [Magnolia](#magnolia)
+* **Fidélité et récompenses :** [Voucherify](#voucherify), [Talon.One](#talon-one), [Antavo](#antavo), [Fidélité Salesforce](#salesforce-loyalty), [Capillaire](#capillary)
+* **Modèles, personnalisation et recommandations :** [Stensul](#stensul), [Marigold](#marigold), [Adobe Target Recommendations](#adobe-target-recommendations)
+* **Données, météo et opérations :** [AccuWeather](#accuweather), [ShipStation](#shipstation), [RevenueCat](#revenuecat), [Databricks](#databricks)
+* **Examens, consentement et réseaux sociaux :** [Bynder](#bynder), [Trustpilot](#trustpilot), [Bazaarvoice](#bazaarvoice), [OneTrust](#onetrust), [Meta](#meta), [Aprimo](#aprimo), [Epsilon (Epsilon3)](#epsilon)
 
 ## Contenu et CMS {#content-and-cms}
 
 ### Content {#contentful}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par ou formellement pris en charge par Contentful. Confirmez les détails actuels de l’API avec la documentation Contentful.
 
 >[!BEGINSHADEBOX]
 
@@ -54,7 +56,6 @@ Les prérequis suivants sont requis :
 * Espace contenu avec accès à l’API de diffusion et clé API orientée lecture.
 * Effacer les types de contenu et les identifiants de champ ; accès administrateur dans Journey Optimizer pour créer des intégrations.
 
-
 Les restrictions et exclusions suivantes s’appliquent :
 
 * Les API Contentful paginées ou à liste large conviennent mal à ce modèle ; préférez les appels de récupération qui ciblent une entrée ou une ressource spécifique.
@@ -64,7 +65,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** avec l’API de diffusion de contenu et votre jeton de diffusion, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **** avec l’API de diffusion de contenu et votre jeton de diffusion, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -72,7 +73,7 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Configurez le point d’entrée à l’aide de l’URL de l’API de diffusion de contenu (CDA) `https://cdn.contentful.com/spaces/{space_id}/environments/{environment_id}/entries/{entry_id}`
 
-1. Sélectionnez la méthode HTTP : **GET**.
+1. Sélectionnez la méthode HTTP : ****.
 
 1. Ajoutez une authentification. Définissez le paramètre **`access_token`** **requête** sur votre jeton API de diffusion de contenu, comme illustré dans **Exemples de champs d’intégration** ci-dessous. Contentful accepte également le même jeton dans un en-tête `Authorization: Bearer` ; utilisez la prise en charge de vos champs d’intégration quelle qu’elle soit.
 
@@ -123,6 +124,10 @@ Exemples de champs d’intégration (alignez-vous sur l’[API de diffusion de c
 
 ### Sitecore {#sitecore}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Sitecore ni formellement pris en charge par celui-ci. Confirmez les détails actuels de l’API avec la documentation Sitecore.
+
 >[!BEGINSHADEBOX]
 
 Sitecore Content Hub et les API cloud associées prennent en charge les flux de métadonnées et de téléchargement de type gestion des ressources numériques. L’exemple de modèle ci-dessous est centré sur un identifiant d’ordre de téléchargement.
@@ -147,7 +152,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** sur votre chemin d’accès d’ordre de téléchargement, définissez les en-têtes d’autorisation par Sitecore, mappez les `id` à partir du contexte, collez l’exemple JSON, mappez les champs et ajustez les délais d’expiration pour la latence des ressources.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **** sur votre chemin d’accès d’ordre de téléchargement, définissez les en-têtes d’autorisation par Sitecore, mappez les `id` à partir du contexte, collez l’exemple JSON, mappez les champs et ajustez les délais d’expiration pour la latence des ressources.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -196,7 +201,7 @@ Utilisez les champs suivants lorsque vous configurez cet exemple d’appel dans 
 | --- | --- | --- | --- | --- |
 | Type de contenu (par défaut) | Content-Type | Constant | application/json | Oui (activé) |
 | Autorisation | Autorisation | Constant | `<token>` du porteur | Oui (activé) |
-| If-Modified-Since | If-Modified-Since | Variable | 2019-08-24T14:15:22Z | Non (désactivé) |
+| If-Modified-Since | If-Modified-Since | Variable | 2019-08-:15:22Z | Non (désactivé) |
 
 **Authentification**
 
@@ -207,6 +212,10 @@ Utilisez les champs suivants lorsque vous configurez cet exemple d’appel dans 
 +++
 
 ### Salsifier {#salsify}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n&#39;est pas maintenu par Salsify ni formellement soutenu par lui. Confirmez les détails actuels de l’API avec la documentation Salsify.
 
 >[!BEGINSHADEBOX]
 
@@ -282,7 +291,7 @@ Certaines références plus anciennes ont réutilisé un chemin de style d’ord
 | --- | --- | --- | --- | --- |
 | Type de contenu (paramètre par défaut) | Content-Type | Constant | application/json | Oui (activé) |
 | Autorisation | Autorisation | Constant | `Bearer <YOUR_TOKEN_HERE>` | Oui (activé) |
-| If-Modified-Since | If-Modified-Since | Variable | 2019-08-24T14:15:22Z | Non (désactivé) |
+| If-Modified-Since | If-Modified-Since | Variable | 2019-08-:15:22Z | Non (désactivé) |
 
 **Authentification**
 
@@ -293,6 +302,10 @@ Certaines références plus anciennes ont réutilisé un chemin de style d’ord
 +++
 
 ### Contentstack {#contentstack}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par ou formellement pris en charge par Contentstack. Confirmez les détails de l’API actuelle avec la documentation de Contentstack.
 
 >[!BEGINSHADEBOX]
 
@@ -382,6 +395,10 @@ Contentstack attend **les deux** clés comme en-têtes pour les demandes de diff
 
 ### Akeneo {#akeneo}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Elle n’est pas gérée par Akeneo et n’est pas officiellement soutenue par celui-ci. Confirmez les détails actuels de l’API avec la documentation Akeneo.
+
 >[!BEGINSHADEBOX]
 
 Akeneo PIM expose les API REST pour les produits, les attributs et les médias.
@@ -406,7 +423,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** avec un jeton porteur, demandez uniquement les options d’attribut nécessaires dans les indicateurs de requête, collez l’exemple JSON, mappez un jeu d’attributs minimal, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **** avec un jeton porteur, demandez uniquement les options d’attribut nécessaires dans les indicateurs de requête, collez l’exemple JSON, mappez un jeu d’attributs minimal, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -434,7 +451,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [&#x200B; API Akeneo &#x200B;](https://api.akeneo.com/){target="_blank"}.
+Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [ API Akeneo ](https://api.akeneo.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
@@ -473,6 +490,10 @@ Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec 
 +++
 
 ### Magnolia {#magnolia}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Magnolia et n’est pas formellement soutenu par celle-ci. Confirmez les détails actuels de l’API avec la documentation de Magnolia.
 
 >[!BEGINSHADEBOX]
 
@@ -555,6 +576,10 @@ Remarque : l’API de diffusion doit utiliser le rôle rest-anonyme pour le cont
 ## Fidélité et récompenses {#loyalty-and-rewards}
 
 ### Voucherify {#voucherify}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Voucherify ni formellement pris en charge par celui-ci. Confirmez les détails actuels de l’API avec la documentation de la pièce jointe.
 
 >[!BEGINSHADEBOX]
 
@@ -655,6 +680,10 @@ Exemples de champs d’intégration. Référence complète : [API Voucherify](ht
 
 ### Talon.One {#talon-one}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Talon.One et n’est pas formellement pris en charge par celui-ci. Confirmez les détails actuels de l’API avec la documentation de Talon.One.
+
 >[!BEGINSHADEBOX]
 
 Talon.One est un moteur de règles de promotion et de fidélité qui comprend des API REST pour les sessions, les effets et les profils.
@@ -679,7 +708,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** sur le profil ou le chemin d’accès dont vous avez besoin, définissez les `Authorization: ApiKey-v1 <key>` comme documenté, collez l’exemple JSON, mappez des champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **** sur le profil ou le chemin d’accès dont vous avez besoin, définissez les `Authorization: ApiKey-v1 <key>` comme documenté, collez l’exemple JSON, mappez des champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -731,8 +760,8 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 | Paramètre | Nom | Type | Valeur | Obligatoire |
 | --- | --- | --- | --- | --- |
 | `progressStatus` | `progressStatus` | Variable | en cours / terminé / expiré | Non (désactivé) |
-| `startDate` | `startDate` | Variable | 2024-05-29T15:04:05+07:00 | Non (désactivé) |
-| `endDate` | `endDate` | Variable | 2024-05-29T15:04:05+07:00 | Non (désactivé) |
+| `startDate` | `startDate` | Variable | 2024-05-:04:05+07:00 | Non (désactivé) |
+| `endDate` | `endDate` | Variable | 2024-05-:04:05+07:00 | Non (désactivé) |
 | `pageSize` | `pageSize` | Variable | `<default_page_size>` | Non (désactivé) |
 | `skip` | `skip` | Variable | `<items_to_skip>` | Non (désactivé) |
 
@@ -745,6 +774,10 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 +++
 
 ### Antavo {#antavo}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Antavo et n’est pas formellement soutenu par celui-ci. Confirmez les détails actuels de l’API avec la documentation Antavo.
 
 >[!BEGINSHADEBOX]
 
@@ -770,7 +803,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** avec l’authentification du fournisseur (par exemple, la clé API dans la requête), évitez d’exposer les informations d’identification personnelles dans la politique, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **** avec l’authentification du fournisseur (par exemple, la clé API dans la requête), évitez d’exposer les informations d’identification personnelles dans la politique, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -828,6 +861,10 @@ Les exemples de champs d’intégration utilisent l’hôte **staging** ; la pro
 
 ### Fidélité à Salesforce {#salesforce-loyalty}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Salesforce ni formellement pris en charge par celui-ci. Confirmez les détails actuels de l’API avec la documentation de Salesforce.
+
 >[!BEGINSHADEBOX]
 
 La gestion de la fidélité Salesforce expose les API REST sur la plateforme Salesforce pour les membres, les programmes et les transactions.
@@ -880,7 +917,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Utilisez l’opération GET Loyalty Management **profil de membre** documentée pour la version de l’API de votre organisation. Les chemins incluent le programme et les identifiants de membre. Voir [Développeurs Salesforce](https://developer.salesforce.com/){target="_blank"}.
+Utilisez l’opération GET Loyalty Management **profil de membre** documentée pour la version de l’API de votre organisation. Les chemins incluent le programme et les identifiants de membre. Voir [Développeurs ](https://developer.salesforce.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
@@ -922,6 +959,10 @@ Utilisez l’opération GET Loyalty Management **profil de membre** documentée 
 +++
 
 ### Capillaire {#capillary}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Capillary ni formellement soutenu par celle-ci. Confirmez les détails actuels de l’API avec la documentation Capillary.
 
 >[!BEGINSHADEBOX]
 
@@ -1008,6 +1049,10 @@ Exemple : `https://ushc.intouch.capillarytech.com/api/v3/rewards/{reward_id}` (l
 
 ### Stensul {#stensul}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n&#39;est pas entretenu par Stensul ou formellement soutenu par lui. Confirmez les détails actuels de l’API avec la documentation de Stensul.
+
 >[!BEGINSHADEBOX]
 
 Stensul est une plateforme de création d’e-mails pour les modèles approuvés ; Journey Optimizer peut utiliser des métadonnées de modèle et des régions structurées par le biais de son API.
@@ -1051,6 +1096,10 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 1. Tester la connexion et activer.
 
 ### Marigold {#marigold}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n&#39;est pas entretenu par Marigold ou formellement soutenu par lui. Confirmez les détails actuels de l’API avec la documentation Marigold .
 
 >[!BEGINSHADEBOX]
 
@@ -1141,6 +1190,10 @@ L’hôte de base dépend de la région (par exemple, `https://{{customername}}.
 
 ### Recommandations Adobe Target {#adobe-target-recommendations}
 
+>[!IMPORTANT]
+>
+>Cette configuration est un modèle fourni à titre d’illustration et testé par l’équipe Adobe Journey Optimizer. Adobe Target Recommendations est un produit Adobe distinct avec son propre cycle de publication et son propre contrôle de version des API. Confirmez toujours les détails actuels de l’API avec la [documentation Adobe Target destinée aux développeurs](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview) avant de procéder au déploiement en production.
+
 >[!BEGINSHADEBOX]
 
 Adobe Target comprend des recommandations et des API de diffusion pour les expériences côté serveur ou intégrées, sous réserve des droits.
@@ -1165,7 +1218,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Les appels de diffusion sont souvent **POST** avec un corps JSON. Configurez OAuth par [authentification de la cible](https://experienceleague.adobe.com/fr/docs/target-dev/developer/api/configure-authentication){target="_blank"}, collez un exemple de réponse, mappez des champs, testez sous le volume attendu.
+1. Suivez [Utilisation des intégrations](integrations.md). Les appels de diffusion sont souvent **POST** avec un corps JSON. Configurez OAuth par [authentification de la cible](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, collez un exemple de réponse, mappez des champs, testez sous le volume attendu.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1218,7 +1271,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 **Authentification**
 
-Reportez-vous à [Configuration de l’authentification Target](https://experienceleague.adobe.com/fr/docs/target-dev/developer/api/configure-authentication) et ajoutez JSON à la payload.
+Reportez-vous à [Configuration de l’authentification Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) et ajoutez JSON à la payload.
 
 **Payload de requête**
 
@@ -1281,6 +1334,10 @@ Reportez-vous à [Configuration de l’authentification Target](https://experien
 
 ### AccuWeather {#accuweather}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par AccuWeather et n’est pas formellement pris en charge par celle-ci. Confirmez les détails actuels de l’API avec la documentation AccuWeather.
+
 >[!BEGINSHADEBOX]
 
 AccuWeather expose les API REST de prévision et d’emplacement afin que les messages puissent inclure des fragments de code prenant en compte la météo.
@@ -1306,7 +1363,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** à moins que votre abonnement n’en exige autrement, joignez le paramètre de requête `apiKey`, mappez les `locationKey` et d’autres variables de profile/context, collez l’exemple JSON, mappez des champs, puis testez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **** à moins que votre abonnement n’en exige autrement, joignez le paramètre de requête `apiKey`, mappez les `locationKey` et d’autres variables de profile/context, collez l’exemple JSON, mappez des champs, puis testez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1374,6 +1431,10 @@ Exemples de champs d’intégration. Les détails et les niveaux sont décrits d
 +++
 
 ### ShipStation {#shipstation}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n&#39;est pas entretenu par ShipStation ni officiellement pris en charge par celle-ci. Confirmez les détails actuels de l&#39;API avec la documentation ShipStation.
 
 >[!BEGINSHADEBOX]
 
@@ -1466,6 +1527,10 @@ L’exemple suivant **Get Timer** illustre un appel de minutage d’automatisati
 
 ### RevenueCat {#revenuecat}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par RevenueCat ni formellement pris en charge par celui-ci. Confirmez les détails actuels de l’API avec la documentation RevenueCat .
+
 >[!BEGINSHADEBOX]
 
 RevenueCat fournit des API de statut d’abonnement et de droits pour les applications.
@@ -1490,7 +1555,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Appelez le REST **GET** modélisé ci-dessous, authentifiez-vous avec l’en-tête de clé secrète, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Appelez le REST **** modélisé ci-dessous, authentifiez-vous avec l’en-tête de clé secrète, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1558,6 +1623,10 @@ Exemple de modèle : utilisez la **Obtenir un produit** de RevenueCat (ou un pro
 
 ### Databricks {#databricks}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par ou formellement pris en charge par les Databricks. Confirmez les détails actuels de l’API avec la documentation relative aux briques de données .
+
 >[!BEGINSHADEBOX]
 
 Databricks fournit des API SQL et REST sur les données d’entrepôt de données ; les brouillons précédents combinaient des conseils d’exécution d’instructions avec un exemple **jobs/get**.
@@ -1605,7 +1674,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++Exemples de champs d’intégration
 
-L’exemple de tâche **GET** ci-dessous est fourni à titre d’illustration. Pour la personnalisation pilotée par SQL, préférez le modèle [API d’exécution d’instruction](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} pris en charge par votre espace de travail.
+L’exemple de tâche **** ci-dessous est fourni à titre d’illustration. Pour la personnalisation pilotée par SQL, préférez le modèle [API d’exécution d’instruction](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} pris en charge par votre espace de travail.
 
 | Champ | Valeur |
 | --- | --- |
@@ -1633,6 +1702,10 @@ L’exemple de tâche **GET** ci-dessous est fourni à titre d’illustration. P
 
 ### Bynder {#bynder}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Bynder ni formellement soutenu par lui. Confirmez les détails actuels de l’API avec la documentation Bynder.
+
 >[!BEGINSHADEBOX]
 
 Bynder est une gestion des ressources numériques (DAM) avec des API REST ; les intégrations utilisent généralement OAuth 2.0 pour les métadonnées en lecture seule ou les URL de ressources.
@@ -1657,7 +1730,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** sur le point d’entrée choisi (l’un des schémas courants est la liste des utilisateurs), exécutez OAuth par [Bynder](https://developer.bynder.com/){target="_blank"}, évitez d’extraire des pages de données inutiles, mappez des champs, testez, puis activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **** sur le point d’entrée choisi (l’un des schémas courants est la liste des utilisateurs), exécutez OAuth par [Bynder](https://developer.bynder.com/){target="_blank"}, évitez d’extraire des pages de données inutiles, mappez des champs, testez, puis activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1784,6 +1857,10 @@ Exemples de champs d’intégration. Voir [Documentation de l’API Bynder](http
 
 ### Trustpilot {#trustpilot}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n&#39;est pas géré par Trustpilot ou formellement soutenu par lui. Confirmez les détails actuels de l&#39;API avec la documentation Trustpilot.
+
 >[!BEGINSHADEBOX]
 
 Trustpilot fournit des API pour les données commerciales et de synthèse de révision lorsque votre cas d&#39;utilisation et votre contrat le permettent.
@@ -1808,7 +1885,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** avec l’authentification de requête requise, mappez les identifiants du profil ou du contexte, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **** avec l’authentification de requête requise, mappez les identifiants du profil ou du contexte, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1869,6 +1946,10 @@ Utilisez l’opération de liste de catégories de [développeurs Trustpilot](ht
 
 ### Bazaarvoice {#bazaarvoice}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n&#39;est pas maintenu par Bazaarvoice, ni formellement soutenu par lui. Confirmez les détails actuels de l’API avec la documentation de Bazaarvoice.
+
 >[!BEGINSHADEBOX]
 
 Bazaarvoice fournit des évaluations, des avis et des API UGC.
@@ -1893,7 +1974,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** avec `passkey` comme paramètre de requête sur l’API Conversations, définissez `Accept: application/json`, collez l’exemple JSON, mappez des champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **** avec `passkey` comme paramètre de requête sur l’API Conversations, définissez `Accept: application/json`, collez l’exemple JSON, mappez des champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1953,6 +2034,10 @@ Exemple de point d’entrée : `https://api.bazaarvoice.com/data/products.json` 
 +++
 
 ### OneTrust {#onetrust}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par OneTrust et n’est pas formellement pris en charge par celui-ci. Confirmez les détails actuels de l’API avec la documentation OneTrust.
 
 >[!BEGINSHADEBOX]
 
@@ -2040,6 +2125,10 @@ Exemple de modèle (fragment) : `https://{tenant}.my.onetrust.com/api/consentman
 
 ### Meta {#meta}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Meta ni formellement pris en charge par celui-ci. Confirmez les détails actuels de l’API avec la documentation de Meta.
+
 >[!BEGINSHADEBOX]
 
 Les API Graph et Marketing de Meta exposent les objets de catalogue et de campagne pour les intégrations commerciales autorisées.
@@ -2064,7 +2153,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Les appels graphiques sont souvent des **GET** avec un chemin versionné ; gérez l’expiration du jeton, collez l’exemple JSON, mappez des champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Les appels graphiques sont souvent des **** avec un chemin versionné ; gérez l’expiration du jeton, collez l’exemple JSON, mappez des champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -2126,6 +2215,10 @@ Exemples de champs d’intégration. Voir [API Graph](https://developers.faceboo
 
 ### Aprimo {#aprimo}
 
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Aprimo et n’est pas formellement soutenu par lui. Confirmez les détails actuels de l’API avec la documentation d’Aprimo.
+
 >[!BEGINSHADEBOX]
 
 Aprimo combine des opérations marketing et des API de gestion des ressources numériques pour les enregistrements, les ressources et les métadonnées.
@@ -2150,7 +2243,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** sur le chemin d’enregistrement dont vous avez besoin, envoyez les en-têtes requis tels que `API-VERSION`, collez l’exemple JSON (HAL ou JSON tel que renvoyé), mappez un ensemble de champs minimal, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **** sur le chemin d’enregistrement dont vous avez besoin, envoyez les en-têtes requis tels que `API-VERSION`, collez l’exemple JSON (HAL ou JSON tel que renvoyé), mappez un ensemble de champs minimal, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -2209,6 +2302,10 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 +++
 
 ### Epsilon (Epsilon3) {#epsilon}
+
+>[!IMPORTANT]
+>
+>Cet exemple de configuration a été testé indépendamment par Adobe en tant que modèle. Il n’est pas géré par Epsilon et n’est pas formellement pris en charge par celui-ci. Confirmez les détails actuels de l’API avec la documentation Epsilon.
 
 >[!BEGINSHADEBOX]
 
@@ -2285,8 +2382,8 @@ Exemple de modèle : `https://{your-instance}.epsilon3.io/api/v1/planning/events
 
 | Paramètre | Nom | Type | Valeur | Obligatoire |
 | --- | --- | --- | --- | --- |
-| `start` | `start` | Variable | 2019-08-24T14:15:22Z | Oui (activé) * |
-| `end` | `end` | Variable | 2019-08-24T14:15:22Z | Oui (activé) * |
+| `start` | `start` | Variable | 2019-08-:15:22Z | Oui (activé) * |
+| `end` | `end` | Variable | 2019-08-:15:22Z | Oui (activé) * |
 | `eventType` | `eventType` | Variable | planifié/non planifié | Non (désactivé) |
 | `exclude_recurrences` | `exclude_recurrences` | Variable | true/false | Non (désactivé) |
 
