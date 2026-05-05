@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 89%
+source-wordcount: '1364'
+ht-degree: 86%
 
 ---
 
@@ -56,11 +56,11 @@ Un identifiant de tracking unique (urlID) n’est généré que lorsque le **URL
 Pour suivre la même URL dans plusieurs e-mails (ou plusieurs fois dans un seul e-mail), utilisez un libellé unique pour chaque URL similaire ; autrement, [!DNL Journey Optimizer] ne pourrez pas suivre le lien sur lequel l’utilisateur a cliqué. Vous pouvez définir des libellés distincts dans le Designer Email ou, pour HTML, via l’attribut `data-label` .
 
 | URL | Balise | Libellé | Comportement de l’urlID |
-|-----|-----|-------|----------------|
-| www.example.com | First | (vide) | Obtient un urlID (par exemple, A) |
-| www.example.com | Second | (vide) | Réutilise l’urlID A — impossible de déterminer le lien sur lequel l’utilisateur a cliqué |
-| www.example.com | Troisième | Première étiquette | Obtient un urlID (par exemple, B) |
-| www.example.com | Quatrième | Deuxième libellé | Obtient un urlID (par exemple C) |
+| --- | --- | --- | --- |
+| `https://www.example.com` | First | (vide) | Obtient un urlID (par exemple, A) |
+| `https://www.example.com` | Second | (vide) | Réutilise l’urlID A — impossible de déterminer le lien sur lequel l’utilisateur a cliqué |
+| `https://www.example.com` | Troisième | Première étiquette | Obtient un urlID (par exemple, B) |
+| `https://www.example.com` | Quatrième | Deuxième libellé | Obtient un urlID (par exemple C) |
 
 ## Insertion de liens {#insert-links}
 
@@ -96,7 +96,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
    >
    >Pour l’interprétation des URL, [!DNL Journey Optimizer] est conforme à la syntaxe URI ([norme RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), ce qui désactive certains caractères internationaux spéciaux dans les URL. Lors de l’envoi du BAT ou de l’e-mail, si une erreur impliquant une URL ajoutée à votre contenu vous est renvoyée, vous pouvez encoder la chaîne comme solution de contournement.
 
-1. Vous pouvez personnaliser vos liens. [En savoir plus](../personalization/personalization-build-expressions.md)
+1. Vous pouvez personnaliser vos liens. [En savoir plus](url-personalization.md)
 
 1. Enregistrez vos modifications.
 
@@ -138,7 +138,7 @@ La période de conservation d’une page miroir est de **90 jours**. Une fois c
 
 ## Personnaliser l’aspect du lien et la cible {#adjust-links}
 
-Vous pouvez ajuster vos liens, par exemple en les soulignant, en modifiant leur couleur ou en sélectionnant leur cible. Ces modifications sont définies dans les volets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** de la section de droite de l’éditeur de contenu.
+Vous pouvez ajuster vos liens, par exemple en les soulignant, en modifiant leur couleur ou en sélectionnant leur cible.  Ces modifications sont définies dans les volets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** de la section de droite de l’éditeur de contenu.
 
 ### Cible {#link-target}
 
@@ -199,26 +199,4 @@ La création de rapports sur les ouvertures et les clics est disponible dans le 
 
 ## Personnalisation du suivi des URL {#url-tracking}
 
-Le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la configuration et s’applique à toutes les URL incluses dans le contenu de votre message.
-
-Vous pouvez également personnaliser des URL individuelles dans le Concepteur d’e-mail. Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
-
-1. Sélectionnez un lien et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
-
-1. Sélectionnez l’icône de personnalisation. Elle nʼest disponible que pour les types de liens suivants : **Lien externe**, **Lien de désinscription** et **Opt-out**.
-
-   ![](assets/message-tracking-insert-link-perso.png)
-
-1. Ajoutez le paramètre de suivi des URL et sélectionnez l’attribut de profil de votre choix dans l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
-
-   ![](assets/message-tracking-perso-parameter.png)
-
-1. Enregistrez vos modifications.
-
-1. Répétez les étapes ci-dessus pour chaque lien auquel vous souhaitez ajouter ce paramètre de tracking.
-
-Désormais, lorsque l’e-mail est envoyé, ce paramètre est automatiquement ajouté à la fin de l’URL. Vous pouvez ensuite capturer ce paramètre dans les outils d’analyse web ou dans les rapports de performances.
-
->[!NOTE]
->
->Pour vérifier l’URL finale, vous pouvez [envoyer un BAT](../content-management/proofs.md) et cliquer sur le lien dans le contenu de l’e-mail une fois que vous avez reçu le BAT. L’URL doit afficher le paramètre de tracking. Dans l’exemple ci-dessus, l’URL finale est : <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>.
+Pour obtenir des conseils détaillés sur la personnalisation des URL (notamment sur la personnalisation des paramètres de tracking d’URL et sur la personnalisation d’une URL complète/de base), consultez la section [Personnalisation des URL](url-personalization.md).
