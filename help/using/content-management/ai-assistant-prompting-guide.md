@@ -7,10 +7,10 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 99%
+source-wordcount: '2352'
+ht-degree: 82%
 
 ---
 
@@ -23,6 +23,36 @@ ht-degree: 99%
 
 Ce guide vous permet de structurer vos requêtes, de communiquer l’intention avec clarté et de vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de votre campagne.
 Découvrez comment rédiger des prompts efficaces qui permettent à l’assistant IA de générer du contenu marketing de grande qualité, conforme à la marque et adapté à vos objectifs.
+
+## Utiliser l’assistant d’invite {#prompt-assistant}
+
+L’assistant d’invite vous aide à renforcer votre invite d’ouverture afin que la génération de contenu ait moins besoin d’aller-retour. À partir de cette première entrée, vous pouvez obtenir des suggestions, une suggestion de réécriture, des améliorations facultatives et des questions de clarification. Vos réponses affinent l’invite utilisée pour générer le contenu.
+
+1. Dans le menu **[!UICONTROL Assistant AI]**, ouvrez **[!UICONTROL Assistant d’invite]** pour affiner l’invite avant de générer le contenu.
+
+   ![](assets/prompt-assistant-1.png)
+
+1. Entrez votre invite. Les suggestions peuvent s’afficher en ligne après votre texte et dans une liste ci-dessous. Cliquez sur **[!UICONTROL Essayer ceci]** sur une suggestion de remplacer votre invite actuelle par cette version.
+
+   ![](assets/prompt-assistant-2.png)
+
+1. Cliquez sur **[!UICONTROL Analyser l&#39;invite]** lorsque vous souhaitez que l&#39;assistant d&#39;invite révise votre texte.
+
+1. La zone de message résume les problèmes ou les insuffisances rencontrés par l&#39;assistant dans votre invite. Si une suggestion de réécriture apparaît, examinez-la et appliquez-la lorsque vous le souhaitez.
+
+   ![](assets/prompt-assistant-3.png)
+
+1. Répondez à des questions explicatives pour donner à l&#39;assistant le contexte dont il a besoin. Vos réponses sont intégrées dans l’invite affinée utilisée pour la génération.
+
+   Cliquez sur **[!UICONTROL Mettre à jour le contexte]**, puis cliquez de nouveau sur **[!UICONTROL Analyser l’invite]** si vous souhaitez une autre passe.
+
+   ![](assets/prompt-assistant-4.png)
+
+1. Après avoir consulté les commentaires de l’assistant et être satisfait de votre invite, cliquez sur **[!UICONTROL Utiliser cette invite]** pour l’appliquer et poursuivre la génération du contenu.
+
+   ![](assets/prompt-assistant-5.png)
+
+Le suivi de ce workflow permet d’établir les objectifs et les détails requis dans l’invite précédant la génération, ce qui tend à améliorer la pertinence et à réduire les révisions ultérieures.
 
 ## Utiliser le framework CO-STAR {#costar-framework}
 
@@ -122,19 +152,19 @@ Ces requêtes ne sont pas prises en charge et doivent être traitées par d’au
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&check; **Audience cible définie** : indique la démographie, le rôle ou le segment.
+&check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&check; **Sélections déroulantes configurées** : la tonalité, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
+&check; **Les sélections déroulantes configurées** : La tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
 
-&check; **Thème du document spécifié** : met en évidence le contenu ou les sections à référencer.
+&check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
 
-&check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
+&check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
 
-&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -144,11 +174,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&check; « Augmenter les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisée par l’IA »
+&check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&check; « Générer des lead pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
+&check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
 
-&check; « Promouvoir notre réduction de 25 % à durée limitée pour les fêtes sur les abonnements Premium, jusqu’au 25 décembre »
+&check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
 
 **Exemples à éviter :**
 
@@ -165,11 +195,11 @@ Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **
 
 **Exemples de bons objectifs :**
 
-&check; « Inciter à télécharger notre nouvelle application mobile qui permet aux utilisateurs et utilisatrices de suivre des habitudes de vie durable avec des recommandations personnalisées et écologiques »
+&check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
 
-&check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les responsables marketing »
+&check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
 
-&check; « Augmenter la participation à notre événement de lancement de produit présentant l’assistant IA de rédaction révolutionnaire qui permet de gagner plus de 5 heures par semaine »
+&check; « Attirez l’attention à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
 
 **Exemples à éviter :**
 

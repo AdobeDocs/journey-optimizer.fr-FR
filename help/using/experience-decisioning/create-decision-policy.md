@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2261'
 ht-degree: 62%
 
 ---
@@ -51,13 +51,11 @@ Ouvrez un parcours ou une campagne, sélectionnez une [action de canal](../build
 
 Modifiez le contenu de votre message et parcourez les onglets ci-dessous pour plus d’informations sur la manière d’ajouter la politique de décision en fonction du canal sélectionné.
 
->[!BEGINTABS]
-
->[!TAB  Expérience basée sur le code ]
+### Pour une expérience basée sur le code
 
 Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle politique de décision à l’aide du menu **éditeur de code** ou **Prise de décision** disponible dans le volet Propriétés.
 
-+++Ajouter une politique de décision à partir de l’éditeur de code
++++ Ajouter une politique de décision à partir de l’éditeur de code
 
 1. Ouvrez l’éditeur de code à l’aide du bouton **[!UICONTROL Modifier le code]**.
 
@@ -67,7 +65,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
 +++
 
-+++Ajouter une politique de décision à partir du menu Prise de décision
++++ Ajouter une politique de décision à partir du menu Prise de décision
 
 1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
@@ -77,7 +75,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
 +++
 
->[!TAB E-mail]
+### Pour l’e-mail
 
 1. Activez/désactivez l’option **[!UICONTROL Activer la prise de décision]**.
 
@@ -89,7 +87,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
 1. Ajoutez une nouvelle politique de décision à l’aide du menu **éditeur de personnalisation** ou **Prise de décision** disponible dans le Concepteur d’e-mail.
 
-   +++Ajout d’une politique de décision à partir de l’éditeur Personalization
+   +++ Ajout d’une politique de décision à partir de l’éditeur Personalization
 
    1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) disponible dans le champ de l’objet ou dans tout champ du corps de l’e-mail dans lequel vous pouvez ajouter de la personnalisation.
 
@@ -99,7 +97,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
    +++
 
-   +++Ajouter une politique de décision à partir du menu Prise de décision
+   +++ Ajouter une politique de décision à partir du menu Prise de décision
 
    1. Ouvrez le Designer d’e-mail et sélectionnez n’importe quel composant dans la structure de l’e-mail.
 
@@ -111,34 +109,34 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
    >[!NOTE]
    >
-   >L’option **[!UICONTROL Réutiliser la sortie de décision]** vous permet de réutiliser une politique de décision déjà créée dans cet e-mail. It is particularly helpful when you want to show the same offer in multiple locations (for example, header and footer).
+   >L’option **[!UICONTROL Réutiliser la sortie de décision]** vous permet de réutiliser une politique de décision déjà créée dans cet e-mail. Cela s’avère particulièrement utile lorsque vous souhaitez afficher la même offre à plusieurs emplacements (par exemple, en-tête et pied de page).
    >
-   >When the same offer can be selected by more than one decision policy in the email body, the engine deduplicates offers: each placement receives a different offer, so the same offer will not appear in both places. To display the same offer in multiple placements, use **[!UICONTROL Reuse decision output]** to reuse the output of an existing decision policy in this email.
+   >Lorsqu’une même offre peut être sélectionnée par plusieurs politiques de décision dans le corps de l’e-mail, le moteur déduplique les offres : chaque emplacement reçoit une offre différente, de sorte que la même offre n’apparaît pas aux deux endroits. Pour afficher la même offre à plusieurs emplacements, utilisez **[!UICONTROL Réutiliser la sortie de décision]** pour réutiliser la sortie d’une politique de décision existante dans cet e-mail.
 
    +++
 
-You can also add decision policies when using the **[!UICONTROL Code your own]** mode in the Email Designer. To do so, navigate to **[!UICONTROL Decision policies]** to insert the decision policy code. [Learn how to code your own email content](../email/code-content.md).
+Vous pouvez également ajouter des politiques de décision lors de l’utilisation du mode **[!UICONTROL Coder le vôtre]** dans le Designer d’e-mail. Pour ce faire, accédez à **[!UICONTROL Politiques de décision]** pour insérer le code de la politique de décision. [Découvrez comment coder votre propre contenu d’e-mail](../email/code-content.md).
 
 ![](assets/decision-policy-add-code-your-own.png)
 
 >[!NOTE]
 >
->In **[!UICONTROL Code your own]** mode, you can only return one decision item per policy, because the **[!UICONTROL Repeat Grid]** component is not available.
+>En mode **[!UICONTROL Coder le vôtre]**, vous ne pouvez renvoyer qu’un seul élément de décision par politique, car le composant **[!UICONTROL Grille de répétition]** n’est pas disponible.
 
->[!TAB SMS]
+### Pour les SMS
 
-For SMS, you can add a new decision policy using either the **personalization editor**, or the **Decisioning** menu available in the properties pane.
+Pour les SMS, vous pouvez ajouter une nouvelle politique de décision à l’aide du menu **éditeur de personnalisation** ou **Prise de décision** disponible dans le volet des propriétés.
 
-+++Add a decision policy from the personalization editor
++++ Ajouter une politique de décision à partir de l’éditeur de personnalisation
 
-1. Open the personalization editor using the ![](assets/do-no-localize/editor-icon.svg) icon.
+1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) .
 1. Accédez au menu **[!UICONTROL Politiques de décision]** puis cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
 
    ![](assets/decision-policy-add-sms-editor.png)
 
 +++
 
-+++Ajouter une politique de décision à partir du menu Prise de décision
++++ Ajouter une politique de décision à partir du menu Prise de décision
 
 1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
@@ -148,20 +146,20 @@ For SMS, you can add a new decision policy using either the **personalization ed
 
 +++
 
->[!TAB Notification push]
+### Pour les notifications push
 
-For Push notifications, you can add a new decision policy using either the **personalization editor**, or the **Decisioning** menu available in the properties pane.
+Pour les notifications push, vous pouvez ajouter une nouvelle politique de décision à l’aide du menu **éditeur de personnalisation** ou **Prise de décision** disponible dans le volet des propriétés.
 
-+++Add a decision policy from the personalization editor
++++ Ajouter une politique de décision à partir de l’éditeur de personnalisation
 
-1. Open the personalization editor using the ![](assets/do-no-localize/editor-icon.svg) icon.
+1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) .
 1. Accédez au menu **[!UICONTROL Politiques de décision]** puis cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
 
    ![](assets/decision-policy-add-push.png)
 
 +++
 
-+++Ajouter une politique de décision à partir du menu Prise de décision
++++ Ajouter une politique de décision à partir du menu Prise de décision
 
 1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
@@ -171,29 +169,27 @@ For Push notifications, you can add a new decision policy using either the **per
 
 >[!IMPORTANT]
 >
->Experience Decisioning with push notifications requires a specific version of the Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
+>Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
 
->[!ENDTABS]
-
 ## Configurer la politique de décision {#configure}
 
-After you have added a new decision policy into your content, the decision policy configuration screen opens. Follow these steps to configure the decision policy:
+Une fois que vous avez ajouté une nouvelle politique de décision dans votre contenu, l’écran de configuration de la politique de décision s’ouvre. Pour configurer la politique de décision, procédez comme suit :
 
 1. Attribuez un nom à la politique de décision et sélectionnez un catalogue (actuellement limité au catalogue d’**[!UICONTROL offres]** par défaut).
 
    ![](assets/decision-code-based-details.png)
 
-1. The **[!UICONTROL Number of items]** field allows you to define the number of decision items to return with decision policy. Par exemple, si vous sélectionnez 2, les 2 meilleures offres éligibles seront présentées pour la configuration actuelle.
+1. Le champ **[!UICONTROL Nombre d’éléments]** vous permet de définir le nombre d’éléments de décision à renvoyer avec la politique de décision. Par exemple, si vous sélectionnez 2, les 2 meilleures offres éligibles seront présentées pour la configuration actuelle.
 
    >[!NOTE]
    >
-   >This option is available for the Email and Code-based experience channels only. For all other channels, only 1 decision item can be returned per action.
+   >Cette option est disponible uniquement pour les canaux d’expérience E-mail et Code . Pour tous les autres canaux, un seul élément de décision peut être renvoyé par action.
 
-   To return multiple items for the Email channel, you need to add the decision policy within a **[!UICONTROL Repeat Grid]** component. Pour plus d’informations, développez la section ci-dessous :
+   Pour renvoyer plusieurs éléments pour le canal E-mail , vous devez ajouter la politique de décision dans un composant **[!UICONTROL Grille de répétition]**. Pour plus d’informations, développez la section ci-dessous :
 
-   +++Renvoyer plusieurs éléments de décision dans les e-mails
+   +++ Renvoyer plusieurs éléments de décision dans les e-mails
 
    1. Placez un composant **[!UICONTROL Grille de répétition]** dans votre e-mail et configurez-le selon vos besoins à l’aide du volet **[!UICONTROL Paramètres]**.
 
@@ -274,11 +270,11 @@ La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionne
 
      Les offres des stratégies 1 et 2 sont évaluées ensemble (offre 1, offre 2, offre 3, offre 4 et offre 5). Nous arrivons au résultat suivant :
 
-     Offer 1 - 10
-Offer 2 - 20
-Offer 3 - 30 from Strategy 1, 45 from Strategy 2. Le critère le plus élevé des deux sera pris en compte (45).
-Offer 4 - 40
-Offer 5 - 50
+     Offre 1 À 10
+Offre 2 - 20
+Offre 3 - 30 de la stratégie 1, 45 de la stratégie 2. Le critère le plus élevé des deux sera pris en compte (45).
+Offre 4 - 40
+Offre 5 - 50
 
      Les offres classées se présentent désormais comme suit : offre 5, offre 3, offre 4, offre 2 et offre 1.
 
@@ -312,7 +308,7 @@ Après avoir configuré une stratégie de sélection et ajouté des offres de se
 
 >[!IMPORTANT]
 >
->Once a decision policy is created, any changes made to it can take up to 15 minutes to propagate across all data regions, and up to 30 minutes for Canada. This includes changes such as adding a new decision item to a collection, changing a rule in an item, changing item content, or updating a formula.
+>Une fois une politique de décision créée, toute modification apportée peut prendre jusqu’à 15 minutes pour se propager dans toutes les régions de données, et jusqu’à 30 minutes pour le Canada. Cela inclut des modifications telles que l’ajout d’un nouvel élément de décision à une collection, la modification d’une règle dans un élément, la modification du contenu de l’élément ou la mise à jour d’une formule.
 
 Vous pouvez modifier ou supprimer une politique de décision à tout moment à l’aide du bouton représentant des points de suspension dans l’éditeur de personnalisation, ou dans le menu **[!UICONTROL Prise de décision]** dans le volet des propriétés du composant.
 
@@ -322,7 +318,7 @@ Vous pouvez modifier ou supprimer une politique de décision à tout moment à l
 
 ![](assets/decision-policy-edit.png)
 
->[!TAB Edit or delete a policy from the Decisioning menu]
+>[!TAB Modifier ou supprimer une politique du menu Prise de décision]
 
 ![](assets/decision-policy-edit-properties.png)
 
@@ -336,6 +332,6 @@ Pour les e-mails, vous devez définir un emplacement pour le composant associé 
 
 ## Étapes suivantes {#next-steps}
 
-Now that you understand how to create a decision policy, you&#39;re ready to use it into [!DNL Journey Optimizer] channels to deliver offers.
+Maintenant que vous comprenez comment créer une politique de décision, vous êtes prêt à l’utiliser dans [!DNL Journey Optimizer] canaux pour diffuser des offres.
 
 ➡️ [Découvrez comment utiliser des politiques de décision dans les messages.](../experience-decisioning/use-decision-policy.md)
