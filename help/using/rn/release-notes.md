@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 19%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Nouveautés"
->abstract="**&#x200B;** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
+>abstract="**** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
 
 [!DNL Adobe Journey Optimizer] suit un modèle de diffusion continu, ce qui permet à Adobe de fournir en continu de nouvelles fonctionnalités, de nouvelles améliorations et de nouveaux correctifs. Cette approche permet un déploiement évolutif et échelonné des fonctionnalités afin d’assurer les performances et la stabilité dans tous les environnements.
 
@@ -28,6 +28,25 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
 ## Mises à jour de mai 2026 {#may-26-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>simulation de parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez maintenant définir votre parcours sur <strong> Simulation </strong>. Ce mode permet de valider la logique à l’aide d’<strong> utilisateurs simulés </strong>. Il s’agit de profils temporaires créés spécifiquement pour la simulation, qui vous permettent de tester librement sans avoir à gérer de profils de test persistants dans Adobe Experience Platform.</p>
+<p>Cette fonctionnalité est disponible pour tous les clients en tant que disponibilité limitée avec des fonctionnalités essentielles.</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/simulate-journey.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 5 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -45,20 +64,6 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 </tr>
 </tbody>
 </table>
-
-## Notes de mise à jour d’avril 2026 {#april-26-rn}
-
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-Les nouvelles fonctionnalités et améliorations publiées début avril sont accompagnées de leur date de disponibilité.
-
-**Date de publication** : 28 et 29 avril 2026
-
-### Nouvelles fonctionnalités {#april-26-features}
 
 <table>
 <thead>
@@ -78,6 +83,20 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 </tbody>
 </table>
 
+## Notes de mise à jour d’avril 2026 {#april-26-rn}
+
+<!--
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+-->
+
+Les nouvelles fonctionnalités et améliorations publiées début avril sont accompagnées de leur date de disponibilité.
+
+**Date de publication** : 28 et 29 avril 2026
+
+### Nouvelles fonctionnalités {#april-26-features}
+
 <table>
 <thead>
 <tr>
@@ -91,6 +110,7 @@ Les nouvelles fonctionnalités et améliorations publiées début avril sont acc
 
 Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences (nouvelles inscriptions, membres nouvellement qualifiés du programme de fidélité et segments similaires) tout en réduisant la charge de travail des requêtes et en évitant les envois redondants au fil du temps.</p>
 <p>Pour plus d’informations, consultez la <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 30 avril 2026</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 La publication des fonctionnalités et améliorations suivantes est prévue dans les prochains jours. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
 
 ### Nouvelles fonctionnalités {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>simulation de parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez maintenant définir votre parcours sur <strong> Simulation </strong>. Ce mode permet de valider la logique à l’aide d’<strong> utilisateurs simulés </strong>. Il s’agit de profils temporaires créés spécifiquement pour la simulation, qui vous permettent de tester librement sans avoir à gérer de profils de test persistants dans Adobe Experience Platform.</p>
-<p>Cette fonctionnalité est disponible pour tous les clients en tant que disponibilité limitée avec des fonctionnalités essentielles.</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
