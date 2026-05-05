@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Copier des objets Journey Optimizer entre des sandbox
-description: Découvrez comment copier des parcours, des modèles de contenu et des fragments entre des sandbox.
+description: Découvrez comment copier des parcours, des campagnes, des modèles de contenu et des fragments entre des sandbox.
 feature: Journeys, Sandboxes
 topic: Content Management
 role: User, Developer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 5f0fd2770004570efe28778e5395a7254fcb8a4b
+source-git-commit: 0ef85efeb5fc9a542c60b076df8bc58b781ccff9
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 95%
+source-wordcount: '2371'
+ht-degree: 68%
 
 ---
 
 # Exporter des objets vers un autre sandbox {#copy-to-sandbox}
 
-Vous pouvez copier des objets tels que des parcours, des actions personnalisées, des modèles de contenu ou des fragments dans plusieurs sandbox en utilisant les fonctionnalités d’export et d’import de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.
+Vous pouvez copier des objets tels que des parcours, des campagnes, des actions personnalisées, des modèles de contenu ou des fragments sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.
 
 Cette page décrit le cas d’utilisation de l’outil Sandbox dans le contexte de Journey Optimizer. Pour plus d’informations sur la fonctionnalité elle-même, reportez-vous au [guide des outils Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr#abobe-journey-optimizer-objects){target="_blank"} d’Adobe Experience Platform.
 
@@ -38,7 +38,7 @@ Le processus de copie est réalisé via un export de package et un import entre 
 
 ## Objets exportés et bonnes pratiques {#objects}
 
-Journey Optimizer permet d’exporter des parcours, des actions personnalisées, des modèles de contenu, des fragments et d’autres objets vers un autre sandbox. Les sections suivantes fournissent des informations et des bonnes pratiques pour chaque type d’objet.
+Journey Optimizer permet d’exporter des parcours, des campagnes (actions, déclenchées par API et orchestrées), des actions personnalisées, des modèles de contenu, des fragments et d’autres objets vers un autre sandbox. Les sections suivantes fournissent des informations et des bonnes pratiques pour chaque type d’objet.
 
 ### Bonnes pratiques générales {#global}
 
@@ -70,24 +70,60 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées
 
 +++
 
-+++ Campagnes
++++ Campagnes déclenchées par action et API
 
->[!NOTE]
->
->Les informations sur la copie de sandbox de campagne de cette sous-section s’appliquent aux campagnes **Action** et **déclenchées par l’API**. Les campagnes **orchestrées** ne sont pas prises en charge pour la copie entre les sandbox.
+Vous pouvez copier des campagnes **Action**, **déclenchées par l’API** entre des sandbox à l’aide de l’exportation et de l’importation de packages.
 
-Pour les campagnes **Action** et **déclenchées par l’API**, les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages intégrés et aux objets dépendants. Toutefois, les éléments suivants **ne sont pas** copiés :
+Ces types de campagnes sont copiés avec tous les éléments liés au profil, à l’audience, au schéma, aux messages intégrés et aux objets dépendants.
+
+Toutefois, les éléments suivants ne sont pas copiés :
 
 * Variantes multilingues et paramètres de langue
 * Règles métier
 * Balises
 * Libellés DULE (application et libellé d’utilisation des données)
 
-Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dessous sont validés dans le sandbox cible afin d’éviter toute erreur de configuration :
+Lors de la copie de campagnes **Action** ou **déclenchées par l’API**, assurez-vous que l’objet répertorié ci-dessous est validé dans le sandbox cible afin d’éviter les configurations incorrectes :
 
 * **Configurations de canal** : les configurations de canal sont copiées avec les campagnes. Une fois les campagnes copiées, les configurations de canal doivent être sélectionnées manuellement dans le sandbox cible.
 * **Variantes et paramètres d’expérience** : les variantes et paramètres d’expérience sont inclus dans le processus de copie de la campagne. Validez ces paramètres dans le sandbox cible après l’import.
 * **Prise de décisions unifiée** : les politiques de décision et les éléments de décision sont pris en charge pour l’export et l’import. Assurez-vous que les dépendances liées aux décisions sont correctement mappées dans le sandbox cible.
+
++++
+
++++Campagnes orchestrées
+
+Vous pouvez copier des campagnes orchestrées entre des sandbox à l’aide de l’exportation et de l’importation de packages. Les campagnes orchestrées suivent le même modèle global que les autres objets, mais ce qui est inclus dans le package et ce que vous devez préparer dans le sandbox cible diffère des campagnes déclenchées par une action ou une API.
+
+Pour exporter une campagne orchestrée, [ajoutez-la à un package sandbox](#add-objects-as-a-package-export) dans le sandbox source (quel que soit son statut), [publiez le package](#publish), puis [importez le package](#import) dans le sandbox cible.
+
+Avant d’importer en production, gardez à l’esprit les comportements et limites suivants :
+
+* **Version préliminaire** - La campagne orchestrée importée est toujours créée en version préliminaire dans le sandbox cible, quel que soit le statut de la campagne orchestrée source.
+
+* **Nouvel objet à chaque import** - L’import d’un package crée à nouveau une campagne orchestrée. Il ne remplace ni ne met à jour une campagne que vous avez importée précédemment.
+
+* **La réexportation du même package n’est pas prise en charge** - La deuxième publication du même package après son exportation entraîne le statut d’erreur des activités de la campagne importée. Si cela se produit, vous devez supprimer les activités affectées et les recréer manuellement. Cette limitation sera corrigée dans une version ultérieure.
+
+* **Les dépendances ne sont pas toutes copiées automatiquement** - L’ajout d’une seule campagne orchestrée à un package n’inclut pas une chaîne de dépendance complète en elle-même. Les configurations de canal, les schémas de magasin relationnel, les jeux de données et les règles métier ne sont pas inclus, sauf si vous les abordez explicitement (voir la puce suivante pour plus de détails).
+
+  Lors de l’[import de package](#import), Journey Optimizer répertorie les objets à résoudre dans le sandbox cible. Les règles suivantes s’appliquent aux objets les plus courants :
+
+   * **Campagne** — Sélectionnez toujours **Créer**.
+   * **Audiences** — Pour les audiences Adobe Experience Platform, vous pouvez sélectionner **Créer** ou **Utiliser existant**. Pour les audiences de campagne orchestrées, vous devez sélectionner **Utiliser existant** et mapper à l’audience correspondante dans le sandbox cible.
+   * **Politiques de fusion** — Sélectionnez **Utiliser existante** et mappez-la à la politique de fusion appropriée ou utilisez la politique par défaut dans le sandbox cible.
+
+  Après l’importation, utilisez des alertes dans la campagne orchestrée pour trouver les écarts restants (par exemple, une ressource de profil ou de ciblage qui n’existe pas encore dans le sandbox cible peut laisser une activité avec une cible vide jusqu’à ce que vous la corrigiez).
+
+* **Éléments à ajouter ou à aligner séparément** - Les éléments suivants ne sont pas inclus dans l’exportation de la campagne orchestrée :
+
+   * **Configurations de canal** — Elles ne sont ni exportées ni importées avec le package. Pour que les activités de canal et d’e-mail fonctionnent sans correctifs manuels, le sandbox cible doit déjà disposer d’une configuration de canal dont le nom correspond exactement à la source (sensible à la casse) et qui utilise le même canal. Sinon, des alertes s’afficheront sur les activités après l’importation. Ouvrez chaque activité affectée et sélectionnez ou créez la configuration de canal appropriée.
+
+   * **Schémas de magasin relationnel et jeux de données** — Si votre campagne dépend d&#39;un modèle de données donné, planifiez le schéma et l&#39;ordre d&#39;exportation/d&#39;importation des jeux de données afin que des dépendances existent lorsque vous en avez besoin (l&#39;exportation d&#39;un jeu de données extrait généralement les besoins des schémas associés, l&#39;exportation d&#39;un schéma seul n&#39;inclut pas son jeu de données). Notez que les jeux de données importés ne sont pas automatiquement activés pour les campagnes orchestrées. Vous devez les activer manuellement dans le sandbox cible après l’importation.
+
+   * **Règles métier et objets de politique similaires** — Ils ne sont pas inclus dans l&#39;exportation de la campagne orchestrée. Si votre campagne en dépend, vérifiez qu’ils existent dans le sandbox cible ou recréez-les à cet endroit.
+
+   * **Dimension cible du profil** — La dimension cible du profil n&#39;est pas incluse dans l&#39;exportation. S’il n’existe pas dans le sandbox cible, les activités correspondantes dans la campagne orchestrée importée seront vides jusqu’à ce que vous le configuriez manuellement.
 
 +++
 
