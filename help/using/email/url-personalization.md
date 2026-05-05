@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: url, lien, personnalisation, tracking, codage, accolades
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: daf07abd855079aeedf77708575a92d1ce13f66d
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 24%
@@ -83,6 +83,7 @@ Désormais, lorsque l’e-mail est envoyé, ce paramètre est automatiquement aj
 >[!NOTE]
 >
 >Pour vérifier l’URL finale, vous pouvez [envoyer un BAT](../content-management/proofs.md) et cliquer sur le lien dans le contenu de l’e-mail une fois que vous avez reçu le BAT. L’URL doit afficher le paramètre de tracking. Par exemple : <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+
 
 <!--
 ## Best practices and guardrails {#best-practices}
