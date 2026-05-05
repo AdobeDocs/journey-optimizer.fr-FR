@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: tester, valider, approuver, approbation, assurance qualité, aq, profils de test, personnalisation, rendu, contrôle de spam, expérience de contenu, test a/b, détection de conflit, liste de contrôle, bat, données d’exemple, workflow d’approbation, test d’e-mail, workflow de validation
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
 workflow-type: tm+mt
 source-wordcount: '2419'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Cette page de destination vous permet de choisir la bonne approche de test en fo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prévisualiser, tester et valider le contenu
 
@@ -36,7 +36,7 @@ Découvrez comment prévisualiser, tester et valider du contenu personnalisé à
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Workflows d’approbation des parcours et des campagnes
 
@@ -46,7 +46,7 @@ Découvrez comment configurer, gérer et exécuter des processus d’approbation
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Tester votre parcours
 
@@ -56,7 +56,7 @@ Validez votre parcours avant de le publier en le testant avec des profils spéci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Test à blanc du parcours
 
@@ -66,7 +66,7 @@ Effectuez un test à blanc pour simuler et valider le chemin d’exécution de v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Surveillance et dépannage
 
@@ -76,7 +76,7 @@ Accédez à un ensemble complet de ressources de dépannage, d’alertes systèm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Terrain de jeu de personnalisation
 
@@ -86,7 +86,7 @@ Testez les expressions de personnalisation dans un environnement sécurisé. Tes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Expériences de contenu et tests A/B
 
@@ -96,7 +96,7 @@ Optimisez vos campagnes en testant plusieurs variations de contenu et en mesuran
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listes de contrôle pour la surveillance des parties prenantes
 
@@ -106,7 +106,7 @@ Incluez automatiquement les adresses des parties prenantes internes dans les dif
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Détection des conflits
 
@@ -398,7 +398,7 @@ Familiarisez-vous avec ces concepts de test essentiels pour mieux comprendre les
 
 Découvrez comment les fonctionnalités de test sont reliées entre elles et à vos workflows Journey Optimizer. Cette section mappe les conditions préalables, les dépendances en amont/en aval et les combinaisons de fonctionnalités courantes.
 
-+++**Conditions préalables (requises avant le test)**
+### Conditions préalables (requises avant le test)
 
 * Les profils de test doivent être créés avant d’utiliser le mode test ou l’aperçu de contenu.
 * Les politiques d’approbation doivent être configurées avant l’envoi pour approbation.
@@ -407,27 +407,21 @@ Découvrez comment les fonctionnalités de test sont reliées entre elles et à 
 * Le parcours doit être à l’état de brouillon pour utiliser le mode test.
 * L’espace de noms du parcours doit être configuré pour utiliser le mode test.
 
-+++
-
-+++**Éléments dont dépendent les tests (en amont)**
+### De quoi dépend le test (en amont) ?
 
 * Création de contenu : campagnes ou parcours à tester nécessaires
 * Profils de test : requis pour le mode test et l’aperçu du contenu
 * Politiques d’approbation : obligatoires pour les workflows d’approbation
 * Configuration : configurations de canal, authentification des e-mails, paramètres de domaine.
 
-+++
-
-+++**Éléments dont dépendent les tests (en aval)**
+### Ce qui dépend des tests (en aval)
 
 * Activation de la campagne ou du parcours : activation impossible sans résoudre les erreurs
 * Publication : une approbation peut être requise avant la publication.
 * Surveillance en direct : surveillance et reporting après le lancement
 * Optimisation : utilisez les résultats des tests pour affiner les campagnes futures.
 
-+++
-
-+++**Fonctionnalités associées**
+### Fonctionnalités connexes
 
 * Workflows de test et d’approbation : processus d’assurance qualité
 * Tests et détection des conflits : prévention de la sursollicitation des clientes et clients
@@ -436,67 +430,51 @@ Découvrez comment les fonctionnalités de test sont reliées entre elles et à 
 * Profils de test et personnalisation : validation du contenu
 * Test à blanc et mode test : validation complète du parcours
 
-+++
-
-+++**Combinaisons de fonctionnalités courantes**
+### Combinaisons de fonctionnalités courantes
 
 * Tests de contenu : profils de test + exemples de données d’entrée + terrain de jeu de personnalisation
 * Validation des e-mails : tests du rendu + scores de spam + profils de test + BAT
 * Validation des parcours : mode test + test à blanc + profils de test
 * Liste de contrôle avant lancement : tous les tests techniques + détection des conflits + workflows d’approbation
 
-+++
-
 >[!TAB Questions courantes]
 
-+++**Q : quels sont les tests requis avant de lancer une campagne ?**
+### Q : Quels tests sont requis avant de lancer une campagne ?
 
 **Minimum :** aperçu du contenu avec profils de test + vérification du score de spam (email)
 **Recommandé :** + Rendu des e-mails + Détection des conflits + Workflow d’approbation
 **Bonne pratique :** + Test d’exemples de données d’entrée + Listes de contrôle + Expérience A/B (si optimisation)
 
-+++
-
-+++**Q : comment tester la personnalisation sans créer de nombreux profils de test ?**
+### Q : Comment tester la personnalisation sans créer de nombreux profils de test ?
 
 **Solution de Principal :** utilisez [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) avec des fichiers CSV/JSON (prend en charge jusqu’à 30 variantes)
 **Alternative :** créez 3 à 5 profils de test représentatifs [profils de test](../using/audience/creating-test-profiles.md) couvrant les segments clés
 **Outil d’apprentissage :** Expérimentez d’abord dans [terrain de jeu de personnalisation](../using/personalization/personalize.md#playground)
 
-+++
-
-+++**Q : Quelle est la différence entre le mode test et le test à blanc pour les parcours ?**
+### Q : Quelle est la différence entre le mode test et le mode essai pour les parcours ?
 
 **Mode test :** envoie des profils de test par le biais du parcours, déclenche des actions réelles et génère des messages de test. Nécessite un brouillon de parcours + un espace de noms.
 **Test à blanc :** effectue le suivi des chemins d’exécution sans rien envoyer. Fonctionne avec n’importe quel statut de parcours. Aucun message envoyé, aucune action exécutée.
 **À utiliser ensemble :** mode test pour le test des messages + test à blanc pour la validation de la logique : couverture complète.
 
-+++
-
-+++**Q : puis-je tester les parcours en production/actifs ?**
+### Q : Puis-je tester des parcours au statut de production/en ligne ?
 
 **Mode Test :** Non - parcours de brouillon uniquement
 **Exécution d’essai :** Oui - fonctionne quel que soit le statut du parcours
 **Aperçu du contenu :** Oui - prévisualisez des messages individuels à tout moment
 **Solution :** dupliquer le parcours dynamique en mode brouillon pour la validation du mode test complet.
 
-+++
-
-+++**Q : quelles fonctionnalités de test nécessitent des intégrations externes ?**
+### Q : Quelles fonctionnalités de test nécessitent des intégrations externes ?
 
 **Rendu des e-mails :** nécessite l’intégration de Litmus (licence distincte)
 **Tous les autres :** intégré à Journey Optimizer, aucune intégration supplémentaire requise
 **Remarque :** les profils de test nécessitent le service de profil client en temps réel (inclus)
 
-+++
-
-+++**Q : comment tester les campagnes déclenchées par API ?**
+### Q : Comment tester les campagnes déclenchées par l’API ?
 
 **Option 1 :** utiliser l’[API de simulation de campagne](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-« _blank »} pour les tests programmatiques
 **Option 2 : prévisualisation** contenu avec profils de test dans l’interface utilisateur
 **Option 3 :** envoyer des BAT aux adresses e-mail de test
 **Bonne pratique :** combinez les trois pour une validation complète
-
-+++
 
 >[!ENDTABS]

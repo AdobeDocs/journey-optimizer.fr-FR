@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2067'
 ht-degree: 20%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Nouveautés"
->abstract="**&#x200B;** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
+>abstract="**** fournit en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
 
 [!DNL Adobe Journey Optimizer] suit un modèle de diffusion continu, ce qui permet à Adobe de fournir en continu de nouvelles fonctionnalités, de nouvelles améliorations et de nouveaux correctifs. Cette approche permet un déploiement évolutif et échelonné des fonctionnalités afin d’assurer les performances et la stabilité dans tous les environnements.
 
@@ -32,7 +32,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Les nouvelles fonctionnalités et améliorations publiées début avril sont accompagnées de leur date de disponibilité.
@@ -283,13 +283,15 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
 ### Améliorations {#april-26-improv}
 
+#### IA
+
 <!--
-#### AI
-
 * **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
-
-* **Prompt Assistant enhancement** - Prompt Assistant enhances AI content generation by analyzing user prompts in real time and identifying gaps in clarity, completeness, and context. It suggests improved rewrites and provides actionable guidance to enrich prompts with key details like audience, tone, and intent. The feature also asks targeted clarifying questions to help users refine their inputs before generation. This results in more accurate, high-quality outputs with fewer iterations. [Learn more](../content-management/ai-assistant-prompting-guide.md)
 -->
+
+* **Amélioration de l’assistant d’invite** - L’assistant d’invite améliore la génération de contenu de l’IA en analysant les invites utilisateur en temps réel et en identifiant les lacunes de clarté, d’exhaustivité et de contexte. Il suggère des réécritures améliorées et fournit des conseils pratiques pour enrichir les invites avec des détails clés tels que l&#39;audience, le ton et l&#39;intention. La fonctionnalité pose également des questions ciblées pour clarifier les données afin d’aider les utilisateurs à affiner leurs entrées avant la génération. Vous obtenez ainsi des sorties plus précises et de haute qualité avec moins d’itérations. [En savoir plus](../content-management/ai-assistant-prompting-guide.md#prompt-assistant)
+
+  Date de disponibilité : 5 mai 2026
 
 #### Notification push
 

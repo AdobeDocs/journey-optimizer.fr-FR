@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 88%
+source-wordcount: '1558'
+ht-degree: 86%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 88%
 
 Pour ajouter une carte de contenu à un parcours, procédez comme suit :
 
-1. Ouvrez votre [parcours &#x200B;](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+1. Ouvrez votre [parcours ](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
 
    >[!IMPORTANT]
    >
@@ -55,7 +55,7 @@ Pour ajouter une carte de contenu à un parcours, procédez comme suit :
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** pour sélectionner votre événement.
 
-      +++Consultez l’événement disponible.
+      Événement disponible
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -69,13 +69,11 @@ Pour ajouter une carte de contenu à un parcours, procédez comme suit :
       | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
       | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
 
-      +++
-
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
 
    1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
 
-      +++Consultez les caractéristiques disponibles.
+      Caractéristiques disponibles
 
       | Package | Caractéristiques | Définition |
       |---|---|---|
@@ -93,8 +91,6 @@ Pour ajouter une carte de contenu à un parcours, procédez comme suit :
       | Cycle de vie de l’application | Date d’installation | Déclenché lorsque la date d’installation spécifiée est atteinte. |
       | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
       | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
-
-      +++
 
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
@@ -114,7 +110,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
 
    * **[!UICONTROL Scheduled - Marketing]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **[!UICONTROL Déclenchée par API - Marketing/Transactionnelle]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrir comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL Déclenchée par API - Marketing/Transactionnelle]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing** ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, achat au panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
 
    ![](assets/content-card-create-1.png)
 
@@ -142,7 +138,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** pour sélectionner votre événement.
 
-      +++Consultez l’événement disponible.
+      Événement disponible
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -156,13 +152,11 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
       | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
       | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
 
-      +++
-
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
 
    1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
 
-      +++Consultez les caractéristiques disponibles.
+      Caractéristiques disponibles
 
       | Package | Caractéristiques | Définition |
       |---|---|---|
@@ -180,8 +174,6 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
       | Cycle de vie de l’application | Date d’installation | Déclenché lorsque la date d’installation spécifiée est atteinte. |
       | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
       | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
-
-      +++
 
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
