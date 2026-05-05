@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 60c2e2c1aa1beb11aeb67bbc9e30e946a9d7fdb8
 workflow-type: tm+mt
-source-wordcount: '2222'
-ht-degree: 84%
+source-wordcount: '2307'
+ht-degree: 74%
 
 ---
 
@@ -25,10 +25,15 @@ ht-degree: 84%
 >abstract="Utilisez des profils de test pour tester votre parcours avant de le publier. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Test à blanc du parcours"
 
-
-Une fois que vous avez créé votre parcours, vous pouvez le tester avant de le publier. Journey Optimizer propose un « mode test » pour afficher les profils de test au fur et à mesure de leur progression dans le parcours et ainsi détecter les erreurs potentielles avant leur activation. L’exécution de tests rapides vous permet de vérifier que les parcours fonctionnent correctement afin de pouvoir les publier en toute confiance.
+Une fois que vous avez créé votre parcours, vous pouvez le tester avant de le publier. [!DNL Adobe Journey Optimizer] propose un « mode test » pour afficher les profils de test lorsqu’ils se déplacent sur le parcours, détectant les erreurs potentielles avant l’activation. L’exécution de tests rapides vous permet de vérifier que les parcours fonctionnent correctement afin de pouvoir les publier en toute confiance.
 
 Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez créer des profils de test ou transformer des profils existants en profils de test. En savoir plus sur les profils de test dans [cette section](../audience/creating-test-profiles.md).
+
+Adobe Parcours Optimizer propose deux méthodes pour tester et valider votre parcours :
+
+* **[Simulation](simulate-journey.md#test-users)** : définissez le parcours sur **[!UICONTROL Simulation]** et utilisez des utilisateurs simulés (profils temporaires que vous créez ou générez à la volée sans profils précréés dans Adobe Experience Platform).
+
+* **[Mode test](#test-profiles)** : profils persistants explicitement marqués comme profils de test dans Adobe Experience Platform. Ils peuvent être réutilisés au cours de plusieurs sessions de test. Cette méthode est recommandée pour effectuer des tests avec des données de profil prédéfinies cohérentes. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -56,8 +61,8 @@ Consultez ces notes avant d’exécuter des tests dans votre parcours.
 ### Exécution
 
 * **Comportement de partage** : lorsque le parcours atteint un partage, la branche supérieure est toujours sélectionnée. Réorganisez les branches si vous souhaitez tester un autre chemin.
-* **Synchronisation des événements** - Si le parcours comprend * plusieurs événements, déclenchez chaque événement par séquences.L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
-* **Fenêtre de date active** : assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement. Pour en savoir plus sur le dépannage de ce problème, consultez [cette page](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Synchronisation des événements** - Si le parcours comprend plusieurs événements, déclenchez chaque événement en séquence. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement. Le profil sera alors envoyé à un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d&#39;événement restent valides en envoyant la payload dans la fenêtre définie.
+* **Fenêtre de date active** - Assurez-vous que la fenêtre [dates/heure de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lors du lancement du mode test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement. Pour en savoir plus sur le dépannage de ce problème, consultez [cette page](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Événements de réaction** : pour les événements de réaction avec une temporisation, le temps d’attente minimum et par défaut est de 40 secondes.
 * **Jeux de données de test** : les événements déclenchés en mode test sont stockés dans des jeux de données dédiés libellés comme suit : `JOtestmode - <schema of your event>`
 * **Infrastructure partagée** : le mode test s’exécute sur la même infrastructure que la production. Pendant les périodes de trafic élevé, vous pouvez remarquer des retards dans les envois d’e-mails ou le traitement des événements. Dans ce cas, vérifiez les tableaux de bord de trafic de la plateforme ou réessayez vos tests en dehors des heures de pointe.
@@ -68,9 +73,9 @@ Consultez ces notes avant d’exécuter des tests dans votre parcours.
 
 ## Activer le mode test
 
-Pour utiliser le mode test, procédez comme suit :
+Utilisez la méthode **[!UICONTROL Mode test]** lorsque vous souhaitez tester votre parcours avec des profils de test préexistants que vous avez déjà créés dans Adobe Experience Platform.
 
-1. Pour activer le mode test, cliquez sur le bouton **[!UICONTROL Mode test]** dans le coin supérieur droit de l’écran.
+1. Pour activer le mode test, cliquez sur le bouton **[!UICONTROL Simuler]**, puis sélectionnez **[!UICONTROL Mode test]**.
 
    ![Bouton Mode test dans l’interface de parcours](assets/journeytest1.png)
 
@@ -141,14 +146,14 @@ L’espace de noms d’identité est utilisé pour identifier de manière unique
 
 >[!NOTE]
 >
->* Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour un autre parcours qui écoute cet événement.
+>* Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé par d’autres parcours qui écoutent cet événement.
 >
 >* Assurez-vous que chaque événement en mode test est déclenché dans le bon ordre et dans la fenêtre d’attente configurée. Par exemple, en cas d’attente de 60 secondes, le deuxième événement ne doit être déclenché qu’après l’expiration de cette attente de 60 secondes et avant l’expiration de la temporisation.
 >
 
 ### Configuration des événements {#trigger-events-configuration}
 
-Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l&#39;exécution de l&#39;envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans le payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
+Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l&#39;exécution de l&#39;envoi de l’événement. L&#39;interface vous permet de transmettre les informations appropriées dans la payload de l&#39;événement et de vous assurer que le type d&#39;informations est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
 ![Interface de configuration des événements avec champs et liste déroulante pour la sélection d’événements](assets/journeytest4.png)
 
@@ -196,7 +201,7 @@ Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les rés
 >
 >Dans les journaux de test, en cas d’erreur lors de l’appel d’un système tiers (source de données ou action), le code d’erreur et la réponse d’erreur s’affichent.
 
-Le nombre de personnes (ou instances) actuellement dans le parcours s’affiche. Voici des informations utiles qui s’affichent pour chaque personne :
+Le nombre d’individus (techniquement appelés instances) actuellement à l’intérieur du parcours s’affiche. Les informations affichées sont les suivantes pour chaque individu :
 
 * _ID_ : identifiant interne de la personne dans le parcours. Il peut être utilisé à des fins de débogage.
 * _currentstep_ : étape à laquelle se trouve la personne dans le parcours. Nous vous recommandons d’ajouter des libellés à vos activités afin de les identifier plus facilement.
