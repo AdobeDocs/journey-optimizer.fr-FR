@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 98%
+source-wordcount: '1532'
+ht-degree: 95%
 
 ---
 
@@ -46,48 +46,21 @@ Vous pouvez également l’ajouter à d’autres sections de votre contenu. Par 
 
 +++Concepteur d’e-mail
 
-Lorsque vous modifiez le contenu d’un e-mail dans le [Concepteur d’e-mail](../email/get-started-email-design.md), vous pouvez ajouter une personnalisation dans les blocs de texte et dans les URL à l’aide de l’icône de la barre d’outils contextuelle.
+Lors de la modification du contenu d’un e-mail dans la Designer d’e-mail[&#128279;](../email/get-started-email-design.md), vous pouvez personnaliser la plupart des éléments de texte à l’aide de l’icône dans la barre d’outils contextuelle.
 
 ![](assets/perso_insert.png)
 
 +++
 
-+++Offres
-
-Vous pouvez ajouter une personnalisation lors de l’utilisation de contenu de type texte dans les **représentations de vos offres**. [Découvrir comment créer des offres personnalisées](../offers/offer-library/creating-personalized-offers.md)
-
-+++
-
 +++URL
 
-Journey Optimizer vous permet également de personnaliser les **URL** dans votre message.  Les URL personnalisées orientent les destinataires vers des pages spécifiques dʼun site web ou vers un microsite personnalisé, en fonction des attributs du profil. La personnalisation des URL est disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
-
-Exemples d’adresses URL personnalisées :
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+Journey Optimizer vous permet également de personnaliser les **URL** dans vos messages. Les URL personnalisées orientent les destinataires vers des pages spécifiques dʼun site web ou vers un microsite personnalisé, en fonction des attributs du profil. [En savoir plus](../email/url-personalization.md)
 
 ![](assets/perso-url.png){width="50%"}
 
 >[!NOTE]
 >
->Lorsque vous modifiez une URL personnalisée dans l’éditeur de personnalisation, les fonctions d’assistance et l’appartenance aux audiences sont désactivées pour des raisons de sécurité.
->
->Les espaces ne sont pas pris en charge dans les jetons de personnalisation utilisés dans les URL.
-
-Journey Optimizer prend également en charge la personnalisation complète/de base des URL. Par exemple :
-
-```
-<a href="{{profile.social.link}}" />
-<a href="{{profile.social.baseUrl}}/profile" />
-<a href="https://{{profile.social.baseUrl}}/profile" />
-```
-
->[!NOTE]
->
->Pour activer la personnalisation complète ou de base de l’URL, contactez Adobe et fournissez votre liste de domaines acceptés.
+>La personnalisation des URL est disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
 
 +++
 
@@ -97,13 +70,19 @@ Lors de la création d’une configuration de canal e-mail, vous pouvez définir
 
 +++
 
++++Offres
+
+Vous pouvez ajouter une personnalisation lors de l’utilisation de contenu de type texte dans les **représentations de vos offres**. [Découvrir comment créer des offres personnalisées](../offers/offer-library/creating-personalized-offers.md)
+
++++
+
 ## Sources de personnalisation {#sources}
 
 Le volet de navigation vous permet de sélectionner la source pour la personnalisation. Les sources disponibles sont les suivantes :
 
-* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
+* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 * **[!UICONTROL Attributs cibles]** : ce dossier est spécifique aux campagnes orchestrées. Il contient des attributs calculés directement dans la zone de travail de la campagne. [Découvrez comment ajouter une personnalisation dans les campagnes orchestrées.](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL Audiences]** : répertorie toutes les audiences créées dans le service de segmentation d’Adobe Experience Platform. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} plus d’informations sur la segmentation.
+* **[!UICONTROL Audiences]** : répertorie toutes les audiences créées dans le service de segmentation d’Adobe Experience Platform. En savoir plus dans la documentation sur la segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 * **[!UICONTROL Décisions d’offre]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Attributs contextuels]** : lorsqu’une activité d’action de canal (e-mail, notification push, SMS) est utilisée dans un parcours ou une campagne, des attributs contextuels liés aux événements et aux propriétés sont disponibles pour la personnalisation. Un exemple de personnalisation utilisant les attributs contextuels est présenté dans [cette section](personalization-use-case.md). De plus, les réponses d’action personnalisée peuvent être utilisées pour la personnalisation. [Découvrez comment utiliser des réponses d’action personnalisée dans des canaux natifs](../action/action-response.md#response-in-channels).
 
@@ -272,10 +251,10 @@ Ressource avec ID activityID et type OfferActivity introuvable<br/></td>
   </tr>
   <tr> 
    <td>L’attribut d’offre offer-attribute n’est pas valide.</td> 
-   <td>Vérifiez que l’attribut offer-attribute référencé dans le drp d’offre est valide. Les attributs valides sont les suivants : <br/>
-Image : deliveryURL, linkURL<br/>
-Texte : content<br/>
-HTML : content<br/></td> 
+   <td>Vérifiez que l’attribut offer-attribute référencé dans le drp d’offre est valide. Voici les attributs valides : <br/>
+Image : deliveryURL, linkURL<br/>
+Texte : contenu<br/>
+HTML : contenu<br/></td> 
   </tr> 
  </tbody> 
 </table>
