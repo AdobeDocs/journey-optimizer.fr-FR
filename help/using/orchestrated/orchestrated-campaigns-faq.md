@@ -5,10 +5,10 @@ title: Questions fréquentes sur les campagnes orchestrées
 description: Questions fréquentes sur les campagnes orchestrées Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0ef85efeb5fc9a542c60b076df8bc58b781ccff9
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 70%
+source-wordcount: '2699'
+ht-degree: 65%
 
 ---
 
@@ -64,7 +64,7 @@ Pour accéder à l’orchestration de campagne, votre licence doit inclure le pa
 **En savoir plus**
 
 * [Commencer avec les campagnes orchestrées](gs-orchestrated-campaigns.md)
-* [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
 
 +++
 
@@ -347,16 +347,17 @@ Non, les campagnes orchestrées ne prennent pas en charge les fonctionnalités d
 
 +++ Comment le déploiement fonctionne-t-il entre les différents environnements ?
 
-Les objets créés dans les campagnes orchestrées (par exemple, audiences ou workflows) sont liés au sandbox dans lequel ils sont conçus. Les workflows standards de packaging et de déploiement entre environnements (dev, stage, prod) ne sont actuellement pas disponibles pour les campagnes orchestrées.
+Les objets créés dans des campagnes orchestrées (par exemple, des audiences et des workflows) appartiennent au sandbox dans lequel ils ont été créés. Pour réutiliser une campagne orchestrée dans un autre sandbox (par exemple, de développement, d’évaluation ou de production), copiez-la à l’aide de l’outil **Sandbox** : ajoutez la campagne à un package, publiez le package et importez-la dans le sandbox cible. La copie importée est créée dans **brouillon** et **réimporter le même package crée une nouvelle campagne** plutôt que de mettre à jour une campagne existante. Un déplacement complet nécessite souvent **plusieurs étapes** : vous pouvez avoir besoin d’aligner **configurations de canal** (les noms correspondants dans la cible), **schémas** et **jeux de données** par le biais du même package ou d’importations de package supplémentaires ; les configurations de canal ne sont pas copiées avec la campagne. Il n’existe pas de liste de contrôle complète avant exportation dans l’interface utilisateur ; utilisez le flux de mappage d’importation et les **alertes post-importation** pour terminer la configuration. Pour plus d’informations et connaître les limitations, voir [Copie d’objets Journey Optimizer entre des sandbox](../configuration/copy-objects-to-sandbox.md).
 
 **Bonnes pratiques**
 
 * Conservez des **sandbox distincts** pour l’expérimentation, l’assurance qualité et la production.
-* Documentez minutieusement les configurations afin de permettre une réplication manuelle si nécessaire.
-* Collaborez avec les équipes de gouvernance pour réduire les écarts de configuration entre environnements.
+* Après chaque importation, validez la campagne de bout en bout dans le sandbox cible avant de la publier.
+* Documentez les configurations et alignez-vous sur les équipes de gouvernance pour réduire la dérive de configuration entre les environnements.
 
 **En savoir plus**
 
+* [Copier des objets Journey Optimizer entre des sandbox](../configuration/copy-objects-to-sandbox.md)
 * [Commencer avec les campagnes orchestrées](gs-orchestrated-campaigns.md)
 * [Mécanismes de sécurisation et limitations](guardrails.md)
 
@@ -450,4 +451,4 @@ Pour des mises à jour et des formations supplémentaires, consultez les ressour
 * [Mécanismes de sécurisation et limitations des campagnes orchestrées](guardrails.md)
 * [Commencer avec les schémas et les jeux de données dans les campagnes orchestrées](gs-schemas.md)
 * [Créer votre première campagne orchestrée](gs-campaign-creation.md)
-* [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
