@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '2067'
-ht-degree: 20%
+source-wordcount: '2165'
+ht-degree: 19%
 
 ---
 
@@ -26,6 +26,25 @@ ht-degree: 20%
 En raison de ce modèle, les notes de mise à jour sont mises à jour entre les versions mensuelles. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](releases.md).
 
 [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+## Mises à jour de mai 2026 {#may-26-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Règles de prise de décision et optimisation de l’IA dédiée aux formules de classement</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] utilise désormais l’IA pour détecter les règles de prise de décision et les formules de classement qui peuvent être simplifiées. Dans l’inventaire, un indicateur rouge s’affiche sur toute règle pour laquelle l’IA a identifié une opportunité d’optimisation. Cliquez sur l’indicateur pour afficher l’expression d’origine avec la version suggérée par l’IA. À partir de là, vous pouvez télécharger un fichier pour examiner la manière dont les profils simulés sont évalués par chaque version et confirmer qu’ils se comportent de manière identique, puis remplacer l’expression par l’expression optimisée.</p>
+<p>Pour plus d’informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 5 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notes de mise à jour d’avril 2026 {#april-26-rn}
 
