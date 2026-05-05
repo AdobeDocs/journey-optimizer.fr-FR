@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 100%
+source-wordcount: '1106'
+ht-degree: 85%
 
 ---
 
@@ -129,8 +129,30 @@ Pour créer une règle, procédez comme suit :
 >
 >[En savoir plus sur les mécanismes de sécurisation et sur les limitations des règles d’éligibilité](decisioning-guardrails.md#eligibility-rules)
 
+## Optimisation des règles optimisée par l’IA {#optimize}
+
+[!DNL Journey Optimizer] pouvez automatiquement analyser les règles et suggérer des simplifications qui préservent la logique d’origine. Seules les règles dont l’expression PQL est supérieure à **2 Ko** (codées au format UTF-8) sont éligibles. Les expressions plus petites ne sont pas analysées. Lorsqu’une simplification est trouvée, un indicateur rouge **[!UICONTROL Optimiser]** s’affiche en regard de la règle dans l’inventaire.
+
+>[!NOTE]
+>
+>L’optimisation des règles optimisée par l’IA repose sur les mêmes fonctionnalités d’IA génératives que l’**assistant IA** et utilise les mêmes contrôles d’accès. Les utilisateurs doivent disposer de l’autorisation **[!UICONTROL Générer du contenu]** sur la ressource **[!UICONTROL Assistant IA]**. Pour plus d’informations, voir [Accéder à l’assistant AI](../content-management/gs-generative.md#generative-access).
+
+![](assets/decision-rules-ai.png)
+
+Pour optimiser une règle :
+
+1. Dans l’inventaire des règles, cliquez sur l’icône d’indicateur rouge en regard du nom de la règle.
+
+1. La fenêtre **[!UICONTROL Optimiser]** s’ouvre, affichant l’expression PQL d’origine avec la version suggérée par l’IA.
+
+   ![](assets/decision-rules-ai-details.png)
+
+1. Pour vérifier que les deux expressions se comportent de la même manière, cliquez sur **[!UICONTROL Analyse de l’optimisation du téléchargement (TSV)]** afin de télécharger un fichier montrant comment les profils simulés sont évalués par rapport à chaque version.
+
+1. Une fois satisfait, cliquez sur **[!UICONTROL Appliquer]** pour remplacer l’expression d’origine par l’expression optimisée.
+
 ## Vidéo pratique {#video}
 
 Découvrez comment créer, dupliquer et appliquer des **règles de ciblage** réutilisables dans Adobe Journey Optimizer afin de personnaliser efficacement les campagnes en fonction des attributs de la clientèle, tels que la zone géographique, la langue et le comportement. Gagnez du temps tout en améliorant la précision de l’audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476129/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
