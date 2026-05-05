@@ -10,7 +10,7 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 51a8ad000bbb485852d6e3daee13a7c1852123fc
+source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 4%
