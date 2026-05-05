@@ -11,7 +11,7 @@ hide: true
 keywords: fragments, parcours, réutilisation, nœuds, zone de travail, inventaire, réutilisable
 badge: label="Disponibilité limitée" type="Informative"
 version: Journey Orchestration
-source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
+source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 2%
@@ -71,6 +71,7 @@ Pour enregistrer les nœuds de parcours en tant que fragment directement à part
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Le fragment est enregistré en tant que brouillon.
 
 >[!TIP]
+>
 >Si vous créez un fragment à partir d’un parcours, [testez ou simulez votre parcours &#x200B;](testing-the-journey.md) **avant** d’enregistrer le fragment pour vous assurer que les nœuds sélectionnés se comportent comme prévu.
 
 >[!TAB Dans l’inventaire des fragments]
@@ -83,6 +84,7 @@ Pour créer un fragment directement à partir de l’inventaire :
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le fragment en tant que brouillon.
 
 >[!CAUTION]
+>
 >Le mode Test et la simulation ne sont pas disponibles dans l’éditeur de fragments. Cela signifie que vous ne pouvez pas valider le comportement des activités configurées avant que le fragment ne soit activé et inséré dans un parcours. Pour les fragments dont la précision logique est essentielle, pensez à [créer et tester ou simuler les nœuds dans un parcours complet](testing-the-journey.md) tout d’abord, puis à les enregistrer en tant que fragment dans l’onglet Zone de travail ci-dessus.
 
 >[!ENDTABS]

@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
+source-git-commit: 8b1aea19f011038f159560f9ef064cf6637f4438
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2293'
 ht-degree: 19%
 
 ---
@@ -82,6 +82,54 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 </tr>
 </tbody>
 </table>
+
+
+
+## Bientôt disponible {#coming-soon}
+
+La publication des fonctionnalités et améliorations suivantes est prévue dans les prochains jours. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
+
+### Nouvelles fonctionnalités {#comming-soon-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Liens profonds dans le Designer des emails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il est désormais possible d’ajouter des liens profonds au contenu de votre e-mail par le biais d’une option dédiée dans le Designer d’e-mail.</p><p>Cela permet aux utilisateurs d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement.</p>
+<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
+<p>Pour plus d’informations, consultez la <a href="../email/message-tracking.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 7 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Fragments de parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer <strong>fragments de Parcours </strong> dans Adobe Journey Optimizer. Les fragments de parcours sont des ensembles réutilisables de nœuds de parcours que vous pouvez créer une fois et déposer dans n’importe quel parcours de votre sandbox. Qu’il s’agisse d’une vérification d’éligibilité, d’une logique de routage de canal préférée ou d’une séquence de bienvenue, les fragments aident les équipes à se déplacer plus rapidement et à rester cohérentes, sans avoir à reconstruire la même logique à chaque fois.</p>
+<p>Une fois créés, les fragments sont stockés dans un <strong>inventaire des fragments</strong> dédié et peuvent être insérés dans n’importe quel parcours à l’aide de l’activité <strong>Fragments de Parcours </strong>.</p>
+<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
+<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
+<p>Date de disponibilité : 12 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## Notes de mise à jour d’avril 2026 {#april-26-rn}
 
@@ -404,28 +452,3 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
 * **Variables globales dans les campagnes orchestrées** - Les campagnes orchestrées prennent désormais en charge les variables globales qui peuvent être définies une seule fois et réutilisées dans toutes les activités d’un workflow. Cela simplifie la configuration et garantit la cohérence des valeurs dynamiques, des expressions et de la personnalisation du contenu. [En savoir plus](../orchestrated/global-variables.md)
 * **Améliorations apportées à Data Modeler** - Les schémas relationnels orchestrés prennent désormais en charge les clés composites s’étendant sur plusieurs champs. Le chargement d’un schéma à partir d’un fichier DDL génère également des énumérations. En outre, le chargement d’un fichier DDL ou Excel crée automatiquement des relations composites entre les tables. Dans la vue de relation d’entité, les liens composites affichent désormais l’ensemble complet des paires de champs entre les tables après le chargement d’un fichier. [En savoir plus](../orchestrated/gs-schemas.md)
-
-## Bientôt disponible {#coming-soon}
-
-La publication des fonctionnalités et améliorations suivantes est prévue dans les prochains jours. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
-
-### Nouvelles fonctionnalités {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Liens profonds dans le Designer des emails</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Il est désormais possible d’ajouter des liens profonds au contenu de votre e-mail par le biais d’une option dédiée dans le Designer d’e-mail.</p><p>Cela permet aux utilisateurs d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement.</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>Pour plus d’informations, consultez la <a href="../email/message-tracking.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 7 mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
