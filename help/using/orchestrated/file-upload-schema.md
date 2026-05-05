@@ -5,10 +5,10 @@ title: Étapes de configuration
 description: Découvrez comment créer un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 98%
+source-wordcount: '1222'
+ht-degree: 86%
 
 ---
 
@@ -40,8 +40,9 @@ Les chargements de fichiers de schéma basés sur le format Excel sont pris en c
 +++Les fonctions suivantes sont prises en charge lors de la création de schémas relationnels dans Adobe Experience Platform.
 
 * **ENUM**\
-  Les champs ENUM sont pris en charge pour la création de schémas manuelle ou basée sur un fichier DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
-Voici un exemple :
+  Les champs ENUM sont pris en charge lors de la création de schémas manuels et basés sur DDL. Lors du chargement d’un schéma depuis un fichier DDL, les énumérations définies dans le fichier sont automatiquement importées. Vous pouvez ainsi définir des attributs avec un ensemble fixe de valeurs autorisées.
+
+  Voici un exemple :
 
   ```
   CREATE TABLE orders (
@@ -55,6 +56,12 @@ Voici un exemple :
   );
   ```
 
+* **Clé composite** et **Relations composites**
+
+  Les clés primaires composites couvrant plusieurs champs sont prises en charge dans les définitions de schéma relationnel, ce qui permet d’utiliser plusieurs champs ensemble pour identifier les enregistrements de manière unique.
+
+  Lors du chargement d’un schéma depuis un fichier DDL ou Excel, les relations composites entre les tables sont automatiquement créées. Dans la vue de relation d’entité, chaque lien composite affiche l’ensemble complet des paires de champs entre les tables liées.
+
 * **Libellé de schéma pour la gouvernance des données**\
   La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
@@ -66,7 +73,7 @@ Voici un exemple :
 
 1. Cliquez sur **Créer un schéma**.
 
-1. Sélectionnez **[!UICONTROL Relationnel]** comme **Type de schéma**.
+1. Sélectionnez **[!UICONTROL Relationnel]** pour votre **Type de schéma**.
 
    ![](assets/admin_schema_1.png)
 
@@ -75,7 +82,7 @@ Voici un exemple :
    La structure de la table doit contenir :
    * Au moins une clé primaire.
    * Un identifiant de version, tel qu’un champ `lastmodified` de type `datetime` ou `number`.
-   * Pour l’ingestion Capture des données modifiées (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel.
+   * Pour l’ingestion Capture des données modifiées (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel.
    * Le fichier DDL ne doit pas définir plus de 200 tables.
 
 
@@ -114,7 +121,7 @@ Vous pouvez spécifier des relations directement dans le fichier DDL lors de la
 
    >[!NOTE]
    >
-   >Les clés composites sont prises en charge si elles sont définies dans le fichier DDL.
+   >Les clés composites couvrant plusieurs champs sont prises en charge lorsqu’elles sont définies dans le fichier DDL. Lors du chargement à partir d’un fichier DDL ou Excel, les relations composites entre les tableaux sont automatiquement créées. Dans la vue de relation d&#39;entité, les liens composites affichent l&#39;ensemble complet des paires de champs entre les tables liées.
 
    ![](assets/admin_schema_5.png)
 

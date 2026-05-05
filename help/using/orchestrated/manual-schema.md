@@ -5,10 +5,10 @@ title: Étapes de configuration
 description: Découvrez comment créer des schémas relationnels directement via l’interface utilisateur.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 89%
+source-wordcount: '932'
+ht-degree: 87%
 
 ---
 
@@ -69,7 +69,7 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
   La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
 * **Clé composite**\
-  Les clés primaires composites sont prises en charge dans les définitions de schéma relationnel, ce qui permet d’utiliser plusieurs champs ensemble pour identifier des enregistrements de manière unique.
+  Les clés primaires composites couvrant plusieurs champs sont prises en charge dans les définitions de schéma relationnel, ce qui permet d’utiliser plusieurs champs ensemble pour identifier les enregistrements de manière unique.
 
 +++
 
