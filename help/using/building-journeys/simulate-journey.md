@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 0a0301fd62f5844c72a582c7ba06ad3f8e161d7c
+source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1952'
 ht-degree: 4%
 
 ---
@@ -131,17 +131,17 @@ Si votre parcours comprend un ou plusieurs événements, vous pouvez les déclen
 
    ![Interface de configuration des événements avec champs et liste déroulante pour la sélection d’événements](assets/simulate-10.png)
 
-1. Cliquez sur ![Modifier l’événement](assets/do-not-localize/Smock_Edit_18_N.svg) pour ajuster l’événement pour cet utilisateur simulé.
+1. Cliquez sur **[!UICONTROL Configurer les événements]** pour ouvrir l’éditeur et ajuster l’événement si nécessaire. Pour modifier la payload d’un utilisateur simulé spécifique uniquement, cliquez sur ![Modifier l’événement](assets/do-not-localize/Smock_Edit_18_N.svg) en regard de cet utilisateur.
 
    ![Interface de configuration des événements avec champs et liste déroulante pour la sélection d’événements](assets/simulate-9.png)
 
-1. Dans le menu déroulant Utilisateur simulé , sélectionnez l’utilisateur simulé et terminez la configuration de l’événement et de la manière dont il est généré.
+1. Dans la vue **[!UICONTROL Déclencher l’événement]**, indiquez les utilisateurs simulés à inclure dans l’exécution. La configuration d’événement s’applique à un seul événement à la fois. La modification de l’événement sélectionné ou de l’ensemble des utilisateurs inclus réinitialise les valeurs de champ saisies précédemment. Terminez la configuration actuelle avant de modifier l’une des sélections.
 
-   ![Interface de configuration des événements avec champs et liste déroulante pour la sélection d’événements](assets/simulate-8.png)
+   ![Configuration d’événement avec les champs de liste d’utilisateurs et d’événement de test](assets/simulate-8.png)
 
-1. Cliquez sur **[!UICONTROL Déclencher les événements sélectionnés]**.
+1. Cliquez sur **[!UICONTROL Terminé]**.
 
-   Un message de confirmation `Events triggered successfully` s’affiche lorsque les utilisateurs simulés rejoignent le parcours avec succès.
+1. Ensuite, dans **[!UICONTROL Tester les événements]**, sélectionnez **[!UICONTROL Envoyer tout]** pour envoyer dans le parcours chaque utilisateur simulé répertorié sous **[!UICONTROL Tester les utilisateurs]** ou sélectionnez ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) pour qu’un seul utilisateur exécute la simulation pour cet utilisateur uniquement.
 
 1. Accédez à l’onglet **[!UICONTROL Résultats]** pour ouvrir le journal d’exécution et consulter l’exécution de chaque étape. Pour plus d&#39;informations, voir [Afficher les résultats](#viewing-results).
 
@@ -224,6 +224,6 @@ Ces mécanismes de sécurisation s’appliquent à **[!UICONTROL Simulation]**. 
 | Nombre maximal d’utilisateurs simulés uniques testés au cours d’une seule exécution de simulation | 100 | Atteindre **100** utilisateurs uniques en un seul bloc d’exécution **[!UICONTROL Sélectionner des utilisateurs simulés]** pour les nouveaux utilisateurs simulés. Si vous êtes à **90**, vous pouvez ajouter au plus 10 **&#x200B;**&#x200B;avant le même bloc. |
 | Nombre maximal de parcours pouvant être exécutés en même temps dans un sandbox **[!UICONTROL Simulation]** | 20 | La limite est partagée par chaque parcours **[!UICONTROL Simulation]** à la fois dans ce sandbox. |
 | Nombre maximal d’utilisateurs actifs simulés dans un sandbox | 2,000 | Nombre maximal d’utilisateurs simulés pouvant exister simultanément dans le sandbox. Adobe peut ajuster cette limite en fonction des commentaires des clients. |
-| Préremplissage De L’Événement (Navigateur Uniquement) | — | Le préremplissage des événements est pris en charge dans le navigateur uniquement. Les données d’événement préremplies sont spécifiques au navigateur. |
+| Préremplissage De L’Événement (Navigateur Uniquement) | — | Vous pouvez préremplir les champs de payload d’événement uniquement dans l’interface utilisateur de la simulation basée sur un navigateur. Les valeurs préremplies restent dans ce navigateur et ne sont pas synchronisées avec d’autres navigateurs, appareils ou sessions, de sorte que vous pouvez voir différentes données de préremplissage à chaque emplacement que vous testez. |
 
 +++
