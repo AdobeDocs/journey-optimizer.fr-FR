@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '7267'
+source-wordcount: '7327'
 ht-degree: 67%
 
 ---
@@ -24,6 +24,8 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Ajout d&#39;une nouvelle page **Personnaliser les URL dans les emails**, qui consolide les conseils sur la personnalisation dynamique des URL, la personnalisation complète/de base des URL, la personnalisation des paramètres de tracking d&#39;URL et les principaux mécanismes de sécurisation. [En savoir plus](../email/url-personalization.md)
 
 * Une nouvelle section **Requêtes relatives aux règles métier** a été ajoutée à la page des exemples de requête. Elle fournit une requête du lac de données permettant de vérifier tous les abandons de profil en raison d’exclusions de limitation de la fréquence des parcours sur un parcours spécifique après une date spécifique. La requête inclut le champ `eventCodeReason` pour identifier si les profils ont été exclus car une limite a été atteinte (`CAP_REACHED`) ou en raison d’une priorité inférieure (`LOWER_PRIORITY`). [En savoir plus](../reports/query-examples.md#business-rules-queries)
+
+* Mise à jour de la documentation des propriétés du Parcours **&#x200B;**&#x200B;afin de documenter le nouvel indicateur **Taille actuelle de la payload du parcours** dans le panneau des propriétés du parcours. Ce champ en lecture seule indique la taille actuelle de la payload du parcours par rapport à la limite configurée (par exemple, 1,5 Mo sur 2 Mo). Cela vous permet de surveiller la complexité du parcours avant la publication et d’éviter les erreurs de publication liées à la taille. [En savoir plus](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## Avril 2026 {#april-2026}
 

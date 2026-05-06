@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
+source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
 workflow-type: tm+mt
-source-wordcount: '3380'
-ht-degree: 76%
+source-wordcount: '3633'
+ht-degree: 73%
 
 ---
 
@@ -41,6 +41,7 @@ Vous pouvez effectuer les actions suivantes :
 * Sélectionner les [fuseaux horaires](#timezone) des parcours et des profils.
 * Choisir des [dates de début et de fin](#dates) personnalisées.
 * Définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement).
+* Surveillez la [&#x200B; taille actuelle de la payload du parcours &#x200B;](#journey-payload-size) pour éviter les erreurs de publication
 * Surveiller les conflits et gérer la priorité des parcours à l’aide des [outils de gestion des conflits](#conflict).
 
 ![Volet de configuration des propriétés du parcours avec paramètres généraux et options avancées](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -112,6 +113,23 @@ Vous pouvez limiter l’accès à un parcours en fonction des libellés d’acc�
 Pour attribuer des libellés d’utilisation des données personnalisés au parcours, cliquez sur l’icône **[!UICONTROL Gérer les libellés d’accès]** et sélectionnez un ou plusieurs libellés.
 
 [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
+
+## Taille de la payload du parcours {#journey-payload-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_payload_size"
+>title="Taille actuelle de la payload du parcours"
+>abstract="Affiche la taille actuelle de la payload du parcours par rapport à la limite configurée. Utilisez cet indicateur pour surveiller la complexité du parcours avant la publication et éviter les erreurs dues au dépassement de la taille limite de la payload."
+
+Le champ **[!UICONTROL Taille actuelle de la payload du parcours]** du panneau des propriétés du parcours affiche la taille actuelle de la payload de votre parcours par rapport à la limite configurée, par exemple, *1,5 Mo (sur 2 Mo)*. Cet indicateur en lecture seule est visible à n’importe quelle étape de la création de parcours.
+
+![Indicateur de taille de la payload du parcours actuel dans le panneau des propriétés du parcours &#x200B;](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+
+Utilisez ces informations pour surveiller la complexité de votre parcours avant publication. Si la taille de la payload approche ou dépasse la limite, la publication du parcours échoue. Pour réduire la taille, pensez à simplifier la logique du parcours ou à réduire le nombre d’activités.
+
+La limite par défaut est de 2 Mo. Contactez l’assistance clientèle d’Adobe si vous devez demander une limite supérieure pour votre organisation.
+
+Pour plus d&#39;informations sur les seuils, les messages d&#39;avertissement et d&#39;erreur, ainsi que les étapes de dépannage, reportez-vous aux sections Validation de la taille de la payload du Parcours [&#128279;](../start/guardrails.md#journey-payload-size) et [&#x200B; Mécanismes de sécurisation du parcours général](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## Fuseaux horaires des parcours et des profils {#timezone}
 
@@ -265,7 +283,7 @@ Depuis [!DNL Adobe Journey Optimizer] version de juin 2024, le délai d’expira
       <p>Qu’advient-il d’un profil en cours d’exécution dans une version de parcours précédente qui est republiée après le lancement de l’extension de la durée de vie ?</p>
     </td>
     <td>
-      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour la loi HIPAA), alignée sur l’heure de publication de la version originale du parcours. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour HIPAA), alignée sur l’heure de publication originale du parcours. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
     </td>
   </tr>
   <tr style="border: 1;">

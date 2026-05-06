@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: a9da10694f4e8299e32d94d3f3d9bf4363a8773a
 workflow-type: tm+mt
-source-wordcount: '4095'
-ht-degree: 92%
+source-wordcount: '4226'
+ht-degree: 91%
 
 ---
 
@@ -172,7 +172,7 @@ Cette section présente les mécanismes de sécurisation pour la gestion des aud
 
 Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez la prise de décision ou la gestion des décisions sont détaillés dans les sections Prise de décision et gestion des décisions présentées ci-après :
 
-* [Mécanismes de sécurisation et limitations de la prise de décisions](../experience-decisioning/decisioning-guardrails.md)
+* [Mécanismes de sécurisation et limitations des prises de décision](../experience-decisioning/decisioning-guardrails.md)
 * [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
 
 ## Parcours {#journeys-guardrails}
@@ -185,7 +185,7 @@ Cette section présente les mécanismes de sécurisation et les limitations des 
 * Par défaut, le nombre de parcours actifs, en pause ou testés à blanc à la fois est limité à 100.  Le nombre actuel de parcours s’affiche au-dessus de la zone de travail du parcours.
 * Lorsque vous publiez des parcours, nous les mettons automatiquement à l’échelle et les ajustons pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 100 parcours actifs à la fois, une notification s’affiche dans l’interface utilisateur pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle et nous vous aiderons à atteindre vos objectifs.
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
-* La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil extraites d’Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et affectent la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
+* La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil récupérées de Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et ont un impact sur la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
 * Pour chaque profil et version de parcours, l’exécution du parcours conserve une file d’attente interne allant jusqu’à 10 événements en attente pendant le traitement d’un événement. Si cette limite est atteinte, les événements supplémentaires sont ignorés pour la `maxInstanceStackEventsReached` raison jusqu’à ce que la pile se vide. Voir [&#x200B; Événements ignorés en raison d’une instance de parcours bloquée](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 * Outre la temporisation utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée. Cette temporisation globale arrête la progression des personnes dans le parcours 91 jours après leur entrée. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
 
@@ -216,6 +216,8 @@ Si la requête dépasse la taille maximale autorisée, la réponse inclut **Enti
 * Simplifiez les conditions, réduisez les mappages de données et supprimez les étapes ou paramètres inutiles.
 * Envisagez de diviser le parcours en parcours plus petits si nécessaire.
 * Si vous pensez que votre organisation a besoin d’une limite supérieure, contactez votre représentant ou représentante Adobe.
+
+Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours &#x200B;](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Restrictions du package Select pour les parcours unitaires {#select-package-limitations}
 
@@ -280,7 +282,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [événements](../e
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
 * Les parcours unitaires (qui commencent par un événement ou une qualification d’audience) incluent un mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12:01 pour un profil spécifique et qu’un autre événement se produit à 12:03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
-* Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lots, les événements insérés via **Query Service** ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, suivi des e-mails, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, vous devez créer une audience basée sur ces événements et utiliser l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée, mais elle n’est pas recommandée, car elle peut entraîner des problèmes en aval en fonction des actions utilisées.
+* Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot, les événements insérés via **Query Service** ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, suivi des e-mails, etc.) ne peut pas être utilisé pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, vous devez créer une audience basée sur ces événements et utiliser l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée, mais elle n’est pas recommandée, car elle peut entraîner des problèmes en aval en fonction des actions utilisées.
 
 ### Sources de données {#data-sources-g}
 
