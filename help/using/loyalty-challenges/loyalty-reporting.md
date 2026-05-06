@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Surveillance des performances des défis de fidélité
-description: Découvrez comment utiliser les tableaux de bord de rapports des défis de fidélité pour effectuer le suivi des performances du programme, des résultats des défis et des mesures de tâches dans Adobe Journey Optimizer.
+description: Découvrez comment utiliser les tableaux de bord de reporting des défis de fidélité pour effectuer le suivi des performances des défis et des mesures de tâches dans Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: cfd307c78624486c9791f8d3821f9d24f409cdcc
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '529'
 ht-degree: 3%
 
 ---
