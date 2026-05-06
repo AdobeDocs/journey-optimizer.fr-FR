@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 4%
 * [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md)
 * [Créer des défis](create-challenges.md)
 * [Création de tâches](create-tasks.md)
+* [Surveillance des performances des défis de fidélité](loyalty-reporting.md)
 * [Référence de l’API pour les défis de fidélité](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,10 +53,11 @@ Grâce aux défis de fidélité, vous pouvez :
 * **Personnaliser l’expérience** : utilisez des cartes de contenu et la messagerie multicanale pour créer des expériences immersives de marque
 * **Intégration transparente** : entrez en contact avec vos fournisseurs de fidélité existants et exploitez les données Experience Platform
 * **Suivi automatique** : surveiller les progrès des clients par le biais de parcours générés automatiquement sans développement personnalisé
+* **Mesurer les performances** : utilisez des tableaux de bord de rapports intégrés pour effectuer le suivi des indicateurs clés de performance des programmes, des résultats des défis et des mesures au niveau des tâches
 
 ![](assets/challenges-gs.png)
 
-Vous pouvez créer trois types d’expériences de défi :
+Vous pouvez créer les types d’expériences de défi suivants :
 
 * **Défis standard** : les clients effectuent un nombre spécifié de tâches dans n’importe quel ordre. Utilisez ce type lorsque vous souhaitez de la flexibilité et que vous souhaitez terminer plusieurs chemins d’accès.\
   *Exemple : « Summer Wellness Challenge » - Effectuez 3 des 5 tâches suivantes : acheter des produits de santé, partager sur les médias sociaux, recommander un ami, écrire un commentaire ou assister à un événement virtuel*
@@ -65,6 +67,8 @@ Vous pouvez créer trois types d’expériences de défi :
 
 * **Défis séquentiels** : les clients exécutent des tâches dans un ordre défini. Utilisez ce type pour guider les clients tout au long d’un processus d’intégration ou de parcours spécifique.\
   *Exemple : « Nouveau Parcours membre » - Inscrivez-vous aux e-mails → Effectuez votre premier achat → Rédiger un avis sur le produit → Recommander un ami (dans cet ordre exact)*
+
+* **Apportez vos propres défis de données** (disponibilité limitée) : le framework de défi (tâches et récompenses) est assemblé à partir de votre intégration de données Défis de fidélité. Vous configurez le contenu, les messages et l’audience comme vous le feriez pour tout autre type de défi.
 
 ## Fonctionnement {#how-it-works}
 
@@ -158,6 +162,17 @@ Maintenant que vous connaissez les défis de fidélité et leur fonctionnement, 
     </div>
     <p>
     <em>Découvrez comment définir les tâches que les clients effectuent pour relever les défis</em>
+    </p>
+  </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="Rapports" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>Surveillance des performances</strong></a>
+    </div>
+    <p>
+    <em>Suivre les KPI du programme, les résultats des défis et les mesures des tâches avec des tableaux de bord intégrés</em>
     </p>
   </td>
 </tr>
