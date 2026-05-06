@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 87%
 
 ---
 
@@ -70,6 +70,17 @@ Pour créer une configuration des canaux, procédez comme suit :
    >[!NOTE]
    >
    >Par défaut, [!DNL Journey Optimizer] utilise le numéro de téléphone spécifié dans les [paramètres généraux](../configuration/primary-email-addresses.md) au niveau du sandbox. La mise à jour de ce champ remplace la valeur par défaut pour les parcours et les campagnes utilisant cette configuration.
+
+1. Sélectionnez **[!UICONTROL Utiliser un jeu de données personnalisé pour le trafic entrant]** pour acheminer le SMS entrant de ces informations d’identification vers un jeu de données précréé que vous sélectionnez dans la liste déroulante. [En savoir plus sur la création de jeux de données](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Le schéma du jeu de données doit être **[!UICONTROL XDM ExperienceEvent]** et inclure au moins les groupes de champs suivants :
+   >* Adobe CJM ExperienceEvent - Informations sur l’interaction du message
+   >* ExperienceEvent Adobe CJM - Détails d’exécution du message
+   >* ExperienceEvent Adobe CJM - Détails du profil de message
+   >
+   >Le schéma et le jeu de données doivent être activés pour Profil.
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer la configuration de canal en tant que brouillon et reprendre son paramétrage ultérieurement.
 

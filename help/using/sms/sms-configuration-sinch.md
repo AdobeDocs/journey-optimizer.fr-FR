@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 75%
+source-wordcount: '941'
+ht-degree: 86%
 
 ---
 
@@ -33,18 +33,6 @@ Pour configurer votre fournisseur Sinch, procédez comme suit :
 
 ## Configurer les informations d’identification d’API pour les SMS{#create-api}
 
->[!BEGINSHADEBOX]
-
-Si les mots-clés relatifs à l’opt-in ou à l’opt-out ne sont pas fournis, des messages de consentement standard sont utilisés pour respecter la confidentialité des personnes. L’ajout de mots-clés personnalisés remplace automatiquement les valeurs par défaut.
-
-**Mots-clés par défaut :**
-
-* **Opt-in** : SUBSCRIBE (s’abonner), YES (oui), UNSTOP (redémarrer), START (démarrer), CONTINUE (continuer), RESUME (reprendre), BEGIN (commencer).
-* **Opt-out** : STOP (arrêter), QUIT (quitter), CANCEL (annuler), END (terminer), UNSUBSCRIBE (se désabonner), NO (non).
-* **Aide** : HELP (aide).
-
->[!ENDSHADEBOX]
-
 Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Journey Optimizer, procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** `>` **[!UICONTROL Paramètres des SMS]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
@@ -58,24 +46,30 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
    | Fournisseur SMS | Sinch |
    | Nom | Saisissez un nom pour vos informations d’identification API. |
    | ID de service et jeton API | Accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS. En savoir plus dans la [Documentation Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
-   | Mots-clés d’opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’accord préalable. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
-   | Message d’opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br> Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’accord préalable. |
-   | Mots-clés d’opt-out | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br> Entrez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d&#39;opt-out. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
-   | Message d’opt-out | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out. |
-   | Mots-clés d’aide | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br> Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
-   | Message d’aide | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**. |
-   | Mots-clés de double opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3440276/?captions=fre_fr&learn=on). |
-   | Message de double opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in. |
    | Numéro entrant | Ajoutez votre numéro entrant unique ou votre code court. Cela permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant ou code court. |
-   | Mots-clés entrants personnalisés | Définissez des mots-clés uniques et non liés au consentement pour des actions par lots, par exemple REMISE, OFFRES, INSCRIRE. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment par lots dans le parcours et de fournir une réponse ou une action personnalisée. |
-   | Message de réponse entrant par défaut | Saisissez la réponse par défaut envoyée lorsqu’un utilisateur final ou une utilisatrice finale envoie un SMS entrant qui ne correspond à aucun des mots-clés définis. |
    | URL de remplacement | Saisissez votre URL personnalisée pour remplacer les points d’entrée par défaut des rapports de diffusion par SMS, des données de commentaires, des messages entrants ou des notifications d’événement. Sinch enverra toutes les mises à jour pertinentes à cette URL au lieu des mises à jour prédéfinies. |
 
    +++
 
-1. Activez l’option **[!UICONTROL Opt-out en logique floue]** pour détecter les messages ressemblant à des mots-clés d’opt-out (par exemple, « CANCIL ») et personnalisez la réponse de confirmation dans le champ **[!UICONTROL Réponse automatique en logique floue]**.
+<!--
+1. Choose how user consent should be tracked for messaging:
 
-   L’option **[!UICONTROL Opt-out en logique floue]** identifie les SMS indiquant qu’une personne souhaite se désabonner, même si le message ne correspond pas exactement à un mot-clé d’opt-out défini. Les expressions de désabonnement courantes et certains termes offensants peuvent être détectés, ce qui permet de s’assurer que vos campagnes respectent les préférences des utilisateurs et utilisatrices et qu’elles restent conformes.
+    * **[!UICONTROL Sender short code]**: Inbound keyword consent is keyed to your **sender short code** only. Use when one inbound number is enough to represent consent.
+
+    * **[!UICONTROL Sender short code + profile number]**: Consent is keyed to the **sender short code** and the profile **mobile number**. Use when profiles can have several numbers, or when opt-in/out must apply per sender and recipient pair.
+-->
+
+1. Sélectionnez **[!UICONTROL Utiliser un jeu de données personnalisé pour le trafic entrant]** pour acheminer le SMS entrant de ces informations d’identification vers un jeu de données précréé que vous sélectionnez dans la liste déroulante. [En savoir plus sur la création de jeux de données](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Le schéma du jeu de données doit être **[!UICONTROL XDM ExperienceEvent]** et inclure au moins les groupes de champs suivants :
+   >* Adobe CJM ExperienceEvent - Informations sur l’interaction du message
+   >* ExperienceEvent Adobe CJM - Détails d’exécution du message
+   >* ExperienceEvent Adobe CJM - Détails du profil de message
+   >
+   >Le schéma et le jeu de données doivent être activés pour Profil.
+
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 

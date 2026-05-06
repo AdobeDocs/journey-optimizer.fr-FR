@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 100%
+source-wordcount: '881'
+ht-degree: 92%
 
 ---
 
@@ -84,6 +84,16 @@ Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d�
    >
    >Lors de la configuration d’un fournisseur de SMS personnalisé avec l’authentification de base ou porteur, vous devez inclure le paramètre `authOption` dans la payload JSON. En outre, la **payload du fournisseur** doit référencer les variables de modèle `{{fromNumber}}`, `{{toNumber}}` et `{{message}}`.
 
+1. Sélectionnez **[!UICONTROL Utiliser un jeu de données personnalisé pour le trafic entrant]** pour acheminer le SMS entrant de ces informations d’identification vers un jeu de données précréé que vous sélectionnez dans la liste déroulante. [En savoir plus sur la création de jeux de données](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Le schéma du jeu de données doit être **[!UICONTROL XDM ExperienceEvent]** et inclure au moins les groupes de champs suivants :
+   >* Adobe CJM ExperienceEvent - Informations sur l’interaction du message
+   >* ExperienceEvent Adobe CJM - Détails d’exécution du message
+   >* ExperienceEvent Adobe CJM - Détails du profil de message
+   >
+   >Le schéma et le jeu de données doivent être activés pour Profil.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 
