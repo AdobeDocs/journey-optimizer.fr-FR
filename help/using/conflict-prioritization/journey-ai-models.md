@@ -6,12 +6,11 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
-hide: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 70a9be0c253bbed319510058f7f249f5919bf7b8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '661'
+ht-degree: 16%
 
 ---
 
@@ -80,7 +79,7 @@ Pour créer un modèle d’IA pour le classement des parcours, procédez comme s
 
    >[!NOTE]
    >
-   >Vous pouvez sélectionner jusqu’à 50 audiences.
+   >Vous pouvez sélectionner jusqu’à 50 audiences.
 
 1. Enregistrez et activez le modèle d’IA.
 
