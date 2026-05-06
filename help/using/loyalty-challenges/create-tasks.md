@@ -11,10 +11,10 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 3%
+source-wordcount: '989'
+ht-degree: 2%
 
 ---
 
@@ -59,52 +59,52 @@ Sélectionnez l’onglet **[!UICONTROL Tâches]** et sélectionnez **[!UICONTROL
 
 >[!TAB À partir d’un défi]
 
-Ouvrir un défi existant ou en créer un nouveau. Sélectionnez **[!UICONTROL Ajouter une tâche]** et cliquez sur le bouton **[!UICONTROL Nouveau]**. Tasks created this way are automatically added to your challenge and also saved to the Tasks inventory for reuse in other challenges.
+Ouvrir un défi existant ou en créer un nouveau. Sélectionnez **[!UICONTROL Ajouter une tâche]** et cliquez sur le bouton **[!UICONTROL Nouveau]**. Les tâches créées de cette manière sont automatiquement ajoutées à votre défi et sont également enregistrées dans l’inventaire des tâches pour être réutilisées dans d’autres défis.
 
 ![](assets/task-create-challenge.png)
 
 >[!ENDTABS]
 
-## Choose customer activity {#choose-activity}
+## Choisir l’activité du client {#choose-activity}
 
-Select the type of activity that customers must perform to complete this task:
+Sélectionnez le type d’activité que les clients doivent effectuer pour terminer cette tâche :
 
-* **[!UICONTROL Purchase]**: Customers must purchase one or more items to complete this task
-* **[!UICONTROL Spend]**: Customers must spend a specified amount to complete this task
+* **[!UICONTROL Achat]** : les clients doivent acheter un ou plusieurs articles pour terminer cette tâche
+* **[!UICONTROL Dépenses]** : les clients doivent dépenser un montant spécifié pour terminer cette tâche
 
-To select an activity, click the **+** icon and select the customer activity that best aligns with your outcome goals. Each activity type has specific configurable attributes to further define and shape the task requirements.
+Pour sélectionner une activité, cliquez sur l’icône **+** et sélectionnez l’activité du client qui correspond le mieux à vos objectifs de résultat. Chaque type d’activité possède des attributs configurables spécifiques pour définir et définir plus en détail les exigences des tâches.
 ![](assets/task-create-activity.png)
 
-## Define the task attributes {#define-attributes}
+## Définir les attributs de la tâche {#define-attributes}
 
-Configure the task attributes based on the selected activity type. Browse the tabs below to see available attributes for each activity type:
+Configurez les attributs de la tâche en fonction du type d’activité sélectionné. Parcourez les onglets ci-dessous pour afficher les attributs disponibles pour chaque type d’activité :
 
 >[!BEGINTABS]
 
->[!TAB Purchase activity]
+>[!TAB Activité d’achat]
 
-Available attributes for **Purchase** activities:
+Attributs disponibles pour les activités **Achat** :
 
-* **[!UICONTROL Quantity]**: Enter the number of items that must be purchased to complete this task.
-* **[!UICONTROL Eligible items &amp; exclusions]**: Define items or item groups that count toward task completion and those that don&#39;t. [Learn more on eligible items and exclusions](#eligible-items-exclusions)
-* **[!UICONTROL Minimum spend value amount]**: Set a minimum purchase amount requirement.
-* **[!UICONTROL Maximum number of transactions]**: Limit how many transactions can be used to complete the task.
+* **[!UICONTROL Quantité]** : saisissez le nombre d’articles qui doivent être achetés pour terminer cette tâche.
+* **[!UICONTROL Éléments et exclusions éligibles]** : définissez les éléments ou groupes d’éléments qui sont pris en compte dans l’achèvement de la tâche et ceux qui ne le sont pas, ou choisissez **[!UICONTROL Apporter vos propres données]** pour déterminer l’éligibilité à partir de vos données externes. [En savoir plus](#eligible-items-exclusions)
+* **[!UICONTROL Montant minimum de la valeur de dépense]** : définissez une exigence de montant minimum d’achat.
+* **[!UICONTROL Nombre maximum de transactions]** : limitez le nombre de transactions pouvant être utilisées pour terminer la tâche.
 
 ![](assets/task-create-purchase.png)
 
->[!TAB Spend activity]
+>[!TAB Activité de dépense]
 
-Available attributes for **Spend** activities:
+Attributs disponibles pour les activités **Dépenses** :
 
-* **[!UICONTROL Amount]**: Enter the total spend amount required to complete the task.
-* **[!UICONTROL Eligible items &amp; exclusions]**: Define items or item groups that count toward task completion and those that don&#39;t. [Learn more on eligible items and exclusions](#eligible-items-exclusions)
-* **[!UICONTROL Maximum number of transactions]**: Specify how many transactions are allowed to meet the spend requirement. You can activate this attribute from the parameters icon.
+* **[!UICONTROL Montant]** : saisissez le montant total des dépenses requises pour terminer la tâche.
+* **[!UICONTROL Éléments et exclusions éligibles]** : définissez les éléments ou les groupes d’éléments qui sont pris en compte pour l’achèvement de la tâche, et ceux qui ne le sont pas. [En savoir plus sur les éléments et exclusions éligibles](#eligible-items-exclusions)
+* **[!UICONTROL Nombre maximal de transactions]** : indiquez le nombre de transactions autorisées pour répondre à l’exigence de dépenses. Vous pouvez activer cet attribut à partir de l’icône des paramètres.
 
 ![](assets/task-create-spend.png)
 
 >[!ENDTABS]
 
-## Define eligible items and exclusions {#eligible-items-exclusions}
+## Définir les éléments éligibles et les exclusions {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
@@ -115,17 +115,39 @@ Available attributes for **Spend** activities:
 
 Pour les activités **Achat** et **Dépenses**, vous pouvez utiliser l’attribut **[!UICONTROL Articles et exclusions éligibles]** pour définir les articles et groupes éligibles et ceux qui sont exclus. Cela vous permet de cibler des produits, des catégories ou des emplacements spécifiques pour vous aligner sur vos objectifs de défi.
 
-Par exemple, vous pouvez limiter une tâche de dépense à des catégories de produits spécifiques ou exclure les cartes-cadeaux ou les articles promotionnels du comptage pour terminer la tâche.
+Par exemple, vous pouvez limiter une tâche à des catégories de produits spécifiques ou exclure les cartes-cadeaux ou les articles promotionnels du comptage pour terminer la tâche.
 
 ![](assets/tasks-create-eligible.png)
 
-* Pour définir des articles éligibles, saisissez des ID d’article, des catégories ou des ID de destination spécifiques, séparés par des virgules dans le champ **[!UICONTROL Les achats de tâches éligibles sont limités à ce qui suit]**. Si vous laissez ce champ vide, tous les achats sont éligibles par défaut. Vous pouvez également saisir des `*` pour rendre explicitement tous les achats éligibles.
+### Définir les éléments éligibles pour la tâche
 
-  Exemple : `SKU001, SKU002, CategoryA`
+Pour définir des articles éligibles, saisissez des ID d’article, des catégories ou des ID de destination spécifiques, séparés par des virgules dans le champ **[!UICONTROL Les achats de tâches éligibles sont limités à ce qui suit]**. Si vous laissez ce champ vide, tous les achats sont éligibles par défaut. Vous pouvez également saisir des `*` pour rendre explicitement tous les achats éligibles.
 
-* Pour exclure des éléments de la tâche, saisissez des ID d’élément, des catégories ou des ID de destination spécifiques dans le champ **[!UICONTROL Les éléments suivants sont exclus de cette tâche]**.
+Exemple : `SKU001, SKU002, CategoryA`
 
-  Exemple : `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+### Exclure des éléments de la tâche
+
+Pour exclure des éléments de la tâche, saisissez des ID d’élément, des catégories ou des ID de destination spécifiques dans le champ **[!UICONTROL Les éléments suivants sont exclus de cette tâche]**.
+
+Exemple : `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+
+### Apporter vos propres données pour l&#39;éligibilité et les exclusions {#byod-personalization}
+
+>[!AVAILABILITY]
+>
+>L’option **[!UICONTROL Apportez vos propres données]** est actuellement disponible pour un nombre restreint d’organisations et sera disponible à une plus grande échelle dans une prochaine version.
+
+En plus de saisir des ID d’élément à rendre éligibles ou à exclure, vous pouvez également générer l’éligibilité à partir de vos données externes de défis de fidélité au moment de l’exécution à l’aide de l’option **[!UICONTROL Apporter vos propres données]**.
+
+Lorsque l’option **[!UICONTROL Apporter vos propres données]** est sélectionnée, l’éligibilité par participant est résolue au moment de l’exécution à partir des données synchronisées avec votre environnement de défis de fidélité au lieu d’une liste d’ID d’élément.
+
+Pour utiliser cette option, sélectionnez l’icône de personnalisation dans **[!UICONTROL Éléments et exclusions éligibles]**, puis choisissez **[!UICONTROL Apporter vos propres données]**.
+
+![](assets/tasks-create-eligible-bring.png)
+
+>[!IMPORTANT]
+>
+>Lorsque vous affectez cette tâche à un défi, sélectionnez **[!UICONTROL Standard]** comme type de défi. Ne sélectionnez pas **[!UICONTROL Apporter vos propres données]** au niveau du défi, car cette option est réservée aux défis entièrement axés sur les données où l’ensemble de la structure, y compris les tâches et les récompenses, est fournie en externe.
 
 ## Définir les propriétés de la tâche {#define-task-properties}
 
