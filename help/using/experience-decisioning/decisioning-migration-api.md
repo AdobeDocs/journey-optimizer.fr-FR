@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1175'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ L’API du service de migration Decisioning offre les fonctionnalités suivantes
 
 Pour utiliser l’API de migration, vous avez besoin des autorisations appropriées dans les sandbox source et cible :
 
-**Sandbox Source** - Accès en lecture aux objets de gestion des décisions
+**Sandbox** - Accès en lecture aux objets de gestion des décisions
 
 **Sandbox cible** - Création et modification de l’accès aux objets Decisioning
 
@@ -62,7 +62,7 @@ Avant d’exécuter une migration, vérifiez que votre sandbox cible est correct
 * **Jeu de données** - Identifiez un nom de jeu de données à utiliser pour la migration (`dependency.datasetName`).
 * **Flux de données** - Décidez si la migration doit créer un flux de données (`createDataStream`).
 
-Pour plus d’informations sur la gestion des sandbox, voir [&#x200B; Utilisation et affectation de sandbox](../administration/sandboxes.md).
+Pour plus d’informations sur la gestion des sandbox, voir [ Utilisation et affectation de sandbox](../administration/sandboxes.md).
 
 ## Bases d’API {#api-basics}
 
@@ -81,7 +81,7 @@ Toutes les requêtes API nécessitent les en-têtes suivants :
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
+Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ### Modèle de workflow {#workflow-model}
 
@@ -120,25 +120,24 @@ Commencez par une analyse au niveau du sandbox pour obtenir une vue complète de
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies?request-level=sandbox" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
-    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
-    "requestLevel": "sandbox"
+    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" }
   }'
 ```
 
 **Dépendance de niveau offre**
 
-Pour analyser les dépendances uniquement pour des offres spécifiques, définissez `requestLevel: "offer"` et fournissez un tableau `offersList` avec les identifiants des offres à analyser.
+Pour analyser les dépendances uniquement pour des offres spécifiques, appelez le même point d’entrée avec `request-level=offer` dans la chaîne de requête et fournissez un tableau `offersList` dans le corps avec les identifiants d’offre que vous souhaitez analyser.
 
 **Dépendance de niveau décision**
 
-Pour analyser les dépendances uniquement pour des décisions spécifiques, définissez `requestLevel: "decision"` et fournissez un tableau `decisionsList` avec les ID de décision à analyser.
+Pour analyser les dépendances uniquement pour des décisions spécifiques, utilisez `request-level=decision` dans la chaîne de requête et fournissez un tableau `decisionsList` dans le corps avec les identifiants de décision à analyser.
 
 #### Vérification du statut du workflow de dépendance {#poll-dependency-status}
 
@@ -186,10 +185,10 @@ Pour migrer tous les objets de prise de décision d’un sandbox à un autre :
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/migration" \
-  --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "Content-Type: application/json" \
+  --url 'https://decisioning-migration.adobe.io/workflows/migration?request-level=sandbox' \
+  --header 'Authorization: Bearer <IMS_ACCESS_TOKEN>' \
+  --header 'Content-Type: application/json' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
@@ -209,14 +208,13 @@ curl --request POST \
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
-    },
-    "requestLevel": "sandbox"
+    }
   }'
 ```
 
 **Migration au niveau des offres**
 
-Pour migrer des offres spécifiques uniquement, utilisez `requestLevel: "offer"` et ajoutez un tableau `offersList` :
+Pour migrer des offres spécifiques uniquement, utilisez `request-level=offer` dans la chaîne de requête et ajoutez un tableau de `offersList` au corps :
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]
@@ -224,7 +222,7 @@ Pour migrer des offres spécifiques uniquement, utilisez `requestLevel: "offer"`
 
 **Migration au niveau de la décision**
 
-Pour migrer des décisions spécifiques uniquement, utilisez `requestLevel: "decision"` et ajoutez un tableau `decisionsList` :
+Pour migrer des décisions spécifiques uniquement, utilisez `request-level=decision` dans la chaîne de requête et ajoutez un tableau de `decisionsList` au corps :
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]
