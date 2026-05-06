@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '755'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ Vous pouvez créer trois types d’expériences de défi :
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Streak ou Séquentiel) et la période.
+1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Séquentiel, Séquentiel ou Apporter vos propres données lorsqu’elles sont disponibles) et la période. [Découvrez comment choisir un type de défi](create-challenges.md#create-the-challenge).
 
 1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâches (achat, dépenses), les quantités, les filtres de produit et les récompenses.
 
