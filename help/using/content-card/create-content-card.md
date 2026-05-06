@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
+source-git-commit: 86f3a68b18786314791b267c9dd02ccdaabd0d36
 workflow-type: tm+mt
 source-wordcount: '1562'
 ht-degree: 86%
@@ -25,7 +25,7 @@ ht-degree: 86%
 
 Pour ajouter une carte de contenu à un parcours, procédez comme suit :
 
-1. Ouvrez votre [parcours &#x200B;](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+1. Ouvrez votre [parcours ](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
 
    >[!IMPORTANT]
    >
@@ -69,7 +69,7 @@ Pour ajouter une carte de contenu à un parcours, procédez comme suit :
       | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
       | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
 
-      +++ 
+      +++
 
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
 
@@ -94,7 +94,7 @@ Pour ajouter une carte de contenu à un parcours, procédez comme suit :
       | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
       | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
 
-      +++ 
+      +++
 
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
@@ -156,7 +156,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
       | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
       | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
 
-      +++ 
+      +++
 
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
 
@@ -181,7 +181,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
       | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
       | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
 
-      +++ 
+      +++
 
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
