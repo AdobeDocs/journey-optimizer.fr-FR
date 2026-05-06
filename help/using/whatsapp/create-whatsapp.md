@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
+source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 100%
+source-wordcount: '957'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Avec Adobe Journey Optimizer, vous pouvez concevoir et envoyer des messages attr
 
 Notez que seuls les éléments de messages sortants sont pris en charge dans Journey Optimizer.
 
-+++ En savoir plus sur les éléments de message pris en charge et les appels à l’action
++++ En savoir plus sur les éléments de message et les boutons interactifs pris en charge
 
 Les types de messages pris en charge dans WhatsApp sont les suivants :
 
@@ -37,13 +37,18 @@ Les types de messages pris en charge dans WhatsApp sont les suivants :
 | Corps de texte | Prend en charge le contenu dynamique par le biais de paramètres. |
 | Texte du pied de page | Prend en charge le contenu dynamique par le biais de paramètres. |
 
-L’option d’appel à l’action suivante est disponible pour vos messages WhatsApp :
+Les options call-to-action suivantes sont disponibles pour vos messages WhatsApp :
 
 | Appel à l’action | Description |
 |-|-|
+| Réponse rapide | Réponses courtes prédéfinies sur lesquelles l’utilisateur peut appuyer pour répondre à votre message. |
 | Visiter le site web | Un seul bouton est autorisé, avec les paramètres de variable inclus. |
 | Appeler sur WhatsApp | Fournit un bouton qui ouvre une conversation WhatsApp avec le numéro de téléphone spécifié directement à partir du message. |
 | Appeler le numéro de téléphone | Fournit un bouton qui déclenche un appel téléphonique vers le numéro spécifié lorsque l’utilisateur ou l’utilisatrice appuie dessus. |
+| CALL TO ACTION - URL | Ouvre une URL (**Visiter le site web**). Un seul bouton d’URL est autorisé, avec les paramètres de variable inclus. |
+| Call to action - téléphone | Utilise le numéro de téléphone du modèle, par exemple **Appeler le numéro de téléphone** (passe un appel) ou **Appeler sur WhatsApp** (ouvre une conversation avec ce numéro dans WhatsApp). |
+
+Notez que les boutons interactifs **Copier le code** ne sont pas pris en charge.
 
 +++
 
@@ -85,7 +90,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message WhatsA
 
    ![](assets/whatsapp-campaign-1.png)
 
-1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md).
+1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md)
 
 1. Dans la section **[!UICONTROL suivi des actions]**, indiquez si vous souhaitez effectuer le suivi des clics sur les liens de votre message WhatsApp.
 
@@ -130,7 +135,7 @@ Notez que votre modèle WhatsApp doit d’abord être approuvé par Meta avant d
 
 1. Dans la liste déroulante **Modèle WhatsApp**, sélectionnez le modèle créé précédemment et conçu dans Meta.
 
-   [Découvrir comment créer des modèles WhatsApp](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+   [En savoir plus sur la création de modèles Whatsapp](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
 
