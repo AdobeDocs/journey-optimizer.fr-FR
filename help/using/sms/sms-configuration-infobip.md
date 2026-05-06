@@ -7,26 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 70%
+source-wordcount: '764'
+ht-degree: 83%
 
 ---
 
 # Configurer le fournisseur Infobip {#sms-configuration-infobip}
-
->[!BEGINSHADEBOX]
-
-Si les mots-clés relatifs à l’opt-in ou à l’opt-out ne sont pas fournis, des messages de consentement standard sont utilisés pour respecter la confidentialité des personnes. L’ajout de mots-clés personnalisés remplace automatiquement les valeurs par défaut.
-
-**Mots-clés par défaut :**
-
-* **Opt-in** : SUBSCRIBE (s’abonner), YES (oui), UNSTOP (redémarrer), START (démarrer), CONTINUE (continuer), RESUME (reprendre), BEGIN (commencer).
-* **Opt-out** : STOP (arrêter), QUIT (quitter), CANCEL (annuler), END (terminer), UNSUBSCRIBE (se désabonner), NO (non).
-* **Aide** : HELP (aide).
-
->[!ENDSHADEBOX]
 
 En intégrant Infobip à Adobe Journey Optimizer, vous pouvez diffuser des SMS à vos profils dans le cadre de vos parcours et campagnes.
 
@@ -52,27 +40,28 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
    | Fournisseur SMS | Infobip |
    | Nom | Saisissez un nom pour vos informations d’identification API. |
    | URL de base et clé API | Accédez à la page d’accueil de votre interface web ou à la page de gestion des clés API pour trouver vos informations d’identification. Pour les points d’entrée de domaine régionaux ou alternatifs, par exemple `api-ny2.infobip.com`, spécifiez l’URL de base complète et vérifiez votre jeton d’autorisation auprès de l’assistance d’Infobip. </br>En savoir plus dans la [documentation Infobip](https://www.infobip.com/docs/api){target="_blank"} |
-   | Mots-clés d’opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’accord préalable. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
-   | Message d’opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br> Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’accord préalable. |
-   | Mots-clés d’opt-out | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br> Entrez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d&#39;opt-out. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
-   | Message d’opt-out | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out. |
-   | Mots-clés d’aide | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
-   | Message d’aide | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**. |
-   | Mots-clés de double opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3440276/?captions=fre_fr&learn=on). |
-   | Message de double opt-in | **Pour les nouvelles configurations SMS, utilisez le menu [Webhooks](sms-webhook.md) pour configurer les mots-clés de consentement. Les configurations existantes peuvent continuer à utiliser des mots-clés de consentement dans cette section.** </br>Saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in. |
    | Identifiant d’entité principale | Saisissez l’identifiant d’entité principale DLT qui vous a été attribué. |
    | Identifiant du modèle de contenu | Saisissez votre identifiant de modèle de contenu DLT enregistré. |
    | Période de validité | Saisissez la période de validité du message en heures. Si les messages ne peuvent pas être livrés dans ce délai, le système effectue d’autres tentatives pour les renvoyer. La période de validité par défaut est définie sur 48 heures. |
    | Données de rappel | Saisissez les données clients supplémentaires qui seront envoyées à l’URL de notification. |
    | Numéro entrant | Ajoutez votre numéro entrant unique. Cela permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun possédant son propre numéro entrant. |
-   | Mots-clés entrants personnalisés | Définissez des mots-clés uniques et non liés au consentement pour des actions par lots, par exemple REMISE, OFFRES, INSCRIRE. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment par lots dans le parcours et de fournir une réponse ou une action personnalisée. |
-   | Message de réponse entrant par défaut | Saisissez la réponse par défaut envoyée lorsqu’un utilisateur final ou une utilisatrice finale envoie un SMS entrant qui ne correspond à aucun des mots-clés définis. |
 
    +++
 
 1. Activez l’option **[!UICONTROL Opt-out en logique floue]** pour détecter les messages ressemblant à des mots-clés d’opt-out (par exemple, « CANCIL ») et personnalisez la réponse de confirmation dans le champ **[!UICONTROL Réponse automatique en logique floue]**.
 
    L’option **[!UICONTROL Opt-out en logique floue]** identifie les SMS indiquant qu’une personne souhaite se désabonner, même si le message ne correspond pas exactement à un mot-clé d’opt-out défini. Les expressions de désabonnement courantes et certains termes offensants peuvent être détectés, ce qui permet de s’assurer que vos campagnes respectent les préférences des utilisateurs et utilisatrices et qu’elles restent conformes.
+
+1. Sélectionnez **[!UICONTROL Utiliser un jeu de données personnalisé pour le trafic entrant]** pour acheminer le SMS entrant de ces informations d’identification vers un jeu de données précréé que vous sélectionnez dans la liste déroulante. [En savoir plus sur la création de jeux de données](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Le schéma du jeu de données doit être **[!UICONTROL XDM ExperienceEvent]** et inclure au moins les groupes de champs suivants :
+   >* Adobe CJM ExperienceEvent - Informations sur l’interaction du message
+   >* ExperienceEvent Adobe CJM - Détails d’exécution du message
+   >* ExperienceEvent Adobe CJM - Détails du profil de message
+   >
+   >Le schéma et le jeu de données doivent être activés pour Profil.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 

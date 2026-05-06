@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 51de1b4f89f4fcad8e5b8acb3988675ed885c13d
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 82%
+source-wordcount: '1323'
+ht-degree: 80%
 
 ---
 
@@ -148,6 +148,10 @@ Pour configurer le contenu de votre message, suivez les étapes ci-après. Les p
    >[!CAUTION]
    >
    > La durée de vie des URL courtes est définie sur 30 jours. Passé ce délai, ces URL courtes ne seront plus accessibles et afficheront le message suivant : `404 short-code not found`.
+
+1. Utilisez le **[!UICONTROL nombre de caractères]** pour surveiller la longueur des SMS au fur et à mesure que vous composez le message. Il est mis à jour en temps réel et indique le moment où le contenu sera diffusé dans plusieurs segments.
+
+   ![](assets/sms_tracking_3.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Vous pouvez maintenant tester et vérifier le contenu de votre message, comme indiqué dans [cette section](#sms-mms-test).
 
