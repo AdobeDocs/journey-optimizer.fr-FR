@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2305'
 ht-degree: 91%
 
 ---
@@ -59,7 +59,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-      Déclencheurs disponibles
+      +++ Afficher les déclencheurs disponibles
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -75,6 +75,8 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
       | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
       | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
+      +++
+
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
@@ -83,7 +85,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
    1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
 
-      Caractéristiques disponibles
+      +++ Afficher les caractéristiques disponibles
 
       | Package | Caractéristiques | Définition |
       |---|---|---|
@@ -104,6 +106,8 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
       | Places | Point ciblé actuel | Déclenché par le SDK Places lorsque votre cliente ou client accède au point ciblé spécifié. |
       | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
       | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -161,7 +165,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-      Déclencheurs disponibles
+      +++ Afficher les déclencheurs disponibles
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -177,6 +181,8 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
       | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
       | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
+      +++
+
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
@@ -185,7 +191,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
    1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
 
-      Caractéristiques disponibles
+      +++ Afficher les caractéristiques disponibles
 
       | Package | Caractéristiques | Définition |
       |---|---|---|
@@ -206,6 +212,8 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
       | Places | Point ciblé actuel | Déclenché par le SDK Places lorsque votre cliente ou client accède au point ciblé spécifié. |
       | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
       | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 

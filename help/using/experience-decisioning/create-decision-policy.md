@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2257'
 ht-degree: 62%
 
 ---
@@ -51,11 +51,13 @@ Ouvrez un parcours ou une campagne, sélectionnez une [action de canal](../build
 
 Modifiez le contenu de votre message et parcourez les onglets ci-dessous pour plus d’informations sur la manière d’ajouter la politique de décision en fonction du canal sélectionné.
 
-### Pour une expérience basée sur le code
+>[!BEGINTABS]
+
+>[!TAB  Expérience basée sur le code ]
 
 Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle politique de décision à l’aide du menu **éditeur de code** ou **Prise de décision** disponible dans le volet Propriétés.
 
-+++ Ajouter une politique de décision à partir de l’éditeur de code
++++Ajouter une politique de décision à partir de l’éditeur de code
 
 1. Ouvrez l’éditeur de code à l’aide du bouton **[!UICONTROL Modifier le code]**.
 
@@ -65,7 +67,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
 +++
 
-+++ Ajouter une politique de décision à partir du menu Prise de décision
++++Ajouter une politique de décision à partir du menu Prise de décision
 
 1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
@@ -75,7 +77,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
 +++
 
-### Pour l’e-mail
+>[!TAB E-mail]
 
 1. Activez/désactivez l’option **[!UICONTROL Activer la prise de décision]**.
 
@@ -87,7 +89,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
 1. Ajoutez une nouvelle politique de décision à l’aide du menu **éditeur de personnalisation** ou **Prise de décision** disponible dans le Concepteur d’e-mail.
 
-   +++ Ajout d’une politique de décision à partir de l’éditeur Personalization
+   +++Ajout d’une politique de décision à partir de l’éditeur Personalization
 
    1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) disponible dans le champ de l’objet ou dans tout champ du corps de l’e-mail dans lequel vous pouvez ajouter de la personnalisation.
 
@@ -97,7 +99,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
    +++
 
-   +++ Ajouter une politique de décision à partir du menu Prise de décision
+   +++Ajouter une politique de décision à partir du menu Prise de décision
 
    1. Ouvrez le Designer d’e-mail et sélectionnez n’importe quel composant dans la structure de l’e-mail.
 
@@ -123,11 +125,11 @@ Vous pouvez également ajouter des politiques de décision lors de l’utilisati
 >
 >En mode **[!UICONTROL Coder le vôtre]**, vous ne pouvez renvoyer qu’un seul élément de décision par politique, car le composant **[!UICONTROL Grille de répétition]** n’est pas disponible.
 
-### Pour les SMS
+>[!TAB SMS]
 
 Pour les SMS, vous pouvez ajouter une nouvelle politique de décision à l’aide du menu **éditeur de personnalisation** ou **Prise de décision** disponible dans le volet des propriétés.
 
-+++ Ajouter une politique de décision à partir de l’éditeur de personnalisation
++++Ajouter une politique de décision à partir de l’éditeur de personnalisation
 
 1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) .
 1. Accédez au menu **[!UICONTROL Politiques de décision]** puis cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
@@ -136,7 +138,7 @@ Pour les SMS, vous pouvez ajouter une nouvelle politique de décision à l’aid
 
 +++
 
-+++ Ajouter une politique de décision à partir du menu Prise de décision
++++Ajouter une politique de décision à partir du menu Prise de décision
 
 1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
@@ -146,11 +148,11 @@ Pour les SMS, vous pouvez ajouter une nouvelle politique de décision à l’aid
 
 +++
 
-### Pour les notifications push
+>[!TAB Notification push]
 
 Pour les notifications push, vous pouvez ajouter une nouvelle politique de décision à l’aide du menu **éditeur de personnalisation** ou **Prise de décision** disponible dans le volet des propriétés.
 
-+++ Ajouter une politique de décision à partir de l’éditeur de personnalisation
++++Ajouter une politique de décision à partir de l’éditeur de personnalisation
 
 1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) .
 1. Accédez au menu **[!UICONTROL Politiques de décision]** puis cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
@@ -159,7 +161,7 @@ Pour les notifications push, vous pouvez ajouter une nouvelle politique de déci
 
 +++
 
-+++ Ajouter une politique de décision à partir du menu Prise de décision
++++Ajouter une politique de décision à partir du menu Prise de décision
 
 1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
@@ -172,6 +174,8 @@ Pour les notifications push, vous pouvez ajouter une nouvelle politique de déci
 >Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
+
+>[!ENDTABS]
 
 ## Configurer la politique de décision {#configure}
 
@@ -189,7 +193,7 @@ Une fois que vous avez ajouté une nouvelle politique de décision dans votre co
 
    Pour renvoyer plusieurs éléments pour le canal E-mail , vous devez ajouter la politique de décision dans un composant **[!UICONTROL Grille de répétition]**. Pour plus d’informations, développez la section ci-dessous :
 
-   +++ Renvoyer plusieurs éléments de décision dans les e-mails
+   +++Renvoyer plusieurs éléments de décision dans les e-mails
 
    1. Placez un composant **[!UICONTROL Grille de répétition]** dans votre e-mail et configurez-le selon vos besoins à l’aide du volet **[!UICONTROL Paramètres]**.
 
