@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: données, source, parcours, plateforme
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: f79d37ff0d1e73fb415985ae918cd28e438e3b3f
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 54%
+source-wordcount: '917'
+ht-degree: 42%
 
 ---
 
@@ -54,7 +54,7 @@ Pour chaque source de données, vous définissez les informations à récupérer
 
 ## Choisir votre stratégie d’accès aux données {#data-access-strategy}
 
-Avant de configurer une source de données, réfléchissez à l’approche la mieux adaptée à votre cas d’utilisation. Trois options sont disponibles, chacune avec différents compromis en termes de persistance, d’enrichissement du profil et de réutilisation. Pour obtenir des informations détaillées sur ces options, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/fr/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Avant de configurer une source de données, réfléchissez à l’approche la mieux adaptée à votre cas d’utilisation. Trois options sont disponibles, chacune avec différents compromis en termes de persistance, d’enrichissement du profil et de réutilisation. Pour obtenir des informations détaillées sur ces options, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Option 1 — Accès aux données externes par le biais d’actions personnalisées (pas de lac de données)**
 
@@ -65,6 +65,12 @@ Se connecter directement à une API externe au moment de l’exécution du parco
 
 En savoir plus sur les [actions personnalisées](../action/action.md) et [réponses d’action personnalisée](../action/action-response.md).
 
+>[!TIP]
+>
+>Cette option est adaptée si vous répondez **oui** aux deux questions :
+>* Les données sont-elles uniquement utiles dans le contexte du parcours et non nécessaires ailleurs ? Si les données sont également nécessaires pour les audiences ou d’autres canaux, considérez les options 2 ou 3.
+>* Le système externe est-il accessible par le biais d’un point d’entrée de l’API qui renvoie les attributs requis ? Dans le cas contraire, vous devrez d’abord ingérer les données dans le lac de données.
+
 **Option 2 — Jeu de données dans le lac de données, non activé pour le profil**
 
 Ingérez des données dans un jeu de données pour déclencher et personnaliser des parcours en fonction des données d’événement contextuelles, sans contribuer au profil client en temps réel. Idéal lorsque :
@@ -72,12 +78,26 @@ Ingérez des données dans un jeu de données pour déclencher et personnaliser 
 * Les enregistrements contiennent un champ d’identité utilisable pour accéder aux profils déjà stockés dans Experience Platform.
 * Les données ne sont pas nécessaires pour la création d’audiences ou l’assemblage d’identités en dehors de Journey Optimizer.
 
+>[!TIP]
+>
+>Cette option est adaptée si vous répondez **oui** aux deux questions :
+>* Les enregistrements contiennent-ils un champ d’identité pouvant être utilisé pour accéder aux profils déjà stockés dans Experience Platform ? Dans le cas contraire, les parcours ne pourront pas accéder aux profils et les diffuser.
+>* Les données NE sont-elles PAS nécessaires pour la création d’[audience](../audience/about-audiences.md) ou l’assemblage d’identités en dehors de Journey Optimizer ? Si c’est le cas, utilisez plutôt l’option 3.
+
 **Option 3 — Jeu de données activé pour Profile dans le lac de données**
 
 Ingérez des données dans un [jeu de données activé pour les profils](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} afin de créer des audiences, d’enrichir les graphiques d’identités et d’exploiter les données sur plusieurs parcours et destinations RT-CDP. Idéal lorsque :
 
 * Les données sont utiles pour les définitions d’audience utilisées dans des canaux au-delà de Journey Optimizer.
 * Les données contiennent plusieurs identités qui contribuent à des fragments de profil assemblés plus riches.
+
+>[!CAUTION]
+>
+>**Avant d’activer un jeu de données pour Profile**, évaluez les domaines suivants :
+>* **Synchronisation des données** — Les bases de données externes doivent être synchronisées, avec des alertes en place pour identifier les échecs d&#39;ingestion.
+>* **[Mécanismes de sécurisation de profil](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"}** — Les mécanismes de sécurisation spécifiques aux profils s’appliquent en plus des [mécanismes de sécurisation généraux de l’ingestion des données](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/guardrails){target="_blank"} pour Experience Platform.
+>* **Intégrité des identités** — Les données d’identité de vos systèmes sources doivent être soigneusement planifiées pour conserver des graphiques d’identités sains.
+>* **Utilisation du lac de données** — La consommation globale de stockage, les relations entre les tables et les profils adressables doivent être évaluées avant l’ingestion.
 
 | | Données conservées dans le lac de données | Jeu de données activé pour le profil |
 | --- | --- | --- |
@@ -91,5 +111,5 @@ Pour plus d’informations sur la configuration d’une source de données Adobe
 
 Comprenez ce quʼest une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416634?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
+source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1405'
 ht-degree: 60%
 
 ---
@@ -108,13 +108,13 @@ Créez chaque phase sous la forme d’un parcours distinct dans Journey Optimize
 
 >[!TIP]
 >
->Pour une présentation détaillée de cette approche, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/fr/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Pour obtenir un exemple pratique d’utilisation d’un programme de fidélité multiphase, consultez parcours de fidélité multiphase](journeys-uc.md#multi-phase-loyalty).[
 
 ## Configuration de l’activité Saut {#jump-configure}
 
 1. Concevez votre **parcours d’origine**.
 
-   ![Activité Saut dans la palette de parcours pour la transition entre les parcours &#x200B;](assets/jump1.png)
+   ![Activité Saut dans la palette de parcours pour la transition entre les parcours ](assets/jump1.png)
 
 1. À chaque étape du parcours, ajoutez une activité **[!UICONTROL Saut]**, depuis la catégorie **[!UICONTROL ACTIONS]**. Ajoutez un libellé et une description.
 
@@ -137,7 +137,7 @@ Le champ **Premier événement** est prérenseigné avec le nom du premier évé
 1. La section **Paramètres d’action** affiche tous les champs de l’événement cible. Mappez chaque champ aux champs de l’événement d’origine ou de la source de données, comme pour les autres types d’actions. Ces informations seront transmises au parcours cible au moment de l’exécution.
 1. Ajoutez les activités suivantes pour terminer le parcours d’origine.
 
-   ![Interface du mode Test pour tester l’activité Saut entre les parcours &#x200B;](assets/jump5.png)
+   ![Interface du mode Test pour tester l’activité Saut entre les parcours ](assets/jump5.png)
 
 
    >[!NOTE]
