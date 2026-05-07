@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: cas d’utilisation, multicanal, messages, parcours, canal, événements, notification push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '769'
-ht-degree: 100%
+source-git-commit: e74f16a98b70e97a9b18d0561100e1214ccff256
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 73%
 
 ---
 
@@ -107,3 +107,38 @@ L’événement est maintenant configuré et prêt à être utilisé dans votre 
 1. Cliquez sur le bouton **Test** situé dans le coin supérieur droit pour activer le mode test. Reportez-vous à cette [section](testing-the-journey.md) pour savoir comment utiliser le mode test.
 
 1. Lorsque le parcours est prêt, publiez-le à l&#39;aide du bouton **Publier** situé dans le coin supérieur droit.
+
+## Parcours de fidélité multiphase {#multi-phase-loyalty}
+
+Cet exemple illustre un modèle d’architecture de parcours clé : décomposition d’un parcours complexe et multiphase en sous-parcours plus petits et ciblés liés à l’activité [**[!UICONTROL Saut]**](jump.md). Un programme de fidélité fait office de scénario, mais ce modèle s’applique à tout parcours qui s’étend sur plusieurs jalons ou phases d’entreprise.
+
+Les parcours multiphases complexes génèrent rapidement un grand nombre de chemins d’accès clients uniques. En les décomposant en un sous-parcours par phase, chaque parcours reste gérable, testable et gérable indépendamment.
+
+### Scénario
+
+Prenons l’exemple d’un programme de fidélité qui guide les clients à travers trois jalons à l’aide de deux canaux marketing ([e-mail](../email/create-email.md) et [push](../push/create-push.md)) :
+
+1. **Phase 1 — Télécharger l’application mobile :** les communications initiales encouragent les nouveaux membres du programme de fidélité à télécharger l’application. Un rappel est envoyé si le client n&#39;a pas agi dans un délai défini.
+1. **Phase 2 — Effectuer une première transaction :** une fois l’application téléchargée, les messages ciblés guident les clients vers la réalisation de leur première transaction de fidélité.
+1. **Phase 3 - Effectuer une seconde transaction :** après la première transaction, un ensemble final de communications entraîne une seconde transaction pour approfondir l’engagement de fidélité.
+
+Même avec cette stratégie simple, ce parcours expose plus de 20 chemins uniques qu’un client peut emprunter. La complexité augmente de manière exponentielle avec chaque point de contact ou canal supplémentaire.
+
+### Décomposition du sous-parcours
+
+Divisez le parcours de bout en bout en trois sous-parcours plus petits et connectés :
+
+| Sous-parcours | Condition d’entrée | Objectif professionnel |
+|---|---|---|
+| Phase 1 - Téléchargement de l’application | Le client rejoint le programme de fidélité | Lancer le téléchargement des applications mobiles |
+| Phase 2 — Première transaction | Le client télécharge l’application | Lancer la première transaction de fidélité |
+| Phase 3 — Deuxième opération | Le client effectue la première transaction | Lancer la deuxième transaction de fidélité |
+
+Connectez les sous-parcours à l’aide de l’activité [**[!UICONTROL Saut]**](jump.md) afin que les profils passent facilement d’une phase à l’autre. Chaque sous-parcours reste simple, lisible et gérable indépendamment.
+
+<!--
+>[!NOTE]
+>
+>If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
+-->
+
