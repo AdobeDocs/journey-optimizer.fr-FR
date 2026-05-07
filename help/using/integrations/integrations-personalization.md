@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Intégration
-source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
+source-git-commit: c672ebaf4c0616a2a2bca39bb849bb835c304449
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 22%
@@ -18,7 +18,7 @@ ht-degree: 22%
 
 # Utiliser des intégrations externes pour la personnalisation {#integrations-personalization}
 
-Avant d’utiliser des intégrations externes dans votre contenu, vérifiez qu’un administrateur a **configuré et activé** chaque intégration (point d’entrée, authentification, politiques, payload de réponse et activation), comme décrit dans la section [&#x200B; Utiliser les intégrations &#x200B;](integrations.md).
+Avant d’utiliser des intégrations externes dans votre contenu, vérifiez qu’un administrateur a **configuré et activé** chaque intégration (point d’entrée, authentification, politiques, payload de réponse et activation), comme décrit dans la section [ Utiliser les intégrations ](integrations.md).
 
 Vous pouvez ajouter jusqu’à **3** intégrations par **[!UICONTROL fragment]** et jusqu’à **5** sur le message. Les intégrations qui proviennent uniquement de fragments ne sont pas comptabilisées dans le **5**.
 
@@ -131,4 +131,4 @@ Lors de la **[!UICONTROL Simulation]** ou de l’envoi, Journey Optimizer exécu
 
 Cette vidéo montre comment **Intégrations** connecter Adobe Journey Optimizer à des API externes afin d’extraire des données et du contenu en direct dans des canaux **sortants**, des e-mails, des SMS et des notifications push, pour une personnalisation plus pertinente.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484120/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
