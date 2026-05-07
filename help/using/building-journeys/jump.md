@@ -108,13 +108,13 @@ Créez chaque phase sous la forme d’un parcours distinct dans Journey Optimize
 
 >[!TIP]
 >
->Pour obtenir un exemple pratique d’utilisation d’un programme de fidélité multiphase, consultez parcours de fidélité multiphase](journeys-uc.md#multi-phase-loyalty).[
+>Pour obtenir un exemple pratique d’utilisation d’un programme de fidélité multiphase, consultez parcours de fidélité multiphase[&#128279;](journeys-uc.md#multi-phase-loyalty).
 
 ## Configuration de l’activité Saut {#jump-configure}
 
 1. Concevez votre **parcours d’origine**.
 
-   ![Activité Saut dans la palette de parcours pour la transition entre les parcours ](assets/jump1.png)
+   ![Activité Saut dans la palette de parcours pour la transition entre les parcours &#x200B;](assets/jump1.png)
 
 1. À chaque étape du parcours, ajoutez une activité **[!UICONTROL Saut]**, depuis la catégorie **[!UICONTROL ACTIONS]**. Ajoutez un libellé et une description.
 
@@ -137,7 +137,7 @@ Le champ **Premier événement** est prérenseigné avec le nom du premier évé
 1. La section **Paramètres d’action** affiche tous les champs de l’événement cible. Mappez chaque champ aux champs de l’événement d’origine ou de la source de données, comme pour les autres types d’actions. Ces informations seront transmises au parcours cible au moment de l’exécution.
 1. Ajoutez les activités suivantes pour terminer le parcours d’origine.
 
-   ![Interface du mode Test pour tester l’activité Saut entre les parcours ](assets/jump5.png)
+   ![Interface du mode Test pour tester l’activité Saut entre les parcours &#x200B;](assets/jump5.png)
 
 
    >[!NOTE]
