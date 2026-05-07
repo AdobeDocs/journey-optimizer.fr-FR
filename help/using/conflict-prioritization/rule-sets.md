@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 96%
+source-wordcount: '1067'
+ht-degree: 94%
 
 ---
 
@@ -33,8 +33,8 @@ Vous pouvez créer deux types de jeux de règles :
 
 * Les jeux de règles de **Canal** appliquent des règles aux canaux de communication. Ils vous permettent de définir les éléments suivants :
 
-   * **Règles de capping de fréquence** : *ne pas envoyer plus d’un e-mail ou d’un SMS par jour.*
-   * **Règles relatives aux heures calmes** - *N’envoyez pas d’e-mails en dehors de l’intervalle de 8 h à 21 h.*
+   * **Règles de limitation de la fréquence** - *N’envoyez pas plus d’une communication par e-mail, SMS, notification push, courrier ou WhatsApp par jour.*
+   * **Règles relatives aux heures calmes** - *N’envoyez pas d’e-mails en dehors de la plage horaire de 8 h à 21 h.*
 
 * Les jeux de règles de **Parcours** appliquent des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne pas entrer simultanément des profils dans plusieurs parcours.
 
@@ -182,4 +182,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

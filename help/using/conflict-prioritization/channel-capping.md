@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 100%
+source-wordcount: '1280'
+ht-degree: 93%
 
 ---
 
@@ -80,13 +80,15 @@ Pour créer un jeu de règles de canal, procédez comme suit :
 
    Veillez à entrer une valeur qui correspond au type de durée sélectionné : de 1 à 23 pour Horaire, de 1 à 30 pour Journalière, de 1 à 4 pour Hebdomadaire et de 1 à 3 pour Mensuelle.
 
-   Le compteur se remet automatiquement à 0 lorsqu’une nouvelle période commence. Pour un capping de la fréquence de 2 jours, cette réinitialisation se produit tous les deux jours à minuit UTC.
+   Le compteur se remet automatiquement à 0 lorsqu’une nouvelle période commence. Pour une limitation de fréquence de 2 jours, cette réinitialisation se produit tous les deux jours à minuit UTC.
 
-1. Sélectionnez le canal à utiliser pour cette règle : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push]** ou **[!UICONTROL Courrier]**.
+1. Sélectionnez le ou les canaux à utiliser pour cette règle : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push]**, **[!UICONTROL Publipostage direct]** ou **[!UICONTROL WhatsApp]**.
 
-1. Sélectionnez plusieurs canaux si vous souhaitez appliquer la limitation à tous les canaux sélectionnés en tant que nombre total.
+   ![](assets/rule-set-channels.png)
 
-   Par exemple, définissez la limitation sur 5 et sélectionnez les canaux e-mail et SMS. Si un profil a déjà reçu 3 e-mails marketing et 2 SMS marketing pour la période sélectionnée, ce profil sera exclu de la prochaine diffusion de tout e-mail ou SMS marketing.
+   Sélectionnez plusieurs canaux si vous souhaitez appliquer la limitation à tous les canaux sélectionnés en tant que nombre total.
+
+   Par exemple, définissez la limitation sur 5 et sélectionnez les canaux E-mail et SMS. Si un profil a déjà reçu 3 e-mails marketing et 2 SMS marketing pour la période sélectionnée, ce profil sera exclu de la prochaine diffusion de tout e-mail ou SMS marketing.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer la création de la règle. Votre message est ajouté au jeu de règles, au statut **[!UICONTROL Brouillon]**.
 
@@ -166,4 +168,4 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
