@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: e1b650bb5997017748875bcc4e4e33db12847658
 workflow-type: tm+mt
 source-wordcount: '2609'
 ht-degree: 17%
@@ -127,7 +127,7 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 <p>Il est désormais possible d’ajouter des liens profonds au contenu de votre e-mail par le biais d’une option dédiée dans le Designer d’e-mail.</p><p>Cela permet aux utilisateurs d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement.</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>Pour plus d’informations, consultez la <a href="../email/message-tracking.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 7 mai 2026</p>
+<p>Date de disponibilité : 11 mai 2026</p>
 </td>
 </tr>
 </tbody>
