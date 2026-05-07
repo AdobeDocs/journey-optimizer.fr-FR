@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 88%
+source-wordcount: '986'
+ht-degree: 86%
 
 ---
 
@@ -69,6 +69,10 @@ Accédez aux onglets ci-dessous pour savoir comment ajouter un message WhatsApp 
    Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
    Par défaut, le champ de **[!UICONTROL configuration]** est prérempli avec la dernière configuration utilisée par l’utilisateur ou l’utilisatrice pour ce canal.
+
+1. Dans la section **[!UICONTROL Règles métier]**, vous pouvez appliquer un ensemble de règles pour contrôler la pression de communication sur les messages WhatsApp.
+
+   En savoir plus sur les [ensembles de règles](../conflict-prioritization/rule-sets.md), [limitation de la fréquence des canaux](../conflict-prioritization/channel-capping.md) et [heures creuses](../conflict-prioritization/quiet-hours.md).
 
 Vous pouvez maintenant commencer à concevoir le contenu de votre message WhatsApp en cliquant sur le bouton **[!UICONTROL Modifier le contenu]**, comme illustré ci-dessous.
 
