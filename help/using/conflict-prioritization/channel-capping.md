@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
+source-git-commit: c05665beac8e479bcae124b70318bcc48ebf548b
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 93%
@@ -84,7 +84,7 @@ Pour créer un jeu de règles de canal, procédez comme suit :
 
 1. Sélectionnez le ou les canaux à utiliser pour cette règle : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push]**, **[!UICONTROL Publipostage direct]** ou **[!UICONTROL WhatsApp]**.
 
-   ![](assets/rule-set-channels.png)
+   ![](assets/rule-sets-channels.png)
 
    Sélectionnez plusieurs canaux si vous souhaitez appliquer la limitation à tous les canaux sélectionnés en tant que nombre total.
 
