@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: parcours, questions, réponses, dépannage, aide, guide, orchestration
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
 workflow-type: tm+mt
-source-wordcount: '5191'
-ht-degree: 93%
+source-wordcount: '5290'
+ht-degree: 91%
 
 ---
 
@@ -187,7 +187,7 @@ Suivez le [guide détaillé](journey-gs.md).
 Les conditions préalables requises dépendent du type de votre parcours :
 
 * **Parcours déclenchés par un événement** : configurez les événements pour définir à quel moment les profils doivent rejoindre le parcours.
-* parcours basés sur l’audience **: créez des audiences dans**&#x200B;[!DNL Adobe Experience Platform]
+* parcours basés sur l’audience **: créez des audiences dans [!DNL Adobe Experience Platform]**
 * **Enrichissement des données** : configurez les sources de données pour récupérer des informations supplémentaires.
 * **Intégrations tierces** : configurez des actions personnalisées si vous utilisez des systèmes externes.
 
@@ -541,26 +541,26 @@ En savoir plus sur les [rapports dynamiques de parcours](report-journey.md).
 
 **Raisons et solutions courantes** :
 
-* **Problèmes de consentement** : les destinataires n’ont pas choisi de recevoir des communications.
-Solution : vérifiez les politiques de consentement et le statut d’opt-in.
+* **Problèmes de consentement** : les destinataires n’ont pas choisi de recevoir des communications
+Solution : vérifiez les politiques de consentement et le statut d’opt-in
 
-* **Liste de suppression** : les adresses e-mail se trouvent dans la liste de suppression.
-Solution : consultez la liste de suppression pour les rebonds ou les plaintes.
+* **Liste de suppression** : les adresses e-mail se trouvent dans la liste de suppression
+Solution : consultez la liste de suppression pour les bounces ou les plaintes
 
-* **Coordonnées non valides** : adresses e-mail/numéros de téléphone manquants ou incorrects
-Solution : validez la qualité des données de profil.
+* **Coordonnées non valides** : adresses e-mail/numéros de téléphone manquants ou incorrects
+Solution : valider la qualité des données de profil
 
-* **Parcours non publié** : le parcours est toujours en mode brouillon.
-Solution : publiez le parcours pour l’activer.
+* **Parcours non publié** : le parcours est toujours en mode brouillon
+Solution : publiez le parcours pour l’activer
 
-<!--
+  <!--
  
-* **Message not approved**: Message content requires approval before sending
+  * **Message not approved**: Message content requires approval before sending
   Solution: Submit for approval or check approval status
--->
+  -->
 
-* **Problème de configuration du canal** : la configuration des e-mails/SMS est incorrecte.
-Solution : vérifiez les configurations et l’authentification des canaux.
+* **Problème de configuration du canal** : la configuration des e-mails/SMS est incorrecte
+Solution : vérifiez les configurations et l’authentification des canaux
 
 En savoir plus sur le [dépannage](troubleshooting.md) et la [gestion du consentement](../action/consent.md).
 
@@ -948,4 +948,4 @@ Pour des mises à jour et des formations supplémentaires, consultez les ressour
 * [Créer votre premier parcours](journey-gs.md)
 * [Guides de résolution des problèmes](troubleshooting.md)
 * [Cas d’utilisation de parcours](jo-use-cases.md)
-* [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
