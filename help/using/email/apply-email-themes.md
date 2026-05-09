@@ -256,7 +256,7 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Attribuez un nom à votre thème.
 
-1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro, comme l’ajout d’une variante de couleur, la modification des polices, etc. [Découvrez comment ](#create-and-edit-themes)
+1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro, comme l’ajout d’une variante de couleur, la modification des polices, etc. [Découvrez comment &#x200B;](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 

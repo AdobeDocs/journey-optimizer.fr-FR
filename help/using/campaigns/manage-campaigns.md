@@ -261,7 +261,7 @@ La campagne est créée et ajoutée à la liste des campagnes.
 
 ## Ressources supplémentaires
 
-* **Prise en main** - [Commencer avec les campagnes](get-started-with-campaigns.md) | [Créer votre première campagne d’action](create-campaign.md) | [Guide des campagnes déclenchées par API ](api-triggered-campaigns.md) | [Guide des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
+* **Prise en main** - [Commencer avec les campagnes](get-started-with-campaigns.md) | [Créer votre première campagne d’action](create-campaign.md) | [Guide des campagnes déclenchées par API &#x200B;](api-triggered-campaigns.md) | [Guide des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
 
 * **Configuration de la campagne** - [Propriétés de la campagne](campaign-properties.md) | [Actions et canaux de campagne](campaign-action.md) | [Conception de contenu de campagne](campaign-content.md) | [Sélection de l’audience de campagne](campaign-audience.md) | [Planification de campagne](campaign-schedule.md)
 

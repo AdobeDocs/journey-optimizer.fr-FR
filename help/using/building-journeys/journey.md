@@ -42,7 +42,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
-➡️ **Prêt pour la création ?** [Créez votre premier parcours ](journey-gs.md) en 5 minutes.
+➡️ **Prêt pour la création ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
 
 ### Parcours ou campagnes : quand utiliser chacun d’eux {#journeys-vs-campaigns-intro}
 
@@ -159,7 +159,7 @@ Avant d’ouvrir le concepteur, clarifiez vos objectifs :
 
 * **Quel est l&#39;objectif ?** (par exemple, intégrer de nouveaux clients, réengager les utilisateurs inactifs)
 * **Quelle est l&#39;audience ?** (segment spécifique, individus pilotés par un événement)
-* **Quel type de parcours convient ?** (Voir [types de parcours ](#journey-types) ci-dessus)
+* **Quel type de parcours convient ?** (Voir [types de parcours &#x200B;](#journey-types) ci-dessus)
 * **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
 
 ### &#x200B;2. Conception dans la zone de travail {#design}
@@ -203,7 +203,7 @@ Suivez les performances réelles de votre parcours :
 * Surveillez les taux d’entrée, d’achèvement et d’erreur.
 * Configurez des alertes pour les problèmes critiques.
 
-[Surveiller et établir des rapports → ](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
+[Surveiller et établir des rapports → &#x200B;](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
 
 ### &#x200B;6. Optimiser et itérer {#optimize}
 
@@ -362,7 +362,7 @@ Obtenez une présentation visuelle des composants de parcours et découvrez les 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **Vous souhaitez plus de vidéos ?** [Explorer les tutoriels vidéo parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Vous souhaitez plus de vidéos ?** [Explorer les tutoriels vidéo parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Questions courantes {#common-questions}
 
@@ -398,7 +398,7 @@ Vous pouvez modifier des éléments limités (nom, contenu du message), mais les
 
 +++
 
-➡️ **Plus de questions ?** [Voir la FAQ complète sur le Parcours ](journey-faq.md) avec plus de 40 réponses détaillées
+➡️ **Plus de questions ?** [Voir la FAQ complète sur le Parcours &#x200B;](journey-faq.md) avec plus de 40 réponses détaillées
 
 ## Besoin d’aide ? {#help}
 
