@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 100%
+source-wordcount: '943'
+ht-degree: 96%
 
 ---
 
@@ -97,13 +97,13 @@ Lors de la création d’une [règle correspondant à plusieurs pages](#web-page
 
 * **Domaine**
 
-  | Opérateur | Description | Exemples |
+  | Opérateur  | Description  | Exemples  |
   |---|---|---|
-  | Correspond à | Correspondance exacte du domaine.  | |
-  | Commence par | Correspond à tous les domaines (y compris les sous-domaines) commençant par la chaîne saisie.  | Exemple : « Commence par : dev » -> correspond à tous les domaines et sous-domaines commençant par « dev », comme : dev.exemple.com, dev.produits.exemple.com, developper.exemple.com. |
-  | Se termine par | Correspond à tous les domaines (y compris les sous-domaines) qui se terminent par la chaîne saisie.  | Exemple : « Se termine par : exemple.com » -> correspond à tous les domaines et sous-domaines qui se terminent par « exemple.com », par exemple : stage.exemple.com, prod.exemple.com, monexemple.com. |
-  | Correspondance des caractères génériques | L’opérateur « Correspondance des caractères génériques » permet de définir une correspondance de caractères génériques au milieu de la chaîne, comme « dev.*.exemple.com ». Les règles de validation sont telles que la valeur doit contenir un seul caractère générique (astérisque) lorsque l’opérateur est « correspondance des caractères génériques ».  | Exemple : « Correspondance des caractères génériques : dev.*.exemple.com » -> correspond à des domaines comme : dev.produits.exemple.com, dev.montest.produits.exemple.com, dev.blog.exemple.com. |
-  | N’importe lequel | Correspond à tous les domaines. Cela se révèle utile lors du test d’un chemin spécifique sur plusieurs domaines. |  |
+  | Correspond à  | Correspondance exacte du domaine.  | |
+  | Commence par  | Correspond à tous les domaines (y compris les sous-domaines) commençant par la chaîne saisie.  | Exemple : « Commence par : dev » -> correspond à tous les domaines et sous-domaines commençant par « dev », comme : dev.exemple.com, dev.produits.exemple.com, developper.exemple.com.  |
+  | Se termine par  | Correspond à tous les domaines (y compris les sous-domaines) qui se terminent par la chaîne saisie.  | Exemple : « Se termine par : exemple.com » -> correspond à tous les domaines et sous-domaines qui se terminent par « exemple.com », par exemple : stage.exemple.com, prod.exemple.com, monexemple.com.  |
+  | Correspondance des caractères génériques  | L’opérateur « Correspondance de caractères génériques » permet à l’utilisateur ou à l’utilisatrice de définir une correspondance de caractères génériques au milieu de la chaîne, comme « dev.*.example.com ». Les règles de validation sont telles que la valeur doit contenir un seul caractère générique (astérisque) lorsque l’opérateur est « correspondance des caractères génériques ».  | Par exemple : « Correspondance de caractères génériques : dev.*.example.com » -> correspond à des domaines tels que : dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
+  | N’importe lequel  | Correspond à tous les domaines. Cela se révèle utile lors du test d’un chemin spécifique sur plusieurs domaines.  |  |
 
 
 * **Chemin**
@@ -139,13 +139,13 @@ Lors de la création d’une [règle correspondant à plusieurs pages](#web-page
     </tr>
     <tr>
         <td>Correspondance des caractères génériques</td>
-        <td>L’opérateur « Correspondance des caractères génériques » permet de définir un caractère générique interne à l’intérieur du chemin, comme « /produits/*/détail ».Le caractère générique * dans le composant Chemin ** correspond à n’importe quelle séquence de caractères avant de rencontrer le premier caractère /./*/ correspond à toute séquence de caractères (y compris les sous-chemins).</td>
-        <td>Par exemple : « Correspondance générique : /produits/*/détail », correspond à tous les chemins tels que :<ul><li>exemple.com/produits/yoga/detail</li><li>exemple.com/produits/surf/detail</li><li>exemple.com/produits/tennis/detail</li><li>exemple.com/produits/yoga/pantalons/detail</li></ul>Par exemple : « Correspond à : /prod*/détail, correspond à tous les chemins tels que :<ul><li>exemple.com/produits/detail</li><li>exemple.com/production/detail</li></ul>ne correspond pas à des chemins tels que : <ul><li>exemple.com/produits/yoga/detail</li></ul></td>
+        <td>L’opérateur « Correspondance des caractères génériques » permet de définir un caractère générique interne à l’intérieur du chemin, comme « /produits/*/détail ».  Le caractère générique * dans le composant Chemin ** correspond à n’importe quelle séquence de caractères avant de rencontrer le premier caractère /.  /*/ correspond à toute séquence de caractères (y compris les sous-chemins).</td>
+        <td>Par exemple : « Correspondance générique : /produits/*/détail », correspond à tous les chemins tels que : <ul><li>exemple.com/produits/yoga/detail</li><li>exemple.com/produits/surf/detail</li><li>exemple.com/produits/tennis/detail</li><li>exemple.com/produits/yoga/pantalons/detail</li></ul>Par exemple : « Correspond à : /prod*/détail, correspond à tous les chemins tels que : <ul><li>exemple.com/produits/detail</li><li>exemple.com/production/detail</li></ul>ne correspond pas à des chemins tels que : <ul><li>exemple.com/produits/yoga/detail</li></ul></td>
     </tr>
     <tr>
         <td>Contient</td>
         <td>« Contient » est traduit en caractère générique comme « machaîne » et correspond à tous les chemins contenant cette séquence de caractères.</td>
-        <td>Ex. : « Contient : produit », correspond à tous les chemins contenant le produit sous forme de chaîne, tels que :<ul><li>exemple.com/produits</li><li>exemple.com/yoga/produitperf</li><li>exemple.com/surf/descriptionproduit</li><li>exemple.com/accueil/produits/page</li></ul></td>
+        <td>Ex. : « Contient : produit », correspond à tous les chemins contenant le produit sous forme de chaîne, tels que : <ul><li>exemple.com/produits</li><li>exemple.com/yoga/produitperf</li><li>exemple.com/surf/descriptionproduit</li><li>exemple.com/accueil/produits/page</li></ul></td>
     </tr>
     </tbody>
 </table>

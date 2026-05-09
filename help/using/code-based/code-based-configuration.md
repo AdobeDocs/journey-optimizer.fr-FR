@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1182'
+ht-degree: 98%
 
 ---
 
@@ -148,13 +148,13 @@ Pour définir les paramètres de configuration d’expérience basée sur du cod
 
    * Pour Android :
 
-      * [Créer des liens profonds vers le contexte de l’application](https://developer.android.com/training/app-links/deep-linking)
+      * [Créer des liens profonds vers App Context](https://developer.android.com/training/app-links/deep-linking)
 
    * Pour iOS :
 
-      * [Définir un schéma d’URL personnalisé pour votre application](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+      * [Définition d’un schéma d’URL personnalisé pour votre application](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-      * [Prendre en charge des liens universels dans votre application](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+      * [Prise en charge des liens universels dans votre application](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
    +++
 

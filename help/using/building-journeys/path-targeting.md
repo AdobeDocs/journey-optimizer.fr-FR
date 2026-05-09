@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ciblage, règles, parcours, chemin, optimisation, personnalisation
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: e61af5e3822440d5c71dfd56d86ef79f6ce2c6ca
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 89%
+source-wordcount: '812'
+ht-degree: 91%
 
 ---
 
@@ -100,7 +100,7 @@ Pour configurer le ciblage dans un parcours, suivez les étapes ci-après.
 
 1. Vous pouvez éventuellement utiliser l’option **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** pour définir une autre action en cas de problème. [En savoir plus](using-the-journey-designer.md#paths)
 
-1. Concevez le contenu approprié pour chaque action correspondant à chaque groupe défini par les paramètres de vos règles de ciblage.
+1. Créez un contenu adapté pour chaque action correspondant à chaque groupe défini par les paramètres de règle de ciblage.
 
    Dans cet exemple, concevez un e-mail avec des offres spéciales pour les membres Gold et un rappel SMS pour les autres membres.<!--You can seamlessly navigate between the different contents for each action. ![Content design panel for targeting rule actions](assets/journey-targeting-design.png)-->
 

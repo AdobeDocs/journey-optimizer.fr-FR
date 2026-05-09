@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 92%
+source-wordcount: '1748'
+ht-degree: 90%
 
 ---
 
@@ -256,7 +256,7 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Attribuez un nom à votre thème.
 
-1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro ; vous pouvez ajouter une variante de couleur, modifier les polices, etc. [Voici comment procéder](#create-and-edit-themes)
+1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro, comme l’ajout d’une variante de couleur, la modification des polices, etc. [Découvrez comment &#x200B;](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 

@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 89%
+source-wordcount: '605'
+ht-degree: 90%
 
 ---
 
@@ -101,7 +101,7 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 
 ## Vidéos pratiques{#video-perso}
 
-Découvrez comment utiliser les informations d’événement contextuelles d’un parcours pour personnaliser un message.
+Découvrez comment utiliser des informations d’événement contextuelles dans un parcours pour personnaliser un message.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3448131?captions=fre_fr&quality=12)
 

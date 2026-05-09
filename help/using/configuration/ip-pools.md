@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: adresses IP, groupes, groupe, sous-domaines, délivrabilité
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 79%
+source-wordcount: '699'
+ht-degree: 81%
 
 ---
 

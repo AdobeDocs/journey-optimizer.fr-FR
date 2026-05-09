@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, sous-domaines, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1013'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit 
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Sous-domaines de page de destination]**.
 
-1. Cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
+1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
 
    ![](assets/lp_set-up-subdomain.png)
 
@@ -103,7 +103,7 @@ Pour configurer un nouveau sous-domaine, procédez comme suit.
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Sous-domaines de page de destination]**.
 
-1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
+1. Cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
 1. Sélectionnez **[!UICONTROL Ajouter votre propre domaine]** de la section **[!UICONTROL Type de configuration]**.
 

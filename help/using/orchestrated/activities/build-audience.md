@@ -5,10 +5,10 @@ title: Utiliser l’activité Créer une audience
 description: Découvrez comment utiliser l’activité Créer une audience dans une campagne orchestrée.
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 86%
+source-wordcount: '338'
+ht-degree: 78%
 
 ---
 
@@ -41,7 +41,7 @@ Pour configurer l’activité **[!UICONTROL Créer une audience]**, procédez co
 
 1. Configurez votre audience en suivant les étapes présentées dans les onglets ci-dessous.
 
-1. Choisissez la **[!UICONTROL dimension de ciblage]**. La dimension de ciblage permet de définir la population ciblée par l’opération : personnes destinataires, personnes bénéficiaires d’un contrat, opérateurs et opératrices, personnes abonnées, etc. Par défaut, la cible est sélectionnée parmi les destinataires.
+1. Choisissez la **[!UICONTROL dimension de ciblage]**. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateur ou opératrice, abonnées et abonnés, etc. Par défaut, la cible est sélectionnée parmi les destinataires.
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 

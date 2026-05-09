@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: ciblage, optimisation, audience, personnalisation, règles
 exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '563'
 ht-degree: 95%
 
 ---

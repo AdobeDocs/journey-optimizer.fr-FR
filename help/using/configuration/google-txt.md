@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, google, txt, enregistrement, gmail, délivrabilité
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: a23f13bea69d1539cc2cd27a701e20287ddba026
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---

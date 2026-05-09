@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer, unitaire, lecture d’audience, qualification d’audience, événement métier, temps réel, planifié, lot, déclenché par un événement, workflow, orchestration, personnalisation, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '1615'
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
-➡️ **Vous souhaitez commencer à créer ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
+➡️ **Prêt pour la création ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
 
 ### Parcours ou campagnes : quand utiliser chacun d’eux {#journeys-vs-campaigns-intro}
 
@@ -153,16 +153,16 @@ La création de parcours optimaux suit un processus clair et reproductible. Voic
 
 **1. Planifier** → **2. Concevoir** → **3. Tester** → **4. Publier** → **5. Surveiller** → **6. Optimiser**
 
-### &#x200B;1. Planifier votre parcours {#plan}
+### &#x200B;1. Planification de votre parcours {#plan}
 
 Avant d’ouvrir le concepteur, clarifiez vos objectifs :
 
-* **Quel est l’objectif ?** (par exemple, intégrer une nouvelle clientèle, réengager des utilisateurs et utilisatrices inactifs)
-* **Qui est l’audience ?** (segment spécifique, individus pilotés par un événement)
-* **Quel type de parcours convient ?** (voir les [types de parcours &#x200B;](#journey-types) ci-dessus)
-* **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
+* **Quel est l&#39;objectif ?** (par exemple, intégrer de nouveaux clients, réengager les utilisateurs inactifs)
+* **Quelle est l&#39;audience ?** (segment spécifique, individus pilotés par un événement)
+* **Quel type de parcours convient ?** (Voir [types de parcours &#x200B;](#journey-types) ci-dessus)
+* **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
 
-### &#x200B;2. Concevoir dans la zone de travail {#design}
+### &#x200B;2. Conception dans la zone de travail {#design}
 
 Utilisez le concepteur de parcours pour créer votre flux :
 
@@ -174,7 +174,7 @@ Utilisez le concepteur de parcours pour créer votre flux :
 
 [Découvrir comment utiliser le concepteur de parcours →](using-the-journey-designer.md)
 
-### &#x200B;3. Tester avant la mise en ligne {#test}
+### &#x200B;3. Test avant la mise en ligne {#test}
 
 Testez toujours votre parcours pour détecter les problèmes avant que les clientes et clients ne les rencontrent :
 
@@ -195,7 +195,7 @@ Une fois le test terminé, publiez votre parcours pour l’activer :
 
 [Publier votre parcours →](publish-journey.md)
 
-### &#x200B;5. Surveiller les performances {#monitor}
+### &#x200B;5. Surveillance des performances {#monitor}
 
 Suivez les performances réelles de votre parcours :
 
@@ -216,7 +216,7 @@ Utilisez les informations pour apporter des améliorations :
 
 [Optimiser vos parcours →](optimize.md) | [→ Optimisation de l’heure d’envoi](send-time-optimization.md)
 
-➡️ **Vous voulez démarrer ?** [Créer votre premier parcours maintenant→](journey-gs.md)
+➡️ **Prêt à démarrer ?** [Créer votre premier parcours maintenant →](journey-gs.md)
 
 ## Cas d’utilisation réels {#use-cases}
 
@@ -362,7 +362,7 @@ Obtenez une présentation visuelle des composants de parcours et découvrez les 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
 
-➡️ **Vous voulez plus de vidéos ?** [Découvrir les tutoriels vidéo sur les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Vous souhaitez plus de vidéos ?** [Explorer les tutoriels vidéo parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Questions courantes {#common-questions}
 
@@ -398,7 +398,7 @@ Vous pouvez modifier des éléments limités (nom, contenu du message), mais les
 
 +++
 
-➡️ **Vous avez d’autres questions ?** [Consulter l’intégralité des question fréquentes sur les parcours](journey-faq.md) avec plus de 40 réponses détaillées
+➡️ **Plus de questions ?** [Voir la FAQ complète sur le Parcours &#x200B;](journey-faq.md) avec plus de 40 réponses détaillées
 
 ## Besoin d’aide ? {#help}
 
@@ -423,4 +423,4 @@ Configurez des **[alertes de parcours](../reports/alerts.md)** pour recevoir des
 * **[Résolution des problèmes d’exécution](troubleshooting-execution.md)** – Déboguer les problèmes d’exécution de parcours
 * **[Résolution des problèmes d’activités entrantes](troubleshooting-inbound.md)** – Corriger les problèmes d’entrée et de qualification
 
-**Vous voulez créer votre premier parcours ?** [&#x200B; Cʼest parti ! →](journey-gs.md)
+**Prêt à créer votre premier parcours ?** [Commencer maintenant →](journey-gs.md)

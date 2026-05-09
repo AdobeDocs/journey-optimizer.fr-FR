@@ -10,10 +10,10 @@ level: Intermediate
 keywords: parcours, intégration, standard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 77%
+source-wordcount: '981'
+ht-degree: 78%
 
 ---
 

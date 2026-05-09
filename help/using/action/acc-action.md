@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign, acc, intégration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '716'
 ht-degree: 100%
 
 ---

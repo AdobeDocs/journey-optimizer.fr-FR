@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 97%
+source-wordcount: '1884'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ Pour personnaliser davantage vos points d’entrée <!-- (**[!UICONTROL Mailto (
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 >
 >Pour l’option **[!UICONTROL Mailto (désabonnement)]**, vous devez utiliser les nouveaux paramètres de requête décrits dans la section **Mailto (désabonnement) avec des attributs personnalisés (disponibilité limitée)** [ci-dessous](#configure-decrypt-api).
 
@@ -247,7 +247,7 @@ Avec l’option **[!UICONTROL Mailto (désabonnement)]**, cliquer sur le lien de
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 
 L’appel GET se présente comme suit :
 

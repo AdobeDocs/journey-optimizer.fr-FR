@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1160'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
 >title="Événements métier"
->abstract="La configuration de l’événement vous permet de définir les informations que Journey Optimizer recevra en tant qu’événements. Vous pouvez utiliser plusieurs événements (à différentes étapes d’un parcours) et plusieurs parcours peuvent utiliser un même événement. Contrairement aux événements unitaires, les événements métier ne sont pas liés à un profil spécifique. Le type d&#39;ID d&#39;événement est toujours basé sur des règles."
+>abstract="La configuration de l&#39;événement vous permet de définir les informations que Journey Optimizer recevra en tant qu&#39;événements. Vous pouvez utiliser plusieurs événements (à différentes étapes d&#39;un parcours) et plusieurs parcours peuvent utiliser un même événement. Contrairement aux événements unitaires, les événements métier ne sont pas liés à un profil spécifique. Le type d&#39;ID d&#39;événement est toujours basé sur des règles."
 
 Contrairement aux événements unitaires, les événements métier ne sont pas liés à un profil spécifique. Le type d&#39;ID d&#39;événement est toujours basé sur des règles. Pour en savoir plus sur les événements métier, reportez-vous à [cette section](../event/about-events.md).
 

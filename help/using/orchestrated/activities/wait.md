@@ -5,10 +5,10 @@ title: Utiliser l’activité Attente dans des campagnes orchestrées
 description: Découvrez comment utiliser l’activité Attente dans les campagnes orchestrées.
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 84%
+source-wordcount: '233'
+ht-degree: 75%
 
 ---
 
@@ -44,6 +44,6 @@ Pour configurer l’activité d’**[!UICONTROL attente]**, procédez comme suit
 
 ## Exemple{#wait-example}
 
-L’exemple suivant illustre l’activité **[!UICONTROL Attente]** dans un cas type.  Un e-mail avec un code de promotion est envoyé aux profils dont c’est l’anniversaire. Au bout de 2 jours, un SMS est envoyé au même groupe pour leur rappeler que leur code de promotion d’anniversaire va expirer.
+L’exemple suivant illustre l’activité **[!UICONTROL Attente]** dans un cas type.  Un e-mail avec un code de promotion est envoyé aux profils dont c’est l’anniversaire. Après 2 jours, un SMS est envoyé au même groupe pour leur rappeler que leur code de promotion d’anniversaire va expirer.
 
 ![](../assets/wait-example.png)

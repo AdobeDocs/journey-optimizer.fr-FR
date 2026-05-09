@@ -5,9 +5,9 @@ title: Utiliser des activités de campagnes orchestrées
 description: Découvrir comment utiliser des activités de campagne orchestrée
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 100%
 
 ---

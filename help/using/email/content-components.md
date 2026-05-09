@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 100%
+source-wordcount: '1468'
+ht-degree: 92%
 
 ---
 
@@ -102,11 +102,11 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
 
    ![](assets/email_designer_button_link.png)
 
-1. Vous pouvez personnaliser davantage votre bouton en modifiant les attributs de style, tels que la **[!UICONTROL bordure]**, la **[!UICONTROL taille]**, la **[!UICONTROL marge]**, etc. à partir du volet **[!UICONTROL Paramètres des composants]**.
+1. Vous pouvez personnaliser davantage votre bouton en modifiant les attributs de style, tels que **[!UICONTROL Bordure]**, **[!UICONTROL Taille]**, **[!UICONTROL Marge]**, etc., à partir du volet **[!UICONTROL Paramètres des composants]**.
 
 ## Texte {#text}
 
-Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajustez le style (bordure, taille, marge intérieure, etc.) à l’aide de l’onglet **[!UICONTROL Styles]**.
+Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajuster le style (bordure, taille, marge intérieure, etc.) à l’aide de l’onglet **[!UICONTROL Styles]**.
 
 ![](assets/email_designer_text_component.png)
 
@@ -133,7 +133,7 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
    * **[!UICONTROL Dupliquer]** : ajoutez une copie de votre composant de texte.
    * **[!UICONTROL Supprimer]** : supprimez le composant de texte sélectionné de votre e-mail.
 
-1. Ajustez les autres attributs de style, tels que la couleur du texte, la famille de polices, la bordure, la marge intérieure, la marge, etc. à partir de l’onglet **[!UICONTROL Styles]**.
+1. Ajustez les autres attributs de style, tels que la couleur du texte, la famille de polices, la bordure, la marge intérieure, la marge, etc., à partir de l’onglet **[!UICONTROL Styles]**.
 
    ![](assets/email_designer_text_component_2.png)
 
@@ -190,7 +190,7 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
 1. Vous pouvez également choisir **[!UICONTROL Trouver des photos Stock similaires]**. [En savoir plus](../integrations/stock.md)
 
-1. Dans l’onglet **[!UICONTROL Styles]**, ajustez les autres attributs de style, tels que la marge, la bordure, etc. ou ajoutez un lien pour rediriger votre audience vers un autre contenu à partir du volet **[!UICONTROL Paramètres des composants]**.
+1. Dans l’onglet **[!UICONTROL Styles]**, ajustez les autres attributs de style, tels que la marge, la bordure, etc., ou ajoutez un lien pour rediriger votre audience vers un autre contenu à partir du volet **[!UICONTROL Paramètres des composants]**.
 
 ## Social {#social}
 
@@ -212,7 +212,7 @@ Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des p
 
 1. Vous pouvez également modifier les icônes de chacun de vos médias sociaux à partir de vos ressources, le cas échéant.
 
-1. Ajustez les autres attributs de style tels que le style, la marge, la bordure, etc. à partir de l’onglet **[!UICONTROL Styles]**.
+1. Ajustez les autres attributs de style, tels que le style, la marge, la bordure, etc., à partir de l’onglet **[!UICONTROL Styles]**.
 
 ## Décision d’offre {#offer-decision}
 
@@ -234,4 +234,4 @@ Découvrez comment ajouter des offres personnalisées dans un e-mail dans [cette
 
 >[!IMPORTANT]
 >
->Si des modifications sont apportées à une décision d’offres qui est utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier. Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
+>Si des modifications sont apportées à une décision d’offres qui est utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier.  Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.

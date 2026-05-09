@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 100%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -63,8 +63,8 @@ Les principales étapes de création d’une règle conditionnelle sont les suiv
    Les attributs sont organisés en trois onglets :
 
    * **[!UICONTROL Profile]** :
-      * **[!UICONTROL Audiences]** répertorie tous les attributs d’audience (c’est-à-dire le statut, la version, etc.) pour le [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
-      * **[!UICONTROL Profils individuels XDM]** répertorie tous les attributs de profil associés au [Schéma du modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"} défini dans Adobe Experience Platform.
+      * **[!UICONTROL Audiences]** répertorie tous les attributs d’audience (par exemple, statut, version, etc.) pour [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"},
+      * **[!UICONTROL Profils individuels XDM]** répertorie tous les attributs de profil associés au [Schéma du modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} défini dans Adobe Experience Platform.
    * **[!UICONTROL Contextuel]** : lorsque le message est utilisé dans un parcours, les champs de parcours contextuels sont disponibles dans cet onglet.
    * **[!UICONTROL Audiences]** : répertorie toutes les audiences générées à partir des segments créés dans le [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 
@@ -91,7 +91,7 @@ Si vous réutilisez fréquemment des règles de condition, vous pouvez les enreg
 
 >[!CAUTION]
 >
->Lorsque vous nommez des variantes de contenu conditionnel, utilisez uniquement des caractères alphanumériques (A-Z, a-z, 0-9). L’utilisation de caractères spéciaux (tels que `<`, `>`, `=`, `{`, `}`, etc.) dans les noms des variantes peut causer un dysfonctionnement de l’éditeur de modèle ou le masquage des composants dans celui-ci.
+>Lorsque vous nommez des variantes de contenu conditionnel, utilisez uniquement des caractères alphanumériques (A-Z, a-z, 0-9). L’utilisation de caractères spéciaux (tels que `<`, `>`, `=`, `{`, `}`, etc.) dans les variantes, les noms peuvent entraîner une interruption ou un masquage des composants par l’éditeur de modèles.
 
 ## Modifier et supprimer des règles conditionnelles enregistrées {#edit-delete}
 

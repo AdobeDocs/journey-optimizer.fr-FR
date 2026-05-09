@@ -5,9 +5,9 @@ title: À propos de l’activité Lecture d’audience
 description: Découvrez comment utiliser l’activité Lecture d’audience dans une campagne orchestrée.
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: eaaa11352bcb0b77c5517836b26eb2e72b82ac20
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '669'
 ht-degree: 100%
 
 ---

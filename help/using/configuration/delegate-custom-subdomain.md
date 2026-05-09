@@ -10,9 +10,9 @@ level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '960'
 ht-degree: 93%
 
 ---
@@ -74,7 +74,7 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
 >title="Sélectionner une longueur de clé"
->abstract="La longueur de la clé peut être de 2 048 ou 4 096 bits uniquement. Elle ne peut plus être modifiée une fois le sous-domaine envoyé."
+>abstract="La longueur de la clé peut être de 2048 ou 4096 bits uniquement. Elle ne peut plus être modifiée une fois le sous-domaine envoyé."
 
 1. Dans la section **[!UICONTROL Certificat SSL]**, cliquez sur **[!UICONTROL Générer une demande de signature de certificat]**.
 
@@ -90,7 +90,7 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 
    >[!NOTE]
    >
-   >La longueur de la clé peut être de 2 048 ou 4 096 bits uniquement. Elle ne peut plus être modifiée une fois le sous-domaine envoyé.
+   >La longueur de la clé peut être de 2048 ou 4096 bits uniquement. Elle ne peut plus être modifiée une fois le sous-domaine envoyé.
 
 1. Cliquez sur **[!UICONTROL Télécharger la CSR]** et enregistrez le formulaire sur votre ordinateur local.
 

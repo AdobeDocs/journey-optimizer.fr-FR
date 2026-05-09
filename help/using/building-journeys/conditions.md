@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1921'
 ht-degree: 90%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Conditions"
->abstract="L’activité Condition permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les délais d’expiration ou les erreurs, et garantir ainsi une expérience fluide. Notez que les conditions sont désormais configurées dans l’activité Optimiser , qui remplace l’ancienne activité Condition ."
+>abstract="L’activité Condition permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide. Notez que les conditions sont désormais configurées dans l’activité Optimiser , qui remplace l’ancienne activité Condition ."
 
 Les **conditions** vous permettent de définir la progression des individus dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide.
 

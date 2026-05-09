@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '293'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Les campagnes déclenchées par API permettent aux communications marketing d’
 
 Pour ce faire, vous devez d’abord créer une campagne déclenchée par API dans Journey Optimizer, puis lancer son exécution via un appel API à l’aide de l’[API REST Interactive Message Execution](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 1. [Vérifier et activer la campagne](review-activate-api-triggered-campaign.md)
 1. [Déclencher l’exécution de la campagne](trigger-campaigns.md)
 
-En savoir plus sur le [workflow de création de campagnes complet avec des guides spécifiques au type →](get-started-with-campaigns.md#workflow)
+En savoir plus sur le [workflow complet pour la création d’une campagne avec des guides spécifiques →](get-started-with-campaigns.md#workflow)
 
 ## Vidéos pratiques {#video}
 

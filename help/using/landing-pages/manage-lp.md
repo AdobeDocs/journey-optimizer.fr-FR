@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destination, page de destination
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%

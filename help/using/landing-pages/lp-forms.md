@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 75%
+source-wordcount: '2080'
+ht-degree: 78%
 
 ---
 
@@ -283,7 +283,7 @@ Vous pouvez désormais intégrer ce formulaire à une page de destination afin d
 
 1. Enregistrez et testez votre page de destination. [Voici comment procéder](create-lp.md#test-landing-page)
 
-Une fois votre page de destination [publiée](create-lp.md#publish-landing-page) et utilisée dans un parcours, lorsque les utilisateurs remplissent le formulaire, les informations saisies sont ingérées dans le jeu de données sélectionné. Patientez jusqu’à 15 minutes pour que les données soient traitées et disponibles pour utilisation.
+Une fois votre page de destination [publiée](create-lp.md#publish-landing-page) et utilisée dans un parcours, lorsque les utilisateurs et utilisatrices remplissent le formulaire, les informations saisies sont ingérées dans le jeu de données sélectionné. Patientez jusqu’à 15 minutes pour que les données soient traitées et disponibles pour utilisation.
 
 >[!NOTE]
 >
@@ -299,13 +299,13 @@ Lors de la création d’une page de destination, sélectionnez **[!UICONTROL Ca
 
 +++Puis-je utiliser un jeu de données avec un paramètre prédéfini de formulaire ?
 
-Seuls les jeux de données **&#x200B;**&#x200B;activés pour Profil **et** non activés pour Profil[!DNL Adobe Experience Platform] peuvent être sélectionnés. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire et un seul jeu de données peut être sélectionné par préréglage.
+Seuls les jeux de données [!DNL Adobe Experience Platform] **activés pour Profil** et **non activés pour Profil** peuvent être sélectionnés. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire et un seul jeu de données peut être sélectionné par préréglage.
 
 +++
 
 +++Puis-je réutiliser le même jeu de données ou la même connexion en continu sur plusieurs paramètres prédéfinis de formulaire ?
 
-Oui. Le même jeu de données ou la même connexion en continu peut être réutilisé sur plusieurs paramètres prédéfinis. Vous pouvez également configurer plusieurs préréglages à l’aide de différentes combinaisons de jeux de données et de connexions en continu pour prendre en charge différents scénarios de capture de données.
+Oui. Le même jeu de données ou la même connexion en streaming peut être réutilisé sur plusieurs paramètres prédéfinis. Vous pouvez également configurer plusieurs préréglages à l’aide de différentes combinaisons de jeux de données et de connexions en continu pour prendre en charge différents scénarios de capture de données.
 
 +++
 

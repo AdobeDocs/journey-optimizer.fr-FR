@@ -5,10 +5,10 @@ title: Utiliser l’activité Branchement
 description: Découvrez comment utiliser l’activité Branchement dans une campagne orchestrée.
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 55%
+source-wordcount: '256'
+ht-degree: 54%
 
 ---
 

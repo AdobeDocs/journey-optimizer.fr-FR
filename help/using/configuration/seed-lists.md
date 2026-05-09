@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '997'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Les listes de contrôle dans [!DNL Journey Optimizer] vous permettent d’inclur
 >
 >Actuellement, cette fonctionnalité s’applique uniquement au canal e-mail.
 
-Les adresses de contrôle permettent de cibler des personnes destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui n’entrent pas dans le cadre de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible.
+Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui ne font pas partie de la portée de la diffusion peuvent la recevoir, comme tout autre destinataire cible.
 
 Les adresses de contrôle ne sont ni des profils réels ni des profils de test, car elles n’incluent aucun détail de profil. Elles ne sont que des personnes destinataires appartenant à des parties prenantes internes stockées dans le système. Lorsqu’elles sont sélectionnées dans une campagne ou un parcours spécifique, elles sont incluses au moment de l’exécution de la diffusion, ce qui signifie qu’elles recevront une copie de la diffusion à des fins de vérification.
 

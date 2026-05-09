@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ Pour créer un modèle d’IA, procédez comme suit :
 
 1. Si vous créez un modèle d’IA **[!UICONTROL Optimisation personnalisée]**, sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
 
-   ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+   ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
    ![](../assets/ai-ranking-segments.png)
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 29%
+source-wordcount: '909'
+ht-degree: 35%
 
 ---
 
@@ -95,6 +95,6 @@ Pour plus d&#39;informations sur la façon de transformer un profil existant en 
 * Vous ne pouvez pas utiliser l&#39;action **[!UICONTROL Mettre à jour le profil]** pour générer des [événements d&#39;expérience](../event/about-events.md) tels qu&#39;un achat.
 * Comme toute autre action, vous pouvez définir un chemin [alternatif) en cas d&#39;erreur ou de temporisation](using-the-journey-designer.md#paths). Deux actions ne peuvent pas être placées en parallèle.
 * Il n’est pas garanti que les mises à jour de profil soient immédiatement disponibles en aval dans le même parcours. Évitez de placer une action qui lit un champ directement après l’action **[!UICONTROL Mettre à jour le profil]** qui l’écrit, car la valeur mise à jour peut ne pas encore être reflétée.
-* L’activité **[!UICONTROL Mettre à jour le profil]** met uniquement à jour le [Magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"}, et non le lac de données.
+* L’activité **[!UICONTROL Mettre à jour un profil]** met seulement à jour le [magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"} et non le lac de données.
 * Jusqu’à cinq paires champ/valeur peuvent être mises à jour en une seule action **[!UICONTROL Mettre à jour le profil]**. Utilisez le bouton **[!UICONTROL Mettre à jour un autre champ]** pour ajouter d’autres paires.
 * Pour de meilleures performances, regroupez plusieurs mises à jour d’attributs en une seule action **[!UICONTROL Mettre à jour le profil]** plutôt qu’en utilisant une action par attribut.

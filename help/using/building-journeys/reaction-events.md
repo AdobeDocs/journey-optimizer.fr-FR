@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, événements, réaction, tracking, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '506'
 ht-degree: 100%
 
 ---

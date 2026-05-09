@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuration, expérimentation, création de rapports, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '656'
 ht-degree: 100%
 
 ---

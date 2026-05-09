@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 63b5f1504679deb8e7a912341b7a2b470033de13
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1363'
 ht-degree: 88%
 
 ---

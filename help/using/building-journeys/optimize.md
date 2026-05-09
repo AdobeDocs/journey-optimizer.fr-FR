@@ -10,7 +10,7 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours, optimisation
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 38%
@@ -22,11 +22,11 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="Activité Optimiser"
->abstract="L’activité **Optimiser** permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques, y compris l’expérimentation, le ciblage et les conditions spécifiques. Notez que l’activité **Optimiser** est le nouveau moyen de créer des chemins conditionnels dans les parcours. Elle remplace l’ancienne activité **Condition**."
+>abstract="L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs chemins en fonction de critères spécifiques, y compris l’expérimentation, le ciblage et des conditions spécifiques. Notez que l’activité **Optimiser** est le nouveau moyen de créer des chemins conditionnels dans les parcours. Elle remplace l’ancienne activité **Condition**."
 
 >[!IMPORTANT]
 >
->L’activité **Optimiser** est le nouveau moyen de créer des chemins conditionnels dans les parcours. Elle remplace l’ancienne activité **Condition**, qui a été supprimée de l’interface utilisateur. Toute la logique conditionnelle est conservée et est désormais gérée via les **conditions** de l’activité [Optimize](conditions.md).
+>L’activité **Optimiser** est le nouveau moyen de créer des chemins conditionnels dans les parcours. Elle remplace l’ancienne activité **Condition**, qui a été supprimée de l’interface utilisateur. Toute la logique conditionnelle est conservée et est désormais gérée via les [conditions](conditions.md) de l’activité **Optimize**.
 >
 >Si des parcours existants utilisent des activités **[!UICONTROL Condition]**, vous pouvez continuer à les utiliser comme auparavant. Elles s’affichent désormais avec une nouvelle icône en tant qu’activités **[!UICONTROL Optimiser]** à l’aide de la méthode **[!UICONTROL Condition]**, mais le comportement reste inchangé. Toute étiquette personnalisée que vous avez définie sur le nœud est conservée.
 

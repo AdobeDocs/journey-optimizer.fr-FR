@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Pour commencer à créer votre expérience web à l’aide du concepteur web vis
    >
    >Vous pouvez également modifier votre contenu web sans charger l’éditeur visuel. Pour ce faire, désélectionnez l’option **[!UICONTROL Éditeur visuel]** pour utiliser le mode d’édition non visuel à la place. [En savoir plus](web-non-visual-editor.md)
 
-1. Une fois dans le concepteur web, sélectionnez un élément dans la zone de travail, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête, un lien, etc. [En savoir plus](#content-components)
+1. Une fois dans le concepteur web, sélectionnez un élément de la zone de travail, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête, un lien, etc. [En savoir plus](#content-components)
 
 1. Pour modifier un élément, vous pouvez utiliser les éléments suivants :
 
@@ -107,7 +107,7 @@ Une fois que vous avez modifié le contenu web, vous pouvez gérer vos modificat
 
    ![](assets/web-designer-edit-header.png)
 
-1. Ajustez les styles qui s’affichent à partir du volet contextuel à droite, comme l’arrière-plan, la couleur du texte, la bordure, la taille, la position, etc. en fonction du composant sélectionné.
+1. Ajustez les styles qui s’affichent à partir du volet contextuel à droite, comme l’arrière-plan, la couleur du texte, la bordure, la taille, la position, etc., en fonction du composant sélectionné.
 
    ![](assets/web-designer-header-style.png)
 

@@ -11,7 +11,7 @@ hide: true
 keywords: fragments, parcours, réutilisation, nœuds, zone de travail, inventaire, réutilisable
 badge: label="Disponibilité limitée" type="Informative"
 version: Journey Orchestration
-source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 2%

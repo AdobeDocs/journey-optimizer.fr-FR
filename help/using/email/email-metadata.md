@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: pré-en-tête, éditeur, résumé, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%

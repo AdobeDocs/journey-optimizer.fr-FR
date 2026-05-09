@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 83%
+source-wordcount: '717'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ Ces éléments de décision sont intégrés de manière transparente dans les me
 
 >[!IMPORTANT]
 >
->Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et **SMS**. La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée uniquement. Pour demander l’accès, contactez votre représentant Adobe. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
+>Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et **SMS**. La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée uniquement. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -87,8 +87,8 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
 1. **Créez une politique de décision et incorporez-la dans votre parcours ou campagne** (expérience basée sur un code, e-mail, SMS ou notification push) : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher à l’audience prévue.
 
-   ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md).
-➡️ Pour diffuser l’offre par l’intermédiaire du canal d’expérience basée sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
+   ➡️ [Découvrez comment utiliser les politiques de décision.](create-decision.md)
+➡️ Pour diffuser avec succès l’offre via le canal d’expérience basé sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
 
 ## Ressources supplémentaires
 

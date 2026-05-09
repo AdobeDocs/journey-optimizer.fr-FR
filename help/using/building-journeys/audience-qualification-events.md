@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 62%
+source-wordcount: '1767'
+ht-degree: 63%
 
 ---
 
@@ -32,7 +32,7 @@ Supposons que vous ayez une audience « client ou cliente Silver ». Avec cett
 
 Il est possible de positionner ce type d’événement dès la première étape, ou plus tard dans le parcours.
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 
 >[!CAUTION]
@@ -153,7 +153,7 @@ Voir la [[!DNL Adobe Experience Platform] documentation sur la segmentation en f
 
 Lors de l’utilisation d’audiences en streaming avec l’activité **Qualification d’audience**, tous les profils qui remplissent les critères de l’audience ne rejoindront pas nécessairement le parcours. Ce comportement peut se produire pour les raisons suivantes :
 
-* **Profils déjà dans l’audience** : seuls les profils nouvellement qualifiés pour l’audience après la publication du parcours déclencheront l’entrée. Les profils déjà présents dans l’audience avant la publication n’y accéderont pas. De même, lorsqu’un segment en flux continu utilise une **condition basée sur l’heure** (par exemple, « événement dans les 8 heures suivantes »), les profils qui remplissaient déjà cette condition avant la création du segment ne sont **évalués rétroactivement** ; seuls les profils dont les données changent après l’activation du segment sont évalués par rapport à la condition.
+* **Profils déjà dans l’audience** : seuls les profils nouvellement qualifiés pour l’audience après la publication du parcours déclencheront l’entrée. Les profils déjà présents dans l’audience avant la publication ne pourront pas y entrer. De même, lorsqu’un segment en flux continu utilise une **condition basée sur l’heure** (par exemple, « événement dans les 8 heures suivantes »), les profils qui remplissaient déjà cette condition avant la création du segment ne sont **évalués rétroactivement** ; seuls les profils dont les données changent après l’activation du segment sont évalués par rapport à la condition.
 
 * **Temps d’activation de parcours** : lorsque vous publiez un parcours, l’activité **Qualification d’audience** prend jusqu’à **10 minutes** pour devenir active et commencer à écouter les entrées et les sorties de profil. [En savoir plus sur l’activation des parcours](#configure-segment-qualification).
 

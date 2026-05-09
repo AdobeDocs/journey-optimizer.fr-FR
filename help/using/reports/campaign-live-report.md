@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '3543'
-ht-degree: 98%
+source-wordcount: '3575'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les
 * [Courrier](#direct-mail-tab)
 
 >[!AVAILABILITY]
->Les campagnes orchestrées ne prennent en charge que les canaux SMS, E-mail et Notification push. Les autres canaux (In-app, Web, Courrier, etc.) ne sont pas disponibles dans les campagnes orchestrées et n’apparaissent pas dans les rapports.
+>Les campagnes orchestrées ne prennent en charge que les canaux SMS, E-mail et Notification push. Autres canaux (in-app, web, courrier, etc.) ne sont pas disponibles dans les campagnes orchestrées et n’apparaissent pas dans les rapports.
 
 Le **[!UICONTROL rapport dyamique]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/live-report.md#modify-dashboard).
 
@@ -239,7 +239,7 @@ Les widgets **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiqu
 
 * **[!UICONTROL Impression de l’offre]** : nombre d’ouvertures de l’offre dans vos e-mails.
 
-* **[!UICONTROL Clics de l’offre]** : nombre de fois où une offre a fait l’objet d’un clic dans vos e-mails.
+* **[!UICONTROL Clics sur l’offre]** : nombre de clics sur une offre dans vos e-mails.
 
 +++
 
@@ -380,7 +380,7 @@ Les graphes et le tableau **[!UICONTROL Causes d’exclusion]** affichent les di
 
 Consultez [cette page](exclusion-list.md) pour obtenir la liste complète des raisons d’exclusion.
 
-### Notification push – Causes d’erreur {#push-error}
+### Notification push - Causes d’erreur {#push-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_error_reasons"
