@@ -292,4 +292,4 @@ Vous ne pouvez pas modifier directement une configuration de canal désactivée.
 
 Découvrez les configurations de canal et leur utilisation dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480453/?captions=fre_fr&learn=on)
