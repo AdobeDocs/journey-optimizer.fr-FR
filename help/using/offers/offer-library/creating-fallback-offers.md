@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '411'
 ht-degree: 100%
 
 ---
@@ -79,5 +79,5 @@ Pour créer une offre de secours, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341348?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

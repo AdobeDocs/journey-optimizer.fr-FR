@@ -5,10 +5,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 40%
+source-wordcount: '667'
+ht-degree: 43%
 
 ---
 
@@ -64,7 +64,7 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
    ![](assets/brand-score-5.png)
 
-1. Sélectionnez une directive avec indicateur pour afficher les commentaires et suggestions spécifiques. L’alignement des marques évalue les catégories suivantes :
+1. Sélectionnez une directive marquée pour afficher les commentaires et suggestions spécifiques. L’alignement des marques évalue les catégories suivantes :
 
    * **[!UICONTROL Style d&#39;écriture]** :
       * **[!UICONTROL Style de communication de la marque]** : définit la personnalité et le ton émotionnel pour garantir une voix de marque cohérente sur tous les canaux.
@@ -134,6 +134,6 @@ Découvrez comment créer et personnaliser vos propres marques pour définir cla
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

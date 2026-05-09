@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: 6bf20170e139fd1cf000a553ae677f35ba25cd6a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '2352'
 ht-degree: 82%
@@ -152,19 +152,19 @@ Ces requêtes ne sont pas prises en charge et doivent être traitées par d’au
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&check; **Audience cible définie** : indique la population, le rôle ou le segment.
+&amp;check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&amp;check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&check; **Les sélections déroulantes configurées** : La tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
+&amp;check; **Les sélections déroulantes configurées** : La tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
 
-&check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
+&amp;check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
 
-&check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
+&amp;check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
 
-&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -174,11 +174,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
+&amp;check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
+&amp;check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
 
-&check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
+&amp;check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
 
 **Exemples à éviter :**
 
@@ -195,11 +195,11 @@ Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **
 
 **Exemples de bons objectifs :**
 
-&check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
+&amp;check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
 
-&check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
+&amp;check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
 
-&check; « Attirez l’attention à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
+&amp;check; « Attirez l’attention à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
 
 **Exemples à éviter :**
 

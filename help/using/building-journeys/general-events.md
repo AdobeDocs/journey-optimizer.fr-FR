@@ -10,9 +10,9 @@ level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '645'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 >title="Événements métier"
 >abstract="Ces événements vous permettent de démarrer un parcours à l’aide d’un événement non lié à un profil. Lorsque cet événement est déclenché, vous pouvez envoyer des messages à une audience de profils. Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une description. La configuration de l’événement est effectuée par un utilisateur ou une utilisatrice technique et ne peut pas être modifiée."
 
-Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l&#39;individu progressant dans le parcours.
+Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l’individu progressant dans le parcours.
 
 Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une description. Le reste de la configuration ne peut pas être modifié. C&#39;est l&#39;utilisateur technique qui s&#39;en charge. Consultez [cette page](../event/about-events.md).
 
@@ -43,11 +43,11 @@ Lorsque vous déposez un événement métier, cela ajoute automatiquement une ac
 
 Une activité d&#39;événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer une temporisation pour l&#39;événement.
 
-Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n’est pas le cas, le client ou la cliente va emprunter le chemin de temporisation s’il est défini, soit continuer ce parcours.
+Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n’est pas le cas, le client ou la cliente va soit s’insérer dans le chemin de temporisation s’il est défini, soit continuer ce parcours.
 
-Si aucun chemin de temporisation n’est défini, le paramètre de temporisation agit comme une activité d’attente, ce qui fait que le profil attend pendant une certaine période qui peut être arrêtée si un événement se produit. Si vous souhaitez que les profils soient exclus de ce parcours après temporisation, vous devez définir un chemin de temporisation.
+Si aucun chemin de temporisation n’est défini, le paramètre de temporisation agit comme une activité d’attente. Ainsi, le profil attend pendant une certaine période qui peut être arrêtée si un événement se produit. Si vous souhaitez que les profils soient exclus de ce parcours après temporisation, vous devez définir un chemin de temporisation.
 
-Pour configurer une temporisation d’événement, procédez comme suit :
+Pour configurer une temporisation d&#39;événement, procédez comme suit :
 
 1. Activez l&#39;option **[!UICONTROL Définir la temporisation de l&#39;événement]** dans les propriétés de l&#39;événement.
 

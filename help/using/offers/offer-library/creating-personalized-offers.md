@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '842'
 ht-degree: 98%
 
 ---
@@ -148,7 +148,6 @@ Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessou
 ![](../assets/offer_more-actions.png)
 
 * **[!UICONTROL Dupliquer]** : crée une offre avec les mêmes propriétés, représentations, règles d&#39;éligibilité et contraintes. Par défaut, la nouvelle offre a le statut **[!UICONTROL Brouillon]**.
-
 * **[!UICONTROL Supprimer]** : supprime l&#39;offre de la liste.
 
   >[!CAUTION]
@@ -177,4 +176,4 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sé
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341347?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

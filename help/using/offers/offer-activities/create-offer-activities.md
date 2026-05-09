@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 100%
+source-wordcount: '2569'
+ht-degree: 99%
 
 ---
 
@@ -205,11 +205,11 @@ Les offres répondant aux critères de priorité les plus élevés sont évalué
 
 Les offres des critères 1 et 2 sont évaluées ensemble (offre 1, offre 2, offre 3, offre 4 et offre 5). Nous arrivons au résultat suivant :
 
-Offre 1 - 10
-Offre 2 - 20
-Offre 3 - 30 pour le critère 1, 45 pour le critère 2. Le critère le plus élevé des deux sera pris en compte (45).
-Offre 4 - 40
-Offre 5 - 50
+Offre 1 À 10
+Offre 2 - 20
+Offre 3 - 30 du critère 1, 45 du critère 2. Le critère le plus élevé des deux sera pris en compte (45).
+Offre 4 - 40
+Offre 5 - 50
 
 L’offre classée se présente désormais comme suit : offre 5, offre 3, offre 4, offre 2 et offre 1.
 
@@ -366,7 +366,7 @@ Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d&#39;éd
 
 >[!IMPORTANT]
 >
->Si des modifications sont apportées à une décision d’offres qui est utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier. Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
+>Si des modifications sont apportées à une décision d’offres qui est utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier.  Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
 
 Sélectionnez une décision active et cliquez sur **[!UICONTROL Désactiver]** pour redéfinir le statut de la décision sur **[!UICONTROL Brouillon]**.
 
@@ -412,6 +412,6 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette décision.
 
 Découvrez comment créer des activités d’offre dans la gestion de décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/346693?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

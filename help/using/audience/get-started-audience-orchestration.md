@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Créer une composition"
->abstract="Créez un workflow de composition afin de combiner les audiences d’Adobe Experience Platform existantes dans une zone de travail visuelle et d’exploiter diverses activités (telles que le partage, l’exclusion…) pour créer de nouvelles audiences."
+>abstract="Créez un workflow de composition afin de combiner les audiences d’Adobe Experience Platform existantes dans une zone de travail visuelle et d’utiliser diverses activités (telles que le partage, l’exclusion, etc.) pour créer de nouvelles audiences."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
@@ -105,9 +105,9 @@ Cette documentation fournit des informations détaillées sur l’utilisation de
 
 >[!ENDSHADEBOX]
 
-La composition d’audiences vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences Adobe Experience Platform existantes en une zone de travail visuelle et utiliser diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
+La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez regrouper des audiences Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisées dans des campagnes et parcours Journey Optimizer pour cibler des clientes et des clients. Découvrir comment cibler des audiences dans Journey Optimizer
+Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisées dans des campagnes et parcours Journey Optimizer pour cibler des clientes et des clients. Découvrez comment cibler des audiences dans Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

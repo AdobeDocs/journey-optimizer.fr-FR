@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1729'
 ht-degree: 96%
 
 ---
@@ -121,7 +121,7 @@ Vous pouvez soit créer un type d’identité existant, soit en créer un nouvea
 
 Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est sélectionné comme clé primaire. Vous devez ensuite sélectionner un type d’identité et la clé sera déjà renseignée (sous le champ **[!UICONTROL Type d’identité]**) à l’aide de _identityMap > id_.
 
-Lors de la sélection de champs, les champs de l’identité principale sont balisés.
+Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
 
 ![](assets/primary-identity.png)
 
@@ -143,7 +143,7 @@ Pour utiliser les données stockées dans la base de données de profil client e
 
 Le système peut ainsi effectuer la réconciliation entre l’événement et le profil de la personne. Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est la clé primaire. Vous devez ensuite sélectionner un type d’identité et la clé est automatiquement renseignée à l’aide de la fonction _identityMap > id_.
 
-Lors de la sélection de champs, les champs de l’identité principale sont balisés.
+Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
 
 ![](assets/primary-identity.png)
 

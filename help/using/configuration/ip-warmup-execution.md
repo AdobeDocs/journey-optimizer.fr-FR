@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2709'
-ht-degree: 91%
+source-wordcount: '2770'
+ht-degree: 93%
 
 ---
 
@@ -60,13 +60,13 @@ Pour définir les phases de votre plan de préchauffage d’adresses IP, vous de
    >* Seules les campagnes qui utilisent la même configuration que le plan de préchauffage des adresses IP choisi peuvent être sélectionnées.
    >* Impossible de sélectionner une campagne déjà utilisée dans un autre plan de préchauffage d’adresses IP. Une même campagne peut être utilisée en plusieurs phases d’un même plan.
 
-1. Une fois qu’une campagne est sélectionnée pour la phase en cours, les sections permettant d’exclure les profils, les audiences de campagne et les groupes de domaines s’affichent. Notez qu’une fois qu’une exécution est activée, les exclusions ne peuvent plus être modifiées, sauf si vous [divisez l’exécution](#split-phase) vers une nouvelle phase.
+1. Une fois qu’une campagne est sélectionnée pour la phase en cours, les sections permettant d’exclure les profils, les audiences de campagnes et les groupes de domaines de l’opération s’affichent. Notez qu’une fois qu’une exécution est activée, les exclusions ne peuvent plus être modifiées, sauf si vous [divisez l’exécution](#split-phase) vers une nouvelle phase.
 
    1. Dans la section **[!UICONTROL Groupes de domaines exclus]**, sélectionnez les domaines à exclure de cette phase.
 
       >[!NOTE]
       >
-      >L’exclusion de domaine nécessite une phase non exécutée. Vous devrez peut-être donc [diviser une phase en cours d’exécution](#split-phase) pour ajouter des exclusions. En outre, vous ne pouvez exclure qu’un groupe de domaines personnalisé qui a été ajouté au modèle de plan de préchauffage d’adresses IP [&#x200B; — dans le cas contraire, mettez à jour le modèle avec le groupe de domaines personnalisé et &#x200B;](ip-warmup-plan.md#prepare-file)chargez à nouveau le plan[.](#re-upload-plan)
+      >L’exclusion de domaine nécessite une phase non exécutée. Vous devrez peut-être donc [diviser une phase en cours d’exécution](#split-phase) pour ajouter des exclusions. En outre, vous ne pouvez exclure qu’un groupe de domaines personnalisé qui a été ajouté au modèle de plan de préchauffage d’adresses IP ](ip-warmup-plan.md#prepare-file) — dans le cas contraire, mettez à jour le modèle avec le groupe de domaines personnalisé et [chargez à nouveau le plan](#re-upload-plan).[
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
@@ -152,7 +152,7 @@ Après avoir défini les phases de votre plan de préchauffage d’adresses IP, 
 
    >[!NOTE]
    >
-   >Les reprises ont lieu toutes les 30 minutes jusqu’à la fin de la période définie. Si aucune fenêtre temporelle n’est spécifiée, l’exécution est tentée à l’heure d’envoi et échoue si l’évaluation de l’audience n’est pas terminée.
+   >Les reprises ont lieu toutes les 30 minutes jusqu’à la fin de la période définie. Si aucune fenêtre temporelle n’est spécifiée, l’exécution est tentée à l’heure d’envoi et échoue si l’évaluation de l’audience n’est pas terminée.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
@@ -162,7 +162,7 @@ Après avoir défini les phases de votre plan de préchauffage d’adresses IP, 
 
    >[!NOTE]
    >
-   >Il est recommandé de modifier ces nombres en consultation avec votre expert en délivrabilité. Pour désactiver la période d’engagement d’une exécution, saisissez 0 dans le champ **[!UICONTROL Dernier engagement]**.
+   >Il est recommandé de modifier ces chiffres en consultation avec votre personne spécialisée en délivrabilité. Pour désactiver la période d’engagement d’une exécution, saisissez 0 dans le champ **[!UICONTROL Dernier engagement]**.
 
    ![](assets/ip-warmup-plan-edit-run.png)
 
@@ -272,7 +272,7 @@ Une exécution peut avoir les statuts suivants :
 
 * **[!UICONTROL Brouillon]** : chaque fois qu’une exécution est créée, soit lors de la [création d’un plan](ip-warmup-plan.md) ou de l’[ajout d’une exécution](#define-runs) à partir de l’interface utilisateur, son statut est **[!UICONTROL Brouillon]**.
 * **[!UICONTROL Actif]** : chaque fois que vous activez une exécution, son statut est **[!UICONTROL Actif]**. Cela signifie que le système a accepté la demande de planification de l’exécution, et non que l’envoi a commencé. À ce stade, vous pouvez observer le statut de l’exécution active en cliquant sur le bouton **[!UICONTROL Afficher le statut]** dans le tableau. Vous pouvez ainsi suivre le nombre de profils ciblés réellement qualifiés.
-* **[!UICONTROL Terminé]** : l’exécution de la campagne pour cette exécution est terminée. Vous pouvez accéder à un rapport d’exécution détaillé en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans le tableau. Cette option vous permet de suivre le statut de diffusion par e-mail de l’exécution, y compris les répartitions spécifiques aux groupes de domaines pour une surveillance améliorée. Notez que le statut « Arrêté » sera attribué à la campagne.[En savoir plus](#reports)
+* **[!UICONTROL Terminé]** : l’exécution de la campagne pour cette exécution est terminée. Vous pouvez accéder à un rapport d’exécution détaillé en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans le tableau. Cette option vous permet de suivre le statut de diffusion par e-mail de l’exécution, y compris les répartitions spécifiques aux groupes de domaines pour une surveillance améliorée. Notez que la campagne qui lui est associée sera définie comme Arrêtée.[En savoir plus](#reports)
 * **[!UICONTROL Annulée]** : une exécution **[!UICONTROL active]** a été annulée à l’aide du bouton **[!UICONTROL Annuler]**.[En savoir plus](#define-runs)
 * **[!UICONTROL Échec]** : une erreur a été rencontrée par le système ou la campagne utilisée pour la phase en cours a été arrêtée, ou vous avez activé l’option **[!UICONTROL Annuler les exécutions activées en cas d’erreurs]** et une erreur s’est produite. Si une exécution échoue, vous pouvez en planifier une autre pour le jour suivant.
 

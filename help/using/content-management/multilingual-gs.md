@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '636'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Adobe Journey Optimizer s’intègre actuellement aux fournisseurs de traducti
 
 Avant d’ajouter votre fournisseur de traduction sélectionné, vous devez créer un compte auprès de ce fournisseur.
 
-Votre utilisation des services de traduction d’un fournisseur de traduction sera soumise aux conditions générales supplémentaires de ce fournisseur. En tant que solutions tierces, les services de traduction sont disponibles pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer via une intégration. Adobe ne contrôle pas les produits tiers et n’en est pas responsable.
+Votre utilisation des services de traduction d’un fournisseur de traduction sera soumise aux conditions générales supplémentaires de ce fournisseur.  En tant que solutions tierces, les services de traduction sont disponibles pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer via une intégration.  Adobe ne contrôle pas les produits tiers et n’en est pas responsable.
 
 Pour tout problème ou toute demande d’aide relative à vos traductions, contactez le fournisseur de traduction concerné.
 
@@ -100,4 +100,4 @@ Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
 Découvrez comment créer du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452115?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

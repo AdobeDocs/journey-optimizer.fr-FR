@@ -6,10 +6,10 @@ description: Découvrez comment commencer avec les campagnes orchestrées
 short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 86%
+source-wordcount: '909'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ L’orchestration de campagne repose sur quatre piliers principaux :
 <td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Segmentation et envoi de plusieurs entités" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentation et envoi de plusieurs entités</b><br/>Poussez votre analyse au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues produit, des emplacements de magasin ou des données de service pour cibler avec précision.<br/><br/>
-Prise en charge de l’envoi à plusieurs niveaux, qui permet d’envoyer un message par profil et par entité secondaire associée. Ces entités secondaires peuvent inclure des adresses de contact, des réservations, des abonnements, des contrats ou d’autres données connnexes. Il devient alors possible d’envoyer les campagnes à toutes les adresses connues d’un profil ou pour chaque réservation associée à ce profil.</td></tr>
+Prise en charge de l’envoi à plusieurs niveaux, où un message est envoyé par profil et par entité secondaire associée. Ces entités secondaires peuvent inclure des adresses de contact, des réservations, des abonnements, des contrats ou d’autres données connnexes. Il devient alors possible d’envoyer les campagnes à toutes les adresses connues d’un profil ou pour chaque réservation associée à ce profil.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilité et précision avant l’envoi" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilité et précision avant l’envoi</b><br/>Obtenez un nombre exact de segmentations et une portée complète des campagnes avant leur lancement, afin de garantir la précision et la confiance.</td></tr>
 <tr style="border: 0;">

@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, configurer, environnement, sous-domaine, préréglages
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---

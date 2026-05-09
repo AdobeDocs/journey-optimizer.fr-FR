@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, prise en main, conditions, commencer
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: 005fb220c5593f7a6381c3413928d4f7b6a69e7b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '149'
 ht-degree: 100%
 
 ---
@@ -36,4 +36,4 @@ Les règles conditionnelles peuvent être utilisées dans le concepteur d’e-ma
 
 Découvrez comment créer du contenu dynamique à l’aide du créateur de règles de condition.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413671?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

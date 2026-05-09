@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
@@ -52,4 +52,4 @@ Pour créer un qualificateur de collection, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341366?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 65%
+source-wordcount: '659'
+ht-degree: 64%
 
 ---
 
@@ -103,6 +103,6 @@ La vidéo ci-dessous montre comment surveiller la fiabilité et les performances
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479543?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: principal, exécution, e-mail, cible, profil, optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '649'
 ht-degree: 100%
 
 ---

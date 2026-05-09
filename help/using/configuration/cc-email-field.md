@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: CC, copie carbone, e-mail, configuration du canal, en-têtes d’e-mail, Cci
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 12%
@@ -89,7 +89,7 @@ Si vous [modifiez une configuration d’e-mail](channel-surfaces.md#edit-channel
 
 * **Gestion de la boîte de réception :** votre boîte de réception utilisée pour la fonctionnalité CC doit être correctement gérée pour l’espace et la diffusion. Si la boîte de réception renvoie des bounces, certains e-mails peuvent ne pas être reçus.
 
-* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [&#x200B; bounces](../reports/suppression-list.md#delivery-failures).
+* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [ bounces](../reports/suppression-list.md#delivery-failures).
 
 * **Consentement et suppression :** l’adresse e-mail en copie (CC) n’est pas comparée au consentement ou à la suppression.
 

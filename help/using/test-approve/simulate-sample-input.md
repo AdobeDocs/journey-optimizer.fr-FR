@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '992'
 ht-degree: 89%
 
 ---
@@ -129,7 +129,7 @@ Dans l’exemple ci-dessous, nous avons ajouté deux variantes pour l’objet d
 
 Pour le contenu et l’expérimentation multilingues, une liste déroulante est disponible pour basculer entre les différentes variantes ou traitements de langue.
 
-![&#x200B; Sélecteur de langue ou de traitement &#x200B;](assets/simulate-custom-experiment.png)
+![ Sélecteur de langue ou de traitement ](assets/simulate-custom-experiment.png)
 
 Vous pouvez supprimer une variante à tout moment à l’aide du bouton représentant des points de suspension dans le coin supérieur droit et en sélectionnant **[!UICONTROL Supprimer]**. Pour modifier les informations d’une variante, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
 

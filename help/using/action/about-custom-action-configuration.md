@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2022'
-ht-degree: 95%
+source-wordcount: '2057'
+ht-degree: 94%
 
 ---
 
@@ -157,7 +157,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
 
 ### Prise en charge du protocole TLS {#tls-protocol-support}
 
-Adobe Journey Optimizer prend en charge TLS 1.3 par défaut pour les actions personnalisées. Si un client prend également en charge TLS 1.3, la communication s’effectue via TLS 1.3. Sinon, le processus de négociation TLS peut revenir à TLS 1.2.
+Adobe Journey Optimizer prend en charge TLS 1.3 par défaut pour les actions personnalisées. Si un client prend également en charge TLS 1.3, la communication s’effectue via TLS 1.3. Sinon, le processus de négociation TLS peut revenir à TLS 1.2.
 
 ### Prise en charge du protocole mTLS {#mtls-protocol-support}
 
@@ -171,7 +171,7 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
 1. Dans la section **[!UICONTROL Requête]**, collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d’appel POST et PUT.
 
-   Activez l’option **[!UICONTROL Autoriser les valeurs nulles]** pour conserver les valeurs nulles dans l’appel externe. Notez que l’envoi de tableaux d’entiers, de chaînes, etc. avec des valeurs nulles n’est pas entièrement pris en charge. Par exemple, le tableau suivant d’entiers `[1, null, 2, 3]` est envoyé en tant que `[1, 2, 3]` même si cette option est cochée. En outre, si ce tableau est nul, il est envoyé en tant que tableau vide.
+   Activez l’option **[!UICONTROL Autoriser les valeurs nulles]** pour conserver les valeurs nulles dans l’appel externe. Notez que l’envoi de tableaux d’entier (int), de chaîne, etc., avec des valeurs nulles dans n’est pas entièrement pris en charge. Par exemple, le tableau suivant d’entiers `[1, null, 2, 3]` est envoyé en tant que `[1, 2, 3]` même si cette option est cochée. En outre, si ce tableau est nul, il est envoyé en tant que tableau vide.
 
    ![](assets/null-values.png){width="70%" align="left"}
 

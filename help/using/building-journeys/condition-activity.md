@@ -11,9 +11,9 @@ keywords: activité, condition, zone de travail, parcours
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1863'
 ht-degree: 92%
 
 ---
@@ -45,7 +45,7 @@ Vous pouvez également baser une condition sur l’appartenance à une audience.
 
 * [Utiliser une audience dans une condition](#using-a-segment) - Ajoutez des chemins d’accès en fonction de l’appartenance des profils à une audience.
 * [Créer et cibler des audiences](../audience/about-audiences.md) - Créez et gérez des audiences dans le menu Audiences.
-* [Ciblage des audiences dans les parcours &#x200B;](read-audience.md#audience-targeting-in-journeys) - Après une activité Lecture d’audience, segmentez, excluez ou fusionnez des branches à l’aide de conditions.
+* [Ciblage des audiences dans les parcours ](read-audience.md#audience-targeting-in-journeys) - Après une activité Lecture d’audience, segmentez, excluez ou fusionnez des branches à l’aide de conditions.
 
 >[!NOTE]
 >

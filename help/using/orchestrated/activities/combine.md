@@ -5,7 +5,7 @@ title: Utiliser l’activité Combiner
 description: Découvrir comment utiliser l’activité Combiner
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 100%
@@ -124,7 +124,7 @@ Dans l’activité **[!UICONTROL Combiner]**, vous pouvez configurer une **[!UIC
 
 1. Si nécessaire, vous pouvez ajuster les tables entrantes pour aligner les cibles de différentes dimensions. Pour exclure une cible d’une autre dimension, vous devez d’abord la replacer dans la même dimension de ciblage que la population principale. Pour ce faire, cliquez sur **[!UICONTROL Ajouter une règle]** et définissez les conditions de changement de la dimension. La réconciliation est ensuite effectuée à l’aide d’un attribut ou d’une jointure.
 
-1. Cochez l’option **[!UICONTROL Générer le complément]** si vous souhaitez traiter la population restante. Le complément contient l’union de tous les résultats de l’activité entrante, à l’exclusion de l’intersection. Une transition sortante supplémentaire est alors ajoutée à l’activité.
+1. Cochez l’option **[!UICONTROL Générer un complément]** si vous souhaitez traiter la population restante. Le complément contient l’union de tous les résultats de l’activité entrante, à l’exclusion de l’intersection. Une transition sortante supplémentaire est alors ajoutée à l’activité.
 
 L’exemple d’**[!UICONTROL Exclusion]** suivant montre deux requêtes configurées pour filtrer les profils qui ont acheté un produit. Les profils qui ne possèdent pas d’abonnement de fidélité sont ensuite exclus du premier ensemble.
 

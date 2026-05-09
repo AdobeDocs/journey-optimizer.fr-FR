@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1127'
 ht-degree: 100%
 
 ---
@@ -142,4 +142,4 @@ Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences inéligi
 
 Découvrez comment Journey Optimizer utilise des règles pour générer une audience. Apprenez à utiliser des attributs, des événements et des audiences existantes pour créer une audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430324?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

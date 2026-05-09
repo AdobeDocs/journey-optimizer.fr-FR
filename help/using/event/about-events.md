@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 51ea1695ab52c01403d16c0193c72e8e9339ee2d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 63%
@@ -90,7 +90,7 @@ Pour les événements **unitaires**, il existe deux types d’identifiant d’�
 
 ## Comment choisir {#choose-event-type}
 
-Utilisez les critères suivants pour sélectionner le type d’événement approprié à votre parcours. La question essentielle est la suivante : **déclenchez-vous une action pour une personne spécifique ou diffusez-vous des événements vers plusieurs profils ?** [En savoir plus sur les types de parcours &#x200B;](../building-journeys/journey.md#journey-types).
+Utilisez les critères suivants pour sélectionner le type d’événement approprié à votre parcours. La question essentielle est la suivante : **déclenchez-vous une action pour une personne spécifique ou diffusez-vous des événements vers plusieurs profils ?** [En savoir plus sur les types de parcours ](../building-journeys/journey.md#journey-types).
 
 * **Choisissez un événement unitaire** lorsque le déclencheur est lié à une personne spécifique (par exemple, un achat, un envoi de formulaire ou un jalon de fidélité). Les événements unitaires nécessitent une identité principale basée sur une personne dans le schéma et lancent immédiatement le parcours pour ce profil. [Découvrez comment configurer un événement unitaire](../event/about-creating.md).
 
@@ -162,8 +162,8 @@ Les événements utilisés dans des parcours **actifs**, **brouillons** ou **fer
 
 Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431514?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416325?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

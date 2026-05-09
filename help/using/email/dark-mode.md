@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, éditeur
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 100%
+source-wordcount: '1517'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Que vous définissiez des paramètres personnalisés pour le mode sombre ou non 
 
 ### Clients qui appliquent leur propre mode sombre. {#default-support}
 
-Certains clients de messagerie appliquent uniquement leur propre mode sombre par défaut pour tous les e-mails reçus. Les couleurs, arrière-plans, images, etc. sont automatiquement ajustés avec les paramètres du mode sombre spécifiques au client de messagerie, ce qui signifie qu’aucune modification externe n’est possible.
+Certains clients de messagerie appliquent uniquement leur propre mode sombre par défaut pour tous les e-mails reçus. Les couleurs, les arrière-plans, les images, etc. sont automatiquement ajustés avec les paramètres du mode sombre spécifiques au client de messagerie, ce qui signifie qu’aucune modification externe n’est possible.
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 

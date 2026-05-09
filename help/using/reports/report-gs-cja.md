@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
@@ -64,4 +64,4 @@ L’accès à ces fonctionnalités de création de rapports dépend du contexte 
 
 La vidéo ci-dessous montre comment utiliser le reporting Journey Optimizer amélioré avec Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443153?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)

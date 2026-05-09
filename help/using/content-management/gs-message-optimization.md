@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: optimisation, ciblage, expérimentation, tests A/B, campagnes, parcours, personnalisation
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '742'
 ht-degree: 16%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 16%
 
 L’optimisation du contenu vous fournit les outils nécessaires pour transmettre le message approprié à la bonne audience au bon moment. En associant des informations basées sur les données à de puissantes fonctionnalités de personnalisation, vous pouvez optimiser l’engagement et les conversions dans vos campagnes et parcours.
 
-L’optimisation du contenu est disponible dans les deux parcours [campagnes](../campaigns/create-campaign.md) et [&#128279;](../building-journeys/journey-gs.md), ce qui vous permet d’appliquer les mêmes stratégies d’optimisation à tous les points de contact de vos clients.
+L’optimisation du contenu est disponible dans les deux parcours [campagnes](../campaigns/create-campaign.md) et [](../building-journeys/journey-gs.md), ce qui vous permet d’appliquer les mêmes stratégies d’optimisation à tous les points de contact de vos clients.
 
 ➡️ [Découvrez comment exploiter l’optimisation du contenu dans une campagne dans cette vidéo](#video)
 
@@ -83,7 +83,7 @@ Combinaison :
 
 Pour commencer à optimiser votre contenu :
 
-1. **Création d’une campagne ou d’un parcours** : configurez votre [campagne](../campaigns/create-campaign.md) ou [parcours &#x200B;](../building-journeys/journey-gs.md) et ajoutez au moins une action.
+1. **Création d’une campagne ou d’un parcours** : configurez votre [campagne](../campaigns/create-campaign.md) ou [parcours ](../building-journeys/journey-gs.md) et ajoutez au moins une action.
 
 1. **Choisissez votre approche d’optimisation** :
    * [Utilisez le ciblage](optimization-targeting.md) pour personnaliser le contenu pour des segments spécifiques.
@@ -109,9 +109,9 @@ Une fois votre parcours ou campagne actif, les profils sont évalués en fonctio
 
 ## Vidéo pratique {#video}
 
-Découvrez comment tirer parti de l’optimisation du contenu dans les campagnes déclenchées par l’API ou l’action. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
+Découvrez comment tirer parti de l’optimisation du contenu dans les campagnes déclenchées par l’API ou l’action. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes multicanales, tout en maintenant la cohérence du message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470370?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **Rubriques connexes**
 

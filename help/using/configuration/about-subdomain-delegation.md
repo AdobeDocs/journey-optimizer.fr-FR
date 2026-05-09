@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, optimizer, délégation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 84%
+source-wordcount: '1019'
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 La création d&#39;un sous-domaine pour vos parcours et campagnes par e-mail permet aux marques d&#39;isoler différents types de trafic (marketing par rapport à entreprise, par exemple) dans des pools d&#39;adresses IP spécifiques et avec des domaines spécifiques, ce qui accélère le processus de réchauffement des adresses IP et améliore la délivrabilité globale.
 
-Si vous partagez un domaine et qu&#39;il est bloqué ou ajouté à la liste bloquée, il peut y avoir un impact sur la diffusion des e-mails de votre entreprise. Les problèmes de réputation ou les blocages d&#39;un domaine particulier de vos communications marketing par email auront un impact spécifique sur ce flux de messagerie. L’utilisation de votre domaine principal comme adresse d’expéditeur pour différents flux d’e-mails peut également interrompre l’authentification par e-mail, ce qui bloque ou place vos messages dans le dossier des courriers indésirables.
+Si vous partagez un domaine et qu&#39;il est bloqué ou ajouté à la liste bloquée, il peut y avoir un impact sur la diffusion des e-mails de votre entreprise. Les problèmes de réputation ou les blocages d&#39;un domaine particulier de vos communications marketing par e-mail auront un impact spécifique sur ce flux de messagerie. L’utilisation de votre domaine principal comme adresse d’expéditeur pour différents flux d’e-mails peut également interrompre l’authentification par e-mail, ce qui bloque ou place vos messages dans le dossier des courriers indésirables.
 
 >[!CAUTION]
 >
@@ -44,7 +44,7 @@ Ce faisant, vous contribuerez à préserver la réputation de votre domaine et d
 
 Lors de la mise en œuvre d&#39;une solution, des exigences doivent être satisfaites pour les composants orientés vers l&#39;extérieur : par exemple, configurer les liens et les pages web à suivre, afficher les pages miroir, etc.
 
-Bien que ces exigences soient gérées au moyen de composants hébergés à la fois par Adobe et le client, elles incluent des URL visibles par les destinataires des e-mails. Afin d&#39;éviter que des URL indiquant la solution technique sous-jacente ou le fournisseur d&#39;hébergement ne soient installées, il est possible de configurer des sous-domaines pour rendre cette opération transparente pour les destinataires des emails.
+Bien que ces exigences soient gérées au moyen de composants hébergés à la fois par Adobe et le client, elles incluent des URL visibles par les destinataires des emails. Afin d&#39;éviter que des URL indiquant la solution technique sous-jacente ou le fournisseur d&#39;hébergement ne soient installées, il est possible de configurer des sous-domaines pour rendre cette opération transparente pour les destinataires des emails.
 
 **En savoir plus**
 

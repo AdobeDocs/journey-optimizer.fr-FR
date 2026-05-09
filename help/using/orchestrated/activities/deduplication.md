@@ -5,10 +5,10 @@ title: Utiliser l’activité Déduplication
 description: Découvrir comment utiliser l’activité Déduplication
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication_fields"
 >title="Champs pour identifier les doublons"
->abstract="Dans la section **Champs pour identifier des doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier."
+>abstract="Dans la section **Champs pour identifier des doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de déterminer ceux à traiter en premier."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication"
@@ -44,7 +44,7 @@ Pour configurer l’activité **[!UICONTROL Déduplication]**, procédez comme s
 
 1. Ajoutez une activité **[!UICONTROL Déduplication]** à votre campagne orchestrée.
 
-1. Dans la section **[!UICONTROL Champs pour identifier des doublons]**, cliquez sur le bouton **[!UICONTROL Ajouter un attribut]** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
+1. Dans la section **[!UICONTROL Champs pour identifier des doublons]**, cliquez sur le bouton **[!UICONTROL Ajouter un attribut]** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de déterminer ceux à traiter en premier.
 
    ![](../assets/deduplication-1.png)
 
@@ -65,7 +65,7 @@ Pour configurer l’activité **[!UICONTROL Déduplication]**, procédez comme s
 
    ![](../assets/deduplication-2.png)
 
-1. Cochez l’option **[!UICONTROL Générer le complément]** si vous souhaitez exploiter la population restante. Le complément est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
+1. Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
 
 ## Exemple{#deduplication-example}
 

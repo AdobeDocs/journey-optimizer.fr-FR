@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: e-mail, message, pièce jointe, pdf, éditeur
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="Ajouter une pièce jointe PDF"
->abstract="Recherchez un fichier PDF à joindre à votre e-mail.</br>Vous pouvez envoyer jusqu’à 6 messages avec un PDF en pièce jointe par profil et par an. La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</br>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe."
+>abstract="Recherchez un fichier PDF à joindre à votre e-mail.</br>Vous pouvez envoyer jusqu’à 6 messages avec un PDF en pièce jointe par profil et par an. La taille de fichier maximum autorisée pour chaque pièce jointe est de 5 Mo.</br>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe."
 
 Vous pouvez joindre un fichier PDF statique aux e-mails que vous envoyez avec [!DNL Journey Optimizer].
 

@@ -4,7 +4,7 @@ description: Découvrez comment créer des règles de limitation pour vos parcou
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 98%
@@ -119,4 +119,4 @@ En outre, vous pouvez également utiliser le [service de requête Adobe Experie
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 91%
+source-wordcount: '900'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 >title="Représentations"
 >abstract="Ajoutez des représentations pour définir l’emplacement d’affichage de votre offre dans le message. Plus une offre a de représentations, plus il y a d&#39;occasions d&#39;utiliser l&#39;offre dans différents contextes d&#39;emplacement."
 
-Une offre peut être affichée à différents endroits dans un message : dans une bannière supérieure avec une image, sous forme de texte dans un paragraphe, sous forme de bloc HTML, etc. Plus une offre a de représentations, plus il y a d&#39;occasions d&#39;utiliser l&#39;offre dans différents contextes d&#39;emplacement.
+Une offre peut être affichée à différents endroits dans un message : dans une bannière supérieure avec une image, sous forme de texte dans un paragraphe, sous forme de bloc HTML, etc. Plus une offre a de représentations, plus il y a d&#39;opportunités d&#39;utiliser l&#39;offre dans différents contextes d&#39;emplacement.
 
 ## Configuration des représentations de l’offre {#representations}
 
@@ -110,7 +110,7 @@ Pour réutiliser votre contenu dans une représentation, accédez à la **Biblio
 
 Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
-Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [&#x200B; Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
+Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [ Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url.png)
 
@@ -138,7 +138,7 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 
    ![](../assets/offer-text-content.png)
 
-   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [&#x200B; Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
+   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [ Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
 
    ![](../assets/offer-personalization.png)
 

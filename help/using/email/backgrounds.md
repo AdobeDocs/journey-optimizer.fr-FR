@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: arrière-plan, e-mail, couleur, éditeur
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
@@ -53,7 +53,7 @@ Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez util
 
   ![](assets/background_4.png)
 
-* Définissez une couleur de fond au niveau de la colonne.
+* Définissez une couleur de fond au niveau des colonnes.
 
   >[!NOTE]
   >

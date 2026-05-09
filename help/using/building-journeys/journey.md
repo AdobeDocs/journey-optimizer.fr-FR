@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer, unitaire, lecture d’audience, qualification d’audience, événement métier, temps réel, planifié, lot, déclenché par un événement, workflow, orchestration, personnalisation, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '1615'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 86%
 >id="ajo_journey_canvas"
 >title="Créer un parcours"
 >abstract="Utilisez la zone de travail de glisser-déposer pour orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage d&#39;audience pour un impact maximal."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Créer votre premier parcours"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Créer votre premier parcours"
 
 
 [!DNL Adobe Journey Optimizer] vous permet de créer des parcours clients personnalisés et à plusieurs étapes qui s’adaptent en temps réel au comportement et aux besoins de votre audience. Grâce à une zone de travail intuitive par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal.
@@ -42,7 +42,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
-➡️ **Vous souhaitez commencer à créer ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
+➡️ **Prêt pour la création ?** [Créez votre premier parcours ](journey-gs.md) en 5 minutes.
 
 ### Parcours ou campagnes : quand utiliser chacun d’eux {#journeys-vs-campaigns-intro}
 
@@ -84,7 +84,7 @@ Le **[concepteur de parcours](using-the-journey-designer.md)** est votre zone de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Définir des points d’entrée**
 
@@ -94,7 +94,7 @@ Choisissez le mode d’entrée des clientes et clients : par le biais d’un é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Envoyer des messages**
 
@@ -104,7 +104,7 @@ Utilisez des actions de canal intégrées pour les e-mails, les notifications pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Ajouter une logique et des conditions**
 
@@ -124,7 +124,7 @@ Utilisez des données contextuelles issues d’événements, de [!DNL Adobe Expe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Connecter des systèmes externes**
 
@@ -134,7 +134,7 @@ Créez des actions personnalisées pour intégrer des systèmes tiers afin d’e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Ajouter des activités d’orchestration**
 
@@ -153,16 +153,16 @@ La création de parcours optimaux suit un processus clair et reproductible. Voic
 
 **1. Planifier** → **2. Concevoir** → **3. Tester** → **4. Publier** → **5. Surveiller** → **6. Optimiser**
 
-### &#x200B;1. Planifier votre parcours {#plan}
+### &#x200B;1. Planification de votre parcours {#plan}
 
 Avant d’ouvrir le concepteur, clarifiez vos objectifs :
 
-* **Quel est l’objectif ?** (par exemple, intégrer une nouvelle clientèle, réengager des utilisateurs et utilisatrices inactifs)
-* **Qui est l’audience ?** (segment spécifique, individus pilotés par un événement)
-* **Quel type de parcours convient ?** (voir les [types de parcours &#x200B;](#journey-types) ci-dessus)
-* **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
+* **Quel est l&#39;objectif ?** (par exemple, intégrer de nouveaux clients, réengager les utilisateurs inactifs)
+* **Quelle est l&#39;audience ?** (segment spécifique, individus pilotés par un événement)
+* **Quel type de parcours convient ?** (Voir [types de parcours ](#journey-types) ci-dessus)
+* **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
 
-### &#x200B;2. Concevoir dans la zone de travail {#design}
+### &#x200B;2. Conception dans la zone de travail {#design}
 
 Utilisez le concepteur de parcours pour créer votre flux :
 
@@ -174,7 +174,7 @@ Utilisez le concepteur de parcours pour créer votre flux :
 
 [Découvrir comment utiliser le concepteur de parcours →](using-the-journey-designer.md)
 
-### &#x200B;3. Tester avant la mise en ligne {#test}
+### &#x200B;3. Test avant la mise en ligne {#test}
 
 Testez toujours votre parcours pour détecter les problèmes avant que les clientes et clients ne les rencontrent :
 
@@ -195,7 +195,7 @@ Une fois le test terminé, publiez votre parcours pour l’activer :
 
 [Publier votre parcours →](publish-journey.md)
 
-### &#x200B;5. Surveiller les performances {#monitor}
+### &#x200B;5. Surveillance des performances {#monitor}
 
 Suivez les performances réelles de votre parcours :
 
@@ -203,7 +203,7 @@ Suivez les performances réelles de votre parcours :
 * Surveillez les taux d’entrée, d’achèvement et d’erreur.
 * Configurez des alertes pour les problèmes critiques.
 
-[Surveiller et établir des rapports → &#x200B;](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
+[Surveiller et établir des rapports → ](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
 
 ### &#x200B;6. Optimiser et itérer {#optimize}
 
@@ -216,7 +216,7 @@ Utilisez les informations pour apporter des améliorations :
 
 [Optimiser vos parcours →](optimize.md) | [→ Optimisation de l’heure d’envoi](send-time-optimization.md)
 
-➡️ **Vous voulez démarrer ?** [Créer votre premier parcours maintenant→](journey-gs.md)
+➡️ **Prêt à démarrer ?** [Créer votre premier parcours maintenant →](journey-gs.md)
 
 ## Cas d’utilisation réels {#use-cases}
 
@@ -225,7 +225,7 @@ Découvrez des exemples pratiques qui montrent comment appliquer des concepts de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Bienvenue aux nouvelles personnes abonnées**
 
@@ -235,7 +235,7 @@ Lorsqu’un client ou une cliente s’abonne à votre service, déclenchez un pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimisation de l’heure d’envoi**
 
@@ -245,7 +245,7 @@ Utilisez l’IA pour diffuser des e-mails lorsque chaque personne cliente est la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Accélérer les diffusions**
 
@@ -255,7 +255,7 @@ Augmentez progressivement le volume des messages pour améliorer votre réputati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage par jour de la semaine**
 
@@ -265,7 +265,7 @@ Envoyez du contenu différent en fonction du jour de la semaine où les clientes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagnes multicanaux**
 
@@ -275,7 +275,7 @@ Orchestrez des expériences optimales sur les canaux e-mail, push, SMS et web da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tous les cas d’utilisation**
 
@@ -293,7 +293,7 @@ Explorez la bibliothèque complète des cas d’utilisation de parcours avec des
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expressions avancées**
 
@@ -313,7 +313,7 @@ Gérez les audiences globales avec des ajustements de fuseau horaire automatique
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Mode test et test à blanc**
 
@@ -333,7 +333,7 @@ Dupliquez des parcours dans les sandbox pour rationaliser les workflows de test 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Balises et organisation**
 
@@ -343,7 +343,7 @@ Utilisez des balises pour classer et filtrer les parcours afin d’améliorer la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -360,9 +360,9 @@ Limitez le débit des messages pour gérer la réputation des envois et éviter 
 
 Obtenez une présentation visuelle des composants de parcours et découvrez les principes de base de la création de parcours dans la zone de travail :
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **Vous voulez plus de vidéos ?** [Découvrir les tutoriels vidéo sur les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Vous souhaitez plus de vidéos ?** [Explorer les tutoriels vidéo parcours ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Questions courantes {#common-questions}
 
@@ -398,7 +398,7 @@ Vous pouvez modifier des éléments limités (nom, contenu du message), mais les
 
 +++
 
-➡️ **Vous avez d’autres questions ?** [Consulter l’intégralité des question fréquentes sur les parcours](journey-faq.md) avec plus de 40 réponses détaillées
+➡️ **Plus de questions ?** [Voir la FAQ complète sur le Parcours ](journey-faq.md) avec plus de 40 réponses détaillées
 
 ## Besoin d’aide ? {#help}
 
@@ -423,4 +423,4 @@ Configurez des **[alertes de parcours](../reports/alerts.md)** pour recevoir des
 * **[Résolution des problèmes d’exécution](troubleshooting-execution.md)** – Déboguer les problèmes d’exécution de parcours
 * **[Résolution des problèmes d’activités entrantes](troubleshooting-inbound.md)** – Corriger les problèmes d’entrée et de qualification
 
-**Vous voulez créer votre premier parcours ?** [&#x200B; Cʼest parti ! →](journey-gs.md)
+**Prêt à créer votre premier parcours ?** [Commencer maintenant →](journey-gs.md)

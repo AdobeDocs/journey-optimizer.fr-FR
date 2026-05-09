@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 93%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez par exemple sélectionner un modèle d’IA pour le canal e-mail et 
 
 Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer] :
 
-* Les **modèles d’optimisation automatique** visent à proposer des offres qui optimisent le retour (KPI) défini par les clients commerciaux. Ces KPI peuvent prendre la forme de taux de conversion, de chiffres dʼaffaires, etc. À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme cible la conversion de lʼoffre. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances « globales » des offres. [En savoir plus](auto-optimization-model.md)
+* Les **modèles d’optimisation automatique** visent à proposer des offres qui optimisent le retour (KPI) défini par les clients commerciaux. Ces indicateurs de performance clés peuvent prendre la forme de taux de conversion, de revenus, etc. À ce stade, l’optimisation automatique se concentre sur l’optimisation des clics sur les offres avec la conversion d’offres comme cible. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances « globales » des offres. [En savoir plus](auto-optimization-model.md)
 
 * **Les modèles d’optimisation personnalisés** vous permettent de définir des objectifs métier et d’utiliser les données client pour entraîner des modèles orientés métier afin de diffuser des offres personnalisées et d’optimiser les KPI. [En savoir plus](personalized-optimization-model.md)
 
@@ -69,4 +69,4 @@ Les principales étapes pour créer et utiliser des modèles d’IA sont les sui
 
 Découvrez comment créer un modèle d’IA pour Offer Decisioning et comment l’appliquer à une décision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445646?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

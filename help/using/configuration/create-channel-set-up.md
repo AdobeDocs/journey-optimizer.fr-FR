@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -74,7 +74,7 @@ Ce paramètre simplifie la configuration rapide de canaux marketing, mettant fac
 
 1. Pour simplifier le processus de configuration, les ressources nécessaires sont automatiquement créées pour vous aider à démarrer. Cela comprend la création d’une **[!UICONTROL propriété de balise mobile]** et l’installation d’extensions.
 
-[En savoir plus sur les ressources générées automatiquement](set-mobile-config.md#auto-create-resources)
+   [En savoir plus sur les ressources générées automatiquement](set-mobile-config.md#auto-create-resources)
 
 1. Une fois la génération des ressources terminée, suivez les instructions de l’interface d’utilisation pour configurer et valider vos SDK et canaux.
 

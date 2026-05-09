@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: ressources, intégration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '584'
 ht-degree: 96%
 
 ---
@@ -47,7 +47,7 @@ Avec une licence Entreprise, les utilisateurs et les utilisatrices disposent d�
 
 ![](assets/express-licence.png)
 
-Pour plus d’informations sur les cas d’utilisation disponibles pour les utilisateurs et les utilisatrices disposant d’une licence Enterprise pour Adobe Express, consultez la [documentation web d’Adobe Express](https://helpx.adobe.com/fr/express/web.html).
+Pour plus d’informations sur les cas d’utilisation disponibles pour les utilisateurs et les utilisatrices disposant d’une licence Enterprise pour Adobe Express, consultez la [documentation web d’Adobe Express](https://helpx.adobe.com/express/web.html).
 
 ## Utilisation d’Adobe Express sans licence Entreprise  {#edit}
 
@@ -146,7 +146,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Découvrez comment modifier vos ressources dans Adobe Journey Optimizer à l’aide des outils d’Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455525/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

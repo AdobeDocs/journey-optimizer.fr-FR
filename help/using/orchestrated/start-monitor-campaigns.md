@@ -7,10 +7,10 @@ mini-toc-levels: 1
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 41%
+source-wordcount: '1604'
+ht-degree: 43%
 
 ---
 
@@ -47,7 +47,7 @@ Les campagnes orchestrées passent par un ensemble défini d’états. Les étap
 >
 >Toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Enregistrer l’audience]** et des activités de canal. L’opération n’a aucun impact fonctionnel sur vos données ou votre audience.
 
-Pour tester une campagne orchestrée, ouvrez la campagne et sélectionnez **[!UICONTROL Démarrer]**. Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin de la zone de travail soit atteinte.
+Pour tester une campagne orchestrée, ouvrez la campagne et sélectionnez **[!UICONTROL Démarrer]**. Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à la fin de la zone de travail.
 
 ![Bouton Démarrer dans la barre d’outils de la zone de travail de campagne](assets/campaign-start.png){zoomable="yes"}
 
@@ -73,7 +73,7 @@ Si vous avez ajouté des activités de canal dans la zone de travail, vous pouve
 >Avant de cliquer sur **[!UICONTROL Publier]**, confirmez ce qui suit :
 >* La campagne s’est exécutée correctement en mode test sans erreur dans les [logs](#logs-tasks).
 >* Le contenu du message a été prévisualisé à l’aide de l’option **[!UICONTROL Simuler du contenu]**.
->* Le [&#x200B; planning est configuré &#x200B;](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
+>* Le [ planning est configuré ](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
 >* Vous avez examiné le comportement [confirmation d’envoi](#confirm-sending) : pour les campagnes non récurrentes, aucun message n’est envoyé tant que vous n’avez pas explicitement approuvé l’envoi après la publication.
 
 ## Publier la campagne {#publish}
@@ -157,7 +157,7 @@ Les indicateurs visuels de statut vous aident à déterminer les performances de
 |-----|------------|
 | ![Statut en attente](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | L’activité est en cours d’exécution. |
 | ![Indicateur de statut Attention requise](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
-| ![Statut d’erreur](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les journaux de campagne orchestrés pour plus d’informations. |
+| ![Statut d’erreur](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème et obtenir davantage d’informations, ouvrez les journaux de campagne orchestrée. |
 | ![Statut de succès](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | L’activité a été exécutée correctement. |
 
 ### Logs et tâches {#logs-tasks}

@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1692'
 ht-degree: 95%
 
 ---
@@ -261,7 +261,7 @@ La campagne est créée et ajoutée à la liste des campagnes.
 
 ## Ressources supplémentaires
 
-* **Prise en main** - [Commencer avec les campagnes](get-started-with-campaigns.md) | [Créer votre première campagne d’action](create-campaign.md) | [Guide des campagnes déclenchées par API &#x200B;](api-triggered-campaigns.md) | [Guide des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
+* **Prise en main** - [Commencer avec les campagnes](get-started-with-campaigns.md) | [Créer votre première campagne d’action](create-campaign.md) | [Guide des campagnes déclenchées par API ](api-triggered-campaigns.md) | [Guide des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
 
 * **Configuration de la campagne** - [Propriétés de la campagne](campaign-properties.md) | [Actions et canaux de campagne](campaign-action.md) | [Conception de contenu de campagne](campaign-content.md) | [Sélection de l’audience de campagne](campaign-audience.md) | [Planification de campagne](campaign-schedule.md)
 

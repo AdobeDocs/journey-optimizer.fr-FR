@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---

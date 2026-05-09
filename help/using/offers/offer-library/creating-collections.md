@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '485'
 ht-degree: 100%
 
 ---
@@ -96,6 +96,6 @@ Pour créer une collection, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346687?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

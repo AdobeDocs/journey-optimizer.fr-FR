@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1485'
 ht-degree: 96%
 
 ---
@@ -49,7 +49,7 @@ L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. V
 
 ![Tableau de bord de parcours mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
 
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail. En savoir plus sur la [gestion des versions des parcours](publish-journey.md#journey-versions).
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l&#39;interface d&#39;édition des parcours, au-dessus de la zone de travail. En savoir plus sur la [gestion des versions des parcours](publish-journey.md#journey-versions).
 
 ### Calendrier des parcours {#calendar}
 
@@ -129,7 +129,7 @@ Le type de parcours dépend des activités utilisées dans ce parcours. Il peut 
 * **[!UICONTROL Événements unitaires]** : les événements unitaires des parcours sont liés à un profil spécifique. Les événements sont liés au comportement d’une personne ou d’une chose qui se produit et qui est liée à une personne (par exemple, une personne qui atteint 10 000 points de fidélité). [En savoir plus](../event/about-events.md).
 * **[!UICONTROL Événement métier]**. Le parcours d’événements métier commence par un événement non lié au profil. La configuration de l’événement est effectuée par un utilisateur ou une utilisatrice technique et ne peut pas être modifiée. [En savoir plus](../event/about-events.md).
 * **[!UICONTROL Qualification de l’audience]** - Les parcours de qualification de l’audience écoutent les entrées et les sorties des profils dans [!DNL Adobe Experience Platform] audiences afin de faire en sorte que des individus rejoignent un parcours ou y progressent. [En savoir plus](audience-qualification-events.md).
-* **[!UICONTROL Lecture d’audience]** : dans les parcours Lecture d’audience, toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. [En savoir plus](read-audience.md).
+* **[!UICONTROL Lecture d’audience]** : dans les parcours Lecture d’audience, toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours.  [En savoir plus](read-audience.md).
 
 
 En savoir plus sur les types de parcours et la gestion des entrées associées sur [cette page](entry-management.md).

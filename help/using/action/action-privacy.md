@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 100%
+source-wordcount: '1314'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Après avoir créé les politiques de gouvernance, vous pouvez appliquer les act
 
 Lors de la création d’un parcours ou d’une campagne, après avoir sélectionné une configuration de canal ou ajouté une action personnalisée, le système vérifie si l’action marketing dans la configuration du canal de message ou l’action personnalisée fait partie d’une politique de gouvernance des données. Si tel est le cas, le système vérifie si les champs de l’audience ciblée ou de la personnalisation des messages sont libellés et restreints par la politique. Si un libellé est détecté, la publication du parcours ou de la campagne est bloquée. [Découvrir comment détecter une violation de politique de gouvernance des données](#violation)
 
-## Créer des libellés et des actions marketing{#labels-marketing-actions}
+## Créer des libellés et des actions marketing {#labels-marketing-actions}
 
 La première étape de l’application de la politique de gouvernance des données consiste à créer un libellé et à le joindre à des champs pour lesquels vous souhaitez limiter l’utilisation et à des actions marketing pour chacun de vos canaux.
 
@@ -60,11 +60,11 @@ Maintenant que des libellés et des actions marketing ont été créés, vous po
 
 Lorsque vous utiliserez, dans un parcours, votre action personnalisée Slack configurée avec l’_action marketing Slack_, la politique associée sera utilisée.
 
-## Appliquer des actions marketing dans Journey Optimizer{#apply-marketing-actions}
+## Appliquer des actions marketing dans Journey Optimizer {#apply-marketing-actions}
 
 Pour que les politiques de gouvernance des données soient appliquées dans Journey Optimizer, vous devez appliquer des actions marketing à vos parcours, campagnes ou actions personnalisées.
 
-### Appliquer des actions marketing aux parcours et aux campagnes{#journeys-campaigns}
+### Appliquer des actions marketing aux parcours et aux campagnes {#journeys-campaigns}
 
 Après avoir créé des politiques de gouvernance, vous devez appliquer les actions marketing appropriées dans vos **configurations de canal** Journey Optimizer. Pour ce faire, procédez comme suit :
 
@@ -116,7 +116,7 @@ Prenons l’exemple du champ de groupe sanguin dont vous devez restreindre l’e
 
    * Le **Canal** et l’**Action marketing requise**, définis lors de la configuration de l’action personnalisée, s’affichent en haut de l’écran. Vous ne pouvez pas modifier ces champs.
 
-   * Vous pouvez définir une **Action marketing supplémentaire** pour définir le type d’action personnalisée. Vous pouvez ainsi définir l’objectif de l’action personnalisée dans ce parcours. Outre l’action marketing requise, généralement spécifique à un canal, vous pouvez définir une action marketing supplémentaire qui sera spécifique à l’action personnalisée dans ce parcours particulier. Par exemple : une communication relative à un entraînement, une newsletter, une communication sur la condition physique, etc. L’action marketing requise et l’action marketing supplémentaire s’appliquent toutes deux. Dans notre exemple, nous n’utilisons pas d’action marketing supplémentaire.
+   * Vous pouvez définir une **Action marketing supplémentaire** pour définir le type d’action personnalisée. Vous pouvez ainsi définir l’objectif de l’action personnalisée dans ce parcours. Outre l’action marketing requise, généralement spécifique à un canal, vous pouvez définir une action marketing supplémentaire qui sera spécifique à l’action personnalisée dans ce parcours particulier. Par exemple : une communication sur l’entraînement, une newsletter, une communication sur la condition physique, etc. L’action marketing requise et l’action marketing supplémentaire s’appliqueront toutes deux. Dans notre exemple, nous n’utilisons pas d’action marketing supplémentaire.
 
 Si l’un des champs étiquetés _ePHI1_ (dans notre exemple, le champ de groupe sanguin) est détecté dans les paramètres d’action, une erreur s’affiche, vous empêchant de publier le parcours. [Découvrir comment détecter une violation de politique de gouvernance](#violation)
 

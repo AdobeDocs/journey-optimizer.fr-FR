@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2117'
 ht-degree: 99%
 
 ---
@@ -123,13 +123,13 @@ Notez qu’une description complète des résultats doit tenir compte de toutes 
 
 Pour comprendre les calculs statistiques, reportez-vous à cette [page](../content-management/experiment-calculations.md).
 
-### &#x200B;1. Comparer les mesures normalisées {#normalized-metrics}
+### &#x200B;1. Comparaison des mesures normalisées {#normalized-metrics}
 
 Lorsque vous comparez les performances de deux traitements, vous devez toujours comparer les mesures normalisées afin de tenir compte des différences du nombre de profils exposés à chaque traitement.
 
 Par exemple, si l’objectif de l’expérience est défini sur **[!UICONTROL Ouvertures uniques]**, et qu’un traitement donné a été présenté à 10 000 profils avec 200 ouvertures uniques enregistrées, cela représente un **[!UICONTROL taux de conversion]** de 2 %. Pour les mesures non uniques, par exemple la mesure Ouvertures, la mesure normalisée s’affiche sous la forme d’un **[!UICONTROL Nombre par profil]**, tandis que pour les mesures continues telles que le Prix total, la mesure normalisée s’affiche sous la forme d’un **[!UICONTROL Total par profil]**.
 
-### &#x200B;2. concentrez-vous sur les intervalles de confiance {#confidence-intervals}
+### &#x200B;2. se concentrer sur les intervalles de confiance {#confidence-intervals}
 
 Lorsque vous exécutez des expériences sur des échantillons de vos profils, le taux de conversion observé pour un traitement donné représente une estimation du taux de conversion sous-jacent réel.
 

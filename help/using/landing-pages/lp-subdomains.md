@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, sous-domaines, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1013'
 ht-degree: 100%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 100%
 >id="ajo_admin_subdomain_lp"
 >title="Déléguer un sous-domaine de page de destination"
 >abstract="Vous devez configurer un sous-domaine à utiliser pour vos pages de destination, car vous aurez besoin de ce sous-domaine pour créer un préréglage de page de destination. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou configurer un nouveau sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="Créer un préréglage de la page de destination"
 >abstract="Pour pouvoir créer un préréglage de la page de destination, vérifiez que vous avez déjà configuré au moins un sous-domaine de la page de destination à sélectionner dans la liste Nom du sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 ## Commencer avec les sous-domaines de page de destination {#gs-lp-subdomains}
 
@@ -52,7 +52,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit 
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Sous-domaines de page de destination]**.
 
-1. Cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
+1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
 
    ![](assets/lp_set-up-subdomain.png)
 
@@ -103,7 +103,7 @@ Pour configurer un nouveau sous-domaine, procédez comme suit.
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Sous-domaines de page de destination]**.
 
-1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
+1. Cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
 1. Sélectionnez **[!UICONTROL Ajouter votre propre domaine]** de la section **[!UICONTROL Type de configuration]**.
 

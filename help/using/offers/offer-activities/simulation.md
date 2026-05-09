@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '912'
 ht-degree: 100%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 100%
 
 ## À propos de la simulation {#about-simulation}
 
-Pour valider votre logique de prise de décision, vous pouvez simuler les offres qui seront diffusées à un profil de test pour un emplacement donné. 
+Pour valider votre logique de prise de décision, vous pouvez simuler les offres qui seront diffusées à un profil de test pour un emplacement donné.
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-Vous pouvez ainsi tester et affiner différentes versions de vos offres sans aucun impact sur les destinataires ciblés. 
+Vous pouvez ainsi tester et affiner différentes versions de vos offres sans aucun impact sur les destinataires ciblés.
 
 >[!NOTE]
 >
 >Cette fonctionnalité simule une demande unique à l’API [!DNL Decisioning]. Pour en savoir plus, consultez la section [Diffuser des offres à l’aide de l’API Decisioning](../api-reference/offer-delivery-api/decisioning-api.md).
 
-Pour accéder à cette fonctionnalité, sélectionnez l’onglet **[!UICONTROL Simulation]** dans le menu **[!UICONTROL Gestion des décisions]**/**[!UICONTROL Offres]**. 
+Pour accéder à cette fonctionnalité, sélectionnez l’onglet **[!UICONTROL Simulation]** dans le menu **[!UICONTROL Gestion des décisions]**/**[!UICONTROL Offres]**.
 
 ![](../assets/offers_simulation-tab.png)
 
@@ -59,7 +59,7 @@ Pour accéder à cette fonctionnalité, sélectionnez l’onglet **[!UICONTROL S
 >title="Ajout de profils de test"
 >abstract="Vous pouvez ajouter un profil de test en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Vous devez disposer de profils de test déjà disponibles pour pouvoir les utiliser en simulation."
 
-Vous devez d’abord sélectionner les profils de test que vous allez utiliser pour la simulation. 
+Vous devez d’abord sélectionner les profils de test que vous allez utiliser pour la simulation.
 
 >[!CAUTION]
 >
@@ -69,21 +69,21 @@ Vous devez d’abord sélectionner les profils de test que vous allez utiliser p
 
    ![](../assets/offers_simulation-manage-profile.png)
 
-1. Sélectionnez l’espace de noms d’identité à utiliser pour identifier les profils de test. Dans cet exemple, nous utiliserons l’espace de noms **E-mail**. 
+1. Sélectionnez l’espace de noms d’identité à utiliser pour identifier les profils de test. Dans cet exemple, nous utiliserons l’espace de noms **E-mail**.
 
    >[!NOTE]
    >
    >Un espace de noms d’identité définit le contexte d’un identifiant, tel qu’une adresse e-mail ou un identifiant CRM. Apprenez-en davantage sur les espaces de noms d’identité d’Adobe Experience Platform [dans cette section](../../audience/get-started-identity.md){target="_blank"}.
 
-1. Saisissez la valeur d’identité et cliquez sur **[!UICONTROL Affichage]** pour répertorier les profils disponibles. 
+1. Saisissez la valeur d’identité et cliquez sur **[!UICONTROL Affichage]** pour répertorier les profils disponibles.
 
    ![](../assets/offers_simulation-add-profile.png)
 
-1. Ajoutez d’autres profils si vous souhaitez tester différentes données de profil et enregistrez votre sélection. 
+1. Ajoutez d’autres profils si vous souhaitez tester différentes données de profil et enregistrez votre sélection.
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. Une fois ajoutés, tous les profils sont répertoriés dans la liste déroulante sous **[!UICONTROL Profil de test]**. Vous pouvez basculer entre les profils de test enregistrés pour afficher les résultats de chaque profil sélectionné. 
+1. Une fois ajoutés, tous les profils sont répertoriés dans la liste déroulante sous **[!UICONTROL Profil de test]**. Vous pouvez basculer entre les profils de test enregistrés pour afficher les résultats de chaque profil sélectionné.
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
@@ -91,40 +91,40 @@ Vous devez d’abord sélectionner les profils de test que vous allez utiliser p
    >
    >Les profils sélectionnés restent répertoriés en tant que profils de test dans l’onglet **[!UICONTROL Simulation]** d’une session à l’autre jusqu’à ce qu’ils soient supprimés à l’aide de **[!UICONTROL Gérer le profil]**.
 
-1. Vous pouvez cliquer sur le lien **[!UICONTROL Détails du profil]** pour afficher les données de profil sélectionnées. 
+1. Vous pouvez cliquer sur le lien **[!UICONTROL Détails du profil]** pour afficher les données de profil sélectionnées.
 
 ## Ajout de portée de décision {#add-decision-scopes}
 
-Sélectionnez maintenant les décisions d’offre que vous souhaitez simuler sur vos profils de test. 
+Sélectionnez maintenant les décisions d’offre que vous souhaitez simuler sur vos profils de test.
 
 1. Sélectionnez **[!UICONTROL Ajouter une portée de décision]**.
 
    ![](../assets/offers_simulation-add-decision.png)
 
-1. Sélectionnez un emplacement dans la liste. 
+1. Sélectionnez un emplacement dans la liste.
 
    ![](../assets/offers_simulation-add-decision-scope.png)
 
-1. Les décisions disponibles s’affichent. 
+1. Les décisions disponibles s’affichent.
 
-   * Vous pouvez utiliser le champ de recherche pour affiner la sélection. 
+   * Vous pouvez utiliser le champ de recherche pour affiner la sélection.
    * Vous pouvez cliquer sur le lien **[!UICONTROL Ouvrir les décisions d’offre]** pour ouvrir la liste de toutes les décisions que vous avez créées. En savoir plus sur les [décisions](create-offer-activities.md).
 
    Sélectionnez la décision de votre choix et cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
-1. La portée de décision que vous venez de définir s’affiche dans l’espace de travail principal. 
+1. La portée de décision que vous venez de définir s’affiche dans l’espace de travail principal.
 
-   Vous pouvez ajuster le nombre d’offres que vous souhaitez demander. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour cette portée de décision. 
+   Vous pouvez ajuster le nombre d’offres que vous souhaitez demander. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour cette portée de décision.
 
    ![](../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
-   >Vous pouvez demander jusqu’à 30 offres. 
+   >Vous pouvez demander jusqu’à 30 offres.
 
-1. Répétez les étapes ci-dessus pour ajouter autant de décisions que nécessaire. 
+1. Répétez les étapes ci-dessus pour ajouter autant de décisions que nécessaire.
 
    ![](../assets/offers_simulation-add-more-decisions.png)
 
@@ -178,27 +178,27 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 ## Afficher les résultats de la simulation {#simulation-results}
 
-Une fois que vous avez ajouté une portée de décision et sélectionné un profil de test, vous pouvez afficher les résultats. 
+Une fois que vous avez ajouté une portée de décision et sélectionné un profil de test, vous pouvez afficher les résultats.
 
 1. Cliquez sur **[!UICONTROL Afficher les résultats]**.
 
    ![](../assets/offers_simulation-view-results.png)
 
-1. La ou les meilleures offres disponibles sont affichées en fonction du profil sélectionné pour chaque décision. 
+1. La ou les meilleures offres disponibles sont affichées en fonction du profil sélectionné pour chaque décision.
 
-   Sélectionnez une offre pour afficher ses détails. 
+   Sélectionnez une offre pour afficher ses détails.
 
    ![](../assets/offers_simulation-offer-details.png)
 
 1. Cliquez sur **[!UICONTROL Afficher le code]** pour afficher les payloads de la requête et de la réponse. [En savoir plus](#view-code)
 
-1. Sélectionnez un autre profil dans la liste pour afficher les résultats des décisions d’offre pour un autre profil de test. 
+1. Sélectionnez un autre profil dans la liste pour afficher les résultats des décisions d’offre pour un autre profil de test.
 
-1. Vous pouvez ajouter, supprimer ou mettre à jour les portées de décision autant de fois que nécessaire. 
+1. Vous pouvez ajouter, supprimer ou mettre à jour les portées de décision autant de fois que nécessaire.
 
 >[!NOTE]
 >
->Chaque fois que vous modifiez des profils ou mettez à jour des portées de décision, vous devez actualiser les résultats à l’aide du bouton **[!UICONTROL Afficher les résultats]**. 
+>Chaque fois que vous modifiez des profils ou mettez à jour des portées de décision, vous devez actualiser les résultats à l’aide du bouton **[!UICONTROL Afficher les résultats]**.
 
 ## Afficher le code {#view-code}
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: fuseau horaire, propriétés, parcours, condition, heure, date, personnalisé
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '378'
 ht-degree: 65%
 
 ---

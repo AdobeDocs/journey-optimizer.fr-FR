@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2626'
-ht-degree: 93%
+source-wordcount: '2649'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 >title="Mettre en pause votre parcours"
 >abstract="Mettez en pause un parcours actif pour empêcher de nouveaux profils de le rejoindre. Choisissez de supprimer ou de conserver les profils actuellement dans le parcours. S’ils sont conservés, ils reprendront l’exécution à l’activité d’action suivante lors de la reprise du parcours. Idéal pour les mises à jour ou les arrêts d’urgence, sans perte de la progression."
 
-Vous pouvez mettre en pause vos parcours actifs, effectuer toutes les modifications nécessaires, puis les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
+Vous pouvez suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
 
 ## Avantages clés {#journey-pause-benefits}
 
@@ -124,7 +124,7 @@ Pour savoir quand un parcours a été suspendu ou repris pour la dernière fois,
 * Le nom d’affichage et l’identifiant de l’utilisateur qui a effectué la dernière pause et la dernière reprise
 * Paramètres du parcours en pause (comportement de pause, durée maximale de pause, état de reprise automatique, identifiant de pause)
 
-Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [&#x200B; Accès aux propriétés d’un parcours &#x200B;](journey-properties.md#access-properties).
+Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [ Accès aux propriétés d’un parcours ](journey-properties.md#access-properties).
 
 ## Appliquer un critère de sortie dans un parcours mis en pause {#journey-exit-criteria}
 

@@ -5,10 +5,10 @@ title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 57%
+source-wordcount: '1803'
+ht-degree: 56%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 57%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
->title="Cible"
+>title="Target"
 >abstract="Espace réservé pour la section Cible"
 
 <!--
@@ -113,7 +113,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
 1. **Sélectionner une configuration de canal**
 
-   Celle-ci est définie par une [équipe d’administration système](../../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [Découvrir comment configurer les canaux](../../configuration/channel-surfaces.md)
+   Celle-ci est définie par une [équipe d’administration système](../../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [Découvrez comment configurer des configurations de canal](../../configuration/channel-surfaces.md)
 
    ![image illustrant la section Actions](../assets/channel-actions.png)
 
@@ -143,7 +143,7 @@ Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction 
 
 Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grandes quantités dans le cadre de campagnes. La diffusion rapide est utilisée lorsque le retard de diffusion des messages est critique pour l&#39;entreprise. Par exemple, vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, telle que des nouvelles importantes aux utilisateurs qui ont installé votre application de canal d&#39;actualités. Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../../push/create-push.md#rapid-delivery).
 
-Pour plus d&#39;informations sur les performances en mode de diffusion rapide, consultez la description du produit [&#128279;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Pour plus d&#39;informations sur les performances en mode de diffusion rapide, consultez la description du produit [](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 

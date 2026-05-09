@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 81%
 
 ---

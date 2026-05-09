@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 92%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 92%
 
 Les campagnes d’action (ou campagnes planifiées) permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des mentions légales ou des mises à jour de politiques.
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 
 >[!NOTE]

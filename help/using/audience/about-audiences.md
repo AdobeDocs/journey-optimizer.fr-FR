@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 94%
+source-wordcount: '629'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +38,9 @@ Lorsque les données en temps réel sont diffusées ou chargées par lots, les j
 
 Cette documentation fournit des informations sur l’utilisation des audiences dans [!DNL Adobe Journey Optimizer]. Des informations détaillées sur le portail Audience et les audiences sont disponibles dans la documentation du service de segmentation Adobe Experience Platform. Pour plus d’informations, reportez-vous à ces sections :
 
-* [Guide de l’interface d’utilisation du Service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guide de l’IU de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
-* [Service de segmentation - Questions fréquentes](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq){target="_blank"}
+* [Segmentation Service - Questions fréquentes](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ Cette documentation fournit des informations sur l’utilisation des audiences d
 
 Les audiences sont disponibles à partir du menu **[!UICONTROL Client ou cliente]** > **[!UICONTROL Audiences]**.
 
-Un tableau de bord montre visuellement les points communs entre les audiences importantes et facilite l’exploration des tendances essentielles des audiences. Par exemple, des modifications de la taille de l’audience sur une période donnée ou des pics soudains d’audiences peuvent mettre en évidence des événements ou des actions qui ont provoqué un rétrécissement ou une croissance de l’audience, comme une offre réussie. 
+Un tableau de bord montre visuellement les points communs entre les audiences importantes et facilite l’exploration des tendances essentielles des audiences. Par exemple, des modifications de la taille de l’audience sur une période donnée ou des pics soudains d’audiences peuvent mettre en évidence des événements ou des actions qui ont provoqué un rétrécissement ou une croissance de l’audience, comme une offre réussie.
 
 ![](assets/audiences-overview.png)
 
@@ -63,7 +63,7 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 * **Définitions de segment** : créez une définition d’audience à l’aide du Service de segmentation d’Adobe Experience Platform. Les audiences sont générées à partir des définitions de segment et actualisées à différents moments en fonction de leur type d’évaluation :
 
    * Segmentation du streaming : les audiences sont mises à jour en temps réel au fur et à mesure que de nouvelles données affluent, assurant ainsi une pertinence continue basée sur l’activité des utilisateurs et utilisatrices.
-   * Segmentation par lots : les audiences sont actualisées toutes les 24 heures, capturant un instantané des profils à un intervalle fixe. Lorsqu’ils sont utilisés dans des parcours, les membres de segment nouvellement qualifiés peuvent ne pas apparaître avant l’instantané suivant. [En savoir plus sur le minutage](../building-journeys/audience-qualification-events.md#timing-segment-membership).
+   * Segmentation par lots : les audiences sont actualisées toutes les 24 heures, capturant un instantané des profils à un intervalle fixe. Lorsqu’ils sont utilisés dans des parcours, les membres de segment nouvellement qualifiés peuvent ne pas apparaître avant l’instantané suivant. [En savoir plus sur le minutage](../building-journeys/audience-qualification-events.md#timing-segment-membership).
    * Segmentation Edge : les audiences sont évaluées instantanément à la périphérie, ce qui permet une personnalisation en temps réel.
 
   [Découvrir comment créer des définitions de segment](creating-a-segment-definition.md)

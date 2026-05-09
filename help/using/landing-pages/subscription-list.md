@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, liste, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 95%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 >id="ajo_subscription_list"
 >title="Configurer une liste d’abonnements"
 >abstract="Créez une liste d’abonnements afin de rassembler les profils ayant accepté de recevoir des communications sur un objet ou un événement spécifique. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=fr#define-subscription-list" text="Créer une liste dʼabonnements"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Créer une liste dʼabonnements"
 
-Un service d’abonnement fait référence aux produits et services marketing fournis aux clients qui ont choisi de recevoir des communications sur un sujet/événement/intérêt spécifique etc. de manière régulière. Dans [!DNL Journey Optimizer], ces clients inscrits sont regroupés dans une liste d’abonnements.
+Un service d’abonnement fait référence aux produits et services marketing fournis aux clients qui ont choisi de recevoir régulièrement des communications sur un sujet/événement/intérêt spécifique, etc. Dans [!DNL Journey Optimizer], ces clients inscrits sont regroupés dans une liste d’abonnements.
 
 Voici quelques exemples de services dʼabonnement :
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1833'
 ht-degree: 82%
 
 ---
@@ -295,7 +295,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
     ![](assets/ip-warmup-upload-success.png)
     
-    >[ !REMARQUE]
+    >[!REMARQUE]
     >
     >En cas d’échec du chargement, assurez-vous d’utiliser le bon format de fichier et de mise en forme (.xls ou .xlsx). Utilisez le [modèle](assets/IPWarmupPlan-Template.xlsx) fourni par Adobe.
 

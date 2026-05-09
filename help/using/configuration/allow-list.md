@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 keywords: liste autorisée, liste sécurisée, e-mail, délivrabilité, sandbox, domaines, suppression, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 73%
@@ -55,7 +55,7 @@ Pour activer la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![Bouton bascule pour activer la liste autorisée &#x200B;](assets/allow-list-edit.png)
+   ![Bouton bascule pour activer la liste autorisée ](assets/allow-list-edit.png)
 
 1. Sélectionnez **[!UICONTROL Activer la liste autorisée]**. La liste autorisée est maintenant active.
 
@@ -76,7 +76,7 @@ Pour désactiver la liste autorisée, procédez comme suit.
 
 1. Sélectionnez le bouton bascule.
 
-   ![Bouton bascule pour désactiver la liste autorisée &#x200B;](assets/allow-list-edit-active.png)
+   ![Bouton bascule pour désactiver la liste autorisée ](assets/allow-list-edit-active.png)
 
 1. Sélectionnez **[!UICONTROL Désactiver la liste autorisée]**. La liste autorisée n’est plus active.
 
@@ -118,7 +118,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 1. Sélectionnez le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]**.
 
-   ![Bouton Ajouter un e-mail ou un domaine sur la page de liste autorisée &#x200B;](assets/allowed-list-add-email.png)
+   ![Bouton Ajouter un e-mail ou un domaine sur la page de liste autorisée ](assets/allowed-list-add-email.png)
 
 1. Choisissez le type d&#39;adresse : **[!UICONTROL Adresse e-mail]** ou **[!UICONTROL Adresse de domaine]**.
 
@@ -154,7 +154,7 @@ Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous 
 
 1. Sélectionnez le bouton **[!UICONTROL Téléchargement le CSV]**.
 
-   ![Bouton Télécharger CSV sur la page liste autorisée &#x200B;](assets/allowed-list-download-csv.png)
+   ![Bouton Télécharger CSV sur la page liste autorisée ](assets/allowed-list-download-csv.png)
 
 1. Patientez jusqu’à ce que le fichier soit généré.
 

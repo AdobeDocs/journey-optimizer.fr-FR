@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: intégré, source, données, platform, intégration
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 43a4b85adb74e24c7c57fa74177795d014b88774
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 94%
+source-wordcount: '451'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,7 @@ Voici les étapes principales pour ajouter des groupes de champs à la source de
 
    >[!NOTE]
    >
-   >Seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Source de données [!DNL Journey Optimizer]. Pour plus d’informations, voir [Classe XDM Individual Profile](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+   >Seuls les schémas basés sur un profil individuel XDM sont pris en charge dans la configuration de Source de données [!DNL Journey Optimizer]. Pour plus d’informations, voir [Classe XDM Individual Profile](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
 
 1. Sélectionnez les champs à utiliser et enregistrez vos modifications.
 

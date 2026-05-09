@@ -5,9 +5,9 @@ title: Utiliser l’activité Enrichissement
 description: Découvrir comment utiliser l’activité Enrichissement
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---

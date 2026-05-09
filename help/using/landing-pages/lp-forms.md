@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 75%
+source-wordcount: '2080'
+ht-degree: 78%
 
 ---
 
@@ -26,7 +26,7 @@ Pour capturer des données de profil avec vos pages de destination [!DNL Journey
 >id="ajo_lp_form_connection"
 >title="Sélectionner le point d’entrée à utiliser"
 >abstract="Définissez le point d&#39;entrée de streaming où les données sont envoyées lors de l’envoi du formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Créer une connexion de streaming d’API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -64,7 +64,7 @@ Pour créer un préréglage de formulaire, suivez les étapes ci-dessous.
 
 1. Sélectionnez la **[!UICONTROL connexion en streaming]** à utiliser pour ce formulaire. Il s’agit du point d’entrée en streaming où les données sont envoyées lors de l’envoi du formulaire.
 
-   Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   Pour en savoir plus sur la création d’une connexion source en streaming, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ Pour créer un préréglage de formulaire, suivez les étapes ci-dessous.
    >* **Type de données** doit être défini sur **XDM** (et non sur Données brutes).
    >* **Authentification** doit être défini sur **désactivée** (connexion non authentifiée).
    >
-   >Si votre connexion en streaming n’apparaît pas dans la liste, vérifiez que ces deux conditions sont remplies. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Si votre connexion en streaming n’apparaît pas dans la liste, vérifiez que ces deux conditions sont remplies. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Sélectionnez un **[!UICONTROL jeu de données]** à lier au formulaire. C’est là que les réponses au formulaire seront stockées et reflétées. Vous pouvez saisir du texte pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
 
@@ -103,7 +103,7 @@ Tous les formulaires existants s’affichent. Vous pouvez les filtrer selon leur
 >id="ajo_lp_form_preset"
 >title="Sélectionner un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Créer un préréglage de formulaire"
 
 Pour créer un formulaire, suivez les étapes ci-dessous.
 
@@ -283,7 +283,7 @@ Vous pouvez désormais intégrer ce formulaire à une page de destination afin d
 
 1. Enregistrez et testez votre page de destination. [Voici comment procéder](create-lp.md#test-landing-page)
 
-Une fois votre page de destination [publiée](create-lp.md#publish-landing-page) et utilisée dans un parcours, lorsque les utilisateurs remplissent le formulaire, les informations saisies sont ingérées dans le jeu de données sélectionné. Patientez jusqu’à 15 minutes pour que les données soient traitées et disponibles pour utilisation.
+Une fois votre page de destination [publiée](create-lp.md#publish-landing-page) et utilisée dans un parcours, lorsque les utilisateurs et utilisatrices remplissent le formulaire, les informations saisies sont ingérées dans le jeu de données sélectionné. Patientez jusqu’à 15 minutes pour que les données soient traitées et disponibles pour utilisation.
 
 >[!NOTE]
 >
@@ -299,13 +299,13 @@ Lors de la création d’une page de destination, sélectionnez **[!UICONTROL Ca
 
 +++Puis-je utiliser un jeu de données avec un paramètre prédéfini de formulaire ?
 
-Seuls les jeux de données **&#x200B;**&#x200B;activés pour Profil **et** non activés pour Profil[!DNL Adobe Experience Platform] peuvent être sélectionnés. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire et un seul jeu de données peut être sélectionné par préréglage.
+Seuls les jeux de données [!DNL Adobe Experience Platform] **activés pour Profil** et **non activés pour Profil** peuvent être sélectionnés. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire et un seul jeu de données peut être sélectionné par préréglage.
 
 +++
 
 +++Puis-je réutiliser le même jeu de données ou la même connexion en continu sur plusieurs paramètres prédéfinis de formulaire ?
 
-Oui. Le même jeu de données ou la même connexion en continu peut être réutilisé sur plusieurs paramètres prédéfinis. Vous pouvez également configurer plusieurs préréglages à l’aide de différentes combinaisons de jeux de données et de connexions en continu pour prendre en charge différents scénarios de capture de données.
+Oui. Le même jeu de données ou la même connexion en streaming peut être réutilisé sur plusieurs paramètres prédéfinis. Vous pouvez également configurer plusieurs préréglages à l’aide de différentes combinaisons de jeux de données et de connexions en continu pour prendre en charge différents scénarios de capture de données.
 
 +++
 

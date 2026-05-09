@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 90%
@@ -68,7 +68,7 @@ Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d�
 
 1. Activez l’option **[!UICONTROL Prise en charge de mTLS]**, qui garantit que le client et le serveur s’authentifient mutuellement avant d’établir une connexion sécurisée.
 
-   Pour utiliser mTLS uniquement, sélectionnez **[!UICONTROL Aucune authentification]** dans le menu déroulant **[!UICONTROL Type d’authentification]** puis activez **&#x200B; prise en charge [!UICONTROL mTLS]**.
+   Pour utiliser mTLS uniquement, sélectionnez **[!UICONTROL Aucune authentification]** dans le menu déroulant **[!UICONTROL Type d’authentification]** puis activez ** prise en charge [!UICONTROL mTLS]**.
 
 1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un nouveau paramètre]** pour définir les en-têtes HTTP du message de requête à envoyer au service externe.
 

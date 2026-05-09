@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, intégration, campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 63%
 
 ---
@@ -45,7 +45,7 @@ Un cas d&#39;utilisation complet est présenté dans cette [section](../building
 
 >[!NOTE]
 >
->* Les actions de Campaign v7/v8 peuvent être utilisées avec les actions de canal natives dans le même parcours. Cela ne s’applique pas aux actions Campaign Standard. Voir [&#x200B; Mécanismes de sécurisation de l’activité Campaign](../start/guardrails.md#ac-g).
+>* Les actions de Campaign v7/v8 peuvent être utilisées avec les actions de canal natives dans le même parcours. Cela ne s’applique pas aux actions Campaign Standard. Voir [ Mécanismes de sécurisation de l’activité Campaign](../start/guardrails.md#ac-g).
 >* Les actions Campaign v7/v8 ne peuvent pas être utilisées avec les activités Lecture d’audience ou Qualification d’audience . Consultez les mécanismes de sécurisation Lecture d’audience et Qualification d’audience dans la page Mécanismes de sécurisation .
 
 ![[!DNL Adobe Campaign] paramètres d’intégration et de configuration des actions v7/v8](assets/accintegration2.png)
