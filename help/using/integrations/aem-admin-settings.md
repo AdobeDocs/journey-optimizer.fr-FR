@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, fragments de contenu, administration, référentiel, authentification, auteur, publication
-source-git-commit: edea85366fb6f3a031c0eaec321e6d37bb41dd18
+source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -52,15 +52,15 @@ Pour configurer votre référentiel :
 
 1. Choisissez votre configuration :
 
-   >[!BEGINTABS]
-
-   >[!TAB Configuration de l’auteur uniquement]
+   +++ Configuration de l’auteur uniquement
 
    Sélectionnez **[!UICONTROL Configuration de l’auteur uniquement]** lorsque Journey Optimizer doit lire les fragments de contenu de l’environnement Adobe Experience Manager **auteur** uniquement. La réplication de l’auteur vers la publication et les mises à jour de publication actives ne sont pas prises en charge.
 
    ![](assets/aem-admin-settings-3.png)
 
-   >[!TAB  Configuration de l’instance de publication ]
+   +++
+
+   +++ Configuration de l’instance de publication
 
    1. Sélectionnez **[!UICONTROL Configuration de l’instance de publication]** pour activer les paramètres de l’instance de publication.
 
@@ -74,7 +74,7 @@ Pour configurer votre référentiel :
 
       ![](assets/aem-admin-settings-5.png)
 
-   >[!ENDTABS]
+   +++
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
