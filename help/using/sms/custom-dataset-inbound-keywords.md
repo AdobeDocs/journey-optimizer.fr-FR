@@ -6,16 +6,20 @@ description: Découvrez comment stocker des mots-clés SMS entrants dans un jeu 
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: bf0a24751458660c510997650b9a79fdf1881181
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 17%
+source-wordcount: '518'
+ht-degree: 16%
 
 ---
 
 # Utiliser un jeu de données personnalisé pour les mots-clés entrants {#custom-dataset-inbound-keywords}
 
 Les mots-clés de SMS entrants peuvent être stockés dans un jeu de données personnalisé activé par profil. La configuration se compose d’un schéma Adobe Experience Platform, d’un jeu de données créé à partir de ce schéma et des informations d’identification de l’API SMS Journey Optimizer qui font référence au jeu de données pour les messages entrants.
+
+>[!NOTE]
+>
+>Si aucun jeu de données personnalisé n’est configuré, les mots-clés entrants sont stockés par défaut dans le jeu de données d’événement d’activité entrante __ système. Un profil doit avoir au moins un message envoyé par [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés dans ce jeu de données. [En savoir plus sur les jeux de données système](../data/get-started-datasets.md#system-datasets)
 
 Pour plus d’informations sur les schémas, les groupes de champs et les jeux de données, consultez la documentation Adobe Experience Platform suivante :
 
