@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail
-source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
+source-git-commit: 8efe5aaf0ebf24aa61decf40651c2ecc198ab0bc
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -136,7 +136,7 @@ Cette section fournit des modèles d’implémentation courants pour les liens p
 
 >[!IMPORTANT]
 >
->L’application doit effectuer une **&#x200B;**&#x200B;sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
+>L’application doit effectuer une **** sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
 >
 >N’ouvrez pas simplement l’URL `mclick` dans Safari, car cela va à l’encontre de l’objectif du lien profond.
 
@@ -307,3 +307,4 @@ Oui. Les paramètres UTM que vous configurez dans [!DNL Journey Optimizer] sont 
 Le lien s’ouvre dans le navigateur web par défaut de l’appareil (comportement de suivi des clics standard), au lieu d’être traité comme un lien profond de l’application par le biais du flux de `mclick` décrit sur cette page.
 
 +++
+
