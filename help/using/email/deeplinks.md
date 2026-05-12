@@ -136,7 +136,7 @@ Cette section fournit des modèles d’implémentation courants pour les liens p
 
 >[!IMPORTANT]
 >
->L’application doit effectuer une **** sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
+>L’application doit effectuer une **&#x200B;**&#x200B;sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
 >
 >N’ouvrez pas simplement l’URL `mclick` dans Safari, car cela va à l’encontre de l’objectif du lien profond.
 
