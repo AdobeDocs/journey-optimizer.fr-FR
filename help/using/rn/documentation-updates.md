@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d60e27225dbcbc3ccfc8cf4f5a2c024e0e80422
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '7393'
+source-wordcount: '7447'
 ht-degree: 66%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 66%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Mai 2026 {#may-2026}
+
+* La page **Prise en main des jeux de données** a été mise à jour avec une nouvelle entrée **Entrant** dans la section Jeux de données système, documentant le _Jeu de données d’événement d’activité entrante AJO_. Une note a été ajoutée pour clarifier le fait qu’un profil doit recevoir au moins un message envoyé par [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés dans ce jeu de données. [En savoir plus](../data/get-started-datasets.md#system-datasets)
 
 * La documentation **Exporter le contenu du message** a été étoffée avec une **FAQ sur l&#39;exportation de messages** (contenu personnalisé, images et médias, liens suivis, informations d&#39;identification personnelles, rétention, cas d&#39;utilisation, etc.) et des **exemples de fichiers JSON exportés** pour les SMS et les e-mails. [En savoir plus](../configuration/message-export.md)
 
