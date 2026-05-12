@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
+source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3322'
 ht-degree: 90%
 
 ---
@@ -47,12 +47,12 @@ ht-degree: 90%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours ou campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer avec les parcours](using/building-journeys/journey.md)
-   + {hide-from-toc}[Guide de prise en main du Parcours &#x200B;](using/building-journeys/journey-get-started.md)
+   + Guide de prise en main du Parcours {hide-from-toc}[](using/building-journeys/journey-get-started.md)
    + {hide-from-toc}[types de Parcours et guide de sélection](using/building-journeys/journey-types-selection.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
@@ -80,7 +80,7 @@ ht-degree: 90%
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[Fragments de Parcours &#x200B;](using/building-journeys/journey-fragments.md)
+      + {hide-from-toc}[Fragments de Parcours ](using/building-journeys/journey-fragments.md)
    + Activités {#about-journey-building}
       + [Activités](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
@@ -317,6 +317,7 @@ ht-degree: 90%
          + [Paramètres d’en-tête](using/email/header-parameters.md)
          + [Tracking d’URL](using/email/url-tracking.md)
          + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
+         + [Configuration des liens profonds dans les e-mails](using/email/deeplinks.md)
    + Canal in-app {#in-app}
       + [Canal in-app](/help/rp_landing_pages/in-app-landing-page.md)
       + [Commencer avec les notifications in-app](using/in-app/get-started-in-app.md)
@@ -353,6 +354,7 @@ ht-degree: 90%
          + [Configurer un fournisseur personnalisé](using/sms/sms-configuration-custom.md)
          + [Créer un webhook](using/sms/sms-webhook.md)
          + [Créer une configuration de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
+         + [Utiliser un jeu de données personnalisé pour les mots-clés entrants](using/sms/custom-dataset-inbound-keywords.md)
    + Courrier {#direct-mail}
       + [Courrier](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Commencer à utiliser le courrier](using/direct-mail/get-started-direct-mail.md)
@@ -604,7 +606,7 @@ ht-degree: 90%
          + [Rapport de campagne par e-mail](using/reports/campaign-global-report-cja-email.md)
          + [Rapport de campagne d’expérimentation](using/reports/campaign-global-report-cja-experimentation.md)
          + [Rapport de campagne in-app](using/reports/campaign-global-report-cja-inapp.md)
-         + {hide-from-toc}[&#x200B; Rapport de campagne d’activité dynamique &#x200B;](using/reports/campaign-global-report-cja-activity.md)
+         + {hide-from-toc}[ Rapport de campagne d’activité dynamique ](using/reports/campaign-global-report-cja-activity.md)
          + [Rapport de campagne de notifications push](using/reports/campaign-global-report-cja-push.md)
          + [Rapport de campagne par SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Rapport de campagne web](using/reports/campaign-global-report-cja-web.md)
@@ -896,7 +898,7 @@ ht-degree: 90%
    + [Commencer la configuration des canaux](using/configuration/get-started-configuration.md)
    + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
    + [Exporter le contenu du message](using/configuration/message-export.md)
-   + {hide-from-toc}[Schéma d&#39;export des messages &#x200B;](using/configuration/message-export-schema.md)
+   + {hide-from-toc}[Schéma d&#39;export des messages ](using/configuration/message-export-schema.md)
    + Configuration guidée des canaux {#guided-setup}
       + [Commencer la configuration guidée des canaux](using/configuration/set-mobile-config.md)
       + [Créer une configuration de canal](using/configuration/create-channel-set-up.md)
