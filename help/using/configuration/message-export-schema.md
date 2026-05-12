@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: exportation, messages, jeu de données, schéma, e-mails, SMS
-source-git-commit: 9c3baf2558f81eb105c5bfbd98be6ede4ba49c65
+source-git-commit: cc84ad59f4233967c484c99651edb0558518c58c
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 38%
@@ -454,3 +454,4 @@ Cette section répertorie les champs disponibles dans le jeu de données export�
 **Type:** dateTime
 
 +++
+
