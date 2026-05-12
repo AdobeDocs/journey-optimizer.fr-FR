@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail
-source-git-commit: bdf9528e298bd8e348d59a660a4cbceb35660625
+source-git-commit: 850b97c292679353e5e5f429f9703d31b773c10b
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Les liens profonds dans les e-mails vous permettent de rediriger les destinataires d’un e-mail vers un écran ou un élément de contenu spécifique dans votre application mobile. Cela permet d’amener les personnes directement à l’expérience in-app prévue, sans les acheminer via un navigateur web ou une boutique d’applications, de sorte que le parcours reste pertinent et intégré à la marque.
 
-Pour ajouter un lien profond à un e-mail, assurez-vous que [le suivi des liens est activé](message-tracking.md#enable-tracking). Sélectionnez l’élément que vous souhaitez lier (texte, bouton ou image) dans le Designer Email, cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle et choisissez **[!UICONTROL Lien profond]** pour saisir l’URL de votre lien profond. [En savoir plus sur l&#39;insertion de liens](message-tracking.md#insert-links)
+Pour ajouter un lien profond à un e-mail, assurez-vous que [le suivi des liens est activé](message-tracking.md#enable-tracking). Sélectionnez l’élément que vous souhaitez lier (texte, bouton ou image) dans le Designer d’e-mail, cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle, puis choisissez **[!UICONTROL Lien profond]** pour saisir l’URL de votre lien profond. [En savoir plus sur l&#39;insertion de liens](message-tracking.md#insert-links)
 
 Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés directement vers le contenu in-app prévu, **à condition que vous ayez terminé les étapes de configuration** présentées sur cette page, qui couvre :
 
@@ -50,57 +50,6 @@ Pour pouvoir utiliser des liens profonds dans les e-mails pour vos applications 
       * Sous-domaine délégué
       * ID de bundle de l&#39;application
       * Empreinte du certificat SHA-256
-
-<!--
-Adobe is hosting these files internally so not on customer's side.
-
-1. Validate the URLs below and ensure the content matches the expected format such as in the examples below.
-
-    * **For iOS (AASA)**: `https://data.<delegated_subdomain>/.well-known/apple-app-site-association`
-
-      +++ Example:
-
-      ```json
-      {
-        "applinks": {
-          "apps": [],
-          "details": [
-            {
-              "appID": "<app_bundle_id>",
-              "paths": [
-                "NOT /ee/v1/click/*",
-                "/ee/v1/mclick/*"
-              ]
-            }
-          ]
-        }
-      }
-      ```
-      
-      +++
-
-    * **For Android (assetLinks.json)**: `https://data.<delegated_subdomain>/.well-known/assetlinks.json`
-
-      +++ Example:
-
-      ```json
-      [
-        {
-          "relation": ["delegate_permission/common.handle_all_urls"],
-          "target": {
-            "namespace": "android_app",
-            "package_name": "<app_bundle_id>",
-            "sha256_cert_fingerprints": [
-              "12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34"
-            ]
-          }
-        }
-      ]
-      ```
-
-      +++
-
--->
 
 >[!IMPORTANT]
 >
@@ -187,7 +136,7 @@ Cette section fournit des modèles d’implémentation courants pour les liens p
 
 >[!IMPORTANT]
 >
->L’application doit effectuer une **&#x200B;**&#x200B;sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
+>L’application doit effectuer une **** sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
 >
 >N’ouvrez pas simplement l’URL `mclick` dans Safari, car cela va à l’encontre de l’objectif du lien profond.
 
@@ -293,7 +242,7 @@ Cette section fournit des modèles d’implémentation courants pour les liens p
 * **Tester votre lien profond** : envoyez un BAT et cliquez sur le lien profond sur un appareil sur lequel l’application est installée.
 * **Valider sur des appareils réels** : les liens universels et les comportements de résolution des liens suivis sont plus fiables à valider sur des appareils physiques que sur des simulateurs.
 * **Valider le routage côté application** : si le lien profond n’ouvre pas l’écran attendu, validez le routage côté application et le format de l’URL (hôte/chemin/requête et codage de l’URL).
-* Le comportement des liens d’application/liens universels est le plus fiable après l’installation et l’ouverture de l’application au moins une fois.
+* **Gardez à l’esprit l’initialisation de l’application** : le comportement des liens d’application/liens universels est le plus fiable après l’installation et l’ouverture de l’application au moins une fois.
 
 ## Résolution des problèmes et FAQ {#troubleshooting-faq}
 
