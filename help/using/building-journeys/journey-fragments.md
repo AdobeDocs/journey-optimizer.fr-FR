@@ -7,11 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: fragments, parcours, réutilisation, nœuds, zone de travail, inventaire, réutilisable
 badge: label="Disponibilité limitée" type="Informative"
 version: Journey Orchestration
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 2%
@@ -62,17 +61,17 @@ Pour enregistrer les nœuds de parcours en tant que fragment directement à part
 1. Ouvrez un parcours et sélectionnez un ou plusieurs nœuds connectés sur la zone de travail.
 1. Cliquez sur l’icône **[!UICONTROL Enregistrer en tant que fragment]** dans la barre d’outils.
 
-   ![Icône permettant d’insérer un fragment de parcours &#x200B;](assets/journey-fragment-icon.png)
+   ![Icône permettant d’insérer un fragment de parcours ](assets/journey-fragment-icon.png)
 
 1. Saisissez un nom unique pour le fragment dans votre sandbox.
 
-   ![Enregistrez les nœuds en tant que fragment à partir de la zone de travail du parcours &#x200B;](assets/journey_fragment_create_canvas.png)
+   ![Enregistrez les nœuds en tant que fragment à partir de la zone de travail du parcours ](assets/journey_fragment_create_canvas.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Le fragment est enregistré en tant que brouillon.
 
 >[!TIP]
 >
->Si vous créez un fragment à partir d’un parcours, [testez ou simulez votre parcours &#x200B;](testing-the-journey.md) **avant** d’enregistrer le fragment pour vous assurer que les nœuds sélectionnés se comportent comme prévu.
+>Si vous créez un fragment à partir d’un parcours, [testez ou simulez votre parcours ](testing-the-journey.md) **avant** d’enregistrer le fragment pour vous assurer que les nœuds sélectionnés se comportent comme prévu.
 
 >[!TAB Dans l’inventaire des fragments]
 
@@ -184,7 +183,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux fragments de parcou
 
 * Les fragments se trouvent à l’aide de la barre [Recherche unifiée](../start/search-filter-categorize.md) sous la catégorie **[!UICONTROL Fragments de Parcours]**.
 * [Balises](tags.md) et **Libellés** sont pris en charge sur les fragments.
-* Les [&#x200B; Journaux d’audit &#x200B;](../privacy/audit-logs.md) sont pris en charge.
+* Les [ Journaux d’audit ](../privacy/audit-logs.md) sont pris en charge.
 * Les parcours s’exécutant sur l’ancienne pile (à l’aide de campagnes intégrées) ne prennent pas en charge les fragments de parcours. Dupliquez un tel parcours pour le déplacer vers la nouvelle pile avant d’utiliser cette fonctionnalité.
 
 ## Exemples de cas d’utilisation {#examples}
@@ -195,13 +194,13 @@ Les exemples suivants illustrent des modèles de parcours courants qui peuvent �
 
 Un modèle d’entrée standard, tel qu’un nœud [Lecture d’audience](read-audience.md) suivi de filtres d’éligibilité, peut être encapsulé dans un fragment. Cela permet aux équipes de maintenir une cohérence dans la manière dont les profils rejoignent les parcours tout en réduisant le temps de configuration. Le fragment peut être l’activité [Optimiser](optimize.md) uniquement ou l’activité Lecture d’audience et Optimiser ensemble.
 
-![&#x200B; Exemple de fragment de vérification d’éligibilité &#x200B;](assets/journey-fragments-uc-eligibility-check.png)
+![ Exemple de fragment de vérification d’éligibilité ](assets/journey-fragments-uc-eligibility-check.png)
 
 **Canal préféré**
 
 Un fragment peut évaluer le canal de communication préféré d’un profil (e-mail, notification push ou SMS) et acheminer le profil en conséquence. Cette logique peut être réutilisée dans n’importe quel parcours impliquant des messages sortants, ce qui permet d’assurer une gestion cohérente des préférences de canal. Le fragment peut inclure l’activité [Optimiser](optimize.md) et les trois branches de canal.
 
-![&#x200B; Exemple de fragment de canal préféré &#x200B;](assets/journey-fragments-uc-preferred-channel.png)
+![ Exemple de fragment de canal préféré ](assets/journey-fragments-uc-preferred-channel.png)
 
 **Séquence d’accueil de l’intégration**
 

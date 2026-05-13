@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
 workflow-type: tm+mt
 source-wordcount: '3322'
 ht-degree: 98%
@@ -47,7 +47,7 @@ ht-degree: 98%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
@@ -80,7 +80,7 @@ ht-degree: 98%
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[Fragments de parcours](using/building-journeys/journey-fragments.md)
+      + [Fragments de parcours](using/building-journeys/journey-fragments.md)
    + Activités {#about-journey-building}
       + [Activités](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
@@ -898,7 +898,7 @@ ht-degree: 98%
    + [Commencer la configuration des canaux](using/configuration/get-started-configuration.md)
    + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
    + [Exporter le contenu du message](using/configuration/message-export.md)
-   + {hide-from-toc}[Schéma d&#39;export des messages &#x200B;](using/configuration/message-export-schema.md)
+   + {hide-from-toc}[Schéma d&#39;export des messages ](using/configuration/message-export-schema.md)
    + Configuration guidée des canaux {#guided-setup}
       + [Commencer la configuration guidée des canaux](using/configuration/set-mobile-config.md)
       + [Créer une configuration de canal](using/configuration/create-channel-set-up.md)
