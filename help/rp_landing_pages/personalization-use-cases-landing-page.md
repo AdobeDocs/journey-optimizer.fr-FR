@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Cas d’utilisation de personnalisation
-description: Cas d’utilisation de personnalisation
+description: Cas pratiques détaillés pour la création de messages personnalisés dans Adobe Journey Optimizer, couvrant les notifications de statut de commande, les e-mails d’abandon de panier et les alertes de prescription de plan d’intégrité.
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 22ee2215c9f7793aedb7e0d63d310a15051ea534
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 16%
 
 ---
 
 # Cas d’utilisation de personnalisation{#section-overview}
 
-Imaginez créer des communications tellement adaptées à votre audience qu’elles semblent faites sur mesure à chaque fois. Les cas d&#39;utilisation de la personnalisation d’Adobe Journey Optimizer vous permettent justement de faire cela, en combinant les profils clients, le contexte en temps réel et les offres basées sur des décisions pour créer des messages qui trouvent véritablement un écho. Que vous envoyiez une mise à jour du statut d’une commande, que vous relanciez les acheteurs et acheteuses ayant abandonné leur panier ou que vous personnalisiez des notifications liées à la santé, cette section vous guide étape par étape. Chaque cas d’utilisation montre comment combiner des données et des outils, tels que des fonctions d’assistance ou des modèles dynamiques, pour diffuser des messages que votre audience trouvera pertinents et attrayants. Découvrez comment ces techniques peuvent transformer vos campagnes.
+Cette section fournit des cas pratiques détaillés pour la création de messages personnalisés dans Adobe Journey Optimizer. Chaque exemple est basé sur un scénario réel et montre comment combiner des attributs de profil, des données contextuelles, des fonctions d’assistance et des décisions d’offre pour diffuser du contenu ciblé et pertinent à votre audience.
 
 ## Cas d’utilisation de personnalisation
 
@@ -22,31 +22,41 @@ Imaginez créer des communications tellement adaptées à votre audience qu’el
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
-Tutoriel sur la personnalisation des notifications relatives au statut des commandes
+Notification de statut de la commande
 
-Découvrez comment créer des notifications push personnalisées pour les mises à jour du statut des commandes à l’aide de données de profil, contextuelles et de prise de décision sur les offres.
+Découvrez un scénario complet qui combine des attributs de profil, des données contextuelles en temps réel et Offer Decisioning pour envoyer aux clients une notification push personnalisée confirmant ou mettant à jour le statut de leur commande.
 
-[Commencer le tutoriel](../using/personalization/personalization-use-case.md)
+[Lire le tutoriel](../using/personalization/personalization-use-case.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
-Guide de personnalisation des e-mails en cas d’abandon de panier
+E-mail d’abandon de panier
 
-Découvrez comment personnaliser les e-mails d’abandon de panier à l’aide de fonctions d’assistance pour ajouter des détails spécifiques à votre clientèle et au produit.
+Découvrez comment utiliser les fonctions d’assistance pour renseigner de manière dynamique un e-mail d’abandon de panier avec des détails et des informations produit spécifiques au client, ce qui vous permet de récupérer les ventes perdues avec des messages pertinents et opportuns.
 
-[Explorer le guide](../using/personalization/personalization-use-case-helper-functions.md)
+[Lire le guide](../using/personalization/personalization-use-case-helper-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Exemple de personnalisation d’e-mails relatifs aux ordonnances dans le cadre d’un régime d’assurance maladie
+Alerte de prescription du plan de santé
 
-Créez des e-mails personnalisés pour les adhérents et adhérentes à un régime d’assurance maladie afin de mettre en évidence le statut des ordonnances, par exemple « prête à être retirée » ou « rappelée ».
+Créez un e-mail personnalisé unique qui répertorie toutes les ordonnances d’un abonné dont le statut est actuellement « prêt à être récupéré » ou « rappelé », à l’aide d’une logique conditionnelle et d’expressions de modèle.
 
-[Voir un exemple](../using/personalization/perso-uc-plan-prescriptions.md)
+[Lire l’exemple](../using/personalization/perso-uc-plan-prescriptions.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+
+Recettes Personalization
+
+Parcourez une bibliothèque de modèles de personnalisation prêts à l’emploi couvrant les dates, les attributs de profil, la logique conditionnelle, etc. Chaque recette comprend un fragment de syntaxe de travail que vous pouvez copier directement dans votre contenu d’e-mail, de SMS ou de notification push.
+
+[Parcourir les recettes](../using/personalization/personalization-recipes.md)
 :::
 
 ::::
