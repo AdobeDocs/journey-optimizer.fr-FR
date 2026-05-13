@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1314'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Prenons l’exemple du champ de groupe sanguin dont vous devez restreindre l’e
 
    * Le **Canal** et l’**Action marketing requise**, définis lors de la configuration de l’action personnalisée, s’affichent en haut de l’écran. Vous ne pouvez pas modifier ces champs.
 
-   * Vous pouvez définir une **Action marketing supplémentaire** pour définir le type d’action personnalisée. Vous pouvez ainsi définir l’objectif de l’action personnalisée dans ce parcours. Outre l’action marketing requise, généralement spécifique à un canal, vous pouvez définir une action marketing supplémentaire qui sera spécifique à l’action personnalisée dans ce parcours particulier. Par exemple : une communication sur l’entraînement, une newsletter, une communication sur la condition physique, etc. L’action marketing requise et l’action marketing supplémentaire s’appliqueront toutes deux. Dans notre exemple, nous n’utilisons pas d’action marketing supplémentaire.
+   * Vous pouvez définir une **Action marketing supplémentaire** pour définir le type d’action personnalisée. Vous pouvez ainsi définir l’objectif de l’action personnalisée dans ce parcours. Outre l’action marketing requise, généralement spécifique à un canal, vous pouvez définir une action marketing supplémentaire qui sera spécifique à l’action personnalisée dans ce parcours particulier. Par exemple : un message sur le sport, une newsletter, un message de fitness, etc. L’action marketing obligatoire et l’action marketing facultative s’appliqueront toutes les deux. Dans notre exemple, nous n’utilisons pas d’action marketing supplémentaire.
 
 Si l’un des champs étiquetés _ePHI1_ (dans notre exemple, le champ de groupe sanguin) est détecté dans les paramètres d’action, une erreur s’affiche, vous empêchant de publier le parcours. [Découvrir comment détecter une violation de politique de gouvernance](#violation)
 

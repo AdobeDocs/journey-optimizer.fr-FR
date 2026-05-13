@@ -6,10 +6,20 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1859'
-ht-degree: 99%
+source-wordcount: 1955
+ht-degree: 95%
 
 ---
 
@@ -662,6 +672,30 @@ La fonction `replaceAll` permet de remplacer toutes les sous-chaînes d’un tex
 > 
 > En savoir plus dans la [documentation Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
+
++++Exemple — Remplacement de base
+
+```sql
+{%= replaceAll("Hello World","World","AJO") %}
+```
+
+Renvoie `Hello AJO`.
+
++++
+
++++Exemple concret : réaffectation de variables après replaceAll
+
+`replaceAll` renvoie une nouvelle chaîne mais ne modifie pas la valeur d’origine. Pour réutiliser plusieurs fois la chaîne nettoyée, affectez le résultat à une variable à l’aide de `{% let %}` :
+
+```handlebars
+{% let cleanName = replaceAll(profile.person.name.firstName, "[^a-zA-Z]", "") %}
+Hello {{cleanName}}, your personalized offer is ready.
+Your code: WELCOME-{%= upperCase(cleanName) %}
+```
+
+L’affectation de `{% let %}` stocke le résultat de `replaceAll` afin qu’il puisse être référencé comme `{{cleanName}}` sans appeler à nouveau la fonction. Il s’agit du modèle correct : le chaînage de `replaceAll` à l’intérieur de lui-même ou la tentative de réaffectation à la même variable de profil n’est pas pris en charge.
+
++++
 
 ## Supprimer à droite {#rightTrim}
 

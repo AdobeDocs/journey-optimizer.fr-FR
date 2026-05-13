@@ -9,9 +9,43 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/3i0k1Wzvdf3Z3NccHSFE-nzIrYC45iLqs-ftmQZIeVw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f550d0f2-143d-4093-9463-467fbec95fcc
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: 2060
 ht-degree: 100%
 
 ---
@@ -86,9 +120,9 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 * **Éditeur dʼexpression** : compte tenu de vos compétences techniques, vous pouvez désormais utiliser des fonctions pour travailler avec les cartes. Cette fonctionnalité peut être exploitée avec les listes d’abonnements. Par exemple, à partir d’une audience, vous pouvez désormais obtenir une adresse e-mail à partir d’une liste d’abonnements. [En savoir plus dans cet exemple](../building-journeys/message-to-subscribers-uc.md)
 
 * **Surveillance** : les événements d’étape pour les parcours actifs et le mode test ont été améliorés. Des [nouveaux champs](../reports/sharing-field-list.md#servicevents-field) ont été ajoutés en rapport avec les tâches d’export de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](../reports/sharing-legacy-fields.md).
-* **Accessibilité** - Des améliorations d’accessibilité ont été apportées aux parcours. 
+* **Accessibilité** - Des améliorations d’accessibilité ont été apportées aux parcours.
 * **Collections** : les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](../building-journeys/collections.md)
-* **Listes** - Les écrans de liste ont été améliorés pour les parcours, les événements, les actions et les sources de données. 
+* **Listes** - Les écrans de liste ont été améliorés pour les parcours, les événements, les actions et les sources de données.
 
 **Créer des rapports**
 
@@ -113,8 +147,8 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 * Correction d’un problème qui empêchait l’affichage de la liste des parcours, de la liste des messages et du concepteur d’e-mail lorsque la langue du navigateur n’était pas l’anglais.
 * Correction d’une erreur de syntaxe qui survenait lors de l’ajout d’une personnalisation à l’aide d’une expression dans le concepteur d’e-mail : les caractères étaient placés par erreur dans une séquence d’échappement.
-* Correction d’un problème qui entraînait une erreur 404 lors de la navigation dans le menu **Administration**. 
-* Correction d’un problème qui déclenchait d’autres parcours actifs lors du test d’un parcours à l’aide d’un événement métier. 
+* Correction d’un problème qui entraînait une erreur 404 lors de la navigation dans le menu **Administration**.
+* Correction d’un problème qui déclenchait d’autres parcours actifs lors du test d’un parcours à l’aide d’un événement métier.
 
 
 ## Version de septembre 2021 {#september-2021-release}
@@ -130,7 +164,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 <tbody>
 <tr>
 <td>
-<p>De nouvelles mesures sont disponibles dans les rapports : Ciblé et Exclu pour les e-mails et les messages push sont visibles dans les rapports dynamiques et globaux. </br> Pour avoir accès aux dernières mesures, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la <a href="../reports/live-report.md">documentation détaillée.</a></p>
+<p>De nouvelles métriques sont disponibles dans les rapports : Ciblés et Exclus pour les e-mails et les messages push sont visibles dans les rapports dynamiques et globaux. </br> Pour avoir accès aux dernières métriques, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la <a href="../reports/live-report.md">documentation détaillée.</a></p>
 <p>Une nouvelle colonne de la liste d'exécution des messages affiche le nombre de profils ciblés pour chaque exécution du message. </p>
 <p>Pour plus d’informations, consultez la <a href="../reports/report-gs-cja.md">documentation détaillée</a>.</p>
 </td>

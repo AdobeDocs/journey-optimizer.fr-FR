@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: 1032
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -86,7 +86,7 @@ Cette section répertorie les jeux de données système utilisés par [!DNL Jour
 
 * Exporter des messages
 
-  _Jeu de données d’exportation de messages AJO_ : stocke le contenu des e-mails et des SMS envoyés à des fins d’exportation. Les enregistrements sont conservés pendant 7 jours calendaires à compter de l’ingestion. Disponible uniquement pour les organisations qui ont acheté le module complémentaire Exportation de message. [En savoir plus](../configuration/message-export.md)
+  _Jeu de données d’export de messages AJO_ : stocke le contenu des e-mails et des SMS envoyés à des fins d’export. Les enregistrements sont conservés pendant 7 jours calendaires à partir de l’ingestion. Disponible uniquement pour les organisations qui ont acheté le module complémentaire Export de messages. [En savoir plus](../configuration/message-export.md)
 
 * Services intelligents
 
@@ -106,7 +106,7 @@ L’ajout de données à [!DNL Adobe Experience Platform] est la base de la cré
 
 Vous pouvez créer un jeu de données à partir d’un schéma ou d’un fichier CSV. Des informations détaillées sur la création de jeux de données sont disponibles dans la documentation [!DNL Adobe Experience Platform].
 
-* [Création d’un jeu de données à partir d’un schéma existant](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [Créer un jeu de données à partir d’un schéma existant](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
 * [Mapper un fichier CSV à un schéma XDM existant](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.
@@ -125,13 +125,13 @@ En savoir plus sur la gouvernance des données et les libellés d’utilisation 
 
 ## Exemples et cas d’utilisation {#samples}
 
-* [Tutoriel - Ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr){target="_blank"}
+* [Tutoriel : ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr){target="_blank"}
 * [Cas d’utilisation de bout en bout](../audience/creating-test-profiles.md) : création d’un schéma, d’un jeu de données et ingestion des données pour ajouter des profils de test dans [!DNL Adobe Journey Optimizer]
 * [Exemples de requête](../data/datasets-query-examples.md) : jeux de données [!DNL Adobe Journey Optimizer] et cas d’utilisation associés
 
 >[!MORELIKETHIS]
 >
->* [Prise en main de la gestion des données dans Journey Optimizer](gs-data.md)
+>* [Commencer avec la gestion des données dans Journey Optimizer](gs-data.md)
 >* [Documentation relative aux jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}
 >* [Documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}
 >* [Bonnes pratiques relatives aux droits de licence de gestion des données](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

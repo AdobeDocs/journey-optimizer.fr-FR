@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 6d62604f975fce76860eba000a09870806d54934
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 90%
+source-wordcount: '608'
+ht-degree: 91%
 
 ---
 
@@ -87,6 +87,14 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>Liste des fonctions d’assistance</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalization-recipes.md">
+<img alt="Peu fréquent" src="assets/do-not-localize/uc.png">
+</a>
+<div>
+<a href="../personalization/personalization-recipes.md"><strong>recettes </strong></a>
 </div>
 <p></td>
 <td>

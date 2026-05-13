@@ -6,14 +6,33 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '855'
+TQID: https://experienceleague.adobe.com/ZOCKgdEGK0G3GOhNbwxSXVOQo0We6-QdjzItFtZ5T3E
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 954
 ht-degree: 100%
 
 ---
 
-# Commencer avec le canal basé sur le code {#get-started-code-based}
+# Commencer avec le canal basé sur du code {#get-started-code-based}
 
 [!DNL Journey Optimizer] vous permet de personnaliser et de tester les expériences que vous souhaitez diffuser à votre clientèle sur tous vos touchpoints : applications web, applications mobiles, applications de bureau, consoles vidéo, appareils connectés à la télévision, téléviseurs intelligents, kiosques, guichets automatiques, assistants vocaux, appareils IdO, etc.
 
@@ -64,7 +83,7 @@ Pour exécuter des cas d’utilisation web, vous pouvez utiliser le canal web ou
 * Modifiez votre contenu à l’aide de l’[éditeur de personnalisation](create-code-based.md#edit-code).
 * Vous avez besoin du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}, qui est une implémentation côté client, ou de l’[API serveur AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"}, qui est une implémentation côté serveur.
 * L’expérience basée sur le code nécessite un travail de développement en aval de votre implémentation pour que vos applications puissent interpréter et diffuser le contenu publié sur Edge par [!DNL Journey Optimizer] pour ces emplacements. [En savoir plus](code-based-surface.md)
-* Cela nécessite davantage de planification et ne peut modifier que les éléments spécifiés par les développeurs et développeuses. Par conséquent, il est essentiel d’identifier les composants (bannière d’accueil, image principale, barre de menus, etc.) sur les applications qui doivent être modifiées pour la personnalisation ou le test, et de collaborer avec votre équipe de développement pour créer l’implémentation nécessaire pour gérer ces modifications.
+* Cela nécessite davantage de planification et ne peut modifier que les éléments spécifiés par les développeurs et développeuses. Il est donc essentiel d’identifier les composants (bannière d’accueil, image principale, barre de menus, etc.) sur les applications qui doivent être modifiées pour la personnalisation ou le test, et de collaborer avec votre équipe de développement pour créer la mise en œuvre nécessaire pour gérer ces modifications.
 * Cela vous permet d’utiliser du contenu de code JSON.
 * Cette fonctionnalité est axée sur le persona-développeur.
 

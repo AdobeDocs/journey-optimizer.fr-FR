@@ -5,14 +5,42 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 90%
+source-wordcount: 2079
+ht-degree: 98%
 
 ---
 
-# Prise en main pour les développeurs {#get-started-developers}
+# Commencer en tant que développeurs et développeuses {#get-started-developers}
 
 En tant que **développeur ou développeuse**, vous êtes responsable de la mise en œuvre et de l’intégration d’[!DNL Adobe Journey Optimizer] dans vos applications et systèmes. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur ou administratrice système](administrator.md) et l’[ingénieur ou ingénieure de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement.
 
@@ -85,7 +113,7 @@ Pour les implémentations web, le SDK Web est votre principal point d’intégra
 
 1. **Configurer les flux de données** : créez et configurez un train de données dans [!DNL Adobe Experience Platform Data Collection] avec Journey Optimizer activé. En savoir plus dans la [documentation sur les trains de données](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}.
 
-1. **Activer les notifications push web** (facultatif) : les notifications push web sont désormais disponibles pour tous les utilisateurs. Configurez la propriété [pushNotifications](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} dans votre configuration Web SDK et utilisez la commande [sendPushSubscription](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} pour enregistrer les abonnements push. [En savoir plus sur la configuration des notifications push web](../../push/push-configuration-web.md).
+1. **Activer les notifications push web** (facultatif) : les notifications push web sont désormais disponibles. Configurez la [propriété pushNotifications](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} dans votre configuration du SDK web et utilisez la [commande sendPushSubscription](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} pour enregistrer les abonnements aux notifications push. [En savoir plus sur la configuration de notifications push web](../../push/push-configuration-web.md).
 
 ### Implémenter des expériences basées sur du code (SDK Web)
 
@@ -163,11 +191,11 @@ Les actions personnalisées permettent aux parcours d’appeler vos API. En tant
 
 1. **Comprendre les fonctionnalités des actions personnalisées** : les actions personnalisées peuvent se connecter à des systèmes tiers tels qu’Epsilon, Slack, Firebase, ou à vos propres services. En savoir plus sur les [actions personnalisées](../../action/action.md).
 
-1. **Utiliser les configurations d’actions** : votre [administrateur ou administratrice](administrator.md) ou votre [ingénieur ou ingénieure de données](data-engineer.md) configure l’action personnalisée dans Journey Optimizer en définissant l’URL du point d’entrée d’API, la méthode d’authentification et les paramètres. Vous devez leur fournir les spécifications de votre API. Découvrez la [configuration des actions personnalisées](../../action/about-custom-action-configuration.md). Vous pouvez définir une **payload de réponse d’erreur** facultative pour une logique de secours plus riche dans les branches Temporisation/Erreur.
+1. **Utiliser les configurations d’actions** : votre [administrateur ou administratrice](administrator.md) ou votre [ingénieur ou ingénieure de données](data-engineer.md) configure l’action personnalisée dans Journey Optimizer en définissant l’URL du point d’entrée d’API, la méthode d’authentification et les paramètres. Vous devez leur fournir les spécifications de votre API. Découvrez la [configuration des actions personnalisées](../../action/about-custom-action-configuration.md). Vous pouvez définir une **payload de réponse d’erreur** facultative pour une logique de repli plus avancée dans les branches Délai d’expiration et Erreur.
 
 1. **Renvoyer des données activables** : concevez votre API afin qu’elle renvoie des données pouvant être utilisées dans les étapes de parcours postérieures. Découvrez les [réponses aux actions](../../action/action-response.md).
 
-1. **Surveiller l’intégrité des actions personnalisées** : utilisez le tableau de bord de surveillance des actions personnalisées pour suivre les appels réussis, les erreurs, le débit, les temps de réponse et les temps d’attente dans la file d’attente. En savoir plus sur les [rapports d’action personnalisés](../../action/reporting.md).
+1. **Surveiller l’intégrité des actions personnalisées** : utilisez le tableau de bord de surveillance des actions personnalisées pour suivre les appels réussis, les erreurs, le débit, les temps de réponse et les temps d’attente dans la file d’attente. En savoir plus sur le [reporting des actions personnalisées](../../action/reporting.md)
 
 1. **Implémenter une limitation de débit** : assurez-vous que vos points d’entrée peuvent gérer le volume attendu. Journey Optimizer applique une limite de 5 000 appels/seconde, mais votre système doit pouvoir la supporter. Découvrez le [capping et la limitation](../../configuration/external-systems.md).
 
@@ -187,9 +215,9 @@ Journey Optimizer fournit des API REST complètes pour un accès par programmati
 
 1. **API de gestion des décisions** : utilisez des API spécialisées pour la gestion des offres et la prise de décisions. Pour plus d’informations, consultez le [guide des API de gestion des décisions](../../offers/api-reference/getting-started.md).
 
-1. **API de migration Decisioning** : migrez par programmation les entités de gestion des décisions vers Decisioning avec des portées flexibles, une validation automatisée et une prise en charge de la restauration. Pour en savoir plus, consultez le [guide de l’API de migration Decisioning](../../experience-decisioning/decisioning-migration-api.md).
+1. **API de migration Prise de décision** : migrez par programmation les entités de Gestion des décisions vers Prise de décision avec des portées flexibles, une validation automatique et une prise en charge de la restauration. Pour plus d’informations, consultez le [guide des API Gestion des décisions](../../experience-decisioning/decisioning-migration-api.md).
 
-1. **Webhooks SMS** : configurez les webhooks entrants pour capturer les messages entrants et les webhooks de retour afin de recevoir les accusés de réception de diffusion et les mises à jour de statut. [En savoir plus](../../sms/sms-webhook.md).
+1. **Webhooks SMS** : configurez les webhooks entrants pour collecter les messages reçus et les webhooks de retour afin de recevoir les accusés de réception de diffusion et les mises à jour de statut. [En savoir plus](../../sms/sms-webhook.md).
 
 ## Test et débogage {#testing}
 
@@ -279,9 +307,9 @@ Collaborez avec les [responsables marketing](marketer.md) sur les exigences et l
 
 Vous souhaitez commencer à créer ? Sélectionnez votre premier domaine d’implémentation dans les sections ci-dessus :
 
-1. **Application mobile ?** Prise en main de [intégration de Mobile SDK](#mobile-integration)
-2. **Site web?** Commencez par [configuration de Web SDK](#web-implementation)
-3. **Intégration d’API ?** Accédez à [&#x200B; Utilisation des API &#x200B;](#apis)
-4. **Système personnalisé ?** Extraire [Actions personnalisées](#custom-actions)
+1. **Application mobile ?** Commencez par l’[Intégration du SDK mobile](#mobile-integration).
+2. **Site web ?** Commencez par la [configuration du SDK web](#web-implementation).
+3. **Intégration d’API ?** Passez directement à [Utiliser des API](#apis).
+4. **Système personnalisé ?** Consultez les [actions personnalisées](#custom-actions).
 
 Chaque section comprend des liens vers une documentation technique détaillée, des exemples de code et des tutoriels pour vous guider dans votre implémentation.

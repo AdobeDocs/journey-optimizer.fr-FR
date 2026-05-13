@@ -8,10 +8,41 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a9da10694f4e8299e32d94d3f3d9bf4363a8773a
+TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '4226'
-ht-degree: 91%
+source-wordcount: 4226
+ht-degree: 99%
 
 ---
 
@@ -100,7 +131,7 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/g
 
   Les canaux entrants de Journey Optimizer ciblent les nouveaux profils qui n’ont peut-être jamais été engagés avant sur d’autres canaux. Cela augmente le nombre total de [profils engageables](../audience/license-usage.md), ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
 
-  Les mesures de licence de chaque package sont répertoriées sur la page Description du produit [&#128279;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord d’utilisation des licences](../audience/license-usage.md).
+  Les métriques de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
 
 * Journey Optimizer prend en charge un maximum de 500 actions entrantes actives, quel que soit le moment. Ces actions entrantes sont comptabilisées si elles font partie d’une campagne active ou si elles sont un nœud utilisé dans un parcours actif. Une fois ce nombre atteint, vous devez désactiver les anciennes campagnes ou les anciens parcours qui utilisent des actions entrantes avant de pouvoir en lancer de nouvelles.
 
@@ -185,8 +216,8 @@ Cette section présente les mécanismes de sécurisation et les limitations des 
 * Par défaut, le nombre de parcours actifs, en pause ou testés à blanc à la fois est limité à 100.  Le nombre actuel de parcours s’affiche au-dessus de la zone de travail du parcours.
 * Lorsque vous publiez des parcours, nous les mettons automatiquement à l’échelle et les ajustons pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 100 parcours actifs à la fois, une notification s’affiche dans l’interface utilisateur pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle et nous vous aiderons à atteindre vos objectifs.
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
-* La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil récupérées de Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et ont un impact sur la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
-* Pour chaque profil et version de parcours, l’exécution du parcours conserve une file d’attente interne allant jusqu’à 10 événements en attente pendant le traitement d’un événement. Si cette limite est atteinte, les événements supplémentaires sont ignorés pour la `maxInstanceStackEventsReached` raison jusqu’à ce que la pile se vide. Voir [&#x200B; Événements ignorés en raison d’une instance de parcours bloquée](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+* La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil récupérées sur Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et ont des conséquence sur la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
+* Pour chaque profil et version de parcours, l’exécution du parcours conserve une file d’attente interne allant jusqu’à 10 événements en attente pendant le traitement d’un événement. Si cette limite est atteinte, les événements supplémentaires sont ignorés pour la raison `maxInstanceStackEventsReached` jusqu’à ce que la pile se vide. Voir [Événements ignorés en raison d’une instance de parcours bloquée](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 * Outre la temporisation utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée. Cette temporisation globale arrête la progression des personnes dans le parcours 91 jours après leur entrée. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
 
 
@@ -282,7 +313,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [événements](../e
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
 * Les parcours unitaires (qui commencent par un événement ou une qualification d’audience) incluent un mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12:01 pour un profil spécifique et qu’un autre événement se produit à 12:03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
-* Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot, les événements insérés via **Query Service** ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, suivi des e-mails, etc.) ne peut pas être utilisé pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, vous devez créer une audience basée sur ces événements et utiliser l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée, mais elle n’est pas recommandée, car elle peut entraîner des problèmes en aval en fonction des actions utilisées.
+* Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot, les événements insérés via **Query Service**, ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, vous devez créer une audience basée sur ces événements et utiliser l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée. Cette méthode n’est toutefois pas recommandée, car elle peut entraîner des défis en aval en fonction des actions utilisées.
 
 ### Sources de données {#data-sources-g}
 
@@ -318,6 +349,7 @@ Le mécanisme de sécurisation suivant s’applique à l’[éditeur d’express
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une audience et utiliser une condition `inaudience` dans le parcours.
 * Les attributs `timeSeriesEvents` ne peuvent pas être utilisés dans l’éditeur d’expression. Pour accéder aux événements d’expérience au niveau du profil, créez un groupe de champs basé sur un schéma `XDM ExperienceEvent`.
+  <!--* A single condition expression cannot contain more than **200 values** in an `in` list (e.g. `field in ["val1","val2",...]`). Expressions exceeding this limit will fail validation. To work around this limit, split the values across multiple conditions combined with `or`.-->
 
 ### Activités de parcours {#activities}
 
@@ -369,12 +401,12 @@ Les mécanismes de sécurisation suivants s’appliquent à l’activité de par
 * Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
 * Lors de leur entrée dans le parcours, les profils utilisent les valeurs d’attributs issues de l’instantané d’audience par lots. Cependant, lorsqu’un profil atteint une activité **Attente**, le parcours actualise automatiquement les attributs de profils en récupérant les dernières données à partir du service de profil unifié (UPS). Cela signifie que les attributs de profils peuvent changer au cours de l’exécution du parcours.
 * L’activité **Lecture d’audience** ne peut pas être utilisée avec les activités Adobe Campaign.
-* L&#39;activité **Lecture d&#39;audience** ne peut être utilisée que comme première activité d&#39;un parcours ou après un événement métier.
+* L’activité **Lecture d’audience** ne peut être utilisée que comme première activité dans un parcours ou après une activité d’événement métier.
 * Un parcours ne peut avoir qu’une seule activité **Lecture d’audience**.
 * L’activité **Lecture d’audience** ne peut cibler qu’une seule audience par parcours. Si plusieurs audiences sont requises, fusionnez-les d’abord en une seule audience. [Découvrez comment combiner des audiences à l’aide de workflows de composition](../audience/get-started-audience-orchestration.md).
-* Chaque organisation peut exécuter jusqu’à cinq instances **Lecture d’audience** simultanément (planifiées ou déclenchées par un événement métier), sur tous les sandbox et parcours. Évitez d’avoir plus de cinq parcours avec **Lecture d’audience** commençant exactement au même moment ; étendez-les à 5 à 10 minutes d’intervalle. Pour en savoir plus sur les autorisations de parcours, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
-* Débit des sandbox : le système gère le traitement par sandbox avec un maximum de 20 000 profils par seconde partagés sur toutes les activités **Lecture d’audience**. Les activités individuelles peuvent être configurées de 500 à 20 000 profils par seconde. Si les limites du sandbox sont atteintes, les tâches peuvent être mises en file d’attente.
-* Délai de traitement des tâches : les tâches **Lecture d’audience** qui ne peuvent pas être traitées dans un délai de 12 heures sont automatiquement nettoyées et ne s’exécutent pas.
+* Chaque organisation peut exécuter jusqu’à cinq instances **Lecture d’audience** simultanément (planifiées ou déclenchées par un événement métier), sur tous les sandbox et parcours. Évitez d’avoir plus de cinq parcours avec **Lecture d’audience** commençant exactement au même moment : espacez-les de 5 à 10 minutes. Pour en savoir plus sur les autorisations de parcours, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
+* Débit des sandbox : le système gère le traitement par sandbox avec une limite maximale de 20 000 profils par seconde partagés sur toutes les activités **Lecture d’audience**. Les activités individuelles peuvent être configurées de 500 à 20 000 profils par seconde. Si les limites du sandbox sont atteintes, les tâches peuvent être mises en file d’attente.
+* Délai d’expiration des traitements : les traitements de **Lecture d’audience** qui ne peuvent pas être effectués dans les 12 heures sont automatiquement nettoyés et ne s’exécuteront pas.
 * Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
 * Pour les parcours qui utilisent des ID supplémentaires, le taux de lecture de l’activité Lecture d’audience pour chaque instance de parcours est limité à un maximum de 500 profils par seconde.
 

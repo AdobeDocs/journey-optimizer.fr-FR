@@ -1,64 +1,80 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Commencer avec les activités en direct
+title: Prise en main des activités en direct
 description: Découvrez comment créer des activités en direct dans Journey Optimizer.
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: c6b36f31af29d21053cc455fd5dbba68ed5af63b
+TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 20%
+source-wordcount: 421
+ht-degree: 100%
 
 ---
 
-# Commencer avec les activités en direct {#get-started-mobile-live}
+# Prise en main des activités en direct {#get-started-mobile-live}
 
 
-Les activités en direct sont des éléments d’interface utilisateur persistants et modifiables affichés sur l’écran de verrouillage de l’appareil. Ils permettent à votre application de présenter des informations à jour en temps réel, en informant les utilisateurs tout au long d&#39;un événement en cours, sans qu&#39;ils aient à ouvrir l&#39;application ou à recevoir des notifications push répétées.
+Les activités en direct sont des éléments d’interface d’utilisation persistants et modifiables qui s’affichent sur l’écran de verrouillage de l’appareil. Elles permettent à votre application d’afficher des informations actualisées en temps réel pour les utilisateurs et utilisatrices tout au long d’un événement. Ils restent donc informés sans avoir à ouvrir l’application et sans recevoir des notifications push intempestives.
 
 >[!AVAILABILITY]
 >
->Les activités en direct dans Adobe Journey Optimizer ne sont compatibles qu’avec Apple iOS.
+>Les activités en direct dans Journey Optimizer sont uniquement compatibles avec Apple iOS.
 
-Contrairement aux notifications push traditionnelles, les activités en direct représentent l’engagement basé sur l’état **state-based engagement** : au lieu de diffuser des alertes ponctuelles, elles conservent une présence contextuelle continue, qui se met à jour dynamiquement au fur et à mesure de l’évolution des événements.
+Contrairement aux notifications push traditionnelles, les activités en direct représentent l’**engagement basé sur l’état** : au lieu d’envoyer des alertes ponctuelles, elles maintiennent une présence contextuelle et continue, qui se met à jour dynamiquement à mesure que les événements évoluent.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<img alt="Activités iOS Live sur l’écran de verrouillage et Dynamic Island" src="assets/do-not-localize/live-activity.jpeg">
+<img alt="Activités en direct iOS sur l’écran verrouillé et la Dynamic Island" src="assets/do-not-localize/live-activity.jpeg">
 </td>
 <td>
 <p><strong>Avantages clés</strong></p>
-<p>Les activités en direct font passer l’engagement mobile de basé sur les notifications à basé sur les états, ce qui permet aux marques de :</p>
+<p>Avec les activités en direct, l’engagement mobile basé sur les notifications devient basé sur l’état, ce qui permet aux marques d’effectuer les opérations suivantes :</p>
 <ul>
-<li>Maintenir une <strong>présence continue</strong> sur l’écran de verrouillage tout au long des événements à forte valeur ajoutée</li>
-<li><strong>Mettre à jour les informations de manière dynamique</strong> sans surcharger les utilisateurs avec des notifications répétées</li>
-<li>Proposer des moments mobiles <strong>plus riches, plus contextuels</strong> liés à des événements réels</li>
+<li>Maintenir une <strong>présence continue</strong> sur l’écran verrouillé tout au long des événements à forte valeur ajoutée</li>
+<li><strong>Mettre à jour les informations de manière dynamique</strong> sans surcharger les utilisateurs et utilisatrices avec des notifications intempestives</li>
+<li>Proposer des expériences mobiles <strong>plus riches et plus contextuelles</strong> liées à des événements réels</li>
 <li><strong>Augmenter l’engagement et la rétention</strong> lors des transactions actives ou des expériences en direct</li>
 </ul>
 </td>
 </tr>
 </table>
 
-Avec Adobe Journey Optimizer, vous pouvez **démarrer**, **mettre à jour** et **terminer** des activités en direct à distance par programmation via des campagnes déclenchées par API, en prenant en charge des cas d’utilisation individuels et basés sur une audience à grande échelle.
+Avec Adobe Journey Optimizer, vous pouvez **démarrer**, **mettre à jour** et **terminer** des activités en direct à distance par programmation via des campagnes déclenchées par API, en prenant en charge aussi bien des cas d’utilisation particuliers que basés sur une audience à grande échelle.
 
-Les activités en direct peuvent **uniquement** être lancées par le biais de campagnes **déclenchées par une API**, ce qui vous permet de fournir des payloads personnalisés et d’effectuer toute la personnalisation par le biais de votre propre payload.
-Le type de campagne **déclenché par API** approprié doit être sélectionné en fonction du cas d’utilisation prévu de l’activité Live :
+Les activités en direct peuvent **uniquement** être lancées par le biais de campagnes **déclenchées par API**, ce qui vous permet de fournir des payloads personnalisées et d’effectuer toute la personnalisation par le biais de votre propre payload.
+Sélectionnez le type de campagne **Déclenchée par API** en fonction du cas d’utilisation prévu de l’activité en direct :
 
-* Sélectionnez **Marketing déclenché par API** pour les cas d’utilisation de diffusion : mises à jour basées sur l’audience envoyées à grande échelle :
+* Sélectionnez **Déclenchée par API (marketing)** pour les cas d’utilisation de diffusion, avec des mises à jour basées sur l’audience envoyées à grande échelle :
 
-   * Scores sportifs et comptes à rebours des événements en direct
-   * Mises à jour de l’état des vols pour tous les passagers sur une route
+   * Scores sportifs et comptes à rebours d’événements en direct
+   * Mises à jour du statut du vol pour tous les passagers d’un même trajet
    * Expériences partagées sur un segment d’utilisateurs
 
-* Sélectionnez **Transactionnel déclenché par API** pour les cas d’utilisation individuels — 1 :1 mises à jour en temps réel par utilisateur :
+* Sélectionnez **Déclenchée par API (transactionnelle)** pour les cas d’utilisation particuliers - 1:1 mises à jour en temps réel par utilisateur :
 
    * Suivi des commandes et progression de la diffusion
-   * Mises à jour de l’état du pilote ou du service
-   * Confirmation de réservation et de rendez-vous en temps réel
+   * Mises à jour du statut de la course ou du service
+   * Confirmations de réservation et de rendez-vous en temps réel
 
 ## Guide de démarrage rapide
 
@@ -72,16 +88,16 @@ Suivez les étapes ci-dessous pour configurer et implémenter des activités en 
 
    Intégrez le SDK mobile Adobe Experience Platform pour activer les mises à jour dynamiques en temps réel sur l’écran de verrouillage et Dynamic Island.
 
-1. **[Créer une activité Live dans Journey Optimizer](create-mobile-live.md)**
+1. **[Créer une activité en direct dans Journey Optimizer](create-mobile-live.md)**
 
-   Utilisez des campagnes déclenchées par API dans Journey Optimizer pour démarrer votre activité Live .
+   Utilisez des campagnes déclenchées par API dans Journey Optimizer pour démarrer votre activité en direct.
 
 1. **[Surveiller vos campagnes](../reports/campaign-global-report-cja-activity.md)**
 
-   Commencez à mesurer l’impact de votre Activité dynamique à l’aide de rapports intégrés.
+   Commencez à mesurer l’impact de votre activité en direct à l’aide de rapports intégrés.
 
 ## Vidéo pratique
 
-Découvrez comment configurer les activités iOS Live avec Adobe Journey Optimizer pour diffuser des mises à jour enrichies en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique.
+Découvrez comment configurer les activités en direct iOS avec Adobe Journey Optimizer pour afficher des mises à jour détaillées et en temps réel sur l’écran verrouillé et la Dynamic Island d’un iPhone.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479866/?captions=fre_fr&learn=on)

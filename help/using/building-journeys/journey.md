@@ -2,27 +2,60 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Commencer avec les parcours
-description: Prise en main des parcours - Découvrez les types de parcours, les workflows, les fonctionnalités et les bonnes pratiques pour créer des expériences client personnalisées dans  [!DNL Adobe Journey Optimizer]
+description: 'Prise en main des parcours : découvrez les types de parcours, les workflows, les fonctionnalités et les bonnes pratiques pour créer des expériences clients personnalisées dans  [!DNL Adobe Journey Optimizer].'
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer, unitaire, lecture d’audience, qualification d’audience, événement métier, temps réel, planifié, lot, déclenché par un événement, workflow, orchestration, personnalisation, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 80%
+source-wordcount: 1615
+ht-degree: 100%
 
 ---
-
 
 # Commencer avec les parcours {#jo-general-principle}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Créer un parcours"
->abstract="Utilisez la zone de travail de glisser-déposer pour orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage d&#39;audience pour un impact maximal."
+>abstract="Grâce à une zone de travail par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact optimal."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Créer votre premier parcours"
 
 
@@ -42,17 +75,17 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
-➡️ **Prêt pour la création ?** [Créez votre premier parcours &#x200B;](journey-gs.md) en 5 minutes.
+➡️ **Vous souhaitez commencer à créer ?** [Créez votre premier parcours](journey-gs.md) en 5 minutes.
 
-### Parcours ou campagnes : quand utiliser chacun d’eux {#journeys-vs-campaigns-intro}
+### Parcours ou campagne : quand utiliser l’un ou l’autre {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] propose trois approches pour atteindre les clients : **Parcours** (1:1 orchestration en temps réel), **Campagnes** (diffusion simple par lots ou déclenchée par API) et **Campagnes orchestrées** (workflows de zone de travail par lots avec données multi-entités).
+[!DNL Adobe Journey Optimizer] propose trois approches pour atteindre la clientèle : les **parcours** (orchestration en temps réel 1:1), les **campagnes** (diffusion simple par lots ou déclenchée par API) et les **campagnes orchestrées** (workflows de zone de travail par lots avec des données multi-entités).
 
 **Décision rapide :**
 
 * Utilisez les **parcours** pour des expériences à plusieurs étapes, axées sur le comportement, où chaque cliente ou client progresse à son propre rythme.
-* Utilisez des campagnes **déclenchées par action et par API** pour une diffusion de messages simple, planifiée ou déclenchée vers des audiences
-* Utilisez des **campagnes orchestrées** pour les workflows par lots complexes qui nécessitent une segmentation d’entités multiples et un nombre exact de pré-envois
+* Utilisez des **campagnes d’action et déclenchées par API** pour une diffusion de messages simple, planifiée ou déclenchée à vos audiences.
+* Utilisez des **campagnes orchestrées** pour des workflows par lots complexes nécessitant une segmentation multi-entités et un comptage précis avant les envois.
 
 <!--
  waiting for DOCAC-13912
@@ -61,7 +94,7 @@ Utilisez [!DNL Journey Optimizer] pour :
 
 ## Choisissez votre type de parcours. {#journey-types}
 
-[!DNL Adobe Journey Optimizer] prend en charge quatre types de parcours, chacun conçu pour différents mécanismes d’entrée et scénarios métier :
+[!DNL Adobe Journey Optimizer] prend en charge quatre types de parcours, chacun étant conçu pour différents mécanismes d’entrée et scénarios métier :
 
 * **Parcours unitaires** : expériences déclenchées par un événement en temps réel (confirmations de commande, e-mails de bienvenue).
 * **Parcours de lecture d’audience** : communications par lots planifiées à des segments d’audience (newsletters, campagnes promotionnelles)
@@ -118,7 +151,7 @@ Créez des branches pour votre parcours en fonction des attributs de profil, de 
 
 **Utiliser des données**
 
-Utilisez des données contextuelles issues d’événements, de [!DNL Adobe Experience Platform] ou de services d’API tiers.
+Utilisez des données contextuelles issues d’événements, d’[!DNL Adobe Experience Platform] ou de services d’API tiers.
 
 [Utiliser des sources de données](../datasource/about-data-sources.md)
 :::
@@ -153,16 +186,16 @@ La création de parcours optimaux suit un processus clair et reproductible. Voic
 
 **1. Planifier** → **2. Concevoir** → **3. Tester** → **4. Publier** → **5. Surveiller** → **6. Optimiser**
 
-### &#x200B;1. Planification de votre parcours {#plan}
+### &#x200B;1. Planifier votre parcours {#plan}
 
 Avant d’ouvrir le concepteur, clarifiez vos objectifs :
 
-* **Quel est l&#39;objectif ?** (par exemple, intégrer de nouveaux clients, réengager les utilisateurs inactifs)
-* **Quelle est l&#39;audience ?** (segment spécifique, individus pilotés par un événement)
-* **Quel type de parcours convient ?** (Voir [types de parcours &#x200B;](#journey-types) ci-dessus)
-* **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
+* **Quel est l’objectif ?** (par exemple, intégrer une nouvelle clientèle, réengager des utilisateurs et utilisatrices inactifs)
+* **Quelle est l’audience ?** (segment spécifique, personnes agissant en fonction des événements)
+* **Quel type de parcours convient le mieux ?** (voir [Types de parcours](#journey-types) ci-dessus)
+* **Quels canaux allez-vous utiliser ?** (e-mail, notification push, SMS, etc.)
 
-### &#x200B;2. Conception dans la zone de travail {#design}
+### &#x200B;2. Concevoir un flux dans la zone de travail {#design}
 
 Utilisez le concepteur de parcours pour créer votre flux :
 
@@ -174,7 +207,7 @@ Utilisez le concepteur de parcours pour créer votre flux :
 
 [Découvrir comment utiliser le concepteur de parcours →](using-the-journey-designer.md)
 
-### &#x200B;3. Test avant la mise en ligne {#test}
+### &#x200B;3. Tester avant le lancement {#test}
 
 Testez toujours votre parcours pour détecter les problèmes avant que les clientes et clients ne les rencontrent :
 
@@ -195,7 +228,7 @@ Une fois le test terminé, publiez votre parcours pour l’activer :
 
 [Publier votre parcours →](publish-journey.md)
 
-### &#x200B;5. Surveillance des performances {#monitor}
+### &#x200B;5. Surveiller les performances {#monitor}
 
 Suivez les performances réelles de votre parcours :
 
@@ -203,7 +236,7 @@ Suivez les performances réelles de votre parcours :
 * Surveillez les taux d’entrée, d’achèvement et d’erreur.
 * Configurez des alertes pour les problèmes critiques.
 
-[Surveiller et établir des rapports → &#x200B;](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
+[Surveiller et établir des rapports → ](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
 
 ### &#x200B;6. Optimiser et itérer {#optimize}
 
@@ -216,7 +249,7 @@ Utilisez les informations pour apporter des améliorations :
 
 [Optimiser vos parcours →](optimize.md) | [→ Optimisation de l’heure d’envoi](send-time-optimization.md)
 
-➡️ **Prêt à démarrer ?** [Créer votre premier parcours maintenant →](journey-gs.md)
+➡️ **Vous voulez démarrer ?** [ Créez votre premier parcours maintenant →](journey-gs.md)
 
 ## Cas d’utilisation réels {#use-cases}
 
@@ -362,21 +395,21 @@ Obtenez une présentation visuelle des composants de parcours et découvrez les 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
 
-➡️ **Vous souhaitez plus de vidéos ?** [Explorer les tutoriels vidéo parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Vous voulez plus de vidéos ?** [Découvrez les tutoriels vidéo sur les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Questions courantes {#common-questions}
 
 +++ Quelle est la différence entre un parcours et une campagne ?
 
-[!DNL Adobe Journey Optimizer] propose trois approches :
+[!DNL Adobe Journey Optimizer] propose trois approches :
 
 * **Parcours** : orchestration en temps réel 1:1 où chaque profil parcourt les différentes étapes à son propre rythme. Idéal pour les expériences à plusieurs étapes axées sur le comportement avec une logique conditionnelle (par exemple, intégration, abandon de panier).
 
 * **Campagnes (d’action et déclenchées par API)** : diffusion simple des messages aux audiences, s’exécutant simultanément sur tous les profils selon le planning ou via un déclencheur API. Idéal pour les campagnes promotionnelles, les newsletters et les messages transactionnels.
 
-* **Campagnes orchestrées** : workflows par lots à plusieurs étapes avec segmentation complexe à l’aide de données relationnelles (profils + produits/boutiques/réservations). Tous les profils sont traités avec le nombre exact de pré-envois. Idéal pour les promotions saisonnières, les lancements de produits et les campagnes nécessitant des données multi-entités.
+* **Campagnes orchestrées** : workflows par lots à plusieurs étapes avec segmentation complexe à l’aide de données relationnelles (profils + produits/magasins/réservations). Tous les profils sont traités avec le nombre exact de pré-envois. Idéal pour les promotions saisonnières, les lancements de produits et les campagnes nécessitant des données multi-entités.
 
-**Principale différence** : les Parcours conservent l’état individuel du client pour les actions en temps réel ; les campagnes déclenchées par action et par API diffusent des messages simples par lots ; les campagnes orchestrées fournissent des zones de travail de workflows par lots avec des fonctionnalités de segmentation d’entités multiples.
+**Différence principale** : les parcours conservent l’état individuel du client ou de la cliente pour les actions en temps réel. Les campagnes d’action et déclenchées par API diffusent des messages simples par lots. Les campagnes orchestrées fournissent des zones de travail de workflows par lots avec des fonctionnalités de segmentation multi-entités.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [Découvrir les campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
@@ -398,11 +431,11 @@ Vous pouvez modifier des éléments limités (nom, contenu du message), mais les
 
 +++
 
-➡️ **Plus de questions ?** [Voir la FAQ complète sur le Parcours &#x200B;](journey-faq.md) avec plus de 40 réponses détaillées
+➡️ **Vous avez d’autres questions ?** [Consultez la FAQ sur les parcours](journey-faq.md) où vous trouverez plus de 40 réponses détaillées.
 
 ## Besoin d’aide ? {#help}
 
-Utilisez ces liens pour obtenir des conseils, des solutions de dépannage et des ressources.
+Utilisez ces liens pour obtenir des instructions, des solutions de dépannage et des ressources.
 
 ### Liens rapides pour les tâches courantes
 
@@ -423,4 +456,4 @@ Configurez des **[alertes de parcours](../reports/alerts.md)** pour recevoir des
 * **[Résolution des problèmes d’exécution](troubleshooting-execution.md)** – Déboguer les problèmes d’exécution de parcours
 * **[Résolution des problèmes d’activités entrantes](troubleshooting-inbound.md)** – Corriger les problèmes d’entrée et de qualification
 
-**Prêt à créer votre premier parcours ?** [Commencer maintenant →](journey-gs.md)
+**Vous voulez créer votre premier parcours ?** [Cʼest parti ! →](journey-gs.md)

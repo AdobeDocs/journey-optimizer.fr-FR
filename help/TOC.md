@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3324'
 ht-degree: 98%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 98%
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
-      + [Fragments de parcours](using/building-journeys/journey-fragments.md)
    + Activités {#about-journey-building}
       + [Activités](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
@@ -94,6 +93,7 @@ ht-degree: 98%
          + [Conditions](using/building-journeys/conditions.md)
       + [Lecture d’audience](using/building-journeys/read-audience.md)
       + [Attente](using/building-journeys/wait-activity.md)
+      + [Fragments de parcours](using/building-journeys/journey-fragments.md)
       + [Décision de contenu](using/building-journeys/content-decision.md)
       + [Recherche de jeu de données](using/building-journeys/dataset-lookup.md)
       + [Action](using/building-journeys/journey-action.md)
@@ -455,6 +455,7 @@ ht-degree: 98%
          + [Fonctions de chaîne](using/personalization/functions/string.md)
       + Cas d’utilisation de personnalisation {#personalization-use-cases}
          + [Cas d’utilisation de personnalisation](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
+         + [Recettes Personalization](using/personalization/personalization-recipes.md)
          + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
          + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
          + [E-mail d’ordonnances de programmes de santé](using/personalization/perso-uc-plan-prescriptions.md)

@@ -7,16 +7,55 @@ feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
 level: Beginner
-keywords: rôles, responsabilités, professionnel du marketing, administrateur, ingénieur de données, développeur, démarrage rapide
+keywords: rôles, responsabilités, responsable marketing, administrateur; administratrice, ingénieure et ingénieur de données, développeur et développeuse, démarrage rapide
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 227dde4212a2a0caa4c46cc2151a4a5cc11d011f
+TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6MbvGvYY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d712382d-29ef-487a-93a7-cbebdd2ef24a
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2177'
-ht-degree: 73%
+source-wordcount: 2269
+ht-degree: 100%
 
 ---
-
 
 # Rôles et responsabilités
 
@@ -26,13 +65,13 @@ Adobe Journey Optimizer (AJO) permet aux marques de proposer des expériences
 * **Orchestration omnicanal moderne** par le biais de zones de travail unifiées pour les parcours en temps réel et les campagnes par lots, ainsi qu’un concepteur de messages moderne
 * **Prise de décision et personnalisation intelligentes** grâce à la gestion des décisions et aux fonctionnalités d’IA/de ML
 
-Journey Optimizer propose deux approches principales pour atteindre et impliquer les clients :
+Journey Optimizer propose deux approches principales pour atteindre et engager votre clientèle :
 
-* **Parcours** — Orchestration en temps réel, un-à-un, où chaque client se déplace à son propre rythme, en fonction du comportement ou des événements. Idéal pour les séquences d’intégration, l’abandon de panier et l’engagement du cycle de vie.
-* **Campagnes** — Messagerie basée sur l’audience avec trois modes de diffusion en fonction de votre cas d’utilisation :
-   * **Campagnes d&#39;action** — Messages planifiés ou récurrents diffusés à une audience définie en une seule fois. Idéal pour les newsletters, les annonces promotionnelles et les lancements de produits.
-   * **Campagnes déclenchées par API** — Messages à la demande déclenchés par un système externe via l’API. Idéal pour les messages transactionnels tels que les confirmations de commande, les alertes d’expédition et les notifications de compte.
-   * **Campagnes orchestrées** : workflows par lots complexes avec segmentation d’entités multiples et exécution basée sur la zone de travail. Idéal pour les promotions saisonnières, les programmes par lots à plusieurs étapes et les campagnes nécessitant un nombre exact de pré-envois.
+* **Parcours** : orchestration individuelle et en temps réel, où chaque client ou cliente évolue à son propre rythme, en fonction de son comportement ou d’événements. Idéal pour les séquences d’intégration, l’abandon de panier et l’engagement du cycle de vie.
+* **Campagnes** : messages basés sur l’audience avec trois modes de diffusion en fonction de votre cas d’utilisation :
+   * **Campagnes d’action** : messages planifiés ou récurrents diffusés à une audience définie en une seule fois. Idéales pour les newsletters, les annonces promotionnelles et les lancements de produits.
+   * **Campagnes déclenchées par API** : messages à la demande déclenchés par un système externe via l’API. Idéal pour les messages transactionnels tels que les confirmations de commande, les alertes d’expédition et les notifications de compte.
+   * **Campagnes orchestrées** : workflows par lots complexes avec segmentation multi-entités et exécution basée sur la zone de travail. Idéal pour les promotions saisonnières, les programmes par lots à plusieurs étapes et les campagnes nécessitant un nombre exact de pré-envois.
 
 Cette expérience unifiée vous permet d’implémenter des cas d’utilisation complets en un seul endroit, de la définition d’audiences et de la conception de parcours à la création de contenu personnalisé et à l’analyse de résultats. Cette documentation explique les rôles clés impliqués dans l’utilisation efficace de Journey Optimizer, leurs responsabilités et la manière de commencer.
 
@@ -46,14 +85,14 @@ Cette expérience unifiée vous permet d’implémenter des cas d’utilisation 
 
 ## Avant de commencer {#before-you-begin}
 
-Une implémentation réussie commence par la préparation. Avant de configurer Journey Optimizer, alignez votre équipe sur les points suivants :
+Une implémentation réussie commence par une bonne préparation. Avant de configurer Journey Optimizer, alignez votre équipe sur les points suivants :
 
-* **Définissez d’abord vos cas d’utilisation** — Identifiez les scénarios client que vous allez traiter et donnez-leur la priorité. Cela guide chaque décision de configuration, de [gestion des données](../data/gs-data.md) à [configuration des canaux](../configuration/get-started-configuration.md).
-* **Faites participer toutes les équipes qui interagissent avec l’expérience client** — Une implémentation de Journey Optimizer couvre généralement le marketing, l’informatique, les données et les opérations. L’alignement précoce entre les équipes empêche toute reprise.
-* **Définir un identifiant client partagé** — Convenir d&#39;un identifiant commun (tel qu&#39;un identifiant CRM ou une adresse e-mail) qui existe dans toutes vos sources de données. Il s’agit de la base des [profils clients unifiés](../audience/get-started-profiles.md).
-* **Vérifier la conformité en matière de confidentialité des données** — Assurez-vous que toutes les sources de données que vous prévoyez de connecter sont conformes aux [réglementations en matière de confidentialité](../privacy/get-started-privacy.md) applicables avant l’ingestion.
-* **Planifiez les tests avant la mise en production** - Vérifiez que [les déclencheurs d’événement, les conditions de parcours et les actions de canal](../building-journeys/journey-gs.md) se comportent de la manière escomptée dans un sandbox de développement ou d’évaluation.
-* **Préparez le contenu de votre marque et votre bibliothèque de ressources** — Identifiez les ressources numériques, les modèles et les directives de marque que votre équipe utilisera dans les parcours et les campagnes. Leur chargement dans Journey Optimizer [bibliothèque de ressources intégrée](../integrations/assets.md) avant le lancement accélère la création de messages et garantit la cohérence de la marque dès le premier jour.
+* **Définir d’abord vos cas d’utilisation** : identifiez les scénarios client que vous allez traiter et donnez-leur la priorité. Cela guide chaque décision de configuration, de la [gestion des données](../data/gs-data.md) à la [configuration des canaux](../configuration/get-started-configuration.md).
+* **Impliquer toutes les équipes qui interagissent avec l’expérience client** : une mise en œuvre de Journey Optimizer couvre généralement le marketing, l’informatique, les données et les opérations. L’alignement en amont entre les équipes permet d’empêcher tout travail supplémentaire.
+* **Définir un identifiant client partagé** : convenez d’un identifiant commun (tel qu’un identifiant CRM ou une adresse e-mail) qui existe dans toutes vos sources de données. Il s’agit de la base des [profils clients unifiés](../audience/get-started-profiles.md).
+* **Vérifier la conformité en matière de confidentialité des données** : assurez-vous que toutes les sources de données que vous prévoyez de connecter sont conformes aux [réglementations en matière de confidentialité](../privacy/get-started-privacy.md) applicables avant l’ingestion.
+* **Planifier les tests avant la publication** : vérifiez que [les déclencheurs d’événement, les conditions de parcours et les actions de canal](../building-journeys/journey-gs.md) se comportent comme prévu dans un sandbox de développement ou d’évaluation.
+* **Préparer le contenu de votre marque et votre bibliothèque de ressources** : identifiez les ressources numériques, les modèles et les directives de marque que votre équipe utilisera dans les parcours et les campagnes. Leur chargement dans la [bibliothèque de ressources intégrée](../integrations/assets.md) de Journey Optimizer avant le lancement accélère la création de messages et garantit la cohérence de la marque dès le premier jour.
 
 ## Guides de démarrage rapide basés sur les rôles
 
@@ -76,7 +115,7 @@ Une implémentation réussie de Journey Optimizer suit généralement cette sé
    L’administrateur ou l’administratrice pose les bases en configurant les sandbox et les contrôles d’accès et en préparant les configurations des canaux. Ces tâches doivent être effectuées en premier pour permettre aux autres équipes de travailler.
    * Configurer des sandbox de développement, d’évaluation et de production
    * Configurer les rôles, les autorisations et le contrôle d’accès au niveau de l’objet (OLAC)
-   * Configurer des configurations de canal (e-mail, SMS, notification push web, in-app, web, courrier, cartes de contenu)
+   * Configurer les configurations de canal (E-mail, SMS, Push, push web, In-app, Web, courrier, cartes de contenu)
    * Déléguer des sous-domaines et configurer des groupes d’adresses IP
    * Configurer des listes de suppression et des politiques de consentement
 
@@ -92,10 +131,10 @@ Une implémentation réussie de Journey Optimizer suit généralement cette sé
 3. **Développeur ou développeuse** : implémente les intégrations techniques.\
    Les développeurs et les développeuses connectent les applications à Journey Optimizer en intégrant des SDK, en envoyant des événements et en créant des points d’entrée d’API. Ces implémentations permettent aux parcours de se déclencher et de s’exécuter.
    * Intégrer le SDK mobile (iOS/Android) à la configuration des notifications push
-   * Implémenter le SDK Web pour les expériences web et les notifications push web
+   * Implémenter le SDK web pour les expériences web et les notifications push web
    * Envoyer des événements à partir d’applications pour déclencher des parcours
    * Créer des points d’entrée d’actions personnalisées pour les intégrations à des systèmes externes
-   * Surveillance de l’intégrité et des performances des actions personnalisées
+   * Surveiller l’intégrité et les performances des actions personnalisées
    * Tester les implémentations à l’aide d’Adobe Experience Platform Assurance
 
 4. **Responsable marketing** : conçoit et exécute les expériences client\
@@ -108,7 +147,7 @@ Une implémentation réussie de Journey Optimizer suit généralement cette sé
 
 **Remarque :** bien que cette séquence soit standard, certaines activités peuvent se produire en parallèle. Par exemple, les développeurs et développeuses peuvent travailler sur les intégrations d’applications pendant que les ingénieurs et ingénieures de données configurent les schémas.
 
-## Prise en main par rôle
+## Prise en main des rôles
 
 Chaque rôle commence par des tâches spécifiques adaptées à son objectif. L’accomplissement de ces étapes initiales garantit une intégration et une harmonisation plus fluides avec le processus de mise en œuvre global :
 
@@ -118,20 +157,20 @@ En tant que responsable marketing ou qu’utilisateur ou utilisatrice profession
 
 **Les fonctionnalités clés que vous allez utiliser :**
 
-* **&#x200B;**&#x200B;: créez un engagement client individuel en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux. Utilisez l’activité Action unifiée pour toutes les actions de canal, l’activité Décision de contenu pour intégrer des offres dans des parcours et Journey Agent pour créer des parcours à partir d’invites en langage naturel
-* **Orchestration de campagne** : concevez et automatisez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle. Parfait pour les campagnes lancées par une marque, comme des promotions saisonnières, des lancements de produits et des communications basées sur les comptes. Utilisez la segmentation d’entités multiples pour créer des audiences précises en connectant les données client aux entités associées (comptes, achats, réservations). Utiliser l’envoi de vagues pour diffuser des messages par lots contrôlés
+* **Journey Orchestration** : créez un engagement client individuel et en temps réel où chaque personne évolue à son propre rythme, déclenché par un comportement ou des événements sur plusieurs canaux. Utilisez l’activité Action unifiée pour toutes les actions de canal, l’activité Décision de contenu pour intégrer des offres dans les parcours et l’agent Journey pour créer des parcours à partir de prompts en langage naturel.
+* **Orchestration de campagne** : concevez et automatisez des campagnes par lots complexes et à plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle. Parfait pour les campagnes lancées par une marque, comme des promotions saisonnières, des lancements de produits et des communications basées sur les comptes. Exploitez la segmentation multi-entités pour créer des audiences précises en connectant les données client à des entités associées (comptes, achats, réservations, etc.). Utiliser l’envoi par vagues pour diffuser des messages par lots contrôlés
 * **Concepteur de messages moderne** : concevez et personnalisez des e-mails et des messages mobiles à l’aide d’une interface de type glisser-déposer. Modifier les modèles prêts à l’emploi pour accélérer le délai de mise sur le marché
-* **Gestion des décisions** : créez et gérez des offres, des règles d’éligibilité et d’autres composants dans une bibliothèque centralisée qui peut être incorporée dans les e-mails et les points de contact des clients. Utilisation de la prise de décision pour la personnalisation des notifications push et des SMS
+* **Gestion des décisions** : créez et gérez des offres, des règles d’éligibilité et d’autres composants dans une bibliothèque centralisée qui peuvent être incorporés dans des e-mails et des points de contact avec la clientèle. Utiliser la Prise de décision pour la personnalisation des notifications push et des SMS
 * **Gestion des ressources** : accédez à Adobe Experience Manager Assets Essentials, entièrement intégré à Journey Optimizer pour un accès aux ressources et une diffusion des ressources rationalisés.
 * **Définition d’audience** : créez des audiences à la demande avec un ajustement instantané à l’aide de requêtes relationnelles, avec de la visibilité avant envoi pour une évaluation précise de la taille des audiences.
 * **Services d’IA/de ML** : utilisez l’optimisation de l’heure d’envoi et les scores d’engagement prédictifs pour cibler les clientes et les clients à forte valeur ajoutée et pour réduire le risque d’attrition.
-* **Agir sur les diffusions** : utilisez des heures calmes (exclusions temporelles) et la gestion des conflits pour respecter les préférences des clients et éviter la surcommunication
+* **Contrôle des diffusions** : utilisez des heures de tranquillité (exclusions temporelles) et la gestion des conflits pour respecter les préférences de la clientèle et éviter une communication excessive.
 
-**Commencez par :** utilisez des modèles de cas d’utilisation et des assistants pour créer et déployer facilement de nouveaux parcours client. Utilisez Journey Agent pour créer des parcours à partir d’invites en langage naturel.
+**Commencez par :** utiliser des modèles de cas d’utilisation et des assistants pour créer et déployer facilement de nouveaux parcours client. Utilisez l’agent Journey pour créer des parcours à partir de prompts en langage naturel.
 
 [Commencer en tant que responsable marketing →](path/marketer.md)
 
-### Pour les ingénieurs de données {#for-data-engineers}
+### Pour les ingénieurs et ingénieures de données {#for-data-engineers}
 
 En tant qu’architecte ou ingénieur ou ingénieure de données, vous configurez et gérez les données de profil client et d’autres sources de données utilisées dans les expériences orchestrées par Journey Optimizer.
 
@@ -145,7 +184,7 @@ En tant qu’architecte ou ingénieur ou ingénieure de données, vous configure
 * **Gestion des profils** : activez les jeux de données pour une utilisation avec le profil client en temps réel afin d’offrir des expériences personnalisées.
 * **Qualité des données** : surveillez l’ingestion des données pour vous assurer que tout se déroule correctement dans Journey Optimizer.
 
-**Commencer par :** consultez la présentation de la [Prise en main de la gestion des données](../data/gs-data.md) pour comprendre les schémas, les jeux de données, les identités et la liste de contrôle de configuration complète des données. Ensuite, modélisez votre premier schéma de profil client et configurez un connecteur source pour commencer à ingérer des données.
+**Commencez par :** consulter la présentation de la [Prise en main de la gestion des données](../data/gs-data.md) pour comprendre les schémas, les jeux de données, les identités et la liste de contrôle de configuration des données. Modélisez ensuite votre premier schéma de profil client et configurez un connecteur source pour commencer à ingérer des données.
 
 [Commencer en tant qu’ingénieur ou ingénieure de données →](path/data-engineer.md)
 
@@ -159,9 +198,9 @@ En tant qu’administrateur ou administratrice, vous configurez l’environnemen
 * **Gestion des utilisateurs et des utilisatrices** : configurez des groupes d’utilisateurs et d’utilisatrices et des autorisations pour contrôler l’accès aux différentes fonctionnalités.
 * **Configuration des canaux** : configurez les canaux de diffusion et les préréglages de messages pour garantir la cohérence de l’identité de marque dans les messages et les ressources diffusés via Journey Optimizer.
 * **Sécurité et gouvernance** : appliquez le contrôle d’accès au niveau de l’objet (OLAC), configurez des politiques de consentement et implémentez des politiques de gouvernance des données.
-* **Délivrabilité** : déléguez des sous-domaines, migrez des sous-domaines vers une délégation personnalisée si nécessaire, créez des pools d&#39;adresses IP et gérez des listes et des listes autorisées de suppression
+* **Délivrabilité** : déléguez des sous-domaines, migrez-les vers la délégation personnalisée si nécessaire, créez des groupes d’adresses IP et gérez les listes de suppression et les listes autorisées.
 * **Configuration de parcours** : mettez en place des éléments et des configurations de parcours pour vos équipes.
-* **Configuration du canal** : configurez les notifications push web, le publipostage direct et l&#39;exportation des messages (e-mail/SMS) lorsque cela est nécessaire.
+* **Configuration des canaux** : configurez les notifications push web, le courrier et l’export des messages (e-mail/SMS) lorsque nécessaire.
 
 **Commencez par :** configurer des sandbox et des autorisations utilisateur, puis définissez vos premières configurations de canal et vos premiers préréglages de messages.
 
@@ -174,7 +213,7 @@ Implémentez des intégrations techniques qui connectent Journey Optimizer à vo
 **Principales responsabilités :**
 
 * Intégrer le SDK mobile Adobe Experience Platform (iOS/Android)
-* Implémenter le SDK Web pour les expériences web et les notifications push web
+* Implémenter le SDK web pour les expériences web et les notifications push web
 * Configurer les informations d’identification et les certificats des notifications push
 * Envoyer des événements à partir d’applications pour déclencher des parcours
 * Créer des points d’entrée d’API que Journey Optimizer peut appeler via des actions personnalisées
@@ -243,7 +282,7 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 >[!TAB Formation et documentation]
 
 * [Tutoriels vidéo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"} - Tutoriels vidéo détaillés pour tous les rôles
-* [Prise en main de la gestion des données](../data/gs-data.md) - Schémas, jeux de données, identités et liste de contrôle de préparation des données pour Journey Optimizer
+* [Prise en main de la gestion des données](../data/gs-data.md) : schémas, jeux de données, identités et liste de contrôle de préparation des données pour Journey Optimizer
 * [Bibliothèque de cas d’utilisation de parcours](../building-journeys/jo-use-cases.md) - Exemples pratiques et modèles d’implémentation
 * [Fonctionnalités intelligentes et fonctionnalités d’IA](ai-features.md) - Découvrez l’assistant IA, l’optimisation de l’heure d’envoi et la génération de contenu.
 * [Guide de l’interface d’utilisation](user-interface.md) - Naviguez efficacement dans Journey Optimizer.
@@ -256,7 +295,7 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 
 >[!TAB Communauté et assistance]
 
-* [Communauté Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
+* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
 * [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Posez des questions et partagez vos connaissances.
 
 >[!ENDTABS]

@@ -9,10 +9,26 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, style, css, corps, structure
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
+TQID: https://experienceleague.adobe.com/AVhoxB06o8nR8q1ER7Jhh-oJ8gb9r1P5R6Fc2EIDuHA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 53%
+source-wordcount: 306
+ht-degree: 100%
 
 ---
 
@@ -22,21 +38,21 @@ Une fois que vous avez commencé à créer le contenu de votre e-mail dans [!DNL
 
 Vous pouvez appliquer vos modifications au corps de l’e-mail, à un composant de structure ou à un composant de contenu.
 
-Sélectionnez un élément dans votre e-mail et cliquez sur l’onglet **[!UICONTROL Styles]**. Toutes les options de mise en forme de l’élément sélectionné s’affichent dans le volet de droite.
+Sélectionnez un élément dans votre e-mail et cliquez sur l’onglet **[!UICONTROL Styles]**. Toutes les options de style de l’élément sélectionné s’affichent dans le volet de droite.
 
 ![](assets/email_designer_styles.png)
 
-Par exemple, si vous sélectionnez un composant de texte :
+Par exemple, si vous sélectionnez un composant de texte :
 
-* Vous pouvez ajuster la **[!UICONTROL Couleur d’arrière-plan]** et la **[!UICONTROL Couleur de police]** de ce paragraphe ;
-* Vous pouvez mettre à jour les paramètres **[!UICONTROL Texte]** tels que la famille de polices, la taille, la hauteur, l’alignement, etc., et gérer l’espacement avant le premier caractère d’une ligne à l’aide du paramètre **[!UICONTROL Mise en retrait]**.
-* Vous pouvez également ajuster des options telles que **[!UICONTROL Bordure]**, **[!UICONTROL Marge]** et **[!UICONTROL Marge intérieure]** du composant de texte.
+* vous pouvez ajuster la **[!UICONTROL couleur d’arrière-plan]** et la **[!UICONTROL couleur de police]** de ce paragraphe ;
+* vous pouvez mettre à jour les paramètres **[!UICONTROL Texte]** tels que la famille de polices, la taille, la hauteur, l’alignement, etc., et gérer l’espacement avant le premier caractère d’une ligne à l’aide du paramètre **[!UICONTROL Mise en retrait]** ;
+* vous pouvez également ajuster des options telles que **[!UICONTROL Bordure]**, **[!UICONTROL Marge]** et **[!UICONTROL Marge intérieure]** du composant de texte.
 
 Si vous utilisez un [modèle de contenu](use-email-templates.md) par défaut ou si vous avez appliqué un thème à votre e-mail, vous ne pouvez ajuster que quelques paramètres de style pour correspondre au thème sélectionné. [En savoir plus sur les thèmes](apply-email-themes.md)
 
 ![](assets/email_designer_styles_theme.png)
 
-Suivez les liens ci-dessous pour découvrir comment ajuster certains paramètres de style spécifiques à votre e-mail.
+Suivez les liens ci-dessous pour découvrir comment ajuster certains paramètres de style spécifiques de votre e-mail.
 
 * Découvrez comment [personnaliser l’arrière-plan de votre e-mail](backgrounds.md).
 * Découvrez comment [gérer l’alignement vertical et la marge intérieure](alignment-and-padding.md).

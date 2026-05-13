@@ -7,10 +7,21 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/eZC9hzg7Yf9sZ17idMlFYOX-Rn7lwGL6J2AyFaj0CV4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 94%
+source-wordcount: 542
+ht-degree: 100%
 
 ---
 
@@ -22,7 +33,7 @@ Les demandes d’accès à des informations personnelles peuvent être créées 
 
 ![](assets/requests.png)
 
-Pour plus d&#39;informations sur Privacy Service et sur la création et la gestion des demandes d&#39;accès à des informations personnelles, consultez la documentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur Privacy Service et sur la manière de créer et gérer des demandes d’accès à des informations personnelles, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"}.
 
 <!--
 * [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr)
@@ -60,7 +71,7 @@ Voici les trois services en amont :
 >
 >Pour les demandes de suppression et d’accès, vous devez appeler ces systèmes individuels afin de vous assurer que les demandes sont traitées par chacun d’entre eux. L’envoi d’une demande d’accès à des informations personnelles à [!DNL Adobe Journey Optimizer] ne supprime pas les données de tous ces systèmes.
 
-## Création de demandes d’accès et de suppression
+## Créer des demandes d’accès et de suppression
 
 ### Conditions préalables
 

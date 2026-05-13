@@ -5,10 +5,20 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
+TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 53%
+source-wordcount: 984
+ht-degree: 100%
 
 ---
 
@@ -16,7 +26,7 @@ ht-degree: 53%
 
 ## Commencer avec les politiques d’approbation {#gs}
 
-[!DNL Journey Optimizer] permet de configurer un processus de validation qui permet aux équipes marketing de s’assurer que les campagnes et les parcours sont examinés et approuvés par les parties prenantes appropriées avant leur lancement.
+[!DNL Journey Optimizer] permet de définir un processus d’approbation pour que les équipes marketing puissent s’assurer que les campagnes et les parcours sont examinés et approuvés par les parties prenantes appropriées avant leur mise en ligne.
 
 Les politiques d’approbation introduisent un workflow structuré directement dans l’interface d’utilisation, éliminant ainsi la nécessité de recourir à des supports externes tels que des outils de gestion des e-mails ou des tâches, tout en assurant la gestion et le suivi centralisés de toutes les approbations.
 
@@ -26,9 +36,9 @@ En outre, cette fonctionnalité offre un meilleur contrôle sur la publication d
 
 Avant de commencer, vérifiez que les autorisations ci-dessous ont été configurées.
 
-Pour approuver et publier des parcours et des campagnes, les utilisateurs doivent disposer des autorisations **Approuver et publier des campagnes** et **Approuver et publier des Parcours**. [En savoir plus](../administration/permissions.md)
+Pour approuver et publier les parcours et campagnes, les utilisateurs et utilisatrices doivent disposer des autorisations **Approuver et publier des campagnes** et **Approuver et publier des parcours**. [En savoir plus](../administration/permissions.md)
 
-+++  Découvrez comment attribuer des autorisations liées à la validation
++++  Découvrir comment attribuer des autorisations liées aux approbations
 
 1. Dans le produit **Autorisations**, accédez à l’onglet **Rôles** et sélectionnez le **Rôle** de votre choix.
 
@@ -36,11 +46,11 @@ Pour approuver et publier des parcours et des campagnes, les utilisateurs doiven
 
 1. Ajoutez la ressource **Campagnes**, puis sélectionnez **Approuver et publier des campagnes** dans le menu déroulant.
 
-   ![Autorisation Affecter des campagnes d’approbation et de publication](assets/permissions_approval.png){zoomable="yes"}
+   ![Attribuer l’autorisation d’approbation et de publication des campagnes](assets/permissions_approval.png){zoomable="yes"}
 
 1. Ajoutez la ressource **Parcours**, puis sélectionnez **Approuver et publier des parcours** dans le menu déroulant.
 
-   ![Attribuer une autorisation d’approbation et de publication de Parcours &#x200B;](assets/permissions_approval_2.png){zoomable="yes"}
+   ![Attribuer l’autorisation d’approbation et de publication des parcours](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. Cliquez sur **Enregistrer** pour appliquer vos modifications.
 
@@ -60,15 +70,15 @@ La personne recevra un e-mail avec des instructions pour accéder à votre insta
 
 Le processus d’approbation global se présente comme suit :
 
-![Flux de processus d’approbation](assets/approval-process.png){zoomable="yes"}
+![Flux du processus d’approbation](assets/approval-process.png){zoomable="yes"}
 
 1. **Configuration des politiques d’approbation**
 
-   Un utilisateur administrateur crée une politique de validation , définissant les conditions dans lesquelles la politique doit s’appliquer aux parcours ou aux campagnes. Par exemple, vous pouvez créer une politique de validation qui requiert que toutes les campagnes planifiées créées par un utilisateur donné soient validées avant l’activation. [Découvrir comment créer des politiques d’approbation](approval-policies.md)
+   Un administrateur ou une administratrice crée une politique d’approbation qui définit les conditions dans lesquelles la politique doit s’appliquer aux parcours ou aux campagnes. Vous pouvez par exemple créer une politique d’approbation qui exige que toutes les campagnes planifiées créées par une personne donnée soient approuvées avant d’être activées. [Découvrir comment créer des politiques d’approbation](approval-policies.md)
 
 1. **Envoi de campagne/parcours pour approbation**
 
-   Les créateurs de la campagne ou du parcours créent un parcours ou une campagne et l’envoient pour approbation. La campagne/le parcours passe à l’état En révision, durant lequel aucune modification ne peut être effectuée, sauf si la demande est annulée. [Découvrir comment demander l’approbation](request-approval.md)
+   Les personnes à l’origine de la campagne/du parcours créent un parcours ou une campagne et l’envoient pour approbation. La campagne/le parcours passe à l’état En révision, durant lequel aucune modification ne peut être effectuée, sauf si la demande est annulée. [Découvrir comment demander l’approbation](request-approval.md)
 
    >[!NOTE]
    >
@@ -82,45 +92,45 @@ Le processus d’approbation global se présente comme suit :
 
 Vous pouvez surveiller toutes les demandes d’approbation et de modification qui ont été soumises pour un parcours donné ou une campagne donnée. Pour ce faire, cliquez sur l’icône **[!UICONTROL Afficher le journal d’audit]** située dans la section supérieure droite de la zone de travail du parcours ou de l’écran de révision de la campagne.
 
-![Journal d&#39;audit des demandes d&#39;approbation](assets/monitor-requests.png)
+![Journal d’audit des demandes d’approbation](assets/monitor-requests.png)
 
 ## Questions fréquentes {#faq}
 
-+++Dois-je créer une politique de validation pour chaque campagne ou parcours ?
++++Dois-je créer une politique d’approbation pour chaque campagne ou parcours ?
 
-Non. Les politiques d’approbation sont conditionnelles. Vous ne devez créer une politique que si vous souhaitez imposer la révision d’un ensemble spécifique de campagnes ou de parcours (par exemple, toutes les campagnes planifiées créées par une équipe spécifique). Si aucune politique ne s’applique à une campagne ou à un parcours, le créateur ou la créatrice peut publier directement sans demander d’approbation.
-
-+++
-
-+++Que se passe-t-il si l’approbateur n’est pas disponible ?
-
-La demande reste « En révision » jusqu’à ce qu’un approbateur agisse dessus. Vous pouvez annuler la demande (en renvoyant l’élément au statut « Brouillon ») et la soumettre à nouveau une fois que l’approbateur approprié est disponible. Les administrateurs peuvent également mettre à jour la politique d’approbation pour ajouter des approbateurs supplémentaires.
+Non. Les politiques d’approbation sont conditionnelles. Vous ne devez créer une politique que si vous souhaitez imposer la révision d’un ensemble spécifique de campagnes ou de parcours (par exemple, toutes les campagnes planifiées créées par une équipe donnée). Si aucune politique ne s’applique à une campagne ou à un parcours, le créateur ou la créatrice peut publier directement sans demander d’approbation.
 
 +++
 
-+++Puis-je modifier une campagne ou un parcours lorsqu’il est en attente de validation ?
++++Que se passe-t-il si la personne approbatrice n’est pas disponible ?
 
-Non. Une fois soumise à validation, la campagne ou le parcours est verrouillé(e) au statut « En révision ». Pour apporter des modifications, le créateur ou l’approbateur doit d’abord annuler la demande. L’élément revient à « Brouillon » et peut être modifié avant d’être envoyé à nouveau.
-
-+++
-
-+++Je ne vois pas l’autorisation Approuver et publier dans la liste déroulante. Que dois-je vérifier ?
-
-Assurez-vous d’abord d’ajouter la ressource appropriée. L’autorisation **Approuver et publier des campagnes** nécessite l’ajout de la ressource **Campagnes** au rôle et l’utilisation de la ressource **Approuver et publier des Parcours** nécessite la ressource **Parcours**. Les deux doivent être ajoutés séparément. [Découvrez comment attribuer des autorisations liées à la validation](#prerequisites)
+La demande reste « En révision » jusqu’à ce qu’une personne approbatrice s’en charge. Vous pouvez annuler la demande (ce qui redonne à l’élément le statut « Brouillon ») et la soumettre à nouveau dès que la personne approbatrice appropriée est disponible. L’équipe d’administration peut également mettre à jour la politique d’approbation pour ajouter des personnes approbatrices.
 
 +++
 
-+++Comment détermine-[!DNL Journey Optimizer] la politique d’approbation qui s’applique si plusieurs politiques peuvent correspondre ?
++++Puis-je modifier une campagne ou un parcours lorsqu’il est en attente d’approbation ?
 
-Lorsque plusieurs politiques d’approbation actives peuvent s’appliquer au même parcours ou à la même campagne, la politique **activée le plus récemment** est prioritaire. Les groupes d’utilisateurs approbateurs définis dans cette politique sont ceux qui sont notifiés et qui régissent la demande.
+Non. Une fois soumis(e) à approbation, la campagne ou le parcours est verrouillé(e) au statut « En révision ». Pour apporter des modifications, la personne créatrice ou approbatrice doit d’abord annuler la demande. L’élément retrouve son statut « Brouillon » et peut être modifié avant un nouvel envoi.
+
++++
+
++++Je ne vois pas l’autorisation Approuver et publier dans la liste déroulante. Que dois-je vérifier ?
+
+Vérifiez que vous ajoutez d’abord la bonne ressource. L’autorisation **Approuver et publier des campagnes** nécessite l’ajout de la ressource **Campagnes** au rôle et l’autorisation **Approuver et publier des parcours** nécessite l’ajout de la ressource **Parcours**. Les deux ressources doivent être ajoutées séparément. [Découvrez comment attribuer des autorisations liées à l’approbation.](#prerequisites)
+
++++
+
++++Comment [!DNL Journey Optimizer] détermine-t-il la politique d’approbation à appliquer lorsque plusieurs politiques sont applicables ?
+
+Lorsque plusieurs politiques d’approbation actives peuvent s’appliquer au même parcours ou à la même campagne, la politique **activée la plus récemment** est prioritaire. Les groupes d’utilisateurs approbateurs définis dans cette politique sont ceux qui sont avertis et qui traitent la demande.
 
 [En savoir plus](approval-policies.md#multiple-policies)
 
 +++
 
-+++Si un demandeur appartient à plusieurs groupes d’utilisateurs, peut-il choisir à quel groupe la demande d’approbation est envoyée ?
++++Si la personne qui soumet la demande appartient à plusieurs groupes d’utilisateurs, peut-elle choisir à quel groupe la demande d’approbation est envoyée ?
 
-Non. Les demandeurs ne peuvent pas sélectionner manuellement le groupe d&#39;utilisateurs qui reçoit ou achemine la demande d&#39;approbation. Les groupes d’utilisateurs spécifiés dans la politique d’approbation qui s’applique (selon la [priorité de la politique](approval-policies.md#multiple-policies)) sont automatiquement avertis.
+Non. La personne qui soumet la demande ne peut pas sélectionner manuellement le groupe d’utilisateurs qui reçoit la demande d’approbation. Les groupes d’utilisateurs spécifiés dans la politique d’approbation qui s’applique (selon la [priorité de la politique](approval-policies.md#multiple-policies)) sont automatiquement avertis.
 
 +++
 

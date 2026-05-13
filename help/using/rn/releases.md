@@ -4,9 +4,18 @@ product: journey optimizer
 title: Cycle de publication d’Adobe Journey Optimizer
 feature: Release Notes
 description: Présentation du cycle de publication d’Adobe Journey Optimizer
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
-workflow-type: ht
-source-wordcount: '920'
+exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
+TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 943
 ht-degree: 100%
 
 ---
@@ -58,11 +67,11 @@ Les chemins de publication les plus courants sont les suivants :
 
 ## Libellés de disponibilité {#availability-labels}
 
-| **Libellé** | **Objet** | **Disponibilité** | **Remarques importantes** |
+| **Libellé** | **Rôle** | **Disponibilité** | **Remarques importantes** |
 |------------|-------------|------------------|----------------|
-| **Beta** | Tests initiaux et collecte de commentaires. | Réservé aux clients et clientes ou organisations sélectionnés participant au programme Beta d’Adobe. | - Non destiné à une utilisation en production.<br>- La fonctionnalité ou la conception peut changer avant la disponibilité générale.<br>- Les commentaires permettent d’améliorer l’implémentation finale. |
-| **Disponibilité limitée (DL)** | Déploiement contrôlé pour la validation et la surveillance. | Réservé aux clients et clientes ou environnements sélectionnés (par exemple, les sandbox de développement). | - Prêt pour la production et entièrement pris en charge.<br>- Utilisé pour valider les performances et l’évolutivité avant la publication générale.<br>- L’accès nécessite l’approbation d’Adobe. |
-| **Disponibilité générale (DG)** | Publication étendue de fonctionnalités entièrement prises en charge. | Activé par défaut pour toutes les organisations éligibles. | - Prêt pour la production et entièrement pris en charge.<br> - Des licences ou des droits peuvent s’appliquer.<br> - Peut être déployé progressivement dans les différentes régions. |
+| **Beta** | Tests initiaux et collecte de commentaires. | Réservé aux clients et clientes ou organisations sélectionnés participant au programme Beta d’Adobe. | – Non destiné à un usage en production.<br>– Les fonctionnalités ou la conception peuvent changer avant la disponibilité générale.<br>– Les commentaires permettent d’affiner la mise en œuvre finale. |
+| **Disponibilité limitée (DL)** | Déploiement contrôlé pour la validation et la surveillance. | Réservé aux clients et clientes ou environnements sélectionnés (par exemple, les sandbox de développement). | – Prêt pour la production et entièrement pris en charge.<br>– Utilisé pour valider les performances et l’évolutivité avant la publication générale.<br>– L’accès nécessite l’approbation d’Adobe. |
+| **Disponibilité générale (DG)** | Publication étendue de fonctionnalités entièrement prises en charge. | Activé par défaut pour toutes les organisations éligibles. | – Prêt pour la production et entièrement pris en charge.<br> – Des licences ou des droits peuvent s’appliquer.<br> – Peut être déployé progressivement dans les différentes régions. |
 
 
 ## Déploiement et disponibilité {#rollout}
@@ -78,7 +87,7 @@ Pour vous tenir au courant :
 
 * Consultez les [**notes de mise à jour les plus récentes**](release-notes.md) pour découvrir les fonctionnalités nouvelles et modifiées.
 * Consultez la section **_Dernières mises à jour_** entre chaque publication mensuelle pour suivre les déploiements en temps réel.
-* Consultez les **notes de mise à jour préliminaire** (si publiées) pour obtenir un aperçu des fonctionnalités à venir.
+* Surveillez les **notes de mise à jour préliminaire** (si publiées) pour obtenir un aperçu des fonctionnalités à venir.
 * Contactez votre représentant ou représentante Adobe pour obtenir des informations sur l’accès ou les droits en Beta ou en disponibilité limitée.
 
 Vous pouvez vous abonner à des **alertes par e-mail et des alertes intégrées au produit** pour suivre les mises à jour des produits Journey Optimizer. Pour vous abonner :
@@ -117,7 +126,7 @@ Certaines fonctionnalités en disponibilité générale sont déployées progres
 
 +++ Toutes les fonctionnalités passent-elles par les phases Beta et de disponibilité limitée ?
 
-Non. Certaines fonctionnalités sont publiées directement en disponibilité générale ou uniquement en disponibilité limitée, selon leur nature et leur état de préparation. Le chemin de publication est adapté à chaque fonctionnalité pour équilibrer l’agilité, la qualité et la stabilité.
+Non. Certaines fonctionnalités sont publiées directement en disponibilité générale ou uniquement en disponibilité limitée, selon leur nature et leur état de préparation.Le chemin de publication est adapté à chaque fonctionnalité pour équilibrer l’agilité, la qualité et la stabilité.
 
 +++
 
