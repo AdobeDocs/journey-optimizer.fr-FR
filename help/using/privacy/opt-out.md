@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/aZO-1xrS-34tIqadKDzZQBr-1x3W3tKgkQAM7q3FhLM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: 1291
+ht-degree: 99%
 
 ---
 
@@ -31,19 +38,19 @@ Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les
 >
 >En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
-### Vérification du statut d’opt-out des notifications push {#push-opt-out-status}
+### Vérifier le statut d’opt-out des notifications push {#push-opt-out-status}
 
-Le processus d’opt-out push des applications mobiles est géré au niveau de l’appareil : lorsqu’un utilisateur désactive les notifications sur son appareil, le jeton push est supprimé de son profil. La **présence d’un jeton push** sur un profil est donc l’indicateur d’un consentement push implicite.
+Le processus d’opt-out des notifications push des applications mobiles est géré au niveau de l’appareil : lorsqu’un utilisateur ou une utilisatrice désactive les notifications sur son appareil, le jeton push est supprimé de son profil. La **présence d’un jeton push** sur un profil indique donc un consentement implicite aux notifications push.
 
-Pour vérifier le statut du consentement push d’un profil dans Adobe Experience Platform :
+Procédez comme suit pour vérifier le statut du consentement push d’un profil dans Adobe Experience Platform :
 
-1. Ouvrez le profil dans la section **[!UICONTROL Profils]** de Adobe Experience Platform.
-1. Accédez à l’onglet **[!UICONTROL Attributs]** et recherchez le groupe de champs **[!UICONTROL Détails de la notification push]**.
-1. Si un jeton push est présent, le profil a implicitement consenti à recevoir des notifications push. Si aucun jeton n’est trouvé, l’utilisateur s’est désinscrit au niveau de l’appareil.
+1. Ouvrez le profil dans la section **[!UICONTROL Profils]** d’Adobe Experience Platform.
+1. Accédez à l’onglet **[!UICONTROL Attributs]** et recherchez le groupe de champs **[!UICONTROL Détails des notifications push]**.
+1. Si un jeton push est présent, le profil a implicitement consenti à recevoir des notifications push. Si aucun jeton n’apparaît, cela signifie que l’utilisateur ou l’utilisatrice a désactivé les notifications sur son appareil.
 
 >[!NOTE]
 >
->Pour les cas d’utilisation de conformité nécessitant un suivi du consentement push explicite, utilisez l’attribut **`consents.marketing.push.val`** du groupe de champs [&#x200B; Consentements et Préférences &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"}. Une valeur `y` indique l’opt-in explicite ; `n` indique l’opt-out explicite.
+>Si des exigences de conformité imposent un suivi du consentement explicite aux notifications push, utilisez l’attribut **`consents.marketing.push.val`** du [groupe de champs Consentements et préférences](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"}. La valeur `y` indique un opt-in explicite ; `n` indique un opt-out explicite.
 
 Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey Optimizer dans les sections suivantes :
 
@@ -52,7 +59,7 @@ Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey
 <a href="../email/email-opt-out.md">
 <img alt="Lead" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%">
 </a>
-<div><a href="../email/email-opt-out.md"><strong>Gestion du processus de désinscription aux e-mails</strong>
+<div><a href="../email/email-opt-out.md"><strong>Gestion du processus d’opt-out des e-mails</strong>
 </div>
 <p>
 </td>
@@ -61,7 +68,7 @@ Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey
 <img alt="Peu fréquent" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
 </a>
 <div>
-<a href="../sms/sms-opt-out.md"><strong>Gestion du processus de désinscription aux SMS</strong></a>
+<a href="../sms/sms-opt-out.md"><strong>Gestion du processus d’opt-out des SMS</strong></a>
 </div>
 <p></td>
 </tr></table>
@@ -82,7 +89,7 @@ Lors de l’utilisation des offres, les préférences de personnalisation ne son
 >
 >Les portées de décision utilisées dans les canaux [!DNL Journey Optimizer] créés répondent à cette exigence de la campagne ou du parcours auxquels ils appartiennent.
 
-1. Créez une audience [Adobe Experience Platform](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"} et utilisez un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Oui (opt-in)]** pour cibler les utilisateurs et utilisatrices qui ont consenti à la personnalisation.
+1. Créez une [audience Adobe Experience Platform](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"} et utilisez un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Oui (opt-in)]** pour cibler les utilisateurs et utilisatrices qui ont consenti à la personnalisation.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +141,7 @@ Pour appliquer manuellement le consentement à la personnalisation dans les camp
 
 Vous pouvez utiliser le créateur de règles de segments pour créer une audience contenant des profils d’exclusion.
 
-1. Créez une audience [Adobe Experience Platform](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"}.
+1. Créez une [audience Adobe Experience Platform](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 

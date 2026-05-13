@@ -7,10 +7,16 @@ role: User
 level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
+TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 77%
+source-wordcount: 343
+ht-degree: 100%
 
 ---
 
@@ -18,7 +24,7 @@ ht-degree: 77%
 
 Le courrier est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les fournisseurs de courrier tiers pour envoyer du courrier à votre clientèle.
 
-Lors de la création d’une campagne ou d’un parcours de publipostage direct, Journey Optimizer génère automatiquement un fichier contenant tous les profils ciblés et les données sélectionnées, telles que les adresses postales et les attributs de profil. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par le fournisseur de courrier tiers de votre choix, qui gérera le processus de courrier réel pour vous.
+Lorsque vous créez un parcours ou une campagne par courrier, Journey Optimizer génère automatiquement un fichier contenant tous les profils ciblés et les données sélectionnées, comme des adresses postales et des attributs de profil. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par le fournisseur de courrier tiers de votre choix, qui gérera le processus de courrier réel pour vous.
 
 Vous devrez collaborer avec le fournisseur de courrier tiers de votre choix pour obtenir tout consentement requis de votre clientèle, le cas échéant, afin qu’elle puisse recevoir du courrier de votre part.
 
@@ -30,7 +36,7 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 >[!AVAILABILITY]
 >
->Les messages de publipostage direct peuvent être créés dans le cadre de parcours et de campagnes. Ils ne sont pas disponibles pour une utilisation dans des campagnes déclenchées par API.
+>Les messages de courrier ne peuvent être créés que dans le cadre de parcours et de campagnes. Ils ne sont pas disponibles pour les campagnes déclenchées par API.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -43,6 +49,6 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 ## Vidéo pratique
 
-Découvrez comment tirer parti du canal Publipostage direct dans Adobe Journey Optimizer pour automatiser et planifier les diffusions de publipostage direct dans vos parcours.
+Découvrez comment utiliser le canal Courrier dans Adobe Journey Optimizer pour automatiser et planifier les diffusions de courriers dans vos parcours.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479164?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)

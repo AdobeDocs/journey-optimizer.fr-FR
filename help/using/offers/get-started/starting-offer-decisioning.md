@@ -10,14 +10,20 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/-drNPR5XmWbTe050ZO3s-tymLiQXjT4gjth7-QTv01c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 98%
+source-wordcount: 914
+ht-degree: 100%
 
 ---
 
-# Prise en main de la gestion des décisions {#about-decision-management}
+# Commencer avec la gestion des décisions {#about-decision-management}
 
 Utilisez [!DNL Journey Optimizer] pour offrir au bon moment à vos clients les meilleures offre et expérience possibles à tous les points de contact. Une fois la conception réalisée, ciblez vos audiences avec des offres personnalisées.
 
@@ -58,22 +64,19 @@ Les décisions sont des conteneurs qui s’appuient sur le moteur de décision p
 
 Les fonctionnalités de gestion des décisions et l’intégration à Adobe Experience Platform vous permettent de couvrir de nombreux cas d’utilisation pour vous aider à augmenter l’engagement et la conversion des clients.
 
-
 * Affichez sur votre site Web les offres de la page d&#39;accueil qui correspondent au point d&#39;intérêt du client visiteur, en fonction des données issues d&#39;Adobe Experience Platform.
 
   ![](../assets/website.png)
 
-* Si les clients passent près de l&#39;un de vos magasins, adressez-leur des notifications Push leur rappelant les offres disponibles en fonction de leurs attributs (niveau de fidélité, genre, achats antérieurs...).
+* Si les clients et clientes passent près de l’un de vos magasins, adressez-leur des notifications Push leur rappelant les offres disponibles en fonction de leurs attributs (niveau de fidélité, genre, achats antérieurs...).
 
   ![](../assets/push_sample.png)
 
-* La gestion des décisions permet également d’améliorer l’expérience de vos clients lorsqu’ils contactent votre équipe d’assistance.
-Les API de gestion des décisions permettent d’afficher, sur le portail des agents de votre centre d’appels, des informations relatives aux offres échangées par le client ainsi que les meilleures offres suivantes.
-
+* La gestion des décisions permet également d’améliorer l’expérience de vos clients lorsqu’ils contactent votre équipe d’assistance. Les API de gestion des décisions permettent d’afficher, sur le portail des agents de votre centre d’appels, des informations relatives aux offres échangées par le client ainsi que les meilleures offres suivantes.
 
   ![](../../assets/do-not-localize/call-center.png)
 
-## Octroi de l’accès à la gestion des décisions {#granting-acess-to-decision-management}
+## Octroyer l’accès à la gestion des décisions {#granting-acess-to-decision-management}
 
 Les autorisations d’accès et d’utilisation des fonctionnalités de prise de décision sont gérées à l’aide d’[Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target="_blank"}.
 
@@ -84,7 +87,6 @@ Les autorisations spécifiques à la gestion des décisions sont répertoriées 
 ## Glossaire {#glossary}
 
 Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez lorsque vous utiliserez la gestion des décisions.
-
 
 * **Limitation** ou **Capping de la fréquence** : la limitation est utilisée comme contrainte pour définir le nombre de présentations d&#39;une offre. Il existe deux types de limitations : le nombre de fois où une offre peut être proposée à l&#39;audience cible combinée, également appelée « limitation globale », et le nombre de fois où une offre peut être proposée au même utilisateur final, également appelée « limitation de profil ».
 
@@ -114,18 +116,16 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 
 ## Vidéos pratiques{#video}
 
-### Qu&#39;est-ce que la gestion des décisions ? {#what-is-offer-decisioning}
+### Qu’est-ce que la gestion des décisions ? {#what-is-offer-decisioning}
 
 La vidéo ci-dessous présente les principales fonctionnalités, l’architecture et les cas d’utilisation de la gestion des décisions :
 
-
->[!VIDEO](https://video.tv.adobe.com/v/340412?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Définition et gestion des offres {#use-offer-decisioning}
 
 La vidéo ci-dessous montre comment utiliser la gestion des décisions pour définir et gérer vos offres, et exploiter les données client en temps réel.
 
-
->[!VIDEO](https://video.tv.adobe.com/v/340346?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

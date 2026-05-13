@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/wZkMADPKflUPDtBaSa0eEdHESX-0X0MQCqmk98fZn9k
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 83%
+source-wordcount: 858
+ht-degree: 100%
 
 ---
 
@@ -29,29 +35,29 @@ ht-degree: 83%
 >abstract="Le produit Adobe Experience Platform Assurance est incorporé à ce workflow pour vous aider à contrôler l’implémentation de votre SDK, ainsi qu’à simuler et valider des événements d’application."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home" text="Vue d’ensemble d’Adobe Experience Platform Assurance"
 
-**Configuration guidée de canal** est un workflow rationalisé dans Adobe Journey Optimizer qui vous permet de configurer rapidement des canaux marketing web et mobiles. Il se trouve sous **Administration** > **Canaux** > **Configuration des canaux** et automatise la création de ressources essentielles, telles que les propriétés des balises, les flux de données et les configurations de canal, dans Adobe Experience Platform, Journey Optimizer et la collecte de données. Au lieu de configurer manuellement chaque composant, vous suivez un flux guidé qui configure tous les éléments pour vous, de sorte que votre équipe marketing puisse commencer à créer des messages in-app, des notifications push et des expériences web sans délai.
+La **Configuration guidée de canal** est un workflow rationalisé dans Adobe Journey Optimizer qui vous permet de configurer rapidement des canaux marketing web et mobiles. Il se trouve dans **Administration** > **Canaux** > **Configuration des canaux** et automatise la création de ressources essentielles, telles que les propriétés des balises, les trains de données et les configurations de canal, dans Adobe Experience Platform, Journey Optimizer et la collecte de données. Au lieu de configurer manuellement chaque composant, vous suivez un flux guidé qui configure tous les éléments pour vous. Votre équipe marketing peut ainsi commencer rapidement à créer des messages in-app, des notifications push et des expériences web.
 
-La configuration guidée des canaux prend en charge les plateformes et canaux suivants.
+La configuration guidée de canal prend en charge les plateformes et canaux suivants.
 
 >[!BEGINTABS]
 
 >[!TAB iOS]
 
-**SDK:** Swift par Apple
+**SDK :** Swift par Apple
 
-**Canaux :** Message Push Mobile In-App
+**Canaux :** message in-app sur mobile, notification push sur mobile
 
 >[!TAB Android]
 
-**SDK:** Kotlin
+**SDK :** Kotlin
 
-**Canaux :** Message Push Mobile In-App
+**Canaux :** message in-app sur mobile, notification push sur mobile
 
 >[!TAB Web]
 
-**SDK:** Javascript
+**SDK :** Javascript
 
-**Canaux :** Web Basic
+**Canaux :** web de base
 
 >[!ENDTABS]
 
@@ -137,7 +143,7 @@ Notez que pour chaque plateforme que vous souhaitez configurer, il est nécessai
 
 Ce paramétrage de canal guidé simplifie la configuration rapide de canaux marketing, mettant facilement à disposition toutes les ressources essentielles dans les applications Experience Platform, Journey Optimizer et Collecte de données. Cela permet à votre équipe marketing de commencer rapidement à créer des campagnes et des parcours. Vous trouverez ci-dessous une liste des ressources générées et configurées automatiquement dans le cadre de la configuration de canal guidée.
 
-Parcourez les onglets ci-dessous pour accéder aux listes complètes de toutes les ressources générées automatiquement :
+Parcourez les onglets ci-dessous pour accéder aux listes complètes de toutes les ressources générées automatiquement :
 
 >[!BEGINTABS]
 
@@ -192,7 +198,7 @@ Pour la **configuration initiale**, vous trouverez ci-dessous une liste complèt
   </tr>
   <tr>
   <td>
-  <p>Flux de données</p>
+  <p>Trains de données</p>
   </td>
   <td>
   <p>Train de données avec services</p>
@@ -287,7 +293,7 @@ Pour la **configuration initiale**, vous trouverez ci-dessous une liste complèt
   </tr>
   <tr>
   <td>
-  <p>Flux de données</p>
+  <p>Trains de données</p>
   </td>
   <td>
   <p>Train de données avec services</p>
@@ -382,7 +388,7 @@ Pour la **configuration initiale**, vous trouverez ci-dessous une liste complèt
   </tr>
   <tr>
   <td>
-  <p>Flux de données</p>
+  <p>Trains de données</p>
   </td>
   <td>
   <p>Train de données avec services</p>

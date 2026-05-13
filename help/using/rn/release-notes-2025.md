@@ -209,13 +209,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Messagerie à haut débit pour les campagnes par e-mail déclenchées par API</strong><br/></th>
+<th><strong>Envoi d’e-mails haut débit pour les campagnes par e-mail déclenchées par API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Un nouveau mode de messagerie transactionnelle à débit élevé est disponible dans les campagnes déclenchées par API. Ce mode est conçu pour les messages transactionnels en temps réel à grande échelle et prend en charge jusqu’à 5 000 transactions par seconde avec une disponibilité supérieure. Ce mode prend également en charge les messages transactionnels sans référencer ni créer de profils client, tels que le passage en caisse de la clientèle, la confirmation de commande, les réinitialisations de mot de passe, les notifications de sécurité et autres notifications de service/exploitation.</p>
+<p>Un nouveau mode de messagerie transactionnelle haut débit est disponible pour les campagnes déclenchées par API. Ce mode est conçu pour les messages transactionnels en temps réel à grande échelle et prend en charge jusqu’à 5 000 transactions par seconde avec une disponibilité supérieure. Ce mode prend également en charge les messages transactionnels sans référencer ni créer de profils client, tels que le passage en caisse de la clientèle, la confirmation de commande, les réinitialisations de mot de passe, les notifications de sécurité et autres notifications de service/exploitation.</p>
 <p>Cette fonctionnalité n’est disponible que pour le canal e-mail, pour les organisations qui ont acheté l’offre complémentaire de messagerie transactionnelle à haut débit d’Adobe. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../campaigns/api-triggered-high-throughput.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 22 octobre 2025</p>
@@ -581,13 +581,13 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Améliorations {#sept-25-9-improvements}
 
-* **Prise en charge du Webhook pour les campagnes déclenchées par API**\
-  Les campagnes déclenchées par API prennent désormais en charge les Webhooks. Configurez une URL de webhook pour recevoir des mises à jour en temps réel du statut de chaque message, ce qui améliore l’observabilité et permet une surveillance et une automatisation efficaces. [En savoir plus](../configuration/feedback-webhooks.md)
+* **Prise en charge des webhooks pour les campagnes déclenchées par API**\
+  Les campagnes déclenchées par API prennent désormais en charge les webhooks. Configurez une URL de webhook pour recevoir des mises à jour en temps réel du statut de chaque message, ce qui améliore l’observabilité et permet une surveillance et une automatisation efficaces. [En savoir plus](../configuration/feedback-webhooks.md)
 
   Date de disponibilité : 29 septembre 2025
 
-* Prise en charge de **mTLS pour le canal SMS**
-Lors de la configuration d’un fournisseur de SMS personnalisé, vous avez désormais la possibilité d’activer l’authentification mutuelle TLS (mTLS), qui nécessite que le client et le serveur confirment l’identité de l’un et l’autre avant qu’une connexion sécurisée ne soit établie. [En savoir plus](../sms/sms-configuration-custom.md) - Date de disponibilité : 23 septembre 2025
+* **Prise en charge de mTLS pour le canal SMS**
+Lors de la configuration d’un fournisseur de SMS personnalisé, vous pouvez désormais activer l’authentification TLS mutuelle (mTLS), qui nécessite que la personne et le serveur confirment mutuellement leur identité pour établir une connexion sécurisée. [En savoir plus](../sms/sms-configuration-custom.md) - Date de disponibilité : 23 septembre 2025
 
 * **Schémas relationnels**\
   Les schémas relationnels peuvent désormais être utilisés pour prendre en charge vos besoins de modélisation relationnelle dans les campagnes orchestrées. [En savoir plus](../orchestrated/gs-schemas.md) - Date de disponibilité : 23 septembre 2025

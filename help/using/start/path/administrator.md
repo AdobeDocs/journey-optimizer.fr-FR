@@ -7,14 +7,21 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d712382d-29ef-487a-93a7-cbebdd2ef24aid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 89%
+source-wordcount: 1076
+ht-degree: 100%
 
 ---
 
-# Prise en main pour les administrateurs système {#get-started-sys-admins}
+# Commencer en tant qu’administrateurs et administratrices système {#get-started-sys-admins}
 
 En tant qu’**administrateur ou administratrice système**, vous pouvez configurer l’environnement Journey Optimizer et gérer les accès pour permettre à vos équipes de travailler efficacement et en toute sécurité. Vous effectuez les étapes de configuration essentielles pour que les [ingénieurs et ingénieures de données](data-engineer.md), les [développeurs et développeuses](developer.md) et les [responsables marketing](marketer.md) puissent commencer à utiliser [!DNL Adobe Journey Optimizer].
 
@@ -50,7 +57,7 @@ Pour permettre aux [responsables marketing](marketer.md) de créer et d’envoye
 
 Procédez comme suit :
 
-1. **Paramétrez les configurations de canaux**. Définissez tous les paramètres techniques requis pour les e-mails, SMS, notifications push, notifications push web, publipostage direct et autres canaux :
+1. **Paramétrez les configurations de canaux**. Définissez tous les paramètres techniques requis pour les e-mails, les SMS, les notifications push, les notifications push web, le publipostage direct et les autres canaux :
 
    * Définissez les **paramètres de notification push** dans [!DNL Adobe Experience Platform] et dans la collecte de données Adobe Experience Platform. [En savoir plus](../../push/push-gs.md)
 
@@ -62,7 +69,7 @@ Procédez comme suit :
 
    * Gérez le nombre de jours pendant lesquels des **reprises** sont effectuées avant de transmettre des adresses e-mail à la liste de suppression. [En savoir plus](../../configuration/manage-suppression-list.md)
 
-   * Activez l’**exportation de messages** au niveau de la configuration des canaux pour archiver le contenu des e-mails et des SMS envoyés si nécessaire (offre de module complémentaire). [En savoir plus](../../configuration/message-export.md)
+   * Activez l’**export de messages** au niveau de la configuration des canaux pour archiver le contenu des e-mails et des SMS envoyés si nécessaire (offre de module complémentaire). [En savoir plus](../../configuration/message-export.md)
 
 1. **Déléguer des sous-domaines** : pour un nouveau sous-domaine à utiliser dans Journey Optimizer, la première étape consiste à le déléguer. [En savoir plus](../../configuration/about-subdomain-delegation.md). Si nécessaire, vous pouvez migrer des sous-domaines de CNAME vers la délégation personnalisée. [En savoir plus](../../configuration/custom-subdomain-migration.md)
 
@@ -92,7 +99,7 @@ Au fur et à mesure que les besoins de votre entreprise se développent, envisag
 
 * **Plans de préchauffage d’adresses IP** : augmentez progressivement les volumes d’envoi des e-mails pour renforcer la réputation de l’expéditeur auprès des fournisseurs de messagerie. [En savoir plus](../../configuration/ip-warmup-gs.md)
 
-* **Heures calmes** : configurez des ensembles de règles pour les exclusions temporelles lorsque les messages ne doivent pas être envoyés pendant des périodes spécifiques. [En savoir plus](../../conflict-prioritization/quiet-hours.md)
+* **Heures de tranquillité** : configurez des jeux de règles pour les exclusions temporelles afin d’empêcher l’envoi de messages pendant des périodes spécifiques. [En savoir plus](../../conflict-prioritization/quiet-hours.md)
 
 ## Collaboration entre les rôles
 
@@ -102,7 +109,7 @@ Votre travail d’administration permet à toutes les équipes de réussir :
 
 >[!TAB Soutenir les ingénieurs et ingénieures de données]
 
-Collaborez avec [Ingénieurs de données](data-engineer.md) sur la gestion et l’accès aux données. Consultez la présentation [Prise en main de la gestion des données](../../data/gs-data.md) pour comprendre les schémas, les jeux de données et les sources de données que vos ingénieurs de données doivent configurer.
+Collaborez avec les [ingénieures et ingénieurs de données](data-engineer.md) sur la gestion et l’accès aux données. Consultez la vue d’ensemble [Commencer avec la gestion des données](../../data/gs-data.md) pour comprendre les schémas, les jeux de données et les sources de données que vos ingénieures et ingénieurs de données doivent configurer.
 
 * Octroyez des autorisations pour la gestion des données et la création de schémas
 * Approuvez les accès aux sandbox pour le développement et les tests

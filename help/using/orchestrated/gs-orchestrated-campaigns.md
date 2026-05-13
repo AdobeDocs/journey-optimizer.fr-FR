@@ -6,13 +6,17 @@ description: Découvrez comment commencer avec les campagnes orchestrées
 short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 85%
+source-wordcount: 909
+ht-degree: 100%
 
 ---
-
 
 # Commencer avec les campagnes orchestrées {#orchestrated-camp}
 
@@ -21,7 +25,7 @@ ht-degree: 85%
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Orchestration de campagne</b><br/>Fractionner, combiner, enrichir et manipuler des jeux de données relationnelles pour définir votre audience<br/><br/> <b>Tirer parti des données multi-entités</b><br/>Découvrir comment les campagnes orchestrées peuvent tirer parti des jeux de données relationnelles pour enrichir les données pour la segmentation et la personnalisation.<br/><br/><b>Segmentation ad hoc et nombres exacts</b><br/>Créer votre segment étape par étape avec des nombres exacts<br/><br/><b>Canaux disponibles</b><br/>E-mail, SMS, Notifications push, Courrier"
 
-L’orchestration des campagnes dans [!DNL Adobe Journey Optimizer] alimente des campagnes sophistiquées lancées par la marque sur plusieurs canaux, à la fois **marketing** et **transactionnels**. Les campagnes marketing vous aident à stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle. Les messages transactionnels ne nécessitent pas d’accord préalable et sont adaptés aux communications sensibles au temps telles que les perturbations, les urgences ou les annulations.
+L’orchestration de campagne dans [!DNL Adobe Journey Optimizer] permet de déployer des campagnes sophistiquées lancées par la marque sur plusieurs canaux, à la fois **marketing** et **transactionnels**. Les campagnes marketing vous aident à stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle. Les messages transactionnels ne nécessitent pas d’opt-in et sont adaptés aux communications à contrainte de temps telles que les perturbations, les urgences ou les annulations.
 
 >[!IMPORTANT]
 >
@@ -42,7 +46,7 @@ L’orchestration de campagne repose sur quatre piliers principaux :
 <td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Segmentation et envoi de plusieurs entités" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentation et envoi de plusieurs entités</b><br/>Poussez votre analyse au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues produit, des emplacements de magasin ou des données de service pour cibler avec précision.<br/><br/>
-Prise en charge de l’envoi à plusieurs niveaux, où un message est envoyé par profil et par entité secondaire associée. Ces entités secondaires peuvent inclure des adresses de contact, des réservations, des abonnements, des contrats ou d’autres données connnexes. Il devient alors possible d’envoyer les campagnes à toutes les adresses connues d’un profil ou pour chaque réservation associée à ce profil.</td></tr>
+Prise en charge de l’envoi à plusieurs niveaux, qui permet d’envoyer un message par profil et par entité secondaire associée. Ces entités secondaires peuvent inclure des adresses de contact, des réservations, des abonnements, des contrats ou d’autres données connnexes. Il devient alors possible d’envoyer les campagnes à toutes les adresses connues d’un profil ou pour chaque réservation associée à ce profil.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilité et précision avant l’envoi" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilité et précision avant l’envoi</b><br/>Obtenez un nombre exact de segmentations et une portée complète des campagnes avant leur lancement, afin de garantir la précision et la confiance.</td></tr>
 <tr style="border: 0;">
@@ -81,11 +85,11 @@ Chaque campagne orchestrée contient :
 
 * **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque campagne orchestrée utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la campagne orchestrée.
 
-Une campagne orchestrée d’entrée de gamme type suit ce modèle : **Créer une audience → Branchement → canal A + canal B**.
+Une campagne orchestrée de base suit généralement ce modèle : **Création d’audience → Branchement → canal A + canal B**.
 
-Cette approche vous permet de cibler la même audience avec deux branches parallèles dans une seule exécution de campagne ; par exemple, une branche utilisant un e-mail marketing et une autre utilisant un e-mail transactionnel. Chaque branche est indépendante et peut utiliser une configuration de canal, un contenu de message ou une catégorie différents.
+Cette approche vous permet de cibler la même audience avec deux branches parallèles dans une seule exécution de campagne. Par exemple, une branche utilisant des e-mails marketing et une autre utilisant des e-mails transactionnels. Chaque branche est indépendante et peut utiliser une configuration de canal, un contenu de message ou une catégorie différents.
 
-➡️ [Découvrez comment utiliser l’activité Branchement](activities/fork.md)
+➡️ [Découvrez comment utiliser l’activité Branchement.](activities/fork.md)
 
 ➡️ [Comprendre les messages marketing et transactionnels](activities/channels.md#marketing-vs-transactional)
 

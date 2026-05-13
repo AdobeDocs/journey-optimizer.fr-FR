@@ -7,10 +7,16 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHGfAv4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 84%
+source-wordcount: 1721
+ht-degree: 100%
 
 ---
 
@@ -20,20 +26,20 @@ En tant que **responsable marketing** ou qu’**utilisateur ou utilisatrice prof
 
 ## Commencer avec les principes de base
 
-Journey Optimizer réunit des informations sur la clientèle en temps réel, une orchestration omnicanale moderne et une prise de décision intelligente dans une seule application. Créez des expériences client personnalisées et connectées par e-mail, SMS, notification push web, in-app, web, courrier, cartes de contenu, etc.
+Journey Optimizer réunit des informations sur la clientèle en temps réel, une orchestration omnicanale moderne et une prise de décision intelligente dans une seule application. Créez des expériences client personnalisées et connectées par e-mail, SMS, notification push, notification push web, in-app, web, publipostage direct, cartes de contenu, etc.
 
 Journey Optimizer propose deux approches d’orchestration puissantes :
 
 * **Parcours** : engagement individuel et en temps réel, où chaque client ou cliente évolue à son propre rythme, en fonction de son comportement ou d’événements.
-* **Campagnes orchestrées** : campagnes par lots complexes et à plusieurs étapes à grande échelle où les audiences progressent ensemble par le biais de workflows, idéales pour les campagnes lancées par la marque comme les promotions saisonnières, les lancements de produits ou les communications basées sur un compte
+* **Campagnes orchestrées** : campagnes par lots complexes et en plusieurs étapes à grande échelle où les audiences progressent ensemble par le biais de workflows : idéales pour les campagnes lancées par une marque comme les promotions saisonnières, les lancements de produits ou les communications basées sur des comptes.
 
-Collaborez avec vos [administrateurs](administrator.md) pour obtenir l’accès et avec les [ingénieurs de données](data-engineer.md) pour configurer des audiences, des données et des schémas relationnels en vue d’une segmentation avancée. Consultez la présentation [Prise en main de la gestion des données](../../data/gs-data.md) pour savoir quelle configuration des données est nécessaire avant de pouvoir créer des parcours et des campagnes.
+Collaborez avec vos [administrateurs et administratrices](administrator.md) pour obtenir les accès et avec les [ingénieurs et ingénieures de données](data-engineer.md) pour configurer des audiences, des données et des schémas relationnels pour la segmentation avancée. Consultez la vue d’ensemble [Commencer avec la gestion des données](../../data/gs-data.md) pour savoir quelle configuration des données est nécessaire avant de pouvoir créer des parcours et des campagnes.
 
 Pour commencer à créer des expériences, suivez les étapes essentielles suivantes :
 
 1. **Créer des audiences** Créez des audiences par le biais de définitions de segments, en chargeant des fichiers CSV ou via la composition d’audiences. Journey Optimizer offre plusieurs façons de cibler les bons clients et clientes. En savoir plus sur les [audiences](../../audience/about-audiences.md) et [la création de définitions de segments](../../audience/creating-a-segment-definition.md).
 
-1. **Concevoir du contenu** Créez des messages attrayants sur tous les canaux, y compris les e-mails, SMS, notifications push web, in-app, web, courrier et cartes de contenu :
+1. **Concevoir du contenu** Créez des messages attrayants sur tous les canaux, notamment e-mails, SMS, notifications push, notifications push web, in-app, web, publipostage direct et cartes de contenu :
    * Utilisez l’**assistant IA** pour générer le contenu, les objets et les images des e-mails en fonction des directives de votre marque. [En savoir plus sur la génération de contenu par l’IA](../../content-management/gs-generative.md)
    * **Personnalisez les messages** avec des données client, du contenu dynamique et une logique conditionnelle. [En savoir plus sur la personnalisation](../../personalization/personalize.md)
    * **Effectuez une itération sur des données contextuelles** pour afficher des listes dynamiques à partir d’événements, d’actions personnalisées et de recherches dans des jeux de données. [En savoir plus sur l’itération de données contextuelles](../../personalization/iterate-contextual-data.md)
@@ -43,7 +49,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    ![](../assets/perso_ee2.png)
 
-1. **Ajouter des offres et des prises de décision** Proposez la meilleure offre à chaque client ou cliente au bon moment à l’aide de la prise de décision basée sur l’IA. Utilisez Decisioning pour personnaliser les notifications push, les SMS et d’autres canaux. Découvrez [Gestion des décisions](../../offers/get-started/starting-offer-decisioning.md) et [Prise de décision](../../experience-decisioning/gs-experience-decisioning.md).
+1. **Ajouter des offres et des prises de décision** Proposez la meilleure offre à chaque client ou cliente au bon moment à l’aide de la prise de décision basée sur l’IA. Utilisez la prise de décision pour personnaliser les notifications push, les SMS et d’autres canaux. En savoir plus sur la [gestion des décisions](../../offers/get-started/starting-offer-decisioning.md) et la [prise de décision](../../experience-decisioning/gs-experience-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -56,22 +62,22 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    Découvrez comment [tester et valider des messages](../../content-management/preview-test.md).
 
-1. **Créer des parcours client** Créez des expériences personnalisées en temps réel à l’aide de la zone de travail du parcours. Utilisez **&#x200B;**&#x200B;dans l&#39;assistant AI pour créer des parcours à partir d&#39;invites en langage naturel. [En savoir plus sur Journey Agent](../ai-features.md#journey-agent)
+1. **Créer des parcours client** Créez des expériences personnalisées en temps réel à l’aide de la zone de travail de parcours. Utilisez l’**agent Journey** dans l’assistant IA pour créer des parcours avec des prompts en langage naturel. [En savoir plus sur l’agent Journey](../ai-features.md#journey-agent)
 
    * Déclenchez des parcours avec des **événements** (actions client) ou des **audiences** (envois par lots).
    * Ajoutez des **conditions** pour créer des chemins personnalisés en fonction des données client.
-   * Utilisez l’activité **Action** unifiée pour toutes les actions de canal (e-mail, notification push, SMS, etc.). [En savoir plus sur l’activité Action](../../building-journeys/journey-action.md)
-   * Ajoutez l’**activité de décision de contenu** pour intégrer des offres personnalisées directement dans votre flux de parcours. [En savoir plus sur l’activité de décision de contenu](../../building-journeys/content-decision.md)
+   * Utilisez l’**activité Action** unifiée pour toutes les actions de canal (E-mail, Push, SMS, etc.). [En savoir plus sur l’activité Action](../../building-journeys/journey-action.md)
+   * Ajoutez l’**activité Décision de contenu** pour intégrer des offres personnalisées directement dans le flux de votre parcours. [En savoir plus sur l’activité Décision de contenu](../../building-journeys/content-decision.md)
    * Utilisez des **activités d’attente** pour créer le timing parfait entre les messages.
    * Envoyez des messages sur **plusieurs canaux** dans un seul parcours.
-   * Utilisez **l’envoi de vagues** pour envoyer des messages par lots contrôlés (disponibilité limitée pour les parcours).
+   * Utilisez l’**envoi par vagues** pour envoyer des messages par lots contrôlés (en disponibilité limitée pour les parcours).
    * Effectuez des **tests A/B** et optimisez les heures d’envoi pour maximiser l’engagement.
    * Utilisez la **recherche dans les jeux de données** pour enrichir les parcours avec des données en temps réel issues d’Adobe Experience Platform. [En savoir plus sur la recherche dans des jeux de données](../../building-journeys/dataset-lookup.md)
    * Utilisez des **identifiants supplémentaires** pour permettre au même profil de rejoindre plusieurs instances de parcours (par exemple, différentes commandes ou réservations). [En savoir plus sur les identifiants supplémentaires](../../building-journeys/supplemental-identifier.md)
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
+   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
 
 1. **Lancer des campagnes orchestrées** Concevez des campagnes par lots complexes et en plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
 
@@ -81,7 +87,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
    * Concevez des **workflows à plusieurs étapes** pour les promotions saisonnières, les lancements de produits, les offres de fidélité ou le marketing basé sur les comptes.
    * Planifiez des campagnes pour qu’elles s’exécutent immédiatement, à des heures spécifiques ou selon des planifications récurrentes (quotidiennes, hebdomadaires, mensuelles).
    * Traitez les audiences **par lots**, avec tous les profils progressant ensemble tout au long du workflow.
-   * Utilisez **l’envoi de vagues** pour diffuser des messages par lots contrôlés afin d’améliorer la délivrabilité et le contrôle de la charge
+   * Utilisez l’**envoi par vagues** pour diffuser des messages par lots contrôlés afin d’améliorer la délivrabilité et le contrôle de la charge.
 
    Découvrez comment [commencer à utiliser les campagnes orchestrées](../../orchestrated/gs-orchestrated-campaigns.md) et quand [utiliser des campagnes plutôt que des parcours](../../orchestrated/orchestrated-campaigns-faq.md).
 
@@ -90,8 +96,8 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
    * Analysez les taux de **diffusion des messages** et les mesures d’engagement.
    * Utilisez les **tableaux de bord de rapports** avec l’intégration de Customer Journey Analytics.
    * Suivez la **conversion** et l’impact commercial.
-   * Gérez la **fréquence et hiérarchisation des messages** avec des règles de gestion des conflits pour éviter la surcommunication
-   * Utilisez des **heures creuses** (exclusions temporelles) pour éviter les envois pendant des périodes spécifiques. [En savoir plus sur la gestion des conflits](../../conflict-prioritization/gs-conflict-prioritization.md) et [les heures calmes](../../conflict-prioritization/quiet-hours.md)
+   * Gérez **la fréquence et la priorité des messages** avec des règles de gestion des conflits pour éviter une communication excessive.
+   * Utilisez les **heures de tranquillité** (exclusions temporelles) pour empêcher les envois pendant des créneaux spécifiques. [En savoir plus sur la gestion des conflits](../../conflict-prioritization/gs-conflict-prioritization.md) et les [heures de tranquillité](../../conflict-prioritization/quiet-hours.md)
 
    Découvrez comment [surveiller les performances](../../reports/report-gs-cja.md).
 
@@ -207,5 +213,5 @@ Collaborez avec les [administrateurs et les administratrices](administrator.md) 
 
 1. **Commencez simplement** : créez un parcours de bienvenue simple ou une campagne à message unique pour apprendre à utiliser la plateforme.
 2. **Utilisez l’IA** : utilisez l’assistant IA pour poser des questions et accélérer la création de contenu.
-3. **Rejoignez la communauté** : discutez avec d’autres utilisateurs et utilisatrices de Journey Optimizer dans la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+3. **Rejoignez la communauté** : discutez avec d’autres utilisateurs et utilisatrices de Journey Optimizer dans la [communauté Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}.
 4. **Explorez les tutoriels** : regardez des vidéos détaillées sur [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr){target="_blank"}.

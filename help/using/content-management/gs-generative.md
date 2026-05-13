@@ -9,10 +9,17 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 92%
+source-wordcount: 999
+ht-degree: 100%
 
 ---
 
@@ -48,7 +55,7 @@ L’Assistant IA prend en charge la génération **dans plusieurs langues**, ce
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
         <ul>
-          <li>Chinois (Hong Kong)</li>
+          <li>Chinois (Hong Kong)</li>
           <li>Chinois (simplifié)</li>
           <li>Chinois (Taïwan)</li>
           <li>Néerlandais</li>
@@ -78,7 +85,7 @@ Utilisez l’assistant IA dans Adobe Journey Optimizer pour optimiser l’imp
 
 >[!IMPORTANT]
 >
->* Avant de commencer à utiliser cette fonctionnalité, lisez les [Mécanismes de sécurisation et limitations](#generative-guardrails) associés.
+>* Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe sur les [Mécanismes de sécurisation et limitations](#generative-guardrails).
 >
 >
 >* Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} pour pouvoir utiliser l’assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
@@ -117,9 +124,9 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 
 ### Canaux pris en charge
 
-* Uniquement disponible pour les canaux e-mail, notification push et SMS.
+* Uniquement disponible pour les canaux e-mail, notifications push, web et SMS.
 
-### Qualité du contenu, invites et commentaires
+### Qualité du contenu, prompts et commentaires
 
 * La qualité du contenu généré est fortement influencée par l’objectif/le prompt marketing que vous définissez. Utilisez un prompt bien défini pour que le modèle GenAI soit correctement interprété. 
 * Le contenu GenAI n’est peut-être pas toujours précis : partagez vos commentaires pour que nos ingénieures et ingénieurs puissent affiner les modèles.
@@ -131,7 +138,7 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 * La taille maximale des ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou un grand nombre d’images peuvent être utilisés, mais le temps de traitement est plus long.
 * Vous pouvez charger plusieurs ressources de marque, mais vous ne pouvez en utiliser qu’une seule pour une génération spécifique.
 
-### Modèles et images d’e-mail
+### Modèles d’e-mail et visuels
 
 * Utilisez un modèle personnalisé ou spécifique à la marque pour créer votre contenu d’e-mail à l’aide de l’Assistant IA dans Adobe Journey Optimizer. Il est recommandé d’utiliser un modèle d’e-mail contenant jusqu’à 8 à 10 images.
 
@@ -142,12 +149,12 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 
 ### Assistant IA pour les expressions de personnalisation {#ai-assistant-personalization-editor-guardrails}
 
-Les mécanismes de sécurisation suivants s’appliquent à l’assistant [AI pour les expressions de personnalisation](generative-personalization-expressions.md) dans l’[!UICONTROL Éditeur Personalization] et dans le Designer d’e-mail.
+Les mécanismes de sécurisation suivants s’appliquent à l’[assistant AI pour les expressions de personnalisation](generative-personalization-expressions.md) dans l’[!UICONTROL éditeur de personnalisation] et dans le concepteur d’e-mail.
 
-* **Offer Decisioning et Experience Decisioning** — Non pris en charge.
-* **Favoris** — Non pris en charge.
-* **Conditions enregistrées** — Non pris en charge.
-* **Fragments de contenu Adobe Experience Manager** — Non pris en charge.
+* **Prise de décision sur les offres et décisions pour les expériences** : non prises en charge.
+* **Favoris** : non pris en charge.
+* **Conditions enregistrées** : non prises en charge.
+* **Fragments de contenu Adobe Experience Manager** : non pris en charge
 
 ## Fonctionnalités de génération de contenu de l’assistant IA {#generative-features}
 

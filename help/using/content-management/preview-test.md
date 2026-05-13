@@ -8,7 +8,7 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -45,10 +45,10 @@ Journey Optimizer propose deux expériences pour tester votre contenu :
   Vous pouvez utiliser des profils de test pour prévisualiser votre contenu, envoyer des BAT par e-mail et vérifier le rendu des e-mails. Si vous avez ajouté des champs personnalisés, vous pouvez vérifier leur affichage à l’aide des données de profil de test. Pour plus d’informations, consultez les sections suivantes :
 
   ➡️ [Sélectionner des profils de test](test-profiles.md)
-➡️ [Aperçu à l’aide de profils de test](preview.md)
-➡️ [Envoi de BAT par e-mail](proofs.md)
+➡️ [Prévisualiser avec les profils de test](preview.md)
+➡️ [Envoyer des épreuves d’e-mail](proofs.md)
 ➡️ [Vérifier le rendu des e-mails](rendering.md)
-➡️ [Prévisualiser et corriger votre e-mail (vidéo)](#video-preview)
+➡️ [Prévisualiser et vérifier votre e-mail (vidéo)](#video-preview)
 
 * **Test des variations de contenu à l’aide de données d’entrée d’exemple**
 
@@ -72,4 +72,4 @@ Journey Optimizer propose deux expériences pour tester votre contenu :
 
 Découvrez comment utiliser des profils de test pour tester le rendu des e-mails dans différentes boîtes de réception, prévisualiser vos e-mails personnalisés avec des profils de test et envoyer des BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430344?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

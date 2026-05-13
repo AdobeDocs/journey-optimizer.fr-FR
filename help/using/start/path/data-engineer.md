@@ -7,14 +7,21 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 92%
+source-wordcount: 991
+ht-degree: 100%
 
 ---
 
-# Prise en main pour l’ingénieur de données {#data-engineer}
+# Commencer en tant qu’ingénieur ou ingénieure de données {#data-engineer}
 
 En tant qu’**architecte de données** ou **ingénieur ou ingénieure de données**, vous configurez et gérez les données de profil client et d’autres sources de données sur lesquelles sont basées les expériences orchestrées par [!DNL Journey Optimizer]. Cela inclut l’intégration de toutes les données de vos clientes et clients et de votre entreprise dans une vue unifiée à 360 degrés du client ou de la cliente, ces données pouvant provenir de sources web, hors ligne ou d’un CRM. Vous modélisez les données de profil client et les données d’entreprise dans des schémas, configurez les connecteurs de sources pour l’ingestion de données et vous vous assurez du bon fonctionnement du flux de données pour permettre l’obtention d’informations sur les clientes et clients et un engagement en temps réel. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur ou l’administratrice système](administrator.md) vous a accordé l’accès et a préparé votre environnement.
 
@@ -24,7 +31,7 @@ En tant qu’**architecte de données** ou **ingénieur ou ingénieure de donné
 
 >[!TIP]
 >
->Vous découvrez les données dans Journey Optimizer ? Commencez par la présentation de la [Prise en main de la gestion des données](../../data/gs-data.md) pour comprendre les schémas, les jeux de données, les identités, le modèle de fragment de profil et la liste de contrôle complète de préparation des données avant de passer à la configuration.
+>Vous découvrez les données dans Journey Optimizer ? Commencez par la vue d’ensemble [Commencer avec la gestion des données](../../data/gs-data.md) pour comprendre les schémas, les jeux de données, les identités, le modèle de fragment de profil et la liste de contrôle complète de préparation des données avant de passer à la configuration.
 
 ## Étapes essentielles de configuration des données
 
@@ -49,7 +56,7 @@ Pour configurer la base de données de Journey Optimizer, procédez comme suit 
 
 1. **Configurez les attributs calculés** (facultatif). Créez des attributs dérivés à partir des données de profil pour simplifier la segmentation et la personnalisation. Les attributs calculés calculent automatiquement des mesures complexes telles que le « total des achats au cours des 90 derniers jours » ou la « valeur de commande moyenne ». En savoir plus sur les [attributs calculés](../../audience/computed-attributes.md).
 
-1. **Jeux de données d’exportation de messages** (facultatif). Lorsque l’exportation des messages est activée au niveau de la configuration des canaux, le contenu des e-mails et des SMS envoyés est automatiquement exporté vers un jeu de données Experience Platform dédié à des fins de conformité, d’archivage ou d’analyse en aval. En savoir plus sur l’[exportation de messages](../../configuration/message-export.md).
+1. **Jeux de données d’export de messages** (facultatif). Lorsque l’export de messages est activé au niveau de la configuration des canaux, le contenu des e-mails et des SMS envoyés est automatiquement exporté vers un jeu de données Experience Platform dédié à des fins de conformité, d’archivage ou d’analyse en aval. En savoir plus sur l’[export de messages](../../configuration/message-export.md).
 
 De plus, pour pouvoir envoyer des messages dans des parcours, vous devez configurer les **[!UICONTROL sources de données]**, les **[!UICONTROL événements]** et les **[!UICONTROL actions]**. En savoir plus dans [cette section](../../configuration/about-data-sources-events-actions.md).
 
@@ -57,7 +64,7 @@ De plus, pour pouvoir envoyer des messages dans des parcours, vous devez configu
 
 * La configuration des **sources de données** vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. En savoir plus sur les sources de données [dans cette section](../../datasource/about-data-sources.md).
 
-* **Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l&#39;individu progressant dans le parcours.** Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d&#39;ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). En savoir plus sur les événements [dans cette section](../../event/about-events.md).
+* **Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l&#39;individu progressant dans le parcours.** Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). En savoir plus sur les événements [dans cette section](../../event/about-events.md).
 
 * [!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées : vous pouvez créer vos messages dans un parcours et concevoir votre contenu. Si vous utilisez un système tiers pour envoyer vos messages, par exemple Adobe Campaign, créez une **action personnalisée**. En savoir plus sur les actions dans [cette section](../../action/action.md).
 
