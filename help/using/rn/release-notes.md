@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2f18acd2f3164432260e1a45bc6a9ff567b1ebe9
+source-git-commit: 593d3e784bc260603423e1e6c70549b3a0e394d4
 workflow-type: tm+mt
-source-wordcount: 2579
+source-wordcount: 2578
 ht-degree: 82%
 
 ---
@@ -65,7 +65,7 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 <p>Vous pouvez désormais créer <strong>fragments de Parcours </strong> dans Adobe Journey Optimizer. Les fragments de parcours sont des ensembles réutilisables de nœuds de parcours que vous pouvez créer une fois et déposer dans n’importe quel parcours de votre sandbox. Qu’il s’agisse d’une vérification d’éligibilité, d’une logique de routage de canal préférée ou d’une séquence de bienvenue, les fragments aident les équipes à se déplacer plus rapidement et à rester cohérentes, sans avoir à reconstruire la même logique à chaque fois.</p>
 <p>Une fois créés, les fragments sont stockés dans un <strong>inventaire des fragments</strong> dédié et peuvent être insérés dans n’importe quel parcours à l’aide de l’activité <strong>Fragments de Parcours </strong>.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>Cette fonctionnalité ne sera disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-fragments.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 13 mai 2026</p>
 </td>
