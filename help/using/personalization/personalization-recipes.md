@@ -5,7 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-source-git-commit: 8edb9237531f5d772e8a239b520c60f5bcfcf069
+source-git-commit: 04fca756923d53595639e221fb59d3f6a458ac4a
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -286,3 +286,4 @@ Pour les champs booléens stockés sous forme de chaînes :
 ```sql
 {%= toBool(profile.consents.email.val) = true %}
 ```
+
