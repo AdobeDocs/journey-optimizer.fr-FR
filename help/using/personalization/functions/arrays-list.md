@@ -6,10 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 99%
+source-wordcount: 742
+ht-degree: 79%
 
 ---
 
@@ -289,3 +293,77 @@ L&#39;opération suivante définit les personnes qui ont mangé des sushis et de
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```
+
+## Itérer sur un tableau {#each-loop}
+
+Utilisez l’assistant de bloc de `{{#each}}` Handlebars pour effectuer une boucle sur un tableau et effectuer le rendu du contenu pour chaque élément de **contenu personnalisé** (e-mail, SMS, notification push).
+
+>[!NOTE]
+>
+>`{{#each}}` est disponible uniquement dans l’**éditeur de personnalisation** (corps de l’e-mail, SMS, contenu push). Elle n’est **pas** prise en charge dans l’activité de condition de parcours. Pour filtrer ou faire correspondre des éléments d’un tableau dans une condition de parcours, utilisez plutôt des [fonctions de gestion des collections](../../building-journeys/expression/collection-management-functions.md).
+
+**Syntaxe**
+
+```handlebars
+{{#each arrayAttribute}}
+  {{this}}
+{{/each}}
+```
+
++++Exemple — Liste de tous les éléments d&#39;un tableau
+
+```handlebars
+{{#each profile.purchases.items}}
+  - {{this.name}}: {{this.price}}€
+{{/each}}
+```
+
+Sortie (exemple) :
+
+```
+- Running shoes: 89€
+- Water bottle: 15€
+- Gym bag: 45€
+```
+
++++
+
++++Exemple — Accès à l&#39;index de boucle
+
+Utilisez `@index` pour accéder à la position actuelle de la boucle (basée sur 0) :
+
+```handlebars
+{{#each profile.preferences.languages}}
+  {{@index}}: {{this}}
+{{/each}}
+```
+
+Sortie (exemple) :
+
+```
+0: English
+1: French
+2: Spanish
+```
+
++++
+
++++Exemple — Rendu conditionnel dans une boucle
+
+Utilisez le bloc `{%#if%}` à l’intérieur de `{{#each}}` pour effectuer le rendu du contenu uniquement lorsqu’une condition est remplie :
+
+>[!NOTE]
+>
+>Les `{% if %}` / `{% endif %}` ne sont pas pris en charge. Utilisez `{%#if%}` / `{%/if%}` à la place. En outre, `this.<field>` ne fonctionne pas dans les expressions de condition PQL — référencez le champ directement à l’aide du nom d’attribut (par exemple, `order.status`).
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Your order {{order.id}} is still pending.
+  {%/if%}
+{{/each}}
+```
+
+Il s’agit du modèle recommandé pour simuler une « rupture sur condition » : seuls les éléments correspondant à la condition produisent une sortie.
+
++++

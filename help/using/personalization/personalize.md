@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 6d62604f975fce76860eba000a09870806d54934
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 90%
+source-wordcount: '608'
+ht-degree: 91%
 
 ---
 
@@ -90,6 +90,14 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 </div>
 <p></td>
 <td>
+<a href="../personalization/personalization-recipes.md">
+<img alt="Peu fréquent" src="assets/do-not-localize/uc.png">
+</a>
+<div>
+<a href="../personalization/personalization-recipes.md"><strong>recettes </strong></a>
+</div>
+<p></td>
+<td>
 <a href="../personalization/personalization-use-case.md">
 <img alt="Peu fréquent" src="assets/do-not-localize/uc.png">
 </a>
@@ -103,14 +111,14 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 
 Découvrez comment utiliser des informations d’événement contextuelles dans un parcours pour personnaliser un message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448131?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Découvrez comment ajouter une personnalisation basée sur un profil à un message et comment utiliser l’appartenance à une audience comme condition préalable à un bloc de personnalisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416270?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Découvrez comment tirer parti du terrain de jeu de l’éditeur de personnalisation pour écrire et tester du code de personnalisation à l’aide de données d’exemple.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475954?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Découvrez d’autres tutoriels vidéo sur les fonctionnalités de personnalisation et les bonnes pratiques dans les [tutoriels sur la personnalisation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}.
