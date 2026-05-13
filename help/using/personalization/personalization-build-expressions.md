@@ -46,7 +46,7 @@ Il peut également être ajouté à d’autres sections de votre contenu. Par ex
 
 +++Designer d’e-mail
 
-Lors de la modification du contenu d’un e-mail dans la Designer d’e-mail](../email/get-started-email-design.md), vous pouvez personnaliser la plupart des éléments de texte à l’aide de l’icône dans la barre d’outils contextuelle.[
+Lors de la modification du contenu d’un e-mail dans la Designer d’e-mail[&#128279;](../email/get-started-email-design.md), vous pouvez personnaliser la plupart des éléments de texte à l’aide de l’icône dans la barre d’outils contextuelle.
 
 ![](assets/perso_insert.png)
 
@@ -54,7 +54,7 @@ Lors de la modification du contenu d’un e-mail dans la Designer d’e-mail](..
 
 +++URL
 
-Journey Optimizer vous permet également de personnaliser les **URL** dans vos messages. Les URL personnalisées orientent les destinataires vers des pages spécifiques d’un site web ou vers un microsite personnalisé, en fonction des attributs du profil. [ En savoir plus ](../email/url-personalization.md)
+Journey Optimizer vous permet également de personnaliser les **URL** dans vos messages. Les URL personnalisées orientent les destinataires vers des pages spécifiques d’un site web ou vers un microsite personnalisé, en fonction des attributs du profil. [&#x200B; En savoir plus &#x200B;](../email/url-personalization.md)
 
 ![](assets/perso-url.png){width="50%"}
 
@@ -66,7 +66,7 @@ Journey Optimizer vous permet également de personnaliser les **URL** dans vos m
 
 +++Configuration des e-mails
 
-Lors de la création d’une configuration de canal e-mail, vous pouvez définir des valeurs personnalisées pour les sous-domaines, les en-têtes et les paramètres de tracking des URL. [ En savoir plus ](../email/surface-personalization.md)
+Lors de la création d’une configuration de canal e-mail, vous pouvez définir des valeurs personnalisées pour les sous-domaines, les en-têtes et les paramètres de tracking des URL. [&#x200B; En savoir plus &#x200B;](../email/surface-personalization.md)
 
 +++
 
@@ -80,9 +80,9 @@ Vous pouvez ajouter une personnalisation lors de l’utilisation de contenu de t
 
 Le volet de navigation vous permet de sélectionner la source pour la personnalisation. Les sources disponibles sont les suivantes :
 
-* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la documentation du modèle de données Adobe Experience Platform (XDM) [](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
+* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la documentation du modèle de données Adobe Experience Platform (XDM) [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 * **[!UICONTROL Attributs de cible]** : ce dossier est spécifique aux campagnes orchestrées. Il contient des attributs calculés directement dans la zone de travail de campagne. [Découvrez comment ajouter de la personnalisation dans des campagnes orchestrées](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL Audiences]** : répertorie toutes les audiences créées dans le service Adobe Experience Platform Segmentation. En savoir plus dans la documentation sur la segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+* **[!UICONTROL Audiences]** : répertorie toutes les audiences créées dans le service Adobe Experience Platform Segmentation. En savoir plus dans la documentation sur la segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 * **[!UICONTROL Décisions d’offre]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Attributs contextuels]** : lorsqu’une activité d’action de canal (e-mail, push, SMS) est utilisée dans un parcours ou une campagne, les attributs contextuels liés aux événements et aux propriétés peuvent être personnalisés. Vous trouverez un exemple de personnalisation utilisant des attributs contextuels dans [cette section](personalization-use-case.md). De plus, les réponses d’action personnalisée peuvent être utilisées pour la personnalisation. [Découvrez comment utiliser des réponses d’action personnalisées dans des canaux natifs](../action/action-response.md#response-in-channels).
 
@@ -129,7 +129,7 @@ Les options disponibles sont les suivantes :
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 
-1. **** / **[!UICONTROL JSON]** / **[!UICONTROL Text]** : identifiez le format de votre code. Cela permet au système d’adapter la fonction de validation et de saisie automatique en fonction de la langue sélectionnée.
+1. **&#x200B;**&#x200B;/ **[!UICONTROL JSON]** / **[!UICONTROL Text]** : identifiez le format de votre code. Cela permet au système d’adapter la fonction de validation et de saisie automatique en fonction de la langue sélectionnée.
 1. **[!UICONTROL Valider]** : vérifiez la syntaxe de votre expression. En savoir plus dans [cette section](../personalization/personalization-build-expressions.md).
 1. **[!UICONTROL Enregistrer en tant que fragment]** : enregistrez votre expression en tant que fragment d’expression. En savoir plus dans [cette section](../content-management/save-fragments.md#save-as-expression-fragment)
 1. **[!UICONTROL Taille de police]** : ajuste la taille de la police du contenu dans l’éditeur pour une meilleure lisibilité.

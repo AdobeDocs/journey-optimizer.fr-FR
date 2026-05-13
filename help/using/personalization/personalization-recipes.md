@@ -20,7 +20,7 @@ Pour obtenir une référence complète des fonctions disponibles, voir [Fonction
 
 >[!TIP]
 >
->Avant de copier des exemples, passez en revue les [bonnes pratiques de ](personalization-syntax.md#best-practices) afin d’éviter les erreurs de syntaxe les plus courantes.
+>Avant de copier des exemples, passez en revue les [bonnes pratiques de &#x200B;](personalization-syntax.md#best-practices) afin d’éviter les erreurs de syntaxe les plus courantes.
 
 ## Recettes de date et d’heure {#date-time-recipes}
 
