@@ -129,4 +129,4 @@ La création et le déploiement d’une page de destination s’effectuent comme
 
 La vidéo ci-dessous montre comment créer une liste d’abonnements, configurer des pages de destination permettant de s’abonner à un service ou de s’en désabonner, intégrer l’option d’abonnement ou de désabonnement à un message et configurer les parcours pertinents.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344398?captions=fre_fr&quality=12&learn=on)

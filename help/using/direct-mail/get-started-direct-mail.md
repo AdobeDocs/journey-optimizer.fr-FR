@@ -59,4 +59,4 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 Découvrez comment utiliser le canal Courrier dans Adobe Journey Optimizer pour automatiser et planifier les diffusions de courriers dans vos parcours.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479164?captions=fre_fr&quality=12)
