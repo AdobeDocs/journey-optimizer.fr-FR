@@ -8,10 +8,29 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2b865f11ee97d976b6bb1ad8232d8227d86fe093
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 80%
+source-wordcount: 1379
+ht-degree: 73%
 
 ---
 
@@ -129,25 +148,31 @@ Pour configurer le contenu de votre message, suivez les étapes ci-après. Les p
 
 1. Une fois le contenu défini, ajoutez les URL trackées à votre message. Pour ce faire, accédez au menu **[!UICONTROL Fonctions d’assistance]** et sélectionnez **[!UICONTROL Helpers]**.
 
-   Pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine, qui sera ensuite lié à votre configuration. [En savoir plus](sms-subdomains.md)
-
-   >[!NOTE]
-   >
-   > Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans le sandbox de production. Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
-
    ![](assets/sms_tracking_1.png)
 
-1. Dans le menu **[!UICONTROL Fonctions d’assistance]**, cliquez sur **[!UICONTROL Fonction URL]**, puis sélectionnez **[!UICONTROL Ajouter une URL]**.
+1. Sélectionnez **[!UICONTROL URL]** et cliquez sur **[!UICONTROL Ajouter une URL]**.
 
    ![](assets/sms_tracking_2.png)
 
-   <!--The URL shortening function cannot be used within a fragment. TBC-->
-
-1. Dans le champ `originalUrl`, collez l’URL à raccourcir, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Pour raccourcir l’URL, collez-la dans le champ `originalUrl` et cliquez sur **[!UICONTROL Enregistrer]**.
 
    >[!CAUTION]
    >
+   >Pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine, qui sera ensuite lié à votre configuration. [En savoir plus](sms-subdomains.md)
+   >
    > La durée de vie des URL courtes est définie sur 30 jours. Passé ce délai, ces URL courtes ne seront plus accessibles et afficheront le message suivant : `404 short-code not found`.
+
+1. Pour ajouter un lien profond qui ouvre un écran spécifique dans votre application mobile, utilisez l’assistant d’URL avec le type de `DEEPLINK` . [En savoir plus sur les liens profonds](../email/deeplinks.md)
+
+   ```
+   {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
+   ```
+
+   >[!IMPORTANT]
+   >
+   >Avant d’utiliser le lien profond, assurez-vous d’avoir terminé les [étapes de configuration](../email/deeplinks.md#configuration) correspondantes dans Journey Optimizer et implémenté [gestion du lien profond](../email/deeplinks.md#mobile-implementation) dans votre application mobile. Si vous ne l’avez pas fait, le lien profond ne redirigera pas les utilisateurs vers le contenu in-app prévu.
+   >
+   >Assurez-vous également que le suivi des liens est activé dans la section **[!UICONTROL Actions]** de votre parcours ou campagne afin que l’URL soit réécrite via les systèmes Adobe.
 
 1. Utilisez le **[!UICONTROL nombre de caractères]** pour surveiller la longueur des SMS au fur et à mesure que vous composez le message. Il est mis à jour en temps réel et indique le moment où le contenu sera diffusé dans plusieurs segments.
 

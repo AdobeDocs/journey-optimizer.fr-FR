@@ -5,13 +5,20 @@ title: Étapes clés pour créer une campagne orchestrée
 description: Découvrir les principes fondamentaux de la création de campagnes orchestrées avec Adobe Journey Optimizer
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/Bu0hEY7jDkL3FkdX09SyUVk80ZFYBUW2fGs9qeSEC5w
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 306
 ht-degree: 100%
 
 ---
-
 
 # Étapes clés pour créer une campagne orchestrée {#orchestrated-campaign-creation}
 
@@ -36,7 +43,7 @@ Avant toute autre chose, vous devez créer votre campagne orchestrée et défini
 
 ➡️ [Découvrez comment créer et exécuter une campagne](../orchestrated/create-orchestrated-campaign.md).
 
-## Étape 2 : orchestrer les activités de campagne{#orchestrate}
+## Étape 2 : orchestrer les activités de campagne {#orchestrate}
 
 Une fois la campagne créée, il est temps de concevoir la logique qui la sous-tend. À l’aide d’une zone de travail visuelle, vous pouvez combiner des activités de ciblage, de diffusion et de contrôle de flux afin de façonner votre expérience client.
 

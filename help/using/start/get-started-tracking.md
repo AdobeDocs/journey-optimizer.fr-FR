@@ -8,10 +8,44 @@ topic: Administration
 role: User
 level: Beginner
 keywords: suivi, surveillance, analyse, création de rapports, délivrabilité
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+exl-id: d5e7adb7-8473-4c29-8ae6-ba979aef97f3
+TQID: https://experienceleague.adobe.com/jLHTNJlUPQm39EZvTLLBvYT92eGlCBoHpTKBfJ1Zxlk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1916'
-ht-degree: 100%
+source-wordcount: 1962
+ht-degree: 97%
 
 ---
 
@@ -89,7 +123,7 @@ Le suivi des e-mails est automatiquement activé lorsque vous créez un e-mail. 
 
 * **Activer/désactiver le suivi** : contrôlez le suivi au niveau des messages lors de la conception de l’e-mail. Vous pouvez choisir de suivre les ouvertures, les clics ou les deux. [En savoir plus](../email/message-tracking.md)
 
-* **Configurer les paramètres de suivi d’URL** : configurez les paramètres de suivi au niveau de la surface pour ajouter automatiquement les identifiants de campagne (utm_campaign, utm_source, etc.) à tous les liens des e-mails. Cela permet de suivre l’attribution dans l’ensemble de votre environnement numérique. [En savoir plus](../email/url-tracking.md)
+* **Configurer les paramètres de tracking d’URL** - Configurez les paramètres de tracking au niveau de la surface pour ajouter automatiquement des identifiants de campagne (utm_campaign, utm_source, etc.) à tous les liens d’e-mail. Cela permet de suivre l’attribution dans l’ensemble de votre environnement numérique. [En savoir plus](../email/url-tracking.md)
 
 * **Suivre les liens dans les fragments enregistrés** : lorsque vous enregistrez un fragment à partir d’un contenu pour lequel le suivi est activé, le suivi des liens de ce fragment continue si vous le réutilisez dans d’autres parcours ou campagnes. [En savoir plus](../content-management/save-fragments.md)
 
@@ -224,7 +258,7 @@ Les pages de destination sont fournies avec un suivi intégré qui ne nécessite
 
 Au-delà du suivi au niveau des canaux, configurez le suivi pour mesurer les performances globales et comprendre le comportement de la clientèle dans vos initiatives marketing.
 
-* **Définir des mesures de succès personnalisées** : configurez des KPI spécifiques alignés sur les objectifs de votre entreprise (achats, inscriptions, renouvellements, etc.) au-delà des mesures d’engagement standard. [En savoir plus](../building-journeys/success-metrics.md)
+* **Définir des mesures de succès personnalisées** - Configurez des KPI spécifiques alignés sur les objectifs de votre entreprise (achats, inscriptions, renouvellements, etc.) au-delà des mesures d’engagement standard. [En savoir plus](../building-journeys/success-metrics.md)
 
 * **Activer les événements d’étape de parcours** : activez le suivi détaillé de chaque action entreprise par la clientèle lorsqu’elle se déplace dans les parcours. Vous obtenez ainsi une visibilité granulaire sur les points d’entrée et de sortie, les choix de parcours et les points d’abandon. [En savoir plus](../reports/journey-step-events-overview.md)
 
@@ -250,7 +284,7 @@ Journey Optimizer effectue automatiquement le suivi des expériences d’optimis
 
 * **Optimisation des chemins de parcours** : ajoutez une activité **Optimiser** à votre parcours et configurez plusieurs chemins d’accès. Journey Optimizer suit automatiquement les chemins empruntés par les profils et mesure les performances. [En savoir plus](../building-journeys/optimize.md)
 
-Pour analyser les résultats : affichez les taux de conversion, la signification statistique et l’effet élévateur entre les traitements dans les rapports d’expérimentation, ou comparez les mesures d’engagement des différents segments ciblés. [Rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md) | [Rapport de parcours d’expérimentation](../reports/journey-global-report-cja-experimentation.md) | [Rapport de ciblage de parcours ](../reports/journey-global-report-cja.md#targeting)
+Pour analyser les résultats : affichez les taux de conversion, la signification statistique et l’effet élévateur entre les traitements dans les rapports d’expérimentation, ou comparez les mesures d’engagement des différents segments ciblés. [Rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md) | [Rapport de parcours d’expérimentation](../reports/journey-global-report-cja-experimentation.md) | [Rapport de ciblage de parcours &#x200B;](../reports/journey-global-report-cja.md#targeting)
 
 ### Suivre les performances de la prise de décision {#decisioning-tracking}
 
@@ -297,4 +331,3 @@ Configurez une surveillance proactive afin de recevoir des notifications en temp
 * **Activer les journaux d’audit** : activez la journalisation d’audit pour suivre toutes les actions sur les ressources à des fins de conformité et de résolution des problèmes. [En savoir plus](../privacy/audit-logs.md)
 
 * **Surveiller les intégrations** : suivez les performances des actions personnalisées et la connectivité système externe pour identifier rapidement les problèmes d’intégration. [En savoir plus](../action/reporting.md)
-

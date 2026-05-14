@@ -7,16 +7,32 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+TQID: https://experienceleague.adobe.com/bH8UDdjWsh1Kle1ltVP2ltgXcNJDfVIdTuFdGWSZv6Y
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: 520
 ht-degree: 100%
 
 ---
 
 # Utiliser des attributs calculés {#computed-attributes}
 
-Les attributs calculés résument les événements comportementaux individuels en attributs de profil calculés disponibles dans Adobe Experience Platform. Ces attributs sont basés sur des jeux de données d’événements d’expérience compatibles avec les profils, ingérés dans Adobe Experience Platform, et servent de points de données agrégés stockés dans les profils client.
+Les attributs calculés résument les événements comportementaux individuels en attributs de profil calculés disponibles dans Adobe Experience Platform. Ces attributs sont basés sur des jeux de données d’événements d’expérience compatibles avec les profils, ingérés dans Adobe Experience Platform, et servent de points de données agrégés stockés dans les profils clients.
 
 Chaque attribut calculé est un attribut de profil que vous pouvez exploiter pour la segmentation, la personnalisation et l’activation dans les parcours et les campagnes. Cette simplification permet à vos clientes et clients d’offrir des expériences personnalisées pertinentes et opportunes.
 

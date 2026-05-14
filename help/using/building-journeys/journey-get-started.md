@@ -9,10 +9,42 @@ level: Beginner, Intermediate
 hide: true
 keywords: parcours, orchestration, prise en main, intégration, fonctionnalités
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: da923278-9c80-47b0-bebd-b68c341e76fb
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 92%
+source-wordcount: 941
+ht-degree: 91%
 
 ---
 
@@ -30,7 +62,7 @@ Le concepteur de parcours Journey Optimizer fournit tout ce dont les spécialis
 
 ![Interface du concepteur de parcours avec la palette, la zone de travail et le volet Propriétés](assets/journey38.png)
 
-**Vous souhaitez commencer à créer ?** Découvrez comment concevoir et créer votre premier parcours dans [cette page](journey-gs.md).
+**Prêt pour la création ?** Découvrez comment créer et concevoir votre premier parcours sur [cette page](journey-gs.md).
 
 
 ## Fonctionnalités principales {#capabilities}
@@ -121,7 +153,7 @@ Explorez des cas d’utilisation de parcours complets de bout en bout qui montre
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
-**Bienvenue aux personnes nouvellement abonnées**
+**Bienvenue aux nouvelles personnes abonnées**
 
 Envoyez un parcours de bienvenue personnalisé lorsque les personnes s’abonnent à votre service, en les guidant tout au long des étapes d’intégration.
 
@@ -143,7 +175,7 @@ Utilisez l’optimisation de l’heure d’envoi optimisée par l’IA pour diff
 
 **Accélérer les diffusions**
 
-Augmentez progressivement le volume des messages pour consolider votre réputation en termes de communication et éviter les problèmes de délivrabilité.
+Augmentez progressivement le volume des messages pour améliorer votre réputation d’envoi et éviter les problèmes de délivrabilité.
 
 [En savoir plus](ramp-up-deliveries-uc.md)
 :::
@@ -151,7 +183,7 @@ Augmentez progressivement le volume des messages pour consolider votre réputati
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
-**Cible par jour de la semaine**
+**Ciblage par jour de la semaine**
 
 Envoyez un contenu différent en fonction du jour de la semaine où les personnes rejoignent votre parcours.
 

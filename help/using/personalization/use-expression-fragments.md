@@ -9,10 +9,26 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 75%
+source-wordcount: 1313
+ht-degree: 98%
 
 ---
 
@@ -35,7 +51,7 @@ Pour ajouter des fragments d’expression à votre contenu, procédez comme suit
 1. Ouvrez l’[éditeur de personnalisation](personalization-build-expressions.md) et sélectionnez le bouton **[!UICONTROL Fragments]** dans le volet de gauche.
 
    La liste affiche tous les fragments d’expression qui ont été créés ou enregistrés en tant que fragments sur le sandbox actuel. [Découvrez comment créer des fragments](../content-management/create-fragments.md)
-lls sont triés par date de création : les fragments d’expression récemment ajoutés s’affichent en premier dans la liste.
+Ils sont triés par date de création : les fragments d’expression récemment ajoutés sont affichés en premier dans la liste.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -107,17 +123,17 @@ Les cas d’utilisation suivants sont possibles :
 >
 >Au moment de l’exécution, le système développe ce qui se trouve à l’intérieur des fragments, puis interprète le code de personnalisation de haut en bas. Sachant cela, des cas d’utilisation plus complexes peuvent être réalisés. Par exemple, vous pouvez disposer d’un fragment F1 transmettant des variables à un autre fragment F2, situé dessous. Vous pouvez également disposer d’un fragment visuel F1 qui transmet des variables à un fragment d’expression imbriqué F2.
 
-## Utilisation de fragments d’expression dans des boucles {#fragments-in-loops}
+## Utiliser des fragments d’expression dans les boucles {#fragments-in-loops}
 
-Lors de l’utilisation de fragments d’expression dans des boucles d’`{{#each}}`, il est important de comprendre comment fonctionne la portée des variables. Les fragments d’expression peuvent accéder aux variables globales définies dans le contenu de votre message, mais ils ne peuvent pas recevoir de variables spécifiques aux boucles en tant que paramètres.
+Lors de l’utilisation de fragments d’expression dans des boucles `{{#each}}`, il est important de comprendre comment fonctionne la portée des variables. Les fragments d’expression peuvent accéder aux variables globales définies dans le contenu de votre message, mais ils ne peuvent pas recevoir de variables spécifiques aux boucles en tant que paramètres.
 
-### Modèle pris en charge : utilisation de variables globales {#global-variables-in-loops}
+### Modèle pris en charge : utilisation de variables globales {#global-variables-in-loops}
 
-Les fragments d’expression peuvent référencer des variables globales définies en dehors du fragment, même lorsque le fragment est appelé depuis une boucle. Il s’agit de l’approche recommandée lorsque vous devez utiliser des fragments dans des contextes itératifs.
+Les fragments d’expression peuvent référencer des variables globales définies en dehors du fragment, même s’il est appelé dans une boucle. Il s’agit de l’approche recommandée si vous devez utiliser des fragments dans des contextes itératifs.
 
-**Exemple : utiliser un fragment avec des variables globales dans une boucle**
+**Exemple : utiliser un fragment avec des variables globales dans une boucle**
 
-Dans le contenu de votre message, définissez une variable globale et utilisez un fragment qui y fait référence :
+Dans le contenu de votre message, définissez une variable globale et utilisez un fragment qui y fait référence :
 
 ```handlebars
 {% let globalDiscount = 15 %}
@@ -131,19 +147,19 @@ Dans le contenu de votre message, définissez une variable globale et utilisez u
 {{/each}}
 ```
 
-Dans le fragment d’expression (fragment123), vous pouvez référencer la variable `globalDiscount` :
+Dans le fragment d’expression (fragment123), vous pouvez référencer la variable `globalDiscount` :
 
 ```handlebars
 <p class="discount-info">Save {{globalDiscount}}% on all items!</p>
 ```
 
-Ce modèle fonctionne car la variable globale est accessible dans tout le message, y compris dans les fragments, quel que soit le contexte de la boucle.
+Ce modèle fonctionne, car la variable globale est accessible dans tout le message, y compris dans les fragments, quel que soit le contexte de la boucle.
 
-### Non pris en charge : transmission de variables de boucle en tant que paramètres de fragment {#loop-variables-limitations}
+### Non pris en charge : transmission de variables de boucle en tant que paramètres de fragment {#loop-variables-limitations}
 
-Vous ne pouvez pas transmettre l’élément d’itération actif (par exemple, `product` dans l’exemple ci-dessus) en tant que paramètre à un fragment d’expression. Le fragment ne peut pas accéder directement aux variables de boucle à partir du bloc de `{{#each}}` environnant.
+Vous ne pouvez pas transmettre l’élément d’itération actif (par exemple, `product` dans l’exemple ci-dessus) en tant que paramètre à un fragment d’expression. Le fragment ne peut pas accéder directement aux variables définies dans une boucle à partir du bloc de `{{#each}}` environnant.
 
-**Exemple : qu’est-ce qui ne fonctionne PAS**
+**Exemple : ce qui NE fonctionne PAS**
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -152,13 +168,13 @@ Vous ne pouvez pas transmettre l’élément d’itération actif (par exemple, 
 {{/each}}
 ```
 
-Le fragment ne peut pas recevoir de `product` en tant que paramètre et l’utiliser en interne, car le transfert de paramètre pour les variables spécifiques à la boucle n’est pas pris en charge dans l’implémentation actuelle.
+Le fragment ne peut pas recevoir `product` en tant que paramètre et l’utiliser en interne, car le transfert de paramètre pour les variables spécifiques à la boucle n’est pas pris en charge dans l’implémentation actuelle.
 
 ### Solutions recommandées {#fragments-in-loops-workarounds}
 
-Lorsque vous devez utiliser des fragments d’expression avec des données provenant d’une boucle, tenez compte des approches suivantes :
+Lorsque vous devez utiliser des fragments d’expression avec des données provenant d’une boucle, envisagez d’utiliser les approches suivantes :
 
-1. **Inclure la logique directement dans le message** : au lieu d’utiliser un fragment pour la logique spécifique à la boucle, ajoutez le code de personnalisation directement dans votre bloc de `{{#each}}`.
+1. **Inclure la logique directement dans le message** : au lieu d’utiliser un fragment pour la logique spécifique à la boucle, ajoutez le code de personnalisation directement dans votre bloc `{{#each}}`.
 
    ```handlebars
    {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -172,7 +188,7 @@ Lorsque vous devez utiliser des fragments d’expression avec des données prove
    {{/each}}
    ```
 
-2. **Utilisation de fragments en dehors des boucles** : si le contenu du fragment n’est pas dépendant de la boucle, appelez le fragment avant ou après le bloc d’itération.
+2. **Utiliser des fragments en dehors des boucles** : si le contenu du fragment ne dépend pas de la boucle, appelez le fragment avant ou après le bloc d’itération.
 
    ```handlebars
    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
@@ -185,11 +201,11 @@ Lorsque vous devez utiliser des fragments d’expression avec des données prove
    {{/each}}
    ```
 
-3. **Définir plusieurs variables globales** : si vous devez transmettre différentes valeurs à un fragment à travers les itérations, définissez des variables globales avant chaque appel au fragment (bien que cela limite la flexibilité).
+3. **Définir plusieurs variables globales** : si vous devez transmettre différentes valeurs à un fragment à chaque itération, définissez des variables globales avant chaque appel au fragment (bien que cela limite la flexibilité).
 
 >[!NOTE]
 >
->Pour effectuer une itération sur les données contextuelles et utiliser des boucles, consultez le guide complet sur l’[itération sur les données contextuelles](iterate-contextual-data.md) qui comprend les bonnes pratiques, des conseils de dépannage et des modèles avancés.
+>Pour effectuer une itération sur des données contextuelles et utiliser des boucles, consultez le guide complet sur l’[itération sur les données contextuelles](iterate-contextual-data.md) qui inclut les bonnes pratiques, des conseils pour résoudre les problèmes et des modèles avancés.
 
 ## Personnaliser des champs modifiables {#customize-fields}
 

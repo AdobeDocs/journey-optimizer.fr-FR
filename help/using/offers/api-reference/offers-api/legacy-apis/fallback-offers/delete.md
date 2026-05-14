@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Suppression d’une offre de secours
+title: Supprimer une offre de secours
 description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
 feature: Decision Management, API
 badge: label="Hérité" type="Informative"
@@ -10,14 +10,24 @@ role: Developer
 level: Experienced
 exl-id: 5e97a1fd-7542-4c9a-8234-21c1fa419671
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/AwEMmVSJOAsd0uD45JftZ0PqavVLuIXMpOTqNUeDNmg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: 174
 ht-degree: 100%
 
 ---
 
-# Suppression d’une offre de secours {#delete-fallback-offer}
+# Supprimer une offre de secours {#delete-fallback-offer}
 
 >[!TIP]
 >
@@ -26,7 +36,7 @@ ht-degree: 100%
 
 Il peut parfois être nécessaire de supprimer (DELETE) une offre de secours. Seules les offres de secours que vous créez dans le conteneur de tenant peuvent être supprimées. Pour ce faire, il vous suffit d&#39;exécuter une requête DELETE sur l&#39;API [!DNL Offer Library] en utilisant le $id de l&#39;offre de secours que vous souhaitez supprimer.
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -52,6 +62,6 @@ curl -X DELETE \
 
 **Réponse**
 
-Une réponse réussie renvoie un statut HTTP 202 (Pas de contenu) et un corps vide.
+Une réponse réussie renvoie un état HTTP 202 (pas de contenu) et un corps vide.
 
 Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) à l’offre de secours. Vous devez inclure un en-tête Accepter dans la requête, mais vous devriez recevoir le statut HTTP 404 (Introuvable) car l’offre de secours a été supprimée du conteneur.

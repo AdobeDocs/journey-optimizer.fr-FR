@@ -10,10 +10,21 @@ role: Developer
 level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/2GIP6Omi7hhB60ThdBcZolaSS3QZSRL5VSWhEz7ZG1I
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 176
+ht-degree: 100%
 
 ---
 
@@ -36,7 +47,7 @@ Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de 
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 PATCH /{ENDPOINT_PATH}/offer-rules/{ID}

@@ -9,16 +9,39 @@ role: User
 level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
+TQID: https://experienceleague.adobe.com/F77MDJH94Db-fXGpbhKBUGok48jNIiFu3x2R6x2DYeA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 79%
+source-wordcount: 1220
+ht-degree: 100%
 
 ---
 
 # Gestion du processus de désinscription aux e-mails {#email-opt-out}
 
-Lors de l’envoi de messages à partir des parcours ou des campagnes, vous devez toujours vous assurer que les clientes et clients peuvent se désabonner des futures communications. Une fois désabonnés, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.  [En savoir plus sur la gestion de la confidentialité et du processus d’opt-out](../privacy/opt-out.md)
+Lors de l’envoi de messages à partir des parcours ou des campagnes, vous devez toujours vous assurer que les clientes et clients peuvent se désabonner des futures communications. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.  [En savoir plus sur la gestion de la confidentialité et du processus d’opt-out](../privacy/opt-out.md)
 
 >[!NOTE]
 >
@@ -28,13 +51,13 @@ Pour insérer un lien de désinscription dans le contenu de votre e-mail, vous p
 
 * Ajoutez une URL de désabonnement en un clic dans l’en-tête de l’e-mail. L’activation de l’option **[!UICONTROL Activer le désabonnement de la liste]** au niveau de la configuration des canaux ajoute un lien d’exclusion dans l’en-tête de l’e-mail. [En savoir plus sur le processus d’opt-out dans l’en-tête d’e-mail](#unsubscribe-header)
 
-* Activez le **lien d’exclusion en un clic** pour votre e-mail. [Découvrir comment ajouter un lien de désinscription en un clic](#one-click-opt-out)
+* Activez le **lien d’exclusion en un clic** pour votre e-mail.  [Découvrir comment ajouter un lien de désinscription en un clic](#one-click-opt-out)
 
 * Insérez un **lien vers une page de destination**. [Découvrir comment ajouter une page de destination de désinscription](#opt-out-external-lp)
 
 Lorsqu’une personne destinataire clique sur le lien de désinscription (opt-out), sa demande de désabonnement est traitée.
 
-Pour vérifier que le choix du profil correspondant a été mis à jour, rendez-vous sur Experience Platform et [accédez à ce profil](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Dans l’onglet [&#x200B; Attributs &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, la valeur de **[!UICONTROL choice]** a été remplacée par **[!UICONTROL no]**. Pour en savoir plus sur le traitement du consentement, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=fr){target="_blank"}.
+Pour vérifier que le choix du profil correspondant a été mis à jour, rendez-vous sur Experience Platform et [accédez à ce profil](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Dans l’onglet [Attributs](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, la valeur du **[!UICONTROL choix]** a été remplacée par **[!UICONTROL non]**. Pour en savoir plus sur le traitement du consentement, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=fr){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,30 +183,30 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 
-### Présentation du flux de désabonnement {#send-message-unsubscribe-link}
+### Compréhension du flux de désabonnement {#send-message-unsubscribe-link}
 
-Une fois que vous avez configuré le lien de désabonnement sur votre page de destination, vous pouvez terminer et envoyer votre message à vos abonnés.
+Une fois que vous avez configuré le lien de désabonnement sur votre page de destination, vous pouvez terminer le message et l’envoyer aux personnes abonnées.
 
-Pour que l’ensemble du flux d’opt-out de la page de destination se termine correctement, les événements suivants doivent se produire dans l’ordre :
+Pour que le flux d’opt-out de la page de destination se déroule correctement, les événements suivants doivent se produire dans l’ordre :
 
-1. **Clic** - Une fois le message reçu, le destinataire clique sur le lien de désabonnement figurant dans l’e-mail.
+1. **Clic** : une fois le message reçu, le destinataire clique sur le lien de désabonnement inclus dans l’e-mail.
 
-1. **Visite** - La page de destination se charge et s’affiche pour le destinataire.
+1. **Visite** : la page de destination se charge et s’affiche pour le destinataire.
 
    ![](assets/opt-out-lp-example.png)
 
-1. **Envoyer** - Le destinataire envoie le formulaire d’opt-out en cliquant sur le bouton de désabonnement sur la page de destination.
+1. **Envoi** : le destinataire envoie le formulaire d’opt-out en cliquant sur le bouton de désabonnement qui apparaît sur la page de destination.
 
    >[!WARNING]
    >
-   >Cliquer sur le lien de désabonnement dans l’e-mail ouvre uniquement la page de destination. Le destinataire doit **envoyer le formulaire en cliquant sur le bouton d&#39;opt-out dans la page de destination** terminer la désinscription et mettre à jour son consentement de profil.
+   >Cliquer sur le lien de désabonnement inclus dans l’e-mail ne fait qu’ouvrir la page de destination. La personne destinataire doit **envoyer le formulaire en cliquant sur le bouton d’opt-out dans la page de destination** pour terminer la désinscription et mettre à jour son consentement de profil.
 
-1. **Désabonnement** - Le système traite la demande de désabonnement. Le destinataire désabonné est redirigé vers un écran de message de confirmation indiquant que la désinscription a réussi.
+1. **Désabonnement** : le système traite la demande de désabonnement. Le destinataire qui s’est désinscrit est ensuite redirigé vers un écran sur lequel s’affiche un message de confirmation de l’opt-out.
 
    ![](assets/opt-out-confirmation-example.png)
 
-1. **Mise à jour du consentement** - Les données de profil sont mises à jour avec le consentement dans les attributs de profil via l’appel API, ce qui exclut le profil des futurs envois d’e-mails.
+1. **Mise à jour du consentement** : le consentement est enregistré dans les attributs du profil via l’appel API, ce qui exclut le profil des futurs envois d’e-mails.
 
-   Par conséquent, cet utilisateur ne recevra aucune communication de votre marque à moins d&#39;être de nouveau abonné.
+   Par conséquent, cette personne ne recevra aucune communication de votre marque à moins d&#39;être de nouveau abonnée.
 
-Cette séquence d’événements garantit que le processus de désinscription est correctement suivi et que les préférences de consentement du profil sont reflétées avec précision dans le système. Si une étape de ce flux est manquante ou ne fonctionne pas, cela peut indiquer un problème avec la mise en œuvre de l’opt-out qui doit être examiné.
+Cette séquence d’événements garantit que le processus de désabonnement est correctement suivi et que les préférences du profil en matière de consentement sont bien enregistrées dans le système. Si l’une des étapes de ce flux est ignorée ou si elles se produisent dans le désordre, cela peut indiquer un problème avec la mise en œuvre de l’opt-out qui devra être examinée.

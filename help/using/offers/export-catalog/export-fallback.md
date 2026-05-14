@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Jeu de données d'offres de secours
+title: Jeu de données d’offres de secours
 description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les offres de secours.
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
@@ -10,14 +10,29 @@ role: User, Developer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/eRaNYYWH1ECH4zmW0-3wGdh7Bls1CC4fZgb-EEplNAw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 1060
+ht-degree: 85%
 
 ---
 
-# Jeu de données d&#39;offres de secours {#fallback-dataset}
+# Jeu de données d’offres de secours {#fallback-dataset}
 
 >[!TIP]
 >
@@ -25,7 +40,7 @@ ht-degree: 0%
 
 Chaque fois qu&#39;une offre est modifiée, le jeu de données généré automatiquement pour les offres de secours est mis à jour.
 
-Le lot le plus récent dans le jeu de données s&#39;affiche à droite. La vue hiérarchique du schéma du jeu de données s&#39;affiche dans le volet de gauche.
+Le lot le plus récent dans le jeu de données s’affiche à droite. La vue hiérarchique du schéma du jeu de données s&#39;affiche dans le volet de gauche.
 
 ![](../assets/dataset-fallback.png)
 
@@ -37,32 +52,32 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ Identifiant
 
-**Champ :** _id 
-**Titre :** identifiant 
-**Description :** identifiant unique de l&#39;enregistrement.
+**Champ :** _id
+**Titre :** identifiant
+**Description :** identifiant unique de l’enregistrement.
 **Type :** chaîne
 
 +++
 
 +++ _experience
 
-**Champ :** _experience
+**Champ :** _experience
 **Type :** objet
 
 +++
 
 +++ _experience > decisioning
 
-**Champ :** prise de décision
+**Champ : prise de décision**
 **Type :** objet
 
 +++
 
 +++ _experience > decisioning > characteristics
 
-**Champ :** caractéristiques 
-**Titre :** Caractéristiques d&#39;option de décision
-**Description :** Propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent avoir différentes caractéristiques (clés dans le mappage). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option de décision des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l&#39;option de décision.
+**Champ :** caractéristiques
+**Titre :** Caractéristiques De L’Option De Décision
+**Description :** propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent avoir différentes caractéristiques (clés dans le mappage). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option de décision des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l&#39;option de décision.
 **Type :** objet
 
 +++
@@ -71,19 +86,19 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ _experience > decisioning > contents
 
-**Champ :** contenu 
-**Titre :** détails du contenu 
-**Description :** éléments de contenu pour afficher l&#39;élément de décision dans différents contextes. Une seule option de décision peut avoir plusieurs variantes de contenu. Le contenu est une information destinée à une audience pour être utilisée dans une expérience (numérique). Le contenu est diffusé par le biais de canaux à un emplacement spécifique.
+**Champ :** contenus
+**Titre :** détails du contenu
+**Description :** Éléments de contenu pour effectuer le rendu de l’élément de décision dans différents contextes. Une seule option de décision peut avoir plusieurs variantes de contenu. Le contenu est une information destinée à une audience pour être utilisée dans une expérience (numérique). Le contenu est diffusé par le biais de canaux à un emplacement spécifique.
 **Type :** tableau
 
 +++
 
 +++_experience > decisioning > contents > components
 
-**Champ :** composants
-**Description :** composants du contenu représentant l’option de décision, y compris toutes leurs variantes linguistiques. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
+**Champ :** composants
+**Description :** composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
 **Type :** tableau
-**Obligatoire :** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
+**Obligatoire :** « _type », « _dc » <!--TBC?-->
 
 * **_experience > decisioning > contents > components > Content Component Type**
 
@@ -170,37 +185,37 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ _experience > decisioning > contents > Placement
 
-**Champ :** emplacement
-**Titre :** emplacement 
-**Description :** emplacement à respecter. La valeur est l&#39;URI (@id) de l&#39;emplacement d&#39;offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
+**Champ :** emplacement
+**Titre : Emplacement**
+**Description :** emplacement à respecter. La valeur est l&#39;URI (@id) de l&#39;emplacement d&#39;offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
 **Type :** Chaîne
 
 +++ 
 
 +++ _experience > decisioning > Lifecycle Status
 
-**Champ :** lifecycleStatus
-**Titre :** statut du cycle de vie
-**Description :** le statut de cycle de vie permet d&#39;exécuter des workflows avec un objet. L&#39;état peut avoir une incidence lorsqu&#39;un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
+**Field:** lifecycleStatus
+**Titre :** statut du cycle de vie
+**Description :** statut du cycle de vie permet d’exécuter des workflows avec un objet. L&#39;état peut avoir une incidence lorsqu&#39;un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
 **Type :** chaîne
-**Valeurs possibles :** &quot;Brouillon&quot; (par défaut), &quot;Approuvé&quot;, &quot;Actif&quot;, &quot;Terminé&quot;, &quot;Archivé&quot;
+**Valeurs possibles :** « Draft » (par défaut), « Approved », « Live », « Completed », « Archived »
 
 +++
 
 +++ _experience > decisioning > Decision Option Name
 
 **Champ :** nom
-**Titre :** nom de l&#39;option de décision
-**Description :** nom d&#39;option affiché dans diverses interfaces utilisateur.
+**Titre :** Nom De L&#39;Option De Décision
+**Description :** nom de l’option affiché dans diverses interfaces utilisateur.
 **Type :** chaîne
 
 +++
 
 +++ _experience > decisioning > tags
 
-**Champ :** balises
-**Titre :** balises
-**Description :** jeu de qualificateurs de collection (précédemment appelés « balises ») associé à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour limiter l’inventaire global à un sous-ensemble (catégorie).
+**Champ :** balises
+**Title:** Tags
+**Description :** ensemble de qualificateurs de collection (précédemment appelés « balises ») associé à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour limiter l’inventaire global à un sous-ensemble (catégorie).
 **Type :** tableau
 
 +++
@@ -209,16 +224,16 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ _repo
 
-**Champ :** _repo 
+**Champ :** _repo
 **Type :** objet
 
 +++
 
 +++ _repo > Etag Option de décision
 
-**Champ :** etag
-**Titre :** ETag Option de décision 
-**Description :** La révision à laquelle l&#39;objet de l&#39;option de décision se trouvait au moment de la prise de l&#39;instantané.
-**Type :** chaîne
+**Champ :** etag
+**Titre : ETag d’option de décision**
+**Description :** révision à laquelle l&#39;objet d&#39;option de décision se trouvait lors de la prise de l&#39;instantané.
+**Type :** Chaîne
 
 +++

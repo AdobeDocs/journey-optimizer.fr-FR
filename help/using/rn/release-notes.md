@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 593d3e784bc260603423e1e6c70549b3a0e394d4
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 2578
 ht-degree: 82%
@@ -467,7 +467,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 
 #### Parcours
 
-* **Taille actuelle de la payload du parcours visible dans les propriétés du parcours** - Le panneau des propriétés du parcours affiche désormais la taille actuelle de la payload du parcours par rapport à la limite configurée, par exemple, *1,5 Mo (sur 2 Mo)* Cet indicateur en lecture seule vous permet de surveiller la complexité du parcours avant publication et d’éviter les erreurs dues au dépassement de la taille maximale de la payload. [En savoir plus](../building-journeys/journey-properties.md#journey-payload-size)
+* **Taille actuelle de la payload du parcours visible dans les propriétés du parcours** - Le panneau des propriétés du parcours affiche désormais la taille actuelle de la payload du parcours par rapport à la limite configurée, par exemple, *1,5 Mo (sur 4 Mo)* Cet indicateur en lecture seule vous permet de surveiller la complexité du parcours avant publication et d’éviter les erreurs dues au dépassement de la taille maximale de la payload. [En savoir plus](../building-journeys/journey-properties.md#journey-payload-size)
 
   Date de disponibilité : 30 avril 2026
 

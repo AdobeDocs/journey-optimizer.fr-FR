@@ -9,9 +9,22 @@ role: Developer
 level: Experienced
 keywords: destination, page de destination, javascript, code
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+TQID: https://experienceleague.adobe.com/h-F683Mfa0y21OXjFHlow5FHQA-EOgFanOyMP7R7jug
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 568
 ht-degree: 100%
 
 ---
@@ -123,7 +136,7 @@ let formData = lpRuntime.getFormData();                           // Method to g
 lpRuntime.submitForm(formData);
 ```
 
-## Cas dʼutilisation
+## Cas d’utilisation
 
 ### Cas d’utilisation 1 : ajout de la validation avant l’envoi du formulaire
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Suppression d’une collection
-description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
+title: Supprimer une collection
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par des responsables marketing, telles que la catégorie de l’offre.
 feature: Decision Management, API, Collections
 badge: label="Hérité" type="Informative"
 topic: Integrations
@@ -10,21 +10,31 @@ role: Developer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/n3Dyd4qww6VGe6-Y2rHfmgw6rZBX1zCf3kJ8cQAKE8w
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: 136
 ht-degree: 100%
 
 ---
 
-# Suppression d’une collection {#delete-collection}
+# Supprimer une collection {#delete-collection}
 
 >[!TIP]
 >
 >La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Il peut parfois être nécessaire de supprimer (DELETE) une collection. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant l’`id` de la collection que vous souhaitez supprimer.
+Il peut parfois s’avérer nécessaire de supprimer (DELETE) une collection. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant l’`id` de la collection que vous souhaitez supprimer.
 
 **Format d’API**
 

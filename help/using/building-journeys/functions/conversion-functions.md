@@ -8,9 +8,16 @@ level: Experienced
 keywords: conversion, fonctions, expression, parcours, type, convertir
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
-source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
+TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: 1271
 ht-degree: 85%
 
 ---
@@ -279,7 +286,7 @@ Convertit une valeur d’argument en valeur décimale, selon son type.
 | chaîne | convertit la valeur de la chaîne en valeur décimale |
 | dateTime | convertit la date en millisecondes (nombre de millisecondes depuis le début de l’époque) |
 | booléen | convertit la valeur booléenne en 1 si true, 0 si false |
-| entier | convertit en valeur décimale (exemple :1 devient 1,0) |
+| entier | convertit en décimal (exemple : 1 devient 1,0) |
 
 +++
 
@@ -416,9 +423,9 @@ Convertit une valeur d’argument en valeur de chaîne, selon son type. Pour plu
 | dateTime | Convertit la date au format UTC |
 | dateTimeOnly | Convertit la date au format UTC |
 | durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
-| entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 »). |
+| Entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 »). |
 | Décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 »). |
-| Booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
+| booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
 
 +++
 

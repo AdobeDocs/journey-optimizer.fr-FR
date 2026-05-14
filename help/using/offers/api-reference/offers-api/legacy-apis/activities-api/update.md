@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Mettre des décisions à jour
-description: Une décision contient la logique sous-tendant la sélection d’une offre.
+description: Une décision contient la logique qui sous-tend la sélection d’une offre.
 feature: Decision Management, API
 badge: label="Hérité" type="Informative"
 topic: Integrations
@@ -10,15 +10,25 @@ role: Developer
 level: Experienced
 exl-id: 63a6b50b-9e42-43c0-87ee-19fcb6ecdd98
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/JECQ2xgIFVzyr9ycjIr-3KmbBr-9bfVOOD2472Q12G4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 180
+ht-degree: 100%
 
 ---
 
-
-# Mise à jour d’une décision {#update-decision}
+# Mettre à jour une décision {#update-decision}
 
 >[!TIP]
 >
@@ -38,7 +48,7 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}

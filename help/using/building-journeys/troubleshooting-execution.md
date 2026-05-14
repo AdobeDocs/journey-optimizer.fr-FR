@@ -10,10 +10,30 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2205'
-ht-degree: 65%
+source-wordcount: 2232
+ht-degree: 64%
 
 ---
 
@@ -164,9 +184,9 @@ Il s’agit d’un comportement système attendu qui **fonctionne comme prévu**
 
 ### Y a-t-il un impact sur l’exécution du parcours ou la diffusion des messages ?
 
-**Non.** L’impact ne concerne que la journalisation. [!DNL Adobe Journey Optimizer] dispose de mécanismes de déduplication intégrés au niveau de la couche d’exécution des messages qui garantissent :
+**Non.** L’impact se limite à la journalisation uniquement. [!DNL Adobe Journey Optimizer] dispose de mécanismes de déduplication intégrés au niveau de la couche d’exécution des messages qui garantissent :
 
-* Un seul message (e-mail, SMS, notification push, etc.) est envoyé à chaque profil.
+* Un seul message (email, SMS, notification push, etc.) est envoyé à chaque profil ;
 * Les actions sont exécutées une seule fois.
 * L’exécution du parcours se déroule correctement.
 

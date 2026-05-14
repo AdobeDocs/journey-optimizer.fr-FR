@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Créer une offre de secours
+title: Création d’une offre de secours
 description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
 feature: Decision Management, API
 badge: label="Hérité" type="Informative"
@@ -10,14 +10,24 @@ role: Developer
 level: Experienced
 exl-id: 1a9c074a-187a-45b1-9ad0-378aeef0d03d
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/PVaETkuEiwd6TVpMPMaOTMQXJyyoDCou1SvyA9z5GdU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 161
+ht-degree: 100%
 
 ---
 
-# Créer une offre de secours {#create-fallback-offer}
+# Création d’une offre de secours {#create-fallback-offer}
 
 >[!TIP]
 >
@@ -35,7 +45,7 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances

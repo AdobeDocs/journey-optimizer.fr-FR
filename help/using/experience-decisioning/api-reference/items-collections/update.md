@@ -1,15 +1,22 @@
 ---
 title: Mettre à jour une collection d’éléments
-description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par une personne spécialisée dans le marketing, telles que la catégorie de l’offre.
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par des responsables marketing, telles que la catégorie de l’offre.
 feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: a2b7779d-8c2e-4ff9-8cc3-90846f100c98
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+TQID: https://experienceleague.adobe.com/qYudO0NFgw9zjq843wK8zVMwr-nk29HPdXAHLBUc7qg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: 133
 ht-degree: 100%
 
 ---

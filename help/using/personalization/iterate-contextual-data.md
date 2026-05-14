@@ -9,9 +9,33 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, handlebars, itération, tableaux, contexte, personnalisation
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '3040'
+source-wordcount: 3075
 ht-degree: 98%
 
 ---
@@ -71,7 +95,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 >[!NOTE]
 >
->**Les identifiants d’événement numériques nécessitent des accents graves.** Si l’identifiant d’événement est un nombre (par exemple, `1697323153`), placez-le entre accents graves (`` ` ``) dans le chemin d’accès de l’expression. Sans backticks, l’analyseur PQL génère une erreur de syntaxe.
+>**Les identifiants d’événement numériques nécessitent des accents graves.** Si votre identifiant d’événement est un nombre (par exemple, `1697323153`), placez-le entre accents graves (`` ` ``) dans le chemin d’accès de votre expression. Sans backticks, l’analyseur PQL génère une erreur de syntaxe.
 >
 >```handlebars
 >context.journey.events.`1697323153`.fieldName
@@ -605,8 +629,8 @@ serializeList(
 
 En savoir plus sur :
 
-* [`all`](../building-journeys/expression/collection-management-functions.md)
-* [`serializeList`](../building-journeys/functions/list-functions.md#serializeList)
+* [Fonction `all`](../building-journeys/expression/collection-management-functions.md)
+* [Fonction `serializeList`](../building-journeys/functions/list-functions.md#serializeList)
 
 La gestion des collections pour les actions personnalisées est abordée dans la section [Transmission de collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection).
 

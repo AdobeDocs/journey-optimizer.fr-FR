@@ -39,7 +39,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6edc6e8ac53eac365a86ac97e6ce7f3d37754e33
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 73%
@@ -156,7 +156,7 @@ Le champ **[!UICONTROL Taille actuelle de la payload du parcours]** du panneau d
 
 Utilisez ces informations pour surveiller la complexité de votre parcours avant publication. Si la taille de la payload approche ou dépasse la limite, la publication du parcours échoue. Pour réduire la taille, pensez à simplifier la logique du parcours ou à réduire le nombre d’activités.
 
-La limite par défaut est de 2 Mo. Contactez l’assistance clientèle d’Adobe si vous devez demander une limite supérieure pour votre organisation.
+La limite par défaut est de 4 Mo. Contactez l’assistance clientèle d’Adobe si vous devez demander une limite supérieure pour votre organisation.
 
 Pour plus d&#39;informations sur les seuils, les messages d&#39;avertissement et d&#39;erreur, ainsi que les étapes de dépannage, reportez-vous aux sections Validation de la taille de la payload du Parcours [&#128279;](../start/guardrails.md#journey-payload-size) et [&#x200B; Mécanismes de sécurisation du parcours général](../start/guardrails.md#journeys-guardrails-journeys).
 

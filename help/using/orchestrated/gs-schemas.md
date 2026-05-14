@@ -5,13 +5,19 @@ title: Étapes de configuration
 description: Découvrez comment créer un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 90%
+source-wordcount: 485
+ht-degree: 81%
 
 ---
-
 
 # Prise en main des schémas relationnels et des jeux de données{#gs-schemas}
 
@@ -23,7 +29,7 @@ Ce guide explique le processus de création d’un schéma relationnel, de confi
 
 Dans le contexte des campagnes orchestrées, un **jeu de données** est une structure de stockage et de gestion pour une collection de données, généralement une table, contenant un schéma (des lignes) et des champs (des colonnes). Les données correctement ingérées dans Experience Platform sont conservées sous forme de jeux de données dans le lac de données.
 
-Un **schéma** représente et valide la structure et le format des données. Il fournit une définition abstraite d’un objet du monde réel (comme une personne) et décrit les données à inclure dans chaque instance de cet objet (nom, anniversaire, etc.).
+Un **schéma** représente et valide la structure et le format des données. Elle fournit une définition abstraite d’un objet du monde réel (une personne, par exemple) et décrit les données à inclure dans chaque instance de cet objet (comme le nom, l’anniversaire, etc.).
 
 Un **modèle de données** est le plan conceptuel de la normalisation de vos données.
 

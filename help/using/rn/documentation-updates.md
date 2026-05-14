@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '7709'
-ht-degree: 93%
+source-wordcount: '7777'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 93%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Mai 2026 {#may-2026}
+
+* La documentation sur les **liens profonds** a été complétée par une nouvelle section **Création de liens profonds** présentant les deux options disponibles pour les e-mails (IU Designer par e-mail et code de l’éditeur de Personalization) et la syntaxe de la fonction URL pour les SMS. La page **Créer un SMS** comprend désormais une étape de lien profond dans le flux de création de contenu. [En savoir plus](../email/deeplinks.md)
+
+* La référence d’assistance **Url** a été mise à jour avec une section dédiée dans la documentation de Personalization. [En savoir plus](../personalization/functions/helpers.md#url)
 
 * Une nouvelle page **Personalization recipes** a été ajoutée, fournissant des modèles de personnalisation prêts à l’emploi pour les cas d’utilisation les plus courants dans Journey Optimizer. Elle couvre les recettes de date et d’heure (mise en forme de date actuelle, compte à rebours jusqu’à l’expiration, calculs de jours précédents, affichage temporel uniquement et détection de week-end par rapport au jour de la semaine), les recettes de chaîne (à l’aide de `replaceAll` avec affectation de variable) et les recettes de secours conditionnelles (secours de champs vides à l’aide de `isEmpty`). [En savoir plus](../personalization/personalization-recipes.md)
 

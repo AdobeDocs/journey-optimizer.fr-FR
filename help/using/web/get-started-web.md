@@ -6,9 +6,26 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
-source-wordcount: '275'
+TQID: https://experienceleague.adobe.com/7LxkDJdH0RqWKCVLLK2ISDDnNR5ZwGmgfpX7W251GBU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 293
 ht-degree: 100%
 
 ---
@@ -34,7 +51,7 @@ Découvrez les étapes détaillées pour créer une campagne web dans [cette vid
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="web-prerequisites.md">
-<img alt="Prospect" src="../assets/do-not-localize/web-prerequisites.jpg">
+<img alt="Lead" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div><a href="web-prerequisites.md"><strong>Conditions préalables</strong>
 </div>

@@ -9,10 +9,25 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: schémas, XDM, platform, en flux continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/T8QeEHgL2WALpXMyTwdGFnEgMPG6rKK76Meg-K2UVZ0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 85%
+source-wordcount: 393
+ht-degree: 84%
 
 ---
 

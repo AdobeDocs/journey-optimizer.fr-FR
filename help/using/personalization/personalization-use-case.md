@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 'Cas d’utilisation de la personnalisation : notification du statut de la commande'
+title: Cas d’utilisation Personalization&colon; notification du statut de la commande
 description: Découvrez comment personnaliser un message à l’aide des informations de profil, de décision d’offres et de contexte.
 feature: Personalization, Use Cases
 topic: Personalization
@@ -9,10 +9,27 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, cas d’utilisation, personnalisation
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '531'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/TzGxWPRUHz4Hf-Acni4-LjNTpAYTjZBBt-GMxlNXQHM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 532
+ht-degree: 98%
 
 ---
 

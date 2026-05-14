@@ -10,10 +10,20 @@ role: Developer
 level: Experienced
 exl-id: 3ef785c6-06b4-40ce-a8e5-6a9d5101a408
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/r28ngBTkKrN1x-Pd2CwTSP461xq3bgwNcgxR9bonrxM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 172
+ht-degree: 100%
 
 ---
 
@@ -26,7 +36,7 @@ ht-degree: 0%
 
 Vous pouvez modifier ou mettre à jour une offre personnalisée en adressant une requête PATCH à l’API [!DNL Offer Library].
 
-Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
+Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
 ## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
@@ -37,7 +47,7 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}

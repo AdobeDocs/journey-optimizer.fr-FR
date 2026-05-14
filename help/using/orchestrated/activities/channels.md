@@ -5,13 +5,26 @@ title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 56%
+source-wordcount: 1803
+ht-degree: 57%
 
 ---
-
 
 # Activités de canal {#channel}
 
@@ -83,7 +96,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 
    ![image montrant la zone de travail avec les activités disponibles](../assets/channel-add.png)
 
-1. Dans le rail de droite, utilisez le champ **[!UICONTROL Catégorie]** pour choisir **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]** pour ce message. Les messages transactionnels ne nécessitent pas d’accord préalable et sont adaptés aux communications sensibles au temps telles que les perturbations, les urgences ou les annulations.
+1. Dans le rail de droite, utilisez le champ **[!UICONTROL Catégorie]** pour choisir **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]** pour ce message. Les messages transactionnels ne nécessitent pas d’opt-in et sont adaptés aux communications à contrainte de temps telles que les perturbations, les urgences ou les annulations.
 
 1. Sélectionnez l’activité et cliquez sur **[!UICONTROL Modifier l’e-mail]**, **[!UICONTROL Modifier le SMS]**, **[!UICONTROL Modifier la notification push]** ou **[!UICONTROL Modifier le publipostage direct]** selon le canal choisi.
 

@@ -5,9 +5,22 @@ title: Informer les utilisateurs et les utilisatrices de la disponibilité d’u
 description: Informer les utilisateurs et les utilisatrices de la disponibilité d’un produit
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '383'
+exl-id: a3b5ff92-fe26-41ad-ad12-b346025e9e0f
+TQID: https://experienceleague.adobe.com/OOuzKAv-SCDhIxYSdrrQhtBI8jM4VevcpNj2z0pLUuQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 391
 ht-degree: 100%
 
 ---
@@ -42,7 +55,7 @@ Concevez une notification de retour en stock pour informer la clientèle lorsque
 
    ![](assets/notify-3.png){zoomable="yes"}
 
-1. Après avoir démarré le mode brouillon, prévisualisez l’audience avec les détails de la liste de souhaits. Pour obtenir des informations plus détaillées, cliquez sur un résultat de sortie et sélectionnez **[!UICONTROL Prévisualiser les résultats]**.
+1. Après avoir démarré le mode brouillon, prévisualisez l’audience avec les détails des listes de souhaits. Pour obtenir des informations plus détaillées, cliquez sur un résultat de sortie et sélectionnez **[!UICONTROL Prévisualiser les résultats]**.
 
    Ici, les données affichent à la fois les destinataires et leurs articles de liste de souhaits. Certaines personnes ont plusieurs articles dans leur liste de souhaits et, par le biais d’un envoi à plusieurs niveaux, reçoivent un e-mail distinct pour chaque article. Dans certains cas, les personnes utilisent des adresses e-mail différentes pour des demandes de réapprovisionnement distinctes.
 
@@ -54,13 +67,12 @@ Concevez une notification de retour en stock pour informer la clientèle lorsque
 
    ![](assets/notify-5.png){zoomable="yes"}
 
-1. Ajoutez une activité **[!UICONTROL E-mail]** pour créer un message de disponibilité du produit. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à concevoir votre contenu.
+1. Ajoutez une activité **[!UICONTROL E-mail]** pour créer un message de disponibilité du produit. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à créer votre contenu.
 
-   ➡️ [En savoir plus sur la personnalisation d’e-mail](../email/content-from-scratch.md)
+   ➡️ [En savoir plus sur la personnalisation des e-mails](../email/content-from-scratch.md)
 
    ![](assets/notify-7.png){zoomable="yes"}
 
 1. Une fois votre campagne testée et prête, cliquez sur **[!UICONTROL Publier]** pour la mettre en ligne.
 
 Avec cette campagne orchestrée, la clientèle reçoit un e-mail distinct pour chacun des articles de sa liste de souhaits. Chaque message est envoyé à l’adresse e-mail spécifique associée à cette liste de souhaits, avec un contenu personnalisé provenant des détails de l’article de cette liste.
-

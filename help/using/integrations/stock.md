@@ -9,9 +9,23 @@ role: User
 level: Beginner
 keywords: stock, images, intégration, photos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+TQID: https://experienceleague.adobe.com/vTlX-g-0KOflNFEE82-eaivCmII6bqdYyGHtzDvYylc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 597
 ht-degree: 100%
 
 ---

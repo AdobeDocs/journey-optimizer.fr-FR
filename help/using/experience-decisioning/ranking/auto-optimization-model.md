@@ -8,10 +8,19 @@ role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
-source-git-commit: ca31e819b0d120f54adfe2035ecacb21ac4f1f15
+TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 30%
+source-wordcount: 1763
+ht-degree: 36%
 
 ---
 
@@ -78,11 +87,11 @@ Notre approche consistant à combiner plusieurs bandits et à allouer un certain
 
 ## Échantillonnage de Thompson {#thompson-sampling}
 
-L’[échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"} ou bandits bayésiens, est une approche bayésienne du problème du bandit manchot. Le modèle traite la récompense moyenne 𝛍 de chaque offre comme une variable aléatoire et utilise les données collectées jusqu’à présent pour mettre à jour notre « croyance » sur la récompense moyenne. Cette « croyance » est représentée mathématiquement par une loi de probabilité a posteriori , qui est essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre. Ensuite, pour chaque décision, nous réalisons un échantillonnage d’un point de chacune de ces lois a posteriori de récompense et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
+[L’échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"}, ou bandits bayésiens, est une approche bayésienne du problème du bandit manchot. Le modèle traite la récompense moyenne 𝛍 de chaque offre comme une variable aléatoire et utilise les données collectées jusqu’à présent pour mettre à jour notre « croyance » sur la récompense moyenne. Cette « croyance » est représentée mathématiquement par une loi de probabilité a posteriori , qui est essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre. Ensuite, pour chaque décision, nous réalisons un échantillonnage d’un point de chacune de ces lois a posteriori de récompense et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
 
-Ce processus est illustré dans la figure ci-dessous, qui présente 3 offres différentes. Au départ, nous n’avons aucune preuve des données et nous supposons que toutes les offres ont une loi a posteriori uniforme de récompense. Nous tirons un échantillon de la loi a posteriori de récompense de chaque offre. L’échantillon sélectionné dans la loi de l’offre 2 a la valeur la plus élevée. Voici un exemple d’exploration. Après avoir affiché l’offre 2, nous collectons toute récompense potentielle (par exemple, conversion/aucune conversion) et mettons à jour la loi a posteriori de l’offre 2 à l’aide du théorème de Bayes, comme expliqué ci-dessous. Nous poursuivons ce processus et mettons à jour les lois a posteriori chaque fois qu’une offre est affichée et que la récompense est collectée. Dans la seconde figure, l’offre 3 est sélectionnée. Bien que l’offre 1 ait obtenu la récompense moyenne la plus élevée (sa loi a posteriori de récompense est la plus éloignée à droite), le processus d’échantillonnage de chaque loi nous a amenés à choisir une offre 3 apparemment sous-optimale. Ce faisant, nous nous donnons la possibilité d’en savoir plus sur la véritable distribution de récompense de l’offre 3.
+Ce processus est illustré dans la figure ci-dessous, qui présente 3 offres différentes. Au départ, nous n’avons aucune preuve des données et nous supposons que toutes les offres ont une loi a posteriori uniforme de récompense. Nous tirons un échantillon de la loi a posteriori de récompense de chaque offre. L’échantillon sélectionné dans la loi de l’offre 2 a la valeur la plus élevée. Voici un exemple d’exploration. Après avoir affiché l’offre 2, nous collectons toute récompense potentielle (par exemple, conversion/pas de conversion) et mettons à jour la loi a posteriori de l’offre 2 à l’aide du théorème de Bayes, comme expliqué ci-dessous. Nous poursuivons ce processus et mettons à jour les lois a posteriori chaque fois qu’une offre est affichée et que la récompense est collectée. Dans la seconde figure, l’offre 3 est sélectionnée. Bien que l’offre 1 ait obtenu la récompense moyenne la plus élevée (sa loi a posteriori de récompense est la plus éloignée à droite), le processus d’échantillonnage de chaque loi nous a amenés à choisir une offre 3 apparemment sous-optimale. Ce faisant, nous nous donnons la possibilité d’en savoir plus sur la véritable distribution de récompense de l’offre 3.
 
-À mesure que davantage d’échantillons sont collectés, la confiance augmente et une estimation plus précise de la récompense possible est obtenue (correspondant à des lois de récompense plus étroites). Ce processus de mise à jour de nos croyances à mesure que de nouvelles preuves deviennent disponibles est connu sous le nom d **inférence bayésienne**.
+À mesure que davantage d’échantillons sont collectés, la confiance augmente et une estimation plus précise de la récompense possible est obtenue (correspondant à des lois de récompense plus étroites). Ce processus de mise à jour de nos croyances au fur et à mesure que de nouvelles preuves deviennent disponibles est connu sous le nom d’**inférence bayésienne**.
 
 Finalement, si une offre (par exemple l’offre 1) est un gagnant définitif, sa loi a posteriori de récompense sera séparée des autres. À ce stade, pour chaque décision, la récompense échantillonnée de l’offre 1 sera probablement la plus élevée, et nous la choisirons avec une probabilité plus élevée. Il s’agit d’une exploitation : nous sommes convaincus que l’offre 1 est la meilleure. Elle est donc choisie pour maximiser les récompenses.
 
@@ -92,7 +101,7 @@ Finalement, si une offre (par exemple l’offre 1) est un gagnant définitif, s
 
 +++ Détails du calcul
 
-Pour calculer/mettre à jour des lois, nous utilisons **le théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer sa ***P(𝛍i | données)***, c’est-à-dire la probabilité d’une valeur de récompense **𝛍i** pour chaque offre ***i***, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
+Pour calculer/mettre à jour des lois, nous utilisons **le théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer sa ***P(𝛍i | données)***, c’est-à-dire la probabilité d’une valeur de récompense&#x200B;**𝛍i** pour chaque offre&#x200B;*** i***, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
 
 D’après le théorème de Bayes :
 

@@ -7,9 +7,19 @@ role: Developer
 level: Experienced
 keywords: liste, fonctions, expression, parcours, tableau, collection
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '1158'
+exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
+TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 1158
 ht-degree: 100%
 
 ---
@@ -261,7 +271,7 @@ Renvoie l’élément de la liste à l’index donné.
 | list | listDateTime |
 | list | listDateTimeOnly |
 | list | listDateOnly |
-| index | Entier |
+| index | entier |
 
 +++
 
@@ -624,8 +634,8 @@ Convertit une liste donnée (tout type sauf listObject) en chaîne.
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Liste à convertir en chaîne. |
-| séparateur | Chaîne | Séparateur entre chaque élément de liste dans la chaîne de sortie. |
-| addQuotes | Booléen | Ce paramètre indique si chaque élément de la chaîne de sortie doit inclure des guillemets (true) ou non (false). |
+| séparateur | chaîne | Séparateur entre chaque élément de liste dans la chaîne de sortie. |
+| addQuotes | booléen | Ce paramètre indique si chaque élément de la chaîne de sortie doit inclure des guillemets (true) ou non (false). |
 
 +++
 
@@ -734,4 +744,3 @@ Renvoie `[3, 2, 1]`.
 Renvoie une valeur listObject classée par attribut SKU (ordre ascendant).
 
 +++
-

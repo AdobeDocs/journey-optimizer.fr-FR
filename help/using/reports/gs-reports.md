@@ -6,10 +6,23 @@ description: Découvrez comment accéder aux rapports  [!DNL Adobe Journey Optim
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+TQID: https://experienceleague.adobe.com/Zpz0yKyYrpflNhiGCIYQPELCCFp7A4CkbrJphwxuz70
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 95%
+source-wordcount: 489
+ht-degree: 100%
 
 ---
 
@@ -34,7 +47,7 @@ Pour optimiser la délivrabilité de vos expériences [!DNL Journey Optimizer], 
   Si vous possédez une licence Adobe Customer Journey Analytics, vous pouvez analyser vos rapports Journey Optimizer dans Customer Journey Analytics. Cette puissante option vous redirige de manière transparente vers votre environnement Customer Journey Analytics, ce qui vous permet de personnaliser vos rapports en détails. Intégrez des mesures avancées de Customer Journey Analytics dans vos widgets pour enrichir vos informations et les rendre encore plus pertinentes. [En savoir plus](report-cja-manage.md)
 
 
-## Explorons plus en détail
+## Explorons plus en détail.
 
 Maintenant que vous avez une compréhension des concepts liés aux types de rapports dans **[!DNL Journey Optimizer]**, il est temps d’explorer plus en détail les sections de documentation suivantes pour découvrir comment accéder aux fonctionnalités de création de rapports et comprendre leurs principes.
 
@@ -110,10 +123,10 @@ Sélectionnez un canal sortant pour découvrir les **rapports globaux sur la dur
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="E-mail" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>Canal e-mail</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Rapport de parcours</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><p><strong>Canal E-mail</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Rapport de parcours</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><p><strong>Canal SMS</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Rapport de parcours</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-push.md"><img alt="Notification push" src="../channels/assets/do-not-localize/push.png"></a>
+<td><a href="campaign-global-report-cja-push.md"><img alt="notification push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><p><strong>Canal de notification push</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Rapport de parcours</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-direct.md"><img alt="Courrier" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
 <div align="center"><p><strong>Canal courrier</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Rapport de parcours</strong></a></p></div></td>

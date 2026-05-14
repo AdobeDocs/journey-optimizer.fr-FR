@@ -8,9 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
+TQID: https://experienceleague.adobe.com/d-n-lFEV-NuTi4mbCjiMgDil5whSWZRX02xp2S2jJ0M
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: 657
 ht-degree: 100%
 
 ---
@@ -61,7 +78,7 @@ Le graphe **[!UICONTROL Clics]** affiche les mesures des clics in-app, qui illus
 
 ![](assets/cja-campaign-inapp-displays.png)
 
-Le graphique **[!UICONTROL Affichages]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
+Le graphe **[!UICONTROL Affichages]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
 
 +++ En savoir plus sur les mesures d’affichage
 
@@ -114,7 +131,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 * **[!UICONTROL Clics]** : nombre de fois où l’utilisateur ou l’utilisatrice a interagi avec les messages in-app.
 
-* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché à l’utilisateur ou l’utilisatrice.
+* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché pour l’utilisateur ou l’utilisatrice.
 
 * **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
 

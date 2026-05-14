@@ -10,9 +10,9 @@ level: Intermediate
 keywords: fragments, parcours, réutilisation, nœuds, zone de travail, inventaire, réutilisable
 badge: label="Disponibilité limitée" type="Informative"
 version: Journey Orchestration
-source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1484'
 ht-degree: 2%
 
 ---
@@ -77,8 +77,8 @@ Pour enregistrer les nœuds de parcours en tant que fragment directement à part
 
 Pour créer un fragment directement à partir de l’inventaire :
 
-1. Accédez à l’onglet **[!UICONTROL Parcours]** > **[!UICONTROL Fragments]**.
-1. Cliquez sur **[!UICONTROL Créer un fragment]**.
+1. Accédez à l’onglet **[!UICONTROL Parcours]** > **[!UICONTROL Fragments de Parcours]**.
+1. Cliquez sur **[!UICONTROL Créer un fragment de parcours]**.
 1. Dans la zone de travail de création de fragments, ajoutez et configurez des activités de parcours.
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le fragment en tant que brouillon.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: API Batch Decisioning
+title: API Batch Decisioning
 description: Découvrez comment utiliser l’API Batch Decisioning pour sélectionner les meilleures offres pour les profils d’audiences dans une portée de décision prédéfinie.
 badge: label="Hérité" type="Informative"
 feature: Decision Management, API
@@ -10,13 +10,25 @@ role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/2FrtFGbl169aXj29ltmUKS23eXFns1cG8TPojw3TwCY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: 749
 ht-degree: 100%
 
 ---
-
 
 # Diffuser des offres à l’aide de l’API [!DNL Batch Decisioning] {#deliver-offers-batch}
 
@@ -44,7 +56,7 @@ Pour ce faire, l&#39;organisation :
 >
 >La diffusion des décisions par lots peut également être effectuée à l’aide de l’interface de Journey Optimizer. Pour plus d’informations, reportez-vous à [cette section](../../batch-delivery.md), qui fournit des informations sur les conditions préalables et les limites globales à prendre en compte lors de l’utilisation de la diffusion des décisions par lots.
 
-* **Nombre de tâches par lot en cours d’exécution par jeu de données** : jusqu’à cinq traitements par lot peuvent être exécutées à la fois, par jeu de données. Toutes les autres requêtes par lots avec le même jeu de données de sortie sont ajoutées à la file d’attente. Une tâche en file d’attente est sélectionnée pour traitement une fois que la tâche précédente a fini son exécution.
+* **Nombre de tâches par lot en cours d’exécution par jeu de données** : jusqu’à cinq traitements par lot peuvent être exécutées à la fois, par jeu de données. Toutes les autres demandes par lots avec le même jeu de données de sortie sont ajoutées à la file d’attente. Un traitement en file d’attente est sélectionné pour traitement une fois que le traitement précédent a fini son exécution.
 * **Capping de la fréquence** : un lot s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. L&#39;API [!DNL Batch Decisioning] limite la fréquence et charge toujours les profils à partir de l&#39;instantané le plus récent.
 
 ## Prise en main {#getting-started}

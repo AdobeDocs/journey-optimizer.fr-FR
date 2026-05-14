@@ -8,10 +8,24 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
+TQID: https://experienceleague.adobe.com/dpQ6PEm-afX4PZuWSPrpAWDH7yBhUKZHZRF134VehAg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 60%
+source-wordcount: 130
+ht-degree: 100%
 
 ---
 
@@ -37,7 +51,7 @@ Identifiant de la version du parcours. Cet identifiant représente l’identité
 
 Type : chaîne
 
-## name {#name-field}
+## nom {#name-field}
 
 Nom du parcours.
 
@@ -45,7 +59,7 @@ Type : chaîne
 
 >[!NOTE]
 >
->Le nom du parcours est utilisé pour lier les données d’exécution du parcours aux jeux de données de rapports. Si vous renommez un parcours, assurez-vous que le nouveau nom correspond au nom figurant dans votre jeu de données de rapports afin de créer des rapports précis. Une incohérence peut entraîner l’affichage inattendu des données de rapport. En savoir plus sur [résolution des problèmes liés aux données de rapports manquantes](../building-journeys/report-journey.md#troubleshooting-missing-data).
+>Le nom du parcours est utilisé pour lier les données d’exécution du parcours aux jeux de données de rapports. Si vous renommez un parcours, veillez à ce que le nouveau nom corresponde au nom figurant dans votre jeu de données de rapports afin de garantir l’exactitude des rapports. Une incohérence peut empêcher les données de rapport de s’afficher comme prévu. En savoir plus sur la [résolution des problèmes liés aux données de rapports manquantes](../building-journeys/report-journey.md#troubleshooting-missing-data).
 
 ## description {#description-field}
 

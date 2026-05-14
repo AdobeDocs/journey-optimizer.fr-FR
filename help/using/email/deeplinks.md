@@ -1,26 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser des liens profonds dans les e-mails
-description: Découvrez comment ajouter des liens profonds au contenu des e-mails et comment implémenter la gestion des liens profonds dans les applications iOS et Android.
-feature: Email
+title: Utiliser et configurer des liens profonds dans les e-mails et les SMS
+description: Découvrez comment ajouter des liens profonds au contenu des e-mails et des SMS et comment implémenter la gestion des liens profonds dans les applications iOS et Android.
+feature: Email, SMS
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: lien profond, lien profond, liens universels, liens d’application, e-mail
-source-git-commit: 8efe5aaf0ebf24aa61decf40651c2ecc198ab0bc
+keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
 
 
-# Configuration des liens profonds dans les e-mails {#email-deeplinks}
+# Utiliser et configurer des liens profonds dans les e-mails et les SMS {#deeplinks}
 
-Les liens profonds dans les e-mails vous permettent de rediriger les destinataires d’un e-mail vers un écran ou un élément de contenu spécifique dans votre application mobile. Cela permet d’amener les personnes directement à l’expérience in-app prévue, sans les acheminer via un navigateur web ou une boutique d’applications, de sorte que le parcours reste pertinent et intégré à la marque.
-
-Pour ajouter un lien profond à un e-mail, assurez-vous que [le suivi des liens est activé](message-tracking.md#enable-tracking). Sélectionnez l’élément que vous souhaitez lier (texte, bouton ou image) dans le Designer d’e-mail, cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle, puis choisissez **[!UICONTROL Lien profond]** pour saisir l’URL de votre lien profond. [En savoir plus sur l&#39;insertion de liens](message-tracking.md#insert-links)
+Les liens profonds vous permettent d’orienter les destinataires d’un e-mail ou SMS vers un écran ou un élément de contenu spécifique dans votre application mobile. Cela permet d’amener les personnes directement à l’expérience in-app prévue, sans les acheminer via un navigateur web ou une boutique d’applications, de sorte que le parcours reste pertinent et intégré à la marque.
 
 Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés directement vers le contenu in-app prévu, **à condition que vous ayez terminé les étapes de configuration** présentées sur cette page, qui couvre :
 
@@ -31,9 +29,37 @@ Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés dire
 >
 >[!DNL Adobe Journey Optimizer] prend en charge le lien profond pour iOS et Android à l’aide d’URL suivies (`/ee/v1/mclick/*`) afin d’assurer la compatibilité et le suivi des clics.
 
+## Création de liens profonds {#authoring}
+
+### E-mail {#authoring-email}
+
+Pour les e-mails , vous disposez de deux options pour insérer un lien profond :
+
+* **Email Designer** : assurez-vous que [le suivi des liens est activé](message-tracking.md#enable-tracking). Sélectionnez l’élément à lier (texte, bouton ou image), cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle, puis choisissez **[!UICONTROL Lien profond]** pour saisir l’URL du lien profond. [En savoir plus sur l&#39;insertion de liens](message-tracking.md#insert-links)
+
+* **Éditeur Personalization (code)** : insérez le lien profond directement dans HTML à l&#39;aide du fragment de code suivant :
+
+  ```html
+  <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
+  ```
+
+  Remplacez `<<deeplink_url>>` par votre URL de lien profond réelle et utilisez un `id` unique pour chaque bloc afin d’éviter les conflits.
+
+### SMS {#authoring-sms}
+
+Pour les SMS, les liens profonds sont créés à l’aide de la fonction d’assistance **Url** dans l’éditeur de personnalisation. Pour en savoir plus sur l’ajout de liens à du contenu SMS, consultez [cette section](../sms/create-sms.md#sms-content).
+
+Pour insérer des liens profonds dans le contenu d&#39;un SMS, utilisez la syntaxe suivante :
+
+```
+{{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
+```
+
+Remplacez `<<url>>` par votre URL de lien profond réelle.
+
 ## Configuration dans Journey Optimizer {#configuration}
 
-Pour pouvoir utiliser des liens profonds dans les e-mails pour vos applications mobiles, procédez comme suit.
+Pour pouvoir utiliser des liens profonds dans les e-mails et les SMS pour vos applications mobiles, procédez comme suit.
 
 >[!NOTE]
 >
@@ -53,7 +79,7 @@ Pour pouvoir utiliser des liens profonds dans les e-mails pour vos applications 
 
 >[!IMPORTANT]
 >
->Le approfondissement des liens via l’infrastructure de messagerie Adobe s’applique lorsque [le suivi des liens est activé](message-tracking.md#enable-tracking). Les clics de lien profond suivis utilisent les URL sous `/ee/v1/mclick/*`, qu’Adobe héberge et résout.
+>Le approfondissement des liens à travers l’infrastructure d’Adobe s’applique lorsque le suivi des liens est activé pour votre message, dans les paramètres [&#x200B; suivi des e-mails &#x200B;](message-tracking.md#enable-tracking) ou dans la section **[!UICONTROL Suivi des actions]** pour les campagnes par SMS. Les clics de lien profond suivis utilisent les URL sous `/ee/v1/mclick/*`, qu’Adobe héberge et résout.
 >
 >Pour les liens **non suivis**, l’URL n’est pas réécrite via les systèmes Adobe. Vous devez configurer des liens universels ou des liens d’application sur vos propres domaines et hébergement afin que ces liens ouvrent votre application comme prévu.
 
@@ -64,7 +90,7 @@ Cette section explique comment implémenter des liens profonds mobiles avec [!DN
 * Ouvrez un écran spécifique dans votre application mobile lors de l’installation de l’application, ou
 * Ouvrez votre site web comme solution de secours lorsque l’application n’est pas installée.
 
-Lorsque le [suivi des liens est activé](message-tracking.md#enable-tracking) pour votre message, [!DNL Journey Optimizer] continue à suivre ces clics, les inclut dans les rapports et peut les utiliser dans des [expériences de contenu](../content-management/content-experiment.md) si vous les exécutez sur le message.
+Lorsque le suivi des liens est activé pour votre message, [!DNL Journey Optimizer] continue à suivre ces clics, les inclut dans les rapports et peut les utiliser dans des [expériences de contenu](../content-management/content-experiment.md) si vous les exécutez sur le message.
 
 Cette section fournit des modèles d’implémentation courants pour les liens profonds. Votre configuration exacte dépend de l&#39;architecture et de la structure de routage de votre application.
 
@@ -278,7 +304,7 @@ Valeurs de paramètre de requête codées par URL. Cela réduit les problèmes d
 
 * Créez un BAT avec un lien profond, cliquez dessus sur les appareils iOS et Android (scénarios installés et non installés).
 * Valider :
-   * La valeur du lien de l’e-mail final (hôte/chemin/requête)
+   * La valeur du lien e-mail ou SMS final (hôte/chemin/requête)
    * Association au niveau du système d’exploitation (si vous utilisez des liens universels/d’application)
    * Le résultat du routage in-app
 

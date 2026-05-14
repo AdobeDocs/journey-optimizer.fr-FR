@@ -5,10 +5,22 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+TQID: https://experienceleague.adobe.com/I7beoyvv-vzc39XjLlPl8iIpxtxOmSkD5AtxW0bCCwA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 59%
+source-wordcount: 362
+ht-degree: 60%
 
 ---
 

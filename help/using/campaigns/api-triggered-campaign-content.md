@@ -9,9 +9,22 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
-workflow-type: ht
-source-wordcount: '424'
+TQID: https://experienceleague.adobe.com/bGwpeOAxkX8JWh2c-CNrq7-L1YphGT0aoQvUJBia4IE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 428
 ht-degree: 100%
 
 ---
@@ -31,7 +44,7 @@ Le processus de création du contenu dépend du canal que vous avez sélectionn�
 <div align="center"><a href="../email/create-email.md"><strong>E-mail</strong></a></div></td>
 <td><a href="../sms/create-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
-<td><a href="../push/create-push.md"><img alt="Notification push" src="../channels/assets/do-not-localize/push.png"></a>
+<td><a href="../push/create-push.md"><img alt="notification push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>Notification push</strong></a></div></td>
 </tr></table>
 
