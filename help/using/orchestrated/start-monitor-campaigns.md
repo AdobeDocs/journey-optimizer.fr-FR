@@ -8,9 +8,14 @@ feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1604
@@ -76,7 +81,7 @@ Si vous avez ajouté des activités de canal dans la zone de travail, vous pouve
 >Avant de cliquer sur **[!UICONTROL Publier]**, confirmez ce qui suit :
 >* La campagne s’est exécutée correctement en mode test sans erreur dans les [logs](#logs-tasks).
 >* Le contenu du message a été prévisualisé à l’aide de l’option **[!UICONTROL Simuler du contenu]**.
->* Le [ planning est configuré ](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
+>* Le [&#x200B; planning est configuré &#x200B;](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
 >* Vous avez examiné le comportement [confirmation d’envoi](#confirm-sending) : pour les campagnes non récurrentes, aucun message n’est envoyé tant que vous n’avez pas explicitement approuvé l’envoi après la publication.
 
 ## Publier la campagne {#publish}
