@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/QtGuPZnO3Bka3GI9JaMjBJmho4Cry5qgl61h3Ohe3ek
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: beb7a3c1-66ab-4786-b879-7621375b3c40id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: 2241
 ht-degree: 96%
 
 ---
@@ -218,7 +225,7 @@ Le tableau **[!UICONTROL Domaines d’e-mails]** propose une répartition détai
 
 * **[!UICONTROL Diffusions uniques]** : nombre de profils uniques ayant reçu au moins un e-mail.
 
-* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mails, prenant en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mail, prenant en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
 * **[!UICONTROL Clics uniques]** : nombre de profils uniques ayant cliqué sur au moins un élément de contenu de l’e-mail.
 
@@ -226,7 +233,7 @@ Le tableau **[!UICONTROL Domaines d’e-mails]** propose une répartition détai
 
 * **[!UICONTROL Erreurs d’envoi unique]** : nombre de profils uniques ayant rencontré au moins une erreur d’envoi lors du processus sortant.
 
-* **[!UICONTROL Exclusions d’envois uniques]** : nombre de profils uniques exclus de la réception des messages en raison de règles d’éligibilité, de la segmentation de l’audience ou du statut de profil.
+* **[!UICONTROL Exclusions d’envoi unique]** : nombre de profils uniques exclus de la réception des messages en raison de règles d’éligibilité, de la segmentation de l’audience ou du statut du profil.
 
 +++
 
@@ -272,7 +279,7 @@ Le tableau **[!UICONTROL Objets des e-mails]** présente une vue d’ensemble co
 
 * **[!UICONTROL Taux d’ouvertures]** : pourcentage d’ouvertures d’e-mails par rapport au nombre total d’e-mails diffusés, y compris les ouvertures multiples par le même profil.
 
-* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mails qui prend en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mail, prenant en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
 +++
 

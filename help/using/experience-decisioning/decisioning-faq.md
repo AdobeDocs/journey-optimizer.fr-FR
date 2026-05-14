@@ -7,10 +7,16 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/rqXcnwygtE6Q8Fi1Lg3EgCqIG9wPwmrzgDvtaiZPavA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 99%
+source-wordcount: 858
+ht-degree: 98%
 
 ---
 
@@ -24,8 +30,8 @@ Cette page fournit des réponses aux questions fréquentes sur les fonctionnalit
 
 Une offre est limitée dès qu’**une seule condition est remplie**. Lorsqu’il existe plusieurs règles de limitation, l’offre cesse d’être affichée une fois qu’une règle atteint son seuil.
 
-**Exemple :**
-Si vous définissez deux règles de limitation pour une offre :
+**Exemple :**
+Si vous définissez deux règles de limitation pour une offre :
 * 5 fois par profil et par semaine
 * 100 fois au total pour les utilisateurs et utilisatrices
 

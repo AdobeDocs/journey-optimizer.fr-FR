@@ -9,9 +9,14 @@ level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/sNFI7l-UMGmRV2wRcvYa56tILLoWFxXeG3N5txgrUiw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: 545
 ht-degree: 100%
 
 ---
@@ -92,7 +97,7 @@ Les exemples ci-dessous utilisent la payload d’événement affichée en haut d
 
 ### Exemple 1
 
-Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément. 
+Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -138,7 +143,7 @@ _`<listExpression>.last(<condition>)`_
 
 ### Exemple 1
 
-Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
+Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
 
 
 ```json
@@ -149,7 +154,7 @@ Le résultat est `token_1`.
 
 ### Exemple 2
 
-Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
+Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
 
 
 ```json

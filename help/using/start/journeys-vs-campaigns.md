@@ -10,9 +10,16 @@ level: Beginner
 keywords: parcours, campagne, orchestré, comparaison, choisir, décision, workflow, temps réel, lot, orchestration, à plusieurs étapes, planifié, déclenché par API, piloté par événement
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: 1816
 ht-degree: 59%
 
 ---
@@ -34,7 +41,7 @@ Ce guide vous aide à choisir en fonction du style d’exécution, des besoins e
 
 >[!TIP]
 >
->**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez **&#x200B;**. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API**. Besoin de données multi-entités, de décomptes exacts ou d’une zone de travail par lots ? Utilisez **Campagnes orchestrées**.
+>**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez ****. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API**. Besoin de données multi-entités, de décomptes exacts ou d’une zone de travail par lots ? Utilisez **Campagnes orchestrées**.
 
 ## Comparaison détaillée {#detailed-comparison}
 
@@ -64,7 +71,7 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 ### Étape 1 : quelle est votre exigence d’exécution ?
 
 **Réactions individuelles en temps réel au comportement de la clientèle ?**
-→ **Utiliser des parcours**
+→ **Utiliser des Parcours**
 * Les profils doivent progresser à leur propre rythme.
 * Logique conditionnelle basée sur le comportement
 * Le contexte en temps réel est essentiel.
@@ -112,7 +119,7 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 * Les activités d’attente créent un timing personnalisé.
 * L’embranchement conditionnel crée des chemins uniques par profil.
 * Écoute active intégrée : l’inaction pendant une période définie peut également déclencher l’étape suivante, et pas seulement des événements explicites. [En savoir plus sur les activités d’attente](../building-journeys/wait-activity.md)
-* Limitation de la fréquence : contrôlez la fréquence à laquelle un client peut saisir ou recevoir des messages d&#39;un parcours. [En savoir plus sur la limitation du parcours &#x200B;](../conflict-prioritization/journey-capping.md)
+* Limitation de la fréquence : contrôlez la fréquence à laquelle un client peut saisir ou recevoir des messages d&#39;un parcours. [En savoir plus sur la limitation du parcours ](../conflict-prioritization/journey-capping.md)
 * Fractionnement de l’audience par pourcentage : divisez les profils en groupes aléatoires basés sur un pourcentage pour exécuter des expériences A/B sur plusieurs chemins de parcours. [En savoir plus sur le partage en pourcentage](../building-journeys/condition-activity.md)
 * Mode test : validation de la logique de parcours et de la diffusion des messages avec des profils de test avant publication en direct. [En savoir plus sur le mode test](../building-journeys/testing-the-journey.md)
 
@@ -242,7 +249,7 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 
 Oui. De nombreuses entreprises utilisent les quatre approches pour différents scénarios :
 
-* **&#x200B;**&#x200B;pour l’engagement comportemental en temps réel
+* **** pour l’engagement comportemental en temps réel
 * **Campagnes d’action** pour les communications de diffusion planifiées
 * **Campagnes déclenchées par API** pour les messages transactionnels
 * **Campagnes orchestrées** pour des campagnes par lots complexes et gourmandes en données
@@ -289,7 +296,7 @@ Vous souhaitez commencer à créer ? Consultez la documentation détaillée rel
 
 >[!MORELIKETHIS]
 >
->* [comparaison des types de Parcours &#x200B;](../building-journeys/journey.md#journey-types-comparison)
+>* [comparaison des types de Parcours ](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [FAQ sur les parcours](../building-journeys/journey-faq.md)
 >* [FAQ sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)

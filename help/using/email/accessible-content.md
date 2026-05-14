@@ -9,10 +9,17 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/aV2B02I-zFMavzM3OuLJnihia0YOenMn3FXsJXfpdJs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 99%
+source-wordcount: 1696
+ht-degree: 96%
 
 ---
 
@@ -30,7 +37,7 @@ Les bonnes pratiques relatives à la conception de contenu accessible avec [!DNL
 >
 >Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos pages de destination conçus avec [!DNL Journey Optimizer].
 >
->D’un autre côté, l’accessibilité de l’interface [!DNL Journey Optimizer] elle-même est détaillée dans [cette section](../start/accessibility.md). 
+>D’un autre côté, l’accessibilité de l’interface [!DNL Journey Optimizer] elle-même est détaillée dans [cette section](../start/accessibility.md).
 
 ## Garantir la lisibilité du texte {#text-readability}
 
@@ -96,7 +103,7 @@ Utilisez le composant **[!UICONTROL Image]** pour fournir un texte secondaire po
 Pour un texte secondaire efficace dans les produits numériques, respectez les consignes suivantes :
 
 * Décrivez l’objectif de l’image de manière concise et contextuelle.
-* Évitez les expressions redondantes telles que « Image de... » et utilisez un texte secondaire vide pour les images décoratives.
+* Évitez les expressions redondantes telles que « Image de ... ». et utilisez du texte de remplacement vide pour les images décoratives.
 * Pour les icônes significatives, fournissez des libellés significatifs. Pour les images complexes, utilisez un bref texte secondaire ainsi qu’une description plus détaillée ailleurs.
 
 ## Utiliser un format lisible {#readable-format}
@@ -228,8 +235,8 @@ Ajoutez `role="presentation"` (ou `role="none"`) aux tableaux de mise en page po
 </table>
 ```
 
-Les lecteurs d’écran lisent :
-« Bonjour tout le monde. Bienvenue dans notre newsletter. » *(Aucune mention de lignes, colonnes ni tableau)*
+Les lecteurs d’écran lisent :
+« Bonjour le monde. Bienvenue dans notre newsletter. » *(Aucune mention de lignes, colonnes ni tableau)*
 
 +++
 
@@ -265,8 +272,8 @@ Les lecteurs d’écran lisent :
 </table> 
 ```
 
-Les lecteurs d’écran lisent :
-« Tableau avec 2 colonnes et 3 lignes. »
+Les lecteurs d’écran lisent :
+« Tableau avec 2 colonnes et 3 lignes. »
 
 « Nom, Alice. Score, 95. »
 
@@ -286,7 +293,7 @@ Utilisez le Concepteur d’e-mail pour [ajouter un lien](message-tracking.md#ins
 
 ![](assets/accessible-link.png){width="70%"}
 
-+++Exemple - Lien correct (descriptif) : 
++++Exemple : bon lien (descriptif) : 
 
 ```
 <p>Learn more in the  
@@ -296,8 +303,8 @@ Utilisez le Concepteur d’e-mail pour [ajouter un lien](message-tracking.md#ins
 </p>
 ```
 
-Les lecteurs d’écran lisent :
-« Lien, notes de mise à jour d’août. »
+Les lecteurs d’écran lisent :
+« Lien, notes de mise à jour d’août. »
 
 +++
 
@@ -311,8 +318,8 @@ Les lecteurs d’écran lisent :
 </p>
 ```
 
-Les lecteurs d’écran lisent :
-« Lien, cliquez ici. » *(Ne fournit aucun contexte en dehors de l’ordre de lecture.)*
+Les lecteurs d’écran lisent :
+« Lien, cliquez ici. » *(Ne fournit aucun contexte en dehors de l’ordre de lecture.)*
 
 +++
 

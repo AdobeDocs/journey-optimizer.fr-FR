@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Mise à jour des collections
-description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par des responsables marketing, telles que la catégorie de l’offre.
 feature: Decision Management, API, Collections
 badge: label="Hérité" type="Informative"
 topic: Integrations
@@ -10,10 +10,14 @@ role: Developer
 level: Experienced
 exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/6IMCGBo0Mi1Xokge4f7i9QBfdoVikblWSOuT76Ziapw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 188
+ht-degree: 100%
 
 ---
 
@@ -26,7 +30,7 @@ ht-degree: 0%
 
 Vous pouvez modifier ou mettre à jour une collection en adressant une requête PATCH à l’API [!DNL Offer Library].
 
-Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
+Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
 ## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
@@ -37,7 +41,7 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}

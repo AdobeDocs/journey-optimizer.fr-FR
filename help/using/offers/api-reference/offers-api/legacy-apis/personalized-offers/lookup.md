@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Rechercher une offre personnalisée
+title: Recherche d’une offre personnalisée
 description: Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 feature: Decision Management, API
 badge: label="Hérité" type="Informative"
@@ -10,14 +10,18 @@ role: Developer
 level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/A-MMbGFatRaVRwQnKSSwyUNpbyOHsAbNgQEHMi7Xu-4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 196
+ht-degree: 100%
 
 ---
 
-# Rechercher une offre personnalisée {#look-up-personalized-offer}
+# Recherche d’une offre personnalisée {#look-up-personalized-offer}
 
 >[!TIP]
 >
@@ -40,7 +44,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{CONTAINER_ID}` | Conteneur où se trouvent les offres personnalisées. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Définit le schéma associé aux offres personnalisées. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
 | `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres « id » et « name » ne peuvent pas être utilisés ensemble. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Discount offer` |
+| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères jokers peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Discount offer` |
 
 **Requête**
 

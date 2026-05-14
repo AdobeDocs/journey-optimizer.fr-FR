@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Créer une offre personnalisée
+title: Création d’une offre personnalisée
 description: Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 feature: Decision Management, API
 badge: label="Hérité" type="Informative"
@@ -10,10 +10,15 @@ role: Developer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/t21EEquJRIgwQQ-YzlcnqDeQMGvYvEjReAFX3YlLuaY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 180
+ht-degree: 100%
 
 ---
 
@@ -28,7 +33,7 @@ Une offre personnalisée est un message marketing personnalisable basé sur des 
 
 Vous pouvez créer des offres personnalisées en effectuant une requête POST à l’API [!DNL Offer Library].
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de contenu* dans l’en-tête de la requête :
 
@@ -36,7 +41,7 @@ Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de 
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 POST /{ENDPOINT_PATH}/offers?offer-type=personalized

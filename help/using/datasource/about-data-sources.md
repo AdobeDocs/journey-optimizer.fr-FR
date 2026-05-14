@@ -9,10 +9,17 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: données, source, parcours, plateforme
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 42%
+source-wordcount: 917
+ht-degree: 43%
 
 ---
 
@@ -24,7 +31,7 @@ ht-degree: 42%
 >abstract="La configuration d’une source de données est toujours effectuée par un utilisateur technique. Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple : définition de conditions, données de paramètres et de personnalisation dans les actions, définition d’attente personnalisée, définition de fuseau horaire."
 
 >[!TIP]
->Vous découvrez la gestion des données dans Journey Optimizer ? Commencez par la présentation de la [Prise en main de la gestion des données](../data/gs-data.md) pour comprendre les schémas, les jeux de données, les identités et le flux de données avant de configurer des sources de données.
+>Vous découvrez la gestion des données dans Journey Optimizer ? Commencez par la présentation de la [Prise en main de la gestion des données](../data/gs-data.md) pour comprendre les schémas, les jeux de données, les identités et le flux de données avant de configurer des sources de données.
 
 Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple :
 
@@ -54,7 +61,7 @@ Pour chaque source de données, vous définissez les informations à récupérer
 
 ## Choisir votre stratégie d’accès aux données {#data-access-strategy}
 
-Avant de configurer une source de données, réfléchissez à l’approche la mieux adaptée à votre cas d’utilisation. Trois options sont disponibles, chacune avec différents compromis en termes de persistance, d’enrichissement du profil et de réutilisation. Pour obtenir des informations détaillées sur ces options, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/fr/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Avant de configurer une source de données, réfléchissez à l’approche la mieux adaptée à votre cas d’utilisation. Trois options sont disponibles, chacune avec différents compromis en termes de persistance, d’enrichissement du profil et de réutilisation. Pour obtenir des informations détaillées sur ces options, consultez [Bonnes pratiques relatives aux parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Option 1 — Accès aux données externes par le biais d’actions personnalisées (pas de lac de données)**
 
@@ -111,5 +118,5 @@ Pour plus d’informations sur la configuration d’une source de données Adobe
 
 Comprenez ce quʼest une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416634?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

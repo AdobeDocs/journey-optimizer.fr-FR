@@ -7,9 +7,14 @@ topic: Content Management
 description: Nouvelle interface de parcours
 hide: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/-QKSnBRN9yPYEq5ay9wD-uf4lLduJqmtlFWDnLYt1gk
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: 561
 ht-degree: 2%
 
 ---
@@ -50,7 +55,7 @@ Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateu
 
 ## Amélioration de la conception de la zone de travail de parcours
 
-Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **&#x200B;**&#x200B;nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
+Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **** nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
 
 ![](assets/new-canvas3.gif)
 

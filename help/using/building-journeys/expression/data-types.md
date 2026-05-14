@@ -9,9 +9,13 @@ level: Experienced
 keywords: expression, données, type de données, parcours
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '616'
+TQID: https://experienceleague.adobe.com/0UKY3G4hyMnSkzh8wlMx-yQ1yymKjs6FuIBdGo1SJqc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 671
 ht-degree: 100%
 
 ---
@@ -245,7 +249,7 @@ toDateTime("2023-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## durée {#duration}
+## duration {#duration}
 
 **Description**
 

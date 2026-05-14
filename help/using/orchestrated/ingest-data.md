@@ -5,13 +5,15 @@ title: Étapes de configuration
 description: Découvrez comment insérer des données dans Adobe Experience Platform à partir de sources prises en charge telles que SFTP, l’espace de stockage dans le cloud ou des bases de données.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/jXA5I4NsV459grMkrAD-1AVugey6Uw7aViNO72oKtQw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 94%
+source-wordcount: 815
+ht-degree: 95%
 
 ---
-
 
 # Ingérer des données {#ingest-data}
 
@@ -45,7 +47,7 @@ Les sources suivantes sont prises en charge pour une utilisation dans des campag
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Entrepôts de données cloud</td>
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
@@ -85,7 +87,7 @@ Si le client ou la cliente souhaite supprimer uniquement des enregistrements dan
 
   Si une licence est disponible, **Data Distiller** peut être utilisé pour prendre en charge les opérations de suppression directement dans Adobe Experience Platform, indépendamment du système source.
 
-  [En savoir plus sur Data Distiller](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/overview)
+  [En savoir plus sur la Distiller de données](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/overview)
 
 ## Configurer un flux de données
 
@@ -107,7 +109,7 @@ Cet exemple montre comment configurer un flux de données qui ingère des donné
 
 1. Depuis la page **[!UICONTROL Détails du jeu de données]**, cochez **[!UICONTROL Activer la capture des données modifiées]** pour afficher uniquement les jeux de données mappés à des schémas relationnels et contenant à la fois une clé primaire et un descripteur de version.
 
-[En savoir plus sur les directives relatives à l’hygiène des données des schémas relationnels](#cdc)
+   [En savoir plus sur les directives relatives à l’hygiène des données des schémas relationnels](#cdc)
 
    >[!IMPORTANT]
    >

@@ -5,13 +5,16 @@ title: Créer une dimension de ciblage
 description: Découvrez comment mapper un schéma relationnel au profil client
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+TQID: https://experienceleague.adobe.com/6IPCwJE4-ktVWFENfoVe25VqPV-OZ7J-oVq4gmOsAz4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 86%
+source-wordcount: 466
+ht-degree: 85%
 
 ---
-
 
 # Configurer une dimension de ciblage {#configuration}
 
@@ -53,7 +56,7 @@ Commencez par configurer l’orchestration de campagne en mappant un schéma rel
 
    Dans cet exemple, le profil client est lié à plusieurs abonnements, chacun étant représenté par un `crmID` unique dans le schéma `Recipient`. En définissant la **[!UICONTROL Dimension cible]** pour utiliser le schéma `Recipient` et son identité `crmID`, vous pouvez envoyer des messages au niveau de l’abonnement, plutôt qu’au niveau du profil client principal, en vous assurant que chaque contrat ou ligne reçoit son propre message personnalisé.
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition#identity)
+   [En savoir plus dans la documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 

@@ -8,9 +8,14 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: 771
 ht-degree: 11%
 
 ---
@@ -41,7 +46,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB E-mail]
 
-1. Ouvrez l’éditeur **Personalization** puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -61,7 +66,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB SMS]
 
-1. Ouvrez l’éditeur **Personalization** puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -69,7 +74,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB Notification push]
 
-1. Ouvrez l’éditeur **Personalization** puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -91,7 +96,7 @@ Le code de la politique de décision est ajouté. Vous pouvez désormais utilise
 
 Une fois que vous avez ajouté le code d’une politique de décision dans votre contenu, tous les attributs des éléments de décision renvoyés peuvent être personnalisés. [Découvrez comment utiliser la personnalisation](../personalization/personalize.md).
 
-Les attributs sont stockés dans le schéma de catalogue [&#x200B; Offres &#x200B;](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
+Les attributs sont stockés dans le schéma de catalogue [ Offres ](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
 * **Attributs personnalisés** : dossier `_\<imsOrg\>`
 * **Attributs standard** : dossier `_experience`
 

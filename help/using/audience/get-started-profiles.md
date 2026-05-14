@@ -7,10 +7,17 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 91%
+source-wordcount: 537
+ht-degree: 77%
 
 ---
 
@@ -22,7 +29,7 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
-**Profil client en temps réel** : intégrez les attributs et les événements clients provenant de sources en ligne, hors ligne et pseudonymes dans un profil unique et unifié.Utilisez le profil pour impliquer les clientes et clients avec des expériences personnalisées en temps réel sur plusieurs points de contact.
+**Real-time Customer Profile&#x200B;** - Intégrez les attributs et les événements du client provenant de sources en ligne, hors ligne et pseudonymes dans un profil unique et unifié. &#x200B;Utilisez le profil pour impliquer les clients avec des expériences personnalisées en temps réel sur plusieurs points de contact. &#x200B;
 
 **Ingestion de données** : connectez-vous à diverses sources de données pour ingérer des données comportementales, transactionnelles, financières et opérationnelles. Ingérez des données en temps réel ou par le biais de chargements par lots pour maintenir les profils à jour en permanence. Les profils ne sont pas créés directement dans l’interface [!DNL Journey Optimizer] ; ils sont automatiquement créés ou mis à jour dans Adobe Experience Platform lors de l’ingestion des données.
 
@@ -30,15 +37,15 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 >
 >Lors de l’ingestion de données, les e-mails sont sensibles à la casse. Cela signifie que des profils peuvent être créés en double (par exemple, un profil pour John.Greene@luma.com, un autre pour john.greene@luma.com) et utilisés lors du ciblage du destinataire correspondant dans vos parcours et campagnes [!DNL Journey Optimizer].
 
-**Graphique d’identité** : combinez des données provenant de différentes sources à l’aide d’identités de clientes et clients, telles que des identifiants de fidélité ou des identifiants de système CRM.Créez une vue d’ensemble exhaustive du client ou de la cliente en mappant les relations entre les différentes identités dans les jeux de données d’une marque.
+**Graphique d’identités** - Combinez des données provenant de différentes sources à l’aide des identités du client, telles que les identifiants de fidélité ou les identifiants système CRM. &#x200B;Créer une vue d’ensemble complète du client en mappant les relations entre les différentes identités dans les jeux de données d’une marque. &#x200B;
 
-**Engagement de la cliente ou du client** : utilisez le profil client en temps réel pour offrir des expériences contextuelles et personnalisées, telles que des offres et des messages ciblés.Interagissez avec les clients et les clientes sur différents canaux, notamment les campagnes marketing, le service clientèle et les mises à jour transactionnelles.
+**Engagement client** - Utilisez le profil client en temps réel pour offrir des expériences contextuelles personnalisées, telles que des offres et des messages ciblés. &#x200B;Faites participer les clients sur divers canaux, notamment les campagnes marketing, le service clientèle et les mises à jour transactionnelles. &#x200B;
 
 **Partage de données** : partagez des profils clients avec les principaux fournisseurs d’espace de stockage dans le cloud tels qu’Amazon Web Services, Microsoft Azure et Google Cloud. Utilisez des profils partagés pour la création de rapports, l’archivage données ou une analyse plus approfondie avec des outils de Business Intelligence.
 
 >[!MORELIKETHIS]
 >
->* [Prise en main de la gestion des données dans Journey Optimizer](../data/gs-data.md)
+>* [Commencer avec la gestion des données dans Journey Optimizer](../data/gs-data.md)
 >* [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}
 >* [Mécanismes de sécurisation par défaut pour les données de profil client en temps réel et la segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"}
 >* [Documentation sur l’ingestion de données](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home){target="_blank"}
@@ -59,4 +66,4 @@ Vous pouvez rassembler des données issues de plusieurs sources et les combiner 
 
 Découvrez comment Adobe Experience Platform assemble et met à jour des profils clients en temps réel et la façon dont vous pouvez y accéder et les utiliser.
 
->[!VIDEO](https://video.tv.adobe.com/v/31639?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

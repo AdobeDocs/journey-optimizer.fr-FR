@@ -10,9 +10,16 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d08afb72-92f6-4856-88e3-11ec34313c2fid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: 1767
 ht-degree: 63%
 
 ---
@@ -68,7 +75,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Politique de fusion"
 >abstract="La politique de fusion est automatiquement récupérée à partir de l’audience sélectionnée et appliquée dans l’ensemble du parcours."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="En savoir plus sur les politiques de fusion"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="En savoir plus sur les politiques de fusion"
 
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
@@ -223,4 +230,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

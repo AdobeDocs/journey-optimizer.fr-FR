@@ -9,9 +9,16 @@ badge: label="Disponibilité limitée" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/yMcftppDHaPWoP51PuYrV9OrzZxyrUcRwgoOvnlcbho
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: 1334
 ht-degree: 99%
 
 ---
@@ -220,4 +227,4 @@ Oui, GenStudio est conçu pour la collaboration. Plusieurs membres de l’équip
 
 Découvrez le processus d’export d’un modèle d’e-mail de Journey Optimizer vers GenStudio for Performance Marketing, de création d’e-mails conformes à la marque à l’aide du modèle dans GenStudio et de réimport transparent dans Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456051/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

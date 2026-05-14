@@ -7,9 +7,16 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: e311344a9fd11aca5430c31b257f8433c2b9c85b
+TQID: https://experienceleague.adobe.com/i5xKfvLh9J1Ec3ux19XJhWDGhAdQ2ZVIbvyMk2W6UW4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: dcce7166-436e-4b78-aa5f-c7012ff3a9e3id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: 1007
 ht-degree: 99%
 
 ---
@@ -120,7 +127,7 @@ En savoir plus sur [Journey Optimizer + Campaign Standard](../building-journ
 
 Utilisez les modules Adobe Journey Optimizer dans Adobe Workfront pour créer, lire, mettre à jour ou supprimer des enregistrements, ou effectuez un appel d’API personnalisé vers l’API Adobe Journey Optimizer.
 
-Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=fr&lang=fr){target="_blank"}.
+Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?lang=fr){target="_blank"}.
 
 En savoir plus sur Journey Optimizer + Adobe Workfront [dans la documentation Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=fr){target="_blank"}.
 

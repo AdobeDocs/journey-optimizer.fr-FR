@@ -7,9 +7,16 @@ feature: Line, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
-source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
+TQID: https://experienceleague.adobe.com/yDRCVzfdPGXisgxJ59UT8HYsdXI82H07Ol--YP7wmE0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: 365
 ht-degree: 100%
 
 ---

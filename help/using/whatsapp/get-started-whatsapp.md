@@ -8,10 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 409
+ht-degree: 94%
 
 ---
 
@@ -21,7 +27,7 @@ Vous pouvez désormais envoyer des messages WhatsApp directement par le biais de
 
 * Dans un **parcours**. Créez un parcours, ajoutez une activité **WhatsApp** et définissez les paramètres de base, puis accédez au volet de droite **[!UICONTROL Actions : WhatsApp]** pour créer le contenu du message WhatsApp. Découvrez comment créer un parcours sur [cette page](../building-journeys/journey-gs.md).
 
-* Dans une **Campagne**. Créez une campagne, sélectionnez **WhatsApp** comme action et définissez les paramètres de base, puis modifiez le contenu du message WhatsApp à envoyer. Découvrez comment créer une [campagne d’action](../campaigns/campaign-action.md#action-campaign-action), une [campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
+* Dans une **campagne**. Créez une campagne, sélectionnez **WhatsApp** comme action et définissez les paramètres de base, puis modifiez le contenu du message WhatsApp à envoyer. Découvrez comment créer une [campagne d’action](../campaigns/campaign-action.md#action-campaign-action), une [campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
@@ -30,15 +36,15 @@ Vous pouvez désormais envoyer des messages WhatsApp directement par le biais de
 Pour intégrer WhatsApp à Journey Optimizer, vous avez besoin des éléments suivants :
 
 * Compte Meta Business Manager
-* [Compte professionnel WhatsApp avec nom d’expéditeur ou d’expéditrice et numéro de téléphone vérifiés](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [WhatsApp Business Account avec nom d&#39;expéditeur et numéro de téléphone vérifié](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [Jeton d’autorisation utilisateur avec les autorisations appropriées](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Modèles Meta approuvés](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 Vous devez également prendre connaissance des points suivants avant de procéder à l’intégration :
 
 * [Règles de contenu WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
-* [Conformité aux politiques Meta](https://www.whatsapp.com/legal)
-* [Limites de conversation sur une période de 24 heures](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Conformité aux politiques de Meta](https://www.whatsapp.com/legal)
+* [Limites de conversation sur 24 heures](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
 
 ## Limites {#limitations}
 
@@ -58,7 +64,7 @@ La vidéo ci-dessous montre comment intégrer WhatsApp en tant que canal natif d
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470246?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

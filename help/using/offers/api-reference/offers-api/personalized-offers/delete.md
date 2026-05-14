@@ -10,21 +10,25 @@ role: Developer
 level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/q2fFLSdcuNPwgSB--vYHbpS5xAYcoL-v6pAbQhtl69U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 137
+ht-degree: 100%
 
 ---
 
-# Suppression d’une offre personnalisée {#delete-personalized-offer}
+# Supprimer une offre personnalisée {#delete-personalized-offer}
 
 >[!TIP]
 >
 >La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Il peut parfois être nécessaire de supprimer (DELETE) une offre personnalisée. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant l’identifiant de l’offre personnalisée que vous souhaitez supprimer.
+Il peut parfois s’avérer nécessaire de supprimer (DELETE) une offre personnalisée. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant l’identifiant de l’offre personnalisée que vous souhaitez supprimer.
 
 **Format d’API**
 

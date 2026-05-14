@@ -9,9 +9,16 @@ level: Intermediate
 keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
+TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: 1008
 ht-degree: 95%
 
 ---
@@ -61,7 +68,7 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 * Après la dernière occurrence d’un parcours récurrent basé sur une audience.
 * Le parcours est fermé manuellement par le biais du bouton [**[!UICONTROL Fermer aux nouvelles entrées]**](#close-to-new-entrances).
 
-Après la **temporisation globale de 91 jours**, le statut d’un parcours de lecture d’audience passe à **Terminé**. Ce comportement est défini uniquement sur 91 jours, car toutes les informations relatives aux profils qui ont rejoint le parcours sont supprimées 91 jours après leur entrée. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Elles quittent le parcours après la temporisation de 91 jours. En savoir plus sur [la temporisation globale d’un parcours](../building-journeys/journey-properties.md#global_timeout).
+Après la **temporisation globale de 91 jours**, le statut d’un parcours de lecture d’audience passe à **Terminé**. Ce comportement est défini uniquement sur 91 jours, car toutes les informations relatives aux profils qui ont rejoint le parcours sont supprimées 91 jours après leur entrée. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Elles quittent le parcours après la temporisation de 91 jours.  En savoir plus sur [la temporisation globale d’un parcours](../building-journeys/journey-properties.md#global_timeout).
 
 >[!TIP]
 >
@@ -127,4 +134,4 @@ Vous pouvez également réaliser les opérations suivantes :
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) : configurez la suppression automatique des profils des parcours.
-* [Mettre en pause un parcours &#x200B;](journey-pause.md) : arrêtez temporairement l’exécution du parcours.
+* [Mettre en pause un parcours ](journey-pause.md) : arrêtez temporairement l’exécution du parcours.

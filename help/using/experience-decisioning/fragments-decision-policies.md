@@ -1,19 +1,24 @@
 ---
-title: Utilisation de fragments dans les politiques de décision
+title: Utiliser les fragments dans les politiques de décision
 description: Découvrez comment exploiter les fragments dans les politiques de décision
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
+TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2225d3c796e777f459bebc35a5c33ce1a0635f42
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 31%
+source-wordcount: 752
+ht-degree: 32%
 
 ---
 
-# Utilisation de fragments dans les politiques de décision {#fragments}
+# Utiliser les fragments dans les politiques de décision {#fragments}
 
 Si votre politique de décision contient des éléments de décision, y compris des fragments, vous pouvez utiliser ces fragments lors de la création d’un message, dans la politique de décision. [En savoir plus sur les fragments](../content-management/fragments.md)
 
@@ -122,4 +127,3 @@ Si votre politique de décision est admissible pour deux offres et que chacune d
 >[!NOTE]
 >
 >Vous pouvez toujours marquer un fragment comme obligatoire en définissant l’indicateur `required` sur `true`. Cependant, si un fragment est temporairement manquant, cela peut entraîner l’échec du parcours ou du rendu de campagne.
-

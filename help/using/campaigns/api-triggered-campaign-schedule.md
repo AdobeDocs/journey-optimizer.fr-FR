@@ -9,9 +9,14 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+TQID: https://experienceleague.adobe.com/4cCtvRATLk-gNyMcY-jESte82DKpgVbhA75pE4fNKmQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: 316
 ht-degree: 100%
 
 ---
@@ -30,7 +35,7 @@ L’option **[!UICONTROL Fin de la campagne]** vous permet de spécifier le mome
 
 >[!NOTE]
 >
->Lors de la planification de campagnes dans [!DNL Adobe Journey Optimizer], vérifiez que la date/l’heure de début correspond à la première diffusion souhaitée.
+>Lors de la planification de campagnes dans [!DNL Adobe Journey Optimizer], assurez-vous que la date/l’heure de début correspond à la première diffusion souhaitée.
 
 ## Définir le contrôle du débit
 

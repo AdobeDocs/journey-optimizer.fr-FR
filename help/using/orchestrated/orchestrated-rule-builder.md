@@ -5,13 +5,14 @@ title: Utiliser le créateur de règles
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+TQID: https://experienceleague.adobe.com/-qNlZ2dLqShJwhcIlEe3a9W8eJ-JCoTt8AzT-DU-vJA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 340
 ht-degree: 90%
 
 ---
-
 
 # Utiliser le créateur de règles {#orchestrated-rule-builder}
 
@@ -43,4 +44,4 @@ Le créateur de règles fournit une zone de travail centrale où vous pouvez cr�
 
 ## Utiliser des filtres prédéfinis
 
-Les filtres prédéfinis vous permettent de réutiliser des requêtes enregistrées dans le créateur de règles, y compris des versions avec des paramètres. Pour une présentation complète de l’enregistrement, de l’application et de la gestion des filtres prédéfinis, voir [&#x200B; Utilisation de filtres prédéfinis](predefined-filters.md).
+Les filtres prédéfinis vous permettent de réutiliser des requêtes enregistrées dans le créateur de règles, y compris des versions avec des paramètres. Pour une présentation complète de l’enregistrement, de l’application et de la gestion des filtres prédéfinis, voir [ Utilisation de filtres prédéfinis](predefined-filters.md).

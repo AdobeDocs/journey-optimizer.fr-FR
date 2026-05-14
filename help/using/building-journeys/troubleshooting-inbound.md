@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Guide de dépannage pour les actions entrantes dans les parcours
-description: Découvrez comment déboguer et résoudre les problèmes liés aux actions entrantes dans parcours [!DNL Adobe Journey Optimizer]
+description: Découvrez comment déboguer et résoudre les problèmes liés aux actions entrantes dans  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
@@ -10,9 +10,16 @@ level: Intermediate
 keywords: actions entrantes, dépannage, parcours, débogage, aide autonome, vérification, erreurs
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/weaEAXaVmLAXbha8orPxj69zzbVUNLFiC-dhTrvdMpQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: 1809
 ht-degree: 95%
 
 ---
@@ -34,7 +41,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 Avant de commencer le dépannage :
 
-1. Configurez une session **Assurance**. Découvrez comment le faire dans la documentation d’[[!DNL Adobe Experience Platform] Assurance](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Configurez une session **Assurance**. Découvrez comment le faire dans la documentation d’[[!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Accédez au parcours contenant l’action entrante pour récupérer le nom du parcours et l’ID de version.
 
@@ -129,7 +136,7 @@ Pour déboguer le comportement d’Edge Network, procédez comme suit.
 
    Vous pouvez vérifier si le segment **joai** est présent dans la vue du profil du serveur de diffusion Edge Network en ouvrant l’élément **segmentsMap** de la section Profil et en recherchant la présence de l’identifiant de segment **joai**.
 
-1. Si le serveur de diffusion Edge Network ne voit pas le profil comme se trouvant dans le segment **joai** approprié, passez à l’étape suivante.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Si le serveur de diffusion Edge Network ne voit pas le profil comme se trouvant dans le segment **joai** approprié, passez à l’étape suivante.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Étape 3 : vérifier si l’appartenance à l’audience « joai » s’est propagée à Edge Network {#step-3}
 
@@ -216,7 +223,7 @@ Suivez les mêmes étapes de débogage que pour le [Scénario 1](#debugging-ste
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->

@@ -9,10 +9,16 @@ role: Developer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DhaXO7sS2zR9iewgoQjrN5ptYNpYSt97e-hflU2iq7c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: acc16deb-1d7f-4ec9-9ce3-6cdf355afde6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: 307
+ht-degree: 94%
 
 ---
 
@@ -26,7 +32,7 @@ Pour obtenir des commentaires sur des types d’événement autres que les évé
 
 >[!CAUTION]
 >
->Pour chaque type d’événement, assurez-vous que le schéma utilisé dans le jeu de données est associé au groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]**. [En savoir plus](create-dataset.md).
+>Pour chaque type d’événement, assurez-vous que le schéma utilisé dans le jeu de données est associé au groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]**. [En savoir plus](create-dataset.md)
 
 Vous trouverez ci-dessous les exigences du schéma que vous devez implémenter dans votre code JavaScript.
 
@@ -38,8 +44,8 @@ Vous trouverez ci-dessous les exigences du schéma que vous devez implémenter d
 
 Assurez-vous que le type d’événement et la source sont les suivants :
 
-**Type d’événement d’expérience :** `decisioning.propositionDisplay`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
+**Type d’événement d’expérience :** `decisioning.propositionDisplay`
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
 +++**Exemple de payload :**
 
 ```
@@ -72,8 +78,8 @@ Assurez-vous que le type d’événement et la source sont les suivants :
 
 Assurez-vous que le type d’événement et la source sont les suivants :
 
-**Type d’événement d’expérience :** `decisioning.propositionInteract`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
+**Type d’événement d’expérience :** `decisioning.propositionInteract`
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
 +++**Exemple de payload :**
 
 ```
@@ -113,4 +119,4 @@ Pour les événements personnalisés, le schéma utilisé dans le jeu de donnée
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Si vous utilisez le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com//docs/experience-platform/edge/home.html?lang=fr){target="_blank"} ou le [SDK mobile Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, la connexion est établie automatiquement.
+>Si vous utilisez le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/home){target="_blank"} ou le [SDK mobile Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, la connexion est établie automatiquement.

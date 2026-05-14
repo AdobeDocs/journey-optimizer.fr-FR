@@ -9,9 +9,16 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: analytics, intégration, sdk web, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: ht
-source-wordcount: '755'
+TQID: https://experienceleague.adobe.com/V5-w3dcJXFTUVIui1XODX0mfVboO781ts9w0X1uDIjc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c6fdb8b1-45ee-460a-a859-9031c59118b7id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 778
 ht-degree: 100%
 
 ---
@@ -22,9 +29,9 @@ Vous pouvez utiliser toutes les données d’événement comportementaux web que
 
 Pour que cela fonctionne avec Adobe Analytics, vous devez :
 
-1. activer la suite de rapports à utiliser ; [En savoir plus](#leverage-analytics-data).
-1. activer Journey Optimizer pour utiliser votre source de données Adobe Analytics ; [En savoir plus](#activate-analytics-data).
-1. ajouter un événement spécifique à votre parcours. [En savoir plus](#event-analytic).
+1. activer la suite de rapports à utiliser ; [En savoir plus](#leverage-analytics-data)
+1. activer Journey Optimizer pour utiliser votre source de données Adobe Analytics ; [En savoir plus](#activate-analytics-data)
+1. ajouter un événement spécifique à votre parcours. [En savoir plus](#event-analytic)
 
 >[!NOTE]
 >
@@ -100,10 +107,10 @@ Dans l’exemple ci-dessous, découvrez comment cibler les utilisateurs et utili
 1. Renseignez les paramètres de l’**[!UICONTROL événement]** :
 
    * **[!UICONTROL Nom]** : personnalisez le nom de votre **[!UICONTROL événement]**.
-   * **[!UICONTROL Type]** : choisissez le type **[!UICONTROL Unitaire]**. [En savoir plus](../event/about-events.md).
-   * **[!UICONTROL Type d’identifiant d’événement]** : choisissez le type d’identifiant d’événement **[!UICONTROL basé sur une règle]**. [En savoir plus](../event/about-events.md#event-id-type).
+   * **[!UICONTROL Type]** : choisissez le type **[!UICONTROL Unitaire]**. [En savoir plus](../event/about-events.md)
+   * **[!UICONTROL Type d’identifiant d’événement]** : choisissez le type d’identifiant d’événement **[!UICONTROL basé sur une règle]**. [En savoir plus](../event/about-events.md#event-id-type)
    * **[!UICONTROL Schéma]** : sélectionnez le schéma Analytics ou WebSDK [créé auparavant](#leverage-analytics-data).
-   * **[!UICONTROL Champs]** : sélectionnez les champs Payload. [En savoir plus](../event/about-creating.md#define-the-payload-fields).
+   * **[!UICONTROL Champs]** : sélectionnez les champs Payload. [En savoir plus](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Condition d’identifiant d’événement]** : définissez la condition pour identifier les événements qui déclencheront votre parcours.
 
      Ici, l’événement est déclenché lorsque les clientes et clients ajoutent un élément à leur panier.
@@ -135,6 +142,6 @@ Maintenant que l’événement est prêt, créez un parcours pour l’utiliser.
 
 1. Ajoutez ensuite une **[!UICONTROL action E-mail]**. Dans cet e-mail, les client(e)s seront invité(e)s à envoyer leurs commentaires sur la commande passée.
 
-Vous pouvez maintenant publier votre parcours. [En savoir plus](../building-journeys/publish-journey.md).
+Vous pouvez maintenant publier votre parcours. [En savoir plus](../building-journeys/publish-journey.md)
 
 ![](assets/ajo-aa_7.png)

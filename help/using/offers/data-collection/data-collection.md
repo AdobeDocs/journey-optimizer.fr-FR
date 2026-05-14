@@ -10,9 +10,14 @@ role: User, Developer
 level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/-xLnILnYeTkebBswLoIyVxKl61aaOWqX1vp6GaAoG0A
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: 433
 ht-degree: 100%
 
 ---
@@ -37,7 +42,7 @@ Le mode de collecte de données varie en fonction du type d’événement que vo
 
 ### Événements de décision
 
-Chaque fois que la gestion des décisions prend une décision, les informations relatives à cet événement de décision sont **automatiquement** envoyées à Adobe Experience Platform, et ce pour tous les canaux. [En savoir plus](../reports/get-started-events.md).
+Chaque fois que la gestion des décisions prend une décision, les informations relatives à cet événement de décision sont **automatiquement** envoyées à Adobe Experience Platform, et ce pour tous les canaux. [En savoir plus](../reports/get-started-events.md)
 
 ### Événements d’impression et de clic
 
@@ -53,7 +58,7 @@ Les **e-mails** créés par [!DNL Journey Optimizer] effectuent **automatiquemen
 
 Cependant, pour la **plupart des canaux**, les données relatives aux impressions et aux clics doivent être transmises à Adobe Experience Platform en tant qu’**événement d’expérience**. Cela inclut :
 
-* Les pages web utilisant le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com//docs/experience-platform/edge/home.html?lang=fr){target="_blank"} pour afficher les offres
+* Les pages web utilisant le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/home){target="_blank"} pour afficher les offres
 
 * Les applications mobiles utilisant le [SDK mobile Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"} pour afficher les offres - [En savoir plus](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * les kiosques,

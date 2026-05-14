@@ -7,10 +7,16 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/aDWJPWR3IA1EOvCxgqg9vf7KGgw3w4bzsJIZdaUphu4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 93%
+source-wordcount: 896
+ht-degree: 91%
 
 ---
 
@@ -149,7 +155,7 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez une
 
 1. Enregistrez vos modifications et [publiez votre campagne d’expérience basée sur le code](../code-based/publish-code-based.md).
 
-Après avoir exécuté l’expérience, suivez les performances de vos traitements de campagne avec le [rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> Vous pouvez ensuite interpréter les résultats de votre expérience. [Voici comment procéder](../content-management/get-started-experiment.md#interpret-results)
+Après avoir exécuté l’expérience, suivez les performances de vos traitements de campagne avec le [ rapport de campagne d’expérimentation ](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> Vous pourrez ensuite interpréter les résultats de votre expérience. [Voici comment procéder](../content-management/get-started-experiment.md#interpret-results)
 
 Si le résultat est concluant :
 

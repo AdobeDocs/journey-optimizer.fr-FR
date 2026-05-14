@@ -5,13 +5,16 @@ title: Créer votre première règle
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1912'
-ht-degree: 92%
+source-wordcount: 1912
+ht-degree: 93%
 
 ---
-
 
 # Créer votre première règle {#build-query}
 
@@ -93,7 +96,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
    | Compris dans | Renvoie les résultats compris dans les valeurs indiquées. Ces valeurs doivent être séparées par une virgule. | Date de naissance (@birthDate) est compris dans « 12/10/1979,12/10/1984 ». Les personnes destinataires nées entre ces dates sont alors renvoyées. |
    | Pas dans | Le principe est le même qu’avec l’opérateur Est compris dans. Ici, les personnes destinataires sont exclues en fonction des valeurs saisies. | La date de naissance (@birthDate) n’est pas incluse dans 12/10/1979,12/10/1984. Les personnes destinataires nées entre ces dates ne seront pas renvoyées. |
    | Est vide | Renvoie les résultats correspondant à une valeur vide dans la seconde colonne Valeur. | Mobile (@mobilePhone) est vide afin de retrouver toutes les personnes destinataires ne disposant pas d’un numéro de téléphone mobile. |
-   | N’est pas vide | Fonctionne à l’inverse de l’opérateur Est vide . Il n’est pas nécessaire de saisir des données dans la deuxième colonne Valeur . | E-mail (@email) n’est pas vide. |
+   | N’est pas vide | Est contraire à l’opérateur Est vide. Il n’est pas non plus nécessaire de saisir des données dans la seconde colonne Valeur. | E-mail (@email) n’est pas vide. |
    | Commence par | Renvoie des résultats commençant par la valeur indiquée. | N° de compte (@account) commence par « 32010 ». |
    | Ne commence pas par | Renvoie les résultats qui ne commencent pas par la valeur renseignée. | N° de compte (@account) ne commence pas par « 20 ». |
    | Contient | Renvoies les résultats comportant au moins la valeur renseignée. | Domaine d’e-mail (@domain) contient « mail ». Ici, tous les noms de domaine comportant la valeur « mail », comme « gmail.com », seront renvoyés en résultat. |
@@ -219,7 +222,7 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
 * **Afficher les résultats** : affiche les données issues de votre requête.
 * **Affichage du code** : affiche une version basée sur le code de la requête en SQL.
 * **Calculer** : met à jour et affiche le nombre d’enregistrements ciblés par votre règle.
-* **Sélectionner ou enregistrer un filtre** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. Si le filtre comprend des paramètres, indiquez des valeurs avant de l’appliquer. Pour plus d’informations, voir [&#x200B; Utilisation de filtres prédéfinis](predefined-filters.md).
+* **Sélectionner ou enregistrer un filtre** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. Si le filtre comprend des paramètres, indiquez des valeurs avant de l’appliquer. Pour plus d’informations, voir [ Utilisation de filtres prédéfinis](predefined-filters.md).
 
 <br/>
 

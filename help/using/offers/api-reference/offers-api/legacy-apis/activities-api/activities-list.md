@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Répertorier les décisions
-description: Une décision contient la logique sous-tendant la sélection d’une offre.
+title: Création de listes de décisions
+description: Une décision contient la logique qui sous-tend la sélection d’une offre.
 feature: Decision Management, API
 badge: label="Hérité" type="Informative"
 topic: Integrations
@@ -10,25 +10,29 @@ role: Developer
 level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/-QsG7rzICxULvvVarkve6ZfwjxJP6fpdocdnmlEynso
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 245
 ht-degree: 100%
 
 ---
 
-# Répertorier les décisions {#list-decisions}
+# Création de listes de décisions {#list-decisions}
 
 >[!TIP]
 >
 >La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Une décision contient la logique sous-tendant la sélection d&#39;une offre.
+Une décision contient la logique qui sous-tend la sélection d’une offre.
 
 Vous pouvez afficher une liste de toutes les décisions au sein d&#39;un conteneur en exécutant une seule requête GET sur l&#39;API [!DNL Offer Library].
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIES}&{QUERY_PARAMS}
@@ -58,7 +62,7 @@ curl -X GET \
 | `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l&#39;empêcher d&#39;être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d&#39;une barre oblique inverse lorsqu&#39;ils apparaissent dans la chaîne de requête. | `default` |
 | `qop` | Applique l&#39;opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
 | `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm::name). | `_instance.xdm:name` |
-| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L&#39;ajout d&#39;un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l&#39;ordre décroissant (Z-A). | `-repo:createdDate` |
+| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
 | `limit` | Limite le nombre de décisions renvoyées. | `limit=5` |
 
 **Réponse**

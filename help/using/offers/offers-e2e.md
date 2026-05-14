@@ -10,14 +10,19 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/m5tujeeveBXer8JDWUhe3-QmJhQMV9czOWC-8StyaT0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: 1128
 ht-degree: 100%
 
 ---
 
-# Cas d&#39;utilisation : configuration des offres personnalisées pour les utiliser dans un e-mail {#configure-add-personalized-offers-email}
+# Cas d&#39;utilisation : configurer des offres personnalisées pour les utiliser dans un e-mail {#configure-add-personalized-offers-email}
 
 >[!TIP]
 >
@@ -32,7 +37,7 @@ Les étapes clés de configuration des offres, de leur inclusion dans une décis
 1. Avant de créer des offres, [définissez vos composants](#define-components)
 
    * Créer des emplacements
-   * Créer des règles de décision
+   * Création de règles de décision
    * Créer des qualificateurs de collection (précédemment appelés « balises »)
    * Création de classements (facultatif)
 
@@ -45,13 +50,13 @@ Les étapes clés de configuration des offres, de leur inclusion dans une décis
       * Ajout d&#39;une règle pour chaque offre
       * Définition d&#39;une priorité pour chaque offre
 
-1. [Création d&#39;une offre de secours](#create-fallback)
+1. [Création d’une offre de secours](#create-fallback)
 
 1. [Création d’une collection](#create-collection) incluant les offres personnalisées que vous avez créées
 
 1. [Configuration de la décision](#configure-decision)
 
-   * Création d&#39;une décision
+   * Création d’une décision
    * Sélection des emplacements que vous avez créés
    * Pour chaque emplacement, sélection la collection
    * Pour chaque emplacement, sélection d’un classement (facultatif)
@@ -118,7 +123,7 @@ Vous les trouverez sous le menu **[!UICONTROL Gestion des décisions]** > **[!UI
    >
    >Dans cet exemple, nous n&#39;utiliserons que les scores de priorité. En savoir plus sur les [règles d’éligibilité et les contraintes](../../using/offers/offer-library/add-constraints.md#eligibility).
 
-## Configuration des offres {#configure-offers}
+## Configurer les offres {#configure-offers}
 
 Vous pouvez maintenant créer et configurer vos offres. Dans cet exemple, vous allez créer quatre offres à afficher en fonction de chaque profil spécifique.
 
@@ -161,7 +166,7 @@ Vous pouvez maintenant créer et configurer vos offres. Dans cet exemple, vous a
 
 Les étapes détaillées pour créer et configurer des offres sont présentées dans [cette section](../../using/offers/offer-library/creating-personalized-offers.md).
 
-## Création d&#39;une offre de secours {#create-fallback}
+## Création d’une offre de secours {#create-fallback}
 
 1. Créez une offre de secours.
 
@@ -183,7 +188,7 @@ Votre offre de secours est maintenant prête à être utilisée dans une décisi
 
 Les étapes détaillées pour créer et configurer une offre de secours sont présentées dans [cette section](../../using/offers/offer-library/creating-fallback-offers.md).
 
-## Création d&#39;une collection {#create-collection}
+## Créer une collection {#create-collection}
 
 Lors de la configuration de la décision, vous devez ajouter vos offres personnalisées dans le cadre d&#39;une collection.
 

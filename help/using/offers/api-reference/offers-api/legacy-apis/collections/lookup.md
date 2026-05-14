@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Recherche d’une collection
-description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
+title: Rechercher une collection
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par des responsables marketing, telles que la catégorie de l’offre.
 feature: Decision Management, API, Collections
 badge: label="Hérité" type="Informative"
 topic: Integrations
@@ -10,21 +10,25 @@ role: Developer
 level: Experienced
 exl-id: 91317c46-d8b6-456e-8282-aef1169941af
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/xrPunLrH7qiFNVM4mznVAIJS6rBTIQ0q1iiEwvQgbX4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 194
+ht-degree: 100%
 
 ---
 
-# Recherche d’une collection {#look-up-collection}
+# Rechercher une collection {#look-up-collection}
 
 >[!TIP]
 >
 >La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
+Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par des responsables marketing, telles que la catégorie de l’offre.
 
 Vous pouvez rechercher des collections spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut la collection `@id` ou le nom de la collection dans le chemin de la requête.
 
@@ -40,7 +44,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{CONTAINER_ID}` | Conteneur où se trouvent les collections. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Définit le schéma associé aux collections. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
 | `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Mobile demo` |
+| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères jokers peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Mobile demo` |
 
 **Requête**
 

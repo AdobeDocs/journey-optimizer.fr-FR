@@ -8,9 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: f5508708-0f09-4fde-8057-d2637f5679c7
-source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
+TQID: https://experienceleague.adobe.com/evAoc8V7lRFGkY-5Hh29eiAZdwpZPKAm1gyu5K-Zboo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 177
 ht-degree: 100%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 100%
 
 Lors de la création de contenu pour n’importe quel canal (à l’exception du canal web) dans [!DNL Journey Optimizer], vous pouvez utiliser un modèle personnalisé que :
 
-* vous avez créé à l’aide du menu **[!UICONTROL Modèles de contenu]** ; [En savoir plus](#create-template-from-scratch).
+* vous avez créé à l’aide du menu **[!UICONTROL Modèles de contenu]** ; [En savoir plus](#create-template-from-scratch)
 
 * vous avez enregistré à partir d’un contenu existant dans un parcours ou une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle de contenu]**. [En savoir plus](#save-as-template)
 

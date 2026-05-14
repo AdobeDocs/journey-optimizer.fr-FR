@@ -5,9 +5,14 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 477
 ht-degree: 90%
 
 ---
@@ -40,7 +45,7 @@ Après avoir créé votre campagne ou votre parcours, cliquez sur le bouton **[!
 
 Le volet **[!UICONTROL Demander l’approbation]** s’ouvre. Si nécessaire, envoyez un message aux approbateurs et approbatrices, puis cliquez sur **[!UICONTROL Envoyer]** pour envoyer votre demande.
 
-![&#x200B; Boîte de dialogue Demande d’approbation &#x200B;](assets/approval-request.png)
+![ Boîte de dialogue Demande d’approbation ](assets/approval-request.png)
 
 Bien que l’état de la campagne ou du parcours soit **[!UICONTROL En révision]**, vous avez la possibilité d’annuler la demande d’approbation. En cliquant sur le bouton **[!UICONTROL Annuler la demande]**, la campagne ou le parcours revient à l’étape de brouillon et une notification est envoyée aux réviseurs et réviseuses les informant que la demande a été annulée. Vous pouvez ensuite apporter les modifications nécessaires et demander à nouveau une approbation pour la campagne ou le parcours.
 

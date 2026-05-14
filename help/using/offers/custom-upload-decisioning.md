@@ -9,10 +9,16 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+TQID: https://experienceleague.adobe.com/ffeoNY5SR6RmhqfGzpDwryo0Ss7XL4td-9gnQm15Sik
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 95%
+source-wordcount: 641
+ht-degree: 93%
 
 ---
 
@@ -32,9 +38,9 @@ Les données des audiences de chargement personnalisé peuvent être utilisées 
 Pour plus d’informations sur les audiences de chargement personnalisé, reportez-vous aux sections :
 
 * [Commencer avec les audiences et Journey Optimizer](../audience/about-audiences.md)
-* [Import d’une audience dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Import d’une audience dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
-## À lire impérativement {#must-read}
+## À lire absolument {#must-read}
 
 * **Gestion des décisions uniquement** - Cette fonctionnalité est prise en charge dans la gestion des décisions uniquement et non dans la prise de décision.
 * **API Decisioning (hub) uniquement** : elle est disponible exclusivement via les requêtes d’API Decisioning (hub) et n’est pas prise en charge par l’API Edge Decisioning ou la prise de décision par lots.

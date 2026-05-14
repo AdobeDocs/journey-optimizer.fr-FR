@@ -8,10 +8,14 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/ytq-DaCojPLwO0ReHyA6oYnAzepr02rthWrZwU-lehY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 96%
+source-wordcount: 965
+ht-degree: 98%
 
 ---
 
@@ -80,4 +84,4 @@ Un problème de démarrage à froid se produit lorsqu’il n’y a pas assez de 
 
 ## Nouvel entraînement {#re-training}
 
-Les modèles seront entraînés de nouveau afin d’apprendre les dernières interactions de fonctionnalités et d’atténuer chaque semaine la dégradation des performances. Pour surveiller le statut de l’entraînement et les performances du modèle, consultez [Surveillance de modèle IA](ai-model-observability.md).
+Les modèles seront entraînés de nouveau afin d’apprendre les dernières interactions de fonctionnalités et d’atténuer chaque semaine la dégradation des performances de ceux-ci. Pour surveiller le statut de l’entraînement et les performances du modèle, consultez [Surveillance de modèle IA](ai-model-observability.md).

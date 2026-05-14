@@ -8,14 +8,20 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '620'
+TQID: https://experienceleague.adobe.com/JnA4LJ-FiCILS42uZZ5hUBUBQLmSn-R0TwUe-eGhCCg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 643
 ht-degree: 100%
 
 ---
 
-# Création de rapports de parcours {#design-jo-reports}
+# Créer des rapports de parcours {#design-jo-reports}
 
 Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de reporting](report-gs-cja.md) intégrées, [!DNL Journey Optimizer] peut automatiquement envoyer des données de performances de parcours à Adobe Experience Platform afin qu’elles soient combinées à d’autres données à des fins d’analyse.
 
@@ -42,7 +48,7 @@ La liste des champs XDM transmis est complète. Certains contiennent des codes g
 >
 >Les jeux de données ne peuvent pas être activés pour le service de profil en temps réel. Assurez-vous que le bouton **[!UICONTROL Profil]** est désactivé.
 
-[!DNL Journey Optimizer] envoie les données au fur et à mesure, en streaming. Vous pouvez appliquer des requêtes à ces données à l’aide du service Requêtes. Vous pouvez vous connecter à Customer Journey Analytics ou à d’autres outils de BI pour visualiser les données concernant ces étapes.
+[!DNL Journey Optimizer] envoie les données au fur et à mesure, en streaming. Vous pouvez appliquer des requêtes à ces données à l’aide du service de requête. Vous pouvez vous connecter à Customer Journey Analytics ou à d’autres outils de BI pour visualiser les données concernant ces étapes.
 
 Les schémas suivants sont créés :
 

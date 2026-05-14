@@ -10,10 +10,16 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/ZnlEExKq7uM-qxcva2e0MxLFHXwGoW00axWjS-XaTZo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 100%
+source-wordcount: 2006
+ht-degree: 85%
 
 ---
 
@@ -25,7 +31,7 @@ ht-degree: 100%
 
 Chaque fois qu&#39;une offre est modifiée, le jeu de données généré automatiquement pour les offres de contenu personnalisées est mis à jour.
 
-Le lot le plus récent du jeu de données qui a réussi s&#39;affiche à droite. La vue hiérarchique du schéma du jeu de données s&#39;affiche dans le volet de gauche.
+Le lot le plus récent dans le jeu de données s’affiche à droite. La vue hiérarchique du schéma du jeu de données s&#39;affiche dans le volet de gauche.
 
 ![](../assets/dataset-offers.png)
 
@@ -39,32 +45,32 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++ Identifiant
 
-**Champ :** _id 
-**Titre :** identifiant 
-**Description :** identifiant unique de l&#39;enregistrement.
+**Champ :** _id
+**Titre :** identifiant
+**Description :** identifiant unique de l’enregistrement.
 **Type :** chaîne
 
 +++
 
 +++ _experience {#experience}
 
-**Champ :** _experience
+**Champ :** _experience
 **Type :** objet
 
 +++
 
 +++ _experience > decisioning
 
-**Champ :** prise de décision
+**Champ : prise de décision**
 **Type :** objet
 
 +++
 
 +++ _experience > decisioning > calendarConstraints 
 
-**Champ :** calendarConstraints 
-**Titre :** détails sur les contraintes de calendrier
-**Description :** les contraintes de calendrier déterminent si une option de décision est valide sur une période. En dehors de cette plage de dates, l&#39;option ne peut pas être proposée.
+**Field:** calendarConstraints
+**Titre :** Détails de la contrainte de calendrier
+**Description :** contraintes de calendrier déterminent si une option de décision est valide dans une période. En dehors de cette plage de dates, l&#39;option ne peut pas être proposée.
 **Type :** objet
 
 * **Date et heure de fin**
@@ -85,28 +91,28 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++ _experience > decisioning > characteristics
 
-**Champ :** caractéristiques 
-**Titre :** caractéristiques de l’option de décision
-**Description :** les caractéristiques sont des propriétés ou attributs supplémentaires d’offres qui appartiennent à cette option de décision spécifique. Ces attributs sont des paires clé-valeur, ce qui signifie qu’ils incluent un nom d’attribut (parfois appelé clé) auquel une valeur est associée, et sont utilisés pour distinguer une option de décision des autres offres. Par exemple, pour le nom d’attribut « couleur », la valeur peut être « vert » pour une offre spécifique.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Champ :** caractéristiques
+**Titre :** Caractéristiques De L’Option De Décision
+**Description :** caractéristiques sont des attributs ou des propriétés supplémentaires des offres appartenant à une option de décision particulière. Ces attributs sont des paires clé-valeur, ce qui signifie qu’ils incluent un nom d’attribut (parfois appelé clé) auquel une valeur est associée, et sont utilisés pour distinguer une option de décision des autres offres. Par exemple, pour le nom d’attribut « couleur », la valeur peut être « vert » pour une offre spécifique.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Type :** objet
 
 +++
 
 +++ _experience > decisioning > contents
 
-**Champ :** contenu 
-**Titre :** détails du contenu 
-**Description :** éléments de contenu pour afficher l&#39;élément de décision dans différents contextes. Une seule option de décision peut avoir plusieurs variantes de contenu. Le contenu est une information destinée à une audience pour être utilisée dans une expérience (numérique). Le contenu est diffusé par le biais de canaux à un emplacement spécifique.
+**Champ :** contenus
+**Titre :** détails du contenu
+**Description :** Éléments de contenu pour effectuer le rendu de l’élément de décision dans différents contextes. Une seule option de décision peut avoir plusieurs variantes de contenu. Le contenu est une information destinée à une audience pour être utilisée dans une expérience (numérique). Le contenu est diffusé par le biais de canaux à un emplacement spécifique.
 **Type :** tableau
 
 +++
 
 +++_experience > decisioning > contents > components
 
-**Champ :** composants
-**Description :** composants du contenu représentant l’option de décision, y compris toutes leurs variantes linguistiques. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
+**Champ :** composants
+**Description :** composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
 **Type :** tableau
-**Obligatoire :** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
+**Obligatoire :** « _type », « _dc » <!--TBC?-->
 
 +++
 
@@ -192,37 +198,37 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++_experience > decisioning > contents > Placement
 
-**Champ :** emplacement
-**Titre :** emplacement 
-**Description :** emplacement à respecter. La valeur est l&#39;URI (@id) de l&#39;emplacement d&#39;offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
+**Champ :** emplacement
+**Titre : Emplacement**
+**Description :** emplacement à respecter. La valeur est l&#39;URI (@id) de l&#39;emplacement d&#39;offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
 **Type :** Chaîne
 
 +++
 
 +++ _experience > decisioning > Lifecycle Status
 
-**Champ :** lifecycleStatus
-**Titre :** statut du cycle de vie
-**Description :** le statut de cycle de vie permet d&#39;exécuter des workflows avec un objet. L&#39;état peut avoir une incidence lorsqu&#39;un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
+**Field:** lifecycleStatus
+**Titre :** statut du cycle de vie
+**Description :** statut du cycle de vie permet d’exécuter des workflows avec un objet. L&#39;état peut avoir une incidence lorsqu&#39;un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
 **Type :** chaîne
-**Valeurs possibles :** &quot;Brouillon&quot; (par défaut), &quot;Approuvé&quot;, &quot;Actif&quot;, &quot;Terminé&quot;, &quot;Archivé&quot;
+**Valeurs possibles :** « Draft » (par défaut), « Approved », « Live », « Completed », « Archived »
 
 +++
 
 +++ _experience > decisioning > Decision Option Name
 
 **Champ :** nom
-**Titre :** nom de l&#39;option de décision
-**Description :** nom d&#39;option affiché dans diverses interfaces utilisateur.
+**Titre :** Nom De L&#39;Option De Décision
+**Description :** nom de l’option affiché dans diverses interfaces utilisateur.
 **Type :** chaîne
 
 +++
 
 +++ _experience > decisioning > profileConstraints
 
-**Champ :** profileConstraints 
-**Titre :** Détails de la contrainte de profil
-**Description :** Les contraintes de profil déterminent si une option est éligible pour cette identité de profil, à l&#39;heure actuelle, dans ce contexte. Si la contrainte de profil n&#39;a pas besoin de prendre en compte les valeurs de chacune des options, c&#39;est-à-dire qu&#39;elle est invariante des options de la sélection d&#39;options, la contrainte de profil qui prend la valeur &quot;false&quot; annule l&#39;ensemble de la sélection d&#39;options. D&#39;un autre côté, une règle de contrainte de profil qui prend une option en tant que paramètre est évaluée pour chaque option de qualification de la sélection d&#39;options.
+**Field:** profileConstraints
+**Titre :** Détails de la contrainte de profil
+**Description :** les contraintes de profil déterminent si une option est éligible pour cette identité de profil, à l’heure actuelle, dans ce contexte. Si la contrainte de profil n&#39;a pas besoin de prendre en compte les valeurs de chacune des options, c&#39;est-à-dire qu&#39;elle est invariante par rapport aux options de la sélection d&#39;options, la contrainte de profil qui évalue &#39;false&#39; annule toute la sélection d&#39;options. D&#39;un autre côté, une règle de contrainte de profil qui prend une option en tant que paramètre est évaluée pour chaque option de qualification de la sélection d&#39;options.
 **Type :** objet
 
 +++
@@ -230,28 +236,28 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 +++_experience > decisioning > profileConstraints > Description
 
 **Champ :** description
-**Titre :** description 
-**Description :** description des contraintes de profil. Elle est utilisée pour transmettre des intentions lisibles sur la façon et les raisons pour lesquelles cette contrainte de profil a été construite et/ou sur l&#39;option qui sera incluse ou exclue par elle.
+**Titre :** description
+**Description : description** contrainte de profil. Elle est utilisée pour transmettre des intentions lisibles sur la façon et les raisons pour lesquelles cette contrainte de profil a été construite et/ou sur l&#39;option qui sera incluse ou exclue par elle.
 **Type :** Chaîne
 
 +++
 
 +++_experience > decisioning > profileConstraints > Eligibility Rule
 
-**Champ :** eligibilityRule
-**Titre :**règle d&#39;éligibilité
-**Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
+**Field:** eligibilityRule
+**Titre :** règle d’éligibilité
+**Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 
 +++
 
 +++_experience > decisioning > profileConstraints > Profile Constraint Type
 
-**Champ :** profileConstraintType
+**Field:** profileConstraintType
 **Titre :** type de contrainte de profil
 **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à des audiences.
-**Type :** chaîne 
-**Valeurs possibles :**
+**Type :** chaîne
+**Valeurs possibles :**
 
 * &quot;none&quot; (par défaut)
 * &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d&#39;une règle unique qui doit être évaluée comme égale à true avant que l&#39;action contrainte ne soit autorisée. »
@@ -263,9 +269,9 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++_experience > decisioning > profileConstraints > Segment Identifiers
 
-**Champ :** segmentIdentities
-**Titre :** identifiants de segment
-**Description :** identifiants des audiences
+**Field:** segmentIdentities
+**Titre :** identifiants de segment
+**Description :** identifiants des audiences
 **Type :** tableau
 
 * **Identifiant**
@@ -301,18 +307,18 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++ _experience > decisioning > ranking
 
-**Champ :** classement
-**Titre :** Détails du classement
-**Description :** Rang (priorité). Définit ce qui est considéré comme la \&quot;meilleure action\&quot; selon le contexte du critère de décision. Parmi toutes les options sélectionnées qui répondent à la contrainte d’éligibilité, l’ordre de classement déterminera les principales options (ou Top N des options) à proposer.
+**Champ : classement**
+**Titre : Détails** Classement
+**Description :** de classement (priorité). Définit ce qui est considéré comme la \&quot;meilleure action\&quot; selon le contexte du critère de décision. Parmi toutes les options sélectionnées qui répondent à la contrainte d’éligibilité, l’ordre de classement déterminera les principales options (ou Top N des options) à proposer.
 **Type :** objet
 
 +++
 
 +++_experience > decisioning > ranking > Order Evaluation
 
-**Champ :** ordre
-**Titre :** évaluation de l&#39;ordre
-**Description :** évaluation d&#39;un ordre relatif d&#39;une ou de plusieurs options de décision. Les options avec des valeurs ordinales plus élevées sont sélectionnées à la place de n&#39;importe quelle option avec des valeurs ordinales plus faibles. Les valeurs déterminées par cette méthode peuvent être ordonnées, mais les distances entre elles ne peuvent pas être mesurées et, ni les sommes ni les produits ne peuvent être calculés. La médiane et le mode sont les seules mesures de tendance centrale qui peuvent être utilisées pour les données ordinales.
+**Champ :** order
+**Titre :** évaluation d&#39;ordre
+**Description :** évaluation d&#39;un ordre relatif d&#39;une ou de plusieurs options de décision. Les options avec des valeurs ordinales plus élevées sont sélectionnées à la place de n&#39;importe quelle option avec des valeurs ordinales plus faibles. Les valeurs déterminées par cette méthode peuvent être ordonnées, mais les distances entre elles ne peuvent pas être mesurées et, ni les sommes ni les produits ne peuvent être calculés. La médiane et le mode sont les seules mesures de tendance centrale qui peuvent être utilisées pour les données ordinales.
 **Type :** objet
 
 * **Fonction de notation**
@@ -341,20 +347,20 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++_experience > decisioning > ranking > Priority
 
-**Champ :** priorité
-**Titre :** priorité
-**Description :** priorité d’une seule option de décision par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n&#39;est fournie sont prioritaires à l&#39;aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
-**Type :** entier
-**Valeur minimum :** 0
-**Valeur par défaut :** 0
+**Champ :** priorité
+**Titre:** Priorité
+**Description :** la priorité d’une option de décision unique par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n&#39;est fournie sont prioritaires à l&#39;aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
+**Type:** entier
+**Valeur minimale :** 0
+**Valeur par défaut :** 0
 
 +++
 
 +++ _experience > decisioning > tags
 
-**Champ :** balises
-**Titre :** balises
-**Description :** jeu de qualificateurs de collection (précédemment appelés « balises ») associé à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour contraindre l’inventaire global à un sous-ensemble (catégorie).
+**Champ :** balises
+**Title:** Tags
+**Description :** ensemble de qualificateurs de collection (précédemment appelés « balises ») associé à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour contraindre l’inventaire global à un sous-ensemble (catégorie).
 **Type :** tableau
 
 +++
@@ -363,16 +369,16 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++_repo
 
-**Champ :** _repo 
+**Champ :** _repo
 **Type :** objet
 
 +++ 
 
 +++ _repo > Etag Option de décision
 
-**Champ :** etag
-**Titre :** ETag Option de décision 
-**Description :** La révision à laquelle l&#39;objet de l&#39;option de décision se trouvait au moment de la prise de l&#39;instantané.
-**Type :** chaîne
+**Champ :** etag
+**Titre : ETag d’option de décision**
+**Description :** révision à laquelle l&#39;objet d&#39;option de décision se trouvait lors de la prise de l&#39;instantané.
+**Type :** Chaîne
 
 +++

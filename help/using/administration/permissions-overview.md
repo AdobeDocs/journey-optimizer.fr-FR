@@ -9,9 +9,16 @@ role: Admin, Developer
 level: Intermediate
 keywords: autorisations, droits, restrictions, accès, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/VRUXM-o41h44PxMAKyafwqSHKmduyt48j4sr11Gh-EQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 453
 ht-degree: 100%
 
 ---
@@ -49,7 +56,7 @@ Avec [!DNL Journey Optimizer], vous pouvez effectuer un choix parmi une gamme de
 
 * **Contrôle d’accès basé sur les objets** : utilisation de libellés pour restreindre l’accès à un objet. Cette approche protège les ressources numériques sensibles contre les utilisateurs et les utilisatrices non autorisés, permettant ainsi de renforcer la protection des données personnelles. En savoir plus sur la [Gestion des accès basée sur les objets](object-based-access.md).
 
-* **Contrôle d’accès basé sur les attributs** : autorisations permettant de gérer l’accès aux données pour certaines équipes ou groupes d’utilisateurs et d’utilisatrices. Le contrôle d’accès basé sur les attributs permet aux membres de l’équipe d’administration de restreindre l’accès à des objets et/ou des fonctionnalités en fonction d’attributs. Les attributs peuvent être des métadonnées ajoutées à un objet, comme un libellé ajouté à un champ ou à un segment de schéma. Un administrateur ou une administratrice définit des politiques d’accès intégrant des attributs afin de gérer les autorisations d’accès des utilisateurs et des utilisatrices. En savoir plus sur la [Gestion des accès basée sur les attributs](attribute-based-access.md).
+* **Contrôle d’accès basé sur les attributs** : autorisations permettant de gérer l’accès aux données pour certaines équipes ou groupes d’utilisateurs et d’utilisatrices. Le contrôle d’accès basé sur les attributs permet aux membres de l’équipe d’administration de restreindre l’accès à des objets et/ou des fonctionnalités en fonction d’attributs. Les attributs peuvent être des métadonnées ajoutées à un objet, comme un libellé ajouté à un champ ou à un segment de schéma. Un administrateur définit des politiques d’accès qui comprennent des attributs afin de gérer les autorisations d’accès des utilisateurs. En savoir plus sur la [Gestion des accès basée sur les attributs](attribute-based-access.md).
 
 
 ## Explorons plus en détail.

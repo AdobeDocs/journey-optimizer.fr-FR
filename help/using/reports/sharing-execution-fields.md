@@ -8,9 +8,15 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
-workflow-type: ht
-source-wordcount: '663'
+TQID: https://experienceleague.adobe.com/wX-aqOHlSWGU0gTqyv0nEuSVFL8sstvCMxgiqeFDWIo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 665
 ht-degree: 100%
 
 ---
@@ -68,7 +74,7 @@ Valeurs :
 
 * http
 * capping
-* timeout
+* délai d’expiration
 * error
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
@@ -79,12 +85,12 @@ Type : chaîne
 
 ## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
-Un dépassement de délai peut se produire dans deux cas :
+Une temporisation peut se produire dans deux cas :
 
 * Lors de la première tentative d’exécution d’une action. Dans ce cas, l’exécution n’est pas terminée, il n’y a donc pas d’erreur associée.
 * Lors d’une nouvelle tentative : dans ce cas, le code actionExecOrigError/actionExecOrigErrorCode décrit l’erreur rencontrée lors de la tentative, et avant la nouvelle tentative.
 
-Par exemple, un e-mail est envoyé et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est de nouveau tentée, mais la durée des deux tentatives excède le délai d’attente. L’exécution de l’action est ensuite balisée pour indiquer un dépassement de délai. La partie action se présente comme suit :
+Par exemple, un e-mail est envoyé et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est de nouveau tentée, mais la durée des deux tentatives excède le délai d’expiration. L’exécution de l’action est ensuite balisée pour indiquer un dépassement de délai. La partie action se présente comme suit :
 
 ```
     ...

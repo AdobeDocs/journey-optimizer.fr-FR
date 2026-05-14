@@ -9,9 +9,14 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, attribut, personnalisation
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
-workflow-type: ht
-source-wordcount: '97'
+TQID: https://experienceleague.adobe.com/rOfthATlS-U-Oj8rg0EJyldh36u5oBmiOPcUWVgXq78
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 97
 ht-degree: 100%
 
 ---

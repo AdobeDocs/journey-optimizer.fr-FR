@@ -7,10 +7,14 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/gPZkvVDsQKRuXgVRwyj-kMHQYpLBX2MKfECxBZvPRKU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 94%
+source-wordcount: 228
+ht-degree: 98%
 
 ---
 
@@ -33,6 +37,6 @@ Des informations détaillées sur l’utilisation des identités sont disponible
 
 >[!MORELIKETHIS]
 >
->* [Prise en main de la gestion des données dans Journey Optimizer](../data/gs-data.md)
+>* [Commencer avec la gestion des données dans Journey Optimizer](../data/gs-data.md)
 >* [Commencer avec les profils](get-started-profiles.md)
 >* [Documentation Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}

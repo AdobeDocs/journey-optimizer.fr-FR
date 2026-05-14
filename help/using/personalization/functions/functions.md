@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '2496'
-ht-degree: 98%
+source-wordcount: '2536'
+ht-degree: 97%
 
 ---
 
@@ -464,6 +464,9 @@ Les assistants sont détaillés sur [cette page](helpers.md).
         <td><a href="helpers.md#url-parameter-encryption-helper">Chiffrer</a></td><td>Chiffre les valeurs d’expression des paramètres de requête d’URL au moment du rendu à l’aide d’une clé active du registre sandbox </td>
     </tr>
     <tr>
+        <td><a href="helpers.md#url-function">Url</a></td><td>Cette fonction gère les URL dans le contenu des messages SMS. Utilisez-la avec <code>originalUrl</code> pour raccourcir les URL et <code>type='DEEPLINK'</code> insérer des liens profonds</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#with">Avec</a></td><td>Cette fonction est utilisée pour modifier le jeton d'évaluation d'une partie de modèle.</td>
     </tr>
 </table>
@@ -533,4 +536,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

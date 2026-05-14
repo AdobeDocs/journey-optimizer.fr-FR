@@ -9,9 +9,16 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: 965
 ht-degree: 97%
 
 ---

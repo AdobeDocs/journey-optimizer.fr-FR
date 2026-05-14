@@ -10,9 +10,16 @@ level: Intermediate
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: 1262
 ht-degree: 74%
 
 ---
@@ -29,7 +36,7 @@ Pour tirer parti de cette fonctionnalité, créez un parcours dans lequel vous a
 
 Vous pouvez ensuite utiliser la sortie de l’activité Décision de contenu dans :
 
-* une activité [&#x200B; Optimiser avec une condition &#x200B;](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
+* une activité [ Optimiser avec une condition ](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
 
 * une [action personnalisée](#add-custom-action), via laquelle vous pouvez envoyer ces offres à des systèmes externes.
 
@@ -43,7 +50,7 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Décision de contenu]** dans votre zone de travail.
 
-   ![Ajouter une décision de contenu au parcours &#x200B;](assets/journey-content-decision.png){width=100%}
+   ![Ajouter une décision de contenu au parcours ](assets/journey-content-decision.png){width=100%}
 
 1. Vous pouvez, si vous le souhaitez, ajouter un libellé et une description à l’activité.
 
@@ -87,7 +94,7 @@ Vous pouvez également ajouter une [action personnalisée](#add-custom-action) �
 
 ### Dans une activité optimisée (méthode de condition) {#add-condition-activity}
 
-Pour tirer parti de la sortie d’une activité de décision de contenu, ajoutez une activité **[!UICONTROL Optimiser]**, choisissez la méthode **[!UICONTROL Condition]** et définissez des expressions pour déplacer des profils vers des chemins spécifiques à l’aide des données issues de ces offres. Suivez les étapes ci-dessous. Pour plus de types de condition et d’options, voir [Conditions](conditions.md).
+Pour tirer parti de la sortie d’une activité de décision de contenu, ajoutez une activité **[!UICONTROL Optimiser]**, choisissez la méthode **[!UICONTROL Condition]** et définissez des expressions pour déplacer des profils vers des chemins spécifiques à l’aide des données issues de ces offres. Suivez les étapes ci-après. Pour plus de types de condition et d’options, voir [Conditions](conditions.md).
 
 1. Dans la catégorie **[!UICONTROL Orchestration]**, déposez une activité **[!UICONTROL Optimiser]** dans la zone de travail. [En savoir plus](optimize.md)
 

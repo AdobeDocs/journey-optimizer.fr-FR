@@ -9,10 +9,17 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/I-zCSU3tp4n-i-EEkx118svN7R9bfUh0phCB-B5ZZ5Q
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 81%
+source-wordcount: 918
+ht-degree: 82%
 
 ---
 
@@ -20,7 +27,7 @@ ht-degree: 81%
 
 ## Présentation des heures creuses
 
-Les **heures creuses** vous permettent de définir des exclusions temporelles pour les canaux **E-mail**, **SMS**, **Push** et **WhatsApp**. Ils garantissent qu’aucun message n’est envoyé pendant des périodes spécifiques, afin de respecter les préférences de la clientèle et les exigences de conformité.
+Les **heures creuses** vous permettent de définir des exclusions temporelles pour les canaux **E-mail**, **SMS**, **Push** et **WhatsApp**. EIles garantissent qu’aucun message n’est envoyé pendant des périodes spécifiques, ce qui vous aide à respecter les préférences de la clientèle et les exigences de conformité.
 
 Vous pouvez appliquer des heures creuses par le biais d’**ensembles de règles** qui peuvent être affectés à des actions individuelles dans des campagnes ou des parcours pour un contrôle précis.
 
@@ -113,7 +120,7 @@ Pour définir des heures creuses, créez une règle dans un ensemble de règles 
      >
      >Si un message reste dans la file d’attente pour un profil pendant plus de 7 jours, le message est ignoré.
 
-   * **[!UICONTROL Ignorer le message]** - Les messages ne sont jamais envoyés.
+   * **[!UICONTROL Ignorer le message]** : les messages ne sont jamais envoyés.
 
      >[!NOTE]
      >
@@ -140,7 +147,7 @@ Une fois votre règle enregistrée et l’ensemble de règles activé, vous pouv
 
    >[!NOTE]
    >
-   >Seuls les ensembles de règles [activés](#activate-rule) s’affichent dans la liste.
+   >Seuls les jeux de règles [activés](#activate-rule) s’affichent dans la liste.
 
 1. Activez votre parcours.
 
@@ -153,7 +160,7 @@ Une fois votre règle enregistrée et l’ensemble de règles activé, vous pouv
 
    >[!NOTE]
    >
-   >Seuls les ensembles de règles [activés](#activate-rule) s’affichent dans la liste.
+   >Seuls les jeux de règles [activés](#activate-rule) s’affichent dans la liste.
 
 1. Activez votre campagne.
 
@@ -190,4 +197,4 @@ Une fois vos campagnes ou votre parcours activés et exécutés, vous pouvez vis
 
 Découvrez comment utiliser la fonctionnalité des heures creuses dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475854?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

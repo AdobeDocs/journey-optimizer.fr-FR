@@ -4,13 +4,15 @@ product: journey optimizer
 title: Utiliser des filtres prédéfinis
 description: Découvrez comment enregistrer, appliquer et gérer des filtres prédéfinis dans des campagnes orchestrées
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
+TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 11%
+source-wordcount: 507
+ht-degree: 20%
 
 ---
-
 
 # Utiliser des filtres prédéfinis {#predefined-filters}
 
@@ -39,7 +41,7 @@ Enregistrez un filtre personnalisé à partir du créateur de règles pour le re
 
    ![](assets/predefined-filter-save-name.png)
 
-Votre filtre personnalisé est désormais disponible dans la liste **Filtres prédéfinis**.
+Votre filtre personnalisé est désormais disponible dans la liste des **Filtres prédéfinis**.
 
 ## Utilisation d’un filtre prédéfini dans une règle {#apply}
 
@@ -75,11 +77,11 @@ Lorsqu’un filtre est enregistré en tant que favori, il apparaît dans la sect
 
 ![Section Filtres favoris](assets/predefined-filter-favorites.png)
 
-## Partage d’un filtre prédéfini {#share-filter}
+## Partager un filtre prédéfini {#share-filter}
 
 Par défaut, les filtres prédéfinis que vous créez sont privés et visibles uniquement par vous. Pour rendre un filtre accessible aux autres opérateurs et opératrices de votre organisation, activez l’option **[!UICONTROL Filtre partagé]**.
 
-![Option de filtre partagé](assets/predefined-filter-shared.png)
+![Option Filtre partagé](assets/predefined-filter-shared.png)
 
 Les filtres partagés apparaissent dans la liste des filtres prédéfinis pour tous les utilisateurs et utilisatrices, ce qui leur permet d’utiliser ces filtres dans leurs propres règles.
 

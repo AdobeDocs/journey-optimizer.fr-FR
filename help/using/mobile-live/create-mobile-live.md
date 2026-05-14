@@ -7,10 +7,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/orXAhry8onHXUejP5pzOyHdKbAcD8fiDmvRk-s74xLo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 63%
+source-wordcount: 421
+ht-degree: 69%
 
 ---
 
@@ -46,13 +53,13 @@ Après avoir effectué la configuration mobile et implémenté le SDK mobile Ado
 
    >[!NOTE]
    >
-   >For **API-triggered Marketing** campaigns, you can select an existing audience that acts as the first segmentation before checking APNs channelID subscription from the API payload.
+   >Pour les campagnes **Marketing déclenché par API**, vous pouvez sélectionner une audience existante qui agit comme première segmentation avant de vérifier l’abonnement à l’identifiant de canal APNs à partir de la payload de l’API.
 
 1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/create-campaign.md#schedule).
 
 1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Réviser pour activer]**, puis sur **[!UICONTROL Activer]**.
 
-1. After the campaign is activated, use the provided **cURL request** as a template to trigger Live activity start, update, or end events. Modifiez l’exemple de payload en incluant vos données avant l’exécution.
+1. Une fois la campagne activée, utilisez la requête **cURL** fournie comme modèle pour déclencher les événements de début, de mise à jour ou de fin de l’activité en direct. Modifiez l’exemple de payload en incluant vos données avant l’exécution.
 
    Veillez également à copier les identifiants **[!UICONTROL ID de campagne]** à inclure dans votre payload.
 
@@ -60,9 +67,9 @@ Après avoir effectué la configuration mobile et implémenté le SDK mobile Ado
 
    ![](assets/create-live-3.png)
 
-   +++ Example of a Payload for Unitary use cases (API-triggered Transactional campaign)
+   +++ Exemple de payload pour les cas d’utilisation unitaires (campagne transactionnelle déclenchée par une API)
 
-   This payload example is for individual campaigns using **API-triggered Transactional** campaign type. Notez que la plupart des champs de l’exemple de payload suivant sont obligatoires, seuls `requestId`, `dismissal-date` et `alert` sont facultatifs.
+   Cet exemple de payload concerne des campagnes individuelles utilisant le type de campagne **transactionnel déclenché par l’API**. Notez que la plupart des champs de l’exemple de payload suivant sont obligatoires, seuls `requestId`, `dismissal-date` et `alert` sont facultatifs.
 
    ```json
    {
@@ -108,9 +115,9 @@ Après avoir effectué la configuration mobile et implémenté le SDK mobile Ado
 
    +++
 
-   +++ Example of a Payload for Broadcast use cases (API-triggered Marketing campaign)
+   +++ Exemple de payload pour les cas d’utilisation de diffusion (campagne marketing déclenchée par API)
 
-   This payload example is for audience-based campaigns using **API-triggered Marketing** campaign type.
+   Cet exemple de payload est destiné aux campagnes basées sur une audience utilisant le type de campagne **Marketing déclenché par l’API**.
 
    ```json
    {
@@ -155,10 +162,10 @@ Après avoir créé votre activité en direct, vous pouvez suivre son impact à 
 
 >[!TIP]
 >
->If your Live activity is not appearing or updating as expected, see [Troubleshoot Live activities](troubleshoot-mobile-live.md) for step-by-step debugging guidance.
+>Si votre activité Live ne s’affiche pas ou ne se met pas à jour comme prévu, consultez [Dépannage des activités Live](troubleshoot-mobile-live.md) pour obtenir des conseils détaillés sur le débogage.
 
 ## Vidéo pratique
 
-Discover how to configure iOS Live activities with Adobe Journey Optimizer to deliver rich, real-time updates on the iPhone Lock Screen and Dynamic Island.
+Découvrez comment configurer les activités en direct iOS avec Adobe Journey Optimizer pour afficher des mises à jour détaillées et en temps réel sur l’écran verrouillé et la Dynamic Island d’un iPhone.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479866?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

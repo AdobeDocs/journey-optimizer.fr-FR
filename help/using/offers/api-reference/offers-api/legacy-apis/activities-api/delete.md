@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Supprimer les décisions
-description: Une décision contient la logique sous-tendant la sélection d’une offre.
+description: Une décision contient la logique qui sous-tend la sélection d’une offre.
 feature: Decision Management, API
 badge: label="Hérité" type="Informative"
 topic: Integrations
@@ -10,23 +10,27 @@ role: Developer
 level: Experienced
 exl-id: 36a87d98-fd61-416e-83a1-e267a7b4d455
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/-NdP9Eia9rQR-PKVEESckF-pk8XA8-Zyy-2trkJLHhc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 162
+ht-degree: 100%
 
 ---
 
-# Suppression d’une décision {#delete-decision}
+# Supprimer une décision {#delete-decision}
 
 >[!TIP]
 >
 >La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Il peut parfois être nécessaire de supprimer (DELETE) une décision. Seules les décisions créées dans le conteneur du tenant peuvent être supprimées. Pour ce faire, il vous suffit d&#39;exécuter une requête DELETE sur l&#39;API [!DNL Offer Library] en utilisant le $id de l&#39;offre de secours que vous souhaitez supprimer.
+Il peut parfois s’avérer nécessaire de supprimer (DELETE) une décision. Seules les décisions créées dans le conteneur du tenant peuvent être supprimées. Pour ce faire, il vous suffit d&#39;exécuter une requête DELETE sur l&#39;API [!DNL Offer Library] en utilisant le $id de l&#39;offre de secours que vous souhaitez supprimer.
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -52,6 +56,6 @@ curl -X DELETE \
 
 **Réponse**
 
-Une réponse réussie renvoie un statut HTTP 202 (Pas de contenu) et un corps vide.
+Une réponse réussie renvoie un état HTTP 202 (pas de contenu) et un corps vide.
 
 Vous pouvez confirmer la suppression en tentant d’exécuter une requête de recherche (GET) sur la décision. Vous devez inclure un en-tête Accepter dans la requête, mais vous devriez recevoir le statut HTTP 404 (Introuvable) car la décision a été supprimée du conteneur.

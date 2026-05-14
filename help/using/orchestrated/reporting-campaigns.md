@@ -5,13 +5,16 @@ title: Créer des rapports pour les campagnes orchestrées avec Adobe Journey 
 description: Découvrez comment accéder aux rapports sur les campagnes orchestrées avec Adobe Journey Optimizer
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+TQID: https://experienceleague.adobe.com/CBzmimp3EJmRg1Padmfgpvw6cG4bsoOIwCDgIk-n1A4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: 191
 ht-degree: 98%
 
 ---
-
 
 # Rapports de campagnes orchestrées {#report-campaigns}
 
@@ -42,7 +45,7 @@ Une campagne orchestrée vous fournit des informations exploitables grâce à se
 ## Découvrir les rapports de canal
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
-<td><a href="../reports/campaign-global-report-cja-email.md"><img alt="e-mail" src="../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>Rapport sur les e-mails</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-email.md"><img alt="E-mail" src="../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>Rapport sur les e-mails</strong></a></td>
 <td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a><br/><a href="../reports/campaign-global-report-cja-sms.md"><strong>Rapport sur les SMS</strong></a></td>
 <td><a href="../reports/campaign-global-report-cja-push.md"><img alt="notification push" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Rapport sur les notifications push</strong></a></td><td><a href="../reports/campaign-global-report-cja-direct.md"><img alt="Courrier" src="../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../reports/campaign-global-report-cja-direct.md"><strong>Rapport Courrier</strong></a></td>
 </tr></table>

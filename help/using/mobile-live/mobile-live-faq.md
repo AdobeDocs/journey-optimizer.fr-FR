@@ -2,14 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Questions fréquentes
-description: Live activities FAQ
+description: FAQ sur les activités en direct
 topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/gV4buzcc5mqsvceDj1O-5XZ3eJHtfD26h1c5g3h81Ps
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: 1850
 ht-degree: 44%
 
 ---
@@ -18,58 +25,58 @@ ht-degree: 44%
 
 ## Questions générales
 
-+++What is the difference between a Live activity and a Push notification?
++++Quelle est la différence entre une activité En ligne et une notification push ?
 
-A Live activity provides persistent, real-time updates on the Lock Screen and Dynamic Island without requiring users to unlock their device. Les notifications push sont des alertes temporaires qui disparaissent une fois ignorées. A Live activity stays visible and can be updated multiple times until explicitly ended.
+Une activité En direct fournit des mises à jour persistantes en temps réel sur l’écran de verrouillage et l’île dynamique sans que les utilisateurs aient à déverrouiller leur appareil. Les notifications push sont des alertes temporaires qui disparaissent une fois ignorées. Une activité Live reste visible et peut être mise à jour plusieurs fois jusqu’à ce qu’elle soit explicitement terminée.
 
 +++
 
-+++How many Live activity instances can be active at once?
++++Combien d’instances d’activités dynamiques peuvent être actives à la fois ?
 
-An iOS app can run multiple Live activity instances simultaneously, including several that use the same `ActivityAttributes` type.
+Une application iOS peut exécuter plusieurs instances d’activités dynamiques simultanément, y compris plusieurs instances qui utilisent le même type d’`ActivityAttributes`.
 
-There is no hard limit imposed by developers on how many Live activity instances of a given attribute type can exist. Vous pouvez en démarrer autant que le nécessite la logique de votre application, par exemple, une par diffusion ou trajet en cours. However, iOS enforces a system-level limit on how many Live activity instances can be active or visible at once.
+Les développeurs n’imposent aucune limite stricte quant au nombre d’instances d’activité dynamique pouvant exister pour un type d’attribut donné. Vous pouvez en démarrer autant que le nécessite la logique de votre application, par exemple, une par diffusion ou trajet en cours. Cependant, iOS applique une limite au niveau du système sur le nombre d’instances d’activité dynamiques pouvant être actives ou visibles à la fois.
 
 En pratique :
 
-* iOS typically supports up to about five concurrent Live activity instances per app.
+* iOS prend généralement en charge jusqu’à environ cinq instances d’activité en direct simultanées par application.
 
-* If you exceed this number, the system may stop displaying some activity instances or terminate older ones to conserve resources.
+* Si vous dépassez ce nombre, le système risque de ne plus afficher certaines instances d’activité ou d’arrêter les anciennes pour économiser des ressources.
 
-* Each Live activity instance has a unique `Activity.id`, which lets you update or end it individually.
-
-+++
-
-+++Do users need to have the app open to receive Live activity updates?
-
-Non. A Live activity can be started, updated, and ended remotely even when the app is completely closed, one of the key benefits of the feature.
+* Chaque instance d’activité active comporte un `Activity.id` unique, ce qui vous permet de la mettre à jour ou de la terminer individuellement.
 
 +++
 
-+++What iOS versions support Live activities?
++++Les utilisateurs doivent-ils ouvrir l’application pour recevoir les mises à jour des activités en direct ?
 
-* iOS 16.1+: Basic Live activities support
+Non. Une activité Live peut être démarrée, mise à jour et terminée à distance, même lorsque l’application est complètement fermée. Il s’agit de l’un des principaux avantages de la fonctionnalité.
+
++++
+
++++Quelles versions d’iOS prennent en charge les activités en direct ?
+
+* iOS 16.1+ : prise en charge des activités de base en direct
 * iOS 17.2+ : fonctionnalité de démarrage par notification push (démarrage à distance sans ouverture de l’application)
-* iOS 18+: Broadcast channel support for audience-based Live activities
+* iOS 18+ : prise en charge des canaux de diffusion pour les activités en direct basées sur l’audience
 +++
 
-+++How long can a Live activity remain active?
++++Pendant combien de temps une activité Live peut-elle rester active ?
 
-Apple limits Live activity to **8 hours of active updates**. Ensuite, le système met automatiquement fin à l’activité, bien qu’elle puisse rester visible dans un état statique pendant **12 heures supplémentaires au maximum** avant d’être supprimée. You can also end a Live activity sooner by setting a `dismissalDate` or explicitly calling `activity.end()` in your app.
+Apple limite l&#39;activité en direct à **8 heures de mises à jour actives**. Ensuite, le système met automatiquement fin à l’activité, bien qu’elle puisse rester visible dans un état statique pendant **12 heures supplémentaires au maximum** avant d’être supprimée. Vous pouvez également terminer une activité active plus tôt en définissant un `dismissalDate` ou en appelant explicitement `activity.end()` dans votre application.
 
 +++
 
-+++ What are the rate limits?
++++ Quelles sont les limites de taux ?
 
-Campaigns have a default rate limit of 500 transactional messages per second across all channels, including iOS Live activities. This limit applies to all channels combined, and there is no separate rate limit specifically for iOS Live activities.
+Les campagnes ont une limite de taux par défaut de 500 messages transactionnels par seconde sur tous les canaux, y compris les activités iOS Live. Cette limite s’applique à l’ensemble des canaux. Il n’existe pas de limite tarifaire distincte spécifiquement pour les activités iOS Live.
 
 +++
 
 ### Questions des développeurs et développeuses
 
-+++Do I need to create a separate widget extension for Live activities?
++++Dois-je créer une extension de widget distincte pour les activités en direct ?
 
-Oui. Live activities are displayed through WidgetKit, so you need to create a widget extension in your Xcode project and implement the `ActivityConfiguration`.
+Oui. Les activités en direct s’affichent via WidgetKit. Vous devez donc créer une extension de widget dans votre projet Xcode et implémenter le `ActivityConfiguration`.
 [En savoir plus sur la configuration des widgets](mobile-live-configuration-sdk.md)
 
 +++

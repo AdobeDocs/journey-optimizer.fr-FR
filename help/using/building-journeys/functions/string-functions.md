@@ -8,9 +8,14 @@ level: Experienced
 keywords: chaîne, fonctions, expression, parcours, texte, manipulation
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
-source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
+TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: 1140
 ht-degree: 100%
 
 ---
@@ -87,7 +92,7 @@ Vérifie si la chaîne du deuxième argument est contenue dans la chaîne du pre
 
 +++Paramètres
 
-* Chaîne
+* chaîne
 
 +++
 
@@ -121,8 +126,8 @@ Vérifie si la chaîne du deuxième argument est contenue dans la chaîne du pre
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne | chaîne |
-| chaîne recherchée | Chaîne |
+| chaîne | Chaîne |
+| chaîne recherchée | chaîne |
 
 +++
 
@@ -156,7 +161,7 @@ Renvoie « true » si le deuxième paramètre est un suffixe du premier.
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne | chaîne |
+| chaîne | Chaîne |
 | suffixe | chaîne |
 
 +++
@@ -195,7 +200,7 @@ Vérifie si la chaîne du premier argument se termine par une chaîne spécifiqu
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne | chaîne |
+| chaîne | Chaîne |
 | suffixe | chaîne |
 
 +++
@@ -228,7 +233,7 @@ Compare la chaîne du premier argument à la chaîne du deuxième argument, en i
 
 +++Paramètres
 
-* Chaîne
+* chaîne
 
 +++
 
@@ -262,7 +267,7 @@ Renvoie la position (dans le premier argument) de la dernière occurrence du deu
 
 | Paramètre | Type |
 |-----------|------------------|
-| string | Chaîne |
+| chaîne | Chaîne |
 | valeur spécifiée | Chaîne |
 
 +++
@@ -299,7 +304,7 @@ Renvoie « true » si la chaîne du paramètre ne contient aucun caractère.
 
 +++Paramètres
 
-* Chaîne
+* chaîne
 
 +++
 
@@ -339,7 +344,7 @@ Renvoie « true » si la chaîne du paramètre n’est pas vide.
 
 +++Paramètres
 
-* Chaîne
+* chaîne
 
 +++
 
@@ -377,7 +382,7 @@ Renvoie la position (dans le premier argument) de la dernière occurrence du deu
 
 | Paramètre | Type |
 |-----------|------------------|
-| string | Chaîne |
+| chaîne | Chaîne |
 | valeur spécifiée | Chaîne |
 
 +++
@@ -480,7 +485,7 @@ Renvoie « true » si la chaîne du premier paramètre correspond à l’expre
 
 | Paramètre | Type |
 |--- |--- |
-| chaîne | chaîne |
+| chaîne | Chaîne |
 | regexp | chaîne |
 
 +++
@@ -513,7 +518,7 @@ Vérifie si la chaîne du premier argument est différente de la chaîne du deux
 
 +++Paramètres
 
-* Chaîne
+* chaîne
 
 +++
 
@@ -593,7 +598,7 @@ Vous pouvez également créer la chaîne à remplacer à partir d’un attribut 
 
 Remplace toutes les occurrences correspondant à la chaîne cible par la chaîne de remplacement dans la chaîne de base.
 
-Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ». 
+Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
 
 +++Syntaxe
 
@@ -644,7 +649,7 @@ Partage la première chaîne d’arguments avec une chaîne de séparateur (deux
 | Paramètre | Type |
 |-----------|------------------|
 | chaîne d’entrée | Chaîne |
-| chaîne de séparateur | Chaîne |
+| chaîne de séparateur | chaîne |
 
 +++
 
@@ -684,7 +689,7 @@ Renvoie « true » si le deuxième paramètre est un préfixe du premier.
 
 | Paramètre | Type |
 |-------------|--------|
-| chaîne | chaîne |
+| chaîne | Chaîne |
 | préfixe | chaîne |
 
 +++
@@ -723,7 +728,7 @@ Renvoie « true » si le deuxième paramètre est un préfixe du premier sans 
 
 | Paramètre | Type |
 |-------------|--------|
-| chaîne | chaîne |
+| chaîne | Chaîne |
 | préfixe | chaîne |
 
 +++
@@ -758,7 +763,7 @@ Renvoie la sous-chaîne de l’expression sous forme de chaîne entre l’index 
 
 | Paramètre | type |
 |-------------|----------|
-| chaîne | chaîne |
+| chaîne | Chaîne |
 | beginIndex | nombre entier |
 | endIndex | nombre entier |
 

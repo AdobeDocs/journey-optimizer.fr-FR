@@ -6,9 +6,13 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '308'
+TQID: https://experienceleague.adobe.com/b4Tz4auDyWb-iaUYAie31DL5hlHh97n3rYm7EP-JjIw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 308
 ht-degree: 100%
 
 ---
@@ -76,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 ```
 -->
 
-## Fonctions de comparaison  {#comparison-functions}
+## Fonctions de comparaison {#comparison-functions}
 
 Les fonctions de comparaison sont utilisées pour comparer les différentes expressions et valeurs, renvoyant &#39;true&#39; ou &#39;false&#39; en conséquence.
 

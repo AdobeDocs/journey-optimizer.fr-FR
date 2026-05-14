@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+TQID: https://experienceleague.adobe.com/GMuI1OYuumsM7Zt7jis5IPr2ZdMsHrPzucyRZidWopw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: 441
 ht-degree: 100%
 
 ---
@@ -43,13 +50,13 @@ L’indicateur clé de performance **[!UICONTROL Suppressions de la liste d’ab
 
 Le graphe **[!UICONTROL Croissance des abonnements dans le temps]** illustre visuellement la progression des abonnements au cours de la période spécifiée, ce qui vous permet de comprendre clairement l’évolution de votre base de personnes abonnées.
 
-* **[!UICONTROL Ajouts à la liste d’abonnements]** : nombre total dʼabonnements sur la période concernée.
+* **[!UICONTROL Ajouts à la liste dʼabonnements]** : nombre total dʼabonnements sur la période concernée.
 
-* **[!UICONTROL Suppressions de la liste d’abonnements]** : nombre total de désabonnements sur la période concernée.
+* **[!UICONTROL Suppressions de la liste dʼabonnements]** : nombre total de désabonnements sur la période concernée.
 
 * **[!UICONTROL Croissance de la liste d’abonnements]** : taux auquel la liste des personnes abonnées augmente sur une période spécifique.
 
-## Listes dʼabonnements
+## Listes d’abonnements
 
 ![](assets/cja-sub-lists.png)
 
@@ -87,4 +94,4 @@ Le tableau **[!UICONTROL Canal]** affiche le nombre d’abonnements et de désab
 
 * **[!UICONTROL Ajouts à la liste dʼabonnements]** : nombre total dʼabonnements sur la période concernée.
 
-* **[!UICONTROL Suppressions de la liste dʼabonnements]** : nombre total de désabonnements sur la période concernée.
+* **[!UICONTROL Suppressions de la liste d’abonnements]** : nombre total de désabonnements sur la période concernée.

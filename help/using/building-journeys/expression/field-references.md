@@ -9,9 +9,14 @@ level: Experienced
 keywords: parcours, champ, expression, événement
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '558'
+TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 557
 ht-degree: 100%
 
 ---
@@ -24,9 +29,9 @@ Si vous utilisez des caractères spéciaux dans un champ, vous devez avoir recou
 
 * Le champ commence par des caractères numériques.
 * Le champ commence par le caractère « - ».
-* Le champ contient d’autres caractères que : _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
+* Le champ contient d’autres caractères que : _a_-_z_, _A_-_Z_, _0_-_9_, _,_-_
 
-Par exemple, si votre champ est _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+Par exemple, si votre champ est _3h_ : _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -122,7 +127,7 @@ Dans cette expression, nous obtenons l’entrée correspondant à la clé « E-
 
 ### Fonction `firstEntryKey`
 
-Pour récupérer la première clé d’entrée d’un mappage, utilisez la fonction `firstEntryKey`. 
+Pour récupérer la première clé d’entrée d’un mappage, utilisez la fonction `firstEntryKey`.
 
 Cet exemple montre comment récupérer la première adresse e-mail des abonnés d’une liste spécifique :
 
@@ -130,11 +135,11 @@ Cet exemple montre comment récupérer la première adresse e-mail des abonnés 
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-Dans cet exemple, la liste d’abonnements est nommée `daily-email`. Les adresses e-mail sont définies comme des clés dans le mappage `subscribers`, qui est lié au mappage de la liste d’abonnements. 
+Dans cet exemple, la liste d’abonnements est nommée `daily-email`. Les adresses e-mail sont définies comme des clés dans le mappage `subscribers`, qui est lié au mappage de la liste d’abonnements.
 
 ### Fonction `keys`
 
-Pour récupérer toutes les clés d’un mapping, utilisez la fonction `keys`. 
+Pour récupérer toutes les clés d’un mapping, utilisez la fonction `keys`.
 
 Cet exemple montre comment récupérer, pour un profil spécifique, toutes les adresses e-mail associées aux abonnés d’une liste spécifique :
 
@@ -150,7 +155,7 @@ Dans les cas d’utilisation plus complexes, si vous souhaitez inclure les param
 
 >[!NOTE]
 >
->Lorsque vous définissez les valeurs de paramètre dans l’expression, l’onglet de droite disparaît. 
+>Lorsque vous définissez les valeurs de paramètre dans l’expression, l’onglet de droite disparaît.
 
 Utilisez la syntaxe suivante :
 
