@@ -9,23 +9,25 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 9a63887c9bb55aac622c16f71130e8e2c9a6cb18
+source-git-commit: 994993397cf20a8eca514fad31ed3c9ece98dae2
 workflow-type: tm+mt
-source-wordcount: 1986
-ht-degree: 13%
+source-wordcount: 2054
+ht-degree: 10%
 
 ---
 
 
 ## Notes de mise à jour préliminaires du 26 mai {#may-26-rn}
 
-**Les notes de version préliminaire ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les notes de mise à jour, à la date de publication.
+**Les notes de version préliminaire ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les écrans et la documentation mise à jour sont publiés une fois les modifications mises en production. Bien que la plupart des modifications soient diffusées à la date de publication, quelques-unes peuvent être déployées ultérieurement. Pour plus d’informations, reportez-vous à la date de disponibilité répertoriée pour chaque entrée.
 
 Voir également les [Notes de mise à jour préliminaires d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Date de publication** : 19-20 mai 2026
 
 ### Nouvelles fonctionnalités {#may-26-features}
+
+Les fonctionnalités suivantes sont ciblées pour cette version.
 
 <table>
 <thead>
@@ -65,13 +67,13 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Clôture automatique des parcours pour les audiences non récurrentes</strong><br/></th>
+<th><strong>Remplissage automatique pour les parcours Lecture d’audience non récurrents</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les parcours non récurrents <strong>Lecture d’audience</strong> se ferment désormais automatiquement une fois le dernier profil actif quitté. Auparavant, ces parcours restaient <strong>en ligne</strong> jusqu’à l’expiration du délai d’expiration global de 91 jours, même lorsqu’aucun profil n’y circulait plus. Grâce à cette amélioration, ces parcours passent au statut <strong>Terminé</strong> dès que l’exécution est terminée, ce qui permet de conserver un inventaire précis de vos parcours sans intervention manuelle.</p>
+<p>Les parcours non récurrents <strong>Lecture d’audience</strong> se ferment désormais automatiquement une fois le dernier profil actif quitté. Auparavant, ces parcours restaient <strong>en ligne</strong> jusqu’à l’expiration du délai d’expiration global de 91 jours, même lorsqu’aucun profil n’y circulait plus. Grâce à cette amélioration, le statut du parcours reflète le statut d’exécution réel dès qu’il est terminé, ce qui permet de conserver un inventaire précis de vos parcours sans intervention manuelle.</p>
 <p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>Date de disponibilité : 19 mai 2026</p>
 </td>
@@ -82,13 +84,14 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Déclencher des campagnes orchestrées à partir d’une activité Fin</strong><br/></th>
+<th><strong>Campagnes orchestrées liées</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais déclencher une campagne orchestrée directement à partir de l’activité Fin d’une autre campagne orchestrée. Vous pouvez éventuellement transmettre des paramètres à la campagne cible.</p>
+<p>Les campagnes orchestrées peuvent désormais être liées en déclenchant une campagne orchestrée directement à partir de l’activité <strong>Fin</strong> d’une autre campagne orchestrée.</p>
+<p>Cela permet de diviser une logique d’orchestration complexe en flux plus petits et réutilisables qui peuvent être appelés à partir de plusieurs campagnes parentes plutôt que reconstruits à chaque fois. La payload transmise au moment de l’exécution est disponible pour la segmentation et la personnalisation dans la campagne en aval. De ce fait, chaque campagne liée peut se comporter en fonction du contexte qu’elle reçoit.</p>
 <p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
 <p>Date de disponibilité : 19 mai 2026</p>
 </td>
@@ -188,13 +191,13 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <table>
 <thead>
 <tr>
-<th><strong>Cible à partir d’un fichier dans les campagnes orchestrées</strong><br/></th>
+<th><strong>Ciblage basé sur des fichiers pour les campagnes orchestrées</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais utiliser un fichier plat comme source d’audience pour une campagne orchestrée sans avoir à ingérer le fichier dans Adobe Experience Platform au préalable. Les données du fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform.</p>
+<p>Les campagnes orchestrées prennent désormais en charge le chargement d’un fichier CSV ou TXT directement dans la zone de travail de campagne en tant qu’audience de ciblage, sans avoir à ingérer le fichier dans Adobe Experience Platform au préalable. Les données du fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform. Lors de la configuration de fichiers, vous pouvez définir des mappages de colonnes, des types de données, une gestion des NULL et des politiques d’erreur par colonne. Cela prend en charge les campagnes de listes de partenaires ou d’envois ad hoc pour lesquelles la création d’un pipeline d’ingestion complet n’est pas pratique. </p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p>Tâche JIRA de documentation : <a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC-14704</a></p>
 <p>Date de disponibilité : 28 mai 2026</p>
@@ -223,17 +226,20 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 ### Améliorations {#may-26-improv}
 
-Les améliorations de cette version sont présentées ci-dessous.
+Les améliorations suivantes sont ciblées pour cette version.
 
-#### IA
+<!--
+#### AI
 
-* **Journey Agent - Analyser** - Journey Agent comprend désormais de nouvelles compétences Analyser. Lorsque vous accédez à l’écran d’accueil du Parcours, un nouveau panneau de recommandations de l’IA s’affiche à droite, faisant apparaître des cartes avec des informations exploitables. Cliquez sur une carte pour accéder directement au parcours approprié et ouvrir le panneau de droite avec une recommandation détaillée pour aider à optimiser les performances du parcours.
+* **Journey Agent – Analyze** - Journey Agent now includes new Analyze skills. When navigating to the Journey home screen, a new AI recommendations panel appears on the right side, surfacing cards with actionable insights. Clicking a card takes you directly to the relevant journey and opens the right panel with a detailed recommendation to help optimize journey performance.
 
-  Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+  This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.
 
-  Tâche JIRA de documentation : [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
+  Documentation JIRA task: [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
 
-  Date de disponibilité : 19 mai 2026
+  Availability date: May 19, 2026
+
+-->
 
 #### Campagnes
 
@@ -245,7 +251,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
   Date de disponibilité : 19 mai 2026
 
-* **Alertes client pour les événements de cycle de vie de campagne** - Les nouvelles alertes système vous informent désormais des événements de cycle de vie clés pour les campagnes déclenchées par action et par API. Abonnez-vous au niveau du sandbox ou directement à une campagne spécifique à partir de l’inventaire des campagnes.
+* **Alertes client pour les événements de cycle de vie de campagne** - Les nouvelles alertes système vous informent désormais des événements de cycle de vie clés pour les campagnes déclenchées par action et par API. S’abonner au niveau du sandbox.
 
   Tâche JIRA de documentation : [DOCAC-14539](https://jira.corp.adobe.com/browse/DOCAC-14539)
 
@@ -331,11 +337,13 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### E-mail
 
-* **Personnalisation des en-têtes d’email avec les destinataires** - Vous pouvez désormais personnaliser les en-têtes d’email au niveau de la campagne orchestrée en remplaçant les configurations globales des canaux par des paramètres de personnalisation.
+**Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des champs d’en-tête des e-mails, notamment le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise.
 
-  Tâche JIRA de documentation : [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
 
-  Date de disponibilité : 29 mai 2026
+Tâche JIRA de documentation : [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+
+Date de disponibilité : 29 mai 2026
 
 #### Création de rapports
 
