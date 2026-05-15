@@ -9,12 +9,21 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2122
@@ -39,7 +48,7 @@ Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **
 
 Utilisez la section de prévisualisation des appareils pour visualiser la manière dont s’affiche la notification push sur iOS, Android et le Web.
 
-Accélérez la création de votre contenu avec l’assistant AI et générez du texte de notification push attrayant avec l’assistant [ AI pour la génération de texte](../content-management/generative-text.md) ou créez des notifications push complètes avec l’assistant [ AI pour la génération de contenu complète](../content-management/generative-full-content.md).
+Accélérez la création de votre contenu avec l’assistant AI et générez du texte de notification push attrayant avec l’assistant [&#x200B; AI pour la génération de texte](../content-management/generative-text.md) ou créez des notifications push complètes avec l’assistant [&#x200B; AI pour la génération de contenu complète](../content-management/generative-full-content.md).
 
 ## Comportement en cas de clic {#on-click-behavior}
 
@@ -72,7 +81,7 @@ Améliorez vos notifications push en ajoutant des médias visuels. Les types de 
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Pour Android, vous pouvez uniquement ajouter une icône d’image et une image pour les notifications étendues.
 
@@ -90,7 +99,7 @@ Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
 >
 >Lors de l’inclusion de pièces jointes multimédia dans la payload de notification push (telles que des images dans des champs de données personnalisés tels que `adb_media`), votre application mobile doit implémenter une gestion côté client spécifique pour que les images s’affichent sur les appareils. Votre application doit mettre en œuvre le [workflow d’affichage et de suivi automatique](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking){target="_blank"} pour gérer les pièces jointes d’image de la payload.
 
->[!TAB ]
+>[!TAB Tab&#x200B;]
 
 Pour iOS, vous pouvez ajouter une image, une vidéo ou un GIF à afficher dans votre notification.
 
@@ -131,7 +140,7 @@ Si l&#39;écran de l&#39;appareil est verrouillé, les boutons suivants ne s&#39
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Pour Android, vous pouvez ajouter jusqu’à trois boutons.
 
@@ -141,11 +150,11 @@ Pour Android, vous pouvez ajouter jusqu’à trois boutons.
 
 1. Utilisez l’icône **[!UICONTROL Développer la vue]** sous l’image d’aperçu centrale pour prévisualiser vos boutons personnalisés.
 
->[!TAB ]
+>[!TAB Tab&#x200B;]
 
 ![](assets/push_buttons-ios.png)
 
-Pour iOS, un identifiant de catégorie de notification est spécifié. Les catégories de notification doivent être préconfigurées dans l’application iOS qui définira les boutons à afficher et les actions à entreprendre. Consultez la [documentation ](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) pour plus d’informations.
+Pour iOS, un identifiant de catégorie de notification est spécifié. Les catégories de notification doivent être préconfigurées dans l’application iOS qui définira les boutons à afficher et les actions à entreprendre. Consultez la [documentation &#x200B;](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) pour plus d’informations.
 
 >[!TAB  Web ]
 
@@ -212,5 +221,5 @@ Vous pouvez configurer les **[!UICONTROL options avancées]** pour votre notific
 | **[!UICONTROL Ajouter une expiration push]** (iOS uniquement) | Sélectionnez la **Date et heure** de votre expiration push. Sur iOS, l’expiration des notifications s’applique de manière irréversible, ce qui signifie que tout message qui atteint le service de notifications push Apple (APNS) après son heure d’expiration n’est pas diffusé, ce qui garantit que les clients ne reçoivent jamais de notifications obsolètes ou non pertinentes. Pour en savoir plus à ce sujet, consultez la [documentation Apple destinée aux développeurs](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns). |
 | **[!UICONTROL Visibilité des notifications]** (Android uniquement) | Définit la visibilité de la notification push. <br/><b>Privé</b> affichera la notification sur tous les écrans verrouillés, mais dissimulera les informations sensibles ou privées sur les écrans verrouillés sécurisés. <br/><b>Public</b> affichera la notification dans son intégralité sur tous les écrans verrouillés. <br/><b>Secret</b> ne divulguera aucune partie de la notification sur un écran verrouillé sécurisé. <br/>Pour plus d’informations à ce sujet, consultez la [documentation Android destinée aux développeurs](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Priorité des notifications]** (Android uniquement) | Définit l&#39;importance de la notification push de Faible à Max. Cela détermine l’intrusion de la notification push lors de sa diffusion. Pour en savoir plus à ce sujet, consultez la [documentation Android destinée aux développeurs](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
-| **[!UICONTROL Priorité de diffusion]** (Android uniquement) | Définit une priorité élevée ou normale pour vos notifications push. Pour plus d&#39;informations sur la priorité des messages, consultez la documentation destinée aux développeurs de Google [](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
+| **[!UICONTROL Priorité de diffusion]** (Android uniquement) | Définit une priorité élevée ou normale pour vos notifications push. Pour plus d&#39;informations sur la priorité des messages, consultez la documentation destinée aux développeurs de Google [&#128279;](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
 | **[!UICONTROL Durée de vie]** (Android uniquement) | Définissez le nombre de secondes au-delà desquelles votre message expirera. Dans Android, l’expiration est traitée comme une fenêtre de diffusion : Firebase Cloud Messaging (FCM) convertit le délai d’expiration en une valeur de durée de vie (TTL) commençant à la réception du message, ce qui signifie que les campagnes non diffusées peuvent être envoyées plus tard que prévu ou même en dehors du délai souhaité. Pour en savoir plus à ce sujet, consultez la [documentation Android destinée aux développeurs](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl). |

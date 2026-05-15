@@ -10,12 +10,24 @@ level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 TQID: https://experienceleague.adobe.com/2NYDW7eFKVVHVzD-GFZkylilJp6AvzEm0r2Conlecss
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1238
@@ -59,7 +71,7 @@ Pour configurer une page de destination pour l’enregistrement à un événemen
 
 1. [Publier](create-lp.md#publish-landing-page) la page de destination.
 
-1. Dans un parcours [](../building-journeys/journey.md), ajoutez une activité **E-mail** pour diriger le trafic vers la page de destination d’enregistrement.
+1. Dans un parcours [&#128279;](../building-journeys/journey.md), ajoutez une activité **E-mail** pour diriger le trafic vers la page de destination d’enregistrement.
 
    ![](assets/lp_subscription-uc-journey.png)
 
@@ -79,11 +91,11 @@ Pour configurer une page de destination pour l’enregistrement à un événemen
 
 De plus, vous pouvez envoyer un e-mail de confirmation aux destinataires qui se sont inscrits à votre événement. Pour ce faire, suivez les étapes ci-dessous.
 
-1. Créez un autre parcours [](../building-journeys/journey.md). Vous pouvez le faire directement à partir de la page de destination en cliquant sur le bouton **[!UICONTROL Créer un parcours]**. [ En savoir plus ](create-lp.md#configure-primary-page)
+1. Créez un autre parcours [&#128279;](../building-journeys/journey.md). Vous pouvez le faire directement à partir de la page de destination en cliquant sur le bouton **[!UICONTROL Créer un parcours]**. [&#x200B; En savoir plus &#x200B;](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité **[!UICONTROL Qualification de l’audience]** dans la zone de travail. [ En savoir plus ](../building-journeys/audience-qualification-events.md)
+1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité **[!UICONTROL Qualification de l’audience]** dans la zone de travail. [&#x200B; En savoir plus &#x200B;](../building-journeys/audience-qualification-events.md)
 
 1. Cliquez dans le champ **[!UICONTROL Audience]** et sélectionnez la liste d’abonnements que vous avez créée.
 
@@ -107,7 +119,7 @@ Pour permettre à vos destinataires de se désabonner de vos communications, vou
 
 ### Gestion du processus d’opt-out {#opt-out-management}
 
-La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque est une exigence légale. En savoir plus sur la législation applicable dans la documentation d’[](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
+La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque est une exigence légale. En savoir plus sur la législation applicable dans la documentation d’[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
 
 Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans chaque e-mail envoyé aux destinataires :
 
@@ -118,9 +130,9 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 Pour permettre aux destinataires d’un e-mail de se désabonner de vos communications par le biais d’une page de destination, procédez comme suit :
 
-1. Créez votre page de destination. [ En savoir plus ](create-lp.md)
+1. Créez votre page de destination. [&#x200B; En savoir plus &#x200B;](create-lp.md)
 
-1. Définir la page principale. [ En savoir plus ](create-lp.md#configure-primary-page)
+1. Définir la page principale. [&#x200B; En savoir plus &#x200B;](create-lp.md#configure-primary-page)
 
 1. [Concevoir](design-lp.md) le contenu de la page principale : utilisez le composant **[!UICONTROL Formulaire]** spécifique à la page de destination, définissez une case à cocher **[!UICONTROL Opt-out]** et choisissez de mettre à jour **[!UICONTROL Canal (e-mail)]** : le profil qui active la case d&#39;opt-out sur votre page de destination sera désinscrit de toutes vos communications.
 
@@ -134,7 +146,7 @@ Pour permettre aux destinataires d’un e-mail de se désabonner de vos communic
 
    >[!NOTE]
    >
-   >Veillez à référencer la sous-page dans la section **** de la page principale du composant **[!UICONTROL Formulaire]**. [ En savoir plus ](design-lp.md)
+   >Veillez à référencer la sous-page dans la section **&#x200B;**&#x200B;de la page principale du composant **[!UICONTROL Formulaire]**. [&#x200B; En savoir plus &#x200B;](design-lp.md)
 
 1. Une fois que vous avez configuré et défini le contenu de vos pages, [publiez](create-lp.md#publish-landing-page) la page de destination.
 
@@ -176,7 +188,7 @@ Les informations sur les désinscriptions sont stockées dans le **Jeu de donné
 
 >[!NOTE]
 >
->Si la méthode de fusion de votre stratégie de fusion [](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL Profils]** par défaut est **[!UICONTROL Priorité du jeu de données]**, veillez à activer le **[!UICONTROL jeu de données du service de consentement AJO]** et à le classer par priorité dans la stratégie de fusion. [ En savoir plus ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>Si la méthode de fusion de votre stratégie de fusion [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL Profils]** par défaut est **[!UICONTROL Priorité du jeu de données]**, veillez à activer le **[!UICONTROL jeu de données du service de consentement AJO]** et à le classer par priorité dans la stratégie de fusion. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Même si aucun lot n’a été ajouté à ce jeu de données, il contiendra toujours les informations d’opt-in/opt-out.
 
@@ -203,7 +215,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 Vous pouvez utiliser les informations envoyées sur une page de destination pour effectuer d’autres actions. Par exemple, si un utilisateur s’abonne à une liste d’abonnements donnée, vous pouvez exploiter ces informations pour envoyer un e-mail recommandant d’autres listes d’abonnements à cet utilisateur.
 
-Pour ce faire, vous devez créer un [événement unitaire basé sur des règles](../event/about-creating.md) basé sur le **[!UICONTROL Schéma d’événement d’expérience de tracking d’e-mail AJO]** contenant les informations d’envoi et [utiliser cet événement dans un parcours ](../building-journeys/general-events.md).
+Pour ce faire, vous devez créer un [événement unitaire basé sur des règles](../event/about-creating.md) basé sur le **[!UICONTROL Schéma d’événement d’expérience de tracking d’e-mail AJO]** contenant les informations d’envoi et [utiliser cet événement dans un parcours &#x200B;](../building-journeys/general-events.md).
 
 >[!NOTE]
 >

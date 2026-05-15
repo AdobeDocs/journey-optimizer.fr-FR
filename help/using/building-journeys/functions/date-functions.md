@@ -9,10 +9,16 @@ keywords: date, fonctions, expression, parcours, heure
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 834
@@ -36,7 +42,7 @@ Les fonctions de date fournissent un contrôle précis sur la logique temporelle
 
 >[!NOTE]
 >
->Les fonctions de cette page sont disponibles dans les expressions de parcours. Certaines fonctions telles que `now()` ne sont pas disponibles dans l’éditeur de personnalisation du contenu des e-mails. [ En savoir plus ](../../personalization/functions/dates.md)
+>Les fonctions de cette page sont disponibles dans les expressions de parcours. Certaines fonctions telles que `now()` ne sont pas disponibles dans l’éditeur de personnalisation du contenu des e-mails. [&#x200B; En savoir plus &#x200B;](../../personalization/functions/dates.md)
 
 ## currentTimeInMillis {#currentTimeInMillis}
 
@@ -360,7 +366,7 @@ Renvoie la date actuelle au format date et heure. Pour plus d’informations sur
 
 >[!NOTE]
 >
->Cette fonction n’est disponible que dans les expressions de parcours. Pour la personnalisation des e-mails et d’autres contenus, utilisez plutôt `getCurrentZonedDateTime()`. [ En savoir plus ](../../personalization/functions/dates.md#get-current-zoned-date-time)
+>Cette fonction n’est disponible que dans les expressions de parcours. Pour la personnalisation des e-mails et d’autres contenus, utilisez plutôt `getCurrentZonedDateTime()`. [&#x200B; En savoir plus &#x200B;](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++Syntaxe
 

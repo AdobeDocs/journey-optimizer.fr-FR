@@ -11,12 +11,23 @@ keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/pclOxVDnQikU-2nLYMJ8mqEog9QL4WZBC7-NbvhuzIg
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 566
@@ -31,7 +42,7 @@ Une fois votre parcours publié, une fois le [mode d’exécution d’essai](jou
 
 >[!AVAILABILITY]
 >
->Si vous ne pouvez pas voir de données dans votre rapport dynamique de parcours, vos droits d’accès doivent être étendus pour inclure l’autorisation **[!UICONTROL Afficher le rapport des parcours]**. [ En savoir plus ](../administration/permissions.md)
+>Si vous ne pouvez pas voir de données dans votre rapport dynamique de parcours, vos droits d’accès doivent être étendus pour inclure l’autorisation **[!UICONTROL Afficher le rapport des parcours]**. [&#x200B; En savoir plus &#x200B;](../administration/permissions.md)
 
 
 Les événements affichés se sont produits au cours des dernières 24 heures, avec un intervalle minimum de deux minutes entre l’événement et son affichage, généralement dans les cinq minutes.
@@ -74,7 +85,7 @@ Si les problèmes persistent après avoir vérifié ces éléments, contactez vo
 >[!MORELIKETHIS]
 >
 >* [Prise en main du reporting](../reports/gs-reports.md)
->* [Publier votre parcours ](publish-journey.md)
->* [Exécution d’essai de Parcours ](journey-dry-run.md)
->* [Configurer et suivre les mesures de parcours ](success-metrics.md)
->* [ Rapports de parcours personnalisés ](../reports/sharing-overview.md)
+>* [Publier votre parcours &#x200B;](publish-journey.md)
+>* [Exécution d’essai de Parcours &#x200B;](journey-dry-run.md)
+>* [Configurer et suivre les mesures de parcours &#x200B;](success-metrics.md)
+>* [&#x200B; Rapports de parcours personnalisés &#x200B;](../reports/sharing-overview.md)

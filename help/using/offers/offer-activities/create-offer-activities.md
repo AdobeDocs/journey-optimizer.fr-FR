@@ -11,10 +11,19 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-LQH0
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2569
@@ -26,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Decisioning, la nouvelle fonctionnalité de prise de décision de [!DNL Adobe Journey Optimizer], est désormais disponible via l’expérience basée sur le code et les canaux e-mail. [ En savoir plus ](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nouvelle fonctionnalité de prise de décision de [!DNL Adobe Journey Optimizer], est désormais disponible via l’expérience basée sur le code et les canaux e-mail. [&#x200B; En savoir plus &#x200B;](../../experience-decisioning/gs-experience-decisioning.md)
 
 Les décisions sont des conteneurs qui s’appuient sur le moteur de décision pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
 
@@ -115,7 +124,7 @@ Avant de créer une décision, vérifiez que les composants ci-dessous ont été
 
      ![](../assets/activity_constraint_segment2.png)
 
-     Découvrez comment utiliser les audiences dans [ cette section ](../../audience/about-audiences.md).
+     Découvrez comment utiliser les audiences dans [&#x200B; cette section &#x200B;](../../audience/about-audiences.md).
 
    * Si vous souhaitez ajouter une contrainte de sélection avec une règle de décision, utilisez l’option **[!UICONTROL Règle de décision]** et sélectionnez la règle de votre choix.
 
@@ -143,7 +152,7 @@ Avant de créer une décision, vérifiez que les composants ci-dessous ont été
 
    ![](../assets/activity_add-collection.png)
 
-1. Lorsque vous ajoutez plusieurs critères, ils sont évalués dans un ordre spécifique. La première collection ajoutée à la séquence est évaluée en premier, et ainsi de suite. [ En savoir plus ](#evaluation-criteria-order)
+1. Lorsque vous ajoutez plusieurs critères, ils sont évalués dans un ordre spécifique. La première collection ajoutée à la séquence est évaluée en premier, et ainsi de suite. [&#x200B; En savoir plus &#x200B;](#evaluation-criteria-order)
 
    Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les collections afin de les réorganiser selon vos besoins.
 
@@ -153,7 +162,7 @@ Avant de créer une décision, vérifiez que les composants ci-dessous ont été
 
    ![](../assets/activity_move-collection.png)
 
-   Ils ont désormais le même rang et seront donc évalués en même temps. [ En savoir plus ](#evaluation-criteria-order)
+   Ils ont désormais le même rang et seront donc évalués en même temps. [&#x200B; En savoir plus &#x200B;](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
@@ -169,7 +178,7 @@ Avant de créer une décision, vérifiez que les composants ci-dessous ont été
 
    >[!NOTE]
    >
-   >L’ajout de plusieurs portées de décision modifie l’ordre des critères d’évaluation. [ En savoir plus ](#multiple-scopes)
+   >L’ajout de plusieurs portées de décision modifie l’ordre des critères d’évaluation. [&#x200B; En savoir plus &#x200B;](#multiple-scopes)
 
 ### Ordre des critères d’évaluation {#evaluation-criteria-order}
 
@@ -271,7 +280,7 @@ Dans cet exemple, les offres 1 et 3 ont atteint leur limite de fréquence maxima
 La sélection se présente comme suit :
 
 1. Les deux autres meilleures offres éligibles de la portée 1 sont renvoyées (offre 2 et offre 4).
-1. Il n’existe aucune autre offre éligible pour la portée 2. Par conséquent, la [ offre de secours ](#add-fallback) est renvoyée.
+1. Il n’existe aucune autre offre éligible pour la portée 2. Par conséquent, la [&#x200B; offre de secours &#x200B;](#add-fallback) est renvoyée.
 
 +++
 
