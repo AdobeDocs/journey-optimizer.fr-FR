@@ -5,10 +5,11 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
+source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 44%
+source-wordcount: '288'
+ht-degree: 31%
 
 ---
 
@@ -24,7 +25,7 @@ Pour créer une boîte de réception de messages par le biais d&#39;une campagne
 
    * **[!UICONTROL Scheduled - Marketing]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **[!UICONTROL Déclenchée par API - Marketing/Transactionnelle]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrir comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL Déclenchée par API - Marketing/Transactionnelle]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing** ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, achat au panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
 
 1. Dans l’onglet **[!UICONTROL Propriétés]**, spécifiez un nom et une description pour la campagne.
 
