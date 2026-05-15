@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: Fonctions de chaîne
-description: En savoir plus sur les fonctions de chaîne
+description: Découvrez les fonctions de chaîne
 feature: Journeys
 role: Developer
 level: Experienced
@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1140
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
@@ -29,18 +29,18 @@ ht-degree: 100%
 
 Les fonctions de chaîne vous permettent de manipuler et d’utiliser des valeurs de texte dans vos expressions de parcours. Ces fonctions sont essentielles pour le traitement de texte, la validation, la transformation et l’analyse dans vos parcours clients.
 
-Utilisez des fonctions de chaîne lorsque vous devez :
+Utilisez des fonctions de chaîne lorsque vous devez :
 
-* concaténer et combiner plusieurs valeurs de texte ([concat](#concat)) ;
-* rechercher des modèles de texte ou des sous-chaînes spécifiques ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp)) ;
-* comparer des chaînes avec une correspondance sensible ou insensible à la casse ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase)) ;
-* vérifier que la chaîne commence et se termine ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase)) ;
-* extraire des parties de texte à l’aide d’opérations de sous-chaîne ([substr](#substr)) ;
-* transformer le texte en majuscules ou en minuscules ([majuscule](#upper), [inférieure](#lower), [rognage](#trim)) ;
-* vérifier si les chaînes sont vides ou contiennent des valeurs spécifiques ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty)) ;
-* remplacer des modèles de texte par de nouvelles valeurs ([replace](#replace), [replaceAll](#replaceAll)) ;
-* partager les chaînes en tableaux pour un traitement ultérieur ([division](#split)) ;
-* obtenir la longueur de la chaîne ([length](#length)) ou générer les identifiants uniques ([uuid](#uuid)).
+* Concaténer et combiner plusieurs valeurs de texte ([concat](#concat))
+* Recherchez des modèles de texte ou des sous-chaînes spécifiques ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
+* Comparer des chaînes avec une correspondance sensible à la casse ou insensible à la casse ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
+* Vérifiez que la chaîne commence et se termine ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase)).
+* Extraire des parties de texte à l’aide d’opérations de sous-chaîne ([substr](#substr))
+* Transformer le texte en majuscules ou en minuscules ([majuscule](#upper), [inférieure](#lower), [rognage](#trim))
+* Vérifiez si les chaînes sont vides ou contiennent des valeurs spécifiques ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty))
+* Remplacer des modèles de texte par de nouvelles valeurs ([replace](#replace), [replaceAll](#replaceAll))
+* Diviser les chaînes en tableaux pour un traitement ultérieur ([division](#split))
+* Obtenir la longueur de la chaîne ([length](#length)) ou générer les identifiants uniques ([uuid](#uuid))
 
 Les fonctions de chaîne fournissent des fonctionnalités complètes de manipulation de texte, permettant un traitement des données sophistiqué et une logique conditionnelle basée sur le contenu texte de vos expressions de parcours.
 
@@ -59,7 +59,7 @@ Concatène deux paramètres de chaîne ou une liste de chaînes.
 | Paramètre | Type |
 |-----------|------------------|
 | Liste | listString |
-| chaîne | Chaîne |
+| chaîne | chaîne |
 
 +++
 
@@ -77,17 +77,17 @@ Renvoie une chaîne.
 
 `concat("Hello","World")`
 
-Renvoie « HelloWorld ».
+Renvoie « HelloWorld ».
 
 `concat(["Hello"," ","World"])`
 
-Renvoie « Hello World ».
+Renvoie « Hello World ».
 
 +++
 
 ## contain {#contain}
 
-Vérifie si la chaîne du deuxième argument est contenue dans la chaîne du premier argument.
+Vérifie si la deuxième chaîne d&#39;arguments est contenue dans la première chaîne d&#39;arguments.
 
 +++Syntaxe
 
@@ -119,7 +119,7 @@ Renvoie true.
 
 ## containIgnoreCase {#containIgnoreCase}
 
-Vérifie si la chaîne du deuxième argument est contenue dans la chaîne du premier argument, sans tenir compte de la casse.
+Vérifie si la deuxième chaîne d&#39;arguments est contenue dans la première chaîne d&#39;arguments, sans prendre en compte la casse.
 
 +++Syntaxe
 
@@ -131,7 +131,7 @@ Vérifie si la chaîne du deuxième argument est contenue dans la chaîne du pre
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne | Chaîne |
+| chaîne | chaîne |
 | chaîne recherchée | chaîne |
 
 +++
@@ -154,7 +154,7 @@ Renvoie true.
 
 ## endWith {#endWith}
 
-Renvoie « true » si le deuxième paramètre est un suffixe du premier.
+Renvoie vrai si le deuxième paramètre est un suffixe du premier.
 
 +++Syntaxe
 
@@ -166,7 +166,7 @@ Renvoie « true » si le deuxième paramètre est un suffixe du premier.
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne | Chaîne |
+| chaîne | chaîne |
 | suffixe | chaîne |
 
 +++
@@ -193,7 +193,7 @@ Renvoie false.
 
 ## endWithIgnoreCase {#endWithIgnoreCase}
 
-Vérifie si la chaîne du premier argument se termine par une chaîne spécifique (chaîne du deuxième argument), sans tenir compte de la casse.
+Vérifie si la première chaîne d’arguments se termine par une chaîne spécifique (deuxième chaîne d’arguments), en ne tenant pas compte de la casse.
 
 +++Syntaxe
 
@@ -205,7 +205,7 @@ Vérifie si la chaîne du premier argument se termine par une chaîne spécifiqu
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne | Chaîne |
+| chaîne | chaîne |
 | suffixe | chaîne |
 
 +++
@@ -228,7 +228,7 @@ Renvoie true.
 
 ## equalIgnoreCase {#equalIgnoreCase}
 
-Compare la chaîne du premier argument à la chaîne du deuxième argument, en ignorant les considérations de casse.
+Compare la première chaîne d’arguments à la seconde chaîne d’arguments, en ignorant les considérations de casse.
 
 +++Syntaxe
 
@@ -260,7 +260,7 @@ Renvoie true.
 
 ## indexOf {#indexOf}
 
-Renvoie la position (dans le premier argument) de la dernière occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
+Renvoie la position (dans le premier argument) de la première occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
 
 +++Syntaxe
 
@@ -272,8 +272,8 @@ Renvoie la position (dans le premier argument) de la dernière occurrence du deu
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne | Chaîne |
-| valeur spécifiée | Chaîne |
+| chaîne | String |
+| valeur spécifiée | String |
 
 +++
 
@@ -291,15 +291,15 @@ Renvoie un entier.
 
 Renvoie 2.
 
-Explication :
+Explication :
 
-Dans « Hello », la première occurrence de « l » est en position 2.
+Dans « Hello », la première occurrence de « l » est à la position 2.
 
 +++
 
 ## isEmpty {#isEmpty}
 
-Renvoie « true » si la chaîne du paramètre ne contient aucun caractère.
+Renvoie vrai si la chaîne du paramètre ne comporte aucun caractère.
 
 +++Syntaxe
 
@@ -339,7 +339,7 @@ Renvoie false.
 
 ## isNotEmpty {#isNotEmpty}
 
-Renvoie « true » si la chaîne du paramètre n’est pas vide.
+Renvoie true si la chaîne du paramètre n’est pas vide.
 
 +++Syntaxe
 
@@ -387,8 +387,8 @@ Renvoie la position (dans le premier argument) de la dernière occurrence du deu
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne | Chaîne |
-| valeur spécifiée | Chaîne |
+| chaîne | String |
+| valeur spécifiée | String |
 
 +++
 
@@ -406,15 +406,15 @@ Renvoie un entier.
 
 Renvoie 3.
 
-Explication :
+Explication :
 
-Dans « Hello », la dernière occurrence de « l » est en position 3.
+Dans « Hello », la dernière occurrence de « l » est à la position 3.
 
 +++
 
-## length {#length}
+## longueur {#length}
 
-Renvoie le nombre de caractères de l’expression sous forme de chaîne dans le paramètre.
+Renvoie le nombre de caractères de l’expression de chaîne dans le paramètre.
 
 +++Syntaxe
 
@@ -446,7 +446,7 @@ Renvoie 11.
 
 ## lower {#lower}
 
-Renvoie une version en minuscules du paramètre.
+Renvoie une version en minuscules du paramètre .
 
 +++Syntaxe
 
@@ -472,13 +472,13 @@ Renvoie une chaîne.
 
 `lower("A")`
 
-Renvoie « a ».
+Renvoie « a ».
 
 +++
 
 ## matchRegExp {#matchRegExp}
 
-Renvoie « true » si la chaîne du premier paramètre correspond à l’expression régulière du second paramètre. Pour plus d’informations, consultez [cette page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Renvoie vrai si la chaîne du premier paramètre correspond à l’expression régulière du deuxième paramètre. Pour plus d’informations, voir [cette page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 +++Syntaxe
 
@@ -490,7 +490,7 @@ Renvoie « true » si la chaîne du premier paramètre correspond à l’expre
 
 | Paramètre | Type |
 |--- |--- |
-| chaîne | Chaîne |
+| chaîne | chaîne |
 | regexp | chaîne |
 
 +++
@@ -513,7 +513,7 @@ Renvoie true.
 
 ## notEqualIgnoreCase {#notEqualIgnoreCase}
 
-Vérifie si la chaîne du premier argument est différente de la chaîne du deuxième argument, en ignorant les considérations de casse.
+Vérifiez si la première chaîne d’arguments et la deuxième chaîne d’arguments sont différentes, en ignorant les considérations de casse.
 
 +++Syntaxe
 
@@ -545,7 +545,7 @@ Renvoie une valeur booléenne.
 
 Remplace la première occurrence correspondant à la chaîne cible par la chaîne de remplacement dans la chaîne de base.
 
-Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
+Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
 
 +++Syntaxe
 
@@ -557,9 +557,9 @@ Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le 
 
 | Paramètre | Type |
 |-----------|--------------|
-| base | chaîne |
+| socle | chaîne |
 | cible | string (RegExp) |
-| remplacement | chaîne |
+| substitution | chaîne |
 
 +++
 
@@ -575,11 +575,11 @@ Renvoie une chaîne.
 
 `replace("Hello World", "l", "x")`
 
-Renvoie « Hexlo World ».
+Renvoie « Hexlo World ».
 
-**Exemple avec RegExp :**
+**Exemple avec RegExp:**
 
-Comme le paramètre cible est un RegExp, selon la chaîne que vous souhaitez remplacer, vous devrez peut-être ajouter une séquence d’échappement à certains caractères. Voici un exemple :
+Comme le paramètre cible est un RegExp, selon la chaîne que vous souhaitez remplacer, vous devrez peut-être ajouter une séquence d’échappement à certains caractères. Voici un exemple :
 
 * chaîne à évaluer : `|OFFER_A|OFFER_B`
 * fourni par un attribut de profil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
@@ -587,13 +587,13 @@ Comme le paramètre cible est un RegExp, selon la chaîne que vous souhaitez rem
 * Chaîne remplacée par : `''`
 * Vous devez ajouter `\\` avant le caractère `|`.
 
-L’expression est la suivante :
+L’expression est :
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
 
-La chaîne renvoyée est la suivante : `|OFFER_B`
+La chaîne renvoyée est : `|OFFER_B`
 
-Vous pouvez également créer la chaîne à remplacer à partir d’un attribut donné :
+Vous pouvez également créer la chaîne à remplacer à partir d’un attribut donné :
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`
 
@@ -603,7 +603,7 @@ Vous pouvez également créer la chaîne à remplacer à partir d’un attribut 
 
 Remplace toutes les occurrences correspondant à la chaîne cible par la chaîne de remplacement dans la chaîne de base.
 
-Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
+Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
 
 +++Syntaxe
 
@@ -615,9 +615,9 @@ Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le 
 
 | Paramètre | Type |
 |-----------|--------------|
-| base | chaîne |
+| socle | chaîne |
 | cible | string (RegExp) |
-| remplacement | chaîne |
+| substitution | chaîne |
 
 +++
 
@@ -633,15 +633,15 @@ Renvoie une chaîne.
 
 `replaceAll("Hello World", "l", "x")`
 
-Renvoie « Hexxo Worxd ».
+Renvoie « Hexxo Word ».
 
 Comme le paramètre cible est un RegExp, selon la chaîne que vous souhaitez remplacer, vous devrez peut-être ajouter une séquence d’échappement à certains caractères. Reportez-vous à l’exemple de la fonction [replace](#replace).
 
 +++
 
-## split {#split}
+## scinder {#split}
 
-Partage la première chaîne d’arguments avec une chaîne de séparateur (deuxième chaîne d’arguments, qui peut être une expression régulière) pour produire une liste de chaînes (jetons).
+Divise la première chaîne d’arguments par une chaîne de séparation (la deuxième chaîne d’arguments, qui peut être une expression régulière) afin de produire une liste de chaînes (jetons).
 
 +++Syntaxe
 
@@ -653,8 +653,8 @@ Partage la première chaîne d’arguments avec une chaîne de séparateur (deux
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne d’entrée | Chaîne |
-| chaîne de séparateur | chaîne |
+| chaîne d’entrée | chaîne |
+| chaîne de séparation | chaîne |
 
 +++
 
@@ -662,7 +662,7 @@ Partage la première chaîne d’arguments avec une chaîne de séparateur (deux
 
 `split(<input string>, <separator string>)`
 
-Renvoie une fonction listString.
+Renvoie une valeur listString.
 
 +++
 
@@ -672,7 +672,7 @@ Renvoie une fonction listString.
 
 Renvoie `["A","B","C"]`
 
-Exemple avec un champ d’événement &#39;event.appVersion&#39; avec la valeur : « 20.45.2.3434 »
+Exemple avec un champ d’événement « event.appVersion » avec la valeur : « 20.45.2.3434 »
 
 `split(@event{event.appVersion}, "\\.")`
 
@@ -682,7 +682,7 @@ Renvoie `["20", "45", "2", "3434"]`
 
 ## startWith {#startWith}
 
-Renvoie « true » si le deuxième paramètre est un préfixe du premier.
+Renvoie vrai si le deuxième paramètre est un préfixe du premier.
 
 +++Syntaxe
 
@@ -694,7 +694,7 @@ Renvoie « true » si le deuxième paramètre est un préfixe du premier.
 
 | Paramètre | Type |
 |-------------|--------|
-| chaîne | Chaîne |
+| chaîne | chaîne |
 | préfixe | chaîne |
 
 +++
@@ -703,7 +703,7 @@ Renvoie « true » si le deuxième paramètre est un préfixe du premier.
 
 `startWith(<string>,<string>)`
 
-Renvoie une valeur booléenne.
+Renvoyer une valeur booléenne.
 
 +++
 
@@ -721,7 +721,7 @@ Renvoie false.
 
 ## startWithIgnoreCase {#startWithIgnoreCase}
 
-Renvoie « true » si le deuxième paramètre est un préfixe du premier sans tenir compte de la casse.
+Renvoie vrai si le deuxième paramètre est un préfixe du premier sans tenir compte de la casse.
 
 +++Syntaxe
 
@@ -733,7 +733,7 @@ Renvoie « true » si le deuxième paramètre est un préfixe du premier sans 
 
 | Paramètre | Type |
 |-------------|--------|
-| chaîne | Chaîne |
+| chaîne | chaîne |
 | préfixe | chaîne |
 
 +++
@@ -742,7 +742,7 @@ Renvoie « true » si le deuxième paramètre est un préfixe du premier sans 
 
 `startWithIgnoreCase(<string>,<string>)`
 
-Renvoie une valeur booléenne.
+Renvoyer une valeur booléenne.
 
 +++
 
@@ -756,7 +756,7 @@ Renvoie true.
 
 ## substr {#substr}
 
-Renvoie la sous-chaîne de l’expression sous forme de chaîne entre l’index de début et l’index de fin. Si l’index de fin n’est pas défini, il se trouve entre l’index de début et la fin.
+Renvoie la sous-chaîne de l’expression de chaîne entre l’index de début et l’index de fin. Si l’index de fin n’est pas défini, il se trouve entre l’index de début et la fin.
 
 +++Syntaxe
 
@@ -768,7 +768,7 @@ Renvoie la sous-chaîne de l’expression sous forme de chaîne entre l’index 
 
 | Paramètre | type |
 |-------------|----------|
-| chaîne | Chaîne |
+| chaîne | chaîne |
 | beginIndex | nombre entier |
 | endIndex | nombre entier |
 
@@ -788,15 +788,15 @@ Renvoie une chaîne.
 
 `substr("Hello World",6)`
 
-Renvoie « World ».
+Renvoie « World ».
 
 `substr("Hello World", 0, 5)`
 
-Renvoie « Hello ».
+Renvoie « Hello ».
 
 +++
 
-## trim {#trim}
+## rogner {#trim}
 
 Supprime les espaces de début et de fin.
 
@@ -810,7 +810,7 @@ Supprime les espaces de début et de fin.
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne | Chaîne |
+| chaîne | chaîne |
 
 +++
 
@@ -826,13 +826,13 @@ Renvoie une chaîne.
 
 `trim(" Hello ")`
 
-Renvoie « Hello ».
+Renvoie « Hello ».
 
 +++
 
 ## upper {#upper}
 
-Renvoie une version en majuscules du paramètre.
+Renvoie une version en majuscules du paramètre .
 
 +++Syntaxe
 
@@ -852,13 +852,13 @@ Renvoie une chaîne.
 
 `upper("b")`
 
-Renvoie « B ».
+Renvoie « B ».
 
 +++
 
 ## uuid {#uuid}
 
-Génère un UUID (Universal Unique Identifier) aléatoire.
+Génère un UUID aléatoire (Universal Unique IDentifier).
 
 +++Syntaxe
 
@@ -868,7 +868,7 @@ Génère un UUID (Universal Unique Identifier) aléatoire.
 
 +++Paramètres 
 
-Cette fonction ne requiert pas de paramètres.
+Cette fonction ne nécessite aucun paramètre.
 
 +++
 
@@ -884,6 +884,6 @@ Renvoie une chaîne.
 
 `uuid()`
 
-Renvoie « 79e70b7f-8a85-400b-97a1-9f9826121553 »
+Renvoie « 79e70b7f-8a85-400b-97a1-9f9826121553 ».
 
 +++

@@ -21,18 +21,18 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 545
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Fonctions de gestion des collections {#collection-management-functions}
 
 
-## À propos des fonctions d’interrogation de collections
+## À propos des fonctions de collecte de requêtes
 
-Le langage d’expression s’accompagne également d’un ensemble de fonctions permettant d’interroger les collections. Ces fonctions sont expliquées ci-dessous.
+Le langage d’expression introduit également un ensemble de fonctions pour interroger des collections. Ces fonctions sont expliquées ci-dessous.
 
-Dans les exemples suivants, nous utilisons un événement nommé « LobbyBeacon » contenant une collection de jetons de notification push. Les exemples de cette page utilisent la structure de payload d’événement illustrée ci-dessous :
+Dans les exemples suivants, nous utilisons un événement nommé « LobbyBeacon » contenant une collection de jetons de notification push. Les exemples de cette page utilisent la structure de payload d&#39;événement illustrée ci-dessous :
 
 ```json
                 { 
@@ -76,7 +76,7 @@ Dans les exemples suivants, nous utilisons un événement nommé « LobbyBeacon
 
 >[!NOTE]
 >
->Dans les exemples ci-dessous, cette payload est référencée à l’aide de `@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}` où « LobbyBeacon » est le nom de l’événement et le reste du chemin d’accès correspond à la structure affichée ci-dessus.
+>Dans les exemples ci-dessous, cette payload est référencée à l’aide de `@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}` où « LobbyBeacon » est le nom de l’événement et le reste du chemin d’accès correspond à la structure affichée ci-dessus.
 
 ## La fonction all(`<condition>`)
 
@@ -86,30 +86,30 @@ La fonction **[!UICONTROL all]** permet de définir un filtre sur une collection
 <listExpression>.all(<condition>)
 ```
 
-**Exemple conceptuel :** parmi toutes les personnes utilisant l’application, vous pouvez extraire celles qui utilisent IOS 13 (expression booléenne « app used == IOS 13 »). Le résultat de cette fonction est une liste filtrée contenant les éléments qui correspondent à l’expression booléenne (exemple : utilisateur 1 de l’application, utilisateur 34 de l’application, utilisateur 432 de l’application).
+**Exemple conceptuel :** parmi tous les utilisateurs de l’application, vous pouvez obtenir ceux qui utilisent IOS 13 (expression booléenne « application utilisée == IOS 13 »). Le résultat de cette fonction est la liste filtrée contenant les éléments correspondant à l’expression booléenne (exemple : utilisateur de l’application 1, utilisateur de l’application 34, utilisateur de l’application 432).
 
-Dans une activité Condition de source de données, vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** à d’autres fonctions, telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité Condition de source de données](../conditions.md#data_source_condition).
+Dans une activité Condition de Source de données , vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** avec d’autres fonctions telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité de condition de Source de données](../conditions.md#data_source_condition).
 
-**Exemples de code utilisant la payload LobbyBeacon :**
+**Exemples de code utilisant la payload LobbyBeacon :**
 
 Les exemples ci-dessous utilisent la payload d’événement affichée en haut de cette page.
 
 
 >[!CAUTION]
 >
->L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’utiliser d’autres méthodes. [En savoir plus](../exp-event-lookup.md)
+>L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes. [&#x200B; En savoir plus &#x200B;](../exp-event-lookup.md)
 
-### Exemple 1
+### Exemple 1
 
-Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
+Nous voulons vérifier si un utilisateur a installé une version spécifique d’une application. Pour ce faire, nous obtenons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
 ```
 
-Le résultat est true.
+Le résultat est vrai.
 
-### Exemple 2
+### Exemple 2
 
 Ici, nous utilisons la fonction **[!UICONTROL count]** pour vérifier s’il existe des jetons de notification push dans la collection.
 
@@ -118,7 +118,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 ```
 
 
-Le résultat est true.
+Le résultat est vrai.
 
 
 ```json
@@ -130,24 +130,24 @@ Le résultat de l’expression est **3**.
 
 >[!NOTE]
 >
->* Lorsque la condition de filtrage de la fonction **all()** est vide, le filtre renvoie tous les éléments de la liste. **Cependant, pour comptabiliser le nombre d’éléments d’une collection, la fonction all n’est pas obligatoire.**
+>* Lorsque la condition de filtrage de la fonction **all()** est vide, le filtre renvoie tous les éléments de la liste. **Toutefois, pour compter le nombre d’éléments d’une collection, la fonction all n’est pas obligatoire.**
 >
 >* `currentEventField` n’est disponible que lors de la manipulation de collections d’événements, `currentDataPackField` lors de la manipulation de collections de sources de données et `currentActionField` lors de la manipulation de collections de réponses d’actions personnalisées.
 >
->  Lors du traitement de collections avec `all`, `first` et `last`, une boucle est exécutée sur chaque élément de la collection, un par un. `currentEventField`, `currentDataPackField` et `currentActionField` correspondent à l’élément exécuté en boucle.
+>  Lors du traitement des collections avec `all`, `first` et `last`, nous effectuons une boucle sur chaque élément de la collection, un par un. `currentEventField`, `currentDataPackField` et `currentActionField` correspondent à l&#39;élément en boucle.
 
 
 ## Fonctions first(`<condition>`) et last(`<condition>`)
 
-Les fonctions **[!UICONTROL first]** et **[!UICONTROL last]** activent également la définition d’un filtre sur la collection, tout en renvoyant le premier/dernier élément de la liste qui correspond au filtre.
+Les fonctions **[!UICONTROL first]** et **[!UICONTROL last]** permettent également de définir un filtre sur la collection en renvoyant le premier/dernier élément de la liste qui répond au filtre.
 
 _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-### Exemple 1
+### Exemple 1
 
-Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
+Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est 1.0.
 
 
 ```json
@@ -156,9 +156,9 @@ Cette expression renvoie le premier jeton de notification push associé aux appl
 
 Le résultat est `token_1`.
 
-### Exemple 2
+### Exemple 2
 
-Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
+Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est 1.0.
 
 
 ```json
@@ -169,8 +169,8 @@ Le résultat est `token_2`.
 
 ## La fonction at(`<index>`)
 
-La fonction **[!UICONTROL at]** vous permet de référencer un élément spécifique d’une collection conformément à un index.
-L’index 0 est le premier de la collection.
+La fonction **[!UICONTROL at]** permet de référencer un élément spécifique dans une collection en fonction d&#39;un index.
+Index 0 est le premier index de la collection.
 
 _`<listExpression>`.at(`<index>`)_
 

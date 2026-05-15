@@ -51,7 +51,7 @@ Vous pouvez accéder à votre rapport de parcours par e-mail en cliquant sur le 
 
 >[!ENDSHADEBOX]
 
-## Tendance diffusés et clics {#delivered-click}
+## Tendance des diffusions et clics {#delivered-click}
 
 ![](assets/cja-journey-email-delivered.png)
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Accès au catalogue d’offres exporté
-description: Découvrez comment accéder au catalogue d’offres sur Adobe Experience Platform une fois qu’il a été exporté.
+description: Découvrez comment accéder au catalogue d'offres sur Adobe Experience Platform une fois qu'il a été exporté
 badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
@@ -26,7 +26,7 @@ level_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 105
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 100%
 
 >[!TIP]
 >
->La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nouvelle fonctionnalité de prise de décision de [!DNL Adobe Journey Optimizer], est désormais disponible via l’expérience basée sur le code et les canaux e-mail. [&#x200B; En savoir plus &#x200B;](../../experience-decisioning/gs-experience-decisioning.md)
 
-Le catalogue d’offres exporté est accessible dans le menu **[!UICONTROL Jeux de données]** d’Adobe Experience Platform. Un jeu de données est créé pour chaque objet de votre bibliothèque des offres.
+Le catalogue d’offres exporté est accessible dans le menu Adobe Experience Platform **[!UICONTROL Jeux de données]**. Un jeu de données est créé pour chaque objet de la bibliothèque des offres.
 
 ![](../assets/datasets-list.png)
 
