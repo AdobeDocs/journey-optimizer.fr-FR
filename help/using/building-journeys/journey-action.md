@@ -7,39 +7,20 @@ feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
+keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur le code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1569
-ht-degree: 80%
+ht-degree: 0%
 
 ---
 
@@ -47,8 +28,8 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
->title="Activité Action"
->abstract="L’activité **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en optimisant toute action de canal intégrée."
+>title="Activité d&#39;action"
+>abstract="L’activité **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en ajoutant une optimisation à toute action de canal intégrée."
 
 L’activité **Action** est le point d’entrée unique pour toutes les actions de canal dans la zone de travail de parcours.
 
@@ -62,7 +43,7 @@ Utilisez-le pour :
 
 >[!NOTE]
 >
->Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [En savoir plus](#recommendation)
+>Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [ En savoir plus ](#recommendation)
 
 ## À propos des activités des canaux hérités
 
@@ -82,19 +63,19 @@ Pour ajouter une action de canal intégrée à votre parcours à l’aide de l�
 
 >[!NOTE]
 >
->Pour plus d’informations sur les canaux disponibles dans les parcours, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
+>Pour plus d’informations sur les canaux disponibles dans les parcours, reportez-vous au tableau de cette section : [Canaux dans les parcours et les campagnes](../channels/gs-channels.md#channels).
 
 1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture d’audience](read-audience.md).
 
-1. Dans la section **[!UICONTROL Actions]** de la palette, placez une activité **[!UICONTROL Action]** dans la zone de travail.
+1. Dans la section **[!UICONTROL Actions]** de la palette, effectuez un glisser-déposer d’une activité **[!UICONTROL Action]** dans la zone de travail.
 
-1. Sélectionnez l’activité de canal intégrée que vous souhaitez utiliser dans votre parcours.
+1. Sélectionnez l’activité de canal intégrée que vous souhaitez exploiter dans votre parcours.
 
-   ![Liste déroulante Type d’action affichant l’action du canal et les options d’action personnalisée](assets/journey-action-type-cbe.png)
+   ![ Liste déroulante Type d’action affichant l’action du canal et les options d’action personnalisée](assets/journey-action-type-cbe.png)
 
 1. Ajoutez un libellé à votre action et sélectionnez **[!UICONTROL Configurer l’action]**.
 
-   ![Volet de configuration de l’activité d’action avec les champs de libellé et de description](assets/journey-action-configure.png){width="80%"}
+   ![Volet de configuration de l&#39;activité d&#39;action avec les champs de libellé et de description](assets/journey-action-configure.png){width="80%"}
 
 1. Vous accédez à l’onglet **[!UICONTROL Actions]** de l’écran de configuration de l’action de parcours.
 
@@ -102,11 +83,11 @@ Pour ajouter une action de canal intégrée à votre parcours à l’aide de l�
 
    ![Onglet Actions du menu Administration affichant les actions personnalisées et Adobe](assets/journey-action-actions-tab.png)
 
-1. Si vous avez sélectionné un canal entrant, vous pouvez ajouter plusieurs actions. [En savoir plus](#multi-action)
+1. Si vous avez sélectionné un canal entrant, vous pouvez ajouter plusieurs actions. [ En savoir plus ](#multi-action)
 
 1. Configurez votre activité en fonction du canal sélectionné. Des instructions de configuration détaillées sont disponibles dans les liens ci-dessous.
 
-   * Découvrez ci-dessous les étapes détaillées pour créer votre action sortante :
+   * Découvrez les étapes détaillées pour créer votre action sortante comme suit :
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -132,14 +113,14 @@ Pour ajouter une action de canal intégrée à votre parcours à l’aide de l�
       <img alt="Validation" src="../assets/do-not-localize/sms.jpg">
       </a>
       <div>
-      <a href="../sms/create-sms.md"><strong>Créer des messages texte (SMS/MMS)</strong></a>
+      <a href="../sms/create-sms.md"><strong>Créer des SMS (SMS/MMS)</strong></a>
       </div>
       <p>
       </td>
       </tr>
       </table>
 
-   * Découvrez ci-dessous les étapes détaillées pour créer votre action entrante :
+   * Découvrez les étapes détaillées pour créer votre action entrante comme suit :
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -155,7 +136,7 @@ Pour ajouter une action de canal intégrée à votre parcours à l’aide de l�
       <a href="../web/create-web.md">
       <img alt="Lead" src="../assets/do-not-localize/web-create.jpg">
       </a>
-      <div><a href="../web/create-web.md"><strong>Créer des expériences web</strong>
+      <div><a href="../web/create-web.md"><strong>Création d’expériences web</strong>
       </div>
       <p>
       </td>
@@ -181,11 +162,11 @@ Pour ajouter une action de canal intégrée à votre parcours à l’aide de l�
 
    >[!NOTE]
    >
-   >* Chaque action d’expérience entrante est fournie avec une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
+   >* Chaque action d’expérience entrante est fournie avec une activité **Attente** de 3 jours. [ En savoir plus ](wait-activity.md#auto-wait-node)
    >
-   >* Pour les notifications push et les e-mails, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
+   >* Pour les e-mails et les notifications push, vous pouvez activer l’optimisation de l’heure d’envoi. [ En savoir plus ](send-time-optimization.md)
 
-1. Selon l’activité, vous pouvez afficher des paramètres avancés spécifiques au canal sélectionné et remplacer certaines valeurs par défaut telles que l’adresse d’exécution. [En savoir plus](about-journey-activities.md#advanced-parameters)
+1. Selon l’activité, vous pouvez afficher des paramètres avancés spécifiques au canal sélectionné et remplacer certaines valeurs par défaut telles que l’adresse d’exécution. [ En savoir plus ](about-journey-activities.md#advanced-parameters)
 
    >[!NOTE]
    >
@@ -193,69 +174,69 @@ Pour ajouter une action de canal intégrée à votre parcours à l’aide de l�
 
 1. Utilisez la section **[!UICONTROL Optimisation]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage.
 
-   Ces différentes options et les étapes à suivre sont présentées dans [cette section](../content-management/gs-message-optimization.md).
+   Ces différentes options et les étapes à suivre sont présentées en détail dans [cette section](../content-management/gs-message-optimization.md).
 
 1. Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre action de parcours. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez l’option **[!UICONTROL Paramètres de langue]** souhaitée.
 
    Vous trouverez des informations détaillées sur la configuration et l’utilisation des fonctionnalités multilingues dans [cette section](../content-management/multilingual-gs.md).
 
-Des paramètres supplémentaires sont disponibles en fonction du canal de communication sélectionné. Pour plus d’informations, développez les sections ci-dessous.
+Des paramètres supplémentaires sont disponibles en fonction du canal de communication sélectionné. Développez les sections ci-dessous pour plus d’informations.
 
 +++**Appliquer des règles de limitation** (e-mail, notification push ou SMS)
 
-Dans la liste déroulante **[!UICONTROL Règles métier]**, sélectionnez un jeu de règles pour appliquer des règles de limitation à votre action de parcours.
+Dans la liste déroulante **[!UICONTROL Règles métier]**, sélectionnez un ensemble de règles pour appliquer des règles de limitation à votre action de parcours.
 
-L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients.
+L’utilisation des ensembles de règles de canal vous permet de définir le capping de la fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires.
 
-[Découvrir comment utiliser les jeux de règles](../conflict-prioritization/rule-sets.md)
+[Découvrez comment utiliser des ensembles de règles](../conflict-prioritization/rule-sets.md)
 
 +++
 
 +++**Suivre l’engagement** (e-mail, SMS).
 
-Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction des personnes destinataires à vos diffusions e-mail ou SMS.
+Utilisez la section **[!UICONTROL Tracking des actions]** pour suivre la réaction des destinataires à vos diffusions e-mail ou SMS.
 
-Les résultats du suivi sont accessibles dans le rapport du parcours, une fois celui-ci exécuté.
+Les résultats du tracking sont accessibles dans le rapport de parcours, une fois le parcours exécuté.
 
 [En savoir plus sur les rapports de parcours](../reports/journey-global-report-cja.md)
 
 +++
 
-+++**Activer le mode de diffusion rapide** (notifications push).
++++**Activer le mode de diffusion rapide** (notification push).
 
-Le mode de diffusion rapide est un module complémentaire de [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grande quantité dans le cadre d’une campagne.
+Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grande quantité dans le cadre d’une campagne.
 
-La diffusion rapide est utilisée lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple une nouvelle de dernière minute aux personnes qui ont installé votre application d&#39;actualités.
+La diffusion rapide est utilisée lorsque le retard de diffusion des messages est critique pour l’entreprise, lorsque vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes aux utilisateurs qui ont installé votre application de canal d’actualités.
 
 Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../push/create-push.md#rapid-delivery).
 
-Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, consultez la section [[!DNL Adobe Journey Optimizer] description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, consultez la section [[!DNL Adobe Journey Optimizer] description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
 +++**Attribuer des scores de priorité** (web, in-app, basé sur du code)
 
-Dans la section **[!UICONTROL Gestion des conflits]**, attribuez un score de priorité à l’action de parcours, ce qui vous permet de donner la priorité à une action entrante lorsque plusieurs actions de parcours ou campagnes utilisent la même configuration des canaux.
+Dans la section **[!UICONTROL Gestion des conflits]** , vous pouvez attribuer un score de priorité à l’action de parcours, ce qui vous permet de donner la priorité à une action entrante lorsqu’il existe plusieurs actions ou campagnes de parcours utilisant la même configuration de canal.
 
 Par défaut, le score de priorité de l’action est hérité du score de priorité global du parcours.
 
-[Découvrir comment attribuer des scores de priorité aux actions de canal](../conflict-prioritization/priority-scores.md#priority-action)
+[Découvrez comment attribuer des scores de priorité aux actions de canal](../conflict-prioritization/priority-scores.md#priority-action)
 
 +++
 
 +++**Définir des règles de diffusion supplémentaires** (cartes de contenu)
 
-Pour les parcours de cartes de contenu, vous pouvez activer des règles de diffusion supplémentaires afin de choisir les événements et critères qui déclenchent votre message.
+Pour les parcours de carte de contenu, vous pouvez activer des règles de diffusion supplémentaires pour choisir le ou les événements et les critères qui déclenchent votre message.
 
-[Découvrir comment créer des cartes de contenu](../content-card/create-content-card.md)
+[Découvrez comment créer des cartes de contenu](../content-card/create-content-card.md)
 
 +++
 
 +++**Définir des déclencheurs** (in-app)
 
-Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier les déclencheurs]** pour choisir les événements et les critères qui déclenchent votre message.
+Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclenchent votre message.
 
-[Découvrir comment créer un message in-app](../in-app/create-in-app.md)
+[Découvrez comment créer un message in-app](../in-app/create-in-app.md)
 
 +++
 
@@ -264,23 +245,23 @@ Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Ajouter plusieurs actions entrantes"
->abstract="Vous pouvez sélectionner plusieurs actions entrantes au sein d’un même parcours. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique."
+>abstract="Vous pouvez sélectionner plusieurs actions entrantes dans un seul parcours. Cette fonctionnalité vous permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action contenant un contenu spécifique."
 
-Pour simplifier votre orchestration de parcours, vous pouvez définir plusieurs actions entrantes dans une seule action de parcours.
+Pour simplifier votre orchestration des parcours, vous pouvez définir plusieurs actions entrantes dans une seule action de parcours.
 
 >[!NOTE]
 >
->Cette fonctionnalité est uniquement disponible pour les canaux entrants. Actuellement, les canaux sortants comme l’E-mail ne sont pas pris en charge.
+>Cette capacité n’est disponible que pour les canaux entrants. Actuellement, les canaux sortants tels que les e-mails ne sont pas pris en charge.
 
-Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, sans avoir besoin de créer plusieurs actions de parcours. Le déploiement de votre parcours en est facilité et les rapports sont plus fluides, toutes les données étant consolidées dans un seul parcours.
+Cette capacité vous permet de diffuser simultanément différentes expériences basées sur le code, des messages in-app, des cartes de contenu ou des actions web à différents emplacements, sans avoir à créer plusieurs actions de parcours. Cela facilite le déploiement de votre parcours et permet des rapports plus fluides, avec toutes les données consolidées dans un seul parcours.
 
 Par exemple, vous pouvez envoyer une expérience basée sur du code à plusieurs points d’entrée avec des contenus légèrement différents. Pour ce faire, créez plusieurs actions basées sur du code dans la même action de parcours, chacune avec une configuration de point d’entrée différente.
 
-Pour définir plusieurs actions entrantes dans une action de parcours, procédez comme suit.
+Pour définir plusieurs actions entrantes dans un seul nœud d’action de parcours, procédez comme suit.
 
 1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture d’audience](read-audience.md).
 
-1. Dans la section **[!UICONTROL Actions]** de la palette, placez une activité **[!UICONTROL Action]** dans la zone de travail.
+1. Dans la section **[!UICONTROL Actions]** de la palette, effectuez un glisser-déposer d’une activité **[!UICONTROL Action]** dans la zone de travail.
 
 1. Sélectionnez **[!UICONTROL Action multiple]** comme type d’action.
 
@@ -288,49 +269,49 @@ Pour définir plusieurs actions entrantes dans une action de parcours, procédez
 
 1. Ajoutez un libellé si nécessaire et sélectionnez **[!UICONTROL Configurer l’action]**.
 
-   ![Volet de configuration multi-action avec les champs de libellé et de description](assets/journey-multi-action-configure.png){width="60%"}
+   ![Volet de configuration multiaction avec des champs de libellé et de description](assets/journey-multi-action-configure.png){width="60%"}
 
 1. Vous accédez à l’onglet **[!UICONTROL Actions]** de l’écran de configuration de l’action de parcours.
 
    ![Configuration multi-action affichant la liste des actions à exécuter](assets/journey-multi-action-configuration.png){width="70%"}
 
-1. Sélectionnez une action entrante (**Expérience basée sur du code**, **message in-app**, **carte de contenu** ou **web**) dans la section **[!UICONTROL Actions]**.
+1. Sélectionnez une action entrante (**Expérience basée sur du code**, **Message in-app**, **Carte de contenu** ou **Web**) dans la section **[!UICONTROL Actions]**.
 
-1. Sélectionnez la configuration des canaux et définissez un contenu spécifique pour cette action.
+1. Sélectionnez la configuration du canal et définissez un contenu spécifique pour cette action.
 
 1. Utilisez le bouton **[!UICONTROL Ajouter une action]** pour sélectionner une autre action entrante dans la liste déroulante.
 
-   ![Ajouter un bouton d’action pour inclure des actions supplémentaires dans l’activité multi-action](assets/journey-multi-action-add.png){width="80%"}
+   ![Ajouter un bouton d’action pour inclure des actions supplémentaires dans l’activité multiaction](assets/journey-multi-action-add.png){width="80%"}
 
-1. Procédez de la même manière pour ajouter d’autres actions. Vous pouvez ajouter jusqu’à 10 actions entrantes dans un groupe d’actions de parcours.
+1. Procédez de la même manière pour ajouter d’autres actions. Vous pouvez ajouter jusqu’à 10 actions entrantes dans un groupe d’actions de parcours.
 
 Une fois le parcours [actif](publish-journey.md), toutes les actions sont activées simultanément.
 
-## Mise à jour du contenu dynamique {#update-live-content}
+## Mise à jour d’un contenu dynamique {#update-live-content}
 
-Vous pouvez mettre à jour le contenu d’une action de canal intégrée dans un parcours dynamique.
+Vous pouvez mettre à jour le contenu d’une action de canal intégrée dans un parcours en direct.
 
-Les modifications apportées au contenu ne sont pas répercutées dans le parcours tant que vous n’avez pas enregistré les propriétés de l’action. [En savoir plus](about-journey-activities.md#advanced-parameters)
+Les modifications apportées au contenu ne sont pas répercutées dans le parcours tant que vous n’avez pas enregistré les propriétés de l’action. [ En savoir plus ](about-journey-activities.md#advanced-parameters)
 
-Pour ce faire, ouvrez votre parcours dynamique, sélectionnez l’activité de canal et cliquez sur **Modifier le contenu**.
+Pour ce faire, ouvrez votre parcours en direct, sélectionnez l’activité de canal et cliquez sur **Modifier le contenu**.
 
 ![Bouton Modifier l’activité de canal dans le parcours en direct](assets/email-action-edit-content.png)
 
 Cependant, vous ne pouvez pas modifier les attributs utilisés dans la personnalisation, qu’il s’agisse d’attributs de profil ou de données contextuelles (à partir des propriétés d’événement ou de parcours).
 
-* Si vous avez modifié des données contextuelles, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_201`.
+* Si vous avez modifié des données contextuelles, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_201`
 
-* Si vous avez modifié des attributs de profil, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_202`.
+* Si vous avez modifié les attributs de profil, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_202`
 
 Notez que pour l’activité in-app, des modifications peuvent être apportées au contenu pendant que le parcours est actif, mais les déclencheurs in-app ne peuvent pas être modifiés.
 
-## Envoi avec des actions personnalisées {#recommendation}
+## Envoyer avec des actions personnalisées {#recommendation}
 
-Au lieu d’utiliser les fonctionnalités de message intégrées, vous pouvez utiliser des actions personnalisées pour configurer la connexion d’un système tiers afin d’envoyer des messages ou des appels API.
+Au lieu d&#39;utiliser les fonctionnalités de message intégrées, vous pouvez utiliser des actions personnalisées pour configurer la connexion d&#39;un système tiers afin d&#39;envoyer des messages ou des appels d&#39;API.
 
-* Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. [En savoir plus](../action/action.md)
+* Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. [ En savoir plus ](../action/action.md)
 
-* Si vous utilisez Adobe Campaign, reportez-vous aux sections suivantes :
+* Si vous utilisez Adobe Campaign, reportez-vous aux sections suivantes :
 
-   * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)
+   * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)

@@ -11,22 +11,11 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DTi8clyXof5lmdx0elOPHQGm0cwQuKwAm0KbQ-U-Fmo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1574
@@ -59,7 +48,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** _id
 **Titre :** identifiant
 **Description :** identifiant unique de l’enregistrement.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -107,21 +96,21 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
   **Champ :** description
   **Titre :** description
   **Description :** description de la sélection d&#39;options. Permet de véhiculer les intentions lisibles par l&#39;homme sur la manière dont ou la raison pour laquelle cette sélection d&#39;options a été effectuée et/ou qui indiquent l&#39;option qui correspondra.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * Filtre d’option
 
   **Champ :** filtre
   **Titre :** filtre d&#39;option
   **Description :** référence à un filtre basé sur un qualificateur de collection (précédemment appelé « balise ») qui correspond aux options d’un inventaire à l’aide de leurs qualificateurs de collection joints. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/filter.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * Type de contrainte de profil
 
   **Champ :** optionSelectionType
   **Titre :** type de contrainte de profil
   **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une requête de filtre ou avec une ou plusieurs appartenances à des audiences.
-  **Type :** chaîne
+  **Type :**Chaîne
   **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
 
 * Liste d’options
@@ -146,7 +135,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
   **Titre :** identifiant d&#39;emplacement
   **Description :** référence à une entité d&#39;emplacement. La valeur est l&#39;URI (@id) de l&#39;emplacement qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 +++
 
@@ -182,7 +171,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Field:** profileConstraintType
 **Titre :** type de contrainte de profil
 **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à des audiences.
-**Type :** chaîne
+**Type :**Chaîne
 **Valeurs possibles :**
 
 * &quot;none&quot; (par défaut)
@@ -205,7 +194,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
   **Champ :** _id
   **Titre :** identifiant
   **Description :** identité de l’audience dans l’espace de noms connexe.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * espace de noms
 
@@ -220,14 +209,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
      **Champ :** code
      **Titre :** code
      **Description :** Le code est un identifiant lisible par l&#39;homme pour l&#39;espace de noms et peut être utilisé pour demander l&#39;identifiant technique d&#39;espace de noms utilisé pour le traitement des graphiques d&#39;identités.
-     **Type :** chaîne
+     **Type :** Chaîne
 
 * Identifiant d’expérience
 
   **Champ :** xid
   **Titre :** identifiant d&#39;expérience
   **Description** : Lorsqu&#39;elle est présente, cette valeur représente un identifiant d&#39;espace de noms croisé unique pour tous les identifiants d&#39;espace de noms inclus dans tous les espaces de noms.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 +++
 
@@ -252,14 +241,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
   **Champ :** fonction
   **Titre :** fonction de notation
   **Description :** référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision sont ensuite classées selon ce score. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * Type d’évaluation d’ordre**
 
   **Champ :** orderEvaluationType
   **Titre :** type d&#39;évaluation d&#39;ordre
   **Description :** indique le mécanisme d’évaluation de l’ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou un modèle d’IA qui reçoit une liste pour l’ordonner.
-  **Type :** chaîne
+  **Type :**Chaîne
   **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * Stratégie de classement
@@ -267,7 +256,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
   **Champ :** rankingStrategy
   **Titre :** stratégie de classement
   **Description :** référence à une stratégie qui classe une liste d&#39;options de décision. Les options de décision sont renvoyées dans une liste classée. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 +++
 
@@ -287,7 +276,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Field:** endTime
 **Titre :** date et heure de fin de l’activité
 **Description :** date et heure de fin de la décision (anciennement appelée activité). La propriété a la sémantique de la propriété « endTime » de schema.org définie sur https://schema.org/Action.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -314,7 +303,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Field:** startTime
 **Titre :** date et heure de début de l’activité
 **Description :** date et heure de début de la décision (anciennement appelée activité). La propriété a la sémantique de la propriété « startTime » de schema.org définie sur https://schema.org/Action.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
