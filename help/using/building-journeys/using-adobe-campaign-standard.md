@@ -52,7 +52,7 @@ Si vous utilisez [!DNL Adobe Campaign] Standard, les activités d’action inté
 >
 >Pour cela, vous devez configurer l’action intégrée. Voir [cette page](../action/acs-action.md).
 
-Pour chacun de ces canaux, vous sélectionnez un modèle de message transactionnel [!DNL Adobe Campaign] Standard **template**. Pour les canaux e-mail, SMS et push intégrés, l’envoi de messages est confié à la messagerie transactionnelle. Cela signifie que si vous souhaitez utiliser un certain modèle de message dans vos parcours, vous devez le publier dans [!DNL Adobe Campaign] Standard. Reportez-vous à [cette page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) pour savoir comment utiliser cette fonctionnalité.
+Pour chacun de ces canaux, vous sélectionnez un modèle de message transactionnel [!DNL Adobe Campaign] Standard **template**. Pour les canaux e-mail, SMS et push intégrés, l’envoi de messages est confié à la messagerie transactionnelle. Cela signifie que si vous souhaitez utiliser un certain modèle de message dans vos parcours, vous devez le publier dans [!DNL Adobe Campaign] Standard. Reportez-vous à [cette page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr) pour savoir comment utiliser cette fonctionnalité.
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Les paramètres sont identiques pour **[!UICONTROL E-mail]** et **[!UICONTROL SM
 >[!NOTE]
 >
 >Lors de l’utilisation du modèle transactionnel d’un profil pour l’e-mail, le mécanisme de désabonnement est automatiquement géré par [!DNL Adobe Campaign] Standard.
->Incluez un bloc de contenu **[!UICONTROL Lien de désinscription]** dans [modèle d’e-mail transactionnel](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+>Incluez un bloc de contenu **[!UICONTROL Lien de désinscription]** dans [modèle d’e-mail transactionnel](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr).
 >Si vous utilisez un modèle basé sur un événement (rtEvent), incorporez dans le message un lien qui transmet l’e-mail du destinataire comme paramètre d’URL et le dirige vers une page de destination de désinscription.
 >Créez la page de destination et assurez-vous que la décision de désabonnement du destinataire est transmise à Adobe.
 

@@ -119,7 +119,7 @@ Pour permettre à vos destinataires de se désabonner de vos communications, vou
 
 ### Gestion du processus d’opt-out {#opt-out-management}
 
-La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque est une exigence légale. En savoir plus sur la législation applicable dans la documentation d’[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
+La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque est une exigence légale. En savoir plus sur la législation applicable dans la documentation d’[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr#regulations){target="_blank"}.
 
 Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans chaque e-mail envoyé aux destinataires :
 
@@ -178,7 +178,7 @@ Pour permettre aux destinataires d’un e-mail de se désabonner de vos communic
 
    * Les données du profil sont mises à jour et ne recevront pas de communications de votre marque à moins d&#39;être à nouveau abonné.
 
-Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform et accédez au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation d’](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform et accédez au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation d’](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -188,7 +188,7 @@ Les informations sur les désinscriptions sont stockées dans le **Jeu de donné
 
 >[!NOTE]
 >
->Si la méthode de fusion de votre stratégie de fusion [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL Profils]** par défaut est **[!UICONTROL Priorité du jeu de données]**, veillez à activer le **[!UICONTROL jeu de données du service de consentement AJO]** et à le classer par priorité dans la stratégie de fusion. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>Si la méthode de fusion de votre stratégie de fusion [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} **[!UICONTROL Profils]** par défaut est **[!UICONTROL Priorité du jeu de données]**, veillez à activer le **[!UICONTROL jeu de données du service de consentement AJO]** et à le classer par priorité dans la stratégie de fusion. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#dataset-precedence-profile){target="_blank"}
 >
 >Même si aucun lot n’a été ajouté à ce jeu de données, il contiendra toujours les informations d’opt-in/opt-out.
 

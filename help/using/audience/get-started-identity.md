@@ -36,10 +36,10 @@ Le menu **Identités** de [!DNL Adobe Journey Optimizer] permet aux utilisateurs
 
 Il fournit un **graphique d’identités**, qui est une carte des relations entre différentes identités pour un client particulier. Ce graphique offre une représentation visuelle de la manière dont un client interagit avec une marque sur différents canaux. Tous les graphiques d’identités client sont gérés et mis à jour collectivement par Adobe Experience Platform Identity Service en réponse à l’activité du client.
 
-Vous trouverez des informations détaillées sur l’utilisation des identités dans la [documentation du service d’identités](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target="_blank"}.
+Vous trouverez des informations détaillées sur l’utilisation des identités dans la [documentation du service d’identités](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Prise en main de la gestion des données dans Journey Optimizer](../data/gs-data.md)
 >* [Prise en main des profils](get-started-profiles.md)
->* [Documentation Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target="_blank"}
+>* [Documentation Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}
