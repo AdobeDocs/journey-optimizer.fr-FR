@@ -4,15 +4,14 @@ product: journey optimizer
 title: Notes de mise à jour préliminaires pour Journey Optimizer
 description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
-hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 916ac37acb0101d02e7c0da87b36a23e362b359a
+source-git-commit: 9e3d5c09f9a636727c545df5fd9831e075de14f0
 workflow-type: tm+mt
-source-wordcount: 1658
-ht-degree: 13%
+source-wordcount: 1605
+ht-degree: 11%
 
 ---
 
@@ -32,13 +31,13 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 <table>
 <thead>
 <tr>
-<th><strong>Messagerie RCS</strong><br/></th>
+<th><strong>Nouveau canal de message mobile et messagerie RCS améliorée</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Pour prendre en charge l’ajout de RCS, le <strong>workflow de messagerie mobile</strong> a été mis à jour. Les SMS, MMS et RCS sont désormais regroupés de manière pratique sous un seul canal <strong>Message mobile</strong> dans Adobe Journey Optimizer.</p>
+<p>Les SMS, MMS et RCS sont désormais regroupés dans une seule action <strong>Message mobile</strong> dans Adobe Journey Optimizer, ce qui facilite la gestion de tous les types de messages mobiles à partir d’un seul emplacement. Dans le cadre de cette mise à jour, vous pouvez désormais créer des messages RCS de médias riches (y compris des images, des carrousels et des actions suggérées) directement dans Journey Optimizer grâce à une nouvelle expérience de création native.</p>
 <p>Date de disponibilité : 19 mai 2026</p>
 </td>
 </tr>
@@ -62,23 +61,6 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 </tbody>
 </table>
 
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulation de parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais définir votre parcours sur <strong>Simulation</strong>. Ce mode permet de valider la logique à l’aide d’<strong>utilisateurs simulés</strong>. Il s’agit de profils temporaires créés spécifiquement pour la simulation, qui vous permettent de tester librement sans avoir à gérer de profils de test persistants dans Adobe Experience Platform.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale). Grâce à la version de disponibilité générale, vous pouvez désormais utiliser Journey Agent pour générer des utilisateurs et des événements simulés directement dans le menu Simulation .</p>
-<p>Date de disponibilité : 28 mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -204,6 +186,40 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 <table>
 <thead>
 <tr>
+<th><strong>Assistant AI pour les expressions de Parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’assistant AI fonctionne désormais dans l’éditeur d’expression avancé de parcours pour convertir les invites en langage naturel en expressions valides et en logique conditionnelle. Décrivez l’expression que vous souhaitez créer et l’assistant AI génère un code prêt à l’emploi que vous pouvez appliquer immédiatement ou affiner à l’aide d’invites de relance.</p>
+<p>Cette fonctionnalité est disponible pour tous les clients sous la forme d’un Beta public.</p>
+<p>Date de disponibilité : 19 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulation de parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais définir votre parcours sur <strong>Simulation</strong>. Ce mode permet de valider la logique à l’aide d’<strong>utilisateurs simulés</strong>. Il s’agit de profils temporaires créés spécifiquement pour la simulation, qui vous permettent de tester librement sans avoir à gérer de profils de test persistants dans Adobe Experience Platform.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale). Grâce à la version de disponibilité générale, vous pouvez désormais utiliser Journey Agent pour générer des utilisateurs et des événements simulés directement dans le menu Simulation .</p>
+<p>Date de disponibilité : 28 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Ciblage basé sur des fichiers pour les campagnes orchestrées</strong><br/></th>
 </tr>
 </thead>
@@ -218,22 +234,7 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Assistant AI pour les expressions de Parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’assistant AI fonctionne désormais dans l’éditeur d’expression avancé de parcours pour convertir les invites en langage naturel en expressions valides et en logique conditionnelle. Décrivez l’expression que vous souhaitez créer et l’assistant AI génère un code prêt à l’emploi que vous pouvez appliquer immédiatement ou affiner à l’aide d’invites de relance.</p>
-<p>Cette fonctionnalité est disponible pour tous les clients sous la forme d’un Beta public.</p>
-<p>Date de disponibilité : 19 mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 ### Améliorations {#may-26-improv}
 
@@ -270,12 +271,14 @@ Les améliorations suivantes sont ciblées pour cette version.
 
   Date de disponibilité : 19 mai 2026
 
+<!--
 #### Configuration
 
-* **Module complémentaire Performances pour les notifications push à débit élevé** - Un nouveau mode de messagerie transactionnelle à débit élevé est disponible dans les campagnes déclenchées par API. Ce mode est conçu pour les messages transactionnels en temps réel à grande échelle et prend en charge jusqu’à 5 000 transactions par seconde avec une disponibilité supérieure. Auparavant uniquement disponible pour le canal e-mail, cette fonctionnalité est désormais également disponible pour le canal push, pour les organisations qui ont acheté l’offre complémentaire de messagerie transactionnelle à haut débit Adobe . Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+* **Performance Add-on for high-throughput Push** - A new high throughput transactional messaging mode is available in API-triggered campaigns. This mode is designed for large-scale, real-time transactional messaging and supports up to 5,000 transactions per second with higher availability. Previously only available for the email channel, this capability is now also available for the push channel, for organizations that have purchased the Adobe High Throughput Transactional Messaging add-on offering. Contact your Adobe representative for more details.
 
 
-  Date de disponibilité : 19 mai 2026
+  Availability date: May 19, 2026
+-->
 
 #### Prise de décision
 
@@ -355,12 +358,12 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
 #### E-mail
 
-**Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des champs d’en-tête des e-mails, notamment le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise.
+* **Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des champs d’en-tête des e-mails, notamment le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise.
 
-Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
+  Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
 
 
-Date de disponibilité : 29 mai 2026
+  Date de disponibilité : 29 mai 2026
 
 <!--
 # Pre-release notes {#e-release-notes}
