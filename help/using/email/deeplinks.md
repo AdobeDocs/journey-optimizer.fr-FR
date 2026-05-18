@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 1%
 
 Les liens profonds vous permettent d’orienter les destinataires d’un e-mail ou SMS vers un écran ou un élément de contenu spécifique dans votre application mobile. Cela permet d’amener les personnes directement à l’expérience in-app prévue, sans les acheminer via un navigateur web ou une boutique d’applications, de sorte que le parcours reste pertinent et intégré à la marque.
 
-Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés directement vers le contenu in-app prévu, **à condition que vous ayez terminé les étapes de configuration** présentées sur cette page, qui couvre :
+Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés directement vers le contenu in-app prévu, **à condition que vous ayez terminé** :
 
-* Configuration des liens profonds pour les e-mails dans Journey Optimizer
-* Comment mettre en œuvre la gestion des liens profonds pour iOS et Android dans votre application mobile
+* les [&#x200B; étapes de configuration &#x200B;](#configuration) dans Journey Optimizer ;
+
+* les étapes [mise en œuvre de l’application mobile](#mobile-implementation) pour iOS et Android dans votre application mobile.
 
 >[!NOTE]
 >
