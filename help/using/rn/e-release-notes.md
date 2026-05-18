@@ -8,10 +8,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 9e3d5c09f9a636727c545df5fd9831e075de14f0
+source-git-commit: 0d520eefc0a88fc9d71fa33df2f67787d4ee974a
 workflow-type: tm+mt
-source-wordcount: 1605
-ht-degree: 11%
+source-wordcount: 1693
+ht-degree: 9%
 
 ---
 
@@ -107,7 +107,7 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais ajouter des <strong>politiques de décision</strong> dans les parcours et campagnes de publipostage direct. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de renvoyer dynamiquement le meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
+<p>Vous pouvez désormais ajouter des politiques de décision dans les parcours et campagnes de publipostage direct. Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu pour chaque membre de l’audience. La prise de décision par publipostage direct prend également en charge les cas d’utilisation de prise de décision par lots, ce qui vous permet d’exporter les éléments d’offre correspondants pour chaque profil dans une audience Adobe Experience Platform donnée.</p>
 <p>Date de disponibilité : 19 mai 2026</p>
 </td>
 </tr>
@@ -279,6 +279,12 @@ Les améliorations suivantes sont ciblées pour cette version.
 
   Availability date: May 19, 2026
 -->
+
+#### Configuration
+
+* **Jeu de données d’événement de retour de message passant à l’ingestion par lots** - Le `AJO Message Feedback Event Dataset` passe de la diffusion en continu au mode d’ingestion par lots. Cette modification garantit que l’ingestion de données ne dépasse pas les limites d’ingestion en flux continu. Si vous utilisez ce jeu de données dans des rapports Customer Journey Analytics ou si vous exécutez des requêtes sur celui-ci, attendez-vous à une augmentation de la latence des données allant jusqu’à 2 heures.
+
+  Date de disponibilité : 19 mai 2026
 
 #### Prise de décision
 
