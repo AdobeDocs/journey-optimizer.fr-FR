@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 1%
 
 Les liens profonds vous permettent d’orienter les destinataires d’un e-mail ou SMS vers un écran ou un élément de contenu spécifique dans votre application mobile. Cela permet d’amener les personnes directement à l’expérience in-app prévue, sans les acheminer via un navigateur web ou une boutique d’applications, de sorte que le parcours reste pertinent et intégré à la marque.
 
-Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés directement vers le contenu in-app prévu, **à condition que vous ayez terminé les étapes de configuration** présentées sur cette page, qui couvre :
+Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés directement vers le contenu in-app prévu, **à condition que vous ayez terminé** :
 
-* Configuration des liens profonds pour les e-mails dans Journey Optimizer
-* Comment mettre en œuvre la gestion des liens profonds pour iOS et Android dans votre application mobile
+* les [ étapes de configuration ](#configuration) dans Journey Optimizer ;
+
+* les étapes [mise en œuvre de l’application mobile](#mobile-implementation) pour iOS et Android dans votre application mobile.
 
 >[!NOTE]
 >
@@ -79,7 +80,7 @@ Pour pouvoir utiliser des liens profonds dans les e-mails et les SMS pour vos ap
 
 >[!IMPORTANT]
 >
->Le approfondissement des liens à travers l’infrastructure d’Adobe s’applique lorsque le suivi des liens est activé pour votre message, dans les paramètres [&#x200B; suivi des e-mails &#x200B;](message-tracking.md#enable-tracking) ou dans la section **[!UICONTROL Suivi des actions]** pour les campagnes par SMS. Les clics de lien profond suivis utilisent les URL sous `/ee/v1/mclick/*`, qu’Adobe héberge et résout.
+>Le approfondissement des liens à travers l’infrastructure d’Adobe s’applique lorsque le suivi des liens est activé pour votre message, dans les paramètres [ suivi des e-mails ](message-tracking.md#enable-tracking) ou dans la section **[!UICONTROL Suivi des actions]** pour les campagnes par SMS. Les clics de lien profond suivis utilisent les URL sous `/ee/v1/mclick/*`, qu’Adobe héberge et résout.
 >
 >Pour les liens **non suivis**, l’URL n’est pas réécrite via les systèmes Adobe. Vous devez configurer des liens universels ou des liens d’application sur vos propres domaines et hébergement afin que ces liens ouvrent votre application comme prévu.
 
@@ -162,7 +163,7 @@ Cette section fournit des modèles d’implémentation courants pour les liens p
 
 >[!IMPORTANT]
 >
->L’application doit effectuer une **&#x200B;**&#x200B;sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
+>L’application doit effectuer une **** sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
 >
 >N’ouvrez pas simplement l’URL `mclick` dans Safari, car cela va à l’encontre de l’objectif du lien profond.
 

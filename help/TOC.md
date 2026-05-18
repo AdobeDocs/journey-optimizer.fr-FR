@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
 source-wordcount: '3324'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 98%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
@@ -277,19 +277,19 @@ ht-degree: 98%
       + [Prise en main des e-mails](using/email/get-started-email.md)
       + [Créer un e-mail](using/email/create-email.md)
       + Concevoir le contenu de vos e-mails {#design-email}
-         + [Concevoir le contenu de vos e-mails](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[Concevoir le contenu de votre e-mail](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[Concevoir le contenu des messages](using/start/message-content-design.md)
          + [Commencer la conception d’e-mails](using/email/get-started-email-design.md)
          + Commencer à créer du contenu {#start-creating-content}
-            + [Commencer à créer du contenu](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[Commencer à créer du contenu](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Concevoir du contenu en partant de zéro](using/email/content-from-scratch.md)
             + [Importer votre contenu](using/email/existing-content.md)
             + [Coder votre propre contenu](using/email/code-content.md)
             + [Utiliser des modèles d’e-mail](using/email/use-email-templates.md)
             + [Utiliser les thèmes d’e-mail](using/email/apply-email-themes.md)
             + [Joindre des fichiers PDF à vos e-mails](using/email/pdf-attachments.md)
-         + Concevoir le contenu {#add-content}
-            + [Concevoir le contenu](/help/rp_landing_pages/add-content-landing-page.md)
+         + Créer votre contenu {#add-content}
+            + {hide-from-toc}[Concevoir le contenu](/help/rp_landing_pages/add-content-landing-page.md)
             + [Utiliser des composants de contenu](using/email/content-components.md)
             + [Utiliser des fragments visuels](using/email/use-visual-fragments.md)
             + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
@@ -300,7 +300,7 @@ ht-degree: 98%
             + [Ajouter des métadonnées](using/email/email-metadata.md)
             + [Modifier avec l’éditeur HTML avancé](using/email/email-expert-mode.md)
          + Modifier le style {#edit-style}
-            + [Modifier le style](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[Modifier le style ](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
             + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
@@ -308,16 +308,16 @@ ht-degree: 98%
             + [Ajouter un CSS personnalisé](using/email/custom-css.md)
             + [Gérer le contenu en mode sombre](using/email/dark-mode.md)
          + [Créer du contenu accessible](using/email/accessible-content.md)
-      + [Gérer les opt-out pour les e-mails](using/email/email-opt-out.md)
       + Configurer le canal e-mail {#configure-email}
-         + [Configurer le canal e-mail](/help/rp_landing_pages/configure-email-landing-page.md)
+         + {hide-from-toc}[Configurer le canal E-mail](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Commencer la configuration du canal e-mail](using/email/get-started-email-config.md)
          + [Définir les paramètres de configuration du canal e-mail](using/email/email-settings.md)
          + [Activer la désinscription de la liste](using/email/list-unsubscribe.md)
          + [Paramètres d’en-tête](using/email/header-parameters.md)
          + [Tracking d’URL](using/email/url-tracking.md)
          + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
-         + [Configuration des liens profonds dans les e-mails](using/email/deeplinks.md)
+      + [Utilisation et configuration des liens profonds](using/email/deeplinks.md)
+      + [Gérer les opt-out pour les e-mails](using/email/email-opt-out.md)
    + Canal in-app {#in-app}
       + [Canal in-app](/help/rp_landing_pages/in-app-landing-page.md)
       + [Commencer avec les notifications in-app](using/in-app/get-started-in-app.md)
@@ -899,7 +899,7 @@ ht-degree: 98%
    + [Commencer la configuration des canaux](using/configuration/get-started-configuration.md)
    + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
    + [Exporter le contenu du message](using/configuration/message-export.md)
-   + {hide-from-toc}[Schéma d&#39;export des messages &#x200B;](using/configuration/message-export-schema.md)
+   + {hide-from-toc}[Schéma d&#39;export des messages ](using/configuration/message-export-schema.md)
    + Configuration guidée des canaux {#guided-setup}
       + [Commencer la configuration guidée des canaux](using/configuration/set-mobile-config.md)
       + [Créer une configuration de canal](using/configuration/create-channel-set-up.md)
