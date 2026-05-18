@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 908
-ht-degree: 74%
+ht-degree: 78%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Activité de recherche de jeu de données"
->abstract="L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous avez accès à des données qui peuvent ne pas se trouver dans la payload de profil ou d’événement, ce qui garantit que vos interactions clients soient à la fois pertinentes et opportunes."
+>abstract="L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données à partir de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous avez accès à des données qui peuvent ne pas se trouver dans la payload de profil ou d’événement, ce qui garantit que vos interactions clients soient à la fois pertinentes et opportunes."
 
-L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous avez accès à des données qui peuvent ne pas se trouver dans la payload de profil ou d’événement, ce qui garantit que vos interactions clients soient à la fois pertinentes et opportunes.
+L’activité **[!UICONTROL Recherche de jeu de données]** vous permet de récupérer dynamiquement des données à partir de jeux de données d’enregistrement [!DNL Adobe Experience Platform] au moment de l’exécution. Grâce à cette fonctionnalité, vous avez accès à des données qui peuvent ne pas se trouver dans la payload de profil ou d’événement, ce qui garantit que vos interactions clients soient à la fois pertinentes et opportunes.
 
 >[!AVAILABILITY]
 >

@@ -138,7 +138,7 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 >Both Data and CDN subdomains must be included in the same certificate.
 -->
 
-## Suivez les étapes de la feedback loop {#feedback-loop-steps}
+## Suivre les étapes de la boucle de commentaires {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"

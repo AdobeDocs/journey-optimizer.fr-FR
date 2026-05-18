@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2189
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -275,7 +275,7 @@ Vous pouvez maintenant sélectionner votre configuration lors de la création de
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_app_id"
 >title="Personnaliser l’ID d’application"
->abstract="Lorsque vous gérez plusieurs applications mobiles, stockez chaque identifiant d&#39;application sur le profil et utilisez une configuration de canal push unique. Ouvrez l’éditeur de personnalisation à côté du champ ID de l’application pour sélectionner un attribut de profil ; l’expression est évaluée au moment de l’envoi pour chaque destinataire. Assurez-vous que les informations d’identification push existent pour chaque identifiant d’application que votre expression peut renvoyer."
+>abstract="Lorsque vous gérez plusieurs applications mobiles, stockez chaque ID d’application sur le profil et utilisez une configuration des canaux de notification push unique. Ouvrez l’éditeur de personnalisation à côté du champ ID d’application pour sélectionner un attribut de profil. L’expression est évaluée au moment de l’envoi pour chaque destinataire. Assurez-vous que les informations d’identification de notification push existent pour chaque ID d’application que votre expression peut renvoyer."
 
 Lorsque vous avez de nombreuses marques ou clients avec des applications distinctes, vous pouvez stocker chaque **[!UICONTROL ID d’application]** sur le profil et utiliser une configuration de canal unique pour envoyer des notifications push à l’application appropriée pour chaque destinataire.
 

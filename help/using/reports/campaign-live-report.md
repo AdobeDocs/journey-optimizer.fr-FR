@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 3575
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -486,7 +486,7 @@ Le widget **[!UICONTROL Performances des SMS par date]** offre une vue d’ense
 
 +++
 
-### SMS - Causes d’erreur {#sms-error-reasons}
+### SMS – Causes d’erreur {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -495,7 +495,7 @@ Le widget **[!UICONTROL Performances des SMS par date]** offre une vue d’ense
 
 Les graphes et le tableau **[!UICONTROL Causes d’exclusion]** permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi de vos SMS au cours des dernières 24 heures, ce qui facilite l’analyse approfondie de tous les problèmes rencontrés.
 
-### SMS - raisons d’exclusion {#sms-excluded-reasons}
+### SMS – Causes d’exclusion {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -572,7 +572,7 @@ Le tableau **[!UICONTROL Interactions par élément]** présente des information
 
 Depuis le **[!UICONTROL Rapport dynamique]** de votre campagne, l’onglet **[!UICONTROL Courrier]** présente les informations principales relatives à votre courrier.
 
-### Courrier - Statistiques d’envoi {#direct-mail-sending}
+### Courrier – Statistiques d’envoi {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -595,7 +595,7 @@ Le tableau **[!UICONTROL Courrier – Statistiques d’envoi]** fournit un résu
 
 +++
 
-### Courrier - Causes d’erreur {#direct-mail-error-reasons}
+### Courrier – Causes d’erreur {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -606,7 +606,7 @@ Le tableau **[!UICONTROL Courrier – Statistiques d’envoi]** fournit un résu
 
 Les graphes et le tableau **[!UICONTROL Courrier – Causes d’erreur]** permettent d’identifier les erreurs spécifiques qui se sont produites pendant le processus d’envoi de votre courrier, ce qui permet d’analyser en détail les éventuels problèmes rencontrés au cours des dernières 24 heures.
 
-### Publipostage direct - raisons d’exclusion {#direct-mail-excluded-reasons}
+### Courrier – Causes d’exclusion {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

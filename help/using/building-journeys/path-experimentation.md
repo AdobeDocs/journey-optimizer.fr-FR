@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Expérimentation du chemin
+title: Expérimentation des chemins
 description: Découvrez comment utiliser l’expérimentation de chemin dans les parcours
 feature: Journeys, Activities
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
-# Utiliser l’expérimentation de chemin {#experimentation}
+# Utiliser l’expérimentation des chemins {#experimentation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
@@ -153,7 +153,7 @@ Comparez une attente de 24 heures à une attente de 72 heures avant une relanc
 >
 >Pour les expériences de parcours, la fonction Mettre à l’échelle le gagnant est disponible uniquement dans les parcours unitaires (qualifications déclenchées par un événement et audience).
 >
->Elle n’est pas disponible pour les parcours Lecture d’audience .
+>Elle n’est pas disponible pour les parcours Lecture d’audience.
 
 Mettre à l’échelle le gagnant vous permet de déployer automatiquement ou manuellement la variation gagnante d’une expérience sur l’ensemble de votre audience. Cette fonctionnalité vous permet, une fois un gagnant déterminé, d’en amplifier la portée et l’efficacité sans avoir à surveiller continuellement l’expérience.
 

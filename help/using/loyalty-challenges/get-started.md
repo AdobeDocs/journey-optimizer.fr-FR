@@ -14,7 +14,7 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="Défis de fidélité"
->abstract="Les défis de fidélité vous permettent de créer des programmes de fidélité attrayants et ludiques qui stimulent le comportement des clients et approfondissent les relations de la marque. Créez des défis qui récompensent les clients pour des actions spécifiques, qu’il s’agisse d’acheter ou de rédiger des avis, de communiquer sur les médias sociaux ou de recommander des amis."
+>abstract="Les défis de fidélité vous permettent de créer des programmes de fidélité attrayants et ludiques qui stimulent le comportement client et renforcent la relation avec la marque. Créez des défis qui récompensent les clientes et clients pour des actions spécifiques, qu’il s’agisse d’acheter ou de rédiger des avis, de communiquer sur les réseaux sociaux ou de parrainer des proches."
 
-Les défis de fidélité vous permettent de créer des programmes de fidélité attrayants et ludiques qui stimulent le comportement des clients et approfondissent les relations de la marque. Créez des défis qui récompensent les clients pour des actions spécifiques, qu’il s’agisse d’acheter ou de rédiger des avis, de communiquer sur les médias sociaux ou de recommander des amis.
+Les défis de fidélité vous permettent de créer des programmes de fidélité attrayants et ludiques qui stimulent le comportement client et renforcent la relation avec la marque. Créez des défis qui récompensent les clientes et clients pour des actions spécifiques, qu’il s’agisse d’acheter ou de rédiger des avis, de communiquer sur les réseaux sociaux ou de parrainer des proches.
 
 Grâce aux défis de fidélité, vous pouvez :
 

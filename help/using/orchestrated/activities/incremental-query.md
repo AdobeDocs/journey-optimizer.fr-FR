@@ -11,7 +11,7 @@ version: Campaign Orchestration
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_history"
 >title="Jours d’historique"
->abstract="Ce paramètre contrôle la durée de conservation de cette liste. Une valeur égale à 0 signifie une conservation indéfinie, aucun enregistrement n’est supprimé."
+>abstract="Ce paramètre contrôle la durée de conservation de cette liste. Une valeur égale à 0 signifie une conservation indéfinie. Aucun enregistrement n’est supprimé."
 
 L&#39;activité **[!UICONTROL Requête incrémentale]** est une activité **[!UICONTROL Ciblage]** qui exécute une requête de base de données à chaque exécution de la campagne orchestrée. L’important est qu’il ne génère que des **nouveaux** enregistrements. Toute personne déjà récupérée au cours d’une exécution précédente est exclue, ce qui vous évite de recibler les mêmes personnes ou de réexporter les mêmes lignes.
 

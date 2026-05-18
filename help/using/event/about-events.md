@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2152
-ht-degree: 65%
+ht-degree: 68%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Événements de parcours"
->abstract="Journey Optimizer prend en charge trois types d’événements dans les parcours : les événements unitaires, liés au comportement d’une personne spécifique (comme un achat ou un jalon de fidélité) ; les événements métier, déclenchés par un événement global (comme une annulation de vol ou une mise à jour d’inventaire) ; et les événements de qualification d’audience, déclenchés lorsqu’un profil entre ou quitte une audience. Utilisez des événements pour déclencher des parcours et orchestrer les actions appropriées pour vos profils."
+>abstract="Journey Optimizer prend en charge trois types d’événements dans les parcours : les événements unitaires, liés au comportement d’une personne spécifique (comme un achat ou un jalon de fidélité), les événements métier, déclenchés par un événement global (comme une annulation de vol ou une mise à jour d’inventaire) et les événements de qualification d’audience, déclenchés lorsqu’un profil entre ou quitte une audience. Utilisez des événements pour déclencher des parcours et orchestrer les actions appropriées pour vos profils."
 
 Utilisez des événements pour déclencher les parcours individuellement, en envoyant des messages en temps réel à chaque utilisateur ou utilisatrice dès son entrée dans le parcours.
 

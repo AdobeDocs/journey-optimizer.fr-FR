@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1921
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Conditions"
->abstract="L’activité Condition permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide. Notez que les conditions sont désormais configurées dans l’activité Optimiser , qui remplace l’ancienne activité Condition ."
+>abstract="L’activité Condition permet de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide. Notez que les conditions sont désormais configurées dans l’activité Optimiser, qui remplace l’ancienne activité Condition."
 
 Les **conditions** vous permettent de définir la progression des individus dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide.
 

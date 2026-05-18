@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1089
-ht-degree: 59%
+ht-degree: 64%
 
 ---
 
@@ -67,12 +67,12 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 >
 >Pour **[!UICONTROL Préfixe d’e-mail de l’expéditeur]** et **[!UICONTROL Préfixe d’e-mail d’erreur]**, les valeurs doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser des `_` de soulignement, des `.` de point et des tirets `-`.
 
-## En-têtes de l’expéditeur {#sender-header}
+## En-têtes de l’expéditeur ou de l’expéditrice {#sender-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_sender_header"
->title="En-têtes de l’expéditeur"
->abstract="Utilisez ces champs facultatifs lorsque l’entité d’émission (expéditeur) diffère de l’entité de création (de), par exemple un parent d’entreprise distribuant des messages pour une marque enfant ou une agence envoyant pour plusieurs clients. Les clients de messagerie qui prennent en charge cette fonctionnalité l’affichent généralement sous la forme « Expéditeur au nom de l’expéditeur » ou affichent un indicateur « via »."
+>title="En-têtes de l’expéditeur ou de l’expéditrice"
+>abstract="Utilisez ces champs facultatifs lorsque l’entité émettrice (expéditeur ou expéditrice) diffère de l’entité de création (De), par exemple un parent d’entreprise envoyant des messages pour une marque enfant ou une agence envoyant des messages pour plusieurs clientes et clients. Les clients de messagerie qui prennent en charge cette fonctionnalité l’affichent généralement sous la forme « Expéditeur ou expéditrice de la part de » ou affichent un indicateur « via »."
 
 Certains cas d’utilisation nécessitent que la boîte aux lettres qui transmet le message soit différente de l’auteur **De** ; par exemple, une organisation parente qui envoie pour le compte d’une filiale, une équipe marketing partagée pour plusieurs marques ou une agence qui envoie pour plusieurs clients.
 

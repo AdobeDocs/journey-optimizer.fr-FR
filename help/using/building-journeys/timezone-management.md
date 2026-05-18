@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 378
-ht-degree: 65%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 65%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
->title="fuseau horaire du parcours"
+>title="Fuseau horaire du parcours"
 >abstract="Sélectionnez le fuseau horaire du parcours. Si vous utilisez un fuseau horaire fixe, il est identique pour toutes les personnes qui entrent dans le parcours."
 
 
@@ -70,7 +70,7 @@ Pour cela, dans le volet **[!UICONTROL Propriétés du parcours]**, sélectionne
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="Utiliser le fuseau horaire du profil"
->abstract="Cochez cette option pour utiliser le fuseau horaire du profil en temps réel dans les activités **Attente** et **Condition**. Si un fuseau horaire a été défini pour un profil, il est récupéré et utilisé dans le parcours. Dans le cas contraire, le fuseau horaire est celui défini dans le champ Fuseau horaire ci-dessus."
+>abstract="Cochez cette option pour utiliser le fuseau horaire de profil en temps réel dans les activités **Attente** et **Condition**. Si un fuseau horaire a été défini pour un profil, il est récupéré et utilisé dans le parcours. Dans le cas contraire, le fuseau horaire utilisé est celui défini dans le champ du fuseau horaire du dessus."
 
 Si l’événement d’entrée du parcours comporte un espace de noms, ce qui signifie que le parcours peut accéder au service de profil client en temps réel de [!DNL Adobe Experience Platform], vous pouvez utiliser le fuseau horaire défini au niveau du profil. Pour cela, dans **Propriétés**, cochez la case **Utiliser le fuseau horaire du profil dans les attentes et conditions**. Cette option n’est pas cochée par défaut.
 

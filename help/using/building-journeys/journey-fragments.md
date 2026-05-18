@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -43,7 +43,7 @@ Les fragments de parcours sont accessibles à partir de la section **[!UICONTROL
 
 Vous pouvez filtrer la liste par nom de fragment, statut, date de création, créateur, date de dernière modification ou balise.
 
-## Création d’un fragment de parcours {#create-journey-fragment}
+## Créer un fragment de parcours {#create-journey-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
@@ -93,7 +93,7 @@ Pour créer un fragment directement à partir de l’inventaire :
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="Propriétés du fragment de parcours"
->abstract="Ouvrez un fragment de l’inventaire pour modifier ses nœuds, propriétés, balises ou libellés. Les fragments actifs doivent être désactivés avant de pouvoir être modifiés."
+>abstract="Ouvrez un fragment à partir de l’inventaire pour modifier ses nœuds, propriétés, balises ou libellés. Les fragments actifs doivent être désactivés avant de pouvoir être modifiés."
 
 Pour modifier un fragment, ouvrez-le dans l’**[!UICONTROL inventaire des fragments]** en cliquant sur son nom. Dans l’interface utilisateur de création de fragments, vous pouvez :
 
@@ -156,7 +156,7 @@ Pour insérer un fragment dans un parcours :
 1. Sélectionnez le fragment. Ses nœuds sont copiés dans la zone de travail au niveau du point de dépôt.
 
 >[!NOTE]
->Seuls les fragments **[!UICONTROL actifs]** sont disponibles dans le sélecteur. L’insertion d’un fragment crée une **copie statique** de ses nœuds ; les mises à jour ultérieures apportées au fragment d’origine ne sont pas répercutées dans le parcours.
+>Seuls les fragments **[!UICONTROL actifs]** sont disponibles dans le sélecteur. L’insertion d’un fragment crée une **copie statique** de ses nœuds. Les mises à jour ultérieures apportées au fragment d’origine ne sont pas répercutées dans le parcours.
 >
 >Lorsqu’un fragment est déposé sur une zone de travail vide, il doit commencer par un nœud **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Qualification d’audience]** ou **[!UICONTROL Événement]** (même règle que lors du démarrage d’un parcours).
 

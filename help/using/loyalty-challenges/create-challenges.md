@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1937'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
@@ -75,7 +75,7 @@ Dans l’onglet **[!UICONTROL Structure]**, définissez l’organisation de votr
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="Propriétés du défi"
->abstract="Dans le volet Propriétés du défi , définissez le nom et la description du défi, puis ajoutez des métadonnées clé/valeur personnalisées pour le suivi ou les intégrations externes."
+>abstract="Dans le volet Propriétés du défi, définissez le nom et la description du défi, puis ajoutez des métadonnées clé/valeur personnalisées pour le suivi ou les intégrations externes."
 
 1. Dans le volet **[!UICONTROL Propriétés du défi]**, définissez les paramètres globaux du défi :
 
@@ -90,8 +90,8 @@ Dans l’onglet **[!UICONTROL Structure]**, définissez l’organisation de votr
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
->title="Planning des défis"
->abstract="Utilisez le planning pour définir le moment où le défi est actif : définissez la date et l’heure de début auxquelles il devient disponible pour les clients, ainsi que la date et l’heure de fin auxquelles il cesse d’accepter les fins de production. Sélectionnez un fuseau horaire et choisissez quand les clients peuvent terminer les tâches dans la section **[!UICONTROL Fenêtre de fin de tâche]**."
+>title="Planning du défi"
+>abstract="Utilisez le planning pour définir le moment où le défi est actif : définissez la date et l’heure de début auxquelles il est mis à disposition des clientes et clients, ainsi que la date et l’heure de fin auxquelles il cesse d’accepter les achèvements. Sélectionnez un fuseau horaire et choisissez quand les clientes et clients peuvent terminer les tâches dans la **[!UICONTROL section Fenêtre de fin de tâche]**."
 
 Configurez le moment où votre défi s’exécute :
 
@@ -116,7 +116,7 @@ Le planning du défi est maintenant configuré. Ajoutez ensuite les tâches que 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_tasks"
 >title="Tâches"
->abstract="Sélectionnez les tâches à effectuer pour relever le défi. Ensuite, configurez la manière dont le défi est terminé : les options disponibles dépendent de votre type de défi (Standard, Séquentiel ou Séquentiel)."
+>abstract="Sélectionnez les tâches à effectuer pour relever le défi. Ensuite, configurez la manière dont le défi est relevé : les options disponibles dépendent de votre type de défi (Standard, Série ou Séquentiel)."
 
 Les tâches définissent les actions spécifiques que les clients doivent effectuer pour gagner des récompenses. Vous pouvez configurer les types de tâches (achat, dépenses), les quantités, les filtres de produit et d’autres attributs.
 
@@ -171,7 +171,7 @@ Après avoir ajouté des tâches à votre défi, configurez les récompenses que
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_rewards"
 >title="Récompenses"
->abstract="Choisissez le moment où les clients gagnent des points : lorsqu’ils relèvent l’ensemble du défi ou aux jalons de la tâche au fur et à mesure de leur progression. Sélectionnez votre fournisseur de récompense (votre solution de fidélité qui gère les points et les récompenses), puis définissez les montants : un total unique pour l’achèvement complet, ou des valeurs par tâche pour les jalons, en activant les récompenses uniquement pour les tâches que vous souhaitez payer."
+>abstract="Choisissez le moment où les clientes et clients gagnent des points : lorsqu’ils relèvent l’intégralité du défi ou aux jalons de la tâche au fur et à mesure de leur progression. Sélectionnez votre fournisseur de récompense (votre solution de fidélité qui gère les points et les récompenses), puis définissez les montants : un montant total unique pour l’achèvement complet, ou des valeurs par tâche pour les jalons, en activant les récompenses uniquement pour les tâches que vous souhaitez payer."
 
 Les récompenses sont les points de fidélité ou les avantages que les clients reçoivent pour relever les défis.
 
@@ -215,12 +215,12 @@ Pour configurer quand et comment les récompenses sont diffusées :
 
 Après avoir configuré la structure du défi avec des tâches et des récompenses, concevez les cartes de contenu pour afficher le défi aux clients.
 
-## Configuration des cartes de contenu {#configure-content-cards}
+## Configurer les cartes de contenu {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Contenu"
->abstract="Configurez la carte de contenu qui représente votre défi sur les appareils des clients et affiche les informations sur le défi, la progression et les récompenses. Saisissez le nom de la carte, sélectionnez une configuration de canal afin que la diffusion utilise les paramètres techniques appropriés (par exemple, les en-têtes, le sous-domaine ou les applications mobiles), puis sélectionnez Modifier le contenu pour concevoir et personnaliser l’expérience de la carte."
+>abstract="Configurez la carte de contenu qui représente votre défi sur les appareils des clientes et clients et affiche les informations sur le défi, la progression et les récompenses. Saisissez le nom de la carte, sélectionnez une configuration des canaux afin que la diffusion utilise les paramètres techniques appropriés (par exemple, les en-têtes, le sous-domaine ou les applications mobiles), puis sélectionnez Modifier le contenu pour concevoir et personnaliser l’expérience de la carte."
 
 Les cartes de contenu représentent visuellement votre défi sur les appareils des clients, en affichant les informations sur le défi, la progression et les récompenses. [En savoir plus sur les cartes de contenu](../content-card/create-content-card.md).
 
@@ -236,12 +236,12 @@ Pour configurer les cartes de contenu en fonction de votre défi :
 
 Après avoir configuré la carte de contenu, configurez la messagerie pour impliquer les clients tout au long du cycle de vie du défi.
 
-### Configurer la messagerie {#configure-messaging}
+### Configurer les messages {#configure-messaging}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Message"
->abstract="Les messages aident à l’engagement tout au long du cycle de vie du défi. Dans l’onglet Messagerie , ajoutez des messages pour chaque étape : Lancement (lorsque le défi commence), En cours (rappels et mises à jour de progression) et Terminé (célébrer le succès et confirmer les récompenses). Pour chaque étape, ajoutez un message, choisissez le canal, sélectionnez une configuration de canal, puis cliquez sur Modifier pour concevoir le contenu du message."
+>abstract="Les messages contribuent à l’engagement tout au long du cycle de vie du défi. Dans l’onglet Messages, ajoutez des messages pour chaque étape : Lancement (lorsque le défi commence), En cours (rappels et mises à jour de progression) et Terminé (célébrer la réussite et confirmer les récompenses). Pour chaque étape, ajoutez un message, choisissez le canal, sélectionnez une configuration des canaux, puis sélectionnez Modifier pour concevoir le contenu du message."
 
 Configurez des messages multicanaux pour impliquer les clients aux étapes clés du cycle de vie du défi. La messagerie est facultative, mais recommandée pour optimiser l’engagement du client.
 
@@ -268,7 +268,7 @@ Une fois la configuration de la messagerie terminée, définissez les clients é
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Audience"
->abstract="Dans l’onglet Audience , choisissez qui peut participer au défi parmi les audiences Adobe Experience Platform disponibles."
+>abstract="Dans l’onglet Audience, choisissez qui peut participer au défi parmi les audiences Adobe Experience Platform disponibles."
 
 Définir quels clients peuvent participer à votre défi de fidélité.
 

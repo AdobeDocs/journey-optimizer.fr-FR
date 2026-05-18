@@ -37,11 +37,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1334
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Utilisation de GenStudio pour le marketing de performances {#ajo-genstudio}
+# Utilise GenStudio pour le marketing de la performance {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"

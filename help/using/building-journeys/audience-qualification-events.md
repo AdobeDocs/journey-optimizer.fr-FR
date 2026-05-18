@@ -40,7 +40,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1767
-ht-degree: 63%
+ht-degree: 70%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualification d’audience"
->abstract="Déclenchez l’entrée ou la poursuite du parcours lorsqu’un profil remplit les conditions pour une audience [!DNL Adobe Experience Platform] ou la quitte. Recommandé pour les audiences en flux continu ; utilisez une activité Lecture d’audience pour les scénarios par lots."
+>abstract="Déclenchez l’entrée ou la poursuite du parcours lorsqu’un profil remplit les conditions pour une audience [!DNL Adobe Experience Platform] ou en sort. Recommandé pour les audiences en streaming. Utilisez une activité Lecture d’audience pour les scénarios par lots."
 
 ## À propos des événements de qualification d’audience{#about-segment-qualification}
 
@@ -74,7 +74,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Libellé"
->abstract="Ajoutez un libellé facultatif pour identifier cette activité dans les journaux des modes de reporting et de test."
+>abstract="Ajoutez un libellé facultatif pour identifier cette activité dans les journaux de mode de test et les rapports."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
@@ -84,7 +84,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportement"
->abstract="Choisissez d’écouter les entrées d’audience, les sorties ou les deux."
+>abstract="Choisissez d’écouter les entrées, les sorties de l’audience, ou les deux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"

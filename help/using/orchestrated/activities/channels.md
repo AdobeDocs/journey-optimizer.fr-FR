@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1803
-ht-degree: 57%
+ht-degree: 61%
 
 ---
 
@@ -86,7 +86,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="Catégorie"
->abstract="Choisissez Marketing ou Transactionnel pour cette activité de canal. Les messages marketing utilisent des configurations de canal marketing et suivent vos règles métier standard. Les messages transactionnels sont destinés aux communications opérationnelles, souvent déclenchées par l’action d’une personne (par exemple, la réinitialisation d’un mot de passe ou une confirmation d’achat) ou pour les avis urgents tels que les interruptions ou les annulations. Ils utilisent des configurations de canal transactionnel, les règles métier sont contournées et l’inclusion n’est pas requise."
+>abstract="Choisissez Marketing ou Transactionnel pour cette activité de canal. Les messages marketing utilisent des configurations de canal marketing et suivent vos règles métier standard. Les messages transactionnels sont destinés aux communications opérationnelles, souvent déclenchées par l’action d’une personne (par exemple, la réinitialisation d’un mot de passe ou une confirmation d’achat) ou pour les avis urgents tels que les interruptions ou les annulations. Ils utilisent des configurations de canaux transactionnels, les règles métier sont contournées et l’opt-in n’est pas requis."
 
 >[!PREREQUISITES]
 >
