@@ -14,7 +14,7 @@ exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -46,7 +46,7 @@ Chaque tâche représente une action mesurable qui contribue à l&#39;achèvemen
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Créer une tâche"
->abstract="Sélectionnez une activité du client (Achat ou Dépenses), puis configurez les attributs spécifiques à l&#39;activité : quantités ou montants, éléments et exclusions éligibles, et limites facultatives telles que dépenses minimales ou transactions maximales. Dans le volet Propriétés , définissez le nom et la description de la tâche."
+>abstract="Sélectionnez une activité client (Achat ou Dépense), puis configurez les attributs spécifiques à l’activité : quantités ou montants, articles éligibles et exclusions, et limites facultatives telles que le montant de dépense minimal ou le nombre maximal de transactions. Dans le volet Propriétés, définissez le nom et la description de la tâche."
 
 Vous pouvez créer des tâches à partir de deux points d’entrée. Le processus de configuration est le même, quel que soit l’endroit où vous commencez.
 
@@ -105,16 +105,16 @@ Attributs disponibles pour les activités **Dépenses** :
 
 >[!ENDTABS]
 
-## Définir les éléments éligibles et les exclusions {#eligible-items-exclusions}
+## Définir les articles éligibles et les exclusions {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
->title="Éléments éligibles et exclusions"
->abstract="Pour les activités **Achat** et **Dépenses**, vous pouvez utiliser l’attribut **[!UICONTROL Articles et exclusions éligibles]** pour définir les articles et groupes éligibles et ceux qui sont exclus. Cela vous permet de cibler des produits, des catégories ou des emplacements spécifiques pour vous aligner sur vos objectifs de défi. Par exemple, vous pouvez limiter une tâche de dépense à des catégories de produits spécifiques ou exclure les cartes-cadeaux ou les articles promotionnels du comptage pour terminer la tâche."
+>title="Articles éligibles et exclusions"
+>abstract="Pour les activités **Achat** et **Dépense**, vous pouvez utiliser l’attribut **[!UICONTROL Articles éligibles et exclusions]** pour définir les articles et groupes éligibles et ceux qui sont exclus. Cela vous permet de cibler des produits, des catégories ou des emplacements spécifiques pour vous aligner sur les objectifs de votre défi. Par exemple, vous pouvez limiter une tâche de dépense à des catégories de produits spécifiques ou exclure les cartes-cadeaux ou les articles promotionnels du calcul de la progression de la tâche."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-Pour les activités **Achat** et **Dépenses**, vous pouvez utiliser l’attribut **[!UICONTROL Articles et exclusions éligibles]** pour définir les articles et groupes éligibles et ceux qui sont exclus. Cela vous permet de cibler des produits, des catégories ou des emplacements spécifiques pour vous aligner sur vos objectifs de défi.
+Pour les activités **Achat** et **Dépense**, vous pouvez utiliser l’attribut **[!UICONTROL Articles éligibles et exclusions]** pour définir les articles et groupes éligibles et ceux qui sont exclus. Cela vous permet de cibler des produits, des catégories ou des emplacements spécifiques pour vous aligner sur les objectifs de votre défi.
 
 Par exemple, vous pouvez limiter une tâche à des catégories de produits spécifiques ou exclure les cartes-cadeaux ou les articles promotionnels du comptage pour terminer la tâche.
 

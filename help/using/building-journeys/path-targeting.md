@@ -13,11 +13,11 @@ badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
-# Utilisation du ciblage des chemins d’accès {#targeting}
+# Tirer profit du ciblage par chemin {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"

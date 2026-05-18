@@ -9,25 +9,16 @@ role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 TQID: https://experienceleague.adobe.com/RoRap9ND2FI0-rMSSM0eeWcsx7wfjdePCy8XbOMOPKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 3575
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -486,7 +477,7 @@ Le widget **[!UICONTROL Performances des SMS par date]** offre une vue d’ense
 
 +++
 
-### SMS - Causes d’erreur {#sms-error-reasons}
+### SMS – Causes d’erreur {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -495,7 +486,7 @@ Le widget **[!UICONTROL Performances des SMS par date]** offre une vue d’ense
 
 Les graphes et le tableau **[!UICONTROL Causes d’exclusion]** permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi de vos SMS au cours des dernières 24 heures, ce qui facilite l’analyse approfondie de tous les problèmes rencontrés.
 
-### SMS - raisons d’exclusion {#sms-excluded-reasons}
+### SMS – Causes d’exclusion {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -572,7 +563,7 @@ Le tableau **[!UICONTROL Interactions par élément]** présente des information
 
 Depuis le **[!UICONTROL Rapport dynamique]** de votre campagne, l’onglet **[!UICONTROL Courrier]** présente les informations principales relatives à votre courrier.
 
-### Courrier - Statistiques d’envoi {#direct-mail-sending}
+### Courrier – Statistiques d’envoi {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -595,7 +586,7 @@ Le tableau **[!UICONTROL Courrier – Statistiques d’envoi]** fournit un résu
 
 +++
 
-### Courrier - Causes d’erreur {#direct-mail-error-reasons}
+### Courrier – Causes d’erreur {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -606,7 +597,7 @@ Le tableau **[!UICONTROL Courrier – Statistiques d’envoi]** fournit un résu
 
 Les graphes et le tableau **[!UICONTROL Courrier – Causes d’erreur]** permettent d’identifier les erreurs spécifiques qui se sont produites pendant le processus d’envoi de votre courrier, ce qui permet d’analyser en détail les éventuels problèmes rencontrés au cours des dernières 24 heures.
 
-### Publipostage direct - raisons d’exclusion {#direct-mail-excluded-reasons}
+### Courrier – Causes d’exclusion {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"
