@@ -29,10 +29,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b4ce14492d56e7121f827cf6a46abc5c222180e5
+source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 43%
+source-wordcount: 1576
+ht-degree: 33%
 
 ---
 
@@ -42,20 +42,11 @@ Ce guide de référence définit les termes essentiels que vous rencontrerez lor
 
 Pour obtenir des paires de termes à consonance similaire qui sont souvent confus, tels que **Prise de décision / Gestion des décisions** ou **Cartes de contenu / Messages In-App**, consultez [Lorsque les termes se ressemblent](#disambiguation) au bas de cette page.
 
->[!TIP]
+>[!NOTE]
 >
->Pour des explications détaillées des fonctionnalités et des workflows, reportez-vous aux sections de documentation spécifiques référencées tout au long de ce guide.
+>Adobe Journey Optimizer est basé sur **Adobe Experience Platform**. De nombreux concepts fondamentaux que vous rencontrerez, tels que les profils clients en temps réel, les sandbox, les schémas et les jeux de données, sont des concepts Adobe Experience Platform et non spécifiques à Journey Optimizer. Pour connaître la définition de ces termes, consultez le glossaire [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=fr){target="_blank"}.
 
-## Termes relatifs à la plateforme principale {#core-terms}
-
-| Terme | Définition |
-|------|------------|
-| **Adobe Journey Optimizer** | Application permettant de créer et de diffuser des messages personnalisés aux clientes et clients sur plusieurs canaux (e-mail, SMS, notifications push, web). Elle vous permet de créer des parcours clients qui répondent aux actions des clientes et des clients en temps réel. |
-| **Adobe Experience Platform** | Base d’Adobe Journey Optimizer qui collecte et organise toutes les données client en un seul endroit. Elle crée des profils clients unifiés que Journey Optimizer utilise pour la personnalisation. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} |
-| **Profil client en temps réel** | Vue unifiée en temps réel de chaque cliente et client qui combine des données issues de plusieurs canaux, notamment des données en ligne, hors ligne, CRM et tierces. Chaque profil est mis à jour de manière dynamique à mesure que les clientes et clients interagissent avec votre marque. [En savoir plus](../audience/get-started-profiles.md) |
-| **Sandbox** | Espace de travail distinct pour tester et expérimenter sans affecter les communications actuellement diffusées à la clientèle. Adobe Journey Optimizer fournit plusieurs sandbox pour les environnements de développement, de test et de production. [En savoir plus](../administration/sandboxes.md) |
-
-## Termes relatifs aux parcours et aux campagnes {#journey-campaign-terms}
+## Termes du parcours et de la campagne {#journey-campaign-terms}
 
 | Terme | Définition |
 |------|------------|
@@ -64,7 +55,7 @@ Pour obtenir des paires de termes à consonance similaire qui sont souvent confu
 | **Événement** | Action ou occurrence qui déclenchent ou font avancer un parcours. Les événements peuvent être des actions des clientes et clients (achat, abandon de panier) ou des événements système (date/heure, modification des données). [En savoir plus](../event/about-events.md) |
 | **Canal** | Méthode utilisée pour communiquer avec les clientes et clients : e-mail, SMS, notifications push, messages in-app, web ou courrier. Chaque canal nécessite une configuration spécifique. [En savoir plus](../configuration/get-started-configuration.md) |
 
-## Termes relatifs à la clientèle et à l’audience {#customer-audience-terms}
+## Termes du client et de l’audience {#customer-audience-terms}
 
 | Terme | Définition |
 |------|------------|
@@ -97,8 +88,6 @@ Pour obtenir des paires de termes à consonance similaire qui sont souvent confu
 
 | Terme | Définition |
 |------|------------|
-| **Schéma** | Structure qui définit l’organisation des données dans Adobe Experience Platform, notamment les noms de champ, les types de données et les relations. Les schémas garantissent la cohérence des données entre les systèmes. [En savoir plus](../data/get-started-schemas.md) |
-| **Jeu de données** | Collection de données (généralement un tableau) qui suit un schéma spécifique. Les jeux de données stockent les données client, les événements d’interaction et d’autres informations utilisées pour la personnalisation. [En savoir plus](../data/get-started-datasets.md) |
 | **Configuration du canal** | Les paramètres qui définissent la manière dont les messages sont diffusés pour un canal spécifique, y compris les détails de l’expéditeur, le sous-domaine, le groupe d’adresses IP et le type de message (marketing ou transactionnel). Précédemment appelé « surface » ou « paramètre prédéfini » dans l’ancienne documentation. [En savoir plus](../configuration/channel-surfaces.md) |
 | **Liste de suppression** | Une liste d&#39;adresses e-mail et de domaines automatiquement exclus de la diffusion des messages en raison de hard bounces, de plaintes contre le spam ou d&#39;ajouts manuels. L&#39;envoi aux adresses supprimées est bloqué pour protéger la délivrabilité et la réputation de l&#39;expéditeur. [En savoir plus](../reports/suppression-list.md) |
 
@@ -108,10 +97,6 @@ Pour obtenir des paires de termes à consonance similaire qui sont souvent confu
 |------|------------|
 | **Ensemble de règles** | Groupe nommé de règles métier appliquées aux parcours et aux campagnes pour régir le comportement des messages. Un ensemble de règles peut combiner le capping de la fréquence, les limites d’entrée du parcours et les heures creuses en une seule politique réutilisable. [En savoir plus](../conflict-prioritization/rule-sets.md) |
 | **Capping de la fréquence** | Règle dans un ensemble de règles qui limite le nombre de messages qu’un profil peut recevoir au cours d’une période donnée, par canal ou type de communication (vente, promotion, etc.). Les profils qui dépassent la limite sont automatiquement exclus de la diffusion. [En savoir plus](../conflict-prioritization/channel-capping.md) |
-
->[!NOTE]
->
->Pour obtenir un glossaire complet des termes d’Adobe Experience Platform, reportez-vous au glossaire [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=fr){target="_blank"}.
 
 ## Lorsque les termes se ressemblent : guide de désambiguïsation {#disambiguation}
 
@@ -157,7 +142,7 @@ Tous deux sont des mécanismes d’ensemble de règles sous l’ensemble d’out
 | **Configuré en** | Jeux de règles → Capping de la fréquence | Jeux de règles → limitation et arbitrage du Parcours |
 | **En savoir plus** | [Définir le capping de la fréquence par canal](../conflict-prioritization/channel-capping.md) | [Gérer la limitation et l’arbitrage des parcours &#x200B;](../conflict-prioritization/journey-capping.md) |
 
-### Cartes de contenu par rapport aux messages In-App {#content-cards-vs-in-app}
+### Cartes de contenu par rapport aux messages in-app {#content-cards-vs-in-app}
 
 Les deux canaux diffusent les messages dans une application mobile ou web, mais ils ont des modèles de rendu et des comportements de persistance différents.
 
