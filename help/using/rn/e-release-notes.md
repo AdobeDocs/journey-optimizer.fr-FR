@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
+source-git-commit: 94d84469a30e1e93b7e74a81d3ef19f588f521cc
 workflow-type: tm+mt
 source-wordcount: 1131
 ht-degree: 6%
@@ -48,7 +48,7 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 <table>
 <thead>
 <tr>
-<th><strong>Campagnes orchestrées liées</strong><br/></th>
+<th><strong>Campagnes orchestrées en chaîne</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -56,6 +56,7 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 <td>
 <p>Les campagnes orchestrées peuvent désormais être liées en déclenchant une campagne orchestrée directement à partir de l’activité <strong>Fin</strong> d’une autre campagne orchestrée.</p>
 <p>Cela permet de diviser une logique d’orchestration complexe en flux plus petits et réutilisables qui peuvent être appelés à partir de plusieurs campagnes parentes plutôt que reconstruits à chaque fois. La payload transmise au moment de l’exécution est disponible pour la segmentation et la personnalisation dans la campagne en aval. De ce fait, chaque campagne liée peut se comporter en fonction du contexte qu’elle reçoit.</p>
+<!--<p><img src="assets/do-not-localize/oc-trigger.gif"></p>-->
 <p>Date de disponibilité : 19 mai 2026</p>
 </td>
 </tr>

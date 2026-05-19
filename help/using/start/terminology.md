@@ -29,9 +29,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
+source-git-commit: d92b3c8475020b26a3f154b322374a05f7d41f29
 workflow-type: tm+mt
-source-wordcount: 1576
+source-wordcount: 1573
 ht-degree: 33%
 
 ---
@@ -109,7 +109,6 @@ Ces deux fonctionnalités sélectionnent et diffusent les offres, mais elles int
 | | Prise de décision | Gestion des décisions |
 |---|---|---|
 | **Statut** | Actuel : recommandé pour toutes les nouvelles mises en œuvre | **Hérité** — toujours pris en charge, mais plus recommandé pour les nouvelles implémentations |
-| **Présenté** | 2024 | 2021 |
 | **Catalogue d&#39;articles** | Métadonnées flexibles basées sur des schémas | Bibliothèque des offres centralisée |
 | **Canaux pris en charge** | Expérience basée sur le code, notifications push, SMS, e-mail (disponibilité limitée) | E-mail, In-App, Push, SMS, Courrier |
 | **Différenciateur clé** | Composants de décision réutilisables, expérimentation, feuille de route des canaux élargie | Moteur de contraintes éprouvé ; migration vers Decisioning pour les nouveaux projets |

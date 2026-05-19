@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6e45f1930e70702b3f79449edbe1c73b9cffb8c1
+source-git-commit: 24e3ab995d8dfc77c4441ce68e51b437f5827228
 workflow-type: tm+mt
-source-wordcount: 1566
-ht-degree: 38%
+source-wordcount: 1637
+ht-degree: 36%
 
 ---
 
@@ -145,6 +145,7 @@ Les fonctionnalités suivantes ont été publiées en mai 2026.
 <tr>
 <td>
 <p>[!DNL Adobe Journey Optimizer] utilise désormais l’IA pour détecter les règles de prise de décision et les formules de classement qui peuvent être simplifiées. Dans l’inventaire, un indicateur rouge s’affiche sur toute règle pour laquelle l’IA a identifié une opportunité d’optimisation. Cliquez sur l’indicateur pour afficher l’expression d’origine avec la version suggérée par l’IA. À partir de là, vous pouvez télécharger un fichier pour examiner la manière dont les profils simulés sont évalués par chaque version et confirmer qu’ils se comportent de manière identique, puis remplacer l’expression par l’expression optimisée.</p>
+<p><img src="assets/do-not-localize/rule-ai.gif"></p>
 <p>Pour plus d’informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 5 mai 2026</p>
 </td>
@@ -225,6 +226,22 @@ Les améliorations suivantes ont également été publiées en mai 2026.
 Les fonctionnalités et améliorations suivantes devraient être publiées fin mai. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
 
 ### Nouvelles fonctionnalités {#coming-soon-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Nouveau canal de message mobile et messagerie RCS améliorée</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les SMS, MMS et RCS sont désormais regroupés dans une seule action <strong>Message mobile</strong> dans Adobe Journey Optimizer, ce qui facilite la gestion de tous les types de messages mobiles à partir d’un seul emplacement. Dans le cadre de cette mise à jour, vous pouvez désormais créer des messages RCS de médias riches, y compris des images, des carrousels et des actions suggérées, directement dans Journey Optimizer grâce à une nouvelle expérience de création native.</p>
+<p>Date de disponibilité : 20 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
