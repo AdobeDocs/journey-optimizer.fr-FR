@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
 workflow-type: tm+mt
-source-wordcount: '2199'
-ht-degree: 88%
+source-wordcount: '2247'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,16 @@ Pour créer un élément de décision, accédez à **[!UICONTROL Prise de décis
 >id="ajo_exd_item_priority"
 >title="Définir la priorité de l’élément de décision"
 >abstract="Si un profil est admissible pour plusieurs éléments, la priorité permet de comparer cet élément de décision à d’autres. Une priorité plus élevée confère à l’élément une préséance sur les autres."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_ajo_fragment"
+>title="Mappez un fragment de contenu Journey Optimizer à cet élément de décision."
+>abstract="Joignez un fragment de contenu à partir de votre bibliothèque de fragments Journey Optimizer."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_aem_fragment"
+>title="Mappez un fragment de contenu AEM à cet élément de décision."
+>abstract="En joignant un fragment de contenu à cet élément de décision, vous pouvez exploiter votre contenu directement depuis Adobe Experience Manager."
 
 Commencez par définir les attributs standard et personnalisés de l’élément de décision :
 
@@ -68,8 +78,8 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 >abstract="Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
