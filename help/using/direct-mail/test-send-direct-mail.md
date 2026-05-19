@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Vérifier et envoyer un message de publipostage direct
 description: Découvrez comment vérifier et envoyer un message de publipostage direct dans Journey Optimizer.
 feature: Direct Mail, Test Profiles, Preview
@@ -25,14 +27,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 478
-ht-degree: 86%
+source-wordcount: 582
+ht-degree: 73%
 
 ---
 
 # Vérifier et envoyer un message de publipostage direct {#direct-mail-test-send}
+
+Découvrez comment prévisualiser le fichier d’extraction, valider et activer votre campagne ou votre parcours de publipostage direct et gérer le consentement du courrier postal dans Journey Optimizer.
+
+## Avant de commencer {#before-you-start}
+
+Avant de tester et d’envoyer un message de publipostage direct, [créez le message et configurez le fichier d’extraction](create-direct-mail.md). Vérifiez que vous avez également terminé [configuration du canal courrier](direct-mail-configuration.md).
 
 ## Prévisualiser le fichier d’extraction {#preview-dm}
 
@@ -40,7 +48,7 @@ Une fois le contenu du fichier d’extraction défini, vous pouvez utiliser des 
 
 Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, ajoutez ensuite un profil de test pour vérifier le rendu du fichier d’extraction à l’aide des données de profil de test.
 
-![](assets/direct-mail-simulate.png){width="800" align="center"}
+![Simuler l’aperçu du contenu pour un fichier d’extraction de publipostage direct](assets/direct-mail-simulate.png){width="800" align="center"}
 
 Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
@@ -58,7 +66,7 @@ Avant d’activer la campagne de publipostage direct, assurez-vous que la campag
 
 * Les **erreurs** vous empêchent de publier la campagne tant qu’elles ne sont pas corrigées. Par exemple, un message d’erreur vous avertit lorsque l’objet est manquant.
 
-![](assets/direct-mail-review.png){width="800" align="center"}
+![Examinez et activez l’écran affichant les alertes de validation des campagnes de publipostage direct](assets/direct-mail-review.png){width="800" align="center"}
 
 Lorsque votre campagne de publipostage direct est prête, effectuez la configuration de votre [parcours &#x200B;](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
 
@@ -81,3 +89,12 @@ Pour l’activer à nouveau, l’attribut de profil doit être redéfini sur `co
 Pour gérer les attributs d’un profil, accédez à Experience Platform et au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
 En savoir plus sur la gestion des opt-outs de Journey Optimizer dans [cette section](../privacy/opt-out.md).
+
+## Rubriques connexes {#related-topics}
+
+* [Commencer à utiliser le courrier](get-started-direct-mail.md)
+* [Créer un message de publipostage direct](create-direct-mail.md)
+* [Configurer le canal courrier](direct-mail-configuration.md)
+* [Prévisualiser et tester le contenu](../content-management/preview-test.md)
+
+Pour des questions courantes sur le publipostage direct, voir [Prise en main du publipostage direct](get-started-direct-mail.md).
