@@ -7,23 +7,14 @@ short-description: Découvrez les fonctionnalités clés et les cas d’utilisat
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 100%
+source-wordcount: 963
+ht-degree: 94%
 
 ---
 
@@ -151,3 +142,6 @@ Maintenant que vous avez appris les principes de base des campagnes orchestrées
 * **[Mécanismes de sécurisation et limitations](guardrails.md)** ; passez en revue les mécanismes de sécurisation, les limitations et les bonnes pratiques pour garantir des performances optimales des campagnes.
 * **[Questions fréquentes](orchestrated-campaigns-faq.md)** ; trouvez des réponses aux questions fréquentes sur les fonctionnalités, les capacités et les cas d’usage des campagnes orchestrées.
 * **[Tutoriels sur les campagnes orchestrées](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** ; explorez des tutoriels vidéo détaillés présentant les fonctionnalités et les meilleures pratiques.
+* **[Impliquer les clients en parcourant l’activité](engage-customers-uc.md)** - Réengagez les profils qui ont parcouru mais n’ont pas effectué d’achat, à l’aide d’une campagne orchestrée en plusieurs étapes.
+* **[Informer les utilisateurs de la disponibilité du produit](product-availability-uc.md)** - Avertir les clients lorsqu’un produit qui les intéresse est de nouveau en stock.
+* **[Envoyer des mises à jour d’éléments de liste de souhaits](wishlist-uc.md)** - Déclenchez des messages personnalisés lorsque des éléments de liste de souhaits sont mis en vente ou deviennent disponibles.
