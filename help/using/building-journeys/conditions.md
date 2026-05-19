@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 1921
-ht-degree: 92%
+source-wordcount: 1941
+ht-degree: 91%
 
 ---
 
@@ -221,3 +221,5 @@ Pour utiliser une audience dans une condition de parcours, procédez comme suit�
    >[!NOTE]
    >
    >Notez que seules les personnes ayant le statut de participation d’audience **Réalisé** sont considérées comme membres de l’audience. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
+
+➡️ **Voir la pratique :** découvrez comment utiliser les conditions d’heure et de jour de la semaine pour [envoyer des e-mails uniquement les jours de la semaine](weekday-email-uc.md).

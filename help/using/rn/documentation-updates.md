@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
 workflow-type: tm+mt
-source-wordcount: '7777'
-ht-degree: 92%
+source-wordcount: '7859'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 92%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Mai 2026 {#may-2026}
+
+* La page **Terminologie clé** a été enrichie d’un nouveau guide de désambiguïté **Lorsque les termes semblent similaires** couvrant quatre paires de termes souvent confuses : prise de décision ou gestion des décisions (y compris le statut hérité de la gestion des décisions), les trois types de campagnes (Action, déclenchée par API et orchestrée), le capping de la fréquence ou l’arbitrage des parcours, et les cartes de contenu ou les messages In-App. La définition **Campaign** et le tableau **Conditions des décisions et des offres** ont également été mis à jour. Decisioning est désormais répertorié avec la gestion des décisions, qui est explicitement marquée comme héritée. [En savoir plus](../start/terminology.md#disambiguation)
 
 * La documentation sur les **liens profonds** a été complétée par une nouvelle section **Création de liens profonds** présentant les deux options disponibles pour les e-mails (IU Designer par e-mail et code de l’éditeur de Personalization) et la syntaxe de la fonction URL pour les SMS. La page **Créer un SMS** comprend désormais une étape de lien profond dans le flux de création de contenu. [En savoir plus](../email/deeplinks.md)
 

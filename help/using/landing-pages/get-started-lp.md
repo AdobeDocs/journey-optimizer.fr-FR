@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 712
-ht-degree: 100%
+source-wordcount: 735
+ht-degree: 96%
 
 ---
 
@@ -130,3 +130,5 @@ La création et le déploiement d’une page de destination s’effectuent comme
 La vidéo ci-dessous montre comment créer une liste d’abonnements, configurer des pages de destination permettant de s’abonner à un service ou de s’en désabonner, intégrer l’option d’abonnement ou de désabonnement à un message et configurer les parcours pertinents.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344398?captions=fre_fr&quality=12&learn=on)
+
+➡️ **Consultez-le en pratique :** Explorer [cas d’utilisation de la page de destination](lp-use-cases.md) pour obtenir des exemples détaillés sur la gestion des abonnements, les e-mails de confirmation et les scénarios de capture de données.

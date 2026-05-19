@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 100%
+source-wordcount: 963
+ht-degree: 94%
 
 ---
 
@@ -151,3 +151,6 @@ Maintenant que vous avez appris les principes de base des campagnes orchestrées
 * **[Mécanismes de sécurisation et limitations](guardrails.md)** ; passez en revue les mécanismes de sécurisation, les limitations et les bonnes pratiques pour garantir des performances optimales des campagnes.
 * **[Questions fréquentes](orchestrated-campaigns-faq.md)** ; trouvez des réponses aux questions fréquentes sur les fonctionnalités, les capacités et les cas d’usage des campagnes orchestrées.
 * **[Tutoriels sur les campagnes orchestrées](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** ; explorez des tutoriels vidéo détaillés présentant les fonctionnalités et les meilleures pratiques.
+* **[Impliquer les clients en parcourant l’activité](engage-customers-uc.md)** - Réengagez les profils qui ont parcouru mais n’ont pas effectué d’achat, à l’aide d’une campagne orchestrée en plusieurs étapes.
+* **[Informer les utilisateurs de la disponibilité du produit](product-availability-uc.md)** - Avertir les clients lorsqu’un produit qui les intéresse est de nouveau en stock.
+* **[Envoyer des mises à jour d’éléments de liste de souhaits](wishlist-uc.md)** - Déclenchez des messages personnalisés lorsque des éléments de liste de souhaits sont mis en vente ou deviennent disponibles.

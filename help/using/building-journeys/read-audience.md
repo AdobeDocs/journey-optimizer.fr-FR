@@ -36,10 +36,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 3612
-ht-degree: 63%
+source-wordcount: 3767
+ht-degree: 60%
 
 ---
 
@@ -426,13 +426,15 @@ Pour obtenir la liste complète des mécanismes de sécurisation de lecture d’
 
 ## Rubriques connexes
 
-* [Créer des audiences](../audience/about-audiences.md)
-* [Activité Qualification d’audience](audience-qualification-events.md)
-* [Utiliser des identifiants supplémentaires dans les parcours](supplemental-identifier.md)
-* [Mécanismes de sécurisation et limitations](../start/guardrails.md#read-segment-g)
-* [Taux de traitement des parcours et gestion des entrées](entry-management.md)
-* [Test d’un parcours](testing-the-journey.md)
-* [Publication d’un parcours](../building-journeys/publish-journey.md)
+* [Créer des audiences](../audience/about-audiences.md) - Créez et gérez les segments d’audience que vous souhaitez cibler dans vos parcours Lecture d’audience.
+* [Activité Qualification d’audience](audience-qualification-events.md) - Déclenchez des parcours en temps réel au fur et à mesure que les profils rejoignent ou quittent une audience, au lieu de les traiter par lots.
+* [Utiliser des identifiants supplémentaires dans les parcours &#x200B;](supplemental-identifier.md) - Étendez les parcours Lecture d’audience pour cibler les entités secondaires telles que les réservations, les contrats ou les abonnements liés à un profil.
+* [Mécanismes de sécurisation et limitations](../start/guardrails.md#read-segment-g) - Examinez les limites de débit, le comportement des reprises et les seuils de taille d’audience avant le lancement à grande échelle.
+* [Taux de traitement des Parcours et gestion des entrées](entry-management.md) - Découvrez comment les profils sont injectés dans le parcours et ce qui contrôle l’entrée et la rentrée.
+* [Tester un parcours &#x200B;](testing-the-journey.md) - Validez la logique de parcours à l’aide de profils de test avant la mise en ligne.
+* [Publier un parcours &#x200B;](../building-journeys/publish-journey.md) - Activez votre parcours et surveillez son exécution initiale.
+* [Envoyer un message aux abonnés](message-to-subscribers-uc.md) - Cas pratique de bout en bout : ciblez une liste d’abonnements avec un parcours Lecture d’audience, de la configuration à la diffusion.
+* [Bonnes pratiques pour la lecture de parcours d’audience](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=fr){target="_blank"} - blog de la communauté couvrant les pièges courants, les incohérences de comptage et les bonnes pratiques éprouvées.
 
 ## Vidéo pratique {#video}
 
