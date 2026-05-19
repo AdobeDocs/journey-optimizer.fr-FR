@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
+source-git-commit: afc31ee91979eacf9514fd483d2757c3b14442f0
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 74%
+source-wordcount: 1505
+ht-degree: 39%
 
 ---
 
@@ -52,11 +52,31 @@ En raison de ce modèle, les notes de mise à jour sont mises à jour entre les 
 
 >[!NOTE]
 >
->Vous voulez un aperçu de ce qui s&#39;en vient ? Consultez les [notes de mise à jour préliminaires](e-release-notes.md) pour un aperçu des fonctionnalités à venir avant leur publication officielle.
+>Les fonctionnalités répertoriées dans ces notes de mise à jour incluent une **date de disponibilité** indiquant le moment auquel chaque modification devient accessible dans votre environnement. La section **Prochainement** au bas de cette page répertorie les fonctionnalités et améliorations dont la publication est prévue dans les prochains jours. Les informations sont sujettes à changement.
 
-## Mises à jour de mai 2026 {#may-26-rn}
+## Notes de mise à jour du 26 mai {#may-26-rn}
 
-Les fonctionnalités et améliorations suivantes ont été publiées en mai 2026.
+### Nouvelles fonctionnalités {#may-26-features}
+
+Les fonctionnalités suivantes ont été publiées en mai 2026.
+
+<table>
+<thead>
+<tr>
+<th><strong>Sélecteur du gestionnaire de contenu</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer utilise désormais le <strong>sélecteur de grille de contenu</strong>, une boîte de dialogue modale unifiée permettant de sélectionner à la fois le Experience Manager Assets et les fragments de contenu. Le nouveau sélecteur prend en charge la navigation, la recherche et le filtrage sur toutes les ressources, inclut les rendus Dynamic Media et intègre des fonctionnalités d’interface utilisateur améliorées qui vous permettent d’ajouter facilement des rendus d’image lorsque des ressources dynamiques sont utilisées.</p>
+<p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p>Pour plus d’informations, consultez la <a href="../integrations/aem-content-advisor.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 19 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -199,37 +219,25 @@ Les améliorations suivantes ont également été publiées en mai 2026.
 
   +++
 
-<!-- 
-## Coming soon {#coming-soon}
 
-The following capabilities and enhancements are scheduled for release in the next few days. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
+## Bientôt disponible {#coming-soon}
 
-### New capabilities {#comming-soon-features}
--->
+La publication des fonctionnalités et améliorations suivantes est prévue dans les prochains jours. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
 
-## Notes de mise à jour d’avril 2026 {#april-26-rn}
-
-
-**Date de publication** : 28-29 avril 2026
-
-### Nouvelles fonctionnalités {#april-26-features}
-
-Les fonctionnalités suivantes ont été publiées en avril 2026.
+### Nouvelles fonctionnalités {#coming-soon-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Activité Requête incrémentale dans les campagnes orchestrées</strong><br/></th>
+<th><strong>Simulation de parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les <strong>campagnes orchestrées</strong> prennent désormais en charge l’activité <strong>Requête incrémentale</strong> qui cible uniquement les profils ou les événements devenus éligibles depuis la dernière exécution.
-
-Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences (nouvelles inscriptions, membres récemment qualifiés du programme de fidélité et segments similaires) tout en réduisant la charge de travail des requêtes et en évitant les envois redondants.</p>
-<p>Pour plus d’informations, consultez la <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 30 avril 2026</p>
+<p>Vous pouvez désormais définir votre parcours sur <strong>Simulation</strong>. Ce mode permet de valider la logique à l’aide d’<strong>utilisateurs simulés</strong>. Il s’agit de profils temporaires créés spécifiquement pour la simulation, qui vous permettent de tester librement sans avoir à gérer de profils de test persistants dans Adobe Experience Platform.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale). Avec la mise à jour de la disponibilité générale, vous pouvez désormais utiliser Journey Agent pour générer des utilisateurs et des événements simulés directement dans le menu Simulation .</p>
+<p>Date de disponibilité : 28 mai 2026</p>
 </td>
 </tr>
 </tbody>
@@ -238,282 +246,46 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <table>
 <thead>
 <tr>
-<th><strong>Paramètres expéditeur dans l’en-tête des e-mails</strong><br/></th>
+<th><strong>Ciblage basé sur des fichiers pour les campagnes orchestrées</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Avec Journey Optimizer, vous pouvez désormais envoyer des e-mails dans lesquels l’entité émettrice (Expéditeur) est différente de l’entité de création (De). Les clients de messagerie qui prennent en charge cette fonctionnalité l’affichent généralement sous la forme « 'Expéditeur' au nom de 'De' » ou avec un indicateur « via ». Renseignez les champs facultatifs <strong>En-têtes d’expéditeur</strong> dans les paramètres du canal E-mail pour configurer cette fonctionnalité.</p>
-<p><img src="assets/do-not-localize/sender-headers.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../email/header-parameters.md#sender-header">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Champ Cc dans les paramètres du canal E-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais configurer un champ Cc (copie carbone) facultatif dans les paramètres de votre canal E-mail. Contrairement aux destinataires en Cci, le destinataire principal peut voir les destinataires en Cc, ce qui permet une communication transparente et des responsabilités claires.</p>
-<p>Vous pouvez ainsi mettre automatiquement en copie l’interlocuteur ou l’interlocutrice concerné sur chaque message, tel qu’un ou une responsable de relation ou un ou une propriétaire de compte, tout en vous assurant que le client ou la cliente sait à qui s’adresser pour le suivi.</p>
-<p>Le champ Cc prend en charge la personnalisation : une seule configuration peut acheminer dynamiquement les copies en fonction des données de profil, ce qui lui permet de s’adapter à plusieurs cas d’utilisation sans configuration supplémentaire.</p>
-<p><img src="../configuration/assets/email-config-cc.png"></p>
-<p>Pour plus d’informations, consultez la <a href="../configuration/cc-email-field.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Copier des campagnes orchestrées dans des sandbox</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’outil Sandbox prend désormais en charge le groupement et la copie de campagnes orchestrées d’un sandbox à un autre. Vous n’avez ainsi plus besoin de recréer manuellement les campagnes dans chaque environnement. Lorsqu’une campagne est empaquetée, ses objets dépendants principaux, tels que les politiques de fusion et les messages, sont automatiquement inclus. La campagne importée est donc prête à être configurée et validée. Pour protéger les environnements de production, toutes les campagnes importées obtiennent le statut de brouillon dans le sandbox cible, ce qui permet aux équipes de réviser et d’approuver les campagnes avant qu’elles ne deviennent actives.</p>
-<p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../configuration/copy-objects-to-sandbox.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Intégration de l’agent IA Journey Optimizer via MCP</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer fournit désormais un serveur <strong>MCP (Model Context Protocol)</strong> qui surfacie les opérations de campagne, de configuration de canal et de sandbox directement dans toute application compatible MCP. Grâce à cette intégration, plusieurs personnes peuvent collaborer autour des mêmes données d’orchestration. Au lieu d’écrire des requêtes sur l’API REST Adobe Journey Optimizer ou de parcourir plusieurs écrans d’interface d’utilisation, vous pouvez décrire votre intention par la conversation et laisser le LLM appeler les outils MCP appropriés. Cette fonctionnalité est actuellement disponible dans Claude Web et Desktop.</p>
-<p>Cette fonctionnalité est disponible en version Beta publique pour tous les clients et clientes.</p>
-<p>Pour plus d’informations, consultez la <a href="../integrations/ajo-mcp.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Arbitrage de parcours - Modèles d’IA</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais utiliser des <strong>modèles d’IA</strong> dans vos formules de classement pour ajuster automatiquement les scores de priorité des parcours en fonction des attributs de profil client et des facteurs contextuels, afin que les clients et clientes entrent dans les parcours les plus pertinents.</p>
+<p>Les campagnes orchestrées prennent désormais en charge le chargement d’un fichier CSV ou TXT directement dans la zone de travail de campagne en tant qu’audience de ciblage, sans avoir à ingérer le fichier dans Adobe Experience Platform au préalable. Les données du fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform. Lors de la configuration de fichiers, vous pouvez définir des mappages de colonnes, des types de données, une gestion des NULL et des politiques d’erreur par colonne. Cela prend en charge les campagnes de listes de partenaires ou d’envois ad hoc pour lesquelles la création d’un pipeline d’ingestion complet n’est pas pratique. </p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../conflict-prioritization/journey-ai-models.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 28 mai 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Intégration d’Adobe Express</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’<b>intégration d’Adobe Express</b> dans Adobe Journey Optimizer vous permet d’utiliser les outils d’édition d’Adobe Express lors de la création de contenu. Vous pouvez ainsi redimensionner, supprimer des arrière-plans, recadrer et convertir des ressources en JPEG ou PNG.
-</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
-<p><img src="assets/do-not-localize/express_resize.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../integrations/express.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 23 avril 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Optimiser les e-mails pour les boîtes de réception d’IA</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer comprend désormais une nouvelle fonctionnalité qui garantit que vos e-mails sont structurés de manière optimale pour les boîtes de réception optimisées par l’IA telles qu’Apple Intelligence et Google Gemini dans Gmail.</p>
-<p>À mesure que les assistants IA influencent de plus en plus la manière dont les destinataires lisent et interagissent avec les e-mails, cette fonctionnalité vous permet de générer et de créer du contenu qui s’exécute correctement dans les tâches d’IA en aval, comme la synthèse, le tri, la hiérarchisation et l’extraction d’intention.</p>
-<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
-<p>Pour plus d’informations, voir <a href="../email/llm-email-optimizer.md">Optimiser les e-mails pour les boîtes de réception d’IA</a>.</p>
-<p>Date de disponibilité : 17 avril 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+### Améliorations  {#coming-soon-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Assistant IA pour les expressions de personnalisation</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] inclut désormais <strong>Assistant IA</strong> directement dans l’éditeur de personnalisation et le Designer d’e-mail qui convertit les invites en langage naturel en expressions de personnalisation valides et en logique conditionnelle, aucune expertise en syntaxe requise. Décrivez la personnalisation que vous souhaitez obtenir. L’IA génère un code prêt à l’emploi que vous pouvez appliquer immédiatement ou affiner à l’aide de prompts supplémentaires.</p>
-<p>L’assistant travaille également en sens inverse. Sélectionnez une expression existante et demandez-lui d’expliquer la logique, d’identifier les problèmes ou de suggérer des améliorations. Il sert donc à créer de nouvelles expressions, mais aussi à examiner et déboguer les expressions existantes dans votre équipe.</p>
-<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
-<p>Pour plus d’informations, voir <a href="../content-management/generative-personalization-expressions.md">Assistant IA pour les expressions de personnalisation</a>.</p>
-<p>Date de disponibilité : 13 avril 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+#### Navigation
 
-<table>
-<thead>
-<tr>
-<th><strong>Expérimentation du chemin du parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Utilisez le nouveau nœud <strong>Optimiser</strong> pour exécuter des tests A/B ou des expériences avec l’algorithme du bandit manchot afin de déterminer le meilleur moyen d’atteindre vos KPI métier. Cet outil vous permet de tester, de varier et de personnaliser les communications, le séquencement et le timing afin d’atteindre au mieux vos clients.
-</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
-<p>Dans le cadre de la disponibilité générale, cette version introduit la sélection du <strong>type d’expérience</strong> (A/B ou bandit manchot) et l’option <strong>Mettre à l’échelle le gagnant</strong> pour les parcours unitaires.</p>
-<p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/path-experimentation.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 7 avril 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+* **Dossiers pour les parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes dans des dossiers pour améliorer la navigation et la gestion dans l’interface.
 
-<table>
-<thead>
-<tr>
-<th><strong>Boîte de réception</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La <strong>boîte de réception</strong> est une fonctionnalité mobile, disponible avec les cartes de contenu, qui permet aux clients et clientes de créer un emplacement centralisé dans leur application ou site web pour afficher les messages envoyés à leurs utilisateurs et utilisatrices. Cela prolonge la durée de vie des communications marketing en s’assurant que les messages restent accessibles même après avoir été ignorés.</p>
-<p><img src="assets/do-not-localize/inbox.gif"/></p>
-<p>Pour plus d’informations, consultez la <a href="../inbox/inbox-gs.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 7 avril 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Prise en charge de Prise de décision dans le canal E-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais utiliser <strong>Prise de décision</strong> pour personnaliser et optimiser le contenu de vos e-mails. Tirez parti des scores de priorité, des formules et des modèles d’IA pour afficher les offres et contenus les plus adaptés à chaque destinataire.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale). Les pages miroir sont désormais prises en charge dans la version en disponibilité générale.</p>
-<p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision-policy.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 6 avril 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Améliorations {#april-26-improv}
-
-Les améliorations suivantes ont également été publiées en avril 2026.
-
-#### IA
-
-<!--
-* **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
--->
-
-* **Amélioration de l’assistant de prompt** : l’assistant de prompt améliore la génération de contenu de l’IA en analysant les prompts utilisateur en temps réel et en identifiant les problèmes de clarté, les informations incomplètes et le manque de contexte. Il suggère des réécritures améliorées et donne des conseils pratiques pour ajouter aux prompts des informations clés telles que l’audience, le ton et l’intention. La fonctionnalité pose également des questions ciblées pour clarifier les données afin d’aider les utilisateurs et utilisatrices à affiner leurs entrées avant la génération. Vous obtenez ainsi des sorties plus précises et de haute qualité avec moins d’itérations. [En savoir plus](../content-management/ai-assistant-prompting-guide.md#prompt-assistant)
-
-  Date de disponibilité : 5 mai 2026
-
-#### Notification push
-
-* **Personnaliser l’ID d’application dans les paramètres du canal** : dans les paramètres de configuration du canal Push, vous pouvez désormais personnaliser le champ **ID d’application** afin que chaque destinataire reçoivent une notification push de la marque appropriée en fonction des informations de son profil. [En savoir plus](../push/push-configuration.md#app-id-personalization)
-
-#### Prise de décision
-
-* **API de workflow de migration Decisioning** - Le contrat d’API pour la création d’analyses des dépendances et de workflows de migration a été mis à jour : transmettez **`request-level`** en tant que **paramètre de requête** sur l’URL de la requête (`sandbox`, `offer` ou `decision`). Le niveau de requête ne doit plus être envoyé dans le corps JSON. [En savoir plus](../experience-decisioning/decisioning-migration-api.md)
-
-  Date de disponibilité : 6 mai 2026
-
-* **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision, qui peuvent être utilisés dans les expériences basées sur du code et les campagnes par e-mail par le biais de politiques de décision. [En savoir plus](../experience-decisioning/fragments-decision-policies.md)
-
-  Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
-
-* **Les fragments temporairement indisponibles sont ignorés** : lors de l’utilisation de fragments dans des éléments de décision, si un fragment est temporairement indisponible sur Edge, il est ignoré, et le parcours ou la campagne continue de s’afficher au lieu d’échouer. [En savoir plus](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
-
-  Date de disponibilité : 14 avril 2026
-
-#### Intégrations Adobe Experience Manager
-
-* **Prise en charge des variations de fragments de contenu Adobe Experience Manager** - Vous pouvez sélectionner **variations de fragments de contenu** (par exemple, variantes de langue ou de canal) lors de l’insertion de fragments de contenu Adobe Experience Manager, avec une gestion améliorée pour les scénarios régionaux et multilingues. [En savoir plus](../integrations/aem-fragments.md#aem-variations)
-
-  Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
-
-* **Contexte de fragment de contenu Adobe Experience Manager lors de la création** : votre sélection de fragments de contenu reste active lorsque vous passez d’un champ de texte à un bloc de contenu. Vous pouvez ainsi ajouter d’autres champs de fragment sans rouvrir **Ouvrir le conseiller en contenu AEM** à chaque fois. [En savoir plus](../integrations/aem-fragments.md)
-
-  Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
-
-#### Conception d’e-mails
-
-* **Éditeur HTML avancé pour le contenu d’e-mail** : le mode HTML avancé vous permet de modifier la source HTML de votre contenu dans le concepteur d’e-mail, d’ajouter des expressions avancées (comme des conditions) dans la source et de basculer entre les vues HTML et Bureau sans perdre vos modifications.
-
-  Auparavant disponible uniquement pour les modèles de contenu d’e-mail, cette fonctionnalité est désormais déployée sur le contenu **e-mail** dans le concepteur d’e-mail (par exemple, les e-mails créés dans les parcours et les campagnes), en plus des modèles de contenu d’e-mail. Elle est actuellement à disponibilité limitée. Contactez votre représentant ou représentante Adobe pour bénéficier d’un accès. [En savoir plus](../email/email-expert-mode.md)
-
-  Date de disponibilité : 9 avril 2026
-
-#### Parcours
-
-* **Taille actuelle de la payload du parcours visible dans les propriétés du parcours** - Le panneau des propriétés du parcours affiche désormais la taille actuelle de la payload du parcours par rapport à la limite configurée, par exemple, *1,5 Mo (sur 4 Mo)* Cet indicateur en lecture seule vous permet de surveiller la complexité du parcours avant publication et d’éviter les erreurs dues au dépassement de la taille maximale de la payload. [En savoir plus](../building-journeys/journey-properties.md#journey-payload-size)
-
-  Date de disponibilité : 30 avril 2026
-
-#### Optimisation des chemins de parcours
-
-* **Type d’expérience** : vous pouvez désormais choisir entre une expérience A/B (partage fixe au début) ou un bandit manchot (partage automatique avec mises à jour hebdomadaires du poids) lors de la configuration d’une expérience de chemin. [En savoir plus](../building-journeys/path-experimentation.md)
-
-  Date de disponibilité : 7 avril 2026
-
-* **Expérimentation de chemin – Mettre à l’échelle la variation gagnante** : vous pouvez déployer automatiquement ou manuellement le chemin gagnant d’une expérience sur l’ensemble de votre audience. Une fois un gagnant déterminé, vous pouvez amplifier sa portée et son efficacité sans avoir à surveiller continuellement l’expérience. [En savoir plus](../building-journeys/path-experimentation.md#scale-winner)
-
-  Cette fonctionnalité n’est disponible que dans les parcours unitaires (déclenchés par un événement et qualifications d’audience). Elle n’est pas disponible pour les parcours Lecture d’audience.
-
-  Date de disponibilité : 7 avril 2026
-
-* **Conditions** : l’activité [Optimiser](../building-journeys/optimize.md) est le nouveau moyen de créer des chemins conditionnels dans les parcours. Elle remplace l’ancienne activité **Condition**, qui a été supprimée de l’interface d’utilisation. Toute la logique conditionnelle est conservée et est désormais gérée via les conditions de l’activité **Optimiser**. [En savoir plus](../building-journeys/conditions.md)
-
-  Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
-
-  Date de disponibilité : 7 avril 2026
+  Date de disponibilité : 21 mai 2026
 
 #### Campagnes orchestrées
 
-* **Variables globales dans les campagnes orchestrées** : les campagnes orchestrées prennent désormais en charge les variables globales qui peuvent être définies une seule fois et réutilisées dans toutes les activités d’un workflow. Cela simplifie la configuration et garantit la cohérence des valeurs dynamiques, des expressions et de la personnalisation du contenu. [En savoir plus](../orchestrated/global-variables.md)
-* **Améliorations apportées au concepteur de données** : les schémas relationnels orchestrés prennent désormais en charge les clés composites s’étendant sur plusieurs champs. Le chargement d’un schéma à partir d’un fichier DDL génère également des énumérations. En outre, le chargement à partir d’un fichier DDL ou Excel crée automatiquement des relations composites entre les tables. Dans la vue de relation entre entités, les liens composites affichent désormais l’ensemble complet des correspondances de champs entre les tables après le chargement d’un fichier. [En savoir plus](../orchestrated/gs-schemas.md)
+* **Ajouter des liens dans l’activité Enrichissement** - La fonctionnalité Ajouter un lien est désormais disponible dans l’activité Enrichissement pour les campagnes orchestrées. Vous pouvez ainsi créer une relation directe entre les données de votre table de travail et vos tables de base de données existantes.
+
+
+  Date de disponibilité : 26 mai 2026
+
+* **Personnalisation en boucle des données relationnelles** - L’éditeur de personnalisation prend désormais en charge un bloc Boucle qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise.
+
+
+  Date de disponibilité : 28 mai 2026
+
+#### E-mail
+
+* **Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des champs d’en-tête des e-mails, notamment le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise.
+
+  Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
+
+
+  Date de disponibilité : 29 mai 2026
