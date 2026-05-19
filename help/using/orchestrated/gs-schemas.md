@@ -6,12 +6,9 @@ description: Découvrez comment créer un schéma relationnel dans Adobe Experie
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 485
@@ -58,7 +55,7 @@ Il précise :
 
 L’organisation des schémas ou des tables dans un modèle de données relationnel consiste à structurer vos données en plusieurs tables. Assurez-vous que chaque table stocke un type d’entité/des schémas.
 
-➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Étapes dʼimplémentation {#implementation}
 

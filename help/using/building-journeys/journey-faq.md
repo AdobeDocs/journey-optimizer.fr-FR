@@ -11,47 +11,12 @@ keywords: parcours, questions, réponses, dépannage, aide, guide, orchestration
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
 TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d08afb72-92f6-4856-88e3-11ec34313c2fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
 source-wordcount: 5499
@@ -412,11 +377,11 @@ Les **fragments de Parcours** sont des ensembles réutilisables de nœuds de par
 * L’insertion d’un fragment crée une **copie statique** de ses nœuds ; les mises à jour du fragment d’origine ne sont **propagées** parcours qui l’utilisent déjà
 * Seuls les fragments **actifs** peuvent être insérés dans un parcours
 * Les fragments sont de portée sandbox et prennent en charge un maximum de 20 nœuds et 200 fragments actifs par sandbox
-* Les activités [&#x200B; Saut &#x200B;](jump.md) ne sont pas autorisées dans un fragment
+* Les activités [ Saut ](jump.md) ne sont pas autorisées dans un fragment
 
 **Différence de l’activité Saut** : l’[activité Saut](jump.md) redirige les profils vers un autre parcours dynamique au moment de l’exécution. Les fragments de parcours copient les nœuds dans le parcours actif au moment de la conception. Il s’agit d’un mécanisme de réutilisation au moment de la création, et non d’un mécanisme de routage d’exécution.
 
-En savoir plus sur les [fragments de Parcours &#x200B;](journey-fragments.md).
+En savoir plus sur les [fragments de Parcours ](journey-fragments.md).
 
 +++
 
@@ -969,8 +934,8 @@ Lorsque les parcours approchent de 50 activités, ils peuvent devenir très com
 
 **Bonne pratique** : veillez à ce que vos parcours restent ciblés et gérables. Si votre parcours devient complexe, envisagez les points suivants :
 
-* Le diviser en plusieurs parcours à l’aide de l’activité [&#x200B; Saut &#x200B;](jump.md)
-* Extraction de la logique répétée dans [fragments de Parcours &#x200B;](journey-fragments.md) pour réutiliser dans les parcours sans reconstruire à partir de zéro
+* Le diviser en plusieurs parcours à l’aide de l’activité [ Saut ](jump.md)
+* Extraction de la logique répétée dans [fragments de Parcours ](journey-fragments.md) pour réutiliser dans les parcours sans reconstruire à partir de zéro
 * Simplifiez la logique avec des conditions plus efficaces.
 * Vérifiez si toutes les activités sont nécessaires.
 

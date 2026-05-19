@@ -6,11 +6,8 @@ description: Découvrez comment insérer des données dans Adobe Experience Pl
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/jXA5I4NsV459grMkrAD-1AVugey6Uw7aViNO72oKtQw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 815
@@ -50,7 +47,7 @@ Les sources suivantes sont prises en charge pour une utilisation dans des campag
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Entrepôts de données cloud</td>
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>

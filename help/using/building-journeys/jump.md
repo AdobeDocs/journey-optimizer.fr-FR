@@ -11,24 +11,12 @@ keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qCnWzqjO5YRbKO-WHUo950uoHS0skcZT6sdYyNJ4esE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1405
@@ -127,13 +115,13 @@ Créez chaque phase sous la forme d’un parcours distinct dans Journey Optimize
 
 >[!TIP]
 >
->Pour obtenir un exemple pratique d’utilisation d’un programme de fidélité multiphase, consultez parcours de fidélité multiphase[&#128279;](journeys-uc.md#multi-phase-loyalty).
+>Pour obtenir un exemple pratique d’utilisation d’un programme de fidélité multiphase, consultez parcours de fidélité multiphase](journeys-uc.md#multi-phase-loyalty).[
 
 ## Configuration de l’activité Saut {#jump-configure}
 
 1. Concevez votre **parcours d’origine**.
 
-   ![Activité Saut dans la palette de parcours pour la transition entre les parcours &#x200B;](assets/jump1.png)
+   ![Activité Saut dans la palette de parcours pour la transition entre les parcours ](assets/jump1.png)
 
 1. À chaque étape du parcours, ajoutez une activité **[!UICONTROL Saut]**, depuis la catégorie **[!UICONTROL ACTIONS]**. Ajoutez un libellé et une description.
 
@@ -156,7 +144,7 @@ Le champ **Premier événement** est prérenseigné avec le nom du premier évé
 1. La section **Paramètres d’action** affiche tous les champs de l’événement cible. Mappez chaque champ aux champs de l’événement d’origine ou de la source de données, comme pour les autres types d’actions. Ces informations seront transmises au parcours cible au moment de l’exécution.
 1. Ajoutez les activités suivantes pour terminer le parcours d’origine.
 
-   ![Interface du mode Test pour tester l’activité Saut entre les parcours &#x200B;](assets/jump5.png)
+   ![Interface du mode Test pour tester l’activité Saut entre les parcours ](assets/jump5.png)
 
 
    >[!NOTE]

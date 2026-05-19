@@ -11,19 +11,10 @@ level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/LZVllKIbmPvNnT0wCskFj3mcNYcKRmvAT85UqWlsztA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 447
@@ -96,5 +87,5 @@ Dans ce document, vous avez découvert les connaissances préalables requises po
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342829?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 -->

@@ -11,20 +11,11 @@ level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/UFE7I-hQM4jKPpclDl3avrcE-q-vwRq-c91WOLdPBgo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 388
@@ -57,7 +48,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** _id
 **Titre :** identifiant
 **Description :** identifiant unique de l’enregistrement.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -80,7 +71,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Field:** channelID
 **Titre : identifiant du canal de l&#39;emplacement**
 **Description :** canal dans lequel la proposition a été effectuée. La valeur est une URI de canal valide. Voir https://ns.adobe.com/xdm/channels/channel.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -89,7 +80,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Field:** componentType
 **Titre :** type du composant du contenu
 **Description** : ensemble énuméré d’URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -113,7 +104,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** description
 **Titre :Description de l&#39;emplacement**
 **Description :** permet de véhiculer les intentions lisibles par l’homme sur la manière dont le contenu dynamique est utilisé dans la diffusion globale des messages. Le fait qu&#39;un certain espace est une \&quot;bannière\&quot; sur une page web est souvent communiqué par la description et non par une méthode formelle.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -122,7 +113,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** nom
 **Titre :** Nom De L’Emplacement
 **Description :** nom attribué à l&#39;emplacement pour s&#39;y référer dans les interactions humaines.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
