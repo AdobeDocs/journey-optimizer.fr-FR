@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: afc31ee91979eacf9514fd483d2757c3b14442f0
+source-git-commit: 6e45f1930e70702b3f79449edbe1c73b9cffb8c1
 workflow-type: tm+mt
-source-wordcount: 1505
-ht-degree: 39%
+source-wordcount: 1566
+ht-degree: 38%
 
 ---
 
@@ -222,7 +222,7 @@ Les améliorations suivantes ont également été publiées en mai 2026.
 
 ## Bientôt disponible {#coming-soon}
 
-La publication des fonctionnalités et améliorations suivantes est prévue dans les prochains jours. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
+Les fonctionnalités et améliorations suivantes devraient être publiées fin mai. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
 
 ### Nouvelles fonctionnalités {#coming-soon-features}
 
@@ -287,5 +287,11 @@ La publication des fonctionnalités et améliorations suivantes est prévue dans
 
   Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
 
+
+  Date de disponibilité : 29 mai 2026
+
+  &#x200B;#### Configuration
+
+* **Jeu de données d’événement de retour de message passant à l’ingestion par lots** - Le `AJO Message Feedback Event Dataset` passe de la diffusion en continu au mode d’ingestion par lots. Cette modification garantit que l’ingestion de données ne dépasse pas les limites d’ingestion en flux continu. Si vous utilisez ce jeu de données dans des rapports Customer Journey Analytics ou si vous exécutez des requêtes sur celui-ci, attendez-vous à une augmentation de la latence des données allant jusqu’à 2 heures.
 
   Date de disponibilité : 29 mai 2026

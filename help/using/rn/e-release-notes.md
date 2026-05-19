@@ -9,9 +9,9 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
 workflow-type: tm+mt
-source-wordcount: 1194
+source-wordcount: 1131
 ht-degree: 6%
 
 ---
@@ -109,6 +109,7 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 <tr>
 <td>
 <p>Vous pouvez désormais ajouter des politiques de décision dans les parcours et campagnes de publipostage direct. Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu pour chaque membre de l’audience. La prise de décision par publipostage direct prend également en charge les cas d’utilisation de prise de décision par lots, ce qui vous permet d’exporter les éléments d’offre correspondants pour chaque profil dans une audience Adobe Experience Platform donnée.</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
 <p>Date de disponibilité : 19 mai 2026</p>
 </td>
 </tr>
@@ -178,6 +179,7 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 <td>
 <p>L’assistant AI fonctionne désormais dans l’éditeur d’expression avancé de parcours pour convertir les invites en langage naturel en expressions valides et en logique conditionnelle. Décrivez l’expression que vous souhaitez créer et l’assistant AI génère un code prêt à l’emploi que vous pouvez appliquer immédiatement ou affiner à l’aide d’invites de relance.</p>
 <p>Cette fonctionnalité est disponible pour tous les clients sous la forme d’un Beta public.</p>
+<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
 <p>Date de disponibilité : 19 mai 2026</p>
 </td>
 </tr>
@@ -223,11 +225,7 @@ Les améliorations suivantes sont ciblées pour cette version.
   Availability date: May 19, 2026
 -->
 
-#### Configuration
 
-* **Jeu de données d’événement de retour de message passant à l’ingestion par lots** - Le `AJO Message Feedback Event Dataset` passe de la diffusion en continu au mode d’ingestion par lots. Cette modification garantit que l’ingestion de données ne dépasse pas les limites d’ingestion en flux continu. Si vous utilisez ce jeu de données dans des rapports Customer Journey Analytics ou si vous exécutez des requêtes sur celui-ci, attendez-vous à une augmentation de la latence des données allant jusqu’à 2 heures.
-
-  Date de disponibilité : 19 mai 2026
 
 #### Prise de décision
 
