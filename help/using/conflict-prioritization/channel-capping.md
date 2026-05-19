@@ -187,4 +187,4 @@ In this scenario, an individual profile:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
 
-➡️ **Voir la pratique :** Découvrez comment implémenter [le capping de la fréquence quotidienne dans Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"} dans ce cas d’utilisation de la communauté.
+➡️ **Voir la pratique :** Découvrez comment implémenter [le capping de la fréquence quotidienne dans Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=fr){target="_blank"} dans ce cas d’utilisation de la communauté.
