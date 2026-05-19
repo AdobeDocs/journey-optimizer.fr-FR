@@ -10,22 +10,12 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 TQID: https://experienceleague.adobe.com/sWjIVlyPh0ySD1s-TLxJu9zmItbncoxKO0u3DVjVt-8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cb1f1586-9fb4-4de2-8332-02cebb88d42did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
 source-wordcount: 1318
@@ -185,6 +175,6 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
 
-➡️ **Voir la pratique :** Découvrez comment implémenter [le capping de la fréquence quotidienne dans Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=fr){target="_blank"} dans ce cas d’utilisation de la communauté.
+➡️ **Voir la pratique :** Découvrez comment implémenter [le capping de la fréquence quotidienne dans Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"} dans ce cas d’utilisation de la communauté.
