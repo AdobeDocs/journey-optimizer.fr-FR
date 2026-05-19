@@ -55,7 +55,7 @@ Type : chaîne
 
 Nom du parcours.
 
-Type : chaîne
+Type : Chaîne
 
 >[!NOTE]
 >

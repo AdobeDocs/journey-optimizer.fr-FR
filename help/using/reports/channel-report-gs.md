@@ -90,7 +90,7 @@ Pour accéder aux rapports sur les canaux et les gérer, procédez comme suit :
 
    ![](assets/channel_report_3.png)
 
-1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Une fois que l’ordre d’affichage et la taille des widgets vous conviennent, cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. Selon le widget, vous pouvez choisir de basculer d’un tableau, d’un graphique en barres ou d’un anneau à l’autre.
 

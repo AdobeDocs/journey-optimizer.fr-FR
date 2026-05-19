@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
 workflow-type: tm+mt
 source-wordcount: 1461
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -113,7 +113,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * Sélectionnez **[!UICONTROL Page miroir]** pour ajouter un lien vers la page miroir de l’e-mail. [En savoir plus](#mirror-page)
 
-   * Sélectionnez **[!UICONTROL Lien profond]** pour insérer un lien vers une application mobile. Cela permet aux utilisateurs d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement. [En savoir plus](deeplinks.md)
+   * Sélectionnez **[!UICONTROL Lien profond]** pour insérer un lien vers une application mobile. Cela permet aux utilisateurs et utilisatrices d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement. [En savoir plus](deeplinks.md)
 
      >[!IMPORTANT]
      >

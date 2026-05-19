@@ -40,11 +40,11 @@ Vous pouvez accéder au rapport de campagne par SMS en cliquant sur le bouton **
 
 >[!ENDSHADEBOX]
 
-## Tendance diffusés et clics {#delivered-click-sms}
+## Tendance des diffusions et clics {#delivered-click-sms}
 
 ![](assets/cja-campaign-sms-delivered.png)
 
-Le graphe **[!UICONTROL Tendance diffusés et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos e-mails, fournissant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
+Le graphique **[!UICONTROL Tendance des diffusions et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos e-mails, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
 +++ En savoir plus sur les mesures de tendance Diffusés et clics
 

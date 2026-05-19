@@ -57,7 +57,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** _id
 **Titre :** identifiant
 **Description :** identifiant unique de l’enregistrement.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -80,7 +80,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Field:** channelID
 **Titre : identifiant du canal de l&#39;emplacement**
 **Description :** canal dans lequel la proposition a été effectuée. La valeur est une URI de canal valide. Voir https://ns.adobe.com/xdm/channels/channel.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -89,7 +89,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Field:** componentType
 **Titre :** type du composant du contenu
 **Description** : ensemble énuméré d’URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -113,7 +113,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** description
 **Titre :Description de l&#39;emplacement**
 **Description :** permet de véhiculer les intentions lisibles par l’homme sur la manière dont le contenu dynamique est utilisé dans la diffusion globale des messages. Le fait qu&#39;un certain espace est une \&quot;bannière\&quot; sur une page web est souvent communiqué par la description et non par une méthode formelle.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -122,7 +122,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** nom
 **Titre :** Nom De L’Emplacement
 **Description :** nom attribué à l&#39;emplacement pour s&#39;y référer dans les interactions humaines.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 

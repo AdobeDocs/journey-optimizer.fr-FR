@@ -60,7 +60,7 @@ Le graphe **[!UICONTROL Croissance des abonnements dans le temps]** illustre vis
 
 * **[!UICONTROL Ajouts à la liste dʼabonnements]** : nombre total dʼabonnements sur la période concernée.
 
-* **[!UICONTROL Suppressions de la liste dʼabonnements]** : nombre total de désabonnements sur la période concernée.
+* **[!UICONTROL Suppressions de la liste d’abonnements]** : nombre total de désabonnements sur la période concernée.
 
 * **[!UICONTROL Croissance de la liste d’abonnements]** : taux auquel la liste des personnes abonnées augmente sur une période spécifique.
 
@@ -72,7 +72,7 @@ Le tableau **[!UICONTROL Listes d’abonnements]** fournit des informations esse
 
 * **[!UICONTROL Ajouts à la liste dʼabonnements]** : nombre total dʼabonnements sur la période concernée.
 
-* **[!UICONTROL Suppressions de la liste dʼabonnements]** : nombre total de désabonnements sur la période concernée.
+* **[!UICONTROL Suppressions de la liste d’abonnements]** : nombre total de désabonnements sur la période concernée.
 
 ## Parcours
 
@@ -82,7 +82,7 @@ Le tableau **[!UICONTROL Parcours]** offre une vue d’ensemble exhaustive, pré
 
 * **[!UICONTROL Ajouts à la liste dʼabonnements]** : nombre total dʼabonnements sur la période concernée.
 
-* **[!UICONTROL Suppressions de la liste dʼabonnements]** : nombre total de désabonnements sur la période concernée.
+* **[!UICONTROL Suppressions de la liste d’abonnements]** : nombre total de désabonnements sur la période concernée.
 
 ## Campagnes
 
@@ -92,7 +92,7 @@ Le tableau **[!UICONTROL Campagnes]** offre des informations précieuses sur les
 
 * **[!UICONTROL Ajouts à la liste dʼabonnements]** : nombre total dʼabonnements sur la période concernée.
 
-* **[!UICONTROL Suppressions de la liste dʼabonnements]** : nombre total de désabonnements sur la période concernée.
+* **[!UICONTROL Suppressions de la liste d’abonnements]** : nombre total de désabonnements sur la période concernée.
 
 ## Canal
 

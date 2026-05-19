@@ -55,7 +55,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** _id
 **Titre :** identifiant
 **Description :** identifiant unique de l’enregistrement.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -105,7 +105,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
   **Champ :** _type
   **Titre :** type du composant du contenu
   **Description** : ensemble énuméré d’URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * **_experience > decisioning > contents > components > _dc**
 
@@ -118,7 +118,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
      **Champ :** format
      **Titre :** format
      **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. La bonne pratique recommandée consiste à sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de médias Internet] (https://www.iana.org/ assignments/media-types/) définissant les formats de médias informatiques).
-     **Type :** chaîne
+     **Type :**&#x200B;Chaîne
      **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Langue**
@@ -138,47 +138,47 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
      **Champ :** id
      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
-     **Type :** chaîne
+     **Type :**&#x200B;Chaîne
      **Exemple :** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
      **Champ :** nom
      **Description :** conseils sur l’emplacement du référentiel qui stocke la ressource externe par le \&quot;repo:id\&quot;.
-     **Type :** chaîne
+     **Type :** Chaîne
 
    * **repositoryID**
 
      **Champ :** repositoryID
      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
-     **Type :** chaîne
+     **Type :**&#x200B;Chaîne
      **Exemple :** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
      **Champ :** resolveURL
      **Description :** localisateur de ressource unique facultatif pour lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d&#39;obtenir la ressource sans que le client sache où celle-ci est gérée et quelles API appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus pertinente.
-     **Type :** chaîne
+     **Type :**&#x200B;Chaîne
      **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > contents > components > content**
 
   **Champ :** contenu
   **Description :** champ facultatif pour contenir directement le contenu. Au lieu de référencer le contenu dans un référentiel de ressources, le composant peut contenir directement du contenu simple. Ce champ n&#39;est pas utilisé pour les ressources de contenu composites, complexes et binaires.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
   **Champ :** deliveryURL
   **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource par un agent utilisateur.
-  **Type :** chaîne
+  **Type :**&#x200B;Chaîne
   **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
   **Champ :** linkURL
   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
-  **Type :** chaîne
+  **Type :**&#x200B;Chaîne
   **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
@@ -197,7 +197,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Field:** lifecycleStatus
 **Titre :** statut du cycle de vie
 **Description :** statut du cycle de vie permet d’exécuter des workflows avec un objet. L&#39;état peut avoir une incidence lorsqu&#39;un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
-**Type :** chaîne
+**Type :**&#x200B;Chaîne
 **Valeurs possibles :** « Draft » (par défaut), « Approved », « Live », « Completed », « Archived »
 
 +++
@@ -207,7 +207,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** nom
 **Titre :** Nom De L&#39;Option De Décision
 **Description :** nom de l’option affiché dans diverses interfaces utilisateur.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 

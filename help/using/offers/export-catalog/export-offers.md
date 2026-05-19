@@ -58,7 +58,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Champ :** _id
 **Titre :** identifiant
 **Description :** identifiant unique de l’enregistrement.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -88,14 +88,14 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
   **Champ :** endDate
   **Titre :** date et heure de fin
   **Description :** date de fin de validité des options de décision. Les options qui ont dépassé leur date de fin ne peuvent plus être proposées dans le processus de prise de décision.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * **Date et heure de début**
 
   **Champ :** startDate
   **Titre :** date et heure de début
   **Description :** date de début de validité des options de décision. Les options qui n&#39;ont pas atteint leur date de début ne peuvent pas encore être proposées dans le processus de prise de décision.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 +++
 
@@ -131,7 +131,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
   **Champ :** _type
   **Titre :** type du composant du contenu
   **Description** : ensemble énuméré d’URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * **_experience > decisioning > contents > components > _dc**
 
@@ -144,7 +144,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
      **Champ :** format
      **Titre :** format
      **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de média Internet](https://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques).
-     **Type :** chaîne
+     **Type :**&#x200B;Chaîne
      **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Langue**
@@ -163,47 +163,47 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
      **Champ :** id
      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
-     **Type :** chaîne
+     **Type :**&#x200B;Chaîne
      **Exemple :** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
      **Champ :** nom
      **Description :** conseils sur l’emplacement du référentiel qui stocke la ressource externe par le \&quot;repo:id\&quot;.
-     **Type :** chaîne
+     **Type :** Chaîne
 
    * **repositoryID**
 
      **Champ :** repositoryID
      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
-     **Type :** chaîne
+     **Type :**&#x200B;Chaîne
      **Exemple :** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
      **Champ :** resolveURL
      **Description :** localisateur de ressource unique facultatif pour lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d&#39;obtenir la ressource sans que le client sache où celle-ci est gérée et quelles API appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus pertinente.
-     **Type :** chaîne
+     **Type :**&#x200B;Chaîne
      **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > contents > components > content**
 
   **Champ :** contenu
   **Description :** champ facultatif pour contenir directement le contenu. Au lieu de référencer le contenu dans un référentiel de ressources, le composant peut contenir directement du contenu simple. Ce champ n&#39;est pas utilisé pour les ressources de contenu composites, complexes et binaires.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
   **Champ :** deliveryURL
   **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource par un agent utilisateur.
-  **Type :** chaîne
+  **Type :**&#x200B;Chaîne
   **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
   **Champ :** linkURL
   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
-  **Type :** chaîne
+  **Type :**&#x200B;Chaîne
   **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
@@ -220,7 +220,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Field:** lifecycleStatus
 **Titre :** statut du cycle de vie
 **Description :** statut du cycle de vie permet d’exécuter des workflows avec un objet. L&#39;état peut avoir une incidence lorsqu&#39;un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
-**Type :** chaîne
+**Type :**&#x200B;Chaîne
 **Valeurs possibles :** « Draft » (par défaut), « Approved », « Live », « Completed », « Archived »
 
 +++
@@ -230,7 +230,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Champ :** nom
 **Titre :** Nom De L&#39;Option De Décision
 **Description :** nom de l’option affiché dans diverses interfaces utilisateur.
-**Type :** chaîne
+**Type :** Chaîne
 
 +++
 
@@ -266,7 +266,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Field:** profileConstraintType
 **Titre :** type de contrainte de profil
 **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à des audiences.
-**Type :** chaîne
+**Type :**&#x200B;Chaîne
 **Valeurs possibles :**
 
 * &quot;none&quot; (par défaut)
@@ -289,7 +289,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
   **Champ :** _id
   **Titre :** identifiant
   **Description :** identité des audiences dans l’espace de noms connexe.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * **Espace de noms**
 
@@ -304,14 +304,14 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
      **Champ :** code
      **Titre :** code
      **Description :** Le code est un identifiant lisible par l&#39;homme pour l&#39;espace de noms et peut être utilisé pour demander l&#39;identifiant technique d&#39;espace de noms utilisé pour le traitement des graphiques d&#39;identités.
-     **Type :** chaîne
+     **Type :** Chaîne
 
 * **Identifiant d&#39;expérience**
 
   **Champ :** xid
   **Titre :** identifiant d&#39;expérience
   **Description** : Lorsqu&#39;elle est présente, cette valeur représente un identifiant d&#39;espace de noms croisé unique pour tous les identifiants d&#39;espace de noms inclus dans tous les espaces de noms.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 +++
 
@@ -336,14 +336,14 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
   **Champ :** fonction
   **Titre :** fonction de notation
   **Description :** référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision sont ensuite classées selon ce score. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 * **Type d&#39;évaluation de commande**
 
   **Champ :** orderEvaluationType
   **Titre :** type d&#39;évaluation d&#39;ordre
   **Description :** indique le mécanisme d’évaluation de l’ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou un modèle d’IA qui reçoit une liste pour l’ordonner.
-  **Type :** chaîne
+  **Type :**&#x200B;Chaîne
   **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Stratégie de classement**
@@ -351,7 +351,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
   **Champ :** rankingStrategy
   **Titre :** stratégie de classement
   **Description :** référence à une stratégie qui classe une liste d&#39;options de décision. Les options de décision sont renvoyées dans une liste classée. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
-  **Type :** chaîne
+  **Type :** Chaîne
 
 +++
 
