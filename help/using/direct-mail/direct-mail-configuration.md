@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configuration du publipostage direct
 description: Découvrez comment configurer le canal Publipostage direct dans Journey Optimizer
 feature: Direct Mail, Surface
@@ -8,27 +10,15 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 TQID: https://experienceleague.adobe.com/3eyBGqw-gCAWi-SYSq5DoyDiFos5HUIIfMFKH3aZBo8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 1820
-ht-degree: 98%
+source-wordcount: 1964
+ht-degree: 92%
 
 ---
 
@@ -96,15 +86,17 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de publipostage direct]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage de fichiers]**.
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
+   ![Bouton Créer une configuration de routage de fichier dans les paramètres de publipostage direct](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Attribuez un nom à votre configuration.
 
 1. Sélectionnez le type de serveur à utiliser pour l’export de vos fichiers de publipostage direct : Amazon S3, SFTP, Azure ou Zone d’atterrissage des données.
 
-   ![](assets/file-routing-config-type.png){width="800" align="center"}
+   ![Sélection du type de serveur pour la configuration du routage des fichiers de courrier](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. Renseignez les champs spécifiques à chaque type de serveur, comme indiqué dans les onglets ci-dessous.
+
+### Choisir le type de serveur {#server-type}
 
 >[!BEGINTABS]
 
@@ -120,7 +112,7 @@ Si vous avez sélectionné **[!UICONTROL Amazon S3]** en tant que **[!UICONTROL 
 
 * **Région AWS** : sélectionnez la **[!UICONTROL région AWS]** où se trouve l’infrastructure du serveur. Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre fournisseur de publipostage direct.
 
-![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+![Sélection de la région AWS pour une configuration de routage de fichier Amazon S3](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
@@ -136,7 +128,7 @@ Si vous avez sélectionné **[!UICONTROL SFTP]** en tant que **[!UICONTROL type 
 
 * **[!UICONTROL Mot de passe]**/**[!UICONTROL Clé SSH]** : mot de passe ou clé SSH utilisés pour la connexion au serveur SFTP.
 
-![](assets/file-routing-config-sftp-detail.png)
+![Détails de connexion au serveur SFTP pour la configuration du routage des fichiers](assets/file-routing-config-sftp-detail.png)
 
 >[!TIP]
 >
@@ -164,13 +156,13 @@ Si vous avez sélectionné **[!UICONTROL Azure]** en tant que **[!UICONTROL type
   >
   >Pour spécifier un chemin d’accès dans le conteneur afin d’enregistrer le fichier, mettez à jour le **[!UICONTROL nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
 
-  ![](assets/file-routing-config-azure-detail.png)
+  ![Détails de la connexion de stockage Azure pour la configuration du routage des fichiers](assets/file-routing-config-azure-detail.png)
 
 >[!TAB Zone d’atterrissage des données]
 
 Si vous avez sélectionné **[!UICONTROL Zone d’atterrissage des données]** en tant que **[!UICONTROL type de serveur]**, aucun détail spécifique n’est nécessaire.
 
-![](assets/file-routing-config-dlz-detail.png)
+![Configuration du routage des fichiers de zone d’atterrissage de données sans champs de serveur supplémentaires](assets/file-routing-config-dlz-detail.png)
 
 L&#39;ensemble de la clientèle d’[!DNL Adobe Experience Platform] est approvisionné avec un conteneur Zone d’atterrissage des données par sandbox. Pour en savoir plus sur la zone d’atterrissage des données, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
@@ -180,7 +172,7 @@ Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ 
 
 Si votre configuration du routage des fichiers sera envoyée via des parcours, vous pouvez spécifier la fréquence à laquelle le fichier sera envoyé au serveur.
 
-![](assets/file-routing-journey.png)
+![Paramètres de fréquence d&#39;exportation de Parcours pour une configuration du routage des fichiers](assets/file-routing-journey.png)
 
 Une fois que vous avez renseigné les détails de votre type de serveur, sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
 
@@ -242,7 +234,7 @@ Une configuration de publipostage direct doit également inclure la configuratio
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canal]**. Cliquez sur le bouton **[!UICONTROL Créer une configuration de canal]**. [En savoir plus](../configuration/channel-surfaces.md)
 
-   ![](assets/direct-mail-config-1.png)
+   ![Écran Créer une configuration de canal dans Administration](assets/direct-mail-config-1.png)
 
 1. Saisissez un nom et une description (facultatif) pour la configuration, puis sélectionnez le canal à configurer.
 
@@ -254,13 +246,13 @@ Une configuration de publipostage direct doit également inclure la configuratio
 
 1. Sélectionnez le canal **[!UICONTROL Publipostage direct]**.
 
-   ![](assets/direct-mail-config-2.png)
+   ![Canal courrier sélectionné lors de la création d’une configuration de canal](assets/direct-mail-config-2.png)
 
 1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurs pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
 1. Définissez les paramètres du publipostage direct dans la section dédiée de la configuration du canal.
 
-   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
+   ![Paramètres de surface du publipostage direct, notamment le format et le routage des fichiers](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -268,7 +260,7 @@ Une configuration de publipostage direct doit également inclure la configuratio
 
 1. Si vous sélectionnez **[!UICONTROL Texte délimité]**, définissez le séparateur de colonne de votre choix : tabulation, point-virgule, barre verticale ou esperluette.
 
-   ![](assets/surface-direct-mail-column-separator.png)
+   ![Options de séparateur de colonne délimité par du texte pour les fichiers d’exportation de publipostage direct](assets/surface-direct-mail-column-separator.png)
 
 1. Sélectionnez la **[!UICONTROL Configuration du routage des fichiers]** parmi celles que vous avez créées. Ceci définit l’endroit où le fichier sera exporté pour que votre fournisseur de publipostage direct l’utilise.
 
@@ -276,7 +268,7 @@ Une configuration de publipostage direct doit également inclure la configuratio
    >
    >Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct. [En savoir plus](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
+   ![Configuration du routage des fichiers sélectionnée dans une configuration de canal courrier](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
@@ -301,3 +293,12 @@ Vous pouvez désormais [créer un publipostage direct](../direct-mail/create-dir
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
 -->
+
+## Rubriques connexes {#related-topics}
+
+* [Commencer à utiliser le courrier](get-started-direct-mail.md)
+* [Créer un message de publipostage direct](create-direct-mail.md)
+* [Test et envoi de publipostage direct](test-send-direct-mail.md)
+* [Configurations de canal](../configuration/channel-surfaces.md)
+
+Pour des questions courantes sur le publipostage direct, voir [Prise en main du publipostage direct](get-started-direct-mail.md).

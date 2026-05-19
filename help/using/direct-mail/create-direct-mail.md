@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Créer un message de publipostage direct
 description: Découvrez comment créer un message de courrier dans Journey Optimizer.
 feature: Direct Mail
@@ -8,26 +10,16 @@ level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 975
-ht-degree: 92%
+source-wordcount: 1069
+ht-degree: 84%
 
 ---
 
@@ -66,17 +58,17 @@ Parcourez les onglets ci-dessous pour savoir comment ajouter un Message de publi
 
 1. Configurez le fichier d’extraction à envoyer à votre fournisseur de services de publipostage. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
 
-   ![](assets/direct-mail-add-journey.png)
+   ![Activité Courrier ajoutée à un parcours depuis la palette Actions](assets/direct-mail-add-journey.png)
 
 1. Ajustez les propriétés du fichier d’extraction, telles que le nom du fichier, ou les colonnes à afficher. Pour plus d’informations sur la configuration des propriétés du fichier d’extraction, consultez cette section : [Créer un message de publipostage direct](../direct-mail/create-direct-mail.md#extraction-file).
 
-   ![](assets/direct-mail-journey-content.png)
+   ![Éditeur de contenu de fichier d&#39;extraction pour une activité de parcours courrier](assets/direct-mail-journey-content.png)
 
 1. Une fois le contenu du fichier d’extraction défini, vous pouvez utiliser des profils de test pour le prévisualiser. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
    Pour ce faire, cliquez sur **[!UICONTROL Simuler le contenu]**, puis ajoutez un profil de test pour vérifier le rendu du fichier d’extraction à l’aide des données du profil de test. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+   ![Simuler l’aperçu du contenu pour un fichier d’extraction de publipostage direct](assets/direct-mail-simulate.png){width="800" align="center"}
 
 Lorsque votre fichier d’extraction est prêt, terminez la configuration de votre [parcours](../building-journeys/journey-gs.md) pour l’envoyer.
 
@@ -100,7 +92,7 @@ Lorsque votre fichier d’extraction est prêt, terminez la configuration de vot
 
 1. Sélectionnez ou créez une **[!UICONTROL configuration depublipostage direct]** à utiliser. [Découvrez comment créer une configuration de publipostage direct](direct-mail-configuration.md#direct-mail-surface).
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   ![Action Courrier configurée dans une campagne marketing planifiée](assets/direct-mail-campaign.png){width="800" align="center"}
 
    >[!AVAILABILITY]
    >
@@ -140,7 +132,7 @@ Le fichier d’extraction est requis par les opérateurs de services postaux pou
 
    1. Il peut parfois s’avérer nécessaire d’ajouter des informations au début ou à la fin du fichier d’extraction. Pour ce faire, utilisez le champ **[!UICONTROL Notes]**, puis indiquez si vous souhaitez inclure la note en tant qu’en-tête ou pied de page.
 
-      ![](assets/direct-mail-properties.png){width="800" align="center"}
+      ![Propriétés du fichier d’extraction, notamment le nom du fichier, l’horodatage et les notes d’en-tête ou de pied de page](assets/direct-mail-properties.png){width="800" align="center"}
 
 1. Configurez les colonnes et les informations à afficher dans le fichier d’extraction :
 
@@ -152,10 +144,19 @@ Le fichier d’extraction est requis par les opérateurs de services postaux pou
 
    1. Pour trier le fichier d’extraction à l&#39;aide d’une colonne, sélectionnez la colonne et activez l’option **[!UICONTROL Trier par]**. L’icône **[!UICONTROL Trier par]** s’affiche en regard du libellé de la colonne dans la section **[!UICONTROL Champs de données]**.
 
-      ![](assets/direct-mail-content.png){width="800" align="center"}
+      ![Champs de données et formatage des colonnes dans l’éditeur de fichier d’extraction de courrier](assets/direct-mail-content.png){width="800" align="center"}
 
    1. Répétez ces étapes pour ajouter autant de colonnes que nécessaire pour votre fichier d’extraction. Vous pouvez ajouter jusqu’à 50 colonnes.
 
       Pour modifier la position d’une colonne, faites-la glisser et déposez-la à l’emplacement de votre choix dans la section **[!UICONTROL Champ de données]**. Pour supprimer une colonne, sélectionnez-la et cliquez sur le bouton **[!UICONTROL Supprimer]** dans le volet **[!UICONTROL Formatage]**.
 
 Vous pouvez maintenant tester votre message de courrier et l’envoyer à votre audience. [Découvrez comment tester et envoyer des messages de courrier](test-send-direct-mail.md).
+
+## Rubriques connexes {#related-topics}
+
+* [Commencer à utiliser le courrier](get-started-direct-mail.md)
+* [Configurer le canal courrier](direct-mail-configuration.md)
+* [Test et envoi de publipostage direct](test-send-direct-mail.md)
+* [Prévisualiser et tester le contenu](../content-management/preview-test.md)
+
+Pour des questions courantes sur le publipostage direct, voir [Prise en main du publipostage direct](get-started-direct-mail.md).
