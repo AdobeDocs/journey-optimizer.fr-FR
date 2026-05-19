@@ -5,24 +5,21 @@ title: Accéder au gestionnaire de contenu Adobe Experience Manager
 description: Découvrez comment accéder à Adobe Experience Manager Content Advisor et l’utiliser pour découvrir des ressources et des fragments de contenu à l’aide de la recherche sémantique optimisée par l’IA dans Adobe Journey Optimizer.
 role: User
 level: Beginner, Intermediate
-hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
-# Utiliser la fonction de conseil en contenu de Adobe Experience Manager {#aem-content-advisor}
+# Utiliser le gestionnaire de contenu Adobe Experience Manager {#aem-content-advisor}
 
->[!AVAILABILITY]
->
->Le gestionnaire de contenu Adobe Experience Manager est disponible uniquement dans les workflows de création de canal.
+Le gestionnaire de contenu Adobe Experience Manager remplace la découverte déterministe par une découverte normalisée pilotée par l’intention à partir d’une surface unifiée. Il permet de découvrir Assets, Dynamic Media et les fragments de contenu directement dans les workflows de création de Journey Optimizer, grâce à l’IA, ce qui améliore la productivité des marketeurs et l’efficacité des campagnes.
 
-Le gestionnaire de contenu Adobe Experience Manager remplace la découverte déterministe par une découverte normalisée pilotée par l’intention à partir d’une surface unifiée. Il permet la découverte unifiée et optimisée par l’IA d’Assets et des fragments de contenu directement dans les workflows de création de Journey Optimizer, ce qui améliore la productivité des marketeurs et l’efficacité des campagnes.
+➡️ [En savoir plus sur Adobe Experience Manager Content Advisor dans la documentation Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)
 
-## Fonctions disponibles
+## Fonctionnalités disponibles
 
 ### Pour Assets {#asset-features}
 
@@ -30,7 +27,7 @@ Le gestionnaire d’accès de Adobe Experience Manager offre les fonctionnalité
 
 +++ Recherche sémantique IA
 
-Recherchez des ressources en utilisant un langage naturel au lieu de mots-clés ou de noms de fichier exacts. Décrivez vos besoins en langage simple, par exemple « café dans les montagnes », et l’IA trouve des ressources pertinentes du point de vue du contexte en fonction du sens et du contenu, et pas seulement des correspondances textuelles.
+Recherchez des ressources en utilisant un langage naturel au lieu de mots-clés ou de noms de fichier exacts. Décrivez vos besoins en langage simple, par exemple « du café dans les montagnes », et l’IA recouvre les ressources pertinentes selon le contexte en fonction de leur signification et de leur contenu, et pas seulement en fonction de correspondances textuelles. La recherche multilingue est également prise en charge, ce qui vous permet d’effectuer des requêtes dans la langue de votre choix tout en recherchant les ressources appropriées, quelle que soit la langue dans laquelle elles ont été balisées ou nommées.
 
 ![](assets/content-advisor-2.png){zoomable="yes"}
 
