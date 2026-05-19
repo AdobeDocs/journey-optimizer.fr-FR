@@ -10,11 +10,19 @@ level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
 source-wordcount: 436
@@ -34,7 +42,7 @@ Votre utilisation des services de courrier sera soumise aux conditions général
 
 ## Avant de commencer {#before-you-start}
 
-Avant de créer des messages de publipostage direct, configurez le routage des fichiers [ et une configuration du canal courrier](direct-mail-configuration.md). Vous avez également besoin d’audiences et de données de profil (telles que les adresses postales) dans Adobe Experience Platform.
+Avant de créer des messages de publipostage direct, configurez le routage des fichiers [&#x200B; et une configuration du canal courrier](direct-mail-configuration.md). Vous avez également besoin d’audiences et de données de profil (telles que les adresses postales) dans Adobe Experience Platform.
 
 Les principales étapes pour envoyer des messages de courrier sont les suivantes :
 
