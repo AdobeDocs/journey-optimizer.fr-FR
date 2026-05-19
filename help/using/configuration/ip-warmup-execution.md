@@ -10,11 +10,21 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 TQID: https://experienceleague.adobe.com/AF925ZJj5sJoiDs-8YnYAUMURi2y71R3vq8LGmIbMaI
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c343082f-e963-4f57-a96b-b64d27f8118e
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2770
@@ -72,7 +82,7 @@ Pour définir les phases de votre plan de préchauffage d’adresses IP, vous de
 
       >[!NOTE]
       >
-      >L’exclusion de domaine nécessite une phase non exécutée. Vous devrez peut-être donc [diviser une phase en cours d’exécution](#split-phase) pour ajouter des exclusions. En outre, vous ne pouvez exclure qu’un groupe de domaines personnalisé qui a été ajouté au modèle de plan de préchauffage d’adresses IP ](ip-warmup-plan.md#prepare-file) — dans le cas contraire, mettez à jour le modèle avec le groupe de domaines personnalisé et [chargez à nouveau le plan](#re-upload-plan).[
+      >L’exclusion de domaine nécessite une phase non exécutée. Vous devrez peut-être donc [diviser une phase en cours d’exécution](#split-phase) pour ajouter des exclusions. En outre, vous ne pouvez exclure qu’un groupe de domaines personnalisé qui a été ajouté au modèle de plan de préchauffage d’adresses IP [&#128279;](ip-warmup-plan.md#prepare-file) — dans le cas contraire, mettez à jour le modèle avec le groupe de domaines personnalisé et [chargez à nouveau le plan](#re-upload-plan).
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 

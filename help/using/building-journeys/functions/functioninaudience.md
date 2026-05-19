@@ -9,11 +9,18 @@ keywords: inAudience, fonction, expression, parcours, audience, segmentation
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 754
@@ -122,7 +129,7 @@ Lors de l’utilisation de la fonction `inAudience` dans vos parcours, tenez com
 Lors de l’utilisation de `inAudience()` dans un nœud de condition, le délai d’évaluation de l’appartenance au segment varie en fonction de l’emplacement de la condition dans le parcours :
 
 * **Dans un parcours Lecture d’audience, avant une activité Attente :** Journey Optimizer lit à partir de la projection par lots du profil. Les données de cette projection sont actualisées dans les **2 heures** suivant l’ingestion. Les audiences qui reposent sur des conditions basées sur la journée ou sur l’heure peuvent subir un retard supplémentaire. Ajoutez une courte [activité d’attente](../wait-activity.md) au début du parcours ou patientez le temps pour vous assurer que la dernière appartenance au segment est prise en compte.
-* **Dans un parcours d’événement unitaire, ou après une activité Attente :** l’appartenance à un segment est lue à partir de la projection en flux continu (unitaire). Les données sont généralement disponibles en **15 minutes**. Pour plus d’informations, consultez la documentation sur l’ingestion par flux de [](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **Dans un parcours d’événement unitaire, ou après une activité Attente :** l’appartenance à un segment est lue à partir de la projection en flux continu (unitaire). Les données sont généralement disponibles en **15 minutes**. Pour plus d’informations, consultez la documentation sur l’ingestion par flux de [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Rubriques connexes
 

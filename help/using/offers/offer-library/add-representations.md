@@ -11,11 +11,20 @@ level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/lu90DQdZQ6ECl4WCWqJ8aIbVmR63xScb3K0dLNh-hNc
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 900
@@ -116,7 +125,7 @@ Pour réutiliser votre contenu dans une représentation, accédez à la **Biblio
 
 Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
-Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [ Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
+Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [&#x200B; Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url.png)
 
@@ -144,7 +153,7 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 
    ![](../assets/offer-text-content.png)
 
-   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [ Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
+   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor). Dans la gestion des décisions, seules certaines fonctions sont prises en charge. Voir [&#x200B; Fonctions prises en charge dans l’éditeur de personnalisation](personalization-editor-supported-functions.md).
 
    ![](../assets/offer-personalization.png)
 
