@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 24e3ab995d8dfc77c4441ce68e51b437f5827228
+source-git-commit: 7198657c414313e614aab539c827038ae53820c3
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 36%
+source-wordcount: 1814
+ht-degree: 33%
 
 ---
 
@@ -246,6 +246,23 @@ Les fonctionnalités et améliorations suivantes devraient être publiées fin m
 <table>
 <thead>
 <tr>
+<th><strong>Remplissage automatique pour les parcours Lecture d’audience non récurrents</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les parcours non récurrents <strong>Lecture d’audience</strong> passent désormais automatiquement au statut <strong>Arrêté</strong> une fois le dernier profil actif quitté. Auparavant, ces parcours restaient <strong>en ligne</strong> jusqu’à l’expiration du délai d’expiration global de 91 jours, même lorsqu’aucun profil n’y circulait plus. Grâce à cette amélioration, le statut du parcours reflète le statut d’exécution réel dès qu’il est terminé, ce qui permet de conserver un inventaire précis de vos parcours sans intervention manuelle.</p>
+<p>Notez que ce comportement ne s’applique pas aux parcours qui incluent des nœuds provoquant des périodes d’attente, tels que les nœuds d’attente, les nœuds de réaction ou les transitions déclenchées par un événement. Ces parcours restent soumis à la temporisation globale standard de 91 jours.</p>
+<p>Date de disponibilité : 21 mai 2026</p>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>Simulation de parcours</strong><br/></th>
 </tr>
 </thead>
@@ -283,6 +300,13 @@ Les fonctionnalités et améliorations suivantes devraient être publiées fin m
 #### Navigation
 
 * **Dossiers pour les parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes dans des dossiers pour améliorer la navigation et la gestion dans l’interface.
+
+  Date de disponibilité : 21 mai 2026
+
+#### Parcours
+
+* **Authentification personnalisée basée sur un certificat dans les actions personnalisées** - Les actions personnalisées prennent désormais en charge l’authentification personnalisée basée sur un certificat. En ajoutant subType : « certificateCredential » à une configuration d’autorisation personnalisée, Journey Optimizer utilise un certificat géré Adobe pour signer une assertion client JWT et l’échanger contre un jeton d’accès - aucun secret client requis. Conçu pour les API d’entreprise qui appliquent la vérification d’identité avec certificat, comme l’Azure Entra ID.
+
 
   Date de disponibilité : 21 mai 2026
 
