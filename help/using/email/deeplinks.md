@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
-source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
+source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -334,4 +334,3 @@ Oui. Les paramètres UTM que vous configurez dans [!DNL Journey Optimizer] sont 
 Le lien s’ouvre dans le navigateur web par défaut de l’appareil (comportement de suivi des clics standard), au lieu d’être traité comme un lien profond de l’application par le biais du flux de `mclick` décrit sur cette page.
 
 +++
-
