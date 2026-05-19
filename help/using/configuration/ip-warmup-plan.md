@@ -25,10 +25,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: c4e75817cb619d586db753fa296e0b101663c850
 workflow-type: tm+mt
-source-wordcount: 1833
-ht-degree: 82%
+source-wordcount: 1824
+ht-degree: 83%
 
 ---
 
@@ -307,13 +307,13 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    <!--
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
--->
+    -->
 
-    ![](assets/ip-warmup-upload-success.png)
-    
-    >[ !REMARQUE]
-    >
-    >En cas d’échec du chargement, assurez-vous d’utiliser le bon format de fichier et de mise en forme (.xls ou .xlsx). Utilisez le [modèle](assets/IPWarmupPlan-Template.xlsx) fourni par Adobe.
+   ![](assets/ip-warmup-upload-success.png)
+
+   >[!NOTE]
+   >
+   >En cas d’échec du chargement, assurez-vous d’utiliser le formatage et le format de fichier corrects (.xls ou .xlsx). Utilisez le [modèle](assets/IPWarmupPlan-Template.xlsx) fourni par Adobe.
 
 1. Cliquez sur **[!UICONTROL Créer]**. Toutes les phases, les exécutions, les colonnes et leur contenu définis dans le fichier que vous avez chargé sont automatiquement affichés dans l’interface de [!DNL Journey Optimizer].
 
