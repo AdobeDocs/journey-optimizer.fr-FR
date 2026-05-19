@@ -30,14 +30,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 5b85708af07883e4690a0234399344012091844e
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 100%
+source-wordcount: 1252
+ht-degree: 95%
 
 ---
 
 # Création et gestion des ressources avec [!DNL Experience Manager Assets]{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+Les expériences **sélecteur de ressources** et **sélecteur de fragments de contenu** existantes dans les workflows Adobe Journey Optimizer sont en cours de remplacement par **gestionnaire d’accès**. Le gestionnaire de contenu fournit une interface unifiée optimisée par l’IA pour découvrir et sélectionner des Assets, des fragments de contenu et Dynamic Media directement dans vos workflows de création AJO. Les intégrations existantes continueront à fonctionner pendant la période de transition.
+
+>[!ENDSHADEBOX]
 
 ## Prise en main de [!DNL Experience Manager Assets] {#get-started-assets}
 
