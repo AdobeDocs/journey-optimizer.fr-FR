@@ -23,9 +23,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: 1961
+source-wordcount: 1941
 ht-degree: 94%
 
 ---
@@ -131,8 +131,6 @@ Après avoir généré des variations de contenu, vous pouvez affiner les résul
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-   Vous pouvez également activer l’expérience pour votre contenu. [En savoir plus](generative-experimentation.md)
-
 1. Insérez des champs de personnalisation pour personnaliser votre contenu en fonction des données des profils. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
 1. Examinez et activez votre contenu :
@@ -235,8 +233,6 @@ Après avoir examiné les variations de notification push générées, vous pouv
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
-
-   Vous pouvez également activer l’expérience pour votre contenu. [En savoir plus](generative-experimentation.md)
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de vos notifications push en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 

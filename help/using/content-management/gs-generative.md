@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: 999
+source-wordcount: 988
 ht-degree: 100%
 
 ---
@@ -198,6 +198,5 @@ Les mécanismes de sécurisation suivants s’appliquent à l’[assistant AI po
 
 ## Ressources supplémentaires
 
-* **[Expérimentation générative](generative-experimentation.md)** : découvrez comment combiner du contenu généré par l’IA avec l’expérimentation.
 * **[Cas d’utilisation de l’assistant IA](generative-uc.md)** : découvrez comment utiliser l’assistant IA à travers divers cas d’utilisation
 * **[Tutoriels sur l’assistant IA](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques de l’assistant IA.
