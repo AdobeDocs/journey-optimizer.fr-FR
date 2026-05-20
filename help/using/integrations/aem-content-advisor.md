@@ -6,9 +6,9 @@ description: Découvrez comment accéder à Adobe Experience Manager Content Adv
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,12 @@ Chargez un document de résumé marketing pour faire apparaître automatiquement
 Affichez les métadonnées et les propriétés détaillées de n’importe quelle ressource à l’aide de l’icône **Info**. Cela inclut les dimensions des ressources, la taille du fichier, la date de création, les balises et d’autres informations pertinentes pour vous aider à prendre des décisions éclairées.
 
 ![](assets/content-advisor-6.png){zoomable="yes"}
+
++++
+
++++ Accès au référentiel de toutes les organisations
+
+Découvrez et sélectionnez des ressources dans les référentiels des organisations auxquelles vous avez accès. Cette fonctionnalité vous permet de parcourir et d’utiliser les ressources stockées dans des référentiels appartenant à différentes organisations, fournissant ainsi un accès plus large à votre bibliothèque de ressources disponible sans quitter le workflow de création de Journey Optimizer.
 
 +++
 
