@@ -22,7 +22,7 @@ Vous pouvez gérer le consentement de trois façons : **préférences de désins
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Gérer les opt-out et le consentement à la personnalisation
 
@@ -32,7 +32,7 @@ Découvrez comment gérer les préférences d’opt-out et appliquer le consente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utiliser les politiques de consentement
 
@@ -42,7 +42,7 @@ Découvrez comment créer et appliquer des politiques de consentement pour gére
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Gérer Les Préférences De Vos Clients
 
