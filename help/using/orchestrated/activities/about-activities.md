@@ -6,16 +6,13 @@ description: Découvrir comment utiliser des activités de campagne orchestrée
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 100%
+source-wordcount: 471
+ht-degree: 78%
 
 ---
 
@@ -66,12 +63,12 @@ Découvrez comment [créer une action de canal dans une campagne orchestrée](ch
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Activité de fin"
->abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’une campagne orchestrée. Cette activité n’a aucun impact fonctionnel et est donc facultative."
+>abstract="L’activité **Fin** marque la fin d’une branche sur la zone de travail. Vous pouvez éventuellement utiliser **Signal externe** pour démarrer une campagne orchestrée en aval et transmettre des paramètres une fois la branche terminée. [En savoir plus](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Signal externe"
->abstract="Signal externe"
+>abstract="Sélectionnez la campagne orchestrée en aval à démarrer lorsque cette branche se termine et mappez les noms et les valeurs des paramètres à envoyer au signal. La campagne en aval doit être définie sur **Déclenchée par un signal** et publiée avant que cette campagne n’atteigne l’activité Fin . [En savoir plus](../trigger-orchestrated-campaign.md#signal-end)"
 
 Les activités ci-après sont spécifiques à l’organisation et à l’exécution des campagnes orchestrées. Leur principale tâche est de coordonner les autres activités.
 
@@ -84,5 +81,4 @@ Les activités de contrôle de flux disponibles sont les suivantes :
 * [Attente](wait.md) : suspendez momentanément l’exécution d’une partie d’une campagne orchestrée.
   <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
->[!NOTE]
->L’activité **Fin** permet de marquer graphiquement la fin d’une campagne orchestrée. Cette activité n’a aucun impact fonctionnel et est donc facultative.
+* **[!UICONTROL Fin]** : marque la fin d’une branche sur la zone de travail. Vous pouvez éventuellement l’utiliser pour envoyer un signal à une autre campagne orchestrée qui démarre sur un signal. [En savoir plus](../trigger-orchestrated-campaign.md#signal-end)

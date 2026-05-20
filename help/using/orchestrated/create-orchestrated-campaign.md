@@ -6,17 +6,13 @@ description: Découvrez comment créer et planifier une campagne orchestrée ave
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 1183
-ht-degree: 94%
+source-wordcount: 1227
+ht-degree: 85%
 
 ---
 
@@ -63,17 +59,17 @@ Pour créer une campagne orchestrée, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Planificateur"
->abstract="En tant que responsable de campagne, vous pouvez planifier des campagnes pour les lancer automatiquement à des heures spécifiques, ce qui permet d’obtenir un minutage précis et des données de ciblage exactes pour les communications marketing."
+>abstract="En tant que responsable de campagne, vous pouvez planifier le lancement automatique des campagnes à des heures spécifiques ou leur définir sur **Déclenché par un signal** afin qu’elles démarrent lorsqu’elles sont appelées à partir de l’API REST ou de l’activité **Fin** d’une autre campagne orchestrée. [En savoir plus](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="Validité du planificateur"
->abstract="Vous pouvez définir une période de validité pour le planificateur. Elle peut être permanente (par défaut) ou valide jusqu’à une date spécifique."
+>abstract="Pour les campagnes planifiées, définissez une période de validité pour le planificateur. Elle peut être permanente (par défaut) ou valide jusqu’à une date spécifique."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Options du planificateur"
->abstract="Définissez la fréquence du planificateur. Il peut être exécuté à un moment précis, ou encore une ou plusieurs fois par jour, semaine ou mois."
+>abstract="Choisissez le mode de démarrage de la campagne : ponctuel ou récurrent (une fois, tous les jours, toutes les semaines, tous les mois, etc.) ou **Déclenché par un signal** afin qu’il attende un appel API ou l’activité **Fin** d’une campagne en amont. Pour les campagnes déclenchées par un signal, vous pouvez définir des paramètres à transmettre à la payload. [En savoir plus](trigger-orchestrated-campaign.md)"
 
 Par défaut, les campagnes orchestrées démarrent lorsqu’elles sont activées manuellement et se terminent lorsque leurs activités associées ont été exécutées. Si vous préférez retarder l’exécution ou lancer la campagne de manière récurrente, vous pouvez définir un planning.
 
