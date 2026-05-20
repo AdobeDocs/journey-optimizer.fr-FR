@@ -5,16 +5,16 @@ title: Canal SMS/MMS/RCS
 description: Canal SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 80%
+ht-degree: 72%
 
 ---
 
 # Canal SMS/MMS/RCS{#section-overview}
 
-Le canal SMS/MMS/RCS d’Adobe Journey Optimizer vous permet d’interagir directement avec vos client et clientes sur leurs appareils mobiles par le biais de SMS personnalisés. Que vous envoyiez des mises à jour simples par SMS, du contenu multimédia enrichi par MMS ou des messages interactifs de marque avec RCS, ce canal offre des moyens polyvalents de se connecter. Vous découvrirez comment configurer les fournisseurs de services, créer et personnaliser des messages, les intégrer dans des campagnes ou des parcours et assurer la conformité à la gestion des désinscriptions. Au fil du temps, vous apprendrez à tester, à envoyer et à gérer vos communications pour un impact maximal, ce qui vous permettra de diffuser facilement des messages pertinents et opportuns qui trouveront un écho auprès de votre audience.
+Le canal SMS/MMS/RCS dans Adobe Journey Optimizer vous permet d’interagir directement avec les clients sur leurs appareils mobiles par le biais de messages mobiles personnalisés. Que vous envoyiez des mises à jour simples par SMS, du contenu multimédia enrichi par MMS ou des messages interactifs de marque avec RCS, ce canal offre des moyens polyvalents de se connecter. Vous découvrirez comment configurer les fournisseurs de services, créer et personnaliser des messages, les intégrer dans des campagnes ou des parcours et assurer la conformité à la gestion des désinscriptions. Au fil du temps, vous apprendrez à tester, à envoyer et à gérer vos communications pour un impact maximal, ce qui vous permettra de diffuser facilement des messages pertinents et opportuns qui trouveront un écho auprès de votre audience.
 
 ## Présentation du canal SMS/MMS/RCS
 

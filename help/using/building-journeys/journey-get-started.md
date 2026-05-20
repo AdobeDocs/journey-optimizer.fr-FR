@@ -41,10 +41,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 91%
+source-wordcount: 943
+ht-degree: 85%
 
 ---
 
@@ -94,7 +94,7 @@ Tirez parti des **données contextuelles** issues des événements, des informat
 
 **Actions intégrées**
 
-Utilisez des **actions de canal intégrées** pour envoyer des messages conçus dans [!DNL Journey Optimizer] par e-mail, notification push, SMS/MMS, etc.
+Utilisez des **actions de canal intégrées** pour envoyer des messages conçus dans [!DNL Journey Optimizer] par e-mail, notification push, SMS/RCS/MMS, etc.
 
 [Envoyer des messages dans les parcours](journey-action.md)
 :::
@@ -135,7 +135,7 @@ Testez vos parcours avant la publication, surveillez leurs performances et optim
 
 À partir du concepteur de parcours, les spécialistes marketing peuvent envoyer des messages 1:1 déclenchés en temps réel via n’importe quel canal lorsqu’un événement se produit. Par exemple, lorsqu’une personne s’abonne à un service, cela peut [déclencher un e-mail de bienvenue](message-to-subscribers-uc.md) l’incitant à se connecter pour la première fois à l’application et à définir ses préférences. Des actions telles que terminer l’achat, ouvrir l’e-mail et se connecter à l’application peuvent être utilisées pour faire progresser les nouveaux clients et les nouvelles clientes dans leur parcours.
 
-Le [concepteur de parcours](using-the-journey-designer.md) fournit des [actions de canal intégrées](journey-action.md) qui prennent en charge les messages sortants, tels que les e-mails, les notifications push et les SMS/MMS, ainsi que les canaux entrants, notamment les applications mobiles, les sites web et les expériences basées sur du code créées directement dans Journey Optimizer. Vous pouvez également utiliser des systèmes tiers pour envoyer des messages. Journey Optimizer inclut des [actions personnalisées](using-custom-actions.md) pour permettre l’intégration de ces systèmes dans les parcours directement à partir du concepteur de parcours.
+Le [concepteur de parcours &#x200B;](using-the-journey-designer.md) fournit des [actions de canal intégrées](journey-action.md) qui prennent en charge les messages sortants, tels que les e-mails, les notifications push et les SMS/RCS/MMS, ainsi que les canaux entrants, notamment les applications mobiles, les sites web et les expériences basées sur le code créées directement dans Journey Optimizer. Vous pouvez également utiliser des systèmes tiers pour envoyer des messages. Journey Optimizer inclut des [actions personnalisées](using-custom-actions.md) pour permettre l’intégration de ces systèmes dans les parcours directement à partir du concepteur de parcours.
 
 
 :::: landing-cards-container

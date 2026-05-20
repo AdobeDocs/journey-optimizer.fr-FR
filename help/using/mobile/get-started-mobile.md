@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des messages mobiles
-description: Découvrez comment créer et envoyer des messages texte dans Journey Optimizer.
+description: Découvrez comment créer et envoyer des messages mobiles dans Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 30%
+source-wordcount: 1006
+ht-degree: 24%
 
 ---
 
@@ -69,7 +69,7 @@ Les messages mobiles peuvent être créés et envoyés dans un parcours ou dans 
 
 ## Exigences de configuration {#configuration-requirements}
 
-Avant d’envoyer des SMS, vous devez :
+Avant d&#39;envoyer des messages mobiles, vous devez :
 
 1. **Choisir un fournisseur SMS** : sélectionnez Sinch, Twilio, Infobip ou configurez un fournisseur personnalisé
 2. **Configurer les informations d’identification d’API** : intégrez les jetons d’API et les identifiants de service de votre fournisseur à Journey Optimizer
@@ -90,7 +90,7 @@ Les conditions préalables suivantes sont requises pour utiliser RCS dans Journe
 
 ## Ressources supplémentaires {#additional-resources}
 
-Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie texte dans Journey Optimizer.
+Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie mobile dans Journey Optimizer.
 
 +++Guides de configuration
 
@@ -115,11 +115,11 @@ Configuration détaillée de chaque fournisseur de services SMS :
 
 +++Création et gestion de contenu
 
-Créez, personnalisez et gérez le contenu de votre SMS :
+Créez, personnalisez et gérez le contenu de votre message mobile :
 
-* [Créer des messages SMS/MMS](create-mobile-message.md)
+* [Créer des messages SMS/RCS/MMS](create-mobile-message.md)
 * [Prévisualiser, tester et envoyer des messages](send-mobile-message.md)
-* [Personnalisation dans les SMS](../personalization/personalize.md)
+* [Personalization dans les messages mobiles](../personalization/personalize.md)
 * [Contenu dynamique](../personalization/get-started-dynamic-content.md)
 * [Générer du contenu SMS avec l’assistant IA](../content-management/generative-text.md)
 
@@ -127,7 +127,7 @@ Créez, personnalisez et gérez le contenu de votre SMS :
 
 +++Conformité et confidentialité
 
-Assurez-vous que votre messagerie texte est conforme aux réglementations et aux normes de confidentialité :
+Assurez-vous que vos messages mobiles sont conformes aux réglementations et aux normes de confidentialité :
 
 * [Gestion du désabonnement](mobile-opt-out.md)
 * [Confidentialité et consentement](../privacy/opt-out.md#opt-out-decision-management)

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Paramétrer la configuration des SMS
-description: Découvrir comment paramétrer votre configuration de SMS/MMS pour envoyer des messages SMS avec Journey Optimizer
+description: Découvrez comment configurer votre configuration SMS/RCS/MMS pour envoyer des messages mobiles avec Journey Optimizer
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 59%
+source-wordcount: 522
+ht-degree: 44%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Définir la catégorie de message"
->abstract="Sélectionnez le type de messages SMS utilisant cette configuration : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou Transactionnel pour les messages non commerciaux, tels que la réinitialisation du mot de passe."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#sms-opt-out-management" text="Se désinscrire dans les messages texte de marketing"
+>abstract="Sélectionnez le type de messages mobiles utilisant cette configuration : marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou transactionnel pour les messages non commerciaux, tels que la réinitialisation du mot de passe."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#sms-opt-out-management" text="Se désinscrire dans les messages mobiles marketing"
 
 Une fois votre canal Message mobile configuré, vous devez créer une configuration de canal afin de pouvoir envoyer des SMS, des SMS, des SMS et des MMS depuis **[!DNL Journey Optimizer]**.
 
@@ -76,7 +76,7 @@ Pour créer une configuration des canaux, procédez comme suit :
 
    >[!NOTE]
    >
-   >Avant de pouvoir sélectionner un sous-domaine, vous devez avoir configuré au moins un sous-domaine SMS/MMS. [Voici comment procéder](mobile-subdomains.md)
+   >Avant de pouvoir sélectionner un sous-domaine, vous devez avoir configuré au moins un sous-domaine SMS/RCS/MMS. [Voici comment procéder](mobile-subdomains.md)
 
 1. Dans la section **[!UICONTROL Dimension d’exécution]**, utilisez le **[!UICONTROL Champ d’exécution SMS]** pour sélectionner, parmi les attributs de profil, le numéro de téléphone à utiliser en priorité si plusieurs numéros sont disponibles dans la base de données. [En savoir plus](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
@@ -109,4 +109,4 @@ Pour créer une configuration des canaux, procédez comme suit :
 
    ![](assets/preset-active.png)
 
-Vous pouvez maintenant envoyer des messages texte avec Journey Optimizer.
+Vous êtes maintenant prêt à envoyer des messages mobiles avec Journey Optimizer.

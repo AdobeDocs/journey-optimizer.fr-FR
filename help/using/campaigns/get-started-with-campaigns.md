@@ -38,10 +38,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1613
-ht-degree: 100%
+source-wordcount: 1614
+ht-degree: 99%
 
 ---
 
@@ -254,7 +254,7 @@ Créez des messages attrayants pour votre audience :
 
 * Utilisez le **Concepteur d’e-mail** pour des expériences d’e-mail riches.
 * Configurez des **notifications push** avec des images et des liens profonds.
-* Concevez des **SMS/MMS** avec de la personnalisation.
+* Concevoir des **messages SMS/RCS/MMS** avec personnalisation
 * Créez des expériences **in-app** et **web**.
 * Ajoutez de la **personnalisation** à l’aide des attributs de profil et des données contextuelles.
 

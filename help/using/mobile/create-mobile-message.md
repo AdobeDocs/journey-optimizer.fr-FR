@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 49%
+source-wordcount: 748
+ht-degree: 36%
 
 ---
 
@@ -38,24 +38,24 @@ ht-degree: 49%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Créer un message texte"
+>title="Créer un message mobile"
 >abstract="Pour créer un Message mobile, ajoutez une action SMS dans un parcours ou une campagne et commencez à la personnaliser à l’aide de l’éditeur de personnalisation."
 
 >[!AVAILABILITY]
 >
 >RCS n’est pas un service conforme à la loi HIPAA et ne doit pas être utilisé pour collecter, stocker ou traiter des données personnelles sensibles, y compris des données de santé autorisées, par exemple des informations de santé personnelles, que votre organisation pourrait par ailleurs être autorisée à traiter dans Journey Optimizer.
 
-Vous pouvez concevoir et envoyer des messages texte (SMS), riches (RCS) et multimédia (MMS) avec Adobe Journey Optimizer. Vous devez d’abord ajouter une action Message mobile dans un parcours ou une campagne, puis définir le contenu du message texte, comme décrit ci-dessous. Adobe Journey Optimizer propose également des fonctionnalités permettant de tester vos messages texte avant l’envoi, afin que vous puissiez vérifier le rendu, les attributs de personnalisation et tous les autres paramètres.
+Vous pouvez concevoir et envoyer des messages texte (SMS), riches (RCS) et multimédia (MMS) avec Adobe Journey Optimizer. Vous devez d’abord ajouter une action Message mobile dans un parcours ou une campagne, puis définir le contenu du Message mobile, comme décrit ci-dessous. Adobe Journey Optimizer offre également des fonctionnalités permettant de tester vos messages mobiles avant l’envoi afin que vous puissiez vérifier le rendu, les attributs de personnalisation et tous les autres paramètres.
 
-Conformément aux normes et réglementations du secteur, tous les messages SMS/MMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. [Découvrir comment gérer un droit d’opposition](../privacy/opt-out.md#opt-out-decision-management)
+Conformément aux normes et réglementations du secteur, tous les messages marketing SMS/RCS/MMS doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. [Découvrir comment gérer un droit d’opposition](../privacy/opt-out.md#opt-out-decision-management)
 
-## Ajouter un message texte {#create-sms-journey-campaign}
+## Ajouter un message mobile {#create-sms-journey-campaign}
 
 Parcourez les onglets ci-dessous pour savoir comment ajouter un Message mobile dans une campagne ou un parcours.
 
 >[!BEGINTABS]
 
->[!TAB Ajouter un message texte à un parcours]
+>[!TAB Ajouter un message mobile à un Parcours ]
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
 
@@ -83,7 +83,7 @@ Parcourez les onglets ci-dessous pour savoir comment ajouter un Message mobile d
 
 Pour plus d’informations sur la création, la configuration et la publication d’un parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
->[!TAB Ajouter un message texte à une campagne]
+>[!TAB Ajouter un message mobile à une campagne]
 
 1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 
@@ -118,7 +118,7 @@ Pour plus d’informations sur la création, la configuration et la publication 
    * Hebdomadaire
    * Mois
 
-Vous pouvez maintenant commencer à concevoir le contenu de votre message texte en cliquant sur le bouton **[!UICONTROL Modifier le contenu]**, comme illustré ci-dessous. [En savoir plus](design-mobile.md)
+Vous pouvez maintenant commencer à concevoir le contenu de votre message mobile à partir du bouton **[!UICONTROL Modifier le contenu]**, comme décrit ci-dessous. [En savoir plus](design-mobile.md)
 
 Pour plus d’informations sur la création, la configuration et l’activation d’une campagne, consultez [cette page](../campaigns/get-started-with-campaigns.md).
 
@@ -128,7 +128,7 @@ Pour plus d’informations sur la création, la configuration et l’activation 
 
 * [Concevoir un message mobile](design-mobile.md)
 * [Ajouter un message dans une campagne](../campaigns/create-campaign.md)
-* [Prévisualiser, tester et envoyer votre message texte](send-mobile-message.md)
+* [Prévisualiser, tester et envoyer votre message mobile](send-mobile-message.md)
 * [Configurer le canal des messages mobiles](mobile-configuration.md)
 * [Rapports de messages mobiles](../reports/journey-global-report-cja-sms.md)
 

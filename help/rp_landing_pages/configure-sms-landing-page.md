@@ -5,16 +5,16 @@ title: Configurer le canal SMS/MMS/RCS
 description: Configurer le canal SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 100%
+ht-degree: 69%
 
 ---
 
 # Configurer le canal SMS/MMS/RCS{#section-overview}
 
-Le canal SMS/MMS/RCS d’Adobe Journey Optimizer permet aux entreprises de communiquer avec la clientèle par le biais de la messagerie texte pour les alertes transactionnelles ou les campagnes marketing. Que vous envoyiez de simples notifications SMS, des messages MMS multimédias ou que vous utilisiez des fonctionnalités RCS interactives telles que des profils de marque, ce guide vous guide à chaque étape de la configuration de vos canaux de messagerie. Vous allez apprendre à intégrer des fournisseurs couramment utilisés tels que Sinch, Twilio et Infobip, ou à configurer un fournisseur personnalisé pour des besoins de messagerie sur mesure. Grâce à des instructions claires, des exemples pratiques et des informations sur les autorisations et les paramètres, vous serez en mesure de configurer en toute confiance une communication textuelle conforme à vos objectifs.
+Le canal SMS/MMS/RCS dans Adobe Journey Optimizer permet aux entreprises de se connecter aux clients par le biais de la messagerie mobile pour les alertes transactionnelles ou les campagnes marketing. Que vous envoyiez de simples notifications SMS, des messages MMS riches en multimédia ou que vous utilisiez des fonctionnalités RCS interactives telles que des profils de marque, ce guide vous guide à chaque étape de la configuration de vos canaux de messagerie. Vous apprendrez à intégrer des fournisseurs populaires tels que Sinch, Twilio et Infobip, ou à configurer un fournisseur personnalisé pour des besoins de messagerie sur mesure. Grâce à des instructions claires, des exemples pratiques et des informations sur les autorisations et les paramètres, vous pouvez configurer en toute confiance une communication textuelle conforme à vos objectifs.
 
 ## Configurer le canal SMS/MMS/RCS
 

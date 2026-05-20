@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 537
 ht-degree: 63%
 
 ---
@@ -94,6 +94,6 @@ Lorsque votre message mobile est prêt, effectuez la configuration de votre [par
 **Rubriques connexes**
 
 * [Configurer le canal SMS](mobile-configuration.md)
-* [Rapports SMS/MMS](../reports/journey-global-report-cja-sms.md)
+* [Rapports SMS/RCS/MMS](../reports/journey-global-report-cja-sms.md)
 * [Créer un message mobile](create-mobile-message.md)
 * [Ajouter un message dans un parcours](../building-journeys/journey-action.md)

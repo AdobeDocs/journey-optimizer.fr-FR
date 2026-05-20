@@ -43,10 +43,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1615
-ht-degree: 100%
+source-wordcount: 1616
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ Choisissez le mode d’entrée des clientes et clients : par le biais d’un é
 
 **Envoyer des messages**
 
-Utilisez des actions de canal intégrées pour les e-mails, les notifications push, les SMS/MMS, les messages in-app, les messages web, etc., le tout dans Journey Optimizer.
+Utilisez des actions de canal intégrées pour les e-mails, les notifications push, les SMS/RCS/MMS, les messages in-app, les messages web, etc., le tout conçu dans Journey Optimizer.
 
 [Envoyer des messages dans les parcours](journey-action.md)
 :::
@@ -236,7 +236,7 @@ Suivez les performances réelles de votre parcours :
 * Surveillez les taux d’entrée, d’achèvement et d’erreur.
 * Configurez des alertes pour les problèmes critiques.
 
-[Surveiller et établir des rapports → ](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
+[Surveiller et établir des rapports → &#x200B;](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
 
 ### &#x200B;6. Optimiser et itérer {#optimize}
 
@@ -249,7 +249,7 @@ Utilisez les informations pour apporter des améliorations :
 
 [Optimiser vos parcours →](optimize.md) | [→ Optimisation de l’heure d’envoi](send-time-optimization.md)
 
-➡️ **Vous voulez démarrer ?** [ Créez votre premier parcours maintenant →](journey-gs.md)
+➡️ **Vous voulez démarrer ?** [&#x200B; Créez votre premier parcours maintenant →](journey-gs.md)
 
 ## Cas d’utilisation réels {#use-cases}
 

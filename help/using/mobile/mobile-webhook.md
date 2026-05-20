@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 9%
@@ -120,7 +120,7 @@ Pour Sinch et Sinch Conversational, créez un webhook unique qui gère les évé
 
    +++ Opt-Out
 
-   * Activez les mots-clés qui désactivent les utilisateurs et suppriment le consentement pour envoyer des messages texte. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est désinscrit de la réception des SMS.
+   * Activez les mots-clés qui désactivent les utilisateurs et suppriment le consentement pour envoyer des messages mobiles. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est désinscrit de la réception des SMS.
 
    * Par défaut, les mots-clés suivants sont activés : Arrêter, Arrêter, Annuler, Terminer, Se désabonner, Non. Supprimez tous les mots-clés par défaut en cliquant sur ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
@@ -221,7 +221,7 @@ Pour Infobip, créez deux webhooks distincts : l’un pour les événements de c
 
    +++ Opt-Out
 
-   * Activez les mots-clés qui désactivent les utilisateurs et suppriment le consentement pour envoyer des messages texte. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est désinscrit de la réception des SMS.
+   * Activez les mots-clés qui désactivent les utilisateurs et suppriment le consentement pour envoyer des messages mobiles. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est désinscrit de la réception des SMS.
 
    * Par défaut, les mots-clés suivants sont activés : Arrêter, Arrêter, Annuler, Terminer, Se désabonner, Non. Supprimez tous les mots-clés par défaut en cliquant sur ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
@@ -329,7 +329,7 @@ Pour les fournisseurs de SMS personnalisés, créez deux webhooks distincts : l�
 
    +++ Opt-Out
 
-   * Activez les mots-clés qui désactivent les utilisateurs et suppriment le consentement pour envoyer des messages texte. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est désinscrit de la réception des SMS.
+   * Activez les mots-clés qui désactivent les utilisateurs et suppriment le consentement pour envoyer des messages mobiles. Lorsque le message d’un utilisateur correspond à un mot-clé configuré, son numéro de téléphone est désinscrit de la réception des SMS.
 
    * Par défaut, les mots-clés suivants sont activés : Arrêter, Arrêter, Annuler, Terminer, Se désabonner, Non. Supprimez tous les mots-clés par défaut en cliquant sur ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
