@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: d8fca628ab6f521f868ce26345126cc4245588a5
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 7%
+source-wordcount: 578
+ht-degree: 9%
 
 ---
 
@@ -119,23 +119,7 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 </table>
 -->
 
-<table>
-<thead>
-<tr>
-<th><strong>Assistant AI pour les expressions de Parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’assistant AI fonctionne désormais dans l’éditeur d’expression avancé de parcours pour convertir les invites en langage naturel en expressions valides et en logique conditionnelle. Décrivez l’expression que vous souhaitez créer et l’assistant AI génère un code prêt à l’emploi que vous pouvez appliquer immédiatement ou affiner à l’aide d’invites de relance.</p>
-<p>Cette fonctionnalité est disponible pour tous les clients sous la forme d’un Beta public.</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Date de disponibilité : 19 mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 
 
@@ -154,13 +138,6 @@ Les améliorations suivantes sont ciblées pour cette version.
   Availability date: May 19, 2026
 
 -->
-
-#### Campagnes
-
-* **Alertes client pour les événements de cycle de vie de campagne** - Les nouvelles alertes système vous informent désormais des événements de cycle de vie clés pour les campagnes déclenchées par action et par API. S’abonner au niveau du sandbox.
-
-
-  Date de disponibilité : 19 mai 2026
 
 * **Remplacer le champ d’exécution par défaut dans les campagnes** - Auparavant disponible au niveau du parcours, vous pouvez désormais remplacer le champ d’exécution par défaut défini globalement pour vos diffusions e-mail, SMS et WhatsApp dans les paramètres de la campagne.
 
@@ -205,12 +182,6 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
   Availability date: May 19, 2026
   -->
 
-#### Parcours
-
-* **Prise en charge des identifiants supplémentaires pour les audiences externes** - Les identifiants supplémentaires dans les parcours sont désormais pris en charge pour les audiences externes, y compris les audiences importées d’un fichier CSV et les audiences créées avec la composition d’audience fédérée. Vous pouvez désigner n’importe quel attribut de non-identité ou attribut d’identité non-personne de l’audience comme ID supplémentaire. Aucun étiquetage de schéma n’est nécessaire.
-
-
-  Date de disponibilité : 19 mai 2026
 
 
 #### Création de rapports
