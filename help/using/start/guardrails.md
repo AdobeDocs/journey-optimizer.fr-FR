@@ -9,37 +9,13 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e240d5e8-8393-4b76-8a3d-9e53a2f7306cid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4262
 ht-degree: 98%
@@ -50,7 +26,7 @@ ht-degree: 98%
 
 Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
 
-Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -111,7 +87,7 @@ Si la publication du parcours échoue en raison de la taille du contenu, réduis
 
 ### Mécanismes de sécurisation des SMS {#sms-guardrails}
 
-Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/get-started-sms.md) :
+Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../mobile/get-started-mobile.md) :
 
 * Les fichiers multimédias pour MMS peuvent être inclus via une URL prise en charge. Assurez-vous que le fichier multimédia est chargé séparément.
 * La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
@@ -131,7 +107,7 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/g
 
   Les canaux entrants de Journey Optimizer ciblent les nouveaux profils qui n’ont peut-être jamais été engagés avant sur d’autres canaux. Cela augmente le nombre total de [profils engageables](../audience/license-usage.md), ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
 
-  Les métriques de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
+  Les métriques de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
 
 * Journey Optimizer prend en charge un maximum de 500 actions entrantes actives, quel que soit le moment. Ces actions entrantes sont comptabilisées si elles font partie d’une campagne active ou si elles sont un nœud utilisé dans un parcours actif. Une fois ce nombre atteint, vous devez désactiver les anciennes campagnes ou les anciens parcours qui utilisent des actions entrantes avant de pouvoir en lancer de nouvelles.
 
@@ -139,7 +115,7 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/g
 
 Les canaux entrants [!DNL Journey Optimizer] peuvent cibler des profils pseudonymes, c’est-à-dire des profils qui ne sont pas authentifiés ou qui ne sont pas encore connus, car ils n’ont encore jamais été engagés sur d’autres canaux. C’est notamment le cas lors du ciblage de tous les visiteurs ou audiences en fonction d’ID temporaires tels que les ECID.
 
-Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
+Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
 
 Pour que le nombre de profils engageables reste raisonnable, Adobe recommande de définir une durée de vie (TTL) pour supprimer automatiquement les profils pseudonymes du profil client en temps réel s’ils n’ont pas été vus ou engagés dans une période spécifique.
 
@@ -251,7 +227,7 @@ Si la requête dépasse la taille maximale autorisée, la réponse inclut **Enti
 * Envisagez de diviser le parcours en parcours plus petits si nécessaire.
 * Si vous pensez que votre organisation a besoin d’une limite supérieure, contactez votre représentant ou représentante Adobe.
 
-Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours &#x200B;](../building-journeys/journey-properties.md#journey-payload-size)
+Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours ](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Restrictions du package Select pour les parcours unitaires {#select-package-limitations}
 
@@ -277,7 +253,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 

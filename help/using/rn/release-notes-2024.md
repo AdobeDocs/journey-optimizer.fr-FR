@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '6916'
 ht-degree: 99%
@@ -277,7 +277,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal SMS**
 
-* Vous pouvez désormais modifier ou supprimer une configuration de canal de l’API SMS. [En savoir plus](../sms/sms-configuration.md)
+* Vous pouvez désormais modifier ou supprimer une configuration de canal de l’API SMS. [En savoir plus](../mobile/mobile-configuration.md)
 
 * Les améliorations suivantes ont été ajoutées pour améliorer vos fonctionnalités de messagerie SMS avec Infobip et Sinch :
 
@@ -285,7 +285,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
    * Vous pouvez créer et diffuser un SMS par défaut lorsqu’un mot-clé n&#39;est pas reconnu.
 
-  Pour en savoir plus sur ces améliorations, consultez la documentation de la configuration des SMS pour [Infobip](../sms/sms-configuration-infobip.md) et [Sinch](../sms/sms-configuration-sinch.md).
+  Pour en savoir plus sur ces améliorations, consultez la documentation de la configuration des SMS pour [Infobip](../mobile/mobile-configuration-infobip.md) et [Sinch](../mobile/mobile-configuration-sinch.md).
 
 
 <!--**Journeys**-->
@@ -674,7 +674,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>Vous pouvez désormais configurer d’autres fournisseurs de SMS dans Journey Optimizer, en plus des fournisseurs par défaut Sinch, Infobip et Twilio.</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../sms/sms-configuration-custom.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../mobile/mobile-configuration-custom.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -864,7 +864,7 @@ En savoir plus dans la documentation sur les [fragments de contenu](../content-m
 
 #### Canal SMS
 
-* Vous pouvez désormais ajouter des codes courts uniques pour chaque sandbox avec une seule configuration d’API, ce qui rend le processus plus efficace et plus simple. [En savoir plus](../sms/sms-configuration.md)
+* Vous pouvez désormais ajouter des codes courts uniques pour chaque sandbox avec une seule configuration d’API, ce qui rend le processus plus efficace et plus simple. [En savoir plus](../mobile/mobile-configuration.md)
 
 * Après la création, le champ **Jeton API** sur le page **Détails des informations d’identification de l’API** est désormais masqué.
 
@@ -1272,7 +1272,7 @@ Auparavant disponibles en version Beta, les améliorations suivantes sont désor
 
 **Canal SMS**
 
-* **Mots-clés opt-in/opt-out** : lors de la configuration de votre canal SMS, vous pouvez désormais personnaliser les **mots-clés opt-in et opt-out** selon vos préférences. Journey Optimizer déclenche la réponse en fonction de ces mots-clés spécifiés. [En savoir plus](../sms/sms-configuration.md)
+* **Mots-clés opt-in/opt-out** : lors de la configuration de votre canal SMS, vous pouvez désormais personnaliser les **mots-clés opt-in et opt-out** selon vos préférences. Journey Optimizer déclenche la réponse en fonction de ces mots-clés spécifiés. [En savoir plus](../mobile/mobile-configuration.md)
 
 **Campagnes**
 
@@ -1340,7 +1340,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal SMS**
 
-* **Double opt-in** – Le workflow Double opt-in pour les SMS garantit que les utilisateurs et les utilisatrices s’engagent explicitement à recevoir des messages lorsque la demande est envoyée à partir de leur appareil. Les utilisateurs et utilisatrices démarrent le processus de consentement en envoyant un SMS entrant. Une fois qu’ils ont confirmé leur consentement, un message de réponse est envoyé, demandant une vérification finale. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. [En savoir plus](../sms/sms-configuration.md)
+* **Double opt-in** – Le workflow Double opt-in pour les SMS garantit que les utilisateurs et les utilisatrices s’engagent explicitement à recevoir des messages lorsque la demande est envoyée à partir de leur appareil. Les utilisateurs et utilisatrices démarrent le processus de consentement en envoyant un SMS entrant. Une fois qu’ils ont confirmé leur consentement, un message de réponse est envoyé, demandant une vérification finale. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. [En savoir plus](../mobile/mobile-configuration.md)
 
   Notez que cette fonctionnalité est disponible avec les fournisseurs SMS Sinch et Infobip.
 

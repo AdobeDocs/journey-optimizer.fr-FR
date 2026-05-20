@@ -10,30 +10,13 @@ level: Intermediate
 keywords: expression, éditeur, handlebars, itération, tableaux, contexte, personnalisation
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 98%
@@ -46,7 +29,7 @@ Découvrez comment utiliser la syntaxe d’itération Handlebars pour afficher d
 
 ## Vue d’ensemble {#overview}
 
-Journey Optimizer permet d’accéder aux données contextuelles provenant de plusieurs sources lors de la [personnalisation des messages](personalize.md). Vous pouvez effectuer une itération sur des tableaux à partir de ces sources à l’aide de la syntaxe Handlebars dans les canaux natifs ([e-mail](../email/get-started-email-design.md), [notification push](../push/create-push.md), [SMS](../sms/create-sms.md)) pour afficher du contenu dynamique tel que des listes de produits, des recommandations ou d’autres éléments répétés.
+Journey Optimizer permet d’accéder aux données contextuelles provenant de plusieurs sources lors de la [personnalisation des messages](personalize.md). Vous pouvez effectuer une itération sur des tableaux à partir de ces sources à l’aide de la syntaxe Handlebars dans les canaux natifs ([e-mail](../email/get-started-email-design.md), [notification push](../push/create-push.md), [SMS](../mobile/create-mobile-message.md)) pour afficher du contenu dynamique tel que des listes de produits, des recommandations ou d’autres éléments répétés.
 
 **Sources de contexte disponibles :**
 
@@ -101,7 +84,7 @@ context.journey.events.<event_ID>.<fieldPath>
 >context.journey.events.`1697323153`.fieldName
 >```
 >
->Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [&#x200B; Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
+>Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [ Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
 
 ### Exemple : articles dans le panier à partir d’un événement
 
@@ -1066,10 +1049,10 @@ Utilisez le [mode test de parcours](../building-journeys/testing-the-journey.md)
 
 **Principes de base de la personnalisation :** [Commencer avec la personnalisation](personalize.md) | [Ajouter une personnalisation](personalization-build-expressions.md) | [Syntaxe de personnalisation](personalization-syntax.md) | [Fonctions de l’assistant](functions/helpers.md) | [Créer des règles conditionnelles](create-conditions.md)
 
-**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours &#x200B;](../building-journeys/testing-the-journey.md)
+**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours ](../building-journeys/testing-the-journey.md)
 
 **Fonctions d’expression de parcours :** [Éditeur d’expression avancé](../building-journeys/expression/expressionadvanced.md) | [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md) (first, all, last) | [Fonctions de liste](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Fonctions de tableau](../personalization/functions/arrays-list.md) (head, tail)
 
 **Cas d’utilisation de la personnalisation :** [E-mail d’abandon de panier](personalization-use-case-helper-functions.md) | [Notification de statut de la commande](personalization-use-case.md)
 
-**Conception de message :** [Commencer avec la conception d’e-mails](../email/get-started-email-design.md) | [Créer des notifications push](../push/create-push.md) | [Créer des SMS](../sms/create-sms.md) | [Prévisualiser et tester votre contenu](../content-management/preview-test.md)
+**Conception de message :** [Commencer avec la conception d’e-mails](../email/get-started-email-design.md) | [Créer des notifications push](../push/create-push.md) | [Créer des SMS](../mobile/create-mobile-message.md) | [Prévisualiser et tester votre contenu](../content-management/preview-test.md)

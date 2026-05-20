@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: expérimentation, expérience, parcours, chemin, optimisation, test A/B, bandit manchot, mettre le gagnant à l’échelle
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 78%
@@ -83,7 +83,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
    * Effectuez un glisser-déposer d’une activité [Attente](wait-activity.md) de deux jours sur la première branche, suivie d’une activité [E-mail](../email/create-email.md) (**Traitement B**).
 
-   * Effectuez un glisser-déposer d’une activité [E-mail](../email/create-email.md) sur la troisième branche, suivie d’une activité [SMS](../sms/create-sms.md) (**Traitement C**).
+   * Effectuez un glisser-déposer d’une activité [E-mail](../email/create-email.md) sur la troisième branche, suivie d’une activité [SMS](../mobile/create-mobile-message.md) (**Traitement C**).
 
    ![Exemple d’expérience de chemin avec trois chemins de traitement](assets/journey-optimize-experiment-ex.png){width=100%}
 

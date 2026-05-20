@@ -9,39 +9,13 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: da923278-9c80-47b0-bebd-b68c341e76fb
-  - id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90c
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: da923278-9c80-47b0-bebd-b68c341e76fbid: e5fe9ec6-65e8-420b-8dfd-f088fffaf90cid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 2177
 ht-degree: 70%
@@ -139,7 +113,7 @@ L’[agent d&#39;analyse de parcours](https://experienceleague.adobe.com/fr/docs
 
 #### Parcours créer une compétence {#journey-create-skill}
 
-L’agent de création de Parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
+L’agent de création de Parcours [](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} vous aide à créer des parcours à partir d’invites de langage naturel, en traduisant vos objectifs en configurations de parcours structurées :
 
 +++**Fonctions principales**
 
@@ -200,7 +174,7 @@ L’[agent Experimentation](https://experienceleague.adobe.com/fr/docs/experienc
 
 ## Génération de contenu optimisée par l’IA {#content-generation}
 
-Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieurs canaux, et ainsi accélérer votre processus de création de contenu tout en préservant la cohérence de la marque. L’assistant IA pour la génération de contenu est disponible pour les expériences [e-mail](../email/get-started-email.md), [notifications push](../push/get-started-push.md), [SMS](../sms/get-started-sms.md) et [web](../web/get-started-web.md). Il vous permet de générer des objets, le corps des messages, des images et des variantes complètes des messages.
+Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieurs canaux, et ainsi accélérer votre processus de création de contenu tout en préservant la cohérence de la marque. L’assistant IA pour la génération de contenu est disponible pour les expériences [e-mail](../email/get-started-email.md), [notifications push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) et [web](../web/get-started-web.md). Il vous permet de générer des objets, le corps des messages, des images et des variantes complètes des messages.
 
 ### Fonctionnalités clés
 
@@ -208,7 +182,7 @@ Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieu
 * **Génération de texte** : créez des contenus attrayants en accord avec le ton et les objectifs de votre marque. [Génération de texte avec l’IA](../content-management/generative-text.md)
 * **Génération d’images** : générez des images personnalisées à l’aide d’Adobe Firefly. [Génération d’images avec l’IA](../content-management/generative-image.md)
 * **Variantes de contenu** : produisez plusieurs variantes pour les tests A/B. [Expérience de contenu avec l’IA](../content-management/generative-experimentation.md)
-* **&#x200B;**&#x200B;- Générez de nouvelles expressions, expliquez le code existant ou corrigez les problèmes avec l’assistant AI à partir de l’éditeur Personalization ou de la barre d’outils Designer d’e-mail (**Ajouter une expression**). [Assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
+* **** - Générez de nouvelles expressions, expliquez le code existant ou corrigez les problèmes avec l’assistant AI à partir de l’éditeur Personalization ou de la barre d’outils Designer d’e-mail (**Ajouter une expression**). [Assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
 * **Alignement sur la marque** : assurez-vous que le contenu généré correspond aux consignes de votre marque. [Évaluation de l’alignement sur la marque](../content-management/brands-score.md)
 * **Prise en charge des modèles** : utilisez vos modèles d’e-mail existants. [Utiliser des modèles de contenu](../content-management/content-templates.md)
 
@@ -325,7 +299,7 @@ Parcourez les playbooks Journey Optimizer pour obtenir des scénarios courants t
 
 +++
 
-[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=fr){target="_blank"}
+[Afficher tous les playbooks disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"} | [En savoir plus dans la documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Fonctionnalités d’IA supplémentaires {#additional-capabilities}
 
@@ -386,7 +360,7 @@ La plupart des fonctionnalités d’IA sont incluses dans Adobe Journey Optimize
 >[!MORELIKETHIS]
 >
 >* [Qu’est-ce que Journey Optimizer ?](get-started.md) : présentation des principales fonctionnalités, des cas d&#39;utilisation et de l&#39;architecture.
->* [Comprendre son fonctionnement &#x200B;](understanding-ajo.md) — Comment Journey Optimizer et Experience Platform fonctionnent ensemble.
+>* [Comprendre son fonctionnement ](understanding-ajo.md) — Comment Journey Optimizer et Experience Platform fonctionnent ensemble.
 >* [Génération de contenu AI](../content-management/gs-generative.md) — Générez des e-mails, des notifications push, des SMS et du contenu web avec l’assistant AI.
 >* [Optimisation de l’heure d’envoi](../building-journeys/send-time-optimization.md) — Prévoyez et optimisez le délai de diffusion des messages par individu.
 >* [Modèles d’IA pour la prise de décision](../experience-decisioning/ranking/ai-models.md) — Classez et personnalisez automatiquement les offres à l’aide de modèles de classement par l’IA.

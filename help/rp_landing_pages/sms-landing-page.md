@@ -5,10 +5,10 @@ title: Canal SMS/MMS/RCS
 description: Canal SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 79%
+source-wordcount: '282'
+ht-degree: 80%
 
 ---
 
@@ -20,63 +20,63 @@ Le canal SMS/MMS/RCS d’Adobe Journey Optimizer vous permet d’interagir dir
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main des SMS
 
 Découvrez comment configurer, créer et gérer des messages SMS, MMS et RCS dans Adobe Journey Optimizer.
 
-[Démarrer maintenant](../using/sms/get-started-sms.md)
+[Démarrer maintenant](../using/mobile/get-started-mobile.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Création de messages SMS, MMS et RCS
 
 Guide détaillé pour la conception, la configuration et l’envoi de SMS personnalisés dans le cadre de parcours ou de campagnes.
 
-[En savoir plus](../using/sms/create-sms.md)
+[En savoir plus](../using/mobile/create-mobile-message.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vérifier et envoyer vos SMS
 
 Prévisualisez, validez et envoyez des messages tout en assurant une diffusion réussie et en respectant les bonnes pratiques.
 
-[Obtenir des détails](../using/sms/send-sms.md)
+[Obtenir des détails](../using/mobile/send-mobile-message.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gérer les opt-out pour les SMS
 
 Assurez la conformité aux normes du secteur en gérant les processus d’opt-out pour les communications SMS, MMS et RCS.
 
-[Lire le guide](../using/sms/sms-opt-out.md)
+[Lire le guide](../using/mobile/mobile-opt-out.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer des sous-domaines SMS
 
 Configurez les sous-domaines SMS pour la diffusion des messages, y compris la configuration, la délégation et la gestion.
 
-[Configurer maintenant](../using/sms/sms-subdomains.md)
+[Configurer maintenant](../using/mobile/mobile-subdomains.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurer les canaux SMS/MMS/RCS
 
 Conseils complets sur la configuration des canaux de messagerie avec les fournisseurs pris en charge, les configurations et les options personnalisées.
 
-[Explorer les configurations](../using/sms/sms-configuration.md)
+[Explorer les configurations](../using/mobile/mobile-configuration.md)
 :::
 
 ::::

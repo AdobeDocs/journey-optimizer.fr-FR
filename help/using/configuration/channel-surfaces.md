@@ -10,27 +10,12 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 TQID: https://experienceleague.adobe.com/tdx7MWEI1dzl2d8XsgStZmt2ccngiRJapEF-yxfv5vw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
 ht-degree: 94%
@@ -55,7 +40,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des configurations de cana
 >
 > * Pour créer, modifier et supprimer des configurations de canal, vous devez disposer de l’autorisation [Gérer les paramètres prédéfinis de message](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Vous devez effectuer les étapes [Configuration du canal e-mail](../email/get-started-email-config.md), [Configuration des notifications push](../push/push-configuration.md), [Configuration des SMS](../sms/sms-configuration.md), [Configuration in-app](../in-app/inapp-configuration.md), [Configuration basée sur le code](../code-based/code-based-configuration.md), [Configuration web](../web/web-configuration.md) et [Configuration du courrier](../direct-mail/direct-mail-configuration.md) avant de créer des configurations de canal.
+> * Vous devez effectuer les étapes [Configuration du canal e-mail](../email/get-started-email-config.md), [Configuration des notifications push](../push/push-configuration.md), [Configuration des SMS](../mobile/mobile-configuration.md), [Configuration in-app](../in-app/inapp-configuration.md), [Configuration basée sur le code](../code-based/code-based-configuration.md), [Configuration web](../web/web-configuration.md) et [Configuration du courrier](../direct-mail/direct-mail-configuration.md) avant de créer des configurations de canal.
 
 Une fois les configurations de canal paramétrées, vous pourrez les sélectionner lors de la création de messages à partir d’un parcours ou d’une campagne.
 
@@ -313,4 +298,4 @@ Vous ne pouvez pas modifier directement une configuration de canal désactivée.
 
 Découvrez les configurations de canal et leur utilisation dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480453/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
