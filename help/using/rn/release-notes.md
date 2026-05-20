@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a6f276fe4d372a31b72429d50725cde64ff81c6
+source-git-commit: 8098b219288d19fd3ed1c0350af34366c4efdeb2
 workflow-type: tm+mt
-source-wordcount: 2084
+source-wordcount: 2112
 ht-degree: 30%
 
 ---
@@ -232,6 +232,10 @@ Les améliorations suivantes ont également été publiées en mai 2026.
   Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
   Date de disponibilité : 20 mai 2026
+
+#### Intégrations
+
+* **Accès aux référentiels interorganisations dans le sélecteur Assets** - Vous pouvez désormais sélectionner facilement des ressources à partir de référentiels dans plusieurs organisations directement dans le sélecteur de ressources Adobe Experience Manager.
 
 #### SMS
 
