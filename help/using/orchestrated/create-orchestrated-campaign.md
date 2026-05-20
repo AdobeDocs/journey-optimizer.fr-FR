@@ -6,9 +6,13 @@ description: Découvrez comment créer et planifier une campagne orchestrée ave
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
 source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
 source-wordcount: 1227
