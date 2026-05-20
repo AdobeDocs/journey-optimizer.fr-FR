@@ -7,7 +7,7 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 30%
