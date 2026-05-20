@@ -39,10 +39,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
 workflow-type: tm+mt
-source-wordcount: 4226
-ht-degree: 99%
+source-wordcount: 4262
+ht-degree: 98%
 
 ---
 
@@ -212,7 +212,10 @@ Cette section présente les mécanismes de sécurisation et les limitations des 
 
 ### Mécanismes de sécurisation généraux des parcours {#journeys-guardrails-journeys}
 
-* Le nombre d’activités d’un parcours est désormais limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Cela permet de faciliter la lisibilité, l’assurance qualité et la résolution des problèmes.
+* Le nombre d’activités d’un parcours est désormais limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours.
+
+  Lorsque les parcours se rapprochent de cette limite, les performances de modification et de publication peuvent se dégrader et des échecs d’enregistrement ou de validation peuvent se produire. Si cela se produit, divisez votre parcours en sous-parcours plus petits à l’aide d’[activités de saut](../building-journeys/jump.md) ou recréez-le dans une nouvelle version. La limite d’activité ne peut pas être augmentée.
+
 * Par défaut, le nombre de parcours actifs, en pause ou testés à blanc à la fois est limité à 100.  Le nombre actuel de parcours s’affiche au-dessus de la zone de travail du parcours.
 * Lorsque vous publiez des parcours, nous les mettons automatiquement à l’échelle et les ajustons pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 100 parcours actifs à la fois, une notification s’affiche dans l’interface utilisateur pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle et nous vous aiderons à atteindre vos objectifs.
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
