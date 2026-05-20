@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 1534
-ht-degree: 33%
+source-wordcount: 1722
+ht-degree: 30%
 
 ---
 
@@ -65,7 +65,7 @@ Lorsqu’un fragment de contenu est publié dans Adobe Experience Manager, un é
 >
 >Pour les clients du secteur de la santé, l’intégration n’est activée que sous licence pour les offres complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Extended Security for Healthcare.
 
-## Créer et affecter une balise dans Experience Manager
+## Créer et affecter une balise dans Experience Manager {#create-tag}
 
 >[!IMPORTANT]
 >
@@ -187,7 +187,32 @@ Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez [e
 
 Adobe Experience Manager permet d’identifier les campagnes ou parcours Journey Optimizer qui utilisent un fragment de contenu. En savoir plus dans la documentation d’[Adobe Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}.
 
-## Utilisation des variations de fragments de contenu {#aem-variations}
+## Utilisation de fragments de contenu AEM avec Experience Decisioning {#aem-decisioning}
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est disponible en disponibilité limitée pour les canaux sortants avec prise en charge de la prise de décision. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
+
+Les fragments de contenu AEM peuvent également être utilisés comme attributs d’élément d’offre dans **Experience Decisioning**. En mappant les champs de fragment de contenu aux attributs d’élément de décision, vous pouvez utiliser des modèles, des formules et des critères de classement de prise de décision Journey Optimizer pour optimiser le fragment diffusé à chaque profil.
+
+### Conditions préalables et mécanismes de sécurisation
+
+* Les fragments de contenu doivent être balisés dans Adobe Experience Manager avec la balise `ajo-enabled:{OrgId}/{SandboxName}` avant d’apparaître dans le sélecteur de prise de décision. [Découvrez comment créer et affecter une balise](#create-tag)
+* Seuls les fragments de contenu dont l’état est **publié** sont disponibles.
+* Vous pouvez ajouter jusqu’à **cinq** fragments de contenu AEM à un seul élément de décision.
+
+### Utilisation des fragments de contenu AEM dans la prise de décision
+
+Une fois le fragment de contenu AEM créé et publié, vous devez :
+
+1. Liez-le à un élément de décision en le sélectionnant dans les attributs de l’élément de décision.
+1. Tirez-en parti dans une politique de décision pour faire apparaître le bon contenu au bon client.
+
+➡️ [lier un fragment de contenu AEM à un élément de décision](../experience-decisioning/items.md#aem-fragments)
+
+➡️ [Utilisation de fragments de contenu AEM dans une politique de décision](../experience-decisioning/fragments-decision-policies.md#aem-fragments-decisioning)
+
+## Utilisation de variations de fragments de contenu {#aem-variations}
 
 Dans Adobe Experience Manager, chaque fragment de contenu est constitué des éléments suivants :
 
