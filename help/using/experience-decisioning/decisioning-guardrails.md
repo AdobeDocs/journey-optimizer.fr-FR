@@ -7,19 +7,14 @@ level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/oTljriepwffzR-LIAc2kWjTQx9Oj0QMgJpbghkSEsmY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 83%
+source-wordcount: 275
+ht-degree: 80%
 
 ---
 
@@ -44,6 +39,7 @@ La liste complète des mécanismes de sécurisation et limitations de [!DNL Jour
 | Total des éléments de décision | 10 000 |
 | Taille maximale des éléments, y compris les attributs (1 Ko), 30 attributs max. | 1 Ko |
 | Règles de fréquence - Nombre maximal de règles de limitation par élément de décision | 10 |
+| Nombre maximal de fragments de contenu AEM par élément de décision | 5 |
 
 ## Collections d’éléments {#item-collections}
 
