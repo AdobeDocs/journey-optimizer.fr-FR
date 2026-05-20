@@ -8,31 +8,15 @@ level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a6f276fe4d372a31b72429d50725cde64ff81c6
 workflow-type: tm+mt
-source-wordcount: 2076
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -57,6 +41,23 @@ ht-degree: 30%
 ### Nouvelles fonctionnalités {#may-26-features}
 
 Les fonctionnalités suivantes ont été publiées en mai 2026.
+
+<table>
+<thead>
+<tr>
+<th><strong>Nouveau canal de message mobile et messagerie RCS améliorée</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les SMS, MMS et RCS sont désormais regroupés dans une seule action <strong>Message mobile</strong> dans Adobe Journey Optimizer, ce qui facilite la gestion de tous les types de messages mobiles à partir d’un seul emplacement. Dans le cadre de cette mise à jour, vous pouvez désormais créer des messages RCS de médias riches, y compris des images, des carrousels et des actions suggérées, directement dans Journey Optimizer grâce à une nouvelle expérience de création native.</p>
+<p>Pour plus d’informations, consultez la <a href="../mobile/get-started-mobile.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 20 mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -261,22 +262,6 @@ Les améliorations suivantes ont également été publiées en mai 2026.
 Les fonctionnalités et améliorations suivantes devraient être publiées fin mai. **Les informations peuvent faire l’objet de modifications**. Les liens, les écrans et la documentation mis à jour seront partagés une fois que ces mises à jour seront en production.
 
 ### Nouvelles fonctionnalités {#coming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Nouveau canal de message mobile et messagerie RCS améliorée</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les SMS, MMS et RCS sont désormais regroupés dans une seule action <strong>Message mobile</strong> dans Adobe Journey Optimizer, ce qui facilite la gestion de tous les types de messages mobiles à partir d’un seul emplacement. Dans le cadre de cette mise à jour, vous pouvez désormais créer des messages RCS de médias riches, y compris des images, des carrousels et des actions suggérées, directement dans Journey Optimizer grâce à une nouvelle expérience de création native.</p>
-<p>Date de disponibilité : 20 mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
