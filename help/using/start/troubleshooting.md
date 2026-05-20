@@ -8,12 +8,33 @@ role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
 TQID: https://experienceleague.adobe.com/-E1vLZQv8dDZqejyh944at7jHheePuzXybU4lCyMris
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4714
@@ -159,7 +180,7 @@ En savoir plus sur la gestion des désinscriptions aux SMS [sur cette page](../m
 
 Les difficultés liées à la création de rapports sur le **canal in-app** dans Adobe Customer Journey Analytics proviennent souvent d’une erreur de configuration des **vues de données**, des **jeux de données** ou des **mises à jour de schéma**. Vérifiez que ces configurations sont correctement appliquées pour résoudre le problème.
 
-Consultez également la documentation sur les rapports à tout moment de [](../reports/report-gs-cja.md).
+Consultez également la documentation sur les rapports à tout moment de [&#128279;](../reports/report-gs-cja.md).
 
 +++
 
@@ -184,7 +205,7 @@ Découvrez comment créer et configurer un message in-app [sur cette page](../in
 
 +++ Pourquoi les cartes de contenu ne s’affichent-elles pas dans l’application ?
 
-Les cartes de contenu nécessitent que le SDK mobile Adobe Experience Platform et le **SDK de messagerie** soient installés, enregistrés et configurés dans l’application. Contrairement aux messages push ou in-app, les cartes de contenu ne s’affichent pas automatiquement : votre application doit appeler explicitement les API Messaging SDK pour récupérer les cartes disponibles, puis les afficher dans votre interface utilisateur. Si les cartes n’apparaissent pas, utilisez **** pour vérifier que les demandes de décision sont envoyées lorsque l’événement cible se déclenche et que les réponses reviennent d’Edge Network.
+Les cartes de contenu nécessitent que le SDK mobile Adobe Experience Platform et le **SDK de messagerie** soient installés, enregistrés et configurés dans l’application. Contrairement aux messages push ou in-app, les cartes de contenu ne s’affichent pas automatiquement : votre application doit appeler explicitement les API Messaging SDK pour récupérer les cartes disponibles, puis les afficher dans votre interface utilisateur. Si les cartes n’apparaissent pas, utilisez **&#x200B;**&#x200B;pour vérifier que les demandes de décision sont envoyées lorsque l’événement cible se déclenche et que les réponses reviennent d’Edge Network.
 
 Découvrez comment configurer la prise en charge des cartes de contenu dans Mobile SDK [sur cette page](../content-card/content-card-configuration-sdk.md).
 
@@ -200,7 +221,7 @@ En savoir plus sur le canal des cartes de contenu [sur cette page](../content-ca
 
 +++ Pourquoi les impressions de carte de contenu n’apparaissent-elles pas dans les rapports de campagne ?
 
-Les impressions et interactions de cartes de contenu (clics, suppressions) ne sont pas automatiquement suivies. Votre application doit explicitement renvoyer les événements de suivi à Adobe via le SDK de messagerie après le rendu d’une carte et après toute interaction de l’utilisateur avec celle-ci. Si ces appels de suivi sont absents de l’implémentation de , les rapports n’affichent aucune impression, même si les cartes sont correctement diffusées. Vérifiez que les appels de suivi se déclenchent dans **** avant d’examiner la configuration de la campagne.
+Les impressions et interactions de cartes de contenu (clics, suppressions) ne sont pas automatiquement suivies. Votre application doit explicitement renvoyer les événements de suivi à Adobe via le SDK de messagerie après le rendu d’une carte et après toute interaction de l’utilisateur avec celle-ci. Si ces appels de suivi sont absents de l’implémentation de , les rapports n’affichent aucune impression, même si les cartes sont correctement diffusées. Vérifiez que les appels de suivi se déclenchent dans **&#x200B;**&#x200B;avant d’examiner la configuration de la campagne.
 
 Découvrez comment accéder aux rapports de carte de contenu [sur cette page](../content-card/content-card-report.md).
 
