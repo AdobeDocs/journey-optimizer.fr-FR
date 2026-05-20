@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 64bd2abc41469c6624debaea96555e2aecdb82c3
 workflow-type: tm+mt
-source-wordcount: '3326'
-ht-degree: 97%
+source-wordcount: '3318'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
@@ -301,7 +301,7 @@ ht-degree: 97%
             + [Ajouter des métadonnées](using/email/email-metadata.md)
             + [Modifier avec l’éditeur HTML avancé](using/email/email-expert-mode.md)
          + Modifier le style {#edit-style}
-            + {hide-from-toc}[Modifier le style &#x200B;](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[Modifier le style ](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
             + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
@@ -340,22 +340,22 @@ ht-degree: 97%
          + [Configurer le canal de notification push web](using/push/push-configuration-web.md)
          + [Workflow de démarrage rapide de l’intégration mobile](using/push/mobile-onboarding-wf.md)
    + Canal SMS/MMS/RCS {#sms}
-      + [Canal SMS/MMS/RCS](/help/rp_landing_pages/sms-landing-page.md)
-      + [Commencer avec les SMS](using/sms/get-started-sms.md)
-      + [Créer un message SMS/MMS/RCS](using/sms/create-sms.md)
-      + [Vérifier et envoyer vos messages texte](using/sms/send-sms.md)
-      + [Gérer les opt-out pour les messages texte](using/sms/sms-opt-out.md)
-      + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
-      + [Bonnes pratiques pour l’optimisation des coûts des SMS](using/sms/sms-cost-optimization.md)
-      + Configurer le canal SMS/MMS/RCS {#configure-sms}
-         + [Commencer avec la configuration des SMS/MMS/RCS](using/sms/sms-configuration.md)
-         + [Configurer le fournisseur Sinch](using/sms/sms-configuration-sinch.md)
-         + [Configurer le fournisseur Infobip](using/sms/sms-configuration-infobip.md)
-         + [Configurer le fournisseur Twilio](using/sms/sms-configuration-twilio.md)
-         + [Configurer un fournisseur personnalisé](using/sms/sms-configuration-custom.md)
-         + [Créer un webhook](using/sms/sms-webhook.md)
-         + [Créer une configuration de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
-         + [Utiliser un jeu de données personnalisé pour les mots-clés entrants](using/sms/custom-dataset-inbound-keywords.md)
+      + [Prise en main de la messagerie mobile](using/mobile/get-started-mobile.md)
+      + [Créer un message mobile](using/mobile/create-mobile-message.md)
+      + [Concevoir un message mobile](using/mobile/design-mobile.md)
+      + [Vérifier et envoyer vos messages mobiles](using/mobile/send-mobile-message.md)
+      + [Gérer le processus d&#39;opt-out des messages mobiles](using/mobile/mobile-opt-out.md)
+      + [Configurer des sous-domaines SMS](using/mobile/mobile-subdomains.md)
+      + [Bonnes pratiques pour l’optimisation des coûts des SMS](using/mobile/mobile-cost-optimization.md)
+      + Configurer le canal mobile {#configure-sms}
+         + [Prise en main de la configuration mobile](using/mobile/mobile-configuration.md)
+         + [Configurer le fournisseur Sinch](using/mobile/mobile-configuration-sinch.md)
+         + [Configurer le fournisseur Infobip](using/mobile/mobile-configuration-infobip.md)
+         + [Configurer le fournisseur Twilio](using/mobile/mobile-configuration-twilio.md)
+         + [Configurer un fournisseur personnalisé](using/mobile/mobile-configuration-custom.md)
+         + [Créer un webhook](using/mobile/mobile-webhook.md)
+         + [Création d’une configuration mobile](using/mobile/mobile-configuration-surface.md)
+         + [Utiliser un jeu de données personnalisé pour les mots-clés entrants](using/mobile/custom-dataset-inbound-keywords.md)
    + Courrier {#direct-mail}
       + [Courrier](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Commencer à utiliser le courrier](using/direct-mail/get-started-direct-mail.md)
@@ -900,7 +900,7 @@ ht-degree: 97%
    + [Commencer la configuration des canaux](using/configuration/get-started-configuration.md)
    + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
    + [Exporter le contenu du message](using/configuration/message-export.md)
-   + {hide-from-toc}[Schéma d&#39;export des messages &#x200B;](using/configuration/message-export-schema.md)
+   + {hide-from-toc}[Schéma d&#39;export des messages ](using/configuration/message-export-schema.md)
    + Configuration guidée des canaux {#guided-setup}
       + [Commencer la configuration guidée des canaux](using/configuration/set-mobile-config.md)
       + [Créer une configuration de canal](using/configuration/create-channel-set-up.md)
