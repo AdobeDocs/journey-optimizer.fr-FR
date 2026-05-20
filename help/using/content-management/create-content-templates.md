@@ -24,7 +24,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 100%
@@ -83,7 +83,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
    Découvrez comment créer du contenu pour les différents canaux dans les sections suivantes :
    * [Définir le contenu d’un e-mail](../email/get-started-email-design.md)
    * [Définir le contenu d’une notification push](../push/design-push.md)
-   * [Définir le contenu d’un SMS](../sms/create-sms.md#sms-content)
+   * [Définir le contenu d’un SMS](../mobile/create-mobile-message.md#sms-content)
    * [Définir le contenu d’un courrier](../direct-mail/create-direct-mail.md)
    * [Définir le contenu in-app](../in-app/design-in-app.md)
    * [Définir le contenu web](../web/create-web.md#edit-web-content)

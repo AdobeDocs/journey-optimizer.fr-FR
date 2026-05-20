@@ -42,7 +42,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1962
 ht-degree: 97%
@@ -193,9 +193,9 @@ Le suivi des SMS nécessite une configuration minimale : Journey Optimizer racc
 
 **Fonctionnement :**
 
-* **Suivi automatique des liens** : ajoutez une URL à votre contenu SMS à l’aide de la fonction d’assistance d’URL. Journey Optimizer raccourcit automatiquement le lien et effectue le suivi des clics sans configuration supplémentaire. Pour utiliser le raccourcissement des URL, vous devez d’abord configurer un sous-domaine SMS. [En savoir plus](../sms/sms-subdomains.md)
+* **Suivi automatique des liens** : ajoutez une URL à votre contenu SMS à l’aide de la fonction d’assistance d’URL. Journey Optimizer raccourcit automatiquement le lien et effectue le suivi des clics sans configuration supplémentaire. Pour utiliser le raccourcissement des URL, vous devez d’abord configurer un sous-domaine SMS. [En savoir plus](../mobile/mobile-subdomains.md)
 
-* **Suivi des messages entrants** : les réponses des destinataires sont automatiquement capturées, ce qui vous permet de surveiller les conversations bidirectionnelles et les modèles de réponse. [En savoir plus](../sms/sms-opt-out.md#sms-native-keywords)
+* **Suivi des messages entrants** : les réponses des destinataires sont automatiquement capturées, ce qui vous permet de surveiller les conversations bidirectionnelles et les modèles de réponse. [En savoir plus](../mobile/mobile-opt-out.md#sms-native-keywords)
 
 **Afficher les mesures :** accédez aux données de clic sur les liens, aux volumes de messages entrants et aux performances des types de messages dans les rapports. [Rapports de campagne](../reports/campaign-global-report-cja-sms.md) | [Rapports de parcours](../reports/journey-global-report-cja-sms.md)
 

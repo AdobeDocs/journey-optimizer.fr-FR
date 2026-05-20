@@ -41,7 +41,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 2177
 ht-degree: 70%
@@ -200,7 +200,7 @@ L’[agent Experimentation](https://experienceleague.adobe.com/fr/docs/experienc
 
 ## Génération de contenu optimisée par l’IA {#content-generation}
 
-Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieurs canaux, et ainsi accélérer votre processus de création de contenu tout en préservant la cohérence de la marque. L’assistant IA pour la génération de contenu est disponible pour les expériences [e-mail](../email/get-started-email.md), [notifications push](../push/get-started-push.md), [SMS](../sms/get-started-sms.md) et [web](../web/get-started-web.md). Il vous permet de générer des objets, le corps des messages, des images et des variantes complètes des messages.
+Utilisez l’IA générative pour créer et personnaliser du contenu sur plusieurs canaux, et ainsi accélérer votre processus de création de contenu tout en préservant la cohérence de la marque. L’assistant IA pour la génération de contenu est disponible pour les expériences [e-mail](../email/get-started-email.md), [notifications push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) et [web](../web/get-started-web.md). Il vous permet de générer des objets, le corps des messages, des images et des variantes complètes des messages.
 
 ### Fonctionnalités clés
 

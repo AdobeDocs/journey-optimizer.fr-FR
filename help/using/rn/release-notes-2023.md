@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui permet le partage d’images, de GIF ou de vidéos avec vos clientes et clients. Notez que cette fonctionnalité est actuellement disponible avec Sinch uniquement.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../sms/create-sms.md#mms-content">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../mobile/create-mobile-message.md#mms-content">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -216,9 +216,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal SMS**
 
-* Deux nouveaux champs, **Message d’opt-in** et **Message d’aide**, ont été ajoutés à l’écran de configuration de l’API, ce qui permet aux utilisateurs et utilisatrices de personnaliser les réponses pour les mots-clés entrants. Notez que ceci est uniquement disponible pour le fournisseur SMS Sinch. [En savoir plus](../sms/sms-configuration.md)
+* Deux nouveaux champs, **Message d’opt-in** et **Message d’aide**, ont été ajoutés à l’écran de configuration de l’API, ce qui permet aux utilisateurs et utilisatrices de personnaliser les réponses pour les mots-clés entrants. Notez que ceci est uniquement disponible pour le fournisseur SMS Sinch. [En savoir plus](../mobile/mobile-configuration.md)
 
-* La désinscription aux SMS n’est plus gérée au niveau du canal. Il est maintenant spécifique au nombre, ce qui signifie que si certains profils indiquent leur opt-out pour un numéro ou un numéro abrégé donné, vous pouvez toujours leur envoyer des messages à partir d’autres numéros que vous utilisez pour envoyer des SMS. Une nouvelle option vous permet de sélectionner le **numéro d’opt-out** que vous souhaitez utiliser pour une surface donnée. [En savoir plus](../sms/sms-configuration.md)
+* La désinscription aux SMS n’est plus gérée au niveau du canal. Il est maintenant spécifique au nombre, ce qui signifie que si certains profils indiquent leur opt-out pour un numéro ou un numéro abrégé donné, vous pouvez toujours leur envoyer des messages à partir d’autres numéros que vous utilisez pour envoyer des SMS. Une nouvelle option vous permet de sélectionner le **numéro d’opt-out** que vous souhaitez utiliser pour une surface donnée. [En savoir plus](../mobile/mobile-configuration.md)
 
 **Canal courrier**
 
@@ -624,8 +624,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Canal SMS**
 
-* Infobip a été ajouté en tant que fournisseur lors du paramétrage des configurations de vos canaux SMS. [En savoir plus](../sms/sms-configuration.md)
-* Twillio – La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twillio. [En savoir plus](../sms/sms-configuration.md)
+* Infobip a été ajouté en tant que fournisseur lors du paramétrage des configurations de vos canaux SMS. [En savoir plus](../mobile/mobile-configuration.md)
+* Twillio – La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twillio. [En savoir plus](../mobile/mobile-configuration.md)
 
 **Canal in-app**
 
@@ -727,7 +727,7 @@ Information below is subject to change without prior notice until the release av
 * La zone de travail du parcours affiche désormais l’ID d’activité sur les activités de message et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
 * Nouvelles informations sur le nombre de nœuds sur la zone de travail, avec des limitations pour stimuler la croissance : la lecture, l’assurance qualité et le dépannage des parcours sont ainsi plus faciles, avec un nombre maximal de nœuds par parcours établi à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
-* Lors de l’ajout d’une action [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Push](../push/create-push.md) dans un parcours, la surface est désormais préremplie par défaut avec la dernière surface utilisée pour ce canal dans le parcours actuel.
+* Lors de l’ajout d’une action [E-mail](../email/create-email.md), [SMS](../mobile/create-mobile-message.md) ou [Push](../push/create-push.md) dans un parcours, la surface est désormais préremplie par défaut avec la dernière surface utilisée pour ce canal dans le parcours actuel.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration)
 
 **Créer des rapports**
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>Grâce au suivi des clics dans les SMS, vous pouvez surveiller les performances de vos URL raccourcies, identifier les clients et les clientes qui ont cliqué dessus et utiliser ces données pour les recibler dans vos campagnes ultérieures.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../sms/create-sms.md#sms-content">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../mobile/create-mobile-message.md#sms-content">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

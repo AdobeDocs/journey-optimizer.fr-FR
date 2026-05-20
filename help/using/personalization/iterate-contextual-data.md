@@ -33,7 +33,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 98%
@@ -46,7 +46,7 @@ Découvrez comment utiliser la syntaxe d’itération Handlebars pour afficher d
 
 ## Vue d’ensemble {#overview}
 
-Journey Optimizer permet d’accéder aux données contextuelles provenant de plusieurs sources lors de la [personnalisation des messages](personalize.md). Vous pouvez effectuer une itération sur des tableaux à partir de ces sources à l’aide de la syntaxe Handlebars dans les canaux natifs ([e-mail](../email/get-started-email-design.md), [notification push](../push/create-push.md), [SMS](../sms/create-sms.md)) pour afficher du contenu dynamique tel que des listes de produits, des recommandations ou d’autres éléments répétés.
+Journey Optimizer permet d’accéder aux données contextuelles provenant de plusieurs sources lors de la [personnalisation des messages](personalize.md). Vous pouvez effectuer une itération sur des tableaux à partir de ces sources à l’aide de la syntaxe Handlebars dans les canaux natifs ([e-mail](../email/get-started-email-design.md), [notification push](../push/create-push.md), [SMS](../mobile/create-mobile-message.md)) pour afficher du contenu dynamique tel que des listes de produits, des recommandations ou d’autres éléments répétés.
 
 **Sources de contexte disponibles :**
 
@@ -1072,4 +1072,4 @@ Utilisez le [mode test de parcours](../building-journeys/testing-the-journey.md)
 
 **Cas d’utilisation de la personnalisation :** [E-mail d’abandon de panier](personalization-use-case-helper-functions.md) | [Notification de statut de la commande](personalization-use-case.md)
 
-**Conception de message :** [Commencer avec la conception d’e-mails](../email/get-started-email-design.md) | [Créer des notifications push](../push/create-push.md) | [Créer des SMS](../sms/create-sms.md) | [Prévisualiser et tester votre contenu](../content-management/preview-test.md)
+**Conception de message :** [Commencer avec la conception d’e-mails](../email/get-started-email-design.md) | [Créer des notifications push](../push/create-push.md) | [Créer des SMS](../mobile/create-mobile-message.md) | [Prévisualiser et tester votre contenu](../content-management/preview-test.md)

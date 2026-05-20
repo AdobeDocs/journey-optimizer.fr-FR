@@ -52,7 +52,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 5499
 ht-degree: 87%
@@ -661,7 +661,7 @@ Oui. Utilisez une **[activité d’optimisation](conditions.md)** pour acheminer
 2. Créez un chemin pour chaque canal en vérifiant l’attribut de profil de canal préféré (par exemple, `profile.preferredChannel`).
 3. Configurez les chemins spécifiques aux canaux :
    * **Chemin d’e-mail** : ajoutez une [action d’e-mail](../email/create-email.md) avec du contenu optimisé pour les e-mails.
-   * **Chemin SMS** : ajoutez une [action SMS](../sms/create-sms.md) avec un message concis.
+   * **Chemin SMS** : ajoutez une [action SMS](../mobile/create-mobile-message.md) avec un message concis.
    * **Chemin de notification push** : ajoutez une [action de notification push](../push/create-push.md) avec du contenu court et activable.
    * **Chemin in-app** : ajoutez une [action de message in-app](../in-app/create-in-app.md) pour les utilisateurs et utilisatrices engagés de l’application.
 4. Ajoutez un chemin par défaut pour les profils sans préférence, en les acheminant vers votre canal principal.

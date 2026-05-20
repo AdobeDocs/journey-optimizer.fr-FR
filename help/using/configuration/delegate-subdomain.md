@@ -26,7 +26,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1963
 ht-degree: 97%
@@ -273,7 +273,7 @@ Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
 
 1. Annulez la délégation de tous les sous-domaines de page de destination, de SMS et web associés à ce sous-domaine.
 
-   Vous devez envoyer une demande pour chaque sous-domaine de [page de destination](../landing-pages/lp-subdomains.md#undelegate-subdomain), de [SMS](../sms/sms-subdomains.md#undelegate-subdomain) ou [web](../web/web-delegated-subdomains.md#undelegate-subdomain).
+   Vous devez envoyer une demande pour chaque sous-domaine de [page de destination](../landing-pages/lp-subdomains.md#undelegate-subdomain), de [SMS](../mobile/mobile-subdomains.md#undelegate-subdomain) ou [web](../web/web-delegated-subdomains.md#undelegate-subdomain).
 
 1. Arrêtez les campagnes actives associées aux sous-domaines. [Voici comment procéder](../campaigns/manage-campaigns.md#stop)
 

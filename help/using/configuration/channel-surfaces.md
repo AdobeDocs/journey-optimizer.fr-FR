@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
 ht-degree: 94%
@@ -55,7 +55,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des configurations de cana
 >
 > * Pour créer, modifier et supprimer des configurations de canal, vous devez disposer de l’autorisation [Gérer les paramètres prédéfinis de message](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Vous devez effectuer les étapes [Configuration du canal e-mail](../email/get-started-email-config.md), [Configuration des notifications push](../push/push-configuration.md), [Configuration des SMS](../sms/sms-configuration.md), [Configuration in-app](../in-app/inapp-configuration.md), [Configuration basée sur le code](../code-based/code-based-configuration.md), [Configuration web](../web/web-configuration.md) et [Configuration du courrier](../direct-mail/direct-mail-configuration.md) avant de créer des configurations de canal.
+> * Vous devez effectuer les étapes [Configuration du canal e-mail](../email/get-started-email-config.md), [Configuration des notifications push](../push/push-configuration.md), [Configuration des SMS](../mobile/mobile-configuration.md), [Configuration in-app](../in-app/inapp-configuration.md), [Configuration basée sur le code](../code-based/code-based-configuration.md), [Configuration web](../web/web-configuration.md) et [Configuration du courrier](../direct-mail/direct-mail-configuration.md) avant de créer des configurations de canal.
 
 Une fois les configurations de canal paramétrées, vous pourrez les sélectionner lors de la création de messages à partir d’un parcours ou d’une campagne.
 

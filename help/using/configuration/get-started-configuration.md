@@ -33,7 +33,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 471
 ht-degree: 88%
@@ -56,8 +56,8 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="E-mail" src="../channels/assets/do-not-localize/email.png"></a>
     <div align="center"><a href="../email/get-started-email-config.md"><strong>E-mail</strong></a></div></td>
-    <td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
-    <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
+    <td><a href="../mobile/mobile-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+    <div align="center"><a href="../mobile/mobile-configuration.md"><strong>SMS</strong></a></div></td>
     <td><a href="../push/push-configuration.md"><img alt="notification push" src="../channels/assets/do-not-localize/push.png"></a>
     <div align="center"><a href="../push/push-configuration.md"><strong>Notification push</strong></a></div></td>
     <td><a href="../direct-mail/direct-mail-configuration.md"><img alt="Courrier" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
@@ -85,7 +85,7 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
 
 1. En fonction des canaux utilisés, de vos environnements et de vos besoins, vous devrez également effectuer les étapes suivantes :
 
-   * Configurer et déléguer les sous-domaines pour vos canaux, tels que les [e-mails](about-subdomain-delegation.md), les [SMS](../sms/sms-subdomains.md), les [pages de destination](../landing-pages/lp-subdomains.md) et les [expériences web](../web/web-delegated-subdomains.md).
+   * Configurer et déléguer les sous-domaines pour vos canaux, tels que les [e-mails](about-subdomain-delegation.md), les [SMS](../mobile/mobile-subdomains.md), les [pages de destination](../landing-pages/lp-subdomains.md) et les [expériences web](../web/web-delegated-subdomains.md).
 
    * Mettre en place des plans de préchauffage des adresses IP pour garantir une délivrabilité optimale. [En savoir plus](ip-warmup-gs.md)
 

@@ -35,7 +35,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4714
 ht-degree: 48%
@@ -154,7 +154,7 @@ Consultez également la [documentation sur la configuration du canal push](../pu
 
 Si une personne destinataire répond **STOP** à un SMS, tous les futurs messages de ce numéro court sont bloqués, y compris les messages transactionnels. Pour garantir une diffusion ininterrompue des SMS transactionnels, configurez-les et envoyez-les par le biais d’un **numéro court distinct** duquel les destinataires ne se sont pas désinscrits.
 
-Pour en savoir plus sur la configuration de l’opt-out des SMS, consultez [cette page](../sms/sms-opt-out.md).
+Pour en savoir plus sur la configuration de l’opt-out des SMS, consultez [cette page](../mobile/mobile-opt-out.md).
 
 +++
 
@@ -162,7 +162,7 @@ Pour en savoir plus sur la configuration de l’opt-out des SMS, consultez [cett
 
 Les échecs de diffusion SMS après la configuration du canal sont le plus souvent causés par des informations d’identification d’API de fournisseur incorrectes, une incohérence entre l’ID d’expéditeur et ce que le fournisseur a enregistré, ou des restrictions de routage au niveau du fournisseur. Vérifiez que la clé API, le mot de passe et les détails de l’expéditeur saisis dans Journey Optimizer correspondent exactement à ce que votre fournisseur SMS a configuré. Envoyez ensuite un message de test pour confirmer la connectivité avant de lancer une campagne.
 
-Découvrez comment configurer votre fournisseur SMS [sur cette page](../sms/sms-configuration.md).
+Découvrez comment configurer votre fournisseur SMS [sur cette page](../mobile/mobile-configuration.md).
 
 +++
 
@@ -170,7 +170,7 @@ Découvrez comment configurer votre fournisseur SMS [sur cette page](../sms/sms-
 
 Lorsqu’un profil envoie un SMS à STOP, Journey Optimizer met à jour l’attribut de consentement SMS du profil. Pour vérifier le statut de désinscription actuel, ouvrez le profil dans l’interface utilisateur d’Experience Platform et examinez les champs de consentement sous **Confidentialité** > **Consentements**. Pour la résolution des problèmes de campagne, vérifiez également les raisons d’exclusion dans le rapport de campagne - les profils désinscrits apparaissent sous le nombre **Exclus** avec le motif « Désinscrit ».
 
-En savoir plus sur la gestion des désinscriptions aux SMS [sur cette page](../sms/sms-opt-out.md).
+En savoir plus sur la gestion des désinscriptions aux SMS [sur cette page](../mobile/mobile-opt-out.md).
 
 +++
 

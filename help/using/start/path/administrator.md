@@ -34,7 +34,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1076
 ht-degree: 100%
@@ -85,7 +85,7 @@ Procédez comme suit :
 
    * Créez des **configurations de canal** pour configurer tous les paramètres techniques requis pour les canaux e-mail, SMS, de notifications push, in-app, web et autres. [En savoir plus](../../configuration/channel-surfaces.md)
 
-   * Configurez le **canal SMS** pour définir tous les paramètres techniques requis pour les SMS. [En savoir plus](../../sms/sms-configuration.md)
+   * Configurez le **canal SMS** pour définir tous les paramètres techniques requis pour les SMS. [En savoir plus](../../mobile/mobile-configuration.md)
 
    * Gérez le nombre de jours pendant lesquels des **reprises** sont effectuées avant de transmettre des adresses e-mail à la liste de suppression. [En savoir plus](../../configuration/manage-suppression-list.md)
 

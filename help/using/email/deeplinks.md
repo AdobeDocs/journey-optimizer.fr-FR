@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Pour les e-mails , vous disposez de deux options pour insérer un lien profond :
 
 ### SMS {#authoring-sms}
 
-Pour les SMS, les liens profonds sont créés à l’aide de la fonction d’assistance **Url** dans l’éditeur de personnalisation. Pour en savoir plus sur l’ajout de liens à du contenu SMS, consultez [cette section](../sms/create-sms.md#sms-content).
+Pour les SMS, les liens profonds sont créés à l’aide de la fonction d’assistance **Url** dans l’éditeur de personnalisation. Pour en savoir plus sur l’ajout de liens à du contenu SMS, consultez [cette section](../mobile/create-mobile-message.md#sms-content).
 
 Pour insérer des liens profonds dans le contenu d&#39;un SMS, utilisez la syntaxe suivante :
 

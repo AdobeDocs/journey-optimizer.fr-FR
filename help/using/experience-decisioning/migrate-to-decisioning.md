@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1296
 ht-degree: 5%
@@ -91,7 +91,7 @@ Tableau de bord documentant les performances des éléments de décision et des 
 
 * **Application des politiques** : autonomisation des utilisateurs professionnels pour l’utilisation de fonctionnalités telles que [Data Usage Labeling &amp; Enforcement (DULE)](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview){target="_blank"} et [Consentement](../action/consent.md) dans la prise de décision, ce qui permet d’activer la protection de Privacy Shield dans l’ensemble du workflow de prise de décision. Cela garantit que les décisions respectent automatiquement les politiques d’utilisation des données et les préférences de consentement du client.
 
-* **Prise en charge native des canaux de messagerie** : messagerie et prise de décision intégrées dans un seul framework sur plusieurs canaux : [Expérience basée sur le code](../code-based/get-started-code-based.md), [E-mail](../email/get-started-email.md) (disponibilité limitée), [SMS](../sms/get-started-sms.md) et [Notifications push](../push/get-started-push.md). La prise en charge intuitive de l’interface utilisateur permet aux utilisateurs et utilisatrices d’insérer des composants de prise de décision directement dans les workflows de création de messages.
+* **Prise en charge native des canaux de messagerie** : messagerie et prise de décision intégrées dans un seul framework sur plusieurs canaux : [Expérience basée sur le code](../code-based/get-started-code-based.md), [E-mail](../email/get-started-email.md) (disponibilité limitée), [SMS](../mobile/get-started-mobile.md) et [Notifications push](../push/get-started-push.md). La prise en charge intuitive de l’interface utilisateur permet aux utilisateurs et utilisatrices d’insérer des composants de prise de décision directement dans les workflows de création de messages.
 
 * **Recherche de jeu de données** : possibilité de charger et de référencer des [jeux de données Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview){target="_blank"} directement dans les règles de sélection d’offres, le classement et le contenu d’offre personnalisé. Vous bénéficiez ainsi d’une plus grande flexibilité en matière de personnalisation et de ciblage en permettant à la logique de décision d’utiliser des sources de données externes dynamiques. [En savoir plus](../data/lookup-aep-data.md)
 
