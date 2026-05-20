@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Créer un message SMS/MMS
-description: Découvrez comment créer un message MS/MMS dans Journey Optimizer.
+title: Création d’un message SMS/RCS/MMS
+description: Découvrez comment créer un message SMS/RCS/MMS dans Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 30%
+source-wordcount: '1380'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 30%
 
 Vous pouvez concevoir et envoyer des messages texte (SMS), de communication enrichie (RCS) et multimédia (MMS) avec Adobe Journey Optimizer. Vous devez d’abord ajouter une action Message mobile dans un parcours ou une campagne, puis définir le contenu du Message mobile, comme décrit ci-dessous. Adobe Journey Optimizer offre également des fonctionnalités permettant de tester vos messages mobiles avant l’envoi afin que vous puissiez vérifier le rendu, les attributs de personnalisation et tous les autres paramètres.
 
-Conformément aux normes et réglementations du secteur, tous les messages marketing SMS/MMS doivent contenir un moyen permettant aux profils de se désabonner facilement. Pour ce faire, les profils SMS peuvent répondre avec des mots-clés d’opt-in et d’opt-out. [Découvrir comment gérer un droit d’opposition](../privacy/opt-out.md#opt-out-decision-management)
+Conformément aux normes et réglementations du secteur, tous les messages marketing SMS/RCS/MMS doivent contenir un moyen permettant aux profils de se désabonner facilement. Pour ce faire, les profils SMS peuvent répondre avec des mots-clés d’opt-in et d’opt-out. [Découvrir comment gérer un droit d’opposition](../privacy/opt-out.md#opt-out-decision-management)
 
 ## Définition du contenu RCS{#rcs-content}
 
@@ -90,7 +90,7 @@ Pour définir le contenu de votre message RCS, procédez comme suit.
 
 1. Dans le champ **[!UICONTROL Texte du message]** saisissez le contenu de votre message. Vous pouvez utiliser la personnalisation pour personnaliser le texte en fonction de chaque profil. Notez que les limites de caractères varient selon le type de message : 3 072 caractères pour le format Rich Media (single) et 160 caractères pour le format RCS de base.
 
-1. Utilisez l&#39;éditeur **&#x200B;**&#x200B;pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
+1. Utilisez l&#39;éditeur **** pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
 
 1. Si vous le souhaitez, ajoutez des boutons interactifs **[!UICONTROL Actions suggérées]** qui permettent aux profils d’agir en une seule touche.
 

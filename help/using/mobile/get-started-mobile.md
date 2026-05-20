@@ -2,38 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des messages mobiles
-description: Découvrez comment créer et envoyer des messages texte dans Journey Optimizer.
+description: Découvrez comment créer et envoyer des messages mobiles dans Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c13ff12d-60f1-49cd-833a-d43359628223id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 30%
+source-wordcount: 1006
+ht-degree: 24%
 
 ---
 
@@ -51,7 +36,7 @@ Utilisez [!DNL Journey Optimizer] pour envoyer des messages mobiles à vos clien
 
 Les messages mobiles peuvent être créés et envoyés dans un parcours ou dans une campagne à l’aide de l’action Message mobile :
 
-* Dans un Parcours **&#x200B;**&#x200B;: ajoutez une action Message mobile à votre parcours, définissez les paramètres de base, puis composez votre contenu dans le volet Actions de message mobile à droite. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
+* Dans un Parcours **** : ajoutez une action Message mobile à votre parcours, définissez les paramètres de base, puis composez votre contenu dans le volet Actions de message mobile à droite. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
 
 * Dans une **campagne**:Create une campagne, sélectionnez Message mobile comme action, définissez les paramètres de base, puis modifiez le contenu du message. Découvrez comment créer une [campagne d’action](../campaigns/campaign-action.md#action-campaign-action), une [campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
 
@@ -69,7 +54,7 @@ Les messages mobiles peuvent être créés et envoyés dans un parcours ou dans 
 
 ## Exigences de configuration {#configuration-requirements}
 
-Avant d’envoyer des SMS, vous devez :
+Avant d&#39;envoyer des messages mobiles, vous devez :
 
 1. **Choisir un fournisseur SMS** : sélectionnez Sinch, Twilio, Infobip ou configurez un fournisseur personnalisé
 2. **Configurer les informations d’identification d’API** : intégrez les jetons d’API et les identifiants de service de votre fournisseur à Journey Optimizer
@@ -90,7 +75,7 @@ Les conditions préalables suivantes sont requises pour utiliser RCS dans Journe
 
 ## Ressources supplémentaires {#additional-resources}
 
-Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie texte dans Journey Optimizer.
+Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie mobile dans Journey Optimizer.
 
 +++Guides de configuration
 
@@ -115,11 +100,11 @@ Configuration détaillée de chaque fournisseur de services SMS :
 
 +++Création et gestion de contenu
 
-Créez, personnalisez et gérez le contenu de votre SMS :
+Créez, personnalisez et gérez le contenu de votre message mobile :
 
-* [Créer des messages SMS/MMS](create-mobile-message.md)
+* [Créer des messages SMS/RCS/MMS](create-mobile-message.md)
 * [Prévisualiser, tester et envoyer des messages](send-mobile-message.md)
-* [Personnalisation dans les SMS](../personalization/personalize.md)
+* [Personalization dans les messages mobiles](../personalization/personalize.md)
 * [Contenu dynamique](../personalization/get-started-dynamic-content.md)
 * [Générer du contenu SMS avec l’assistant IA](../content-management/generative-text.md)
 
@@ -127,7 +112,7 @@ Créez, personnalisez et gérez le contenu de votre SMS :
 
 +++Conformité et confidentialité
 
-Assurez-vous que votre messagerie texte est conforme aux réglementations et aux normes de confidentialité :
+Assurez-vous que vos messages mobiles sont conformes aux réglementations et aux normes de confidentialité :
 
 * [Gestion du désabonnement](mobile-opt-out.md)
 * [Confidentialité et consentement](../privacy/opt-out.md#opt-out-decision-management)
@@ -156,7 +141,7 @@ Découvrez comment incorporer des SMS dans vos parcours et campagnes client :
 
 **La messagerie RCS native est-elle disponible avec Twilio ou Infobip ?**
 
-Non. Le concepteur RCS natif de Journey Optimizer n’est pas disponible lors de l’utilisation de fournisseurs SMS tiers tels que Twilio ou Infobip. Les messages RCS peuvent toutefois être envoyés via une [&#x200B; intégration de fournisseur personnalisé &#x200B;](mobile-configuration-custom.md).
+Non. Le concepteur RCS natif de Journey Optimizer n’est pas disponible lors de l’utilisation de fournisseurs SMS tiers tels que Twilio ou Infobip. Les messages RCS peuvent toutefois être envoyés via une [ intégration de fournisseur personnalisé ](mobile-configuration-custom.md).
 
 **Pourquoi acheter des SMS avec RCS ?**
 
@@ -188,7 +173,7 @@ Découvrez comment configurer, créer et inclure des SMS dans vos parcours clien
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -198,7 +183,7 @@ Découvrez les fonctionnalités complètes de messagerie mobile qu’Adobe Jour
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430372?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -208,6 +193,6 @@ Découvrez comment configurer et envoyer des messages RCS interactifs d’une ma
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
