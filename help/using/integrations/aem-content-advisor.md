@@ -6,9 +6,9 @@ description: Découvrez comment accéder à Adobe Experience Manager Content Adv
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,12 @@ Affichez les métadonnées et les propriétés détaillées de n’importe quell
 
 +++
 
++++ Accès au référentiel de toutes les organisations
+
+Découvrez et sélectionnez des ressources dans les référentiels des organisations auxquelles vous avez accès. Cette fonctionnalité vous permet de parcourir et d’utiliser les ressources stockées dans des référentiels appartenant à différentes organisations, fournissant ainsi un accès plus large à votre bibliothèque de ressources disponible sans quitter le workflow de création de Journey Optimizer.
+
++++
+
 +++ Panneau Dynamic Media
 
 Accédez aux rendus dynamiques, aux recadrages intelligents et aux modifications à la volée en fonction de la configuration du référentiel.
@@ -71,7 +77,7 @@ La disponibilité de Dynamic Media dépend de la configuration de votre référe
 
 * **Scene7** : disponible pour les ressources publiées (à l’exception des vidéos et de PDF). [En savoir plus sur les modificateurs Scene7 Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI** : disponible pour les ressources approuvées (sauf la vidéo). [En savoir plus sur Dynamic Media avec les modificateurs OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=fr){target="_blank"}
+* **OpenAPI** : disponible pour les ressources approuvées (sauf la vidéo). [En savoir plus sur Dynamic Media avec les modificateurs OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7 et OpenAPI** : disponible lorsque les deux configurations existent et que la ressource répond aux critères.
 
@@ -134,7 +140,7 @@ Pour accéder au gestionnaire d’accès de Adobe Experience Manager dans Journe
 
 1. Dans l’éditeur Personalization, choisissez votre point d’entrée de contenu :
 
-   * Pour ajouter une ressource, cliquez sur **&#x200B;**&#x200B;puis **[!UICONTROL Ouvrir le gestionnaire de contenu AEM]**.
+   * Pour ajouter une ressource, cliquez sur **** puis **[!UICONTROL Ouvrir le gestionnaire de contenu AEM]**.
 
      ![](assets/content-advisor-11.png){zoomable="yes"}
 
