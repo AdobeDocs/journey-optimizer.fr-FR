@@ -23,10 +23,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
-ht-degree: 11%
+source-wordcount: 853
+ht-degree: 10%
 
 ---
 
@@ -73,6 +73,16 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
    >[!NOTE]
    >
    >Si vous utilisez plusieurs politiques de décision dans le même e-mail (par exemple, une pour l’en-tête et une pour le pied de page), la même offre est dédupliquée à plusieurs emplacements : elle n’est pas rendue deux fois. La deuxième politique de décision ne renvoie aucun contenu et affiche un espace vide, sauf si vous avez configuré une offre de secours, auquel cas la version de secours s’affiche à la place.
+
+Vous pouvez également insérer le code de politique de décision lors de l’utilisation du mode **[!UICONTROL Coder le vôtre]** dans le Designer d’e-mail. Accédez à **[!UICONTROL Politiques de décision]** et sélectionnez **[!UICONTROL Insérer une syntaxe]** : l’interface utilisateur de sélection d’emplacement s’affiche afin que vous puissiez affecter directement un emplacement. [Découvrez comment coder votre propre contenu d’e-mail](../email/code-content.md).
+
+>[!AVAILABILITY]
+>
+>L’insertion de politiques de décision en mode **[!UICONTROL Coder le vôtre]** est en disponibilité limitée.
+
+>[!NOTE]
+>
+>En mode **[!UICONTROL Coder le vôtre]**, un seul élément de décision peut être renvoyé par politique, car le composant **[!UICONTROL Grille de répétition]** n’est pas disponible.
 
 >[!TAB SMS]
 

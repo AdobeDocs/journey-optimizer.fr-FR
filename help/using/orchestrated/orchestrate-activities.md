@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 100%
+source-wordcount: 937
+ht-degree: 94%
 
 ---
 
@@ -110,6 +110,8 @@ Dans le cadre de ce workflow, les activités suivantes ont été ajoutées :
 * Une activité **[!UICONTROL Combiner]** regroupe les clientes et clients disposant d’une adresse e-mail et celles et ceux qui ont effectué un achat d’au moins 100 $.
 * Une activité **[!UICONTROL Combiner]** exclut les clientes et clients disposant de moins de 50 points de fidélité.
 * Une activité **[!UICONTROL Diffusion e-mail]** envoie un e-mail aux clientes et clients correspondants.
+
+Lorsque vous atteignez la fin d’une branche, vous pouvez ajouter une activité **[!UICONTROL Fin]** pour marquer l’achèvement de la zone de travail. Vous pouvez également configurer cette activité **[!UICONTROL Fin]** pour envoyer un signal à une autre campagne orchestrée qui est définie sur **[!UICONTROL Déclenchée par un signal]** et transmettre des paramètres dans la payload. [En savoir plus](trigger-orchestrated-campaign.md#signal-end).
 
 ## Étapes suivantes {#next}
 

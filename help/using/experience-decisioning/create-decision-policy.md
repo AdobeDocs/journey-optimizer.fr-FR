@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
-ht-degree: 62%
+source-wordcount: 2285
+ht-degree: 61%
 
 ---
 
@@ -131,9 +131,13 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
    +++
 
-Vous pouvez également ajouter des politiques de décision lors de l’utilisation du mode **[!UICONTROL Coder le vôtre]** dans le Designer d’e-mail. Pour ce faire, accédez à **[!UICONTROL Politiques de décision]** pour insérer le code de la politique de décision. [Découvrez comment coder votre propre contenu d’e-mail](../email/code-content.md).
+Vous pouvez également ajouter des politiques de décision lors de l’utilisation du mode **[!UICONTROL Coder le vôtre]** dans le Designer d’e-mail. Pour ce faire, accédez à **[!UICONTROL Politiques de décision]** pour insérer le code de la politique de décision ; l’interface utilisateur de sélection d’emplacement s’affiche, vous permettant de choisir un emplacement pour la politique de décision. [Découvrez comment coder votre propre contenu d’e-mail](../email/code-content.md).
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>L’insertion de politiques de décision en mode **[!UICONTROL Coder le vôtre]** est en disponibilité limitée.
 
 >[!NOTE]
 >
