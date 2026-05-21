@@ -29,10 +29,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 2699
-ht-degree: 65%
+source-wordcount: 2746
+ht-degree: 64%
 
 ---
 
@@ -435,7 +435,11 @@ Répondre « Oui » suggère la meilleure banque de données. Cependant, confi
 
 +++ Quel est le nombre maximal d’activités par campagne orchestrée ?
 
-Le nombre d’activités dans une campagne orchestrée est limité à 500.
+Deux limites distinctes s’appliquent :
+
+* **Activités de canal** — Un maximum de 10 activités de canal par campagne orchestrée (e-mail, SMS, notification push ou courrier). Les activités de ciblage et de contrôle de flux ne sont pas prises en compte. Le dépassement de cette limite lors de l’enregistrement ou de la publication entraîne l’échec de l’opération.
+
+* **Taille de la zone de travail** — Jusqu’à 500 **d’activités** sur la zone de travail. Pour la maintenabilité, gardez les workflows de moins de 100 **en pratique**
 
 **En savoir plus**
 

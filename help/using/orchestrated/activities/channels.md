@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 61%
+source-wordcount: 1883
+ht-degree: 58%
 
 ---
 
@@ -77,9 +77,15 @@ Par exemple :
 
 Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent la clientèle sur plusieurs points de contact et génèrent des conversions.
 
->[!CAUTION]
->
->Seuls les canaux SMS, Push, E-mail et Courrier sont pris en charge dans les campagnes orchestrées.
+## Mécanismes de sécurisation et limitations {#channel-guardrails}
+
+* **Canaux pris en charge** - Seuls les canaux SMS, Push, E-mail et Courrier sont pris en charge dans les campagnes orchestrées.
+
+* **Limite des activités de canal** - Une campagne orchestrée prend en charge un maximum de 10 activités de canal (e-mail, SMS, notification push ou courrier). Seules les activités de canal sont prises en compte dans cette limite ; les activités de ciblage et de contrôle de flux ne le sont pas.
+
+  Si vous dépassez la limite lors de l’enregistrement ou de la publication, l’opération échoue. Pour respecter la limite, réduisez le nombre d’activités de canal ou répartissez la diffusion des messages sur plusieurs campagnes orchestrées.
+
+Voir [Mécanismes de sécurisation et limitations](../guardrails.md) pour tous les mécanismes de sécurisation et limitations de Campaign orchestrés.
 
 ## Ajouter une activité de canal et définir ses propriétés {#add}
 
