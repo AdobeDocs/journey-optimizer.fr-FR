@@ -9,29 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 TQID: https://experienceleague.adobe.com/NlC-JLidAL9r-1-8rX4hX-WxCkr-Nv1e6YKSisx1n28
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 94%
+source-wordcount: 980
+ht-degree: 80%
 
 ---
 
@@ -116,6 +103,30 @@ Lorsque votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Enregistrer
 >Les fragments visuels ne doivent pas dépasser 100 Ko. Les fragments d’expression ne doivent pas dépasser 200 Ko.
 
 Le fragment est créé et ajouté à la liste de fragments avec le statut **[!UICONTROL Brouillon]**. Vous pouvez le prévisualiser et le publier pour le rendre disponible dans les parcours et les campagnes.
+
+### Verrouiller un fragment visuel {#lock-visual-fragment}
+
+Si vous créez ou modifiez un fragment visuel, vous pouvez le verrouiller pour empêcher les éditeurs de le modifier ou de le détacher lorsqu’il est utilisé dans des e-mails.
+
+La sélection de cette option garantit que le fragment reste synchronisé où qu’il soit utilisé, ce qui permet d’appliquer la marque, de maintenir la cohérence et de se conformer aux exigences légales.
+
+Pour verrouiller un fragment visuel, procédez comme suit.
+
+1. Dans l’écran d’édition du contenu du fragment, accédez à l’onglet **[!UICONTROL Paramètres]**.
+
+1. Par défaut, le fragment est déverrouillé. Sélectionnez **[!UICONTROL Empêcher la rupture de l’héritage]** pour verrouiller le fragment.
+
+1. Cliquez sur **[!UICONTROL Confirmer]**.
+
+   >[!NOTE]
+   >
+   >Ce paramètre peut être mis à jour à tout moment. Toutefois, les modifications s’appliquent uniquement aux utilisations futures. Les e-mails existants utilisant ce fragment ne sont pas modifiés.
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+Désormais, lorsque vous utilisez ce fragment dans un e-mail, il est verrouillé et ne peut pas être détaché du fragment d’origine. [En savoir plus](../email/use-visual-fragments.md#locked-fragments)
+
+Les nouvelles mises à jour du fragment verrouillé d’origine sont automatiquement propagées à tous les e-mails qui l’utilisent.
 
 ## Prévisualiser et publier le fragment {#publish}
 
