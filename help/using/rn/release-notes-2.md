@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 hide: true
-source-git-commit: 1ae72bdc97d1c3b4663b5a24a8af8e1684b32235
+source-git-commit: bd22257dbb42de3c1b180566b38f5cf406bf72bb
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2853'
 ht-degree: 18%
 
 ---
@@ -41,7 +41,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 <table>
 <thead>
 <tr>
-<th><strong>Fragments de parcours</strong><br/></th>
+<th><strong>Fragments De parcours (Disponibilité Limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -61,7 +61,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 <table>
 <thead>
 <tr>
-<th><strong>Simulation de parcours</strong><br/></th>
+<th><strong>Simulation de parcours (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -114,12 +114,12 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 
 #### Bientôt disponible {#may-26-journeys-coming-soon}
 
-Les fonctionnalités de parcours suivantes sont attendues dans les jours ou semaines à venir. Les informations sont sujettes à changement.
+Les fonctionnalités de parcours suivantes sont attendues dans les jours ou semaines à venir. **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Assistant AI pour les expressions de Parcours</strong><br/></th>
+<th><strong>Assistant AI pour les expressions de Parcours (Beta publique)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -197,12 +197,12 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux campagn
 
 #### Bientôt disponible {#may-26-oc-coming-soon}
 
-La fonctionnalité de campagne orchestrée suivante est prévue dans les jours ou semaines à venir. Les informations sont sujettes à changement.
+La fonctionnalité de campagne orchestrée suivante est prévue dans les jours ou semaines à venir. **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Ciblage basé sur des fichiers pour les campagnes orchestrées</strong><br/></th>
+<th><strong>Ciblage basé sur des fichiers pour les campagnes orchestrées (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ Les améliorations suivantes sont attendues au cours des prochains jours ou des 
 
 #### Bientôt disponible {#may-26-campaigns-coming-soon}
 
-Les améliorations suivantes sont attendues dans les prochains jours ou les prochaines semaines. Les informations sont sujettes à changement.
+Les améliorations suivantes sont attendues dans les prochains jours ou les prochaines semaines. **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Alertes client pour les événements de cycle de vie de campagne** - Les nouvelles alertes système vous informent désormais des événements de cycle de vie clés pour les campagnes déclenchées par action et par API. S’abonner au niveau du sandbox.
 
@@ -266,7 +266,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à Decision
 
 #### Bientôt disponible {#may-26-decisioning-coming-soon}
 
-La fonctionnalité de prise de décision suivante est prévue dans les jours ou semaines à venir. Les informations sont sujettes à changement.
+La fonctionnalité de prise de décision suivante est prévue dans les jours ou semaines à venir. **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
 <thead>
@@ -309,7 +309,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées au canal e-
 
 #### Bientôt disponible {#may-26-email-coming-soon}
 
-Les améliorations suivantes du canal e-mail sont attendues dans les prochains jours ou semaines. Les informations sont sujettes à changement.
+Les améliorations suivantes du canal e-mail sont attendues dans les prochains jours ou semaines. **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des champs d’en-tête des e-mails, notamment le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise.
 
@@ -428,11 +428,9 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 
 ### Administration {#may-26-admin}
 
-Les améliorations d’administration suivantes sont attendues dans les jours ou semaines à venir — voir la section [Bientôt disponible](#may-26-admin-coming-soon) ci-dessous.
-
 #### Bientôt disponible {#may-26-admin-coming-soon}
 
-Les améliorations d’administration suivantes sont attendues dans les jours ou semaines à venir. Les informations sont sujettes à changement.
+Les améliorations d’administration suivantes sont attendues dans les jours ou semaines à venir. **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Dossiers pour les parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes dans des dossiers pour améliorer la navigation et la gestion dans l’interface.
 
@@ -444,11 +442,9 @@ Les améliorations d’administration suivantes sont attendues dans les jours ou
 
 ### Création de rapports {#may-26-reporting}
 
-L’amélioration suivante des rapports est attendue dans les jours ou semaines à venir. Consultez la section [Bientôt disponible](#may-26-reporting-coming-soon) ci-dessous.
-
 #### Bientôt disponible {#may-26-reporting-coming-soon}
 
-L’amélioration suivante des rapports est attendue dans les jours ou semaines à venir. Les informations sont sujettes à changement.
+L’amélioration suivante des rapports est attendue dans les jours ou semaines à venir. **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Exclure les clics de robots pour les rapports par e-mail et SMS** - De nouvelles mesures estimées sont désormais disponibles pour aider à filtrer les interactions non humaines (robots) des rapports par e-mail et SMS. Il s’agit notamment des estimations de clics, des taux de clics publicitaires (CTR) et des taux de clics publicitaires (CTOR), qui offrent une vue plus précise de l’engagement réel des clients. Les mesures existantes restent inchangées. Ces nouvelles mesures peuvent être utilisées avec les rapports actuels pour une analyse améliorée.
 
