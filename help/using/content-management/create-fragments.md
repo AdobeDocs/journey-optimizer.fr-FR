@@ -28,7 +28,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
+source-git-commit: 61b717453958b560813733c8f45fc7ed1e3c5313
 workflow-type: tm+mt
 source-wordcount: 980
 ht-degree: 80%
@@ -171,3 +171,4 @@ Le fragment est maintenant **[!UICONTROL Actif]** et devient disponible lors de 
 >[!CAUTION]
 >
 >Une fois publié, vous ne pouvez pas ajouter de nouveaux attributs personnalisés à un fragment dynamique. Si vous souhaitez ajouter des attributs de personnalisation, vous devez dupliquer le fragment. [En savoir plus](manage-fragments.md#adding-new-attributes)
+

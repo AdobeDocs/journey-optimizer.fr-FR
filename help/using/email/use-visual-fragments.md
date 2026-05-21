@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
+source-git-commit: 61b717453958b560813733c8f45fc7ed1e3c5313
 workflow-type: tm+mt
 source-wordcount: 1104
 ht-degree: 87%
@@ -183,3 +183,4 @@ Découvrez comment verrouiller un fragment dans [cette section](../content-manag
 >[!NOTE]
 >
 >L’auteur du fragment peut modifier le paramètre ultérieurement pour des utilisations ultérieures en réinitialisant son comportement sur **[!UICONTROL Autoriser la rupture de l’héritage]** dans les paramètres du fragment.
+
