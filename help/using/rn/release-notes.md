@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
+source-git-commit: 5af754d86573d79d361c69e79e3d1218bcbff7f9
 workflow-type: tm+mt
-source-wordcount: 2883
-ht-degree: 22%
+source-wordcount: 2765
+ht-degree: 23%
 
 ---
 
@@ -462,6 +462,16 @@ Les fonctionnalités et améliorations suivantes devraient être publiées fin m
 
   Date de disponibilité : 1 juin 2026
 
+#### Concepteur d’e-mail
+
+* **Limiter la rupture d’héritage dans les fragments** - Lors de la création ou de la modification d’un fragment, vous pouvez désormais choisir s’il peut être modifié lorsqu’il est utilisé dans des e-mails. Le verrouillage d’un fragment garantit qu’il reste synchronisé partout où il apparaît, empêchant les modifications locales qui pourraient enfreindre les normes de la marque ou les exigences de conformité. Ce paramètre peut être mis à jour ultérieurement et s’appliquer aux utilisations futures.
+
+  Date de disponibilité : 21 mai 2026
+
+* **Texte enrichi dans les champs de fragment modifiables** - Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de votre e-mail. Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.
+
+  Date de disponibilité : 1 juin 2026
+
 #### Campagnes
 
 * **Alertes client pour les événements de cycle de vie de campagne** - Les nouvelles alertes système vous informent désormais des événements de cycle de vie clés pour les campagnes déclenchées par action et par API. S’abonner au niveau du sandbox.
@@ -478,19 +488,6 @@ Les fonctionnalités et améliorations suivantes devraient être publiées fin m
 
   Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
 
-
-  Date de disponibilité : 1 juin 2026
-
-#### Concepteur d’e-mail
-
-* **Limiter la rupture d’héritage dans les fragments** - Lors de la création ou de la modification d’un fragment, vous pouvez désormais choisir s’il peut être modifié lorsqu’il est utilisé dans des e-mails. Le verrouillage d’un fragment garantit qu’il reste synchronisé partout où il apparaît, empêchant les modifications locales qui pourraient enfreindre les normes de la marque ou les exigences de conformité. Ce paramètre peut être mis à jour ultérieurement et s’appliquer aux utilisations futures.
-
-
-  Date de disponibilité : 1 juin 2026
-
-* **Texte enrichi dans les champs de fragment modifiables** - Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de votre e-mail. Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.
-
-
   Date de disponibilité : 1 juin 2026
 
 #### Configuration
@@ -499,21 +496,8 @@ Les fonctionnalités et améliorations suivantes devraient être publiées fin m
 
   Date de disponibilité : 1 juin 2026
 
-#### Concepteur d’e-mail
-
-* **Texte enrichi dans les champs de fragment modifiables** - Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de votre e-mail. Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.
-
-
-  Date de disponibilité : 1 juin 2026
-
-* **Limiter la rupture d’héritage dans les fragments** - Lors de la création ou de la modification d’un fragment, vous pouvez désormais choisir s’il peut être modifié lorsqu’il est utilisé dans des e-mails. Le verrouillage d’un fragment garantit qu’il reste synchronisé partout où il apparaît, empêchant les modifications locales qui pourraient enfreindre les normes de la marque ou les exigences de conformité. Ce paramètre peut être mis à jour ultérieurement et s’appliquer aux utilisations futures.
-
-
-  Date de disponibilité : 1 juin 2026
-
 #### Création de rapports
 
 * **Exclure les clics de robots pour les rapports par e-mail et SMS** - De nouvelles mesures estimées sont désormais disponibles pour aider à filtrer les interactions non humaines (robots) des rapports par e-mail et SMS. Il s’agit notamment des estimations de clics, des taux de clics publicitaires (CTR) et des taux de clics publicitaires (CTOR), qui offrent une vue plus précise de l’engagement réel des clients. Les mesures existantes restent inchangées. Ces nouvelles mesures peuvent être utilisées avec les rapports actuels pour une analyse améliorée.
-
 
   Date de disponibilité : 1 juin 2026
