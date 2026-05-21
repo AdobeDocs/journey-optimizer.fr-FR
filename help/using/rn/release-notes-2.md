@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 hide: true
-source-git-commit: bd22257dbb42de3c1b180566b38f5cf406bf72bb
+source-git-commit: 6f67786674f995422a5add1600d7f0dbfe915067
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2835'
 ht-degree: 18%
 
 ---
@@ -217,8 +217,6 @@ La fonctionnalité de campagne orchestrée suivante est prévue dans les jours o
 </table>
 
 ### Campagnes {#may-26-campaigns}
-
-Les améliorations suivantes sont attendues au cours des prochains jours ou des prochaines semaines pour la campagne : consultez la section [Bientôt disponible](#may-26-campaigns-coming-soon) ci-dessous.
 
 #### Bientôt disponible {#may-26-campaigns-coming-soon}
 
