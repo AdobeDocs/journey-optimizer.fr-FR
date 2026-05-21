@@ -6,16 +6,13 @@ description: Découvrir comment utiliser des activités de campagne orchestrée
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 78%
+source-wordcount: 530
+ht-degree: 68%
 
 ---
 
@@ -31,13 +28,17 @@ Toutes les activités sont présentées dans les sections ci-dessous :
 
 ![Liste des activités disponibles dans la zone de travail](../assets/orchestrated-activities.png){width="80%" align="left"}
 
-
 >[!NOTE]
 >
->* Selon votre modèle de licence, vos autorisations et votre implémentation, les activités disponibles peuvent varier.
->
->* Le nombre d’activités dans une campagne orchestrée est limité à 500.
+>Selon votre modèle de licence, vos autorisations et votre implémentation, les activités disponibles peuvent varier.
 
+## Mécanismes de sécurisation et limitations {#activity-guardrails}
+
+* **Limite des activités de canal** - Une campagne orchestrée prend en charge un maximum de 10 activités de canal au moment de la publication (e-mail, SMS, notification push ou courrier). Les activités de ciblage et de contrôle de flux ne sont pas prises en compte dans cette limite.
+
+* **Limite des activités de la zone de travail** - Le nombre d’activités sur la zone de travail est limité à 500. Pour des raisons de maintenabilité et de performances, maintenez les workflows de moins de 100 activités en pratique.
+
+Voir [Mécanismes de sécurisation et limitations](../guardrails.md) pour tous les mécanismes de sécurisation et limitations de Campaign orchestrés.
 
 ## Activités de ciblage {#targeting}
 
