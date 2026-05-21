@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 94%
+source-wordcount: 980
+ht-degree: 80%
 
 ---
 
@@ -116,6 +116,30 @@ Lorsque votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Enregistrer
 >Les fragments visuels ne doivent pas dépasser 100 Ko. Les fragments d’expression ne doivent pas dépasser 200 Ko.
 
 Le fragment est créé et ajouté à la liste de fragments avec le statut **[!UICONTROL Brouillon]**. Vous pouvez le prévisualiser et le publier pour le rendre disponible dans les parcours et les campagnes.
+
+### Verrouiller un fragment visuel {#lock-visual-fragment}
+
+Si vous créez ou modifiez un fragment visuel, vous pouvez le verrouiller pour empêcher les éditeurs de le modifier ou de le détacher lorsqu’il est utilisé dans des e-mails.
+
+La sélection de cette option garantit que le fragment reste synchronisé où qu’il soit utilisé, ce qui permet d’appliquer la marque, de maintenir la cohérence et de se conformer aux exigences légales.
+
+Pour verrouiller un fragment visuel, procédez comme suit.
+
+1. Dans l’écran d’édition du contenu du fragment, accédez à l’onglet **[!UICONTROL Paramètres]**.
+
+1. Par défaut, le fragment est déverrouillé. Sélectionnez **[!UICONTROL Empêcher la rupture de l’héritage]** pour verrouiller le fragment.
+
+1. Cliquez sur **[!UICONTROL Confirmer]**.
+
+   >[!NOTE]
+   >
+   >Ce paramètre peut être mis à jour à tout moment. Toutefois, les modifications s’appliquent uniquement aux utilisations futures. Les e-mails existants utilisant ce fragment ne sont pas modifiés.
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+Désormais, lorsque vous utilisez ce fragment dans un e-mail, il est verrouillé et ne peut pas être détaché du fragment d’origine. [En savoir plus](../email/use-visual-fragments.md#locked-fragments)
+
+Les nouvelles mises à jour du fragment verrouillé d’origine sont automatiquement propagées à tous les e-mails qui l’utilisent.
 
 ## Prévisualiser et publier le fragment {#publish}
 

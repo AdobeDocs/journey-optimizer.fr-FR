@@ -33,10 +33,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
-ht-degree: 93%
+source-wordcount: 1104
+ht-degree: 87%
 
 ---
 
@@ -169,3 +169,17 @@ Pour rompre l’héritage, procédez comme suit :
    ![](assets/fragment-break-inheritance.png)
 
 1. Ce fragment devient alors un élément autonome qui n’est plus lié au fragment d’origine. Modifiez-le comme tout autre composant de votre contenu. [En savoir plus](content-components.md)
+
+### Fragments verrouillés {#locked-fragments}
+
+Si le fragment a été verrouillé par son auteur, l’icône de déverrouillage est grisée et ne peut pas être utilisée pour rompre l’héritage.
+
+![](assets/fragment-locked.png)
+
+Les fragments verrouillés restent synchronisés partout où ils apparaissent, empêchant les modifications locales qui pourraient enfreindre les normes de la marque ou les exigences de conformité.
+
+Découvrez comment verrouiller un fragment dans [cette section](../content-management/create-fragments.md#lock-visual-fragment).
+
+>[!NOTE]
+>
+>L’auteur du fragment peut modifier le paramètre ultérieurement pour des utilisations ultérieures en réinitialisant son comportement sur **[!UICONTROL Autoriser la rupture de l’héritage]** dans les paramètres du fragment.
