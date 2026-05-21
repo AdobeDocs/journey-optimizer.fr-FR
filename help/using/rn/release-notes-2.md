@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 hide: true
-source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 21%
+source-wordcount: '2735'
+ht-degree: 19%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 21%
 ## Notes de mise à jour du 26 mai {#may-26-rn}
 
 ### Parcours {#may-26-journeys}
+
+Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcours dans cette version. D’autres modifications sont également prévues pour ce mois-ci. Consultez la section [Bientôt disponible](#may-26-journeys-coming-soon) ci-dessous.
 
 <table>
 <thead>
@@ -110,7 +112,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**Bientôt disponible**
+#### Bientôt disponible {#may-26-journeys-coming-soon}
+
+Les fonctionnalités de parcours ci-dessous devraient être publiées à la fin du mois. Les informations sont sujettes à changement.
 
 <table>
 <thead>
@@ -166,6 +170,8 @@ ht-degree: 21%
 
 ### Campagnes orchestrées {#may-26-oc}
 
+Les fonctionnalités et améliorations suivantes ont été ajoutées aux campagnes orchestrées dans cette version. D’autres modifications sont également prévues pour ce mois-ci. Consultez la section [Bientôt disponible](#may-26-oc-coming-soon) ci-dessous.
+
 <table>
 <thead>
 <tr>
@@ -189,7 +195,9 @@ ht-degree: 21%
 
   Date de disponibilité : 20 mai 2026
 
-**Bientôt disponible**
+#### Bientôt disponible {#may-26-oc-coming-soon}
+
+La fonctionnalité de campagne orchestrée suivante devrait sortir plus tard ce mois-ci. Les informations sont sujettes à changement.
 
 <table>
 <thead>
@@ -210,7 +218,11 @@ ht-degree: 21%
 
 ### Campagnes {#may-26-campaigns}
 
-**Bientôt disponible**
+Les améliorations de campagne suivantes devraient être publiées plus tard dans le mois. Consultez la section [Bientôt disponible](#may-26-campaigns-coming-soon) ci-dessous.
+
+#### Bientôt disponible {#may-26-campaigns-coming-soon}
+
+Les améliorations suivantes de la campagne devraient être publiées à la fin du mois. Les informations sont sujettes à changement.
 
 * **Alertes client pour les événements de cycle de vie de campagne** - Les nouvelles alertes système vous informent désormais des événements de cycle de vie clés pour les campagnes déclenchées par action et par API. S’abonner au niveau du sandbox.
 
@@ -221,6 +233,8 @@ ht-degree: 21%
   Date de disponibilité : 1 juin 2026
 
 ### Prise de décision {#may-26-decisioning}
+
+Les fonctionnalités et améliorations suivantes ont été ajoutées à Decisioning dans cette version. D’autres modifications sont également prévues pour ce mois-ci. Consultez la section [Bientôt disponible](#may-26-decisioning-coming-soon) ci-dessous.
 
 <table>
 <thead>
@@ -250,7 +264,9 @@ ht-degree: 21%
 
   Date de disponibilité : 20 mai 2026
 
-**Bientôt disponible**
+#### Bientôt disponible {#may-26-decisioning-coming-soon}
+
+La fonctionnalité de prise de décision suivante devrait être publiée à la fin du mois. Les informations sont sujettes à changement.
 
 <table>
 <thead>
@@ -271,6 +287,8 @@ ht-degree: 21%
 
 ### Canal E-mail {#may-26-email}
 
+Les fonctionnalités et améliorations suivantes ont été ajoutées au canal e-mail dans cette version. D’autres modifications sont également prévues pour ce mois-ci. Consultez la section [Bientôt disponible](#may-26-email-coming-soon) ci-dessous.
+
 <table>
 <thead>
 <tr>
@@ -289,11 +307,15 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**Bientôt disponible**
+#### Bientôt disponible {#may-26-email-coming-soon}
 
-Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
+Les améliorations suivantes du canal e-mail devraient être publiées à la fin du mois. Les informations sont sujettes à changement.
 
-Date de disponibilité : 1 juin 2026
+* **Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des champs d’en-tête des e-mails, notamment le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise.
+
+  Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
+
+  Date de disponibilité : 1 juin 2026
 
 * **Texte enrichi dans les champs de fragment modifiables** - Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de votre e-mail. Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.
 
@@ -304,6 +326,8 @@ Date de disponibilité : 1 juin 2026
   Date de disponibilité : 1 juin 2026
 
 ### Messagerie mobile (SMS, MMS et RCS) {#may-26-mobile}
+
+Les fonctionnalités et améliorations suivantes ont été ajoutées à la messagerie mobile dans cette version.
 
 <table>
 <thead>
@@ -330,6 +354,8 @@ Date de disponibilité : 1 juin 2026
 
 ### Canal WhatsApp {#may-26-whatsapp}
 
+Les améliorations suivantes ont été ajoutées au canal WhatsApp dans cette version.
+
 * **Prise en charge et suivi des boutons WhatsApp** - Les modèles WhatsApp prennent désormais en charge **Réponse rapide**, **Call to action - URL** et **Call to action - téléphone**, **Copier le code** n’est pas pris en charge. Journey Optimizer envoie les boutons pris en charge et suit les interactions avec les autres rapports de canal.
 
 * **Données contextuelles du canal WhatsApp** - Journey Optimizer capture désormais les données d’interaction supplémentaires renvoyées par le canal WhatsApp et les stocke dans le **Jeu de données AJO EmailTrackingExperienceEvent** sous le groupe de champs `whatsAppChannelContext`.
@@ -354,6 +380,8 @@ Date de disponibilité : 1 juin 2026
   +++
 
 ### Contenu et intégrations {#may-26-content}
+
+Les fonctionnalités et améliorations suivantes ont été ajoutées à la gestion de contenu et aux intégrations dans cette version.
 
 <table>
 <thead>
@@ -400,7 +428,11 @@ Date de disponibilité : 1 juin 2026
 
 ### Administration {#may-26-admin}
 
-**Bientôt disponible**
+Les améliorations d’administration suivantes devraient être publiées plus tard dans le mois. Consultez la section [Bientôt disponible](#may-26-admin-coming-soon) ci-dessous.
+
+#### Bientôt disponible {#may-26-admin-coming-soon}
+
+Les améliorations d’administration suivantes devraient être publiées à la fin du mois. Les informations sont sujettes à changement.
 
 * **Dossiers pour les parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes dans des dossiers pour améliorer la navigation et la gestion dans l’interface.
 

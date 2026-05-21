@@ -7,46 +7,50 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: 188
-ht-degree: 27%
+source-wordcount: 81
+ht-degree: 35%
 
 ---
+
 
 
 ## Notes de mise à jour préliminaires du 26 mai {#may-26-rn}
 
 **Les notes de version préliminaire ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les écrans et la documentation mise à jour sont publiés une fois les modifications mises en production. Bien que la plupart des modifications soient diffusées à la date de publication, quelques-unes peuvent être déployées ultérieurement. Pour plus d’informations, reportez-vous à la date de disponibilité répertoriée pour chaque entrée.
 
-Voir également les [Notes de mise à jour préliminaires d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Date de publication** : 19-20 mai 2026
+Les notes de mise à jour de mai sont désormais en ligne. Voir [ici](release-notes.md)
 
-### Nouvelles fonctionnalités {#may-26-features}
+<!--
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-Les fonctionnalités suivantes sont ciblées pour cette version.
+**Release date**: May 19–20, 2026
+
+### New capabilities {#may-26-features}
+
+The following capabilities are targeted for this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>Nouveau canal de message mobile et messagerie RCS améliorée</strong><br/></th>
+<th><strong>New Mobile Message channel and Enhanced RCS messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les SMS, MMS et RCS sont désormais regroupés dans une seule action <strong>Message mobile</strong> dans Adobe Journey Optimizer, ce qui facilite la gestion de tous les types de messages mobiles à partir d’un seul emplacement. Dans le cadre de cette mise à jour, vous pouvez désormais créer des messages RCS de médias riches, y compris des images, des carrousels et des actions suggérées, directement dans Journey Optimizer grâce à une nouvelle expérience de création native.</p>
-<p>Date de disponibilité : 19 mai 2026</p>
+<p>SMS, MMS, and RCS are now unified under a single <strong>Mobile Message</strong> action in Adobe Journey Optimizer, making it easier to manage all mobile message types from one place. As part of this update, you can now author rich media RCS messages, including images, carousels, and suggested actions, directly in Journey Optimizer through a new native authoring experience.</p>
+<p>Availability date: May 19, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -84,13 +88,13 @@ Les fonctionnalités suivantes sont ciblées pour cette version.
 
 
 
-
-
-### Améliorations {#may-26-improv}
-
-Les améliorations suivantes sont ciblées pour cette version.
-
 <!--
+
+### Improvements {#may-26-improv}
+
+The following improvements are targeted for this release.
+
+
 #### AI
 
 * **Journey Agent – Analyze** - Journey Agent now includes new Analyze skills. When navigating to the Journey home screen, a new AI recommendations panel appears on the right side, surfacing cards with actionable insights. Clicking a card takes you directly to the relevant journey and opens the right panel with a detailed recommendation to help optimize journey performance.
@@ -149,7 +153,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -516,7 +520,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -782,7 +786,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1035,7 +1039,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1212,7 +1216,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
