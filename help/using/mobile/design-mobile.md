@@ -90,7 +90,7 @@ Pour définir le contenu de votre message RCS, procédez comme suit.
 
 1. Dans le champ **[!UICONTROL Texte du message]** saisissez le contenu de votre message. Vous pouvez utiliser la personnalisation pour personnaliser le texte en fonction de chaque profil. Notez que les limites de caractères varient selon le type de message : 3 072 caractères pour le format Rich Media (single) et 160 caractères pour le format RCS de base.
 
-1. Utilisez l&#39;éditeur **&#x200B;**&#x200B;pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
+1. Utilisez l&#39;éditeur **** pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
 
 1. Si vous le souhaitez, ajoutez des boutons interactifs **[!UICONTROL Actions suggérées]** qui permettent aux profils d’agir en une seule touche.
 
