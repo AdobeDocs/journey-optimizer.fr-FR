@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
+source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
 workflow-type: tm+mt
-source-wordcount: 2771
-ht-degree: 23%
+source-wordcount: 2581
+ht-degree: 25%
 
 ---
 
@@ -353,7 +353,7 @@ Les fonctionnalités et améliorations suivantes devraient être publiées fin m
 <p>Utilisez le nouveau nœud <strong>Optimiser</strong> pour cibler des audiences spécifiques afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier.</p>
 <p>Cet outil vous permet de développer des campagnes marketing plus efficaces, plus susceptibles de résonner au niveau 1:1, d’améliorer les efforts de personnalisation marketing pour les clients et d’améliorer les KPI d’engagement client essentiels, tels que les conversions et les recettes.</p>
 <p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p>Date de disponibilité : 22 mai 2026</p>
+<p>Date de disponibilité : 1 juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +370,7 @@ Les fonctionnalités et améliorations suivantes devraient être publiées fin m
 <td>
 <p>Vous pouvez désormais utiliser des formules pour augmenter automatiquement les scores de priorité des parcours en fonction des attributs de profil client et de facteurs contextuels, afin que les clients puissent accéder aux parcours les plus pertinents.</p>
 <p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p>Date de disponibilité : 22 mai 2026</p>
+<p>Date de disponibilité : 1 juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -410,41 +410,6 @@ Les fonctionnalités et améliorations suivantes devraient être publiées fin m
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Optimisation du chemin de parcours - Ciblage</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Utilisez le nouveau nœud <strong>Optimiser</strong> pour cibler des audiences spécifiques afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier.</p>
-<p>Cet outil vous permet de développer des campagnes marketing plus efficaces, plus susceptibles de résonner au niveau 1:1, d’améliorer les efforts de personnalisation marketing pour les clients et d’améliorer les KPI d’engagement client essentiels, tels que les conversions et les recettes.</p>
-<p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p>Date de disponibilité : 22 mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Arbitrage de parcours - Formules de classement</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais utiliser des formules pour augmenter automatiquement les scores de priorité des parcours en fonction des attributs de profil client et de facteurs contextuels, afin que les clients puissent accéder aux parcours les plus pertinents.</p>
-<p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p>Date de disponibilité : 22 mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### Améliorations {#coming-soon-improvements}
 
@@ -470,11 +435,15 @@ Les fonctionnalités et améliorations suivantes devraient être publiées fin m
 
   Date de disponibilité : 1 juin 2026
 
-#### Concepteur d’e-mail
+<!--
 
-* **Texte enrichi dans les champs de fragment modifiables** - Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de votre e-mail. Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.
+#### Email Designer
 
-  Date de disponibilité : 1 juin 2026
+* **Rich text in editable fragment fields** - You can now add rich text to customizable fragments that are used in your email content. For example, when using the Text component as an editable field in the Email Designer, you can directly format the content (for example, bold and italics) and insert hyperlinks.
+
+  Availability date: June 1, 2026
+  
+-->
 
 #### Campagnes
 
