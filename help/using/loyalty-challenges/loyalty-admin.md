@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configuration du programme de fidélité
-description: Découvrez comment configurer des fournisseurs de récompenses, des définitions d’événement et des paramètres au niveau de l’organisation pour votre programme de fidélité dans Adobe Journey Optimizer.
+description: Découvrez comment configurer des fournisseurs de récompenses, des définitions d’événement et des paramètres au niveau de l’organisation pour votre programme de fidélité dans  [!DNL Journey Optimizer].
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: a4ad533e54f3692eb0483138a8cfd1cee0e77ba1
+source-git-commit: e4ee70a9c918bffb372ab7cee567ae7422c3720c
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1456'
 ht-degree: 2%
 
 ---
@@ -36,146 +36,186 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement en version bêta **privée**. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
+>Cette fonctionnalité est actuellement en version bêta **privée**. Pour plus d’informations sur le cycle de publication et les phases de disponibilité dans [!DNL Journey Optimizer], voir [cycle de publication](../rn/releases.md).
 
-La section **[!UICONTROL Loyalty Admin]** vous permet de configurer la manière dont Journey Optimizer se connecte à vos systèmes de fidélité externes. Les marketeurs utilisent **[!UICONTROL Loyalty Challenges (Beta)]** pour concevoir des défis, des tâches, du contenu et des messages. **[!UICONTROL Administration du programme de fidélité]** est une zone distincte réservée aux administrateurs pour l’exécution des récompenses, le mappage des événements et l’inventaire des produits.
-
-Lorsqu’un client termine un défi ou atteint un jalon de récompense, Journey Optimizer appelle le fournisseur de récompense que vous avez configuré pour lui offrir des points ou d’autres récompenses. La configuration dans **[!UICONTROL Loyalty Admin]** n’affecte pas les paramètres de défi **[!UICONTROL Contenu]**, **[!UICONTROL Messagerie]** ou **[!UICONTROL Audience]**, qui restent sous le contrôle du marketeur.
-
-## Ce que vous configurez ici par rapport à dans Loyalty Challenges {#scope}
-
-| Zone | Configuré dans Loyalty Admin | Configuré dans les défis de fidélité |
-|------|----------------------------|----------------------------------|
-| API d’exécution de récompense | Oui — fournisseurs de récompenses | Non — sélectionner le fournisseur et les montants uniquement |
-| Mappage des événements pour les activités personnalisées | Oui — Définitions d&#39;événement | Non — sélectionner le nom de l&#39;événement dans les tâches d&#39;événement personnalisées |
-| Mappages de groupes de produits | Oui — inventaire des produits | Non — utiliser des groupes lors de la création de tâches Achat/Dépenses |
-| Structure du défi, contenu, audience | Non | Oui |
-
-Adobe Journey Optimizer envoie des appels d’exécution à votre fournisseur de récompense lorsque les clients gagnent des récompenses. Votre plateforme de fidélité est responsable du crédit du compte du membre.
+Utilisez la configuration du programme de fidélité dans [!DNL Journey Optimizer] pour vous connecter à vos systèmes de fidélité externes. Les marketeurs utilisent **[!UICONTROL Loyalty Challenges (Beta)]** pour concevoir des défis, des tâches, du contenu et des messages. La configuration du programme de fidélité est une zone distincte réservée aux administrateurs et administratrices pour l’exécution des récompenses, le mappage des événements, l’inventaire des produits et les exclusions.
 
 ## Conditions préalables {#prerequisites}
 
-**[!UICONTROL Loyalty Admin]** est destiné à un petit nombre d’administrateurs par organisation. Outre les autorisations requises pour les [Défis de fidélité](get-started.md#prerequisites), vous avez besoin d’un accès de niveau administrateur à votre instance Journey Optimizer. Contactez votre administrateur Adobe pour demander l’accès.
+La configuration du programme de fidélité est destinée aux administrateurs. Outre les autorisations requises pour les défis de fidélité, vous avez besoin d’un accès de niveau administrateur à votre instance [!DNL Journey Optimizer]. Contactez votre administrateur Adobe pour demander l’accès.
 
-## Accéder à Loyalty Admin {#access-loyalty-admin}
+## Accéder à la configuration du programme de fidélité {#access-loyalty-admin}
 
-Pour ouvrir **[!UICONTROL Loyalty Admin]**, sélectionnez-le dans le volet de navigation de gauche de Journey Optimizer.
+Accédez à **[!UICONTROL Loyalty]** et sélectionnez **[!UICONTROL Loyal admin]** pour accéder à l’interface de configuration du programme de fidélité.
 
-<!-- SCREENSHOT: Loyalty Admin entry in the left navigation -->
+L’interface est organisée en onglets :
 
-**[!UICONTROL Loyalty Admin]** est organisé en onglets : **[!UICONTROL Paramètres globaux]**, **[!UICONTROL Fournisseurs de récompenses]**, **[!UICONTROL Définitions d’événement]** et **[!UICONTROL Inventaire des produits]**. Les onglets disponibles dépendent des autorisations et de la configuration des fonctionnalités de votre entreprise.
+* **Paramètres globaux** — Définissez l’espace de noms d’identité Experience Platform. [Découvrez comment configurer des paramètres globaux](#global-settings)
+* **Fournisseurs de récompenses** : connectez des API externes qui offrent des récompenses, notamment les types de récompense, les proxys et l’authentification. [Découvrez comment configurer des fournisseurs de récompenses](#reward-providers)
+* **Définitions d’événement** — Mappez les événements d’expérience entrants aux activités que vous pouvez utiliser dans les tâches **[!UICONTROL Événement personnalisé]**. [Découvrez comment configurer des définitions d’événement](#event-definitions)
+* **Inventaire de produits** — Chargez les mises en correspondance article-à-groupe afin de pouvoir utiliser les groupes de produits dans les règles d&#39;éligibilité des tâches. [Découvrez comment configurer l’inventaire des produits](#product-inventory)
+* **Exclusions** — Chargez les exclusions d&#39;articles et de groupes à l&#39;échelle de l&#39;organisation qui s&#39;appliquent lorsque les spécialistes marketing configurent des tâches. [Découvrez comment configurer des exclusions](#exclusions)
 
 ## Paramètres globaux {#global-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Paramètres globaux"
->abstract="Sélectionnez l’espace de noms d’identité Adobe Experience Platform de votre programme de fidélité et copiez votre identifiant de configuration. Ces paramètres au niveau de l’organisation sont requis pour que les fournisseurs de récompenses puissent gérer correctement les récompenses."
+>abstract="Sélectionnez l’espace de noms d’identité Adobe Experience Platform de votre programme de fidélité."
 
-Utilisez **[!UICONTROL Paramètres globaux]** pour configurer des options à l’échelle de l’organisation pour les défis de fidélité.
+Ouvrez l’onglet **[!UICONTROL Paramètres globaux]**. Pour l’instant, la principale configuration disponible dans cet onglet est de sélectionner l’espace de noms d’identité Adobe Experience Platform utilisé par votre programme de fidélité dans le menu déroulant **[!UICONTROL Espace de noms]**.
 
-1. Ouvrez l’onglet **[!UICONTROL Paramètres globaux]**.
+![](assets/admin-global-settings.png)
 
-1. Dans la liste déroulante **[!UICONTROL Espace de noms]**, sélectionnez l’[espace de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces) utilisé par votre programme de fidélité.
-
-1. Sélectionnez **[!UICONTROL Enregistrer]** pour appliquer l’espace de noms à votre configuration des défis de fidélité.
-
-1. Copiez l’**[!UICONTROL ID de configuration]** lorsque vous devez le partager avec votre équipe d’implémentation ou des systèmes externes, par exemple lors de la configuration de la diffusion d’événements entrants.
-
-<!-- SCREENSHOT: Global settings tab showing namespace drop-down, Save, and Configuration ID -->
+➡️ [Découvrez comment utiliser les espaces de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"}
 
 ## Fournisseurs de récompenses {#reward-providers}
 
-Un **fournisseur de récompense** indique à Journey Optimizer où envoyer des appels d’exécution lorsqu’une progression du défi est enregistrée ou qu’un défi est terminé ; par exemple, une API qui attribue des points de fidélité ou des étoiles à un compte de membre.
+Un **fournisseur de récompense** indique aux [!DNL Journey Optimizer] où envoyer des appels d’exécution lorsqu’une progression du défi est enregistrée ou qu’un défi est terminé ; par exemple, une API qui attribue des points de fidélité ou des étoiles à un compte de membre.
 
 Une configuration de fournisseur de récompense comprend :
 
-* Détails de connexion de base (nom, description, URL d’API, en-têtes)
-* **[!UICONTROL Définitions de récompense]** — types de récompense que ce fournisseur peut émettre (par exemple, étoiles ou miles)
-* **[!UICONTROL Proxy de récompense]** (facultatif) : proxy intermédiaire par lequel les appels sont acheminés au lieu de votre point d’entrée directement
-* **[!UICONTROL Générateurs de jetons d’authentification]** : mécanisme utilisé par Journey Optimizer pour obtenir des jetons d’accès avant d’appeler votre API
+![](assets/admin-reward.png)
 
-### Créer un fournisseur de récompense {#create-reward-provider}
+* Détails de base de la connexion (nom, description, URL, en-têtes).
+* **[!UICONTROL Définitions de récompense]** — types de récompense que ce fournisseur peut émettre (par exemple, étoiles ou milles).
+* **[!UICONTROL Proxy Reward]** : proxy intermédiaire par lequel les appels sont acheminés au lieu de votre point d’entrée directement.
+* **[!UICONTROL Générateurs de jetons d’authentification]** : mécanisme utilisé par [!DNL Journey Optimizer] pour obtenir des jetons d’accès avant d’appeler votre API.
+
+Pour créer un fournisseur de récompense, procédez comme suit :
 
 1. Ouvrez l’onglet **[!UICONTROL Fournisseurs de récompenses]** et sélectionnez **[!UICONTROL Créer un fournisseur de récompense]**.
 
-1. Saisissez un **[!UICONTROL Nom]**, **[!UICONTROL Description]** et l’**[!UICONTROL URL de l’API]** qui reçoit les demandes d’exécution.
+1. Saisissez un **[!UICONTROL Nom]** et un **[!UICONTROL Description]**.
+
+1. Dans le champ **[!UICONTROL URL]**, saisissez l’URL d’API qui reçoit les demandes d’exécution.
 
 1. Ajoutez des **[!UICONTROL en-têtes]** selon les besoins de votre API (par exemple, des clés API ou des types de contenu).
 
-1. Configurez **[!UICONTROL Définitions de récompense]** — une entrée par type de récompense pris en charge par votre fournisseur (par exemple, points de programme ou étoiles). Pour chaque définition :
+1. Configurez les ressources ci-dessous associées à votre fournisseur de récompense. Pour plus d’informations, développez chaque section :
 
+   +++Définitions de récompense : une entrée par récompense prise en charge par votre fournisseur (par exemple, points ou étoiles de programme, crédit d’argent)
+
+   Pour chaque définition :
+
+   * Saisissez un nom et une description.
+   * Indiquez si la définition est **[!UICONTROL Activée]**.
+   * Activez/désactivez l’option **![!UICONTROL Default]** pour marquer une définition comme définition par défaut pour ce fournisseur.
    * Spécifiez la **payload** envoyée avec des appels d’exécution.
-   * Vous pouvez éventuellement marquer une définition comme **par défaut** pour ce fournisseur.
 
-1. Vous pouvez éventuellement configurer un **[!UICONTROL proxy Reward]** pour acheminer les appels d’exécution via un serveur intermédiaire :
+   ![](assets/admin-reward-definition.png)
 
-   * **[!UICONTROL Nom]**, **[!UICONTROL Description]** et si le proxy est **activé**
-   * **[!UICONTROL Hôte]**, **[!UICONTROL Port]** et informations d’identification
+   +++
 
-1. Configurez un **[!UICONTROL générateur de jetons d’authentification]** si votre API requiert un jeton porteur pour l’authentification :
+   +++Proxy de récompense : achemine les appels d’exécution via un serveur intermédiaire plutôt que directement vers le point d’entrée .
 
-   * URL du point d’entrée de jeton et méthode HTTP (par exemple, **POST** pour les flux de style OAuth)
-   * **[!UICONTROL Clé du jeton]** dans la réponse (par exemple, `access_token`)
-   * En-têtes requis par le point d’entrée du jeton
+   * Indiquez un nom et une description.
+   * Saisissez les informations **[!UICONTROL Hôte]**, **[!UICONTROL Port]**.
+   * Spécifiez si le proxy est **[!UICONTROL Activé]**.
+   * Ajoutez le proxy **[!UICONTROL Informations d’identification]**.
 
-   Journey Optimizer utilise cette configuration pour obtenir un nouveau jeton avant d’appeler votre API de récompense.
+   ![](assets/admin-reward-proxies.png)
 
-1. Sélectionnez **[!UICONTROL Créer un fournisseur de récompense]**. Le fournisseur et toutes les ressources enfants configurées sont enregistrés ensemble.
+   +++
 
-<!-- SCREENSHOT: Reward provider creation form with definitions, proxy, and auth token sections -->
+   +++Générateur de jeton d’authentification - Si votre API requiert un jeton porteur pour l’authentification
 
-Après l’enregistrement, le fournisseur apparaît dans la liste des fournisseurs de récompenses. Les marketeurs sélectionnent ce fournisseur lors de la [configuration des récompenses du défi](create-challenges.md#rewards).
+   * Saisissez un nom et une description.
+   * Dans le champ Type d’authentification , saisissez le type d’authentification (par exemple, porteur).
+   * Sélectionnez la méthode HTTP à utiliser (par exemple, POST).
+   * Saisissez l’URL du point d’entrée du jeton. et ajoutez la **[!UICONTROL clé de jeton]** dans la réponse (par exemple, `access_token`).
+   * Spécifiez si le générateur de jetons d’authentification est **[!UICONTROL Activé]**.
+   * Ajoutez les en-têtes requis par le point d’entrée du jeton, le cas échéant.
+
+   [!DNL Journey Optimizer] utilise cette configuration pour obtenir un nouveau jeton avant d’appeler votre API de récompense.
+
+   ![](assets/admin-reward-auth.png)
+
+   +++
+
+1. Sélectionnez **[!UICONTROL Créer un fournisseur de récompense]**. Le fournisseur et toutes les ressources configurées sont enregistrés ensemble.
+
+Après l’enregistrement, le fournisseur apparaît dans la liste des fournisseurs de récompenses. Les marketeurs peuvent sélectionner ce fournisseur lors de la configuration des récompenses du défi. [Découvrez comment configurer les récompenses du défi](create-challenges.md#rewards)
 
 Pour modifier un fournisseur de récompense existant, ouvrez l’onglet **[!UICONTROL Fournisseurs de récompense]**, sélectionnez le fournisseur et mettez à jour les champs en place. Les modifications apportées aux ressources enfants (définitions de récompense, proxys, générateurs de jetons d’authentification) sont enregistrées lorsque vous les mettez à jour.
 
-<!-- SCREENSHOT: Reward provider detail view with child resource sections -->
-
 >[!NOTE]
 >
->**[!UICONTROL Apportez vos propres données]** les défis génèrent des récompenses grâce à votre propre intégration de données. Les fournisseurs de récompenses configurés ici ne s’appliquent pas à ces défis. [En savoir plus sur les défis liés aux données à relever](create-challenges.md#create-the-challenge).
+>**[!UICONTROL Apportez vos propres données]** les défis génèrent des récompenses grâce à votre propre intégration de données. Les fournisseurs de récompenses configurés ici ne s’appliquent pas à ces défis. [Découvrez comment créer vos propres défis de données](create-challenges.md#create-the-challenge)
 
 ## Définitions d’événement (facultatif) {#event-definitions}
 
-**[!UICONTROL Définitions des événements]** mappez les événements d’expérience de vos systèmes (quel que soit le format JSON ou XDM utilisé par votre marque) aux activités sur lesquelles les défis de fidélité peuvent agir, notamment les tâches **[!UICONTROL Événement personnalisé]**. Lorsque des événements arrivent, Journey Optimizer utilise ces définitions pour décider de les traiter ou non. Les événements qui ne correspondent à aucune définition sont ignorés.
+**[!UICONTROL Définitions des événements]** mappez les événements d’expérience de vos systèmes (par exemple, achat, enregistrement à l’hôtel) aux activités sur lesquelles les défis de fidélité peuvent agir, notamment les tâches **[!UICONTROL Événement personnalisé]**. Lorsque des événements arrivent, [!DNL Journey Optimizer] utilise ces définitions pour décider de les traiter ou non. Les événements qui ne correspondent à aucune définition sont ignorés.
 
 ### Création d’une définition d’événement {#create-event-definition}
 
 1. Ouvrez l’onglet **[!UICONTROL Définitions d’événement]** et créez une définition.
 
+   ![](assets/admin-event-definition.png)
+
 1. Saisissez un **[!UICONTROL Nom]** pour l’événement (par exemple, `Coffee purchase`) — il s’agit du nom que les spécialistes marketing voient lors de la configuration d’une tâche **[!UICONTROL Événement personnalisé]**.
 
-1. Indiquez comment identifier l’événement dans les payloads entrantes :
+1. Spécifiez la manière dont [!DNL Journey Optimizer] reconnaît l’événement dans les payloads entrants. Fournissez un **[!UICONTROL chemin d’accès à l’identifiant]**, un **[!UICONTROL identifiant de schéma XDM]** ou les deux :
 
-   * **[!UICONTROL Chemin d’accès de l’identifiant]** — Chemin JSON vers le champ qui identifie l’événement ou le membre (par exemple, `data.memberId`)
-   * **[!UICONTROL Valeurs d&#39;identifiant]** — valeurs qui doivent être présentes pour que cette définition corresponde
+   * **[!UICONTROL Chemin d&#39;accès de l&#39;identifiant]** — Chemin d&#39;accès au champ qui identifie l&#39;événement ou le membre (par exemple, `data.memberId`). Utilisez cette option lors de la mise en correspondance des événements par valeurs dans la payload.
+   * **[!UICONTROL Valeurs de l&#39;identifiant]** — Valeurs du chemin d&#39;accès de l&#39;identifiant qui doit être présent pour que cette définition corresponde.
+   * **[!UICONTROL Identifiant du schéma XDM]** : identifiant du schéma XDM Experience Platform pour ce type d’événement. Utilisez cette option lorsque des événements sont capturés par rapport à un schéma connu.
 
-1. Vous pouvez éventuellement spécifier un **[!UICONTROL identifiant de schéma XDM]** si les payloads de l’événement sont conformes à un schéma Experience Platform.
+1. Lorsque les marques envoient des événements dans leur propre format JSON, collez des chaînes dans **[!UICONTROL Schéma]** et **[!UICONTROL Transformateur]** afin que [!DNL Journey Optimizer] puissiez identifier les données, les analyser et décider de les suivre ou non.
 
-1. Utilisez éventuellement les champs **[!UICONTROL Schéma]** et **[!UICONTROL Transformateur]** pour fournir un schéma personnalisé et des chaînes de transformation pour analyser et valider le fichier JSON entrant.
+   * **[!UICONTROL Schéma]** — Chaîne de validation de la payload entrante.
+   * **[!UICONTROL Transformateur]** — Expression de transformation (par exemple, JSONata) qui mappe votre payload au format attendu par Loyalty Challenges.
 
-   Vous pouvez fournir un identifiant de schéma XDM, un chemin d’accès à l’identifiant, ou les deux, selon la structure de vos événements.
+1. Enregistrez la définition de l’événement. Elle apparaît dans la liste **[!UICONTROL Définitions des événements]**. Vous pouvez désormais l’utiliser pour les défis. [Découvrez comment créer des défis](create-challenges.md)
 
-1. Enregistrez la définition de l’événement.
+## Inventaire des produits {#product-inventory}
 
-<!-- SCREENSHOT: Event definition form with identifier path, values, and schema fields -->
+L&#39;onglet **[!UICONTROL Inventaire des produits]** vous permet de regrouper les articles du catalogue afin de les cibler dans des tâches sans répertorier chaque ID d&#39;article. Vous téléchargez un **fichier CSV** qui mappe chaque identifiant d’élément à un ou plusieurs **groupes de produits** (un même élément peut apparaître dans plusieurs groupes). Après l’importation, ces groupes sont disponibles lorsque vous configurez l’éligibilité de la tâche. [Découvrez comment créer des tâches](create-tasks.md)
 
-La plupart des entreprises créent plusieurs définitions d’événement, une par activité dont elles souhaitent effectuer le suivi (par exemple, achat, enregistrement ou visite du site). [Découvrez comment utiliser les tâches d’événement personnalisé dans les défis](create-tasks.md#choose-activity).
+1. Préparez un fichier CSV qui mappe chaque identifiant d’élément à un ou plusieurs groupes de produits. Développez la section ci-dessous pour afficher un exemple.
 
-## Inventaire des produits (facultatif) {#product-inventory}
+   +++Exemple de fichier CSV d’inventaire de produit
 
-Utilisez l’onglet **[!UICONTROL Inventaire des produits]** pour charger un fichier CSV qui mappe les identifiants de produits ou d’articles (par exemple, les identifiants MPG) à des groupes de produits. Les marketeurs peuvent ensuite référencer ces groupes dans les règles d’éligibilité de tâche au lieu de saisir des SKU individuels.
+   ![](assets/admin-inventory-csv.png)
+
+   +++
 
 1. Ouvrez l’onglet **[!UICONTROL Inventaire des produits]**.
 
-1. Chargez votre fichier de mappage.
+1. Cliquez sur le bouton **[!UICONTROL Télécharger]** et sélectionnez votre fichier CSV.
 
-1. Passez en revue les mappages importés dans la liste d&#39;inventaire. Sélectionnez un groupe de produits pour afficher tous les éléments de ce groupe ou utilisez la fonction de recherche pour rechercher des éléments par nom ou ID.
+   ![](assets/admin-inventory-upload.png)
 
-1. Utilisez **[!UICONTROL Historique de chargement]** pour afficher les chargements précédents.
+1. Vérifiez le fichier importé dans la liste d&#39;inventaire. La liste affiche une ligne par élément. Dans la colonne **[!UICONTROL Groupes inclus dans]**, vous voyez chaque groupe de produits auquel cet élément appartient. Chaque groupe apparaît sous la forme d’une pilule (plusieurs pilules si l’élément se trouve dans plusieurs groupes).
 
-<!-- SCREENSHOT: Product inventory list after CSV upload -->
+   ![](assets/admin-inventory-imported.png)
 
->[!NOTE]
->
->**[!UICONTROL Exclusions globales]** pour l’inventaire des produits est prévu pour une version ultérieure et n’est pas documenté ici.
+1. Pour afficher chaque élément d’un groupe de produits, sélectionnez la pilule de ce groupe dans la colonne **[!UICONTROL Groupes inclus dans]** sur n’importe quelle ligne. La vue Détails du groupe répertorie tous les éléments du groupe, et pas seulement l’élément de la ligne que vous avez sélectionnée.
+
+   ![](assets/admin-inventory-group.png)
+
+1. Utilisez **[!UICONTROL Historique de chargement]** pour afficher les chargements précédents de fichiers CSV.
+
+## Exclusions {#exclusions}
+
+L’onglet **[!UICONTROL Exclusions]** vous permet de définir les éléments de catalogue et les groupes qui sont exclus de votre programme de fidélité sans répertorier chaque ID d’élément dans chaque tâche. Vous téléchargez un **fichier CSV** qui mappe chaque identifiant d’élément à un ou plusieurs **groupes d’exclusion** (un même élément peut apparaître dans plusieurs groupes). Après l’importation, ces éléments et groupes sont disponibles dans le créateur de tâches : les éléments exclus sont marqués automatiquement et ne peuvent pas être inclus dans une tâche ; les groupes d’exclusions peuvent uniquement être ajoutés à la liste d’exclusion de la tâche, et non à la liste d’inclusion. [Découvrez comment définir des éléments éligibles et des exclusions sur les tâches](create-tasks.md#eligible-items-exclusions)
+
+1. Préparez un fichier CSV qui mappe chaque identifiant d’élément à un ou plusieurs groupes d’exclusion. Développez la section ci-dessous pour afficher un exemple.
+
+   +++Exemple CSV d’exclusions
+
+   ![](assets/admin-exclusions-csv.png)
+
+   +++
+
+1. Ouvrez l’onglet **[!UICONTROL Exclusions]**.
+
+1. Cliquez sur le bouton **[!UICONTROL Télécharger]** et sélectionnez votre fichier CSV.
+
+   ![](assets/admin-exclusions-upload.png)
+
+1. Vérifiez le fichier importé dans la liste des exclusions. La liste affiche une ligne par élément. Dans la colonne **[!UICONTROL Groupes inclus dans]**, vous voyez chaque groupe d’exclusion auquel cet élément appartient. Chaque groupe apparaît sous la forme d’une pilule (plusieurs pilules si l’élément se trouve dans plusieurs groupes).
+
+1. Pour afficher chaque élément d’un groupe d’exclusion, sélectionnez la pilule de ce groupe dans la colonne **[!UICONTROL Groupes inclus dans]** sur n’importe quelle ligne. La vue Détails du groupe répertorie tous les éléments du groupe, et pas seulement l’élément de la ligne que vous avez sélectionnée.
+
+1. Utilisez **[!UICONTROL Historique de chargement]** pour afficher les chargements précédents de fichiers CSV.
