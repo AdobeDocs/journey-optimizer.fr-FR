@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 3ed592e5a9a0671ddd09d648f7407a391cc9684f
+source-git-commit: 9383220dd57f6a3ebfe67d0d1081b8834b524293
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Pour ouvrir l’interface de configuration, accédez à **[!UICONTROL Fidélité
 
 * **Paramètres globaux** — Sélectionnez l’espace de noms d’identité Experience Platform de votre programme. [Découvrez comment configurer des paramètres globaux](#global-settings)
 * **Fournisseurs de récompenses** : connectez les API qui offrent des récompenses lorsque les clients réalisent des progrès ou relèvent des défis. [Découvrez comment configurer des fournisseurs de récompenses](#reward-providers)
-* **Définitions d’événement** — Mappez les événements d’expérience entrants aux activités utilisées dans les tâches **[!UICONTROL Événement personnalisé]**. [Découvrez comment configurer des définitions d’événement](#event-definitions)
+* **Définitions d’événement** — Mappez les événements d’expérience entrants aux activités utilisées dans les tâches **[!UICONTROL Événement AEP personnalisé]**. [Découvrez comment configurer des définitions d’événement](#event-definitions)
 * **Inventaire des produits** — Chargez les mappings article/groupe à utiliser dans les règles d&#39;éligibilité des tâches. [Découvrez comment configurer l’inventaire des produits](#product-inventory)
 * **Exclusions** — Chargez les exclusions d&#39;articles et de groupes à l&#39;échelle de l&#39;organisation pour la configuration des tâches. [Découvrez comment configurer des exclusions](#exclusions)
 
@@ -100,12 +100,16 @@ Pour créer un fournisseur de récompense, procédez comme suit :
 
    +++Proxy de récompense
 
-   Acheminez les appels d’exécution via un serveur intermédiaire au lieu de les envoyer directement à votre point d’entrée .
+   Acheminez les appels d’exécution via un serveur intermédiaire au lieu de les envoyer directement à votre point d’entrée . Sur les écrans Fournisseur de récompense et **[!UICONTROL Créer un proxy]**, utilisez le champ **[!UICONTROL Informations d’identification]** pour l’authentification du proxy.
 
    * Saisissez un **[!UICONTROL Nom]** et un **[!UICONTROL Description]**.
    * Saisissez **[!UICONTROL Host]** et **[!UICONTROL Port]**.
    * Spécifiez si le proxy est **[!UICONTROL Activé]**.
-   * Ajoutez le proxy **[!UICONTROL Informations d’identification]**.
+   * Dans **[!UICONTROL Informations d’identification]**, saisissez le nom d’utilisateur et le mot de passe du proxy au format JSON. La valeur des informations d’identification ressemble généralement à ce qui suit :
+
+     ```json
+     { "userName": "test", "password": "xxxx" }
+     ```
 
    ![](assets/admin-reward-proxies.png)
 
@@ -140,7 +144,7 @@ Pour modifier un fournisseur de récompense, ouvrez l’onglet **[!UICONTROL Fou
 
 ## Définitions des événements {#event-definitions}
 
-**[!UICONTROL Définitions d’événement]** [!DNL Journey Optimizer] les événements d’expérience entrants à traiter. Par exemple, un achat ou un enregistrement à l’hôtel. Les marketeurs référencent ces définitions dans les tâches **[!UICONTROL Événement personnalisé]**. Les événements qui ne correspondent à aucune définition sont ignorés.
+**[!UICONTROL Définitions d’événement]** [!DNL Journey Optimizer] les événements d’expérience Adobe Experience Platform entrants à traiter. Par exemple, un achat ou un enregistrement à l’hôtel. Les marketeurs référencent ces définitions lorsqu’ils créent des tâches **[!UICONTROL événement AEP personnalisé]**. Les événements qui ne correspondent à aucune définition sont ignorés.
 
 Lorsque votre organisation envoie des événements au format JSON, les options **[!UICONTROL Schéma]** et **[!UICONTROL Transformateur]** [!DNL Journey Optimizer] aident à valider la payload, à l’analyser et à décider de suivre ou non l’activité.
 
@@ -150,7 +154,7 @@ Pour créer une définition d’événement, procédez comme suit :
 
    ![](assets/admin-event-definition.png)
 
-1. Saisissez un **[!UICONTROL Nom]** pour l’événement (par exemple, `Coffee purchase`). Les marketeurs voient ce nom lors de la configuration d’une tâche **[!UICONTROL Événement personnalisé]**.
+1. Saisissez un **[!UICONTROL Nom]** pour l’événement (par exemple, `Coffee purchase`). Les marketeurs voient ce nom lors de la configuration d’une tâche **[!UICONTROL Événement AEP personnalisé]**.
 
 1. Spécifiez la manière dont [!DNL Journey Optimizer] reconnaît l’événement dans les payloads entrants. Fournissez un **[!UICONTROL chemin d’accès à l’identifiant]**, un **[!UICONTROL identifiant de schéma XDM]** ou les deux :
 
@@ -163,7 +167,7 @@ Pour créer une définition d’événement, procédez comme suit :
    * **[!UICONTROL Schéma]** — Chaîne de validation de la payload entrante.
    * **[!UICONTROL Transformateur]** — Expression de transformation (par exemple, JSONata) qui mappe votre payload au format attendu par Loyalty Challenges.
 
-1. Enregistrez la définition de l’événement. Il apparaît dans la liste **[!UICONTROL Définitions d’événement]** et est disponible lorsque les professionnels du marketing créent des défis. [Découvrez comment créer des défis](create-challenges.md)
+1. Enregistrez la définition de l’événement. Elle apparaît dans la liste **[!UICONTROL Définitions d’événement]** et est disponible lorsque les spécialistes marketing créent des tâches **[!UICONTROL Événement AEP personnalisé]**. [Découvrez comment créer des tâches](create-tasks.md#choose-activity)
 
 ## Inventaire des produits {#product-inventory}
 
