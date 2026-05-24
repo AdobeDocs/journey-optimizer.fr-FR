@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 hide: true
-source-git-commit: 09d13d12ba7148abce92c75ad6c2f40e8c7619a3
+source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2770'
 ht-degree: 19%
 
 ---
@@ -70,12 +70,16 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 <p>Vous pouvez désormais définir votre parcours sur <strong>Simulation</strong>. Ce mode permet de valider la logique à l’aide d’<strong>utilisateurs simulés</strong>. Il s’agit de profils temporaires créés spécifiquement pour la simulation, qui vous permettent de tester librement sans avoir à gérer de profils de test persistants dans Adobe Experience Platform.</p>
 <p>Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clients et clientes, avec des fonctions essentielles.</p>
 <p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/simulate-journey.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../building-journeys/simulate-journey.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 5 mai 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
+
+Les fonctionnalités de parcours suivantes sont attendues dans les jours ou semaines à venir.
 
 <table>
 <thead>
@@ -89,7 +93,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 <p>Utilisez le nouveau nœud <strong>Optimiser</strong> pour cibler des audiences spécifiques afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier.</p>
 <p>Cet outil vous permet de développer des campagnes marketing plus efficaces, plus susceptibles de résonner au niveau 1:1, d’améliorer les efforts de personnalisation marketing pour les clients et d’améliorer les KPI d’engagement client essentiels, tels que les conversions et les recettes.</p>
 <p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements.</p>
-<p>Date de disponibilité : 21 mai 2026</p>
+<p>Date de disponibilité : 1 juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -106,15 +110,11 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 <td>
 <p>Vous pouvez désormais utiliser des formules pour augmenter automatiquement les scores de priorité des parcours en fonction des attributs de profil client et de facteurs contextuels, afin que les clients puissent accéder aux parcours les plus pertinents.</p>
 <p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements.</p>
-<p>Date de disponibilité : 21 mai 2026</p>
+<p>Date de disponibilité : 1 juin 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
-
-Les fonctionnalités de parcours suivantes sont attendues dans les jours ou semaines à venir.
 
 <table>
 <thead>
@@ -128,7 +128,7 @@ Les fonctionnalités de parcours suivantes sont attendues dans les jours ou sema
 <p>L’assistant AI fonctionne désormais dans l’éditeur d’expression avancé de parcours pour convertir les invites en langage naturel en expressions valides et en logique conditionnelle. Décrivez l’expression que vous souhaitez créer et l’assistant AI génère un code prêt à l’emploi que vous pouvez appliquer immédiatement ou affiner à l’aide d’invites de relance.</p>
 <p>Cette fonctionnalité est disponible pour tous les clients sous la forme d’un Beta public.</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Date de disponibilité : 22 mai 2026</p>
+<p>Date de disponibilité : 2 juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ Les fonctionnalités de parcours suivantes sont attendues dans les jours ou sema
 <tr>
 <td>
 <p>Publiée précédemment en disponibilité limitée, la simulation de Parcours est désormais disponible pour tous les environnements. Avec cette version de disponibilité générale, vous pouvez désormais utiliser Journey Agent pour générer des utilisateurs et des événements simulés directement dans le menu Simulation .</p>
-<p>Date de disponibilité : 1 juin 2026</p>
+<p>Date de disponibilité : début juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -154,17 +154,13 @@ Les fonctionnalités de parcours suivantes sont attendues dans les jours ou sema
 
   Notez que ce comportement ne s’applique pas aux parcours qui incluent des nœuds provoquant des périodes d’attente, tels que les nœuds d’attente, les nœuds de réaction ou les transitions déclenchées par un événement. Ces parcours restent soumis à la temporisation globale standard de 91 jours.
 
-  Date de disponibilité : 21 mai 2026
+  Date de disponibilité : 2 juin 2026
 
 * **Authentification personnalisée basée sur un certificat dans les actions personnalisées** - Les actions personnalisées prennent désormais en charge l’authentification personnalisée basée sur un certificat. En ajoutant `subType: "certificateCredential"` à une configuration d’autorisation personnalisée, Journey Optimizer utilise un certificat géré Adobe pour signer une assertion client JWT et l’échanger contre un jeton d’accès (aucun secret client requis). Conçu pour les API d’entreprise qui appliquent la vérification d’identité avec certificat, comme l’Azure Entra ID.
 
-  Date de disponibilité : 21 mai 2026
+  Date de disponibilité : 2 juin 2026
 
-* **Personnalisation en boucle des données relationnelles** - L’éditeur de personnalisation prend désormais en charge un bloc Boucle qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise.
-
-  Date de disponibilité : 1 juin 2026
-
-* **Prise en charge des identifiants supplémentaires pour les audiences externes** - Les identifiants supplémentaires dans les parcours sont désormais pris en charge pour les audiences externes, y compris les audiences importées d’un fichier CSV et les audiences créées avec la composition d’audience fédérée. Vous pouvez désigner n’importe quel attribut de non-identité ou attribut d’identité de non-personne de l’audience comme ID supplémentaire. Aucun étiquetage de schéma n’est requis.
+* **Prise en charge des identifiants supplémentaires pour les audiences externes** - Les identifiants supplémentaires dans les parcours sont désormais pris en charge pour les audiences externes, y compris les audiences importées d’un fichier CSV et les audiences créées avec la composition d’audience fédérée. Vous pouvez désigner n’importe quel attribut de non-identité ou attribut d’identité non-personne de l’audience comme ID supplémentaire. Aucun étiquetage de schéma n’est nécessaire.
 
   Date de disponibilité : 1 juin 2026
 
@@ -218,6 +214,10 @@ La fonctionnalité de campagne orchestrée suivante est prévue dans les jours o
 </tbody>
 </table>
 
+* **Personnalisation en boucle des données relationnelles** - L’éditeur de personnalisation prend désormais en charge un bloc Boucle qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise.
+
+  Date de disponibilité : 1 juin 2026
+
 +++
 
 ### Campagnes {#may-26-campaigns}
@@ -251,7 +251,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à Decision
 <td>
 <p>[!DNL Adobe Journey Optimizer] utilise désormais l’IA pour détecter les règles de prise de décision et les formules de classement qui peuvent être simplifiées. Dans l’inventaire, un indicateur rouge s’affiche sur toute règle pour laquelle l’IA a identifié une opportunité d’optimisation. Cliquez sur l’indicateur pour afficher l’expression d’origine avec la version suggérée par l’IA. À partir de là, vous pouvez télécharger un fichier pour examiner la manière dont les profils simulés sont évalués par chaque version et confirmer qu’ils se comportent de manière identique, puis remplacer l’expression par l’expression optimisée.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 5 mai 2026</p>
 </td>
 </tr>
@@ -306,12 +306,16 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées au canal e-
 <td>
 <p>Il est désormais possible d’ajouter des liens profonds au contenu de votre e-mail par le biais d’une option dans le Concepteur d’e-mail.</p><p>Cela permet aux utilisateurs et utilisatrices d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../email/deeplinks.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../email/deeplinks.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 12 mai 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+* **Limiter la rupture d’héritage dans les fragments** - Lors de la création ou de la modification d’un fragment, vous pouvez désormais choisir s’il peut être modifié lorsqu’il est utilisé dans des e-mails. Le verrouillage d’un fragment garantit qu’il reste synchronisé partout où il apparaît, empêchant les modifications locales qui pourraient enfreindre les normes de la marque ou les exigences de conformité. Ce paramètre peut être mis à jour ultérieurement et s’appliquer aux utilisations futures. [En savoir plus](../content-management/create-fragments.md#lock-visual-fragment)
+
+  Date de disponibilité : 21 mai 2026
 
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
@@ -322,14 +326,6 @@ Les améliorations suivantes du canal e-mail sont attendues dans les prochains j
   Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
 
   Date de disponibilité : 1 juin 2026
-
-* **Texte enrichi dans les champs de fragment modifiables** - Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de votre e-mail. Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.
-
-  Date de disponibilité : 1 juin 2026
-
-* **Limiter la rupture d’héritage dans les fragments** - Lors de la création ou de la modification d’un fragment, vous pouvez désormais choisir s’il peut être modifié lorsqu’il est utilisé dans des e-mails. Le verrouillage d’un fragment garantit qu’il reste synchronisé partout où il apparaît, empêchant les modifications locales qui pourraient enfreindre les normes de la marque ou les exigences de conformité. Ce paramètre peut être mis à jour ultérieurement et s’appliquer aux utilisations futures.
-
-  Date de disponibilité : 21 mai 2026
 
 +++
 
@@ -442,7 +438,7 @@ Les améliorations d’administration suivantes sont attendues dans les jours ou
 
 * **Dossiers pour les parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes dans des dossiers pour améliorer la navigation et la gestion dans l’interface.
 
-  Date de disponibilité : 21 mai 2026
+  Date de disponibilité : 2 juin 2026
 
 * **Jeu de données d’événement de retour de message passant à l’ingestion par lots** - Le `AJO Message Feedback Event Dataset` passe de la diffusion en continu au mode d’ingestion par lots. Cette modification garantit que l’ingestion de données ne dépasse pas les limites d’ingestion en flux continu. Si vous utilisez ce jeu de données dans des rapports Customer Journey Analytics ou si vous exécutez des requêtes sur celui-ci, attendez-vous à une augmentation de la latence des données allant jusqu’à 2 heures.
 
