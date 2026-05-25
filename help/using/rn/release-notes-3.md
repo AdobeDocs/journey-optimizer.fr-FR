@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 hide: true
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 19%
+source-wordcount: '2734'
+ht-degree: 20%
 
 ---
 
@@ -70,7 +70,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 <p>Vous pouvez désormais définir votre parcours sur <strong>Simulation</strong>. Ce mode permet de valider la logique à l’aide d’<strong>utilisateurs simulés</strong>. Il s’agit de profils temporaires créés spécifiquement pour la simulation, qui vous permettent de tester librement sans avoir à gérer de profils de test persistants dans Adobe Experience Platform.</p>
 <p>Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clients et clientes, avec des fonctions essentielles.</p>
 <p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>Pour plus d'informations, consultez la <a href="../building-journeys/simulate-journey.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/simulate-journey.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 5 mai 2026</p>
 </td>
 </tr>
@@ -222,8 +222,6 @@ La fonctionnalité de campagne orchestrée suivante est prévue dans les jours o
 
 ### Campagnes {#may-26-campaigns}
 
-Les améliorations suivantes sont attendues dans les prochains jours ou les prochaines semaines.
-
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Alertes client pour les événements de cycle de vie de campagne** - Les nouvelles alertes système vous informent désormais des événements de cycle de vie clés pour les campagnes déclenchées par action et par API. S’abonner au niveau du sandbox.
@@ -306,7 +304,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées au canal e-
 <td>
 <p>Il est désormais possible d’ajouter des liens profonds au contenu de votre e-mail par le biais d’une option dans le Concepteur d’e-mail.</p><p>Cela permet aux utilisateurs et utilisatrices d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>Pour plus d'informations, consultez la <a href="../email/deeplinks.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../email/deeplinks.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 12 mai 2026</p>
 </td>
 </tr>
@@ -432,8 +430,6 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 
 ### Administration {#may-26-admin}
 
-Les améliorations d’administration suivantes sont attendues dans les jours ou semaines à venir.
-
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Dossiers pour les parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes dans des dossiers pour améliorer la navigation et la gestion dans l’interface.
@@ -446,9 +442,7 @@ Les améliorations d’administration suivantes sont attendues dans les jours ou
 
 +++
 
-### Création de rapports {#may-26-reporting}
-
-L’amélioration suivante des rapports est attendue dans les jours ou semaines à venir.
+### Reporting {#may-26-reporting}
 
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
