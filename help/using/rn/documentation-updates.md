@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
+source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
 workflow-type: tm+mt
-source-wordcount: '7851'
-ht-degree: 91%
+source-wordcount: '7894'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 91%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Mai 2026 {#may-2026}
+
+* La page **Notes de mise à jour** a été restructurée avec une disposition thématique. Les modifications sont désormais regroupées par zone de produit plutôt que par type de modification, avec une nouvelle section dédiée **Améliorations de l’utilisation**. Les entrées bientôt disponibles apparaissent sous la forme d’accordéons extensibles dans chaque rubrique. [En savoir plus](release-notes.md)
 
 * La page **Mécanismes de sécurisation et limitations des campagnes orchestrées** documente désormais la limite **activités de canal** par campagne orchestrée. [En savoir plus](../orchestrated/guardrails.md#activities-limitations)
 
