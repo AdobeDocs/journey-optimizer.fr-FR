@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 hide: true
-source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
+source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 20%
+source-wordcount: '2957'
+ht-degree: 18%
 
 ---
 
@@ -249,7 +249,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à Decision
 <td>
 <p>[!DNL Adobe Journey Optimizer] utilise désormais l’IA pour détecter les règles de prise de décision et les formules de classement qui peuvent être simplifiées. Dans l’inventaire, un indicateur rouge s’affiche sur toute règle pour laquelle l’IA a identifié une opportunité d’optimisation. Cliquez sur l’indicateur pour afficher l’expression d’origine avec la version suggérée par l’IA. À partir de là, vous pouvez télécharger un fichier pour examiner la manière dont les profils simulés sont évalués par chaque version et confirmer qu’ils se comportent de manière identique, puis remplacer l’expression par l’expression optimisée.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>Pour plus d'informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 5 mai 2026</p>
 </td>
 </tr>
@@ -427,6 +427,28 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 </table>
 
 * **Accès aux référentiels interorganisations dans le sélecteur Assets** - Vous pouvez désormais sélectionner facilement des ressources à partir de référentiels dans plusieurs organisations directement dans le sélecteur de ressources Adobe Experience Manager.
+
+### Utilisation {#may-26-usability}
+
+Les améliorations d’utilisation suivantes ont été ajoutées dans cette version.
+
+#### Listes
+
+* **Actions en bloc** - Vous pouvez désormais sélectionner plusieurs éléments à la fois dans les listes **Campagnes**, **Fragments** et **Modèles** et effectuer des opérations en bloc à partir d’une seule barre d’actions, y compris ajouter des éléments à un package, les déplacer vers un dossier, modifier des balises, gérer l’accès et les archiver ou les supprimer. [En savoir plus](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **Tri et redimensionnement des colonnes** - Les listes **Campagnes**, **Fragments** et **Modèles** prennent désormais en charge le tri en cliquant sur l’un des en-têtes de colonne. Dans la vue des dossiers Campagnes , le tri et le filtrage par **[!UICONTROL Priorité]** et **[!UICONTROL Configuration du canal]** sont également disponibles. Les largeurs de colonne des listes **Fragments** et **Modèles** peuvent également être redimensionnées. Faites glisser la bordure de la colonne pour l’adapter aux données qui vous intéressent le plus. [En savoir plus](../start/search-filter-categorize.md#filter-lists)
+
+#### Création de contenu
+
+* **Modification d’attributs de profil en ligne** - Vous pouvez désormais insérer des expressions d’attribut de profil directement dans le Designer d’e-mail sans ouvrir l’éditeur de personnalisation complet. Saisissez `{{` dans n’importe quel champ de texte pour ouvrir une liste déroulante de saisie semi-automatique, puis recherchez et sélectionnez l’attribut dont vous avez besoin ; il est inséré instantanément à l’emplacement du curseur. Cette fonctionnalité est également disponible dans l’éditeur de canal push. [En savoir plus](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Infobulle URL du lien dans l’éditeur de canal push** - Lorsqu’une URL dans un lien ou un champ de média est trop longue à afficher, une icône d’info-bulle est toujours visible à côté du champ - passez la souris sur celle-ci pour afficher l’URL complète. [En savoir plus](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 
 ### Administration {#may-26-admin}
 
