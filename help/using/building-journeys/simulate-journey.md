@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 4%
+source-wordcount: '1912'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> Cette fonctionnalité est disponible pour tous les clients en tant que disponibilité limitée avec des fonctionnalités essentielles.
+> Cette fonctionnalité est actuellement en disponibilité limitée pour l’ensemble des clients et clientes, avec des fonctions essentielles.
 
 Vous pouvez définir le parcours sur **[!UICONTROL Simulation]** en plus de **Brouillon**, **Mode test** et **En direct**. Dans la simulation, vous testez avec des **utilisateurs simulés** : entités temporaires de type profil que vous ajoutez, sans utiliser de profils de test persistants dans Adobe Experience Platform.
 
@@ -39,7 +39,7 @@ Notez que Parcours Simulation est en **disponibilité limitée**. Pour partager 
 
 >[!IMPORTANT]
 >
->Vous avez besoin de l’autorisation **Simuler des parcours** pour accéder à la fonctionnalité **[!UICONTROL Simulation]**. [En savoir plus](../administration/permissions.md)
+>Vous avez besoin d’au moins de l’une des autorisations suivantes pour accéder à la fonction **[!UICONTROL Simulation]** : **Simuler des parcours**, **Publier des parcours** ou **Approuver et publier des parcours**. [En savoir plus](../administration/permissions.md)
 
 Les utilisateurs simulés sont des entités temporaires de type profil que vous définissez dans **[!UICONTROL Paramètres de simulation]**. Cette section explique comment les créer, à partir de l’interface utilisateur ou d’un fichier JSON, les enregistrer pour les réutiliser, les ajuster ou les supprimer de la liste et les envoyer dans le parcours.
 
