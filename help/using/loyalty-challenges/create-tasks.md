@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1004'
 ht-degree: 18%
 
 ---
@@ -22,15 +22,26 @@ ht-degree: 18%
 
 >[!BEGINSHADEBOX]
 
-**Documentation sur les défis de fidélité :**
+**Documentation sur les défis de fidélité**
 
-* [Prise en main des défis de fidélité](get-started.md)
+[Prise en main des défis de fidélité](get-started.md)
+
++++Créer et gérer des défis
+
 * [Accéder aux défis et aux tâches et les gérer](access-loyalty-challenges.md)
 * [Créer des défis](create-challenges.md)
 * **Créer des tâches** ◀︎ **Vous êtes ici**
 * [Surveillance des performances des défis de fidélité](loyalty-reporting.md)
-<!-- * [Configure the loyalty program](loyalty-admin.md) -->
+
++++
+
++++Configuration et intégration
+
+<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Données et jeux de données de fidélité](loyalty-data-and-datasets.md)
 * [Référence de l’API pour les défis de fidélité](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
