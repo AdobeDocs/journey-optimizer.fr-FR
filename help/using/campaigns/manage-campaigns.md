@@ -11,26 +11,16 @@ level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 1692
-ht-degree: 95%
+source-wordcount: 1760
+ht-degree: 91%
 
 ---
 
@@ -96,6 +86,8 @@ Chaque campagne orchestrée figurant dans la liste affiche des informations tell
 
 Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Vous pouvez par exemple filtrer les campagnes afin de n’afficher que celles associées à un canal ou une balise en particulier ou celles créées au cours d’une période spécifique.
 
+Vous pouvez également trier la liste en cliquant sur la plupart des en-têtes de colonne. Dans la vue Dossiers, le tri et le filtrage par colonnes **[!UICONTROL Priorité]** et **[!UICONTROL Configuration du canal]** sont également pris en charge.
+
 ## Opérations de campagne {#operations}
 
 Le bouton ![image montrant le bouton Plus d’actions](assets/do-not-localize/rule-builder-icon-more.svg) dans l’inventaire des campagnes permet d’effectuer différentes opérations.
@@ -120,6 +112,10 @@ Le bouton ![image montrant le bouton Plus d’actions](assets/do-not-localize/ru
 **Pour les campagnes orchestrées uniquement :**
 
 * **[!UICONTROL Retour au brouillon]** - Dépubliez et revenez à l’état de brouillon d’une campagne pour la récupération des erreurs. Cette action est disponible lorsqu’une campagne planifiée n’a pas encore démarré ou lorsqu’une campagne active rencontre une erreur avant que les exécutions ne soient terminées. [En savoir plus sur la restauration de campagnes →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
+### Actions en masse {#bulk-actions-campaigns}
+
+Vous pouvez sélectionner plusieurs campagnes à la fois et leur appliquer des opérations en bloc. Les opérations disponibles incluent l’ajout d’éléments à un package, leur déplacement vers un dossier, la modification des balises, la gestion de l’accès et la suppression. [En savoir plus sur les actions en bloc →](../start/search-filter-categorize.md#bulk-actions)
 
 ## Comprendre les statuts de campagne {#statuses}
 
@@ -278,7 +274,7 @@ La campagne est créée et ajoutée à la liste des campagnes.
 
 ## Ressources supplémentaires
 
-* **Prise en main** - [Commencer avec les campagnes](get-started-with-campaigns.md) | [Créer votre première campagne d’action](create-campaign.md) | [Guide des campagnes déclenchées par API &#x200B;](api-triggered-campaigns.md) | [Guide des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
+* **Prise en main** - [Commencer avec les campagnes](get-started-with-campaigns.md) | [Créer votre première campagne d’action](create-campaign.md) | [Guide des campagnes déclenchées par API ](api-triggered-campaigns.md) | [Guide des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
 
 * **Configuration de la campagne** - [Propriétés de la campagne](campaign-properties.md) | [Actions et canaux de campagne](campaign-action.md) | [Conception de contenu de campagne](campaign-content.md) | [Sélection de l’audience de campagne](campaign-audience.md) | [Planification de campagne](campaign-schedule.md)
 

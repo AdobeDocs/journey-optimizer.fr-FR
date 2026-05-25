@@ -9,29 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 100%
+source-wordcount: 798
+ht-degree: 84%
 
 ---
 
@@ -53,7 +40,7 @@ Appuyez sur **Entrée** pour accéder à tous les résultats et filtrer par obje
 
 ## Filtrer les listes {#filter-lists}
 
-Dans la plupart des listes, utilisez la barre de recherche pour rechercher des éléments spécifiques et définir des critères de filtrage.
+Dans la plupart des listes, utilisez la barre de recherche pour rechercher des éléments spécifiques et définir des critères de filtrage. Vous pouvez également trier n’importe quelle liste en cliquant sur un en-tête de colonne. Dans la vue des dossiers Campagnes , le tri par **[!UICONTROL Priorité]** et **[!UICONTROL Configuration du canal]** est également pris en charge.
 
 Pour accéder aux filtres, cliquez sur l’icône en forme de filtre en haut à gauche d’une liste. Le menu Filtrer vous permet de filtrer les éléments affichés selon différents critères : vous pouvez choisir d’afficher uniquement les éléments d’un certain type ou statut, ceux que vous avez créés ou ceux que vous avez modifiés au cours des 30 derniers jours. Les options varient en fonction du contexte.
 
@@ -66,6 +53,21 @@ De plus, vous pouvez utiliser les balises unifiées pour filtrer une liste en fo
 Il est possible d’effectuer des actions de base sur chaque élément des différentes listes. Vous pouvez par exemple dupliquer ou supprimer un élément.
 
 ![](assets/journey4.png)
+
+## Actions en masse {#bulk-actions}
+
+Dans les listes **Campagnes**, **Fragments** et **Modèles**, vous pouvez sélectionner plusieurs éléments à la fois à l’aide des cases à cocher et leur appliquer des opérations à tous à partir d’une barre d’actions en masse qui s’affiche en bas de l’écran.
+
+Les opérations disponibles sont les suivantes :
+
+* **[!UICONTROL Ajouter au package]** - Exportez les éléments sélectionnés vers un autre sandbox. [En savoir plus sur l’export d’objets →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Déplacer vers le dossier]** - Déplacez les éléments sélectionnés dans un dossier.
+* **[!UICONTROL Modifier les balises]** - Modifiez les balises affectées aux éléments sélectionnés. [En savoir plus sur l’utilisation des balises →](#add-tags)
+* **[!UICONTROL Gérer l’accès]** - Appliquer les libellés d’accès aux éléments sélectionnés. [En savoir plus sur les → de contrôle d’accès au niveau de l’objet](../administration/object-based-access.md)
+* **[!UICONTROL Archiver]** - Archivez les éléments sélectionnés. Disponible pour les fragments et les modèles.
+* **[!UICONTROL Supprimer]** - Supprimez définitivement les éléments sélectionnés. Disponible uniquement pour les campagnes.
+
+![](assets/bulk-actions-fragments.png)
 
 ## Utiliser des balises unifiées {#tags}
 
