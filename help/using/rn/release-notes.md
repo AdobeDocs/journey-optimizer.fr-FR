@@ -8,30 +8,15 @@ level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b129e622e0172233b9513c580627530573ed8ee
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
 workflow-type: tm+mt
-source-wordcount: 2958
+source-wordcount: 2937
 ht-degree: 18%
 
 ---
@@ -201,7 +186,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux campagn
 <p>Les campagnes orchestrées peuvent désormais être liées en déclenchant une campagne orchestrée directement à partir de l’activité <strong>Fin</strong> d’une autre campagne orchestrée.</p>
 <p>Cela permet de diviser une logique d’orchestration complexe en flux plus petits et réutilisables qui peuvent être appelés à partir de plusieurs campagnes parentes plutôt que reconstruits à chaque fois. La payload transmise au moment de l’exécution est disponible pour la segmentation et la personnalisation dans la campagne en aval. De ce fait, chaque campagne liée peut se comporter en fonction du contexte qu’elle reçoit.</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
-<p>Pour plus d'informations, consultez la <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 20 mai 2026</p>
 </td>
 </tr>
@@ -268,7 +253,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à Decision
 <td>
 <p>[!DNL Adobe Journey Optimizer] utilise désormais l’IA pour détecter les règles de prise de décision et les formules de classement qui peuvent être simplifiées. Dans l’inventaire, un indicateur rouge s’affiche sur toute règle pour laquelle l’IA a identifié une opportunité d’optimisation. Cliquez sur l’indicateur pour afficher l’expression d’origine avec la version suggérée par l’IA. À partir de là, vous pouvez télécharger un fichier pour examiner la manière dont les profils simulés sont évalués par chaque version et confirmer qu’ils se comportent de manière identique, puis remplacer l’expression par l’expression optimisée.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 5 mai 2026</p>
 </td>
 </tr>
@@ -462,7 +447,7 @@ Les améliorations d’utilisation suivantes ont également été publiées en m
 
 #### Création de contenu
 
-* **Modification d’attributs de profil en ligne** - Vous pouvez désormais insérer des expressions d’attribut de profil directement dans le Designer d’e-mail sans ouvrir l’éditeur de personnalisation complet. Saisissez `{{` dans n’importe quel champ de texte pour ouvrir une liste déroulante de saisie semi-automatique, puis recherchez et sélectionnez l’attribut dont vous avez besoin ; il est inséré instantanément à l’emplacement du curseur. Cette fonctionnalité est également disponible dans l’éditeur de canal push. [En savoir plus](../personalization/personalize.md#inline-personalization)
+* **Modification d’attributs de profil en ligne** - La modification d’attributs de profil en ligne dans le Designer d’e-mail a été initialement publiée en avril. Dans le cadre de la version de mai, cette fonctionnalité a été découplée de l’assistant AI et étendue à l’éditeur de canal push. [En savoir plus](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
