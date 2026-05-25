@@ -11,7 +11,7 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
+source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 6%
@@ -61,9 +61,9 @@ Contactez votre administrateur Adobe pour la configuration du programme Journey 
 
 Mettez les audiences, la personnalisation et les profils d’utilisation de rapports au défi dans la classe **[!DNL XDM Individual Profile]**. Alignez l’identité [espace de noms](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"} que vous utilisez pour les défis de fidélité sur la manière dont les membres sont identifiés dans vos données de profil.
 
-Pour les attributs de fidélité standard sur le profil (points, niveau, programme, statut et champs associés), utilisez le groupe de champs de schéma Experience Platform **[Détails de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**. Ce groupe de champs définit l’objet `loyalty` et ses propriétés (par exemple `points`, `tier`, `program` et `status`).
+Pour les attributs de fidélité standard sur le profil (points, niveau, programme, statut et champs associés), utilisez le groupe de champs de schéma Experience Platform **[Détails de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**. Ce groupe de champs définit l’objet `loyalty` et ses propriétés (par exemple `points`, `tier`, `program` et `status`).
 
-➡️ [Groupe de champs de schéma Détails de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Groupe de champs de schéma Détails de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### Événements d’expérience {#experience-events}
 
