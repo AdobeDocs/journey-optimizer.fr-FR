@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 833
-ht-degree: 70%
+source-wordcount: 900
+ht-degree: 65%
 
 ---
 
@@ -114,6 +114,12 @@ Pour parcourir facilement vos modèles de contenu, utilisez des dossiers pour mi
 >[!NOTE]
 >
 >Lorsqu’un modèle est modifié ou supprimé, les campagnes ou les parcours, y compris le contenu créé à l’aide de ce modèle, ne sont pas affectés.
+
+## Actions en masse {#bulk-actions-templates}
+
+Vous pouvez sélectionner plusieurs modèles à la fois et leur appliquer des opérations en bloc. Les opérations disponibles incluent l’ajout d’éléments à un package, leur déplacement dans un dossier, la modification de balises, la gestion de l’accès et l’archivage. [En savoir plus sur les actions en bloc →](../start/search-filter-categorize.md#bulk-actions)
+
+Vous pouvez également trier la liste de modèles en cliquant sur la plupart des en-têtes de colonne et redimensionner les colonnes en faisant glisser la bordure de colonne pour l’adapter aux données dont vous avez besoin.
 
 ## [!BADGE Disponibilité limitée]{type=Informative} afficher les modèles sous forme de miniatures {#template-thumbnails}
 

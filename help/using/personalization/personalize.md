@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6d62604f975fce76860eba000a09870806d54934
+source-git-commit: 124dbfa4f2798aa7839dd9215b96207f43fac3d6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 91%
+source-wordcount: '681'
+ht-degree: 82%
 
 ---
 
@@ -58,6 +58,18 @@ Dans l’**[!UICONTROL Éditeur]** ou dans la barre d’outils Designer d’e-ma
 ![](../content-management/assets/ai-perso-generate.png)
 
 ➡️ [Découvrez comment utiliser l’assistant AI pour les expressions Personalization](../content-management/generative-personalization-expressions.md)
+
+## Modification en ligne des attributs de profil {#inline-personalization}
+
+Vous pouvez insérer des expressions d’attribut de profil directement lors de la modification du contenu dans l’éditeur **Email Designer** ou **Canal push**, sans ouvrir l’éditeur de personnalisation complet.
+
+Pour ce faire, procédez comme suit :
+
+1. Saisissez `{{` dans un champ de texte. Une liste déroulante de saisie automatique intégrée s’ouvre à l’emplacement du curseur.
+1. Commencez la saisie pour filtrer les attributs de profil disponibles.
+1. Sélectionnez l’attribut dont vous avez besoin : il est inséré en tant que jeton de personnalisation à la position du curseur.
+
+![](assets/inline-profile-attributes.png)
 
 ## Explorons plus en détail.
 

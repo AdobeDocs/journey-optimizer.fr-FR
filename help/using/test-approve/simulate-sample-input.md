@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a5b3c77265409031736232f33e0c750403a04bb5
 workflow-type: tm+mt
 source-wordcount: 992
 ht-degree: 89%
@@ -136,6 +136,14 @@ Vous pouvez également charger un fichier avec des variantes et des valeurs pré
 Une fois les variantes ajoutées, vous pouvez les utiliser pour prévisualiser votre contenu dans le volet de droite et envoyer des BAT d’e-mail.
 
 ### Prévisualiser les variations de contenu {#preview}
+
+<!--
+The preview screen uses a **side-by-side layout** that displays multiple profiles simultaneously, so you can compare how your content renders for different recipients at a glance without switching between variants.
+
+![](assets/simulation-preview-redesign.png)
+
+To preview your content, select a variant from the list — the preview pane updates to show the content rendered with that variant's values. Select multiple variants to display them side by side for quick comparison.
+-->
 
 Pour prévisualiser votre contenu à l’aide d’une variante, sélectionnez la variante appropriée dans la liste pour mettre à jour le contenu du volet d’aperçu avec les informations saisies pour cette variante.
 

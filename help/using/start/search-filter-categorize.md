@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 100%
+source-wordcount: 798
+ht-degree: 84%
 
 ---
 
@@ -53,7 +53,7 @@ Appuyez sur **Entrée** pour accéder à tous les résultats et filtrer par obje
 
 ## Filtrer les listes {#filter-lists}
 
-Dans la plupart des listes, utilisez la barre de recherche pour rechercher des éléments spécifiques et définir des critères de filtrage.
+Dans la plupart des listes, utilisez la barre de recherche pour rechercher des éléments spécifiques et définir des critères de filtrage. Vous pouvez également trier n’importe quelle liste en cliquant sur un en-tête de colonne. Dans la vue des dossiers Campagnes , le tri par **[!UICONTROL Priorité]** et **[!UICONTROL Configuration du canal]** est également pris en charge.
 
 Pour accéder aux filtres, cliquez sur l’icône en forme de filtre en haut à gauche d’une liste. Le menu Filtrer vous permet de filtrer les éléments affichés selon différents critères : vous pouvez choisir d’afficher uniquement les éléments d’un certain type ou statut, ceux que vous avez créés ou ceux que vous avez modifiés au cours des 30 derniers jours. Les options varient en fonction du contexte.
 
@@ -66,6 +66,21 @@ De plus, vous pouvez utiliser les balises unifiées pour filtrer une liste en fo
 Il est possible d’effectuer des actions de base sur chaque élément des différentes listes. Vous pouvez par exemple dupliquer ou supprimer un élément.
 
 ![](assets/journey4.png)
+
+## Actions en masse {#bulk-actions}
+
+Dans les listes **Campagnes**, **Fragments** et **Modèles**, vous pouvez sélectionner plusieurs éléments à la fois à l’aide des cases à cocher et leur appliquer des opérations à tous à partir d’une barre d’actions en masse qui s’affiche en bas de l’écran.
+
+Les opérations disponibles sont les suivantes :
+
+* **[!UICONTROL Ajouter au package]** - Exportez les éléments sélectionnés vers un autre sandbox. [En savoir plus sur l’export d’objets →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Déplacer vers le dossier]** - Déplacez les éléments sélectionnés dans un dossier.
+* **[!UICONTROL Modifier les balises]** - Modifiez les balises affectées aux éléments sélectionnés. [En savoir plus sur l’utilisation des balises →](#add-tags)
+* **[!UICONTROL Gérer l’accès]** - Appliquer les libellés d’accès aux éléments sélectionnés. [En savoir plus sur les → de contrôle d’accès au niveau de l’objet](../administration/object-based-access.md)
+* **[!UICONTROL Archiver]** - Archivez les éléments sélectionnés. Disponible pour les fragments et les modèles.
+* **[!UICONTROL Supprimer]** - Supprimez définitivement les éléments sélectionnés. Disponible uniquement pour les campagnes.
+
+![](assets/bulk-actions-fragments.png)
 
 ## Utiliser des balises unifiées {#tags}
 

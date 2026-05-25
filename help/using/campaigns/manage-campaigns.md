@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 1692
-ht-degree: 95%
+source-wordcount: 1760
+ht-degree: 91%
 
 ---
 
@@ -96,6 +96,8 @@ Chaque campagne orchestrée figurant dans la liste affiche des informations tell
 
 Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Vous pouvez par exemple filtrer les campagnes afin de n’afficher que celles associées à un canal ou une balise en particulier ou celles créées au cours d’une période spécifique.
 
+Vous pouvez également trier la liste en cliquant sur la plupart des en-têtes de colonne. Dans la vue Dossiers, le tri et le filtrage par colonnes **[!UICONTROL Priorité]** et **[!UICONTROL Configuration du canal]** sont également pris en charge.
+
 ## Opérations de campagne {#operations}
 
 Le bouton ![image montrant le bouton Plus d’actions](assets/do-not-localize/rule-builder-icon-more.svg) dans l’inventaire des campagnes permet d’effectuer différentes opérations.
@@ -120,6 +122,10 @@ Le bouton ![image montrant le bouton Plus d’actions](assets/do-not-localize/ru
 **Pour les campagnes orchestrées uniquement :**
 
 * **[!UICONTROL Retour au brouillon]** - Dépubliez et revenez à l’état de brouillon d’une campagne pour la récupération des erreurs. Cette action est disponible lorsqu’une campagne planifiée n’a pas encore démarré ou lorsqu’une campagne active rencontre une erreur avant que les exécutions ne soient terminées. [En savoir plus sur la restauration de campagnes →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
+### Actions en masse {#bulk-actions-campaigns}
+
+Vous pouvez sélectionner plusieurs campagnes à la fois et leur appliquer des opérations en bloc. Les opérations disponibles incluent l’ajout d’éléments à un package, leur déplacement vers un dossier, la modification des balises, la gestion de l’accès et la suppression. [En savoir plus sur les actions en bloc →](../start/search-filter-categorize.md#bulk-actions)
 
 ## Comprendre les statuts de campagne {#statuses}
 

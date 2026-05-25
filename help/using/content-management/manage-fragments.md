@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 1456
-ht-degree: 100%
+source-wordcount: 1523
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,12 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 * Déplacez le fragment vers un dossier. [En savoir plus](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Actions en masse {#bulk-actions-fragments}
+
+Vous pouvez sélectionner plusieurs fragments à la fois et leur appliquer des opérations en bloc. Les opérations disponibles incluent l’ajout d’éléments à un package, leur déplacement dans un dossier, la modification de balises, la gestion de l’accès et l’archivage. [En savoir plus sur les actions en bloc →](../start/search-filter-categorize.md#bulk-actions)
+
+Vous pouvez également trier la liste de fragments en cliquant sur l’en-tête d’une colonne et redimensionner les colonnes en faisant glisser la bordure de la colonne pour l’adapter aux données dont vous avez besoin.
 
 ## Utiliser des dossiers pour gérer les fragments {#folders}
 
