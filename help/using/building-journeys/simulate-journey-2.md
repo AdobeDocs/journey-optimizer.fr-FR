@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ Continuez avec [Créer et gérer des utilisateurs simulés](#test-users), [Décl
 
 >[!IMPORTANT]
 >
->Vous avez besoin de l’autorisation **Simuler des parcours** pour accéder à la fonctionnalité **[!UICONTROL Simulation]**. [En savoir plus](../administration/permissions.md)
+>Vous avez besoin d’au moins de l’une des autorisations suivantes pour accéder à la fonction **[!UICONTROL Simulation]** : **Simuler des parcours**, **Publier des parcours** ou **Approuver et publier des parcours**. [En savoir plus](../administration/permissions.md)
 
 Les utilisateurs simulés sont des entités temporaires de type profil que vous définissez dans **[!UICONTROL Paramètres de simulation]**. Cette section explique comment les créer, les enregistrer pour les réutiliser, les ajuster ou les supprimer de la liste et les envoyer dans le parcours.
 
@@ -115,7 +115,7 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    +++
 
-1. Les utilisateurs simulés que vous avez créés apparaissent dans la liste **[!UICONTROL Tester les utilisateurs]**. Pour chaque entrée, ouvrez le menu d’options et sélectionnez l’une des options suivantes :
+1. Les utilisateurs simulés que vous avez créés apparaissent dans la liste **[!UICONTROL Tester les utilisateurs]**. Pour chaque entrée, sélectionnez l’une des options suivantes :
 
    * ![Icône Modifier](assets/do-not-localize/Smock_Edit_18_N.svg) : mettez à jour les détails de l’utilisateur simulé.
    * ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) : exécutez la simulation pour cet utilisateur simulé uniquement.
@@ -129,7 +129,7 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
 1. Si votre parcours comprend une activité **[!UICONTROL Attente]**, ouvrez l’onglet **[!UICONTROL Paramètres de test]** pour définir précisément la durée de cette attente pendant la simulation. Par exemple, si l’activité active **[!UICONTROL Attente]** est configurée pendant plusieurs jours, vous pouvez la remplacer par 10 secondes afin que l’utilisateur simulé ne passe que cette durée sur le nœud avant de passer à l’activité suivante.
 
-1. Cliquez sur **[!UICONTROL Envoyer tout]** pour envoyer chaque utilisateur simulé dans la liste du parcours, ou cliquez sur ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) sur une ligne pour envoyer uniquement cet utilisateur. Un message de confirmation `Simulated users have been sent successfully.` s’affiche lorsque les utilisateurs simulés rejoignent le parcours avec succès.
+1. Cliquez sur **[!UICONTROL Envoyer tout]** pour envoyer chaque utilisateur simulé dans la liste du parcours, ou cliquez sur ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) sur une ligne pour envoyer uniquement cet utilisateur. Un message de confirmation `Simulated users have entered the journey successfully.` s’affiche lorsque les utilisateurs simulés rejoignent le parcours avec succès.
 
    ![Panneau de sélection d’utilisateur simulé](assets/simulate-5-2.png)
 
