@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 Utilisez **[!UICONTROL Simulation]** pour valider votre parcours avec des **utilisateurs simulés** avant de procéder à la publication. Cette page vous guide tout au long des étapes **[!UICONTROL Simulation rapide]** et **[!UICONTROL Simulation manuelle]**, de la création et de l’envoi d’utilisateurs simulés, du déclenchement d’événements unitaires lorsque votre parcours en a besoin, ainsi que de la révision du journal **[!UICONTROL Résultats]**.
 
-Pour obtenir un aperçu par type de parcours, voir [Prise en main de la simulation de Parcours &#x200B;](simulate-journey-gs.md).
+Pour obtenir un aperçu par type de parcours, voir [Prise en main de la simulation de Parcours ](simulate-journey-gs.md).
 
 ## Types de simulation {#simulation-types}
 
@@ -63,7 +63,7 @@ Continuez avec [Créer et gérer des utilisateurs simulés](#test-users), [Décl
 
 >[!IMPORTANT]
 >
->Vous avez besoin de l’autorisation **Simuler des parcours** pour accéder à la fonctionnalité **[!UICONTROL Simulation]**. [En savoir plus](../administration/permissions.md)
+>Vous avez besoin d’au moins de l’une des autorisations suivantes pour accéder à la fonction **[!UICONTROL Simulation]** : **Simuler des parcours**, **Publier des parcours** ou **Approuver et publier des parcours**. [En savoir plus](../administration/permissions.md)
 
 Les utilisateurs simulés sont des entités temporaires de type profil que vous définissez dans **[!UICONTROL Paramètres de simulation]**. Cette section explique comment les créer, les enregistrer pour les réutiliser, les ajuster ou les supprimer de la liste et les envoyer dans le parcours.
 
@@ -115,7 +115,7 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    +++
 
-1. Les utilisateurs simulés que vous avez créés apparaissent dans la liste **[!UICONTROL Tester les utilisateurs]**. Pour chaque entrée, ouvrez le menu d’options et sélectionnez l’une des options suivantes :
+1. Les utilisateurs simulés que vous avez créés apparaissent dans la liste **[!UICONTROL Tester les utilisateurs]**. Pour chaque entrée, sélectionnez l’une des options suivantes :
 
    * ![Icône Modifier](assets/do-not-localize/Smock_Edit_18_N.svg) : mettez à jour les détails de l’utilisateur simulé.
    * ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) : exécutez la simulation pour cet utilisateur simulé uniquement.
@@ -129,15 +129,15 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
 1. Si votre parcours comprend une activité **[!UICONTROL Attente]**, ouvrez l’onglet **[!UICONTROL Paramètres de test]** pour définir précisément la durée de cette attente pendant la simulation. Par exemple, si l’activité active **[!UICONTROL Attente]** est configurée pendant plusieurs jours, vous pouvez la remplacer par 10 secondes afin que l’utilisateur simulé ne passe que cette durée sur le nœud avant de passer à l’activité suivante.
 
-1. Cliquez sur **[!UICONTROL Envoyer tout]** pour envoyer chaque utilisateur simulé dans la liste du parcours, ou cliquez sur ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) sur une ligne pour envoyer uniquement cet utilisateur. Un message de confirmation `Simulated users have been sent successfully.` s’affiche lorsque les utilisateurs simulés rejoignent le parcours avec succès.
+1. Cliquez sur **[!UICONTROL Envoyer tout]** pour envoyer chaque utilisateur simulé dans la liste du parcours, ou cliquez sur ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) sur une ligne pour envoyer uniquement cet utilisateur. Un message de confirmation `Simulated users have entered the journey successfully.` s’affiche lorsque les utilisateurs simulés rejoignent le parcours avec succès.
 
    ![Panneau de sélection d’utilisateur simulé](assets/simulate-5-2.png)
 
-1. Si le parcours comprend des événements unitaires, vous devez sélectionner l’événement à déclencher. Voir [&#x200B; Déclencher vos événements](#firing_events).
+1. Si le parcours comprend des événements unitaires, vous devez sélectionner l’événement à déclencher. Voir [ Déclencher vos événements](#firing_events).
 
 1. Accédez à l’onglet **[!UICONTROL Résultats]** pour ouvrir le journal d’exécution et consulter l’exécution de chaque étape. Pour plus d’informations, voir [Affichage des résultats](#viewing-results).
 
-Après avoir validé le parcours dans **[!UICONTROL Simulation]**, consultez le journal **[!UICONTROL Résultats]**. Si des erreurs s’affichent, laissez **[!UICONTROL Simulation]**, apportez les modifications requises au parcours et exécutez à nouveau **[!UICONTROL Simulation]** jusqu’à ce que l’exécution semble correcte. Vous pouvez ensuite publier le parcours. Voir [Publier votre parcours &#x200B;](../building-journeys/publish-journey.md).
+Après avoir validé le parcours dans **[!UICONTROL Simulation]**, consultez le journal **[!UICONTROL Résultats]**. Si des erreurs s’affichent, laissez **[!UICONTROL Simulation]**, apportez les modifications requises au parcours et exécutez à nouveau **[!UICONTROL Simulation]** jusqu’à ce que l’exécution semble correcte. Vous pouvez ensuite publier le parcours. Voir [Publier votre parcours ](../building-journeys/publish-journey.md).
 
 ## Déclencher vos événements {#firing_events}
 
@@ -184,4 +184,4 @@ Pour les activités **Attente**, le journal comprend deux valeurs liées à la d
 * **Durée définie** : durée spécifiée sur l&#39;activité **Attente** pour le parcours publié et appliquée une fois le parcours actif. Le journal enregistre si la simulation applique un remplacement à partir des paramètres de test, par exemple 10 secondes, plutôt que de se fier uniquement à la valeur définie sur le parcours.
 * **Durée réelle** : temps écoulé pendant lequel l’utilisateur simulé est resté sur l’activité **Attente**. Cette valeur est définie à partir de l’onglet **[!UICONTROL Paramètres de test]**.
 
-Lorsque des erreurs apparaissent dans le journal, laissez **Simulation**, apportez les modifications requises au parcours et exécutez à nouveau **Simulation**. Une fois la validation réussie, publiez le parcours. Voir [Publier votre parcours &#x200B;](../building-journeys/publish-journey.md).
+Lorsque des erreurs apparaissent dans le journal, laissez **Simulation**, apportez les modifications requises au parcours et exécutez à nouveau **Simulation**. Une fois la validation réussie, publiez le parcours. Voir [Publier votre parcours ](../building-journeys/publish-journey.md).
