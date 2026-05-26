@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '801'
+ht-degree: 98%
 
 ---
 
@@ -128,7 +128,7 @@ Pour personnaliser votre bouton :
 
 1. Choisissez votre **[!UICONTROL Événement d’interaction]**, lequel définit l’action du bouton une fois que les utilisateurs et utilisatrices ont interagi avec celui-ci.
 
-1. Entrez votre URL web ou votre lien profond dans le champ **[!UICONTROL Cible]**.
+1. Saisissez l’URL web ou le lien profond dans le champ **[!UICONTROL Cible]**.
 
 1. Pour ajouter plusieurs boutons, cliquez sur **[!UICONTROL Ajouter un bouton]**.
 

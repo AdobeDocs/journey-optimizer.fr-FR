@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -18,25 +18,25 @@ ht-degree: 1%
 
 # Utiliser et configurer des liens profonds dans les e-mails et les SMS {#deeplinks}
 
-Les liens profonds vous permettent d’orienter les destinataires d’un e-mail ou SMS vers un écran ou un élément de contenu spécifique dans votre application mobile. Cela permet d’amener les personnes directement à l’expérience in-app prévue, sans les acheminer via un navigateur web ou une boutique d’applications, de sorte que le parcours reste pertinent et intégré à la marque.
+Les liens profonds vous permettent d’orienter les destinataires d’un e-mail ou d’un SMS vers un écran ou un contenu spécifique dans votre application mobile. Cela permet d’amener les personnes directement à l’expérience in-app prévue, sans les acheminer via un navigateur web ou une boutique d’applications, de sorte que le parcours reste pertinent et intégré à la marque.
 
 Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés directement vers le contenu in-app prévu, **à condition que vous ayez terminé** :
 
-* les [&#x200B; étapes de configuration &#x200B;](#configuration) dans Journey Optimizer ;
+* les [ étapes de configuration ](#configuration) dans Journey Optimizer ;
 
 * les étapes [mise en œuvre de l’application mobile](#mobile-implementation) pour iOS et Android dans votre application mobile.
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer] prend en charge le lien profond pour iOS et Android à l’aide d’URL suivies (`/ee/v1/mclick/*`) afin d’assurer la compatibilité et le suivi des clics.
+>[!DNL Adobe Journey Optimizer] prend en charge les liens profonds pour iOS et Android à l’aide d’URL suivies (`/ee/v1/mclick/*`) afin d’assurer la compatibilité et le suivi des clics.
 
 ## Création de liens profonds {#authoring}
 
-### E-mail {#authoring-email}
+### Email {#authoring-email}
 
 Pour les e-mails , vous disposez de deux options pour insérer un lien profond :
 
-* **Email Designer** : assurez-vous que [le suivi des liens est activé](message-tracking.md#enable-tracking). Sélectionnez l’élément à lier (texte, bouton ou image), cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle, puis choisissez **[!UICONTROL Lien profond]** pour saisir l’URL du lien profond. [En savoir plus sur l&#39;insertion de liens](message-tracking.md#insert-links)
+* **Email Designer** : assurez-vous que [le suivi des liens est activé](message-tracking.md#enable-tracking). Sélectionnez l’élément à lier (texte, bouton ou image), cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle, puis choisissez **[!UICONTROL Lien profond]** pour saisir l’URL de votre lien profond. [En savoir plus sur l&#39;insertion de liens](message-tracking.md#insert-links)
 
 * **Éditeur Personalization (code)** : insérez le lien profond directement dans HTML à l&#39;aide du fragment de code suivant :
 
@@ -44,11 +44,11 @@ Pour les e-mails , vous disposez de deux options pour insérer un lien profond :
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  Remplacez `<<deeplink_url>>` par votre URL de lien profond réelle et utilisez un `id` unique pour chaque bloc afin d’éviter les conflits.
+  Remplacez `<<deeplink_url>>` par l’URL de votre lien profond et utilisez un `id` unique pour chaque bloc afin d’éviter les conflits.
 
 ### SMS {#authoring-sms}
 
-Pour les SMS, les liens profonds sont créés à l’aide de la fonction d’assistance **Url** dans l’éditeur de personnalisation. Pour en savoir plus sur l’ajout de liens à du contenu SMS, consultez [cette section](../mobile/create-mobile-message.md#sms-content).
+Pour les SMS, les liens profonds sont créés à l’aide de la fonction d’assistance **Url** de l’éditeur de personnalisation. Pour en savoir plus sur l’ajout de liens à du contenu SMS, consultez [cette section](../mobile/design-mobile.md#sms-content).
 
 Pour insérer des liens profonds dans le contenu d&#39;un SMS, utilisez la syntaxe suivante :
 
@@ -56,7 +56,7 @@ Pour insérer des liens profonds dans le contenu d&#39;un SMS, utilisez la synta
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-Remplacez `<<url>>` par votre URL de lien profond réelle.
+Remplacez `<<url>>` par l’URL réelle du lien profond.
 
 ## Configuration dans Journey Optimizer {#configuration}
 
@@ -64,9 +64,9 @@ Pour pouvoir utiliser des liens profonds dans les e-mails et les SMS pour vos ap
 
 >[!NOTE]
 >
->Cette section s’applique lorsque vous utilisez des **liens universels (iOS)** et des **liens d’application (Android)** (liens profonds basés sur HTTPS).
+>Cette section s’applique lorsque vous utilisez **liens universels (iOS)** et **liens d’application (Android)** (liens profonds basés sur HTTPS).
 
-1. Dans Journey Optimizer, déléguez le sous-domaine dans lequel le lien profond est activé. [En savoir plus](../configuration/delegate-subdomain.md)
+1. Dans Journey Optimizer, déléguez le sous-domaine dans lequel la liaison profonde est activée. [En savoir plus](../configuration/delegate-subdomain.md)
 
 1. Hébergez le fichier AASA pour iOS et le fichier assetLinks.json pour Android sur votre sous-domaine. Contactez l’[Assistance clientèle d’](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} ou votre représentant Adobe en indiquant les détails ci-dessous :
 
@@ -80,7 +80,7 @@ Pour pouvoir utiliser des liens profonds dans les e-mails et les SMS pour vos ap
 
 >[!IMPORTANT]
 >
->Le approfondissement des liens à travers l’infrastructure d’Adobe s’applique lorsque le suivi des liens est activé pour votre message, dans les paramètres [&#x200B; suivi des e-mails &#x200B;](message-tracking.md#enable-tracking) ou dans la section **[!UICONTROL Suivi des actions]** pour les campagnes par SMS. Les clics de lien profond suivis utilisent les URL sous `/ee/v1/mclick/*`, qu’Adobe héberge et résout.
+>Les liens profonds via l’infrastructure Adobe s’appliquent lorsque le suivi des liens est activé pour votre message, dans les paramètres [ suivi des e-mails ](message-tracking.md#enable-tracking) ou dans la section **[!UICONTROL Suivi des actions]** pour les campagnes par SMS. Les clics sur les liens profonds suivis utilisent des URL sous `/ee/v1/mclick/*`, qu’Adobe héberge et résout.
 >
 >Pour les liens **non suivis**, l’URL n’est pas réécrite via les systèmes Adobe. Vous devez configurer des liens universels ou des liens d’application sur vos propres domaines et hébergement afin que ces liens ouvrent votre application comme prévu.
 
@@ -163,9 +163,9 @@ Cette section fournit des modèles d’implémentation courants pour les liens p
 
 >[!IMPORTANT]
 >
->L’application doit effectuer une **&#x200B;**&#x200B;sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
+>L’application doit effectuer une **** sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
 >
->N’ouvrez pas simplement l’URL `mclick` dans Safari, car cela va à l’encontre de l’objectif du lien profond.
+>N’ouvrez pas simplement l’URL `mclick` dans Safari, car cela va à l’encontre de l’objectif des liens profonds.
 
 ### Android (Liens d’application) {#android-implementation}
 
@@ -265,7 +265,7 @@ Cette section fournit des modèles d’implémentation courants pour les liens p
 * **Utiliser des chemins stables** : privilégiez les itinéraires qui résistent aux modifications de l’interface utilisateur de l’application (par exemple, `/account/orders` au lieu de `/tab/3/view/2`).
 * **Compte pour les chemins suivis** : lorsque le suivi des liens est activé, le lien sur lequel l’utilisateur a cliqué peut utiliser des modèles de chemins suivis (par exemple, `/ee/v1/mclick/`). Assurez-vous que votre routeur peut analyser l’URL finale après la résolution du lien suivi.
 * **Garder les paramètres prévisibles** : définissez un schéma de paramètres cohérent (par exemple, `?orderId=12345`).
-* **Évitez les données sensibles dans les URL** : ne placez pas de secrets ou de données personnelles directement dans l’URL de lien profond.
+* **Évitez les données sensibles dans les URL** : ne placez pas de secrets ou de données personnelles directement dans l’URL du lien profond.
 * **Tester votre lien profond** : envoyez un BAT et cliquez sur le lien profond sur un appareil sur lequel l’application est installée.
 * **Valider sur des appareils réels** : les liens universels et les comportements de résolution des liens suivis sont plus fiables à valider sur des appareils physiques que sur des simulateurs.
 * **Valider le routage côté application** : si le lien profond n’ouvre pas l’écran attendu, validez le routage côté application et le format de l’URL (hôte/chemin/requête et codage de l’URL).
@@ -303,7 +303,7 @@ Valeurs de paramètre de requête codées par URL. Cela réduit les problèmes d
 
 +++ Comment devrions-nous tester de bout en bout ?
 
-* Créez un BAT avec un lien profond, cliquez dessus sur les appareils iOS et Android (scénarios installés et non installés).
+* Créez une épreuve avec un lien profond, cliquez dessus sur les appareils iOS et Android (scénarios installés et non installés).
 * Valider :
    * La valeur du lien e-mail ou SMS final (hôte/chemin/requête)
    * Association au niveau du système d’exploitation (si vous utilisez des liens universels/d’application)
@@ -313,7 +313,7 @@ Valeurs de paramètre de requête codées par URL. Cela réduit les problèmes d
 
 +++ J’ai une application, mais différents sous-domaines pour l’organisation. Dois-je demander la création d’AASA et assetLinks.json pour chaque sous-domaine ?
 
-Oui. Si vous souhaitez approfondir la liaison sur chaque sous-domaine délégué, demandez une configuration AASA et `assetlinks.json` pour chaque sous-domaine qui doit prendre en charge la fonctionnalité.
+Oui. Si vous souhaitez créer des liens profonds sur chaque sous-domaine délégué, demandez une configuration AASA et `assetlinks.json` pour chaque sous-domaine qui doit prendre en charge la fonctionnalité.
 
 +++
 

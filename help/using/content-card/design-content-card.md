@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 85%
+source-wordcount: '643'
+ht-degree: 78%
 
 ---
 
@@ -75,7 +75,7 @@ Ajoutez des boutons pour que les utilisateurs et utilisatrices puissent interagi
 
 1. Sélectionnez un **[!UICONTROL événement d’interaction]** pour définir l’action qui sera déclenchée lorsque les utilisateurs et utilisatrices cliqueront ou interagiront avec le bouton.
 
-1. Dans le champ **[!UICONTROL Cible]**, saisissez l’URL web ou le lien profond vers lequel les utilisateurs et utilisatrices seront redirigés après avoir interagi avec le bouton.
+1. Dans le champ **[!UICONTROL Cible]**, saisissez l’URL web ou le lien profond vers lequel les utilisateurs seront dirigés après avoir interagi avec le bouton.
 
 <!--
 +++More options with advanced formatting
@@ -122,7 +122,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-5.png)
 
-Dans le champ **[!UICONTROL URL cible]**, saisissez l’URL web ou le lien profond qui redirigera les personnes vers la destination souhaitée une fois qu’elles auront interagi avec votre carte de contenu. Il peut s’agir d’un site web externe, d’une page spécifique au sein de l’application ou de tout autre emplacement vers lequel vous souhaitez que les personnes soient redirigées en fonction de leur interaction.
+Dans le champ **[!UICONTROL URL cible]**, saisissez l’URL web ou le lien profond qui dirigera les utilisateurs vers la destination souhaitée après avoir interagi avec votre carte de contenu. Il peut s’agir d’un site web externe, d’une page spécifique au sein de l’application ou de tout autre emplacement vers lequel vous souhaitez que les personnes soient redirigées en fonction de leur interaction.
 
 ## Onglet Données
 

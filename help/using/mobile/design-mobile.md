@@ -7,10 +7,10 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
+source-git-commit: e9ef94bf9797c536a140be444b586a3dc0940e4e
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 29%
+source-wordcount: '1448'
+ht-degree: 24%
 
 ---
 
@@ -90,7 +90,7 @@ Pour définir le contenu de votre message RCS, procédez comme suit.
 
 1. Dans le champ **[!UICONTROL Texte du message]** saisissez le contenu de votre message. Vous pouvez utiliser la personnalisation pour personnaliser le texte en fonction de chaque profil. Notez que les limites de caractères varient selon le type de message : 3 072 caractères pour le format Rich Media (single) et 160 caractères pour le format RCS de base.
 
-1. Utilisez l&#39;éditeur **&#x200B;**&#x200B;pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
+1. Utilisez l&#39;éditeur **** pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
 
 1. Si vous le souhaitez, ajoutez des boutons interactifs **[!UICONTROL Actions suggérées]** qui permettent aux profils d’agir en une seule touche.
 
@@ -133,25 +133,31 @@ Pour configurer le contenu de votre message, suivez les étapes ci-après. Les p
 
 1. Une fois le contenu défini, ajoutez les URL trackées à votre message. Pour ce faire, accédez au menu **[!UICONTROL Fonctions d’assistance]** et sélectionnez **[!UICONTROL Helpers]**.
 
-   Pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine, qui sera ensuite lié à votre configuration. [En savoir plus](mobile-subdomains.md)
-
-   >[!NOTE]
-   >
-   > Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans le sandbox de production. Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
-
    ![](assets/sms_tracking_1.png)
 
-1. Dans le menu **[!UICONTROL Fonctions d’assistance]**, cliquez sur **[!UICONTROL Fonction URL]**, puis sélectionnez **[!UICONTROL Ajouter une URL]**.
+1. Sélectionnez **[!UICONTROL URL]** et cliquez sur **[!UICONTROL Ajouter une URL]**.
 
    ![](assets/sms_tracking_2.png)
 
-   <!--The URL shortening function cannot be used within a fragment. TBC-->
-
-1. Dans le champ `originalUrl`, collez l’URL à raccourcir, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Pour raccourcir l’URL, collez-la dans le champ `originalUrl` et cliquez sur **[!UICONTROL Enregistrer]**.
 
    >[!CAUTION]
    >
+   >Pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine, qui sera ensuite lié à votre configuration. [En savoir plus](mobile-subdomains.md)
+   >
    > La durée de vie des URL courtes est définie sur 30 jours. Passé ce délai, ces URL courtes ne seront plus accessibles et afficheront le message suivant : `404 short-code not found`.
+
+1. Pour ajouter un lien profond qui ouvre un écran spécifique dans votre application mobile, utilisez la fonction d’assistance **[!UICONTROL Url]** avec le type de `DEEPLINK` , comme dans l’exemple ci-dessous. [En savoir plus sur les liens profonds](../email/deeplinks.md)
+
+   ```
+   {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
+   ```
+
+   >[!IMPORTANT]
+   >
+   >Avant d’utiliser les liens profonds, assurez-vous d’avoir terminé les [étapes de configuration](../email/deeplinks.md#configuration) correspondantes dans Journey Optimizer et implémenté [gestion des liens profonds](../email/deeplinks.md#mobile-implementation) dans votre application mobile. Si vous ne l’avez pas fait, le lien profond ne dirigera pas les utilisateurs vers le contenu in-app prévu.
+   >
+   >Assurez-vous également que le suivi des liens est activé dans la section **[!UICONTROL Actions]** de votre parcours ou campagne afin que l’URL soit réécrite via les systèmes Adobe.
 
 1. Dans le menu **[!UICONTROL Prise de décision]**, vous pouvez personnaliser et optimiser le contenu de vos messages mobiles avec **Prise de décision**. Cette fonctionnalité vous permet d’utiliser des scores de priorité, des formules ou des modèles d’IA pour sélectionner et afficher dynamiquement le meilleur contenu pour vos clients.
 
