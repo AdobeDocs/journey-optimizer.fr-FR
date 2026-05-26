@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés dire
 >[!DNL Adobe Journey Optimizer] prend en charge les liens profonds pour iOS et Android à l’aide d’URL suivies (`/ee/v1/mclick/*`) afin d’assurer la compatibilité et le suivi des clics.
 
 ## Création de liens profonds {#authoring}
+
+>[!CAUTION]
+>
+>Les liens profonds ne fonctionneront pas tant que vous n’aurez pas terminé les étapes [configuration](#configuration) et [implémentation de l’application mobile](#mobile-implementation) sur cette page.
 
 ### Email {#authoring-email}
 
