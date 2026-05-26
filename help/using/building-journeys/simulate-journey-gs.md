@@ -10,7 +10,7 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 hide: true
-source-git-commit: 0d237468ab51d6c9b63619062f28f116baa0268e
+source-git-commit: 779f87fbf56ea69f1128dc9507fefa9abba65b79
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 4%
@@ -31,7 +31,7 @@ Adobe Journey Optimizer propose deux méthodes pour tester et valider votre parc
 
 Le panneau **[!UICONTROL Simulation]** affiche uniquement les étapes dont votre parcours a besoin. Cela dépend de la manière dont les profils entrent dans le parcours. À partir de ces facteurs, Adobe Journey Optimizer fait apparaître différentes expériences de simulation. Développez chaque type ci-dessous pour voir en quoi l’exécution diffère et quels panneaux vous utilisez.
 
-Pour plus d’informations, voir [&#x200B; Simuler votre parcours &#x200B;](simulate-journey.md).
+Pour plus d’informations, voir [ Simuler votre parcours ](simulate-journey.md).
 
 +++ Parcours par lots avec une audience lue
 
@@ -65,7 +65,7 @@ Avec parcours unitaire **, vous accédez directement au menu Simulation manuelle
 
 ## Lancer la simulation {#launch}
 
-Passez le parcours à **[!UICONTROL Simulation]** pour le tester avec des utilisateurs et utilisatrices simulés. Les tâches détaillées sont présentées dans la section [&#x200B; Simuler votre parcours &#x200B;](simulate-journey.md).
+Passez le parcours à **[!UICONTROL Simulation]** pour le tester avec des utilisateurs et utilisatrices simulés. Les tâches détaillées sont présentées dans la section [ Simuler votre parcours ](simulate-journey.md).
 
 1. Dans le parcours, cliquez sur **[!UICONTROL Simuler]** et choisissez **[!UICONTROL Simuler]**.
 
@@ -130,7 +130,7 @@ Ces mécanismes de sécurisation s’appliquent à **[!UICONTROL Simulation]**. 
 | Mécanisme de sécurisation | Limite | Notes |
 | --- | --- | --- |
 | Nombre maximal d’utilisateurs simulés pouvant être sélectionnés et déclenchés dans un lot (parcours par lots, flux déclenchés par un événement et flux de qualification d’audience) | 20 | Comptabilisé pour chaque **[!UICONTROL Envoyer tout]** ou **[!UICONTROL Déclencher les événements sélectionnés]** ; pas de limite cumulée pour l’ensemble du parcours. |
-| Nombre maximal d’utilisateurs simulés uniques testés au cours d’une seule exécution de simulation | 100 | Atteindre **100** utilisateurs uniques en un seul bloc d’exécution **[!UICONTROL Sélectionner des utilisateurs simulés]** pour les nouveaux utilisateurs simulés. Si vous êtes à **90**, vous pouvez ajouter au plus 10 **&#x200B;**&#x200B;avant le même bloc. |
+| Nombre maximal d’utilisateurs simulés uniques testés au cours d’une seule exécution de simulation | 100 | Atteindre **100** utilisateurs uniques en un seul bloc d’exécution **[!UICONTROL Sélectionner des utilisateurs simulés]** pour les nouveaux utilisateurs simulés. Si vous êtes à **90**, vous pouvez ajouter au plus 10 **** avant le même bloc. |
 | Nombre maximal de parcours pouvant être exécutés en même temps dans un sandbox **[!UICONTROL Simulation]** | 20 | La limite est partagée par chaque parcours **[!UICONTROL Simulation]** à la fois dans ce sandbox. |
 | Nombre maximal d’utilisateurs actifs simulés dans un sandbox | 2,000 | Nombre maximal d’utilisateurs simulés pouvant exister simultanément dans le sandbox. Adobe peut ajuster cette limite en fonction des commentaires des clients. |
 | Préremplissage De L’Événement (Navigateur Uniquement) | — | Vous pouvez préremplir les champs de payload d’événement uniquement dans l’interface utilisateur de la simulation basée sur un navigateur. Les valeurs préremplies restent dans ce navigateur et ne sont pas synchronisées avec d’autres navigateurs, appareils ou sessions, de sorte que vous pouvez voir différentes données de préremplissage à chaque emplacement que vous testez. |
