@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -146,7 +146,7 @@ Dans l’inventaire des fragments, vous pouvez effectuer les actions suivantes s
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Ajouter un fragment de parcours"
->abstract="Seuls les fragments **[!UICONTROL actifs]** sont disponibles dans le sélecteur. L’insertion d’un fragment crée une **copie statique** de ses nœuds ; les mises à jour du fragment d’origine ne sont pas répercutées dans le parcours."
+>abstract="Seuls les fragments **[!UICONTROL actifs]** sont disponibles dans le sélecteur. L’insertion d’un fragment crée une **copie statique** de ses nœuds. Les mises à jour apportées au fragment d’origine ne sont pas répercutées dans le parcours."
 
 Pour insérer un fragment dans un parcours :
 

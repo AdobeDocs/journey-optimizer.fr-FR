@@ -49,7 +49,7 @@ Avant de créer des formules de classement, tenez compte des contraintes suivant
 * Les périodes de recherche en amont ne sont pas prises en charge dans les formules de classement (par exemple, les événements d’expérience du mois dernier). Les tentatives d’enregistrement de telles formules déclenchent une erreur.
 * [Optimisation des formules basée sur l’IA](#optimize) s’applique uniquement aux formules de classement dont l’expression PQL basée sur le code est supérieure à **2 Ko** en taille codée au format UTF-8 ; les formules plus petites ne sont pas analysées.
 
-## Création de la formule de classement et définition des propriétés {#create-ranking-formula}
+## Créer la formule de classement et définir les propriétés {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"

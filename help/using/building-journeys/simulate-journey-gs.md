@@ -10,7 +10,7 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 hide: true
-source-git-commit: 0d237468ab51d6c9b63619062f28f116baa0268e
+source-git-commit: 779f87fbf56ea69f1128dc9507fefa9abba65b79
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 4%

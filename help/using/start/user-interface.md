@@ -54,7 +54,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1524
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -384,33 +384,33 @@ L’assistant IA offre une aide instantanée et des informations opérationnelle
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="« Aide à la configuration d’AEM"
+>title="Aide à la configuration AEM"
 >abstract="En savoir plus sur la création et la gestion d’une configuration"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
->title="Configuration de l’instance"
->abstract="Sélectionnez le type de configuration d’instance approprié à votre configuration. </br>Configuration auteur uniquement : utilisez des fragments de contenu de l’instance d’auteur AEM. La configuration de l’instance de publication et les mises à jour en direct ne sont pas prises en charge.</br>Configuration de l’instance de publication : configurez les paramètres de l’instance de publication. Vous pouvez éventuellement activer « Envoyer le jeton à l’instance de publication » pour fournir les informations d’identification du service pour l’authentification."
+>title="Configuration des instances"
+>abstract="Sélectionnez le type de configuration d’instance approprié à votre configuration. </br>Configuration de création uniquement : utilisez des fragments de contenu de l’instance de création AEM. La configuration de l’instance de publication et les mises à jour en direct ne sont pas prises en charge.</br>Configuration de l’instance de publication : configurez les paramètres de l’instance de publication. Vous pouvez éventuellement activer « Envoyer le jeton à l’instance de publication » pour fournir les informations d’identification du service pour l’authentification."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="Envoyer le jeton à l’instance de publication"
->abstract="Lorsqu’ils sont activés, les informations d’identification de service sont envoyées pour authentifier les requêtes à l’instance de publication. Fournissez un JSON d’informations d’identification de service valide ci-dessous."
+>abstract="Dès l’activation, les informations d’identification de service sont envoyées pour authentifier les requêtes à l’instance de publication. Fournissez un JSON d’informations d’identification de service valide ci-dessous."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
->title="Coller le JSON des informations d’identification de service"
->abstract="Collez les informations d’identification de service AEM JSON après les avoir créées en parcourant la documentation du compte technique public. Il sera automatiquement formaté et validé."
+>title="Coller le JSON d’informations d’identification de service"
+>abstract="Collez le JSON d’informations d’identification de service AEM après les avoir créées en suivant la documentation du compte technique public. Il sera automatiquement formaté et validé."
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="Domaine personnalisé"
->abstract="Facultatif. Fournissez un domaine personnalisé si publish-p16552-e147195.adobeaemcloud.comis ne peut pas récupérer de contenu pour votre organisation"
+>abstract="Facultatif. Fournissez un domaine personnalisé si publish-p16552-e147195.adobeaemcloud.com ne peut pas récupérer de contenu pour votre organisation."
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Assistant d&#39;expression"
+>title="Assistant d’expression"
 >abstract="Utilisez l’assistant d’expression pour générer et affiner des expressions dans Journey Optimizer."
