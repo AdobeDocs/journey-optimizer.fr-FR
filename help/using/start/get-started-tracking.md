@@ -42,10 +42,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 97%
+source-wordcount: 1964
+ht-degree: 95%
 
 ---
 
@@ -155,9 +155,9 @@ Le suivi des notifications push est automatiquement activé et capture les impre
 
 **Configurez les éléments suivis :**
 
-* **Comportement en cas de clic dans le corps** : définissez ce qui se produit lorsqu’on appuie sur la notification : ouvrir l’application, accéder à un lien profond ou ouvrir une URL web. Chaque action est automatiquement suivie. [En savoir plus](../push/design-push.md#on-click-behavior)
+* **Comportement de clic du corps** - Définissez ce qui se produit lorsque les utilisateurs appuient sur la notification : ouvrez l’application, accédez à un lien profond ou ouvrez une URL web. Chaque action est automatiquement suivie. [En savoir plus](../push/design-push.md#on-click-behavior)
 
-* **Ajouter des boutons d’action** : incluez jusqu’à 3 boutons (Android) ou plusieurs boutons (iOS) avec un suivi indépendant pour chaque action de bouton (ouverture d’application, lien profond, URL web). [En savoir plus](../push/design-push.md#add-buttons-push)
+* **Ajouter des boutons d’action** - Incluez jusqu’à 3 boutons (Android) ou plusieurs boutons (iOS) avec un suivi indépendant pour chaque action de bouton (ouverture d’application, lien profond, URL web). [En savoir plus](../push/design-push.md#add-buttons-push)
 
 * **Activer le suivi** : vérifiez que le suivi est activé dans votre activité de parcours push ou dans les paramètres de suivi de la campagne. [En savoir plus](../push/create-push.md#create)
 

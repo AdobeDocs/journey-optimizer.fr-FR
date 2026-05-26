@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1185'
 ht-degree: 55%
 
 ---
@@ -218,7 +218,7 @@ L&#39;exemple suivant permet de calculer la somme totale des prix des produits d
 
 ## Url {#url}
 
-L&#39;assistant `url` est utilisé pour effectuer le suivi des liens, raccourcir les URL et insérer des [liens profonds](../../email/deeplinks.md) dans le contenu de votre SMS.
+L’assistant `url` permet d’effectuer le suivi des liens, de raccourcir les URL et d’insérer des [liens profonds](../../email/deeplinks.md) dans le contenu de votre SMS.
 
 **Syntaxe**
 

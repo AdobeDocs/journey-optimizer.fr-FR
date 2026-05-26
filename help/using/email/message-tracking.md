@@ -32,9 +32,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: 1464
 ht-degree: 82%
 
 ---
@@ -117,7 +117,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
      >[!IMPORTANT]
      >
-     >Avant d’utiliser le lien profond, assurez-vous d’avoir terminé les [étapes de configuration](deeplinks.md#configuration) correspondantes dans Journey Optimizer et implémenté [gestion du lien profond](deeplinks.md#mobile-implementation) dans votre application mobile. Si vous ne l’avez pas fait, le lien profond ne redirigera pas les utilisateurs vers le contenu in-app prévu.
+     >Avant d’utiliser les liens profonds, assurez-vous d’avoir terminé les [étapes de configuration](deeplinks.md#configuration) correspondantes dans Journey Optimizer et implémenté [gestion des liens profonds](deeplinks.md#mobile-implementation) dans votre application mobile. Si vous ne l’avez pas fait, le lien profond ne dirigera pas les utilisateurs vers le contenu in-app prévu.
      >
      >Assurez-vous également que [le suivi des liens est activé](#enable-tracking) pour votre message, de sorte que l’URL soit réécrite via les systèmes Adobe.
 

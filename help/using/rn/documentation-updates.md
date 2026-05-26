@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7897'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * La page **Terminologie clé** a été remaniée : six nouveaux termes ont été ajoutés, une nouvelle section **Conflit et hiérarchisation des termes** a été ajoutée et un nouveau guide de désambiguïsation **Lorsque les termes semblent similaires** a été ajouté pour quatre paires de termes généralement confuses. Les termes spécifiques à Adobe Experience Platform ont été supprimés et remplacés par une note renvoyant au glossaire Adobe Experience Platform. [En savoir plus](../start/terminology.md)
 
-* La documentation sur les **liens profonds** a été complétée par une nouvelle section **Création de liens profonds** présentant les deux options disponibles pour les e-mails (IU Designer par e-mail et code de l’éditeur de Personalization) et la syntaxe de la fonction URL pour les SMS. La page **Créer un SMS** comprend désormais une étape de lien profond dans le flux de création de contenu. [En savoir plus](../email/deeplinks.md)
+* La documentation sur les **liens profonds** a été complétée par une nouvelle section **Création de liens profonds** présentant les deux options disponibles pour les e-mails (interface utilisateur de Designer d’e-mail et code de l’éditeur de Personalization) et la syntaxe de la fonction URL pour les SMS. La page **Créer un SMS** comprend désormais une étape de lien profond dans le flux de création de contenu. [En savoir plus](../email/deeplinks.md)
 
 * La référence d’assistance **Url** a été mise à jour avec une section dédiée dans la documentation de Personalization. [En savoir plus](../personalization/functions/helpers.md#url)
 
