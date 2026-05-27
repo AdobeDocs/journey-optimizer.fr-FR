@@ -11,14 +11,14 @@ keywords: parcours, cas d’utilisation
 version: Journey Orchestration
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 72%
+source-wordcount: '289'
+ht-degree: 74%
 
 ---
 
 # Cas d’utilisation : création d’une action personnalisée pour envoyer des données à [!DNL Adobe Experience Platform]{#send-data-to-aep}
 
-Si vous avez récemment changé de fournisseur de services de messagerie, d&#39;adresse IP, de domaine ou de sous-domaine de messagerie, établissez votre réputation en tant qu&#39;expéditeur. Dans le cas contraire, les diffusions peuvent être bloquées ou déplacées vers les dossiers de spam des destinataires. Pour obtenir des conseils, consultez le [&#x200B; Guide des bonnes pratiques en matière de délivrabilité &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr){target="_blank"}.
+Si vous avez récemment changé de fournisseur de services de messagerie, d&#39;adresse IP, de domaine ou de sous-domaine de messagerie, établissez votre réputation en tant qu&#39;expéditeur. Dans le cas contraire, les diffusions peuvent être bloquées ou déplacées vers les dossiers de spam des destinataires. Pour obtenir des conseils, consultez le [ Guide des bonnes pratiques en matière de délivrabilité ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr){target="_blank"}.
 
 Pour préchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. En savoir plus sur lʼ[optimisation de la délivrabilité dans Journey Optimizer](../reports/deliverability.md).
 
