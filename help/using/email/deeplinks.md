@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
-source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -48,11 +48,14 @@ Pour les e-mails , vous disposez de deux options pour insérer un lien profond :
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  Remplacez `<<deeplink_url>>` par l’URL de votre lien profond et utilisez un `id` unique pour chaque bloc afin d’éviter les conflits.
+  >[!TIP]
+  >
+  >Remplacez `<<deeplink_url>>` par l’URL de votre lien profond et utilisez un `id` unique pour chaque bloc afin d’éviter les conflits.
+
 
 ### SMS {#authoring-sms}
 
-Pour les SMS, les liens profonds sont créés à l’aide de la fonction d’assistance **Url** de l’éditeur de personnalisation. Pour en savoir plus sur l’ajout de liens à du contenu SMS, consultez [cette section](../mobile/design-mobile.md#sms-content).
+Pour les SMS, les liens profonds sont créés à l’aide de la fonction d’assistance [Url](../personalization/functions/helpers.md#url) de l’éditeur de personnalisation. Découvrez comment ajouter des liens au contenu des SMS dans [cette section](../mobile/design-mobile.md#sms-content).
 
 Pour insérer des liens profonds dans le contenu d&#39;un SMS, utilisez la syntaxe suivante :
 
@@ -60,7 +63,9 @@ Pour insérer des liens profonds dans le contenu d&#39;un SMS, utilisez la synta
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-Remplacez `<<url>>` par l’URL réelle du lien profond.
+>[!TIP]
+>
+>Remplacez `<<url>>` par l’URL réelle du lien profond.
 
 ## Configuration dans Journey Optimizer {#configuration}
 
@@ -338,3 +343,4 @@ Oui. Les paramètres UTM que vous configurez dans [!DNL Journey Optimizer] sont 
 Le lien s’ouvre dans le navigateur web par défaut de l’appareil (comportement de suivi des clics standard), au lieu d’être traité comme un lien profond de l’application par le biais du flux de `mclick` décrit sur cette page.
 
 +++
+

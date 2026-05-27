@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 59d843037ed63ac2d474f29125eba4f0cef5c61b
 workflow-type: tm+mt
-source-wordcount: 1503
-ht-degree: 94%
+source-wordcount: 1627
+ht-degree: 87%
 
 ---
 
@@ -163,6 +163,17 @@ Pour ce faire, procédez comme suit :
    ![](assets/fragment-expression-use.png)
 
 ## Ajouter du texte enrichi à un fragment personnalisable {#rich-text}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="Fragment hérité"
+>abstract="Les champs modifiables de ce fragment sont en mode texte uniquement. Tant que vous ne les convertissez pas, les utilisateurs ne peuvent saisir que du texte brut lors de la modification de ce fragment dans les e-mails. Le texte enrichi tel que le gras, l’italique, les liens hypertexte et les sauts de ligne n’est pas pris en charge. Cliquez sur <b>Convertir</b> sur le composant pour le mettre à niveau vers le mode compatible avec HTML."
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="Fragment hérité"
+>abstract="Les champs modifiables de ce fragment personnalisable sont en texte uniquement. Mise en forme de texte enrichi (gras, italique, hyperliens, sauts de ligne, etc.) n’est pas disponible dans le Designer d’e-mail tant que l’auteur du fragment n’a pas mis à niveau le fragment vers le mode compatible avec HTML à l’aide du bouton <b>Convertir</b> dans l’éditeur de fragments."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personnalisation des champs modifiables dans un fragment"
 
 Le texte enrichi tel que les sauts de ligne, le gras, l’italique, etc. peut être ajouté à un fragment personnalisable à l’aide des composants HTML. Pour ce faire, procédez comme suit.
 <!--
