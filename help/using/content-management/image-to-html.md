@@ -11,8 +11,8 @@ keywords: e-mail, modèle, image, HTML, IA, conception, convertisseur
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 19%
+source-wordcount: '2097'
+ht-degree: 22%
 
 ---
 
@@ -82,7 +82,7 @@ Gardez à l’esprit les limites et recommandations suivantes lors de la convers
 
 * **Interprétation de l’IA** : l’IA génère du contenu HTML statique en fonction de l’interprétation visuelle de votre image. Il fournit un point de départ solide pour la création d’e-mails, mais doit être examiné et affiné à l’aide de la Designer d’e-mail afin de s’assurer qu’elle répond exactement à vos besoins. Vous devez ajouter manuellement la personnalisation, le contenu dynamique et le suivi après la conversion, si nécessaire.
 
-* **Précision du texte** : bien que l’IA tente de reconnaître et de reproduire le texte avec précision, vérifiez toujours le contenu du texte et apportez les corrections nécessaires. Vérifiez les [instructions d’utilisation d’Adobe Generative AI](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+* **Précision du texte** : bien que l’IA tente de reconnaître et de reproduire le texte avec précision, vérifiez toujours le contenu du texte et apportez les corrections nécessaires. Vérifiez les [instructions d’utilisation d’Adobe Generative AI](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 **Sélection d’images**
 
@@ -161,7 +161,7 @@ Pour convertir une conception d’image en modèle de contenu d’e-mail entièr
 1. Utilisez la section **[!UICONTROL Image vers commentaires du convertisseur de modèles]** pour partager vos idées et suggestions avec Adobe afin de nous aider à améliorer la fonctionnalité.
    ![Section Commentaires dans Journey Optimizer avec une zone de texte pour partager vos pensées et suggestions](../email/assets/email_designer_converter_feedback.png){width=70%}
 
-1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]**. Le modèle converti s’ouvre dans le Designer d’e-mail[&#x200B; avec des fonctionnalités de modification complètes. &#x200B;](../email/get-started-email-design.md) Vous pouvez maintenant :
+1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]**. Le modèle converti s’ouvre dans le Designer d’e-mail](../email/get-started-email-design.md) avec des fonctionnalités de modification complètes. [Vous pouvez maintenant :
 
    * Vérifier, modifier le contenu textuel et appliquer une personnalisation
    * modifier des images et ajouter des liens ;
@@ -169,7 +169,7 @@ Pour convertir une conception d’image en modèle de contenu d’e-mail entièr
    * ajouter, supprimer ou réorganiser des composants de contenu.
    * tirer profit de toutes les fonctionnalités du concepteur d’e-mail comme pour tout autre modèle.
 
-   Designer d’e-mail dans Journey Optimizer affichant le modèle converti en tant que composants de contenu modulaires à modifier![](../email/assets/email_designer_html_components.png)
+   Designer d’e-mail dans Journey Optimizer affichant le modèle converti en tant que composants de contenu modulaires à modifier](../email/assets/email_designer_html_components.png)![
 
    Effectuez les ajustements nécessaires pour affiner le modèle et respecter les directives de votre marque.
 
@@ -215,7 +215,7 @@ Pour obtenir des résultats optimaux lors de la conversion d’images en modèle
 * **Tester minutieusement** : tester l’e-mail sur différents clients de messagerie et appareils. [Découvrez comment prévisualiser et tester du contenu](preview-test.md).
 * **Affiner manuellement** : effectuez les ajustements nécessaires en utilisant les fonctionnalités d’édition complètes du [Designer d’e-mail](../email/get-started-email-design.md).
 * **Alignement des marques** : vérifiez que les couleurs, les polices et le style correspondent à vos directives de marque, en utilisant les thèmes, le cas échéant. [En savoir plus sur les thèmes des emails](../email/apply-email-themes.md).
-* **&#x200B;**&#x200B;: ajoutez du contenu dynamique et des jetons de personnalisation selon les besoins. [En savoir plus sur la personnalisation](../personalization/personalize.md).
+* **** : ajoutez du contenu dynamique et des jetons de personnalisation selon les besoins. [En savoir plus sur la personnalisation](../personalization/personalize.md).
 * **Accessibilité** : passez en revue et améliorez les fonctionnalités d’accessibilité si nécessaire. [En savoir plus sur le contenu d’e-mail accessible](../email/accessible-content.md).
 
 +++
