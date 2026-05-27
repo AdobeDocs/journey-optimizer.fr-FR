@@ -37,7 +37,7 @@ Configurez une **session** pour capturer des événements SDK et inspecter le pi
 * Enregistrement du jeton push
 * Événements du cycle de vie d’une activité en direct
 
-Découvrez comment configurer Assurance dans la [documentation d’Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Découvrez comment configurer Assurance dans la [documentation d’Adobe Experience Platform Assurance](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Remarque** : pour l’activité iOS Live, assurez-vous que votre application s’exécute sur un appareil iOS physique (iOS 16.1 ou version ultérieure) ou sur un simulateur Xcode (iOS 16.1 ou version ultérieure).
 
