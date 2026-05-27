@@ -368,7 +368,7 @@ Dans ce scénario, toutes les vérifications précédentes ont réussi :
 
 * Le profil existe avec des [jetons push d’activité actifs valides](#profile-issue).
 * Campaign est correctement [configuré avec la payload appropriée](#payload-issues)
-* [ Les jetons de mise à jour sont synchronisés ](#token-not-synced) (pour les événements de mise à jour/de fin, cas d’utilisation unitaire uniquement)
+* [&#x200B; Les jetons de mise à jour sont synchronisés &#x200B;](#token-not-synced) (pour les événements de mise à jour/de fin, cas d’utilisation unitaire uniquement)
 
 Mais l’activité Live ne s’affiche toujours pas, ne se met pas à jour ou ne se termine pas comme prévu. Le problème peut concerner le système de diffusion Adobe ou le fournisseur de services de notification push (APNs).
 
@@ -423,7 +423,7 @@ Mais l’activité Live ne s’affiche toujours pas, ne se met pas à jour ou ne
       | Jeton placé sur la liste bloquée | Jeton marqué comme non valide | Réenregistrer le jeton ou vérifier le statut de la liste bloquée |
       | Profil non éligible | Le profil ne répond pas aux critères de la campagne. | Vérifier les règles d’audience de campagne |
 
-Pour en savoir plus, consultez la page [ Rapport de campagne d’activité dynamique ](../reports/campaign-global-report-cja-activity.md).
+Pour en savoir plus, consultez la page [&#x200B; Rapport de campagne d’activité dynamique &#x200B;](../reports/campaign-global-report-cja-activity.md).
 
 +++
 
@@ -714,7 +714,7 @@ La structure de la payload de diffusion diffère des campagnes unitaires. Vérif
 * `dismissal-date` : époque Unix pour le rejet automatique (pertinent uniquement pour les événements `end`)
 * `alert` : objet avec `title` et `body` pour la notification
 
-Consultez la documentation de l’API de messagerie Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/references/messaging) pour obtenir des spécifications d’API complètes.
+Consultez la documentation de l’API de messagerie Adobe Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging) pour obtenir des spécifications d’API complètes.
 
 +++
 
@@ -868,7 +868,7 @@ Déterminez si l’audience utilise une évaluation par lots ou par flux, car ce
 1. Sur la page **Détails de l’audience**, vérifiez la méthode **Évaluation** :
    * **Lot** : évalué une fois par jour selon un planning.
    * **Streaming** : évalué en temps réel lorsque des mises à jour de profil se produisent.
-   * **** : évalué aux emplacements Edge en temps réel.
+   * **&#x200B;**&#x200B;: évalué aux emplacements Edge en temps réel.
 
 Suivez les étapes de dépannage appropriées en fonction de la méthode d’évaluation :
 
