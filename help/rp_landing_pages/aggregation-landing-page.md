@@ -21,7 +21,7 @@ Les fonctions d’agrégation d’Adobe Journey Optimizer vous permettent de r
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Fonction avg dans Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Découvrez comment utiliser la fonction « avg » pour calculer la valeur moye
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Documentation sur la fonction count
 
@@ -41,7 +41,7 @@ Comprenez la fonction « count » qui sert à agréger les données dans les l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Fonction countOnlyNull : compter les valeurs nulles dans les listes
 
@@ -51,7 +51,7 @@ Découvrez comment la fonction « countOnlyNull » compte les valeurs nulles d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Vue d’ensemble de la fonction countWithNull
 
@@ -61,7 +61,7 @@ Découvrez comment la fonction « countWithNull » compte tous les éléments 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Fonction distinctCount dans Adobe Journey Optimizer
 
@@ -71,7 +71,7 @@ Explorez la fonction « distinctCount » pour compter les valeurs uniques dans
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Fonction distinctCountWithNull : compter les valeurs uniques (y compris les valeurs nulles)
 

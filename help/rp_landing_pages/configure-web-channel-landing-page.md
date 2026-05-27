@@ -20,7 +20,7 @@ La configuration du canal web dans Adobe Journey Optimizer vous permet de diff
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Prérequis pour le canal web
 
@@ -30,7 +30,7 @@ Découvrez les prérequis nécessaires pour configurer et utiliser les fonctionn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer des sous-domaines web
 
@@ -40,7 +40,7 @@ Cette section contient des instructions détaillées pour la configuration, la g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Créer et configurer un canal web
 
