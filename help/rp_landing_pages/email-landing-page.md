@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '361'
 ht-degree: 98%
 
 ---
@@ -32,7 +32,7 @@ Les diffusions d’e-mail peuvent être créées :
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Création d’un e-mail
 
@@ -42,7 +42,7 @@ Guide détaillé sur l’ajout, la configuration et le test d’actions d’e-ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Concevoir et optimiser le contenu des e-mails
 
@@ -62,7 +62,7 @@ Configurez des mécanismes d’opt-out en un clic ou en deux étapes pour gérer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer le canal e-mail
 

@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-49-35
 exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Les rapports de campagne dans Adobe Journey Optimizer vous permettent d’obte
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Vue d’ensemble des rapports de campagne
 
@@ -30,7 +30,7 @@ Découvrez comment analyser les performances des campagnes à l’aide de mesure
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Rapport de campagne basé sur du code
 
@@ -40,7 +40,7 @@ Découvrez comment évaluer des expériences personnalisées et des stratégies 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Rapport de campagne de carte de contenu
 
@@ -50,7 +50,7 @@ Analysez les campagnes de cartes de contenu avec des mesures telles que les tend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Rapport de campagne par courrier
 

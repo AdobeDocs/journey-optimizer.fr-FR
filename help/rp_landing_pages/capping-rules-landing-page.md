@@ -7,14 +7,14 @@ redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 36%
+source-wordcount: '292'
+ht-degree: 39%
 
 ---
 
 # Définir les règles de limitation des messages et des parcours{#section-overview}
 
-Les règles de limitation font partie de la [gestion des conflits et hiérarchisation](../using/conflict-prioritization/gs-conflict-prioritization.md). Elles permettent de s’assurer que les clients reçoivent le montant de communication approprié sans se sentir dépassés. Avant d’appliquer des règles, utilisez l’outil [&#x200B; de détection des conflits &#x200B;](../using/conflict-prioritization/conflicts.md) pour identifier les parcours et les campagnes qui se chevauchent. Lorsque plusieurs communications sont qualifiées pour le même profil, [scores de priorité](../using/conflict-prioritization/priority-scores.md) déterminent quel message est diffusé en premier.
+Les règles de limitation font partie de la [gestion des conflits et hiérarchisation](../using/conflict-prioritization/gs-conflict-prioritization.md). Elles permettent de s’assurer que les clients reçoivent le montant de communication approprié sans se sentir dépassés. Avant d’appliquer des règles, utilisez l’outil [ de détection des conflits ](../using/conflict-prioritization/conflicts.md) pour identifier les parcours et les campagnes qui se chevauchent. Lorsque plusieurs communications sont qualifiées pour le même profil, [scores de priorité](../using/conflict-prioritization/priority-scores.md) déterminent quel message est diffusé en premier.
 
 Vous pouvez définir des limites sur la fréquence d’envoi des messages (capping de la fréquence), le nombre de parcours qu’un profil peut entrer (limitation des parcours) et le moment de blocage des messages (heures creuses). Les règles sont regroupées en **ensembles de règles** et appliquées aux campagnes ou aux parcours. Pour le contrôle programmatique à partir de systèmes externes, reportez-vous à la section [API de limitation](../using/configuration/capping.md).
 
@@ -22,7 +22,7 @@ Vous pouvez définir des limites sur la fréquence d’envoi des messages (cappi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utiliser des jeux de règles
 
@@ -32,7 +32,7 @@ Découvrez comment créer, gérer et activer des jeux de règles pour contrôler
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Limitation et arbitrage des parcours
 
@@ -42,7 +42,7 @@ Découvrez comment définir des limitations d’entrée de parcours et de simult
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Capping de la fréquence par canal
 
@@ -52,7 +52,7 @@ Découvrez comment créer et appliquer des règles de capping de la fréquence s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Définir des heures calmes
 

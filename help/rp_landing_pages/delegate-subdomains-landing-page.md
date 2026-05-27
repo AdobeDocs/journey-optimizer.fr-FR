@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
 source-git-commit: bb50d06e86f9399dfd295b8091aa637abcaea4a8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 41%
+source-wordcount: '390'
+ht-degree: 46%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez choisir entre plusieurs méthodes de configuration : **délégation 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec la délégation de sous-domaines
 
@@ -32,7 +32,7 @@ Découvrez les avantages, les méthodes de configuration et les points à prendr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Déléguer un sous-domaine
 
@@ -52,7 +52,7 @@ Prenez pleinement possession de vos sous-domaines avec la délégation personnal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Migration de CNAME vers la délégation personnalisée
 
@@ -62,7 +62,7 @@ Migrez les sous-domaines existants configurés CNAME vers la délégation person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Configurer les enregistrements DMARC
 
@@ -72,7 +72,7 @@ Configurez les enregistrements DMARC pour améliorer la sécurité et la délivr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ajouter un enregistrement TXT Google
 
@@ -82,7 +82,7 @@ Vérifiez les sous-domaines pour la délivrabilité de Gmail en ajoutant des enr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Accéder aux enregistrements PTR et les modifier
 
@@ -92,7 +92,7 @@ Gérez les enregistrements PTR pour les sous-domaines délégués, y compris la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Créer des groupes d’adresses IP
 

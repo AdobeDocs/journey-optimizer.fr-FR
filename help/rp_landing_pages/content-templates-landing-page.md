@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-12_00-38-47
 exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Les modèles de contenu dans Adobe Journey Optimizer sont des outils puissants
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec les modèles de contenu
 
@@ -30,7 +30,7 @@ Découvrez les principes de base de la création et de la gestion de modèles de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Accéder aux modèles et les gérer
 
@@ -40,7 +40,7 @@ Découvrez comment accéder aux modèles de contenu, les organiser et les gérer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Créer des modèles de contenu
 
@@ -50,9 +50,9 @@ Guide détaillé sur la création de modèles de contenu réutilisables à parti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Verrouiller du contenu dans les modèles d’e-mail
+Verrouiller le contenu dans les modèles d’e-mail
 
 Découvrez comment verrouiller des sections ou des modèles entiers pour empêcher des modifications ou des suppressions involontaires et améliorer la gouvernance.
 
@@ -60,7 +60,7 @@ Découvrez comment verrouiller des sections ou des modèles entiers pour empêch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Tester des modèles de contenu
 
@@ -70,7 +70,7 @@ Validez les modèles d’e-mail en testant le rendu, les variations et les BAT a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utiliser des modèles de contenu
 

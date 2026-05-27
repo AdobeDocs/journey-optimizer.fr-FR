@@ -8,7 +8,7 @@ badge: label="Hérité" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '218'
 ht-degree: 98%
 
 ---
@@ -25,7 +25,7 @@ Dans Adobe Journey Optimizer, la création et la gestion des décisions vous p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Créer des décisions dans Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Découvrez comment créer des décisions, définir des portées et des offres de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer des méthodes de sélection d’offres
 
@@ -45,7 +45,7 @@ Découvrez comment configurer des méthodes de classement pour les décisions, y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simuler des décisions d’offre
 

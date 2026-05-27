@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 87%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 87%
 
 La conception de votre contenu dans Adobe Journey Optimizer consiste à créer des expériences d’e-mail personnalisées et percutantes qui trouvent un écho auprès de votre audience. Que vous ajoutiez des dispositions dynamiques, des fragments visuels réutilisables ou des liens personnalisés, les outils fonctionnent ensemble pour vous donner un contrôle total sur la conception de votre e-mail. Vous allez découvrir également comment intégrer des métadonnées pour l’accessibilité, personnaliser les offres pour une plus grande pertinence et même appliquer des styles avancés à l’aide de feuilles CSS personnalisées. Grâce à des instructions détaillées, ces fonctionnalités vous permettent de créer des e-mails non seulement attrayants visuellement, mais également adaptés à vos objectifs et aux besoins de votre audience.
 
-## Concevoir du contenu
+## Concevoir le contenu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Utiliser des composants de contenu
 
@@ -40,7 +40,7 @@ Découvrez comment créer des fragments réutilisables pour rationaliser la conc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Ajouter des liens et suivre les messages
 
@@ -50,7 +50,7 @@ Activez le suivi, insérez des liens et gérez l’apparence des liens pour opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Insérer des offres personnalisées
 
@@ -70,7 +70,7 @@ Créez et personnalisez la version en texte brut de votre e-mail pour les destin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Optimiser le texte des e-mails pour les boîtes de réception d’IA
 
@@ -80,7 +80,7 @@ Structurez la couche de texte brut de votre e-mail afin que les clients de boît
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Ajouter des métadonnées
 

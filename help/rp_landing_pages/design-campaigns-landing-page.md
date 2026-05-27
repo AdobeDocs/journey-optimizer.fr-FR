@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '363'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ Les activités de campagnes orchestrées dans Adobe Journey Optimizer vous off
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Utiliser des activités de campagne orchestrées
 
@@ -30,7 +30,7 @@ Découvrez les activités de ciblage, de canal et de contrôle de flux pour conc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilisation de l’activité Rendez-vous
 
@@ -40,7 +40,7 @@ Synchronisez plusieurs branches d’exécution en vous assurant que les tâches 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Activité Créer une audience
 
@@ -50,7 +50,7 @@ Définissez et configurez des segments d’audience pour vos campagnes à l’ai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Activité Changement de dimension
 
@@ -60,7 +60,7 @@ Améliorez le ciblage en passant d’une entité de données à l’autre dans v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Activités de canal
 
@@ -70,7 +70,7 @@ Configurez les e-mails, les SMS, les notifications push et le courrier pour l’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activité Combiner
 

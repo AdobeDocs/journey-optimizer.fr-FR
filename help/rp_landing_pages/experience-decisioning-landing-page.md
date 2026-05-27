@@ -6,8 +6,8 @@ description: Prise de décision
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
-workflow-type: ht
-source-wordcount: '354'
+workflow-type: tm+mt
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
@@ -20,17 +20,17 @@ La fonctionnalité Prise de décision d’Adobe Journey Optimizer vous permet 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Présentation de la prise de décision
+Introduction à la prise de décisions
 
 Découvrez les principes de base de la prise de décision dans Adobe Journey Optimizer, notamment la diffusion de contenu personnalisé et les principales étapes de configuration.
 
-[Commencer avec la prise de décision](../using/experience-decisioning/gs-experience-decisioning.md)
+[Commencer avec la prise de décisions](../using/experience-decisioning/gs-experience-decisioning.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Mécanismes de sécurisation et limitations de la prise de décision
 
@@ -40,7 +40,7 @@ Découvrez les contraintes et les bonnes pratiques pour utiliser efficacement la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Questions fréquentes
 
@@ -50,7 +50,7 @@ Obtenez des réponses aux questions courantes sur la prise de décision, y compr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Référence d’API : diffusion d’offres
 
@@ -60,7 +60,7 @@ Découvrez comment diffuser des offres à l’aide du canal d’expérience bas�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gérer les éléments de décision et les catalogues
 
@@ -70,7 +70,7 @@ Configurez et gérez les éléments de décision, les catalogues et les collecti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Créer des règles de décision
 
@@ -80,7 +80,7 @@ Définissez des règles de décision pour cibler précisément les audiences à 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Créer des classements avec des modèles d’IA
 
