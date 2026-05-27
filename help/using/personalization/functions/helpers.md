@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 55%
+source-wordcount: '1198'
+ht-degree: 54%
 
 ---
 
@@ -264,6 +264,11 @@ Pour l’activation des jeux de données, les détails des paramètres, les exem
 
 L’assistant `executionMetadata` permet de capturer et de stocker dynamiquement des paires clé-valeur personnalisées dans le contexte d’exécution du message.
 
+>[!NOTE]
+>
+>* La fonction Métadonnées d’exécution n’est pas prise en charge par les [actions personnalisées](../../action/action.md) et dans les canaux entrants (web, expérience basée sur le code, message in-app, cartes de contenu).
+>* La fonction Métadonnées d’exécution n’est pas visible lorsque le contenu est affiché.
+
 **Syntaxe**
 
 ```
@@ -275,11 +280,6 @@ Dans cette syntaxe, `key` fait référence au nom des métadonnées et `value` c
 **Cas d’utilisation**
 
 Cette fonction vous permet d’ajouter des informations contextuelles à toute action native de vos campagnes ou parcours. Vous pouvez ainsi exporter des données contextuelles de diffusion en temps réel vers des systèmes externes à diverses fins telles que le suivi, l’analyse, la personnalisation et le traitement en aval.
-
->[!NOTE]
->
->* La fonction Métadonnées d’exécution n’est pas prise en charge par les [actions personnalisées](../../action/action.md).
->* La fonction Métadonnées d’exécution n’est pas visible lorsque le contenu est affiché.
 
 Par exemple, vous pouvez utiliser l’assistant Métadonnées d’exécution pour ajouter un ID spécifique à chaque diffusion envoyée à chaque profil. Ces informations sont générées lors de l’exécution, puis vous pouvez importer les métadonnées d’exécution enrichies pour la réconciliation en aval à l’aide d’une plateforme de création de rapports externe.
 
