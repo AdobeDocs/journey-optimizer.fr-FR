@@ -9,16 +9,16 @@ level: Beginner, Intermediate
 exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 2%
 
 ---
 
-# Création et gestion de modèles génératifs {#generative-models}
+# Créer et gérer des modèles génératifs {#generative-models}
 
 Développez vos fonctionnalités de création d’images par l’IA avec des modèles intégrés, des modèles Firefly personnalisés et des fournisseurs de génération d’images tiers pour répondre à vos besoins spécifiques et améliorer l’alignement de la marque.
 
-Choisissez le modèle adapté à vos besoins :
+Choisissez le modèle adapté à vos besoins :
 
 - **[!UICONTROL Adobe model]**, optimisé par Firefly Image Model 4, est fourni prêt à l’emploi et prêt à être utilisé pour la génération immédiate d’images sans configuration supplémentaire.
 - Le **[!UICONTROL modèle partenaire]**, optimisé par Gemini 2.5 Flash, offre des fonctionnalités spécialisées pour des cas d’utilisation spécifiques. Pour un workflow détaillé qui utilise **Gemini** avec des **superpositions de texte** sur les images dans l’assistant AI, consultez [Utiliser Gemini comme modèle génératif pour les images superposées de texte](generative-uc.md#generative-gemini).

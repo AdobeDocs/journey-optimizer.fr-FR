@@ -1,5 +1,5 @@
 ---
-title: API de migration Decisioning
+title: API de migration vers la prise de décision
 description: Découvrez comment utiliser l’API du service de migration Decisioning pour migrer des objets de gestion des décisions entre des sandbox avec une résolution de dépendance automatisée et une prise en charge de restauration.
 feature: Decisioning
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 ---
 
-# API de migration Decisioning {#decisioning-migration-api}
+# API de migration vers la prise de décision {#decisioning-migration-api}
 
 L’API Decisioning Migration Service vous permet de migrer des objets Decision Management d’un sandbox à un autre. Le processus de migration s’exécute sous la forme de workflows asynchrones qui incluent l’analyse des dépendances, l’exécution et des fonctionnalités de restauration facultatives.
 

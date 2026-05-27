@@ -56,7 +56,7 @@ Le graphique **[!UICONTROL Tendance des impressions et des clics]** présente un
 
 * **[!UICONTROL Clics]** : nombre de fois où l’utilisateur ou l’utilisatrice a interagi avec les messages in-app.
 
-* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché pour l’utilisateur ou l’utilisatrice.
+* **[!UICONTROL Affichages]** : nombre de fois où le message in-app a été affiché à l’utilisateur ou l’utilisatrice.
 
 +++
 
