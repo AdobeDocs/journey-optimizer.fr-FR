@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e9ef94bf9797c536a140be444b586a3dc0940e4e
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 24%
 
 ---
@@ -90,7 +90,7 @@ Pour définir le contenu de votre message RCS, procédez comme suit.
 
 1. Dans le champ **[!UICONTROL Texte du message]** saisissez le contenu de votre message. Vous pouvez utiliser la personnalisation pour personnaliser le texte en fonction de chaque profil. Notez que les limites de caractères varient selon le type de message : 3 072 caractères pour le format Rich Media (single) et 160 caractères pour le format RCS de base.
 
-1. Utilisez l&#39;éditeur **&#x200B;**&#x200B;pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
+1. Utilisez l&#39;éditeur **** pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
 
 1. Si vous le souhaitez, ajoutez des boutons interactifs **[!UICONTROL Actions suggérées]** qui permettent aux profils d’agir en une seule touche.
 
@@ -135,7 +135,7 @@ Pour configurer le contenu de votre message, suivez les étapes ci-après. Les p
 
    ![](assets/sms_tracking_1.png)
 
-1. Sélectionnez **[!UICONTROL URL]** et cliquez sur **[!UICONTROL Ajouter une URL]**.
+1. Sélectionnez **[!UICONTROL URL]** et cliquez sur **[!UICONTROL Ajouter une URL]**. En savoir plus sur la fonction d’assistance `Url` dans [cette section](../personalization/functions/helpers.md#url).
 
    ![](assets/sms_tracking_2.png)
 
@@ -147,13 +147,13 @@ Pour configurer le contenu de votre message, suivez les étapes ci-après. Les p
    >
    > La durée de vie des URL courtes est définie sur 30 jours. Passé ce délai, ces URL courtes ne seront plus accessibles et afficheront le message suivant : `404 short-code not found`.
 
-1. Pour ajouter un lien profond qui ouvre un écran spécifique dans votre application mobile, utilisez la fonction d’assistance **[!UICONTROL Url]** avec le type de `DEEPLINK` , comme dans l’exemple ci-dessous. [En savoir plus sur les liens profonds](../email/deeplinks.md)
+1. Pour ajouter un lien profond qui ouvre un écran spécifique dans votre application mobile, utilisez la fonction d’assistance `Url` avec le type de `DEEPLINK` , comme dans l’exemple ci-dessous. [En savoir plus sur les liens profonds](../email/deeplinks.md)
 
    ```
    {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
    ```
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >Avant d’utiliser les liens profonds, assurez-vous d’avoir terminé les [étapes de configuration](../email/deeplinks.md#configuration) correspondantes dans Journey Optimizer et implémenté [gestion des liens profonds](../email/deeplinks.md#mobile-implementation) dans votre application mobile. Si vous ne l’avez pas fait, le lien profond ne dirigera pas les utilisateurs vers le contenu in-app prévu.
    >
@@ -192,3 +192,4 @@ Pour créer du contenu MMS, procédez comme suit :
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Vous pouvez maintenant tester et vérifier le contenu de votre message, comme décrit ci-dessous.
 
 Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez envoyer votre message mobile à votre audience. Ces étapes sont présentées sur [cette page](send-mobile-message.md).
+
