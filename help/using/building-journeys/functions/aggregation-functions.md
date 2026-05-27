@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: agrégation, fonctions, expression, parcours, moyenne, nombre, max, min, somme
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '717'
+exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+workflow-type: tm+mt
+source-wordcount: '719'
 ht-degree: 100%
 
 ---
@@ -44,8 +45,8 @@ Types pris en charge :
 
 * listInteger
 * listDecimal
-* Décimal
-* Entier
+* décimal
+* entier
 
 +++
 
@@ -296,7 +297,7 @@ Renvoie la valeur maximale d’un ensemble d’expressions, exprimée sous la fo
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* durée
+* duration
 * Entier
 * Décimal
 * dateTime
@@ -384,7 +385,7 @@ Renvoie la valeur minimale d’un ensemble d’expressions, exprimée sous la fo
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* durée
+* duration
 * Entier
 * Décimal
 * dateTime
@@ -468,7 +469,7 @@ Renvoie la somme des valeurs d’un ensemble d’expressions. Les valeurs « nu
 
 * listInteger
 * listDecimal
-* durée
+* duration
 * Entier
 * Décimal
 

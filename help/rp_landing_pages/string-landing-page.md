@@ -8,7 +8,7 @@ hide: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '365'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,7 @@ Les chaînes sont les blocs de création des données textuelles. Les fonctions 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Référence de la fonction concat
 
@@ -31,7 +31,7 @@ Découvrez comment combiner des chaînes ou une liste de chaînes à l’aide de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilisation de la fonction contain
 
@@ -41,7 +41,7 @@ Découvrez comment vérifier la présence d’une chaîne dans une autre chaîne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction containIgnoreCase
 
@@ -51,7 +51,7 @@ Découvrez comment effectuer des contrôles de contenu de chaînes qui ne respec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Référence de la fonction endWith
 
@@ -61,7 +61,7 @@ Découvrez comment vérifier si une chaîne se termine par un suffixe spécifiqu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction endWithIgnoreCase
 
@@ -71,7 +71,7 @@ Vérifiez si une chaîne se termine par un suffixe, en ignorant la casse.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Référence de la fonction equalIgnoreCase
 

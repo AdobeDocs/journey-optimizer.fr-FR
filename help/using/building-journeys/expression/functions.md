@@ -10,8 +10,8 @@ keywords: fonction, expressions, éditeur, parcours, données, manipulation
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 source-git-commit: 99053c6c1327818645adc4ab9a5d3dd30eb96b87
-workflow-type: ht
-source-wordcount: '855'
+workflow-type: tm+mt
+source-wordcount: '874'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Les fonctions sont les blocs fondateurs des expressions de parcours dynamique da
 
 Les fonctions des expressions de parcours suivent un modèle de syntaxe cohérent :
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, …,`<expression as param N>`)
 
 **Caractéristiques principales :**
 
