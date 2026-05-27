@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui permet le partage d’images, de GIF ou de vidéos avec vos clientes et clients. Notez que cette fonctionnalité est actuellement disponible avec Sinch uniquement.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../mobile/create-mobile-message.md#mms-content">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../mobile/create-mobile-message.md#mms-content">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -272,7 +272,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d’adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l’exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que les formats d’affichage, les URL, les images et les liens sont corrects.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>Pour plus d’informations, consultez la <a href="../configuration/seed-lists.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../configuration/seed-lists.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -306,7 +306,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 <!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content#tag/Content-fragment-API){target="_blank"}.
 -->
 
 <!--
@@ -595,7 +595,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Les modèles de classement AI d’optimisation personnalisée sont désormais disponibles dans la gestion des décisions. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des audiences et des performances des offres.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -714,7 +714,7 @@ Information below is subject to change without prior notice until the release av
 <li>Utilisez l’onglet <strong>Parcourir</strong> pour accéder à la liste de tous les parcours.</li></ul>
 <p>Cette fonctionnalité est accessible en version Beta publique dans tous les parcours.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-gs.md#journey-access">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../building-journeys/journey-gs.md#journey-access">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -871,7 +871,7 @@ Information below is subject to change without prior notice until the release av
 <p>Vous pouvez maintenant établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. Les destinations disponibles sont les suivantes : espace de stockage Amazon S3, Blob Azure, Azure Data Lake Gen 2, zone d’atterrissage des données, Google Cloud Storage, SFTP.</p>
 <p><strong>Attention</strong> : cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer. Contactez votre représentant ou représentante Adobe pour obtenir l’accès aux destinations si vous n’y avez pas déjà accès.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../data/export-datasets.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../data/export-datasets.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
