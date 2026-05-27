@@ -176,4 +176,4 @@ Après avoir créé votre activité en direct, vous pouvez suivre son impact à 
 
 Découvrez comment configurer les activités en direct iOS avec Adobe Journey Optimizer pour afficher des mises à jour détaillées et en temps réel sur l’écran verrouillé et la Dynamic Island d’un iPhone.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479866?captions=fre_fr)
