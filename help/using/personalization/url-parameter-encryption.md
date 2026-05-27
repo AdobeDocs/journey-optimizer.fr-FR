@@ -12,7 +12,7 @@ keywords: chiffrement, URL, tracking, page de destination, registre des clés, p
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
 source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '695'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est disponible en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 >
 >Actuellement, cette fonctionnalité n’est disponible que pour le canal E-mail .
 
@@ -78,7 +78,7 @@ Avant de pouvoir utiliser l’assistant de chiffrement des paramètres d’URL, 
 
 Une fois une clé créée, les marketeurs peuvent utiliser l&#39;assistant [chiffrement des paramètres d&#39;URL](functions/helpers.md#url-parameter-encryption-helper) de l&#39;éditeur de personnalisation pour chiffrer les valeurs spécifiques qu&#39;ils placent dans les paramètres de requête d&#39;URL.
 
-## Gestion des clés {#manage-keys}
+## Gérer des clés {#manage-keys}
 
 Pour gérer les clés, procédez comme suit.
 

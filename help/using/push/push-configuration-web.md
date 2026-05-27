@@ -8,25 +8,12 @@ role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
 TQID: https://experienceleague.adobe.com/OKMsihU81BssIhueGFaWZUzUFIh-FDuo6sCnB9iwnxE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1137
@@ -138,7 +125,7 @@ Les schémas et jeux de données suivants sont disponibles avec le canal de noti
 
 ### Configuration de la propriété pushNotification {#push-property}
 
-Pour activer les **notifications push web**, vous devez d’abord vous assurer que la propriété [pushNotifications](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/configure/pushnotifications) est correctement configurée dans le SDK web. Cette propriété contrôle la manière dont les notifications push sont traitées par votre application web.
+Pour activer les **notifications push web**, vous devez d’abord vous assurer que la propriété [pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) est correctement configurée dans le SDK web. Cette propriété contrôle la manière dont les notifications push sont traitées par votre application web.
 
 En outre, vous devez générer des clés VAPID, requises pour configurer [les informations d’identification push de votre application](#push-credentials-launch) dans Journey Optimizer.
 
@@ -195,7 +182,7 @@ Vous pouvez maintenant sélectionner votre configuration lors de la création de
 
 ## Étape 3 : configurer la propriété sendPushSubscription {#sendPushSubscription-property}
 
-Une fois vos informations d’identification push et la configuration du canal configurées, vous devez implémenter [la commande sendPushSubscription](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/sendpushsubscription) dans votre application web. Cette commande enregistre les abonnements push des utilisateurs auprès de Adobe Experience Platform, ce qui permet au système de suivre les utilisateurs qui se sont inscrits pour recevoir des notifications push et conserver leur statut d&#39;abonnement. Cet enregistrement est essentiel pour que Journey Optimizer envoie des notifications push ciblées à vos utilisateurs.
+Une fois vos informations d’identification push et la configuration du canal configurées, vous devez implémenter [la commande sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) dans votre application web. Cette commande enregistre les abonnements push des utilisateurs auprès de Adobe Experience Platform, ce qui permet au système de suivre les utilisateurs qui se sont inscrits pour recevoir des notifications push et conserver leur statut d&#39;abonnement. Cet enregistrement est essentiel pour que Journey Optimizer envoie des notifications push ciblées à vos utilisateurs.
 
 ## Étape 4 : test de votre application mobile avec un événement {#mobile-app-test}
 
