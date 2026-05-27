@@ -419,7 +419,7 @@ table>
 <p>Vous pouvez désormais utiliser des systèmes de modèles d’optimisation personnalisés dans la gestion des décisions. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des audiences et des performances des offres.</p>
 <p>L’utilisation des modèles d’IA d’optimisation personnalisés est actuellement limitée à certains utilisateurs et sera déployée dans tous les environnements dans une prochaine version.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -12,8 +12,8 @@ badge: label="Disponibilité limitée" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 18%
+source-wordcount: '1258'
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ Que vous ayez déjà commencé le processus de migration ou non, suivez les éta
 
    >[!NOTE]
    >
-   >La longueur de la clé peut être de 2 048 ou 4 096 bits uniquement. Elle ne peut plus être modifiée une fois le sous-domaine envoyé.
+   >La longueur de la clé peut être de 2048 ou 4096 bits uniquement. Elle ne peut plus être modifiée une fois le sous-domaine envoyé.
 
 1. Cliquez sur **[!UICONTROL Télécharger la CSR]** et enregistrez le formulaire sur votre ordinateur local.
 
@@ -105,7 +105,7 @@ Que vous ayez déjà commencé le processus de migration ou non, suivez les éta
 
    * Toutefois, le certificat doit couvrir à la fois data.subdomain.com et cdn.subdomain.com en tant qu’entrées de noms alternatifs de l’objet (SAN) dans un seul certificat. Par exemple, si vous déléguez example.adobe.com, alors data.subdomain.com correspond à data.example.adobe.com et cdn.subdomain.com correspond à cdn.example.adobe.com.
 
-   * Les sous-domaines de données (data.example.adobe.com) et de réseau CDN (cdn.example.adobe.com) doivent être ajoutés en tant qu’entrées d’homologue dans le même certificat. Aucun sous-domaine supplémentaire ne doit être ajouté à ce certificat.
+   * Les sous-domaines de données (data.example.adobe.com) et de CDN (cdn.example.adobe.com) doivent être ajoutés en tant qu’entrées d’homologue dans le même certificat. Aucun sous-domaine supplémentaire ne doit être ajouté à ce certificat.
 
    * La plupart des autorités de certification vous permettent d’ajouter des SAN supplémentaires (tels que le sous-domaine du CDN) pendant le processus de signature.
 
@@ -197,10 +197,10 @@ Si des erreurs se produisent lorsque vous tentez de soumettre votre sous-domaine
 
 * _Impossible de valider la ressource. Le DNS existe toujours et doit être supprimé._ — Veillez à supprimer tous les enregistrements de votre solution d&#39;hébergement. [Voici comment procéder](#delete-dns)
 * _Impossible de valider la ressource. Chargez votre certificat SSL et réessayez._ — Le certificat SSL n&#39;a pas été chargé. Veillez à le charger. [Voici comment procéder](#upload-ssl-certificate)
-* _Le certificat contient des domaines inattendus dans ses noms alternatifs de sujet (SAN)._ — Veillez à charger le certificat SSL correct. [Voici comment procéder](#upload-ssl-certificate)
-* _Les domaines requis suivants sont absents du certificat dans ses noms de remplacement du sujet (SAN)._ — Veillez à charger le certificat SSL correct. [Voici comment procéder](#upload-ssl-certificate)
+* _Le certificat contient des domaines inattendus dans ses noms alternatifs d’objet (SAN)._ — Assurez-vous de charger le certificat SSL correct. [Voici comment procéder](#upload-ssl-certificate)
+* _Les domaines requis suivants sont absents du certificat dans ses noms alternatifs de sujet (SAN)._ — Assurez-vous de charger le certificat SSL correct. [Voici comment procéder](#upload-ssl-certificate)
 
-**Voir également**
+**Voir aussi**
 
 * [Configurer un sous-domaine personnalisé](delegate-custom-subdomain.md)
 * [Méthodes de délégation de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods)

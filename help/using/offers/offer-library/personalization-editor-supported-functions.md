@@ -13,7 +13,7 @@ exl-id: c4df41a2-d740-437c-acc3-957508c4a1c0
 source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -77,7 +77,7 @@ Le serveur principal d’Offer Decisioning prend uniquement en charge un **sous-
 | Longueur | length |
 | MD5 | md5 |
 | SHA256 | sha256 |
-| Comme | comme |
+| Comme | J&#39;aime |
 | Commence par | startsWith |
 | Ne commence pas par | doNotStartWith |
 | Se termine par | se termine par |
@@ -86,7 +86,7 @@ Le serveur principal d’Offer Decisioning prend uniquement en charge un **sous-
 | Ne contient pas | neContientPas |
 | Égal à | est égal à |
 | Différent de | notEqualTo |
-| Correspond à | matches |
+| Correspond à | correspond |
 | Groupe d’expressions régulières | regexGroup |
 | Chaîne en nombre | stringToNumber |
 | Chaîne à date | stringToDate |
@@ -123,7 +123,7 @@ Le serveur principal d’Offer Decisioning prend uniquement en charge un **sous-
 | Premier élément | tête |
 | Nombre | count |
 | Somme | sum |
-| Moyenne | moyenne |
+| moyen | moyenne |
 | Minimum | min |
 | Maximum | max |
 
