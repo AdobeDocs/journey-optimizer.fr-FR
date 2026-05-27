@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, la personnalisation vous permet de créer des ex
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec la personnalisation
 
@@ -30,7 +30,7 @@ Découvrez les principes de base de la personnalisation dans Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Ajouter de la personnalisation et la valider
 
@@ -40,7 +40,7 @@ Maîtrisez l’éditeur de personnalisation pour créer du contenu personnalisé
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Présentation de la syntaxe de personnalisation
 
@@ -50,7 +50,7 @@ Découvrez les règles et les exemples de syntaxe de personnalisation basée sur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Réutiliser des fragments d’expression
 
