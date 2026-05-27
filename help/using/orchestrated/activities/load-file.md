@@ -12,9 +12,9 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
+source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
 workflow-type: tm+mt
-source-wordcount: 1258
+source-wordcount: 1234
 ht-degree: 2%
 
 ---
@@ -41,7 +41,6 @@ Les restrictions suivantes s&#39;appliquent à l&#39;activité Chargement de fic
 * Vous pouvez charger jusqu’à 50 Mo par fichier.
 * Seuls les fichiers CSV et TXT à structure plate sont pris en charge.
 * Les données chargées sont utilisées lors de l’exécution de la campagne et ne sont pas stockées sous la forme d’un jeu de données Adobe Experience Platform.
-* Chaque ligne doit correspondre à un destinataire existant pour la dimension de ciblage que vous sélectionnez. L’activité Chargement de fichier ne crée pas de profils à partir du fichier.
 
 Pour connaître les limites des activités de canal et de zone de travail, voir [Mécanismes de sécurisation et limitations](../guardrails.md#activities-limitations).
 
