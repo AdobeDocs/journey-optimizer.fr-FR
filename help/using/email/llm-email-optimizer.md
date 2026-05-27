@@ -1,5 +1,5 @@
 ---
-title: Optimisation des e-mails pour les boîtes de réception d’IA
+title: Optimiser les e-mails pour les boîtes de réception d’IA
 description: Générez et affinez une version dédiée de vos messages afin que les clients de la boîte de réception assistée par IA puissent utiliser vos offres et vos appels à l’action lorsqu’ils résument l’intention de l’e-mail ou de l’extraire, dans le Designer d’e-mail avec optimisation avec IA.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
@@ -8,12 +8,12 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 1%
+source-wordcount: '1115'
+ht-degree: 3%
 
 ---
 
-# Optimisation des e-mails pour les boîtes de réception d’IA {#email-text-optimizer}
+# Optimiser les e-mails pour les boîtes de réception d’IA {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer] est fourni avec une fonctionnalité de canal e-mail qui vous permet de structurer une version spécifique de vos messages pour améliorer les expériences de boîte de réception assistée par l’IA, telles que les [!DNL Apple Intelligence] et les [!DNL Google Gemini] dans [!DNL Gmail], afin qu’ils puissent répondre aux questions et résumer les e-mails en fonction de votre contenu plus précisément, avec de meilleurs résultats.
 
@@ -27,7 +27,7 @@ Vous pouvez utiliser cette fonctionnalité pour générer et affiner une version
 
 ## Fonctionnement {#how-it-works}
 
-Les questions standard que les destinataires peuvent poser dans les expériences de boîte de réception assistée par l’IA sont les suivantes *De quoi s’agit cet e-mail ?* ou *quelles sont ces offres ?*.
+Les questions standard que les destinataires peuvent poser dans les expériences de boîte de réception assistée par l’IA sont les suivantes *De quoi s’agit cet e-mail ?* ou *Quelles sont ces offres ?*.
 
 * Les réponses fournies par ces assistants d’IA peuvent être un bref résumé (par exemple, le message est promotionnel, mentionne un accès anticipé à VIP et une vente, et inclut des liens vers des catégories de produits). Cependant, ils omettent toujours les objectifs auxquels le professionnel du marketing s’intéressait, car les assistants déduisent de tout texte qu’ils voient réellement - pas nécessairement de l’histoire complète que vous souhaitiez raconter.
 
@@ -63,7 +63,7 @@ L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les
 
 Pour optimiser le contenu de votre e-mail pour les expériences de boîte de réception IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[&#x200B; (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).](content-from-scratch.md)
+1. Ouvrez l’e-mail dans le Designer d’e-mail[&#128279;](content-from-scratch.md) (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).
 
 1. Cliquez sur le bouton **[!UICONTROL Optimiser pour la boîte de réception IA]** pour générer une version améliorée qui met en surbrillance les informations clés pour la lecture et la synthèse assistées par IA.
 

@@ -11,8 +11,8 @@ keywords: texte, e-mail, version, brut, éditeur
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 11%
+source-wordcount: '1171'
+ht-degree: 12%
 
 ---
 
@@ -36,7 +36,7 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 
 1. Dans votre e-mail, sélectionnez l’icône **[!UICONTROL Texte brut]**.
 
-1. Utilisez le bouton (bascule) **[!UICONTROL Synchroniser avec HTML]** pour désactiver la synchronisation. Cliquez sur la coche pour confirmer votre choix.
+1. Utilisez le bouton (bascule) **[!UICONTROL Synchroniser avec le code HTML]** pour désactiver la synchronisation. Cliquez sur la coche pour confirmer votre choix.
 
    ![](assets/text_version_2.png)
 

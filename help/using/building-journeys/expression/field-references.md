@@ -172,7 +172,7 @@ Utilisez la syntaxe suivante :
 * **`<params-1-name>`** : nom exact du premier paramètre de la source de données.
 * **`<params-1-value>`** : valeur du premier paramètre. Il peut s’agir de n’importe quelle expression valide.
 
-Exemple :
+Exemple:
 
 ```json
 #{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}

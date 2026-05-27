@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 95%
 
 ---
 
@@ -115,7 +115,7 @@ Instructions relatives aux tickets d’assistance
 
 Découvrez les éléments à inclure lorsque vous contactez l’assistance Adobe (détails de l’environnement, niveau d’impact, étapes de réplication, journaux ou captures d’écran et identifiants pertinents) afin d’accélérer la résolution.
 
-[Instructions relatives aux tickets d’assistance](../using/start/user-interface.md#support-ticket-guidelines)
+[Consignes pour les tickets de support](../using/start/user-interface.md#support-ticket-guidelines)
 :::
 
 ::::

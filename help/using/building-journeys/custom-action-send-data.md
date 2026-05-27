@@ -11,8 +11,8 @@ keywords: parcours, cas d’utilisation
 version: Journey Orchestration
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 72%
+source-wordcount: '289'
+ht-degree: 74%
 
 ---
 
