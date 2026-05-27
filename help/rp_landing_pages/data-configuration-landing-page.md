@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-24-01
 exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
 source-git-commit: 487dac21011f951bedc6f9f71c39faf549859d79
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 78%
+source-wordcount: '221'
+ht-degree: 79%
 
 ---
 

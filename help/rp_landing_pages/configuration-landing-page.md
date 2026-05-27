@@ -7,18 +7,18 @@ redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
 # Configuration des canaux{#section-overview}
 
-La configuration des canaux dans Adobe Journey Optimizer vous permet de gérer la manière dont les messages sont diffusés sur différents canaux tels que les e-mails, les SMS, les notifications push et le web, afin d’assurer une communication adaptée et efficace.
+La configuration des canaux dans Adobe Journey Optimizer vous permet de gérer la manière dont les messages sont diffusés sur différents canaux tels que les e-mails, les SMS, les notifications push et le web, afin d’assurer une communication adaptée et efficace.
 
-Que vous configuriez des paramètres techniques, des sous-domaines ou la délivrabilité des e-mails à l’aide de plans de préchauffage d’adresses IP, chaque étape est conçue pour améliorer les performances et la conformité des messages.
+Que vous définissiez des paramètres techniques, configuriez des sous-domaines ou optimisiez la délivrabilité des e-mails à l’aide de plans de préchauffage d’adresses IP, chaque étape est conçue pour améliorer les performances et la conformité des messages.
 
-Vous y trouverez également des outils pour surveiller la réputation des e-mails, gérer les listes de suppression et même archiver les messages à des fins d&#39;audit.
+Vous y trouverez également des outils pour surveiller la réputation des e-mails, gérer les listes de suppression et même archiver les messages à des fins d’audit.
 
 Approfondissez les sujets à venir pour découvrir comment ces configurations fonctionnent ensemble, ce qui vous aidera à créer des expériences client fluides et percutantes.
 

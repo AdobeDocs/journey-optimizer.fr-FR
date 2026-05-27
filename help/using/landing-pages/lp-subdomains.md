@@ -118,7 +118,7 @@ Pour configurer un nouveau sous-domaine, procédez comme suit.
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Sous-domaines de page de destination]**.
 
-1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
+1. Cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
 1. Sélectionnez **[!UICONTROL Ajouter votre propre domaine]** de la section **[!UICONTROL Type de configuration]**.
 

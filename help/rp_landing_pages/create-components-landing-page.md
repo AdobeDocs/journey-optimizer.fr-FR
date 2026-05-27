@@ -7,8 +7,8 @@ badge: label="Hérité" type="Informative"
 redpen-status: CREATED_||_2025-08-11_20-58-59
 exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
-source-wordcount: '228'
+workflow-type: tm+mt
+source-wordcount: '239'
 ht-degree: 100%
 
 ---

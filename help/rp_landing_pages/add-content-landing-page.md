@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 87%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 La conception de votre contenu dans Adobe Journey Optimizer consiste à créer des expériences d’e-mail personnalisées et percutantes qui trouvent un écho auprès de votre audience. Que vous ajoutiez des dispositions dynamiques, des fragments visuels réutilisables ou des liens personnalisés, les outils fonctionnent ensemble pour vous donner un contrôle total sur la conception de votre e-mail. Vous allez découvrir également comment intégrer des métadonnées pour l’accessibilité, personnaliser les offres pour une plus grande pertinence et même appliquer des styles avancés à l’aide de feuilles CSS personnalisées. Grâce à des instructions détaillées, ces fonctionnalités vous permettent de créer des e-mails non seulement attrayants visuellement, mais également adaptés à vos objectifs et aux besoins de votre audience.
 
-## Concevoir du contenu
+## Concevoir le contenu
 
 :::: landing-cards-container
 :::

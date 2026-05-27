@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-12_00-38-47
 exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Guide détaillé sur la création de modèles de contenu réutilisables à parti
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
-Verrouiller du contenu dans les modèles d’e-mail
+Verrouiller le contenu dans les modèles d’e-mail
 
 Découvrez comment verrouiller des sections ou des modèles entiers pour empêcher des modifications ou des suppressions involontaires et améliorer la gouvernance.
 

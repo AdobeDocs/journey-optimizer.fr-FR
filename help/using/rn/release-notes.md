@@ -274,7 +274,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à Decision
 <td>
 <p>[!DNL Adobe Journey Optimizer] utilise désormais l’IA pour détecter les règles de prise de décision et les formules de classement qui peuvent être simplifiées. Dans l’inventaire, un indicateur rouge s’affiche sur toute règle pour laquelle l’IA a identifié une opportunité d’optimisation. Cliquez sur l’indicateur pour afficher l’expression d’origine avec la version suggérée par l’IA. À partir de là, vous pouvez télécharger un fichier pour examiner la manière dont les profils simulés sont évalués par chaque version et confirmer qu’ils se comportent de manière identique, puis remplacer l’expression par l’expression optimisée.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../start/ai-features.md#decisioning-optimization">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 5 mai 2026</p>
 </td>
 </tr>
@@ -330,7 +330,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées au canal e-
 <p>Il est désormais possible d’ajouter des liens profonds au contenu de votre e-mail par le biais d’une option dédiée dans le Designer d’e-mail. Cela permet aux utilisateurs et utilisatrices d’accéder directement au contenu in-app approprié au lieu d’être redirigés vers des navigateurs ou des boutiques d’applications, en préservant le contexte et l’engagement.</p>
 <p>Notez que bien que l’option Lien profond soit disponible pour tous les clients, les liens profonds ne fonctionnent que si vous avez terminé les étapes de configuration requises et de mise en œuvre des applications mobiles.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../email/deeplinks.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../email/deeplinks.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 12 mai 2026</p>
 </td>
 </tr>
