@@ -9,30 +9,15 @@ level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 96%
+source-wordcount: 1041
+ht-degree: 92%
 
 ---
 
@@ -42,7 +27,7 @@ Toutes les données correctement ingérées par Adobe Experience Platform sont
 
 ## Mécanismes de sécurisation et limitations
 
-* À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=fr){target="_blank"}.
+* À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * Depuis février 2025, un mécanisme de sécurisation sur la durée de vie (TTL) est déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
 
@@ -74,7 +59,7 @@ Cette section répertorie les jeux de données système utilisés par [!DNL Jour
 * Création de rapports
 
    * _Création de rapports - Jeu de données d’événement de retour de message_ : logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données.
-   * _Création de rapports - Jeu de données d’événement d’expérience de tracking e-mail_ : logs d’interaction pour le canal e-mail utilisé à des fins de création de rapports et d’audiences. Les informations stockées renseignent sur les actions effectuées par la personne utilisatrice finale dans un e-mail (ouvertures, clics, etc.).
+   * _Reporting - Jeu de données d’événement d’expérience de suivi d’e-mail_ : logs d’interaction pour le canal e-mail et données contextuelles du canal WhatsApp sous le groupe de champs `whatsAppChannelContext` . Utilisé pour la création de rapports et d’audiences. Les informations stockées incluent les actions effectuées par l’utilisateur final dans un e-mail (ouvertures, clics, etc.) et les interactions WhatsApp.
    * _Création de rapports - Jeu de données d’événement d’expérience de tracking de notification push_ : logs d’interaction pour le canal de notification push utilisé à des fins de création de rapports et d’audiences. Les informations stockées renseignent sur les actions effectuées par l’utilisateur final dans les notifications push.
    * _Création de rapports - Événement d’étape de parcours_ : capture tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. Également essentiel pour la création de rapports dans Customer Journey Analytics pour l’analyse YoY. Associé à des métadonnées de parcours.
    * _Création de rapports - Parcours_ : jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours.
@@ -111,7 +96,7 @@ Vous pouvez créer un jeu de données à partir d’un schéma ou d’un fichier
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416649?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Gouvernance des données
 

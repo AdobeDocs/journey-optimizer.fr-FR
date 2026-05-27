@@ -9,24 +9,15 @@ role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
 TQID: https://experienceleague.adobe.com/u2OevVu38fPdytpuTmHeSdEx3Wvpih7ifk-j88rhDFI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 100%
+source-wordcount: 420
+ht-degree: 58%
 
 ---
 
@@ -55,3 +46,28 @@ Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Ce
 > Si votre campagne est soumise à une politique de validation, vous devrez effectuer une demande d’approbation afin de pouvoir envoyer vos SMS. [En savoir plus](../test-approve/gs-approval.md)
 
 Une fois votre message WhatsApp prêt, effectuez la configuration de votre [parcours](../building-journeys/publish-journey.md) ou [campagne](../campaigns/review-activate-campaign.md) pour l’envoyer.
+
+## Analyse des interactions WhatsApp {#whatsapp-channel-context}
+
+Journey Optimizer capture les données d’interaction supplémentaires renvoyées par le canal WhatsApp et les stocke dans le **Jeu de données d’événement d’expérience de suivi d’e-mail - Rapports** sous le groupe de champs `whatsAppChannelContext` . Utilisez ces champs pour créer des [audiences](../audience/about-audiences.md), exécuter des [requêtes](../data/get-started-queries.md) et analyser l&#39;engagement de WhatsApp. [En savoir plus sur les jeux de données système](../data/get-started-datasets.md#system-datasets).
+
+Les champs suivants sont capturés :
+
+| Champ | Description |
+|-|-|
+| `messageType` | Type de message WhatsApp (par exemple, `templateBased`, `response`). |
+| `inboundMessage` | Contenu de la réponse entrante (par exemple, `stop`, `start`, `subscribe`). |
+| `inboundNumber` | Identifiant de l’expéditeur où le message entrant a été reçu. |
+| `channelType` | Catégorie de canal (`Utility`, `Marketing` ou `Promotional`). |
+| `profileNumber` | Numéro de téléphone à partir duquel le message entrant a été reçu. |
+| `origTimestamp` | Horodatage d&#39;origine de Meta / WhatsApp. |
+| `status` | Statut de la diffusion, y compris les commentaires normalisés du fournisseur (`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` ou `unknown`) et le message brut de statut du fournisseur. |
+| `reactionEvent` | Contenu de la réponse de l’utilisateur : émoticône pour les réactions ou texte du message pour les réponses à un message spécifique. |
+| `reactionMessageID` | ID du message d’origine auquel une réponse est apportée. |
+| `reactionActionName` | Type d’action de réponse (`react`, `unreact` ou `reply`). |
+| `interactiveSelectedTitle` | Titre sélectionné par l’utilisateur dans un message interactif WhatsApp. |
+| `interactiveType` | Type de message interactif (`list reply`, `button reply` ou `button`). |
+| `interactiveSelectedDescription` | Description de l&#39;option interactive WhatsApp sélectionnée. |
+| `interactiveSelectedID` | Identifiant de l’option sélectionnée dans WhatsApp. |
+
+Pour interroger ce jeu de données, utilisez la table `ajo_email_tracking_experience_event_dataset` dans Query Service. Pour les modèles de requête et les cas d’utilisation associés, voir [Exemples de requête de jeu de données](../data/datasets-query-examples.md).
