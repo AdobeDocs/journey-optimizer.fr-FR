@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '7897'
+source-wordcount: '7927'
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * La documentation sur les **liens profonds** a été complétée par une nouvelle section **Création de liens profonds** présentant les deux options disponibles pour les e-mails (interface utilisateur de Designer d’e-mail et code de l’éditeur de Personalization) et la syntaxe de la fonction URL pour les SMS. La page **Créer un SMS** comprend désormais une étape de lien profond dans le flux de création de contenu. [En savoir plus](../email/deeplinks.md)
 
 * La référence d’assistance **Url** a été mise à jour avec une section dédiée dans la documentation de Personalization. [En savoir plus](../personalization/functions/helpers.md#url)
+
+* Une limitation a été ajoutée à la documentation d’assistance **Métadonnées d’exécution** : la fonction n’est pas prise en charge dans les canaux entrants (web, expérience basée sur le code, message in-app, cartes de contenu). [En savoir plus](../personalization/functions/helpers.md#execution-metadata)
 
 * Une nouvelle page **Personalization recipes** a été ajoutée, fournissant des modèles de personnalisation prêts à l’emploi pour les cas d’utilisation les plus courants dans Journey Optimizer. Elle couvre les recettes de date et d’heure (mise en forme de date actuelle, compte à rebours jusqu’à l’expiration, calculs de jours précédents, affichage temporel uniquement et détection de week-end par rapport au jour de la semaine), les recettes de chaîne (à l’aide de `replaceAll` avec affectation de variable) et les recettes de secours conditionnelles (secours de champs vides à l’aide de `isEmpty`). [En savoir plus](../personalization/personalization-recipes.md)
 
