@@ -12,8 +12,8 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 91%
+source-wordcount: '564'
+ht-degree: 92%
 
 ---
 
@@ -55,7 +55,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 ## Limites des sources de données {#data-sources-limitations}
 
-* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel.Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
+* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
 ## Parcours commençant en même temps qu&#39;une création de profil {#journeys-limitation-profile-creation}
 

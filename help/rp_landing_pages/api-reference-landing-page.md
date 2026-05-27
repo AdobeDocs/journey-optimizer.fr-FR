@@ -8,8 +8,8 @@ badge: label="Hérité" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
 source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 76%
+source-wordcount: '248'
+ht-degree: 78%
 
 ---
 
@@ -25,7 +25,7 @@ La section Référence d’API d’Adobe Journey Optimizer propose les outils do
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main de l’API Offer Library
 
@@ -35,7 +35,7 @@ Découvrez comment intégrer l’API Offer Library pour la gestion des décision
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Diffuser des offres à l’aide des API Adobe Journey Optimizer
 
@@ -45,7 +45,7 @@ Explorez des ressources complètes sur l’implémentation des API Decisioning, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Créer et gérer des offres à l’aide d’API
 

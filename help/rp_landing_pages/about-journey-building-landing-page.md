@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Activités
+title: Activities
 description: Activités
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '418'
 ht-degree: 84%
 
 ---
@@ -20,7 +20,7 @@ Les activités dans Adobe Journey Optimizer sont les blocs de création qui do
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation des activités de parcours
 
@@ -30,7 +30,7 @@ Découvrez les activités d’événement, d’orchestration et d’action dans 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Utilisation des événements généraux
 
@@ -40,7 +40,7 @@ Découvrez comment utiliser les événements généraux pour déclencher des par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configuration des événements de réaction
 
@@ -50,7 +50,7 @@ Découvrez comment réagir aux données de suivi telles que les clics ou les ouv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Événements de qualification d’audience
 
@@ -60,7 +60,7 @@ Découvrez comment déclencher des actions et des conditions en fonction des sta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilisation de l’activité Optimiser (conditions)
 
