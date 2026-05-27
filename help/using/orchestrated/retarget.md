@@ -8,8 +8,8 @@ exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 66%
+source-wordcount: '909'
+ht-degree: 68%
 
 ---
 

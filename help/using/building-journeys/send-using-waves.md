@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Envoi par vagues dans les parcours
+title: Utiliser l’envoi par vagues dans les parcours
 description: Planifiez la diffusion des messages de parcours sortants par lots contrôlés (vagues) dans le temps. L’envoi de vagues dans des parcours en lecture d’audience permet d’équilibrer la charge et de prendre en charge la délivrabilité.
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -12,12 +12,12 @@ keywords: vagues, lots, planning, parcours, lecture d’audience, délivrabilit�
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: '868'
+ht-degree: 2%
 
 ---
 
-# Envoi par vagues dans les parcours {#send-using-waves-journeys}
+# Utiliser l’envoi par vagues dans les parcours {#send-using-waves-journeys}
 
 Vous pouvez diffuser des messages sortants à partir d’un parcours par lots (vagues) au fil du temps, au lieu de les diffuser tous en même temps. L’envoi de vagues permet d’équilibrer la charge, d’éviter de surcharger les systèmes en aval (tels que les centres d’appels ou les landing pages) et de prendre en charge la délivrabilité et la réputation de l’expéditeur, en particulier pour les parcours de lecture d’audience à volume élevé.
 
