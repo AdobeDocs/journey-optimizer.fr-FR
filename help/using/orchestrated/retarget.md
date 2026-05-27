@@ -8,8 +8,8 @@ exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 66%
+source-wordcount: '909'
+ht-degree: 68%
 
 ---
 
@@ -44,7 +44,7 @@ La règle de reciblage basée sur les retours permet de recibler les destinatair
 
    1. Sélectionnez la règle de filtrage et choisissez le **[!UICONTROL Comportement]** que vous souhaitez cibler, tel que **[!UICONTROL Message envoyé]**.
 
-   1. Cliquez sur ![icône de dossier &#x200B;](assets/do-not-localize/folder-search.svg) pour sélectionner la campagne spécifique à recibler. Vous disposez de deux options :
+   1. Cliquez sur ![icône de dossier ](assets/do-not-localize/folder-search.svg) pour sélectionner la campagne spécifique à recibler. Vous disposez de deux options :
 
       * **[!UICONTROL Sélectionner une campagne spécifique]** : sélectionnez une campagne spécifique dans votre liste pour recibler les destinataires qui ont interagi avec cette campagne.
 
@@ -135,7 +135,7 @@ Pour recibler les destinataires en fonction des interactions sur les messages (p
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Cliquez sur ![icône de dossier &#x200B;](assets/do-not-localize/folder-search.svg) pour sélectionner la campagne spécifique à recibler. Vous disposez de deux options :
+   1. Cliquez sur ![icône de dossier ](assets/do-not-localize/folder-search.svg) pour sélectionner la campagne spécifique à recibler. Vous disposez de deux options :
 
       * **[!UICONTROL Sélectionner une campagne spécifique]** : sélectionnez une campagne spécifique dans votre liste pour recibler les destinataires qui ont interagi avec cette campagne.
 

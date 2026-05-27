@@ -35,4 +35,4 @@ Pour ajouter ou modifier une variable globale dans une campagne orchestrée, pro
 
    ![Panneau Variables pour ajouter ou modifier des variables](assets/variables-edit.png){zoomable="yes"}
 
-Pour savoir comment utiliser des variables globales dans des règles et des conditions **[!UICONTROL Test]** une fois qu’elles ont été définies, consultez la section [&#x200B; Utilisation de variables dans des campagnes orchestrées](variables-orchestrated-campaigns.md#use).
+Pour savoir comment utiliser des variables globales dans des règles et des conditions **[!UICONTROL Test]** une fois qu’elles ont été définies, consultez la section [ Utilisation de variables dans des campagnes orchestrées](variables-orchestrated-campaigns.md#use).
