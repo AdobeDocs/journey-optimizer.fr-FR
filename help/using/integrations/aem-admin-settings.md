@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, fragments de contenu, administration, référentiel, authentification, auteur, publication
-source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
+source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Pour configurer votre référentiel :
 1. Cliquez sur **[!UICONTROL Créer une intégration]**.
 
    ![](assets/aem-admin-settings-1.png)
+
+1. Si vous utilisez **[!DNL Adobe Experience Manager Managed Services]**, saisissez un nom d’hôte de référentiel se terminant par `adobecqms.net` dans le champ **[!UICONTROL ID de référentiel AMS personnalisé]**.
+
+   ![](assets/aem-admin-settings-6.png)
 
 1. Choisissez le référentiel à configurer, puis cliquez sur **[!UICONTROL Suivant]**.
 
@@ -76,9 +80,19 @@ Pour configurer votre référentiel :
 
    +++
 
+1. Une fois la configuration de l’instance terminée, sélectionnez un fragment de contenu pour confirmer que l’intégration fonctionne.
+
+   ![](assets/aem-admin-settings-7.png)
+
+1. Dans la fenêtre **Gestionnaire d’accès**, sélectionnez le fragment à tester, puis cliquez sur **[!UICONTROL Sélectionner]**.
+
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+1. Lorsque vous enregistrez avec un fragment de contenu de test sélectionné, la validation s’exécute automatiquement. Si la validation échoue, une liste d’erreurs s’affiche afin que vous puissiez corriger la configuration.
+
+   ![](assets/aem-admin-settings-8.png)
 
 1. Pour modifier ou désactiver cette intégration de référentiel, accédez à la configuration précédemment créée à partir du menu **[!UICONTROL Intégration d’]**.
 
-Lors de l’enregistrement, ce sandbox utilise le référentiel pour le sélecteur de fragment de contenu et le **gestionnaire d’accès de**.
+Lorsque vous enregistrez cette configuration, Journey Optimizer la stocke pour ce référentiel dans le sandbox actuel. Vous pouvez ensuite utiliser ce référentiel et ses paramètres lors de la navigation et de la sélection de contenu dans le sélecteur **Gestionnaire de contenu**.
 

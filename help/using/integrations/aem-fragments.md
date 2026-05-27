@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 00834e22246c16b199b66449f45235e0e785a1ac
 workflow-type: tm+mt
-source-wordcount: 1722
+source-wordcount: 1696
 ht-degree: 30%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 30%
 Les expériences **sélecteur de ressources** et **sélecteur de fragments de contenu** existantes dans les workflows Adobe Journey Optimizer sont en cours de remplacement par **gestionnaire d’accès**. Le gestionnaire de contenu fournit une interface unifiée optimisée par l’IA pour découvrir et sélectionner des Assets, des fragments de contenu et Dynamic Media directement dans vos workflows de création AJO. Les intégrations existantes continueront à fonctionner pendant la période de transition.
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Cette intégration s’applique à **Adobe Experience Manager as a Cloud Service Sites**, pour les **fragments de contenu** uniquement. Journey Optimizer lit les fragments du niveau **Publication** (et non Auteur).
 
 L’intégration entre Adobe Experience Manager et Journey Optimizer suit ce flux de données :
 
