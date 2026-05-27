@@ -330,6 +330,6 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** etag
 **Title:** Activity ETag
 **Description :** révision à laquelle l&#39;objet de décision (auparavant « activité ») se trouvait lors de la prise de l&#39;instantané.
-**Type :** Chaîne
+**Type :** chaîne
 
 +++

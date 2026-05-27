@@ -389,6 +389,6 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Champ :** etag
 **Titre : ETag d’option de décision**
 **Description :** révision à laquelle l&#39;objet d&#39;option de décision se trouvait lors de la prise de l&#39;instantané.
-**Type :** Chaîne
+**Type :** chaîne
 
 +++
