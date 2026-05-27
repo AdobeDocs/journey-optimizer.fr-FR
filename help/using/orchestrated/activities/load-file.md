@@ -6,9 +6,13 @@ description: Découvrez comment utiliser l’activité Chargement de fichier pou
 hide: true
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: abac7d8c49e2dc7af9fde91b0e8305ce10a406ce
 workflow-type: tm+mt
 source-wordcount: 1511
@@ -27,7 +31,7 @@ L’activité **[!UICONTROL Chargement de fichier]** est une activité **[!UICON
 
 >[!AVAILABILITY]
 >
->L’activité **Chargement de fichier** est disponible dans **Disponibilité limitée** pour un ensemble d’organisations. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe. Pour connaître les phases de disponibilité, consultez le cycle de publication de [](../../rn/releases.md).
+>L’activité **Chargement de fichier** est disponible dans **Disponibilité limitée** pour un ensemble d’organisations. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe. Pour connaître les phases de disponibilité, consultez le cycle de publication de [&#128279;](../../rn/releases.md).
 >
 >L’activité n’est actuellement pas disponible pour une utilisation avec **Healthcare Shield** ou **Privacy and Security Shield**.
 
@@ -204,7 +208,7 @@ Lorsque la campagne s’exécute :
 
 * Les lignes rejetées ou non rapprochées sont exclues ; les nombres et les raisons apparaissent dans le **journal d’exécution** (par exemple, nombre total de lignes chargées, lignes acceptées, lignes rejetées).
 
-La résolution de l’audience est conçue pour se terminer en environ **60 secondes** pour un fichier CSV de 100 000 lignes **** dans une infrastructure de campagne orchestrée standard.
+La résolution de l’audience est conçue pour se terminer en environ **60 secondes** pour un fichier CSV de 100 000 lignes **&#x200B;**&#x200B;dans une infrastructure de campagne orchestrée standard.
 
 ## Contenu connexe {#related}
 
