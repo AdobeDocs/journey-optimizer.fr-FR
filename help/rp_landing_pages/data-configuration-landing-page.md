@@ -20,7 +20,7 @@ La configuration des données dans Adobe Journey Optimizer consiste à établir 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Gérer des jeux de données et des schémas relationnels
 
@@ -30,7 +30,7 @@ Découvrez comment créer et gérer des schémas relationnels, configurer des je
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Configuration d’une dimension de ciblage
 
@@ -40,7 +40,7 @@ Guide détaillé permettant de mapper des schémas relationnels aux profils clie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration d’une configuration de canal
 
