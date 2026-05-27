@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Résolution des problèmes liés aux activités en direct
+title: Résoudre les problèmes liés aux activités en direct
 description: Découvrez comment résoudre les problèmes liés aux activités en direct dans Journey Optimizer pour les cas d’utilisation unitaires et de diffusion, y compris les problèmes de jeton de profil, la configuration de la campagne et les échecs de diffusion
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
 source-git-commit: e16888953e73ac04f366790117065489b12ae0c7
 workflow-type: tm+mt
-source-wordcount: '4523'
+source-wordcount: '4607'
 ht-degree: 1%
 
 ---
 
-# Résolution des problèmes liés aux activités en direct {#troubleshoot-mobile-live}
+# Résoudre les problèmes liés aux activités en direct {#troubleshoot-mobile-live}
 
 Les activités en direct dans Adobe Journey Optimizer permettent des mises à jour dynamiques en temps réel sur les écrans de verrouillage iOS et les îles dynamiques. Ils ne peuvent être déclenchés et gérés que par le biais de campagnes déclenchées par API.
 
@@ -207,7 +207,7 @@ Le profil existe avec des jetons valides, mais l’activité Live n’apparaît 
 
 +++
 
-+++ &#x200B;2. Valider la structure de la payload de l’API
++++ &#x200B;2. Validation de la structure de la payload de l’API
 
 Lors de l’exécution de la campagne par le biais de l’API, assurez-vous que la payload suit la structure correcte.
 
@@ -270,7 +270,7 @@ Lors de l’exécution de la campagne par le biais de l’API, assurez-vous que 
 
 +++
 
-+++ &#x200B;3. Alignement de la payload avec la mise en œuvre d’iOS
++++ &#x200B;3. Alignement de la payload sur l’implémentation d’iOS
 
 Assurez-vous que la payload de l’API correspond à la mise en œuvre `ActivityAttributes` de l’application iOS. Le protocole `LiveActivityAttributes` d’Adobe SDK étend la `ActivityAttributes` d’iOS et nécessite une propriété `liveActivityData`.
 
@@ -329,7 +329,7 @@ Assurez-vous que la payload de l’API correspond à la mise en œuvre `Activity
 
 **Erreurs courantes :**
 
-| Problème | Impact | Correction |
+| Problème | Impact | Corriger |
 |-------|--------|-----|
 | `liveActivityData` manquant dans les attributs | L’activité en direct ne démarrera pas | Toujours inclure `liveActivityData` objet dans l’événement de début |
 | Champ obligatoire manquant dans l’événement de début | L’activité en direct ne démarrera pas | Ajouter tous les champs de la structure iOS |
@@ -343,7 +343,7 @@ Pour consulter d’autres exemples, consultez la page [Créer une activité en d
 
 +++
 
-+++ &#x200B;4. Test avec Assurance
++++ &#x200B;4. Tester avec Assurance
 
 Vérifiez l’exécution de l’API et la diffusion de la payload à l’aide d’Assurance :
 
@@ -400,7 +400,7 @@ Mais l’activité Live ne s’affiche toujours pas, ne se met pas à jour ou ne
 
       | Mesure | Signification | Éléments à rechercher |
       |-|-|-|
-      | Ciblé | Nombre de profils qualifiés pour l’audience | Doit inclure votre profil de test |
+      | Ciblés | Nombre de profils qualifiés pour l’audience | Doit inclure votre profil de test |
       | Envois | Nombre total de notifications push ayant fait l’objet d’une tentative | Doit correspondre à vos appels API |
       | Délivrés | Distribué avec succès sur les appareils | Comparer aux envois pour voir le taux de succès |
       | Erreurs d’envoi | Notifications push dont l’envoi a échoué | Nombres élevés |
@@ -453,7 +453,7 @@ Pour en savoir plus, consultez la page [&#x200B; Rapport de campagne d’activit
 
 +++
 
-+++ &#x200B;3. Vérifier la diffusion de l’activité en direct aux APN dans Assurance
++++ &#x200B;3. Vérifier la diffusion de l’activité en direct aux APNs dans Assurance
 
 1. Ouvrez votre session Assurance, elle doit être active pendant l’appel API.
 1. Exécutez l’appel API (début, mise à jour ou fin).
@@ -475,7 +475,7 @@ Pour en savoir plus, consultez la page [&#x200B; Rapport de campagne d’activit
 
 +++
 
-+++ &#x200B;4. Procéder à des vérifications diagnostiques supplémentaires
++++ &#x200B;4. Effectuer des vérifications de diagnostic supplémentaires
 
 1. Vérifiez les mesures de cycle de vie des activités dans le rapport de campagne.
 
@@ -595,7 +595,7 @@ Pour que les événements de mise à jour et de fin fonctionnent, les événemen
 
 +++
 
-+++ &#x200B;3. Vérifiez les événements de diffusion d’activité en direct dans Assurance.
++++ &#x200B;3. Vérifier les événements de diffusion des activités en direct dans Assurance
 
 1. Au cours de votre session Assurance, exécutez une mise à jour ou terminez un appel API.
 1. Dans la **Liste des événements**, recherchez les événements de diffusion d’activité en direct (événements push APNs).
@@ -633,7 +633,7 @@ Ce scénario de dépannage s’applique à tous les événements d’activité L
 
 #### Étapes de débogage
 
-+++ &#x200B;1. Vérifier la configuration des audiences de la campagne
++++ &#x200B;1. Vérifier la configuration de l’audience de la campagne
 
 1. Ouvrez votre **campagne marketing déclenchée par API** dans Journey Optimizer.
 1. Accédez à la section **Audience** et vérifiez les éléments suivants :
@@ -689,7 +689,7 @@ La structure de la payload de diffusion diffère des campagnes unitaires. Vérif
 
 **Champs critiques spécifiques à la diffusion :**
 
-* **`input-push-channel`** :
+* **`input-push-channel`**:
    * Obligatoire pour toutes les activités de diffusion en direct.
    * Sert d’identifiant unique pour cette instance de diffusion spécifique.
    * Tous les profils de l’audience reçoivent des activités en direct liées à ce canal.
@@ -697,7 +697,7 @@ La structure de la payload de diffusion diffère des campagnes unitaires. Vérif
    * Doit être créé pour le `appID` sur le portail Apple Developer Portal par le client.
    * Seuls les canaux créés pour l’`appID` spécifique peuvent être utilisés pour la diffusion d’activités en direct sur cette application.
 
-* **`audience.id`** :
+* **`audience.id`**:
    * Un segment d’audience valide créé dans Adobe Experience Platform doit être référencé.
    * Tous les profils de cette audience sont ciblés pour l’activité En direct .
    * L’audience doit être activée et contenir des profils avec des `liveActivityPushNotificationDetails` valides.
@@ -718,7 +718,7 @@ Consultez la documentation de l’API de messagerie Adobe Journey Optimizer [&#1
 
 +++
 
-+++ &#x200B;3. Alignement de l’état du contenu, des attributs et du canal push d’entrée avec la mise en œuvre d’iOS
++++ &#x200B;3. Alignement de l’état du contenu, des attributs et du canal push d’entrée avec l’implémentation d’iOS
 
 Assurez-vous que les champs de payload correspondent à l’implémentation `ActivityAttributes` de votre application iOS et que le `input-push-channel` correspond au `channelID` dans `liveActivityData`.
 
@@ -786,7 +786,7 @@ Pour tous les événements, incluez les `attributes` et les `content-state` :
 
 **Erreurs courantes :**
 
-| Problème | Impact | Correction |
+| Problème | Impact | Corriger |
 |-|-|-|
 | `input-push-channel` manquant | La diffusion ne fonctionnera pas | Ajouter un identifiant de canal unique pour chaque diffusion |
 | `input-push-channel` ne correspond pas à `channelID` | L’activité en direct ne démarrera pas | Assurez-vous que les deux valeurs sont identiques |
@@ -798,7 +798,7 @@ Pour tous les événements, incluez les `attributes` et les `content-state` :
 
 +++
 
-+++ &#x200B;4. Test avec Assurance
++++ &#x200B;4. Tester avec Assurance
 
 Vérifiez l’exécution de l’API et la diffusion de la payload à l’aide d’Assurance :
 
@@ -861,7 +861,7 @@ Tout d’abord, vérifiez si le profil qui doit recevoir l’activité En direct
 
 +++
 
-+++ &#x200B;2. Vérifiez le type et le planning d’évaluation des audiences
++++ &#x200B;2. Vérifier le type et le planning d’évaluation des audiences
 
 Déterminez si l’audience utilise une évaluation par lots ou par flux, car cela détermine l’actualisation des données.
 
