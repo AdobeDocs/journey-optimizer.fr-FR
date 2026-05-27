@@ -1,5 +1,5 @@
 ---
-title: API de migration Decisioning
+title: API de migration vers la prise de décision
 description: Découvrez comment utiliser l’API du service de migration Decisioning pour migrer des objets de gestion des décisions entre des sandbox avec une résolution de dépendance automatisée et une prise en charge de restauration.
 feature: Decisioning
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 ---
 
-# API de migration Decisioning {#decisioning-migration-api}
+# API de migration vers la prise de décision {#decisioning-migration-api}
 
 L’API Decisioning Migration Service vous permet de migrer des objets Decision Management d’un sandbox à un autre. Le processus de migration s’exécute sous la forme de workflows asynchrones qui incluent l’analyse des dépendances, l’exécution et des fonctionnalités de restauration facultatives.
 
@@ -62,7 +62,7 @@ Avant d’exécuter une migration, vérifiez que votre sandbox cible est correct
 * **Jeu de données** - Identifiez un nom de jeu de données à utiliser pour la migration (`dependency.datasetName`).
 * **Flux de données** - Décidez si la migration doit créer un flux de données (`createDataStream`).
 
-Pour plus d’informations sur la gestion des sandbox, voir [&#x200B; Utilisation et affectation de sandbox](../administration/sandboxes.md).
+Pour plus d’informations sur la gestion des sandbox, voir [ Utilisation et affectation de sandbox](../administration/sandboxes.md).
 
 ## Bases d’API {#api-basics}
 
@@ -81,7 +81,7 @@ Toutes les requêtes API nécessitent les en-têtes suivants :
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
+Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ### Modèle de workflow {#workflow-model}
 
