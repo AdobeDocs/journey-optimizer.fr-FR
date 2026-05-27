@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Activités
+title: Activities
 description: Activités
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '418'
 ht-degree: 84%
 
 ---

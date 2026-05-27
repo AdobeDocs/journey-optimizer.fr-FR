@@ -6,7 +6,7 @@ description: Canaux de communication
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '424'
 ht-degree: 100%
 
 ---

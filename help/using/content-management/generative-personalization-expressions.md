@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Assistant AI pour les expressions Personalization
+title: Assistant IA pour les expressions de personnalisation
 description: Découvrez comment utiliser l’assistant AI dans Journey Optimizer pour générer des expressions de personnalisation à partir du langage naturel dans l’éditeur de Personalization et comment fonctionne la commande Ajouter une expression dans le Designer d’e-mail.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
@@ -10,8 +10,8 @@ level: Intermediate
 mini-toc-levels: 1
 source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 4%
+source-wordcount: '1082'
+ht-degree: 6%
 
 ---
 
@@ -127,7 +127,7 @@ Dans le Designer d’e-mail, vous pouvez utiliser l’assistant [!UICONTROL AI] 
 
    ![](assets/ai-perso-add-expression-insert.png)
 
-   Vous pouvez :
+   Vous pouvez ainsi :
 
    * Validez la sortie de l’expression avec un exemple de valeur. Utilisez l’onglet **[!UICONTROL Aperçu]**.
    * Générez une autre suggestion à partir de la même invite - utilisez **[!UICONTROL Régénérer]**.

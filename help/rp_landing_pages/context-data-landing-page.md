@@ -8,7 +8,7 @@ badge: label="Hérité" type="Informative"
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '247'
 ht-degree: 100%
 
 ---

@@ -8,8 +8,8 @@ badge: label="Hérité" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 98%
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 La gestion des décisions d’Adobe Journey Optimizer permet aux spécialistes marketing de proposer les offres personnalisées adéquates aux clientes et clients au bon moment, sur plusieurs canaux. En combinant une bibliothèque d’offres centralisée à un puissant moteur de décision, vous pouvez personnaliser les messages en fonction de profils uniques et de règles métier. Que vous définissiez des critères d’éligibilité, gériez des options de secours ou classiez des offres pour des emplacements prioritaires, le processus est rationalisé et intuitif. Cette section présente les composants clés, depuis la création d’offres et de collections jusqu’à l’intégration de décisions dans les campagnes, afin que vous puissiez créer des expériences significatives qui trouvent écho auprès de votre audience et stimuler l’engagement.
 
-## Prise en main de la gestion des décisions
+## Commencer avec la gestion des décisions
 
 :::: landing-cards-container
 :::
