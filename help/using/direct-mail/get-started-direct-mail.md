@@ -66,7 +66,7 @@ Découvrez comment utiliser le canal Courrier dans Adobe Journey Optimizer pour 
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479164?captions=fre_fr&quality=12)
 
 +++
 
