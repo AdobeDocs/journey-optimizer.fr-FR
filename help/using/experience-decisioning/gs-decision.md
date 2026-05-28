@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 85%
+source-wordcount: 328
+ht-degree: 89%
 
 ---
 
@@ -53,7 +53,7 @@ Notre framework de décision de nouvelle génération est conçu pour unifier le
 * Configuration mise à jour de la politique de décision et de la stratégie de sélection : autorisez la réutilisation des composants de décision.
 * Fonctionnalités d’expérimentation : testez la logique de décision en la comparant à d’autres composants de contenu pour mesurer les performances.
 
-La prise de décision est disponible pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et **SMS**. La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée. Pour demander l’accès à Email Decisioning, contactez votre représentant Adobe. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
+La prise de décision est disponible pour tous les clients pour les canaux **Code-based Experience**, **Email**, **Notification push** et **SMS**. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
 
 ➡️[Commencer la prise de décisions](../experience-decisioning/gs-experience-decisioning.md)
 

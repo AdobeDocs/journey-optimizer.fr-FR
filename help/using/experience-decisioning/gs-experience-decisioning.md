@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 717
-ht-degree: 81%
+source-wordcount: 700
+ht-degree: 82%
 
 ---
 
@@ -45,7 +45,7 @@ Ces éléments de décision sont intégrés de manière transparente dans les me
 
 >[!IMPORTANT]
 >
->Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **Notification push** et **SMS**. La prise de décision pour le canal **E-mail** est disponible en disponibilité limitée uniquement. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
+>Les politiques de décision sont disponibles pour tous les clients pour les canaux **Code-based Experience**, **E-mail**, **Notification push** et **SMS**. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 

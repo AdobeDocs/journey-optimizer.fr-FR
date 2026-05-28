@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 33%
 
 ---
@@ -75,7 +75,7 @@ Pour obtenir des paires de termes à consonance similaire qui sont souvent confu
 
 | Terme | Définition |
 |------|------------|
-| **Prise de décision** | Le cadre de décision de génération actuelle dans Journey Optimizer, recommandé pour les nouvelles mises en œuvre. Offre une gestion de catalogue d’éléments basée sur des schémas, des règles de collection flexibles, des composants de décision réutilisables et des fonctionnalités d’expérimentation. Disponible pour une expérience basée sur le code, les notifications push, les SMS et les e-mails (disponibilité limitée). [En savoir plus](../experience-decisioning/gs-experience-decisioning.md) |
+| **Prise de décision** | Le cadre de décision de génération actuelle dans Journey Optimizer, recommandé pour les nouvelles mises en œuvre. Offre une gestion de catalogue d’éléments basée sur des schémas, des règles de collection flexibles, des composants de décision réutilisables et des fonctionnalités d’expérimentation. Disponible pour les applications Code, Push, SMS et E-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md) |
 | **Gestion des décisions** | L’ancienne fonctionnalité Offer Decisioning dans Journey Optimizer. Utilise une bibliothèque centrale d’offres marketing et un moteur de décision basé sur des règles qui applique des contraintes aux profils clients en temps réel. Toujours prise en charge pour les implémentations existantes, mais les nouvelles implémentations doivent utiliser Decisioning à la place. Prend en charge les e-mails, in-app, notifications push, SMS et publipostage direct. [En savoir plus](../offers/get-started/starting-offer-decisioning.md) |
 | **Offre** | Message marketing, remise ou promotion pouvant être présentés aux clientes et clients. Les offres incluent des règles d’éligibilité qui déterminent les clientes et clients qui peuvent les recevoir. [En savoir plus](../offers/offer-library/creating-personalized-offers.md) |
 | **Politique de décision** | Ensemble de règles et de stratégies qui déterminent l’offre à présenter à quelle personne et à quel moment, en fonction de contraintes telles que les règles d’éligibilité, de priorité et de limitation. [En savoir plus](../experience-decisioning/create-decision.md) |
@@ -106,7 +106,7 @@ Ces deux fonctionnalités sélectionnent et diffusent les offres, mais elles int
 |---|---|---|
 | **Statut** | Actuel : recommandé pour toutes les nouvelles mises en œuvre | **Hérité** — toujours pris en charge, mais plus recommandé pour les nouvelles implémentations |
 | **Catalogue d&#39;articles** | Métadonnées flexibles basées sur des schémas | Bibliothèque des offres centralisée |
-| **Canaux pris en charge** | Expérience basée sur le code, notifications push, SMS, e-mail (disponibilité limitée) | E-mail, In-App, Push, SMS, Courrier |
+| **Canaux pris en charge** | Expérience basée sur le code, notifications push, SMS, e-mail | E-mail, In-App, Push, SMS, Courrier |
 | **Différenciateur clé** | Composants de décision réutilisables, expérimentation, feuille de route des canaux élargie | Moteur de contraintes éprouvé ; migration vers Decisioning pour les nouveaux projets |
 | **Prise en main** | [Prise de décision](../experience-decisioning/gs-experience-decisioning.md) | [Gestion des décisions](../offers/get-started/starting-offer-decisioning.md) |
 
