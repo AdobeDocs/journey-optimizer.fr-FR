@@ -172,7 +172,7 @@ Pour ce faire, procédez comme suit :
 >id="ac_editable_fragment_compatibility"
 >title="Fragment hérité"
 >abstract="Les champs modifiables de ce fragment personnalisable sont en texte uniquement. Mise en forme de texte enrichi (gras, italique, hyperliens, sauts de ligne, etc.) n’est pas disponible dans le Designer d’e-mail tant que l’auteur du fragment n’a pas mis à niveau le fragment vers le mode compatible avec HTML à l’aide du bouton <b>Convertir</b> dans l’éditeur de fragments."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personnalisation des champs modifiables dans un fragment"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personnalisation des champs modifiables dans un fragment"
 
 Le texte enrichi tel que les sauts de ligne, le gras, l’italique, etc. peut être ajouté à un fragment personnalisable à l’aide des composants HTML. Pour ce faire, procédez comme suit.
 <!--
