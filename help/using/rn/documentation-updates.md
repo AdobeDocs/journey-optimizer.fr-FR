@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 7927
+source-wordcount: 7969
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * La page **Notes de mise à jour** a été restructurée avec une disposition thématique. Les modifications sont désormais regroupées par zone de produit plutôt que par type de modification, avec une nouvelle section dédiée **Améliorations de l’utilisation**. Les entrées bientôt disponibles apparaissent sous la forme d’accordéons extensibles dans chaque rubrique. [En savoir plus](release-notes.md)
 
 * La page **Mécanismes de sécurisation et limitations des campagnes orchestrées** documente désormais la limite **activités de canal** par campagne orchestrée. [En savoir plus](../orchestrated/guardrails.md#activities-limitations)
+
+* La documentation **Copier des objets Journey Optimizer entre sandbox** comprend désormais une remarque importante pour les **Campagnes orchestrées** : après l’importation, dupliquez la campagne dans le sandbox cible et utilisez le doublon pour l’exécution afin de vous assurer que le compte rendu des performances capture correctement les commentaires et les données de tracking. [En savoir plus](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
 
 * La page **Terminologie clé** a été remaniée : six nouveaux termes ont été ajoutés, une nouvelle section **Conflit et hiérarchisation des termes** a été ajoutée et un nouveau guide de désambiguïsation **Lorsque les termes semblent similaires** a été ajouté pour quatre paires de termes généralement confuses. Les termes spécifiques à Adobe Experience Platform ont été supprimés et remplacés par une note renvoyant au glossaire Adobe Experience Platform. [En savoir plus](../start/terminology.md)
 

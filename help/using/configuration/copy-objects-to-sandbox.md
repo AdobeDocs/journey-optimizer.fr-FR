@@ -33,10 +33,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2371
-ht-degree: 68%
+source-wordcount: 2418
+ht-degree: 67%
 
 ---
 
@@ -120,6 +120,10 @@ Lors de la copie de campagnes **Action** ou **déclenchées par l’API**, assur
 Vous pouvez copier des campagnes orchestrées entre des sandbox à l’aide de l’exportation et de l’importation de packages. Les campagnes orchestrées suivent le même modèle global que les autres objets, mais ce qui est inclus dans le package et ce que vous devez préparer dans le sandbox cible diffère des campagnes déclenchées par une action ou une API.
 
 Pour exporter une campagne orchestrée, [ajoutez-la à un package sandbox](#add-objects-as-a-package-export) dans le sandbox source (quel que soit son statut), [publiez le package](#publish), puis [importez le package](#import) dans le sandbox cible.
+
+>[!IMPORTANT]
+>
+>Juste après l’importation, [dupliquez la campagne orchestrée](../campaigns/manage-campaigns.md#duplicate-a-campaign) dans le sandbox cible et utilisez ce doublon pour la configuration, le test et l’exécution. Si vous exécutez ou publiez plutôt la copie importée, les rapports de campagne peuvent ne pas afficher les commentaires et les données de suivi. Cette limitation sera supprimée dans une version ultérieure.
 
 Avant d’importer en production, gardez à l’esprit les comportements et limites suivants :
 

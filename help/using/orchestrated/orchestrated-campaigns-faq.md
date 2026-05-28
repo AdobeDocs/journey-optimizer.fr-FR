@@ -23,10 +23,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2746
-ht-degree: 64%
+source-wordcount: 2765
+ht-degree: 63%
 
 ---
 
@@ -370,6 +370,7 @@ Les objets créés dans des campagnes orchestrées (par exemple, des audiences e
 **Bonnes pratiques**
 
 * Conservez des **sandbox distincts** pour l’expérimentation, l’assurance qualité et la production.
+* Juste après l’importation, [dupliquez la campagne](../campaigns/manage-campaigns.md#duplicate-a-campaign) et travaillez à partir du doublon afin que les rapports affichent correctement les commentaires et les données de tracking.
 * Après chaque importation, validez la campagne de bout en bout dans le sandbox cible avant de la publier.
 * Documentez les configurations et alignez-vous sur les équipes de gouvernance pour réduire la dérive de configuration entre les environnements.
 
