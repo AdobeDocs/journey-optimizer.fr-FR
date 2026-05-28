@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '690'
+ht-degree: 89%
 
 ---
 
@@ -122,13 +122,13 @@ Suivez cette séquence pour une validation complète :
 
 **Contexte :** exemples réels montrant comment appliquer des outils de test dans des cas d’utilisation standard.
 
-**Scénario 1 : test d’e-mails personnalisés pour une campagne multisegments**
-→ Utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) pour tester 20 à 30 variations sans créer de profils de test individuels. Chargez un fichier CSV avec différents attributs clients et prévisualisez l’ensemble.
+**Scénario 1 : test des e-mails personnalisés pour une campagne multisegment**
+→ Utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) pour tester 20 à 30 variations sans créer de profils de test individuels. Chargez un fichier CSV avec différents attributs clients et prévisualisez l’ensemble.
 
-**Scénario 2 : validation du rendu des e-mails avant un envoi majeur**
-→ Exécutez des [tests Litmus](../using/content-management/rendering.md) pour vérifier l’affichage sur les principaux clients de messagerie, puis consultez le [rapport de spam](../using/content-management/spam-report.md) pour vous assurer du placement dans les boîtes de réception.
+**Scénario 2 : validation du rendu des e-mails avant un envoi majeur**
+→ Exécuter [tests Litmus](../using/content-management/rendering.md) pour vérifier l&#39;affichage sur les principaux clients de messagerie, puis vérifiez le [rapport de spam](../using/content-management/spam-report.md) pour vérifier que la boîte de réception est bien placée.
 
-**Scénario 3 : obtention de l’approbation des parties prenantes**
+**Scénario 3 : Obtention de l’approbation des parties prenantes**
 → [Envoyez des BAT](../using/content-management/proofs.md) aux réviseurs et réviseuses internes avec les données de profil de test afin qu’ils voient exactement ce que les clients et clientes recevront.
 
 ## Points clés
