@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '379'
 ht-degree: 95%
 
 ---
@@ -20,7 +20,7 @@ Les cas d’utilisation d’Adobe Journey Optimizer vous permettent de créer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Apprendre avec des cas d’utilisation
 
@@ -30,7 +30,7 @@ Explorez des exemples pratiques et des stratégies pour optimiser les fonctionna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Rechercher des événements d’expérience
 
@@ -40,7 +40,7 @@ Utilisez des alternatives d’événements d’expérience pour gérer les dési
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Envoyer des messages multicanaux
 
@@ -50,7 +50,7 @@ Créez des parcours qui exploitent la segmentation d’audience et les déclench
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Envoi de messages à l’aide de Campaign v7/v8
 
@@ -60,7 +60,7 @@ Intégrez Adobe Campaign à Journey Optimizer pour envoyer des e-mails à l’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Envoyer un message aux personnes abonnées
 
@@ -70,7 +70,7 @@ Configurez des parcours pour envoyer des messages aux personnes abonnées en fon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Transmettre des collections de manière dynamique à l’aide d’actions personnalisées
 

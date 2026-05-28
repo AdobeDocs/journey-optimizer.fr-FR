@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-51-07
 exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Les rapports de parcours dans Adobe Journey Optimizer fournissent des outils p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Analyse des rapports de parcours
 
@@ -30,7 +30,7 @@ Découvrez comment analyser et optimiser les performances des parcours à l’ai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Rapports de parcours basés sur du code
 
@@ -40,17 +40,17 @@ Comprenez et analysez les mesures d’engagement dans les expériences basées s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Engagement des cartes de contenu
 
-Découvrez comment mesurer et évaluer l’interaction client avec les cartes de contenu à l’aide de mesures détaillées.
+Découvrez comment mesurer et évaluer l’engagement client avec les cartes de contenu à l’aide de mesures détaillées.
 
 [Afficher les rapports de carte de contenu](../using/reports/journey-global-report-cja-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Mesures du courrier
 
@@ -70,7 +70,7 @@ Obtenez des informations sur les performances des e-mails, l’engagement et les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Informations sur les messages in-app
 

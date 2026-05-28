@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-12_00-39-41
 exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '272'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Les fragments de contenu réutilisables dans Adobe Journey Optimizer vous perm
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation de l’utilisation des fragments
 
@@ -30,7 +30,7 @@ Découvrez les principes de base de la création, de la gestion et de la réutil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Création de fragments réutilisables
 
@@ -40,7 +40,7 @@ Suivez un guide détaillé pour créer des fragments visuels et d’expression r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Enregistrer du contenu existant en tant que fragment
 
@@ -50,7 +50,7 @@ Découvrez comment enregistrer du contenu en tant que fragments visuels ou d’e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Utilisation de fragments personnalisables
 
@@ -60,7 +60,7 @@ Découvrez comment rendre des champs spécifiques modifiables dans des fragments
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestion des fragments de contenu
 

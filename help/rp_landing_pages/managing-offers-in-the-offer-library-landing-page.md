@@ -8,7 +8,7 @@ badge: label="Hérité" type="Informative"
 exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '217'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ La section « Créer et gérer des offres » d’Adobe Journey Optimizer per
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer les offres dans Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Découvrez comment créer des offres personnalisées, configurer des représenta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Création d’offres de secours
 
@@ -45,7 +45,7 @@ Tutoriel détaillé sur la création d’offres de secours pour les clientes et 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Création et gestion de collections d’offres
 
