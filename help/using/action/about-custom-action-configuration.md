@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 94%
+source-wordcount: 2200
+ht-degree: 88%
 
 ---
 
@@ -185,6 +185,15 @@ Adobe Journey Optimizer prend en charge TLS 1.3 par défaut pour les actions 
 Vous pouvez utiliser le protocole mTLS (Mutual Transport Layer Security) pour améliorer la sécurité des connexions sortantes aux actions personnalisées Adobe Journey Optimizer. Le protocole mTLS est une méthode de sécurité de bout en bout pour une authentification mutuelle qui garantit que les deux parties qui partagent des informations sont celles qu’elles prétendent être avant que les données ne soient partagées. Le protocole mTLS inclut une étape supplémentaire par rapport à TLS, dans laquelle le serveur demande également le certificat du client et le vérifie de son côté.
 
 L’authentification TLS mutuelle (mTLS) est prise en charge dans les actions personnalisées. Aucune configuration supplémentaire n’est requise dans l’action personnalisée ou le parcours pour activer mTLS. Cela se produit automatiquement lorsqu’un point d’entrée compatible avec mTLS est détecté. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+
+>[!IMPORTANT]
+>
+>Adobe fait régulièrement pivoter le certificat client mTLS utilisé pour les connexions d’action personnalisée. Lorsqu’un nouveau certificat est émis, le Trust Store de votre point d’entrée doit être mis à jour pour l’accepter. Dans le cas contraire, les connexions sortantes de Journey Optimizer vers votre service échoueront avec une erreur de correspondance de certificat. Pour éviter toute perturbation :
+>
+>* Vérifiez régulièrement l’[API de certificat public &#x200B;](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) pour connaître les certificats mis à jour associés à vos services.
+>* Configurez votre point d’entrée pour accepter les **certificats qui se chevauchent** (l’ancien et le nouveau certificat simultanément), de sorte qu’il n’y ait aucun écart de connectivité pendant la rotation.
+>* Actuellement, Adobe n’envoie pas de notifications proactives lorsqu’un certificat fait l’objet d’une rotation. Il est de votre responsabilité de surveiller les mises à jour des certificats et de tenir votre Trust Store à jour.
+>* La validation de l’approbation doit être basée sur la chaîne de certificats jusqu’à l’autorité de certification racine (DigiCert) plutôt que sur une empreinte numérique de certificat feuille spécifique.
 
 ## Définir les paramètres de payload {#define-the-message-parameters}
 
