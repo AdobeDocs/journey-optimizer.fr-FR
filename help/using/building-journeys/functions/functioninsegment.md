@@ -8,9 +8,11 @@ level: Experienced
 keywords: inSegment, fonction, expression, parcours
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '183'
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+workflow-type: tm+mt
+source-wordcount: 198
 ht-degree: 100%
 
 ---
@@ -32,7 +34,7 @@ Les audiences peuvent posséder deux statuts :
 * réalisé : l’entité est admissible pour la définition de segment.
 * sorti : lʼentité quitte la définition de segment.
 
-Seules les personnes présentant le statut de participation d’audience **réalisé** sont considérées comme membres de l’audience. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
+Seules les personnes présentant le statut de participation d’audience **réalisé** sont considérées comme membres de l’audience. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
 `inSegment('segmentName') == true` signifie que vous avez un mappage segmentMembership avec le statut « entered/existing ».
 

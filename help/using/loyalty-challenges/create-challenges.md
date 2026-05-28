@@ -11,10 +11,12 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 17%
+source-wordcount: 1973
+ht-degree: 16%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 17%
 
 **Configuration et intégration**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configuration des défis de fidélité](loyalty-admin.md)
 * [Données et jeux de données de fidélité](loyalty-data-and-datasets.md)
 * [Référence de l’API pour les défis de fidélité](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +139,7 @@ Le planning du défi est maintenant configuré. Ajoutez ensuite les tâches que 
 >title="Tâches"
 >abstract="Sélectionnez les tâches à effectuer pour relever le défi. Ensuite, configurez la manière dont le défi est relevé : les options disponibles dépendent de votre type de défi (Standard, Série ou Séquentiel)."
 
-Les tâches définissent les actions spécifiques que les clients doivent effectuer pour gagner des récompenses. Vous pouvez configurer les types de tâches (achat, dépenses), les quantités, les filtres de produit et d’autres attributs.
+Les tâches définissent les actions spécifiques que les clients doivent effectuer pour gagner des récompenses. Vous pouvez configurer les types de tâches (achat, dépense ou événement personnalisé), les quantités, les filtres de produit et d’autres attributs.
 
 Pour ajouter des tâches à votre défi, procédez comme suit :
 
@@ -204,9 +206,7 @@ Pour configurer quand et comment les récompenses sont diffusées :
    * **[!UICONTROL Offrir des récompenses aux jalons d’achèvement de tâche au fur et à mesure de la progression du défi]** : récompensez progressivement les clients lorsqu’ils effectuent des tâches individuelles (uniquement pour les défis nécessitant plus d’une tâche)\
      *Exemple : Attribuer 10 points après la tâche 1, 20 points après la tâche 2 et 50 points après la tâche 3*
 
-1. Sélectionnez votre fournisseur de récompense. Il s’agit de votre solution de fidélité qui gère les points et les récompenses des clients.
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. Sélectionnez votre fournisseur de récompense. Il s’agit de votre solution de fidélité qui gère les points et les récompenses des clients. Les fournisseurs de récompenses sont créés dans le menu **[!UICONTROL Administration de la fidélité]** avant que vous ne créiez des défis. [Découvrez comment configurer des fournisseurs de récompenses](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 
@@ -315,13 +315,13 @@ Le lancement d’un défi nécessite **trois étapes** : (1) publier le défi, (
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours apparaît dans votre inventaire de parcours avec le format de nom *« Parcours : [Nom du défi]«*. [En savoir plus sur l’inventaire des parcours &#x200B;](../building-journeys/journey-ui.md).
+1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours apparaît dans votre inventaire de parcours avec le format de nom *« Parcours : [Nom du défi]«*. [En savoir plus sur l’inventaire des parcours ](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Ouvrez le parcours et publiez-le. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md).
+1. Ouvrez le parcours et publiez-le. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md).
 
-1. Une fois votre défi lancé, surveillez les KPI du programme, les résultats des défis et les mesures au niveau de la tâche dans les [rapports de défi de fidélité](loyalty-reporting.md). Vous pouvez également surveiller la diffusion des messages dans le rapport de parcours [&#128279;](../reports/journey-global-report-cja.md).
+1. Une fois votre défi lancé, surveillez les KPI du programme, les résultats des défis et les mesures au niveau de la tâche dans les [rapports de défi de fidélité](loyalty-reporting.md). Vous pouvez également surveiller la diffusion des messages dans le rapport de parcours [](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >

@@ -9,9 +9,11 @@ level: Experienced
 keywords: fonction, expressions, éditeur, parcours, données, manipulation
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 99053c6c1327818645adc4ab9a5d3dd30eb96b87
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: 874
 ht-degree: 100%
 
 ---

@@ -8,9 +8,11 @@ level: Experienced
 keywords: agrégation, fonctions, expression, parcours, moyenne, nombre, max, min, somme
 version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: 719
 ht-degree: 100%
 
 ---

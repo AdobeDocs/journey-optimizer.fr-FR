@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: expérimentation, expérience, parcours, chemin, optimisation, test A/B, bandit manchot, mettre le gagnant à l’échelle
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: 1147
 ht-degree: 78%
 
 ---
@@ -67,7 +69,7 @@ Supposons que vous souhaitiez comparer trois chemins :
    <!--
     DOES THIS APPLY TO PATH EXPERIMENT?
     IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
+-->
 
 1. Vous pouvez ensuite choisir d’attribuer un pourcentage précis à chaque **[!UICONTROL Traitement]** ou simplement ou simplement activer le bouton (bascule) **[!UICONTROL Répartir proportionnellement]**.
 

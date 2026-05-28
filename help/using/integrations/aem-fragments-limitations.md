@@ -7,9 +7,11 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: de4f441e-c3a3-4759-a634-bc9029328ebb
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: 764
 ht-degree: 3%
 
 ---
@@ -42,7 +44,7 @@ Tenez compte des points suivants lors de l’utilisation de fragments de contenu
 * **Mises à jour et contrôle de version**
    * Les mises à jour nécessitent une republication manuelle à partir de [!DNL Adobe Experience Manager]. Il n’existe pas de réconciliation de version automatique.
    * Lorsqu’un fragment de contenu est publié ou republié dans [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] le met à jour et actualise **toutes les variations de ce fragment qui sont référencées** dans les campagnes ou parcours actifs.
-   * L’[!DNL Adobe Experience Manager] [action de publication](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) peut être retardée. Une fois l’opération terminée, [!DNL Journey Optimizer] reçoit un événement et actualise le contenu.
+   * L’[!DNL Adobe Experience Manager] [action de publication](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) peut être retardée. Une fois l’opération terminée, [!DNL Journey Optimizer] reçoit un événement et actualise le contenu.
    * Après une mise à jour réussie, les modifications sont généralement disponibles dans les **5 minutes environ** pour les parcours unitaires, et dans le **lot suivant** pour les cas d’utilisation par lots.
 
 * **Mise en cache et vérification**

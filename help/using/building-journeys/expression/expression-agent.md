@@ -10,9 +10,11 @@ level: Intermediate
 badge: label="Bêta publique" type="Informative"
 mini-toc-levels: 2
 hide: true
-source-git-commit: 21019d3981891b2ea17857dfc15278641bbcb740
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 660
 ht-degree: 2%
 
 ---
@@ -33,7 +35,7 @@ ht-degree: 2%
 
 L’assistant d’expression est une fonctionnalité optimisée par l’IA intégrée à l’éditeur d’expression avancé du Parcours. Cela vous permet de générer des expressions valides à partir d’invites en langage clair.
 
-Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente &#x200B;]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
+Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente ]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
 
 ## Générer une expression {#generate}
 

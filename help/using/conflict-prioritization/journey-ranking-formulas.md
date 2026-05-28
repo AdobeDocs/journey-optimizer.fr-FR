@@ -7,14 +7,16 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 20%
+source-wordcount: 1131
+ht-degree: 21%
 
 ---
 
-# Utilisation de formules pour classer les parcours {#journey-ranking-formulas}
+# Utiliser des formules pour classer les parcours {#journey-ranking-formulas}
 
 >[!AVAILABILITY]
 >
@@ -65,7 +67,7 @@ Pour créer une formule de classement pour vos parcours, procédez comme suit.
 
 1. Dans la section **[!UICONTROL Critère 1]**, indiquez à quels parcours vous souhaitez appliquer un score de classement en procédant comme suit :
 
-   * sélectionner un attribut de parcours [&#128279;](../building-journeys/journey-properties.md) (par exemple le nom du parcours, les balises, la priorité ou d’autres propriétés de parcours) ;
+   * sélectionner un attribut de parcours [](../building-journeys/journey-properties.md) (par exemple le nom du parcours, les balises, la priorité ou d’autres propriétés de parcours) ;
    * sélectionner un opérateur logique;
    * ajouter une condition correspondante - vous pouvez saisir/sélectionner une valeur ou choisir un attribut de profil.
 
@@ -79,7 +81,7 @@ Pour créer une formule de classement pour vos parcours, procédez comme suit.
 
 1. Créez une expression qui attribuera un score de classement aux parcours qui remplissent la condition définie ci-dessus. Vous pouvez référencer l’un des éléments suivants :
    * une variable :
-      * la priorité du parcours, qui est une valeur manuelle attribuée au parcours lors de la [création d’un parcours &#x200B;](../building-journeys/journey-gs.md) ;
+      * la priorité du parcours, qui est une valeur manuelle attribuée au parcours lors de la [création d’un parcours ](../building-journeys/journey-gs.md) ;
       * le score provenant du modèle d’IA que vous avez éventuellement sélectionné ci-dessus ;
    * un attribut :
       * tout attribut susceptible de résider sur le profil, tel qu’un score de propension dérivé de l’extérieur ;
@@ -107,7 +109,7 @@ Examinons les exemples ci-dessous.
 
 +++Exemple 1 : utilisez la priorité de parcours ou le score d’IA en fonction des balises de parcours
 
-![Formule de classement : la balise marketing utilise la priorité du parcours &#x200B;](assets/journey-formula-ex-1.png){width="60%"}
+![Formule de classement : la balise marketing utilise la priorité du parcours ](assets/journey-formula-ex-1.png){width="60%"}
 
 Si le parcours comporte une balise « Marketing », le score de classement est la priorité du parcours.
 
@@ -186,7 +188,7 @@ Pour attribuer l’ensemble de règles à un parcours, procédez comme suit.
 
 Tous les parcours qui utilisent cet ensemble de règles seront classés selon la formule sélectionnée lors de l&#39;application de la limitation.
 
-Pour surveiller les performances de vos ensembles de règles et formules de classement, consultez la section [Limitation et conflits de Parcours &#x200B;](../reports/channel-report-cja.md#rule-sets) dans le rapport de présentation. Pour étudier les abandons au niveau du lac de données et identifier si un profil a été exclu en raison d’une limite atteinte (`CAP_REACHED`) ou d’une priorité inférieure (`LOWER_PRIORITY`), utilisez les requêtes disponibles dans [cette section](../reports/query-examples.md#business-rules-queries).
+Pour surveiller les performances de vos ensembles de règles et formules de classement, consultez la section [Limitation et conflits de Parcours ](../reports/channel-report-cja.md#rule-sets) dans le rapport de présentation. Pour étudier les abandons au niveau du lac de données et identifier si un profil a été exclu en raison d’une limite atteinte (`CAP_REACHED`) ou d’une priorité inférieure (`LOWER_PRIORITY`), utilisez les requêtes disponibles dans [cette section](../reports/query-examples.md#business-rules-queries).
 
 <!--
 ## Reporting {#reporting}

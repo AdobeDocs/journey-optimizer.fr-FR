@@ -7,9 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: 1456
 ht-degree: 24%
 
 ---
@@ -90,7 +92,7 @@ Pour définir le contenu de votre message RCS, procédez comme suit.
 
 1. Dans le champ **[!UICONTROL Texte du message]** saisissez le contenu de votre message. Vous pouvez utiliser la personnalisation pour personnaliser le texte en fonction de chaque profil. Notez que les limites de caractères varient selon le type de message : 3 072 caractères pour le format Rich Media (single) et 160 caractères pour le format RCS de base.
 
-1. Utilisez l&#39;éditeur **&#x200B;**&#x200B;pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
+1. Utilisez l&#39;éditeur **** pour définir le contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles.
 
 1. Si vous le souhaitez, ajoutez des boutons interactifs **[!UICONTROL Actions suggérées]** qui permettent aux profils d’agir en une seule touche.
 
