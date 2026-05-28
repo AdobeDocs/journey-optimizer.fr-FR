@@ -175,7 +175,7 @@ Choisissez le parcours qui vous convient le mieux :
 * **Vous découvrez Journey Optimizer ?** Commencez par [qu’est-ce que Journey Optimizer ?](../using/start/get-started.md) pour comprendre les principes de base
 * **Connaître votre rôle ?** Accédez au [guide spécifique au rôle](../using/start/quick-start.md) qui correspond à vos responsabilités
 * **Vous souhaitez explorer ?** Parcourez les [fonctionnalités d’IA](../using/start/ai-features.md) ou essayez [playbooks de cas d’utilisation](../using/start/ai-features.md#playbooks)
-* **Besoin d’aide ?** Consultez le [ Guide de dépannage ](../using/start/troubleshooting.md) ou rendez-vous sur le [Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+* **Besoin d’aide ?** Consultez le [&#x200B; Guide de dépannage &#x200B;](../using/start/troubleshooting.md) ou rendez-vous sur le [Forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 
 ## Liens rapides {#quick-links}
 
