@@ -8,12 +8,23 @@ role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
 TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2296
@@ -159,19 +170,19 @@ Ces requêtes ne sont pas prises en charge et doivent être traitées par d’au
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&amp;check; **Audience cible définie** : indique la population, le rôle ou le segment.
+&check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&amp;check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&amp;check; **Les sélections déroulantes configurées** : La tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
+&check; **Les sélections déroulantes configurées** : La tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
 
-&amp;check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
+&check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
 
-&amp;check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
+&check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
 
-&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -181,11 +192,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
+&check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&amp;check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
+&check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
 
-&amp;check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
+&check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
 
 **Exemples à éviter :**
 
@@ -202,11 +213,11 @@ Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **A
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
+&check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
 
-&amp;check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
+&check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
 
-&amp;check; « Attirez l’attention à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
+&check; « Attirez l’attention à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
 
 **Exemples à éviter :**
 

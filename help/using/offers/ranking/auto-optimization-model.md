@@ -10,11 +10,19 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DZ2NFuxDJRdZFLESrEwe-lfnt14vO93xxA-1U0zokPQ
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1561
@@ -81,7 +89,7 @@ Finalement, si une offre (par exemple l’offre 1) est un gagnant définitif, s
 
 +++**Détails techniques**
 
-Pour calculer/mettre à jour des lois, nous utilisons le **théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer sa ***P(𝛍i | données)***, c’est-à-dire la probabilité d’une valeur de récompense**𝛍i** pour chaque offre*** i***, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
+Pour calculer/mettre à jour des lois, nous utilisons le **théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer sa ***P(𝛍i | données)***, c’est-à-dire la probabilité d’une valeur de récompense&#x200B;**𝛍i** pour chaque offre&#x200B;*** i***, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
 
 D’après le théorème de Bayes :
 
@@ -89,7 +97,7 @@ D’après le théorème de Bayes :
 
 La **probabilité a priori** est l’estimation initiale de la probabilité de produire une sortie. Une fois qu’une preuve a été collectée, la probabilité est connue sous le nom de **probabilité a posteriori**. 
 
-L’optimisation automatique est conçue pour prendre en compte les récompenses binaires (clic/pas de clic). Dans ce cas, la vraisemblance représente le nombre de succès provenant de N essais et est modélisée par une **loi binomiale**. Pour certaines fonctions de vraisemblance, si vous choisissez une certaine loi a priori, la loi a posteriori se retrouve dans la même loi que la loi a priori. Une telle loi a priori est alors appelée une **loi a priori conjuguée**. Ce genre de loi a priori rend le calcul de la loi a posteriori très simple. La loi **** est une loi a priori conjuguée à la vraisemblance binomiale (récompenses binaires). Il s’agit donc d’un choix pratique et judicieux pour les lois de probabilité a priori et a posteriori.La distribution Beta utilise deux paramètres, ***α*** et ***β***. Ces paramètres peuvent être considérés comme le nombre de succès et d’échecs et la valeur moyenne donnée par :
+L’optimisation automatique est conçue pour prendre en compte les récompenses binaires (clic/pas de clic). Dans ce cas, la vraisemblance représente le nombre de succès provenant de N essais et est modélisée par une **loi binomiale**. Pour certaines fonctions de vraisemblance, si vous choisissez une certaine loi a priori, la loi a posteriori se retrouve dans la même loi que la loi a priori. Une telle loi a priori est alors appelée une **loi a priori conjuguée**. Ce genre de loi a priori rend le calcul de la loi a posteriori très simple. La loi **&#x200B;**&#x200B;est une loi a priori conjuguée à la vraisemblance binomiale (récompenses binaires). Il s’agit donc d’un choix pratique et judicieux pour les lois de probabilité a priori et a posteriori.La distribution Beta utilise deux paramètres, ***α*** et ***β***. Ces paramètres peuvent être considérés comme le nombre de succès et d’échecs et la valeur moyenne donnée par :
 
 ![](../assets/ai-ranking-beta-distribution.png)
 

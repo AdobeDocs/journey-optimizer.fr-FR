@@ -7,8 +7,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+feature_v2:
+  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2:
+  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 661
@@ -77,7 +79,7 @@ Pour créer un modèle d’IA pour le classement des parcours, procédez comme s
    >
    >Seuls les jeux de données créés à partir de schémas associés au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]** s&#39;affichent dans la liste déroulante. Vous pouvez sélectionner jusqu’à 5 jeux de données.
 
-1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
+1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
 
    >[!NOTE]
    >
@@ -95,7 +97,7 @@ Vous pouvez désormais définir le modèle d’IA comme référence pour créer 
 
 1. Utilisez le bouton **[!UICONTROL Sélectionner un modèle d’IA]** pour sélectionner le modèle d’IA à utiliser dans la formule.
 
-   ![Détails de la formule de classement des Parcours avec le bouton Sélectionner un modèle d’IA ](assets/journey-formula-ai-model.png){width="80%"}
+   ![Détails de la formule de classement des Parcours avec le bouton Sélectionner un modèle d’IA &#x200B;](assets/journey-formula-ai-model.png){width="80%"}
 
 1. Dans au moins l’une des sections **[!UICONTROL Critère]**, définissez une condition et sélectionnez **[!UICONTROL Score du modèle d’IA]** comme méthode de classement. Par exemple, si le parcours comporte une balise « Promo », le score de classement est le score du modèle d’IA.
 

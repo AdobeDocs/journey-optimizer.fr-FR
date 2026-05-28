@@ -9,8 +9,10 @@ role: User
 level: Intermediate
 version: Campaign Orchestration
 exl-id: 7a4e8f2c-91d3-4b65-8e10-2c9f4a6b8d1e
-feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 189
@@ -37,4 +39,4 @@ Pour ajouter ou modifier une variable globale dans une campagne orchestrée, pro
 
    ![Panneau Variables pour ajouter ou modifier des variables](assets/variables-edit.png){zoomable="yes"}
 
-Pour savoir comment utiliser des variables globales dans des règles et des conditions **[!UICONTROL Test]** une fois qu’elles ont été définies, consultez la section [ Utilisation de variables dans des campagnes orchestrées](variables-orchestrated-campaigns.md#use).
+Pour savoir comment utiliser des variables globales dans des règles et des conditions **[!UICONTROL Test]** une fois qu’elles ont été définies, consultez la section [&#x200B; Utilisation de variables dans des campagnes orchestrées](variables-orchestrated-campaigns.md#use).
