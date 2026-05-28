@@ -11,7 +11,8 @@ keywords: sous-domaine, délégation, migration, CNAME, délégation personnalis
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1258
@@ -31,7 +32,7 @@ Dans le cadre de ce processus, vous devez :
 
 * [Supprimer les enregistrements DNS existants](#delete-dns) de votre solution d’hébergement
 * [Téléchargez le certificat SSL](#upload-ssl-certificate) obtenu auprès de l’autorité de certification
-* Suivez les étapes [ Feedback Loop ](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
+* Suivez les étapes [&#x200B; Feedback Loop &#x200B;](#feedback-loop) en vérifiant la propriété du domaine et l’adresse e-mail de reporting.
 * [Créer un nouvel ensemble d’enregistrements DNS](#create-dns-records) généré par Adobe dans votre plateforme d’hébergement
 
 Pour migrer votre sous-domaine, procédez comme suit.

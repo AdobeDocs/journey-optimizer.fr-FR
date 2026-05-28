@@ -7,11 +7,27 @@ role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
 TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1296
@@ -33,7 +49,7 @@ Decisioning offre des fonctionnalités et des avantages significatifs par rappor
 
 ### Fonctionnalités d’IA et de machine learning
 
-* **Mesures personnalisées** : possibilité d’utiliser des mesures d’optimisation personnalisées pour les modèles d’IA. Cela permet une interopérabilité des rapports avec [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normalise les rapports sur les deux plateformes et améliore la cohérence et la fiabilité des données. L’intégration transparente offre une vue plus claire des mesures de performances et ajoute de nouvelles fonctionnalités telles que la création de mesures simples, la publication d’audiences, la pose de questions ad hoc à l’aide d’Insight Builder et la planification de rapports.
+* **Mesures personnalisées** : possibilité d’utiliser des mesures d’optimisation personnalisées pour les modèles d’IA. Cela permet une interopérabilité des rapports avec [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normalise les rapports sur les deux plateformes et améliore la cohérence et la fiabilité des données. L’intégration transparente offre une vue plus claire des mesures de performances et ajoute de nouvelles fonctionnalités telles que la création de mesures simples, la publication d’audiences, la pose de questions ad hoc à l’aide d’Insight Builder et la planification de rapports.
 
 * **Mesure de l’effet élévateur** : capacité à visualiser le trafic d’exploration et d’exploitation dans les modèles d’IA. Cela permet aux spécialistes du marketing et aux spécialistes des données de quantifier la manière dont l’exploration de l’IA améliore les performances du modèle à long terme et la découvrabilité de nouvelles offres gagnantes. La transparence dans l’affectation du trafic renforce la confiance dans les décisions de l’IA et permet aux équipes d’optimiser l’apprentissage et les performances au fil du temps. [En savoir plus](ranking/auto-optimization-model.md#lift)
 

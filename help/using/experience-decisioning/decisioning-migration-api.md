@@ -6,8 +6,11 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1175
@@ -64,7 +67,7 @@ Avant d’exécuter une migration, vérifiez que votre sandbox cible est correct
 * **Jeu de données** - Identifiez un nom de jeu de données à utiliser pour la migration (`dependency.datasetName`).
 * **Flux de données** - Décidez si la migration doit créer un flux de données (`createDataStream`).
 
-Pour plus d’informations sur la gestion des sandbox, voir [ Utilisation et affectation de sandbox](../administration/sandboxes.md).
+Pour plus d’informations sur la gestion des sandbox, voir [&#x200B; Utilisation et affectation de sandbox](../administration/sandboxes.md).
 
 ## Bases d’API {#api-basics}
 
@@ -83,7 +86,7 @@ Toutes les requêtes API nécessitent les en-têtes suivants :
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
+Pour obtenir des instructions détaillées sur la configuration de l’authentification, consultez le guide d’authentification de [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ### Modèle de workflow {#workflow-model}
 

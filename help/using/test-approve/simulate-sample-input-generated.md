@@ -11,7 +11,8 @@ badge: label="Private Beta" type="Informative"
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
 feature_v2: []
-subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+subfeature_v2:
+  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 285

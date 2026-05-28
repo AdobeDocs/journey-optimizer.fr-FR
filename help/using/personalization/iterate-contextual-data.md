@@ -10,12 +10,20 @@ level: Intermediate
 keywords: expression, éditeur, handlebars, itération, tableaux, contexte, personnalisation
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 3075
@@ -84,7 +92,7 @@ context.journey.events.<event_ID>.<fieldPath>
 >context.journey.events.`1697323153`.fieldName
 >```
 >
->Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [ Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
+>Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [&#x200B; Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
 
 ### Exemple : articles dans le panier à partir d’un événement
 
@@ -1049,7 +1057,7 @@ Utilisez le [mode test de parcours](../building-journeys/testing-the-journey.md)
 
 **Principes de base de la personnalisation :** [Commencer avec la personnalisation](personalize.md) | [Ajouter une personnalisation](personalization-build-expressions.md) | [Syntaxe de personnalisation](personalization-syntax.md) | [Fonctions de l’assistant](functions/helpers.md) | [Créer des règles conditionnelles](create-conditions.md)
 
-**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours ](../building-journeys/testing-the-journey.md)
+**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours &#x200B;](../building-journeys/testing-the-journey.md)
 
 **Fonctions d’expression de parcours :** [Éditeur d’expression avancé](../building-journeys/expression/expressionadvanced.md) | [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md) (first, all, last) | [Fonctions de liste](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Fonctions de tableau](../personalization/functions/arrays-list.md) (head, tail)
 
