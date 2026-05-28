@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
 workflow-type: tm+mt
-source-wordcount: 8005
+source-wordcount: 8040
 ht-degree: 89%
 
 ---
@@ -28,6 +28,8 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 ## Mai 2026 {#may-2026}
 
 * La documentation **Utiliser des politiques de décision dans les messages** décrit désormais comment afficher la structure complète d’une politique de décision à partir du résumé de la campagne et copier un résumé technique JSON dans le presse-papiers à des fins de dépannage. [En savoir plus](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+* L’ancienne page **Gestion des décisions** [Modèles d’optimisation automatique](../offers/ranking/auto-optimization-model.md) a été réécrite afin de s’aligner sur la documentation mise à jour sur la prise de décision, y compris la présentation de l’apprentissage par renforcement, les exigences et les limites, l’équilibrage de l’optimisation avec l’apprentissage et les détails d’échantillonnage de Thompson. [En savoir plus](../offers/ranking/auto-optimization-model.md)
 
 * La page **Notes de mise à jour** a été restructurée avec une disposition thématique. Les modifications sont désormais regroupées par zone de produit plutôt que par type de modification, avec une nouvelle section dédiée **Améliorations de l’utilisation**. Les entrées bientôt disponibles apparaissent sous la forme d’accordéons extensibles dans chaque rubrique. [En savoir plus](release-notes.md)
 
