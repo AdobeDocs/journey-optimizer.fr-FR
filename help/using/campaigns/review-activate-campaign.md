@@ -24,16 +24,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 100%
+source-wordcount: 310
+ht-degree: 92%
 
 ---
 
 # Vérifier et activer la campagne d’action {#action-campaign-review}
 
-Une fois votre campagne configurée, vous devez vérifier ses paramètres et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
+Une fois votre campagne configurée, vous devez vérifier ses paramètres et son contenu avant de l’activer. Pour ce faire, suivez les étapes ci-après.
 
 >[!IMPORTANT]
 >
@@ -48,6 +48,8 @@ Une fois votre campagne configurée, vous devez vérifier ses paramètres et son
    En cas d’erreur, vous ne pouvez pas activer la campagne. Résolvez les erreurs avant de continuer.
 
    ![](assets/create-campaign-alerts.png)
+
+1. Lorsqu’une campagne utilise des [politiques de décision](../experience-decisioning/create-decision.md) dans son contenu, vous pouvez examiner la structure de chaque politique et copier les détails techniques directement à partir du résumé de la campagne. [Voici comment procéder](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]**.
 

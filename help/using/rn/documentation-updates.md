@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a99544946642a625594f4c99eb869dd33299d583
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 7969
-ht-degree: 90%
+source-wordcount: 8005
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 90%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Mai 2026 {#may-2026}
+
+* La documentation **Utiliser des politiques de décision dans les messages** décrit désormais comment afficher la structure complète d’une politique de décision à partir du résumé de la campagne et copier un résumé technique JSON dans le presse-papiers à des fins de dépannage. [En savoir plus](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 * La page **Notes de mise à jour** a été restructurée avec une disposition thématique. Les modifications sont désormais regroupées par zone de produit plutôt que par type de modification, avec une nouvelle section dédiée **Améliorations de l’utilisation**. Les entrées bientôt disponibles apparaissent sous la forme d’accordéons extensibles dans chaque rubrique. [En savoir plus](release-notes.md)
 

@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 100%
+source-wordcount: 314
+ht-degree: 92%
 
 ---
 
@@ -46,6 +46,8 @@ Une fois votre campagne déclenchée par API configurée, vous devez vérifier s
    En cas d’erreur, vous ne pouvez pas activer la campagne. Résolvez les erreurs avant de continuer.
 
    ![](assets/create-campaign-alerts.png)
+
+1. Lorsqu’une campagne utilise des [politiques de décision](../experience-decisioning/create-decision.md) dans son contenu, vous pouvez examiner la structure de chaque politique et copier les détails techniques directement à partir du résumé de la campagne. [Voici comment procéder](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]**.
 
