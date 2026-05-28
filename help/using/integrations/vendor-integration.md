@@ -8,9 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: intégration, fournisseur, tiers
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+subfeature_v2: []
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '10154'
+source-wordcount: 10154
 ht-degree: 6%
 
 ---
@@ -65,7 +68,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **&#x200B;**&#x200B;avec l’API de diffusion de contenu et votre jeton de diffusion, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** avec l’API de diffusion de contenu et votre jeton de diffusion, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -73,7 +76,7 @@ Suivez la procédure ci-dessous pour configurer cette intégration dans Journey 
 
 1. Configurez le point d’entrée à l’aide de l’URL de l’API de diffusion de contenu (CDA) `https://cdn.contentful.com/spaces/{space_id}/environments/{environment_id}/entries/{entry_id}`
 
-1. Sélectionnez la méthode HTTP : **&#x200B;**.
+1. Sélectionnez la méthode HTTP : **GET**.
 
 1. Ajoutez une authentification. Définissez le paramètre **`access_token`** **requête** sur votre jeton API de diffusion de contenu, comme illustré dans **Exemples de champs d’intégration** ci-dessous. Contentful accepte également le même jeton dans un en-tête `Authorization: Bearer` ; utilisez la prise en charge de vos champs d’intégration quelle qu’elle soit.
 
@@ -152,7 +155,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **&#x200B;**&#x200B;sur votre chemin d’accès d’ordre de téléchargement, définissez les en-têtes d’autorisation par Sitecore, mappez les `id` à partir du contexte, collez l’exemple JSON, mappez les champs et ajustez les délais d’expiration pour la latence des ressources.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** sur votre chemin d’accès d’ordre de téléchargement, définissez les en-têtes d’autorisation par Sitecore, mappez les `id` à partir du contexte, collez l’exemple JSON, mappez les champs et ajustez les délais d’expiration pour la latence des ressources.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -423,7 +426,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **&#x200B;**&#x200B;avec un jeton porteur, demandez uniquement les options d’attribut nécessaires dans les indicateurs de requête, collez l’exemple JSON, mappez un jeu d’attributs minimal, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** avec le jeton porteur, demandez uniquement les options d’attribut nécessaires dans les indicateurs de requête, collez l’exemple JSON, mappez un jeu d’attributs minimal, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -708,7 +711,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **&#x200B;**&#x200B;sur le profil ou le chemin d’accès dont vous avez besoin, définissez les `Authorization: ApiKey-v1 <key>` comme documenté, collez l’exemple JSON, mappez des champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** sur le profil ou le chemin d’accès dont vous avez besoin, définissez les `Authorization: ApiKey-v1 <key>` comme documenté, collez un exemple de JSON, mappez des champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -803,7 +806,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **&#x200B;**&#x200B;avec l’authentification du fournisseur (par exemple, la clé API dans la requête), évitez d’exposer les informations d’identification personnelles dans la politique, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** avec l’authentification du fournisseur (par exemple, la clé API dans la requête), évitez d’exposer les informations d’identification personnelles dans la politique, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -917,7 +920,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Utilisez l’opération GET Loyalty Management **profil de membre** documentée pour la version de l’API de votre organisation. Les chemins incluent le programme et les identifiants de membre. Voir [Développeurs &#x200B;](https://developer.salesforce.com/){target="_blank"}.
+Utilisez l’opération GET Loyalty Management **profil de membre** documentée pour la version de l’API de votre organisation. Les chemins incluent le programme et les identifiants des membres. Voir [Développeurs &#x200B;](https://developer.salesforce.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
@@ -1363,7 +1366,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **&#x200B;**&#x200B;à moins que votre abonnement n’en exige autrement, joignez le paramètre de requête `apiKey`, mappez les `locationKey` et d’autres variables de profile/context, collez l’exemple JSON, mappez des champs, puis testez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** à moins que votre abonnement n’en exige autrement, joignez le paramètre de requête `apiKey`, mappez les `locationKey` et d’autres variables de profile/context, collez l’exemple JSON, mappez des champs, puis testez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1555,7 +1558,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Appelez le REST **&#x200B;**&#x200B;modélisé ci-dessous, authentifiez-vous avec l’en-tête de clé secrète, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Appelez le REST **GET** modélisé ci-dessous, authentifiez-vous avec l’en-tête de clé secrète, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1583,7 +1586,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Exemple de modèle : utilisez la **Obtenir un produit** de RevenueCat (ou un produit/droit GET équivalent) à partir de la [Documentation RevenueCat](https://docs.revenuecat.com/){target="_blank"} avec l’URL de base et la version de votre projet.
+Exemple de modèle : utilisez la méthode **Get a Product** de RevenueCat (ou une méthode GET de produit/droit équivalente) à partir de la [RevenueCat docs](https://docs.revenuecat.com/){target="_blank"} avec l’URL de base et la version de votre projet.
 
 | Champ | Valeur |
 | --- | --- |
@@ -1674,7 +1677,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++Exemples de champs d’intégration
 
-L’exemple de tâche **&#x200B;**&#x200B;ci-dessous est fourni à titre d’illustration. Pour la personnalisation pilotée par SQL, préférez le modèle [API d’exécution d’instruction](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} pris en charge par votre espace de travail.
+L’exemple de tâche **GET** ci-dessous est donné à titre d’illustration. Pour la personnalisation pilotée par SQL, préférez le modèle [API d’exécution d’instruction](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} pris en charge par votre espace de travail.
 
 | Champ | Valeur |
 | --- | --- |
@@ -1730,7 +1733,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **&#x200B;**&#x200B;sur le point d’entrée choisi (l’un des schémas courants est la liste des utilisateurs), exécutez OAuth par [Bynder](https://developer.bynder.com/){target="_blank"}, évitez d’extraire des pages de données inutiles, mappez des champs, testez, puis activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** sur le point d’entrée choisi (un modèle courant est la liste des utilisateurs), exécutez OAuth par [Bynder](https://developer.bynder.com/){target="_blank"}, évitez d’extraire des pages de données inutiles, mappez des champs, testez, puis activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1885,7 +1888,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Configurez **&#x200B;**&#x200B;avec l’authentification de requête requise, mappez les identifiants du profil ou du contexte, collez l’exemple JSON, mappez les champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Configurez **GET** avec l’authentification de requête requise, mappez les identifiants du profil ou du contexte, collez l’exemple JSON, mappez les champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -1974,7 +1977,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **&#x200B;**&#x200B;avec `passkey` comme paramètre de requête sur l’API Conversations, définissez `Accept: application/json`, collez l’exemple JSON, mappez des champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** avec `passkey` comme paramètre de requête sur l’API Conversations, définissez `Accept: application/json`, collez l’exemple JSON, mappez des champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -2153,7 +2156,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Les appels graphiques sont souvent des **&#x200B;**&#x200B;avec un chemin versionné ; gérez l’expiration du jeton, collez l’exemple JSON, mappez des champs, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Les appels graphiques sont souvent **GET** avec un chemin versionné. Gérez l’expiration des jetons, collez un exemple de JSON, mappez des champs, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 
@@ -2243,7 +2246,7 @@ Les restrictions et exclusions suivantes s’appliquent :
 
 Suivez la procédure ci-dessous pour configurer cette intégration dans Journey Optimizer. Voir **Exemples de champs d’intégration** par exemple les détails de la demande et confirmer ces valeurs avec la documentation du fournisseur pour votre environnement.
 
-1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **&#x200B;**&#x200B;sur le chemin d’enregistrement dont vous avez besoin, envoyez les en-têtes requis tels que `API-VERSION`, collez l’exemple JSON (HAL ou JSON tel que renvoyé), mappez un ensemble de champs minimal, testez, activez.
+1. Suivez [Utilisation des intégrations](integrations.md). Utilisez **GET** sur le chemin d’enregistrement dont vous avez besoin, envoyez les en-têtes requis tels que `API-VERSION`, collez l’exemple JSON (HAL ou JSON tel que renvoyé), mappez un ensemble de champs minimal, testez, activez.
 
 1. Dans Journey Optimizer, accédez à **[!UICONTROL Configurations]** > **[!UICONTROL Gérer]**, puis sélectionnez **[!UICONTROL Créer une intégration]**.
 

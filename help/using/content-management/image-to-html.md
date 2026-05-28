@@ -9,9 +9,12 @@ role: User
 level: Beginner
 keywords: e-mail, modèle, image, HTML, IA, conception, convertisseur
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '2097'
+source-wordcount: 2097
 ht-degree: 22%
 
 ---

@@ -11,10 +11,13 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 15%
+source-wordcount: 911
+ht-degree: 14%
 
 ---
 
@@ -42,7 +45,7 @@ ht-degree: 15%
 
 **Configuration et intégration**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configuration des défis de fidélité](loyalty-admin.md)
 * [Données et jeux de données de fidélité](loyalty-data-and-datasets.md)
 * [Référence de l’API pour les défis de fidélité](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -95,7 +98,7 @@ La création et le lancement d’un défi de fidélité suivent ce workflow :
 
 1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Séquentiel, Séquentiel ou Apporter vos propres données lorsqu’elles sont disponibles) et la période. [Découvrez comment choisir un type de défi](create-challenges.md#create-the-challenge).
 
-1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâches (achat, dépenses), les quantités, les filtres de produit et les récompenses.
+1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâche (achat, dépense ou événement personnalisé), les quantités, les filtres de produit et les récompenses.
 
 1. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de cartes de contenu Journey Optimizer qui s’affichent sur les appareils des clients. Les cartes de contenu affichent les informations sur le défi, la progression et les récompenses.
 
@@ -138,17 +141,13 @@ Contactez votre administrateur si vous ne pouvez pas accéder à la fonctionnali
 
 +++
 
-<!--
++++Configuration du programme de fidélité (administrateurs)
 
-+++Configure the loyalty program (administrators)
+Les administrateurs configurent les fournisseurs de récompenses, les définitions d’événement, l’inventaire des produits, les exclusions et les paramètres globaux dans le menu **[!UICONTROL Administrateur de fidélité]**. Les marketeurs qui ne créent que des défis n’ont pas besoin d’accéder à ce menu. [Découvrez comment configurer les défis de fidélité](loyalty-admin.md)
 
-To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
-
-Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+Contactez votre administrateur si le menu **[!UICONTROL Administration du programme de fidélité]** n’est pas visible dans le volet de navigation de gauche.
 
 +++
-
--->
 
 +++Audience cible
 
@@ -206,21 +205,20 @@ Maintenant que vous connaissez les défis de fidélité et leur fonctionnement, 
     <em>Suivre les KPI du programme, les résultats des défis et les mesures des tâches avec des tableaux de bord intégrés</em>
     </p>
   </td>
-  &lt;!--
-
-<td>
+  <!--
+    <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
+  <td>
     <a href="loyalty-admin.md">
-      <img alt="Configuration" src="assets/do-not-localize/icon-access.png" width="200"/>
+    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-    <a href="loyalty-admin.md"><strong>Configurer le programme de fidélité</strong></a>
+  -->
+    <a href="loyalty-admin.md"><strong>Configurer les défis de fidélité</strong></a>
     </div>
     <p>
-    <em>Configurez les fournisseurs de récompenses, les définitions d’événement et les paramètres d’organisation pour l’exécution</em>
+    <em>Configurez les fournisseurs de récompenses, les définitions d’événement et les paramètres d’organisation</em>
     </p>
   </td>
-
--->
 </tr>
 </table>
 

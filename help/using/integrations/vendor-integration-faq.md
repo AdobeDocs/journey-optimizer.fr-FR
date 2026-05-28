@@ -8,9 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: intégration, FAQ, données externes, personnalisation
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+subfeature_v2: []
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: 852
 ht-degree: 1%
 
 ---
@@ -60,7 +63,7 @@ Il s’agit par exemple des points de récompense des systèmes de fidélité, d
 
 +++ Comment configurer une intégration à un haut niveau en tant qu’administrateur ?
 
-Vous indiquez un nom et une description, une URL de point d’entrée de l’API (éventuellement avec des variables de chemin d’accès), des valeurs de modèle de chemin d’accès, **&#x200B;**&#x200B;ou **[!UICONTROL POST]**, des en-têtes facultatifs et des paramètres de requête, une méthode d’authentification, des paramètres de politique (tels que le délai d’expiration et le cache facultatif ou une nouvelle tentative), un exemple de réponse JSON pour mapper des champs, puis vous exécutez **[!UICONTROL Envoyer la connexion de test]** et **[!UICONTROL Activer]**, le cas échéant.
+Vous indiquez un nom et une description, une URL de point d’entrée de l’API (éventuellement avec des variables de chemin d’accès), des valeurs de modèle de chemin d’accès, **[!UICONTROL GET]** ou **[!UICONTROL POST]**, des en-têtes facultatifs et des paramètres de requête, une méthode d’authentification, des paramètres de politique (tels que le délai d’expiration et le cache facultatif ou une nouvelle tentative), un exemple de réponse JSON pour mapper des champs, puis vous exécutez **[!UICONTROL Envoyer la connexion de test]** et **[!UICONTROL Activer]**, le cas échéant.
 
 ➡️ [En savoir plus sur la configuration de l&#39;intégration](integrations.md#configure)
 

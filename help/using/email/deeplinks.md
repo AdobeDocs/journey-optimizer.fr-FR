@@ -8,9 +8,11 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
-source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: 1327
 ht-degree: 1%
 
 ---

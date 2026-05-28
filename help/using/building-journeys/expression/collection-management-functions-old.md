@@ -9,9 +9,11 @@ role: Developer
 level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 version: Journey Orchestration
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: 740
 ht-degree: 100%
 
 ---
@@ -83,7 +85,7 @@ Dans une activité Condition de source de données, vous pouvez vérifier si le 
 
 **Exemple 1 :**
 
-Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément. 
+Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -151,7 +153,7 @@ Le résultat sera true si aucun événement d’expérience ne correspond aux de
 
 **Exemple 4 :**
 
-Notre objectif ici est de vérifier si un individu a lancé au moins une application au cours des 7 derniers jours afin, par exemple, de déclencher une notification push l’invitant à démarrer un tutoriel. 
+Notre objectif ici est de vérifier si un individu a lancé au moins une application au cours des 7 derniers jours afin, par exemple, de déclencher une notification push l’invitant à démarrer un tutoriel.
 
 ```json
 count(
@@ -195,7 +197,7 @@ _`<listExpression>.last(<condition>)`_
 
 **Exemple 1 :**
 
-Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
+Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
 
 ```json
 @event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
@@ -205,7 +207,7 @@ Le résultat est « token_1 ».
 
 **Exemple 2 :**
 
-Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
+Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
 
 ```json
 @event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}

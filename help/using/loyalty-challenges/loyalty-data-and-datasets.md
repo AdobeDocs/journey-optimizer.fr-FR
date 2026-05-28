@@ -11,10 +11,12 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 6%
+source-wordcount: 538
+ht-degree: 5%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 6%
 
 **Configuration et intégration**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configuration des défis de fidélité](loyalty-admin.md)
 * **Données et jeux de données de fidélité** ◀︎ **Vous êtes ici**
 * [Référence de l’API pour les défis de fidélité](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -60,13 +62,13 @@ ht-degree: 6%
 
 Les défis de fidélité reposent sur Adobe Experience Platform pour l’identité, les attributs de profil, les événements d’expérience et les audiences. Utilisez cette page pour savoir quelles données préparer, quels jeux de données sont impliqués et comment la **durée de vie (TTL)** affecte la rétention avant que vous ne créiez des défis ou n’utilisiez les API de défis de fidélité.
 
-Contactez votre administrateur Adobe pour la configuration du programme Journey Optimizer (exécution de récompense et mappage des événements). Pour les points d’entrée REST et l’authentification, consultez la [référence de l’API Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
+Contactez votre administrateur Adobe pour la configuration du programme Journey Optimizer ou configurez l’exécution des récompenses et le mappage des événements dans le menu **[!UICONTROL Administrateur de fidélité]**. [Découvrez comment configurer les défis de fidélité](loyalty-admin.md). Pour les points d’entrée REST et l’authentification, consultez la [référence de l’API Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
 
 ## Données Adobe Experience Platform {#aep-data}
 
 ### Attributs de profil {#profile-attributes}
 
-Mettez les audiences, la personnalisation et les profils d’utilisation de rapports au défi dans la classe **[!DNL XDM Individual Profile]**. Alignez l’identité [espace de noms](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"} que vous utilisez pour les défis de fidélité sur la manière dont les membres sont identifiés dans vos données de profil.
+Mettez les audiences, la personnalisation et les profils d’utilisation de rapports au défi dans la classe **[!DNL XDM Individual Profile]**. Alignez l’identité [espace de noms](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"} que vous utilisez pour les défis de fidélité sur la manière dont les membres sont identifiés dans vos données de profil et sur l’espace de noms sélectionné dans **[!UICONTROL paramètres globaux]** dans le menu **[!UICONTROL Administration du programme de fidélité]**.
 
 Pour les attributs de fidélité standard sur le profil (points, niveau, programme, statut et champs associés), utilisez le groupe de champs de schéma Experience Platform **[Détails de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**. Ce groupe de champs définit l’objet `loyalty` et ses propriétés (par exemple `points`, `tier`, `program` et `status`).
 
@@ -74,7 +76,7 @@ Pour les attributs de fidélité standard sur le profil (points, niveau, program
 
 ### Événements d’expérience {#experience-events}
 
-Les tâches **[!UICONTROL Achat]**, **[!UICONTROL Dépenses]** et **[!UICONTROL Événement personnalisé]** dépendent des événements d’expérience ingérés dans Adobe Experience Platform. Pour les tâches **[!UICONTROL Événement personnalisé]**, votre administrateur doit configurer les définitions d’événement correspondantes (chemin d’accès de l’identifiant, ID de schéma XDM facultatif, schéma et transformateur) avant de pouvoir les sélectionner dans le créateur de tâches.
+Les tâches **[!UICONTROL Achat]**, **[!UICONTROL Dépenses]** et **[!UICONTROL Événement personnalisé]** dépendent des événements d’expérience ingérés dans Adobe Experience Platform. Pour les tâches **[!UICONTROL Événement personnalisé]**, les définitions d’événement correspondantes (chemin d’accès de l’identifiant, identifiant de schéma XDM facultatif, schéma et transformateur) doivent être configurées dans le menu **[!UICONTROL Administration du programme de fidélité]** avant que les marketeurs puissent saisir des valeurs d’événement personnalisé dans le créateur de tâches. [Découvrez comment configurer des définitions d’événement](loyalty-admin.md#event-definitions)
 
 Assurez-vous que les payloads d’événement utilisent le même espace de noms d’identité que votre configuration des défis de fidélité afin que la progression puisse être attribuée au profil correct.
 
@@ -93,5 +95,3 @@ Journey Optimizer applique des mécanismes de sécurisation de durée de vie à 
 >[!NOTE]
 >
 >La configuration de la fidélité au niveau de l’organisation peut inclure des paramètres d’archivage et de conservation (par exemple, la durée de l’archivage) gérés par le service de métadonnées de fidélité. Contactez votre administrateur ou administratrice Adobe si vous devez ajuster la rétention pour votre environnement bêta privé.
-
-<!-- For UI-based setup (reward providers, event definitions, product inventory, and exclusions), see [Configure loyalty challenges](loyalty-admin.md). -->

@@ -7,23 +7,30 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+workflow-type: tm+mt
+source-wordcount: 161
+ht-degree: 31%
 
 ---
 
 
 # Commencer avec les profils et les audiences {#gs-profiles-audiences}
 
-Adobe Journey Optimizer permet aux marques de créer et de gérer des profils clients en temps réel et des audiences pour offrir des expériences clients personnalisées. Cette vue d’ensemble permet de comprendre de manière générale l’utilisation des profils et des audiences dans Journey Optimizer. Pour plus d’informations, reportez-vous aux sections spécifiques sur les profils et les audiences.
+Adobe Journey Optimizer permet aux marques de créer et de gérer des profils client en temps réel et des audiences pour offrir des expériences client personnalisées. &#x200B; Cette présentation donne une compréhension générale de l’utilisation des profils et des audiences dans Journey Optimizer. Pour plus d’informations, reportez-vous aux sections spécifiques sur les profils et les audiences.
 
 **Profils**
-Adobe Journey Optimizer offre toute une gamme de fonctionnalités permettant de travailler avec les profils clients en temps réel, ce qui permet aux marques de créer une vue unifiée à 360 degrés de leurs clientes et clients. Les fonctionnalités clés comprennent l’ingestion de données en temps réel, la création de graphiques d’identités et les outils d’engagement client. [Commencer avec les profils](get-started-profiles.md)
+Adobe Journey Optimizer offre toute une gamme de fonctionnalités permettant de travailler avec les profils clients en temps réel, ce qui permet aux marques de créer une vue unifiée à 360 degrés de leurs clients. &#x200B; fonctionnalités clés incluent l’ingestion de données en temps réel, la création de graphiques d’identités et les outils d’engagement client. [Commencer avec les profils](get-started-profiles.md)
 
 **Audiences**
-Adobe Journey Optimizer fournit des outils fiables pour créer, gérer et enrichir les audiences afin d’améliorer les efforts marketing.Les fonctionnalités clés comprennent la segmentation, l’enrichissement, la gestion et l’activation des audiences, ainsi que des outils de gouvernance et de confidentialité. [Commencer avec les audiences](about-audiences.md)
+Adobe Journey Optimizer fournit des outils fiables pour créer, gérer et enrichir les audiences afin d’améliorer les efforts marketing. &#x200B;Les principales fonctionnalités comprennent la segmentation, l’enrichissement, la gestion et l’activation des audiences, ainsi que des outils de gouvernance et de confidentialité. [Commencer avec les audiences](about-audiences.md)
 
 Découvrez dans cette vidéo les audiences et les profils clients unifiés dans Journey Optimizer :
 

@@ -7,14 +7,18 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+feature_v2:
+  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2:
+  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 20%
+source-wordcount: 1131
+ht-degree: 21%
 
 ---
 
-# Utilisation de formules pour classer les parcours {#journey-ranking-formulas}
+# Utiliser des formules pour classer les parcours {#journey-ranking-formulas}
 
 >[!AVAILABILITY]
 >
@@ -51,7 +55,7 @@ Pour créer une formule de classement pour vos parcours, procédez comme suit.
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
--->
+   -->
 
 1. Si vous le souhaitez, cliquez sur **[!UICONTROL Sélectionner un modèle d’IA]** pour définir le modèle à utiliser comme référence pour créer votre formule de classement. [En savoir plus](journey-ai-models.md)
 
