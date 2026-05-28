@@ -15,7 +15,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1222
 ht-degree: 86%
@@ -82,7 +82,7 @@ Les chargements de fichiers de schéma basés sur le format Excel sont pris en c
 
 1. Cliquez sur **Créer un schéma**.
 
-1. Sélectionnez **[!UICONTROL Relationnel]** pour votre **Type de schéma**.
+1. Sélectionnez **[!UICONTROL Relationnel]** comme **Type de schéma**.
 
    ![](assets/admin_schema_1.png)
 

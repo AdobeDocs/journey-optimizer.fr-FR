@@ -26,10 +26,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 85%
+source-wordcount: 458
+ht-degree: 71%
 
 ---
 
@@ -53,10 +53,10 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ Identifiant
 
-**Champ :** _id
-**Titre :** identifiant
+**Champ :** _id
+**Titre:** Identifiant
 **Description :** identifiant unique de l’enregistrement.
-**Type :** Chaîne
+**Type:** string
 
 +++
 
@@ -78,8 +78,8 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** caractéristiques
 **Titre :** Caractéristiques De L’Option De Décision
-**Description :** propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent avoir différentes caractéristiques (clés dans le mappage). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option de décision des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l&#39;option de décision.
-**Type :** objet
+**Description :** propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent présenter des caractéristiques différentes (clés sur la carte). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option de décision des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d’une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l&#39;option de décision.
+**Type:** objet
 
 +++
 
@@ -89,23 +89,23 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** contenus
 **Titre :** détails du contenu
-**Description :** Éléments de contenu pour effectuer le rendu de l’élément de décision dans différents contextes. Une seule option de décision peut avoir plusieurs variantes de contenu. Le contenu est une information destinée à une audience pour être utilisée dans une expérience (numérique). Le contenu est diffusé par le biais de canaux à un emplacement spécifique.
-**Type :** tableau
+**Description :** Éléments de contenu pour effectuer le rendu de l’élément de décision dans différents contextes. Une seule option de décision peut avoir plusieurs variantes de contenu. Le contenu est une information destinée à une audience pour être utilisée dans une expérience (numérique). Le contenu est diffusé par le biais de canaux à un emplacement particulier.
+**Type:** tableau
 
 +++
 
 +++_experience > decisioning > contents > components
 
 **Champ :** composants
-**Description :** composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
-**Type :** tableau
+**Description :** composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &#39;dx:format&#39;, &#39;dc:subject&#39; et &#39;dc:language&#39; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l’intégrer selon le contrat d’emplacement.
+**Type:** tableau
 **Obligatoire :** « _type », « _dc » <!--TBC?-->
 
 * **_experience > decisioning > contents > components > Content Component Type**
 
   **Champ :** _type
   **Titre :** type du composant du contenu
-  **Description** : ensemble énuméré d’URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
+  **Description :** un ensemble énuméré d’URI où chaque valeur correspond à un type donné du composant de contenu. Certains consommateurs des représentations de contenu s’attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
   **Type :** Chaîne
 
 * **_experience > decisioning > contents > components > _dc**
@@ -118,15 +118,15 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
      **Champ :** format
      **Titre :** format
-     **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. La bonne pratique recommandée consiste à sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de médias Internet] (https://www.iana.org/ assignments/media-types/) définissant les formats de médias informatiques).
-     **Type :**&#x200B;Chaîne
+     **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. La bonne pratique recommandée consiste à sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de médias Internet]&#x200B;(https://www.iana.org/ assignments/media-types/) définissant les formats de médias informatiques).
+     **Type :** chaîne
      **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Langue**
 
      **Champ :** language
      **Titre :** langue
-     **Description :** la ou les langues de la ressource. \nLes langues sont spécifiées dans le code de langue comme défini dans [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), qui fait partie de BCP 47, utilisé ailleurs dans XDM.
+     **Description :** la ou les langues de la ressource. \nLes langues sont spécifiées dans le code de langue comme défini dans [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), qui fait partie du BCP 47, utilisé ailleurs dans XDM.
      **Type :** tableau
      **Exemples :** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
@@ -138,8 +138,8 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
    * **identifiant**
 
      **Champ :** id
-     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
-     **Type :**&#x200B;Chaîne
+     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété supplémentaire \« repo:resolveUrl\ » récupère la ressource.
+     **Type :** chaîne
      **Exemple :** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
@@ -151,35 +151,35 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
    * **repositoryID**
 
      **Champ :** repositoryID
-     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
-     **Type :**&#x200B;Chaîne
+     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété supplémentaire \« repo:resolveUrl\ » récupère la ressource.
+     **Type :** chaîne
      **Exemple :** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
      **Champ :** resolveURL
-     **Description :** localisateur de ressource unique facultatif pour lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d&#39;obtenir la ressource sans que le client sache où celle-ci est gérée et quelles API appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus pertinente.
-     **Type :**&#x200B;Chaîne
+     **Description :** localisateur de ressources unique facultatif pour lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d’obtenir la ressource sans que le client comprenne où la ressource est gérée et les API à appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus pertinente.
+     **Type :** chaîne
      **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > contents > components > content**
 
   **Champ :** contenu
-  **Description :** champ facultatif pour contenir directement le contenu. Au lieu de référencer le contenu dans un référentiel de ressources, le composant peut contenir directement du contenu simple. Ce champ n&#39;est pas utilisé pour les ressources de contenu composites, complexes et binaires.
+  **Description :** champ facultatif contenant directement du contenu. Au lieu de référencer le contenu dans un référentiel de ressources, le composant peut contenir directement du contenu simple. Ce champ n’est pas utilisé pour les ressources de contenu composites, complexes et binaires.
   **Type :** Chaîne
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
   **Champ :** deliveryURL
-  **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource par un agent utilisateur.
-  **Type :**&#x200B;Chaîne
+  **Description :** localisateur de ressources unique facultatif pour obtenir la ressource à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d’accéder publiquement à la ressource par un agent utilisateur.
+  **Type :** chaîne
   **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
   **Champ :** linkURL
-  **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
-  **Type :**&#x200B;Chaîne
+  **Description :** localisateur de ressources unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l’utilisateur final dans un agent utilisateur et peut faire l’objet d’un suivi.
+  **Type :** chaîne
   **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
@@ -188,8 +188,8 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** emplacement
 **Titre : Emplacement**
-**Description :** emplacement à respecter. La valeur est l&#39;URI (@id) de l&#39;emplacement d&#39;offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
-**Type :** Chaîne
+**Description :** emplacement à respecter. La valeur est l’URI (@id) de l’emplacement d’offre référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
+**Type:** string
 
 +++ 
 
@@ -197,18 +197,18 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Field:** lifecycleStatus
 **Titre :** statut du cycle de vie
-**Description :** statut du cycle de vie permet d’exécuter des workflows avec un objet. L&#39;état peut avoir une incidence lorsqu&#39;un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
-**Type :**&#x200B;Chaîne
+**Description :** statut du cycle de vie permet d’exécuter des workflows avec un objet. L’état peut avoir une incidence lorsqu’un objet est visible ou jugé pertinent. Les changements de statut sont effectués par les clients ou les services qui utilisent les objets.
+**Type:** string
 **Valeurs possibles :** « Draft » (par défaut), « Approved », « Live », « Completed », « Archived »
 
 +++
 
 +++ _experience > decisioning > Decision Option Name
 
-**Champ :** nom
+**Champ :** nom
 **Titre :** Nom De L&#39;Option De Décision
 **Description :** nom de l’option affiché dans diverses interfaces utilisateur.
-**Type :** Chaîne
+**Type:** string
 
 +++
 
@@ -217,7 +217,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** balises
 **Title:** Tags
 **Description :** ensemble de qualificateurs de collection (précédemment appelés « balises ») associé à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour limiter l’inventaire global à un sous-ensemble (catégorie).
-**Type :** tableau
+**Type:** tableau
 
 +++
 
@@ -235,6 +235,6 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** etag
 **Titre : ETag d’option de décision**
 **Description :** révision à laquelle l&#39;objet d&#39;option de décision se trouvait lors de la prise de l&#39;instantané.
-**Type :** Chaîne
+**Type:** string
 
 +++

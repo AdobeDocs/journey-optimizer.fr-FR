@@ -12,10 +12,10 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1082
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
+>Avant de commencer à utiliser cette fonctionnalité, lisez les [Mécanismes de sécurisation et limites](gs-generative.md#generative-guardrails) associés.
 ></br>
 >
 >Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.

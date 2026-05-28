@@ -17,10 +17,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 60%
+source-wordcount: 345
+ht-degree: 58%
 
 ---
 
@@ -33,7 +33,7 @@ Si le rôle d’approbateur ou d’approbatrice vous a été attribué, vous rec
 ![Notification de demande d&#39;approbation](assets/request-notification.png)
 
 Pour passer en revue le parcours/la campagne, ouvrez-le à partir de l’e-mail ou de l’alerte, puis vérifiez ses paramètres, tels que l’audience, le contenu ou les paramètres.
-Une fois que vous avez terminé, vous pouvez [approuver et publier le parcours ou la campagne](#approve) ou [demander des modifications avant de l’activer](#changes).
+Une fois cette opération terminée, vous pouvez [approuver et publier le parcours/la campagne](#approve) ou [demander des modifications avant de l’activer](#changes).
 
 >[!NOTE]
 >

@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 100%
+source-wordcount: 404
+ht-degree: 94%
 
 ---
 
@@ -62,8 +62,8 @@ Contrairement aux notifications push traditionnelles, les activités en direct r
 
 Avec Adobe Journey Optimizer, vous pouvez **démarrer**, **mettre à jour** et **terminer** des activités en direct à distance par programmation via des campagnes déclenchées par API, en prenant en charge aussi bien des cas d’utilisation particuliers que basés sur une audience à grande échelle.
 
-Les activités en direct peuvent **uniquement** être lancées par le biais de campagnes **déclenchées par API**, ce qui vous permet de fournir des payloads personnalisées et d’effectuer toute la personnalisation par le biais de votre propre payload.
-Sélectionnez le type de campagne **Déclenchée par API** en fonction du cas d’utilisation prévu de l’activité en direct :
+Les activités en direct peuvent **uniquement** être lancées par le biais de campagnes **déclenchées par une API**, ce qui vous permet de fournir des payloads personnalisés et d’effectuer toute la personnalisation par le biais de votre propre payload.
+Le type de campagne **déclenché par API** approprié doit être sélectionné en fonction du cas d’utilisation prévu de l’activité Live :
 
 * Sélectionnez **Déclenchée par API (marketing)** pour les cas d’utilisation de diffusion, avec des mises à jour basées sur l’audience envoyées à grande échelle :
 

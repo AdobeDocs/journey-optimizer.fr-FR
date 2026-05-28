@@ -15,10 +15,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 477
-ht-degree: 90%
+source-wordcount: 431
+ht-degree: 77%
 
 ---
 
@@ -34,11 +34,11 @@ L’accès au workflow d’approbation est déterminé par votre cas pratique sp
 
 * **Il existe des politiques d’approbation actives**
 
-   * **Campagnes** : s’il existe une ou plusieurs politiques d’approbation actives pour l’objet de campagne dans un sandbox, toutes les campagnes de ce sandbox afficheront le bouton **[!UICONTROL Demander l’approbation]**.
-Si aucune politique d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]**, le processus d’approbation automatique est déclenché.
+   * **Campagnes** : s’il existe une ou plusieurs politiques de validation actives pour l’objet Campaign dans un sandbox, toutes les campagnes de ce sandbox affichent le bouton **[!UICONTROL Demander la validation]**.
+Si aucune stratégie d&#39;approbation ne s&#39;applique à l&#39;objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l&#39;approbation]**, le workflow d&#39;approbation automatique est déclenché.
 
-   * **Parcours** : s’il existe une ou plusieurs politiques d’approbation actives pour l’objet de parcours dans un sandbox, tous les parcours afficheront le bouton **[!UICONTROL Demander l’approbation]**.
-Si aucune politique d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]**, le processus d’approbation automatique est déclenché.
+   * **Parcours** : s’il existe une ou plusieurs politiques d’approbation actives pour l’objet de Parcours dans un sandbox, tous les parcours affichent le bouton **[!UICONTROL Demander l’approbation]**.
+Si aucune stratégie d&#39;approbation ne s&#39;applique à l&#39;objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l&#39;approbation]**, le workflow d&#39;approbation automatique est déclenché.
 
 ## Envoyer une demande d&#39;approbation
 

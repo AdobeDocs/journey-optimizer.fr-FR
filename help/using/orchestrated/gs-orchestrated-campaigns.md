@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 963
-ht-degree: 94%
+source-wordcount: 910
+ht-degree: 91%
 
 ---
 
@@ -54,8 +54,8 @@ L’orchestration de campagne repose sur quatre piliers principaux :
 <tr style="border: 0;">
 <td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentation et envoi de plusieurs entités" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentation et envoi de plusieurs entités</b><br/>Poussez votre analyse au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues produit, des emplacements de magasin ou des données de service pour cibler avec précision.<br/><br/>
-Prise en charge de l’envoi à plusieurs niveaux, qui permet d’envoyer un message par profil et par entité secondaire associée. Ces entités secondaires peuvent inclure des adresses de contact, des réservations, des abonnements, des contrats ou d’autres données connnexes. Il devient alors possible d’envoyer les campagnes à toutes les adresses connues d’un profil ou pour chaque réservation associée à ce profil.</td></tr>
+<td><img alt="Segmentation et envoi de plusieurs entités" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentation et envoi d’entités multiples</b><br/>allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour cibler avec précision.<br/><br/>
+Prise en charge de l’envoi à plusieurs niveaux, où un message est envoyé par profil et par entité secondaire associée. Ces entités secondaires peuvent inclure des adresses de contact, des réservations, des abonnements, des contrats ou d’autres données liées. Cela permet, par exemple, d’envoyer les campagnes à toutes les adresses connues d’un profil ou pour chaque réservation associée à ce profil.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilité et précision avant l’envoi" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilité et précision avant l’envoi</b><br/>Obtenez un nombre exact de segmentations et une portée complète des campagnes avant leur lancement, afin de garantir la précision et la confiance.</td></tr>
 <tr style="border: 0;">

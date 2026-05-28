@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 98%
+source-wordcount: 151
+ht-degree: 67%
 
 ---
 
@@ -35,14 +35,14 @@ Une campagne orchestrée vous fournit des informations exploitables grâce à se
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Rapport dynamique" src="assets/last-24hours.png"></a></td>
       <td>
-        Utilisez le <b>rapport dynamique</b> pour mesurer et visualiser en temps réel l’impact et les performances de vos campagnes orchestrées dans un tableau de bord intégré. Les données sont disponibles dans le <b>rapport dynamique</b> dès que votre campagne orchestrée est exécutée dans le menu <b>Afficher le rapport des dernières 24 heures</b>. En savoir plus sur les rapports en temps réel dans <a href="../reports/live-report.md">cette section</a>.
+        Utilisez le <b>Rapport dynamique</b> pour mesurer et visualiser en temps réel l’impact et les performances de vos campagnes orchestrées dans un tableau de bord intégré. Les données sont disponibles dans le <b>Rapport dynamique</b> dès que votre campagne orchestrée est exécutée dans le menu <b>Afficher le rapport des dernières 24 heures</b>. En savoir plus sur les rapports dynamiques <a href="../reports/live-report.md">dans cette section</a>.
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Rapport complet" src="assets/all-time-report.png"></a></td>
       <td>
-        Le <b>rapport complet</b> est entièrement intégré aux fonctionnalités de Customer Journey Analytics, permettant ainsi de normaliser le reporting sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. Découvrez les rapports complets dans <a href="../reports/report-gs-cja.md">cette section</a>.
+        Le <b>rapport à tout moment</b> est entièrement intégré aux fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser les rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. En savoir plus sur les rapports à tout moment <a href="../reports/report-gs-cja.md">dans cette section</a>.
       </td>
     </tr>
   </tbody>

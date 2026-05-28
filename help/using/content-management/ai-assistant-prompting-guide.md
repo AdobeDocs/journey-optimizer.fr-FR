@@ -25,10 +25,10 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2352
-ht-degree: 82%
+source-wordcount: 2296
+ht-degree: 79%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 82%
 >title="Exemples de prompts"
 >abstract="Pour découvrir comment créer des prompts efficaces qui génèrent du contenu marketing de marque à conversion élevée, consultez la documentation Journey Optimizer."
 
-Ce guide vous permet de structurer vos requêtes, de communiquer l’intention avec clarté et de vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de votre campagne.
-Découvrez comment rédiger des prompts efficaces qui permettent à l’assistant IA de générer du contenu marketing de grande qualité, conforme à la marque et adapté à vos objectifs.
+Ce guide vous aide à structurer vos requêtes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de votre campagne.
+Découvrez comment écrire des invites efficaces qui permettent à l&#39;assistant AI de générer du contenu marketing sur la marque de haute qualité adapté à vos objectifs.
 
 ## Utiliser l’assistant d’invite {#prompt-assistant}
 
@@ -208,8 +208,8 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 ### Structurez votre objectif.
 
-Fournissez toujours le contexte et la proposition de valeur afin que l’IA puisse générer du contenu pertinent.
-Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **Action + Produit/Service + Valeur/Avantage + Urgence/Contexte**
+Toujours fournir le contexte et la proposition de valeur afin que l’IA puisse générer du contenu pertinent.
+Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **Action + Produit/Service + Valeur/Avantage + Urgence/Contexte**
 
 **Exemples de bons objectifs :**
 
@@ -321,7 +321,7 @@ Utilisez le tableau ci-dessous pour explorer chaque ton en détail, y compris le
 >Si vous avez déjà chargé une ressource de marque par l’intermédiaire du menu **Ressources de marque**, vous n’avez pas besoin de la référencer dans votre prompt. Le système utilise automatiquement tous les documents sélectionnés.
 
 Les ressources de marque fournissent des informations factuelles qui enrichissent votre contenu généré avec des détails précis et spécifiques.
-Lorsque vous chargez des documents généraux tels que des brochures de produit, ajoutez à votre prompt les parties sur lesquelles vous souhaitez mettre l’accent :
+Lorsque vous téléchargez des documents généraux tels que des brochures de produit, ajoutez à l&#39;invite les parties sur lesquelles vous souhaitez mettre l&#39;accent :
 
 * **Au lieu de** _« Utilise la brochure produit »,_ **écrivez** _« Concentre-toi sur les fonctionnalités de sécurité avancées et les certifications de conformité, en particulier la conformité à la norme SOC 2 et le chiffrement des données »_
 
