@@ -19,10 +19,10 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d4ea4f32486c74b97e4a8d6ddd29e98c75fba060
 workflow-type: tm+mt
-source-wordcount: 275
-ht-degree: 80%
+source-wordcount: 281
+ht-degree: 79%
 
 ---
 
@@ -62,6 +62,7 @@ La liste complète des mécanismes de sécurisation et limitations de [!DNL Jour
 | ------- | ------- |
 | Nombre de stratégies de sélection et d’éléments manuels par politique de décision | 10 |
 | Nombre maximal d’éléments de décision renvoyés par politique de décision | 30 |
+| Stratégies de décision max. par e-mail | 10 |
 
 ## Règles d’éligibilité {#eligibility-rules}
 

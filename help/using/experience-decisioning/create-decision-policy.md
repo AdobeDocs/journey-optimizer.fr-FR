@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d4ea4f32486c74b97e4a8d6ddd29e98c75fba060
 workflow-type: tm+mt
-source-wordcount: 2285
+source-wordcount: 2263
 ht-degree: 61%
 
 ---
@@ -90,6 +90,10 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 +++
 
 >[!TAB E-mail]
+
+>[!IMPORTANT]
+>
+>Un seul e-mail prend en charge un maximum de 10 politiques de décision.
 
 1. Activez/désactivez l’option **[!UICONTROL Activer la prise de décision]**.
 
@@ -292,7 +296,7 @@ La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionne
 
      Offre 1 À 10
 Offre 2 - 20
-Offre 3 - 30 de la stratégie 1, 45 de la stratégie 2. Le critère le plus élevé des deux sera pris en compte (45).
+Offre 3 - 30 de la stratégie 1, 45 de la stratégie 2. Le plus élevé des deux sera pris en compte, donc 45 est pris en compte.
 Offre 4 - 40
 Offre 5 - 50
 
