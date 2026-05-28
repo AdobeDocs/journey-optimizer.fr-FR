@@ -94,7 +94,7 @@ Définissez des configurations de canal e-mail pour la délivrabilité, la confo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Activer et configurer le désabonnement de la liste
 
@@ -114,7 +114,7 @@ Personnalisez les adresses e-mail d’expédition et de réponse, gérez les err
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Configurer le suivi des URL pour le canal e-mail
 

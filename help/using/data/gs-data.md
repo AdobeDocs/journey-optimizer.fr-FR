@@ -236,7 +236,7 @@ Ce flux illustre la manière dont les schémas, les jeux de données, les source
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 **Commencer avec les schémas**
 
@@ -266,7 +266,7 @@ Conseils détaillés sur la configuration de la source de données Adobe Experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 **Utiliser des données Adobe Experience Platform (recherche)**
 
@@ -286,7 +286,7 @@ Utilisez le service de requête pour analyser les jeux de données Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 **Commencer avec les profils**
 

@@ -73,7 +73,7 @@ Composez des messages mobiles personnalisés avec des SMS, améliorez les commun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
 
 Concevoir des messages in-app
 

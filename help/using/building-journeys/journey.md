@@ -47,7 +47,7 @@ ht-degree: 98%
 >id="ajo_journey_canvas"
 >title="Créer un parcours"
 >abstract="Grâce à une zone de travail par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact optimal."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Créer votre premier parcours"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Créer votre premier parcours"
 
 
 [!DNL Adobe Journey Optimizer] vous permet de créer des parcours clients personnalisés et à plusieurs étapes qui s’adaptent en temps réel au comportement et aux besoins de votre audience. Grâce à une zone de travail intuitive par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal.
@@ -118,7 +118,7 @@ Choisissez le mode d’entrée des clientes et clients : par le biais d’un é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 **Envoyer des messages**
 
@@ -148,7 +148,7 @@ Utilisez des données contextuelles issues d’événements, d’[!DNL Adobe Exp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 **Connecter des systèmes externes**
 
@@ -249,7 +249,7 @@ Découvrez des exemples pratiques qui montrent comment appliquer des concepts de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 **Bienvenue aux nouvelles personnes abonnées**
 
@@ -259,7 +259,7 @@ Lorsqu’un client ou une cliente s’abonne à votre service, déclenchez un pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
 
 **Optimisation de l’heure d’envoi**
 
@@ -269,7 +269,7 @@ Utilisez l’IA pour diffuser des e-mails lorsque chaque personne cliente est la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 **Accélérer les diffusions**
 
@@ -317,7 +317,7 @@ Explorez la bibliothèque complète des cas d’utilisation de parcours avec des
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 **Expressions avancées**
 
@@ -337,7 +337,7 @@ Gérez les audiences globales avec des ajustements de fuseau horaire automatique
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 **Mode test et test à blanc**
 
@@ -367,7 +367,7 @@ Utilisez des balises pour classer et filtrer les parcours afin d’améliorer la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 **Contrôle de débit**
 
