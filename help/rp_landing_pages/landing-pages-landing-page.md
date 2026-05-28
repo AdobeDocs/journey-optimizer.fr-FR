@@ -20,7 +20,7 @@ Les pages de destination d’Adobe Journey Optimizer vous permettent de créer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des pages de destination
 
@@ -30,7 +30,7 @@ Découvrez les principes de base des pages de destination, leurs fonctionnalité
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Créer et publier des pages de destination
 
@@ -40,7 +40,7 @@ Cette section contient des instructions détaillées pour créer, configurer, te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Gérer vos pages de destination
 
@@ -50,7 +50,7 @@ Accédez aux pages de destination, organisez-les et effectuez des actions telles
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Concevoir le contenu des pages de destination
 
@@ -60,7 +60,7 @@ Créez et personnalisez des pages de destination avec des modèles, des formulai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer et gérer des listes d’abonnements
 
@@ -70,7 +70,7 @@ Configurez des listes d’abonnements pour gérer les profils inscrits et ration
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Cas d’utilisation des pages de destination
 
