@@ -11,19 +11,12 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Wp9b8KmhVwqELaFaMEi-AUDIlDW0yBP6JWFEqrwifXQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2787
 ht-degree: 100%
@@ -96,7 +89,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -164,7 +157,7 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 >id="ajo_decisioning_capping"
 >title="Utilisation de la limitation"
 >abstract="Pour éviter de trop solliciter votre clientèle, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée. Vous pouvez créer jusqu’à 10 règles de limitation pour une offre donnée."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="La modification des dates peut avoir un impact sur la limitation."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="La modification des dates peut avoir un impact sur la limitation."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre.
 

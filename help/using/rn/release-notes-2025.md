@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: 9272
 ht-degree: 99%
 
 ---
@@ -79,7 +75,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
 <p>Cette fonctionnalité est actuellement en disponibilité limitée pour la clientèle située aux États-Unis et en Australie. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Pour plus d'informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 23 octobre 2025</p>
 </td>
 </tr>
@@ -533,7 +529,7 @@ You can now use AI models to optimize the best content in your email through the
 <td>
 <p>Utilisez le nouveau nœud Optimiser pour cibler des audiences spécifiques ou exécuter des tests A/B afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier.</p>
 <p>Cet outil vous permet de tester, varier et personnaliser les communications, le séquencement et les délais afin d’atteindre avec précision votre clientèle.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/optimize.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 4 septembre 2025</p>
@@ -552,7 +548,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode de délégation personnalisée. Elle vous permet de contrôler et de gérer totalement l’ensemble des aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/delegate-custom-subdomain.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 4 septembre 2025</p>
@@ -746,7 +742,7 @@ table>
 <li>Ajout d’une optimisation à toute action de canal intégrée</li>
 <li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-action.md">documentation détaillée</a>.</p>
 </td>
@@ -769,7 +765,7 @@ table>
 <li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
 <li>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Pour plus d’informations, consultez la <a href="../email/pdf-attachments.md">documentation détaillée</a>.</p>
 </td>
@@ -1029,7 +1025,7 @@ Pour plus d’informations, consultez la <a href="../experience-decisioning/crea
 <tbody>
 <tr>
 <td>
-<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices de parcours d’avoir confiance dans leur conception de parcours et leur ciblage d’audience avant de publier un parcours en ligne.</p>
+<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-dry-run.md">documentation détaillée</a>.</p>
@@ -1084,7 +1080,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Campagnes**
 
-   * **Plusieurs actions entrantes dans les campagnes** : pour simplifier l’orchestration de campagne, vous pouvez désormais définir plusieurs actions entrantes dans une seule campagne. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique.
+   * **Plusieurs actions entrantes dans les campagnes** - Pour simplifier votre orchestration des campagnes, vous pouvez désormais définir plusieurs actions entrantes dans une seule campagne. Cette fonctionnalité vous permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action contenant un contenu spécifique.
      [En savoir plus](../campaigns/campaign-action.md#multi-action)
 
    * **Réorganisation de l’inventaire des campagnes** : les campagnes planifiées et déclenchées par API sont désormais divisées en onglets distincts dans l’inventaire des campagnes pour une navigation et une gestion plus faciles.
@@ -1228,7 +1224,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices de parcours d’avoir confiance dans leur conception de parcours et leur ciblage d’audience avant de publier un parcours en ligne.</p>
+<p>Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni mettre à jour les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-dry-run.md">documentation détaillée</a>.</p>
@@ -1780,7 +1776,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Score d’alignement sur la marque (Beta)</strong><br/></th>
+<th><strong>Score d’alignement de la marque (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1958,7 +1954,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Les ressources Dynamic Media sont désormais directement disponibles et accessibles dans Journey Optimizer. Cette intégration vous permet d’effectuer les opérations suivantes :
+<p>Les ressources Dynamic Media sont désormais directement disponibles et accessibles dans Journey Optimizer. Cette intégration vous permet d’effectuer les opérations suivantes :
 <ul>
 <li>Gérer de manière centralisée des ressources avec mises à jour en temps réel</li>
 <li>Modifier instantanément les paramètres de vos ressources, tels que la largeur et la hauteur</li>
@@ -2003,7 +1999,7 @@ table>
 <td>
 <p>Auparavant disponible pour un ensemble d’organisations (LA), l’évaluation d’audience flexible est désormais disponible pour tous les utilisateurs et toutes les utilisatrices (GA). Cette fonctionnalité vous permet d’exécuter le traitement de la segmentation à la demande pour des audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans des parcours et des campagnes Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
-<p>Pour plus d'informations, consultez la <a href="../audience/creating-a-segment-definition.md#flexible">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../audience/creating-a-segment-definition.md#flexible">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>

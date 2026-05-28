@@ -6,15 +6,11 @@ description: Découvrez comment créer des règles pour vos campagnes orchestré
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1912
 ht-degree: 93%
@@ -227,7 +223,7 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
 * **Afficher les résultats** : affiche les données issues de votre requête.
 * **Affichage du code** : affiche une version basée sur le code de la requête en SQL.
 * **Calculer** : met à jour et affiche le nombre d’enregistrements ciblés par votre règle.
-* **Sélectionner ou enregistrer un filtre** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. Si le filtre comprend des paramètres, indiquez des valeurs avant de l’appliquer. Pour plus d’informations, voir [&#x200B; Utilisation de filtres prédéfinis](predefined-filters.md).
+* **Sélectionner ou enregistrer un filtre** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. Si le filtre comprend des paramètres, indiquez des valeurs avant de l’appliquer. Pour plus d’informations, voir [ Utilisation de filtres prédéfinis](predefined-filters.md).
 
 <br/>
 

@@ -11,17 +11,11 @@ level: Experienced
 exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Qz5Ig2jzSJyQGKLCaAHFVMIuPq4nhKCwRVrfE7DUQMM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 143
 ht-degree: 100%
@@ -46,7 +40,7 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
-**Format d’API**
+**Format d&#39;API**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}

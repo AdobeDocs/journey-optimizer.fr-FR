@@ -11,25 +11,16 @@ level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/UFE7I-hQM4jKPpclDl3avrcE-q-vwRq-c91WOLdPBgo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 71%
+source-wordcount: 179
+ht-degree: 87%
 
 ---
 
@@ -43,7 +34,7 @@ Chaque fois qu&#39;une offre est modifiée, le jeu de données généré automat
 
 ![](../assets/dataset-placements.png)
 
-Le lot le plus récent dans le jeu de données s’affiche à droite. La vue hiérarchique du schéma du jeu de données s&#39;affiche dans le volet de gauche.
+Le lot le plus récent dans le jeu de données s&#39;affiche à droite. La vue hiérarchique du schéma du jeu de données s&#39;affiche dans le volet de gauche.
 
 >[!NOTE]
 >
@@ -55,10 +46,10 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ Identifiant
 
-**Champ :** _id
-**Titre :** identifiant
+**Champ :** _id
+**Titre:** Identifiant
 **Description :** identifiant unique de l’enregistrement.
-**Type :** Chaîne
+**Type:** string
 
 +++
 
@@ -80,17 +71,17 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Field:** channelID
 **Titre : identifiant du canal de l&#39;emplacement**
-**Description :** canal dans lequel la proposition a été effectuée. La valeur est une URI de canal valide. Voir https://ns.adobe.com/xdm/channels/channel.
-**Type :** Chaîne
+**Description :** canal dans lequel la proposition a été effectuée. La valeur est un URI de canal valide. Voir https://ns.adobe.com/xdm/channels/channel.
+**Type:** string
 
 +++
 
 +++ _experience > decisioning > Content Component Type
 
 **Field:** componentType
-**Titre :** type du composant du contenu
-**Description** : ensemble énuméré d’URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
-**Type :** Chaîne
+**Title:** Type de composant de contenu
+**Description :** un ensemble énuméré d’URI où chaque valeur correspond à un type donné du composant de contenu. Certains consommateurs des représentations de contenu s’attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
+**Type:** string
 
 +++
 
@@ -104,26 +95,26 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 +++_experience > decisioning > contentTypes > MIME Media Type
 
 **Title :** type de média MIME
-**Description :** contrainte pour le type de média des composants attendue à cet emplacement. Un composant peut avoir plusieurs types de média, par exemple différents formats d&#39;image.
-**Type :** Chaîne
+**Description :** contrainte pour le type de média des composants attendue à cet emplacement. Un composant peut avoir plusieurs types de média, par exemple différents formats d’image.
+**Type:** string
 
 +++
 
 +++ _experience > decisioning > Placement Description
 
-**Champ :** description
+**Champ :** description
 **Titre :Description de l&#39;emplacement**
-**Description :** permet de véhiculer les intentions lisibles par l’homme sur la manière dont le contenu dynamique est utilisé dans la diffusion globale des messages. Le fait qu&#39;un certain espace est une \&quot;bannière\&quot; sur une page web est souvent communiqué par la description et non par une méthode formelle.
-**Type :** Chaîne
+**Description :** permet de véhiculer les intentions lisibles par l’homme sur la manière dont le contenu dynamique est utilisé dans la diffusion globale des messages. Le fait qu’un certain espace est une \« bannière\ » dans une page web est souvent communiqué par la description et non par une méthode formelle.
+**Type:** string
 
 +++
 
 +++ _experience > decisioning > Placement Name
 
-**Champ :** nom
+**Champ :** nom
 **Titre :** Nom De L’Emplacement
 **Description :** nom attribué à l&#39;emplacement pour s&#39;y référer dans les interactions humaines.
-**Type :** Chaîne
+**Type:** string
 
 +++
 
@@ -139,6 +130,6 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** etag
 **Title:** ETag d’emplacement
 **Description :** révision à laquelle l&#39;objet d&#39;option de décision se trouvait lors de la prise de l&#39;instantané.
-**Type :** chaîne
+**Type:** string
 
 +++

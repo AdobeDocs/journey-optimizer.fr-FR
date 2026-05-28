@@ -6,19 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 477
-ht-degree: 90%
+source-wordcount: 431
+ht-degree: 77%
 
 ---
 
@@ -34,11 +30,11 @@ L’accès au workflow d’approbation est déterminé par votre cas pratique sp
 
 * **Il existe des politiques d’approbation actives**
 
-   * **Campagnes** : s’il existe une ou plusieurs politiques d’approbation actives pour l’objet de campagne dans un sandbox, toutes les campagnes de ce sandbox afficheront le bouton **[!UICONTROL Demander l’approbation]**.
-Si aucune politique d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]**, le processus d’approbation automatique est déclenché.
+   * **Campagnes** : s’il existe une ou plusieurs politiques de validation actives pour l’objet Campaign dans un sandbox, toutes les campagnes de ce sandbox affichent le bouton **[!UICONTROL Demander la validation]**.
+Si aucune stratégie d&#39;approbation ne s&#39;applique à l&#39;objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l&#39;approbation]**, le workflow d&#39;approbation automatique est déclenché.
 
-   * **Parcours** : s’il existe une ou plusieurs politiques d’approbation actives pour l’objet de parcours dans un sandbox, tous les parcours afficheront le bouton **[!UICONTROL Demander l’approbation]**.
-Si aucune politique d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]**, le processus d’approbation automatique est déclenché.
+   * **Parcours** : s’il existe une ou plusieurs politiques d’approbation actives pour l’objet de Parcours dans un sandbox, tous les parcours affichent le bouton **[!UICONTROL Demander l’approbation]**.
+Si aucune stratégie d&#39;approbation ne s&#39;applique à l&#39;objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l&#39;approbation]**, le workflow d&#39;approbation automatique est déclenché.
 
 ## Envoyer une demande d&#39;approbation
 
@@ -50,7 +46,7 @@ Après avoir créé votre campagne ou votre parcours, cliquez sur le bouton **[!
 
 Le volet **[!UICONTROL Demander l’approbation]** s’ouvre. Si nécessaire, envoyez un message aux approbateurs et approbatrices, puis cliquez sur **[!UICONTROL Envoyer]** pour envoyer votre demande.
 
-![&#x200B; Boîte de dialogue Demande d’approbation &#x200B;](assets/approval-request.png)
+![ Boîte de dialogue Demande d’approbation ](assets/approval-request.png)
 
 Bien que l’état de la campagne ou du parcours soit **[!UICONTROL En révision]**, vous avez la possibilité d’annuler la demande d’approbation. En cliquant sur le bouton **[!UICONTROL Annuler la demande]**, la campagne ou le parcours revient à l’étape de brouillon et une notification est envoyée aux réviseurs et réviseuses les informant que la demande a été annulée. Vous pouvez ensuite apporter les modifications nécessaires et demander à nouveau une approbation pour la campagne ou le parcours.
 

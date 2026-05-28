@@ -8,27 +8,16 @@ role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
 TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2352
-ht-degree: 82%
+source-wordcount: 2296
+ht-degree: 79%
 
 ---
 
@@ -39,8 +28,8 @@ ht-degree: 82%
 >title="Exemples de prompts"
 >abstract="Pour découvrir comment créer des prompts efficaces qui génèrent du contenu marketing de marque à conversion élevée, consultez la documentation Journey Optimizer."
 
-Ce guide vous permet de structurer vos requêtes, de communiquer l’intention avec clarté et de vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de votre campagne.
-Découvrez comment rédiger des prompts efficaces qui permettent à l’assistant IA de générer du contenu marketing de grande qualité, conforme à la marque et adapté à vos objectifs.
+Ce guide vous aide à structurer vos requêtes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de votre campagne.
+Découvrez comment écrire des invites efficaces qui permettent à l&#39;assistant AI de générer du contenu marketing sur la marque de haute qualité adapté à vos objectifs.
 
 ## Utiliser l’assistant d’invite {#prompt-assistant}
 
@@ -170,19 +159,19 @@ Ces requêtes ne sont pas prises en charge et doivent être traitées par d’au
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&check; **Audience cible définie** : indique la population, le rôle ou le segment.
+&amp;check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&amp;check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&check; **Les sélections déroulantes configurées** : La tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
+&amp;check; **Les sélections déroulantes configurées** : La tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
 
-&check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
+&amp;check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
 
-&check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
+&amp;check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
 
-&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -192,11 +181,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
+&amp;check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
+&amp;check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
 
-&check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
+&amp;check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
 
 **Exemples à éviter :**
 
@@ -208,16 +197,16 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 ### Structurez votre objectif.
 
-Fournissez toujours le contexte et la proposition de valeur afin que l’IA puisse générer du contenu pertinent.
-Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **Action + Produit/Service + Valeur/Avantage + Urgence/Contexte**
+Toujours fournir le contexte et la proposition de valeur afin que l’IA puisse générer du contenu pertinent.
+Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **Action + Produit/Service + Valeur/Avantage + Urgence/Contexte**
 
 **Exemples de bons objectifs :**
 
-&check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
+&amp;check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
 
-&check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
+&amp;check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
 
-&check; « Attirez l’attention à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
+&amp;check; « Attirez l’attention à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
 
 **Exemples à éviter :**
 
@@ -321,7 +310,7 @@ Utilisez le tableau ci-dessous pour explorer chaque ton en détail, y compris le
 >Si vous avez déjà chargé une ressource de marque par l’intermédiaire du menu **Ressources de marque**, vous n’avez pas besoin de la référencer dans votre prompt. Le système utilise automatiquement tous les documents sélectionnés.
 
 Les ressources de marque fournissent des informations factuelles qui enrichissent votre contenu généré avec des détails précis et spécifiques.
-Lorsque vous chargez des documents généraux tels que des brochures de produit, ajoutez à votre prompt les parties sur lesquelles vous souhaitez mettre l’accent :
+Lorsque vous téléchargez des documents généraux tels que des brochures de produit, ajoutez à l&#39;invite les parties sur lesquelles vous souhaitez mettre l&#39;accent :
 
 * **Au lieu de** _« Utilise la brochure produit »,_ **écrivez** _« Concentre-toi sur les fonctionnalités de sécurité avancées et les certifications de conformité, en particulier la conformité à la norme SOC 2 et le chiffrement des données »_
 

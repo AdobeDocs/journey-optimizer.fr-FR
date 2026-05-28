@@ -9,23 +9,15 @@ level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ytq-DaCojPLwO0ReHyA6oYnAzepr02rthWrZwU-lehY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 965
-ht-degree: 98%
+source-wordcount: 893
+ht-degree: 96%
 
 ---
 
@@ -52,7 +44,7 @@ Jusqu’au premier entraînement d’un modèle d’optimisation personnalisé, 
 Afin de tirer pleinement parti de l’utilisation de l’optimisation personnalisée, il existe certaines hypothèses et limites clés à connaître.
 
 * **Les offres sont suffisamment différentes pour que les utilisateurs aient des préférences différentes parmi les offres prises en compte**. Si les offres sont trop similaires, le modèle obtenu a moins d’impact, car les réponses semblent aléatoires.
-Par exemple, si une banque propose deux offres de cartes de crédit dont la seule différence est la couleur, la carte conseillée n’a pas d’importance. Par contre, si chaque carte comporte des conditions différentes, cela explique pourquoi certains clients en choisissent une et fournit suffisamment de différence entre les offres pour créer un modèle plus performant.
+Par exemple, si une banque propose deux offres de cartes de crédit dont la seule différence est la couleur, la carte recommandée n’a pas d’importance. Cependant, si chaque carte comporte des conditions différentes, cela explique pourquoi certains clients en choisissent une et fournit suffisamment de différence entre les offres pour créer un modèle plus performant.
 * **La composition du trafic utilisateur est stable**. Si la composition du trafic utilisateur change considérablement au cours de l’entraînement et de la prédiction du modèle, les performances de ce dernier peuvent se dégrader. Supposons, par exemple, que, lors de la phase d’entraînement du modèle, seules les données pour les utilisateurs et utilisatrices de l’audience A soient disponibles, mais que le modèle entraîné soit utilisé pour générer des prédictions pour les utilisateurs et utilisatrices de l’audience B, les performances du modèle pourraient alors être affectées.
 * **Les performances des offres ne changent pas considérablement sur une courte période** lorsque ce modèle est mis à jour chaque semaine et que les modifications apportées aux performances sont répercutées lors des mises à jour du modèle. Par exemple, un produit était très populaire auparavant, mais un rapport public identifie le produit comme nocif pour notre santé, et ce produit devient impopulaire extrêmement rapidement. Dans ce scénario, le modèle peut continuer à prédire ce produit jusqu’à ce que le modèle se mette à jour avec les changements de comportement de l’utilisateur.
 

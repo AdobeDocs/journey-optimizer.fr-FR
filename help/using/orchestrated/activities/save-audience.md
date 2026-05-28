@@ -6,21 +6,14 @@ description: Découvrez comment utiliser l’activité Enregistrer l’audience 
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/YBp0ehescfw8tVa1pJD2YQuQqRXJ9iG8nDDq9FKzHPs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 87%
+source-wordcount: 548
+ht-degree: 81%
 
 ---
 
@@ -33,7 +26,7 @@ ht-degree: 87%
 
 L’activité **[!UICONTROL Enregistrer l’audience]** est une activité de **[!UICONTROL Ciblage]** utilisée pour créer une nouvelle audience ou mettre à jour une audience existante à partir de la population générée précédemment dans la campagne orchestrée. Une fois créées, ces audiences sont ajoutées à la liste des audiences de l’application. Vous pouvez y accéder à partir du menu **[!UICONTROL Audiences]**.
 
-Elle est généralement utilisée pour capturer des segments d’audience créés dans le même workflow de campagne, ce qui permet de les réutiliser dans de futures campagnes. En règle générale, elle est connectée à d’autres activités de ciblage, telles que **[!UICONTROL Créer une audience]** ou **[!UICONTROL Combiner]**, pour enregistrer la population ciblée finale.
+Elle est généralement utilisée pour capturer des segments d’audience créés dans le même workflow de campagne, ce qui les rend disponibles pour réutilisation dans de futures campagnes. En règle générale, il est connecté à d’autres activités de ciblage, telles que **[!UICONTROL Créer une audience]** ou **[!UICONTROL Combiner]**, pour enregistrer la population ciblée finale.
 Notez qu’avec l’activité **[!UICONTROL Enregistrer l’audience]** vous ne pouvez pas mettre à jour une audience existante. Vous pouvez uniquement créer une nouvelle audience ou remplacer une audience existante par une nouvelle définition.
 
 ## Configurer l’activité Enregistrer l’audience {#save-audience-configuration}

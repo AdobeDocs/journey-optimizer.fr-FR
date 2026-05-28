@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 6076
+source-wordcount: 6058
 ht-degree: 79%
 
 ---
@@ -83,7 +79,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <p>Vous pouvez ainsi mettre automatiquement en copie l’interlocuteur ou l’interlocutrice concerné sur chaque message, tel qu’un ou une responsable de relation ou un ou une propriétaire de compte, tout en vous assurant que le client ou la cliente sait à qui s’adresser pour le suivi.</p>
 <p>Le champ Cc prend en charge la personnalisation : une seule configuration peut acheminer dynamiquement les copies en fonction des données de profil, ce qui lui permet de s’adapter à plusieurs cas d’utilisation sans configuration supplémentaire.</p>
 <p><img src="../configuration/assets/email-config-cc.png"></p>
-<p>Pour plus d’informations, consultez la <a href="../configuration/cc-email-field.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../configuration/cc-email-field.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -100,7 +96,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <td>
 <p>L’outil Sandbox prend désormais en charge le groupement et la copie de campagnes orchestrées d’un sandbox à un autre. Vous n’avez ainsi plus besoin de recréer manuellement les campagnes dans chaque environnement. Lorsqu’une campagne est empaquetée, ses objets dépendants principaux, tels que les politiques de fusion et les messages, sont automatiquement inclus. La campagne importée est donc prête à être configurée et validée. Pour protéger les environnements de production, toutes les campagnes importées obtiennent le statut de brouillon dans le sandbox cible, ce qui permet aux équipes de réviser et d’approuver les campagnes avant qu’elles ne deviennent actives.</p>
 <p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../configuration/copy-objects-to-sandbox.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../configuration/copy-objects-to-sandbox.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -135,7 +131,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <p>Vous pouvez désormais utiliser des <strong>modèles d’IA</strong> dans vos formules de classement pour ajuster automatiquement les scores de priorité des parcours en fonction des attributs de profil client et des facteurs contextuels, afin que les clients et clientes entrent dans les parcours les plus pertinents.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../conflict-prioritization/journey-ai-models.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../conflict-prioritization/journey-ai-models.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -154,7 +150,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 </p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../integrations/express.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../integrations/express.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 23 avril 2026</p>
 </td>
 </tr>
@@ -208,12 +204,12 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <tbody>
 <tr>
 <td>
-<p>Utilisez le nouveau nœud <strong>Optimiser</strong> pour exécuter des tests A/B ou des expériences avec l’algorithme du bandit manchot afin de déterminer le meilleur moyen d’atteindre vos KPI métier. Cet outil vous permet de tester, de varier et de personnaliser les communications, le séquencement et le timing afin d’atteindre au mieux vos clients.
+<p>Utilisez le nouveau nœud <strong>Optimiser</strong> pour exécuter des tests A/B ou des expériences de bandit à plusieurs bras afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier. Cet outil vous permet de tester, de varier et de personnaliser les communications, le séquencement et le timing afin d’atteindre au mieux vos clients.
 </p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p>Dans le cadre de la disponibilité générale, cette version introduit la sélection du <strong>type d’expérience</strong> (A/B ou bandit manchot) et l’option <strong>Mettre à l’échelle le gagnant</strong> pour les parcours unitaires.</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/path-experimentation.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../building-journeys/path-experimentation.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 7 avril 2026</p>
 </td>
 </tr>
@@ -250,7 +246,7 @@ Cela permet de concentrer les campagnes récurrentes sur les nouvelles audiences
 <p>Vous pouvez désormais utiliser <strong>Prise de décision</strong> pour personnaliser et optimiser le contenu de vos e-mails. Tirez parti des scores de priorité, des formules et des modèles d’IA pour afficher les offres et contenus les plus adaptés à chaque destinataire.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale). Les pages miroir sont désormais prises en charge dans la version en disponibilité générale.</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision-policy.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../experience-decisioning/create-decision-policy.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 6 avril 2026</p>
 </td>
 </tr>
@@ -344,7 +340,7 @@ Les sections [Nouvelles fonctionnalités](#march-26-features) et [Améliorations
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Date de publication** : 24-25 mars 2026
@@ -367,7 +363,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </ul>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../personalization/url-parameter-encryption.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../personalization/url-parameter-encryption.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 31 mars 2026</p>
 </td>
 </tr>
@@ -386,7 +382,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Vous pouvez désormais convertir des images en modèles de contenu d’e-mail directement dans Journey Optimizer. Utilisez l’analyse optimisée par l’IA pour générer automatiquement des modèles HTML structurés à partir de références visuelles, ce qui accélère significativement la conception des e-mails.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../content-management/image-to-html.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../content-management/image-to-html.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 31 mars 2026</p>
 </td>
 </tr>
@@ -406,7 +402,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
 <p>Publiée précédemment en disponibilité limitée pour les clientes et clients des États-Unis et d’Australie, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Pour plus d’informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../landing-pages/lp-forms.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 26 mars 2026</p>
 </td>
 </tr>
@@ -424,7 +420,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Une nouvelle activité <strong>Test</strong> est désormais disponible dans les campagnes orchestrées. Cette activité répartit l’exécution du workflow dans différentes branches en fonction de conditions définies, ce qui vous permet de valider la logique de campagne et les configurations avant d’activer les diffusions.</p>
 <p><img src="../orchestrated/assets/test-1.png"></p>
-<p>Pour plus d’informations, consultez la <a href="../orchestrated/activities/test.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../orchestrated/activities/test.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -461,7 +457,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Vous devez désormais utiliser uniquement l’activité Action pour configurer toutes les actions de canal, au lieu de différents nœuds spécifiques au canal.</p>
 <p>Les parcours existants qui utilisent les activités de canal héritées continuent à fonctionner sans aucune modification ni migration requise.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-action.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../building-journeys/journey-action.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -588,7 +584,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Dans les campagnes orchestrées, vous pouvez désormais définir une activité de canal dans la catégorie <strong>Transactionnel</strong>. Cela applique des configurations de canal transactionnel à cette activité. Cette fonctionnalité est utile lorsque les règles métier ne doivent pas s’appliquer ou lorsque l’opt-in des clients et clientes n’est pas requis.</p>
 <p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>Pour plus d’informations, consultez la <a href="../orchestrated/activities/channels.md#add">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../orchestrated/activities/channels.md#add">documentation détaillée</a>.</p>
 <p>Cette fonctionnalité sera progressivement déployée dans toutes les régions au cours des prochains jours.</p>
 </td>
 </tr>
@@ -806,7 +802,7 @@ WAITING RELEASE DATE CONFIRMATION
 <p>Une nouvelle <strong>activité de décision de contenu</strong> est désormais disponible dans la zone de travail du parcours pour intégrer des offres personnalisées directement dans vos parcours clients. Cette activité vous permet de diffuser du contenu basé sur des décisions et de référencer ces offres dans l’ensemble de votre parcours, dans des conditions de création d’embranchements basés sur l’éligibilité, dans des actions personnalisées pour transmettre des données d’offre à des systèmes externes et dans d’autres activités pour créer des expériences client entièrement personnalisées.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/content-decision.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../building-journeys/content-decision.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 10 février 2026</p>
 </td>
 </tr>
@@ -877,7 +873,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 #### Configuration
 
-* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Utilisation des événements d’expérience dans les expressions de parcours** - À compter du 1er avril 2026, l’utilisation des attributs d’événement d’expérience dans les expressions de parcours ne sera plus prise en charge pour les organisations qui n’ont pas utilisé cette fonctionnalité au cours des 90 derniers jours. Cette fonctionnalité n’est déjà plus disponible pour les nouvelles organisations clientes depuis le 8 juillet 2025. Pour obtenir des alternatives, consultez [Recherche d’événement d’expérience dans les parcours ](../building-journeys/exp-event-lookup.md).
 
 #### Gestion de contenu
 
@@ -1014,7 +1010,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>Les enregistrements sont conservés dans le jeu de données d’export des messages AJO pendant 7 jours calendaires à compter de l’ingestion. Pendant cette période de conservation, vous pouvez les exporter vers votre propre espace de stockage via les destinations Experience Platform. La fonctionnalité est activée au niveau de la configuration des canaux, ce qui vous permet de <strong>contrôler de façon précise</strong> les messages exportés.</p>
 <p>Cette fonctionnalité n’est disponible que pour les canaux e-mail et SMS, pour les organisations qui ont acheté l’offre complémentaire d’export des messages. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
-<p>Pour plus d'informations, consultez la <a href="../configuration/message-export.md#message-export">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../configuration/message-export.md#message-export">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 28 janvier 2026</p>
 </td>
 </tr>
@@ -1098,7 +1094,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Contrôles de qualité du contenu de l’assistant IA** : en plus de l’alignement sur la marque, vous pouvez désormais évaluer la <strong>qualité du contenu</strong> globale pour identifier les problèmes potentiels de <strong>lisibilité</strong>, de cohésion et d’efficacité, indépendamment des directives de votre marque. Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content-management/brands-score.md#validate-quality).
 
-  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on).
+  [Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Parcours
 

@@ -9,16 +9,12 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 4441
-ht-degree: 99%
+source-wordcount: 4372
+ht-degree: 98%
 
 ---
 
@@ -61,7 +57,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui permet le partage d’images, de GIF ou de vidéos avec vos clientes et clients. Notez que cette fonctionnalité est actuellement disponible avec Sinch uniquement.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Pour plus d'informations, consultez la <a href="../mobile/create-mobile-message.md#mms-content">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../mobile/create-mobile-message.md#mms-content">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -125,8 +121,8 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Les attributs calculés permettent de résumer facilement les données d’événement dans les attributs de profil par le biais d’une interface utilisateur intuitive pour une segmentation, une personnalisation et une activation optimisées basées sur le comportement. Grâce à cette fonctionnalité, vous pouvez créer des attributs calculés en libre-service, les gérer et les utiliser dans la segmentation, les destinations de profil client en temps réel ou Journey Optimizer.<br/><br/>
-En outre, les attributs calculés simplifient la segmentation et les workflows de parcours pour vous aider à diffuser facilement des expériences pertinentes. Pour en savoir plus, consultez la <a href="../audience/computed-attributes.md">documentation détaillée</a>.</p>
+<p>Les attributs calculés permettent de résumer facilement les données d’événement en attributs de profil via une interface utilisateur intuitive pour une segmentation, une personnalisation et une activation améliorées basées sur le comportement. Grâce à cette fonctionnalité, vous pouvez créer des attributs calculés en libre-service, les gérer et les utiliser dans la segmentation, les destinations du profil client en temps réel ou Journey Optimizer.<br/><br/>
+En outre, les attributs calculés simplifient les workflows de segmentation et de parcours afin de vous aider à offrir des expériences pertinentes en toute transparence. En savoir plus dans la <a href="../audience/computed-attributes.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -278,7 +274,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d’adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l’exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que les formats d’affichage, les URL, les images et les liens sont corrects.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>Pour plus d'informations, consultez la <a href="../configuration/seed-lists.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../configuration/seed-lists.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -324,7 +320,7 @@ A new option is available in the email surface settings to include email address
 **Parcours**
 
 * Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est actuellement disponible en version Beta. [En savoir plus](../action/action-response.md).
-* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée. [En savoir plus](../reports/alerts.md).
+* Un nouveau type d’alerte système a été introduit. Vous pouvez désormais être averti en cas d’échec d’une action personnalisée. [En savoir plus](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -405,7 +401,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>Outre les campagnes et les parcours, vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform à vos pages de destination, modèles de contenu, fragments et listes d’abonnements. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../start/search-filter-categorize.md#tags">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../start/search-filter-categorize.md#tags">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -601,7 +597,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Les modèles de classement AI d’optimisation personnalisée sont désormais disponibles dans la gestion des décisions. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des audiences et des performances des offres.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Pour plus d'informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -720,7 +716,7 @@ Information below is subject to change without prior notice until the release av
 <li>Utilisez l’onglet <strong>Parcourir</strong> pour accéder à la liste de tous les parcours.</li></ul>
 <p>Cette fonctionnalité est accessible en version Beta publique dans tous les parcours.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>Pour plus d'informations, consultez la <a href="../building-journeys/journey-gs.md#journey-access">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-gs.md#journey-access">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -877,7 +873,7 @@ Information below is subject to change without prior notice until the release av
 <p>Vous pouvez maintenant établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. Les destinations disponibles sont les suivantes : espace de stockage Amazon S3, Blob Azure, Azure Data Lake Gen 2, zone d’atterrissage des données, Google Cloud Storage, SFTP.</p>
 <p><strong>Attention</strong> : cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer. Contactez votre représentant ou représentante Adobe pour obtenir l’accès aux destinations si vous n’y avez pas déjà accès.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>Pour plus d'informations, consultez la <a href="../data/export-datasets.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../data/export-datasets.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

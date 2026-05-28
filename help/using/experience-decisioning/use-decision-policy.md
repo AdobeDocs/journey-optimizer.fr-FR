@@ -9,21 +9,12 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
 source-wordcount: 1164
 ht-degree: 7%
@@ -56,7 +47,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!TAB E-mail]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -86,7 +77,7 @@ Vous pouvez également insérer le code de politique de décision lors de l’ut
 
 >[!TAB SMS]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -94,7 +85,7 @@ Vous pouvez également insérer le code de politique de décision lors de l’ut
 
 >[!TAB Notification push]
 
-1. Ouvrez l’éditeur **&#x200B;**&#x200B;puis accédez à **[!UICONTROL Politiques de décision]**.
+1. Ouvrez l’éditeur **** puis accédez à **[!UICONTROL Politiques de décision]**.
 
 2. Sélectionnez **[!UICONTROL Insérer une syntaxe]** pour ajouter le code de votre politique de décision.
 
@@ -116,7 +107,7 @@ Le code de la politique de décision est ajouté. Vous pouvez désormais utilise
 
 Une fois que vous avez ajouté le code d’une politique de décision dans votre contenu, tous les attributs des éléments de décision renvoyés peuvent être personnalisés. [Découvrez comment utiliser la personnalisation](../personalization/personalize.md).
 
-Les attributs sont stockés dans le schéma de catalogue [&#x200B; Offres &#x200B;](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
+Les attributs sont stockés dans le schéma de catalogue [ Offres ](catalogs.md). Elles s’affichent dans les dossiers suivants de l’éditeur de personnalisation :
 * **Attributs personnalisés** : dossier `_\<imsOrg\>`
 * **Attributs standard** : dossier `_experience`
 

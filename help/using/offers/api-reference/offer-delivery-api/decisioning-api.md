@@ -11,19 +11,12 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/jhf2EpgMU35YmRWeatijWUFz3KwwjFfKP8lHtX8eyEU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1153
 ht-degree: 100%
@@ -135,7 +128,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | Propriété | Description | Exemple |
 | -------- | ----------- | ------- |
 | `xdm:propositionRequests` | Cet objet contient les identifiants d&#39;emplacement et de décision. |  |
-| `xdm:propositionRequests.xdm:placementId` | Identifiant d’emplacement unique. | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
+| `xdm:propositionRequests.xdm:placementId` | Identifiant d&#39;emplacement unique. | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
 | `xdm:propositionRequests.xdm:activityId` | Identifiant de décision unique. | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Nombre d&#39;offres à renvoyer. Le nombre maximal est 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Cet objet contient des informations sur le profil pour lequel la décision est demandée. Pour une requête d&#39;API, il contient un profil. |  |
@@ -220,7 +213,7 @@ Une réponse réussie renvoie des informations sur votre proposition, y compris 
 | `xdm:propositions.xdm:content` | Format du contenu de la réponse. | Le contenu de la réponse peut être : `text`, `html block` ou `image link` |
 | `xdm:score` | Score d&#39;une option calculée à la suite d&#39;une fonction de classement associée à l&#39;option ou à la décision. Ce champ est renvoyé par l&#39;API si une fonction de classement est impliquée dans la détermination du score d&#39;une offre au cours du classement. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Cet objet contient une seule offre de secours, y compris son identifiant unique. | `"xdm:id": "dps:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | Manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé, par exemple, la liste des [types de médias Internet](https://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques. | `"dc:format": "image/png"` ou `"image/jpeg"`. |
+| `xdm:propositions.xdm:fallback.dc:format` | Manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé, par exemple, la liste des [types de médias Internet](https://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques. | `"dc:format": "image/png"` ou `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | URL facultative permettant de lire le fichier à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource à partir d&#39;un agent utilisateur. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | Heure à laquelle le message de réponse à la décision a été créé. Il s&#39;agit de l&#39;époque. | `"ode:createDate": 1566497582038` |
 
@@ -248,7 +241,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342829/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 -->
 
 ## Étapes suivantes {#next-steps}
