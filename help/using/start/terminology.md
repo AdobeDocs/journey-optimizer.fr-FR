@@ -8,26 +8,15 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 33%
 
 ---
@@ -40,7 +29,7 @@ Pour obtenir des paires de termes à consonance similaire qui sont souvent confu
 
 >[!NOTE]
 >
->Adobe Journey Optimizer est basé sur **Adobe Experience Platform**. De nombreux concepts fondamentaux que vous rencontrerez, tels que les profils clients en temps réel, les sandbox, les schémas et les jeux de données, sont des concepts Adobe Experience Platform et non spécifiques à Journey Optimizer. Pour connaître la définition de ces termes, consultez le glossaire [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=fr){target="_blank"}.
+>Adobe Journey Optimizer est basé sur **Adobe Experience Platform**. De nombreux concepts fondamentaux que vous rencontrerez, tels que les profils clients en temps réel, les sandbox, les schémas et les jeux de données, sont des concepts Adobe Experience Platform et non spécifiques à Journey Optimizer. Pour connaître la définition de ces termes, consultez le glossaire [](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=fr){target="_blank"}.
 
 ## Termes du parcours et de la campagne {#journey-campaign-terms}
 
@@ -75,7 +64,7 @@ Pour obtenir des paires de termes à consonance similaire qui sont souvent confu
 
 | Terme | Définition |
 |------|------------|
-| **Prise de décision** | Le cadre de décision de génération actuelle dans Journey Optimizer, recommandé pour les nouvelles mises en œuvre. Offre une gestion de catalogue d’éléments basée sur des schémas, des règles de collection flexibles, des composants de décision réutilisables et des fonctionnalités d’expérimentation. Disponible pour une expérience basée sur le code, les notifications push, les SMS et les e-mails (disponibilité limitée). [En savoir plus](../experience-decisioning/gs-experience-decisioning.md) |
+| **Prise de décision** | Le cadre de décision de génération actuelle dans Journey Optimizer, recommandé pour les nouvelles mises en œuvre. Offre une gestion de catalogue d’éléments basée sur des schémas, des règles de collection flexibles, des composants de décision réutilisables et des fonctionnalités d’expérimentation. Disponible pour les applications Code, Push, SMS et E-mail. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md) |
 | **Gestion des décisions** | L’ancienne fonctionnalité Offer Decisioning dans Journey Optimizer. Utilise une bibliothèque centrale d’offres marketing et un moteur de décision basé sur des règles qui applique des contraintes aux profils clients en temps réel. Toujours prise en charge pour les implémentations existantes, mais les nouvelles implémentations doivent utiliser Decisioning à la place. Prend en charge les e-mails, in-app, notifications push, SMS et publipostage direct. [En savoir plus](../offers/get-started/starting-offer-decisioning.md) |
 | **Offre** | Message marketing, remise ou promotion pouvant être présentés aux clientes et clients. Les offres incluent des règles d’éligibilité qui déterminent les clientes et clients qui peuvent les recevoir. [En savoir plus](../offers/offer-library/creating-personalized-offers.md) |
 | **Politique de décision** | Ensemble de règles et de stratégies qui déterminent l’offre à présenter à quelle personne et à quel moment, en fonction de contraintes telles que les règles d’éligibilité, de priorité et de limitation. [En savoir plus](../experience-decisioning/create-decision.md) |
@@ -106,7 +95,7 @@ Ces deux fonctionnalités sélectionnent et diffusent les offres, mais elles int
 |---|---|---|
 | **Statut** | Actuel : recommandé pour toutes les nouvelles mises en œuvre | **Hérité** — toujours pris en charge, mais plus recommandé pour les nouvelles implémentations |
 | **Catalogue d&#39;articles** | Métadonnées flexibles basées sur des schémas | Bibliothèque des offres centralisée |
-| **Canaux pris en charge** | Expérience basée sur le code, notifications push, SMS, e-mail (disponibilité limitée) | E-mail, In-App, Push, SMS, Courrier |
+| **Canaux pris en charge** | Expérience basée sur le code, notifications push, SMS, e-mail | E-mail, In-App, Push, SMS, Courrier |
 | **Différenciateur clé** | Composants de décision réutilisables, expérimentation, feuille de route des canaux élargie | Moteur de contraintes éprouvé ; migration vers Decisioning pour les nouveaux projets |
 | **Prise en main** | [Prise de décision](../experience-decisioning/gs-experience-decisioning.md) | [Gestion des décisions](../offers/get-started/starting-offer-decisioning.md) |
 
@@ -135,7 +124,7 @@ Tous deux sont des mécanismes d’ensemble de règles sous l’ensemble d’out
 | **Périmètre** | Par canal et type de communication (vente, promotion, etc.) | Inscription au parcours : nombre de parcours simultanés ou parcours gagnant |
 | **Mécanisme** | Limite le nombre de messages par période ; exclut automatiquement les profils sur-sollicités | Utilise les scores de priorité et les règles de limitation pour décider du parcours dans lequel un profil entre |
 | **Configuré en** | Jeux de règles → Capping de la fréquence | Jeux de règles → limitation et arbitrage du Parcours |
-| **En savoir plus** | [Définir le capping de la fréquence par canal](../conflict-prioritization/channel-capping.md) | [Gérer la limitation et l’arbitrage des parcours &#x200B;](../conflict-prioritization/journey-capping.md) |
+| **En savoir plus** | [Définir le capping de la fréquence par canal](../conflict-prioritization/channel-capping.md) | [Gérer la limitation et l’arbitrage des parcours ](../conflict-prioritization/journey-capping.md) |
 
 ### Cartes de contenu par rapport aux messages in-app {#content-cards-vs-in-app}
 
@@ -155,9 +144,9 @@ Les deux canaux diffusent les messages dans une application mobile ou web, mais 
 
 ## Rubriques connexes {#related-topics}
 
-* [Fonctionnement de Journey Optimizer &#x200B;](understanding-ajo.md) — Découvrez comment les parcours, les campagnes, les profils et les canaux s’intègrent dans l’architecture du produit.
+* [Fonctionnement de Journey Optimizer ](understanding-ajo.md) — Découvrez comment les parcours, les campagnes, les profils et les canaux s’intègrent dans l’architecture du produit.
 * [Prise en main des fonctionnalités de prise de décision](../experience-decisioning/gs-decision.md) — Comparez les outils de prise de décision et de gestion des décisions côte à côte et choisissez l’approche appropriée pour votre implémentation.
-* [Prise en main des parcours &#x200B;](../building-journeys/journey.md) — Découvrez comment créer étape par étape des expériences client séquentielles déclenchées par un événement.
+* [Prise en main des parcours ](../building-journeys/journey.md) — Découvrez comment créer étape par étape des expériences client séquentielles déclenchées par un événement.
 * [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md) — Découvrez les trois types de campagnes (Action, Déclenché par API, Orchestré) et quand les utiliser.
 * [Gestion des conflits et hiérarchisation](../conflict-prioritization/gs-conflict-prioritization.md) — Découvrez comment utiliser des ensembles de règles, le capping de la fréquence, les scores de priorité et les heures creuses pour éviter les messages excessifs.
 * [Prise en main des canaux de communication](../channels/gs-channels.md) — Parcourez tous les canaux disponibles, leurs conditions préalables et comment les configurer.
