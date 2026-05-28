@@ -5,10 +5,15 @@ title: Utiliser l'activité Chargement de fichier
 description: Découvrez comment utiliser l’activité Chargement de fichier pour cibler une audience de campagne orchestrée à partir d’un fichier CSV ou TXT sans ingérer le fichier dans Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1234
@@ -27,7 +32,7 @@ L’activité **[!UICONTROL Chargement de fichier]** est une activité **[!UICON
 
 >[!AVAILABILITY]
 >
->L’activité **Chargement de fichier** est disponible dans **Disponibilité limitée** pour un ensemble d’organisations. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe. Pour connaître les phases de disponibilité, consultez le cycle de publication de [](../../rn/releases.md).
+>L’activité **Chargement de fichier** est disponible dans **Disponibilité limitée** pour un ensemble d’organisations. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe. Pour connaître les phases de disponibilité, consultez le cycle de publication de [&#128279;](../../rn/releases.md).
 >
 >L’activité ne peut actuellement pas être utilisée avec **Healthcare Shield**.
 
