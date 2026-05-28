@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: c36f91b8e7afa80945f975828b7682a1a1cc296f
+source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
 workflow-type: tm+mt
 source-wordcount: 1164
 ht-degree: 7%
@@ -166,7 +166,7 @@ Lorsqu’une action ou une [campagne](../campaigns/get-started-with-campaigns.md
 
 Vous pouvez également accéder aux détails techniques de chaque politique de décision et les copier dans le presse-papiers, ce qui peut s’avérer utile pour résoudre les problèmes avec l’assistance Adobe ou votre équipe d’ingénieurs.
 
-Pour accéder aux détails de la politique de décision et aux informations techniques, procédez comme suit.
++++ Pour accéder aux détails de la politique de décision et aux informations techniques, procédez comme suit.
 
 1. Ouvrez le résumé de la campagne en cliquant sur **[!UICONTROL Examiner pour activer]** lors de la [configuration](../campaigns/review-activate-campaign.md#action-campaign-review) ou en ouvrant une campagne à partir de la liste **[!UICONTROL Campagnes]**.
 
@@ -200,6 +200,8 @@ Pour accéder aux détails de la politique de décision et aux informations tech
 1. Cliquez sur l’icône **Copier dans le presse-papiers** pour copier une représentation JSON de la politique de décision dans le presse-papiers.
 
    Le fichier JSON copié inclut le nom et l’identifiant de votre organisation, le nom du sandbox, l’identifiant de la politique de décision et la structure complète de la politique de décision. Vous pouvez partager ces informations avec l’assistance Adobe ou votre équipe d’ingénieurs pour résoudre plus rapidement les problèmes liés aux politiques de décision.
+
++++
 
 ## Utilisation des tableaux de bord de reporting
 
