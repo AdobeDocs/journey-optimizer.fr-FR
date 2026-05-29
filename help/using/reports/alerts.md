@@ -59,7 +59,7 @@ Les alertes système sont disponibles à partir du menu **[!UICONTROL Alertes]**
 
 Avant d’utiliser des alertes :
 
-* **Autorisations** : vous avez besoin d’autorisations spécifiques pour afficher et gérer les alertes. Voir [autorisations requises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
+* **Autorisations** : vous avez besoin d’autorisations spécifiques pour afficher et gérer les alertes. Voir [autorisations requises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr#permissions){target="_blank"}.
 
 * **Sensibilité aux sandbox** : les abonnements aux alertes sont spécifiques aux sandbox. Lorsque vous vous abonnez à des alertes, elles s’appliquent uniquement au sandbox actuel. Lorsqu’un sandbox est réinitialisé, tous les abonnements aux alertes sont également réinitialisés.
 
@@ -400,7 +400,7 @@ Si cette alerte est déclenchée, suivez les étapes ci-dessous pour examiner et
 
 >[!NOTE]
 >
->Pour les alertes provenant d’autres services Adobe Experience Platform (ingestion de données, résolution d’identité, segmentation, etc.), consultez la [documentation sur les règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
+>Pour les alertes provenant d’autres services Adobe Experience Platform (ingestion de données, résolution d’identité, segmentation, etc.), consultez la [documentation sur les règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=fr){target="_blank"}.
 
 ## S’abonner aux alertes {#subscribe-alerts}
 
@@ -519,7 +519,7 @@ Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
 You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
 
 ## Gérer les alertes {#manage-alerts}
 
@@ -583,4 +583,4 @@ Pour supprimer des personnes abonnées, supprimez leurs adresses e-mail de la li
 * [Présentation des alertes &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"} - Présentation du cadre des alertes
 * [Gérer les alertes dans l’interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr){target="_blank"} - Afficher, s’abonner et gérer les alertes
 * [Abonnement aux alertes par le biais d’événements I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"} - Options d’intégration avancées
-* [Règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Liste complète des alertes Platform disponibles
+* [Règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=fr){target="_blank"} - Liste complète des alertes Platform disponibles
