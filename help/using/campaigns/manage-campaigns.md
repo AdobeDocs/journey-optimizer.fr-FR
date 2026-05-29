@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 91%
@@ -115,6 +115,10 @@ Le bouton ![image montrant le bouton Plus d’actions](assets/do-not-localize/ru
 
 **Pour les campagnes d’action et déclenchées par API uniquement :**
 
+<!--
+Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
+* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
+-->
 * **[!UICONTROL Ajouter au package]** : ajoutez la campagne à un package pour l’exporter vers un autre sandbox. [En savoir plus sur l’export d’objets →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Ouvrir la version brouillon]** : si une nouvelle version de la campagne a été créée et n’a pas encore été activée, vous pouvez accéder à sa version brouillon à l’aide de cette action.
 
@@ -147,7 +151,7 @@ Chaque campagne passe par un cycle de vie reflété par son statut dans l’inte
 >
 >Pour les campagnes d’action ou déclenchées par API, l’icône « Ouvrir la version brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version a été créée et n’a pas encore été activée.
 
-### Indicateurs d’erreur
+### Indicateurs d’erreur {#error-indicators}
 
 Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche avec le statut de la campagne. Cliquez dessus pour afficher les informations relatives à l’alerte. Ces alertes peuvent se produire dans différentes situations, par exemple lorsque le message de la campagne n’a pas été publié ou si la configuration choisie est incorrecte.
 

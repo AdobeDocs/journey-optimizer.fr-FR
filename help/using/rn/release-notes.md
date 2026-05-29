@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
-source-wordcount: 3073
+source-wordcount: 3075
 ht-degree: 17%
 
 ---
@@ -244,15 +244,15 @@ La fonctionnalité de campagne orchestrée suivante est prévue dans les jours o
 
 ### Campagnes {#may-26-campaigns}
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
-
-* **Alertes client pour les événements de cycle de vie de campagne** - Les nouvelles alertes système vous informent désormais des événements de cycle de vie clés pour les campagnes déclenchées par action et par API. S’abonner au niveau du sandbox.
+* **Alertes client pour les événements de cycle de vie de campagne** - Les nouvelles alertes système vous informent désormais des événements de cycle de vie clés pour les campagnes déclenchées par action et par API. S’abonner au niveau du sandbox. [En savoir plus](../reports/alerts.md)
 
   Date de disponibilité : 1 juin 2026
+
++++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Remplacer le champ d’exécution par défaut dans les campagnes** - Auparavant disponible au niveau du parcours, vous pouvez désormais remplacer le champ d’exécution par défaut défini globalement pour vos diffusions e-mail, SMS et WhatsApp dans les paramètres de la campagne.
 
-  Date de disponibilité : 1 juin 2026
+  Date de disponibilité : 22 mai 2026
 
 +++
 
