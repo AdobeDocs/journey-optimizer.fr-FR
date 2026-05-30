@@ -246,7 +246,7 @@ Découvrez comment créer des schémas XDM dans Adobe Experience Platform, ch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
 
 **Utiliser les jeux de données**
 
@@ -256,7 +256,7 @@ Découvrez comment créer des jeux de données d’événement et activés pour 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 **Configuration des sources de données**
 
@@ -276,7 +276,7 @@ Découvrez comment enrichir les messages au moment de l’exécution avec des do
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 **Commencer avec les requêtes**
 
@@ -296,7 +296,7 @@ Découvrez le fonctionnement du profil client en temps réel dans Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 **Tutoriel : vue d’ensemble de la configuration des données**
 
@@ -306,7 +306,7 @@ Une vidéo destinée aux débutants et débutantes sur la configuration des donn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 **Tutorial sur la création de jeux de données et l’ingestion de données**
 
