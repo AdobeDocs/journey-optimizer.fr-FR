@@ -108,7 +108,7 @@ Le **[concepteur de parcours](using-the-journey-designer.md)** est votre zone de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 **Définir des points d’entrée**
 
@@ -128,7 +128,7 @@ Utilisez des actions de canal intégrées pour les e-mails, les notifications pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 **Ajouter une logique et des conditions**
 
@@ -138,7 +138,7 @@ Créez des branches pour votre parcours en fonction des attributs de profil, de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
 
 **Utiliser des données**
 
@@ -158,7 +158,7 @@ Créez des actions personnalisées pour intégrer des systèmes tiers afin d’e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 **Ajouter des activités d’orchestration**
 
@@ -279,7 +279,7 @@ Augmentez progressivement le volume des messages pour améliorer votre réputati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 **Ciblage par jour de la semaine**
 
@@ -289,7 +289,7 @@ Envoyez du contenu différent en fonction du jour de la semaine où les clientes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 **Campagnes multicanaux**
 
@@ -299,7 +299,7 @@ Orchestrez des expériences optimales sur les canaux e-mail, push, SMS et web da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 **Tous les cas d’utilisation**
 
@@ -327,7 +327,7 @@ Créez des conditions dynamiques et une personnalisation à l’aide de l’édi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
 
 **Gestion des fuseaux horaires**
 
@@ -347,7 +347,7 @@ Validez les parcours avec des profils de test avant la mise en ligne et prévisu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
 
 **Copier dans le sandbox**
 
@@ -357,7 +357,7 @@ Dupliquez des parcours dans les sandbox pour rationaliser les workflows de test 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 **Balises et organisation**
 

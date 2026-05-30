@@ -106,7 +106,7 @@ Découvrez comment intégrer et utiliser les messages WhatsApp via l’API Cloud
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=fr)
 
 Messages LINE
 

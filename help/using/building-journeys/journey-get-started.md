@@ -180,7 +180,7 @@ Envoyez un contenu différent en fonction du jour de la semaine où les personne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=fr)
 
 **FAQ sur les parcours**
 
@@ -198,7 +198,7 @@ Trouvez des réponses aux questions fréquentes sur la création de parcours, le
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 **Créer et gérer des parcours**
 
