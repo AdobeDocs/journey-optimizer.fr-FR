@@ -6,17 +6,13 @@ description: Découvrez comment créer et planifier une campagne orchestrée ave
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1227
-ht-degree: 85%
+ht-degree: 94%
 
 ---
 
@@ -63,7 +59,7 @@ Pour créer une campagne orchestrée, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Planificateur"
->abstract="En tant que responsable de campagne, vous pouvez planifier le lancement automatique des campagnes à des heures spécifiques ou leur définir sur **Déclenché par un signal** afin qu’elles démarrent lorsqu’elles sont appelées à partir de l’API REST ou de l’activité **Fin** d’une autre campagne orchestrée. [En savoir plus](trigger-orchestrated-campaign.md)"
+>abstract="En tant que responsable de campagne, vous pouvez planifier le lancement automatique des campagnes à des heures spécifiques ou les définir sur **Déclenché par un signal** afin qu’elles démarrent lorsqu’elles sont appelées à partir de l’API REST ou de l’activité **Fin** d’une autre campagne orchestrée. [En savoir plus](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -73,7 +69,7 @@ Pour créer une campagne orchestrée, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Options du planificateur"
->abstract="Choisissez le mode de démarrage de la campagne : ponctuel ou récurrent (une fois, tous les jours, toutes les semaines, tous les mois, etc.) ou **Déclenché par un signal** afin qu’il attende un appel API ou l’activité **Fin** d’une campagne en amont. Pour les campagnes déclenchées par un signal, vous pouvez définir des paramètres à transmettre à la payload. [En savoir plus](trigger-orchestrated-campaign.md)"
+>abstract="Choisissez le mode de démarrage de la campagne : ponctuel ou récurrent (une fois, tous les jours, toutes les semaines, tous les mois, etc.) ou **Déclenché par un signal** afin qu’elle attende un appel API ou l’activité **Fin** d’une campagne en amont. Pour les campagnes déclenchées par un signal, vous pouvez définir des paramètres à transmettre à la payload. [En savoir plus](trigger-orchestrated-campaign.md)"
 
 Par défaut, les campagnes orchestrées démarrent lorsqu’elles sont activées manuellement et se terminent lorsque leurs activités associées ont été exécutées. Si vous préférez retarder l’exécution ou lancer la campagne de manière récurrente, vous pouvez définir un planning.
 

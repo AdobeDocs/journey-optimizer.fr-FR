@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Générer des expressions à l’aide de l’assistant d’expression
+title: Générer des expressions à l’aide de l’assistant d’expressions
 description: Découvrez comment utiliser l’assistant Expression dans Adobe Journey Optimizer pour générer des expressions directement dans l’éditeur d’expression avancé du Parcours à l’aide d’invites en langage naturel.
 feature: Journeys
 topic: Content Management, Artificial Intelligence
@@ -15,17 +15,17 @@ subfeature_v2: []
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 660
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
 
-# Générer des expressions à l’aide de l’assistant d’expression {#expression-agent}
+# Générer des expressions à l’aide de l’assistant d’expressions {#expression-agent}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Générer des expressions à l’aide de l’assistant d’expression"
->abstract="L’assistant d’expression utilise l’IA générative pour vous aider à créer et à générer des expressions directement dans l’éditeur d’expression avancé du Parcours. Par exemple, dans les conditions, les activités **Optimiser** ou **Attendre** qui utilisent une date personnalisée. Décrivez vos besoins en langage clair et l’assistant génère l’expression correspondante pour vous."
+>title="Générer des expressions à l’aide de l’assistant d’expressions"
+>abstract="L’assistant d’expressions utilise l’IA générative pour vous aider à créer et à générer des expressions directement dans l’éditeur d’expression avancé des parcours. Par exemple, dans les conditions, les activités **Optimiser** ou **Attente** qui utilisent une date personnalisée. Décrivez vos besoins en termes simples et l’assistant génère l’expression correspondante."
 
 >[!AVAILABILITY]
 >
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 L’assistant d’expression est une fonctionnalité optimisée par l’IA intégrée à l’éditeur d’expression avancé du Parcours. Cela vous permet de générer des expressions valides à partir d’invites en langage clair.
 
-Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente &#x200B;]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
+Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente ]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
 
 ## Générer une expression {#generate}
 
