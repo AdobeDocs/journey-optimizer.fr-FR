@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 8040
-ht-degree: 89%
+source-wordcount: 8083
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Mai 2026 {#may-2026}
+
+* Deux nouvelles autorisations de haut niveau ont été ajoutées : **Gérer le registre des clés**, qui permet aux utilisateurs d’afficher, de créer, de faire pivoter et de révoquer des clés dans le registre des clés, et **Afficher le registre des clés**, qui permet aux utilisateurs d’afficher la liste du registre des clés et les détails des clés. [En savoir plus](../administration/high-low-permissions.md#administration-permissions)
 
 * La documentation **Utiliser des politiques de décision dans les messages** décrit désormais comment afficher la structure complète d’une politique de décision à partir du résumé de la campagne et copier un résumé technique JSON dans le presse-papiers à des fins de dépannage. [En savoir plus](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 

@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d8be8fcb4fb36c583a3d0b4d57f127686d682866
 workflow-type: tm+mt
-source-wordcount: 1457
-ht-degree: 100%
+source-wordcount: 1516
+ht-degree: 96%
 
 ---
 
@@ -194,7 +194,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
       * experiments.read
       * experiments.write
       * experiments.delete
--->
+     -->
 
 +++
 
@@ -207,10 +207,10 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
       * campaign-read
       * campaign-publish
      <!--
-      * experiments.activate
--->
+      * experiments.activate    
+      -->
 
-+++
+  +++
 
 * L’autorisation de haut niveau **[!DNL View campaigns report]** permet aux utilisateurs et utilisatrices de lire et de modifier des rapports de campagne.
 
@@ -222,9 +222,9 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
      <!--
       * experiments.read
       * experiments_report.read
--->
+      -->
 
-+++
+  +++
 
 ## Ressource de gestion des décisions {#decisions-permissions}
 
@@ -352,6 +352,16 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
   +++
 
+* **[!DNL Manage key registry]** autorisation de haut niveau permet aux utilisateurs d’afficher, de créer, de faire pivoter et de révoquer des clés dans le registre des clés.
+
+  +++ Elle comprend les autorisations de bas niveau suivantes :  
+
+   * Spécifiques à Journey Optimizer :
+      * key-registry.read
+      * key-registry.write
+
+  +++
+
 * Lʼautorisation de niveau supérieur **[!DNL Manage landing page settings]** permet aux utilisateurs et aux utilisatrices de lire, de créer et de modifier les sous-domaines et les préréglages des pages de destination.
 
   +++ Elle comprend les autorisations de bas niveau suivantes : 
@@ -408,7 +418,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
   +++
 
-* L&#39;autorisation de haut niveau **[!DNL Manage Seedlist]** permet de lire, créer, modifier et supprimer des listes de contrôle.
+* **[!DNL Manage seed lists]** autorisation de haut niveau permet aux utilisateurs et utilisatrices de lire, créer, modifier et supprimer des listes de contrôle.
 
   +++ Elle comprend les autorisations de bas niveau suivantes : 
 
@@ -459,6 +469,15 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
    * Spécifiques à Journey Optimizer :
 
       * file_routing.read
+
+  +++
+
+* **[!DNL View key registry]** autorisation de haut niveau permet aux utilisateurs d’afficher la liste du registre des clés et les détails des clés.
+
+  +++ Elle comprend les autorisations de bas niveau suivantes :  
+
+   * Spécifiques à Journey Optimizer :
+      * key-registry.read
 
   +++
 
