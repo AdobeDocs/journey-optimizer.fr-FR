@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 92%
+source-wordcount: 1082
+ht-degree: 90%
 
 ---
 
@@ -84,6 +84,7 @@ Lors du test à blanc, le parcours s’exécute en mode simulation, en appliquan
 * Les **sources de données**, y compris les sources de données externes, et les activités **Attente** sont désactivées par défaut pendant le test à blanc. Vous pouvez toutefois modifier ce comportement [lors de l’activation du mode Test à blanc](#journey-dry-run-start).
 
 * Les nœuds **Réaction** ne sont pas exécutés : tous les profils qui y accèdent les quittent. Toutefois, les règles de priorité suivantes s’appliquent :
+
    * Si un nœud **Réaction** est utilisé avec un ou plusieurs nœuds d’**événement unitaire** en parallèle, les profils passeront toujours par l’événement de réaction.
    * Si un nœud **Réaction** est utilisé avec un ou plusieurs nœuds d’**événement de réaction** en parallèle, les profils passeront toujours par le premier dans la zone de travail (celui en haut).
 
@@ -138,7 +139,7 @@ Les parcours de test à blanc peuvent également être arrêtés manuellement. P
 
 1. Ouvrez le parcours de test à blanc à arrêter.
 1. Sélectionnez le bouton **[!UICONTROL Fermer]** pour terminer le test.
-Les liens vers les rapports des 24 dernières heures ou de la durée entière sont disponibles dans l’écran de confirmation.
+Les liens vers les rapports des 24 dernières heures et à toute heure sont disponibles dans l’écran de confirmation.
 
    ![Arrêter l’exécution du test à blanc du parcours](assets/dry-run-stop.png){width="50%" align="left"}
 
@@ -151,8 +152,8 @@ Les liens vers les rapports des 24 dernières heures ou de la durée entière so
 * Les parcours en mode Test à blanc sont comptabilisés dans le quota des parcours actifs.
 * Les parcours en mode Test à blanc n’ont aucune incidence sur les règles métier.
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* Les actions **Saut** ne sont pas activées dans le test à blanc.
-Lorsqu’un parcours source déclenche un événement de **saut** vers un parcours de destination, cet événement de saut ne s’applique pas à une version de parcours de test à blanc. Par exemple, si la dernière version d’un parcours est en test à blanc et que la version précédente est **active**, l’événement de saut ignorerait la version en test à blanc et ne s’appliquerait qu’à la version **active**.
+* Les actions **Saut** ne sont pas activées dans l’exécution d’essai.
+Lorsqu’un parcours source déclenche un événement **Jump** vers un événement de destination, cet événement de saut ne s’applique pas à une version de parcours d’exécution d’essai. Par exemple, si la dernière version d’un parcours est en Exécution d’essai et que la version précédente est **En direct**, l’événement de saut ignorerait la version en Exécution d’essai et ne s’appliquerait qu’à la version **En direct**.
 
 ## Événements d’étape de parcours et essai {#journey-step-events}
 
