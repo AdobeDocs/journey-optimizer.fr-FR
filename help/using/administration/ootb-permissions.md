@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1210
 ht-degree: 25%
@@ -73,4 +73,3 @@ Les autorisations intégrées représentent les différentes autorisations pouva
 | Service de traduction | **[!DNL Manage translation in house]** : la lecture, la création, la modification et la suppression de la traduction en interne.</br>**[!DNL Manage translation projects]**: la lecture, la création, la modification et la suppression des projets de traduction.</br> **[!DNL Manage translation reviews]** : lire, créer, modifier et supprimer des révisions de traduction.</br>**[!DNL Manage translation settings]**: lire, créer, modifier et supprimer des paramètres de traduction.</br>**[!DNL Manage translation tasks]** : lire, créer, modifier et supprimer des tâches de traduction.</br>**[!DNL View translation in house]**: accès en lecture seule à la traduction en interne.</br>**[!DNL View translation projects]** : accès en lecture seule aux projets de traduction.</br>**[!DNL View translation reviews]**: accès en lecture seule aux révisions de traduction.</br>**[!DNL View translation tasks]** : accès en lecture seule aux tâches de traduction. |
 
 {style="table-layout:fixed"}
-
