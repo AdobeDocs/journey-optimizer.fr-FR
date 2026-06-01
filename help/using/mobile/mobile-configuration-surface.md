@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 522
-ht-degree: 44%
+ht-degree: 51%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Définir la catégorie de message"
->abstract="Sélectionnez le type de messages mobiles utilisant cette configuration : marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou transactionnel pour les messages non commerciaux, tels que la réinitialisation du mot de passe."
+>abstract="Sélectionnez le type de messages mobiles utilisant cette configuration : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou Transactionnel pour les messages non commerciaux, tels que les réinitialisations de mot de passe."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#sms-opt-out-management" text="Se désinscrire dans les messages mobiles marketing"
 
 Une fois votre canal Message mobile configuré, vous devez créer une configuration de canal afin de pouvoir envoyer des SMS, des SMS, des SMS et des MMS depuis **[!DNL Journey Optimizer]**.

@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1036
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="Déléguer un sous-domaine de message mobile"
->abstract="Vous devez configurer un sous-domaine à utiliser pour vos messages mobiles, car vous avez besoin de ce sous-domaine pour créer une configuration SMS. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un nouveau."
+>abstract="Vous devez configurer un sous-domaine dédié aux messages mobiles, car vous en aurez besoin pour créer une configuration des SMS. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un nouveau."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Créer une configuration des SMS"
 
 >[!CONTEXTUALHELP]

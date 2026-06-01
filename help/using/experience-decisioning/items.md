@@ -15,7 +15,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2347
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -41,13 +41,13 @@ Pour créer un élément de décision, accédez à **[!UICONTROL Prise de décis
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_ajo_fragment"
->title="Mappez un fragment de contenu Journey Optimizer à cet élément de décision."
->abstract="Joignez un fragment de contenu à partir de votre bibliothèque de fragments Journey Optimizer."
+>title="Mappez un fragment de contenu Journey Optimizer à cet élément de décision."
+>abstract="Joignez un fragment de contenu à partir de votre bibliothèque de fragments Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
->title="Mappez un fragment de contenu AEM à cet élément de décision."
->abstract="En joignant un fragment de contenu à cet élément de décision, vous pouvez exploiter votre contenu directement depuis Adobe Experience Manager."
+>title="Mappez un fragment de contenu AEM à cet élément de décision."
+>abstract="En joignant un fragment de contenu à cet élément de décision, vous pouvez utiliser votre contenu directement depuis Adobe Experience Manager."
 
 Commencez par définir les attributs standard et personnalisés de l’élément de décision :
 

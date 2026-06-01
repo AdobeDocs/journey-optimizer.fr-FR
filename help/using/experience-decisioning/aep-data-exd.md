@@ -28,7 +28,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="Ajouter un jeu de données"
->abstract="Utilisez des attributs de jeux de données [!DNL Adobe Experience Platform] pour définir des critères de limitation en fonction d’attributs dynamiques externes. Cliquez sur **[!UICONTROL Ajouter un jeu de données]** pour sélectionner le jeu de données avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données."
+>abstract="Utilisez des attributs de jeux de données [!DNL Adobe Experience Platform] pour définir des critères de limitation en fonction d’attributs dynamiques externes. Cliquez sur **[!UICONTROL Ajouter un jeu de données]**, puis sélectionnez le jeu de données avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données."
 
 [!DNL Journey Optimizer] vous permet d’exploiter les données d’[!DNL Adobe Experience Platform] pour la prise de décision. Vous pouvez ainsi étendre la définition des attributs de décision aux données supplémentaires des jeux de données pour les mises à jour en masse qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un. Par exemple, la disponibilité, les temps d’attente, etc.
 

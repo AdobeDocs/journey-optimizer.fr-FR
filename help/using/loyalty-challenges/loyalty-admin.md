@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -94,22 +94,22 @@ Ouvrez l’onglet **[!UICONTROL Paramètres globaux]** et sélectionnez le menu 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers"
 >title="Fournisseurs de récompenses"
->abstract="Un fournisseur de récompense définit le système externe que [!DNL Journey Optimizer] appelle pour offrir des récompenses lorsque les clients relèvent des défis. Configurez le point d’entrée du fournisseur, les définitions de récompense, les paramètres de proxy et l’authentification pour chaque intégration."
+>abstract="Un fournisseur de récompenses définit le système externe que [!DNL Journey Optimizer] appelle pour offrir des récompenses lorsque les clientes et clients relèvent des défis. Configurez le point d’entrée du fournisseur, les définitions de récompense, les paramètres de proxy et l’authentification pour chaque intégration."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_connection"
->title="Connexion du fournisseur de récompense"
->abstract="Configurez comment [!DNL Journey Optimizer] se connecte à votre API de récompense : nom du fournisseur, description, URL du point d’entrée et en-têtes HTTP requis pour les appels d’exécution."
+>title="Connexion du fournisseur de récompenses"
+>abstract="Configurez comment [!DNL Journey Optimizer] se connecte à votre API de récompense : nom du fournisseur, description, URL du point d’entrée et en-têtes HTTP requis pour les appels de traitement."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_details"
 >title="Définitions de récompense"
->abstract="Les définitions de récompense spécifient chaque type de récompense que ce fournisseur peut émettre (par exemple, des points ou des étoiles) et la payload [!DNL Journey Optimizer] envoie lorsque les récompenses sont remplies."
+>abstract="Les définitions de récompense spécifient chaque type de récompense que ce fournisseur peut émettre (par exemple, des points ou des étoiles) et la payload que [!DNL Journey Optimizer] envoie lorsque les récompenses sont traitées."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_proxy"
 >title="Proxy de récompense"
->abstract="Vous pouvez éventuellement acheminer les appels d’exécution via un serveur proxy au lieu de les envoyer directement à votre point d’entrée de l’API de récompense. Configurez l’hôte, le port, les informations d’identification et indiquez si le proxy est activé. La valeur des informations d’identification ressemble généralement à : `{ "userName": "test", "password": "xxxx" }`"
+>abstract="Vous pouvez éventuellement acheminer les appels de traitement via un serveur proxy au lieu de les envoyer directement au point d’entrée de votre API de récompense. Configurez l’hôte, le port, les informations d’identification et indiquez si le proxy est activé. La valeur des informations d’identification ressemble généralement à ceci : `{ "userName": "test", "password": "xxxx" }`"
 
 Un **fournisseur de récompense** [!DNL Journey Optimizer] indique où envoyer des appels d’exécution lorsqu’une progression du défi est enregistrée ou qu’un défi est terminé. Par exemple, une API qui attribue des points de fidélité ou des étoiles à un compte de membre.
 
@@ -184,22 +184,22 @@ Pour modifier un fournisseur de récompense, ouvrez l’onglet **[!UICONTROL Fou
 >
 >**[!UICONTROL Apportez vos propres données]** les défis génèrent des récompenses grâce à votre propre intégration de données. Les fournisseurs de récompenses configurés ici ne s’appliquent pas à ces défis. [Découvrez comment créer vos propres défis de données](create-challenges.md#create-the-challenge)
 
-## Définitions des événements {#event-definitions}
+## Définitions d’événement {#event-definitions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_definitions"
->title="Définitions des événements"
->abstract="Les définitions d’événement [!DNL Journey Optimizer] indiquent comment identifier et interpréter les données d’événement entrantes provenant de vos sources externes. Chaque définition mappe un type d’événement spécifique, tel qu’un achat ou un enregistrement, afin que le système puisse suivre la progression du client vers les tâches de défi."
+>title="Définitions d’événement"
+>abstract="Les définitions d’événement indiquent à [!DNL Journey Optimizer] comment identifier et interpréter les données d’événement entrantes provenant de vos sources externes. Chaque définition mappe un type d’événement spécifique, tel qu’un achat ou un enregistrement, afin que le système puisse suivre la progression du client ou de la cliente vers les tâches de défi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
->title="Schéma d’événement et transformateur"
->abstract="Lorsque votre entreprise envoie des événements au format JSON personnalisé, utilisez **[!UICONTROL Schéma]** pour valider la payload et **[!UICONTROL Transformateur]** (par exemple, une expression JSONata) pour mapper les champs au format attendu par les défis de fidélité."
+>title="Schéma et transformateur d’événement"
+>abstract="Lorsque votre entreprise envoie des événements au format JSON personnalisé, utilisez **[!UICONTROL Schéma]** pour valider la payload et **[!UICONTROL Transformateur]** (par exemple, une expression JSONata) pour mapper les champs au format attendu par les défis de fidélité."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
->title="Identification des événements"
->abstract="Indiquez comment [!DNL Journey Optimizer] reconnaît l’événement dans les payloads entrants à l’aide d’un chemin d’accès d’identifiant, de valeurs d’identifiant, d’un identifiant de schéma XDM ou d’une combinaison de ces champs."
+>title="Identification d’événement"
+>abstract="Indiquez comment [!DNL Journey Optimizer] reconnaît l’événement dans les payloads entrantes à l’aide d’un chemin d’accès d’identifiant, de valeurs d’identifiant, d’un identifiant de schéma XDM ou d’une combinaison de ces champs."
 
 **[!UICONTROL Définitions d’événement]** [!DNL Journey Optimizer] les événements d’expérience Adobe Experience Platform entrants à traiter. Par exemple, un achat ou un enregistrement à l’hôtel. Les marketeurs font référence à ces définitions lorsqu’ils créent des tâches **[!UICONTROL Événement personnalisé]** dans le créateur de tâches. Les événements qui ne correspondent à aucune définition sont ignorés.
 
@@ -226,12 +226,12 @@ Pour créer une définition d’événement, procédez comme suit :
 
 1. Enregistrez la définition de l’événement. Elle apparaît dans la liste **[!UICONTROL Définitions d’événement]** et est disponible lorsque les spécialistes marketing créent des tâches **[!UICONTROL Événement personnalisé]**. [Découvrez comment créer des tâches](create-tasks.md#choose-activity)
 
-## Inventaire des produits {#product-inventory}
+## Inventaire de produits {#product-inventory}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_product_inventory"
->title="Inventaire des produits"
->abstract="Chargez un fichier CSV qui mappe les identifiants d’élément aux groupes de produits. Les marketeurs peuvent référencer ces groupes lors de la configuration des articles éligibles pour les tâches d&#39;achat et de dépenses sans saisir chaque ID d&#39;article."
+>title="Inventaire de produits"
+>abstract="Chargez un fichier CSV qui mappe les identifiants d’élément aux groupes de produits. Les responsables marketing peuvent référencer ces groupes lors de la configuration des éléments éligibles pour les tâches d’achat et de dépenses sans saisir l’identifiant de chaque élément."
 
 L’onglet **[!UICONTROL Inventaire de produits]** regroupe les articles du catalogue afin que les marketeurs puissent les cibler dans les tâches sans saisir chaque ID d’article. Chargez un **fichier CSV** qui mappe chaque identifiant d’élément à un ou plusieurs **groupes de produits** (un même élément peut appartenir à plusieurs groupes). Les groupes importés sont disponibles lors de la configuration de l&#39;éligibilité des tâches. [Découvrez comment créer des tâches](create-tasks.md)
 
@@ -266,7 +266,7 @@ Pour charger un fichier d’inventaire de produit, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_exclusions"
 >title="Exclusions"
->abstract="Chargez un fichier CSV qui définit les éléments de catalogue et les groupes exclus à l’échelle du programme. Les groupes d’exclusions importés s’affichent lorsque les marketeurs configurent des éléments éligibles et des exclusions sur des tâches."
+>abstract="Chargez un fichier CSV qui définit les éléments de catalogue et les groupes exclus à l’échelle du programme. Les groupes d’exclusions importés s’affichent lorsque les responsables marketing configurent des éléments éligibles et des exclusions sur des tâches."
 
 L’onglet **[!UICONTROL Exclusions]** définit les éléments de catalogue et les groupes qui sont exclus à l’échelle du programme, de sorte que les marketeurs n’ont pas à répertorier les mêmes exclusions sur chaque tâche. Chargez un **fichier CSV** qui mappe chaque identifiant d’élément à un ou plusieurs **groupes d’exclusion** (un même élément peut appartenir à plusieurs groupes).
 

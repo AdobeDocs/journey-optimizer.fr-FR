@@ -24,17 +24,17 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 60%
+source-wordcount: 418
+ht-degree: 69%
 
 ---
 
-# Prise en main de la configuration mobile {#sms-configuration}
+# Commencer avec la configuration mobile {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Configurer votre fournisseur de SMS avec Journey Optimizer"
->abstract="Adobe Journey Optimizer envoie des messages mobiles par le biais de fournisseurs de services SMS. Sélectionnez votre fournisseur et renseignez vos informations d’identification d’API."
+>abstract="Adobe Journey Optimizer envoie des message mobiles par le biais des fournisseurs de SMS. Sélectionnez votre fournisseur et renseignez vos informations d’identification d’API."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +43,8 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Configuration de votre fournisseur SMS/RCS/MMS avec Journey Optimizer"
->abstract="Avant d’envoyer des messages mobiles (SMS/RCS/MMS), vous devez intégrer les paramètres du fournisseur à Journey Optimizer. Une fois cette opération terminée, vous devez créer une configuration SMS/RCS/MMS. Ces étapes doivent être exécutées par un administrateur ou une administratrice système Adobe Journey Optimizer."
+>title="Configurer votre fournisseur SMS/RCS/MMS avec Journey Optimizer"
+>abstract="Avant d’envoyer des messages mobiles (SMS/RCS/MMS), vous devez intégrer les paramètres du fournisseur à Journey Optimizer. Une fois cette opération terminée, vous devrez créer une configuration SMS/RCS/MMS. Ces étapes doivent être exécutées par un administrateur ou une administratrice système Adobe Journey Optimizer."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Créer une configuration des canaux SMS"
 
 >[!CONTEXTUALHELP]
@@ -59,8 +59,8 @@ ht-degree: 60%
 
 Avant d’envoyer des SMS, des MMS ou des RCS, vous devez configurer votre environnement Adobe Journey Optimizer. Pour ce faire, procédez comme suit :
 
-1. Intégrez les paramètres du fournisseur à Journey Optimizer.
-Les étapes dépendent de votre fournisseur SMS. Consultez les liens ci-dessous pour accéder à la documentation détaillée :
+1. Intégrez les paramètres du fournisseur à Journey Optimizer.
+Les étapes dépendent de votre fournisseur SMS. Consultez les liens ci-dessous pour accéder à la documentation détaillée :
    * [Infobip](mobile-configuration-infobip.md)
    * [Sinch](mobile-configuration-sinch.md)
    * [Twilio](mobile-configuration-twilio.md)
