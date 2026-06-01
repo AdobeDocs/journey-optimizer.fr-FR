@@ -10,27 +10,12 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 88%
@@ -126,7 +111,7 @@ Dans Journey Optimizer, vous pouvez appliquer des politiques de gouvernance des
 
 Lors de la configuration d’une action personnalisée, vous devez définir les paramètres de **[!UICONTROL configuration de point d’entrée]** suivants :
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. Dans le champ **[!UICONTROL URL]**, spécifiez l&#39;URL du service externe :
 
@@ -190,7 +175,7 @@ L’authentification TLS mutuelle (mTLS) est prise en charge dans les actions pe
 >
 >Adobe fait régulièrement pivoter le certificat client mTLS utilisé pour les connexions d’action personnalisée. Lorsqu’un nouveau certificat est émis, le Trust Store de votre point d’entrée doit être mis à jour pour l’accepter. Dans le cas contraire, les connexions sortantes de Journey Optimizer vers votre service échoueront avec une erreur de correspondance de certificat. Pour éviter toute perturbation :
 >
->* Vérifiez régulièrement l’[API de certificat public &#x200B;](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) pour connaître les certificats mis à jour associés à vos services.
+>* Vérifiez régulièrement l’[API de certificat public ](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) pour connaître les certificats mis à jour associés à vos services.
 >* Configurez votre point d’entrée pour accepter les **certificats qui se chevauchent** (l’ancien et le nouveau certificat simultanément), de sorte qu’il n’y ait aucun écart de connectivité pendant la rotation.
 >* Actuellement, Adobe n’envoie pas de notifications proactives lorsqu’un certificat fait l’objet d’une rotation. Il est de votre responsabilité de surveiller les mises à jour des certificats et de tenir votre Trust Store à jour.
 >* La validation de l’approbation doit être basée sur la chaîne de certificats jusqu’à l’autorité de certification racine (DigiCert) plutôt que sur une empreinte numérique de certificat feuille spécifique.
@@ -203,15 +188,15 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
    Activez l’option **[!UICONTROL Autoriser les valeurs nulles]** pour conserver les valeurs nulles dans l’appel externe. Notez que l’envoi de tableaux d’entier (int), de chaîne, etc., avec des valeurs nulles dans n’est pas entièrement pris en charge. Par exemple, le tableau suivant d’entiers `[1, null, 2, 3]` est envoyé en tant que `[1, 2, 3]` même si cette option est cochée. En outre, si ce tableau est nul, il est envoyé en tant que tableau vide.
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. Dans la section **[!UICONTROL Réponse]**, collez un exemple de payload renvoyé lorsque l’appel réussit. Ce champ est facultatif et disponible pour toutes les méthodes d’appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à [cette page](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. (Facultatif) Sélectionnez **[!UICONTROL Définir un payload de réponse d’erreur]** pour activer le champ Payload de réponse d’erreur. Lorsque cette option est activée, utilisez la section **[!UICONTROL Réponse d’erreur]** pour coller un exemple de la payload renvoyée en cas d’échec de l’appel. Les mêmes exigences s’appliquent que pour le payload de réponse (types et format de champ). Découvrez comment exploiter la payload de réponse d&#39;échec dans les parcours [ici](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

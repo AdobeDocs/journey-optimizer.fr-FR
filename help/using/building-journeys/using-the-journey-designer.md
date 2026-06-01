@@ -11,31 +11,16 @@ keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 1770
-ht-degree: 93%
+source-wordcount: 1675
+ht-degree: 90%
 
 ---
 
@@ -70,7 +55,7 @@ La **barre d’outils**, située dans le coin supérieur droit de la zone de tra
 
 <!--and show/hide timeout and error paths-->
 
-![Barre d’outils des parcours avec les commandes de zoom, grille et copie d’écran](assets/toolbar.png){width="70%" align="left"}
+![Barre d’outils des parcours avec les commandes de zoom, grille et copie d’écran](assets/toolbar.png){width="70%"}
 
 Le **volet de configuration des activités** s&#39;affiche lorsque vous cliquez sur une activité dans la palette. Renseignez les champs obligatoires. Cliquez sur l&#39;icône **[!UICONTROL Supprimer]** pour supprimer l&#39;activité. Cliquez sur **[!UICONTROL Annuler]** pour annuler les modifications ou sur **[!UICONTROL OK]** pour les confirmer. Vous pouvez également supprimer des activités en les sélectionnant, puis en appuyant sur la touche Retour arrière. Appuyez sur la touche d&#39;échappement pour fermer le volet de configuration des activités.
 
@@ -114,7 +99,7 @@ Les activités d’orchestration sont des conditions différentes qui permettent
 
 Dans les activités d’orchestration, utilisez l’activité **Lecture d’audience** pour définir votre parcours d’écoute d’une audience [!DNL Adobe Experience Platform]. [En savoir plus sur l’activité Lecture d’audience](read-audience.md).
 
-Utilisez **Fragments de Parcours** pour insérer des jeux réutilisables de nœuds de parcours préconfigurés directement dans la zone de travail. Les fragments aident les équipes à rester cohérentes et à se déplacer plus rapidement en évitant de reconstruire la même logique (telle que les contrôles d’éligibilité, le routage de canal ou les séquences de bienvenue) à partir de zéro. [En savoir plus sur les fragments de Parcours &#x200B;](journey-fragments.md).
+Utilisez **Fragments de Parcours** pour insérer des jeux réutilisables de nœuds de parcours préconfigurés directement dans la zone de travail. Les fragments aident les équipes à rester cohérentes et à se déplacer plus rapidement en évitant de reconstruire la même logique (telle que les contrôles d’éligibilité, le routage de canal ou les séquences de bienvenue) à partir de zéro. [En savoir plus sur les fragments de Parcours ](journey-fragments.md).
 
 Les autres activités vous permettent d’ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d’attente avant l’exécution de l’activité suivante, ou de terminer votre parcours. [En savoir plus sur les activités d’orchestration](about-journey-activities.md#orchestration-activities).
 
@@ -162,10 +147,10 @@ Vous pouvez copier une ou plusieurs activités d&#39;un parcours et les coller s
 Pour copier/coller des activités, procédez comme suit :
 
 1. Ouvrez un parcours.
-1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
+1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
    ![Sélection de plusieurs activités à copier dans le parcours](assets/copy-paste1.png)
-1. Appuyez sur **Ctrl/Commande + C**.
-Si vous ne souhaitez copier qu’une seule activité, vous pouvez cliquer dessus et utiliser l’icône **Copier** en haut à gauche du volet de configuration de l’activité.
+1. Appuyez sur **Ctrl/Commande + C**.
+Si vous ne souhaitez copier qu&#39;une seule activité, vous pouvez cliquer dessus et utiliser l&#39;icône **Copier** en haut à gauche du volet de configuration de l&#39;activité.
    ![Icône Copier dans le volet de configuration de l’activité](assets/copy-paste2.png)
-1. Dans un parcours quelconque, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
+1. Dans n’importe quel parcours, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
    ![Activités collées dans la zone de travail du parcours prêtes à être connectées](assets/copy-paste3.png)

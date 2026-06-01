@@ -10,28 +10,15 @@ keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 2649
+source-wordcount: 2585
 ht-degree: 92%
 
 ---
@@ -71,7 +58,7 @@ Pour mettre en pause votre parcours, procédez comme suit :
 
 1. Sélectionnez les options de gestion des profils qui se trouvent actuellement dans le parcours.
 
-   ![Options de mise en pause de parcours](assets/pause-confirm.png){width="50%" align="left"}
+   ![Options de mise en pause de parcours](assets/pause-confirm.png){width="50%"}
 
    Vous pouvez :
 
@@ -84,7 +71,7 @@ Pour mettre en pause votre parcours, procédez comme suit :
 
 Le nombre maximal de profils pouvant être conservés dans des parcours mis en pause pour votre organisation est visible dans l’inventaire des parcours. Il n’est visible que lorsqu’au moins un parcours est en pause. Cet indicateur affiche également le nombre total de parcours mis en pause. Il est réactualisé toutes les 30 minutes. En savoir plus dans la section [Mécanismes de sécurisation et limitations](#guardrails-and-limitations).
 
-![Nombre de parcours mis en pause et de profils actuellement en pause](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![Nombre de parcours mis en pause et de profils actuellement en pause](assets/profiles-in-paused-journeys.png){width="50%"}
 
 Dans la liste de vos parcours, vous pouvez mettre en pause un ou plusieurs parcours **actifs**. Pour mettre en pause un groupe de parcours (_pause par lots_), sélectionnez-les dans la liste et cliquez sur le bouton **Mettre en pause** dans la barre bleue en bas de l’écran. Le bouton **Mettre en pause** n’est disponible que lorsque des parcours **actifs** sont sélectionnés.
 
@@ -144,7 +131,7 @@ Pour savoir quand un parcours a été suspendu ou repris pour la dernière fois,
 * Le nom d’affichage et l’identifiant de l’utilisateur qui a effectué la dernière pause et la dernière reprise
 * Paramètres du parcours en pause (comportement de pause, durée maximale de pause, état de reprise automatique, identifiant de pause)
 
-Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [&#x200B; Accès aux propriétés d’un parcours &#x200B;](journey-properties.md#access-properties).
+Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [ Accès aux propriétés d’un parcours ](journey-properties.md#access-properties).
 
 ## Appliquer un critère de sortie dans un parcours mis en pause {#journey-exit-criteria}
 
@@ -182,9 +169,9 @@ N’oubliez pas que les exclusions de profils, pour les profils actuellement dan
 
 ## Mécanismes de sécurisation et limitations {#journey-pause-guardrails}
 
-* Une version de parcours peut être mise en pause pendant **14 jours** avec un maximum de **10 millions de profils** autorisés dans les parcours en pause dans l’ensemble de votre organisation.
+* Une version de parcours peut être suspendue pendant **14 jours au maximum** avec un maximum de **10 millions de profils** autorisés dans les parcours en pause dans l’ensemble de votre organisation.
 Cette limite tient compte du nombre total de profils conservés sur tous les parcours en pause, et non de profils distincts. Par exemple, si les mêmes profils de 5 millions sont conservés dans deux parcours en pause, la limite de 10 millions est atteinte.
-Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouvez temporairement dépasser le seuil de 10 millions, mais une fois que le système le détecte, tous les profils supplémentaires sont automatiquement ignorés.
+Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouvez temporairement dépasser le seuil de 10 millions, mais une fois que le système le détecte, tous les profils supplémentaires sont automatiquement ignorés.
 
   Si vous reprenez les parcours pour ramener le nombre de profils conservés en dessous de la limite, le parcours reprend immédiatement, mais la mise à jour du nombre de profils peut prendre jusqu’à 30 minutes. Pendant ce temps, le système peut toujours considérer ces profils comme étant en pause.
 

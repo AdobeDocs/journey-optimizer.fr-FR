@@ -10,24 +10,12 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 61%
@@ -40,7 +28,7 @@ Vous pouvez tester vos actions personnalisées en envoyant des appels API à par
 
 En tant qu’administrateur ou administratrice, utilisez la fonctionnalité **[!UICONTROL Envoyer une demande de test]** pour valider vos configurations d’actions personnalisées en effectuant des appels API réels directement depuis Adobe Journey Optimizer. Cette fonctionnalité permet de s’assurer que la structure de la demande, les en-têtes, l’authentification et la payload sont correctement formatés avant leur utilisation dans un parcours.
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 L’utilisation de cette fonctionnalité simplifie le processus de test et de validation, en veillant au bon déroulement des actions personnalisées dans les parcours actifs.
 
@@ -67,7 +55,7 @@ Pour tester une action personnalisée, procédez comme suit :
 
 1. Accédez à l’écran de configuration **Actions** et sélectionnez une action personnalisée.
 1. Cliquez sur le bouton **[!UICONTROL Envoyer une demande de test]** en bas de l’écran de configuration de l’action.
-   ![Bouton Envoyer une demande de test du panneau Configuration de l’action](assets/test-request.png){width="70%" align="left"}
+   ![Bouton Envoyer une demande de test du panneau Configuration de l’action](assets/test-request.png){width="70%"}
 1. Dans la fenêtre contextuelle qui s’affiche, spécifiez les paramètres de la demande :
 
    * Si la **méthode d’action personnalisée est GET**, aucune payload n’est requise.
