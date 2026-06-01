@@ -17,7 +17,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 943
 ht-degree: 100%
@@ -100,7 +100,7 @@ Vous pouvez vous abonner à des **alertes par e-mail et des alertes intégrées 
 1. Dans **Notifications**, recherchez **Journey Optimizer**.
 1. Activez **Nouvelles versions** : notifications in-app et par e-mail.
 
-![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+![](assets/do-not-localize/pulse-notif.png){width="70%"}
 
 ## Questions fréquentes {#faq}
 

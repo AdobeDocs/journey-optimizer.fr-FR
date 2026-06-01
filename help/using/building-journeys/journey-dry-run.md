@@ -32,7 +32,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 90%
@@ -79,7 +79,7 @@ Lors du test à blanc, le parcours s’exécute en mode simulation, en appliquan
 
   Pour améliorer la lisibilité, les actions personnalisées et les activités de canal apparaissent grisées lors de l’exécution d’un test à blanc.
 
-  ![Activités d’action grisées dans un parcours de test à blanc](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![Activités d’action grisées dans un parcours de test à blanc](assets/dry-run-greyed-activities.png){width="80%"}
 
 * Les **sources de données**, y compris les sources de données externes, et les activités **Attente** sont désactivées par défaut pendant le test à blanc. Vous pouvez toutefois modifier ce comportement [lors de l’activation du mode Test à blanc](#journey-dry-run-start).
 
@@ -107,7 +107,7 @@ Pour activer le test à blanc, procédez comme suit :
 
 1. Indiquez si vous souhaitez activer ou désactiver les activités **Attente** et les appels **Sources de données externes**, puis confirmez la publication du test à blanc.
 
-   ![Confirmer la publication du test à blanc du parcours](assets/dry-run-publish.png){width="50%" align="left"}
+   ![Confirmer la publication du test à blanc du parcours](assets/dry-run-publish.png){width="50%"}
 
    Un message de statut, **[!UICONTROL Activation du test à blanc]**, s’affiche pendant que la transition est en cours.
 
@@ -141,7 +141,7 @@ Les parcours de test à blanc peuvent également être arrêtés manuellement. P
 1. Sélectionnez le bouton **[!UICONTROL Fermer]** pour terminer le test.
 Les liens vers les rapports des 24 dernières heures et à toute heure sont disponibles dans l’écran de confirmation.
 
-   ![Arrêter l’exécution du test à blanc du parcours](assets/dry-run-stop.png){width="50%" align="left"}
+   ![Arrêter l’exécution du test à blanc du parcours](assets/dry-run-stop.png){width="50%"}
 
 1. Cliquez sur **[!UICONTROL Retour au brouillon]** pour confirmer.
 

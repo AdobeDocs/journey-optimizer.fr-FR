@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 849
-ht-degree: 77%
+source-wordcount: 843
+ht-degree: 75%
 
 ---
 
@@ -90,7 +90,7 @@ The **URL configuration** section has been renamed **Endpoint configuration**.
 
 In the **Method** drop-down, you can now select **GET**.
 
-![](assets/action-response1.png){width="70%" align="left"}
+![](assets/action-response1.png){width="70%"}
 
 ### Payloads {#payloads-new}
 
@@ -103,7 +103,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 > 
 >Both these fields are optional.
 
-![](assets/action-response2.png){width="70%" align="left"}
+![](assets/action-response2.png){width="70%"}
 -->
 
 ## Configurer l’action personnalisée {#config-response}
@@ -112,7 +112,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Cliquez dans le champ **Réponse** (réponse de succès).
 
-   ![](assets/action-response2.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%"}
 
 1. Collez un exemple de la payload renvoyée par l’appel. Vérifiez que les types de champ sont corrects (chaîne, entier, etc.). Voici un exemple de payload de réponse capturée lors de l’appel. Notre point d’entrée local envoie le nombre de points de fidélité et le statut d’un profil.
 
@@ -123,7 +123,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    "points": 1290 }
    ```
 
-   ![](assets/action-response4.png){width="80%" align="left"}
+   ![](assets/action-response4.png){width="80%"}
 
    À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload.
 
@@ -139,7 +139,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Ajoutons également l’ID de client comme paramètre de requête.
 
-   ![](assets/action-response9.png){width="80%" align="left"}
+   ![](assets/action-response9.png){width="80%"}
 
 1. Cliquez sur **Enregistrer**.
 
@@ -171,7 +171,7 @@ Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de point
    >
    >Chaque profil qui entre dans l’action personnalisée déclenche un appel. Même si la réponse est toujours la même, Journey effectue toujours un appel par profil.
 
-1. Dans la branche Délai d’expiration et erreur, ajoutez une condition et utilisez le champ **jo_status_code** intégré. Dans notre exemple, nous utilisons le
+1. Dans la branche temporisation et erreur , ajoutez une condition et exploitez le champ intégré **jo_status_code**. Dans notre exemple, nous utilisons la variable
    type d’erreur **http_400**. Consultez [cette section](#error-status).
 
    ```

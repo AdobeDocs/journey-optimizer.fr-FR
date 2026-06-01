@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 94%
@@ -132,7 +132,7 @@ Vous pouvez voir que `products` est un tableau de deux objets. Vous devez avoir 
 
 1. Pour chaque champ, définissez le libellé qui sera affiché dans la zone de travail du parcours.
 
-   ![Fonction de collections de filtres avec l’interface du créateur de conditions](assets/uc-collection-2.png){width="70%" align="left"}
+   ![Fonction de collections de filtres avec l’interface du créateur de conditions](assets/uc-collection-2.png){width="70%"}
 
 1. Créez votre parcours et ajoutez l’action personnalisée que vous avez créée. En savoir plus sur [cette page](../building-journeys/using-custom-actions.md).
 
@@ -142,7 +142,7 @@ Vous pouvez voir que `products` est un tableau de deux objets. Vous devez avoir 
 
 1. Pour chacun des champs d’objet suivants, saisissez le nom de champ correspondant à partir du schéma XDM source. Si les noms sont identiques, cela n’est pas nécessaire. Dans notre exemple, il nous suffit de définir `product id` et « color ».
 
-   ![Fonction de tri des collections avec configuration de tri](assets/uc-collection-4.png){width="50%" align="left"}
+   ![Fonction de tri des collections avec configuration de tri](assets/uc-collection-4.png){width="50%"}
 
 Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](functions/list-functions.md#filter) et [intersect](functions/list-functions.md#intersect) :
 
@@ -206,7 +206,7 @@ Bien que les collections dans les actions personnalisées offrent la flexibilit�
 
 Pour les types et les tableaux de tableaux hétérogènes, le tableau est défini avec le type listAny. Vous pouvez uniquement mapper des éléments individuels, mais ne pouvez pas modifier le tableau en variable.
 
-![Collection hétérogène avec types de données mixtes et sélection de champs](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![Collection hétérogène avec types de données mixtes et sélection de champs](assets/uc-collection-heterogeneous.png){width="70%"}
 
 Exemple de type hétérogène :
 

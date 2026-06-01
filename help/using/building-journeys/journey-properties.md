@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 76%
@@ -391,7 +391,7 @@ Pour **créer** un critère de sortie, procédez comme suit :
 
 Vous pouvez ajouter plusieurs critères de sortie. Le critère de sortie est désormais actif et sera évalué à chaque étape du parcours.
 
-![Panneau Critères de sortie affichant les conditions d’audience pour la fin du parcours](assets/exitcriteria-sample.png){width="40%" align="left"}
+![Panneau Critères de sortie affichant les conditions d’audience pour la fin du parcours](assets/exitcriteria-sample.png){width="40%"}
 
 
 ### Critères de sortie basés sur des attributs de profil {#profile-exit-criteria}

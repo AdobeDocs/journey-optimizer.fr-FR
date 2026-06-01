@@ -14,7 +14,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 81%
@@ -31,7 +31,7 @@ Toutes les activités sont présentées dans les sections ci-dessous :
 * [Activités de canal](#channel)
 * [Activités de contrôle de flux](#flow-control)
 
-![Liste des activités disponibles dans la zone de travail](../assets/orchestrated-activities.png){width="80%" align="left"}
+![Liste des activités disponibles dans la zone de travail](../assets/orchestrated-activities.png){width="80%"}
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Voir [Mécanismes de sécurisation et limitations](../guardrails.md) pour tous l
 
 Ces activités sont spécifiques au ciblage. Elles permettent de construire une ou plusieurs cibles en définissant une audience, puis en partageant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
-![Liste des activités de ciblage](../assets/targeting-activities.png){width="40%" align="left"}
+![Liste des activités de ciblage](../assets/targeting-activities.png){width="40%"}
 
 Les activités de ciblage disponibles sont les suivantes :
 
@@ -81,7 +81,7 @@ Découvrez comment [créer une action de canal dans une campagne orchestrée](ch
 
 Les activités ci-après sont spécifiques à l’organisation et à l’exécution des campagnes orchestrées. Leur principale tâche est de coordonner les autres activités.
 
-![Liste des activités de contrôle de flux](../assets/flow-control-activities.png){width="20%" align="left"}
+![Liste des activités de contrôle de flux](../assets/flow-control-activities.png){width="20%"}
 
 Les activités de contrôle de flux disponibles sont les suivantes :
 

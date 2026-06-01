@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 91%
@@ -271,7 +271,7 @@ Les campagnes archivées peuvent ensuite être récupérées à l’aide du filt
 
 Pour supprimer une campagne, cliquez sur le bouton à trois points ![image montrant le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) puis sélectionnez **[!UICONTROL Supprimer]**.
 
-![](assets/delete-a-campaign.png){width="70%" align="left"}
+![](assets/delete-a-campaign.png){width="70%"}
 
 >[!IMPORTANT]
 >

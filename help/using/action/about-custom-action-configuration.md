@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 88%
@@ -126,7 +126,7 @@ Dans Journey Optimizer, vous pouvez appliquer des politiques de gouvernance des
 
 Lors de la configuration d’une action personnalisée, vous devez définir les paramètres de **[!UICONTROL configuration de point d’entrée]** suivants :
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. Dans le champ **[!UICONTROL URL]**, spécifiez l&#39;URL du service externe :
 
@@ -203,15 +203,15 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
    Activez l’option **[!UICONTROL Autoriser les valeurs nulles]** pour conserver les valeurs nulles dans l’appel externe. Notez que l’envoi de tableaux d’entier (int), de chaîne, etc., avec des valeurs nulles dans n’est pas entièrement pris en charge. Par exemple, le tableau suivant d’entiers `[1, null, 2, 3]` est envoyé en tant que `[1, 2, 3]` même si cette option est cochée. En outre, si ce tableau est nul, il est envoyé en tant que tableau vide.
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. Dans la section **[!UICONTROL Réponse]**, collez un exemple de payload renvoyé lorsque l’appel réussit. Ce champ est facultatif et disponible pour toutes les méthodes d’appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à [cette page](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. (Facultatif) Sélectionnez **[!UICONTROL Définir un payload de réponse d’erreur]** pour activer le champ Payload de réponse d’erreur. Lorsque cette option est activée, utilisez la section **[!UICONTROL Réponse d’erreur]** pour coller un exemple de la payload renvoyée en cas d’échec de l’appel. Les mêmes exigences s’appliquent que pour le payload de réponse (types et format de champ). Découvrez comment exploiter la payload de réponse d&#39;échec dans les parcours [ici](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

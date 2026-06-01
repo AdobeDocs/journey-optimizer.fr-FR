@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 427
 ht-degree: 100%
@@ -65,7 +65,7 @@ Pour créer vos expériences web avec l’éditeur non visuel, procédez comme s
 
    Cliquez sur le bouton **[!UICONTROL Plus d’actions]** à côté de votre modification et sélectionnez **[!UICONTROL Infos]** pour afficher ses détails. Vous pouvez également **[!UICONTROL Supprimer la modification]** si nécessaire.
 
-   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%"}
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Pour créer vos expériences web avec l’éditeur non visuel, procédez comme s
 
 1. En outre, vous pouvez sélectionner n’importe quel élément de votre site web et effectuer le suivi des clics sur cet élément. Pour activer le suivi des clics et définir les actions à suivre, cliquez sur la deuxième icône du rail de gauche, comme illustré ci-dessous :
 
-   ![](assets/web-campaign-click.png){width="50%" align="left"}
+   ![](assets/web-campaign-click.png){width="50%"}
 
    Utilisez le bouton **Ajouter un composant** pour sélectionner une nouvelle action à suivre. En savoir plus sur l’utilisation du suivi des clics dans [cette section](monitor-web-experiences.md#use-click-tracking).
 

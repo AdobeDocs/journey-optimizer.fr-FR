@@ -29,7 +29,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2177
 ht-degree: 70%
@@ -80,7 +80,7 @@ Cliquez sur l’icône de l’assistant AI dans la barre supérieure pour ouvrir
 4. Cliquez sur **Afficher les sources** pour accéder à la documentation associée.
 5. Utilisez les pouces vers le haut/bas pour évaluer la qualité de la réponse.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="40%"}
 
 [En savoir plus sur l’assistant AI dans Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}
 

@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 363
 ht-degree: 8%
@@ -65,7 +65,7 @@ Pour ajouter des attributs contextuels à un fragment publié, procédez comme s
 
 1. Sélectionnez le fragment publié et cliquez sur **[!UICONTROL Modifier]** pour créer un brouillon.
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
 1. Cliquez sur **[!UICONTROL Modifier]** pour ouvrir l’éditeur de contenu de fragment.
 

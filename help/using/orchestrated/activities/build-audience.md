@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 78%
@@ -63,4 +63,4 @@ Voici un exemple de campagne orchestrée comportant deux activités **[!UICONTRO
 
 Dans l’exemple ci-dessous, l’activité **[!UICONTROL Créer une audience]** utilise le créateur de règles pour filtrer les profils en fonction de leur formule d’abonnement. Une condition est définie sur l’attribut `plan` pour inclure uniquement les profils où `plan = "basic"`, ce qui limite l’audience aux abonnés de niveau de base avant de les transmettre à l’activité suivante.
 
-![](../assets/build-audience-plan.png){width="50%" align="left"}
+![](../assets/build-audience-plan.png){width="50%"}

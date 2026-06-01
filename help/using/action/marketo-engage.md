@@ -27,10 +27,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 326
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -56,16 +56,16 @@ Dans Journey Optimizer, vous devez configurer une action personnalisée pour Mar
 
 1. Sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION.
 1. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Créer une action]**. Le volet de configuration des actions s’ouvre sur le côté droit de l’écran.
-1. Saisissez Nom, Description et sélectionnez **&#x200B;**&#x200B;comme **Type d&#39;action**
-   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
+1. Saisissez le nom et la description, puis sélectionnez **Adobe Marketo Engage** comme **type d’action**.
+   ![](assets/engage-customaction-creation.png){width="40%"}
 1. Cliquez sur **Modifier la payload** pour les payloads **Requête** et **Réponse**.
 1. Dans les deux cas, composez votre payload et collez-la dans la fenêtre contextuelle dédiée.
-   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload.png){width="70%"}
 1. Inspecter et configurer des valeurs de payload
 
    Remarque : pour transmettre des valeurs dynamiquement, remplacez **Constante** par **Variable** pour chaque champ.
 
-   ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload-fields.png){width="70%"}
 
 1. Cliquez sur **Enregistrer** dans l’écran de configuration du champ, puis sur **Enregistrer** pour votre action personnalisée.
 
@@ -138,4 +138,4 @@ Pour l’utiliser, procédez comme suit :
 
 1. Dans la section **Paramètres de requête**, cliquez sur l’icône **Modifier** pour chaque paramètre et sélectionnez les valeurs dynamiques que vous avez configurées dans la payload.
 
-![](assets/engage-use-canvas.png){width="70%" align="left"}
+![](assets/engage-use-canvas.png){width="70%"}
