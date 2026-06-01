@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 version: Campaign Orchestration
 feature_v2: 
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 518
