@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfe268a55e099fa69ac8ccd6645faf65d4512460
+source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3343'
 ht-degree: 95%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 95%
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + [Simuler votre parcours](using/building-journeys/simulate-journey.md)
+      + {hide-from-toc}[Prise en main de la simulation de Parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
+      + {hide-from-toc}[Simuler votre parcours &#x200B;](using/building-journeys/simulate-journey-2.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
       + [Publier votre parcours](using/building-journeys/publish-journey.md)
@@ -352,7 +354,7 @@ ht-degree: 95%
       + [Configurer des sous-domaines SMS](using/mobile/mobile-subdomains.md)
       + [Bonnes pratiques pour l’optimisation des coûts des SMS](using/mobile/mobile-cost-optimization.md)
       + Configurer le canal mobile {#configure-mobile}
-         + [Prise en main de la configuration mobile](using/mobile/mobile-configuration.md)
+         + [Commencer avec la configuration mobile](using/mobile/mobile-configuration.md)
          + [Configurer le fournisseur Sinch](using/mobile/mobile-configuration-sinch.md)
          + [Configurer le fournisseur Infobip](using/mobile/mobile-configuration-infobip.md)
          + [Configurer le fournisseur Twilio](using/mobile/mobile-configuration-twilio.md)
