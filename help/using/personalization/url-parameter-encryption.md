@@ -7,25 +7,20 @@ feature: Personalization
 topic: Personalization
 role: Admin
 level: Intermediate
-badge: label="Disponibilité limitée" type="Informative"
 keywords: chiffrement, URL, tracking, page de destination, registre des clés, personnalisation, sécurité, confidentialité, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
 workflow-type: tm+mt
-source-wordcount: 695
-ht-degree: 4%
+source-wordcount: 663
+ht-degree: 3%
 
 ---
 
 # Paramètres de chiffrement de l’URL {#url-parameter-encryption}
 
 >[!AVAILABILITY]
->
->Cette fonctionnalité est disponible en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 >
 >Actuellement, cette fonctionnalité n’est disponible que pour le canal E-mail .
 
@@ -54,15 +49,9 @@ Une URL de page de destination peut utiliser un paramètre de requête tel que `
 
 Avant de pouvoir utiliser l’assistant de chiffrement des paramètres d’URL, vous devez créer une clé. Pour ce faire, procédez comme suit.
 
->[!NOTE]
->
->Il n’existe actuellement aucune autorisation spécifique pour accéder aux clés et les gérer. Les rôles qui accordent l’accès à la section **[!UICONTROL Configurations]** sous **[!UICONTROL Administration]** accordent également l’accès au registre des clés. Cependant, des autorisations spécifiques sont prévues pour une version ultérieure.
-
-<!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
--->
+>Pour accéder aux clés et les gérer, vous devez disposer des autorisations **Afficher le registre des clés** et **Gérer le registre des clés** accordées. [En savoir plus](../administration/high-low-permissions.md#administration-permissions)
 
 1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 

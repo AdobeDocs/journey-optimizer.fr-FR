@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 54%
+source-wordcount: 1121
+ht-degree: 50%
 
 ---
 
@@ -32,8 +31,8 @@ Dans cet exemple, la valeur `there` s&#39;affiche si l&#39;attribut `firstName` 
 
 ## Conditions{#if-function}
 
-L&#39;helper `if` est utilisé pour définir un bloc conditionnel.
-Si l&#39;évaluation de l&#39;expression renvoie true, le bloc est rendu, sinon il est ignoré.
+L&#39;assistant `if` est utilisé pour définir un bloc conditionnel.
+Si l’évaluation de l’expression renvoie true, le bloc est rendu, sinon il est ignoré.
 
 **Syntaxe**
 
@@ -42,7 +41,7 @@ Si l&#39;évaluation de l&#39;expression renvoie true, le bloc est rendu, sinon 
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-À la suite de l&#39;helper `if`, vous pouvez saisir une instruction `else` pour spécifier un bloc de code à exécuter, si la même condition est false.
+À la suite de l&#39;assistant `if`, vous pouvez saisir une instruction `else` pour spécifier un bloc de code à exécuter, si la même condition est false.
 L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la première instruction renvoie false.
 
 
@@ -136,7 +135,7 @@ Some edu specific content
 
 ## Each{#each}
 
-L&#39;helper `each` est utilisé pour effectuer une itération sur un tableau.
+L&#39;assistant `each` est utilisée pour effectuer une itération sur un tableau.
 La syntaxe de l&#39;assistant est `{{#each ArrayName}}` YourContent `{{/each}}`.
 Nous pouvons nous référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l’intérieur du bloc . L’index de l’élément du tableau peut être rendu à l’aide de `{{@index}}`.
 
@@ -333,8 +332,6 @@ Dans cet exemple, en supposant que `profile.person.name.firstName` = « Alex �
 ## Chiffrer {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
->
->Cette fonctionnalité est disponible en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 >
 >Actuellement, cette fonctionnalité n’est disponible que pour le canal E-mail .
 

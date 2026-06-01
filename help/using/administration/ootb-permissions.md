@@ -10,32 +10,16 @@ level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
 workflow-type: tm+mt
-source-wordcount: 1189
-ht-degree: 27%
+source-wordcount: 1210
+ht-degree: 25%
 
 ---
 
@@ -47,7 +31,7 @@ Les autorisations intégrées représentent les différentes autorisations pouva
 |-|-|
 | Assistant IA | **[!DNL Enable AI Assistant]** : activation ou accès aux fonctionnalités de campagne et d’audience optimisées par l’IA. </br>**[!DNL Generate content]** : accès à l’assistant IA dans Journey Optimizer.</br>**[!DNL Manage brand kit]** : lecture, création, modification et suppression de marques. </br>**[!DNL View operational insights]** : accès en lecture seule aux informations système et aux tableaux de bord de surveillance. |
 | Campagnes | **[!DNL Approve & publish Campaigns]** : droit d’approuver et de publier des campagnes lorsqu’une politique est appliquée. </br>**[!DNL Manage campaigns]** : lecture, création, modification et suppression des campagnes.</br>**[!DNL Publish campaigns]** : droit de publier des campagnes.</br>**[!DNL View campaigns]**: accès en lecture seule aux campagnes.</br>**[!DNL View campaigns report]** : la lecture et la modification des rapports de campagne. |
-| Configurations de canal | **[!DNL Export suppression list]** : accès à la liste de suppression des exportations au format CSV.</br>**[!DNL Manage alerts]**: activation/désactivation des alertes pour les campagnes, les messages et les droits.</br> **[!DNL Manage file routing]** : la lecture, la création, la modification et la suppression des configurations de routage de fichiers. </br> **[!DNL Manage IP pools]** : la lecture, la création, la modification et la suppression du groupe dʼadresses IP. </br>**[!DNL Manage landing page settings]** : la lecture, la création, la modification et la suppression des paramètres de la page de destination.</br> **[!DNL Manage messages general settings]** : la lecture, la création, la modification et la suppression des paramètres généraux du message.</br>**[!DNL Manage messages presets]**: la lecture, la création, la modification et la suppression des configurations de canal, des informations d’identification d’API et des Webhooks.</br>**[!DNL Manage PTR records]** : la lecture et la modification des enregistrements PTR. </br>**[!DNL Manage SMS settings]** : la lecture, la création, la modification et la suppression des paramètres des SMS.</br>**[!DNL Manage SMS subdomains]** : la lecture, la création, la modification et la suppression des sous-domaines de SMS.</br> **[!DNL Manage Seedlist]** : la lecture, la création, la modification et la suppression des listes de contrôle.</br> **[!DNL Manage subdomains delegation]** : la lecture, la création, la modification et la suppression de la délégation de sous-domaine. </br>**[!DNL Manage suppression rules]** : accès à la lecture, la création, la modification et la suppression des règles de suppression.</br> **[!DNL Manage web subdomain]** : lecture, création, modification et suppression des sous-domaines web. </br>**[!DNL View file routing]** : l’accès en lecture seule aux configurations de routage de fichiers.</br>**[!DNL View messages general settings]** : l’accès en lecture seule aux paramètres généraux des messages.</br> **[!DNL View messages presets]** : l’accès en lecture seule aux préréglages des messages.</br> **[!DNL View PTR records]** : accès en lecture seule aux enregistrements PTR.</br>**[!DNL View suppression list]**: lecture et exportation de la liste de suppression locale. |
+| Configurations de canal | **[!DNL Export suppression list]** : accès à la liste de suppression des exportations au format CSV.</br>**[!DNL Manage alerts]**: activation/désactivation des alertes pour les campagnes, les messages et les droits.</br> **[!DNL Manage file routing]** : la lecture, la création, la modification et la suppression des configurations de routage de fichiers. </br> **[!DNL Manage IP pools]** : la lecture, la création, la modification et la suppression du groupe dʼadresses IP. </br>**[!DNL Manage Key Registry]**: afficher, créer, faire pivoter et révoquer des clés dans le registre des clés.</br>**[!DNL Manage landing page settings]** : lire, créer, modifier et supprimer les paramètres de la page de destination.</br> **[!DNL Manage messages general settings]** : la lecture, la création, la modification et la suppression des paramètres généraux du message.</br>**[!DNL Manage messages presets]**: la lecture, la création, la modification et la suppression des configurations de canal, des informations d’identification d’API et des Webhooks.</br>**[!DNL Manage PTR records]** : la lecture et la modification des enregistrements PTR. </br>**[!DNL Manage SMS settings]** : la lecture, la création, la modification et la suppression des paramètres des SMS.</br>**[!DNL Manage SMS subdomains]** : la lecture, la création, la modification et la suppression des sous-domaines de SMS.</br> **[!DNL Manage Seedlist]** : la lecture, la création, la modification et la suppression des listes de contrôle.</br> **[!DNL Manage subdomains delegation]** : la lecture, la création, la modification et la suppression de la délégation de sous-domaine. </br>**[!DNL Manage suppression rules]** : accès à la lecture, la création, la modification et la suppression des règles de suppression.</br> **[!DNL Manage web subdomain]** : lecture, création, modification et suppression des sous-domaines web. </br>**[!DNL View file routing]** : l’accès en lecture seule aux configurations de routage de fichiers.</br>**[!DNL View Key Registry]** : accès en lecture seule à la liste des clés du registre et aux détails des clés.</br>**[!DNL View messages general settings]**: accès en lecture seule aux paramètres généraux des messages.</br> **[!DNL View messages presets]** : l’accès en lecture seule aux préréglages des messages.</br> **[!DNL View PTR records]** : accès en lecture seule aux enregistrements PTR.</br>**[!DNL View suppression list]**: lecture et exportation de la liste de suppression locale. |
 | Tableaux de bord | **[!DNL Export dashboard data]** : export de visualisations des tableaux de bord et des données sous-jacentes pour une analyse hors ligne. </br>**[!DNL Manage custom dashboards]**: permet de créer un tableau de bord ou de modifier un tableau de bord existant.</br>**[!DNL Manage standard dashboards]**: permet de créer des widgets personnalisés et de modifier le schéma de widget par le biais de la bibliothèque de widgets.</br>**[!DNL View custom dashboards]**: accès en lecture seule aux tableaux de bord définis par l&#39;utilisateur.</br>**[!DNL View license usage dashboards]** : accès en lecture seule au [tableau de bord de l’utilisation des licences](../audience/license-usage.md). </br>**[!DNL View standard dashboards]** : accès en lecture seule aux tableaux de bord Profils, Destinations et Audiences. |
 | Collecte de données | **[!DNL Manage datastream]** : lecture, création et modification des flux de données.</br>**[!DNL View datastream]**: accès en lecture seule aux flux de données. |
 | Gouvernance des données | **[!DNL Manage usage labels]** : lire, créer, modifier et supprimer des libellés.</br>**[!DNL Manage data usage policies]**: lire, créer, modifier et supprimer des politiques d’utilisation des données.</br>**[!DNL View data usage policies]** : accès en lecture seule aux politiques d’utilisation des données appartenant à votre organisation.</br>**[!DNL View privacy console]**: accès en lecture seule aux demandes d’accès à des informations personnelles et aux opérations liées à la confidentialité pour votre organisation.</br>**[!DNL View user activity log]** : accès en lecture seule à l’affichage des journaux d’audit enregistrés des activités de Platform. |
