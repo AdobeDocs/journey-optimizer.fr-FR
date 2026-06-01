@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: de8def41d4f0860456923adc959e76acb790158a
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 17%
@@ -160,7 +160,7 @@ Les fonctionnalités de parcours suivantes sont attendues dans les jours ou sema
 <tr>
 <td>
 <p>Publiée précédemment en disponibilité limitée, la simulation de Parcours est désormais disponible pour tous les environnements. Avec cette version de disponibilité générale, vous pouvez désormais utiliser Journey Agent pour générer des utilisateurs et des événements simulés directement dans le menu Simulation .</p>
-<p>Date de disponibilité : début juin 2026</p>
+<p>Date de disponibilité : Début juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -170,15 +170,15 @@ Les fonctionnalités de parcours suivantes sont attendues dans les jours ou sema
 
   Notez que ce comportement ne s’applique pas aux parcours qui incluent des nœuds provoquant des périodes d’attente, tels que les nœuds d’attente, les nœuds de réaction ou les transitions déclenchées par un événement. Ces parcours restent soumis à la temporisation globale standard de 91 jours.
 
-  Date de disponibilité : 2 juin 2026
+  Date de disponibilité : Début juin 2026
 
 * **Authentification personnalisée basée sur un certificat dans les actions personnalisées** - Les actions personnalisées prennent désormais en charge l’authentification personnalisée basée sur un certificat. En ajoutant `subType: "certificateCredential"` à une configuration d’autorisation personnalisée, Journey Optimizer utilise un certificat géré Adobe pour signer une assertion client JWT et l’échanger contre un jeton d’accès (aucun secret client requis). Conçu pour les API d’entreprise qui appliquent la vérification d’identité avec certificat, comme l’Azure Entra ID.
 
-  Date de disponibilité : 2 juin 2026
+  Date de disponibilité : Début juin 2026
 
 * **Prise en charge des identifiants supplémentaires pour les audiences externes** - Les identifiants supplémentaires dans les parcours sont désormais pris en charge pour les audiences externes, y compris les audiences importées d’un fichier CSV et les audiences créées avec la composition d’audience fédérée. Vous pouvez désigner n’importe quel attribut de non-identité ou attribut d’identité non-personne de l’audience comme ID supplémentaire. Aucun étiquetage de schéma n’est nécessaire.
 
-  Date de disponibilité : 1 juin 2026
+  Date de disponibilité : Début juin 2026
 
 +++
 
