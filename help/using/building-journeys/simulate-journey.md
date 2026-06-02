@@ -12,9 +12,9 @@ version: Journey Orchestration
 badge: label="Disponibilité limitée" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1910
 ht-degree: 5%
 
 ---
@@ -182,8 +182,7 @@ Si un parcours contient l’un des nœuds suivants, il ne peut pas être démarr
 | ID supplémentaire (plusieurs reprises) | Une rentrée simultanée (plusieurs instances actives pour le même utilisateur simulé) empêche le démarrage de **[!UICONTROL Simulation]**. |
 | Nœud de décision de contenu | Cette activité doit être supprimée ou modifiée avant de pouvoir simuler le parcours. |
 | Recherche de jeu de données | Les recherches de jeux de données client par clé ne sont pas prises en charge. Les parcours qui incluent cette activité ne peuvent pas être exécutés dans **[!UICONTROL Simulation]**. |
-| Expérimentation de chemin (Optimiser — Variante d’expérience) | Non pris en charge dans **[!UICONTROL Simulation]**. Vous pouvez toujours utiliser l’option **[!UICONTROL Optimiser]** pour les flux qui résidaient auparavant sous **[!UICONTROL Condition]** (par exemple, les conditions de source de données). |
-| Ciblage des chemins (optimisation, variante de règle de ciblage) | Non pris en charge dans **[!UICONTROL Simulation]**. |
+| Activité **[!UICONTROL Optimiser]** | Les méthodes **[!UICONTROL Optimize]** suivantes ne sont pas prises en charge dans **[!UICONTROL Simulation]** : **[!UICONTROL Expérience]**, **[!UICONTROL Règle de ciblage]**, **[!UICONTROL Partage en pourcentage]**, **[!UICONTROL Condition de temps]**, **[!UICONTROL Condition de date]**, **[!UICONTROL Limite de profil]** et **[!UICONTROL Données externes Source]** **&#x200B;**. Supprimez ou modifiez le nœud avant de procéder à la simulation. |
 | Enrichissement des attributs d’audience externe | Les parcours qui utilisent des attributs personnalisés provenant de sources d’audience externes ne démarrent pas dans **[!UICONTROL Simulation]** lorsque cette validation est activée. |
 
 +++
