@@ -9,10 +9,10 @@ role: Admin, User
 level: Beginner
 keywords: parcours optimizer, package, licence, select, prime, ultimate, fonctionnalités, fonctionnalités, modulaire, canaux
 hide: true
-source-git-commit: fc7f2801bb13ac6cc531fb51612b0abde0778e69
+source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 7%
+source-wordcount: '966'
+ht-degree: 6%
 
 ---
 
@@ -27,43 +27,49 @@ La disponibilité peut également dépendre de la configuration du canal, des co
 
 >[!TAB Parcours et campagnes]
 
-Cet onglet s’applique aux clientes et clients disposant d’une licence sous le modèle de package modulaire [!DNL Adobe Journey Optimizer] actuel (Parcours AJO, Campagnes AJO ou Campagnes et Parcours AJO).
+Cet onglet s’applique aux clients sous licence selon le modèle de package modulaire [!DNL Adobe Journey Optimizer] actuel (Journey Optimizer - Campagnes, Journey Optimizer - Parcours ou Journey Optimizer - Campagnes et Parcours).
 
 ## Packages de base {#current-packages}
 
-| Package | Mieux adapté à |
+| Package | Ce que cela inclut |
 |---------|----------------|
-| **Campagnes** | Messages planifiés, par lots et transactionnels sur les canaux sortants. |
-| **AJO Parcours** | Automatisation et orchestration des parcours en temps réel déclenchées par un événement. |
-| **Campagnes et Parcours AJO** | Plateforme complète : messagerie planifiée et orchestration en temps réel combinées. |
+| **Journey Optimizer - Campagnes** | Orchestration des campagnes : workflows d’audience à une ou plusieurs étapes pour l’engagement par lots. Messages transactionnels par e-mail, notification push et SMS inclus. |
+| **Journey Optimizer - Parcours** | Journey Orchestration en temps réel : parcours déclenchés par un événement prenant en charge la diffusion en continu et le traitement par lots. Messages transactionnels par e-mail, notification push et SMS inclus. |
+| **Journey Optimizer - Campagnes et Parcours** | Orchestration des campagnes et Journey Orchestration en temps réel combinés. Messages transactionnels par e-mail, notification push et SMS inclus. |
 
-Les modules complémentaires suivants étendent la couverture de canal et de fonctionnalité sur n’importe quel package de base :
+>[!NOTE]
+>
+>Le droit total au volume de données diffère selon le package : **Campagnes** les clients ont droit à 15 Ko par profil adressable ; **Parcours** et **Campagnes et Parcours** les clients ont droit à 75 Ko par profil adressable.
 
-| Module complémentaire | Ce qu’il déverrouille |
+Les modules complémentaires suivants étendent la couverture de canal au-dessus de tout package de base. Le module complémentaire **Tous les canaux** regroupe les composants Diffusion sortante, Mobile et Web.
+
+| Module complémentaire | Canaux déverrouillés |
 |--------|----------------|
-| **Sortant** | E-mail, SMS/MMS, notifications push et courrier |
-| **Application mobile** | Messagerie in-app et notifications push mobiles |
-| **Web** | Canal web, expériences basées sur du code et cartes de contenu |
+| **Diffusion sortante** | E-mail, notifications push, courrier. Inclut les principes de base de la délivrabilité. |
+| **Mobile** | Messages in-app, notifications push, cartes de contenu et canaux basés sur du code pour les surfaces mobiles |
+| **Web** | Canal web et canaux basés sur le code pour les surfaces web |
+| **Tous les canaux** | Lots de diffusion sortante + Mobile + Web |
 | **Prise de décision** | Offer Decisioning en temps réel et optimisation optimisée par l’IA |
 
 ## Matrice des fonctionnalités {#capability-matrix-current}
 
-| Fonctionnalité | Ce que vous pouvez faire | Campagnes AJO | AJO Parcours | Campagnes et Parcours AJO | Module complémentaire obligatoire | En savoir plus |
-|-----------|----------------|:-------------:|:------------:|:------------------------:|:---------------:|-----------|
-| **E-mail** | Concevoir et envoyer des e-mails personnalisés | ✓ | ✓ | ✓ | Sortant | [Découvrez comment envoyer des e-mails](../email/get-started-email.md) |
-| **SMS/MMS** | Envoi de messages texte et multimédia | ✓ | ✓ | ✓ | Sortant | [Découvrez comment envoyer des messages mobiles](../mobile/get-started-mobile.md) |
-| **Notifications push** | Envoi d&#39;alertes push mobiles | ✓ | ✓ | ✓ | Sortant | [Découvrez comment envoyer des notifications push](../push/get-started-push.md) |
-| **Courrier (publipostage direct)** | Création et envoi d’éléments de courrier physique | ✓ | ✓ | ✓ | Sortant | [Découvrez comment utiliser le courrier](../direct-mail/get-started-direct-mail.md) |
-| **Messagerie in-app** | Afficher des messages dans votre application mobile | ✓ | ✓ | ✓ | Applications mobiles | [Découvrez comment utiliser la messagerie in-app](../in-app/get-started-in-app.md) |
+| Fonctionnalité | Ce que vous pouvez faire | Journey Optimizer - Campagnes | JOURNEY OPTIMIZER - PARCOURS | Journey Optimizer - Campagnes et Parcours | Module complémentaire obligatoire | En savoir plus |
+|-----------|----------------|:-----------------------------:|:----------------------------:|:----------------------------------------:|:---------------:|-----------|
+| **Messages transactionnels** | Envoyer des messages déclenchés en temps réel par e-mail, notification push ou SMS | ✓ | ✓ | ✓ | — | [En savoir plus sur les messages transactionnels](../building-journeys/journey-gs.md) |
+| **E-mail** | Concevoir et envoyer des e-mails personnalisés | ✓ | ✓ | ✓ | Diffusion sortante | [Découvrez comment envoyer des e-mails](../email/get-started-email.md) |
+| **Notifications push** | Envoi d&#39;alertes push mobiles | ✓ | ✓ | ✓ | Diffusion sortante | [Découvrez comment envoyer des notifications push](../push/get-started-push.md) |
+| **Courrier (publipostage direct)** | Création et envoi d’éléments de courrier physique | ✓ | ✓ | ✓ | Diffusion sortante | [Découvrez comment utiliser le courrier](../direct-mail/get-started-direct-mail.md) |
+| **SMS/MMS** | Envoi de messages texte et multimédia | ✓ | ✓ | ✓ | Diffusion sortante | [Découvrez comment envoyer des messages mobiles](../mobile/get-started-mobile.md) |
+| **Messagerie in-app** | Afficher des messages dans votre application mobile | ✓ | ✓ | ✓ | Mobile | [Découvrez comment utiliser la messagerie in-app](../in-app/get-started-in-app.md) |
+| **Cartes de contenu** | Diffuser des messages intégrés au produit persistants et non intrusifs | ✓ | ✓ | ✓ | Mobile | [Découvrez comment utiliser les cartes de contenu](../content-card/get-started-content-card.md) |
 | **Canal web** | Personnaliser des pages web en temps réel | ✓ | ✓ | ✓ | Web | [Découvrez comment utiliser le canal web](../web/get-started-web.md) |
-| **Expériences basées sur du code** | Personnaliser n’importe quelle surface via l’API ou SDK | ✓ | ✓ | ✓ | Web | [Découvrez comment utiliser des expériences basées sur du code](../code-based/get-started-code-based.md) |
-| **Cartes de contenu** | Diffuser des messages intégrés au produit persistants et non intrusifs | ✓ | ✓ | ✓ | Web | [Découvrez comment utiliser les cartes de contenu](../content-card/get-started-content-card.md) |
+| **Expériences basées sur du code** | Personnaliser n’importe quelle surface via l’API ou SDK | ✓ | ✓ | ✓ | Mobile ou Web | [Découvrez comment utiliser des expériences basées sur du code](../code-based/get-started-code-based.md) |
 | **WhatsApp** | Envoyer des messages via WhatsApp Business | ✓ | ✓ | ✓ | WhatsApp | [Découvrez comment utiliser WhatsApp](../whatsapp/get-started-whatsapp.md) |
-| **Campagnes par lots** | Planifier des messages ponctuels ou récurrents vers une audience | ✓ | — | ✓ | — | [Découvrez comment créer des campagnes](../campaigns/get-started-with-campaigns.md) |
-| parcours automatisés **&#x200B;**&#x200B;| Concevoir des parcours client à plusieurs étapes déclenchés par un événement | — | ✓ | ✓ | — | [Découvrez comment créer des parcours &#x200B;](../building-journeys/journey-gs.md) |
-| **déclencheurs en temps réel** | Réagissez aux événements client dès qu’ils se produisent | — | ✓ | ✓ | — | [En savoir plus sur les événements de parcours &#x200B;](../event/about-events.md) |
+| **Campagnes orchestrées** | Concevez des workflows d’audience à plusieurs étapes pour l’engagement par lots. Canaux pris en charge : e-mail, SMS, notification push et publipostage direct uniquement. | ✓ | — | ✓ | — | [Découvrez comment utiliser des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) |
+| parcours automatisés **** | Concevoir des parcours clients en temps réel déclenchés par un événement | — | ✓ | ✓ | — | [Découvrez comment créer des parcours ](../building-journeys/journey-gs.md) |
+| **déclencheurs en temps réel** | Réagissez aux événements client dès qu’ils se produisent | — | ✓ | ✓ | — | [En savoir plus sur les événements de parcours ](../event/about-events.md) |
 | **Prise de décision** | Sélectionnez la meilleure offre pour chaque client en temps réel | Dépend de votre licence | Dépend de votre licence | Dépend de votre licence | Prise de décision | [Découvrez comment utiliser la prise de décision](../experience-decisioning/gs-experience-decisioning.md) |
-| **Classement optimisé par l’IA** | Optimiser la sélection des offres à l’aide du machine learning | Dépend de votre licence | Dépend de votre licence | Dépend de votre licence | Prise de décision | [En savoir plus sur les modèles d’IA &#x200B;](../offers/ranking/ai-models.md) |
+| **Classement optimisé par l’IA** | Optimiser la sélection des offres à l’aide du machine learning | Dépend de votre licence | Dépend de votre licence | Dépend de votre licence | Prise de décision | [En savoir plus sur les modèles d’IA ](../offers/ranking/ai-models.md) |
 
 >[!TAB Sélectionner / Prime / Ultimate]
 
@@ -82,7 +88,7 @@ Idéal pour les organisations qui commencent à utiliser la messagerie par lots 
 
 +++
 
-+++**&#x200B;**
++++****
 
 Inclut tout dans Select, ainsi que l’orchestration en temps réel et les canaux entrants :
 
@@ -92,7 +98,7 @@ Inclut tout dans Select, ainsi que l’orchestration en temps réel et les canau
 
 +++
 
-+++**&#x200B;**
++++****
 
 Inclut tous les éléments de Prime, ainsi que la prise de décision et l’optimisation avancée :
 
@@ -110,15 +116,15 @@ Inclut tous les éléments de Prime, ainsi que la prise de décision et l’opti
 | **SMS/MMS** | Envoi de messages texte et multimédia | Inclus | Inclus | Inclus | [Découvrez comment envoyer des messages mobiles](../mobile/get-started-mobile.md) |
 | **Notifications push** | Envoi d&#39;alertes push mobiles | Inclus | Inclus | Inclus | [Découvrez comment envoyer des notifications push](../push/get-started-push.md) |
 | **Campagnes par lots** | Planifier des messages pour une audience | Inclus | Inclus | Inclus | [Découvrez comment créer des campagnes](../campaigns/get-started-with-campaigns.md) |
-| parcours automatisés **&#x200B;**&#x200B;| Concevoir des parcours client déclenchés par un événement | Inclus | Inclus | Inclus | [Découvrez comment créer des parcours &#x200B;](../building-journeys/journey-gs.md) |
-| **Déclencheurs de parcours en temps réel** | Réagissez au comportement du client dès que cela se produit. | — | Inclus | Inclus | [En savoir plus sur les événements de parcours &#x200B;](../event/about-events.md) |
+| parcours automatisés **** | Concevoir des parcours client déclenchés par un événement | Inclus | Inclus | Inclus | [Découvrez comment créer des parcours ](../building-journeys/journey-gs.md) |
+| **Déclencheurs de parcours en temps réel** | Réagissez au comportement du client dès que cela se produit. | — | Inclus | Inclus | [En savoir plus sur les événements de parcours ](../event/about-events.md) |
 | **Messagerie in-app** | Afficher des messages dans votre application mobile | — | Inclus | Inclus | [Découvrez comment utiliser la messagerie in-app](../in-app/get-started-in-app.md) |
 | **Canal web** | Personnaliser des pages web en temps réel | — | Inclus | Inclus | [Découvrez comment utiliser le canal web](../web/get-started-web.md) |
 | **Expériences basées sur du code** | Personnaliser n’importe quelle surface via l’API ou SDK | — | Inclus | Inclus | [Découvrez comment utiliser des expériences basées sur du code](../code-based/get-started-code-based.md) |
 | **Cartes de contenu** | Diffuser des messages intégrés au produit persistants et non intrusifs | — | Inclus | Inclus | [Découvrez comment utiliser les cartes de contenu](../content-card/get-started-content-card.md) |
 | **Courrier (publipostage direct)** | Création et envoi d’éléments de courrier physique | — | Disponible avec Prime et versions ultérieures | Inclus | [Découvrez comment utiliser le courrier](../direct-mail/get-started-direct-mail.md) |
 | **Prise de décision** | Sélectionnez la meilleure offre pour chaque client en temps réel | — | — | Inclus | [Découvrez comment utiliser la prise de décision](../experience-decisioning/gs-experience-decisioning.md) |
-| **Classement optimisé par l’IA** | Optimiser la sélection des offres et des contenus à l’aide du machine learning | — | — | Inclus | [En savoir plus sur les modèles d’IA &#x200B;](../offers/ranking/ai-models.md) |
+| **Classement optimisé par l’IA** | Optimiser la sélection des offres et des contenus à l’aide du machine learning | — | — | Inclus | [En savoir plus sur les modèles d’IA ](../offers/ranking/ai-models.md) |
 | **WhatsApp** | Envoyer des messages via WhatsApp Business | Dépend de votre licence et de la configuration du canal | Dépend de votre licence et de la configuration du canal | Dépend de votre licence et de la configuration du canal | [Découvrez comment utiliser WhatsApp](../whatsapp/get-started-whatsapp.md) |
 
 >[!ENDTABS]
