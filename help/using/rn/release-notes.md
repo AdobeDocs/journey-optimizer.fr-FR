@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
+source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -313,7 +313,7 @@ La fonctionnalité de prise de décision suivante est prévue dans les jours ou 
 <td>
 <p>Vous pouvez désormais ajouter des politiques de décision dans les parcours et campagnes de publipostage direct. Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu pour chaque membre de l’audience. La prise de décision par publipostage direct prend également en charge les cas d’utilisation de prise de décision par lots, ce qui vous permet d’exporter les éléments d’offre correspondants pour chaque profil dans une audience Adobe Experience Platform donnée.</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Date de disponibilité : Début juin 2026</p>
+<p>Date de disponibilité : 3 juin 2026</p>
 </td>
 </tr>
 </tbody>
