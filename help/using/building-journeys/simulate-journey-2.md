@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: 1358
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 Utilisez **[!UICONTROL Simulation]** pour valider votre parcours avec des **utilisateurs simulés** avant de procéder à la publication. Cette page vous guide tout au long des étapes **[!UICONTROL Simulation rapide]** et **[!UICONTROL Simulation manuelle]**, de la création et de l’envoi d’utilisateurs simulés, du déclenchement d’événements unitaires lorsque votre parcours en a besoin, ainsi que de la révision du journal **[!UICONTROL Résultats]**.
 
-Pour obtenir un aperçu par type de parcours, voir [Prise en main de la simulation de Parcours &#x200B;](simulate-journey-gs.md).
+Pour obtenir un aperçu par type de parcours, voir [Prise en main de la simulation de Parcours ](simulate-journey-gs.md).
 
 ## Types de simulation {#simulation-types}
 
@@ -91,7 +91,7 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    +++ Créer à partir d’un formulaire
 
-   1. Saisissez un **[!UICONTROL Nom d’affichage]** et **[!UICONTROL Description]** pour identifier cet utilisateur simulé.
+   1. Saisissez un **[!UICONTROL Nom d’affichage]**, **[!UICONTROL Espace de noms d’identité]** et **[!UICONTROL Description]** pour identifier cet utilisateur simulé.
 
       ![Panneau de sélection d’utilisateur simulé](assets/simulate-form.png)
 
@@ -99,9 +99,13 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    1. Cliquez sur **[!UICONTROL Ajouter une appartenance à une audience]** pour simuler les appartenances à un segment.
 
-   1. Cliquez sur **[!UICONTROL Ajouter un profil]** pour créer plusieurs utilisateurs simulés au cours d’une seule session.
+   1. Dans la fenêtre **[!UICONTROL Créer des utilisateurs simulés]**, cliquez sur **[!UICONTROL Ajouter un utilisateur simulé]** pour définir plusieurs utilisateurs simulés dans une seule session.
 
-   1. Dans le menu, utilisez **[!UICONTROL Dupliquer]** pour copier un utilisateur, **[!UICONTROL Appliquer à tous]** pour copier les attributs d’un utilisateur vers tous les autres utilisateurs de la session ou **[!UICONTROL Supprimer]** pour supprimer un utilisateur.
+      Vous pouvez modifier le mode d’affichage des utilisateurs dans la liste, réduire chaque carte en mode empilé ou ouvrir les métadonnées d’attribut d’un utilisateur.
+
+      ![Panneau de sélection d’utilisateur simulé](assets/simulate-form-3.png)
+
+   1. Dans le menu Utilisateur simulé, utilisez **[!UICONTROL Dupliquer]** pour copier un utilisateur, **[!UICONTROL Appliquer tous les attributs aux autres utilisateurs]** pour copier les attributs d’un utilisateur vers tous les autres utilisateurs de la session ou **[!UICONTROL Supprimer]** pour supprimer un utilisateur.
 
       ![Panneau de sélection d’utilisateur simulé](assets/simulate-form-2.png)
 
@@ -135,11 +139,11 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    ![Panneau de sélection d’utilisateur simulé](assets/simulate-5-2.png)
 
-1. Si le parcours comprend des événements unitaires, vous devez sélectionner l’événement à déclencher. Voir [&#x200B; Déclencher vos événements](#firing_events).
+1. Si le parcours comprend des événements unitaires, vous devez sélectionner l’événement à déclencher. Voir [ Déclencher vos événements](#firing_events).
 
 1. Accédez à l’onglet **[!UICONTROL Résultats]** pour ouvrir le journal d’exécution et consulter l’exécution de chaque étape. Pour plus d’informations, voir [Affichage des résultats](#viewing-results).
 
-Après avoir validé le parcours dans **[!UICONTROL Simulation]**, consultez le journal **[!UICONTROL Résultats]**. Si des erreurs s’affichent, laissez **[!UICONTROL Simulation]**, apportez les modifications requises au parcours et exécutez à nouveau **[!UICONTROL Simulation]** jusqu’à ce que l’exécution semble correcte. Vous pouvez ensuite publier le parcours. Voir [Publier votre parcours &#x200B;](../building-journeys/publish-journey.md).
+Après avoir validé le parcours dans **[!UICONTROL Simulation]**, consultez le journal **[!UICONTROL Résultats]**. Si des erreurs s’affichent, laissez **[!UICONTROL Simulation]**, apportez les modifications requises au parcours et exécutez à nouveau **[!UICONTROL Simulation]** jusqu’à ce que l’exécution semble correcte. Vous pouvez ensuite publier le parcours. Voir [Publier votre parcours ](../building-journeys/publish-journey.md).
 
 ## Déclencher vos événements {#firing_events}
 
@@ -186,4 +190,4 @@ Pour les activités **Attente**, le journal comprend deux valeurs liées à la d
 * **Durée définie** : durée spécifiée sur l&#39;activité **Attente** pour le parcours publié et appliquée une fois le parcours actif. Le journal enregistre si la simulation applique un remplacement à partir des paramètres de test, par exemple 10 secondes, plutôt que de se fier uniquement à la valeur définie sur le parcours.
 * **Durée réelle** : temps écoulé pendant lequel l’utilisateur simulé est resté sur l’activité **Attente**. Cette valeur est définie à partir de l’onglet **[!UICONTROL Paramètres de test]**.
 
-Lorsque des erreurs apparaissent dans le journal, laissez **Simulation**, apportez les modifications requises au parcours et exécutez à nouveau **Simulation**. Une fois la validation réussie, publiez le parcours. Voir [Publier votre parcours &#x200B;](../building-journeys/publish-journey.md).
+Lorsque des erreurs apparaissent dans le journal, laissez **Simulation**, apportez les modifications requises au parcours et exécutez à nouveau **Simulation**. Une fois la validation réussie, publiez le parcours. Voir [Publier votre parcours ](../building-journeys/publish-journey.md).
