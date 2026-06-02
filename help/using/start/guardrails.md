@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9fc2a1d79d334001cee4c60b86e7f7912754eb94
+source-git-commit: 26e1073e2fef79ecdfd72ff1c2e5247ec2d62f8a
 workflow-type: tm+mt
-source-wordcount: 4689
+source-wordcount: 4622
 ht-degree: 64%
 
 ---
@@ -48,35 +48,31 @@ Les droits, les limitations de produit et les mécanismes de sécurisation des p
 
 Utilisez ce tableau pour rechercher les limites numériques les plus critiques avant de créer ou de publier. Vous trouverez des détails complets et un contexte dans les sections ci-dessous.
 
-| Zone | Limite | Valeur | Type |
-|---|---|---|---|
-| **Parcours** | Activités max. par parcours | **50** | Limite Hard |
-| **Parcours** | Parcours max. en ligne / en pause / d’essai | **100** | Limite soft (extensible) |
-| **Parcours** | Taille de l’instance de parcours | **1 MO** | Limite Hard |
-| **Parcours** | Taille de la payload du parcours (publication) | **2 Mo** (avertir à 90 %) | Limite Hard |
-| **Parcours** | Temporisation de parcours globale | **91 jours** | Limite Hard |
-| **Parcours** | File d’attente des événements en attente par profil | **10 événements** | Limite Hard |
-| **Parcours** | Instances d’audience en lecture simultanée | **5** dans tous les sandbox | Limite Hard |
-| **Parcours** | Débit de lecture du sandbox d’audience | **20 000 profils/s** (partagé) | Limite Hard |
-| **Parcours** | Délai d’expiration de la tâche de lecture d’audience | **12 heures** | Limite Hard |
-| **Canaux** | Requêtes entrantes par seconde | 5 000 **/S** | Limite Hard |
-| **Canaux** | Actions entrantes actives max. | **500** | Limite Hard |
-| **Canaux** | Messages transactionnels/s (campagnes) | **500** | Limite Hard |
-| **Canaux** | Événements de parcours entrants par seconde | **5,000** | Limite Hard |
-| **Actions personnalisées** | Appels par minute (réponse &lt; 0,75 s) | 300 000 **/min** par hôte/sandbox | Limite Hard (configurable) |
-| **Actions personnalisées** | Appels par 30 s (réponse > 0,75 s) | 150 000 **/30 s** par hôte/sandbox | Limite Hard (configurable) |
-| **Contenu** | Contenu de l’e-mail au moment de la publication | **2 Mo** (auteur de moins de 1 Mo) | Limite Hard |
-| **Contenu** | Contenu du message in-app | **2 MO** | Limite Hard |
-| **Contenu** | Taille visuelle du fragment | **100 KO** | Limite Hard |
-| **Contenu** | Taille du fragment d’expression | **200 KO** | Limite Hard |
-| **Contenu** | nœuds de fragment de parcours | **20 nœuds/fragment**, 200 actifs/sandbox | Limite Hard |
-| **Audiences** | Compositions d’audience par sandbox | **10** | Limite Hard |
-| **Jeux de données** | TTL de magasin de profils (nouvelles organisations/sandbox) | **90 jours** | Limite Hard |
-| **Jeux de données** | TTL du lac de données (nouvelles organisations/nouveaux sandbox) | **13 mois** | Limite Hard |
-
->[!NOTE]
->
->Les limites marquées **Limite Hard (configurable)** peuvent être augmentées en contactant votre représentant Adobe ou l’assistance clientèle d’Adobe.
+| Zone | Limite | Valeur |
+|---|---|---|
+| **Parcours** | [Activités max. par parcours &#x200B;](#journeys-guardrails-journeys) | **50** |
+| **Parcours** | [Nombre maximal de parcours en ligne/en pause/d’essai](#journeys-guardrails-journeys) | **100** |
+| **Parcours** | [Taille de l’instance de Parcours &#x200B;](#journeys-guardrails-journeys) | **1 MO** |
+| **Parcours** | [Taille de la payload du Parcours (publication)](#journey-payload-size) | **2 Mo** (avertir à 90 %) |
+| **Parcours** | [Délai d’expiration global du parcours &#x200B;](#journeys-guardrails-journeys) | **91 jours** |
+| **Parcours** | [File d’attente des événements en attente par profil](#journeys-guardrails-journeys) | **10 événements** |
+| **Parcours** | [Lecture simultanée d’instances d’audience](#read-segment-g) | **5** dans tous les sandbox |
+| **Parcours** | [Débit de lecture du sandbox d’audience](#read-segment-g) | **20 000 profils/s** (partagé) |
+| **Parcours** | [Délai d’expiration de la tâche de lecture d’audience](#read-segment-g) | **12 heures** |
+| **Canaux** | [Requêtes entrantes par seconde](#inbound-guardrails) | 5 000 **/S** |
+| **Canaux** | [Nombre maximal d’actions entrantes actives](#inbound-guardrails) | **500** |
+| **Canaux** | [Messages transactionnels/s (campagnes)](#transactional-message-guardrails) | **500** |
+| **Canaux** | [Événements de parcours entrants par seconde](#events-g) | **5,000** |
+| **Actions personnalisées** | [Appels par minute (réponse &lt; 0,75 s)](#custom-actions-g) | 300 000 **/min** par hôte/sandbox |
+| **Actions personnalisées** | [Appels par 30 s (réponse > 0,75 s)](#custom-actions-g) | 150 000 **/30 s** par hôte/sandbox |
+| **Contenu** | [Contenu de l’e-mail à la publication](#message-content-size) | **2 Mo** (auteur de moins de 1 Mo) |
+| **Contenu** | [&#x200B; Contenu du message in-app &#x200B;](#in-app-activity-limitations) | **2 MO** |
+| **Contenu** | [Taille du fragment visuel](#fragments-guardrails) | **100 KO** |
+| **Contenu** | [Taille du fragment d’expression](#fragments-guardrails) | **200 KO** |
+| **Contenu** | [nœuds de fragment de Parcours &#x200B;](#fragments-journey-g) | **20 nœuds/fragment**, 200 actifs/sandbox |
+| **Audiences** | [Compositions d’audience par sandbox](#audience) | **10** |
+| **Jeux de données** | [TTL de magasin de profils (nouvelles organisations/nouveaux sandbox)](#datasets-guardrails) | **90 jours** |
+| **Jeux de données** | [TTL du lac de données (nouvelles organisations/nouveaux sandbox)](#datasets-guardrails) | **13 mois** |
 
 
 ## Système et plateforme {#system-platform}
