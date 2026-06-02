@@ -9,24 +9,15 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9fc2a1d79d334001cee4c60b86e7f7912754eb94
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 26e1073e2fef79ecdfd72ff1c2e5247ec2d62f8a
 workflow-type: tm+mt
-source-wordcount: 4689
+source-wordcount: 4622
 ht-degree: 64%
 
 ---
@@ -36,7 +27,7 @@ ht-degree: 64%
 
 Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
 
-Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -48,35 +39,31 @@ Les droits, les limitations de produit et les mécanismes de sécurisation des p
 
 Utilisez ce tableau pour rechercher les limites numériques les plus critiques avant de créer ou de publier. Vous trouverez des détails complets et un contexte dans les sections ci-dessous.
 
-| Zone | Limite | Valeur | Type |
-|---|---|---|---|
-| **Parcours** | Activités max. par parcours | **50** | Limite Hard |
-| **Parcours** | Parcours max. en ligne / en pause / d’essai | **100** | Limite soft (extensible) |
-| **Parcours** | Taille de l’instance de parcours | **1 MO** | Limite Hard |
-| **Parcours** | Taille de la payload du parcours (publication) | **2 Mo** (avertir à 90 %) | Limite Hard |
-| **Parcours** | Temporisation de parcours globale | **91 jours** | Limite Hard |
-| **Parcours** | File d’attente des événements en attente par profil | **10 événements** | Limite Hard |
-| **Parcours** | Instances d’audience en lecture simultanée | **5** dans tous les sandbox | Limite Hard |
-| **Parcours** | Débit de lecture du sandbox d’audience | **20 000 profils/s** (partagé) | Limite Hard |
-| **Parcours** | Délai d’expiration de la tâche de lecture d’audience | **12 heures** | Limite Hard |
-| **Canaux** | Requêtes entrantes par seconde | 5 000 **/S** | Limite Hard |
-| **Canaux** | Actions entrantes actives max. | **500** | Limite Hard |
-| **Canaux** | Messages transactionnels/s (campagnes) | **500** | Limite Hard |
-| **Canaux** | Événements de parcours entrants par seconde | **5,000** | Limite Hard |
-| **Actions personnalisées** | Appels par minute (réponse &lt; 0,75 s) | 300 000 **/min** par hôte/sandbox | Limite Hard (configurable) |
-| **Actions personnalisées** | Appels par 30 s (réponse > 0,75 s) | 150 000 **/30 s** par hôte/sandbox | Limite Hard (configurable) |
-| **Contenu** | Contenu de l’e-mail au moment de la publication | **2 Mo** (auteur de moins de 1 Mo) | Limite Hard |
-| **Contenu** | Contenu du message in-app | **2 MO** | Limite Hard |
-| **Contenu** | Taille visuelle du fragment | **100 KO** | Limite Hard |
-| **Contenu** | Taille du fragment d’expression | **200 KO** | Limite Hard |
-| **Contenu** | nœuds de fragment de parcours | **20 nœuds/fragment**, 200 actifs/sandbox | Limite Hard |
-| **Audiences** | Compositions d’audience par sandbox | **10** | Limite Hard |
-| **Jeux de données** | TTL de magasin de profils (nouvelles organisations/sandbox) | **90 jours** | Limite Hard |
-| **Jeux de données** | TTL du lac de données (nouvelles organisations/nouveaux sandbox) | **13 mois** | Limite Hard |
-
->[!NOTE]
->
->Les limites marquées **Limite Hard (configurable)** peuvent être augmentées en contactant votre représentant Adobe ou l’assistance clientèle d’Adobe.
+| Zone | Limite | Valeur |
+|---|---|---|
+| **Parcours** | [Activités max. par parcours ](#journeys-guardrails-journeys) | **50** |
+| **Parcours** | [Nombre maximal de parcours en ligne/en pause/d’essai](#journeys-guardrails-journeys) | **100** |
+| **Parcours** | [Taille de l’instance de Parcours ](#journeys-guardrails-journeys) | **1 MO** |
+| **Parcours** | [Taille de la payload du Parcours (publication)](#journey-payload-size) | **2 Mo** (avertir à 90 %) |
+| **Parcours** | [Délai d’expiration global du parcours ](#journeys-guardrails-journeys) | **91 jours** |
+| **Parcours** | [File d’attente des événements en attente par profil](#journeys-guardrails-journeys) | **10 événements** |
+| **Parcours** | [Lecture simultanée d’instances d’audience](#read-segment-g) | **5** dans tous les sandbox |
+| **Parcours** | [Débit de lecture du sandbox d’audience](#read-segment-g) | **20 000 profils/s** (partagé) |
+| **Parcours** | [Délai d’expiration de la tâche de lecture d’audience](#read-segment-g) | **12 heures** |
+| **Canaux** | [Requêtes entrantes par seconde](#inbound-guardrails) | 5 000 **/S** |
+| **Canaux** | [Nombre maximal d’actions entrantes actives](#inbound-guardrails) | **500** |
+| **Canaux** | [Messages transactionnels/s (campagnes)](#transactional-message-guardrails) | **500** |
+| **Canaux** | [Événements de parcours entrants par seconde](#events-g) | **5,000** |
+| **Actions personnalisées** | [Appels par minute (réponse &lt; 0,75 s)](#custom-actions-g) | 300 000 **/min** par hôte/sandbox |
+| **Actions personnalisées** | [Appels par 30 s (réponse > 0,75 s)](#custom-actions-g) | 150 000 **/30 s** par hôte/sandbox |
+| **Contenu** | [Contenu de l’e-mail à la publication](#message-content-size) | **2 Mo** (auteur de moins de 1 Mo) |
+| **Contenu** | [ Contenu du message in-app ](#in-app-activity-limitations) | **2 MO** |
+| **Contenu** | [Taille du fragment visuel](#fragments-guardrails) | **100 KO** |
+| **Contenu** | [Taille du fragment d’expression](#fragments-guardrails) | **200 KO** |
+| **Contenu** | [nœuds de fragment de Parcours ](#fragments-journey-g) | **20 nœuds/fragment**, 200 actifs/sandbox |
+| **Audiences** | [Compositions d’audience par sandbox](#audience) | **10** |
+| **Jeux de données** | [TTL de magasin de profils (nouvelles organisations/nouveaux sandbox)](#datasets-guardrails) | **90 jours** |
+| **Jeux de données** | [TTL du lac de données (nouvelles organisations/nouveaux sandbox)](#datasets-guardrails) | **13 mois** |
 
 
 ## Système et plateforme {#system-platform}
@@ -233,7 +220,7 @@ Cette section présente les mécanismes de sécurisation et les limitations des 
 
   Lorsque les parcours se rapprochent de cette limite, les performances de modification et de publication peuvent se dégrader et des échecs d’enregistrement ou de validation peuvent se produire. Si cela se produit, divisez votre parcours en sous-parcours plus petits à l’aide d’[activités de saut](../building-journeys/jump.md) ou recréez-le dans une nouvelle version. La limite d’activité ne peut pas être augmentée.
 
-* Par défaut, le nombre de parcours d’exécution actifs, en pause ou secs à la fois est limité à 100 **&#x200B;**. Le nombre actuel de parcours s’affiche au-dessus de la zone de travail du parcours.
+* Par défaut, le nombre de parcours d’exécution actifs, en pause ou secs à la fois est limité à 100 ****. Le nombre actuel de parcours s’affiche au-dessus de la zone de travail du parcours.
 
   Lorsque vous publiez des parcours, nous les mettons automatiquement à l’échelle et les ajustons pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 100 parcours actifs à la fois, une notification s’affiche dans l’interface utilisateur pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle et nous vous aiderons à atteindre vos objectifs.
 
@@ -241,7 +228,7 @@ Cette section présente les mécanismes de sécurisation et les limitations des 
 
 * La taille maximale d’une instance de parcours pour un profil est de **1 Mo**. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil récupérées sur Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et ont des conséquence sur la taille du parcours. Il est conseillé, lorsqu&#39;un parcours commence par un événement, de limiter la taille maximale de la payload de cet événement (par exemple, inférieure à 800 **Ko**) afin d&#39;éviter d&#39;atteindre cette limite après quelques activités, lors de l&#39;exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
 
-* Pour chaque profil et version de parcours, l’exécution du parcours conserve une file d’attente interne allant jusqu’à 10 événements en attente **&#x200B;**&#x200B;pendant le traitement d’un événement. Si cette limite est atteinte, les événements supplémentaires sont ignorés pour la raison `maxInstanceStackEventsReached` jusqu’à ce que la pile se vide. Voir [Événements ignorés en raison d’une instance de parcours bloquée](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+* Pour chaque profil et version de parcours, l’exécution du parcours conserve une file d’attente interne allant jusqu’à 10 événements en attente **** pendant le traitement d’un événement. Si cette limite est atteinte, les événements supplémentaires sont ignorés pour la raison `maxInstanceStackEventsReached` jusqu’à ce que la pile se vide. Voir [Événements ignorés en raison d’une instance de parcours bloquée](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
 * Outre la temporisation utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée. Cette temporisation globale arrête la progression des personnes dans le parcours **91 jours** après leur entrée. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
 
@@ -272,7 +259,7 @@ Lorsque vous enregistrez ou publiez un parcours, Journey Optimizer valide la ta
 * Envisagez de diviser le parcours en parcours plus petits si nécessaire.
 * Si vous pensez que votre organisation a besoin d’une limite supérieure, contactez votre représentant ou représentante Adobe.
 
-Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours &#x200B;](../building-journeys/journey-properties.md#journey-payload-size)
+Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours ](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Comparaison des packages de licence {#select-package-limitations}
 
@@ -300,7 +287,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -469,7 +456,7 @@ Des mécanismes de sécurisation spécifiques s’appliquent à la **suspension 
 
 #### Test à blanc du parcours {#dry-run-g}
 
-Des mécanismes de sécurisation spécifiques s’appliquent à l’exécution d’essai de Parcours **&#x200B;**, y compris le comptage en fonction des quotas de profil engageable et de parcours réel. Ils sont répertoriés sur [cette page](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
+Des mécanismes de sécurisation spécifiques s’appliquent à l’exécution d’essai de Parcours ****, y compris le comptage en fonction des quotas de profil engageable et de parcours réel. Ils sont répertoriés sur [cette page](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
 
 #### Fragments de parcours {#fragments-journey-g}
 
@@ -481,7 +468,7 @@ Des mécanismes de sécurisation spécifiques s’appliquent à **l’envoi de v
 
 #### Simulation de parcours {#simulation-g}
 
-Des mécanismes de sécurisation spécifiques s’appliquent à la simulation de parcours **&#x200B;**. Ils sont répertoriés sur [cette page](../building-journeys/simulate-journey.md#limitations).
+Des mécanismes de sécurisation spécifiques s’appliquent à la simulation de parcours ****. Ils sont répertoriés sur [cette page](../building-journeys/simulate-journey.md#limitations).
 
 ## Orchestration de campagne {#campaign-orchestration}
 
