@@ -9,12 +9,21 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
 source-wordcount: 4490
@@ -231,7 +240,7 @@ Si la requête dépasse la taille maximale autorisée, la réponse inclut **Enti
 * Envisagez de diviser le parcours en parcours plus petits si nécessaire.
 * Si vous pensez que votre organisation a besoin d’une limite supérieure, contactez votre représentant ou représentante Adobe.
 
-Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours ](../building-journeys/journey-properties.md#journey-payload-size)
+Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours &#x200B;](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Restrictions du package Select pour les parcours unitaires {#select-package-limitations}
 
@@ -257,7 +266,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -415,7 +424,7 @@ Des mécanismes de sécurisation spécifiques s’appliquent à la **suspension 
 
 #### Test à blanc du parcours {#dry-run-g}
 
-Des mécanismes de sécurisation spécifiques s’appliquent à l’exécution d’essai de Parcours ****, y compris le comptage en fonction des quotas de profil engageable et de parcours réel. Ils sont répertoriés sur [cette page](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
+Des mécanismes de sécurisation spécifiques s’appliquent à l’exécution d’essai de Parcours **&#x200B;**, y compris le comptage en fonction des quotas de profil engageable et de parcours réel. Ils sont répertoriés sur [cette page](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
 
 #### Fragments de parcours {#fragments-journey-g}
 
@@ -427,7 +436,7 @@ Des mécanismes de sécurisation spécifiques s’appliquent à **l’envoi de v
 
 #### Simulation de parcours {#simulation-g}
 
-Des mécanismes de sécurisation spécifiques s’appliquent à la simulation de parcours ****. Ils sont répertoriés sur [cette page](../building-journeys/simulate-journey.md#limitations).
+Des mécanismes de sécurisation spécifiques s’appliquent à la simulation de parcours **&#x200B;**. Ils sont répertoriés sur [cette page](../building-journeys/simulate-journey.md#limitations).
 
 ## Orchestration de campagne {#campaign-orchestration}
 
