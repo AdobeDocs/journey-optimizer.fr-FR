@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
-source-wordcount: 4262
-ht-degree: 98%
+source-wordcount: 4490
+ht-degree: 93%
 
 ---
 
@@ -141,6 +141,10 @@ Journey Optimizer prend en charge un volume maximal de 500 messages transactio
 ## Contenu et ressources {#content-assets}
 
 Cette section présente les mécanismes de sécurisation pour la création et la gestion de contenu, y compris les pages de destination, les sous-domaines et les fragments.
+
+### Mécanismes de sécurisation de l’assistant AI {#ai-assistant-g}
+
+Les mécanismes de sécurisation et les limitations de la **génération de contenu de l’assistant AI**, y compris les canaux pris en charge (e-mail, push, web, SMS) et les limitations de l’éditeur de personnalisation, sont répertoriés sur [cette page](../content-management/gs-generative.md#generative-guardrails).
 
 ### Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
@@ -350,6 +354,8 @@ Le mécanisme de sécurisation suivant s’applique à l’activité de parcours
 
 Pour en savoir plus sur les taux de traitement de parcours et les limites de débit, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 
+D’autres mécanismes de sécurisation, notamment des recommandations sur les audiences en flux continu par rapport aux audiences par lots et les limites d’audience de composition, sont répertoriés sur [cette page](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
+
 #### Activités de campagne {#ac-g}
 
 Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
@@ -357,6 +363,10 @@ Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICO
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
 * Les activités **[!UICONTROL Campaign Standard]** ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur du code, E-mail, Notification push, SMS, Messages in-app, Web.
 * Les activités **[!UICONTROL Campaign v7/v8]** peuvent être utilisées conjointement avec les activités de canal natives dans le même parcours.
+
+#### Événements de réaction {#reaction-events-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent aux événements **[!UICONTROL Reaction]**, notamment l’exigence de placer l’activité immédiatement après une action de canal et l’impossibilité de suivre les messages envoyés dans un autre parcours. Ils sont répertoriés sur [cette page](../building-journeys/reaction-events.md#guardrails-limitations).
 
 #### Activité in-app {#in-app-activity-limitations}
 
@@ -377,6 +387,10 @@ Les mécanismes de sécurisation suivants s’appliquent à l’action **[!UICON
 * Un délai d’activation peut se produire entre le moment où le profil d’une personne atteint une activité in-app dans la zone de travail et le moment où ladite personne commence à voir ce message in-app.
 
 * La taille du contenu du message in-app est limitée à 2 Mo. L’inclusion d’images de grande taille peut entraver le processus de publication.
+
+#### Activité de décision de contenu {#content-decision-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Décision de contenu]**, notamment un délai de 48 heures avant que les politiques de consentement mises à jour ne prennent effet dans les politiques de décision. Ils sont répertoriés sur [cette page](../building-journeys/content-decision.md#guardrails).
 
 #### Activité Saut {#jump-g}
 
@@ -403,6 +417,26 @@ Voir aussi [recommandations et configuration](../building-journeys/read-audience
 #### Activité Mettre à jour un profil {#update-profile-g}
 
 Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Mettre à jour un profil]**. Ils sont répertoriés sur [cette page](../building-journeys/update-profiles.md).
+
+#### Parcours Pause {#pause-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à la **suspension des parcours**, notamment une durée de pause maximale de 14 jours et une limite de 10 millions de profils sur tous les parcours en pause de votre organisation. Ils sont répertoriés sur [cette page](../building-journeys/journey-pause.md#journey-pause-guardrails).
+
+#### Test à blanc du parcours {#dry-run-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à l’exécution d’essai de Parcours **&#x200B;**, y compris le comptage en fonction des quotas de profil engageable et de parcours réel. Ils sont répertoriés sur [cette page](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
+
+#### Fragments de parcours {#fragments-journey-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à **fragments de Parcours**, y compris un maximum de 20 nœuds par fragment et 200 fragments actifs par sandbox. Ils sont répertoriés sur [cette page](../building-journeys/journey-fragments.md#guardrails).
+
+#### Envoyer par vagues {#waves-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à **l’envoi de vagues dans les parcours**, notamment une plage de vagues de 2 à 10 et un intervalle minimum de 30 minutes entre les vagues. Ils sont répertoriés sur [cette page](../building-journeys/send-using-waves.md#limitations-guardrails).
+
+#### Simulation de parcours {#simulation-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à la simulation de parcours **&#x200B;**. Ils sont répertoriés sur [cette page](../building-journeys/simulate-journey.md#limitations).
 
 ## Orchestration de campagne {#campaign-orchestration}
 
