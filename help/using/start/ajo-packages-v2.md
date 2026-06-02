@@ -65,7 +65,7 @@ Touchez des audiences par le biais des canaux de messagerie sortants.
 
 **Surfaces prises en charge :** boîte de réception, écran de verrouillage de l’appareil mobile/plateau de notification, adresse postale
 
-Inclut les principes de délivrabilité pour la prise en charge du réchauffement des adresses IP sur les nouvelles instances. [En savoir plus sur la délivrabilité ](../reports/deliverability.md)
+Inclut les principes de délivrabilité pour la prise en charge du réchauffement des adresses IP sur les nouvelles instances. [En savoir plus sur la délivrabilité &#x200B;](../reports/deliverability.md)
 
 >[!TAB Mobile]
 
