@@ -172,13 +172,13 @@ Pour ce faire, procédez comme suit :
 >id="ajo_editable_field_compatibility"
 >title="Fragment hérité"
 >abstract="Ce champ modifiable est en mode texte uniquement. Mise en forme de texte enrichi (gras, italique, hyperliens, sauts de ligne, etc.) n’est pas disponible tant que le fragment n’a pas été mis à niveau vers le mode compatible avec HTML. Accédez aux paramètres du corps du fragment et cliquez sur <b>Basculer en mode HTML</b> pour activer la modification de texte enrichi."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personnalisation des champs modifiables dans un fragment"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personnalisation des champs modifiables dans un fragment"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="Fragment hérité"
 >abstract="Les champs modifiables de ce fragment sont en mode texte uniquement. Mise en forme de texte enrichi (gras, italique, hyperliens, sauts de ligne, etc.) n’est pas disponible tant que le fragment n’a pas été mis à niveau vers le mode compatible avec HTML. Pour ce faire, ouvrez l’éditeur de fragments et cliquez sur <b>Basculer en mode HTML</b>."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personnalisation des champs modifiables dans un fragment"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personnalisation des champs modifiables dans un fragment"
 
 Le texte enrichi tel que les sauts de ligne, le gras, l’italique, etc. peut être ajouté à un fragment personnalisable à l’aide des composants HTML. Pour ce faire, procédez comme suit.
 <!--
