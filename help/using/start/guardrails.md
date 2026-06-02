@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
-source-wordcount: 4262
-ht-degree: 98%
+source-wordcount: 4490
+ht-degree: 93%
 
 ---
 
@@ -35,7 +26,7 @@ ht-degree: 98%
 
 Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
 
-Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -116,7 +107,7 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../mobil
 
   Les canaux entrants de Journey Optimizer ciblent les nouveaux profils qui n’ont peut-être jamais été engagés avant sur d’autres canaux. Cela augmente le nombre total de [profils engageables](../audience/license-usage.md), ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
 
-  Les métriques de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
+  Les métriques de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
 
 * Journey Optimizer prend en charge un maximum de 500 actions entrantes actives, quel que soit le moment. Ces actions entrantes sont comptabilisées si elles font partie d’une campagne active ou si elles sont un nœud utilisé dans un parcours actif. Une fois ce nombre atteint, vous devez désactiver les anciennes campagnes ou les anciens parcours qui utilisent des actions entrantes avant de pouvoir en lancer de nouvelles.
 
@@ -124,7 +115,7 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../mobil
 
 Les canaux entrants [!DNL Journey Optimizer] peuvent cibler des profils pseudonymes, c’est-à-dire des profils qui ne sont pas authentifiés ou qui ne sont pas encore connus, car ils n’ont encore jamais été engagés sur d’autres canaux. C’est notamment le cas lors du ciblage de tous les visiteurs ou audiences en fonction d’ID temporaires tels que les ECID.
 
-Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
+Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description de produit Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageables dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
 
 Pour que le nombre de profils engageables reste raisonnable, Adobe recommande de définir une durée de vie (TTL) pour supprimer automatiquement les profils pseudonymes du profil client en temps réel s’ils n’ont pas été vus ou engagés dans une période spécifique.
 
@@ -141,6 +132,10 @@ Journey Optimizer prend en charge un volume maximal de 500 messages transactio
 ## Contenu et ressources {#content-assets}
 
 Cette section présente les mécanismes de sécurisation pour la création et la gestion de contenu, y compris les pages de destination, les sous-domaines et les fragments.
+
+### Mécanismes de sécurisation de l’assistant AI {#ai-assistant-g}
+
+Les mécanismes de sécurisation et les limitations de la **génération de contenu de l’assistant AI**, y compris les canaux pris en charge (e-mail, push, web, SMS) et les limitations de l’éditeur de personnalisation, sont répertoriés sur [cette page](../content-management/gs-generative.md#generative-guardrails).
 
 ### Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
@@ -236,7 +231,7 @@ Si la requête dépasse la taille maximale autorisée, la réponse inclut **Enti
 * Envisagez de diviser le parcours en parcours plus petits si nécessaire.
 * Si vous pensez que votre organisation a besoin d’une limite supérieure, contactez votre représentant ou représentante Adobe.
 
-Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours &#x200B;](../building-journeys/journey-properties.md#journey-payload-size)
+Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours ](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Restrictions du package Select pour les parcours unitaires {#select-package-limitations}
 
@@ -262,7 +257,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publish-journey.md#journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -350,6 +345,8 @@ Le mécanisme de sécurisation suivant s’applique à l’activité de parcours
 
 Pour en savoir plus sur les taux de traitement de parcours et les limites de débit, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 
+D’autres mécanismes de sécurisation, notamment des recommandations sur les audiences en flux continu par rapport aux audiences par lots et les limites d’audience de composition, sont répertoriés sur [cette page](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
+
 #### Activités de campagne {#ac-g}
 
 Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
@@ -357,6 +354,10 @@ Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICO
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
 * Les activités **[!UICONTROL Campaign Standard]** ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur du code, E-mail, Notification push, SMS, Messages in-app, Web.
 * Les activités **[!UICONTROL Campaign v7/v8]** peuvent être utilisées conjointement avec les activités de canal natives dans le même parcours.
+
+#### Événements de réaction {#reaction-events-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent aux événements **[!UICONTROL Reaction]**, notamment l’exigence de placer l’activité immédiatement après une action de canal et l’impossibilité de suivre les messages envoyés dans un autre parcours. Ils sont répertoriés sur [cette page](../building-journeys/reaction-events.md#guardrails-limitations).
 
 #### Activité in-app {#in-app-activity-limitations}
 
@@ -377,6 +378,10 @@ Les mécanismes de sécurisation suivants s’appliquent à l’action **[!UICON
 * Un délai d’activation peut se produire entre le moment où le profil d’une personne atteint une activité in-app dans la zone de travail et le moment où ladite personne commence à voir ce message in-app.
 
 * La taille du contenu du message in-app est limitée à 2 Mo. L’inclusion d’images de grande taille peut entraver le processus de publication.
+
+#### Activité de décision de contenu {#content-decision-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Décision de contenu]**, notamment un délai de 48 heures avant que les politiques de consentement mises à jour ne prennent effet dans les politiques de décision. Ils sont répertoriés sur [cette page](../building-journeys/content-decision.md#guardrails).
 
 #### Activité Saut {#jump-g}
 
@@ -403,6 +408,26 @@ Voir aussi [recommandations et configuration](../building-journeys/read-audience
 #### Activité Mettre à jour un profil {#update-profile-g}
 
 Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Mettre à jour un profil]**. Ils sont répertoriés sur [cette page](../building-journeys/update-profiles.md).
+
+#### Parcours Pause {#pause-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à la **suspension des parcours**, notamment une durée de pause maximale de 14 jours et une limite de 10 millions de profils sur tous les parcours en pause de votre organisation. Ils sont répertoriés sur [cette page](../building-journeys/journey-pause.md#journey-pause-guardrails).
+
+#### Test à blanc du parcours {#dry-run-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à l’exécution d’essai de Parcours ****, y compris le comptage en fonction des quotas de profil engageable et de parcours réel. Ils sont répertoriés sur [cette page](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
+
+#### Fragments de parcours {#fragments-journey-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à **fragments de Parcours**, y compris un maximum de 20 nœuds par fragment et 200 fragments actifs par sandbox. Ils sont répertoriés sur [cette page](../building-journeys/journey-fragments.md#guardrails).
+
+#### Envoyer par vagues {#waves-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à **l’envoi de vagues dans les parcours**, notamment une plage de vagues de 2 à 10 et un intervalle minimum de 30 minutes entre les vagues. Ils sont répertoriés sur [cette page](../building-journeys/send-using-waves.md#limitations-guardrails).
+
+#### Simulation de parcours {#simulation-g}
+
+Des mécanismes de sécurisation spécifiques s’appliquent à la simulation de parcours ****. Ils sont répertoriés sur [cette page](../building-journeys/simulate-journey.md#limitations).
 
 ## Orchestration de campagne {#campaign-orchestration}
 
