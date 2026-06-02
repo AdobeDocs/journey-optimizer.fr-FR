@@ -33,7 +33,7 @@ Adobe Journey Optimizer propose deux méthodes pour tester et valider votre parc
 
 Le panneau **[!UICONTROL Simulation]** affiche uniquement les étapes dont votre parcours a besoin. Cela dépend de la manière dont les profils entrent dans le parcours. À partir de ces facteurs, Adobe Journey Optimizer fait apparaître différentes expériences de simulation. Développez chaque type ci-dessous pour voir en quoi l’exécution diffère et quels panneaux vous utilisez.
 
-Pour plus d’informations, voir [ Simuler votre parcours ](simulate-journey.md).
+Pour plus d’informations, voir [&#x200B; Simuler votre parcours &#x200B;](simulate-journey.md).
 
 +++ Parcours par lots avec une audience lue
 
@@ -67,7 +67,7 @@ Avec parcours unitaire **, vous accédez directement au menu Simulation manuelle
 
 ## Lancer la simulation {#launch}
 
-Passez le parcours à **[!UICONTROL Simulation]** pour le tester avec des utilisateurs et utilisatrices simulés. Les tâches détaillées sont présentées dans la section [ Simuler votre parcours ](simulate-journey.md).
+Passez le parcours à **[!UICONTROL Simulation]** pour le tester avec des utilisateurs et utilisatrices simulés. Les tâches détaillées sont présentées dans la section [&#x200B; Simuler votre parcours &#x200B;](simulate-journey.md).
 
 1. Dans le parcours, cliquez sur **[!UICONTROL Simuler]** et choisissez **[!UICONTROL Simuler]**.
 
@@ -91,7 +91,7 @@ Si un parcours contient l’un des nœuds suivants, il ne peut pas être démarr
 | ID supplémentaire (plusieurs reprises) | Une rentrée simultanée (plusieurs instances actives pour le même utilisateur simulé) empêche le démarrage de **[!UICONTROL Simulation]**. |
 | Nœud de décision de contenu | Cette activité doit être supprimée ou modifiée avant de pouvoir simuler le parcours. |
 | Recherche de jeu de données | Les recherches de jeux de données client par clé ne sont pas prises en charge. Les parcours qui incluent cette activité ne peuvent pas être exécutés dans **[!UICONTROL Simulation]**. |
-| Activité **[!UICONTROL Optimiser]** | Les méthodes **[!UICONTROL Optimize]** suivantes ne sont pas prises en charge dans **[!UICONTROL Simulation]** : **[!UICONTROL Expérience]**, **[!UICONTROL Règle de ciblage]**, **[!UICONTROL Partage en pourcentage]**, **[!UICONTROL Condition de temps]**, **[!UICONTROL Condition de date]**, **[!UICONTROL Limite de profil]** et **[!UICONTROL Données externes Source]** ****. Supprimez ou modifiez le nœud avant de procéder à la simulation. |
+| Activité **[!UICONTROL Optimiser]** | Les méthodes **[!UICONTROL Optimize]** suivantes ne sont pas prises en charge dans **[!UICONTROL Simulation]** : **[!UICONTROL Expérience]**, **[!UICONTROL Règle de ciblage]**, **[!UICONTROL Partage en pourcentage]**, **[!UICONTROL Condition de temps]**, **[!UICONTROL Condition de date]**, **[!UICONTROL Limite de profil]** et **[!UICONTROL Données externes Source]** **&#x200B;**. Supprimez ou modifiez le nœud avant de procéder à la simulation. |
 | Enrichissement des attributs d’audience externe | Les parcours qui utilisent des attributs personnalisés provenant de sources d’audience externes ne démarrent pas dans **[!UICONTROL Simulation]** lorsque cette validation est activée. |
 
 +++
@@ -131,7 +131,7 @@ Ces mécanismes de sécurisation s’appliquent à **[!UICONTROL Simulation]**. 
 | Mécanisme de sécurisation | Limite | Notes |
 | --- | --- | --- |
 | Nombre maximal d’utilisateurs simulés pouvant être sélectionnés et déclenchés dans un lot (parcours par lots, flux déclenchés par un événement et flux de qualification d’audience) | 20 | Comptabilisé pour chaque **[!UICONTROL Envoyer tout]** ou **[!UICONTROL Déclencher les événements sélectionnés]** ; pas de limite cumulée pour l’ensemble du parcours. |
-| Nombre maximal d’utilisateurs simulés uniques testés au cours d’une seule exécution de simulation | 100 | Atteindre **100** utilisateurs uniques en un seul bloc d’exécution **[!UICONTROL Sélectionner des utilisateurs simulés]** pour les nouveaux utilisateurs simulés. Si vous êtes à **90**, vous pouvez ajouter au plus 10 **** avant le même bloc. |
+| Nombre maximal d’utilisateurs simulés uniques testés au cours d’une seule exécution de simulation | 100 | Atteindre **100** utilisateurs uniques en un seul bloc d’exécution **[!UICONTROL Sélectionner des utilisateurs simulés]** pour les nouveaux utilisateurs simulés. Si vous êtes à **90**, vous pouvez ajouter au plus 10 **&#x200B;**&#x200B;avant le même bloc. |
 | Nombre maximal de parcours pouvant être exécutés en même temps dans un sandbox **[!UICONTROL Simulation]** | 20 | La limite est partagée par chaque parcours **[!UICONTROL Simulation]** à la fois dans ce sandbox. |
 | Nombre maximal d’utilisateurs actifs simulés dans un sandbox | 2,000 | Nombre maximal d’utilisateurs simulés pouvant exister simultanément dans le sandbox. Adobe peut ajuster cette limite en fonction des commentaires des clients. |
 | Préremplissage De L’Événement (Navigateur Uniquement) | — | Vous pouvez préremplir les champs de payload d’événement uniquement dans l’interface utilisateur de la simulation basée sur un navigateur. Les valeurs préremplies restent dans ce navigateur et ne sont pas synchronisées avec d’autres navigateurs, appareils ou sessions, de sorte que vous pouvez voir différentes données de préremplissage à chaque emplacement que vous testez. |
