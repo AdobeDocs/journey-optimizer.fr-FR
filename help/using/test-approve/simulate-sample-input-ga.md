@@ -10,22 +10,13 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 39%
@@ -144,19 +135,15 @@ Vous pouvez charger un fichier avec des variantes et des valeurs prédéfinies p
 
 ### Générer automatiquement des variantes de contenu {#auto-generate-variants}
 
-[!DNL Journey Optimizer] pouvez utiliser la simulation basée sur l’IA pour générer automatiquement une variante de contenu afin de pouvoir valider votre logique de personnalisation sans créer de variantes manuellement.
+[!DNL Journey Optimizer] pouvez utiliser la simulation basée sur l’IA pour générer automatiquement une variante de contenu afin de pouvoir valider votre logique de personnalisation sans créer de variantes manuellement. Lors du rendu du contenu à des fins de simulation ou de vérification, le système analyse votre contenu, identifie les champs de personnalisation et les remplace par des valeurs significatives pour un aperçu quasi réaliste.
 
-Lors du rendu du contenu à des fins de simulation ou de vérification, le système analyse votre contenu, identifie les champs de personnalisation et les remplace par des valeurs significatives pour un aperçu quasi réaliste.
+Pour générer automatiquement une variante, cliquez sur le bouton **[!UICONTROL Générer]** et attendez que le système génère la variante. Examinez la variante générée dans la liste des variantes et son rendu.
 
-Pour générer automatiquement une variante, cliquez sur le bouton **[!UICONTROL Générer]** et attendez que le système génère la variante.
-
-![Bouton Générer les variantes](assets/simulate-generate-variant.png)
+![Bouton Générer les variantes](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >La génération produit une seule variante. Cliquer sur **[!UICONTROL Générer]** remplace toutes les variantes de contenu existantes dans la liste, y compris celles que vous avez ajoutées manuellement ou à partir d’un fichier, par une variante générée.
-
-Examinez la variante générée dans la liste des variantes et son rendu.
 
 ### Sélectionner des variantes à partir d’utilisateurs simulés {#simulated-users}
 
