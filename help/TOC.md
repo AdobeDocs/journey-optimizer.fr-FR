@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3359'
 ht-degree: 95%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 95%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
@@ -65,8 +65,8 @@ ht-degree: 95%
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + [Simuler votre parcours](using/building-journeys/simulate-journey.md)
-      + {hide-from-toc}[Prise en main de la simulation de Parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
-      + {hide-from-toc}[Simuler votre parcours &#x200B;](using/building-journeys/simulate-journey-2.md)
+      + {hide-from-toc}[Prise en main de la simulation de Parcours ](using/building-journeys/simulate-journey-gs.md)
+      + {hide-from-toc}[Simuler votre parcours ](using/building-journeys/simulate-journey-2.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
       + [Publier votre parcours](using/building-journeys/publish-journey.md)
@@ -109,7 +109,7 @@ ht-degree: 95%
    + Créer des expressions {#building-advanced-conditions-journeys}
       + [Créer des expressions](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Utiliser l’éditeur d’expression avancé](using/building-journeys/expression/expressionadvanced.md)
-      + {hide-from-toc}[Assistant d’expression](using/building-journeys/expression/expression-agent.md)
+      + [Générer des expressions à l’aide de l’assistant d’expressions](using/building-journeys/expression/expression-agent.md)
       + Syntaxe {#syntax}
          + [Syntaxe](/help/rp_landing_pages/syntax-landing-page.md)
          + [Syntaxe de l’éditeur d’expression avancé](using/building-journeys/expression/generalities.md)
@@ -310,7 +310,7 @@ ht-degree: 95%
             + [Ajouter des métadonnées](using/email/email-metadata.md)
             + [Modifier avec l’éditeur HTML avancé](using/email/email-expert-mode.md)
          + Modifier le style {#edit-style}
-            + {hide-from-toc}[Modifier le style &#x200B;](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[Modifier le style ](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
             + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
@@ -908,7 +908,7 @@ ht-degree: 95%
    + [Commencer la configuration des canaux](using/configuration/get-started-configuration.md)
    + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
    + [Exporter le contenu du message](using/configuration/message-export.md)
-   + {hide-from-toc}[Schéma d&#39;export des messages &#x200B;](using/configuration/message-export-schema.md)
+   + {hide-from-toc}[Schéma d&#39;export des messages ](using/configuration/message-export-schema.md)
    + Configuration guidée des canaux {#guided-setup}
       + [Commencer la configuration guidée des canaux](using/configuration/set-mobile-config.md)
       + [Créer une configuration de canal](using/configuration/create-channel-set-up.md)

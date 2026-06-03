@@ -4,15 +4,14 @@ product: journey optimizer
 title: Générer des expressions à l’aide de l’assistant d’expressions
 description: Découvrez comment utiliser l’assistant Expression dans Adobe Journey Optimizer pour générer des expressions directement dans l’éditeur d’expression avancé du Parcours à l’aide d’invites en langage naturel.
 feature: Journeys
-topic: Content Management, Artificial Intelligence
+topic: Content Management
 role: User
 level: Intermediate
 badge: label="Bêta publique" type="Informative"
 mini-toc-levels: 2
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
 source-wordcount: 660
 ht-degree: 13%
@@ -35,7 +34,7 @@ ht-degree: 13%
 
 L’assistant d’expression est une fonctionnalité optimisée par l’IA intégrée à l’éditeur d’expression avancé du Parcours. Cela vous permet de générer des expressions valides à partir d’invites en langage clair.
 
-Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente &#x200B;]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
+Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente ]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
 
 ## Générer une expression {#generate}
 
