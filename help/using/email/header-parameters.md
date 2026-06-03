@@ -10,24 +10,15 @@ level: Experienced
 keywords: paramètres, e-mail, configuration, en-tête de l'expéditeur, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
 workflow-type: tm+mt
-source-wordcount: 1089
-ht-degree: 64%
+source-wordcount: 1137
+ht-degree: 61%
 
 ---
 
@@ -39,7 +30,7 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 >
 >Pour un contrôle accru des paramètres d’e-mail, vous pouvez personnaliser les paramètres d’en-tête. [En savoir plus](../email/surface-personalization.md#personalize-header)
 >
->Lors de la [&#x200B; modification d’une configuration d’e-mail](../configuration/channel-surfaces.md#edit-channel-surface) vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une configuration de canal.
+>Lors de la [ modification d’une configuration d’e-mail](../configuration/channel-surfaces.md#edit-channel-surface) vous ne pouvez pas ajouter de nouveaux [attributs de profil](../personalization/personalization-build-expressions.md#sources) aux paramètres d’en-tête. Vous devez créer une configuration de canal.
 
 * **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]** : nom de l’expéditeur ou de l’expéditrice, tel que le nom de votre marque.
 
@@ -91,15 +82,16 @@ Dans ce cas, vous pouvez définir un nom et une adresse e-mail **Expéditeur** d
 
 Lorsque les paramètres **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** sont définis, [!DNL Journey Optimizer] ajoute un en-tête SMTP **Expéditeur** à l’e-mail<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. Les clients de messagerie qui prennent en charge cette fonctionnalité peuvent afficher un libellé tel que **Expéditeur pour le compte de l’expéditeur** ou un indicateur **via**.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Si vous laissez les champs **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** vides ou si l’en-tête **Expéditeur** résolu est identique à **De**, aucun en-tête **Expéditeur** n’est ajouté.
+>**[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** doivent être configurés ensemble : les deux champs sont remplis ou ils restent vides. Le fait de n’en remplir qu’un seul empêche la publication des parcours et des campagnes avec cette configuration de canal.
 
-Remarques :
+Lors de la configuration des en-têtes **Expéditeur**, tenez compte des points suivants :
 
+* Si vous laissez les champs **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** vides ou si l’en-tête **Expéditeur** résolu est identique à **De**, aucun en-tête **Expéditeur** n’est ajouté.
 * L’adresse **Expéditeur** n’est pas utilisée pour l’alignement SPF, DKIM ou DMARC ; seule la validation **format** est effectuée. SPF, DKIM et DMARC continuent de s’appuyer sur les champs **De**. Le [sous-domaine délégué](../configuration/about-subdomain-delegation.md) sélectionné pour la configuration reste le domaine d’envoi utilisé pour ces vérifications.
 
-* Si **Expéditeur** est configuré et que la personnalisation ne correspond pas à une valeur pour un destinataire, le message n’est pas remis à ce destinataire.
+* Si les en-têtes **Expéditeur** sont configurés et que la personnalisation ne se résout pas sur une valeur pour un destinataire, le message n’est pas remis à ce destinataire.
 
 ## Adresse e-mail de réponse {#reply-to-email}
 
