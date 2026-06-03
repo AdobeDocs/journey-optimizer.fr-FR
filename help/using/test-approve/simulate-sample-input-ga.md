@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 39%
@@ -144,19 +144,15 @@ Vous pouvez charger un fichier avec des variantes et des valeurs prédéfinies p
 
 ### Générer automatiquement des variantes de contenu {#auto-generate-variants}
 
-[!DNL Journey Optimizer] pouvez utiliser la simulation basée sur l’IA pour générer automatiquement une variante de contenu afin de pouvoir valider votre logique de personnalisation sans créer de variantes manuellement.
+[!DNL Journey Optimizer] pouvez utiliser la simulation basée sur l’IA pour générer automatiquement une variante de contenu afin de pouvoir valider votre logique de personnalisation sans créer de variantes manuellement. Lors du rendu du contenu à des fins de simulation ou de vérification, le système analyse votre contenu, identifie les champs de personnalisation et les remplace par des valeurs significatives pour un aperçu quasi réaliste.
 
-Lors du rendu du contenu à des fins de simulation ou de vérification, le système analyse votre contenu, identifie les champs de personnalisation et les remplace par des valeurs significatives pour un aperçu quasi réaliste.
+Pour générer automatiquement une variante, cliquez sur le bouton **[!UICONTROL Générer]** et attendez que le système génère la variante. Examinez la variante générée dans la liste des variantes et son rendu.
 
-Pour générer automatiquement une variante, cliquez sur le bouton **[!UICONTROL Générer]** et attendez que le système génère la variante.
-
-![Bouton Générer les variantes](assets/simulate-generate-variant.png)
+![Bouton Générer les variantes](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >La génération produit une seule variante. Cliquer sur **[!UICONTROL Générer]** remplace toutes les variantes de contenu existantes dans la liste, y compris celles que vous avez ajoutées manuellement ou à partir d’un fichier, par une variante générée.
-
-Examinez la variante générée dans la liste des variantes et son rendu.
 
 ### Sélectionner des variantes à partir d’utilisateurs simulés {#simulated-users}
 
