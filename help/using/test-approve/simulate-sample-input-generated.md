@@ -11,12 +11,11 @@ badge: label="Private Beta" type="Informative"
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
 feature_v2: []
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 285
-ht-degree: 97%
+source-wordcount: 278
+ht-degree: 96%
 
 ---
 
@@ -36,9 +35,7 @@ Prenons un modèle d’e-mail pour les services financiers avec une logique de b
 
 Pour générer des variations pour votre contenu et les prévisualiser, procédez comme suit :
 
-1. Ouvrez votre contenu et sélectionnez **[!UICONTROL Simuler du contenu]**/**[!UICONTROL Simuler des variations de contenu]**.
-
-   ![Option Simuler des variations de contenu](assets/simulate-sample.png)
+1. Ouvrez votre contenu et cliquez sur **[!UICONTROL Simuler du contenu]**.
 
 2. Cliquez sur le bouton **[!UICONTROL Générer]**.
 

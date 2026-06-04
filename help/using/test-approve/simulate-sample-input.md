@@ -9,25 +9,16 @@ role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5646481058c0855034cb559f18f44fad6f43fa15
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 89%
+source-wordcount: 990
+ht-degree: 86%
 
 ---
 
@@ -61,7 +52,7 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 
   >[!NOTE]
   >
-  >Pour l’instant, le rendu de la boîte de réception et les rapports de spam ne sont pas disponibles dans l’expérience actuelle. Pour utiliser ces fonctionnalités, sélectionnez le bouton **[!UICONTROL Simuler le contenu]** de votre contenu pour accéder à l’interface d’utilisation précédente.
+  >Pour l’instant, le rendu de la boîte de réception et les rapports de spam ne sont pas disponibles dans l’expérience actuelle. Pour utiliser ces fonctionnalités, cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour accéder à l’interface utilisateur précédente.
 
 * **Attributs** : les attributs de profil et contextuels sont pris en charge.
 
@@ -71,9 +62,9 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 
 ## Ajouter et prévisualiser des variations de contenu
 
-Pour créer des variations de votre contenu et les prévisualiser, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** et choisissez **[!UICONTROL Simuler les variations de contenu]**.
+Pour créer des variations pour votre contenu et les prévisualiser, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
-![Option Simuler des variations de contenu](assets/simulate-sample.png)
+![Bouton Simuler le contenu](assets/simulate-sample.png)
 
 Les principales étapes pour tester votre contenu sont les suivantes :
 
@@ -153,7 +144,7 @@ Dans l’exemple ci-dessous, nous avons ajouté deux variantes pour l’objet d
 
 Pour le contenu et l’expérimentation multilingues, une liste déroulante est disponible pour basculer entre les différentes variantes ou traitements de langue.
 
-![&#x200B; Sélecteur de langue ou de traitement &#x200B;](assets/simulate-custom-experiment.png)
+![ Sélecteur de langue ou de traitement ](assets/simulate-custom-experiment.png)
 
 Vous pouvez supprimer une variante à tout moment à l’aide du bouton représentant des points de suspension dans le coin supérieur droit et en sélectionnant **[!UICONTROL Supprimer]**. Pour modifier les informations d’une variante, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
 

@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 100%
+source-wordcount: 575
+ht-degree: 88%
 
 ---
 
@@ -31,7 +30,7 @@ Une fois votre contenu défini, vous pouvez le prévisualiser avant d’envoyer 
 
 Vous pouvez également envoyer des diffusions de test de vos e-mails à des destinataires ou à des personnes abonnées spécifiques à des fins de test et de validation, et vérifier la façon dont ils s’affichent sur les clients populaires de bureau, mobiles et web. Vous pouvez également évaluer les aspects généraux de la qualité du contenu, tels que la lisibilité et l’efficacité. [En savoir plus sur la validation de la qualité du contenu](brands-score.md#validate-quality)
 
-Toutes ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simuler du contenu]** accessible à partir de l’écran d’édition du contenu de votre message ou à partir des concepteurs d’e-mail et web pour les canaux e-mail et web.
+Toutes ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simuler du contenu]**, accessible à partir de l’écran de modification du contenu de votre message ou à partir des concepteurs et conceptrices web et d’e-mail pour les canaux e-mail et web. Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu à l’aide de données d’entrée d’exemple. Pour prévisualiser avec des profils de test, envoyer des BAT ou vérifier le rendu des e-mails, sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante.
 
 ![](../email/assets/email-preview-button.png)
 
@@ -75,4 +74,4 @@ Journey Optimizer propose deux expériences pour tester votre contenu :
 
 Découvrez comment utiliser des profils de test pour tester le rendu des e-mails dans différentes boîtes de réception, prévisualiser vos e-mails personnalisés avec des profils de test et envoyer des BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430344?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
