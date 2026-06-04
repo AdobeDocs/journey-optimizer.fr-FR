@@ -127,4 +127,4 @@ Le graphique ci-dessous résume le processus de prise de décision de bout en bo
 
 Découvrez les fonctionnalités de prise de décision dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475865?captions=fre_fr&quality=12)
