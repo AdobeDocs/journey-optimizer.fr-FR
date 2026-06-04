@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 82%
+source-wordcount: 732
+ht-degree: 78%
 
 ---
 
@@ -106,7 +106,13 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
    ➡️ [Découvrez comment utiliser les politiques de décision.](create-decision.md)
 ➡️ Pour diffuser avec succès l’offre via le canal d’expérience basé sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
 
-## Ressources supplémentaires
+## Processus de prise de décision {#process}
+
+Le graphique ci-dessous résume le processus de prise de décision de bout en bout, de la gestion des éléments de décision à la configuration des stratégies de sélection, en passant par l’incorporation des politiques de décision dans un parcours d’expérience ou une campagne basé sur du code.
+
+![](assets/decisioning-process.png)
+
+## Ressources supplémentaires {#additional-resources}
 
 * **[Créer des éléments de décision](items.md)** - Découvrez comment créer et gérer des éléments de décision, y compris des offres, des variations de contenu et des expériences.
 * **[Configurer des catalogues de décisions](catalogs.md)** - Découvrez comment organiser les éléments de décision en catalogues pour une meilleure gestion.

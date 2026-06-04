@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e3c588e5d0eb5c227873f1af2ca9b3ba5bd6e02e
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 8114
+source-wordcount: 8153
 ht-degree: 88%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 88%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* La page **Prise en main de Decisioning** a été mise à jour avec un graphique de processus qui résume le workflow de prise de décision de bout en bout, de la gestion des éléments de décision et de la configuration des stratégies de sélection à l&#39;incorporation de politiques de décision dans un parcours ou une campagne. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md#process)
 
 * La documentation **En-têtes de l’expéditeur** indique désormais que les champs **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** doivent tous deux être définis ou laissés vides. Dans le cas contraire, les parcours et les campagnes ne peuvent pas être publiés. [En savoir plus](../email/header-parameters.md#sender-header)
 
