@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 969d008e705c2852a3f7dadc69f4a05df3cca81f
+source-git-commit: f4f018aa51fb36181fdb5b568dcef457004c8ef3
 workflow-type: tm+mt
-source-wordcount: 2649
-ht-degree: 21%
+source-wordcount: 2755
+ht-degree: 20%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 21%
 <p>Cette fonctionnalité est disponible pour tous les clients sous la forme d’un Beta public.</p>
 <p><img src="assets/do-not-localize/expression-assistant.gif"></p>
 <p>Pour plus d'informations, consultez la <a href="../building-journeys/expression/expression-agent.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 3 juin 2026</p>
+<p>Date de disponibilité : 3 juin 2026</p> 
 </td>
 </tr>
 </tbody>
@@ -72,6 +72,8 @@ ht-degree: 21%
 * **Saisie automatique pour les parcours de lecture d’audience non récurrents** - Les parcours non récurrents **lecture d’audience** passent désormais automatiquement au statut **Arrêté** une fois le dernier profil actif quitté. Auparavant, ces parcours restaient **en ligne** jusqu’à l’expiration du délai d’expiration global de 91 jours, même lorsqu’aucun profil n’y circulait plus. Grâce à cette amélioration, le statut du parcours reflète le statut d’exécution réel dès qu’il est terminé, ce qui permet de conserver un inventaire précis de vos parcours sans intervention manuelle.
 
   Notez que ce comportement ne s’applique pas aux parcours qui incluent des nœuds provoquant des périodes d’attente, tels que les nœuds d’attente, les nœuds de réaction ou les transitions déclenchées par un événement. Ces parcours restent soumis à la temporisation globale standard de 91 jours. [En savoir plus](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* **Authentification personnalisée basée sur un certificat dans les actions personnalisées** - Les actions personnalisées prennent désormais en charge l’authentification personnalisée basée sur un certificat. En ajoutant `subType: "certificateCredential"` à une configuration d’autorisation personnalisée, Journey Optimizer utilise un certificat géré Adobe pour signer une assertion client JWT et l’échanger contre un jeton d’accès (aucun secret client requis). Conçu pour les API d’entreprise qui appliquent la vérification d’identité avec certificat, comme l’Azure Entra ID. [En savoir plus](../datasource/external-data-sources.md#certificate-credential)
 
   Date de disponibilité : 4 juin 2026
 
@@ -177,7 +179,9 @@ Les fonctionnalités de parcours suivantes sont attendues dans les jours ou sema
 </tbody>
 </table>
 
-* **Authentification personnalisée basée sur un certificat dans les actions personnalisées** - Les actions personnalisées prennent désormais en charge l’authentification personnalisée basée sur un certificat. En ajoutant `subType: "certificateCredential"` à une configuration d’autorisation personnalisée, Journey Optimizer utilise un certificat géré Adobe pour signer une assertion client JWT et l’échanger contre un jeton d’accès (aucun secret client requis). Conçu pour les API d’entreprise qui appliquent la vérification d’identité avec certificat, comme l’Azure Entra ID.
+* **Saisie automatique pour les parcours de lecture d’audience non récurrents** - Les parcours non récurrents **lecture d’audience** passent désormais automatiquement au statut **Arrêté** une fois le dernier profil actif quitté. Auparavant, ces parcours restaient **en ligne** jusqu’à l’expiration du délai d’expiration global de 91 jours, même lorsqu’aucun profil n’y circulait plus. Grâce à cette amélioration, le statut du parcours reflète le statut d’exécution réel dès qu’il est terminé, ce qui permet de conserver un inventaire précis de vos parcours sans intervention manuelle.
+
+  Notez que ce comportement ne s’applique pas aux parcours qui incluent des nœuds provoquant des périodes d’attente, tels que les nœuds d’attente, les nœuds de réaction ou les transitions déclenchées par un événement. Ces parcours restent soumis à la temporisation globale standard de 91 jours.
 
   Date de disponibilité : Début juin 2026
 
@@ -335,7 +339,7 @@ La fonctionnalité de prise de décision suivante est prévue dans les jours ou 
 <td>
 <p>Vous pouvez désormais ajouter des politiques de décision dans les parcours et campagnes de publipostage direct. Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu pour chaque membre de l’audience. La prise de décision par publipostage direct prend également en charge les cas d’utilisation de prise de décision par lots, ce qui vous permet d’exporter les éléments d’offre correspondants pour chaque profil dans une audience Adobe Experience Platform donnée.</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Date de disponibilité : 3 juin 2026</p>
+<p>Date de disponibilité : 4 juin 2026</p>
 </td>
 </tr>
 </tbody>
