@@ -8,8 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
 source-wordcount: 8153
@@ -69,7 +73,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Une nouvelle section **Requêtes relatives aux règles métier** a été ajoutée à la page des exemples de requête. Elle fournit une requête du lac de données permettant de vérifier tous les abandons de profil en raison d’exclusions de limitation de la fréquence des parcours sur un parcours spécifique après une date spécifique. La requête inclut le champ `eventCodeReason` pour identifier si les profils ont été exclus car une limite a été atteinte (`CAP_REACHED`) ou en raison d’une priorité inférieure (`LOWER_PRIORITY`). [En savoir plus](../reports/query-examples.md#business-rules-queries)
 
-* Mise à jour de la documentation des propriétés du Parcours **** afin de documenter le nouvel indicateur **Taille actuelle de la payload du parcours** dans le panneau des propriétés du parcours. Ce champ en lecture seule indique la taille actuelle de la payload du parcours par rapport à la limite configurée (par exemple, 1,5 Mo sur 2 Mo). Cela vous permet de surveiller la complexité du parcours avant la publication et d’éviter les erreurs de publication liées à la taille. [En savoir plus](../building-journeys/journey-properties.md#journey-payload-size)
+* Mise à jour de la documentation des propriétés du Parcours **&#x200B;**&#x200B;afin de documenter le nouvel indicateur **Taille actuelle de la payload du parcours** dans le panneau des propriétés du parcours. Ce champ en lecture seule indique la taille actuelle de la payload du parcours par rapport à la limite configurée (par exemple, 1,5 Mo sur 2 Mo). Cela vous permet de surveiller la complexité du parcours avant la publication et d’éviter les erreurs de publication liées à la taille. [En savoir plus](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## Avril 2026 {#april-2026}
 
@@ -470,7 +474,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
