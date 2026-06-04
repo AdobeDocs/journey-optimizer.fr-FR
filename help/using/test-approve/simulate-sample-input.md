@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5646481058c0855034cb559f18f44fad6f43fa15
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 89%
+source-wordcount: 990
+ht-degree: 86%
 
 ---
 
@@ -61,7 +61,7 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 
   >[!NOTE]
   >
-  >Pour l’instant, le rendu de la boîte de réception et les rapports de spam ne sont pas disponibles dans l’expérience actuelle. Pour utiliser ces fonctionnalités, sélectionnez le bouton **[!UICONTROL Simuler le contenu]** de votre contenu pour accéder à l’interface d’utilisation précédente.
+  >Pour l’instant, le rendu de la boîte de réception et les rapports de spam ne sont pas disponibles dans l’expérience actuelle. Pour utiliser ces fonctionnalités, cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour accéder à l’interface utilisateur précédente.
 
 * **Attributs** : les attributs de profil et contextuels sont pris en charge.
 
@@ -71,9 +71,9 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 
 ## Ajouter et prévisualiser des variations de contenu
 
-Pour créer des variations de votre contenu et les prévisualiser, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** et choisissez **[!UICONTROL Simuler les variations de contenu]**.
+Pour créer des variations pour votre contenu et les prévisualiser, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
-![Option Simuler des variations de contenu](assets/simulate-sample.png)
+![Bouton Simuler le contenu](assets/simulate-sample.png)
 
 Les principales étapes pour tester votre contenu sont les suivantes :
 

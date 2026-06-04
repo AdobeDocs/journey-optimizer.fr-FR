@@ -8,10 +8,10 @@ exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 159
-ht-degree: 100%
+source-wordcount: 166
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez exploiter votre compte **Litmus** dans [!DNL Journey Optimizer] pour
 
 Pour vérifier le rendu des e-mails, procédez comme suit :
 
-1. Dans l’écran Modifier le contenu de votre message, ou dans le concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
+1. Dans l’écran de modification du contenu de votre message ou dans le Designer d’e-mail, cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante.
 
 1. Sélectionnez le bouton **[!UICONTROL Rendu d’e-mail]**.
 

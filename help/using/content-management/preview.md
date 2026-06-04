@@ -8,10 +8,10 @@ exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 260
-ht-degree: 100%
+source-wordcount: 263
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez prévisualiser votre contenu à l’aide de leurs données. Procédez comme suit :
 
-1. Dans l’écran de modification du contenu de votre message ou dans le Concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** et sélectionnez **[!UICONTROL Simuler le contenu]**.
+1. Dans l’écran de modification du contenu de votre message ou dans le Designer d’e-mail, cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante.
 
 1. Sélectionnez un profil de test. Vous pouvez vérifier les valeurs disponibles dans les colonnes. Utilisez les flèches droite/gauche pour parcourir les données.
 

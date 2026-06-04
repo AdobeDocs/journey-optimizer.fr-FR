@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1a2d7e68da120ab231958d453add66a03eb4d65e
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 1313
-ht-degree: 39%
+source-wordcount: 1321
+ht-degree: 37%
 
 ---
 
@@ -43,7 +43,7 @@ Lorsque votre contenu inclut une personnalisation ou une logique conditionnelle,
 
 L’expérience **[!UICONTROL Simuler des variations de contenu]** dans [!DNL Journey Optimizer] résout ce problème en vous permettant de tester plusieurs variantes de votre contenu à partir d’un seul écran, générées automatiquement avec l’IA, saisies manuellement, importées d’un fichier ou basées sur des utilisateurs simulés réutilisables. Vous pouvez prévisualiser le rendu et l’envoi des BAT de chaque variante, le tout sans créer au préalable de profils persistants dans Adobe Experience Platform.
 
-Dans votre contenu, sélectionnez **[!UICONTROL Simuler du contenu]** puis **[!UICONTROL Simuler des variations de contenu]** pour ouvrir une expérience unique dans laquelle vous pouvez :
+Dans votre contenu, cliquez sur **[!UICONTROL Simuler du contenu]** pour ouvrir une expérience unique dans laquelle vous pouvez :
 
 * **Générer automatiquement des variantes** à l’aide de l’IA pour couvrir les branches de personnalisation et conditionnelles
 * **Ajouter des variantes manuellement** ou à partir d’un fichier CSV ou JSON
@@ -63,7 +63,8 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 * **Canaux** : la simulation de variations de contenu est disponible pour :
 
    * les canaux E-mail, SMS et Notification push ;
-   * tous les canaux entrants (web, expérience basée sur du code, in-app, cartes de contenu).
+   * tous les canaux entrants (web, expérience basée sur le code, in-app, cartes de contenu) ;
+   * Campagnes orchestrées.
 
 * **Fonctionnalités prises en charge** : les variations de contenu peuvent être utilisées avec le contenu multilingue [!DNL Journey Optimizer] et des fonctionnalités d’expérience de contenu. Vous pouvez ainsi tester les messages dans plusieurs langues et optimiser le contenu grâce à l’expérimentation.
 
@@ -71,19 +72,19 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 
   >[!NOTE]
   >
-  >Pour l’instant, le rendu de la boîte de réception et les rapports de spam ne sont pas disponibles dans l’expérience actuelle. Pour utiliser ces fonctionnalités, sélectionnez le bouton **[!UICONTROL Simuler le contenu]** de votre contenu pour accéder à l’interface d’utilisation précédente.
+  >Pour l’instant, le rendu de la boîte de réception et les rapports de spam ne sont pas disponibles dans l’expérience actuelle. Pour utiliser ces fonctionnalités, cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour accéder à l’interface utilisateur précédente.
 
 * **Attributs** : les attributs de profil et contextuels sont pris en charge.
 
 * **Types de données** - Seuls les types de données suivants sont pris en charge lors de la saisie de données pour vos variantes : nombre (entier et décimal), chaîne, valeur booléenne et type de date. Tout autre type de données affiche une erreur.
 
-* **Nombre de variantes** - Vous pouvez ajouter jusqu’à 30 variantes pour tester votre contenu, à l’aide d’un fichier, manuellement ou par génération automatique.
+* **Nombre de variantes** - Vous pouvez ajouter jusqu’à 30 variantes pour tester votre contenu, à l’aide d’un fichier, manuellement ou par génération automatique. Lors de l’utilisation de la génération automatique de l’IA, 20 variantes au maximum sont générées.
 
 ## Créer des variantes de contenu
 
-Pour créer des variations pour votre contenu, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** et choisissez **[!UICONTROL Simuler des variations de contenu]**.
+Pour créer des variations pour votre contenu, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
-![Option Simuler des variations de contenu](assets/simulate-sample.png)
+![Bouton Simuler le contenu](assets/simulate-sample.png)
 
 Vous pouvez créer des variantes des manières suivantes :
 
