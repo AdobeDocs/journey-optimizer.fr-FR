@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: 1171
 ht-degree: 76%
 
 ---
@@ -81,7 +81,7 @@ Après la **temporisation globale de 91 jours**, le statut d’un parcours de l
 
 ### Arrêt automatique des parcours pour les audiences non récurrentes {#auto-stop-non-recurring}
 
-Un parcours **Lecture d’audience non récurrent** passe désormais automatiquement au statut **[!UICONTROL Arrêté]** une fois que le dernier profil a quitté le parcours. Cela élimine le comportement précédent où les parcours Lecture d’audience non récurrents conservaient le statut **Actif** jusqu’à l’expiration du délai d’expiration global de 91 jours, même si aucun profil ne les traversait activement.
+Un parcours **Lecture d’audience non récurrent** passe automatiquement au statut **[!UICONTROL Arrêté]** une fois que le dernier profil quitte le parcours. Cela élimine le comportement précédent où les parcours Lecture d’audience non récurrents conservaient le statut **Actif** jusqu’à l’expiration du délai d’expiration global de 91 jours, même si aucun profil ne les traversait activement.
 
 **Fonctionnement :**
 
