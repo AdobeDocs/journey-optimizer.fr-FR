@@ -181,8 +181,8 @@ Le module complémentaire **Decisioning** vous permet de définir, de gérer et 
 |-----------|:-----------------------------:|:----------------------------:|:----------------------------------------:|-----------|
 | Campagnes par lots | Inclus | — | Inclus | [Commencer à utiliser les campagnes](../campaigns/get-started-with-campaigns.md) |
 | Campagnes orchestrées | Inclus | — | Inclus | [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) |
-| Parcours automatisés | — | Inclus | Inclus | [Prise en main des parcours ](../building-journeys/journey-gs.md) |
-| Déclencheurs d’événement en temps réel | — | Inclus | Inclus | [À propos des événements de parcours ](../event/about-events.md) |
+| Parcours automatisés | — | Inclus | Inclus | [Prise en main des parcours &#x200B;](../building-journeys/journey-gs.md) |
+| Déclencheurs d’événement en temps réel | — | Inclus | Inclus | [À propos des événements de parcours &#x200B;](../event/about-events.md) |
 
 ### Canal et fonctionnalités avancées {#channel-and-advanced-capabilities}
 
@@ -198,7 +198,7 @@ Le module complémentaire **Decisioning** vous permet de définir, de gérer et 
 | Expériences basées sur du code | Disponible avec Mobile ou Web, selon la surface | [Prise en main des expériences basées sur du code](../code-based/get-started-code-based.md) |
 | WhatsApp | Peut être disponible en tant que module complémentaire distinct | [Commencer avec WhatsApp](../whatsapp/get-started-whatsapp.md) |
 | Prise de décision | Disponible avec le module complémentaire Decisioning | [Prise en main de la prise de décision](../experience-decisioning/gs-experience-decisioning.md) |
-| Classement optimisé par l&#39;IA | Disponible avec le module complémentaire Decisioning | [En savoir plus sur les modèles d’IA ](../offers/ranking/ai-models.md) |
+| Classement optimisé par l&#39;IA | Disponible avec le module complémentaire Decisioning | [En savoir plus sur les modèles d’IA &#x200B;](../offers/ranking/ai-models.md) |
 
 ## Questions fréquentes {#faq}
 
@@ -212,7 +212,7 @@ Non. Les offres de base définissent vos fonctionnalités d’orchestration. L�
 
 Les **campagnes** sont basées sur l’audience et planifiées par les spécialistes marketing. Elles sont particulièrement adaptées aux diffusions planifiées, aux programmes promotionnels et aux workflows de campagnes par lots.
 
-**** sont pilotés par les événements et en temps réel. Elles sont idéales pour un engagement 1:1 qui réagit au comportement du client au fur et à mesure.
+**&#x200B;**&#x200B;sont pilotés par les événements et en temps réel. Elles sont idéales pour un engagement 1:1 qui réagit au comportement du client au fur et à mesure.
 
 **Campagnes et Parcours** comprend les deux modèles d’orchestration.
 
