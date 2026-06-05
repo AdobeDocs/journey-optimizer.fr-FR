@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
+source-git-commit: fdbeeae18f94de64abb62ac8aaba3456de9f5cb8
 workflow-type: tm+mt
 source-wordcount: 2084
 ht-degree: 75%
@@ -261,6 +261,10 @@ Cette option ajoute deux champs obligatoires au schéma de `customAuthorization`
 * **`aud`** : valeur d’audience incluse dans l’assertion du client JWT. Pour l’ID Microsoft Entra, il s’agit de la même que l’URL `endpoint`, mais elle doit toujours être explicitement définie.
 
 Les champs `client_assertion` et `client_assertion_type` ne sont jamais créés par l’utilisateur ou l’utilisatrice. Ils sont automatiquement injectés par la plateforme au moment de l’exécution, immédiatement avant l’appel du point d’entrée du jeton.
+
+<!--
+rebuild
+-->
 
 Voici un exemple pour le type d’authentification des informations d’identification du certificat :
 
