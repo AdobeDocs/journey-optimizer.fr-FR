@@ -10,22 +10,15 @@ level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 83%
+source-wordcount: 458
+ht-degree: 79%
 
 ---
 
@@ -41,7 +34,7 @@ Votre utilisation des services de courrier sera soumise aux conditions général
 
 ## Avant de commencer {#before-you-start}
 
-Avant de créer des messages de publipostage direct, configurez le routage des fichiers [&#x200B; et une configuration du canal courrier](direct-mail-configuration.md). Vous avez également besoin d’audiences et de données de profil (telles que les adresses postales) dans Adobe Experience Platform.
+Avant de créer des messages de publipostage direct, configurez le routage des fichiers [ et une configuration du canal courrier](direct-mail-configuration.md). Vous avez également besoin d’audiences et de données de profil (telles que les adresses postales) dans Adobe Experience Platform.
 
 Les principales étapes pour envoyer des messages de courrier sont les suivantes :
 
@@ -57,6 +50,7 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 * **[Créer des courriers](create-direct-mail.md)** : découvrez comment créer des diffusions de courrier et configurer des fichiers d’extraction pour les canaux hors ligne.
 * **[Configurer le canal Courrier](direct-mail-configuration.md)** : configurez les surfaces de courrier et les configurations de routage des fichiers.
+* **[Prise de décision par lots dans le publipostage direct](../experience-decisioning/batch-decisioning-direct-mail.md)** - Utilisez la prise de décision pour personnaliser les fichiers d’extraction pour le publipostage direct ou pour exporter des données de prise de décision pour les systèmes en aval.
 * **[Tester et envoyer un courrier](test-send-direct-mail.md)** : découvrez comment tester, valider et publier vos diffusions de courrier.
 * **[Tutoriels sur le courrier](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives au courrier.
 
@@ -66,7 +60,7 @@ Découvrez comment utiliser le canal Courrier dans Adobe Journey Optimizer pour 
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479164?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 

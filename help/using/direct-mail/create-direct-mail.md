@@ -10,23 +10,16 @@ level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1069
-ht-degree: 84%
+source-wordcount: 1190
+ht-degree: 74%
 
 ---
 
@@ -125,7 +118,15 @@ Vous pouvez maintenant commencer à configurer le fichier d’extraction à envo
 
 Le fichier d’extraction est requis par les opérateurs de services postaux pour envoyer du courrier à vos clientes et clients. Pour définir la configuration du fichier d&#39;extraction, procédez comme suit :
 
-1. Dans l’écran de configuration de la campagne, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du fichier d’extraction.
+1. Dans l’écran de configuration de la campagne ou du parcours, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du fichier d’extraction.
+
+1. Pour ajouter des politiques de décision à votre message de publipostage direct, sélectionnez une colonne dans la section **[!UICONTROL Champs de données]** et ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Accédez au menu **[!UICONTROL Politiques de décision]** pour créer et insérer une politique de décision. Vous pouvez ensuite utiliser les attributs d&#39;élément de décision comme données de colonne dans le fichier d&#39;extraction.
+
+   >[!AVAILABILITY]
+   >
+   >Experience Decisioning dans le publipostage direct est une nouvelle fonctionnalité. Auparavant, les fichiers d’extraction de publipostage direct ne pouvaient pas utiliser le moteur de décision. Vous pouvez désormais ajouter des politiques de décision et inclure des attributs d’élément de décision en tant que données de colonne dans l’exportation.
+
+   [Découvrez comment ajouter une politique de décision dans le courrier](../experience-decisioning/create-decision-policy.md#add). Pour les workflows de diffusion de décisions par lots et des exemples (publipostage direct personnalisé ou exportation vers des systèmes en aval), consultez [ Diffusion de décisions par lots dans le publipostage direct](../experience-decisioning/batch-decisioning-direct-mail.md).
 
 1. Ajustez les propriétés du fichier d’extraction :
 
