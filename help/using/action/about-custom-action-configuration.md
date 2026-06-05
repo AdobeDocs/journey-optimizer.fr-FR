@@ -30,9 +30,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2324
 ht-degree: 83%
 
 ---
@@ -70,7 +70,11 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
    >[!NOTE]
    >
-   >Si votre point d’entrée utilise OpenID Connect et renvoie à la fois un `access_token` et un `id_token` (un modèle courant dans les API bancaires et de services financiers), utilisez le champ `idTokenInResponse` facultatif dans la payload d’authentification personnalisée. Cette instruction indique à Journey Optimizer d’utiliser le jeton d’ID comme informations d’authentification et non comme jeton d’accès. [En savoir plus sur l’authentification personnalisée](../datasource/external-data-sources.md#custom-authentication-mode).
+   >Si votre point d’entrée renvoie à la fois un `access_token` et un `id_token`, utilisez le champ `tokenInResponse` pour spécifier le jeton que Journey Optimizer doit utiliser comme informations d’authentification :
+   >* `"tokenInResponse": "json://access_token"` — utiliser le jeton d&#39;accès (par défaut pour OAuth 2.0)
+   >* `"tokenInResponse": "json://id_token"` — utiliser le jeton d&#39;ID (courant dans les flux OpenID Connect)
+   >
+   >[En savoir plus sur l’authentification personnalisée](../datasource/external-data-sources.md#custom-authentication-mode)
 
 1. Définissez les **[!UICONTROL paramètres d&#39;action]**. Consultez [cette page](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
@@ -202,7 +206,7 @@ L’authentification TLS mutuelle (mTLS) est prise en charge dans les actions pe
 
 ### Authentification personnalisée basée sur des certificats {#certificate-based-auth}
 
-Pour les API d’entreprise qui appliquent la vérification d’identité basée sur un certificat (comme Azure Entra ID), les actions personnalisées prennent en charge **l’authentification personnalisée basée sur un certificat**. Pour l’activer, définissez `"subType": "certificateCredential"` dans la payload d’autorisation personnalisée configurée dans la section **[!UICONTROL Authentification]**.
+Pour les API d’entreprise qui appliquent la vérification d’identité basée sur un certificat (comme Microsoft Entra ID), les actions personnalisées prennent en charge **l’authentification personnalisée basée sur un certificat**. Pour l’activer, définissez `"subType": "certificateCredential"` dans la payload d’autorisation personnalisée configurée dans la section **[!UICONTROL Authentification]**.
 
 Journey Optimizer utilise un certificat géré Adobe pour signer une assertion client JWT et l’échanger automatiquement contre un jeton d’accès. Aucun secret client n’est requis.
 

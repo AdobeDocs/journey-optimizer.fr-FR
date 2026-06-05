@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2077
-ht-degree: 76%
+source-wordcount: 2084
+ht-degree: 75%
 
 ---
 
@@ -253,12 +253,12 @@ Voici un exemple pour le type d’authentification du porteur :
 
 ### Authentification personnalisée basée sur des certificats {#certificate-credential}
 
-Pour les API d’entreprise qui appliquent la vérification d’identité avec certificat, telles que l’Azure Entra ID, vous pouvez configurer une authentification personnalisée avec certificat en ajoutant `"subType": "certificateCredential"` à votre payload d’autorisation personnalisée. Journey Optimizer utilise un certificat géré Adobe pour signer une assertion client JWT et l’échanger contre un jeton d’accès. Aucun secret client n’est requis.
+Pour les API d’entreprise qui appliquent la vérification d’identité avec certificat, comme l’identifiant Microsoft Entra ID, vous pouvez configurer une authentification personnalisée avec certificat en ajoutant `"subType": "certificateCredential"` à votre payload d’autorisation personnalisée. Journey Optimizer utilise un certificat géré Adobe pour signer une assertion client JWT et l’échanger contre un jeton d’accès. Aucun secret client n’est requis.
 
-Cette option ajoute deux champs facultatifs au schéma de `customAuthorization` standard : `subType` et `aud`. Tous les autres champs (`endpoint`, `method`, paramètres de corps, `tokenInResponse`) restent inchangés. En l’absence de `subType`, le comportement est identique à celui de l’authentification personnalisée standard ; les configurations existantes ne sont pas affectées.
+Cette option ajoute deux champs obligatoires au schéma de `customAuthorization` standard : `subType` et `aud`. Tous les autres champs (`endpoint`, `method`, paramètres de corps, `tokenInResponse`) restent inchangés. En l’absence de `subType`, le comportement est identique à celui de l’authentification personnalisée standard ; les configurations existantes ne sont pas affectées.
 
 * **`subType`** : définissez sur `"certificateCredential"` pour activer l’authentification par certificat.
-* **`aud`** : valeur d’audience incluse dans l’assertion du client JWT. La valeur par défaut est l’URL `endpoint` si elle n’est pas définie — ne spécifiez ce champ que si votre fournisseur d’identité attend une valeur d’audience différente.
+* **`aud`** : valeur d’audience incluse dans l’assertion du client JWT. Pour l’ID Microsoft Entra, il s’agit de la même que l’URL `endpoint`, mais elle doit toujours être explicitement définie.
 
 Les champs `client_assertion` et `client_assertion_type` ne sont jamais créés par l’utilisateur ou l’utilisatrice. Ils sont automatiquement injectés par la plateforme au moment de l’exécution, immédiatement avant l’appel du point d’entrée du jeton.
 
@@ -269,7 +269,7 @@ Voici un exemple pour le type d’authentification des informations d’identifi
   "type": "customAuthorization",
   "subType": "certificateCredential",
   "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
-  "authorizationType": "bearer",
+  "authorizationType": "Bearer",
   "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
   "method": "POST",
   "body": {
@@ -289,6 +289,7 @@ Voici un exemple pour le type d’authentification des informations d’identifi
 >Gardez à l’esprit les mécanismes de sécurisation suivants lors de la configuration de l’authentification personnalisée avec certificat :
 >
 >* **URL du point d’entrée du jeton** : doit être HTTPS. Évitez les URL contenant des `?` : il s’agit d’un signe indiquant que le point d’entrée d’autorisation a été collé au lieu du point d’entrée de jeton.
+>* **`method`** : doit être `POST`. Les points d’entrée de jeton OAuth acceptent uniquement les requêtes POST.
 >* **`client_id`** : ne doit pas être vide et ne doit pas contenir d’espaces de début ou de fin. Une valeur vide génère un jeton JWT d’aspect valide que le fournisseur d’identité rejettera avec une erreur opaque.
 >* **`scope`** : exprimé sous la forme d’une chaîne unique séparée par des espaces dans `bodyParams`. 1 000 caractères maximum au total.
 >* **Certificat** : Adobe gère le certificat et la clé privée ; vous ne chargez ni ne saisissez de certificat. Avant d’utiliser l’action personnalisée dans un parcours dynamique, vous devez enregistrer le certificat feuille d’Adobe **&#x200B;**&#x200B;(et non l’autorité de certification racine) dans votre fournisseur d’identité.
