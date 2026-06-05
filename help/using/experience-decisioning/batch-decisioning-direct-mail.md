@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: prise de décision par lots, publipostage direct, prise de décision
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -92,3 +92,4 @@ Cela prend en charge les cas d’utilisation de prise de décision par lots via 
 * [Créer des politiques de décision](create-decision-policy.md#add) - Ajoutez une politique de décision dans l’onglet Courrier
 * [Configuration du publipostage direct](../direct-mail/direct-mail-configuration.md) - Routage des fichiers et configuration des canaux
 * [Prise en main de Decisioning](gs-experience-decisioning.md) - Concepts et mécanismes de sécurisation
+
