@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 61%
+source-wordcount: 2372
+ht-degree: 58%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 61%
 Pour présenter la meilleure offre et expérience dynamique à votre clientèle, ajoutez une politique de décision à votre contenu dans une campagne ou un parcours, puis configurez les éléments à renvoyer et la stratégie de sélection à utiliser. Procédez comme suit :
 
 1. [Ajouter une politique de décision](#add)
-1. [Configurer la politique de décision](#configure) - Ajoutez un nom et indiquez le nombre d’éléments à renvoyer pour le canal e-mail.
+1. [Configurer la politique de décision](#configure) - Ajoutez un nom et, pour les canaux E-mail et Courrier, indiquez le nombre d’éléments à renvoyer.
 1. [Configurer une séquence de stratégie](#strategy) : sélectionnez les éléments à renvoyer avec la politique de décision.
 1. [Sélectionner des offres de secours](#fallback) (facultatif) : sélectionnez les éléments à afficher si aucun élément ou stratégie de sélection n’est qualifié.
 1. [Vérifier et enregistrer](#review) la stratégie de sélection
@@ -55,13 +55,11 @@ Pour présenter la meilleure offre et expérience dynamique à votre clientèle,
 
 >[!AVAILABILITY]
 >
->Les politiques de décision sont disponibles pour les canaux **Expérience basée sur le code**, **Notification push**, **SMS** et **E-mail**.
+>Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **E-mail**, **Notification push**, **SMS** et **Publipostage direct**.
 
 ## Ajouter une politique de décision {#add}
 
-Ouvrez un parcours ou une campagne, sélectionnez une [action de canal](../building-journeys/journey-action.md) et modifiez le contenu de votre message.
-
-Modifiez le contenu de votre message et parcourez les onglets ci-dessous pour plus d’informations sur la manière d’ajouter la politique de décision en fonction du canal sélectionné.
+Accédez à une action de canal configurée dans votre parcours ou campagne, puis modifiez le contenu de votre message. Parcourez les onglets ci-dessous pour plus d’informations sur la manière d’ajouter la politique de décision en fonction du canal sélectionné.
 
 >[!BEGINTABS]
 
@@ -195,6 +193,22 @@ Pour les notifications push, vous pouvez ajouter une nouvelle politique de déci
 
 +++
 
+>[!TAB Publipostage direct]
+
+Pour le publipostage direct, ajoutez une politique de décision à partir de la configuration **fichier d’extraction**. [Découvrez comment créer un publipostage direct](../direct-mail/create-direct-mail.md).
+
+1. Dans la section **[!UICONTROL Champs de données]**, sélectionnez une colonne ou cliquez sur **[!UICONTROL Ajouter]** pour en créer une.
+
+1. Dans le volet de mise en forme, ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) .
+
+   ![](assets/decision-policy-dm-add.png)
+
+1. Accédez au menu **[!UICONTROL Politiques de décision]** puis cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
+
+   ![](assets/decision-policy-dm-create.png)
+
+1. Dans l’écran de configuration de la politique de décision, utilisez le champ **[!UICONTROL Nombre d’éléments]** pour définir le nombre d’éléments de décision à renvoyer pour chaque profil (par exemple, 2 pour exporter les 2 meilleures offres éligibles). Continuez avec [configuration de la stratégie](#strategy) et [personnalisation](use-decision-policy.md) dans vos colonnes de fichier d’extraction.
+
 >[!ENDTABS]
 
 ## Configurer la politique de décision {#configure}
@@ -209,7 +223,7 @@ Une fois que vous avez ajouté une nouvelle politique de décision dans votre co
 
    >[!NOTE]
    >
-   >Cette option est disponible uniquement pour les canaux d’expérience E-mail et Code . Pour tous les autres canaux, un seul élément de décision peut être renvoyé par action.
+   >Le champ **[!UICONTROL Nombre d’éléments]** est disponible pour les canaux **E-mail**, **Expérience basée sur un code** et **Publipostage direct**. Pour les canaux **SMS** et **Push**, un seul élément de décision peut être renvoyé par action.
 
    Pour renvoyer plusieurs éléments pour le canal E-mail , vous devez ajouter la politique de décision dans un composant **[!UICONTROL Grille de répétition]**. Pour plus d’informations, développez la section ci-dessous :
 

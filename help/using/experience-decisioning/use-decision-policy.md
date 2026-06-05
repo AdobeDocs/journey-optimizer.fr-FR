@@ -23,9 +23,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: 1230
 ht-degree: 7%
 
 ---
@@ -36,7 +36,7 @@ Une fois que vous avez ajouté une politique de décision à votre contenu, vous
 
 >[!CAUTION]
 >
->Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **SMS**, **Notification push** et **E-mail**.
+>Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **E-mail**, **SMS**, **Notification push** et **Publipostage direct**.
 
 ## Insérer le code de la politique de décision {#insert}
 
@@ -104,13 +104,23 @@ Vous pouvez également insérer le code de politique de décision lors de l’ut
 >
 >Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
+>[!TAB Publipostage direct]
+
+1. Dans la configuration du fichier d&#39;extraction, ouvrez l&#39;**Éditeur** (par exemple, dans le champ **[!UICONTROL Données]** d&#39;une colonne).
+
+2. Accédez à **[!UICONTROL Politiques de décision]** et sélectionnez **[!UICONTROL Insérer une politique]** pour ajouter le code de votre politique de décision.
+
+   ![](assets/decision-policy-add-dm-syntax.png)
+
+3. Utilisez les attributs d&#39;élément de décision renvoyés comme données de colonne afin que les informations d&#39;offre sélectionnées soient incluses dans le fichier d&#39;extraction pour chaque profil.
+
 >[!ENDTABS]
 
 Le code de la politique de décision est ajouté. Vous pouvez désormais utiliser des attributs des éléments de décision renvoyés pour personnaliser votre contenu.
 
 >[!NOTE]
 >
->Pour l’expérience basée sur le code et les canaux e-mail, répétez cette séquence une fois par élément de décision que vous souhaitez renvoyer. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](create-decision-policy.md), répétez deux fois la séquence. Pour les canaux SMS et Push, un seul élément de décision peut être renvoyé.
+>Pour l’expérience basée sur le code, les canaux e-mail et courrier, répétez cette séquence une fois par élément de décision que vous souhaitez renvoyer. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](create-decision-policy.md), répétez deux fois la séquence. Pour les canaux SMS et Push, un seul élément de décision peut être renvoyé.
 
 ## Personnalisation à l’aide des attributs d’élément de décision {#attributes}
 
@@ -126,7 +136,7 @@ Les attributs d’élément de décision et les attributs contextuels ne sont pa
 
 Pour ajouter un attribut, cliquez sur l’icône **`+`** en regard de l’attribut. Vous pouvez ajouter autant d’attributs que nécessaire. Vous pouvez également inclure d’autres attributs de personnalisation, tels que les données de profil.
 
-* Pour les canaux **e-mail** et **basés sur du code**, encapsulez les attributs dans la boucle `#each` à l’aide de crochets `[ ]` et ajoutez une virgule avant la balise de fermeture `/each`.
+* Pour les canaux **E-mail**, **Basé sur le code** et **Publipostage direct**, encapsulez les attributs dans la boucle `#each` à l’aide de crochets `[ ]` et ajoutez une virgule avant la balise `/each` de fermeture.
 
   +++Voir l’exemple
 

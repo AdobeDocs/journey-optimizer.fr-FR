@@ -21,9 +21,9 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 707
+source-wordcount: 704
 ht-degree: 71%
 
 ---
@@ -63,8 +63,9 @@ Les politiques de décision sont des conteneurs pour vos offres qui tirent profi
 
 ## Mécanismes de sécurisation et limitations
 
-* **Canaux pris en charge** - Les politiques de décision sont disponibles pour l’expérience basée sur le code, les SMS, les notifications push et les e-mails.
-* **Exigence de SDK pour les notifications push** - Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
+* **Canaux pris en charge** - Expérience basée sur le code, e-mail, SMS, notifications push et publipostage direct.
+
+* **Exigence de SDK pour les notifications push** - Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **Type de suivi et de liens** : pour suivre les liens générés par la prise de décision, définissez-les dans le schéma comme « Ressources de prise de décision ». Les liens basés sur les attributs ne pevent pas faire l’objet d’un suivi.
 * **Imbrication de politiques de décision dans des e-mails** : vous ne pouvez pas imbriquer plusieurs politiques de décision dans un composant d’e-mail parent auquel est déjà associée une politique de décision.
 * **Parcours ou campagnes dupliqués avec prise de décision** : si vous dupliquez un parcours ou une campagne qui inclut une politique de décision, la version dupliquée fait référence à l’e-mail ou à l’expérience basée sur du code d’origine, ce qui entraîne des erreurs. Reconfigurez toujours la politique de décision après la duplication.

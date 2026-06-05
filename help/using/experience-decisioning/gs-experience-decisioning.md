@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 78%
+source-wordcount: 751
+ht-degree: 74%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 78%
 
 La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque personne.
 
-Ces éléments de décision sont intégrés de manière transparente dans les messages et les expériences sur [!DNL Adobe Journey Optimizer] canaux : [expérience basée sur le code](../code-based/get-started-code-based.md), e-mail, SMS et notifications push.
+Ces éléments de décision sont intégrés de manière transparente aux messages et aux expériences sur [!DNL Adobe Journey Optimizer] canaux : [expérience basée sur le code](../code-based/get-started-code-based.md), e-mail, SMS, notifications push et [publipostage direct](batch-decisioning-direct-mail.md) pour la prise de décision par lots et les exportations de publipostage direct personnalisées. La prise en charge d’Experience Decisioning pour le publipostage direct est une nouvelle fonctionnalité ; auparavant, le moteur de prise de décision n’était pas disponible pour les fichiers d’extraction de publipostage direct.
 
 >[!IMPORTANT]
 >
->Les politiques de décision sont disponibles pour tous les clients pour les canaux **Code-based Experience**, **E-mail**, **Notification push** et **SMS**. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
+>Les politiques de décision sont disponibles pour tous les clients pour les canaux **Expérience basée sur le code**, **E-mail**, **Notification push**, **SMS** et **Publipostage direct**.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
