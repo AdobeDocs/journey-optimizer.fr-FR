@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: prise de décision par lots, publipostage direct, prise de décision
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: c8d0f67628d61c05c2b062831f382156fd212e7b
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -60,7 +60,7 @@ La diffusion de décisions par lots dans le publipostage direct prend en charge 
 
 1. Activez la campagne ou publiez le parcours pour générer et exporter le fichier (délimité par un fichier CSV ou texte) vers votre serveur configuré.
 
-   ➡️ [Découvrez comment vérifier et activer une campagne](../campaigns/review-activate-campaign.md) | [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md)
+   ➡️ [Découvrez comment vérifier et activer une campagne](../campaigns/review-activate-campaign.md) | [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md)
 
 ## Exemple de publipostage direct + prise de décision {#example-direct-mail}
 
