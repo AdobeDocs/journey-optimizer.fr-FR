@@ -11,12 +11,10 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 1973
-ht-degree: 16%
+source-wordcount: '2203'
+ht-degree: 10%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 16%
 >
 >Cette fonctionnalité est actuellement en version bêta **privée**. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
 
-Cette page couvre l’ensemble du processus de création d’un défi de fidélité, de la sélection du type de défi et de la configuration de ses propriétés à la génération et la publication du parcours qui proposera le défi à vos clients.
+Cette page couvre l’ensemble du processus de création d’un défi de fidélité, de la sélection du type de défi et de la configuration des paramètres, de la structure, du contenu et des messages à la génération et la publication du parcours qui fournit le défi à vos clients.
 
 ## Créer le défi {#create-the-challenge}
 
@@ -79,58 +77,104 @@ Cette page couvre l’ensemble du processus de création d’un défi de fidéli
    * **[!UICONTROL Séquentiel]** : les clients exécutent des tâches dans un ordre défini\
      *Exemple : achat → révision → partage (doit être effectué dans cet ordre)*
 
-   * **[!UICONTROL Apporter vos propres données]** : sélectionnez **[!UICONTROL Apporter vos propres données]** lorsque vous souhaitez que le framework de défi, comme les tâches et les récompenses, soit assemblé à partir de votre intégration de données Défis de fidélité. Lorsque ce type est sélectionné, vous n’avez pas besoin de configurer la structure du défi, vous configurez uniquement **[!UICONTROL Contenu]**, **[!UICONTROL Messagerie]** et **[!UICONTROL Audience]** de la même manière que pour les autres défis.
+   * **[!UICONTROL Apporter vos propres données]** : sélectionnez **[!UICONTROL Apporter vos propres données]** lorsque vous souhaitez que le framework de défi, comme les tâches et les récompenses, soit assemblé à partir de votre intégration de données Défis de fidélité. Lorsque ce type est sélectionné, l’onglet **[!UICONTROL Structure]** est en lecture seule. Configurez **[!UICONTROL Paramètres]**, **[!UICONTROL Contenu]** et **[!UICONTROL Messagerie]** de la même manière que les autres types de défis.
 
      >[!AVAILABILITY]
      >
      >Le type de défi **[!UICONTROL Apportez vos propres données]** est actuellement disponible pour un nombre restreint d’organisations et sera disponible à une plus grande échelle dans une prochaine version.
 
-   Après avoir sélectionné un type de défi, l’interface de création de défi s’ouvre avec plusieurs onglets de configuration. Pour tous les types, à l’exception de **[!UICONTROL Apporter vos propres données]**, commencez par configurer la structure du défi.
+   Après avoir sélectionné un type de défi, l’éditeur de défi s’ouvre avec les onglets suivants : **[!UICONTROL Paramètres]**, **[!UICONTROL Structure]**, **[!UICONTROL Contenu]** et **[!UICONTROL Messagerie]**. Commencez par **[!UICONTROL Paramètres]** pour définir les détails du défi, l’audience, le planning et les règles. Configurez ensuite **[!UICONTROL Structure]** (tâches et récompenses) pour tous les types, à l’exception de **[!UICONTROL Apporter vos propres données]**.
 
-## Configurer la structure de défi {#structure}
+## Configurer les paramètres de défi {#settings}
 
-Dans l’onglet **[!UICONTROL Structure]**, définissez l’organisation de votre défi : ses propriétés, son planning, les tâches à effectuer et les récompenses à diffuser.
+Dans l’onglet **[!UICONTROL Paramètres]**, configurez les propriétés au niveau du défi : qui peut participer, à quel moment le défi s’exécute, comment les membres s’inscrivent et obtiennent la progression, et les métadonnées facultatives.
 
-### Définir les propriétés du défi et utiliser des métadonnées personnalisées {#properties}
+### Détails du défi {#challenge-details}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
->title="Propriétés du défi"
->abstract="Dans le volet Propriétés du défi, définissez le nom et la description du défi, puis ajoutez des métadonnées clé/valeur personnalisées pour le suivi ou les intégrations externes."
+>title="Détails du défi"
+>abstract="Définissez le nom et la description du défi. L’ID de défi est attribué automatiquement lorsque le défi est créé et peut être copié pour une utilisation dans l’API ou l’intégration."
 
-1. Dans le volet **[!UICONTROL Propriétés du défi]**, définissez les paramètres globaux du défi :
+1. Dans la section **[!UICONTROL Détails du défi]**, définissez les éléments suivants :
 
    * **[!UICONTROL Nom]** : saisissez un nom explicite pour votre défi. Ce nom apparaît dans l’inventaire des défis.
+   * **[!UICONTROL Identifiant du défi]** : identifiant unique attribué lors de la création du défi. Utilisez le contrôle de copie pour référencer cet identifiant dans les API ou les systèmes externes.
    * **[!UICONTROL Description]** : saisissez une description qui explique l’objectif et les objectifs du défi.
 
-1. Utilisez la section **[!UICONTROL Métadonnées personnalisées]** pour ajouter des métadonnées personnalisées à l’aide de paires clé/valeur. Ces métadonnées peuvent être utilisées pour le suivi ou l’intégration à des systèmes externes.
+   ![](assets/challenge-create-details.png)
 
-   ![](assets/challenge-create-properties.png)
+### Audience {#audience}
 
-### Planifier le défi {#schedule}
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_audience"
+>title="Audience"
+>abstract="Choisissez qui peut participer au défi. Ajoutez une audience Adobe Experience Platform ou laissez l’audience vide afin que tous les membres du programme de fidélité soient éligibles. Vous pouvez éventuellement exiger d’autres défis au préalable."
+
+Définissez qui peut participer à votre défi de fidélité.
+
+1. Dans la section **[!UICONTROL Audience]**, sélectionnez **[!UICONTROL Ajouter une audience]** pour limiter le défi à une audience Adobe Experience Platform spécifique. [Découvrez comment utiliser les audiences](../audience/about-audiences.md).
+
+   ![](assets/challenge-create-audience.png)
+
+1. Sous **[!UICONTROL Conditions préalables au défi]**, sélectionnez **[!UICONTROL Exiger l&#39;accomplissement du défi]** pour restreindre l&#39;éligibilité aux membres qui ont déjà terminé un ou plusieurs défis sélectionnés.
+
+### Planning {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Planning du défi"
->abstract="Utilisez le planning pour définir le moment où le défi est actif : définissez la date et l’heure de début auxquelles il est mis à disposition des clientes et clients, ainsi que la date et l’heure de fin auxquelles il cesse d’accepter les achèvements. Sélectionnez un fuseau horaire et choisissez quand les clientes et clients peuvent terminer les tâches dans la **[!UICONTROL section Fenêtre de fin de tâche]**."
+>abstract="Définissez quand le défi est actif en utilisant la date et l’heure de début et de fin, ainsi qu’un fuseau horaire. Dans la fenêtre d’achèvement de la tâche, choisissez le moment où les clients peuvent terminer les tâches pendant la période de défi."
 
 Configurez le moment où votre défi s’exécute :
 
-1. Sélectionnez l’icône **[!UICONTROL Ouvrir le planning]** :
+1. Dans la section **[!UICONTROL Planifier]**, définissez :
+
+   * **[!UICONTROL Date et heure de début]** : date à laquelle le défi est disponible pour les clients.
+   * **[!UICONTROL Date et heure de fin]** : à l’expiration du défi et lorsque vous n’acceptez plus de nouvelles tâches terminées.
+   * **[!UICONTROL Fuseau horaire]** : fuseau horaire utilisé pour le planning du défi.
 
    ![](assets/challenge-create-schedule.png)
 
-1. Configurez les options de planification suivantes :
+1. Sous **[!UICONTROL Fenêtre d’achèvement de la tâche]**, choisissez le moment où les clients peuvent terminer les tâches :
 
-   * **[!UICONTROL Date et heure de début]** : à définir lorsque le défi est disponible pour les clients.
-   * **[!UICONTROL Date et heure de fin]** : défini lorsque le défi expire et n’accepte plus de nouvelles tâches terminées.
-   * **[!UICONTROL Fuseau horaire]** : le défi utilise par défaut le fuseau horaire local du destinataire.
-   * **[!UICONTROL Les tâches doivent être terminées]** : choisissez le moment où les clients peuvent terminer les tâches :
+   * **[!UICONTROL À tout moment pendant le défi]** : les clients peuvent effectuer des tâches à tout moment entre les dates de début et de fin du défi.
+   * **[!UICONTROL À des heures spécifiques de la journée]** : limitez la fin de la tâche à des heures spécifiques de la journée en définissant **[!UICONTROL Heure de début]** et **[!UICONTROL Heure de fin]**.
 
-      * **[!UICONTROL À tout moment pendant le défi]** : les clients peuvent effectuer des tâches à tout moment entre les dates de début et de fin du défi.
-      * **[!UICONTROL À des heures spécifiques de la journée]** : limitez la fin de la tâche à des heures quotidiennes spécifiques en définissant les paramètres **[!UICONTROL Heure de début]** et **[!UICONTROL Heure de fin]**.
+### Règles {#rules}
 
-Le planning du défi est maintenant configuré. Ajoutez ensuite les tâches que les clients doivent effectuer.
+Configurez la manière dont les membres s’inscrivent, le moment où la progression de la tâche compte pour le défi et le nombre de fois où le défi peut être terminé.
+
+![](assets/challenge-create-rules.png)
+
+* **[!UICONTROL Déclencheur d’opt-in]** :
+
+   * **[!UICONTROL Méthode d’accord préalable]** : indiquez si les clients rejoignent le défi manuellement ou par le biais d’un déclencheur d’événement.
+   * **[!UICONTROL Événement]** : pour l’accord préalable basé sur un événement, sélectionnez l’événement qui déclenche l’accord préalable. Les administrateurs peuvent cliquer sur le bouton ![engrenage](assets/do-not-localize/settings-icon.svg) pour créer une définition d’événement. [Découvrez comment configurer des définitions d’événement](loyalty-admin.md#event-definitions)
+
+* **[!UICONTROL Commencer à suivre la progression]** :
+
+   * **[!UICONTROL Début du suivi de la progression de la tâche]** : sélectionnez le moment où les tâches terminées sont prises en compte pour la progression du défi. Par exemple, sélectionnez **[!UICONTROL Lorsque le défi commence (après l’opt-in)]** la progression commence donc une fois que le membre a donné son accord et que le défi est actif.
+
+     Vous pouvez effectuer un découplage lorsqu’un défi est visible pour les membres, à partir du moment où la progression est suivie. Par exemple, une carte de défi peut s’afficher et accepter les opt-ins avant que les tâches terminées ne commencent à compter pour la progression à une date ultérieure.
+
+   * **[!UICONTROL Début]** : lorsque vous choisissez une option de début personnalisée, définissez la date et l’heure de début du suivi de la progression.
+
+* **[!UICONTROL Limites de répétition]** :
+
+   * **[!UICONTROL Le défi peut être terminé]** : choisissez si le défi peut être terminé une fois ou plusieurs fois. Par exemple, **[!UICONTROL Une fois]** ou un nombre défini d’éléments terminés.
+
+   * **[!UICONTROL Nombre de fois qu’il peut être terminé]** : lorsque la répétition est activée, spécifiez le nombre de fois qu’un membre peut terminer le défi.
+
+### Métadonnées personnalisées {#custom-metadata}
+
+Dans la section **[!UICONTROL Métadonnées personnalisées]**, sélectionnez **[!UICONTROL Ajouter une paire clé/valeur]** pour ajouter des métadonnées personnalisées. Utilisez des métadonnées pour le suivi ou l’intégration à des systèmes externes.
+
+![](assets/challenge-create-metadata.png)
+
+## Configurer la structure de défi {#structure}
+
+Dans l’onglet **[!UICONTROL Structure]**, définissez les tâches que les clients doivent effectuer et les récompenses qu’ils gagnent. Cet onglet n’est pas utilisé pour les défis **[!UICONTROL Apportez vos propres données]**.
 
 ### Ajouter des tâches {#add-tasks}
 
@@ -181,7 +225,7 @@ Pour ajouter des tâches à votre défi, procédez comme suit :
 
    +++
 
-1. Par défaut, les défis standard et séquentiels permettent aux clients d’effectuer des tâches sur plusieurs transactions. Pour exiger que toutes les tâches soient effectuées dans une seule transaction, sélectionnez l’icône **[!UICONTROL Paramètres]** et activez l’option ci-dessous.
+1. Par défaut, les défis standard et séquentiels permettent aux clients d’effectuer des tâches sur plusieurs transactions. Pour exiger que toutes les tâches soient terminées dans une seule transaction, ouvrez le menu des options de tâche et activez l&#39;option de transaction unique.
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -282,24 +326,7 @@ Configurez des messages multicanaux pour impliquer les clients aux étapes clés
 
 Découvrez comment créer des messages pour des canaux spécifiques dans les sections suivantes : [Messages in-app](../in-app/get-started-in-app.md) - [E-mails](../email/get-started-email.md) - [Notifications push](../push/get-started-push.md)
 
-Une fois la configuration de la messagerie terminée, définissez les clients éligibles pour participer au défi.
-
-## Sélectionner l’audience du défi {#audience}
-
->[!CONTEXTUALHELP]
->id="ajo_loyalty_challenge_audience"
->title="Audience"
->abstract="Dans l’onglet Audience, choisissez qui peut participer au défi parmi les audiences Adobe Experience Platform disponibles."
-
-Définir quels clients peuvent participer à votre défi de fidélité.
-
-1. Accédez à l’onglet **[!UICONTROL Audience]** et cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
-
-   ![](assets/challenge-create-audience.png)
-
-1. Dans la boîte de dialogue de sélection d’audience, sélectionnez votre audience cible dans la liste des audiences Adobe Experience Platform disponibles, puis sélectionnez **[!UICONTROL Ajouter une audience]**. [Découvrez comment utiliser les audiences](../audience/about-audiences.md).
-
-Votre défi est maintenant entièrement configuré avec sa structure, son contenu, sa messagerie et son audience cible. Pour le lancer, vous devez publier le défi et son parcours associé.
+Votre défi est maintenant entièrement configuré avec ses paramètres, sa structure, son contenu et sa messagerie. Pour le lancer, vous devez publier le défi et son parcours associé.
 
 ## Lancer le défi {#launch}
 

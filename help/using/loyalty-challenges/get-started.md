@@ -14,10 +14,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 911
-ht-degree: 14%
+source-wordcount: 920
+ht-degree: 13%
 
 ---
 
@@ -90,21 +90,23 @@ Vous pouvez créer les types d’expériences de défi suivants :
 * **Défis séquentiels** : les clients exécutent des tâches dans un ordre défini. Utilisez ce type pour guider les clients tout au long d’un processus d’intégration ou de parcours spécifique.\
   *Exemple : « Nouveau Parcours membre » - Inscrivez-vous aux e-mails → Effectuez votre premier achat → Rédiger un avis sur le produit → Recommander un ami (dans cet ordre exact)*
 
-* **Apportez vos propres défis de données** (disponibilité limitée) : le framework de défi (tâches et récompenses) est assemblé à partir de votre intégration de données Défis de fidélité. Vous configurez le contenu, les messages et l’audience comme vous le feriez pour tout autre type de défi.
+* **Apportez vos propres défis de données** (disponibilité limitée) : le framework de défi (tâches et récompenses) est assemblé à partir de votre intégration de données Défis de fidélité. Vous configurez les paramètres, le contenu et la messagerie comme vous le feriez pour tout autre type de défi.
+
+* **Défis répétables** : configurez le nombre de fois où les membres peuvent effectuer le même défi et gagner des récompenses à nouveau. [En savoir plus sur les limites de répétition &#x200B;](create-challenges.md#repeat-limits)
 
 ## Fonctionnement {#how-it-works}
 
 La création et le lancement d’un défi de fidélité suivent ce workflow :
 
-1. **Créer un défi** - Définissez les propriétés de base du défi, y compris le nom, le type (Standard, Séquentiel, Séquentiel ou Apporter vos propres données lorsqu’elles sont disponibles) et la période. [Découvrez comment choisir un type de défi](create-challenges.md#create-the-challenge).
+1. **Créer un défi** - Choisissez le type de défi (Standard, Séquentiel, Séquentiel ou Apporter vos propres données lorsqu’elles sont disponibles). [Découvrez comment choisir un type de défi](create-challenges.md#create-the-challenge).
 
-1. **Ajouter des tâches** - Définissez les actions spécifiques que les clients doivent effectuer, y compris les types de tâche (achat, dépense ou événement personnalisé), les quantités, les filtres de produit et les récompenses.
+1. **Configurer les paramètres** - Dans l’onglet Paramètres , définissez les détails du défi, l’audience, le planning, les règles (opt-in, suivi de progression, limites de répétition) et les métadonnées facultatives. [En savoir plus sur les paramètres de défi](create-challenges.md#settings).
 
-1. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de cartes de contenu Journey Optimizer qui s’affichent sur les appareils des clients. Les cartes de contenu affichent les informations sur le défi, la progression et les récompenses.
+1. **Ajouter des tâches et des récompenses** - Dans l’onglet Structure , définissez des tâches et des récompenses (cela n’est pas obligatoire pour relever les défis liés à l’utilisation de vos propres données).
+
+1. **Conception de cartes de contenu** - Créez la représentation visuelle de votre défi à l’aide de cartes de contenu Journey Optimizer qui s’affichent sur les appareils des clients.
 
 1. **Configurer la messagerie** (facultatif) - Configurez des messages multicanaux (in-app, e-mail, push) pour les étapes clés du cycle de vie : lancement, en cours et achèvement.
-
-1. **Sélectionner une audience cible** - Définissez quels clients peuvent participer à votre défi en sélectionnant une audience depuis Adobe Experience Platform.
 
 1. **Lancer le défi** - Publiez le défi, puis générez un parcours. Journey Optimizer crée automatiquement le parcours pour votre défi. Publiez le parcours généré automatiquement pour mettre le défi à la disposition des clients.
 
