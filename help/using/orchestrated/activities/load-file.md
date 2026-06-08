@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Activité Chargement de fichier"
->abstract="L’activité **Chargement de fichier** est une activité **Gestion des données**. Utilisez-la pour travailler avec des profils et des données stockés dans un fichier externe sur la zone de travail de campagne orchestrée et définir l’audience de la campagne. Les données de fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform."
+>abstract="L’activité **Chargement de fichier** est une activité **Gestion des données**. Utilisez-la pour travailler avec des profils et des données stockés dans un fichier externe sur la zone de travail de campagne orchestrée et définir l’audience de la campagne. Les données de fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform."
 
 L’activité **[!UICONTROL Chargement de fichier]** est une activité **[!UICONTROL Gestion des données]**. Utilisez-la pour travailler avec des profils et des données stockés dans un fichier externe. Il prend en charge le **ciblage basé sur des fichiers** dans les campagnes orchestrées lorsque votre liste de destinataires provient d’un système externe (par exemple, une exportation CRM ou un fichier de partenaire) et que vous souhaitez exécuter une campagne sans créer d’abord un pipeline d’ingestion Adobe Experience Platform complet.
 
