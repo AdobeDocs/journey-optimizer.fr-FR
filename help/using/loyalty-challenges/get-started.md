@@ -12,7 +12,8 @@ badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: 920
@@ -91,7 +92,7 @@ Vous pouvez créer les types d’expériences de défi suivants :
 
 * **Apportez vos propres défis de données** (disponibilité limitée) : le framework de défi (tâches et récompenses) est assemblé à partir de votre intégration de données Défis de fidélité. Vous configurez les paramètres, le contenu et la messagerie comme vous le feriez pour tout autre type de défi.
 
-* **Défis répétables** : configurez le nombre de fois où les membres peuvent effectuer le même défi et gagner des récompenses à nouveau. [En savoir plus sur les limites de répétition ](create-challenges.md#repeat-limits)
+* **Défis répétables** : configurez le nombre de fois où les membres peuvent effectuer le même défi et gagner des récompenses à nouveau. [En savoir plus sur les limites de répétition &#x200B;](create-challenges.md#repeat-limits)
 
 ## Fonctionnement {#how-it-works}
 
@@ -213,7 +214,7 @@ Maintenant que vous connaissez les défis de fidélité et leur fonctionnement, 
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
--->
+  -->
     <a href="loyalty-admin.md"><strong>Configurer les défis de fidélité</strong></a>
     </div>
     <p>
