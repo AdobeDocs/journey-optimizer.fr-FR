@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 3%
 
 ---
@@ -47,10 +47,6 @@ Les utilisateurs simulés sélectionnés pour la simulation apparaissent dans la
 
 ![Panneau Simulation pour un parcours par lots avec audience en lecture seule](assets/simulate-batch.png)
 
-Pour les parcours avec une **[!UICONTROL Lecture d&#39;audience]**, vous pouvez accéder à **[!UICONTROL Simulation rapide]** ou **[!UICONTROL Simulation manuelle]**.
-
-![Panneau Simulation pour un parcours par lots avec audience en lecture seule](assets/simulate-14.png)
-
 +++
 
 +++ Parcours par lots avec audience lue et événements unitaires
@@ -60,10 +56,6 @@ Les utilisateurs simulés sélectionnés pour les événements de simulation et 
 
 ![Panneau Simulation pour un parcours par lots avec audience en lecture seule](assets/simulate-batch-2.png)
 
-Avec parcours batch avec une audience lue et des événements unitaires **, vous pouvez accéder à**&#x200B;[!UICONTROL &#x200B; Simulation rapide &#x200B;]&#x200B;**ou**&#x200B;[!UICONTROL &#x200B; Simulation manuelle &#x200B;]&#x200B;**.**
-
-![Bouton Mode test dans l’interface de parcours](assets/simulate-12.png)
-
 +++
 
 +++ Parcours unitaire
@@ -72,10 +64,6 @@ Le parcours commence par un événement unitaire, et non par une audience lue. U
 Les utilisateurs simulés sélectionnés pour la simulation et les événements configurés sont visibles respectivement dans les sections **Tester les utilisateurs** et **Tester les événements**. La section **Tester les utilisateurs** n’inclut pas d’action permettant de déclencher un utilisateur simulé dans le parcours. Vous déclenchez l’entrée à partir de **Événements de test**.
 
 ![Panneau Simulation pour un parcours par lots avec audience en lecture seule](assets/simulate-batch-3.png)
-
-Avec parcours unitaire **, vous accédez directement au menu Simulation manuelle .**
-
-![Panneau de simulation pour un parcours unitaire](assets/simulate-13.png)
 
 +++
 
