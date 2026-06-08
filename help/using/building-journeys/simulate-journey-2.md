@@ -12,14 +12,18 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
+source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
 workflow-type: tm+mt
-source-wordcount: 1358
-ht-degree: 4%
+source-wordcount: 1831
+ht-degree: 1%
 
 ---
 
-# Simuler votre parcours{#simulate-journey}
+# Simuler votre parcours {#simulate-journey}
+
+>[!IMPORTANT]
+>
+>Vous avez besoin d’au moins de l’une des autorisations suivantes pour accéder à la fonction **[!UICONTROL Simulation]** : **Simuler des parcours**, **Publier des parcours** ou **Approuver et publier des parcours**. [En savoir plus](../administration/permissions.md)
 
 Utilisez **[!UICONTROL Simulation]** pour valider votre parcours avec des **utilisateurs simulés** avant de procéder à la publication. Cette page vous guide tout au long des étapes **[!UICONTROL Simulation rapide]** et **[!UICONTROL Simulation manuelle]**, de la création et de l’envoi d’utilisateurs simulés, du déclenchement d’événements unitaires lorsque votre parcours en a besoin, ainsi que de la révision du journal **[!UICONTROL Résultats]**.
 
@@ -29,37 +33,43 @@ Pour obtenir un aperçu par type de parcours, voir [Prise en main de la simulati
 
 Après l’activation, les parcours par lots avec entrée d’audience lue offrent deux manières d’exécuter une simulation :
 
-* La **[!UICONTROL simulation rapide]** s’exécute de bout en bout avec les utilisateurs générés et les valeurs par défaut. Notez que la simulation rapide n’est pas disponible avec les parcours unitaires.
+* La **[!UICONTROL simulation rapide]** s’exécute de bout en bout avec les utilisateurs et utilisatrices générés, les valeurs d’événement générées et les paramètres de test par défaut, optimisés par Journey Agent. Il s’agit d’une méthode rapide pour simuler un parcours bout en bout avec une intervention minimale. La simulation rapide démarre dès que vous sélectionnez cette option.
 
-* La **[!UICONTROL simulation manuelle]** vous permet de choisir les utilisateurs, d’envoyer la commande, les payloads d’événement et les remplacements d’attente étape par étape.
+* **[!UICONTROL Simulation manuelle]** permet d’exécuter une simulation pas à pas, manuellement. Créez des utilisateurs simulés (manuellement ou avec le Journey Agent), déclenchez-les dans le parcours, définissez des payloads d’événement (manuellement ou avec le Journey Agent) et remplacez les attentes.
 
-![Simulation rapide et simulation manuelle dans le panneau Simulation](assets/quick-simulation-1.png)
+![Panneau Paramètres de simulation avec les options Simulation rapide et Simulation manuelle en regard de la zone de travail du parcours &#x200B;](assets/quick-simulation-1.png)
 
 ### Simulation rapide {#quick-simulation}
 
-Sur un parcours par lots dans **[!UICONTROL Simulation]**, **[!UICONTROL Simulation rapide]** exécute le parcours avec les utilisateurs générés et les paramètres préremplis.
+Sur n’importe quel parcours de **[!UICONTROL Simulation]**, **[!UICONTROL Simulation rapide]** exécute le parcours avec les utilisateurs et utilisatrices générés, les valeurs d’événement et les paramètres préremplis.
 
 1. Sélectionnez **[!UICONTROL Simulation rapide]**.
 
-1. Examinez les champs que Adobe Journey Optimizer a collectés pour l’exécution. Cliquez sur **[!UICONTROL Mettre à jour les valeurs]** pour modifier les paramètres de l’épreuve ou du canal, ou continuez sans apporter de modifications.
+1. Examinez les champs que Adobe Journey Optimizer a collectés pour l’exécution. Cliquez sur **[!UICONTROL Mettre à jour les valeurs]** pour modifier les paramètres de test et les adresses d’exécution, ou continuez sans apporter de modifications.
 
-   ![Étape de révision rapide de la simulation](assets/quick-simulation-2.png)
+   Cette étape n’apparaît que si le parcours utilise des attentes ou des canaux. Vous pouvez ajuster toutes les durées d’attente et les adresses d’exécution pour les utilisateurs simulés, par exemple utiliser votre propre e-mail afin que les messages de l’exécution soient envoyés à votre boîte de réception.
+
+   ![Boîte de dialogue Simulation rapide à l’étape Collecte d’informations avec Mettre à jour les valeurs et Passer à l’étape suivante](assets/quick-simulation-2.png)
 
 1. Si vous avez ouvert **[!UICONTROL Mettre à jour les valeurs]**, modifiez les paramètres, par exemple l’adresse utilisée pour les BAT des messages, puis confirmez pour démarrer la simulation.
 
-   ![Valeurs de mise à jour de la simulation rapide](assets/quick-simulation-3.png)
+   ![Étape de mise à jour de la simulation rapide des valeurs avec remplacement du temps d’attente et champs d’e-mail et de téléphone du BAT](assets/quick-simulation-3.png)
 
-1. Adobe Journey Optimizer génère des utilisateurs simulés à partir de la définition du parcours et déclenche chaque utilisateur dans le parcours.
+1. Le Journey Agent génère un ensemble d’utilisateurs simulés à partir de la définition du parcours.
+
+   Pour les parcours dotés d’un nœud E-mail, SMS ou Push, l’agent vous invite à confirmer l’adresse e-mail, le numéro de téléphone ou le jeton push à utiliser. Les utilisateurs simulés sont générés à l’aide de ces valeurs. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Générer]**.
 
 1. Une fois l’exécution terminée, cliquez sur **[!UICONTROL Afficher les résultats]** pour consulter les chemins d’accès, les erreurs et les branches découvertes. Voir [Afficher les résultats](#viewing-results).
 
-   ![Exécution de la simulation rapide terminée](assets/quick-simulation-4.png)
+   ![La simulation rapide s’est terminée avec toutes les étapes réussies et Afficher les résultats disponibles](assets/quick-simulation-4.png)
+
+La simulation rapide prend également en charge les parcours déclenchés par un événement et les parcours qui incluent des activités d’événement. Les valeurs d’événement sont définies et déclenchées automatiquement pour chaque utilisateur simulé généré. Une fois qu’un utilisateur entre dans le parcours, chaque événement est déclenché dès qu’il atteint l’Attente correspondante.
 
 ### Simulation manuelle {#manual-simulation}
 
-Choisissez **[!UICONTROL Simulation manuelle]** lorsque vous devez sélectionner chaque utilisateur simulé, contrôler l’ordre d’envoi, configurer les payloads de l’événement et remplacer les durées **[!UICONTROL d’attente]** de l’exécution. Ce flux s’applique aux parcours par lots et unitaires.
+Choisissez **[!UICONTROL Simulation manuelle]** lorsque vous devez sélectionner chaque utilisateur simulé, contrôler l’ordre d’envoi, configurer les payloads de l’événement et remplacer les durées **[!UICONTROL d’attente]** de l’exécution.
 
-Continuez avec [Créer et gérer des utilisateurs simulés](#test-users), [Déclencher vos événements](#firing_events) et [Afficher les résultats](#viewing-results).
+Continuez avec [Créer et gérer des utilisateurs simulés](#test-users), [Déclencher vos événements](#firing-events) et [Afficher les résultats](#viewing-results).
 
 ## Création et gestion d’utilisateurs simulés {#test-users}
 
@@ -77,7 +87,7 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    Pour les parcours disposant d’un nœud E-mail ou SMS, l’IA vous invite à confirmer l’adresse e-mail ou le numéro de téléphone à utiliser. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Générer]**.
 
-   ![Panneau de sélection d’utilisateur simulé](assets/simulate-generate.png)
+   ![&#x200B; Boîte de dialogue Générer des utilisateurs simulés avec les champs d’e-mail et de téléphone d’exécution et bouton Générer &#x200B;](assets/simulate-generate.png)
 
    +++
 
@@ -85,7 +95,7 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    Choisissez **[!UICONTROL Parcourir l’inventaire]** pour ajouter des utilisateurs simulés que vous avez déjà enregistrés, par exemple, les utilisateurs que vous avez créés à partir d’un formulaire ou d’un fichier JSON, ou les utilisateurs que vous avez conservés après une exécution de génération d’IA.
 
-   ![Panneau de sélection d’utilisateur simulé](assets/simulate-inventory.png)
+   ![&#x200B; Boîte de dialogue d’inventaire des utilisateurs simulés avec recherche, tableau des utilisateurs et bouton Sélectionner &#x200B;](assets/simulate-inventory.png)
 
    +++
 
@@ -93,7 +103,7 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    1. Saisissez un **[!UICONTROL Nom d’affichage]**, **[!UICONTROL Espace de noms d’identité]** et **[!UICONTROL Description]** pour identifier cet utilisateur simulé.
 
-      ![Panneau de sélection d’utilisateur simulé](assets/simulate-form.png)
+      ![Créez un formulaire Utilisateurs simulés avec le nom d’affichage, l’espace de noms d’identité, la description et les attributs de schéma d’union](assets/simulate-form.png)
 
    1. Sélectionnez ensuite les attributs du schéma d’union à renseigner pour cet utilisateur.
 
@@ -103,11 +113,11 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
       Vous pouvez modifier le mode d’affichage des utilisateurs dans la liste, réduire chaque carte en mode empilé ou ouvrir les métadonnées d’attribut d’un utilisateur.
 
-      ![Panneau de sélection d’utilisateur simulé](assets/simulate-form-3.png)
+      ![Créer un pied de page Utilisateurs simulés avec les contrôles d’affichage Ajouter un utilisateur simulé, Tout réduire et Disposition](assets/simulate-form-3.png)
 
    1. Dans le menu Utilisateur simulé, utilisez **[!UICONTROL Dupliquer]** pour copier un utilisateur, **[!UICONTROL Appliquer tous les attributs aux autres utilisateurs]** pour copier les attributs d’un utilisateur vers tous les autres utilisateurs de la session ou **[!UICONTROL Supprimer]** pour supprimer un utilisateur.
 
-      ![Panneau de sélection d’utilisateur simulé](assets/simulate-form-2.png)
+      ![Création de cartes Utilisateurs simulés avec doublon, Application de tous les attributs aux autres utilisateurs et Suppression sur chaque utilisateur](assets/simulate-form-2.png)
 
    1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé de configurer les utilisateurs de cette session.
 
@@ -117,7 +127,7 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    Définissez de nouveaux utilisateurs simulés en mettant à jour les champs correspondants avec vos données utilisateur simulées.
 
-   ![Panneau de sélection d’utilisateur simulé](assets/simulate-json.png)
+   ![Créer un éditeur JSON d’utilisateurs simulés avec le modèle d’utilisateurs et le contrôle JSON de format](assets/simulate-json.png)
 
    +++
 
@@ -125,63 +135,80 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    * ![Icône Modifier](assets/do-not-localize/Smock_Edit_18_N.svg) : mettez à jour les détails de l’utilisateur simulé.
    * ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) : exécutez la simulation pour cet utilisateur simulé uniquement.
+
+     Cette option n’est pas disponible pour les parcours commençant par un événement , car l’entrée utilisateur simulée est déclenchée par l’événement envoyé. [En savoir plus](#firing-events)
+
    * ![Icône Effacer](assets/do-not-localize/Smock_Close_18_N.svg) : supprimez l’utilisateur de cette liste. L’utilisateur simulé n’est pas supprimé et reste disponible dans la sélection Utilisateurs simulés .
 
-   ![Panneau de sélection d’utilisateur simulé](assets/simulate-4-2.png)
+   ![Tester la liste des utilisateurs avec les actions de modification, d’envoi et de suppression et le chemin simulé mis en surbrillance sur la zone de travail](assets/simulate-4-2.png)
 
 1. Pour modifier la liste après votre sélection, cliquez sur **[!UICONTROL Gérer les utilisateurs]** pour ajouter d’autres utilisateurs simulés, à partir de l’inventaire ou en créant de nouveaux. Pour supprimer chaque utilisateur de la liste **[!UICONTROL Tester les utilisateurs]** pour cette exécution, choisissez **[!UICONTROL Effacer tous les utilisateurs]**.
 
-   ![Panneau de sélection d’utilisateur simulé](assets/simulate-manage.png)
+   ![Le menu Gérer les utilisateurs s’ouvre avec les options d’ajout d’utilisateurs et Effacer tous les utilisateurs](assets/simulate-manage.png)
 
 1. Si votre parcours comprend une activité **[!UICONTROL Attente]**, ouvrez l’onglet **[!UICONTROL Paramètres de test]** pour définir précisément la durée de cette attente pendant la simulation. Par exemple, si l’activité active **[!UICONTROL Attente]** est configurée pendant plusieurs jours, vous pouvez la remplacer par 10 secondes afin que l’utilisateur simulé ne passe que cette durée sur le nœud avant de passer à l’activité suivante.
 
 1. Cliquez sur **[!UICONTROL Envoyer tout]** pour envoyer chaque utilisateur simulé dans la liste du parcours, ou cliquez sur ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) sur une ligne pour envoyer uniquement cet utilisateur. Un message de confirmation `Simulated users have entered the journey successfully.` s’affiche lorsque les utilisateurs simulés rejoignent le parcours avec succès.
 
-   ![Panneau de sélection d’utilisateur simulé](assets/simulate-5-2.png)
+   ![Onglet Tester les utilisateurs une fois qu’ils ont accédé au parcours avec le message de réussite et le chemin sur la zone de travail](assets/simulate-5-2.png)
 
-1. Si le parcours comprend des événements unitaires, vous devez sélectionner l’événement à déclencher. Voir [&#x200B; Déclencher vos événements](#firing_events).
+1. Si le parcours comprend des événements unitaires, vous devez sélectionner l’événement à déclencher. Voir [&#x200B; Déclencher vos événements](#firing-events).
 
 1. Accédez à l’onglet **[!UICONTROL Résultats]** pour ouvrir le journal d’exécution et consulter l’exécution de chaque étape. Pour plus d’informations, voir [Affichage des résultats](#viewing-results).
+
+1. Une fois les tests terminés, ouvrez le menu **[!UICONTROL Gérer la simulation]** :
+
+   * **[!UICONTROL Fermez la simulation]** pour quitter la session de simulation en cours.
+   * **[!UICONTROL Réinitialiser la simulation]** pour effacer toutes les données de l’exécution en cours, les utilisateurs simulés sélectionnés, les valeurs d’événement définies et d’autres paramètres de test, afin que vous puissiez démarrer une nouvelle simulation à partir de zéro.
+
+     ![Le menu Gérer la simulation s’ouvre avec les options Réinitialiser la simulation et Fermer la simulation](assets/simulate-15.png)
 
 Après avoir validé le parcours dans **[!UICONTROL Simulation]**, consultez le journal **[!UICONTROL Résultats]**. Si des erreurs s’affichent, laissez **[!UICONTROL Simulation]**, apportez les modifications requises au parcours et exécutez à nouveau **[!UICONTROL Simulation]** jusqu’à ce que l’exécution semble correcte. Vous pouvez ensuite publier le parcours. Voir [Publier votre parcours &#x200B;](../building-journeys/publish-journey.md).
 
-## Déclencher vos événements {#firing_events}
+## Déclencher vos événements {#firing-events}
 
-Si votre parcours comprend un ou plusieurs événements unitaires, vous pouvez les déclencher lorsque la Simulation est active.
+Si votre parcours comprend un ou plusieurs événements unitaires, vous pouvez les déclencher lorsque la Simulation est active. Pour les parcours ne commençant pas par un événement mais en contenant un, cette section ne sera pas visible tant qu’un utilisateur simulé n’aura pas accédé au parcours.
 
 1. Dans **[!UICONTROL Sélectionner le type d’événement]**, sélectionnez l’événement à déclencher pour cette simulation.
 
-   ![Interface de configuration des événements avec champs et liste déroulante pour la sélection d’événements](assets/simulate-10-2.png)
+   ![Le menu déroulant Sélectionner le type d’événement s’ouvre dans la section Tester les événements des paramètres Simulation](assets/simulate-10-2.png)
 
 1. Pour appliquer la même modification à chaque utilisateur de la liste, utilisez l’option **[!UICONTROL Gérer les événements]** pour :
 
-   * **[!UICONTROL Générez des valeurs d’événement]** pour permettre à Adobe Journey Optimizer de générer la payload à l’aide de l’IA. Lorsque des valeurs sont générées, l’utilisateur est marqué **[!UICONTROL Prêt à envoyer]**.
-   * **[!UICONTROL Modifier la date de l’événement]** pour modifier la payload de cet utilisateur simulé uniquement.
+   * **[!UICONTROL Générer des valeurs d’événement]** pour permettre au Journey Agent de générer toutes les payloads à l’aide de l’IA. Lorsque des valeurs sont générées, l’utilisateur est marqué **[!UICONTROL Prêt à envoyer]**.
+   * **[!UICONTROL Modifier les données d’événement]** pour modifier la payload de chaque utilisateur simulé dans la liste.
 
-   ![Interface de configuration des événements avec champs et liste déroulante pour la sélection d’événements](assets/simulate-9-2.png)
+   ![Menu Gérer les événements dans Événements de test avec les options Générer avec l’IA et Modifier toutes les options](assets/simulate-9-2.png)
 
 1. Configurez la payload d’événement pour chaque utilisateur en cliquant sur l’![Modifier l’événement](assets/do-not-localize/Smock_Edit_18_N.svg) en regard d’un utilisateur pour :
 
-   * **[!UICONTROL Générez des valeurs d’événement]** pour permettre à Adobe Journey Optimizer de générer la payload à l’aide de l’IA. Lorsque des valeurs sont générées, l’utilisateur est marqué **[!UICONTROL Prêt à envoyer]**.
-   * **[!UICONTROL Modifier la date de l’événement]** pour modifier la payload de cet utilisateur simulé uniquement.
+   * **[!UICONTROL Générez des valeurs d’événement]** pour permettre au Journey Agent de générer la payload à l’aide de l’IA. Lorsque des valeurs sont générées, l’utilisateur est marqué **[!UICONTROL Prêt à envoyer]**.
+   * **[!UICONTROL Modifiez les données d’événement]** afin de modifier la payload pour cet utilisateur simulé uniquement.
 
-   ![Interface de configuration des événements avec champs et liste déroulante pour la sélection d’événements](assets/simulate-8-2.png)
+   ![Menu par utilisateur dans Événements de test avec les options Générer des valeurs d’événement et Modifier les données d’événement &#x200B;](assets/simulate-8-2.png)
 
-1. Dans **[!UICONTROL Tester les événements]**, sélectionnez **[!UICONTROL Envoyer tout]** pour envoyer dans le parcours chaque utilisateur simulé répertorié sous **[!UICONTROL Tester les utilisateurs]** ou sélectionnez ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) pour qu’un seul utilisateur exécute la simulation pour cet utilisateur uniquement.
+1. Dans **[!UICONTROL Événements de test]**, sélectionnez **[!UICONTROL Envoyer tout]** pour envoyer cet événement à tous les utilisateurs simulés répertoriés sous **[!UICONTROL Utilisateurs de test]** ou sélectionnez ![Icône Envoyer](assets/do-not-localize/Smock_Send_18_N.svg) pour qu’un seul événement soit déclenché pour cet utilisateur uniquement.
 
-   ![Interface de configuration des événements avec champs et liste déroulante pour la sélection d’événements](assets/simulate-11-2.png)
+   ![Section des événements de test avec les commandes Envoyer tout et Envoyer par utilisateur pour les utilisateurs marqués comme Prêt](assets/simulate-11-2.png)
 
-1. Une fois les événements déclenchés, la zone de travail se met à jour pour refléter la progression de chaque utilisateur. Cliquez sur n’importe quelle ligne de la liste **[!UICONTROL Tester les utilisateurs]** pour afficher le nouveau chemin emprunté par l’utilisateur dans le parcours.
+1. Une fois les événements déclenchés, la zone de travail se met à jour pour refléter la progression de chaque utilisateur.
 
 1. Accédez à l’onglet **[!UICONTROL Résultats]** pour ouvrir le journal d’exécution et consulter l’exécution de chaque étape. Pour plus d’informations, voir [Affichage des résultats](#viewing-results).
+
+1. Une fois les tests terminés, ouvrez le menu **[!UICONTROL Gérer la simulation]** :
+
+   * **[!UICONTROL Fermez la simulation]** pour quitter la session de simulation en cours.
+   * **[!UICONTROL Réinitialiser la simulation]** pour effacer toutes les données de l’exécution en cours, les utilisateurs simulés sélectionnés, les valeurs d’événement définies et d’autres paramètres de test, afin que vous puissiez démarrer une nouvelle simulation à partir de zéro.
+
+     ![Le menu Gérer la simulation s’ouvre avec les options Réinitialiser la simulation et Fermer la simulation](assets/simulate-15.png)
 
 ## Affichage des résultats {#viewing-results}
 
 L’onglet **[!UICONTROL Résultats]** vous permet d’afficher les résultats du test. Dans le menu déroulant **[!UICONTROL Tester l’utilisateur]**, sélectionnez l’utilisateur simulé dont vous souhaitez contrôler l’exécution.
 
-Sélectionnez **[!UICONTROL Tous]** pour afficher les résultats agrégés pour chaque utilisateur simulé dans l’exécution. Cette vue vous permet d’analyser la simulation complète en un coup d’œil, les activités, les résultats et les erreurs, sans sélectionner un seul utilisateur simulé au préalable.
+Sélectionnez **[!UICONTROL Tous]** pour afficher les résultats agrégés pour chaque utilisateur simulé dans l’exécution. Cette vue vous permet d’analyser la simulation complète en un coup d’œil, y compris les activités, les résultats et les erreurs, sans devoir sélectionner un seul utilisateur simulé au préalable.
 
-![Journaux des utilisateurs et utilisatrices de test](assets/simulate-6-2.png)
+![Onglet Résultats avec résumé de la simulation, filtre de l’utilisateur du test et couverture du chemin d’accès sur la zone de travail du parcours &#x200B;](assets/simulate-6-2.png)
 
 Pour chaque activité, le journal peut indiquer si l’utilisateur simulé est entré ou sorti de l’étape, ainsi que les erreurs survenues pendant la simulation.
 
