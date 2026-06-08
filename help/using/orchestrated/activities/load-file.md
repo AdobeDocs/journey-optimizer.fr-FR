@@ -5,18 +5,14 @@ title: Utiliser l'activité Chargement de fichier
 description: Découvrez comment utiliser l’activité Chargement de fichier pour cibler une audience de campagne orchestrée à partir d’un fichier CSV ou TXT sans ingérer le fichier dans Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -25,13 +21,13 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Activité Chargement de fichier"
->abstract="L’activité **Chargement de fichier** est une activité **Gestion des données**. Utilisez-la pour travailler avec des profils et des données stockés dans un fichier externe sur la zone de travail de campagne orchestrée et définir l’audience de la campagne. Les données de fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform."
+>abstract="L’activité **Chargement de fichier** est une activité **Gestion des données**. Utilisez-la pour travailler avec des profils et des données stockés dans un fichier externe sur la zone de travail de campagne orchestrée et définir l’audience de la campagne. Les données de fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform."
 
 L’activité **[!UICONTROL Chargement de fichier]** est une activité **[!UICONTROL Gestion des données]**. Utilisez-la pour travailler avec des profils et des données stockés dans un fichier externe. Il prend en charge le **ciblage basé sur des fichiers** dans les campagnes orchestrées lorsque votre liste de destinataires provient d’un système externe (par exemple, une exportation CRM ou un fichier de partenaire) et que vous souhaitez exécuter une campagne sans créer d’abord un pipeline d’ingestion Adobe Experience Platform complet.
 
 >[!AVAILABILITY]
 >
->L’activité **Chargement de fichier** est disponible dans **Disponibilité limitée** pour un ensemble d’organisations. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe. Pour connaître les phases de disponibilité, consultez le cycle de publication de [&#128279;](../../rn/releases.md).
+>L’activité **Chargement de fichier** est disponible dans **Disponibilité limitée** pour un ensemble d’organisations. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe. Pour connaître les phases de disponibilité, consultez le cycle de publication de [](../../rn/releases.md).
 >
 >L’activité ne peut actuellement pas être utilisée avec **Healthcare Shield**.
 
