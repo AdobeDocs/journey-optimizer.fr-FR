@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 1201
-ht-degree: 87%
+source-wordcount: 1199
+ht-degree: 85%
 
 ---
 
@@ -128,9 +128,9 @@ Pour plus d’informations, consultez cette [section](../event/about-creating-bu
 
 ## Parcours de lecture d’audience {#entry-read-audience}
 
-Les parcours **Lecture d’audience** peuvent être récurrents ou ponctuels :
+Les parcours **Lecture d&#39;audience** peuvent être récurrents ou non récurrents :
 
-* Pour les parcours non récurrents/ponctuels : le profil rejoint une seule fois le parcours.
+* Pour les parcours non récurrents : le profil entre une seule fois dans le parcours.
 
 * Pour les parcours récurrents : par défaut, tous les profils appartenant à l’audience rejoignent le parcours à chaque périodicité. Elles doivent terminer le parcours avant de pouvoir rejoindre à nouveau une autre occurrence.
 
