@@ -6,15 +6,11 @@ description: Découvrez comment stocker des mots-clés SMS entrants dans un jeu 
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: 517
 ht-degree: 16%
 
 ---
@@ -25,7 +21,7 @@ Les mots-clés de SMS entrants peuvent être stockés dans un jeu de données pe
 
 >[!NOTE]
 >
->Si aucun jeu de données personnalisé n’est configuré, les mots-clés entrants sont stockés par défaut dans le jeu de données d’événement d’activité entrante __ système. Un profil doit avoir au moins un message envoyé par [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés dans ce jeu de données. [En savoir plus sur les jeux de données système](../data/get-started-datasets.md#system-datasets)
+>Si aucun jeu de données personnalisé n’est configuré, les mots-clés entrants sont stockés par défaut dans le _jeu de données de suivi d’e-mail_ système. Un profil doit avoir au moins un message envoyé par [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés dans ce jeu de données. [En savoir plus sur les jeux de données système](../data/get-started-datasets.md#system-datasets)
 
 Pour plus d’informations sur les schémas, les groupes de champs et les jeux de données, consultez la documentation Adobe Experience Platform suivante :
 

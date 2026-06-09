@@ -7,14 +7,11 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 2855
+source-wordcount: 2801
 ht-degree: 9%
 
 ---
@@ -55,7 +52,7 @@ Lors de la configuration d’un webhook, vous pouvez définir son objectif en fo
 
 >[!NOTE]
 >
->Les données de mot-clé entrantes sont stockées dans le jeu de données système _AJO Inbound Activity Event Dataset_, sauf si un jeu de données personnalisé est configuré. Un profil doit avoir au moins un message envoyé par [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés. [En savoir plus](../data/get-started-datasets.md#system-datasets)
+>Les données de mot-clé entrantes sont stockées dans le jeu de données système _Jeu de données de suivi d’e-mail_, sauf si un jeu de données personnalisé est configuré. Un profil doit avoir au moins un message envoyé par [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés. [En savoir plus](../data/get-started-datasets.md#system-datasets)
 
 Selon votre fournisseur, les attentes quant à ce qui doit être configuré pour une implémentation SMS réussie seront différentes :
 
