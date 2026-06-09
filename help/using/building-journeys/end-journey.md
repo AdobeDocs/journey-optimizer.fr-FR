@@ -10,24 +10,16 @@ keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 1008
-ht-degree: 95%
+source-wordcount: 1171
+ht-degree: 76%
 
 ---
 
@@ -72,15 +64,32 @@ Si le parcours comporte plusieurs chemins, il est conseillé d’ajouter un libe
 
 Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 
-* Un parcours basé sur un segment unique qui a terminé son exécution et a atteint la temporisation globale de 91 jours.
+* Un parcours Lecture d’audience non récurrent **s’arrête automatiquement** une fois que le dernier profil quitte le parcours. [En savoir plus](#auto-stop-non-recurring)
 * Après la dernière occurrence d’un parcours récurrent basé sur une audience.
 * Le parcours est fermé manuellement par le biais du bouton [**[!UICONTROL Fermer aux nouvelles entrées]**](#close-to-new-entrances).
+* Le délai d’expiration global du parcours de 91 jours est atteint.
 
 Après la **temporisation globale de 91 jours**, le statut d’un parcours de lecture d’audience passe à **Terminé**. Ce comportement est défini uniquement sur 91 jours, car toutes les informations relatives aux profils qui ont rejoint le parcours sont supprimées 91 jours après leur entrée. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Elles quittent le parcours après la temporisation de 91 jours.  En savoir plus sur [la temporisation globale d’un parcours](../building-journeys/journey-properties.md#global_timeout).
 
->[!TIP]
+### Arrêt automatique des parcours pour les audiences non récurrentes {#auto-stop-non-recurring}
+
+Un parcours **Lecture d’audience non récurrent** passe automatiquement au statut **[!UICONTROL Arrêté]** une fois que le dernier profil quitte le parcours. Cela élimine le comportement précédent où les parcours Lecture d’audience non récurrents conservaient le statut **Actif** jusqu’à l’expiration du délai d’expiration global de 91 jours, même si aucun profil ne les traversait activement.
+
+**Fonctionnement :**
+
+1. Le parcours s’exécute et tous les profils de l’audience sont traités.
+1. Lorsque chaque profil atteint la fin du parcours, il se ferme normalement.
+1. Lorsque le **dernier profil actif se ferme**, le parcours passe automatiquement au statut **[!UICONTROL Arrêté]**.
+
+Ce comportement s’applique uniquement aux parcours Lecture d’audience non récurrents **.** Les parcours récurrents ne sont pas affectés.
+
+>[!NOTE]
 >
->Un parcours unique basé sur les segments conserve le statut **Actif** même après une seule exécution. Les profils ne peuvent pas rejoindre à nouveau le parcours une fois l’opération terminée, mais le statut du parcours reste **Actif** jusqu’à l’expiration de la temporisation globale par défaut. Vous pouvez le fermer manuellement plus tôt à l’aide de l’option **Fermer aux nouvelles entrées**.
+>Ce comportement d’arrêt automatique ne s’applique **pas** aux parcours non récurrents qui incluent des nœuds provoquant des périodes d’attente, tels que les nœuds **Wait** (basés sur le minuteur), **Reaction** (qui attendent des événements tels que l’ouverture ou le clic d’un e-mail) ou les transitions déclenchées par un événement. Ces parcours restent soumis à la temporisation globale standard de 91 jours.
+
+>[!NOTE]
+>
+>Vous pouvez toujours fermer manuellement à tout moment un parcours Lecture d’audience non récurrent à l’aide de l’option **[!UICONTROL Fermer aux nouvelles entrées]**. Le comportement d’arrêt automatique permet simplement de s’assurer que le parcours s’arrête automatiquement lorsqu’il n’est plus nécessaire, sans nécessiter d’intervention manuelle.
 
 ### Quand un parcours est-il considéré comme « terminé » ? {#journey-finished-definition}
 
@@ -88,8 +97,8 @@ La définition de « terminé » varie en fonction du type de parcours :
 
 | Type de parcours | Récurrent ? | A une date de fin ? | Définition de « terminé » |
 |--------------|------------|---------------|--------------------------|
-| Lecture d’audience | Non | S.O. | 91 jours après le début de l’exécution |
-| Lecture d’audience | Oui | Non | 91 jours après le début de l’exécution |
+| Lecture d’audience | Non | S.O. | Lorsque le dernier profil se ferme (arrêt automatique) |
+| Lecture d’audience | Oui | Non | 91 jours après le début de la dernière occurrence |
 | Lecture d’audience | Oui | Oui | Lorsque la date de fin est atteinte |
 | Parcours déclenché par un événement | S.O. | Oui | Lorsque la date de fin est atteinte |
 | Parcours déclenché par un événement | S.O. | Non | Si fermeture dans l’interface d’utilisation ou via l’API |
@@ -142,4 +151,4 @@ Vous pouvez également réaliser les opérations suivantes :
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) : configurez la suppression automatique des profils des parcours.
-* [Mettre en pause un parcours &#x200B;](journey-pause.md) : arrêtez temporairement l’exécution du parcours.
+* [Mettre en pause un parcours ](journey-pause.md) : arrêtez temporairement l’exécution du parcours.
