@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 85%
+source-wordcount: 979
+ht-degree: 82%
 
 ---
 
@@ -106,6 +106,16 @@ Créez des **actions personnalisées** si vous utilisez un système tiers pour e
 Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : faites glisser et déposez facilement un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
 
 [Explorer le concepteur de parcours](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+
+**Fragments de Parcours réutilisables**
+
+Créez un ensemble de nœuds de parcours une fois (par exemple, une vérification d’éligibilité ou une logique de routage de canal) et réutilisez-les dans les parcours avec **fragments de Parcours**.
+
+[En savoir plus sur les fragments de Parcours](journey-fragments.md)
 :::
 
 :::

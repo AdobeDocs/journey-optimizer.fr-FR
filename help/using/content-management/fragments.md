@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 97%
+source-wordcount: 382
+ht-degree: 88%
 
 ---
 
@@ -43,6 +43,13 @@ ht-degree: 97%
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Créer des fragments"
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails dans des campagnes et des parcours [!DNL Journey Optimizer]. Cette fonctionnalité vous permet de créer en avance plusieurs blocs de contenu personnalisés qui peuvent être utilisés par des personnes chargées du marketing pour assembler rapidement des contenus d’e-mails avec un processus de conception amélioré.
+
+>[!NOTE]
+>
+>Les **[!UICONTROL fragments]** décrits sur cette page sont des composants **contenu** réutilisables. Elles sont différentes de :
+>
+>* **[Fragments de Parcours](../building-journeys/journey-fragments.md)** — ensembles réutilisables de nœuds de parcours insérés dans des parcours.
+>* **[Fragments de contenu AEM](../integrations/aem-fragments.md)** — contenu créé dans Adobe Experience Manager et utilisé dans [!DNL Journey Optimizer].
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 

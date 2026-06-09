@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1712
-ht-degree: 22%
+source-wordcount: 1752
+ht-degree: 21%
 
 ---
 
@@ -35,6 +35,13 @@ ht-degree: 22%
 Les expériences **sélecteur de ressources** et **sélecteur de fragments de contenu** existantes dans les workflows Adobe Journey Optimizer sont en cours de remplacement par **gestionnaire d’accès**. Le gestionnaire de contenu fournit une interface unifiée optimisée par l’IA pour découvrir et sélectionner des Assets, des fragments de contenu et Dynamic Media directement dans vos workflows de création AJO. Les intégrations existantes continueront à fonctionner pendant la période de transition.
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>Les **fragments de contenu** sont créés dans Adobe Experience Manager et utilisés dans [!DNL Journey Optimizer]. Elles sont différentes de :
+>
+>* **[Fragments](../content-management/fragments.md)** : composants de contenu réutilisables créés dans [!DNL Journey Optimizer] et utilisés dans les e-mails dans les campagnes et les parcours.
+>* **[Fragments de Parcours](../building-journeys/journey-fragments.md)** — ensembles réutilisables de nœuds de parcours insérés dans des parcours.
 
 L’intégration entre Adobe Experience Manager et Journey Optimizer suit ce flux de données :
 

@@ -8,13 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: fragments, parcours, réutilisation, nœuds, zone de travail, inventaire, réutilisable
-badge: label="Disponibilité limitée" type="Informative"
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1517
 ht-degree: 10%
 
 ---
@@ -22,12 +21,16 @@ ht-degree: 10%
 
 # Fragments de parcours {#journey-fragments}
 
->[!AVAILABILITY]
->Cette fonctionnalité est actuellement en disponibilité limitée. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
-
 Les fragments de parcours sont des ensembles réutilisables de nœuds de parcours que vous pouvez créer une fois et déposer dans n’importe quel parcours de votre sandbox. Qu’il s’agisse d’une vérification d’éligibilité, d’une logique de routage de canal préférée ou d’une séquence de bienvenue, les fragments aident les équipes à se déplacer plus rapidement et à rester cohérentes, sans avoir à reconstruire la même logique à chaque fois. [Voir les exemples de cas d’utilisation.](#examples)
 
 Une fois créés, les fragments sont stockés dans un **[!UICONTROL inventaire des fragments]** dédié et peuvent être insérés dans n’importe quel parcours à l’aide de l’activité **[!UICONTROL Fragments de Parcours]**.
+
+>[!NOTE]
+>
+>**Les fragments de Parcours** sont des ensembles réutilisables de nœuds de parcours. Elles sont différentes de :
+>
+>* **[Fragments](../content-management/fragments.md)** — Composants de contenu réutilisables utilisés dans les e-mails dans les campagnes et les parcours.
+>* **[Fragments de contenu AEM](../integrations/aem-fragments.md)** — contenu créé dans Adobe Experience Manager et utilisé dans [!DNL Journey Optimizer].
 
 >[!NOTE]
 >Les fragments de parcours utilisent un comportement de **copie** : l’insertion d’un fragment dans un parcours crée une copie statique des nœuds d’origine. Les mises à jour apportées au fragment d’origine ne sont pas répercutées dans les parcours qui l’ont déjà utilisé.
@@ -187,6 +190,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux fragments de parcou
 * [Balises](tags.md) et **Libellés** sont pris en charge sur les fragments.
 * Les [&#x200B; Journaux d’audit &#x200B;](../privacy/audit-logs.md) sont pris en charge.
 * Les parcours s’exécutant sur l’ancienne pile (à l’aide de campagnes intégrées) ne prennent pas en charge les fragments de parcours. Dupliquez un tel parcours pour le déplacer vers la nouvelle pile avant d’utiliser cette fonctionnalité.
+* Les fragments de parcours prennent en charge [l’outil Sandbox](../configuration/copy-objects-to-sandbox.md). Les fragments peuvent être compilés et exportés vers un autre sandbox.
 
 ## Exemples de cas d’utilisation {#examples}
 
