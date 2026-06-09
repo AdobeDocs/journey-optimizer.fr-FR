@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
-source-wordcount: '3368'
+source-wordcount: '3366'
 ht-degree: 95%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 95%
       + [Utiliser l’envoi par vagues dans les parcours](using/building-journeys/send-using-waves.md)
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
-      + [Simuler votre parcours](using/building-journeys/simulate-journey.md)
-      + {hide-from-toc}[Prise en main de la simulation de Parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
-      + {hide-from-toc}[Simuler votre parcours &#x200B;](using/building-journeys/simulate-journey-2.md)
+      + Simulation {#simulate-journey}
+         + [Prise en main de la simulation de parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
+         + [Simuler votre parcours &#x200B;](using/building-journeys/simulate-journey.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
       + [Publier votre parcours](using/building-journeys/publish-journey.md)

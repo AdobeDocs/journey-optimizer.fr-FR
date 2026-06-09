@@ -9,10 +9,9 @@ role: User
 level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
 source-wordcount: 1427
 ht-degree: 3%
@@ -69,7 +68,7 @@ Les utilisateurs simulés sélectionnés pour la simulation et les événements 
 
 ## Lancer la simulation {#launch}
 
-Passez le parcours à **[!UICONTROL Simulation]** pour le tester avec des utilisateurs et utilisatrices simulés. Les tâches détaillées sont présentées dans la section [&#x200B; Simuler votre parcours &#x200B;](simulate-journey-2.md).
+Passez le parcours à **[!UICONTROL Simulation]** pour le tester avec des utilisateurs et utilisatrices simulés. Les tâches détaillées sont présentées dans la section [&#x200B; Simuler votre parcours &#x200B;](simulate-journey.md).
 
 1. Dans le parcours, cliquez sur **[!UICONTROL Simuler]** et choisissez **[!UICONTROL Simuler]**.
 
