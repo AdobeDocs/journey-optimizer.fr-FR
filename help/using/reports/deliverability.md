@@ -28,10 +28,10 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 94%
+source-wordcount: 1347
+ht-degree: 81%
 
 ---
 
@@ -130,9 +130,12 @@ Lorsqu’un utilisateur final ou une utilisatrice finale génère une plainte qu
 
 >[!IMPORTANT]
 >
->Tous les FAI ne fournissent pas une FBL traditionnelle, Gmail par exemple. Gmail ne fournit pas de retour au niveau individuel et ne peut pas être utilisé pour suivre les plaintes relatives aux spams envoyées à des destinataires individuels, en se concentrant plutôt sur les rapports au niveau agrégé dans ses outils Google Postmaster Tools. [En savoir plus](https://support.google.com/a/answer/6254652?hl=fr){target="_blank"}
+>Tous les FAI ne fournissent pas une FBL traditionnelle, Gmail par exemple. Gmail ne fournit pas de retour au niveau individuel et ne peut pas être utilisé pour suivre les plaintes relatives aux spams envoyées à des destinataires individuels, en se concentrant plutôt sur les rapports au niveau agrégé dans ses outils Google Postmaster Tools. [En savoir plus](#providers-no-fbl)
+
 
 L’ensemble des clientes et des clients Adobe est automatiquement inscrit sur les FBL traditionnelles des FAI suivants :
+
++++ FAI fournissant un FBL traditionnel
 
 * 1&amp;1
 
@@ -190,7 +193,21 @@ L’ensemble des clientes et des clients Adobe est automatiquement inscrit sur l
 
 * Ziggo
 
-Adobe effectue régulièrement des audits de ces FBL pour s’assurer que les dernières FBL disponibles sont ajoutées.
++++
+
+Adobe effectue des audits réguliers pour s’assurer que les derniers FBL disponibles sont ajoutés.
+
+### Fournisseurs sans FBL par destinataire {#providers-no-fbl}
+
+Tous les FAI ne fournissent pas un FBL traditionnel. Plusieurs grands fournisseurs de messagerie ne renvoient pas de plaintes contre le spam par destinataire, ce qui signifie que les destinataires qui utilisent ces fournisseurs s&#39;attendent à l&#39;absence d&#39;entrée dans la liste de suppression.
+
+| Fournisseur de boîtes aux lettres | Plainte par destinataire FBL ? |
+|---|---|
+| **Gmail / Google Workspace** | Non : création de rapports agrégés uniquement via les outils Google Postmaster (Feedback-ID ; non par destinataire). [En savoir plus](https://support.google.com/a/answer/6254652?hl=fr){target="_blank"} |
+| **Apple iCloud** (icloud.com, me.com, mac.com) | Non — [En savoir plus](https://support.apple.com/en-us/102322){target="_blank"} |
+| Microsoft d’entreprise 365 / Exchange Online **&#x200B;**&#x200B;| Non — Le programme de création de rapports sur le courrier indésirable (JMRP) ne couvre que le réseau Outlook.com des clients ; les rapports indésirables des clients des environnements M365 d&#39;entreprise ne sont pas renvoyés à l&#39;expéditeur. [En savoir plus](https://learn.microsoft.com/en-us/answers/questions/5787589/does-the-junk-mail-reporting-program-(jmrp)-send-c){target="_blank"} |
+
+Ensemble, ces fournisseurs représentent la majorité des boîtes de réception des consommateurs et des entreprises. Étant donné qu’aucune d’elles ne renvoie de plaintes par destinataire, un destinataire qui utilise l’un de ces services et qui marque un message comme indésirable n’apparaîtra **pas** automatiquement dans la liste de suppression.
 
 ## Utiliser le relais SMTP {#smtp-relay}
 

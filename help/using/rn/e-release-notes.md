@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c7c4dfa34d3886f665e3051c34ea9f2093562dac
+source-git-commit: 361e8f77dc32fb9154cc5ed156822bc402934595
 workflow-type: tm+mt
-source-wordcount: 2287
-ht-degree: 6%
+source-wordcount: 2169
+ht-degree: 7%
 
 ---
 
@@ -38,23 +38,6 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 ### Fidélité {#june-26-loyalty}
 
 Dans cette version, la fonctionnalité suivante sera bientôt disponible pour la fidélité.
-
-<table>
-<thead>
-<tr>
-<th><strong>Défis de fidélité</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les défis de fidélité transforment les initiatives de fidélité en <strong> expériences attrayantes et ludiques</strong> qui motivent les clients à prendre des mesures importantes, telles que faire des achats, écrire des avis, s’engager sur les médias sociaux ou recommander des amis.</p>
-<p>Les administrateurs peuvent utiliser le menu d’administration du programme de fidélité pour connecter Journey Optimizer à votre écosystème de fidélité, notamment les API d’exécution de récompense, les définitions d’événement, l’inventaire de produits, les exclusions et les paramètres d’identité. Les marketeurs peuvent ensuite concevoir des défis standard, en série ou séquentiels, définir des tâches et des récompenses, diffuser des cartes de contenu et des messages de marque et surveiller les performances avec des tableaux de bord de rapports intégrés. Journey Optimizer génère les parcours qui orchestrent chaque défi en arrière-plan, afin que les équipes puissent se concentrer sur l’expérience client et les objectifs commerciaux.</p>
-<p>Cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### Parcours {#june-26-journeys}
 
