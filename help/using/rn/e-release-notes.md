@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
+source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: 2000
 ht-degree: 10%
 
 ---
@@ -83,6 +83,9 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles dan
 
 * **Arrêter ou fermer un parcours en pause directement** - Vous pouvez désormais **arrêter un parcours ou le fermer aux nouvelles entrées** directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait reprendre pour passer en ligne avant de pouvoir être arrêté ou fermé.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">Lien vers la tâche DOCAC JIRA</a>
+
+* **Prise en charge des identifiants supplémentaires pour les audiences externes** - Les identifiants supplémentaires dans les parcours sont désormais pris en charge pour les audiences externes, y compris les audiences importées d’un fichier CSV et les audiences créées avec la composition d’audience fédérée. Vous pouvez désigner n’importe quel attribut de non-identité ou attribut d’identité non-personne de l’audience comme ID supplémentaire. Aucun étiquetage de schéma n’est nécessaire.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Lien vers la tâche DOCAC JIRA</a>
 
 ### Campagnes orchestrées {#june-26-oc}
 
