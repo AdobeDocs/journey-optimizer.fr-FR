@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 774
-ht-degree: 100%
+source-wordcount: 795
+ht-degree: 91%
 
 ---
 
@@ -39,8 +39,8 @@ Adobe Journey Optimizer vous permet de créer des messages personnalisés via 
 
 >[!AVAILABILITY]
 >
->L’intégration à Adobe Experience Manager est actuellement disponible en version Beta pour certains utilisateurs et utilisatrices uniquement.
->En tant qu’utilisateur ou utilisatrice de la version Beta, complétez [ce formulaire](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} pour nous faire part de vos commentaires.
+>L’intégration à Adobe Experience Manager est actuellement disponible en version bêta pour certains utilisateurs uniquement.
+>En tant qu’utilisateur bêta, utilisez [ce formulaire](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} pour partager vos commentaires.
 
 
 ### Conditions préalables {#prerequisites}
@@ -123,7 +123,7 @@ Une fois que le modèle Experience Manager est disponible dans Journey Optimiz
 
    ![](assets/aem_ajo_5.png)
 
-1. Si vous avez ajouté du contenu personnalisé à votre modèle Experience Manager, cliquez sur **[!UICONTROL Simuler le contenu]** pour afficher l’aperçu du message à l’aide de profils de test.
+1. Si vous avez ajouté du contenu personnalisé à votre modèle Experience Manager, utilisez l’une des méthodes de simulation pour prévisualiser la manière dont il apparaîtra dans le message : cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA, ou cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour prévisualiser avec des profils de test.
 
    [En savoir plus sur la prévisualisation et les profils de test](../content-management/preview-test.md)
 

@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1703
-ht-degree: 88%
+source-wordcount: 1735
+ht-degree: 86%
 
 ---
 
@@ -221,7 +221,7 @@ Lors de l’ajout du fragment à votre e-mail, vous pouvez désormais modifier l
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Vous pouvez cliquer sur **[!UICONTROL Simuler le contenu]** pour voir comment le contenu modifiable et le style s’affichent. [En savoir plus sur la prévisualisation de contenu](preview-test.md)
+1. Utilisez l’une ou l’autre des méthodes de simulation pour voir le rendu du contenu modifiable et du style : cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique de l’IA, ou cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour afficher l’aperçu avec les profils de test. [En savoir plus sur la prévisualisation de contenu](preview-test.md)
 
 1. Sélectionnez l’icône **[!UICONTROL Ajouter une personnalisation]** à côté de l’un des champs modifiables.
 

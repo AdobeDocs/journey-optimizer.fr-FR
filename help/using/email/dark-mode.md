@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1517
-ht-degree: 98%
+source-wordcount: 1553
+ht-degree: 95%
 
 ---
 
@@ -227,11 +227,11 @@ Pour définir les paramètres du mode sombre personnalisé, procédez comme suit
    >
    >Le mode en direct est une prévisualisation générique conçue pour comparer l’aspect du rendu sur différentes tailles d’appareils. Le rendu final peut varier en fonction du client de messagerie de la personne destinataire.
 
-1. Une fois que vous avez apporté les modifications souhaitées pour le mode sombre, cliquez sur **[!UICONTROL Simuler le contenu]**.
+1. Une fois que vous êtes satisfait des modifications pour le mode sombre, cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour vérifier le rendu des e-mails.
 
    ![](assets/dark-mode-simulate.png)
 
-1. Sélectionnez **[!UICONTROL Rendu d’e-mail]** et connectez-vous à votre compte Litmus. Vous pouvez voir le rendu final en mode sombre pour divers clients de messagerie. En savoir plus sur le [rendu des e-mails](../content-management/rendering.md).
+1. Sélectionnez **[!UICONTROL Rendu d’e-mail]** et connectez-vous à votre compte Litmus. Vous pouvez voir le rendu final en mode sombre pour divers clients de messagerie. En savoir plus sur le [rendu des e-mails](../content-management/rendering.md). Pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA à la place, cliquez directement sur **[!UICONTROL Simuler du contenu]**. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)
 
    >[!WARNING]
    >

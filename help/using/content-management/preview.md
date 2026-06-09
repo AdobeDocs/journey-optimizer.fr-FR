@@ -8,16 +8,16 @@ exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 90%
+source-wordcount: 231
+ht-degree: 86%
 
 ---
 
 # Prévisualiser votre contenu à l’aide de profils de test {#preview}
 
-Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez prévisualiser votre contenu à l’aide de leurs données. Procédez comme suit :
+Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez prévisualiser votre contenu à l’aide de leurs données. Vous pouvez utiliser l’une des méthodes de simulation suivantes :
 
 1. Dans l’écran de modification du contenu de votre message ou dans le Designer d’e-mail, cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante.
 
@@ -46,7 +46,3 @@ Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez pr�
    >Si les détails de configuration contiennent une erreur, cliquez sur le bouton **[!UICONTROL Afficher les détails de configuration]**. [En savoir plus](../email/surface-personalization.md#check-configuration)
 
 Lors de la création d’expériences basées sur du code, vous pouvez prévisualiser votre contenu personnalisé directement dans votre navigateur ou sur vos appareils mobiles pour une simulation réelle. [En savoir plus](../code-based/test-code-based.md#preview-on-device)
-
->[!NOTE]
->
->[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)

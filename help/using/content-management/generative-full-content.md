@@ -25,10 +25,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1941
-ht-degree: 94%
+source-wordcount: 1999
+ht-degree: 89%
 
 ---
 
@@ -133,7 +133,7 @@ Après avoir généré des variations de contenu, vous pouvez affiner les résul
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-1. Insérez des champs de personnalisation pour personnaliser votre contenu en fonction des données des profils. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
+1. Insérez des champs de personnalisation pour personnaliser votre contenu en fonction des données des profils. Ensuite, utilisez une méthode de simulation pour contrôler le rendu et vérifier les paramètres de personnalisation : cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique de l’IA, ou cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour obtenir un aperçu avec des profils de test. [En savoir plus](../content-management/preview-test.md)
 
 1. Examinez et activez votre contenu :
    * **E-mail** : lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne par e-mail. [En savoir plus](../campaigns/review-activate-campaign.md)
@@ -236,7 +236,7 @@ Après avoir examiné les variations de notification push générées, vous pouv
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de vos notifications push en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
+1. Insérez des champs de personnalisation pour personnaliser le contenu de vos notifications push en fonction des données de profil. Ensuite, utilisez une méthode de simulation pour contrôler le rendu et vérifier les paramètres de personnalisation : cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique de l’IA, ou cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour obtenir un aperçu avec des profils de test. [En savoir plus](../content-management/preview-test.md)
 
 Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne de notifications push. [En savoir plus](../campaigns/review-activate-campaign.md)
 

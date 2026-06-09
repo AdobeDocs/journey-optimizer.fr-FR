@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: tester, valider, approuver, approbation, assurance qualité, aq, profils de test, personnalisation, rendu, contrôle de spam, expérience de contenu, test a/b, détection de conflit, liste de contrôle, bat, données d’exemple, workflow d’approbation, test d’e-mail, workflow de validation
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '2419'
-ht-degree: 89%
+source-wordcount: '2281'
+ht-degree: 83%
 
 ---
 
@@ -150,7 +150,7 @@ Les processus de test et d’approbation constituent des points de contrôle qua
 | Capability | Applies to | Channel restrictions | Prerequisites | Primary purpose |
 |------------|-----------|---------------------|--------------|-----------------|
 | [Test profiles](../using/content-management/test-profiles.md) | Campaigns, Journeys | All channels | Test profiles created | Preview personalized content |
-| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file | Test multiple personalization variants |
+| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file, manual entry, or AI | Test multiple personalization variants |
 | [Test mode](../using/building-journeys/testing-the-journey.md) | Journeys only | N/A | Draft journey, namespace configured | Simulate profile progression |
 | [Dry run](../using/building-journeys/journey-dry-run.md) | Journeys only | N/A | Journey created | Analyze execution paths |
 | [Email rendering](../using/content-management/rendering.md) | Campaigns, Journeys | Email only | Litmus integration | Verify display across clients |
@@ -275,7 +275,7 @@ Pour maximiser l’efficacité de vos efforts de test, suivez ces pratiques reco
 
 1. **Valider minutieusement la personnalisation** : effectuez des tests avec plusieurs [profils de test](../using/content-management/test-profiles.md) dont les valeurs d’attribut sont différentes pour confirmer le bon rendu des jetons de personnalisation et le fonctionnement des valeurs de secours. Utilisez le [terrain de jeu de personnalisation](../using/personalization/personalize.md#playground) pour tester les expressions de personnalisation et le code avec des données d’exemple avant de les appliquer à vos campagnes.
 
-1. **Tester les variations de contenu avec des données d’exemple** : utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) à partir de fichiers CSV ou JSON pour tester jusqu’à 30 scénarios de personnalisation sans créer de nombreux profils de test, ce qui vous permet de gagner du temps tout en assurant une couverture complète. Prend en charge les canaux E-mail, SMS, Notification push, Web, Expérience basée sur du code, In-app et Cartes de contenu.
+1. **Tester les variations de contenu avec des exemples de données** - Utilisez [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) à partir de fichiers CSV ou JSON, une saisie manuelle ou une génération automatique d’IA pour tester jusqu’à 30 scénarios de personnalisation sans créer de nombreux profils de test.
 
 1. **Utiliser des listes de contrôle pour la surveillance des parties prenantes** : configurez des [listes de contrôle](../using/configuration/seed-lists.md) pour inclure automatiquement les parties prenantes internes qui recevront des copies de toutes les diffusions au moment de l’exécution à des fins de surveillance de la qualité et de vérification de la conformité (canal E-mail uniquement).
 
@@ -313,7 +313,7 @@ Découvrez comment les concepts de test s’appliquent aux scénarios réels :
 <a href="../using/building-journeys/journeys-uc.md"><strong>Envoyer des messages multicanaux</strong></a>
 </div>
 <p>
-Testez un parcours qui combine la lecture d’audience, les événements de réaction et les e-mails/messages push. Validez l’ensemble du flux, depuis le ciblage de l’audience jusqu’à la diffusion des messages. Concentrez-vous sur la coordination multicanal, les événements de réaction, la validation du flux de bout en bout et les étapes de test/publication.
+Testez un parcours qui combine la lecture d’audience, les événements de réaction et les e-mails/messages push. Validez l’ensemble du flux, du ciblage des audiences à la diffusion des messages. Concentrez-vous sur la coordination multicanal, les événements de réaction, la validation du flux de bout en bout et les étapes de test/publication.
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Testez un parcours qui combine la lecture d’audience, les événements de réa
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Envoyer un message aux personnes abonnées</strong></a>
 </div>
 <p>
-Testez des parcours qui ciblent les listes d’abonnements avec un adressage dynamique des e-mails. Validez les expressions de personnalisation pour un ciblage correct des personnes abonnées. Concentrez-vous sur les expressions de personnalisation, l’adressage dynamique et le ciblage des listes d’abonnements.
+Testez des parcours qui ciblent les listes d’abonnements avec une adresse e-mail dynamique. Validez les expressions de personnalisation pour un ciblage correct des abonnés. Concentrez-vous sur les expressions de personnalisation, l’adressage dynamique et le ciblage des listes d’abonnements.
 </p>
 </td>
 <td>
@@ -349,7 +349,7 @@ Testez des parcours avec des conditions temporelles pour vous assurer que les me
 <a href="../using/building-journeys/jo-use-cases.md"><strong>Explorer d’autres cas d’utilisation de parcours</strong></a>
 </div>
 <p>
-Accédez à un ensemble complet d’exemples pratiques couvrant les événements d’expérience, les messages multicanaux et les intégrations systèmes externes. Explorez divers scénarios, modèles avancés et approches de test d’intégration.
+Accédez à une collection complète d’exemples pratiques couvrant les événements d’expérience, la messagerie multicanal et les intégrations système externes. Explorez divers scénarios, modèles avancés et approches de test d’intégration.
 </p>
 </td>
 </tr></table>
@@ -364,7 +364,7 @@ Familiarisez-vous avec ces concepts de test essentiels pour mieux comprendre les
 
 **[Test à blanc](../using/building-journeys/journey-dry-run.md)** : outil d’analyse d’exécution de parcours qui effectue le suivi des chemins sans envoyer de messages ni effectuer d’appels API. Cas d’utilisation : valider la logique sans consommer de ressources. [En savoir plus sur le test à blanc](../using/building-journeys/journey-dry-run.md)
 
-**[Exemples de données d’entrée](../using/test-approve/simulate-sample-input.md)** : fichiers CSV ou JSON contenant des valeurs d’attribut de profil pour tester la personnalisation. Prend en charge jusqu’à 30 variantes. Alternative à la création de profils de test. [Simuler des variations de contenu](../using/test-approve/simulate-sample-input.md)
+**[Données d’entrée d’exemple](../using/test-approve/simulate-sample-input.md)** - Fichiers CSV ou JSON, saisie manuelle ou génération automatique par IA pour tester la personnalisation. Prend en charge jusqu’à 30 variantes. [Simuler des variations de contenu](../using/test-approve/simulate-sample-input.md)
 
 **[Listes de contrôle](../using/configuration/seed-lists.md)** : adresses e-mail des parties prenantes internes automatiquement incluses dans les diffusions réelles (et non les envois de test). Canal E-mail uniquement. Cas d’utilisation : surveillance de la qualité et conformité. [Configurer des listes de contrôle](../using/configuration/seed-lists.md)
 
@@ -386,7 +386,7 @@ Familiarisez-vous avec ces concepts de test essentiels pour mieux comprendre les
 
 >[!TAB Guides essentiels]
 
-* [Simuler des variations de contenu](../using/test-approve/simulate-sample-input.md) : testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON. Idéal pour les tests de contenu multilingue sans créer plusieurs profils de test. Prend en charge les expériences d’e-mails, de SMS, de notifications push, web, basées sur du code, in-app et de cartes de contenu.
+* [Simuler des variations de contenu](../using/test-approve/simulate-sample-input.md) - Testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON, d’une saisie manuelle ou d’une génération automatique d’IA.
 
 * [Créer des profils de test](../using/audience/creating-test-profiles.md) : créez et gérez des profils de test pour simuler des scénarios clients. Découvrez comment marquer les profils pour les tests, définir des attributs et organiser les segments de test.
 
@@ -453,9 +453,9 @@ Découvrez comment les fonctionnalités de test sont reliées entre elles et à 
 
 ### Q : Quelle est la différence entre le mode test et le mode essai pour les parcours ?
 
-**Mode test :** envoie des profils de test par le biais du parcours, déclenche des actions réelles et génère des messages de test. Nécessite un brouillon de parcours + un espace de noms.
-**Test à blanc :** effectue le suivi des chemins d’exécution sans rien envoyer. Fonctionne avec n’importe quel statut de parcours. Aucun message envoyé, aucune action exécutée.
-**À utiliser ensemble :** mode test pour le test des messages + test à blanc pour la validation de la logique : couverture complète.
+**Mode test :** envoie des profils de test par le biais du parcours, déclenche des actions réelles et génère des messages de test. Nécessite un brouillon de parcours + espace de noms.
+**Exécution d’essai :** effectue le suivi des chemins d’exécution sans rien envoyer. Fonctionne avec n’importe quel statut de parcours. Aucun message envoyé, aucune action exécutée.
+**Utiliser ensemble :** Mode test pour le test des messages + Exécution d’essai pour la validation de la logique - couverture complète.
 
 ### Q : Puis-je tester des parcours au statut de production/en ligne ?
 

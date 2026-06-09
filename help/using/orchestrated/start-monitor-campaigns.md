@@ -18,10 +18,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
-ht-degree: 43%
+source-wordcount: 1599
+ht-degree: 42%
 
 ---
 
@@ -76,7 +76,7 @@ L’icône **[!UICONTROL Alertes]** / **[!UICONTROL Avertissement]** de la bar
 
 Vous pouvez également identifier rapidement les activités ayant échoué à l’aide des [indicateurs visuels de statut](#activities) affichés directement sur chaque activité. Pour une résolution détaillée des problèmes, ouvrez les [journaux de la campagne](#logs-tasks) qui fournissent des informations détaillées sur l’erreur et son contexte.
 
-Si vous avez ajouté des activités de canal dans la zone de travail, vous pouvez prévisualiser et tester le contenu de vos messages à l’aide du bouton **[!UICONTROL Simuler le contenu]**. [Découvrez comment travailler avec les activités des canaux et simuler du contenu](activities/channels.md#simulate-content-test-profiles).
+Si vous avez ajouté des activités de canal dans la zone de travail, vous pouvez prévisualiser et tester le contenu de vos messages. [Découvrez comment travailler avec les activités des canaux et simuler du contenu](activities/channels.md#simulate-content-test-profiles).
 
 >[!TIP]
 >

@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 100%
+source-wordcount: 411
+ht-degree: 86%
 
 ---
 
@@ -53,9 +53,10 @@ Votre message in-app peut maintenant être déclenché directement sur votre app
 
 ## Prévisualiser avec les profils de test {#simulate}
 
-Une fois le contenu du message in-app défini, prévisualisez-le et testez-le à l’aide de profils de test. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
+Une fois votre message in-app défini, vous pouvez le prévisualiser à l’aide de l’une des méthodes de simulation suivantes :
 
-Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis ajoutez un profil de test pour vérifier votre message à l’aide des données de profil de test.
+* Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)
+* Cliquez sur **[!UICONTROL Simuler du contenu]** puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour afficher un aperçu avec des profils de test et ajouter un profil de test pour vérifier votre message.
 
 Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 

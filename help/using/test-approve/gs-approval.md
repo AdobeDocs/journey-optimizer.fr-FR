@@ -16,10 +16,10 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 984
-ht-degree: 100%
+source-wordcount: 1006
+ht-degree: 96%
 
 ---
 
@@ -140,4 +140,4 @@ Non. La personne qui soumet la demande ne peut pas sélectionner manuellement le
 * **[Créer des politiques de validation](approval-policies.md)** ; découvrez comment configurer des politiques de validation pour appliquer des workflows de révision aux campagnes et aux parcours.
 * **[Demande d’approbation](request-approval.md)** ; découvrez comment soumettre du contenu pour approbation et suivre le statut de la demande.
 * **[Révision et approbation des demandes](review-approve-request.md)** ; découvrez comment examiner, approuver ou refuser des demandes d’approbation en tant que personne en charge de l’approbation.
-* **[Simuler avec des données d’exemple](simulate-sample-input.md)** ; découvrez comment tester et valider le contenu à l’aide de données de profil d’exemple.
+* **[Simuler des variations de contenu](simulate-sample-input.md)** - Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée, la génération automatique de l’IA ou des utilisateurs simulés. Cliquez sur **[!UICONTROL Simuler du contenu]** puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour afficher un aperçu avec des profils de test.

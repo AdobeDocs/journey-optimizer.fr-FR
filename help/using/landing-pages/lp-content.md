@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 84%
+source-wordcount: 1630
+ht-degree: 82%
 
 ---
 
@@ -138,7 +138,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
    * **[!UICONTROL URL de redirection]** : saisissez l’URL de la page vers laquelle les utilisateurs seront redirigés.
    * **[!UICONTROL Texte de confirmation]** : saisissez le texte de confirmation qui sʼaffichera.
-   * **[!UICONTROL Lien vers une sous-page]** : configurez une [sous-page](create-lp.md#configure-subpages) et sélectionnez-la dans la liste déroulante qui s’affiche.
+   * **[!UICONTROL Lien vers une sous-page]** : configurez une [sous-page](create-lp.md#configure-subpages) et sélectionnez-la dans la liste déroulante qui sʼaffiche.
 
    ![](assets/lp_designer-form-confirmation-action.png)
 
@@ -177,7 +177,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Vous pouvez prévisualiser certains de vos paramètres, tels que la couleur du libellé du bouton au survol, à lʼaide du bouton **[!UICONTROL Simuler le contenu]**. En savoir plus sur le test des pages de destination [ici](create-lp.md#test-landing-page).
+   Vous pouvez prévisualiser certains de vos paramètres, tels que la couleur du libellé du bouton au survol à l’aide de l’une des méthodes de simulation. [En savoir plus sur le test des pages de destination](create-lp.md#test-landing-page)
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 

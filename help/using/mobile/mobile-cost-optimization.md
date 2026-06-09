@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 544
-ht-degree: 100%
+source-wordcount: 545
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Rédigez le SMS final directement dans Journey Optimizer ou collez-le à partir 
 
 ## Vérifier le nombre de caractères avant l’envoi {#check-character-count}
 
-Utilisez des applications en texte brut ou le menu Journey Optimizer **[!UICONTROL Simuler le contenu]** pour vérifier le nombre de caractères.
+Utilisez des applications en texte brut ou une méthode de simulation dans **[!UICONTROL Simuler du contenu]** pour vérifier le nombre de caractères.
 
 Lorsque Journey Optimizer affiche le nombre de caractères, espaces compris, lors de la simulation du contenu, tenez compte des points suivants :
 

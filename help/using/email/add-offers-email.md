@@ -25,10 +25,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 100%
+source-wordcount: 652
+ht-degree: 93%
 
 ---
 
@@ -93,7 +93,7 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
 
 1. Sélectionnez les profils de test à utiliser pour prévisualiser l’offre :
 
-   1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis choisissez l’espace de noms à utiliser pour identifier les profils de test à partir du champ **[!UICONTROL Espace de noms d’identité]**.
+   1. Cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante et choisissez l’espace de noms à utiliser pour identifier les profils de test à partir du champ **[!UICONTROL Espace de noms d’identité]**. Pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA à la place, cliquez directement sur **[!UICONTROL Simuler du contenu]**. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)
 
       >[!NOTE]
       >

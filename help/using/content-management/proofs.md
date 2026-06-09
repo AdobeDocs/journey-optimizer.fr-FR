@@ -8,10 +8,10 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 464
-ht-degree: 98%
+source-wordcount: 479
+ht-degree: 89%
 
 ---
 
@@ -19,9 +19,10 @@ ht-degree: 98%
 
 Un BAT est un message spécifique qui permet de tester un message avant son envoi à l&#39;audience principale. Les destinataires du BAT sont chargés d&#39;approuver le message : rendu, contenu, paramètres de personnalisation, configuration.
 
->[!NOTE]
->
->[!DNL Journey Optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)
+Vous pouvez envoyer des BAT à l’aide de l’une des méthodes de simulation :
+
+* Cliquez sur **[!UICONTROL Simuler du contenu]** puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour envoyer des BAT avec des profils de test.
+* Cliquez sur **[!UICONTROL Simuler du contenu]** pour envoyer des BAT pour les variations de contenu créées avec des exemples de données d’entrée ou la génération automatique d’IA. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md#proofs)
 
 ## À lire impérativement {#must-read}
 

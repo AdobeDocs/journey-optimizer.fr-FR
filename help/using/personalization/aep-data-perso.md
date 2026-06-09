@@ -24,10 +24,10 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 100%
+source-wordcount: 756
+ht-degree: 92%
 
 ---
 
@@ -114,7 +114,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
    * `{{flight._myorg.booking.boardingTime}}`
    * `{{flight._myorg.booking.gate}}`
 
-1. Maintenant que votre code est prêt, vous pouvez compléter votre contenu comme vous le faites habituellement et le tester à l’aide du bouton **Simuler le contenu** pour vérifier la personnalisation. [Découvrir comment prévisualiser et tester votre contenu](../content-management/preview-test.md)
+1. Maintenant que votre code est prêt, vous pouvez terminer votre contenu comme vous le faites habituellement et le tester à l’aide de l’une des méthodes de simulation suivantes : cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique de l’IA, ou cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour obtenir un aperçu avec des profils de test. [Découvrir comment prévisualiser et tester votre contenu](../content-management/preview-test.md)
 
 
    ![](assets/aep-data-sample.png)

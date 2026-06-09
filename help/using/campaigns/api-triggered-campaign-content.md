@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 100%
+source-wordcount: 450
+ht-degree: 88%
 
 ---
 
@@ -73,7 +73,12 @@ Notez que, pour l’instant, aucun attribut contextuel n’est disponible dans l
 
 ## Tester et vérifier votre contenu
 
-Une fois votre contenu défini, utilisez le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser et tester votre contenu avec des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment prévisualiser et tester du contenu](../content-management/preview-test.md). Pour revenir à l’écran de création de campagne, cliquez sur la flèche pointant vers la gauche.
+Une fois votre contenu défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour prévisualiser et tester votre contenu. Vous pouvez utiliser l’une des méthodes de simulation suivantes :
+
+* Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA.
+* Cliquez sur **[!UICONTROL Simuler du contenu]** puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour afficher un aperçu avec des profils de test.
+
+[Découvrez comment prévisualiser et tester du contenu](../content-management/preview-test.md). Pour revenir à l’écran de création de campagne, cliquez sur la flèche pointant vers la gauche.
 
 ![](assets/create-campaign-design.png)
 

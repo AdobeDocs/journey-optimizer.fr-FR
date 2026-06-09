@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 63%
+source-wordcount: 534
+ht-degree: 54%
 
 ---
 
@@ -37,9 +37,10 @@ ht-degree: 63%
 
 ## Prévisualiser votre message mobile {#preview-sms}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée (chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement) pour le prévisualiser. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier la façon dont celui-ci s’affiche dans le message.
+Une fois le contenu de votre message défini, vous pouvez prévisualiser son contenu à l’aide de l’une des méthodes de simulation suivantes :
 
-Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis vérifiez votre message à l’aide des données de profil de test.
+* Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)
+* Cliquez sur **[!UICONTROL Simuler du contenu]** puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour afficher un aperçu avec des profils de test.
 
 ![](assets/sms_preview_2.png)
 
@@ -47,7 +48,7 @@ Vous trouverez des informations détaillées sur comment prévisualiser et teste
 
 ### Codage des caractères et limites {#sms-character-limits}
 
-Un nombre de caractères s’affiche lors de l’accès au menu **[!UICONTROL Simuler du contenu]** pour vous aider à planifier et à gérer vos messages mobiles.
+Un nombre de caractères s’affiche lors de l’accès à l’une des méthodes de simulation à partir de **[!UICONTROL Simuler du contenu]** pour vous aider à planifier et à gérer vos messages mobiles.
 
 ![](assets/sms_preview_3.png)
 

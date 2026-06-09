@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 100%
+source-wordcount: 927
+ht-degree: 56%
 
 ---
 
@@ -89,3 +89,41 @@ Les attributs calculés offrent des fonctionnalités polyvalentes dans Journey 
 Puisque les attributs calculés sont des champs d’attribut de profil créés sur votre schéma d’union des profils, accédez-y depuis l’éditeur de personnalisation dans le groupe de champs **SystemComputedAttributes**. À partir de là, ajoutez les attributs calculés à vos expressions, en les traitant comme n’importe quel autre attribut de profil, afin d’effectuer les opérations souhaitées.
 
 ![](assets/computed-attributes-ajo.png)
+
++++Assistant AI — Contexte de la page
+
+- **TL;DR:** Découvrez comment créer des attributs calculés sur Adobe Experience Platform et les exploiter dans Journey Optimizer pour la segmentation, la personnalisation et la logique de parcours.
+
+**Intentions:**
+- Découvrez ce que sont les attributs calculés et en quoi ils diffèrent des attributs de profil standard
+- Créez des attributs calculés en combinant des attributs d’événement, des fonctions d’agrégat et une période de recherche en amont
+- Ajoutez le groupe de champs SystemComputedAttributes à la source de données Experience Platform dans AJO
+- Utilisez des attributs calculés dans les conditions de parcours, la création d’audiences et la personnalisation des messages
+
+**Glossaire:**
+- **Attribut calculé** : attribut de profil dérivé de données d’événement comportemental agrégées, stocké dans les profils client *(spécifiques au produit)*
+- **Période de recherche en amont** : période appliquée lors du calcul de la règle d’agrégation d’un attribut calculé (par exemple, « 3 derniers mois ») *(spécifique au produit)*
+- **Groupe de champs SystemComputedAttributes** : groupe de champs de la source de données AJO Experience Platform qui expose tous les attributs calculés publiés à utiliser dans les parcours et les *de personnalisation (spécifiques au produit)*
+- **Schéma d’union des profils** : schéma fusionné qui combine tous les fragments de profil pour une identité donnée, où sont stockés les attributs calculés
+
+**Mécanismes de sécurisation :**
+- Nécessite des autorisations **Afficher les attributs calculés** et **Gérer les attributs calculés** pour accéder à la fonctionnalité
+- Les attributs calculés doivent être **publiés** dans AEP avant d’être disponibles en aval dans Journey Optimizer
+- Les attributs calculés doivent être explicitement ajoutés à la source de données **&#x200B;**&#x200B;dans AJO avant de pouvoir être utilisés dans les parcours ou la personnalisation
+- Les attributs calculés sont basés sur des jeux de données d’événements d’expérience activés pour Profile ingérés dans Adobe Experience Platform
+
+**Terminologie:**
+- Nom canonique : Adobe Journey Optimizer — Acronyme : AJO — Variantes : Journey Optimizer, A-JO
+- Nom canonique : Adobe Experience Platform — Acronyme : AEP
+- Synonymes : « attributs calculés » = « attributs de profil calculés »
+- Ne les confondez pas : « attributs calculés » (fonctionnalité agrégée spécifique à AEP/AJO) ≠ « attributs de profil » génériques
+
+**FAQ:**
+- **Q : Que sont les attributs calculés ?** : données comportementales agrégées relatives aux événements (par exemple, total des achats, dernier élément consulté) stockées en tant qu’attributs de profil sur AEP et utilisables dans AJO.
+- **Q : Ai-je besoin d’autorisations spéciales ?** — Oui : les options « Afficher les attributs calculés » et « Gérer les attributs calculés » sont toutes deux requises.
+- **Q : Comment rendre les attributs calculés disponibles dans Journey Optimizer ?** — Ajoutez le groupe de champs `SystemComputedAttributes` à la source de données Experience Platform sous Configurations > Sources de données.
+- **Q : Où puis-je utiliser les attributs calculés dans AJO ?** : dans les activités Condition (fractionnement de parcours), la création d’audiences et l’éditeur de personnalisation.
+- **Q : Qu’est-ce qu’une période de recherche en amont ?** — Fenêtre temporelle utilisée pour définir la règle d’agrégation, par exemple « somme des achats au cours des 3 dernières semaines ».
+- **Q : Puis-je utiliser des attributs calculés dans les parcours en temps réel ?** — Oui, une fois publiés et ajoutés à la source de données, ils sont accessibles comme tout autre attribut de profil.
+
++++

@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 93%
+source-wordcount: 394
+ht-degree: 81%
 
 ---
 
@@ -34,9 +34,10 @@ ht-degree: 93%
 
 ## Prévisualiser votre notification push {#preview-push}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier la façon dont celui-ci s’affiche dans le message.
+Une fois le contenu de votre message défini, vous pouvez prévisualiser son contenu à l’aide de l’une des méthodes de simulation suivantes :
 
-Pour ce faire, cliquez sur **[!UICONTROL Simuler le contenu]**. Vous pouvez ensuite sélectionner le type d’appareil sur lequel prévisualiser le contenu : **&#x200B;**, **[!UICONTROL Android]** ou **[!UICONTROL Web]**.
+* Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)
+* Cliquez sur **[!UICONTROL Simuler du contenu]** puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour afficher un aperçu avec des profils de test. Vous pouvez ensuite sélectionner le type d’appareil sur lequel prévisualiser le contenu : **&#x200B;**, **[!UICONTROL Android]** ou **[!UICONTROL Web]**.
 
 ![](assets/push_preview_3.png)
 
