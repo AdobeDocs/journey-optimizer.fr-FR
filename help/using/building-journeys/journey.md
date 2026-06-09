@@ -34,7 +34,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 1614
 ht-degree: 97%
@@ -353,7 +353,7 @@ Validez les parcours avec des profils de test avant la mise en ligne et prévisu
 
 Dupliquez des parcours dans les sandbox pour rationaliser les workflows de test et de déploiement.
 
-[Copier les parcours](copy-to-sandbox.md)
+[Copier les parcours](../configuration/copy-objects-to-sandbox.md#objects)
 :::
 
 :::

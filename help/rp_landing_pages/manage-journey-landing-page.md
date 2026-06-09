@@ -5,7 +5,7 @@ title: Gérer vos parcours
 description: Gérer vos parcours
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
@@ -84,5 +84,5 @@ Découvrez comment les parcours se terminent, notamment la fermeture, l’arrêt
 
 ## Ressources supplémentaires
 
-- **[Copier un parcours dans un autre sandbox](../using/building-journeys/copy-to-sandbox.md)** : découvrez comment transférer des parcours et des objets dépendants entre des environnements sandbox à l’aide d’exports et d’imports de packages.
-- **[Intégrer des services intelligents](../using/building-journeys/ai-services-overview.md)** : tirez parti de l’IA et du machine learning pour la prédiction du comportement des clientes et clients et la mesure de l’impact des campagnes avec les services intelligents Adobe.
+- **[Copier un parcours dans un autre sandbox](../using/configuration/copy-objects-to-sandbox.md#objects)** : découvrez comment transférer des parcours et des objets dépendants entre des environnements sandbox à l’aide d’exports et d’imports de packages.
+- **[Intégrer des services intelligents](../using/integrations/intelligent-services.md)** : tirez parti de l’IA et du machine learning pour la prédiction du comportement des clientes et clients et la mesure de l’impact des campagnes avec les services intelligents Adobe.

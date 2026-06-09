@@ -26,7 +26,7 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
 source-wordcount: 1007
 ht-degree: 99%
@@ -121,7 +121,7 @@ Les services intelligents Adobe, intégrés nativement à Real-Time Customer Dat
 
 L’IA dédiée aux clients et clientes permet aux marques de créer des scores d’attrition ou de conversion basés sur le machine learning, qui seront disponibles sous forme d’attributs de profil dans Adobe Experience Platform et prêts à être utilisés pour personnaliser un parcours.
 
-En savoir plus sur [Journey Optimizer + les services intelligents Adobe](../building-journeys/ai-services-overview.md).
+En savoir plus sur [Journey Optimizer + les services intelligents Adobe](intelligent-services.md).
 
 
 ## Adobe Campaign {#integration-ac}

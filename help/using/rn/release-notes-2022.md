@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 3603
 ht-degree: 99%
@@ -524,7 +524,7 @@ table>
 <tr>
 <td>
 <p>Vous pouvez désormais recréer les expériences d’un sandbox Journey Optimizer à un autre, par exemple d’un sandbox hors production vers un sandbox de production. Cette nouvelle fonctionnalité permet de copier d’une sandbox à une autre un parcours complet, y compris tous les objets nécessaires à son bon fonctionnement. Outre les parcours, vous pouvez également copier d’autres composants, tels que les offres, les messages, les schémas, les jeux de données, les sources de données, les événements et les actions.</p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/copy-to-sandbox.md">documentation détaillée</a>.
+<p>Pour plus d’informations, consultez la <a href="../configuration/copy-objects-to-sandbox.md">documentation détaillée</a>.
 </td>
 </tr>
 </tbody>
