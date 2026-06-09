@@ -22,16 +22,22 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 100%
+source-wordcount: 748
+ht-degree: 85%
 
 ---
 
 # Créer un message LINE {#create-line}
 
 ## Ajouter un message LINE {#create-line-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_line"
+>title="Action LINE"
+>abstract="Une action de canal LINE envoie un message LINE aux profils lorsqu&#39;ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration LINE qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
 
 Accédez aux onglets ci-dessous pour savoir comment ajouter un message LINE dans une campagne ou un parcours.
 
@@ -114,7 +120,7 @@ Pour configurer votre contenu LINE, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu.
 
-1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu de votre message LINE et le contenu personnalisé.
+1. Utilisez **[!UICONTROL Simuler du contenu]** pour prévisualiser le contenu de votre message LINE et le contenu personnalisé. [En savoir plus](send-line.md)
 
 Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez envoyer votre message LINE à votre audience. Ces étapes sont présentées sur [cette page](send-line.md).
 

@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 2305
-ht-degree: 91%
+source-wordcount: 2405
+ht-degree: 87%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 91%
 >id="ajo_campaigns_inapp_triggers"
 >title="Gérer des déclencheurs in-app"
 >abstract="Contrôlez efficacement vos déclencheurs en sélectionnant les événements et critères spécifiques qui activeront vos messages. Avec le créateur de règles, les personnes peuvent définir des conditions et des valeurs précises. Lorsque ces conditions sont remplies, elles déclenchent une série d’actions, y compris la diffusion de messages in-app."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_in_app"
+>title="Action de message in-app"
+>abstract="Une action entrante Message in-app affiche un message in-app aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration in-app qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Wait** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps d’afficher le message in-app."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
 
 Vous pouvez ajouter un message in-app dans une campagne ou dans un parcours. Suivez les étapes détaillées ci-dessous pour créer un message in-app dans les deux contextes.
 

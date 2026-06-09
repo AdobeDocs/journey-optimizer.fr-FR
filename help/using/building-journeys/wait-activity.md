@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 884
-ht-degree: 85%
+source-wordcount: 908
+ht-degree: 80%
 
 ---
 
@@ -132,8 +132,8 @@ Exemple : si un profil est qualifié pour une audience « client ou cliente S
 ## Nœud d’attente automatique  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_auto_wait_node "
+>id="ajo_journey_auto_wait_node"
 >title="À propos du nœud d’attente automatique"
->abstract="Une activité **Attente** est automatiquement ajoutée après cette activité. Elle est définie pour 3 jours. Vous pouvez la modifier et la configurer selon vos besoins."
+>abstract="Un nœud **Wait** est automatiquement inséré après cette action entrante. Elle est définie sur 3 jours par défaut, ce qui garantit que les profils restent dans le parcours suffisamment longtemps pour afficher le message ou l’expérience. Vous pouvez mettre à jour la durée d’attente ou supprimer ce nœud si votre cas d’utilisation le requiert."
 
 Chaque activité d’expérience entrante (message in-app, expérience basée sur du code ou vignette) est fournie avec une activité **Attente** de 3 jours. Comme les messages entrants se terminent automatiquement lorsqu’un profil atteint la fin du parcours, nous supposons que vous souhaitez que vos utilisateurs et utilisatrices la voient pendant au moins 3 jours. Vous pouvez supprimer cette activité **Attente** ou modifier sa configuration si nécessaire.

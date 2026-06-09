@@ -22,14 +22,21 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 968
-ht-degree: 73%
+source-wordcount: 1066
+ht-degree: 66%
 
 ---
 
 # Créer une notification push {#create-push-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_push"
+>title="Action Notification push"
+>abstract="Une action de canal de notification push envoie une notification push aux profils lorsqu&#39;ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration push qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"

@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 3633
-ht-degree: 76%
+source-wordcount: 3646
+ht-degree: 75%
 
 ---
 
@@ -178,9 +178,9 @@ Les paramètres de temporisation contrôlent la durée pendant laquelle un parco
 ### Temporisation des activités du parcours {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timeout"
+>id="ajo_journey_action_timeout"
 >title="Temporisation ou erreur"
->abstract="Indiquez la durée pendant laquelle le parcours doit tenter d’effectuer une action ou d’évaluer une condition avant de considérer qu’elle a expiré. Les valeurs recommandées sont comprises entre 1 et 30 secondes."
+>abstract="L’option **Temporisation ou erreur** définit un autre chemin d’accès dans le parcours lorsque l’action expire ou renvoie une erreur, de sorte que les profils continuent via un chemin de secours plutôt que de s’arrêter à cette étape. Les valeurs recommandées sont comprises entre 1 et 30 secondes."
 
 Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d’erreur ou de temporisation. Si la durée de traitement de l’activité qui interroge un système tiers dépasse la durée de temporisation définie dans le champ **[!UICONTROL Temporisation ou erreur]** des propriétés du parcours, le deuxième chemin d’accès est choisi pour effectuer une éventuelle action de remplacement.
 

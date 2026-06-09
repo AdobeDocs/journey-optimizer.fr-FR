@@ -25,14 +25,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1646
-ht-degree: 89%
+source-wordcount: 1741
+ht-degree: 81%
 
 ---
 
 # Créer des expériences web {#create-web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_web"
+>title="Action web"
+>abstract="Une action entrante d’expérience web affiche une expérience web aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail du parcours et l’action fait référence à une configuration web qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Attente** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps d’afficher l’expérience web."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
 
 [!DNL Journey Optimizer] vous permet de personnaliser l’expérience web que vous diffusez à vos clientes et clients par le biais de campagnes ou parcours entrants.
 
@@ -166,9 +172,10 @@ Pour commencer à créer votre expérience web, procédez comme suit.
 >title="Prévisualiser votre expérience web."
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience web."
 
-Une fois que vous avez [créé votre expérience web](web-visual-editor.md) grâce au concepteur web, vous pouvez afficher un aperçu de vos pages web modifiées. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu à l’aide des données de profil de test.
+Une fois que vous avez [créé votre expérience web](web-visual-editor.md) à l’aide du concepteur web, vous pouvez prévisualiser vos pages web modifiées à l’aide de l’une des méthodes de simulation suivantes :
 
-Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]** depuis l’écran de modification de contenu de la campagne ou du parcours, puis ajoutez un profil de test pour vérifier votre page web à l’aide des données du profil de test.
+* Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)
+* Cliquez sur **[!UICONTROL Simuler du contenu]** puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour afficher un aperçu avec des profils de test et ajouter un profil de test pour vérifier votre page web.
 
 ![](assets/web-designer-preview.png)
 

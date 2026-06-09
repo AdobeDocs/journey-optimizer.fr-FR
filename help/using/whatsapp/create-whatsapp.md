@@ -23,10 +23,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1036
-ht-degree: 81%
+source-wordcount: 1130
+ht-degree: 73%
 
 ---
 
@@ -67,6 +67,12 @@ Notez que les boutons interactifs **Copier le code** ne sont pas pris en charge.
 +++
 
 ## Ajouter un message WhatsApp {#create-whatsapp-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_whatsapp"
+>title="Action WhatsApp"
+>abstract="Une action de canal WhatsApp envoie un message WhatsApp aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail du parcours et l’action fait référence à une configuration WhatsApp qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
 
 Accédez aux onglets ci-dessous pour savoir comment ajouter un message WhatsApp à une campagne ou un parcours.
 
@@ -169,7 +175,7 @@ Notez que votre modèle WhatsApp doit d’abord être approuvé par Meta avant d
 
    ![](assets/whatsapp-design-4.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu de votre message WhatsApp, les URL raccourcies et le contenu personnalisé. [En savoir plus](send-whatsapp.md)
+1. Utilisez **[!UICONTROL Simuler du contenu]** pour prévisualiser le contenu de votre message WhatsApp, les URL raccourcies et le contenu personnalisé. [En savoir plus](send-whatsapp.md)
 
 Une fois vos tests effectués et votre contenu validé, vous pouvez [envoyer votre message WhatsApp](send-whatsapp.md) à votre audience et surveiller ses performances à l’aide des [rapports](../reports/campaign-global-report-cja.md). Pour les données d’interaction WhatsApp stockées dans Experience Platform, voir [Analyser les interactions WhatsApp](send-whatsapp.md#whatsapp-channel-context).
 
@@ -192,7 +198,7 @@ Une fois vos tests effectués et votre contenu validé, vous pouvez [envoyer vot
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
@@ -206,7 +212,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 

@@ -11,14 +11,25 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 86%
+source-wordcount: 1755
+ht-degree: 76%
 
 ---
 
 # Créer des cartes de contenu {#create-content-card}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_content_card"
+>title="Action de la carte de contenu"
+>abstract="Une action entrante de carte de contenu affiche une carte de contenu aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail du parcours et l’action fait référence à une configuration de carte de contenu qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Attente** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps d’afficher la carte de contenu."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+
+
+Les cartes de contenu sont des expériences in-app entrantes qui affichent du contenu personnalisé (tel que des promotions, des annonces ou des recommandations) directement dans une surface dédiée de votre application mobile. Contrairement aux messages d’interruption, ils restent disponibles dans l’application jusqu’à ce que l’utilisateur les ferme ou que vos règles de diffusion les masquent.
+
+Cette page explique comment créer une carte de contenu et définir son contenu, dans le cadre d’un [parcours &#x200B;](../building-journeys/journey-gs.md) ou d’une [campagne](../campaigns/create-campaign.md). Une fois la carte ajoutée, vous pouvez la concevoir, définir des règles de diffusion supplémentaires qui contrôlent à quel moment elle est affichée, ignorée ou masquée de manière permanente, et exécuter des expériences de contenu pour optimiser ses performances.
 
 >[!IMPORTANT]
 >

@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1190
-ht-degree: 74%
+source-wordcount: 1232
+ht-degree: 66%
 
 ---
 
@@ -53,6 +53,12 @@ Pour créer des messages de publipostage direct, créez une campagne planifiée 
 
 ## Ajouter un message de publipostage direct {#create-dm-campaign}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_direct_mail"
+>title="Action Courrier"
+>abstract="Une action de canal Courrier génère le contenu du publipostage direct pour les profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration de publipostage direct qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+
 Parcourez les onglets ci-dessous pour savoir comment ajouter un Message de publipostage direct dans une campagne ou un parcours.
 
 >[!BEGINTABS]
@@ -71,9 +77,7 @@ Parcourez les onglets ci-dessous pour savoir comment ajouter un Message de publi
 
    ![Éditeur de contenu de fichier d&#39;extraction pour une activité de parcours courrier](assets/direct-mail-journey-content.png)
 
-1. Une fois le contenu du fichier d’extraction défini, vous pouvez utiliser des profils de test pour le prévisualiser. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
-
-   Pour ce faire, cliquez sur **[!UICONTROL Simuler le contenu]**, puis ajoutez un profil de test pour vérifier le rendu du fichier d’extraction à l’aide des données du profil de test. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
+1. Une fois le contenu du fichier d’extraction défini, prévisualisez-le à l’aide de l’option **[!UICONTROL Simuler du contenu]**. [Découvrir comment prévisualiser et tester votre contenu](../content-management/preview-test.md)
 
    ![Simuler l’aperçu du contenu pour un fichier d’extraction de publipostage direct](assets/direct-mail-simulate.png){width="800" align="center"}
 
