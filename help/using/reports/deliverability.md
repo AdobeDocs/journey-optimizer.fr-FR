@@ -9,12 +9,25 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 TQID: https://experienceleague.adobe.com/7EdZZJgxpZA2AtSo-lMpMEDV6C9zk78mmvNVhe5KXcw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
 workflow-type: tm+mt
 source-wordcount: 1347
@@ -192,7 +205,7 @@ Tous les FAI ne fournissent pas un FBL traditionnel. Plusieurs grands fournisseu
 |---|---|
 | **Gmail / Google Workspace** | Non : création de rapports agrégés uniquement via les outils Google Postmaster (Feedback-ID ; non par destinataire). [En savoir plus](https://support.google.com/a/answer/6254652?hl=fr){target="_blank"} |
 | **Apple iCloud** (icloud.com, me.com, mac.com) | Non — [En savoir plus](https://support.apple.com/en-us/102322){target="_blank"} |
-| Microsoft d’entreprise 365 / Exchange Online **** | Non — Le programme de création de rapports sur le courrier indésirable (JMRP) ne couvre que le réseau Outlook.com des clients ; les rapports indésirables des clients des environnements M365 d&#39;entreprise ne sont pas renvoyés à l&#39;expéditeur. [En savoir plus](https://learn.microsoft.com/en-us/answers/questions/5787589/does-the-junk-mail-reporting-program-(jmrp)-send-c){target="_blank"} |
+| Microsoft d’entreprise 365 / Exchange Online **&#x200B;**&#x200B;| Non — Le programme de création de rapports sur le courrier indésirable (JMRP) ne couvre que le réseau Outlook.com des clients ; les rapports indésirables des clients des environnements M365 d&#39;entreprise ne sont pas renvoyés à l&#39;expéditeur. [En savoir plus](https://learn.microsoft.com/en-us/answers/questions/5787589/does-the-junk-mail-reporting-program-(jmrp)-send-c){target="_blank"} |
 
 Ensemble, ces fournisseurs représentent la majorité des boîtes de réception des consommateurs et des entreprises. Étant donné qu’aucune d’elles ne renvoie de plaintes par destinataire, un destinataire qui utilise l’un de ces services et qui marque un message comme indésirable n’apparaîtra **pas** automatiquement dans la liste de suppression.
 
