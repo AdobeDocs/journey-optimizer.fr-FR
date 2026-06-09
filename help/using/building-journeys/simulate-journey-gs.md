@@ -11,9 +11,9 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: 1452
 ht-degree: 3%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >Vous avez besoin d’au moins de l’une des autorisations suivantes pour accéder à la fonction **[!UICONTROL Simulation]** : **Simuler des parcours**, **Publier des parcours** ou **Approuver et publier des parcours**. [En savoir plus](../administration/permissions.md)
+>
+>Pour utiliser l’IA dans **[!UICONTROL Simulation]** (**[!UICONTROL Simulation rapide]**, génération d’utilisateurs simulés avec l’IA **[!UICONTROL Générer des valeurs d’événement]**), les utilisateurs doivent disposer de l’autorisation **[!UICONTROL Générer le contenu]** de la fonctionnalité **[!UICONTROL Assistant IA]**.
 
 Vous pouvez définir le parcours sur **[!UICONTROL Simulation]** en plus de **Brouillon**, **Mode test** et **En direct**. Dans la simulation, vous testez avec des **utilisateurs simulés** : entités temporaires de type profil que vous ajoutez, sans utiliser de profils de test persistants dans Adobe Experience Platform.
 
