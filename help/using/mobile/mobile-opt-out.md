@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 80%
 
 ---
@@ -63,7 +63,7 @@ Notez que si un client répond STOP à un Message mobile, le fournisseur bloque 
 
 >[!NOTE]
 >
->Si vous prévoyez d’utiliser des SMS bidirectionnels (répondre par STOP, QUITTER, etc.), assurez-vous d’abord d’avoir envoyé au moins un SMS unidirectionnel pour établir le mapping du numéro de téléphone avec le profil. Les informations d’identification de fournisseur expirées ou mal configurées empêcheront les mots-clés entrants de mettre à jour le profil d’utilisateur ou d’utilisatrice, ce qui entraînera des enregistrements d’opt-out manquants ou retardés. Les réponses entrantes sont stockées dans le jeu de données système _Jeu de données d’événement d’activité entrant_. [En savoir plus](../data/get-started-datasets.md#system-datasets)
+>Si vous prévoyez d’utiliser des SMS bidirectionnels (répondre par STOP, QUITTER, etc.), assurez-vous d’abord d’avoir envoyé au moins un SMS unidirectionnel pour établir le mapping du numéro de téléphone avec le profil. Les informations d’identification de fournisseur expirées ou mal configurées empêcheront les mots-clés entrants de mettre à jour le profil d’utilisateur ou d’utilisatrice, ce qui entraînera des enregistrements d’opt-out manquants ou retardés. Les réponses entrantes sont stockées dans le jeu de données système _Jeu de données de suivi d’e-mail_. [En savoir plus](../data/get-started-datasets.md#system-datasets)
 
 
 ## Listes bloquées {#sms-blocklists}
