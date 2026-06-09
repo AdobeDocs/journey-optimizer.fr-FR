@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 76%
@@ -94,10 +94,8 @@ Ce comportement s’applique uniquement aux parcours Lecture d’audience non r�
 >[!NOTE]
 >
 >Ce comportement d’arrêt automatique ne s’applique **pas** aux parcours non récurrents qui incluent des nœuds provoquant des périodes d’attente, tels que les nœuds **Wait** (basés sur le minuteur), **Reaction** (qui attendent des événements tels que l’ouverture ou le clic d’un e-mail) ou les transitions déclenchées par un événement. Ces parcours restent soumis à la temporisation globale standard de 91 jours.
-
->[!NOTE]
 >
->Vous pouvez toujours fermer manuellement à tout moment un parcours Lecture d’audience non récurrent à l’aide de l’option **[!UICONTROL Fermer aux nouvelles entrées]**. Le comportement d’arrêt automatique permet simplement de s’assurer que le parcours s’arrête automatiquement lorsqu’il n’est plus nécessaire, sans nécessiter d’intervention manuelle.
+>Vous pouvez toujours fermer manuellement à tout moment un parcours Lecture d’audience non récurrent à l’aide de l’option [**[!UICONTROL Fermer aux nouvelles entrées]**](#close-to-new-entrances). Le comportement d’arrêt automatique permet simplement de s’assurer que le parcours s’arrête automatiquement lorsqu’il n’est plus nécessaire, sans nécessiter d’intervention manuelle.
 
 ### Quand un parcours est-il considéré comme « terminé » ? {#journey-finished-definition}
 
