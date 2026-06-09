@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
-source-wordcount: 1145
-ht-degree: 11%
+source-wordcount: 1178
+ht-degree: 6%
 
 ---
 
@@ -140,29 +140,39 @@ Attributs disponibles pour les activités **[!UICONTROL Événement personnalis�
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Articles éligibles et exclusions"
->abstract="Pour les activités **Achat** et **Dépense**, vous pouvez utiliser l’attribut **[!UICONTROL Articles éligibles et exclusions]** pour définir les articles et groupes éligibles et ceux qui sont exclus. Cela vous permet de cibler des produits, des catégories ou des emplacements spécifiques pour vous aligner sur les objectifs de votre défi. Par exemple, vous pouvez limiter une tâche de dépense à des catégories de produits spécifiques ou exclure les cartes-cadeaux ou les articles promotionnels du calcul de la progression de la tâche."
+>abstract="Pour les activités **Achat** et **Dépenses**, utilisez l’attribut **[!UICONTROL Éléments et exclusions éligibles]** pour sélectionner les éléments et les groupes qui comptent pour l’achèvement de la tâche et ceux qui sont exclus. Recherchez des articles ou des groupes dans l&#39;inventaire de produits configuré par les administrateurs, puis incluez-les ou excluez-les si nécessaire."
 
-<!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
+<!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 
-Pour les activités **Achat** et **Dépenses**, vous pouvez utiliser l’attribut **[!UICONTROL Articles et exclusions éligibles]** pour définir les articles et groupes éligibles et ceux qui sont exclus. Cela vous permet de cibler des produits, des catégories ou des emplacements spécifiques pour vous aligner sur les objectifs de votre défi. Les groupes de produits et les groupes d’exclusion chargés dans le menu **[!UICONTROL Administration du programme de fidélité]** sont disponibles lorsque vous configurez cet attribut. [Découvrez comment configurer l’inventaire et les exclusions de produits](loyalty-admin.md#product-inventory)
+Pour les activités **Achat** et **Dépenses**, vous pouvez utiliser la section **[!UICONTROL Articles et exclusions éligibles]** pour définir les articles et groupes éligibles et ceux qui sont exclus. Cela vous permet de cibler des produits, des catégories ou des emplacements spécifiques pour vous aligner sur les objectifs de votre défi.
+
+Les éléments et les groupes disponibles dans le sélecteur sont définis par les utilisateurs administrateurs dans le menu **[!UICONTROL Administrateur de la fidélité]**. Les administrateurs chargent l’inventaire des produits utilisés pour les articles éligibles et configurent les exclusions à l’échelle de l’organisation qui sont automatiquement appliquées lorsque les spécialistes marketing créent des tâches. [Découvrez comment configurer l’inventaire des produits](loyalty-admin.md#product-inventory) et les [&#x200B; exclusions](loyalty-admin.md#exclusions)
 
 **[!UICONTROL Événement personnalisé]** les tâches n’utilisent pas d’éléments et d’exclusions éligibles ; l’achèvement est déterminé par les **[!UICONTROL valeurs d’événement personnalisé]** que vous configurez.
 
 Par exemple, vous pouvez limiter une tâche à des catégories de produits spécifiques ou exclure les cartes-cadeaux ou les articles promotionnels du comptage pour terminer la tâche.
 
-![](assets/tasks-create-eligible.png)
+![](assets/task-create-eligible.png)
 
 ### Définir les éléments éligibles pour la tâche
 
-Pour définir des articles éligibles, saisissez des ID d’article, des catégories ou des ID de destination spécifiques, séparés par des virgules dans le champ **[!UICONTROL Les achats de tâches éligibles sont limités à ce qui suit]**. Si vous laissez ce champ vide, tous les achats sont éligibles par défaut. Vous pouvez également saisir des `*` pour rendre explicitement tous les achats éligibles.
+Pour définir des éléments éligibles, sélectionnez **[!UICONTROL Ajouter]** dans la section **[!UICONTROL Éléments éligibles et exclusions]**.
 
-Exemple : `SKU001, SKU002, CategoryA`
+Dans le sélecteur, sélectionnez les éléments ou les groupes qui doivent être pris en compte pour l’achèvement de la tâche, puis sélectionnez **[!UICONTROL Inclure]**. Les éléments et groupes inclus sont ajoutés à la liste éligible.
+
+![](assets/task-create-eligible-add.png)
+
+Si aucun article ou groupe éligible n&#39;est sélectionné, les achats ne sont pas limités à un jeu de stock spécifique, sauf si des exclusions sont configurées.
 
 ### Exclure des éléments de la tâche
 
-Pour exclure des éléments de la tâche, saisissez des ID d’élément, des catégories ou des ID de destination spécifiques dans le champ **[!UICONTROL Les éléments suivants sont exclus de cette tâche]**.
+Pour exclure des éléments de la tâche, sélectionnez **[!UICONTROL Ajouter]** dans la section **[!UICONTROL Éléments éligibles et exclusions]**.
 
-Exemple : `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+Sélectionnez les éléments ou les groupes qui ne doivent pas être pris en compte dans l’achèvement de la tâche, puis sélectionnez **[!UICONTROL Exclure]**.
+
+![](assets/task-create-exclusion-add.png)
+
+Les éléments de la liste d’exclusions globale sont automatiquement ajoutés en tant qu’exclusions. Les exclusions ont la priorité sur les inclusions : les éléments répertoriés comme exclus ne sont pas pris en compte, même s’ils font également partie d’un groupe inclus.
 
 ### Apporter vos propres données pour l&#39;éligibilité et les exclusions {#byod-personalization}
 
@@ -170,7 +180,7 @@ Exemple : `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
 >
 >L’option **[!UICONTROL Apportez vos propres données]** est actuellement disponible pour un nombre restreint d’organisations et sera disponible à une plus grande échelle dans une prochaine version.
 
-En plus de saisir des ID d’élément à rendre éligibles ou à exclure, vous pouvez également générer l’éligibilité à partir de vos données externes de défis de fidélité au moment de l’exécution à l’aide de l’option **[!UICONTROL Apporter vos propres données]**.
+Outre la sélection d’éléments et de groupes dans Journey Optimizer, vous pouvez également piloter l’éligibilité à partir de vos données externes de défis de fidélité au moment de l’exécution à l’aide de l’option **[!UICONTROL Apporter vos propres données]**.
 
 Lorsque l’option **[!UICONTROL Apporter vos propres données]** est sélectionnée, l’éligibilité par participant est résolue au moment de l’exécution à partir des données synchronisées avec votre environnement de défis de fidélité au lieu d’une liste d’ID d’élément.
 
