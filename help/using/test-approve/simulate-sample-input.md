@@ -2,32 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Simuler des variations de contenu
-description: Découvrez comment prévisualiser du contenu et envoyer un BAT d’e-mail en utilisant des exemples de données d’entrée provenant d’un fichier CSV ou JSON ou ajoutées manuellement.
+description: Découvrez comment prévisualiser les variations de contenu, générer automatiquement des variantes avec l’IA, gérer les profils de test et envoyer des BAT à partir de l’expérience Simuler des variations de contenu .
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+hide: true
+exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 86%
+source-wordcount: 1362
+ht-degree: 36%
 
 ---
 
@@ -36,11 +28,20 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simuler à l’aide d’un exemple d’entrée"
->abstract="Sur cet écran, vous pouvez tester différentes variantes de votre contenu en fournissant des valeurs pour les champs de personnalisation à l’aide d’un modèle CSV ou JSON, ou en saisissant manuellement les valeurs."
+>abstract="Dans cet écran, vous pouvez tester les variantes de contenu en les générant automatiquement avec l’IA, en ajoutant des valeurs par le biais d’un modèle CSV ou JSON, en les saisissant manuellement ou en utilisant des profils de test."
 
-[!DNL Journey Optimizer] vous permet de prévisualiser différentes variations de votre contenu à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement.
+Lorsque votre contenu inclut une personnalisation ou une logique conditionnelle, vous devez vérifier qu’il s’affiche correctement pour chaque type de destinataire avant de l’envoyer.
 
-Tous les attributs utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés dans vos tests afin de créer plusieurs variantes. Une variante fait référence à une version du contenu dont les attributs ont des valeurs différentes.
+L’expérience **[!UICONTROL Simuler des variations de contenu]** dans [!DNL Journey Optimizer] résout ce problème en vous permettant de tester plusieurs variantes de votre contenu à partir d’un seul écran, générées automatiquement avec l’IA, saisies manuellement, importées d’un fichier ou basées sur des utilisateurs simulés réutilisables. Vous pouvez prévisualiser le rendu et l’envoi des BAT de chaque variante, le tout sans créer au préalable de profils persistants dans Adobe Experience Platform.
+
+Dans votre contenu, cliquez sur **[!UICONTROL Simuler du contenu]** pour ouvrir une expérience unique dans laquelle vous pouvez :
+
+* **Générer automatiquement des variantes** à l’aide de l’IA pour couvrir les branches de personnalisation et conditionnelles
+* **Ajouter des variantes manuellement** ou à partir d’un fichier CSV ou JSON
+* **Utiliser des utilisateurs simulés** pour prévisualiser et tester avec des données de test enregistrées et réutilisables
+* **Prévisualisation** rendu et **envoi de BAT par e-mail** pour les variantes sélectionnées
+
+Tous les attributs utilisés dans votre contenu pour la personnalisation sont automatiquement détectés. Une variante est une version du contenu avec différentes valeurs pour ses attributs.
 
 >[!NOTE]
 >
@@ -53,7 +54,8 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 * **Canaux** : la simulation de variations de contenu est disponible pour :
 
    * les canaux E-mail, SMS et Notification push ;
-   * tous les canaux entrants (web, expérience basée sur du code, in-app, cartes de contenu).
+   * tous les canaux entrants (web, expérience basée sur le code, in-app, cartes de contenu) ;
+   * Campagnes orchestrées.
 
 * **Fonctionnalités prises en charge** : les variations de contenu peuvent être utilisées avec le contenu multilingue [!DNL Journey Optimizer] et des fonctionnalités d’expérience de contenu. Vous pouvez ainsi tester les messages dans plusieurs langues et optimiser le contenu grâce à l’expérimentation.
 
@@ -67,51 +69,51 @@ Avant de commencer à tester votre contenu à l’aide des exemples de données 
 
 * **Types de données** - Seuls les types de données suivants sont pris en charge lors de la saisie de données pour vos variantes : nombre (entier et décimal), chaîne, valeur booléenne et type de date. Tout autre type de données affiche une erreur.
 
-* **Nombre de variantes** : vous pouvez ajouter jusqu’à 30 variantes pour tester votre contenu, soit à l’aide d’un fichier, soit manuellement.
+* **Nombre de variantes** - Vous pouvez ajouter jusqu’à 30 variantes pour tester votre contenu lors de leur ajout à l’aide d’un fichier ou manuellement. Lors de l’utilisation de la génération automatique de l’IA, le système détermine le nombre de variantes à créer en fonction de votre contenu (champs de personnalisation et branches conditionnelles), jusqu’à un maximum de 40 variantes.
 
-## Ajouter et prévisualiser des variations de contenu
+## Créer des variantes de contenu
 
-Pour créer des variations pour votre contenu et les prévisualiser, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
+Pour créer des variations pour votre contenu, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
-![Bouton Simuler le contenu](assets/simulate-sample.png)
+Vous pouvez créer des variantes des manières suivantes :
 
-Les principales étapes pour tester votre contenu sont les suivantes :
+* [Ajouter des variantes manuellement ou depuis un fichier](#profiles).
+* [générer automatiquement des variantes](#auto-generate-variants) avec l’IA ;
+* [Sélectionnez des variantes parmi des utilisateurs simulés existants](#simulated-users).
 
-1. **Ajouter des variantes** : ajoutez jusqu’à 30 variantes avec des exemples de données d’entrée, soit en chargeant un fichier, soit en ajoutant manuellement les données. [Découvrir comment ajouter des variantes](#profiles)
-1. **Prévisualiser des variations de contenu** : vérifiez l’aperçu de votre contenu à l’aide des différentes variantes. [Découvrir comment prévisualiser votre contenu](#preview)
-1. **Envoyer des BAT d’e-mail** : pour du contenu d’e-mail, envoyez jusqu’à 10 BAT aux adresses e-mail à l’aide des différentes variantes. [Découvrir comment envoyer des BAT](#proofs)
+Une fois vos variantes créées, vous pouvez [prévisualiser votre contenu et envoyer des BAT](#preview-proofs).
 
-### Ajouter des variantes {#profiles}
+### Ajouter des variantes manuellement ou à partir d&#39;un fichier {#profiles}
 
-Lors de l’accès à l’expérience de variations de contenu, tous les champs de personnalisation utilisés dans votre contenu sont automatiquement détectés et affichés dans une liste de variantes vides.
+Lors de l’accès à l’expérience de variations de contenu, tous les champs de personnalisation utilisés dans votre contenu sont automatiquement détectés et affichés dans une variante vide.
 
-Par exemple, si votre e-mail contient deux champs de personnalisation « Ville » et « Solde des points du programme », ils apparaîtront dans la liste. Au départ, aucune valeur n’est saisie et aucun contenu personnalisé n’est affiché dans le volet d’aperçu.
+Par exemple, si votre e-mail contient deux champs de personnalisation : « Prénom » et « Ville », ils apparaîtront dans la liste. Au départ, aucune valeur n’est saisie et aucun contenu personnalisé n’est affiché dans le volet d’aperçu.
 
 ![Exemple de liste de variantes d’entrée](assets/simulate-custom-variants-list.png)
 
-Pour modifier la valeur d’une variante :
+Vous pouvez ajouter des variantes manuellement ou les charger à partir d’un fichier.
 
-1. Cliquez sur le bouton représentant des points de suspension en regard de la variante.
-1. Sélectionnez **[!UICONTROL Modifier]** pour fournir des valeurs personnalisées pour chaque champ de personnalisation.
-1. Le volet d’aperçu est mis à jour pour afficher le rendu de votre contenu avec les valeurs saisies.
++++ Ajouter manuellement des variantes
 
-Pour ajouter une nouvelle variante :
+Pour modifier la valeur de la variante par défaut, cliquez sur le bouton **[!UICONTROL Modifier]** afin de fournir des valeurs personnalisées pour chaque champ de personnalisation. Le volet d’aperçu est mis à jour pour afficher le rendu de votre contenu avec les valeurs saisies.
 
-1. Cliquez sur le bouton **[!UICONTROL Créer un exemple d’entrée]**.
-1. Une nouvelle variante vierge s’affiche, contenant tous les champs de personnalisation détectés.
-1. Modifiez la nouvelle variante selon vos besoins.
+Pour ajouter une nouvelle variante, cliquez sur le bouton **[!UICONTROL Créer un exemple]**. Une nouvelle variante vierge s’affiche, contenant tous les champs de personnalisation détectés. Vous pouvez modifier la nouvelle variante selon vos besoins.
 
 ![Bouton Créer un exemple d’entrée](assets/simulate-custom-add.png)
 
-Vous pouvez également charger un fichier avec des variantes et des valeurs prédéfinies pour accélérer le processus.
++++
 
-1. Cliquez sur **[!UICONTROL Télécharger l’exemple]** pour télécharger un modèle de fichier.
-1. Choisissez un format de fichier : CSV, JSON ou JSONLINES.
++++ Ajouter des variantes à partir d’un fichier
+
+Vous pouvez charger un fichier avec des variantes et des valeurs prédéfinies pour accélérer le processus.
+
+1. Cliquez sur le bouton **[!UICONTROL Télécharger des données]** pour ouvrir l’écran de chargement de fichier.
+1. Sélectionnez **[!UICONTROL Télécharger l’exemple]** pour télécharger un modèle de fichier CSV, JSON ou JSONLINES.
 1. Ouvrez le fichier de modèle et renseignez les valeurs souhaitées pour chaque attribut de profil. Le modèle inclut une colonne pour chaque attribut de profil utilisé dans votre contenu pour la personnalisation.
 
    Exemple de syntaxe JSON :
 
-   ```
+   ```json
    {
    "profile": {
        "attributes": {
@@ -126,22 +128,42 @@ Vous pouvez également charger un fichier avec des variantes et des valeurs pré
    }
    ```
 
-1. Une fois votre fichier prêt, cliquez sur **[!UICONTROL Charger les données d’entrée]** pour le charger.
-1. Après le chargement, une nouvelle variante est ajoutée à la liste pour chaque entrée dans le fichier.
+1. Une fois votre fichier prêt, sélectionnez **[!UICONTROL Confirmer]** pour le charger. Après le chargement, une nouvelle variante est ajoutée à la liste pour chaque entrée dans le fichier.
 
-   ![Exemples de variantes d’entrée chargés](assets/simulate-custom-variants.png)
++++
+
+### Générer automatiquement des variantes de contenu {#auto-generate-variants}
+
+[!DNL Journey Optimizer] pouvez utiliser la simulation basée sur l’IA pour générer automatiquement des variantes de contenu afin que vous puissiez valider votre logique de personnalisation sans créer de variantes manuellement. Le système analyse votre contenu, identifie les champs de personnalisation et les branches conditionnelles et crée autant de variantes que nécessaire pour les recouvrir de valeurs significatives afin d’obtenir un aperçu quasi réaliste.
+
+Pour générer automatiquement des variantes, cliquez sur le bouton **[!UICONTROL Générer]** et attendez que le système termine la génération. Passez en revue les variantes générées dans la liste des variantes et leur rendu dans le volet d’aperçu.
+
+![Bouton Générer les variantes](assets/simulate-variants-generate.png)
+
+>[!NOTE]
+>
+>Le nombre de variantes créées dépend de votre contenu. Les messages avec une simple personnalisation peuvent produire une seule variante, tandis que le contenu avec plusieurs branches conditionnelles peut produire plusieurs variantes. Cliquer sur **[!UICONTROL Générer]** remplace toutes les variantes de contenu existantes dans la liste, y compris celles que vous avez ajoutées manuellement ou à partir d’un fichier, par les variantes générées par l’IA.
+
+### Sélectionner des variantes à partir d’utilisateurs simulés {#simulated-users}
+
+Dans **[!UICONTROL Simuler des variations de contenu]**, vous pouvez baser vos variantes sur **utilisateurs simulés**. Les utilisateurs simulés sont des entités temporaires de type profil créées à des fins de test sans utiliser de profils persistants dans Adobe Experience Platform. Contrairement aux variantes ajoutées uniquement pour la session de navigateur actuelle, les utilisateurs simulés sont enregistrés et peuvent être réutilisés dans plusieurs parcours et par d’autres utilisateurs.
+
+Les utilisateurs simulés sont créés et gérés à partir de la fonctionnalité parcours **[!UICONTROL Simulation]**. Pour connaître la procédure complète permettant de les créer, de les enregistrer et de les réutiliser, voir [Création et gestion d’utilisateurs simulés](../building-journeys/simulate-journey.md#test-users).
+
+Une fois vos utilisateurs simulés créés, vous pouvez les utiliser pour prévisualiser votre contenu. Pour ce faire, procédez comme suit :
+
+1. Cliquez sur le bouton **[!UICONTROL Sélectionner les variantes]**.
+1. Dans la liste des utilisateurs simulés existants, sélectionnez ceux que vous souhaitez utiliser, puis cliquez sur **[!UICONTROL Sélectionner]**.
+
+   ![Sélectionner des utilisateurs simulés à utiliser comme variantes de contenu](assets/simulate-custom-simulated.png)
+
+1. Les utilisateurs simulés sélectionnés sont ajoutés à votre liste de variantes de contenu, où vous pouvez prévisualiser votre contenu avec leurs valeurs d’attribut. Vous pouvez également modifier manuellement les valeurs d’une variante à des fins de test, mais ces modifications ne sont pas réenregistrées par l’utilisateur simulé.
+
+## Prévisualiser le contenu et envoyer des BAT {#preview-proofs}
 
 Une fois les variantes ajoutées, vous pouvez les utiliser pour prévisualiser votre contenu dans le volet de droite et envoyer des BAT d’e-mail.
 
 ### Prévisualiser les variations de contenu {#preview}
-
-<!--
-The preview screen uses a **side-by-side layout** that displays multiple profiles simultaneously, so you can compare how your content renders for different recipients at a glance without switching between variants.
-
-![](assets/simulation-preview-redesign.png)
-
-To preview your content, select a variant from the list — the preview pane updates to show the content rendered with that variant's values. Select multiple variants to display them side by side for quick comparison.
--->
 
 Pour prévisualiser votre contenu à l’aide d’une variante, sélectionnez la variante appropriée dans la liste pour mettre à jour le contenu du volet d’aperçu avec les informations saisies pour cette variante.
 
@@ -151,11 +173,11 @@ Dans l’exemple ci-dessous, nous avons ajouté deux variantes pour l’objet d
 |----------|-------------|
 | ![Sélection de la variante 1](assets/simulate-custom-boxes.png) | ![Sélection de la variante 2](assets/simulate-custom-boxes2.png) |
 
-Pour le contenu et l’expérimentation multilingues, une liste déroulante est disponible pour basculer entre les différentes variantes ou traitements de langue.
+<!--
+For multilingual content and experimentation, a dropdown is available to switch between the different language variants or treatments.
 
-![&#x200B; Sélecteur de langue ou de traitement &#x200B;](assets/simulate-custom-experiment.png)
-
-Vous pouvez supprimer une variante à tout moment à l’aide du bouton représentant des points de suspension dans le coin supérieur droit et en sélectionnant **[!UICONTROL Supprimer]**. Pour modifier les informations d’une variante, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
+![Language or treatment selector](assets/simulate-custom-experiment.png)
+-->
 
 ### Envoyer des BAT {#proofs}
 

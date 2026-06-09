@@ -8,20 +8,14 @@ feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
-ht-degree: 43%
+source-wordcount: 1599
+ht-degree: 42%
 
 ---
 
@@ -76,14 +70,14 @@ L’icône **[!UICONTROL Alertes]** / **[!UICONTROL Avertissement]** de la bar
 
 Vous pouvez également identifier rapidement les activités ayant échoué à l’aide des [indicateurs visuels de statut](#activities) affichés directement sur chaque activité. Pour une résolution détaillée des problèmes, ouvrez les [journaux de la campagne](#logs-tasks) qui fournissent des informations détaillées sur l’erreur et son contexte.
 
-Si vous avez ajouté des activités de canal dans la zone de travail, vous pouvez prévisualiser et tester le contenu de vos messages à l’aide du bouton **[!UICONTROL Simuler le contenu]**. [Découvrez comment travailler avec les activités des canaux et simuler du contenu](activities/channels.md#simulate-content-test-profiles).
+Si vous avez ajouté des activités de canal dans la zone de travail, vous pouvez prévisualiser et tester le contenu de vos messages. [Découvrez comment travailler avec les activités des canaux et simuler du contenu](activities/channels.md#simulate-content-test-profiles).
 
 >[!TIP]
 >
 >Avant de cliquer sur **[!UICONTROL Publier]**, confirmez ce qui suit :
 >* La campagne s’est exécutée correctement en mode test sans erreur dans les [logs](#logs-tasks).
 >* Le contenu du message a été prévisualisé à l’aide de l’option **[!UICONTROL Simuler du contenu]**.
->* Le [&#x200B; planning est configuré &#x200B;](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
+>* Le [ planning est configuré ](create-orchestrated-campaign.md#schedule) s’il s’agit d’une campagne planifiée.
 >* Vous avez examiné le comportement [confirmation d’envoi](#confirm-sending) : pour les campagnes non récurrentes, aucun message n’est envoyé tant que vous n’avez pas explicitement approuvé l’envoi après la publication.
 
 ## Publier la campagne {#publish}

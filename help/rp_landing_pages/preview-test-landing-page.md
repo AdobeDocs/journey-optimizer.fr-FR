@@ -5,10 +5,10 @@ title: Prévisualiser et tester du contenu
 description: Validez la précision du message avant le lancement. Prévisualisez du contenu personnalisé avec des profils de test, envoyez des BAT aux parties prenantes, vérifiez le rendu des e-mails sur différents clients, évaluez les scores de spam et testez efficacement plusieurs variations de contenu.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 89%
+source-wordcount: '704'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ Garantissez une diffusion parfaite des messages en détectant les erreurs avant 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prévisualiser et tester votre contenu
 
@@ -38,7 +38,7 @@ Découvrez comment utiliser des profils de test et des exemples de données d’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Sélectionner des profils de test
 
@@ -48,7 +48,7 @@ Découvrez comment sélectionner et gérer des profils de test pour prévisualis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prévisualiser votre contenu à l’aide de profils de test
 
@@ -58,7 +58,7 @@ Guide détaillé pour la prévisualisation de contenu personnalisé à l’aide 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Envoyer des BAT à l’aide des données de profil de test
 
@@ -78,11 +78,11 @@ Intégrez Litmus pour prévisualiser le rendu des e-mails sur les principaux cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simuler et tester des variations de contenu
 
-Simulez des variations de contenu à l’aide d’exemples de données d’entrée pour tester le contenu personnalisé et garantir sa précision.
+Simulez des variations de contenu à l’aide de données d’entrée d’exemple ou de variantes générées par l’IA pour tester le contenu personnalisé et garantir sa précision.
 
 [Simuler des variations de contenu](../using/test-approve/simulate-sample-input.md)
 :::
@@ -123,7 +123,7 @@ Suivez cette séquence pour une validation complète :
 **Contexte :** exemples réels montrant comment appliquer des outils de test dans des cas d’utilisation standard.
 
 **Scénario 1 : test des e-mails personnalisés pour une campagne multisegment**
-→ Utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) pour tester 20 à 30 variations sans créer de profils de test individuels. Chargez un fichier CSV avec différents attributs clients et prévisualisez l’ensemble.
+→ Utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) pour tester jusqu’à 30 variations sans créer de profils de test individuels. Chargez un fichier CSV avec différents attributs de client, ajoutez manuellement des valeurs ou générez automatiquement des variantes avec l’IA et prévisualisez le tout en même temps.
 
 **Scénario 2 : validation du rendu des e-mails avant un envoi majeur**
 → Exécuter [tests Litmus](../using/content-management/rendering.md) pour vérifier l&#39;affichage sur les principaux clients de messagerie, puis vérifiez le [rapport de spam](../using/content-management/spam-report.md) pour vérifier que la boîte de réception est bien placée.
