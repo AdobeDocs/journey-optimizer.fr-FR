@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 8367
-ht-degree: 86%
+source-wordcount: 8429
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 86%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* La page **Prise en main de la délivrabilité** a été mise à jour avec une nouvelle sous-section **Fournisseurs sans FBL par destinataire**. Il répertorie les principaux fournisseurs de boîtes aux lettres qui ne renvoient pas de plaintes contre le spam par destinataire (Gmail/Google Workspace, Apple iCloud et Corporate Microsoft 365/Exchange Online) et explique pourquoi l&#39;absence d&#39;entrée de liste de suppression est attendue pour les destinataires utilisant ces services. [En savoir plus](../reports/deliverability.md#providers-no-fbl)
 
 * **Experience Decisioning est désormais disponible pour le canal courrier.** Une nouvelle page **Prise de décision par lots dans le publipostage direct** décrit comment utiliser le moteur de prise de décision pour personnaliser les fichiers d’extraction de publipostage direct ou pour exporter des profils et leurs résultats de prise de décision en vue de les utiliser dans des systèmes en aval. Le **publipostage direct** a été ajouté en tant que canal pris en charge dans la documentation de prise de décision (Prise en main, Création d’une politique de décision, Utilisation des politiques de décision dans les messages, Prise en main des politiques de décision), y compris la possibilité de renvoyer plusieurs éléments de décision par profil via le champ **[!UICONTROL Nombre d’éléments]**. [En savoir plus](../experience-decisioning/batch-decisioning-direct-mail.md)
 

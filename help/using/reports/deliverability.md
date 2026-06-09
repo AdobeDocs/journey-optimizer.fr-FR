@@ -28,10 +28,10 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 1347
-ht-degree: 81%
+source-wordcount: 1348
+ht-degree: 80%
 
 ---
 
@@ -133,9 +133,9 @@ Lorsqu’un utilisateur final ou une utilisatrice finale génère une plainte qu
 >Tous les FAI ne fournissent pas une FBL traditionnelle, Gmail par exemple. Gmail ne fournit pas de retour au niveau individuel et ne peut pas être utilisé pour suivre les plaintes relatives aux spams envoyées à des destinataires individuels, en se concentrant plutôt sur les rapports au niveau agrégé dans ses outils Google Postmaster Tools. [En savoir plus](#providers-no-fbl)
 
 
-L’ensemble des clientes et des clients Adobe est automatiquement inscrit sur les FBL traditionnelles des FAI suivants :
+Tous les clients Adobe sont automatiquement inscrits aux FBL traditionnels des FAI répertoriés ci-dessous.
 
-+++ FAI fournissant un FBL traditionnel
++++ Les FAI qui fournissent un FBL traditionnel :
 
 * 1&amp;1
 
