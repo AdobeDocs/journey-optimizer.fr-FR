@@ -32,7 +32,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
 workflow-type: tm+mt
 source-wordcount: 3917
 ht-degree: 55%
@@ -215,7 +215,7 @@ Par défaut, les parcours sont configurés pour une seule exécution. Pour défi
 >
 >Statut du Parcours **et délai d’expiration global de 91 jours :**
 >
->* **Non récurrent** Les parcours de lecture d’audience passent automatiquement au statut **Arrêté** une fois le dernier profil actif quitté, sauf si le parcours inclut des nœuds qui provoquent des périodes d’attente (nœuds d’attente, nœuds de réaction ou transitions déclenchées par un événement), auquel cas le délai d’attente global standard de 91 jours s’applique. [En savoir plus](end-journey.md#auto-stop-non-recurring)
+>* **Non récurrent** Les parcours de lecture d’audience passent automatiquement au statut **Arrêté** une fois le dernier profil actif quitté, sauf si le parcours inclut des nœuds qui provoquent des périodes d’attente (nœuds d’attente, nœuds de réaction ou transitions déclenchées par un événement), auquel cas le délai d’attente global standard [91 jours](journey-properties.md#global_timeout) s’applique. [En savoir plus](end-journey.md#auto-stop-non-recurring)
 >* **Récurrent** Lire les parcours d’audience sans date de fin **restent actifs** tant que le parcours est publié. Ils passent au statut **Terminé** 91 jours après l’exécution de leur **dernière occurrence**.
 >* La temporisation de 91 jours s’applique aux **profils** individuels traversant le parcours (durée maximale pendant laquelle un profil peut rester actif), et non au statut Actif du parcours.
 >* Le créneau de rapport de 91 jours **fenêtre de création de rapports** est un concept distinct : l’interface utilisateur affiche les données de performance d’environ 91 jours. Les données plus anciennes ne sont pas accessibles dans l’interface utilisateur, mais le parcours continue de s’exécuter. [En savoir plus](journey-properties.md#global_timeout)
