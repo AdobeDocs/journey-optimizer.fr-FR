@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: de6f48d5e9a775afc0d2fa0141eb775a24b2155e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: a6c2d7e9827b30995397540761522c680c237bc8
 workflow-type: tm+mt
-source-wordcount: 947
-ht-degree: 79%
+source-wordcount: 1046
+ht-degree: 72%
 
 ---
 
@@ -91,6 +81,12 @@ Pour envoyer des messages mobiles dans Journey Optimizer à l&#39;aide d&#39;un 
 1. Activez l’option **[!UICONTROL Prise en charge de mTLS]**, qui garantit que le client et le serveur s’authentifient mutuellement avant d’établir une connexion sécurisée.
 
    Pour utiliser mTLS uniquement, sélectionnez **[!UICONTROL Aucune authentification]** dans le menu déroulant **[!UICONTROL Type d’authentification]**, puis activez la **[!UICONTROL prise en charge de mTLS]**.
+
+   Notez que le protocole mTLS s’applique uniquement au point d’entrée du fournisseur SMS (envoi de messages). Le point d’entrée du jeton OAuth ne doit pas utiliser mTLS. Assurez-vous que mTLS est désactivé sur le point d’entrée du jeton avant de procéder au test.
+
+   >[!IMPORTANT]
+   >
+   >Configurez votre point d’entrée d’envoi SMS pour approuver la chaîne d’autorité de certification Adobe Experience Platform en téléchargeant le certificat public à partir de l’[API de certificat public MTLS](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) et en l’ajoutant à votre Trust Store serveur (CN client attendu : `ajo-sms.aep-mtls.adobe.com`), sinon Journey Optimizer omet le certificat client et la diffusion SMS échoue.
 
 1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un nouveau paramètre]** pour définir les en-têtes HTTP du message de requête à envoyer au service externe.
 
@@ -179,6 +175,8 @@ Une fois vos informations d’identification d’API créées, renseignez les ch
 * **[!UICONTROL URL OAuth]** : saisissez l’URL permettant d’obtenir le jeton OAuth.
 
 * **[!UICONTROL Corps OAuth]** : indiquez le corps de la requête OAuth au format JSON, y compris les paramètres tels que `grant_type`, `client_id` et `client_secret`.
+
+Journey Optimizer actualise dynamiquement les jetons OAuth lors de l’expiration du connecteur SMS personnalisé.
 
 ![](assets/sms-byop-oauth.png)
 
